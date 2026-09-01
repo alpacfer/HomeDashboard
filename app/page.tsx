@@ -114,10 +114,7 @@ export default function Home() {
         {status === 'error' && <span className="offline-dot" role="status" aria-label={staleDescription} title={staleDescription} />}
         </div>
         <div className="forecast-summary">
-          <h2>{forecast?.day === 'tomorrow' ? 'Tomorrow' : 'Today'} <span>· Upcoming</span></h2>
-          {forecasts.length > 1 && <div className="forecast-days" aria-label="Cycling between today and tomorrow">
-            {forecasts.map((item, index) => <span className={index === activeForecastIndex ? 'is-active' : ''} key={item.date}>{item.day === 'today' ? 'Today' : 'Tomorrow'}</span>)}
-          </div>}
+          <h2>{forecast?.day === 'tomorrow' ? 'Tomorrow' : 'Today'}</h2>
         </div>
         {forecast && forecast.slots.length ? <div className="forecast-timeline">
           {forecast.slots.map(slot => {

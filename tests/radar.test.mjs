@@ -1,15 +1,29 @@
 import { test } from 'node:test';
 import assert from 'node:assert/strict';
-import { forecastMapUrl } from '../app/radar.ts';
+import { parseRadarTimeline, radarApiUrl, radarTileUrl } from '../app/radar.ts';
 
-test('uses a future rain forecast map centered on home', () => {
-  const url = new URL(forecastMapUrl());
-  assert.equal(url.origin, 'https://embed.windy.com');
-  assert.equal(url.searchParams.get('overlay'), 'rain');
-  assert.equal(url.searchParams.get('product'), 'ecmwf');
-  assert.equal(url.searchParams.get('calendar'), 'now');
-  assert.equal(url.searchParams.get('play'), '1');
-  assert.equal(url.searchParams.get('detailLat'), '55.73825');
-  assert.equal(url.searchParams.get('detailLon'), '12.53836');
-  assert.equal(url.searchParams.get('radarRange'), '-1');
+test('uses the public precipitation radar feed', () => {
+  const url = new URL(radarApiUrl());
+  assert.equal(url.origin, 'https://api.rainviewer.com');
+  assert.equal(url.pathname, '/public/weather-maps.json');
+});
+
+test('parses recent radar frames and creates precipitation-only tile URLs', () => {
+  const now = 1_000_000;
+  const data = {
+    host: 'https://tilecache.rainviewer.com/',
+    radar: { past: [
+      { time: now - 1800, path: '/v2/radar/998200' },
+      { time: now - 1200, path: '/v2/radar/998800' },
+      { time: now + 1200, path: '/v2/radar/future' },
+    ] },
+  };
+  const timeline = parseRadarTimeline(data, now, 2);
+  assert.deepEqual(timeline.frames.map(frame => frame.time), [now - 1800, now - 1200]);
+  assert.match(radarTileUrl(timeline.host, timeline.frames[0]), /\/v2\/radar\/998200\/512\/\{z\}\/\{x\}\/\{y\}\/2\/1_1\.png$/);
+});
+
+test('rejects incomplete radar metadata', () => {
+  assert.equal(parseRadarTimeline({ host: 'https://tilecache.rainviewer.com', radar: { past: [] } }), null);
+  assert.equal(parseRadarTimeline({ host: 'http://tilecache.rainviewer.com', radar: { past: [{ time: 1, path: '/v2/radar/1' }] } }), null);
 });

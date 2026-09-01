@@ -24,7 +24,7 @@ test('adds tomorrow to the cycle at 20:00 Copenhagen, in summer and winter', () 
   ]);
 });
 
-test('today excludes every past hour and runs through the end of the day without separate extrema', () => {
+test('today excludes every past hour and keeps to working hours', () => {
   const data = fixture();
   data.hourly.temperature_2m.fill(90, 0, 16);
   data.hourly.temperature_2m[16] = 16;
@@ -32,26 +32,28 @@ test('today excludes every past hour and runs through the end of the day without
   data.hourly.temperature_2m[18] = 20;
   const forecast = buildForecast(data, new Date('2026-08-31T13:59:00Z'), { date: '2026-08-31', day: 'today' });
   assert.equal(forecast.slots[0].label, '16:00');
-  assert.equal(forecast.slots.at(-1).label, '23:00');
+  assert.equal(forecast.slots.at(-1).label, '18:00');
   assert.equal(forecast.slots.some(slot => 'high' in slot || 'low' in slot), false);
+  assert.equal(forecast.slots.some(slot => ['0:00', '2:00', '4:00', '5:00', '20:00', '22:00', '23:00'].includes(slot.label)), false);
   assert.ok(forecast.slots.every(slot => slot.timestamp * 1000 > Date.parse('2026-08-31T13:59:00Z')));
 });
 
-test('tomorrow covers the whole day without high or low labels', () => {
+test('tomorrow is limited to working hours without high or low labels', () => {
   const data = fixture();
   data.hourly.temperature_2m[29] = 7;
   data.hourly.temperature_2m[41] = 24;
   const forecasts = buildForecasts(data, new Date('2026-08-31T18:00:00Z'));
   const tomorrow = forecasts.find(item => item.day === 'tomorrow');
-  assert.equal(tomorrow.slots[0].label, '0:00');
-  assert.equal(tomorrow.slots.at(-1).label, '23:00');
+  assert.equal(tomorrow.slots[0].label, '6:00');
+  assert.equal(tomorrow.slots.at(-1).label, '18:00');
+  assert.equal(tomorrow.slots.length, 7);
   assert.equal(tomorrow.slots.some(slot => 'high' in slot || 'low' in slot), false);
 });
 
 test('rain probabilities describe the period until the next visible entry', () => {
   const data = fixture();
   data.hourly.precipitation_probability[17] = 70;
-  data.hourly.precipitation_probability[19] = 100;
+  data.hourly.precipitation_probability[18] = 100;
   const forecast = buildForecast(data, new Date('2026-08-31T13:59:00Z'), { date: '2026-08-31', day: 'today' });
   assert.equal(forecast.slots.find(slot => slot.label === '16:00').rain, 70);
   assert.equal(forecast.slots.find(slot => slot.label === '18:00').rain, 100);
@@ -92,7 +94,7 @@ test('spring and autumn daylight-saving days retain every real hourly interval',
     const indices = data.hourly.time.flatMap((t, i) => localTime(new Date(t * 1000)).date === date ? [i] : []);
     assert.equal(indices.length, expectedHours);
     const forecast = buildForecast(data, new Date(now), { date, day: 'tomorrow' });
-    assert.equal(forecast.slots.at(-1).label, '23:00');
+    assert.equal(forecast.slots.at(-1).label, '18:00');
   }
 });
 
