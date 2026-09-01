@@ -19,7 +19,7 @@ body { color:var(--foreground); font-family:'Space Grotesk',Arial,Helvetica,sans
 .separator { grid-column:3; grid-row:1; display:flex; flex-direction:column; align-items:center; justify-content:center; gap:.19em; height:1.12em; color:var(--accent); }
 .separator span { display:block; width:.105em; height:.105em; background:currentColor; border-radius:50%; }
 .is-live .separator { animation:live-pulse 2s ease-in-out infinite; }
-.clock-date { display:block; margin:0 0 2.8vh; padding:0 var(--panel-inset); color:var(--muted); font-size:1.2vw; line-height:1.1; letter-spacing:.08em; font-variant-numeric:tabular-nums; }
+.clock-date { display:flex; align-items:center; gap:.7em; margin:0 0 2.8vh; padding:0 var(--panel-inset); color:var(--muted); font-size:clamp(12px,1.2vw,24px); font-weight:700; line-height:1; letter-spacing:.14em; text-transform:uppercase; font-variant-numeric:lining-nums tabular-nums; }
 @keyframes live-pulse { 0%,100% {opacity:1;} 50% {opacity:.42;} }
 @keyframes digit-roll-in { from {opacity:0;transform:translateY(85%) rotateX(-35deg);} to {opacity:1;transform:translateY(0) rotateX(0);} }
 @keyframes digit-roll-out { from {opacity:1;transform:translateY(0) rotateX(0);} to {opacity:0;transform:translateY(-85%) rotateX(35deg);} }
