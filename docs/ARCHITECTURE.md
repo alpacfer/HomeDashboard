@@ -61,6 +61,8 @@ The browser calls `/api/departures`, never Rejseplanen directly. The route reads
 
 `RadarPanel` fetches RainViewer metadata in the browser, validates recent frames through `parseRadarTimeline()`, and builds precipitation tile URLs through `radarTileUrl()`. Leaflet is loaded only by the radar component. The map is an enhancement: an unavailable feed renders an in-panel status message and does not affect the clock or other scenes.
 
+The metadata refreshes every five minutes with browser caching disabled, and on reconnect or visibility resume. RainViewer supplies two hours of historical frames at ten-minute intervals, not a forecast. Each appearance starts with the newest frame held for eight seconds, followed by chronological playback. The timestamp distinguishes `Latest radar` from `Radar replay` and shows the frame's age. Freshness is checked every minute against the newest frame: a frame more than 30 minutes old triggers a delay warning even if the request succeeded. Failed refreshes retain the previous timeline with a warning. RainViewer timestamps describe composite frame generation; individual radar observations may be older.
+
 ## Change guide
 
 | If you need to change… | Start here | Also check |

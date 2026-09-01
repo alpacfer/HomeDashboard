@@ -3,6 +3,7 @@ export type RadarTimeline = { host: string; frames: RadarFrame[] };
 
 const RAIN_VIEWER_API = 'https://api.rainviewer.com/public/weather-maps.json';
 const MAX_FRAMES = 13;
+const STALE_AFTER_SECONDS = 30 * 60;
 
 export function radarApiUrl() {
   return RAIN_VIEWER_API;
@@ -31,6 +32,17 @@ export function parseRadarTimeline(value: unknown, nowSeconds = Date.now() / 100
     .sort((a, b) => a.time - b.time)
     .slice(-frameLimit);
   return frames.length ? { host, frames } : null;
+}
+
+export function radarFrameAgeMinutes(frame: RadarFrame, nowSeconds = Date.now() / 1000) {
+  return Math.max(0, Math.floor((nowSeconds - frame.time) / 60));
+}
+
+// Successful requests can still return a stalled feed. Judge freshness by the
+// newest frame's timestamp, never by when we downloaded it or the replay frame.
+export function isRadarTimelineStale(timeline: RadarTimeline, nowSeconds = Date.now() / 1000) {
+  const latest = timeline.frames.at(-1);
+  return !latest || nowSeconds - latest.time > STALE_AFTER_SECONDS;
 }
 
 // Universal Blue is RainViewer's current public precipitation palette. The

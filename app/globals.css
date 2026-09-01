@@ -147,6 +147,7 @@ a:focus-visible { outline:2px solid var(--foreground); outline-offset:8px; }
   .leaflet-tooltip.radar-place-label { padding:.6vw .85vw; font-size:1.45vw; }
   .radar-timestamp { top:2vw; left:2vw; gap:1.1vw; padding:1.1vw 1.35vw; font-size:2.3vw; }
   .radar-timestamp > span { width:1.1vw; height:1.1vw; }
+  .radar-stale { top:8vw; left:2vw; padding:1vw 1.35vw; font-size:1.8vw; }
   .radar-legend { left:1.2vw; bottom:1.2vw; grid-template-columns:auto 14vw auto; gap:1.2vw; padding:1.2vw 1.5vw; font-size:1.7vw; }
   .radar-legend i { height:1.1vw; }
   .fact-copy h2 { font-size:6.3vw; }

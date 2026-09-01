@@ -2,11 +2,11 @@
 
 import { useEffect, useMemo, useRef, useState } from 'react';
 import type { LayerGroup, Map } from 'leaflet';
-import { parseRadarTimeline, radarApiUrl, radarTileUrl, type RadarTimeline } from './radar';
+import { isRadarTimelineStale, parseRadarTimeline, radarApiUrl, radarFrameAgeMinutes, radarTileUrl, type RadarTimeline } from './radar';
 
 const MAP_REFRESH_MS = 5 * 60 * 1000;
 const FRAME_MS = 650;
-const FINAL_FRAME_MS = 2_400;
+const FINAL_FRAME_MS = 8_000;
 const HOME: [number, number] = [55.73825, 12.53836];
 const PLACES: Array<{ label: string; coordinates: [number, number]; home?: boolean }> = [
   { label: 'Home', coordinates: HOME, home: true },
@@ -32,6 +32,7 @@ export default function RadarPanel({ active }: { active: boolean }) {
   const [timeline, setTimeline] = useState<RadarTimeline | null>(null);
   const [frameIndex, setFrameIndex] = useState(0);
   const [status, setStatus] = useState<RadarStatus>('loading');
+  const [nowSeconds, setNowSeconds] = useState(0);
 
   useEffect(() => {
     let cancelled = false;
@@ -94,6 +95,7 @@ export default function RadarPanel({ active }: { active: boolean }) {
     let pending = false;
     const load = async () => {
       if (pending || document.hidden) return;
+      setNowSeconds(Date.now() / 1000);
       pending = true;
       const controller = new AbortController();
       const timeout = window.setTimeout(() => controller.abort(), 10_000);
@@ -105,7 +107,8 @@ export default function RadarPanel({ active }: { active: boolean }) {
         if (!cancelled) {
           hasTimeline.current = true;
           setTimeline(parsed);
-          setFrameIndex(0);
+          setFrameIndex(parsed.frames.length - 1);
+          setNowSeconds(Date.now() / 1000);
           setStatus('ready');
         }
       } catch {
@@ -117,12 +120,14 @@ export default function RadarPanel({ active }: { active: boolean }) {
     };
     void load();
     const refresh = window.setInterval(load, MAP_REFRESH_MS);
+    const ageCheck = window.setInterval(() => setNowSeconds(Date.now() / 1000), 60_000);
     const resume = () => { if (!document.hidden) void load(); };
     window.addEventListener('online', resume);
     document.addEventListener('visibilitychange', resume);
     return () => {
       cancelled = true;
       window.clearInterval(refresh);
+      window.clearInterval(ageCheck);
       window.removeEventListener('online', resume);
       document.removeEventListener('visibilitychange', resume);
     };
@@ -130,6 +135,11 @@ export default function RadarPanel({ active }: { active: boolean }) {
 
   const visibleFrame = timeline?.frames[Math.min(frameIndex, (timeline.frames.length || 1) - 1)] ?? null;
   const timestamp = useMemo(() => visibleFrame ? frameTime.format(new Date(visibleFrame.time * 1000)) : '—:—', [visibleFrame]);
+  const latestFrame = timeline?.frames.at(-1);
+  const isLatest = visibleFrame === latestFrame;
+  const ageMinutes = visibleFrame ? radarFrameAgeMinutes(visibleFrame, nowSeconds) : 0;
+  const staleByAge = timeline ? isRadarTimelineStale(timeline, nowSeconds) : false;
+  const frameLabel = `${isLatest ? 'Latest radar' : 'Radar replay'} · ${timestamp} · ${ageMinutes} min ago`;
 
   useEffect(() => {
     const L = leaflet.current;
@@ -156,12 +166,14 @@ export default function RadarPanel({ active }: { active: boolean }) {
 
   useEffect(() => {
     if (!active || !timeline?.frames.length) return;
-    let index = -1;
+    // Lead with the newest frame whenever the panel appears, then replay the
+    // history chronologically. Hold the newest image longer than the replay.
+    let index = timeline.frames.length - 1;
     let timer: number;
     const advance = () => {
-      index = (index + 1) % timeline.frames.length;
       setFrameIndex(index);
       timer = window.setTimeout(advance, index === timeline.frames.length - 1 ? FINAL_FRAME_MS : FRAME_MS);
+      index = (index + 1) % timeline.frames.length;
     };
     timer = window.setTimeout(advance, 0);
     const resize = window.requestAnimationFrame(() => map.current?.invalidateSize({ animate: false }));
@@ -173,12 +185,12 @@ export default function RadarPanel({ active }: { active: boolean }) {
 
   return <section className={'panel-scene radar-scene' + (active ? ' is-active' : '')} aria-hidden={!active} aria-label="Animated precipitation radar for Copenhagen and North Zealand">
     <div className="radar-map-frame">
-      <div className="radar-map-canvas" ref={canvas} role="img" aria-label={'Precipitation radar around Home, Copenhagen and Hillerød at ' + timestamp} />
-      {visibleFrame && <time className="radar-timestamp" dateTime={new Date(visibleFrame.time * 1000).toISOString()} aria-label={'Precipitation radar at ' + timestamp}>
-        <span />Precipitation · {timestamp}
+      <div className="radar-map-canvas" ref={canvas} role="img" aria-label={'Precipitation radar around Home, Copenhagen and Hillerød. ' + frameLabel} />
+      {visibleFrame && <time className="radar-timestamp" dateTime={new Date(visibleFrame.time * 1000).toISOString()}>
+        <span />{frameLabel}
       </time>}
       {(status === 'loading' || status === 'error') && <p className="radar-message">{status === 'loading' ? 'Loading precipitation…' : 'Precipitation map temporarily unavailable'}</p>}
-      {status === 'stale' && <p className="radar-stale">Precipitation data may be out of date</p>}
+      {(status === 'stale' || staleByAge) && <p className="radar-stale" role="status">{staleByAge && latestFrame ? `Radar delayed · newest frame ${radarFrameAgeMinutes(latestFrame, nowSeconds)} min ago` : 'Radar update failed · showing saved frames'}</p>}
       <div className="radar-legend" aria-label="Precipitation intensity from light to heavy">
         <span>Light</span><i /><span>Heavy</span>
       </div>
