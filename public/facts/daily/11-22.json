@@ -1,0 +1,90 @@
+{
+  "date": "11-22",
+  "dateLabel": "22 November",
+  "facts": [
+    {
+      "id": "11-22-spain-juan-fern-ndez-explorer",
+      "date": "11-22",
+      "dateLabel": "22 November",
+      "country": "spain",
+      "countryName": "Spain",
+      "kind": "events",
+      "year": 1574,
+      "title": "Juan Fernández",
+      "body": "1574: Spanish navigator Juan Fernández discovers islands now known as the Juan Fernández Islands off Chile.",
+      "source": {
+        "name": "Wikipedia · Juan Fernández (explorer)",
+        "url": "https://en.wikipedia.org/wiki/Juan_Fern%C3%A1ndez_(explorer)",
+        "calendarUrl": "https://en.wikipedia.org/wiki/November_22",
+        "license": {
+          "name": "CC BY-SA 4.0",
+          "url": "https://creativecommons.org/licenses/by-sa/4.0/"
+        }
+      },
+      "image": {
+        "src": "https://commons.wikimedia.org/wiki/Special:Redirect/file/Flag_of_Spain.svg?width=1000",
+        "alt": "The national flag of Spain.",
+        "credit": "Government of Spain",
+        "source": "https://commons.wikimedia.org/wiki/File:Flag_of_Spain.svg",
+        "license": "Public domain",
+        "licenseUrl": "https://commons.wikimedia.org/wiki/File:Flag_of_Spain.svg"
+      }
+    },
+    {
+      "id": "11-22-denmark-rasmus-rask",
+      "date": "11-22",
+      "dateLabel": "22 November",
+      "country": "denmark",
+      "countryName": "Denmark",
+      "kind": "births",
+      "year": 1787,
+      "title": "Rasmus Rask",
+      "body": "Rasmus Rask, Danish linguist, philologist, and scholar (died 1832), was born on this day in 1787.",
+      "source": {
+        "name": "Wikipedia · Rasmus Rask",
+        "url": "https://en.wikipedia.org/wiki/Rasmus_Rask",
+        "calendarUrl": "https://en.wikipedia.org/wiki/November_22",
+        "license": {
+          "name": "CC BY-SA 4.0",
+          "url": "https://creativecommons.org/licenses/by-sa/4.0/"
+        }
+      },
+      "image": {
+        "src": "https://upload.wikimedia.org/wikipedia/commons/3/30/Rasmus_Rask2.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+        "alt": "Portrait or image of Rasmus Rask.",
+        "credit": "Bærentzen, Emil (30.10.1799-14.2.1868)",
+        "source": "https://commons.wikimedia.org/wiki/File:Rasmus_Rask2.jpg",
+        "license": "Public domain",
+        "licenseUrl": "https://commons.wikimedia.org/wiki/File:Rasmus_Rask2.jpg"
+      }
+    },
+    {
+      "id": "11-22-greece-world-war-ii",
+      "date": "11-22",
+      "dateLabel": "22 November",
+      "country": "greece",
+      "countryName": "Greece",
+      "kind": "events",
+      "year": 1940,
+      "title": "World War II",
+      "body": "1940: World War II: Following the initial Italian invasion, Greek troops counterattack into Italian-occupied Albania and capture Korytsa.",
+      "source": {
+        "name": "Wikipedia · World War II",
+        "url": "https://en.wikipedia.org/wiki/World_War_II",
+        "calendarUrl": "https://en.wikipedia.org/wiki/November_22",
+        "license": {
+          "name": "CC BY-SA 4.0",
+          "url": "https://creativecommons.org/licenses/by-sa/4.0/"
+        }
+      },
+      "image": {
+        "src": "https://upload.wikimedia.org/wikipedia/commons/1/10/Bundesarchiv_Bild_101I-646-5188-17%2C_Flugzeuge_Junkers_Ju_87.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+        "alt": "Image related to World War II.",
+        "credit": "Bundesarchiv, Bild 101I-646-5188-17 / Opitz / CC-BY-SA 3.0",
+        "source": "https://commons.wikimedia.org/wiki/File:Bundesarchiv_Bild_101I-646-5188-17,_Flugzeuge_Junkers_Ju_87.jpg",
+        "license": "CC BY-SA 3.0 de",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0/de/deed.en"
+      }
+    }
+  ]
+}

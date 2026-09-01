@@ -1,0 +1,90 @@
+{
+  "date": "10-05",
+  "dateLabel": "5 October",
+  "facts": [
+    {
+      "id": "10-05-spain-treaty-of-zamora",
+      "date": "10-05",
+      "dateLabel": "5 October",
+      "country": "spain",
+      "countryName": "Spain",
+      "kind": "events",
+      "year": 1143,
+      "title": "Treaty of Zamora",
+      "body": "1143: With the signing of the Treaty of Zamora, King Alfonso VII of León and Castile recognises Portugal as a Kingdom.",
+      "source": {
+        "name": "Wikipedia · Treaty of Zamora",
+        "url": "https://en.wikipedia.org/wiki/Treaty_of_Zamora",
+        "calendarUrl": "https://en.wikipedia.org/wiki/October_5",
+        "license": {
+          "name": "CC BY-SA 4.0",
+          "url": "https://creativecommons.org/licenses/by-sa/4.0/"
+        }
+      },
+      "image": {
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/fc/Tratado_%2821238137571%29.jpg/1280px-Tratado_%2821238137571%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "alt": "Image related to Treaty of Zamora.",
+        "credit": "Aires Almeida from Portimão, Portugal",
+        "source": "https://commons.wikimedia.org/wiki/File:Tratado_(21238137571).jpg",
+        "license": "CC BY 2.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by/2.0"
+      }
+    },
+    {
+      "id": "10-05-denmark-friedrich-bernhard-westphal",
+      "date": "10-05",
+      "dateLabel": "5 October",
+      "country": "denmark",
+      "countryName": "Denmark",
+      "kind": "births",
+      "year": 1803,
+      "title": "Friedrich Bernhard Westphal",
+      "body": "Friedrich Bernhard Westphal, Danish-German painter (died 1844), was born on this day in 1803.",
+      "source": {
+        "name": "Wikipedia · Friedrich Bernhard Westphal",
+        "url": "https://en.wikipedia.org/wiki/Friedrich_Bernhard_Westphal",
+        "calendarUrl": "https://en.wikipedia.org/wiki/October_5",
+        "license": {
+          "name": "CC BY-SA 4.0",
+          "url": "https://creativecommons.org/licenses/by-sa/4.0/"
+        }
+      },
+      "image": {
+        "src": "https://commons.wikimedia.org/wiki/Special:Redirect/file/Flag_of_Denmark.svg?width=1000",
+        "alt": "The national flag of Denmark.",
+        "credit": "Danish government",
+        "source": "https://commons.wikimedia.org/wiki/File:Flag_of_Denmark.svg",
+        "license": "Public domain",
+        "licenseUrl": "https://commons.wikimedia.org/wiki/File:Flag_of_Denmark.svg"
+      }
+    },
+    {
+      "id": "10-05-greece-fourth-council-of-constantinople-roman-catholic",
+      "date": "10-05",
+      "dateLabel": "5 October",
+      "country": "greece",
+      "countryName": "Greece",
+      "kind": "events",
+      "year": 869,
+      "title": "Fourth Council of Constantinople",
+      "body": "869: The Fourth Council of Constantinople is convened to depose patriarch Photios I.",
+      "source": {
+        "name": "Wikipedia · Fourth Council of Constantinople (Catholic Church)",
+        "url": "https://en.wikipedia.org/wiki/Fourth_Council_of_Constantinople_(Catholic_Church)",
+        "calendarUrl": "https://en.wikipedia.org/wiki/October_5",
+        "license": {
+          "name": "CC BY-SA 4.0",
+          "url": "https://creativecommons.org/licenses/by-sa/4.0/"
+        }
+      },
+      "image": {
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/50/Cesare_Nebbia_%E2%80%93_Fourth_Council_of_Constantinople.jpg/1280px-Cesare_Nebbia_%E2%80%93_Fourth_Council_of_Constantinople.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "alt": "Image related to Fourth Council of Constantinople.",
+        "credit": "Cesare Nebbia",
+        "source": "https://commons.wikimedia.org/wiki/File:Cesare_Nebbia_%E2%80%93_Fourth_Council_of_Constantinople.jpg",
+        "license": "Public domain",
+        "licenseUrl": "https://commons.wikimedia.org/wiki/File:Cesare_Nebbia_%E2%80%93_Fourth_Council_of_Constantinople.jpg"
+      }
+    }
+  ]
+}

@@ -1,0 +1,90 @@
+{
+  "date": "12-25",
+  "dateLabel": "25 December",
+  "facts": [
+    {
+      "id": "12-25-spain-battle-of-tucapel",
+      "date": "12-25",
+      "dateLabel": "25 December",
+      "country": "spain",
+      "countryName": "Spain",
+      "kind": "events",
+      "year": 1553,
+      "title": "Battle of Tucapel",
+      "body": "1553: Battle of Tucapel: Mapuche rebels under Lautaro defeat the Spanish conquistadors and executes the governor of Chile, Pedro de Valdivia.",
+      "source": {
+        "name": "Wikipedia · Battle of Tucapel",
+        "url": "https://en.wikipedia.org/wiki/Battle_of_Tucapel",
+        "calendarUrl": "https://en.wikipedia.org/wiki/December_25",
+        "license": {
+          "name": "CC BY-SA 4.0",
+          "url": "https://creativecommons.org/licenses/by-sa/4.0/"
+        }
+      },
+      "image": {
+        "src": "https://upload.wikimedia.org/wikipedia/commons/6/6e/Pedro_de_Valdivia.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+        "alt": "Image related to Battle of Tucapel.",
+        "credit": "Federico de Madrazo y Kuntz",
+        "source": "https://commons.wikimedia.org/wiki/File:Pedro_de_Valdivia.jpg",
+        "license": "Public domain",
+        "licenseUrl": "https://commons.wikimedia.org/wiki/File:Pedro_de_Valdivia.jpg"
+      }
+    },
+    {
+      "id": "12-25-denmark-samuel-marsden",
+      "date": "12-25",
+      "dateLabel": "25 December",
+      "country": "denmark",
+      "countryName": "Denmark",
+      "kind": "events",
+      "year": 1814,
+      "title": "Samuel Marsden",
+      "body": "1814: Rev. Samuel Marsden holds the first Christian service on land in New Zealand at Rangihoua Bay.",
+      "source": {
+        "name": "Wikipedia · Samuel Marsden",
+        "url": "https://en.wikipedia.org/wiki/Samuel_Marsden",
+        "calendarUrl": "https://en.wikipedia.org/wiki/December_25",
+        "license": {
+          "name": "CC BY-SA 4.0",
+          "url": "https://creativecommons.org/licenses/by-sa/4.0/"
+        }
+      },
+      "image": {
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/96/Samuel_marsden.jpg/1280px-Samuel_marsden.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "alt": "Image related to Samuel Marsden.",
+        "credit": "Artist not credited",
+        "source": "https://commons.wikimedia.org/wiki/File:Samuel_marsden.jpg",
+        "license": "CC BY-SA 3.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0"
+      }
+    },
+    {
+      "id": "12-25-greece-leo-v-the-armenian",
+      "date": "12-25",
+      "dateLabel": "25 December",
+      "country": "greece",
+      "countryName": "Greece",
+      "kind": "events",
+      "year": 820,
+      "title": "Leo V",
+      "body": "820: Eastern Emperor Leo V is murdered in a church of the Great Palace of Constantinople by followers of Michael II.",
+      "source": {
+        "name": "Wikipedia · Leo V the Armenian",
+        "url": "https://en.wikipedia.org/wiki/Leo_V_the_Armenian",
+        "calendarUrl": "https://en.wikipedia.org/wiki/December_25",
+        "license": {
+          "name": "CC BY-SA 4.0",
+          "url": "https://creativecommons.org/licenses/by-sa/4.0/"
+        }
+      },
+      "image": {
+        "src": "https://upload.wikimedia.org/wikipedia/commons/8/89/Leo_V_in_Madrid_Skylitzes.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+        "alt": "Image related to Leo V.",
+        "credit": "Unknown authorUnknown author",
+        "source": "https://commons.wikimedia.org/wiki/File:Leo_V_in_Madrid_Skylitzes.jpg",
+        "license": "Public domain",
+        "licenseUrl": "https://commons.wikimedia.org/wiki/File:Leo_V_in_Madrid_Skylitzes.jpg"
+      }
+    }
+  ]
+}

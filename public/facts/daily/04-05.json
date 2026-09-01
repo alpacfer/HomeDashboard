@@ -1,0 +1,90 @@
+{
+  "date": "04-05",
+  "dateLabel": "5 April",
+  "facts": [
+    {
+      "id": "04-05-spain-battle-of-maip",
+      "date": "04-05",
+      "dateLabel": "5 April",
+      "country": "spain",
+      "countryName": "Spain",
+      "kind": "events",
+      "year": 1818,
+      "title": "Battle of Maipú",
+      "body": "1818: In the Battle of Maipú, Chile's independence movement, led by Bernardo O'Higgins and José de San Martín, win a decisive victory over Spain, leaving 2,000 Spaniards and 1,000 Chilean patriots dead.",
+      "source": {
+        "name": "Wikipedia · Battle of Maipú",
+        "url": "https://en.wikipedia.org/wiki/Battle_of_Maip%C3%BA",
+        "calendarUrl": "https://en.wikipedia.org/wiki/April_5",
+        "license": {
+          "name": "CC BY-SA 4.0",
+          "url": "https://creativecommons.org/licenses/by-sa/4.0/"
+        }
+      },
+      "image": {
+        "src": "https://upload.wikimedia.org/wikipedia/commons/1/17/BatallaDeMaipu.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+        "alt": "Image related to Battle of Maipú.",
+        "credit": "Johann Moritz Rugendas",
+        "source": "https://commons.wikimedia.org/wiki/File:BatallaDeMaipu.jpg",
+        "license": "Public domain",
+        "licenseUrl": "https://commons.wikimedia.org/wiki/File:BatallaDeMaipu.jpg"
+      }
+    },
+    {
+      "id": "04-05-denmark-soviet",
+      "date": "04-05",
+      "dateLabel": "5 April",
+      "country": "denmark",
+      "countryName": "Denmark",
+      "kind": "events",
+      "year": 1946,
+      "title": "Soviet",
+      "body": "1946: Soviet troops end their year-long occupation of the Danish island of Bornholm.",
+      "source": {
+        "name": "Wikipedia · Soviet Union",
+        "url": "https://en.wikipedia.org/wiki/Soviet_Union",
+        "calendarUrl": "https://en.wikipedia.org/wiki/April_5",
+        "license": {
+          "name": "CC BY-SA 4.0",
+          "url": "https://creativecommons.org/licenses/by-sa/4.0/"
+        }
+      },
+      "image": {
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a9/Flag_of_the_Soviet_Union.svg/1280px-Flag_of_the_Soviet_Union.svg.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "alt": "Image related to Soviet.",
+        "credit": "СССР",
+        "source": "https://commons.wikimedia.org/wiki/File:Flag_of_the_Soviet_Union.svg",
+        "license": "Public domain",
+        "licenseUrl": "https://commons.wikimedia.org/wiki/File:Flag_of_the_Soviet_Union.svg"
+      }
+    },
+    {
+      "id": "04-05-greece-giorgos-sideris",
+      "date": "04-05",
+      "dateLabel": "5 April",
+      "country": "greece",
+      "countryName": "Greece",
+      "kind": "births",
+      "year": 1938,
+      "title": "Giorgos Sideris",
+      "body": "Giorgos Sideris, Greek footballer, was born on this day in 1938.",
+      "source": {
+        "name": "Wikipedia · Giorgos Sideris",
+        "url": "https://en.wikipedia.org/wiki/Giorgos_Sideris",
+        "calendarUrl": "https://en.wikipedia.org/wiki/April_5",
+        "license": {
+          "name": "CC BY-SA 4.0",
+          "url": "https://creativecommons.org/licenses/by-sa/4.0/"
+        }
+      },
+      "image": {
+        "src": "https://commons.wikimedia.org/wiki/Special:Redirect/file/Flag_of_Greece.svg?width=1000",
+        "alt": "The national flag of Greece.",
+        "credit": "Greek government",
+        "source": "https://commons.wikimedia.org/wiki/File:Flag_of_Greece.svg",
+        "license": "Public domain",
+        "licenseUrl": "https://commons.wikimedia.org/wiki/File:Flag_of_Greece.svg"
+      }
+    }
+  ]
+}

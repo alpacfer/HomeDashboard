@@ -1,0 +1,90 @@
+{
+  "date": "02-02",
+  "dateLabel": "2 February",
+  "facts": [
+    {
+      "id": "02-02-spain-pedro-de-mendoza",
+      "date": "02-02",
+      "dateLabel": "2 February",
+      "country": "spain",
+      "countryName": "Spain",
+      "kind": "events",
+      "year": 1536,
+      "title": "Pedro de Mendoza",
+      "body": "1536: Spaniard Pedro de Mendoza founds Buenos Aires, Argentina.",
+      "source": {
+        "name": "Wikipedia · Pedro de Mendoza",
+        "url": "https://en.wikipedia.org/wiki/Pedro_de_Mendoza",
+        "calendarUrl": "https://en.wikipedia.org/wiki/February_2",
+        "license": {
+          "name": "CC BY-SA 4.0",
+          "url": "https://creativecommons.org/licenses/by-sa/4.0/"
+        }
+      },
+      "image": {
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/49/Buenos_Aires_-_San_Telmo_-_Parque_Lezama_-_20071215c.jpg/1280px-Buenos_Aires_-_San_Telmo_-_Parque_Lezama_-_20071215c.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "alt": "Image related to Pedro de Mendoza.",
+        "credit": "Taken by the uploader, w:es:Usuario:Barcex",
+        "source": "https://commons.wikimedia.org/wiki/File:Buenos_Aires_-_San_Telmo_-_Parque_Lezama_-_20071215c.jpg",
+        "license": "CC BY-SA 3.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0/"
+      }
+    },
+    {
+      "id": "02-02-denmark-battle-of-luneberg-heath",
+      "date": "02-02",
+      "dateLabel": "2 February",
+      "country": "denmark",
+      "countryName": "Denmark",
+      "kind": "events",
+      "year": 880,
+      "title": "Battle of Lüneburg Heath",
+      "body": "880: Battle of Lüneburg Heath: King Louis III of France is defeated by the Norse Great Heathen Army at Lüneburg Heath in Saxony.",
+      "source": {
+        "name": "Wikipedia · Battle of Lüneburg Heath",
+        "url": "https://en.wikipedia.org/wiki/Battle_of_L%C3%BCneburg_Heath",
+        "calendarUrl": "https://en.wikipedia.org/wiki/February_2",
+        "license": {
+          "name": "CC BY-SA 4.0",
+          "url": "https://creativecommons.org/licenses/by-sa/4.0/"
+        }
+      },
+      "image": {
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/0d/L%C3%BCneburger_Heide_109.jpg/1280px-L%C3%BCneburger_Heide_109.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "alt": "Image related to Battle of Lüneburg Heath.",
+        "credit": "Willow",
+        "source": "https://commons.wikimedia.org/wiki/File:L%C3%BCneburger_Heide_109.jpg",
+        "license": "CC BY 2.5",
+        "licenseUrl": "https://creativecommons.org/licenses/by/2.5"
+      }
+    },
+    {
+      "id": "02-02-greece-anna-of-savoy",
+      "date": "02-02",
+      "dateLabel": "2 February",
+      "country": "greece",
+      "countryName": "Greece",
+      "kind": "events",
+      "year": 1347,
+      "title": "Byzantine Empress Anna",
+      "body": "1347: Byzantine Empress Anna convenes a synod to depose patriarch Joseph XIV in Constantinople. The same night, conspirators let in her rival John VI Kantakouzenos which ends the Byzantine civil war of 1341–1347.",
+      "source": {
+        "name": "Wikipedia · Anna of Savoy",
+        "url": "https://en.wikipedia.org/wiki/Anna_of_Savoy",
+        "calendarUrl": "https://en.wikipedia.org/wiki/February_2",
+        "license": {
+          "name": "CC BY-SA 4.0",
+          "url": "https://creativecommons.org/licenses/by-sa/4.0/"
+        }
+      },
+      "image": {
+        "src": "https://upload.wikimedia.org/wikipedia/commons/1/1b/Anna_of_Savoy.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+        "alt": "Image related to Byzantine Empress Anna.",
+        "credit": "EmpressAnnaofSavoy.JPG: unknown, Byzantine period art derivative work: Constantine ✍",
+        "source": "https://commons.wikimedia.org/wiki/File:Anna_of_Savoy.jpg",
+        "license": "Public domain",
+        "licenseUrl": "https://commons.wikimedia.org/wiki/File:Anna_of_Savoy.jpg"
+      }
+    }
+  ]
+}

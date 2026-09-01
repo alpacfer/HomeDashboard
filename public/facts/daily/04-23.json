@@ -1,0 +1,90 @@
+{
+  "date": "04-23",
+  "dateLabel": "23 April",
+  "facts": [
+    {
+      "id": "04-23-spain-battle-of-villalar",
+      "date": "04-23",
+      "dateLabel": "23 April",
+      "country": "spain",
+      "countryName": "Spain",
+      "kind": "events",
+      "year": 1521,
+      "title": "Battle of Villalar",
+      "body": "1521: Battle of Villalar: King Charles I of Spain defeats the Comuneros.",
+      "source": {
+        "name": "Wikipedia · Battle of Villalar",
+        "url": "https://en.wikipedia.org/wiki/Battle_of_Villalar",
+        "calendarUrl": "https://en.wikipedia.org/wiki/April_23",
+        "license": {
+          "name": "CC BY-SA 4.0",
+          "url": "https://creativecommons.org/licenses/by-sa/4.0/"
+        }
+      },
+      "image": {
+        "src": "https://upload.wikimedia.org/wikipedia/commons/2/2d/BatallaDeVillalar.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+        "alt": "Image related to Battle of Villalar.",
+        "credit": "Manuel Picolo López",
+        "source": "https://commons.wikimedia.org/wiki/File:BatallaDeVillalar.jpg",
+        "license": "Public domain",
+        "licenseUrl": "https://commons.wikimedia.org/wiki/File:BatallaDeVillalar.jpg"
+      }
+    },
+    {
+      "id": "04-23-denmark-battle-of-clontarf",
+      "date": "04-23",
+      "dateLabel": "23 April",
+      "country": "denmark",
+      "countryName": "Denmark",
+      "kind": "events",
+      "year": 1014,
+      "title": "Battle of Clontarf",
+      "body": "1014: Battle of Clontarf: High King of Ireland Brian Boru defeats Viking invaders, but is killed in battle.",
+      "source": {
+        "name": "Wikipedia · Battle of Clontarf",
+        "url": "https://en.wikipedia.org/wiki/Battle_of_Clontarf",
+        "calendarUrl": "https://en.wikipedia.org/wiki/April_23",
+        "license": {
+          "name": "CC BY-SA 4.0",
+          "url": "https://creativecommons.org/licenses/by-sa/4.0/"
+        }
+      },
+      "image": {
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a7/%27Battle_of_Clontarf%27%2C_oil_on_canvas_painting_by_Hugh_Frazer%2C_1826.jpg/1280px-%27Battle_of_Clontarf%27%2C_oil_on_canvas_painting_by_Hugh_Frazer%2C_1826.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "alt": "Image related to Battle of Clontarf.",
+        "credit": "Hugh Frazer",
+        "source": "https://commons.wikimedia.org/wiki/File:%27Battle_of_Clontarf%27,_oil_on_canvas_painting_by_Hugh_Frazer,_1826.jpg",
+        "license": "Public domain",
+        "licenseUrl": "https://commons.wikimedia.org/wiki/File:%27Battle_of_Clontarf%27,_oil_on_canvas_painting_by_Hugh_Frazer,_1826.jpg"
+      }
+    },
+    {
+      "id": "04-23-greece-world-war-ii",
+      "date": "04-23",
+      "dateLabel": "23 April",
+      "country": "greece",
+      "countryName": "Greece",
+      "kind": "events",
+      "year": 1941,
+      "title": "World War II",
+      "body": "1941: World War II: The Greek government and King George II evacuate Athens before the invading Wehrmacht.",
+      "source": {
+        "name": "Wikipedia · World War II",
+        "url": "https://en.wikipedia.org/wiki/World_War_II",
+        "calendarUrl": "https://en.wikipedia.org/wiki/April_23",
+        "license": {
+          "name": "CC BY-SA 4.0",
+          "url": "https://creativecommons.org/licenses/by-sa/4.0/"
+        }
+      },
+      "image": {
+        "src": "https://upload.wikimedia.org/wikipedia/commons/1/10/Bundesarchiv_Bild_101I-646-5188-17%2C_Flugzeuge_Junkers_Ju_87.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+        "alt": "Image related to World War II.",
+        "credit": "Bundesarchiv, Bild 101I-646-5188-17 / Opitz / CC-BY-SA 3.0",
+        "source": "https://commons.wikimedia.org/wiki/File:Bundesarchiv_Bild_101I-646-5188-17,_Flugzeuge_Junkers_Ju_87.jpg",
+        "license": "CC BY-SA 3.0 de",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0/de/deed.en"
+      }
+    }
+  ]
+}

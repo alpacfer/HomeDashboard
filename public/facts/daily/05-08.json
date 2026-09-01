@@ -1,0 +1,90 @@
+{
+  "date": "05-08",
+  "dateLabel": "8 May",
+  "facts": [
+    {
+      "id": "05-08-spain-reccared-i",
+      "date": "05-08",
+      "dateLabel": "8 May",
+      "country": "spain",
+      "countryName": "Spain",
+      "kind": "events",
+      "year": 589,
+      "title": "Reccared I",
+      "body": "589: Reccared I opens the Third Council of Toledo, marking the entry of Visigothic Spain into the Catholic Church.",
+      "source": {
+        "name": "Wikipedia · Reccared I",
+        "url": "https://en.wikipedia.org/wiki/Reccared_I",
+        "calendarUrl": "https://en.wikipedia.org/wiki/May_8",
+        "license": {
+          "name": "CC BY-SA 4.0",
+          "url": "https://creativecommons.org/licenses/by-sa/4.0/"
+        }
+      },
+      "image": {
+        "src": "https://upload.wikimedia.org/wikipedia/commons/6/60/Recaredo_Tremis_Ispali.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+        "alt": "Image related to Reccared I.",
+        "credit": "Numismática Pliego",
+        "source": "https://commons.wikimedia.org/wiki/File:Recaredo_Tremis_Ispali.jpg",
+        "license": "CC BY-SA 3.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0"
+      }
+    },
+    {
+      "id": "05-08-denmark-tollund-man",
+      "date": "05-08",
+      "dateLabel": "8 May",
+      "country": "denmark",
+      "countryName": "Denmark",
+      "kind": "events",
+      "year": 1950,
+      "title": "Tollund Man",
+      "body": "1950: The Tollund Man is discovered in a peat bog near Silkeborg, Denmark.",
+      "source": {
+        "name": "Wikipedia · Tollund Man",
+        "url": "https://en.wikipedia.org/wiki/Tollund_Man",
+        "calendarUrl": "https://en.wikipedia.org/wiki/May_8",
+        "license": {
+          "name": "CC BY-SA 4.0",
+          "url": "https://creativecommons.org/licenses/by-sa/4.0/"
+        }
+      },
+      "image": {
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f7/Moorleiche_von_Tollund_J%C3%BCtland_um_100_n_Chr_hingerichtet.jpg/1280px-Moorleiche_von_Tollund_J%C3%BCtland_um_100_n_Chr_hingerichtet.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "alt": "Image related to Tollund Man.",
+        "credit": "Unknown authorUnknown author",
+        "source": "https://commons.wikimedia.org/wiki/File:Moorleiche_von_Tollund_J%C3%BCtland_um_100_n_Chr_hingerichtet.jpg",
+        "license": "Public domain",
+        "licenseUrl": "https://commons.wikimedia.org/wiki/File:Moorleiche_von_Tollund_J%C3%BCtland_um_100_n_Chr_hingerichtet.jpg"
+      }
+    },
+    {
+      "id": "05-08-greece-greek-war-of-independence",
+      "date": "05-08",
+      "dateLabel": "8 May",
+      "country": "greece",
+      "countryName": "Greece",
+      "kind": "events",
+      "year": 1821,
+      "title": "Greek War of Independence",
+      "body": "1821: Greek War of Independence: The Greeks defeat the Turks at the Battle of Gravia Inn.",
+      "source": {
+        "name": "Wikipedia · Greek War of Independence",
+        "url": "https://en.wikipedia.org/wiki/Greek_War_of_Independence",
+        "calendarUrl": "https://en.wikipedia.org/wiki/May_8",
+        "license": {
+          "name": "CC BY-SA 4.0",
+          "url": "https://creativecommons.org/licenses/by-sa/4.0/"
+        }
+      },
+      "image": {
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/73/Greek_revolution_collage.jpg/1280px-Greek_revolution_collage.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "alt": "Image related to Greek War of Independence.",
+        "credit": "SJCAmerican",
+        "source": "https://commons.wikimedia.org/wiki/File:Greek_revolution_collage.jpg",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0"
+      }
+    }
+  ]
+}

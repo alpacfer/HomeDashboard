@@ -1,0 +1,90 @@
+{
+  "date": "06-03",
+  "dateLabel": "3 June",
+  "facts": [
+    {
+      "id": "06-03-spain-galley",
+      "date": "06-03",
+      "dateLabel": "3 June",
+      "country": "spain",
+      "countryName": "Spain",
+      "kind": "events",
+      "year": 1602,
+      "title": "galley",
+      "body": "1602: An English naval force defeats a fleet of Spanish galleys, and captures a large Portuguese carrack at the Battle of Sesimbra Bay.",
+      "source": {
+        "name": "Wikipedia · Galley",
+        "url": "https://en.wikipedia.org/wiki/Galley",
+        "calendarUrl": "https://en.wikipedia.org/wiki/June_3",
+        "license": {
+          "name": "CC BY-SA 4.0",
+          "url": "https://creativecommons.org/licenses/by-sa/4.0/"
+        }
+      },
+      "image": {
+        "src": "https://upload.wikimedia.org/wikipedia/commons/a/a7/Sbonski_de_Passabon-Galere_a_la_voille.jpeg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+        "alt": "Image related to galley.",
+        "credit": "Henri Sbonski de Passebon",
+        "source": "https://commons.wikimedia.org/wiki/File:Sbonski_de_Passabon-Galere_a_la_voille.jpeg",
+        "license": "Public domain",
+        "licenseUrl": "https://commons.wikimedia.org/wiki/File:Sbonski_de_Passabon-Galere_a_la_voille.jpeg"
+      }
+    },
+    {
+      "id": "06-03-denmark-magdalene-thoresen",
+      "date": "06-03",
+      "dateLabel": "3 June",
+      "country": "denmark",
+      "countryName": "Denmark",
+      "kind": "births",
+      "year": 1819,
+      "title": "Magdalene Thoresen",
+      "body": "Magdalene Thoresen, Danish writer (died 1903), was born on this day in 1819.",
+      "source": {
+        "name": "Wikipedia · Magdalene Thoresen",
+        "url": "https://en.wikipedia.org/wiki/Magdalene_Thoresen",
+        "calendarUrl": "https://en.wikipedia.org/wiki/June_3",
+        "license": {
+          "name": "CC BY-SA 4.0",
+          "url": "https://creativecommons.org/licenses/by-sa/4.0/"
+        }
+      },
+      "image": {
+        "src": "https://upload.wikimedia.org/wikipedia/commons/d/d0/Magdalene_Thoresen_by_Grundtvig.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+        "alt": "Portrait or image of Magdalene Thoresen.",
+        "credit": "Ludvig Grundtvig",
+        "source": "https://commons.wikimedia.org/wiki/File:Magdalene_Thoresen_by_Grundtvig.jpg",
+        "license": "Public domain",
+        "licenseUrl": "https://commons.wikimedia.org/wiki/File:Magdalene_Thoresen_by_Grundtvig.jpg"
+      }
+    },
+    {
+      "id": "06-03-greece-byzantine-empire",
+      "date": "06-03",
+      "dateLabel": "3 June",
+      "country": "greece",
+      "countryName": "Greece",
+      "kind": "events",
+      "year": 713,
+      "title": "Byzantine",
+      "body": "713: The Byzantine emperor Philippicus is blinded, deposed and sent into exile by conspirators of the Opsikion army in Thrace. He is succeeded by Anastasios II, who begins the reorganization of the Byzantine army.",
+      "source": {
+        "name": "Wikipedia · Byzantine Empire",
+        "url": "https://en.wikipedia.org/wiki/Byzantine_Empire",
+        "calendarUrl": "https://en.wikipedia.org/wiki/June_3",
+        "license": {
+          "name": "CC BY-SA 4.0",
+          "url": "https://creativecommons.org/licenses/by-sa/4.0/"
+        }
+      },
+      "image": {
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/69/Red_Eastern_Roman_Empire_565_CE.svg/1280px-Red_Eastern_Roman_Empire_565_CE.svg.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "alt": "Image related to Byzantine.",
+        "credit": "PortosPL31",
+        "source": "https://commons.wikimedia.org/wiki/File:Red_Eastern_Roman_Empire_565_CE.svg",
+        "license": "CC0",
+        "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/deed.en"
+      }
+    }
+  ]
+}

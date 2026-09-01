@@ -1,0 +1,90 @@
+{
+  "date": "03-17",
+  "dateLabel": "17 March",
+  "facts": [
+    {
+      "id": "03-17-spain-1966-palomares-b-52-crash",
+      "date": "03-17",
+      "dateLabel": "17 March",
+      "country": "spain",
+      "countryName": "Spain",
+      "kind": "events",
+      "year": 1966,
+      "title": "missing American hydrogen bomb",
+      "body": "1966: Off the coast of Spain in the Mediterranean, the submarine finds a missing American hydrogen bomb.",
+      "source": {
+        "name": "Wikipedia · 1966 Palomares accident",
+        "url": "https://en.wikipedia.org/wiki/1966_Palomares_accident",
+        "calendarUrl": "https://en.wikipedia.org/wiki/March_17",
+        "license": {
+          "name": "CC BY-SA 4.0",
+          "url": "https://creativecommons.org/licenses/by-sa/4.0/"
+        }
+      },
+      "image": {
+        "src": "https://upload.wikimedia.org/wikipedia/commons/d/db/Palomares_H-Bomb_Incident.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+        "alt": "Image related to missing American hydrogen bomb.",
+        "credit": "U.S. Navy, Courtesy of the Natural Resources Defense Council",
+        "source": "https://commons.wikimedia.org/wiki/File:Palomares_H-Bomb_Incident.jpg",
+        "license": "Public domain",
+        "licenseUrl": "https://commons.wikimedia.org/wiki/File:Palomares_H-Bomb_Incident.jpg"
+      }
+    },
+    {
+      "id": "03-17-denmark-first-taranaki-war",
+      "date": "03-17",
+      "dateLabel": "17 March",
+      "country": "denmark",
+      "countryName": "Denmark",
+      "kind": "events",
+      "year": 1860,
+      "title": "First Taranaki War",
+      "body": "1860: The First Taranaki War begins in Taranaki, New Zealand, a major phase of the New Zealand Wars.",
+      "source": {
+        "name": "Wikipedia · First Taranaki War",
+        "url": "https://en.wikipedia.org/wiki/First_Taranaki_War",
+        "calendarUrl": "https://en.wikipedia.org/wiki/March_17",
+        "license": {
+          "name": "CC BY-SA 4.0",
+          "url": "https://creativecommons.org/licenses/by-sa/4.0/"
+        }
+      },
+      "image": {
+        "src": "https://commons.wikimedia.org/wiki/Special:Redirect/file/Flag_of_Denmark.svg?width=1000",
+        "alt": "The national flag of Denmark.",
+        "credit": "Danish government",
+        "source": "https://commons.wikimedia.org/wiki/File:Flag_of_Denmark.svg",
+        "license": "Public domain",
+        "licenseUrl": "https://commons.wikimedia.org/wiki/File:Flag_of_Denmark.svg"
+      }
+    },
+    {
+      "id": "03-17-greece-daylight",
+      "date": "03-17",
+      "dateLabel": "17 March",
+      "country": "greece",
+      "countryName": "Greece",
+      "kind": "daylight",
+      "year": 0,
+      "title": "Athens's daylight",
+      "body": "On 17 March, Athens gets about 12 hours of daylight.",
+      "source": {
+        "name": "NOAA Solar Calculator",
+        "url": "https://gml.noaa.gov/grad/solcalc/",
+        "calendarUrl": "https://gml.noaa.gov/grad/solcalc/calcdetails.html",
+        "license": {
+          "name": "public-domain NOAA method",
+          "url": "https://www.noaa.gov/disclaimer"
+        }
+      },
+      "image": {
+        "src": "https://commons.wikimedia.org/wiki/Special:Redirect/file/Flag_of_Greece.svg?width=1000",
+        "alt": "The national flag of Greece.",
+        "credit": "Greek government",
+        "source": "https://commons.wikimedia.org/wiki/File:Flag_of_Greece.svg",
+        "license": "Public domain",
+        "licenseUrl": "https://commons.wikimedia.org/wiki/File:Flag_of_Greece.svg"
+      }
+    }
+  ]
+}

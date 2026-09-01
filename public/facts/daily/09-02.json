@@ -1,0 +1,90 @@
+{
+  "date": "09-02",
+  "dateLabel": "2 September",
+  "facts": [
+    {
+      "id": "09-02-spain-4th-spanish-armada",
+      "date": "09-02",
+      "dateLabel": "2 September",
+      "country": "spain",
+      "countryName": "Spain",
+      "kind": "events",
+      "year": 1601,
+      "title": "4th Spanish Armada",
+      "body": "1601: 4th Spanish Armada makes landfall in Ireland at Kinsale.",
+      "source": {
+        "name": "Wikipedia · Fourth Spanish Armada",
+        "url": "https://en.wikipedia.org/wiki/Fourth_Spanish_Armada",
+        "calendarUrl": "https://en.wikipedia.org/wiki/September_2",
+        "license": {
+          "name": "CC BY-SA 4.0",
+          "url": "https://creativecommons.org/licenses/by-sa/4.0/"
+        }
+      },
+      "image": {
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/50/Kinsale_in_Ierland_gaat_aan_Elizabeth_over%2C_1602%2C_RP-P-OB-78.784-315_%28cropped%29.jpg/1280px-Kinsale_in_Ierland_gaat_aan_Elizabeth_over%2C_1602%2C_RP-P-OB-78.784-315_%28cropped%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "alt": "Image related to 4th Spanish Armada.",
+        "credit": "Rijksmuseum",
+        "source": "https://commons.wikimedia.org/wiki/File:Kinsale_in_Ierland_gaat_aan_Elizabeth_over,_1602,_RP-P-OB-78.784-315_(cropped).jpg",
+        "license": "CC0",
+        "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/deed.en"
+      }
+    },
+    {
+      "id": "09-02-denmark-battle-of-copenhagen-1807",
+      "date": "09-02",
+      "dateLabel": "2 September",
+      "country": "denmark",
+      "countryName": "Denmark",
+      "kind": "events",
+      "year": 1807,
+      "title": "bombards Copenhagen",
+      "body": "1807: Napoleonic Wars: The British Royal Navy bombards Copenhagen with fire bombs and phosphorus rockets to prevent Denmark from surrendering its fleet to Napoleon.",
+      "source": {
+        "name": "Wikipedia · Battle of Copenhagen (1807)",
+        "url": "https://en.wikipedia.org/wiki/Battle_of_Copenhagen_(1807)",
+        "calendarUrl": "https://en.wikipedia.org/wiki/September_2",
+        "license": {
+          "name": "CC BY-SA 4.0",
+          "url": "https://creativecommons.org/licenses/by-sa/4.0/"
+        }
+      },
+      "image": {
+        "src": "https://upload.wikimedia.org/wikipedia/commons/f/fa/Copenhagen_on_fire_1807_by_CW_Eckersberg.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+        "alt": "Image related to bombards Copenhagen.",
+        "credit": "Christoffer Wilhelm Eckersberg",
+        "source": "https://commons.wikimedia.org/wiki/File:Copenhagen_on_fire_1807_by_CW_Eckersberg.jpg",
+        "license": "Public domain",
+        "licenseUrl": "https://commons.wikimedia.org/wiki/File:Copenhagen_on_fire_1807_by_CW_Eckersberg.jpg"
+      }
+    },
+    {
+      "id": "09-02-greece-andreas-embirikos",
+      "date": "09-02",
+      "dateLabel": "2 September",
+      "country": "greece",
+      "countryName": "Greece",
+      "kind": "births",
+      "year": 1901,
+      "title": "Andreas Embirikos",
+      "body": "Andreas Embirikos, Greek psychoanalyst and poet (died 1975), was born on this day in 1901.",
+      "source": {
+        "name": "Wikipedia · Andreas Embirikos",
+        "url": "https://en.wikipedia.org/wiki/Andreas_Embirikos",
+        "calendarUrl": "https://en.wikipedia.org/wiki/September_2",
+        "license": {
+          "name": "CC BY-SA 4.0",
+          "url": "https://creativecommons.org/licenses/by-sa/4.0/"
+        }
+      },
+      "image": {
+        "src": "https://upload.wikimedia.org/wikipedia/commons/b/b2/Andreas_Empiricos_1920.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+        "alt": "Portrait or image of Andreas Embirikos.",
+        "credit": "Unknown Swiss photographer (1920)",
+        "source": "https://commons.wikimedia.org/wiki/File:Andreas_Empiricos_1920.jpg",
+        "license": "Public domain",
+        "licenseUrl": "https://commons.wikimedia.org/wiki/File:Andreas_Empiricos_1920.jpg"
+      }
+    }
+  ]
+}

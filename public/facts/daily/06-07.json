@@ -1,0 +1,90 @@
+{
+  "date": "06-07",
+  "dateLabel": "7 June",
+  "facts": [
+    {
+      "id": "06-07-spain-spain",
+      "date": "06-07",
+      "dateLabel": "7 June",
+      "country": "spain",
+      "countryName": "Spain",
+      "kind": "events",
+      "year": 1494,
+      "title": "Spain",
+      "body": "1494: Spain and Portugal sign the Treaty of Tordesillas which divides the New World between the two countries.",
+      "source": {
+        "name": "Wikipedia · Spain",
+        "url": "https://en.wikipedia.org/wiki/Spain",
+        "calendarUrl": "https://en.wikipedia.org/wiki/June_7",
+        "license": {
+          "name": "CC BY-SA 4.0",
+          "url": "https://creativecommons.org/licenses/by-sa/4.0/"
+        }
+      },
+      "image": {
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/24/Flag_of_the_Kingdom_of_Spain.svg/1280px-Flag_of_the_Kingdom_of_Spain.svg.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "alt": "Image related to Spain.",
+        "credit": "Antonio Valdés y Fernández Bazán",
+        "source": "https://commons.wikimedia.org/wiki/File:Flag_of_the_Kingdom_of_Spain.svg",
+        "license": "Public domain",
+        "licenseUrl": "https://commons.wikimedia.org/wiki/File:Flag_of_the_Kingdom_of_Spain.svg"
+      }
+    },
+    {
+      "id": "06-07-denmark-robina-nicol",
+      "date": "06-07",
+      "dateLabel": "7 June",
+      "country": "denmark",
+      "countryName": "Denmark",
+      "kind": "births",
+      "year": 1861,
+      "title": "Robina Nicol",
+      "body": "Robina Nicol, New Zealand photographer and suffragist (died 1942), was born on this day in 1861.",
+      "source": {
+        "name": "Wikipedia · Robina Nicol",
+        "url": "https://en.wikipedia.org/wiki/Robina_Nicol",
+        "calendarUrl": "https://en.wikipedia.org/wiki/June_7",
+        "license": {
+          "name": "CC BY-SA 4.0",
+          "url": "https://creativecommons.org/licenses/by-sa/4.0/"
+        }
+      },
+      "image": {
+        "src": "https://upload.wikimedia.org/wikipedia/commons/0/08/Robina_Nicol_%28cropped%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+        "alt": "Portrait or image of Robina Nicol.",
+        "credit": "attributed to Robina Nicol",
+        "source": "https://commons.wikimedia.org/wiki/File:Robina_Nicol_(cropped).jpg",
+        "license": "CC BY 3.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by/3.0"
+      }
+    },
+    {
+      "id": "06-07-greece-theodosius-ii",
+      "date": "06-07",
+      "dateLabel": "7 June",
+      "country": "greece",
+      "countryName": "Greece",
+      "kind": "events",
+      "year": 421,
+      "title": "Theodosius II",
+      "body": "421: Emperor Theodosius II marries Aelia Eudocia at Constantinople (Byzantine Empire).",
+      "source": {
+        "name": "Wikipedia · Theodosius II",
+        "url": "https://en.wikipedia.org/wiki/Theodosius_II",
+        "calendarUrl": "https://en.wikipedia.org/wiki/June_7",
+        "license": {
+          "name": "CC BY-SA 4.0",
+          "url": "https://creativecommons.org/licenses/by-sa/4.0/"
+        }
+      },
+      "image": {
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/26/Theodosius_II_Louvre_Ma1036.jpg/1280px-Theodosius_II_Louvre_Ma1036.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "alt": "Image related to Theodosius II.",
+        "credit": "Marie-Lan Nguyen (User:Jastrow), 2009",
+        "source": "https://commons.wikimedia.org/wiki/File:Theodosius_II_Louvre_Ma1036.jpg",
+        "license": "CC BY 2.5",
+        "licenseUrl": "https://creativecommons.org/licenses/by/2.5"
+      }
+    }
+  ]
+}

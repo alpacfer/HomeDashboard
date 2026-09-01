@@ -1,0 +1,90 @@
+{
+  "date": "12-09",
+  "dateLabel": "9 December",
+  "facts": [
+    {
+      "id": "12-09-spain-constituent-cortes",
+      "date": "12-09",
+      "dateLabel": "9 December",
+      "country": "spain",
+      "countryName": "Spain",
+      "kind": "events",
+      "year": 1931,
+      "title": "Constituent Cortes",
+      "body": "1931: The Constituent Cortes approves a constitution which establishes the Second Spanish Republic.",
+      "source": {
+        "name": "Wikipedia · Constituent Cortes",
+        "url": "https://en.wikipedia.org/wiki/Constituent_Cortes",
+        "calendarUrl": "https://en.wikipedia.org/wiki/December_9",
+        "license": {
+          "name": "CC BY-SA 4.0",
+          "url": "https://creativecommons.org/licenses/by-sa/4.0/"
+        }
+      },
+      "image": {
+        "src": "https://commons.wikimedia.org/wiki/Special:Redirect/file/Flag_of_Spain.svg?width=1000",
+        "alt": "The national flag of Spain.",
+        "credit": "Government of Spain",
+        "source": "https://commons.wikimedia.org/wiki/File:Flag_of_Spain.svg",
+        "license": "Public domain",
+        "licenseUrl": "https://commons.wikimedia.org/wiki/File:Flag_of_Spain.svg"
+      }
+    },
+    {
+      "id": "12-09-denmark-whakaari-white-island",
+      "date": "12-09",
+      "dateLabel": "9 December",
+      "country": "denmark",
+      "countryName": "Denmark",
+      "kind": "events",
+      "year": 2019,
+      "title": "Whakaari / White Island",
+      "body": "2019: A volcano on Whakaari / White Island, New Zealand, kills 22 people after it erupts.",
+      "source": {
+        "name": "Wikipedia · Whakaari / White Island",
+        "url": "https://en.wikipedia.org/wiki/Whakaari_%2F_White_Island",
+        "calendarUrl": "https://en.wikipedia.org/wiki/December_9",
+        "license": {
+          "name": "CC BY-SA 4.0",
+          "url": "https://creativecommons.org/licenses/by-sa/4.0/"
+        }
+      },
+      "image": {
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/4f/White_Island_2013.jpg/1280px-White_Island_2013.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "alt": "Image related to Whakaari / White Island.",
+        "credit": "gérard from Nouméa, (Nouvelle-Calédonie)",
+        "source": "https://commons.wikimedia.org/wiki/File:White_Island_2013.jpg",
+        "license": "CC BY-SA 2.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0"
+      }
+    },
+    {
+      "id": "12-09-greece-gothic-war-535-554",
+      "date": "12-09",
+      "dateLabel": "9 December",
+      "country": "greece",
+      "countryName": "Greece",
+      "kind": "events",
+      "year": 536,
+      "title": "Gothic War",
+      "body": "536: Gothic War: The Byzantine general Belisarius enters Rome unopposed; the Gothic garrison flees the capital.",
+      "source": {
+        "name": "Wikipedia · Gothic War (535–554)",
+        "url": "https://en.wikipedia.org/wiki/Gothic_War_(535%E2%80%93554)",
+        "calendarUrl": "https://en.wikipedia.org/wiki/December_9",
+        "license": {
+          "name": "CC BY-SA 4.0",
+          "url": "https://creativecommons.org/licenses/by-sa/4.0/"
+        }
+      },
+      "image": {
+        "src": "https://upload.wikimedia.org/wikipedia/commons/5/5c/Erster_und_Zweiter_Gotenkrieg.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+        "alt": "Image related to Gothic War.",
+        "credit": "NordNordWest",
+        "source": "https://commons.wikimedia.org/wiki/File:Erster_und_Zweiter_Gotenkrieg.png",
+        "license": "CC BY-SA 3.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0"
+      }
+    }
+  ]
+}

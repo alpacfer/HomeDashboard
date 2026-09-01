@@ -1,0 +1,90 @@
+{
+  "date": "04-29",
+  "dateLabel": "29 April",
+  "facts": [
+    {
+      "id": "04-29-spain-gran-canaria",
+      "date": "04-29",
+      "dateLabel": "29 April",
+      "country": "spain",
+      "countryName": "Spain",
+      "kind": "events",
+      "year": 1483,
+      "title": "Gran Canaria",
+      "body": "1483: Gran Canaria, the main island of the Canary Islands, is conquered by the Kingdom of Castile.",
+      "source": {
+        "name": "Wikipedia · Gran Canaria",
+        "url": "https://en.wikipedia.org/wiki/Gran_Canaria",
+        "calendarUrl": "https://en.wikipedia.org/wiki/April_29",
+        "license": {
+          "name": "CC BY-SA 4.0",
+          "url": "https://creativecommons.org/licenses/by-sa/4.0/"
+        }
+      },
+      "image": {
+        "src": "https://upload.wikimedia.org/wikipedia/commons/5/55/Gran_Canaria_Sentinel-2.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+        "alt": "Image related to Gran Canaria.",
+        "credit": "Contains modified Copernicus Sentinel data 2023",
+        "source": "https://commons.wikimedia.org/wiki/File:Gran_Canaria_Sentinel-2.jpg",
+        "license": "Attribution",
+        "licenseUrl": "https://commons.wikimedia.org/wiki/File:Gran_Canaria_Sentinel-2.jpg"
+      }
+    },
+    {
+      "id": "04-29-denmark-swedish-war-of-liberation",
+      "date": "04-29",
+      "dateLabel": "29 April",
+      "country": "denmark",
+      "countryName": "Denmark",
+      "kind": "events",
+      "year": 1521,
+      "title": "Swedish War of Liberation",
+      "body": "1521: Swedish War of Liberation: Swedish troops defeat a Danish force in the Battle of Västerås.",
+      "source": {
+        "name": "Wikipedia · Swedish War of Liberation",
+        "url": "https://en.wikipedia.org/wiki/Swedish_War_of_Liberation",
+        "calendarUrl": "https://en.wikipedia.org/wiki/April_29",
+        "license": {
+          "name": "CC BY-SA 4.0",
+          "url": "https://creativecommons.org/licenses/by-sa/4.0/"
+        }
+      },
+      "image": {
+        "src": "https://upload.wikimedia.org/wikipedia/commons/e/ea/The_Entry_of_King_Gustav_Vasa_of_Sweden_into_Stockholm_-_color.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+        "alt": "Image related to Swedish War of Liberation.",
+        "credit": "Carl Larsson",
+        "source": "https://commons.wikimedia.org/wiki/File:The_Entry_of_King_Gustav_Vasa_of_Sweden_into_Stockholm_-_color.jpg",
+        "license": "Public domain",
+        "licenseUrl": "https://commons.wikimedia.org/wiki/File:The_Entry_of_King_Gustav_Vasa_of_Sweden_into_Stockholm_-_color.jpg"
+      }
+    },
+    {
+      "id": "04-29-greece-battle-of-levounion",
+      "date": "04-29",
+      "dateLabel": "29 April",
+      "country": "greece",
+      "countryName": "Greece",
+      "kind": "events",
+      "year": 1091,
+      "title": "Battle of Levounion",
+      "body": "1091: Battle of Levounion: The Pechenegs are defeated by Byzantine Emperor Alexios I Komnenos.",
+      "source": {
+        "name": "Wikipedia · Battle of Levounion",
+        "url": "https://en.wikipedia.org/wiki/Battle_of_Levounion",
+        "calendarUrl": "https://en.wikipedia.org/wiki/April_29",
+        "license": {
+          "name": "CC BY-SA 4.0",
+          "url": "https://creativecommons.org/licenses/by-sa/4.0/"
+        }
+      },
+      "image": {
+        "src": "https://upload.wikimedia.org/wikipedia/commons/2/21/Alexius_I.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+        "alt": "Image related to Battle of Levounion.",
+        "credit": "AnonymousUnknown author",
+        "source": "https://commons.wikimedia.org/wiki/File:Alexius_I.jpg",
+        "license": "Public domain",
+        "licenseUrl": "https://commons.wikimedia.org/wiki/File:Alexius_I.jpg"
+      }
+    }
+  ]
+}

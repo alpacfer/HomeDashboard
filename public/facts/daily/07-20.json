@@ -1,0 +1,90 @@
+{
+  "date": "07-20",
+  "dateLabel": "20 July",
+  "facts": [
+    {
+      "id": "07-20-spain-bogot",
+      "date": "07-20",
+      "dateLabel": "20 July",
+      "country": "spain",
+      "countryName": "Spain",
+      "kind": "events",
+      "year": 1810,
+      "title": "Bogotá",
+      "body": "1810: Citizens of Bogotá, New Granada declare independence from Spain.",
+      "source": {
+        "name": "Wikipedia · Bogotá",
+        "url": "https://en.wikipedia.org/wiki/Bogot%C3%A1",
+        "calendarUrl": "https://en.wikipedia.org/wiki/July_20",
+        "license": {
+          "name": "CC BY-SA 4.0",
+          "url": "https://creativecommons.org/licenses/by-sa/4.0/"
+        }
+      },
+      "image": {
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/20/Bogota%2C_Colombia_%2836668708290%29.jpg/1280px-Bogota%2C_Colombia_%2836668708290%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "alt": "Image related to Bogotá.",
+        "credit": "Pedro Szekely from Los Angeles, USA",
+        "source": "https://commons.wikimedia.org/wiki/File:Bogota,_Colombia_(36668708290).jpg",
+        "license": "CC BY-SA 2.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0"
+      }
+    },
+    {
+      "id": "07-20-denmark-league-of-nations",
+      "date": "07-20",
+      "dateLabel": "20 July",
+      "country": "denmark",
+      "countryName": "Denmark",
+      "kind": "events",
+      "year": 1940,
+      "title": "League of Nations",
+      "body": "1940: Denmark leaves the League of Nations.",
+      "source": {
+        "name": "Wikipedia · League of Nations",
+        "url": "https://en.wikipedia.org/wiki/League_of_Nations",
+        "calendarUrl": "https://en.wikipedia.org/wiki/July_20",
+        "license": {
+          "name": "CC BY-SA 4.0",
+          "url": "https://creativecommons.org/licenses/by-sa/4.0/"
+        }
+      },
+      "image": {
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c5/Flag_of_the_League_of_Nations_%281939%29.svg/1280px-Flag_of_the_League_of_Nations_%281939%29.svg.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "alt": "Image related to League of Nations.",
+        "credit": "Martin Grandjean This W3C-unspecified vector image was created with Inkscape.",
+        "source": "https://commons.wikimedia.org/wiki/File:Flag_of_the_League_of_Nations_(1939).svg",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0"
+      }
+    },
+    {
+      "id": "07-20-greece-kardam-of-bulgaria",
+      "date": "07-20",
+      "dateLabel": "20 July",
+      "country": "greece",
+      "countryName": "Greece",
+      "kind": "events",
+      "year": 792,
+      "title": "Kardam of Bulgaria",
+      "body": "792: Kardam of Bulgaria defeats Byzantine Emperor Constantine VI at the Battle of Marcellae.",
+      "source": {
+        "name": "Wikipedia · Kardam of Bulgaria",
+        "url": "https://en.wikipedia.org/wiki/Kardam_of_Bulgaria",
+        "calendarUrl": "https://en.wikipedia.org/wiki/July_20",
+        "license": {
+          "name": "CC BY-SA 4.0",
+          "url": "https://creativecommons.org/licenses/by-sa/4.0/"
+        }
+      },
+      "image": {
+        "src": "https://commons.wikimedia.org/wiki/Special:Redirect/file/Flag_of_Greece.svg?width=1000",
+        "alt": "The national flag of Greece.",
+        "credit": "Greek government",
+        "source": "https://commons.wikimedia.org/wiki/File:Flag_of_Greece.svg",
+        "license": "Public domain",
+        "licenseUrl": "https://commons.wikimedia.org/wiki/File:Flag_of_Greece.svg"
+      }
+    }
+  ]
+}

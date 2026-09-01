@@ -1,0 +1,90 @@
+{
+  "date": "01-10",
+  "dateLabel": "10 January",
+  "facts": [
+    {
+      "id": "01-10-spain-francisco-ferrer",
+      "date": "01-10",
+      "dateLabel": "10 January",
+      "country": "spain",
+      "countryName": "Spain",
+      "kind": "births",
+      "year": 1859,
+      "title": "Francesc Ferrer i Guàrdia",
+      "body": "Francesc Ferrer i Guàrdia, Spanish philosopher and academic (died 1909), was born on this day in 1859.",
+      "source": {
+        "name": "Wikipedia · Francisco Ferrer",
+        "url": "https://en.wikipedia.org/wiki/Francisco_Ferrer",
+        "calendarUrl": "https://en.wikipedia.org/wiki/January_10",
+        "license": {
+          "name": "CC BY-SA 4.0",
+          "url": "https://creativecommons.org/licenses/by-sa/4.0/"
+        }
+      },
+      "image": {
+        "src": "https://upload.wikimedia.org/wikipedia/commons/6/6d/Francisco_Ferrer_Guardia.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+        "alt": "Portrait or image of Francesc Ferrer i Guàrdia.",
+        "credit": "Wikimedia Commons contributor",
+        "source": "https://commons.wikimedia.org/wiki/File:Francisco_Ferrer_Guardia.jpg",
+        "license": "Public domain",
+        "licenseUrl": "https://commons.wikimedia.org/wiki/File:Francisco_Ferrer_Guardia.jpg"
+      }
+    },
+    {
+      "id": "01-10-denmark-john-fahey-politician",
+      "date": "01-10",
+      "dateLabel": "10 January",
+      "country": "denmark",
+      "countryName": "Denmark",
+      "kind": "births",
+      "year": 1945,
+      "title": "John Fahey",
+      "body": "John Fahey, New Zealand-Australian lawyer and politician, 38th Premier of New South Wales (died 2020), was born on this day in 1945.",
+      "source": {
+        "name": "Wikipedia · John Fahey (politician)",
+        "url": "https://en.wikipedia.org/wiki/John_Fahey_(politician)",
+        "calendarUrl": "https://en.wikipedia.org/wiki/January_10",
+        "license": {
+          "name": "CC BY-SA 4.0",
+          "url": "https://creativecommons.org/licenses/by-sa/4.0/"
+        }
+      },
+      "image": {
+        "src": "https://commons.wikimedia.org/wiki/Special:Redirect/file/Flag_of_Denmark.svg?width=1000",
+        "alt": "The national flag of Denmark.",
+        "credit": "Danish government",
+        "source": "https://commons.wikimedia.org/wiki/File:Flag_of_Denmark.svg",
+        "license": "Public domain",
+        "licenseUrl": "https://commons.wikimedia.org/wiki/File:Flag_of_Denmark.svg"
+      }
+    },
+    {
+      "id": "01-10-greece-world-war-ii",
+      "date": "01-10",
+      "dateLabel": "10 January",
+      "country": "greece",
+      "countryName": "Greece",
+      "kind": "events",
+      "year": 1941,
+      "title": "World War II",
+      "body": "1941: World War II: The Greek army captures Kleisoura.",
+      "source": {
+        "name": "Wikipedia · World War II",
+        "url": "https://en.wikipedia.org/wiki/World_War_II",
+        "calendarUrl": "https://en.wikipedia.org/wiki/January_10",
+        "license": {
+          "name": "CC BY-SA 4.0",
+          "url": "https://creativecommons.org/licenses/by-sa/4.0/"
+        }
+      },
+      "image": {
+        "src": "https://upload.wikimedia.org/wikipedia/commons/1/10/Bundesarchiv_Bild_101I-646-5188-17%2C_Flugzeuge_Junkers_Ju_87.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+        "alt": "Image related to World War II.",
+        "credit": "Bundesarchiv, Bild 101I-646-5188-17 / Opitz / CC-BY-SA 3.0",
+        "source": "https://commons.wikimedia.org/wiki/File:Bundesarchiv_Bild_101I-646-5188-17,_Flugzeuge_Junkers_Ju_87.jpg",
+        "license": "CC BY-SA 3.0 de",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0/de/deed.en"
+      }
+    }
+  ]
+}

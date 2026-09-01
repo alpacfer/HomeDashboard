@@ -1,0 +1,90 @@
+{
+  "date": "09-05",
+  "dateLabel": "5 September",
+  "facts": [
+    {
+      "id": "09-05-spain-spanish-civil-war",
+      "date": "09-05",
+      "dateLabel": "5 September",
+      "country": "spain",
+      "countryName": "Spain",
+      "kind": "events",
+      "year": 1937,
+      "title": "Spanish Civil War",
+      "body": "1937: Spanish Civil War: Llanes falls to the Nationalists following a one-day siege.",
+      "source": {
+        "name": "Wikipedia · Spanish Civil War",
+        "url": "https://en.wikipedia.org/wiki/Spanish_Civil_War",
+        "calendarUrl": "https://en.wikipedia.org/wiki/September_5",
+        "license": {
+          "name": "CC BY-SA 4.0",
+          "url": "https://creativecommons.org/licenses/by-sa/4.0/"
+        }
+      },
+      "image": {
+        "src": "https://upload.wikimedia.org/wikipedia/commons/a/a0/%D0%98%D1%81%D0%BF%D0%B0%D0%BD%D1%81%D0%BA%D0%B0%D1%8F_11_%D0%B8%D0%BD%D1%82%D0%B5%D1%80%D0%B1%D1%80%D0%B8%D0%B3%D0%B0%D0%B4%D0%B0_%D0%B2_%D0%B1%D0%BE%D1%8E_%D0%BF%D0%BE%D0%B4_%D0%91%D0%B5%D0%BB%D1%8C%D1%87%D0%B8%D1%82%D0%B5._1937-edit.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+        "alt": "Image related to Spanish Civil War.",
+        "credit": "Unknown authorUnknown author",
+        "source": "https://commons.wikimedia.org/wiki/File:%D0%98%D1%81%D0%BF%D0%B0%D0%BD%D1%81%D0%BA%D0%B0%D1%8F_11_%D0%B8%D0%BD%D1%82%D0%B5%D1%80%D0%B1%D1%80%D0%B8%D0%B3%D0%B0%D0%B4%D0%B0_%D0%B2_%D0%B1%D0%BE%D1%8E_%D0%BF%D0%BE%D0%B4_%D0%91%D0%B5%D0%BB%D1%8C%D1%87%D0%B8%D1%82%D0%B5._1937-edit.jpg",
+        "license": "Public domain",
+        "licenseUrl": "https://commons.wikimedia.org/wiki/File:%D0%98%D1%81%D0%BF%D0%B0%D0%BD%D1%81%D0%BA%D0%B0%D1%8F_11_%D0%B8%D0%BD%D1%82%D0%B5%D1%80%D0%B1%D1%80%D0%B8%D0%B3%D0%B0%D0%B4%D0%B0_%D0%B2_%D0%B1%D0%BE%D1%8E_%D0%BF%D0%BE%D0%B4_%D0%91%D0%B5%D0%BB%D1%8C%D1%87%D0%B8%D1%82%D0%B5._1937-edit.jpg"
+      }
+    },
+    {
+      "id": "09-05-denmark-magnus-duke-of-holstein",
+      "date": "09-05",
+      "dateLabel": "5 September",
+      "country": "denmark",
+      "countryName": "Denmark",
+      "kind": "births",
+      "year": 1540,
+      "title": "Magnus of Holstein",
+      "body": "Magnus of Holstein, prince of Denmark (died 1583), was born on this day in 1540.",
+      "source": {
+        "name": "Wikipedia · Magnus, Duke of Holstein",
+        "url": "https://en.wikipedia.org/wiki/Magnus%2C_Duke_of_Holstein",
+        "calendarUrl": "https://en.wikipedia.org/wiki/September_5",
+        "license": {
+          "name": "CC BY-SA 4.0",
+          "url": "https://creativecommons.org/licenses/by-sa/4.0/"
+        }
+      },
+      "image": {
+        "src": "https://upload.wikimedia.org/wikipedia/commons/c/c7/Hertsog_Magnuse_pitsat.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+        "alt": "Portrait or image of Magnus of Holstein.",
+        "credit": "Original uploaded by Robi01 (Transfered by Anne-Sophie Ofrim)",
+        "source": "https://commons.wikimedia.org/wiki/File:Hertsog_Magnuse_pitsat.jpg",
+        "license": "Public domain",
+        "licenseUrl": "https://commons.wikimedia.org/wiki/File:Hertsog_Magnuse_pitsat.jpg"
+      }
+    },
+    {
+      "id": "09-05-greece-daylight",
+      "date": "09-05",
+      "dateLabel": "5 September",
+      "country": "greece",
+      "countryName": "Greece",
+      "kind": "daylight",
+      "year": 0,
+      "title": "Athens's daylight",
+      "body": "On 5 September, Athens gets about 12 hours and 45 minutes of daylight.",
+      "source": {
+        "name": "NOAA Solar Calculator",
+        "url": "https://gml.noaa.gov/grad/solcalc/",
+        "calendarUrl": "https://gml.noaa.gov/grad/solcalc/calcdetails.html",
+        "license": {
+          "name": "public-domain NOAA method",
+          "url": "https://www.noaa.gov/disclaimer"
+        }
+      },
+      "image": {
+        "src": "https://commons.wikimedia.org/wiki/Special:Redirect/file/Flag_of_Greece.svg?width=1000",
+        "alt": "The national flag of Greece.",
+        "credit": "Greek government",
+        "source": "https://commons.wikimedia.org/wiki/File:Flag_of_Greece.svg",
+        "license": "Public domain",
+        "licenseUrl": "https://commons.wikimedia.org/wiki/File:Flag_of_Greece.svg"
+      }
+    }
+  ]
+}

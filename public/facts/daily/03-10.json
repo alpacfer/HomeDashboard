@@ -1,0 +1,90 @@
+{
+  "date": "03-10",
+  "dateLabel": "10 March",
+  "facts": [
+    {
+      "id": "03-10-spain-santo-domingo",
+      "date": "03-10",
+      "dateLabel": "10 March",
+      "country": "spain",
+      "countryName": "Spain",
+      "kind": "events",
+      "year": 1496,
+      "title": "Santo Domingo",
+      "body": "1496: After establishing the city of Santo Domingo, Christopher Columbus departs for Spain, leaving his brother in command.",
+      "source": {
+        "name": "Wikipedia · Santo Domingo",
+        "url": "https://en.wikipedia.org/wiki/Santo_Domingo",
+        "calendarUrl": "https://en.wikipedia.org/wiki/March_10",
+        "license": {
+          "name": "CC BY-SA 4.0",
+          "url": "https://creativecommons.org/licenses/by-sa/4.0/"
+        }
+      },
+      "image": {
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e3/SantoDomingoedit.JPG/1280px-SantoDomingoedit.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "alt": "Image related to Santo Domingo.",
+        "credit": "Jose Juan C",
+        "source": "https://commons.wikimedia.org/wiki/File:SantoDomingoedit.JPG",
+        "license": "Public domain",
+        "licenseUrl": "https://commons.wikimedia.org/wiki/File:SantoDomingoedit.JPG"
+      }
+    },
+    {
+      "id": "03-10-denmark-thomas-mackenzie",
+      "date": "03-10",
+      "dateLabel": "10 March",
+      "country": "denmark",
+      "countryName": "Denmark",
+      "kind": "births",
+      "year": 1853,
+      "title": "Thomas Mackenzie",
+      "body": "Thomas Mackenzie, Scottish-New Zealand cartographer and politician, 18th Prime Minister of New Zealand (died 1930), was born on this day in 1853.",
+      "source": {
+        "name": "Wikipedia · Thomas Mackenzie",
+        "url": "https://en.wikipedia.org/wiki/Thomas_Mackenzie",
+        "calendarUrl": "https://en.wikipedia.org/wiki/March_10",
+        "license": {
+          "name": "CC BY-SA 4.0",
+          "url": "https://creativecommons.org/licenses/by-sa/4.0/"
+        }
+      },
+      "image": {
+        "src": "https://upload.wikimedia.org/wikipedia/commons/6/6f/Thomas_Mackenzie.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+        "alt": "Portrait or image of Thomas Mackenzie.",
+        "credit": "Unidentified photographer, image held by Alexander Turnbull Library",
+        "source": "https://commons.wikimedia.org/wiki/File:Thomas_Mackenzie.jpg",
+        "license": "Public domain",
+        "licenseUrl": "https://commons.wikimedia.org/wiki/File:Thomas_Mackenzie.jpg"
+      }
+    },
+    {
+      "id": "03-10-greece-greek-civil-war",
+      "date": "03-10",
+      "dateLabel": "10 March",
+      "country": "greece",
+      "countryName": "Greece",
+      "kind": "events",
+      "year": 1944,
+      "title": "Greek Civil War",
+      "body": "1944: Greek Civil War: The Political Committee of National Liberation is established in Greece by the National Liberation Front.",
+      "source": {
+        "name": "Wikipedia · Greek Civil War",
+        "url": "https://en.wikipedia.org/wiki/Greek_Civil_War",
+        "calendarUrl": "https://en.wikipedia.org/wiki/March_10",
+        "license": {
+          "name": "CC BY-SA 4.0",
+          "url": "https://creativecommons.org/licenses/by-sa/4.0/"
+        }
+      },
+      "image": {
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/41/Vladina_edinica%2C_Gradjanska_vojna_vo_Grcija.jpg/1280px-Vladina_edinica%2C_Gradjanska_vojna_vo_Grcija.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "alt": "Image related to Greek Civil War.",
+        "credit": "AnonymousUnknown author",
+        "source": "https://commons.wikimedia.org/wiki/File:Vladina_edinica,_Gradjanska_vojna_vo_Grcija.jpg",
+        "license": "Public domain",
+        "licenseUrl": "https://commons.wikimedia.org/wiki/File:Vladina_edinica,_Gradjanska_vojna_vo_Grcija.jpg"
+      }
+    }
+  ]
+}

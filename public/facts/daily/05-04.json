@@ -1,0 +1,90 @@
+{
+  "date": "05-04",
+  "dateLabel": "4 May",
+  "facts": [
+    {
+      "id": "05-04-spain-papal-bull",
+      "date": "05-04",
+      "dateLabel": "4 May",
+      "country": "spain",
+      "countryName": "Spain",
+      "kind": "events",
+      "year": 1493,
+      "title": "papal bull",
+      "body": "1493: In the papal bull Inter caetera, Pope Alexander VI divides the New World between Spain and Portugal along the Line of Demarcation.",
+      "source": {
+        "name": "Wikipedia · Papal bull",
+        "url": "https://en.wikipedia.org/wiki/Papal_bull",
+        "calendarUrl": "https://en.wikipedia.org/wiki/May_4",
+        "license": {
+          "name": "CC BY-SA 4.0",
+          "url": "https://creativecommons.org/licenses/by-sa/4.0/"
+        }
+      },
+      "image": {
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d2/Papal.bull.JPG/1280px-Papal.bull.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "alt": "Image related to papal bull.",
+        "credit": "Urban VIII",
+        "source": "https://commons.wikimedia.org/wiki/File:Papal.bull.JPG",
+        "license": "Public domain",
+        "licenseUrl": "https://commons.wikimedia.org/wiki/File:Papal.bull.JPG"
+      }
+    },
+    {
+      "id": "05-04-denmark-german-surrender-at-l-neburg-heath",
+      "date": "05-04",
+      "dateLabel": "4 May",
+      "country": "denmark",
+      "countryName": "Denmark",
+      "kind": "events",
+      "year": 1945,
+      "title": "German surrender at Lüneburg Heath",
+      "body": "1945: World War II: The German surrender at Lüneburg Heath is signed, coming into effect the following day. It encompasses all Wehrmacht units in the Netherlands, Denmark and northwest Germany.",
+      "source": {
+        "name": "Wikipedia · German surrender at Lüneburg Heath",
+        "url": "https://en.wikipedia.org/wiki/German_surrender_at_L%C3%BCneburg_Heath",
+        "calendarUrl": "https://en.wikipedia.org/wiki/May_4",
+        "license": {
+          "name": "CC BY-SA 4.0",
+          "url": "https://creativecommons.org/licenses/by-sa/4.0/"
+        }
+      },
+      "image": {
+        "src": "https://upload.wikimedia.org/wikipedia/commons/c/ce/Teilkapitulation_%E2%80%93_040545.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+        "alt": "Image related to German surrender at Lüneburg Heath.",
+        "credit": "Malindine E G (Capt), No 5 Army Film & Photographic Unit",
+        "source": "https://commons.wikimedia.org/wiki/File:Teilkapitulation_%E2%80%93_040545.jpg",
+        "license": "Public domain",
+        "licenseUrl": "https://commons.wikimedia.org/wiki/File:Teilkapitulation_%E2%80%93_040545.jpg"
+      }
+    },
+    {
+      "id": "05-04-greece-princess-katherine-of-greece-and-denmark",
+      "date": "05-04",
+      "dateLabel": "4 May",
+      "country": "greece",
+      "countryName": "Greece",
+      "kind": "births",
+      "year": 1913,
+      "title": "Princess Katherine of Greece and Denmark",
+      "body": "Princess Katherine of Greece and Denmark, (died 2007), was born on this day in 1913.",
+      "source": {
+        "name": "Wikipedia · Princess Katherine of Greece and Denmark",
+        "url": "https://en.wikipedia.org/wiki/Princess_Katherine_of_Greece_and_Denmark",
+        "calendarUrl": "https://en.wikipedia.org/wiki/May_4",
+        "license": {
+          "name": "CC BY-SA 4.0",
+          "url": "https://creativecommons.org/licenses/by-sa/4.0/"
+        }
+      },
+      "image": {
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f1/Princess_Katherine_of_Greece_and_Denmark%2C_1935.jpg/1280px-Princess_Katherine_of_Greece_and_Denmark%2C_1935.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "alt": "Portrait or image of Princess Katherine of Greece and Denmark.",
+        "credit": "Los Angeles Times",
+        "source": "https://commons.wikimedia.org/wiki/File:Princess_Katherine_of_Greece_and_Denmark,_1935.jpg",
+        "license": "CC BY 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by/4.0"
+      }
+    }
+  ]
+}

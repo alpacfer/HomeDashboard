@@ -1,0 +1,90 @@
+{
+  "date": "10-04",
+  "dateLabel": "4 October",
+  "facts": [
+    {
+      "id": "10-04-spain-war-of-the-league-of-cambrai",
+      "date": "10-04",
+      "dateLabel": "4 October",
+      "country": "spain",
+      "countryName": "Spain",
+      "kind": "events",
+      "year": 1511,
+      "title": "Holy League",
+      "body": "1511: Formation of the Holy League of Aragon, the Papal States and Venice against France.",
+      "source": {
+        "name": "Wikipedia · War of the League of Cambrai",
+        "url": "https://en.wikipedia.org/wiki/War_of_the_League_of_Cambrai",
+        "calendarUrl": "https://en.wikipedia.org/wiki/October_4",
+        "license": {
+          "name": "CC BY-SA 4.0",
+          "url": "https://creativecommons.org/licenses/by-sa/4.0/"
+        }
+      },
+      "image": {
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/41/Italia._Cambiamenti_territoriali_%281495-1535%29.png/1280px-Italia._Cambiamenti_territoriali_%281495-1535%29.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "alt": "Image related to Holy League.",
+        "credit": "-kayac-",
+        "source": "https://commons.wikimedia.org/wiki/File:Italia._Cambiamenti_territoriali_(1495-1535).png",
+        "license": "CC BY-SA 3.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0"
+      }
+    },
+    {
+      "id": "10-04-denmark-christen-s-rensen-longomontanus",
+      "date": "10-04",
+      "dateLabel": "4 October",
+      "country": "denmark",
+      "countryName": "Denmark",
+      "kind": "births",
+      "year": 1562,
+      "title": "Christen Sørensen Longomontanus",
+      "body": "Christen Sørensen Longomontanus, Danish astronomer and author (died 1647), was born on this day in 1562.",
+      "source": {
+        "name": "Wikipedia · Christen Sørensen Longomontanus",
+        "url": "https://en.wikipedia.org/wiki/Christen_S%C3%B8rensen_Longomontanus",
+        "calendarUrl": "https://en.wikipedia.org/wiki/October_4",
+        "license": {
+          "name": "CC BY-SA 4.0",
+          "url": "https://creativecommons.org/licenses/by-sa/4.0/"
+        }
+      },
+      "image": {
+        "src": "https://upload.wikimedia.org/wikipedia/commons/e/ed/Logomontanus.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+        "alt": "Portrait or image of Christen Sørensen Longomontanus.",
+        "credit": "Wikimedia Commons contributor",
+        "source": "https://commons.wikimedia.org/wiki/File:Logomontanus.jpg",
+        "license": "Public domain",
+        "licenseUrl": "https://commons.wikimedia.org/wiki/File:Logomontanus.jpg"
+      }
+    },
+    {
+      "id": "10-04-greece-byzantine-venetian-war-1296-1302",
+      "date": "10-04",
+      "dateLabel": "4 October",
+      "country": "greece",
+      "countryName": "Greece",
+      "kind": "events",
+      "year": 1302,
+      "title": "Byzantine–Venetian War",
+      "body": "1302: The Byzantine–Venetian War comes to an end.",
+      "source": {
+        "name": "Wikipedia · Byzantine–Venetian War (1296–1302)",
+        "url": "https://en.wikipedia.org/wiki/Byzantine%E2%80%93Venetian_War_(1296%E2%80%931302)",
+        "calendarUrl": "https://en.wikipedia.org/wiki/October_4",
+        "license": {
+          "name": "CC BY-SA 4.0",
+          "url": "https://creativecommons.org/licenses/by-sa/4.0/"
+        }
+      },
+      "image": {
+        "src": "https://commons.wikimedia.org/wiki/Special:Redirect/file/Flag_of_Greece.svg?width=1000",
+        "alt": "The national flag of Greece.",
+        "credit": "Greek government",
+        "source": "https://commons.wikimedia.org/wiki/File:Flag_of_Greece.svg",
+        "license": "Public domain",
+        "licenseUrl": "https://commons.wikimedia.org/wiki/File:Flag_of_Greece.svg"
+      }
+    }
+  ]
+}

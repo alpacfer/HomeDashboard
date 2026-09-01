@@ -1,0 +1,90 @@
+{
+  "date": "07-23",
+  "dateLabel": "23 July",
+  "facts": [
+    {
+      "id": "07-23-spain-catalonia",
+      "date": "07-23",
+      "dateLabel": "23 July",
+      "country": "spain",
+      "countryName": "Spain",
+      "kind": "events",
+      "year": 1936,
+      "title": "Catalonia",
+      "body": "1936: In Catalonia, Spain, the Unified Socialist Party of Catalonia is founded through the merger of Socialist and Communist parties.",
+      "source": {
+        "name": "Wikipedia · Catalonia",
+        "url": "https://en.wikipedia.org/wiki/Catalonia",
+        "calendarUrl": "https://en.wikipedia.org/wiki/July_23",
+        "license": {
+          "name": "CC BY-SA 4.0",
+          "url": "https://creativecommons.org/licenses/by-sa/4.0/"
+        }
+      },
+      "image": {
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/ce/Flag_of_Catalonia.svg/1280px-Flag_of_Catalonia.svg.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "alt": "Image related to Catalonia.",
+        "credit": "Motoroil",
+        "source": "https://commons.wikimedia.org/wiki/File:Flag_of_Catalonia.svg",
+        "license": "Public domain",
+        "licenseUrl": "https://commons.wikimedia.org/wiki/File:Flag_of_Catalonia.svg"
+      }
+    },
+    {
+      "id": "07-23-denmark-scanian-war",
+      "date": "07-23",
+      "dateLabel": "23 July",
+      "country": "denmark",
+      "countryName": "Denmark",
+      "kind": "events",
+      "year": 1677,
+      "title": "Scanian War",
+      "body": "1677: Scanian War: Denmark–Norway captures the harbor town of Marstrand from Sweden.",
+      "source": {
+        "name": "Wikipedia · Scanian War",
+        "url": "https://en.wikipedia.org/wiki/Scanian_War",
+        "calendarUrl": "https://en.wikipedia.org/wiki/July_23",
+        "license": {
+          "name": "CC BY-SA 4.0",
+          "url": "https://creativecommons.org/licenses/by-sa/4.0/"
+        }
+      },
+      "image": {
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f2/Scanian_War_Collage.jpg/1280px-Scanian_War_Collage.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "alt": "Image related to Scanian War.",
+        "credit": "Imonoz",
+        "source": "https://commons.wikimedia.org/wiki/File:Scanian_War_Collage.jpg",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0"
+      }
+    },
+    {
+      "id": "07-23-greece-byzantine-empire",
+      "date": "07-23",
+      "dateLabel": "23 July",
+      "country": "greece",
+      "countryName": "Greece",
+      "kind": "events",
+      "year": 811,
+      "title": "Byzantine",
+      "body": "811: Byzantine emperor Nikephoros I plunders the Bulgarian capital of Pliska and captures Khan Krum's treasury.",
+      "source": {
+        "name": "Wikipedia · Byzantine Empire",
+        "url": "https://en.wikipedia.org/wiki/Byzantine_Empire",
+        "calendarUrl": "https://en.wikipedia.org/wiki/July_23",
+        "license": {
+          "name": "CC BY-SA 4.0",
+          "url": "https://creativecommons.org/licenses/by-sa/4.0/"
+        }
+      },
+      "image": {
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/69/Red_Eastern_Roman_Empire_565_CE.svg/1280px-Red_Eastern_Roman_Empire_565_CE.svg.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "alt": "Image related to Byzantine.",
+        "credit": "PortosPL31",
+        "source": "https://commons.wikimedia.org/wiki/File:Red_Eastern_Roman_Empire_565_CE.svg",
+        "license": "CC0",
+        "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/deed.en"
+      }
+    }
+  ]
+}

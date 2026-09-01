@@ -1,0 +1,90 @@
+{
+  "date": "10-25",
+  "dateLabel": "25 October",
+  "facts": [
+    {
+      "id": "10-25-spain-siege-of-lisbon",
+      "date": "10-25",
+      "dateLabel": "25 October",
+      "country": "spain",
+      "countryName": "Spain",
+      "kind": "events",
+      "year": 1147,
+      "title": "siege of four months",
+      "body": "1147: Reconquista: After a siege of four months, crusader knights conquer Lisbon.",
+      "source": {
+        "name": "Wikipedia · Siege of Lisbon",
+        "url": "https://en.wikipedia.org/wiki/Siege_of_Lisbon",
+        "calendarUrl": "https://en.wikipedia.org/wiki/October_25",
+        "license": {
+          "name": "CC BY-SA 4.0",
+          "url": "https://creativecommons.org/licenses/by-sa/4.0/"
+        }
+      },
+      "image": {
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/48/Conquista_de_Lisboa_%28Roque_Gameiro%2C_Quadros_da_Hist%C3%B3ria_de_Portugal%2C_1917%29.png/1280px-Conquista_de_Lisboa_%28Roque_Gameiro%2C_Quadros_da_Hist%C3%B3ria_de_Portugal%2C_1917%29.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "alt": "Image related to siege of four months.",
+        "credit": "Roque Gameiro",
+        "source": "https://commons.wikimedia.org/wiki/File:Conquista_de_Lisboa_(Roque_Gameiro,_Quadros_da_Hist%C3%B3ria_de_Portugal,_1917).png",
+        "license": "Public domain",
+        "licenseUrl": "https://commons.wikimedia.org/wiki/File:Conquista_de_Lisboa_(Roque_Gameiro,_Quadros_da_Hist%C3%B3ria_de_Portugal,_1917).png"
+      }
+    },
+    {
+      "id": "10-25-denmark-peter-naur",
+      "date": "10-25",
+      "dateLabel": "25 October",
+      "country": "denmark",
+      "countryName": "Denmark",
+      "kind": "births",
+      "year": 1928,
+      "title": "Peter Naur",
+      "body": "Peter Naur, Danish computer scientist, astronomer, and academic (died 2016), was born on this day in 1928.",
+      "source": {
+        "name": "Wikipedia · Peter Naur",
+        "url": "https://en.wikipedia.org/wiki/Peter_Naur",
+        "calendarUrl": "https://en.wikipedia.org/wiki/October_25",
+        "license": {
+          "name": "CC BY-SA 4.0",
+          "url": "https://creativecommons.org/licenses/by-sa/4.0/"
+        }
+      },
+      "image": {
+        "src": "https://upload.wikimedia.org/wikipedia/commons/5/55/Peternaur.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+        "alt": "Portrait or image of Peter Naur.",
+        "credit": "The original uploader was Eriktj at English Wikipedia.",
+        "source": "https://commons.wikimedia.org/wiki/File:Peternaur.JPG",
+        "license": "CC BY-SA 3.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0/"
+      }
+    },
+    {
+      "id": "10-25-greece-first-siege-of-missolonghi",
+      "date": "10-25",
+      "dateLabel": "25 October",
+      "country": "greece",
+      "countryName": "Greece",
+      "kind": "events",
+      "year": 1822,
+      "title": "First Siege of Missolonghi",
+      "body": "1822: Greek War of Independence: The First Siege of Missolonghi begins.",
+      "source": {
+        "name": "Wikipedia · First siege of Missolonghi",
+        "url": "https://en.wikipedia.org/wiki/First_siege_of_Missolonghi",
+        "calendarUrl": "https://en.wikipedia.org/wiki/October_25",
+        "license": {
+          "name": "CC BY-SA 4.0",
+          "url": "https://creativecommons.org/licenses/by-sa/4.0/"
+        }
+      },
+      "image": {
+        "src": "https://upload.wikimedia.org/wikipedia/commons/5/5a/Mavrokordatos_by_Hess.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+        "alt": "Image related to First Siege of Missolonghi.",
+        "credit": "Peter von Hess",
+        "source": "https://commons.wikimedia.org/wiki/File:Mavrokordatos_by_Hess.jpg",
+        "license": "Public domain",
+        "licenseUrl": "https://commons.wikimedia.org/wiki/File:Mavrokordatos_by_Hess.jpg"
+      }
+    }
+  ]
+}

@@ -1,0 +1,90 @@
+{
+  "date": "05-01",
+  "dateLabel": "1 May",
+  "facts": [
+    {
+      "id": "05-01-spain-alhambra-decree",
+      "date": "05-01",
+      "dateLabel": "1 May",
+      "country": "spain",
+      "countryName": "Spain",
+      "kind": "events",
+      "year": 1492,
+      "title": "Edict of Expulsion",
+      "body": "1492: The Edict of Expulsion is officially proclaimed in Castile, requiring all Jewish residents to leave within three months.",
+      "source": {
+        "name": "Wikipedia · Alhambra Decree",
+        "url": "https://en.wikipedia.org/wiki/Alhambra_Decree",
+        "calendarUrl": "https://en.wikipedia.org/wiki/May_1",
+        "license": {
+          "name": "CC BY-SA 4.0",
+          "url": "https://creativecommons.org/licenses/by-sa/4.0/"
+        }
+      },
+      "image": {
+        "src": "https://upload.wikimedia.org/wikipedia/commons/c/c1/Spanishhaggadah.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+        "alt": "Image related to Edict of Expulsion.",
+        "credit": "Unknown authorUnknown author",
+        "source": "https://commons.wikimedia.org/wiki/File:Spanishhaggadah.jpg",
+        "license": "Public domain",
+        "licenseUrl": "https://commons.wikimedia.org/wiki/File:Spanishhaggadah.jpg"
+      }
+    },
+    {
+      "id": "05-01-denmark-vickers-vc-1-viking",
+      "date": "05-01",
+      "dateLabel": "1 May",
+      "country": "denmark",
+      "countryName": "Denmark",
+      "kind": "events",
+      "year": 1957,
+      "title": "Vickers VC.1 Viking",
+      "body": "1957: A Vickers VC.1 Viking crashes while attempting to return to Blackbushe Airport in Yateley, killing 34.",
+      "source": {
+        "name": "Wikipedia · Vickers VC.1 Viking",
+        "url": "https://en.wikipedia.org/wiki/Vickers_VC.1_Viking",
+        "calendarUrl": "https://en.wikipedia.org/wiki/May_1",
+        "license": {
+          "name": "CC BY-SA 4.0",
+          "url": "https://creativecommons.org/licenses/by-sa/4.0/"
+        }
+      },
+      "image": {
+        "src": "https://commons.wikimedia.org/wiki/Special:Redirect/file/Flag_of_Denmark.svg?width=1000",
+        "alt": "The national flag of Denmark.",
+        "credit": "Danish government",
+        "source": "https://commons.wikimedia.org/wiki/File:Flag_of_Denmark.svg",
+        "license": "Public domain",
+        "licenseUrl": "https://commons.wikimedia.org/wiki/File:Flag_of_Denmark.svg"
+      }
+    },
+    {
+      "id": "05-01-greece-andreas-laskaratos",
+      "date": "05-01",
+      "dateLabel": "1 May",
+      "country": "greece",
+      "countryName": "Greece",
+      "kind": "births",
+      "year": 1811,
+      "title": "Andreas Laskaratos",
+      "body": "Andreas Laskaratos, Greek satirical poet and writer (died 1901), was born on this day in 1811.",
+      "source": {
+        "name": "Wikipedia · Andreas Laskaratos",
+        "url": "https://en.wikipedia.org/wiki/Andreas_Laskaratos",
+        "calendarUrl": "https://en.wikipedia.org/wiki/May_1",
+        "license": {
+          "name": "CC BY-SA 4.0",
+          "url": "https://creativecommons.org/licenses/by-sa/4.0/"
+        }
+      },
+      "image": {
+        "src": "https://upload.wikimedia.org/wikipedia/commons/0/09/Andreas_Laskaratos.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+        "alt": "Portrait or image of Andreas Laskaratos.",
+        "credit": "Eleftherios Kazanis",
+        "source": "https://commons.wikimedia.org/wiki/File:Andreas_Laskaratos.JPG",
+        "license": "Public domain",
+        "licenseUrl": "https://commons.wikimedia.org/wiki/File:Andreas_Laskaratos.JPG"
+      }
+    }
+  ]
+}

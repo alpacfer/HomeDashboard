@@ -1,0 +1,90 @@
+{
+  "date": "07-09",
+  "dateLabel": "9 July",
+  "facts": [
+    {
+      "id": "07-09-spain-argentina",
+      "date": "07-09",
+      "dateLabel": "9 July",
+      "country": "spain",
+      "countryName": "Spain",
+      "kind": "events",
+      "year": 1816,
+      "title": "Argentina",
+      "body": "1816: Argentina declares independence from Spain.",
+      "source": {
+        "name": "Wikipedia · Argentina",
+        "url": "https://en.wikipedia.org/wiki/Argentina",
+        "calendarUrl": "https://en.wikipedia.org/wiki/July_9",
+        "license": {
+          "name": "CC BY-SA 4.0",
+          "url": "https://creativecommons.org/licenses/by-sa/4.0/"
+        }
+      },
+      "image": {
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/1a/Flag_of_Argentina.svg/1280px-Flag_of_Argentina.svg.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "alt": "Image related to Argentina.",
+        "credit": "Manuel Belgrano",
+        "source": "https://commons.wikimedia.org/wiki/File:Flag_of_Argentina.svg",
+        "license": "Public domain",
+        "licenseUrl": "https://commons.wikimedia.org/wiki/File:Flag_of_Argentina.svg"
+      }
+    },
+    {
+      "id": "07-09-denmark-new-zealand-parliament",
+      "date": "07-09",
+      "dateLabel": "9 July",
+      "country": "denmark",
+      "countryName": "Denmark",
+      "kind": "events",
+      "year": 1986,
+      "title": "New Zealand Parliament",
+      "body": "1986: The New Zealand Parliament passes the Homosexual Law Reform Act legalising homosexuality in New Zealand.",
+      "source": {
+        "name": "Wikipedia · New Zealand Parliament",
+        "url": "https://en.wikipedia.org/wiki/New_Zealand_Parliament",
+        "calendarUrl": "https://en.wikipedia.org/wiki/July_9",
+        "license": {
+          "name": "CC BY-SA 4.0",
+          "url": "https://creativecommons.org/licenses/by-sa/4.0/"
+        }
+      },
+      "image": {
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d3/Coat_of_arms_of_New_Zealand.svg/1280px-Coat_of_arms_of_New_Zealand.svg.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "alt": "Image related to New Zealand Parliament.",
+        "credit": "Sodacan",
+        "source": "https://commons.wikimedia.org/wiki/File:Coat_of_arms_of_New_Zealand.svg",
+        "license": "CC BY-SA 3.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0"
+      }
+    },
+    {
+      "id": "07-09-greece-first-council-of-constantinople",
+      "date": "07-09",
+      "dateLabel": "9 July",
+      "country": "greece",
+      "countryName": "Greece",
+      "kind": "events",
+      "year": 381,
+      "title": "First Council",
+      "body": "381: The end of the First Council of Christian bishops convened in Constantinople by the Roman emperor Theodosius I.",
+      "source": {
+        "name": "Wikipedia · First Council of Constantinople",
+        "url": "https://en.wikipedia.org/wiki/First_Council_of_Constantinople",
+        "calendarUrl": "https://en.wikipedia.org/wiki/July_9",
+        "license": {
+          "name": "CC BY-SA 4.0",
+          "url": "https://creativecommons.org/licenses/by-sa/4.0/"
+        }
+      },
+      "image": {
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d3/CouncilOfConstantinople381BnFMSGr510.jpg/1280px-CouncilOfConstantinople381BnFMSGr510.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "alt": "Image related to First Council.",
+        "credit": "Unknown authorUnknown author",
+        "source": "https://commons.wikimedia.org/wiki/File:CouncilOfConstantinople381BnFMSGr510.jpg",
+        "license": "Public domain",
+        "licenseUrl": "https://commons.wikimedia.org/wiki/File:CouncilOfConstantinople381BnFMSGr510.jpg"
+      }
+    }
+  ]
+}

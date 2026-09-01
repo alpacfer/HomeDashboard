@@ -1,0 +1,90 @@
+{
+  "date": "02-24",
+  "dateLabel": "24 February",
+  "facts": [
+    {
+      "id": "02-24-spain-house-of-habsburg",
+      "date": "02-24",
+      "dateLabel": "24 February",
+      "country": "spain",
+      "countryName": "Spain",
+      "kind": "events",
+      "year": 1525,
+      "title": "Spanish-Austrian",
+      "body": "1525: A Spanish-Austrian army defeats a French army at the Battle of Pavia.",
+      "source": {
+        "name": "Wikipedia · House of Habsburg",
+        "url": "https://en.wikipedia.org/wiki/House_of_Habsburg",
+        "calendarUrl": "https://en.wikipedia.org/wiki/February_24",
+        "license": {
+          "name": "CC BY-SA 4.0",
+          "url": "https://creativecommons.org/licenses/by-sa/4.0/"
+        }
+      },
+      "image": {
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/57/Arms_of_Counts_of_Habsbourg.svg/1280px-Arms_of_Counts_of_Habsbourg.svg.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "alt": "Image related to Spanish-Austrian.",
+        "credit": "[1]",
+        "source": "https://commons.wikimedia.org/wiki/File:Arms_of_Counts_of_Habsbourg.svg",
+        "license": "CC BY-SA 3.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0"
+      }
+    },
+    {
+      "id": "02-24-denmark-united-airlines-flight-811",
+      "date": "02-24",
+      "dateLabel": "24 February",
+      "country": "denmark",
+      "countryName": "Denmark",
+      "kind": "events",
+      "year": 1989,
+      "title": "United Airlines Flight 811",
+      "body": "1989: United Airlines Flight 811, bound for New Zealand from Honolulu, rips open during flight, blowing nine passengers out of the business-class section.",
+      "source": {
+        "name": "Wikipedia · United Airlines Flight 811",
+        "url": "https://en.wikipedia.org/wiki/United_Airlines_Flight_811",
+        "calendarUrl": "https://en.wikipedia.org/wiki/February_24",
+        "license": {
+          "name": "CC BY-SA 4.0",
+          "url": "https://creativecommons.org/licenses/by-sa/4.0/"
+        }
+      },
+      "image": {
+        "src": "https://upload.wikimedia.org/wikipedia/commons/7/70/Ntrs.nasa.gov_Flight_811.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+        "alt": "Image related to United Airlines Flight 811.",
+        "credit": "Unknown authorUnknown author",
+        "source": "https://commons.wikimedia.org/wiki/File:Ntrs.nasa.gov_Flight_811.jpg",
+        "license": "Public domain",
+        "licenseUrl": "https://commons.wikimedia.org/wiki/File:Ntrs.nasa.gov_Flight_811.jpg"
+      }
+    },
+    {
+      "id": "02-24-greece-world-war-ii",
+      "date": "02-24",
+      "dateLabel": "24 February",
+      "country": "greece",
+      "countryName": "Greece",
+      "kind": "events",
+      "year": 1943,
+      "title": "World War II",
+      "body": "1943: World War II: First large-scale protest march resulting in clashes with the Axis occupation forces and collaborationist police in Athens against rumours of forced mobilization of Greek workers for work in Germany.",
+      "source": {
+        "name": "Wikipedia · World War II",
+        "url": "https://en.wikipedia.org/wiki/World_War_II",
+        "calendarUrl": "https://en.wikipedia.org/wiki/February_24",
+        "license": {
+          "name": "CC BY-SA 4.0",
+          "url": "https://creativecommons.org/licenses/by-sa/4.0/"
+        }
+      },
+      "image": {
+        "src": "https://upload.wikimedia.org/wikipedia/commons/1/10/Bundesarchiv_Bild_101I-646-5188-17%2C_Flugzeuge_Junkers_Ju_87.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+        "alt": "Image related to World War II.",
+        "credit": "Bundesarchiv, Bild 101I-646-5188-17 / Opitz / CC-BY-SA 3.0",
+        "source": "https://commons.wikimedia.org/wiki/File:Bundesarchiv_Bild_101I-646-5188-17,_Flugzeuge_Junkers_Ju_87.jpg",
+        "license": "CC BY-SA 3.0 de",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0/de/deed.en"
+      }
+    }
+  ]
+}

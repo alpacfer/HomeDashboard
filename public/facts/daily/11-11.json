@@ -1,0 +1,90 @@
+{
+  "date": "11-11",
+  "dateLabel": "11 November",
+  "facts": [
+    {
+      "id": "11-11-spain-treaty-of-granada-1500",
+      "date": "11-11",
+      "dateLabel": "11 November",
+      "country": "spain",
+      "countryName": "Spain",
+      "kind": "events",
+      "year": 1500,
+      "title": "Treaty of Granada",
+      "body": "1500: Treaty of Granada: Louis XII of France and Ferdinand II of Aragon agree to divide the Kingdom of Naples between them.",
+      "source": {
+        "name": "Wikipedia · Treaty of Granada (1500)",
+        "url": "https://en.wikipedia.org/wiki/Treaty_of_Granada_(1500)",
+        "calendarUrl": "https://en.wikipedia.org/wiki/November_11",
+        "license": {
+          "name": "CC BY-SA 4.0",
+          "url": "https://creativecommons.org/licenses/by-sa/4.0/"
+        }
+      },
+      "image": {
+        "src": "https://upload.wikimedia.org/wikipedia/commons/2/2d/Michel_Sittow_004.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+        "alt": "Image related to Treaty of Granada.",
+        "credit": "Michael Sittow",
+        "source": "https://commons.wikimedia.org/wiki/File:Michel_Sittow_004.jpg",
+        "license": "Public domain",
+        "licenseUrl": "https://commons.wikimedia.org/wiki/File:Michel_Sittow_004.jpg"
+      }
+    },
+    {
+      "id": "11-11-denmark-elizabeth-ii",
+      "date": "11-11",
+      "dateLabel": "11 November",
+      "country": "denmark",
+      "countryName": "Denmark",
+      "kind": "events",
+      "year": 2006,
+      "title": "Queen Elizabeth II",
+      "body": "2006: Queen Elizabeth II unveils the New Zealand War Memorial in London, United Kingdom, commemorating the loss of soldiers from the New Zealand Army and the British Army.",
+      "source": {
+        "name": "Wikipedia · Elizabeth II",
+        "url": "https://en.wikipedia.org/wiki/Elizabeth_II",
+        "calendarUrl": "https://en.wikipedia.org/wiki/November_11",
+        "license": {
+          "name": "CC BY-SA 4.0",
+          "url": "https://creativecommons.org/licenses/by-sa/4.0/"
+        }
+      },
+      "image": {
+        "src": "https://upload.wikimedia.org/wikipedia/commons/1/11/Queen_Elizabeth_II_official_portrait_for_1959_tour_%28retouched%29_%28cropped%29_%283-to-4_aspect_ratio%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+        "alt": "Image related to Queen Elizabeth II.",
+        "credit": "Donald McKague",
+        "source": "https://commons.wikimedia.org/wiki/File:Queen_Elizabeth_II_official_portrait_for_1959_tour_(retouched)_(cropped)_(3-to-4_aspect_ratio).jpg",
+        "license": "Public domain",
+        "licenseUrl": "https://commons.wikimedia.org/wiki/File:Queen_Elizabeth_II_official_portrait_for_1959_tour_(retouched)_(cropped)_(3-to-4_aspect_ratio).jpg"
+      }
+    },
+    {
+      "id": "11-11-greece-constantine-viii",
+      "date": "11-11",
+      "dateLabel": "11 November",
+      "country": "greece",
+      "countryName": "Greece",
+      "kind": "events",
+      "year": 1028,
+      "title": "Constantine VIII",
+      "body": "1028: Constantine VIII dies, ending his uninterrupted reign as emperor or co-emperor of the Byzantine Empire of 66 years.",
+      "source": {
+        "name": "Wikipedia · Constantine VIII",
+        "url": "https://en.wikipedia.org/wiki/Constantine_VIII",
+        "calendarUrl": "https://en.wikipedia.org/wiki/November_11",
+        "license": {
+          "name": "CC BY-SA 4.0",
+          "url": "https://creativecommons.org/licenses/by-sa/4.0/"
+        }
+      },
+      "image": {
+        "src": "https://upload.wikimedia.org/wikipedia/commons/8/88/Constantine_VIII_in_the_Exultet_roll_%282%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+        "alt": "Image related to Constantine VIII.",
+        "credit": "unknown 12th century artist",
+        "source": "https://commons.wikimedia.org/wiki/File:Constantine_VIII_in_the_Exultet_roll_(2).jpg",
+        "license": "Public domain",
+        "licenseUrl": "https://commons.wikimedia.org/wiki/File:Constantine_VIII_in_the_Exultet_roll_(2).jpg"
+      }
+    }
+  ]
+}

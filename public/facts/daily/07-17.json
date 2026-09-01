@@ -1,0 +1,90 @@
+{
+  "date": "07-17",
+  "dateLabel": "17 July",
+  "facts": [
+    {
+      "id": "07-17-spain-kingdom-of-spain",
+      "date": "07-17",
+      "dateLabel": "17 July",
+      "country": "spain",
+      "countryName": "Spain",
+      "kind": "events",
+      "year": 1821,
+      "title": "Kingdom of Spain",
+      "body": "1821: The Kingdom of Spain cedes the territory of Florida to the United States.",
+      "source": {
+        "name": "Wikipedia · Spain",
+        "url": "https://en.wikipedia.org/wiki/Spain",
+        "calendarUrl": "https://en.wikipedia.org/wiki/July_17",
+        "license": {
+          "name": "CC BY-SA 4.0",
+          "url": "https://creativecommons.org/licenses/by-sa/4.0/"
+        }
+      },
+      "image": {
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/24/Flag_of_the_Kingdom_of_Spain.svg/1280px-Flag_of_the_Kingdom_of_Spain.svg.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "alt": "Image related to Kingdom of Spain.",
+        "credit": "Antonio Valdés y Fernández Bazán",
+        "source": "https://commons.wikimedia.org/wiki/File:Flag_of_the_Kingdom_of_Spain.svg",
+        "license": "Public domain",
+        "licenseUrl": "https://commons.wikimedia.org/wiki/File:Flag_of_the_Kingdom_of_Spain.svg"
+      }
+    },
+    {
+      "id": "07-17-denmark-henri-nathansen",
+      "date": "07-17",
+      "dateLabel": "17 July",
+      "country": "denmark",
+      "countryName": "Denmark",
+      "kind": "births",
+      "year": 1868,
+      "title": "Henri Nathansen",
+      "body": "Henri Nathansen, Danish director and playwright (died 1944), was born on this day in 1868.",
+      "source": {
+        "name": "Wikipedia · Henri Nathansen",
+        "url": "https://en.wikipedia.org/wiki/Henri_Nathansen",
+        "calendarUrl": "https://en.wikipedia.org/wiki/July_17",
+        "license": {
+          "name": "CC BY-SA 4.0",
+          "url": "https://creativecommons.org/licenses/by-sa/4.0/"
+        }
+      },
+      "image": {
+        "src": "https://upload.wikimedia.org/wikipedia/commons/8/80/Henri_Nathansen82.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+        "alt": "Portrait or image of Henri Nathansen.",
+        "credit": "Unknown authorUnknown author",
+        "source": "https://commons.wikimedia.org/wiki/File:Henri_Nathansen82.jpg",
+        "license": "Public domain",
+        "licenseUrl": "https://commons.wikimedia.org/wiki/File:Henri_Nathansen82.jpg"
+      }
+    },
+    {
+      "id": "07-17-greece-fourth-crusade",
+      "date": "07-17",
+      "dateLabel": "17 July",
+      "country": "greece",
+      "countryName": "Greece",
+      "kind": "events",
+      "year": 1203,
+      "title": "Fourth Crusade",
+      "body": "1203: The Fourth Crusade assaults Constantinople. The Byzantine emperor Alexios III Angelos flees from his capital into exile.",
+      "source": {
+        "name": "Wikipedia · Fourth Crusade",
+        "url": "https://en.wikipedia.org/wiki/Fourth_Crusade",
+        "calendarUrl": "https://en.wikipedia.org/wiki/July_17",
+        "license": {
+          "name": "CC BY-SA 4.0",
+          "url": "https://creativecommons.org/licenses/by-sa/4.0/"
+        }
+      },
+      "image": {
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/0a/ConquestOfConstantinopleByTheCrusadersIn1204.jpg/1280px-ConquestOfConstantinopleByTheCrusadersIn1204.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "alt": "Image related to Fourth Crusade.",
+        "credit": "Loyset Liédet",
+        "source": "https://commons.wikimedia.org/wiki/File:ConquestOfConstantinopleByTheCrusadersIn1204.jpg",
+        "license": "Public domain",
+        "licenseUrl": "https://commons.wikimedia.org/wiki/File:ConquestOfConstantinopleByTheCrusadersIn1204.jpg"
+      }
+    }
+  ]
+}

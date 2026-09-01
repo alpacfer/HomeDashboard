@@ -1,0 +1,90 @@
+{
+  "date": "04-09",
+  "dateLabel": "9 April",
+  "facts": [
+    {
+      "id": "04-09-spain-eighty-years-war",
+      "date": "04-09",
+      "dateLabel": "9 April",
+      "country": "spain",
+      "countryName": "Spain",
+      "kind": "events",
+      "year": 1609,
+      "title": "Eighty Years' War",
+      "body": "1609: Eighty Years' War: Spain and the Dutch Republic sign the Treaty of Antwerp to initiate twelve years of truce.",
+      "source": {
+        "name": "Wikipedia · Eighty Years' War",
+        "url": "https://en.wikipedia.org/wiki/Eighty_Years'_War",
+        "calendarUrl": "https://en.wikipedia.org/wiki/April_9",
+        "license": {
+          "name": "CC BY-SA 4.0",
+          "url": "https://creativecommons.org/licenses/by-sa/4.0/"
+        }
+      },
+      "image": {
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b9/Battle_of_Gibraltar_1607.jpg/1280px-Battle_of_Gibraltar_1607.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "alt": "Image related to Eighty Years' War.",
+        "credit": "Cornelis Claesz van Wieringen / Formerly attributed to Hendrick Cornelisz Vroom",
+        "source": "https://commons.wikimedia.org/wiki/File:Battle_of_Gibraltar_1607.jpg",
+        "license": "Public domain",
+        "licenseUrl": "https://commons.wikimedia.org/wiki/File:Battle_of_Gibraltar_1607.jpg"
+      }
+    },
+    {
+      "id": "04-09-denmark-world-war-ii",
+      "date": "04-09",
+      "dateLabel": "9 April",
+      "country": "denmark",
+      "countryName": "Denmark",
+      "kind": "events",
+      "year": 1940,
+      "title": "World War II",
+      "body": "1940: World War II: Operation Weserübung: Germany invades Denmark and Norway.",
+      "source": {
+        "name": "Wikipedia · World War II",
+        "url": "https://en.wikipedia.org/wiki/World_War_II",
+        "calendarUrl": "https://en.wikipedia.org/wiki/April_9",
+        "license": {
+          "name": "CC BY-SA 4.0",
+          "url": "https://creativecommons.org/licenses/by-sa/4.0/"
+        }
+      },
+      "image": {
+        "src": "https://upload.wikimedia.org/wikipedia/commons/1/10/Bundesarchiv_Bild_101I-646-5188-17%2C_Flugzeuge_Junkers_Ju_87.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+        "alt": "Image related to World War II.",
+        "credit": "Bundesarchiv, Bild 101I-646-5188-17 / Opitz / CC-BY-SA 3.0",
+        "source": "https://commons.wikimedia.org/wiki/File:Bundesarchiv_Bild_101I-646-5188-17,_Flugzeuge_Junkers_Ju_87.jpg",
+        "license": "CC BY-SA 3.0 de",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0/de/deed.en"
+      }
+    },
+    {
+      "id": "04-09-greece-byzantine-empire",
+      "date": "04-09",
+      "dateLabel": "9 April",
+      "country": "greece",
+      "countryName": "Greece",
+      "kind": "events",
+      "year": 1387,
+      "title": "Byzantine",
+      "body": "1387: The Byzantine city of Thessalonike surrenders to the Ottomans, though rule reverts back to the Byzantines after the battle of Ankara.",
+      "source": {
+        "name": "Wikipedia · Byzantine Empire",
+        "url": "https://en.wikipedia.org/wiki/Byzantine_Empire",
+        "calendarUrl": "https://en.wikipedia.org/wiki/April_9",
+        "license": {
+          "name": "CC BY-SA 4.0",
+          "url": "https://creativecommons.org/licenses/by-sa/4.0/"
+        }
+      },
+      "image": {
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/69/Red_Eastern_Roman_Empire_565_CE.svg/1280px-Red_Eastern_Roman_Empire_565_CE.svg.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "alt": "Image related to Byzantine.",
+        "credit": "PortosPL31",
+        "source": "https://commons.wikimedia.org/wiki/File:Red_Eastern_Roman_Empire_565_CE.svg",
+        "license": "CC0",
+        "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/deed.en"
+      }
+    }
+  ]
+}

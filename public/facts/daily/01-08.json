@@ -1,0 +1,90 @@
+{
+  "date": "01-08",
+  "dateLabel": "8 January",
+  "facts": [
+    {
+      "id": "01-08-spain-anarchist-insurrection-of-january-1933",
+      "date": "01-08",
+      "dateLabel": "8 January",
+      "country": "spain",
+      "countryName": "Spain",
+      "kind": "events",
+      "year": 1933,
+      "title": "Anarchist insurrection of January 1933",
+      "body": "1933: Anarchist insurrection of January 1933 breaks out in Barcelona, Spain.",
+      "source": {
+        "name": "Wikipedia · Anarchist insurrection of January 1933",
+        "url": "https://en.wikipedia.org/wiki/Anarchist_insurrection_of_January_1933",
+        "calendarUrl": "https://en.wikipedia.org/wiki/January_8",
+        "license": {
+          "name": "CC BY-SA 4.0",
+          "url": "https://creativecommons.org/licenses/by-sa/4.0/"
+        }
+      },
+      "image": {
+        "src": "https://upload.wikimedia.org/wikipedia/commons/a/a3/Revoluci%C3%B3n_de_enero_de_1933.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+        "alt": "Image related to Anarchist insurrection of January 1933.",
+        "credit": "Tyk",
+        "source": "https://commons.wikimedia.org/wiki/File:Revoluci%C3%B3n_de_enero_de_1933.png",
+        "license": "CC BY-SA 3.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0/"
+      }
+    },
+    {
+      "id": "01-08-denmark-aaron-cruden",
+      "date": "01-08",
+      "dateLabel": "8 January",
+      "country": "denmark",
+      "countryName": "Denmark",
+      "kind": "births",
+      "year": 1989,
+      "title": "Aaron Cruden",
+      "body": "Aaron Cruden, New Zealand rugby player, was born on this day in 1989.",
+      "source": {
+        "name": "Wikipedia · Aaron Cruden",
+        "url": "https://en.wikipedia.org/wiki/Aaron_Cruden",
+        "calendarUrl": "https://en.wikipedia.org/wiki/January_8",
+        "license": {
+          "name": "CC BY-SA 4.0",
+          "url": "https://creativecommons.org/licenses/by-sa/4.0/"
+        }
+      },
+      "image": {
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/47/Aaron_Cruden_Italy_2016.jpg/1280px-Aaron_Cruden_Italy_2016.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "alt": "Portrait or image of Aaron Cruden.",
+        "credit": "Stefano Delfrate",
+        "source": "https://commons.wikimedia.org/wiki/File:Aaron_Cruden_Italy_2016.jpg",
+        "license": "CC BY-SA 2.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0"
+      }
+    },
+    {
+      "id": "01-08-greece-daylight",
+      "date": "01-08",
+      "dateLabel": "8 January",
+      "country": "greece",
+      "countryName": "Greece",
+      "kind": "daylight",
+      "year": 0,
+      "title": "Athens's daylight",
+      "body": "On 8 January, Athens gets about 9 hours and 40 minutes of daylight.",
+      "source": {
+        "name": "NOAA Solar Calculator",
+        "url": "https://gml.noaa.gov/grad/solcalc/",
+        "calendarUrl": "https://gml.noaa.gov/grad/solcalc/calcdetails.html",
+        "license": {
+          "name": "public-domain NOAA method",
+          "url": "https://www.noaa.gov/disclaimer"
+        }
+      },
+      "image": {
+        "src": "https://commons.wikimedia.org/wiki/Special:Redirect/file/Flag_of_Greece.svg?width=1000",
+        "alt": "The national flag of Greece.",
+        "credit": "Greek government",
+        "source": "https://commons.wikimedia.org/wiki/File:Flag_of_Greece.svg",
+        "license": "Public domain",
+        "licenseUrl": "https://commons.wikimedia.org/wiki/File:Flag_of_Greece.svg"
+      }
+    }
+  ]
+}

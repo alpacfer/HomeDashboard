@@ -1,0 +1,90 @@
+{
+  "date": "03-29",
+  "dateLabel": "29 March",
+  "facts": [
+    {
+      "id": "03-29-spain-daylight",
+      "date": "03-29",
+      "dateLabel": "29 March",
+      "country": "spain",
+      "countryName": "Spain",
+      "kind": "daylight",
+      "year": 0,
+      "title": "Madrid's daylight",
+      "body": "On 29 March, Madrid gets about 12 hours and 30 minutes of daylight.",
+      "source": {
+        "name": "NOAA Solar Calculator",
+        "url": "https://gml.noaa.gov/grad/solcalc/",
+        "calendarUrl": "https://gml.noaa.gov/grad/solcalc/calcdetails.html",
+        "license": {
+          "name": "public-domain NOAA method",
+          "url": "https://www.noaa.gov/disclaimer"
+        }
+      },
+      "image": {
+        "src": "https://commons.wikimedia.org/wiki/Special:Redirect/file/Flag_of_Spain.svg?width=1000",
+        "alt": "The national flag of Spain.",
+        "credit": "Government of Spain",
+        "source": "https://commons.wikimedia.org/wiki/File:Flag_of_Spain.svg",
+        "license": "Public domain",
+        "licenseUrl": "https://commons.wikimedia.org/wiki/File:Flag_of_Spain.svg"
+      }
+    },
+    {
+      "id": "03-29-denmark-hypnosis-murders",
+      "date": "03-29",
+      "dateLabel": "29 March",
+      "country": "denmark",
+      "countryName": "Denmark",
+      "kind": "events",
+      "year": 1951,
+      "title": "Hypnosis murders",
+      "body": "1951: Hypnosis murders in Copenhagen.",
+      "source": {
+        "name": "Wikipedia · Hypnosis murders",
+        "url": "https://en.wikipedia.org/wiki/Hypnosis_murders",
+        "calendarUrl": "https://en.wikipedia.org/wiki/March_29",
+        "license": {
+          "name": "CC BY-SA 4.0",
+          "url": "https://creativecommons.org/licenses/by-sa/4.0/"
+        }
+      },
+      "image": {
+        "src": "https://commons.wikimedia.org/wiki/Special:Redirect/file/Flag_of_Denmark.svg?width=1000",
+        "alt": "The national flag of Denmark.",
+        "credit": "Danish government",
+        "source": "https://commons.wikimedia.org/wiki/File:Flag_of_Denmark.svg",
+        "license": "Public domain",
+        "licenseUrl": "https://commons.wikimedia.org/wiki/File:Flag_of_Denmark.svg"
+      }
+    },
+    {
+      "id": "03-29-greece-world-war-ii",
+      "date": "03-29",
+      "dateLabel": "29 March",
+      "country": "greece",
+      "countryName": "Greece",
+      "kind": "events",
+      "year": 1941,
+      "title": "World War II",
+      "body": "1941: World War II: British Royal Navy and Royal Australian Navy forces defeat those of the Italian Regia Marina off the Peloponnesian coast of Greece in the Battle of Cape Matapan.",
+      "source": {
+        "name": "Wikipedia · World War II",
+        "url": "https://en.wikipedia.org/wiki/World_War_II",
+        "calendarUrl": "https://en.wikipedia.org/wiki/March_29",
+        "license": {
+          "name": "CC BY-SA 4.0",
+          "url": "https://creativecommons.org/licenses/by-sa/4.0/"
+        }
+      },
+      "image": {
+        "src": "https://upload.wikimedia.org/wikipedia/commons/1/10/Bundesarchiv_Bild_101I-646-5188-17%2C_Flugzeuge_Junkers_Ju_87.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+        "alt": "Image related to World War II.",
+        "credit": "Bundesarchiv, Bild 101I-646-5188-17 / Opitz / CC-BY-SA 3.0",
+        "source": "https://commons.wikimedia.org/wiki/File:Bundesarchiv_Bild_101I-646-5188-17,_Flugzeuge_Junkers_Ju_87.jpg",
+        "license": "CC BY-SA 3.0 de",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0/de/deed.en"
+      }
+    }
+  ]
+}

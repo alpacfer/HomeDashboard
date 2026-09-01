@@ -1,0 +1,90 @@
+{
+  "date": "04-25",
+  "dateLabel": "25 April",
+  "facts": [
+    {
+      "id": "04-25-spain-eighty-years-war",
+      "date": "04-25",
+      "dateLabel": "25 April",
+      "country": "spain",
+      "countryName": "Spain",
+      "kind": "events",
+      "year": 1607,
+      "title": "Eighty Years' War",
+      "body": "1607: Eighty Years' War: The Dutch fleet destroys the anchored Spanish fleet at Gibraltar.",
+      "source": {
+        "name": "Wikipedia · Eighty Years' War",
+        "url": "https://en.wikipedia.org/wiki/Eighty_Years'_War",
+        "calendarUrl": "https://en.wikipedia.org/wiki/April_25",
+        "license": {
+          "name": "CC BY-SA 4.0",
+          "url": "https://creativecommons.org/licenses/by-sa/4.0/"
+        }
+      },
+      "image": {
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b9/Battle_of_Gibraltar_1607.jpg/1280px-Battle_of_Gibraltar_1607.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "alt": "Image related to Eighty Years' War.",
+        "credit": "Cornelis Claesz van Wieringen / Formerly attributed to Hendrick Cornelisz Vroom",
+        "source": "https://commons.wikimedia.org/wiki/File:Battle_of_Gibraltar_1607.jpg",
+        "license": "Public domain",
+        "licenseUrl": "https://commons.wikimedia.org/wiki/File:Battle_of_Gibraltar_1607.jpg"
+      }
+    },
+    {
+      "id": "04-25-denmark-world-war-i",
+      "date": "04-25",
+      "dateLabel": "25 April",
+      "country": "denmark",
+      "countryName": "Denmark",
+      "kind": "events",
+      "year": 1915,
+      "title": "World War I",
+      "body": "1915: World War I: The Battle of Gallipoli begins: The invasion of the Turkish Gallipoli Peninsula by British, French, Indian, Newfoundland, Australian and New Zealand troops begins with landings at Anzac Cove and Cape Helles.",
+      "source": {
+        "name": "Wikipedia · World War I",
+        "url": "https://en.wikipedia.org/wiki/World_War_I",
+        "calendarUrl": "https://en.wikipedia.org/wiki/April_25",
+        "license": {
+          "name": "CC BY-SA 4.0",
+          "url": "https://creativecommons.org/licenses/by-sa/4.0/"
+        }
+      },
+      "image": {
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e6/Bataille_de_Verdun_1916.jpg/1280px-Bataille_de_Verdun_1916.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "alt": "Image related to World War I.",
+        "credit": "Collection DocAnciens/docpix.fr",
+        "source": "https://commons.wikimedia.org/wiki/File:Bataille_de_Verdun_1916.jpg",
+        "license": "Public domain",
+        "licenseUrl": "https://commons.wikimedia.org/wiki/File:Bataille_de_Verdun_1916.jpg"
+      }
+    },
+    {
+      "id": "04-25-greece-nikolaos-roussen",
+      "date": "04-25",
+      "dateLabel": "25 April",
+      "country": "greece",
+      "countryName": "Greece",
+      "kind": "births",
+      "year": 1913,
+      "title": "Nikolaos Roussen",
+      "body": "Nikolaos Roussen, Greek captain (died 1944), was born on this day in 1913.",
+      "source": {
+        "name": "Wikipedia · Nikolaos Roussen",
+        "url": "https://en.wikipedia.org/wiki/Nikolaos_Roussen",
+        "calendarUrl": "https://en.wikipedia.org/wiki/April_25",
+        "license": {
+          "name": "CC BY-SA 4.0",
+          "url": "https://creativecommons.org/licenses/by-sa/4.0/"
+        }
+      },
+      "image": {
+        "src": "https://commons.wikimedia.org/wiki/Special:Redirect/file/Flag_of_Greece.svg?width=1000",
+        "alt": "The national flag of Greece.",
+        "credit": "Greek government",
+        "source": "https://commons.wikimedia.org/wiki/File:Flag_of_Greece.svg",
+        "license": "Public domain",
+        "licenseUrl": "https://commons.wikimedia.org/wiki/File:Flag_of_Greece.svg"
+      }
+    }
+  ]
+}

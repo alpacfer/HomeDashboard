@@ -1,0 +1,90 @@
+{
+  "date": "10-10",
+  "dateLabel": "10 October",
+  "facts": [
+    {
+      "id": "10-10-spain-ten-years-war",
+      "date": "10-10",
+      "dateLabel": "10 October",
+      "country": "spain",
+      "countryName": "Spain",
+      "kind": "events",
+      "year": 1868,
+      "title": "Ten Years' War",
+      "body": "1868: The Ten Years' War begins against Spanish rule in Cuba.",
+      "source": {
+        "name": "Wikipedia · Ten Years' War",
+        "url": "https://en.wikipedia.org/wiki/Ten_Years'_War",
+        "calendarUrl": "https://en.wikipedia.org/wiki/October_10",
+        "license": {
+          "name": "CC BY-SA 4.0",
+          "url": "https://creativecommons.org/licenses/by-sa/4.0/"
+        }
+      },
+      "image": {
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/57/Embarcament_dels_voluntaris_catalans_al_port_de_Barcelona.jpg/1280px-Embarcament_dels_voluntaris_catalans_al_port_de_Barcelona.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "alt": "Image related to Ten Years' War.",
+        "credit": "Ramon Padró i Pedret",
+        "source": "https://commons.wikimedia.org/wiki/File:Embarcament_dels_voluntaris_catalans_al_port_de_Barcelona.jpg",
+        "license": "Public domain",
+        "licenseUrl": "https://commons.wikimedia.org/wiki/File:Embarcament_dels_voluntaris_catalans_al_port_de_Barcelona.jpg"
+      }
+    },
+    {
+      "id": "10-10-denmark-sten-sture-the-elder",
+      "date": "10-10",
+      "dateLabel": "10 October",
+      "country": "denmark",
+      "countryName": "Denmark",
+      "kind": "events",
+      "year": 1471,
+      "title": "Sten Sture the Elder",
+      "body": "1471: Sten Sture the Elder, the Regent of Sweden, with the help of farmers and miners, repels an attack by King Christian I of Denmark.",
+      "source": {
+        "name": "Wikipedia · Sten Sture the Elder",
+        "url": "https://en.wikipedia.org/wiki/Sten_Sture_the_Elder",
+        "calendarUrl": "https://en.wikipedia.org/wiki/October_10",
+        "license": {
+          "name": "CC BY-SA 4.0",
+          "url": "https://creativecommons.org/licenses/by-sa/4.0/"
+        }
+      },
+      "image": {
+        "src": "https://commons.wikimedia.org/wiki/Special:Redirect/file/Flag_of_Denmark.svg?width=1000",
+        "alt": "The national flag of Denmark.",
+        "credit": "Danish government",
+        "source": "https://commons.wikimedia.org/wiki/File:Flag_of_Denmark.svg",
+        "license": "Public domain",
+        "licenseUrl": "https://commons.wikimedia.org/wiki/File:Flag_of_Denmark.svg"
+      }
+    },
+    {
+      "id": "10-10-greece-coup-d-tat",
+      "date": "10-10",
+      "dateLabel": "10 October",
+      "country": "greece",
+      "countryName": "Greece",
+      "kind": "events",
+      "year": 1935,
+      "title": "coup d'état",
+      "body": "1935: In Greece, a coup d'état ends the Second Hellenic Republic.",
+      "source": {
+        "name": "Wikipedia · Coup d'état",
+        "url": "https://en.wikipedia.org/wiki/Coup_d'%C3%A9tat",
+        "calendarUrl": "https://en.wikipedia.org/wiki/October_10",
+        "license": {
+          "name": "CC BY-SA 4.0",
+          "url": "https://creativecommons.org/licenses/by-sa/4.0/"
+        }
+      },
+      "image": {
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/44/Bouchot_-_Le_general_Bonaparte_au_Conseil_des_Cinq-Cents.jpg/1280px-Bouchot_-_Le_general_Bonaparte_au_Conseil_des_Cinq-Cents.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "alt": "Image related to coup d'état.",
+        "credit": "François Bouchot",
+        "source": "https://commons.wikimedia.org/wiki/File:Bouchot_-_Le_general_Bonaparte_au_Conseil_des_Cinq-Cents.jpg",
+        "license": "Public domain",
+        "licenseUrl": "https://commons.wikimedia.org/wiki/File:Bouchot_-_Le_general_Bonaparte_au_Conseil_des_Cinq-Cents.jpg"
+      }
+    }
+  ]
+}

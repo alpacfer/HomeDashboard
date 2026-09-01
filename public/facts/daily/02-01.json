@@ -1,0 +1,90 @@
+{
+  "date": "02-01",
+  "dateLabel": "1 February",
+  "facts": [
+    {
+      "id": "02-01-spain-jos-luis-sampedro",
+      "date": "02-01",
+      "dateLabel": "1 February",
+      "country": "spain",
+      "countryName": "Spain",
+      "kind": "births",
+      "year": 1917,
+      "title": "José Luis Sampedro",
+      "body": "José Luis Sampedro, Spanish economist and author (died 2013), was born on this day in 1917.",
+      "source": {
+        "name": "Wikipedia · José Luis Sampedro",
+        "url": "https://en.wikipedia.org/wiki/Jos%C3%A9_Luis_Sampedro",
+        "calendarUrl": "https://en.wikipedia.org/wiki/February_1",
+        "license": {
+          "name": "CC BY-SA 4.0",
+          "url": "https://creativecommons.org/licenses/by-sa/4.0/"
+        }
+      },
+      "image": {
+        "src": "https://upload.wikimedia.org/wikipedia/commons/6/67/Jos%C3%A9_Luis_Sampedro_%282006%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+        "alt": "Portrait or image of José Luis Sampedro.",
+        "credit": "Iñigo González from Guadalajara, Spain",
+        "source": "https://commons.wikimedia.org/wiki/File:Jos%C3%A9_Luis_Sampedro_(2006).jpg",
+        "license": "CC BY-SA 2.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0"
+      }
+    },
+    {
+      "id": "02-01-denmark-underarm-bowling-incident-of-1981",
+      "date": "02-01",
+      "dateLabel": "1 February",
+      "country": "denmark",
+      "countryName": "Denmark",
+      "kind": "events",
+      "year": 1981,
+      "title": "Underarm bowling incident of 1981",
+      "body": "1981: The Underarm bowling incident of 1981 occurred when Trevor Chappell bowls underarm on the final delivery of a game between Australia and New Zealand at the Melbourne Cricket Ground (MCG).",
+      "source": {
+        "name": "Wikipedia · Underarm bowling incident of 1981",
+        "url": "https://en.wikipedia.org/wiki/Underarm_bowling_incident_of_1981",
+        "calendarUrl": "https://en.wikipedia.org/wiki/February_1",
+        "license": {
+          "name": "CC BY-SA 4.0",
+          "url": "https://creativecommons.org/licenses/by-sa/4.0/"
+        }
+      },
+      "image": {
+        "src": "https://commons.wikimedia.org/wiki/Special:Redirect/file/Flag_of_Denmark.svg?width=1000",
+        "alt": "The national flag of Denmark.",
+        "credit": "Danish government",
+        "source": "https://commons.wikimedia.org/wiki/File:Flag_of_Denmark.svg",
+        "license": "Public domain",
+        "licenseUrl": "https://commons.wikimedia.org/wiki/File:Flag_of_Denmark.svg"
+      }
+    },
+    {
+      "id": "02-01-greece-daylight",
+      "date": "02-01",
+      "dateLabel": "1 February",
+      "country": "greece",
+      "countryName": "Greece",
+      "kind": "daylight",
+      "year": 0,
+      "title": "Athens's daylight",
+      "body": "On 1 February, Athens gets about 10 hours and 15 minutes of daylight.",
+      "source": {
+        "name": "NOAA Solar Calculator",
+        "url": "https://gml.noaa.gov/grad/solcalc/",
+        "calendarUrl": "https://gml.noaa.gov/grad/solcalc/calcdetails.html",
+        "license": {
+          "name": "public-domain NOAA method",
+          "url": "https://www.noaa.gov/disclaimer"
+        }
+      },
+      "image": {
+        "src": "https://commons.wikimedia.org/wiki/Special:Redirect/file/Flag_of_Greece.svg?width=1000",
+        "alt": "The national flag of Greece.",
+        "credit": "Greek government",
+        "source": "https://commons.wikimedia.org/wiki/File:Flag_of_Greece.svg",
+        "license": "Public domain",
+        "licenseUrl": "https://commons.wikimedia.org/wiki/File:Flag_of_Greece.svg"
+      }
+    }
+  ]
+}

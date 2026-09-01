@@ -1,0 +1,90 @@
+{
+  "date": "04-19",
+  "dateLabel": "19 April",
+  "facts": [
+    {
+      "id": "04-19-spain-kingdom-of-england",
+      "date": "04-19",
+      "dateLabel": "19 April",
+      "country": "spain",
+      "countryName": "Spain",
+      "kind": "events",
+      "year": 1572,
+      "title": "England",
+      "body": "1572: England and France sign an alliance against Spain in the treaty of Blois.",
+      "source": {
+        "name": "Wikipedia · Kingdom of England",
+        "url": "https://en.wikipedia.org/wiki/Kingdom_of_England",
+        "calendarUrl": "https://en.wikipedia.org/wiki/April_19",
+        "license": {
+          "name": "CC BY-SA 4.0",
+          "url": "https://creativecommons.org/licenses/by-sa/4.0/"
+        }
+      },
+      "image": {
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/be/Flag_of_England.svg/1280px-Flag_of_England.svg.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "alt": "Image related to England.",
+        "credit": "Original: traditional Vector: Nicholas Shanks",
+        "source": "https://commons.wikimedia.org/wiki/File:Flag_of_England.svg",
+        "license": "Public domain",
+        "licenseUrl": "https://commons.wikimedia.org/wiki/File:Flag_of_England.svg"
+      }
+    },
+    {
+      "id": "04-19-denmark-sven-hassel",
+      "date": "04-19",
+      "dateLabel": "19 April",
+      "country": "denmark",
+      "countryName": "Denmark",
+      "kind": "births",
+      "year": 1917,
+      "title": "Sven Hassel",
+      "body": "Sven Hassel, Danish-German soldier and author (died 2012), was born on this day in 1917.",
+      "source": {
+        "name": "Wikipedia · Sven Hassel",
+        "url": "https://en.wikipedia.org/wiki/Sven_Hassel",
+        "calendarUrl": "https://en.wikipedia.org/wiki/April_19",
+        "license": {
+          "name": "CC BY-SA 4.0",
+          "url": "https://creativecommons.org/licenses/by-sa/4.0/"
+        }
+      },
+      "image": {
+        "src": "https://commons.wikimedia.org/wiki/Special:Redirect/file/Flag_of_Denmark.svg?width=1000",
+        "alt": "The national flag of Denmark.",
+        "credit": "Danish government",
+        "source": "https://commons.wikimedia.org/wiki/File:Flag_of_Denmark.svg",
+        "license": "Public domain",
+        "licenseUrl": "https://commons.wikimedia.org/wiki/File:Flag_of_Denmark.svg"
+      }
+    },
+    {
+      "id": "04-19-greece-battle-of-callinicum",
+      "date": "04-19",
+      "dateLabel": "19 April",
+      "country": "greece",
+      "countryName": "Greece",
+      "kind": "events",
+      "year": 531,
+      "title": "Battle of Callinicum",
+      "body": "531: Battle of Callinicum: A Byzantine army under Belisarius is defeated by the Persians at Raqqa (northern Syria).",
+      "source": {
+        "name": "Wikipedia · Battle of Callinicum",
+        "url": "https://en.wikipedia.org/wiki/Battle_of_Callinicum",
+        "calendarUrl": "https://en.wikipedia.org/wiki/April_19",
+        "license": {
+          "name": "CC BY-SA 4.0",
+          "url": "https://creativecommons.org/licenses/by-sa/4.0/"
+        }
+      },
+      "image": {
+        "src": "https://commons.wikimedia.org/wiki/Special:Redirect/file/Flag_of_Greece.svg?width=1000",
+        "alt": "The national flag of Greece.",
+        "credit": "Greek government",
+        "source": "https://commons.wikimedia.org/wiki/File:Flag_of_Greece.svg",
+        "license": "Public domain",
+        "licenseUrl": "https://commons.wikimedia.org/wiki/File:Flag_of_Greece.svg"
+      }
+    }
+  ]
+}

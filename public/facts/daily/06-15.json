@@ -1,0 +1,90 @@
+{
+  "date": "06-15",
+  "dateLabel": "15 June",
+  "facts": [
+    {
+      "id": "06-15-spain-jamestown-virginia",
+      "date": "06-15",
+      "dateLabel": "15 June",
+      "country": "spain",
+      "countryName": "Spain",
+      "kind": "events",
+      "year": 1607,
+      "title": "James's Fort",
+      "body": "1607: Virginia colonists finish building James's Fort, to defend against Spanish and Native American attacks.",
+      "source": {
+        "name": "Wikipedia · Jamestown",
+        "url": "https://en.wikipedia.org/wiki/Jamestown",
+        "calendarUrl": "https://en.wikipedia.org/wiki/June_15",
+        "license": {
+          "name": "CC BY-SA 4.0",
+          "url": "https://creativecommons.org/licenses/by-sa/4.0/"
+        }
+      },
+      "image": {
+        "src": "https://upload.wikimedia.org/wikipedia/commons/5/5f/Jamestownzuniga.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+        "alt": "Image related to James's Fort.",
+        "credit": "Unknown (rediscovered by Alexander Brown)",
+        "source": "https://commons.wikimedia.org/wiki/File:Jamestownzuniga.jpg",
+        "license": "Public domain",
+        "licenseUrl": "https://commons.wikimedia.org/wiki/File:Jamestownzuniga.jpg"
+      }
+    },
+    {
+      "id": "06-15-denmark-northern-crusades",
+      "date": "06-15",
+      "dateLabel": "15 June",
+      "country": "denmark",
+      "countryName": "Denmark",
+      "kind": "events",
+      "year": 1219,
+      "title": "Northern Crusades",
+      "body": "1219: Northern Crusades: Danish victory at the Battle of Lindanise (modern-day Tallinn) establishes the Danish Duchy of Estonia.",
+      "source": {
+        "name": "Wikipedia · Northern Crusades",
+        "url": "https://en.wikipedia.org/wiki/Northern_Crusades",
+        "calendarUrl": "https://en.wikipedia.org/wiki/June_15",
+        "license": {
+          "name": "CC BY-SA 4.0",
+          "url": "https://creativecommons.org/licenses/by-sa/4.0/"
+        }
+      },
+      "image": {
+        "src": "https://commons.wikimedia.org/wiki/Special:Redirect/file/Flag_of_Denmark.svg?width=1000",
+        "alt": "The national flag of Denmark.",
+        "credit": "Danish government",
+        "source": "https://commons.wikimedia.org/wiki/File:Flag_of_Denmark.svg",
+        "license": "Public domain",
+        "licenseUrl": "https://commons.wikimedia.org/wiki/File:Flag_of_Denmark.svg"
+      }
+    },
+    {
+      "id": "06-15-greece-byzantine-empire",
+      "date": "06-15",
+      "dateLabel": "15 June",
+      "country": "greece",
+      "countryName": "Greece",
+      "kind": "events",
+      "year": 1285,
+      "title": "Byzantine Empire",
+      "body": "1285: The Byzantine Empire and the Republic of Venice conclude a treaty. Apart from agreeing on a ten year truce, the Venetians are alloted a commercial quarter in Constantinople and are restored to earlier privileges.",
+      "source": {
+        "name": "Wikipedia · Byzantine Empire",
+        "url": "https://en.wikipedia.org/wiki/Byzantine_Empire",
+        "calendarUrl": "https://en.wikipedia.org/wiki/June_15",
+        "license": {
+          "name": "CC BY-SA 4.0",
+          "url": "https://creativecommons.org/licenses/by-sa/4.0/"
+        }
+      },
+      "image": {
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/69/Red_Eastern_Roman_Empire_565_CE.svg/1280px-Red_Eastern_Roman_Empire_565_CE.svg.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "alt": "Image related to Byzantine Empire.",
+        "credit": "PortosPL31",
+        "source": "https://commons.wikimedia.org/wiki/File:Red_Eastern_Roman_Empire_565_CE.svg",
+        "license": "CC0",
+        "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/deed.en"
+      }
+    }
+  ]
+}

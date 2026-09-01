@@ -1,0 +1,90 @@
+{
+  "date": "10-01",
+  "dateLabel": "1 October",
+  "facts": [
+    {
+      "id": "10-01-spain-third-treaty-of-san-ildefonso",
+      "date": "10-01",
+      "dateLabel": "1 October",
+      "country": "spain",
+      "countryName": "Spain",
+      "kind": "events",
+      "year": 1800,
+      "title": "Third Treaty of San Ildefonso",
+      "body": "1800: Via the Third Treaty of San Ildefonso, Spain cedes Louisiana to France, which would sell the land to the United States thirty months later.",
+      "source": {
+        "name": "Wikipedia · Third Treaty of San Ildefonso",
+        "url": "https://en.wikipedia.org/wiki/Third_Treaty_of_San_Ildefonso",
+        "calendarUrl": "https://en.wikipedia.org/wiki/October_1",
+        "license": {
+          "name": "CC BY-SA 4.0",
+          "url": "https://creativecommons.org/licenses/by-sa/4.0/"
+        }
+      },
+      "image": {
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/00/French_Louisiana_map.svg/1280px-French_Louisiana_map.svg.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "alt": "Image related to Third Treaty of San Ildefonso.",
+        "credit": "Milenioscuro",
+        "source": "https://commons.wikimedia.org/wiki/File:French_Louisiana_map.svg",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0"
+      }
+    },
+    {
+      "id": "10-01-denmark-same-sex-marriage-in-denmark",
+      "date": "10-01",
+      "dateLabel": "1 October",
+      "country": "denmark",
+      "countryName": "Denmark",
+      "kind": "events",
+      "year": 1989,
+      "title": "same-sex registered partnerships",
+      "body": "1989: Denmark introduces the world's first legal same-sex registered partnerships.",
+      "source": {
+        "name": "Wikipedia · Same-sex marriage in Denmark",
+        "url": "https://en.wikipedia.org/wiki/Same-sex_marriage_in_Denmark",
+        "calendarUrl": "https://en.wikipedia.org/wiki/October_1",
+        "license": {
+          "name": "CC BY-SA 4.0",
+          "url": "https://creativecommons.org/licenses/by-sa/4.0/"
+        }
+      },
+      "image": {
+        "src": "https://commons.wikimedia.org/wiki/Special:Redirect/file/Flag_of_Denmark.svg?width=1000",
+        "alt": "The national flag of Denmark.",
+        "credit": "Danish government",
+        "source": "https://commons.wikimedia.org/wiki/File:Flag_of_Denmark.svg",
+        "license": "Public domain",
+        "licenseUrl": "https://commons.wikimedia.org/wiki/File:Flag_of_Denmark.svg"
+      }
+    },
+    {
+      "id": "10-01-greece-nectarios-of-aegina",
+      "date": "10-01",
+      "dateLabel": "1 October",
+      "country": "greece",
+      "countryName": "Greece",
+      "kind": "births",
+      "year": 1846,
+      "title": "Nectarios of Aegina",
+      "body": "Nectarios of Aegina, Greek metropolitan and saint (died 1920), was born on this day in 1846.",
+      "source": {
+        "name": "Wikipedia · Nectarios of Aegina",
+        "url": "https://en.wikipedia.org/wiki/Nectarios_of_Aegina",
+        "calendarUrl": "https://en.wikipedia.org/wiki/October_1",
+        "license": {
+          "name": "CC BY-SA 4.0",
+          "url": "https://creativecommons.org/licenses/by-sa/4.0/"
+        }
+      },
+      "image": {
+        "src": "https://upload.wikimedia.org/wikipedia/commons/c/cd/Saint_Nektarios_of_Aegina_Icon.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+        "alt": "Portrait or image of Nectarios of Aegina.",
+        "credit": "Unknown authorUnknown author",
+        "source": "https://commons.wikimedia.org/wiki/File:Saint_Nektarios_of_Aegina_Icon.jpg",
+        "license": "Public domain",
+        "licenseUrl": "https://commons.wikimedia.org/wiki/File:Saint_Nektarios_of_Aegina_Icon.jpg"
+      }
+    }
+  ]
+}

@@ -1,0 +1,90 @@
+{
+  "date": "11-30",
+  "dateLabel": "30 November",
+  "facts": [
+    {
+      "id": "11-30-spain-queen-anne-s-war",
+      "date": "11-30",
+      "dateLabel": "30 November",
+      "country": "spain",
+      "countryName": "Spain",
+      "kind": "events",
+      "year": 1707,
+      "title": "Queen Anne's War",
+      "body": "1707: Queen Anne's War: The second Siege of Pensacola comes to end with the failure of the British Empire and their Creek allies to capture Pensacola, Spanish Florida.",
+      "source": {
+        "name": "Wikipedia · Queen Anne's War",
+        "url": "https://en.wikipedia.org/wiki/Queen_Anne's_War",
+        "calendarUrl": "https://en.wikipedia.org/wiki/November_30",
+        "license": {
+          "name": "CC BY-SA 4.0",
+          "url": "https://creativecommons.org/licenses/by-sa/4.0/"
+        }
+      },
+      "image": {
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b9/QueenAnnesWarBefore.svg/1280px-QueenAnnesWarBefore.svg.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "alt": "Image related to Queen Anne's War.",
+        "credit": "User:Magicpiano",
+        "source": "https://commons.wikimedia.org/wiki/File:QueenAnnesWarBefore.svg",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0"
+      }
+    },
+    {
+      "id": "11-30-denmark-christian-vi-of-denmark",
+      "date": "11-30",
+      "dateLabel": "30 November",
+      "country": "denmark",
+      "countryName": "Denmark",
+      "kind": "births",
+      "year": 1699,
+      "title": "Christian VI of Denmark",
+      "body": "Christian VI of Denmark, King Christian VI of Denmark (died 1746), was born on this day in 1699.",
+      "source": {
+        "name": "Wikipedia · Christian VI",
+        "url": "https://en.wikipedia.org/wiki/Christian_VI",
+        "calendarUrl": "https://en.wikipedia.org/wiki/November_30",
+        "license": {
+          "name": "CC BY-SA 4.0",
+          "url": "https://creativecommons.org/licenses/by-sa/4.0/"
+        }
+      },
+      "image": {
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c6/Christian_VI%2C_King_of_Denmark.jpg/1280px-Christian_VI%2C_King_of_Denmark.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "alt": "Portrait or image of Christian VI of Denmark.",
+        "credit": "Johann Salomon Wahl",
+        "source": "https://commons.wikimedia.org/wiki/File:Christian_VI,_King_of_Denmark.jpg",
+        "license": "Public domain",
+        "licenseUrl": "https://commons.wikimedia.org/wiki/File:Christian_VI,_King_of_Denmark.jpg"
+      }
+    },
+    {
+      "id": "11-30-greece-daylight",
+      "date": "11-30",
+      "dateLabel": "30 November",
+      "country": "greece",
+      "countryName": "Greece",
+      "kind": "daylight",
+      "year": 0,
+      "title": "Athens's daylight",
+      "body": "On 30 November, Athens gets about 9 hours and 40 minutes of daylight.",
+      "source": {
+        "name": "NOAA Solar Calculator",
+        "url": "https://gml.noaa.gov/grad/solcalc/",
+        "calendarUrl": "https://gml.noaa.gov/grad/solcalc/calcdetails.html",
+        "license": {
+          "name": "public-domain NOAA method",
+          "url": "https://www.noaa.gov/disclaimer"
+        }
+      },
+      "image": {
+        "src": "https://commons.wikimedia.org/wiki/Special:Redirect/file/Flag_of_Greece.svg?width=1000",
+        "alt": "The national flag of Greece.",
+        "credit": "Greek government",
+        "source": "https://commons.wikimedia.org/wiki/File:Flag_of_Greece.svg",
+        "license": "Public domain",
+        "licenseUrl": "https://commons.wikimedia.org/wiki/File:Flag_of_Greece.svg"
+      }
+    }
+  ]
+}

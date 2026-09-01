@@ -1,0 +1,90 @@
+{
+  "date": "05-30",
+  "dateLabel": "30 May",
+  "facts": [
+    {
+      "id": "05-30-spain-spanish-armada",
+      "date": "05-30",
+      "dateLabel": "30 May",
+      "country": "spain",
+      "countryName": "Spain",
+      "kind": "events",
+      "year": 1588,
+      "title": "Spanish Armada",
+      "body": "1588: The last ship of the Spanish Armada sets sail from Lisbon heading for the English Channel.",
+      "source": {
+        "name": "Wikipedia · Spanish Armada",
+        "url": "https://en.wikipedia.org/wiki/Spanish_Armada",
+        "calendarUrl": "https://en.wikipedia.org/wiki/May_30",
+        "license": {
+          "name": "CC BY-SA 4.0",
+          "url": "https://creativecommons.org/licenses/by-sa/4.0/"
+        }
+      },
+      "image": {
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/2e/Armadaroute.jpg/1280px-Armadaroute.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "alt": "Image related to Spanish Armada.",
+        "credit": "Robert Adams, Augustine Ryther",
+        "source": "https://commons.wikimedia.org/wiki/File:Armadaroute.jpg",
+        "license": "Public domain",
+        "licenseUrl": "https://commons.wikimedia.org/wiki/File:Armadaroute.jpg"
+      }
+    },
+    {
+      "id": "05-30-denmark-auckland-harbour-bridge",
+      "date": "05-30",
+      "dateLabel": "30 May",
+      "country": "denmark",
+      "countryName": "Denmark",
+      "kind": "events",
+      "year": 1959,
+      "title": "Auckland Harbour Bridge",
+      "body": "1959: The Auckland Harbour Bridge, crossing the Waitemata Harbour in Auckland, New Zealand, is officially opened by Governor-General Charles Lyttelton, 10th Viscount Cobham.",
+      "source": {
+        "name": "Wikipedia · Auckland Harbour Bridge",
+        "url": "https://en.wikipedia.org/wiki/Auckland_Harbour_Bridge",
+        "calendarUrl": "https://en.wikipedia.org/wiki/May_30",
+        "license": {
+          "name": "CC BY-SA 4.0",
+          "url": "https://creativecommons.org/licenses/by-sa/4.0/"
+        }
+      },
+      "image": {
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/bc/Auckland_Harbour_Bridge_-_August_2024.jpg/1280px-Auckland_Harbour_Bridge_-_August_2024.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "alt": "Image related to Auckland Harbour Bridge.",
+        "credit": "MrSeabody",
+        "source": "https://commons.wikimedia.org/wiki/File:Auckland_Harbour_Bridge_-_August_2024.jpg",
+        "license": "CC0",
+        "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/deed.en"
+      }
+    },
+    {
+      "id": "05-30-greece-world-war-ii",
+      "date": "05-30",
+      "dateLabel": "30 May",
+      "country": "greece",
+      "countryName": "Greece",
+      "kind": "events",
+      "year": 1941,
+      "title": "World War II",
+      "body": "1941: World War II: Manolis Glezos and Apostolos Santas climb the Athenian Acropolis and tear down the German flag.",
+      "source": {
+        "name": "Wikipedia · World War II",
+        "url": "https://en.wikipedia.org/wiki/World_War_II",
+        "calendarUrl": "https://en.wikipedia.org/wiki/May_30",
+        "license": {
+          "name": "CC BY-SA 4.0",
+          "url": "https://creativecommons.org/licenses/by-sa/4.0/"
+        }
+      },
+      "image": {
+        "src": "https://upload.wikimedia.org/wikipedia/commons/1/10/Bundesarchiv_Bild_101I-646-5188-17%2C_Flugzeuge_Junkers_Ju_87.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+        "alt": "Image related to World War II.",
+        "credit": "Bundesarchiv, Bild 101I-646-5188-17 / Opitz / CC-BY-SA 3.0",
+        "source": "https://commons.wikimedia.org/wiki/File:Bundesarchiv_Bild_101I-646-5188-17,_Flugzeuge_Junkers_Ju_87.jpg",
+        "license": "CC BY-SA 3.0 de",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0/de/deed.en"
+      }
+    }
+  ]
+}

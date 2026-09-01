@@ -1,0 +1,90 @@
+{
+  "date": "07-16",
+  "dateLabel": "16 July",
+  "facts": [
+    {
+      "id": "07-16-spain-arjona-spain",
+      "date": "07-16",
+      "dateLabel": "16 July",
+      "country": "spain",
+      "countryName": "Spain",
+      "kind": "events",
+      "year": 1232,
+      "title": "Arjona",
+      "body": "1232: The Spanish town of Arjona declares independence and names its native Muhammad ibn Yusuf as ruler. This marks the Muhammad's first rise to prominence; he later established the Nasrid Emirate of Granada, the last independent Muslim state in Spain.",
+      "source": {
+        "name": "Wikipedia · Arjona, Spain",
+        "url": "https://en.wikipedia.org/wiki/Arjona%2C_Spain",
+        "calendarUrl": "https://en.wikipedia.org/wiki/July_16",
+        "license": {
+          "name": "CC BY-SA 4.0",
+          "url": "https://creativecommons.org/licenses/by-sa/4.0/"
+        }
+      },
+      "image": {
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/23/Arjona%2C_Andalucia%2C_Espa%C3%B1a_-_52548512060.jpg/1280px-Arjona%2C_Andalucia%2C_Espa%C3%B1a_-_52548512060.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "alt": "Image related to Arjona.",
+        "credit": "Pom'",
+        "source": "https://commons.wikimedia.org/wiki/File:Arjona,_Andalucia,_Espa%C3%B1a_-_52548512060.jpg",
+        "license": "CC BY-SA 2.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0"
+      }
+    },
+    {
+      "id": "07-16-denmark-daylight",
+      "date": "07-16",
+      "dateLabel": "16 July",
+      "country": "denmark",
+      "countryName": "Denmark",
+      "kind": "daylight",
+      "year": 0,
+      "title": "Copenhagen's daylight",
+      "body": "On 16 July, Copenhagen gets about 16 hours and 55 minutes of daylight.",
+      "source": {
+        "name": "NOAA Solar Calculator",
+        "url": "https://gml.noaa.gov/grad/solcalc/",
+        "calendarUrl": "https://gml.noaa.gov/grad/solcalc/calcdetails.html",
+        "license": {
+          "name": "public-domain NOAA method",
+          "url": "https://www.noaa.gov/disclaimer"
+        }
+      },
+      "image": {
+        "src": "https://commons.wikimedia.org/wiki/Special:Redirect/file/Flag_of_Denmark.svg?width=1000",
+        "alt": "The national flag of Denmark.",
+        "credit": "Danish government",
+        "source": "https://commons.wikimedia.org/wiki/File:Flag_of_Denmark.svg",
+        "license": "Public domain",
+        "licenseUrl": "https://commons.wikimedia.org/wiki/File:Flag_of_Denmark.svg"
+      }
+    },
+    {
+      "id": "07-16-greece-battle-of-spercheios",
+      "date": "07-16",
+      "dateLabel": "16 July",
+      "country": "greece",
+      "countryName": "Greece",
+      "kind": "events",
+      "year": 997,
+      "title": "Battle of Spercheios",
+      "body": "997: Battle of Spercheios: Bulgarian forces of Tsar Samuel are defeated by a Byzantine army under general Nikephoros Ouranos at the Spercheios River in Greece.",
+      "source": {
+        "name": "Wikipedia · Battle of Spercheios",
+        "url": "https://en.wikipedia.org/wiki/Battle_of_Spercheios",
+        "calendarUrl": "https://en.wikipedia.org/wiki/July_16",
+        "license": {
+          "name": "CC BY-SA 4.0",
+          "url": "https://creativecommons.org/licenses/by-sa/4.0/"
+        }
+      },
+      "image": {
+        "src": "https://upload.wikimedia.org/wikipedia/commons/a/a5/Skylitzes-Ouranos_kills_Bulgarians.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+        "alt": "Image related to Battle of Spercheios.",
+        "credit": "Johannes Skylitzes",
+        "source": "https://commons.wikimedia.org/wiki/File:Skylitzes-Ouranos_kills_Bulgarians.jpg",
+        "license": "Public domain",
+        "licenseUrl": "https://commons.wikimedia.org/wiki/File:Skylitzes-Ouranos_kills_Bulgarians.jpg"
+      }
+    }
+  ]
+}

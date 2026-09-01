@@ -1,0 +1,90 @@
+{
+  "date": "01-30",
+  "dateLabel": "30 January",
+  "facts": [
+    {
+      "id": "01-30-spain-eighty-years-war",
+      "date": "01-30",
+      "dateLabel": "30 January",
+      "country": "spain",
+      "countryName": "Spain",
+      "kind": "events",
+      "year": 1648,
+      "title": "Eighty Years' War",
+      "body": "1648: Eighty Years' War: The Treaty of Münster and Osnabrück is signed, ending the conflict between the Netherlands and Spain.",
+      "source": {
+        "name": "Wikipedia · Eighty Years' War",
+        "url": "https://en.wikipedia.org/wiki/Eighty_Years'_War",
+        "calendarUrl": "https://en.wikipedia.org/wiki/January_30",
+        "license": {
+          "name": "CC BY-SA 4.0",
+          "url": "https://creativecommons.org/licenses/by-sa/4.0/"
+        }
+      },
+      "image": {
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b9/Battle_of_Gibraltar_1607.jpg/1280px-Battle_of_Gibraltar_1607.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "alt": "Image related to Eighty Years' War.",
+        "credit": "Cornelis Claesz van Wieringen / Formerly attributed to Hendrick Cornelisz Vroom",
+        "source": "https://commons.wikimedia.org/wiki/File:Battle_of_Gibraltar_1607.jpg",
+        "license": "Public domain",
+        "licenseUrl": "https://commons.wikimedia.org/wiki/File:Battle_of_Gibraltar_1607.jpg"
+      }
+    },
+    {
+      "id": "01-30-denmark-daylight",
+      "date": "01-30",
+      "dateLabel": "30 January",
+      "country": "denmark",
+      "countryName": "Denmark",
+      "kind": "daylight",
+      "year": 0,
+      "title": "Copenhagen's daylight",
+      "body": "On 30 January, Copenhagen gets about 8 hours and 25 minutes of daylight.",
+      "source": {
+        "name": "NOAA Solar Calculator",
+        "url": "https://gml.noaa.gov/grad/solcalc/",
+        "calendarUrl": "https://gml.noaa.gov/grad/solcalc/calcdetails.html",
+        "license": {
+          "name": "public-domain NOAA method",
+          "url": "https://www.noaa.gov/disclaimer"
+        }
+      },
+      "image": {
+        "src": "https://commons.wikimedia.org/wiki/Special:Redirect/file/Flag_of_Denmark.svg?width=1000",
+        "alt": "The national flag of Denmark.",
+        "credit": "Danish government",
+        "source": "https://commons.wikimedia.org/wiki/File:Flag_of_Denmark.svg",
+        "license": "Public domain",
+        "licenseUrl": "https://commons.wikimedia.org/wiki/File:Flag_of_Denmark.svg"
+      }
+    },
+    {
+      "id": "01-30-greece-georgios-vakouftsis",
+      "date": "01-30",
+      "dateLabel": "30 January",
+      "country": "greece",
+      "countryName": "Greece",
+      "kind": "births",
+      "year": 1980,
+      "title": "Georgios Vakouftsis",
+      "body": "Georgios Vakouftsis, Greek footballer, was born on this day in 1980.",
+      "source": {
+        "name": "Wikipedia · Georgios Vakouftsis",
+        "url": "https://en.wikipedia.org/wiki/Georgios_Vakouftsis",
+        "calendarUrl": "https://en.wikipedia.org/wiki/January_30",
+        "license": {
+          "name": "CC BY-SA 4.0",
+          "url": "https://creativecommons.org/licenses/by-sa/4.0/"
+        }
+      },
+      "image": {
+        "src": "https://commons.wikimedia.org/wiki/Special:Redirect/file/Flag_of_Greece.svg?width=1000",
+        "alt": "The national flag of Greece.",
+        "credit": "Greek government",
+        "source": "https://commons.wikimedia.org/wiki/File:Flag_of_Greece.svg",
+        "license": "Public domain",
+        "licenseUrl": "https://commons.wikimedia.org/wiki/File:Flag_of_Greece.svg"
+      }
+    }
+  ]
+}

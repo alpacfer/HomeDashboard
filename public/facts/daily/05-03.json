@@ -1,0 +1,90 @@
+{
+  "date": "05-03",
+  "dateLabel": "3 May",
+  "facts": [
+    {
+      "id": "05-03-spain-fort-caroline",
+      "date": "05-03",
+      "dateLabel": "3 May",
+      "country": "spain",
+      "countryName": "Spain",
+      "kind": "events",
+      "year": 1568,
+      "title": "Fort Caroline",
+      "body": "1568: Angered by the brutal onslaught of Spanish troops at Fort Caroline, a French force burns the San Mateo fort and massacres hundreds of Spaniards.",
+      "source": {
+        "name": "Wikipedia · Fort Caroline",
+        "url": "https://en.wikipedia.org/wiki/Fort_Caroline",
+        "calendarUrl": "https://en.wikipedia.org/wiki/May_3",
+        "license": {
+          "name": "CC BY-SA 4.0",
+          "url": "https://creativecommons.org/licenses/by-sa/4.0/"
+        }
+      },
+      "image": {
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/98/Fort_Caroline_moat_FOCA1566.jpg/1280px-Fort_Caroline_moat_FOCA1566.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "alt": "Image related to Fort Caroline.",
+        "credit": "NPS Photo",
+        "source": "https://commons.wikimedia.org/wiki/File:Fort_Caroline_moat_FOCA1566.jpg",
+        "license": "Public domain",
+        "licenseUrl": "https://commons.wikimedia.org/wiki/File:Fort_Caroline_moat_FOCA1566.jpg"
+      }
+    },
+    {
+      "id": "05-03-denmark-jacob-riis",
+      "date": "05-03",
+      "dateLabel": "3 May",
+      "country": "denmark",
+      "countryName": "Denmark",
+      "kind": "births",
+      "year": 1849,
+      "title": "Jacob Riis",
+      "body": "Jacob Riis, Danish-American journalist and photographer (died 1914), was born on this day in 1849.",
+      "source": {
+        "name": "Wikipedia · Jacob Riis",
+        "url": "https://en.wikipedia.org/wiki/Jacob_Riis",
+        "calendarUrl": "https://en.wikipedia.org/wiki/May_3",
+        "license": {
+          "name": "CC BY-SA 4.0",
+          "url": "https://creativecommons.org/licenses/by-sa/4.0/"
+        }
+      },
+      "image": {
+        "src": "https://upload.wikimedia.org/wikipedia/commons/2/2d/Jacob_Riis_2.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+        "alt": "Portrait or image of Jacob Riis.",
+        "credit": "Pirie MacDonald",
+        "source": "https://commons.wikimedia.org/wiki/File:Jacob_Riis_2.jpg",
+        "license": "Public domain",
+        "licenseUrl": "https://commons.wikimedia.org/wiki/File:Jacob_Riis_2.jpg"
+      }
+    },
+    {
+      "id": "05-03-greece-national-and-kapodistrian-university-of-athens",
+      "date": "05-03",
+      "dateLabel": "3 May",
+      "country": "greece",
+      "countryName": "Greece",
+      "kind": "events",
+      "year": 1837,
+      "title": "University of Athens",
+      "body": "1837: The University of Athens is founded in Athens, Greece.",
+      "source": {
+        "name": "Wikipedia · National and Kapodistrian University of Athens",
+        "url": "https://en.wikipedia.org/wiki/National_and_Kapodistrian_University_of_Athens",
+        "calendarUrl": "https://en.wikipedia.org/wiki/May_3",
+        "license": {
+          "name": "CC BY-SA 4.0",
+          "url": "https://creativecommons.org/licenses/by-sa/4.0/"
+        }
+      },
+      "image": {
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/74/Universit%C3%A4t_von_Athen.jpg/1280px-Universit%C3%A4t_von_Athen.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "alt": "Image related to University of Athens.",
+        "credit": "Thomas Wolf, www.foto-tw.de",
+        "source": "https://commons.wikimedia.org/wiki/File:Universit%C3%A4t_von_Athen.jpg",
+        "license": "CC BY-SA 3.0 de",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0/de/deed.en"
+      }
+    }
+  ]
+}

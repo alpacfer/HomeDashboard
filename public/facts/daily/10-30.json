@@ -1,0 +1,90 @@
+{
+  "date": "10-30",
+  "dateLabel": "30 October",
+  "facts": [
+    {
+      "id": "10-30-spain-reconquista",
+      "date": "10-30",
+      "dateLabel": "30 October",
+      "country": "spain",
+      "countryName": "Spain",
+      "kind": "events",
+      "year": 1340,
+      "title": "Reconquista",
+      "body": "1340: Reconquista: Portuguese and Castilian forces halt a Muslim invasion at the Battle of Río Salado.",
+      "source": {
+        "name": "Wikipedia · Reconquista",
+        "url": "https://en.wikipedia.org/wiki/Reconquista",
+        "calendarUrl": "https://en.wikipedia.org/wiki/October_30",
+        "license": {
+          "name": "CC BY-SA 4.0",
+          "url": "https://creativecommons.org/licenses/by-sa/4.0/"
+        }
+      },
+      "image": {
+        "src": "https://upload.wikimedia.org/wikipedia/commons/3/3a/Cantigas_battle.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+        "alt": "Image related to Reconquista.",
+        "credit": "Creator:Abdula",
+        "source": "https://commons.wikimedia.org/wiki/File:Cantigas_battle.jpg",
+        "license": "Public domain",
+        "licenseUrl": "https://commons.wikimedia.org/wiki/File:Cantigas_battle.jpg"
+      }
+    },
+    {
+      "id": "10-30-denmark-second-war-of-schleswig",
+      "date": "10-30",
+      "dateLabel": "30 October",
+      "country": "denmark",
+      "countryName": "Denmark",
+      "kind": "events",
+      "year": 1864,
+      "title": "Second War of Schleswig",
+      "body": "1864: Second War of Schleswig: The Treaty of Vienna is signed, by which Denmark relinquishes one province each to Prussia and Austria.",
+      "source": {
+        "name": "Wikipedia · Second Schleswig War",
+        "url": "https://en.wikipedia.org/wiki/Second_Schleswig_War",
+        "calendarUrl": "https://en.wikipedia.org/wiki/October_30",
+        "license": {
+          "name": "CC BY-SA 4.0",
+          "url": "https://creativecommons.org/licenses/by-sa/4.0/"
+        }
+      },
+      "image": {
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/58/1866_Camphausen_Crossing_to_Alsen_anagoria.JPG/1280px-1866_Camphausen_Crossing_to_Alsen_anagoria.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "alt": "Image related to Second War of Schleswig.",
+        "credit": "Wilhelm Camphausen",
+        "source": "https://commons.wikimedia.org/wiki/File:1866_Camphausen_Crossing_to_Alsen_anagoria.JPG",
+        "license": "Public domain",
+        "licenseUrl": "https://commons.wikimedia.org/wiki/File:1866_Camphausen_Crossing_to_Alsen_anagoria.JPG"
+      }
+    },
+    {
+      "id": "10-30-greece-arab-byzantine-wars",
+      "date": "10-30",
+      "dateLabel": "30 October",
+      "country": "greece",
+      "countryName": "Greece",
+      "kind": "events",
+      "year": 637,
+      "title": "Arab–Byzantine wars",
+      "body": "637: Arab–Byzantine wars: Antioch surrenders to the Rashidun Caliphate after the Battle of the Iron Bridge.",
+      "source": {
+        "name": "Wikipedia · Arab–Byzantine wars",
+        "url": "https://en.wikipedia.org/wiki/Arab%E2%80%93Byzantine_wars",
+        "calendarUrl": "https://en.wikipedia.org/wiki/October_30",
+        "license": {
+          "name": "CC BY-SA 4.0",
+          "url": "https://creativecommons.org/licenses/by-sa/4.0/"
+        }
+      },
+      "image": {
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f7/Greekfire-madridskylitzes1.jpg/1280px-Greekfire-madridskylitzes1.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "alt": "Image related to Arab–Byzantine wars.",
+        "credit": "Unknown authorUnknown author",
+        "source": "https://commons.wikimedia.org/wiki/File:Greekfire-madridskylitzes1.jpg",
+        "license": "Public domain",
+        "licenseUrl": "https://commons.wikimedia.org/wiki/File:Greekfire-madridskylitzes1.jpg"
+      }
+    }
+  ]
+}

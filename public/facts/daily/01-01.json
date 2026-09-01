@@ -1,0 +1,90 @@
+{
+  "date": "01-01",
+  "dateLabel": "1 January",
+  "facts": [
+    {
+      "id": "01-01-spain-captaincy-general-of-cuba",
+      "date": "01-01",
+      "dateLabel": "1 January",
+      "country": "spain",
+      "countryName": "Spain",
+      "kind": "events",
+      "year": 1899,
+      "title": "Spanish rule",
+      "body": "1899: Spanish rule ends in Cuba.",
+      "source": {
+        "name": "Wikipedia · Captaincy General of Cuba",
+        "url": "https://en.wikipedia.org/wiki/Captaincy_General_of_Cuba",
+        "calendarUrl": "https://en.wikipedia.org/wiki/January_1",
+        "license": {
+          "name": "CC BY-SA 4.0",
+          "url": "https://creativecommons.org/licenses/by-sa/4.0/"
+        }
+      },
+      "image": {
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/7d/Flag_of_Spain_%281785%E2%80%931873%2C_1875%E2%80%931931%29.svg/1280px-Flag_of_Spain_%281785%E2%80%931873%2C_1875%E2%80%931931%29.svg.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "alt": "Image related to Spanish rule.",
+        "credit": "previous version User:Ignaciogavira; current version HansenBCN, designs from SanchoPanzaXXI",
+        "source": "https://commons.wikimedia.org/wiki/File:Flag_of_Spain_(1785%E2%80%931873,_1875%E2%80%931931).svg",
+        "license": "CC BY-SA 3.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0/"
+      }
+    },
+    {
+      "id": "01-01-denmark-western-samoa-trust-territory",
+      "date": "01-01",
+      "dateLabel": "1 January",
+      "country": "denmark",
+      "countryName": "Denmark",
+      "kind": "events",
+      "year": 1962,
+      "title": "Western Samoa",
+      "body": "1962: Western Samoa achieves independence from New Zealand; its name is changed to the Independent State of Western Samoa.",
+      "source": {
+        "name": "Wikipedia · Territory of Western Samoa",
+        "url": "https://en.wikipedia.org/wiki/Territory_of_Western_Samoa",
+        "calendarUrl": "https://en.wikipedia.org/wiki/January_1",
+        "license": {
+          "name": "CC BY-SA 4.0",
+          "url": "https://creativecommons.org/licenses/by-sa/4.0/"
+        }
+      },
+      "image": {
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/67/Flag_of_the_Samoa_Trust_Territory.svg/1280px-Flag_of_the_Samoa_Trust_Territory.svg.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "alt": "Image related to Western Samoa.",
+        "credit": "Original: New Zealand Government Vector: Sodacan",
+        "source": "https://commons.wikimedia.org/wiki/File:Flag_of_the_Samoa_Trust_Territory.svg",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0"
+      }
+    },
+    {
+      "id": "01-01-greece-romanos-iv-diogenes",
+      "date": "01-01",
+      "dateLabel": "1 January",
+      "country": "greece",
+      "countryName": "Greece",
+      "kind": "events",
+      "year": 1068,
+      "title": "Romanos IV Diogenes",
+      "body": "1068: Romanos IV Diogenes marries Eudokia Makrembolitissa and is crowned Byzantine Emperor.",
+      "source": {
+        "name": "Wikipedia · Romanos IV Diogenes",
+        "url": "https://en.wikipedia.org/wiki/Romanos_IV_Diogenes",
+        "calendarUrl": "https://en.wikipedia.org/wiki/January_1",
+        "license": {
+          "name": "CC BY-SA 4.0",
+          "url": "https://creativecommons.org/licenses/by-sa/4.0/"
+        }
+      },
+      "image": {
+        "src": "https://upload.wikimedia.org/wikipedia/commons/2/2a/Romanus_IV_coin_crop.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+        "alt": "Image related to Romanos IV Diogenes.",
+        "credit": "Classical Numismatic Group, Inc. http://www.cngcoins.com",
+        "source": "https://commons.wikimedia.org/wiki/File:Romanus_IV_coin_crop.png",
+        "license": "CC BY-SA 3.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0/"
+      }
+    }
+  ]
+}

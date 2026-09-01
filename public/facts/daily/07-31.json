@@ -1,0 +1,90 @@
+{
+  "date": "07-31",
+  "dateLabel": "31 July",
+  "facts": [
+    {
+      "id": "07-31-spain-alhambra-decree",
+      "date": "07-31",
+      "dateLabel": "31 July",
+      "country": "spain",
+      "countryName": "Spain",
+      "kind": "events",
+      "year": 1492,
+      "title": "Alhambra Decree",
+      "body": "1492: All remaining Jews are expelled from Spain when the Alhambra Decree takes effect.",
+      "source": {
+        "name": "Wikipedia · Alhambra Decree",
+        "url": "https://en.wikipedia.org/wiki/Alhambra_Decree",
+        "calendarUrl": "https://en.wikipedia.org/wiki/July_31",
+        "license": {
+          "name": "CC BY-SA 4.0",
+          "url": "https://creativecommons.org/licenses/by-sa/4.0/"
+        }
+      },
+      "image": {
+        "src": "https://upload.wikimedia.org/wikipedia/commons/c/c1/Spanishhaggadah.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+        "alt": "Image related to Alhambra Decree.",
+        "credit": "Unknown authorUnknown author",
+        "source": "https://commons.wikimedia.org/wiki/File:Spanishhaggadah.jpg",
+        "license": "Public domain",
+        "licenseUrl": "https://commons.wikimedia.org/wiki/File:Spanishhaggadah.jpg"
+      }
+    },
+    {
+      "id": "07-31-denmark-christchurch",
+      "date": "07-31",
+      "dateLabel": "31 July",
+      "country": "denmark",
+      "countryName": "Denmark",
+      "kind": "events",
+      "year": 1856,
+      "title": "Christchurch",
+      "body": "1856: Christchurch, New Zealand, is chartered as a city.",
+      "source": {
+        "name": "Wikipedia · Christchurch",
+        "url": "https://en.wikipedia.org/wiki/Christchurch",
+        "calendarUrl": "https://en.wikipedia.org/wiki/July_31",
+        "license": {
+          "name": "CC BY-SA 4.0",
+          "url": "https://creativecommons.org/licenses/by-sa/4.0/"
+        }
+      },
+      "image": {
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/bd/The_%22Brill%22_Tram_178.New_Regent_St_Christchurch._%2811510530335%29.jpg/1280px-The_%22Brill%22_Tram_178.New_Regent_St_Christchurch._%2811510530335%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "alt": "Image related to Christchurch.",
+        "credit": "Bernard Spragg. NZ from Christchurch, New Zealand",
+        "source": "https://commons.wikimedia.org/wiki/File:The_%22Brill%22_Tram_178.New_Regent_St_Christchurch._(11510530335).jpg",
+        "license": "CC0",
+        "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/deed.en"
+      }
+    },
+    {
+      "id": "07-31-greece-bulgaria",
+      "date": "07-31",
+      "dateLabel": "31 July",
+      "country": "greece",
+      "countryName": "Greece",
+      "kind": "events",
+      "year": 1938,
+      "title": "Bulgaria",
+      "body": "1938: Bulgaria signs a non-aggression pact with Greece and other states of Balkan Antanti (Turkey, Romania, Yugoslavia).",
+      "source": {
+        "name": "Wikipedia · Bulgaria",
+        "url": "https://en.wikipedia.org/wiki/Bulgaria",
+        "calendarUrl": "https://en.wikipedia.org/wiki/July_31",
+        "license": {
+          "name": "CC BY-SA 4.0",
+          "url": "https://creativecommons.org/licenses/by-sa/4.0/"
+        }
+      },
+      "image": {
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/9a/Flag_of_Bulgaria.svg/1280px-Flag_of_Bulgaria.svg.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "alt": "Image related to Bulgaria.",
+        "credit": "SKopp",
+        "source": "https://commons.wikimedia.org/wiki/File:Flag_of_Bulgaria.svg",
+        "license": "Public domain",
+        "licenseUrl": "https://commons.wikimedia.org/wiki/File:Flag_of_Bulgaria.svg"
+      }
+    }
+  ]
+}

@@ -1,0 +1,90 @@
+{
+  "date": "11-25",
+  "dateLabel": "25 November",
+  "facts": [
+    {
+      "id": "11-25-spain-siege-of-granada",
+      "date": "11-25",
+      "dateLabel": "25 November",
+      "country": "spain",
+      "countryName": "Spain",
+      "kind": "events",
+      "year": 1491,
+      "title": "siege of Granada",
+      "body": "1491: The siege of Granada, the last Moorish stronghold in Spain, ends with the Treaty of Granada.",
+      "source": {
+        "name": "Wikipedia · Granada War",
+        "url": "https://en.wikipedia.org/wiki/Granada_War",
+        "calendarUrl": "https://en.wikipedia.org/wiki/November_25",
+        "license": {
+          "name": "CC BY-SA 4.0",
+          "url": "https://creativecommons.org/licenses/by-sa/4.0/"
+        }
+      },
+      "image": {
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/31/La_Rendici%C3%B3n_de_Granada_-_Pradilla.jpg/1280px-La_Rendici%C3%B3n_de_Granada_-_Pradilla.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "alt": "Image related to siege of Granada.",
+        "credit": "Francisco Pradilla y Ortiz",
+        "source": "https://commons.wikimedia.org/wiki/File:La_Rendici%C3%B3n_de_Granada_-_Pradilla.jpg",
+        "license": "Public domain",
+        "licenseUrl": "https://commons.wikimedia.org/wiki/File:La_Rendici%C3%B3n_de_Granada_-_Pradilla.jpg"
+      }
+    },
+    {
+      "id": "11-25-denmark-haakon-vii-of-norway",
+      "date": "11-25",
+      "dateLabel": "25 November",
+      "country": "denmark",
+      "countryName": "Denmark",
+      "kind": "events",
+      "year": 1905,
+      "title": "King Haakon VII of Norway",
+      "body": "1905: Prince Carl of Denmark arrives in Norway to become King Haakon VII of Norway.",
+      "source": {
+        "name": "Wikipedia · Haakon VII",
+        "url": "https://en.wikipedia.org/wiki/Haakon_VII",
+        "calendarUrl": "https://en.wikipedia.org/wiki/November_25",
+        "license": {
+          "name": "CC BY-SA 4.0",
+          "url": "https://creativecommons.org/licenses/by-sa/4.0/"
+        }
+      },
+      "image": {
+        "src": "https://upload.wikimedia.org/wikipedia/commons/d/d4/Portrett_av_Kong_Haakon_VII_-_King_Haakon_VII%2C_1946_%286817780248%29_%28cropped%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+        "alt": "Image related to King Haakon VII of Norway.",
+        "credit": "National Library of Norway",
+        "source": "https://commons.wikimedia.org/wiki/File:Portrett_av_Kong_Haakon_VII_-_King_Haakon_VII,_1946_(6817780248)_(cropped).jpg",
+        "license": "No restrictions",
+        "licenseUrl": "https://www.flickr.com/commons/usage/"
+      }
+    },
+    {
+      "id": "11-25-greece-greek-frigate-hellas",
+      "date": "11-25",
+      "dateLabel": "25 November",
+      "country": "greece",
+      "countryName": "Greece",
+      "kind": "events",
+      "year": 1826,
+      "title": "Greek frigate Hellas",
+      "body": "1826: The Greek frigate Hellas arrives in Nafplion to become the first flagship of the Hellenic Navy.",
+      "source": {
+        "name": "Wikipedia · Greek frigate Hellas",
+        "url": "https://en.wikipedia.org/wiki/Greek_frigate_Hellas",
+        "calendarUrl": "https://en.wikipedia.org/wiki/November_25",
+        "license": {
+          "name": "CC BY-SA 4.0",
+          "url": "https://creativecommons.org/licenses/by-sa/4.0/"
+        }
+      },
+      "image": {
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/75/Hellas_Frigate_1827.jpg/1280px-Hellas_Frigate_1827.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "alt": "Image related to Greek frigate Hellas.",
+        "credit": "Krazeisen Karl (1794 - 1878)",
+        "source": "https://commons.wikimedia.org/wiki/File:Hellas_Frigate_1827.jpg",
+        "license": "Public domain",
+        "licenseUrl": "https://commons.wikimedia.org/wiki/File:Hellas_Frigate_1827.jpg"
+      }
+    }
+  ]
+}

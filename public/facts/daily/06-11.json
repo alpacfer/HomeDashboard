@@ -1,0 +1,90 @@
+{
+  "date": "06-11",
+  "dateLabel": "11 June",
+  "facts": [
+    {
+      "id": "06-11-spain-henry-viii",
+      "date": "06-11",
+      "dateLabel": "11 June",
+      "country": "spain",
+      "countryName": "Spain",
+      "kind": "events",
+      "year": 1509,
+      "title": "Henry VIII",
+      "body": "1509: Henry VIII of England marries Catherine of Aragon.",
+      "source": {
+        "name": "Wikipedia · Henry VIII",
+        "url": "https://en.wikipedia.org/wiki/Henry_VIII",
+        "calendarUrl": "https://en.wikipedia.org/wiki/June_11",
+        "license": {
+          "name": "CC BY-SA 4.0",
+          "url": "https://creativecommons.org/licenses/by-sa/4.0/"
+        }
+      },
+      "image": {
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f9/After_Hans_Holbein_the_Younger_-_Portrait_of_Henry_VIII_-_Google_Art_Project.jpg/1280px-After_Hans_Holbein_the_Younger_-_Portrait_of_Henry_VIII_-_Google_Art_Project.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "alt": "Image related to Henry VIII.",
+        "credit": "Workshop of Hans Holbein the Younger",
+        "source": "https://commons.wikimedia.org/wiki/File:After_Hans_Holbein_the_Younger_-_Portrait_of_Henry_VIII_-_Google_Art_Project.jpg",
+        "license": "Public domain",
+        "licenseUrl": "https://commons.wikimedia.org/wiki/File:After_Hans_Holbein_the_Younger_-_Portrait_of_Henry_VIII_-_Google_Art_Project.jpg"
+      }
+    },
+    {
+      "id": "06-11-denmark-denmark",
+      "date": "06-11",
+      "dateLabel": "11 June",
+      "country": "denmark",
+      "countryName": "Denmark",
+      "kind": "events",
+      "year": 1748,
+      "title": "Denmark",
+      "body": "1748: Denmark adopts the characteristic Nordic Cross flag later taken up by all other Scandinavian countries.",
+      "source": {
+        "name": "Wikipedia · Denmark",
+        "url": "https://en.wikipedia.org/wiki/Denmark",
+        "calendarUrl": "https://en.wikipedia.org/wiki/June_11",
+        "license": {
+          "name": "CC BY-SA 4.0",
+          "url": "https://creativecommons.org/licenses/by-sa/4.0/"
+        }
+      },
+      "image": {
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/9c/Flag_of_Denmark.svg/1280px-Flag_of_Denmark.svg.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "alt": "Image related to Denmark.",
+        "credit": "Madden and others",
+        "source": "https://commons.wikimedia.org/wiki/File:Flag_of_Denmark.svg",
+        "license": "Public domain",
+        "licenseUrl": "https://commons.wikimedia.org/wiki/File:Flag_of_Denmark.svg"
+      }
+    },
+    {
+      "id": "06-11-greece-norman-conquest-of-southern-italy",
+      "date": "06-11",
+      "dateLabel": "11 June",
+      "country": "greece",
+      "countryName": "Greece",
+      "kind": "events",
+      "year": 1011,
+      "title": "Lombard Revolt",
+      "body": "1011: Lombard Revolt: Greek citizens of Bari rise up against the Lombard rebels led by Melus and deliver the city to Basil Mesardonites, Byzantine governor (catepan) of the Catepanate of Italy.",
+      "source": {
+        "name": "Wikipedia · Norman conquest of southern Italy",
+        "url": "https://en.wikipedia.org/wiki/Norman_conquest_of_southern_Italy",
+        "calendarUrl": "https://en.wikipedia.org/wiki/June_11",
+        "license": {
+          "name": "CC BY-SA 4.0",
+          "url": "https://creativecommons.org/licenses/by-sa/4.0/"
+        }
+      },
+      "image": {
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e9/Italy_1000_AD.svg/1280px-Italy_1000_AD.svg.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "alt": "Image related to Lombard Revolt.",
+        "credit": "No machine-readable author provided. MapMaster assumed (based on copyright claims).",
+        "source": "https://commons.wikimedia.org/wiki/File:Italy_1000_AD.svg",
+        "license": "CC BY-SA 3.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0/"
+      }
+    }
+  ]
+}

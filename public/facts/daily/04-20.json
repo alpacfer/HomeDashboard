@@ -1,0 +1,90 @@
+{
+  "date": "04-20",
+  "dateLabel": "20 April",
+  "facts": [
+    {
+      "id": "04-20-spain-robert-blake-admiral",
+      "date": "04-20",
+      "dateLabel": "20 April",
+      "country": "spain",
+      "countryName": "Spain",
+      "kind": "events",
+      "year": 1657,
+      "title": "Robert Blake",
+      "body": "1657: English Admiral Robert Blake destroys a Spanish silver fleet, under heavy fire from the shore, at the Battle of Santa Cruz de Tenerife.",
+      "source": {
+        "name": "Wikipedia · Robert Blake (admiral)",
+        "url": "https://en.wikipedia.org/wiki/Robert_Blake_(admiral)",
+        "calendarUrl": "https://en.wikipedia.org/wiki/April_20",
+        "license": {
+          "name": "CC BY-SA 4.0",
+          "url": "https://creativecommons.org/licenses/by-sa/4.0/"
+        }
+      },
+      "image": {
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a1/Robert_Blake.jpg/1280px-Robert_Blake.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "alt": "Image related to Robert Blake.",
+        "credit": "Henry Perronet Briggs",
+        "source": "https://commons.wikimedia.org/wiki/File:Robert_Blake.jpg",
+        "license": "Public domain",
+        "licenseUrl": "https://commons.wikimedia.org/wiki/File:Robert_Blake.jpg"
+      }
+    },
+    {
+      "id": "04-20-denmark-daylight",
+      "date": "04-20",
+      "dateLabel": "20 April",
+      "country": "denmark",
+      "countryName": "Denmark",
+      "kind": "daylight",
+      "year": 0,
+      "title": "Copenhagen's daylight",
+      "body": "On 20 April, Copenhagen gets about 14 hours and 30 minutes of daylight.",
+      "source": {
+        "name": "NOAA Solar Calculator",
+        "url": "https://gml.noaa.gov/grad/solcalc/",
+        "calendarUrl": "https://gml.noaa.gov/grad/solcalc/calcdetails.html",
+        "license": {
+          "name": "public-domain NOAA method",
+          "url": "https://www.noaa.gov/disclaimer"
+        }
+      },
+      "image": {
+        "src": "https://commons.wikimedia.org/wiki/Special:Redirect/file/Flag_of_Denmark.svg?width=1000",
+        "alt": "The national flag of Denmark.",
+        "credit": "Danish government",
+        "source": "https://commons.wikimedia.org/wiki/File:Flag_of_Denmark.svg",
+        "license": "Public domain",
+        "licenseUrl": "https://commons.wikimedia.org/wiki/File:Flag_of_Denmark.svg"
+      }
+    },
+    {
+      "id": "04-20-greece-augoustinos-kantiotes",
+      "date": "04-20",
+      "dateLabel": "20 April",
+      "country": "greece",
+      "countryName": "Greece",
+      "kind": "births",
+      "year": 1907,
+      "title": "Augoustinos Kantiotes",
+      "body": "Augoustinos Kantiotes, Greek bishop (died 2010), was born on this day in 1907.",
+      "source": {
+        "name": "Wikipedia · Augoustinos Kantiotes",
+        "url": "https://en.wikipedia.org/wiki/Augoustinos_Kantiotes",
+        "calendarUrl": "https://en.wikipedia.org/wiki/April_20",
+        "license": {
+          "name": "CC BY-SA 4.0",
+          "url": "https://creativecommons.org/licenses/by-sa/4.0/"
+        }
+      },
+      "image": {
+        "src": "https://commons.wikimedia.org/wiki/Special:Redirect/file/Flag_of_Greece.svg?width=1000",
+        "alt": "The national flag of Greece.",
+        "credit": "Greek government",
+        "source": "https://commons.wikimedia.org/wiki/File:Flag_of_Greece.svg",
+        "license": "Public domain",
+        "licenseUrl": "https://commons.wikimedia.org/wiki/File:Flag_of_Greece.svg"
+      }
+    }
+  ]
+}

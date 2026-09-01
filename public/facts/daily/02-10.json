@@ -1,0 +1,90 @@
+{
+  "date": "02-10",
+  "dateLabel": "10 February",
+  "facts": [
+    {
+      "id": "02-10-spain-world-war-ii",
+      "date": "02-10",
+      "dateLabel": "10 February",
+      "country": "spain",
+      "countryName": "Spain",
+      "kind": "events",
+      "year": 1943,
+      "title": "World War II",
+      "body": "1943: World War II: Attempting to completely lift the Siege of Leningrad, the Soviet Red Army engages German troops and Spanish volunteers in the Battle of Krasny Bor.",
+      "source": {
+        "name": "Wikipedia · World War II",
+        "url": "https://en.wikipedia.org/wiki/World_War_II",
+        "calendarUrl": "https://en.wikipedia.org/wiki/February_10",
+        "license": {
+          "name": "CC BY-SA 4.0",
+          "url": "https://creativecommons.org/licenses/by-sa/4.0/"
+        }
+      },
+      "image": {
+        "src": "https://upload.wikimedia.org/wikipedia/commons/1/10/Bundesarchiv_Bild_101I-646-5188-17%2C_Flugzeuge_Junkers_Ju_87.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+        "alt": "Image related to World War II.",
+        "credit": "Bundesarchiv, Bild 101I-646-5188-17 / Opitz / CC-BY-SA 3.0",
+        "source": "https://commons.wikimedia.org/wiki/File:Bundesarchiv_Bild_101I-646-5188-17,_Flugzeuge_Junkers_Ju_87.jpg",
+        "license": "CC BY-SA 3.0 de",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0/de/deed.en"
+      }
+    },
+    {
+      "id": "02-10-denmark-denmark",
+      "date": "02-10",
+      "dateLabel": "10 February",
+      "country": "denmark",
+      "countryName": "Denmark",
+      "kind": "events",
+      "year": 1920,
+      "title": "Denmark",
+      "body": "1920: About 75% of the population in Zone I votes to join Denmark in the 1920 Schleswig plebiscites.",
+      "source": {
+        "name": "Wikipedia · Denmark",
+        "url": "https://en.wikipedia.org/wiki/Denmark",
+        "calendarUrl": "https://en.wikipedia.org/wiki/February_10",
+        "license": {
+          "name": "CC BY-SA 4.0",
+          "url": "https://creativecommons.org/licenses/by-sa/4.0/"
+        }
+      },
+      "image": {
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/9c/Flag_of_Denmark.svg/1280px-Flag_of_Denmark.svg.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "alt": "Image related to Denmark.",
+        "credit": "Madden and others",
+        "source": "https://commons.wikimedia.org/wiki/File:Flag_of_Denmark.svg",
+        "license": "Public domain",
+        "licenseUrl": "https://commons.wikimedia.org/wiki/File:Flag_of_Denmark.svg"
+      }
+    },
+    {
+      "id": "02-10-greece-manuel-ii-palaiologos",
+      "date": "02-10",
+      "dateLabel": "10 February",
+      "country": "greece",
+      "countryName": "Greece",
+      "kind": "events",
+      "year": 1392,
+      "title": "Manuel II Palaiologos",
+      "body": "1392: Byzantine Emperor Manuel II Palaiologos marries Helena Dragaš, daughter of the Serbian Prince Constantine Dragaš. She is crowned as empress the following day.",
+      "source": {
+        "name": "Wikipedia · Manuel II Palaiologos",
+        "url": "https://en.wikipedia.org/wiki/Manuel_II_Palaiologos",
+        "calendarUrl": "https://en.wikipedia.org/wiki/February_10",
+        "license": {
+          "name": "CC BY-SA 4.0",
+          "url": "https://creativecommons.org/licenses/by-sa/4.0/"
+        }
+      },
+      "image": {
+        "src": "https://upload.wikimedia.org/wikipedia/commons/9/92/Manuel_II_Palaiologos_%28cropped%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+        "alt": "Image related to Manuel II Palaiologos.",
+        "credit": "The original uploader was Pitchka",
+        "source": "https://commons.wikimedia.org/wiki/File:Manuel_II_Palaiologos_(cropped).jpg",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0"
+      }
+    }
+  ]
+}

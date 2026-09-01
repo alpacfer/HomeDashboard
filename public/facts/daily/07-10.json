@@ -1,0 +1,90 @@
+{
+  "date": "07-10",
+  "dateLabel": "10 July",
+  "facts": [
+    {
+      "id": "07-10-spain-spanish-conquest-of-iberian-navarre",
+      "date": "07-10",
+      "dateLabel": "10 July",
+      "country": "spain",
+      "countryName": "Spain",
+      "kind": "events",
+      "year": 1512,
+      "title": "Spanish conquest of Iberian Navarre",
+      "body": "1512: The Spanish conquest of Iberian Navarre commences with the capture of Goizueta.",
+      "source": {
+        "name": "Wikipedia · Spanish conquest of Iberian Navarre",
+        "url": "https://en.wikipedia.org/wiki/Spanish_conquest_of_Iberian_Navarre",
+        "calendarUrl": "https://en.wikipedia.org/wiki/July_10",
+        "license": {
+          "name": "CC BY-SA 4.0",
+          "url": "https://creativecommons.org/licenses/by-sa/4.0/"
+        }
+      },
+      "image": {
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e9/Conquista_de_Navarra.svg/1280px-Conquista_de_Navarra.svg.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "alt": "Image related to Spanish conquest of Iberian Navarre.",
+        "credit": "Miguillen",
+        "source": "https://commons.wikimedia.org/wiki/File:Conquista_de_Navarra.svg",
+        "license": "CC BY 3.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by/3.0"
+      }
+    },
+    {
+      "id": "07-10-denmark-gl-niairn",
+      "date": "07-10",
+      "dateLabel": "10 July",
+      "country": "denmark",
+      "countryName": "Denmark",
+      "kind": "events",
+      "year": 988,
+      "title": "Glúniairn",
+      "body": "988: The Norse King Glúniairn recognises Máel Sechnaill mac Domnaill, High King of Ireland, and agrees to pay taxes and accept Brehon Law; the event is considered to be the founding of the city of Dublin.",
+      "source": {
+        "name": "Wikipedia · Glúniairn",
+        "url": "https://en.wikipedia.org/wiki/Gl%C3%BAniairn",
+        "calendarUrl": "https://en.wikipedia.org/wiki/July_10",
+        "license": {
+          "name": "CC BY-SA 4.0",
+          "url": "https://creativecommons.org/licenses/by-sa/4.0/"
+        }
+      },
+      "image": {
+        "src": "https://commons.wikimedia.org/wiki/Special:Redirect/file/Flag_of_Denmark.svg?width=1000",
+        "alt": "The national flag of Denmark.",
+        "credit": "Danish government",
+        "source": "https://commons.wikimedia.org/wiki/File:Flag_of_Denmark.svg",
+        "license": "Public domain",
+        "licenseUrl": "https://commons.wikimedia.org/wiki/File:Flag_of_Denmark.svg"
+      }
+    },
+    {
+      "id": "07-10-greece-justin-i",
+      "date": "07-10",
+      "dateLabel": "10 July",
+      "country": "greece",
+      "countryName": "Greece",
+      "kind": "events",
+      "year": 518,
+      "title": "Justin I",
+      "body": "518: Justin I is crowned Byzantine Emperor by the patriarch of Constantinople the day after the death of emperor Anastasius.",
+      "source": {
+        "name": "Wikipedia · Justin I",
+        "url": "https://en.wikipedia.org/wiki/Justin_I",
+        "calendarUrl": "https://en.wikipedia.org/wiki/July_10",
+        "license": {
+          "name": "CC BY-SA 4.0",
+          "url": "https://creativecommons.org/licenses/by-sa/4.0/"
+        }
+      },
+      "image": {
+        "src": "https://upload.wikimedia.org/wikipedia/commons/2/20/Solidus_of_Justin_I_%28obverse%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+        "alt": "Image related to Justin I.",
+        "credit": "Classical Numismatic Group, Inc. http://www.cngcoins.com",
+        "source": "https://commons.wikimedia.org/wiki/File:Solidus_of_Justin_I_(obverse).jpg",
+        "license": "CC BY-SA 2.5",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.5"
+      }
+    }
+  ]
+}

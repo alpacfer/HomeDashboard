@@ -1,0 +1,90 @@
+{
+  "date": "01-25",
+  "dateLabel": "25 January",
+  "facts": [
+    {
+      "id": "01-25-spain-apalachee-massacre",
+      "date": "01-25",
+      "dateLabel": "25 January",
+      "country": "spain",
+      "countryName": "Spain",
+      "kind": "events",
+      "year": 1704,
+      "title": "Apalachee massacre",
+      "body": "1704: The Apalachee massacre: A combined British and Muscogee force from the Province of Carolina destroys the main fortified mission of Ayubale, breaking Spain's hold on Spanish Florida.",
+      "source": {
+        "name": "Wikipedia · Apalachee massacre",
+        "url": "https://en.wikipedia.org/wiki/Apalachee_massacre",
+        "calendarUrl": "https://en.wikipedia.org/wiki/January_25",
+        "license": {
+          "name": "CC BY-SA 4.0",
+          "url": "https://creativecommons.org/licenses/by-sa/4.0/"
+        }
+      },
+      "image": {
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/6e/OcmulgeeRaid.JPG/1280px-OcmulgeeRaid.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "alt": "Image related to Apalachee massacre.",
+        "credit": "Jflo23",
+        "source": "https://commons.wikimedia.org/wiki/File:OcmulgeeRaid.JPG",
+        "license": "Public domain",
+        "licenseUrl": "https://commons.wikimedia.org/wiki/File:OcmulgeeRaid.JPG"
+      }
+    },
+    {
+      "id": "01-25-denmark-daylight",
+      "date": "01-25",
+      "dateLabel": "25 January",
+      "country": "denmark",
+      "countryName": "Denmark",
+      "kind": "daylight",
+      "year": 0,
+      "title": "Copenhagen's daylight",
+      "body": "On 25 January, Copenhagen gets about 8 hours and 10 minutes of daylight.",
+      "source": {
+        "name": "NOAA Solar Calculator",
+        "url": "https://gml.noaa.gov/grad/solcalc/",
+        "calendarUrl": "https://gml.noaa.gov/grad/solcalc/calcdetails.html",
+        "license": {
+          "name": "public-domain NOAA method",
+          "url": "https://www.noaa.gov/disclaimer"
+        }
+      },
+      "image": {
+        "src": "https://commons.wikimedia.org/wiki/Special:Redirect/file/Flag_of_Denmark.svg?width=1000",
+        "alt": "The national flag of Denmark.",
+        "credit": "Danish government",
+        "source": "https://commons.wikimedia.org/wiki/File:Flag_of_Denmark.svg",
+        "license": "Public domain",
+        "licenseUrl": "https://commons.wikimedia.org/wiki/File:Flag_of_Denmark.svg"
+      }
+    },
+    {
+      "id": "01-25-greece-treaty-of-constantinople-1479",
+      "date": "01-25",
+      "dateLabel": "25 January",
+      "country": "greece",
+      "countryName": "Greece",
+      "kind": "events",
+      "year": 1479,
+      "title": "Treaty of Constantinople",
+      "body": "1479: The Treaty of Constantinople ends the 16-year-long First Ottoman–Venetian War.",
+      "source": {
+        "name": "Wikipedia · Treaty of Constantinople (1479)",
+        "url": "https://en.wikipedia.org/wiki/Treaty_of_Constantinople_(1479)",
+        "calendarUrl": "https://en.wikipedia.org/wiki/January_25",
+        "license": {
+          "name": "CC BY-SA 4.0",
+          "url": "https://creativecommons.org/licenses/by-sa/4.0/"
+        }
+      },
+      "image": {
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/6e/Bellini%2C_Gentile_-_Sultan_Mehmet_II.jpg/1280px-Bellini%2C_Gentile_-_Sultan_Mehmet_II.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "alt": "Image related to Treaty of Constantinople.",
+        "credit": "Gentile Bellini",
+        "source": "https://commons.wikimedia.org/wiki/File:Bellini,_Gentile_-_Sultan_Mehmet_II.jpg",
+        "license": "Public domain",
+        "licenseUrl": "https://commons.wikimedia.org/wiki/File:Bellini,_Gentile_-_Sultan_Mehmet_II.jpg"
+      }
+    }
+  ]
+}

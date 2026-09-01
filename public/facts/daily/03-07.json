@@ -1,0 +1,90 @@
+{
+  "date": "03-07",
+  "dateLabel": "7 March",
+  "facts": [
+    {
+      "id": "03-07-spain-daylight",
+      "date": "03-07",
+      "dateLabel": "7 March",
+      "country": "spain",
+      "countryName": "Spain",
+      "kind": "daylight",
+      "year": 0,
+      "title": "Madrid's daylight",
+      "body": "On 7 March, Madrid gets about 11 hours and 30 minutes of daylight.",
+      "source": {
+        "name": "NOAA Solar Calculator",
+        "url": "https://gml.noaa.gov/grad/solcalc/",
+        "calendarUrl": "https://gml.noaa.gov/grad/solcalc/calcdetails.html",
+        "license": {
+          "name": "public-domain NOAA method",
+          "url": "https://www.noaa.gov/disclaimer"
+        }
+      },
+      "image": {
+        "src": "https://commons.wikimedia.org/wiki/Special:Redirect/file/Flag_of_Spain.svg?width=1000",
+        "alt": "The national flag of Spain.",
+        "credit": "Government of Spain",
+        "source": "https://commons.wikimedia.org/wiki/File:Flag_of_Spain.svg",
+        "license": "Public domain",
+        "licenseUrl": "https://commons.wikimedia.org/wiki/File:Flag_of_Spain.svg"
+      }
+    },
+    {
+      "id": "03-07-denmark-shrigley-abduction",
+      "date": "03-07",
+      "dateLabel": "7 March",
+      "country": "denmark",
+      "countryName": "Denmark",
+      "kind": "events",
+      "year": 1826,
+      "title": "Shrigley abduction",
+      "body": "1826: Shrigley abduction: 15-year old Ellen Turner is abducted by Edward Gibbon Wakefield, a future figure in the establishment of colonies in South Australia and New Zealand.",
+      "source": {
+        "name": "Wikipedia · Shrigley abduction",
+        "url": "https://en.wikipedia.org/wiki/Shrigley_abduction",
+        "calendarUrl": "https://en.wikipedia.org/wiki/March_7",
+        "license": {
+          "name": "CC BY-SA 4.0",
+          "url": "https://creativecommons.org/licenses/by-sa/4.0/"
+        }
+      },
+      "image": {
+        "src": "https://commons.wikimedia.org/wiki/Special:Redirect/file/Flag_of_Denmark.svg?width=1000",
+        "alt": "The national flag of Denmark.",
+        "credit": "Danish government",
+        "source": "https://commons.wikimedia.org/wiki/File:Flag_of_Denmark.svg",
+        "license": "Public domain",
+        "licenseUrl": "https://commons.wikimedia.org/wiki/File:Flag_of_Denmark.svg"
+      }
+    },
+    {
+      "id": "03-07-greece-third-council-of-constantinople",
+      "date": "03-07",
+      "dateLabel": "7 March",
+      "country": "greece",
+      "countryName": "Greece",
+      "kind": "events",
+      "year": 681,
+      "title": "Third Council of Constantinople",
+      "body": "681: The Third Council of Constantinople deposes patriarch Macarius I of Antioch.",
+      "source": {
+        "name": "Wikipedia · Third Council of Constantinople",
+        "url": "https://en.wikipedia.org/wiki/Third_Council_of_Constantinople",
+        "calendarUrl": "https://en.wikipedia.org/wiki/March_7",
+        "license": {
+          "name": "CC BY-SA 4.0",
+          "url": "https://creativecommons.org/licenses/by-sa/4.0/"
+        }
+      },
+      "image": {
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/58/45-manasses-chronicle.jpg/1280px-45-manasses-chronicle.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "alt": "Image related to Third Council of Constantinople.",
+        "credit": "Original: Constantine Manasses",
+        "source": "https://commons.wikimedia.org/wiki/File:45-manasses-chronicle.jpg",
+        "license": "Public domain",
+        "licenseUrl": "https://commons.wikimedia.org/wiki/File:45-manasses-chronicle.jpg"
+      }
+    }
+  ]
+}

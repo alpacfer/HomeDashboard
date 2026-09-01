@@ -1,0 +1,90 @@
+{
+  "date": "04-28",
+  "dateLabel": "28 April",
+  "facts": [
+    {
+      "id": "04-28-spain-spanish-empire",
+      "date": "04-28",
+      "dateLabel": "28 April",
+      "country": "spain",
+      "countryName": "Spain",
+      "kind": "events",
+      "year": 1625,
+      "title": "Spanish",
+      "body": "1625: A combined Spanish and Portuguese fleet of 52 ships commences the recapture of Bahia from the Dutch during the Dutch–Portuguese War.",
+      "source": {
+        "name": "Wikipedia · Spanish Empire",
+        "url": "https://en.wikipedia.org/wiki/Spanish_Empire",
+        "calendarUrl": "https://en.wikipedia.org/wiki/April_28",
+        "license": {
+          "name": "CC BY-SA 4.0",
+          "url": "https://creativecommons.org/licenses/by-sa/4.0/"
+        }
+      },
+      "image": {
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f5/Flag_of_Cross_of_Burgundy.svg/1280px-Flag_of_Cross_of_Burgundy.svg.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "alt": "Image related to Spanish.",
+        "credit": "Ningyou.",
+        "source": "https://commons.wikimedia.org/wiki/File:Flag_of_Cross_of_Burgundy.svg",
+        "license": "Public domain",
+        "licenseUrl": "https://commons.wikimedia.org/wiki/File:Flag_of_Cross_of_Burgundy.svg"
+      }
+    },
+    {
+      "id": "04-28-denmark-ludvig-schytte",
+      "date": "04-28",
+      "dateLabel": "28 April",
+      "country": "denmark",
+      "countryName": "Denmark",
+      "kind": "births",
+      "year": 1848,
+      "title": "Ludvig Schytte",
+      "body": "Ludvig Schytte, Danish pianist, composer, and educator (died 1909), was born on this day in 1848.",
+      "source": {
+        "name": "Wikipedia · Ludvig Schytte",
+        "url": "https://en.wikipedia.org/wiki/Ludvig_Schytte",
+        "calendarUrl": "https://en.wikipedia.org/wiki/April_28",
+        "license": {
+          "name": "CC BY-SA 4.0",
+          "url": "https://creativecommons.org/licenses/by-sa/4.0/"
+        }
+      },
+      "image": {
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/57/LudvigSchytte.jpg/1280px-LudvigSchytte.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "alt": "Portrait or image of Ludvig Schytte.",
+        "credit": "Hansen & Weller",
+        "source": "https://commons.wikimedia.org/wiki/File:LudvigSchytte.jpg",
+        "license": "Public domain",
+        "licenseUrl": "https://commons.wikimedia.org/wiki/File:LudvigSchytte.jpg"
+      }
+    },
+    {
+      "id": "04-28-greece-daylight",
+      "date": "04-28",
+      "dateLabel": "28 April",
+      "country": "greece",
+      "countryName": "Greece",
+      "kind": "daylight",
+      "year": 0,
+      "title": "Athens's daylight",
+      "body": "On 28 April, Athens gets about 13 hours and 40 minutes of daylight.",
+      "source": {
+        "name": "NOAA Solar Calculator",
+        "url": "https://gml.noaa.gov/grad/solcalc/",
+        "calendarUrl": "https://gml.noaa.gov/grad/solcalc/calcdetails.html",
+        "license": {
+          "name": "public-domain NOAA method",
+          "url": "https://www.noaa.gov/disclaimer"
+        }
+      },
+      "image": {
+        "src": "https://commons.wikimedia.org/wiki/Special:Redirect/file/Flag_of_Greece.svg?width=1000",
+        "alt": "The national flag of Greece.",
+        "credit": "Greek government",
+        "source": "https://commons.wikimedia.org/wiki/File:Flag_of_Greece.svg",
+        "license": "Public domain",
+        "licenseUrl": "https://commons.wikimedia.org/wiki/File:Flag_of_Greece.svg"
+      }
+    }
+  ]
+}

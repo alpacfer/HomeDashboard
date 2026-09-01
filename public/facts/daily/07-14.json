@@ -1,0 +1,90 @@
+{
+  "date": "07-14",
+  "dateLabel": "14 July",
+  "facts": [
+    {
+      "id": "07-14-spain-anglo-spanish-war-1585-1604",
+      "date": "07-14",
+      "dateLabel": "14 July",
+      "country": "spain",
+      "countryName": "Spain",
+      "kind": "events",
+      "year": 1596,
+      "title": "Anglo-Spanish War",
+      "body": "1596: Anglo-Spanish War: English and Dutch troops sack the Spanish city of Cádiz before leaving the next day.",
+      "source": {
+        "name": "Wikipedia · Anglo-Spanish War (1585–1604)",
+        "url": "https://en.wikipedia.org/wiki/Anglo-Spanish_War_(1585%E2%80%931604)",
+        "calendarUrl": "https://en.wikipedia.org/wiki/July_14",
+        "license": {
+          "name": "CC BY-SA 4.0",
+          "url": "https://creativecommons.org/licenses/by-sa/4.0/"
+        }
+      },
+      "image": {
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/1d/English_Ships_and_the_Spanish_Armada%2C_August_1588_RMG_BHC0262.jpg/1280px-English_Ships_and_the_Spanish_Armada%2C_August_1588_RMG_BHC0262.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "alt": "Image related to Anglo-Spanish War.",
+        "credit": "anonymous",
+        "source": "https://commons.wikimedia.org/wiki/File:English_Ships_and_the_Spanish_Armada,_August_1588_RMG_BHC0262.jpg",
+        "license": "Public domain",
+        "licenseUrl": "https://commons.wikimedia.org/wiki/File:English_Ships_and_the_Spanish_Armada,_August_1588_RMG_BHC0262.jpg"
+      }
+    },
+    {
+      "id": "07-14-denmark-daylight",
+      "date": "07-14",
+      "dateLabel": "14 July",
+      "country": "denmark",
+      "countryName": "Denmark",
+      "kind": "daylight",
+      "year": 0,
+      "title": "Copenhagen's daylight",
+      "body": "On 14 July, Copenhagen gets about 17 hours of daylight.",
+      "source": {
+        "name": "NOAA Solar Calculator",
+        "url": "https://gml.noaa.gov/grad/solcalc/",
+        "calendarUrl": "https://gml.noaa.gov/grad/solcalc/calcdetails.html",
+        "license": {
+          "name": "public-domain NOAA method",
+          "url": "https://www.noaa.gov/disclaimer"
+        }
+      },
+      "image": {
+        "src": "https://commons.wikimedia.org/wiki/Special:Redirect/file/Flag_of_Denmark.svg?width=1000",
+        "alt": "The national flag of Denmark.",
+        "credit": "Danish government",
+        "source": "https://commons.wikimedia.org/wiki/File:Flag_of_Denmark.svg",
+        "license": "Public domain",
+        "licenseUrl": "https://commons.wikimedia.org/wiki/File:Flag_of_Denmark.svg"
+      }
+    },
+    {
+      "id": "07-14-greece-daylight",
+      "date": "07-14",
+      "dateLabel": "14 July",
+      "country": "greece",
+      "countryName": "Greece",
+      "kind": "daylight",
+      "year": 0,
+      "title": "Athens's daylight",
+      "body": "On 14 July, Athens gets about 14 hours and 35 minutes of daylight.",
+      "source": {
+        "name": "NOAA Solar Calculator",
+        "url": "https://gml.noaa.gov/grad/solcalc/",
+        "calendarUrl": "https://gml.noaa.gov/grad/solcalc/calcdetails.html",
+        "license": {
+          "name": "public-domain NOAA method",
+          "url": "https://www.noaa.gov/disclaimer"
+        }
+      },
+      "image": {
+        "src": "https://commons.wikimedia.org/wiki/Special:Redirect/file/Flag_of_Greece.svg?width=1000",
+        "alt": "The national flag of Greece.",
+        "credit": "Greek government",
+        "source": "https://commons.wikimedia.org/wiki/File:Flag_of_Greece.svg",
+        "license": "Public domain",
+        "licenseUrl": "https://commons.wikimedia.org/wiki/File:Flag_of_Greece.svg"
+      }
+    }
+  ]
+}

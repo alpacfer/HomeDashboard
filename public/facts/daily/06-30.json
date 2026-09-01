@@ -1,0 +1,90 @@
+{
+  "date": "06-30",
+  "dateLabel": "30 June",
+  "facts": [
+    {
+      "id": "06-30-spain-kingdom-of-france",
+      "date": "06-30",
+      "dateLabel": "30 June",
+      "country": "spain",
+      "countryName": "Spain",
+      "kind": "events",
+      "year": 1521,
+      "title": "French",
+      "body": "1521: Spanish forces defeat a combined French and Navarrese army at the Battle of Noáin during the Spanish conquest of Iberian Navarre.",
+      "source": {
+        "name": "Wikipedia · Kingdom of France",
+        "url": "https://en.wikipedia.org/wiki/Kingdom_of_France",
+        "calendarUrl": "https://en.wikipedia.org/wiki/June_30",
+        "license": {
+          "name": "CC BY-SA 4.0",
+          "url": "https://creativecommons.org/licenses/by-sa/4.0/"
+        }
+      },
+      "image": {
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/9a/Royal_Standard_of_the_King_of_France.svg/1280px-Royal_Standard_of_the_King_of_France.svg.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "alt": "Image related to French.",
+        "credit": "Sodacan",
+        "source": "https://commons.wikimedia.org/wiki/File:Royal_Standard_of_the_King_of_France.svg",
+        "license": "CC BY-SA 3.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0"
+      }
+    },
+    {
+      "id": "06-30-denmark-marianne-angermann",
+      "date": "06-30",
+      "dateLabel": "30 June",
+      "country": "denmark",
+      "countryName": "Denmark",
+      "kind": "births",
+      "year": 1904,
+      "title": "Marianne Angermann",
+      "body": "Marianne Angermann, German–Spanish–New Zealand biochemist (died 1977), was born on this day in 1904.",
+      "source": {
+        "name": "Wikipedia · Marianne Angermann",
+        "url": "https://en.wikipedia.org/wiki/Marianne_Angermann",
+        "calendarUrl": "https://en.wikipedia.org/wiki/June_30",
+        "license": {
+          "name": "CC BY-SA 4.0",
+          "url": "https://creativecommons.org/licenses/by-sa/4.0/"
+        }
+      },
+      "image": {
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/75/Marianne_Bielschowsky_1939.jpg/1280px-Marianne_Bielschowsky_1939.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "alt": "Portrait or image of Marianne Angermann.",
+        "credit": "UnknownUnknown",
+        "source": "https://commons.wikimedia.org/wiki/File:Marianne_Bielschowsky_1939.jpg",
+        "license": "Public domain",
+        "licenseUrl": "https://commons.wikimedia.org/wiki/File:Marianne_Bielschowsky_1939.jpg"
+      }
+    },
+    {
+      "id": "06-30-greece-byzantine-empire",
+      "date": "06-30",
+      "dateLabel": "30 June",
+      "country": "greece",
+      "countryName": "Greece",
+      "kind": "events",
+      "year": 763,
+      "title": "Byzantine",
+      "body": "763: The Byzantine army of emperor Constantine V defeats the Bulgarian forces in the Battle of Anchialus.",
+      "source": {
+        "name": "Wikipedia · Byzantine Empire",
+        "url": "https://en.wikipedia.org/wiki/Byzantine_Empire",
+        "calendarUrl": "https://en.wikipedia.org/wiki/June_30",
+        "license": {
+          "name": "CC BY-SA 4.0",
+          "url": "https://creativecommons.org/licenses/by-sa/4.0/"
+        }
+      },
+      "image": {
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/69/Red_Eastern_Roman_Empire_565_CE.svg/1280px-Red_Eastern_Roman_Empire_565_CE.svg.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "alt": "Image related to Byzantine.",
+        "credit": "PortosPL31",
+        "source": "https://commons.wikimedia.org/wiki/File:Red_Eastern_Roman_Empire_565_CE.svg",
+        "license": "CC0",
+        "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/deed.en"
+      }
+    }
+  ]
+}

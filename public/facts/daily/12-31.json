@@ -1,0 +1,90 @@
+{
+  "date": "12-31",
+  "dateLabel": "31 December",
+  "facts": [
+    {
+      "id": "12-31-spain-james-i-of-aragon",
+      "date": "12-31",
+      "dateLabel": "31 December",
+      "country": "spain",
+      "countryName": "Spain",
+      "kind": "events",
+      "year": 1229,
+      "title": "James I the Conqueror",
+      "body": "1229: James I the Conqueror, King of Aragon, enters Medina Mayurqa (now known as Palma de Mallorca, Spain), thus consummating the Christian reconquest of the island of Mallorca.",
+      "source": {
+        "name": "Wikipedia · James I of Aragon",
+        "url": "https://en.wikipedia.org/wiki/James_I_of_Aragon",
+        "calendarUrl": "https://en.wikipedia.org/wiki/December_31",
+        "license": {
+          "name": "CC BY-SA 4.0",
+          "url": "https://creativecommons.org/licenses/by-sa/4.0/"
+        }
+      },
+      "image": {
+        "src": "https://upload.wikimedia.org/wikipedia/commons/6/60/Jaime_I_de_Arag%C3%B3n.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+        "alt": "Image related to James I the Conqueror.",
+        "credit": "Incipit_Vidal_Mayor.jpg: Vidal de Canellas y cancillería real del rey de Aragón. derivative work: Escarlati (talk)",
+        "source": "https://commons.wikimedia.org/wiki/File:Jaime_I_de_Arag%C3%B3n.jpg",
+        "license": "Public domain",
+        "licenseUrl": "https://commons.wikimedia.org/wiki/File:Jaime_I_de_Arag%C3%B3n.jpg"
+      }
+    },
+    {
+      "id": "12-31-denmark-vaughan-jones",
+      "date": "12-31",
+      "dateLabel": "31 December",
+      "country": "denmark",
+      "countryName": "Denmark",
+      "kind": "births",
+      "year": 1952,
+      "title": "Vaughan Jones",
+      "body": "Vaughan Jones, New Zealand mathematician and academic (died 2020), was born on this day in 1952.",
+      "source": {
+        "name": "Wikipedia · Vaughan Jones",
+        "url": "https://en.wikipedia.org/wiki/Vaughan_Jones",
+        "calendarUrl": "https://en.wikipedia.org/wiki/December_31",
+        "license": {
+          "name": "CC BY-SA 4.0",
+          "url": "https://creativecommons.org/licenses/by-sa/4.0/"
+        }
+      },
+      "image": {
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/ec/Vaughan_Jones_2018_%28cropped%29.JPG/1280px-Vaughan_Jones_2018_%28cropped%29.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "alt": "Portrait or image of Vaughan Jones.",
+        "credit": "George M. Bergman",
+        "source": "https://commons.wikimedia.org/wiki/File:Vaughan_Jones_2018_(cropped).JPG",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0"
+      }
+    },
+    {
+      "id": "12-31-greece-byzantine-empire",
+      "date": "12-31",
+      "dateLabel": "31 December",
+      "country": "greece",
+      "countryName": "Greece",
+      "kind": "events",
+      "year": 535,
+      "title": "Byzantine",
+      "body": "535: Byzantine general Belisarius completes the conquest of Sicily, defeating the Gothic garrison of Palermo (Panormos), and ending his consulship for the year.",
+      "source": {
+        "name": "Wikipedia · Byzantine Empire",
+        "url": "https://en.wikipedia.org/wiki/Byzantine_Empire",
+        "calendarUrl": "https://en.wikipedia.org/wiki/December_31",
+        "license": {
+          "name": "CC BY-SA 4.0",
+          "url": "https://creativecommons.org/licenses/by-sa/4.0/"
+        }
+      },
+      "image": {
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/69/Red_Eastern_Roman_Empire_565_CE.svg/1280px-Red_Eastern_Roman_Empire_565_CE.svg.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "alt": "Image related to Byzantine.",
+        "credit": "PortosPL31",
+        "source": "https://commons.wikimedia.org/wiki/File:Red_Eastern_Roman_Empire_565_CE.svg",
+        "license": "CC0",
+        "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/deed.en"
+      }
+    }
+  ]
+}

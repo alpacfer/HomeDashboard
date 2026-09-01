@@ -1,0 +1,90 @@
+{
+  "date": "02-19",
+  "dateLabel": "19 February",
+  "facts": [
+    {
+      "id": "02-19-spain-boeing-727",
+      "date": "02-19",
+      "dateLabel": "19 February",
+      "country": "spain",
+      "countryName": "Spain",
+      "kind": "events",
+      "year": 1985,
+      "title": "Boeing 727",
+      "body": "1985: A Boeing 727 operating as Iberia Flight 610 crashes Mount Oiz in Spain, killing 148; it is the deadliest accident to occur in Iberia's history and the deadliest to occur in Basque County.",
+      "source": {
+        "name": "Wikipedia · Boeing 727",
+        "url": "https://en.wikipedia.org/wiki/Boeing_727",
+        "calendarUrl": "https://en.wikipedia.org/wiki/February_19",
+        "license": {
+          "name": "CC BY-SA 4.0",
+          "url": "https://creativecommons.org/licenses/by-sa/4.0/"
+        }
+      },
+      "image": {
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/57/B-727_Iberia_%28cropped%29.jpg/1280px-B-727_Iberia_%28cropped%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "alt": "Image related to Boeing 727.",
+        "credit": "Iberia Airlines",
+        "source": "https://commons.wikimedia.org/wiki/File:B-727_Iberia_(cropped).jpg",
+        "license": "CC BY 2.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by/2.0"
+      }
+    },
+    {
+      "id": "02-19-denmark-thelma-kench",
+      "date": "02-19",
+      "dateLabel": "19 February",
+      "country": "denmark",
+      "countryName": "Denmark",
+      "kind": "births",
+      "year": 1914,
+      "title": "Thelma Kench",
+      "body": "Thelma Kench, New Zealand Olympic sprinter (died 1985), was born on this day in 1914.",
+      "source": {
+        "name": "Wikipedia · Thelma Kench",
+        "url": "https://en.wikipedia.org/wiki/Thelma_Kench",
+        "calendarUrl": "https://en.wikipedia.org/wiki/February_19",
+        "license": {
+          "name": "CC BY-SA 4.0",
+          "url": "https://creativecommons.org/licenses/by-sa/4.0/"
+        }
+      },
+      "image": {
+        "src": "https://upload.wikimedia.org/wikipedia/commons/8/87/Thelma_Kench_1932.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+        "alt": "Portrait or image of Thelma Kench.",
+        "credit": "Unknown (Keystone-France)",
+        "source": "https://commons.wikimedia.org/wiki/File:Thelma_Kench_1932.jpg",
+        "license": "Public domain",
+        "licenseUrl": "https://commons.wikimedia.org/wiki/File:Thelma_Kench_1932.jpg"
+      }
+    },
+    {
+      "id": "02-19-greece-daylight",
+      "date": "02-19",
+      "dateLabel": "19 February",
+      "country": "greece",
+      "countryName": "Greece",
+      "kind": "daylight",
+      "year": 0,
+      "title": "Athens's daylight",
+      "body": "On 19 February, Athens gets about 10 hours and 50 minutes of daylight.",
+      "source": {
+        "name": "NOAA Solar Calculator",
+        "url": "https://gml.noaa.gov/grad/solcalc/",
+        "calendarUrl": "https://gml.noaa.gov/grad/solcalc/calcdetails.html",
+        "license": {
+          "name": "public-domain NOAA method",
+          "url": "https://www.noaa.gov/disclaimer"
+        }
+      },
+      "image": {
+        "src": "https://commons.wikimedia.org/wiki/Special:Redirect/file/Flag_of_Greece.svg?width=1000",
+        "alt": "The national flag of Greece.",
+        "credit": "Greek government",
+        "source": "https://commons.wikimedia.org/wiki/File:Flag_of_Greece.svg",
+        "license": "Public domain",
+        "licenseUrl": "https://commons.wikimedia.org/wiki/File:Flag_of_Greece.svg"
+      }
+    }
+  ]
+}

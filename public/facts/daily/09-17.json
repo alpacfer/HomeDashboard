@@ -1,0 +1,90 @@
+{
+  "date": "09-17",
+  "dateLabel": "17 September",
+  "facts": [
+    {
+      "id": "09-17-spain-battle-of-vilanova",
+      "date": "09-17",
+      "dateLabel": "17 September",
+      "country": "spain",
+      "countryName": "Spain",
+      "kind": "events",
+      "year": 1658,
+      "title": "Battle of Vilanova",
+      "body": "1658: The Battle of Vilanova is fought between Portugal and Spain during the Portuguese Restoration War.",
+      "source": {
+        "name": "Wikipedia · Battle of Vilanova",
+        "url": "https://en.wikipedia.org/wiki/Battle_of_Vilanova",
+        "calendarUrl": "https://en.wikipedia.org/wiki/September_17",
+        "license": {
+          "name": "CC BY-SA 4.0",
+          "url": "https://creativecommons.org/licenses/by-sa/4.0/"
+        }
+      },
+      "image": {
+        "src": "https://commons.wikimedia.org/wiki/Special:Redirect/file/Flag_of_Spain.svg?width=1000",
+        "alt": "The national flag of Spain.",
+        "credit": "Government of Spain",
+        "source": "https://commons.wikimedia.org/wiki/File:Flag_of_Spain.svg",
+        "license": "Public domain",
+        "licenseUrl": "https://commons.wikimedia.org/wiki/File:Flag_of_Spain.svg"
+      }
+    },
+    {
+      "id": "09-17-denmark-hedwig-ross",
+      "date": "09-17",
+      "dateLabel": "17 September",
+      "country": "denmark",
+      "countryName": "Denmark",
+      "kind": "births",
+      "year": 1900,
+      "title": "Hedwig Ross",
+      "body": "Hedwig Ross, New Zealand-born educator and political activist, founding member of the Communist Party of New Zealand (died 1971), was born on this day in 1900.",
+      "source": {
+        "name": "Wikipedia · Hedwig Ross",
+        "url": "https://en.wikipedia.org/wiki/Hedwig_Ross",
+        "calendarUrl": "https://en.wikipedia.org/wiki/September_17",
+        "license": {
+          "name": "CC BY-SA 4.0",
+          "url": "https://creativecommons.org/licenses/by-sa/4.0/"
+        }
+      },
+      "image": {
+        "src": "https://commons.wikimedia.org/wiki/Special:Redirect/file/Flag_of_Denmark.svg?width=1000",
+        "alt": "The national flag of Denmark.",
+        "credit": "Danish government",
+        "source": "https://commons.wikimedia.org/wiki/File:Flag_of_Denmark.svg",
+        "license": "Public domain",
+        "licenseUrl": "https://commons.wikimedia.org/wiki/File:Flag_of_Denmark.svg"
+      }
+    },
+    {
+      "id": "09-17-greece-battle-of-myriokephalon",
+      "date": "09-17",
+      "dateLabel": "17 September",
+      "country": "greece",
+      "countryName": "Greece",
+      "kind": "events",
+      "year": 1176,
+      "title": "Battle of Myriokephalon",
+      "body": "1176: The Battle of Myriokephalon is the last attempt by the Byzantine Empire to recover central Anatolia from the Seljuk Turks.",
+      "source": {
+        "name": "Wikipedia · Battle of Myriokephalon",
+        "url": "https://en.wikipedia.org/wiki/Battle_of_Myriokephalon",
+        "calendarUrl": "https://en.wikipedia.org/wiki/September_17",
+        "license": {
+          "name": "CC BY-SA 4.0",
+          "url": "https://creativecommons.org/licenses/by-sa/4.0/"
+        }
+      },
+      "image": {
+        "src": "https://upload.wikimedia.org/wikipedia/commons/8/82/Crusades_surprised_by_turks.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+        "alt": "Image related to Battle of Myriokephalon.",
+        "credit": "Wikimedia Commons contributor",
+        "source": "https://commons.wikimedia.org/wiki/File:Crusades_surprised_by_turks.jpg",
+        "license": "Public domain",
+        "licenseUrl": "https://commons.wikimedia.org/wiki/File:Crusades_surprised_by_turks.jpg"
+      }
+    }
+  ]
+}

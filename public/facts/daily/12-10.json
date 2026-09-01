@@ -1,0 +1,90 @@
+{
+  "date": "12-10",
+  "dateLabel": "10 December",
+  "facts": [
+    {
+      "id": "12-10-spain-spanish-american-war",
+      "date": "12-10",
+      "dateLabel": "10 December",
+      "country": "spain",
+      "countryName": "Spain",
+      "kind": "events",
+      "year": 1898,
+      "title": "Spanish–American War",
+      "body": "1898: Spanish–American War: The Treaty of Paris is signed, officially ending the conflict. Spain cedes administration of Cuba to the United States, and the United States agrees to pay Spain $20 million for the Philippines.",
+      "source": {
+        "name": "Wikipedia · Spanish–American War",
+        "url": "https://en.wikipedia.org/wiki/Spanish%E2%80%93American_War",
+        "calendarUrl": "https://en.wikipedia.org/wiki/December_10",
+        "license": {
+          "name": "CC BY-SA 4.0",
+          "url": "https://creativecommons.org/licenses/by-sa/4.0/"
+        }
+      },
+      "image": {
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/84/Collage_infobox_for_Spanish-American_War.jpg/1280px-Collage_infobox_for_Spanish-American_War.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "alt": "Image related to Spanish–American War.",
+        "credit": "Barbudo Barbudo and TEP",
+        "source": "https://commons.wikimedia.org/wiki/File:Collage_infobox_for_Spanish-American_War.jpg",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0"
+      }
+    },
+    {
+      "id": "12-10-denmark-helen-clark",
+      "date": "12-10",
+      "dateLabel": "10 December",
+      "country": "denmark",
+      "countryName": "Denmark",
+      "kind": "events",
+      "year": 1999,
+      "title": "Helen Clark",
+      "body": "1999: Helen Clark is sworn in as Prime Minister of New Zealand, the second woman to hold the post and the first following an election.",
+      "source": {
+        "name": "Wikipedia · Helen Clark",
+        "url": "https://en.wikipedia.org/wiki/Helen_Clark",
+        "calendarUrl": "https://en.wikipedia.org/wiki/December_10",
+        "license": {
+          "name": "CC BY-SA 4.0",
+          "url": "https://creativecommons.org/licenses/by-sa/4.0/"
+        }
+      },
+      "image": {
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/7e/Helen_Clark_official_photo_%28cropped%29.jpg/1280px-Helen_Clark_official_photo_%28cropped%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "alt": "Image related to Helen Clark.",
+        "credit": "Global Commission on Drug Policy",
+        "source": "https://commons.wikimedia.org/wiki/File:Helen_Clark_official_photo_(cropped).jpg",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0"
+      }
+    },
+    {
+      "id": "12-10-greece-marios-varvoglis",
+      "date": "12-10",
+      "dateLabel": "10 December",
+      "country": "greece",
+      "countryName": "Greece",
+      "kind": "births",
+      "year": 1885,
+      "title": "Marios Varvoglis",
+      "body": "Marios Varvoglis, Greek composer and conductor (died 1967), was born on this day in 1885.",
+      "source": {
+        "name": "Wikipedia · Marios Varvoglis",
+        "url": "https://en.wikipedia.org/wiki/Marios_Varvoglis",
+        "calendarUrl": "https://en.wikipedia.org/wiki/December_10",
+        "license": {
+          "name": "CC BY-SA 4.0",
+          "url": "https://creativecommons.org/licenses/by-sa/4.0/"
+        }
+      },
+      "image": {
+        "src": "https://commons.wikimedia.org/wiki/Special:Redirect/file/Flag_of_Greece.svg?width=1000",
+        "alt": "The national flag of Greece.",
+        "credit": "Greek government",
+        "source": "https://commons.wikimedia.org/wiki/File:Flag_of_Greece.svg",
+        "license": "Public domain",
+        "licenseUrl": "https://commons.wikimedia.org/wiki/File:Flag_of_Greece.svg"
+      }
+    }
+  ]
+}

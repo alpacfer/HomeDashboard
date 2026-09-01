@@ -1,0 +1,90 @@
+{
+  "date": "03-24",
+  "dateLabel": "24 March",
+  "facts": [
+    {
+      "id": "03-24-spain-kingdom-of-england",
+      "date": "03-24",
+      "dateLabel": "24 March",
+      "country": "spain",
+      "countryName": "Spain",
+      "kind": "events",
+      "year": 1387,
+      "title": "English",
+      "body": "1387: English victory over a Franco-Castilian-Flemish fleet in the Battle of Margate off the coast of Margate.",
+      "source": {
+        "name": "Wikipedia · Kingdom of England",
+        "url": "https://en.wikipedia.org/wiki/Kingdom_of_England",
+        "calendarUrl": "https://en.wikipedia.org/wiki/March_24",
+        "license": {
+          "name": "CC BY-SA 4.0",
+          "url": "https://creativecommons.org/licenses/by-sa/4.0/"
+        }
+      },
+      "image": {
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/be/Flag_of_England.svg/1280px-Flag_of_England.svg.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "alt": "Image related to English.",
+        "credit": "Original: traditional Vector: Nicholas Shanks",
+        "source": "https://commons.wikimedia.org/wiki/File:Flag_of_England.svg",
+        "license": "Public domain",
+        "licenseUrl": "https://commons.wikimedia.org/wiki/File:Flag_of_England.svg"
+      }
+    },
+    {
+      "id": "03-24-denmark-t-tokowaru",
+      "date": "03-24",
+      "dateLabel": "24 March",
+      "country": "denmark",
+      "countryName": "Denmark",
+      "kind": "events",
+      "year": 1869,
+      "title": "Tītokowaru",
+      "body": "1869: The last of Tītokowaru's forces surrender to the New Zealand government, ending his uprising.",
+      "source": {
+        "name": "Wikipedia · Tītokowaru",
+        "url": "https://en.wikipedia.org/wiki/T%C4%ABtokowaru",
+        "calendarUrl": "https://en.wikipedia.org/wiki/March_24",
+        "license": {
+          "name": "CC BY-SA 4.0",
+          "url": "https://creativecommons.org/licenses/by-sa/4.0/"
+        }
+      },
+      "image": {
+        "src": "https://commons.wikimedia.org/wiki/Special:Redirect/file/Flag_of_Denmark.svg?width=1000",
+        "alt": "The national flag of Denmark.",
+        "credit": "Danish government",
+        "source": "https://commons.wikimedia.org/wiki/File:Flag_of_Denmark.svg",
+        "license": "Public domain",
+        "licenseUrl": "https://commons.wikimedia.org/wiki/File:Flag_of_Denmark.svg"
+      }
+    },
+    {
+      "id": "03-24-greece-constantine-andreou",
+      "date": "03-24",
+      "dateLabel": "24 March",
+      "country": "greece",
+      "countryName": "Greece",
+      "kind": "births",
+      "year": 1917,
+      "title": "Constantine Andreou",
+      "body": "Constantine Andreou, Greek painter and sculptor (died 2007), was born on this day in 1917.",
+      "source": {
+        "name": "Wikipedia · Constantine Andreou",
+        "url": "https://en.wikipedia.org/wiki/Constantine_Andreou",
+        "calendarUrl": "https://en.wikipedia.org/wiki/March_24",
+        "license": {
+          "name": "CC BY-SA 4.0",
+          "url": "https://creativecommons.org/licenses/by-sa/4.0/"
+        }
+      },
+      "image": {
+        "src": "https://commons.wikimedia.org/wiki/Special:Redirect/file/Flag_of_Greece.svg?width=1000",
+        "alt": "The national flag of Greece.",
+        "credit": "Greek government",
+        "source": "https://commons.wikimedia.org/wiki/File:Flag_of_Greece.svg",
+        "license": "Public domain",
+        "licenseUrl": "https://commons.wikimedia.org/wiki/File:Flag_of_Greece.svg"
+      }
+    }
+  ]
+}

@@ -1,0 +1,90 @@
+{
+  "date": "12-01",
+  "dateLabel": "1 December",
+  "facts": [
+    {
+      "id": "12-01-spain-jos-n-ez-de-c-ceres",
+      "date": "12-01",
+      "dateLabel": "1 December",
+      "country": "spain",
+      "countryName": "Spain",
+      "kind": "events",
+      "year": 1821,
+      "title": "José Núñez de Cáceres",
+      "body": "1821: José Núñez de Cáceres wins the independence of the Dominican Republic from Spain and names the new territory the Republic of Spanish Haiti.",
+      "source": {
+        "name": "Wikipedia · José Núñez de Cáceres",
+        "url": "https://en.wikipedia.org/wiki/Jos%C3%A9_N%C3%BA%C3%B1ez_de_C%C3%A1ceres",
+        "calendarUrl": "https://en.wikipedia.org/wiki/December_1",
+        "license": {
+          "name": "CC BY-SA 4.0",
+          "url": "https://creativecommons.org/licenses/by-sa/4.0/"
+        }
+      },
+      "image": {
+        "src": "https://upload.wikimedia.org/wikipedia/commons/e/e0/Nunezcaceres.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+        "alt": "Image related to José Núñez de Cáceres.",
+        "credit": "Unknown/Desconocido",
+        "source": "https://commons.wikimedia.org/wiki/File:Nunezcaceres.jpg",
+        "license": "CC0",
+        "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/deed.en"
+      }
+    },
+    {
+      "id": "12-01-denmark-kingdom-of-iceland",
+      "date": "12-01",
+      "dateLabel": "1 December",
+      "country": "denmark",
+      "countryName": "Denmark",
+      "kind": "events",
+      "year": 1918,
+      "title": "Iceland",
+      "body": "1918: Iceland becomes a sovereign state, yet remains a part of the Danish kingdom.",
+      "source": {
+        "name": "Wikipedia · Kingdom of Iceland",
+        "url": "https://en.wikipedia.org/wiki/Kingdom_of_Iceland",
+        "calendarUrl": "https://en.wikipedia.org/wiki/December_1",
+        "license": {
+          "name": "CC BY-SA 4.0",
+          "url": "https://creativecommons.org/licenses/by-sa/4.0/"
+        }
+      },
+      "image": {
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/34/Flag_of_Iceland_%281918%E2%80%931944%29.svg/1280px-Flag_of_Iceland_%281918%E2%80%931944%29.svg.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "alt": "Image related to Iceland.",
+        "credit": "Original: Matthías Þórðarson Vector: Gustavo Ronconi",
+        "source": "https://commons.wikimedia.org/wiki/File:Flag_of_Iceland_(1918%E2%80%931944).svg",
+        "license": "Public domain",
+        "licenseUrl": "https://commons.wikimedia.org/wiki/File:Flag_of_Iceland_(1918%E2%80%931944).svg"
+      }
+    },
+    {
+      "id": "12-01-greece-crete",
+      "date": "12-01",
+      "dateLabel": "1 December",
+      "country": "greece",
+      "countryName": "Greece",
+      "kind": "events",
+      "year": 1913,
+      "title": "Crete",
+      "body": "1913: Crete, having obtained self rule from Turkey after the First Balkan War, is annexed by Greece.",
+      "source": {
+        "name": "Wikipedia · Crete",
+        "url": "https://en.wikipedia.org/wiki/Crete",
+        "calendarUrl": "https://en.wikipedia.org/wiki/December_1",
+        "license": {
+          "name": "CC BY-SA 4.0",
+          "url": "https://creativecommons.org/licenses/by-sa/4.0/"
+        }
+      },
+      "image": {
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/01/Island_of_Crete%2C_Greece.JPG/1280px-Island_of_Crete%2C_Greece.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "alt": "Image related to Crete.",
+        "credit": "ISS Expedition 28 crew",
+        "source": "https://commons.wikimedia.org/wiki/File:Island_of_Crete,_Greece.JPG",
+        "license": "Public domain",
+        "licenseUrl": "https://commons.wikimedia.org/wiki/File:Island_of_Crete,_Greece.JPG"
+      }
+    }
+  ]
+}

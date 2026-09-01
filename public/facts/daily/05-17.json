@@ -1,0 +1,90 @@
+{
+  "date": "05-17",
+  "dateLabel": "17 May",
+  "facts": [
+    {
+      "id": "05-17-spain-rosal-a-de-castro",
+      "date": "05-17",
+      "dateLabel": "17 May",
+      "country": "spain",
+      "countryName": "Spain",
+      "kind": "events",
+      "year": 1863,
+      "title": "Rosalía de Castro",
+      "body": "1863: Rosalía de Castro publishes Cantares Gallegos, the first book in the Galician language.",
+      "source": {
+        "name": "Wikipedia · Rosalía de Castro",
+        "url": "https://en.wikipedia.org/wiki/Rosal%C3%ADa_de_Castro",
+        "calendarUrl": "https://en.wikipedia.org/wiki/May_17",
+        "license": {
+          "name": "CC BY-SA 4.0",
+          "url": "https://creativecommons.org/licenses/by-sa/4.0/"
+        }
+      },
+      "image": {
+        "src": "https://upload.wikimedia.org/wikipedia/commons/5/51/Rosal%C3%ADa_Castro_de_Murgu%C3%ADa_por_Luis_Sellier.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+        "alt": "Image related to Rosalía de Castro.",
+        "credit": "Luis Sellier",
+        "source": "https://commons.wikimedia.org/wiki/File:Rosal%C3%ADa_Castro_de_Murgu%C3%ADa_por_Luis_Sellier.jpg",
+        "license": "Public domain",
+        "licenseUrl": "https://commons.wikimedia.org/wiki/File:Rosal%C3%ADa_Castro_de_Murgu%C3%ADa_por_Luis_Sellier.jpg"
+      }
+    },
+    {
+      "id": "05-17-denmark-anne-of-denmark",
+      "date": "05-17",
+      "dateLabel": "17 May",
+      "country": "denmark",
+      "countryName": "Denmark",
+      "kind": "events",
+      "year": 1590,
+      "title": "Anne of Denmark",
+      "body": "1590: Anne of Denmark is crowned Queen of Scotland.",
+      "source": {
+        "name": "Wikipedia · Anne of Denmark",
+        "url": "https://en.wikipedia.org/wiki/Anne_of_Denmark",
+        "calendarUrl": "https://en.wikipedia.org/wiki/May_17",
+        "license": {
+          "name": "CC BY-SA 4.0",
+          "url": "https://creativecommons.org/licenses/by-sa/4.0/"
+        }
+      },
+      "image": {
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d1/Anne_of_Denmark_1605.jpg/1280px-Anne_of_Denmark_1605.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "alt": "Image related to Anne of Denmark.",
+        "credit": "John de Critz",
+        "source": "https://commons.wikimedia.org/wiki/File:Anne_of_Denmark_1605.jpg",
+        "license": "Public domain",
+        "licenseUrl": "https://commons.wikimedia.org/wiki/File:Anne_of_Denmark_1605.jpg"
+      }
+    },
+    {
+      "id": "05-17-greece-valerios-stais",
+      "date": "05-17",
+      "dateLabel": "17 May",
+      "country": "greece",
+      "countryName": "Greece",
+      "kind": "events",
+      "year": 1902,
+      "title": "Valerios Stais",
+      "body": "1902: Greek archaeologist Valerios Stais discovers the Antikythera mechanism, an ancient mechanical analog computer.",
+      "source": {
+        "name": "Wikipedia · Valerios Stais",
+        "url": "https://en.wikipedia.org/wiki/Valerios_Stais",
+        "calendarUrl": "https://en.wikipedia.org/wiki/May_17",
+        "license": {
+          "name": "CC BY-SA 4.0",
+          "url": "https://creativecommons.org/licenses/by-sa/4.0/"
+        }
+      },
+      "image": {
+        "src": "https://commons.wikimedia.org/wiki/Special:Redirect/file/Flag_of_Greece.svg?width=1000",
+        "alt": "The national flag of Greece.",
+        "credit": "Greek government",
+        "source": "https://commons.wikimedia.org/wiki/File:Flag_of_Greece.svg",
+        "license": "Public domain",
+        "licenseUrl": "https://commons.wikimedia.org/wiki/File:Flag_of_Greece.svg"
+      }
+    }
+  ]
+}

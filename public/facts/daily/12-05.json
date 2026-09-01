@@ -1,0 +1,90 @@
+{
+  "date": "12-05",
+  "dateLabel": "5 December",
+  "facts": [
+    {
+      "id": "12-05-spain-chincha-islands-war",
+      "date": "12-05",
+      "dateLabel": "5 December",
+      "country": "spain",
+      "countryName": "Spain",
+      "kind": "events",
+      "year": 1865,
+      "title": "Chincha Islands War",
+      "body": "1865: Chincha Islands War: Peru allies with Chile against Spain.",
+      "source": {
+        "name": "Wikipedia · Chincha Islands War",
+        "url": "https://en.wikipedia.org/wiki/Chincha_Islands_War",
+        "calendarUrl": "https://en.wikipedia.org/wiki/December_5",
+        "license": {
+          "name": "CC BY-SA 4.0",
+          "url": "https://creativecommons.org/licenses/by-sa/4.0/"
+        }
+      },
+      "image": {
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/64/CombateDosdeMayo.jpg/1280px-CombateDosdeMayo.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "alt": "Image related to Chincha Islands War.",
+        "credit": "Unknown authorUnknown author",
+        "source": "https://commons.wikimedia.org/wiki/File:CombateDosdeMayo.jpg",
+        "license": "Public domain",
+        "licenseUrl": "https://commons.wikimedia.org/wiki/File:CombateDosdeMayo.jpg"
+      }
+    },
+    {
+      "id": "12-05-denmark-john-jellicoe-1st-earl-jellicoe",
+      "date": "12-05",
+      "dateLabel": "5 December",
+      "country": "denmark",
+      "countryName": "Denmark",
+      "kind": "births",
+      "year": 1859,
+      "title": "John Jellicoe, 1st Earl Jellicoe",
+      "body": "John Jellicoe, 1st Earl Jellicoe, English admiral and politician, 2nd Governor-General of New Zealand (died 1935), was born on this day in 1859.",
+      "source": {
+        "name": "Wikipedia · John Jellicoe, 1st Earl Jellicoe",
+        "url": "https://en.wikipedia.org/wiki/John_Jellicoe%2C_1st_Earl_Jellicoe",
+        "calendarUrl": "https://en.wikipedia.org/wiki/December_5",
+        "license": {
+          "name": "CC BY-SA 4.0",
+          "url": "https://creativecommons.org/licenses/by-sa/4.0/"
+        }
+      },
+      "image": {
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/71/John_Jellicoe%2C_Admiral_of_the_Fleet.jpg/1280px-John_Jellicoe%2C_Admiral_of_the_Fleet.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "alt": "Portrait or image of John Jellicoe, 1st Earl Jellicoe.",
+        "credit": "Bain News Service; restored by Adam Cuerden",
+        "source": "https://commons.wikimedia.org/wiki/File:John_Jellicoe,_Admiral_of_the_Fleet.jpg",
+        "license": "Public domain",
+        "licenseUrl": "https://commons.wikimedia.org/wiki/File:John_Jellicoe,_Admiral_of_the_Fleet.jpg"
+      }
+    },
+    {
+      "id": "12-05-greece-daylight",
+      "date": "12-05",
+      "dateLabel": "5 December",
+      "country": "greece",
+      "countryName": "Greece",
+      "kind": "daylight",
+      "year": 0,
+      "title": "Athens's daylight",
+      "body": "On 5 December, Athens gets about 9 hours and 40 minutes of daylight.",
+      "source": {
+        "name": "NOAA Solar Calculator",
+        "url": "https://gml.noaa.gov/grad/solcalc/",
+        "calendarUrl": "https://gml.noaa.gov/grad/solcalc/calcdetails.html",
+        "license": {
+          "name": "public-domain NOAA method",
+          "url": "https://www.noaa.gov/disclaimer"
+        }
+      },
+      "image": {
+        "src": "https://commons.wikimedia.org/wiki/Special:Redirect/file/Flag_of_Greece.svg?width=1000",
+        "alt": "The national flag of Greece.",
+        "credit": "Greek government",
+        "source": "https://commons.wikimedia.org/wiki/File:Flag_of_Greece.svg",
+        "license": "Public domain",
+        "licenseUrl": "https://commons.wikimedia.org/wiki/File:Flag_of_Greece.svg"
+      }
+    }
+  ]
+}

@@ -1,0 +1,90 @@
+{
+  "date": "01-04",
+  "dateLabel": "4 January",
+  "facts": [
+    {
+      "id": "01-04-spain-spain",
+      "date": "01-04",
+      "dateLabel": "4 January",
+      "country": "spain",
+      "countryName": "Spain",
+      "kind": "events",
+      "year": 1762,
+      "title": "Spain",
+      "body": "1762: Great Britain declares war on Spain, which meant the entry of Spain into the Seven Years' War.",
+      "source": {
+        "name": "Wikipedia · Spain",
+        "url": "https://en.wikipedia.org/wiki/Spain",
+        "calendarUrl": "https://en.wikipedia.org/wiki/January_4",
+        "license": {
+          "name": "CC BY-SA 4.0",
+          "url": "https://creativecommons.org/licenses/by-sa/4.0/"
+        }
+      },
+      "image": {
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/24/Flag_of_the_Kingdom_of_Spain.svg/1280px-Flag_of_the_Kingdom_of_Spain.svg.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "alt": "Image related to Spain.",
+        "credit": "Antonio Valdés y Fernández Bazán",
+        "source": "https://commons.wikimedia.org/wiki/File:Flag_of_the_Kingdom_of_Spain.svg",
+        "license": "Public domain",
+        "licenseUrl": "https://commons.wikimedia.org/wiki/File:Flag_of_the_Kingdom_of_Spain.svg"
+      }
+    },
+    {
+      "id": "01-04-denmark-battle-of-reading-871",
+      "date": "01-04",
+      "dateLabel": "4 January",
+      "country": "denmark",
+      "countryName": "Denmark",
+      "kind": "events",
+      "year": 871,
+      "title": "Battle of Reading",
+      "body": "871: Battle of Reading: Æthelred of Wessex and his brother Alfred are defeated by a Danish invasion army.",
+      "source": {
+        "name": "Wikipedia · Battle of Reading (871)",
+        "url": "https://en.wikipedia.org/wiki/Battle_of_Reading_(871)",
+        "calendarUrl": "https://en.wikipedia.org/wiki/January_4",
+        "license": {
+          "name": "CC BY-SA 4.0",
+          "url": "https://creativecommons.org/licenses/by-sa/4.0/"
+        }
+      },
+      "image": {
+        "src": "https://upload.wikimedia.org/wikipedia/commons/d/d9/Alfred_the_Great.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+        "alt": "Image related to Battle of Reading.",
+        "credit": "Wikimedia Commons contributor",
+        "source": "https://commons.wikimedia.org/wiki/File:Alfred_the_Great.jpg",
+        "license": "Public domain",
+        "licenseUrl": "https://commons.wikimedia.org/wiki/File:Alfred_the_Great.jpg"
+      }
+    },
+    {
+      "id": "01-04-greece-national-radical-union",
+      "date": "01-04",
+      "dateLabel": "4 January",
+      "country": "greece",
+      "countryName": "Greece",
+      "kind": "events",
+      "year": 1956,
+      "title": "National Radical Union",
+      "body": "1956: The Greek National Radical Union is formed by Konstantinos Karamanlis.",
+      "source": {
+        "name": "Wikipedia · National Radical Union",
+        "url": "https://en.wikipedia.org/wiki/National_Radical_Union",
+        "calendarUrl": "https://en.wikipedia.org/wiki/January_4",
+        "license": {
+          "name": "CC BY-SA 4.0",
+          "url": "https://creativecommons.org/licenses/by-sa/4.0/"
+        }
+      },
+      "image": {
+        "src": "https://commons.wikimedia.org/wiki/Special:Redirect/file/Flag_of_Greece.svg?width=1000",
+        "alt": "The national flag of Greece.",
+        "credit": "Greek government",
+        "source": "https://commons.wikimedia.org/wiki/File:Flag_of_Greece.svg",
+        "license": "Public domain",
+        "licenseUrl": "https://commons.wikimedia.org/wiki/File:Flag_of_Greece.svg"
+      }
+    }
+  ]
+}

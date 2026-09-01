@@ -1,0 +1,90 @@
+{
+  "date": "05-05",
+  "dateLabel": "5 May",
+  "facts": [
+    {
+      "id": "05-05-spain-christopher-columbus",
+      "date": "05-05",
+      "dateLabel": "5 May",
+      "country": "spain",
+      "countryName": "Spain",
+      "kind": "events",
+      "year": 1494,
+      "title": "Christopher Columbus",
+      "body": "1494: On his second voyage to the New World, Christopher Columbus sights Jamaica, landing at Discovery Bay and declares Jamaica the property of the Spanish crown.",
+      "source": {
+        "name": "Wikipedia · Christopher Columbus",
+        "url": "https://en.wikipedia.org/wiki/Christopher_Columbus",
+        "calendarUrl": "https://en.wikipedia.org/wiki/May_5",
+        "license": {
+          "name": "CC BY-SA 4.0",
+          "url": "https://creativecommons.org/licenses/by-sa/4.0/"
+        }
+      },
+      "image": {
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c2/Portrait_of_a_Man%2C_Said_to_be_Christopher_Columbus.jpg/1280px-Portrait_of_a_Man%2C_Said_to_be_Christopher_Columbus.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "alt": "Image related to Christopher Columbus.",
+        "credit": "Sebastiano del Piombo",
+        "source": "https://commons.wikimedia.org/wiki/File:Portrait_of_a_Man,_Said_to_be_Christopher_Columbus.jpg",
+        "license": "Public domain",
+        "licenseUrl": "https://commons.wikimedia.org/wiki/File:Portrait_of_a_Man,_Said_to_be_Christopher_Columbus.jpg"
+      }
+    },
+    {
+      "id": "05-05-denmark-s-ren-kierkegaard",
+      "date": "05-05",
+      "dateLabel": "5 May",
+      "country": "denmark",
+      "countryName": "Denmark",
+      "kind": "births",
+      "year": 1813,
+      "title": "Søren Kierkegaard",
+      "body": "Søren Kierkegaard, Danish philosopher and author (died 1855), was born on this day in 1813.",
+      "source": {
+        "name": "Wikipedia · Søren Kierkegaard",
+        "url": "https://en.wikipedia.org/wiki/S%C3%B8ren_Kierkegaard",
+        "calendarUrl": "https://en.wikipedia.org/wiki/May_5",
+        "license": {
+          "name": "CC BY-SA 4.0",
+          "url": "https://creativecommons.org/licenses/by-sa/4.0/"
+        }
+      },
+      "image": {
+        "src": "https://upload.wikimedia.org/wikipedia/commons/d/d4/S%C3%B8ren_Kierkegaard_%281813-1855%29_-_%28cropped%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+        "alt": "Portrait or image of Søren Kierkegaard.",
+        "credit": "La Biblioteca Real de Dinamarca",
+        "source": "https://commons.wikimedia.org/wiki/File:S%C3%B8ren_Kierkegaard_(1813-1855)_-_(cropped).jpg",
+        "license": "Public domain",
+        "licenseUrl": "https://commons.wikimedia.org/wiki/File:S%C3%B8ren_Kierkegaard_(1813-1855)_-_(cropped).jpg"
+      }
+    },
+    {
+      "id": "05-05-greece-second-council-of-constantinople",
+      "date": "05-05",
+      "dateLabel": "5 May",
+      "country": "greece",
+      "countryName": "Greece",
+      "kind": "events",
+      "year": 553,
+      "title": "Second Council of Constantinople",
+      "body": "553: The Second Council of Constantinople begins.",
+      "source": {
+        "name": "Wikipedia · Second Council of Constantinople",
+        "url": "https://en.wikipedia.org/wiki/Second_Council_of_Constantinople",
+        "calendarUrl": "https://en.wikipedia.org/wiki/May_5",
+        "license": {
+          "name": "CC BY-SA 4.0",
+          "url": "https://creativecommons.org/licenses/by-sa/4.0/"
+        }
+      },
+      "image": {
+        "src": "https://upload.wikimedia.org/wikipedia/commons/b/b8/EcumenicalCouncil_5th_11-22.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+        "alt": "Image related to Second Council of Constantinople.",
+        "credit": "Dionisius",
+        "source": "https://commons.wikimedia.org/wiki/File:EcumenicalCouncil_5th_11-22.jpg",
+        "license": "Public domain",
+        "licenseUrl": "https://commons.wikimedia.org/wiki/File:EcumenicalCouncil_5th_11-22.jpg"
+      }
+    }
+  ]
+}

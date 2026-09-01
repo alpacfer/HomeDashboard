@@ -1,0 +1,90 @@
+{
+  "date": "01-02",
+  "dateLabel": "2 January",
+  "facts": [
+    {
+      "id": "01-02-spain-reconquista",
+      "date": "01-02",
+      "dateLabel": "2 January",
+      "country": "spain",
+      "countryName": "Spain",
+      "kind": "events",
+      "year": 1492,
+      "title": "Reconquista",
+      "body": "1492: Reconquista: The Emirate of Granada, the last Moorish stronghold in Spain, surrenders.",
+      "source": {
+        "name": "Wikipedia · Reconquista",
+        "url": "https://en.wikipedia.org/wiki/Reconquista",
+        "calendarUrl": "https://en.wikipedia.org/wiki/January_2",
+        "license": {
+          "name": "CC BY-SA 4.0",
+          "url": "https://creativecommons.org/licenses/by-sa/4.0/"
+        }
+      },
+      "image": {
+        "src": "https://upload.wikimedia.org/wikipedia/commons/3/3a/Cantigas_battle.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+        "alt": "Image related to Reconquista.",
+        "credit": "Creator:Abdula",
+        "source": "https://commons.wikimedia.org/wiki/File:Cantigas_battle.jpg",
+        "license": "Public domain",
+        "licenseUrl": "https://commons.wikimedia.org/wiki/File:Cantigas_battle.jpg"
+      }
+    },
+    {
+      "id": "01-02-denmark-reuben-thorne",
+      "date": "01-02",
+      "dateLabel": "2 January",
+      "country": "denmark",
+      "countryName": "Denmark",
+      "kind": "births",
+      "year": 1975,
+      "title": "Reuben Thorne",
+      "body": "Reuben Thorne, New Zealand rugby player, was born on this day in 1975.",
+      "source": {
+        "name": "Wikipedia · Reuben Thorne",
+        "url": "https://en.wikipedia.org/wiki/Reuben_Thorne",
+        "calendarUrl": "https://en.wikipedia.org/wiki/January_2",
+        "license": {
+          "name": "CC BY-SA 4.0",
+          "url": "https://creativecommons.org/licenses/by-sa/4.0/"
+        }
+      },
+      "image": {
+        "src": "https://upload.wikimedia.org/wikipedia/commons/2/2c/Reuben_Thorne_%28cropped%29.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+        "alt": "Portrait or image of Reuben Thorne.",
+        "credit": "Fareedhen",
+        "source": "https://commons.wikimedia.org/wiki/File:Reuben_Thorne_(cropped).JPG",
+        "license": "CC BY-SA 3.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0"
+      }
+    },
+    {
+      "id": "01-02-greece-georgios-kalaitzakis",
+      "date": "01-02",
+      "dateLabel": "2 January",
+      "country": "greece",
+      "countryName": "Greece",
+      "kind": "births",
+      "year": 1999,
+      "title": "Georgios Kalaitzakis",
+      "body": "Georgios Kalaitzakis, Greek basketball player, was born on this day in 1999.",
+      "source": {
+        "name": "Wikipedia · Georgios Kalaitzakis",
+        "url": "https://en.wikipedia.org/wiki/Georgios_Kalaitzakis",
+        "calendarUrl": "https://en.wikipedia.org/wiki/January_2",
+        "license": {
+          "name": "CC BY-SA 4.0",
+          "url": "https://creativecommons.org/licenses/by-sa/4.0/"
+        }
+      },
+      "image": {
+        "src": "https://commons.wikimedia.org/wiki/Special:Redirect/file/Flag_of_Greece.svg?width=1000",
+        "alt": "The national flag of Greece.",
+        "credit": "Greek government",
+        "source": "https://commons.wikimedia.org/wiki/File:Flag_of_Greece.svg",
+        "license": "Public domain",
+        "licenseUrl": "https://commons.wikimedia.org/wiki/File:Flag_of_Greece.svg"
+      }
+    }
+  ]
+}
