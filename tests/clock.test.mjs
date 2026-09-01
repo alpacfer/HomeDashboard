@@ -1,6 +1,6 @@
 import { test } from 'node:test';
 import assert from 'node:assert/strict';
-import { clockFrame, changedDigits } from '../app/clock-motion.ts';
+import { clockDate, clockFrame, changedDigits } from '../app/clock-motion.ts';
 
 const at = time => new Date('2026-08-31T' + time + 'Z');
 test('first load has four stable digit slots and no outgoing digits', () => {
@@ -24,4 +24,8 @@ test('seconds do not restart animations and resuming does not replay missed minu
   assert.equal(clockFrame(at('10:08:30'), frame), frame);
   assert.equal(clockFrame(at('11:08:00'), frame).previous, null);
   assert.equal(clockFrame(at('10:06:00'), frame).previous, null);
+});
+test('date follows Copenhagen and includes the numeric day and month', () => {
+  assert.deepEqual(clockDate(new Date('2026-08-31T22:00:00Z')), { label: '1 September', dateTime: '2026-09-01' });
+  assert.deepEqual(clockDate(null), { label: '—' });
 });

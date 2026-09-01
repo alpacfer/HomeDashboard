@@ -2,6 +2,16 @@
 
 A home display with a clock, local weather, an animated precipitation radar, daily facts, and local departures. Migrated from Clock on ChatGPT Sites to a standalone Next.js application.
 
+## Project map
+
+The implementation and operational notes are split by responsibility:
+
+- [Architecture and route map](docs/ARCHITECTURE.md) — app composition, data flow, time-zone rules, and where to make common changes.
+- [Transit integration](TRANSPORT.md) — Rejseplanen credentials, stop matching, caching, quota, and verification notes.
+- [Daily facts](docs/DAILY_FACTS.md) — generated data format, editorial overrides, attribution, and regeneration workflow.
+
+The dashboard has one page route (`/`), one server API route (`/api/departures`), and static daily-fact assets under `/facts/daily/`. There is no client-side router.
+
 ## Run on your computer
 
 Requires Node.js 22.13 or newer and npm.
@@ -32,8 +42,11 @@ Weather and the precipitation radar require internet access. The clock and bundl
 
 ```sh
 npm test
+npm run lint
 npm run build
 ```
+
+Run the checks after changes to UI, pure data logic, or route handlers. The test files mirror the pure modules they cover, while the production build catches Next.js and TypeScript integration errors.
 
 ## Migration
 

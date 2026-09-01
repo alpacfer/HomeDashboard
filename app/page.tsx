@@ -132,7 +132,7 @@ export default function Home() {
               </div>
             </div>;
           })}
-        </div> : <div className="forecast-unavailable" role="status">{status === 'loading' ? '···' : forecast?.day === 'today' ? 'No more forecast hours today' : 'Forecast unavailable'}</div>}
+        </div> : <div className="forecast-unavailable" role="status">{status === 'loading' ? '···' : 'Forecast unavailable'}</div>}
       </section>
       </aside>
       <RotatingPanel />

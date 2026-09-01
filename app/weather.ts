@@ -11,9 +11,9 @@ export type Weather = {
 
 export type ForecastTarget = { date: string; day: 'today' | 'tomorrow' };
 
-// Keep the pinned weather compact enough to stay within the 16:9 display.
-// Both days use the same working-hours window so the block never grows at
-// midnight or late at night.
+// Keep the pinned weather compact enough to stay within the 16:9 display. Both
+// days use the same working-hours window so the block never grows at midnight
+// or late at night.
 const WORKDAY_START_HOUR = 6;
 const WORKDAY_END_HOUR = 18;
 
@@ -35,7 +35,9 @@ function nextDate(date: string) {
 export function forecastTargets(now: Date): ForecastTarget[] {
   const local = localTime(now);
   const targets: ForecastTarget[] = [{ date: local.date, day: 'today' }];
-  if (local.hour >= 20) targets.push({ date: nextDate(local.date), day: 'tomorrow' });
+  // At the end of today's visible window there is no useful empty state: move
+  // directly to tomorrow so the pinned panel always shows a forecast period.
+  if (local.hour >= WORKDAY_END_HOUR) targets.push({ date: nextDate(local.date), day: 'tomorrow' });
   return targets;
 }
 
@@ -86,8 +88,13 @@ export function buildForecast(weather: Weather, now: Date, target: ForecastTarge
 }
 
 export function buildForecasts(weather: Weather, now: Date) {
-  return forecastTargets(now).flatMap(target => {
+  const forecasts = forecastTargets(now).flatMap(target => {
     const forecast = buildForecast(weather, now, target);
     return forecast ? [forecast] : [];
   });
+  // When today's last visible hour has passed, suppress its empty placeholder
+  // rather than briefly rendering an empty today state before tomorrow.
+  const today = forecasts.find(forecast => forecast.day === 'today');
+  const tomorrow = forecasts.find(forecast => forecast.day === 'tomorrow');
+  return today?.slots.length === 0 && tomorrow ? forecasts.filter(forecast => forecast.day !== 'today') : forecasts;
 }

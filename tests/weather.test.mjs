@@ -13,15 +13,21 @@ function fixture(start = '2026-08-30T22:00:00Z', count = 73) {
   };
 }
 
-test('adds tomorrow to the cycle at 20:00 Copenhagen, in summer and winter', () => {
-  assert.deepEqual(forecastTargets(new Date('2026-08-31T17:59:59Z')), [{ date: '2026-08-31', day: 'today' }]);
-  assert.deepEqual(forecastTargets(new Date('2026-08-31T18:00:00Z')), [
+test('adds tomorrow when today’s visible forecast window ends, in summer and winter', () => {
+  assert.deepEqual(forecastTargets(new Date('2026-08-31T15:59:59Z')), [{ date: '2026-08-31', day: 'today' }]);
+  assert.deepEqual(forecastTargets(new Date('2026-08-31T16:00:00Z')), [
     { date: '2026-08-31', day: 'today' }, { date: '2026-09-01', day: 'tomorrow' },
   ]);
-  assert.deepEqual(forecastTargets(new Date('2026-12-31T18:59:59Z')), [{ date: '2026-12-31', day: 'today' }]);
-  assert.deepEqual(forecastTargets(new Date('2026-12-31T19:00:00Z')), [
+  assert.deepEqual(forecastTargets(new Date('2026-12-31T16:59:59Z')), [{ date: '2026-12-31', day: 'today' }]);
+  assert.deepEqual(forecastTargets(new Date('2026-12-31T17:00:00Z')), [
     { date: '2026-12-31', day: 'today' }, { date: '2027-01-01', day: 'tomorrow' },
   ]);
+});
+
+test('does not keep an empty today entry ahead of tomorrow', () => {
+  const forecasts = buildForecasts(fixture(), new Date('2026-08-31T16:00:00Z'));
+  assert.deepEqual(forecasts.map(forecast => forecast.day), ['tomorrow']);
+  assert.equal(forecasts[0].slots[0].label, '6:00');
 });
 
 test('today excludes every past hour and keeps to working hours', () => {
