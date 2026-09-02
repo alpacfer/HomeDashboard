@@ -1,6 +1,6 @@
 # HomeDashboard
 
-A home display with a clock, local weather, an animated precipitation radar,
+A home display with a clock, local weather, an animated precipitation forecast map,
 daily facts, and local departures. It runs on a Render free-plan web service and
 is shown continuously in the browser on a Fire TV Stick HD.
 
@@ -66,7 +66,7 @@ Copy `.env.example` to `.env.local` if you need to configure the optional
 Rejseplanen access ID. Keep the key server-side and never commit `.env.local`.
 Without it, departures show dashes. See [docs/TRANSPORT.md](docs/TRANSPORT.md).
 
-Weather and the precipitation radar require internet access. The clock and
+Weather and the precipitation forecast map require internet access. The clock and
 bundled daily facts are local.
 
 ## Checks

@@ -15,7 +15,7 @@ loop, or anything that runs on the server.
 1. **The server does almost nothing.** Only `/api/departures` runs server-side,
    and only because the Rejseplanen access ID must not reach the browser.
    Everything else is static or fetched by the browser directly. Do not move
-   weather, radar, or daily facts to the server to "clean things up": that
+   weather, the forecast map, or daily facts to the server to "clean things up": that
    trades a free CDN-cached asset for paid instance memory. Weather stays in
    the browser because both its providers are keyless and send
    `Access-Control-Allow-Origin: *`. The older `dmigw.govcloud.dk` DMI host
@@ -23,8 +23,8 @@ loop, or anything that runs on the server.
    and is not worth it.
 2. **Client JavaScript is the scarce resource, not server CPU.** The Fire TV
    Stick decodes and executes every byte on a slow core. Leaflet is already the
-   heaviest thing shipped and is loaded only by `components/radar-panel.tsx`,
-   when the radar scene first appears. Keep it that way. No UI framework, no
+   heaviest thing shipped and is loaded only by `components/forecast-map-panel.tsx`,
+   when the forecast map scene first appears. Keep it that way. No UI framework, no
    runtime CSS-in-JS, no state library, no date library: `Intl` and
    `app/globals.css` cover this display.
 3. **Long-lived means leaks matter.** The display runs for weeks without a
@@ -33,8 +33,9 @@ loop, or anything that runs on the server.
    five-minute dev session will exhaust the stick's memory overnight.
 4. **Animation budget is small.** Prefer `transform` and `opacity`, which the
    compositor can handle, over layout- or paint-triggering properties. The
-   radar frame animation is the most expensive thing on screen; treat its
-   timing constants in `components/radar-panel.tsx` as a performance budget.
+   forecast map animation is the most expensive thing on screen; treat its
+   frame timing in `components/forecast-map-panel.tsx` as a performance budget,
+   and note it is also budgeted against `MAP_MS` in `lib/panel-rotation.ts`.
 5. **Nothing may depend on interaction.** There is no pointer and no keyboard.
    `:hover` states, tooltips, and focus-only affordances are invisible to the
    only user this display has.
@@ -48,7 +49,7 @@ respecting for a display that runs unattended for weeks.
 | --- | --- | --- |
 | DMI forecast EDR | 500 requests per 5 seconds, shared across all callers. Over it, `429 Server is busy` rather than a queue. | Asked first every refresh, and skipped for an hour after it fails so a long outage does not cost a request each time. |
 | Open-Meteo `dmi_seamless` | Non-commercial fair use, CDN-cached. | The fallback, used only when DMI does not answer. Carries the same DMI Harmonie run. |
-| RainViewer | No published hard limit. | Metadata refreshes every 5 minutes; a failure keeps the previous timeline. |
+| Open-Meteo forecast grid | Same fair use, but one request carries 270 coordinates. | Refreshed hourly, which is as often as the model updates, and skipped entirely between midnight and 03:00. Assuming every coordinate counts as a call that is 6,480 a day against a 10,000 limit. |
 | Rejseplanen | Per-key, undocumented. | Proxied through `/api/departures`, which caches results for two minutes so every browser refresh does not become a provider request. |
 
 The weather panel refreshes every 15 minutes and retries a failure with jittered

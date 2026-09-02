@@ -91,7 +91,7 @@ a:focus-visible { outline:2px solid var(--foreground); outline-offset:8px; }
 .screen-progress { position:absolute; top:.3vh; right:0; width:clamp(18px,1.65vw,32px); height:clamp(18px,1.65vw,32px); z-index:1; fill:none; stroke-width:2.5; pointer-events:none; }
 .screen-progress-track { stroke:#303035; }
 .screen-progress-ring { stroke:var(--muted); stroke-linecap:round; stroke-dasharray:81.6814; stroke-dashoffset:0; transform:rotate(-90deg); transform-origin:16px 16px; animation:screen-countdown var(--screen-duration) linear both; }
-.showing-radar .screen-progress { top:1vw; right:1vw; z-index:700; padding:.18vw; border-radius:50%; background:rgba(17,17,19,.72); }
+.showing-forecast-map .screen-progress { top:1vw; right:1vw; z-index:700; padding:.18vw; border-radius:50%; background:rgba(17,17,19,.72); }
 .panel-scene { grid-area:1 / 1; min-width:0; }
 .panel-scene[hidden] { display:none; }
 .panel-scene.is-active { animation:panel-arrive 450ms ease-out both; }
@@ -130,37 +130,58 @@ a:focus-visible { outline:2px solid var(--foreground); outline-offset:8px; }
 .fact-footer a { color:inherit; text-decoration:none; }
 .fact-footer a:hover { color:var(--foreground); }
 .daily-fact-unavailable { place-items:center; justify-content:center; color:var(--muted); font-size:1.25vw; text-align:center; }
-.radar-scene { display:flex; flex-direction:column; min-width:0; min-height:0; }
-.radar-scene:not(.is-active) { visibility:hidden; pointer-events:none; }
-.radar-map-frame { position:relative; flex:1; min-height:0; overflow:hidden; border:1px solid #303035; border-radius:.75vw; background:#172028; }
-.radar-map-canvas { position:absolute; inset:0; z-index:0; background:#172028; }
-.radar-map-canvas.leaflet-container { font-family:'Space Grotesk',Arial,Helvetica,sans-serif; }
-.radar-basemap { filter:grayscale(1) invert(.88) hue-rotate(180deg) brightness(.7) contrast(1.18); }
-.radar-precipitation { image-rendering:auto; }
-.radar-place-dot { filter:drop-shadow(0 1px 3px rgba(0,0,0,.75)); }
-.leaflet-tooltip.radar-place-label { padding:.27vw .42vw; border:0; border-radius:.24vw; box-shadow:0 1px 5px rgba(0,0,0,.45); background:rgba(17,17,19,.88); color:#f3f2ee; font-family:'Space Grotesk',Arial,Helvetica,sans-serif; font-size:.68vw; font-weight:700; line-height:1; }
-.leaflet-tooltip-right.radar-place-label::before { border-right-color:rgba(17,17,19,.88); }
-.radar-timestamp { position:absolute; top:1vw; left:1vw; z-index:500; display:flex; align-items:center; gap:.5vw; padding:.52vw .66vw; border:1px solid rgba(255,255,255,.12); border-radius:.38vw; background:rgba(17,17,19,.82); color:#f3f2ee; font-size:1vw; line-height:1; font-variant-numeric:tabular-nums; box-shadow:0 2px 9px rgba(0,0,0,.26); pointer-events:none; }
-.radar-timestamp > span { width:.5vw; height:.5vw; border-radius:50%; background:#74caff; box-shadow:0 0 0 .18vw rgba(116,202,255,.18); }
-.radar-legend { position:absolute; left:.55vw; bottom:.55vw; z-index:500; display:grid; grid-template-columns:auto 7vw auto; align-items:center; gap:.55vw; padding:.55vw .7vw; border:1px solid rgba(255,255,255,.12); border-radius:.38vw; background:rgba(17,17,19,.82); color:#d9d9df; font-size:.72vw; text-transform:uppercase; letter-spacing:.07em; pointer-events:none; }
-.radar-legend i { display:block; height:.46vw; border-radius:1vw; background:linear-gradient(90deg,#66c7f4 0%,#2e76ff 43%,#bb4de1 72%,#ff7459 100%); }
-.radar-stale { position:absolute; top:3.7vw; left:1vw; z-index:500; margin:0; padding:.45vw .65vw; border-radius:.35vw; color:#f5c5ae; background:rgba(17,17,19,.82); font-size:.75vw; text-transform:uppercase; letter-spacing:.08em; pointer-events:none; }
-.radar-credit { position:absolute; right:.55vw; bottom:.55vw; z-index:500; display:flex; align-items:center; gap:.34vw; padding:.4vw .52vw; border-radius:.3vw; background:rgba(17,17,19,.78); color:#c5c5cb; font-size:.58vw; line-height:1; }
-.radar-credit a { color:inherit; text-decoration:none; }
-.radar-message { position:absolute; inset:0; z-index:500; display:grid; place-items:center; margin:0; color:var(--muted); font-size:1.25vw; background:rgba(17,17,19,.78); }
+.forecast-map-scene { display:flex; flex-direction:column; min-width:0; min-height:0; }
+.forecast-map-scene:not(.is-active) { visibility:hidden; pointer-events:none; }
+.forecast-map-frame { position:relative; flex:1; min-height:0; overflow:hidden; border:1px solid #303035; border-radius:.75vw; background:#172028; }
+.forecast-map-canvas { position:absolute; inset:0; z-index:0; background:#172028; }
+.forecast-map-canvas.leaflet-container { font-family:'Space Grotesk',Arial,Helvetica,sans-serif; }
+.forecast-map-basemap { filter:grayscale(1) invert(.88) hue-rotate(180deg) brightness(.7) contrast(1.18); }
+.forecast-map-dot { filter:drop-shadow(0 1px 3px rgba(0,0,0,.75)); }
+.leaflet-tooltip.forecast-map-label { padding:.27vw .42vw; border:0; border-radius:.24vw; box-shadow:0 1px 5px rgba(0,0,0,.45); background:rgba(17,17,19,.88); color:#f3f2ee; font-family:'Space Grotesk',Arial,Helvetica,sans-serif; font-size:.68vw; font-weight:700; line-height:1; }
+.leaflet-tooltip-right.forecast-map-label::before { border-right-color:rgba(17,17,19,.88); }
+/* Sits above the basemap and below the timeline. Sized from its own box in the
+   component, since a bitmap that disagrees with this box is scaled to fit and
+   moves every cell off the coastline it belongs to. */
+/* width/height are not redundant with inset: a canvas is a replaced element,
+   so inset:0 alone leaves it at its intrinsic 300x150 instead of stretching. */
+.forecast-map-overlay { position:absolute; inset:0; width:100%; height:100%; z-index:400; pointer-events:none; }
+/* The timeline replaces a caption: position on the track says how far into the
+   forecast the frame is, which a sentence makes you read and then work out. */
+.forecast-map-timeline { position:absolute; top:1vw; left:1.4vw; z-index:500; pointer-events:none;
+  /* Clears the rotation spinner, which sits at top:1vw right:1vw and is up to
+     1.65vw wide plus its own padding. The playhead label is centred on its
+     position, so half of it overhangs the track at either end. */
+  right:4.8vw; }
+.timeline-track { position:relative; height:.32vw; border-radius:1vw; background:rgba(17,17,19,.72); box-shadow:inset 0 0 0 1px rgba(255,255,255,.12); }
+.timeline-played { position:absolute; left:0; top:0; height:100%; border-radius:inherit; background:var(--accent); }
+.timeline-track i { position:absolute; top:-.22vw; width:1px; height:.76vw; margin-left:-.5px; background:rgba(255,255,255,.28); }
+.timeline-playhead { position:absolute; top:-.62vw; transform:translateX(-50%); padding:.2vw .38vw; border-radius:.26vw; background:var(--accent); color:#17110f; font-size:.7vw; font-weight:700; line-height:1; font-variant-numeric:tabular-nums; white-space:nowrap; box-shadow:0 1px 5px rgba(0,0,0,.4); }
+.timeline-hours { position:relative; height:1vw; margin-top:.5vw; color:#c5c5cb; font-size:.62vw; font-variant-numeric:tabular-nums; letter-spacing:.04em; }
+.timeline-hours span { position:absolute; top:0; transform:translateX(-50%); }
+.forecast-map-legend { position:absolute; left:.55vw; bottom:.55vw; z-index:500; display:grid; grid-template-columns:auto 7vw auto; align-items:center; gap:.55vw; padding:.55vw .7vw; border:1px solid rgba(255,255,255,.12); border-radius:.38vw; background:rgba(17,17,19,.82); color:#d9d9df; font-size:.72vw; text-transform:uppercase; letter-spacing:.07em; pointer-events:none; }
+.forecast-map-legend i { display:block; height:.46vw; border-radius:1vw; background:linear-gradient(90deg,#3f6b85 0%,#4f93b8 33%,#74caff 66%,#b8e4ff 100%); }
+.forecast-map-stale { position:absolute; top:4.4vw; left:1.4vw; z-index:500; margin:0; padding:.45vw .65vw; border-radius:.35vw; color:#f5c5ae; background:rgba(17,17,19,.82); font-size:.75vw; text-transform:uppercase; letter-spacing:.08em; pointer-events:none; }
+.forecast-map-credit { position:absolute; right:.55vw; bottom:.55vw; z-index:500; display:flex; align-items:center; gap:.34vw; padding:.4vw .52vw; border-radius:.3vw; background:rgba(17,17,19,.78); color:#c5c5cb; font-size:.58vw; line-height:1; }
+.forecast-map-credit a { color:inherit; text-decoration:none; }
+.forecast-map-message { position:absolute; inset:0; z-index:500; display:grid; place-items:center; margin:0; color:var(--muted); font-size:1.25vw; background:rgba(17,17,19,.78); }
 @keyframes panel-arrive { from { opacity:0; transform:translateY(8px); } to { opacity:1; transform:translateY(0); } }
 @keyframes screen-countdown { from { stroke-dashoffset:0; } to { stroke-dashoffset:81.6814; } }
 @media (max-aspect-ratio:5/4) {
   .dashboard { height:auto; min-height:100vh; grid-template-rows:none; overflow:visible; }
   .rotating-panel { min-height:70vh; }
-  .radar-message { font-size:3vw; }
-  .radar-credit { right:1.2vw; bottom:1.2vw; font-size:1.35vw; padding:.9vw 1.1vw; }
-  .leaflet-tooltip.radar-place-label { padding:.6vw .85vw; font-size:1.45vw; }
-  .radar-timestamp { top:2vw; left:2vw; gap:1.1vw; padding:1.1vw 1.35vw; font-size:2.3vw; }
-  .radar-timestamp > span { width:1.1vw; height:1.1vw; }
-  .radar-stale { top:8vw; left:2vw; padding:1vw 1.35vw; font-size:1.8vw; }
-  .radar-legend { left:1.2vw; bottom:1.2vw; grid-template-columns:auto 14vw auto; gap:1.2vw; padding:1.2vw 1.5vw; font-size:1.7vw; }
-  .radar-legend i { height:1.1vw; }
+  .forecast-map-message { font-size:3vw; }
+  .timeline-track { height:1.1vw; }
+  .timeline-track i { top:-.7vw; height:2.5vw; }
+  .timeline-playhead { top:-2vw; font-size:2.2vw; padding:.6vw 1vw; border-radius:.8vw; }
+  .timeline-hours { height:3vw; margin-top:1.6vw; font-size:2vw; }
+  .forecast-map-timeline { right:11vw; }
+  .forecast-map-credit { right:1.2vw; bottom:1.2vw; font-size:1.35vw; padding:.9vw 1.1vw; }
+  .leaflet-tooltip.forecast-map-label { padding:.6vw .85vw; font-size:1.45vw; }
+  .forecast-map-timestamp { top:2vw; left:2vw; gap:1.1vw; padding:1.1vw 1.35vw; font-size:2.3vw; }
+  .forecast-map-timestamp > span { width:1.1vw; height:1.1vw; }
+  .forecast-map-stale { top:8vw; left:2vw; padding:1vw 1.35vw; font-size:1.8vw; }
+  .forecast-map-legend { left:1.2vw; bottom:1.2vw; grid-template-columns:auto 14vw auto; gap:1.2vw; padding:1.2vw 1.5vw; font-size:1.7vw; }
+  .forecast-map-legend i { height:1.1vw; }
   .fact-copy h2 { font-size:6.3vw; }
   .fact-copy p { font-size:3.1vw; }
   .daily-fact-heading { gap:1.6vw; font-size:2.2vw; }

@@ -4,7 +4,7 @@ import { useEffect, useState, type CSSProperties } from 'react';
 import TransportPanel from '@/components/transport-panel';
 import { DAILY_FACT_COUNTRIES, dailyDateKey, validDailyFacts, type DailyFact } from '@/lib/daily-facts';
 import { initialRotation, nextRotation, resumeRotation } from '@/lib/panel-rotation';
-import RadarPanel from '@/components/radar-panel';
+import ForecastMapPanel from '@/components/forecast-map-panel';
 
 const STORAGE_KEY = 'home-dashboard:next-daily-fact:v1';
 const artworkCache = new Map<string, HTMLImageElement>();
@@ -129,7 +129,7 @@ export default function RotatingPanel() {
   }, [date]);
 
   const showingFact = rotation.phase === 'fact';
-  const showingRadar = rotation.phase === 'radar';
+  const showingMap = rotation.phase === 'map';
   const showingTransport = rotation.phase === 'transport';
   const fact = facts[rotation.index];
 
@@ -144,7 +144,7 @@ export default function RotatingPanel() {
     return () => window.clearTimeout(timer);
   }, [facts]);
 
-  return <div className={'rotating-panel' + (!showingTransport ? ' showing-compact-transit' : '') + (showingRadar ? ' showing-radar' : '')} style={{ '--screen-duration': rotation.duration + 'ms' } as CSSProperties}>
+  return <div className={'rotating-panel' + (!showingTransport ? ' showing-compact-transit' : '') + (showingMap ? ' showing-forecast-map' : '')} style={{ '--screen-duration': rotation.duration + 'ms' } as CSSProperties}>
     <svg className="screen-progress" key={rotation.phase + '-' + rotation.index + '-' + wake} viewBox="0 0 32 32" role="img" aria-label="Time until the next screen">
       <circle className="screen-progress-track" cx="16" cy="16" r="13" />
       <circle className="screen-progress-ring" cx="16" cy="16" r="13" />
@@ -152,7 +152,7 @@ export default function RotatingPanel() {
     <div className={'panel-scene transit-scene' + (showingTransport ? ' is-active' : '')}>
       <TransportPanel compact={!showingTransport} />
     </div>
-    <RadarPanel active={showingRadar} />
+    <ForecastMapPanel active={showingMap} />
     {showingFact && fact && <article className={`panel-scene daily-fact-scene country-${fact.country} is-active`} key={fact.id} aria-label={`Today in ${fact.countryName}`}>
       <header className="daily-fact-heading">
         <span>Today in</span>

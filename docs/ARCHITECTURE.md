@@ -49,8 +49,9 @@ app/page.tsx (Home)
     │   └── nextRotation            lib/panel-rotation.ts scene timing
     ├── TransportPanel              components/transport-panel.tsx
     │   └── filterDepartures        lib/transit.ts        route configuration, time conversion, filtering
-    ├── RadarPanel                  components/radar-panel.tsx
-    │   └── parseRadarTimeline      lib/radar.ts          RainViewer response validation and tile URLs
+    ├── ForecastMapPanel            components/forecast-map-panel.tsx
+    │   └── parsePrecipitationGrid, lib/precipitation-grid.ts  grid geometry, 15-minute frames,
+    │       futureFrames, isQuietHours                    quiet hours, intensity bands
     └── daily fact scene
         └── validDailyFacts         lib/daily-facts.ts    date key and payload validation
 ```
@@ -82,7 +83,7 @@ Neither provider carries a day/night flag, so `isDaylight()` computes solar elev
 
 ### Rotating panel
 
-`panel-rotation.ts` is pure timing logic: transport, each daily fact, and radar each receive 30 seconds. `RotatingPanel` persists the next fact index in device-local storage and resumes at transport after the browser wakes. Artwork is preloaded in the component to reduce scene transitions without changing the data contract.
+`panel-rotation.ts` is pure timing logic: transport and each daily fact receive 15 seconds, and the forecast map 30. The map keeps twice as long because it is the only animated scene and has a whole six-hour sequence to play; its frame timing is budgeted against `MAP_MS`. `RotatingPanel` persists the next fact index in device-local storage and resumes at transport after the browser wakes. Artwork is preloaded in the component to reduce scene transitions without changing the data contract.
 
 ### Transport
 
@@ -92,11 +93,21 @@ The browser calls `/api/departures`, never Rejseplanen directly. The route reads
 
 `useDailyFacts()` derives an `MM-DD` key in Copenhagen time and loads exactly one static JSON file. `validDailyFacts()` checks the date, country set, and required source/image URLs before rendering. The generator is intentionally separate from runtime code; edit `data/daily-fact-overrides.json` for durable editorial changes and review generated files before committing. See [DAILY_FACTS.md](DAILY_FACTS.md).
 
-### Radar
+### Forecast map
 
-`RadarPanel` fetches RainViewer metadata in the browser, validates recent frames through `parseRadarTimeline()`, and builds precipitation tile URLs through `radarTileUrl()`. Leaflet is loaded only by the radar component. The map is an enhancement: an unavailable feed renders an in-panel status message and does not affect the clock or other scenes.
+`ForecastMapPanel` draws forecast precipitation over a Leaflet basemap and shows **only the forecast**. It used to replay two hours of observed RainViewer radar with nothing ahead of now, which is the wrong half of the question for a wall display: you want to know whether the rain is coming here, not where it has been. RainViewer and its parsing module are gone; their free feed is documented as past-only and its `radar.nowcast` array was empty on every sample.
 
-The metadata refreshes every five minutes with browser caching disabled, and on reconnect or visibility resume. RainViewer supplies two hours of historical frames at ten-minute intervals, not a forecast. Each appearance starts with the newest frame held for eight seconds, followed by chronological playback. The timestamp distinguishes `Latest radar` from `Radar replay` and shows the frame's age. Freshness is checked every minute against the newest frame: a frame more than 30 minutes old triggers a delay warning even if the request succeeded. Failed refreshes retain the previous timeline with a warning. RainViewer timestamps describe composite frame generation; individual radar observations may be older.
+`lib/precipitation-grid.ts` requests one point per Harmonie cell across the map's own bounds, 15 rows by 18 columns, in a single Open-Meteo call. The data is the same DMI Harmonie run the pinned panel uses. Steps are **15 minutes**, not hourly, because the animation only reads as weather crossing the map at that spacing.
+
+DMI's own EDR API has a `cube` query for exactly this, and it is deliberately not used: it accepts only its native Lambert projection, so every cell would need reprojecting and would land on the map rotated about 16 degrees against north. Asking Open-Meteo in latitude and longitude gives axis-aligned cells and no projection code at all. See [FORECAST_MAP.md](FORECAST_MAP.md) for the DMI work that is parked and what would finish it.
+
+Frames are drawn onto a plain canvas sized to the map container and addressed in container pixels. The map never pans or zooms, so this needs no Leaflet pane transforms and no move listeners, and costs one `fillRect` per wet cell: far cheaper than the raster tiles the panel used to load. Colours are the same intensity bands as the pinned forecast ribbon, so a colour means the same thing in both places.
+
+Three rules keep the animation honest:
+
+- **Every frame plays, wet or dry, and none is held.** Dropping dry frames would make a shower teleport across the map, and holding a single image tells the viewer nothing a number could not. A forecast with no precipitation anywhere is announced as such instead.
+- **Only frames ahead of now are animated.** `futureFrames()` filters the sequence, so after a night without a refresh the part that is already over is skipped, and an overtaken forecast reports itself as expired rather than replaying yesterday.
+- **Refreshing pauses between midnight and 03:00 Copenhagen time.** `isQuietHours()` skips the request when nobody is watching; whatever is loaded keeps playing. Refreshing resumes at 03:00, and because the window is six hours a run fetched at 23:00 stays valid through the pause without needing a separate staleness rule.
 
 ## Change guide
 
@@ -112,7 +123,7 @@ The metadata refreshes every five minutes with browser caching disabled, and on 
 | Transit stops, destinations, or normalization | `lib/transit.ts` | `app/api/departures/route.ts`, `TRANSPORT.md`, transit tests |
 | Transit credentials, caching, or provider requests | `app/api/departures/route.ts` | `.env.example`, `TRANSPORT.md` |
 | Daily fact content | `data/daily-fact-overrides.json` | `scripts/generate-daily-facts.mjs`, `docs/DAILY_FACTS.md` |
-| Radar parsing or tile format | `lib/radar.ts`, `components/radar-panel.tsx` | `tests/radar.test.mjs` |
+| Forecast map grid, frames, or quiet hours | `lib/precipitation-grid.ts` | `components/forecast-map-panel.tsx`, `tests/precipitation-grid.test.mjs` |
 | Metadata or the favicon | `app/layout.tsx`, `public/` | production build |
 
 Prefer pure functions for parsing, selection, time conversion, validation, and rotation decisions. Keep browser effects, timers, fetches, and DOM-dependent work in `*.tsx` components or route handlers. If a new external response is introduced, validate its boundary before it enters React state and add a fixture-level test for malformed data.
@@ -126,7 +137,7 @@ For a normal change:
 3. Run `npm run build` for the App Router, TypeScript, and production bundling check.
 4. For display changes, inspect the result at both the normal 16:9 layout and the `max-aspect-ratio: 5/4` layout. Check the reduced-motion path when animations are touched.
 
-The external weather, radar, and transit services are not required for unit tests. Provider credentials and live API verification are documented separately because they are environment-dependent.
+The external weather, forecast map, and transit services are not required for unit tests. Provider credentials and live API verification are documented separately because they are environment-dependent.
 
 ## Time and naming conventions
 
