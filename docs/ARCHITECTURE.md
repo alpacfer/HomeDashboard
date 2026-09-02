@@ -39,8 +39,10 @@ app/page.tsx (Home)
 ├── Clock                           components/clock.tsx
 │   └── clockFrame, clockDate       lib/clock-motion.ts   Copenhagen time/date formatting, digit transitions
 ├── WeatherPanel                   components/weather-panel.tsx
-│   ├── validCoverage, parseHours, lib/weather.ts        DMI validation, accumulation differencing,
-│   │   describeHour, isDaylight                         condition derivation, solar elevation
+│   ├── SOURCES, parseCoverage,    lib/forecast-sources.ts  DMI first then Open-Meteo, payload
+│   │   parseForecast                                    validation, accumulation differencing
+│   ├── describeHour, isDaylight   lib/weather.ts        shared hour model, condition derivation,
+│   │                                                    intensity bands, solar elevation
 │   └── buildRibbon, rainHeadline, lib/forecast-summary.ts  rolling window, headline wording,
 │       temperatureTrack                                 bar and temperature-track geometry
 └── RotatingPanel                   components/rotating-panel.tsx
@@ -63,14 +65,18 @@ app/page.tsx (Home)
 
 ### Weather
 
-`WeatherPanel` fetches DMI Open Data directly from the browser every 15 minutes, on reconnect/visibility resume, or when the user presses Enter or `R`. The provider is the Harmonie DINI SF collection of DMI's forecast EDR API on `opendataapi.dmi.dk`, which needs no API key, answers with `Access-Control-Allow-Origin: *`, and is therefore fetched by the browser rather than proxied. See [DEPLOYMENT.md](DEPLOYMENT.md) for its rate limit and the retry behaviour that follows from it.
+`WeatherPanel` fetches the forecast directly from the browser every 15 minutes, on reconnect/visibility resume, or when the user presses Enter or `R`. `lib/forecast-sources.ts` owns the providers and is asked in preference order: **DMI Open Data first, Open-Meteo second**, both keyless, both CORS-open, so neither needs a proxy route.
 
-Two properties of that payload shape `lib/weather.ts`, and both are documented at the top of that file because getting either wrong produces confident nonsense on screen:
+There are two because there must always be a fallback. DMI's forecast EDR enforces a fair-use limit of 500 requests per 5 seconds shared across every caller and answers `429` when busy; during their supercomputer maintenance it answered `429` to everything for hours and the display had no forecast at all. Open-Meteo's `dmi_seamless` is the same DMI Harmonie run, checked field by field against a direct DMI capture (cloud 0.82/0.99 against 82/99, visibility 5969/5870 against 5960/5880, temperatures identical), so the fallback costs directness and nothing else. A provider that fails is skipped for an hour, so a long outage does not spend a request every refresh. See [DEPLOYMENT.md](DEPLOYMENT.md) for the limits.
 
-- **It is a deterministic model.** There is no WMO weather code and no precipitation probability, so `describeHour()` derives the icon, the label and the intensity band from the same hour's cloud fraction, precipitation amounts, type and visibility. That is the fix for the previous implementation, which drew the icon from DMI's weather code and the percentage from Open-Meteo's own ensemble: two different forecasts, so a `100%` reading beside an overcast icon was the data disagreeing with itself, not a rendering fault.
-- **The precipitation fields are accumulated since the model run started**, in kg/m² (= mm), despite metadata declaring them as a rate in kg m⁻² s⁻¹. `parseHours()` differences consecutive steps, clamps the float dips that flat stretches produce, and assigns each difference to the hour that *starts* at the earlier step. Reading them as a rate puts four-digit millimetre values on screen; assigning a difference to the later step shifts every rain hour one hour late.
+Both parsers return the identical `WeatherHour`, so which provider answered never changes what the display says. Only the credit line differs. Two properties of the DMI payload shape its parser, and both are documented in the module because getting either wrong produces confident nonsense on screen:
 
-DMI carries no day/night flag, so `isDaylight()` computes the sun's elevation from low-precision NOAA formulae rather than spending a request on it. `precipitation-type` is treated as a wording hint only: DMI leaves it null in hours carrying several millimetres of rain, so amount alone decides whether an hour is wet.
+- **Its precipitation fields are accumulated since the model run started**, in kg/m² (= mm), despite metadata declaring them a rate in kg m⁻² s⁻¹. `parseCoverage()` differences consecutive steps, clamps the float dips flat stretches produce, and assigns each difference to the hour that *starts* at the earlier step. Reading them as a rate puts four-digit millimetre values on screen; assigning a difference to the later step shifts every rain hour one hour late. Open-Meteo reports hourly totals already summed, so `parseForecast()` differences nothing.
+- **`precipitation-type` cannot be used to decide whether an hour is wet**, because DMI leaves it null in hours carrying several millimetres of rain. Amount alone decides. `probability-of-lightning` is not used either, having read 8 to 75 percent across a rain-free overcast day.
+
+`lib/weather.ts` holds the shared model and the derivation. Being deterministic model output, neither provider is asked for a weather code or a probability: `describeHour()` derives the icon, the label and the intensity band from one hour's own cloud fraction, precipitation amounts and visibility. That is the fix for the original fault, where the icon came from DMI's `weather_code` and the percentage from Open-Meteo's own ensemble. Those are different forecasts — `precipitation_probability` is byte-identical across `dmi_seamless`, `best_match`, `ecmwf_ifs025` and `knmi_seamless` because DMI publishes no probability at all — so a slot reading `100%` beside an overcast icon was the data disagreeing with itself, not a rendering fault. A test asserts the property directly, and another asserts that neither request URL contains `probability` or `weather_code`.
+
+Neither provider carries a day/night flag, so `isDaylight()` computes solar elevation rather than spending a request on it, verified within six minutes of almanac sunrise and sunset at both solstices.
 
 `lib/forecast-summary.ts` turns those hours into the pinned panel: a one-line headline, a fixed 18-hour window, and one bar per hour. The window is rolling rather than a clock window, and there is no today/tomorrow switch. The previous 06:00–18:00 window shrank from seven rows to one over the course of a day, hid everything after 18:00, and needed an eight-second timer to flip between a `Today` and a `Tomorrow` panel. A fixed count of hours from now has no end hour to argue about and no day to switch, and `buildRibbon()` returns nothing at all rather than rendering a short or gapped window as though it were complete. Bar heights are clamped against a fixed millimetre ceiling so a drizzle never draws like a downpour and heights mean the same thing every day. The current weather remains available while a stale response is marked visually.
 
@@ -97,7 +103,8 @@ The metadata refreshes every five minutes with browser caching disabled, and on 
 | If you need to change… | Start here | Also check |
 | --- | --- | --- |
 | Clock digits or date formatting | `lib/clock-motion.ts`, `components/clock.tsx` | `tests/clock.test.mjs`, `app/globals.css` |
-| DMI payload parsing, condition or rain classification | `lib/weather.ts` | `tests/weather.test.mjs` |
+| Forecast providers, payload parsing, or fallback order | `lib/forecast-sources.ts` | `tests/forecast-sources.test.mjs`, `DEPLOYMENT.md` |
+| Condition or rain classification, intensity bands | `lib/weather.ts` | `tests/weather.test.mjs` |
 | Forecast window, headline wording, or ribbon geometry | `lib/forecast-summary.ts` | `components/weather-panel.tsx`, `tests/forecast-summary.test.mjs` |
 | Weather fetching, retry backoff, or staleness | `components/weather-panel.tsx` | `DEPLOYMENT.md`, `app/globals.css` |
 | Main layout or responsive sizing | `app/globals.css` | `app/page.tsx`, reduced-motion media query |

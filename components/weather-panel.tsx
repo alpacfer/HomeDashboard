@@ -1,22 +1,27 @@
 'use client';
 
 import { useEffect, useMemo, useState } from 'react';
-import { Cloud, CloudDrizzle, CloudFog, CloudHail, CloudMoon, CloudOff, CloudRain, CloudRainWind, CloudSnow, CloudSun, Cloudy, Moon, Sun } from 'lucide-react';
-import { describeHour, dmiForecastUrl, isDaylight, parseHours, validCoverage, type ConditionKind, type WeatherHour } from '@/lib/weather';
+import { Cloud, CloudDrizzle, CloudFog, CloudMoon, CloudOff, CloudRain, CloudRainWind, CloudSnow, CloudSun, Cloudy, Moon, Sun } from 'lucide-react';
+import { describeHour, FORECAST_LATITUDE, FORECAST_LONGITUDE, isDaylight, type ConditionKind, type WeatherHour } from '@/lib/weather';
+import { SOURCES, type SourceName } from '@/lib/forecast-sources';
 import { buildRibbon, rainHeadline, temperatureTrack } from '@/lib/forecast-summary';
 
 const REFRESH_MS = 15 * 60 * 1000;
 const STALE_MS = 45 * 60 * 1000;
-// DMI's fair-use limit is 500 requests per 5 seconds across all callers, and it
-// answers 429 rather than queueing, so a busy moment is the normal case and not
-// an outage. Back off, keep the last good run on screen, and never spin: this
-// display refreshes 96 times a day and has no reason to add to the pressure.
+// Back off on failure, keep the last good run on screen, and never spin: the
+// display is unattended for weeks and must survive an outage of any length
+// without help.
 const RETRY_BASE_MS = 20_000;
 const RETRY_MAX_MS = 5 * 60 * 1000;
+// DMI is asked first every refresh, but not once a minute during a multi-day
+// outage: after it fails, the fallback leads for an hour before DMI is tried
+// again. That keeps DMI the first opinion without spending a request on a
+// provider that just refused one.
+const SOURCE_PENALTY_MS = 60 * 60 * 1000;
 
 const ICONS: Record<ConditionKind, typeof Sun> = {
   clear: Sun, partly: CloudSun, cloudy: Cloudy, overcast: Cloud, fog: CloudFog,
-  drizzle: CloudDrizzle, rain: CloudRain, 'heavy-rain': CloudRainWind, sleet: CloudSnow, snow: CloudSnow, hail: CloudHail,
+  drizzle: CloudDrizzle, rain: CloudRain, 'heavy-rain': CloudRainWind, sleet: CloudSnow, snow: CloudSnow,
 };
 const NIGHT_ICONS: Partial<Record<ConditionKind, typeof Sun>> = { clear: Moon, partly: CloudMoon };
 
@@ -24,47 +29,72 @@ const timeFormat = new Intl.DateTimeFormat('en-GB', { timeZone: 'Europe/Copenhag
 
 export default function WeatherPanel({ now }: { now: Date | null }) {
   const [hours, setHours] = useState<WeatherHour[] | null>(null);
+  const [source, setSource] = useState<SourceName | null>(null);
   const [updatedAt, setUpdatedAt] = useState<number | null>(null);
   const [failed, setFailed] = useState(false);
 
   useEffect(() => {
     let active = true;
     let pending = false;
-    let attempt = 0;
+    let failures = 0;
     let retry = 0;
     // One controller per request, never one shared across them. An AbortSignal
     // is permanently aborted once it fires, so a single request that outran the
     // timeout would poison every later fetch on a display that never reloads.
     let inFlight: AbortController | null = null;
 
-    const load = async () => {
-      if (pending || document.hidden) return;
-      pending = true;
-      window.clearTimeout(retry);
+    // Each provider is tried in preference order until one answers with a
+    // forecast that parses. A provider that fails is skipped for a while so a
+    // long outage upstream does not cost a request every refresh.
+    const penalised = new Map<SourceName, number>();
+
+    const attempt = async (entry: typeof SOURCES[number]) => {
       const controller = new AbortController();
       inFlight = controller;
       const timeout = window.setTimeout(() => controller.abort(), 15000);
       try {
-        const response = await fetch(dmiForecastUrl(), { cache: 'no-store', signal: controller.signal });
-        if (!response.ok) throw new Error('DMI unavailable');
-        const payload: unknown = await response.json();
-        if (!validCoverage(payload)) throw new Error('Unexpected DMI payload');
-        const parsed = parseHours(payload);
-        if (!parsed.length) throw new Error('Empty DMI forecast');
-        if (!active) return;
-        attempt = 0;
-        setHours(parsed);
-        setUpdatedAt(Date.now());
-        setFailed(false);
+        const response = await fetch(entry.url(FORECAST_LATITUDE, FORECAST_LONGITUDE), { cache: 'no-store', signal: controller.signal });
+        if (!response.ok) return null;
+        const parsed = entry.parse(await response.json());
+        return parsed?.length ? parsed : null;
       } catch {
-        if (!active) return;
-        setFailed(true);
-        attempt += 1;
-        const delay = Math.min(RETRY_MAX_MS, RETRY_BASE_MS * 2 ** (attempt - 1));
-        retry = window.setTimeout(() => void load(), delay * (0.75 + Math.random() / 2));
+        return null;
       } finally {
         window.clearTimeout(timeout);
         if (inFlight === controller) inFlight = null;
+      }
+    };
+
+    const load = async () => {
+      if (pending || document.hidden) return;
+      pending = true;
+      window.clearTimeout(retry);
+      try {
+        const now = Date.now();
+        const ready = SOURCES.filter(entry => (penalised.get(entry.name) ?? 0) <= now);
+        // If every provider is still penalised, try them all rather than skip
+        // the refresh: a stale penalty must never outrank having no forecast.
+        for (const entry of ready.length ? ready : SOURCES) {
+          const parsed = await attempt(entry);
+          if (!active) return;
+          if (!parsed) {
+            penalised.set(entry.name, Date.now() + SOURCE_PENALTY_MS);
+            continue;
+          }
+          penalised.delete(entry.name);
+          failures = 0;
+          setHours(parsed);
+          setSource(entry.name);
+          setUpdatedAt(Date.now());
+          setFailed(false);
+          return;
+        }
+        if (!active) return;
+        setFailed(true);
+        failures += 1;
+        const delay = Math.min(RETRY_MAX_MS, RETRY_BASE_MS * 2 ** (failures - 1));
+        retry = window.setTimeout(() => void load(), delay * (0.75 + Math.random() / 2));
+      } finally {
         pending = false;
       }
     };
@@ -109,12 +139,15 @@ export default function WeatherPanel({ now }: { now: Date | null }) {
     ? (updatedAt ? 'Last updated at ' + timeFormat.format(new Date(updatedAt)) + '. Press OK to retry.' : 'Forecast unavailable. Press OK to retry.')
     : '';
   const temperature = view?.current ? Math.round(view.current.temperature) : null;
+  // The credit has to name the provider that actually answered, not the one we
+  // asked first.
+  const credit = (SOURCES.find(entry => entry.name === source) ?? SOURCES[0]).attribution;
 
   return <section className={'weather-band' + (stale ? ' stale' : '')} aria-label={'Weather. ' + staleDescription}>
     <div className={'weather' + (view?.headline?.wet ? ' raining-now' : '')}
       aria-label={current && temperature !== null ? temperature + ' degrees Celsius, ' + current.label : 'Weather unavailable'}>
-      <a className="weather-icon" href="https://www.dmi.dk/friedata/dokumentation/terms-of-use" target="_blank" rel="noreferrer"
-        aria-label={(current?.label ?? 'Weather unavailable') + '. DMI Harmonie forecast, DMI free data, CC BY 4.0.'}>
+      <a className="weather-icon" href={credit.href} target="_blank" rel="noreferrer"
+        aria-label={(current?.label ?? 'Weather unavailable') + '. ' + credit.credit}>
         <Icon strokeWidth={2.3} aria-hidden="true" />
       </a>
       <p className="temperature" aria-hidden="true">{temperature ?? '—'}<span>°</span></p>

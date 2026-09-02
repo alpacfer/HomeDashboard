@@ -17,10 +17,10 @@ loop, or anything that runs on the server.
    Everything else is static or fetched by the browser directly. Do not move
    weather, radar, or daily facts to the server to "clean things up": that
    trades a free CDN-cached asset for paid instance memory. Weather stays in
-   the browser because DMI's `opendataapi.dmi.dk` needs no API key and sends
-   `Access-Control-Allow-Origin: *`. The older `dmigw.govcloud.dk` host still works but
-   requires a key; switching to it would force a proxy route and is not worth
-   it.
+   the browser because both its providers are keyless and send
+   `Access-Control-Allow-Origin: *`. The older `dmigw.govcloud.dk` DMI host
+   still works but requires a key; switching to it would force a proxy route
+   and is not worth it.
 2. **Client JavaScript is the scarce resource, not server CPU.** The Fire TV
    Stick decodes and executes every byte on a slow core. Leaflet is already the
    heaviest thing shipped and is loaded only by `components/radar-panel.tsx`,
@@ -46,24 +46,39 @@ respecting for a display that runs unattended for weeks.
 
 | Provider | Documented limit | What the code does about it |
 | --- | --- | --- |
-| DMI forecast EDR | 500 requests per 5 seconds, shared across all callers. Over it, `429 Server is busy` rather than a queue. | `components/weather-panel.tsx` refreshes every 15 minutes (96 requests a day) and retries a failure with exponential backoff from 20 seconds to a 5-minute ceiling, jittered. The last good run stays on screen throughout. |
+| DMI forecast EDR | 500 requests per 5 seconds, shared across all callers. Over it, `429 Server is busy` rather than a queue. | Asked first every refresh, and skipped for an hour after it fails so a long outage does not cost a request each time. |
+| Open-Meteo `dmi_seamless` | Non-commercial fair use, CDN-cached. | The fallback, used only when DMI does not answer. Carries the same DMI Harmonie run. |
 | RainViewer | No published hard limit. | Metadata refreshes every 5 minutes; a failure keeps the previous timeline. |
 | Rejseplanen | Per-key, undocumented. | Proxied through `/api/departures`, which caches results for two minutes so every browser refresh does not become a provider request. |
 
-**DMI answering `429` is normal, not an outage.** The limit is shared, so a busy
-moment upstream is enough to trigger it, and it was reproducible from a single
-machine while this integration was being built. Any change to the weather fetch
-must keep three properties: a failed request never clears the forecast already
-on screen, retries back off rather than spin, and no code path can issue
-requests faster than the refresh interval.
+The weather panel refreshes every 15 minutes and retries a failure with jittered
+exponential backoff from 20 seconds to a 5-minute ceiling. The last good
+forecast stays on screen throughout, whichever provider supplied it.
+
+**DMI answering `429` is normal, not an outage, and it is why there are two
+providers.** The limit is shared, so a busy moment upstream is enough to trigger
+it. During DMI's supercomputer maintenance it answered `429` to every request
+for hours and the display had no forecast at all, which is not an acceptable
+failure mode for a screen nobody reloads. `lib/forecast-sources.ts` therefore
+asks DMI first and falls back to Open-Meteo's `dmi_seamless`, which is the same
+Harmonie run: values were checked field by field against a direct DMI capture
+and match. Both parsers return the identical `WeatherHour`, so which provider
+answered never changes what the display says, only the credit line.
+
+Any change to the weather fetch must keep four properties: **there is always
+more than one provider**, a failed request never clears the forecast already on
+screen, retries back off rather than spin, and no code path can issue requests
+faster than the refresh interval.
 
 **Do not poll DMI while developing.** Repeated probing during this integration
 saturated the shared limit and locked the endpoint out for minutes at a time,
 which is both self-defeating and rude to every other caller. Work against
-`tests/fixtures/dmi-harmonie-position.json`, a real captured Harmonie DINI
-position response with the seven parameters `lib/weather.ts` reads, and take one
-live request only to confirm the finished change. If a live payload is needed,
-fetch it once and save it: never put a retry loop on this API.
+`tests/fixtures/dmi-harmonie-hourly.json`, a real captured response of the DMI
+Harmonie run, and take one live request only to confirm the finished change. If
+a live payload is needed, fetch it once and save it: never put a retry loop on
+this API. Read the API documentation before probing it, too. Three requests were
+spent guessing the native-CRS `bbox` format for cube queries when the answer was
+in DMI's own EDR documentation all along.
 
 DMI free data is licensed **CC BY 4.0 and attribution is mandatory**. The
 weather icon links to DMI's terms of use and carries the credit in its

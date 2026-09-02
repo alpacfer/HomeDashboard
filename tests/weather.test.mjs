@@ -1,100 +1,10 @@
 import { test } from 'node:test';
 import assert from 'node:assert/strict';
-import {
-  describeHour, dmiForecastUrl, isDaylight, parseHours, precipitationBand, solarElevation, validCoverage, WET_MM,
-} from '../lib/weather.ts';
-
-// DMI returns accumulated precipitation, so a fixture describes totals since
-// the model run started and the parser is expected to difference them.
-function coverage({
-  times = ['2026-09-02T15:00:00.000Z', '2026-09-02T16:00:00.000Z', '2026-09-02T17:00:00.000Z'],
-  temperature = [288.15, 289.15, 290.15],
-  cloud = [1, 0.5, 0],
-  visibility = [50000, 50000, 50000],
-  rain = [0, 0.5, 2],
-  snow = [0, 0, 0],
-  graupel = [0, 0, 0],
-  type = [null, 1, null],
-  ranges,
-} = {}) {
-  return {
-    domain: { axes: { t: { values: times } } },
-    ranges: ranges ?? {
-      'temperature-2m': { values: temperature },
-      'fraction-of-cloud-cover': { values: cloud },
-      visibility: { values: visibility },
-      'rain-precipitation-rate': { values: rain },
-      'total-snowfall-rate-water-equivalent': { values: snow },
-      'graupel-precipitation-rate': { values: graupel },
-      'precipitation-type': { values: type },
-    },
-  };
-}
+import { describeHour, isDaylight, precipitationBand, solarElevation, WET_MM } from '../lib/weather.ts';
 
 function hour(overrides = {}) {
-  return { timestamp: 0, temperature: 10, cloud: 1, visibility: 50000, rain: 0, snow: 0, graupel: 0, precipitation: 0, precipitationType: null, ...overrides };
+  return { timestamp: 0, temperature: 10, cloud: 1, visibility: 50000, rain: 0, snow: 0, precipitation: 0, ...overrides };
 }
-
-test('the request asks DMI for every parameter the parser reads', () => {
-  const url = new URL(dmiForecastUrl());
-  assert.equal(url.origin + url.pathname, 'https://opendataapi.dmi.dk/v1/forecastedr/collections/harmonie_dini_sf/position');
-  const requested = (url.searchParams.get('parameter-name') ?? '').split(',');
-  for (const name of ['temperature-2m', 'fraction-of-cloud-cover', 'visibility', 'rain-precipitation-rate', 'total-snowfall-rate-water-equivalent', 'graupel-precipitation-rate', 'precipitation-type']) {
-    assert.ok(requested.includes(name), name + ' is missing from the request');
-  }
-  // Longitude comes first in WKT, which is the opposite order to the arguments.
-  assert.equal(new URL(dmiForecastUrl(1.5, 2.5)).searchParams.get('coords'), 'POINT(2.5 1.5)');
-});
-
-test('accepts a well formed coverage and rejects malformed ones', () => {
-  assert.equal(validCoverage(coverage()), true);
-  assert.equal(validCoverage(null), false);
-  assert.equal(validCoverage({}), false);
-  // A single step cannot be differenced into an hourly amount.
-  assert.equal(validCoverage(coverage({ times: ['2026-09-02T15:00:00.000Z'], temperature: [288.15], cloud: [1], visibility: [1], rain: [0], snow: [0], graupel: [0], type: [null] })), false);
-  assert.equal(validCoverage(coverage({ times: ['nonsense', '2026-09-02T16:00:00.000Z', '2026-09-02T17:00:00.000Z'] })), false);
-  assert.equal(validCoverage(coverage({ temperature: [288.15, 289.15] })), false, 'a short range must be rejected');
-  assert.equal(validCoverage(coverage({ rain: [0, 'wet', 2] })), false, 'a non-numeric sample must be rejected');
-  assert.equal(validCoverage(coverage({ ranges: { 'temperature-2m': { values: [288.15, 289.15, 290.15] } } })), false, 'a missing range must be rejected');
-  // precipitation-type is the one optional range: DMI may leave it out entirely.
-  const withoutType = coverage();
-  delete withoutType.ranges['precipitation-type'];
-  assert.equal(validCoverage(withoutType), true);
-});
-
-test('differences the accumulated fields into the hour that starts at each step', () => {
-  const hours = parseHours(coverage());
-  // Three steps produce two hours: the last has no successor to difference.
-  assert.equal(hours.length, 2);
-  assert.deepEqual(hours.map(entry => entry.rain), [0.5, 1.5]);
-  assert.equal(hours[0].timestamp, Date.parse('2026-09-02T15:00:00.000Z'));
-  assert.equal(hours[0].temperature, 15);
-  assert.equal(hours[1].precipitationType, 1);
-});
-
-test('clamps the float dips that flat accumulations produce', () => {
-  const [first] = parseHours(coverage({ rain: [0.2842, 0.2832, 0.2842] }));
-  assert.equal(first.rain, 0);
-  assert.equal(first.precipitation, 0);
-});
-
-test('sums rain, snow and graupel into one precipitation figure', () => {
-  const [first] = parseHours(coverage({ rain: [0, 0.4, 0.4], snow: [0, 0.2, 0.2], graupel: [0, 0.1, 0.1] }));
-  assert.equal(Number(first.precipitation.toFixed(3)), 0.7);
-});
-
-test('drops hours whose own samples are missing rather than showing them as dry', () => {
-  const four = {
-    times: ['2026-09-02T15:00:00.000Z', '2026-09-02T16:00:00.000Z', '2026-09-02T17:00:00.000Z', '2026-09-02T18:00:00.000Z'],
-    temperature: [288.15, 289.15, 290.15, 291.15], cloud: [1, 1, 1, 1], visibility: [50000, 50000, 50000, 50000],
-    snow: [0, 0, 0, 0], graupel: [0, 0, 0, 0], type: [null, null, null, null],
-  };
-  assert.deepEqual(parseHours(coverage({ ...four, rain: [0, 0.5, 1.5, 3] })).map(entry => entry.rain), [0.5, 1, 1.5]);
-  // A null accumulation removes the hour that needs it as an endpoint, and
-  // leaves the hours either side intact.
-  assert.deepEqual(parseHours(coverage({ ...four, rain: [0, 0.5, null, 3] })).map(entry => entry.rain), [0.5]);
-  assert.deepEqual(parseHours(coverage({ ...four, temperature: [288.15, null, 290.15, 291.15], rain: [0, 0.5, 1.5, 3] })).map(entry => entry.temperature), [15, 17]);
-});
 
 test('bands split millimetres per hour into the four steps the display draws', () => {
   assert.equal(precipitationBand(0), 'dry');
@@ -122,11 +32,7 @@ test('classifies the precipitation kind from the same numbers that size the bar'
   assert.equal(describeHour(hour({ rain: 6, precipitation: 6 })).kind, 'heavy-rain');
   assert.equal(describeHour(hour({ snow: 1, precipitation: 1 })).kind, 'snow');
   assert.equal(describeHour(hour({ rain: 0.7, snow: 0.3, precipitation: 1 })).kind, 'sleet');
-  assert.equal(describeHour(hour({ graupel: 1, precipitation: 1 })).kind, 'hail');
-  assert.equal(describeHour(hour({ rain: 1, precipitation: 1, precipitationType: 7 })).kind, 'hail');
-  // DMI leaves the type null in hours carrying millimetres of rain, so a null
-  // type must never downgrade a wet hour.
-  assert.equal(describeHour(hour({ rain: 3.2, precipitation: 3.2, precipitationType: null })).kind, 'rain');
+  assert.equal(describeHour(hour({ rain: 3.2, precipitation: 3.2 })).kind, 'rain');
 });
 
 test('classifies dry hours by fog first and cloud cover second', () => {

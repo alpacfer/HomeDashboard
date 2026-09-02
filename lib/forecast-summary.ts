@@ -88,7 +88,7 @@ export function temperatureTrack(ribbon: RibbonHour[]) {
 
 const WORDS: Record<ConditionKind, string> = {
   clear: 'clear', partly: 'cloud', cloudy: 'cloud', overcast: 'cloud', fog: 'fog',
-  drizzle: 'drizzle', rain: 'rain', 'heavy-rain': 'heavy rain', sleet: 'sleet', snow: 'snow', hail: 'hail',
+  drizzle: 'drizzle', rain: 'rain', 'heavy-rain': 'heavy rain', sleet: 'sleet', snow: 'snow',
 };
 
 function partOfDay(hour: number) {
