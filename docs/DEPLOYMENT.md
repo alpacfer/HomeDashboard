@@ -16,7 +16,11 @@ loop, or anything that runs on the server.
    and only because the Rejseplanen access ID must not reach the browser.
    Everything else is static or fetched by the browser directly. Do not move
    weather, radar, or daily facts to the server to "clean things up": that
-   trades a free CDN-cached asset for paid instance memory.
+   trades a free CDN-cached asset for paid instance memory. Weather stays in
+   the browser because DMI's `opendataapi.dmi.dk` needs no API key and sends
+   `Access-Control-Allow-Origin: *`. The older `dmigw.govcloud.dk` host still works but
+   requires a key; switching to it would force a proxy route and is not worth
+   it.
 2. **Client JavaScript is the scarce resource, not server CPU.** The Fire TV
    Stick decodes and executes every byte on a slow core. Leaflet is already the
    heaviest thing shipped and is loaded only by `components/radar-panel.tsx`,
@@ -34,6 +38,36 @@ loop, or anything that runs on the server.
 5. **Nothing may depend on interaction.** There is no pointer and no keyboard.
    `:hover` states, tooltips, and focus-only affordances are invisible to the
    only user this display has.
+
+## Provider limits
+
+Three external services are called from the browser, and each has a limit worth
+respecting for a display that runs unattended for weeks.
+
+| Provider | Documented limit | What the code does about it |
+| --- | --- | --- |
+| DMI forecast EDR | 500 requests per 5 seconds, shared across all callers. Over it, `429 Server is busy` rather than a queue. | `components/weather-panel.tsx` refreshes every 15 minutes (96 requests a day) and retries a failure with exponential backoff from 20 seconds to a 5-minute ceiling, jittered. The last good run stays on screen throughout. |
+| RainViewer | No published hard limit. | Metadata refreshes every 5 minutes; a failure keeps the previous timeline. |
+| Rejseplanen | Per-key, undocumented. | Proxied through `/api/departures`, which caches results for two minutes so every browser refresh does not become a provider request. |
+
+**DMI answering `429` is normal, not an outage.** The limit is shared, so a busy
+moment upstream is enough to trigger it, and it was reproducible from a single
+machine while this integration was being built. Any change to the weather fetch
+must keep three properties: a failed request never clears the forecast already
+on screen, retries back off rather than spin, and no code path can issue
+requests faster than the refresh interval.
+
+**Do not poll DMI while developing.** Repeated probing during this integration
+saturated the shared limit and locked the endpoint out for minutes at a time,
+which is both self-defeating and rude to every other caller. Work against
+`tests/fixtures/dmi-harmonie-position.json`, a real captured Harmonie DINI
+position response with the seven parameters `lib/weather.ts` reads, and take one
+live request only to confirm the finished change. If a live payload is needed,
+fetch it once and save it: never put a retry loop on this API.
+
+DMI free data is licensed **CC BY 4.0 and attribution is mandatory**. The
+weather icon links to DMI's terms of use and carries the credit in its
+accessible label. Do not remove that link.
 
 ## Render
 

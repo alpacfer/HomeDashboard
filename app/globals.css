@@ -1,6 +1,6 @@
 @import 'leaflet/dist/leaflet.css';
 @font-face { font-family:'Space Grotesk'; src:url('/fonts/space-grotesk-bold.ttf') format('truetype'); font-weight:700; font-style:normal; font-display:swap; }
-:root { --background:#111113; --foreground:#f3f2ee; --accent:#ff623b; --rain:#74caff; --muted:#93939d; }
+:root { --background:#111113; --foreground:#f3f2ee; --accent:#ff623b; --rain:#74caff; --snow:#dfeaf5; --muted:#93939d; }
 * { box-sizing:border-box; }
 html,body { margin:0; min-height:100%; background:var(--background); }
 body { color:var(--foreground); font-family:'Space Grotesk',Arial,Helvetica,sans-serif; -webkit-font-smoothing:antialiased; }
@@ -24,32 +24,43 @@ body { color:var(--foreground); font-family:'Space Grotesk',Arial,Helvetica,sans
 @keyframes digit-roll-in { from {opacity:0;transform:translateY(85%) rotateX(-35deg);} to {opacity:1;transform:translateY(0) rotateX(0);} }
 @keyframes digit-roll-out { from {opacity:1;transform:translateY(0) rotateX(0);} to {opacity:0;transform:translateY(-85%) rotateX(35deg);} }
 .weather-band { flex:1; min-height:0; display:flex; flex-direction:column; overflow:hidden; }
-.weather { position:relative; display:grid; grid-template-columns:4.2vw minmax(0,1fr); grid-template-rows:6.4vw 1.4vw; align-items:center; column-gap:1.1vw; color:var(--accent); padding:.6vw var(--panel-inset); border-radius:.65vw; }
+.weather { position:relative; display:grid; grid-template-columns:4.2vw minmax(0,1fr); grid-template-rows:6.4vw auto; align-items:center; column-gap:1.1vw; color:var(--accent); padding:.6vw var(--panel-inset); border-radius:.65vw; }
 .raining-now { color:var(--rain); background:#162b39; box-shadow:inset 0 0 0 1px #355d75; }
-.rain-now-label { grid-column:1 / -1; grid-row:2; align-self:center; font-size:1.1vw; line-height:1; text-transform:uppercase; letter-spacing:.07em; }
 .temperature { display:flex; align-items:flex-start; margin:0; font-size:5.7vw; font-weight:700; font-synthesis:none; line-height:1; letter-spacing:-.025em; font-variant-numeric:lining-nums tabular-nums; }
 .temperature > span { font-size:.48em; line-height:1; margin-top:.1em; margin-left:.06em; letter-spacing:0; }
 .weather-icon { display:flex; align-items:center; justify-content:center; width:4.2vw; height:4.2vw; color:inherit; text-decoration:none; border-radius:8px; }
 .weather-icon svg { display:block; width:3.8vw; height:3.8vw; }
 a:focus-visible { outline:2px solid var(--foreground); outline-offset:8px; }
-.forecast-summary { display:flex; align-items:center; justify-content:space-between; gap:1vw; margin:2.2vh 0 1.2vh; padding:0 var(--panel-inset); }
-.forecast-summary h2 { color:var(--muted); font-size:clamp(11px,1vw,22px); text-transform:uppercase; letter-spacing:.08em; margin:0; }
-.forecast-timeline { display:flex; flex-direction:column; gap:.5vh; }
-.forecast-slot { display:grid; grid-template-columns:4.2vw 2.1vw 3.6vw minmax(0,1fr); align-items:center; column-gap:1.1vw; min-height:4.7vh; padding:.45vh var(--panel-inset); border-radius:.4vw; line-height:1.2; }
-.forecast-slot time { color:var(--muted); font-size:1.25vw; font-variant-numeric:tabular-nums; letter-spacing:0; }
-.forecast-icon { display:block; justify-self:center; width:1.6vw; height:1.6vw; color:#c7c7cd; }
-.slot-temperature { justify-self:end; font-size:1.6vw; font-weight:700; font-variant-numeric:tabular-nums; letter-spacing:0; white-space:nowrap; }
-.rain-detail { display:flex; flex-direction:column; align-items:flex-end; gap:.4vh; }
-.rain-chance { display:flex; align-items:center; justify-content:flex-end; gap:.3vw; min-height:1em; font-size:1.05vw; color:var(--muted); font-variant-numeric:tabular-nums; }
-.rain-chance svg { width:1vw; height:1vw; }
-.wet .rain-chance,.wet .forecast-icon { color:var(--rain); }
-.rain-likely { background:#162630; }
-.rain-likely time { color:#c8e6f6; }
-.rain-track { height:3px; width:100%; max-width:4.8vw; background:#263c49; border-radius:4px; overflow:hidden; }
-.rain-track span { display:block; height:100%; background:var(--rain); border-radius:inherit; }
-.forecast-unavailable { color:var(--muted); font-size:1.1vw; }
-.stale .weather { color:var(--muted); }
-.stale .forecast-timeline { opacity:.5; }
+
+/* The headline is the panel's answer: read it and you are done. Everything
+   below only refines when and how hard. */
+.weather-headline { grid-column:1 / -1; grid-row:2; margin-top:.4vh; font-size:1.65vw; font-weight:700; line-height:1.15; letter-spacing:-.01em; }
+
+.rain-ribbon { --ribbon-gap:.28vw; display:flex; flex-direction:column; margin-top:2.6vh; padding:0 var(--panel-inset); }
+.ribbon-heading { display:flex; align-items:baseline; justify-content:space-between; gap:1vw; margin-bottom:1.1vh; }
+.ribbon-heading h2 { margin:0; color:var(--muted); font-size:clamp(11px,1vw,22px); text-transform:uppercase; letter-spacing:.08em; }
+.ribbon-heading span { color:var(--muted); font-size:1.15vw; font-variant-numeric:tabular-nums; }
+.temperature-track { display:block; width:100%; height:6.2vh; overflow:visible; }
+.temperature-track polyline { fill:none; stroke:var(--accent); stroke-width:2.2; stroke-linejoin:round; stroke-linecap:round; vector-effect:non-scaling-stroke; }
+.ribbon-bars { display:grid; grid-template-columns:repeat(var(--columns),1fr); gap:var(--ribbon-gap); align-items:end; height:9vh; margin-top:.6vh; border-bottom:1px solid #303035; }
+/* A dry hour is a tick on the baseline, not a filled column: giving every slot
+   a track background made dry hours read as data. */
+.ribbon-bar { display:flex; align-items:flex-end; height:100%; }
+.ribbon-bar > span { display:block; width:100%; min-height:2px; background:#31313a; border-radius:.18vw .18vw 0 0; }
+.band-trace > span { background:#3f6b85; }
+.band-light > span { background:#4f93b8; }
+.band-moderate > span { background:var(--rain); }
+.band-heavy > span { background:#b8e4ff; box-shadow:0 0 .5vw rgba(116,202,255,.45); }
+.frozen > span { background:var(--snow); }
+.ribbon-ticks { display:grid; grid-template-columns:repeat(var(--columns),1fr); gap:var(--ribbon-gap); margin-top:.7vh; color:var(--muted); font-size:1.05vw; font-variant-numeric:tabular-nums; }
+.ribbon-ticks span { text-align:center; }
+/* Midnight is the only gridline worth drawing: it is what tells you the bars
+   on the right belong to the next day. */
+.ribbon-bars .day-break { box-shadow:inset 1px 0 0 #45454d; }
+.ribbon-ticks .day-break { box-shadow:inset 1px 0 0 #45454d; }
+.ribbon-ticks .day-break { color:var(--foreground); }
+.stale .weather,.stale .weather-headline { color:var(--muted); }
+.stale .rain-ribbon { opacity:.5; }
 .offline-dot { position:absolute; right:var(--panel-inset); top:var(--panel-inset); width:6px; height:6px; border-radius:50%; background:var(--accent); }
 .transport-panel { display:flex; flex-direction:column; justify-content:space-between; min-width:0; gap:2.6vh; }
 .departure-board { padding:0 0 2.5vh; border-bottom:1px solid #303035; }
@@ -167,20 +178,17 @@ a:focus-visible { outline:2px solid var(--foreground); outline-offset:8px; }
   .display-shell { --panel-inset:2vw; border-right:0; padding:0; }
   .clock { font-size:20vw; }
   .clock-date { font-size:3.5vw; }
-  .weather { grid-template-columns:10vw minmax(0,1fr); grid-template-rows:15vw 4vw; column-gap:3vw; padding:2vw var(--panel-inset); border-radius:2vw; }
-  .rain-now-label { font-size:3vw; }
+  .weather { grid-template-columns:10vw minmax(0,1fr); grid-template-rows:15vw auto; column-gap:3vw; padding:2vw var(--panel-inset); border-radius:2vw; }
   .temperature { font-size:12vw; }
   .weather-icon { width:10vw; height:10vw; }
   .weather-icon svg { width:9vw; height:9vw; }
-  .forecast-summary h2 { font-size:2.7vw; }
-  .forecast-slot { grid-template-columns:12vw 9vw 12vw 1fr; column-gap:4vw; min-height:5.5vh; padding:.8vh 2vw; border-radius:1vw; }
-  .forecast-slot time { font-size:3.5vw; }
-  .forecast-icon { width:5vw; height:5vw; }
-  .slot-temperature { font-size:4vw; }
-  .rain-chance { font-size:3.2vw; }
-  .rain-chance svg { width:3vw; height:3vw; }
-  .rain-track { max-width:17vw; }
-  .forecast-unavailable { font-size:3vw; }
+  .weather-headline { font-size:4.4vw; }
+  .rain-ribbon { --ribbon-gap:.7vw; }
+  .ribbon-heading h2 { font-size:2.7vw; }
+  .ribbon-heading span { font-size:3vw; }
+  .temperature-track { height:9vh; }
+  .ribbon-bars { height:13vh; }
+  .ribbon-ticks { font-size:2.6vw; }
   .line-badge { min-width:13vw; height:10vw; font-size:5vw; border-radius:1vw; }
   .s-train { min-width:10vw; }
   .departure-heading { gap:3vw; }
