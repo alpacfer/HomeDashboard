@@ -11,6 +11,10 @@
 import { describeHour, precipitationBand, RIBBON_CEILING_MM, WET_MM, type Band, type ConditionKind, type WeatherHour } from './weather';
 
 export const RIBBON_HOURS = 18;
+// A delayed model run leaves fewer hours ahead of now than the full window.
+// Showing twelve hours beats showing nothing, so the ribbon shortens instead of
+// refusing to draw; below this it is too little to read as a forecast.
+export const MIN_RIBBON_HOURS = 6;
 
 export type RibbonHour = {
   timestamp: number;
@@ -39,11 +43,12 @@ export function buildRibbon(hours: WeatherHour[], now: Date, span = RIBBON_HOURS
   const currentHour = Math.floor(now.getTime() / 3600000) * 3600000;
   const start = hours.findIndex(hour => hour.timestamp >= currentHour);
   if (start < 0) return [];
-  const window = hours.slice(start, start + span);
-  // A run older than its own forecast horizon, or a series with a hole in it,
-  // must not render as a short ribbon that looks like a complete forecast.
-  if (window.length < span) return [];
-  if (window.some((hour, index) => index > 0 && hour.timestamp - window[index - 1].timestamp !== 3600000)) return [];
+  // Stop at the first hole rather than drawing across it, which would compress
+  // the time axis and silently mislabel every bar after the gap.
+  let end = start;
+  while (end + 1 < hours.length && end + 1 < start + span && hours[end + 1].timestamp - hours[end].timestamp === 3600000) end += 1;
+  const window = hours.slice(start, end + 1);
+  if (window.length < MIN_RIBBON_HOURS) return [];
 
   return window.map(hour => {
     const clock = copenhagenHour(hour.timestamp);

@@ -32,12 +32,17 @@ export default function WeatherPanel({ now }: { now: Date | null }) {
     let pending = false;
     let attempt = 0;
     let retry = 0;
-    const controller = new AbortController();
+    // One controller per request, never one shared across them. An AbortSignal
+    // is permanently aborted once it fires, so a single request that outran the
+    // timeout would poison every later fetch on a display that never reloads.
+    let inFlight: AbortController | null = null;
 
     const load = async () => {
       if (pending || document.hidden) return;
       pending = true;
       window.clearTimeout(retry);
+      const controller = new AbortController();
+      inFlight = controller;
       const timeout = window.setTimeout(() => controller.abort(), 15000);
       try {
         const response = await fetch(dmiForecastUrl(), { cache: 'no-store', signal: controller.signal });
@@ -59,6 +64,7 @@ export default function WeatherPanel({ now }: { now: Date | null }) {
         retry = window.setTimeout(() => void load(), delay * (0.75 + Math.random() / 2));
       } finally {
         window.clearTimeout(timeout);
+        if (inFlight === controller) inFlight = null;
         pending = false;
       }
     };
@@ -75,7 +81,7 @@ export default function WeatherPanel({ now }: { now: Date | null }) {
     window.addEventListener('keydown', key);
     return () => {
       active = false;
-      controller.abort();
+      inFlight?.abort();
       window.clearTimeout(retry);
       window.clearInterval(timer);
       document.removeEventListener('visibilitychange', resume);

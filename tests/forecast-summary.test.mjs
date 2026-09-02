@@ -1,6 +1,6 @@
 import { test } from 'node:test';
 import assert from 'node:assert/strict';
-import { buildRibbon, copenhagenHour, rainHeadline, RIBBON_HOURS, temperatureTrack } from '../lib/forecast-summary.ts';
+import { buildRibbon, copenhagenHour, MIN_RIBBON_HOURS, rainHeadline, RIBBON_HOURS, temperatureTrack } from '../lib/forecast-summary.ts';
 import { RIBBON_CEILING_MM } from '../lib/weather.ts';
 
 // 2026-09-02T04:00Z is 06:00 in Copenhagen summer time.
@@ -31,11 +31,28 @@ test('the window is a fixed count of hours starting at the current hour', () => 
   }
 });
 
-test('refuses to render a partial window as if it were complete', () => {
-  assert.deepEqual(buildRibbon(hours(RIBBON_HOURS - 1), new Date(START)), []);
-  // A hole in the series would silently compress the time axis.
-  const gapped = hours(30).filter((_, index) => index !== 5);
-  assert.deepEqual(buildRibbon(gapped, new Date(START)), []);
+test('shortens the window on a delayed run instead of drawing nothing', () => {
+  // A delayed model run is the normal failure mode, and a wall display is more
+  // use showing twelve hours than showing "unavailable".
+  const short = buildRibbon(hours(13), new Date(START));
+  assert.equal(short.length, 13, 'the current hour counts toward the window');
+  assert.equal(short[0].timestamp, START);
+  assert.equal(short.at(-1).timestamp, START + 12 * 3600000);
+  // The minimum itself still draws; one hour short of it does not.
+  assert.equal(buildRibbon(hours(MIN_RIBBON_HOURS), new Date(START)).length, MIN_RIBBON_HOURS);
+  assert.deepEqual(buildRibbon(hours(MIN_RIBBON_HOURS - 1), new Date(START)), []);
+  // A run long enough is still capped at the full window.
+  assert.equal(buildRibbon(hours(48), new Date(START)).length, RIBBON_HOURS);
+});
+
+test('stops at a hole rather than drawing across it', () => {
+  // Drawing across a gap would compress the axis and mislabel every later bar.
+  const gapped = hours(30).filter((_, index) => index !== 8);
+  const ribbon = buildRibbon(gapped, new Date(START));
+  assert.equal(ribbon.length, 8);
+  assert.deepEqual(ribbon.map(entry => entry.hour), [6, 7, 8, 9, 10, 11, 12, 13]);
+  // A gap inside the minimum still leaves nothing worth drawing.
+  assert.deepEqual(buildRibbon(hours(30).filter((_, index) => index !== 3), new Date(START)), []);
   // A run that ended before now has nothing to show.
   assert.deepEqual(buildRibbon(hours(30), new Date(START + 40 * 3600000)), []);
 });
