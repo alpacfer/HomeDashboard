@@ -1,7 +1,7 @@
 import { test } from 'node:test';
 import assert from 'node:assert/strict';
 import { readFile } from 'node:fs/promises';
-import { DAILY_FACT_COUNTRIES, dailyDateKey, validDailyFacts } from '../app/daily-facts.ts';
+import { DAILY_FACT_COUNTRIES, dailyDateKey, validDailyFacts } from '../lib/daily-facts.ts';
 
 const countries = ['spain', 'denmark', 'greece'];
 

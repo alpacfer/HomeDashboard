@@ -1,6 +1,6 @@
 import { test } from 'node:test';
 import assert from 'node:assert/strict';
-import { nextCompactDeparture, LINES } from '../app/transit.ts';
+import { nextCompactDeparture, LINES } from '../lib/transit.ts';
 
 const now = 1_800_000_000_000;
 const departure = (id, minutes, cancelled = false) => ({ id, scheduled:now + minutes * 60000, expected:now + minutes * 60000, cancelled, realtime:true, delay:0, track:null });

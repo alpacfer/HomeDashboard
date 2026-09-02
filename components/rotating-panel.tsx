@@ -1,10 +1,10 @@
 'use client';
 
 import { useEffect, useState, type CSSProperties } from 'react';
-import TransportPanel from './transport-panel';
-import { DAILY_FACT_COUNTRIES, dailyDateKey, validDailyFacts, type DailyFact } from './daily-facts';
-import { initialRotation, nextRotation, resumeRotation } from './panel-rotation';
-import RadarPanel from './radar-panel';
+import TransportPanel from '@/components/transport-panel';
+import { DAILY_FACT_COUNTRIES, dailyDateKey, validDailyFacts, type DailyFact } from '@/lib/daily-facts';
+import { initialRotation, nextRotation, resumeRotation } from '@/lib/panel-rotation';
+import RadarPanel from '@/components/radar-panel';
 
 const STORAGE_KEY = 'home-dashboard:next-daily-fact:v1';
 const artworkCache = new Map<string, HTMLImageElement>();

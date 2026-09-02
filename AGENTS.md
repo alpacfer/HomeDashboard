@@ -1,16 +1,123 @@
-# Agent workflow
+# AGENTS.md
+
+Instructions for AI coding agents working in this repository. Human-facing
+documentation lives in [README.md](README.md) and [docs/](docs/).
+
+## What this is
+
+A Next.js wall display: clock, weather, precipitation radar, daily facts, and
+local departures. It is deployed to a **Render free-plan web service** and shown
+in the **Silk browser on a Fire TV Stick HD**, running 24/7 without a reload.
+
+Both ends are resource-constrained, and that decides most design questions.
+**Read [docs/DEPLOYMENT.md](docs/DEPLOYMENT.md) before adding a dependency, an
+animation, a polling loop, or any server-side work.** The short version:
+
+- Client JavaScript is the scarce resource. No UI framework, no runtime
+  CSS-in-JS, no state library, no date library.
+- Every timer, listener, and Leaflet layer must be torn down in effect cleanup.
+  A leak invisible in a five-minute dev session kills the display overnight.
+- No `:hover`, tooltips, or focus-only affordances. There is no pointer.
+- The server does almost nothing on purpose. Do not move browser fetches to it.
+
+## Commands
+
+```sh
+npm ci            # install; use this, not npm install, unless changing deps
+npm run dev       # dev server on http://localhost:3000
+npm run check     # lint + typecheck + test + docs + build. Run before delivering.
+npm test          # node:test over tests/*.test.mjs
+```
+
+`npm start` binds `127.0.0.1` and is local-only. Render uses
+`npm run start:render`, which binds `0.0.0.0`.
+
+## Layout
+
+Dependencies point inward: `app/` → `components/` → `lib/`. Nothing points back.
+
+| Directory | Holds |
+| --- | --- |
+| `app/` | Route entry points only: `layout.tsx`, `page.tsx`, `globals.css`, `app/api/departures/route.ts`. |
+| `components/` | React components that own browser effects: timers, fetches, storage, Leaflet, wake lock. |
+| `lib/` | Pure logic: parsing, validation, time conversion, selection, rotation timing. |
+| `tests/` | One `node:test` suite per `lib/` module. |
+| `scripts/` | Maintenance tooling. Plain Node, no dependencies. |
+
+`lib/` may not import React, the DOM, `fetch`, or Next.js. This is enforced by
+`eslint.config.mjs`, so lint will tell you before review does.
+
+Cross-directory imports use the `@/` alias (`@/lib/weather`). Relative imports
+are for siblings only.
+
+## Rules
+
+**New logic goes in `lib/` with a test unless it genuinely needs the browser.**
+That is what keeps the suite fast and renderer-free. When you add a component,
+ask what part of it is a pure function and move that part out first.
+
+**Validate every external response at the boundary** before it reaches React
+state, and add a fixture test for the malformed case. `validWeather`,
+`parseRadarTimeline`, and `validDailyFacts` are the pattern to copy.
+
+**Use `Europe/Copenhagen` in every formatter.** Never rely on the device's time
+zone. Dates, hours, departures, and daily-fact keys are Copenhagen-local unless
+an API contract explicitly says otherwise.
+
+**Put layout in `app/globals.css`**, not in inline styles. Use the existing
+tokens (`--background`, `--foreground`, `--accent`, `--rain`, `--muted`) before
+adding a colour.
+
+**Keep secrets server-side.** `REJSEPLANEN_ACCESS_ID` is read only by
+`app/api/departures/route.ts`. Anything prefixed `NEXT_PUBLIC_` ships to the
+browser and must never hold a credential. Never commit `.env.local`.
+
+**Scripts stay in Node, not shell.** The repository is worked on from both
+Ubuntu and macOS, where `sed`, `date`, and friends differ.
+
+**Documentation is checked.** `npm run docs:check` fails when a Markdown file
+links to or names a path that does not exist. If you move a file, fix the docs
+in the same change.
+
+## Do not touch without being asked
+
+- `public/facts/daily/*.json` — 366 generated files. Change
+  `data/daily-fact-overrides.json` and run `npm run facts:generate` instead.
+  See [docs/DAILY_FACTS.md](docs/DAILY_FACTS.md).
+- `lib/transit.ts` stop names and `docs/TRANSPORT.md` — these match a live
+  provider's exact strings and fail closed when wrong.
+- `render.yaml` — must stay in step with the live Render dashboard.
 
 ## Visual confirmation
 
-For every user-requested change that affects rendered behavior, run the dashboard and capture a screenshot of the relevant state before delivery. Show that screenshot in the final response so the user can confirm the result visually.
+For every requested change that affects rendered behaviour, run the dashboard
+and capture a screenshot of the relevant state before delivering. Show that
+screenshot in the final response.
 
-Use the smallest screenshot that demonstrates the change: for example, the clock/date and forecast area for display changes, or the relevant panel for a rotating-panel change. Recheck both the normal 16:9 layout and the narrow layout when responsive CSS is affected.
+Use the smallest screenshot that demonstrates the change: the clock and date
+area for a clock change, the relevant panel for a rotating-panel change.
+Recheck both the 16:9 layout and the narrow (`max-aspect-ratio: 5/4`) layout
+when responsive CSS is affected, and check the reduced-motion path when
+animation is touched. **Test at 1280 x 720**, the Fire TV's actual resolution.
 
-For documentation-only, test-only, or backend-only changes with no meaningful rendered state, state in the final response that no relevant visual screenshot was available instead of showing an unrelated screen.
+For documentation-only, test-only, or backend-only changes with no meaningful
+rendered state, say in the final response that no relevant screenshot was
+available rather than showing an unrelated screen.
 
-## Delivery checklist
+## Delivering
 
-1. Implement the requested change.
-2. Run the relevant tests, lint, and build checks.
-3. Capture and show the relevant visual state when the change affects the UI.
-4. Link the changed files and summarize verification results.
+1. Implement the change.
+2. Run `npm run check`.
+3. Capture and show the relevant visual state when the UI changed.
+4. Link the changed files and report verification results honestly. If a check
+   failed or was skipped, say so.
+
+<!-- BEGIN:nextjs-agent-rules -->
+
+# This is NOT the Next.js you know
+
+This version has breaking changes — APIs, conventions, and file structure may all differ from your training data. Read the relevant guide in `node_modules/next/dist/docs/` (resolved from this file's directory; in monorepos the `next` package may not be visible from the repo root) before writing any code. Heed deprecation notices.
+
+This block is written and re-added by `next dev` — verify at `node_modules/next/dist/server/lib/generate-agent-files.js`. Removing it from a diff only re-creates the uncommitted change; committing it with your work keeps the tree clean.
+
+<!-- END:nextjs-agent-rules -->

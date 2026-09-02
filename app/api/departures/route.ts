@@ -1,4 +1,4 @@
-import { filterDepartures, LINES, resolveStop, type RawDeparture, type TransitData } from '../../transit';
+import { filterDepartures, LINES, resolveStop, type RawDeparture, type TransitData } from '@/lib/transit';
 
 const API = 'https://www.rejseplanen.dk/api/';
 const stopCache = new Map<string, { id: string; expires: number }>();

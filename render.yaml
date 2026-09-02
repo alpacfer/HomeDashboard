@@ -1,0 +1,34 @@
+# Render configuration, recorded as code.
+#
+# READ THIS FIRST: the live service was created through the Render dashboard,
+# so the dashboard is the source of truth. Render only applies a Blueprint to
+# services created from one, which means this file is documentation until the
+# service is linked as a Blueprint. Keep the two in sync by hand, and verify
+# `region` against the dashboard before ever applying it.
+#
+# See docs/DEPLOYMENT.md for why each value is what it is.
+
+services:
+  - type: web
+    name: homedashboard
+    runtime: node
+    plan: free
+    region: frankfurt
+    branch: main
+
+    # npm ci installs exactly what package-lock.json pins, and fails loudly if
+    # the lockfile and package.json disagree.
+    buildCommand: npm ci && npm run build
+
+    # NOT `npm start`. That binds 127.0.0.1 for local safety, which Render's
+    # proxy cannot reach. start:render binds 0.0.0.0 and honours $PORT.
+    startCommand: npm run start:render
+
+    healthCheckPath: /
+
+    envVars:
+      # Node version comes from .nvmrc so local, CI and Render agree.
+      - key: REJSEPLANEN_ACCESS_ID
+        sync: false # Server-only secret. Set in the dashboard, never committed.
+      - key: SITE_URL
+        sync: false # Public origin used for social preview metadata.

@@ -1,7 +1,7 @@
 'use client';
 
 import { useState, type CSSProperties } from 'react';
-import { changedDigits, clockDate, clockFrame } from './clock-motion';
+import { changedDigits, clockDate, clockFrame } from '@/lib/clock-motion';
 
 export default function Clock({ now }: { now: Date | null }) {
   const [frame, setFrame] = useState(() => clockFrame(now));

@@ -1,7 +1,7 @@
 'use client';
 
 import { useEffect, useState } from 'react';
-import { LINES, nextCompactDeparture, type TransitData } from './transit';
+import { LINES, nextCompactDeparture, type TransitData } from '@/lib/transit';
 
 const timeFormat = new Intl.DateTimeFormat('en-GB', { timeZone: 'Europe/Copenhagen', hour: '2-digit', minute: '2-digit', hour12: false });
 

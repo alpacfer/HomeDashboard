@@ -1,6 +1,6 @@
 import { test } from 'node:test';
 import assert from 'node:assert/strict';
-import { buildForecast, buildForecasts, forecastTargets, isRainCode, localTime, validWeather } from '../app/weather.ts';
+import { buildForecast, buildForecasts, forecastTargets, isRainCode, localTime, validWeather } from '../lib/weather.ts';
 
 function fixture(start = '2026-08-30T22:00:00Z', count = 73) {
   return {

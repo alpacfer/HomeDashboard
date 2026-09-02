@@ -1,6 +1,6 @@
 import { test } from 'node:test';
 import assert from 'node:assert/strict';
-import { initialRotation, nextRotation, resumeRotation, TRANSPORT_MS, FACT_MS, RADAR_MS } from '../app/panel-rotation.ts';
+import { initialRotation, nextRotation, resumeRotation, TRANSPORT_MS, FACT_MS, RADAR_MS } from '../lib/panel-rotation.ts';
 
 const FACT_COUNT = 3;
 

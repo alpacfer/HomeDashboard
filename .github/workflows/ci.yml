@@ -1,0 +1,83 @@
+name: CI
+
+on:
+  push:
+    branches: [main]
+  pull_request:
+  workflow_dispatch:
+
+# Superseded runs are pointless and burn free minutes.
+concurrency:
+  group: ci-${{ github.ref }}
+  cancel-in-progress: true
+
+permissions:
+  contents: read
+
+jobs:
+  check:
+    name: Lint, typecheck, test, build
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+
+    steps:
+      - uses: actions/checkout@v5
+
+      # node-version-file keeps CI on the same version as .nvmrc, so a green
+      # run here means the same version works on Ubuntu, macOS and Render.
+      - uses: actions/setup-node@v6
+        with:
+          node-version-file: .nvmrc
+          cache: npm
+
+      # Fails if package.json and package-lock.json disagree.
+      - name: Install
+        run: npm ci
+
+      - name: Documentation
+        run: npm run docs:check
+
+      - name: Lint
+        run: npm run lint
+
+      - name: Typecheck
+        run: npm run typecheck
+
+      - name: Test
+        run: npm test
+
+      - name: Build
+        run: npm run build
+
+      # The Fire TV Stick is the weakest link in the chain, so the client
+      # bundle size is worth having in the log of every run. See
+      # docs/DEPLOYMENT.md.
+      - name: Report client bundle size
+        run: |
+          echo '### Client bundle' >> "$GITHUB_STEP_SUMMARY"
+          echo '```' >> "$GITHUB_STEP_SUMMARY"
+          du -sh .next/static 2>/dev/null >> "$GITHUB_STEP_SUMMARY" || true
+          find .next/static/chunks -name '*.js' -printf '%10s  %p\n' 2>/dev/null \
+            | sort -rn | head -10 >> "$GITHUB_STEP_SUMMARY" || true
+          echo '```' >> "$GITHUB_STEP_SUMMARY"
+
+  audit:
+    name: Dependency audit
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+
+    steps:
+      - uses: actions/checkout@v5
+
+      - uses: actions/setup-node@v6
+        with:
+          node-version-file: .nvmrc
+          cache: npm
+
+      - run: npm ci
+
+      # Fails on high or critical advisories. If upstream publishes one with no
+      # fix available, raise the level here in a commit that says why, rather
+      # than letting a red run become background noise.
+      - name: Audit
+        run: npm audit --audit-level=high

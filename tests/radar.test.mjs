@@ -1,6 +1,6 @@
 import { test } from 'node:test';
 import assert from 'node:assert/strict';
-import { isRadarTimelineStale, parseRadarTimeline, radarApiUrl, radarFrameAgeMinutes, radarTileUrl } from '../app/radar.ts';
+import { isRadarTimelineStale, parseRadarTimeline, radarApiUrl, radarFrameAgeMinutes, radarTileUrl } from '../lib/radar.ts';
 
 test('uses the public precipitation radar feed', () => {
   const url = new URL(radarApiUrl());

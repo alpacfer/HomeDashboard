@@ -2,7 +2,7 @@
 
 import { useEffect, useMemo, useRef, useState } from 'react';
 import type { LayerGroup, Map } from 'leaflet';
-import { isRadarTimelineStale, parseRadarTimeline, radarApiUrl, radarFrameAgeMinutes, radarTileUrl, type RadarTimeline } from './radar';
+import { isRadarTimelineStale, parseRadarTimeline, radarApiUrl, radarFrameAgeMinutes, radarTileUrl, type RadarTimeline } from '@/lib/radar';
 
 const MAP_REFRESH_MS = 5 * 60 * 1000;
 const FRAME_MS = 650;

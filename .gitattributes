@@ -1,0 +1,14 @@
+# Normalize to LF in the repository so Ubuntu and macOS checkouts agree.
+* text=auto eol=lf
+
+# Binary assets: never touch these.
+*.ttf   binary
+*.png   binary
+*.jpg   binary
+*.jpeg  binary
+*.webp  binary
+*.ico   binary
+
+# Generated. Collapse in diffs and exclude from language stats.
+package-lock.json      linguist-generated=true -diff
+public/facts/daily/*   linguist-generated=true -diff

@@ -2,10 +2,10 @@
 
 import { useCallback, useEffect, useMemo, useRef, useState } from 'react';
 import { Cloud, CloudDrizzle, CloudFog, CloudLightning, CloudMoon, CloudOff, CloudRain, CloudSnow, CloudSun, Droplet, Moon, Sun } from 'lucide-react';
-import { buildForecasts, isRainCode, validWeather, type Weather } from './weather';
-import RotatingPanel from './rotating-panel';
-import Clock from './clock';
-import KeepAwake from './keep-awake';
+import { buildForecasts, isRainCode, validWeather, type Weather } from '@/lib/weather';
+import RotatingPanel from '@/components/rotating-panel';
+import Clock from '@/components/clock';
+import KeepAwake from '@/components/keep-awake';
 
 const WEATHER_URL = 'https://api.open-meteo.com/v1/forecast?latitude=55.73825&longitude=12.53836&current=temperature_2m,weather_code,is_day&hourly=temperature_2m,weather_code,is_day,precipitation_probability&forecast_days=2&timeformat=unixtime&timezone=Europe%2FCopenhagen&models=dmi_seamless';
 const WEATHER_REFRESH_MS = 15 * 60 * 1000;

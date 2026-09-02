@@ -1,6 +1,6 @@
 import { test } from 'node:test';
 import assert from 'node:assert/strict';
-import { clockDate, clockFrame, changedDigits } from '../app/clock-motion.ts';
+import { clockDate, clockFrame, changedDigits } from '../lib/clock-motion.ts';
 
 const at = time => new Date('2026-08-31T' + time + 'Z');
 test('first load has four stable digit slots and no outgoing digits', () => {

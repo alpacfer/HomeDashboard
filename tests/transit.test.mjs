@@ -1,6 +1,6 @@
 import { test } from 'node:test';
 import assert from 'node:assert/strict';
-import { departureTimestamp, filterDepartures, resolveStop } from '../app/transit.ts';
+import { departureTimestamp, filterDepartures, resolveStop } from '../lib/transit.ts';
 
 const now = Date.parse('2026-08-31T18:00:00Z');
 const departure = (overrides = {}) => ({
