@@ -3,7 +3,7 @@
 import { useEffect, useState, type CSSProperties } from 'react';
 import TransportPanel from '@/components/transport-panel';
 import { DAILY_FACT_COUNTRIES, dailyDateKey, validDailyFacts, type DailyFact } from '@/lib/daily-facts';
-import { initialRotation, nextRotation, resumeRotation } from '@/lib/panel-rotation';
+import { initialRotation, nextRotation, pinnedRotation, resumeRotation } from '@/lib/panel-rotation';
 import ForecastMapPanel from '@/components/forecast-map-panel';
 
 const STORAGE_KEY = 'home-dashboard:next-daily-fact:v1';
@@ -94,6 +94,13 @@ export default function RotatingPanel() {
   const [wake, setWake] = useState(0);
 
   useEffect(() => {
+    // Debug mode: a scene named in the URL is held and nothing is scheduled.
+    // See lib/panel-rotation.ts and README.md.
+    const pinned = pinnedRotation(window.location.search, DAILY_FACT_COUNTRIES);
+    if (pinned) {
+      const timer = window.setTimeout(() => setRotation(pinned), 0);
+      return () => window.clearTimeout(timer);
+    }
     let start = 0;
     try {
       const saved = window.localStorage.getItem(STORAGE_KEY)?.match(/^(\d{2}-\d{2}):(\d)$/);
@@ -128,6 +135,7 @@ export default function RotatingPanel() {
     return () => { window.clearTimeout(resetTimer); window.clearTimeout(timer); document.removeEventListener('visibilitychange', visibility); };
   }, [date]);
 
+  const pinned = rotation.duration === 0;
   const showingFact = rotation.phase === 'fact';
   const showingMap = rotation.phase === 'map';
   const showingTransport = rotation.phase === 'transport';
@@ -144,11 +152,13 @@ export default function RotatingPanel() {
     return () => window.clearTimeout(timer);
   }, [facts]);
 
-  return <div className={'rotating-panel' + (!showingTransport ? ' showing-compact-transit' : '') + (showingMap ? ' showing-forecast-map' : '')} style={{ '--screen-duration': rotation.duration + 'ms' } as CSSProperties}>
-    <svg className="screen-progress" key={rotation.phase + '-' + rotation.index + '-' + wake} viewBox="0 0 32 32" role="img" aria-label="Time until the next screen">
-      <circle className="screen-progress-track" cx="16" cy="16" r="13" />
-      <circle className="screen-progress-ring" cx="16" cy="16" r="13" />
-    </svg>
+  return <div className={'rotating-panel' + (!showingTransport ? ' showing-compact-transit' : '') + (showingMap ? ' showing-forecast-map' : '') + (pinned ? ' pinned' : '')} style={{ '--screen-duration': rotation.duration + 'ms' } as CSSProperties}>
+    {pinned
+      ? <span className="scene-pin" role="status">Pinned · {rotation.phase}</span>
+      : <svg className="screen-progress" key={rotation.phase + '-' + rotation.index + '-' + wake} viewBox="0 0 32 32" role="img" aria-label="Time until the next screen">
+        <circle className="screen-progress-track" cx="16" cy="16" r="13" />
+        <circle className="screen-progress-ring" cx="16" cy="16" r="13" />
+      </svg>}
     <div className={'panel-scene transit-scene' + (showingTransport ? ' is-active' : '')}>
       <TransportPanel compact={!showingTransport} />
     </div>

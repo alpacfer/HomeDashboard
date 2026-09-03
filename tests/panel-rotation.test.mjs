@@ -1,6 +1,6 @@
 import { test } from 'node:test';
 import assert from 'node:assert/strict';
-import { initialRotation, nextRotation, resumeRotation, TRANSPORT_MS, FACT_MS, MAP_MS } from '../lib/panel-rotation.ts';
+import { initialRotation, nextRotation, pinnedRotation, resumeRotation, SCENES, TRANSPORT_MS, FACT_MS, MAP_MS } from '../lib/panel-rotation.ts';
 
 const FACT_COUNT = 3;
 
@@ -35,4 +35,19 @@ test('wake resumes transport without replaying the fact just seen', () => {
   assert.deepEqual(resumeRotation(initialRotation(1, FACT_COUNT), FACT_COUNT), initialRotation(1, FACT_COUNT));
   for (const invalid of [NaN, Infinity, -1, 1.5]) assert.equal(initialRotation(invalid, FACT_COUNT).index, 0);
   assert.equal(initialRotation(4, FACT_COUNT).index, 1);
+});
+test('a scene in the URL pins the panel; anything else leaves it rotating', () => {
+  // Debug mode: /?scene=map holds the forecast map on screen. A pinned
+  // rotation has no duration, which is what stops the scheduler.
+  assert.deepEqual(pinnedRotation('?scene=map', FACT_COUNT), { phase:'map', index:0, duration:0 });
+  assert.deepEqual(pinnedRotation('?scene=transport', FACT_COUNT), { phase:'transport', index:0, duration:0 });
+  assert.deepEqual(pinnedRotation('?scene=fact&fact=2', FACT_COUNT), { phase:'fact', index:2, duration:0 });
+  // The fact index wraps and tolerates rubbish, like the saved index does.
+  assert.equal(pinnedRotation('?scene=fact&fact=4', FACT_COUNT).index, 1);
+  assert.equal(pinnedRotation('?scene=fact&fact=abc', FACT_COUNT).index, 0);
+  // A mistyped or absent scene must never leave the display stuck.
+  assert.equal(pinnedRotation('?scene=radar', FACT_COUNT), null);
+  assert.equal(pinnedRotation('?fact=2', FACT_COUNT), null);
+  assert.equal(pinnedRotation('', FACT_COUNT), null);
+  assert.deepEqual([...SCENES], ['transport', 'fact', 'map']);
 });

@@ -129,6 +129,13 @@ export default function ForecastMapPanel({ active }: { active: boolean }) {
     let cancelled = false;
     let busy = false;
     let failures = 0;
+    // After a failure, nothing may ask for the grid before this moment. The
+    // scheduled retry honours it by construction; the scene's own appearance
+    // and a visibility change must honour it too, or a display cycling through
+    // the map once a minute would request a 400-coordinate grid once a minute
+    // for as long as the provider kept refusing, and spend the whole day's
+    // quota inside the first hour of an outage.
+    let allowedAt = 0;
     let timer = 0;
     let inFlight: AbortController | null = null;
     const schedule = (at: number) => {
@@ -197,15 +204,18 @@ export default function ForecastMapPanel({ active }: { active: boolean }) {
           // minutes) so a rate limit or an outage is picked up again as soon
           // as it clears; otherwise wait for the next run.
           const retry = Date.now() + Math.min(CHECK_RETRY_MS * 2 ** Math.max(0, failures - 1), 60 * 60_000);
+          allowedAt = failures ? retry : 0;
           schedule(failures ? retry : nextCheckAt(Date.now(), run));
         }
       }
     };
-    refresh.current = () => void load();
+    refresh.current = () => { if (Date.now() >= allowedAt) void load(); };
     void load();
     const clock = window.setInterval(() => setNowMs(Date.now()), 60_000);
-    const resume = () => { if (!document.hidden) void load(); };
-    window.addEventListener('online', resume);
+    const resume = () => { if (!document.hidden && Date.now() >= allowedAt) void load(); };
+    // Coming back online is the one event that makes an earlier failure moot.
+    const online = () => { allowedAt = 0; resume(); };
+    window.addEventListener('online', online);
     document.addEventListener('visibilitychange', resume);
     return () => {
       cancelled = true;
@@ -213,7 +223,7 @@ export default function ForecastMapPanel({ active }: { active: boolean }) {
       inFlight?.abort();
       window.clearTimeout(timer);
       window.clearInterval(clock);
-      window.removeEventListener('online', resume);
+      window.removeEventListener('online', online);
       document.removeEventListener('visibilitychange', resume);
     };
   }, [mapReady]);
@@ -309,8 +319,14 @@ export default function ForecastMapPanel({ active }: { active: boolean }) {
   // fitted again each time it appears. The first appearance starts the
   // scheduler; after that, the grid is refetched only if the view now reaches
   // past it, and otherwise nothing is requested.
+  //
+  // Measured again when the map becomes ready, not only when the scene
+  // appears: a scene that is on screen before Leaflet has loaded (the pinned
+  // debug view, or a slow first cycle) would otherwise never be measured, the
+  // scheduler would find no view to request for, and the map would say
+  // "Loading forecast" until the scene next came round.
   useEffect(() => {
-    if (!active) return;
+    if (!active || !mapReady) return;
     const resize = window.requestAnimationFrame(() => {
       const nextMap = map.current;
       if (!nextMap) return;
@@ -320,7 +336,7 @@ export default function ForecastMapPanel({ active }: { active: boolean }) {
       if (!held.current || !coversView(held.current.bounds, view.current)) refresh.current();
     });
     return () => window.cancelAnimationFrame(resize);
-  }, [active]);
+  }, [active, mapReady]);
 
   const expired = status === 'ready' && !!grid && !frames.length;
   return <section className={'panel-scene forecast-map-scene' + (active ? ' is-active' : '')} aria-hidden={!active}

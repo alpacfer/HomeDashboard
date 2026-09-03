@@ -16,7 +16,7 @@
 // late the check is retried at a short interval; if the metadata cannot be
 // read at all the grid falls back to a plain three-hour cadence.
 
-import { isQuietHours, quietHoursEnd, GRID_MODEL, type MapBounds, type PrecipitationGrid } from './precipitation-grid';
+import { isQuietHours, quietHoursEnd, GRID_MODEL, GRID_STEPS, type MapBounds, type PrecipitationGrid } from './precipitation-grid';
 
 export const MODEL_META_URL = 'https://api.open-meteo.com/data/' + GRID_MODEL + '/static/meta.json';
 
@@ -63,7 +63,7 @@ export function parseModelRun(payload: unknown): ModelRun | null {
 
 export type RefreshInput = {
   now: number;
-  grid: Pick<PrecipitationGrid, 'run' | 'fetchedAt' | 'bounds'> | null;
+  grid: Pick<PrecipitationGrid, 'run' | 'fetchedAt' | 'bounds' | 'frames'> | null;
   run: ModelRun | null;
   view: MapBounds | null;
   covers: (grid: MapBounds, view: MapBounds) => boolean;
@@ -72,9 +72,23 @@ export type RefreshInput = {
 // Whether a grid request is worth making right now. Every branch is a reason a
 // request would show something different from what is on screen; there is no
 // branch for "it has been a while".
+//
+// The frames branch is the safety net under the metadata. The grid's twelve
+// hours are counted from when it was fetched, not from the run, so a grid is
+// only good for as long as its frames reach. Normally a newer run appears
+// every three hours and the run comparison refetches long before that
+// matters. But the metadata file is a separate pipeline from the forecast
+// itself, and it has been seen stuck on an old run and answering 500 for
+// hours while the forecast data kept updating. Trusting it alone left the map
+// holding a grid whose every frame had passed, reporting the forecast as
+// expired and waiting for a run announcement that never came. Once fewer
+// frames remain than the map shows, the grid is refetched whatever the
+// metadata says: that costs nothing in the normal case and ends the stall in
+// the broken one.
 export function shouldFetchGrid({ now, grid, run, view, covers }: RefreshInput) {
   if (!grid) return true;
   if (view && !covers(grid.bounds, view)) return true;
+  if (grid.frames.filter(frame => frame.timestamp > now).length < GRID_STEPS) return true;
   if (run) return grid.run !== run.initialised;
   return now - grid.fetchedAt >= GRID_FALLBACK_MS;
 }

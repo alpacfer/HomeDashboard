@@ -27,7 +27,7 @@ body { color:var(--foreground); font-family:'Space Grotesk',Arial,Helvetica,sans
    through it, so the gaps above the card, between it and the ribbon, and down
    to the week strip come out alike instead of the slack pooling at the bottom. */
 .weather-band { flex:1; min-height:0; display:flex; flex-direction:column; justify-content:space-evenly; gap:2.2vh; overflow:hidden; }
-.weather { position:relative; display:grid; grid-template-columns:4.2vw minmax(0,1fr); grid-template-rows:6.4vw auto; align-items:center; column-gap:1.1vw; color:var(--accent); padding:.6vw var(--panel-inset); border-radius:.65vw; background:var(--sky-tint); box-shadow:inset 0 0 0 1px var(--sky-ring); }
+.weather { position:relative; flex-shrink:0; display:grid; grid-template-columns:4.2vw minmax(0,1fr); grid-template-rows:6.4vw auto; align-items:center; column-gap:1.1vw; color:var(--accent); padding:.6vw var(--panel-inset); border-radius:.65vw; background:var(--sky-tint); box-shadow:inset 0 0 0 1px var(--sky-ring); }
 /* The sky sets the palette. Each condition names the colour its icon and degree
    sign take, the tint behind the card, and its ring, so the card shifts from
    amber under sun to slate under cloud to blue in rain while the headline stays
@@ -51,11 +51,15 @@ a:focus-visible { outline:2px solid var(--foreground); outline-offset:8px; }
    below only refines when and how hard. */
 .weather-headline { grid-column:1 / -1; grid-row:2; margin-top:.4vh; font-size:1.65vw; font-weight:700; line-height:1.15; letter-spacing:-.01em; }
 
-.rain-ribbon { --ribbon-gap:.28vw; display:flex; flex-direction:column; padding:0 var(--panel-inset); }
+/* The ribbon gives way before anything else does. On a screen wider than 16:9
+   the vw-sized type outgrows the vh-sized heights, and it is the track and the
+   bars that shrink, never the tick row: a chart with no times under it is the
+   one thing that must not happen. */
+.rain-ribbon { --ribbon-gap:.28vw; display:flex; flex-direction:column; min-height:0; padding:0 var(--panel-inset); }
 .ribbon-heading { display:flex; align-items:baseline; justify-content:space-between; gap:1vw; margin-bottom:1.1vh; }
 .ribbon-heading h2 { margin:0; color:var(--muted); font-size:clamp(11px,1vw,22px); text-transform:uppercase; letter-spacing:.08em; }
 .ribbon-heading span { color:var(--muted); font-size:1.15vw; font-variant-numeric:tabular-nums; }
-.temperature-track { position:relative; width:100%; height:7vh; margin-top:.4vh; }
+.temperature-track { position:relative; width:100%; height:7vh; min-height:3.5vh; margin-top:.4vh; }
 .temperature-track svg { display:block; width:100%; height:100%; overflow:visible; }
 .temperature-track polyline { fill:none; stroke:var(--accent); stroke-width:2.2; stroke-linejoin:round; stroke-linecap:round; vector-effect:non-scaling-stroke; }
 /* Marks share the bars' column grid so each number sits over the clock time it
@@ -63,7 +67,7 @@ a:focus-visible { outline:2px solid var(--foreground); outline-offset:8px; }
    number, so the line reads as running through it rather than under it. */
 .track-marks { position:absolute; inset:0; display:grid; grid-template-columns:repeat(var(--columns),1fr); grid-template-rows:100%; gap:var(--ribbon-gap); pointer-events:none; }
 .track-marks span { position:relative; top:calc(var(--y) * 1%); justify-self:center; align-self:start; transform:translateY(-50%); padding:.25vh .32vw; border-radius:.3vw; background:var(--background); color:var(--accent); font-size:1.05vw; font-weight:700; line-height:1; letter-spacing:-.02em; white-space:nowrap; font-variant-numeric:lining-nums tabular-nums; }
-.ribbon-bars { display:grid; grid-template-columns:repeat(var(--columns),1fr); gap:var(--ribbon-gap); align-items:end; height:9vh; margin-top:.6vh; border-bottom:1px solid #303035; }
+.ribbon-bars { display:grid; grid-template-columns:repeat(var(--columns),1fr); gap:var(--ribbon-gap); align-items:end; height:9vh; min-height:3vh; margin-top:.6vh; border-bottom:1px solid #303035; }
 /* A dry hour is a tick on the baseline, not a filled column: giving every slot
    a track background made dry hours read as data. */
 .ribbon-bar { display:flex; align-items:flex-end; height:100%; }
@@ -120,6 +124,10 @@ a:focus-visible { outline:2px solid var(--foreground); outline-offset:8px; }
 .screen-progress-track { stroke:#303035; }
 .screen-progress-ring { stroke:var(--muted); stroke-linecap:round; stroke-dasharray:81.6814; stroke-dashoffset:0; transform:rotate(-90deg); transform-origin:16px 16px; animation:screen-countdown var(--screen-duration) linear both; }
 .showing-forecast-map .screen-progress { top:1vw; right:1vw; z-index:700; padding:.18vw; border-radius:50%; background:rgba(17,17,19,.72); }
+/* Debug mode: the badge takes the ring's place so a pinned display is never
+   mistaken for a live one. See lib/panel-rotation.ts. */
+.scene-pin { position:absolute; top:.3vh; right:0; z-index:1; padding:.25vw .5vw; border:1px solid #45454d; border-radius:.3vw; color:var(--muted); font-size:clamp(10px,.8vw,16px); font-weight:700; letter-spacing:.1em; text-transform:uppercase; }
+.showing-forecast-map .scene-pin { top:1vw; right:1vw; z-index:700; background:rgba(17,17,19,.72); }
 .panel-scene { grid-area:1 / 1; min-width:0; }
 .panel-scene[hidden] { display:none; }
 .panel-scene.is-active { animation:panel-arrive 450ms ease-out both; }

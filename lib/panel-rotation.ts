@@ -22,3 +22,19 @@ export function nextRotation(current: Rotation, count: number): Rotation {
 export function resumeRotation(current: Rotation, count: number): Rotation {
   return initialRotation(current.index + (current.phase === 'transport' ? 0 : 1), count);
 }
+
+// Debug mode. `/?scene=map` pins the rotating panel to one scene so a change
+// to it can be seen without waiting for the rotation to come round. `scene` is
+// one of the phases; `fact` picks which daily fact (zero-based, wrapped like
+// the saved index). Anything unrecognised is ignored and the panel rotates as
+// normal, so a mistyped URL can never leave the display stuck. A pinned
+// rotation has no duration: nothing is scheduled after it.
+export const SCENES: ReadonlyArray<Rotation['phase']> = ['transport', 'fact', 'map'];
+
+export function pinnedRotation(search: string, count: number): Rotation | null {
+  const params = new URLSearchParams(search);
+  const scene = params.get('scene');
+  if (!scene || !SCENES.includes(scene as Rotation['phase'])) return null;
+  const index = params.has('fact') ? Number(params.get('fact')) : 0;
+  return { phase: scene as Rotation['phase'], index: initialRotation(index, count).index, duration: 0 };
+}

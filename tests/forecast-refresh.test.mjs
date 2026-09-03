@@ -21,6 +21,8 @@ const RUN = parseModelRun(META);
 const HOUR = 3600_000;
 // 15:00 Copenhagen on 3 September 2026 (CEST is UTC+2).
 const AFTERNOON = Date.UTC(2026, 8, 3, 13, 0);
+// Twelve hours of 15-minute frames starting at `from`, like a freshly fetched grid.
+const frames = (from, hours = 12) => Array.from({ length: hours * 4 }, (_, step) => ({ timestamp: from + step * 15 * 60_000, cells: [] }));
 
 test('the metadata file is the one for the model the grid requests', () => {
   assert.equal(MODEL_META_URL, 'https://api.open-meteo.com/data/' + GRID_MODEL + '/static/meta.json');
@@ -39,7 +41,7 @@ test('parses run metadata into milliseconds and rejects anything incomplete', ()
 });
 
 test('the grid is fetched only for a reason that changes what is on screen', () => {
-  const held = { run: RUN.initialised, fetchedAt: AFTERNOON - HOUR, bounds: { south: 55.5, west: 12, north: 56, east: 13 } };
+  const held = { run: RUN.initialised, fetchedAt: AFTERNOON - HOUR, bounds: { south: 55.5, west: 12, north: 56, east: 13 }, frames: frames(AFTERNOON - HOUR) };
   const view = MAP_BOUNDS;
   const input = { now: AFTERNOON, grid: held, run: RUN, view, covers: coversView };
   // Same run, view covered: nothing to gain.
@@ -56,8 +58,28 @@ test('the grid is fetched only for a reason that changes what is on screen', () 
   assert.equal(shouldFetchGrid({ ...input, view: null }), false);
 });
 
+test('a grid running out of frames is refetched whatever the metadata says', () => {
+  // The metadata is a separate pipeline from the forecast and has been seen
+  // stuck on an old run for hours. If the run comparison were the only rule,
+  // the map would sit on frames that had all passed, announcing the forecast
+  // as expired and waiting for a run that the metadata never named.
+  const fetchedAt = AFTERNOON - 7 * HOUR;
+  const held = { run: RUN.initialised, fetchedAt, bounds: { south: 55.5, west: 12, north: 56, east: 13 }, frames: frames(fetchedAt) };
+  const input = { grid: held, run: RUN, view: MAP_BOUNDS, covers: coversView };
+  // Six hours in, six hours of frames remain: exactly what the map shows, so
+  // there is nothing to gain yet.
+  assert.equal(shouldFetchGrid({ ...input, now: fetchedAt + 6 * HOUR - 15 * 60_000 }), false);
+  // A quarter of an hour later the window would come up short: refetch, even
+  // though the metadata still names the run the grid was built from.
+  assert.equal(shouldFetchGrid({ ...input, now: fetchedAt + 6 * HOUR }), true);
+  // Every frame has passed: certainly refetch, with or without metadata.
+  assert.equal(shouldFetchGrid({ ...input, now: fetchedAt + 13 * HOUR }), true);
+  assert.equal(shouldFetchGrid({ ...input, now: fetchedAt + 13 * HOUR, run: null }), true);
+});
+
 test('without metadata the grid falls back to a three-hour cadence', () => {
-  const grid = { run: null, fetchedAt: AFTERNOON - GRID_FALLBACK_MS + 60_000, bounds: { south: 55.5, west: 12, north: 56, east: 13 } };
+  const fetchedAt = AFTERNOON - GRID_FALLBACK_MS + 60_000;
+  const grid = { run: null, fetchedAt, bounds: { south: 55.5, west: 12, north: 56, east: 13 }, frames: frames(fetchedAt) };
   assert.equal(shouldFetchGrid({ now: AFTERNOON, grid, run: null, view: MAP_BOUNDS, covers: coversView }), false);
   assert.equal(shouldFetchGrid({ now: AFTERNOON + 60_000, grid, run: null, view: MAP_BOUNDS, covers: coversView }), true);
 });

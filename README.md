@@ -60,6 +60,25 @@ network, run `npm start -- --hostname 0.0.0.0` after building. Render uses
 `npm run start:render`, which binds `0.0.0.0` by default. See
 [docs/DEPLOYMENT.md](docs/DEPLOYMENT.md).
 
+### Pin a scene
+
+The right-hand panel rotates through transport, a daily fact and the forecast
+map on a one-minute cycle. To hold one scene on screen, name it in the URL:
+
+```text
+http://localhost:3000/?scene=map
+http://localhost:3000/?scene=transport
+http://localhost:3000/?scene=fact&fact=1
+```
+
+`scene` is `transport`, `fact` or `map`. `fact` is the zero-based index of the
+daily fact and wraps. A pinned display shows a `Pinned` badge where the
+rotation ring normally is, schedules nothing, and never leaves the scene. An
+unrecognised value is ignored and the panel rotates as usual, so a mistyped
+URL cannot leave the wall display stuck. This is the standard way to reach a
+scene when checking a change, and it works against the deployed site too. The
+parsing lives in `lib/panel-rotation.ts`.
+
 ## Configuration
 
 Copy `.env.example` to `.env.local` if you need to configure the optional

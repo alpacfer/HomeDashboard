@@ -2,7 +2,7 @@ import { test } from 'node:test';
 import assert from 'node:assert/strict';
 import {
   cellAt, cellBand, cellCentres, coversView, DEFAULT_GRID, displayFrames, frameInterval, futureFrames, GRID_FETCH_STEPS,
-  GRID_HOURS, GRID_STEP_MINUTES, GRID_STEPS, gridForView, hasPrecipitation, isQuietHours, MAP_BOUNDS, MAX_GRID_POINTS,
+  GRID_HOURS, GRID_STEP_MINUTES, GRID_STEPS, gridForView, hasPrecipitation, isQuietHours, MAP_BOUNDS, MAX_GRID_POINTS, MAX_URL_LENGTH,
   parsePrecipitationGrid, playheadPosition, precipitationGridUrl, quietHoursEnd, SEQUENCE_LOOPS, timelineTicks,
 } from '../lib/precipitation-grid.ts';
 import { MAP_MS } from '../lib/panel-rotation.ts';
@@ -276,4 +276,30 @@ test('the sequence is paced to play twice while the scene is on screen', () => {
   }
   assert.equal(frameInterval(0, MAP_MS), 0, 'no frames means no timer');
   assert.equal(frameInterval(10, 0), 0);
+});
+
+test('the grid request always fits inside the 8 KB request line Open-Meteo accepts', () => {
+  // A 437-point grid at four decimals was 8.7 KB and answered 414, with no CORS
+  // header, so the browser saw a network failure and the map never loaded at
+  // the Fire TV's own resolution. The point cap alone does not protect against
+  // that; the URL itself has to be bounded.
+  assert.ok(MAX_URL_LENGTH <= 8192 - 'GET  HTTP/1.1'.length - 200, 'budget leaves room for the request line and headers nginx counts');
+  const views = [
+    MAP_BOUNDS,
+    // The frame as measured at 1280 x 720: this is the one that failed.
+    { south: 55.5858, west: 11.926, north: 56.0197, east: 12.9251 },
+    // Wider, taller, and absurd.
+    { south: 55.56, west: 11.9, north: 56.04, east: 12.95 },
+    { south: 55.3, west: 11.5, north: 56.3, east: 13.3 },
+    { south: 54, west: 8, north: 58, east: 16 },
+  ];
+  for (const view of views) {
+    const spec = gridForView(view);
+    const url = precipitationGridUrl(spec);
+    assert.ok(url.length <= MAX_URL_LENGTH, JSON.stringify(view) + ' produced ' + url.length + ' characters for ' + spec.columns * spec.rows + ' points');
+    assert.ok(spec.columns * spec.rows <= MAX_GRID_POINTS);
+  }
+  // The budget is used, not wasted: the TV frame still gets a dense lattice.
+  const tv = gridForView(views[1]);
+  assert.ok(tv.columns * tv.rows >= 380, 'only ' + tv.columns * tv.rows + ' points at the TV frame');
 });

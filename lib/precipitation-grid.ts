@@ -60,6 +60,18 @@ export const CELL_KM = 2;
 // gives. The smoothing when it is drawn makes the difference invisible; the
 // limit is the API's, not the model's.
 export const MAX_GRID_POINTS = 450;
+// The coordinates travel in the query string, and Open-Meteo's nginx refuses a
+// request line over 8 KB with a 414 that carries no CORS header, which the
+// browser reports as a generic network failure. At the Fire TV's 1280 x 720
+// the frame asked for 437 points, and at four decimals that was 8.7 KB: the
+// map could never load there and said "temporarily unavailable" for good. So
+// the lattice is bounded by URL length as well as by point count, with the
+// budget kept well under the limit, and coordinates carry three decimals
+// (about 100 m, against 2 km cells). This binds before MAX_GRID_POINTS does.
+export const MAX_URL_LENGTH = 7800;
+const COORDINATE_DECIMALS = 3;
+// "55.738%2C" and "12.538%2C": two coordinates of this many characters each.
+const CHARS_PER_POINT = 2 * (3 + COORDINATE_DECIMALS + 3);
 // The map shows the next six hours, but twelve are fetched. A run is refetched
 // only when a new one is published (see lib/forecast-refresh.ts), and that can
 // be three hours apart or longer over the quiet hours, so the sequence needs
@@ -93,16 +105,22 @@ function validBounds(bounds: MapBounds) {
 // smoothed edge of the image never shows inside the frame, and the bounds of
 // the lattice centred on the view. A degenerate view (a container that has not
 // been laid out yet) falls back to the framing box rather than a zero-size grid.
+// The model is named outright rather than through `dmi_seamless` so the
+// request matches the run metadata in lib/forecast-refresh.ts. Within twelve
+// hours the two are the same Harmonie data.
+export const GRID_MODEL = 'dmi_harmonie_arome_europe';
+
 export function gridForView(view: MapBounds): GridSpec {
   const safe = validBounds(view) ? view : MAP_BOUNDS;
   const middle = (safe.north + safe.south) / 2;
   const heightKm = (safe.north - safe.south) * KM_PER_DEGREE;
   const widthKm = (safe.east - safe.west) * KM_PER_DEGREE * Math.cos(middle * RADIANS);
+  const maxPoints = Math.min(MAX_GRID_POINTS, Math.floor((MAX_URL_LENGTH - urlOverhead()) / CHARS_PER_POINT));
   let spacing = CELL_KM;
   let columns = Math.ceil(widthKm / spacing) + 2;
   let rows = Math.ceil(heightKm / spacing) + 2;
-  while (columns * rows > MAX_GRID_POINTS) {
-    spacing *= Math.sqrt(columns * rows / MAX_GRID_POINTS) * 1.01;
+  while (columns * rows > maxPoints) {
+    spacing *= Math.sqrt(columns * rows / maxPoints) * 1.01;
     columns = Math.ceil(widthKm / spacing) + 2;
     rows = Math.ceil(heightKm / spacing) + 2;
   }
@@ -160,16 +178,11 @@ export function cellAt(index: number, { bounds, columns, rows }: GridSpec): Cell
   };
 }
 
-// The model is named outright rather than through `dmi_seamless` so the
-// request matches the run metadata in lib/forecast-refresh.ts. Within twelve
-// hours the two are the same Harmonie data.
-export const GRID_MODEL = 'dmi_harmonie_arome_europe';
-
 export function precipitationGridUrl(spec: GridSpec, steps = GRID_FETCH_STEPS) {
   const centres = cellCentres(spec);
   const query = new URLSearchParams({
-    latitude: centres.map(centre => centre.latitude.toFixed(4)).join(','),
-    longitude: centres.map(centre => centre.longitude.toFixed(4)).join(','),
+    latitude: centres.map(centre => centre.latitude.toFixed(COORDINATE_DECIMALS)).join(','),
+    longitude: centres.map(centre => centre.longitude.toFixed(COORDINATE_DECIMALS)).join(','),
     minutely_15: 'precipitation',
     forecast_minutely_15: String(steps),
     timeformat: 'unixtime',
@@ -177,6 +190,12 @@ export function precipitationGridUrl(spec: GridSpec, steps = GRID_FETCH_STEPS) {
     models: GRID_MODEL,
   });
   return 'https://api.open-meteo.com/v1/forecast?' + query.toString();
+}
+
+// Everything in the URL that is not a coordinate, measured rather than guessed
+// so the point budget above cannot drift from the real request.
+function urlOverhead() {
+  return precipitationGridUrl({ bounds: MAP_BOUNDS, columns: 0, rows: 0, spacingKm: CELL_KM }).length;
 }
 
 type Location = { minutely_15?: { time?: unknown; precipitation?: unknown } };

@@ -95,7 +95,10 @@ and capture a screenshot of the relevant state before delivering. Show that
 screenshot in the final response.
 
 Use the smallest screenshot that demonstrates the change: the clock and date
-area for a clock change, the relevant panel for a rotating-panel change.
+area for a clock change, the relevant panel for a rotating-panel change. To
+reach a rotating scene without waiting for the cycle, pin it with
+`/?scene=map`, `/?scene=transport` or `/?scene=fact&fact=N`; this is the
+standard debug mode and is documented in [README.md](README.md).
 Recheck both the 16:9 layout and the narrow (`max-aspect-ratio: 5/4`) layout
 when responsive CSS is affected, and check the reduced-motion path when
 animation is touched. **Test at 1280 x 720**, the Fire TV's actual resolution.
