@@ -3,16 +3,13 @@
 import { useEffect, useMemo, useRef, useState } from 'react';
 import type { Map } from 'leaflet';
 import {
-  cellAt, cellBand, frameInterval, futureFrames, GRID_HOURS, hasPrecipitation, isQuietHours, MAP_BOUNDS,
-  parsePrecipitationGrid, playheadPosition, precipitationGridUrl, SEQUENCE_LOOPS, timelineTicks,
-  type GridFrame, type PrecipitationGrid,
+  cellBand, coversView, displayFrames, frameInterval, GRID_HOURS, gridForView, hasPrecipitation, isQuietHours, MAP_BOUNDS,
+  parsePrecipitationGrid, playheadPosition, precipitationGridUrl, quietHoursEnd, SEQUENCE_LOOPS, timelineTicks,
+  type GridFrame, type MapBounds, type PrecipitationGrid,
 } from '@/lib/precipitation-grid';
+import { CHECK_RETRY_MS, MODEL_META_URL, nextCheckAt, parseModelRun, shouldFetchGrid, type ModelRun } from '@/lib/forecast-refresh';
 import { MAP_MS } from '@/lib/panel-rotation';
 
-// The grid is model output that updates hourly at best, so refetching faster
-// buys nothing, and one request carries 270 coordinates. Hourly keeps this far
-// inside Open-Meteo's fair use even if every coordinate counts as a call.
-const REFRESH_MS = 60 * 60 * 1000;
 const HOME: [number, number] = [55.73825, 12.53836];
 const PLACES: Array<{ label: string; coordinates: [number, number]; home?: boolean }> = [
   { label: 'Home', coordinates: HOME, home: true },
@@ -21,13 +18,15 @@ const PLACES: Array<{ label: string; coordinates: [number, number]; home?: boole
 ];
 // The same intensity bands as the pinned forecast ribbon, so a colour means the
 // same thing on the map as it does in the panel. Alpha keeps the coastline
-// readable underneath.
-const BAND_FILL: Record<string, string> = {
-  trace: 'rgba(63,107,133,.62)',
-  light: 'rgba(79,147,184,.72)',
-  moderate: 'rgba(116,202,255,.78)',
-  heavy: 'rgba(184,228,255,.85)',
+// readable underneath. Stored as bytes because they are written into an
+// ImageData rather than used as fill styles.
+const BAND_RGBA: Record<string, [number, number, number, number]> = {
+  trace: [63, 107, 133, 158],
+  light: [79, 147, 184, 184],
+  moderate: [116, 202, 255, 199],
+  heavy: [184, 228, 255, 217],
 };
+const FIT_OPTIONS = { animate: false, maxZoom: 12, padding: [18, 18] as [number, number] };
 const frameTime = new Intl.DateTimeFormat('en-GB', {
   timeZone: 'Europe/Copenhagen',
   hour: '2-digit',
@@ -40,9 +39,14 @@ type MapStatus = 'loading' | 'ready' | 'error';
 export default function ForecastMapPanel({ active }: { active: boolean }) {
   const canvas = useRef<HTMLDivElement>(null);
   const overlay = useRef<HTMLCanvasElement | null>(null);
+  const image = useRef<HTMLCanvasElement | null>(null);
   const map = useRef<Map | null>(null);
-  const leaflet = useRef<typeof import('leaflet') | null>(null);
-  const hasGrid = useRef(false);
+  const held = useRef<PrecipitationGrid | null>(null);
+  // The view as measured the last time the scene was on screen. The frame is
+  // a different size while hidden, so the live bounds cannot be trusted then;
+  // every request and every coverage check uses this instead.
+  const view = useRef<MapBounds | null>(null);
+  const refresh = useRef<() => void>(() => undefined);
   const [mapReady, setMapReady] = useState(false);
   const [grid, setGrid] = useState<PrecipitationGrid | null>(null);
   const [frameIndex, setFrameIndex] = useState(0);
@@ -53,7 +57,6 @@ export default function ForecastMapPanel({ active }: { active: boolean }) {
     let cancelled = false;
     void import('leaflet').then(L => {
       if (cancelled || !canvas.current) return;
-      leaflet.current = L;
       const nextMap = L.map(canvas.current, {
         attributionControl: false,
         boxZoom: false,
@@ -87,7 +90,7 @@ export default function ForecastMapPanel({ active }: { active: boolean }) {
           permanent: true,
         });
       }
-      nextMap.fitBounds([[MAP_BOUNDS.south, MAP_BOUNDS.west], [MAP_BOUNDS.north, MAP_BOUNDS.east]], { animate: false, maxZoom: 12, padding: [18, 18] });
+      nextMap.fitBounds([[MAP_BOUNDS.south, MAP_BOUNDS.west], [MAP_BOUNDS.north, MAP_BOUNDS.east]], FIT_OPTIONS);
       map.current = nextMap;
       setMapReady(true);
     }).catch(() => {
@@ -97,68 +100,129 @@ export default function ForecastMapPanel({ active }: { active: boolean }) {
       cancelled = true;
       map.current?.remove();
       map.current = null;
-      leaflet.current = null;
     };
   }, []);
 
+  // What the map is showing, in degrees, or null while the container has no
+  // size. Read only while the scene is active; see `view`.
+  const viewBounds = (): MapBounds | null => {
+    const nextMap = map.current;
+    const element = canvas.current;
+    if (!nextMap || !element || !element.clientWidth || !element.clientHeight) return null;
+    const bounds = nextMap.getBounds();
+    return { south: bounds.getSouth(), west: bounds.getWest(), north: bounds.getNorth(), east: bounds.getEast() };
+  };
+
+  // One scheduler, one pending timer. Each pass reads the run metadata (a
+  // kilobyte, CDN-cached) and fetches the grid only when that names a run the
+  // map does not hold, or the view has outgrown the grid. It then books the
+  // next pass for when the following run is expected, or for 06:00 if that
+  // would fall in the quiet hours. See lib/forecast-refresh.ts.
+  //
+  // Nothing is requested before the scene has been on screen once, and the
+  // lattice is always built for the view measured then. The frame is a
+  // different size while hidden, so a grid fetched for the hidden layout would
+  // be refetched for the real view at the next appearance, and two grid
+  // requests inside a minute is more than Open-Meteo allows.
   useEffect(() => {
+    if (!mapReady) return;
     let cancelled = false;
-    let pending = false;
+    let busy = false;
+    let failures = 0;
+    let timer = 0;
     let inFlight: AbortController | null = null;
-    const load = async () => {
-      if (pending || document.hidden) return;
-      setNowMs(Date.now());
-      // Nobody is watching between midnight and 03:00, so the request is not
-      // spent. Whatever is already loaded keeps playing.
-      if (isQuietHours(Date.now()) && hasGrid.current) return;
-      pending = true;
-      // One controller per request: a shared signal stays aborted once its
-      // timeout fires, which would silently kill every later refresh on a
-      // display that is never reloaded.
+    const schedule = (at: number) => {
+      window.clearTimeout(timer);
+      timer = window.setTimeout(() => void load(), Math.max(1_000, at - Date.now()));
+    };
+    // One controller per request: a shared signal stays aborted once its
+    // timeout fires, which would silently kill every later refresh on a
+    // display that is never reloaded.
+    const fetchJson = async (url: string, timeoutMs: number): Promise<unknown> => {
       const controller = new AbortController();
       inFlight = controller;
-      const timeout = window.setTimeout(() => controller.abort(), 15_000);
+      const timeout = window.setTimeout(() => controller.abort(), timeoutMs);
       try {
-        const response = await fetch(precipitationGridUrl(), { signal: controller.signal, cache: 'no-store' });
-        if (!response.ok) throw new Error('Forecast map unavailable');
-        const parsed = parsePrecipitationGrid(await response.json());
-        if (!parsed) throw new Error('Invalid forecast grid');
-        if (!cancelled) {
-          hasGrid.current = true;
-          setGrid(parsed);
-          setNowMs(Date.now());
-          setStatus('ready');
-        }
-      } catch {
-        // A failed refresh keeps the previous forecast on screen. It is still
-        // a forecast, and its own frame times say how much of it is left.
-        if (!cancelled && !hasGrid.current) setStatus('error');
+        const response = await fetch(url, { signal: controller.signal, cache: 'no-cache' });
+        if (!response.ok) throw new Error('Forecast unavailable');
+        return await response.json();
       } finally {
         window.clearTimeout(timeout);
         if (inFlight === controller) inFlight = null;
-        pending = false;
       }
     };
+    const load = async () => {
+      if (busy || cancelled || document.hidden || !view.current) return;
+      const now = Date.now();
+      setNowMs(now);
+      // Nothing is requested in the quiet hours unless there is nothing on
+      // screen at all. Whatever is already loaded keeps playing.
+      if (isQuietHours(now) && held.current) {
+        schedule(quietHoursEnd(now));
+        return;
+      }
+      busy = true;
+      let run: ModelRun | null = null;
+      try {
+        try {
+          run = parseModelRun(await fetchJson(MODEL_META_URL, 10_000));
+        } catch {
+          // Unreadable metadata is not fatal: the grid falls back to a plain
+          // three-hour cadence until it can be read again.
+          run = null;
+        }
+        if (cancelled) return;
+        if (shouldFetchGrid({ now, grid: held.current, run, view: view.current, covers: coversView })) {
+          const spec = gridForView(view.current ?? MAP_BOUNDS);
+          try {
+            const parsed = parsePrecipitationGrid(await fetchJson(precipitationGridUrl(spec), 15_000), spec, run?.initialised ?? null, Date.now());
+            if (!parsed) throw new Error('Invalid forecast grid');
+            if (cancelled) return;
+            failures = 0;
+            held.current = parsed;
+            setGrid(parsed);
+            setNowMs(Date.now());
+            setStatus('ready');
+          } catch {
+            // A failed refresh keeps the previous forecast on screen. It is
+            // still a forecast, and its own frame times say how much is left.
+            failures += 1;
+            if (!cancelled && !held.current) setStatus('error');
+          }
+        }
+      } finally {
+        busy = false;
+        if (!cancelled) {
+          // After a failure, retry soon and back off (5, 10, 20, 40, then 60
+          // minutes) so a rate limit or an outage is picked up again as soon
+          // as it clears; otherwise wait for the next run.
+          const retry = Date.now() + Math.min(CHECK_RETRY_MS * 2 ** Math.max(0, failures - 1), 60 * 60_000);
+          schedule(failures ? retry : nextCheckAt(Date.now(), run));
+        }
+      }
+    };
+    refresh.current = () => void load();
     void load();
-    const refresh = window.setInterval(load, REFRESH_MS);
     const clock = window.setInterval(() => setNowMs(Date.now()), 60_000);
     const resume = () => { if (!document.hidden) void load(); };
     window.addEventListener('online', resume);
     document.addEventListener('visibilitychange', resume);
     return () => {
       cancelled = true;
+      refresh.current = () => undefined;
       inFlight?.abort();
-      window.clearInterval(refresh);
+      window.clearTimeout(timer);
       window.clearInterval(clock);
       window.removeEventListener('online', resume);
       document.removeEventListener('visibilitychange', resume);
     };
-  }, []);
+  }, [mapReady]);
 
-  // Only frames still ahead of now are animated: after a night without a
-  // refresh the start of the sequence describes hours that are already over.
-  const frames = useMemo(() => grid && nowMs ? futureFrames(grid, nowMs) : [], [grid, nowMs]);
-  const wet = useMemo(() => !!grid && hasPrecipitation(grid), [grid]);
+  // The next six hours of whatever is still ahead of now. Twelve are held, so
+  // the window stays six hours long between refreshes; after a night without
+  // one, the part of the sequence that is already over is skipped.
+  const frames = useMemo(() => grid && nowMs ? displayFrames(grid, nowMs) : [], [grid, nowMs]);
+  const wet = useMemo(() => hasPrecipitation(frames), [frames]);
   const frame: GridFrame | null = frames.length ? frames[Math.min(frameIndex, frames.length - 1)] ?? null : null;
   const ticks = useMemo(() => timelineTicks(frames), [frames]);
   const playhead = playheadPosition(frames, frameIndex);
@@ -173,9 +237,11 @@ export default function ForecastMapPanel({ active }: { active: boolean }) {
   }, [frame, nowMs]);
 
   // The map never pans or zooms, so the overlay is a plain canvas sized to the
-  // map container and addressed in container pixels. That avoids Leaflet's pane
-  // transforms entirely, needs no move listeners, and costs one fillRect per
-  // wet cell: far cheaper than the raster tiles this panel used to draw.
+  // map container and addressed in container pixels. Each frame is written as
+  // a tiny image, one pixel per grid cell, and drawn scaled over the grid's
+  // bounds with the browser's own smoothing. That turns the 2 km cells into a
+  // continuous field instead of a mosaic without asking the model for detail
+  // it does not have, and costs one drawImage per frame.
   useEffect(() => {
     const surface = overlay.current;
     const nextMap = map.current;
@@ -195,19 +261,30 @@ export default function ForecastMapPanel({ active }: { active: boolean }) {
       surface.height = height;
     }
     context.clearRect(0, 0, width, height);
-    if (!frame) return;
+    if (!frame || !grid) return;
+    const { columns, rows, bounds } = grid;
+    const source = image.current ?? (image.current = document.createElement('canvas'));
+    if (source.width !== columns || source.height !== rows) {
+      source.width = columns;
+      source.height = rows;
+    }
+    const pixels = source.getContext('2d');
+    if (!pixels) return;
+    const data = pixels.createImageData(columns, rows);
+    // Cells run row-major from the south-west; image rows run from the top.
     frame.cells.forEach((millimetres, index) => {
-      const fill = BAND_FILL[cellBand(millimetres)];
-      if (!fill) return;
-      const cell = cellAt(index);
-      const topLeft = nextMap.latLngToContainerPoint([cell.north, cell.west]);
-      const bottomRight = nextMap.latLngToContainerPoint([cell.south, cell.east]);
-      context.fillStyle = fill;
-      // Rounding leaves hairline seams between neighbours, so each cell is
-      // drawn a pixel wider and taller than its own box.
-      context.fillRect(topLeft.x, topLeft.y, bottomRight.x - topLeft.x + 1, bottomRight.y - topLeft.y + 1);
+      const rgba = BAND_RGBA[cellBand(millimetres)];
+      if (!rgba) return;
+      const row = rows - 1 - Math.floor(index / columns);
+      data.data.set(rgba, (row * columns + index % columns) * 4);
     });
-  }, [mapReady, frame, nowMs]);
+    pixels.putImageData(data, 0, 0);
+    const topLeft = nextMap.latLngToContainerPoint([bounds.north, bounds.west]);
+    const bottomRight = nextMap.latLngToContainerPoint([bounds.south, bounds.east]);
+    context.imageSmoothingEnabled = true;
+    context.imageSmoothingQuality = 'high';
+    context.drawImage(source, topLeft.x, topLeft.y, bottomRight.x - topLeft.x, bottomRight.y - topLeft.y);
+  }, [mapReady, grid, frame, nowMs]);
 
   // A continuous loop, every frame the same length, no frame held. A static
   // image of now tells you nothing a number could not; the movement is the
@@ -224,14 +301,28 @@ export default function ForecastMapPanel({ active }: { active: boolean }) {
     };
     advance();
     const timer = window.setInterval(advance, interval);
-    const resize = window.requestAnimationFrame(() => map.current?.invalidateSize({ animate: false }));
-    return () => {
-      window.clearInterval(timer);
-      window.cancelAnimationFrame(resize);
-    };
+    return () => window.clearInterval(timer);
   }, [active, frames]);
 
-  const expired = status === 'ready' && !frames.length;
+  // The scene is laid out differently while it is hidden (the mini transit
+  // strip only appears once it is on screen), so the map is measured and
+  // fitted again each time it appears. The first appearance starts the
+  // scheduler; after that, the grid is refetched only if the view now reaches
+  // past it, and otherwise nothing is requested.
+  useEffect(() => {
+    if (!active) return;
+    const resize = window.requestAnimationFrame(() => {
+      const nextMap = map.current;
+      if (!nextMap) return;
+      nextMap.invalidateSize({ animate: false });
+      nextMap.fitBounds([[MAP_BOUNDS.south, MAP_BOUNDS.west], [MAP_BOUNDS.north, MAP_BOUNDS.east]], FIT_OPTIONS);
+      view.current = viewBounds() ?? view.current ?? MAP_BOUNDS;
+      if (!held.current || !coversView(held.current.bounds, view.current)) refresh.current();
+    });
+    return () => window.cancelAnimationFrame(resize);
+  }, [active]);
+
+  const expired = status === 'ready' && !!grid && !frames.length;
   return <section className={'panel-scene forecast-map-scene' + (active ? ' is-active' : '')} aria-hidden={!active}
     aria-label={'Forecast precipitation for the next ' + GRID_HOURS + ' hours around Home, Copenhagen and Hillerød'}>
     <div className="forecast-map-frame">
@@ -251,8 +342,8 @@ export default function ForecastMapPanel({ active }: { active: boolean }) {
       {(status === 'loading' || status === 'error') && <p className="forecast-map-message">
         {status === 'loading' ? 'Loading forecast…' : 'Forecast map temporarily unavailable'}
       </p>}
-      {status === 'ready' && !wet && <p className="forecast-map-message">No precipitation forecast in the next {GRID_HOURS} hours</p>}
-      {expired && wet && <p className="forecast-map-stale" role="status">Forecast expired · waiting for the next model run</p>}
+      {status === 'ready' && !!frames.length && !wet && <p className="forecast-map-message">No precipitation forecast in the next {GRID_HOURS} hours</p>}
+      {expired && <p className="forecast-map-stale" role="status">Forecast expired · waiting for the next model run</p>}
       <div className="forecast-map-legend" aria-label="Precipitation intensity from light to heavy">
         <span>Light</span><i /><span>Heavy</span>
       </div>

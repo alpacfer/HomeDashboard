@@ -4,6 +4,24 @@ The forecast map draws DMI Harmonie precipitation over the next six hours,
 requested through Open-Meteo. This file records why it is not requested from DMI
 directly, exactly how far that investigation got, and what would finish it.
 
+## Knowing when a new run exists without asking for it
+
+Open-Meteo serves a static metadata file per model, and it is what decides
+when the grid is refetched (`lib/forecast-refresh.ts`):
+
+```
+https://api.open-meteo.com/data/dmi_harmonie_arome_europe/static/meta.json
+```
+
+It is under a kilobyte, CDN-cached with an ETag, and answers with
+`access-control-allow-origin: *`, so the browser reads it directly. The fields
+used are `last_run_initialisation_time`, `last_run_availability_time` and
+`update_interval_seconds` (all seconds since the epoch, interval 10800). On 3
+September 2026 the 12:00Z run became available at 14:45:49Z, a delay of about
+2 h 46 min, and that delay is what the scheduler aims at: two minutes past
+availability plus interval. The `dmi_seamless` alias has no metadata file
+(`500`), which is why the grid names the Harmonie model outright.
+
 ## Why not DMI's own API
 
 DMI publishes **no map imagery of any kind**. The whole free-data catalogue is

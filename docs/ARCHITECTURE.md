@@ -50,8 +50,11 @@ app/page.tsx (Home)
     ├── TransportPanel              components/transport-panel.tsx
     │   └── filterDepartures        lib/transit.ts        route configuration, time conversion, filtering
     ├── ForecastMapPanel            components/forecast-map-panel.tsx
-    │   └── parsePrecipitationGrid, lib/precipitation-grid.ts  grid geometry, 15-minute frames,
-    │       futureFrames, isQuietHours                    quiet hours, intensity bands
+    │   ├── gridForView,            lib/precipitation-grid.ts  lattice from the view, 15-minute
+    │   │   parsePrecipitationGrid,                              frames, quiet hours, intensity bands
+    │   │   displayFrames, isQuietHours
+    │   └── shouldFetchGrid,        lib/forecast-refresh.ts    run metadata, when to refetch
+    │       nextCheckAt, parseModelRun
     └── daily fact scene
         └── validDailyFacts         lib/daily-facts.ts    date key and payload validation
 ```
@@ -97,17 +100,21 @@ The browser calls `/api/departures`, never Rejseplanen directly. The route reads
 
 `ForecastMapPanel` draws forecast precipitation over a Leaflet basemap and shows **only the forecast**. It used to replay two hours of observed RainViewer radar with nothing ahead of now, which is the wrong half of the question for a wall display: you want to know whether the rain is coming here, not where it has been. RainViewer and its parsing module are gone; their free feed is documented as past-only and its `radar.nowcast` array was empty on every sample.
 
-`lib/precipitation-grid.ts` requests one point per Harmonie cell across the map's own bounds, 15 rows by 18 columns, in a single Open-Meteo call. The data is the same DMI Harmonie run the pinned panel uses. Steps are **15 minutes**, not hourly, because the animation only reads as weather crossing the map at that spacing.
+`lib/precipitation-grid.ts` builds a lattice of one point per Harmonie cell (2 km) over **whatever the map is actually showing**, with one cell of margin on every side, and requests it in a single Open-Meteo call. The frame is landscape and the area worth framing (Hillerød down to Copenhagen) is portrait, so a fixed box left the sides of the frame bare; `gridForView()` takes the map's visible bounds instead, capped at `MAX_GRID_POINTS` (450) by opening the spacing rather than exceeding it, because Open-Meteo counts each coordinate as a call and allows 600 a minute. At the Fire TV's 1280 x 720 that is about 410 points at 2.4 km; the smoothing when drawn makes the step from 2 km invisible. Rows are spaced in Web Mercator so every row is the same height in pixels. The data is the same DMI Harmonie run the pinned panel uses. Steps are **15 minutes**, not hourly, because the animation only reads as weather crossing the map at that spacing. Twelve hours are fetched and the next six shown, so the window stays six hours long between refreshes.
+
+The scene is laid out differently while hidden (the mini transit strip appears only once it is on screen), so the map is measured and fitted again each time it becomes active, and **nothing is requested before the first time it is shown**: a grid fetched at mount would be refetched for the real view thirty seconds later, and two grid requests inside a minute is more than the per-minute limit allows. After that, the grid is refetched only if the view reaches past it.
 
 DMI's own EDR API has a `cube` query for exactly this, and it is deliberately not used: it accepts only its native Lambert projection, so every cell would need reprojecting and would land on the map rotated about 16 degrees against north. Asking Open-Meteo in latitude and longitude gives axis-aligned cells and no projection code at all. See [FORECAST_MAP.md](FORECAST_MAP.md) for the DMI work that is parked and what would finish it.
 
-Frames are drawn onto a plain canvas sized to the map container and addressed in container pixels. The map never pans or zooms, so this needs no Leaflet pane transforms and no move listeners, and costs one `fillRect` per wet cell: far cheaper than the raster tiles the panel used to load. Colours are the same intensity bands as the pinned forecast ribbon, so a colour means the same thing in both places.
+Frames are drawn onto a plain canvas sized to the map container and addressed in container pixels. The map never pans or zooms, so this needs no Leaflet pane transforms and no move listeners. Each frame is written as a tiny image, one pixel per grid cell, and drawn scaled over the grid's bounds with the browser's own bilinear smoothing: one `drawImage` per frame, and the 2 km cells read as a continuous field rather than a mosaic without asking the model for detail it does not have. Colours are the same intensity bands as the pinned forecast ribbon, so a colour means the same thing in both places.
 
 Three rules keep the animation honest:
 
 - **Every frame plays, wet or dry, and none is held.** Dropping dry frames would make a shower teleport across the map, and holding a single image tells the viewer nothing a number could not. A forecast with no precipitation anywhere is announced as such instead.
 - **Only frames ahead of now are animated.** `futureFrames()` filters the sequence, so after a night without a refresh the part that is already over is skipped, and an overtaken forecast reports itself as expired rather than replaying yesterday.
-- **Refreshing pauses between midnight and 03:00 Copenhagen time.** `isQuietHours()` skips the request when nobody is watching; whatever is loaded keeps playing. Refreshing resumes at 03:00, and because the window is six hours a run fetched at 23:00 stays valid through the pause without needing a separate staleness rule.
+- **Nothing is requested between 23:00 and 06:00 Copenhagen time.** `isQuietHours()` covers the grid and the run metadata alike; whatever is loaded keeps playing. A check that would fall in that window is moved to `quietHoursEnd()`, and because twelve hours are held a run fetched in the evening still has frames ahead of now at 06:00.
+
+Refreshing itself is decided in `lib/forecast-refresh.ts`, and the rule is **fetch the grid only when a new run exists**. Open-Meteo serves a static `meta.json` per model (under a kilobyte, CDN-cached with an ETag, CORS-open) giving the last run's initialisation and availability times and the update interval. Each pass reads that, and `shouldFetchGrid()` asks for the grid only if the metadata names a run the map does not hold, the view has outgrown the grid, or there is no grid at all; without readable metadata it falls back to a three-hour cadence. `nextCheckAt()` then books the next pass for two minutes after the following run is expected, retrying every five minutes if it is late and backing off to hourly if it is a whole interval overdue. Hourly refetching used to buy a byte-identical forecast two times in three; this spends about seven grid requests a day.
 
 ## Change guide
 
@@ -124,6 +131,7 @@ Three rules keep the animation honest:
 | Transit credentials, caching, or provider requests | `app/api/departures/route.ts` | `.env.example`, `TRANSPORT.md` |
 | Daily fact content | `data/daily-fact-overrides.json` | `scripts/generate-daily-facts.mjs`, `docs/DAILY_FACTS.md` |
 | Forecast map grid, frames, or quiet hours | `lib/precipitation-grid.ts` | `components/forecast-map-panel.tsx`, `tests/precipitation-grid.test.mjs` |
+| Forecast map refresh cadence or run detection | `lib/forecast-refresh.ts` | `components/forecast-map-panel.tsx`, `tests/forecast-refresh.test.mjs`, `DEPLOYMENT.md` |
 | Metadata or the favicon | `app/layout.tsx`, `public/` | production build |
 
 Prefer pure functions for parsing, selection, time conversion, validation, and rotation decisions. Keep browser effects, timers, fetches, and DOM-dependent work in `*.tsx` components or route handlers. If a new external response is introduced, validate its boundary before it enters React state and add a fixture-level test for malformed data.

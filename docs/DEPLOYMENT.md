@@ -49,7 +49,7 @@ respecting for a display that runs unattended for weeks.
 | --- | --- | --- |
 | DMI forecast EDR | 500 requests per 5 seconds, shared across all callers. Over it, `429 Server is busy` rather than a queue. | Asked first every refresh, and skipped for an hour after it fails so a long outage does not cost a request each time. |
 | Open-Meteo `dmi_seamless` | Non-commercial fair use, CDN-cached. | The fallback, used only when DMI does not answer. Carries the same DMI Harmonie run. |
-| Open-Meteo forecast grid | Same fair use, but one request carries 270 coordinates. | Refreshed hourly, which is as often as the model updates, and skipped entirely between midnight and 03:00. Assuming every coordinate counts as a call that is 6,480 a day against a 10,000 limit. |
+| Open-Meteo forecast grid | 10,000 calls a day, 5,000 an hour, **600 a minute**, and every coordinate in a request counts as a call. Over it, `429`. | One request carries about 410 coordinates, capped at 450 so a single request cannot trip the per-minute limit. It is fetched only when Open-Meteo's per-model `meta.json` names a run the map does not hold, which is every three hours at most, never between 23:00 and 06:00, and never before the scene has been on screen once. That is about 3,000 a day, down from 6,480 when it was refetched hourly. The metadata checks are a static kilobyte, roughly fifteen a day. |
 | Rejseplanen | Per-key, undocumented. | Proxied through `/api/departures`, which caches results for two minutes so every browser refresh does not become a provider request. |
 
 The weather panel refreshes every 15 minutes and retries a failure with jittered
