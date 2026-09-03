@@ -3,6 +3,7 @@
 import { useEffect, useState } from 'react';
 import RotatingPanel from '@/components/rotating-panel';
 import WeatherPanel from '@/components/weather-panel';
+import WeekStrip from '@/components/week-strip';
 import Clock from '@/components/clock';
 import KeepAwake from '@/components/keep-awake';
 
@@ -29,6 +30,7 @@ export default function Home() {
       <aside className="display-shell" aria-label="Clock and weather">
         <Clock now={now} />
         <WeatherPanel now={now} />
+        <WeekStrip now={now} />
       </aside>
       <RotatingPanel />
     </main>

@@ -1,6 +1,6 @@
 @import 'leaflet/dist/leaflet.css';
 @font-face { font-family:'Space Grotesk'; src:url('/fonts/space-grotesk-bold.ttf') format('truetype'); font-weight:700; font-style:normal; font-display:swap; }
-:root { --background:#111113; --foreground:#f3f2ee; --accent:#ff623b; --rain:#74caff; --snow:#dfeaf5; --muted:#93939d; }
+:root { --background:#111113; --foreground:#f3f2ee; --accent:#ff623b; --rain:#74caff; --snow:#dfeaf5; --muted:#93939d; --sun:#ffc554; --cloud:#b4b8c5; --moon:#c9cff5; }
 * { box-sizing:border-box; }
 html,body { margin:0; min-height:100%; background:var(--background); }
 body { color:var(--foreground); font-family:'Space Grotesk',Arial,Helvetica,sans-serif; -webkit-font-smoothing:antialiased; }
@@ -23,12 +23,27 @@ body { color:var(--foreground); font-family:'Space Grotesk',Arial,Helvetica,sans
 @keyframes live-pulse { 0%,100% {opacity:1;} 50% {opacity:.42;} }
 @keyframes digit-roll-in { from {opacity:0;transform:translateY(85%) rotateX(-35deg);} to {opacity:1;transform:translateY(0) rotateX(0);} }
 @keyframes digit-roll-out { from {opacity:1;transform:translateY(0) rotateX(0);} to {opacity:0;transform:translateY(-85%) rotateX(35deg);} }
-.weather-band { flex:1; min-height:0; display:flex; flex-direction:column; overflow:hidden; }
-.weather { position:relative; display:grid; grid-template-columns:4.2vw minmax(0,1fr); grid-template-rows:6.4vw auto; align-items:center; column-gap:1.1vw; color:var(--accent); padding:.6vw var(--panel-inset); border-radius:.65vw; }
-.raining-now { color:var(--rain); background:#162b39; box-shadow:inset 0 0 0 1px #355d75; }
-.temperature { display:flex; align-items:flex-start; margin:0; font-size:5.7vw; font-weight:700; font-synthesis:none; line-height:1; letter-spacing:-.025em; font-variant-numeric:lining-nums tabular-nums; }
-.temperature > span { font-size:.48em; line-height:1; margin-top:.1em; margin-left:.06em; letter-spacing:0; }
-.weather-icon { display:flex; align-items:center; justify-content:center; width:4.2vw; height:4.2vw; color:inherit; text-decoration:none; border-radius:8px; }
+/* The band takes whatever the clock leaves and spreads the card and the ribbon
+   through it, so the gaps above the card, between it and the ribbon, and down
+   to the week strip come out alike instead of the slack pooling at the bottom. */
+.weather-band { flex:1; min-height:0; display:flex; flex-direction:column; justify-content:space-evenly; gap:2.2vh; overflow:hidden; }
+.weather { position:relative; display:grid; grid-template-columns:4.2vw minmax(0,1fr); grid-template-rows:6.4vw auto; align-items:center; column-gap:1.1vw; color:var(--accent); padding:.6vw var(--panel-inset); border-radius:.65vw; background:var(--sky-tint); box-shadow:inset 0 0 0 1px var(--sky-ring); }
+/* The sky sets the palette. Each condition names the colour its icon and degree
+   sign take, the tint behind the card, and its ring, so the card shifts from
+   amber under sun to slate under cloud to blue in rain while the headline stays
+   in the accent and the number stays white. Applies to the week strip too. */
+.condition-clear,.condition-partly { --sky:var(--sun); --sky-tint:rgba(255,197,84,.07); --sky-ring:rgba(255,197,84,.16); --sky-glow:rgba(255,197,84,.45); }
+.night.condition-clear,.night.condition-partly { --sky:var(--moon); --sky-tint:rgba(201,207,245,.06); --sky-ring:rgba(201,207,245,.14); --sky-glow:rgba(201,207,245,.4); }
+.condition-cloudy,.condition-overcast,.condition-fog { --sky:var(--cloud); --sky-tint:rgba(180,184,197,.055); --sky-ring:rgba(180,184,197,.13); --sky-glow:rgba(180,184,197,.3); }
+.condition-drizzle,.condition-rain,.condition-heavy-rain { --sky:var(--rain); --sky-tint:rgba(116,202,255,.08); --sky-ring:rgba(116,202,255,.2); --sky-glow:rgba(116,202,255,.45); }
+.condition-sleet,.condition-snow { --sky:var(--snow); --sky-tint:rgba(223,234,245,.07); --sky-ring:rgba(223,234,245,.16); --sky-glow:rgba(223,234,245,.45); }
+.raining-now { color:var(--rain); }
+.temperature { display:flex; align-items:flex-start; margin:0; color:var(--foreground); font-size:5.7vw; font-weight:700; font-synthesis:none; line-height:1; letter-spacing:-.025em; font-variant-numeric:lining-nums tabular-nums; }
+.temperature > span { font-size:.48em; line-height:1; margin-top:.1em; margin-left:.06em; color:var(--sky,var(--accent)); letter-spacing:0; }
+/* The condition word sits at the foot of the number, small and quiet: it names
+   the icon for anyone who cannot tell drizzle from rain at a glance. */
+.temperature > small { align-self:flex-end; margin:0 0 .12em .35em; color:var(--muted); font-size:.19em; font-weight:700; letter-spacing:.1em; text-transform:uppercase; line-height:1; }
+.weather-icon { display:flex; align-items:center; justify-content:center; width:4.2vw; height:4.2vw; color:var(--sky,inherit); text-decoration:none; border-radius:8px; filter:drop-shadow(0 0 .5vw var(--sky-glow,transparent)); }
 .weather-icon svg { display:block; width:3.8vw; height:3.8vw; }
 a:focus-visible { outline:2px solid var(--foreground); outline-offset:8px; }
 
@@ -36,12 +51,18 @@ a:focus-visible { outline:2px solid var(--foreground); outline-offset:8px; }
    below only refines when and how hard. */
 .weather-headline { grid-column:1 / -1; grid-row:2; margin-top:.4vh; font-size:1.65vw; font-weight:700; line-height:1.15; letter-spacing:-.01em; }
 
-.rain-ribbon { --ribbon-gap:.28vw; display:flex; flex-direction:column; margin-top:2.6vh; padding:0 var(--panel-inset); }
+.rain-ribbon { --ribbon-gap:.28vw; display:flex; flex-direction:column; padding:0 var(--panel-inset); }
 .ribbon-heading { display:flex; align-items:baseline; justify-content:space-between; gap:1vw; margin-bottom:1.1vh; }
 .ribbon-heading h2 { margin:0; color:var(--muted); font-size:clamp(11px,1vw,22px); text-transform:uppercase; letter-spacing:.08em; }
 .ribbon-heading span { color:var(--muted); font-size:1.15vw; font-variant-numeric:tabular-nums; }
-.temperature-track { display:block; width:100%; height:6.2vh; overflow:visible; }
+.temperature-track { position:relative; width:100%; height:7vh; margin-top:.4vh; }
+.temperature-track svg { display:block; width:100%; height:100%; overflow:visible; }
 .temperature-track polyline { fill:none; stroke:var(--accent); stroke-width:2.2; stroke-linejoin:round; stroke-linecap:round; vector-effect:non-scaling-stroke; }
+/* Marks share the bars' column grid so each number sits over the clock time it
+   belongs to. The background-coloured padding cuts the line either side of the
+   number, so the line reads as running through it rather than under it. */
+.track-marks { position:absolute; inset:0; display:grid; grid-template-columns:repeat(var(--columns),1fr); grid-template-rows:100%; gap:var(--ribbon-gap); pointer-events:none; }
+.track-marks span { position:relative; top:calc(var(--y) * 1%); justify-self:center; align-self:start; transform:translateY(-50%); padding:.25vh .32vw; border-radius:.3vw; background:var(--background); color:var(--accent); font-size:1.05vw; font-weight:700; line-height:1; letter-spacing:-.02em; white-space:nowrap; font-variant-numeric:lining-nums tabular-nums; }
 .ribbon-bars { display:grid; grid-template-columns:repeat(var(--columns),1fr); gap:var(--ribbon-gap); align-items:end; height:9vh; margin-top:.6vh; border-bottom:1px solid #303035; }
 /* A dry hour is a tick on the baseline, not a filled column: giving every slot
    a track background made dry hours read as data. */
@@ -59,6 +80,13 @@ a:focus-visible { outline:2px solid var(--foreground); outline-offset:8px; }
 .ribbon-bars .day-break { box-shadow:inset 1px 0 0 #45454d; }
 .ribbon-ticks .day-break { box-shadow:inset 1px 0 0 #45454d; }
 .ribbon-ticks .day-break { color:var(--foreground); }
+.week-strip { flex-shrink:0; margin-top:2.2vh; padding:0 var(--panel-inset); }
+.week-days { display:grid; grid-template-columns:repeat(7,minmax(0,1fr)); gap:.4vw; margin:0; padding:0; list-style:none; }
+.week-day { display:flex; flex-direction:column; align-items:center; gap:.55vh; padding:.7vh 0 .8vh; border-radius:.5vw; background:var(--sky-tint); font-variant-numeric:lining-nums tabular-nums; }
+.week-name { color:var(--muted); font-size:.85vw; font-weight:700; letter-spacing:.1em; text-transform:uppercase; }
+.week-day svg { display:block; width:1.9vw; height:1.9vw; margin:.2vh 0; color:var(--sky); }
+.week-day strong { font-size:1.3vw; font-weight:700; line-height:1; letter-spacing:-.02em; }
+.week-low { color:var(--muted); font-size:1vw; line-height:1; }
 .stale .weather,.stale .weather-headline { color:var(--muted); }
 .stale .rain-ribbon { opacity:.5; }
 .offline-dot { position:absolute; right:var(--panel-inset); top:var(--panel-inset); width:6px; height:6px; border-radius:50%; background:var(--accent); }
@@ -204,10 +232,20 @@ a:focus-visible { outline:2px solid var(--foreground); outline-offset:8px; }
   .weather-icon { width:10vw; height:10vw; }
   .weather-icon svg { width:9vw; height:9vw; }
   .weather-headline { font-size:4.4vw; }
+  .weather-icon { filter:drop-shadow(0 0 1.2vw var(--sky-glow,transparent)); }
+  .weather-band { gap:3vh; }
+  .week-strip { margin-top:3vh; }
+  .week-days { gap:1vw; }
+  .week-day { gap:1vh; padding:1.4vh 0 1.6vh; border-radius:1.2vw; }
+  .week-name { font-size:2.2vw; }
+  .week-day svg { width:4.6vw; height:4.6vw; }
+  .week-day strong { font-size:3.3vw; }
+  .week-low { font-size:2.5vw; }
   .rain-ribbon { --ribbon-gap:.7vw; }
   .ribbon-heading h2 { font-size:2.7vw; }
   .ribbon-heading span { font-size:3vw; }
   .temperature-track { height:9vh; }
+  .track-marks span { font-size:2.6vw; padding:.4vh .8vw; border-radius:.8vw; }
   .ribbon-bars { height:13vh; }
   .ribbon-ticks { font-size:2.6vw; }
   .line-badge { min-width:13vw; height:10vw; font-size:5vw; border-radius:1vw; }

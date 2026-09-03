@@ -8,7 +8,7 @@ It is deployed to a Render free-plan web service and viewed in the Silk browser 
 
 | URL or command | Source | Responsibility |
 | --- | --- | --- |
-| `/` | `app/page.tsx` | Owns the one-second clock tick and composes the display: clock, `WeatherPanel`, and the rotating right-hand panel. |
+| `/` | `app/page.tsx` | Owns the one-second clock tick and composes the display: clock, `WeatherPanel`, `WeekStrip`, and the rotating right-hand panel. |
 | `/api/departures` | `app/api/departures/route.ts` | Server-side Rejseplanen lookup, normalization, filtering, and two-minute public-result cache. |
 | `/facts/daily/MM-DD.json` | `public/facts/daily/` | Static date-keyed facts loaded by the browser for the Copenhagen calendar date. |
 | `npm run facts:generate` | `scripts/generate-daily-facts.mjs` | Deliberate rebuild of all 366 daily-fact files from reviewed overrides and external sources. |
@@ -44,7 +44,11 @@ app/page.tsx (Home)
 │   ├── describeHour, isDaylight   lib/weather.ts        shared hour model, condition derivation,
 │   │                                                    intensity bands, solar elevation
 │   └── buildRibbon, rainHeadline, lib/forecast-summary.ts  rolling window, headline wording,
-│       temperatureTrack                                 bar and temperature-track geometry
+│       temperatureTrack                                 bar, temperature-track and mark geometry
+├── WeekStrip                       components/week-strip.tsx
+│   ├── parseDailyForecast,        lib/daily-forecast.ts  Open-Meteo daily payload validation,
+│   │   describeDay                                      the seven days after today, day condition
+│   └── ICONS                      components/condition-icons.ts  one icon per condition, shared
 └── RotatingPanel                   components/rotating-panel.tsx
     │   └── nextRotation            lib/panel-rotation.ts scene timing
     ├── TransportPanel              components/transport-panel.tsx
@@ -59,7 +63,7 @@ app/page.tsx (Home)
         └── validDailyFacts         lib/daily-facts.ts    date key and payload validation
 ```
 
-`app/globals.css` is the single visual system for the display. It contains the 16:9 layout, the narrow-screen layout, panel transitions, rain emphasis, and reduced-motion behavior. Keep component markup semantic and put layout changes in this stylesheet rather than adding one-off inline styles.
+`app/globals.css` is the single visual system for the display. It contains the 16:9 layout, the narrow-screen layout, panel transitions, the condition palette (`.condition-*` classes set `--sky`, the colour the icon and degree sign take, and the tint behind the card, so sun reads amber, cloud slate, rain blue), and reduced-motion behavior. Keep component markup semantic and put layout changes in this stylesheet rather than adding one-off inline styles.
 
 ## Data flow
 
@@ -83,6 +87,12 @@ Both parsers return the identical `WeatherHour`, so which provider answered neve
 Neither provider carries a day/night flag, so `isDaylight()` computes solar elevation rather than spending a request on it, verified within six minutes of almanac sunrise and sunset at both solstices.
 
 `lib/forecast-summary.ts` turns those hours into the pinned panel: a one-line headline, a fixed 18-hour window, and one bar per hour. The window is rolling rather than a clock window, and there is no today/tomorrow switch. The previous 06:00–18:00 window shrank from seven rows to one over the course of a day, hid everything after 18:00, and needed an eight-second timer to flip between a `Today` and a `Tomorrow` panel. A fixed count of hours from now has no end hour to argue about and no day to switch, and `buildRibbon()` returns nothing at all rather than rendering a short or gapped window as though it were complete. Bar heights are clamped against a fixed millimetre ceiling so a drizzle never draws like a downpour and heights mean the same thing every day. The current weather remains available while a stale response is marked visually.
+
+### The week ahead
+
+`WeekStrip` is a separate, thinner forecast under the ribbon: the seven days after today, each as a weekday, an icon and a high and low. It is deliberately not built from the hourly data, because the DMI Harmonie run the ribbon uses reaches only about two and a half days ahead. `lib/daily-forecast.ts` requests Open-Meteo's daily aggregates of its default model blend once an hour, validates the payload, drops today (the ribbon covers it hour by hour), and derives each day's condition from its own cloud cover and precipitation totals with day-sized thresholds (`DAY_WET_MM`, `DAY_HEAVY_MM`). No weather code or probability is requested, for the same reason as the hourly data. A day with any field missing is dropped, and a week with fewer than seven days is not shown: a strip with a hole in it reads as a mistake. "Today" is decided in Copenhagen time, so the first day falls off at Copenhagen midnight regardless of the device zone.
+
+The ribbon and the week are two forecasts and are never mixed. The ribbon answers "what do the next hours do", the week answers "what does the weekend look like", and both take their icons from the one map in `components/condition-icons.ts` so the same sky never draws two pictures.
 
 ### Rotating panel
 
@@ -125,6 +135,8 @@ Refreshing itself is decided in `lib/forecast-refresh.ts`, and the rule is **fet
 | Condition or rain classification, intensity bands | `lib/weather.ts` | `tests/weather.test.mjs` |
 | Forecast window, headline wording, or ribbon geometry | `lib/forecast-summary.ts` | `components/weather-panel.tsx`, `tests/forecast-summary.test.mjs` |
 | Weather fetching, retry backoff, or staleness | `components/weather-panel.tsx` | `DEPLOYMENT.md`, `app/globals.css` |
+| The week ahead: its provider, thresholds, or day condition | `lib/daily-forecast.ts` | `components/week-strip.tsx`, `tests/daily-forecast.test.mjs`, `DEPLOYMENT.md` |
+| Condition colours or icons | `app/globals.css` (`.condition-*`), `components/condition-icons.ts` | `components/weather-panel.tsx`, `components/week-strip.tsx` |
 | Main layout or responsive sizing | `app/globals.css` | `app/page.tsx`, reduced-motion media query |
 | Right-panel timing | `lib/panel-rotation.ts` | `components/rotating-panel.tsx`, `tests/panel-rotation.test.mjs` |
 | Transit stops, destinations, or normalization | `lib/transit.ts` | `app/api/departures/route.ts`, `TRANSPORT.md`, transit tests |

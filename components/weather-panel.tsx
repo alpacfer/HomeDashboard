@@ -1,10 +1,11 @@
 'use client';
 
 import { useEffect, useMemo, useState } from 'react';
-import { Cloud, CloudDrizzle, CloudFog, CloudMoon, CloudOff, CloudRain, CloudRainWind, CloudSnow, CloudSun, Cloudy, Moon, Sun } from 'lucide-react';
-import { describeHour, FORECAST_LATITUDE, FORECAST_LONGITUDE, isDaylight, type ConditionKind, type WeatherHour } from '@/lib/weather';
+import { CloudOff } from 'lucide-react';
+import { describeHour, FORECAST_LATITUDE, FORECAST_LONGITUDE, isDaylight, type WeatherHour } from '@/lib/weather';
 import { SOURCES, type SourceName } from '@/lib/forecast-sources';
 import { buildRibbon, rainHeadline, temperatureTrack } from '@/lib/forecast-summary';
+import { ICONS, NIGHT_ICONS } from './condition-icons';
 
 const REFRESH_MS = 15 * 60 * 1000;
 const STALE_MS = 45 * 60 * 1000;
@@ -18,12 +19,6 @@ const RETRY_MAX_MS = 5 * 60 * 1000;
 // again. That keeps DMI the first opinion without spending a request on a
 // provider that just refused one.
 const SOURCE_PENALTY_MS = 60 * 60 * 1000;
-
-const ICONS: Record<ConditionKind, typeof Sun> = {
-  clear: Sun, partly: CloudSun, cloudy: Cloudy, overcast: Cloud, fog: CloudFog,
-  drizzle: CloudDrizzle, rain: CloudRain, 'heavy-rain': CloudRainWind, sleet: CloudSnow, snow: CloudSnow,
-};
-const NIGHT_ICONS: Partial<Record<ConditionKind, typeof Sun>> = { clear: Moon, partly: CloudMoon };
 
 const timeFormat = new Intl.DateTimeFormat('en-GB', { timeZone: 'Europe/Copenhagen', hour: '2-digit', minute: '2-digit', hour12: false });
 
@@ -144,13 +139,13 @@ export default function WeatherPanel({ now }: { now: Date | null }) {
   const credit = (SOURCES.find(entry => entry.name === source) ?? SOURCES[0]).attribution;
 
   return <section className={'weather-band' + (stale ? ' stale' : '')} aria-label={'Weather. ' + staleDescription}>
-    <div className={'weather' + (view?.headline?.wet ? ' raining-now' : '')}
+    <div className={'weather' + (current ? ' condition-' + current.kind : '') + (daylight ? '' : ' night') + (view?.headline?.wet ? ' raining-now' : '')}
       aria-label={current && temperature !== null ? temperature + ' degrees Celsius, ' + current.label : 'Weather unavailable'}>
       <a className="weather-icon" href={credit.href} target="_blank" rel="noreferrer"
         aria-label={(current?.label ?? 'Weather unavailable') + '. ' + credit.credit}>
         <Icon strokeWidth={2.3} aria-hidden="true" />
       </a>
-      <p className="temperature" aria-hidden="true">{temperature ?? '—'}<span>°</span></p>
+      <p className="temperature" aria-hidden="true">{temperature ?? '—'}<span>°</span>{current && <small>{current.label}</small>}</p>
       <strong className="weather-headline" role={view ? undefined : 'status'}>{view?.headline?.text ?? (stale ? 'Forecast unavailable' : '···')}</strong>
       {stale && <span className="offline-dot" role="status" aria-label={staleDescription} />}
     </div>
@@ -165,9 +160,15 @@ export default function WeatherPanel({ now }: { now: Date | null }) {
         <h2>Next {view.ribbon.length} hours</h2>
         <span>{Math.round(view.track.high)}° / {Math.round(view.track.low)}°</span>
       </div>
-      <svg className="temperature-track" viewBox="0 0 100 100" preserveAspectRatio="none" aria-hidden="true">
-        <polyline points={view.track.points} />
-      </svg>
+      <div className="temperature-track" aria-hidden="true">
+        <svg viewBox="0 0 100 100" preserveAspectRatio="none">
+          <polyline points={view.track.points} />
+        </svg>
+        <div className="track-marks" style={{ '--columns': view.ribbon.length } as React.CSSProperties}>
+          {view.track.marks.map(mark => <span key={mark.timestamp}
+            style={{ gridColumn: mark.index + 1, '--y': mark.y } as React.CSSProperties}>{mark.degrees}°</span>)}
+        </div>
+      </div>
       <div className="ribbon-bars" aria-hidden="true" style={{ '--columns': view.ribbon.length } as React.CSSProperties}>
         {view.ribbon.map(entry => <div key={entry.timestamp}
           className={'ribbon-bar band-' + entry.band + (entry.midnight ? ' day-break' : '') + (entry.kind === 'snow' || entry.kind === 'sleet' ? ' frozen' : '')}>

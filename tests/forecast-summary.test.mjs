@@ -92,6 +92,23 @@ test('the temperature track spans the bars and reports its own extremes', () => 
   assert.ok(flat.points.split(' ').every(point => point.endsWith(',50.00')));
 });
 
+test('the track marks every labelled hour with its rounded temperature, on the line', () => {
+  // Marks and tick labels come from the same flag, so a number never floats
+  // over an hour that has no clock time beneath it.
+  const ribbon = buildRibbon(hours(30, index => ({ temperature: 10.4 + index * 0.7 })), new Date(START));
+  const track = temperatureTrack(ribbon);
+  assert.deepEqual(track.marks.map(mark => mark.index), [0, 3, 6, 9, 12, 15]);
+  assert.deepEqual(track.marks.map(mark => mark.timestamp), ribbon.filter(entry => entry.label).map(entry => entry.timestamp));
+  assert.deepEqual(track.marks.map(mark => mark.degrees), [10, 13, 15, 17, 19, 21]);
+  // Each mark sits exactly on the polyline's point for that hour.
+  const points = track.points.split(' ').map(point => Number(point.split(',')[1]));
+  for (const mark of track.marks) assert.equal(mark.y, points[mark.index]);
+  assert.equal(track.marks[0].y, 90);
+  // A flat series keeps its marks on the flat line.
+  const flat = temperatureTrack(buildRibbon(hours(30, () => ({ temperature: 12 })), new Date(START)));
+  assert.ok(flat.marks.every(mark => mark.y === 50 && mark.degrees === 12));
+});
+
 test('a dry window says how long it stays dry, in words rather than a clock time', () => {
   // A window with no wet hour says "through", not "until": nothing is coming
   // that the window can see, so "until" would promise rain that is not there.

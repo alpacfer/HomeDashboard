@@ -72,18 +72,29 @@ export function buildRibbon(hours: WeatherHour[], now: Date, span = RIBBON_HOURS
 // Temperature is drawn as one polyline over the same axis as the bars, in a
 // 0-100 box that the SVG stretches to fit. Returning the extremes lets the
 // panel label the line without recomputing them.
+//
+// Every labelled hour (the same third hours the tick row names) also gets a
+// mark: the rounded temperature, sitting on the line at that hour so it lines
+// up with the clock time beneath it. The mark is placed by the panel as an
+// HTML overlay rather than SVG text, because the stretched viewBox would
+// distort glyphs.
+export type TemperatureMark = { timestamp: number; index: number; y: number; degrees: number };
+
 export function temperatureTrack(ribbon: RibbonHour[]) {
   if (!ribbon.length) return null;
   const temperatures = ribbon.map(entry => entry.temperature);
   const low = Math.min(...temperatures);
   const high = Math.max(...temperatures);
   const span = high - low;
+  const height = (temperature: number) => span < 0.5 ? 50 : 90 - (temperature - low) / span * 80;
   const points = ribbon.map((entry, index) => {
     const x = (index + 0.5) / ribbon.length * 100;
-    const y = span < 0.5 ? 50 : 90 - (entry.temperature - low) / span * 80;
-    return x.toFixed(2) + ',' + y.toFixed(2);
+    return x.toFixed(2) + ',' + height(entry.temperature).toFixed(2);
   }).join(' ');
-  return { points, low, high };
+  const marks: TemperatureMark[] = ribbon.flatMap((entry, index) => entry.label
+    ? [{ timestamp: entry.timestamp, index, y: Number(height(entry.temperature).toFixed(2)), degrees: Math.round(entry.temperature) }]
+    : []);
+  return { points, low, high, marks };
 }
 
 const WORDS: Record<ConditionKind, string> = {

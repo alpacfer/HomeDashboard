@@ -1,6 +1,6 @@
 # HomeDashboard
 
-A home display with a clock, local weather, an animated precipitation forecast map,
+A home display with a clock, local weather with the week ahead, an animated precipitation forecast map,
 daily facts, and local departures. It runs on a Render free-plan web service and
 is shown continuously in the browser on a Fire TV Stick HD.
 
