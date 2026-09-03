@@ -15,7 +15,8 @@
     "test": "node --import tsx --test tests/*.test.mjs",
     "docs:check": "node scripts/check-docs.mjs",
     "check": "npm run lint && npm run typecheck && npm test && npm run docs:check && npm run build",
-    "facts:generate": "node scripts/generate-daily-facts.mjs"
+    "facts:generate": "node scripts/generate-daily-facts.mjs",
+    "fonts:clock": "node scripts/fetch-clock-fonts.mjs"
   },
   "dependencies": {
     "leaflet": "^1.9.4",

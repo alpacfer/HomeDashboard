@@ -1,0 +1,102 @@
+// Fetch the clock's wardrobe: one subset woff2 per typeface, plus the CSS that
+// declares them. Run with `npm run fonts:clock`; commit the result.
+//
+// Google Fonts serves a subset when the CSS request carries `text=`, for
+// variable families as well as static ones, so this needs no font tooling. The
+// subset holds the digits, the Latin letters and the three punctuation marks
+// the date formats use, which is every glyph the clock can ever draw. That is
+// what keeps nineteen outfits cheaper than one full display font on a Fire TV
+// that has to decode every byte.
+//
+// Output:
+//   public/fonts/clock/<id>.woff2   one file per face
+//   public/fonts/clock/SOURCES.txt  where each file came from
+//   app/clock-fonts.css             the @font-face declarations, imported by app/layout.tsx
+//
+// Plain Node, no dependencies: the repository is worked on from Ubuntu and
+// macOS. Do not reach for sed or curl here.
+
+import { mkdir, writeFile } from 'node:fs/promises';
+import { fileURLToPath } from 'node:url';
+import path from 'node:path';
+
+const ROOT = path.resolve(path.dirname(fileURLToPath(import.meta.url)), '..');
+const FONT_DIR = path.join(ROOT, 'public', 'fonts', 'clock');
+const CSS_FILE = path.join(ROOT, 'app', 'clock-fonts.css');
+
+// Every glyph the clock and its date can show. Keep in step with the date
+// formats in lib/clock-wardrobe.ts.
+const TEXT = '0123456789ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz,- ';
+
+// A Chromium user agent is what makes Google answer with woff2 and, for
+// variable families, a single file rather than one per static instance.
+const USER_AGENT = 'Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0 Safari/537.36';
+
+// id: file name and the family name the stylesheet uses. query: the Google
+// Fonts css2 family parameter, axes included where the outfit animates them.
+const FACES = [
+  // The clock's own Space Grotesk, variable so the weight can breathe. Named
+  // apart from the static bold the rest of the display uses.
+  { id: 'clock-grotesk', family: 'Clock Grotesk', query: 'Space+Grotesk:wght@300..700' },
+  { id: 'fraunces', family: 'Fraunces', query: 'Fraunces:opsz,wght,SOFT,WONK@144,400..900,0..100,0..1' },
+  { id: 'anton', family: 'Anton', query: 'Anton' },
+  { id: 'bebas-neue', family: 'Bebas Neue', query: 'Bebas+Neue' },
+  { id: 'recursive', family: 'Recursive', query: 'Recursive:slnt,wght,CASL@-15..0,300..1000,0..1' },
+  { id: 'bodoni-moda', family: 'Bodoni Moda', query: 'Bodoni+Moda:opsz,wght@6..96,400..900' },
+  { id: 'rubik-doodle-shadow', family: 'Rubik Doodle Shadow', query: 'Rubik+Doodle+Shadow' },
+  { id: 'cabin-sketch', family: 'Cabin Sketch', query: 'Cabin+Sketch:wght@700' },
+  { id: 'monoton', family: 'Monoton', query: 'Monoton' },
+  { id: 'tilt-neon', family: 'Tilt Neon', query: 'Tilt+Neon:XROT,YROT@-45..45,-45..45' },
+  { id: 'space-mono', family: 'Space Mono', query: 'Space+Mono:wght@700' },
+  { id: 'press-start-2p', family: 'Press Start 2P', query: 'Press+Start+2P' },
+  { id: 'sixtyfour', family: 'Sixtyfour', query: 'Sixtyfour:BLED,SCAN@0..100,-53..100' },
+  { id: 'handjet', family: 'Handjet', query: 'Handjet:wght,ELGR,ELSH@100..900,1..2,0..16' },
+  { id: 'kablammo', family: 'Kablammo', query: 'Kablammo:MORF@0..60' },
+  { id: 'bungee-shade', family: 'Bungee Shade', query: 'Bungee+Shade' },
+  { id: 'bungee', family: 'Bungee', query: 'Bungee' },
+  { id: 'rubik-glitch', family: 'Rubik Glitch', query: 'Rubik+Glitch' },
+  { id: 'black-ops-one', family: 'Black Ops One', query: 'Black+Ops+One' },
+  { id: 'rubik-wet-paint', family: 'Rubik Wet Paint', query: 'Rubik+Wet+Paint' },
+  { id: 'rubik-burned', family: 'Rubik Burned', query: 'Rubik+Burned' },
+  { id: 'creepster', family: 'Creepster', query: 'Creepster' },
+  { id: 'mountains-of-christmas', family: 'Mountains of Christmas', query: 'Mountains+of+Christmas:wght@700' },
+];
+
+async function fetchFace(face) {
+  const url = `https://fonts.googleapis.com/css2?family=${face.query}&text=${encodeURIComponent(TEXT)}&display=swap`;
+  const css = await (await fetch(url, { headers: { 'user-agent': USER_AGENT } })).text();
+  const src = css.match(/src:\s*url\(([^)]+)\)\s*format\('woff2'\)/);
+  const weight = css.match(/font-weight:\s*([^;]+);/);
+  if (!src) throw new Error(`No woff2 in the answer for ${face.family}:\n${css}`);
+  const response = await fetch(src[1], { headers: { 'user-agent': USER_AGENT } });
+  if (!response.ok) throw new Error(`${response.status} fetching ${face.family}`);
+  const bytes = Buffer.from(await response.arrayBuffer());
+  await writeFile(path.join(FONT_DIR, `${face.id}.woff2`), bytes);
+  return { ...face, bytes: bytes.length, weight: (weight?.[1] ?? '400').trim(), url };
+}
+
+await mkdir(FONT_DIR, { recursive: true });
+const faces = [];
+for (const face of FACES) {
+  faces.push(await fetchFace(face));
+  console.log(`${face.id}.woff2  ${String(faces[faces.length - 1].bytes).padStart(6)} bytes`);
+}
+
+const css = [
+  '/* Generated by scripts/fetch-clock-fonts.mjs. Do not edit; rerun `npm run fonts:clock`. */',
+  '/* Subset to the digits, Latin letters and date punctuation. Licences: public/fonts/OFL.txt. */',
+  ...faces.map(face =>
+    `@font-face { font-family:'${face.family}'; src:url('/fonts/clock/${face.id}.woff2') format('woff2'); font-weight:${face.weight}; font-style:normal; font-display:swap; }`),
+  '',
+].join('\n');
+await writeFile(CSS_FILE, css);
+
+await writeFile(path.join(FONT_DIR, 'SOURCES.txt'), [
+  'Subset web fonts for the clock outfits. Generated by scripts/fetch-clock-fonts.mjs.',
+  'All families are published under the SIL Open Font License; see ../OFL.txt.',
+  '',
+  ...faces.map(face => `${face.id}.woff2  ${face.family}  ${face.bytes} bytes\n  ${face.url}`),
+  '',
+].join('\n'));
+
+console.log(`\n${faces.length} faces, ${faces.reduce((sum, face) => sum + face.bytes, 0)} bytes in total.`);

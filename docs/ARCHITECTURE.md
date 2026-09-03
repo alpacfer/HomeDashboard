@@ -38,7 +38,13 @@ That split is why `npm test` needs no renderer, no jsdom and no network: every r
 app/page.tsx (Home)
 ├── KeepAwake                       components/keep-awake.tsx
 ├── Clock                           components/clock.tsx
-│   └── clockFrame, clockDate       lib/clock-motion.ts   Copenhagen time/date formatting, digit transitions
+│   ├── clockFrame, changedDigits  lib/clock-motion.ts   Copenhagen time, which digits roll
+│   ├── pickOutfit, outfitDate,    lib/clock-wardrobe.ts  outfits, context weights, date formats
+│   │   wardrobeContext
+│   ├── pickSetPiece, delayToQuiet lib/clock-events.ts   set pieces and the quiet moments they fit
+│   └── Tenant                      components/tenant.tsx
+│       └── tenantMood, inkBox,     lib/clock-tenant.ts   mood, idle life, glyph geometry
+│           tenantTargets
 ├── WeatherPanel                   components/weather-panel.tsx
 │   ├── SOURCES, parseCoverage,    lib/forecast-sources.ts  DMI first then Open-Meteo, payload
 │   │   parseForecast                                    validation, accumulation differencing
@@ -70,7 +76,9 @@ app/page.tsx (Home)
 
 ### Clock and date
 
-`Home` updates `now` once per second. `Clock` passes that value to `clockFrame()` for minute-based digit animation and `clockDate()` for the date below the clock. Both formatters use `Europe/Copenhagen`, so the displayed calendar date does not depend on the device's time zone. A null value is used during the first render to avoid a server/client time mismatch.
+`Home` updates `now` once per second. `Clock` passes that value to `clockFrame()` for minute-based digit animation and to `outfitDate()` for the date below the clock. Both formatters use `Europe/Copenhagen`, so the displayed calendar date does not depend on the device's time zone. A null value is used during the first render to avoid a server/client time mismatch.
+
+The clock also wears an outfit, plays a set piece now and then, and has a small character beside the minutes. All three are decided in pure modules (`lib/clock-wardrobe.ts`, `lib/clock-events.ts`, `lib/clock-tenant.ts`) and only drawn by `components/clock.tsx` and `components/tenant.tsx`. The weather panel reports the current hour's temperature and wetness up to `Home`, which hands it to the clock, so the wardrobe and the character react to the sky without a second fetch. See [CLOCK.md](CLOCK.md).
 
 ### Weather
 

@@ -36,6 +36,14 @@ loop, or anything that runs on the server.
    forecast map animation is the most expensive thing on screen; treat its
    frame timing in `components/forecast-map-panel.tsx` as a performance budget,
    and note it is also budgeted against `MAP_MS` in `lib/panel-rotation.ts`.
+   The clock's set pieces and its character are held to the same rule: every
+   set piece is `transform` and `opacity` on four cells, and the two exceptions
+   (the "ink" and "morph" pieces, which animate `clip-path` and variable-font
+   axes) run for three seconds at most, a few times an hour. If the stick
+   stutters, disable those two first. See [CLOCK.md](CLOCK.md).
+   The clock's outfit fonts are 23 subset woff2 files, about 0.9 MB in all,
+   but each is fetched only the first time its outfit is worn and cached from
+   then on; the display never downloads more than one at a time.
 5. **Nothing may depend on interaction.** There is no pointer and no keyboard.
    `:hover` states, tooltips, and focus-only affordances are invisible to the
    only user this display has.

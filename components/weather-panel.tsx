@@ -5,6 +5,7 @@ import { CloudOff } from 'lucide-react';
 import { describeHour, FORECAST_LATITUDE, FORECAST_LONGITUDE, isDaylight, type WeatherHour } from '@/lib/weather';
 import { SOURCES, type SourceName } from '@/lib/forecast-sources';
 import { buildRibbon, rainHeadline, temperatureTrack } from '@/lib/forecast-summary';
+import type { Conditions } from '@/lib/clock-wardrobe';
 import { ICONS, NIGHT_ICONS } from './condition-icons';
 
 const REFRESH_MS = 15 * 60 * 1000;
@@ -22,7 +23,7 @@ const SOURCE_PENALTY_MS = 60 * 60 * 1000;
 
 const timeFormat = new Intl.DateTimeFormat('en-GB', { timeZone: 'Europe/Copenhagen', hour: '2-digit', minute: '2-digit', hour12: false });
 
-export default function WeatherPanel({ now }: { now: Date | null }) {
+export default function WeatherPanel({ now, onConditions }: { now: Date | null; onConditions?: (conditions: Conditions) => void }) {
   const [hours, setHours] = useState<WeatherHour[] | null>(null);
   const [source, setSource] = useState<SourceName | null>(null);
   const [updatedAt, setUpdatedAt] = useState<number | null>(null);
@@ -127,6 +128,13 @@ export default function WeatherPanel({ now }: { now: Date | null }) {
   }, [hours, hourStamp]);
 
   const current = view?.current ? describeHour(view.current) : null;
+
+  // Report the current hour to the clock once per change, not once per tick.
+  const reportedTemperature = view?.current?.temperature ?? null;
+  const reportedWet = current?.wet ?? false;
+  useEffect(() => {
+    onConditions?.({ temperature: reportedTemperature, wet: reportedWet });
+  }, [onConditions, reportedTemperature, reportedWet]);
   const daylight = view ? isDaylight(view.ribbon[0].timestamp + 1800000) : true;
   const Icon = current ? (daylight ? ICONS[current.kind] : NIGHT_ICONS[current.kind] ?? ICONS[current.kind]) : CloudOff;
   const stale = failed || !!(now && updatedAt && now.getTime() - updatedAt > STALE_MS);
