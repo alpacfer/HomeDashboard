@@ -4,6 +4,10 @@ import { useEffect, useState } from 'react';
 import { LINES, nextCompactDeparture, type TransitData } from '@/lib/transit';
 
 const timeFormat = new Intl.DateTimeFormat('en-GB', { timeZone: 'Europe/Copenhagen', hour: '2-digit', minute: '2-digit', hour12: false });
+// A request that never settles would leave `pending` set for good and end all
+// refreshing on a display nobody reloads, so every request has its own
+// deadline and its own controller (see components/weather-panel.tsx).
+const REQUEST_TIMEOUT_MS = 12_000;
 
 export default function TransportPanel({ compact = false }: { compact?: boolean }) {
   const [data, setData] = useState<TransitData | null>(null);
@@ -12,17 +16,24 @@ export default function TransportPanel({ compact = false }: { compact?: boolean 
   useEffect(() => {
     let active = true;
     let pending = false;
-    const controller = new AbortController();
+    let inFlight: AbortController | null = null;
     const refresh = async () => {
       if (pending || document.hidden) return;
       pending = true;
+      const controller = new AbortController();
+      inFlight = controller;
+      const timeout = window.setTimeout(() => controller.abort(), REQUEST_TIMEOUT_MS);
       try {
         const response = await fetch('/api/departures', { cache: 'no-store', signal: controller.signal });
         const value = await response.json() as TransitData;
         if (!response.ok || !['ready', 'needs_key'].includes(value.status)) throw new Error('Unavailable');
         if (active) { setData(value); setFailed(false); }
       } catch { if (active) setFailed(true); }
-      finally { pending = false; }
+      finally {
+        window.clearTimeout(timeout);
+        if (inFlight === controller) inFlight = null;
+        pending = false;
+      }
     };
     void refresh();
     const timer = window.setInterval(refresh, 120000);
@@ -33,7 +44,7 @@ export default function TransportPanel({ compact = false }: { compact?: boolean 
     window.addEventListener('online', resume);
     window.addEventListener('keydown', key);
     return () => {
-      active = false; controller.abort();
+      active = false; inFlight?.abort();
       window.clearInterval(timer); window.clearInterval(clock);
       document.removeEventListener('visibilitychange', resume);
       window.removeEventListener('online', resume);

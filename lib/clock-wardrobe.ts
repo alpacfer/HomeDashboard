@@ -15,7 +15,7 @@
 export type OutfitId =
   | 'grotesk' | 'editorial' | 'poster' | 'casual' | 'fashion' | 'doodle'
   | 'neon' | 'terminal' | 'arcade' | 'crt' | 'dotmatrix'
-  | 'wonky' | 'shade' | 'glitch' | 'stencil'
+  | 'wonky' | 'shade' | 'stencil'
   | 'wet' | 'burned' | 'halloween' | 'christmas';
 
 export type DateStyle = 'caps' | 'editorial' | 'iso' | 'short' | 'mid';
@@ -32,6 +32,10 @@ export type Outfit = {
   fonts: string[];
 };
 
+// Every face here fits the .62em digit cells at the scale its `.o-<id>` rule
+// sets. Rubik Glitch was dropped: its displaced slices reach 0.59em either
+// side of a digit's centre, so it could only fit at half the size of the
+// other faces, and clipped at any size that read from across a room.
 export const OUTFITS: readonly Outfit[] = [
   { id: 'grotesk', date: 'caps', morph: true, fonts: ['Clock Grotesk'] },
   { id: 'editorial', date: 'editorial', morph: true, fonts: ['Fraunces'] },
@@ -46,7 +50,6 @@ export const OUTFITS: readonly Outfit[] = [
   { id: 'dotmatrix', date: 'short', morph: true, fonts: ['Handjet'] },
   { id: 'wonky', date: 'mid', morph: true, fonts: ['Kablammo'] },
   { id: 'shade', date: 'caps', morph: false, fonts: ['Bungee Shade', 'Bungee'] },
-  { id: 'glitch', date: 'mid', morph: false, fonts: ['Rubik Glitch'] },
   { id: 'stencil', date: 'caps', morph: false, fonts: ['Black Ops One'] },
   { id: 'wet', date: 'mid', morph: false, fonts: ['Rubik Wet Paint'] },
   { id: 'burned', date: 'mid', morph: false, fonts: ['Rubik Burned'] },
@@ -121,7 +124,7 @@ export function outfitWeights(context: WardrobeContext): Partial<Record<OutfitId
   } else if (weekend && context.hour < 12) {
     add('editorial', 3); add('fashion', 2); add('grotesk', 1); add('casual', 1);
   } else if ((context.weekday === 5 || context.weekday === 6) && context.hour >= 18) {
-    add('neon', 3); add('wonky', 1); add('shade', 1); add('glitch', 1); add('grotesk', 1);
+    add('neon', 3); add('wonky', 1); add('shade', 1); add('grotesk', 1);
   } else {
     add('grotesk', 3); add('poster', 1); add('casual', 1); add('doodle', 1); add('stencil', 1); add('editorial', 1);
   }

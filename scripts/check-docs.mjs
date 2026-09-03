@@ -9,7 +9,7 @@
 //
 // Pure Node with no dependencies so it behaves identically on Ubuntu, macOS
 // and CI. Run with: npm run docs:check
-import { readFile, readdir, stat } from 'node:fs/promises';
+import { readFile, readdir } from 'node:fs/promises';
 import { existsSync } from 'node:fs';
 import { join, dirname, resolve, relative, posix } from 'node:path';
 import { fileURLToPath } from 'node:url';

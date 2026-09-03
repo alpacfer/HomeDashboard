@@ -47,18 +47,21 @@ export type PrecipitationGrid = GridSpec & {
 // What the map is framed on: Hillerød in the north down to Copenhagen in the
 // south. The frame is wider than this box, and the grid covers the frame.
 export const MAP_BOUNDS: MapBounds = { south: 55.64, west: 12.18, north: 55.965, east: 12.67 };
-// Harmonie DINI is a 2 km model, so this is its native resolution. Going finer
-// would invent detail the model does not have; the smoothing happens when the
-// grid is drawn, not when it is requested.
-export const CELL_KM = 2;
+// The lattice spacing, and with it the price of the map. Harmonie DINI is a
+// 2 km model, but a model's effective resolution is several grid lengths, so
+// sampling its precipitation every 3 km keeps every feature it can actually
+// forecast; the field is smoothed when drawn either way. Each coordinate is
+// one Open-Meteo call (lib/open-meteo-quota.ts), so the step from the 2.4 km
+// the Fire TV's frame used to get to 3 km is a third off the display's daily
+// spend for nothing the eye can see. Going finer would invent detail the
+// model does not have.
+export const CELL_KM = 3;
 // Open-Meteo counts each coordinate as a call and allows 600 calls a minute,
 // so one request must stay well inside that on its own: a request that trips
 // the limit is answered 429 and the map gets nothing. A frame that would need
-// more points at 2 km gets a slightly coarser lattice rather than a bigger
-// request. At the Fire TV's 1280 x 720 the frame is about 50 by 38 km, which
-// would be about 590 points at 2 km and is about 410 at the 2.4 km this cap
-// gives. The smoothing when it is drawn makes the difference invisible; the
-// limit is the API's, not the model's.
+// more points at CELL_KM gets a coarser lattice rather than a bigger request.
+// At the Fire TV's 1280 x 720 the frame is about 50 by 38 km, which is about
+// 285 points at 3 km, so this cap only binds on a much larger frame.
 export const MAX_GRID_POINTS = 450;
 // The coordinates travel in the query string, and Open-Meteo's nginx refuses a
 // request line over 8 KB with a 414 that carries no CORS header, which the
@@ -231,6 +234,22 @@ export function parsePrecipitationGrid(payload: unknown, spec: GridSpec, run: nu
     cells: locations.map(location => location.precipitation[step] ?? 0),
   }));
   return { ...spec, frames, run, fetchedAt };
+}
+
+// The boundary for a grid read back from device storage, so a reload within
+// the same model run costs no request. Anything not exactly this shape is
+// discarded and fetched afresh.
+export function validPrecipitationGrid(value: unknown): value is PrecipitationGrid {
+  const grid = value as PrecipitationGrid | null;
+  if (!grid || typeof grid !== 'object' || !grid.bounds || typeof grid.bounds !== 'object') return false;
+  if (!['south', 'west', 'north', 'east'].every(key => Number.isFinite(grid.bounds[key as keyof MapBounds]))) return false;
+  if (!Number.isInteger(grid.columns) || !Number.isInteger(grid.rows) || grid.columns < 1 || grid.rows < 1) return false;
+  if (!Number.isFinite(grid.spacingKm) || !Number.isFinite(grid.fetchedAt)) return false;
+  if (grid.run !== null && !Number.isFinite(grid.run)) return false;
+  if (!Array.isArray(grid.frames) || !grid.frames.length) return false;
+  const cells = grid.columns * grid.rows;
+  return grid.frames.every(frame => frame && Number.isFinite(frame.timestamp)
+    && Array.isArray(frame.cells) && frame.cells.length === cells && frame.cells.every(Number.isFinite));
 }
 
 // Every frame is kept, wet or dry. Dropping the dry ones would make the

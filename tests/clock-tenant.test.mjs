@@ -1,8 +1,8 @@
 import { test } from 'node:test';
 import assert from 'node:assert/strict';
 import {
-  climbDelay, idleDelay, inkBox, msToNextMinute, nextChangingDigit, perchDuration, pickIdle,
-  shouldApproach, tenantMood, tenantTargets,
+  DOTS_SPOT, climbDelay, idleDelay, inkBox, inkColumns, msToNextMinute, nextChangingDigit, perchDuration, perchIdleDelay,
+  pickDescent, pickHourAction, pickIdle, pickPerch, pickPerchAction, pickStrike, shouldApproach, tenantMood, tenantTargets, topProfile,
 } from '../lib/clock-tenant.ts';
 
 const at = time => new Date('2026-09-03T' + time + 'Z');
@@ -17,19 +17,70 @@ test('mood: sleep first, then rain, then temperature', () => {
   assert.equal(tenantMood({ hour: 14, temperature: null, wet: false }), 'awake');
 });
 
-test('idle actions are weighted towards blinking and the timings sit in their bands', () => {
+const tally = (pick, n = 1000) => {
   const counts = {};
-  for (let i = 0; i < 100; i++) { const a = pickIdle(i / 100); counts[a] = (counts[a] ?? 0) + 1; }
-  assert.equal(counts.blink, 50);
-  assert.equal(counts['double-blink'], 15);
-  assert.equal(counts['glance-digits'], 15);
-  assert.equal(counts['glance-up'], 10);
-  assert.equal(counts.smile, 10);
+  for (let i = 0; i < n; i++) { const a = pick(i / n); counts[a] = (counts[a] ?? 0) + 1; }
+  return counts;
+};
+
+test('idle actions are weighted towards blinking and the timings sit in their bands', () => {
+  const counts = tally(pickIdle, 100);
+  assert.equal(counts.blink, 34);
+  assert.equal(counts['double-blink'], 10);
+  assert.equal(counts['glance-digits'], 12);
+  assert.equal(counts['look-around'], 8);
+  assert.equal(counts.stretch, 5);
+  assert.equal(counts.yawn, 3);
+  assert.equal(Object.values(counts).reduce((a, b) => a + b, 0), 100);
+  // Perched, the body stays out of it: no stretch, wiggle, lean or hop.
+  const perched = tally(r => pickIdle(r, true));
+  for (const body of ['stretch', 'wiggle', 'lean', 'hop']) assert.equal(perched[body], undefined, body);
+  assert.ok(perched.blink > perched.smile);
   assert.equal(idleDelay(0), 3000);
   assert.ok(idleDelay(0.999) < 8000);
   assert.equal(climbDelay(0), 25000);
   assert.ok(climbDelay(0.999) < 45000);
-  assert.equal(perchDuration(0), 5000);
+  assert.equal(perchDuration(0), 6000);
+  assert.ok(perchDuration(0.999) < 14000);
+  assert.equal(perchDuration(0, 'ball'), 3500, 'the colon is hard work, so shorter');
+  assert.ok(perchDuration(0.999, 'ball') < 6500);
+  assert.equal(perchIdleDelay(0), 2200);
+  assert.ok(perchIdleDelay(0.999) < 4500);
+});
+
+test('what it does up there depends on the shape under its feet', () => {
+  const flat = tally(r => pickPerchAction('flat', r));
+  assert.ok(flat.pace > 400 && flat.sit > 200 && flat.peer > 250, JSON.stringify(flat));
+  assert.equal(flat.teeter, undefined, 'a bar does not wobble');
+  const ledge = tally(r => pickPerchAction('ledge', r));
+  assert.ok(ledge.teeter > 500 && ledge.peer > 400);
+  assert.equal(ledge.pace, undefined, 'no room to pace on a stem');
+  const round = tally(r => pickPerchAction('round', r));
+  assert.ok(round.slip > 350 && round.peer > 350 && round.teeter > 150);
+  const ball = tally(r => pickPerchAction('ball', r));
+  assert.ok(ball.teeter > 650 && ball.slip > 250);
+  assert.equal(ball.sit, undefined);
+});
+
+test('descents: only arches and the colon are slid off; digits are climbed or hopped', () => {
+  const round = tally(r => pickDescent('round', r));
+  assert.ok(round.slide > 400 && round['hop-off'] > 250 && round['climb-down'] > 200, JSON.stringify(round));
+  for (const kind of ['flat', 'ledge']) {
+    const counts = tally(r => pickDescent(kind, r));
+    assert.equal(counts.slide, undefined, kind);
+    assert.ok(counts['climb-down'] > 500 && counts['hop-off'] > 400, kind);
+  }
+  const strikes = tally(pickStrike);
+  assert.ok(strikes.shove > strikes.kick && strikes.kick > 200 && strikes.headbutt > 150);
+  const hours = tally(pickHourAction);
+  assert.ok(hours.jump > 550 && hours.hops > 350);
+});
+
+test('the next perch is usually a digit, sometimes the colon, never out of range', () => {
+  const spots = tally(pickPerch);
+  assert.deepEqual(Object.keys(spots).map(Number).sort(), [0, 1, 2, 3, DOTS_SPOT]);
+  assert.ok(spots[3] > spots[0], 'the minutes, nearest, are favoured');
+  assert.ok(spots[DOTS_SPOT] > 100 && spots[DOTS_SPOT] < spots[3]);
 });
 
 test('the approach begins on exactly one one-second tick per minute', () => {
@@ -68,6 +119,63 @@ test('ink boxes come from the centred glyph and its baseline', () => {
   assert.equal(inkBox(cell, metrics, 146).bottom, 100 - 10 + 10, 'the cell centre moves the baseline with it');
 });
 
+// A bitmap with the given per-column tops (null for an empty column), drawn
+// as opaque columns from the top down to the bottom row.
+const bitmap = (tops, height, pad = 2) => {
+  const width = tops.length + 2 * pad;
+  const rgba = new Uint8ClampedArray(width * (height + 2 * pad) * 4);
+  tops.forEach((top, i) => {
+    if (top === null) return;
+    for (let y = top; y < height; y++) rgba[((y + pad) * width + i + pad) * 4 + 3] = 255;
+  });
+  return { rgba, width, height: height + 2 * pad };
+};
+
+test('ink columns come out of a bitmap with the empty margin and inner gaps handled', () => {
+  const { rgba, width, height } = bitmap([3, 0, 0, null, 2], 10);
+  assert.deepEqual(inkColumns(rgba, width, height), { left: 2, right: 6, top: 2, bottom: 11, tops: [3, 0, 0, null, 2] });
+  assert.equal(inkColumns(new Uint8ClampedArray(4 * 16), 4, 4), null, 'nothing drawn');
+});
+
+// Column tops of Space Grotesk Bold digits at 96 px, as the browser reads them.
+// The Tenant is .42em wide, so 40 px here.
+const GROTESK = {
+  0: [19,15,13,11,10,8,7,6,5,5,4,3,3,3,2,2,1,1,1,1,0,0,0,0,0,0,0,0,0,0,0,0,1,1,1,1,2,2,2,3,3,4,5,5,6,7,8,9,11,12,15,18],
+  1: [29,27,25,23,21,18,16,14,12,10,7,5,3,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0],
+  3: [45,45,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,40,45],
+  4: [40,38,36,35,33,31,29,28,26,24,23,21,19,18,16,14,12,11,9,7,6,4,2,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,43,43,43,43,43,43,43,43,43,43,43],
+  6: [17,14,12,10,9,8,7,6,5,4,4,3,3,2,2,2,1,1,1,1,0,0,0,0,0,0,0,0,0,0,0,1,1,1,1,2,2,2,2,3,4,4,5,6,6,8,9,10,12,15,46],
+  7: Array(49).fill(0),
+  8: [44,13,11,9,8,7,6,5,4,4,3,3,2,2,2,1,1,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,1,1,1,2,2,2,3,4,4,5,5,6,7,8,10,11,14,46],
+};
+const profileOf = (digit, height = 69) => topProfile({ left: 0, right: GROTESK[digit].length - 1, top: 0, bottom: height - 1, tops: GROTESK[digit] }, 40);
+
+test('the top of a glyph reads as a bar, a stem or an arch', () => {
+  assert.equal(profileOf(7).kind, 'flat');
+  assert.equal(profileOf(7).plateau, 1);
+  assert.equal(profileOf(7).apex, 0.5);
+  assert.equal(profileOf(3).kind, 'flat', 'the serifs on a 3 do not matter');
+  assert.equal(profileOf(1).kind, 'ledge', 'the stem of a 1 is narrower than the Tenant');
+  assert.ok(profileOf(1).apex > 0.6, 'and it stands on the stem, right of the flag: ' + profileOf(1).apex);
+  assert.equal(profileOf(1).slide, -1);
+  assert.equal(profileOf(4).kind, 'ledge');
+  assert.ok(profileOf(4).apex > 0.55 && profileOf(4).apex < 0.65, 'on the stem of the 4: ' + profileOf(4).apex);
+  for (const digit of [0, 6, 8]) {
+    const profile = profileOf(digit, 70);
+    assert.equal(profile.kind, 'round', String(digit));
+    assert.ok(profile.plateau > 0.4 && profile.plateau < 0.55, digit + ' plateau ' + profile.plateau);
+    assert.ok(Math.abs(profile.apex - 0.5) < 0.03, digit + ' apex ' + profile.apex);
+    assert.equal(profile.slide, 1, 'a symmetric arch slides towards home');
+  }
+  // A top that falls away to one side slides downhill, that way.
+  const slope = Array(30).fill(0).map((_, i) => i + 1);
+  const rightward = topProfile({ left: 0, right: 39, top: 0, bottom: 59, tops: [...Array(10).fill(0), ...slope] }, 40);
+  assert.equal(rightward.kind, 'round');
+  assert.equal(rightward.slide, 1);
+  const leftward = topProfile({ left: 0, right: 39, top: 0, bottom: 59, tops: [...slope.slice().reverse(), ...Array(10).fill(0)] }, 40);
+  assert.equal(leftward.slide, -1);
+});
+
 test('targets put the Tenant against the last digit and on top of any digit', () => {
   const ink = [
     { left: 10, top: 20, right: 60, bottom: 100 },
@@ -80,7 +188,35 @@ test('targets put the Tenant against the last digit and on top of any digit', ()
   assert.deepEqual(targets.rest, { left: 318, top: 50 }, 'rests right of the last cell with its feet on the baseline');
   // Left edge 318 has to land on 290 plus 14% overlap of 50 = 297.
   assert.equal(targets.pushX, -21);
-  assert.equal(targets.perch.length, 4);
-  assert.deepEqual(targets.perch[3], { x: 270 - 343, y: 20 - 100 });
-  assert.deepEqual(targets.perch[2], { x: 205 - 343, y: 30 - 100 }, 'a shorter glyph gives a lower perch');
+  assert.equal(targets.perch.length, 4, 'no colon measured, no fifth spot');
+  assert.deepEqual(targets.perch[3], { x: 270 - 343, y: 20 - 100, kind: 'flat', pace: 0, slide: 1 }, 'without a profile, centred and flat');
+  assert.deepEqual(targets.perch[2].y, 30 - 100, 'a shorter glyph gives a lower perch');
+});
+
+test('with profiles the perch is the apex, pacing room comes from the plateau, and the colon is a ball', () => {
+  const ink = [
+    { left: 10, top: 20, right: 60, bottom: 100 },
+    { left: 80, top: 20, right: 130, bottom: 100 },
+    { left: 180, top: 30, right: 230, bottom: 100 },
+    { left: 250, top: 20, right: 290, bottom: 100 },
+  ];
+  const lastCell = { left: 240, top: 0, right: 310, bottom: 126 };
+  const profiles = [
+    { kind: 'flat', apex: 0.5, plateau: 1, slide: 1 },        // a 7: 50 wide, stance 21 -> 14.5 each way
+    { kind: 'ledge', apex: 0.68, plateau: 0.6, slide: -1 },   // a 1: stands on the stem
+    { kind: 'round', apex: 0.5, plateau: 0.48, slide: 1 },
+    null,
+  ];
+  const dot = { left: 150, top: 45, right: 160, bottom: 55 };
+  const targets = tenantTargets(ink, lastCell, 50, 8, profiles, dot);
+  assert.deepEqual(targets.perch[0], { x: 35 - 343, y: -80, kind: 'flat', pace: 14.5, slide: 1 });
+  assert.deepEqual(targets.perch[1], { x: 80 + 0.68 * 50 - 343, y: -80, kind: 'ledge', pace: 0, slide: -1 });
+  assert.equal(targets.perch[2].kind, 'round');
+  assert.equal(targets.perch[2].pace, 0);
+  assert.equal(targets.perch[3].kind, 'flat', 'a missing profile falls back to a flat centre');
+  assert.equal(targets.perch.length, 5);
+  assert.deepEqual(targets.perch[DOTS_SPOT], { x: 155 - 343, y: 45 - 100, kind: 'ball', pace: 0, slide: 1 });
+  // A plateau narrower than the stance leaves no room to pace.
+  const tight = tenantTargets(ink, lastCell, 50, 8, [{ kind: 'flat', apex: 0.5, plateau: 0.3, slide: 1 }]);
+  assert.equal(tight.perch[0].pace, 0);
 });

@@ -2,13 +2,19 @@
 
 import { useEffect, useMemo, useState } from 'react';
 import { CloudOff } from 'lucide-react';
-import { describeHour, FORECAST_LATITUDE, FORECAST_LONGITUDE, isDaylight, type WeatherHour } from '@/lib/weather';
+import { describeHour, FORECAST_LATITUDE, FORECAST_LONGITUDE, isDaylight, reviveWeatherHours, validWeatherHours, type WeatherHour } from '@/lib/weather';
 import { SOURCES, type SourceName } from '@/lib/forecast-sources';
 import { buildRibbon, rainHeadline, temperatureTrack } from '@/lib/forecast-summary';
+import { debugFlags } from '@/lib/debug-flags';
+import { describeLockout } from '@/lib/open-meteo-quota';
 import type { Conditions } from '@/lib/clock-wardrobe';
 import { ICONS, NIGHT_ICONS } from './condition-icons';
+import { readStored, writeStored } from './device-storage';
+import { openMeteoLockout, recordOpenMeteoRefusal } from './open-meteo-lockout';
 
 const REFRESH_MS = 15 * 60 * 1000;
+// Older than this, the forecast is drawn muted: it is still the best answer
+// there is, but the viewer should know it is not current.
 const STALE_MS = 45 * 60 * 1000;
 // Back off on failure, keep the last good run on screen, and never spin: the
 // display is unattended for weeks and must survive an outage of any length
@@ -20,8 +26,23 @@ const RETRY_MAX_MS = 5 * 60 * 1000;
 // again. That keeps DMI the first opinion without spending a request on a
 // provider that just refused one.
 const SOURCE_PENALTY_MS = 60 * 60 * 1000;
+const REQUEST_TIMEOUT_MS = 15_000;
+
+// The last good forecast, so a reload shows it at once and its age decides the
+// styling rather than the reload pretending nothing is known.
+const STORAGE_KEY = 'home-dashboard:forecast-hours:v1';
+type StoredForecast = { hours: WeatherHour[]; source: SourceName; updatedAt: number };
+function validStoredForecast(value: unknown): value is StoredForecast {
+  const stored = value as StoredForecast | null;
+  return !!stored && typeof stored === 'object' && validWeatherHours(stored.hours)
+    && SOURCES.some(entry => entry.name === stored.source) && Number.isFinite(stored.updatedAt);
+}
 
 const timeFormat = new Intl.DateTimeFormat('en-GB', { timeZone: 'Europe/Copenhagen', hour: '2-digit', minute: '2-digit', hour12: false });
+
+// A refusal may say when asking again becomes worthwhile; the provider is
+// penalised until then rather than for the standard hour.
+type Attempt = { hours: WeatherHour[] } | { reason: string; until?: number };
 
 export default function WeatherPanel({ now, onConditions }: { now: Date | null; onConditions?: (conditions: Conditions) => void }) {
   const [hours, setHours] = useState<WeatherHour[] | null>(null);
@@ -30,6 +51,8 @@ export default function WeatherPanel({ now, onConditions }: { now: Date | null; 
   const [failed, setFailed] = useState(false);
 
   useEffect(() => {
+    // Debug: `?weather=off` makes no request at all. See lib/debug-flags.ts.
+    if (debugFlags(window.location.search).weather === 'off') return;
     let active = true;
     let pending = false;
     let failures = 0;
@@ -44,17 +67,35 @@ export default function WeatherPanel({ now, onConditions }: { now: Date | null; 
     // long outage upstream does not cost a request every refresh.
     const penalised = new Map<SourceName, number>();
 
-    const attempt = async (entry: typeof SOURCES[number]) => {
+    const restore = window.setTimeout(() => {
+      const saved = readStored(STORAGE_KEY, validStoredForecast);
+      if (!saved || !active) return;
+      setHours(reviveWeatherHours(saved.hours));
+      setSource(saved.source);
+      setUpdatedAt(saved.updatedAt);
+    }, 0);
+
+    const attempt = async (entry: typeof SOURCES[number]): Promise<Attempt> => {
+      // Open-Meteo is not asked while it has said the quota is spent: the
+      // answer would be the same 429, and the quota is shared with the week
+      // strip and the map, which recorded or will read the same lockout.
+      if (entry.name === 'Open-Meteo') {
+        const lockout = openMeteoLockout();
+        if (lockout) return { reason: describeLockout(lockout), until: lockout.until };
+      }
       const controller = new AbortController();
       inFlight = controller;
-      const timeout = window.setTimeout(() => controller.abort(), 15000);
+      const timeout = window.setTimeout(() => controller.abort(), REQUEST_TIMEOUT_MS);
       try {
-        const response = await fetch(entry.url(FORECAST_LATITUDE, FORECAST_LONGITUDE), { cache: 'no-store', signal: controller.signal });
-        if (!response.ok) return null;
+        const response = await fetch(entry.url(FORECAST_LATITUDE, FORECAST_LONGITUDE), { cache: entry.cache, signal: controller.signal });
+        if (!response.ok) {
+          const lockout = entry.name === 'Open-Meteo' ? recordOpenMeteoRefusal(response.status, await response.text()) : null;
+          return { reason: 'HTTP ' + response.status + (lockout ? ', ' + describeLockout(lockout) : ''), until: lockout?.until };
+        }
         const parsed = entry.parse(await response.json());
-        return parsed?.length ? parsed : null;
-      } catch {
-        return null;
+        return parsed?.length ? { hours: parsed } : { reason: 'unusable payload' };
+      } catch (error) {
+        return { reason: controller.signal.aborted ? 'timeout' : error instanceof Error ? error.message : 'network error' };
       } finally {
         window.clearTimeout(timeout);
         if (inFlight === controller) inFlight = null;
@@ -70,22 +111,29 @@ export default function WeatherPanel({ now, onConditions }: { now: Date | null; 
         const ready = SOURCES.filter(entry => (penalised.get(entry.name) ?? 0) <= now);
         // If every provider is still penalised, try them all rather than skip
         // the refresh: a stale penalty must never outrank having no forecast.
+        const reasons: string[] = [];
         for (const entry of ready.length ? ready : SOURCES) {
-          const parsed = await attempt(entry);
+          const result = await attempt(entry);
           if (!active) return;
-          if (!parsed) {
-            penalised.set(entry.name, Date.now() + SOURCE_PENALTY_MS);
+          if ('reason' in result) {
+            reasons.push(entry.name + ': ' + result.reason);
+            penalised.set(entry.name, result.until ?? Date.now() + SOURCE_PENALTY_MS);
             continue;
           }
           penalised.delete(entry.name);
           failures = 0;
-          setHours(parsed);
+          const updated = Date.now();
+          setHours(result.hours);
           setSource(entry.name);
-          setUpdatedAt(Date.now());
+          setUpdatedAt(updated);
           setFailed(false);
+          writeStored(STORAGE_KEY, { hours: result.hours, source: entry.name, updatedAt: updated } satisfies StoredForecast);
           return;
         }
         if (!active) return;
+        // The one line that explains a muted card when the display is
+        // inspected over remote debugging or by scripts/screenshot.mjs.
+        console.warn('[weather] every provider failed: ' + reasons.join('; '));
         setFailed(true);
         failures += 1;
         const delay = Math.min(RETRY_MAX_MS, RETRY_BASE_MS * 2 ** (failures - 1));
@@ -108,6 +156,7 @@ export default function WeatherPanel({ now, onConditions }: { now: Date | null; 
     return () => {
       active = false;
       inFlight?.abort();
+      window.clearTimeout(restore);
       window.clearTimeout(retry);
       window.clearInterval(timer);
       document.removeEventListener('visibilitychange', resume);
@@ -137,8 +186,15 @@ export default function WeatherPanel({ now, onConditions }: { now: Date | null; 
   }, [onConditions, reportedTemperature, reportedWet]);
   const daylight = view ? isDaylight(view.ribbon[0].timestamp + 1800000) : true;
   const Icon = current ? (daylight ? ICONS[current.kind] : NIGHT_ICONS[current.kind] ?? ICONS[current.kind]) : CloudOff;
-  const stale = failed || !!(now && updatedAt && now.getTime() - updatedAt > STALE_MS);
-  const staleDescription = stale
+  // Two separate facts. `stale` is about the data: older than STALE_MS, so the
+  // card is drawn muted. `offline` is about the connection: the last refresh
+  // failed, or there is nothing at all, so the dot appears. A refresh that
+  // fails while the data is twenty minutes old shows the dot and nothing else;
+  // the forecast on screen is still current and must not look broken.
+  const age = now && updatedAt ? now.getTime() - updatedAt : null;
+  const stale = age === null ? !hours : age > STALE_MS;
+  const offline = failed || stale;
+  const offlineDescription = offline
     ? (updatedAt ? 'Last updated at ' + timeFormat.format(new Date(updatedAt)) + '. Press OK to retry.' : 'Forecast unavailable. Press OK to retry.')
     : '';
   const temperature = view?.current ? Math.round(view.current.temperature) : null;
@@ -146,7 +202,7 @@ export default function WeatherPanel({ now, onConditions }: { now: Date | null; 
   // asked first.
   const credit = (SOURCES.find(entry => entry.name === source) ?? SOURCES[0]).attribution;
 
-  return <section className={'weather-band' + (stale ? ' stale' : '')} aria-label={'Weather. ' + staleDescription}>
+  return <section className={'weather-band' + (stale ? ' stale' : '')} aria-label={'Weather. ' + offlineDescription}>
     <div className={'weather' + (current ? ' condition-' + current.kind : '') + (daylight ? '' : ' night') + (view?.headline?.wet ? ' raining-now' : '')}
       aria-label={current && temperature !== null ? temperature + ' degrees Celsius, ' + current.label : 'Weather unavailable'}>
       <a className="weather-icon" href={credit.href} target="_blank" rel="noreferrer"
@@ -154,8 +210,8 @@ export default function WeatherPanel({ now, onConditions }: { now: Date | null; 
         <Icon strokeWidth={2.3} aria-hidden="true" />
       </a>
       <p className="temperature" aria-hidden="true">{temperature ?? '—'}<span>°</span>{current && <small>{current.label}</small>}</p>
-      <strong className="weather-headline" role={view ? undefined : 'status'}>{view?.headline?.text ?? (stale ? 'Forecast unavailable' : '···')}</strong>
-      {stale && <span className="offline-dot" role="status" aria-label={staleDescription} />}
+      <strong className="weather-headline" role={view ? undefined : 'status'}>{view?.headline?.text ?? (offline ? 'Forecast unavailable' : '···')}</strong>
+      {offline && <span className="offline-dot" role="status" aria-label={offlineDescription} />}
     </div>
 
     {view && view.track ? <div className="rain-ribbon" role="img"

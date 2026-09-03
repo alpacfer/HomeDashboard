@@ -45,13 +45,15 @@ function forecast({
 test('DMI is asked first and a fallback always exists', () => {
   // The display must never depend on a single upstream: DMI answered 429 to
   // everything for hours during their maintenance and left the screen blank.
-  assert.deepEqual(SOURCES.map(entry => entry.name), ['DMI', 'Open-Meteo']);
-  assert.ok(SOURCES.length >= 2, 'there must always be a fallback');
+  assert.deepEqual(SOURCES.map(entry => entry.name), ['DMI', 'Open-Meteo', 'MET Norway']);
+  assert.ok(SOURCES.length >= 3, 'there must always be a fallback, and one on a different model behind it');
   for (const entry of SOURCES) {
     assert.match(entry.attribution.href, /^https:\/\//);
-    assert.match(entry.attribution.credit, /CC BY 4\.0/, 'both providers require attribution');
-    assert.match(entry.attribution.credit, /DMI/, 'both credits name DMI, because both carry the DMI model');
+    assert.match(entry.attribution.credit, /CC BY 4\.0/, 'every provider requires attribution');
   }
+  // The first two carry the DMI model and must say so; the third is independent
+  // of DMI and of Open-Meteo's per-address quota (see tests/met-norway.test.mjs).
+  for (const entry of SOURCES.slice(0, 2)) assert.match(entry.attribution.credit, /DMI/);
 });
 
 test('neither request asks for a probability or a weather code', () => {

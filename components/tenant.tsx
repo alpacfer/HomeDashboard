@@ -6,12 +6,23 @@
 // Locomotion is CSS transitions on transform, not keyframes, wherever a move
 // can be interrupted: a transition always continues from wherever the Tenant
 // is, so an approach cut short by a late roll never jumps. Keyframes are used
-// only for self-contained gestures (the hour jump, the climb) whose keyframes
-// begin and end at the pose the surrounding classes already describe.
+// only for self-contained gestures (the hour jump, the climb, the descents)
+// whose keyframes begin and end at the pose the surrounding classes already
+// describe.
+//
+// The SVG is layered so that animations compose instead of fighting:
+//   .tenant    the positioned element: poses (transitions and locomotion keyframes)
+//   .t-figure  the whole figure: breathing, the walk bob, the balance on a top
+//   .t-gest    body gestures and perch actions: stretch, wiggle, teeter, slip
+//   .t-pose    sticky body state with a transition: sitting
+// Each layer animates only its own transform, so a slip on a round top runs
+// over the sway underneath it and hands back to it without a jump.
 
 import { useEffect, useRef, useState, type CSSProperties } from 'react';
 import {
-  APPROACH_TIMEOUT_MS, climbDelay, idleDelay, msToNextMinute, perchDuration, pickIdle, type IdleAction, type Mood, type Targets,
+  APPROACH_TIMEOUT_MS, DOTS_SPOT, climbDelay, idleDelay, msToNextMinute, perchDuration, perchIdleDelay, pickDescent,
+  pickHourAction, pickIdle, pickPerch, pickPerchAction, pickStrike,
+  type Descent, type HourAction, type IdleAction, type Mood, type Perch, type PerchAction, type Strike, type Targets,
 } from '@/lib/clock-tenant';
 
 export type TenantProps = {
@@ -20,40 +31,79 @@ export type TenantProps = {
   // The minute stamp of the tick about 1.6 s before the roll, or null: walk
   // over and get ready. Changes once per minute.
   approachKey: number | null;
-  // The minute stamp of a roll that just happened, or null: shove the digit,
-  // or bounce if standing on it.
+  // The minute stamp of a roll that just happened, or null: strike the digit,
+  // or react from wherever it is standing.
   rollKey: number | null;
   // The minute stamp of an hour roll, or null.
   hourKey: number | null;
   // The leftmost digit that will change next, to aim the glance.
   nextDigit: number;
+  // The leftmost digit that changed at the last roll.
+  rolledDigit: number;
   // True while the outfit is crossfading or a set piece is running.
   busy: boolean;
+  // Something the clock should draw for it: it landed on the colon, or left it.
+  onPlay?: (id: 'land' | 'spring') => void;
+  // Whether it is at rest beside the minutes, so the clock can hold a set
+  // piece until it is.
+  onHome?: (home: boolean) => void;
 };
 
-type Pose = 'rest' | 'approach' | 'shove' | 'climbing' | 'perched' | 'descending' | 'jump';
+type Pose = 'rest' | 'approach' | 'strike' | 'walk-home' | 'climbing' | 'perched' | 'descending' | 'falling' | 'sprawled' | 'jump' | 'hops';
 
-const GESTURE_MS: Record<IdleAction, number> = { blink: 200, 'double-blink': 560, 'glance-digits': 1600, 'glance-up': 1600, smile: 1800 };
+const GESTURE_MS: Record<IdleAction, number> = {
+  blink: 200, 'double-blink': 560, 'glance-digits': 1600, 'glance-up': 1600, 'look-around': 1900, smile: 1800,
+  stretch: 1400, wiggle: 900, lean: 1900, yawn: 2300, hop: 650,
+};
+const PERCH_ACTION_MS: Record<PerchAction, number> = { pace: 950, sit: 500, peer: 1700, teeter: 1700, slip: 1000 };
+const DESCENT_MS: Record<Descent, number> = { 'climb-down': 1200, 'hop-off': 1050, slide: 1300 };
+const HOUR_MS: Record<HourAction, number> = { jump: 1500, hops: 1600 };
 const CLIMB_MS = 1700;
-const DESCEND_MS = 1200;
-const JUMP_MS = 1500;
-const SHOVE_MS = 700;
+const STRIKE_MS = 700;
+const WALK_MS = 1100;
+const WATCH_MS = 1400;
+// The digit rolls out from under it: the fall, then a dazed moment on the
+// ground before it gets up and walks home.
+const FALL_MS = 1000;
+const SPRAWL_MS = 800;
 
-export default function Tenant({ mood, targets, approachKey, rollKey, hourKey, nextDigit, busy }: TenantProps) {
+const FALLBACK_PERCH: Perch = { x: 0, y: 0, kind: 'flat', pace: 0, slide: 1 };
+
+export default function Tenant({ mood, targets, approachKey, rollKey, hourKey, nextDigit, rolledDigit, busy, onPlay, onHome }: TenantProps) {
   const [pose, setPose] = useState<Pose>('rest');
   const [perchIndex, setPerchIndex] = useState(3);
+  const [shift, setShift] = useState(0);
+  const [sitting, setSitting] = useState(false);
+  const [strike, setStrike] = useState<Strike>('shove');
+  const [descent, setDescent] = useState<Descent>('climb-down');
   const [gesture, setGesture] = useState<{ action: IdleAction; key: number } | null>(null);
-  const [bounce, setBounce] = useState(false);
+  const [perchAction, setPerchAction] = useState<{ action: PerchAction; key: number } | null>(null);
+  const [watch, setWatch] = useState<-1 | 0 | 1>(0);
+  // Where a descent or a fall starts: the element's actual translation at that
+  // moment, so a step still in flight or a perch remeasured mid-air never
+  // makes it jump.
+  const [from, setFrom] = useState({ x: 0, y: 0 });
 
   // Everything the effects need to read without re-subscribing.
+  const elementRef = useRef<HTMLDivElement>(null);
   const poseRef = useRef<Pose>('rest');
   const moodRef = useRef(mood);
   const busyRef = useRef(busy);
+  const targetsRef = useRef(targets);
+  const perchRef = useRef(perchIndex);
+  const shiftRef = useRef(0);
+  const rolledRef = useRef(rolledDigit);
+  const playRef = useRef(onPlay);
   const timers = useRef(new Set<number>());
   useEffect(() => {
     poseRef.current = pose;
     moodRef.current = mood;
     busyRef.current = busy;
+    targetsRef.current = targets;
+    perchRef.current = perchIndex;
+    shiftRef.current = shift;
+    rolledRef.current = rolledDigit;
+    playRef.current = onPlay;
   });
 
   const later = (fn: () => void, ms: number) => {
@@ -62,16 +112,86 @@ export default function Tenant({ mood, targets, approachKey, rollKey, hourKey, n
     return id;
   };
   const move = (next: Pose) => { poseRef.current = next; setPose(next); };
+  const currentPerch = () => targetsRef.current.perch[perchRef.current] ?? FALLBACK_PERCH;
 
-  // Idle life: blinks and glances while resting or perched, nothing while asleep.
+  // The element's translation right now, in flight or not. Falls back to the
+  // perch it is meant to be on.
+  const whereNow = () => {
+    const perch = currentPerch();
+    const fallback = { x: perch.x + shiftRef.current, y: perch.y };
+    const element = elementRef.current;
+    if (!element) return fallback;
+    try {
+      const transform = getComputedStyle(element).transform;
+      if (!transform || transform === 'none') return fallback;
+      const matrix = new DOMMatrixReadOnly(transform);
+      return Number.isFinite(matrix.e) && Number.isFinite(matrix.f) ? { x: Math.round(matrix.e * 10) / 10, y: Math.round(matrix.f * 10) / 10 } : fallback;
+    } catch {
+      return fallback;
+    }
+  };
+
+  // Walk back to the resting spot, feet moving, then stand.
+  const walkHome = () => {
+    move('walk-home');
+    later(() => { if (poseRef.current === 'walk-home') move('rest'); }, WALK_MS);
+  };
+
+  // Come down from a perch by the given route. The keyframes start from
+  // wherever it is at this moment.
+  const comeDown = (how: Descent) => {
+    if (poseRef.current !== 'perched') return;
+    if (currentPerch().kind === 'ball') playRef.current?.('spring');
+    setFrom(whereNow());
+    setSitting(false);
+    setPerchAction(null);
+    setDescent(how);
+    move('descending');
+    later(() => {
+      if (poseRef.current !== 'descending') return;
+      setShift(0);
+      move('rest');
+    }, DESCENT_MS[how]);
+  };
+
+  // The digit it is standing on rolls away: stumble, fall to the baseline in
+  // front of the digit, lie there a moment, get up and walk home.
+  const fall = () => {
+    if (poseRef.current !== 'perched') return;
+    setFrom(whereNow());
+    setSitting(false);
+    setPerchAction(null);
+    move('falling');
+    later(() => {
+      if (poseRef.current !== 'falling') return;
+      move('sprawled');
+      later(() => {
+        if (poseRef.current !== 'sprawled') return;
+        setShift(0);
+        walkHome();
+      }, SPRAWL_MS);
+    }, FALL_MS);
+  };
+
+  // The effects below call these through a ref, like everything else they
+  // read, so none of them has to be rebuilt when a prop changes. Refreshed in
+  // an effect, never during render, and always before any timer can fire.
+  const act = useRef({ walkHome, comeDown, fall });
+  useEffect(() => { act.current = { walkHome, comeDown, fall }; });
+
+  useEffect(() => { onHome?.(pose === 'rest'); }, [pose, onHome]);
+
+  // Idle life: blinks, glances and small body gestures while resting or
+  // perched, nothing while asleep. Perched, only the face plays: the body is
+  // busy keeping its balance.
   useEffect(() => {
     let alive = true;
     const tick = () => {
       if (!alive) return;
       const awake = moodRef.current !== 'asleep';
-      const settled = poseRef.current === 'rest' || poseRef.current === 'perched';
-      if (awake && settled) {
-        const action = pickIdle(Math.random());
+      const perched = poseRef.current === 'perched';
+      if (awake && (poseRef.current === 'rest' || perched)) {
+        const action = pickIdle(Math.random(), perched);
         setGesture({ action, key: Date.now() });
         later(() => setGesture(current => current?.action === action ? null : current), GESTURE_MS[action]);
       }
@@ -81,8 +201,9 @@ export default function Tenant({ mood, targets, approachKey, rollKey, hourKey, n
     return () => { alive = false; };
   }, []);
 
-  // Now and then, climb onto a digit, sit a while, come back down. Not in the
-  // seconds around the minute boundary: the approach owns those.
+  // Now and then, climb onto a digit or the colon, stay a while, come back
+  // down. Not in the seconds around the minute boundary: the approach owns
+  // those.
   useEffect(() => {
     let alive = true;
     const tick = () => {
@@ -90,14 +211,19 @@ export default function Tenant({ mood, targets, approachKey, rollKey, hourKey, n
       const remaining = msToNextMinute(new Date());
       const clear = remaining > 4000 && remaining < 58000 && !document.hidden;
       if (clear && poseRef.current === 'rest' && moodRef.current !== 'asleep' && !busyRef.current) {
-        setPerchIndex(Math.floor(Math.random() * 4));
+        let index = pickPerch(Math.random());
+        if (!targetsRef.current.perch[index]) index = 3;
+        const perch = targetsRef.current.perch[index] ?? FALLBACK_PERCH;
+        setPerchIndex(index);
+        perchRef.current = index;
+        setShift(0);
         move('climbing');
-        later(() => { if (poseRef.current === 'climbing') move('perched'); }, CLIMB_MS);
         later(() => {
-          if (poseRef.current !== 'perched') return;
-          move('descending');
-          later(() => { if (poseRef.current === 'descending') move('rest'); }, DESCEND_MS);
-        }, CLIMB_MS + perchDuration(Math.random()));
+          if (poseRef.current !== 'climbing') return;
+          move('perched');
+          if (perch.kind === 'ball') playRef.current?.('land');
+        }, CLIMB_MS);
+        later(() => act.current.comeDown(pickDescent(perch.kind, Math.random())), CLIMB_MS + perchDuration(Math.random(), perch.kind));
       }
       later(tick, climbDelay(Math.random()));
     };
@@ -105,48 +231,100 @@ export default function Tenant({ mood, targets, approachKey, rollKey, hourKey, n
     return () => { alive = false; };
   }, []);
 
+  // Things it does while perched, chosen by the shape under its feet: pace
+  // along a bar, sit down, peer over the edge, teeter on a stem, slip on an
+  // arch and catch itself.
+  useEffect(() => {
+    if (pose !== 'perched') return;
+    let alive = true;
+    const tick = () => {
+      if (!alive || poseRef.current !== 'perched') return;
+      if (moodRef.current !== 'asleep') {
+        const perch = currentPerch();
+        let action = pickPerchAction(perch.kind, Math.random());
+        if (action === 'pace' && perch.pace < 4) action = 'peer';
+        if (action === 'pace') setShift(shiftRef.current !== 0 ? 0 : (Math.random() < 0.5 ? -1 : 1) * perch.pace);
+        if (action === 'sit') setSitting(current => !current);
+        setPerchAction({ action, key: Date.now() });
+        later(() => setPerchAction(current => current?.action === action ? null : current), PERCH_ACTION_MS[action]);
+      }
+      later(tick, perchIdleDelay(Math.random()));
+    };
+    later(tick, perchIdleDelay(Math.random()) * 0.6);
+    return () => { alive = false; };
+  }, [pose]);
+
+  // The digits were remeasured under it (a roll, an outfit change). The perch
+  // transition carries it to the new top; a pacing shift that no longer fits
+  // the new plateau is walked back.
+  useEffect(() => {
+    const perch = targets.perch[perchRef.current];
+    if (perch && Math.abs(shiftRef.current) > perch.pace) setShift(0);
+  }, [targets]);
+
   // Walk over before the roll; if the roll never comes, walk back.
   useEffect(() => {
     if (approachKey === null || poseRef.current !== 'rest' || moodRef.current === 'asleep' || document.hidden) return;
     move('approach');
-    later(() => { if (poseRef.current === 'approach') move('rest'); }, APPROACH_TIMEOUT_MS);
+    later(() => { if (poseRef.current === 'approach') act.current.walkHome(); }, APPROACH_TIMEOUT_MS);
   }, [approachKey]);
 
-  // The digit rolls: shove it if we are there, bounce if we are standing on it.
+  // The digit rolls. Strike it if we are there; fall if standing on it (every
+  // digit right of the leftmost changed one changes too); otherwise turn and
+  // look at whichever digit moved.
   useEffect(() => {
     if (rollKey === null) return;
+    const rolled = rolledRef.current;
     if (poseRef.current === 'approach') {
-      move('shove');
-      later(() => { if (poseRef.current === 'shove') move('rest'); }, SHOVE_MS);
+      setStrike(pickStrike(Math.random()));
+      move('strike');
+      later(() => { if (poseRef.current === 'strike') act.current.walkHome(); }, STRIKE_MS);
     } else if (poseRef.current === 'perched') {
-      setBounce(true);
-      later(() => setBounce(false), 700);
+      const spot = perchRef.current === DOTS_SPOT ? 1.5 : perchRef.current;
+      if (perchRef.current !== DOTS_SPOT && rolled <= perchRef.current) {
+        act.current.fall();
+      } else {
+        setWatch(rolled > spot ? 1 : -1);
+        later(() => setWatch(0), WATCH_MS);
+      }
+    } else if (poseRef.current === 'rest' && moodRef.current !== 'asleep') {
+      setGesture({ action: 'glance-digits', key: Date.now() });
+      later(() => setGesture(current => current?.action === 'glance-digits' ? null : current), GESTURE_MS['glance-digits']);
     }
   }, [rollKey]);
 
-  // The hour: a jump with a spin, from rest only.
+  // The hour: a jump with a spin, or a pair of hops, from rest. When the roll
+  // was struck first, celebrate after walking home.
   useEffect(() => {
-    if (hourKey === null || poseRef.current !== 'rest' || moodRef.current === 'asleep' || document.hidden) return;
-    move('jump');
-    later(() => { if (poseRef.current === 'jump') move('rest'); }, JUMP_MS);
+    if (hourKey === null || moodRef.current === 'asleep' || document.hidden) return;
+    const celebrate = () => {
+      if (poseRef.current !== 'rest') return;
+      const action: HourAction = pickHourAction(Math.random());
+      move(action);
+      later(() => { if (poseRef.current === action) move('rest'); }, HOUR_MS[action]);
+    };
+    if (poseRef.current === 'rest') celebrate();
+    else if (poseRef.current === 'strike') later(celebrate, STRIKE_MS + WALK_MS + 150);
+    else if (poseRef.current === 'falling') later(celebrate, FALL_MS + SPRAWL_MS + WALK_MS + 150);
   }, [hourKey]);
 
   // Falling asleep brings it down from wherever it is.
   useEffect(() => {
     if (mood !== 'asleep' || poseRef.current === 'rest') return;
-    if (poseRef.current === 'perched') {
-      move('descending');
-      later(() => { if (poseRef.current === 'descending') move('rest'); }, DESCEND_MS);
-    } else if (poseRef.current === 'approach') {
-      move('rest');
-    }
+    if (poseRef.current === 'perched') act.current.comeDown('climb-down');
+    else if (poseRef.current === 'approach') act.current.walkHome();
   }, [mood]);
 
   // A hidden tab freezes CSS animations while timers keep (slowly) firing, so
   // a pose reached while hidden may be drawn half-way. Coming back, walk home
   // from wherever the Tenant is; the transition takes it from there.
   useEffect(() => {
-    const resume = () => { if (!document.hidden && poseRef.current !== 'rest') move('rest'); };
+    const resume = () => {
+      if (document.hidden || poseRef.current === 'rest') return;
+      setSitting(false);
+      setShift(0);
+      move('rest');
+    };
     document.addEventListener('visibilitychange', resume);
     const pending = timers.current;
     return () => {
@@ -156,21 +334,32 @@ export default function Tenant({ mood, targets, approachKey, rollKey, hourKey, n
     };
   }, []);
 
-  const perch = targets.perch[perchIndex] ?? targets.perch[targets.perch.length - 1];
+  const perch = targets.perch[perchIndex] ?? targets.perch[3] ?? FALLBACK_PERCH;
   const style = {
     '--tenant-left': targets.rest.left + 'px',
     '--tenant-top': targets.rest.top + 'px',
     '--push-x': targets.pushX + 'px',
     '--perch-x': perch.x + 'px',
     '--perch-y': perch.y + 'px',
+    '--shift': shift + 'px',
+    '--slide': perch.slide,
+    '--from-x': from.x + 'px',
+    '--from-y': from.y + 'px',
   } as CSSProperties;
 
+  const onTop = pose === 'perched' || pose === 'climbing' || pose === 'descending';
   const className = ['tenant', 'mood-' + mood, 'pose-' + pose,
+    onTop ? 'on-' + perch.kind : '',
+    pose === 'strike' ? 's-' + strike : '',
+    pose === 'descending' ? 'd-' + descent : '',
     gesture ? 'g-' + gesture.action : '',
     gesture?.action === 'glance-digits' && nextDigit <= 1 ? 'g-far' : '',
-    bounce ? 'bouncing' : ''].filter(Boolean).join(' ');
+    perchAction ? 'pa-' + perchAction.action : '',
+    perchAction?.action === 'pace' ? 'pacing' : '',
+    sitting && pose === 'perched' ? 'sitting' : '',
+    watch ? (watch > 0 ? 'w-right' : 'w-left') : ''].filter(Boolean).join(' ');
 
-  return <div className={className} style={style} aria-hidden="true">
+  return <div className={className} style={style} aria-hidden="true" ref={elementRef}>
     <svg viewBox="0 0 100 100">
       <g className="t-figure">
       <g className="t-rain-drops">
@@ -180,15 +369,19 @@ export default function Tenant({ mood, targets, approachKey, rollKey, hourKey, n
       </g>
       <text className="t-zz" x="70" y="30">z</text>
       <text className="t-zz" x="80" y="20">z</text>
+      <g className="t-gest">
       <ellipse className="t-foot" cx="38" cy="96" rx="9" ry="4" />
       <ellipse className="t-foot t-foot-b" cx="62" cy="96" rx="9" ry="4" />
+      <g className="t-pose">
       <path className="t-body" d="M50 22 C74 22 88 40 88 62 C88 84 72 96 50 96 C28 96 12 84 12 62 C12 40 26 22 50 22 Z" />
       <ellipse className="t-cheek" cx="27" cy="70" rx="6" ry="4" />
       <ellipse className="t-cheek" cx="73" cy="70" rx="6" ry="4" />
       <ellipse className="t-eye" cx="36" cy="54" rx="11" ry="13" />
       <ellipse className="t-eye" cx="64" cy="54" rx="11" ry="13" />
-      <circle className="t-pupil" cx="37" cy="56" r="5.5" />
-      <circle className="t-pupil" cx="65" cy="56" r="5.5" />
+      <g className="t-pupils">
+        <circle className="t-pupil" cx="37" cy="56" r="5.5" />
+        <circle className="t-pupil" cx="65" cy="56" r="5.5" />
+      </g>
       <rect className="t-lid" x="24" y="40" width="24" height="28" rx="11" />
       <rect className="t-lid" x="52" y="40" width="24" height="28" rx="11" />
       <path className="t-mouth" d="M43 75 Q50 79 57 75" />
@@ -196,6 +389,8 @@ export default function Tenant({ mood, targets, approachKey, rollKey, hourKey, n
       <g className="t-scarf"><path d="M18 78 C30 90 70 90 82 78 C70 84 30 84 18 78 Z" /><path d="M72 82 L80 98 L70 96 Z" /></g>
       <g className="t-umbrella"><path className="t-canopy" d="M8 40 Q50 -4 92 40 Z" /><path className="t-canopy-rib" d="M8 40 Q29 30 50 40 Q71 30 92 40" /><rect className="t-handle" x="49" y="38" width="2.5" height="24" /></g>
       <ellipse className="t-sweat" cx="80" cy="44" rx="3" ry="4.5" />
+      </g>
+      </g>
       </g>
     </svg>
   </div>;

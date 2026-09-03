@@ -14,7 +14,16 @@
       "Bash(git status:*)",
       "Bash(git diff:*)",
       "Bash(git log:*)",
-      "Bash(git show:*)"
+      "Bash(git show:*)",
+      "Bash(npm run check:rules)",
+      "Bash(npm run shot:*)",
+      "Bash(npm run probe)",
+      "Bash(npm run probe:*)",
+      "Bash(node scripts/check-rules.mjs)",
+      "Bash(node scripts/screenshot.mjs:*)",
+      "Bash(node --import tsx scripts/probe-forecast.mjs:*)",
+      "Bash(npx eslint:*)",
+      "Bash(npx tsc:*)"
     ],
     "deny": [
       "Read(./.env)",
@@ -22,6 +31,43 @@
       "Read(./node_modules/**)",
       "Bash(npm publish:*)",
       "Bash(git push --force:*)"
+    ]
+  },
+  "hooks": {
+    "PreToolUse": [
+      {
+        "matcher": "Edit|Write|MultiEdit|NotebookEdit",
+        "hooks": [
+          {
+            "type": "command",
+            "command": "node \"$CLAUDE_PROJECT_DIR/scripts/hooks/guard-generated.mjs\"",
+            "timeout": 10
+          }
+        ]
+      }
+    ],
+    "PostToolUse": [
+      {
+        "matcher": "Edit|Write|MultiEdit",
+        "hooks": [
+          {
+            "type": "command",
+            "command": "node \"$CLAUDE_PROJECT_DIR/scripts/hooks/lint-changed.mjs\" --file",
+            "timeout": 60
+          }
+        ]
+      }
+    ],
+    "Stop": [
+      {
+        "hooks": [
+          {
+            "type": "command",
+            "command": "node \"$CLAUDE_PROJECT_DIR/scripts/hooks/lint-changed.mjs\" --stop",
+            "timeout": 180
+          }
+        ]
+      }
     ]
   }
 }

@@ -46,6 +46,11 @@ jobs:
       - name: Test
         run: npm test
 
+      # The rules from AGENTS.md that a script can check: no hover styles,
+      # every lib module tested, effects paired with cleanup, and so on.
+      - name: Project rules
+        run: npm run check:rules
+
       - name: Build
         run: npm run build
 
@@ -60,6 +65,46 @@ jobs:
           find .next/static/chunks -name '*.js' -printf '%10s  %p\n' 2>/dev/null \
             | sort -rn | head -10 >> "$GITHUB_STEP_SUMMARY" || true
           echo '```' >> "$GITHUB_STEP_SUMMARY"
+
+  # A real render of the built site, captured the way the Fire TV sees it, so a
+  # layout regression is visible in the run's artifacts without a checkout.
+  # Weather requests are switched off (?weather=off) so a run never spends the
+  # providers' quota; the weather card therefore shows its unavailable state.
+  # Non-blocking: a runner without Chrome, or a slow start, must not turn a
+  # green build red.
+  screenshot:
+    name: Screenshot
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+
+    steps:
+      - uses: actions/checkout@v5
+
+      - uses: actions/setup-node@v6
+        with:
+          node-version-file: .nvmrc
+          cache: npm
+
+      - run: npm ci
+
+      - run: npm run build
+
+      - name: Capture
+        continue-on-error: true
+        run: |
+          npm start &
+          npm run shot -- --scene transport --offline --out screenshots/transport.png
+          npm run shot -- --scene map --offline --out screenshots/map.png
+          npm run shot -- --scene fact --offline --narrow --out screenshots/fact-narrow.png
+          npm run shot -- --offline --reduced-motion --clip .display-shell --out screenshots/clock-reduced-motion.png
+
+      - uses: actions/upload-artifact@v4
+        if: always()
+        with:
+          name: screenshots
+          path: screenshots/
+          if-no-files-found: ignore
+          retention-days: 14
 
   audit:
     name: Dependency audit

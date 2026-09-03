@@ -20,19 +20,78 @@ export function tenantMood({ hour, temperature, wet }: MoodContext): Mood {
   return 'awake';
 }
 
-export type IdleAction = 'blink' | 'double-blink' | 'glance-digits' | 'glance-up' | 'smile';
+// Small things it does with its face and body while settled. Blinks dominate
+// so the rest stay surprising; the body gestures (stretch, wiggle, lean, hop)
+// animate an inner group so they compose with whatever the pose is doing.
+export type IdleAction =
+  | 'blink' | 'double-blink' | 'glance-digits' | 'glance-up' | 'look-around' | 'smile'
+  | 'stretch' | 'wiggle' | 'lean' | 'yawn' | 'hop';
 
 const IDLE_WEIGHTS: [IdleAction, number][] = [
-  ['blink', 50], ['double-blink', 15], ['glance-digits', 15], ['glance-up', 10], ['smile', 10],
+  ['blink', 34], ['double-blink', 10], ['glance-digits', 12], ['glance-up', 6], ['look-around', 8],
+  ['smile', 8], ['stretch', 5], ['wiggle', 5], ['lean', 6], ['yawn', 3], ['hop', 3],
 ];
 
-export function pickIdle(random: number): IdleAction {
-  let cursor = clamp01(random) * IDLE_WEIGHTS.reduce((sum, [, weight]) => sum + weight, 0);
-  for (const [action, weight] of IDLE_WEIGHTS) {
+const BODY_GESTURES: IdleAction[] = ['stretch', 'wiggle', 'lean', 'hop'];
+
+// While perched the body is busy balancing or pacing, so only the face plays.
+export function pickIdle(random: number, perched = false): IdleAction {
+  return weighted(perched ? IDLE_WEIGHTS.filter(([action]) => !BODY_GESTURES.includes(action)) : IDLE_WEIGHTS, random);
+}
+
+// The shape of the top of a glyph, which decides how the Tenant stands on it:
+//   flat   a bar wider than its stance (3, 5, 7): stands square, can pace
+//   ledge  a flat top narrower than its stance (the stem of a 1 or a 4): teeters
+//   round  an arch (0, 2, 6, 8, 9): sways, and may slip off down the curve
+//   ball   the colon's dot: a hard balance
+export type TopKind = 'flat' | 'ledge' | 'round' | 'ball';
+
+// What it does now and then while perched, by the shape under its feet.
+export type PerchAction = 'pace' | 'sit' | 'peer' | 'teeter' | 'slip';
+
+const PERCH_WEIGHTS: Record<TopKind, [PerchAction, number][]> = {
+  flat: [['pace', 45], ['sit', 25], ['peer', 30]],
+  ledge: [['teeter', 55], ['peer', 45]],
+  round: [['slip', 40], ['peer', 40], ['teeter', 20]],
+  ball: [['teeter', 70], ['slip', 30]],
+};
+
+export function pickPerchAction(kind: TopKind, random: number): PerchAction {
+  return weighted(PERCH_WEIGHTS[kind], random);
+}
+
+// How it comes down: climbs back, hops off, or, from an arch, slides off it.
+export type Descent = 'climb-down' | 'hop-off' | 'slide';
+
+export function pickDescent(kind: TopKind, random: number): Descent {
+  const r = clamp01(random);
+  if (kind === 'round' || kind === 'ball') return r < 0.45 ? 'slide' : r < 0.75 ? 'hop-off' : 'climb-down';
+  return r < 0.55 ? 'climb-down' : 'hop-off';
+}
+
+// How it meets the rolling digit, and how it marks the hour.
+export type Strike = 'shove' | 'kick' | 'headbutt';
+export function pickStrike(random: number): Strike {
+  return weighted([['shove', 55], ['kick', 25], ['headbutt', 20]], random);
+}
+export type HourAction = 'jump' | 'hops';
+export function pickHourAction(random: number): HourAction {
+  return clamp01(random) < 0.6 ? 'jump' : 'hops';
+}
+
+// Where to climb next: one of the four digits, or the colon's top dot (4).
+export const DOTS_SPOT = 4;
+export function pickPerch(random: number): number {
+  return weighted([[0, 18], [1, 18], [2, 22], [3, 26], [DOTS_SPOT, 16]], random);
+}
+
+function weighted<T>(table: [T, number][], random: number): T {
+  let cursor = clamp01(random) * table.reduce((sum, [, weight]) => sum + weight, 0);
+  for (const [value, weight] of table) {
     cursor -= weight;
-    if (cursor < 0) return action;
+    if (cursor < 0) return value;
   }
-  return 'blink';
+  return table[0][0];
 }
 
 // Blinks and glances every 3 to 8 seconds; a climb somewhere every 25 to 45.
@@ -42,9 +101,15 @@ export function idleDelay(random: number): number {
 export function climbDelay(random: number): number {
   return Math.round(25000 + clamp01(random) * 20000);
 }
-// How long it sits on a digit before coming down.
-export function perchDuration(random: number): number {
-  return Math.round(5000 + clamp01(random) * 6000);
+// How long it stays up before coming down: 6 to 14 seconds on a digit, less
+// on the colon's dot, which is hard work.
+export function perchDuration(random: number, kind: TopKind = 'flat'): number {
+  const base = kind === 'ball' ? 3500 : 6000;
+  return Math.round(base + clamp01(random) * (kind === 'ball' ? 3000 : 8000));
+}
+// Between things it does while perched.
+export function perchIdleDelay(random: number): number {
+  return Math.round(2200 + clamp01(random) * 2300);
 }
 
 // The approach starts this long before the minute boundary. The walk takes
@@ -113,35 +178,141 @@ export function inkBox(cell: Box, metrics: GlyphMetrics, lineHeight: number): Bo
   };
 }
 
+// The top of a glyph, read from a bitmap of it. The component draws each digit
+// on a small canvas; these two functions turn the pixels into a stance.
+
+export type Columns = {
+  // The ink's bounding box in bitmap pixels, inclusive.
+  left: number; right: number; top: number; bottom: number;
+  // For each column from left to right, the top inked row relative to `top`,
+  // or null where the column has no ink at all.
+  tops: (number | null)[];
+};
+
+// Per-column tops from an RGBA bitmap (a canvas ImageData's data). Null when
+// nothing was drawn.
+export function inkColumns(rgba: ArrayLike<number>, width: number, height: number, threshold = 127): Columns | null {
+  const tops: (number | null)[] = [];
+  let left = -1, right = -1, top = height, bottom = -1;
+  for (let x = 0; x < width; x++) {
+    let first: number | null = null, last = -1;
+    for (let y = 0; y < height; y++) {
+      if (rgba[(y * width + x) * 4 + 3] > threshold) { if (first === null) first = y; last = y; }
+    }
+    if (first !== null) {
+      if (left < 0) left = x;
+      right = x;
+      top = Math.min(top, first);
+      bottom = Math.max(bottom, last);
+    }
+    tops.push(first);
+  }
+  if (right < 0) return null;
+  return { left, right, top, bottom, tops: tops.slice(left, right + 1).map(t => t === null ? null : t - top) };
+}
+
+export type TopProfile = {
+  kind: Exclude<TopKind, 'ball'>;
+  // Centre of the highest flat run, as a fraction of the ink width from its
+  // left edge. .5 for a 7, about .68 for a 1 whose flag hangs off the left.
+  apex: number;
+  // Width of that run as a fraction of the ink width.
+  plateau: number;
+  // Which way it would slip off an arch: +1 right, -1 left. Towards the lower
+  // side, or right when the arch is symmetric.
+  slide: 1 | -1;
+};
+
+// Classify a top. `body` is the Tenant's width in the same pixels as the
+// columns; a flat top narrower than most of it is a ledge. Columns within 3% of
+// the glyph height of the apex form the plateau; the band within 15% shows
+// how quickly the sides fall away. An arch has a plateau much narrower than
+// its band, a bar or a stem has the two nearly equal.
+export function topProfile(columns: Columns, body: number): TopProfile {
+  const { tops } = columns;
+  const width = tops.length;
+  const height = columns.bottom - columns.top + 1;
+  const near = Math.max(1, height * 0.03);
+  const wide = Math.max(2, height * 0.15);
+  const run = longestRun(tops, near);
+  const band = longestRun(tops, wide);
+  const steepness = band.length ? run.length / band.length : 1;
+  const plateau = run.length / width;
+  const apex = (run.start + run.length / 2) / width;
+  let kind: TopProfile['kind'] = 'round';
+  if (steepness >= 0.7) kind = run.length >= body * 0.7 ? 'flat' : 'ledge';
+  const centre = (band.start + band.length / 2) / width;
+  return { kind, apex: round(apex, 1000), plateau: round(plateau, 1000), slide: apex < centre - 0.02 ? 1 : apex > centre + 0.02 ? -1 : 1 };
+}
+
+// The longest contiguous run of columns whose top lies within `tolerance` of
+// the highest top.
+function longestRun(tops: (number | null)[], tolerance: number): { start: number; length: number } {
+  let best = { start: 0, length: 0 };
+  let start = -1;
+  for (let x = 0; x <= tops.length; x++) {
+    const t = tops[x];
+    const inside = x < tops.length && t !== null && t !== undefined && t <= tolerance;
+    if (inside && start < 0) start = x;
+    if (!inside && start >= 0) {
+      if (x - start > best.length) best = { start, length: x - start };
+      start = -1;
+    }
+  }
+  return best;
+}
+
+export type Perch = {
+  // Translation that stands the Tenant on the spot, feet on its top.
+  x: number; y: number;
+  kind: TopKind;
+  // How far it can step each way along a flat top and keep both feet on it.
+  pace: number;
+  slide: 1 | -1;
+};
+
 export type Targets = {
   // Translation that brings the Tenant's left edge against the last digit's
   // right ink edge, overlapping a little so the shove reads as contact.
   pushX: number;
-  // Per digit: the translation that stands the Tenant centred on top of that
-  // digit's ink.
-  perch: { x: number; y: number }[];
+  // The four digits' tops, then the colon's top dot (DOTS_SPOT) when known.
+  perch: Perch[];
   // Where the Tenant rests: bottom on the digits' baseline, just right of the
   // last cell. In the block's coordinates.
   rest: { left: number; top: number };
 };
 
-export function tenantTargets(ink: Box[], lastCell: Box, size: number, gap: number, overlap = 0.14): Targets {
+const STANCE = 0.42; // feet span as a fraction of the Tenant's width
+
+export function tenantTargets(ink: Box[], lastCell: Box, size: number, gap: number, profiles: (TopProfile | null)[] = [], dot: Box | null = null, overlap = 0.14): Targets {
   const baseline = Math.max(...ink.map(box => box.bottom));
   const rest = { left: lastCell.right + gap, top: baseline - size };
   const restBox = { left: rest.left, top: rest.top, right: rest.left + size, bottom: baseline };
+  const restCentre = (restBox.left + restBox.right) / 2;
   const last = ink[ink.length - 1];
+  const perch: Perch[] = ink.map((box, index) => {
+    const profile = profiles[index] ?? null;
+    const width = box.right - box.left;
+    const apex = profile ? box.left + profile.apex * width : (box.left + box.right) / 2;
+    const plateau = profile ? profile.plateau * width : 0;
+    return {
+      x: round(apex - restCentre),
+      y: round(box.top - restBox.bottom),
+      kind: profile?.kind ?? 'flat',
+      pace: profile?.kind === 'flat' ? round(Math.max(0, (plateau - STANCE * size) / 2)) : 0,
+      slide: profile?.slide ?? 1,
+    };
+  });
+  if (dot) perch.push({ x: round((dot.left + dot.right) / 2 - restCentre), y: round(dot.top - restBox.bottom), kind: 'ball', pace: 0, slide: 1 });
   return {
     pushX: round(last.right + overlap * size - restBox.left),
-    perch: ink.map(box => ({
-      x: round((box.left + box.right) / 2 - (restBox.left + restBox.right) / 2),
-      y: round(box.top - restBox.bottom),
-    })),
+    perch,
     rest: { left: round(rest.left), top: round(rest.top) },
   };
 }
 
-function round(value: number) {
-  return Math.round(value * 10) / 10;
+function round(value: number, precision = 10) {
+  return Math.round(value * precision) / precision;
 }
 
 function clamp01(value: number) {

@@ -27,6 +27,23 @@ export type WeatherHour = {
   precipitation: number;
 };
 
+// The boundary for hours read back from device storage. Storage is an external
+// input like any other: a previous build may have written a different shape.
+export function validWeatherHours(value: unknown): value is WeatherHour[] {
+  if (!Array.isArray(value) || !value.length) return false;
+  return value.every(hour => hour && typeof hour === 'object'
+    && ['timestamp', 'temperature', 'cloud', 'rain', 'snow', 'precipitation'].every(key => Number.isFinite((hour as Record<string, unknown>)[key]))
+    // Infinity does not survive JSON, so a missing visibility is read as clear.
+    && ((hour as WeatherHour).visibility === null || (hour as WeatherHour).visibility === undefined || typeof (hour as WeatherHour).visibility === 'number'));
+}
+
+// Infinity does not survive JSON: an hour with no visibility limit comes back
+// from storage as null, and null compares below any number, so without this
+// every clear stored hour would read as fog.
+export function reviveWeatherHours(hours: WeatherHour[]): WeatherHour[] {
+  return hours.map(hour => ({ ...hour, visibility: typeof hour.visibility === 'number' ? hour.visibility : Infinity }));
+}
+
 export type Band = 'dry' | 'trace' | 'light' | 'moderate' | 'heavy';
 export type ConditionKind = 'clear' | 'partly' | 'cloudy' | 'overcast' | 'fog' | 'drizzle' | 'rain' | 'heavy-rain' | 'sleet' | 'snow';
 export type Condition = { kind: ConditionKind; label: string; band: Band; wet: boolean };

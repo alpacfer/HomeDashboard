@@ -26,7 +26,7 @@ to the outfit too (`Outfit.date` in `lib/clock-wardrobe.ts`): terminal shows
 `2026-09-03 Thu`, editorial shows `Thursday, 3 September`, arcade shows
 `Thu 03 Sep`.
 
-There are nineteen. `outfitWeights()` decides which are likely right now from
+There are eighteen. `outfitWeights()` decides which are likely right now from
 the Copenhagen hour and weekday, the current temperature and whether the
 current hour is wet. Weekday daytime leans on Grotesk, the home outfit; weekend
 mornings on the serif; Friday and Saturday evenings on neon; night on terminal
@@ -40,7 +40,9 @@ a **crossfade**: the component first loads the new outfit's fonts through
 block and fades it out while the new digits fade in, one digit after another,
 the date last (`DRESS_MS`, one second). Colours, glyphs and glows all ride
 inside those two fades. A change waits for a quiet part of the minute so it
-never overlaps the roll.
+never overlaps the roll. The fade-in runs on the digit **cells**, not the
+faces: a face keeps its own roll animation, so the digit that rolled out
+earlier in the minute stays gone instead of fading back in over the new one.
 
 Faces come from Google Fonts, subset to the digits, the Latin letters and the
 date punctuation by asking the CSS API with `text=`, which works for variable
@@ -48,8 +50,17 @@ families too. `npm run fonts:clock` downloads them into `public/fonts/clock/`
 and writes `app/clock-fonts.css`. To add an outfit: add the face to
 `scripts/fetch-clock-fonts.mjs`, rerun the script, add the outfit to `OUTFITS`
 with its fonts and date style, add its `.o-<id>` rule to `globals.css`, and
-give it a weight in `outfitWeights()`. Check the digits at wall distance
-before committing: 0 against 8, 1 against 7, 3 against 8.
+give it a weight in `outfitWeights()`. The cells clip, so `--digit-scale` is
+not a taste: measure the face's ink for 0 to 9 with canvas `measureText`
+(`actualBoundingBox*`, the way `Clock` measures for the Tenant), and set the
+scale to about 95 % of the largest that keeps every digit inside .62em by
+1.12em. Shadows, drips and slices count as ink. A face that only fits at half
+the size of the others does not belong here; that is why Rubik Glitch went.
+Then look at it: `npm run shot -- --offline --time 08:46 --clip .clock-block
+--class ".clock-block=clock-block o-<id>"` shows the four widest digits, and
+`--class ".clock-block=clock-block o-<id> sp-morph" --freeze 1600` the widest
+point of its morph, if it has one. Check the digits at wall distance before
+committing: 0 against 8, 1 against 7, 3 against 8.
 
 ## Set pieces
 
@@ -86,34 +97,66 @@ plays twice in a row.
 
 A small round character in the outfit's colon colour, with white eyes, pupils
 and lids, standing to the right of the minutes with its feet on the digits'
-baseline. It is decoration that knows where the numbers are.
+baseline. It is decoration that knows where the numbers are, and what shape
+they are.
 
 **Geometry.** After the fonts are ready, after every roll and outfit change,
 and on resize, `Clock` measures each digit: the cell's box from the DOM and the
 glyph's metrics from a canvas `measureText` call in the face's computed font.
-`inkBox()` turns those into the glyph's actual ink rectangle, and
-`tenantTargets()` into the translations the Tenant needs: `--push-x` to stand
-against the last digit's ink edge, `--perch-x/y` to stand centred on any
-digit's top. That is why it stands on the top of a "1" and shoves the edge of a
-"7" rather than the edge of the cell.
+`inkBox()` turns those into the glyph's actual ink rectangle. Each digit is
+also drawn once, at 96 px, on a small offscreen canvas, and `inkColumns()` reads
+the top of the ink in every column; `topProfile()` classifies that top as a
+**flat** bar wider than the Tenant (3, 5, 7 in Grotesk), a **ledge** narrower
+than it (the stem of a 1 or a 4), or a **round** arch (0, 2, 6, 8, 9), and finds
+the apex: the centre of the highest flat run. `tenantTargets()` turns all of
+that into the translations the Tenant needs: `--push-x` to stand against the
+last digit's ink edge, and one perch per digit with `--perch-x/y` on the apex,
+how far it can pace along a flat top, and which way an arch falls away. The
+colon's top dot is measured too and is the fifth perch, a **ball**. That is why
+it stands on the stem of a "1" rather than over its flag, and shoves the edge
+of a "7" rather than the edge of the cell.
 
-**Behaviour.** Idle, it blinks and glances every 3 to 8 seconds. 1.6 s before
-the minute boundary (`shouldApproach`) it walks over to the last digit and
-holds a ready pose; when the roll actually arrives, which the one-second tick
-can deliver up to a second late, it shoves, and the digit rolls out under its
-push. If no roll follows, it walks back after 3.5 s. Every 25 to 45 seconds it
-climbs onto a digit, sits for a while looking down, and comes back; a digit
-that rolls under it makes it bounce. At the hour it jumps with a spin. Between
-23:00 and 06:00 it sleeps and the clock dims to 72 %. It holds an umbrella
-when the current hour is wet, wears sunglasses above 25° and a scarf below 0°,
-using the same fields the weather card shows.
+**Behaviour.** Idle, it blinks, glances, looks around, smiles, stretches,
+wiggles, leans towards the digits, yawns and hops every 3 to 8 seconds
+(`pickIdle`). 1.6 s before the minute boundary (`shouldApproach`) it walks over
+to the last digit, feet stepping and body bobbing, and holds a ready pose; when
+the roll actually arrives, which the one-second tick can deliver up to a second
+late, it strikes (`pickStrike`: a shove, a kick with the front foot, or a
+headbutt) and the digit rolls out under the blow; then it walks back. If no
+roll follows, it walks back after 3.5 s. Every 25 to 45 seconds it climbs onto
+a digit or the colon (`pickPerch`, the minutes favoured) and stays 6 to 14
+seconds, less on the colon. What it does up there depends on what it is
+standing on (`pickPerchAction`): on a bar it paces a few steps each way, sits
+down with its feet out, or peers over the edge; on a ledge it teeters; on an
+arch it sways all the while, slips down the curve and catches itself; on the
+colon it balances hard, feet together, and the dots squash when it lands and
+spring when it leaves (`tn-land`, `tn-spring` on the block). A digit that
+rolls out from under it takes its footing with it: it stumbles, falls to the
+baseline in front of the digit, lies there squashed and dazed for a moment,
+then gets up and walks home. A digit that rolls elsewhere makes it start and
+look that way. Otherwise it comes down by climbing, by hopping off, or, from
+an arch or the colon, by sliding off it (`pickDescent`). At the hour it jumps with a
+spin or does two hops (`pickHourAction`), after walking home if it struck the
+roll first. Between 23:00 and 06:00 it sleeps and the clock dims to 72 %. It
+holds an umbrella when the current hour is wet, wears sunglasses above 25° and
+a scarf below 0°, using the same fields the weather card shows.
+
+While the Tenant is off its resting spot, `Clock` postpones set pieces, so the
+digit it is standing on does not fly away under it; the hour pieces are the
+exception, since they follow the roll it has just struck.
 
 **Motion.** Walking poses are CSS transitions on `transform`, so a move
-interrupted by a late roll continues from wherever the Tenant is. The climb,
-the descent and the jump are keyframes whose first and last frames equal the
-poses on either side of them. Idle breathing, blinking and accessories animate
-the SVG's own groups, never the positioned element, so they never fight the
-locomotion.
+interrupted by a late roll continues from wherever the Tenant is. The perch is
+a transition too: when the digit under it rolls or changes face, the remeasured
+apex carries it smoothly to the new top, and its stance changes with the shape.
+The climb, the descents, the fall and the hour are keyframes whose first and
+last frames equal the poses on either side of them. Every descent and the fall
+start from `--from-x/y`, the element's actual translation read from its
+computed transform at that instant, so a step still in flight, or a perch
+remeasured while it is in the air, never makes it jump. The SVG is layered so nothing fights: the positioned
+element carries poses, `.t-figure` breathing, the walk bob and the balance for
+the top's shape, `.t-gest` gestures and perch actions, `.t-pose` the sticky
+sitting squash, and each animates only its own transform.
 
 ## Reduced motion
 
@@ -124,6 +167,10 @@ set piece runs, and the Tenant is not rendered. Outfits still change, instantly.
 
 Everything about *which* and *when* is in `lib/` and covered by
 `tests/clock-wardrobe.test.mjs`, `tests/clock-events.test.mjs` and
-`tests/clock-tenant.test.mjs`. To watch a piece without waiting for its timer,
-add the class by hand in DevTools (`sp-domino`, `o-neon`) on `.clock-block`;
-the CSS is the whole choreography.
+`tests/clock-tenant.test.mjs`, including the top-shape classifier, which is
+tested against the measured column tops of the Grotesk digits. To watch a piece
+without waiting for its timer, add the class by hand in DevTools (`sp-domino`,
+`o-neon`) on `.clock-block`; the CSS is the whole choreography. The Tenant's
+poses are classes on `.tenant` in the same way (`pose-perched on-round
+pa-slip`, `pose-strike s-kick`), positioned by the custom properties the
+component sets on it.

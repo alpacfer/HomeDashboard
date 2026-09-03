@@ -5,7 +5,7 @@
 // variable families as well as static ones, so this needs no font tooling. The
 // subset holds the digits, the Latin letters and the three punctuation marks
 // the date formats use, which is every glyph the clock can ever draw. That is
-// what keeps nineteen outfits cheaper than one full display font on a Fire TV
+// what keeps eighteen outfits cheaper than one full display font on a Fire TV
 // that has to decode every byte.
 //
 // Output:
@@ -54,7 +54,6 @@ const FACES = [
   { id: 'kablammo', family: 'Kablammo', query: 'Kablammo:MORF@0..60' },
   { id: 'bungee-shade', family: 'Bungee Shade', query: 'Bungee+Shade' },
   { id: 'bungee', family: 'Bungee', query: 'Bungee' },
-  { id: 'rubik-glitch', family: 'Rubik Glitch', query: 'Rubik+Glitch' },
   { id: 'black-ops-one', family: 'Black Ops One', query: 'Black+Ops+One' },
   { id: 'rubik-wet-paint', family: 'Rubik Wet Paint', query: 'Rubik+Wet+Paint' },
   { id: 'rubik-burned', family: 'Rubik Burned', query: 'Rubik+Burned' },

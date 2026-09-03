@@ -25,9 +25,39 @@ animation, a polling loop, or any server-side work.** The short version:
 ```sh
 npm ci            # install; use this, not npm install, unless changing deps
 npm run dev       # dev server on http://localhost:3000
-npm run check     # lint + typecheck + test + docs + build. Run before delivering.
+npm run check     # lint + typecheck + test + docs + rules + build. Run before delivering.
 npm test          # node:test over tests/*.test.mjs
+npm run shot -- --scene map            # screenshot the running display, 1280 x 720, headless Chrome
+npm run probe                          # ask every forecast provider as the browser would
 ```
+
+## Debugging tools
+
+Read [docs/DEBUGGING.md](docs/DEBUGGING.md) before investigating anything on
+screen. In short:
+
+- **`npm run shot`** (`scripts/screenshot.mjs`) is how screenshots are taken.
+  It needs the dev server running (start it with the preview tool, never a bare
+  `npm run dev` in Bash), waits for it, and writes PNGs under `screenshots/`.
+  `--clip <selector>` gives the smallest image; `--class` forces an outfit, set
+  piece or Tenant pose; `--freeze` stops animations at a time; `--narrow` and
+  `--reduced-motion` cover the other layouts; `--console` shows what the page
+  logged. Do not screenshot through the browser pane: its crop is unsupported
+  and a hidden pane returns stale frames.
+- **`npm run probe`** (`scripts/probe-forecast.mjs`) says which forecast
+  provider is answering and why the others are not. Run it first when the
+  weather card is muted or shows the dot.
+- **`/?weather=off`** stops every weather request. **Use it for every capture
+  that is not about the weather.** Open-Meteo's quota is ten thousand calls a
+  day per IP address, one load of the forecast map costs about three hundred,
+  and the display shares the address with this machine. A day of screenshots
+  against `?scene=map` once spent the whole quota and muted the display. The
+  limits and the arithmetic are in `lib/open-meteo-quota.ts`; a `429` locks
+  Open-Meteo out for every component until the limit it names resets.
+- **`/?time=HH:MM`** pins the clock to a Copenhagen time (`npm run shot --
+  --time 08:46`), so an outfit can be checked against chosen digits.
+- Weather failures are logged as one `[weather] every provider failed: ...`
+  line naming each provider and its reason.
 
 `npm start` binds `127.0.0.1` and is local-only. Render uses
 `npm run start:render`, which binds `0.0.0.0`.
@@ -42,7 +72,7 @@ Dependencies point inward: `app/` → `components/` → `lib/`. Nothing points b
 | `components/` | React components that own browser effects: timers, fetches, storage, Leaflet, wake lock. |
 | `lib/` | Pure logic: parsing, validation, time conversion, selection, rotation timing. |
 | `tests/` | One `node:test` suite per `lib/` module. |
-| `scripts/` | Maintenance tooling. Plain Node, no dependencies. |
+| `scripts/` | Maintenance and debugging tooling, and the Claude Code hooks in `scripts/hooks/`. Plain Node, no dependencies. |
 
 `lib/` may not import React, the DOM, `fetch`, or Next.js. This is enforced by
 `eslint.config.mjs`, so lint will tell you before review does.
@@ -75,6 +105,41 @@ browser and must never hold a credential. Never commit `.env.local`.
 **Scripts stay in Node, not shell.** The repository is worked on from both
 Ubuntu and macOS, where `sed`, `date`, and friends differ.
 
+**Every fetch gets its own AbortController and a deadline.** A shared signal
+stays aborted once it fires, and a request that never settles leaves a
+`pending` flag set for good. Both end all refreshing on a display nobody
+reloads. Copy the pattern in `components/weather-panel.tsx`.
+
+**Anything read back from device storage goes through a validator in `lib/`.**
+Storage is an input like a provider: a previous build may have written a
+different shape. See `components/device-storage.ts`.
+
+**Never spend the display's quota from a development machine.** The Fire TV and
+this machine share one Open-Meteo quota. Pass `--offline` to `npm run shot`,
+add `?weather=off` to any URL you load by hand unless the weather is the
+subject, and never run `npm run probe -- --grid` in a loop.
+
+## Rules that are enforced for you
+
+These run without being asked, so a violation is reported before review:
+
+- `eslint.config.mjs`: `lib/` purity; `components/` never imports `app/`;
+  every `Intl.DateTimeFormat` names a `timeZone`; no `toLocale*String`.
+- `scripts/check-rules.mjs` (in `npm run check` and CI): no `:hover` or
+  `cursor` in the CSS; every `lib/` module has a test; every timer, listener,
+  animation frame and Leaflet map in a component has its teardown; no
+  `NEXT_PUBLIC_` credential names; Render's start script exists; hooks exist;
+  the font stylesheet matches the face list.
+- `.claude/settings.json` hooks: `scripts/hooks/guard-generated.mjs` refuses
+  edits to generated files and names the regenerating command;
+  `scripts/hooks/lint-changed.mjs` lints each written file and, before a turn
+  ends, lints and typechecks everything changed and runs the tests when `lib/`
+  or `tests/` changed. A failure keeps the turn open with the output shown.
+
+When one of these fires, fix the cause. Do not disable the rule, and do not
+work around a hook by editing through Bash, unless Alejandro asked for exactly
+that edit.
+
 **Documentation is checked.** `npm run docs:check` fails when a Markdown file
 links to or names a path that does not exist. If you move a file, fix the docs
 in the same change.
@@ -97,14 +162,17 @@ For every requested change that affects rendered behaviour, run the dashboard
 and capture a screenshot of the relevant state before delivering. Show that
 screenshot in the final response.
 
-Use the smallest screenshot that demonstrates the change: the clock and date
-area for a clock change, the relevant panel for a rotating-panel change. To
-reach a rotating scene without waiting for the cycle, pin it with
-`/?scene=map`, `/?scene=transport` or `/?scene=fact&fact=N`; this is the
-standard debug mode and is documented in [README.md](README.md).
+Take it with `npm run shot` (see Debugging tools above). Use the smallest
+screenshot that demonstrates the change: `--clip .clock-block` for a clock
+change, `--clip .weather-band` for the weather card, the relevant panel for a
+rotating-panel change. To reach a rotating scene without waiting for the
+cycle, pin it with `--scene map`, `--scene transport` or
+`--scene fact --fact N` (the `/?scene=` debug mode in [README.md](README.md)),
+and pass `--offline` unless the weather is the subject.
 Recheck both the 16:9 layout and the narrow (`max-aspect-ratio: 5/4`) layout
-when responsive CSS is affected, and check the reduced-motion path when
-animation is touched. **Test at 1280 x 720**, the Fire TV's actual resolution.
+(`--narrow`) when responsive CSS is affected, and check the reduced-motion path
+(`--reduced-motion`) when animation is touched. **Test at 1280 x 720**, the Fire
+TV's actual resolution, which is the script's default.
 
 For documentation-only, test-only, or backend-only changes with no meaningful
 rendered state, say in the final response that no relevant screenshot was

@@ -5,10 +5,21 @@ import type { Map } from 'leaflet';
 import {
   cellBand, coversView, displayFrames, frameInterval, GRID_HOURS, gridForView, hasPrecipitation, isQuietHours, MAP_BOUNDS,
   parsePrecipitationGrid, playheadPosition, precipitationGridUrl, quietHoursEnd, SEQUENCE_LOOPS, timelineTicks,
-  type GridFrame, type MapBounds, type PrecipitationGrid,
+  validPrecipitationGrid, type GridFrame, type MapBounds, type PrecipitationGrid,
 } from '@/lib/precipitation-grid';
 import { CHECK_RETRY_MS, MODEL_META_URL, nextCheckAt, parseModelRun, shouldFetchGrid, type ModelRun } from '@/lib/forecast-refresh';
 import { MAP_MS } from '@/lib/panel-rotation';
+import { debugFlags } from '@/lib/debug-flags';
+import { readStored, writeStored } from './device-storage';
+import { openMeteoLockout, recordOpenMeteoRefusal } from './open-meteo-lockout';
+
+// The last grid, kept on the device. One grid request is about three hundred
+// coordinates, each of which Open-Meteo counts against a daily quota of ten
+// thousand per address (lib/open-meteo-quota.ts), so a reload (a crash, a
+// development session, a screenshot) must not buy the same run again. The
+// scheduler compares the stored run against the metadata and fetches only
+// when a newer one exists.
+const STORAGE_KEY = 'home-dashboard:forecast-grid:v1';
 
 const HOME: [number, number] = [55.73825, 12.53836];
 const PLACES: Array<{ label: string; coordinates: [number, number]; home?: boolean }> = [
@@ -126,13 +137,23 @@ export default function ForecastMapPanel({ active }: { active: boolean }) {
   // requests inside a minute is more than Open-Meteo allows.
   useEffect(() => {
     if (!mapReady) return;
+    if (debugFlags(window.location.search).weather === 'off') return;
     let cancelled = false;
     let busy = false;
     let failures = 0;
+    const restore = window.setTimeout(() => {
+      if (cancelled || held.current) return;
+      const saved = readStored(STORAGE_KEY, validPrecipitationGrid);
+      if (!saved) return;
+      held.current = saved;
+      setGrid(saved);
+      setNowMs(Date.now());
+      setStatus('ready');
+    }, 0);
     // After a failure, nothing may ask for the grid before this moment. The
     // scheduled retry honours it by construction; the scene's own appearance
     // and a visibility change must honour it too, or a display cycling through
-    // the map once a minute would request a 400-coordinate grid once a minute
+    // the map once a minute would request a 300-coordinate grid once a minute
     // for as long as the provider kept refusing, and spend the whole day's
     // quota inside the first hour of an outage.
     let allowedAt = 0;
@@ -151,7 +172,12 @@ export default function ForecastMapPanel({ active }: { active: boolean }) {
       const timeout = window.setTimeout(() => controller.abort(), timeoutMs);
       try {
         const response = await fetch(url, { signal: controller.signal, cache: 'no-cache' });
-        if (!response.ok) throw new Error('Forecast unavailable');
+        if (!response.ok) {
+          // Both URLs are Open-Meteo's. A 429 naming the daily limit becomes
+          // a lockout the card and the week honour too.
+          recordOpenMeteoRefusal(response.status, await response.text());
+          throw new Error('HTTP ' + response.status);
+        }
         return await response.json();
       } finally {
         window.clearTimeout(timeout);
@@ -166,6 +192,16 @@ export default function ForecastMapPanel({ active }: { active: boolean }) {
       // screen at all. Whatever is already loaded keeps playing.
       if (isQuietHours(now) && held.current) {
         schedule(quietHoursEnd(now));
+        return;
+      }
+      // Open-Meteo has said the quota is spent, to this component or to the
+      // card or the week: nothing is asked, not even the metadata, until it
+      // resets. The stored run keeps playing for as long as its frames last.
+      const lockout = openMeteoLockout(now);
+      if (lockout) {
+        if (!held.current) setStatus('error');
+        allowedAt = lockout.until;
+        schedule(lockout.until + 1_000);
         return;
       }
       busy = true;
@@ -190,6 +226,7 @@ export default function ForecastMapPanel({ active }: { active: boolean }) {
             setGrid(parsed);
             setNowMs(Date.now());
             setStatus('ready');
+            writeStored(STORAGE_KEY, parsed);
           } catch {
             // A failed refresh keeps the previous forecast on screen. It is
             // still a forecast, and its own frame times say how much is left.
@@ -202,8 +239,10 @@ export default function ForecastMapPanel({ active }: { active: boolean }) {
         if (!cancelled) {
           // After a failure, retry soon and back off (5, 10, 20, 40, then 60
           // minutes) so a rate limit or an outage is picked up again as soon
-          // as it clears; otherwise wait for the next run.
-          const retry = Date.now() + Math.min(CHECK_RETRY_MS * 2 ** Math.max(0, failures - 1), 60 * 60_000);
+          // as it clears; otherwise wait for the next run. A refusal that
+          // named its limit has said when that is, and the retry waits for it.
+          const backoff = Date.now() + Math.min(CHECK_RETRY_MS * 2 ** Math.max(0, failures - 1), 60 * 60_000);
+          const retry = Math.max(backoff, (openMeteoLockout(Date.now())?.until ?? 0) + 1_000);
           allowedAt = failures ? retry : 0;
           schedule(failures ? retry : nextCheckAt(Date.now(), run));
         }
@@ -221,6 +260,7 @@ export default function ForecastMapPanel({ active }: { active: boolean }) {
       cancelled = true;
       refresh.current = () => undefined;
       inFlight?.abort();
+      window.clearTimeout(restore);
       window.clearTimeout(timer);
       window.clearInterval(clock);
       window.removeEventListener('online', online);

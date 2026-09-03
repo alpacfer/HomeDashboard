@@ -25,7 +25,7 @@ import {
 import {
   HOUR_PIECE_DELAY_MS, delayToQuiet, flapSequence, nextEventDelay, pickSetPiece, setPieceById, type SetPieceId,
 } from '@/lib/clock-events';
-import { inkBox, nextChangingDigit, shouldApproach, tenantMood, tenantTargets, type Targets } from '@/lib/clock-tenant';
+import { inkBox, inkColumns, nextChangingDigit, shouldApproach, tenantMood, tenantTargets, topProfile, type Targets } from '@/lib/clock-tenant';
 import Tenant from './tenant';
 
 // Per-digit variation for the zero-gravity piece, so no two digits drift alike.
@@ -37,10 +37,18 @@ const TENANT_SIZE_EM = 0.42;
 const TENANT_GAP_EM = 0.08;
 // The roll takes 680 ms plus stagger; measure the new ink after it has landed.
 const ROLL_MS = 900;
+// Each digit is also drawn at this size on a small canvas to read the shape of
+// its top (a bar, a stem, an arch), which decides how the Tenant stands on it.
+const PROFILE_PX = 96;
+const PROFILE_W = 160;
+const PROFILE_H = 150;
+// How long the colon's dots squash after the Tenant lands on them.
+const PLAY_MS = 900;
 
 type Ghost = { outfit: OutfitId; digits: string; date: string; key: number };
 type Piece = { id: SetPieceId; key: number };
 type Flap = { text: string; previous: string };
+type Play = { id: 'land' | 'spring'; key: number };
 
 export default function Clock({ now, conditions = null }: { now: Date | null; conditions?: Conditions | null }) {
   const [frame, setFrame] = useState(() => clockFrame(now));
@@ -53,6 +61,7 @@ export default function Clock({ now, conditions = null }: { now: Date | null; co
   const [piece, setPiece] = useState<Piece | null>(null);
   const [flap, setFlap] = useState<Flap | null>(null);
   const [targets, setTargets] = useState<Targets | null>(null);
+  const [play, setPlay] = useState<Play | null>(null);
   const [reduced, setReduced] = useState(false);
 
   // The timers read live values through refs so they never have to be rebuilt.
@@ -73,6 +82,7 @@ export default function Clock({ now, conditions = null }: { now: Date | null; co
   });
   const lastPiece = useRef<SetPieceId | null>(null);
   const hourPiece = useRef<(() => void) | null>(null);
+  const tenantHome = useRef(true);
   const canvas = useRef<CanvasRenderingContext2D | null>(null);
   const timers = useRef(new Set<number>());
 
@@ -91,9 +101,11 @@ export default function Clock({ now, conditions = null }: { now: Date | null; co
   }, []);
 
   // Where the ink of each digit is, in the block's own coordinates, from the
-  // cells' boxes and canvas text metrics for the face they are drawn in. Runs
+  // cells' boxes and canvas text metrics for the face they are drawn in, and
+  // what the top of each glyph looks like, from a small bitmap of it. Runs
   // after the fonts are ready, after every roll and outfit change, and on
-  // resize. Four measureText calls, so it is cheap enough to run each minute.
+  // resize. Four measureText calls and four 160 x 150 bitmaps, so it is cheap
+  // enough to run each minute.
   const measure = useCallback(() => {
     const block = blockRef.current;
     const clock = block?.querySelector<HTMLElement>(':scope > .clock');
@@ -101,11 +113,25 @@ export default function Clock({ now, conditions = null }: { now: Date | null; co
     const cells = Array.from(clock.querySelectorAll<HTMLElement>('.clock-digit'));
     const text = frameRef.current.text.replace(':', '');
     if (cells.length !== 4 || !/^\d{4}$/.test(text)) { setTargets(null); return; }
-    canvas.current ??= document.createElement('canvas').getContext('2d');
+    if (!canvas.current) {
+      const element = document.createElement('canvas');
+      element.width = PROFILE_W;
+      element.height = PROFILE_H;
+      canvas.current = element.getContext('2d', { willReadFrequently: true });
+    }
     const context = canvas.current;
     if (!context) return;
     const origin = block.getBoundingClientRect();
     const relative = (rect: DOMRect) => ({ left: rect.left - origin.left, top: rect.top - origin.top, right: rect.right - origin.left, bottom: rect.bottom - origin.top });
+    const profiles = cells.map((cell, index) => {
+      const face = cell.querySelector<HTMLElement>('.digit-face:not(.digit-out)') ?? cell;
+      const style = getComputedStyle(face);
+      context.font = `${style.fontWeight} ${PROFILE_PX}px ${style.fontFamily}`;
+      context.clearRect(0, 0, PROFILE_W, PROFILE_H);
+      context.fillText(text[index], PROFILE_PX * 0.3, PROFILE_PX * 1.15);
+      const columns = inkColumns(context.getImageData(0, 0, PROFILE_W, PROFILE_H).data, PROFILE_W, PROFILE_H);
+      return columns ? topProfile(columns, TENANT_SIZE_EM * PROFILE_PX) : null;
+    });
     const ink = cells.map((cell, index) => {
       const face = cell.querySelector<HTMLElement>('.digit-face:not(.digit-out)') ?? cell;
       const style = getComputedStyle(face);
@@ -113,9 +139,18 @@ export default function Clock({ now, conditions = null }: { now: Date | null; co
       const box = relative(cell.getBoundingClientRect());
       return inkBox(box, context.measureText(text[index]), parseFloat(style.lineHeight) || box.bottom - box.top);
     });
+    const dot = clock.querySelector<HTMLElement>('.separator span');
     const em = parseFloat(getComputedStyle(clock).fontSize);
-    setTargets(tenantTargets(ink, relative(cells[3].getBoundingClientRect()), TENANT_SIZE_EM * em, TENANT_GAP_EM * em));
+    setTargets(tenantTargets(ink, relative(cells[3].getBoundingClientRect()), TENANT_SIZE_EM * em, TENANT_GAP_EM * em,
+      profiles, dot ? relative(dot.getBoundingClientRect()) : null));
   }, []);
+
+  // The Tenant landed on the colon or left it: squash or spring the dots.
+  const onPlay = useCallback((id: Play['id']) => {
+    setPlay({ id, key: Date.now() });
+    later(() => setPlay(current => current?.id === id ? null : current), PLAY_MS);
+  }, [later]);
+  const onHome = useCallback((home: boolean) => { tenantHome.current = home; }, []);
 
   // The roll itself: measure the new ink once it has landed and, after an
   // hour roll, schedule the hour set piece. `next` is a new object only when
@@ -132,6 +167,8 @@ export default function Clock({ now, conditions = null }: { now: Date | null; co
   // One one-second tick per minute lands in the approach window.
   const rollKey = rolled ? next.minute : null;
   const hourKey = rolled && next.text.endsWith(':00') ? next.minute : null;
+  const rolledIndex = digits.findIndex(({ previous }) => previous !== null);
+  const rolledDigit = rolledIndex < 0 ? 3 : rolledIndex;
   const approachKey = now && shouldApproach(now) ? Math.floor(now.getTime() / 60000) : null;
 
   // Wardrobe and set-piece scheduling. One effect, one set of timers, all
@@ -187,6 +224,8 @@ export default function Clock({ now, conditions = null }: { now: Date | null; co
       if (reducedRef.current) return;
       const at = nowRef.current ?? new Date();
       if (busyRef.current || document.hidden) { if (!atHour) scheduleEvent(4000); return; }
+      // The digits should not fly off while the Tenant is standing on one.
+      if (!atHour && !tenantHome.current) { scheduleEvent(4000); return; }
       const choice = pickSetPiece(outfitById(outfitRef.current).morph, atHour, Math.random(), lastPiece.current);
       if (!choice) { if (!atHour) scheduleEvent(nextEventDelay(Math.random())); return; }
       const wait = delayToQuiet(at, choice.duration);
@@ -221,6 +260,7 @@ export default function Clock({ now, conditions = null }: { now: Date | null; co
 
   const className = ['clock-block', 'o-' + outfit,
     piece ? 'sp-' + piece.id : '',
+    play ? 'tn-' + play.id : '',
     ghost ? 'is-dressing' : '',
     mood === 'asleep' ? 'is-asleep' : ''].filter(Boolean).join(' ');
 
@@ -254,6 +294,6 @@ export default function Clock({ now, conditions = null }: { now: Date | null; co
     </div>}
 
     {targets && !reduced && <Tenant mood={mood} targets={targets} approachKey={approachKey} rollKey={rollKey} hourKey={hourKey}
-      nextDigit={nextDigit} busy={ghost !== null || piece !== null} />}
+      nextDigit={nextDigit} rolledDigit={rolledDigit} busy={ghost !== null || piece !== null} onPlay={onPlay} onHome={onHome} />}
   </div>;
 }

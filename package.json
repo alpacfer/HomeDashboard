@@ -14,9 +14,12 @@
     "typecheck": "tsc --noEmit",
     "test": "node --import tsx --test tests/*.test.mjs",
     "docs:check": "node scripts/check-docs.mjs",
-    "check": "npm run lint && npm run typecheck && npm test && npm run docs:check && npm run build",
+    "check": "npm run lint && npm run typecheck && npm test && npm run docs:check && npm run check:rules && npm run build",
     "facts:generate": "node scripts/generate-daily-facts.mjs",
-    "fonts:clock": "node scripts/fetch-clock-fonts.mjs"
+    "fonts:clock": "node scripts/fetch-clock-fonts.mjs",
+    "check:rules": "node scripts/check-rules.mjs",
+    "shot": "node scripts/screenshot.mjs",
+    "probe": "node --import tsx scripts/probe-forecast.mjs"
   },
   "dependencies": {
     "leaflet": "^1.9.4",

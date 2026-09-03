@@ -3,12 +3,15 @@
 //
 // The pinned panel's DMI Harmonie run only reaches about two and a half days,
 // so the week comes from Open-Meteo's daily aggregation of its default model
-// blend instead. It is a different forecast from the ribbon, and the two are
+// blend instead, with MET Norway's ten-day forecast behind it for the days
+// Open-Meteo's quota is spent (see lib/forecast-sources.ts for why that
+// happens). It is a different forecast from the ribbon, and the two are
 // never mixed: the ribbon says what the next hours do, the week says what the
 // days after tomorrow look like. As with the hourly data, no weather code or
 // probability is requested: the condition is derived here from the day's own
 // cloud cover and precipitation, so the icon and the amount cannot disagree.
 
+import { finite, frozenShare, metNorwayUrl, validLocationForecast, type MetEntry } from './forecast-sources';
 import { type ConditionKind } from './weather';
 
 export const WEEK_DAYS = 7;
@@ -113,3 +116,93 @@ export function parseDailyForecast(payload: unknown, now: Date): ForecastDay[] |
   }).slice(0, WEEK_DAYS);
   return days.length === WEEK_DAYS ? days : null;
 }
+
+// ---------------------------------------------------------------------------
+// MET Norway, aggregated from the same Locationforecast response the hourly
+// fallback uses, so the two cost one request between them.
+//
+// The series is hourly for about two and a half days and six-hourly after
+// that, and every entry at 00, 06, 12 and 18 UTC carries the next six hours'
+// temperature extremes and precipitation total. A day's high and low are the
+// extremes of every sample and every six-hour window that starts in it; its
+// precipitation is the sum of non-overlapping windows, hourly where the series
+// is hourly and six-hourly after, each assigned to the day it starts in. A day
+// with fewer than four six-hourly samples is incomplete and is dropped, which
+// is what keeps a half-covered last day off the strip.
+// ---------------------------------------------------------------------------
+
+const HOUR_MS = 3_600_000;
+const SAMPLES_PER_DAY = 4;
+
+type DayTally = { highs: number[]; lows: number[]; clouds: number[]; precipitation: number; snow: number; windows: number };
+
+function tally(days: Map<string, DayTally>, date: string) {
+  const existing = days.get(date);
+  if (existing) return existing;
+  const fresh: DayTally = { highs: [], lows: [], clouds: [], precipitation: 0, snow: 0, windows: 0 };
+  days.set(date, fresh);
+  return fresh;
+}
+
+function round(value: number) {
+  return Math.round(value * 10) / 10;
+}
+
+export function parseMetDaily(payload: unknown, now: Date): ForecastDay[] | null {
+  if (!validLocationForecast(payload)) return null;
+  const today = copenhagenDateKey(now);
+  const days = new Map<string, DayTally>();
+  // The end of the last precipitation window already counted, so overlapping
+  // six-hour windows in the hourly part of the series are not summed twice.
+  let covered = 0;
+  for (const entry of payload.properties.timeseries as MetEntry[]) {
+    const at = Date.parse(entry.time);
+    const date = copenhagenDateKey(new Date(at));
+    if (date <= today) continue;
+    const day = tally(days, date);
+    const details = entry.data.instant.details;
+    const temperature = details.air_temperature;
+    if (finite(temperature)) { day.highs.push(temperature); day.lows.push(temperature); }
+    if (finite(details.cloud_area_fraction)) day.clouds.push(details.cloud_area_fraction);
+    const six = entry.data.next_6_hours?.details;
+    if (finite(six?.air_temperature_max) && finite(six?.air_temperature_min)) {
+      day.highs.push(six.air_temperature_max);
+      day.lows.push(six.air_temperature_min);
+      day.windows += 1;
+    }
+    if (at < covered) continue;
+    const hourly = entry.data.next_1_hours?.details?.precipitation_amount;
+    const amount = finite(hourly) ? hourly : six?.precipitation_amount;
+    if (!finite(amount)) continue;
+    day.precipitation += amount;
+    day.snow += amount * frozenShare(finite(temperature) ? temperature : 10);
+    covered = at + (finite(hourly) ? 1 : 6) * HOUR_MS;
+  }
+  const week = [...days.entries()].sort(([a], [b]) => (a < b ? -1 : 1)).flatMap(([date, day]): ForecastDay[] => {
+    if (day.windows < SAMPLES_PER_DAY || !day.clouds.length) return [];
+    const summary = {
+      precipitation: round(day.precipitation),
+      snow: round(day.snow),
+      cloud: day.clouds.reduce((sum, value) => sum + value, 0) / day.clouds.length / 100,
+    };
+    return [{ date, label: weekdayLabel(date), high: Math.max(...day.highs), low: Math.min(...day.lows), ...summary, kind: describeDay(summary) }];
+  }).slice(0, WEEK_DAYS);
+  return week.length === WEEK_DAYS ? week : null;
+}
+
+// Preference order, as for the hours: Open-Meteo's daily aggregation first,
+// MET Norway when it cannot answer. Each parser takes "now" because "today" is
+// dropped at parse time and moves at Copenhagen midnight.
+export type DailySourceName = 'Open-Meteo' | 'MET Norway';
+
+export type DailySource = {
+  name: DailySourceName;
+  url: (latitude: number, longitude: number) => string;
+  parse: (payload: unknown, now: Date) => ForecastDay[] | null;
+  cache: RequestCache;
+};
+
+export const DAILY_SOURCES: DailySource[] = [
+  { name: 'Open-Meteo', url: openMeteoDailyUrl, parse: parseDailyForecast, cache: 'default' },
+  { name: 'MET Norway', url: metNorwayUrl, parse: parseMetDaily, cache: 'default' },
+];

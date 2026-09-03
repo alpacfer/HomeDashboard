@@ -7,6 +7,7 @@ import WeekStrip from '@/components/week-strip';
 import Clock from '@/components/clock';
 import KeepAwake from '@/components/keep-awake';
 import type { Conditions } from '@/lib/clock-wardrobe';
+import { debugFlags, pinnedNow } from '@/lib/debug-flags';
 
 export default function Home() {
   const [now, setNow] = useState<Date | null>(null);
@@ -16,9 +17,12 @@ export default function Home() {
   const [conditions, setConditions] = useState<Conditions | null>(null);
 
   useEffect(() => {
-    const start = window.setTimeout(() => setNow(new Date()), 0);
-    const clock = window.setInterval(() => setNow(new Date()), 1000);
-    const resume = () => setNow(new Date());
+    // Debug: `?time=HH:MM` pins the clock to a Copenhagen time. See lib/debug-flags.ts.
+    const pinned = debugFlags(window.location.search).time;
+    const tick = () => setNow(pinnedNow(pinned, new Date()));
+    const start = window.setTimeout(tick, 0);
+    const clock = window.setInterval(tick, 1000);
+    const resume = tick;
     window.addEventListener('online', resume);
     document.addEventListener('visibilitychange', resume);
     return () => {

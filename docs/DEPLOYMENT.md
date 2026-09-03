@@ -41,7 +41,7 @@ loop, or anything that runs on the server.
    (the "ink" and "morph" pieces, which animate `clip-path` and variable-font
    axes) run for three seconds at most, a few times an hour. If the stick
    stutters, disable those two first. See [CLOCK.md](CLOCK.md).
-   The clock's outfit fonts are 23 subset woff2 files, about 0.9 MB in all,
+   The clock's outfit fonts are 22 subset woff2 files, about 0.9 MB in all,
    but each is fetched only the first time its outfit is worn and cached from
    then on; the display never downloads more than one at a time.
 5. **Nothing may depend on interaction.** There is no pointer and no keyboard.
@@ -50,19 +50,27 @@ loop, or anything that runs on the server.
 
 ## Provider limits
 
-Three external providers are called from the browser, and each has a limit worth
-respecting for a display that runs unattended for weeks.
+Four external providers are called from the browser, and each has a limit worth
+respecting for a display that runs unattended for weeks. The one that matters
+most is Open-Meteo's, because it is counted **per client IP address**: the Fire
+TV, the machines the project is developed on and every screenshot session share
+the home connection's quota. See [DEBUGGING.md](DEBUGGING.md) for the day it ran
+out and what now prevents that.
 
 | Provider | Documented limit | What the code does about it |
 | --- | --- | --- |
 | DMI forecast EDR | 500 requests per 5 seconds, shared across all callers. Over it, `429 Server is busy` rather than a queue. | Asked first every refresh, and skipped for an hour after it fails so a long outage does not cost a request each time. |
-| Open-Meteo `dmi_seamless` | Non-commercial fair use, CDN-cached. | The fallback, used only when DMI does not answer. Carries the same DMI Harmonie run. |
-| Open-Meteo daily forecast | Same quota as the grid below; one coordinate, so one call. | The week strip under the ribbon. Fetched hourly from `components/week-strip.tsx`, about 24 calls a day, with the same backoff and keep-the-last-good-answer behaviour as the weather panel. |
-| Open-Meteo forecast grid | 10,000 calls a day, 5,000 an hour, **600 a minute**, and every coordinate in a request counts as a call. Over it, `429`. | One request carries about 400 coordinates. The lattice is capped at 450 points so a single request cannot trip the per-minute limit, and bounded to a 7.8 KB URL because Open-Meteo's nginx answers a request line over 8 KB with a `414` that carries no CORS header and reaches the browser as a plain network failure; that bound is the one that binds. It is fetched when Open-Meteo's per-model `meta.json` names a run the map does not hold, or when fewer frames remain ahead of now than the map shows (the metadata has been seen stuck or answering `500` for hours while the forecast kept updating), which is every three hours at most, never between 23:00 and 06:00, and never before the scene has been on screen once. That is about 3,000 a day, down from 6,480 when it was refetched hourly. The metadata checks are a static kilobyte, roughly fifteen a day. |
+| Open-Meteo `dmi_seamless` | Shares the 10,000-call daily quota below. | The second opinion, used only when DMI does not answer. Carries the same DMI Harmonie run. Not asked at all while a `429` from any Open-Meteo request on the device says the quota is spent: the lockout in `components/open-meteo-lockout.ts` lasts until the limit it names resets, midnight UTC for the daily one, and is shared with the week strip and the map. |
+| MET Norway Locationforecast | 20 requests a second per application; honour the `Expires` header; coordinates truncated to four decimals; identification by `Origin` for browser clients. | The third opinion for the hours and the second for the week, on its own model and its own quota, so both DMI routes can be down without the display going stale. Fetched with the browser's HTTP cache enabled so `Expires` is respected, and one URL serves both panels. |
+| Open-Meteo daily forecast | Same quota as the grid below; one coordinate, so one call. MET Norway behind it. | The week strip under the ribbon. Fetched hourly from `components/week-strip.tsx`, about 24 calls a day, with the same backoff and keep-the-last-good-answer behaviour as the weather panel. |
+| Open-Meteo forecast grid | 10,000 weighted calls a day, 5,000 an hour, **600 a minute**, per client IP address. A request weighs `locations × max(1, days / 14) × max(1, variables / 10)`, so every coordinate in it counts as a call (`lib/open-meteo-quota.ts`). Over it, `429`. | One request carries about 285 coordinates at the Fire TV's frame: a 3 km lattice, since Harmonie's effective resolution is several times its 2 km grid and the field is smoothed when drawn, so nothing the map could show is lost. The lattice is capped at 450 points so a single request cannot trip the per-minute limit, and bounded to a 7.8 KB URL because Open-Meteo's nginx answers a request line over 8 KB with a `414` that carries no CORS header and reaches the browser as a plain network failure. It is fetched when Open-Meteo's per-model `meta.json` names a run the map does not hold, or when fewer frames remain ahead of now than the map shows (the metadata has been seen stuck or answering `500` for hours while the forecast kept updating), which is every three hours at most, never between 23:00 and 06:00, never before the scene has been on screen once, and never while a `429` has locked Open-Meteo out. That is about 1,700 a day, down from 3,000 at 2.4 km and 6,480 when it was refetched hourly. The metadata checks are a static kilobyte, roughly fifteen a day. |
 | Rejseplanen | Per-key, undocumented. | Proxied through `/api/departures`, which caches results for two minutes so every browser refresh does not become a provider request. |
 
 The weather panel refreshes every 15 minutes and retries a failure with jittered
-exponential backoff from 20 seconds to a 5-minute ceiling. The last good
+exponential backoff from 20 seconds to a 5-minute ceiling. The last good answer
+from every provider is also kept in device storage and restored on load, so a
+reload shows a forecast at once and, for the map, costs no grid request while
+the stored model run is still the current one. The last good
 forecast stays on screen throughout, whichever provider supplied it.
 
 **DMI answering `429` is normal, not an outage, and it is why there are two
@@ -75,10 +83,11 @@ Harmonie run: values were checked field by field against a direct DMI capture
 and match. Both parsers return the identical `WeatherHour`, so which provider
 answered never changes what the display says, only the credit line.
 
-Any change to the weather fetch must keep four properties: **there is always
+Any change to the weather fetch must keep five properties: **there is always
 more than one provider**, a failed request never clears the forecast already on
-screen, retries back off rather than spin, and no code path can issue requests
-faster than the refresh interval.
+screen, retries back off rather than spin, no code path can issue requests
+faster than the refresh interval, and a provider that has said its quota is
+spent is not asked again by anything on the device before that quota resets.
 
 **Do not poll DMI while developing.** Repeated probing during this integration
 saturated the shared limit and locked the endpoint out for minutes at a time,
@@ -164,7 +173,10 @@ Two browser APIs are best-effort rather than guaranteed on Silk:
 - **Screen Wake Lock**, used by `components/keep-awake.tsx`. It already retries
   and degrades quietly. Verify on the device whether the screen actually stays
   on, or whether the Fire TV's own sleep timer has to be disabled instead.
-- **`localStorage`**, used by `components/rotating-panel.tsx` to resume the
+- **`localStorage`**, used by `components/weather-panel.tsx`,
+  `components/week-strip.tsx` and `components/forecast-map-panel.tsx` to keep
+  the last good forecast (`home-dashboard:forecast-*:v1`, read back through
+  validators in `lib/`), and by `components/rotating-panel.tsx` to resume the
   fact index. A failure there must never break the rotation.
 
 ## Verifying a change against this environment

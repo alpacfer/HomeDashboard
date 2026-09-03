@@ -12,6 +12,7 @@ The implementation and operational notes are split by responsibility:
 - [Deployment and target environment](docs/DEPLOYMENT.md) — Render free-plan settings, Fire TV Stick limits, and the constraints they place on every change.
 - [Transit integration](docs/TRANSPORT.md) — Rejseplanen credentials, stop matching, caching, quota, and verification notes.
 - [Daily facts](docs/DAILY_FACTS.md) — generated data format, editorial overrides, attribution, and regeneration workflow.
+- [Debugging](docs/DEBUGGING.md) — the screenshot and provider-probe tools, the URL flags, provider quotas, and why a card is muted.
 - [AGENTS.md](AGENTS.md) — the working contract for AI coding agents. `CLAUDE.md` imports it.
 
 The dashboard has one page route (`/`), one server API route
@@ -79,6 +80,25 @@ URL cannot leave the wall display stuck. This is the standard way to reach a
 scene when checking a change, and it works against the deployed site too. The
 parsing lives in `lib/panel-rotation.ts`.
 
+### Switch the weather off
+
+`/?weather=off` makes no weather, week or forecast-map request at all; the card
+shows its unavailable state and everything else works. Use it for any check that
+is not about the weather: Open-Meteo counts one load of the forecast map as
+about three hundred calls against a daily quota that the display shares with
+every machine on the same connection. `/?time=08:46` pins the clock to a
+Copenhagen time, for checking an outfit against chosen digits. Both are
+parsed in `lib/debug-flags.ts`.
+
+### Capture and diagnose
+
+```sh
+npm run shot -- --scene transport --offline   # 1280 x 720 PNG under screenshots/
+npm run probe                                 # which forecast provider is answering, and why not
+```
+
+Both are plain Node scripts and are described in [docs/DEBUGGING.md](docs/DEBUGGING.md).
+
 ## Configuration
 
 Copy `.env.example` to `.env.local` if you need to configure the optional
@@ -94,15 +114,17 @@ bundled daily facts are local.
 npm run check
 ```
 
-That runs lint, typecheck, tests, the documentation check, and the production
-build, in that order. The same command runs in CI on every push and pull
+That runs lint, typecheck, tests, the documentation check, the project rules
+check, and the production build, in that order. The same command runs in CI on every push and pull
 request, so a green local run means a green pipeline.
 
 The individual stages are `npm run lint`, `npm run typecheck`, `npm test`,
-`npm run docs:check`, and `npm run build`. Tests mirror the pure modules in
-`lib/` and need no renderer or network. `npm run docs:check` fails when a
-Markdown file links to or names a path that no longer exists, which is what
-keeps these documents honest.
+`npm run docs:check`, `npm run check:rules`, and `npm run build`. Tests mirror
+the pure modules in `lib/` and need no renderer or network. `npm run docs:check`
+fails when a Markdown file links to or names a path that no longer exists, and
+`npm run check:rules` fails on the project rules a script can check (hover
+styles, an untested `lib/` module, a timer without its cleanup, a public
+credential name), which is what keeps these documents and rules honest.
 
 ## Migration
 

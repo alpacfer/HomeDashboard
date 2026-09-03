@@ -1,7 +1,7 @@
 import { test } from 'node:test';
 import assert from 'node:assert/strict';
 import {
-  cellAt, cellBand, cellCentres, coversView, DEFAULT_GRID, displayFrames, frameInterval, futureFrames, GRID_FETCH_STEPS,
+  CELL_KM, cellAt, cellBand, cellCentres, coversView, DEFAULT_GRID, displayFrames, frameInterval, futureFrames, GRID_FETCH_STEPS,
   GRID_HOURS, GRID_STEP_MINUTES, GRID_STEPS, gridForView, hasPrecipitation, isQuietHours, MAP_BOUNDS, MAX_GRID_POINTS, MAX_URL_LENGTH,
   parsePrecipitationGrid, playheadPosition, precipitationGridUrl, quietHoursEnd, SEQUENCE_LOOPS, timelineTicks,
 } from '../lib/precipitation-grid.ts';
@@ -24,19 +24,19 @@ function parse(payload, spec = SPEC) {
 // The Fire TV frame at 1280 x 720 once the map is fitted: about 50 by 38 km.
 const TV_VIEW = { south: 55.63, west: 12.03, north: 55.97, east: 12.83 };
 
-test('the lattice is built from the view, near the model resolution, with a margin', () => {
+test('the lattice is built from the view at the chosen spacing, with a margin', () => {
   const spec = gridForView(TV_VIEW);
   // 0.8 degrees of longitude at 55.8 N is about 50 km and 0.34 degrees of
-  // latitude about 38 km. At 2 km that is 26 by 19 cells plus a cell of margin
-  // each side, 588 points, which is over the per-minute budget, so the spacing
-  // opens up until it fits: 23 by 18 at about 2.4 km.
-  assert.ok(spec.spacingKm > 2 && spec.spacingKm < 2.5, String(spec.spacingKm));
-  assert.equal(spec.columns, 23);
-  assert.equal(spec.rows, 18);
+  // latitude about 38 km. At 3 km that is 17 by 13 cells plus a cell of margin
+  // each side: 19 by 15, 285 points, each one an Open-Meteo call.
+  assert.equal(spec.spacingKm, CELL_KM);
+  assert.equal(spec.columns, 19);
+  assert.equal(spec.rows, 15);
   assert.ok(spec.columns * spec.rows <= MAX_GRID_POINTS);
-  // A frame small enough stays at the model's own 2 km.
+  // A smaller frame stays at the same spacing with fewer points.
   const small = gridForView({ south: 55.7, west: 12.3, north: 55.9, east: 12.7 });
-  assert.equal(small.spacingKm, 2);
+  assert.equal(small.spacingKm, CELL_KM);
+  assert.ok(small.columns * small.rows < spec.columns * spec.rows);
   // The grid extends past every edge of the view, centred on it.
   assert.ok(coversView(spec.bounds, TV_VIEW));
   assert.ok(Math.abs((spec.bounds.west + spec.bounds.east) / 2 - (TV_VIEW.west + TV_VIEW.east) / 2) < 1e-9);
@@ -50,7 +50,7 @@ test('the lattice is built from the view, near the model resolution, with a marg
 test('a frame that would need too many points gets a coarser lattice, not a bigger bill', () => {
   const wide = gridForView({ south: 55, west: 11, north: 57, east: 15 });
   assert.ok(wide.columns * wide.rows <= MAX_GRID_POINTS);
-  assert.ok(wide.spacingKm > 2);
+  assert.ok(wide.spacingKm > CELL_KM);
   assert.ok(coversView(wide.bounds, { south: 55, west: 11, north: 57, east: 15 }));
 });
 
@@ -301,5 +301,5 @@ test('the grid request always fits inside the 8 KB request line Open-Meteo accep
   }
   // The budget is used, not wasted: the TV frame still gets a dense lattice.
   const tv = gridForView(views[1]);
-  assert.ok(tv.columns * tv.rows >= 380, 'only ' + tv.columns * tv.rows + ' points at the TV frame');
+  assert.ok(tv.columns * tv.rows >= 250, 'only ' + tv.columns * tv.rows + ' points at the TV frame');
 });
