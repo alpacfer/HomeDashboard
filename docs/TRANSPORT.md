@@ -103,8 +103,26 @@ Both providers feed the same `Departure` shape, and `departureIncidents` in
 | service message | provider alert text | its own grade, raised for `NO_SERVICE` and `SIGNIFICANT_DELAYS` |
 | `+N min` | expected later than scheduled | warning, severe from 10 minutes |
 | `Track N (was M)` | realtime platform differs from the planned one | warning |
-| `N min early` | expected earlier than scheduled | info |
-| `Live` / `Scheduled` | nothing is wrong; whether the time is realtime | — |
+| `-N min` | expected earlier than scheduled | info |
+
+A departure with nothing wrong is left unmarked. Saying "Live" under each of
+the fifteen ordinary times on screen spent a row of height to tell the reader
+nothing, so whether a time is being tracked is carried instead by a small green
+dot before it: **a dot means a live feed is reporting that journey**, and an
+unmarked time is the timetable's, which may already be running late without
+anyone knowing. It rides on the line the time already occupies, so it costs no
+height. There is no legend on a wall, so the meaning is in the `aria-label`.
+
+Expect fewer dots on the fallback: Transitous carries realtime on about half of
+events against nearly all of Rejseplanen's.
+
+**A cancelled departure shows no countdown.** Minutes until a bus that is not
+coming is the one number on the board that can send somebody to the stop for
+nothing, so the slot holds a cross, the scheduled time below it is struck
+through, and `Cancelled` says why. The cross is `aria-hidden`; the whole cell is
+announced as "The 09:02 is cancelled". An earlier version struck the countdown
+itself through, which sat low across the tabular digits and read as a rendering
+fault rather than as a cancellation.
 
 A cancellation outranks its own delay. A departure that is not on time colours
 its own countdown, because the number is the only part legible from across the
@@ -117,7 +135,54 @@ departure has gone.
 Alert text is external input: it is collapsed, trimmed and capped at 90
 characters in `lib/transit.ts` before it can reach React state, and at most two
 alerts ride with a departure. The Danish realtime feed currently carries no
-alerts at all, so that path is exercised by tests rather than by the wall.
+alerts at all, so that path is exercised by tests and `?transit=demo` rather
+than by the wall.
+
+## Translating service messages
+
+Both providers write their disruptions in Danish. DeepL turns them into English
+before they reach the browser: `lib/translation.ts` holds the pure part
+(choosing what to send, building the request, reading the answer, putting the
+results back) and `app/api/departures/route.ts` makes the call, because `lib/`
+may not reach the network.
+
+`DEEPL_API_KEY` is a credential. It goes in the ignored `.env.local` and in
+Render's environment, never in a `NEXT_PUBLIC_` variable and never in the
+repository. A key ending `:fx` is free-tier and is sent to `api-free.deepl.com`;
+anything else goes to `api.deepl.com`. **With no key set, alerts simply stay in
+Danish** — nothing else changes.
+
+Everything about it fails open. A translator that is down, throttled, out of
+quota or answering something unexpected costs the display its English and never
+its departures, and a partial answer is refused outright rather than
+half-applied, because a board half in Danish and half in English reads as a bug.
+
+The free tier allows 500,000 characters a month, and three guards keep the
+display far under it: alert text is already capped at 90 characters, only
+*distinct* strings are sent (one disruption repeats across every departure of
+the line), and a successful translation is cached for a day. At most twelve
+strings go in one request, so a provider that attaches a different message to
+every departure cannot spend the month in a single refresh. Only public service
+messages are ever sent; nothing personal passes through.
+
+## How often a line runs
+
+Each direction heading prints `every N min`, from `serviceHeadway` in
+`lib/transit.ts`. It is the median gap between the next six scheduled
+departures **in that one direction**.
+
+It belongs to the direction, not to the stop or the line: a stop is served by
+several lines and a line by two directions, so anything wider answers a
+question nobody asked. 184 runs every twenty minutes each way, and counting
+both directions at Kildegårds Plads would have called it ten. It reads
+`scheduled` rather than `expected`, because "every twenty minutes" is a property
+of the timetable and one late bus should not restate it, and takes a median,
+because the last gap on a 24-hour board runs to the end of service.
+
+It is deliberately approximate: rounded to the minute below ten and to the
+nearest five above, and withheld entirely when there are fewer than three
+upcoming departures in every direction or the gap exceeds an hour. It describes
+the line, it does not promise it.
 
 ## Requests and caching
 

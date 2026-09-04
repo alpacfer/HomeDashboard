@@ -45,7 +45,9 @@ export function departureIncidents(departure: Departure): Incident[] {
     incidents.push({ kind: 'alert', severity: alert.severity, label: alert.text });
   }
   if (!departure.cancelled && departure.delay >= 1) incidents.push({ kind: 'delayed', severity: departure.delay >= 10 ? 'severe' : 'warning', label: '+' + departure.delay + ' min' });
-  if (!departure.cancelled && departure.delay <= -1) incidents.push({ kind: 'early', severity: 'info', label: Math.abs(departure.delay) + ' min early' });
+  // Signed like the delay it mirrors: "-1 min" beside "+12 min" reads as one
+  // scale, where "1 min early" made the reader translate between two.
+  if (!departure.cancelled && departure.delay <= -1) incidents.push({ kind: 'early', severity: 'info', label: departure.delay + ' min' });
   if (departure.track && departure.scheduledTrack && departure.track !== departure.scheduledTrack) {
     incidents.push({ kind: 'track', severity: 'warning', label: 'Track ' + departure.track + ' (was ' + departure.scheduledTrack + ')' });
   }
@@ -67,6 +69,44 @@ export function boardIncidents(data: TransitData | null, now: number): Incident[
     }
   }
   return [...seen.values()].sort((a, b) => RANK[a.severity] - RANK[b.severity]).slice(0, 2);
+}
+
+function median(values: number[]): number {
+  const sorted = [...values].sort((a, b) => a - b);
+  const middle = Math.floor(sorted.length / 2);
+  return sorted.length % 2 ? sorted[middle] : (sorted[middle - 1] + sorted[middle]) / 2;
+}
+
+// How many upcoming departures a headway is read from. Enough to average out a
+// single irregular gap, few enough to still describe now rather than tonight:
+// six departures of a twenty-minute line is two hours, and the frequency has
+// usually changed by then.
+const HEADWAY_SAMPLE = 6;
+const HEADWAY_MAX_MIN = 60;
+
+// Pure: roughly how often one line runs in one direction, from the gaps
+// between the departures still to come, or null when there are too few to say.
+//
+// Per direction, and never per stop: a stop is served by several lines and a
+// line by two directions, so anything wider answers a question nobody asked.
+// 184 runs every twenty minutes each way; counting both directions at
+// Kildegårds Plads would have called it ten. Read from `scheduled` rather than
+// `expected`, because "every twenty minutes" is a property of the timetable and
+// one late bus should not restate it, and taken as a median, because the last
+// gap on a 24-hour board runs to the end of service. Deliberately rounded: it
+// is a description, not a promise.
+export function serviceHeadway(data: TransitData | null, lineId: string, direction: string, now: number): number | null {
+  if (data?.status !== 'ready') return null;
+  const times = (data.boards[lineId + ':' + direction] || [])
+    .filter(departure => departure.expected >= now && !departure.cancelled)
+    .map(departure => departure.scheduled)
+    .sort((a, b) => a - b)
+    .slice(0, HEADWAY_SAMPLE);
+  const gaps = times.slice(1).map((time, index) => (time - times[index]) / 60000).filter(gap => gap > 0);
+  if (gaps.length < 2) return null;
+  const typical = median(gaps);
+  if (typical > HEADWAY_MAX_MIN) return null;
+  return typical >= 10 ? Math.round(typical / 5) * 5 : Math.max(1, Math.round(typical));
 }
 
 // Pure: provider text and alert text are external input, so they are trimmed,

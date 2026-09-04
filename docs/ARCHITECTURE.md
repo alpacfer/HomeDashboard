@@ -174,6 +174,7 @@ The metadata is trusted for *when*, never for *whether the map still has anythin
 | Fallback stop ids, headsigns, or response parsing | `lib/transitous.ts` | `app/api/departures/route.ts`, `TRANSPORT.md`, `tests/transitous.test.mjs` |
 | How a delay or incident is marked | `lib/transit.ts` | `components/transport-panel.tsx`, `app/globals.css`, `TRANSPORT.md` |
 | Transit credentials, caching, or provider requests | `app/api/departures/route.ts` | `.env.example`, `TRANSPORT.md` |
+| Translating provider service messages | `lib/translation.ts` | `app/api/departures/route.ts`, `.env.example`, `TRANSPORT.md` |
 | Daily fact content | `data/daily-fact-overrides.json` | `scripts/generate-daily-facts.mjs`, `docs/DAILY_FACTS.md` |
 | Forecast map grid, frames, or quiet hours | `lib/precipitation-grid.ts` | `components/forecast-map-panel.tsx`, `tests/precipitation-grid.test.mjs` |
 | Forecast map refresh cadence or run detection | `lib/forecast-refresh.ts` | `components/forecast-map-panel.tsx`, `tests/forecast-refresh.test.mjs`, `DEPLOYMENT.md` |

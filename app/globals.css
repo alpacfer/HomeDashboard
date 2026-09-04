@@ -1,6 +1,6 @@
 @import 'leaflet/dist/leaflet.css';
 @font-face { font-family:'Space Grotesk'; src:url('/fonts/space-grotesk-bold.ttf') format('truetype'); font-weight:700; font-style:normal; font-display:swap; }
-:root { --background:#111113; --foreground:#f3f2ee; --accent:#ff623b; --rain:#74caff; --snow:#dfeaf5; --muted:#93939d; --sun:#ffc554; --cloud:#b4b8c5; --moon:#c9cff5; --severe:#f08170; --warning:#ffb77f; }
+:root { --background:#111113; --foreground:#f3f2ee; --accent:#ff623b; --rain:#74caff; --snow:#dfeaf5; --muted:#93939d; --sun:#ffc554; --cloud:#b4b8c5; --moon:#c9cff5; --severe:#f08170; --warning:#ffb77f; --live:#5fd08a; }
 * { box-sizing:border-box; }
 html,body { margin:0; min-height:100%; background:var(--background); }
 body { color:var(--foreground); font-family:'Space Grotesk',Arial,Helvetica,sans-serif; -webkit-font-smoothing:antialiased; }
@@ -127,7 +127,8 @@ a:focus-visible { outline:2px solid var(--foreground); outline-offset:8px; }
 .departure strong small { font-size:.85vw; margin-left:.25vw; color:var(--muted); letter-spacing:0; }
 .departure > span { font-size:1vw; color:var(--muted); }
 .departure.placeholder { color:#55555e; }
-.departure.cancelled strong { text-decoration:line-through; }
+.departure.cancelled strong { color:var(--severe); font-size:1.9vw; line-height:1.25; opacity:.85; }
+.departure.cancelled > span s { color:var(--severe); opacity:.75; }
 /* Delays and incidents are carried by the big number itself, because that is
    the only part of a departure legible from across the room. The flag under it
    says what happened; the struck-through time says what it should have been. */
@@ -138,7 +139,12 @@ a:focus-visible { outline:2px solid var(--foreground); outline-offset:8px; }
 .departure-flag.sev-severe { color:var(--severe); }
 .departure-flag.sev-warning { color:var(--warning); }
 .departure-flag.sev-info { color:var(--muted); }
-.departure .departure-source { color:#777782; font-size:.75vw; }
+/* A departure whose time is coming from a live feed. The dot rides on the line
+   the time already occupies, so marking it costs no height; an unmarked time is
+   the timetable's, and may already be running late without anyone knowing.
+   There is no legend on a wall, so the meaning is in the aria-label. */
+.departure > span.is-live::before { content:''; display:inline-block; width:.42em; height:.42em; margin-right:.36em; border-radius:50%; background:var(--live); vertical-align:.05em; }
+.direction-column h2 .headway { margin-left:.5vw; color:#6f6f7a; font-size:.9vw; font-weight:400; letter-spacing:0; white-space:nowrap; }
 /* Only rendered when something is actually wrong, so the boards keep their
    full height on an ordinary day. */
 .transport-incidents { display:flex; flex-wrap:wrap; gap:.5vw; margin:0; padding-right:9vw; }
@@ -301,7 +307,15 @@ a:focus-visible { outline:2px solid var(--foreground); outline-offset:8px; }
   .departure strong { font-size:4.8vw; }
   .departure strong small { font-size:1.8vw; }
   .departure > span { font-size:2.5vw; }
-  .departure-flag,.departure .departure-source { font-size:2vw; }
+  .departure-flag { font-size:2vw; }
+  .direction-column h2 .headway { margin-left:1.4vw; font-size:2.1vw; }
+  .departure.cancelled strong { font-size:3.9vw; }
+  /* Six departure cells across 720 px cannot hold two times and a dot: the
+     line wrapped and left the dot stranded above the digits. The flag under it
+     already says "+3 min", so the narrow layout keeps only the real time. A
+     cancelled cell is the exception, where the struck time is the only one. */
+  .departure > span { white-space:nowrap; }
+  .departure:not(.cancelled) > span s { display:none; }
   .incident { font-size:2vw; border-radius:.6vw; padding:.3vh 1.1vw; }
   .mini-flag { font-size:2vw; }
   .single-direction .departure strong { font-size:8vw; }

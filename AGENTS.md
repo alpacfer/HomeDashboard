@@ -123,8 +123,8 @@ an API contract explicitly says otherwise.
 tokens (`--background`, `--foreground`, `--accent`, `--rain`, `--muted`) before
 adding a colour.
 
-**Keep secrets server-side.** `REJSEPLANEN_ACCESS_ID` is read only by
-`app/api/departures/route.ts`. Anything prefixed `NEXT_PUBLIC_` ships to the
+**Keep secrets server-side.** `REJSEPLANEN_ACCESS_ID` and `DEEPL_API_KEY` are
+read only by `app/api/departures/route.ts`. Anything prefixed `NEXT_PUBLIC_` ships to the
 browser and must never hold a credential. Never commit `.env.local`.
 
 **Scripts stay in Node, not shell.** The repository is worked on from both

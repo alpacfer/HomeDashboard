@@ -1,7 +1,7 @@
 'use client';
 
 import { useEffect, useState } from 'react';
-import { boardIncidents, departureIncidents, LINES, nextCompactDeparture, type Departure, type TransitData } from '@/lib/transit';
+import { boardIncidents, departureIncidents, LINES, nextCompactDeparture, serviceHeadway, type Departure, type TransitData } from '@/lib/transit';
 import { debugFlags } from '@/lib/debug-flags';
 
 const timeFormat = new Intl.DateTimeFormat('en-GB', { timeZone: 'Europe/Copenhagen', hour: '2-digit', minute: '2-digit', hour12: false });
@@ -13,13 +13,18 @@ const REQUEST_TIMEOUT_MS = 12_000;
 const clock = (value: number) => timeFormat.format(new Date(value));
 const countdown = (departure: Departure, now: number) => Math.max(0, Math.ceil((departure.expected - now) / 60000));
 
-// The one thing worth printing under a departure. Everything the incident list
-// found is in the aria-label, but the wall has room for the worst of them.
+// The one thing worth printing under a departure, or nothing at all. A
+// departure with nothing wrong gets no line of its own: saying so for every one
+// of the fifteen on screen cost a row of height to tell the reader nothing.
+// Whether the time is being tracked is carried by the dot beside it instead
+// (see `.is-live` in app/globals.css). Everything the incident list found is
+// still in the aria-label.
 function departureFlag(departure: Departure) {
   const incidents = departureIncidents(departure);
   const worst = incidents[0];
-  if (!worst) return { severity: '', label: departure.realtime ? 'Live' : 'Scheduled', live: true, spoken: departure.realtime ? 'on time, live' : 'on time, scheduled' };
-  return { severity: worst.severity, label: worst.label, live: false, spoken: incidents.map(incident => incident.label).join(', ') };
+  const timetable = departure.realtime ? ', tracked live' : ', timetable only';
+  if (!worst) return { severity: '', label: '', spoken: 'on time' + timetable };
+  return { severity: worst.severity, label: worst.label, spoken: incidents.map(incident => incident.label).join(', ') + timetable };
 }
 
 export default function TransportPanel({ compact = false }: { compact?: boolean }) {
@@ -89,7 +94,7 @@ export default function TransportPanel({ compact = false }: { compact?: boolean 
           {departure && flag
             ? <strong className={'mini-time' + (flag.severity ? ' sev-' + flag.severity : '')} aria-label={'Next departure ' + clock(departure.expected) + ', ' + flag.spoken}>
                 {countdown(departure, now) < 60 ? countdown(departure, now) : clock(departure.expected)}{countdown(departure, now) < 60 && <small>min</small>}
-                {!flag.live && <em className="mini-flag">{flag.label}</em>}
+                {flag.label && <em className="mini-flag">{flag.label}</em>}
               </strong>
             : <strong className="mini-time unavailable" aria-label={data?.status === 'ready' && !expired ? 'No upcoming departure' : 'Departures unavailable'}>—</strong>}
         </div>;
@@ -113,8 +118,9 @@ export default function TransportPanel({ compact = false }: { compact?: boolean 
         <div className="direction-columns">
         {line.directions.map(direction => {
           const departures = !expired ? (data?.boards[line.id + ':' + direction.key] || []).filter(departure => departure.expected >= now).slice(0, 3) : [];
-          return <section className="direction-column" key={direction.key} aria-label={line.id + ' towards ' + direction.destination}>
-        <h2>{direction.destination}</h2>
+          const headway = expired ? null : serviceHeadway(data, line.id, direction.key, now);
+          return <section className="direction-column" key={direction.key} aria-label={line.id + ' towards ' + direction.destination + (headway ? ', about every ' + headway + ' minutes' : '')}>
+        <h2>{direction.destination}{headway ? <span className="headway">every {headway} min</span> : null}</h2>
         <div className="departure-times">
           {[0, 1, 2].map(i => {
             const departure = departures[i];
@@ -126,13 +132,19 @@ export default function TransportPanel({ compact = false }: { compact?: boolean 
             // does not say which of two printed times to trust.
             const shifted = !departure.cancelled && departure.delay !== 0;
             return <div className={'departure' + (departure.cancelled ? ' cancelled' : '') + (flag.severity ? ' sev-' + flag.severity : '')} key={departure.id}
-              aria-label={'Departs ' + clock(departure.expected) + ', ' + flag.spoken}>
-              <strong>{minutes < 60 ? minutes : clock(departure.expected)}{minutes < 60 && <small>min</small>}</strong>
-              <span>
-                {shifted && <s>{clock(departure.scheduled)}</s>}
-                {clock(departure.expected)}{departure.track && line.id === 'A' ? ' · ' + departure.track : ''}
+              aria-label={(departure.cancelled ? 'The ' + clock(departure.scheduled) + ' is cancelled' : 'Departs ' + clock(departure.expected)) + ', ' + flag.spoken}>
+              {/* A cancelled service gets no countdown. Minutes until a bus
+                  that is not coming is the one number on the board that can
+                  send somebody to the stop for nothing. */}
+              <strong aria-hidden={departure.cancelled || undefined}>
+                {departure.cancelled ? '\u2715' : <>{minutes < 60 ? minutes : clock(departure.expected)}{minutes < 60 && <small>min</small>}</>}
+              </strong>
+              <span className={departure.realtime && !departure.cancelled ? 'is-live' : undefined}>
+                {departure.cancelled
+                  ? <s>{clock(departure.scheduled)}</s>
+                  : <>{shifted && <s>{clock(departure.scheduled)}</s>}{clock(departure.expected)}{departure.track && line.id === 'A' ? ' · ' + departure.track : ''}</>}
               </span>
-              <span className={flag.live ? 'departure-source' : 'departure-flag sev-' + flag.severity}>{flag.label}</span>
+              {flag.label && <span className={'departure-flag sev-' + flag.severity}>{flag.label}</span>}
             </div>;
           })}
         </div>

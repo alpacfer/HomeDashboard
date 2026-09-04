@@ -18,9 +18,17 @@ const ROOT = resolve(dirname(fileURLToPath(import.meta.url)), '..');
 const SKIP_DIRS = new Set(['.git', 'node_modules', '.next', 'out', 'dist', 'coverage']);
 
 // Paths that appear in prose as templates or runtime URLs rather than as files
-// that exist in the working tree.
+// that exist in the working tree. These can never exist, so one that does is a
+// stale entry, checked for below.
 const ALLOWED_MISSING = new Set([
   'public/facts/daily/MM-DD.json',
+]);
+
+// Paths that are gitignored and therefore present on some machines and absent
+// on others: a developer who has configured credentials has them, CI does not.
+// They are never staleness-checked, because doing so would fail the build on
+// exactly the machines where the application is correctly set up.
+const ALLOWED_LOCAL = new Set([
   '.env.local',
 ]);
 
@@ -78,7 +86,7 @@ for (const file of (await markdownFiles(ROOT)).sort()) {
   }
 
   for (const candidate of codePaths(body)) {
-    if (ALLOWED_MISSING.has(candidate)) continue;
+    if (ALLOWED_MISSING.has(candidate) || ALLOWED_LOCAL.has(candidate)) continue;
     if (!existsSync(resolve(ROOT, candidate))) {
       problems.push(`${rel}: referenced path does not exist -> ${candidate}`);
     }

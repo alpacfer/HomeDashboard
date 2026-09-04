@@ -1,6 +1,6 @@
 import { test } from 'node:test';
 import assert from 'node:assert/strict';
-import { alertText, boardIncidents, departureIncidents, departureTimestamp, filterDepartures, resolveStop } from '../lib/transit.ts';
+import { alertText, boardIncidents, departureIncidents, departureTimestamp, filterDepartures, resolveStop, serviceHeadway } from '../lib/transit.ts';
 
 const now = Date.parse('2026-08-31T18:00:00Z');
 const departure = (overrides = {}) => ({
@@ -82,7 +82,8 @@ test('incidents are ordered by severity and a cancellation outranks its own dela
   assert.deepEqual(departureIncidents(plain({ delay: 4 })), [{ kind: 'delayed', severity: 'warning', label: '+4 min' }]);
   // A long delay is graded up: ten minutes changes whether you leave the house.
   assert.deepEqual(departureIncidents(plain({ delay: 12 })), [{ kind: 'delayed', severity: 'severe', label: '+12 min' }]);
-  assert.deepEqual(departureIncidents(plain({ delay: -3 })), [{ kind: 'early', severity: 'info', label: '3 min early' }]);
+  assert.deepEqual(departureIncidents(plain({ delay: -3 })), [{ kind: 'early', severity: 'info', label: '-3 min' }]);
+  assert.deepEqual(departureIncidents(plain({ delay: -1 })), [{ kind: 'early', severity: 'info', label: '-1 min' }]);
   assert.deepEqual(departureIncidents(plain({ track: '3', scheduledTrack: '1' })), [{ kind: 'track', severity: 'warning', label: 'Track 3 (was 1)' }]);
   assert.deepEqual(departureIncidents(plain({ track: '3', scheduledTrack: '3' })), [], 'an unchanged platform is not an incident');
   assert.deepEqual(departureIncidents(plain({ track: '3' })), [], 'a platform with nothing to compare against is not a change');
@@ -118,4 +119,56 @@ test('alert text is collapsed and capped before it can reach the browser', () =>
   const capped = alertText('word '.repeat(60));
   assert.equal(capped.length, 90);
   assert.ok(capped.endsWith('\u2026'));
+});
+
+// Departures at the given offsets in minutes, as one direction's board.
+const board = (offsets, overrides = {}) => offsets.map((minutes, index) =>
+  plain({ id: 'd' + index + '-' + minutes, scheduled: now + minutes * 60000, expected: now + minutes * 60000, ...overrides }));
+const ready = boards => ({ status: 'ready', generatedAt: now, boards });
+
+test('headway describes how often a line runs one way, rounded, from the timetable', () => {
+  const twenty = ready({ '184:north': board([2, 22, 42, 62]) });
+  assert.equal(serviceHeadway(twenty, '184', 'north', now), 20);
+  // Under ten minutes it is reported to the minute rather than to the nearest five.
+  assert.equal(serviceHeadway(ready({ '184:north': board([1, 8, 15, 22]) }), '184', 'north', now), 7);
+  // Rounded, because it is a description and not a promise: 18 reads as 20.
+  assert.equal(serviceHeadway(ready({ '184:north': board([0, 18, 36, 54]) }), '184', 'north', now), 20);
+});
+
+test('headway is a property of the timetable, not of today\'s delays', () => {
+  const late = board([2, 22, 42, 62]).map((departure, index) =>
+    ({ ...departure, expected: departure.scheduled + (index === 1 ? 11 : 0) * 60000, delay: index === 1 ? 11 : 0 }));
+  assert.equal(serviceHeadway(ready({ '184:north': late }), '184', 'north', now), 20,
+    'one bus running eleven minutes late does not change how often the line runs');
+});
+
+test('headway is per direction, and never mixes the two', () => {
+  // Both directions run every twenty minutes, offset by ten. Counting them
+  // together would call the line twice as frequent as it is either way.
+  const offset = ready({ '184:north': board([0, 20, 40, 60]), '184:south': board([10, 30, 50, 70]) });
+  assert.equal(serviceHeadway(offset, '184', 'north', now), 20);
+  assert.equal(serviceHeadway(offset, '184', 'south', now), 20);
+  // One busy direction says nothing about the quiet one.
+  const uneven = ready({ '150S:north': board([0, 5, 10, 15]), '150S:south': board([2, 32, 62]) });
+  assert.equal(serviceHeadway(uneven, '150S', 'north', now), 5);
+  assert.equal(serviceHeadway(uneven, '150S', 'south', now), 30);
+});
+
+test('headway refuses to guess from too little', () => {
+  assert.equal(serviceHeadway(ready({ '184:north': board([5, 25]) }), '184', 'north', now), null, 'two departures is one gap');
+  assert.equal(serviceHeadway(ready({}), '184', 'north', now), null);
+  assert.equal(serviceHeadway(null, '184', 'north', now), null);
+  assert.equal(serviceHeadway({ status: 'unavailable', generatedAt: now, boards: {} }, '184', 'north', now), null);
+  assert.equal(serviceHeadway(ready({ '184:north': board([5, 25, 45, 65]) }), '184', 'sideways', now), null);
+  // A board that only reaches to the end of service is not a frequency.
+  assert.equal(serviceHeadway(ready({ '184:north': board([10, 200, 400, 600]) }), '184', 'north', now), null);
+});
+
+test('headway ignores departures that have gone or been cancelled', () => {
+  // The median resists one irregular gap rather than being dragged by it.
+  assert.equal(serviceHeadway(ready({ '184:north': board([2, 22, 42, 105, 125]) }), '184', 'north', now), 20);
+  const past = ready({ '184:north': [...board([-40, -20]), ...board([2, 22, 42])] });
+  assert.equal(serviceHeadway(past, '184', 'north', now), 20, 'a departed service is not part of the next hour');
+  const cancelled = ready({ '184:north': [...board([2, 22, 42]), ...board([52], { cancelled: true })] });
+  assert.equal(serviceHeadway(cancelled, '184', 'north', now), 20);
 });
