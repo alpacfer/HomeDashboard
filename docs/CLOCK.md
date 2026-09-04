@@ -95,9 +95,14 @@ plays twice in a row.
 
 ## The Tenant
 
-A small round character in the outfit's colon colour, with white eyes, pupils
-and lids, standing to the right of the minutes with its feet on the digits'
-baseline. It is decoration that knows where the numbers are, and what shape
+Chibi Totoro, drawn in a thin ink line: a small white rounded body with two
+cat-like ears at the corners of its head, ringed eyes with pupils and lids,
+and two three-toed feet peeking out under the belly, standing to the right of
+the minutes with its feet on the digits' baseline. Its colours are fixed and never follow the outfit. The
+SVG keeps the eyes and mouth as the original rig inside a scaling `transform`,
+so every lid, pupil and `d:path()` offset in the CSS applies unchanged; a
+shelved big-Totoro drawing with the same class names is kept in
+[assets/tenant-skins/](../assets/tenant-skins/README.md). It is decoration that knows where the numbers are, and what shape
 they are.
 
 **Geometry.** After the fonts are ready, after every roll and outfit change,

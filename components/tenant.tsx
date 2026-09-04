@@ -539,7 +539,7 @@ export default function Tenant({ mood, targets, activeScene, previewSpot = null,
   return <div className={className} style={style} aria-hidden="true" ref={elementRef}>
     <svg viewBox="0 0 100 100">
       <defs>
-        <clipPath id="tenant-eye-mask"><ellipse cx="36" cy="54" rx="11" ry="13" /><ellipse cx="64" cy="54" rx="11" ry="13" /></clipPath>
+        <clipPath id="tenant-eye-mask"><ellipse cx="34" cy="54" rx="11" ry="13" /><ellipse cx="66" cy="54" rx="11" ry="13" /></clipPath>
       </defs>
       <g className="t-figure">
       <g className="t-rain-drops">
@@ -547,39 +547,61 @@ export default function Tenant({ mood, targets, activeScene, previewSpot = null,
         <rect className="t-drop" x="50" y="0" width="3" height="10" rx="1.5" />
         <rect className="t-drop" x="88" y="0" width="3" height="10" rx="1.5" />
       </g>
-      <text className="t-zz" x="70" y="30">z</text>
-      <text className="t-zz" x="80" y="20">z</text>
+      <text className="t-zz" x="80" y="26">z</text>
+      <text className="t-zz" x="89" y="16">z</text>
       <g className="t-gest">
-      <ellipse className="t-foot" cx="38" cy="96" rx="9" ry="4" />
-      <ellipse className="t-foot t-foot-b" cx="62" cy="96" rx="9" ry="4" />
+      {/* Feet sit behind the body and peek out below it, toes first, the way
+          the reference draws them: the belly line runs over them. */}
+      <path className="t-foot" d="M29 90 C28 94 28 98 31 99 C33 100 34 98 36 97 C37 99 39 100 41 99 C43 98 44 96 43 90 Z" />
+      <path className="t-foot t-foot-b" d="M57 90 C56 94 56 98 59 99 C61 100 62 98 64 97 C65 99 67 100 69 99 C71 98 72 96 71 90 Z" />
       <g className="t-pose">
-      <path className="t-tail" d="M82 71 C102 66 101 51 91 49" />
-      <g className="t-ears"><path d="M28 32 Q19 12 39 25 Z" /><path d="M61 25 Q81 12 72 32 Z" /></g>
-      <path className="t-body" d="M50 22 C74 22 88 40 88 62 C88 84 72 96 50 96 C28 96 12 84 12 62 C12 40 26 22 50 22 Z" />
+      {/* Chibi Totoro shows no tail; the element stays, inside the body, so the tail keyframes still have a target. */}
+      <path className="t-tail" d="M58 86 C62 90 66 88 64 84" />
+      <path className="t-body" d="M35 26 C43 21 57 22 65 27 C72 33 76 46 79 58 C82 70 86 84 80 91 C74 97 60 96 50 96 C40 96 26 98 20 91 C14 84 18 70 21 58 C24 46 28 32 35 26 Z" />
+      {/* Each ear is a fill that covers the head line where it attaches, plus
+          an open stroke along its two edges, so ear and head share one outline. */}
+      <g className="t-ears">
+        <path className="t-ear-fill" d="M26 42 C20 32 15 20 16 9 C16.5 4 21 2 24 6 C31 14 37 21 44 27 C40 32 33 37 26 42 Z" />
+        <path className="t-ear-line" d="M27 40 C21 31 15 20 16 9 C16.5 4 21 2 24 6 C31 14 37 21 42 26" />
+        <path className="t-ear-fill" d="M56 26 C61 19 65 11 67 4 C68 0 73 0 74 4 C76 14 76 25 75 36 C69 33 62 29 56 26 Z" />
+        <path className="t-ear-line" d="M58 27 C62 20 65 11 67 4 C68 0 73 0 74 4 C76 14 76 25 75 34" />
+      </g>
       <g className="t-face">
-      <ellipse className="t-cheek" cx="27" cy="70" rx="6" ry="4" />
-      <ellipse className="t-cheek" cx="73" cy="70" rx="6" ry="4" />
-      <ellipse className="t-eye" cx="36" cy="54" rx="11" ry="13" />
-      <ellipse className="t-eye" cx="64" cy="54" rx="11" ry="13" />
+      {/* The eye rig is the original Tenant geometry scaled into round eyes,
+          so every lid, pupil and glance offset in the CSS lands proportionally. */}
+      <g transform="translate(13.65 10.8) scale(.727 .615)">
+      <ellipse className="t-eye" cx="34" cy="54" rx="11" ry="13" />
+      <ellipse className="t-eye" cx="66" cy="54" rx="11" ry="13" />
       <g className="t-pupils">
-        <circle className="t-pupil" cx="37" cy="56" r="5.5" />
-        <circle className="t-pupil" cx="65" cy="56" r="5.5" />
+        <circle className="t-pupil" cx="35" cy="56" r="4.5" />
+        <circle className="t-pupil" cx="67" cy="56" r="4.5" />
       </g>
-      <g clipPath="url(#tenant-eye-mask)"><rect className="t-lid" x="24" y="40" width="24" height="28" rx="11" /><rect className="t-lid" x="52" y="40" width="24" height="28" rx="11" /></g>
+      <g clipPath="url(#tenant-eye-mask)"><rect className="t-lid" x="22" y="40" width="24" height="28" rx="11" /><rect className="t-lid" x="54" y="40" width="24" height="28" rx="11" /></g>
+      <ellipse className="t-eye-ring" cx="34" cy="54" rx="11" ry="13" />
+      <ellipse className="t-eye-ring" cx="66" cy="54" rx="11" ry="13" />
+      <g className="t-shades"><rect x="21" y="46" width="26" height="14" rx="5" /><rect x="53" y="46" width="26" height="14" rx="5" /><rect x="47" y="51" width="6" height="3" /></g>
+      </g>
+      {/* The mouth rig is the original mouth, smaller and lower; the CSS
+          d:path() shapes for every mood still apply. */}
+      <g transform="translate(20 13) scale(.6)">
       <path className="t-mouth" d="M43 75 Q50 79 57 75" />
-      <g className="t-shades"><rect x="23" y="46" width="26" height="14" rx="5" /><rect x="51" y="46" width="26" height="14" rx="5" /><rect x="47" y="51" width="6" height="3" /></g>
-      <ellipse className="t-sweat" cx="80" cy="44" rx="3" ry="4.5" />
       </g>
-      <g className="t-scarf"><path d="M18 78 C30 90 70 90 82 78 C70 84 30 84 18 78 Z" /><path d="M72 82 L80 98 L70 96 Z" /></g>
+      <ellipse className="t-sweat" cx="80" cy="38" rx="3" ry="4.5" />
+      </g>
+      <g className="t-scarf"><path d="M22 52 C36 62 64 62 78 52 C64 57 36 57 22 52 Z" /><path d="M66 56 L74 72 L62 68 Z" /></g>
+      <g transform="translate(0 -6)">
       <g className="t-leaf">
         <path className="t-leaf-blade" d="M12 18 C32 -6 66 -14 97 4 C80 26 48 32 14 23 L20 19 L12 21 L18 15 Z" />
         <path className="t-leaf-vein" d="M92 5 C67 8 41 13 16 20 M68 9 L76 -1 M52 12 L59 24 M43 14 L34 4 M29 17 L23 25" />
         <path className="t-leaf-stem-outline" d="M15 18 C-4 22 -7 37 5 54 C15 68 14 86 8 101" />
         <path className="t-leaf-stem" d="M15 18 C-4 22 -7 37 5 54 C15 68 14 86 8 101" />
       </g>
+      </g>
+      <g transform="translate(9 2)">
       <g className="t-arm">
         <path className="t-arm-blob" d="M20 62 C12 59 4 64 4 71 C4 78 10 82 16 78 C20 75 21 69 20 62 Z" />
         <path className="t-grip" d="M8 68 L8.5 74 M11 67 L11.5 72" />
+      </g>
       </g>
       </g>
       </g>

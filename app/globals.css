@@ -390,25 +390,30 @@ a:focus-visible { outline:2px solid var(--foreground); outline-offset:8px; }
   90% {transform:translate(1px,0) rotate(.7deg);}
 }
 .t-pose { transition:transform .5s cubic-bezier(.34,1.56,.64,1); }
-.t-body,.t-lid,.t-ears { fill:var(--colon); transition:fill 1s ease; }
-.t-ears { transform-origin:50px 31px; transition:transform .3s cubic-bezier(.2,.8,.2,1),fill 1s ease; }
-.t-tail { fill:none; stroke:var(--colon); stroke-width:8; stroke-linecap:round; transform-origin:82px 71px; transition:transform .45s cubic-bezier(.2,.8,.2,1),stroke 1s ease; }
+/* The Tenant is Chibi Totoro: fixed white fur, never the outfit's colour. */
+.tenant { --fur:#f3ede3; --ink-dark:#1a1a1f; --line:#2b2623; }
+.t-body,.t-lid,.t-ear-fill,.t-foot,.t-arm-blob { fill:var(--fur); }
+/* A thin ink line, as in a pencil drawing: the body, the ears' outer edges, the arm and the toes. */
+.t-body,.t-foot,.t-arm-blob { stroke:var(--line); stroke-width:1.5; stroke-linejoin:round; }
+.t-ear-line { fill:none; stroke:var(--line); stroke-width:1.5; stroke-linecap:round; stroke-linejoin:round; }
+.t-ears { transform-origin:50px 30px; transition:transform .3s cubic-bezier(.2,.8,.2,1); }
+.t-tail { fill:none; stroke:var(--fur); stroke-width:7; stroke-linecap:round; transform-origin:74px 86px; transition:transform .45s cubic-bezier(.2,.8,.2,1); }
 .t-arm { transform-origin:20px 66px; transition:transform .45s cubic-bezier(.2,.8,.2,1); }
-.t-arm-blob { fill:var(--colon); transition:fill 1s ease; }
+.t-arm-blob { fill:var(--fur); }
 .t-grip { fill:none; stroke:var(--background); stroke-width:1.5; stroke-linecap:round; opacity:0; transition:opacity .2s ease; }
 .t-face { transform-origin:50px 62px; transition:transform .5s cubic-bezier(.2,.8,.2,1); }
 .t-eye { fill:#fff; }
-.t-pupil { fill:#1a1a1f; transition:transform .35s cubic-bezier(.2,.8,.2,1); }
-.t-lid { transform:translateY(-30px); transition:transform .12s ease-in,fill 1s ease; }
-.t-mouth { fill:none; stroke:#1a1a1f; stroke-width:3; stroke-linecap:round; transition:d .45s ease,fill .45s ease; }
+.t-eye-ring { fill:none; stroke:var(--line); stroke-width:1.8; }
+.t-pupil { fill:var(--ink-dark); transition:transform .35s cubic-bezier(.2,.8,.2,1); }
+.t-lid { transform:translateY(-30px); transition:transform .12s ease-in; }
+.t-mouth { fill:none; stroke:var(--line); stroke-width:2.2; stroke-linecap:round; transition:d .45s ease,fill .45s ease; }
 /* Each foot pivots on its own centre, so a swing or a spread reads as the foot moving. */
-.t-foot { fill:#1a1a1f; opacity:.55; transform-origin:38px 96px; transition:transform .4s cubic-bezier(.34,1.56,.64,1); }
-.t-foot-b { transform-origin:62px 96px; }
-.t-cheek { fill:#fff; opacity:.28; }
+.t-foot { transform-origin:36px 96px; transition:transform .4s cubic-bezier(.34,1.56,.64,1); }
+.t-foot-b { transform-origin:64px 96px; }
 .t-shades rect { fill:#15151a; }
 .t-shades { opacity:0; transform:translateY(-14px); transition:opacity .4s ease,transform .5s cubic-bezier(.34,1.56,.64,1); }
 .t-scarf path { fill:var(--rain); }
-.t-scarf { opacity:0; transform:scale(0); transform-origin:50px 82px; transition:opacity .3s ease,transform .5s cubic-bezier(.34,1.56,.64,1); }
+.t-scarf { opacity:0; transform:scale(0); transform-origin:50px 56px; transition:opacity .3s ease,transform .5s cubic-bezier(.34,1.56,.64,1); }
 .t-leaf { opacity:0; transform:translateY(7px) scale(.45) rotate(-7deg); transform-origin:9px 59px; transition:opacity .3s ease,transform .5s cubic-bezier(.34,1.56,.64,1); }
 .t-leaf-blade { fill:var(--live); stroke:var(--background); stroke-width:2.5; stroke-linejoin:round; }
 .t-leaf-vein,.t-leaf-stem,.t-leaf-stem-outline { fill:none; stroke-linecap:round; stroke-linejoin:round; }
@@ -460,7 +465,7 @@ a:focus-visible { outline:2px solid var(--foreground); outline-offset:8px; }
 .g-look-around .t-lid,.g-listen .t-lid { animation:t-gaze-blink .3s linear both; }
 @keyframes t-gaze-blink { 0% {transform:translateY(-30px);} 26%,36% {transform:translateY(0);} 78%,100% {transform:translateY(-30px);} }
 .g-smile .t-mouth { d:path('M40 74 Q50 84 60 74'); }
-.g-yawn .t-mouth { d:path('M44 73 Q50 92 56 73 Z'); fill:#1a1a1f; }
+.g-yawn .t-mouth { d:path('M44 73 Q50 92 56 73 Z'); fill:var(--ink-dark); }
 .g-yawn .t-lid { animation:t-yawn-lids 2.3s ease-in-out both; }
 @keyframes t-yawn-lids { 0%,100% {transform:translateY(-30px);} 30%,70% {transform:translateY(-14px);} }
 .g-stretch .t-gest { animation:t-stretch 1.4s cubic-bezier(.4,0,.2,1) both; }
@@ -631,7 +636,7 @@ a:focus-visible { outline:2px solid var(--foreground); outline-offset:8px; }
 }
 .pose-falling .t-lid { transform:translateY(-34px); }
 .pose-falling .t-pupil { transform:translate(0,-4px); }
-.pose-falling .t-mouth { d:path('M44 73 Q50 90 56 73 Z'); fill:#1a1a1f; }
+.pose-falling .t-mouth { d:path('M44 73 Q50 90 56 73 Z'); fill:var(--ink-dark); }
 .pose-falling .t-foot { animation:t-fall-step .11s ease-in-out infinite alternate; }
 .pose-falling .t-foot-b { animation-delay:.055s; }
 @keyframes t-fall-step { from {transform:translate(-3px,0) rotate(-5deg);} to {transform:translate(3px,-4px) rotate(7deg);} }

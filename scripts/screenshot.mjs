@@ -30,6 +30,9 @@
 //   --width, --height      Viewport in CSS pixels. Default 1280 x 720.
 //   --scale <n>            Output pixels per CSS pixel. Default 1; 2 for detail.
 //   --clip <selector>      Crop to the first element matching the selector.
+//   --pad <px>             Margin kept around the clipped element, in CSS
+//                          pixels. Default 4; more when parts overflow the
+//                          box, as the Tenant's ears and leaf do.
 //   --class <sel>=<names>  Force the element's whole class list, re-applied
 //                          every 40 ms so React cannot undo it. Repeatable.
 //                          Include the element's own class, or its styles go:
@@ -77,6 +80,7 @@ function parseArgs(argv) {
       case '--height': options.height = Number(value()); break;
       case '--scale': options.scale = Number(value()); break;
       case '--clip': options.clip = value(); break;
+      case '--pad': options.pad = Number(value()); break;
       case '--class': options.classes.push(arg.includes('=') && !arg.startsWith('--class=') ? arg.slice('--class'.length) : arg.startsWith('--class=') ? arg.slice('--class='.length) : next()); break;
       case '--sequence': options.sequence = Number(value()); break;
       case '--every': options.every = Number(value()); break;
@@ -152,7 +156,8 @@ async function main() {
       })()` });
       if (!result.value) throw new Error('--clip: nothing matches ' + options.clip);
       const box = JSON.parse(result.value);
-      clip = { x: Math.max(0, Math.floor(box.x) - 4), y: Math.max(0, Math.floor(box.y) - 4), width: Math.ceil(box.width) + 8, height: Math.ceil(box.height) + 8, scale };
+      const pad = Number.isFinite(options.pad) ? options.pad : 4;
+      clip = { x: Math.max(0, Math.floor(box.x) - pad), y: Math.max(0, Math.floor(box.y) - pad), width: Math.ceil(box.width) + 2 * pad, height: Math.ceil(box.height) + 2 * pad, scale };
     } else {
       clip = { x: 0, y: 0, width, height, scale };
     }

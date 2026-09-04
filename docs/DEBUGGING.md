@@ -122,6 +122,9 @@ npm run shot -- --scene map --demo --pet map
 npm run shot -- --console                               # print what the page logged
 ```
 
+- `--pad <px>` widens the crop around the clipped element (default 4). The
+  Tenant's ears and leaf overflow its box, so `--clip .tenant --pad 22
+  --scale 4` is the capture for the character.
 - `--clip <selector>` gives the smallest image that shows the change, which is
   what AGENTS.md asks for.
 - `--class "<selector>=<names>"` replaces the element's whole class list and
