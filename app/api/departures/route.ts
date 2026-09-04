@@ -1,5 +1,5 @@
 import { filterDepartures, LINES, resolveStop, type Departure, type RawDeparture, type TransitData } from '@/lib/transit';
-import { parseStopTimes, TRANSITOUS_ENDPOINT, TRANSITOUS_EVENTS, TRANSITOUS_STOPS, TRANSITOUS_USER_AGENT } from '@/lib/transitous';
+import { parseStopTimes, stopTimesQuery, TRANSITOUS_ENDPOINT, TRANSITOUS_STOPS, TRANSITOUS_USER_AGENT } from '@/lib/transitous';
 import { demoTransitData } from '@/lib/transit-demo';
 import { applyTranslations, deeplEndpoint, parseTranslations, translatableTexts, translationRequest } from '@/lib/translation';
 
@@ -68,7 +68,7 @@ async function loadTransitous(): Promise<TransitData> {
     const id = TRANSITOUS_STOPS[name];
     if (!id) throw new Error('Transit fallback has no stop id for this stop');
     const url = new URL(TRANSITOUS_ENDPOINT);
-    url.search = new URLSearchParams({ stopId: id, n: String(TRANSITOUS_EVENTS), arriveBy: 'false' }).toString();
+    url.search = new URLSearchParams(stopTimesQuery(id)).toString();
     const controller = new AbortController();
     const timeout = setTimeout(() => controller.abort(), FALLBACK_TIMEOUT_MS);
     let payload: unknown;

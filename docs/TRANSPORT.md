@@ -196,6 +196,27 @@ seconds for Rejseplanen, five for Transitous, each request with its own
 `AbortController`. A shared deadline would let one slow board spend the whole
 budget and leave nothing for the fallback.
 
+**Live times are requested by name, not inherited.** The fallback's query is
+built once, in `stopTimesQuery` in `lib/transitous.ts`, and it names
+`realtimeMode=REALTIME` even though that is currently MOTIS's own default. The
+live time of the *next* departure is the most valuable field on the board, and
+a provider default is the wrong place to keep it: `realtimeMode=OFF` returns
+the same events with every live flag cleared, which would cost the display
+every dot and every delay while still looking like a working board. The route
+and `npm run probe:transit` both build the query there, so the probe's claim to
+ask "exactly as the route would" stays true.
+
+The events come back sorted by realtime departure and every board is read from
+the front, so a later departure can never crowd out the next one. What the
+budget is spent on, if it ever has to shrink, is board *depth* — never refresh
+rate, which is what keeps the next departure's live time current.
+
+Rejseplanen's `rtMode` is still `SERVER_DEFAULT`, which is the same
+inherited-default shape. It is deliberately left alone: no access ID has been
+granted, so the value cannot be checked against a live response, and a wrong
+HAFAS enum would fail the primary over to the fallback. Set it explicitly when
+verifying that path after a key arrives.
+
 Realtime departures override scheduled times. Cancellations, delays and
 platform changes stay visible. Entries older than five minutes are hidden after
 a connection failure. Each provider retains twelve upcoming matches per line

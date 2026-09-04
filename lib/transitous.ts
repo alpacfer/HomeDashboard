@@ -34,6 +34,22 @@ export const TRANSITOUS_USER_AGENT = 'HomeDashboard/0.1 (wall display; https://g
 // of them every two minutes.
 export const TRANSITOUS_EVENTS = 50;
 
+// Live times are asked for, never inherited. MOTIS defaults `realtimeMode` to
+// REALTIME, so naming it changes nothing today; it is named because the live
+// time of the *next* departure is the most valuable thing on the board, and a
+// provider default is the wrong place to keep it. `realtimeMode=OFF` returns
+// the same events with every live flag cleared, which here would quietly cost
+// the display every green dot and every delay while still looking like a
+// working board -- the one failure nobody standing at the stop would catch.
+export const TRANSITOUS_REALTIME_MODE = 'REALTIME';
+
+// Pure: the `stoptimes` query for one stop. Both callers build it here, because
+// `npm run probe:transit` claims to ask "exactly as the route would" and that
+// only stays true while there is one definition of the request.
+export function stopTimesQuery(stopId: string): Record<string, string> {
+  return { stopId, n: String(TRANSITOUS_EVENTS), arriveBy: 'false', realtimeMode: TRANSITOUS_REALTIME_MODE };
+}
+
 // Rejseplanen's own stop numbers, in the namespace Transitous gives the Danish
 // feed. Hardcoded rather than looked up, because a geocode call before every
 // board would double the requests for an answer that does not change. Verify

@@ -1,7 +1,7 @@
 import { test } from 'node:test';
 import assert from 'node:assert/strict';
 import { readFileSync } from 'node:fs';
-import { parseStopTimes, TRANSITOUS_HEADSIGNS, TRANSITOUS_STOPS } from '../lib/transitous.ts';
+import { parseStopTimes, stopTimesQuery, TRANSITOUS_HEADSIGNS, TRANSITOUS_REALTIME_MODE, TRANSITOUS_STOPS } from '../lib/transitous.ts';
 import { LINES } from '../lib/transit.ts';
 
 // A real https://api.transitous.org/api/v1/stoptimes response for
@@ -112,4 +112,22 @@ test('the fallback covers every board the display renders', () => {
   }
   // Every configured stop id belongs to the Danish Rejseplanen feed.
   for (const id of Object.values(TRANSITOUS_STOPS)) assert.match(id, /^dk-rejseplanen_\d+$/);
+});
+
+test('every board is asked for live times, not for whatever the provider defaults to', () => {
+  const query = stopTimesQuery(TRANSITOUS_STOPS['Lyngby St.']);
+  // The live time of the next departure is the most valuable field on the
+  // board, so it is requested by name. `realtimeMode=OFF` returns the same
+  // events with every live flag cleared: a board that still looks right and
+  // has quietly stopped tracking anything.
+  assert.equal(query.realtimeMode, 'REALTIME');
+  assert.equal(TRANSITOUS_REALTIME_MODE, 'REALTIME');
+  assert.equal(query.stopId, 'dk-rejseplanen_000008600675');
+  // Soonest first: the provider sorts by realtime departure and the board is
+  // read from the front, so nothing later can crowd out the next departure.
+  assert.equal(query.arriveBy, 'false');
+  // Survives URLSearchParams, which stringifies without complaining.
+  const params = new URLSearchParams(query);
+  assert.equal(params.get('realtimeMode'), 'REALTIME');
+  assert.ok(Number(params.get('n')) >= 12, 'deep enough for the twelve departures a board retains');
 });

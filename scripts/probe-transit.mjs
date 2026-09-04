@@ -13,7 +13,7 @@
 //                 the fallback is silently dropping (see lib/transitous.ts).
 
 import { LINES, filterDepartures, resolveStop } from '../lib/transit.ts';
-import { TRANSITOUS_ENDPOINT, TRANSITOUS_EVENTS, TRANSITOUS_HEADSIGNS, TRANSITOUS_STOPS, TRANSITOUS_USER_AGENT, parseStopTimes } from '../lib/transitous.ts';
+import { TRANSITOUS_ENDPOINT, TRANSITOUS_HEADSIGNS, TRANSITOUS_STOPS, TRANSITOUS_USER_AGENT, parseStopTimes, stopTimesQuery } from '../lib/transitous.ts';
 
 const withHeadsigns = process.argv.includes('--headsigns');
 const headers = { 'User-Agent': TRANSITOUS_USER_AGENT, Accept: 'application/json' };
@@ -71,7 +71,7 @@ for (const name of stopNames) {
   else if (match.id !== id) console.log(pad('', 40) + 'STOP ID CHANGED: configured ' + id + ', geocoder says ' + match.id);
   else console.log(pad('', 40) + 'stop id ' + id + ' confirmed');
 
-  const url = TRANSITOUS_ENDPOINT + '?' + new URLSearchParams({ stopId: id, n: String(TRANSITOUS_EVENTS), arriveBy: 'false' });
+  const url = TRANSITOUS_ENDPOINT + '?' + new URLSearchParams(stopTimesQuery(id));
   const payload = await ask('stoptimes ' + name, url);
   if (!payload) { fallbackOk = false; continue; }
   const now = Date.now();
