@@ -1,8 +1,9 @@
 import { test } from 'node:test';
 import assert from 'node:assert/strict';
 import {
-  DOTS_SPOT, climbDelay, idleDelay, inkBox, inkColumns, msToNextMinute, nextChangingDigit, perchDuration, perchIdleDelay,
+  DOTS_SPOT, inkBox, inkColumns, msToNextMinute, nextChangingDigit, perchDuration, perchIdleDelay,
   pickDescent, pickHourAction, pickIdle, pickPerch, pickPerchAction, pickStrike, shouldApproach, tenantMood, tenantTargets, topProfile,
+  worldSpotTarget, worldTravelDuration,
 } from '../lib/clock-tenant.ts';
 
 const at = time => new Date('2026-09-03T' + time + 'Z');
@@ -25,21 +26,19 @@ const tally = (pick, n = 1000) => {
 
 test('idle actions are weighted towards blinking and the timings sit in their bands', () => {
   const counts = tally(pickIdle, 100);
-  assert.equal(counts.blink, 34);
-  assert.equal(counts['double-blink'], 10);
-  assert.equal(counts['glance-digits'], 12);
+  assert.equal(counts.blink, 28);
+  assert.equal(counts['double-blink'], 8);
+  assert.equal(counts['glance-digits'], 10);
   assert.equal(counts['look-around'], 8);
   assert.equal(counts.stretch, 5);
   assert.equal(counts.yawn, 3);
+  assert.equal(counts.scratch, 5);
+  assert.equal(counts.wave, 3);
   assert.equal(Object.values(counts).reduce((a, b) => a + b, 0), 100);
   // Perched, the body stays out of it: no stretch, wiggle, lean or hop.
   const perched = tally(r => pickIdle(r, true));
-  for (const body of ['stretch', 'wiggle', 'lean', 'hop']) assert.equal(perched[body], undefined, body);
+  for (const body of ['stretch', 'wiggle', 'lean', 'hop', 'scratch', 'sneeze', 'wave', 'doze']) assert.equal(perched[body], undefined, body);
   assert.ok(perched.blink > perched.smile);
-  assert.equal(idleDelay(0), 3000);
-  assert.ok(idleDelay(0.999) < 8000);
-  assert.equal(climbDelay(0), 25000);
-  assert.ok(climbDelay(0.999) < 45000);
   assert.equal(perchDuration(0), 6000);
   assert.ok(perchDuration(0.999) < 14000);
   assert.equal(perchDuration(0, 'ball'), 3500, 'the colon is hard work, so shorter');
@@ -189,8 +188,21 @@ test('targets put the Tenant against the last digit and on top of any digit', ()
   // Left edge 318 has to land on 290 plus 14% overlap of 50 = 297.
   assert.equal(targets.pushX, -21);
   assert.equal(targets.perch.length, 4, 'no colon measured, no fifth spot');
+  assert.deepEqual(targets.world, []);
   assert.deepEqual(targets.perch[3], { x: 270 - 343, y: 20 - 100, kind: 'flat', pace: 0, slide: 1 }, 'without a profile, centred and flat');
   assert.deepEqual(targets.perch[2].y, 30 - 100, 'a shorter glyph gives a lower perch');
+});
+
+test('world targets put the feet on a measured UI edge and travel time is bounded', () => {
+  const origin = { left: 50, top: 30, right: 450, bottom: 300 };
+  const rest = { left: 300, top: 40 };
+  const surface = { left: 600, top: 200, right: 900, bottom: 500 };
+  assert.deepEqual(worldSpotTarget('map', surface, origin, rest, 50, 0.75), {
+    id: 'map', x: 437.5, y: 80, look: -1,
+  });
+  assert.equal(worldSpotTarget('transport', surface, origin, rest, 50, 0, 'bottom').y, 380);
+  assert.equal(worldTravelDuration({ x: 0, y: 0 }), 1900);
+  assert.equal(worldTravelDuration({ x: 2000, y: 0 }), 4300);
 });
 
 test('with profiles the perch is the apex, pacing room comes from the plateau, and the colon is a ball', () => {

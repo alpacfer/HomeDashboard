@@ -5,6 +5,7 @@ import TransportPanel from '@/components/transport-panel';
 import { DAILY_FACT_COUNTRIES, dailyDateKey, validDailyFacts, type DailyFact } from '@/lib/daily-facts';
 import { initialRotation, nextRotation, pinnedRotation, resumeRotation } from '@/lib/panel-rotation';
 import ForecastMapPanel from '@/components/forecast-map-panel';
+import type { Rotation } from '@/lib/panel-rotation';
 
 const STORAGE_KEY = 'home-dashboard:next-daily-fact:v1';
 const artworkCache = new Map<string, HTMLImageElement>();
@@ -88,7 +89,7 @@ function useDailyFacts() {
   return { date, facts, status };
 }
 
-export default function RotatingPanel() {
+export default function RotatingPanel({ onSceneChange }: { onSceneChange?: (scene: Rotation['phase']) => void }) {
   const { date, facts, status } = useDailyFacts();
   const [rotation, setRotation] = useState(() => initialRotation(0, DAILY_FACT_COUNTRIES));
   const [wake, setWake] = useState(0);
@@ -140,6 +141,8 @@ export default function RotatingPanel() {
   const showingMap = rotation.phase === 'map';
   const showingTransport = rotation.phase === 'transport';
   const fact = facts[rotation.index];
+
+  useEffect(() => { onSceneChange?.(rotation.phase); }, [onSceneChange, rotation.phase]);
 
   useEffect(() => {
     if (fact) preloadArtwork(fact.image.src, 'high');

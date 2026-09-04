@@ -25,7 +25,11 @@ import {
 import {
   HOUR_PIECE_DELAY_MS, delayToQuiet, flapSequence, nextEventDelay, pickSetPiece, setPieceById, type SetPieceId,
 } from '@/lib/clock-events';
-import { inkBox, inkColumns, nextChangingDigit, shouldApproach, tenantMood, tenantTargets, topProfile, type Targets } from '@/lib/clock-tenant';
+import {
+  inkBox, inkColumns, nextChangingDigit, shouldApproach, tenantMood, tenantTargets, topProfile, worldSpotTarget,
+  type Box, type Targets, type WorldSpotId,
+} from '@/lib/clock-tenant';
+import type { Rotation } from '@/lib/panel-rotation';
 import Tenant from './tenant';
 
 // Per-digit variation for the zero-gravity piece, so no two digits drift alike.
@@ -50,7 +54,9 @@ type Piece = { id: SetPieceId; key: number };
 type Flap = { text: string; previous: string };
 type Play = { id: 'land' | 'spring'; key: number };
 
-export default function Clock({ now, conditions = null }: { now: Date | null; conditions?: Conditions | null }) {
+export default function Clock({ now, conditions = null, activeScene = 'transport', petPreview = null }: {
+  now: Date | null; conditions?: Conditions | null; activeScene?: Rotation['phase']; petPreview?: WorldSpotId | null;
+}) {
   const [frame, setFrame] = useState(() => clockFrame(now));
   const next = clockFrame(now, frame);
   if (next !== frame) setFrame(next);
@@ -70,6 +76,7 @@ export default function Clock({ now, conditions = null }: { now: Date | null; co
   const frameRef = useRef(next);
   const conditionsRef = useRef(conditions);
   const outfitRef = useRef(outfit);
+  const activeSceneRef = useRef(activeScene);
   const busyRef = useRef(false);
   const reducedRef = useRef(false);
   useEffect(() => {
@@ -77,6 +84,7 @@ export default function Clock({ now, conditions = null }: { now: Date | null; co
     frameRef.current = next;
     conditionsRef.current = conditions;
     outfitRef.current = outfit;
+    activeSceneRef.current = activeScene;
     busyRef.current = ghost !== null || piece !== null;
     reducedRef.current = reduced;
   });
@@ -141,9 +149,34 @@ export default function Clock({ now, conditions = null }: { now: Date | null; co
     });
     const dot = clock.querySelector<HTMLElement>('.separator span');
     const em = parseFloat(getComputedStyle(clock).fontSize);
-    setTargets(tenantTargets(ink, relative(cells[3].getBoundingClientRect()), TENANT_SIZE_EM * em, TENANT_GAP_EM * em,
-      profiles, dot ? relative(dot.getBoundingClientRect()) : null));
+    const size = TENANT_SIZE_EM * em;
+    const base = tenantTargets(ink, relative(cells[3].getBoundingClientRect()), size, TENANT_GAP_EM * em,
+      profiles, dot ? relative(dot.getBoundingClientRect()) : null);
+    const originBox: Box = { left: origin.left, top: origin.top, right: origin.right, bottom: origin.bottom };
+    const world = [] as Targets['world'];
+    const addWorld = (id: WorldSpotId, selector: string, align: number, edge: 'top' | 'bottom' = 'top') => {
+      const element = document.querySelector<HTMLElement>(selector);
+      if (!element) return;
+      const rect = element.getBoundingClientRect();
+      if (rect.width < size || rect.height <= 0) return;
+      world.push(worldSpotTarget(id, { left: rect.left, top: rect.top, right: rect.right, bottom: rect.bottom }, originBox, base.rest, size, align, edge));
+    };
+    addWorld('weather', '.weather', 0.76);
+    addWorld('week', '.week-day:nth-child(5)', 0.5);
+    if (activeSceneRef.current === 'transport') addWorld('transport', '.transit-scene.is-active .departure-board', 0.82, 'bottom');
+    if (activeSceneRef.current === 'fact') addWorld('fact', '.daily-fact-scene.is-active .fact-illustration img', 0.68);
+    if (activeSceneRef.current === 'map') addWorld('map', '.forecast-map-scene.is-active .forecast-map-frame', 0.78, 'bottom');
+    setTargets({ ...base, world });
   }, []);
+
+  // The active panel arrives over 450 ms. Measure once as it is mounted and
+  // once after that transition has settled; no observer or frame loop is kept
+  // alive for the otherwise static dashboard geometry.
+  useEffect(() => {
+    const mounted = window.setTimeout(measure, 40);
+    const settled = window.setTimeout(measure, 540);
+    return () => { window.clearTimeout(mounted); window.clearTimeout(settled); };
+  }, [activeScene, measure]);
 
   // The Tenant landed on the colon or left it: squash or spring the dots.
   const onPlay = useCallback((id: Play['id']) => {
@@ -293,7 +326,7 @@ export default function Clock({ now, conditions = null }: { now: Date | null; co
       <span className="clock-date">{ghost.date}</span>
     </div>}
 
-    {targets && !reduced && <Tenant mood={mood} targets={targets} approachKey={approachKey} rollKey={rollKey} hourKey={hourKey}
+    {targets && !reduced && <Tenant mood={mood} targets={targets} activeScene={activeScene} previewSpot={petPreview} approachKey={approachKey} rollKey={rollKey} hourKey={hourKey}
       nextDigit={nextDigit} rolledDigit={rolledDigit} busy={ghost !== null || piece !== null} onPlay={onPlay} onHome={onHome} />}
   </div>;
 }

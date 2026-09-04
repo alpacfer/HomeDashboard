@@ -20,14 +20,21 @@
 
 import { useEffect, useRef, useState, type CSSProperties } from 'react';
 import {
-  APPROACH_TIMEOUT_MS, DOTS_SPOT, climbDelay, idleDelay, msToNextMinute, perchDuration, perchIdleDelay, pickDescent,
-  pickHourAction, pickIdle, pickPerch, pickPerchAction, pickStrike,
-  type Descent, type HourAction, type IdleAction, type Mood, type Perch, type PerchAction, type Strike, type Targets,
+  APPROACH_TIMEOUT_MS, DOTS_SPOT, msToNextMinute, perchDuration, perchIdleDelay, pickDescent,
+  pickHourAction, pickIdle, pickPerch, pickPerchAction, pickStrike, worldTravelDuration,
+  type Descent, type HourAction, type IdleAction, type Mood, type Perch, type PerchAction, type Strike, type Targets, type WorldSpot,
 } from '@/lib/clock-tenant';
+import {
+  advancePetMind, choosePetActivity, commitPetActivity, initialPetMind, noticePetScene, petDecisionDelay,
+} from '@/lib/pet-behavior';
+import type { Rotation } from '@/lib/panel-rotation';
 
 export type TenantProps = {
   mood: Mood;
   targets: Targets;
+  activeScene: Rotation['phase'];
+  // Debug-only visual pin. Normal behavior leaves this null.
+  previewSpot?: WorldSpot['id'] | null;
   // The minute stamp of the tick about 1.6 s before the roll, or null: walk
   // over and get ready. Changes once per minute.
   approachKey: number | null;
@@ -49,11 +56,13 @@ export type TenantProps = {
   onHome?: (home: boolean) => void;
 };
 
-type Pose = 'rest' | 'approach' | 'strike' | 'walk-home' | 'climbing' | 'perched' | 'descending' | 'falling' | 'sprawled' | 'jump' | 'hops';
+type Pose = 'rest' | 'approach' | 'strike' | 'walk-home' | 'climbing' | 'perched' | 'descending' | 'falling' | 'sprawled'
+  | 'jump' | 'hops' | 'roaming' | 'visiting' | 'roam-home';
 
 const GESTURE_MS: Record<IdleAction, number> = {
-  blink: 200, 'double-blink': 560, 'glance-digits': 1600, 'glance-up': 1600, 'look-around': 1900, smile: 1800,
+  blink: 270, 'double-blink': 620, 'glance-digits': 1600, 'glance-up': 1600, 'look-around': 1900, smile: 1800,
   stretch: 1400, wiggle: 900, lean: 1900, yawn: 2300, hop: 650,
+  scratch: 1700, sneeze: 900, wave: 1500, doze: 2600, listen: 1700,
 };
 const PERCH_ACTION_MS: Record<PerchAction, number> = { pace: 950, sit: 500, peer: 1700, teeter: 1700, slip: 1000 };
 const DESCENT_MS: Record<Descent, number> = { 'climb-down': 1200, 'hop-off': 1050, slide: 1300 };
@@ -68,8 +77,16 @@ const FALL_MS = 1000;
 const SPRAWL_MS = 800;
 
 const FALLBACK_PERCH: Perch = { x: 0, y: 0, kind: 'flat', pace: 0, slide: 1 };
+type TenantActions = {
+  walkHome: () => void;
+  roamHome: () => void;
+  startClimb: () => void;
+  roamTo: (id: WorldSpot['id']) => void;
+  comeDown: (how: Descent) => void;
+  fall: () => void;
+};
 
-export default function Tenant({ mood, targets, approachKey, rollKey, hourKey, nextDigit, rolledDigit, busy, onPlay, onHome }: TenantProps) {
+export default function Tenant({ mood, targets, activeScene, previewSpot = null, approachKey, rollKey, hourKey, nextDigit, rolledDigit, busy, onPlay, onHome }: TenantProps) {
   const [pose, setPose] = useState<Pose>('rest');
   const [perchIndex, setPerchIndex] = useState(3);
   const [shift, setShift] = useState(0);
@@ -79,6 +96,8 @@ export default function Tenant({ mood, targets, approachKey, rollKey, hourKey, n
   const [gesture, setGesture] = useState<{ action: IdleAction; key: number } | null>(null);
   const [perchAction, setPerchAction] = useState<{ action: PerchAction; key: number } | null>(null);
   const [watch, setWatch] = useState<-1 | 0 | 1>(0);
+  const [worldTarget, setWorldTarget] = useState<WorldSpot | null>(null);
+  const [travelMs, setTravelMs] = useState(1900);
   // Where a descent or a fall starts: the element's actual translation at that
   // moment, so a step still in flight or a perch remeasured mid-air never
   // makes it jump.
@@ -94,6 +113,14 @@ export default function Tenant({ mood, targets, approachKey, rollKey, hourKey, n
   const shiftRef = useRef(0);
   const rolledRef = useRef(rolledDigit);
   const playRef = useRef(onPlay);
+  const worldRef = useRef<WorldSpot | null>(null);
+  const sceneRef = useRef(activeScene);
+  const previewRef = useRef(previewSpot);
+  const mindRef = useRef(initialPetMind(activeScene));
+  const recentGestures = useRef<IdleAction[]>([]);
+  const lastDecisionAt = useRef(0);
+  const previousMood = useRef(mood);
+  const act = useRef<TenantActions>(null!);
   const timers = useRef(new Set<number>());
   useEffect(() => {
     poseRef.current = pose;
@@ -104,6 +131,8 @@ export default function Tenant({ mood, targets, approachKey, rollKey, hourKey, n
     shiftRef.current = shift;
     rolledRef.current = rolledDigit;
     playRef.current = onPlay;
+    worldRef.current = worldTarget;
+    previewRef.current = previewSpot;
   });
 
   const later = (fn: () => void, ms: number) => {
@@ -118,7 +147,9 @@ export default function Tenant({ mood, targets, approachKey, rollKey, hourKey, n
   // perch it is meant to be on.
   const whereNow = () => {
     const perch = currentPerch();
-    const fallback = { x: perch.x + shiftRef.current, y: perch.y };
+    const fallback = worldRef.current && (poseRef.current === 'roaming' || poseRef.current === 'visiting' || poseRef.current === 'roam-home')
+      ? { x: worldRef.current.x, y: worldRef.current.y }
+      : { x: perch.x + shiftRef.current, y: perch.y };
     const element = elementRef.current;
     if (!element) return fallback;
     try {
@@ -135,6 +166,54 @@ export default function Tenant({ mood, targets, approachKey, rollKey, hourKey, n
   const walkHome = () => {
     move('walk-home');
     later(() => { if (poseRef.current === 'walk-home') move('rest'); }, WALK_MS);
+  };
+
+  const roamHome = () => {
+    if (!worldRef.current) { walkHome(); return; }
+    const start = whereNow();
+    const travel = worldTravelDuration(start);
+    setFrom(start);
+    setTravelMs(travel);
+    move('roam-home');
+    later(() => {
+      if (poseRef.current !== 'roam-home') return;
+      worldRef.current = null;
+      setWorldTarget(null);
+      move('rest');
+    }, travel);
+  };
+
+  const startClimb = (): void => {
+    let index = pickPerch(Math.random());
+    if (!targetsRef.current.perch[index]) index = 3;
+    const perch = targetsRef.current.perch[index] ?? FALLBACK_PERCH;
+    setPerchIndex(index);
+    perchRef.current = index;
+    setShift(0);
+    move('climbing');
+    later(() => {
+      if (poseRef.current !== 'climbing') return;
+      move('perched');
+      if (perch.kind === 'ball') playRef.current?.('land');
+    }, CLIMB_MS);
+    later(() => act.current.comeDown(pickDescent(perch.kind, Math.random())), CLIMB_MS + perchDuration(Math.random(), perch.kind));
+  };
+
+  const roamTo = (id: WorldSpot['id']) => {
+    const target = targetsRef.current.world.find(spot => spot.id === id);
+    if (!target) return;
+    const travel = worldTravelDuration(target);
+    worldRef.current = target;
+    setWorldTarget(target);
+    setTravelMs(travel);
+    setGesture(null);
+    setWatch(target.look);
+    move('roaming');
+    later(() => {
+      if (poseRef.current !== 'roaming') return;
+      move('visiting');
+      later(() => { if (poseRef.current === 'visiting') act.current.roamHome(); }, 4200 + Math.random() * 2600);
+    }, travel);
   };
 
   // Come down from a perch by the given route. The keyframes start from
@@ -176,58 +255,47 @@ export default function Tenant({ mood, targets, approachKey, rollKey, hourKey, n
   // The effects below call these through a ref, like everything else they
   // read, so none of them has to be rebuilt when a prop changes. Refreshed in
   // an effect, never during render, and always before any timer can fire.
-  const act = useRef({ walkHome, comeDown, fall });
-  useEffect(() => { act.current = { walkHome, comeDown, fall }; });
+  useEffect(() => { act.current = { walkHome, roamHome, startClimb, roamTo, comeDown, fall }; });
 
   useEffect(() => { onHome?.(pose === 'rest'); }, [pose, onHome]);
 
-  // Idle life: blinks, glances and small body gestures while resting or
-  // perched, nothing while asleep. Perched, only the face plays: the body is
-  // busy keeping its balance.
+  // One sparse decision loop owns all resting behavior. Slowly changing drives
+  // make climbing and roaming arise from accumulated curiosity rather than a
+  // second metronome; recent actions are suppressed so special gestures stay
+  // surprising. CSS still owns every animation frame.
   useEffect(() => {
     let alive = true;
     const tick = () => {
       if (!alive) return;
-      const awake = moodRef.current !== 'asleep';
-      const perched = poseRef.current === 'perched';
-      if (awake && (poseRef.current === 'rest' || perched)) {
-        const action = pickIdle(Math.random(), perched);
-        setGesture({ action, key: Date.now() });
-        later(() => setGesture(current => current?.action === action ? null : current), GESTURE_MS[action]);
+      const now = Date.now();
+      const elapsed = lastDecisionAt.current ? now - lastDecisionAt.current : 0;
+      let mind = advancePetMind(mindRef.current, elapsed, moodRef.current);
+      lastDecisionAt.current = now;
+      if (!previewRef.current && moodRef.current !== 'asleep' && poseRef.current === 'rest' && !busyRef.current) {
+        const remaining = msToNextMinute(new Date(now));
+        const canAdventure = remaining > 4000 && remaining < 58_000 && !document.hidden;
+        const decision = choosePetActivity(mind, {
+          mood: moodRef.current,
+          scene: sceneRef.current,
+          spots: targetsRef.current.world.map(spot => spot.id),
+          canAdventure,
+        }, Math.random());
+        mind = commitPetActivity(mind, decision);
+        if (decision.kind === 'idle') {
+          const action = pickIdle(Math.random(), false, recentGestures.current, mind.energy);
+          recentGestures.current = [action, ...recentGestures.current.filter(item => item !== action)].slice(0, 4);
+          setGesture({ action, key: Date.now() });
+          later(() => setGesture(current => current?.action === action ? null : current), GESTURE_MS[action]);
+        } else if (decision.kind === 'climb') {
+          act.current.startClimb();
+        } else if (decision.kind === 'roam') {
+          act.current.roamTo(decision.spot);
+        }
       }
-      later(tick, idleDelay(Math.random()));
+      mindRef.current = mind;
+      later(tick, petDecisionDelay(Math.random(), mind.energy));
     };
-    later(tick, idleDelay(Math.random()));
-    return () => { alive = false; };
-  }, []);
-
-  // Now and then, climb onto a digit or the colon, stay a while, come back
-  // down. Not in the seconds around the minute boundary: the approach owns
-  // those.
-  useEffect(() => {
-    let alive = true;
-    const tick = () => {
-      if (!alive) return;
-      const remaining = msToNextMinute(new Date());
-      const clear = remaining > 4000 && remaining < 58000 && !document.hidden;
-      if (clear && poseRef.current === 'rest' && moodRef.current !== 'asleep' && !busyRef.current) {
-        let index = pickPerch(Math.random());
-        if (!targetsRef.current.perch[index]) index = 3;
-        const perch = targetsRef.current.perch[index] ?? FALLBACK_PERCH;
-        setPerchIndex(index);
-        perchRef.current = index;
-        setShift(0);
-        move('climbing');
-        later(() => {
-          if (poseRef.current !== 'climbing') return;
-          move('perched');
-          if (perch.kind === 'ball') playRef.current?.('land');
-        }, CLIMB_MS);
-        later(() => act.current.comeDown(pickDescent(perch.kind, Math.random())), CLIMB_MS + perchDuration(Math.random(), perch.kind));
-      }
-      later(tick, climbDelay(Math.random()));
-    };
-    later(tick, climbDelay(Math.random()));
+    later(tick, petDecisionDelay(Math.random(), mindRef.current.energy));
     return () => { alive = false; };
   }, []);
 
@@ -262,9 +330,39 @@ export default function Tenant({ mood, targets, approachKey, rollKey, hourKey, n
     if (perch && Math.abs(shiftRef.current) > perch.pace) setShift(0);
   }, [targets]);
 
+  // A visual-test URL may pin one landmark. It skips the trip so a screenshot
+  // can inspect the destination pose deterministically; ordinary visits still
+  // cross the dashboard using the full roaming choreography.
+  useEffect(() => {
+    if (!previewSpot) return;
+    const target = targets.world.find(spot => spot.id === previewSpot);
+    const current = worldRef.current;
+    if (!target || (poseRef.current === 'visiting' && current?.id === target.id && current.x === target.x && current.y === target.y)) return;
+    worldRef.current = target;
+    setWorldTarget(target);
+    setGesture(null);
+    move('visiting');
+  }, [previewSpot, targets]);
+
+  // A scene change raises interest in that side of the dashboard. If the old
+  // scene disappears while the Tenant is visiting it, come home from the
+  // actual current transform; a later decision may investigate the new one.
+  useEffect(() => {
+    if (sceneRef.current === activeScene) return;
+    sceneRef.current = activeScene;
+    mindRef.current = noticePetScene(mindRef.current, activeScene);
+    if (poseRef.current === 'visiting' || poseRef.current === 'roaming') act.current.roamHome();
+    else if (poseRef.current === 'rest' && moodRef.current !== 'asleep') {
+      const action: IdleAction = 'listen';
+      setGesture({ action, key: Date.now() });
+      later(() => setGesture(current => current?.action === action ? null : current), GESTURE_MS[action]);
+    }
+  }, [activeScene]);
+
   // Walk over before the roll; if the roll never comes, walk back.
   useEffect(() => {
     if (approachKey === null || poseRef.current !== 'rest' || moodRef.current === 'asleep' || document.hidden) return;
+    setGesture(null);
     move('approach');
     later(() => { if (poseRef.current === 'approach') act.current.walkHome(); }, APPROACH_TIMEOUT_MS);
   }, [approachKey]);
@@ -290,6 +388,9 @@ export default function Tenant({ mood, targets, approachKey, rollKey, hourKey, n
     } else if (poseRef.current === 'rest' && moodRef.current !== 'asleep') {
       setGesture({ action: 'glance-digits', key: Date.now() });
       later(() => setGesture(current => current?.action === 'glance-digits' ? null : current), GESTURE_MS['glance-digits']);
+    } else if (poseRef.current === 'visiting' || poseRef.current === 'roaming') {
+      setWatch(-1);
+      later(() => setWatch(worldRef.current?.look ?? 0), WATCH_MS);
     }
   }, [rollKey]);
 
@@ -306,13 +407,30 @@ export default function Tenant({ mood, targets, approachKey, rollKey, hourKey, n
     if (poseRef.current === 'rest') celebrate();
     else if (poseRef.current === 'strike') later(celebrate, STRIKE_MS + WALK_MS + 150);
     else if (poseRef.current === 'falling') later(celebrate, FALL_MS + SPRAWL_MS + WALK_MS + 150);
+    else if (poseRef.current === 'visiting' || poseRef.current === 'roaming') {
+      const action: IdleAction = 'wave';
+      setGesture({ action, key: Date.now() });
+      later(() => setGesture(current => current?.action === action ? null : current), GESTURE_MS[action]);
+    }
   }, [hourKey]);
 
-  // Falling asleep brings it down from wherever it is.
+  // Weather and sleep are changes the Tenant notices, not merely costume
+  // switches. The reaction is brief and the mood's persistent styling then
+  // carries on underneath it.
   useEffect(() => {
-    if (mood !== 'asleep' || poseRef.current === 'rest') return;
-    if (poseRef.current === 'perched') act.current.comeDown('climb-down');
-    else if (poseRef.current === 'approach') act.current.walkHome();
+    const before = previousMood.current;
+    previousMood.current = mood;
+    if (before === mood) return;
+    if (mood === 'asleep') {
+      if (poseRef.current === 'perched') act.current.comeDown('climb-down');
+      else if (poseRef.current === 'approach') act.current.walkHome();
+      else if (poseRef.current === 'visiting' || poseRef.current === 'roaming') act.current.roamHome();
+      return;
+    }
+    if (poseRef.current !== 'rest') return;
+    const action: IdleAction = mood === 'cold' ? 'sneeze' : mood === 'hot' ? 'doze' : mood === 'rain' ? 'listen' : 'wiggle';
+    setGesture({ action, key: Date.now() });
+    later(() => setGesture(current => current?.action === action ? null : current), GESTURE_MS[action]);
   }, [mood]);
 
   // A hidden tab freezes CSS animations while timers keep (slowly) firing, so
@@ -323,6 +441,8 @@ export default function Tenant({ mood, targets, approachKey, rollKey, hourKey, n
       if (document.hidden || poseRef.current === 'rest') return;
       setSitting(false);
       setShift(0);
+      worldRef.current = null;
+      setWorldTarget(null);
       move('rest');
     };
     document.addEventListener('visibilitychange', resume);
@@ -345,6 +465,9 @@ export default function Tenant({ mood, targets, approachKey, rollKey, hourKey, n
     '--slide': perch.slide,
     '--from-x': from.x + 'px',
     '--from-y': from.y + 'px',
+    '--world-x': (worldTarget?.x ?? 0) + 'px',
+    '--world-y': (worldTarget?.y ?? 0) + 'px',
+    '--travel-ms': travelMs + 'ms',
   } as CSSProperties;
 
   const onTop = pose === 'perched' || pose === 'climbing' || pose === 'descending';
@@ -357,10 +480,14 @@ export default function Tenant({ mood, targets, approachKey, rollKey, hourKey, n
     perchAction ? 'pa-' + perchAction.action : '',
     perchAction?.action === 'pace' ? 'pacing' : '',
     sitting && pose === 'perched' ? 'sitting' : '',
+    worldTarget ? 'visit-' + worldTarget.id : '',
     watch ? (watch > 0 ? 'w-right' : 'w-left') : ''].filter(Boolean).join(' ');
 
   return <div className={className} style={style} aria-hidden="true" ref={elementRef}>
     <svg viewBox="0 0 100 100">
+      <defs>
+        <clipPath id="tenant-eye-mask"><ellipse cx="36" cy="54" rx="11" ry="13" /><ellipse cx="64" cy="54" rx="11" ry="13" /></clipPath>
+      </defs>
       <g className="t-figure">
       <g className="t-rain-drops">
         <rect className="t-drop" x="10" y="0" width="3" height="10" rx="1.5" />
@@ -373,7 +500,10 @@ export default function Tenant({ mood, targets, approachKey, rollKey, hourKey, n
       <ellipse className="t-foot" cx="38" cy="96" rx="9" ry="4" />
       <ellipse className="t-foot t-foot-b" cx="62" cy="96" rx="9" ry="4" />
       <g className="t-pose">
+      <path className="t-tail" d="M82 71 C102 66 101 51 91 49" />
+      <g className="t-ears"><path d="M28 32 Q19 12 39 25 Z" /><path d="M61 25 Q81 12 72 32 Z" /></g>
       <path className="t-body" d="M50 22 C74 22 88 40 88 62 C88 84 72 96 50 96 C28 96 12 84 12 62 C12 40 26 22 50 22 Z" />
+      <g className="t-face">
       <ellipse className="t-cheek" cx="27" cy="70" rx="6" ry="4" />
       <ellipse className="t-cheek" cx="73" cy="70" rx="6" ry="4" />
       <ellipse className="t-eye" cx="36" cy="54" rx="11" ry="13" />
@@ -382,13 +512,13 @@ export default function Tenant({ mood, targets, approachKey, rollKey, hourKey, n
         <circle className="t-pupil" cx="37" cy="56" r="5.5" />
         <circle className="t-pupil" cx="65" cy="56" r="5.5" />
       </g>
-      <rect className="t-lid" x="24" y="40" width="24" height="28" rx="11" />
-      <rect className="t-lid" x="52" y="40" width="24" height="28" rx="11" />
+      <g clipPath="url(#tenant-eye-mask)"><rect className="t-lid" x="24" y="40" width="24" height="28" rx="11" /><rect className="t-lid" x="52" y="40" width="24" height="28" rx="11" /></g>
       <path className="t-mouth" d="M43 75 Q50 79 57 75" />
       <g className="t-shades"><rect x="23" y="46" width="26" height="14" rx="5" /><rect x="51" y="46" width="26" height="14" rx="5" /><rect x="47" y="51" width="6" height="3" /></g>
+      <ellipse className="t-sweat" cx="80" cy="44" rx="3" ry="4.5" />
+      </g>
       <g className="t-scarf"><path d="M18 78 C30 90 70 90 82 78 C70 84 30 84 18 78 Z" /><path d="M72 82 L80 98 L70 96 Z" /></g>
       <g className="t-umbrella"><path className="t-canopy" d="M8 40 Q50 -4 92 40 Z" /><path className="t-canopy-rib" d="M8 40 Q29 30 50 40 Q71 30 92 40" /><rect className="t-handle" x="49" y="38" width="2.5" height="24" /></g>
-      <ellipse className="t-sweat" cx="80" cy="44" rx="3" ry="4.5" />
       </g>
       </g>
       </g>

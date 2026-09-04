@@ -8,6 +8,8 @@ import Clock from '@/components/clock';
 import KeepAwake from '@/components/keep-awake';
 import type { Conditions } from '@/lib/clock-wardrobe';
 import { debugFlags, pinnedNow } from '@/lib/debug-flags';
+import type { Rotation } from '@/lib/panel-rotation';
+import type { WorldSpotId } from '@/lib/clock-tenant';
 
 export default function Home() {
   const [now, setNow] = useState<Date | null>(null);
@@ -15,10 +17,13 @@ export default function Home() {
   // so the clock's wardrobe and its Tenant can react to the sky without a
   // second fetch.
   const [conditions, setConditions] = useState<Conditions | null>(null);
+  const [activeScene, setActiveScene] = useState<Rotation['phase']>('transport');
+  const [petPreview] = useState<WorldSpotId | null>(() => typeof window === 'undefined' ? null : debugFlags(window.location.search).pet);
 
   useEffect(() => {
     // Debug: `?time=HH:MM` pins the clock to a Copenhagen time. See lib/debug-flags.ts.
-    const pinned = debugFlags(window.location.search).time;
+    const flags = debugFlags(window.location.search);
+    const pinned = flags.time;
     const tick = () => setNow(pinnedNow(pinned, new Date()));
     const start = window.setTimeout(tick, 0);
     const clock = window.setInterval(tick, 1000);
@@ -37,11 +42,11 @@ export default function Home() {
     <main className="dashboard">
       <KeepAwake />
       <aside className="display-shell" aria-label="Clock and weather">
-        <Clock now={now} conditions={conditions} />
+        <Clock now={now} conditions={conditions} activeScene={activeScene} petPreview={petPreview} />
         <WeatherPanel now={now} onConditions={setConditions} />
         <WeekStrip now={now} />
       </aside>
-      <RotatingPanel />
+      <RotatingPanel onSceneChange={setActiveScene} />
     </main>
   );
 }

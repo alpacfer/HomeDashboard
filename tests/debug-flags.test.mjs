@@ -21,6 +21,15 @@ test('the clock can be pinned to a Copenhagen time, and only to one that exists'
   assert.equal(debugFlags('?time=now').time, null);
 });
 
+test('the pet can be pinned only to a known dashboard landmark', () => {
+  assert.equal(debugFlags('').pet, null);
+  for (const spot of ['weather', 'week', 'transport', 'fact', 'map']) {
+    assert.equal(debugFlags('?pet=' + spot).pet, spot);
+  }
+  assert.equal(debugFlags('?pet=clock').pet, null);
+  assert.equal(debugFlags('?pet=MAP').pet, null);
+});
+
 test('a pinned time shifts now by whole hours and minutes and keeps the seconds', () => {
   // 19:14:47 UTC is 21:14:47 in Copenhagen on this date.
   const now = new Date(Date.UTC(2026, 8, 3, 19, 14, 47));

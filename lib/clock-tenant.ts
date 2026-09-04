@@ -25,18 +25,29 @@ export function tenantMood({ hour, temperature, wet }: MoodContext): Mood {
 // animate an inner group so they compose with whatever the pose is doing.
 export type IdleAction =
   | 'blink' | 'double-blink' | 'glance-digits' | 'glance-up' | 'look-around' | 'smile'
-  | 'stretch' | 'wiggle' | 'lean' | 'yawn' | 'hop';
+  | 'stretch' | 'wiggle' | 'lean' | 'yawn' | 'hop' | 'scratch' | 'sneeze' | 'wave' | 'doze' | 'listen';
 
 const IDLE_WEIGHTS: [IdleAction, number][] = [
-  ['blink', 34], ['double-blink', 10], ['glance-digits', 12], ['glance-up', 6], ['look-around', 8],
-  ['smile', 8], ['stretch', 5], ['wiggle', 5], ['lean', 6], ['yawn', 3], ['hop', 3],
+  ['blink', 28], ['double-blink', 8], ['glance-digits', 10], ['glance-up', 5], ['look-around', 8],
+  ['smile', 7], ['stretch', 5], ['wiggle', 4], ['lean', 5], ['yawn', 3], ['hop', 3],
+  ['scratch', 5], ['sneeze', 2], ['wave', 3], ['doze', 2], ['listen', 2],
 ];
 
-const BODY_GESTURES: IdleAction[] = ['stretch', 'wiggle', 'lean', 'hop'];
+const BODY_GESTURES: IdleAction[] = ['stretch', 'wiggle', 'lean', 'hop', 'scratch', 'sneeze', 'wave', 'doze'];
 
 // While perched the body is busy balancing or pacing, so only the face plays.
-export function pickIdle(random: number, perched = false): IdleAction {
-  return weighted(perched ? IDLE_WEIGHTS.filter(([action]) => !BODY_GESTURES.includes(action)) : IDLE_WEIGHTS, random);
+// At rest, recent special gestures are strongly suppressed and energy changes
+// the style of idling. Blinks may repeat because real blinking does; a sneeze
+// or wave should remain a surprise.
+export function pickIdle(random: number, perched = false, recent: readonly IdleAction[] = [], energy = 0.7): IdleAction {
+  const table = (perched ? IDLE_WEIGHTS.filter(([action]) => !BODY_GESTURES.includes(action)) : IDLE_WEIGHTS).map(([action, base]) => {
+    let weight = base;
+    if (energy < 0.4 && (action === 'yawn' || action === 'doze' || action === 'stretch')) weight *= 2;
+    if (energy < 0.4 && (action === 'hop' || action === 'wiggle' || action === 'wave')) weight *= 0.25;
+    if (action !== 'blink' && recent.includes(action)) weight *= 0.08;
+    return [action, weight] as [IdleAction, number];
+  });
+  return weighted(table, random);
 }
 
 // The shape of the top of a glyph, which decides how the Tenant stands on it:
@@ -94,13 +105,6 @@ function weighted<T>(table: [T, number][], random: number): T {
   return table[0][0];
 }
 
-// Blinks and glances every 3 to 8 seconds; a climb somewhere every 25 to 45.
-export function idleDelay(random: number): number {
-  return Math.round(3000 + clamp01(random) * 5000);
-}
-export function climbDelay(random: number): number {
-  return Math.round(25000 + clamp01(random) * 20000);
-}
 // How long it stays up before coming down: 6 to 14 seconds on a digit, less
 // on the colon's dot, which is hard work.
 export function perchDuration(random: number, kind: TopKind = 'flat'): number {
@@ -280,7 +284,34 @@ export type Targets = {
   // Where the Tenant rests: bottom on the digits' baseline, just right of the
   // last cell. In the block's coordinates.
   rest: { left: number; top: number };
+  // Safe edges elsewhere in the dashboard. They are measured only when the
+  // layout or active panel changes, then crossed with compositor transforms.
+  world: WorldSpot[];
 };
+
+export type WorldSpotId = 'weather' | 'week' | 'transport' | 'fact' | 'map';
+export type WorldSpot = { id: WorldSpotId; x: number; y: number; look: 1 | -1 };
+
+// Turn a UI surface into the translation that puts the Tenant's feet on its
+// top or bottom edge. All boxes share viewport coordinates; `rest` is local to
+// the clock block, which is why the origin is removed as well.
+export function worldSpotTarget(id: WorldSpotId, surface: Box, origin: Box, rest: Targets['rest'], size: number,
+  align = 0.5, edge: 'top' | 'bottom' = 'top'): WorldSpot {
+  const safeAlign = Math.min(1, Math.max(0, Number.isFinite(align) ? align : 0.5));
+  const landingLeft = surface.left + safeAlign * Math.max(0, surface.right - surface.left - size);
+  const landingBottom = edge === 'bottom' ? surface.bottom : surface.top;
+  return {
+    id,
+    x: round(landingLeft - origin.left - rest.left),
+    y: round(landingBottom - origin.top - size - rest.top),
+    look: safeAlign >= 0.5 ? -1 : 1,
+  };
+}
+
+export function worldTravelDuration(spot: Pick<WorldSpot, 'x' | 'y'>): number {
+  const distance = Math.hypot(spot.x, spot.y);
+  return Math.round(Math.min(4300, Math.max(1900, 1500 + distance * 3.2)));
+}
 
 const STANCE = 0.42; // feet span as a fraction of the Tenant's width
 
@@ -308,6 +339,7 @@ export function tenantTargets(ink: Box[], lastCell: Box, size: number, gap: numb
     pushX: round(last.right + overlap * size - restBox.left),
     perch,
     rest: { left: round(rest.left), top: round(rest.top) },
+    world: [],
   };
 }
 

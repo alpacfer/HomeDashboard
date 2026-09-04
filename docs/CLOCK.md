@@ -116,9 +116,27 @@ colon's top dot is measured too and is the fifth perch, a **ball**. That is why
 it stands on the stem of a "1" rather than over its flag, and shoves the edge
 of a "7" rather than the edge of the cell.
 
-**Behaviour.** Idle, it blinks, glances, looks around, smiles, stretches,
-wiggles, leans towards the digits, yawns and hops every 3 to 8 seconds
-(`pickIdle`). 1.6 s before the minute boundary (`shouldApproach`) it walks over
+**Behaviour.** One sparse decision loop advances a tiny set of drives—energy,
+curiosity, adventure and interest in the current panel—and chooses between
+waiting, a gesture, climbing and exploring (`lib/pet-behavior.ts`). It remembers
+its recent activities, so expressive actions do not repeat like a playlist and
+an adventure must build up before another can happen. Idle gestures include
+natural and double blinks, layered eye/head glances, smiling, stretching,
+wiggling, leaning, yawning, hopping, scratching, sneezing, waving, dozing and
+listening. The cadence varies with energy rather than following independent
+metronomes.
+
+The Tenant is no longer confined to the clock. `Clock` measures five safe
+landmarks using their real DOM boxes: the weather card, a day in the week strip,
+the active transport board, the daily-fact illustration and the forecast map.
+A scene change raises interest in its new landmark; on some later decision the
+Tenant crosses the dashboard in several planted bounds, then reacts to what it
+finds—reading the week, waiting at departures, admiring a fact or tracking the
+map. If that scene rotates away, it turns around from its actual current
+position and comes home. The weather itself also prompts a sneeze, drowsy slump,
+listening pose or wiggle when the mood changes.
+
+1.6 s before the minute boundary (`shouldApproach`) it walks over
 to the last digit, feet stepping and body bobbing, and holds a ready pose; when
 the roll actually arrives, which the one-second tick can deliver up to a second
 late, it strikes (`pickStrike`: a shove, a kick with the front foot, or a
@@ -166,11 +184,12 @@ set piece runs, and the Tenant is not rendered. Outfits still change, instantly.
 ## Checking it
 
 Everything about *which* and *when* is in `lib/` and covered by
-`tests/clock-wardrobe.test.mjs`, `tests/clock-events.test.mjs` and
-`tests/clock-tenant.test.mjs`, including the top-shape classifier, which is
+`tests/clock-wardrobe.test.mjs`, `tests/clock-events.test.mjs`,
+`tests/clock-tenant.test.mjs` and `tests/pet-behavior.test.mjs`, including the top-shape classifier, which is
 tested against the measured column tops of the Grotesk digits. To watch a piece
 without waiting for its timer, add the class by hand in DevTools (`sp-domino`,
 `o-neon`) on `.clock-block`; the CSS is the whole choreography. The Tenant's
 poses are classes on `.tenant` in the same way (`pose-perched on-round
 pa-slip`, `pose-strike s-kick`), positioned by the custom properties the
-component sets on it.
+component sets on it. Add `?pet=weather`, `week`, `transport`, `fact` or `map`
+to hold it at a measured dashboard landmark for a reproducible visual check.

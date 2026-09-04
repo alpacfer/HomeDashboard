@@ -18,6 +18,8 @@
 //                          is not about the weather (see docs/DEBUGGING.md).
 //   --time <HH:MM>         Add ?time=: pin the clock to a Copenhagen time, so
 //                          an outfit can be checked against chosen digits.
+//   --pet <spot>           Add ?pet=: hold the Tenant at weather, week,
+//                          transport, fact or map for a deterministic check.
 //   --transit-demo         Add ?transit=demo: the departure boards are drawn
 //                          from a synthetic answer holding a cancellation, a
 //                          long delay, an early departure, a platform change
@@ -70,6 +72,7 @@ function parseArgs(argv) {
       case '--demo': options.demo = true; break;
       case '--transit-demo': options.transitDemo = true; break;
       case '--time': options.time = value(); break;
+      case '--pet': options.pet = value(); break;
       case '--narrow': options.narrow = true; break;
       case '--width': options.width = Number(value()); break;
       case '--height': options.height = Number(value()); break;
@@ -98,6 +101,7 @@ function defaultName(options) {
   if (options.offline && !options.demo) parts.push('offline');
   if (options.demo) parts.push('demo');
   if (options.transitDemo) parts.push('transit-demo');
+  if (options.pet) parts.push('pet-' + options.pet);
   return parts.join('-') + '.png';
 }
 

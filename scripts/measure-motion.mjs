@@ -16,6 +16,7 @@
 //   --offline              ?weather=off: no provider request at all.
 //   --transit-demo         ?transit=demo: synthetic departure boards.
 //   --time <HH:MM>         Pin the clock to a Copenhagen time.
+//   --pet <spot>           Hold the Tenant at a dashboard landmark.
 //   --url <url>            Page to load. Default http://127.0.0.1:3000/
 //   --fact <n>             Which daily fact, with --scene fact.
 //   --selector <css>       Canvas to watch. Default .forecast-map-overlay
@@ -69,6 +70,7 @@ function parseArgs(argv) {
       case '--demo': options.demo = true; break;
       case '--transit-demo': options.transitDemo = true; break;
       case '--time': options.time = value(); break;
+      case '--pet': options.pet = value(); break;
       case '--selector': options.selector = value(); break;
       case '--seconds': options.seconds = Number(value()); break;
       case '--samples': options.samples = Number(value()); break;

@@ -10,6 +10,7 @@ It is deployed to a Render free-plan web service and viewed in the Silk browser 
 | --- | --- | --- |
 | `/` | `app/page.tsx` | Owns the one-second clock tick and composes the display: clock, `WeatherPanel`, `WeekStrip`, and the rotating right-hand panel. |
 | `/?scene=map` | `lib/panel-rotation.ts`, `components/rotating-panel.tsx` | Debug mode. Pins the rotating panel to `transport`, `fact` (with `&fact=N`) or `map` and schedules nothing. Unrecognised values are ignored. See the README. |
+| `/?pet=map` | `lib/debug-flags.ts`, `components/clock.tsx`, `components/tenant.tsx` | Debug mode. Holds the Tenant at a measured weather, week, transport, fact or map landmark for deterministic visual checks. Unknown values are ignored. |
 | `/?weather=off` | `lib/debug-flags.ts` | Debug mode. No weather, week or forecast-map request is made, so a capture spends no provider quota. See [DEBUGGING.md](DEBUGGING.md). |
 | `/api/departures` | `app/api/departures/route.ts` | Server-side departure lookup: Rejseplanen when an access ID is set, Transitous otherwise or on failure, then normalization, filtering, and a two-minute public-result cache. |
 | `/facts/daily/MM-DD.json` | `public/facts/daily/` | Static date-keyed facts loaded by the browser for the Copenhagen calendar date. |

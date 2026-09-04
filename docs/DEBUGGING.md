@@ -16,13 +16,14 @@ npm run check:rules           the AGENTS.md rules a script can check
 /?weather=off                 make no weather request at all
 /?weather=demo                as off, but the map draws a synthetic run
 /?time=08:46                  pin the clock to a Copenhagen time
+/?pet=map                     hold the Tenant at a measured UI landmark
 ```
 
 ## URL flags
 
 Every flag defaults to normal behaviour when absent or misspelt, so a bad URL
 can never leave the wall display stuck. They combine:
-`/?scene=map&weather=off&time=08:46`.
+`/?scene=map&weather=demo&time=08:46&pet=map`.
 
 | Flag | Effect | Parsed in |
 | --- | --- | --- |
@@ -31,6 +32,7 @@ can never leave the wall display stuck. They combine:
 | `?weather=off` | The weather card, the week strip and the forecast map make **no request**. The card shows its unavailable state. The clock, the transit strip and the daily facts work as normal. | `lib/debug-flags.ts` |
 | `?weather=demo` | Makes no request either, but the forecast map draws the synthetic run in `lib/precipitation-demo.ts`: a band crossing the frame, hour by hour with the quarters inside an hour identical, exactly the shape the real provider returns. It is the only way to photograph the map's animation without buying a grid, and it is deterministic, so two captures of the same change are comparable. | `lib/debug-flags.ts` |
 | `?time=HH:MM` | The clock reads that Copenhagen time; seconds still tick, so the minute still rolls. Everything that reads the clock follows: the wardrobe, the Tenant's mood, the ribbon's window. For checking an outfit against chosen digits, since a face that clips on a 4 looks fine at 21:21. | `lib/debug-flags.ts` |
+| `?pet=weather`, `week`, `transport`, `fact`, `map` | Holds the Tenant at that measured UI landmark. This checks its destination poses without waiting for curiosity to select an adventure; normal travel is unchanged when the flag is absent. | `lib/debug-flags.ts` |
 
 Use `weather=off` for any capture that is not about the weather, and
 `weather=demo` for one that is about the forecast map. The reason is quota,
@@ -106,6 +108,7 @@ npm run shot -- --clip .weather-band --scale 2          # one element, at 2x
 npm run shot -- --offline --time 08:46 --clip .clock-block --class ".clock-block=clock-block o-neon"
 npm run shot -- --offline --clip .clock-block --class ".clock-block=clock-block o-neon sp-domino" --freeze 800
 npm run shot -- --reduced-motion --clip .display-shell
+npm run shot -- --scene map --demo --pet map
 npm run shot -- --console                               # print what the page logged
 ```
 

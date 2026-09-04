@@ -29,11 +29,17 @@
 //                  screenshot is taken, and a face that clips on a 4 looks
 //                  fine at 21:21. Everything that reads the clock follows:
 //                  the wardrobe, the Tenant's mood and the ribbon's window.
+//   ?pet=<spot>    Holds the Tenant at weather, week, transport, fact or map.
+//                  This makes its full-dashboard poses reproducible for visual
+//                  checks without changing normal behaviour or waiting for a
+//                  curiosity decision.
+
+import type { WorldSpotId } from './clock-tenant';
 
 export type PinnedTime = { hour: number; minute: number };
 export type Weather = 'live' | 'off' | 'demo';
 export type Transit = 'live' | 'demo';
-export type DebugFlags = { weather: Weather; transit: Transit; time: PinnedTime | null };
+export type DebugFlags = { weather: Weather; transit: Transit; time: PinnedTime | null; pet: WorldSpotId | null };
 
 export function debugFlags(search: string): DebugFlags {
   const params = new URLSearchParams(search);
@@ -42,7 +48,12 @@ export function debugFlags(search: string): DebugFlags {
     weather: weather === 'off' || weather === 'demo' ? weather : 'live',
     transit: params.get('transit') === 'demo' ? 'demo' : 'live',
     time: parseTime(params.get('time')),
+    pet: parsePet(params.get('pet')),
   };
+}
+
+function parsePet(value: string | null): WorldSpotId | null {
+  return value === 'weather' || value === 'week' || value === 'transport' || value === 'fact' || value === 'map' ? value : null;
 }
 
 function parseTime(value: string | null): PinnedTime | null {

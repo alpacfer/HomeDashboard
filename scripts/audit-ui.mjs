@@ -30,7 +30,7 @@
 //                          large text is held to 3, as WCAG does.
 //   --all                  Report notes as well as warnings and errors.
 //   --url <url>            Page to audit. Default http://127.0.0.1:3000/
-//   --scene, --fact, --offline, --demo, --transit-demo, --time
+//   --scene, --fact, --offline, --demo, --transit-demo, --time, --pet
 //                          The usual debug flags, applied to a one-off audit
 //                          instead of the matrix. See scripts/lib/browser.mjs.
 //   --narrow               720 x 900, the max-aspect-ratio: 5/4 layout.
@@ -100,6 +100,7 @@ function parseArgs(argv) {
       case '--demo': options.demo = true; break;
       case '--transit-demo': options.transitDemo = true; break;
       case '--time': options.time = value(); break;
+      case '--pet': options.pet = value(); break;
       case '--narrow': options.narrow = true; break;
       case '--width': options.width = Number(value()); break;
       case '--height': options.height = Number(value()); break;
