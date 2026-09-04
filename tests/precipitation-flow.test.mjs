@@ -2,7 +2,7 @@ import { test } from 'node:test';
 import assert from 'node:assert/strict';
 import {
   advectedCells, distinctStates, estimateFlow, estimateFlows, flowLimit, MAX_FLOW_KMH, MIN_DRAW_MS, momentAt,
-  sequenceProgress, steadyFlows,
+  sequencePosition, steadyFlows,
 } from '../lib/precipitation-flow.ts';
 import { DEFAULT_GRID, displayFrames, precipitationColour, SEQUENCE_LOOPS } from '../lib/precipitation-grid.ts';
 import { demoGrid } from '../lib/precipitation-demo.ts';
@@ -192,19 +192,43 @@ test('a genuine turn survives, and too few to vote on are untouched', () => {
   assert.deepEqual(steadyFlows([]), []);
 });
 
-test('the position through the sequence is read from the clock, and wraps', () => {
+test('the position through the sequence is read from the clock, and each pass wraps', () => {
   const pass = MAP_MS / SEQUENCE_LOOPS;
-  assert.equal(sequenceProgress(0, MAP_MS, SEQUENCE_LOOPS), 0);
-  assert.equal(sequenceProgress(pass / 4, MAP_MS, SEQUENCE_LOOPS), 0.25);
-  // The sequence lands exactly SEQUENCE_LOOPS times inside the scene.
-  assert.equal(sequenceProgress(pass, MAP_MS, SEQUENCE_LOOPS), 0);
-  assert.equal(sequenceProgress(MAP_MS, MAP_MS, SEQUENCE_LOOPS), 0);
-  assert.equal(sequenceProgress(pass * 1.5, MAP_MS, SEQUENCE_LOOPS), 0.5);
+  const at = elapsed => sequencePosition(elapsed, MAP_MS, SEQUENCE_LOOPS);
+  assert.deepEqual(at(0), { progress: 0, done: false });
+  assert.deepEqual(at(pass / 4), { progress: 0.25, done: false });
+  // The second pass starts over at the beginning of the forecast.
+  assert.deepEqual(at(pass), { progress: 0, done: false });
+  assert.deepEqual(at(pass * 1.5), { progress: 0.5, done: false });
   // A frame that arrives late lands where it belongs rather than behind, which
   // is the whole reason this is a function of elapsed time and not a counter.
-  assert.equal(sequenceProgress(pass * 3.75, MAP_MS, SEQUENCE_LOOPS), 0.75);
-  assert.equal(sequenceProgress(-5, MAP_MS, SEQUENCE_LOOPS), 0);
-  assert.equal(sequenceProgress(1000, 0, SEQUENCE_LOOPS), 0);
+  assert.deepEqual(at(pass * 1.75), { progress: 0.75, done: false });
+  assert.deepEqual(at(-5), { progress: 0, done: false });
+  assert.deepEqual(sequencePosition(1000, 0, SEQUENCE_LOOPS), { progress: 0, done: true });
+});
+
+test('the sequence plays exactly twice and then holds its last moment', () => {
+  const at = elapsed => sequencePosition(elapsed, MAP_MS, SEQUENCE_LOOPS);
+  // Not done a hair before the end of the second pass, done at it, and still
+  // done long after: a scene that lingers must not set off on a third pass.
+  assert.equal(at(MAP_MS - 1).done, false);
+  assert.deepEqual(at(MAP_MS), { progress: 1, done: true });
+  assert.deepEqual(at(MAP_MS * 4), { progress: 1, done: true });
+  // Done means the end of the forecast is what stands on screen, not a wrap
+  // back to its beginning.
+  assert.equal(at(MAP_MS).progress, 1);
+  // A pass is the scene budget divided by the loop count, so however many
+  // loops are asked for they finish together at the end of the scene. What the
+  // count changes is how often the sequence starts over inside it.
+  for (const loops of [1, 2, 3]) {
+    assert.equal(sequencePosition(MAP_MS - 1, MAP_MS, loops).done, false, loops + ' loops');
+    assert.equal(sequencePosition(MAP_MS, MAP_MS, loops).done, true, loops + ' loops');
+  }
+  // Halfway through the scene: one pass is half done, two passes have just
+  // started the second, three are halfway through the second.
+  assert.equal(sequencePosition(MAP_MS / 2, MAP_MS, 1).progress, 0.5);
+  assert.equal(sequencePosition(MAP_MS / 2, MAP_MS, 2).progress, 0);
+  assert.equal(sequencePosition(MAP_MS / 2, MAP_MS, 3).progress, 0.5);
 });
 
 test('a position through the sequence names a forecast moment inside the span', () => {
@@ -243,7 +267,8 @@ test('what the map draws over a whole pass reads as motion, not as flicker', () 
 
   const painted = [];
   for (let elapsed = 0; elapsed < pass; elapsed += MIN_DRAW_MS) {
-    const at = momentAt(frames[0].timestamp, frames[0].timestamp + span, sequenceProgress(elapsed, MAP_MS, SEQUENCE_LOOPS));
+    const { progress } = sequencePosition(elapsed, MAP_MS, SEQUENCE_LOOPS);
+    const at = momentAt(frames[0].timestamp, frames[0].timestamp + span, progress);
     painted.push(advectedCells(states, flows, grid.columns, grid.rows, at).map(precipitationColour));
   }
   assert.ok(painted.length > 100, 'a pass should draw many moments, got ' + painted.length);

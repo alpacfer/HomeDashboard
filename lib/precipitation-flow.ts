@@ -224,14 +224,28 @@ export const MIN_DRAW_MS = 40;
 export const PLAYHEAD_MS = 200;
 
 // How far through the sequence the scene has got, from how long it has been on
-// screen. Read from the clock rather than counted in ticks, so a frame that
-// arrives late lands where it belongs instead of behind: a counter driven by
-// an interval bunches up whenever the page is busy, and bunched frames are
-// what not being smooth looks like.
-export function sequenceProgress(elapsedMs: number, sceneMs: number, loops = SEQUENCE_LOOPS) {
-  const pass = sceneMs / Math.max(1, loops);
-  if (!(pass > 0) || !(elapsedMs > 0)) return 0;
-  return (elapsedMs % pass) / pass;
+// screen, and whether it has played its allotted passes.
+//
+// Read from the clock rather than counted in ticks, so a frame that arrives
+// late lands where it belongs instead of behind: a counter driven by an
+// interval bunches up whenever the page is busy, and bunched frames are what
+// not being smooth looks like.
+//
+// `progress` runs 0 to 1 inside each pass. After the last one it holds at 1
+// and `done` is set, so the sequence plays exactly `loops` times and then
+// stands on its final moment rather than starting a third. The scene is on
+// screen for exactly `sceneMs`, so on the display the two coincide; the
+// counting is what makes it true anyway when the scene lingers, which it does
+// under the `?scene=map` pin.
+export type SequencePosition = { progress: number; done: boolean };
+
+export function sequencePosition(elapsedMs: number, sceneMs: number, loops = SEQUENCE_LOOPS): SequencePosition {
+  const passes = Math.max(1, loops);
+  const pass = sceneMs / passes;
+  if (!(pass > 0)) return { progress: 0, done: true };
+  if (!(elapsedMs > 0)) return { progress: 0, done: false };
+  if (elapsedMs >= pass * passes) return { progress: 1, done: true };
+  return { progress: (elapsedMs % pass) / pass, done: false };
 }
 
 // The forecast moment a position through the sequence stands for.

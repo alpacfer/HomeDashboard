@@ -8,7 +8,7 @@ import {
   validPrecipitationGrid, type MapBounds, type PrecipitationGrid,
 } from '@/lib/precipitation-grid';
 import {
-  advectedCells, distinctStates, estimateFlows, MIN_DRAW_MS, momentAt, PLAYHEAD_MS, sequenceProgress, steadyFlows,
+  advectedCells, distinctStates, estimateFlows, MIN_DRAW_MS, momentAt, PLAYHEAD_MS, sequencePosition, steadyFlows,
 } from '@/lib/precipitation-flow';
 import { demoGrid } from '@/lib/precipitation-demo';
 import { CHECK_RETRY_MS, MODEL_META_URL, nextCheckAt, parseModelRun, shouldFetchGrid, type ModelRun } from '@/lib/forecast-refresh';
@@ -58,10 +58,17 @@ export default function ForecastMapPanel({ active }: { active: boolean }) {
   // painted from the clock many times a second; this is only what the playhead
   // and its label are drawn from, and is set far more slowly.
   const [progress, setProgress] = useState(0);
-  // The same position, kept across a restart of the loop. The displayed window
-  // shifts as frames expire, which rebuilds the loop; without this the
-  // animation would jump back to the start each time it did.
-  const phase = useRef(0);
+  // How much of this appearance has already been played, in milliseconds, and
+  // whether the scene was on screen the last time the loop was built.
+  //
+  // Together they decide where the animation starts. The scene coming round is
+  // the one thing that restarts it: the map is meant to be read from the
+  // beginning of the forecast, not joined halfway through. But the loop is
+  // also rebuilt while the scene stays on screen, whenever the displayed
+  // window shifts as frames expire, and that must not restart anything or the
+  // sequence would jump back to its beginning at random.
+  const played = useRef(0);
+  const wasActive = useRef(false);
   const [status, setStatus] = useState<MapStatus>('loading');
   const [nowMs, setNowMs] = useState(0);
 
@@ -364,25 +371,42 @@ export default function ForecastMapPanel({ active }: { active: boolean }) {
     };
     // Off screen, or with nothing to travel over, one still picture is all
     // there is to draw and there is no reason to keep a loop running for it.
+    // Leaving the scene arms the restart, so the next appearance begins at the
+    // first forecast moment however far this one got.
     if (!active || !(spanEnd > spanStart)) {
+      wasActive.current = false;
+      played.current = 0;
       paint(spanStart || states[0].timestamp);
       return;
     }
-    const pass = MAP_MS / SEQUENCE_LOOPS;
-    const began = performance.now() - phase.current * pass;
+    // The scene has just come round rather than the loop being rebuilt under
+    // it: play from the beginning. The playhead follows on the loop's first
+    // paint, one animation frame from here, rather than being set from the
+    // effect body, which would cost a cascading render on every appearance.
+    if (!wasActive.current) played.current = 0;
+    wasActive.current = true;
+    const began = performance.now() - played.current;
     let painted = -Infinity;
     let told = -Infinity;
     let frame = 0;
     const tick = (now: number) => {
+      if (now - painted >= MIN_DRAW_MS) {
+        painted = now;
+        played.current = now - began;
+        const { progress: at, done } = sequencePosition(played.current, MAP_MS, SEQUENCE_LOOPS);
+        paint(momentAt(spanStart, spanEnd, at));
+        // Both passes are played: hold the last moment rather than setting off
+        // again. Nothing schedules another frame from here.
+        if (done) {
+          setProgress(at);
+          return;
+        }
+        if (now - told >= PLAYHEAD_MS) {
+          told = now;
+          setProgress(at);
+        }
+      }
       frame = window.requestAnimationFrame(tick);
-      if (now - painted < MIN_DRAW_MS) return;
-      painted = now;
-      const at = sequenceProgress(now - began, MAP_MS, SEQUENCE_LOOPS);
-      phase.current = at;
-      paint(momentAt(spanStart, spanEnd, at));
-      if (now - told < PLAYHEAD_MS) return;
-      told = now;
-      setProgress(at);
     };
     frame = window.requestAnimationFrame(tick);
     return () => window.cancelAnimationFrame(frame);

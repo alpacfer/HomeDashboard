@@ -320,10 +320,16 @@ export function displayFrames(grid: PrecipitationGrid, now: number) {
   return futureFrames(grid, now).slice(0, GRID_STEPS);
 }
 
-// The sequence plays this many times while the scene is on screen. What is
-// drawn is no longer tied to the frames: the animation reads its position from
-// the clock and draws whatever moment that is (lib/precipitation-flow.ts), so
-// the sequence lands exactly twice however many frames are left.
+// The sequence plays this many times while the scene is on screen, and then
+// holds its last moment rather than starting again. What is drawn is not tied
+// to the frames: the animation reads its position from the clock and draws
+// whatever moment that is (lib/precipitation-flow.ts), so the sequence lands
+// exactly twice however many frames are left.
+//
+// Each appearance starts at the beginning of the forecast. The map is there to
+// be read forwards from now, and joining it halfway through — which is what
+// resuming where the last appearance left off did — means the first thing seen
+// is the middle of the afternoon with no idea how the rain got there.
 export const SEQUENCE_LOOPS = 2;
 
 // The animation is easier to place with a timeline than with a caption. A

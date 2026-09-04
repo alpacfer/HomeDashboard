@@ -205,8 +205,13 @@ async function main() {
     console.log(bar('change per sample', measured.meanChange.toFixed(2) + ' of 255 mean, ' + measured.worstChange.toFixed(0) + ' worst'));
     console.log(bar('reversals per pixel', measured.reversalsPerPixel.toFixed(2)));
     console.log('');
-    const flickering = measured.reversalsPerPixel > FLICKER_REVERSALS;
-    console.log(flickering
+    // With nothing painted there is nothing to judge, and a verdict on an
+    // empty measurement reads as a pass when it is really a no-op.
+    const flickering = measured.paints > 1 && measured.reversalsPerPixel > FLICKER_REVERSALS;
+    console.log(measured.paints < 2
+      ? '  Nothing was drawn, so there is nothing to judge. Either the scene has\n'
+        + '  finished its passes, or nothing on it moves.'
+      : flickering
       ? '  FLICKER. A pixel changing direction this often is a value sitting on a\n'
         + '  threshold and twitching across it, not something crossing the frame.'
       : '  Reads as motion. One thing arriving and leaving scores about 1; over '
