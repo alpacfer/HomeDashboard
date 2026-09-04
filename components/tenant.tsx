@@ -3,12 +3,10 @@
 // The Tenant: the small character beside the minutes. See lib/clock-tenant.ts
 // for the rules; this file only owns its timers and its SVG.
 //
-// Locomotion is CSS transitions on transform, not keyframes, wherever a move
-// can be interrupted: a transition always continues from wherever the Tenant
-// is, so an approach cut short by a late roll never jumps. Keyframes are used
-// only for self-contained gestures (the hour jump, the climb, the descents)
-// whose keyframes begin and end at the pose the surrounding classes already
-// describe.
+// Voluntary locomotion is always a jump: charge on a measured landing pad,
+// follow one parabolic arc, land, and either settle or charge the next hop.
+// The route itself is pure logic in lib/clock-tenant.ts; this component only
+// advances its timers. Falls and slides remain separate involuntary motions.
 //
 // The SVG is layered so that animations compose instead of fighting:
 //   .tenant    the positioned element: poses (transitions and locomotion keyframes)
@@ -21,8 +19,8 @@
 import { useEffect, useRef, useState, type CSSProperties } from 'react';
 import {
   APPROACH_TIMEOUT_MS, DOTS_SPOT, msToNextMinute, perchDuration, perchIdleDelay, pickDescent,
-  pickHourAction, pickIdle, pickPerch, pickPerchAction, pickStrike, worldTravelDuration,
-  type Descent, type HourAction, type IdleAction, type Mood, type Perch, type PerchAction, type Strike, type Targets, type WorldSpot,
+  pickHourAction, pickIdle, pickPerch, pickPerchAction, pickStrike, tenantHopArc, tenantTravelRoute,
+  type Descent, type HopArc, type HourAction, type IdleAction, type Mood, type Perch, type PerchAction, type Strike, type Targets, type TravelPoint, type WorldSpot,
 } from '@/lib/clock-tenant';
 import {
   advancePetMind, choosePetActivity, commitPetActivity, initialPetMind, noticePetScene, petDecisionDelay,
@@ -35,6 +33,9 @@ export type TenantProps = {
   activeScene: Rotation['phase'];
   // Debug-only visual pin. Normal behavior leaves this null.
   previewSpot?: WorldSpot['id'] | null;
+  // Debug-only deterministic journey. It takes the real safe-spot route and
+  // then holds the destination so sequences can capture the full movement.
+  travelSpot?: WorldSpot['id'] | null;
   // The minute stamp of the tick about 1.6 s before the roll, or null: walk
   // over and get ready. Changes once per minute.
   approachKey: number | null;
@@ -57,7 +58,7 @@ export type TenantProps = {
 };
 
 type Pose = 'rest' | 'approach' | 'strike' | 'walk-home' | 'climbing' | 'perched' | 'descending' | 'falling' | 'sprawled'
-  | 'jump' | 'hops' | 'roaming' | 'visiting' | 'roam-home';
+  | 'jump' | 'hops' | 'charging' | 'jumping' | 'visiting';
 
 const GESTURE_MS: Record<IdleAction, number> = {
   blink: 270, 'double-blink': 620, 'glance-digits': 1600, 'glance-up': 1600, 'look-around': 1900, smile: 1800,
@@ -70,6 +71,7 @@ const HOUR_MS: Record<HourAction, number> = { jump: 1500, hops: 1600 };
 const CLIMB_MS = 1700;
 const STRIKE_MS = 700;
 const WALK_MS = 1100;
+const CHARGE_MS = 220;
 const WATCH_MS = 1400;
 // The digit rolls out from under it: the fall, then a dazed moment on the
 // ground before it gets up and walks home.
@@ -79,14 +81,16 @@ const SPRAWL_MS = 800;
 const FALLBACK_PERCH: Perch = { x: 0, y: 0, kind: 'flat', pace: 0, slide: 1 };
 type TenantActions = {
   walkHome: () => void;
-  roamHome: () => void;
+  roamHome: (stableOnly?: boolean) => void;
   startClimb: () => void;
   roamTo: (id: WorldSpot['id']) => void;
   comeDown: (how: Descent) => void;
   fall: () => void;
 };
 
-export default function Tenant({ mood, targets, activeScene, previewSpot = null, approachKey, rollKey, hourKey, nextDigit, rolledDigit, busy, onPlay, onHome }: TenantProps) {
+type Hop = HopArc & { from: TravelPoint; to: TravelPoint };
+
+export default function Tenant({ mood, targets, activeScene, previewSpot = null, travelSpot = null, approachKey, rollKey, hourKey, nextDigit, rolledDigit, busy, onPlay, onHome }: TenantProps) {
   const [pose, setPose] = useState<Pose>('rest');
   const [perchIndex, setPerchIndex] = useState(3);
   const [shift, setShift] = useState(0);
@@ -97,7 +101,7 @@ export default function Tenant({ mood, targets, activeScene, previewSpot = null,
   const [perchAction, setPerchAction] = useState<{ action: PerchAction; key: number } | null>(null);
   const [watch, setWatch] = useState<-1 | 0 | 1>(0);
   const [worldTarget, setWorldTarget] = useState<WorldSpot | null>(null);
-  const [travelMs, setTravelMs] = useState(1900);
+  const [hop, setHop] = useState<Hop | null>(null);
   // Where a descent or a fall starts: the element's actual translation at that
   // moment, so a step still in flight or a perch remeasured mid-air never
   // makes it jump.
@@ -116,10 +120,13 @@ export default function Tenant({ mood, targets, activeScene, previewSpot = null,
   const worldRef = useRef<WorldSpot | null>(null);
   const sceneRef = useRef(activeScene);
   const previewRef = useRef(previewSpot);
+  const travelPreviewRef = useRef(travelSpot);
+  const travelPreviewStarted = useRef<WorldSpot['id'] | null>(null);
   const mindRef = useRef(initialPetMind(activeScene));
   const recentGestures = useRef<IdleAction[]>([]);
   const lastDecisionAt = useRef(0);
   const previousMood = useRef(mood);
+  const journey = useRef(0);
   const act = useRef<TenantActions>(null!);
   const timers = useRef(new Set<number>());
   useEffect(() => {
@@ -133,6 +140,7 @@ export default function Tenant({ mood, targets, activeScene, previewSpot = null,
     playRef.current = onPlay;
     worldRef.current = worldTarget;
     previewRef.current = previewSpot;
+    travelPreviewRef.current = travelSpot;
   });
 
   const later = (fn: () => void, ms: number) => {
@@ -142,13 +150,16 @@ export default function Tenant({ mood, targets, activeScene, previewSpot = null,
   };
   const move = (next: Pose) => { poseRef.current = next; setPose(next); };
   const currentPerch = () => targetsRef.current.perch[perchRef.current] ?? FALLBACK_PERCH;
+  const tenantSize = () => elementRef.current?.getBoundingClientRect().width || 48;
 
   // The element's translation right now, in flight or not. Falls back to the
   // perch it is meant to be on.
   const whereNow = () => {
     const perch = currentPerch();
-    const fallback = worldRef.current && (poseRef.current === 'roaming' || poseRef.current === 'visiting' || poseRef.current === 'roam-home')
+    const fallback = worldRef.current && poseRef.current === 'visiting'
       ? { x: worldRef.current.x, y: worldRef.current.y }
+      : hop && (poseRef.current === 'charging' || poseRef.current === 'jumping')
+        ? hop.from
       : { x: perch.x + shiftRef.current, y: perch.y };
     const element = elementRef.current;
     if (!element) return fallback;
@@ -162,28 +173,53 @@ export default function Tenant({ mood, targets, activeScene, previewSpot = null,
     }
   };
 
-  // Walk back to the resting spot, feet moving, then stand.
+  // A short local return is still a jump. Reading the live transform lets it
+  // take off cleanly after a strike or a fall without teleporting to a pose.
   const walkHome = () => {
+    journey.current += 1;
+    setFrom(whereNow());
+    setHop(null);
     move('walk-home');
     later(() => { if (poseRef.current === 'walk-home') move('rest'); }, WALK_MS);
   };
 
-  const roamHome = () => {
-    if (!worldRef.current) { walkHome(); return; }
+  const travel = (to: TravelPoint, arrived: () => void, safe = targetsRef.current.safe) => {
+    const token = ++journey.current;
     const start = whereNow();
-    const travel = worldTravelDuration(start);
-    setFrom(start);
-    setTravelMs(travel);
-    move('roam-home');
-    later(() => {
-      if (poseRef.current !== 'roam-home') return;
+    const route = tenantTravelRoute(start, to, safe, tenantSize());
+    const take = (from: TravelPoint, index: number) => {
+      if (journey.current !== token) return;
+      const next = route[index];
+      if (!next) { setHop(null); arrived(); return; }
+      const arc = tenantHopArc(from, next, tenantSize());
+      setHop({ from, to: next, ...arc });
+      move('charging');
+      later(() => {
+        if (journey.current !== token || poseRef.current !== 'charging') return;
+        move('jumping');
+        later(() => {
+          if (journey.current !== token || poseRef.current !== 'jumping') return;
+          take(next, index + 1);
+        }, arc.duration);
+      }, CHARGE_MS);
+    };
+    take(start, 0);
+  };
+
+  const roamHome = (stableOnly = false) => {
+    if (!worldRef.current && poseRef.current !== 'charging' && poseRef.current !== 'jumping') { walkHome(); return; }
+    const safe = stableOnly
+      ? targetsRef.current.safe.filter(spot => /^(weather|ribbon|week)-/.test(spot.key) || spot.key === 'destination-weather' || spot.key === 'destination-week')
+      : targetsRef.current.safe;
+    travel({ x: 0, y: 0 }, () => {
       worldRef.current = null;
       setWorldTarget(null);
       move('rest');
-    }, travel);
+    }, safe);
   };
 
   const startClimb = (): void => {
+    journey.current += 1;
     let index = pickPerch(Math.random());
     if (!targetsRef.current.perch[index]) index = 3;
     const perch = targetsRef.current.perch[index] ?? FALLBACK_PERCH;
@@ -202,24 +238,21 @@ export default function Tenant({ mood, targets, activeScene, previewSpot = null,
   const roamTo = (id: WorldSpot['id']) => {
     const target = targetsRef.current.world.find(spot => spot.id === id);
     if (!target) return;
-    const travel = worldTravelDuration(target);
     worldRef.current = target;
     setWorldTarget(target);
-    setTravelMs(travel);
     setGesture(null);
     setWatch(target.look);
-    move('roaming');
-    later(() => {
-      if (poseRef.current !== 'roaming') return;
+    travel(target, () => {
       move('visiting');
-      later(() => { if (poseRef.current === 'visiting') act.current.roamHome(); }, 4200 + Math.random() * 2600);
-    }, travel);
+      if (!travelPreviewRef.current) later(() => { if (poseRef.current === 'visiting') act.current.roamHome(); }, 4200 + Math.random() * 2600);
+    });
   };
 
   // Come down from a perch by the given route. The keyframes start from
   // wherever it is at this moment.
   const comeDown = (how: Descent) => {
     if (poseRef.current !== 'perched') return;
+    journey.current += 1;
     if (currentPerch().kind === 'ball') playRef.current?.('spring');
     setFrom(whereNow());
     setSitting(false);
@@ -237,6 +270,7 @@ export default function Tenant({ mood, targets, activeScene, previewSpot = null,
   // front of the digit, lie there a moment, get up and walk home.
   const fall = () => {
     if (poseRef.current !== 'perched') return;
+    journey.current += 1;
     setFrom(whereNow());
     setSitting(false);
     setPerchAction(null);
@@ -271,7 +305,7 @@ export default function Tenant({ mood, targets, activeScene, previewSpot = null,
       const elapsed = lastDecisionAt.current ? now - lastDecisionAt.current : 0;
       let mind = advancePetMind(mindRef.current, elapsed, moodRef.current);
       lastDecisionAt.current = now;
-      if (!previewRef.current && moodRef.current !== 'asleep' && poseRef.current === 'rest' && !busyRef.current) {
+      if (!previewRef.current && !travelPreviewRef.current && moodRef.current !== 'asleep' && poseRef.current === 'rest' && !busyRef.current) {
         const remaining = msToNextMinute(new Date(now));
         const canAdventure = remaining > 4000 && remaining < 58_000 && !document.hidden;
         const decision = choosePetActivity(mind, {
@@ -341,8 +375,18 @@ export default function Tenant({ mood, targets, activeScene, previewSpot = null,
     worldRef.current = target;
     setWorldTarget(target);
     setGesture(null);
+    journey.current += 1;
+    setHop(null);
     move('visiting');
   }, [previewSpot, targets]);
+
+  useEffect(() => {
+    if (!travelSpot || travelPreviewStarted.current === travelSpot) return;
+    const target = targets.world.find(spot => spot.id === travelSpot);
+    if (!target) return;
+    travelPreviewStarted.current = travelSpot;
+    act.current.roamTo(travelSpot);
+  }, [travelSpot, targets]);
 
   // A scene change raises interest in that side of the dashboard. If the old
   // scene disappears while the Tenant is visiting it, come home from the
@@ -351,7 +395,7 @@ export default function Tenant({ mood, targets, activeScene, previewSpot = null,
     if (sceneRef.current === activeScene) return;
     sceneRef.current = activeScene;
     mindRef.current = noticePetScene(mindRef.current, activeScene);
-    if (poseRef.current === 'visiting' || poseRef.current === 'roaming') act.current.roamHome();
+    if (poseRef.current === 'visiting' || poseRef.current === 'charging' || poseRef.current === 'jumping') act.current.roamHome(true);
     else if (poseRef.current === 'rest' && moodRef.current !== 'asleep') {
       const action: IdleAction = 'listen';
       setGesture({ action, key: Date.now() });
@@ -388,7 +432,7 @@ export default function Tenant({ mood, targets, activeScene, previewSpot = null,
     } else if (poseRef.current === 'rest' && moodRef.current !== 'asleep') {
       setGesture({ action: 'glance-digits', key: Date.now() });
       later(() => setGesture(current => current?.action === 'glance-digits' ? null : current), GESTURE_MS['glance-digits']);
-    } else if (poseRef.current === 'visiting' || poseRef.current === 'roaming') {
+    } else if (poseRef.current === 'visiting' || poseRef.current === 'charging' || poseRef.current === 'jumping') {
       setWatch(-1);
       later(() => setWatch(worldRef.current?.look ?? 0), WATCH_MS);
     }
@@ -407,7 +451,7 @@ export default function Tenant({ mood, targets, activeScene, previewSpot = null,
     if (poseRef.current === 'rest') celebrate();
     else if (poseRef.current === 'strike') later(celebrate, STRIKE_MS + WALK_MS + 150);
     else if (poseRef.current === 'falling') later(celebrate, FALL_MS + SPRAWL_MS + WALK_MS + 150);
-    else if (poseRef.current === 'visiting' || poseRef.current === 'roaming') {
+    else if (poseRef.current === 'visiting' || poseRef.current === 'charging' || poseRef.current === 'jumping') {
       const action: IdleAction = 'wave';
       setGesture({ action, key: Date.now() });
       later(() => setGesture(current => current?.action === action ? null : current), GESTURE_MS[action]);
@@ -424,7 +468,7 @@ export default function Tenant({ mood, targets, activeScene, previewSpot = null,
     if (mood === 'asleep') {
       if (poseRef.current === 'perched') act.current.comeDown('climb-down');
       else if (poseRef.current === 'approach') act.current.walkHome();
-      else if (poseRef.current === 'visiting' || poseRef.current === 'roaming') act.current.roamHome();
+      else if (poseRef.current === 'visiting' || poseRef.current === 'charging' || poseRef.current === 'jumping') act.current.roamHome();
       return;
     }
     if (poseRef.current !== 'rest') return;
@@ -441,8 +485,10 @@ export default function Tenant({ mood, targets, activeScene, previewSpot = null,
       if (document.hidden || poseRef.current === 'rest') return;
       setSitting(false);
       setShift(0);
+      journey.current += 1;
       worldRef.current = null;
       setWorldTarget(null);
+      setHop(null);
       move('rest');
     };
     document.addEventListener('visibilitychange', resume);
@@ -467,7 +513,17 @@ export default function Tenant({ mood, targets, activeScene, previewSpot = null,
     '--from-y': from.y + 'px',
     '--world-x': (worldTarget?.x ?? 0) + 'px',
     '--world-y': (worldTarget?.y ?? 0) + 'px',
-    '--travel-ms': travelMs + 'ms',
+    '--hop-from-x': (hop?.from.x ?? 0) + 'px',
+    '--hop-from-y': (hop?.from.y ?? 0) + 'px',
+    '--hop-quarter-x': (hop?.quarter.x ?? 0) + 'px',
+    '--hop-quarter-y': (hop?.quarter.y ?? 0) + 'px',
+    '--hop-apex-x': (hop?.apex.x ?? 0) + 'px',
+    '--hop-apex-y': (hop?.apex.y ?? 0) + 'px',
+    '--hop-three-quarter-x': (hop?.threeQuarter.x ?? 0) + 'px',
+    '--hop-three-quarter-y': (hop?.threeQuarter.y ?? 0) + 'px',
+    '--hop-to-x': (hop?.to.x ?? 0) + 'px',
+    '--hop-to-y': (hop?.to.y ?? 0) + 'px',
+    '--hop-ms': (hop?.duration ?? 700) + 'ms',
   } as CSSProperties;
 
   const onTop = pose === 'perched' || pose === 'climbing' || pose === 'descending';

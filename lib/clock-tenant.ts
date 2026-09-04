@@ -287,30 +287,119 @@ export type Targets = {
   // Safe edges elsewhere in the dashboard. They are measured only when the
   // layout or active panel changes, then crossed with compositor transforms.
   world: WorldSpot[];
+  // Every measured place sturdy enough to land. World destinations are also
+  // included, but the extra pads let a long trip become several real jumps
+  // instead of one diagonal glide through the dashboard.
+  safe: LandingSpot[];
 };
 
 export type WorldSpotId = 'weather' | 'week' | 'transport' | 'fact' | 'map';
 export type WorldSpot = { id: WorldSpotId; x: number; y: number; look: 1 | -1 };
+export type LandingSpot = { key: string; x: number; y: number };
+export type TravelPoint = { x: number; y: number };
 
 // Turn a UI surface into the translation that puts the Tenant's feet on its
 // top or bottom edge. All boxes share viewport coordinates; `rest` is local to
 // the clock block, which is why the origin is removed as well.
 export function worldSpotTarget(id: WorldSpotId, surface: Box, origin: Box, rest: Targets['rest'], size: number,
   align = 0.5, edge: 'top' | 'bottom' = 'top'): WorldSpot {
+  const target = surfaceTarget(surface, origin, rest, size, align, edge);
+  return { id, x: target.x, y: target.y, look: target.align >= 0.5 ? -1 : 1 };
+}
+
+export function landingSpotTarget(key: string, surface: Box, origin: Box, rest: Targets['rest'], size: number,
+  align = 0.5, edge: 'top' | 'bottom' = 'top'): LandingSpot {
+  const target = surfaceTarget(surface, origin, rest, size, align, edge);
+  return { key, x: target.x, y: target.y };
+}
+
+function surfaceTarget(surface: Box, origin: Box, rest: Targets['rest'], size: number,
+  align: number, edge: 'top' | 'bottom') {
   const safeAlign = Math.min(1, Math.max(0, Number.isFinite(align) ? align : 0.5));
   const landingLeft = surface.left + safeAlign * Math.max(0, surface.right - surface.left - size);
   const landingBottom = edge === 'bottom' ? surface.bottom : surface.top;
   return {
-    id,
     x: round(landingLeft - origin.left - rest.left),
     y: round(landingBottom - origin.top - size - rest.top),
-    look: safeAlign >= 0.5 ? -1 : 1,
+    align: safeAlign,
   };
 }
 
-export function worldTravelDuration(spot: Pick<WorldSpot, 'x' | 'y'>): number {
-  const distance = Math.hypot(spot.x, spot.y);
-  return Math.round(Math.min(4300, Math.max(1900, 1500 + distance * 3.2)));
+// A hop is a quadratic flight sampled at quarters. The vertical correction is
+// exactly 4h*t*(1-t), so the Tenant rises away from the straight line between
+// its two landing pads and returns to it at the destination.
+export type HopArc = {
+  duration: number;
+  quarter: TravelPoint;
+  apex: TravelPoint;
+  threeQuarter: TravelPoint;
+};
+
+export function tenantHopArc(from: TravelPoint, to: TravelPoint, size: number): HopArc {
+  const distance = Math.hypot(to.x - from.x, to.y - from.y);
+  const body = Math.max(1, Number.isFinite(size) ? size : 1);
+  const lift = Math.min(body * 1.85, Math.max(body * 0.72, body * 0.55 + distance * 0.16));
+  const point = (at: number): TravelPoint => ({
+    x: round(from.x + (to.x - from.x) * at),
+    y: round(from.y + (to.y - from.y) * at - 4 * lift * at * (1 - at)),
+  });
+  return {
+    duration: Math.round(Math.min(980, Math.max(620, 500 + distance * 1.35))),
+    quarter: point(0.25),
+    apex: point(0.5),
+    threeQuarter: point(0.75),
+  };
+}
+
+// Find the shortest chain whose individual jumps fit the Tenant's scale. A
+// distant destination is never connected directly when a measured pad can
+// break the trip up; if the measured graph has a gap, the best real pad still
+// becomes an intermediate landing rather than inventing a point in empty air.
+export function tenantTravelRoute(from: TravelPoint, to: TravelPoint, safe: readonly LandingSpot[], size: number): TravelPoint[] {
+  const direct = distance(from, to);
+  const hopLimit = Math.min(310, Math.max(190, size * 4.2));
+  if (direct <= hopLimit) return [to];
+
+  const pads = uniquePoints(safe.filter(spot => distance(spot, from) > 2 && distance(spot, to) > 2));
+  const nodes: TravelPoint[] = [from, ...pads, to];
+  const destination = nodes.length - 1;
+  const costs = nodes.map(() => Number.POSITIVE_INFINITY);
+  const previous = nodes.map(() => -1);
+  const open = new Set(nodes.map((_, index) => index));
+  costs[0] = 0;
+  while (open.size) {
+    let current = -1;
+    for (const index of open) if (current < 0 || costs[index] < costs[current]) current = index;
+    if (current < 0 || !Number.isFinite(costs[current]) || current === destination) break;
+    open.delete(current);
+    for (const next of open) {
+      const hop = distance(nodes[current], nodes[next]);
+      if (hop > hopLimit) continue;
+      const cost = costs[current] + hop;
+      if (cost < costs[next]) { costs[next] = cost; previous[next] = current; }
+    }
+  }
+  if (Number.isFinite(costs[destination])) {
+    const route: TravelPoint[] = [];
+    for (let at = destination; at > 0; at = previous[at]) route.unshift(nodes[at]);
+    return route;
+  }
+
+  const middle = pads.reduce<TravelPoint | null>((best, pad) => {
+    const score = distance(from, pad) + distance(pad, to) + Math.abs(distance(from, pad) - distance(pad, to)) * 0.35;
+    if (!best) return pad;
+    const bestScore = distance(from, best) + distance(best, to) + Math.abs(distance(from, best) - distance(best, to)) * 0.35;
+    return score < bestScore ? pad : best;
+  }, null);
+  return middle ? [middle, to] : [to];
+}
+
+function uniquePoints(spots: readonly LandingSpot[]): LandingSpot[] {
+  return spots.filter((spot, index) => spots.findIndex(other => distance(spot, other) < 2) === index);
+}
+
+function distance(a: TravelPoint, b: TravelPoint): number {
+  return Math.hypot(a.x - b.x, a.y - b.y);
 }
 
 const STANCE = 0.42; // feet span as a fraction of the Tenant's width
@@ -340,6 +429,7 @@ export function tenantTargets(ink: Box[], lastCell: Box, size: number, gap: numb
     perch,
     rest: { left: round(rest.left), top: round(rest.top) },
     world: [],
+    safe: [],
   };
 }
 

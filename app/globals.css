@@ -244,88 +244,6 @@ a:focus-visible { outline:2px solid var(--foreground); outline-offset:8px; }
 .forecast-map-message { position:absolute; inset:0; z-index:500; display:grid; place-items:center; margin:0; color:var(--muted); font-size:1.25vw; background:rgba(17,17,19,.78); }
 @keyframes panel-arrive { from { opacity:0; transform:translateY(8px); } to { opacity:1; transform:translateY(0); } }
 @keyframes screen-countdown { from { stroke-dashoffset:0; } to { stroke-dashoffset:81.6814; } }
-@media (max-aspect-ratio:5/4) {
-  .dashboard { height:auto; min-height:100vh; grid-template-rows:none; overflow:visible; }
-  .rotating-panel { min-height:70vh; }
-  .forecast-map-message { font-size:3vw; }
-  .timeline-track { height:1.1vw; }
-  .timeline-track i { top:-.7vw; height:2.5vw; }
-  .timeline-playhead { top:-2vw; font-size:2.2vw; padding:.6vw 1vw; border-radius:.8vw; }
-  .timeline-hours { height:3vw; margin-top:1.6vw; font-size:2vw; }
-  /* The narrow playhead stands 2vw above its track, so the track cannot sit
-     1vw below the frame: the label's top was cut off by the frame's own
-     overflow:hidden. Found by `npm run audit`, which is the only thing that
-     ever looked at this scene in this layout. */
-  .forecast-map-timeline { top:2.6vw; right:11vw; }
-  .forecast-map-credit { right:1.2vw; bottom:1.2vw; font-size:1.35vw; padding:.9vw 1.1vw; }
-  .leaflet-tooltip.forecast-map-label { padding:.6vw .85vw; font-size:1.45vw; }
-  .forecast-map-timestamp { top:2vw; left:2vw; gap:1.1vw; padding:1.1vw 1.35vw; font-size:2.3vw; }
-  .forecast-map-timestamp > span { width:1.1vw; height:1.1vw; }
-  .forecast-map-stale { top:8vw; left:2vw; padding:1vw 1.35vw; font-size:1.8vw; }
-  .forecast-map-legend { left:1.2vw; bottom:1.2vw; grid-template-columns:auto 14vw auto; gap:1.2vw; padding:1.2vw 1.5vw; font-size:1.7vw; }
-  .forecast-map-legend i { height:1.1vw; }
-  .fact-copy h2 { font-size:6.3vw; }
-  .fact-copy p { font-size:3.1vw; }
-  .daily-fact-heading { gap:1.6vw; font-size:2.2vw; }
-  .daily-fact-heading strong { font-size:2.8vw; }
-  .fact-feature { gap:3vw; }
-  .fact-illustration figcaption { font-size:1.8vw; }
-  .mini-routes { gap:2vw; }
-  .mini-heading { align-items:flex-start; flex-direction:column; gap:1.5vw; font-size:2.5vw; }
-  .mini-heading .line-badge { min-width:6vw; height:5vw; font-size:2.8vw; border-radius:.5vw; }
-  .mini-heading .s-train { min-width:5vw; }
-  .mini-time { font-size:5vw; }
-  .mini-time small { font-size:2.3vw; margin-left:.7vw; }
-  .fact-footer { font-size:2.5vw; }
-  .dashboard { grid-template-columns:1fr; padding:5vh 6vw; gap:6vh; }
-  .display-shell { --panel-inset:2vw; border-right:0; padding:0; }
-  .clock-block { --clock-size:20vw; --date-base:3.5vw; }
-  .weather { grid-template-columns:10vw minmax(0,1fr); grid-template-rows:15vw auto; column-gap:3vw; padding:2vw var(--panel-inset); border-radius:2vw; }
-  .temperature { font-size:12vw; }
-  .weather-icon { width:10vw; height:10vw; }
-  .weather-icon svg { width:9vw; height:9vw; }
-  .weather-headline { font-size:4.4vw; }
-  .weather-icon { filter:drop-shadow(0 0 1.2vw var(--sky-glow,transparent)); }
-  .weather-band { gap:3vh; }
-  .week-strip { margin-top:3vh; }
-  .week-days { gap:1vw; }
-  .week-day { gap:1vh; padding:1.4vh 0 1.6vh; border-radius:1.2vw; }
-  .week-name { font-size:2.2vw; }
-  .week-day svg { width:4.6vw; height:4.6vw; }
-  .week-day strong { font-size:3.3vw; }
-  .week-low { font-size:2.5vw; }
-  .rain-ribbon { --ribbon-gap:.7vw; }
-  .ribbon-heading h2 { font-size:2.7vw; }
-  .ribbon-heading span { font-size:3vw; }
-  .temperature-track { height:9vh; }
-  .track-marks span { font-size:2.6vw; padding:.4vh .8vw; border-radius:.8vw; }
-  .ribbon-bars { height:13vh; }
-  .ribbon-ticks { font-size:2.6vw; }
-  .line-badge { min-width:13vw; height:10vw; font-size:5vw; border-radius:1vw; }
-  .s-train { min-width:10vw; }
-  .departure-heading { gap:3vw; }
-  .departure-heading p { font-size:2.7vw; }
-  .direction-columns { gap:4vw; }
-  .direction-column + .direction-column { padding-left:4vw; }
-  .direction-column h2 { font-size:4.5vw; }
-  .departure strong { font-size:4.8vw; }
-  .departure strong small { font-size:1.8vw; }
-  .departure > span { font-size:2.5vw; }
-  .departure-flag { font-size:2vw; }
-  .direction-column h2 .headway { margin-left:1.4vw; font-size:2.1vw; }
-  .departure.cancelled strong { font-size:3.9vw; }
-  /* Six departure cells across 720 px cannot hold two times and a dot: the
-     line wrapped and left the dot stranded above the digits. The flag under it
-     already says "+3 min", so the narrow layout keeps only the real time. A
-     cancelled cell is the exception, where the struck time is the only one. */
-  .departure > span { white-space:nowrap; }
-  .departure:not(.cancelled) > span s { display:none; }
-  .incident { font-size:2vw; border-radius:.6vw; padding:.3vh 1.1vw; }
-  .mini-flag { font-size:2vw; }
-  .single-direction .departure strong { font-size:8vw; }
-  .single-direction .departure strong small { font-size:3vw; }
-  .transport-status { font-size:2.8vw; }
-}
 /* ---------------------------------------------------------------------------
    Outfits. One class per outfit on .clock-block; each sets only custom
    properties. --digit-scale fits the face's digits into the fixed .62em cells
@@ -333,8 +251,8 @@ a:focus-visible { outline:2px solid var(--foreground); outline-offset:8px; }
    scale is set from the face's widest and tallest digit ink (canvas
    measureText over 0 to 9, as lib/clock-tenant.ts measures it), at about 95 %
    of the largest scale that fits: shadows, drips and glitch slices count as
-   ink. Date sizes are multiples of --date-base so the narrow layout scales
-   them with one override.
+   ink. Date sizes are multiples of --date-base so the wardrobe remains
+   internally consistent.
    Chosen in lib/clock-wardrobe.ts. Faces come from app/clock-fonts.css. */
 .o-editorial { --digit-font:'Fraunces',Georgia,serif; --digit-weight:900; --digit-scale:.95; --digit-var:'opsz' 144,'SOFT' 30,'WONK' 1; --date-font:'Fraunces',Georgia,serif; --date-weight:500; --date-size:calc(var(--date-base) * 1.27); --date-space:0; --date-tf:none; --colon:var(--sun); --date-ink:#d8d3c7; --ink:#f6f1e6; }
 .o-poster { --digit-font:'Anton',Impact,sans-serif; --digit-weight:400; --digit-scale:1.2; --date-font:'Bebas Neue',Impact,sans-serif; --date-weight:400; --date-size:calc(var(--date-base) * 1.27); --date-space:.16em; --colon:var(--foreground); --date-ink:var(--accent); --colon-r:0; }
@@ -449,11 +367,10 @@ a:focus-visible { outline:2px solid var(--foreground); outline-offset:8px; }
    custom properties: --tenant-left/top (rest, feet on the digits' baseline),
    --push-x (against the last digit's ink), --perch-x/y (on the highest flat
    run of a digit's top, or the colon's top dot), --shift (steps taken along a
-   flat top), --slide (which way an arch falls away) and --from-x/y (where it
-   actually was when a descent or a fall began). Poses are transitions on
-   transform so an interrupted move continues from where it is; the climb, the
-   descents, the fall and the hour are keyframes that begin and end exactly at
-   the poses around them.
+   flat top), --slide (which way an arch falls away), --from-x/y (where a
+   descent or fall began), and the measured points of one safe-spot hop.
+   Voluntary travel is a chain of compositor keyframes; the perch alone stays
+   a transition so it can follow remeasured glyph ink.
 
    Layers, each animating only its own transform so they compose:
      .tenant   poses                      .t-figure  breathing, walk bob, balance
@@ -588,43 +505,40 @@ a:focus-visible { outline:2px solid var(--foreground); outline-offset:8px; }
 .g-listen .t-face { transform:translateX(1.5px) rotate(1deg); transition-delay:.1s; }
 @keyframes t-listen { 0%,100% {transform:scale(1) rotate(0);} 22%,72% {transform:scale(1.08,1.14) rotate(2deg);} 45% {transform:scale(1.1,1.15) rotate(-2deg);} }
 
-/* Walking: feet step and the body bobs. Used on the way over, back, and up. */
-.pose-approach .t-foot,.pose-walk-home .t-foot,.pose-climbing .t-foot,.pacing .t-foot { animation:t-step .3s ease-in-out infinite alternate; }
-.pose-approach .t-foot-b,.pose-walk-home .t-foot-b,.pose-climbing .t-foot-b,.pacing .t-foot-b { animation-delay:.15s; }
+/* Feet only walk while climbing or pacing along a broad glyph. Travel across
+   the dashboard is made of planted jumps below. */
+.pose-climbing .t-foot,.pacing .t-foot { animation:t-step .3s ease-in-out infinite alternate; }
+.pose-climbing .t-foot-b,.pacing .t-foot-b { animation-delay:.15s; }
 @keyframes t-step { from {transform:translate(-3px,0) rotate(-5deg);} to {transform:translate(3px,-4px) rotate(7deg);} }
-.pose-approach .t-figure,.pose-walk-home .t-figure,.pose-climbing .t-figure,.pacing .t-figure { animation:t-walk .3s ease-in-out infinite alternate; }
+.pose-climbing .t-figure,.pacing .t-figure { animation:t-walk .3s ease-in-out infinite alternate; }
 @keyframes t-walk { from {transform:translateY(-2px) rotate(-1.5deg);} to {transform:translateY(0) rotate(1.5deg);} }
 
-/* Across the dashboard: three planted bounds rather than one long diagonal
-   glide. Travel time is proportional to the measured distance. Returning can
-   begin mid-flight, so its first frame uses the transform read at that moment. */
-.pose-roaming { animation:t-roam var(--travel-ms) linear both; transition:none; }
-.pose-roam-home { animation:t-roam-home var(--travel-ms) linear both; transition:none; }
+/* Across the dashboard: every voluntary movement starts with a visible charge
+   on a measured safe spot, then follows one sampled quadratic parabola to the
+   next. React changes back to charge only after this landing has settled, so a
+   long route reads as chained bounces and never as a diagonal glide. */
+.pose-charging { transform:translate(var(--hop-from-x),var(--hop-from-y)); transition:none; }
+.pose-charging .t-figure { animation:t-jump-charge .22s cubic-bezier(.4,0,.6,1) both; }
+.pose-charging .t-pupil { transform:translateY(-3px); }
+.pose-jumping { animation:t-travel-hop var(--hop-ms) linear both; transition:none; }
 .pose-visiting { transform:translate(var(--world-x),var(--world-y)); transition:none; }
-.pose-roaming .t-foot,.pose-roam-home .t-foot { animation:t-step .26s ease-in-out infinite alternate; }
-.pose-roaming .t-foot-b,.pose-roam-home .t-foot-b { animation-delay:.13s; }
-.pose-roaming .t-figure,.pose-roam-home .t-figure { animation:t-bound-body .52s ease-in-out infinite; }
-.pose-roaming .t-tail,.pose-roam-home .t-tail { animation:t-tail-trail .52s ease-in-out infinite alternate; }
-@keyframes t-roam {
-  0% {transform:translate(0,0) scale(1);} 6% {transform:translate(0,.025em) scale(1.1,.9);}
-  20% {transform:translate(calc(var(--world-x) * .25),calc(var(--world-y) * .25 - .14em)) rotate(-5deg) scale(.96,1.04);}
-  31% {transform:translate(calc(var(--world-x) * .34),calc(var(--world-y) * .34)) scale(1.12,.88);}
-  47% {transform:translate(calc(var(--world-x) * .58),calc(var(--world-y) * .58 - .13em)) rotate(4deg) scale(.97,1.03);}
-  58% {transform:translate(calc(var(--world-x) * .67),calc(var(--world-y) * .67)) scale(1.1,.9);}
-  76% {transform:translate(calc(var(--world-x) * .9),calc(var(--world-y) * .9 - .11em)) rotate(-3deg);}
-  90% {transform:translate(var(--world-x),var(--world-y)) scale(1.13,.87);} 100% {transform:translate(var(--world-x),var(--world-y)) scale(1);}
+@keyframes t-jump-charge {
+  from {transform:translateY(0) scale(1);}
+  to {transform:translateY(4px) scale(1.13,.82);}
 }
-@keyframes t-roam-home {
-  0% {transform:translate(var(--from-x),var(--from-y)) scale(1);} 6% {transform:translate(var(--from-x),calc(var(--from-y) + .025em)) scale(1.1,.9);}
-  22% {transform:translate(calc(var(--from-x) * .75),calc(var(--from-y) * .75 - .14em)) rotate(5deg);}
-  34% {transform:translate(calc(var(--from-x) * .64),calc(var(--from-y) * .64)) scale(1.1,.9);}
-  50% {transform:translate(calc(var(--from-x) * .42),calc(var(--from-y) * .42 - .13em)) rotate(-4deg);}
-  62% {transform:translate(calc(var(--from-x) * .32),calc(var(--from-y) * .32)) scale(1.1,.9);}
-  79% {transform:translate(calc(var(--from-x) * .1),calc(var(--from-y) * .1 - .1em)) rotate(3deg);}
-  91% {transform:translate(0,0) scale(1.13,.87);} 100% {transform:translate(0,0) scale(1);}
+@keyframes t-travel-hop {
+  0% {transform:translate(var(--hop-from-x),var(--hop-from-y)) scale(1.13,.82);}
+  8% {transform:translate(var(--hop-from-x),calc(var(--hop-from-y) - .025em)) scale(.96,1.07);}
+  25% {transform:translate(var(--hop-quarter-x),var(--hop-quarter-y)) rotate(-4deg) scale(.97,1.04);}
+  50% {transform:translate(var(--hop-apex-x),var(--hop-apex-y)) rotate(2deg) scale(1);}
+  75% {transform:translate(var(--hop-three-quarter-x),var(--hop-three-quarter-y)) rotate(4deg) scale(1.02,.98);}
+  90% {transform:translate(var(--hop-to-x),calc(var(--hop-to-y) - .015em)) rotate(0) scale(.98,1.04);}
+  95% {transform:translate(var(--hop-to-x),var(--hop-to-y)) scale(1.16,.8);}
+  100% {transform:translate(var(--hop-to-x),var(--hop-to-y)) scale(1);}
 }
-@keyframes t-bound-body { 0%,100% {transform:rotate(-2deg) translateY(0);} 50% {transform:rotate(2deg) translateY(-2px);} }
-@keyframes t-tail-trail { from {transform:rotate(12deg);} to {transform:rotate(-16deg);} }
+.pose-jumping .t-tail { animation:t-tail-flight .34s ease-in-out infinite alternate; }
+.pose-jumping .t-mouth { d:path('M40 74 Q50 84 60 74'); }
+@keyframes t-tail-flight { from {transform:rotate(14deg);} to {transform:rotate(-12deg);} }
 
 /* Each landmark gets a short, readable activity. These play only for the few
    seconds of a visit, so they can be expressive without becoming wallpaper. */
@@ -646,7 +560,16 @@ a:focus-visible { outline:2px solid var(--foreground); outline-offset:8px; }
 @keyframes t-map-lean { 0%,100% {transform:rotate(0);} 28%,72% {transform:rotate(-6deg) translateX(-2px);} }
 
 /* Poses */
-.pose-approach { transform:translateX(var(--push-x)) rotate(-6deg); }
+.pose-approach { animation:t-approach-jump 1.1s linear both; transition:none; }
+@keyframes t-approach-jump {
+  0% {transform:translate(0,0) scale(1);}
+  14% {transform:translate(0,.025em) scale(1.13,.82);}
+  24% {transform:translate(calc(var(--push-x) * .08),-.025em) scale(.96,1.07);}
+  54% {transform:translate(calc(var(--push-x) * .5),-.13em) rotate(-4deg);}
+  82% {transform:translate(calc(var(--push-x) * .92),-.045em) rotate(-6deg);}
+  92% {transform:translate(var(--push-x),0) rotate(-6deg) scale(1.15,.81);}
+  100% {transform:translate(var(--push-x),0) rotate(-6deg) scale(1);}
+}
 .pose-approach .t-pupil,.pose-strike .t-pupil { transform:translate(-4px,2px); }
 .pose-strike { transition-duration:.28s; transition-timing-function:cubic-bezier(.2,.9,.3,1.25); }
 .s-shove { transform:translateX(calc(var(--push-x) - .04em)) rotate(-22deg) scaleX(1.06); }
@@ -768,7 +691,16 @@ a:focus-visible { outline:2px solid var(--foreground); outline-offset:8px; }
 .pose-sprawled .t-mouth { d:path('M43 77 L57 77'); }
 .pose-sprawled .t-figure { animation:t-dazed 1.1s ease-in-out infinite; }
 @keyframes t-dazed { 0%,100% {transform:rotate(-2deg);} 50% {transform:rotate(2deg);} }
-.pose-walk-home { transform:translate(0,0) rotate(0) scale(1); }
+.pose-walk-home { animation:t-local-home 1.1s linear both; transition:none; }
+@keyframes t-local-home {
+  0% {transform:translate(var(--from-x),var(--from-y)) scale(1);}
+  13% {transform:translate(var(--from-x),calc(var(--from-y) + .025em)) scale(1.13,.82);}
+  24% {transform:translate(calc(var(--from-x) * .92),calc(var(--from-y) * .92 - .025em)) scale(.96,1.07);}
+  54% {transform:translate(calc(var(--from-x) * .5),calc(var(--from-y) * .5 - .13em)) rotate(4deg);}
+  82% {transform:translate(calc(var(--from-x) * .08),calc(var(--from-y) * .08 - .045em));}
+  92% {transform:translate(0,0) scale(1.15,.81);}
+  100% {transform:translate(0,0) scale(1);}
+}
 
 /* The hour */
 .pose-jump { animation:t-jump 1.5s cubic-bezier(.3,0,.2,1) both; transition:none; }

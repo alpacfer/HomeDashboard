@@ -30,7 +30,7 @@ npm test          # node:test over tests/*.test.mjs
 npm run shot -- --scene map            # screenshot the running display, 1280 x 720, headless Chrome
 npm run probe                          # ask every forecast provider as the browser would
 npm run probe:transit                  # ask every departure provider as the route would
-npm run audit                          # every scene in both layouts, checked for layout faults
+npm run audit                          # every scene at 1280 x 720, checked for layout faults
 ```
 
 ## Debugging tools
@@ -42,8 +42,8 @@ screen. In short:
   It needs the dev server running (start it with the preview tool, never a bare
   `npm run dev` in Bash), waits for it, and writes PNGs under `screenshots/`.
   `--clip <selector>` gives the smallest image; `--class` forces an outfit, set
-  piece or Tenant pose; `--freeze` stops animations at a time; `--narrow` and
-  `--reduced-motion` cover the other layouts; `--transit-demo` fills the
+  piece or Tenant pose; `--freeze` stops animations at a time;
+  `--reduced-motion` covers the accessibility path; `--transit-demo` fills the
   departure boards with every delay and incident mark; `--sequence n` captures
   a strip of moments from one page load, which is how a moving scene is shown;
   `--console` shows what the page logged. Do not screenshot through the browser
@@ -199,7 +199,7 @@ For every requested change that affects rendered behaviour, run the dashboard
 and capture a screenshot of the relevant state before delivering. Show that
 screenshot in the final response.
 
-Run `npm run audit` first: it is faster than a capture, it covers both layouts
+Run `npm run audit` first: it is faster than a capture, it covers every scene
 at once, and a screenshot that looks right can still be clipping content or
 wrapping a marker onto its own line. Then take the picture with `npm run shot`
 (see Debugging tools above). Use the smallest
@@ -210,10 +210,9 @@ cycle, pin it with `--scene map`, `--scene transport` or
 `--scene fact --fact N` (the `/?scene=` debug mode in [README.md](README.md)),
 and pass `--offline` unless the weather is the subject, or `--demo` when the
 forecast map is.
-Recheck both the 16:9 layout and the narrow (`max-aspect-ratio: 5/4`) layout
-(`--narrow`) when responsive CSS is affected, and check the reduced-motion path
-(`--reduced-motion`) when animation is touched. **Test at 1280 x 720**, the Fire
-TV's actual resolution, which is the script's default.
+Check the reduced-motion path (`--reduced-motion`) when animation is touched.
+**Test at 1280 x 720**, the Fire TV's actual and only supported resolution,
+which is the script's default.
 
 For documentation-only, test-only, or backend-only changes with no meaningful
 rendered state, say in the final response that no relevant screenshot was

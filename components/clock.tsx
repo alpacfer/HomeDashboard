@@ -26,7 +26,7 @@ import {
   HOUR_PIECE_DELAY_MS, delayToQuiet, flapSequence, nextEventDelay, pickSetPiece, setPieceById, type SetPieceId,
 } from '@/lib/clock-events';
 import {
-  inkBox, inkColumns, nextChangingDigit, shouldApproach, tenantMood, tenantTargets, topProfile, worldSpotTarget,
+  inkBox, inkColumns, landingSpotTarget, nextChangingDigit, shouldApproach, tenantMood, tenantTargets, topProfile, worldSpotTarget,
   type Box, type Targets, type WorldSpotId,
 } from '@/lib/clock-tenant';
 import type { Rotation } from '@/lib/panel-rotation';
@@ -54,8 +54,12 @@ type Piece = { id: SetPieceId; key: number };
 type Flap = { text: string; previous: string };
 type Play = { id: 'land' | 'spring'; key: number };
 
-export default function Clock({ now, conditions = null, activeScene = 'transport', petPreview = null }: {
-  now: Date | null; conditions?: Conditions | null; activeScene?: Rotation['phase']; petPreview?: WorldSpotId | null;
+export default function Clock({ now, conditions = null, activeScene = 'transport', petPreview = null, petTravel = null }: {
+  now: Date | null;
+  conditions?: Conditions | null;
+  activeScene?: Rotation['phase'];
+  petPreview?: WorldSpotId | null;
+  petTravel?: WorldSpotId | null;
 }) {
   const [frame, setFrame] = useState(() => clockFrame(now));
   const next = clockFrame(now, frame);
@@ -154,19 +158,63 @@ export default function Clock({ now, conditions = null, activeScene = 'transport
       profiles, dot ? relative(dot.getBoundingClientRect()) : null);
     const originBox: Box = { left: origin.left, top: origin.top, right: origin.right, bottom: origin.bottom };
     const world = [] as Targets['world'];
+    const safe = [] as Targets['safe'];
+    const boxOf = (element: HTMLElement): Box => {
+      const rect = element.getBoundingClientRect();
+      return { left: rect.left, top: rect.top, right: rect.right, bottom: rect.bottom };
+    };
+    const addSafe = (key: string, selector: string, align: number, edge: 'top' | 'bottom' = 'top') => {
+      const element = document.querySelector<HTMLElement>(selector);
+      if (!element) return;
+      const surface = boxOf(element);
+      if (surface.right - surface.left < size || surface.bottom <= surface.top) return;
+      safe.push(landingSpotTarget(key, surface, originBox, base.rest, size, align, edge));
+    };
     const addWorld = (id: WorldSpotId, selector: string, align: number, edge: 'top' | 'bottom' = 'top') => {
       const element = document.querySelector<HTMLElement>(selector);
       if (!element) return;
-      const rect = element.getBoundingClientRect();
-      if (rect.width < size || rect.height <= 0) return;
-      world.push(worldSpotTarget(id, { left: rect.left, top: rect.top, right: rect.right, bottom: rect.bottom }, originBox, base.rest, size, align, edge));
+      const surface = boxOf(element);
+      if (surface.right - surface.left < size || surface.bottom <= surface.top) return;
+      const target = worldSpotTarget(id, surface, originBox, base.rest, size, align, edge);
+      world.push(target);
+      safe.push({ key: 'destination-' + id, x: target.x, y: target.y });
     };
+
+    // Stable edges across the whole layout. Several pads share a wide surface
+    // because the character must visibly land before it can change direction;
+    // no route point is an invented coordinate in the middle of the screen.
+    addSafe('weather-left', '.weather', 0.08);
     addWorld('weather', '.weather', 0.76);
+    addSafe('ribbon-left', '.ribbon-bars', 0.08, 'bottom');
+    addSafe('ribbon-middle', '.ribbon-bars', 0.5, 'bottom');
+    addSafe('ribbon-right', '.ribbon-bars', 0.92, 'bottom');
+    addSafe('week-left', '.week-day:nth-child(2)', 0.5);
     addWorld('week', '.week-day:nth-child(5)', 0.5);
-    if (activeSceneRef.current === 'transport') addWorld('transport', '.transit-scene.is-active .departure-board', 0.82, 'bottom');
-    if (activeSceneRef.current === 'fact') addWorld('fact', '.daily-fact-scene.is-active .fact-illustration img', 0.68);
-    if (activeSceneRef.current === 'map') addWorld('map', '.forecast-map-scene.is-active .forecast-map-frame', 0.78, 'bottom');
-    setTargets({ ...base, world });
+    addSafe('week-right', '.week-day:nth-child(7)', 0.5);
+    if (activeSceneRef.current === 'transport') {
+      document.querySelectorAll<HTMLElement>('.transit-scene.is-active .departure-board').forEach((board, index) => {
+        const surface = boxOf(board);
+        if (surface.right - surface.left < size || surface.bottom <= surface.top) return;
+        safe.push(landingSpotTarget('transport-' + index + '-left', surface, originBox, base.rest, size, 0.08, 'bottom'));
+        safe.push(landingSpotTarget('transport-' + index + '-middle', surface, originBox, base.rest, size, 0.5, 'bottom'));
+      });
+      addWorld('transport', '.transit-scene.is-active .departure-board', 0.82, 'bottom');
+    }
+    if (activeSceneRef.current === 'fact') {
+      addSafe('fact-image-left', '.daily-fact-scene.is-active .fact-illustration img', 0.08);
+      addWorld('fact', '.daily-fact-scene.is-active .fact-illustration img', 0.68);
+      addSafe('fact-footer-left', '.daily-fact-scene.is-active .fact-footer', 0.12);
+      addSafe('fact-footer-right', '.daily-fact-scene.is-active .fact-footer', 0.82);
+      addSafe('fact-transport', '.transport-mini', 0.5, 'top');
+    }
+    if (activeSceneRef.current === 'map') {
+      addSafe('map-top-left', '.forecast-map-scene.is-active .forecast-map-frame', 0.08);
+      addSafe('map-top-right', '.forecast-map-scene.is-active .forecast-map-frame', 0.75);
+      addSafe('map-bottom-left', '.forecast-map-scene.is-active .forecast-map-frame', 0.08, 'bottom');
+      addWorld('map', '.forecast-map-scene.is-active .forecast-map-frame', 0.78, 'bottom');
+      addSafe('map-transport', '.transport-mini', 0.5, 'top');
+    }
+    setTargets({ ...base, world, safe });
   }, []);
 
   // The active panel arrives over 450 ms. Measure once as it is mounted and
@@ -326,7 +374,7 @@ export default function Clock({ now, conditions = null, activeScene = 'transport
       <span className="clock-date">{ghost.date}</span>
     </div>}
 
-    {targets && !reduced && <Tenant mood={mood} targets={targets} activeScene={activeScene} previewSpot={petPreview} approachKey={approachKey} rollKey={rollKey} hourKey={hourKey}
+    {targets && !reduced && <Tenant mood={mood} targets={targets} activeScene={activeScene} previewSpot={petPreview} travelSpot={petTravel} approachKey={approachKey} rollKey={rollKey} hourKey={hourKey}
       nextDigit={nextDigit} rolledDigit={rolledDigit} busy={ghost !== null || piece !== null} onPlay={onPlay} onHome={onHome} />}
   </div>;
 }

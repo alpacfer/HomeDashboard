@@ -19,14 +19,14 @@
 //   --time <HH:MM>         Add ?time=: pin the clock to a Copenhagen time, so
 //                          an outfit can be checked against chosen digits.
 //   --pet <spot>           Add ?pet=: hold the Tenant at weather, week,
-//                          transport, fact or map for a deterministic check.
+//                          transport, fact or map. Prefix with travel- to
+//                          replay its safe-spot route before it holds.
 //   --transit-demo         Add ?transit=demo: the departure boards are drawn
 //                          from a synthetic answer holding a cancellation, a
 //                          long delay, an early departure, a platform change
 //                          and two service messages. No provider is asked. Use
 //                          it for any capture of how a delay or an incident is
 //                          marked: a live feed will not produce one to order.
-//   --narrow               720 x 900, the max-aspect-ratio: 5/4 layout.
 //   --width, --height      Viewport in CSS pixels. Default 1280 x 720.
 //   --scale <n>            Output pixels per CSS pixel. Default 1; 2 for detail.
 //   --clip <selector>      Crop to the first element matching the selector.
@@ -58,7 +58,7 @@ import { findChrome, launchChrome, openPage, pageUrl, waitForServer } from './li
 const ROOT = path.resolve(path.dirname(fileURLToPath(import.meta.url)), '..');
 
 function parseArgs(argv) {
-  const options = { classes: [], console: false, demo: false, offline: false, narrow: false, reducedMotion: false, transitDemo: false };
+  const options = { classes: [], console: false, demo: false, offline: false, reducedMotion: false, transitDemo: false };
   for (let index = 0; index < argv.length; index += 1) {
     const arg = argv[index];
     const next = () => { index += 1; return argv[index]; };
@@ -73,7 +73,6 @@ function parseArgs(argv) {
       case '--transit-demo': options.transitDemo = true; break;
       case '--time': options.time = value(); break;
       case '--pet': options.pet = value(); break;
-      case '--narrow': options.narrow = true; break;
       case '--width': options.width = Number(value()); break;
       case '--height': options.height = Number(value()); break;
       case '--scale': options.scale = Number(value()); break;
@@ -96,7 +95,6 @@ function parseArgs(argv) {
 
 function defaultName(options) {
   const parts = [options.scene ?? 'display'];
-  if (options.narrow) parts.push('narrow');
   if (options.reducedMotion) parts.push('reduced-motion');
   if (options.offline && !options.demo) parts.push('offline');
   if (options.demo) parts.push('demo');
@@ -112,8 +110,8 @@ async function main() {
     console.log((await header).split('\n').filter(line => line.startsWith('//')).map(line => line.slice(3)).join('\n'));
     return;
   }
-  const width = options.width ?? (options.narrow ? 720 : 1280);
-  const height = options.height ?? (options.narrow ? 900 : 720);
+  const width = options.width ?? 1280;
+  const height = options.height ?? 720;
   const scale = options.scale ?? 1;
   const wait = options.wait ?? 4000;
   const url = pageUrl(options);

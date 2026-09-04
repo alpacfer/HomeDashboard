@@ -1,5 +1,5 @@
 ---
-description: Capture the running dashboard at 1280 x 720 (or narrow) with scripts/screenshot.mjs
+description: Capture the running dashboard at 1280 x 720 with scripts/screenshot.mjs
 allowed-tools: Bash(npm run shot:*), Bash(node scripts/screenshot.mjs:*)
 ---
 
@@ -12,8 +12,7 @@ Capture the dashboard for visual confirmation. Arguments: $ARGUMENTS
    - `--scene transport|fact|map` pins the rotating panel;
    - `--offline` when the capture is not about the weather, so it spends no
      provider quota;
-   - `--narrow` for the `max-aspect-ratio: 5/4` layout, `--reduced-motion`
-     when animation was touched;
+   - `--reduced-motion` when animation was touched;
    - `--clip <selector>` for the smallest image that shows the change, e.g.
      `--clip .clock-block` or `--clip .weather-band`;
    - `--class ".clock-block=o-neon sp-domino"` to force an outfit or set piece.

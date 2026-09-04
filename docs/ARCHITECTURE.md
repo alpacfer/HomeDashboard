@@ -77,7 +77,7 @@ app/page.tsx (Home)
         └── validDailyFacts         lib/daily-facts.ts    date key and payload validation
 ```
 
-`app/globals.css` is the single visual system for the display. It contains the 16:9 layout, the narrow-screen layout, panel transitions, the condition palette (`.condition-*` classes set `--sky`, the colour the icon and degree sign take, and the tint behind the card, so sun reads amber, cloud slate, rain blue), and reduced-motion behavior. Keep component markup semantic and put layout changes in this stylesheet rather than adding one-off inline styles.
+`app/globals.css` is the single visual system for the display. It contains the fixed 1280 x 720 layout, panel transitions, the condition palette (`.condition-*` classes set `--sky`, the colour the icon and degree sign take, and the tint behind the card, so sun reads amber, cloud slate, rain blue), and reduced-motion behavior. Keep component markup semantic and put layout changes in this stylesheet rather than adding one-off inline styles.
 
 ## Data flow
 
@@ -165,7 +165,7 @@ The metadata is trusted for *when*, never for *whether the map still has anythin
 | Weather fetching, retry backoff, or staleness | `components/weather-panel.tsx` | `DEPLOYMENT.md`, `app/globals.css` |
 | The week ahead: its provider, thresholds, or day condition | `lib/daily-forecast.ts` | `components/week-strip.tsx`, `tests/daily-forecast.test.mjs`, `DEPLOYMENT.md` |
 | Condition colours or icons | `app/globals.css` (`.condition-*`), `components/condition-icons.ts` | `components/weather-panel.tsx`, `components/week-strip.tsx` |
-| Main layout or responsive sizing | `app/globals.css` | `app/page.tsx`, reduced-motion media query |
+| Main layout or display sizing | `app/globals.css` | `app/page.tsx`, reduced-motion media query |
 | Right-panel timing, or the `?scene=` debug pin | `lib/panel-rotation.ts` | `components/rotating-panel.tsx`, `tests/panel-rotation.test.mjs`, README |
 | The `?weather=off` flag, or a new debug flag | `lib/debug-flags.ts` | `tests/debug-flags.test.mjs`, the three weather components, `DEBUGGING.md` |
 | What is kept in device storage between reloads | `components/device-storage.ts` | the `valid*` guards in `lib/weather.ts` and `lib/precipitation-grid.ts`, `tests/stored-shapes.test.mjs` |
@@ -190,7 +190,7 @@ For a normal change:
 1. Update the smallest owning module and its corresponding test.
 2. Run `npm test` for behavior, `npm run lint` for code quality and `npm run check:rules` for the project rules.
 3. Run `npm run build` for the App Router, TypeScript, and production bundling check.
-4. For display changes, capture the result with `npm run shot` at the normal 16:9 layout and, when responsive CSS is touched, with `--narrow` for the `max-aspect-ratio: 5/4` layout. Add `--reduced-motion` when animations are touched, and `--offline` whenever the change is not about the weather. See [DEBUGGING.md](DEBUGGING.md).
+4. For display changes, capture the result with `npm run shot` at the supported 1280 x 720 viewport. Add `--reduced-motion` when animations are touched, and `--offline` whenever the change is not about the weather. See [DEBUGGING.md](DEBUGGING.md).
 
 The external weather, forecast map, and transit services are not required for unit tests. Provider credentials and live API verification are documented separately because they are environment-dependent.
 

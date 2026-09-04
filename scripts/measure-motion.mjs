@@ -19,10 +19,10 @@
 //   --pet <spot>           Hold the Tenant at a dashboard landmark.
 //   --url <url>            Page to load. Default http://127.0.0.1:3000/
 //   --fact <n>             Which daily fact, with --scene fact.
-//   --selector <css>       Canvas to watch. Default .forecast-map-overlay
+//   --selector <css>       Canvas or moving element to watch. Default
+//                          .forecast-map-overlay
 //   --seconds <n>          How long to watch. Default 4.
 //   --samples <n>          Content samples a second. Default 12.
-//   --narrow               720 x 900, the max-aspect-ratio: 5/4 layout.
 //   --width, --height      Viewport in CSS pixels. Default 1280 x 720.
 //   --reduced-motion       Emulate prefers-reduced-motion: reduce.
 //   --wait <ms>            Settle time after load. Default 4000.
@@ -54,7 +54,7 @@ import { findChrome, launchChrome, openPage, pageUrl, waitForServer } from './li
 const FLICKER_REVERSALS = 1.5;
 
 function parseArgs(argv) {
-  const options = { console: false, demo: false, offline: false, narrow: false, reducedMotion: false, transitDemo: false };
+  const options = { console: false, demo: false, offline: false, reducedMotion: false, transitDemo: false };
   for (let index = 0; index < argv.length; index += 1) {
     const arg = argv[index];
     const next = () => { index += 1; return argv[index]; };
@@ -74,7 +74,6 @@ function parseArgs(argv) {
       case '--selector': options.selector = value(); break;
       case '--seconds': options.seconds = Number(value()); break;
       case '--samples': options.samples = Number(value()); break;
-      case '--narrow': options.narrow = true; break;
       case '--width': options.width = Number(value()); break;
       case '--height': options.height = Number(value()); break;
       case '--reduced-motion': options.reducedMotion = true; break;
@@ -88,15 +87,37 @@ function parseArgs(argv) {
   return options;
 }
 
-// Watch one canvas from inside the page. Cadence comes from the draw calls the
-// page makes; content comes from downscaling the canvas into a small scratch
-// one and reading that back, which is cheap enough not to disturb what it is
-// measuring and works whatever the page draws with.
+// Watch one canvas or compositor-moved element from inside the page. Canvas
+// cadence comes from draw calls; an element is sampled on animation frames so
+// a Tenant route can be checked with the same command.
 function watcher(selector, seconds, samples) {
   return `(async () => {
   const canvas = document.querySelector(${JSON.stringify(selector)});
   if (!canvas) return { error: 'nothing matches ' + ${JSON.stringify(selector)} };
-  if (!canvas.getContext) return { error: ${JSON.stringify(selector)} + ' is not a canvas' };
+  if (!canvas.getContext) {
+    const frames = [];
+    const until = performance.now() + ${seconds} * 1000;
+    while (performance.now() < until) {
+      await new Promise(resolve => requestAnimationFrame(resolve));
+      const box = canvas.getBoundingClientRect();
+      frames.push({ at: performance.now(), x: box.left, y: box.top, pose: canvas.className });
+    }
+    const gaps = frames.slice(1).map((frame, index) => frame.at - frames[index].at).sort((a, b) => a - b);
+    const quantile = at => gaps.length ? gaps[Math.min(gaps.length - 1, Math.floor(gaps.length * at))] : 0;
+    let distance = 0, moving = 0, jumps = 0, charges = 0;
+    for (let index = 1; index < frames.length; index += 1) {
+      const step = Math.hypot(frames[index].x - frames[index - 1].x, frames[index].y - frames[index - 1].y);
+      distance += step;
+      if (step > 0.1) moving += 1;
+      if (!String(frames[index - 1].pose).includes('pose-jumping') && String(frames[index].pose).includes('pose-jumping')) jumps += 1;
+      if (!String(frames[index - 1].pose).includes('pose-charging') && String(frames[index].pose).includes('pose-charging')) charges += 1;
+    }
+    return {
+      kind: 'element', frames: frames.length, moving, distance, jumps, charges,
+      seconds: frames.length > 1 ? (frames[frames.length - 1].at - frames[0].at) / 1000 : 0,
+      gap: { min: quantile(0), median: quantile(0.5), p90: quantile(0.9), max: gaps.length ? gaps[gaps.length - 1] : 0 },
+    };
+  }
   const proto = CanvasRenderingContext2D.prototype;
   const originals = { drawImage: proto.drawImage, putImageData: proto.putImageData };
   const stamps = [];
@@ -169,8 +190,8 @@ async function main() {
     console.log(source.split('\n').filter(line => line.startsWith('//')).map(line => line.slice(3)).join('\n'));
     return;
   }
-  const width = options.width ?? (options.narrow ? 720 : 1280);
-  const height = options.height ?? (options.narrow ? 900 : 720);
+  const width = options.width ?? 1280;
+  const height = options.height ?? 720;
   const seconds = options.seconds ?? 4;
   const samples = options.samples ?? 12;
   const selector = options.selector ?? '.forecast-map-overlay';
@@ -187,8 +208,29 @@ async function main() {
     if (measured.error) throw new Error('--selector: ' + measured.error);
 
     console.log(selector + '  ' + width + 'x' + height + '  ' + url);
-    if (state.message) console.log('  the panel is showing "' + state.message.trim() + '", so there may be nothing to measure');
+    if (measured.kind !== 'element' && state.message) console.log('  the panel is showing "' + state.message.trim() + '", so there may be nothing to measure');
     console.log('');
+    if (measured.kind === 'element') {
+      const fps = measured.frames > 1 ? (measured.frames - 1) / measured.seconds : 0;
+      console.log(bar('animation frames', measured.frames + '  (' + fps.toFixed(1) + ' a second)'));
+      console.log(bar('gap between frames', ['min', 'median', 'p90', 'max']
+        .map(key => measured.gap[key].toFixed(1)).join(' / ') + ' ms   (min / median / p90 / max)'));
+      console.log(bar('moving frames', measured.moving));
+      console.log(bar('path sampled', measured.distance.toFixed(1) + ' px'));
+      console.log(bar('charge / jump starts', measured.charges + ' / ' + measured.jumps));
+      const evenness = measured.gap.median > 0 ? measured.gap.max / measured.gap.median : 0;
+      console.log('');
+      console.log(measured.jumps < 1
+        ? '  No jump began during the measurement window.'
+        : evenness > 2
+          ? '  Movement sampled, but its worst frame gap was ' + evenness.toFixed(1) + ' times the median.'
+          : '  Jump movement is evenly paced.');
+      const problems = logged.filter(entry => ['warning', 'error', 'exception'].includes(entry.level));
+      if (problems.length) console.log('\n' + problems.length + ' console warning(s)/error(s)' + (options.console ? '' : ' (pass --console to see them)'));
+      if (options.console) for (const entry of logged) console.log('  [' + entry.level + '] ' + entry.text);
+      if (measured.jumps < 1) process.exitCode = 1;
+      return;
+    }
     if (measured.paints < 2) {
       console.log('  no painting at all in ' + seconds + ' s.');
       console.log('  If the page is hidden its animation frames never run; visibility is ' + state.visibility + '.');

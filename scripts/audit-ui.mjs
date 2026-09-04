@@ -2,14 +2,8 @@
 //
 // `npm run shot` proves what a moment looks like, and `npm run motion` proves
 // what it does over time. Neither says whether the layout is *correct*, and
-// three faults have now shipped through a green check, a passing suite and
-// screenshots that were looked at:
-//
-//   - a live dot stranded on its own line in the narrow layout, because the
-//     cell was too narrow for a marker and two times;
-//   - the transport boards running off the bottom of the narrow viewport,
-//     found only by capturing the same scene twice and comparing by eye;
-//   - grey-on-black text nobody had ever measured.
+// faults have shipped through a green check, a passing suite and screenshots
+// that were looked at, including grey-on-black text nobody had ever measured.
 //
 // Every one is mechanical, and every one is invisible in a PNG unless you are
 // already looking for it. This loads each scene in a real rendering browser and
@@ -33,7 +27,6 @@
 //   --scene, --fact, --offline, --demo, --transit-demo, --time, --pet
 //                          The usual debug flags, applied to a one-off audit
 //                          instead of the matrix. See scripts/lib/browser.mjs.
-//   --narrow               720 x 900, the max-aspect-ratio: 5/4 layout.
 //   --width, --height      Viewport in CSS pixels. Default 1280 x 720.
 //   --reduced-motion       Emulate prefers-reduced-motion: reduce.
 //   --wait <ms>            Settle time after load. Default 4000.
@@ -51,8 +44,7 @@ import { findChrome, launchChrome, openPage, pageUrl, waitForServer } from './li
 const ROOT = path.resolve(path.dirname(fileURLToPath(import.meta.url)), '..');
 
 // The states worth checking, and why each one is here rather than another.
-// Every scene is checked in both layouts, because the narrow one is where the
-// room runs out first and where both layout faults so far have been.
+// Every scene is checked at the Fire TV's fixed 1280 x 720 viewport.
 const MATRIX = [
   { name: 'transport', why: 'the boards, with real departures', args: { scene: 'transport', offline: true } },
   { name: 'transport-marked', why: 'every delay, cancellation and service message at once', args: { scene: 'transport', offline: true, transitDemo: true } },
@@ -86,7 +78,7 @@ const FURNITURE = [
 ];
 
 function parseArgs(argv) {
-  const options = { scenes: [], console: false, demo: false, offline: false, narrow: false, reducedMotion: false, transitDemo: false, shots: false, all: false };
+  const options = { scenes: [], console: false, demo: false, offline: false, reducedMotion: false, transitDemo: false, shots: false, all: false };
   for (let index = 0; index < argv.length; index += 1) {
     const arg = argv[index];
     const next = () => { index += 1; return argv[index]; };
@@ -101,7 +93,6 @@ function parseArgs(argv) {
       case '--transit-demo': options.transitDemo = true; break;
       case '--time': options.time = value(); break;
       case '--pet': options.pet = value(); break;
-      case '--narrow': options.narrow = true; break;
       case '--width': options.width = Number(value()); break;
       case '--height': options.height = Number(value()); break;
       case '--min-font': options.minFont = Number(value()); break;
@@ -157,12 +148,8 @@ const AUDIT = (singleLine, exempt, minFont, contrastFloor) => `(() => {
     add('error', 'page-scrolls', document.body, 'content is ' + document.documentElement.scrollWidth + 'px wide in a ' + view.width + 'px viewport');
   }
 
-  // 2. Content that is cut off with no way to bring it back. Being past the
-  //    bottom of the viewport is not itself the fault: the narrow layout sets
-  //    height:auto and overflow:visible on purpose, so the page scrolls and
-  //    everything is reachable. The fault is being clipped by an ancestor that
-  //    hides its overflow, which is what the 16:9 layout does at 100vh — there
-  //    the content is simply gone, and there is no pointer to scroll it back.
+  // 2. Content that is cut off with no way to bring it back. The fixed display
+  //    has no pointer, so anything clipped by an ancestor is simply gone.
   const cutBy = (node, box) => {
     for (let element = node.parentElement; element; element = element.parentElement) {
       const style = getComputedStyle(element);
@@ -197,12 +184,9 @@ const AUDIT = (singleLine, exempt, minFont, contrastFloor) => `(() => {
       + ' — "' + text(node).slice(0, 40) + '"');
   }
 
-  // The page scrolling is only a fault where the layout says it should not:
-  // a wall display has no pointer, so anything below the fold is unreachable.
+  // A wall display has no pointer, so anything below the fold is unreachable.
   const scrolls = document.documentElement.scrollHeight > document.documentElement.clientHeight + 1;
-  const meantTo = getComputedStyle(document.querySelector('.dashboard') ?? document.body).overflow === 'visible';
-  if (scrolls && !meantTo) add('error', 'page-scrolls', document.body, 'the page is ' + document.documentElement.scrollHeight + 'px tall in a ' + view.height + 'px viewport, and there is no pointer to scroll it');
-  if (scrolls && meantTo) add('note', 'page-scrolls', document.body, 'page is ' + document.documentElement.scrollHeight + 'px tall; this layout scrolls by design');
+  if (scrolls) add('error', 'page-scrolls', document.body, 'the page is ' + document.documentElement.scrollHeight + 'px tall in a ' + view.height + 'px viewport, and there is no pointer to scroll it');
 
   // 3. The single-line contract. A second line box here is a marker stranded
   //    above its digits or a number split from its unit.
@@ -275,17 +259,13 @@ const wait = options.wait ?? 4000;
 // A one-off audit when any page flag is given; the whole matrix otherwise.
 const oneOff = options.scenes.length === 0 && (options.offline || options.demo || options.transitDemo || options.time || options.fact !== undefined || options.url);
 const chosen = oneOff
-  ? [{ name: 'custom', why: 'the flags given on the command line', args: options, only: options.narrow ? 'narrow' : '16:9' }]
+  ? [{ name: 'custom', why: 'the flags given on the command line', args: options }]
   : MATRIX.filter(scene => options.scenes.length === 0 || options.scenes.includes(scene.name));
 if (!chosen.length) throw new Error('No scene matches. Known scenes: ' + MATRIX.map(scene => scene.name).join(', '));
 
-const LAYOUTS = [
-  { name: '16:9', width: 1280, height: 720 },
-  { name: 'narrow', width: 720, height: 900 },
-];
 const layouts = oneOff
-  ? [{ name: options.narrow ? 'narrow' : '16:9', width: options.width ?? (options.narrow ? 720 : 1280), height: options.height ?? (options.narrow ? 900 : 720) }]
-  : LAYOUTS;
+  ? [{ name: 'custom', width: options.width ?? 1280, height: options.height ?? 720 }]
+  : [{ name: '1280x720', width: 1280, height: 720 }];
 
 const firstUrl = pageUrl({ ...options, ...(chosen[0].args ?? {}) });
 await waitForServer(firstUrl);

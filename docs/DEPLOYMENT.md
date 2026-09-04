@@ -158,11 +158,10 @@ it blank. Read the user agent string on the device, write the version into the
 table above, and only then consider adding a `browserslist` key to
 `package.json` to pin build output to that baseline.
 
-At 1280 x 720 the viewport aspect ratio is 16:9, so the main layout in
-`app/globals.css` applies and the `max-aspect-ratio: 5/4` block does not. The
-layout is sized in `vw`/`vh`, so it scales, but text legibility at TV viewing
-distance is a separate question from layout correctness: check the real screen,
-not just a resized desktop window.
+The only supported viewport is 1280 x 720 (16:9). The layout is sized in
+`vw`/`vh` for that display, but text legibility at TV viewing distance is a
+separate question from layout correctness: check the real screen, not just a
+resized desktop window.
 
 Televisions may also crop the outer few percent of the picture. The
 `padding: 6vh 5vw` on `.dashboard` is the margin that absorbs it. Do not reduce

@@ -23,10 +23,15 @@ test('the clock can be pinned to a Copenhagen time, and only to one that exists'
 
 test('the pet can be pinned only to a known dashboard landmark', () => {
   assert.equal(debugFlags('').pet, null);
+  assert.equal(debugFlags('').petTravel, null);
   for (const spot of ['weather', 'week', 'transport', 'fact', 'map']) {
     assert.equal(debugFlags('?pet=' + spot).pet, spot);
+    assert.equal(debugFlags('?pet=' + spot).petTravel, null);
+    assert.equal(debugFlags('?pet=travel-' + spot).pet, null);
+    assert.equal(debugFlags('?pet=travel-' + spot).petTravel, spot);
   }
   assert.equal(debugFlags('?pet=clock').pet, null);
+  assert.equal(debugFlags('?pet=travel-clock').petTravel, null);
   assert.equal(debugFlags('?pet=MAP').pet, null);
 });
 

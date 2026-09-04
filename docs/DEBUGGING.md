@@ -10,13 +10,14 @@ npm run shot -- [options]     screenshot the running dashboard, headless Chrome,
 npm run motion -- [options]   measure whether an animation is smooth or flickering
 npm run probe                 ask every forecast provider as the browser would
 npm run probe:transit         ask every departure provider as the route would
-npm run audit                 check every scene in both layouts for layout faults
+npm run audit                 check every scene at 1280 x 720 for layout faults
 npm run check:rules           the AGENTS.md rules a script can check
 /?scene=map                   pin the rotating panel (README)
 /?weather=off                 make no weather request at all
 /?weather=demo                as off, but the map draws a synthetic run
 /?time=08:46                  pin the clock to a Copenhagen time
 /?pet=map                     hold the Tenant at a measured UI landmark
+/?pet=travel-map              replay its safe-spot journey to that landmark
 ```
 
 ## URL flags
@@ -33,6 +34,7 @@ can never leave the wall display stuck. They combine:
 | `?weather=demo` | Makes no request either, but the forecast map draws the synthetic run in `lib/precipitation-demo.ts`: a band crossing the frame, hour by hour with the quarters inside an hour identical, exactly the shape the real provider returns. It is the only way to photograph the map's animation without buying a grid, and it is deterministic, so two captures of the same change are comparable. | `lib/debug-flags.ts` |
 | `?time=HH:MM` | The clock reads that Copenhagen time; seconds still tick, so the minute still rolls. Everything that reads the clock follows: the wardrobe, the Tenant's mood, the ribbon's window. For checking an outfit against chosen digits, since a face that clips on a 4 looks fine at 21:21. | `lib/debug-flags.ts` |
 | `?pet=weather`, `week`, `transport`, `fact`, `map` | Holds the Tenant at that measured UI landmark. This checks its destination poses without waiting for curiosity to select an adventure; normal travel is unchanged when the flag is absent. | `lib/debug-flags.ts` |
+| `?pet=travel-weather`, `travel-week`, `travel-transport`, `travel-fact`, `travel-map` | Sends the Tenant from home to that landmark through its real measured landing pads, then holds it there. Use a screenshot sequence to inspect charge, parabola and chained landings without waiting for curiosity. | `lib/debug-flags.ts` |
 
 Use `weather=off` for any capture that is not about the weather, and
 `weather=demo` for one that is about the forecast map. The reason is quota,
@@ -87,6 +89,15 @@ The same regression is guarded offline, with no browser, by
 loop really paints and asserts on the colour bytes that come out. That one runs
 in `npm run check`; this one needs a dev server, so it does not.
 
+For a compositor-moved DOM element, pass its selector instead of a canvas. The
+command samples its box on animation frames and reports frame cadence, sampled
+path length, and how many charge and jump phases began. The Tenant's
+deterministic travel flag makes this reproducible:
+
+```sh
+npm run motion -- --scene transport --offline --pet travel-transport --selector .tenant --wait 200
+```
+
 To *see* motion rather than measure it, `npm run shot -- --sequence 3 --every
 900` writes three frames from a single page load. One browser for the lot:
 starting one per moment is most of a minute each time.
@@ -103,7 +114,6 @@ Ubuntu, macOS and the GitHub runners; pass `--chrome <path>` otherwise.
 npm run shot -- --scene transport --offline            # 1280 x 720, no weather requests
 npm run shot -- --scene transport --offline --transit-demo  # ... with every delay and incident mark
 npm run shot -- --scene map                             # the map, live data
-npm run shot -- --narrow --scene fact --fact 1          # the max-aspect-ratio: 5/4 layout
 npm run shot -- --clip .weather-band --scale 2          # one element, at 2x
 npm run shot -- --offline --time 08:46 --clip .clock-block --class ".clock-block=clock-block o-neon"
 npm run shot -- --offline --clip .clock-block --class ".clock-block=clock-block o-neon sp-domino" --freeze 800
@@ -137,17 +147,15 @@ this script instead.
 
 ## Is the layout right? `npm run audit`
 
-`scripts/audit-ui.mjs` loads every scene in both layouts in one browser and asks
-the page about itself. It exists because three layout faults reached the display
-through a green check, a passing suite and screenshots that were looked at: a
-live dot stranded on its own line in a cell too narrow for it, the transport
-boards running off the bottom of the narrow viewport, and a clipped map playhead
-in a layout nobody ever captured. Every one is mechanical, and every one is
-invisible in a PNG unless you already know to look.
+`scripts/audit-ui.mjs` loads every scene at the Fire TV's fixed 1280 x 720
+viewport in one browser and asks the page about itself. It exists because
+layout faults have reached the display through a green check, a passing suite
+and screenshots that were looked at. These faults are mechanical and invisible
+in a PNG unless you already know to look.
 
 ```sh
-npm run audit                      # 8 states, about 30 s, text out
-npm run audit -- --scene map       # one scene, both layouts
+npm run audit                      # 4 states, text out
+npm run audit -- --scene map       # one scene at 1280 x 720
 npm run audit -- --shots           # ... and a PNG per state, same page loads
 npm run audit -- --all             # notes too
 ```
@@ -157,7 +165,7 @@ What it reports:
 | Kind | Means |
 | --- | --- |
 | `clipped` | An ancestor hides its overflow and part of this element is outside it, with no pointer to scroll it back. Graded by how much of the element is gone, not by pixels: a hairline on a tall panel is a warning that the layout is at its limit, a third of a label is an error. |
-| `page-scrolls` | The page is taller than the viewport where the layout does not intend it. The narrow layout scrolls by design and is only noted. |
+| `page-scrolls` | The page is taller than the fixed viewport, so content would be unreachable. |
 | `wrapped` | Something in the single-line contract in the script rendered on two lines. Text is meant to wrap, so this is an explicit list, not a guess. |
 | `tiny-text` | Below the legibility floor for a screen read from across a room. Required attribution and debug chrome are exempt. |
 | `contrast` | Measured against the first ancestor that actually paints a background, with translucent ink blended first. |
@@ -165,8 +173,7 @@ What it reports:
 
 It needs the dev server, the same as `npm run shot`, and exits 1 on an error so
 it can gate a change. Run it before reaching for a screenshot after any CSS
-change: it is faster, it covers both layouts, and it looks at the things eyes
-skip.
+change: it covers every scene and looks at the things eyes skip.
 
 ## Why is the weather card muted? `npm run probe`
 

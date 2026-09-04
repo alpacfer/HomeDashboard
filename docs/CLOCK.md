@@ -126,23 +126,27 @@ wiggling, leaning, yawning, hopping, scratching, sneezing, waving, dozing and
 listening. The cadence varies with energy rather than following independent
 metronomes.
 
-The Tenant is no longer confined to the clock. `Clock` measures five safe
-landmarks using their real DOM boxes: the weather card, a day in the week strip,
-the active transport board, the daily-fact illustration and the forecast map.
-A scene change raises interest in its new landmark; on some later decision the
-Tenant crosses the dashboard in several planted bounds, then reacts to what it
-finds—reading the week, waiting at departures, admiring a fact or tracking the
-map. If that scene rotates away, it turns around from its actual current
-position and comes home. The weather itself also prompts a sneeze, drowsy slump,
+The Tenant is no longer confined to the clock. `Clock` measures five destination
+landmarks and a network of safe landing pads from their real DOM boxes: the
+weather card, rain ribbon, week days, active transport-board rules, fact image
+and footer, forecast-map edges and the compact departures rule. A long route is
+a chain of jumps through those pads; a nearby destination is one jump. Every hop
+charges with an anticipation squash, follows a quadratic parabola and lands
+fully before the next one begins, so it never glides diagonally through the UI
+or bounces on an invented point in empty space. A scene change raises interest
+in its new landmark; on some later decision the Tenant travels there and reacts
+to what it finds—reading the week, waiting at departures, admiring a fact or
+tracking the map. If that scene rotates away, it routes home from its actual
+current position. The weather itself also prompts a sneeze, drowsy slump,
 listening pose or wiggle when the mood changes. Its small arm sits opposite the
 tail and lifts for waves and weather props.
 
-1.6 s before the minute boundary (`shouldApproach`) it walks over
-to the last digit, feet stepping and body bobbing, and holds a ready pose; when
+1.6 s before the minute boundary (`shouldApproach`) it makes a short charged
+jump to the last digit and holds a ready pose; when
 the roll actually arrives, which the one-second tick can deliver up to a second
 late, it strikes (`pickStrike`: a shove, a kick with the front foot, or a
-headbutt) and the digit rolls out under the blow; then it walks back. If no
-roll follows, it walks back after 3.5 s. Every 25 to 45 seconds it climbs onto
+headbutt) and the digit rolls out under the blow; then it jumps back. If no
+roll follows, it returns after 3.5 s. Every 25 to 45 seconds it climbs onto
 a digit or the colon (`pickPerch`, the minutes favoured) and stays 6 to 14
 seconds, less on the colon. What it does up there depends on what it is
 standing on (`pickPerchAction`): on a bar it paces a few steps each way, sits
@@ -164,15 +168,16 @@ While the Tenant is off its resting spot, `Clock` postpones set pieces, so the
 digit it is standing on does not fly away under it; the hour pieces are the
 exception, since they follow the roll it has just struck.
 
-**Motion.** Walking poses are CSS transitions on `transform`, so a move
-interrupted by a late roll continues from wherever the Tenant is. The perch is
-a transition too: when the digit under it rolls or changes face, the remeasured
-apex carries it smoothly to the new top, and its stance changes with the shape.
-The climb, the descents, the fall and the hour are keyframes whose first and
-last frames equal the poses on either side of them. Every descent and the fall
-start from `--from-x/y`, the element's actual translation read from its
-computed transform at that instant, so a step still in flight, or a perch
-remeasured while it is in the air, never makes it jump. The SVG is layered so nothing fights: the positioned
+**Motion.** Voluntary movement uses compositor-only jump keyframes. Pure route
+logic selects measured landing pads and samples each parabola at its quarters;
+the component advances one charge and flight timer at a time. A trip interrupted
+by a scene change reads the current transform and plans home from that exact
+point. The perch remains a transition: when the digit under it rolls or changes
+face, the remeasured apex carries it smoothly to the new top, and its stance
+changes with the shape. The climb, descents, fall and hour are keyframes whose
+first and last frames equal the poses on either side of them. Every descent and
+the fall start from `--from-x/y`, the element's actual translation read from its
+computed transform at that instant. The SVG is layered so nothing fights: the positioned
 element carries poses, `.t-figure` breathing, the walk bob and the balance for
 the top's shape, `.t-gest` gestures and perch actions, `.t-pose` the sticky
 sitting squash, and each animates only its own transform.
@@ -194,3 +199,5 @@ poses are classes on `.tenant` in the same way (`pose-perched on-round
 pa-slip`, `pose-strike s-kick`), positioned by the custom properties the
 component sets on it. Add `?pet=weather`, `week`, `transport`, `fact` or `map`
 to hold it at a measured dashboard landmark for a reproducible visual check.
+Prefix the value with `travel-` (for example `?pet=travel-map`) to replay the
+real safe-spot route and hold only after it arrives.

@@ -1,9 +1,9 @@
 import { test } from 'node:test';
 import assert from 'node:assert/strict';
 import {
-  DOTS_SPOT, inkBox, inkColumns, msToNextMinute, nextChangingDigit, perchDuration, perchIdleDelay,
+  DOTS_SPOT, inkBox, inkColumns, landingSpotTarget, msToNextMinute, nextChangingDigit, perchDuration, perchIdleDelay,
   pickDescent, pickHourAction, pickIdle, pickPerch, pickPerchAction, pickStrike, shouldApproach, tenantMood, tenantTargets, topProfile,
-  worldSpotTarget, worldTravelDuration,
+  tenantHopArc, tenantTravelRoute, worldSpotTarget,
 } from '../lib/clock-tenant.ts';
 
 const at = time => new Date('2026-09-03T' + time + 'Z');
@@ -189,11 +189,12 @@ test('targets put the Tenant against the last digit and on top of any digit', ()
   assert.equal(targets.pushX, -21);
   assert.equal(targets.perch.length, 4, 'no colon measured, no fifth spot');
   assert.deepEqual(targets.world, []);
+  assert.deepEqual(targets.safe, []);
   assert.deepEqual(targets.perch[3], { x: 270 - 343, y: 20 - 100, kind: 'flat', pace: 0, slide: 1 }, 'without a profile, centred and flat');
   assert.deepEqual(targets.perch[2].y, 30 - 100, 'a shorter glyph gives a lower perch');
 });
 
-test('world targets put the feet on a measured UI edge and travel time is bounded', () => {
+test('world and safe targets put the feet on a measured UI edge', () => {
   const origin = { left: 50, top: 30, right: 450, bottom: 300 };
   const rest = { left: 300, top: 40 };
   const surface = { left: 600, top: 200, right: 900, bottom: 500 };
@@ -201,8 +202,40 @@ test('world targets put the feet on a measured UI edge and travel time is bounde
     id: 'map', x: 437.5, y: 80, look: -1,
   });
   assert.equal(worldSpotTarget('transport', surface, origin, rest, 50, 0, 'bottom').y, 380);
-  assert.equal(worldTravelDuration({ x: 0, y: 0 }), 1900);
-  assert.equal(worldTravelDuration({ x: 2000, y: 0 }), 4300);
+  assert.deepEqual(landingSpotTarget('edge', surface, origin, rest, 50, 0.25, 'bottom'), {
+    key: 'edge', x: 312.5, y: 380,
+  });
+});
+
+test('a travel hop charges into a parabola and lands exactly on its safe spot', () => {
+  const from = { x: 10, y: 80 };
+  const to = { x: 210, y: 20 };
+  const arc = tenantHopArc(from, to, 50);
+  assert.ok(arc.duration >= 620 && arc.duration <= 980);
+  assert.equal(arc.quarter.x, 60);
+  assert.equal(arc.apex.x, 110);
+  assert.equal(arc.threeQuarter.x, 160);
+  const straightApex = (from.y + to.y) / 2;
+  assert.ok(arc.apex.y < straightApex - 35, 'the apex rises well above a straight path');
+  assert.ok(arc.quarter.y < from.y + (to.y - from.y) * 0.25, 'the first quarter has left the ground line');
+  assert.ok(arc.threeQuarter.y < from.y + (to.y - from.y) * 0.75, 'the last quarter is still airborne');
+});
+
+test('long travel is chained through measured safe spots, while a close target is one jump', () => {
+  const from = { x: 0, y: 0 };
+  const to = { x: 600, y: 0 };
+  const safe = [
+    { key: 'one', x: 180, y: 0 },
+    { key: 'two', x: 360, y: 0 },
+    { key: 'three', x: 500, y: 0 },
+  ];
+  assert.deepEqual(tenantTravelRoute(from, to, safe, 50), [safe[0], safe[1], safe[2], to]);
+  assert.deepEqual(tenantTravelRoute(from, { x: 100, y: 20 }, safe, 50), [{ x: 100, y: 20 }]);
+});
+
+test('a gap in the safe-spot graph still uses a real landing pad instead of a direct glide', () => {
+  const middle = { key: 'middle', x: 260, y: 80 };
+  assert.deepEqual(tenantTravelRoute({ x: 0, y: 0 }, { x: 700, y: 0 }, [middle], 40), [middle, { x: 700, y: 0 }]);
 });
 
 test('with profiles the perch is the apex, pacing room comes from the plateau, and the colon is a ball', () => {

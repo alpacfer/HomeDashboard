@@ -19,6 +19,7 @@ export default function Home() {
   const [conditions, setConditions] = useState<Conditions | null>(null);
   const [activeScene, setActiveScene] = useState<Rotation['phase']>('transport');
   const [petPreview] = useState<WorldSpotId | null>(() => typeof window === 'undefined' ? null : debugFlags(window.location.search).pet);
+  const [petTravel] = useState<WorldSpotId | null>(() => typeof window === 'undefined' ? null : debugFlags(window.location.search).petTravel);
 
   useEffect(() => {
     // Debug: `?time=HH:MM` pins the clock to a Copenhagen time. See lib/debug-flags.ts.
@@ -42,7 +43,7 @@ export default function Home() {
     <main className="dashboard">
       <KeepAwake />
       <aside className="display-shell" aria-label="Clock and weather">
-        <Clock now={now} conditions={conditions} activeScene={activeScene} petPreview={petPreview} />
+        <Clock now={now} conditions={conditions} activeScene={activeScene} petPreview={petPreview} petTravel={petTravel} />
         <WeatherPanel now={now} onConditions={setConditions} />
         <WeekStrip now={now} />
       </aside>

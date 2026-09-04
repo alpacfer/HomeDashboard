@@ -95,7 +95,7 @@ jobs:
           npm start &
           npm run shot -- --scene transport --offline --out screenshots/transport.png
           npm run shot -- --scene map --offline --out screenshots/map.png
-          npm run shot -- --scene fact --offline --narrow --out screenshots/fact-narrow.png
+          npm run shot -- --scene fact --offline --out screenshots/fact.png
           npm run shot -- --offline --reduced-motion --clip .display-shell --out screenshots/clock-reduced-motion.png
 
       - uses: actions/upload-artifact@v4
