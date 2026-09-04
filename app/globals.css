@@ -252,7 +252,11 @@ a:focus-visible { outline:2px solid var(--foreground); outline-offset:8px; }
   .timeline-track i { top:-.7vw; height:2.5vw; }
   .timeline-playhead { top:-2vw; font-size:2.2vw; padding:.6vw 1vw; border-radius:.8vw; }
   .timeline-hours { height:3vw; margin-top:1.6vw; font-size:2vw; }
-  .forecast-map-timeline { right:11vw; }
+  /* The narrow playhead stands 2vw above its track, so the track cannot sit
+     1vw below the frame: the label's top was cut off by the frame's own
+     overflow:hidden. Found by `npm run audit`, which is the only thing that
+     ever looked at this scene in this layout. */
+  .forecast-map-timeline { top:2.6vw; right:11vw; }
   .forecast-map-credit { right:1.2vw; bottom:1.2vw; font-size:1.35vw; padding:.9vw 1.1vw; }
   .leaflet-tooltip.forecast-map-label { padding:.6vw .85vw; font-size:1.45vw; }
   .forecast-map-timestamp { top:2vw; left:2vw; gap:1.1vw; padding:1.1vw 1.35vw; font-size:2.3vw; }

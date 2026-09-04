@@ -100,9 +100,10 @@ against chosen digits. All three are parsed in `lib/debug-flags.ts`.
 npm run shot -- --scene transport --offline   # 1280 x 720 PNG under screenshots/
 npm run probe                                 # which forecast provider is answering, and why not
 npm run probe:transit                         # which departure provider is answering, and what it shows
+npm run audit                                 # every scene in both layouts, checked for layout faults
 ```
 
-All three are plain Node scripts and are described in [docs/DEBUGGING.md](docs/DEBUGGING.md).
+All four are plain Node scripts and are described in [docs/DEBUGGING.md](docs/DEBUGGING.md).
 
 ## Configuration
 

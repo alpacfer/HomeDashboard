@@ -30,6 +30,7 @@ npm test          # node:test over tests/*.test.mjs
 npm run shot -- --scene map            # screenshot the running display, 1280 x 720, headless Chrome
 npm run probe                          # ask every forecast provider as the browser would
 npm run probe:transit                  # ask every departure provider as the route would
+npm run audit                          # every scene in both layouts, checked for layout faults
 ```
 
 ## Debugging tools
@@ -58,6 +59,15 @@ screen. In short:
 - **`npm run probe`** (`scripts/probe-forecast.mjs`) says which forecast
   provider is answering and why the others are not. Run it first when the
   weather card is muted or shows the dot.
+- **`npm run audit`** (`scripts/audit-ui.mjs`) loads every scene in both
+  layouts in one browser and asks the page about itself: content clipped by an
+  ancestor that hides its overflow, elements that must stay on one line and
+  did not, text below the legibility floor, and contrast against the real
+  backdrop. **Run it after any CSS or layout change**, before reaching for a
+  screenshot: eight states cost about thirty seconds and read as text, and it
+  catches the faults a PNG shows but nobody notices. `--shots` writes a PNG per
+  state from the same page loads, which is the fast way to re-capture
+  everything. Exit code 1 on an error-level finding.
 - **`npm run probe:transit`** (`scripts/probe-transit.mjs`) does the same for
   departures: which provider answers, what each board would show, and how every
   delay, cancellation and platform change would be marked. Run it first when
@@ -189,7 +199,10 @@ For every requested change that affects rendered behaviour, run the dashboard
 and capture a screenshot of the relevant state before delivering. Show that
 screenshot in the final response.
 
-Take it with `npm run shot` (see Debugging tools above). Use the smallest
+Run `npm run audit` first: it is faster than a capture, it covers both layouts
+at once, and a screenshot that looks right can still be clipping content or
+wrapping a marker onto its own line. Then take the picture with `npm run shot`
+(see Debugging tools above). Use the smallest
 screenshot that demonstrates the change: `--clip .clock-block` for a clock
 change, `--clip .weather-band` for the weather card, the relevant panel for a
 rotating-panel change. To reach a rotating scene without waiting for the

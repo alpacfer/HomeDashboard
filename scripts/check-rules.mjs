@@ -99,7 +99,7 @@ for (const [, id, family] of faces) {
 //    same scene. scripts/lib/browser.mjs builds the URL for both and names the
 //    flags; this is the check that neither script has fallen behind it.
 const { URL_FLAGS } = await import('./lib/browser.mjs');
-for (const script of ['scripts/screenshot.mjs', 'scripts/measure-motion.mjs']) {
+for (const script of ['scripts/screenshot.mjs', 'scripts/measure-motion.mjs', 'scripts/audit-ui.mjs']) {
   const source = await read(script);
   for (const flag of URL_FLAGS) {
     if (!source.includes("case '" + flag + "':")) {

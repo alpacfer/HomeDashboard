@@ -10,6 +10,7 @@ npm run shot -- [options]     screenshot the running dashboard, headless Chrome,
 npm run motion -- [options]   measure whether an animation is smooth or flickering
 npm run probe                 ask every forecast provider as the browser would
 npm run probe:transit         ask every departure provider as the route would
+npm run audit                 check every scene in both layouts for layout faults
 npm run check:rules           the AGENTS.md rules a script can check
 /?scene=map                   pin the rotating panel (README)
 /?weather=off                 make no weather request at all
@@ -130,6 +131,39 @@ npm run shot -- --console                               # print what the page lo
 The browser pane's own screenshots are unreliable for the clock: its crop is
 unsupported, its waits are capped, and a hidden pane returns stale frames. Use
 this script instead.
+
+## Is the layout right? `npm run audit`
+
+`scripts/audit-ui.mjs` loads every scene in both layouts in one browser and asks
+the page about itself. It exists because three layout faults reached the display
+through a green check, a passing suite and screenshots that were looked at: a
+live dot stranded on its own line in a cell too narrow for it, the transport
+boards running off the bottom of the narrow viewport, and a clipped map playhead
+in a layout nobody ever captured. Every one is mechanical, and every one is
+invisible in a PNG unless you already know to look.
+
+```sh
+npm run audit                      # 8 states, about 30 s, text out
+npm run audit -- --scene map       # one scene, both layouts
+npm run audit -- --shots           # ... and a PNG per state, same page loads
+npm run audit -- --all             # notes too
+```
+
+What it reports:
+
+| Kind | Means |
+| --- | --- |
+| `clipped` | An ancestor hides its overflow and part of this element is outside it, with no pointer to scroll it back. Graded by how much of the element is gone, not by pixels: a hairline on a tall panel is a warning that the layout is at its limit, a third of a label is an error. |
+| `page-scrolls` | The page is taller than the viewport where the layout does not intend it. The narrow layout scrolls by design and is only noted. |
+| `wrapped` | Something in the single-line contract in the script rendered on two lines. Text is meant to wrap, so this is an explicit list, not a guess. |
+| `tiny-text` | Below the legibility floor for a screen read from across a room. Required attribution and debug chrome are exempt. |
+| `contrast` | Measured against the first ancestor that actually paints a background, with translucent ink blended first. |
+| `empty` | A pane rendered with no text at all, which is usually a data path that failed silently. |
+
+It needs the dev server, the same as `npm run shot`, and exits 1 on an error so
+it can gate a change. Run it before reaching for a screenshot after any CSS
+change: it is faster, it covers both layouts, and it looks at the things eyes
+skip.
 
 ## Why is the weather card muted? `npm run probe`
 
