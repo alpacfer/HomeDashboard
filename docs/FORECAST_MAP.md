@@ -22,6 +22,84 @@ September 2026 the 12:00Z run became available at 14:45:49Z, a delay of about
 availability plus interval. The `dmi_seamless` alias has no metadata file
 (`500`), which is why the grid names the Harmonie model outright.
 
+## The fifteen-minute steps are hourly data
+
+Open-Meteo's `minutely_15` precipitation is not sub-hourly output for any model
+that covers Denmark. Asked for both series from the same DMI Harmonie run at
+one point, the four quarters of every hour carry that hour's total divided by
+four:
+
+```text
+hourly 07:00  0.2     quarters 06:15 06:30 06:45 07:00   0.1 0.1 0.1 0.1
+hourly 08:00  0.7     quarters 07:15 07:30 07:45 08:00   0.2 0.2 0.2 0.2
+hourly 09:00  0.3     quarters 08:15 08:30 08:45 09:00   0.1 0.1 0.1 0.1
+```
+
+Eight hours were checked and not one varied inside the hour. `temperature_2m`
+from the same request gives the mechanism away: every quarter sits on the
+straight line between the hourly values, to within its own rounding. So the
+map's twenty-four frames hold six distinct states, three frames in four are a
+hold and the fourth is a cut, which is what made the animation read as a
+slideshow.
+
+Asking for more steps would not have helped and would not have cost anything
+either: Open-Meteo weighs a request by **coordinates, never by steps**
+(`lib/open-meteo-quota.ts`), confirmed at 48, 96 and 192 steps. Space is what
+costs. Going from 3 km to 2 km would need about 780 points, over both
+`MAX_GRID_POINTS` and the URL cap, so the one axis that could buy real detail
+is the one that is closed.
+
+Checked at the same point on the same day:
+
+| Model | Hours varying inside the hour |
+| --- | --- |
+| `dmi_harmonie_arome_europe` | 0 of 8 |
+| `knmi_harmonie_arome_europe` | 0 of 8 |
+| `metno_seamless` | 0 of 8 |
+| `ecmwf_ifs025` | 0 of 8 |
+| `icon_d2` | **5 of 8** |
+
+ICON-D2 is the only one with genuine fifteen-minute precipitation, it covers
+the whole framed area including Hillerød with no gaps, and it would cost the
+same. It is not used because its metadata file answers `500` on every try,
+which would cost the run-aware refresh in `lib/forecast-refresh.ts` and drop the
+grid back to a blind three-hour cadence; because it is a German model over
+Denmark where DMI's own is available; and because the map would then disagree
+with the DMI-based card beside it. If the metadata ever starts answering, this
+is the first thing to reconsider.
+
+## What is drawn between the states
+
+Since the steps cost nothing and say nothing, the frames between are made in
+the browser instead, in `lib/precipitation-flow.ts`. Runs of identical frames
+collapse to the state they came from, each consecutive pair is matched for the
+displacement between them, and the moments between are sampled along it.
+
+Blending values alone would not have done. The field was measured crossing this
+frame at about 14 km/h and at 34 km/h at its fastest, which over an hour is five
+of the map's three-kilometre cells and sometimes eleven; a blend over that
+distance fades rain out of one place and into another instead of moving it.
+
+Two things learned building it, both measured rather than guessed:
+
+1. **Scoring a match on the cells two states still share lets the search hide a
+   mismatch instead of explaining it**, because sliding the wet part out of the
+   compared region scores a perfect zero. A shower moving three cells east was
+   confidently reported as moving seven west. The score covers the union now,
+   with anything off the lattice read as dry.
+2. **Four hard colour bands were what made the map twinkle.** The animation
+   draws far more moments than there are states, and a cell drifting across
+   0.3 mm between two of them jumped a whole colour over a patch the size a
+   3 km cell is scaled up to. Over one pass, 191 of 345 cells crossed a
+   threshold and crossed back. The overlay reads the same four colours as a
+   continuous ramp now, which is what the legend already promised, and the
+   remaining changes are 1.1 per cell per pass: one rain band arriving and
+   leaving.
+
+The animation is driven by animation frames from the clock rather than by an
+interval counting ticks, so a frame that arrives late lands where it belongs
+instead of behind.
+
 ## Why not DMI's own API
 
 DMI publishes **no map imagery of any kind**. The whole free-data catalogue is

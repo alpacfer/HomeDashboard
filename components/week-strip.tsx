@@ -34,7 +34,7 @@ export default function WeekStrip({ now }: { now: Date | null }) {
   const [week, setWeek] = useState<StoredWeek | null>(null);
 
   useEffect(() => {
-    if (debugFlags(window.location.search).weather === 'off') return;
+    if (debugFlags(window.location.search).weather !== 'live') return;
     let active = true;
     let pending = false;
     let failures = 0;

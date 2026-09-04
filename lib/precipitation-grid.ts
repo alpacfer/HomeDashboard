@@ -5,8 +5,13 @@
 // know whether the rain is coming here, not where it has been. It now shows
 // the forecast and only the forecast.
 //
-// Steps are 15 minutes, not hourly, because the point of the animation is
-// movement. Hourly frames jump too far to read as weather crossing the map.
+// Steps are asked for every 15 minutes, but only the hours inside them are
+// real: Open-Meteo hands out each hour's total split into four equal quarters
+// for every model that covers Denmark. The evidence, and the motion that is
+// drawn between the states that are real, are in lib/precipitation-flow.ts.
+// The steps are kept at 15 minutes anyway because they cost nothing (weight
+// counts coordinates, not steps) and because a provider that does publish
+// sub-hourly data would be picked up with no change here.
 //
 // The data is the same DMI Harmonie run the pinned panel uses, requested
 // through Open-Meteo, which accepts many coordinates in one call. That choice
@@ -29,7 +34,7 @@
 // which is regular and therefore gap-free; snapped centres are irregular and
 // would leave seams and overlaps.
 
-import { precipitationBand, WET_MM, type Band } from './weather';
+import { RIBBON_CEILING_MM, WET_MM } from './weather';
 
 export type MapBounds = { south: number; west: number; north: number; east: number };
 export type Cell = { south: number; west: number; north: number; east: number };
@@ -81,8 +86,10 @@ const CHARS_PER_POINT = 2 * (3 + COORDINATE_DECIMALS + 3);
 // slack behind the six that are shown.
 export const GRID_HOURS = 6;
 export const GRID_FETCH_HOURS = 12;
-// 15-minute steps over the forecast window. The animation reads as movement at
-// this spacing and as a slideshow at hourly spacing.
+// 15-minute steps over the forecast window. Free, since a request is weighed
+// by its coordinates and never by its steps (lib/open-meteo-quota.ts), and
+// finer than the data actually is: see the header, and lib/precipitation-flow.ts
+// for what the animation draws in between.
 export const GRID_STEP_MINUTES = 15;
 export const GRID_STEPS = GRID_HOURS * (60 / GRID_STEP_MINUTES);
 export const GRID_FETCH_STEPS = GRID_FETCH_HOURS * (60 / GRID_STEP_MINUTES);
@@ -260,10 +267,42 @@ export function hasPrecipitation(frames: GridFrame[]) {
   return frames.some(frame => frame.cells.some(millimetres => millimetres >= WET_MM));
 }
 
-// The same intensity bands as the pinned forecast ribbon, so a colour means the
-// same thing on the map as it does in the panel.
-export function cellBand(millimetres: number): Band {
-  return precipitationBand(millimetres);
+// What the overlay paints a cell, as bytes for an ImageData.
+//
+// The colours and their thresholds are the pinned ribbon's four intensity
+// bands, so a colour means the same thing on the map as it does in the panel,
+// but they are read as a continuous ramp rather than as four steps. Four steps
+// were what made the map twinkle: the animation draws many more moments than
+// the provider gives states (lib/precipitation-flow.ts), and a cell whose
+// value drifts across 0.3 mm between two of them jumped a whole colour, over a
+// patch the size the 3 km cell is scaled up to. Measured over one pass, 191 of
+// 345 cells crossed a threshold and crossed back. Ramping between the same
+// four colours moves that cell by a shade instead.
+//
+// It is also what the legend already promises: `.forecast-map-legend i` in
+// app/globals.css is a gradient through exactly these four, so keep the two in
+// step. The first stop is the same colour at zero alpha, which gives rain a
+// soft edge instead of a hard one at WET_MM, where most of the flicker was.
+const RAMP: ReadonlyArray<{ mm: number; rgba: readonly [number, number, number, number] }> = [
+  { mm: 0, rgba: [63, 107, 133, 0] },
+  { mm: WET_MM, rgba: [63, 107, 133, 158] },
+  { mm: 0.3, rgba: [79, 147, 184, 184] },
+  { mm: 1, rgba: [116, 202, 255, 199] },
+  { mm: RIBBON_CEILING_MM, rgba: [184, 228, 255, 217] },
+];
+
+export function precipitationColour(millimetres: number): [number, number, number, number] {
+  const mm = Number.isFinite(millimetres) ? millimetres : 0;
+  if (mm <= RAMP[0].mm) return [...RAMP[0].rgba];
+  const last = RAMP[RAMP.length - 1];
+  if (mm >= last.mm) return [...last.rgba];
+  let stop = 1;
+  while (stop < RAMP.length - 1 && RAMP[stop].mm <= mm) stop += 1;
+  const below = RAMP[stop - 1];
+  const above = RAMP[stop];
+  const fraction = (mm - below.mm) / (above.mm - below.mm);
+  return [0, 1, 2, 3].map(channel =>
+    Math.round(below.rgba[channel] + (above.rgba[channel] - below.rgba[channel]) * fraction)) as [number, number, number, number];
 }
 
 // Frames whose time has passed must not be animated: after a night without a
@@ -281,17 +320,11 @@ export function displayFrames(grid: PrecipitationGrid, now: number) {
   return futureFrames(grid, now).slice(0, GRID_STEPS);
 }
 
-// The sequence plays twice while the scene is on screen. Deriving the frame
-// length from the scene budget rather than fixing it keeps that true however
-// many frames are left: at 24 frames each gets 625ms, at 20 frames 750ms, and
-// either way the loop lands twice. A hardcoded interval would drift out of the
-// budget instead.
+// The sequence plays this many times while the scene is on screen. What is
+// drawn is no longer tied to the frames: the animation reads its position from
+// the clock and draws whatever moment that is (lib/precipitation-flow.ts), so
+// the sequence lands exactly twice however many frames are left.
 export const SEQUENCE_LOOPS = 2;
-
-export function frameInterval(frameCount: number, sceneMs: number, loops = SEQUENCE_LOOPS) {
-  if (frameCount < 1 || sceneMs <= 0) return 0;
-  return sceneMs / (frameCount * Math.max(1, loops));
-}
 
 // The animation is easier to place with a timeline than with a caption. A
 // playhead on a track shows how far through the forecast the frame is at a
@@ -299,16 +332,6 @@ export function frameInterval(frameCount: number, sceneMs: number, loops = SEQUE
 export type TimelineTick = { position: number; label: string; timestamp: number };
 
 const tickFormat = new Intl.DateTimeFormat('en-GB', { timeZone: 'Europe/Copenhagen', hour: '2-digit', hourCycle: 'h23' });
-
-// 0 at the first frame, 1 at the last. A single frame has nowhere to travel, so
-// it sits at the start rather than dividing by zero.
-export function playheadPosition(frames: GridFrame[], index: number) {
-  if (frames.length < 2) return 0;
-  const span = frames[frames.length - 1].timestamp - frames[0].timestamp;
-  if (span <= 0) return 0;
-  const clamped = Math.min(Math.max(index, 0), frames.length - 1);
-  return (frames[clamped].timestamp - frames[0].timestamp) / span;
-}
 
 // One tick per whole hour inside the span. Ticks are placed by time rather than
 // by frame count so they stay put as the leading frames expire.

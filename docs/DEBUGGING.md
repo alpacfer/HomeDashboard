@@ -11,6 +11,7 @@ npm run probe                 ask every forecast provider as the browser would
 npm run check:rules           the AGENTS.md rules a script can check
 /?scene=map                   pin the rotating panel (README)
 /?weather=off                 make no weather request at all
+/?weather=demo                as off, but the map draws a synthetic run
 /?time=08:46                  pin the clock to a Copenhagen time
 ```
 
@@ -24,10 +25,12 @@ can never leave the wall display stuck. They combine:
 | --- | --- | --- |
 | `?scene=transport`, `?scene=fact&fact=N`, `?scene=map` | Holds one scene on the right-hand panel and schedules nothing. A `Pinned` badge replaces the rotation ring. | `lib/panel-rotation.ts` |
 | `?weather=off` | The weather card, the week strip and the forecast map make **no request**. The card shows its unavailable state. The clock, the transit strip and the daily facts work as normal. | `lib/debug-flags.ts` |
+| `?weather=demo` | Makes no request either, but the forecast map draws the synthetic run in `lib/precipitation-demo.ts`: a band crossing the frame, hour by hour with the quarters inside an hour identical, exactly the shape the real provider returns. It is the only way to photograph the map's animation without buying a grid, and it is deterministic, so two captures of the same change are comparable. | `lib/debug-flags.ts` |
 | `?time=HH:MM` | The clock reads that Copenhagen time; seconds still tick, so the minute still rolls. Everything that reads the clock follows: the wardrobe, the Tenant's mood, the ribbon's window. For checking an outfit against chosen digits, since a face that clips on a 4 looks fine at 21:21. | `lib/debug-flags.ts` |
 
-Use `weather=off` for any capture that is not about the weather. The reason is
-quota, explained below.
+Use `weather=off` for any capture that is not about the weather, and
+`weather=demo` for one that is about the forecast map. The reason is quota,
+explained below.
 
 ## Screenshots: `npm run shot`
 
@@ -55,6 +58,9 @@ npm run shot -- --console                               # print what the page lo
   own value changes. Include the element's own class (`clock-block`) or its
   styles go with it. This is how an outfit, a set piece or a Tenant pose is
   reached on demand: the class names are listed in [CLOCK.md](CLOCK.md).
+- `--demo` is the `?weather=demo` flag above, and is how the forecast map is
+  captured: headless Chrome starts each run with an empty profile, so without
+  it every capture of the map buys another three hundred coordinates.
 - `--time HH:MM` pins the clock (the `?time=` flag above), so an outfit can be
   checked against the digits that stress it. `08:46` shows a 0, an 8, a 4 and
   a 6, which between them are the widest and tallest digits of every face.
@@ -127,8 +133,9 @@ that recurring:
    `home-dashboard:forecast-*:v1`) and restored on load. A reload within the
    same model run costs no grid request: the scheduler compares the stored run
    against the run metadata and fetches only when a newer run exists.
-3. **`?weather=off`** for every capture that is not about the weather, and
-   `npm run probe` never requests the grid unless told to.
+3. **`?weather=off`** for every capture that is not about the weather,
+   **`?weather=demo`** for a capture of the map itself, and `npm run probe`
+   never requests the grid unless told to.
 4. **One refusal locks Open-Meteo out for everyone on the device.** When it
    answers `429 Daily API request limit exceeded`, the card, the week strip
    and the map stop asking it until midnight UTC, when the counter resets

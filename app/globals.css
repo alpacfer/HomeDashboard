@@ -208,6 +208,9 @@ a:focus-visible { outline:2px solid var(--foreground); outline-offset:8px; }
 .timeline-hours { position:relative; height:1vw; margin-top:.5vw; color:#c5c5cb; font-size:.62vw; font-variant-numeric:tabular-nums; letter-spacing:.04em; }
 .timeline-hours span { position:absolute; top:0; transform:translateX(-50%); }
 .forecast-map-legend { position:absolute; left:.55vw; bottom:.55vw; z-index:500; display:grid; grid-template-columns:auto 7vw auto; align-items:center; gap:.55vw; padding:.55vw .7vw; border:1px solid rgba(255,255,255,.12); border-radius:.38vw; background:rgba(17,17,19,.82); color:#d9d9df; font-size:.72vw; text-transform:uppercase; letter-spacing:.07em; pointer-events:none; }
+/* The same four colours the overlay ramps through, in the same order and at
+   the same positions: see RAMP in lib/precipitation-grid.ts, and keep the two
+   in step. */
 .forecast-map-legend i { display:block; height:.46vw; border-radius:1vw; background:linear-gradient(90deg,#3f6b85 0%,#4f93b8 33%,#74caff 66%,#b8e4ff 100%); }
 .forecast-map-stale { position:absolute; top:4.4vw; left:1.4vw; z-index:500; margin:0; padding:.45vw .65vw; border-radius:.35vw; color:#f5c5ae; background:rgba(17,17,19,.82); font-size:.75vw; text-transform:uppercase; letter-spacing:.08em; pointer-events:none; }
 .forecast-map-credit { position:absolute; right:.55vw; bottom:.55vw; z-index:500; display:flex; align-items:center; gap:.34vw; padding:.4vw .52vw; border-radius:.3vw; background:rgba(17,17,19,.78); color:#c5c5cb; font-size:.58vw; line-height:1; }

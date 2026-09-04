@@ -10,6 +10,11 @@
 //                  three hundred calls against a daily quota of ten thousand
 //                  that the display shares with every machine on the same
 //                  connection (lib/open-meteo-quota.ts).
+//   ?weather=demo  As `off` for every request, but the forecast map draws the
+//                  synthetic run in lib/precipitation-demo.ts instead of
+//                  nothing. It is the only way to photograph the map's
+//                  animation without buying a grid, and it is deterministic,
+//                  so two captures of the same change are comparable.
 //   ?time=HH:MM    The page's clock reads this Copenhagen time instead of the
 //                  real one; seconds still tick, so the minute still rolls.
 //                  Which digits an outfit shows otherwise depends on when the
@@ -18,11 +23,13 @@
 //                  the wardrobe, the Tenant's mood and the ribbon's window.
 
 export type PinnedTime = { hour: number; minute: number };
-export type DebugFlags = { weather: 'live' | 'off'; time: PinnedTime | null };
+export type Weather = 'live' | 'off' | 'demo';
+export type DebugFlags = { weather: Weather; time: PinnedTime | null };
 
 export function debugFlags(search: string): DebugFlags {
   const params = new URLSearchParams(search);
-  return { weather: params.get('weather') === 'off' ? 'off' : 'live', time: parseTime(params.get('time')) };
+  const weather = params.get('weather');
+  return { weather: weather === 'off' || weather === 'demo' ? weather : 'live', time: parseTime(params.get('time')) };
 }
 
 function parseTime(value: string | null): PinnedTime | null {

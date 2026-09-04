@@ -86,9 +86,13 @@ parsing lives in `lib/panel-rotation.ts`.
 shows its unavailable state and everything else works. Use it for any check that
 is not about the weather: Open-Meteo counts one load of the forecast map as
 about three hundred calls against a daily quota that the display shares with
-every machine on the same connection. `/?time=08:46` pins the clock to a
-Copenhagen time, for checking an outfit against chosen digits. Both are
-parsed in `lib/debug-flags.ts`.
+every machine on the same connection.
+
+`/?weather=demo` makes no request either, but draws a synthetic forecast on the
+map, which is the only way to look at its animation without buying a grid.
+
+`/?time=08:46` pins the clock to a Copenhagen time, for checking an outfit
+against chosen digits. All three are parsed in `lib/debug-flags.ts`.
 
 ### Capture and diagnose
 

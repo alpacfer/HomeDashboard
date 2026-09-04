@@ -9,6 +9,10 @@
 //   --url <url>            Page to capture. Default http://127.0.0.1:3000/
 //   --scene <name>         Pin the rotating panel: transport, fact or map.
 //   --fact <n>             Which daily fact, with --scene fact.
+//   --demo                 Add ?weather=demo: no provider request is made and
+//                          the forecast map draws a synthetic run, which is the
+//                          only way to photograph its animation without buying
+//                          a grid. Deterministic, so captures are comparable.
 //   --offline              Add ?weather=off: no provider request is made, so
 //                          the capture costs no quota. Use it for anything that
 //                          is not about the weather (see docs/DEBUGGING.md).
@@ -42,7 +46,7 @@ import { fileURLToPath } from 'node:url';
 const ROOT = path.resolve(path.dirname(fileURLToPath(import.meta.url)), '..');
 
 function parseArgs(argv) {
-  const options = { classes: [], console: false, offline: false, narrow: false, reducedMotion: false };
+  const options = { classes: [], console: false, demo: false, offline: false, narrow: false, reducedMotion: false };
   for (let index = 0; index < argv.length; index += 1) {
     const arg = argv[index];
     const next = () => { index += 1; return argv[index]; };
@@ -53,6 +57,7 @@ function parseArgs(argv) {
       case '--scene': options.scene = value(); break;
       case '--fact': options.fact = value(); break;
       case '--offline': options.offline = true; break;
+      case '--demo': options.demo = true; break;
       case '--time': options.time = value(); break;
       case '--narrow': options.narrow = true; break;
       case '--width': options.width = Number(value()); break;
@@ -196,6 +201,9 @@ function pageUrl(options) {
   if (options.scene) url.searchParams.set('scene', options.scene);
   if (options.fact !== undefined) url.searchParams.set('fact', String(options.fact));
   if (options.offline) url.searchParams.set('weather', 'off');
+  // The demo run is a kind of offline, and wins when both are asked for: it
+  // makes no request either, and it has something to draw.
+  if (options.demo) url.searchParams.set('weather', 'demo');
   if (options.time) url.searchParams.set('time', options.time);
   return url.toString();
 }
@@ -204,7 +212,8 @@ function defaultName(options) {
   const parts = [options.scene ?? 'display'];
   if (options.narrow) parts.push('narrow');
   if (options.reducedMotion) parts.push('reduced-motion');
-  if (options.offline) parts.push('offline');
+  if (options.offline && !options.demo) parts.push('offline');
+  if (options.demo) parts.push('demo');
   return parts.join('-') + '.png';
 }
 

@@ -1,11 +1,11 @@
 import { test } from 'node:test';
 import assert from 'node:assert/strict';
 import {
-  CELL_KM, cellAt, cellBand, cellCentres, coversView, DEFAULT_GRID, displayFrames, frameInterval, futureFrames, GRID_FETCH_STEPS,
+  CELL_KM, cellAt, cellCentres, coversView, DEFAULT_GRID, displayFrames, futureFrames, GRID_FETCH_STEPS,
   GRID_HOURS, GRID_STEP_MINUTES, GRID_STEPS, gridForView, hasPrecipitation, isQuietHours, MAP_BOUNDS, MAX_GRID_POINTS, MAX_URL_LENGTH,
-  parsePrecipitationGrid, playheadPosition, precipitationGridUrl, quietHoursEnd, SEQUENCE_LOOPS, timelineTicks,
+  parsePrecipitationGrid, precipitationColour, precipitationGridUrl, quietHoursEnd, timelineTicks,
 } from '../lib/precipitation-grid.ts';
-import { MAP_MS } from '../lib/panel-rotation.ts';
+import { RIBBON_CEILING_MM, WET_MM } from '../lib/weather.ts';
 
 const SPEC = DEFAULT_GRID;
 const POINTS = SPEC.columns * SPEC.rows;
@@ -228,13 +228,34 @@ test('the end of the quiet hours is the next 06:00, found by the clock', () => {
   assert.equal(quietHoursEnd(Date.UTC(2026, 9, 24, 22, 0)), Date.UTC(2026, 9, 25, 5, 0));
 });
 
-test('map colours use the same intensity bands as the pinned ribbon', () => {
-  // A colour must mean the same thing on the map as it does in the panel.
-  assert.equal(cellBand(0), 'dry');
-  assert.equal(cellBand(0.2), 'trace');
-  assert.equal(cellBand(0.5), 'light');
-  assert.equal(cellBand(2), 'moderate');
-  assert.equal(cellBand(9), 'heavy');
+test('map colours land on the ribbon\'s bands and ramp between them', () => {
+  // A colour must mean the same thing on the map as it does in the panel, so
+  // each band's threshold is exactly its own colour.
+  assert.deepEqual(precipitationColour(WET_MM), [63, 107, 133, 158]);
+  assert.deepEqual(precipitationColour(0.3), [79, 147, 184, 184]);
+  assert.deepEqual(precipitationColour(1), [116, 202, 255, 199]);
+  assert.deepEqual(precipitationColour(RIBBON_CEILING_MM), [184, 228, 255, 217]);
+  // Dry is invisible, and anything past the ceiling is the heaviest colour
+  // rather than a colour off the end of the ramp.
+  assert.deepEqual(precipitationColour(0), [63, 107, 133, 0]);
+  assert.deepEqual(precipitationColour(-1), [63, 107, 133, 0]);
+  assert.deepEqual(precipitationColour(9), [184, 228, 255, 217]);
+  assert.deepEqual(precipitationColour(Number.NaN), [63, 107, 133, 0]);
+  // Halfway between two stops is halfway between their colours: this is what
+  // stops a cell drifting over a threshold from jumping a whole colour, which
+  // is what made the animation twinkle.
+  assert.deepEqual(precipitationColour(0.65), [98, 175, 220, 192]);
+  // And no step anywhere along the ramp is bigger than a shade. The steepest
+  // stretch is the fade in from dry, which covers the whole alpha of the first
+  // band inside a tenth of a millimetre, so the probe is finer than that.
+  let previous = precipitationColour(0);
+  for (let mm = 0.002; mm <= 5; mm = Math.round((mm + 0.002) * 1000) / 1000) {
+    const colour = precipitationColour(mm);
+    for (let channel = 0; channel < 4; channel += 1) {
+      assert.ok(Math.abs(colour[channel] - previous[channel]) <= 8, mm + ' jumps at channel ' + channel);
+    }
+    previous = colour;
+  }
 });
 
 test('the timeline places a tick on every whole hour in the span', () => {
@@ -250,32 +271,10 @@ test('the timeline places a tick on every whole hour in the span', () => {
   for (let i = 1; i < ticks.length; i += 1) assert.ok(ticks[i].position > ticks[i - 1].position);
 });
 
-test('the playhead runs from the start of the span to its end', () => {
+test('a span with nowhere to travel has no ticks rather than dividing by zero', () => {
   const start = Date.UTC(2026, 8, 2, 20, 0);
-  const frames = Array.from({ length: 5 }, (_, step) => ({ timestamp: start + step * 900_000, cells: [] }));
-  assert.equal(playheadPosition(frames, 0), 0);
-  assert.equal(playheadPosition(frames, 4), 1);
-  assert.equal(playheadPosition(frames, 2), 0.5);
-  // Out-of-range indices clamp rather than running off the track.
-  assert.equal(playheadPosition(frames, -3), 0);
-  assert.equal(playheadPosition(frames, 99), 1);
-  // A span with nowhere to travel must not divide by zero.
-  assert.equal(playheadPosition([{ timestamp: start, cells: [] }], 0), 0);
   assert.deepEqual(timelineTicks([{ timestamp: start, cells: [] }]), []);
   assert.deepEqual(timelineTicks([]), []);
-});
-
-test('the sequence is paced to play twice while the scene is on screen', () => {
-  // Fixing the frame length instead would drift out of the scene budget when
-  // fewer frames are left than the window asks for.
-  assert.equal(frameInterval(GRID_STEPS, MAP_MS), 625);
-  assert.equal(GRID_STEPS * frameInterval(GRID_STEPS, MAP_MS) * SEQUENCE_LOOPS, MAP_MS);
-  // A shortened sequence still lands exactly twice, just at a slower pace.
-  for (const count of [24, 20, 12, 5]) {
-    assert.equal(count * frameInterval(count, MAP_MS) * SEQUENCE_LOOPS, MAP_MS, count + ' frames must fill the scene');
-  }
-  assert.equal(frameInterval(0, MAP_MS), 0, 'no frames means no timer');
-  assert.equal(frameInterval(10, 0), 0);
 });
 
 test('the grid request always fits inside the 8 KB request line Open-Meteo accepts', () => {

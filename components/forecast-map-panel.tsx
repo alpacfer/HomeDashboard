@@ -3,10 +3,14 @@
 import { useEffect, useMemo, useRef, useState } from 'react';
 import type { Map } from 'leaflet';
 import {
-  cellBand, coversView, displayFrames, frameInterval, GRID_HOURS, gridForView, hasPrecipitation, isQuietHours, MAP_BOUNDS,
-  parsePrecipitationGrid, playheadPosition, precipitationGridUrl, quietHoursEnd, SEQUENCE_LOOPS, timelineTicks,
-  validPrecipitationGrid, type GridFrame, type MapBounds, type PrecipitationGrid,
+  coversView, displayFrames, GRID_HOURS, gridForView, hasPrecipitation, isQuietHours, MAP_BOUNDS,
+  parsePrecipitationGrid, precipitationColour, precipitationGridUrl, quietHoursEnd, SEQUENCE_LOOPS, timelineTicks,
+  validPrecipitationGrid, type MapBounds, type PrecipitationGrid,
 } from '@/lib/precipitation-grid';
+import {
+  advectedCells, distinctStates, estimateFlows, MIN_DRAW_MS, momentAt, PLAYHEAD_MS, sequenceProgress, steadyFlows,
+} from '@/lib/precipitation-flow';
+import { demoGrid } from '@/lib/precipitation-demo';
 import { CHECK_RETRY_MS, MODEL_META_URL, nextCheckAt, parseModelRun, shouldFetchGrid, type ModelRun } from '@/lib/forecast-refresh';
 import { MAP_MS } from '@/lib/panel-rotation';
 import { debugFlags } from '@/lib/debug-flags';
@@ -27,16 +31,6 @@ const PLACES: Array<{ label: string; coordinates: [number, number]; home?: boole
   { label: 'Copenhagen', coordinates: [55.6761, 12.5683] },
   { label: 'Hillerød', coordinates: [55.9279, 12.3008] },
 ];
-// The same intensity bands as the pinned forecast ribbon, so a colour means the
-// same thing on the map as it does in the panel. Alpha keeps the coastline
-// readable underneath. Stored as bytes because they are written into an
-// ImageData rather than used as fill styles.
-const BAND_RGBA: Record<string, [number, number, number, number]> = {
-  trace: [63, 107, 133, 158],
-  light: [79, 147, 184, 184],
-  moderate: [116, 202, 255, 199],
-  heavy: [184, 228, 255, 217],
-};
 const FIT_OPTIONS = { animate: false, maxZoom: 12, padding: [18, 18] as [number, number] };
 const frameTime = new Intl.DateTimeFormat('en-GB', {
   timeZone: 'Europe/Copenhagen',
@@ -60,7 +54,14 @@ export default function ForecastMapPanel({ active }: { active: boolean }) {
   const refresh = useRef<() => void>(() => undefined);
   const [mapReady, setMapReady] = useState(false);
   const [grid, setGrid] = useState<PrecipitationGrid | null>(null);
-  const [frameIndex, setFrameIndex] = useState(0);
+  // How far through the sequence the animation is, 0 to 1. The canvas is
+  // painted from the clock many times a second; this is only what the playhead
+  // and its label are drawn from, and is set far more slowly.
+  const [progress, setProgress] = useState(0);
+  // The same position, kept across a restart of the loop. The displayed window
+  // shifts as frames expire, which rebuilds the loop; without this the
+  // animation would jump back to the start each time it did.
+  const phase = useRef(0);
   const [status, setStatus] = useState<MapStatus>('loading');
   const [nowMs, setNowMs] = useState(0);
 
@@ -137,7 +138,7 @@ export default function ForecastMapPanel({ active }: { active: boolean }) {
   // requests inside a minute is more than Open-Meteo allows.
   useEffect(() => {
     if (!mapReady) return;
-    if (debugFlags(window.location.search).weather === 'off') return;
+    if (debugFlags(window.location.search).weather !== 'live') return;
     let cancelled = false;
     let busy = false;
     let failures = 0;
@@ -273,45 +274,59 @@ export default function ForecastMapPanel({ active }: { active: boolean }) {
   // one, the part of the sequence that is already over is skipped.
   const frames = useMemo(() => grid && nowMs ? displayFrames(grid, nowMs) : [], [grid, nowMs]);
   const wet = useMemo(() => hasPrecipitation(frames), [frames]);
-  const frame: GridFrame | null = frames.length ? frames[Math.min(frameIndex, frames.length - 1)] ?? null : null;
   const ticks = useMemo(() => timelineTicks(frames), [frames]);
-  const playhead = playheadPosition(frames, frameIndex);
-  const clock = frame ? frameTime.format(new Date(frame.timestamp)) : null;
+  // What the provider actually said, and how the field moves between one
+  // saying and the next. The fifteen-minute frames repeat each hour's field
+  // four times over, so these are the twelve states behind the forty-eight
+  // (lib/precipitation-flow.ts).
+  //
+  // Both are taken from the whole grid rather than from the displayed window,
+  // and so are computed once per model run. The window is recomputed every
+  // minute as the clock moves, and searching for the displacements is the only
+  // step here that costs anything; hanging them off the window would have run
+  // that search every minute instead of every three hours.
+  const states = useMemo(() => grid ? distinctStates(grid.frames) : [], [grid]);
+  const flows = useMemo(() => grid ? steadyFlows(estimateFlows(states, grid.columns, grid.rows, grid.spacingKm)) : [],
+    [grid, states]);
+  // The span the sequence plays over. Scalars rather than the array, so the
+  // loop below is rebuilt when the window really shifts and not every minute.
+  const spanStart = frames.length ? frames[0].timestamp : 0;
+  const spanEnd = frames.length ? frames[frames.length - 1].timestamp : 0;
+  const moment = spanStart ? momentAt(spanStart, spanEnd, progress) : 0;
+  const playhead = progress;
+  const clock = moment ? frameTime.format(new Date(moment)) : null;
   // Screen readers get the sentence the timeline replaces, since a playhead
   // position means nothing without sight of it.
   const spoken = useMemo(() => {
-    if (!frame) return 'Loading';
-    const minutes = Math.max(0, Math.round((frame.timestamp - nowMs) / 60000));
-    return 'Forecast for ' + frameTime.format(new Date(frame.timestamp))
+    if (!moment) return 'Loading';
+    const minutes = Math.max(0, Math.round((moment - nowMs) / 60000));
+    return 'Forecast for ' + frameTime.format(new Date(moment))
       + (minutes < 60 ? ', in ' + minutes + ' minutes' : ', in ' + Math.round(minutes / 60) + ' hours');
-  }, [frame, nowMs]);
+  }, [moment, nowMs]);
 
   // The map never pans or zooms, so the overlay is a plain canvas sized to the
-  // map container and addressed in container pixels. Each frame is written as
+  // map container and addressed in container pixels. Each moment is written as
   // a tiny image, one pixel per grid cell, and drawn scaled over the grid's
-  // bounds with the browser's own smoothing. That turns the 2 km cells into a
+  // bounds with the browser's own smoothing. That turns the 3 km cells into a
   // continuous field instead of a mosaic without asking the model for detail
-  // it does not have, and costs one drawImage per frame.
+  // it does not have, and costs one drawImage.
+  //
+  // The loop runs on animation frames and paints at most every MIN_DRAW_MS,
+  // and it reads its position from the clock rather than counting ticks. An
+  // interval that also had to drive a React render bunched up whenever the
+  // page was busy; here a late frame lands where it belongs instead of behind.
+  // React hears about the position only every PLAYHEAD_MS, which is all the
+  // playhead and its label need.
+  //
+  // A continuous loop, no moment held. A static image of now tells you nothing
+  // a number could not; the movement is the whole point of drawing this on a
+  // map.
   useEffect(() => {
     const surface = overlay.current;
     const nextMap = map.current;
-    if (!surface || !nextMap || !mapReady) return;
+    if (!surface || !nextMap || !mapReady || !grid || !states.length) return;
     const context = surface.getContext('2d');
     if (!context) return;
-    // The bitmap must match the element's own CSS box, not Leaflet's idea of
-    // the map size. The two diverge whenever the scene changes the layout, and
-    // a mismatched bitmap is silently scaled to fit, which moves every cell
-    // away from the coastline it belongs to. Reading it here means each frame
-    // corrects itself without a resize listener to leak.
-    const width = surface.clientWidth;
-    const height = surface.clientHeight;
-    if (!width || !height) return;
-    if (surface.width !== width || surface.height !== height) {
-      surface.width = width;
-      surface.height = height;
-    }
-    context.clearRect(0, 0, width, height);
-    if (!frame || !grid) return;
     const { columns, rows, bounds } = grid;
     const source = image.current ?? (image.current = document.createElement('canvas'));
     if (source.width !== columns || source.height !== rows) {
@@ -320,39 +335,58 @@ export default function ForecastMapPanel({ active }: { active: boolean }) {
     }
     const pixels = source.getContext('2d');
     if (!pixels) return;
-    const data = pixels.createImageData(columns, rows);
-    // Cells run row-major from the south-west; image rows run from the top.
-    frame.cells.forEach((millimetres, index) => {
-      const rgba = BAND_RGBA[cellBand(millimetres)];
-      if (!rgba) return;
-      const row = rows - 1 - Math.floor(index / columns);
-      data.data.set(rgba, (row * columns + index % columns) * 4);
-    });
-    pixels.putImageData(data, 0, 0);
-    const topLeft = nextMap.latLngToContainerPoint([bounds.north, bounds.west]);
-    const bottomRight = nextMap.latLngToContainerPoint([bounds.south, bounds.east]);
-    context.imageSmoothingEnabled = true;
-    context.imageSmoothingQuality = 'high';
-    context.drawImage(source, topLeft.x, topLeft.y, bottomRight.x - topLeft.x, bottomRight.y - topLeft.y);
-  }, [mapReady, grid, frame, nowMs]);
-
-  // A continuous loop, every frame the same length, no frame held. A static
-  // image of now tells you nothing a number could not; the movement is the
-  // whole point of drawing this on a map.
-  useEffect(() => {
-    if (!active || frames.length < 2) return;
-    // Two passes of the sequence per scene, paced to whatever is left of it.
-    const interval = frameInterval(frames.length, MAP_MS, SEQUENCE_LOOPS);
-    if (interval <= 0) return;
-    let index = 0;
-    const advance = () => {
-      setFrameIndex(index);
-      index = (index + 1) % frames.length;
+    const paint = (at: number) => {
+      // The bitmap must match the element's own CSS box, not Leaflet's idea of
+      // the map size. The two diverge whenever the scene changes the layout, and
+      // a mismatched bitmap is silently scaled to fit, which moves every cell
+      // away from the coastline it belongs to. Reading it here means each paint
+      // corrects itself without a resize listener to leak.
+      const width = surface.clientWidth;
+      const height = surface.clientHeight;
+      if (!width || !height) return;
+      if (surface.width !== width || surface.height !== height) {
+        surface.width = width;
+        surface.height = height;
+      }
+      context.clearRect(0, 0, width, height);
+      const data = pixels.createImageData(columns, rows);
+      // Cells run row-major from the south-west; image rows run from the top.
+      advectedCells(states, flows, columns, rows, at).forEach((millimetres, index) => {
+        const row = rows - 1 - Math.floor(index / columns);
+        data.data.set(precipitationColour(millimetres), (row * columns + index % columns) * 4);
+      });
+      pixels.putImageData(data, 0, 0);
+      const topLeft = nextMap.latLngToContainerPoint([bounds.north, bounds.west]);
+      const bottomRight = nextMap.latLngToContainerPoint([bounds.south, bounds.east]);
+      context.imageSmoothingEnabled = true;
+      context.imageSmoothingQuality = 'high';
+      context.drawImage(source, topLeft.x, topLeft.y, bottomRight.x - topLeft.x, bottomRight.y - topLeft.y);
     };
-    advance();
-    const timer = window.setInterval(advance, interval);
-    return () => window.clearInterval(timer);
-  }, [active, frames]);
+    // Off screen, or with nothing to travel over, one still picture is all
+    // there is to draw and there is no reason to keep a loop running for it.
+    if (!active || !(spanEnd > spanStart)) {
+      paint(spanStart || states[0].timestamp);
+      return;
+    }
+    const pass = MAP_MS / SEQUENCE_LOOPS;
+    const began = performance.now() - phase.current * pass;
+    let painted = -Infinity;
+    let told = -Infinity;
+    let frame = 0;
+    const tick = (now: number) => {
+      frame = window.requestAnimationFrame(tick);
+      if (now - painted < MIN_DRAW_MS) return;
+      painted = now;
+      const at = sequenceProgress(now - began, MAP_MS, SEQUENCE_LOOPS);
+      phase.current = at;
+      paint(momentAt(spanStart, spanEnd, at));
+      if (now - told < PLAYHEAD_MS) return;
+      told = now;
+      setProgress(at);
+    };
+    frame = window.requestAnimationFrame(tick);
+    return () => window.cancelAnimationFrame(frame);
+  }, [active, mapReady, grid, states, flows, spanStart, spanEnd]);
 
   // The scene is laid out differently while it is hidden (the mini transit
   // strip only appears once it is on screen), so the map is measured and
@@ -373,6 +407,18 @@ export default function ForecastMapPanel({ active }: { active: boolean }) {
       nextMap.invalidateSize({ animate: false });
       nextMap.fitBounds([[MAP_BOUNDS.south, MAP_BOUNDS.west], [MAP_BOUNDS.north, MAP_BOUNDS.east]], FIT_OPTIONS);
       view.current = viewBounds() ?? view.current ?? MAP_BOUNDS;
+      // `?weather=demo` never asks a provider anything; it draws the synthetic
+      // run instead, built for the view that was just measured so it fills the
+      // frame exactly as a real grid would.
+      if (debugFlags(window.location.search).weather === 'demo') {
+        if (held.current) return;
+        const demo = demoGrid(gridForView(view.current), Date.now());
+        held.current = demo;
+        setGrid(demo);
+        setNowMs(Date.now());
+        setStatus('ready');
+        return;
+      }
       if (!held.current || !coversView(held.current.bounds, view.current)) refresh.current();
     });
     return () => window.cancelAnimationFrame(resize);
@@ -384,12 +430,12 @@ export default function ForecastMapPanel({ active }: { active: boolean }) {
     <div className="forecast-map-frame">
       <div className="forecast-map-canvas" ref={canvas} role="img" aria-label={'Forecast precipitation map. ' + spoken} />
       <canvas className="forecast-map-overlay" ref={overlay} aria-hidden="true" />
-      {frame && !!ticks.length && <div className="forecast-map-timeline" aria-hidden="true">
+      {!!moment && !!ticks.length && <div className="forecast-map-timeline" aria-hidden="true">
         <div className="timeline-track">
           {ticks.map(tick => <i key={tick.timestamp} style={{ left: (tick.position * 100).toFixed(2) + '%' }} />)}
           <span className="timeline-played" style={{ width: (playhead * 100).toFixed(2) + '%' }} />
           <time className="timeline-playhead" style={{ left: (playhead * 100).toFixed(2) + '%' }}
-            dateTime={new Date(frame.timestamp).toISOString()}>{clock}</time>
+            dateTime={new Date(moment).toISOString()}>{clock}</time>
         </div>
         <div className="timeline-hours">
           {ticks.map(tick => <span key={tick.timestamp} style={{ left: (tick.position * 100).toFixed(2) + '%' }}>{tick.label}</span>)}

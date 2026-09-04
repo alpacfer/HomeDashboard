@@ -54,6 +54,10 @@ screen. In short:
   against `?scene=map` once spent the whole quota and muted the display. The
   limits and the arithmetic are in `lib/open-meteo-quota.ts`; a `429` locks
   Open-Meteo out for every component until the limit it names resets.
+- **`/?weather=demo`** (`npm run shot -- --demo`) makes no request either but
+  draws a synthetic forecast on the map. Use it for any capture **of** the map:
+  headless Chrome starts each run with an empty profile, so `?weather=off`
+  shows nothing and a live capture buys three hundred coordinates every time.
 - **`/?time=HH:MM`** pins the clock to a Copenhagen time (`npm run shot --
   --time 08:46`), so an outfit can be checked against chosen digits.
 - Weather failures are logged as one `[weather] every provider failed: ...`
@@ -117,7 +121,8 @@ different shape. See `components/device-storage.ts`.
 **Never spend the display's quota from a development machine.** The Fire TV and
 this machine share one Open-Meteo quota. Pass `--offline` to `npm run shot`,
 add `?weather=off` to any URL you load by hand unless the weather is the
-subject, and never run `npm run probe -- --grid` in a loop.
+subject (or `?weather=demo` when the forecast map is the subject), and never
+run `npm run probe -- --grid` in a loop.
 
 ## Rules that are enforced for you
 
@@ -168,7 +173,8 @@ change, `--clip .weather-band` for the weather card, the relevant panel for a
 rotating-panel change. To reach a rotating scene without waiting for the
 cycle, pin it with `--scene map`, `--scene transport` or
 `--scene fact --fact N` (the `/?scene=` debug mode in [README.md](README.md)),
-and pass `--offline` unless the weather is the subject.
+and pass `--offline` unless the weather is the subject, or `--demo` when the
+forecast map is.
 Recheck both the 16:9 layout and the narrow (`max-aspect-ratio: 5/4`) layout
 (`--narrow`) when responsive CSS is affected, and check the reduced-motion path
 (`--reduced-motion`) when animation is touched. **Test at 1280 x 720**, the Fire

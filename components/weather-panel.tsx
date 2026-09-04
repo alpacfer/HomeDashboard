@@ -52,7 +52,7 @@ export default function WeatherPanel({ now, onConditions }: { now: Date | null; 
 
   useEffect(() => {
     // Debug: `?weather=off` makes no request at all. See lib/debug-flags.ts.
-    if (debugFlags(window.location.search).weather === 'off') return;
+    if (debugFlags(window.location.search).weather !== 'live') return;
     let active = true;
     let pending = false;
     let failures = 0;
