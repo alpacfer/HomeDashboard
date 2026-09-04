@@ -476,6 +476,9 @@ a:focus-visible { outline:2px solid var(--foreground); outline-offset:8px; }
 .t-body,.t-lid,.t-ears { fill:var(--colon); transition:fill 1s ease; }
 .t-ears { transform-origin:50px 31px; transition:transform .3s cubic-bezier(.2,.8,.2,1),fill 1s ease; }
 .t-tail { fill:none; stroke:var(--colon); stroke-width:8; stroke-linecap:round; transform-origin:82px 71px; transition:transform .45s cubic-bezier(.2,.8,.2,1),stroke 1s ease; }
+.t-arm { transform-origin:20px 66px; transition:transform .45s cubic-bezier(.2,.8,.2,1); }
+.t-arm-blob { fill:var(--colon); transition:fill 1s ease; }
+.t-grip { fill:none; stroke:var(--background); stroke-width:1.5; stroke-linecap:round; opacity:0; transition:opacity .2s ease; }
 .t-face { transform-origin:50px 62px; transition:transform .5s cubic-bezier(.2,.8,.2,1); }
 .t-eye { fill:#fff; }
 .t-pupil { fill:#1a1a1f; transition:transform .35s cubic-bezier(.2,.8,.2,1); }
@@ -489,9 +492,12 @@ a:focus-visible { outline:2px solid var(--foreground); outline-offset:8px; }
 .t-shades { opacity:0; transform:translateY(-14px); transition:opacity .4s ease,transform .5s cubic-bezier(.34,1.56,.64,1); }
 .t-scarf path { fill:var(--rain); }
 .t-scarf { opacity:0; transform:scale(0); transform-origin:50px 82px; transition:opacity .3s ease,transform .5s cubic-bezier(.34,1.56,.64,1); }
-.t-umbrella { opacity:0; transform:scale(0); transform-origin:50px 40px; transition:opacity .3s ease,transform .5s cubic-bezier(.34,1.56,.64,1); }
-.t-canopy,.t-handle { fill:var(--foreground); }
-.t-canopy-rib { fill:none; stroke:var(--background); stroke-width:2; }
+.t-leaf { opacity:0; transform:translateY(7px) scale(.45) rotate(-7deg); transform-origin:9px 59px; transition:opacity .3s ease,transform .5s cubic-bezier(.34,1.56,.64,1); }
+.t-leaf-blade { fill:var(--live); stroke:var(--background); stroke-width:2.5; stroke-linejoin:round; }
+.t-leaf-vein,.t-leaf-stem,.t-leaf-stem-outline { fill:none; stroke-linecap:round; stroke-linejoin:round; }
+.t-leaf-vein { stroke:var(--background); stroke-width:2; }
+.t-leaf-stem-outline { stroke:var(--background); stroke-width:6.5; }
+.t-leaf-stem { stroke:var(--live); stroke-width:3.5; }
 .t-drop,.t-sweat { fill:var(--rain); opacity:0; }
 .t-zz { opacity:0; font-family:'Space Grotesk',Arial,sans-serif; font-weight:700; font-size:16px; fill:var(--foreground); }
 .t-zz:nth-of-type(2) { font-size:12px; }
@@ -503,7 +509,9 @@ a:focus-visible { outline:2px solid var(--foreground); outline-offset:8px; }
 .mood-asleep .t-zz { animation:t-zz 2.6s ease-in-out infinite; }
 .mood-asleep .t-zz:nth-of-type(2) { animation-delay:.9s; }
 @keyframes t-zz { 0% {opacity:0;transform:translate(0,0) scale(.6);} 30% {opacity:1;} 100% {opacity:0;transform:translate(14px,-26px) scale(1.1);} }
-.mood-rain .t-umbrella { opacity:1; transform:scale(1); }
+.mood-rain .t-leaf { opacity:1; transform:translateY(0) scale(1) rotate(0); }
+.mood-rain .t-arm { transform:rotate(60deg); }
+.mood-rain .t-grip { opacity:1; }
 .mood-rain .t-drop { animation:t-drop 1s linear infinite; }
 .mood-rain .t-drop:nth-child(2) { animation-delay:.33s; }
 .mood-rain .t-drop:nth-child(3) { animation-delay:.66s; }
@@ -561,9 +569,15 @@ a:focus-visible { outline:2px solid var(--foreground); outline-offset:8px; }
 @keyframes t-ear-flinch { 0%,100% {transform:rotate(0) scale(1);} 38% {transform:rotate(-5deg) scale(1.08,.84);} 64% {transform:rotate(2deg) scale(.97,1.04);} }
 .g-wave .t-ears { animation:t-wave-ears .34s ease-in-out 4 alternate; }
 .g-wave .t-gest { animation:t-wave-body .68s ease-in-out 2 alternate; }
-.g-wave .t-tail,.g-smile .t-tail { animation:t-tail-wag .3s ease-in-out 5 alternate; }
+.g-wave .t-arm { animation:t-arm-wave .34s ease-in-out 4 alternate; }
+.g-smile .t-tail { animation:t-tail-wag .3s ease-in-out 5 alternate; }
+.mood-rain.g-wave .t-arm { animation:t-leaf-arm-bob .45s ease-in-out 3 alternate; }
+.mood-rain.g-wave .t-leaf { animation:t-leaf-bob .45s ease-in-out 3 alternate; }
 @keyframes t-wave-ears { from {transform:rotate(-2deg);} to {transform:rotate(5deg) scale(1.04,1.08);} }
 @keyframes t-wave-body { from {transform:rotate(-2deg);} to {transform:rotate(3deg) translateY(-1px);} }
+@keyframes t-arm-wave { from {transform:rotate(35deg);} to {transform:rotate(72deg);} }
+@keyframes t-leaf-arm-bob { from {transform:rotate(57deg);} to {transform:rotate(63deg);} }
+@keyframes t-leaf-bob { from {transform:translateY(0) rotate(-1deg);} to {transform:translateY(-1px) rotate(2deg);} }
 @keyframes t-tail-wag { from {transform:rotate(-9deg);} to {transform:rotate(12deg);} }
 .g-doze .t-gest { animation:t-doze 2.6s ease-in-out both; }
 .g-doze .t-lid { animation:t-doze-lids 2.6s ease-in-out both; }

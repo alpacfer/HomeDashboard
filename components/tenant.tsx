@@ -518,7 +518,16 @@ export default function Tenant({ mood, targets, activeScene, previewSpot = null,
       <ellipse className="t-sweat" cx="80" cy="44" rx="3" ry="4.5" />
       </g>
       <g className="t-scarf"><path d="M18 78 C30 90 70 90 82 78 C70 84 30 84 18 78 Z" /><path d="M72 82 L80 98 L70 96 Z" /></g>
-      <g className="t-umbrella"><path className="t-canopy" d="M8 40 Q50 -4 92 40 Z" /><path className="t-canopy-rib" d="M8 40 Q29 30 50 40 Q71 30 92 40" /><rect className="t-handle" x="49" y="38" width="2.5" height="24" /></g>
+      <g className="t-leaf">
+        <path className="t-leaf-blade" d="M12 18 C32 -6 66 -14 97 4 C80 26 48 32 14 23 L20 19 L12 21 L18 15 Z" />
+        <path className="t-leaf-vein" d="M92 5 C67 8 41 13 16 20 M68 9 L76 -1 M52 12 L59 24 M43 14 L34 4 M29 17 L23 25" />
+        <path className="t-leaf-stem-outline" d="M15 18 C-4 22 -7 37 5 54 C15 68 14 86 8 101" />
+        <path className="t-leaf-stem" d="M15 18 C-4 22 -7 37 5 54 C15 68 14 86 8 101" />
+      </g>
+      <g className="t-arm">
+        <path className="t-arm-blob" d="M20 62 C12 59 4 64 4 71 C4 78 10 82 16 78 C20 75 21 69 20 62 Z" />
+        <path className="t-grip" d="M8 68 L8.5 74 M11 67 L11.5 72" />
+      </g>
       </g>
       </g>
       </g>

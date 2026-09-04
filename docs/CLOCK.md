@@ -134,7 +134,8 @@ Tenant crosses the dashboard in several planted bounds, then reacts to what it
 finds—reading the week, waiting at departures, admiring a fact or tracking the
 map. If that scene rotates away, it turns around from its actual current
 position and comes home. The weather itself also prompts a sneeze, drowsy slump,
-listening pose or wiggle when the mood changes.
+listening pose or wiggle when the mood changes. Its small arm sits opposite the
+tail and lifts for waves and weather props.
 
 1.6 s before the minute boundary (`shouldApproach`) it walks over
 to the last digit, feet stepping and body bobbing, and holds a ready pose; when
@@ -156,8 +157,8 @@ look that way. Otherwise it comes down by climbing, by hopping off, or, from
 an arch or the colon, by sliding off it (`pickDescent`). At the hour it jumps with a
 spin or does two hops (`pickHourAction`), after walking home if it struck the
 roll first. Between 23:00 and 06:00 it sleeps and the clock dims to 72 %. It
-holds an umbrella when the current hour is wet, wears sunglasses above 25° and
-a scarf below 0°, using the same fields the weather card shows.
+holds a broad leaf over its ears when the current hour is wet, wears sunglasses
+above 25° and a scarf below 0°, using the same fields the weather card shows.
 
 While the Tenant is off its resting spot, `Clock` postpones set pieces, so the
 digit it is standing on does not fly away under it; the hour pieces are the
