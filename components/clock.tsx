@@ -26,7 +26,7 @@ import {
   HOUR_PIECE_DELAY_MS, delayToQuiet, flapSequence, nextEventDelay, pickSetPiece, setPieceById, type SetPieceId,
 } from '@/lib/clock-events';
 import {
-  inkBox, inkColumns, landingSpotTarget, nextChangingDigit, shouldApproach, tenantMood, tenantTargets, topProfile, worldSpotTarget,
+  inkBox, inkColumns, landingSpotTarget, nextChangingDigit, tenantMood, tenantTargets, topProfile, worldSpotTarget,
   type Box, type Targets, type WorldSpotId,
 } from '@/lib/clock-tenant';
 import type { Rotation } from '@/lib/panel-rotation';
@@ -245,12 +245,9 @@ export default function Clock({ now, conditions = null, activeScene = 'transport
 
   // Signals for the Tenant, derived rather than stored: each is the minute
   // stamp of the moment it describes, so it changes exactly once per minute.
-  // One one-second tick per minute lands in the approach window.
   const rollKey = rolled ? next.minute : null;
-  const hourKey = rolled && next.text.endsWith(':00') ? next.minute : null;
   const rolledIndex = digits.findIndex(({ previous }) => previous !== null);
   const rolledDigit = rolledIndex < 0 ? 3 : rolledIndex;
-  const approachKey = now && shouldApproach(now) ? Math.floor(now.getTime() / 60000) : null;
 
   // Wardrobe and set-piece scheduling. One effect, one set of timers, all
   // cleared on unmount: this display runs for weeks without a reload.
@@ -374,7 +371,7 @@ export default function Clock({ now, conditions = null, activeScene = 'transport
       <span className="clock-date">{ghost.date}</span>
     </div>}
 
-    {targets && !reduced && <Tenant mood={mood} targets={targets} activeScene={activeScene} previewSpot={petPreview} travelSpot={petTravel} approachKey={approachKey} rollKey={rollKey} hourKey={hourKey}
+    {targets && !reduced && <Tenant mood={mood} targets={targets} activeScene={activeScene} previewSpot={petPreview} travelSpot={petTravel} rollKey={rollKey}
       nextDigit={nextDigit} rolledDigit={rolledDigit} busy={ghost !== null || piece !== null} onPlay={onPlay} onHome={onHome} />}
   </div>;
 }

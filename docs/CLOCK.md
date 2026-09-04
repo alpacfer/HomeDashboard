@@ -109,22 +109,23 @@ the top of the ink in every column; `topProfile()` classifies that top as a
 **flat** bar wider than the Tenant (3, 5, 7 in Grotesk), a **ledge** narrower
 than it (the stem of a 1 or a 4), or a **round** arch (0, 2, 6, 8, 9), and finds
 the apex: the centre of the highest flat run. `tenantTargets()` turns all of
-that into the translations the Tenant needs: `--push-x` to stand against the
-last digit's ink edge, and one perch per digit with `--perch-x/y` on the apex,
-how far it can pace along a flat top, and which way an arch falls away. The
+that into one perch per digit, with `--perch-x/y` on the apex and the direction
+in which an arch falls away. The
 colon's top dot is measured too and is the fifth perch, a **ball**. That is why
-it stands on the stem of a "1" rather than over its flag, and shoves the edge
-of a "7" rather than the edge of the cell.
+it stands on the stem of a "1" rather than over its flag.
 
 **Behaviour.** One sparse decision loop advances a tiny set of drives—energy,
 curiosity, adventure and interest in the current panel—and chooses between
-waiting, a gesture, climbing and exploring (`lib/pet-behavior.ts`). It remembers
+waiting, a gesture, perching and exploring (`lib/pet-behavior.ts`). It remembers
 its recent activities, so expressive actions do not repeat like a playlist and
-an adventure must build up before another can happen. Idle gestures include
+drive changes make an adventure more or less likely without locking it out.
+Every free activity remains a candidate; energy, curiosity, recent memory and
+the current surroundings only change their weights. Idle gestures include
 natural and double blinks, layered eye/head glances, smiling, stretching,
 wiggling, leaning, yawning, hopping, scratching, sneezing, waving, dozing and
-listening. The cadence varies with energy rather than following independent
-metronomes.
+listening. The small hop uses the same charged parabola as travel rather than
+an inner-body shortcut. The cadence varies with energy rather than following
+independent metronomes.
 
 The Tenant is no longer confined to the clock. `Clock` measures five destination
 landmarks and a network of safe landing pads from their real DOM boxes: the
@@ -136,49 +137,48 @@ fully before the next one begins, so it never glides diagonally through the UI
 or bounces on an invented point in empty space. A scene change raises interest
 in its new landmark; on some later decision the Tenant travels there and reacts
 to what it finds—reading the week, waiting at departures, admiring a fact or
-tracking the map. If that scene rotates away, it routes home from its actual
-current position. The weather itself also prompts a sneeze, drowsy slump,
-listening pose or wiggle when the mood changes. Its small arm sits opposite the
-tail and lifts for waves and weather props.
+tracking the map. The preferred landmark is more likely, never mandatory, and
+other measured destinations remain available. If that scene rotates away, it
+routes home from its actual current position because its supporting surface is
+leaving. Scene, minute, hour and weather changes adjust the mind's drives but do
+not directly select an animation.
 
-1.6 s before the minute boundary (`shouldApproach`) it makes a short charged
-jump to the last digit and holds a ready pose; when
-the roll actually arrives, which the one-second tick can deliver up to a second
-late, it strikes (`pickStrike`: a shove, a kick with the front foot, or a
-headbutt) and the digit rolls out under the blow; then it jumps back. If no
-roll follows, it returns after 3.5 s. Every 25 to 45 seconds it climbs onto
-a digit or the colon (`pickPerch`, the minutes favoured) and stays 6 to 14
+A minute boundary never summons the Tenant. If it is already perched on a
+digit that rolls away, it loses its footing; otherwise the roll is merely a
+stimulus that can influence some later free choice. When curiosity and
+adventure make a perch appealing, it jumps onto a digit or the colon
+(`pickPerch`, the minutes favoured) and stays 6 to 14
 seconds, less on the colon. What it does up there depends on what it is
-standing on (`pickPerchAction`): on a bar it paces a few steps each way, sits
-down with its feet out, or peers over the edge; on a ledge it teeters; on an
+standing on (`pickPerchAction`): on a bar it sits with its feet out or peers
+over the edge; on a ledge it teeters; on an
 arch it sways all the while, slips down the curve and catches itself; on the
 colon it balances hard, feet together, and the dots squash when it lands and
 spring when it leaves (`tn-land`, `tn-spring` on the block). A digit that
 rolls out from under it takes its footing with it: it stumbles, falls to the
 baseline in front of the digit, lies there squashed and dazed for a moment,
-then gets up and walks home. A digit that rolls elsewhere makes it start and
-look that way. Otherwise it comes down by climbing, by hopping off, or, from
-an arch or the colon, by sliding off it (`pickDescent`). At the hour it jumps with a
-spin or does two hops (`pickHourAction`), after walking home if it struck the
-roll first. Between 23:00 and 06:00 it sleeps and the clock dims to 72 %. It
+then charges and jumps home. A roll elsewhere only changes its drives; it does
+not dictate a glance or another reaction. Every ordinary departure from a
+perch is also a charged jump. Between 23:00 and 06:00 its resting style sleeps
+and the clock dims to 72 %. It
 holds a broad leaf over its ears when the current hour is wet, wears sunglasses
 above 25° and a scarf below 0°, using the same fields the weather card shows.
 
-While the Tenant is off its resting spot, `Clock` postpones set pieces, so the
-digit it is standing on does not fly away under it; the hour pieces are the
-exception, since they follow the roll it has just struck.
+While the Tenant is off its resting spot, `Clock` postpones set pieces so an
+unrelated scripted clock effect does not interrupt it. Normal digit rolls are
+not postponed; they are part of the environment the Tenant can encounter.
 
-**Motion.** Voluntary movement uses compositor-only jump keyframes. Pure route
-logic selects measured landing pads and samples each parabola at its quarters;
-the component advances one charge and flight timer at a time. A trip interrupted
-by a scene change reads the current transform and plans home from that exact
-point. The perch remains a transition: when the digit under it rolls or changes
-face, the remeasured apex carries it smoothly to the new top, and its stance
-changes with the shape. The climb, descents, fall and hour are keyframes whose
-first and last frames equal the poses on either side of them. Every descent and
-the fall start from `--from-x/y`, the element's actual translation read from its
-computed transform at that instant. The SVG is layered so nothing fights: the positioned
-element carries poses, `.t-figure` breathing, the walk bob and the balance for
+**Motion.** Every intentional position change uses one compositor-only jump
+pipeline—including getting onto and off a digit, the optional idle hop,
+dashboard travel, and coming home. Pure route logic selects
+measured landing pads and samples each parabola at its quarters; the component
+advances one charge and flight timer at a time. A trip interrupted by a scene
+change reads the live transform and makes that exact matrix the first frame of
+the new charge, so it settles before the new parabola instead of snapping or
+gliding. Completed motion classes remain painted for an 80 ms grace so a slow
+browser cannot let a JavaScript timeout remove them before their final frame.
+Falls remain separate involuntary physics; once landed, the return is a normal
+charged jump. The SVG is layered so nothing fights: the positioned
+element carries poses, `.t-figure` breathing and the balance for
 the top's shape, `.t-gest` gestures and perch actions, `.t-pose` the sticky
 sitting squash, and each animates only its own transform.
 
@@ -196,8 +196,8 @@ tested against the measured column tops of the Grotesk digits. To watch a piece
 without waiting for its timer, add the class by hand in DevTools (`sp-domino`,
 `o-neon`) on `.clock-block`; the CSS is the whole choreography. The Tenant's
 poses are classes on `.tenant` in the same way (`pose-perched on-round
-pa-slip`, `pose-strike s-kick`), positioned by the custom properties the
-component sets on it. Add `?pet=weather`, `week`, `transport`, `fact` or `map`
+pa-slip`), positioned by the custom properties the component sets on it. Add
+`?pet=weather`, `week`, `transport`, `fact` or `map`
 to hold it at a measured dashboard landmark for a reproducible visual check.
 Prefix the value with `travel-` (for example `?pet=travel-map`) to replay the
 real safe-spot route and hold only after it arrives.

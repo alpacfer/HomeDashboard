@@ -365,18 +365,18 @@ a:focus-visible { outline:2px solid var(--foreground); outline-offset:8px; }
 /* ---------------------------------------------------------------------------
    The Tenant. Positioned and aimed by measured values the component sets as
    custom properties: --tenant-left/top (rest, feet on the digits' baseline),
-   --push-x (against the last digit's ink), --perch-x/y (on the highest flat
-   run of a digit's top, or the colon's top dot), --shift (steps taken along a
-   flat top), --slide (which way an arch falls away), --from-x/y (where a
-   descent or fall began), and the measured points of one safe-spot hop.
-   Voluntary travel is a chain of compositor keyframes; the perch alone stays
-   a transition so it can follow remeasured glyph ink.
+   --perch-x/y (on the highest flat run of a digit's top, or the colon's top
+   dot), --slide (which way an arch falls away), --from-x/y (where a fall
+   began), --handoff-transform (the live matrix an interrupted pose was
+   showing), and the measured points of one safe-spot hop. Every intentional
+   translation is the same chain of compositor-only charge and parabola
+   keyframes; only an involuntary fall is animated any other way.
 
    Layers, each animating only its own transform so they compose:
-     .tenant   poses                      .t-figure  breathing, walk bob, balance
+     .tenant   poses                      .t-figure  breathing and balance
      .t-gest   gestures and perch actions .t-pose    sticky state (sitting)
    See components/tenant.tsx. */
-.tenant { position:absolute; left:var(--tenant-left); top:var(--tenant-top); width:.42em; height:.42em; font-size:var(--clock-size); transform-origin:50% 100%; transition:transform 1.1s cubic-bezier(.45,0,.2,1); will-change:transform; pointer-events:none; z-index:900; }
+.tenant { position:absolute; left:var(--tenant-left); top:var(--tenant-top); width:.42em; height:.42em; font-size:var(--clock-size); transform-origin:50% 100%; transition:none; will-change:transform; pointer-events:none; z-index:900; }
 .tenant svg { display:block; width:100%; height:100%; overflow:visible; }
 .tenant .t-figure,.tenant .t-gest,.tenant .t-pose { transform-origin:50px 96px; }
 .tenant .t-figure { animation:t-idle 21s ease-in-out infinite; }
@@ -419,7 +419,7 @@ a:focus-visible { outline:2px solid var(--foreground); outline-offset:8px; }
 .t-zz { opacity:0; font-family:'Space Grotesk',Arial,sans-serif; font-weight:700; font-size:16px; fill:var(--foreground); }
 .t-zz:nth-of-type(2) { font-size:12px; }
 
-/* Moods. Before the poses, so a walk or a balance wins over a shiver. */
+/* Moods. Before the poses, so a jump or a balance wins over a shiver. */
 .mood-asleep .t-lid { transform:translateY(-3px); transition-duration:1.4s; }
 .mood-asleep .t-figure { animation:t-breathe 4.6s ease-in-out infinite; }
 @keyframes t-breathe { 0%,100% {transform:scale(1,.95) translateY(0);} 50% {transform:scale(1.03,.99) translateY(-1px);} }
@@ -471,8 +471,6 @@ a:focus-visible { outline:2px solid var(--foreground); outline-offset:8px; }
 .g-lean .t-gest { animation:t-lean 1.9s cubic-bezier(.4,0,.2,1) both; }
 @keyframes t-lean { 0%,100% {transform:rotate(0) translateX(0);} 30%,70% {transform:rotate(-11deg) translateX(-5px);} }
 .g-lean .t-pupil { transform:translate(-4px,1px); }
-.g-hop .t-gest { animation:t-hop .65s cubic-bezier(.3,0,.2,1) both; }
-@keyframes t-hop { 0%,100% {transform:translateY(0) scale(1);} 18% {transform:translateY(1px) scale(1.1,.9);} 52% {transform:translateY(-10px) scale(.96,1.05);} 84% {transform:translateY(0) scale(1.08,.92);} }
 .g-scratch .t-ears { animation:t-scratch-ears .34s ease-in-out 4 alternate; }
 .g-scratch .t-gest { animation:t-scratch-body .34s ease-in-out 4 alternate; }
 .g-scratch .t-face { transform:rotate(2deg) translateX(1px); }
@@ -505,29 +503,22 @@ a:focus-visible { outline:2px solid var(--foreground); outline-offset:8px; }
 .g-listen .t-face { transform:translateX(1.5px) rotate(1deg); transition-delay:.1s; }
 @keyframes t-listen { 0%,100% {transform:scale(1) rotate(0);} 22%,72% {transform:scale(1.08,1.14) rotate(2deg);} 45% {transform:scale(1.1,1.15) rotate(-2deg);} }
 
-/* Feet only walk while climbing or pacing along a broad glyph. Travel across
-   the dashboard is made of planted jumps below. */
-.pose-climbing .t-foot,.pacing .t-foot { animation:t-step .3s ease-in-out infinite alternate; }
-.pose-climbing .t-foot-b,.pacing .t-foot-b { animation-delay:.15s; }
-@keyframes t-step { from {transform:translate(-3px,0) rotate(-5deg);} to {transform:translate(3px,-4px) rotate(7deg);} }
-.pose-climbing .t-figure,.pacing .t-figure { animation:t-walk .3s ease-in-out infinite alternate; }
-@keyframes t-walk { from {transform:translateY(-2px) rotate(-1.5deg);} to {transform:translateY(0) rotate(1.5deg);} }
-
-/* Across the dashboard: every voluntary movement starts with a visible charge
+/* Every intentional position change starts with a visible charge
    on a measured safe spot, then follows one sampled quadratic parabola to the
    next. React changes back to charge only after this landing has settled, so a
-   long route reads as chained bounces and never as a diagonal glide. */
-.pose-charging { transform:translate(var(--hop-from-x),var(--hop-from-y)); transition:none; }
-.pose-charging .t-figure { animation:t-jump-charge .22s cubic-bezier(.4,0,.6,1) both; }
+   long route reads as chained bounces and never as a diagonal glide. The
+   charge begins at the live matrix of the pose it interrupts, so a balance
+   or half-finished flight also hands off without a snap. */
+.pose-charging { animation:t-jump-charge .22s cubic-bezier(.4,0,.6,1) both; transition:none; }
 .pose-charging .t-pupil { transform:translateY(-3px); }
 .pose-jumping { animation:t-travel-hop var(--hop-ms) linear both; transition:none; }
 .pose-visiting { transform:translate(var(--world-x),var(--world-y)); transition:none; }
 @keyframes t-jump-charge {
-  from {transform:translateY(0) scale(1);}
-  to {transform:translateY(4px) scale(1.13,.82);}
+  from {transform:var(--handoff-transform);}
+  to {transform:translate(var(--hop-from-x),calc(var(--hop-from-y) + 4px)) rotate(0) scale(1.13,.82);}
 }
 @keyframes t-travel-hop {
-  0% {transform:translate(var(--hop-from-x),var(--hop-from-y)) scale(1.13,.82);}
+  0% {transform:translate(var(--hop-from-x),calc(var(--hop-from-y) + 4px)) scale(1.13,.82);}
   8% {transform:translate(var(--hop-from-x),calc(var(--hop-from-y) - .025em)) scale(.96,1.07);}
   25% {transform:translate(var(--hop-quarter-x),var(--hop-quarter-y)) rotate(-4deg) scale(.97,1.04);}
   50% {transform:translate(var(--hop-apex-x),var(--hop-apex-y)) rotate(2deg) scale(1);}
@@ -548,54 +539,36 @@ a:focus-visible { outline:2px solid var(--foreground); outline-offset:8px; }
 .visit-weather.pose-visiting .t-gest { animation:t-visit-weather 4.8s ease-in-out both; }
 @keyframes t-visit-weather { 0%,100% {transform:translateY(0);} 18%,42% {transform:translateY(3px) rotate(-4deg) scale(1.03,.96);} 65% {transform:translateY(-2px) rotate(2deg);} }
 .visit-week.pose-visiting .t-pupils { animation:t-read-week 4.8s ease-in-out both; }
-@keyframes t-read-week { 0%,100% {transform:translate(-4px,3px);} 25% {transform:translate(-2px,5px);} 50% {transform:translate(1px,5px);} 75% {transform:translate(4px,3px);} }
-.visit-transport.pose-visiting .t-foot-b { animation:t-waiting-foot .5s ease-in-out 7 alternate; }
+@keyframes t-read-week { 0%,100% {transform:translate(0,0);} 12% {transform:translate(-4px,3px);} 32% {transform:translate(-2px,5px);} 52% {transform:translate(1px,5px);} 72% {transform:translate(4px,3px);} 90% {transform:translate(-2px,3px);} }
+.visit-transport.pose-visiting .t-foot-b { animation:t-waiting-foot .5s ease-in-out 8 alternate; }
 @keyframes t-waiting-foot { from {transform:translateY(0);} to {transform:translateY(-3px) rotate(8deg);} }
 .visit-fact.pose-visiting .t-tail { animation:t-tail-wag .36s ease-in-out 6 alternate; }
 .visit-fact.pose-visiting .t-face { animation:t-admire 4.6s ease-in-out both; }
 @keyframes t-admire { 0%,100% {transform:translate(0,0);} 30%,70% {transform:translate(-2px,-1px) rotate(-2deg) scale(1.02);} }
 .visit-map.pose-visiting .t-pupils { animation:t-track-map 5.4s ease-in-out both; }
 .visit-map.pose-visiting .t-gest { animation:t-map-lean 5.4s ease-in-out both; }
-@keyframes t-track-map { 0%,100% {transform:translate(-4px,-1px);} 35% {transform:translate(4px,-2px);} 65% {transform:translate(0,5px);} }
+@keyframes t-track-map { 0%,100% {transform:translate(0,0);} 12% {transform:translate(-4px,-1px);} 38% {transform:translate(4px,-2px);} 66% {transform:translate(0,5px);} 88% {transform:translate(-3px,1px);} }
 @keyframes t-map-lean { 0%,100% {transform:rotate(0);} 28%,72% {transform:rotate(-6deg) translateX(-2px);} }
 
-/* Poses */
-.pose-approach { animation:t-approach-jump 1.1s linear both; transition:none; }
-@keyframes t-approach-jump {
-  0% {transform:translate(0,0) scale(1);}
-  14% {transform:translate(0,.025em) scale(1.13,.82);}
-  24% {transform:translate(calc(var(--push-x) * .08),-.025em) scale(.96,1.07);}
-  54% {transform:translate(calc(var(--push-x) * .5),-.13em) rotate(-4deg);}
-  82% {transform:translate(calc(var(--push-x) * .92),-.045em) rotate(-6deg);}
-  92% {transform:translate(var(--push-x),0) rotate(-6deg) scale(1.15,.81);}
-  100% {transform:translate(var(--push-x),0) rotate(-6deg) scale(1);}
-}
-.pose-approach .t-pupil,.pose-strike .t-pupil { transform:translate(-4px,2px); }
-.pose-strike { transition-duration:.28s; transition-timing-function:cubic-bezier(.2,.9,.3,1.25); }
-.s-shove { transform:translateX(calc(var(--push-x) - .04em)) rotate(-22deg) scaleX(1.06); }
-.s-shove .t-mouth { d:path('M42 77 Q50 72 58 77'); }
-.s-kick { transform:translate(calc(var(--push-x) + .04em),-.015em) rotate(18deg) scale(1.02,.98); }
-/* The kicking leg swings up in the body's colour so it reads as a leg, not a shadow. */
-.s-kick .t-foot:not(.t-foot-b) { transform:translate(-24px,-22px) rotate(-40deg) scale(1.35,1.6); fill:var(--colon); opacity:1; transition:transform .22s cubic-bezier(.2,.9,.3,1.3),fill .1s,opacity .1s; }
-.s-kick .t-mouth { d:path('M42 77 Q50 72 58 77'); }
-.s-headbutt { transform:translateX(calc(var(--push-x) - .07em)) rotate(-40deg) scale(1.08,.94); }
-.s-headbutt .t-lid { transform:translateY(-16px); }
-.s-headbutt .t-mouth { d:path('M43 78 Q50 74 57 78'); }
+/* A panel may rotate while a visit gesture is still between keyframes. These
+   short handoffs begin at the computed matrices captured before React changes
+   pose, then return every affected SVG layer to its neutral transform during
+   the next charge. */
+.tenant.inner-handoff .t-gest { animation:t-inner-gest-home .18s ease-out both; }
+.tenant.inner-handoff .t-pupils { animation:t-inner-pupils-home .18s ease-out both; }
+.tenant.inner-handoff .t-face { animation:t-inner-face-home .18s ease-out both; }
+.tenant.inner-handoff .t-tail { animation:t-inner-tail-home .18s ease-out both; }
+.tenant.inner-handoff .t-foot:not(.t-foot-b) { animation:t-inner-foot-home .18s ease-out both; }
+.tenant.inner-handoff .t-foot-b { animation:t-inner-foot-b-home .18s ease-out both; }
+@keyframes t-inner-gest-home { from {transform:var(--inner-gest-from);} to {transform:translate(0,0) rotate(0) scale(1);} }
+@keyframes t-inner-pupils-home { from {transform:var(--inner-pupils-from);} to {transform:translate(0,0);} }
+@keyframes t-inner-face-home { from {transform:var(--inner-face-from);} to {transform:translate(0,0) rotate(0) scale(1);} }
+@keyframes t-inner-tail-home { from {transform:var(--inner-tail-from);} to {transform:rotate(0);} }
+@keyframes t-inner-foot-home { from {transform:var(--inner-foot-from);} to {transform:translate(0,0) rotate(0) scale(1);} }
+@keyframes t-inner-foot-b-home { from {transform:var(--inner-foot-b-from);} to {transform:translate(0,0) rotate(0) scale(1);} }
 
-.pose-climbing { animation:t-climb 1.7s cubic-bezier(.4,0,.2,1) both; transition:none; }
-@keyframes t-climb {
-  0% {transform:translate(0,0) scale(1);}
-  10% {transform:translate(0,.02em) scale(1.1,.9);}
-  35% {transform:translate(calc(var(--perch-x) * .55),calc(var(--perch-y) * .45 - .1em)) rotate(-8deg) scale(.97,1.05);}
-  70% {transform:translate(var(--perch-x),calc(var(--perch-y) - .16em)) rotate(3deg);}
-  82% {transform:translate(var(--perch-x),var(--perch-y)) scale(1.1,.88);}
-  92% {transform:translate(var(--perch-x),calc(var(--perch-y) - .01em)) scale(.98,1.03);}
-  100% {transform:translate(var(--perch-x),var(--perch-y)) scale(1);}
-}
-.pose-climbing .t-pupil { transform:translate(-3px,-3px); }
-/* Perched: a transition, so a remeasured top (the digit rolled or changed
-   face under it) or a step along the bar carries it there smoothly. */
-.pose-perched { transform:translate(calc(var(--perch-x) + var(--shift)),var(--perch-y)); transition:transform .95s cubic-bezier(.45,0,.2,1); }
+/* Poses reached by the shared jump pipeline. */
+.pose-perched { transform:translate(var(--perch-x),var(--perch-y)); transition:none; }
 .pose-perched .t-pupil { transform:translate(0,4px); }
 .pose-perched.w-left .t-pupil { transform:translate(-5px,3px); }
 .pose-perched.w-right .t-pupil { transform:translate(5px,3px); }
@@ -638,38 +611,14 @@ a:focus-visible { outline:2px solid var(--foreground); outline-offset:8px; }
 .sitting .t-foot-b { transform:translate(6px,-2px) scale(1,.7); }
 .sitting .t-mouth { d:path('M41 74 Q50 82 59 74'); }
 
-/* Descents: from where it actually was (--from-x/y) to the ground at home. */
-.pose-descending { transition:none; }
-.d-climb-down { animation:t-descend 1.2s cubic-bezier(.4,0,.2,1) both; }
-@keyframes t-descend {
-  0% {transform:translate(var(--from-x),var(--from-y));}
-  30% {transform:translate(calc(var(--from-x) * .6),calc(var(--from-y) * .5 - .12em)) rotate(10deg);}
-  85% {transform:translate(0,0) scale(1.12,.86);}
-  100% {transform:translate(0,0);}
-}
-.d-hop-off { animation:t-hop-off 1.05s cubic-bezier(.35,0,.25,1) both; }
-@keyframes t-hop-off {
-  0% {transform:translate(var(--from-x),var(--from-y)) scale(1);}
-  14% {transform:translate(var(--from-x),calc(var(--from-y) + .02em)) scale(1.12,.88);}
-  40% {transform:translate(calc(var(--from-x) * .55),calc(var(--from-y) * .8 - .14em)) rotate(8deg) scale(.95,1.06);}
-  82% {transform:translate(0,0) rotate(-2deg) scale(1.16,.84);}
-  100% {transform:translate(0,0) rotate(0) scale(1);}
-}
-.d-slide { animation:t-slide 1.3s cubic-bezier(.35,0,.3,1) both; }
-@keyframes t-slide {
-  0% {transform:translate(var(--from-x),var(--from-y)) rotate(0);}
-  22% {transform:translate(calc(var(--from-x) + var(--slide) * .1em),calc(var(--from-y) + .05em)) rotate(calc(var(--slide) * 22deg));}
-  42% {transform:translate(calc(var(--from-x) + var(--slide) * .22em),calc(var(--from-y) + .2em)) rotate(calc(var(--slide) * 48deg)) scale(.96,1.04);}
-  86% {transform:translate(0,0) rotate(0) scale(1.15,.85);}
-  100% {transform:translate(0,0) scale(1);}
-}
-.d-slide .t-lid { transform:translateY(-34px); }
-.d-slide .t-mouth { d:path('M44 73 Q50 84 56 73 Z'); fill:#1a1a1f; }
-.d-hop-off .t-mouth,.d-climb-down .t-mouth { d:path('M42 75 Q50 80 58 75'); }
+/* A fall is involuntary physics. Once it has landed, its return home still
+   goes through the shared charge and jump pipeline above. */
+.pose-falling .t-figure { animation:t-figure-handoff .24s ease-out both; }
+@keyframes t-figure-handoff { from {transform:var(--figure-from);} to {transform:translate(0,0) rotate(0) scale(1);} }
 
 /* The digit under it rolls away: carried up a little, then tipped off,
    flailing, down to the baseline in front of the digit, where it lies squashed
-   and dazed before walking home. The last frame equals the sprawled pose. */
+   and dazed before jumping home. The last frame equals the sprawled pose. */
 .pose-falling { animation:t-fall 1s cubic-bezier(.4,0,.6,1) both; transition:none; }
 @keyframes t-fall {
   0% {transform:translate(var(--from-x),var(--from-y)) rotate(0) scale(1);}
@@ -683,40 +632,15 @@ a:focus-visible { outline:2px solid var(--foreground); outline-offset:8px; }
 .pose-falling .t-lid { transform:translateY(-34px); }
 .pose-falling .t-pupil { transform:translate(0,-4px); }
 .pose-falling .t-mouth { d:path('M44 73 Q50 90 56 73 Z'); fill:#1a1a1f; }
-.pose-falling .t-foot { animation:t-step .11s ease-in-out infinite alternate; }
+.pose-falling .t-foot { animation:t-fall-step .11s ease-in-out infinite alternate; }
 .pose-falling .t-foot-b { animation-delay:.055s; }
+@keyframes t-fall-step { from {transform:translate(-3px,0) rotate(-5deg);} to {transform:translate(3px,-4px) rotate(7deg);} }
 .pose-sprawled { transform:translate(var(--from-x),0) rotate(0) scale(1.3,.65); transition:none; }
 .pose-sprawled .t-lid { transform:translateY(-12px); transition-duration:.3s; }
 .pose-sprawled .t-pupil { transform:translate(0,-1px); }
 .pose-sprawled .t-mouth { d:path('M43 77 L57 77'); }
 .pose-sprawled .t-figure { animation:t-dazed 1.1s ease-in-out infinite; }
 @keyframes t-dazed { 0%,100% {transform:rotate(-2deg);} 50% {transform:rotate(2deg);} }
-.pose-walk-home { animation:t-local-home 1.1s linear both; transition:none; }
-@keyframes t-local-home {
-  0% {transform:translate(var(--from-x),var(--from-y)) scale(1);}
-  13% {transform:translate(var(--from-x),calc(var(--from-y) + .025em)) scale(1.13,.82);}
-  24% {transform:translate(calc(var(--from-x) * .92),calc(var(--from-y) * .92 - .025em)) scale(.96,1.07);}
-  54% {transform:translate(calc(var(--from-x) * .5),calc(var(--from-y) * .5 - .13em)) rotate(4deg);}
-  82% {transform:translate(calc(var(--from-x) * .08),calc(var(--from-y) * .08 - .045em));}
-  92% {transform:translate(0,0) scale(1.15,.81);}
-  100% {transform:translate(0,0) scale(1);}
-}
-
-/* The hour */
-.pose-jump { animation:t-jump 1.5s cubic-bezier(.3,0,.2,1) both; transition:none; }
-@keyframes t-jump { 0% {transform:translateY(0) rotate(0) scale(1);} 15% {transform:translateY(6%) scale(1.15,.8);} 45% {transform:translateY(-95%) rotate(180deg) scale(.95,1.08);} 70% {transform:translateY(-40%) rotate(360deg);} 85% {transform:translateY(0) rotate(360deg) scale(1.2,.78);} 100% {transform:translateY(0) rotate(360deg) scale(1);} }
-.pose-jump .t-mouth,.pose-hops .t-mouth { d:path('M40 74 Q50 86 60 74'); }
-.pose-hops { animation:t-hops 1.6s cubic-bezier(.3,0,.2,1) both; transition:none; }
-@keyframes t-hops {
-  0%,100% {transform:translateY(0) rotate(0) scale(1);}
-  12% {transform:translateY(3%) scale(1.15,.85);}
-  32% {transform:translateY(-48%) rotate(-9deg) scale(.95,1.06);}
-  50% {transform:translateY(0) rotate(0) scale(1.15,.85);}
-  70% {transform:translateY(-58%) rotate(9deg) scale(.95,1.06);}
-  88% {transform:translateY(0) rotate(0) scale(1.2,.8);}
-}
-.pose-hops .t-pupil { transform:translateY(-3px); }
-
 /* The colon under the Tenant: squashes when it lands, springs when it leaves. */
 .tn-land .separator span:first-child { animation:tn-dot-land .9s cubic-bezier(.3,0,.2,1) both; transform-origin:50% 100%; }
 @keyframes tn-dot-land { 0%,100% {transform:scale(1,1);} 22% {transform:scale(1.25,.7);} 55% {transform:scale(.94,1.08);} 78% {transform:scale(1.05,.96);} }

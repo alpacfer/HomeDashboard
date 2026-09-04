@@ -42,6 +42,9 @@
 // right. Many more means a value sitting on a threshold and twitching across
 // it, which is the flicker four hard colour bands used to cause: 191 of 345
 // cells crossed a band and crossed back inside one pass.
+//
+// For a moving element, the report also verifies that every position-changing
+// frame belongs to the Tenant's charge/parabola pipeline (or to a fall).
 
 import { fileURLToPath } from 'node:url';
 import { findChrome, launchChrome, openPage, pageUrl, waitForServer } from './lib/browser.mjs';
@@ -104,16 +107,23 @@ function watcher(selector, seconds, samples) {
     }
     const gaps = frames.slice(1).map((frame, index) => frame.at - frames[index].at).sort((a, b) => a - b);
     const quantile = at => gaps.length ? gaps[Math.min(gaps.length - 1, Math.floor(gaps.length * at))] : 0;
-    let distance = 0, moving = 0, jumps = 0, charges = 0;
+    let distance = 0, moving = 0, jumps = 0, charges = 0, outsidePipeline = 0;
     for (let index = 1; index < frames.length; index += 1) {
       const step = Math.hypot(frames[index].x - frames[index - 1].x, frames[index].y - frames[index - 1].y);
       distance += step;
-      if (step > 0.1) moving += 1;
+      if (step > 0.1) {
+        moving += 1;
+        const poses = String(frames[index - 1].pose) + ' ' + String(frames[index].pose);
+        // Falling is the one intentional exception: it is external physics,
+        // not locomotion. Every other root-position change must be a charge or
+        // a sampled parabola.
+        if (!/pose-(charging|jumping|falling)/.test(poses)) outsidePipeline += 1;
+      }
       if (!String(frames[index - 1].pose).includes('pose-jumping') && String(frames[index].pose).includes('pose-jumping')) jumps += 1;
       if (!String(frames[index - 1].pose).includes('pose-charging') && String(frames[index].pose).includes('pose-charging')) charges += 1;
     }
     return {
-      kind: 'element', frames: frames.length, moving, distance, jumps, charges,
+      kind: 'element', frames: frames.length, moving, distance, jumps, charges, outsidePipeline,
       seconds: frames.length > 1 ? (frames[frames.length - 1].at - frames[0].at) / 1000 : 0,
       gap: { min: quantile(0), median: quantile(0.5), p90: quantile(0.9), max: gaps.length ? gaps[gaps.length - 1] : 0 },
     };
@@ -180,7 +190,7 @@ function watcher(selector, seconds, samples) {
 }
 
 function bar(label, value) {
-  return '  ' + label.padEnd(22) + value;
+  return '  ' + label.padEnd(24) + value;
 }
 
 async function main() {
@@ -218,9 +228,12 @@ async function main() {
       console.log(bar('moving frames', measured.moving));
       console.log(bar('path sampled', measured.distance.toFixed(1) + ' px'));
       console.log(bar('charge / jump starts', measured.charges + ' / ' + measured.jumps));
+      console.log(bar('movement outside jumps', measured.outsidePipeline));
       const evenness = measured.gap.median > 0 ? measured.gap.max / measured.gap.median : 0;
       console.log('');
-      console.log(measured.jumps < 1
+      console.log(measured.outsidePipeline > 0
+        ? '  NON-JUMP MOVEMENT. The Tenant changed position outside charge, parabola, or fall poses.'
+        : measured.jumps < 1
         ? '  No jump began during the measurement window.'
         : evenness > 2
           ? '  Movement sampled, but its worst frame gap was ' + evenness.toFixed(1) + ' times the median.'
@@ -228,7 +241,7 @@ async function main() {
       const problems = logged.filter(entry => ['warning', 'error', 'exception'].includes(entry.level));
       if (problems.length) console.log('\n' + problems.length + ' console warning(s)/error(s)' + (options.console ? '' : ' (pass --console to see them)'));
       if (options.console) for (const entry of logged) console.log('  [' + entry.level + '] ' + entry.text);
-      if (measured.jumps < 1) process.exitCode = 1;
+      if (measured.jumps < 1 || measured.outsidePipeline > 0) process.exitCode = 1;
       return;
     }
     if (measured.paints < 2) {

@@ -6,7 +6,8 @@
 import type { Mood, WorldSpotId } from './clock-tenant';
 import type { Rotation } from './panel-rotation';
 
-export type PetActivityKey = 'idle' | 'pause' | 'climb' | `roam:${WorldSpotId}`;
+export type PetActivityKey = 'idle' | 'pause' | 'perch' | `roam:${WorldSpotId}`;
+export type PetStimulus = 'minute' | 'hour' | 'weather';
 
 export type PetMind = {
   energy: number;
@@ -20,7 +21,7 @@ export type PetMind = {
 export type PetDecision =
   | { kind: 'idle' }
   | { kind: 'pause' }
-  | { kind: 'climb' }
+  | { kind: 'perch' }
   | { kind: 'roam'; spot: WorldSpotId };
 
 export type PetDecisionContext = {
@@ -43,6 +44,24 @@ export function noticePetScene(mind: PetMind, scene: Rotation['phase']): PetMind
   return { ...mind, focus: scene, sceneInterest: Math.max(0.72, mind.sceneInterest) };
 }
 
+// Clock and weather changes alter drives, never prescribe an animation. The
+// next ordinary decision may answer them with any available activity, or may
+// simply pause; this keeps external events as context rather than a script.
+export function noticePetStimulus(mind: PetMind, stimulus: PetStimulus): PetMind {
+  if (stimulus === 'hour') return {
+    ...mind,
+    curiosity: clamp01(mind.curiosity + 0.2),
+    adventure: clamp01(mind.adventure + 0.12),
+    sceneInterest: clamp01(mind.sceneInterest + 0.08),
+  };
+  if (stimulus === 'weather') return {
+    ...mind,
+    curiosity: clamp01(mind.curiosity + 0.16),
+    sceneInterest: clamp01(mind.sceneInterest + 0.1),
+  };
+  return { ...mind, curiosity: clamp01(mind.curiosity + 0.08) };
+}
+
 export function advancePetMind(mind: PetMind, elapsedMs: number, mood: Mood): PetMind {
   const elapsed = Math.max(0, Math.min(elapsedMs, 60_000));
   const weatherComfort = mood === 'awake' ? 1 : mood === 'asleep' ? 0 : 0.55;
@@ -56,24 +75,27 @@ export function advancePetMind(mind: PetMind, elapsedMs: number, mood: Mood): Pe
 }
 
 // A tiny utility selector. Recent activities are suppressed, low energy makes
-// pausing attractive, and longer adventures are not candidates until their
-// drive has had time to build. The current scene's landmark is preferred, but
-// the Tenant can still revisit the weather or week when that screen is absent.
+// pausing attractive, and low drives make adventures unlikely without making
+// them impossible. The current scene's landmark is preferred, but every
+// measured destination remains available.
 export function choosePetActivity(mind: PetMind, context: PetDecisionContext, random: number): PetDecision {
   const candidates: { decision: PetDecision; key: PetActivityKey; weight: number }[] = [
     { decision: { kind: 'idle' }, key: 'idle', weight: 48 + mind.energy * 18 + mind.curiosity * 8 },
     { decision: { kind: 'pause' }, key: 'pause', weight: 7 + (1 - mind.energy) * 34 },
   ];
 
-  if (context.canAdventure && mind.adventure >= 0.42) {
-    candidates.push({ decision: { kind: 'climb' }, key: 'climb', weight: 5 + mind.adventure * 23 + mind.curiosity * 8 });
+  if (context.canAdventure) {
+    candidates.push({
+      decision: { kind: 'perch' }, key: 'perch',
+      weight: 0.6 + mind.adventure ** 2 * 28 + mind.curiosity * 5,
+    });
   }
-  if (context.canAdventure && mind.adventure >= 0.56 && context.spots.length) {
+  if (context.canAdventure && context.spots.length) {
     const preferred = sceneSpot(context.scene);
-    const spot = context.spots.includes(preferred) ? preferred : context.spots[Math.floor(clampRandom(random * 1.71) * context.spots.length)];
+    const spot = pickSpot(context.spots, preferred, mind.sceneInterest, splitRandom(random));
     candidates.push({
       decision: { kind: 'roam', spot }, key: `roam:${spot}`,
-      weight: 4 + mind.adventure * 28 + mind.curiosity * 11 + mind.sceneInterest * 32,
+      weight: 0.25 + mind.adventure ** 3 * 32 + mind.curiosity * mind.adventure * 8 + mind.sceneInterest * mind.adventure * 18,
     });
   }
 
@@ -96,7 +118,7 @@ export function commitPetActivity(mind: PetMind, decision: PetDecision): PetMind
     ...mind, energy: clamp01(mind.energy - 0.16), curiosity: clamp01(mind.curiosity - 0.5),
     adventure: 0, sceneInterest: 0, recent,
   };
-  if (decision.kind === 'climb') return {
+  if (decision.kind === 'perch') return {
     ...mind, energy: clamp01(mind.energy - 0.09), curiosity: clamp01(mind.curiosity - 0.25),
     adventure: clamp01(mind.adventure - 0.48), recent,
   };
@@ -111,6 +133,28 @@ export function petDecisionDelay(random: number, energy: number): number {
 
 function sceneSpot(scene: Rotation['phase']): WorldSpotId {
   return scene;
+}
+
+function pickSpot(spots: readonly WorldSpotId[], preferred: WorldSpotId, interest: number, random: number): WorldSpotId {
+  const weights = spots.map(spot => 1 + (spot === preferred ? 1 + clamp01(interest) * 5 : 0));
+  let cursor = clampRandom(random) * weights.reduce((sum, weight) => sum + weight, 0);
+  for (let index = 0; index < spots.length; index += 1) {
+    cursor -= weights[index];
+    if (cursor < 0) return spots[index];
+  }
+  return spots[0];
+}
+
+// The activity and its destination are drawn from the same number, so the
+// second draw must not inherit the first one's structure. An affine reshuffle
+// keeps intervals intact, which left a landmark unreachable in exactly the
+// range where roaming wins; mixing the bits makes the two draws independent.
+function splitRandom(random: number): number {
+  let hash = Math.imul(Math.floor(clampRandom(random) * 0x100000000) ^ 0x9e3779b9, 0x85ebca6b);
+  hash ^= hash >>> 13;
+  hash = Math.imul(hash, 0xc2b2ae35);
+  hash ^= hash >>> 16;
+  return (hash >>> 0) / 0x100000000;
 }
 
 function clampRandom(value: number) {

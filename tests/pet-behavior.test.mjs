@@ -1,7 +1,7 @@
 import { test } from 'node:test';
 import assert from 'node:assert/strict';
 import {
-  advancePetMind, choosePetActivity, commitPetActivity, initialPetMind, noticePetScene, petDecisionDelay,
+  advancePetMind, choosePetActivity, commitPetActivity, initialPetMind, noticePetScene, noticePetStimulus, petDecisionDelay,
 } from '../lib/pet-behavior.ts';
 
 test('the pet mind builds drives slowly and notices a new screen without forcing an action', () => {
@@ -15,20 +15,35 @@ test('the pet mind builds drives slowly and notices a new screen without forcing
   assert.equal(noticePetScene(advanced, 'map'), advanced, 'seeing the same scene is not a new stimulus');
 });
 
-test('adventures need motivation and prefer the landmark for the active scene', () => {
+test('clock and weather stimuli change drives without choosing a fixed behavior', () => {
+  const initial = initialPetMind('transport');
+  const minute = noticePetStimulus(initial, 'minute');
+  const hour = noticePetStimulus(initial, 'hour');
+  const weather = noticePetStimulus(initial, 'weather');
+  assert.ok(minute.curiosity > initial.curiosity);
+  assert.ok(hour.adventure > initial.adventure);
+  assert.ok(weather.sceneInterest > initial.sceneInterest);
+  assert.deepEqual(minute.recent, initial.recent, 'a stimulus is not an activity');
+});
+
+test('adventures stay possible at low motivation and prefer, but do not lock to, the active scene', () => {
   const calm = initialPetMind('transport');
-  for (let i = 0; i < 100; i++) {
-    const decision = choosePetActivity(calm, { mood: 'awake', scene: 'map', spots: ['map'], canAdventure: true }, i / 100);
-    assert.notEqual(decision.kind, 'roam');
-    assert.notEqual(decision.kind, 'climb');
-  }
+  const calmDecisions = Array.from({ length: 1000 }, (_, i) => choosePetActivity(calm, {
+    mood: 'awake', scene: 'map', spots: ['weather', 'map'], canAdventure: true,
+  }, i / 1000));
+  assert.ok(calmDecisions.some(decision => decision.kind === 'perch'));
+  assert.ok(calmDecisions.some(decision => decision.kind === 'roam'));
+  assert.ok(calmDecisions.filter(decision => decision.kind === 'idle').length > 500);
   const eager = { ...calm, adventure: 0.95, curiosity: 0.9, sceneInterest: 1, focus: 'map', recent: ['idle'] };
   const decisions = Array.from({ length: 1000 }, (_, i) => choosePetActivity(eager, {
     mood: 'awake', scene: 'map', spots: ['weather', 'map'], canAdventure: true,
   }, i / 1000));
   const roaming = decisions.filter(decision => decision.kind === 'roam');
-  assert.ok(roaming.length > 400, 'a curious rested pet should often explore: ' + roaming.length);
-  assert.ok(roaming.every(decision => decision.spot === 'map'));
+  assert.ok(roaming.length > 300, 'a curious rested pet should often explore: ' + roaming.length);
+  const map = roaming.filter(decision => decision.spot === 'map').length;
+  const weather = roaming.filter(decision => decision.spot === 'weather').length;
+  assert.ok(map > weather, 'the current scene should be interesting without becoming mandatory');
+  assert.ok(weather > 0, 'other destinations remain available');
 });
 
 test('memory suppresses repetition and adventures spend their drives', () => {
