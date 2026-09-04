@@ -15,6 +15,14 @@
 //                  nothing. It is the only way to photograph the map's
 //                  animation without buying a grid, and it is deterministic,
 //                  so two captures of the same change are comparable.
+//   ?transit=demo  The departure boards are drawn from a synthetic answer that
+//                  contains a cancellation, a long delay, an early departure, a
+//                  platform change and two service messages. No provider is
+//                  asked. Delays and cancellations are what the panel exists to
+//                  mark and what a live feed almost never shows on demand, so
+//                  this is the only way to check the marking on purpose. The
+//                  data is built in the route handler and never ships to the
+//                  browser (lib/transit-demo.ts).
 //   ?time=HH:MM    The page's clock reads this Copenhagen time instead of the
 //                  real one; seconds still tick, so the minute still rolls.
 //                  Which digits an outfit shows otherwise depends on when the
@@ -24,12 +32,17 @@
 
 export type PinnedTime = { hour: number; minute: number };
 export type Weather = 'live' | 'off' | 'demo';
-export type DebugFlags = { weather: Weather; time: PinnedTime | null };
+export type Transit = 'live' | 'demo';
+export type DebugFlags = { weather: Weather; transit: Transit; time: PinnedTime | null };
 
 export function debugFlags(search: string): DebugFlags {
   const params = new URLSearchParams(search);
   const weather = params.get('weather');
-  return { weather: weather === 'off' || weather === 'demo' ? weather : 'live', time: parseTime(params.get('time')) };
+  return {
+    weather: weather === 'off' || weather === 'demo' ? weather : 'live',
+    transit: params.get('transit') === 'demo' ? 'demo' : 'live',
+    time: parseTime(params.get('time')),
+  };
 }
 
 function parseTime(value: string | null): PinnedTime | null {

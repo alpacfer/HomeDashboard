@@ -1,6 +1,6 @@
 import { test } from 'node:test';
 import assert from 'node:assert/strict';
-import { departureTimestamp, filterDepartures, resolveStop } from '../lib/transit.ts';
+import { alertText, boardIncidents, departureIncidents, departureTimestamp, filterDepartures, resolveStop } from '../lib/transit.ts';
 
 const now = Date.parse('2026-08-31T18:00:00Z');
 const departure = (overrides = {}) => ({
@@ -39,6 +39,22 @@ test('cancellations remain explicit and hidden platforms are never exposed', () 
   const result = filterDepartures([departure({ cancelled: true, rtTrack: '4', rtTrackHidden: true })], '184', now);
   assert.equal(result[0].cancelled, true);
   assert.equal(result[0].track, null);
+  assert.equal(filterDepartures([departure({ track: '2', trackHidden: true })], '184', now)[0].scheduledTrack, null);
+  const moved = filterDepartures([departure({ track: '1', rtTrack: '3' })], '184', now)[0];
+  assert.equal(moved.track, '3');
+  assert.equal(moved.scheduledTrack, '1');
+});
+
+test('service messages are graded by priority and capped', () => {
+  const messaged = (Message) => filterDepartures([departure({ Messages: { Message } })], '184', now)[0].alerts;
+  assert.deepEqual(messaged([{ head: 'Sporarbejde', priority: 90 }]), [{ severity: 'severe', text: 'Sporarbejde' }]);
+  assert.deepEqual(messaged([{ head: 'Omkørsel', priority: 60 }]), [{ severity: 'warning', text: 'Omkørsel' }]);
+  assert.deepEqual(messaged([{ lead: 'Info' }]), [{ severity: 'info', text: 'Info' }]);
+  assert.deepEqual(messaged({ head: 'Enkelt besked', priority: 90 }), [{ severity: 'severe', text: 'Enkelt besked' }]);
+  assert.deepEqual(messaged([{ priority: 90 }]), [], 'a message with no text is not shown');
+  assert.equal(messaged([{ head: 'a'.repeat(200) }])[0].text.length, 90);
+  assert.equal(messaged([{ head: 'x' }, { head: 'y' }, { head: 'z' }]).length, 2, 'at most two per departure');
+  assert.deepEqual(filterDepartures([departure()], '184', now)[0].alerts, []);
 });
 test('handles midnight and Copenhagen timezone without relying on the device timezone', () => {
   assert.equal(departureTimestamp('2026-09-01', '00:03', 120), Date.parse('2026-08-31T22:03:00Z'));
@@ -57,4 +73,49 @@ test('resolves exact stop names and groups opposing masts under the station', ()
 });
 test('fails closed when a stop name is ambiguous', () => {
   assert.throws(() => resolveStop({ StopLocation: [{ name: 'Lyngby St.', id: 'a' }, { name: 'Lyngby St.', id: 'b' }] }, 'Lyngby St.'));
+});
+
+const plain = (overrides = {}) => ({ id: 'a', scheduled: now, expected: now, cancelled: false, realtime: true, delay: 0, track: null, scheduledTrack: null, alerts: [], ...overrides });
+
+test('incidents are ordered by severity and a cancellation outranks its own delay', () => {
+  assert.deepEqual(departureIncidents(plain()), [], 'an on-time departure has nothing to report');
+  assert.deepEqual(departureIncidents(plain({ delay: 4 })), [{ kind: 'delayed', severity: 'warning', label: '+4 min' }]);
+  // A long delay is graded up: ten minutes changes whether you leave the house.
+  assert.deepEqual(departureIncidents(plain({ delay: 12 })), [{ kind: 'delayed', severity: 'severe', label: '+12 min' }]);
+  assert.deepEqual(departureIncidents(plain({ delay: -3 })), [{ kind: 'early', severity: 'info', label: '3 min early' }]);
+  assert.deepEqual(departureIncidents(plain({ track: '3', scheduledTrack: '1' })), [{ kind: 'track', severity: 'warning', label: 'Track 3 (was 1)' }]);
+  assert.deepEqual(departureIncidents(plain({ track: '3', scheduledTrack: '3' })), [], 'an unchanged platform is not an incident');
+  assert.deepEqual(departureIncidents(plain({ track: '3' })), [], 'a platform with nothing to compare against is not a change');
+
+  const cancelled = departureIncidents(plain({ cancelled: true, delay: 9 }));
+  assert.deepEqual(cancelled, [{ kind: 'cancelled', severity: 'severe', label: 'Cancelled' }]);
+
+  const both = departureIncidents(plain({ delay: 3, alerts: [{ severity: 'severe', text: 'Sporarbejde' }] }));
+  assert.deepEqual(both.map(item => item.kind), ['alert', 'delayed'], 'the severe alert sorts above the delay');
+});
+
+test('the panel-level summary counts each disruption once and stays short', () => {
+  const boards = {
+    '184:north': [plain({ id: '1', cancelled: true }), plain({ id: '2', cancelled: true })],
+    '184:south': [plain({ id: '3', delay: 20 }), plain({ id: '4', alerts: [{ severity: 'warning', text: 'Omkørsel' }] })],
+    '150S:north': [plain({ id: '5', alerts: [{ severity: 'severe', text: 'Aflyst rute' }] })],
+    '150S:south': [plain({ id: '6', expected: now - 1, alerts: [{ severity: 'severe', text: 'Gammel besked' }] })],
+  };
+  const summary = boardIncidents({ status: 'ready', generatedAt: now, boards }, now);
+  assert.equal(summary.length, 2, 'the wall has room for two');
+  assert.deepEqual(summary.map(item => item.label), ['Cancelled', 'Aflyst rute']);
+  assert.ok(!summary.some(item => item.label === 'Gammel besked'), 'a departed service is not still disrupting anything');
+  assert.ok(!summary.some(item => item.kind === 'delayed'), 'delays are marked on the departure, not in the summary');
+  assert.deepEqual(boardIncidents(null, now), []);
+  assert.deepEqual(boardIncidents({ status: 'unavailable', generatedAt: now, boards }, now), []);
+});
+
+test('alert text is collapsed and capped before it can reach the browser', () => {
+  assert.equal(alertText('  two   words  '), 'two words');
+  assert.equal(alertText('line\nbreak'), 'line break');
+  assert.equal(alertText(undefined), '');
+  assert.equal(alertText(42), '');
+  const capped = alertText('word '.repeat(60));
+  assert.equal(capped.length, 90);
+  assert.ok(capped.endsWith('\u2026'));
 });

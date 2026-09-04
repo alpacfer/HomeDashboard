@@ -7,7 +7,9 @@ GitHub runners, and against the deployed site.
 
 ```text
 npm run shot -- [options]     screenshot the running dashboard, headless Chrome, 1280 x 720
+npm run motion -- [options]   measure whether an animation is smooth or flickering
 npm run probe                 ask every forecast provider as the browser would
+npm run probe:transit         ask every departure provider as the route would
 npm run check:rules           the AGENTS.md rules a script can check
 /?scene=map                   pin the rotating panel (README)
 /?weather=off                 make no weather request at all
@@ -23,6 +25,7 @@ can never leave the wall display stuck. They combine:
 
 | Flag | Effect | Parsed in |
 | --- | --- | --- |
+| `?transit=demo` | Draws the departure boards from a synthetic answer holding a cancellation, a long delay, an early departure, a platform change and two service messages. No provider is asked. It is the only way to check how a delay or an incident is marked on purpose. | `lib/transit-demo.ts` |
 | `?scene=transport`, `?scene=fact&fact=N`, `?scene=map` | Holds one scene on the right-hand panel and schedules nothing. A `Pinned` badge replaces the rotation ring. | `lib/panel-rotation.ts` |
 | `?weather=off` | The weather card, the week strip and the forecast map make **no request**. The card shows its unavailable state. The clock, the transit strip and the daily facts work as normal. | `lib/debug-flags.ts` |
 | `?weather=demo` | Makes no request either, but the forecast map draws the synthetic run in `lib/precipitation-demo.ts`: a band crossing the frame, hour by hour with the quarters inside an hour identical, exactly the shape the real provider returns. It is the only way to photograph the map's animation without buying a grid, and it is deterministic, so two captures of the same change are comparable. | `lib/debug-flags.ts` |
@@ -31,6 +34,59 @@ can never leave the wall display stuck. They combine:
 Use `weather=off` for any capture that is not about the weather, and
 `weather=demo` for one that is about the forecast map. The reason is quota,
 explained below.
+
+## Two traps that cost hours
+
+**The editor's browser pane is hidden, and a hidden page runs no animation
+frames.** `document.visibilityState` is `hidden` there, so
+`requestAnimationFrame` never fires. Nothing that animates will run, and the
+forecast map will not even start: it measures its own view inside a
+`requestAnimationFrame` callback, so it sits on "Loading forecast…" for ever
+and looks broken when it is not. Screenshots through the pane are unsupported
+for a different reason (the crop, and stale frames). Use `npm run shot` and
+`npm run motion`, which drive headless Chrome, where the page really renders.
+
+**Nothing the display is running changes because you pushed.** The Fire TV
+shows the deployed Render build, it runs for weeks without a reload, and there
+is no service worker, no version check and no `location.reload()` anywhere in
+this app. A change is not on the screen until Render has deployed **and** the
+page has been reloaded. If a change looks like it did nothing, check that
+before you check the code: the browser is still running the JavaScript it
+downloaded the day it was opened.
+
+## Animation: `npm run motion`
+
+A screenshot proves what one moment looks like. It cannot show whether an
+animation is smooth, and that gap is not theoretical: the forecast map shipped
+a flicker through a green `npm run check`, a passing suite and three
+screenshots that each looked correct.
+
+```sh
+npm run motion -- --scene map --demo
+```
+
+`scripts/measure-motion.mjs` loads a scene in headless Chrome, watches a canvas
+(`--selector`, default `.forecast-map-overlay`) for `--seconds`, and reports
+two things that answer different questions.
+
+| Reading | What it catches |
+| --- | --- |
+| **Cadence** — paints a second, and the min/median/p90/max gap between them | Bunching. A timer that also drives a React render bunches whenever the page is busy, which is what "not smooth" looks like even when every frame is correct. |
+| **Reversals per pixel** — how often a pixel brightens, dims, then brightens again | Flicker. Something crossing the frame brightens a pixel once and dims it once, so about 1 is right. Much more is a value sitting on a threshold and twitching across it. |
+
+The thresholds are measured, not guessed. On the forecast map over four
+seconds, the continuous colour ramp scores **0.38** reversals per pixel and
+putting the four hard colour bands back scores **2.38**, so the alarm sits at
+1.5 and the command exits non-zero above it.
+
+The same regression is guarded offline, with no browser, by
+`tests/precipitation-flow.test.mjs`, which walks a whole pass at the rate the
+loop really paints and asserts on the colour bytes that come out. That one runs
+in `npm run check`; this one needs a dev server, so it does not.
+
+To *see* motion rather than measure it, `npm run shot -- --sequence 3 --every
+900` writes three frames from a single page load. One browser for the lot:
+starting one per moment is most of a minute each time.
 
 ## Screenshots: `npm run shot`
 
@@ -42,6 +98,7 @@ Ubuntu, macOS and the GitHub runners; pass `--chrome <path>` otherwise.
 
 ```sh
 npm run shot -- --scene transport --offline            # 1280 x 720, no weather requests
+npm run shot -- --scene transport --offline --transit-demo  # ... with every delay and incident mark
 npm run shot -- --scene map                             # the map, live data
 npm run shot -- --narrow --scene fact --fact 1          # the max-aspect-ratio: 5/4 layout
 npm run shot -- --clip .weather-band --scale 2          # one element, at 2x

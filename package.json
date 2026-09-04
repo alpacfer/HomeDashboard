@@ -19,7 +19,9 @@
     "fonts:clock": "node scripts/fetch-clock-fonts.mjs",
     "check:rules": "node scripts/check-rules.mjs",
     "shot": "node scripts/screenshot.mjs",
-    "probe": "node --import tsx scripts/probe-forecast.mjs"
+    "motion": "node scripts/measure-motion.mjs",
+    "probe": "node --import tsx scripts/probe-forecast.mjs",
+    "probe:transit": "node --import tsx scripts/probe-transit.mjs"
   },
   "dependencies": {
     "leaflet": "^1.9.4",

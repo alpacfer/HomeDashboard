@@ -10,7 +10,7 @@ The implementation and operational notes are split by responsibility:
 
 - [Architecture and route map](docs/ARCHITECTURE.md) — app composition, data flow, time-zone rules, and where to make common changes.
 - [Deployment and target environment](docs/DEPLOYMENT.md) — Render free-plan settings, Fire TV Stick limits, and the constraints they place on every change.
-- [Transit integration](docs/TRANSPORT.md) — Rejseplanen credentials, stop matching, caching, quota, and verification notes.
+- [Transit integration](docs/TRANSPORT.md) — the two providers and why, credentials, stop and headsign matching, how delays and incidents are marked, caching and quota.
 - [Daily facts](docs/DAILY_FACTS.md) — generated data format, editorial overrides, attribution, and regeneration workflow.
 - [Debugging](docs/DEBUGGING.md) — the screenshot and provider-probe tools, the URL flags, provider quotas, and why a card is muted.
 - [AGENTS.md](AGENTS.md) — the working contract for AI coding agents. `CLAUDE.md` imports it.
@@ -99,15 +99,17 @@ against chosen digits. All three are parsed in `lib/debug-flags.ts`.
 ```sh
 npm run shot -- --scene transport --offline   # 1280 x 720 PNG under screenshots/
 npm run probe                                 # which forecast provider is answering, and why not
+npm run probe:transit                         # which departure provider is answering, and what it shows
 ```
 
-Both are plain Node scripts and are described in [docs/DEBUGGING.md](docs/DEBUGGING.md).
+All three are plain Node scripts and are described in [docs/DEBUGGING.md](docs/DEBUGGING.md).
 
 ## Configuration
 
 Copy `.env.example` to `.env.local` if you need to configure the optional
 Rejseplanen access ID. Keep the key server-side and never commit `.env.local`.
-Without it, departures show dashes. See [docs/TRANSPORT.md](docs/TRANSPORT.md).
+Without it, departures fall back to Transitous, which needs no credential and
+serves Rejseplanen's own realtime feed. See [docs/TRANSPORT.md](docs/TRANSPORT.md).
 
 Weather and the precipitation forecast map require internet access. The clock and
 bundled daily facts are local.

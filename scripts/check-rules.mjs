@@ -94,6 +94,20 @@ for (const [, id, family] of faces) {
   }
 }
 
+// 8. The two tools that drive a browser must accept the same URL flags, or a
+//    screenshot and a motion measurement of "the same" scene are not of the
+//    same scene. scripts/lib/browser.mjs builds the URL for both and names the
+//    flags; this is the check that neither script has fallen behind it.
+const { URL_FLAGS } = await import('./lib/browser.mjs');
+for (const script of ['scripts/screenshot.mjs', 'scripts/measure-motion.mjs']) {
+  const source = await read(script);
+  for (const flag of URL_FLAGS) {
+    if (!source.includes("case '" + flag + "':")) {
+      fail(script, 'does not accept ' + flag + ', which scripts/lib/browser.mjs puts in the page URL. Both browser tools must take the same URL flags.');
+    }
+  }
+}
+
 if (problems.length) {
   console.error('Project rules check failed with ' + problems.length + ' problem(s):\n');
   for (const problem of problems) console.error('  ' + problem);

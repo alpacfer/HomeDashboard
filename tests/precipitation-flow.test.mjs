@@ -1,10 +1,11 @@
 import { test } from 'node:test';
 import assert from 'node:assert/strict';
 import {
-  advectedCells, distinctStates, estimateFlow, estimateFlows, flowLimit, MAX_FLOW_KMH, momentAt, sequenceProgress,
-  steadyFlows,
+  advectedCells, distinctStates, estimateFlow, estimateFlows, flowLimit, MAX_FLOW_KMH, MIN_DRAW_MS, momentAt,
+  sequenceProgress, steadyFlows,
 } from '../lib/precipitation-flow.ts';
-import { SEQUENCE_LOOPS } from '../lib/precipitation-grid.ts';
+import { DEFAULT_GRID, displayFrames, precipitationColour, SEQUENCE_LOOPS } from '../lib/precipitation-grid.ts';
+import { demoGrid } from '../lib/precipitation-demo.ts';
 import { MAP_MS } from '../lib/panel-rotation.ts';
 
 const START = Date.UTC(2026, 8, 4, 6, 0);
@@ -217,4 +218,59 @@ test('a position through the sequence names a forecast moment inside the span', 
   // A span with nowhere to travel must not divide by zero.
   assert.equal(momentAt(START, START, 0.5), START);
   assert.equal(momentAt(START, START - 1000, 0.5), START);
+});
+
+
+test('what the map draws over a whole pass reads as motion, not as flicker', () => {
+  // The regression this suite exists for. Four hard colour bands made the map
+  // twinkle: the animation draws far more moments than the provider gives
+  // states, so a cell whose value drifted across 0.3 mm between two of them
+  // jumped a whole colour, over a patch the size a 3 km cell is scaled up to.
+  // Measured over one pass, 191 of 345 cells crossed a threshold and crossed
+  // back. Nothing in the suite would have caught it, and it shipped.
+  //
+  // This walks a full pass at the rate the loop actually paints and asserts on
+  // what comes out of the drawing path end to end: the demo run in, the flow
+  // between its states, and the colour bytes the overlay writes out.
+  const now = Date.UTC(2026, 8, 4, 6, 0);
+  const grid = demoGrid(DEFAULT_GRID, now);
+  const frames = displayFrames(grid, now);
+  const states = distinctStates(grid.frames);
+  const flows = steadyFlows(estimateFlows(states, grid.columns, grid.rows, grid.spacingKm));
+  const cells = grid.columns * grid.rows;
+  const span = frames[frames.length - 1].timestamp - frames[0].timestamp;
+  const pass = MAP_MS / SEQUENCE_LOOPS;
+
+  const painted = [];
+  for (let elapsed = 0; elapsed < pass; elapsed += MIN_DRAW_MS) {
+    const at = momentAt(frames[0].timestamp, frames[0].timestamp + span, sequenceProgress(elapsed, MAP_MS, SEQUENCE_LOOPS));
+    painted.push(advectedCells(states, flows, grid.columns, grid.rows, at).map(precipitationColour));
+  }
+  assert.ok(painted.length > 100, 'a pass should draw many moments, got ' + painted.length);
+
+  // A cell that brightens, dims, and brightens again is twitching across a
+  // threshold. One arrival and one departure per cell is what rain crossing
+  // the frame looks like, so the budget is one reversal a cell with slack.
+  let reversals = 0;
+  let worstStep = 0;
+  for (let cell = 0; cell < cells; cell += 1) {
+    let direction = 0;
+    for (let shot = 1; shot < painted.length; shot += 1) {
+      let change = 0;
+      for (let channel = 0; channel < 4; channel += 1) {
+        const step = painted[shot][cell][channel] - painted[shot - 1][cell][channel];
+        if (Math.abs(step) > Math.abs(change)) change = step;
+      }
+      worstStep = Math.max(worstStep, Math.abs(change));
+      if (Math.abs(change) < 1) continue;
+      const heading = Math.sign(change);
+      if (direction && heading !== direction) reversals += 1;
+      direction = heading;
+    }
+  }
+  const perCell = reversals / cells;
+  assert.ok(perCell <= 2, perCell.toFixed(2) + ' direction changes per cell is flicker, not motion');
+  // And no single step may jump the distance between two of the old bands,
+  // which is what the ramp exists to prevent.
+  assert.ok(worstStep <= 90, 'a colour jumped by ' + worstStep + ' in one drawn moment');
 });

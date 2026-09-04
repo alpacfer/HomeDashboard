@@ -11,10 +11,10 @@ It is deployed to a Render free-plan web service and viewed in the Silk browser 
 | `/` | `app/page.tsx` | Owns the one-second clock tick and composes the display: clock, `WeatherPanel`, `WeekStrip`, and the rotating right-hand panel. |
 | `/?scene=map` | `lib/panel-rotation.ts`, `components/rotating-panel.tsx` | Debug mode. Pins the rotating panel to `transport`, `fact` (with `&fact=N`) or `map` and schedules nothing. Unrecognised values are ignored. See the README. |
 | `/?weather=off` | `lib/debug-flags.ts` | Debug mode. No weather, week or forecast-map request is made, so a capture spends no provider quota. See [DEBUGGING.md](DEBUGGING.md). |
-| `/api/departures` | `app/api/departures/route.ts` | Server-side Rejseplanen lookup, normalization, filtering, and two-minute public-result cache. |
+| `/api/departures` | `app/api/departures/route.ts` | Server-side departure lookup: Rejseplanen when an access ID is set, Transitous otherwise or on failure, then normalization, filtering, and a two-minute public-result cache. |
 | `/facts/daily/MM-DD.json` | `public/facts/daily/` | Static date-keyed facts loaded by the browser for the Copenhagen calendar date. |
 | `npm run facts:generate` | `scripts/generate-daily-facts.mjs` | Deliberate rebuild of all 366 daily-fact files from reviewed overrides and external sources. |
-| `npm run shot`, `npm run probe` | `scripts/screenshot.mjs`, `scripts/probe-forecast.mjs` | Debugging tools: a headless-Chrome capture of the running display, and a check of every forecast provider through the project's own parsers. See [DEBUGGING.md](DEBUGGING.md). |
+| `npm run shot`, `npm run probe`, `npm run probe:transit` | `scripts/screenshot.mjs`, `scripts/probe-forecast.mjs`, `scripts/probe-transit.mjs` | Debugging tools: a headless-Chrome capture of the running display, and a check of every forecast and departure provider through the project's own parsers. See [DEBUGGING.md](DEBUGGING.md). |
 
 Next.js App Router file names define the routes. Do not add a client-side routing library for display panels: `RotatingPanel` changes the panel scene in place so the URL remains stable.
 
@@ -121,7 +121,9 @@ The same module owns the debug mode. `pinnedRotation()` reads the page's query s
 
 ### Transport
 
-The browser calls `/api/departures`, never Rejseplanen directly. The route reads `REJSEPLANEN_ACCESS_ID`, resolves configured stops, requests boards, and returns only normalized `TransitData`. `transit.ts` is deliberately pure and owns Copenhagen wall-clock conversion, exact stop matching, line/direction filtering, cancellation handling, and compact-board selection. See [TRANSPORT.md](TRANSPORT.md) before changing stops or provider behavior.
+The browser calls `/api/departures`, never a provider directly. The route reads `REJSEPLANEN_ACCESS_ID` and prefers Rejseplanen's API 2.0; without a key, or when that request fails, it falls back to Transitous, which needs no credential and serves Rejseplanen's own GTFS and SIRI realtime data. Either way the browser receives only normalized `TransitData`, tagged with the `source` that produced it.
+
+`transit.ts` is deliberately pure and owns Copenhagen wall-clock conversion, exact stop matching, line/direction filtering, cancellation handling, compact-board selection, and the incident model both providers feed (`departureIncidents`, `boardIncidents`). `transitous.ts` owns the fallback's stop ids, headsign matching and response validation; the two providers do not use the same destination strings. See [TRANSPORT.md](TRANSPORT.md) before changing stops or provider behavior.
 
 ### Daily facts
 
@@ -169,6 +171,8 @@ The metadata is trusted for *when*, never for *whether the map still has anythin
 | Screenshot or provider-probe tooling | `scripts/screenshot.mjs`, `scripts/probe-forecast.mjs` | `DEBUGGING.md`, `.claude/commands/`, `.github/workflows/ci.yml` |
 | A rule every change must follow | `scripts/check-rules.mjs`, `eslint.config.mjs`, `scripts/hooks/` | AGENTS.md, `DEBUGGING.md` |
 | Transit stops, destinations, or normalization | `lib/transit.ts` | `app/api/departures/route.ts`, `TRANSPORT.md`, transit tests |
+| Fallback stop ids, headsigns, or response parsing | `lib/transitous.ts` | `app/api/departures/route.ts`, `TRANSPORT.md`, `tests/transitous.test.mjs` |
+| How a delay or incident is marked | `lib/transit.ts` | `components/transport-panel.tsx`, `app/globals.css`, `TRANSPORT.md` |
 | Transit credentials, caching, or provider requests | `app/api/departures/route.ts` | `.env.example`, `TRANSPORT.md` |
 | Daily fact content | `data/daily-fact-overrides.json` | `scripts/generate-daily-facts.mjs`, `docs/DAILY_FACTS.md` |
 | Forecast map grid, frames, or quiet hours | `lib/precipitation-grid.ts` | `components/forecast-map-panel.tsx`, `tests/precipitation-grid.test.mjs` |

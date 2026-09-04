@@ -1,0 +1,241 @@
+{
+ "place": {
+  "name": "Kildegårds Plads (Lyngbyvej)",
+  "stopId": "dk-rejseplanen_000000006044",
+  "lat": 55.737244,
+  "lon": 12.539762
+ },
+ "stopTimes": [
+  {
+   "place": {
+    "name": "Kildegårds Plads (Lyngbyvej)",
+    "stopId": "dk-rejseplanen_000000006477",
+    "lat": 55.738274000000004,
+    "lon": 12.539489000000001,
+    "tz": "Europe/Berlin",
+    "arrival": "2026-09-04T04:09:00Z",
+    "departure": "2026-09-04T04:09:00Z",
+    "scheduledArrival": "2026-09-04T04:09:00Z",
+    "scheduledDeparture": "2026-09-04T04:09:00Z",
+    "cancelled": false
+   },
+   "mode": "BUS",
+   "realTime": false,
+   "headsign": "Vedbæk St.",
+   "tripFrom": {
+    "name": "Nørreport St. (Nørre Voldgade)"
+   },
+   "tripTo": {
+    "name": "Vedbæk St."
+   },
+   "agencyName": "Movia",
+   "routeShortName": "184",
+   "routeLongName": "",
+   "directionId": "1",
+   "tripId": "20260904_05:52_dk-rejseplanen_167334286",
+   "routeType": 3,
+   "displayName": "184",
+   "cancelled": false,
+   "tripCancelled": false,
+   "source": "dk_rejseplanen.gtfs.zip/stop_times.txt:3487685:3487740"
+  },
+  {
+   "place": {
+    "name": "Kildegårds Plads (Lyngbyvej)",
+    "stopId": "dk-rejseplanen_000000006044",
+    "lat": 55.737244,
+    "lon": 12.539762,
+    "tz": "Europe/Berlin",
+    "arrival": "2026-09-04T04:05:00Z",
+    "departure": "2026-09-04T04:05:00Z",
+    "scheduledArrival": "2026-09-04T04:05:00Z",
+    "scheduledDeparture": "2026-09-04T04:05:00Z",
+    "cancelled": false
+   },
+   "mode": "BUS",
+   "realTime": false,
+   "headsign": "Nørreport St.",
+   "tripFrom": {
+    "name": "Holte St. (Holte Stationsvej)"
+   },
+   "tripTo": {
+    "name": "Nørreport St. (Nørre Voldgade)"
+   },
+   "agencyName": "Movia",
+   "routeShortName": "184",
+   "routeLongName": "",
+   "directionId": "0",
+   "tripId": "20260904_05:38_dk-rejseplanen_167334561",
+   "routeType": 3,
+   "displayName": "184",
+   "cancelled": false,
+   "tripCancelled": false,
+   "source": "dk_rejseplanen.gtfs.zip/stop_times.txt:2728723:2728763"
+  },
+  {
+   "place": {
+    "name": "Kildegårds Plads (Lyngbyvej)",
+    "stopId": "dk-rejseplanen_000000006477",
+    "lat": 55.738274000000004,
+    "lon": 12.539489000000001,
+    "tz": "Europe/Berlin",
+    "arrival": "2026-09-04T04:11:00Z",
+    "departure": "2026-09-04T04:11:00Z",
+    "scheduledArrival": "2026-09-04T04:11:00Z",
+    "scheduledDeparture": "2026-09-04T04:11:00Z",
+    "cancelled": false
+   },
+   "mode": "BUS",
+   "realTime": false,
+   "headsign": "Kokkedal St.",
+   "tripFrom": {
+    "name": "Nørreport St. (Nørre Voldgade)"
+   },
+   "tripTo": {
+    "name": "Kokkedal St."
+   },
+   "agencyName": "Movia",
+   "routeShortName": "150S",
+   "routeLongName": "",
+   "directionId": "1",
+   "tripId": "20260904_05:56_dk-rejseplanen_167330379",
+   "routeType": 700,
+   "displayName": "150S",
+   "cancelled": false,
+   "tripCancelled": false,
+   "source": "dk_rejseplanen.gtfs.zip/stop_times.txt:3816049:3816080"
+  },
+  {
+   "place": {
+    "name": "Kildegårds Plads (Lyngbyvej)",
+    "stopId": "dk-rejseplanen_000000006044",
+    "lat": 55.737244,
+    "lon": 12.539762,
+    "tz": "Europe/Berlin",
+    "arrival": "2026-09-04T04:11:00Z",
+    "departure": "2026-09-04T04:11:00Z",
+    "scheduledArrival": "2026-09-04T04:11:00Z",
+    "scheduledDeparture": "2026-09-04T04:11:00Z",
+    "cancelled": false
+   },
+   "mode": "BUS",
+   "realTime": false,
+   "headsign": "Nørreport St.",
+   "tripFrom": {
+    "name": "Kokkedal St."
+   },
+   "tripTo": {
+    "name": "Nørreport St. (Nørre Voldgade)"
+   },
+   "agencyName": "Movia",
+   "routeShortName": "150S",
+   "routeLongName": "",
+   "directionId": "0",
+   "tripId": "20260904_05:31_dk-rejseplanen_167330862",
+   "routeType": 700,
+   "displayName": "150S",
+   "cancelled": false,
+   "tripCancelled": false,
+   "source": "dk_rejseplanen.gtfs.zip/stop_times.txt:3845691:3845722"
+  },
+  {
+   "place": {
+    "name": "Kildegårds Plads (Lyngbyvej)",
+    "stopId": "dk-rejseplanen_000000006477",
+    "lat": 55.738274000000004,
+    "lon": 12.539489000000001,
+    "tz": "Europe/Berlin",
+    "arrival": "2026-09-04T05:33:00Z",
+    "departure": "2026-09-04T05:33:00Z",
+    "scheduledArrival": "2026-09-04T05:33:00Z",
+    "scheduledDeparture": "2026-09-04T05:33:00Z",
+    "cancelled": false
+   },
+   "mode": "BUS",
+   "realTime": true,
+   "headsign": "Rævehøjvej, DTU",
+   "tripFrom": {
+    "name": "Nørreport St. (Nørre Voldgade)"
+   },
+   "tripTo": {
+    "name": "Rævehøjvej, DTU (Helsingørmotorvejen)"
+   },
+   "agencyName": "Movia",
+   "routeShortName": "150S",
+   "routeLongName": "",
+   "directionId": "1",
+   "tripId": "20260904_07:18_dk-rejseplanen_167330487",
+   "routeType": 700,
+   "displayName": "150S",
+   "cancelled": false,
+   "tripCancelled": false,
+   "source": "dk_rejseplanen.gtfs.zip/stop_times.txt:3851359:3851372"
+  },
+  {
+   "place": {
+    "name": "Kildegårds Plads (Lyngbyvej)",
+    "stopId": "dk-rejseplanen_000000006044",
+    "lat": 55.737244,
+    "lon": 12.539762,
+    "tz": "Europe/Berlin",
+    "arrival": "2026-09-04T04:13:00Z",
+    "departure": "2026-09-04T04:13:00Z",
+    "scheduledArrival": "2026-09-04T04:13:00Z",
+    "scheduledDeparture": "2026-09-04T04:13:00Z",
+    "cancelled": false
+   },
+   "mode": "BUS",
+   "realTime": false,
+   "headsign": "Nørreport St.",
+   "tripFrom": {
+    "name": "Klampenborg St. (Dyrehavevej)"
+   },
+   "tripTo": {
+    "name": "Nørreport St. (Nørre Voldgade)"
+   },
+   "agencyName": "Movia",
+   "routeShortName": "185",
+   "routeLongName": "",
+   "directionId": "1",
+   "tripId": "20260904_05:57_dk-rejseplanen_167334624",
+   "routeType": 3,
+   "displayName": "185",
+   "cancelled": false,
+   "tripCancelled": false,
+   "source": "dk_rejseplanen.gtfs.zip/stop_times.txt:2729365:2729400"
+  },
+  {
+   "place": {
+    "name": "Kildegårds Plads (Lyngbyvej)",
+    "stopId": "dk-rejseplanen_000000006477",
+    "lat": 55.738274000000004,
+    "lon": 12.539489000000001,
+    "tz": "Europe/Berlin",
+    "arrival": "2026-09-04T04:24:00Z",
+    "departure": "2026-09-04T04:24:00Z",
+    "scheduledArrival": "2026-09-04T04:24:00Z",
+    "scheduledDeparture": "2026-09-04T04:24:00Z",
+    "cancelled": false
+   },
+   "mode": "BUS",
+   "realTime": false,
+   "headsign": "Hellerup St.",
+   "tripFrom": {
+    "name": "Hellerup St."
+   },
+   "tripTo": {
+    "name": "Hellerup St."
+   },
+   "agencyName": "Movia",
+   "routeShortName": "172",
+   "routeLongName": "",
+   "directionId": "0",
+   "tripId": "20260904_06:15_dk-rejseplanen_167333097",
+   "routeType": 3,
+   "displayName": "172",
+   "cancelled": false,
+   "tripCancelled": false,
+   "source": "dk_rejseplanen.gtfs.zip/stop_times.txt:1914320:1914359"
+  }
+ ]
+}

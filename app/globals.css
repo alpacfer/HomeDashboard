@@ -1,6 +1,6 @@
 @import 'leaflet/dist/leaflet.css';
 @font-face { font-family:'Space Grotesk'; src:url('/fonts/space-grotesk-bold.ttf') format('truetype'); font-weight:700; font-style:normal; font-display:swap; }
-:root { --background:#111113; --foreground:#f3f2ee; --accent:#ff623b; --rain:#74caff; --snow:#dfeaf5; --muted:#93939d; --sun:#ffc554; --cloud:#b4b8c5; --moon:#c9cff5; }
+:root { --background:#111113; --foreground:#f3f2ee; --accent:#ff623b; --rain:#74caff; --snow:#dfeaf5; --muted:#93939d; --sun:#ffc554; --cloud:#b4b8c5; --moon:#c9cff5; --severe:#f08170; --warning:#ffb77f; }
 * { box-sizing:border-box; }
 html,body { margin:0; min-height:100%; background:var(--background); }
 body { color:var(--foreground); font-family:'Space Grotesk',Arial,Helvetica,sans-serif; -webkit-font-smoothing:antialiased; }
@@ -127,9 +127,25 @@ a:focus-visible { outline:2px solid var(--foreground); outline-offset:8px; }
 .departure strong small { font-size:.85vw; margin-left:.25vw; color:var(--muted); letter-spacing:0; }
 .departure > span { font-size:1vw; color:var(--muted); }
 .departure.placeholder { color:#55555e; }
-.departure.cancelled strong { text-decoration:line-through; color:#f08170; }
-.departure .delay { color:#ffb77f; font-size:.9vw; }
+.departure.cancelled strong { text-decoration:line-through; }
+/* Delays and incidents are carried by the big number itself, because that is
+   the only part of a departure legible from across the room. The flag under it
+   says what happened; the struck-through time says what it should have been. */
+.departure.sev-severe strong { color:var(--severe); }
+.departure.sev-warning strong { color:var(--warning); }
+.departure > span s { margin-right:.35vw; color:#6b6b76; text-decoration-thickness:.08em; }
+.departure-flag { font-size:.9vw; font-weight:700; }
+.departure-flag.sev-severe { color:var(--severe); }
+.departure-flag.sev-warning { color:var(--warning); }
+.departure-flag.sev-info { color:var(--muted); }
 .departure .departure-source { color:#777782; font-size:.75vw; }
+/* Only rendered when something is actually wrong, so the boards keep their
+   full height on an ordinary day. */
+.transport-incidents { display:flex; flex-wrap:wrap; gap:.5vw; margin:0; padding-right:9vw; }
+.incident { padding:.35vh .6vw; border-radius:.3vw; border:1px solid currentColor; font-size:.95vw; font-weight:700; line-height:1.2; }
+.incident.sev-severe { color:var(--severe); }
+.incident.sev-warning { color:var(--warning); }
+.incident.sev-info { color:var(--muted); }
 .single-direction .direction-columns { grid-template-columns:1fr; }
 .single-direction .departure strong { font-size:3.3vw; }
 .single-direction .departure strong small { font-size:1vw; }
@@ -159,6 +175,10 @@ a:focus-visible { outline:2px solid var(--foreground); outline-offset:8px; }
 .mini-time { display:block; margin-top:1.1vh; font-size:2.2vw; line-height:1.15; letter-spacing:-.04em; font-variant-numeric:tabular-nums; white-space:nowrap; }
 .mini-time small { margin-left:.3vw; color:var(--muted); font-size:.9vw; letter-spacing:0; }
 .mini-time.unavailable { color:#55555e; }
+.mini-time.sev-severe { color:var(--severe); }
+.mini-time.sev-warning { color:var(--warning); }
+.mini-flag { display:block; margin-top:.2vh; font-size:.8vw; font-style:normal; font-weight:700; letter-spacing:0; }
+.transport-mini .transport-incidents { margin-top:1vh; }
 .transport-mini .transport-status { margin-top:1vh; }
 .daily-fact-scene { --fact-accent:#e6c864; display:flex; flex-direction:column; position:relative; padding:1vh 0 3vh; }
 .country-spain { --fact-accent:#f2c94c; }
@@ -281,7 +301,9 @@ a:focus-visible { outline:2px solid var(--foreground); outline-offset:8px; }
   .departure strong { font-size:4.8vw; }
   .departure strong small { font-size:1.8vw; }
   .departure > span { font-size:2.5vw; }
-  .departure .delay,.departure .departure-source { font-size:2vw; }
+  .departure-flag,.departure .departure-source { font-size:2vw; }
+  .incident { font-size:2vw; border-radius:.6vw; padding:.3vh 1.1vw; }
+  .mini-flag { font-size:2vw; }
   .single-direction .departure strong { font-size:8vw; }
   .single-direction .departure strong small { font-size:3vw; }
   .transport-status { font-size:2.8vw; }

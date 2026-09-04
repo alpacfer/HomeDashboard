@@ -18,6 +18,12 @@
 //                          is not about the weather (see docs/DEBUGGING.md).
 //   --time <HH:MM>         Add ?time=: pin the clock to a Copenhagen time, so
 //                          an outfit can be checked against chosen digits.
+//   --transit-demo         Add ?transit=demo: the departure boards are drawn
+//                          from a synthetic answer holding a cancellation, a
+//                          long delay, an early departure, a platform change
+//                          and two service messages. No provider is asked. Use
+//                          it for any capture of how a delay or an incident is
+//                          marked: a live feed will not produce one to order.
 //   --narrow               720 x 900, the max-aspect-ratio: 5/4 layout.
 //   --width, --height      Viewport in CSS pixels. Default 1280 x 720.
 //   --scale <n>            Output pixels per CSS pixel. Default 1; 2 for detail.
@@ -26,6 +32,12 @@
 //                          every 40 ms so React cannot undo it. Repeatable.
 //                          Include the element's own class, or its styles go:
 //                          --class ".clock-block=clock-block o-neon sp-domino"
+//   --sequence <n>         Capture n frames from one page load instead of one,
+//                          spaced --every apart, written as <name>-1.png and so
+//                          on. One browser for the lot: a moving scene needs
+//                          several moments to show anything, and starting a
+//                          browser per moment is most of a minute each time.
+//   --every <ms>           Spacing between --sequence frames. Default 700.
 //   --freeze <ms>          Pause every CSS animation at this time.
 //   --reduced-motion       Emulate prefers-reduced-motion: reduce.
 //   --wait <ms>            Settle time after load. Default 4000.
@@ -36,17 +48,15 @@
 // The dev server is not started here: `npm run dev` (or the preview) must be
 // running, and the script waits up to 60 s for the URL to answer.
 
-import { spawn } from 'node:child_process';
-import { existsSync } from 'node:fs';
-import { mkdir, mkdtemp, rm, writeFile } from 'node:fs/promises';
-import os from 'node:os';
+import { mkdir, writeFile } from 'node:fs/promises';
 import path from 'node:path';
 import { fileURLToPath } from 'node:url';
+import { findChrome, launchChrome, openPage, pageUrl, waitForServer } from './lib/browser.mjs';
 
 const ROOT = path.resolve(path.dirname(fileURLToPath(import.meta.url)), '..');
 
 function parseArgs(argv) {
-  const options = { classes: [], console: false, demo: false, offline: false, narrow: false, reducedMotion: false };
+  const options = { classes: [], console: false, demo: false, offline: false, narrow: false, reducedMotion: false, transitDemo: false };
   for (let index = 0; index < argv.length; index += 1) {
     const arg = argv[index];
     const next = () => { index += 1; return argv[index]; };
@@ -58,6 +68,7 @@ function parseArgs(argv) {
       case '--fact': options.fact = value(); break;
       case '--offline': options.offline = true; break;
       case '--demo': options.demo = true; break;
+      case '--transit-demo': options.transitDemo = true; break;
       case '--time': options.time = value(); break;
       case '--narrow': options.narrow = true; break;
       case '--width': options.width = Number(value()); break;
@@ -65,6 +76,8 @@ function parseArgs(argv) {
       case '--scale': options.scale = Number(value()); break;
       case '--clip': options.clip = value(); break;
       case '--class': options.classes.push(arg.includes('=') && !arg.startsWith('--class=') ? arg.slice('--class'.length) : arg.startsWith('--class=') ? arg.slice('--class='.length) : next()); break;
+      case '--sequence': options.sequence = Number(value()); break;
+      case '--every': options.every = Number(value()); break;
       case '--freeze': options.freeze = Number(value()); break;
       case '--reduced-motion': options.reducedMotion = true; break;
       case '--wait': options.wait = Number(value()); break;
@@ -78,142 +91,13 @@ function parseArgs(argv) {
   return options;
 }
 
-function findChrome(explicit) {
-  const candidates = [
-    explicit,
-    process.env.CHROME_PATH,
-    '/Applications/Google Chrome.app/Contents/MacOS/Google Chrome',
-    '/Applications/Chromium.app/Contents/MacOS/Chromium',
-    '/usr/bin/google-chrome',
-    '/usr/bin/google-chrome-stable',
-    '/usr/bin/chromium',
-    '/usr/bin/chromium-browser',
-    '/snap/bin/chromium',
-  ].filter(Boolean);
-  for (const candidate of candidates) if (existsSync(candidate)) return candidate;
-  // Anything on PATH by these names.
-  for (const name of ['google-chrome', 'google-chrome-stable', 'chromium', 'chromium-browser']) {
-    for (const dir of (process.env.PATH ?? '').split(path.delimiter)) {
-      const full = path.join(dir, name);
-      if (existsSync(full)) return full;
-    }
-  }
-  throw new Error('No Chrome found. Install Google Chrome or pass --chrome <path> (or set CHROME_PATH).');
-}
-
-async function waitForServer(url, timeoutMs = 60_000) {
-  const origin = new URL(url).origin;
-  const deadline = Date.now() + timeoutMs;
-  let lastError = 'no response';
-  while (Date.now() < deadline) {
-    try {
-      const response = await fetch(origin, { signal: AbortSignal.timeout(5_000) });
-      if (response.status < 500) return;
-      lastError = 'HTTP ' + response.status;
-    } catch (error) {
-      lastError = error instanceof Error ? error.message : String(error);
-    }
-    await new Promise(resolve => setTimeout(resolve, 500));
-  }
-  throw new Error(origin + ' did not answer within ' + timeoutMs / 1000 + ' s (' + lastError + '). Start the dev server first: npm run dev');
-}
-
-// A minimal DevTools client: one WebSocket to the browser, flat sessions.
-class Devtools {
-  constructor(socket) {
-    this.socket = socket;
-    this.nextId = 1;
-    this.pending = new Map();
-    this.listeners = [];
-    socket.addEventListener('message', event => {
-      const message = JSON.parse(typeof event.data === 'string' ? event.data : Buffer.from(event.data).toString());
-      if (message.id && this.pending.has(message.id)) {
-        const { resolve, reject } = this.pending.get(message.id);
-        this.pending.delete(message.id);
-        if (message.error) reject(new Error(message.error.message + (message.error.data ? ': ' + message.error.data : '')));
-        else resolve(message.result);
-      } else if (message.method) {
-        for (const listener of this.listeners) listener(message);
-      }
-    });
-  }
-  send(method, params = {}, sessionId) {
-    const id = this.nextId++;
-    this.socket.send(JSON.stringify({ id, method, params, sessionId }));
-    return new Promise((resolve, reject) => {
-      this.pending.set(id, { resolve, reject });
-      setTimeout(() => {
-        if (this.pending.has(id)) { this.pending.delete(id); reject(new Error(method + ' timed out')); }
-      }, 30_000);
-    });
-  }
-  once(method, sessionId, timeoutMs = 30_000) {
-    return new Promise((resolve, reject) => {
-      const timer = setTimeout(() => { this.listeners = this.listeners.filter(l => l !== listener); reject(new Error('Timed out waiting for ' + method)); }, timeoutMs);
-      const listener = message => {
-        if (message.method === method && (!sessionId || message.sessionId === sessionId)) {
-          clearTimeout(timer);
-          this.listeners = this.listeners.filter(l => l !== listener);
-          resolve(message.params);
-        }
-      };
-      this.listeners.push(listener);
-    });
-  }
-  on(listener) { this.listeners.push(listener); }
-}
-
-async function launchChrome(binary, width, height) {
-  const profile = await mkdtemp(path.join(os.tmpdir(), 'homedashboard-shot-'));
-  const child = spawn(binary, [
-    '--headless=new', '--remote-debugging-port=0', '--user-data-dir=' + profile,
-    '--no-first-run', '--no-default-browser-check', '--disable-gpu', '--hide-scrollbars', '--mute-audio',
-    '--force-device-scale-factor=1', '--window-size=' + width + ',' + height, 'about:blank',
-  ], { stdio: ['ignore', 'ignore', 'pipe'] });
-  const endpoint = await new Promise((resolve, reject) => {
-    let buffer = '';
-    const timer = setTimeout(() => reject(new Error('Chrome did not expose DevTools within 20 s:\n' + buffer)), 20_000);
-    child.stderr.on('data', chunk => {
-      buffer += chunk;
-      const match = buffer.match(/DevTools listening on (ws:\/\/\S+)/);
-      if (match) { clearTimeout(timer); resolve(match[1]); }
-    });
-    child.on('exit', code => { clearTimeout(timer); reject(new Error('Chrome exited with code ' + code + ':\n' + buffer)); });
-  });
-  const socket = new WebSocket(endpoint);
-  await new Promise((resolve, reject) => { socket.addEventListener('open', resolve, { once: true }); socket.addEventListener('error', () => reject(new Error('Could not connect to ' + endpoint)), { once: true }); });
-  const close = async () => {
-    try { socket.close(); } catch { /* already closed */ }
-    // Wait for Chrome to exit before removing its profile: it is still
-    // writing to it, and removing a directory under it fails with ENOTEMPTY.
-    const exited = new Promise(resolve => { child.once('exit', resolve); setTimeout(resolve, 5_000); });
-    child.kill();
-    await exited;
-    for (let attempt = 0; attempt < 5; attempt += 1) {
-      try { await rm(profile, { recursive: true, force: true }); break; } catch { await new Promise(resolve => setTimeout(resolve, 200)); }
-    }
-  };
-  return { devtools: new Devtools(socket), close };
-}
-
-function pageUrl(options) {
-  const url = new URL(options.url ?? 'http://127.0.0.1:3000/');
-  if (options.scene) url.searchParams.set('scene', options.scene);
-  if (options.fact !== undefined) url.searchParams.set('fact', String(options.fact));
-  if (options.offline) url.searchParams.set('weather', 'off');
-  // The demo run is a kind of offline, and wins when both are asked for: it
-  // makes no request either, and it has something to draw.
-  if (options.demo) url.searchParams.set('weather', 'demo');
-  if (options.time) url.searchParams.set('time', options.time);
-  return url.toString();
-}
-
 function defaultName(options) {
   const parts = [options.scene ?? 'display'];
   if (options.narrow) parts.push('narrow');
   if (options.reducedMotion) parts.push('reduced-motion');
   if (options.offline && !options.demo) parts.push('offline');
   if (options.demo) parts.push('demo');
+  if (options.transitDemo) parts.push('transit-demo');
   return parts.join('-') + '.png';
 }
 
@@ -234,27 +118,8 @@ async function main() {
   await waitForServer(url);
   const binary = findChrome(options.chrome);
   const { devtools, close } = await launchChrome(binary, width, height);
-  const logged = [];
   try {
-    const { targetId } = await devtools.send('Target.createTarget', { url: 'about:blank' });
-    const { sessionId } = await devtools.send('Target.attachToTarget', { targetId, flatten: true });
-    const send = (method, params) => devtools.send(method, params, sessionId);
-    devtools.on(message => {
-      if (message.sessionId !== sessionId) return;
-      if (message.method === 'Runtime.consoleAPICalled') logged.push({ level: message.params.type, text: message.params.args.map(arg => arg.value ?? arg.description ?? '').join(' ') });
-      if (message.method === 'Runtime.exceptionThrown') logged.push({ level: 'exception', text: message.params.exceptionDetails.exception?.description ?? message.params.exceptionDetails.text });
-      if (message.method === 'Log.entryAdded') logged.push({ level: message.params.entry.level, text: message.params.entry.text + (message.params.entry.url ? ' (' + message.params.entry.url + ')' : '') });
-    });
-    await send('Page.enable');
-    await send('Runtime.enable');
-    await send('Log.enable');
-    await send('Emulation.setDeviceMetricsOverride', { width, height, deviceScaleFactor: 1, mobile: false });
-    if (options.reducedMotion) await send('Emulation.setEmulatedMedia', { features: [{ name: 'prefers-reduced-motion', value: 'reduce' }] });
-    const loaded = devtools.once('Page.loadEventFired', sessionId);
-    await send('Page.navigate', { url });
-    await loaded;
-    await send('Runtime.evaluate', { expression: 'document.fonts.ready.then(() => true)', awaitPromise: true });
-    await new Promise(resolve => setTimeout(resolve, wait));
+    const { send, logged } = await openPage(devtools, { url, width, height, reducedMotion: options.reducedMotion, wait });
 
     for (const spec of options.classes) {
       const [selector, names] = spec.split(/=(.*)/s);
@@ -289,11 +154,20 @@ async function main() {
     } else {
       clip = { x: 0, y: 0, width, height, scale };
     }
-    const { data } = await send('Page.captureScreenshot', { format: 'png', clip, captureBeyondViewport: false });
+    // One frame, or a strip of them from this same page load.
+    const frames = Math.max(1, options.sequence ?? 1);
+    const every = options.every ?? 700;
     await mkdir(path.dirname(out), { recursive: true });
-    await writeFile(out, Buffer.from(data, 'base64'));
+    const written = [];
+    for (let frame = 0; frame < frames; frame += 1) {
+      if (frame) await new Promise(resolve => setTimeout(resolve, every));
+      const { data } = await send('Page.captureScreenshot', { format: 'png', clip, captureBeyondViewport: false });
+      const target = frames === 1 ? out : out.replace(/(\.png)$/, '-' + (frame + 1) + '$1');
+      await writeFile(target, Buffer.from(data, 'base64'));
+      written.push(target);
+    }
     const problems = logged.filter(entry => ['warning', 'error', 'exception'].includes(entry.level));
-    console.log(path.relative(ROOT, out) + '  ' + clip.width * scale + 'x' + clip.height * scale + '  ' + url);
+    for (const target of written) console.log(path.relative(ROOT, target) + '  ' + clip.width * scale + 'x' + clip.height * scale + '  ' + url);
     if (problems.length) console.log(problems.length + ' console warning(s)/error(s)' + (options.console ? '' : ' (pass --console to see them)'));
     if (options.console) for (const entry of logged) console.log('  [' + entry.level + '] ' + entry.text);
   } finally {
