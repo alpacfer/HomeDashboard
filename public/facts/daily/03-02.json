@@ -3,18 +3,17 @@
   "dateLabel": "2 March",
   "facts": [
     {
-      "id": "03-02-spain-emma-penella",
+      "id": "03-02-czechoslovakia",
       "date": "03-02",
       "dateLabel": "2 March",
-      "country": "spain",
-      "countryName": "Spain",
-      "kind": "births",
-      "year": 1930,
-      "title": "Emma Penella",
-      "body": "Emma Penella, Spanish actress (died 2007), was born on this day in 1930.",
+      "category": "world",
+      "categoryName": "World",
+      "year": 1978,
+      "title": "Czechoslovakia",
+      "body": "Czech Vladimír Remek becomes the first non-Soviet or non-American to go into space, when he is launched aboard Soyuz 28.",
       "source": {
-        "name": "Wikipedia · Emma Penella",
-        "url": "https://en.wikipedia.org/wiki/Emma_Penella",
+        "name": "Wikipedia · Czechoslovakia",
+        "url": "https://en.wikipedia.org/wiki/Czechoslovakia",
         "calendarUrl": "https://en.wikipedia.org/wiki/March_2",
         "license": {
           "name": "CC BY-SA 4.0",
@@ -22,27 +21,26 @@
         }
       },
       "image": {
-        "src": "https://upload.wikimedia.org/wikipedia/commons/e/e7/%28Penella%29_Jos%C3%A9_Mar%C3%ADa_Aznar_se_reune_con_un_grupo_de_actores._Pool_Moncloa._7_de_octubre_de_1996_%28cropped%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
-        "alt": "Portrait or image of Emma Penella.",
-        "credit": "Ministry of the Presidency. Government of Spain",
-        "source": "https://commons.wikimedia.org/wiki/File:(Penella)_Jos%C3%A9_Mar%C3%ADa_Aznar_se_reune_con_un_grupo_de_actores._Pool_Moncloa._7_de_octubre_de_1996_(cropped).jpg",
-        "license": "Attribution",
-        "licenseUrl": "https://commons.wikimedia.org/wiki/File:(Penella)_Jos%C3%A9_Mar%C3%ADa_Aznar_se_reune_con_un_grupo_de_actores._Pool_Moncloa._7_de_octubre_de_1996_(cropped).jpg"
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/cb/Flag_of_the_Czech_Republic.svg/1280px-Flag_of_the_Czech_Republic.svg.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "alt": "Picture from the Wikipedia article on Czechoslovakia.",
+        "credit": "Jaroslav Kursa",
+        "source": "https://commons.wikimedia.org/wiki/File:Flag_of_the_Czech_Republic.svg",
+        "license": "Public domain",
+        "licenseUrl": "https://commons.wikimedia.org/wiki/File:Flag_of_the_Czech_Republic.svg"
       }
     },
     {
-      "id": "03-02-denmark-east-cape-war",
+      "id": "03-02-charlie-chaplin",
       "date": "03-02",
       "dateLabel": "2 March",
-      "country": "denmark",
-      "countryName": "Denmark",
-      "kind": "events",
-      "year": 1865,
-      "title": "East Cape War",
-      "body": "1865: East Cape War: The Völkner Incident in New Zealand.",
+      "category": "curious",
+      "categoryName": "Curious",
+      "year": 1978,
+      "title": "Charlie Chaplin",
+      "body": "The late iconic actor Charlie Chaplin's coffin is stolen from his grave in Switzerland.",
       "source": {
-        "name": "Wikipedia · East Cape War",
-        "url": "https://en.wikipedia.org/wiki/East_Cape_War",
+        "name": "Wikipedia · Charlie Chaplin",
+        "url": "https://en.wikipedia.org/wiki/Charlie_Chaplin",
         "calendarUrl": "https://en.wikipedia.org/wiki/March_2",
         "license": {
           "name": "CC BY-SA 4.0",
@@ -50,27 +48,26 @@
         }
       },
       "image": {
-        "src": "https://commons.wikimedia.org/wiki/Special:Redirect/file/Flag_of_Denmark.svg?width=1000",
-        "alt": "The national flag of Denmark.",
-        "credit": "Danish government",
-        "source": "https://commons.wikimedia.org/wiki/File:Flag_of_Denmark.svg",
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/82/Charlie_Chaplin_portrait_Getty_1739411952.jpg/1280px-Charlie_Chaplin_portrait_Getty_1739411952.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "alt": "Picture from the Wikipedia article on Charlie Chaplin.",
+        "credit": "Strauss-Peyton Studio",
+        "source": "https://commons.wikimedia.org/wiki/File:Charlie_Chaplin_portrait_Getty_1739411952.jpg",
         "license": "Public domain",
-        "licenseUrl": "https://commons.wikimedia.org/wiki/File:Flag_of_Denmark.svg"
+        "licenseUrl": "https://commons.wikimedia.org/wiki/File:Charlie_Chaplin_portrait_Getty_1739411952.jpg"
       }
     },
     {
-      "id": "03-02-greece-renos-apostolidis",
+      "id": "03-02-galileo-spacecraft",
       "date": "03-02",
       "dateLabel": "2 March",
-      "country": "greece",
-      "countryName": "Greece",
-      "kind": "births",
-      "year": 1924,
-      "title": "Renos Apostolidis",
-      "body": "Renos Apostolidis, Greek philologist, author, and critic (died 2004), was born on this day in 1924.",
+      "category": "space",
+      "categoryName": "Space",
+      "year": 1998,
+      "title": "Galileo",
+      "body": "Data sent from the Galileo spacecraft indicates that Jupiter's moon Europa has a liquid ocean under a thick crust of ice.",
       "source": {
-        "name": "Wikipedia · Renos Apostolidis",
-        "url": "https://en.wikipedia.org/wiki/Renos_Apostolidis",
+        "name": "Wikipedia · Galileo (spacecraft)",
+        "url": "https://en.wikipedia.org/wiki/Galileo_(spacecraft)",
         "calendarUrl": "https://en.wikipedia.org/wiki/March_2",
         "license": {
           "name": "CC BY-SA 4.0",
@@ -78,12 +75,12 @@
         }
       },
       "image": {
-        "src": "https://commons.wikimedia.org/wiki/Special:Redirect/file/Flag_of_Greece.svg?width=1000",
-        "alt": "The national flag of Greece.",
-        "credit": "Greek government",
-        "source": "https://commons.wikimedia.org/wiki/File:Flag_of_Greece.svg",
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/9c/Artwork_Galileo-Io-Jupiter.JPG/1280px-Artwork_Galileo-Io-Jupiter.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "alt": "Picture from the Wikipedia article on Galileo.",
+        "credit": "NASA",
+        "source": "https://commons.wikimedia.org/wiki/File:Artwork_Galileo-Io-Jupiter.JPG",
         "license": "Public domain",
-        "licenseUrl": "https://commons.wikimedia.org/wiki/File:Flag_of_Greece.svg"
+        "licenseUrl": "https://commons.wikimedia.org/wiki/File:Artwork_Galileo-Io-Jupiter.JPG"
       }
     }
   ]

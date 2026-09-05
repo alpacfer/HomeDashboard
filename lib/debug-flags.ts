@@ -29,6 +29,13 @@
 //                  screenshot is taken, and a face that clips on a 4 looks
 //                  fine at 21:21. Everything that reads the clock follows:
 //                  the wardrobe, the Tenant's mood and the ribbon's window.
+//   ?date=MM-DD    The daily-fact panel shows that calendar date instead of
+//                  today's, and stops rolling over at midnight. It is the only
+//                  way to look at a fact that is not today's, which matters
+//                  because the reviewed ones in data/daily-fact-overrides.json
+//                  land on fourteen dates spread across the year. Read in
+//                  lib/daily-facts.ts, not here, because that is where the date
+//                  key is derived.
 //   ?pet=<spot>    Holds the Tenant at weather, week, transport, fact or map.
 //   ?pet=travel-<spot>  Sends it there through the measured safe-spot route,
 //                  then holds it. This makes locomotion reproducible too.

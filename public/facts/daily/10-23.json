@@ -3,18 +3,17 @@
   "dateLabel": "23 October",
   "facts": [
     {
-      "id": "10-23-spain-reconquista",
+      "id": "10-23-apple-computer",
       "date": "10-23",
       "dateLabel": "23 October",
-      "country": "spain",
-      "countryName": "Spain",
-      "kind": "events",
-      "year": 1086,
-      "title": "Spanish Reconquista",
-      "body": "1086: Spanish Reconquista: At the Battle of Sagrajas, the Almoravids defeat the Castilians, but are unable to take advantage of their victory.",
+      "category": "tech",
+      "categoryName": "Tech",
+      "year": 2001,
+      "title": "Apple Inc.",
+      "body": "Apple Computer releases the iPod.",
       "source": {
-        "name": "Wikipedia · Reconquista",
-        "url": "https://en.wikipedia.org/wiki/Reconquista",
+        "name": "Wikipedia · Apple Inc.",
+        "url": "https://en.wikipedia.org/wiki/Apple_Inc.",
         "calendarUrl": "https://en.wikipedia.org/wiki/October_23",
         "license": {
           "name": "CC BY-SA 4.0",
@@ -22,27 +21,26 @@
         }
       },
       "image": {
-        "src": "https://upload.wikimedia.org/wikipedia/commons/3/3a/Cantigas_battle.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
-        "alt": "Image related to Spanish Reconquista.",
-        "credit": "Creator:Abdula",
-        "source": "https://commons.wikimedia.org/wiki/File:Cantigas_battle.jpg",
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/fa/Apple_logo_black.svg/1280px-Apple_logo_black.svg.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "alt": "Picture from the Wikipedia article on Apple Inc..",
+        "credit": "Original: Rob Janoff",
+        "source": "https://commons.wikimedia.org/wiki/File:Apple_logo_black.svg",
         "license": "Public domain",
-        "licenseUrl": "https://commons.wikimedia.org/wiki/File:Cantigas_battle.jpg"
+        "licenseUrl": "https://commons.wikimedia.org/wiki/File:Apple_logo_black.svg"
       }
     },
     {
-      "id": "10-23-denmark-battle-of-grathe-heath",
+      "id": "10-23-jackie-robinson",
       "date": "10-23",
       "dateLabel": "23 October",
-      "country": "denmark",
-      "countryName": "Denmark",
-      "kind": "events",
-      "year": 1157,
-      "title": "Battle of Grathe Heath",
-      "body": "1157: The Battle of Grathe Heath ends the Danish Civil War.",
+      "category": "sport",
+      "categoryName": "Sport",
+      "year": 1945,
+      "title": "Jackie Robinson",
+      "body": "Jackie Robinson of the Kansas City Monarchs signs a contract with the Brooklyn Dodger's minor league team, the Montreal Royals, breaking Major League Baseball's color barrier.",
       "source": {
-        "name": "Wikipedia · Battle of Grathe Heath",
-        "url": "https://en.wikipedia.org/wiki/Battle_of_Grathe_Heath",
+        "name": "Wikipedia · Jackie Robinson",
+        "url": "https://en.wikipedia.org/wiki/Jackie_Robinson",
         "calendarUrl": "https://en.wikipedia.org/wiki/October_23",
         "license": {
           "name": "CC BY-SA 4.0",
@@ -50,27 +48,26 @@
         }
       },
       "image": {
-        "src": "https://upload.wikimedia.org/wikipedia/commons/3/34/Grathe_Hede_-_Froelich.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
-        "alt": "Image related to Battle of Grathe Heath.",
-        "credit": "Lorenz Frølich",
-        "source": "https://commons.wikimedia.org/wiki/File:Grathe_Hede_-_Froelich.jpg",
-        "license": "Public domain",
-        "licenseUrl": "https://commons.wikimedia.org/wiki/File:Grathe_Hede_-_Froelich.jpg"
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/bd/Jackie_Robinson%2C_NPG_97_135.jpg/1280px-Jackie_Robinson%2C_NPG_97_135.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "alt": "Picture from the Wikipedia article on Jackie Robinson.",
+        "credit": "Harry Warnecke / Frank Livia / Robert F. Cranston / William Klein",
+        "source": "https://commons.wikimedia.org/wiki/File:Jackie_Robinson,_NPG_97_135.jpg",
+        "license": "CC0",
+        "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/deed.en"
       }
     },
     {
-      "id": "10-23-greece-manolis-andronikos",
+      "id": "10-23-peyo",
       "date": "10-23",
       "dateLabel": "23 October",
-      "country": "greece",
-      "countryName": "Greece",
-      "kind": "births",
-      "year": 1919,
-      "title": "Manolis Andronikos",
-      "body": "Manolis Andronikos, Greek archaeologist and academic (died 1992), was born on this day in 1919.",
+      "category": "culture",
+      "categoryName": "Culture",
+      "year": 1958,
+      "title": "Peyo",
+      "body": "Belgian artist Peyo's comic characters, the Smurfs, make their debut in Spirou magazine.",
       "source": {
-        "name": "Wikipedia · Manolis Andronikos",
-        "url": "https://en.wikipedia.org/wiki/Manolis_Andronikos",
+        "name": "Wikipedia · Peyo",
+        "url": "https://en.wikipedia.org/wiki/Peyo",
         "calendarUrl": "https://en.wikipedia.org/wiki/October_23",
         "license": {
           "name": "CC BY-SA 4.0",
@@ -78,12 +75,12 @@
         }
       },
       "image": {
-        "src": "https://upload.wikimedia.org/wikipedia/commons/8/8d/Manolis_Andronikos_1986_3_Oxford.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
-        "alt": "Portrait or image of Manolis Andronikos.",
-        "credit": "Nikos D. Karabelas",
-        "source": "https://commons.wikimedia.org/wiki/File:Manolis_Andronikos_1986_3_Oxford.jpg",
-        "license": "CC BY-SA 4.0",
-        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0"
+        "src": "https://upload.wikimedia.org/wikipedia/commons/d/d8/Peyo_%281990%29_by_Erling_Mandelmann.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+        "alt": "Picture from the Wikipedia article on Peyo.",
+        "credit": "photo©ErlingMandelmann.ch",
+        "source": "https://commons.wikimedia.org/wiki/File:Peyo_(1990)_by_Erling_Mandelmann.jpg",
+        "license": "CC BY-SA 3.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0"
       }
     }
   ]

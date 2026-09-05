@@ -3,18 +3,17 @@
   "dateLabel": "17 June",
   "facts": [
     {
-      "id": "06-17-spain-battle-of-montes-claros",
+      "id": "06-17-willem-barentsz",
       "date": "06-17",
       "dateLabel": "17 June",
-      "country": "spain",
-      "countryName": "Spain",
-      "kind": "events",
-      "year": 1665,
-      "title": "Battle of Montes Claros",
-      "body": "1665: Battle of Montes Claros: Portugal definitively secures independence from Spain in the last battle of the Portuguese Restoration War.",
+      "category": "science",
+      "categoryName": "Science",
+      "year": 1596,
+      "title": "Willem Barentsz",
+      "body": "The Dutch explorer Willem Barentsz discovers the Arctic archipelago of Spitsbergen.",
       "source": {
-        "name": "Wikipedia · Battle of Montes Claros",
-        "url": "https://en.wikipedia.org/wiki/Battle_of_Montes_Claros",
+        "name": "Wikipedia · Willem Barentsz",
+        "url": "https://en.wikipedia.org/wiki/Willem_Barentsz",
         "calendarUrl": "https://en.wikipedia.org/wiki/June_17",
         "license": {
           "name": "CC BY-SA 4.0",
@@ -22,27 +21,26 @@
         }
       },
       "image": {
-        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/7b/Batalille_de_Montes_Claros_-_azulejo_XVIIe_si%C3%A8cle_Palais_Fronteira%2C_Lisbonne.jpg/1280px-Batalille_de_Montes_Claros_-_azulejo_XVIIe_si%C3%A8cle_Palais_Fronteira%2C_Lisbonne.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-        "alt": "Image related to Battle of Montes Claros.",
-        "credit": "Unknown authorUnknown author",
-        "source": "https://commons.wikimedia.org/wiki/File:Batalille_de_Montes_Claros_-_azulejo_XVIIe_si%C3%A8cle_Palais_Fronteira,_Lisbonne.jpg",
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/45/Willem_Barents_%281883%29.png/1280px-Willem_Barents_%281883%29.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "alt": "Picture from the Wikipedia article on Willem Barentsz.",
+        "credit": "Unidentified engraver",
+        "source": "https://commons.wikimedia.org/wiki/File:Willem_Barents_(1883).png",
         "license": "Public domain",
-        "licenseUrl": "https://commons.wikimedia.org/wiki/File:Batalille_de_Montes_Claros_-_azulejo_XVIIe_si%C3%A8cle_Palais_Fronteira,_Lisbonne.jpg"
+        "licenseUrl": "https://commons.wikimedia.org/wiki/File:Willem_Barents_(1883).png"
       }
     },
     {
-      "id": "06-17-denmark-kalmar-union",
+      "id": "06-17-sts-51-g",
       "date": "06-17",
       "dateLabel": "17 June",
-      "country": "denmark",
-      "countryName": "Denmark",
-      "kind": "events",
-      "year": 1397,
-      "title": "Kalmar Union",
-      "body": "1397: The Kalmar Union is formed under the rule of Margaret I of Denmark.",
+      "category": "space",
+      "categoryName": "Space",
+      "year": 1985,
+      "title": "STS-51-G",
+      "body": "Space Shuttle Discovery launches carrying Sultan bin Salman bin Abdulaziz Al Saud, the first Arab and first Muslim in space, as a payload specialist.",
       "source": {
-        "name": "Wikipedia · Kalmar Union",
-        "url": "https://en.wikipedia.org/wiki/Kalmar_Union",
+        "name": "Wikipedia · STS-51-G",
+        "url": "https://en.wikipedia.org/wiki/STS-51-G",
         "calendarUrl": "https://en.wikipedia.org/wiki/June_17",
         "license": {
           "name": "CC BY-SA 4.0",
@@ -50,40 +48,39 @@
         }
       },
       "image": {
-        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e7/Kalmar_Union_ca._1400.svg/1280px-Kalmar_Union_ca._1400.svg.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-        "alt": "Image related to Kalmar Union.",
-        "credit": "Ssolbergj",
-        "source": "https://commons.wikimedia.org/wiki/File:Kalmar_Union_ca._1400.svg",
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/48/STS-51-G_Morelos_1_deployment.jpg/1280px-STS-51-G_Morelos_1_deployment.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "alt": "Picture from the Wikipedia article on STS-51-G.",
+        "credit": "NASA",
+        "source": "https://commons.wikimedia.org/wiki/File:STS-51-G_Morelos_1_deployment.jpg",
+        "license": "Public domain",
+        "licenseUrl": "https://commons.wikimedia.org/wiki/File:STS-51-G_Morelos_1_deployment.jpg"
+      }
+    },
+    {
+      "id": "06-17-kansas-city-missouri",
+      "date": "06-17",
+      "dateLabel": "17 June",
+      "category": "world",
+      "categoryName": "World",
+      "year": 1933,
+      "title": "Kansas City, Missouri",
+      "body": "In Kansas City, Missouri, four FBI agents and captured fugitive Frank Nash are gunned down by gangsters attempting to free Nash.",
+      "source": {
+        "name": "Wikipedia · Kansas City, Missouri",
+        "url": "https://en.wikipedia.org/wiki/Kansas_City,_Missouri",
+        "calendarUrl": "https://en.wikipedia.org/wiki/June_17",
+        "license": {
+          "name": "CC BY-SA 4.0",
+          "url": "https://creativecommons.org/licenses/by-sa/4.0/"
+        }
+      },
+      "image": {
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/79/Kansas_City_-_Downtown_-_panoramio_%2815%29.jpg/1280px-Kansas_City_-_Downtown_-_panoramio_%2815%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "alt": "Picture from the Wikipedia article on Kansas City, Missouri.",
+        "credit": "Stephen Edmonds",
+        "source": "https://commons.wikimedia.org/wiki/File:Kansas_City_-_Downtown_-_panoramio_(15).jpg",
         "license": "CC BY-SA 3.0",
         "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0"
-      }
-    },
-    {
-      "id": "06-17-greece-pope-martin-i",
-      "date": "06-17",
-      "dateLabel": "17 June",
-      "country": "greece",
-      "countryName": "Greece",
-      "kind": "events",
-      "year": 653,
-      "title": "Pope Martin I",
-      "body": "653: Pope Martin I is arrested and taken to Constantinople, due to his opposition to monothelitism.",
-      "source": {
-        "name": "Wikipedia · Pope Martin I",
-        "url": "https://en.wikipedia.org/wiki/Pope_Martin_I",
-        "calendarUrl": "https://en.wikipedia.org/wiki/June_17",
-        "license": {
-          "name": "CC BY-SA 4.0",
-          "url": "https://creativecommons.org/licenses/by-sa/4.0/"
-        }
-      },
-      "image": {
-        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/11/14_Chiesa_di_Santa_Maria_della_Consolazione_%28Todi%29%2C_el_papa_Mart%C3%AD_I%2C_de_Carlo_Laurenti.jpg/1280px-14_Chiesa_di_Santa_Maria_della_Consolazione_%28Todi%29%2C_el_papa_Mart%C3%AD_I%2C_de_Carlo_Laurenti.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-        "alt": "Image related to Pope Martin I.",
-        "credit": "Enric",
-        "source": "https://commons.wikimedia.org/wiki/File:14_Chiesa_di_Santa_Maria_della_Consolazione_(Todi),_el_papa_Mart%C3%AD_I,_de_Carlo_Laurenti.jpg",
-        "license": "CC BY-SA 4.0",
-        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0"
       }
     }
   ]

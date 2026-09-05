@@ -3,18 +3,17 @@
   "dateLabel": "17 August",
   "facts": [
     {
-      "id": "08-17-spain-eighty-years-war",
+      "id": "08-17-venera",
       "date": "08-17",
       "dateLabel": "17 August",
-      "country": "spain",
-      "countryName": "Spain",
-      "kind": "events",
-      "year": 1585,
-      "title": "Eighty Years' War",
-      "body": "1585: Eighty Years' War: Siege of Antwerp: Antwerp is captured by Spanish forces under Alexander Farnese, Duke of Parma, who orders Protestants to leave the city and as a result over half of the 100,000 inhabitants flee to the northern provinces.",
+      "category": "space",
+      "categoryName": "Space",
+      "year": 1970,
+      "title": "Venera program",
+      "body": "Venera 7 launched. It will become the first spacecraft to successfully transmit data from the surface of another planet (Venus).",
       "source": {
-        "name": "Wikipedia · Eighty Years' War",
-        "url": "https://en.wikipedia.org/wiki/Eighty_Years'_War",
+        "name": "Wikipedia · Venera program",
+        "url": "https://en.wikipedia.org/wiki/Venera_program",
         "calendarUrl": "https://en.wikipedia.org/wiki/August_17",
         "license": {
           "name": "CC BY-SA 4.0",
@@ -22,68 +21,66 @@
         }
       },
       "image": {
-        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b9/Battle_of_Gibraltar_1607.jpg/1280px-Battle_of_Gibraltar_1607.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-        "alt": "Image related to Eighty Years' War.",
-        "credit": "Cornelis Claesz van Wieringen / Formerly attributed to Hendrick Cornelisz Vroom",
-        "source": "https://commons.wikimedia.org/wiki/File:Battle_of_Gibraltar_1607.jpg",
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b0/VenusLanderTopo.png/1280px-VenusLanderTopo.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "alt": "Picture from the Wikipedia article on Venera program.",
+        "credit": "Zamonin",
+        "source": "https://commons.wikimedia.org/wiki/File:VenusLanderTopo.png",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0"
+      }
+    },
+    {
+      "id": "08-17-michael-phelps",
+      "date": "08-17",
+      "dateLabel": "17 August",
+      "category": "sport",
+      "categoryName": "Sport",
+      "year": 2008,
+      "title": "Michael Phelps",
+      "body": "American swimmer Michael Phelps becomes the first person to win eight gold medals at one Olympic Games.",
+      "source": {
+        "name": "Wikipedia · Michael Phelps",
+        "url": "https://en.wikipedia.org/wiki/Michael_Phelps",
+        "calendarUrl": "https://en.wikipedia.org/wiki/August_17",
+        "license": {
+          "name": "CC BY-SA 4.0",
+          "url": "https://creativecommons.org/licenses/by-sa/4.0/"
+        }
+      },
+      "image": {
+        "src": "https://upload.wikimedia.org/wikipedia/commons/c/c7/Michael_Phelps_Rio_Olympics_2016.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+        "alt": "Picture from the Wikipedia article on Michael Phelps.",
+        "credit": "Agência Brasil Fotografias",
+        "source": "https://commons.wikimedia.org/wiki/File:Michael_Phelps_Rio_Olympics_2016.jpg",
+        "license": "CC BY 2.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by/2.0"
+      }
+    },
+    {
+      "id": "08-17-richard-wagner",
+      "date": "08-17",
+      "dateLabel": "17 August",
+      "category": "culture",
+      "categoryName": "Culture",
+      "year": 1876,
+      "title": "Richard Wagner",
+      "body": "Richard Wagner's Götterdämmerung, the last opera in his Ring cycle, premieres at the Bayreuth Festspielhaus.",
+      "source": {
+        "name": "Wikipedia · Richard Wagner",
+        "url": "https://en.wikipedia.org/wiki/Richard_Wagner",
+        "calendarUrl": "https://en.wikipedia.org/wiki/August_17",
+        "license": {
+          "name": "CC BY-SA 4.0",
+          "url": "https://creativecommons.org/licenses/by-sa/4.0/"
+        }
+      },
+      "image": {
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/9d/RichardWagner.jpg/1280px-RichardWagner.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "alt": "Picture from the Wikipedia article on Richard Wagner.",
+        "credit": "Franz Hanfstaengl",
+        "source": "https://commons.wikimedia.org/wiki/File:RichardWagner.jpg",
         "license": "Public domain",
-        "licenseUrl": "https://commons.wikimedia.org/wiki/File:Battle_of_Gibraltar_1607.jpg"
-      }
-    },
-    {
-      "id": "08-17-denmark-alex-elisala",
-      "date": "08-17",
-      "dateLabel": "17 August",
-      "country": "denmark",
-      "countryName": "Denmark",
-      "kind": "births",
-      "year": 1992,
-      "title": "Alex Elisala",
-      "body": "Alex Elisala, New Zealand-Australian rugby player (died 2013), was born on this day in 1992.",
-      "source": {
-        "name": "Wikipedia · Alex Elisala",
-        "url": "https://en.wikipedia.org/wiki/Alex_Elisala",
-        "calendarUrl": "https://en.wikipedia.org/wiki/August_17",
-        "license": {
-          "name": "CC BY-SA 4.0",
-          "url": "https://creativecommons.org/licenses/by-sa/4.0/"
-        }
-      },
-      "image": {
-        "src": "https://upload.wikimedia.org/wikipedia/commons/4/46/Alex_Elisala.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
-        "alt": "Portrait or image of Alex Elisala.",
-        "credit": "NAPARAZZI",
-        "source": "https://commons.wikimedia.org/wiki/File:Alex_Elisala.jpg",
-        "license": "CC BY-SA 2.0",
-        "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0"
-      }
-    },
-    {
-      "id": "08-17-greece-byzantine-bulgarian-wars",
-      "date": "08-17",
-      "dateLabel": "17 August",
-      "country": "greece",
-      "countryName": "Greece",
-      "kind": "events",
-      "year": 986,
-      "title": "Byzantine–Bulgarian wars",
-      "body": "986: Byzantine–Bulgarian wars: Battle of the Gates of Trajan: The Bulgarians under the Comitopuli Samuel and Aron defeat the Byzantine forces at the Gate of Trajan, with Byzantine Emperor Basil II barely escaping.",
-      "source": {
-        "name": "Wikipedia · Byzantine–Bulgarian wars",
-        "url": "https://en.wikipedia.org/wiki/Byzantine%E2%80%93Bulgarian_wars",
-        "calendarUrl": "https://en.wikipedia.org/wiki/August_17",
-        "license": {
-          "name": "CC BY-SA 4.0",
-          "url": "https://creativecommons.org/licenses/by-sa/4.0/"
-        }
-      },
-      "image": {
-        "src": "https://upload.wikimedia.org/wikipedia/commons/9/97/BG_BYZ.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
-        "alt": "Image related to Byzantine–Bulgarian wars.",
-        "credit": "Gligan at English Wikipedia",
-        "source": "https://commons.wikimedia.org/wiki/File:BG_BYZ.JPG",
-        "license": "CC BY-SA 3.0",
-        "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0"
+        "licenseUrl": "https://commons.wikimedia.org/wiki/File:RichardWagner.jpg"
       }
     }
   ]

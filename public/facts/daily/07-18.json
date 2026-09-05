@@ -3,18 +3,17 @@
   "dateLabel": "18 July",
   "facts": [
     {
-      "id": "07-18-spain-battle-of-alarcos",
+      "id": "07-18-nadia-com-neci",
       "date": "07-18",
       "dateLabel": "18 July",
-      "country": "spain",
-      "countryName": "Spain",
-      "kind": "events",
-      "year": 1195,
-      "title": "Battle of Alarcos",
-      "body": "1195: Battle of Alarcos: Almohad forces defeat the Castilian army of Alfonso VIII and force its retreat to Toledo.",
+      "category": "sport",
+      "categoryName": "Sport",
+      "year": 1976,
+      "title": "Nadia Comăneci",
+      "body": "Nadia Comăneci becomes the first person in Olympic Games history to score a perfect 10 in gymnastics at the 1976 Summer Olympics.",
       "source": {
-        "name": "Wikipedia · Battle of Alarcos",
-        "url": "https://en.wikipedia.org/wiki/Battle_of_Alarcos",
+        "name": "Wikipedia · Nadia Comăneci",
+        "url": "https://en.wikipedia.org/wiki/Nadia_Com%C4%83neci",
         "calendarUrl": "https://en.wikipedia.org/wiki/July_18",
         "license": {
           "name": "CC BY-SA 4.0",
@@ -22,27 +21,26 @@
         }
       },
       "image": {
-        "src": "https://upload.wikimedia.org/wikipedia/commons/4/40/Ciudad_Real%2C_Spain_location.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
-        "alt": "Image related to Battle of Alarcos.",
-        "credit": "I, Daniel Csörföly (from Budapest, Hungary)",
-        "source": "https://commons.wikimedia.org/wiki/File:Ciudad_Real,_Spain_location.png",
-        "license": "CC BY-SA 3.0",
-        "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0/"
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/87/Nadia_Com%C4%83neci_at_Sports_Festival_2026.jpg/1280px-Nadia_Com%C4%83neci_at_Sports_Festival_2026.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "alt": "Picture from the Wikipedia article on Nadia Comăneci.",
+        "credit": "Nuță Lucian",
+        "source": "https://commons.wikimedia.org/wiki/File:Nadia_Com%C4%83neci_at_Sports_Festival_2026.jpg",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0"
       }
     },
     {
-      "id": "07-18-denmark-isabella-of-austria",
+      "id": "07-18-messerschmitt-me-262",
       "date": "07-18",
       "dateLabel": "18 July",
-      "country": "denmark",
-      "countryName": "Denmark",
-      "kind": "births",
-      "year": 1501,
-      "title": "Isabella of Austria",
-      "body": "Isabella of Austria, queen of Denmark (died 1526), was born on this day in 1501.",
+      "category": "world",
+      "categoryName": "World",
+      "year": 1942,
+      "title": "Messerschmitt Me 262",
+      "body": "The Germans test fly the Messerschmitt Me 262 using its jet engines for the first time.",
       "source": {
-        "name": "Wikipedia · Isabella of Austria",
-        "url": "https://en.wikipedia.org/wiki/Isabella_of_Austria",
+        "name": "Wikipedia · Messerschmitt Me 262",
+        "url": "https://en.wikipedia.org/wiki/Messerschmitt_Me_262",
         "calendarUrl": "https://en.wikipedia.org/wiki/July_18",
         "license": {
           "name": "CC BY-SA 4.0",
@@ -50,27 +48,26 @@
         }
       },
       "image": {
-        "src": "https://upload.wikimedia.org/wikipedia/commons/3/30/Jan_Gossaert_-_Portrait_of_an_unknown_woman_%28between_1508_and_1532%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
-        "alt": "Portrait or image of Isabella of Austria.",
-        "credit": "Jan Gossaert",
-        "source": "https://commons.wikimedia.org/wiki/File:Jan_Gossaert_-_Portrait_of_an_unknown_woman_(between_1508_and_1532).jpg",
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b2/Messerschmitt_Me_262A_at_the_National_Museum_of_the_USAF_%28cropped%29.jpg/1280px-Messerschmitt_Me_262A_at_the_National_Museum_of_the_USAF_%28cropped%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "alt": "Picture from the Wikipedia article on Messerschmitt Me 262.",
+        "credit": "USAF museum",
+        "source": "https://commons.wikimedia.org/wiki/File:Messerschmitt_Me_262A_at_the_National_Museum_of_the_USAF_(cropped).jpg",
         "license": "Public domain",
-        "licenseUrl": "https://commons.wikimedia.org/wiki/File:Jan_Gossaert_-_Portrait_of_an_unknown_woman_(between_1508_and_1532).jpg"
+        "licenseUrl": "https://commons.wikimedia.org/wiki/File:Messerschmitt_Me_262A_at_the_National_Museum_of_the_USAF_(cropped).jpg"
       }
     },
     {
-      "id": "07-18-greece-kostas-eleftherakis",
+      "id": "07-18-intel",
       "date": "07-18",
       "dateLabel": "18 July",
-      "country": "greece",
-      "countryName": "Greece",
-      "kind": "births",
-      "year": 1950,
-      "title": "Kostas Eleftherakis",
-      "body": "Kostas Eleftherakis, Greek footballer, was born on this day in 1950.",
+      "category": "tech",
+      "categoryName": "Tech",
+      "year": 1968,
+      "title": "Intel",
+      "body": "Intel is founded in Mountain View, California.",
       "source": {
-        "name": "Wikipedia · Kostas Eleftherakis",
-        "url": "https://en.wikipedia.org/wiki/Kostas_Eleftherakis",
+        "name": "Wikipedia · Intel",
+        "url": "https://en.wikipedia.org/wiki/Intel",
         "calendarUrl": "https://en.wikipedia.org/wiki/July_18",
         "license": {
           "name": "CC BY-SA 4.0",
@@ -78,12 +75,12 @@
         }
       },
       "image": {
-        "src": "https://upload.wikimedia.org/wikipedia/commons/3/38/Kostas_Eleftherakis_Panathinaikos.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
-        "alt": "Portrait or image of Kostas Eleftherakis.",
-        "credit": "Nationaal Archief, Den Haag, Rijksfotoarchief: Fotocollectie Algemeen Nederlands Fotopersbureau (ANEFO), 1945-1989 - negatiefstroken zwart/wit, nummer toegang 2.24.01.05, bestanddeelnummer 924-6091",
-        "source": "https://commons.wikimedia.org/wiki/File:Kostas_Eleftherakis_Panathinaikos.jpg",
-        "license": "CC BY-SA 3.0 nl",
-        "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0/nl/deed.en"
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/97/Intel_Headquarters_in_2023.jpg/1280px-Intel_Headquarters_in_2023.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "alt": "Picture from the Wikipedia article on Intel.",
+        "credit": "Coolcaesar",
+        "source": "https://commons.wikimedia.org/wiki/File:Intel_Headquarters_in_2023.jpg",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0"
       }
     }
   ]

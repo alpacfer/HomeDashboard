@@ -3,18 +3,17 @@
   "dateLabel": "3 February",
   "facts": [
     {
-      "id": "02-03-spain-battle-of-s-o-vicente",
+      "id": "02-03-luna-9",
       "date": "02-03",
       "dateLabel": "3 February",
-      "country": "spain",
-      "countryName": "Spain",
-      "kind": "events",
-      "year": 1583,
-      "title": "Battle of São Vicente",
-      "body": "1583: Battle of São Vicente takes place off Portuguese Brazil where three English warships led by navigator Edward Fenton fight off three Spanish galleons sinking one in the process.",
+      "category": "space",
+      "categoryName": "Space",
+      "year": 1966,
+      "title": "Luna 9",
+      "body": "The Soviet Union's Luna 9 becomes the first spacecraft to make a soft landing on the Moon, and the first spacecraft to take pictures from the surface of the Moon.",
       "source": {
-        "name": "Wikipedia · Battle of São Vicente",
-        "url": "https://en.wikipedia.org/wiki/Battle_of_S%C3%A3o_Vicente",
+        "name": "Wikipedia · Luna 9",
+        "url": "https://en.wikipedia.org/wiki/Luna_9",
         "calendarUrl": "https://en.wikipedia.org/wiki/February_3",
         "license": {
           "name": "CC BY-SA 4.0",
@@ -22,27 +21,26 @@
         }
       },
       "image": {
-        "src": "https://upload.wikimedia.org/wikipedia/commons/f/fb/Benedito_Calixto_-_Ba%C3%ADa_de_S%C3%A3o_Vicente.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
-        "alt": "Image related to Battle of São Vicente.",
-        "credit": "Benedito Calixto",
-        "source": "https://commons.wikimedia.org/wiki/File:Benedito_Calixto_-_Ba%C3%ADa_de_S%C3%A3o_Vicente.jpg",
-        "license": "Public domain",
-        "licenseUrl": "https://commons.wikimedia.org/wiki/File:Benedito_Calixto_-_Ba%C3%ADa_de_S%C3%A3o_Vicente.jpg"
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e7/Luna_9_Musee_du_Bourget_P1010505.JPG/1280px-Luna_9_Musee_du_Bourget_P1010505.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "alt": "Picture from the Wikipedia article on Luna 9.",
+        "credit": "Pline",
+        "source": "https://commons.wikimedia.org/wiki/File:Luna_9_Musee_du_Bourget_P1010505.JPG",
+        "license": "CC BY-SA 3.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0/"
       }
     },
     {
-      "id": "02-03-denmark-1931-hawke-s-bay-earthquake",
+      "id": "02-03-prime-minister-of-the-united-kingdom",
       "date": "02-03",
       "dateLabel": "3 February",
-      "country": "denmark",
-      "countryName": "Denmark",
-      "kind": "events",
-      "year": 1931,
-      "title": "Hawke's Bay earthquake",
-      "body": "1931: The Hawke's Bay earthquake, New Zealand's worst natural disaster, kills 258.",
+      "category": "world",
+      "categoryName": "World",
+      "year": 1960,
+      "title": "Prime Minister of the United Kingdom",
+      "body": "British Prime Minister Harold Macmillan speaks of \"a wind of change\", signalling that his Government is likely to support decolonisation.",
       "source": {
-        "name": "Wikipedia · 1931 Hawke's Bay earthquake",
-        "url": "https://en.wikipedia.org/wiki/1931_Hawke's_Bay_earthquake",
+        "name": "Wikipedia · Prime Minister of the United Kingdom",
+        "url": "https://en.wikipedia.org/wiki/Prime_Minister_of_the_United_Kingdom",
         "calendarUrl": "https://en.wikipedia.org/wiki/February_3",
         "license": {
           "name": "CC BY-SA 4.0",
@@ -50,27 +48,26 @@
         }
       },
       "image": {
-        "src": "https://upload.wikimedia.org/wikipedia/commons/f/fa/Hastings_Post_Office_1931.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
-        "alt": "Image related to Hawke's Bay earthquake.",
-        "credit": "James Henry Daroux",
-        "source": "https://commons.wikimedia.org/wiki/File:Hastings_Post_Office_1931.jpg",
-        "license": "Public domain",
-        "licenseUrl": "https://commons.wikimedia.org/wiki/File:Hastings_Post_Office_1931.jpg"
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/6c/Coat_of_arms_of_the_United_Kingdom_%282024%2C_lesser_arms%29.svg/1280px-Coat_of_arms_of_the_United_Kingdom_%282024%2C_lesser_arms%29.svg.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "alt": "Picture from the Wikipedia article on Prime Minister of the United Kingdom.",
+        "credit": "Dgp4004",
+        "source": "https://commons.wikimedia.org/wiki/File:Coat_of_arms_of_the_United_Kingdom_(2024,_lesser_arms).svg",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0"
       }
     },
     {
-      "id": "02-03-greece-london-protocol-1830",
+      "id": "02-03-eileen-collins",
       "date": "02-03",
       "dateLabel": "3 February",
-      "country": "greece",
-      "countryName": "Greece",
-      "kind": "events",
-      "year": 1830,
-      "title": "London Protocol of 1830",
-      "body": "1830: The London Protocol of 1830 establishes the full independence and sovereignty of Greece from the Ottoman Empire as the final result of the Greek War of Independence.",
+      "category": "space",
+      "categoryName": "Space",
+      "year": 1995,
+      "title": "Eileen Collins",
+      "body": "Astronaut Eileen Collins becomes the first woman to pilot the Space Shuttle as mission STS-63 gets underway from Kennedy Space Center in Florida.",
       "source": {
-        "name": "Wikipedia · London Protocol (1830)",
-        "url": "https://en.wikipedia.org/wiki/London_Protocol_(1830)",
+        "name": "Wikipedia · Eileen Collins",
+        "url": "https://en.wikipedia.org/wiki/Eileen_Collins",
         "calendarUrl": "https://en.wikipedia.org/wiki/February_3",
         "license": {
           "name": "CC BY-SA 4.0",
@@ -78,12 +75,12 @@
         }
       },
       "image": {
-        "src": "https://upload.wikimedia.org/wikipedia/commons/5/5c/%CE%A0%CF%81%CF%89%CF%84%CE%BF%CE%BA%CE%BF%CE%BB%CE%BB%CE%BF_%CE%B1%CE%BD%CE%B5%CE%BE%CE%B1%CF%81%CF%84%CE%B7%CF%83%CE%AF%CE%B1%CF%82.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
-        "alt": "Image related to London Protocol of 1830.",
-        "credit": "Ludwig Michael von Schwanthaler",
-        "source": "https://commons.wikimedia.org/wiki/File:%CE%A0%CF%81%CF%89%CF%84%CE%BF%CE%BA%CE%BF%CE%BB%CE%BB%CE%BF_%CE%B1%CE%BD%CE%B5%CE%BE%CE%B1%CF%81%CF%84%CE%B7%CF%83%CE%AF%CE%B1%CF%82.jpg",
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/88/Commander_Eileen_Collins_-_GPN-2000-001177.jpg/1280px-Commander_Eileen_Collins_-_GPN-2000-001177.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "alt": "Picture from the Wikipedia article on Eileen Collins.",
+        "credit": "Robert Markowitz",
+        "source": "https://commons.wikimedia.org/wiki/File:Commander_Eileen_Collins_-_GPN-2000-001177.jpg",
         "license": "Public domain",
-        "licenseUrl": "https://commons.wikimedia.org/wiki/File:%CE%A0%CF%81%CF%89%CF%84%CE%BF%CE%BA%CE%BF%CE%BB%CE%BB%CE%BF_%CE%B1%CE%BD%CE%B5%CE%BE%CE%B1%CF%81%CF%84%CE%B7%CF%83%CE%AF%CE%B1%CF%82.jpg"
+        "licenseUrl": "https://commons.wikimedia.org/wiki/File:Commander_Eileen_Collins_-_GPN-2000-001177.jpg"
       }
     }
   ]

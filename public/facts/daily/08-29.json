@@ -3,18 +3,17 @@
   "dateLabel": "29 August",
   "facts": [
     {
-      "id": "08-29-spain-battle-of-winchelsea",
+      "id": "08-29-gemini-5",
       "date": "08-29",
       "dateLabel": "29 August",
-      "country": "spain",
-      "countryName": "Spain",
-      "kind": "events",
-      "year": 1350,
-      "title": "Battle of Winchelsea",
-      "body": "1350: Battle of Winchelsea (or Les Espagnols sur Mer): The English naval fleet under King Edward III defeats a Castilian fleet of 40 ships.",
+      "category": "space",
+      "categoryName": "Space",
+      "year": 1965,
+      "title": "Gemini 5",
+      "body": "The Gemini V spacecraft returns to Earth, landing in the Atlantic Ocean.",
       "source": {
-        "name": "Wikipedia · Battle of Winchelsea",
-        "url": "https://en.wikipedia.org/wiki/Battle_of_Winchelsea",
+        "name": "Wikipedia · Gemini 5",
+        "url": "https://en.wikipedia.org/wiki/Gemini_5",
         "calendarUrl": "https://en.wikipedia.org/wiki/August_29",
         "license": {
           "name": "CC BY-SA 4.0",
@@ -22,27 +21,26 @@
         }
       },
       "image": {
-        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/bf/BattleofSluys.jpeg/1280px-BattleofSluys.jpeg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-        "alt": "Image related to Battle of Winchelsea.",
-        "credit": "Loyset Liédet",
-        "source": "https://commons.wikimedia.org/wiki/File:BattleofSluys.jpeg",
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/78/S65-45753.jpg/1280px-S65-45753.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "alt": "Picture from the Wikipedia article on Gemini 5.",
+        "credit": "NASA",
+        "source": "https://commons.wikimedia.org/wiki/File:S65-45753.jpg",
         "license": "Public domain",
-        "licenseUrl": "https://commons.wikimedia.org/wiki/File:BattleofSluys.jpeg"
+        "licenseUrl": "https://commons.wikimedia.org/wiki/File:S65-45753.jpg"
       }
     },
     {
-      "id": "08-29-denmark-arthur-wellesley-1st-duke-of-wellington",
+      "id": "08-29-gottlieb-daimler",
       "date": "08-29",
       "dateLabel": "29 August",
-      "country": "denmark",
-      "countryName": "Denmark",
-      "kind": "events",
-      "year": 1807,
-      "title": "Arthur Wellesley",
-      "body": "1807: British troops under Sir Arthur Wellesley defeat a Danish militia outside Copenhagen in the Battle of Køge.",
+      "category": "science",
+      "categoryName": "Science",
+      "year": 1885,
+      "title": "Gottlieb Daimler",
+      "body": "Gottlieb Daimler patents the world's first motorcycle with an internal combustion engine, the Reitwagen.",
       "source": {
-        "name": "Wikipedia · Arthur Wellesley, 1st Duke of Wellington",
-        "url": "https://en.wikipedia.org/wiki/Arthur_Wellesley%2C_1st_Duke_of_Wellington",
+        "name": "Wikipedia · Gottlieb Daimler",
+        "url": "https://en.wikipedia.org/wiki/Gottlieb_Daimler",
         "calendarUrl": "https://en.wikipedia.org/wiki/August_29",
         "license": {
           "name": "CC BY-SA 4.0",
@@ -50,27 +48,26 @@
         }
       },
       "image": {
-        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/cb/Sir_Arthur_Wellesley%2C_1st_Duke_of_Wellington.jpg/1280px-Sir_Arthur_Wellesley%2C_1st_Duke_of_Wellington.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-        "alt": "Image related to Arthur Wellesley.",
-        "credit": "Thomas Lawrence",
-        "source": "https://commons.wikimedia.org/wiki/File:Sir_Arthur_Wellesley,_1st_Duke_of_Wellington.jpg",
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/5b/Gottlieb_Daimler_1890s2.jpg/1280px-Gottlieb_Daimler_1890s2.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "alt": "Picture from the Wikipedia article on Gottlieb Daimler.",
+        "credit": "Unknown author",
+        "source": "https://commons.wikimedia.org/wiki/File:Gottlieb_Daimler_1890s2.jpg",
         "license": "Public domain",
-        "licenseUrl": "https://commons.wikimedia.org/wiki/File:Sir_Arthur_Wellesley,_1st_Duke_of_Wellington.jpg"
+        "licenseUrl": "https://commons.wikimedia.org/wiki/File:Gottlieb_Daimler_1890s2.jpg"
       }
     },
     {
-      "id": "08-29-greece-melite-ancient-city",
+      "id": "08-29-the-beatles",
       "date": "08-29",
       "dateLabel": "29 August",
-      "country": "greece",
-      "countryName": "Greece",
-      "kind": "events",
-      "year": 870,
-      "title": "Melite",
-      "body": "870: The city of Melite surrenders to an Aghlabid army following a siege, putting an end to Byzantine Malta.",
+      "category": "culture",
+      "categoryName": "Culture",
+      "year": 1966,
+      "title": "The Beatles",
+      "body": "The Beatles perform their last concert before paying fans at Candlestick Park in San Francisco.",
       "source": {
-        "name": "Wikipedia · Melite (ancient city)",
-        "url": "https://en.wikipedia.org/wiki/Melite_(ancient_city)",
+        "name": "Wikipedia · The Beatles",
+        "url": "https://en.wikipedia.org/wiki/The_Beatles",
         "calendarUrl": "https://en.wikipedia.org/wiki/August_29",
         "license": {
           "name": "CC BY-SA 4.0",
@@ -78,12 +75,12 @@
         }
       },
       "image": {
-        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/97/Malta_-_Mdina_-_Wesgha_tal-Muzew_-_Domus_Romana_out_01_ies.jpg/1280px-Malta_-_Mdina_-_Wesgha_tal-Muzew_-_Domus_Romana_out_01_ies.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-        "alt": "Image related to Melite.",
-        "credit": "Frank Vincentz",
-        "source": "https://commons.wikimedia.org/wiki/File:Malta_-_Mdina_-_Wesgha_tal-Muzew_-_Domus_Romana_out_01_ies.jpg",
-        "license": "CC BY-SA 3.0",
-        "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0"
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/42/The_Beatles_1963_Dezo_Hoffman_Capitol_Records_press_photo_2.jpg/1280px-The_Beatles_1963_Dezo_Hoffman_Capitol_Records_press_photo_2.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "alt": "Picture from the Wikipedia article on The Beatles.",
+        "credit": "Dezo Hoffmann, Distributed by Capitol Records",
+        "source": "https://commons.wikimedia.org/wiki/File:The_Beatles_1963_Dezo_Hoffman_Capitol_Records_press_photo_2.jpg",
+        "license": "Public domain",
+        "licenseUrl": "https://commons.wikimedia.org/wiki/File:The_Beatles_1963_Dezo_Hoffman_Capitol_Records_press_photo_2.jpg"
       }
     }
   ]

@@ -3,18 +3,17 @@
   "dateLabel": "22 July",
   "facts": [
     {
-      "id": "07-22-spain-battle-of-santa-cruz-de-tenerife-1797",
+      "id": "07-22-dezik-and-tsygan",
       "date": "07-22",
       "dateLabel": "22 July",
-      "country": "spain",
-      "countryName": "Spain",
-      "kind": "events",
-      "year": 1797,
-      "title": "Battle of Santa Cruz de Tenerife",
-      "body": "1797: Battle of Santa Cruz de Tenerife: Battle between Spanish and British naval forces during the French Revolutionary Wars. During the Battle, Rear-Admiral Nelson is wounded in the arm and the arm had to be partially amputated.",
+      "category": "space",
+      "categoryName": "Space",
+      "year": 1951,
+      "title": "Dezik and Tsygan",
+      "body": "Dezik and Tsygan were launched into a sub-orbital spaceflight from Kapustin Yar and became the first dogs to fly in space and the first to safely return.",
       "source": {
-        "name": "Wikipedia · Battle of Santa Cruz de Tenerife (1797)",
-        "url": "https://en.wikipedia.org/wiki/Battle_of_Santa_Cruz_de_Tenerife_(1797)",
+        "name": "Wikipedia · Dezik and Tsygan",
+        "url": "https://en.wikipedia.org/wiki/Dezik_and_Tsygan",
         "calendarUrl": "https://en.wikipedia.org/wiki/July_22",
         "license": {
           "name": "CC BY-SA 4.0",
@@ -22,27 +21,26 @@
         }
       },
       "image": {
-        "src": "https://upload.wikimedia.org/wikipedia/commons/0/09/Ataque_brit%C3%A1nico_en_Santa_Cruz_de_Tenerife.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
-        "alt": "Image related to Battle of Santa Cruz de Tenerife.",
-        "credit": "Francisco de Aguilar",
-        "source": "https://commons.wikimedia.org/wiki/File:Ataque_brit%C3%A1nico_en_Santa_Cruz_de_Tenerife.jpg",
-        "license": "Public domain",
-        "licenseUrl": "https://commons.wikimedia.org/wiki/File:Ataque_brit%C3%A1nico_en_Santa_Cruz_de_Tenerife.jpg"
+        "src": "https://upload.wikimedia.org/wikipedia/commons/6/64/Russian_space_dog_box.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+        "alt": "Picture from the Wikipedia article on Dezik and Tsygan.",
+        "credit": "Wikimedia Commons contributor",
+        "source": "https://commons.wikimedia.org/wiki/File:Russian_space_dog_box.jpg",
+        "license": "CC BY-SA 3.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0/"
       }
     },
     {
-      "id": "07-22-denmark-valdemar-ii-of-denmark",
+      "id": "07-22-medell-n",
       "date": "07-22",
       "dateLabel": "22 July",
-      "country": "denmark",
-      "countryName": "Denmark",
-      "kind": "events",
-      "year": 1227,
-      "title": "Valdemar II of Denmark",
-      "body": "1227: A coalition of north-east German towns, counts and princes defeats King Valdemar II of Denmark in the Battle of Bornhöved.",
+      "category": "curious",
+      "categoryName": "Curious",
+      "year": 1992,
+      "title": "Medellín",
+      "body": "Near Medellín, Colombian drug lord Pablo Escobar escapes from his luxury prison fearing extradition to the United States.",
       "source": {
-        "name": "Wikipedia · Valdemar II of Denmark",
-        "url": "https://en.wikipedia.org/wiki/Valdemar_II_of_Denmark",
+        "name": "Wikipedia · Medellín",
+        "url": "https://en.wikipedia.org/wiki/Medell%C3%ADn",
         "calendarUrl": "https://en.wikipedia.org/wiki/July_22",
         "license": {
           "name": "CC BY-SA 4.0",
@@ -50,27 +48,26 @@
         }
       },
       "image": {
-        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/5e/Coin_minted_for_king_Valdemar_II_of_Denmark%2C_Valdemar_II_Sejr.jpg/1280px-Coin_minted_for_king_Valdemar_II_of_Denmark%2C_Valdemar_II_Sejr.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-        "alt": "Image related to Valdemar II of Denmark.",
-        "credit": "Hedning",
-        "source": "https://commons.wikimedia.org/wiki/File:Coin_minted_for_king_Valdemar_II_of_Denmark,_Valdemar_II_Sejr.jpg",
-        "license": "CC BY-SA 3.0",
-        "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0"
+        "src": "https://upload.wikimedia.org/wikipedia/commons/e/e4/El_Poblado_Medell%C3%ADn.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+        "alt": "Picture from the Wikipedia article on Medellín.",
+        "credit": "Daniel-1-1",
+        "source": "https://commons.wikimedia.org/wiki/File:El_Poblado_Medell%C3%ADn.jpg",
+        "license": "CC BY 3.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by/3.0"
       }
     },
     {
-      "id": "07-22-greece-battle-of-anzen",
+      "id": "07-22-blue-water-bridge",
       "date": "07-22",
       "dateLabel": "22 July",
-      "country": "greece",
-      "countryName": "Greece",
-      "kind": "events",
-      "year": 838,
-      "title": "Battle of Anzen",
-      "body": "838: Battle of Anzen: The Byzantine emperor Theophilos suffers a heavy defeat by the Abbasids.",
+      "category": "world",
+      "categoryName": "World",
+      "year": 1997,
+      "title": "Blue Water Bridge",
+      "body": "The second Blue Water Bridge opens between Port Huron, Michigan and Sarnia, Ontario.",
       "source": {
-        "name": "Wikipedia · Battle of Anzen",
-        "url": "https://en.wikipedia.org/wiki/Battle_of_Anzen",
+        "name": "Wikipedia · Blue Water Bridge",
+        "url": "https://en.wikipedia.org/wiki/Blue_Water_Bridge",
         "calendarUrl": "https://en.wikipedia.org/wiki/July_22",
         "license": {
           "name": "CC BY-SA 4.0",
@@ -78,12 +75,12 @@
         }
       },
       "image": {
-        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/3e/Byzantine-Arab_wars%2C_837-838.svg/1280px-Byzantine-Arab_wars%2C_837-838.svg.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-        "alt": "Image related to Battle of Anzen.",
-        "credit": "Cplakidas",
-        "source": "https://commons.wikimedia.org/wiki/File:Byzantine-Arab_wars,_837-838.svg",
-        "license": "CC BY-SA 3.0",
-        "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0"
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/96/Blue_Water_Bridge_2025k.jpg/1280px-Blue_Water_Bridge_2025k.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "alt": "Picture from the Wikipedia article on Blue Water Bridge.",
+        "credit": "Antony-22",
+        "source": "https://commons.wikimedia.org/wiki/File:Blue_Water_Bridge_2025k.jpg",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0"
       }
     }
   ]

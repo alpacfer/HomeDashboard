@@ -3,18 +3,17 @@
   "dateLabel": "29 May",
   "facts": [
     {
-      "id": "05-29-spain-battle-of-ucl-s-1108",
+      "id": "05-29-space-shuttle-discovery",
       "date": "05-29",
       "dateLabel": "29 May",
-      "country": "spain",
-      "countryName": "Spain",
-      "kind": "events",
-      "year": 1108,
-      "title": "Battle of Uclés",
-      "body": "1108: Battle of Uclés: Almoravid troops under the command of Tamim ibn Yusuf defeat a Castile and León alliance under the command of Prince Sancho Alfónsez.",
+      "category": "space",
+      "categoryName": "Space",
+      "year": 1999,
+      "title": "Space Shuttle Discovery",
+      "body": "Space Shuttle Discovery completes the first docking with the International Space Station.",
       "source": {
-        "name": "Wikipedia · Battle of Uclés (1108)",
-        "url": "https://en.wikipedia.org/wiki/Battle_of_Ucl%C3%A9s_(1108)",
+        "name": "Wikipedia · Space Shuttle Discovery",
+        "url": "https://en.wikipedia.org/wiki/Space_Shuttle_Discovery",
         "calendarUrl": "https://en.wikipedia.org/wiki/May_29",
         "license": {
           "name": "CC BY-SA 4.0",
@@ -22,55 +21,26 @@
         }
       },
       "image": {
-        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/0a/Campo_batallas_Ucl%C3%A9s.jpg/1280px-Campo_batallas_Ucl%C3%A9s.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-        "alt": "Image related to Battle of Uclés.",
-        "credit": "Tribiwiki",
-        "source": "https://commons.wikimedia.org/wiki/File:Campo_batallas_Ucl%C3%A9s.jpg",
-        "license": "CC BY-SA 4.0",
-        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0"
-      }
-    },
-    {
-      "id": "05-29-denmark-lars-bo",
-      "date": "05-29",
-      "dateLabel": "29 May",
-      "country": "denmark",
-      "countryName": "Denmark",
-      "kind": "births",
-      "year": 1924,
-      "title": "Lars Bo",
-      "body": "Lars Bo, Danish author and illustrator (died 1999), was born on this day in 1924.",
-      "source": {
-        "name": "Wikipedia · Lars Bo",
-        "url": "https://en.wikipedia.org/wiki/Lars_Bo",
-        "calendarUrl": "https://en.wikipedia.org/wiki/May_29",
-        "license": {
-          "name": "CC BY-SA 4.0",
-          "url": "https://creativecommons.org/licenses/by-sa/4.0/"
-        }
-      },
-      "image": {
-        "src": "https://commons.wikimedia.org/wiki/Special:Redirect/file/Flag_of_Denmark.svg?width=1000",
-        "alt": "The national flag of Denmark.",
-        "credit": "Danish government",
-        "source": "https://commons.wikimedia.org/wiki/File:Flag_of_Denmark.svg",
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/1d/STS-133_Space_Shuttle_Discovery_after_undocking_3_%28cropped%29.jpg/1280px-STS-133_Space_Shuttle_Discovery_after_undocking_3_%28cropped%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "alt": "Picture from the Wikipedia article on Space Shuttle Discovery.",
+        "credit": "NASA",
+        "source": "https://commons.wikimedia.org/wiki/File:STS-133_Space_Shuttle_Discovery_after_undocking_3_(cropped).jpg",
         "license": "Public domain",
-        "licenseUrl": "https://commons.wikimedia.org/wiki/File:Flag_of_Denmark.svg"
+        "licenseUrl": "https://commons.wikimedia.org/wiki/File:STS-133_Space_Shuttle_Discovery_after_undocking_3_(cropped).jpg"
       }
     },
     {
-      "id": "05-29-greece-fall-of-constantinople",
+      "id": "05-29-st-roch-ship",
       "date": "05-29",
       "dateLabel": "29 May",
-      "country": "greece",
-      "countryName": "Greece",
-      "kind": "events",
-      "year": 1453,
-      "title": "Fall of Constantinople",
-      "body": "1453: Fall of Constantinople: Ottoman armies under Sultan Mehmed II capture Constantinople after a 53-day siege, ending the Roman Empire after over 2,000 years.",
+      "category": "world",
+      "categoryName": "World",
+      "year": 1950,
+      "title": "St. Roch",
+      "body": "The St. Roch, the first ship to circumnavigate North America, arrives in Halifax, Nova Scotia, Canada.",
       "source": {
-        "name": "Wikipedia · Fall of Constantinople",
-        "url": "https://en.wikipedia.org/wiki/Fall_of_Constantinople",
+        "name": "Wikipedia · St. Roch (ship)",
+        "url": "https://en.wikipedia.org/wiki/St._Roch_(ship)",
         "calendarUrl": "https://en.wikipedia.org/wiki/May_29",
         "license": {
           "name": "CC BY-SA 4.0",
@@ -78,12 +48,39 @@
         }
       },
       "image": {
-        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a7/Siege_of_Constantinople_fresco%2C_Moldovi%C8%9Ba_monastery%2C_Vatra_Moldovi%C8%9Bei%2C_2017.jpg/1280px-Siege_of_Constantinople_fresco%2C_Moldovi%C8%9Ba_monastery%2C_Vatra_Moldovi%C8%9Bei%2C_2017.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-        "alt": "Image related to Fall of Constantinople.",
-        "credit": "DimiTalen",
-        "source": "https://commons.wikimedia.org/wiki/File:Siege_of_Constantinople_fresco,_Moldovi%C8%9Ba_monastery,_Vatra_Moldovi%C8%9Bei,_2017.jpg",
-        "license": "CC0",
-        "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/deed.en"
+        "src": "https://upload.wikimedia.org/wikipedia/commons/0/0b/St._Roch_schooner_wintering_in_the_Beaufort_Sea.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+        "alt": "Picture from the Wikipedia article on St. Roch.",
+        "credit": "Jules-Ernest Livernois",
+        "source": "https://commons.wikimedia.org/wiki/File:St._Roch_schooner_wintering_in_the_Beaufort_Sea.jpg",
+        "license": "Public domain",
+        "licenseUrl": "https://commons.wikimedia.org/wiki/File:St._Roch_schooner_wintering_in_the_Beaufort_Sea.jpg"
+      }
+    },
+    {
+      "id": "05-29-edmund-hillary",
+      "date": "05-29",
+      "dateLabel": "29 May",
+      "category": "science",
+      "categoryName": "Science",
+      "year": 1953,
+      "title": "Edmund Hillary",
+      "body": "Edmund Hillary and Sherpa Tenzing Norgay become the first people to reach the summit of Mount Everest, on Tenzing Norgay's (adopted) 39th birthday.",
+      "source": {
+        "name": "Wikipedia · Edmund Hillary",
+        "url": "https://en.wikipedia.org/wiki/Edmund_Hillary",
+        "calendarUrl": "https://en.wikipedia.org/wiki/May_29",
+        "license": {
+          "name": "CC BY-SA 4.0",
+          "url": "https://creativecommons.org/licenses/by-sa/4.0/"
+        }
+      },
+      "image": {
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/76/Edmund_Hillary%2C_c._1953%2C_autograph_removed.jpg/1280px-Edmund_Hillary%2C_c._1953%2C_autograph_removed.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "alt": "Picture from the Wikipedia article on Edmund Hillary.",
+        "credit": "Photographer unidentified. Retouched by TimofKingsland.",
+        "source": "https://commons.wikimedia.org/wiki/File:Edmund_Hillary,_c._1953,_autograph_removed.jpg",
+        "license": "Public domain",
+        "licenseUrl": "https://commons.wikimedia.org/wiki/File:Edmund_Hillary,_c._1953,_autograph_removed.jpg"
       }
     }
   ]

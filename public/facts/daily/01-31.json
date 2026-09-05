@@ -3,18 +3,17 @@
   "dateLabel": "31 January",
   "facts": [
     {
-      "id": "01-31-spain-mud-jar",
+      "id": "01-31-doug-williams-quarterback",
       "date": "01-31",
       "dateLabel": "31 January",
-      "country": "spain",
-      "countryName": "Spain",
-      "kind": "events",
-      "year": 1266,
-      "title": "Mudéjar",
-      "body": "1266: The Mudéjar of Murcia, who had rebelled against the Crown of Castile during the Mudéjar revolt of 1264–1266, surrender the city to James I of Aragon after a siege lasting a month.",
+      "category": "sport",
+      "categoryName": "Sport",
+      "year": 1988,
+      "title": "Doug Williams",
+      "body": "Doug Williams becomes the first African American quarterback to play in a Super Bowl and leads the Washington Redskins to victory in Super Bowl XXII.",
       "source": {
-        "name": "Wikipedia · Mudéjar",
-        "url": "https://en.wikipedia.org/wiki/Mud%C3%A9jar",
+        "name": "Wikipedia · Doug Williams (quarterback)",
+        "url": "https://en.wikipedia.org/wiki/Doug_Williams_(quarterback)",
         "calendarUrl": "https://en.wikipedia.org/wiki/January_31",
         "license": {
           "name": "CC BY-SA 4.0",
@@ -22,55 +21,26 @@
         }
       },
       "image": {
-        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/3c/Torre_de_El_Salvador._Teruel.jpg/1280px-Torre_de_El_Salvador._Teruel.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-        "alt": "Image related to Mudéjar.",
-        "credit": "Tagarino",
-        "source": "https://commons.wikimedia.org/wiki/File:Torre_de_El_Salvador._Teruel.jpg",
-        "license": "CC BY-SA 3.0",
-        "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0"
-      }
-    },
-    {
-      "id": "01-31-denmark-kenneth-zohore",
-      "date": "01-31",
-      "dateLabel": "31 January",
-      "country": "denmark",
-      "countryName": "Denmark",
-      "kind": "births",
-      "year": 1994,
-      "title": "Kenneth Zohore",
-      "body": "Kenneth Zohore, Danish footballer, was born on this day in 1994.",
-      "source": {
-        "name": "Wikipedia · Kenneth Zohore",
-        "url": "https://en.wikipedia.org/wiki/Kenneth_Zohore",
-        "calendarUrl": "https://en.wikipedia.org/wiki/January_31",
-        "license": {
-          "name": "CC BY-SA 4.0",
-          "url": "https://creativecommons.org/licenses/by-sa/4.0/"
-        }
-      },
-      "image": {
-        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/0c/Kenneth_Zohore.jpg/1280px-Kenneth_Zohore.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-        "alt": "Portrait or image of Kenneth Zohore.",
-        "credit": "Jon Candy from Cardiff, Wales",
-        "source": "https://commons.wikimedia.org/wiki/File:Kenneth_Zohore.jpg",
+        "src": "https://upload.wikimedia.org/wikipedia/commons/f/f7/Doug_Williams_at_Washington_Charity_Golf_Classic_2021.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+        "alt": "Picture from the Wikipedia article on Doug Williams.",
+        "credit": "All-Pro Reels from District of Columbia, USA",
+        "source": "https://commons.wikimedia.org/wiki/File:Doug_Williams_at_Washington_Charity_Golf_Classic_2021.jpg",
         "license": "CC BY-SA 2.0",
         "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0"
       }
     },
     {
-      "id": "01-31-greece-giorgos-gasparis-basketball",
+      "id": "01-31-explorer-1",
       "date": "01-31",
       "dateLabel": "31 January",
-      "country": "greece",
-      "countryName": "Greece",
-      "kind": "births",
-      "year": 1965,
-      "title": "Giorgos Gasparis",
-      "body": "Giorgos Gasparis, Greek basketball player and coach, was born on this day in 1965.",
+      "category": "space",
+      "categoryName": "Space",
+      "year": 1958,
+      "title": "Explorer 1",
+      "body": "The Explorer 1, the first successful American satellite, detects the Van Allen radiation belt.",
       "source": {
-        "name": "Wikipedia · Greece men's national basketball team",
-        "url": "https://en.wikipedia.org/wiki/Greece_men's_national_basketball_team",
+        "name": "Wikipedia · Explorer 1",
+        "url": "https://en.wikipedia.org/wiki/Explorer_1",
         "calendarUrl": "https://en.wikipedia.org/wiki/January_31",
         "license": {
           "name": "CC BY-SA 4.0",
@@ -78,12 +48,39 @@
         }
       },
       "image": {
-        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/5c/Flag_of_Greece.svg/1280px-Flag_of_Greece.svg.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-        "alt": "Portrait or image of Giorgos Gasparis.",
-        "credit": "Unknown authorUnknown author",
-        "source": "https://commons.wikimedia.org/wiki/File:Flag_of_Greece.svg",
+        "src": "https://upload.wikimedia.org/wikipedia/commons/7/73/Explorer1.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+        "alt": "Picture from the Wikipedia article on Explorer 1.",
+        "credit": "NASA",
+        "source": "https://commons.wikimedia.org/wiki/File:Explorer1.jpg",
         "license": "Public domain",
-        "licenseUrl": "https://commons.wikimedia.org/wiki/File:Flag_of_Greece.svg"
+        "licenseUrl": "https://commons.wikimedia.org/wiki/File:Explorer1.jpg"
+      }
+    },
+    {
+      "id": "01-31-anton-chekhov",
+      "date": "01-31",
+      "dateLabel": "31 January",
+      "category": "world",
+      "categoryName": "World",
+      "year": 1901,
+      "title": "Anton Chekhov",
+      "body": "Anton Chekhov's Three Sisters premieres at Moscow Art Theatre in Russia.",
+      "source": {
+        "name": "Wikipedia · Anton Chekhov",
+        "url": "https://en.wikipedia.org/wiki/Anton_Chekhov",
+        "calendarUrl": "https://en.wikipedia.org/wiki/January_31",
+        "license": {
+          "name": "CC BY-SA 4.0",
+          "url": "https://creativecommons.org/licenses/by-sa/4.0/"
+        }
+      },
+      "image": {
+        "src": "https://upload.wikimedia.org/wikipedia/commons/9/93/Anton_Chekhov_1889.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+        "alt": "Picture from the Wikipedia article on Anton Chekhov.",
+        "credit": "V. Chekhovskii, Moscow",
+        "source": "https://commons.wikimedia.org/wiki/File:Anton_Chekhov_1889.jpg",
+        "license": "Public domain",
+        "licenseUrl": "https://commons.wikimedia.org/wiki/File:Anton_Chekhov_1889.jpg"
       }
     }
   ]

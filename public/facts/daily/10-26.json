@@ -3,46 +3,17 @@
   "dateLabel": "26 October",
   "facts": [
     {
-      "id": "10-26-spain-daylight",
+      "id": "10-26-rockstar-games",
       "date": "10-26",
       "dateLabel": "26 October",
-      "country": "spain",
-      "countryName": "Spain",
-      "kind": "daylight",
-      "year": 0,
-      "title": "Madrid's daylight",
-      "body": "On 26 October, Madrid gets about 10 hours and 35 minutes of daylight.",
+      "category": "tech",
+      "categoryName": "Tech",
+      "year": 2004,
+      "title": "Rockstar Games",
+      "body": "Rockstar Games releases Grand Theft Auto: San Andreas for the PlayStation 2 in North America, which sold 12 million units for the PS2, becoming the console's best-selling video game.",
       "source": {
-        "name": "NOAA Solar Calculator",
-        "url": "https://gml.noaa.gov/grad/solcalc/",
-        "calendarUrl": "https://gml.noaa.gov/grad/solcalc/calcdetails.html",
-        "license": {
-          "name": "public-domain NOAA method",
-          "url": "https://www.noaa.gov/disclaimer"
-        }
-      },
-      "image": {
-        "src": "https://commons.wikimedia.org/wiki/Special:Redirect/file/Flag_of_Spain.svg?width=1000",
-        "alt": "The national flag of Spain.",
-        "credit": "Government of Spain",
-        "source": "https://commons.wikimedia.org/wiki/File:Flag_of_Spain.svg",
-        "license": "Public domain",
-        "licenseUrl": "https://commons.wikimedia.org/wiki/File:Flag_of_Spain.svg"
-      }
-    },
-    {
-      "id": "10-26-denmark-thorvald-stauning",
-      "date": "10-26",
-      "dateLabel": "26 October",
-      "country": "denmark",
-      "countryName": "Denmark",
-      "kind": "births",
-      "year": 1873,
-      "title": "Thorvald Stauning",
-      "body": "Thorvald Stauning, Danish union leader and politician, 24th Prime Minister of Denmark (died 1942), was born on this day in 1873.",
-      "source": {
-        "name": "Wikipedia · Thorvald Stauning",
-        "url": "https://en.wikipedia.org/wiki/Thorvald_Stauning",
+        "name": "Wikipedia · Rockstar Games",
+        "url": "https://en.wikipedia.org/wiki/Rockstar_Games",
         "calendarUrl": "https://en.wikipedia.org/wiki/October_26",
         "license": {
           "name": "CC BY-SA 4.0",
@@ -50,27 +21,26 @@
         }
       },
       "image": {
-        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e5/Stauning_i1920-erne.jpg/1280px-Stauning_i1920-erne.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-        "alt": "Portrait or image of Thorvald Stauning.",
-        "credit": "Francis Zachariae (1852–1936)",
-        "source": "https://commons.wikimedia.org/wiki/File:Stauning_i1920-erne.jpg",
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/53/Rockstar_Games_Logo.svg/1280px-Rockstar_Games_Logo.svg.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "alt": "Picture from the Wikipedia article on Rockstar Games.",
+        "credit": "Take-Two Interativa de",
+        "source": "https://commons.wikimedia.org/wiki/File:Rockstar_Games_Logo.svg",
         "license": "Public domain",
-        "licenseUrl": "https://commons.wikimedia.org/wiki/File:Stauning_i1920-erne.jpg"
+        "licenseUrl": "https://commons.wikimedia.org/wiki/File:Rockstar_Games_Logo.svg"
       }
     },
     {
-      "id": "10-26-greece-uprising-of-asen-and-peter",
+      "id": "10-26-pan-am",
       "date": "10-26",
       "dateLabel": "26 October",
-      "country": "greece",
-      "countryName": "Greece",
-      "kind": "events",
-      "year": 1185,
-      "title": "Uprising of Asen and Peter",
-      "body": "1185: The Uprising of Asen and Peter begins on the feast day of St. Demetrius of Thessaloniki and ends with the creation of the Second Bulgarian Empire.",
+      "category": "world",
+      "categoryName": "World",
+      "year": 1958,
+      "title": "Pan Am",
+      "body": "Pan American Airways makes the first commercial flight of the Boeing 707 from New York City to Paris.",
       "source": {
-        "name": "Wikipedia · Uprising of Asen and Peter",
-        "url": "https://en.wikipedia.org/wiki/Uprising_of_Asen_and_Peter",
+        "name": "Wikipedia · Pan Am",
+        "url": "https://en.wikipedia.org/wiki/Pan_Am",
         "calendarUrl": "https://en.wikipedia.org/wiki/October_26",
         "license": {
           "name": "CC BY-SA 4.0",
@@ -78,12 +48,39 @@
         }
       },
       "image": {
-        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/cb/Second_Bulgarian_Empire_%281185-1196%29.png/1280px-Second_Bulgarian_Empire_%281185-1196%29.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-        "alt": "Image related to Uprising of Asen and Peter.",
-        "credit": "Kandi",
-        "source": "https://commons.wikimedia.org/wiki/File:Second_Bulgarian_Empire_(1185-1196).png",
-        "license": "CC BY-SA 4.0",
-        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0"
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/3a/Pan_Am_Logo.svg/1280px-Pan_Am_Logo.svg.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "alt": "Picture from the Wikipedia article on Pan Am.",
+        "credit": "Pan Am Systems",
+        "source": "https://commons.wikimedia.org/wiki/File:Pan_Am_Logo.svg",
+        "license": "Public domain",
+        "licenseUrl": "https://commons.wikimedia.org/wiki/File:Pan_Am_Logo.svg"
+      }
+    },
+    {
+      "id": "10-26-expedition-of-the-thousand",
+      "date": "10-26",
+      "dateLabel": "26 October",
+      "category": "science",
+      "categoryName": "Science",
+      "year": 1860,
+      "title": "Expedition of the Thousand",
+      "body": "The Expedition of the Thousand ends when Giuseppe Garibaldi presents his conquests to King Victor Emmanuel of Sardinia.",
+      "source": {
+        "name": "Wikipedia · Expedition of the Thousand",
+        "url": "https://en.wikipedia.org/wiki/Expedition_of_the_Thousand",
+        "calendarUrl": "https://en.wikipedia.org/wiki/October_26",
+        "license": {
+          "name": "CC BY-SA 4.0",
+          "url": "https://creativecommons.org/licenses/by-sa/4.0/"
+        }
+      },
+      "image": {
+        "src": "https://upload.wikimedia.org/wikipedia/commons/c/c3/Partenza_da_Quarto.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+        "alt": "Picture from the Wikipedia article on Expedition of the Thousand.",
+        "credit": "Unknown author",
+        "source": "https://commons.wikimedia.org/wiki/File:Partenza_da_Quarto.jpg",
+        "license": "Public domain",
+        "licenseUrl": "https://commons.wikimedia.org/wiki/File:Partenza_da_Quarto.jpg"
       }
     }
   ]

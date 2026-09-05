@@ -3,18 +3,17 @@
   "dateLabel": "31 July",
   "facts": [
     {
-      "id": "07-31-spain-alhambra-decree",
+      "id": "07-31-apollo-15",
       "date": "07-31",
       "dateLabel": "31 July",
-      "country": "spain",
-      "countryName": "Spain",
-      "kind": "events",
-      "year": 1492,
-      "title": "Alhambra Decree",
-      "body": "1492: All remaining Jews are expelled from Spain when the Alhambra Decree takes effect.",
+      "category": "space",
+      "categoryName": "Space",
+      "year": 1971,
+      "title": "Apollo 15",
+      "body": "The Apollo 15 astronauts become the first to ride in a lunar rover.",
       "source": {
-        "name": "Wikipedia · Alhambra Decree",
-        "url": "https://en.wikipedia.org/wiki/Alhambra_Decree",
+        "name": "Wikipedia · Apollo 15",
+        "url": "https://en.wikipedia.org/wiki/Apollo_15",
         "calendarUrl": "https://en.wikipedia.org/wiki/July_31",
         "license": {
           "name": "CC BY-SA 4.0",
@@ -22,27 +21,26 @@
         }
       },
       "image": {
-        "src": "https://upload.wikimedia.org/wikipedia/commons/c/c1/Spanishhaggadah.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
-        "alt": "Image related to Alhambra Decree.",
-        "credit": "Unknown authorUnknown author",
-        "source": "https://commons.wikimedia.org/wiki/File:Spanishhaggadah.jpg",
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/62/AS15-88-11866_-_Apollo_15_flag%2C_rover%2C_LM%2C_Irwin_-_restoration1.jpg/1280px-AS15-88-11866_-_Apollo_15_flag%2C_rover%2C_LM%2C_Irwin_-_restoration1.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "alt": "Picture from the Wikipedia article on Apollo 15.",
+        "credit": "NASA Johnson Space Center Restored by Bammesk",
+        "source": "https://commons.wikimedia.org/wiki/File:AS15-88-11866_-_Apollo_15_flag,_rover,_LM,_Irwin_-_restoration1.jpg",
         "license": "Public domain",
-        "licenseUrl": "https://commons.wikimedia.org/wiki/File:Spanishhaggadah.jpg"
+        "licenseUrl": "https://commons.wikimedia.org/wiki/File:AS15-88-11866_-_Apollo_15_flag,_rover,_LM,_Irwin_-_restoration1.jpg"
       }
     },
     {
-      "id": "07-31-denmark-christchurch",
+      "id": "07-31-michael-phelps",
       "date": "07-31",
       "dateLabel": "31 July",
-      "country": "denmark",
-      "countryName": "Denmark",
-      "kind": "events",
-      "year": 1856,
-      "title": "Christchurch",
-      "body": "1856: Christchurch, New Zealand, is chartered as a city.",
+      "category": "sport",
+      "categoryName": "Sport",
+      "year": 2012,
+      "title": "Michael Phelps",
+      "body": "Michael Phelps breaks the record set in 1964 by Larisa Latynina for the most medals won at the Olympics.",
       "source": {
-        "name": "Wikipedia · Christchurch",
-        "url": "https://en.wikipedia.org/wiki/Christchurch",
+        "name": "Wikipedia · Michael Phelps",
+        "url": "https://en.wikipedia.org/wiki/Michael_Phelps",
         "calendarUrl": "https://en.wikipedia.org/wiki/July_31",
         "license": {
           "name": "CC BY-SA 4.0",
@@ -50,27 +48,26 @@
         }
       },
       "image": {
-        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/bd/The_%22Brill%22_Tram_178.New_Regent_St_Christchurch._%2811510530335%29.jpg/1280px-The_%22Brill%22_Tram_178.New_Regent_St_Christchurch._%2811510530335%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-        "alt": "Image related to Christchurch.",
-        "credit": "Bernard Spragg. NZ from Christchurch, New Zealand",
-        "source": "https://commons.wikimedia.org/wiki/File:The_%22Brill%22_Tram_178.New_Regent_St_Christchurch._(11510530335).jpg",
-        "license": "CC0",
-        "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/deed.en"
+        "src": "https://upload.wikimedia.org/wikipedia/commons/c/c7/Michael_Phelps_Rio_Olympics_2016.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+        "alt": "Picture from the Wikipedia article on Michael Phelps.",
+        "credit": "Agência Brasil Fotografias",
+        "source": "https://commons.wikimedia.org/wiki/File:Michael_Phelps_Rio_Olympics_2016.jpg",
+        "license": "CC BY 2.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by/2.0"
       }
     },
     {
-      "id": "07-31-greece-bulgaria",
+      "id": "07-31-fidel-castro",
       "date": "07-31",
       "dateLabel": "31 July",
-      "country": "greece",
-      "countryName": "Greece",
-      "kind": "events",
-      "year": 1938,
-      "title": "Bulgaria",
-      "body": "1938: Bulgaria signs a non-aggression pact with Greece and other states of Balkan Antanti (Turkey, Romania, Yugoslavia).",
+      "category": "world",
+      "categoryName": "World",
+      "year": 2006,
+      "title": "Fidel Castro",
+      "body": "Fidel Castro hands over power to his brother, Raúl.",
       "source": {
-        "name": "Wikipedia · Bulgaria",
-        "url": "https://en.wikipedia.org/wiki/Bulgaria",
+        "name": "Wikipedia · Fidel Castro",
+        "url": "https://en.wikipedia.org/wiki/Fidel_Castro",
         "calendarUrl": "https://en.wikipedia.org/wiki/July_31",
         "license": {
           "name": "CC BY-SA 4.0",
@@ -78,12 +75,12 @@
         }
       },
       "image": {
-        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/9a/Flag_of_Bulgaria.svg/1280px-Flag_of_Bulgaria.svg.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-        "alt": "Image related to Bulgaria.",
-        "credit": "SKopp",
-        "source": "https://commons.wikimedia.org/wiki/File:Flag_of_Bulgaria.svg",
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/86/Fidel_Castro%2C_Prime_Minister_of_Cuba._Castro_at_the_United_Nations%2C_New_York_%283x4_cropped%29.jpg/1280px-Fidel_Castro%2C_Prime_Minister_of_Cuba._Castro_at_the_United_Nations%2C_New_York_%283x4_cropped%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "alt": "Picture from the Wikipedia article on Fidel Castro.",
+        "credit": "Bernard Gotfryd",
+        "source": "https://commons.wikimedia.org/wiki/File:Fidel_Castro,_Prime_Minister_of_Cuba._Castro_at_the_United_Nations,_New_York_(3x4_cropped).jpg",
         "license": "Public domain",
-        "licenseUrl": "https://commons.wikimedia.org/wiki/File:Flag_of_Bulgaria.svg"
+        "licenseUrl": "https://commons.wikimedia.org/wiki/File:Fidel_Castro,_Prime_Minister_of_Cuba._Castro_at_the_United_Nations,_New_York_(3x4_cropped).jpg"
       }
     }
   ]

@@ -2,7 +2,7 @@
 
 import { useEffect, useState, type CSSProperties } from 'react';
 import TransportPanel from '@/components/transport-panel';
-import { DAILY_FACT_COUNTRIES, dailyDateKey, validDailyFacts, type DailyFact } from '@/lib/daily-facts';
+import { DAILY_FACT_COUNT, dailyDateKey, pinnedDateKey, validDailyFacts, yearsAgo, type DailyFact } from '@/lib/daily-facts';
 import { initialRotation, nextRotation, pinnedRotation, resumeRotation } from '@/lib/panel-rotation';
 import ForecastMapPanel from '@/components/forecast-map-panel';
 import type { Rotation } from '@/lib/panel-rotation';
@@ -73,8 +73,9 @@ function useDailyFacts() {
         setStatus('error');
       }
     };
+    const pinned = pinnedDateKey(window.location.search);
     const refresh = () => {
-      const key = dailyDateKey();
+      const key = pinned ?? dailyDateKey();
       if (key !== loadedDate) void load(key);
     };
     refresh();
@@ -91,13 +92,13 @@ function useDailyFacts() {
 
 export default function RotatingPanel({ onSceneChange }: { onSceneChange?: (scene: Rotation['phase']) => void }) {
   const { date, facts, status } = useDailyFacts();
-  const [rotation, setRotation] = useState(() => initialRotation(0, DAILY_FACT_COUNTRIES));
+  const [rotation, setRotation] = useState(() => initialRotation(0, DAILY_FACT_COUNT));
   const [wake, setWake] = useState(0);
 
   useEffect(() => {
     // Debug mode: a scene named in the URL is held and nothing is scheduled.
     // See lib/panel-rotation.ts and README.md.
-    const pinned = pinnedRotation(window.location.search, DAILY_FACT_COUNTRIES);
+    const pinned = pinnedRotation(window.location.search, DAILY_FACT_COUNT);
     if (pinned) {
       const timer = window.setTimeout(() => setRotation(pinned), 0);
       return () => window.clearTimeout(timer);
@@ -107,16 +108,16 @@ export default function RotatingPanel({ onSceneChange }: { onSceneChange?: (scen
       const saved = window.localStorage.getItem(STORAGE_KEY)?.match(/^(\d{2}-\d{2}):(\d)$/);
       if (saved && saved[1] === date) start = Number(saved[2]);
     } catch { /* Storage can be disabled in a TV browser. Rotation still works. */ }
-    let current = initialRotation(start, DAILY_FACT_COUNTRIES);
+    let current = initialRotation(start, DAILY_FACT_COUNT);
     let timer: number | undefined;
     const resetTimer = window.setTimeout(() => setRotation(current), 0);
     const schedule = () => {
       window.clearTimeout(timer);
       if (document.hidden) return;
       timer = window.setTimeout(() => {
-        current = nextRotation(current, DAILY_FACT_COUNTRIES);
+        current = nextRotation(current, DAILY_FACT_COUNT);
         if (current.phase === 'fact' && date) {
-          try { window.localStorage.setItem(STORAGE_KEY, `${date}:${(current.index + 1) % DAILY_FACT_COUNTRIES}`); } catch { /* Device-local persistence is optional. */ }
+          try { window.localStorage.setItem(STORAGE_KEY, `${date}:${(current.index + 1) % DAILY_FACT_COUNT}`); } catch { /* Device-local persistence is optional. */ }
         }
         setRotation(current);
         schedule();
@@ -125,7 +126,7 @@ export default function RotatingPanel({ onSceneChange }: { onSceneChange?: (scen
     const visibility = () => {
       window.clearTimeout(timer);
       if (!document.hidden) {
-        current = resumeRotation(current, DAILY_FACT_COUNTRIES);
+        current = resumeRotation(current, DAILY_FACT_COUNT);
         setRotation(current);
         setWake(value => value + 1);
         schedule();
@@ -166,14 +167,18 @@ export default function RotatingPanel({ onSceneChange }: { onSceneChange?: (scen
       <TransportPanel compact={!showingTransport} />
     </div>
     <ForecastMapPanel active={showingMap} />
-    {showingFact && fact && <article className={`panel-scene daily-fact-scene country-${fact.country} is-active`} key={fact.id} aria-label={`Today in ${fact.countryName}`}>
+    {showingFact && fact && <article className={`panel-scene daily-fact-scene category-${fact.category} is-active`} key={fact.id} aria-label={`On this day in ${fact.year}: ${fact.title}`}>
       <header className="daily-fact-heading">
-        <span>Today in</span>
-        <strong>{fact.countryName}</strong>
+        <span>On this day</span>
+        <strong>{fact.categoryName}</strong>
         <time dateTime={`2024-${fact.date}`}>{fact.dateLabel}</time>
       </header>
       <div className="fact-feature">
-        <div className="fact-copy"><h2>{fact.title}</h2><p>{fact.body}</p></div>
+        <div className="fact-copy">
+          <p className="fact-year"><strong>{fact.year}</strong><span>{yearsAgo(fact.year)}</span></p>
+          <h2>{fact.title}</h2>
+          <p className="fact-body">{fact.body}</p>
+        </div>
         <figure className="fact-illustration">
           <FactArtwork fact={fact} />
           <figcaption><a href={fact.image.source} target="_blank" rel="noreferrer">{fact.image.credit}</a><br /><a href={fact.image.licenseUrl} target="_blank" rel="noreferrer">{fact.image.license}</a></figcaption>

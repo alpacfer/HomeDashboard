@@ -3,18 +3,17 @@
   "dateLabel": "28 September",
   "facts": [
     {
-      "id": "09-28-spain-james-i-of-aragon",
+      "id": "09-28-falcon-1",
       "date": "09-28",
       "dateLabel": "28 September",
-      "country": "spain",
-      "countryName": "Spain",
-      "kind": "events",
-      "year": 1238,
-      "title": "James I of Aragon",
-      "body": "1238: King James I of Aragon conquers Valencia from the Moors. Shortly thereafter, he proclaims himself king of Valencia.",
+      "category": "space",
+      "categoryName": "Space",
+      "year": 2008,
+      "title": "Falcon 1",
+      "body": "Falcon 1 becomes the first privately developed liquid-fuel ground-launched vehicle to put a payload into orbit by the RatSat mission.",
       "source": {
-        "name": "Wikipedia · James I of Aragon",
-        "url": "https://en.wikipedia.org/wiki/James_I_of_Aragon",
+        "name": "Wikipedia · Falcon 1",
+        "url": "https://en.wikipedia.org/wiki/Falcon_1",
         "calendarUrl": "https://en.wikipedia.org/wiki/September_28",
         "license": {
           "name": "CC BY-SA 4.0",
@@ -22,27 +21,26 @@
         }
       },
       "image": {
-        "src": "https://upload.wikimedia.org/wikipedia/commons/6/60/Jaime_I_de_Arag%C3%B3n.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
-        "alt": "Image related to James I of Aragon.",
-        "credit": "Incipit_Vidal_Mayor.jpg: Vidal de Canellas y cancillería real del rey de Aragón. derivative work: Escarlati (talk)",
-        "source": "https://commons.wikimedia.org/wiki/File:Jaime_I_de_Arag%C3%B3n.jpg",
-        "license": "Public domain",
-        "licenseUrl": "https://commons.wikimedia.org/wiki/File:Jaime_I_de_Arag%C3%B3n.jpg"
+        "src": "https://upload.wikimedia.org/wikipedia/commons/c/c8/Falcon_1_Flight_4_liftoff.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+        "alt": "Picture from the Wikipedia article on Falcon 1.",
+        "credit": "SpaceX",
+        "source": "https://commons.wikimedia.org/wiki/File:Falcon_1_Flight_4_liftoff.jpg",
+        "license": "CC BY-SA 3.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0/"
       }
     },
     {
-      "id": "09-28-denmark-robert-stout",
+      "id": "09-28-ariel-sharon",
       "date": "09-28",
       "dateLabel": "28 September",
-      "country": "denmark",
-      "countryName": "Denmark",
-      "kind": "births",
-      "year": 1844,
-      "title": "Robert Stout",
-      "body": "Robert Stout, Scottish-New Zealand lawyer and politician, 13th Prime Minister of New Zealand (died 1930), was born on this day in 1844.",
+      "category": "world",
+      "categoryName": "World",
+      "year": 2000,
+      "title": "Ariel Sharon",
+      "body": "Ariel Sharon visits Al-Aqsa Mosque known to Jews as the Temple Mount in Jerusalem.",
       "source": {
-        "name": "Wikipedia · Robert Stout",
-        "url": "https://en.wikipedia.org/wiki/Robert_Stout",
+        "name": "Wikipedia · Ariel Sharon",
+        "url": "https://en.wikipedia.org/wiki/Ariel_Sharon",
         "calendarUrl": "https://en.wikipedia.org/wiki/September_28",
         "license": {
           "name": "CC BY-SA 4.0",
@@ -50,27 +48,26 @@
         }
       },
       "image": {
-        "src": "https://upload.wikimedia.org/wikipedia/commons/2/26/Sir_Robert_Stout.PNG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
-        "alt": "Portrait or image of Robert Stout.",
-        "credit": "Stanley Polkinghorne Andrew",
-        "source": "https://commons.wikimedia.org/wiki/File:Sir_Robert_Stout.PNG",
-        "license": "Public domain",
-        "licenseUrl": "https://commons.wikimedia.org/wiki/File:Sir_Robert_Stout.PNG"
+        "src": "https://upload.wikimedia.org/wikipedia/commons/6/6b/Ariel_Sharon_official_portrait_2001.webp?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+        "alt": "Picture from the Wikipedia article on Ariel Sharon.",
+        "credit": "Government Press Office of Israel",
+        "source": "https://commons.wikimedia.org/wiki/File:Ariel_Sharon_official_portrait_2001.webp",
+        "license": "CC BY-SA 3.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0"
       }
     },
     {
-      "id": "09-28-greece-drama-uprising",
+      "id": "09-28-alexander-fleming",
       "date": "09-28",
       "dateLabel": "28 September",
-      "country": "greece",
-      "countryName": "Greece",
-      "kind": "events",
-      "year": 1941,
-      "title": "Drama uprising",
-      "body": "1941: World War II: The Drama uprising against the Bulgarian occupation in northern Greece begins.",
+      "category": "science",
+      "categoryName": "Science",
+      "year": 1928,
+      "title": "Alexander Fleming",
+      "body": "Alexander Fleming notices a bacteria-killing mold growing in his laboratory, discovering what later became known as penicillin.",
       "source": {
-        "name": "Wikipedia · Drama uprising",
-        "url": "https://en.wikipedia.org/wiki/Drama_uprising",
+        "name": "Wikipedia · Alexander Fleming",
+        "url": "https://en.wikipedia.org/wiki/Alexander_Fleming",
         "calendarUrl": "https://en.wikipedia.org/wiki/September_28",
         "license": {
           "name": "CC BY-SA 4.0",
@@ -78,12 +75,12 @@
         }
       },
       "image": {
-        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/ac/Drama-uprising-monument.jpg/1280px-Drama-uprising-monument.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-        "alt": "Image related to Drama uprising.",
-        "credit": "George Groutas",
-        "source": "https://commons.wikimedia.org/wiki/File:Drama-uprising-monument.jpg",
-        "license": "CC BY 2.0",
-        "licenseUrl": "https://creativecommons.org/licenses/by/2.0"
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/bf/Synthetic_Production_of_Penicillin_TR1468.jpg/1280px-Synthetic_Production_of_Penicillin_TR1468.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "alt": "Picture from the Wikipedia article on Alexander Fleming.",
+        "credit": "Official photographer",
+        "source": "https://commons.wikimedia.org/wiki/File:Synthetic_Production_of_Penicillin_TR1468.jpg",
+        "license": "Public domain",
+        "licenseUrl": "https://commons.wikimedia.org/wiki/File:Synthetic_Production_of_Penicillin_TR1468.jpg"
       }
     }
   ]

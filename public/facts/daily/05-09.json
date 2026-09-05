@@ -3,18 +3,17 @@
   "dateLabel": "9 May",
   "facts": [
     {
-      "id": "05-09-spain-jer-nima-de-la-asunci-n",
+      "id": "05-09-german-submarine-u-110-1940",
       "date": "05-09",
       "dateLabel": "9 May",
-      "country": "spain",
-      "countryName": "Spain",
-      "kind": "births",
-      "year": 1555,
-      "title": "Jerónima de la Asunción",
-      "body": "Jerónima de la Asunción, Spanish Catholic nun and founder of the first monastery in Manila (died 1630), was born on this day in 1555.",
+      "category": "world",
+      "categoryName": "World",
+      "year": 1941,
+      "title": "German submarine U-110",
+      "body": "The German submarine U-110 is captured by the Royal Navy. On board is the latest Enigma machine which Allied cryptographers later use to break coded German messages.",
       "source": {
-        "name": "Wikipedia · Jerónima de la Asunción",
-        "url": "https://en.wikipedia.org/wiki/Jer%C3%B3nima_de_la_Asunci%C3%B3n",
+        "name": "Wikipedia · German submarine U-110 (1940)",
+        "url": "https://en.wikipedia.org/wiki/German_submarine_U-110_(1940)",
         "calendarUrl": "https://en.wikipedia.org/wiki/May_9",
         "license": {
           "name": "CC BY-SA 4.0",
@@ -22,27 +21,26 @@
         }
       },
       "image": {
-        "src": "https://upload.wikimedia.org/wikipedia/commons/b/bd/Madre_Jer%C3%B3nima_de_la_Fuente%2C_by_Diego_Vel%C3%A1zquez.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
-        "alt": "Portrait or image of Jerónima de la Asunción.",
-        "credit": "Diego Velázquez",
-        "source": "https://commons.wikimedia.org/wiki/File:Madre_Jer%C3%B3nima_de_la_Fuente,_by_Diego_Vel%C3%A1zquez.jpg",
+        "src": "https://upload.wikimedia.org/wikipedia/commons/8/86/U-110_and_HMS_Bulldog.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+        "alt": "Picture from the Wikipedia article on German submarine U-110.",
+        "credit": "Royal Navy official photographer",
+        "source": "https://commons.wikimedia.org/wiki/File:U-110_and_HMS_Bulldog.jpg",
         "license": "Public domain",
-        "licenseUrl": "https://commons.wikimedia.org/wiki/File:Madre_Jer%C3%B3nima_de_la_Fuente,_by_Diego_Vel%C3%A1zquez.jpg"
+        "licenseUrl": "https://commons.wikimedia.org/wiki/File:U-110_and_HMS_Bulldog.jpg"
       }
     },
     {
-      "id": "05-09-denmark-second-schleswig-war",
+      "id": "05-09-richard-e-byrd",
       "date": "05-09",
       "dateLabel": "9 May",
-      "country": "denmark",
-      "countryName": "Denmark",
-      "kind": "events",
-      "year": 1864,
-      "title": "Second Schleswig War",
-      "body": "1864: Second Schleswig War: The Danish navy defeats the Austrian and Prussian fleets in the Battle of Heligoland.",
+      "category": "science",
+      "categoryName": "Science",
+      "year": 1926,
+      "title": "Richard E. Byrd",
+      "body": "Admiral Richard E. Byrd and Floyd Bennett claim to have flown over the North Pole (later discovery of Byrd's diary appears to cast some doubt on the claim).",
       "source": {
-        "name": "Wikipedia · Second Schleswig War",
-        "url": "https://en.wikipedia.org/wiki/Second_Schleswig_War",
+        "name": "Wikipedia · Richard E. Byrd",
+        "url": "https://en.wikipedia.org/wiki/Richard_E._Byrd",
         "calendarUrl": "https://en.wikipedia.org/wiki/May_9",
         "license": {
           "name": "CC BY-SA 4.0",
@@ -50,27 +48,26 @@
         }
       },
       "image": {
-        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/58/1866_Camphausen_Crossing_to_Alsen_anagoria.JPG/1280px-1866_Camphausen_Crossing_to_Alsen_anagoria.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-        "alt": "Image related to Second Schleswig War.",
-        "credit": "Wilhelm Camphausen",
-        "source": "https://commons.wikimedia.org/wiki/File:1866_Camphausen_Crossing_to_Alsen_anagoria.JPG",
+        "src": "https://upload.wikimedia.org/wikipedia/commons/5/5c/Richard_E._Byrd_cph.3b17378.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+        "alt": "Picture from the Wikipedia article on Richard E. Byrd.",
+        "credit": "Underwood & Underwood",
+        "source": "https://commons.wikimedia.org/wiki/File:Richard_E._Byrd_cph.3b17378.jpg",
         "license": "Public domain",
-        "licenseUrl": "https://commons.wikimedia.org/wiki/File:1866_Camphausen_Crossing_to_Alsen_anagoria.JPG"
+        "licenseUrl": "https://commons.wikimedia.org/wiki/File:Richard_E._Byrd_cph.3b17378.jpg"
       }
     },
     {
-      "id": "05-09-greece-norman-conquest-of-southern-italy",
+      "id": "05-09-exhibition-of-1761",
       "date": "05-09",
       "dateLabel": "9 May",
-      "country": "greece",
-      "countryName": "Greece",
-      "kind": "events",
-      "year": 1009,
-      "title": "Lombard Revolt",
-      "body": "1009: Lombard Revolt: Lombard forces led by Melus revolt in Bari against the Byzantine Catepanate of Italy.",
+      "category": "culture",
+      "categoryName": "Culture",
+      "year": 1761,
+      "title": "Exhibition of 1761",
+      "body": "Exhibition of 1761, the inaugural exhibition of the Society of Artists of Great Britain, opens at Spring Gardens in London.",
       "source": {
-        "name": "Wikipedia · Norman conquest of southern Italy",
-        "url": "https://en.wikipedia.org/wiki/Norman_conquest_of_southern_Italy",
+        "name": "Wikipedia · Exhibition of 1761",
+        "url": "https://en.wikipedia.org/wiki/Exhibition_of_1761",
         "calendarUrl": "https://en.wikipedia.org/wiki/May_9",
         "license": {
           "name": "CC BY-SA 4.0",
@@ -78,12 +75,12 @@
         }
       },
       "image": {
-        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e9/Italy_1000_AD.svg/1280px-Italy_1000_AD.svg.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-        "alt": "Image related to Lombard Revolt.",
-        "credit": "No machine-readable author provided. MapMaster assumed (based on copyright claims).",
-        "source": "https://commons.wikimedia.org/wiki/File:Italy_1000_AD.svg",
-        "license": "CC BY-SA 3.0",
-        "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0/"
+        "src": "https://upload.wikimedia.org/wikipedia/commons/2/23/Print%2C_frontispiece%2C_satirical_print_%28BM_Cc%2C1.163%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+        "alt": "Picture from the Wikipedia article on Exhibition of 1761.",
+        "credit": "After: William Hogarth Print made by: Charles Grignion",
+        "source": "https://commons.wikimedia.org/wiki/File:Print,_frontispiece,_satirical_print_(BM_Cc,1.163).jpg",
+        "license": "Public domain",
+        "licenseUrl": "https://commons.wikimedia.org/wiki/File:Print,_frontispiece,_satirical_print_(BM_Cc,1.163).jpg"
       }
     }
   ]

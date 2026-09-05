@@ -3,18 +3,17 @@
   "dateLabel": "13 June",
   "facts": [
     {
-      "id": "06-13-spain-province-of-georgia",
+      "id": "06-13-pioneer-10",
       "date": "06-13",
       "dateLabel": "13 June",
-      "country": "spain",
-      "countryName": "Spain",
-      "kind": "events",
-      "year": 1740,
-      "title": "Georgia",
-      "body": "1740: Georgia provincial governor James Oglethorpe begins an unsuccessful attempt to take Spanish Florida during the Siege of St. Augustine.",
+      "category": "space",
+      "categoryName": "Space",
+      "year": 1983,
+      "title": "Pioneer 10",
+      "body": "Pioneer 10 becomes the first man-made object to leave the central Solar System when it passes beyond the orbit of Neptune.",
       "source": {
-        "name": "Wikipedia · Province of Georgia",
-        "url": "https://en.wikipedia.org/wiki/Province_of_Georgia",
+        "name": "Wikipedia · Pioneer 10",
+        "url": "https://en.wikipedia.org/wiki/Pioneer_10",
         "calendarUrl": "https://en.wikipedia.org/wiki/June_13",
         "license": {
           "name": "CC BY-SA 4.0",
@@ -22,27 +21,26 @@
         }
       },
       "image": {
-        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/1c/Red_ensign_of_Great_Britain_%281707%E2%80%931800%2C_square_canton%29.svg/1280px-Red_ensign_of_Great_Britain_%281707%E2%80%931800%2C_square_canton%29.svg.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-        "alt": "Image related to Georgia.",
-        "credit": "AnonMoos, based on image by Zscout370, AnonMoos",
-        "source": "https://commons.wikimedia.org/wiki/File:Red_ensign_of_Great_Britain_(1707%E2%80%931800,_square_canton).svg",
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f0/An_artist%27s_impression_of_a_Pioneer_spacecraft_on_its_way_to_interstellar_space.jpg/1280px-An_artist%27s_impression_of_a_Pioneer_spacecraft_on_its_way_to_interstellar_space.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "alt": "Picture from the Wikipedia article on Pioneer 10.",
+        "credit": "NASA/Don Davis",
+        "source": "https://commons.wikimedia.org/wiki/File:An_artist%27s_impression_of_a_Pioneer_spacecraft_on_its_way_to_interstellar_space.jpg",
         "license": "Public domain",
-        "licenseUrl": "https://commons.wikimedia.org/wiki/File:Red_ensign_of_Great_Britain_(1707%E2%80%931800,_square_canton).svg"
+        "licenseUrl": "https://commons.wikimedia.org/wiki/File:An_artist%27s_impression_of_a_Pioneer_spacecraft_on_its_way_to_interstellar_space.jpg"
       }
     },
     {
-      "id": "06-13-denmark-chris-cairns",
+      "id": "06-13-kim-dae-jung",
       "date": "06-13",
       "dateLabel": "13 June",
-      "country": "denmark",
-      "countryName": "Denmark",
-      "kind": "births",
-      "year": 1970,
-      "title": "Chris Cairns",
-      "body": "Chris Cairns, New Zealand cricketer, was born on this day in 1970.",
+      "category": "world",
+      "categoryName": "World",
+      "year": 2000,
+      "title": "Kim Dae-jung",
+      "body": "President Kim Dae-jung of South Korea meets Kim Jong-il, leader of North Korea, for the beginning of the first ever inter-Korea summit, in the northern capital of Pyongyang.",
       "source": {
-        "name": "Wikipedia · Chris Cairns",
-        "url": "https://en.wikipedia.org/wiki/Chris_Cairns",
+        "name": "Wikipedia · Kim Dae-jung",
+        "url": "https://en.wikipedia.org/wiki/Kim_Dae-jung",
         "calendarUrl": "https://en.wikipedia.org/wiki/June_13",
         "license": {
           "name": "CC BY-SA 4.0",
@@ -50,27 +48,26 @@
         }
       },
       "image": {
-        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/da/Chris_Cairns_from_side.jpg/1280px-Chris_Cairns_from_side.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-        "alt": "Portrait or image of Chris Cairns.",
-        "credit": "Keith Page",
-        "source": "https://commons.wikimedia.org/wiki/File:Chris_Cairns_from_side.jpg",
-        "license": "CC BY 2.0",
-        "licenseUrl": "https://creativecommons.org/licenses/by/2.0"
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d2/Kim_Dae-jung_presidential_portrait.jpg/1280px-Kim_Dae-jung_presidential_portrait.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "alt": "Picture from the Wikipedia article on Kim Dae-jung.",
+        "credit": "대한민국 국가기록원",
+        "source": "https://commons.wikimedia.org/wiki/File:Kim_Dae-jung_presidential_portrait.jpg",
+        "license": "KOGL Type 1",
+        "licenseUrl": "https://www.kogl.or.kr/info/licenseType1.do"
       }
     },
     {
-      "id": "06-13-greece-charalambos-tseroulis",
+      "id": "06-13-hayabusa",
       "date": "06-13",
       "dateLabel": "13 June",
-      "country": "greece",
-      "countryName": "Greece",
-      "kind": "births",
-      "year": 1879,
-      "title": "Charalambos Tseroulis",
-      "body": "Charalambos Tseroulis, Greek general and politician, Greek Minister for Military Affairs (died 1929), was born on this day in 1879.",
+      "category": "space",
+      "categoryName": "Space",
+      "year": 2010,
+      "title": "Hayabusa",
+      "body": "A capsule of the Japanese spacecraft Hayabusa, containing particles of the asteroid 25143 Itokawa, returns to Earth by landing in the Australian Outback.",
       "source": {
-        "name": "Wikipedia · Charalambos Tseroulis",
-        "url": "https://en.wikipedia.org/wiki/Charalambos_Tseroulis",
+        "name": "Wikipedia · Hayabusa",
+        "url": "https://en.wikipedia.org/wiki/Hayabusa",
         "calendarUrl": "https://en.wikipedia.org/wiki/June_13",
         "license": {
           "name": "CC BY-SA 4.0",
@@ -78,12 +75,12 @@
         }
       },
       "image": {
-        "src": "https://commons.wikimedia.org/wiki/Special:Redirect/file/Flag_of_Greece.svg?width=1000",
-        "alt": "The national flag of Greece.",
-        "credit": "Greek government",
-        "source": "https://commons.wikimedia.org/wiki/File:Flag_of_Greece.svg",
+        "src": "https://upload.wikimedia.org/wikipedia/commons/5/59/Hayabusa_hover.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+        "alt": "Picture from the Wikipedia article on Hayabusa.",
+        "credit": "JGarry at English Wikipedia",
+        "source": "https://commons.wikimedia.org/wiki/File:Hayabusa_hover.jpg",
         "license": "Public domain",
-        "licenseUrl": "https://commons.wikimedia.org/wiki/File:Flag_of_Greece.svg"
+        "licenseUrl": "https://commons.wikimedia.org/wiki/File:Hayabusa_hover.jpg"
       }
     }
   ]

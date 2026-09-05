@@ -17,6 +17,9 @@
 //   --transit-demo         ?transit=demo: synthetic departure boards.
 //   --time <HH:MM>         Pin the clock to a Copenhagen time.
 //   --pet <spot>           Hold the Tenant at a dashboard landmark.
+//   --date <MM-DD>      Add ?date=: show that calendar date's facts instead
+//                          of today's. The only way to see a fact that is not
+//                          today's.
 //   --url <url>            Page to load. Default http://127.0.0.1:3000/
 //   --fact <n>             Which daily fact, with --scene fact.
 //   --selector <css>       Canvas or moving element to watch. Default
@@ -74,6 +77,7 @@ function parseArgs(argv) {
       case '--transit-demo': options.transitDemo = true; break;
       case '--time': options.time = value(); break;
       case '--pet': options.pet = value(); break;
+      case '--date': options.date = value(); break;
       case '--selector': options.selector = value(); break;
       case '--seconds': options.seconds = Number(value()); break;
       case '--samples': options.samples = Number(value()); break;

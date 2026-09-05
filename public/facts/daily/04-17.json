@@ -3,18 +3,17 @@
   "dateLabel": "17 April",
   "facts": [
     {
-      "id": "04-17-spain-christopher-columbus",
+      "id": "04-17-apollo-13",
       "date": "04-17",
       "dateLabel": "17 April",
-      "country": "spain",
-      "countryName": "Spain",
-      "kind": "events",
-      "year": 1492,
-      "title": "Christopher Columbus",
-      "body": "1492: Spain and Christopher Columbus sign the Capitulations of Santa Fe for his voyage to Asia to acquire spices.",
+      "category": "space",
+      "categoryName": "Space",
+      "year": 1970,
+      "title": "Apollo 13",
+      "body": "The damaged Apollo 13 spacecraft returns to Earth safely.",
       "source": {
-        "name": "Wikipedia · Christopher Columbus",
-        "url": "https://en.wikipedia.org/wiki/Christopher_Columbus",
+        "name": "Wikipedia · Apollo 13",
+        "url": "https://en.wikipedia.org/wiki/Apollo_13",
         "calendarUrl": "https://en.wikipedia.org/wiki/April_17",
         "license": {
           "name": "CC BY-SA 4.0",
@@ -22,27 +21,26 @@
         }
       },
       "image": {
-        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c2/Portrait_of_a_Man%2C_Said_to_be_Christopher_Columbus.jpg/1280px-Portrait_of_a_Man%2C_Said_to_be_Christopher_Columbus.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-        "alt": "Image related to Christopher Columbus.",
-        "credit": "Sebastiano del Piombo",
-        "source": "https://commons.wikimedia.org/wiki/File:Portrait_of_a_Man,_Said_to_be_Christopher_Columbus.jpg",
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/ac/Apollo_13-insignia.png/1280px-Apollo_13-insignia.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "alt": "Picture from the Wikipedia article on Apollo 13.",
+        "credit": "NASA",
+        "source": "https://commons.wikimedia.org/wiki/File:Apollo_13-insignia.png",
         "license": "Public domain",
-        "licenseUrl": "https://commons.wikimedia.org/wiki/File:Portrait_of_a_Man,_Said_to_be_Christopher_Columbus.jpg"
+        "licenseUrl": "https://commons.wikimedia.org/wiki/File:Apollo_13-insignia.png"
       }
     },
     {
-      "id": "04-17-denmark-harald-iii-of-denmark",
+      "id": "04-17-cuban-exile",
       "date": "04-17",
       "dateLabel": "17 April",
-      "country": "denmark",
-      "countryName": "Denmark",
-      "kind": "events",
-      "year": 1080,
-      "title": "Harald III of Denmark",
-      "body": "1080: Harald III of Denmark dies and is succeeded by Canute IV, who would later be the first Dane to be canonized.",
+      "category": "world",
+      "categoryName": "World",
+      "year": 1961,
+      "title": "Cuban exile",
+      "body": "A group of Cuban exiles financed and trained by the CIA lands at the Bay of Pigs in Cuba with the aim of ousting Fidel Castro.",
       "source": {
-        "name": "Wikipedia · Harald Hen",
-        "url": "https://en.wikipedia.org/wiki/Harald_Hen",
+        "name": "Wikipedia · Cuban exile",
+        "url": "https://en.wikipedia.org/wiki/Cuban_exile",
         "calendarUrl": "https://en.wikipedia.org/wiki/April_17",
         "license": {
           "name": "CC BY-SA 4.0",
@@ -50,27 +48,26 @@
         }
       },
       "image": {
-        "src": "https://upload.wikimedia.org/wikipedia/commons/8/8a/Harald_Hen_m%C3%B8nt_a.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
-        "alt": "Image related to Harald III of Denmark.",
-        "credit": "Peter Christian Hauberg (1844-1928)",
-        "source": "https://commons.wikimedia.org/wiki/File:Harald_Hen_m%C3%B8nt_a.jpg",
-        "license": "Public domain",
-        "licenseUrl": "https://commons.wikimedia.org/wiki/File:Harald_Hen_m%C3%B8nt_a.jpg"
+        "src": "https://upload.wikimedia.org/wikipedia/commons/3/39/Jos%C3%A9_Mart%C3%AD_con_grupo_de_emigrados_cubanos_en_el_antiguo_fuerte_Martello_Tower_en_Cayo_hueso%2C_Estados_Unidos_1893.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+        "alt": "Picture from the Wikipedia article on Cuban exile.",
+        "credit": "Cuba. Secretaría de Instrucción Pública y Bellas Artes.",
+        "source": "https://commons.wikimedia.org/wiki/File:Jos%C3%A9_Mart%C3%AD_con_grupo_de_emigrados_cubanos_en_el_antiguo_fuerte_Martello_Tower_en_Cayo_hueso,_Estados_Unidos_1893.jpg",
+        "license": "CC0",
+        "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/deed.en"
       }
     },
     {
-      "id": "04-17-greece-greek-people-s-liberation-army",
+      "id": "04-17-kepler-space-telescope",
       "date": "04-17",
       "dateLabel": "17 April",
-      "country": "greece",
-      "countryName": "Greece",
-      "kind": "events",
-      "year": 1944,
-      "title": "Greek People's Liberation Army",
-      "body": "1944: Forces of the Communist-controlled Greek People's Liberation Army attack the smaller National and Social Liberation resistance group, which surrenders. Its leader Dimitrios Psarros is murdered.",
+      "category": "space",
+      "categoryName": "Space",
+      "year": 2014,
+      "title": "Kepler space telescope",
+      "body": "NASA's Kepler space telescope confirms the discovery of the first Earth-size planet in the habitable zone of another star.",
       "source": {
-        "name": "Wikipedia · ELAS",
-        "url": "https://en.wikipedia.org/wiki/ELAS",
+        "name": "Wikipedia · Kepler space telescope",
+        "url": "https://en.wikipedia.org/wiki/Kepler_space_telescope",
         "calendarUrl": "https://en.wikipedia.org/wiki/April_17",
         "license": {
           "name": "CC BY-SA 4.0",
@@ -78,12 +75,12 @@
         }
       },
       "image": {
-        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/de/%CE%91%CE%BD%CF%84%CE%AC%CF%81%CF%84%CE%B5%CF%82_%CF%84%CE%BF%CF%85_%CE%95%CE%91%CE%9C-%CE%95%CE%9B%CE%91%CE%A3_%28restored%29.jpg/1280px-%CE%91%CE%BD%CF%84%CE%AC%CF%81%CF%84%CE%B5%CF%82_%CF%84%CE%BF%CF%85_%CE%95%CE%91%CE%9C-%CE%95%CE%9B%CE%91%CE%A3_%28restored%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-        "alt": "Image related to Greek People's Liberation Army.",
-        "credit": "Uploader: Υπουργείο Εξωτερικών Photographer: Sjt. Johnson (see [3])",
-        "source": "https://commons.wikimedia.org/wiki/File:%CE%91%CE%BD%CF%84%CE%AC%CF%81%CF%84%CE%B5%CF%82_%CF%84%CE%BF%CF%85_%CE%95%CE%91%CE%9C-%CE%95%CE%9B%CE%91%CE%A3_(restored).jpg",
-        "license": "CC BY-SA 2.0",
-        "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0"
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/45/Kepler_Space_Telescope_spacecraft_model_2.png/1280px-Kepler_Space_Telescope_spacecraft_model_2.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "alt": "Picture from the Wikipedia article on Kepler space telescope.",
+        "credit": "NASA",
+        "source": "https://commons.wikimedia.org/wiki/File:Kepler_Space_Telescope_spacecraft_model_2.png",
+        "license": "Public domain",
+        "licenseUrl": "https://commons.wikimedia.org/wiki/File:Kepler_Space_Telescope_spacecraft_model_2.png"
       }
     }
   ]

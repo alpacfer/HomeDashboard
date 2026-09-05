@@ -3,18 +3,17 @@
   "dateLabel": "8 May",
   "facts": [
     {
-      "id": "05-08-spain-reccared-i",
+      "id": "05-08-mount-everest",
       "date": "05-08",
       "dateLabel": "8 May",
-      "country": "spain",
-      "countryName": "Spain",
-      "kind": "events",
-      "year": 589,
-      "title": "Reccared I",
-      "body": "589: Reccared I opens the Third Council of Toledo, marking the entry of Visigothic Spain into the Catholic Church.",
+      "category": "science",
+      "categoryName": "Science",
+      "year": 1978,
+      "title": "Mount Everest",
+      "body": "The first ascent of Mount Everest without supplemental oxygen, by Reinhold Messner and Peter Habeler.",
       "source": {
-        "name": "Wikipedia · Reccared I",
-        "url": "https://en.wikipedia.org/wiki/Reccared_I",
+        "name": "Wikipedia · Mount Everest",
+        "url": "https://en.wikipedia.org/wiki/Mount_Everest",
         "calendarUrl": "https://en.wikipedia.org/wiki/May_8",
         "license": {
           "name": "CC BY-SA 4.0",
@@ -22,27 +21,26 @@
         }
       },
       "image": {
-        "src": "https://upload.wikimedia.org/wikipedia/commons/6/60/Recaredo_Tremis_Ispali.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
-        "alt": "Image related to Reccared I.",
-        "credit": "Numismática Pliego",
-        "source": "https://commons.wikimedia.org/wiki/File:Recaredo_Tremis_Ispali.jpg",
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/15/Mt._Everest_from_Gokyo_Ri_November_5%2C_2012.jpg/1280px-Mt._Everest_from_Gokyo_Ri_November_5%2C_2012.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "alt": "Picture from the Wikipedia article on Mount Everest.",
+        "credit": "Rdevany",
+        "source": "https://commons.wikimedia.org/wiki/File:Mt._Everest_from_Gokyo_Ri_November_5,_2012.jpg",
         "license": "CC BY-SA 3.0",
         "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0"
       }
     },
     {
-      "id": "05-08-denmark-tollund-man",
+      "id": "05-08-world-health-organization",
       "date": "05-08",
       "dateLabel": "8 May",
-      "country": "denmark",
-      "countryName": "Denmark",
-      "kind": "events",
-      "year": 1950,
-      "title": "Tollund Man",
-      "body": "1950: The Tollund Man is discovered in a peat bog near Silkeborg, Denmark.",
+      "category": "world",
+      "categoryName": "World",
+      "year": 1980,
+      "title": "World Health Organization",
+      "body": "The World Health Organization confirms the eradication of smallpox.",
       "source": {
-        "name": "Wikipedia · Tollund Man",
-        "url": "https://en.wikipedia.org/wiki/Tollund_Man",
+        "name": "Wikipedia · World Health Organization",
+        "url": "https://en.wikipedia.org/wiki/World_Health_Organization",
         "calendarUrl": "https://en.wikipedia.org/wiki/May_8",
         "license": {
           "name": "CC BY-SA 4.0",
@@ -50,27 +48,26 @@
         }
       },
       "image": {
-        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f7/Moorleiche_von_Tollund_J%C3%BCtland_um_100_n_Chr_hingerichtet.jpg/1280px-Moorleiche_von_Tollund_J%C3%BCtland_um_100_n_Chr_hingerichtet.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-        "alt": "Image related to Tollund Man.",
-        "credit": "Unknown authorUnknown author",
-        "source": "https://commons.wikimedia.org/wiki/File:Moorleiche_von_Tollund_J%C3%BCtland_um_100_n_Chr_hingerichtet.jpg",
-        "license": "Public domain",
-        "licenseUrl": "https://commons.wikimedia.org/wiki/File:Moorleiche_von_Tollund_J%C3%BCtland_um_100_n_Chr_hingerichtet.jpg"
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/88/World_Health_Organization_%40_Pregny-Chamb%C3%A9sy_%2850636746028%29.jpg/1280px-World_Health_Organization_%40_Pregny-Chamb%C3%A9sy_%2850636746028%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "alt": "Picture from the Wikipedia article on World Health Organization.",
+        "credit": "Guilhem Vellut from Annecy, France",
+        "source": "https://commons.wikimedia.org/wiki/File:World_Health_Organization_@_Pregny-Chamb%C3%A9sy_(50636746028).jpg",
+        "license": "CC BY 2.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by/2.0"
       }
     },
     {
-      "id": "05-08-greece-greek-war-of-independence",
+      "id": "05-08-the-beatles",
       "date": "05-08",
       "dateLabel": "8 May",
-      "country": "greece",
-      "countryName": "Greece",
-      "kind": "events",
-      "year": 1821,
-      "title": "Greek War of Independence",
-      "body": "1821: Greek War of Independence: The Greeks defeat the Turks at the Battle of Gravia Inn.",
+      "category": "culture",
+      "categoryName": "Culture",
+      "year": 1970,
+      "title": "The Beatles",
+      "body": "The Beatles release their 12th and final studio album Let It Be.",
       "source": {
-        "name": "Wikipedia · Greek War of Independence",
-        "url": "https://en.wikipedia.org/wiki/Greek_War_of_Independence",
+        "name": "Wikipedia · The Beatles",
+        "url": "https://en.wikipedia.org/wiki/The_Beatles",
         "calendarUrl": "https://en.wikipedia.org/wiki/May_8",
         "license": {
           "name": "CC BY-SA 4.0",
@@ -78,12 +75,12 @@
         }
       },
       "image": {
-        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/73/Greek_revolution_collage.jpg/1280px-Greek_revolution_collage.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-        "alt": "Image related to Greek War of Independence.",
-        "credit": "SJCAmerican",
-        "source": "https://commons.wikimedia.org/wiki/File:Greek_revolution_collage.jpg",
-        "license": "CC BY-SA 4.0",
-        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0"
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/42/The_Beatles_1963_Dezo_Hoffman_Capitol_Records_press_photo_2.jpg/1280px-The_Beatles_1963_Dezo_Hoffman_Capitol_Records_press_photo_2.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "alt": "Picture from the Wikipedia article on The Beatles.",
+        "credit": "Dezo Hoffmann, Distributed by Capitol Records",
+        "source": "https://commons.wikimedia.org/wiki/File:The_Beatles_1963_Dezo_Hoffman_Capitol_Records_press_photo_2.jpg",
+        "license": "Public domain",
+        "licenseUrl": "https://commons.wikimedia.org/wiki/File:The_Beatles_1963_Dezo_Hoffman_Capitol_Records_press_photo_2.jpg"
       }
     }
   ]

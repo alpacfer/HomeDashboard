@@ -3,18 +3,17 @@
   "dateLabel": "1 March",
   "facts": [
     {
-      "id": "03-01-spain-catholic-monarchs",
+      "id": "03-01-english-wikipedia",
       "date": "03-01",
       "dateLabel": "1 March",
-      "country": "spain",
-      "countryName": "Spain",
-      "kind": "events",
-      "year": 1476,
-      "title": "Catholic Monarchs",
-      "body": "1476: Forces of the Catholic Monarchs engage the combined Portuguese-Castilian armies of Afonso V and Prince John at the Battle of Toro.",
+      "category": "tech",
+      "categoryName": "Tech",
+      "year": 2006,
+      "title": "English Wikipedia",
+      "body": "English-language Wikipedia reaches its one millionth article, Jordanhill railway station.",
       "source": {
-        "name": "Wikipedia · Catholic Monarchs of Spain",
-        "url": "https://en.wikipedia.org/wiki/Catholic_Monarchs_of_Spain",
+        "name": "Wikipedia · English Wikipedia",
+        "url": "https://en.wikipedia.org/wiki/English_Wikipedia",
         "calendarUrl": "https://en.wikipedia.org/wiki/March_1",
         "license": {
           "name": "CC BY-SA 4.0",
@@ -22,55 +21,26 @@
         }
       },
       "image": {
-        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f7/Ferdinand_of_Aragon%2C_Isabella_of_Castile_%28cropped%29.jpg/1280px-Ferdinand_of_Aragon%2C_Isabella_of_Castile_%28cropped%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-        "alt": "Image related to Catholic Monarchs.",
-        "credit": "anonymous",
-        "source": "https://commons.wikimedia.org/wiki/File:Ferdinand_of_Aragon,_Isabella_of_Castile_(cropped).jpg",
-        "license": "Public domain",
-        "licenseUrl": "https://commons.wikimedia.org/wiki/File:Ferdinand_of_Aragon,_Isabella_of_Castile_(cropped).jpg"
-      }
-    },
-    {
-      "id": "03-01-denmark-mikkel-kessler",
-      "date": "03-01",
-      "dateLabel": "1 March",
-      "country": "denmark",
-      "countryName": "Denmark",
-      "kind": "births",
-      "year": 1979,
-      "title": "Mikkel Kessler",
-      "body": "Mikkel Kessler, Danish boxer, was born on this day in 1979.",
-      "source": {
-        "name": "Wikipedia · Mikkel Kessler",
-        "url": "https://en.wikipedia.org/wiki/Mikkel_Kessler",
-        "calendarUrl": "https://en.wikipedia.org/wiki/March_1",
-        "license": {
-          "name": "CC BY-SA 4.0",
-          "url": "https://creativecommons.org/licenses/by-sa/4.0/"
-        }
-      },
-      "image": {
-        "src": "https://upload.wikimedia.org/wikipedia/commons/c/cd/MikkelKessler2012.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
-        "alt": "Portrait or image of Mikkel Kessler.",
-        "credit": "Sirocco758 at English Wikipedia",
-        "source": "https://commons.wikimedia.org/wiki/File:MikkelKessler2012.jpg",
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/56/Wikipedia-logo-v2-en-25-alt.svg/1280px-Wikipedia-logo-v2-en-25-alt.svg.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "alt": "Picture from the Wikipedia article on English Wikipedia.",
+        "credit": "Wikimedia Foundation",
+        "source": "https://commons.wikimedia.org/wiki/File:Wikipedia-logo-v2-en-25-alt.svg",
         "license": "CC BY-SA 3.0",
         "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0"
       }
     },
     {
-      "id": "03-01-greece-nikolaos-gyzis",
+      "id": "03-01-samuel-stritch",
       "date": "03-01",
       "dateLabel": "1 March",
-      "country": "greece",
-      "countryName": "Greece",
-      "kind": "births",
-      "year": 1842,
-      "title": "Nikolaos Gyzis",
-      "body": "Nikolaos Gyzis, Greek painter and academic (died 1901), was born on this day in 1842.",
+      "category": "world",
+      "categoryName": "World",
+      "year": 1958,
+      "title": "Samuel Stritch",
+      "body": "Samuel Alphonsus Stritch is appointed Pro-Prefect of the Propagation of Faith and thus becomes the first U.S. member of the Roman Curia.",
       "source": {
-        "name": "Wikipedia · Nikolaos Gyzis",
-        "url": "https://en.wikipedia.org/wiki/Nikolaos_Gyzis",
+        "name": "Wikipedia · Samuel Stritch",
+        "url": "https://en.wikipedia.org/wiki/Samuel_Stritch",
         "calendarUrl": "https://en.wikipedia.org/wiki/March_1",
         "license": {
           "name": "CC BY-SA 4.0",
@@ -78,12 +48,39 @@
         }
       },
       "image": {
-        "src": "https://upload.wikimedia.org/wikipedia/commons/7/75/Nikolaos_Gyzis_%281842%E2%80%931901%29.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
-        "alt": "Portrait or image of Nikolaos Gyzis.",
-        "credit": "Unknown authorUnknown author",
-        "source": "https://commons.wikimedia.org/wiki/File:Nikolaos_Gyzis_(1842%E2%80%931901).png",
+        "src": "https://upload.wikimedia.org/wikipedia/commons/f/ff/Cardinal_Samuel_Stritch.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+        "alt": "Picture from the Wikipedia article on Samuel Stritch.",
+        "credit": "Harris & Ewing",
+        "source": "https://commons.wikimedia.org/wiki/File:Cardinal_Samuel_Stritch.jpg",
         "license": "Public domain",
-        "licenseUrl": "https://commons.wikimedia.org/wiki/File:Nikolaos_Gyzis_(1842%E2%80%931901).png"
+        "licenseUrl": "https://commons.wikimedia.org/wiki/File:Cardinal_Samuel_Stritch.jpg"
+      }
+    },
+    {
+      "id": "03-01-henri-becquerel",
+      "date": "03-01",
+      "dateLabel": "1 March",
+      "category": "science",
+      "categoryName": "Science",
+      "year": 1896,
+      "title": "Henri Becquerel",
+      "body": "Henri Becquerel discovers radioactive decay.",
+      "source": {
+        "name": "Wikipedia · Henri Becquerel",
+        "url": "https://en.wikipedia.org/wiki/Henri_Becquerel",
+        "calendarUrl": "https://en.wikipedia.org/wiki/March_1",
+        "license": {
+          "name": "CC BY-SA 4.0",
+          "url": "https://creativecommons.org/licenses/by-sa/4.0/"
+        }
+      },
+      "image": {
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/05/Paul_Nadar_-_Henri_Becquerel.jpg/1280px-Paul_Nadar_-_Henri_Becquerel.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "alt": "Picture from the Wikipedia article on Henri Becquerel.",
+        "credit": "Paul Nadar / Adam Cuerden",
+        "source": "https://commons.wikimedia.org/wiki/File:Paul_Nadar_-_Henri_Becquerel.jpg",
+        "license": "Public domain",
+        "licenseUrl": "https://commons.wikimedia.org/wiki/File:Paul_Nadar_-_Henri_Becquerel.jpg"
       }
     }
   ]

@@ -3,18 +3,17 @@
   "dateLabel": "15 June",
   "facts": [
     {
-      "id": "06-15-spain-jamestown-virginia",
+      "id": "06-15-ariane-4",
       "date": "06-15",
       "dateLabel": "15 June",
-      "country": "spain",
-      "countryName": "Spain",
-      "kind": "events",
-      "year": 1607,
-      "title": "James's Fort",
-      "body": "1607: Virginia colonists finish building James's Fort, to defend against Spanish and Native American attacks.",
+      "category": "space",
+      "categoryName": "Space",
+      "year": 1988,
+      "title": "Ariane 4",
+      "body": "The Ariane 4 rocket is launched on its maiden flight.",
       "source": {
-        "name": "Wikipedia · Jamestown",
-        "url": "https://en.wikipedia.org/wiki/Jamestown",
+        "name": "Wikipedia · Ariane 4",
+        "url": "https://en.wikipedia.org/wiki/Ariane_4",
         "calendarUrl": "https://en.wikipedia.org/wiki/June_15",
         "license": {
           "name": "CC BY-SA 4.0",
@@ -22,27 +21,26 @@
         }
       },
       "image": {
-        "src": "https://upload.wikimedia.org/wikipedia/commons/5/5f/Jamestownzuniga.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
-        "alt": "Image related to James's Fort.",
-        "credit": "Unknown (rediscovered by Alexander Brown)",
-        "source": "https://commons.wikimedia.org/wiki/File:Jamestownzuniga.jpg",
+        "src": "https://upload.wikimedia.org/wikipedia/commons/9/9f/Ariane42P_rocket.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+        "alt": "Picture from the Wikipedia article on Ariane 4.",
+        "credit": "NASA",
+        "source": "https://commons.wikimedia.org/wiki/File:Ariane42P_rocket.png",
         "license": "Public domain",
-        "licenseUrl": "https://commons.wikimedia.org/wiki/File:Jamestownzuniga.jpg"
+        "licenseUrl": "https://commons.wikimedia.org/wiki/File:Ariane42P_rocket.png"
       }
     },
     {
-      "id": "06-15-denmark-northern-crusades",
+      "id": "06-15-john-alcock-aviator",
       "date": "06-15",
       "dateLabel": "15 June",
-      "country": "denmark",
-      "countryName": "Denmark",
-      "kind": "events",
-      "year": 1219,
-      "title": "Northern Crusades",
-      "body": "1219: Northern Crusades: Danish victory at the Battle of Lindanise (modern-day Tallinn) establishes the Danish Duchy of Estonia.",
+      "category": "world",
+      "categoryName": "World",
+      "year": 1919,
+      "title": "John Alcock",
+      "body": "John Alcock and Arthur Brown complete the first nonstop transatlantic flight when they reach Clifden, County Galway, Ireland.",
       "source": {
-        "name": "Wikipedia · Northern Crusades",
-        "url": "https://en.wikipedia.org/wiki/Northern_Crusades",
+        "name": "Wikipedia · John Alcock (RAF officer)",
+        "url": "https://en.wikipedia.org/wiki/John_Alcock_(RAF_officer)",
         "calendarUrl": "https://en.wikipedia.org/wiki/June_15",
         "license": {
           "name": "CC BY-SA 4.0",
@@ -50,27 +48,26 @@
         }
       },
       "image": {
-        "src": "https://commons.wikimedia.org/wiki/Special:Redirect/file/Flag_of_Denmark.svg?width=1000",
-        "alt": "The national flag of Denmark.",
-        "credit": "Danish government",
-        "source": "https://commons.wikimedia.org/wiki/File:Flag_of_Denmark.svg",
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a2/Captain_John_Alcock%2C_portrait.jpg/1280px-Captain_John_Alcock%2C_portrait.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "alt": "Picture from the Wikipedia article on John Alcock.",
+        "credit": "Unknown author",
+        "source": "https://commons.wikimedia.org/wiki/File:Captain_John_Alcock,_portrait.jpg",
         "license": "Public domain",
-        "licenseUrl": "https://commons.wikimedia.org/wiki/File:Flag_of_Denmark.svg"
+        "licenseUrl": "https://commons.wikimedia.org/wiki/File:Captain_John_Alcock,_portrait.jpg"
       }
     },
     {
-      "id": "06-15-greece-byzantine-empire",
+      "id": "06-15-oregon-treaty",
       "date": "06-15",
       "dateLabel": "15 June",
-      "country": "greece",
-      "countryName": "Greece",
-      "kind": "events",
-      "year": 1285,
-      "title": "Byzantine Empire",
-      "body": "1285: The Byzantine Empire and the Republic of Venice conclude a treaty. Apart from agreeing on a ten year truce, the Venetians are alloted a commercial quarter in Constantinople and are restored to earlier privileges.",
+      "category": "world",
+      "categoryName": "World",
+      "year": 1846,
+      "title": "Oregon Treaty",
+      "body": "The Oregon Treaty extends the border between the United States and British North America, established by the Treaty of 1818, westward to the Pacific Ocean.",
       "source": {
-        "name": "Wikipedia · Byzantine Empire",
-        "url": "https://en.wikipedia.org/wiki/Byzantine_Empire",
+        "name": "Wikipedia · Oregon Treaty",
+        "url": "https://en.wikipedia.org/wiki/Oregon_Treaty",
         "calendarUrl": "https://en.wikipedia.org/wiki/June_15",
         "license": {
           "name": "CC BY-SA 4.0",
@@ -78,12 +75,12 @@
         }
       },
       "image": {
-        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/69/Red_Eastern_Roman_Empire_565_CE.svg/1280px-Red_Eastern_Roman_Empire_565_CE.svg.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-        "alt": "Image related to Byzantine Empire.",
-        "credit": "PortosPL31",
-        "source": "https://commons.wikimedia.org/wiki/File:Red_Eastern_Roman_Empire_565_CE.svg",
-        "license": "CC0",
-        "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/deed.en"
+        "src": "https://upload.wikimedia.org/wikipedia/commons/1/18/Oregoncountry.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+        "alt": "Picture from the Wikipedia article on Oregon Treaty.",
+        "credit": "Kmusser",
+        "source": "https://commons.wikimedia.org/wiki/File:Oregoncountry.png",
+        "license": "CC BY-SA 2.5",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.5"
       }
     }
   ]

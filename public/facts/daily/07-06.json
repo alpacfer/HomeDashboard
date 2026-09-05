@@ -3,18 +3,17 @@
   "dateLabel": "6 July",
   "facts": [
     {
-      "id": "07-06-spain-first-battle-of-algeciras",
+      "id": "07-06-john-lennon",
       "date": "07-06",
       "dateLabel": "6 July",
-      "country": "spain",
-      "countryName": "Spain",
-      "kind": "events",
-      "year": 1801,
-      "title": "First Battle of Algeciras",
-      "body": "1801: First Battle of Algeciras: Outnumbered French Navy ships defeat the Royal Navy in the fortified Spanish port of Algeciras.",
+      "category": "culture",
+      "categoryName": "Culture",
+      "year": 1957,
+      "title": "John Lennon",
+      "body": "John Lennon and Paul McCartney meet for the first time, as teenagers at Woolton Fete, three years before forming the Beatles.",
       "source": {
-        "name": "Wikipedia · First Battle of Algeciras",
-        "url": "https://en.wikipedia.org/wiki/First_Battle_of_Algeciras",
+        "name": "Wikipedia · John Lennon",
+        "url": "https://en.wikipedia.org/wiki/John_Lennon",
         "calendarUrl": "https://en.wikipedia.org/wiki/July_6",
         "license": {
           "name": "CC BY-SA 4.0",
@@ -22,27 +21,26 @@
         }
       },
       "image": {
-        "src": "https://upload.wikimedia.org/wikipedia/commons/2/25/Le_combat_d%E2%80%99Alg%C3%A9siras%2C_1801.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
-        "alt": "Image related to First Battle of Algeciras.",
-        "credit": "Antoine Roux",
-        "source": "https://commons.wikimedia.org/wiki/File:Le_combat_d%E2%80%99Alg%C3%A9siras,_1801.png",
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/85/John_Lennon_%22Walls_and_Bridges%22_1974_press_photo_2_%28color%29_%28cropped%29.jpg/1280px-John_Lennon_%22Walls_and_Bridges%22_1974_press_photo_2_%28color%29_%28cropped%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "alt": "Picture from the Wikipedia article on John Lennon.",
+        "credit": "Bob Gruen; Distributed by Capitol Records",
+        "source": "https://commons.wikimedia.org/wiki/File:John_Lennon_%22Walls_and_Bridges%22_1974_press_photo_2_(color)_(cropped).jpg",
         "license": "Public domain",
-        "licenseUrl": "https://commons.wikimedia.org/wiki/File:Le_combat_d%E2%80%99Alg%C3%A9siras,_1801.png"
+        "licenseUrl": "https://commons.wikimedia.org/wiki/File:John_Lennon_%22Walls_and_Bridges%22_1974_press_photo_2_(color)_(cropped).jpg"
       }
     },
     {
-      "id": "07-06-denmark-arthur-lydiard",
+      "id": "07-06-the-late-late-show-ireland",
       "date": "07-06",
       "dateLabel": "6 July",
-      "country": "denmark",
-      "countryName": "Denmark",
-      "kind": "births",
-      "year": 1917,
-      "title": "Arthur Lydiard",
-      "body": "Arthur Lydiard, New Zealand runner and coach (died 2004), was born on this day in 1917.",
+      "category": "curious",
+      "categoryName": "Curious",
+      "year": 1962,
+      "title": "The Late Late Show",
+      "body": "The Late Late Show, the world's longest-running chat show by the same broadcaster, airs on RTÉ One for the first time.",
       "source": {
-        "name": "Wikipedia · Arthur Lydiard",
-        "url": "https://en.wikipedia.org/wiki/Arthur_Lydiard",
+        "name": "Wikipedia · The Late Late Show (Irish talk show)",
+        "url": "https://en.wikipedia.org/wiki/The_Late_Late_Show_(Irish_talk_show)",
         "calendarUrl": "https://en.wikipedia.org/wiki/July_6",
         "license": {
           "name": "CC BY-SA 4.0",
@@ -50,27 +48,26 @@
         }
       },
       "image": {
-        "src": "https://upload.wikimedia.org/wikipedia/commons/8/86/Arthur_Lydiard%2C_Gordon_Bromley_1949.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
-        "alt": "Portrait or image of Arthur Lydiard.",
-        "credit": "Unknown authorUnknown author",
-        "source": "https://commons.wikimedia.org/wiki/File:Arthur_Lydiard,_Gordon_Bromley_1949.jpg",
+        "src": "https://upload.wikimedia.org/wikipedia/commons/8/87/The_Late_Late_Show_logo_2023.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+        "alt": "Picture from the Wikipedia article on The Late Late Show.",
+        "credit": "RTÉ",
+        "source": "https://commons.wikimedia.org/wiki/File:The_Late_Late_Show_logo_2023.jpg",
         "license": "Public domain",
-        "licenseUrl": "https://commons.wikimedia.org/wiki/File:Arthur_Lydiard,_Gordon_Bromley_1949.jpg"
+        "licenseUrl": "https://commons.wikimedia.org/wiki/File:The_Late_Late_Show_logo_2023.jpg"
       }
     },
     {
-      "id": "07-06-greece-battle-of-heliopolis",
+      "id": "07-06-major-league-baseball-all-star-game",
       "date": "07-06",
       "dateLabel": "6 July",
-      "country": "greece",
-      "countryName": "Greece",
-      "kind": "events",
-      "year": 640,
-      "title": "Battle of Heliopolis",
-      "body": "640: Battle of Heliopolis: The Muslim Arab army under 'Amr ibn al-'As defeat the Byzantine forces near Heliopolis (Egypt).",
+      "category": "sport",
+      "categoryName": "Sport",
+      "year": 1933,
+      "title": "Major League Baseball All-Star Game",
+      "body": "The first Major League Baseball All-Star Game is played in Chicago's Comiskey Park. The American League defeated the National League 4–2.",
       "source": {
-        "name": "Wikipedia · Battle of Heliopolis",
-        "url": "https://en.wikipedia.org/wiki/Battle_of_Heliopolis",
+        "name": "Wikipedia · Major League Baseball All-Star Game",
+        "url": "https://en.wikipedia.org/wiki/Major_League_Baseball_All-Star_Game",
         "calendarUrl": "https://en.wikipedia.org/wiki/July_6",
         "license": {
           "name": "CC BY-SA 4.0",
@@ -78,12 +75,12 @@
         }
       },
       "image": {
-        "src": "https://commons.wikimedia.org/wiki/Special:Redirect/file/Flag_of_Greece.svg?width=1000",
-        "alt": "The national flag of Greece.",
-        "credit": "Greek government",
-        "source": "https://commons.wikimedia.org/wiki/File:Flag_of_Greece.svg",
-        "license": "Public domain",
-        "licenseUrl": "https://commons.wikimedia.org/wiki/File:Flag_of_Greece.svg"
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/fe/2009_MLB_All-Star_Players.jpg/1280px-2009_MLB_All-Star_Players.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "alt": "Picture from the Wikipedia article on Major League Baseball All-Star Game.",
+        "credit": "shgmom56",
+        "source": "https://commons.wikimedia.org/wiki/File:2009_MLB_All-Star_Players.jpg",
+        "license": "CC BY-SA 2.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0"
       }
     }
   ]

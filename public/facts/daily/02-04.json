@@ -3,46 +3,17 @@
   "dateLabel": "4 February",
   "facts": [
     {
-      "id": "02-04-spain-daylight",
+      "id": "02-04-lunar-orbiter-3",
       "date": "02-04",
       "dateLabel": "4 February",
-      "country": "spain",
-      "countryName": "Spain",
-      "kind": "daylight",
-      "year": 0,
-      "title": "Madrid's daylight",
-      "body": "On 4 February, Madrid gets about 10 hours and 10 minutes of daylight.",
+      "category": "space",
+      "categoryName": "Space",
+      "year": 1967,
+      "title": "Lunar Orbiter 3",
+      "body": "Lunar Orbiter 3 lifts off from Cape Canaveral's Launch Complex 13 on its mission to identify possible landing sites for the Surveyor and Apollo spacecraft.",
       "source": {
-        "name": "NOAA Solar Calculator",
-        "url": "https://gml.noaa.gov/grad/solcalc/",
-        "calendarUrl": "https://gml.noaa.gov/grad/solcalc/calcdetails.html",
-        "license": {
-          "name": "public-domain NOAA method",
-          "url": "https://www.noaa.gov/disclaimer"
-        }
-      },
-      "image": {
-        "src": "https://commons.wikimedia.org/wiki/Special:Redirect/file/Flag_of_Spain.svg?width=1000",
-        "alt": "The national flag of Spain.",
-        "credit": "Government of Spain",
-        "source": "https://commons.wikimedia.org/wiki/File:Flag_of_Spain.svg",
-        "license": "Public domain",
-        "licenseUrl": "https://commons.wikimedia.org/wiki/File:Flag_of_Spain.svg"
-      }
-    },
-    {
-      "id": "02-04-denmark-ron-rangi",
-      "date": "02-04",
-      "dateLabel": "4 February",
-      "country": "denmark",
-      "countryName": "Denmark",
-      "kind": "births",
-      "year": 1941,
-      "title": "Ron Rangi",
-      "body": "Ron Rangi, New Zealand rugby player (died 1988), was born on this day in 1941.",
-      "source": {
-        "name": "Wikipedia · Ron Rangi",
-        "url": "https://en.wikipedia.org/wiki/Ron_Rangi",
+        "name": "Wikipedia · Lunar Orbiter 3",
+        "url": "https://en.wikipedia.org/wiki/Lunar_Orbiter_3",
         "calendarUrl": "https://en.wikipedia.org/wiki/February_4",
         "license": {
           "name": "CC BY-SA 4.0",
@@ -50,40 +21,66 @@
         }
       },
       "image": {
-        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f5/Ron_Rangi_1964.jpg/1280px-Ron_Rangi_1964.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-        "alt": "Portrait or image of Ron Rangi.",
-        "credit": "Unknown authorUnknown author",
-        "source": "https://commons.wikimedia.org/wiki/File:Ron_Rangi_1964.jpg",
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f4/Lunar_Orbiter_3_moon_image.jpg/1280px-Lunar_Orbiter_3_moon_image.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "alt": "Picture from the Wikipedia article on Lunar Orbiter 3.",
+        "credit": "NASA",
+        "source": "https://commons.wikimedia.org/wiki/File:Lunar_Orbiter_3_moon_image.jpg",
         "license": "Public domain",
-        "licenseUrl": "https://commons.wikimedia.org/wiki/File:Ron_Rangi_1964.jpg"
+        "licenseUrl": "https://commons.wikimedia.org/wiki/File:Lunar_Orbiter_3_moon_image.jpg"
       }
     },
     {
-      "id": "02-04-greece-daylight",
+      "id": "02-04-revolutionary-armed-forces-of-colombia",
       "date": "02-04",
       "dateLabel": "4 February",
-      "country": "greece",
-      "countryName": "Greece",
-      "kind": "daylight",
-      "year": 0,
-      "title": "Athens's daylight",
-      "body": "On 4 February, Athens gets about 10 hours and 20 minutes of daylight.",
+      "category": "world",
+      "categoryName": "World",
+      "year": 2008,
+      "title": "Revolutionary Armed Forces of Colombia",
+      "body": "Civic mobilizations in Colombia against FARC, under the name A million voices against the FARC.",
       "source": {
-        "name": "NOAA Solar Calculator",
-        "url": "https://gml.noaa.gov/grad/solcalc/",
-        "calendarUrl": "https://gml.noaa.gov/grad/solcalc/calcdetails.html",
+        "name": "Wikipedia · Revolutionary Armed Forces of Colombia",
+        "url": "https://en.wikipedia.org/wiki/Revolutionary_Armed_Forces_of_Colombia",
+        "calendarUrl": "https://en.wikipedia.org/wiki/February_4",
         "license": {
-          "name": "public-domain NOAA method",
-          "url": "https://www.noaa.gov/disclaimer"
+          "name": "CC BY-SA 4.0",
+          "url": "https://creativecommons.org/licenses/by-sa/4.0/"
         }
       },
       "image": {
-        "src": "https://commons.wikimedia.org/wiki/Special:Redirect/file/Flag_of_Greece.svg?width=1000",
-        "alt": "The national flag of Greece.",
-        "credit": "Greek government",
-        "source": "https://commons.wikimedia.org/wiki/File:Flag_of_Greece.svg",
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/ef/Flag_of_the_FARC-EP.svg/1280px-Flag_of_the_FARC-EP.svg.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "alt": "Picture from the Wikipedia article on Revolutionary Armed Forces of Colombia.",
+        "credit": "MrPenguin20",
+        "source": "https://commons.wikimedia.org/wiki/File:Flag_of_the_FARC-EP.svg",
+        "license": "CC BY-SA 3.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0"
+      }
+    },
+    {
+      "id": "02-04-codex-sinaiticus",
+      "date": "02-04",
+      "dateLabel": "4 February",
+      "category": "science",
+      "categoryName": "Science",
+      "year": 1859,
+      "title": "Codex Sinaiticus",
+      "body": "The Codex Sinaiticus is discovered in Egypt.",
+      "source": {
+        "name": "Wikipedia · Codex Sinaiticus",
+        "url": "https://en.wikipedia.org/wiki/Codex_Sinaiticus",
+        "calendarUrl": "https://en.wikipedia.org/wiki/February_4",
+        "license": {
+          "name": "CC BY-SA 4.0",
+          "url": "https://creativecommons.org/licenses/by-sa/4.0/"
+        }
+      },
+      "image": {
+        "src": "https://upload.wikimedia.org/wikipedia/commons/4/4a/Sinaiticus_text.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+        "alt": "Picture from the Wikipedia article on Codex Sinaiticus.",
+        "credit": "Wikimedia Commons contributor",
+        "source": "https://commons.wikimedia.org/wiki/File:Sinaiticus_text.jpg",
         "license": "Public domain",
-        "licenseUrl": "https://commons.wikimedia.org/wiki/File:Flag_of_Greece.svg"
+        "licenseUrl": "https://commons.wikimedia.org/wiki/File:Sinaiticus_text.jpg"
       }
     }
   ]

@@ -3,18 +3,17 @@
   "dateLabel": "22 April",
   "facts": [
     {
-      "id": "04-22-spain-treaty-of-zaragoza",
+      "id": "04-22-optical-fiber",
       "date": "04-22",
       "dateLabel": "22 April",
-      "country": "spain",
-      "countryName": "Spain",
-      "kind": "events",
-      "year": 1529,
-      "title": "Treaty of Zaragoza",
-      "body": "1529: Treaty of Zaragoza divides the eastern hemisphere between Spain and Portugal along a line 297.5 leagues () east of the Moluccas.",
+      "category": "tech",
+      "categoryName": "Tech",
+      "year": 1977,
+      "title": "Optical fiber",
+      "body": "Optical fiber is first used to carry live telephone traffic.",
       "source": {
-        "name": "Wikipedia · Treaty of Zaragoza",
-        "url": "https://en.wikipedia.org/wiki/Treaty_of_Zaragoza",
+        "name": "Wikipedia · Optical fiber",
+        "url": "https://en.wikipedia.org/wiki/Optical_fiber",
         "calendarUrl": "https://en.wikipedia.org/wiki/April_22",
         "license": {
           "name": "CC BY-SA 4.0",
@@ -22,27 +21,26 @@
         }
       },
       "image": {
-        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/21/Spain_and_Portugal.png/1280px-Spain_and_Portugal.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-        "alt": "Image related to Treaty of Zaragoza.",
-        "credit": "Lencer",
-        "source": "https://commons.wikimedia.org/wiki/File:Spain_and_Portugal.png",
+        "src": "https://upload.wikimedia.org/wikipedia/commons/4/49/Fibreoptic.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+        "alt": "Picture from the Wikipedia article on Optical fiber.",
+        "credit": "BigRiz",
+        "source": "https://commons.wikimedia.org/wiki/File:Fibreoptic.jpg",
         "license": "CC BY-SA 3.0",
         "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0/"
       }
     },
     {
-      "id": "04-22-denmark-harald-bohr",
+      "id": "04-22-operation-persecution",
       "date": "04-22",
       "dateLabel": "22 April",
-      "country": "denmark",
-      "countryName": "Denmark",
-      "kind": "births",
-      "year": 1887,
-      "title": "Harald Bohr",
-      "body": "Harald Bohr, Danish mathematician and footballer (died 1951), was born on this day in 1887.",
+      "category": "world",
+      "categoryName": "World",
+      "year": 1944,
+      "title": "Landing at Aitape",
+      "body": "Allied forces land in the Hollandia (currently known as Jayapura) area of New Guinea.",
       "source": {
-        "name": "Wikipedia · Harald Bohr",
-        "url": "https://en.wikipedia.org/wiki/Harald_Bohr",
+        "name": "Wikipedia · Landing at Aitape",
+        "url": "https://en.wikipedia.org/wiki/Landing_at_Aitape",
         "calendarUrl": "https://en.wikipedia.org/wiki/April_22",
         "license": {
           "name": "CC BY-SA 4.0",
@@ -50,27 +48,26 @@
         }
       },
       "image": {
-        "src": "https://commons.wikimedia.org/wiki/Special:Redirect/file/Flag_of_Denmark.svg?width=1000",
-        "alt": "The national flag of Denmark.",
-        "credit": "Danish government",
-        "source": "https://commons.wikimedia.org/wiki/File:Flag_of_Denmark.svg",
+        "src": "https://upload.wikimedia.org/wikipedia/commons/f/fb/Troops_unloading_supplies_at_Aitape.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+        "alt": "Picture from the Wikipedia article on Landing at Aitape.",
+        "credit": "US-Army",
+        "source": "https://commons.wikimedia.org/wiki/File:Troops_unloading_supplies_at_Aitape.jpg",
         "license": "Public domain",
-        "licenseUrl": "https://commons.wikimedia.org/wiki/File:Flag_of_Denmark.svg"
+        "licenseUrl": "https://commons.wikimedia.org/wiki/File:Troops_unloading_supplies_at_Aitape.jpg"
       }
     },
     {
-      "id": "04-22-greece-basil-ii",
+      "id": "04-22-san-diego",
       "date": "04-22",
       "dateLabel": "22 April",
-      "country": "greece",
-      "countryName": "Greece",
-      "kind": "events",
-      "year": 960,
-      "title": "Basil II",
-      "body": "960: Basil II is crowned co-Emperor of the Byzantine Empire.",
+      "category": "world",
+      "categoryName": "World",
+      "year": 1970,
+      "title": "San Diego",
+      "body": "Chicano residents in San Diego, California occupy a site under the Coronado Bridge, leading to the creation of Chicano Park.",
       "source": {
-        "name": "Wikipedia · Basil II",
-        "url": "https://en.wikipedia.org/wiki/Basil_II",
+        "name": "Wikipedia · San Diego",
+        "url": "https://en.wikipedia.org/wiki/San_Diego",
         "calendarUrl": "https://en.wikipedia.org/wiki/April_22",
         "license": {
           "name": "CC BY-SA 4.0",
@@ -78,12 +75,12 @@
         }
       },
       "image": {
-        "src": "https://upload.wikimedia.org/wikipedia/commons/d/dc/Basilios_II.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
-        "alt": "Image related to Basil II.",
-        "credit": "from the Middle Ages, unknown",
-        "source": "https://commons.wikimedia.org/wiki/File:Basilios_II.jpg",
-        "license": "Public domain",
-        "licenseUrl": "https://commons.wikimedia.org/wiki/File:Basilios_II.jpg"
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/ea/La_Jolla_Shores_view_%28cropped%29.jpg/1280px-La_Jolla_Shores_view_%28cropped%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "alt": "Picture from the Wikipedia article on San Diego.",
+        "credit": "Dirk Hansen",
+        "source": "https://commons.wikimedia.org/wiki/File:La_Jolla_Shores_view_(cropped).jpg",
+        "license": "CC BY-SA 3.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0"
       }
     }
   ]

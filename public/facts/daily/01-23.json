@@ -3,18 +3,17 @@
   "dateLabel": "23 January",
   "facts": [
     {
-      "id": "01-23-spain-vincent-ferrer",
+      "id": "01-23-rock-and-roll-hall-of-fame",
       "date": "01-23",
       "dateLabel": "23 January",
-      "country": "spain",
-      "countryName": "Spain",
-      "kind": "births",
-      "year": 1350,
-      "title": "Vincent Ferrer",
-      "body": "Vincent Ferrer, Spanish missionary and saint (died 1419), was born on this day in 1350.",
+      "category": "culture",
+      "categoryName": "Culture",
+      "year": 1986,
+      "title": "Rock and Roll Hall of Fame",
+      "body": "The Rock and Roll Hall of Fame inducts its first members: Little Richard, Chuck Berry, James Brown, Ray Charles, Sam Cooke, Fats Domino, The Everly Brothers, Buddy Holly, Jerry Lee Lewis and Elvis Presley.",
       "source": {
-        "name": "Wikipedia · Vincent Ferrer",
-        "url": "https://en.wikipedia.org/wiki/Vincent_Ferrer",
+        "name": "Wikipedia · Rock and Roll Hall of Fame",
+        "url": "https://en.wikipedia.org/wiki/Rock_and_Roll_Hall_of_Fame",
         "calendarUrl": "https://en.wikipedia.org/wiki/January_23",
         "license": {
           "name": "CC BY-SA 4.0",
@@ -22,27 +21,26 @@
         }
       },
       "image": {
-        "src": "https://upload.wikimedia.org/wikipedia/commons/6/6e/Joan_de_Joanes_-_St_Vincent_Ferrer_-_WGA12062.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
-        "alt": "Portrait or image of Vincent Ferrer.",
-        "credit": "Juan de Juanes",
-        "source": "https://commons.wikimedia.org/wiki/File:Joan_de_Joanes_-_St_Vincent_Ferrer_-_WGA12062.jpg",
-        "license": "Public domain",
-        "licenseUrl": "https://commons.wikimedia.org/wiki/File:Joan_de_Joanes_-_St_Vincent_Ferrer_-_WGA12062.jpg"
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/42/Rock_and_Roll_Hall_of_Fame_-_Joy_of_Museums_1.jpg/1280px-Rock_and_Roll_Hall_of_Fame_-_Joy_of_Museums_1.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "alt": "Picture from the Wikipedia article on Rock and Roll Hall of Fame.",
+        "credit": "GordonMakryllos",
+        "source": "https://commons.wikimedia.org/wiki/File:Rock_and_Roll_Hall_of_Fame_-_Joy_of_Museums_1.jpg",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0"
       }
     },
     {
-      "id": "01-23-denmark-adam-parore",
+      "id": "01-23-madeleine-albright",
       "date": "01-23",
       "dateLabel": "23 January",
-      "country": "denmark",
-      "countryName": "Denmark",
-      "kind": "births",
-      "year": 1971,
-      "title": "Adam Parore",
-      "body": "Adam Parore, New Zealand cricketer and mountaineer, was born on this day in 1971.",
+      "category": "world",
+      "categoryName": "World",
+      "year": 1997,
+      "title": "Madeleine Albright",
+      "body": "Madeleine Albright becomes the first woman to serve as United States Secretary of State.",
       "source": {
-        "name": "Wikipedia · Adam Parore",
-        "url": "https://en.wikipedia.org/wiki/Adam_Parore",
+        "name": "Wikipedia · Madeleine Albright",
+        "url": "https://en.wikipedia.org/wiki/Madeleine_Albright",
         "calendarUrl": "https://en.wikipedia.org/wiki/January_23",
         "license": {
           "name": "CC BY-SA 4.0",
@@ -50,27 +48,26 @@
         }
       },
       "image": {
-        "src": "https://upload.wikimedia.org/wikipedia/commons/2/2e/Adam_Parore_%28March%2C_2011%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
-        "alt": "Portrait or image of Adam Parore.",
-        "credit": "Kylie & Rob (and Helen)",
-        "source": "https://commons.wikimedia.org/wiki/File:Adam_Parore_(March,_2011).jpg",
-        "license": "CC BY 2.0",
-        "licenseUrl": "https://creativecommons.org/licenses/by/2.0"
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/84/Secalbright.jpg/1280px-Secalbright.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "alt": "Picture from the Wikipedia article on Madeleine Albright.",
+        "credit": "United States Department of State",
+        "source": "https://commons.wikimedia.org/wiki/File:Secalbright.jpg",
+        "license": "Public domain",
+        "licenseUrl": "https://commons.wikimedia.org/wiki/File:Secalbright.jpg"
       }
     },
     {
-      "id": "01-23-greece-georgios-karaiskakis",
+      "id": "01-23-pioneer-10",
       "date": "01-23",
       "dateLabel": "23 January",
-      "country": "greece",
-      "countryName": "Greece",
-      "kind": "births",
-      "year": 1780,
-      "title": "Georgios Karaiskakis",
-      "body": "Georgios Karaiskakis, Greek general (died 1827), was born on this day in 1780.",
+      "category": "world",
+      "categoryName": "World",
+      "year": 2003,
+      "title": "Pioneer 10",
+      "body": "A very weak signal from Pioneer 10 is detected for the last time, but no usable data can be extracted.",
       "source": {
-        "name": "Wikipedia · Georgios Karaiskakis",
-        "url": "https://en.wikipedia.org/wiki/Georgios_Karaiskakis",
+        "name": "Wikipedia · Pioneer 10",
+        "url": "https://en.wikipedia.org/wiki/Pioneer_10",
         "calendarUrl": "https://en.wikipedia.org/wiki/January_23",
         "license": {
           "name": "CC BY-SA 4.0",
@@ -78,12 +75,12 @@
         }
       },
       "image": {
-        "src": "https://upload.wikimedia.org/wikipedia/commons/1/1a/Georgios_Karaiskakis_%28cropped%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
-        "alt": "Portrait or image of Georgios Karaiskakis.",
-        "credit": "Karl Krazeisen",
-        "source": "https://commons.wikimedia.org/wiki/File:Georgios_Karaiskakis_(cropped).jpg",
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f0/An_artist%27s_impression_of_a_Pioneer_spacecraft_on_its_way_to_interstellar_space.jpg/1280px-An_artist%27s_impression_of_a_Pioneer_spacecraft_on_its_way_to_interstellar_space.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "alt": "Picture from the Wikipedia article on Pioneer 10.",
+        "credit": "NASA/Don Davis",
+        "source": "https://commons.wikimedia.org/wiki/File:An_artist%27s_impression_of_a_Pioneer_spacecraft_on_its_way_to_interstellar_space.jpg",
         "license": "Public domain",
-        "licenseUrl": "https://commons.wikimedia.org/wiki/File:Georgios_Karaiskakis_(cropped).jpg"
+        "licenseUrl": "https://commons.wikimedia.org/wiki/File:An_artist%27s_impression_of_a_Pioneer_spacecraft_on_its_way_to_interstellar_space.jpg"
       }
     }
   ]

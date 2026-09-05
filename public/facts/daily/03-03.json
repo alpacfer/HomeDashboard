@@ -3,18 +3,17 @@
   "dateLabel": "3 March",
   "facts": [
     {
-      "id": "03-03-spain-mart-n-fiz",
+      "id": "03-03-apollo-9",
       "date": "03-03",
       "dateLabel": "3 March",
-      "country": "spain",
-      "countryName": "Spain",
-      "kind": "births",
-      "year": 1963,
-      "title": "Martín Fiz",
-      "body": "Martín Fiz, Spanish runner, was born on this day in 1963.",
+      "category": "space",
+      "categoryName": "Space",
+      "year": 1969,
+      "title": "Apollo 9",
+      "body": "NASA launches Apollo 9 to test the lunar module.",
       "source": {
-        "name": "Wikipedia · Martín Fiz",
-        "url": "https://en.wikipedia.org/wiki/Mart%C3%ADn_Fiz",
+        "name": "Wikipedia · Apollo 9",
+        "url": "https://en.wikipedia.org/wiki/Apollo_9",
         "calendarUrl": "https://en.wikipedia.org/wiki/March_3",
         "license": {
           "name": "CC BY-SA 4.0",
@@ -22,27 +21,26 @@
         }
       },
       "image": {
-        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a4/Martin_Fiz_recibiendo_la_distici%C3%B3n_Lan_Onari_01.jpg/1280px-Martin_Fiz_recibiendo_la_distici%C3%B3n_Lan_Onari_01.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-        "alt": "Portrait or image of Martín Fiz.",
-        "credit": "Irekia",
-        "source": "https://commons.wikimedia.org/wiki/File:Martin_Fiz_recibiendo_la_distici%C3%B3n_Lan_Onari_01.jpg",
-        "license": "CC BY 2.0",
-        "licenseUrl": "https://creativecommons.org/licenses/by/2.0"
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/62/Gumdrop_Meets_Spider_-_GPN-2000-001100.jpg/1280px-Gumdrop_Meets_Spider_-_GPN-2000-001100.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "alt": "Picture from the Wikipedia article on Apollo 9.",
+        "credit": "NASA / Russell L. Schweickart",
+        "source": "https://commons.wikimedia.org/wiki/File:Gumdrop_Meets_Spider_-_GPN-2000-001100.jpg",
+        "license": "Public domain",
+        "licenseUrl": "https://commons.wikimedia.org/wiki/File:Gumdrop_Meets_Spider_-_GPN-2000-001100.jpg"
       }
     },
     {
-      "id": "03-03-denmark-asger-jorn",
+      "id": "03-03-steve-fossett",
       "date": "03-03",
       "dateLabel": "3 March",
-      "country": "denmark",
-      "countryName": "Denmark",
-      "kind": "births",
-      "year": 1914,
-      "title": "Asger Jorn",
-      "body": "Asger Jorn, Danish painter and sculptor (died 1973), was born on this day in 1914.",
+      "category": "world",
+      "categoryName": "World",
+      "year": 2005,
+      "title": "Steve Fossett",
+      "body": "Steve Fossett becomes the first person to fly an airplane non-stop around the world solo without refueling.",
       "source": {
-        "name": "Wikipedia · Asger Jorn",
-        "url": "https://en.wikipedia.org/wiki/Asger_Jorn",
+        "name": "Wikipedia · Steve Fossett",
+        "url": "https://en.wikipedia.org/wiki/Steve_Fossett",
         "calendarUrl": "https://en.wikipedia.org/wiki/March_3",
         "license": {
           "name": "CC BY-SA 4.0",
@@ -50,27 +48,26 @@
         }
       },
       "image": {
-        "src": "https://upload.wikimedia.org/wikipedia/commons/2/22/Asger_Jorn_%281963%29_by_Erling_Mandelmann.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
-        "alt": "Portrait or image of Asger Jorn.",
-        "credit": "photo©ErlingMandelmann.ch",
-        "source": "https://commons.wikimedia.org/wiki/File:Asger_Jorn_(1963)_by_Erling_Mandelmann.jpg",
-        "license": "CC BY-SA 3.0",
-        "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0"
+        "src": "https://upload.wikimedia.org/wikipedia/commons/2/20/Steve_Fossett_1.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+        "alt": "Picture from the Wikipedia article on Steve Fossett.",
+        "credit": "John Mathew Smith & www.celebrity-photos.com from Laurel Maryland, USA",
+        "source": "https://commons.wikimedia.org/wiki/File:Steve_Fossett_1.jpg",
+        "license": "CC BY-SA 2.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0"
       }
     },
     {
-      "id": "03-03-greece-basil-i",
+      "id": "03-03-petroleum",
       "date": "03-03",
       "dateLabel": "3 March",
-      "country": "greece",
-      "countryName": "Greece",
-      "kind": "events",
-      "year": 880,
-      "title": "Basil I",
-      "body": "880: Emperor Basil I ratifies the decrees of the Fourth Council of Constantinople, confirming the reinstatement of patriarch Photios I of Constantinople.",
+      "category": "science",
+      "categoryName": "Science",
+      "year": 1938,
+      "title": "Petroleum",
+      "body": "Oil is discovered in Saudi Arabia.",
       "source": {
-        "name": "Wikipedia · Basil I",
-        "url": "https://en.wikipedia.org/wiki/Basil_I",
+        "name": "Wikipedia · Petroleum",
+        "url": "https://en.wikipedia.org/wiki/Petroleum",
         "calendarUrl": "https://en.wikipedia.org/wiki/March_3",
         "license": {
           "name": "CC BY-SA 4.0",
@@ -78,10 +75,10 @@
         }
       },
       "image": {
-        "src": "https://upload.wikimedia.org/wikipedia/commons/9/9f/Roman_Emperor_Basil_I.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
-        "alt": "Image related to Basil I.",
-        "credit": "AnonymousUnknown author",
-        "source": "https://commons.wikimedia.org/wiki/File:Roman_Emperor_Basil_I.png",
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c2/Petroleum_sample.jpg/1280px-Petroleum_sample.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "alt": "Picture from the Wikipedia article on Petroleum.",
+        "credit": "Nefronus",
+        "source": "https://commons.wikimedia.org/wiki/File:Petroleum_sample.jpg",
         "license": "CC0",
         "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/deed.en"
       }

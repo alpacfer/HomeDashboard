@@ -3,18 +3,17 @@
   "dateLabel": "2 July",
   "facts": [
     {
-      "id": "07-02-spain-age-of-discovery",
+      "id": "07-02-amelia-earhart",
       "date": "07-02",
       "dateLabel": "2 July",
-      "country": "spain",
-      "countryName": "Spain",
-      "kind": "events",
-      "year": 1494,
-      "title": "Age of Discovery",
-      "body": "1494: Age of Discovery: The Treaty of Tordesillas is ratified by Spain.",
+      "category": "world",
+      "categoryName": "World",
+      "year": 1937,
+      "title": "Amelia Earhart",
+      "body": "Amelia Earhart and navigator Fred Noonan are last heard from over the Pacific Ocean and disappear while attempting to make the first equatorial round-the-world flight.",
       "source": {
-        "name": "Wikipedia · Age of Discovery",
-        "url": "https://en.wikipedia.org/wiki/Age_of_Discovery",
+        "name": "Wikipedia · Amelia Earhart",
+        "url": "https://en.wikipedia.org/wiki/Amelia_Earhart",
         "calendarUrl": "https://en.wikipedia.org/wiki/July_2",
         "license": {
           "name": "CC BY-SA 4.0",
@@ -22,27 +21,26 @@
         }
       },
       "image": {
-        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/85/Theatrum_Orbis_Terrarum%2C_by_Abraham_Ortelius%2C_World%2C_1572.jpg/1280px-Theatrum_Orbis_Terrarum%2C_by_Abraham_Ortelius%2C_World%2C_1572.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-        "alt": "Image related to Age of Discovery.",
-        "credit": "Abraham Ortelius",
-        "source": "https://commons.wikimedia.org/wiki/File:Theatrum_Orbis_Terrarum,_by_Abraham_Ortelius,_World,_1572.jpg",
+        "src": "https://upload.wikimedia.org/wikipedia/commons/7/72/Amelia_Earhart_standing_under_nose_of_her_Lockheed_Model_10-E_Electra%2C_small_%28cropped%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+        "alt": "Picture from the Wikipedia article on Amelia Earhart.",
+        "credit": "Underwood & Underwood (active 1880 – c. 1950)[1]",
+        "source": "https://commons.wikimedia.org/wiki/File:Amelia_Earhart_standing_under_nose_of_her_Lockheed_Model_10-E_Electra,_small_(cropped).jpg",
         "license": "Public domain",
-        "licenseUrl": "https://commons.wikimedia.org/wiki/File:Theatrum_Orbis_Terrarum,_by_Abraham_Ortelius,_World,_1572.jpg"
+        "licenseUrl": "https://commons.wikimedia.org/wiki/File:Amelia_Earhart_standing_under_nose_of_her_Lockheed_Model_10-E_Electra,_small_(cropped).jpg"
       }
     },
     {
-      "id": "07-02-denmark-battle-of-brissarthe",
+      "id": "07-02-toyotomi-hideyoshi",
       "date": "07-02",
       "dateLabel": "2 July",
-      "country": "denmark",
-      "countryName": "Denmark",
-      "kind": "events",
-      "year": 866,
-      "title": "Battle of Brissarthe",
-      "body": "866: Battle of Brissarthe: The Franks led by Robert the Strong are defeated by a joint Breton-Viking army.",
+      "category": "world",
+      "categoryName": "World",
+      "year": 1582,
+      "title": "Toyotomi Hideyoshi",
+      "body": "Toyotomi Hideyoshi defeats Akechi Mitsuhide.",
       "source": {
-        "name": "Wikipedia · Battle of Brissarthe",
-        "url": "https://en.wikipedia.org/wiki/Battle_of_Brissarthe",
+        "name": "Wikipedia · Toyotomi Hideyoshi",
+        "url": "https://en.wikipedia.org/wiki/Toyotomi_Hideyoshi",
         "calendarUrl": "https://en.wikipedia.org/wiki/July_2",
         "license": {
           "name": "CC BY-SA 4.0",
@@ -50,27 +48,26 @@
         }
       },
       "image": {
-        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c4/Mort_de_Robert_le_Fort_au_combat_de_Brisserte%2C_25_juillet_866.jpg/1280px-Mort_de_Robert_le_Fort_au_combat_de_Brisserte%2C_25_juillet_866.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-        "alt": "Image related to Battle of Brissarthe.",
-        "credit": "Henri Lehmann",
-        "source": "https://commons.wikimedia.org/wiki/File:Mort_de_Robert_le_Fort_au_combat_de_Brisserte,_25_juillet_866.jpg",
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/09/Toyotomi_Hideyoshi_c1598_Kodai-ji_Temple.png/1280px-Toyotomi_Hideyoshi_c1598_Kodai-ji_Temple.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "alt": "Picture from the Wikipedia article on Toyotomi Hideyoshi.",
+        "credit": "Kanō Mitsunobu (狩野 光信, 1565–1608)",
+        "source": "https://commons.wikimedia.org/wiki/File:Toyotomi_Hideyoshi_c1598_Kodai-ji_Temple.png",
         "license": "Public domain",
-        "licenseUrl": "https://commons.wikimedia.org/wiki/File:Mort_de_Robert_le_Fort_au_combat_de_Brisserte,_25_juillet_866.jpg"
+        "licenseUrl": "https://commons.wikimedia.org/wiki/File:Toyotomi_Hideyoshi_c1598_Kodai-ji_Temple.png"
       }
     },
     {
-      "id": "07-02-greece-alexandros-panagoulis",
+      "id": "07-02-lyndon-b-johnson",
       "date": "07-02",
       "dateLabel": "2 July",
-      "country": "greece",
-      "countryName": "Greece",
-      "kind": "births",
-      "year": 1939,
-      "title": "Alexandros Panagoulis",
-      "body": "Alexandros Panagoulis, Greek poet and politician (died 1976), was born on this day in 1939.",
+      "category": "world",
+      "categoryName": "World",
+      "year": 1964,
+      "title": "Lyndon B. Johnson",
+      "body": "U.S. President Lyndon B. Johnson signs the Civil Rights Act of 1964 meant to prohibit segregation in public places.",
       "source": {
-        "name": "Wikipedia · Alexandros Panagoulis",
-        "url": "https://en.wikipedia.org/wiki/Alexandros_Panagoulis",
+        "name": "Wikipedia · Lyndon B. Johnson",
+        "url": "https://en.wikipedia.org/wiki/Lyndon_B._Johnson",
         "calendarUrl": "https://en.wikipedia.org/wiki/July_2",
         "license": {
           "name": "CC BY-SA 4.0",
@@ -78,12 +75,12 @@
         }
       },
       "image": {
-        "src": "https://upload.wikimedia.org/wikipedia/commons/e/e2/Panagulis.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
-        "alt": "Portrait or image of Alexandros Panagoulis.",
-        "credit": "Unknown authorUnknown author",
-        "source": "https://commons.wikimedia.org/wiki/File:Panagulis.jpg",
+        "src": "https://upload.wikimedia.org/wikipedia/commons/5/54/Lyndon_B._Johnson%2C_photo_portrait%2C_color_%283x4_cropped%29%282%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+        "alt": "Picture from the Wikipedia article on Lyndon B. Johnson.",
+        "credit": "Arnold Newman",
+        "source": "https://commons.wikimedia.org/wiki/File:Lyndon_B._Johnson,_photo_portrait,_color_(3x4_cropped)(2).jpg",
         "license": "Public domain",
-        "licenseUrl": "https://commons.wikimedia.org/wiki/File:Panagulis.jpg"
+        "licenseUrl": "https://commons.wikimedia.org/wiki/File:Lyndon_B._Johnson,_photo_portrait,_color_(3x4_cropped)(2).jpg"
       }
     }
   ]

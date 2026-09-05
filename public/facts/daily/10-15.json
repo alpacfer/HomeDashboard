@@ -3,18 +3,17 @@
   "dateLabel": "15 October",
   "facts": [
     {
-      "id": "10-15-spain-enrique-jardiel-poncela",
+      "id": "10-15-fortran",
       "date": "10-15",
       "dateLabel": "15 October",
-      "country": "spain",
-      "countryName": "Spain",
-      "kind": "births",
-      "year": 1901,
-      "title": "Enrique Jardiel Poncela",
-      "body": "Enrique Jardiel Poncela, Spanish playwright and novelist (died 1952), was born on this day in 1901.",
+      "category": "tech",
+      "categoryName": "Tech",
+      "year": 1956,
+      "title": "Fortran",
+      "body": "FORTRAN, the first modern computer language, is first shared with the coding community.",
       "source": {
-        "name": "Wikipedia · Enrique Jardiel Poncela",
-        "url": "https://en.wikipedia.org/wiki/Enrique_Jardiel_Poncela",
+        "name": "Wikipedia · Fortran",
+        "url": "https://en.wikipedia.org/wiki/Fortran",
         "calendarUrl": "https://en.wikipedia.org/wiki/October_15",
         "license": {
           "name": "CC BY-SA 4.0",
@@ -22,27 +21,26 @@
         }
       },
       "image": {
-        "src": "https://upload.wikimedia.org/wikipedia/commons/1/1f/Enrique_Jardiel_Poncela.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
-        "alt": "Portrait or image of Enrique Jardiel Poncela.",
-        "credit": "Unknown authorUnknown author",
-        "source": "https://commons.wikimedia.org/wiki/File:Enrique_Jardiel_Poncela.JPG",
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b8/Fortran_logo.svg/1280px-Fortran_logo.svg.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "alt": "Picture from the Wikipedia article on Fortran.",
+        "credit": "Fortran-lang community",
+        "source": "https://commons.wikimedia.org/wiki/File:Fortran_logo.svg",
         "license": "Public domain",
-        "licenseUrl": "https://commons.wikimedia.org/wiki/File:Enrique_Jardiel_Poncela.JPG"
+        "licenseUrl": "https://commons.wikimedia.org/wiki/File:Fortran_logo.svg"
       }
     },
     {
-      "id": "10-15-denmark-2007-new-zealand-police-raids",
+      "id": "10-15-cassini-huygens",
       "date": "10-15",
       "dateLabel": "15 October",
-      "country": "denmark",
-      "countryName": "Denmark",
-      "kind": "events",
-      "year": 2007,
-      "title": "anti-terrorism raids",
-      "body": "2007: Seventeen activists in New Zealand are arrested in the country's first post-9/11 anti-terrorism raids.",
+      "category": "space",
+      "categoryName": "Space",
+      "year": 1997,
+      "title": "Cassini–Huygens",
+      "body": "The Cassini probe launches from Cape Canaveral on its way to Saturn.",
       "source": {
-        "name": "Wikipedia · 2007 New Zealand police raids",
-        "url": "https://en.wikipedia.org/wiki/2007_New_Zealand_police_raids",
+        "name": "Wikipedia · Cassini–Huygens",
+        "url": "https://en.wikipedia.org/wiki/Cassini%E2%80%93Huygens",
         "calendarUrl": "https://en.wikipedia.org/wiki/October_15",
         "license": {
           "name": "CC BY-SA 4.0",
@@ -50,40 +48,39 @@
         }
       },
       "image": {
-        "src": "https://upload.wikimedia.org/wikipedia/commons/d/d4/Ng%C4%81i_T%C5%ABhoe.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
-        "alt": "Image related to anti-terrorism raids.",
-        "credit": "Original uploader was Lanma726 at en.wikipedia",
-        "source": "https://commons.wikimedia.org/wiki/File:Ng%C4%81i_T%C5%ABhoe.png",
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b2/Cassini_Saturn_Orbit_Insertion.jpg/1280px-Cassini_Saturn_Orbit_Insertion.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "alt": "Picture from the Wikipedia article on Cassini–Huygens.",
+        "credit": "NASA/JPL",
+        "source": "https://commons.wikimedia.org/wiki/File:Cassini_Saturn_Orbit_Insertion.jpg",
+        "license": "Public domain",
+        "licenseUrl": "https://commons.wikimedia.org/wiki/File:Cassini_Saturn_Orbit_Insertion.jpg"
+      }
+    },
+    {
+      "id": "10-15-mikhail-gorbachev",
+      "date": "10-15",
+      "dateLabel": "15 October",
+      "category": "science",
+      "categoryName": "Science",
+      "year": 1990,
+      "title": "Mikhail Gorbachev",
+      "body": "Soviet Union leader Mikhail Gorbachev is awarded the Nobel Peace Prize for his efforts to lessen Cold War tensions and open up his nation.",
+      "source": {
+        "name": "Wikipedia · Mikhail Gorbachev",
+        "url": "https://en.wikipedia.org/wiki/Mikhail_Gorbachev",
+        "calendarUrl": "https://en.wikipedia.org/wiki/October_15",
+        "license": {
+          "name": "CC BY-SA 4.0",
+          "url": "https://creativecommons.org/licenses/by-sa/4.0/"
+        }
+      },
+      "image": {
+        "src": "https://upload.wikimedia.org/wikipedia/commons/5/57/RIAN_archive_850809_General_Secretary_of_the_CPSU_CC_M._Gorbachev_%28crop%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+        "alt": "Picture from the Wikipedia article on Mikhail Gorbachev.",
+        "credit": "RIA Novosti archive, image #850809 / Vladimir Vyatkin / CC-BY-SA 3.0",
+        "source": "https://commons.wikimedia.org/wiki/File:RIAN_archive_850809_General_Secretary_of_the_CPSU_CC_M._Gorbachev_(crop).jpg",
         "license": "CC BY-SA 3.0",
-        "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0/"
-      }
-    },
-    {
-      "id": "10-15-greece-daylight",
-      "date": "10-15",
-      "dateLabel": "15 October",
-      "country": "greece",
-      "countryName": "Greece",
-      "kind": "daylight",
-      "year": 0,
-      "title": "Athens's daylight",
-      "body": "On 15 October, Athens gets about 11 hours and 5 minutes of daylight.",
-      "source": {
-        "name": "NOAA Solar Calculator",
-        "url": "https://gml.noaa.gov/grad/solcalc/",
-        "calendarUrl": "https://gml.noaa.gov/grad/solcalc/calcdetails.html",
-        "license": {
-          "name": "public-domain NOAA method",
-          "url": "https://www.noaa.gov/disclaimer"
-        }
-      },
-      "image": {
-        "src": "https://commons.wikimedia.org/wiki/Special:Redirect/file/Flag_of_Greece.svg?width=1000",
-        "alt": "The national flag of Greece.",
-        "credit": "Greek government",
-        "source": "https://commons.wikimedia.org/wiki/File:Flag_of_Greece.svg",
-        "license": "Public domain",
-        "licenseUrl": "https://commons.wikimedia.org/wiki/File:Flag_of_Greece.svg"
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0"
       }
     }
   ]

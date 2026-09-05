@@ -3,18 +3,17 @@
   "dateLabel": "24 January",
   "facts": [
     {
-      "id": "01-24-spain-arauco-war",
+      "id": "01-24-hiten-spacecraft",
       "date": "01-24",
       "dateLabel": "24 January",
-      "country": "spain",
-      "countryName": "Spain",
-      "kind": "events",
-      "year": 1651,
-      "title": "Arauco War",
-      "body": "1651: Arauco War: Spanish and Mapuche authorities meet in the Parliament of Boroa renewing the fragile peace established at the parliaments of Quillín in 1641 and 1647.",
+      "category": "space",
+      "categoryName": "Space",
+      "year": 1990,
+      "title": "Hiten",
+      "body": "Japan launches Hiten, the country's first lunar probe, the first robotic lunar probe since the Soviet Union's Luna 24 in 1976, and the first lunar probe launched by a country other than Soviet Union or the United States.",
       "source": {
-        "name": "Wikipedia · Arauco War",
-        "url": "https://en.wikipedia.org/wiki/Arauco_War",
+        "name": "Wikipedia · Hiten (spacecraft)",
+        "url": "https://en.wikipedia.org/wiki/Hiten_(spacecraft)",
         "calendarUrl": "https://en.wikipedia.org/wiki/January_24",
         "license": {
           "name": "CC BY-SA 4.0",
@@ -22,27 +21,26 @@
         }
       },
       "image": {
-        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/14/Mapa_Chile_Espa%C3%B1oles_y_Araucanos.jpg/1280px-Mapa_Chile_Espa%C3%B1oles_y_Araucanos.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-        "alt": "Image related to Arauco War.",
-        "credit": "Tomas Lopez compuesto por el mapa manuscrito de Poncho Chileno, Madrid 1777",
-        "source": "https://commons.wikimedia.org/wiki/File:Mapa_Chile_Espa%C3%B1oles_y_Araucanos.jpg",
+        "src": "https://upload.wikimedia.org/wikipedia/commons/f/f3/Hiten.gif?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+        "alt": "Picture from the Wikipedia article on Hiten.",
+        "credit": "NASA/ISAS",
+        "source": "https://commons.wikimedia.org/wiki/File:Hiten.gif",
         "license": "Public domain",
-        "licenseUrl": "https://commons.wikimedia.org/wiki/File:Mapa_Chile_Espa%C3%B1oles_y_Araucanos.jpg"
+        "licenseUrl": "https://commons.wikimedia.org/wiki/File:Hiten.gif"
       }
     },
     {
-      "id": "01-24-denmark-terence-bayler",
+      "id": "01-24-franklin-d-roosevelt",
       "date": "01-24",
       "dateLabel": "24 January",
-      "country": "denmark",
-      "countryName": "Denmark",
-      "kind": "births",
-      "year": 1930,
-      "title": "Terence Bayler",
-      "body": "Terence Bayler, New Zealand actor (died 2016), was born on this day in 1930.",
+      "category": "world",
+      "categoryName": "World",
+      "year": 1943,
+      "title": "Franklin D. Roosevelt",
+      "body": "Franklin D. Roosevelt and Winston Churchill conclude a conference in Casablanca.",
       "source": {
-        "name": "Wikipedia · Terence Bayler",
-        "url": "https://en.wikipedia.org/wiki/Terence_Bayler",
+        "name": "Wikipedia · Franklin D. Roosevelt",
+        "url": "https://en.wikipedia.org/wiki/Franklin_D._Roosevelt",
         "calendarUrl": "https://en.wikipedia.org/wiki/January_24",
         "license": {
           "name": "CC BY-SA 4.0",
@@ -50,27 +48,26 @@
         }
       },
       "image": {
-        "src": "https://commons.wikimedia.org/wiki/Special:Redirect/file/Flag_of_Denmark.svg?width=1000",
-        "alt": "The national flag of Denmark.",
-        "credit": "Danish government",
-        "source": "https://commons.wikimedia.org/wiki/File:Flag_of_Denmark.svg",
-        "license": "Public domain",
-        "licenseUrl": "https://commons.wikimedia.org/wiki/File:Flag_of_Denmark.svg"
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/fd/FDR-1944-Campaign-Portrait_%283x4_retouched%2C_cropped%29.jpg/1280px-FDR-1944-Campaign-Portrait_%283x4_retouched%2C_cropped%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "alt": "Picture from the Wikipedia article on Franklin D. Roosevelt.",
+        "credit": "Leon Perskie",
+        "source": "https://commons.wikimedia.org/wiki/File:FDR-1944-Campaign-Portrait_(3x4_retouched,_cropped).jpg",
+        "license": "CC BY 2.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by/2.0"
       }
     },
     {
-      "id": "01-24-greece-pagonis-vakalopoulos",
+      "id": "01-24-voyager-2",
       "date": "01-24",
       "dateLabel": "24 January",
-      "country": "greece",
-      "countryName": "Greece",
-      "kind": "births",
-      "year": 1965,
-      "title": "Pagonis Vakalopoulos",
-      "body": "Pagonis Vakalopoulos, Greek footballer and manager, was born on this day in 1965.",
+      "category": "space",
+      "categoryName": "Space",
+      "year": 1986,
+      "title": "Voyager 2",
+      "body": "The Voyager 2 space probe makes its closest approach to Uranus.",
       "source": {
-        "name": "Wikipedia · Pagonis Vakalopoulos",
-        "url": "https://en.wikipedia.org/wiki/Pagonis_Vakalopoulos",
+        "name": "Wikipedia · Voyager 2",
+        "url": "https://en.wikipedia.org/wiki/Voyager_2",
         "calendarUrl": "https://en.wikipedia.org/wiki/January_24",
         "license": {
           "name": "CC BY-SA 4.0",
@@ -78,12 +75,12 @@
         }
       },
       "image": {
-        "src": "https://commons.wikimedia.org/wiki/Special:Redirect/file/Flag_of_Greece.svg?width=1000",
-        "alt": "The national flag of Greece.",
-        "credit": "Greek government",
-        "source": "https://commons.wikimedia.org/wiki/File:Flag_of_Greece.svg",
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/60/Voyager_spacecraft_model.png/1280px-Voyager_spacecraft_model.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "alt": "Picture from the Wikipedia article on Voyager 2.",
+        "credit": "National Aeronautics and Space Administration (NASA)",
+        "source": "https://commons.wikimedia.org/wiki/File:Voyager_spacecraft_model.png",
         "license": "Public domain",
-        "licenseUrl": "https://commons.wikimedia.org/wiki/File:Flag_of_Greece.svg"
+        "licenseUrl": "https://commons.wikimedia.org/wiki/File:Voyager_spacecraft_model.png"
       }
     }
   ]

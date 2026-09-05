@@ -3,18 +3,17 @@
   "dateLabel": "30 November",
   "facts": [
     {
-      "id": "11-30-spain-queen-anne-s-war",
+      "id": "11-30-exxon",
       "date": "11-30",
       "dateLabel": "30 November",
-      "country": "spain",
-      "countryName": "Spain",
-      "kind": "events",
-      "year": 1707,
-      "title": "Queen Anne's War",
-      "body": "1707: Queen Anne's War: The second Siege of Pensacola comes to end with the failure of the British Empire and their Creek allies to capture Pensacola, Spanish Florida.",
+      "category": "curious",
+      "categoryName": "Curious",
+      "year": 1999,
+      "title": "ExxonMobil",
+      "body": "Exxon and Mobil sign a US$73.7 billion agreement to merge, thus creating ExxonMobil, the world's largest company.",
       "source": {
-        "name": "Wikipedia · Queen Anne's War",
-        "url": "https://en.wikipedia.org/wiki/Queen_Anne's_War",
+        "name": "Wikipedia · ExxonMobil",
+        "url": "https://en.wikipedia.org/wiki/ExxonMobil",
         "calendarUrl": "https://en.wikipedia.org/wiki/November_30",
         "license": {
           "name": "CC BY-SA 4.0",
@@ -22,27 +21,26 @@
         }
       },
       "image": {
-        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b9/QueenAnnesWarBefore.svg/1280px-QueenAnnesWarBefore.svg.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-        "alt": "Image related to Queen Anne's War.",
-        "credit": "User:Magicpiano",
-        "source": "https://commons.wikimedia.org/wiki/File:QueenAnnesWarBefore.svg",
+        "src": "https://upload.wikimedia.org/wikipedia/commons/a/ae/Cube_xom_mine.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+        "alt": "Picture from the Wikipedia article on ExxonMobil.",
+        "credit": "Lanzao0o1",
+        "source": "https://commons.wikimedia.org/wiki/File:Cube_xom_mine.png",
         "license": "CC BY-SA 4.0",
         "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0"
       }
     },
     {
-      "id": "11-30-denmark-christian-vi-of-denmark",
+      "id": "11-30-1872-scotland-v-england-football-match",
       "date": "11-30",
       "dateLabel": "30 November",
-      "country": "denmark",
-      "countryName": "Denmark",
-      "kind": "births",
-      "year": 1699,
-      "title": "Christian VI of Denmark",
-      "body": "Christian VI of Denmark, King Christian VI of Denmark (died 1746), was born on this day in 1699.",
+      "category": "sport",
+      "categoryName": "Sport",
+      "year": 1872,
+      "title": "1872 Scotland v England football match",
+      "body": "The first-ever international football match takes place at Hamilton Crescent, Glasgow, between Scotland and England.",
       "source": {
-        "name": "Wikipedia · Christian VI",
-        "url": "https://en.wikipedia.org/wiki/Christian_VI",
+        "name": "Wikipedia · 1872 Scotland v England football match",
+        "url": "https://en.wikipedia.org/wiki/1872_Scotland_v_England_football_match",
         "calendarUrl": "https://en.wikipedia.org/wiki/November_30",
         "license": {
           "name": "CC BY-SA 4.0",
@@ -50,40 +48,39 @@
         }
       },
       "image": {
-        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c6/Christian_VI%2C_King_of_Denmark.jpg/1280px-Christian_VI%2C_King_of_Denmark.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-        "alt": "Portrait or image of Christian VI of Denmark.",
-        "credit": "Johann Salomon Wahl",
-        "source": "https://commons.wikimedia.org/wiki/File:Christian_VI,_King_of_Denmark.jpg",
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e1/England_v_scotland_1872_ad.jpg/1280px-England_v_scotland_1872_ad.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "alt": "Picture from the Wikipedia article on 1872 Scotland v England football match.",
+        "credit": "Unknown author",
+        "source": "https://commons.wikimedia.org/wiki/File:England_v_scotland_1872_ad.jpg",
         "license": "Public domain",
-        "licenseUrl": "https://commons.wikimedia.org/wiki/File:Christian_VI,_King_of_Denmark.jpg"
+        "licenseUrl": "https://commons.wikimedia.org/wiki/File:England_v_scotland_1872_ad.jpg"
       }
     },
     {
-      "id": "11-30-greece-daylight",
+      "id": "11-30-balmis-expedition",
       "date": "11-30",
       "dateLabel": "30 November",
-      "country": "greece",
-      "countryName": "Greece",
-      "kind": "daylight",
-      "year": 0,
-      "title": "Athens's daylight",
-      "body": "On 30 November, Athens gets about 9 hours and 40 minutes of daylight.",
+      "category": "science",
+      "categoryName": "Science",
+      "year": 1803,
+      "title": "Balmis Expedition",
+      "body": "The Balmis Expedition starts in Spain with the aim of vaccinating millions against smallpox in Spanish America and Philippines.",
       "source": {
-        "name": "NOAA Solar Calculator",
-        "url": "https://gml.noaa.gov/grad/solcalc/",
-        "calendarUrl": "https://gml.noaa.gov/grad/solcalc/calcdetails.html",
+        "name": "Wikipedia · Balmis Expedition",
+        "url": "https://en.wikipedia.org/wiki/Balmis_Expedition",
+        "calendarUrl": "https://en.wikipedia.org/wiki/November_30",
         "license": {
-          "name": "public-domain NOAA method",
-          "url": "https://www.noaa.gov/disclaimer"
+          "name": "CC BY-SA 4.0",
+          "url": "https://creativecommons.org/licenses/by-sa/4.0/"
         }
       },
       "image": {
-        "src": "https://commons.wikimedia.org/wiki/Special:Redirect/file/Flag_of_Greece.svg?width=1000",
-        "alt": "The national flag of Greece.",
-        "credit": "Greek government",
-        "source": "https://commons.wikimedia.org/wiki/File:Flag_of_Greece.svg",
-        "license": "Public domain",
-        "licenseUrl": "https://commons.wikimedia.org/wiki/File:Flag_of_Greece.svg"
+        "src": "https://upload.wikimedia.org/wikipedia/commons/5/53/Balc%C3%B3n_homenaxe_%C3%A1_expedici%C3%B3n_Balmis%2C_domus_A_Coru%C3%B1a.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+        "alt": "Picture from the Wikipedia article on Balmis Expedition.",
+        "credit": "Nemigo",
+        "source": "https://commons.wikimedia.org/wiki/File:Balc%C3%B3n_homenaxe_%C3%A1_expedici%C3%B3n_Balmis,_domus_A_Coru%C3%B1a.jpg",
+        "license": "CC0",
+        "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/deed.en"
       }
     }
   ]

@@ -3,18 +3,17 @@
   "dateLabel": "20 May",
   "facts": [
     {
-      "id": "05-20-spain-sancho-iv-of-castile",
+      "id": "05-20-charles-lindbergh",
       "date": "05-20",
       "dateLabel": "20 May",
-      "country": "spain",
-      "countryName": "Spain",
-      "kind": "events",
-      "year": 1293,
-      "title": "Sancho IV of Castile",
-      "body": "1293: King Sancho IV of Castile creates the Estudio de Escuelas de Generales in Alcalá de Henares.",
+      "category": "world",
+      "categoryName": "World",
+      "year": 1927,
+      "title": "Charles Lindbergh",
+      "body": "Charles Lindbergh takes off for Paris from Roosevelt Field in Long Island, N.Y., aboard the Spirit of St. Louis on the first nonstop solo flight across the Atlantic Ocean, landing hours later.",
       "source": {
-        "name": "Wikipedia · Sancho IV of Castile",
-        "url": "https://en.wikipedia.org/wiki/Sancho_IV_of_Castile",
+        "name": "Wikipedia · Charles Lindbergh",
+        "url": "https://en.wikipedia.org/wiki/Charles_Lindbergh",
         "calendarUrl": "https://en.wikipedia.org/wiki/May_20",
         "license": {
           "name": "CC BY-SA 4.0",
@@ -22,27 +21,26 @@
         }
       },
       "image": {
-        "src": "https://upload.wikimedia.org/wikipedia/commons/3/36/Sancho_IV_de_Castilla_02.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
-        "alt": "Image related to Sancho IV of Castile.",
-        "credit": "AnonymousUnknown author",
-        "source": "https://commons.wikimedia.org/wiki/File:Sancho_IV_de_Castilla_02.jpg",
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b3/Charles_Lindbergh_%28Harris_%26_Ewing_photo%2C_cropped%29.jpg/1280px-Charles_Lindbergh_%28Harris_%26_Ewing_photo%2C_cropped%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "alt": "Picture from the Wikipedia article on Charles Lindbergh.",
+        "credit": "Harris & Ewing",
+        "source": "https://commons.wikimedia.org/wiki/File:Charles_Lindbergh_(Harris_%26_Ewing_photo,_cropped).jpg",
         "license": "Public domain",
-        "licenseUrl": "https://commons.wikimedia.org/wiki/File:Sancho_IV_de_Castilla_02.jpg"
+        "licenseUrl": "https://commons.wikimedia.org/wiki/File:Charles_Lindbergh_(Harris_%26_Ewing_photo,_cropped).jpg"
       }
     },
     {
-      "id": "05-20-denmark-alfred-domett",
+      "id": "05-20-hiv",
       "date": "05-20",
       "dateLabel": "20 May",
-      "country": "denmark",
-      "countryName": "Denmark",
-      "kind": "births",
-      "year": 1811,
-      "title": "Alfred Domett",
-      "body": "Alfred Domett, English-New Zealand poet and politician, 4th Prime Minister of New Zealand (died 1887), was born on this day in 1811.",
+      "category": "science",
+      "categoryName": "Science",
+      "year": 1983,
+      "title": "HIV",
+      "body": "First publications of the discovery of the HIV virus that causes AIDS in the journal Science by a team of French scientists including Françoise Barré-Sinoussi, Jean-Claude Chermann, and Luc Montagnier.",
       "source": {
-        "name": "Wikipedia · Alfred Domett",
-        "url": "https://en.wikipedia.org/wiki/Alfred_Domett",
+        "name": "Wikipedia · HIV",
+        "url": "https://en.wikipedia.org/wiki/HIV",
         "calendarUrl": "https://en.wikipedia.org/wiki/May_20",
         "license": {
           "name": "CC BY-SA 4.0",
@@ -50,27 +48,26 @@
         }
       },
       "image": {
-        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/17/Alfred_Domett_c1870-1887.jpg/1280px-Alfred_Domett_c1870-1887.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-        "alt": "Portrait or image of Alfred Domett.",
-        "credit": "National Library NZ on The Commons from Wellington, New Zealand",
-        "source": "https://commons.wikimedia.org/wiki/File:Alfred_Domett_c1870-1887.jpg",
-        "license": "No restrictions",
-        "licenseUrl": "https://www.flickr.com/commons/usage/"
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/1a/HIV-budding-Color.jpg/1280px-HIV-budding-Color.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "alt": "Picture from the Wikipedia article on HIV.",
+        "credit": "Photo Credit: C. Goldsmith Content Providers: CDC/ C. Goldsmith, P. Feorino, E. L. Palmer, W. R. McManus",
+        "source": "https://commons.wikimedia.org/wiki/File:HIV-budding-Color.jpg",
+        "license": "Public domain",
+        "licenseUrl": "https://commons.wikimedia.org/wiki/File:HIV-budding-Color.jpg"
       }
     },
     {
-      "id": "05-20-greece-christopher-lekapenos",
+      "id": "05-20-international-system-of-units",
       "date": "05-20",
       "dateLabel": "20 May",
-      "country": "greece",
-      "countryName": "Greece",
-      "kind": "events",
-      "year": 921,
-      "title": "Christopher Lekapenos",
-      "body": "921: Christopher Lekapenos is crowned Byzantine co-emperor by his father, emperor Romanos I Lekapenos, on the feast of Whitsun.",
+      "category": "world",
+      "categoryName": "World",
+      "year": 2019,
+      "title": "International System of Units",
+      "body": "The International System of Units (SI): The base units are redefined, making the international prototype of the kilogram obsolete.",
       "source": {
-        "name": "Wikipedia · Christopher Lekapenos",
-        "url": "https://en.wikipedia.org/wiki/Christopher_Lekapenos",
+        "name": "Wikipedia · International System of Units",
+        "url": "https://en.wikipedia.org/wiki/International_System_of_Units",
         "calendarUrl": "https://en.wikipedia.org/wiki/May_20",
         "license": {
           "name": "CC BY-SA 4.0",
@@ -78,12 +75,12 @@
         }
       },
       "image": {
-        "src": "https://upload.wikimedia.org/wikipedia/commons/6/6b/Romanos_I_%26_Christopher_%28reverse%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
-        "alt": "Image related to Christopher Lekapenos.",
-        "credit": "CNG",
-        "source": "https://commons.wikimedia.org/wiki/File:Romanos_I_%26_Christopher_(reverse).jpg",
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/3c/SI_Illustration_Base_Units_and_Constants_Colour_Full.svg/1280px-SI_Illustration_Base_Units_and_Constants_Colour_Full.svg.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "alt": "Picture from the Wikipedia article on International System of Units.",
+        "credit": "BIPM (Original), User:Cmglee Rearranged version.",
+        "source": "https://commons.wikimedia.org/wiki/File:SI_Illustration_Base_Units_and_Constants_Colour_Full.svg",
         "license": "Public domain",
-        "licenseUrl": "https://commons.wikimedia.org/wiki/File:Romanos_I_%26_Christopher_(reverse).jpg"
+        "licenseUrl": "https://commons.wikimedia.org/wiki/File:SI_Illustration_Base_Units_and_Constants_Colour_Full.svg"
       }
     }
   ]

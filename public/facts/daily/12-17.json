@@ -3,18 +3,17 @@
   "dateLabel": "17 December",
   "facts": [
     {
-      "id": "12-17-spain-war-of-the-quadruple-alliance",
+      "id": "12-17-the-simpsons",
       "date": "12-17",
       "dateLabel": "17 December",
-      "country": "spain",
-      "countryName": "Spain",
-      "kind": "events",
-      "year": 1718,
-      "title": "War of the Quadruple Alliance",
-      "body": "1718: War of the Quadruple Alliance: Great Britain declares war on Spain.",
+      "category": "culture",
+      "categoryName": "Culture",
+      "year": 1989,
+      "title": "The Simpsons",
+      "body": "The Simpsons premieres on television with the episode \"Simpsons Roasting on an Open Fire\".",
       "source": {
-        "name": "Wikipedia · War of the Quadruple Alliance",
-        "url": "https://en.wikipedia.org/wiki/War_of_the_Quadruple_Alliance",
+        "name": "Wikipedia · The Simpsons",
+        "url": "https://en.wikipedia.org/wiki/The_Simpsons",
         "calendarUrl": "https://en.wikipedia.org/wiki/December_17",
         "license": {
           "name": "CC BY-SA 4.0",
@@ -22,27 +21,26 @@
         }
       },
       "image": {
-        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/2c/The_Battle_of_Cape_Passaro%2C_11_August_1718_RMG_BHC0351.tiff/lossy-page1-1280px-The_Battle_of_Cape_Passaro%2C_11_August_1718_RMG_BHC0351.tiff.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-        "alt": "Image related to War of the Quadruple Alliance.",
-        "credit": "Richard Paton",
-        "source": "https://commons.wikimedia.org/wiki/File:The_Battle_of_Cape_Passaro,_11_August_1718_RMG_BHC0351.tiff",
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/98/The_Simpsons_yellow_logo.svg/1280px-The_Simpsons_yellow_logo.svg.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "alt": "Picture from the Wikipedia article on The Simpsons.",
+        "credit": "20th Television Animation",
+        "source": "https://commons.wikimedia.org/wiki/File:The_Simpsons_yellow_logo.svg",
         "license": "Public domain",
-        "licenseUrl": "https://commons.wikimedia.org/wiki/File:The_Battle_of_Cape_Passaro,_11_August_1718_RMG_BHC0351.tiff"
+        "licenseUrl": "https://commons.wikimedia.org/wiki/File:The_Simpsons_yellow_logo.svg"
       }
     },
     {
-      "id": "12-17-denmark-vilhelm-petersen-painter",
+      "id": "12-17-1933-nfl-championship-game",
       "date": "12-17",
       "dateLabel": "17 December",
-      "country": "denmark",
-      "countryName": "Denmark",
-      "kind": "births",
-      "year": 1812,
-      "title": "Vilhelm Petersen",
-      "body": "Vilhelm Petersen, Danish painter (died 1880), was born on this day in 1812.",
+      "category": "sport",
+      "categoryName": "Sport",
+      "year": 1933,
+      "title": "1933 NFL Championship Game",
+      "body": "The first NFL Championship Game is played at Wrigley Field in Chicago between the New York Giants and Chicago Bears. The Bears win 23–21.",
       "source": {
-        "name": "Wikipedia · Vilhelm Petersen (painter)",
-        "url": "https://en.wikipedia.org/wiki/Vilhelm_Petersen_(painter)",
+        "name": "Wikipedia · 1933 NFL Championship Game",
+        "url": "https://en.wikipedia.org/wiki/1933_NFL_Championship_Game",
         "calendarUrl": "https://en.wikipedia.org/wiki/December_17",
         "license": {
           "name": "CC BY-SA 4.0",
@@ -50,27 +48,26 @@
         }
       },
       "image": {
-        "src": "https://upload.wikimedia.org/wikipedia/commons/8/8c/Vilhelm_Petersen_1812-1880_by_H.L._Galster.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
-        "alt": "Portrait or image of Vilhelm Petersen.",
-        "credit": "H.L. Galster",
-        "source": "https://commons.wikimedia.org/wiki/File:Vilhelm_Petersen_1812-1880_by_H.L._Galster.jpg",
+        "src": "https://upload.wikimedia.org/wikipedia/commons/0/0c/1933_NFL_Championship_Program.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+        "alt": "Picture from the Wikipedia article on 1933 NFL Championship Game.",
+        "credit": "Unknown author",
+        "source": "https://commons.wikimedia.org/wiki/File:1933_NFL_Championship_Program.jpg",
         "license": "Public domain",
-        "licenseUrl": "https://commons.wikimedia.org/wiki/File:Vilhelm_Petersen_1812-1880_by_H.L._Galster.jpg"
+        "licenseUrl": "https://commons.wikimedia.org/wiki/File:1933_NFL_Championship_Program.jpg"
       }
     },
     {
-      "id": "12-17-greece-aerosvit-flight-241",
+      "id": "12-17-otto-hahn",
       "date": "12-17",
       "dateLabel": "17 December",
-      "country": "greece",
-      "countryName": "Greece",
-      "kind": "events",
-      "year": 1997,
-      "title": "Aerosvit Flight 241",
-      "body": "1997: Aerosvit Flight 241: A Yakovlev Yak-42 crashes into the Pierian Mountains near Thessaloniki Airport in Thessaloniki, Greece, killing all 70 people on board.",
+      "category": "science",
+      "categoryName": "Science",
+      "year": 1938,
+      "title": "Otto Hahn",
+      "body": "Otto Hahn discovers the nuclear fission of the heavy element uranium, the scientific and technological basis of nuclear energy.",
       "source": {
-        "name": "Wikipedia · Aerosvit Flight 241",
-        "url": "https://en.wikipedia.org/wiki/Aerosvit_Flight_241",
+        "name": "Wikipedia · Otto Hahn",
+        "url": "https://en.wikipedia.org/wiki/Otto_Hahn",
         "calendarUrl": "https://en.wikipedia.org/wiki/December_17",
         "license": {
           "name": "CC BY-SA 4.0",
@@ -78,12 +75,12 @@
         }
       },
       "image": {
-        "src": "https://upload.wikimedia.org/wikipedia/commons/6/62/Tiger_Air_Yak-42_UR-42334.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
-        "alt": "Image related to Aerosvit Flight 241.",
-        "credit": "Rolf Wallner",
-        "source": "https://commons.wikimedia.org/wiki/File:Tiger_Air_Yak-42_UR-42334.jpg",
-        "license": "GFDL 1.2",
-        "licenseUrl": "https://www.gnu.org/licenses/old-licenses/fdl-1.2.html"
+        "src": "https://upload.wikimedia.org/wikipedia/commons/6/64/Otto_Hahn_1970.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+        "alt": "Picture from the Wikipedia article on Otto Hahn.",
+        "credit": "Basch, [...] / Opdracht Anefo",
+        "source": "https://commons.wikimedia.org/wiki/File:Otto_Hahn_1970.jpg",
+        "license": "CC BY-SA 3.0 nl",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0/nl/deed.en"
       }
     }
   ]

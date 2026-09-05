@@ -3,18 +3,17 @@
   "dateLabel": "23 July",
   "facts": [
     {
-      "id": "07-23-spain-catalonia",
+      "id": "07-23-digital-equipment-corporation",
       "date": "07-23",
       "dateLabel": "23 July",
-      "country": "spain",
-      "countryName": "Spain",
-      "kind": "events",
-      "year": 1936,
-      "title": "Catalonia",
-      "body": "1936: In Catalonia, Spain, the Unified Socialist Party of Catalonia is founded through the merger of Socialist and Communist parties.",
+      "category": "tech",
+      "categoryName": "Tech",
+      "year": 1997,
+      "title": "Digital Equipment Corporation",
+      "body": "Digital Equipment Corporation files antitrust charges against chipmaker Intel.",
       "source": {
-        "name": "Wikipedia · Catalonia",
-        "url": "https://en.wikipedia.org/wiki/Catalonia",
+        "name": "Wikipedia · Digital Equipment Corporation",
+        "url": "https://en.wikipedia.org/wiki/Digital_Equipment_Corporation",
         "calendarUrl": "https://en.wikipedia.org/wiki/July_23",
         "license": {
           "name": "CC BY-SA 4.0",
@@ -22,27 +21,26 @@
         }
       },
       "image": {
-        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/ce/Flag_of_Catalonia.svg/1280px-Flag_of_Catalonia.svg.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-        "alt": "Image related to Catalonia.",
-        "credit": "Motoroil",
-        "source": "https://commons.wikimedia.org/wiki/File:Flag_of_Catalonia.svg",
-        "license": "Public domain",
-        "licenseUrl": "https://commons.wikimedia.org/wiki/File:Flag_of_Catalonia.svg"
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/29/Assabet_Woolen_Mill_-_Maynard%2C_Massachusetts_-_DSC04913.jpg/1280px-Assabet_Woolen_Mill_-_Maynard%2C_Massachusetts_-_DSC04913.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "alt": "Picture from the Wikipedia article on Digital Equipment Corporation.",
+        "credit": "Daderot",
+        "source": "https://commons.wikimedia.org/wiki/File:Assabet_Woolen_Mill_-_Maynard,_Massachusetts_-_DSC04913.jpg",
+        "license": "CC0",
+        "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/deed.en"
       }
     },
     {
-      "id": "07-23-denmark-scanian-war",
+      "id": "07-23-ph-m-tu-n",
       "date": "07-23",
       "dateLabel": "23 July",
-      "country": "denmark",
-      "countryName": "Denmark",
-      "kind": "events",
-      "year": 1677,
-      "title": "Scanian War",
-      "body": "1677: Scanian War: Denmark–Norway captures the harbor town of Marstrand from Sweden.",
+      "category": "space",
+      "categoryName": "Space",
+      "year": 1980,
+      "title": "Phạm Tuân",
+      "body": "Phạm Tuân becomes the first Vietnamese citizen and the first Asian in space when he flies aboard the Soyuz 37 mission as an Intercosmos Research Cosmonaut.",
       "source": {
-        "name": "Wikipedia · Scanian War",
-        "url": "https://en.wikipedia.org/wiki/Scanian_War",
+        "name": "Wikipedia · Phạm Tuân",
+        "url": "https://en.wikipedia.org/wiki/Ph%E1%BA%A1m_Tu%C3%A2n",
         "calendarUrl": "https://en.wikipedia.org/wiki/July_23",
         "license": {
           "name": "CC BY-SA 4.0",
@@ -50,27 +48,26 @@
         }
       },
       "image": {
-        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f2/Scanian_War_Collage.jpg/1280px-Scanian_War_Collage.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-        "alt": "Image related to Scanian War.",
-        "credit": "Imonoz",
-        "source": "https://commons.wikimedia.org/wiki/File:Scanian_War_Collage.jpg",
-        "license": "CC BY-SA 4.0",
-        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0"
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/38/Ph%E1%BA%A1m_Tu%C3%A2n_.JPG/1280px-Ph%E1%BA%A1m_Tu%C3%A2n_.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "alt": "Picture from the Wikipedia article on Phạm Tuân.",
+        "credit": "Duyphuong (thảo luận)",
+        "source": "https://commons.wikimedia.org/wiki/File:Ph%E1%BA%A1m_Tu%C3%A2n_.JPG",
+        "license": "CC BY 3.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by/3.0"
       }
     },
     {
-      "id": "07-23-greece-byzantine-empire",
+      "id": "07-23-jackie-robinson",
       "date": "07-23",
       "dateLabel": "23 July",
-      "country": "greece",
-      "countryName": "Greece",
-      "kind": "events",
-      "year": 811,
-      "title": "Byzantine",
-      "body": "811: Byzantine emperor Nikephoros I plunders the Bulgarian capital of Pliska and captures Khan Krum's treasury.",
+      "category": "sport",
+      "categoryName": "Sport",
+      "year": 1962,
+      "title": "Jackie Robinson",
+      "body": "Jackie Robinson becomes the first African American to be inducted into the National Baseball Hall of Fame.",
       "source": {
-        "name": "Wikipedia · Byzantine Empire",
-        "url": "https://en.wikipedia.org/wiki/Byzantine_Empire",
+        "name": "Wikipedia · Jackie Robinson",
+        "url": "https://en.wikipedia.org/wiki/Jackie_Robinson",
         "calendarUrl": "https://en.wikipedia.org/wiki/July_23",
         "license": {
           "name": "CC BY-SA 4.0",
@@ -78,10 +75,10 @@
         }
       },
       "image": {
-        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/69/Red_Eastern_Roman_Empire_565_CE.svg/1280px-Red_Eastern_Roman_Empire_565_CE.svg.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-        "alt": "Image related to Byzantine.",
-        "credit": "PortosPL31",
-        "source": "https://commons.wikimedia.org/wiki/File:Red_Eastern_Roman_Empire_565_CE.svg",
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/bd/Jackie_Robinson%2C_NPG_97_135.jpg/1280px-Jackie_Robinson%2C_NPG_97_135.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "alt": "Picture from the Wikipedia article on Jackie Robinson.",
+        "credit": "Harry Warnecke / Frank Livia / Robert F. Cranston / William Klein",
+        "source": "https://commons.wikimedia.org/wiki/File:Jackie_Robinson,_NPG_97_135.jpg",
         "license": "CC0",
         "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/deed.en"
       }

@@ -3,18 +3,17 @@
   "dateLabel": "20 June",
   "facts": [
     {
-      "id": "06-20-spain-treaty-of-anagni",
+      "id": "06-20-united-states-secretary-of-state",
       "date": "06-20",
       "dateLabel": "20 June",
-      "country": "spain",
-      "countryName": "Spain",
-      "kind": "events",
-      "year": 1295,
-      "title": "Treaty of Anagni",
-      "body": "1295: The Treaty of Anagni, an attempt mediated by the papacy to end the War of the Sicilian Vespers, is signed by the crown of Aragon, the kingdom of France and kingdom of Naples.",
+      "category": "space",
+      "categoryName": "Space",
+      "year": 1945,
+      "title": "United States Secretary of State",
+      "body": "The United States Secretary of State approves the transfer of Wernher von Braun and his team of Nazi rocket scientists to the U.S. under Operation Paperclip.",
       "source": {
-        "name": "Wikipedia · Treaty of Anagni",
-        "url": "https://en.wikipedia.org/wiki/Treaty_of_Anagni",
+        "name": "Wikipedia · United States Secretary of State",
+        "url": "https://en.wikipedia.org/wiki/United_States_Secretary_of_State",
         "calendarUrl": "https://en.wikipedia.org/wiki/June_20",
         "license": {
           "name": "CC BY-SA 4.0",
@@ -22,68 +21,66 @@
         }
       },
       "image": {
-        "src": "https://upload.wikimedia.org/wikipedia/commons/9/96/Anagni04.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
-        "alt": "Image related to Treaty of Anagni.",
-        "credit": "antmoose",
-        "source": "https://commons.wikimedia.org/wiki/File:Anagni04.jpg",
-        "license": "CC BY 2.0",
-        "licenseUrl": "https://creativecommons.org/licenses/by/2.0"
-      }
-    },
-    {
-      "id": "06-20-denmark-kiel-canal",
-      "date": "06-20",
-      "dateLabel": "20 June",
-      "country": "denmark",
-      "countryName": "Denmark",
-      "kind": "events",
-      "year": 1895,
-      "title": "Kiel Canal",
-      "body": "1895: The Kiel Canal, crossing the base of the Jutland peninsula and the busiest artificial waterway in the world, is officially opened.",
-      "source": {
-        "name": "Wikipedia · Kiel Canal",
-        "url": "https://en.wikipedia.org/wiki/Kiel_Canal",
-        "calendarUrl": "https://en.wikipedia.org/wiki/June_20",
-        "license": {
-          "name": "CC BY-SA 4.0",
-          "url": "https://creativecommons.org/licenses/by-sa/4.0/"
-        }
-      },
-      "image": {
-        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/8d/13-09-23-Fotoflug-Nordsee-RalfR-N3S_0008.jpg/1280px-13-09-23-Fotoflug-Nordsee-RalfR-N3S_0008.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-        "alt": "Image related to Kiel Canal.",
-        "credit": "Ralf Roletschek",
-        "source": "https://commons.wikimedia.org/wiki/File:13-09-23-Fotoflug-Nordsee-RalfR-N3S_0008.jpg",
-        "license": "GFDL 1.2",
-        "licenseUrl": "https://www.gnu.org/licenses/old-licenses/fdl-1.2.html"
-      }
-    },
-    {
-      "id": "06-20-greece-john-s-paraskevopoulos",
-      "date": "06-20",
-      "dateLabel": "20 June",
-      "country": "greece",
-      "countryName": "Greece",
-      "kind": "births",
-      "year": 1889,
-      "title": "John S. Paraskevopoulos",
-      "body": "John S. Paraskevopoulos, Greek-South African astronomer and academic (died 1951), was born on this day in 1889.",
-      "source": {
-        "name": "Wikipedia · John S. Paraskevopoulos",
-        "url": "https://en.wikipedia.org/wiki/John_S._Paraskevopoulos",
-        "calendarUrl": "https://en.wikipedia.org/wiki/June_20",
-        "license": {
-          "name": "CC BY-SA 4.0",
-          "url": "https://creativecommons.org/licenses/by-sa/4.0/"
-        }
-      },
-      "image": {
-        "src": "https://upload.wikimedia.org/wikipedia/commons/0/09/John_S._Paraskevopoulos.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
-        "alt": "Portrait or image of John S. Paraskevopoulos.",
-        "credit": "Unknown authorUnknown author",
-        "source": "https://commons.wikimedia.org/wiki/File:John_S._Paraskevopoulos.jpg",
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/fc/Seal_of_the_United_States_Secretary_of_State.svg/1280px-Seal_of_the_United_States_Secretary_of_State.svg.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "alt": "Picture from the Wikipedia article on United States Secretary of State.",
+        "credit": "Original: United States Department of State Vectorization: Mliu92",
+        "source": "https://commons.wikimedia.org/wiki/File:Seal_of_the_United_States_Secretary_of_State.svg",
         "license": "Public domain",
-        "licenseUrl": "https://commons.wikimedia.org/wiki/File:John_S._Paraskevopoulos.jpg"
+        "licenseUrl": "https://commons.wikimedia.org/wiki/File:Seal_of_the_United_States_Secretary_of_State.svg"
+      }
+    },
+    {
+      "id": "06-20-jaws-film",
+      "date": "06-20",
+      "dateLabel": "20 June",
+      "category": "culture",
+      "categoryName": "Culture",
+      "year": 1975,
+      "title": "Jaws",
+      "body": "The film Jaws is released in the United States, becoming the highest-grossing film of that time and starting the trend of films known as \"summer blockbusters\".",
+      "source": {
+        "name": "Wikipedia · Jaws (film)",
+        "url": "https://en.wikipedia.org/wiki/Jaws_(film)",
+        "calendarUrl": "https://en.wikipedia.org/wiki/June_20",
+        "license": {
+          "name": "CC BY-SA 4.0",
+          "url": "https://creativecommons.org/licenses/by-sa/4.0/"
+        }
+      },
+      "image": {
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/40/Jaws_movie_poster.jpg/1280px-Jaws_movie_poster.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "alt": "Picture from the Wikipedia article on Jaws.",
+        "credit": "Roger Kastel",
+        "source": "https://commons.wikimedia.org/wiki/File:Jaws_movie_poster.jpg",
+        "license": "Public domain",
+        "licenseUrl": "https://commons.wikimedia.org/wiki/File:Jaws_movie_poster.jpg"
+      }
+    },
+    {
+      "id": "06-20-alexander-graham-bell",
+      "date": "06-20",
+      "dateLabel": "20 June",
+      "category": "tech",
+      "categoryName": "Tech",
+      "year": 1877,
+      "title": "Alexander Graham Bell",
+      "body": "Alexander Graham Bell installs the world's first commercial telephone service in Hamilton, Ontario, Canada.",
+      "source": {
+        "name": "Wikipedia · Alexander Graham Bell",
+        "url": "https://en.wikipedia.org/wiki/Alexander_Graham_Bell",
+        "calendarUrl": "https://en.wikipedia.org/wiki/June_20",
+        "license": {
+          "name": "CC BY-SA 4.0",
+          "url": "https://creativecommons.org/licenses/by-sa/4.0/"
+        }
+      },
+      "image": {
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/9c/Alexander_Graham_Bell_1895_NPG_77_363.jpg/1280px-Alexander_Graham_Bell_1895_NPG_77_363.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "alt": "Picture from the Wikipedia article on Alexander Graham Bell.",
+        "credit": "Unknown author",
+        "source": "https://commons.wikimedia.org/wiki/File:Alexander_Graham_Bell_1895_NPG_77_363.jpg",
+        "license": "CC0",
+        "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/deed.en"
       }
     }
   ]

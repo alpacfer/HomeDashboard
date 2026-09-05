@@ -3,18 +3,17 @@
   "dateLabel": "16 March",
   "facts": [
     {
-      "id": "03-16-spain-francisco-ayala-novelist",
+      "id": "03-16-sachin-tendulkar",
       "date": "03-16",
       "dateLabel": "16 March",
-      "country": "spain",
-      "countryName": "Spain",
-      "kind": "births",
-      "year": 1906,
-      "title": "Francisco Ayala",
-      "body": "Francisco Ayala, Spanish sociologist, author, and translator (died 2009), was born on this day in 1906.",
+      "category": "sport",
+      "categoryName": "Sport",
+      "year": 2012,
+      "title": "Sachin Tendulkar",
+      "body": "Indian cricketer Sachin Tendulkar becomes the first batter in history to score 100 centuries in international cricket.",
       "source": {
-        "name": "Wikipedia · Francisco Ayala (novelist)",
-        "url": "https://en.wikipedia.org/wiki/Francisco_Ayala_(novelist)",
+        "name": "Wikipedia · Sachin Tendulkar",
+        "url": "https://en.wikipedia.org/wiki/Sachin_Tendulkar",
         "calendarUrl": "https://en.wikipedia.org/wiki/March_16",
         "license": {
           "name": "CC BY-SA 4.0",
@@ -22,27 +21,26 @@
         }
       },
       "image": {
-        "src": "https://upload.wikimedia.org/wikipedia/commons/0/0e/Francisco_Ayala_inicio.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
-        "alt": "Portrait or image of Francisco Ayala.",
-        "credit": "Fundación Francisco Ayala",
-        "source": "https://commons.wikimedia.org/wiki/File:Francisco_Ayala_inicio.jpg",
-        "license": "CC BY-SA 4.0",
-        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0"
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/3e/The_cricket_legend_Sachin_Tendulkar_at_the_Oval_Maidan_in_Mumbai_During_the_Duke_and_Duchess_of_Cambridge_Visit%2826271019082%29.jpg/1280px-The_cricket_legend_Sachin_Tendulkar_at_the_Oval_Maidan_in_Mumbai_During_the_Duke_and_Duchess_of_Cambridge_Visit%2826271019082%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "alt": "Picture from the Wikipedia article on Sachin Tendulkar.",
+        "credit": "British High Commission, New Delhi",
+        "source": "https://commons.wikimedia.org/wiki/File:The_cricket_legend_Sachin_Tendulkar_at_the_Oval_Maidan_in_Mumbai_During_the_Duke_and_Duchess_of_Cambridge_Visit(26271019082).jpg",
+        "license": "CC BY-SA 2.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0"
       }
     },
     {
-      "id": "03-16-denmark-kevin-smith-new-zealand-actor",
+      "id": "03-16-gemini-8",
       "date": "03-16",
       "dateLabel": "16 March",
-      "country": "denmark",
-      "countryName": "Denmark",
-      "kind": "births",
-      "year": 1963,
-      "title": "Kevin Smith",
-      "body": "Kevin Smith, New Zealand actor and singer (died 2002), was born on this day in 1963.",
+      "category": "space",
+      "categoryName": "Space",
+      "year": 1966,
+      "title": "Gemini 8",
+      "body": "Launch of Gemini 8 with astronauts Neil Armstrong and David Scott. It would perform the first docking of two spacecraft in orbit.",
       "source": {
-        "name": "Wikipedia · Kevin Smith (New Zealand actor)",
-        "url": "https://en.wikipedia.org/wiki/Kevin_Smith_(New_Zealand_actor)",
+        "name": "Wikipedia · Gemini 8",
+        "url": "https://en.wikipedia.org/wiki/Gemini_8",
         "calendarUrl": "https://en.wikipedia.org/wiki/March_16",
         "license": {
           "name": "CC BY-SA 4.0",
@@ -50,27 +48,26 @@
         }
       },
       "image": {
-        "src": "https://commons.wikimedia.org/wiki/Special:Redirect/file/Flag_of_Denmark.svg?width=1000",
-        "alt": "The national flag of Denmark.",
-        "credit": "Danish government",
-        "source": "https://commons.wikimedia.org/wiki/File:Flag_of_Denmark.svg",
+        "src": "https://upload.wikimedia.org/wikipedia/commons/7/75/Gemini8StationKeep.gif?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+        "alt": "Picture from the Wikipedia article on Gemini 8.",
+        "credit": "\"Gemini VIII, This is Houston Flight (1966)\"",
+        "source": "https://commons.wikimedia.org/wiki/File:Gemini8StationKeep.gif",
         "license": "Public domain",
-        "licenseUrl": "https://commons.wikimedia.org/wiki/File:Flag_of_Denmark.svg"
+        "licenseUrl": "https://commons.wikimedia.org/wiki/File:Gemini8StationKeep.gif"
       }
     },
     {
-      "id": "03-16-greece-evangelos-koronios",
+      "id": "03-16-jericho",
       "date": "03-16",
       "dateLabel": "16 March",
-      "country": "greece",
-      "countryName": "Greece",
-      "kind": "births",
-      "year": 1969,
-      "title": "Evangelos Koronios",
-      "body": "Evangelos Koronios, Greek basketball player and coach, was born on this day in 1969.",
+      "category": "world",
+      "categoryName": "World",
+      "year": 2005,
+      "title": "Jericho",
+      "body": "Israel officially hands over Jericho to Palestinian control.",
       "source": {
-        "name": "Wikipedia · Evangelos Koronios",
-        "url": "https://en.wikipedia.org/wiki/Evangelos_Koronios",
+        "name": "Wikipedia · Jericho",
+        "url": "https://en.wikipedia.org/wiki/Jericho",
         "calendarUrl": "https://en.wikipedia.org/wiki/March_16",
         "license": {
           "name": "CC BY-SA 4.0",
@@ -78,12 +75,12 @@
         }
       },
       "image": {
-        "src": "https://commons.wikimedia.org/wiki/Special:Redirect/file/Flag_of_Greece.svg?width=1000",
-        "alt": "The national flag of Greece.",
-        "credit": "Greek government",
-        "source": "https://commons.wikimedia.org/wiki/File:Flag_of_Greece.svg",
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f4/Tell_es-sultan.jpg/1280px-Tell_es-sultan.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "alt": "Picture from the Wikipedia article on Jericho.",
+        "credit": "Fullo88 at Italian Wikipedia",
+        "source": "https://commons.wikimedia.org/wiki/File:Tell_es-sultan.jpg",
         "license": "Public domain",
-        "licenseUrl": "https://commons.wikimedia.org/wiki/File:Flag_of_Greece.svg"
+        "licenseUrl": "https://commons.wikimedia.org/wiki/File:Tell_es-sultan.jpg"
       }
     }
   ]

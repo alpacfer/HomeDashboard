@@ -3,18 +3,17 @@
   "dateLabel": "12 January",
   "facts": [
     {
-      "id": "01-12-spain-casas-viejas-incident",
+      "id": "01-12-deep-impact-spacecraft",
       "date": "01-12",
       "dateLabel": "12 January",
-      "country": "spain",
-      "countryName": "Spain",
-      "kind": "events",
-      "year": 1933,
-      "title": "Casas Viejas incident",
-      "body": "1933: Casas Viejas incident: 22 peasants killed by the Security and Assault Corps in Casas Viejas, Spain.",
+      "category": "space",
+      "categoryName": "Space",
+      "year": 2005,
+      "title": "Deep Impact",
+      "body": "Deep Impact launches from Cape Canaveral on a Delta II rocket.",
       "source": {
-        "name": "Wikipedia · Casas Viejas incident",
-        "url": "https://en.wikipedia.org/wiki/Casas_Viejas_incident",
+        "name": "Wikipedia · Deep Impact (spacecraft)",
+        "url": "https://en.wikipedia.org/wiki/Deep_Impact_(spacecraft)",
         "calendarUrl": "https://en.wikipedia.org/wiki/January_12",
         "license": {
           "name": "CC BY-SA 4.0",
@@ -22,55 +21,26 @@
         }
       },
       "image": {
-        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/0f/Casas_Viejas_Espacio.jpg/1280px-Casas_Viejas_Espacio.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-        "alt": "Image related to Casas Viejas incident.",
-        "credit": "Xemenendura",
-        "source": "https://commons.wikimedia.org/wiki/File:Casas_Viejas_Espacio.jpg",
-        "license": "CC BY-SA 4.0",
-        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0"
-      }
-    },
-    {
-      "id": "01-12-denmark-dick-motz",
-      "date": "01-12",
-      "dateLabel": "12 January",
-      "country": "denmark",
-      "countryName": "Denmark",
-      "kind": "births",
-      "year": 1940,
-      "title": "Dick Motz",
-      "body": "Dick Motz, New Zealand cricketer (died 2007), was born on this day in 1940.",
-      "source": {
-        "name": "Wikipedia · Dick Motz",
-        "url": "https://en.wikipedia.org/wiki/Dick_Motz",
-        "calendarUrl": "https://en.wikipedia.org/wiki/January_12",
-        "license": {
-          "name": "CC BY-SA 4.0",
-          "url": "https://creativecommons.org/licenses/by-sa/4.0/"
-        }
-      },
-      "image": {
-        "src": "https://upload.wikimedia.org/wikipedia/commons/6/64/Dick_Motz%2C_1961.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
-        "alt": "Portrait or image of Dick Motz.",
-        "credit": "Unknown photographer",
-        "source": "https://commons.wikimedia.org/wiki/File:Dick_Motz,_1961.jpg",
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/3d/Deep_Impact.jpg/1280px-Deep_Impact.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "alt": "Picture from the Wikipedia article on Deep Impact.",
+        "credit": "NASA/JPL",
+        "source": "https://commons.wikimedia.org/wiki/File:Deep_Impact.jpg",
         "license": "Public domain",
-        "licenseUrl": "https://commons.wikimedia.org/wiki/File:Dick_Motz,_1961.jpg"
+        "licenseUrl": "https://commons.wikimedia.org/wiki/File:Deep_Impact.jpg"
       }
     },
     {
-      "id": "01-12-greece-list-of-byzantine-emperors",
+      "id": "01-12-downtown-disney",
       "date": "01-12",
       "dateLabel": "12 January",
-      "country": "greece",
-      "countryName": "Greece",
-      "kind": "events",
-      "year": 475,
-      "title": "Byzantine Emperor",
-      "body": "475: Byzantine Emperor Zeno is forced to flee his capital at Constantinople, and his general, Basiliscus gains control of the empire.",
+      "category": "culture",
+      "categoryName": "Culture",
+      "year": 2001,
+      "title": "Downtown Disney",
+      "body": "Downtown Disney opens to the public as part of the Disneyland Resort in Anaheim, California.",
       "source": {
-        "name": "Wikipedia · List of Byzantine emperors",
-        "url": "https://en.wikipedia.org/wiki/List_of_Byzantine_emperors",
+        "name": "Wikipedia · Downtown Disney",
+        "url": "https://en.wikipedia.org/wiki/Downtown_Disney",
         "calendarUrl": "https://en.wikipedia.org/wiki/January_12",
         "license": {
           "name": "CC BY-SA 4.0",
@@ -78,12 +48,39 @@
         }
       },
       "image": {
-        "src": "https://upload.wikimedia.org/wikipedia/commons/b/b6/Konstantinos_XI_Palaiologos_fresco_%28less_edited%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
-        "alt": "Image related to Byzantine Emperor.",
-        "credit": "ILoveHirasawaYui",
-        "source": "https://commons.wikimedia.org/wiki/File:Konstantinos_XI_Palaiologos_fresco_(less_edited).jpg",
-        "license": "CC0",
-        "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/deed.en"
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/12/Downtown_Disney%2C_2025.jpg/1280px-Downtown_Disney%2C_2025.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "alt": "Picture from the Wikipedia article on Downtown Disney.",
+        "credit": "Contributor19",
+        "source": "https://commons.wikimedia.org/wiki/File:Downtown_Disney,_2025.jpg",
+        "license": "CC BY 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by/4.0"
+      }
+    },
+    {
+      "id": "01-12-united-nations-security-council",
+      "date": "01-12",
+      "dateLabel": "12 January",
+      "category": "world",
+      "categoryName": "World",
+      "year": 1976,
+      "title": "United Nations Security Council",
+      "body": "The United Nations Security Council votes 11–1 to allow the Palestine Liberation Organization to participate in a Security Council debate (without voting rights).",
+      "source": {
+        "name": "Wikipedia · United Nations Security Council",
+        "url": "https://en.wikipedia.org/wiki/United_Nations_Security_Council",
+        "calendarUrl": "https://en.wikipedia.org/wiki/January_12",
+        "license": {
+          "name": "CC BY-SA 4.0",
+          "url": "https://creativecommons.org/licenses/by-sa/4.0/"
+        }
+      },
+      "image": {
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/52/Emblem_of_the_United_Nations.svg/1280px-Emblem_of_the_United_Nations.svg.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "alt": "Picture from the Wikipedia article on United Nations Security Council.",
+        "credit": "Joowwww",
+        "source": "https://commons.wikimedia.org/wiki/File:Emblem_of_the_United_Nations.svg",
+        "license": "Public domain",
+        "licenseUrl": "https://commons.wikimedia.org/wiki/File:Emblem_of_the_United_Nations.svg"
       }
     }
   ]

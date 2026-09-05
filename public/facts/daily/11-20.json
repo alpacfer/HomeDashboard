@@ -3,18 +3,17 @@
   "dateLabel": "20 November",
   "facts": [
     {
-      "id": "11-20-spain-battle-of-porto-bello-1739",
+      "id": "11-20-zarya-iss-module",
       "date": "11-20",
       "dateLabel": "20 November",
-      "country": "spain",
-      "countryName": "Spain",
-      "kind": "events",
-      "year": 1739,
-      "title": "Battle of Porto Bello",
-      "body": "1739: Start of the Battle of Porto Bello between British and Spanish forces during the War of Jenkins' Ear.",
+      "category": "space",
+      "categoryName": "Space",
+      "year": 1998,
+      "title": "Zarya",
+      "body": "The first space station module component, Zarya, for the International Space Station is launched from the Baikonur Cosmodrome in Kazakhstan.",
       "source": {
-        "name": "Wikipedia · Battle of Porto Bello (1739)",
-        "url": "https://en.wikipedia.org/wiki/Battle_of_Porto_Bello_(1739)",
+        "name": "Wikipedia · Zarya (ISS module)",
+        "url": "https://en.wikipedia.org/wiki/Zarya_(ISS_module)",
         "calendarUrl": "https://en.wikipedia.org/wiki/November_20",
         "license": {
           "name": "CC BY-SA 4.0",
@@ -22,27 +21,26 @@
         }
       },
       "image": {
-        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/35/The_Capture_of_Puerto_Bello%2C_21_November_1739_RMG_BHC0354.tiff/lossy-page1-1280px-The_Capture_of_Puerto_Bello%2C_21_November_1739_RMG_BHC0354.tiff.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-        "alt": "Image related to Battle of Porto Bello.",
-        "credit": "Samuel Scott",
-        "source": "https://commons.wikimedia.org/wiki/File:The_Capture_of_Puerto_Bello,_21_November_1739_RMG_BHC0354.tiff",
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/db/Zarya_from_STS-88.jpg/1280px-Zarya_from_STS-88.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "alt": "Picture from the Wikipedia article on Zarya.",
+        "credit": "https://images.nasa.gov/details/sts088-719-059 http://spaceflight.nasa.gov/gallery/images/shuttle/sts-88/html/sts088-719-059.html",
+        "source": "https://commons.wikimedia.org/wiki/File:Zarya_from_STS-88.jpg",
         "license": "Public domain",
-        "licenseUrl": "https://commons.wikimedia.org/wiki/File:The_Capture_of_Puerto_Bello,_21_November_1739_RMG_BHC0354.tiff"
+        "licenseUrl": "https://commons.wikimedia.org/wiki/File:Zarya_from_STS-88.jpg"
       }
     },
     {
-      "id": "11-20-denmark-harald-madsen",
+      "id": "11-20-czechoslovakia",
       "date": "11-20",
       "dateLabel": "20 November",
-      "country": "denmark",
-      "countryName": "Denmark",
-      "kind": "births",
-      "year": 1890,
-      "title": "Harald Madsen",
-      "body": "Harald Madsen, Danish actor (died 1949), was born on this day in 1890.",
+      "category": "world",
+      "categoryName": "World",
+      "year": 1989,
+      "title": "Czechoslovakia",
+      "body": "The number of protesters assembled in Prague, Czechoslovakia, swells from 200,000 the day before to an estimated half-million.",
       "source": {
-        "name": "Wikipedia · Harald Madsen",
-        "url": "https://en.wikipedia.org/wiki/Harald_Madsen",
+        "name": "Wikipedia · Czechoslovakia",
+        "url": "https://en.wikipedia.org/wiki/Czechoslovakia",
         "calendarUrl": "https://en.wikipedia.org/wiki/November_20",
         "license": {
           "name": "CC BY-SA 4.0",
@@ -50,27 +48,26 @@
         }
       },
       "image": {
-        "src": "https://upload.wikimedia.org/wikipedia/commons/7/7c/Fy_og_bi.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
-        "alt": "Portrait or image of Harald Madsen.",
-        "credit": "Photographer: Henning Stenberg",
-        "source": "https://commons.wikimedia.org/wiki/File:Fy_og_bi.jpg",
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/cb/Flag_of_the_Czech_Republic.svg/1280px-Flag_of_the_Czech_Republic.svg.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "alt": "Picture from the Wikipedia article on Czechoslovakia.",
+        "credit": "Jaroslav Kursa",
+        "source": "https://commons.wikimedia.org/wiki/File:Flag_of_the_Czech_Republic.svg",
         "license": "Public domain",
-        "licenseUrl": "https://commons.wikimedia.org/wiki/File:Fy_og_bi.jpg"
+        "licenseUrl": "https://commons.wikimedia.org/wiki/File:Flag_of_the_Czech_Republic.svg"
       }
     },
     {
-      "id": "11-20-greece-georgios-sinas",
+      "id": "11-20-jimmie-johnson",
       "date": "11-20",
       "dateLabel": "20 November",
-      "country": "greece",
-      "countryName": "Greece",
-      "kind": "births",
-      "year": 1783,
-      "title": "Georgios Sinas",
-      "body": "Georgios Sinas, Greek entrepreneur and banker (died 1856), was born on this day in 1783.",
+      "category": "sport",
+      "categoryName": "Sport",
+      "year": 2016,
+      "title": "Jimmie Johnson",
+      "body": "Jimmie Johnson wins his seventh NASCAR Cup Series championship to tie Richard Petty and Dale Earnhardt for the most all-time.",
       "source": {
-        "name": "Wikipedia · Georgios Sinas",
-        "url": "https://en.wikipedia.org/wiki/Georgios_Sinas",
+        "name": "Wikipedia · Jimmie Johnson",
+        "url": "https://en.wikipedia.org/wiki/Jimmie_Johnson",
         "calendarUrl": "https://en.wikipedia.org/wiki/November_20",
         "license": {
           "name": "CC BY-SA 4.0",
@@ -78,12 +75,12 @@
         }
       },
       "image": {
-        "src": "https://upload.wikimedia.org/wikipedia/commons/5/52/Georgiossinas.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
-        "alt": "Portrait or image of Georgios Sinas.",
-        "credit": "Wikimedia Commons contributor",
-        "source": "https://commons.wikimedia.org/wiki/File:Georgiossinas.jpg",
-        "license": "Public domain",
-        "licenseUrl": "https://commons.wikimedia.org/wiki/File:Georgiossinas.jpg"
+        "src": "https://upload.wikimedia.org/wikipedia/commons/0/0f/Jimmie_Johnson_Sonoma_2026.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+        "alt": "Picture from the Wikipedia article on Jimmie Johnson.",
+        "credit": "TaurusEmerald",
+        "source": "https://commons.wikimedia.org/wiki/File:Jimmie_Johnson_Sonoma_2026.jpg",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0"
       }
     }
   ]

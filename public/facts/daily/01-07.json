@@ -3,46 +3,17 @@
   "dateLabel": "7 January",
   "facts": [
     {
-      "id": "01-07-spain-daylight",
+      "id": "01-07-japan-aerospace-exploration-agency",
       "date": "01-07",
       "dateLabel": "7 January",
-      "country": "spain",
-      "countryName": "Spain",
-      "kind": "daylight",
-      "year": 0,
-      "title": "Madrid's daylight",
-      "body": "On 7 January, Madrid gets about 9 hours and 25 minutes of daylight.",
+      "category": "space",
+      "categoryName": "Space",
+      "year": 1985,
+      "title": "JAXA",
+      "body": "Japan Aerospace Exploration Agency launches Sakigake, Japan's first interplanetary spacecraft and the first deep space probe to be launched by any country other than the United States or the Soviet Union.",
       "source": {
-        "name": "NOAA Solar Calculator",
-        "url": "https://gml.noaa.gov/grad/solcalc/",
-        "calendarUrl": "https://gml.noaa.gov/grad/solcalc/calcdetails.html",
-        "license": {
-          "name": "public-domain NOAA method",
-          "url": "https://www.noaa.gov/disclaimer"
-        }
-      },
-      "image": {
-        "src": "https://commons.wikimedia.org/wiki/Special:Redirect/file/Flag_of_Spain.svg?width=1000",
-        "alt": "The national flag of Spain.",
-        "credit": "Government of Spain",
-        "source": "https://commons.wikimedia.org/wiki/File:Flag_of_Spain.svg",
-        "license": "Public domain",
-        "licenseUrl": "https://commons.wikimedia.org/wiki/File:Flag_of_Spain.svg"
-      }
-    },
-    {
-      "id": "01-07-denmark-guy-menzies",
-      "date": "01-07",
-      "dateLabel": "7 January",
-      "country": "denmark",
-      "countryName": "Denmark",
-      "kind": "events",
-      "year": 1931,
-      "title": "Guy Menzies",
-      "body": "1931: Guy Menzies flies the first solo non-stop trans-Tasman flight (from Australia to New Zealand) in 11 hours and 45 minutes, crash-landing on New Zealand's west coast.",
-      "source": {
-        "name": "Wikipedia · Guy Menzies",
-        "url": "https://en.wikipedia.org/wiki/Guy_Menzies",
+        "name": "Wikipedia · JAXA",
+        "url": "https://en.wikipedia.org/wiki/JAXA",
         "calendarUrl": "https://en.wikipedia.org/wiki/January_7",
         "license": {
           "name": "CC BY-SA 4.0",
@@ -50,27 +21,26 @@
         }
       },
       "image": {
-        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e0/Guy_Menzies_with_propeller_%28cropped%29.jpg/1280px-Guy_Menzies_with_propeller_%28cropped%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-        "alt": "Image related to Guy Menzies.",
-        "credit": "Fairfax Corporation",
-        "source": "https://commons.wikimedia.org/wiki/File:Guy_Menzies_with_propeller_(cropped).jpg",
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/85/Jaxa_logo.svg/1280px-Jaxa_logo.svg.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "alt": "Picture from the Wikipedia article on JAXA.",
+        "credit": "JAXA",
+        "source": "https://commons.wikimedia.org/wiki/File:Jaxa_logo.svg",
         "license": "Public domain",
-        "licenseUrl": "https://commons.wikimedia.org/wiki/File:Guy_Menzies_with_propeller_(cropped).jpg"
+        "licenseUrl": "https://commons.wikimedia.org/wiki/File:Jaxa_logo.svg"
       }
     },
     {
-      "id": "01-07-greece-constantinople",
+      "id": "01-07-marian-anderson",
       "date": "01-07",
       "dateLabel": "7 January",
-      "country": "greece",
-      "countryName": "Greece",
-      "kind": "events",
-      "year": 1078,
-      "title": "Constantinople",
-      "body": "1078: The people of Constantinople revolt, lynch the unpopular official Nikephoritzes and proclaim Nikephoros Botaneiates as emperor.",
+      "category": "culture",
+      "categoryName": "Culture",
+      "year": 1955,
+      "title": "Marian Anderson",
+      "body": "Contralto Marian Anderson becomes the first person of color to perform at the Metropolitan Opera in Giuseppe Verdi's Un ballo in maschera.",
       "source": {
-        "name": "Wikipedia · Constantinople",
-        "url": "https://en.wikipedia.org/wiki/Constantinople",
+        "name": "Wikipedia · Marian Anderson",
+        "url": "https://en.wikipedia.org/wiki/Marian_Anderson",
         "calendarUrl": "https://en.wikipedia.org/wiki/January_7",
         "license": {
           "name": "CC BY-SA 4.0",
@@ -78,10 +48,37 @@
         }
       },
       "image": {
-        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/bb/Byzantine_Constantinople-en.png/1280px-Byzantine_Constantinople-en.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-        "alt": "Image related to Constantinople.",
-        "credit": "Cplakidas",
-        "source": "https://commons.wikimedia.org/wiki/File:Byzantine_Constantinople-en.png",
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/7f/Marian_Anderson_by_Carl_Van_Vechten_%28cropped%29.jpg/1280px-Marian_Anderson_by_Carl_Van_Vechten_%28cropped%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "alt": "Picture from the Wikipedia article on Marian Anderson.",
+        "credit": "Carl Van Vechten",
+        "source": "https://commons.wikimedia.org/wiki/File:Marian_Anderson_by_Carl_Van_Vechten_(cropped).jpg",
+        "license": "Public domain",
+        "licenseUrl": "https://commons.wikimedia.org/wiki/File:Marian_Anderson_by_Carl_Van_Vechten_(cropped).jpg"
+      }
+    },
+    {
+      "id": "01-07-machine-translation",
+      "date": "01-07",
+      "dateLabel": "7 January",
+      "category": "tech",
+      "categoryName": "Tech",
+      "year": 1954,
+      "title": "Machine translation",
+      "body": "The first public demonstration of a machine translation system is held in New York at the head office of IBM.",
+      "source": {
+        "name": "Wikipedia · Machine translation",
+        "url": "https://en.wikipedia.org/wiki/Machine_translation",
+        "calendarUrl": "https://en.wikipedia.org/wiki/January_7",
+        "license": {
+          "name": "CC BY-SA 4.0",
+          "url": "https://creativecommons.org/licenses/by-sa/4.0/"
+        }
+      },
+      "image": {
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/8f/WordLensDemo5Feb2012.jpg/1280px-WordLensDemo5Feb2012.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "alt": "Picture from the Wikipedia article on Machine translation.",
+        "credit": "Quest Visual, Inc. ZTebaykina at en.wikipedia",
+        "source": "https://commons.wikimedia.org/wiki/File:WordLensDemo5Feb2012.jpg",
         "license": "CC BY-SA 3.0",
         "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0"
       }

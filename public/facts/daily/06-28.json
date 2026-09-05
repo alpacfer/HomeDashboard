@@ -3,18 +3,17 @@
   "dateLabel": "28 June",
   "facts": [
     {
-      "id": "06-28-spain-battle-of-seminara",
+      "id": "06-28-nakhla-meteorite",
       "date": "06-28",
       "dateLabel": "28 June",
-      "country": "spain",
-      "countryName": "Spain",
-      "kind": "events",
-      "year": 1495,
-      "title": "battle of Seminara",
-      "body": "1495: A French force heavily defeats a much larger Neapolitan and Spanish army at the battle of Seminara, leading to the creation of the Tercios by Gonzalo de Córdoba.",
+      "category": "space",
+      "categoryName": "Space",
+      "year": 1911,
+      "title": "Nakhla meteorite",
+      "body": "The Nakhla meteorite, the first one to suggest signs of aqueous processes on Mars, falls to Earth, landing in Egypt.",
       "source": {
-        "name": "Wikipedia · Battle of Seminara",
-        "url": "https://en.wikipedia.org/wiki/Battle_of_Seminara",
+        "name": "Wikipedia · Nakhla meteorite",
+        "url": "https://en.wikipedia.org/wiki/Nakhla_meteorite",
         "calendarUrl": "https://en.wikipedia.org/wiki/June_28",
         "license": {
           "name": "CC BY-SA 4.0",
@@ -22,27 +21,26 @@
         }
       },
       "image": {
-        "src": "https://upload.wikimedia.org/wikipedia/commons/a/a6/Battle_of_Seminara%2C_1495.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
-        "alt": "Image related to battle of Seminara.",
-        "credit": "Wikimedia Commons contributor",
-        "source": "https://commons.wikimedia.org/wiki/File:Battle_of_Seminara,_1495.jpg",
+        "src": "https://upload.wikimedia.org/wikipedia/commons/c/c1/Nakhla_meteorite.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+        "alt": "Picture from the Wikipedia article on Nakhla meteorite.",
+        "credit": "NASA",
+        "source": "https://commons.wikimedia.org/wiki/File:Nakhla_meteorite.jpg",
         "license": "Public domain",
-        "licenseUrl": "https://commons.wikimedia.org/wiki/File:Battle_of_Seminara,_1495.jpg"
+        "licenseUrl": "https://commons.wikimedia.org/wiki/File:Nakhla_meteorite.jpg"
       }
     },
     {
-      "id": "06-28-denmark-jens-birkemose",
+      "id": "06-28-pozna",
       "date": "06-28",
       "dateLabel": "28 June",
-      "country": "denmark",
-      "countryName": "Denmark",
-      "kind": "births",
-      "year": 1943,
-      "title": "Jens Birkemose",
-      "body": "Jens Birkemose, Danish painter (died 2022), was born on this day in 1943.",
+      "category": "world",
+      "categoryName": "World",
+      "year": 1956,
+      "title": "Poznań",
+      "body": "In Poznań, workers from HCP factory go to the streets, sparking one of the first major protests against communist government both in Poland and Europe.",
       "source": {
-        "name": "Wikipedia · Jens Birkemose",
-        "url": "https://en.wikipedia.org/wiki/Jens_Birkemose",
+        "name": "Wikipedia · Poznań",
+        "url": "https://en.wikipedia.org/wiki/Pozna%C5%84",
         "calendarUrl": "https://en.wikipedia.org/wiki/June_28",
         "license": {
           "name": "CC BY-SA 4.0",
@@ -50,27 +48,26 @@
         }
       },
       "image": {
-        "src": "https://commons.wikimedia.org/wiki/Special:Redirect/file/Flag_of_Denmark.svg?width=1000",
-        "alt": "The national flag of Denmark.",
-        "credit": "Danish government",
-        "source": "https://commons.wikimedia.org/wiki/File:Flag_of_Denmark.svg",
-        "license": "Public domain",
-        "licenseUrl": "https://commons.wikimedia.org/wiki/File:Flag_of_Denmark.svg"
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d9/Stary_Rynek_w_Poznaniu%2C_widok_z_drona_%28cropped%29.jpg/1280px-Stary_Rynek_w_Poznaniu%2C_widok_z_drona_%28cropped%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "alt": "Picture from the Wikipedia article on Poznań.",
+        "credit": "Aneta Pawska",
+        "source": "https://commons.wikimedia.org/wiki/File:Stary_Rynek_w_Poznaniu,_widok_z_drona_(cropped).jpg",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0"
       }
     },
     {
-      "id": "06-28-greece-greece-during-world-war-i",
+      "id": "06-28-northern-ireland-assembly-1973",
       "date": "06-28",
       "dateLabel": "28 June",
-      "country": "greece",
-      "countryName": "Greece",
-      "kind": "events",
-      "year": 1917,
-      "title": "Greece joins",
-      "body": "1917: World War I: Greece joins the Allied powers.",
+      "category": "world",
+      "categoryName": "World",
+      "year": 1973,
+      "title": "Northern Ireland Assembly",
+      "body": "Elections are held for the Northern Ireland Assembly, which will lead to power-sharing between unionists and nationalists in Northern Ireland for the first time.",
       "source": {
-        "name": "Wikipedia · Greece during World War I",
-        "url": "https://en.wikipedia.org/wiki/Greece_during_World_War_I",
+        "name": "Wikipedia · Northern Ireland Assembly (1973)",
+        "url": "https://en.wikipedia.org/wiki/Northern_Ireland_Assembly_(1973)",
         "calendarUrl": "https://en.wikipedia.org/wiki/June_28",
         "license": {
           "name": "CC BY-SA 4.0",
@@ -78,12 +75,12 @@
         }
       },
       "image": {
-        "src": "https://upload.wikimedia.org/wikipedia/commons/5/57/Serbia-WW1-4.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
-        "alt": "Image related to Greece joins.",
-        "credit": "General Vincent Esposito",
-        "source": "https://commons.wikimedia.org/wiki/File:Serbia-WW1-4.jpg",
-        "license": "Public domain",
-        "licenseUrl": "https://commons.wikimedia.org/wiki/File:Serbia-WW1-4.jpg"
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c8/StormontGeneral.jpg/1280px-StormontGeneral.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "alt": "Picture from the Wikipedia article on Northern Ireland Assembly.",
+        "credit": "https://www.flickr.com/photos/robertpaulyoung/",
+        "source": "https://commons.wikimedia.org/wiki/File:StormontGeneral.jpg",
+        "license": "CC BY 2.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by/2.0"
       }
     }
   ]

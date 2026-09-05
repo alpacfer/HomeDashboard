@@ -3,18 +3,17 @@
   "dateLabel": "3 January",
   "facts": [
     {
-      "id": "01-03-spain-federico-borrell-garc-a",
+      "id": "01-03-chang-e-4",
       "date": "01-03",
       "dateLabel": "3 January",
-      "country": "spain",
-      "countryName": "Spain",
-      "kind": "births",
-      "year": 1912,
-      "title": "Federico Borrell García",
-      "body": "Federico Borrell García, Spanish soldier (died 1936), was born on this day in 1912.",
+      "category": "space",
+      "categoryName": "Space",
+      "year": 2019,
+      "title": "Chang'e 4",
+      "body": "Chang'e 4 makes the first soft landing on the far side of the Moon, deploying the Yutu-2 lunar rover.",
       "source": {
-        "name": "Wikipedia · Federico Borrell García",
-        "url": "https://en.wikipedia.org/wiki/Federico_Borrell_Garc%C3%ADa",
+        "name": "Wikipedia · Chang'e 4",
+        "url": "https://en.wikipedia.org/wiki/Chang%27e_4",
         "calendarUrl": "https://en.wikipedia.org/wiki/January_3",
         "license": {
           "name": "CC BY-SA 4.0",
@@ -22,27 +21,26 @@
         }
       },
       "image": {
-        "src": "https://commons.wikimedia.org/wiki/Special:Redirect/file/Flag_of_Spain.svg?width=1000",
-        "alt": "The national flag of Spain.",
-        "credit": "Government of Spain",
-        "source": "https://commons.wikimedia.org/wiki/File:Flag_of_Spain.svg",
-        "license": "Public domain",
-        "licenseUrl": "https://commons.wikimedia.org/wiki/File:Flag_of_Spain.svg"
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/48/ChangE-4_-_PCAM.png/1280px-ChangE-4_-_PCAM.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "alt": "Picture from the Wikipedia article on Chang'e 4.",
+        "credit": "CSNA/Siyu Zhang/Kevin M. Gill",
+        "source": "https://commons.wikimedia.org/wiki/File:ChangE-4_-_PCAM.png",
+        "license": "CC BY 2.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by/2.0"
       }
     },
     {
-      "id": "01-03-denmark-berlingske",
+      "id": "01-03-apple-inc",
       "date": "01-03",
       "dateLabel": "3 January",
-      "country": "denmark",
-      "countryName": "Denmark",
-      "kind": "events",
-      "year": 1749,
-      "title": "Berlingske",
-      "body": "1749: The first issue of Berlingske, Denmark's oldest continually operating newspaper, is published.",
+      "category": "tech",
+      "categoryName": "Tech",
+      "year": 1977,
+      "title": "Apple Inc.",
+      "body": "Apple Computer is incorporated.",
       "source": {
-        "name": "Wikipedia · Berlingske",
-        "url": "https://en.wikipedia.org/wiki/Berlingske",
+        "name": "Wikipedia · Apple Inc.",
+        "url": "https://en.wikipedia.org/wiki/Apple_Inc.",
         "calendarUrl": "https://en.wikipedia.org/wiki/January_3",
         "license": {
           "name": "CC BY-SA 4.0",
@@ -50,27 +48,26 @@
         }
       },
       "image": {
-        "src": "https://commons.wikimedia.org/wiki/Special:Redirect/file/Flag_of_Denmark.svg?width=1000",
-        "alt": "The national flag of Denmark.",
-        "credit": "Danish government",
-        "source": "https://commons.wikimedia.org/wiki/File:Flag_of_Denmark.svg",
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/fa/Apple_logo_black.svg/1280px-Apple_logo_black.svg.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "alt": "Picture from the Wikipedia article on Apple Inc..",
+        "credit": "Original: Rob Janoff",
+        "source": "https://commons.wikimedia.org/wiki/File:Apple_logo_black.svg",
         "license": "Public domain",
-        "licenseUrl": "https://commons.wikimedia.org/wiki/File:Flag_of_Denmark.svg"
+        "licenseUrl": "https://commons.wikimedia.org/wiki/File:Apple_logo_black.svg"
       }
     },
     {
-      "id": "01-03-greece-first-balkan-war",
+      "id": "01-03-mars-polar-lander",
       "date": "01-03",
       "dateLabel": "3 January",
-      "country": "greece",
-      "countryName": "Greece",
-      "kind": "events",
-      "year": 1913,
-      "title": "First Balkan War",
-      "body": "1913: First Balkan War: Greece completes its capture of the eastern Aegean island of Chios, as the last Ottoman forces on the island surrender.",
+      "category": "space",
+      "categoryName": "Space",
+      "year": 1999,
+      "title": "Mars Polar Lander",
+      "body": "The Mars Polar Lander is launched by NASA.",
       "source": {
-        "name": "Wikipedia · First Balkan War",
-        "url": "https://en.wikipedia.org/wiki/First_Balkan_War",
+        "name": "Wikipedia · Mars Polar Lander",
+        "url": "https://en.wikipedia.org/wiki/Mars_Polar_Lander",
         "calendarUrl": "https://en.wikipedia.org/wiki/January_3",
         "license": {
           "name": "CC BY-SA 4.0",
@@ -78,12 +75,12 @@
         }
       },
       "image": {
-        "src": "https://upload.wikimedia.org/wikipedia/commons/6/68/Balkanskata_voina_Photobox.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
-        "alt": "Image related to First Balkan War.",
-        "credit": "Avidius (talk)",
-        "source": "https://commons.wikimedia.org/wiki/File:Balkanskata_voina_Photobox.jpg",
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/96/Mars_Polar_Lander_-_artist_depiction.png/1280px-Mars_Polar_Lander_-_artist_depiction.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "alt": "Picture from the Wikipedia article on Mars Polar Lander.",
+        "credit": "NASA / JPL",
+        "source": "https://commons.wikimedia.org/wiki/File:Mars_Polar_Lander_-_artist_depiction.png",
         "license": "Public domain",
-        "licenseUrl": "https://commons.wikimedia.org/wiki/File:Balkanskata_voina_Photobox.jpg"
+        "licenseUrl": "https://commons.wikimedia.org/wiki/File:Mars_Polar_Lander_-_artist_depiction.png"
       }
     }
   ]

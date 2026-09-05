@@ -3,18 +3,17 @@
   "dateLabel": "5 April",
   "facts": [
     {
-      "id": "04-05-spain-battle-of-maip",
+      "id": "04-05-carrie-novel",
       "date": "04-05",
       "dateLabel": "5 April",
-      "country": "spain",
-      "countryName": "Spain",
-      "kind": "events",
-      "year": 1818,
-      "title": "Battle of Maipú",
-      "body": "1818: In the Battle of Maipú, Chile's independence movement, led by Bernardo O'Higgins and José de San Martín, win a decisive victory over Spain, leaving 2,000 Spaniards and 1,000 Chilean patriots dead.",
+      "category": "culture",
+      "categoryName": "Culture",
+      "year": 1974,
+      "title": "Carrie",
+      "body": "Carrie, the first novel by American author Stephen King, is published for the first time with a print run of 30,000 copies.",
       "source": {
-        "name": "Wikipedia · Battle of Maipú",
-        "url": "https://en.wikipedia.org/wiki/Battle_of_Maip%C3%BA",
+        "name": "Wikipedia · Carrie (novel)",
+        "url": "https://en.wikipedia.org/wiki/Carrie_(novel)",
         "calendarUrl": "https://en.wikipedia.org/wiki/April_5",
         "license": {
           "name": "CC BY-SA 4.0",
@@ -22,27 +21,26 @@
         }
       },
       "image": {
-        "src": "https://upload.wikimedia.org/wikipedia/commons/1/17/BatallaDeMaipu.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
-        "alt": "Image related to Battle of Maipú.",
-        "credit": "Johann Moritz Rugendas",
-        "source": "https://commons.wikimedia.org/wiki/File:BatallaDeMaipu.jpg",
+        "src": "https://upload.wikimedia.org/wikipedia/commons/e/e0/Carrie_%281974%29_front_cover%2C_first_edition.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+        "alt": "Picture from the Wikipedia article on Carrie.",
+        "credit": "Jacket by Alex Gotfryd Photo by Alex Gotfryd",
+        "source": "https://commons.wikimedia.org/wiki/File:Carrie_(1974)_front_cover,_first_edition.jpg",
         "license": "Public domain",
-        "licenseUrl": "https://commons.wikimedia.org/wiki/File:BatallaDeMaipu.jpg"
+        "licenseUrl": "https://commons.wikimedia.org/wiki/File:Carrie_(1974)_front_cover,_first_edition.jpg"
       }
     },
     {
-      "id": "04-05-denmark-soviet",
+      "id": "04-05-us-supreme-court",
       "date": "04-05",
       "dateLabel": "5 April",
-      "country": "denmark",
-      "countryName": "Denmark",
-      "kind": "events",
-      "year": 1946,
-      "title": "Soviet",
-      "body": "1946: Soviet troops end their year-long occupation of the Danish island of Bornholm.",
+      "category": "world",
+      "categoryName": "World",
+      "year": 1977,
+      "title": "Supreme Court of the United States",
+      "body": "The US Supreme Court rules that congressional legislation that diminished the size of the Sioux people's reservation thereby destroyed the tribe's jurisdictional authority over the area in Rosebud Sioux Tribe v. Kneip.",
       "source": {
-        "name": "Wikipedia · Soviet Union",
-        "url": "https://en.wikipedia.org/wiki/Soviet_Union",
+        "name": "Wikipedia · Supreme Court of the United States",
+        "url": "https://en.wikipedia.org/wiki/Supreme_Court_of_the_United_States",
         "calendarUrl": "https://en.wikipedia.org/wiki/April_5",
         "license": {
           "name": "CC BY-SA 4.0",
@@ -50,27 +48,26 @@
         }
       },
       "image": {
-        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a9/Flag_of_the_Soviet_Union.svg/1280px-Flag_of_the_Soviet_Union.svg.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-        "alt": "Image related to Soviet.",
-        "credit": "СССР",
-        "source": "https://commons.wikimedia.org/wiki/File:Flag_of_the_Soviet_Union.svg",
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f3/Seal_of_the_United_States_Supreme_Court.svg/1280px-Seal_of_the_United_States_Supreme_Court.svg.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "alt": "Picture from the Wikipedia article on Supreme Court of the United States.",
+        "credit": "Original: Optimager Vector: Ipankonin",
+        "source": "https://commons.wikimedia.org/wiki/File:Seal_of_the_United_States_Supreme_Court.svg",
         "license": "Public domain",
-        "licenseUrl": "https://commons.wikimedia.org/wiki/File:Flag_of_the_Soviet_Union.svg"
+        "licenseUrl": "https://commons.wikimedia.org/wiki/File:Seal_of_the_United_States_Supreme_Court.svg"
       }
     },
     {
-      "id": "04-05-greece-giorgos-sideris",
+      "id": "04-05-ethel-and-julius-rosenberg",
       "date": "04-05",
       "dateLabel": "5 April",
-      "country": "greece",
-      "countryName": "Greece",
-      "kind": "births",
-      "year": 1938,
-      "title": "Giorgos Sideris",
-      "body": "Giorgos Sideris, Greek footballer, was born on this day in 1938.",
+      "category": "world",
+      "categoryName": "World",
+      "year": 1951,
+      "title": "Julius and Ethel Rosenberg",
+      "body": "Ethel and Julius Rosenberg are sentenced to death for spying for the Soviet Union.",
       "source": {
-        "name": "Wikipedia · Giorgos Sideris",
-        "url": "https://en.wikipedia.org/wiki/Giorgos_Sideris",
+        "name": "Wikipedia · Julius and Ethel Rosenberg",
+        "url": "https://en.wikipedia.org/wiki/Julius_and_Ethel_Rosenberg",
         "calendarUrl": "https://en.wikipedia.org/wiki/April_5",
         "license": {
           "name": "CC BY-SA 4.0",
@@ -78,12 +75,12 @@
         }
       },
       "image": {
-        "src": "https://commons.wikimedia.org/wiki/Special:Redirect/file/Flag_of_Greece.svg?width=1000",
-        "alt": "The national flag of Greece.",
-        "credit": "Greek government",
-        "source": "https://commons.wikimedia.org/wiki/File:Flag_of_Greece.svg",
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/68/Julius_and_Ethel_Rosenberg_NYWTS.jpg/1280px-Julius_and_Ethel_Rosenberg_NYWTS.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "alt": "Picture from the Wikipedia article on Julius and Ethel Rosenberg.",
+        "credit": "Roger Higgins, photographer from \"New York World-Telegram and the Sun\"",
+        "source": "https://commons.wikimedia.org/wiki/File:Julius_and_Ethel_Rosenberg_NYWTS.jpg",
         "license": "Public domain",
-        "licenseUrl": "https://commons.wikimedia.org/wiki/File:Flag_of_Greece.svg"
+        "licenseUrl": "https://commons.wikimedia.org/wiki/File:Julius_and_Ethel_Rosenberg_NYWTS.jpg"
       }
     }
   ]

@@ -3,46 +3,17 @@
   "dateLabel": "7 August",
   "facts": [
     {
-      "id": "08-07-spain-sim-n-bol-var",
+      "id": "08-07-viking-2",
       "date": "08-07",
       "dateLabel": "7 August",
-      "country": "spain",
-      "countryName": "Spain",
-      "kind": "events",
-      "year": 1819,
-      "title": "Simón Bolívar",
-      "body": "1819: Simón Bolívar triumphs over Spain in the Battle of Boyacá.",
-      "source": {
-        "name": "Wikipedia · Simón Bolívar",
-        "url": "https://en.wikipedia.org/wiki/Sim%C3%B3n_Bol%C3%ADvar",
-        "calendarUrl": "https://en.wikipedia.org/wiki/August_7",
-        "license": {
-          "name": "CC BY-SA 4.0",
-          "url": "https://creativecommons.org/licenses/by-sa/4.0/"
-        }
-      },
-      "image": {
-        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/87/Sim%C3%B3n_Bol%C3%ADvar._Toro_Moreno%2C_Luis._1922%2C_Legislative_Palace%2C_La_Paz.png/1280px-Sim%C3%B3n_Bol%C3%ADvar._Toro_Moreno%2C_Luis._1922%2C_Legislative_Palace%2C_La_Paz.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-        "alt": "Image related to Simón Bolívar.",
-        "credit": "Luis Enrique Toro Moreno (1897-1933)",
-        "source": "https://commons.wikimedia.org/wiki/File:Sim%C3%B3n_Bol%C3%ADvar._Toro_Moreno,_Luis._1922,_Legislative_Palace,_La_Paz.png",
-        "license": "Public domain",
-        "licenseUrl": "https://commons.wikimedia.org/wiki/File:Sim%C3%B3n_Bol%C3%ADvar._Toro_Moreno,_Luis._1922,_Legislative_Palace,_La_Paz.png"
-      }
-    },
-    {
-      "id": "08-07-denmark-viking-program",
-      "date": "08-07",
-      "dateLabel": "7 August",
-      "country": "denmark",
-      "countryName": "Denmark",
-      "kind": "events",
+      "category": "space",
+      "categoryName": "Space",
       "year": 1976,
-      "title": "Viking program",
-      "body": "1976: Viking program: Viking 2 enters orbit around Mars.",
+      "title": "Viking 2",
+      "body": "Viking 2 enters orbit around Mars.",
       "source": {
-        "name": "Wikipedia · Viking program",
-        "url": "https://en.wikipedia.org/wiki/Viking_program",
+        "name": "Wikipedia · Viking 2",
+        "url": "https://en.wikipedia.org/wiki/Viking_2",
         "calendarUrl": "https://en.wikipedia.org/wiki/August_7",
         "license": {
           "name": "CC BY-SA 4.0",
@@ -50,27 +21,26 @@
         }
       },
       "image": {
-        "src": "https://upload.wikimedia.org/wikipedia/commons/1/19/Viking_Orbiter_releasing_the_lander.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
-        "alt": "Image related to Viking program.",
-        "credit": "Don Davis",
-        "source": "https://commons.wikimedia.org/wiki/File:Viking_Orbiter_releasing_the_lander.jpg",
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/75/Viking_spacecraft.jpg/1280px-Viking_spacecraft.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "alt": "Picture from the Wikipedia article on Viking 2.",
+        "credit": "NASA",
+        "source": "https://commons.wikimedia.org/wiki/File:Viking_spacecraft.jpg",
         "license": "Public domain",
-        "licenseUrl": "https://commons.wikimedia.org/wiki/File:Viking_Orbiter_releasing_the_lander.jpg"
+        "licenseUrl": "https://commons.wikimedia.org/wiki/File:Viking_spacecraft.jpg"
       }
     },
     {
-      "id": "08-07-greece-avars-carpathians",
+      "id": "08-07-lynne-cox",
       "date": "08-07",
       "dateLabel": "7 August",
-      "country": "greece",
-      "countryName": "Greece",
-      "kind": "events",
-      "year": 626,
-      "title": "Avar",
-      "body": "626: The Avar and Slav armies leave the siege of Constantinople.",
+      "category": "world",
+      "categoryName": "World",
+      "year": 1987,
+      "title": "Lynne Cox",
+      "body": "Lynne Cox becomes the first person to swim from the United States to the Soviet Union, crossing the Bering Strait from Little Diomede Island in Alaska to Big Diomede in the Soviet Union.",
       "source": {
-        "name": "Wikipedia · Pannonian Avars",
-        "url": "https://en.wikipedia.org/wiki/Pannonian_Avars",
+        "name": "Wikipedia · Lynne Cox",
+        "url": "https://en.wikipedia.org/wiki/Lynne_Cox",
         "calendarUrl": "https://en.wikipedia.org/wiki/August_7",
         "license": {
           "name": "CC BY-SA 4.0",
@@ -78,10 +48,37 @@
         }
       },
       "image": {
-        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a6/Avar_Khaganate_Map_602.png/1280px-Avar_Khaganate_Map_602.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-        "alt": "Image related to Avar.",
-        "credit": "Wario2",
-        "source": "https://commons.wikimedia.org/wiki/File:Avar_Khaganate_Map_602.png",
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b9/Lynne_Cox.jpg/1280px-Lynne_Cox.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "alt": "Picture from the Wikipedia article on Lynne Cox.",
+        "credit": "TEDxMonterey",
+        "source": "https://commons.wikimedia.org/wiki/File:Lynne_Cox.jpg",
+        "license": "CC BY-SA 2.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0"
+      }
+    },
+    {
+      "id": "08-07-calculator",
+      "date": "08-07",
+      "dateLabel": "7 August",
+      "category": "tech",
+      "categoryName": "Tech",
+      "year": 1944,
+      "title": "Calculator",
+      "body": "IBM dedicates the first program-controlled calculator, the Automatic Sequence Controlled Calculator (known best as the Harvard Mark I).",
+      "source": {
+        "name": "Wikipedia · Calculator",
+        "url": "https://en.wikipedia.org/wiki/Calculator",
+        "calendarUrl": "https://en.wikipedia.org/wiki/August_7",
+        "license": {
+          "name": "CC BY-SA 4.0",
+          "url": "https://creativecommons.org/licenses/by-sa/4.0/"
+        }
+      },
+      "image": {
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/cf/Casio_calculator_JS-20WK_in_201901_002.jpg/1280px-Casio_calculator_JS-20WK_in_201901_002.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "alt": "Picture from the Wikipedia article on Calculator.",
+        "credit": "Mc681",
+        "source": "https://commons.wikimedia.org/wiki/File:Casio_calculator_JS-20WK_in_201901_002.jpg",
         "license": "CC BY-SA 4.0",
         "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0"
       }

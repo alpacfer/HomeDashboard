@@ -3,18 +3,17 @@
   "dateLabel": "18 December",
   "facts": [
     {
-      "id": "12-18-spain-zaragoza",
+      "id": "12-18-heavy-bomber",
       "date": "12-18",
       "dateLabel": "18 December",
-      "country": "spain",
-      "countryName": "Spain",
-      "kind": "events",
-      "year": 1118,
-      "title": "Zaragoza",
-      "body": "1118: The city of Zaragoza is conquered by king Alfonso I of Aragon from the Almoravid.",
+      "category": "curious",
+      "categoryName": "Curious",
+      "year": 1981,
+      "title": "Heavy bomber",
+      "body": "First flight of the Russian heavy strategic bomber Tu-160, the world's largest combat aircraft, largest supersonic aircraft and largest variable-sweep wing aircraft built.",
       "source": {
-        "name": "Wikipedia · Zaragoza",
-        "url": "https://en.wikipedia.org/wiki/Zaragoza",
+        "name": "Wikipedia · Heavy bomber",
+        "url": "https://en.wikipedia.org/wiki/Heavy_bomber",
         "calendarUrl": "https://en.wikipedia.org/wiki/December_18",
         "license": {
           "name": "CC BY-SA 4.0",
@@ -22,27 +21,26 @@
         }
       },
       "image": {
-        "src": "https://upload.wikimedia.org/wikipedia/commons/0/0f/Zaragoza_-_Bas%C3%ADlica_del_Pilar_y_r%C3%ADo_Ebro.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
-        "alt": "Image related to Zaragoza.",
-        "credit": "Turol Jones, un artista de cojones from Villanueva del Cascajal, República Independiente de Mi Casa",
-        "source": "https://commons.wikimedia.org/wiki/File:Zaragoza_-_Bas%C3%ADlica_del_Pilar_y_r%C3%ADo_Ebro.jpg",
-        "license": "CC BY 2.0",
-        "licenseUrl": "https://creativecommons.org/licenses/by/2.0"
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d3/B-29_in_flight.jpg/1280px-B-29_in_flight.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "alt": "Picture from the Wikipedia article on Heavy bomber.",
+        "credit": "https://media.defense.gov/2009/Jun/25/2000536926/-1/-1/0/090625-F-1234K-159.JPG",
+        "source": "https://commons.wikimedia.org/wiki/File:B-29_in_flight.jpg",
+        "license": "Public domain",
+        "licenseUrl": "https://commons.wikimedia.org/wiki/File:B-29_in_flight.jpg"
       }
     },
     {
-      "id": "12-18-denmark-john-hall-new-zealand-politician",
+      "id": "12-18-terra-satellite",
       "date": "12-18",
       "dateLabel": "18 December",
-      "country": "denmark",
-      "countryName": "Denmark",
-      "kind": "births",
-      "year": 1824,
-      "title": "John Hall",
-      "body": "John Hall, English-New Zealand politician, 12th Prime Minister of New Zealand (died 1907), was born on this day in 1824.",
+      "category": "space",
+      "categoryName": "Space",
+      "year": 1999,
+      "title": "Terra",
+      "body": "NASA launches into orbit the Terra platform carrying five Earth Observation instruments, including ASTER, CERES, MISR, MODIS and MOPITT.",
       "source": {
-        "name": "Wikipedia · John Hall (New Zealand politician)",
-        "url": "https://en.wikipedia.org/wiki/John_Hall_(New_Zealand_politician)",
+        "name": "Wikipedia · Terra (satellite)",
+        "url": "https://en.wikipedia.org/wiki/Terra_(satellite)",
         "calendarUrl": "https://en.wikipedia.org/wiki/December_18",
         "license": {
           "name": "CC BY-SA 4.0",
@@ -50,27 +48,26 @@
         }
       },
       "image": {
-        "src": "https://upload.wikimedia.org/wikipedia/commons/b/be/Sir_John_Hall%2C_ca_1880.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
-        "alt": "Portrait or image of John Hall.",
-        "credit": "Photographer unidentified",
-        "source": "https://commons.wikimedia.org/wiki/File:Sir_John_Hall,_ca_1880.jpg",
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/92/Terra_spacecraft_model.png/1280px-Terra_spacecraft_model.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "alt": "Picture from the Wikipedia article on Terra.",
+        "credit": "NASA",
+        "source": "https://commons.wikimedia.org/wiki/File:Terra_spacecraft_model.png",
         "license": "Public domain",
-        "licenseUrl": "https://commons.wikimedia.org/wiki/File:Sir_John_Hall,_ca_1880.jpg"
+        "licenseUrl": "https://commons.wikimedia.org/wiki/File:Terra_spacecraft_model.png"
       }
     },
     {
-      "id": "12-18-greece-jules-dassin",
+      "id": "12-18-first-impeachment-of-donald-trump",
       "date": "12-18",
       "dateLabel": "18 December",
-      "country": "greece",
-      "countryName": "Greece",
-      "kind": "births",
-      "year": 1911,
-      "title": "Jules Dassin",
-      "body": "Jules Dassin, American-Greek actor, director, producer, and screenwriter (died 2008), was born on this day in 1911.",
+      "category": "world",
+      "categoryName": "World",
+      "year": 2019,
+      "title": "First impeachment of Donald Trump",
+      "body": "The United States House of Representatives impeaches Donald Trump for the first time.",
       "source": {
-        "name": "Wikipedia · Jules Dassin",
-        "url": "https://en.wikipedia.org/wiki/Jules_Dassin",
+        "name": "Wikipedia · First impeachment of Donald Trump",
+        "url": "https://en.wikipedia.org/wiki/First_impeachment_of_Donald_Trump",
         "calendarUrl": "https://en.wikipedia.org/wiki/December_18",
         "license": {
           "name": "CC BY-SA 4.0",
@@ -78,12 +75,12 @@
         }
       },
       "image": {
-        "src": "https://upload.wikimedia.org/wikipedia/commons/8/84/Jules_Dassin_1970.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
-        "alt": "Portrait or image of Jules Dassin.",
-        "credit": "Agenzia Pitre, published in Bolero Teletutto Magazine",
-        "source": "https://commons.wikimedia.org/wiki/File:Jules_Dassin_1970.jpg",
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b8/House_of_Representatives_Votes_to_Adopt_the_Articles_of_Impeachment_Against_Donald_Trump.jpg/1280px-House_of_Representatives_Votes_to_Adopt_the_Articles_of_Impeachment_Against_Donald_Trump.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "alt": "Picture from the Wikipedia article on First impeachment of Donald Trump.",
+        "credit": "United States House of Representatives",
+        "source": "https://commons.wikimedia.org/wiki/File:House_of_Representatives_Votes_to_Adopt_the_Articles_of_Impeachment_Against_Donald_Trump.jpg",
         "license": "Public domain",
-        "licenseUrl": "https://commons.wikimedia.org/wiki/File:Jules_Dassin_1970.jpg"
+        "licenseUrl": "https://commons.wikimedia.org/wiki/File:House_of_Representatives_Votes_to_Adopt_the_Articles_of_Impeachment_Against_Donald_Trump.jpg"
       }
     }
   ]

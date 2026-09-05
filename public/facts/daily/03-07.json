@@ -3,46 +3,17 @@
   "dateLabel": "7 March",
   "facts": [
     {
-      "id": "03-07-spain-daylight",
+      "id": "03-07-iran-united-kingdom-relations",
       "date": "03-07",
       "dateLabel": "7 March",
-      "country": "spain",
-      "countryName": "Spain",
-      "kind": "daylight",
-      "year": 0,
-      "title": "Madrid's daylight",
-      "body": "On 7 March, Madrid gets about 11 hours and 30 minutes of daylight.",
+      "category": "culture",
+      "categoryName": "Culture",
+      "year": 1989,
+      "title": "Iran–United Kingdom relations",
+      "body": "Iran and the United Kingdom break diplomatic relations after a fight over Salman Rushdie and his controversial novel, The Satanic Verses.",
       "source": {
-        "name": "NOAA Solar Calculator",
-        "url": "https://gml.noaa.gov/grad/solcalc/",
-        "calendarUrl": "https://gml.noaa.gov/grad/solcalc/calcdetails.html",
-        "license": {
-          "name": "public-domain NOAA method",
-          "url": "https://www.noaa.gov/disclaimer"
-        }
-      },
-      "image": {
-        "src": "https://commons.wikimedia.org/wiki/Special:Redirect/file/Flag_of_Spain.svg?width=1000",
-        "alt": "The national flag of Spain.",
-        "credit": "Government of Spain",
-        "source": "https://commons.wikimedia.org/wiki/File:Flag_of_Spain.svg",
-        "license": "Public domain",
-        "licenseUrl": "https://commons.wikimedia.org/wiki/File:Flag_of_Spain.svg"
-      }
-    },
-    {
-      "id": "03-07-denmark-shrigley-abduction",
-      "date": "03-07",
-      "dateLabel": "7 March",
-      "country": "denmark",
-      "countryName": "Denmark",
-      "kind": "events",
-      "year": 1826,
-      "title": "Shrigley abduction",
-      "body": "1826: Shrigley abduction: 15-year old Ellen Turner is abducted by Edward Gibbon Wakefield, a future figure in the establishment of colonies in South Australia and New Zealand.",
-      "source": {
-        "name": "Wikipedia · Shrigley abduction",
-        "url": "https://en.wikipedia.org/wiki/Shrigley_abduction",
+        "name": "Wikipedia · Iran–United Kingdom relations",
+        "url": "https://en.wikipedia.org/wiki/Iran%E2%80%93United_Kingdom_relations",
         "calendarUrl": "https://en.wikipedia.org/wiki/March_7",
         "license": {
           "name": "CC BY-SA 4.0",
@@ -50,27 +21,26 @@
         }
       },
       "image": {
-        "src": "https://commons.wikimedia.org/wiki/Special:Redirect/file/Flag_of_Denmark.svg?width=1000",
-        "alt": "The national flag of Denmark.",
-        "credit": "Danish government",
-        "source": "https://commons.wikimedia.org/wiki/File:Flag_of_Denmark.svg",
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/51/Iran_United_Kingdom_Locator.svg/1280px-Iran_United_Kingdom_Locator.svg.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "alt": "Picture from the Wikipedia article on Iran–United Kingdom relations.",
+        "credit": "Hogweard",
+        "source": "https://commons.wikimedia.org/wiki/File:Iran_United_Kingdom_Locator.svg",
         "license": "Public domain",
-        "licenseUrl": "https://commons.wikimedia.org/wiki/File:Flag_of_Denmark.svg"
+        "licenseUrl": "https://commons.wikimedia.org/wiki/File:Iran_United_Kingdom_Locator.svg"
       }
     },
     {
-      "id": "03-07-greece-third-council-of-constantinople",
+      "id": "03-07-alexander-graham-bell",
       "date": "03-07",
       "dateLabel": "7 March",
-      "country": "greece",
-      "countryName": "Greece",
-      "kind": "events",
-      "year": 681,
-      "title": "Third Council of Constantinople",
-      "body": "681: The Third Council of Constantinople deposes patriarch Macarius I of Antioch.",
+      "category": "tech",
+      "categoryName": "Tech",
+      "year": 1876,
+      "title": "Alexander Graham Bell",
+      "body": "Alexander Graham Bell is granted a patent for an invention he calls the \"telephone\".",
       "source": {
-        "name": "Wikipedia · Third Council of Constantinople",
-        "url": "https://en.wikipedia.org/wiki/Third_Council_of_Constantinople",
+        "name": "Wikipedia · Alexander Graham Bell",
+        "url": "https://en.wikipedia.org/wiki/Alexander_Graham_Bell",
         "calendarUrl": "https://en.wikipedia.org/wiki/March_7",
         "license": {
           "name": "CC BY-SA 4.0",
@@ -78,12 +48,39 @@
         }
       },
       "image": {
-        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/58/45-manasses-chronicle.jpg/1280px-45-manasses-chronicle.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-        "alt": "Image related to Third Council of Constantinople.",
-        "credit": "Original: Constantine Manasses",
-        "source": "https://commons.wikimedia.org/wiki/File:45-manasses-chronicle.jpg",
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/9c/Alexander_Graham_Bell_1895_NPG_77_363.jpg/1280px-Alexander_Graham_Bell_1895_NPG_77_363.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "alt": "Picture from the Wikipedia article on Alexander Graham Bell.",
+        "credit": "Unknown author",
+        "source": "https://commons.wikimedia.org/wiki/File:Alexander_Graham_Bell_1895_NPG_77_363.jpg",
+        "license": "CC0",
+        "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/deed.en"
+      }
+    },
+    {
+      "id": "03-07-reform-of-the-house-of-lords",
+      "date": "03-07",
+      "dateLabel": "7 March",
+      "category": "world",
+      "categoryName": "World",
+      "year": 2007,
+      "title": "Reform of the House of Lords",
+      "body": "Reform of the House of Lords: The British House of Commons votes to make the upper chamber, the House of Lords, 100% elected.",
+      "source": {
+        "name": "Wikipedia · Reform of the House of Lords",
+        "url": "https://en.wikipedia.org/wiki/Reform_of_the_House_of_Lords",
+        "calendarUrl": "https://en.wikipedia.org/wiki/March_7",
+        "license": {
+          "name": "CC BY-SA 4.0",
+          "url": "https://creativecommons.org/licenses/by-sa/4.0/"
+        }
+      },
+      "image": {
+        "src": "https://upload.wikimedia.org/wikipedia/commons/8/81/Microcosm_of_London_Plate_052_-_House_of_Lords_edited.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+        "alt": "Picture from the Wikipedia article on Reform of the House of Lords.",
+        "credit": "Thomas Rowlandson (1756–1827) and Augustus Charles Pugin (1762–1832) (after) John Bluck (fl. 1791–1819), Joseph Constantine Stadler (fl. 1780–1812), Thomas Suth",
+        "source": "https://commons.wikimedia.org/wiki/File:Microcosm_of_London_Plate_052_-_House_of_Lords_edited.jpg",
         "license": "Public domain",
-        "licenseUrl": "https://commons.wikimedia.org/wiki/File:45-manasses-chronicle.jpg"
+        "licenseUrl": "https://commons.wikimedia.org/wiki/File:Microcosm_of_London_Plate_052_-_House_of_Lords_edited.jpg"
       }
     }
   ]

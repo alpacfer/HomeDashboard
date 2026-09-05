@@ -3,18 +3,17 @@
   "dateLabel": "9 September",
   "facts": [
     {
-      "id": "09-09-spain-portuguese-navy",
+      "id": "09-09-software-bug",
       "date": "09-09",
       "dateLabel": "9 September",
-      "country": "spain",
-      "countryName": "Spain",
-      "kind": "events",
-      "year": 1936,
-      "title": "Portuguese Navy",
-      "body": "1936: The crews of Portuguese Navy frigate and destroyer Dão mutinied against the Salazar dictatorship's support of General Franco's coup and declared their solidarity with the Spanish Republic.",
+      "category": "curious",
+      "categoryName": "Curious",
+      "year": 1947,
+      "title": "The first computer bug",
+      "body": "Operators found a moth stuck in a relay of the Harvard Mark II. They taped it into the logbook and wrote underneath it: \"First actual case of bug being found.\"",
       "source": {
-        "name": "Wikipedia · Portuguese Navy",
-        "url": "https://en.wikipedia.org/wiki/Portuguese_Navy",
+        "name": "Wikipedia · Software bug",
+        "url": "https://en.wikipedia.org/wiki/Software_bug",
         "calendarUrl": "https://en.wikipedia.org/wiki/September_9",
         "license": {
           "name": "CC BY-SA 4.0",
@@ -22,27 +21,26 @@
         }
       },
       "image": {
-        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a8/Flag_of_Portugal_%28official%29.svg/1280px-Flag_of_Portugal_%28official%29.svg.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-        "alt": "Image related to Portuguese Navy.",
-        "credit": "Original: Columbano Bordalo Pinheiro Vector: Vítor Luís Rodrigues, António Martins-Tuválkin",
-        "source": "https://commons.wikimedia.org/wiki/File:Flag_of_Portugal_(official).svg",
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e7/First_Computer_Bug%2C_1947.jpg/1280px-First_Computer_Bug%2C_1947.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "alt": "A page from a computer logbook, illustrating the history of software bugs.",
+        "credit": "Courtesy of the Naval Surface Warfare Center, Dahlgren, VA., 1988.",
+        "source": "https://commons.wikimedia.org/wiki/File:First_Computer_Bug,_1947.jpg",
         "license": "Public domain",
-        "licenseUrl": "https://commons.wikimedia.org/wiki/File:Flag_of_Portugal_(official).svg"
+        "licenseUrl": "https://commons.wikimedia.org/wiki/File:First_Computer_Bug,_1947.jpg"
       }
     },
     {
-      "id": "09-09-denmark-rachel-hunter",
+      "id": "09-09-elvis-presley",
       "date": "09-09",
       "dateLabel": "9 September",
-      "country": "denmark",
-      "countryName": "Denmark",
-      "kind": "births",
-      "year": 1969,
-      "title": "Rachel Hunter",
-      "body": "Rachel Hunter, New Zealand model and actress, was born on this day in 1969.",
+      "category": "culture",
+      "categoryName": "Culture",
+      "year": 1956,
+      "title": "Elvis Presley",
+      "body": "Elvis Presley appears on The Ed Sullivan Show for the first time.",
       "source": {
-        "name": "Wikipedia · Rachel Hunter",
-        "url": "https://en.wikipedia.org/wiki/Rachel_Hunter",
+        "name": "Wikipedia · Elvis Presley",
+        "url": "https://en.wikipedia.org/wiki/Elvis_Presley",
         "calendarUrl": "https://en.wikipedia.org/wiki/September_9",
         "license": {
           "name": "CC BY-SA 4.0",
@@ -50,27 +48,26 @@
         }
       },
       "image": {
-        "src": "https://upload.wikimedia.org/wikipedia/commons/f/fb/Rachel_Hunter_LF.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
-        "alt": "Portrait or image of Rachel Hunter.",
-        "credit": "lukeford.net",
-        "source": "https://commons.wikimedia.org/wiki/File:Rachel_Hunter_LF.JPG",
-        "license": "CC BY-SA 2.5",
-        "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.5"
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/99/Elvis_Presley_promoting_Jailhouse_Rock.jpg/1280px-Elvis_Presley_promoting_Jailhouse_Rock.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "alt": "Picture from the Wikipedia article on Elvis Presley.",
+        "credit": "Metro-Goldwyn-Mayer, Inc. Reproduction Number: LC-USZ6-2067 Location: NYWTS -- BIOG",
+        "source": "https://commons.wikimedia.org/wiki/File:Elvis_Presley_promoting_Jailhouse_Rock.jpg",
+        "license": "Public domain",
+        "licenseUrl": "https://commons.wikimedia.org/wiki/File:Elvis_Presley_promoting_Jailhouse_Rock.jpg"
       }
     },
     {
-      "id": "09-09-greece-manolis-glezos",
+      "id": "09-09-indian-space-research-organisation",
       "date": "09-09",
       "dateLabel": "9 September",
-      "country": "greece",
-      "countryName": "Greece",
-      "kind": "births",
-      "year": 1922,
-      "title": "Manolis Glezos",
-      "body": "Manolis Glezos, Greek journalist and politician (died 2020), was born on this day in 1922.",
+      "category": "space",
+      "categoryName": "Space",
+      "year": 2012,
+      "title": "ISRO",
+      "body": "The Indian space agency puts into orbit its heaviest foreign satellite yet, in a streak of 21 consecutive successful PSLV launches.",
       "source": {
-        "name": "Wikipedia · Manolis Glezos",
-        "url": "https://en.wikipedia.org/wiki/Manolis_Glezos",
+        "name": "Wikipedia · ISRO",
+        "url": "https://en.wikipedia.org/wiki/ISRO",
         "calendarUrl": "https://en.wikipedia.org/wiki/September_9",
         "license": {
           "name": "CC BY-SA 4.0",
@@ -78,12 +75,12 @@
         }
       },
       "image": {
-        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/32/Glezos_MEP_2014.jpg/1280px-Glezos_MEP_2014.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-        "alt": "Portrait or image of Manolis Glezos.",
-        "credit": "© European Union, 1998 – 2026",
-        "source": "https://commons.wikimedia.org/wiki/File:Glezos_MEP_2014.jpg",
-        "license": "Attribution",
-        "licenseUrl": "https://commons.wikimedia.org/wiki/File:Glezos_MEP_2014.jpg"
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/bd/Indian_Space_Research_Organisation_Logo.svg/1280px-Indian_Space_Research_Organisation_Logo.svg.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "alt": "Picture from the Wikipedia article on ISRO.",
+        "credit": "Indian Space Research Organisation",
+        "source": "https://commons.wikimedia.org/wiki/File:Indian_Space_Research_Organisation_Logo.svg",
+        "license": "Public domain",
+        "licenseUrl": "https://commons.wikimedia.org/wiki/File:Indian_Space_Research_Organisation_Logo.svg"
       }
     }
   ]

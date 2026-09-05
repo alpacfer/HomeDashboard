@@ -3,18 +3,17 @@
   "dateLabel": "18 April",
   "facts": [
     {
-      "id": "04-18-spain-gabi-delgado-l-pez",
+      "id": "04-18-jackie-robinson",
       "date": "04-18",
       "dateLabel": "18 April",
-      "country": "spain",
-      "countryName": "Spain",
-      "kind": "births",
-      "year": 1958,
-      "title": "Gabi Delgado-López",
-      "body": "Gabi Delgado-López, Spanish-German singer, co-founder of D.A.F. (died 2020), was born on this day in 1958.",
+      "category": "sport",
+      "categoryName": "Sport",
+      "year": 1946,
+      "title": "Jackie Robinson",
+      "body": "Jackie Robinson makes his regular season debut for the Montreal Royals of the International League, to make them the first integrated modern professional baseball team.",
       "source": {
-        "name": "Wikipedia · Gabi Delgado-López",
-        "url": "https://en.wikipedia.org/wiki/Gabi_Delgado-L%C3%B3pez",
+        "name": "Wikipedia · Jackie Robinson",
+        "url": "https://en.wikipedia.org/wiki/Jackie_Robinson",
         "calendarUrl": "https://en.wikipedia.org/wiki/April_18",
         "license": {
           "name": "CC BY-SA 4.0",
@@ -22,27 +21,26 @@
         }
       },
       "image": {
-        "src": "https://upload.wikimedia.org/wikipedia/commons/c/cf/Gabi_Delgado-Lopez_-_Live_with_DAF_in_Mannheim.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
-        "alt": "Portrait or image of Gabi Delgado-López.",
-        "credit": "Alex Ex",
-        "source": "https://commons.wikimedia.org/wiki/File:Gabi_Delgado-Lopez_-_Live_with_DAF_in_Mannheim.jpg",
-        "license": "CC BY-SA 3.0",
-        "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0"
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/bd/Jackie_Robinson%2C_NPG_97_135.jpg/1280px-Jackie_Robinson%2C_NPG_97_135.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "alt": "Picture from the Wikipedia article on Jackie Robinson.",
+        "credit": "Harry Warnecke / Frank Livia / Robert F. Cranston / William Klein",
+        "source": "https://commons.wikimedia.org/wiki/File:Jackie_Robinson,_NPG_97_135.jpg",
+        "license": "CC0",
+        "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/deed.en"
       }
     },
     {
-      "id": "04-18-denmark-battle-of-dybb-l",
+      "id": "04-18-bandung",
       "date": "04-18",
       "dateLabel": "18 April",
-      "country": "denmark",
-      "countryName": "Denmark",
-      "kind": "events",
-      "year": 1864,
-      "title": "Battle of Dybbøl",
-      "body": "1864: Battle of Dybbøl: A Prussian-Austrian army defeats Denmark and gains control of Schleswig. Denmark surrenders the province in the following peace settlement.",
+      "category": "world",
+      "categoryName": "World",
+      "year": 1955,
+      "title": "Bandung",
+      "body": "Twenty-nine nations meet at Bandung, Indonesia, for the first Asian-African Conference.",
       "source": {
-        "name": "Wikipedia · Battle of Dybbøl",
-        "url": "https://en.wikipedia.org/wiki/Battle_of_Dybb%C3%B8l",
+        "name": "Wikipedia · Bandung",
+        "url": "https://en.wikipedia.org/wiki/Bandung",
         "calendarUrl": "https://en.wikipedia.org/wiki/April_18",
         "license": {
           "name": "CC BY-SA 4.0",
@@ -50,27 +48,26 @@
         }
       },
       "image": {
-        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f0/D%C3%BCpplerSchanzen1.jpg/1280px-D%C3%BCpplerSchanzen1.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-        "alt": "Image related to Battle of Dybbøl.",
-        "credit": "Lambiotte",
-        "source": "https://commons.wikimedia.org/wiki/File:D%C3%BCpplerSchanzen1.jpg",
-        "license": "Public domain",
-        "licenseUrl": "https://commons.wikimedia.org/wiki/File:D%C3%BCpplerSchanzen1.jpg"
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/43/Bandung_View_dari_Gedung_Wisma_HSBC_Asia_Afrika_4.jpg/1280px-Bandung_View_dari_Gedung_Wisma_HSBC_Asia_Afrika_4.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "alt": "Picture from the Wikipedia article on Bandung.",
+        "credit": "F1fans",
+        "source": "https://commons.wikimedia.org/wiki/File:Bandung_View_dari_Gedung_Wisma_HSBC_Asia_Afrika_4.jpg",
+        "license": "CC0",
+        "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/deed.en"
       }
     },
     {
-      "id": "04-18-greece-greco-turkish-war-1897",
+      "id": "04-18-republic-of-zimbabwe",
       "date": "04-18",
       "dateLabel": "18 April",
-      "country": "greece",
-      "countryName": "Greece",
-      "kind": "events",
-      "year": 1897,
-      "title": "Greco-Turkish War",
-      "body": "1897: The Greco-Turkish War is declared between Greece and the Ottoman Empire.",
+      "category": "world",
+      "categoryName": "World",
+      "year": 1980,
+      "title": "Zimbabwe",
+      "body": "The Republic of Zimbabwe (formerly Rhodesia) comes into being, with Canaan Banana as the country's first President. The Zimbabwean dollar replaces the Rhodesian dollar as the official currency.",
       "source": {
-        "name": "Wikipedia · Greco-Turkish War (1897)",
-        "url": "https://en.wikipedia.org/wiki/Greco-Turkish_War_(1897)",
+        "name": "Wikipedia · Zimbabwe",
+        "url": "https://en.wikipedia.org/wiki/Zimbabwe",
         "calendarUrl": "https://en.wikipedia.org/wiki/April_18",
         "license": {
           "name": "CC BY-SA 4.0",
@@ -78,12 +75,12 @@
         }
       },
       "image": {
-        "src": "https://upload.wikimedia.org/wikipedia/commons/0/0c/D%C3%B6meke_Harbi_Zonaro.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
-        "alt": "Image related to Greco-Turkish War.",
-        "credit": "Fausto Zonaro",
-        "source": "https://commons.wikimedia.org/wiki/File:D%C3%B6meke_Harbi_Zonaro.jpg",
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/6a/Flag_of_Zimbabwe.svg/1280px-Flag_of_Zimbabwe.svg.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "alt": "Picture from the Wikipedia article on Zimbabwe.",
+        "credit": "See File history below for details.",
+        "source": "https://commons.wikimedia.org/wiki/File:Flag_of_Zimbabwe.svg",
         "license": "Public domain",
-        "licenseUrl": "https://commons.wikimedia.org/wiki/File:D%C3%B6meke_Harbi_Zonaro.jpg"
+        "licenseUrl": "https://commons.wikimedia.org/wiki/File:Flag_of_Zimbabwe.svg"
       }
     }
   ]

@@ -3,18 +3,17 @@
   "dateLabel": "6 February",
   "facts": [
     {
-      "id": "02-06-spain-spanish-american-war",
+      "id": "02-06-jack-kilby",
       "date": "02-06",
       "dateLabel": "6 February",
-      "country": "spain",
-      "countryName": "Spain",
-      "kind": "events",
-      "year": 1899,
-      "title": "Spanish–American War",
-      "body": "1899: Spanish–American War: The Treaty of Paris, a peace treaty between the United States and Spain, is ratified by the United States Senate.",
+      "category": "science",
+      "categoryName": "Science",
+      "year": 1959,
+      "title": "Jack Kilby",
+      "body": "Jack Kilby of Texas Instruments files the first patent for an integrated circuit.",
       "source": {
-        "name": "Wikipedia · Spanish–American War",
-        "url": "https://en.wikipedia.org/wiki/Spanish%E2%80%93American_War",
+        "name": "Wikipedia · Jack Kilby",
+        "url": "https://en.wikipedia.org/wiki/Jack_Kilby",
         "calendarUrl": "https://en.wikipedia.org/wiki/February_6",
         "license": {
           "name": "CC BY-SA 4.0",
@@ -22,27 +21,26 @@
         }
       },
       "image": {
-        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/84/Collage_infobox_for_Spanish-American_War.jpg/1280px-Collage_infobox_for_Spanish-American_War.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-        "alt": "Image related to Spanish–American War.",
-        "credit": "Barbudo Barbudo and TEP",
-        "source": "https://commons.wikimedia.org/wiki/File:Collage_infobox_for_Spanish-American_War.jpg",
+        "src": "https://upload.wikimedia.org/wikipedia/commons/9/91/Jack_Kilby_%28cropped%29.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+        "alt": "Picture from the Wikipedia article on Jack Kilby.",
+        "credit": "James R. Biard",
+        "source": "https://commons.wikimedia.org/wiki/File:Jack_Kilby_(cropped).png",
         "license": "CC BY-SA 4.0",
         "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0"
       }
     },
     {
-      "id": "02-06-denmark-treaty-of-waitangi",
+      "id": "02-06-battle-of-grozny-1999-2000",
       "date": "02-06",
       "dateLabel": "6 February",
-      "country": "denmark",
-      "countryName": "Denmark",
-      "kind": "events",
-      "year": 1840,
-      "title": "Treaty of Waitangi",
-      "body": "1840: Signing of the Treaty of Waitangi, establishing New Zealand as a British colony.",
+      "category": "world",
+      "categoryName": "World",
+      "year": 2000,
+      "title": "Battle of Grozny",
+      "body": "Russia captures Grozny, Chechnya, forcing the separatist Chechen Republic of Ichkeria government into exile.",
       "source": {
-        "name": "Wikipedia · Treaty of Waitangi",
-        "url": "https://en.wikipedia.org/wiki/Treaty_of_Waitangi",
+        "name": "Wikipedia · Battle of Grozny (1999–2000)",
+        "url": "https://en.wikipedia.org/wiki/Battle_of_Grozny_(1999%E2%80%932000)",
         "calendarUrl": "https://en.wikipedia.org/wiki/February_6",
         "license": {
           "name": "CC BY-SA 4.0",
@@ -50,27 +48,26 @@
         }
       },
       "image": {
-        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/87/Treatyofwaitangi.jpg/1280px-Treatyofwaitangi.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-        "alt": "Image related to Treaty of Waitangi.",
-        "credit": "William Hobson, James Freeman, and James Busby (English version); Henry Williams and Edward Williams (Māori translation)",
-        "source": "https://commons.wikimedia.org/wiki/File:Treatyofwaitangi.jpg",
-        "license": "Public domain",
-        "licenseUrl": "https://commons.wikimedia.org/wiki/File:Treatyofwaitangi.jpg"
+        "src": "https://upload.wikimedia.org/wikipedia/commons/0/08/Russian_troops_in_DUBAI-YURT.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+        "alt": "Picture from the Wikipedia article on Battle of Grozny.",
+        "credit": "Uploaded on Flickr by Jesse",
+        "source": "https://commons.wikimedia.org/wiki/File:Russian_troops_in_DUBAI-YURT.jpg",
+        "license": "CC BY-SA 2.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0"
       }
     },
     {
-      "id": "02-06-greece-otto-of-greece",
+      "id": "02-06-spacex",
       "date": "02-06",
       "dateLabel": "6 February",
-      "country": "greece",
-      "countryName": "Greece",
-      "kind": "events",
-      "year": 1833,
-      "title": "Otto",
-      "body": "1833: Otto becomes the first modern King of Greece.",
+      "category": "space",
+      "categoryName": "Space",
+      "year": 2018,
+      "title": "SpaceX",
+      "body": "SpaceX's Falcon Heavy, a super heavy launch vehicle, makes its maiden flight.",
       "source": {
-        "name": "Wikipedia · Otto of Greece",
-        "url": "https://en.wikipedia.org/wiki/Otto_of_Greece",
+        "name": "Wikipedia · SpaceX",
+        "url": "https://en.wikipedia.org/wiki/SpaceX",
         "calendarUrl": "https://en.wikipedia.org/wiki/February_6",
         "license": {
           "name": "CC BY-SA 4.0",
@@ -78,12 +75,12 @@
         }
       },
       "image": {
-        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/5d/Prinz_Otto_von_Bayern_Koenig_von_Griechenland_1833.jpg/1280px-Prinz_Otto_von_Bayern_Koenig_von_Griechenland_1833.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-        "alt": "Image related to Otto.",
-        "credit": "Friedrich Dürck",
-        "source": "https://commons.wikimedia.org/wiki/File:Prinz_Otto_von_Bayern_Koenig_von_Griechenland_1833.jpg",
-        "license": "Public domain",
-        "licenseUrl": "https://commons.wikimedia.org/wiki/File:Prinz_Otto_von_Bayern_Koenig_von_Griechenland_1833.jpg"
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/3e/Starship_-_Flight_13_%28Sunset%29.jpg/1280px-Starship_-_Flight_13_%28Sunset%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "alt": "Picture from the Wikipedia article on SpaceX.",
+        "credit": "SpaceX",
+        "source": "https://commons.wikimedia.org/wiki/File:Starship_-_Flight_13_(Sunset).jpg",
+        "license": "CC BY 2.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by/2.0"
       }
     }
   ]

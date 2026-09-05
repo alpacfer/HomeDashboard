@@ -3,18 +3,17 @@
   "dateLabel": "15 May",
   "facts": [
     {
-      "id": "05-15-spain-abd-al-rahman-i",
+      "id": "05-15-mercury-atlas-9",
       "date": "05-15",
       "dateLabel": "15 May",
-      "country": "spain",
-      "countryName": "Spain",
-      "kind": "events",
-      "year": 756,
-      "title": "Abd al-Rahman I",
-      "body": "756: Abd al-Rahman I, the founder of the Arab dynasty that ruled the greater part of Iberia for nearly three centuries, becomes emir of Cordova, Spain.",
+      "category": "space",
+      "categoryName": "Space",
+      "year": 1963,
+      "title": "Mercury-Atlas 9",
+      "body": "The launch of the final Mercury mission, Mercury-Atlas 9 with astronaut Gordon Cooper on board. He becomes the first American to spend more than a day in space, and the last American to go into space alone.",
       "source": {
-        "name": "Wikipedia · Abd al-Rahman I",
-        "url": "https://en.wikipedia.org/wiki/Abd_al-Rahman_I",
+        "name": "Wikipedia · Mercury-Atlas 9",
+        "url": "https://en.wikipedia.org/wiki/Mercury-Atlas_9",
         "calendarUrl": "https://en.wikipedia.org/wiki/May_15",
         "license": {
           "name": "CC BY-SA 4.0",
@@ -22,68 +21,66 @@
         }
       },
       "image": {
-        "src": "https://upload.wikimedia.org/wikipedia/commons/9/95/Dirham_abd_al_rahman_i_21816.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
-        "alt": "Image related to Abd al-Rahman I.",
-        "credit": "Numismática Pliego",
-        "source": "https://commons.wikimedia.org/wiki/File:Dirham_abd_al_rahman_i_21816.jpg",
+        "src": "https://upload.wikimedia.org/wikipedia/commons/b/b7/S63-07856.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+        "alt": "Picture from the Wikipedia article on Mercury-Atlas 9.",
+        "credit": "NASA",
+        "source": "https://commons.wikimedia.org/wiki/File:S63-07856.jpg",
+        "license": "Public domain",
+        "licenseUrl": "https://commons.wikimedia.org/wiki/File:S63-07856.jpg"
+      }
+    },
+    {
+      "id": "05-15-australian-gold-rushes",
+      "date": "05-15",
+      "dateLabel": "15 May",
+      "category": "science",
+      "categoryName": "Science",
+      "year": 1851,
+      "title": "Australian gold rushes",
+      "body": "The first Australian gold rush is proclaimed, although the discovery had been made three months earlier.",
+      "source": {
+        "name": "Wikipedia · Australian gold rushes",
+        "url": "https://en.wikipedia.org/wiki/Australian_gold_rushes",
+        "calendarUrl": "https://en.wikipedia.org/wiki/May_15",
+        "license": {
+          "name": "CC BY-SA 4.0",
+          "url": "https://creativecommons.org/licenses/by-sa/4.0/"
+        }
+      },
+      "image": {
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e6/Edward_Roper_-_Gold_diggings%2C_Ararat%2C_1854.jpg/1280px-Edward_Roper_-_Gold_diggings%2C_Ararat%2C_1854.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "alt": "Picture from the Wikipedia article on Australian gold rushes.",
+        "credit": "Edward Roper",
+        "source": "https://commons.wikimedia.org/wiki/File:Edward_Roper_-_Gold_diggings,_Ararat,_1854.jpg",
+        "license": "Public domain",
+        "licenseUrl": "https://commons.wikimedia.org/wiki/File:Edward_Roper_-_Gold_diggings,_Ararat,_1854.jpg"
+      }
+    },
+    {
+      "id": "05-15-jessica-watson",
+      "date": "05-15",
+      "dateLabel": "15 May",
+      "category": "world",
+      "categoryName": "World",
+      "year": 2010,
+      "title": "Jessica Watson",
+      "body": "Jessica Watson becomes the youngest person to sail, non-stop and unassisted around the world solo.",
+      "source": {
+        "name": "Wikipedia · Jessica Watson",
+        "url": "https://en.wikipedia.org/wiki/Jessica_Watson",
+        "calendarUrl": "https://en.wikipedia.org/wiki/May_15",
+        "license": {
+          "name": "CC BY-SA 4.0",
+          "url": "https://creativecommons.org/licenses/by-sa/4.0/"
+        }
+      },
+      "image": {
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/4c/Jessica_Watson_Ddf_2011.jpg/1280px-Jessica_Watson_Ddf_2011.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "alt": "Picture from the Wikipedia article on Jessica Watson.",
+        "credit": "A.Savin",
+        "source": "https://commons.wikimedia.org/wiki/File:Jessica_Watson_Ddf_2011.jpg",
         "license": "CC BY-SA 3.0",
         "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0"
-      }
-    },
-    {
-      "id": "05-15-denmark-vera-gebuhr",
-      "date": "05-15",
-      "dateLabel": "15 May",
-      "country": "denmark",
-      "countryName": "Denmark",
-      "kind": "births",
-      "year": 1916,
-      "title": "Vera Gebuhr",
-      "body": "Vera Gebuhr, Danish actress (died 2014), was born on this day in 1916.",
-      "source": {
-        "name": "Wikipedia · Vera Gebuhr",
-        "url": "https://en.wikipedia.org/wiki/Vera_Gebuhr",
-        "calendarUrl": "https://en.wikipedia.org/wiki/May_15",
-        "license": {
-          "name": "CC BY-SA 4.0",
-          "url": "https://creativecommons.org/licenses/by-sa/4.0/"
-        }
-      },
-      "image": {
-        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f0/Vera_Gebuhr_by_Elfelt_%26_Co.jpg/1280px-Vera_Gebuhr_by_Elfelt_%26_Co.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-        "alt": "Portrait or image of Vera Gebuhr.",
-        "credit": "Elfelt & Co.",
-        "source": "https://commons.wikimedia.org/wiki/File:Vera_Gebuhr_by_Elfelt_%26_Co.jpg",
-        "license": "CC BY 4.0",
-        "licenseUrl": "https://creativecommons.org/licenses/by/4.0"
-      }
-    },
-    {
-      "id": "05-15-greece-constantine-vii",
-      "date": "05-15",
-      "dateLabel": "15 May",
-      "country": "greece",
-      "countryName": "Greece",
-      "kind": "events",
-      "year": 908,
-      "title": "Constantine VII",
-      "body": "908: Constantine VII is crowned Byzantine co-emperor.",
-      "source": {
-        "name": "Wikipedia · Constantine VII",
-        "url": "https://en.wikipedia.org/wiki/Constantine_VII",
-        "calendarUrl": "https://en.wikipedia.org/wiki/May_15",
-        "license": {
-          "name": "CC BY-SA 4.0",
-          "url": "https://creativecommons.org/licenses/by-sa/4.0/"
-        }
-      },
-      "image": {
-        "src": "https://upload.wikimedia.org/wikipedia/commons/7/7f/Constantine_VII_Porphyrogenitus_%282%29.jpeg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
-        "alt": "Image related to Constantine VII.",
-        "credit": "Wooofer",
-        "source": "https://commons.wikimedia.org/wiki/File:Constantine_VII_Porphyrogenitus_(2).jpeg",
-        "license": "CC BY-SA 4.0",
-        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0"
       }
     }
   ]

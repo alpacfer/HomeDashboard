@@ -3,18 +3,17 @@
   "dateLabel": "3 July",
   "facts": [
     {
-      "id": "07-03-spain-pascual-cervera-y-topete",
+      "id": "07-03-karl-benz",
       "date": "07-03",
       "dateLabel": "3 July",
-      "country": "spain",
-      "countryName": "Spain",
-      "kind": "events",
-      "year": 1898,
-      "title": "Pascual Cervera y Topete",
-      "body": "1898: A Spanish squadron, led by Pascual Cervera y Topete, is defeated by an American squadron under William T. Sampson in the Battle of Santiago de Cuba.",
+      "category": "science",
+      "categoryName": "Science",
+      "year": 1886,
+      "title": "Carl Benz",
+      "body": "Karl Benz officially unveils the Benz Patent-Motorwagen, the first purpose-built automobile.",
       "source": {
-        "name": "Wikipedia · Pascual Cervera y Topete",
-        "url": "https://en.wikipedia.org/wiki/Pascual_Cervera_y_Topete",
+        "name": "Wikipedia · Carl Benz",
+        "url": "https://en.wikipedia.org/wiki/Carl_Benz",
         "calendarUrl": "https://en.wikipedia.org/wiki/July_3",
         "license": {
           "name": "CC BY-SA 4.0",
@@ -22,27 +21,26 @@
         }
       },
       "image": {
-        "src": "https://upload.wikimedia.org/wikipedia/commons/2/2f/N205_Pascual_Cervera.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
-        "alt": "Image related to Pascual Cervera y Topete.",
-        "credit": "Original photographed by Carlos Ladislao Bustos (1877-1931)Cesarbustos",
-        "source": "https://commons.wikimedia.org/wiki/File:N205_Pascual_Cervera.jpg",
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/95/Carl_Benz_circa_1920.jpg/1280px-Carl_Benz_circa_1920.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "alt": "Picture from the Wikipedia article on Carl Benz.",
+        "credit": "Unknown (same photo credited to various stock photo agencies. The copyright is also claimed by the Mercedes-Benz Public Archive)",
+        "source": "https://commons.wikimedia.org/wiki/File:Carl_Benz_circa_1920.jpg",
         "license": "Public domain",
-        "licenseUrl": "https://commons.wikimedia.org/wiki/File:N205_Pascual_Cervera.jpg"
+        "licenseUrl": "https://commons.wikimedia.org/wiki/File:Carl_Benz_circa_1920.jpg"
       }
     },
     {
-      "id": "07-03-denmark-peter-von-scholten",
+      "id": "07-03-fatih-sultan-mehmet-bridge",
       "date": "07-03",
       "dateLabel": "3 July",
-      "country": "denmark",
-      "countryName": "Denmark",
-      "kind": "events",
-      "year": 1848,
-      "title": "Peter von Scholten",
-      "body": "1848: Governor-General Peter von Scholten emancipates all remaining slaves in the Danish West Indies.",
+      "category": "world",
+      "categoryName": "World",
+      "year": 1988,
+      "title": "Fatih Sultan Mehmet Bridge",
+      "body": "The Fatih Sultan Mehmet Bridge in Istanbul, Turkey is completed, providing the second connection between the continents of Europe and Asia over the Bosphorus.",
       "source": {
-        "name": "Wikipedia · Peter von Scholten",
-        "url": "https://en.wikipedia.org/wiki/Peter_von_Scholten",
+        "name": "Wikipedia · Fatih Sultan Mehmet Bridge",
+        "url": "https://en.wikipedia.org/wiki/Fatih_Sultan_Mehmet_Bridge",
         "calendarUrl": "https://en.wikipedia.org/wiki/July_3",
         "license": {
           "name": "CC BY-SA 4.0",
@@ -50,27 +48,26 @@
         }
       },
       "image": {
-        "src": "https://upload.wikimedia.org/wikipedia/commons/e/e5/Peter_von_Scholten_02.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
-        "alt": "Image related to Peter von Scholten.",
-        "credit": "Unknown authorUnknown author",
-        "source": "https://commons.wikimedia.org/wiki/File:Peter_von_Scholten_02.jpg",
-        "license": "Public domain",
-        "licenseUrl": "https://commons.wikimedia.org/wiki/File:Peter_von_Scholten_02.jpg"
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/15/Fatih_sultan_mehmet_k%C3%B6pr%C3%BCs%C3%BC_%28cropped%29.jpg/1280px-Fatih_sultan_mehmet_k%C3%B6pr%C3%BCs%C3%BC_%28cropped%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "alt": "Picture from the Wikipedia article on Fatih Sultan Mehmet Bridge.",
+        "credit": "Mehrdad85",
+        "source": "https://commons.wikimedia.org/wiki/File:Fatih_sultan_mehmet_k%C3%B6pr%C3%BCs%C3%BC_(cropped).jpg",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0"
       }
     },
     {
-      "id": "07-03-greece-ahmed-vefik-pasha",
+      "id": "07-03-david-bowie",
       "date": "07-03",
       "dateLabel": "3 July",
-      "country": "greece",
-      "countryName": "Greece",
-      "kind": "births",
-      "year": 1823,
-      "title": "Ahmed Vefik Pasha",
-      "body": "Ahmed Vefik Pasha, Greek-Ottoman statesman, diplomat, playwright, and translator (died 1891), was born on this day in 1823.",
+      "category": "world",
+      "categoryName": "World",
+      "year": 1973,
+      "title": "David Bowie",
+      "body": "David Bowie retires his stage persona Ziggy Stardust with the surprise announcement that it is \"the last show that we'll ever do\" on the last day of the Ziggy Stardust Tour.",
       "source": {
-        "name": "Wikipedia · Ahmed Vefik Pasha",
-        "url": "https://en.wikipedia.org/wiki/Ahmed_Vefik_Pasha",
+        "name": "Wikipedia · David Bowie",
+        "url": "https://en.wikipedia.org/wiki/David_Bowie",
         "calendarUrl": "https://en.wikipedia.org/wiki/July_3",
         "license": {
           "name": "CC BY-SA 4.0",
@@ -78,12 +75,12 @@
         }
       },
       "image": {
-        "src": "https://upload.wikimedia.org/wikipedia/commons/2/2d/Ahmet_vefik2.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
-        "alt": "Portrait or image of Ahmed Vefik Pasha.",
-        "credit": "Unknown authorUnknown author",
-        "source": "https://commons.wikimedia.org/wiki/File:Ahmet_vefik2.jpg",
-        "license": "Public domain",
-        "licenseUrl": "https://commons.wikimedia.org/wiki/File:Ahmet_vefik2.jpg"
+        "src": "https://upload.wikimedia.org/wikipedia/commons/e/e8/David-Bowie_Chicago_2002-08-08_photoby_Adam-Bielawski-cropped.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+        "alt": "Picture from the Wikipedia article on David Bowie.",
+        "credit": "Adam Bielawski",
+        "source": "https://commons.wikimedia.org/wiki/File:David-Bowie_Chicago_2002-08-08_photoby_Adam-Bielawski-cropped.jpg",
+        "license": "CC BY-SA 3.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0"
       }
     }
   ]

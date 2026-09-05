@@ -3,18 +3,17 @@
   "dateLabel": "8 April",
   "facts": [
     {
-      "id": "04-08-spain-juan-van-der-hamen",
+      "id": "04-08-grace-hopper",
       "date": "04-08",
       "dateLabel": "8 April",
-      "country": "spain",
-      "countryName": "Spain",
-      "kind": "births",
-      "year": 1596,
-      "title": "Juan van der Hamen",
-      "body": "Juan van der Hamen, Spanish artist (died 1631), was born on this day in 1596.",
+      "category": "tech",
+      "categoryName": "Tech",
+      "year": 1959,
+      "title": "Grace Hopper",
+      "body": "A team of computer manufacturers, users, and university people led by Grace Hopper meets to discuss the creation of a new programming language that would be called COBOL.",
       "source": {
-        "name": "Wikipedia · Juan van der Hamen",
-        "url": "https://en.wikipedia.org/wiki/Juan_van_der_Hamen",
+        "name": "Wikipedia · Grace Hopper",
+        "url": "https://en.wikipedia.org/wiki/Grace_Hopper",
         "calendarUrl": "https://en.wikipedia.org/wiki/April_8",
         "license": {
           "name": "CC BY-SA 4.0",
@@ -22,27 +21,26 @@
         }
       },
       "image": {
-        "src": "https://upload.wikimedia.org/wikipedia/commons/9/95/Juan_van_der_Hamen%2C_Still_Life_with_fruits_and_Gassware%2C_Museum_of_Fine_Arts%2C_Houston.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
-        "alt": "Portrait or image of Juan van der Hamen.",
-        "credit": "Creator:Juan van der Hamn",
-        "source": "https://commons.wikimedia.org/wiki/File:Juan_van_der_Hamen,_Still_Life_with_fruits_and_Gassware,_Museum_of_Fine_Arts,_Houston.jpg",
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/98/Commodore_Grace_M._Hopper%2C_USN_%28covered%29_head_and_shoulders_crop.jpg/1280px-Commodore_Grace_M._Hopper%2C_USN_%28covered%29_head_and_shoulders_crop.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "alt": "Picture from the Wikipedia article on Grace Hopper.",
+        "credit": "James S. Davis",
+        "source": "https://commons.wikimedia.org/wiki/File:Commodore_Grace_M._Hopper,_USN_(covered)_head_and_shoulders_crop.jpg",
         "license": "Public domain",
-        "licenseUrl": "https://commons.wikimedia.org/wiki/File:Juan_van_der_Hamen,_Still_Life_with_fruits_and_Gassware,_Museum_of_Fine_Arts,_Houston.jpg"
+        "licenseUrl": "https://commons.wikimedia.org/wiki/File:Commodore_Grace_M._Hopper,_USN_(covered)_head_and_shoulders_crop.jpg"
       }
     },
     {
-      "id": "04-08-denmark-christian-ix",
+      "id": "04-08-hank-aaron",
       "date": "04-08",
       "dateLabel": "8 April",
-      "country": "denmark",
-      "countryName": "Denmark",
-      "kind": "births",
-      "year": 1818,
-      "title": "Christian IX",
-      "body": "Christian IX, King of Denmark (died 1906), was born on this day in 1818.",
+      "category": "sport",
+      "categoryName": "Sport",
+      "year": 1974,
+      "title": "Hank Aaron",
+      "body": "Hank Aaron passes Babe Ruth as the all-time leader in career home runs by hitting his 715th home run off of Al Downing at Atlanta-Fulton County Stadium.",
       "source": {
-        "name": "Wikipedia · Christian IX",
-        "url": "https://en.wikipedia.org/wiki/Christian_IX",
+        "name": "Wikipedia · Hank Aaron",
+        "url": "https://en.wikipedia.org/wiki/Hank_Aaron",
         "calendarUrl": "https://en.wikipedia.org/wiki/April_8",
         "license": {
           "name": "CC BY-SA 4.0",
@@ -50,27 +48,26 @@
         }
       },
       "image": {
-        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/41/Christian_IX_of_Denmark_%28restored_picture%29.jpg/1280px-Christian_IX_of_Denmark_%28restored_picture%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-        "alt": "Portrait or image of Christian IX.",
-        "credit": "The original uploader was Anathema at German Wikipedia.",
-        "source": "https://commons.wikimedia.org/wiki/File:Christian_IX_of_Denmark_(restored_picture).jpg",
+        "src": "https://upload.wikimedia.org/wikipedia/commons/4/40/Hank_Aaron_1974.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+        "alt": "Picture from the Wikipedia article on Hank Aaron.",
+        "credit": "Unknown author",
+        "source": "https://commons.wikimedia.org/wiki/File:Hank_Aaron_1974.jpg",
         "license": "Public domain",
-        "licenseUrl": "https://commons.wikimedia.org/wiki/File:Christian_IX_of_Denmark_(restored_picture).jpg"
+        "licenseUrl": "https://commons.wikimedia.org/wiki/File:Hank_Aaron_1974.jpg"
       }
     },
     {
-      "id": "04-08-greece-manuel-i-komnenos",
+      "id": "04-08-william-ewart-gladstone",
       "date": "04-08",
       "dateLabel": "8 April",
-      "country": "greece",
-      "countryName": "Greece",
-      "kind": "events",
-      "year": 1143,
-      "title": "Manuel I Komnenos",
-      "body": "1143: Manuel I Komnenos succeeds his father John II Komnenos as Byzantine Emperor.",
+      "category": "world",
+      "categoryName": "World",
+      "year": 1886,
+      "title": "William Ewart Gladstone",
+      "body": "William Ewart Gladstone introduces the first Irish Home Rule Bill into the British House of Commons.",
       "source": {
-        "name": "Wikipedia · Manuel I Komnenos",
-        "url": "https://en.wikipedia.org/wiki/Manuel_I_Komnenos",
+        "name": "Wikipedia · William Ewart Gladstone",
+        "url": "https://en.wikipedia.org/wiki/William_Ewart_Gladstone",
         "calendarUrl": "https://en.wikipedia.org/wiki/April_8",
         "license": {
           "name": "CC BY-SA 4.0",
@@ -78,12 +75,12 @@
         }
       },
       "image": {
-        "src": "https://upload.wikimedia.org/wikipedia/commons/a/af/Manuel_I_Comnenus.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
-        "alt": "Image related to Manuel I Komnenos.",
-        "credit": "Uploader: User:Tokle",
-        "source": "https://commons.wikimedia.org/wiki/File:Manuel_I_Comnenus.jpg",
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c6/William_Ewart_Gladstone%2C_1892_%28cropped%29.jpg/1280px-William_Ewart_Gladstone%2C_1892_%28cropped%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "alt": "Picture from the Wikipedia article on William Ewart Gladstone.",
+        "credit": "Samuel Alexander Walker",
+        "source": "https://commons.wikimedia.org/wiki/File:William_Ewart_Gladstone,_1892_(cropped).jpg",
         "license": "Public domain",
-        "licenseUrl": "https://commons.wikimedia.org/wiki/File:Manuel_I_Comnenus.jpg"
+        "licenseUrl": "https://commons.wikimedia.org/wiki/File:William_Ewart_Gladstone,_1892_(cropped).jpg"
       }
     }
   ]

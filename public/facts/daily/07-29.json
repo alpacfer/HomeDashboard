@@ -3,18 +3,17 @@
   "dateLabel": "29 July",
   "facts": [
     {
-      "id": "07-29-spain-anglo-spanish-war-1585-1604",
+      "id": "07-29-dwight-d-eisenhower",
       "date": "07-29",
       "dateLabel": "29 July",
-      "country": "spain",
-      "countryName": "Spain",
-      "kind": "events",
-      "year": 1588,
-      "title": "Anglo-Spanish War",
-      "body": "1588: Anglo-Spanish War: Battle of Gravelines: English naval forces under the command of Lord Charles Howard and Sir Francis Drake defeat the Spanish Armada off the coast of Gravelines, France.",
+      "category": "space",
+      "categoryName": "Space",
+      "year": 1958,
+      "title": "Dwight D. Eisenhower",
+      "body": "U.S. President Dwight D. Eisenhower signs into law the National Aeronautics and Space Act, which creates the National Aeronautics and Space Administration (NASA).",
       "source": {
-        "name": "Wikipedia · Anglo-Spanish War (1585–1604)",
-        "url": "https://en.wikipedia.org/wiki/Anglo-Spanish_War_(1585%E2%80%931604)",
+        "name": "Wikipedia · Dwight D. Eisenhower",
+        "url": "https://en.wikipedia.org/wiki/Dwight_D._Eisenhower",
         "calendarUrl": "https://en.wikipedia.org/wiki/July_29",
         "license": {
           "name": "CC BY-SA 4.0",
@@ -22,27 +21,26 @@
         }
       },
       "image": {
-        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/1d/English_Ships_and_the_Spanish_Armada%2C_August_1588_RMG_BHC0262.jpg/1280px-English_Ships_and_the_Spanish_Armada%2C_August_1588_RMG_BHC0262.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-        "alt": "Image related to Anglo-Spanish War.",
-        "credit": "anonymous",
-        "source": "https://commons.wikimedia.org/wiki/File:English_Ships_and_the_Spanish_Armada,_August_1588_RMG_BHC0262.jpg",
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/02/Dwight_D._Eisenhower%2C_official_photo_portrait%2C_May_29%2C_1959_%28cropped%29%283%29.jpg/1280px-Dwight_D._Eisenhower%2C_official_photo_portrait%2C_May_29%2C_1959_%28cropped%29%283%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "alt": "Picture from the Wikipedia article on Dwight D. Eisenhower.",
+        "credit": "White House",
+        "source": "https://commons.wikimedia.org/wiki/File:Dwight_D._Eisenhower,_official_photo_portrait,_May_29,_1959_(cropped)(3).jpg",
         "license": "Public domain",
-        "licenseUrl": "https://commons.wikimedia.org/wiki/File:English_Ships_and_the_Spanish_Armada,_August_1588_RMG_BHC0262.jpg"
+        "licenseUrl": "https://commons.wikimedia.org/wiki/File:Dwight_D._Eisenhower,_official_photo_portrait,_May_29,_1959_(cropped)(3).jpg"
       }
     },
     {
-      "id": "07-29-denmark-john-clarke-satirist",
+      "id": "07-29-flag-of-iran",
       "date": "07-29",
       "dateLabel": "29 July",
-      "country": "denmark",
-      "countryName": "Denmark",
-      "kind": "births",
-      "year": 1948,
-      "title": "John Clarke",
-      "body": "John Clarke, New Zealand-Australian comedian, actor, producer, and screenwriter (died 2017), was born on this day in 1948.",
+      "category": "world",
+      "categoryName": "World",
+      "year": 1980,
+      "title": "Flag of Iran",
+      "body": "Iran adopts a new \"holy\" flag after the Islamic Revolution.",
       "source": {
-        "name": "Wikipedia · John Clarke (satirist)",
-        "url": "https://en.wikipedia.org/wiki/John_Clarke_(satirist)",
+        "name": "Wikipedia · Flag of Iran",
+        "url": "https://en.wikipedia.org/wiki/Flag_of_Iran",
         "calendarUrl": "https://en.wikipedia.org/wiki/July_29",
         "license": {
           "name": "CC BY-SA 4.0",
@@ -50,27 +48,26 @@
         }
       },
       "image": {
-        "src": "https://commons.wikimedia.org/wiki/Special:Redirect/file/Flag_of_Denmark.svg?width=1000",
-        "alt": "The national flag of Denmark.",
-        "credit": "Danish government",
-        "source": "https://commons.wikimedia.org/wiki/File:Flag_of_Denmark.svg",
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/ca/Flag_of_Iran.svg/1280px-Flag_of_Iran.svg.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "alt": "Picture from the Wikipedia article on Flag of Iran.",
+        "credit": "SVG file: SiBr4Designer: Hamid NadimiConstruction: ISIRI",
+        "source": "https://commons.wikimedia.org/wiki/File:Flag_of_Iran.svg",
         "license": "Public domain",
-        "licenseUrl": "https://commons.wikimedia.org/wiki/File:Flag_of_Denmark.svg"
+        "licenseUrl": "https://commons.wikimedia.org/wiki/File:Flag_of_Iran.svg"
       }
     },
     {
-      "id": "07-29-greece-sack-of-thessalonica-904",
+      "id": "07-29-eris-dwarf-planet",
       "date": "07-29",
       "dateLabel": "29 July",
-      "country": "greece",
-      "countryName": "Greece",
-      "kind": "events",
-      "year": 904,
-      "title": "Sack of Thessalonica",
-      "body": "904: Sack of Thessalonica: Saracen raiders under Leo of Tripoli sack Thessaloniki, the Byzantine Empire's second-largest city, after a short siege, and plunder it for a week.",
+      "category": "science",
+      "categoryName": "Science",
+      "year": 2005,
+      "title": "Eris",
+      "body": "Astronomers announce their discovery of the dwarf planet Eris.",
       "source": {
-        "name": "Wikipedia · Sack of Thessalonica (904)",
-        "url": "https://en.wikipedia.org/wiki/Sack_of_Thessalonica_(904)",
+        "name": "Wikipedia · Eris (dwarf planet)",
+        "url": "https://en.wikipedia.org/wiki/Eris_(dwarf_planet)",
         "calendarUrl": "https://en.wikipedia.org/wiki/July_29",
         "license": {
           "name": "CC BY-SA 4.0",
@@ -78,12 +75,12 @@
         }
       },
       "image": {
-        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/8c/Sack_of_Thessalonica_by_Arabs%2C_904.png/1280px-Sack_of_Thessalonica_by_Arabs%2C_904.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-        "alt": "Image related to Sack of Thessalonica.",
-        "credit": "Cplakidas, from 12th century manuscript",
-        "source": "https://commons.wikimedia.org/wiki/File:Sack_of_Thessalonica_by_Arabs,_904.png",
-        "license": "Public domain",
-        "licenseUrl": "https://commons.wikimedia.org/wiki/File:Sack_of_Thessalonica_by_Arabs,_904.png"
+        "src": "https://upload.wikimedia.org/wikipedia/commons/6/63/Eris_and_moon_Dysnomia_JWST_NIRCam.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+        "alt": "Picture from the Wikipedia article on Eris.",
+        "credit": "NASA/ESA/CSA JWST NIRCam; Ana Carolina de Souza Feliciano et al. & Melina Thévenot",
+        "source": "https://commons.wikimedia.org/wiki/File:Eris_and_moon_Dysnomia_JWST_NIRCam.jpg",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0"
       }
     }
   ]

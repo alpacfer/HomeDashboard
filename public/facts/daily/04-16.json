@@ -3,18 +3,17 @@
   "dateLabel": "16 April",
   "facts": [
     {
-      "id": "04-16-spain-revolt-of-the-comuneros",
+      "id": "04-16-ice-hockey",
       "date": "04-16",
       "dateLabel": "16 April",
-      "country": "spain",
-      "countryName": "Spain",
-      "kind": "events",
-      "year": 1520,
-      "title": "Revolt of the Comuneros",
-      "body": "1520: The Revolt of the Comuneros begins in Spain against the rule of Charles V.",
+      "category": "sport",
+      "categoryName": "Sport",
+      "year": 1910,
+      "title": "Ice hockey",
+      "body": "The oldest indoor ice hockey arena used for the sport in the 21st century, Boston Arena, opens for the first time.",
       "source": {
-        "name": "Wikipedia · Revolt of the Comuneros",
-        "url": "https://en.wikipedia.org/wiki/Revolt_of_the_Comuneros",
+        "name": "Wikipedia · Ice hockey",
+        "url": "https://en.wikipedia.org/wiki/Ice_hockey",
         "calendarUrl": "https://en.wikipedia.org/wiki/April_16",
         "license": {
           "name": "CC BY-SA 4.0",
@@ -22,27 +21,53 @@
         }
       },
       "image": {
-        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/72/Comuneros.jpg/1280px-Comuneros.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-        "alt": "Image related to Revolt of the Comuneros.",
-        "credit": "Antonio Gisbert",
-        "source": "https://commons.wikimedia.org/wiki/File:Comuneros.jpg",
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/39/Pittsburgh_Penguins%2C_Washington_Capitals%2C_Bryan_Rust_%2833744033514%29.jpg/1280px-Pittsburgh_Penguins%2C_Washington_Capitals%2C_Bryan_Rust_%2833744033514%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "alt": "Picture from the Wikipedia article on Ice hockey.",
+        "credit": "Keith Allison from Hanover, MD, USA",
+        "source": "https://commons.wikimedia.org/wiki/File:Pittsburgh_Penguins,_Washington_Capitals,_Bryan_Rust_(33744033514).jpg",
+        "license": "CC BY-SA 2.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0"
+      }
+    },
+    {
+      "id": "04-16-fidel-castro",
+      "date": "04-16",
+      "dateLabel": "16 April",
+      "category": "world",
+      "categoryName": "World",
+      "year": 1961,
+      "title": "Fidel Castro",
+      "body": "In a nationally broadcast speech, Cuban leader Fidel Castro declares that he is a Marxist–Leninist and that Cuba is going to adopt Communism.",
+      "source": {
+        "name": "Wikipedia · Fidel Castro",
+        "url": "https://en.wikipedia.org/wiki/Fidel_Castro",
+        "calendarUrl": "https://en.wikipedia.org/wiki/April_16",
+        "license": {
+          "name": "CC BY-SA 4.0",
+          "url": "https://creativecommons.org/licenses/by-sa/4.0/"
+        }
+      },
+      "image": {
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/86/Fidel_Castro%2C_Prime_Minister_of_Cuba._Castro_at_the_United_Nations%2C_New_York_%283x4_cropped%29.jpg/1280px-Fidel_Castro%2C_Prime_Minister_of_Cuba._Castro_at_the_United_Nations%2C_New_York_%283x4_cropped%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "alt": "Picture from the Wikipedia article on Fidel Castro.",
+        "credit": "Bernard Gotfryd",
+        "source": "https://commons.wikimedia.org/wiki/File:Fidel_Castro,_Prime_Minister_of_Cuba._Castro_at_the_United_Nations,_New_York_(3x4_cropped).jpg",
         "license": "Public domain",
-        "licenseUrl": "https://commons.wikimedia.org/wiki/File:Comuneros.jpg"
+        "licenseUrl": "https://commons.wikimedia.org/wiki/File:Fidel_Castro,_Prime_Minister_of_Cuba._Castro_at_the_United_Nations,_New_York_(3x4_cropped).jpg"
       }
     },
     {
-      "id": "04-16-denmark-m-ori-people",
+      "id": "04-16-apollo-16",
       "date": "04-16",
       "dateLabel": "16 April",
-      "country": "denmark",
-      "countryName": "Denmark",
-      "kind": "events",
-      "year": 1847,
-      "title": "Māori",
-      "body": "1847: Shooting of a Māori by an English sailor results in the opening of the Wanganui Campaign of the New Zealand Wars.",
+      "category": "space",
+      "categoryName": "Space",
+      "year": 1972,
+      "title": "Apollo 16",
+      "body": "The launch of Apollo 16 from Cape Canaveral, Florida.",
       "source": {
-        "name": "Wikipedia · Māori people",
-        "url": "https://en.wikipedia.org/wiki/M%C4%81ori_people",
+        "name": "Wikipedia · Apollo 16",
+        "url": "https://en.wikipedia.org/wiki/Apollo_16",
         "calendarUrl": "https://en.wikipedia.org/wiki/April_16",
         "license": {
           "name": "CC BY-SA 4.0",
@@ -50,40 +75,12 @@
         }
       },
       "image": {
-        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/80/New_Zealand_-_Maori_rowing_-_8444.jpg/1280px-New_Zealand_-_Maori_rowing_-_8444.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-        "alt": "Image related to Māori.",
-        "credit": "© Jorge Royan / http://www.royan.com.ar",
-        "source": "https://commons.wikimedia.org/wiki/File:New_Zealand_-_Maori_rowing_-_8444.jpg",
-        "license": "CC BY-SA 3.0",
-        "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0"
-      }
-    },
-    {
-      "id": "04-16-greece-treaty-of-accession-2003",
-      "date": "04-16",
-      "dateLabel": "16 April",
-      "country": "greece",
-      "countryName": "Greece",
-      "kind": "events",
-      "year": 2003,
-      "title": "Treaty of Accession",
-      "body": "2003: The Treaty of Accession is signed in Athens admitting ten new member states to the European Union.",
-      "source": {
-        "name": "Wikipedia · Treaty of Accession 2003",
-        "url": "https://en.wikipedia.org/wiki/Treaty_of_Accession_2003",
-        "calendarUrl": "https://en.wikipedia.org/wiki/April_16",
-        "license": {
-          "name": "CC BY-SA 4.0",
-          "url": "https://creativecommons.org/licenses/by-sa/4.0/"
-        }
-      },
-      "image": {
-        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/db/EU25-2004_European_Union_map_enlargement.svg/1280px-EU25-2004_European_Union_map_enlargement.svg.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-        "alt": "Image related to Treaty of Accession.",
-        "credit": "Europe_countries.svg: Júlio Reis derivative work: Kolja21 (talk)",
-        "source": "https://commons.wikimedia.org/wiki/File:EU25-2004_European_Union_map_enlargement.svg",
-        "license": "CC BY-SA 2.5",
-        "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.5"
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b3/John_W._Young_on_the_Moon.jpg/1280px-John_W._Young_on_the_Moon.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "alt": "Picture from the Wikipedia article on Apollo 16.",
+        "credit": "Charlie Duke",
+        "source": "https://commons.wikimedia.org/wiki/File:John_W._Young_on_the_Moon.jpg",
+        "license": "Public domain",
+        "licenseUrl": "https://commons.wikimedia.org/wiki/File:John_W._Young_on_the_Moon.jpg"
       }
     }
   ]

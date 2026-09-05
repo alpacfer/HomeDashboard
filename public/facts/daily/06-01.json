@@ -3,18 +3,17 @@
   "dateLabel": "1 June",
   "facts": [
     {
-      "id": "06-01-spain-philippine-revolts-against-spain",
+      "id": "06-01-space-shuttle-endeavour",
       "date": "06-01",
       "dateLabel": "1 June",
-      "country": "spain",
-      "countryName": "Spain",
-      "kind": "events",
-      "year": 1649,
-      "title": "Sumuroy Revolt",
-      "body": "1649: Start of the Sumuroy Revolt: Filipinos in Northern Samar led by Agustin Sumuroy revolt against Spanish colonial authorities.",
+      "category": "space",
+      "categoryName": "Space",
+      "year": 2011,
+      "title": "Space Shuttle Endeavour",
+      "body": "Space Shuttle Endeavour makes its final landing after 25 flights.",
       "source": {
-        "name": "Wikipedia · Philippine revolts against Spain",
-        "url": "https://en.wikipedia.org/wiki/Philippine_revolts_against_Spain",
+        "name": "Wikipedia · Space Shuttle Endeavour",
+        "url": "https://en.wikipedia.org/wiki/Space_Shuttle_Endeavour",
         "calendarUrl": "https://en.wikipedia.org/wiki/June_1",
         "license": {
           "name": "CC BY-SA 4.0",
@@ -22,27 +21,26 @@
         }
       },
       "image": {
-        "src": "https://commons.wikimedia.org/wiki/Special:Redirect/file/Flag_of_Spain.svg?width=1000",
-        "alt": "The national flag of Spain.",
-        "credit": "Government of Spain",
-        "source": "https://commons.wikimedia.org/wiki/File:Flag_of_Spain.svg",
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/65/STS-123_Dextre%26Kibo_ELM-PS_in_orbit_%28cropped%29.jpg/1280px-STS-123_Dextre%26Kibo_ELM-PS_in_orbit_%28cropped%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "alt": "Picture from the Wikipedia article on Space Shuttle Endeavour.",
+        "credit": "NASA",
+        "source": "https://commons.wikimedia.org/wiki/File:STS-123_Dextre%26Kibo_ELM-PS_in_orbit_(cropped).jpg",
         "license": "Public domain",
-        "licenseUrl": "https://commons.wikimedia.org/wiki/File:Flag_of_Spain.svg"
+        "licenseUrl": "https://commons.wikimedia.org/wiki/File:STS-123_Dextre%26Kibo_ELM-PS_in_orbit_(cropped).jpg"
       }
     },
     {
-      "id": "06-01-denmark-battle-of-land",
+      "id": "06-01-2008-universal-fire",
       "date": "06-01",
       "dateLabel": "1 June",
-      "country": "denmark",
-      "countryName": "Denmark",
-      "kind": "events",
-      "year": 1676,
-      "title": "Battle of Öland",
-      "body": "1676: Battle of Öland: allied Danish-Dutch forces defeat the Swedish navy in the Baltic Sea, during the Scanian War (1675–79).",
+      "category": "culture",
+      "categoryName": "Culture",
+      "year": 2008,
+      "title": "2008 Universal Studios fire",
+      "body": "A fire on the back lot of Universal Studios breaks out, destroying the attraction King Kong Encounter and a large archive of master tapes for music and film, the full extent of which was not revealed until 2019.",
       "source": {
-        "name": "Wikipedia · Battle of Öland",
-        "url": "https://en.wikipedia.org/wiki/Battle_of_%C3%96land",
+        "name": "Wikipedia · 2008 Universal Studios fire",
+        "url": "https://en.wikipedia.org/wiki/2008_Universal_Studios_fire",
         "calendarUrl": "https://en.wikipedia.org/wiki/June_1",
         "license": {
           "name": "CC BY-SA 4.0",
@@ -50,27 +48,26 @@
         }
       },
       "image": {
-        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/5c/Claus_M%C3%B8inichen_-_Slaget_ved_%C3%98land_1._juni_1676.png/1280px-Claus_M%C3%B8inichen_-_Slaget_ved_%C3%98land_1._juni_1676.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-        "alt": "Image related to Battle of Öland.",
-        "credit": "Claus Møinichen",
-        "source": "https://commons.wikimedia.org/wiki/File:Claus_M%C3%B8inichen_-_Slaget_ved_%C3%98land_1._juni_1676.png",
-        "license": "Public domain",
-        "licenseUrl": "https://commons.wikimedia.org/wiki/File:Claus_M%C3%B8inichen_-_Slaget_ved_%C3%98land_1._juni_1676.png"
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/62/Universal_Fire_Smoke.jpg/1280px-Universal_Fire_Smoke.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "alt": "Picture from the Wikipedia article on 2008 Universal Studios fire.",
+        "credit": "pinguino k",
+        "source": "https://commons.wikimedia.org/wiki/File:Universal_Fire_Smoke.jpg",
+        "license": "CC BY 2.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by/2.0"
       }
     },
     {
-      "id": "06-01-greece-greek-serbian-alliance-of-1913",
+      "id": "06-01-rhodesia",
       "date": "06-01",
       "dateLabel": "1 June",
-      "country": "greece",
-      "countryName": "Greece",
-      "kind": "events",
-      "year": 1913,
-      "title": "Greek–Serbian Treaty of Alliance",
-      "body": "1913: The Greek–Serbian Treaty of Alliance is signed, paving the way for the Second Balkan War.",
+      "category": "world",
+      "categoryName": "World",
+      "year": 1979,
+      "title": "Rhodesia",
+      "body": "The first black-led government of Rhodesia (now Zimbabwe) in 90 years takes power.",
       "source": {
-        "name": "Wikipedia · Greek–Serbian Alliance of 1913",
-        "url": "https://en.wikipedia.org/wiki/Greek%E2%80%93Serbian_Alliance_of_1913",
+        "name": "Wikipedia · Rhodesia",
+        "url": "https://en.wikipedia.org/wiki/Rhodesia",
         "calendarUrl": "https://en.wikipedia.org/wiki/June_1",
         "license": {
           "name": "CC BY-SA 4.0",
@@ -78,12 +75,12 @@
         }
       },
       "image": {
-        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/70/Greek-Serbian_Alliance_of_1913.svg/1280px-Greek-Serbian_Alliance_of_1913.svg.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-        "alt": "Image related to Greek–Serbian Treaty of Alliance.",
-        "credit": "Blank_map_of_Europe_1914.svg: *Blank_map_of_Europe.svg: maix¿? derivative work: Alphathon /'æɫfə.θɒn/ (talk) derivative work: P. S. Burton",
-        "source": "https://commons.wikimedia.org/wiki/File:Greek-Serbian_Alliance_of_1913.svg",
-        "license": "CC BY-SA 3.0",
-        "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0"
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/02/Flag_of_Rhodesia_%281968%E2%80%931979%29.svg/1280px-Flag_of_Rhodesia_%281968%E2%80%931979%29.svg.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "alt": "Picture from the Wikipedia article on Rhodesia.",
+        "credit": "Actarux (original)",
+        "source": "https://commons.wikimedia.org/wiki/File:Flag_of_Rhodesia_(1968%E2%80%931979).svg",
+        "license": "Public domain",
+        "licenseUrl": "https://commons.wikimedia.org/wiki/File:Flag_of_Rhodesia_(1968%E2%80%931979).svg"
       }
     }
   ]

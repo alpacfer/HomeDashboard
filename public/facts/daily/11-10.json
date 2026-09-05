@@ -3,18 +3,17 @@
   "dateLabel": "10 November",
   "facts": [
     {
-      "id": "11-10-spain-the-gesture-of-rufina-alfaro",
+      "id": "11-10-bill-gates",
       "date": "11-10",
       "dateLabel": "10 November",
-      "country": "spain",
-      "countryName": "Spain",
-      "kind": "events",
-      "year": 1821,
-      "title": "Cry of Independence",
-      "body": "1821: Cry of Independence by Rufina Alfaro at La Villa de Los Santos, Panama setting into motion a revolt which led to Panama's independence from Spain and to it immediately becoming part of Colombia.",
+      "category": "tech",
+      "categoryName": "Tech",
+      "year": 1983,
+      "title": "Bill Gates",
+      "body": "Bill Gates introduces Windows 1.0.",
       "source": {
-        "name": "Wikipedia · The Gesture of Rufina Alfaro",
-        "url": "https://en.wikipedia.org/wiki/The_Gesture_of_Rufina_Alfaro",
+        "name": "Wikipedia · Bill Gates",
+        "url": "https://en.wikipedia.org/wiki/Bill_Gates",
         "calendarUrl": "https://en.wikipedia.org/wiki/November_10",
         "license": {
           "name": "CC BY-SA 4.0",
@@ -22,27 +21,26 @@
         }
       },
       "image": {
-        "src": "https://commons.wikimedia.org/wiki/Special:Redirect/file/Flag_of_Spain.svg?width=1000",
-        "alt": "The national flag of Spain.",
-        "credit": "Government of Spain",
-        "source": "https://commons.wikimedia.org/wiki/File:Flag_of_Spain.svg",
-        "license": "Public domain",
-        "licenseUrl": "https://commons.wikimedia.org/wiki/File:Flag_of_Spain.svg"
+        "src": "https://upload.wikimedia.org/wikipedia/commons/d/d9/Bill_Gates_at_the_European_Commission_-_P067383-987995_%28cropped%29_5.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+        "alt": "Picture from the Wikipedia article on Bill Gates.",
+        "credit": "© European Union, 2026",
+        "source": "https://commons.wikimedia.org/wiki/File:Bill_Gates_at_the_European_Commission_-_P067383-987995_(cropped)_5.jpg",
+        "license": "CC BY 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by/4.0"
       }
     },
     {
-      "id": "11-10-denmark-dorothea-of-denmark-electress-palatine",
+      "id": "11-10-mars",
       "date": "11-10",
       "dateLabel": "10 November",
-      "country": "denmark",
-      "countryName": "Denmark",
-      "kind": "births",
-      "year": 1520,
-      "title": "Dorothea of Denmark, Electress Palatine",
-      "body": "Dorothea of Denmark, Electress Palatine, Princess of Denmark, Sweden and Norway (died 1580), was born on this day in 1520.",
+      "category": "space",
+      "categoryName": "Space",
+      "year": 2008,
+      "title": "Mars",
+      "body": "Over five months after landing on Mars, NASA declares the Phoenix mission concluded after communications with the lander were lost.",
       "source": {
-        "name": "Wikipedia · Dorothea of Denmark, Electress Palatine",
-        "url": "https://en.wikipedia.org/wiki/Dorothea_of_Denmark%2C_Electress_Palatine",
+        "name": "Wikipedia · Mars",
+        "url": "https://en.wikipedia.org/wiki/Mars",
         "calendarUrl": "https://en.wikipedia.org/wiki/November_10",
         "license": {
           "name": "CC BY-SA 4.0",
@@ -50,27 +48,26 @@
         }
       },
       "image": {
-        "src": "https://upload.wikimedia.org/wikipedia/commons/5/54/ChristinavonDaenemarkCoxcie.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
-        "alt": "Portrait or image of Dorothea of Denmark, Electress Palatine.",
-        "credit": "Michiel Coxie",
-        "source": "https://commons.wikimedia.org/wiki/File:ChristinavonDaenemarkCoxcie.jpg",
-        "license": "Public domain",
-        "licenseUrl": "https://commons.wikimedia.org/wiki/File:ChristinavonDaenemarkCoxcie.jpg"
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/0c/Mars_-_August_30_2021_-_Flickr_-_Kevin_M._Gill.png/1280px-Mars_-_August_30_2021_-_Flickr_-_Kevin_M._Gill.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "alt": "Picture from the Wikipedia article on Mars.",
+        "credit": "Kevin Gill from Los Angeles, CA, United States",
+        "source": "https://commons.wikimedia.org/wiki/File:Mars_-_August_30_2021_-_Flickr_-_Kevin_M._Gill.png",
+        "license": "CC BY 2.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by/2.0"
       }
     },
     {
-      "id": "11-10-greece-leo-ii-emperor",
+      "id": "11-10-frans-eemil-sillanp",
       "date": "11-10",
       "dateLabel": "10 November",
-      "country": "greece",
-      "countryName": "Greece",
-      "kind": "events",
-      "year": 474,
-      "title": "Leo II",
-      "body": "474: Emperor Leo II dies after a reign of ten months. He is succeeded by his father Zeno, who becomes sole ruler of the Byzantine Empire.",
+      "category": "culture",
+      "categoryName": "Culture",
+      "year": 1939,
+      "title": "Frans Eemil Sillanpää",
+      "body": "Finnish author F. E. Sillanpää is awarded the Nobel Prize in Literature.",
       "source": {
-        "name": "Wikipedia · Leo II (emperor)",
-        "url": "https://en.wikipedia.org/wiki/Leo_II_(emperor)",
+        "name": "Wikipedia · Frans Eemil Sillanpää",
+        "url": "https://en.wikipedia.org/wiki/Frans_Eemil_Sillanp%C3%A4%C3%A4",
         "calendarUrl": "https://en.wikipedia.org/wiki/November_10",
         "license": {
           "name": "CC BY-SA 4.0",
@@ -78,12 +75,12 @@
         }
       },
       "image": {
-        "src": "https://upload.wikimedia.org/wikipedia/commons/8/8b/Solidus_of_Leo_II.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
-        "alt": "Image related to Leo II.",
-        "credit": "CNG Coins",
-        "source": "https://commons.wikimedia.org/wiki/File:Solidus_of_Leo_II.png",
+        "src": "https://upload.wikimedia.org/wikipedia/commons/1/1d/FransEemilSillanp%C3%A4%C3%A4.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+        "alt": "Picture from the Wikipedia article on Frans Eemil Sillanpää.",
+        "credit": "The original uploader was Blofeld of SPECTRE at English Wikipedia.",
+        "source": "https://commons.wikimedia.org/wiki/File:FransEemilSillanp%C3%A4%C3%A4.jpg",
         "license": "Public domain",
-        "licenseUrl": "https://commons.wikimedia.org/wiki/File:Solidus_of_Leo_II.png"
+        "licenseUrl": "https://commons.wikimedia.org/wiki/File:FransEemilSillanp%C3%A4%C3%A4.jpg"
       }
     }
   ]

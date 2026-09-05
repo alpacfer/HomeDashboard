@@ -3,18 +3,17 @@
   "dateLabel": "23 November",
   "facts": [
     {
-      "id": "11-23-spain-siege-of-seville",
+      "id": "11-23-ibm-simon",
       "date": "11-23",
       "dateLabel": "23 November",
-      "country": "spain",
-      "countryName": "Spain",
-      "kind": "events",
-      "year": 1248,
-      "title": "Conquest of Seville",
-      "body": "1248: Conquest of Seville by Christian troops under King Ferdinand III of Castile.",
+      "category": "tech",
+      "categoryName": "Tech",
+      "year": 1992,
+      "title": "IBM Simon",
+      "body": "The first smartphone, the IBM Simon, is introduced at COMDEX in Las Vegas, Nevada.",
       "source": {
-        "name": "Wikipedia · Siege of Seville",
-        "url": "https://en.wikipedia.org/wiki/Siege_of_Seville",
+        "name": "Wikipedia · IBM Simon",
+        "url": "https://en.wikipedia.org/wiki/IBM_Simon",
         "calendarUrl": "https://en.wikipedia.org/wiki/November_23",
         "license": {
           "name": "CC BY-SA 4.0",
@@ -22,27 +21,26 @@
         }
       },
       "image": {
-        "src": "https://upload.wikimedia.org/wikipedia/commons/c/c8/Capture_de_S%C3%A9ville_par_Ferdinand_III.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
-        "alt": "Image related to Conquest of Seville.",
-        "credit": "Francisco Pacheco",
-        "source": "https://commons.wikimedia.org/wiki/File:Capture_de_S%C3%A9ville_par_Ferdinand_III.jpg",
+        "src": "https://upload.wikimedia.org/wikipedia/commons/f/f8/IBM_Simon.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+        "alt": "Picture from the Wikipedia article on IBM Simon.",
+        "credit": "IBM",
+        "source": "https://commons.wikimedia.org/wiki/File:IBM_Simon.png",
         "license": "Public domain",
-        "licenseUrl": "https://commons.wikimedia.org/wiki/File:Capture_de_S%C3%A9ville_par_Ferdinand_III.jpg"
+        "licenseUrl": "https://commons.wikimedia.org/wiki/File:IBM_Simon.png"
       }
     },
     {
-      "id": "11-23-denmark-1733-slave-insurrection-on-st-john",
+      "id": "11-23-ogaden",
       "date": "11-23",
       "dateLabel": "23 November",
-      "country": "denmark",
-      "countryName": "Denmark",
-      "kind": "events",
-      "year": 1733,
-      "title": "1733 slave insurrection on St. John",
-      "body": "1733: The start of the 1733 slave insurrection on St. John in what was then the Danish West Indies.",
+      "category": "science",
+      "categoryName": "Science",
+      "year": 1934,
+      "title": "Ogaden",
+      "body": "An Anglo-Ethiopian boundary commission in the Ogaden discovers an Italian garrison at Walwal, well within Ethiopian territory. This leads to the Abyssinia Crisis.",
       "source": {
-        "name": "Wikipedia · 1733 slave insurrection on St. John",
-        "url": "https://en.wikipedia.org/wiki/1733_slave_insurrection_on_St._John",
+        "name": "Wikipedia · Ogaden",
+        "url": "https://en.wikipedia.org/wiki/Ogaden",
         "calendarUrl": "https://en.wikipedia.org/wiki/November_23",
         "license": {
           "name": "CC BY-SA 4.0",
@@ -50,27 +48,26 @@
         }
       },
       "image": {
-        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/79/Mary%C2%B4s_Fancy%2C_Saint_Croix.jpg/1280px-Mary%C2%B4s_Fancy%2C_Saint_Croix.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-        "alt": "Image related to 1733 slave insurrection on St. John.",
-        "credit": "Fritz Melbye",
-        "source": "https://commons.wikimedia.org/wiki/File:Mary%C2%B4s_Fancy,_Saint_Croix.jpg",
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a5/Ethiopia%2C_the_Ogaden_Region._LOC_91682434.jpg/1280px-Ethiopia%2C_the_Ogaden_Region._LOC_91682434.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "alt": "Picture from the Wikipedia article on Ogaden.",
+        "credit": "United States. Central Intelligence Agency",
+        "source": "https://commons.wikimedia.org/wiki/File:Ethiopia,_the_Ogaden_Region._LOC_91682434.jpg",
         "license": "Public domain",
-        "licenseUrl": "https://commons.wikimedia.org/wiki/File:Mary%C2%B4s_Fancy,_Saint_Croix.jpg"
+        "licenseUrl": "https://commons.wikimedia.org/wiki/File:Ethiopia,_the_Ogaden_Region._LOC_91682434.jpg"
       }
     },
     {
-      "id": "11-23-greece-aircraft-hijacking",
+      "id": "11-23-central-intelligence-agency",
       "date": "11-23",
       "dateLabel": "23 November",
-      "country": "greece",
-      "countryName": "Greece",
-      "kind": "events",
-      "year": 1985,
-      "title": "hijack",
-      "body": "1985: Gunmen hijack EgyptAir Flight 648 en route from Athens to Cairo. When the plane lands in Malta, Egyptian commandos storm the aircraft, but 60 people die in the raid.",
+      "category": "world",
+      "categoryName": "World",
+      "year": 1981,
+      "title": "Central Intelligence Agency",
+      "body": "Ronald Reagan signs the top secret National Security Decision Directive 17 (NSDD-17), giving the Central Intelligence Agency the authority to recruit and support Contra rebels in Nicaragua.",
       "source": {
-        "name": "Wikipedia · Aircraft hijacking",
-        "url": "https://en.wikipedia.org/wiki/Aircraft_hijacking",
+        "name": "Wikipedia · Central Intelligence Agency",
+        "url": "https://en.wikipedia.org/wiki/Central_Intelligence_Agency",
         "calendarUrl": "https://en.wikipedia.org/wiki/November_23",
         "license": {
           "name": "CC BY-SA 4.0",
@@ -78,12 +75,12 @@
         }
       },
       "image": {
-        "src": "https://commons.wikimedia.org/wiki/Special:Redirect/file/Flag_of_Greece.svg?width=1000",
-        "alt": "The national flag of Greece.",
-        "credit": "Greek government",
-        "source": "https://commons.wikimedia.org/wiki/File:Flag_of_Greece.svg",
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/25/Seal_of_the_Central_Intelligence_Agency.svg/1280px-Seal_of_the_Central_Intelligence_Agency.svg.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "alt": "Picture from the Wikipedia article on Central Intelligence Agency.",
+        "credit": "United States Federal government",
+        "source": "https://commons.wikimedia.org/wiki/File:Seal_of_the_Central_Intelligence_Agency.svg",
         "license": "Public domain",
-        "licenseUrl": "https://commons.wikimedia.org/wiki/File:Flag_of_Greece.svg"
+        "licenseUrl": "https://commons.wikimedia.org/wiki/File:Seal_of_the_Central_Intelligence_Agency.svg"
       }
     }
   ]

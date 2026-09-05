@@ -3,18 +3,17 @@
   "dateLabel": "13 April",
   "facts": [
     {
-      "id": "04-13-spain-carles-puyol",
+      "id": "04-13-transit-satellite",
       "date": "04-13",
       "dateLabel": "13 April",
-      "country": "spain",
-      "countryName": "Spain",
-      "kind": "births",
-      "year": 1978,
-      "title": "Carles Puyol",
-      "body": "Carles Puyol, Spanish footballer, was born on this day in 1978.",
+      "category": "space",
+      "categoryName": "Space",
+      "year": 1960,
+      "title": "Transit",
+      "body": "The United States launches Transit 1-B, the world's first satellite navigation system.",
       "source": {
-        "name": "Wikipedia · Carles Puyol",
-        "url": "https://en.wikipedia.org/wiki/Carles_Puyol",
+        "name": "Wikipedia · Transit (satellite navigation system)",
+        "url": "https://en.wikipedia.org/wiki/Transit_(satellite_navigation_system)",
         "calendarUrl": "https://en.wikipedia.org/wiki/April_13",
         "license": {
           "name": "CC BY-SA 4.0",
@@ -22,68 +21,66 @@
         }
       },
       "image": {
-        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/65/Premios_Goya_2020_-_Carles_Pujol.jpg/1280px-Premios_Goya_2020_-_Carles_Pujol.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-        "alt": "Portrait or image of Carles Puyol.",
-        "credit": "Pedro J Pacheco",
-        "source": "https://commons.wikimedia.org/wiki/File:Premios_Goya_2020_-_Carles_Pujol.jpg",
-        "license": "CC BY-SA 4.0",
-        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0"
-      }
-    },
-    {
-      "id": "04-13-denmark-urania-marquard-olsen",
-      "date": "04-13",
-      "dateLabel": "13 April",
-      "country": "denmark",
-      "countryName": "Denmark",
-      "kind": "births",
-      "year": 1856,
-      "title": "Urania Marquard Olsen",
-      "body": "Urania Marquard Olsen, Danish-Norwegian actress and theatre director (died 1932), was born on this day in 1856.",
-      "source": {
-        "name": "Wikipedia · Urania Marquard Olsen",
-        "url": "https://en.wikipedia.org/wiki/Urania_Marquard_Olsen",
-        "calendarUrl": "https://en.wikipedia.org/wiki/April_13",
-        "license": {
-          "name": "CC BY-SA 4.0",
-          "url": "https://creativecommons.org/licenses/by-sa/4.0/"
-        }
-      },
-      "image": {
-        "src": "https://upload.wikimedia.org/wikipedia/commons/d/da/Urania_Marquard_Olsen_TM.T01138.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
-        "alt": "Portrait or image of Urania Marquard Olsen.",
-        "credit": "Oslo Museum",
-        "source": "https://commons.wikimedia.org/wiki/File:Urania_Marquard_Olsen_TM.T01138.jpg",
-        "license": "CC BY-SA 2.0",
-        "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0"
-      }
-    },
-    {
-      "id": "04-13-greece-bardas-phokas-the-younger",
-      "date": "04-13",
-      "dateLabel": "13 April",
-      "country": "greece",
-      "countryName": "Greece",
-      "kind": "events",
-      "year": 989,
-      "title": "Bardas Phokas the Younger",
-      "body": "989: The death of Bardas Phokas the Younger in the battle of Abydos ends his second rebellion against Byzantine Emperor Basil II.",
-      "source": {
-        "name": "Wikipedia · Bardas Phokas the Younger",
-        "url": "https://en.wikipedia.org/wiki/Bardas_Phokas_the_Younger",
-        "calendarUrl": "https://en.wikipedia.org/wiki/April_13",
-        "license": {
-          "name": "CC BY-SA 4.0",
-          "url": "https://creativecommons.org/licenses/by-sa/4.0/"
-        }
-      },
-      "image": {
-        "src": "https://commons.wikimedia.org/wiki/Special:Redirect/file/Flag_of_Greece.svg?width=1000",
-        "alt": "The national flag of Greece.",
-        "credit": "Greek government",
-        "source": "https://commons.wikimedia.org/wiki/File:Flag_of_Greece.svg",
+        "src": "https://upload.wikimedia.org/wikipedia/commons/e/e5/GRAB_1_and_Transit_2A_%28launch_preparations%29.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+        "alt": "Picture from the Wikipedia article on Transit.",
+        "credit": "Bruce Carlson",
+        "source": "https://commons.wikimedia.org/wiki/File:GRAB_1_and_Transit_2A_(launch_preparations).png",
         "license": "Public domain",
-        "licenseUrl": "https://commons.wikimedia.org/wiki/File:Flag_of_Greece.svg"
+        "licenseUrl": "https://commons.wikimedia.org/wiki/File:GRAB_1_and_Transit_2A_(launch_preparations).png"
+      }
+    },
+    {
+      "id": "04-13-tiger-woods",
+      "date": "04-13",
+      "dateLabel": "13 April",
+      "category": "world",
+      "categoryName": "World",
+      "year": 1997,
+      "title": "Tiger Woods",
+      "body": "Tiger Woods becomes the youngest golfer to win the Masters Tournament.",
+      "source": {
+        "name": "Wikipedia · Tiger Woods",
+        "url": "https://en.wikipedia.org/wiki/Tiger_Woods",
+        "calendarUrl": "https://en.wikipedia.org/wiki/April_13",
+        "license": {
+          "name": "CC BY-SA 4.0",
+          "url": "https://creativecommons.org/licenses/by-sa/4.0/"
+        }
+      },
+      "image": {
+        "src": "https://upload.wikimedia.org/wikipedia/commons/a/a7/President_Donald_Trump_hosts_a_reception_honoring_Black_History_Month_%2854341713089%29_%28cropped%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+        "alt": "Picture from the Wikipedia article on Tiger Woods.",
+        "credit": "The White House",
+        "source": "https://commons.wikimedia.org/wiki/File:President_Donald_Trump_hosts_a_reception_honoring_Black_History_Month_(54341713089)_(cropped).jpg",
+        "license": "Public domain",
+        "licenseUrl": "https://commons.wikimedia.org/wiki/File:President_Donald_Trump_hosts_a_reception_honoring_Black_History_Month_(54341713089)_(cropped).jpg"
+      }
+    },
+    {
+      "id": "04-13-central-intelligence-agency",
+      "date": "04-13",
+      "dateLabel": "13 April",
+      "category": "world",
+      "categoryName": "World",
+      "year": 1953,
+      "title": "Central Intelligence Agency",
+      "body": "CIA director Allen Dulles launches the mind-control program Project MKUltra.",
+      "source": {
+        "name": "Wikipedia · Central Intelligence Agency",
+        "url": "https://en.wikipedia.org/wiki/Central_Intelligence_Agency",
+        "calendarUrl": "https://en.wikipedia.org/wiki/April_13",
+        "license": {
+          "name": "CC BY-SA 4.0",
+          "url": "https://creativecommons.org/licenses/by-sa/4.0/"
+        }
+      },
+      "image": {
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/25/Seal_of_the_Central_Intelligence_Agency.svg/1280px-Seal_of_the_Central_Intelligence_Agency.svg.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "alt": "Picture from the Wikipedia article on Central Intelligence Agency.",
+        "credit": "United States Federal government",
+        "source": "https://commons.wikimedia.org/wiki/File:Seal_of_the_Central_Intelligence_Agency.svg",
+        "license": "Public domain",
+        "licenseUrl": "https://commons.wikimedia.org/wiki/File:Seal_of_the_Central_Intelligence_Agency.svg"
       }
     }
   ]

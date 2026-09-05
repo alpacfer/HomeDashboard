@@ -3,18 +3,17 @@
   "dateLabel": "2 September",
   "facts": [
     {
-      "id": "09-02-spain-4th-spanish-armada",
+      "id": "09-02-google-chrome",
       "date": "09-02",
       "dateLabel": "2 September",
-      "country": "spain",
-      "countryName": "Spain",
-      "kind": "events",
-      "year": 1601,
-      "title": "4th Spanish Armada",
-      "body": "1601: 4th Spanish Armada makes landfall in Ireland at Kinsale.",
+      "category": "tech",
+      "categoryName": "Tech",
+      "year": 2008,
+      "title": "Google Chrome",
+      "body": "Google launches its Google Chrome web browser.",
       "source": {
-        "name": "Wikipedia · Fourth Spanish Armada",
-        "url": "https://en.wikipedia.org/wiki/Fourth_Spanish_Armada",
+        "name": "Wikipedia · Google Chrome",
+        "url": "https://en.wikipedia.org/wiki/Google_Chrome",
         "calendarUrl": "https://en.wikipedia.org/wiki/September_2",
         "license": {
           "name": "CC BY-SA 4.0",
@@ -22,27 +21,26 @@
         }
       },
       "image": {
-        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/50/Kinsale_in_Ierland_gaat_aan_Elizabeth_over%2C_1602%2C_RP-P-OB-78.784-315_%28cropped%29.jpg/1280px-Kinsale_in_Ierland_gaat_aan_Elizabeth_over%2C_1602%2C_RP-P-OB-78.784-315_%28cropped%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-        "alt": "Image related to 4th Spanish Armada.",
-        "credit": "Rijksmuseum",
-        "source": "https://commons.wikimedia.org/wiki/File:Kinsale_in_Ierland_gaat_aan_Elizabeth_over,_1602,_RP-P-OB-78.784-315_(cropped).jpg",
-        "license": "CC0",
-        "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/deed.en"
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e1/Google_Chrome_icon_%28February_2022%29.svg/1280px-Google_Chrome_icon_%28February_2022%29.svg.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "alt": "Picture from the Wikipedia article on Google Chrome.",
+        "credit": "Google",
+        "source": "https://commons.wikimedia.org/wiki/File:Google_Chrome_icon_(February_2022).svg",
+        "license": "Public domain",
+        "licenseUrl": "https://commons.wikimedia.org/wiki/File:Google_Chrome_icon_(February_2022).svg"
       }
     },
     {
-      "id": "09-02-denmark-battle-of-copenhagen-1807",
+      "id": "09-02-canceled-apollo-missions",
       "date": "09-02",
       "dateLabel": "2 September",
-      "country": "denmark",
-      "countryName": "Denmark",
-      "kind": "events",
-      "year": 1807,
-      "title": "bombards Copenhagen",
-      "body": "1807: Napoleonic Wars: The British Royal Navy bombards Copenhagen with fire bombs and phosphorus rockets to prevent Denmark from surrendering its fleet to Napoleon.",
+      "category": "space",
+      "categoryName": "Space",
+      "year": 1970,
+      "title": "Canceled Apollo missions",
+      "body": "NASA announces the cancellation of two Apollo missions to the Moon, Apollo 15 (the designation is re-used by a later mission), and Apollo 19.",
       "source": {
-        "name": "Wikipedia · Battle of Copenhagen (1807)",
-        "url": "https://en.wikipedia.org/wiki/Battle_of_Copenhagen_(1807)",
+        "name": "Wikipedia · Canceled Apollo missions",
+        "url": "https://en.wikipedia.org/wiki/Canceled_Apollo_missions",
         "calendarUrl": "https://en.wikipedia.org/wiki/September_2",
         "license": {
           "name": "CC BY-SA 4.0",
@@ -50,27 +48,26 @@
         }
       },
       "image": {
-        "src": "https://upload.wikimedia.org/wikipedia/commons/f/fa/Copenhagen_on_fire_1807_by_CW_Eckersberg.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
-        "alt": "Image related to bombards Copenhagen.",
-        "credit": "Christoffer Wilhelm Eckersberg",
-        "source": "https://commons.wikimedia.org/wiki/File:Copenhagen_on_fire_1807_by_CW_Eckersberg.jpg",
-        "license": "Public domain",
-        "licenseUrl": "https://commons.wikimedia.org/wiki/File:Copenhagen_on_fire_1807_by_CW_Eckersberg.jpg"
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/35/SaturnVcenter.JPG/1280px-SaturnVcenter.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "alt": "Picture from the Wikipedia article on Canceled Apollo missions.",
+        "credit": "350z33 at English Wikipedia",
+        "source": "https://commons.wikimedia.org/wiki/File:SaturnVcenter.JPG",
+        "license": "CC BY-SA 3.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0"
       }
     },
     {
-      "id": "09-02-greece-andreas-embirikos",
+      "id": "09-02-ng-nh-di-m",
       "date": "09-02",
       "dateLabel": "2 September",
-      "country": "greece",
-      "countryName": "Greece",
-      "kind": "births",
-      "year": 1901,
-      "title": "Andreas Embirikos",
-      "body": "Andreas Embirikos, Greek psychoanalyst and poet (died 1975), was born on this day in 1901.",
+      "category": "world",
+      "categoryName": "World",
+      "year": 1957,
+      "title": "Ngo Dinh Diem",
+      "body": "President Ngô Đình Diệm of South Vietnam becomes the first foreign head of state to make a state visit to Australia.",
       "source": {
-        "name": "Wikipedia · Andreas Embirikos",
-        "url": "https://en.wikipedia.org/wiki/Andreas_Embirikos",
+        "name": "Wikipedia · Ngo Dinh Diem",
+        "url": "https://en.wikipedia.org/wiki/Ngo_Dinh_Diem",
         "calendarUrl": "https://en.wikipedia.org/wiki/September_2",
         "license": {
           "name": "CC BY-SA 4.0",
@@ -78,12 +75,12 @@
         }
       },
       "image": {
-        "src": "https://upload.wikimedia.org/wikipedia/commons/b/b2/Andreas_Empiricos_1920.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
-        "alt": "Portrait or image of Andreas Embirikos.",
-        "credit": "Unknown Swiss photographer (1920)",
-        "source": "https://commons.wikimedia.org/wiki/File:Andreas_Empiricos_1920.jpg",
+        "src": "https://upload.wikimedia.org/wikipedia/commons/a/a6/President_NGO-DINH-DIEM_of_the_Republic_of_Viet-Nam.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+        "alt": "Picture from the Wikipedia article on Ngo Dinh Diem.",
+        "credit": "Press and Information Office, Embassy of the Republic of Vietnam, Washington, D.C.",
+        "source": "https://commons.wikimedia.org/wiki/File:President_NGO-DINH-DIEM_of_the_Republic_of_Viet-Nam.jpg",
         "license": "Public domain",
-        "licenseUrl": "https://commons.wikimedia.org/wiki/File:Andreas_Empiricos_1920.jpg"
+        "licenseUrl": "https://commons.wikimedia.org/wiki/File:President_NGO-DINH-DIEM_of_the_Republic_of_Viet-Nam.jpg"
       }
     }
   ]

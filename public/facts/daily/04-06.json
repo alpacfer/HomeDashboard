@@ -3,18 +3,17 @@
   "dateLabel": "6 April",
   "facts": [
     {
-      "id": "04-06-spain-miguel-ngel-silvestre",
+      "id": "04-06-intelsat-i",
       "date": "04-06",
       "dateLabel": "6 April",
-      "country": "spain",
-      "countryName": "Spain",
-      "kind": "births",
-      "year": 1982,
-      "title": "Miguel Ángel Silvestre",
-      "body": "Miguel Ángel Silvestre, Spanish actor, was born on this day in 1982.",
+      "category": "space",
+      "categoryName": "Space",
+      "year": 1965,
+      "title": "Intelsat I",
+      "body": "Launch of Early Bird, the first commercial communications satellite to be placed in geosynchronous orbit.",
       "source": {
-        "name": "Wikipedia · Miguel Ángel Silvestre",
-        "url": "https://en.wikipedia.org/wiki/Miguel_%C3%81ngel_Silvestre",
+        "name": "Wikipedia · Intelsat I",
+        "url": "https://en.wikipedia.org/wiki/Intelsat_I",
         "calendarUrl": "https://en.wikipedia.org/wiki/April_6",
         "license": {
           "name": "CC BY-SA 4.0",
@@ -22,27 +21,53 @@
         }
       },
       "image": {
-        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c1/Malaga_Film_Festival_2025_-_Miguel_%C3%81ngel_Silvestre-2_%28cropped%29.jpg/1280px-Malaga_Film_Festival_2025_-_Miguel_%C3%81ngel_Silvestre-2_%28cropped%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-        "alt": "Portrait or image of Miguel Ángel Silvestre.",
-        "credit": "Pedro J Pacheco",
-        "source": "https://commons.wikimedia.org/wiki/File:Malaga_Film_Festival_2025_-_Miguel_%C3%81ngel_Silvestre-2_(cropped).jpg",
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/ab/INTELSAT_I_%28Early_Bird%29.jpg/1280px-INTELSAT_I_%28Early_Bird%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "alt": "Picture from the Wikipedia article on Intelsat I.",
+        "credit": "NASA",
+        "source": "https://commons.wikimedia.org/wiki/File:INTELSAT_I_(Early_Bird).jpg",
+        "license": "Public domain",
+        "licenseUrl": "https://commons.wikimedia.org/wiki/File:INTELSAT_I_(Early_Bird).jpg"
+      }
+    },
+    {
+      "id": "04-06-brighton",
+      "date": "04-06",
+      "dateLabel": "6 April",
+      "category": "culture",
+      "categoryName": "Culture",
+      "year": 1974,
+      "title": "Brighton",
+      "body": "In Brighton, United Kingdom, ABBA wins the 1974 edition of the Eurovision Song Contest with \"Waterloo\", the first of a joint-record seven Swedish wins.",
+      "source": {
+        "name": "Wikipedia · Brighton",
+        "url": "https://en.wikipedia.org/wiki/Brighton",
+        "calendarUrl": "https://en.wikipedia.org/wiki/April_6",
+        "license": {
+          "name": "CC BY-SA 4.0",
+          "url": "https://creativecommons.org/licenses/by-sa/4.0/"
+        }
+      },
+      "image": {
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e1/At_Brighton%2C_East_Sussex_2024_019.jpg/1280px-At_Brighton%2C_East_Sussex_2024_019.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "alt": "Picture from the Wikipedia article on Brighton.",
+        "credit": "Photograph by Mike Peel (www.mikepeel.net).",
+        "source": "https://commons.wikimedia.org/wiki/File:At_Brighton,_East_Sussex_2024_019.jpg",
         "license": "CC BY-SA 4.0",
         "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0"
       }
     },
     {
-      "id": "04-06-denmark-george-waterhouse-politician",
+      "id": "04-06-2017-shayrat-missile-strike",
       "date": "04-06",
       "dateLabel": "6 April",
-      "country": "denmark",
-      "countryName": "Denmark",
-      "kind": "births",
-      "year": 1824,
-      "title": "George Waterhouse",
-      "body": "George Waterhouse, English-New Zealand politician, 7th Prime Minister of New Zealand (died 1906), was born on this day in 1824.",
+      "category": "world",
+      "categoryName": "World",
+      "year": 2017,
+      "title": "2017 Shayrat missile strike",
+      "body": "U.S. military launches 59 Tomahawk cruise missiles at an air base in Syria. Russia describes the strikes as an \"aggression\", adding they significantly damage US-Russia ties.",
       "source": {
-        "name": "Wikipedia · George Waterhouse (politician)",
-        "url": "https://en.wikipedia.org/wiki/George_Waterhouse_(politician)",
+        "name": "Wikipedia · 2017 Shayrat missile strike",
+        "url": "https://en.wikipedia.org/wiki/2017_Shayrat_missile_strike",
         "calendarUrl": "https://en.wikipedia.org/wiki/April_6",
         "license": {
           "name": "CC BY-SA 4.0",
@@ -50,40 +75,12 @@
         }
       },
       "image": {
-        "src": "https://upload.wikimedia.org/wikipedia/commons/1/15/George_Marsden_Waterhouse.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
-        "alt": "Portrait or image of George Waterhouse.",
-        "credit": "not identified",
-        "source": "https://commons.wikimedia.org/wiki/File:George_Marsden_Waterhouse.jpg",
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/98/USS_Ross_2017_Shayrat_strike_170407-N-FQ994-031.jpg/1280px-USS_Ross_2017_Shayrat_strike_170407-N-FQ994-031.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "alt": "Picture from the Wikipedia article on 2017 Shayrat missile strike.",
+        "credit": "Petty Officer 3rd Class Robert S. Price",
+        "source": "https://commons.wikimedia.org/wiki/File:USS_Ross_2017_Shayrat_strike_170407-N-FQ994-031.jpg",
         "license": "Public domain",
-        "licenseUrl": "https://commons.wikimedia.org/wiki/File:George_Marsden_Waterhouse.jpg"
-      }
-    },
-    {
-      "id": "04-06-greece-mehmed-ii",
-      "date": "04-06",
-      "dateLabel": "6 April",
-      "country": "greece",
-      "countryName": "Greece",
-      "kind": "events",
-      "year": 1453,
-      "title": "Mehmed II",
-      "body": "1453: Mehmed II begins his siege of Constantinople. The city falls on May 29 and is renamed Istanbul.",
-      "source": {
-        "name": "Wikipedia · Mehmed II",
-        "url": "https://en.wikipedia.org/wiki/Mehmed_II",
-        "calendarUrl": "https://en.wikipedia.org/wiki/April_6",
-        "license": {
-          "name": "CC BY-SA 4.0",
-          "url": "https://creativecommons.org/licenses/by-sa/4.0/"
-        }
-      },
-      "image": {
-        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/6e/Bellini%2C_Gentile_-_Sultan_Mehmet_II.jpg/1280px-Bellini%2C_Gentile_-_Sultan_Mehmet_II.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-        "alt": "Image related to Mehmed II.",
-        "credit": "Gentile Bellini",
-        "source": "https://commons.wikimedia.org/wiki/File:Bellini,_Gentile_-_Sultan_Mehmet_II.jpg",
-        "license": "Public domain",
-        "licenseUrl": "https://commons.wikimedia.org/wiki/File:Bellini,_Gentile_-_Sultan_Mehmet_II.jpg"
+        "licenseUrl": "https://commons.wikimedia.org/wiki/File:USS_Ross_2017_Shayrat_strike_170407-N-FQ994-031.jpg"
       }
     }
   ]

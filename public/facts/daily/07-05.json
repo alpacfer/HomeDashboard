@@ -3,18 +3,17 @@
   "dateLabel": "5 July",
   "facts": [
     {
-      "id": "07-05-spain-blas-infante",
+      "id": "07-05-bj-rn-borg",
       "date": "07-05",
       "dateLabel": "5 July",
-      "country": "spain",
-      "countryName": "Spain",
-      "kind": "births",
-      "year": 1885,
-      "title": "Blas Infante",
-      "body": "Blas Infante, Spanish historian and politician (died 1936), was born on this day in 1885.",
+      "category": "sport",
+      "categoryName": "Sport",
+      "year": 1980,
+      "title": "Björn Borg",
+      "body": "Swedish tennis player Björn Borg wins his fifth Wimbledon final and becomes the first male tennis player to win the championships five times in a row (1976–1980).",
       "source": {
-        "name": "Wikipedia · Blas Infante",
-        "url": "https://en.wikipedia.org/wiki/Blas_Infante",
+        "name": "Wikipedia · Björn Borg",
+        "url": "https://en.wikipedia.org/wiki/Bj%C3%B6rn_Borg",
         "calendarUrl": "https://en.wikipedia.org/wiki/July_5",
         "license": {
           "name": "CC BY-SA 4.0",
@@ -22,27 +21,26 @@
         }
       },
       "image": {
-        "src": "https://upload.wikimedia.org/wikipedia/commons/6/6b/Photo_of_Blas_Infante.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
-        "alt": "Portrait or image of Blas Infante.",
-        "credit": "Unknown photographer",
-        "source": "https://commons.wikimedia.org/wiki/File:Photo_of_Blas_Infante.jpg",
-        "license": "Public domain",
-        "licenseUrl": "https://commons.wikimedia.org/wiki/File:Photo_of_Blas_Infante.jpg"
+        "src": "https://upload.wikimedia.org/wikipedia/commons/4/4d/Bjorn_Borg_en_2014.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+        "alt": "Picture from the Wikipedia article on Björn Borg.",
+        "credit": "Michaël Bemelmans",
+        "source": "https://commons.wikimedia.org/wiki/File:Bjorn_Borg_en_2014.jpg",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0"
       }
     },
     {
-      "id": "07-05-denmark-robert-fitzroy",
+      "id": "07-05-juno-spacecraft",
       "date": "07-05",
       "dateLabel": "5 July",
-      "country": "denmark",
-      "countryName": "Denmark",
-      "kind": "births",
-      "year": 1805,
-      "title": "Robert FitzRoy",
-      "body": "Robert FitzRoy, English captain, meteorologist, and politician, 2nd Governor of New Zealand (died 1865), was born on this day in 1805.",
+      "category": "space",
+      "categoryName": "Space",
+      "year": 2016,
+      "title": "Juno",
+      "body": "The Juno space probe arrives at Jupiter and begins a 20-month survey of the planet.",
       "source": {
-        "name": "Wikipedia · Robert FitzRoy",
-        "url": "https://en.wikipedia.org/wiki/Robert_FitzRoy",
+        "name": "Wikipedia · Juno (spacecraft)",
+        "url": "https://en.wikipedia.org/wiki/Juno_(spacecraft)",
         "calendarUrl": "https://en.wikipedia.org/wiki/July_5",
         "license": {
           "name": "CC BY-SA 4.0",
@@ -50,27 +48,26 @@
         }
       },
       "image": {
-        "src": "https://upload.wikimedia.org/wikipedia/commons/0/0f/RobertFitzroy_sm.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
-        "alt": "Portrait or image of Robert FitzRoy.",
-        "credit": "Unidentified painter",
-        "source": "https://commons.wikimedia.org/wiki/File:RobertFitzroy_sm.jpg",
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f6/Juno_spacecraft_model_1.png/1280px-Juno_spacecraft_model_1.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "alt": "Picture from the Wikipedia article on Juno.",
+        "credit": "National Aeronautics and Space Administration (NASA)",
+        "source": "https://commons.wikimedia.org/wiki/File:Juno_spacecraft_model_1.png",
         "license": "Public domain",
-        "licenseUrl": "https://commons.wikimedia.org/wiki/File:RobertFitzroy_sm.jpg"
+        "licenseUrl": "https://commons.wikimedia.org/wiki/File:Juno_spacecraft_model_1.png"
       }
     },
     {
-      "id": "07-05-greece-georgios-grivas",
+      "id": "07-05-elvis-presley",
       "date": "07-05",
       "dateLabel": "5 July",
-      "country": "greece",
-      "countryName": "Greece",
-      "kind": "births",
-      "year": 1898,
-      "title": "Georgios Grivas",
-      "body": "Georgios Grivas, Greek general (died 1974), was born on this day in 1898.",
+      "category": "culture",
+      "categoryName": "Culture",
+      "year": 1954,
+      "title": "Elvis Presley",
+      "body": "Elvis Presley records his first single, \"That's All Right\", at Sun Records in Memphis, Tennessee.",
       "source": {
-        "name": "Wikipedia · Georgios Grivas",
-        "url": "https://en.wikipedia.org/wiki/Georgios_Grivas",
+        "name": "Wikipedia · Elvis Presley",
+        "url": "https://en.wikipedia.org/wiki/Elvis_Presley",
         "calendarUrl": "https://en.wikipedia.org/wiki/July_5",
         "license": {
           "name": "CC BY-SA 4.0",
@@ -78,12 +75,12 @@
         }
       },
       "image": {
-        "src": "https://upload.wikimedia.org/wikipedia/commons/8/87/Georgios_Grivas_1967.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
-        "alt": "Portrait or image of Georgios Grivas.",
-        "credit": "Unknown authorUnknown author",
-        "source": "https://commons.wikimedia.org/wiki/File:Georgios_Grivas_1967.jpg",
-        "license": "CC0",
-        "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/deed.en"
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/99/Elvis_Presley_promoting_Jailhouse_Rock.jpg/1280px-Elvis_Presley_promoting_Jailhouse_Rock.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "alt": "Picture from the Wikipedia article on Elvis Presley.",
+        "credit": "Metro-Goldwyn-Mayer, Inc. Reproduction Number: LC-USZ6-2067 Location: NYWTS -- BIOG",
+        "source": "https://commons.wikimedia.org/wiki/File:Elvis_Presley_promoting_Jailhouse_Rock.jpg",
+        "license": "Public domain",
+        "licenseUrl": "https://commons.wikimedia.org/wiki/File:Elvis_Presley_promoting_Jailhouse_Rock.jpg"
       }
     }
   ]

@@ -3,18 +3,17 @@
   "dateLabel": "17 March",
   "facts": [
     {
-      "id": "03-17-spain-1966-palomares-b-52-crash",
+      "id": "03-17-vanguard-1",
       "date": "03-17",
       "dateLabel": "17 March",
-      "country": "spain",
-      "countryName": "Spain",
-      "kind": "events",
-      "year": 1966,
-      "title": "missing American hydrogen bomb",
-      "body": "1966: Off the coast of Spain in the Mediterranean, the submarine finds a missing American hydrogen bomb.",
+      "category": "space",
+      "categoryName": "Space",
+      "year": 1958,
+      "title": "Vanguard 1",
+      "body": "The United States launches the first solar-powered satellite, which is also the first satellite to achieve a long-term orbit.",
       "source": {
-        "name": "Wikipedia · 1966 Palomares accident",
-        "url": "https://en.wikipedia.org/wiki/1966_Palomares_accident",
+        "name": "Wikipedia · Vanguard 1",
+        "url": "https://en.wikipedia.org/wiki/Vanguard_1",
         "calendarUrl": "https://en.wikipedia.org/wiki/March_17",
         "license": {
           "name": "CC BY-SA 4.0",
@@ -22,27 +21,26 @@
         }
       },
       "image": {
-        "src": "https://upload.wikimedia.org/wikipedia/commons/d/db/Palomares_H-Bomb_Incident.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
-        "alt": "Image related to missing American hydrogen bomb.",
-        "credit": "U.S. Navy, Courtesy of the Natural Resources Defense Council",
-        "source": "https://commons.wikimedia.org/wiki/File:Palomares_H-Bomb_Incident.jpg",
+        "src": "https://upload.wikimedia.org/wikipedia/commons/7/7f/Vanguard_1.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+        "alt": "Picture from the Wikipedia article on Vanguard 1.",
+        "credit": "NASA photo (retouched)",
+        "source": "https://commons.wikimedia.org/wiki/File:Vanguard_1.jpg",
         "license": "Public domain",
-        "licenseUrl": "https://commons.wikimedia.org/wiki/File:Palomares_H-Bomb_Incident.jpg"
+        "licenseUrl": "https://commons.wikimedia.org/wiki/File:Vanguard_1.jpg"
       }
     },
     {
-      "id": "03-17-denmark-first-taranaki-war",
+      "id": "03-17-richard-ramirez",
       "date": "03-17",
       "dateLabel": "17 March",
-      "country": "denmark",
-      "countryName": "Denmark",
-      "kind": "events",
-      "year": 1860,
-      "title": "First Taranaki War",
-      "body": "1860: The First Taranaki War begins in Taranaki, New Zealand, a major phase of the New Zealand Wars.",
+      "category": "world",
+      "categoryName": "World",
+      "year": 1985,
+      "title": "Richard Ramirez",
+      "body": "Serial killer Richard Ramirez, aka the \"Night Stalker\", commits the first two murders in his Los Angeles murder spree.",
       "source": {
-        "name": "Wikipedia · First Taranaki War",
-        "url": "https://en.wikipedia.org/wiki/First_Taranaki_War",
+        "name": "Wikipedia · Richard Ramirez",
+        "url": "https://en.wikipedia.org/wiki/Richard_Ramirez",
         "calendarUrl": "https://en.wikipedia.org/wiki/March_17",
         "license": {
           "name": "CC BY-SA 4.0",
@@ -50,40 +48,39 @@
         }
       },
       "image": {
-        "src": "https://commons.wikimedia.org/wiki/Special:Redirect/file/Flag_of_Denmark.svg?width=1000",
-        "alt": "The national flag of Denmark.",
-        "credit": "Danish government",
-        "source": "https://commons.wikimedia.org/wiki/File:Flag_of_Denmark.svg",
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/fc/Richard_Ramirez_1984_mug_shot.jpg/1280px-Richard_Ramirez_1984_mug_shot.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "alt": "Picture from the Wikipedia article on Richard Ramirez.",
+        "credit": "Los Angeles Police Department",
+        "source": "https://commons.wikimedia.org/wiki/File:Richard_Ramirez_1984_mug_shot.jpg",
         "license": "Public domain",
-        "licenseUrl": "https://commons.wikimedia.org/wiki/File:Flag_of_Denmark.svg"
+        "licenseUrl": "https://commons.wikimedia.org/wiki/File:Richard_Ramirez_1984_mug_shot.jpg"
       }
     },
     {
-      "id": "03-17-greece-daylight",
+      "id": "03-17-rmelan",
       "date": "03-17",
       "dateLabel": "17 March",
-      "country": "greece",
-      "countryName": "Greece",
-      "kind": "daylight",
-      "year": 0,
-      "title": "Athens's daylight",
-      "body": "On 17 March, Athens gets about 12 hours of daylight.",
+      "category": "world",
+      "categoryName": "World",
+      "year": 2016,
+      "title": "Rmelan",
+      "body": "At a conference in Rmelan, the Movement for a Democratic Society declares the establishment of the Democratic Federation of Northern Syria.",
       "source": {
-        "name": "NOAA Solar Calculator",
-        "url": "https://gml.noaa.gov/grad/solcalc/",
-        "calendarUrl": "https://gml.noaa.gov/grad/solcalc/calcdetails.html",
+        "name": "Wikipedia · Rmelan",
+        "url": "https://en.wikipedia.org/wiki/Rmelan",
+        "calendarUrl": "https://en.wikipedia.org/wiki/March_17",
         "license": {
-          "name": "public-domain NOAA method",
-          "url": "https://www.noaa.gov/disclaimer"
+          "name": "CC BY-SA 4.0",
+          "url": "https://creativecommons.org/licenses/by-sa/4.0/"
         }
       },
       "image": {
-        "src": "https://commons.wikimedia.org/wiki/Special:Redirect/file/Flag_of_Greece.svg?width=1000",
-        "alt": "The national flag of Greece.",
-        "credit": "Greek government",
-        "source": "https://commons.wikimedia.org/wiki/File:Flag_of_Greece.svg",
-        "license": "Public domain",
-        "licenseUrl": "https://commons.wikimedia.org/wiki/File:Flag_of_Greece.svg"
+        "src": "https://upload.wikimedia.org/wikipedia/commons/d/df/Rmelan_%281%29_12-10-2013.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+        "alt": "Picture from the Wikipedia article on Rmelan.",
+        "credit": "Nouh Hammami",
+        "source": "https://commons.wikimedia.org/wiki/File:Rmelan_(1)_12-10-2013.jpg",
+        "license": "CC BY 2.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by/2.0"
       }
     }
   ]

@@ -3,18 +3,17 @@
   "dateLabel": "15 August",
   "facts": [
     {
-      "id": "08-15-spain-spanish-reconquista",
+      "id": "08-15-imac",
       "date": "08-15",
       "dateLabel": "15 August",
-      "country": "spain",
-      "countryName": "Spain",
-      "kind": "events",
-      "year": 1237,
-      "title": "Spanish Reconquista",
-      "body": "1237: Spanish Reconquista: The Battle of the Puig between the Moorish forces of Taifa of Valencia against the Crown of Aragon culminates in an Aragonese victory.",
+      "category": "tech",
+      "categoryName": "Tech",
+      "year": 1998,
+      "title": "iMac",
+      "body": "Apple introduces the iMac computer.",
       "source": {
-        "name": "Wikipedia · Reconquista",
-        "url": "https://en.wikipedia.org/wiki/Reconquista",
+        "name": "Wikipedia · IMac",
+        "url": "https://en.wikipedia.org/wiki/IMac",
         "calendarUrl": "https://en.wikipedia.org/wiki/August_15",
         "license": {
           "name": "CC BY-SA 4.0",
@@ -22,55 +21,26 @@
         }
       },
       "image": {
-        "src": "https://upload.wikimedia.org/wikipedia/commons/3/3a/Cantigas_battle.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
-        "alt": "Image related to Spanish Reconquista.",
-        "credit": "Creator:Abdula",
-        "source": "https://commons.wikimedia.org/wiki/File:Cantigas_battle.jpg",
-        "license": "Public domain",
-        "licenseUrl": "https://commons.wikimedia.org/wiki/File:Cantigas_battle.jpg"
-      }
-    },
-    {
-      "id": "08-15-denmark-tivoli-gardens",
-      "date": "08-15",
-      "dateLabel": "15 August",
-      "country": "denmark",
-      "countryName": "Denmark",
-      "kind": "events",
-      "year": 1843,
-      "title": "Tivoli Gardens",
-      "body": "1843: Tivoli Gardens, one of the oldest still intact amusement parks in the world, opens in Copenhagen, Denmark.",
-      "source": {
-        "name": "Wikipedia · Tivoli Gardens",
-        "url": "https://en.wikipedia.org/wiki/Tivoli_Gardens",
-        "calendarUrl": "https://en.wikipedia.org/wiki/August_15",
-        "license": {
-          "name": "CC BY-SA 4.0",
-          "url": "https://creativecommons.org/licenses/by-sa/4.0/"
-        }
-      },
-      "image": {
-        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/21/Tivoli_Gardens_4.jpg/1280px-Tivoli_Gardens_4.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-        "alt": "Image related to Tivoli Gardens.",
-        "credit": "© European Union, 2026",
-        "source": "https://commons.wikimedia.org/wiki/File:Tivoli_Gardens_4.jpg",
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/bf/IMac_M4_2024_2_%28cropped%29.jpg/1280px-IMac_M4_2024_2_%28cropped%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "alt": "Picture from the Wikipedia article on iMac.",
+        "credit": "Seasider53",
+        "source": "https://commons.wikimedia.org/wiki/File:IMac_M4_2024_2_(cropped).jpg",
         "license": "CC BY 4.0",
         "licenseUrl": "https://creativecommons.org/licenses/by/4.0"
       }
     },
     {
-      "id": "08-15-greece-second-arab-siege-of-constantinople",
+      "id": "08-15-smithsonian",
       "date": "08-15",
       "dateLabel": "15 August",
-      "country": "greece",
-      "countryName": "Greece",
-      "kind": "events",
-      "year": 718,
-      "title": "Second Arab Siege of Constantinople",
-      "body": "718: Arab–Byzantine wars: The Arabs abandon the Second Arab Siege of Constantinople due to failure to secure enough supplies, defeat of their relief army by the Byzantines and an outbreak of plague in the camp.",
+      "category": "science",
+      "categoryName": "Science",
+      "year": 2013,
+      "title": "Smithsonian Institution",
+      "body": "The Smithsonian announces the discovery of the olinguito, the first new carnivorous species found in the Americas in 35 years.",
       "source": {
-        "name": "Wikipedia · Siege of Constantinople (717–718)",
-        "url": "https://en.wikipedia.org/wiki/Siege_of_Constantinople_(717%E2%80%93718)",
+        "name": "Wikipedia · Smithsonian Institution",
+        "url": "https://en.wikipedia.org/wiki/Smithsonian_Institution",
         "calendarUrl": "https://en.wikipedia.org/wiki/August_15",
         "license": {
           "name": "CC BY-SA 4.0",
@@ -78,12 +48,39 @@
         }
       },
       "image": {
-        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/25/47-cropped-manasses-chronicle.jpg/1280px-47-cropped-manasses-chronicle.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-        "alt": "Image related to Second Arab Siege of Constantinople.",
-        "credit": "47-manasses-chronicle.jpg: Original: Constantine Manasses derivative work: Stegop",
-        "source": "https://commons.wikimedia.org/wiki/File:47-cropped-manasses-chronicle.jpg",
-        "license": "Public domain",
-        "licenseUrl": "https://commons.wikimedia.org/wiki/File:47-cropped-manasses-chronicle.jpg"
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d1/Smithsonian_Building_Sunlight.jpg/1280px-Smithsonian_Building_Sunlight.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "alt": "Picture from the Wikipedia article on Smithsonian Institution.",
+        "credit": "Nate Lee",
+        "source": "https://commons.wikimedia.org/wiki/File:Smithsonian_Building_Sunlight.jpg",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0"
+      }
+    },
+    {
+      "id": "08-15-sputnik-v-covid-19-vaccine",
+      "date": "08-15",
+      "dateLabel": "15 August",
+      "category": "space",
+      "categoryName": "Space",
+      "year": 2020,
+      "title": "Sputnik V COVID-19 vaccine",
+      "body": "Russia begins production on the Sputnik V COVID-19 vaccine.",
+      "source": {
+        "name": "Wikipedia · Sputnik V COVID-19 vaccine",
+        "url": "https://en.wikipedia.org/wiki/Sputnik_V_COVID-19_vaccine",
+        "calendarUrl": "https://en.wikipedia.org/wiki/August_15",
+        "license": {
+          "name": "CC BY-SA 4.0",
+          "url": "https://creativecommons.org/licenses/by-sa/4.0/"
+        }
+      },
+      "image": {
+        "src": "https://upload.wikimedia.org/wikipedia/commons/4/43/%D0%92%D0%B0%D0%BA%D1%86%D0%B8%D0%BD%D0%B0_%D0%A1%D0%BF%D1%83%D1%82%D0%BD%D0%B8%D0%BA_V_%28cropped%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+        "alt": "Picture from the Wikipedia article on Sputnik V COVID-19 vaccine.",
+        "credit": "Jmarchn",
+        "source": "https://commons.wikimedia.org/wiki/File:%D0%92%D0%B0%D0%BA%D1%86%D0%B8%D0%BD%D0%B0_%D0%A1%D0%BF%D1%83%D1%82%D0%BD%D0%B8%D0%BA_V_(cropped).jpg",
+        "license": "CC BY-SA 3.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0"
       }
     }
   ]

@@ -3,18 +3,17 @@
   "dateLabel": "11 November",
   "facts": [
     {
-      "id": "11-11-spain-treaty-of-granada-1500",
+      "id": "11-11-patent",
       "date": "11-11",
       "dateLabel": "11 November",
-      "country": "spain",
-      "countryName": "Spain",
-      "kind": "events",
-      "year": 1500,
-      "title": "Treaty of Granada",
-      "body": "1500: Treaty of Granada: Louis XII of France and Ferdinand II of Aragon agree to divide the Kingdom of Naples between them.",
+      "category": "science",
+      "categoryName": "Science",
+      "year": 1930,
+      "title": "Patent",
+      "body": "Patent number US1781541 is awarded to Albert Einstein and Leó Szilárd for their invention, the Einstein refrigerator.",
       "source": {
-        "name": "Wikipedia · Treaty of Granada (1500)",
-        "url": "https://en.wikipedia.org/wiki/Treaty_of_Granada_(1500)",
+        "name": "Wikipedia · Patent",
+        "url": "https://en.wikipedia.org/wiki/Patent",
         "calendarUrl": "https://en.wikipedia.org/wiki/November_11",
         "license": {
           "name": "CC BY-SA 4.0",
@@ -22,27 +21,26 @@
         }
       },
       "image": {
-        "src": "https://upload.wikimedia.org/wikipedia/commons/2/2d/Michel_Sittow_004.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
-        "alt": "Image related to Treaty of Granada.",
-        "credit": "Michael Sittow",
-        "source": "https://commons.wikimedia.org/wiki/File:Michel_Sittow_004.jpg",
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f5/US_Patent_cover_%28US_Patent_5%2C860%2C492%29.jpg/1280px-US_Patent_cover_%28US_Patent_5%2C860%2C492%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "alt": "Picture from the Wikipedia article on Patent.",
+        "credit": "USPTO",
+        "source": "https://commons.wikimedia.org/wiki/File:US_Patent_cover_(US_Patent_5,860,492).jpg",
         "license": "Public domain",
-        "licenseUrl": "https://commons.wikimedia.org/wiki/File:Michel_Sittow_004.jpg"
+        "licenseUrl": "https://commons.wikimedia.org/wiki/File:US_Patent_cover_(US_Patent_5,860,492).jpg"
       }
     },
     {
-      "id": "11-11-denmark-elizabeth-ii",
+      "id": "11-11-gemini-12",
       "date": "11-11",
       "dateLabel": "11 November",
-      "country": "denmark",
-      "countryName": "Denmark",
-      "kind": "events",
-      "year": 2006,
-      "title": "Queen Elizabeth II",
-      "body": "2006: Queen Elizabeth II unveils the New Zealand War Memorial in London, United Kingdom, commemorating the loss of soldiers from the New Zealand Army and the British Army.",
+      "category": "space",
+      "categoryName": "Space",
+      "year": 1966,
+      "title": "Gemini 12",
+      "body": "NASA launches Gemini 12.",
       "source": {
-        "name": "Wikipedia · Elizabeth II",
-        "url": "https://en.wikipedia.org/wiki/Elizabeth_II",
+        "name": "Wikipedia · Gemini 12",
+        "url": "https://en.wikipedia.org/wiki/Gemini_12",
         "calendarUrl": "https://en.wikipedia.org/wiki/November_11",
         "license": {
           "name": "CC BY-SA 4.0",
@@ -50,27 +48,26 @@
         }
       },
       "image": {
-        "src": "https://upload.wikimedia.org/wikipedia/commons/1/11/Queen_Elizabeth_II_official_portrait_for_1959_tour_%28retouched%29_%28cropped%29_%283-to-4_aspect_ratio%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
-        "alt": "Image related to Queen Elizabeth II.",
-        "credit": "Donald McKague",
-        "source": "https://commons.wikimedia.org/wiki/File:Queen_Elizabeth_II_official_portrait_for_1959_tour_(retouched)_(cropped)_(3-to-4_aspect_ratio).jpg",
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e6/S66-63536.jpg/1280px-S66-63536.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "alt": "Picture from the Wikipedia article on Gemini 12.",
+        "credit": "NASA/Jim Lovell",
+        "source": "https://commons.wikimedia.org/wiki/File:S66-63536.jpg",
         "license": "Public domain",
-        "licenseUrl": "https://commons.wikimedia.org/wiki/File:Queen_Elizabeth_II_official_portrait_for_1959_tour_(retouched)_(cropped)_(3-to-4_aspect_ratio).jpg"
+        "licenseUrl": "https://commons.wikimedia.org/wiki/File:S66-63536.jpg"
       }
     },
     {
-      "id": "11-11-greece-constantine-viii",
+      "id": "11-11-house-of-lords-act-1999",
       "date": "11-11",
       "dateLabel": "11 November",
-      "country": "greece",
-      "countryName": "Greece",
-      "kind": "events",
-      "year": 1028,
-      "title": "Constantine VIII",
-      "body": "1028: Constantine VIII dies, ending his uninterrupted reign as emperor or co-emperor of the Byzantine Empire of 66 years.",
+      "category": "world",
+      "categoryName": "World",
+      "year": 1999,
+      "title": "House of Lords Act 1999",
+      "body": "The House of Lords Act is given Royal Assent, restricting membership of the British House of Lords by virtue of a hereditary peerage.",
       "source": {
-        "name": "Wikipedia · Constantine VIII",
-        "url": "https://en.wikipedia.org/wiki/Constantine_VIII",
+        "name": "Wikipedia · House of Lords Act 1999",
+        "url": "https://en.wikipedia.org/wiki/House_of_Lords_Act_1999",
         "calendarUrl": "https://en.wikipedia.org/wiki/November_11",
         "license": {
           "name": "CC BY-SA 4.0",
@@ -78,12 +75,12 @@
         }
       },
       "image": {
-        "src": "https://upload.wikimedia.org/wikipedia/commons/8/88/Constantine_VIII_in_the_Exultet_roll_%282%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
-        "alt": "Image related to Constantine VIII.",
-        "credit": "unknown 12th century artist",
-        "source": "https://commons.wikimedia.org/wiki/File:Constantine_VIII_in_the_Exultet_roll_(2).jpg",
-        "license": "Public domain",
-        "licenseUrl": "https://commons.wikimedia.org/wiki/File:Constantine_VIII_in_the_Exultet_roll_(2).jpg"
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a2/Royal_coat_of_arms_of_the_United_Kingdom_%281952%E2%80%932022%2C_variant_1%29.svg/1280px-Royal_coat_of_arms_of_the_United_Kingdom_%281952%E2%80%932022%2C_variant_1%29.svg.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "alt": "Picture from the Wikipedia article on House of Lords Act 1999.",
+        "credit": "Sodacan",
+        "source": "https://commons.wikimedia.org/wiki/File:Royal_coat_of_arms_of_the_United_Kingdom_(1952%E2%80%932022,_variant_1).svg",
+        "license": "CC BY-SA 3.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0"
       }
     }
   ]

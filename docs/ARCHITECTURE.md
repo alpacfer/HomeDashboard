@@ -10,6 +10,7 @@ It is deployed to a Render free-plan web service and viewed in the Silk browser 
 | --- | --- | --- |
 | `/` | `app/page.tsx` | Owns the one-second clock tick and composes the display: clock, `WeatherPanel`, `WeekStrip`, and the rotating right-hand panel. |
 | `/?scene=map` | `lib/panel-rotation.ts`, `components/rotating-panel.tsx` | Debug mode. Pins the rotating panel to `transport`, `fact` (with `&fact=N`) or `map` and schedules nothing. Unrecognised values are ignored. See the README. |
+| `/?date=MM-DD` | `lib/daily-facts.ts`, `components/rotating-panel.tsx` | Debug mode. The daily-fact panel shows that calendar date and stops rolling over at midnight. Unrecognised values are ignored. See the README. |
 | `/?pet=map` | `lib/debug-flags.ts`, `components/clock.tsx`, `components/tenant.tsx` | Debug mode. Holds the Tenant at a measured weather, week, transport, fact or map landmark for deterministic visual checks. Unknown values are ignored. |
 | `/?weather=off` | `lib/debug-flags.ts` | Debug mode. No weather, week or forecast-map request is made, so a capture spends no provider quota. See [DEBUGGING.md](DEBUGGING.md). |
 | `/api/departures` | `app/api/departures/route.ts` | Server-side departure lookup: Rejseplanen when an access ID is set, Transitous otherwise or on failure, then normalization, filtering, and a two-minute public-result cache. |
@@ -137,7 +138,7 @@ The browser calls `/api/departures`, never a provider directly. The route reads 
 
 ### Daily facts
 
-`useDailyFacts()` derives an `MM-DD` key in Copenhagen time and loads exactly one static JSON file. `validDailyFacts()` checks the date, country set, and required source/image URLs before rendering. The generator is intentionally separate from runtime code; edit `data/daily-fact-overrides.json` for durable editorial changes and review generated files before committing. See [DAILY_FACTS.md](DAILY_FACTS.md).
+`useDailyFacts()` derives an `MM-DD` key in Copenhagen time and loads exactly one static JSON file. `validDailyFacts()` checks the date, the three-fact shape, the category, the year and the required source/image URLs before rendering; `yearsAgo()` turns the year into the distance shown beside it. The generator is intentionally separate from runtime code, and the judgement about which anniversary is worth showing is pure and tested in `scripts/lib/fact-selection.mjs`. Edit `data/daily-fact-overrides.json` for durable editorial changes and review generated files before committing. See [DAILY_FACTS.md](DAILY_FACTS.md).
 
 ### Forecast map
 
@@ -186,6 +187,7 @@ The metadata is trusted for *when*, never for *whether the map still has anythin
 | Transit credentials, caching, or provider requests | `app/api/departures/route.ts` | `.env.example`, `TRANSPORT.md` |
 | Translating provider service messages | `lib/translation.ts` | `app/api/departures/route.ts`, `.env.example`, `TRANSPORT.md` |
 | Daily fact content | `data/daily-fact-overrides.json` | `scripts/generate-daily-facts.mjs`, `docs/DAILY_FACTS.md` |
+| Which anniversaries are worth showing | `scripts/lib/fact-selection.mjs` | `tests/fact-selection.test.mjs`, `docs/DAILY_FACTS.md` |
 | Forecast map grid, frames, or quiet hours | `lib/precipitation-grid.ts` | `components/forecast-map-panel.tsx`, `tests/precipitation-grid.test.mjs` |
 | Forecast map refresh cadence or run detection | `lib/forecast-refresh.ts` | `components/forecast-map-panel.tsx`, `tests/forecast-refresh.test.mjs`, `DEPLOYMENT.md` |
 | Metadata or the favicon | `app/layout.tsx`, `public/` | production build |

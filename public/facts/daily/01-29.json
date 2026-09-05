@@ -3,18 +3,17 @@
   "dateLabel": "29 January",
   "facts": [
     {
-      "id": "01-29-spain-vicente-blasco-ib-ez",
+      "id": "01-29-hungary-south-korea-relations",
       "date": "01-29",
       "dateLabel": "29 January",
-      "country": "spain",
-      "countryName": "Spain",
-      "kind": "births",
-      "year": 1867,
-      "title": "Vicente Blasco Ibáñez",
-      "body": "Vicente Blasco Ibáñez, Spanish journalist and author (died 1928), was born on this day in 1867.",
+      "category": "world",
+      "categoryName": "World",
+      "year": 1989,
+      "title": "Hungary–South Korea relations",
+      "body": "Hungary establishes diplomatic relations with South Korea, making it the first Eastern Bloc nation to do so.",
       "source": {
-        "name": "Wikipedia · Vicente Blasco Ibáñez",
-        "url": "https://en.wikipedia.org/wiki/Vicente_Blasco_Ib%C3%A1%C3%B1ez",
+        "name": "Wikipedia · Hungary–South Korea relations",
+        "url": "https://en.wikipedia.org/wiki/Hungary%E2%80%93South_Korea_relations",
         "calendarUrl": "https://en.wikipedia.org/wiki/January_29",
         "license": {
           "name": "CC BY-SA 4.0",
@@ -22,27 +21,26 @@
         }
       },
       "image": {
-        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e8/Vicente_Blasco_Ib%C3%A1%C3%B1ez_in_1919_%28cropped%29.jpg/1280px-Vicente_Blasco_Ib%C3%A1%C3%B1ez_in_1919_%28cropped%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-        "alt": "Portrait or image of Vicente Blasco Ibáñez.",
-        "credit": "Unknown authorUnknown author",
-        "source": "https://commons.wikimedia.org/wiki/File:Vicente_Blasco_Ib%C3%A1%C3%B1ez_in_1919_(cropped).jpg",
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/8d/Hungary_South_Korea_Locator.png/1280px-Hungary_South_Korea_Locator.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "alt": "Picture from the Wikipedia article on Hungary–South Korea relations.",
+        "credit": "Aridd at English Wikipedia",
+        "source": "https://commons.wikimedia.org/wiki/File:Hungary_South_Korea_Locator.png",
         "license": "Public domain",
-        "licenseUrl": "https://commons.wikimedia.org/wiki/File:Vicente_Blasco_Ib%C3%A1%C3%B1ez_in_1919_(cropped).jpg"
+        "licenseUrl": "https://commons.wikimedia.org/wiki/File:Hungary_South_Korea_Locator.png"
       }
     },
     {
-      "id": "01-29-denmark-christian-vii-of-denmark",
+      "id": "01-29-the-raven",
       "date": "01-29",
       "dateLabel": "29 January",
-      "country": "denmark",
-      "countryName": "Denmark",
-      "kind": "births",
-      "year": 1749,
-      "title": "Christian VII of Denmark",
-      "body": "Christian VII of Denmark, (died 1808), was born on this day in 1749.",
+      "category": "culture",
+      "categoryName": "Culture",
+      "year": 1845,
+      "title": "The Raven",
+      "body": "\"The Raven\" is published in The Evening Mirror in New York, the first publication with the name of the author, Edgar Allan Poe.",
       "source": {
-        "name": "Wikipedia · Christian VII",
-        "url": "https://en.wikipedia.org/wiki/Christian_VII",
+        "name": "Wikipedia · The Raven",
+        "url": "https://en.wikipedia.org/wiki/The_Raven",
         "calendarUrl": "https://en.wikipedia.org/wiki/January_29",
         "license": {
           "name": "CC BY-SA 4.0",
@@ -50,40 +48,39 @@
         }
       },
       "image": {
-        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/3b/Christian_VII_1772_by_Roslin.jpg/1280px-Christian_VII_1772_by_Roslin.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-        "alt": "Portrait or image of Christian VII of Denmark.",
-        "credit": "Alexander Roslin",
-        "source": "https://commons.wikimedia.org/wiki/File:Christian_VII_1772_by_Roslin.jpg",
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/06/Raven_Manet_C2.jpg/1280px-Raven_Manet_C2.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "alt": "Picture from the Wikipedia article on The Raven.",
+        "credit": "Édouard Manet",
+        "source": "https://commons.wikimedia.org/wiki/File:Raven_Manet_C2.jpg",
         "license": "Public domain",
-        "licenseUrl": "https://commons.wikimedia.org/wiki/File:Christian_VII_1772_by_Roslin.jpg"
+        "licenseUrl": "https://commons.wikimedia.org/wiki/File:Raven_Manet_C2.jpg"
       }
     },
     {
-      "id": "01-29-greece-daylight",
+      "id": "01-29-karl-benz",
       "date": "01-29",
       "dateLabel": "29 January",
-      "country": "greece",
-      "countryName": "Greece",
-      "kind": "daylight",
-      "year": 0,
-      "title": "Athens's daylight",
-      "body": "On 29 January, Athens gets about 10 hours and 10 minutes of daylight.",
+      "category": "science",
+      "categoryName": "Science",
+      "year": 1886,
+      "title": "Carl Benz",
+      "body": "Karl Benz patents the first successful gasoline-driven automobile.",
       "source": {
-        "name": "NOAA Solar Calculator",
-        "url": "https://gml.noaa.gov/grad/solcalc/",
-        "calendarUrl": "https://gml.noaa.gov/grad/solcalc/calcdetails.html",
+        "name": "Wikipedia · Carl Benz",
+        "url": "https://en.wikipedia.org/wiki/Carl_Benz",
+        "calendarUrl": "https://en.wikipedia.org/wiki/January_29",
         "license": {
-          "name": "public-domain NOAA method",
-          "url": "https://www.noaa.gov/disclaimer"
+          "name": "CC BY-SA 4.0",
+          "url": "https://creativecommons.org/licenses/by-sa/4.0/"
         }
       },
       "image": {
-        "src": "https://commons.wikimedia.org/wiki/Special:Redirect/file/Flag_of_Greece.svg?width=1000",
-        "alt": "The national flag of Greece.",
-        "credit": "Greek government",
-        "source": "https://commons.wikimedia.org/wiki/File:Flag_of_Greece.svg",
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/95/Carl_Benz_circa_1920.jpg/1280px-Carl_Benz_circa_1920.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "alt": "Picture from the Wikipedia article on Carl Benz.",
+        "credit": "Unknown (same photo credited to various stock photo agencies. The copyright is also claimed by the Mercedes-Benz Public Archive)",
+        "source": "https://commons.wikimedia.org/wiki/File:Carl_Benz_circa_1920.jpg",
         "license": "Public domain",
-        "licenseUrl": "https://commons.wikimedia.org/wiki/File:Flag_of_Greece.svg"
+        "licenseUrl": "https://commons.wikimedia.org/wiki/File:Carl_Benz_circa_1920.jpg"
       }
     }
   ]

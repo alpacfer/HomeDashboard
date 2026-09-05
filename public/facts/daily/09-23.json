@@ -3,18 +3,17 @@
   "dateLabel": "23 September",
   "facts": [
     {
-      "id": "09-23-spain-philip-ii-of-spain",
+      "id": "09-23-cape-virgenes",
       "date": "09-23",
       "dateLabel": "23 September",
-      "country": "spain",
-      "countryName": "Spain",
-      "kind": "events",
-      "year": 1561,
-      "title": "Philip II of Spain",
-      "body": "1561: King Philip II of Spain issues cedula, ordering a halt to colonizing efforts in Florida.",
+      "category": "science",
+      "categoryName": "Science",
+      "year": 1884,
+      "title": "Cape Virgenes",
+      "body": "On the night of 23–24 September, the steamship Arctique runs aground near Cape Virgenes leading to the discovery of nearby placer gold, beginning the Tierra del Fuego gold rush.",
       "source": {
-        "name": "Wikipedia · Philip II of Spain",
-        "url": "https://en.wikipedia.org/wiki/Philip_II_of_Spain",
+        "name": "Wikipedia · Cape Virgenes",
+        "url": "https://en.wikipedia.org/wiki/Cape_Virgenes",
         "calendarUrl": "https://en.wikipedia.org/wiki/September_23",
         "license": {
           "name": "CC BY-SA 4.0",
@@ -22,27 +21,26 @@
         }
       },
       "image": {
-        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/2d/Portrait_of_Philip_II_of_Spain_by_Sofonisba_Anguissola_-_002b.jpg/1280px-Portrait_of_Philip_II_of_Spain_by_Sofonisba_Anguissola_-_002b.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-        "alt": "Image related to Philip II of Spain.",
-        "credit": "Sofonisba Anguissola",
-        "source": "https://commons.wikimedia.org/wiki/File:Portrait_of_Philip_II_of_Spain_by_Sofonisba_Anguissola_-_002b.jpg",
+        "src": "https://upload.wikimedia.org/wikipedia/commons/1/1a/Capes_in_the_Americas.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+        "alt": "Picture from the Wikipedia article on Cape Virgenes.",
+        "credit": "Wikimedia Commons contributor",
+        "source": "https://commons.wikimedia.org/wiki/File:Capes_in_the_Americas.png",
         "license": "Public domain",
-        "licenseUrl": "https://commons.wikimedia.org/wiki/File:Portrait_of_Philip_II_of_Spain_by_Sofonisba_Anguissola_-_002b.jpg"
+        "licenseUrl": "https://commons.wikimedia.org/wiki/File:Capes_in_the_Americas.png"
       }
     },
     {
-      "id": "09-23-denmark-carl-henning-pedersen",
+      "id": "09-23-george-vi",
       "date": "09-23",
       "dateLabel": "23 September",
-      "country": "denmark",
-      "countryName": "Denmark",
-      "kind": "births",
-      "year": 1913,
-      "title": "Carl-Henning Pedersen",
-      "body": "Carl-Henning Pedersen, Danish painter and sculptor (died 2007), was born on this day in 1913.",
+      "category": "world",
+      "categoryName": "World",
+      "year": 1951,
+      "title": "George VI",
+      "body": "George VI, king of the United Kingdom, has his left lung removed in an operation after a malignant tumour was found.",
       "source": {
-        "name": "Wikipedia · Carl-Henning Pedersen",
-        "url": "https://en.wikipedia.org/wiki/Carl-Henning_Pedersen",
+        "name": "Wikipedia · George VI",
+        "url": "https://en.wikipedia.org/wiki/George_VI",
         "calendarUrl": "https://en.wikipedia.org/wiki/September_23",
         "license": {
           "name": "CC BY-SA 4.0",
@@ -50,27 +48,26 @@
         }
       },
       "image": {
-        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/72/Carl_Henning_Pedersen_og_Else_Alfelts_Museum.jpg/1280px-Carl_Henning_Pedersen_og_Else_Alfelts_Museum.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-        "alt": "Portrait or image of Carl-Henning Pedersen.",
-        "credit": "Sapfan",
-        "source": "https://commons.wikimedia.org/wiki/File:Carl_Henning_Pedersen_og_Else_Alfelts_Museum.jpg",
-        "license": "CC0",
-        "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/deed.en"
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e0/King_George_VI_LOC_matpc.14736_A_%28cropped%29.jpg/1280px-King_George_VI_LOC_matpc.14736_A_%28cropped%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "alt": "Picture from the Wikipedia article on George VI.",
+        "credit": "Matson Photo Service",
+        "source": "https://commons.wikimedia.org/wiki/File:King_George_VI_LOC_matpc.14736_A_(cropped).jpg",
+        "license": "Public domain",
+        "licenseUrl": "https://commons.wikimedia.org/wiki/File:King_George_VI_LOC_matpc.14736_A_(cropped).jpg"
       }
     },
     {
-      "id": "09-23-greece-siege-of-tripolitsa",
+      "id": "09-23-urbain-le-verrier",
       "date": "09-23",
       "dateLabel": "23 September",
-      "country": "greece",
-      "countryName": "Greece",
-      "kind": "events",
-      "year": 1821,
-      "title": "Tripolitsa",
-      "body": "1821: Tripolitsa, Greece, is captured by Greek rebels during the Greek War of Independence.",
+      "category": "science",
+      "categoryName": "Science",
+      "year": 1846,
+      "title": "Urbain Le Verrier",
+      "body": "Astronomers Urbain Le Verrier, John Couch Adams and Johann Gottfried Galle collaborate on the discovery of Neptune.",
       "source": {
-        "name": "Wikipedia · Siege of Tripolitsa",
-        "url": "https://en.wikipedia.org/wiki/Siege_of_Tripolitsa",
+        "name": "Wikipedia · Urbain Le Verrier",
+        "url": "https://en.wikipedia.org/wiki/Urbain_Le_Verrier",
         "calendarUrl": "https://en.wikipedia.org/wiki/September_23",
         "license": {
           "name": "CC BY-SA 4.0",
@@ -78,12 +75,12 @@
         }
       },
       "image": {
-        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/db/Zografos-Makriyannis_08_The_battle_of_Tripoli.jpg/1280px-Zografos-Makriyannis_08_The_battle_of_Tripoli.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-        "alt": "Image related to Tripolitsa.",
-        "credit": "Panagiotis Zographos",
-        "source": "https://commons.wikimedia.org/wiki/File:Zografos-Makriyannis_08_The_battle_of_Tripoli.jpg",
+        "src": "https://upload.wikimedia.org/wikipedia/commons/4/47/Le_Verrier_colored.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+        "alt": "Picture from the Wikipedia article on Urbain Le Verrier.",
+        "credit": "Unknown author",
+        "source": "https://commons.wikimedia.org/wiki/File:Le_Verrier_colored.jpg",
         "license": "Public domain",
-        "licenseUrl": "https://commons.wikimedia.org/wiki/File:Zografos-Makriyannis_08_The_battle_of_Tripoli.jpg"
+        "licenseUrl": "https://commons.wikimedia.org/wiki/File:Le_Verrier_colored.jpg"
       }
     }
   ]

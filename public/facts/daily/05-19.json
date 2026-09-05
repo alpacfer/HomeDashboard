@@ -3,18 +3,17 @@
   "dateLabel": "19 May",
   "facts": [
     {
-      "id": "05-19-spain-john-ii-of-castile",
+      "id": "05-19-venera-1",
       "date": "05-19",
       "dateLabel": "19 May",
-      "country": "spain",
-      "countryName": "Spain",
-      "kind": "events",
-      "year": 1445,
-      "title": "John II of Castile",
-      "body": "1445: John II of Castile defeats the Infantes of Aragon at the First Battle of Olmedo.",
+      "category": "space",
+      "categoryName": "Space",
+      "year": 1961,
+      "title": "Venera 1",
+      "body": "Venera 1 becomes the first man-made object to fly by another planet by passing Venus (the probe had lost contact with Earth a month earlier and did not send back any data).",
       "source": {
-        "name": "Wikipedia · John II of Castile",
-        "url": "https://en.wikipedia.org/wiki/John_II_of_Castile",
+        "name": "Wikipedia · Venera 1",
+        "url": "https://en.wikipedia.org/wiki/Venera_1",
         "calendarUrl": "https://en.wikipedia.org/wiki/May_19",
         "license": {
           "name": "CC BY-SA 4.0",
@@ -22,68 +21,66 @@
         }
       },
       "image": {
-        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/3b/Burgos_-_Cartuja_de_Miraflores_-_Tumba_de_Juan_II_de_Castilla.jpg/1280px-Burgos_-_Cartuja_de_Miraflores_-_Tumba_de_Juan_II_de_Castilla.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-        "alt": "Image related to John II of Castile.",
-        "credit": "I, Ecelan",
-        "source": "https://commons.wikimedia.org/wiki/File:Burgos_-_Cartuja_de_Miraflores_-_Tumba_de_Juan_II_de_Castilla.jpg",
-        "license": "CC BY-SA 3.0",
-        "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0/"
-      }
-    },
-    {
-      "id": "05-19-denmark-phil-rudd",
-      "date": "05-19",
-      "dateLabel": "19 May",
-      "country": "denmark",
-      "countryName": "Denmark",
-      "kind": "births",
-      "year": 1954,
-      "title": "Phil Rudd",
-      "body": "Phil Rudd, Australian-New Zealand drummer, was born on this day in 1954.",
-      "source": {
-        "name": "Wikipedia · Phil Rudd",
-        "url": "https://en.wikipedia.org/wiki/Phil_Rudd",
-        "calendarUrl": "https://en.wikipedia.org/wiki/May_19",
-        "license": {
-          "name": "CC BY-SA 4.0",
-          "url": "https://creativecommons.org/licenses/by-sa/4.0/"
-        }
-      },
-      "image": {
-        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b7/Phil_Rudd_-_Manchester_Apollo.jpg/1280px-Phil_Rudd_-_Manchester_Apollo.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-        "alt": "Portrait or image of Phil Rudd.",
-        "credit": "Harry (Howard) Potts",
-        "source": "https://commons.wikimedia.org/wiki/File:Phil_Rudd_-_Manchester_Apollo.jpg",
-        "license": "CC BY 2.0",
-        "licenseUrl": "https://creativecommons.org/licenses/by/2.0"
-      }
-    },
-    {
-      "id": "05-19-greece-byzantine-empire",
-      "date": "05-19",
-      "dateLabel": "19 May",
-      "country": "greece",
-      "countryName": "Greece",
-      "kind": "events",
-      "year": 934,
-      "title": "Byzantine Empire",
-      "body": "934: The Byzantine Empire reconquers Melitene under the leadership of John Kourkouas.",
-      "source": {
-        "name": "Wikipedia · Byzantine Empire",
-        "url": "https://en.wikipedia.org/wiki/Byzantine_Empire",
-        "calendarUrl": "https://en.wikipedia.org/wiki/May_19",
-        "license": {
-          "name": "CC BY-SA 4.0",
-          "url": "https://creativecommons.org/licenses/by-sa/4.0/"
-        }
-      },
-      "image": {
-        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/69/Red_Eastern_Roman_Empire_565_CE.svg/1280px-Red_Eastern_Roman_Empire_565_CE.svg.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-        "alt": "Image related to Byzantine Empire.",
-        "credit": "PortosPL31",
-        "source": "https://commons.wikimedia.org/wiki/File:Red_Eastern_Roman_Empire_565_CE.svg",
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/50/Venera_1_%28a%29_%28Memorial_Museum_of_Astronautics%29.JPG/1280px-Venera_1_%28a%29_%28Memorial_Museum_of_Astronautics%29.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "alt": "Picture from the Wikipedia article on Venera 1.",
+        "credit": "Armael",
+        "source": "https://commons.wikimedia.org/wiki/File:Venera_1_(a)_(Memorial_Museum_of_Astronautics).JPG",
         "license": "CC0",
         "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/deed.en"
+      }
+    },
+    {
+      "id": "05-19-rosenborg-bk",
+      "date": "05-19",
+      "dateLabel": "19 May",
+      "category": "sport",
+      "categoryName": "Sport",
+      "year": 1917,
+      "title": "Rosenborg BK",
+      "body": "The Norwegian football club Rosenborg BK is founded.",
+      "source": {
+        "name": "Wikipedia · Rosenborg BK",
+        "url": "https://en.wikipedia.org/wiki/Rosenborg_BK",
+        "calendarUrl": "https://en.wikipedia.org/wiki/May_19",
+        "license": {
+          "name": "CC BY-SA 4.0",
+          "url": "https://creativecommons.org/licenses/by-sa/4.0/"
+        }
+      },
+      "image": {
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/40/Rosenborg_logo_RGB.svg/1280px-Rosenborg_logo_RGB.svg.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "alt": "Picture from the Wikipedia article on Rosenborg BK.",
+        "credit": "Rosenborg Ballklub",
+        "source": "https://commons.wikimedia.org/wiki/File:Rosenborg_logo_RGB.svg",
+        "license": "Public domain",
+        "licenseUrl": "https://commons.wikimedia.org/wiki/File:Rosenborg_logo_RGB.svg"
+      }
+    },
+    {
+      "id": "05-19-martin-luther-king-jr",
+      "date": "05-19",
+      "dateLabel": "19 May",
+      "category": "world",
+      "categoryName": "World",
+      "year": 1963,
+      "title": "Martin Luther King Jr.",
+      "body": "The New York Post Sunday Magazine publishes Martin Luther King Jr.'s Letter from Birmingham Jail.",
+      "source": {
+        "name": "Wikipedia · Martin Luther King Jr.",
+        "url": "https://en.wikipedia.org/wiki/Martin_Luther_King_Jr.",
+        "calendarUrl": "https://en.wikipedia.org/wiki/May_19",
+        "license": {
+          "name": "CC BY-SA 4.0",
+          "url": "https://creativecommons.org/licenses/by-sa/4.0/"
+        }
+      },
+      "image": {
+        "src": "https://upload.wikimedia.org/wikipedia/commons/c/ce/Martin_Luther_King%2C_Jr._and_Lyndon_Johnson_%28cropped%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+        "alt": "Picture from the Wikipedia article on Martin Luther King Jr..",
+        "credit": "Yoichi Okamoto",
+        "source": "https://commons.wikimedia.org/wiki/File:Martin_Luther_King,_Jr._and_Lyndon_Johnson_(cropped).jpg",
+        "license": "Public domain",
+        "licenseUrl": "https://commons.wikimedia.org/wiki/File:Martin_Luther_King,_Jr._and_Lyndon_Johnson_(cropped).jpg"
       }
     }
   ]

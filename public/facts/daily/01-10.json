@@ -3,18 +3,17 @@
   "dateLabel": "10 January",
   "facts": [
     {
-      "id": "01-10-spain-francisco-ferrer",
+      "id": "01-10-blowout-well-drilling",
       "date": "01-10",
       "dateLabel": "10 January",
-      "country": "spain",
-      "countryName": "Spain",
-      "kind": "births",
-      "year": 1859,
-      "title": "Francesc Ferrer i Guàrdia",
-      "body": "Francesc Ferrer i Guàrdia, Spanish philosopher and academic (died 1909), was born on this day in 1859.",
+      "category": "science",
+      "categoryName": "Science",
+      "year": 1901,
+      "title": "Blowout",
+      "body": "The first great Texas oil gusher is discovered at Spindletop in Beaumont, Texas.",
       "source": {
-        "name": "Wikipedia · Francisco Ferrer",
-        "url": "https://en.wikipedia.org/wiki/Francisco_Ferrer",
+        "name": "Wikipedia · Blowout (well drilling)",
+        "url": "https://en.wikipedia.org/wiki/Blowout_(well_drilling)",
         "calendarUrl": "https://en.wikipedia.org/wiki/January_10",
         "license": {
           "name": "CC BY-SA 4.0",
@@ -22,27 +21,26 @@
         }
       },
       "image": {
-        "src": "https://upload.wikimedia.org/wikipedia/commons/6/6d/Francisco_Ferrer_Guardia.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
-        "alt": "Portrait or image of Francesc Ferrer i Guàrdia.",
-        "credit": "Wikimedia Commons contributor",
-        "source": "https://commons.wikimedia.org/wiki/File:Francisco_Ferrer_Guardia.jpg",
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d8/Lucas_gusher.jpg/1280px-Lucas_gusher.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "alt": "Picture from the Wikipedia article on Blowout.",
+        "credit": "Note: Image is available at [1] on the Paleontological Research Institution web site. The site credits the American Petroleum Institute; however, a Texas roadsi",
+        "source": "https://commons.wikimedia.org/wiki/File:Lucas_gusher.jpg",
         "license": "Public domain",
-        "licenseUrl": "https://commons.wikimedia.org/wiki/File:Francisco_Ferrer_Guardia.jpg"
+        "licenseUrl": "https://commons.wikimedia.org/wiki/File:Lucas_gusher.jpg"
       }
     },
     {
-      "id": "01-10-denmark-john-fahey-politician",
+      "id": "01-10-fritz-lang",
       "date": "01-10",
       "dateLabel": "10 January",
-      "country": "denmark",
-      "countryName": "Denmark",
-      "kind": "births",
-      "year": 1945,
-      "title": "John Fahey",
-      "body": "John Fahey, New Zealand-Australian lawyer and politician, 38th Premier of New South Wales (died 2020), was born on this day in 1945.",
+      "category": "culture",
+      "categoryName": "Culture",
+      "year": 1927,
+      "title": "Fritz Lang",
+      "body": "Fritz Lang's futuristic film Metropolis is released in Germany.",
       "source": {
-        "name": "Wikipedia · John Fahey (politician)",
-        "url": "https://en.wikipedia.org/wiki/John_Fahey_(politician)",
+        "name": "Wikipedia · Fritz Lang",
+        "url": "https://en.wikipedia.org/wiki/Fritz_Lang",
         "calendarUrl": "https://en.wikipedia.org/wiki/January_10",
         "license": {
           "name": "CC BY-SA 4.0",
@@ -50,27 +48,26 @@
         }
       },
       "image": {
-        "src": "https://commons.wikimedia.org/wiki/Special:Redirect/file/Flag_of_Denmark.svg?width=1000",
-        "alt": "The national flag of Denmark.",
-        "credit": "Danish government",
-        "source": "https://commons.wikimedia.org/wiki/File:Flag_of_Denmark.svg",
-        "license": "Public domain",
-        "licenseUrl": "https://commons.wikimedia.org/wiki/File:Flag_of_Denmark.svg"
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/20/Fritz_Lang_%281969%29.jpg/1280px-Fritz_Lang_%281969%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "alt": "Picture from the Wikipedia article on Fritz Lang.",
+        "credit": "Joost Evers / Anefo",
+        "source": "https://commons.wikimedia.org/wiki/File:Fritz_Lang_(1969).jpg",
+        "license": "CC BY-SA 3.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0"
       }
     },
     {
-      "id": "01-10-greece-world-war-ii",
+      "id": "01-10-metropolitan-railway",
       "date": "01-10",
       "dateLabel": "10 January",
-      "country": "greece",
-      "countryName": "Greece",
-      "kind": "events",
-      "year": 1941,
-      "title": "World War II",
-      "body": "1941: World War II: The Greek army captures Kleisoura.",
+      "category": "curious",
+      "categoryName": "Curious",
+      "year": 1863,
+      "title": "Metropolitan Railway",
+      "body": "The Metropolitan Railway, the world's oldest underground railway, opens between Paddington and Farringdon, marking the beginning of the London Underground.",
       "source": {
-        "name": "Wikipedia · World War II",
-        "url": "https://en.wikipedia.org/wiki/World_War_II",
+        "name": "Wikipedia · Metropolitan Railway",
+        "url": "https://en.wikipedia.org/wiki/Metropolitan_Railway",
         "calendarUrl": "https://en.wikipedia.org/wiki/January_10",
         "license": {
           "name": "CC BY-SA 4.0",
@@ -78,12 +75,12 @@
         }
       },
       "image": {
-        "src": "https://upload.wikimedia.org/wikipedia/commons/1/10/Bundesarchiv_Bild_101I-646-5188-17%2C_Flugzeuge_Junkers_Ju_87.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
-        "alt": "Image related to World War II.",
-        "credit": "Bundesarchiv, Bild 101I-646-5188-17 / Opitz / CC-BY-SA 3.0",
-        "source": "https://commons.wikimedia.org/wiki/File:Bundesarchiv_Bild_101I-646-5188-17,_Flugzeuge_Junkers_Ju_87.jpg",
-        "license": "CC BY-SA 3.0 de",
-        "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0/de/deed.en"
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/20/Metropolitan_Underground_Railway_stations.jpg/1280px-Metropolitan_Underground_Railway_stations.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "alt": "Picture from the Wikipedia article on Metropolitan Railway.",
+        "credit": "Unknown (illegible)",
+        "source": "https://commons.wikimedia.org/wiki/File:Metropolitan_Underground_Railway_stations.jpg",
+        "license": "Public domain",
+        "licenseUrl": "https://commons.wikimedia.org/wiki/File:Metropolitan_Underground_Railway_stations.jpg"
       }
     }
   ]

@@ -3,18 +3,17 @@
   "dateLabel": "8 January",
   "facts": [
     {
-      "id": "01-08-spain-anarchist-insurrection-of-january-1933",
+      "id": "01-08-astronaut",
       "date": "01-08",
       "dateLabel": "8 January",
-      "country": "spain",
-      "countryName": "Spain",
-      "kind": "events",
-      "year": 1933,
-      "title": "Anarchist insurrection of January 1933",
-      "body": "1933: Anarchist insurrection of January 1933 breaks out in Barcelona, Spain.",
+      "category": "space",
+      "categoryName": "Space",
+      "year": 1994,
+      "title": "Astronaut",
+      "body": "Russian cosmonaut Valeri Polyakov on Soyuz TM-18 leaves for Mir. He would stay on the space station until March 22, 1995, for a record 437 days in space.",
       "source": {
-        "name": "Wikipedia · Anarchist insurrection of January 1933",
-        "url": "https://en.wikipedia.org/wiki/Anarchist_insurrection_of_January_1933",
+        "name": "Wikipedia · Astronaut",
+        "url": "https://en.wikipedia.org/wiki/Astronaut",
         "calendarUrl": "https://en.wikipedia.org/wiki/January_8",
         "license": {
           "name": "CC BY-SA 4.0",
@@ -22,68 +21,66 @@
         }
       },
       "image": {
-        "src": "https://upload.wikimedia.org/wikipedia/commons/a/a3/Revoluci%C3%B3n_de_enero_de_1933.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
-        "alt": "Image related to Anarchist insurrection of January 1933.",
-        "credit": "Tyk",
-        "source": "https://commons.wikimedia.org/wiki/File:Revoluci%C3%B3n_de_enero_de_1933.png",
-        "license": "CC BY-SA 3.0",
-        "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0/"
-      }
-    },
-    {
-      "id": "01-08-denmark-aaron-cruden",
-      "date": "01-08",
-      "dateLabel": "8 January",
-      "country": "denmark",
-      "countryName": "Denmark",
-      "kind": "births",
-      "year": 1989,
-      "title": "Aaron Cruden",
-      "body": "Aaron Cruden, New Zealand rugby player, was born on this day in 1989.",
-      "source": {
-        "name": "Wikipedia · Aaron Cruden",
-        "url": "https://en.wikipedia.org/wiki/Aaron_Cruden",
-        "calendarUrl": "https://en.wikipedia.org/wiki/January_8",
-        "license": {
-          "name": "CC BY-SA 4.0",
-          "url": "https://creativecommons.org/licenses/by-sa/4.0/"
-        }
-      },
-      "image": {
-        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/47/Aaron_Cruden_Italy_2016.jpg/1280px-Aaron_Cruden_Italy_2016.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-        "alt": "Portrait or image of Aaron Cruden.",
-        "credit": "Stefano Delfrate",
-        "source": "https://commons.wikimedia.org/wiki/File:Aaron_Cruden_Italy_2016.jpg",
-        "license": "CC BY-SA 2.0",
-        "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0"
-      }
-    },
-    {
-      "id": "01-08-greece-daylight",
-      "date": "01-08",
-      "dateLabel": "8 January",
-      "country": "greece",
-      "countryName": "Greece",
-      "kind": "daylight",
-      "year": 0,
-      "title": "Athens's daylight",
-      "body": "On 8 January, Athens gets about 9 hours and 40 minutes of daylight.",
-      "source": {
-        "name": "NOAA Solar Calculator",
-        "url": "https://gml.noaa.gov/grad/solcalc/",
-        "calendarUrl": "https://gml.noaa.gov/grad/solcalc/calcdetails.html",
-        "license": {
-          "name": "public-domain NOAA method",
-          "url": "https://www.noaa.gov/disclaimer"
-        }
-      },
-      "image": {
-        "src": "https://commons.wikimedia.org/wiki/Special:Redirect/file/Flag_of_Greece.svg?width=1000",
-        "alt": "The national flag of Greece.",
-        "credit": "Greek government",
-        "source": "https://commons.wikimedia.org/wiki/File:Flag_of_Greece.svg",
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/91/Bruce_McCandless_II_during_EVA_in_1984.jpg/1280px-Bruce_McCandless_II_during_EVA_in_1984.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "alt": "Picture from the Wikipedia article on Astronaut.",
+        "credit": "NASA",
+        "source": "https://commons.wikimedia.org/wiki/File:Bruce_McCandless_II_during_EVA_in_1984.jpg",
         "license": "Public domain",
-        "licenseUrl": "https://commons.wikimedia.org/wiki/File:Flag_of_Greece.svg"
+        "licenseUrl": "https://commons.wikimedia.org/wiki/File:Bruce_McCandless_II_during_EVA_in_1984.jpg"
+      }
+    },
+    {
+      "id": "01-08-at-t-corporation",
+      "date": "01-08",
+      "dateLabel": "8 January",
+      "category": "world",
+      "categoryName": "World",
+      "year": 1982,
+      "title": "AT&T Corporation",
+      "body": "In the United States, AT&T agrees to divest itself of twenty-two subdivisions.",
+      "source": {
+        "name": "Wikipedia · AT&T Corporation",
+        "url": "https://en.wikipedia.org/wiki/AT%26T_Corporation",
+        "calendarUrl": "https://en.wikipedia.org/wiki/January_8",
+        "license": {
+          "name": "CC BY-SA 4.0",
+          "url": "https://creativecommons.org/licenses/by-sa/4.0/"
+        }
+      },
+      "image": {
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/37/Sony_Gebaeude.JPG/1280px-Sony_Gebaeude.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "alt": "Picture from the Wikipedia article on AT&T Corporation.",
+        "credit": "Martin Dürrschnabel",
+        "source": "https://commons.wikimedia.org/wiki/File:Sony_Gebaeude.JPG",
+        "license": "CC BY-SA 2.5",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.5"
+      }
+    },
+    {
+      "id": "01-08-george-frideric-handel",
+      "date": "01-08",
+      "dateLabel": "8 January",
+      "category": "culture",
+      "categoryName": "Culture",
+      "year": 1735,
+      "title": "George Frideric Handel",
+      "body": "The premiere of George Frideric Handel's Ariodante takes place at the Royal Opera House, Covent Garden.",
+      "source": {
+        "name": "Wikipedia · George Frideric Handel",
+        "url": "https://en.wikipedia.org/wiki/George_Frideric_Handel",
+        "calendarUrl": "https://en.wikipedia.org/wiki/January_8",
+        "license": {
+          "name": "CC BY-SA 4.0",
+          "url": "https://creativecommons.org/licenses/by-sa/4.0/"
+        }
+      },
+      "image": {
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/fa/George_Frideric_Handel_by_Balthasar_Denner.jpg/1280px-George_Frideric_Handel_by_Balthasar_Denner.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "alt": "Picture from the Wikipedia article on George Frideric Handel.",
+        "credit": "Attributed to Balthasar Denner",
+        "source": "https://commons.wikimedia.org/wiki/File:George_Frideric_Handel_by_Balthasar_Denner.jpg",
+        "license": "Public domain",
+        "licenseUrl": "https://commons.wikimedia.org/wiki/File:George_Frideric_Handel_by_Balthasar_Denner.jpg"
       }
     }
   ]

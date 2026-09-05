@@ -3,18 +3,17 @@
   "dateLabel": "7 April",
   "facts": [
     {
-      "id": "04-07-spain-mississippi-territory",
+      "id": "04-07-internet",
       "date": "04-07",
       "dateLabel": "7 April",
-      "country": "spain",
-      "countryName": "Spain",
-      "kind": "events",
-      "year": 1798,
-      "title": "Mississippi Territory",
-      "body": "1798: The Mississippi Territory is organized from disputed territory claimed by both the United States and the Spanish Empire. It is expanded in 1804 and again in 1812.",
+      "category": "tech",
+      "categoryName": "Tech",
+      "year": 1969,
+      "title": "Internet",
+      "body": "Publication of RFC 1.",
       "source": {
-        "name": "Wikipedia · Mississippi Territory",
-        "url": "https://en.wikipedia.org/wiki/Mississippi_Territory",
+        "name": "Wikipedia · Internet",
+        "url": "https://en.wikipedia.org/wiki/Internet",
         "calendarUrl": "https://en.wikipedia.org/wiki/April_7",
         "license": {
           "name": "CC BY-SA 4.0",
@@ -22,27 +21,26 @@
         }
       },
       "image": {
-        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d5/Flag_of_the_United_States_%281795%E2%80%931818%29.svg/1280px-Flag_of_the_United_States_%281795%E2%80%931818%29.svg.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-        "alt": "Image related to Mississippi Territory.",
-        "credit": "Carl Lindberg",
-        "source": "https://commons.wikimedia.org/wiki/File:Flag_of_the_United_States_(1795%E2%80%931818).svg",
-        "license": "Public domain",
-        "licenseUrl": "https://commons.wikimedia.org/wiki/File:Flag_of_the_United_States_(1795%E2%80%931818).svg"
+        "src": "https://upload.wikimedia.org/wikipedia/commons/3/3f/Internet_map_1024_-_transparent%2C_inverted.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+        "alt": "Picture from the Wikipedia article on Internet.",
+        "credit": "The Opte Project",
+        "source": "https://commons.wikimedia.org/wiki/File:Internet_map_1024_-_transparent,_inverted.png",
+        "license": "CC BY 2.5",
+        "licenseUrl": "https://creativecommons.org/licenses/by/2.5"
       }
     },
     {
-      "id": "04-07-denmark-ole-kirk-christiansen",
+      "id": "04-07-2001-mars-odyssey",
       "date": "04-07",
       "dateLabel": "7 April",
-      "country": "denmark",
-      "countryName": "Denmark",
-      "kind": "births",
-      "year": 1891,
-      "title": "Ole Kirk Christiansen",
-      "body": "Ole Kirk Christiansen, Danish businessman, founded the Lego Group (died 1958), was born on this day in 1891.",
+      "category": "space",
+      "categoryName": "Space",
+      "year": 2001,
+      "title": "2001 Mars Odyssey",
+      "body": "NASA launches the 2001 Mars Odyssey orbiter.",
       "source": {
-        "name": "Wikipedia · Ole Kirk Christiansen",
-        "url": "https://en.wikipedia.org/wiki/Ole_Kirk_Christiansen",
+        "name": "Wikipedia · 2001 Mars Odyssey",
+        "url": "https://en.wikipedia.org/wiki/2001_Mars_Odyssey",
         "calendarUrl": "https://en.wikipedia.org/wiki/April_7",
         "license": {
           "name": "CC BY-SA 4.0",
@@ -50,27 +48,26 @@
         }
       },
       "image": {
-        "src": "https://upload.wikimedia.org/wikipedia/commons/4/42/Ole_Kirk_Christiansen%2C_1957_%28cropped%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
-        "alt": "Portrait or image of Ole Kirk Christiansen.",
-        "credit": "Unknown authorUnknown author",
-        "source": "https://commons.wikimedia.org/wiki/File:Ole_Kirk_Christiansen,_1957_(cropped).jpg",
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/0e/Mars_Odyssey_spacecraft_model.png/1280px-Mars_Odyssey_spacecraft_model.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "alt": "Picture from the Wikipedia article on 2001 Mars Odyssey.",
+        "credit": "National Aeronautics and Space Administration (NASA)",
+        "source": "https://commons.wikimedia.org/wiki/File:Mars_Odyssey_spacecraft_model.png",
         "license": "Public domain",
-        "licenseUrl": "https://commons.wikimedia.org/wiki/File:Ole_Kirk_Christiansen,_1957_(cropped).jpg"
+        "licenseUrl": "https://commons.wikimedia.org/wiki/File:Mars_Odyssey_spacecraft_model.png"
       }
     },
     {
-      "id": "04-07-greece-russo-turkish-war-1787-1792",
+      "id": "04-07-booker-t-washington",
       "date": "04-07",
       "dateLabel": "7 April",
-      "country": "greece",
-      "countryName": "Greece",
-      "kind": "events",
-      "year": 1790,
-      "title": "Russo-Turkish war (1787–1792)",
-      "body": "1790: Russo-Turkish war (1787–1792): Greek privateer Lambros Katsonis loses three of his ships in the Battle of Andros.",
+      "category": "world",
+      "categoryName": "World",
+      "year": 1940,
+      "title": "Booker T. Washington",
+      "body": "Booker T. Washington becomes the first African American to be depicted on a United States postage stamp.",
       "source": {
-        "name": "Wikipedia · Russo-Turkish War (1787–1792)",
-        "url": "https://en.wikipedia.org/wiki/Russo-Turkish_War_(1787%E2%80%931792)",
+        "name": "Wikipedia · Booker T. Washington",
+        "url": "https://en.wikipedia.org/wiki/Booker_T._Washington",
         "calendarUrl": "https://en.wikipedia.org/wiki/April_7",
         "license": {
           "name": "CC BY-SA 4.0",
@@ -78,12 +75,12 @@
         }
       },
       "image": {
-        "src": "https://upload.wikimedia.org/wikipedia/commons/c/c3/Russo-Turkish_War_%281787-1792%29_jpg.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
-        "alt": "Image related to Russo-Turkish war (1787–1792).",
-        "credit": "Battle of Kinburn 1787 - K.-I. KöppenSiege of Ochakov 1788 - January SuchodolskiBattle of Rymnik 1789 - H. G. SchützSiege of Izmail 1790 - Samuil Shiflyar",
-        "source": "https://commons.wikimedia.org/wiki/File:Russo-Turkish_War_(1787-1792)_jpg.jpg",
-        "license": "CC BY-SA 4.0",
-        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0"
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/1b/Booker_T_Washington_retouched_flattened-crop.jpg/1280px-Booker_T_Washington_retouched_flattened-crop.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "alt": "Picture from the Wikipedia article on Booker T. Washington.",
+        "credit": "Harris & Ewing",
+        "source": "https://commons.wikimedia.org/wiki/File:Booker_T_Washington_retouched_flattened-crop.jpg",
+        "license": "Public domain",
+        "licenseUrl": "https://commons.wikimedia.org/wiki/File:Booker_T_Washington_retouched_flattened-crop.jpg"
       }
     }
   ]

@@ -3,18 +3,17 @@
   "dateLabel": "9 April",
   "facts": [
     {
-      "id": "04-09-spain-eighty-years-war",
+      "id": "04-09-astronaut",
       "date": "04-09",
       "dateLabel": "9 April",
-      "country": "spain",
-      "countryName": "Spain",
-      "kind": "events",
-      "year": 1609,
-      "title": "Eighty Years' War",
-      "body": "1609: Eighty Years' War: Spain and the Dutch Republic sign the Treaty of Antwerp to initiate twelve years of truce.",
+      "category": "space",
+      "categoryName": "Space",
+      "year": 1959,
+      "title": "Astronaut",
+      "body": "NASA announces the selection of the United States' first seven astronauts, whom the news media quickly dub the \"Mercury Seven\".",
       "source": {
-        "name": "Wikipedia · Eighty Years' War",
-        "url": "https://en.wikipedia.org/wiki/Eighty_Years'_War",
+        "name": "Wikipedia · Astronaut",
+        "url": "https://en.wikipedia.org/wiki/Astronaut",
         "calendarUrl": "https://en.wikipedia.org/wiki/April_9",
         "license": {
           "name": "CC BY-SA 4.0",
@@ -22,27 +21,26 @@
         }
       },
       "image": {
-        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b9/Battle_of_Gibraltar_1607.jpg/1280px-Battle_of_Gibraltar_1607.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-        "alt": "Image related to Eighty Years' War.",
-        "credit": "Cornelis Claesz van Wieringen / Formerly attributed to Hendrick Cornelisz Vroom",
-        "source": "https://commons.wikimedia.org/wiki/File:Battle_of_Gibraltar_1607.jpg",
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/91/Bruce_McCandless_II_during_EVA_in_1984.jpg/1280px-Bruce_McCandless_II_during_EVA_in_1984.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "alt": "Picture from the Wikipedia article on Astronaut.",
+        "credit": "NASA",
+        "source": "https://commons.wikimedia.org/wiki/File:Bruce_McCandless_II_during_EVA_in_1984.jpg",
         "license": "Public domain",
-        "licenseUrl": "https://commons.wikimedia.org/wiki/File:Battle_of_Gibraltar_1607.jpg"
+        "licenseUrl": "https://commons.wikimedia.org/wiki/File:Bruce_McCandless_II_during_EVA_in_1984.jpg"
       }
     },
     {
-      "id": "04-09-denmark-world-war-ii",
+      "id": "04-09-concorde",
       "date": "04-09",
       "dateLabel": "9 April",
-      "country": "denmark",
-      "countryName": "Denmark",
-      "kind": "events",
-      "year": 1940,
-      "title": "World War II",
-      "body": "1940: World War II: Operation Weserübung: Germany invades Denmark and Norway.",
+      "category": "world",
+      "categoryName": "World",
+      "year": 1969,
+      "title": "Concorde",
+      "body": "The first British-built Concorde 002 makes its maiden flight from Filton to RAF Fairford with Brian Trubshaw as the test pilot.",
       "source": {
-        "name": "Wikipedia · World War II",
-        "url": "https://en.wikipedia.org/wiki/World_War_II",
+        "name": "Wikipedia · Concorde",
+        "url": "https://en.wikipedia.org/wiki/Concorde",
         "calendarUrl": "https://en.wikipedia.org/wiki/April_9",
         "license": {
           "name": "CC BY-SA 4.0",
@@ -50,27 +48,26 @@
         }
       },
       "image": {
-        "src": "https://upload.wikimedia.org/wikipedia/commons/1/10/Bundesarchiv_Bild_101I-646-5188-17%2C_Flugzeuge_Junkers_Ju_87.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
-        "alt": "Image related to World War II.",
-        "credit": "Bundesarchiv, Bild 101I-646-5188-17 / Opitz / CC-BY-SA 3.0",
-        "source": "https://commons.wikimedia.org/wiki/File:Bundesarchiv_Bild_101I-646-5188-17,_Flugzeuge_Junkers_Ju_87.jpg",
-        "license": "CC BY-SA 3.0 de",
-        "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0/de/deed.en"
+        "src": "https://upload.wikimedia.org/wikipedia/commons/e/eb/British_Airways_Concorde_G-BOAC_03.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+        "alt": "Picture from the Wikipedia article on Concorde.",
+        "credit": "Eduard Marmet",
+        "source": "https://commons.wikimedia.org/wiki/File:British_Airways_Concorde_G-BOAC_03.jpg",
+        "license": "CC BY-SA 3.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0"
       }
     },
     {
-      "id": "04-09-greece-byzantine-empire",
+      "id": "04-09-marian-anderson",
       "date": "04-09",
       "dateLabel": "9 April",
-      "country": "greece",
-      "countryName": "Greece",
-      "kind": "events",
-      "year": 1387,
-      "title": "Byzantine",
-      "body": "1387: The Byzantine city of Thessalonike surrenders to the Ottomans, though rule reverts back to the Byzantines after the battle of Ankara.",
+      "category": "culture",
+      "categoryName": "Culture",
+      "year": 1939,
+      "title": "Marian Anderson",
+      "body": "African-American singer Marian Anderson gives a concert at the Lincoln Memorial after being denied the use of Constitution Hall by the Daughters of the American Revolution.",
       "source": {
-        "name": "Wikipedia · Byzantine Empire",
-        "url": "https://en.wikipedia.org/wiki/Byzantine_Empire",
+        "name": "Wikipedia · Marian Anderson",
+        "url": "https://en.wikipedia.org/wiki/Marian_Anderson",
         "calendarUrl": "https://en.wikipedia.org/wiki/April_9",
         "license": {
           "name": "CC BY-SA 4.0",
@@ -78,12 +75,12 @@
         }
       },
       "image": {
-        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/69/Red_Eastern_Roman_Empire_565_CE.svg/1280px-Red_Eastern_Roman_Empire_565_CE.svg.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-        "alt": "Image related to Byzantine.",
-        "credit": "PortosPL31",
-        "source": "https://commons.wikimedia.org/wiki/File:Red_Eastern_Roman_Empire_565_CE.svg",
-        "license": "CC0",
-        "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/deed.en"
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/7f/Marian_Anderson_by_Carl_Van_Vechten_%28cropped%29.jpg/1280px-Marian_Anderson_by_Carl_Van_Vechten_%28cropped%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "alt": "Picture from the Wikipedia article on Marian Anderson.",
+        "credit": "Carl Van Vechten",
+        "source": "https://commons.wikimedia.org/wiki/File:Marian_Anderson_by_Carl_Van_Vechten_(cropped).jpg",
+        "license": "Public domain",
+        "licenseUrl": "https://commons.wikimedia.org/wiki/File:Marian_Anderson_by_Carl_Van_Vechten_(cropped).jpg"
       }
     }
   ]

@@ -3,18 +3,17 @@
   "dateLabel": "15 December",
   "facts": [
     {
-      "id": "12-15-spain-anarchist-insurrection-of-december-1933",
+      "id": "12-15-venera-7",
       "date": "12-15",
       "dateLabel": "15 December",
-      "country": "spain",
-      "countryName": "Spain",
-      "kind": "events",
-      "year": 1933,
-      "title": "Anarchist insurrection",
-      "body": "1933: Anarchist insurrection suppressed in Zaragoza, Spain.",
+      "category": "space",
+      "categoryName": "Space",
+      "year": 1970,
+      "title": "Venera 7",
+      "body": "Soviet spacecraft Venera 7 successfully lands on Venus. It is the first successful soft landing on another planet.",
       "source": {
-        "name": "Wikipedia · Anarchist insurrection of December 1933",
-        "url": "https://en.wikipedia.org/wiki/Anarchist_insurrection_of_December_1933",
+        "name": "Wikipedia · Venera 7",
+        "url": "https://en.wikipedia.org/wiki/Venera_7",
         "calendarUrl": "https://en.wikipedia.org/wiki/December_15",
         "license": {
           "name": "CC BY-SA 4.0",
@@ -22,27 +21,26 @@
         }
       },
       "image": {
-        "src": "https://commons.wikimedia.org/wiki/Special:Redirect/file/Flag_of_Spain.svg?width=1000",
-        "alt": "The national flag of Spain.",
-        "credit": "Government of Spain",
-        "source": "https://commons.wikimedia.org/wiki/File:Flag_of_Spain.svg",
-        "license": "Public domain",
-        "licenseUrl": "https://commons.wikimedia.org/wiki/File:Flag_of_Spain.svg"
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/ca/Venera-7_spuskaemiy_apparat.jpg/1280px-Venera-7_spuskaemiy_apparat.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "alt": "Picture from the Wikipedia article on Venera 7.",
+        "credit": "Emerezhko",
+        "source": "https://commons.wikimedia.org/wiki/File:Venera-7_spuskaemiy_apparat.jpg",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0"
       }
     },
     {
-      "id": "12-15-denmark-niels-ryberg-finsen",
+      "id": "12-15-gone-with-the-wind-film",
       "date": "12-15",
       "dateLabel": "15 December",
-      "country": "denmark",
-      "countryName": "Denmark",
-      "kind": "births",
-      "year": 1860,
-      "title": "Niels Ryberg Finsen",
-      "body": "Niels Ryberg Finsen, Faroese-Danish physician and educator, Nobel Prize laureate (died 1904), was born on this day in 1860.",
+      "category": "culture",
+      "categoryName": "Culture",
+      "year": 1939,
+      "title": "Gone with the Wind",
+      "body": "Gone with the Wind (highest inflation adjusted grossing film) receives its premiere at Loew's Grand Theatre in Atlanta, Georgia, United States.",
       "source": {
-        "name": "Wikipedia · Niels Ryberg Finsen",
-        "url": "https://en.wikipedia.org/wiki/Niels_Ryberg_Finsen",
+        "name": "Wikipedia · Gone with the Wind (film)",
+        "url": "https://en.wikipedia.org/wiki/Gone_with_the_Wind_(film)",
         "calendarUrl": "https://en.wikipedia.org/wiki/December_15",
         "license": {
           "name": "CC BY-SA 4.0",
@@ -50,27 +48,26 @@
         }
       },
       "image": {
-        "src": "https://upload.wikimedia.org/wikipedia/commons/f/f0/Niels_Ryberg_Finsen_portrait.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
-        "alt": "Portrait or image of Niels Ryberg Finsen.",
-        "credit": "Unknown authorUnknown author",
-        "source": "https://commons.wikimedia.org/wiki/File:Niels_Ryberg_Finsen_portrait.jpg",
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/27/Poster_-_Gone_With_the_Wind_01.jpg/1280px-Poster_-_Gone_With_the_Wind_01.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "alt": "Picture from the Wikipedia article on Gone with the Wind.",
+        "credit": "Armando Seguso (per Heritage Auctions)",
+        "source": "https://commons.wikimedia.org/wiki/File:Poster_-_Gone_With_the_Wind_01.jpg",
         "license": "Public domain",
-        "licenseUrl": "https://commons.wikimedia.org/wiki/File:Niels_Ryberg_Finsen_portrait.jpg"
+        "licenseUrl": "https://commons.wikimedia.org/wiki/File:Poster_-_Gone_With_the_Wind_01.jpg"
       }
     },
     {
-      "id": "12-15-greece-constantine-viii",
+      "id": "12-15-telegraphist",
       "date": "12-15",
       "dateLabel": "15 December",
-      "country": "greece",
-      "countryName": "Greece",
-      "kind": "events",
-      "year": 1025,
-      "title": "Constantine VIII",
-      "body": "1025: Constantine VIII becomes sole emperor of the Byzantine Empire, 63 years after being crowned co-emperor.",
+      "category": "tech",
+      "categoryName": "Tech",
+      "year": 1871,
+      "title": "Telegraphist",
+      "body": "Sixteen-year-old telegraphist Ella Stewart keys and sends the first telegraphed message from Arizona Territory at the Deseret Telegraph Company office in Pipe Spring.",
       "source": {
-        "name": "Wikipedia · Constantine VIII",
-        "url": "https://en.wikipedia.org/wiki/Constantine_VIII",
+        "name": "Wikipedia · Telegraphist",
+        "url": "https://en.wikipedia.org/wiki/Telegraphist",
         "calendarUrl": "https://en.wikipedia.org/wiki/December_15",
         "license": {
           "name": "CC BY-SA 4.0",
@@ -78,12 +75,12 @@
         }
       },
       "image": {
-        "src": "https://upload.wikimedia.org/wikipedia/commons/8/88/Constantine_VIII_in_the_Exultet_roll_%282%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
-        "alt": "Image related to Constantine VIII.",
-        "credit": "unknown 12th century artist",
-        "source": "https://commons.wikimedia.org/wiki/File:Constantine_VIII_in_the_Exultet_roll_(2).jpg",
-        "license": "Public domain",
-        "licenseUrl": "https://commons.wikimedia.org/wiki/File:Constantine_VIII_in_the_Exultet_roll_(2).jpg"
+        "src": "https://upload.wikimedia.org/wikipedia/commons/1/1b/COLLECTIE_TROPENMUSEUM_Telegrafist_die_telegrammen_ontvangt_op_Sabang_TMnr_10022280.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+        "alt": "Picture from the Wikipedia article on Telegraphist.",
+        "credit": "Collectie Wereldmuseum (v/h Tropenmuseum), part of the National Museum of World Cultures",
+        "source": "https://commons.wikimedia.org/wiki/File:COLLECTIE_TROPENMUSEUM_Telegrafist_die_telegrammen_ontvangt_op_Sabang_TMnr_10022280.jpg",
+        "license": "CC BY-SA 3.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0"
       }
     }
   ]

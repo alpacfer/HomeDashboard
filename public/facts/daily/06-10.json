@@ -3,18 +3,17 @@
   "dateLabel": "10 June",
   "facts": [
     {
-      "id": "06-10-spain-spanish-american-war",
+      "id": "06-10-opportunity-rover",
       "date": "06-10",
       "dateLabel": "10 June",
-      "country": "spain",
-      "countryName": "Spain",
-      "kind": "events",
-      "year": 1898,
-      "title": "Spanish–American War",
-      "body": "1898: Spanish–American War: In the Battle of Guantánamo Bay, U.S. Marines begin the American invasion of Spanish-held Cuba.",
+      "category": "space",
+      "categoryName": "Space",
+      "year": 2018,
+      "title": "Opportunity",
+      "body": "The Opportunity rover sends its last message back to Earth. The mission was finally declared over on February 13, 2019.",
       "source": {
-        "name": "Wikipedia · Spanish–American War",
-        "url": "https://en.wikipedia.org/wiki/Spanish%E2%80%93American_War",
+        "name": "Wikipedia · Opportunity (rover)",
+        "url": "https://en.wikipedia.org/wiki/Opportunity_(rover)",
         "calendarUrl": "https://en.wikipedia.org/wiki/June_10",
         "license": {
           "name": "CC BY-SA 4.0",
@@ -22,27 +21,26 @@
         }
       },
       "image": {
-        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/84/Collage_infobox_for_Spanish-American_War.jpg/1280px-Collage_infobox_for_Spanish-American_War.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-        "alt": "Image related to Spanish–American War.",
-        "credit": "Barbudo Barbudo and TEP",
-        "source": "https://commons.wikimedia.org/wiki/File:Collage_infobox_for_Spanish-American_War.jpg",
-        "license": "CC BY-SA 4.0",
-        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0"
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d8/NASA_Mars_Rover.jpg/1280px-NASA_Mars_Rover.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "alt": "Picture from the Wikipedia article on Opportunity.",
+        "credit": "NASA/JPL/Cornell University, Maas Digital LLC",
+        "source": "https://commons.wikimedia.org/wiki/File:NASA_Mars_Rover.jpg",
+        "license": "Public domain",
+        "licenseUrl": "https://commons.wikimedia.org/wiki/File:NASA_Mars_Rover.jpg"
       }
     },
     {
-      "id": "06-10-denmark-copenhagen",
+      "id": "06-10-kevin-warwick",
       "date": "06-10",
       "dateLabel": "10 June",
-      "country": "denmark",
-      "countryName": "Denmark",
-      "kind": "events",
-      "year": 1523,
-      "title": "Copenhagen",
-      "body": "1523: Copenhagen is surrounded by the army of Frederick I of Denmark, as the city will not recognise him as the successor of Christian II of Denmark.",
+      "category": "science",
+      "categoryName": "Science",
+      "year": 2002,
+      "title": "Kevin Warwick",
+      "body": "The first direct electronic communication experiment between the nervous systems of two humans is carried out by Kevin Warwick in the United Kingdom.",
       "source": {
-        "name": "Wikipedia · Copenhagen",
-        "url": "https://en.wikipedia.org/wiki/Copenhagen",
+        "name": "Wikipedia · Kevin Warwick",
+        "url": "https://en.wikipedia.org/wiki/Kevin_Warwick",
         "calendarUrl": "https://en.wikipedia.org/wiki/June_10",
         "license": {
           "name": "CC BY-SA 4.0",
@@ -50,27 +48,26 @@
         }
       },
       "image": {
-        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/15/2018_-_Christiansborg_from_the_Marble_Bridge.jpg/1280px-2018_-_Christiansborg_from_the_Marble_Bridge.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-        "alt": "Image related to Copenhagen.",
-        "credit": "Moahim",
-        "source": "https://commons.wikimedia.org/wiki/File:2018_-_Christiansborg_from_the_Marble_Bridge.jpg",
-        "license": "CC BY-SA 4.0",
-        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0"
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/45/Kevin_Warwick_2011.jpg/1280px-Kevin_Warwick_2011.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "alt": "Picture from the Wikipedia article on Kevin Warwick.",
+        "credit": "Andy Miah",
+        "source": "https://commons.wikimedia.org/wiki/File:Kevin_Warwick_2011.jpg",
+        "license": "CC BY-SA 2.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0"
       }
     },
     {
-      "id": "06-10-greece-battle-of-pelekanon",
+      "id": "06-10-james-earl-ray",
       "date": "06-10",
       "dateLabel": "10 June",
-      "country": "greece",
-      "countryName": "Greece",
-      "kind": "events",
-      "year": 1329,
-      "title": "Battle of Pelekanon",
-      "body": "1329: The Battle of Pelekanon is the last attempt of the Byzantine Empire to retain its cities in Asia Minor.",
+      "category": "curious",
+      "categoryName": "Curious",
+      "year": 1977,
+      "title": "James Earl Ray",
+      "body": "James Earl Ray escapes from Brushy Mountain State Penitentiary in Petros, Tennessee. He is recaptured three days later.",
       "source": {
-        "name": "Wikipedia · Battle of Pelekanon",
-        "url": "https://en.wikipedia.org/wiki/Battle_of_Pelekanon",
+        "name": "Wikipedia · James Earl Ray",
+        "url": "https://en.wikipedia.org/wiki/James_Earl_Ray",
         "calendarUrl": "https://en.wikipedia.org/wiki/June_10",
         "license": {
           "name": "CC BY-SA 4.0",
@@ -78,12 +75,12 @@
         }
       },
       "image": {
-        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/97/Orhan_I_area_map.png/1280px-Orhan_I_area_map.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-        "alt": "Image related to Battle of Pelekanon.",
-        "credit": "DragonTiger23",
-        "source": "https://commons.wikimedia.org/wiki/File:Orhan_I_area_map.png",
-        "license": "CC BY-SA 3.0",
-        "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0"
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/25/Mugshot_of_James_Earl_Ray_-_July_8%2C_1955.jpg/1280px-Mugshot_of_James_Earl_Ray_-_July_8%2C_1955.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "alt": "Picture from the Wikipedia article on James Earl Ray.",
+        "credit": "Federal Bureau of Prisons",
+        "source": "https://commons.wikimedia.org/wiki/File:Mugshot_of_James_Earl_Ray_-_July_8,_1955.jpg",
+        "license": "Public domain",
+        "licenseUrl": "https://commons.wikimedia.org/wiki/File:Mugshot_of_James_Earl_Ray_-_July_8,_1955.jpg"
       }
     }
   ]

@@ -3,18 +3,17 @@
   "dateLabel": "16 September",
   "facts": [
     {
-      "id": "09-16-spain-grito-de-dolores",
+      "id": "09-16-inspiration4",
       "date": "09-16",
       "dateLabel": "16 September",
-      "country": "spain",
-      "countryName": "Spain",
-      "kind": "events",
-      "year": 1810,
-      "title": "Grito de Dolores",
-      "body": "1810: With the Grito de Dolores, Father Miguel Hidalgo begins Mexico's fight for independence from Spain.",
+      "category": "space",
+      "categoryName": "Space",
+      "year": 2021,
+      "title": "Inspiration4",
+      "body": "Inspiration4, the first private orbital crewed spaceflight, is launched from the Kennedy Space Center.",
       "source": {
-        "name": "Wikipedia · Grito de Dolores",
-        "url": "https://en.wikipedia.org/wiki/Grito_de_Dolores",
+        "name": "Wikipedia · Inspiration4",
+        "url": "https://en.wikipedia.org/wiki/Inspiration4",
         "calendarUrl": "https://en.wikipedia.org/wiki/September_16",
         "license": {
           "name": "CC BY-SA 4.0",
@@ -22,68 +21,66 @@
         }
       },
       "image": {
-        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/97/Dolores_hidalgo.jpg/1280px-Dolores_hidalgo.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-        "alt": "Image related to Grito de Dolores.",
-        "credit": "Paigemorrison at English Wikipedia",
-        "source": "https://commons.wikimedia.org/wiki/File:Dolores_hidalgo.jpg",
-        "license": "CC BY-SA 2.5",
-        "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.5"
-      }
-    },
-    {
-      "id": "09-16-denmark-john-afoa",
-      "date": "09-16",
-      "dateLabel": "16 September",
-      "country": "denmark",
-      "countryName": "Denmark",
-      "kind": "births",
-      "year": 1983,
-      "title": "John Afoa",
-      "body": "John Afoa, New Zealand rugby player, was born on this day in 1983.",
-      "source": {
-        "name": "Wikipedia · John Afoa",
-        "url": "https://en.wikipedia.org/wiki/John_Afoa",
-        "calendarUrl": "https://en.wikipedia.org/wiki/September_16",
-        "license": {
-          "name": "CC BY-SA 4.0",
-          "url": "https://creativecommons.org/licenses/by-sa/4.0/"
-        }
-      },
-      "image": {
-        "src": "https://upload.wikimedia.org/wikipedia/commons/1/17/John_Afoa_2011.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
-        "alt": "Portrait or image of John Afoa.",
-        "credit": "Geoff Trotter",
-        "source": "https://commons.wikimedia.org/wiki/File:John_Afoa_2011.jpg",
-        "license": "CC BY-SA 2.0",
-        "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0"
-      }
-    },
-    {
-      "id": "09-16-greece-daylight",
-      "date": "09-16",
-      "dateLabel": "16 September",
-      "country": "greece",
-      "countryName": "Greece",
-      "kind": "daylight",
-      "year": 0,
-      "title": "Athens's daylight",
-      "body": "On 16 September, Athens gets about 12 hours and 20 minutes of daylight.",
-      "source": {
-        "name": "NOAA Solar Calculator",
-        "url": "https://gml.noaa.gov/grad/solcalc/",
-        "calendarUrl": "https://gml.noaa.gov/grad/solcalc/calcdetails.html",
-        "license": {
-          "name": "public-domain NOAA method",
-          "url": "https://www.noaa.gov/disclaimer"
-        }
-      },
-      "image": {
-        "src": "https://commons.wikimedia.org/wiki/Special:Redirect/file/Flag_of_Greece.svg?width=1000",
-        "alt": "The national flag of Greece.",
-        "credit": "Greek government",
-        "source": "https://commons.wikimedia.org/wiki/File:Flag_of_Greece.svg",
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/8f/Inspiration4_Launch_%28210915-F-CG053-1004%29.jpg/1280px-Inspiration4_Launch_%28210915-F-CG053-1004%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "alt": "Picture from the Wikipedia article on Inspiration4.",
+        "credit": "U.S. Space Force Photo by Staff Sgt. JT Armstrong",
+        "source": "https://commons.wikimedia.org/wiki/File:Inspiration4_Launch_(210915-F-CG053-1004).jpg",
         "license": "Public domain",
-        "licenseUrl": "https://commons.wikimedia.org/wiki/File:Flag_of_Greece.svg"
+        "licenseUrl": "https://commons.wikimedia.org/wiki/File:Inspiration4_Launch_(210915-F-CG053-1004).jpg"
+      }
+    },
+    {
+      "id": "09-16-east-german-balloon-escape",
+      "date": "09-16",
+      "dateLabel": "16 September",
+      "category": "curious",
+      "categoryName": "Curious",
+      "year": 1979,
+      "title": "East Germany balloon escape",
+      "body": "Eight people escape from East Germany to the west in a homemade hot air balloon.",
+      "source": {
+        "name": "Wikipedia · East Germany balloon escape",
+        "url": "https://en.wikipedia.org/wiki/East_Germany_balloon_escape",
+        "calendarUrl": "https://en.wikipedia.org/wiki/September_16",
+        "license": {
+          "name": "CC BY-SA 4.0",
+          "url": "https://creativecommons.org/licenses/by-sa/4.0/"
+        }
+      },
+      "image": {
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/4f/Guenter_Wetzel%2C_Doris_Strelzyk_and_Peter_Strelzyk.jpg/1280px-Guenter_Wetzel%2C_Doris_Strelzyk_and_Peter_Strelzyk.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "alt": "Picture from the Wikipedia article on East Germany balloon escape.",
+        "credit": "Ken Hively, Los Angeles Times",
+        "source": "https://commons.wikimedia.org/wiki/File:Guenter_Wetzel,_Doris_Strelzyk_and_Peter_Strelzyk.jpg",
+        "license": "CC BY 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by/4.0"
+      }
+    },
+    {
+      "id": "09-16-metropolitan-opera-house-lincoln-center",
+      "date": "09-16",
+      "dateLabel": "16 September",
+      "category": "culture",
+      "categoryName": "Culture",
+      "year": 1966,
+      "title": "Metropolitan Opera House",
+      "body": "The Metropolitan Opera House opens at Lincoln Center in New York City with the world premiere of Samuel Barber's opera Antony and Cleopatra.",
+      "source": {
+        "name": "Wikipedia · Metropolitan Opera House (Lincoln Center)",
+        "url": "https://en.wikipedia.org/wiki/Metropolitan_Opera_House_(Lincoln_Center)",
+        "calendarUrl": "https://en.wikipedia.org/wiki/September_16",
+        "license": {
+          "name": "CC BY-SA 4.0",
+          "url": "https://creativecommons.org/licenses/by-sa/4.0/"
+        }
+      },
+      "image": {
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/ef/MET_Opera_%2848047450723%29.jpg/1280px-MET_Opera_%2848047450723%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "alt": "Picture from the Wikipedia article on Metropolitan Opera House.",
+        "credit": "Ajay Suresh from New York, NY, USA",
+        "source": "https://commons.wikimedia.org/wiki/File:MET_Opera_(48047450723).jpg",
+        "license": "CC BY 2.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by/2.0"
       }
     }
   ]

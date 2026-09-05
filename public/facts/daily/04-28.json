@@ -3,18 +3,17 @@
   "dateLabel": "28 April",
   "facts": [
     {
-      "id": "04-28-spain-spanish-empire",
+      "id": "04-28-the-dark-side-of-the-moon",
       "date": "04-28",
       "dateLabel": "28 April",
-      "country": "spain",
-      "countryName": "Spain",
-      "kind": "events",
-      "year": 1625,
-      "title": "Spanish",
-      "body": "1625: A combined Spanish and Portuguese fleet of 52 ships commences the recapture of Bahia from the Dutch during the Dutch–Portuguese War.",
+      "category": "space",
+      "categoryName": "Space",
+      "year": 1973,
+      "title": "The Dark Side of the Moon",
+      "body": "The Dark Side of the Moon by Pink Floyd, recorded in Abbey Road Studios goes to number one on the US Billboard chart, beginning a record-breaking 741-week chart run.",
       "source": {
-        "name": "Wikipedia · Spanish Empire",
-        "url": "https://en.wikipedia.org/wiki/Spanish_Empire",
+        "name": "Wikipedia · The Dark Side of the Moon",
+        "url": "https://en.wikipedia.org/wiki/The_Dark_Side_of_the_Moon",
         "calendarUrl": "https://en.wikipedia.org/wiki/April_28",
         "license": {
           "name": "CC BY-SA 4.0",
@@ -22,27 +21,26 @@
         }
       },
       "image": {
-        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f5/Flag_of_Cross_of_Burgundy.svg/1280px-Flag_of_Cross_of_Burgundy.svg.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-        "alt": "Image related to Spanish.",
-        "credit": "Ningyou.",
-        "source": "https://commons.wikimedia.org/wiki/File:Flag_of_Cross_of_Burgundy.svg",
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/3b/Dark_Side_of_the_Moon.png/1280px-Dark_Side_of_the_Moon.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "alt": "Picture from the Wikipedia article on The Dark Side of the Moon.",
+        "credit": "w:George Hardie (artist)",
+        "source": "https://commons.wikimedia.org/wiki/File:Dark_Side_of_the_Moon.png",
         "license": "Public domain",
-        "licenseUrl": "https://commons.wikimedia.org/wiki/File:Flag_of_Cross_of_Burgundy.svg"
+        "licenseUrl": "https://commons.wikimedia.org/wiki/File:Dark_Side_of_the_Moon.png"
       }
     },
     {
-      "id": "04-28-denmark-ludvig-schytte",
+      "id": "04-28-central-intelligence-agency",
       "date": "04-28",
       "dateLabel": "28 April",
-      "country": "denmark",
-      "countryName": "Denmark",
-      "kind": "births",
-      "year": 1848,
-      "title": "Ludvig Schytte",
-      "body": "Ludvig Schytte, Danish pianist, composer, and educator (died 1909), was born on this day in 1848.",
+      "category": "world",
+      "categoryName": "World",
+      "year": 1994,
+      "title": "Central Intelligence Agency",
+      "body": "Former Central Intelligence Agency counterintelligence officer and analyst Aldrich Ames pleads guilty to giving US secrets to the Soviet Union and later Russia.",
       "source": {
-        "name": "Wikipedia · Ludvig Schytte",
-        "url": "https://en.wikipedia.org/wiki/Ludvig_Schytte",
+        "name": "Wikipedia · Central Intelligence Agency",
+        "url": "https://en.wikipedia.org/wiki/Central_Intelligence_Agency",
         "calendarUrl": "https://en.wikipedia.org/wiki/April_28",
         "license": {
           "name": "CC BY-SA 4.0",
@@ -50,40 +48,39 @@
         }
       },
       "image": {
-        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/57/LudvigSchytte.jpg/1280px-LudvigSchytte.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-        "alt": "Portrait or image of Ludvig Schytte.",
-        "credit": "Hansen & Weller",
-        "source": "https://commons.wikimedia.org/wiki/File:LudvigSchytte.jpg",
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/25/Seal_of_the_Central_Intelligence_Agency.svg/1280px-Seal_of_the_Central_Intelligence_Agency.svg.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "alt": "Picture from the Wikipedia article on Central Intelligence Agency.",
+        "credit": "United States Federal government",
+        "source": "https://commons.wikimedia.org/wiki/File:Seal_of_the_Central_Intelligence_Agency.svg",
         "license": "Public domain",
-        "licenseUrl": "https://commons.wikimedia.org/wiki/File:LudvigSchytte.jpg"
+        "licenseUrl": "https://commons.wikimedia.org/wiki/File:Seal_of_the_Central_Intelligence_Agency.svg"
       }
     },
     {
-      "id": "04-28-greece-daylight",
+      "id": "04-28-stern-magazine",
       "date": "04-28",
       "dateLabel": "28 April",
-      "country": "greece",
-      "countryName": "Greece",
-      "kind": "daylight",
-      "year": 0,
-      "title": "Athens's daylight",
-      "body": "On 28 April, Athens gets about 13 hours and 40 minutes of daylight.",
+      "category": "curious",
+      "categoryName": "Curious",
+      "year": 1983,
+      "title": "Stern",
+      "body": "The West German news magazine Stern begins publishing excerpts from the purported diaries of Adolf Hitler, later revealed to be forgeries.",
       "source": {
-        "name": "NOAA Solar Calculator",
-        "url": "https://gml.noaa.gov/grad/solcalc/",
-        "calendarUrl": "https://gml.noaa.gov/grad/solcalc/calcdetails.html",
+        "name": "Wikipedia · Stern (magazine)",
+        "url": "https://en.wikipedia.org/wiki/Stern_(magazine)",
+        "calendarUrl": "https://en.wikipedia.org/wiki/April_28",
         "license": {
-          "name": "public-domain NOAA method",
-          "url": "https://www.noaa.gov/disclaimer"
+          "name": "CC BY-SA 4.0",
+          "url": "https://creativecommons.org/licenses/by-sa/4.0/"
         }
       },
       "image": {
-        "src": "https://commons.wikimedia.org/wiki/Special:Redirect/file/Flag_of_Greece.svg?width=1000",
-        "alt": "The national flag of Greece.",
-        "credit": "Greek government",
-        "source": "https://commons.wikimedia.org/wiki/File:Flag_of_Greece.svg",
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/bb/Stern_Logo_2020.svg/1280px-Stern_Logo_2020.svg.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "alt": "Picture from the Wikipedia article on Stern.",
+        "credit": "Gruner + Jahr",
+        "source": "https://commons.wikimedia.org/wiki/File:Stern_Logo_2020.svg",
         "license": "Public domain",
-        "licenseUrl": "https://commons.wikimedia.org/wiki/File:Flag_of_Greece.svg"
+        "licenseUrl": "https://commons.wikimedia.org/wiki/File:Stern_Logo_2020.svg"
       }
     }
   ]

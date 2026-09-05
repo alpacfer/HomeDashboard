@@ -3,18 +3,17 @@
   "dateLabel": "7 May",
   "facts": [
     {
-      "id": "05-07-spain-siege-of-m-laga-1487",
+      "id": "05-07-edvard-munch",
       "date": "05-07",
       "dateLabel": "7 May",
-      "country": "spain",
-      "countryName": "Spain",
-      "kind": "events",
-      "year": 1487,
-      "title": "Siege of Málaga",
-      "body": "1487: The Siege of Málaga commences during the Spanish Reconquista.",
+      "category": "curious",
+      "categoryName": "Curious",
+      "year": 1994,
+      "title": "Edvard Munch",
+      "body": "Edvard Munch's painting The Scream is recovered undamaged after being stolen from the National Gallery of Norway in February.",
       "source": {
-        "name": "Wikipedia · Siege of Málaga (1487)",
-        "url": "https://en.wikipedia.org/wiki/Siege_of_M%C3%A1laga_(1487)",
+        "name": "Wikipedia · Edvard Munch",
+        "url": "https://en.wikipedia.org/wiki/Edvard_Munch",
         "calendarUrl": "https://en.wikipedia.org/wiki/May_7",
         "license": {
           "name": "CC BY-SA 4.0",
@@ -22,27 +21,26 @@
         }
       },
       "image": {
-        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/53/Malaga_Alcazaba_25-9-2007a.JPG/1280px-Malaga_Alcazaba_25-9-2007a.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-        "alt": "Image related to Siege of Málaga.",
-        "credit": "Hedwig Storch",
-        "source": "https://commons.wikimedia.org/wiki/File:Malaga_Alcazaba_25-9-2007a.JPG",
-        "license": "CC BY-SA 3.0",
-        "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0"
+        "src": "https://upload.wikimedia.org/wikipedia/commons/8/8b/Portrait_of_Edvard_Munch_%28cropped%29.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+        "alt": "Picture from the Wikipedia article on Edvard Munch.",
+        "credit": "Unknown author",
+        "source": "https://commons.wikimedia.org/wiki/File:Portrait_of_Edvard_Munch_(cropped).png",
+        "license": "CC BY 2.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by/2.0"
       }
     },
     {
-      "id": "05-07-denmark-stacey-jones",
+      "id": "05-07-integrated-circuit",
       "date": "05-07",
       "dateLabel": "7 May",
-      "country": "denmark",
-      "countryName": "Denmark",
-      "kind": "births",
-      "year": 1976,
-      "title": "Stacey Jones",
-      "body": "Stacey Jones, New Zealand rugby league player and coach, was born on this day in 1976.",
+      "category": "tech",
+      "categoryName": "Tech",
+      "year": 1952,
+      "title": "Integrated circuit",
+      "body": "The concept of the integrated circuit, the basis for all modern computers, is first published by Geoffrey Dummer.",
       "source": {
-        "name": "Wikipedia · Stacey Jones",
-        "url": "https://en.wikipedia.org/wiki/Stacey_Jones",
+        "name": "Wikipedia · Integrated circuit",
+        "url": "https://en.wikipedia.org/wiki/Integrated_circuit",
         "calendarUrl": "https://en.wikipedia.org/wiki/May_7",
         "license": {
           "name": "CC BY-SA 4.0",
@@ -50,27 +48,26 @@
         }
       },
       "image": {
-        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/23/Stacey_Jones_kicking.jpg/1280px-Stacey_Jones_kicking.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-        "alt": "Portrait or image of Stacey Jones.",
-        "credit": "paddynapper",
-        "source": "https://commons.wikimedia.org/wiki/File:Stacey_Jones_kicking.jpg",
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/89/NXP_PCF8577C_LCD_driver_with_I%C2%B2C_%28Colour_Corrected%29.jpg/1280px-NXP_PCF8577C_LCD_driver_with_I%C2%B2C_%28Colour_Corrected%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "alt": "Picture from the Wikipedia article on Integrated circuit.",
+        "credit": "cole8888, https://flickr.com/photos/187597251@N05/ (aka Cole L)",
+        "source": "https://commons.wikimedia.org/wiki/File:NXP_PCF8577C_LCD_driver_with_I%C2%B2C_(Colour_Corrected).jpg",
         "license": "CC BY-SA 2.0",
         "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0"
       }
     },
     {
-      "id": "05-07-greece-constantinople",
+      "id": "05-07-ludwig-van-beethoven",
       "date": "05-07",
       "dateLabel": "7 May",
-      "country": "greece",
-      "countryName": "Greece",
-      "kind": "events",
-      "year": 558,
-      "title": "Constantinople",
-      "body": "558: In Constantinople, the dome of the Hagia Sophia collapses, twenty years after its construction. Justinian I immediately orders that the dome be rebuilt.",
+      "category": "culture",
+      "categoryName": "Culture",
+      "year": 1824,
+      "title": "Ludwig van Beethoven",
+      "body": "World premiere of Ludwig van Beethoven's Ninth Symphony in Vienna, Austria. The performance is conducted by Michael Umlauf under the composer's supervision.",
       "source": {
-        "name": "Wikipedia · Constantinople",
-        "url": "https://en.wikipedia.org/wiki/Constantinople",
+        "name": "Wikipedia · Ludwig van Beethoven",
+        "url": "https://en.wikipedia.org/wiki/Ludwig_van_Beethoven",
         "calendarUrl": "https://en.wikipedia.org/wiki/May_7",
         "license": {
           "name": "CC BY-SA 4.0",
@@ -78,12 +75,12 @@
         }
       },
       "image": {
-        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/bb/Byzantine_Constantinople-en.png/1280px-Byzantine_Constantinople-en.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-        "alt": "Image related to Constantinople.",
-        "credit": "Cplakidas",
-        "source": "https://commons.wikimedia.org/wiki/File:Byzantine_Constantinople-en.png",
-        "license": "CC BY-SA 3.0",
-        "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0"
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/6e/Joseph_Karl_Stieler%27s_Beethoven_mit_dem_Manuskript_der_Missa_solemnis.jpg/1280px-Joseph_Karl_Stieler%27s_Beethoven_mit_dem_Manuskript_der_Missa_solemnis.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "alt": "Picture from the Wikipedia article on Ludwig van Beethoven.",
+        "credit": "Joseph Karl Stieler",
+        "source": "https://commons.wikimedia.org/wiki/File:Joseph_Karl_Stieler%27s_Beethoven_mit_dem_Manuskript_der_Missa_solemnis.jpg",
+        "license": "Public domain",
+        "licenseUrl": "https://commons.wikimedia.org/wiki/File:Joseph_Karl_Stieler%27s_Beethoven_mit_dem_Manuskript_der_Missa_solemnis.jpg"
       }
     }
   ]

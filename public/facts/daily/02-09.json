@@ -3,18 +3,17 @@
   "dateLabel": "9 February",
   "facts": [
     {
-      "id": "02-09-spain-capture-of-fort-rocher",
+      "id": "02-09-apollo-14",
       "date": "02-09",
       "dateLabel": "9 February",
-      "country": "spain",
-      "countryName": "Spain",
-      "kind": "events",
-      "year": 1654,
-      "title": "Capture of Fort Rocher",
-      "body": "1654: The Capture of Fort Rocher takes place during the Anglo-Spanish War.",
+      "category": "space",
+      "categoryName": "Space",
+      "year": 1971,
+      "title": "Apollo 14",
+      "body": "Apollo 14 returns to Earth after the third human Moon landing.",
       "source": {
-        "name": "Wikipedia · Capture of Fort Rocher",
-        "url": "https://en.wikipedia.org/wiki/Capture_of_Fort_Rocher",
+        "name": "Wikipedia · Apollo 14",
+        "url": "https://en.wikipedia.org/wiki/Apollo_14",
         "calendarUrl": "https://en.wikipedia.org/wiki/February_9",
         "license": {
           "name": "CC BY-SA 4.0",
@@ -22,27 +21,26 @@
         }
       },
       "image": {
-        "src": "https://upload.wikimedia.org/wikipedia/commons/9/9e/FortRoche-381-259.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
-        "alt": "Image related to Capture of Fort Rocher.",
-        "credit": "Alexandre Olivier Exquemelin",
-        "source": "https://commons.wikimedia.org/wiki/File:FortRoche-381-259.jpg",
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/09/Apollo_14_Shepard.jpg/1280px-Apollo_14_Shepard.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "alt": "Picture from the Wikipedia article on Apollo 14.",
+        "credit": "Edgar D. Mitchell / NASA",
+        "source": "https://commons.wikimedia.org/wiki/File:Apollo_14_Shepard.jpg",
         "license": "Public domain",
-        "licenseUrl": "https://commons.wikimedia.org/wiki/File:FortRoche-381-259.jpg"
+        "licenseUrl": "https://commons.wikimedia.org/wiki/File:Apollo_14_Shepard.jpg"
       }
     },
     {
-      "id": "02-09-denmark-arthur-edward-moore",
+      "id": "02-09-the-beatles",
       "date": "02-09",
       "dateLabel": "9 February",
-      "country": "denmark",
-      "countryName": "Denmark",
-      "kind": "births",
-      "year": 1876,
-      "title": "Arthur Edward Moore",
-      "body": "Arthur Edward Moore, New Zealand-Australian politician, 23rd Premier of Queensland (died 1963), was born on this day in 1876.",
+      "category": "culture",
+      "categoryName": "Culture",
+      "year": 1961,
+      "title": "The Beatles",
+      "body": "Lunchtime – The Beatles perform under this name at The Cavern Club for the first time following their return to Liverpool from Hamburg.",
       "source": {
-        "name": "Wikipedia · Arthur Edward Moore",
-        "url": "https://en.wikipedia.org/wiki/Arthur_Edward_Moore",
+        "name": "Wikipedia · The Beatles",
+        "url": "https://en.wikipedia.org/wiki/The_Beatles",
         "calendarUrl": "https://en.wikipedia.org/wiki/February_9",
         "license": {
           "name": "CC BY-SA 4.0",
@@ -50,27 +48,26 @@
         }
       },
       "image": {
-        "src": "https://upload.wikimedia.org/wikipedia/commons/2/24/Nla.obj-162350456-1_%28cropped%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
-        "alt": "Portrait or image of Arthur Edward Moore.",
-        "credit": "Unknown",
-        "source": "https://commons.wikimedia.org/wiki/File:Nla.obj-162350456-1_(cropped).jpg",
-        "license": "CC0",
-        "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/deed.en"
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/42/The_Beatles_1963_Dezo_Hoffman_Capitol_Records_press_photo_2.jpg/1280px-The_Beatles_1963_Dezo_Hoffman_Capitol_Records_press_photo_2.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "alt": "Picture from the Wikipedia article on The Beatles.",
+        "credit": "Dezo Hoffmann, Distributed by Capitol Records",
+        "source": "https://commons.wikimedia.org/wiki/File:The_Beatles_1963_Dezo_Hoffman_Capitol_Records_press_photo_2.jpg",
+        "license": "Public domain",
+        "licenseUrl": "https://commons.wikimedia.org/wiki/File:The_Beatles_1963_Dezo_Hoffman_Capitol_Records_press_photo_2.jpg"
       }
     },
     {
-      "id": "02-09-greece-balkan-entente",
+      "id": "02-09-satchel-paige",
       "date": "02-09",
       "dateLabel": "9 February",
-      "country": "greece",
-      "countryName": "Greece",
-      "kind": "events",
-      "year": 1934,
-      "title": "Balkan Entente",
-      "body": "1934: The Balkan Entente is formed between Greece, Romania, Yugoslavia, and Turkey.",
+      "category": "sport",
+      "categoryName": "Sport",
+      "year": 1971,
+      "title": "Satchel Paige",
+      "body": "Satchel Paige becomes the first Negro league player to be voted into the USA's Baseball Hall of Fame.",
       "source": {
-        "name": "Wikipedia · Balkan Pact",
-        "url": "https://en.wikipedia.org/wiki/Balkan_Pact",
+        "name": "Wikipedia · Satchel Paige",
+        "url": "https://en.wikipedia.org/wiki/Satchel_Paige",
         "calendarUrl": "https://en.wikipedia.org/wiki/February_9",
         "license": {
           "name": "CC BY-SA 4.0",
@@ -78,12 +75,12 @@
         }
       },
       "image": {
-        "src": "https://upload.wikimedia.org/wikipedia/commons/e/e9/Entente_Balkanique.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
-        "alt": "Image related to Balkan Entente.",
-        "credit": "Alex:D",
-        "source": "https://commons.wikimedia.org/wiki/File:Entente_Balkanique.png",
-        "license": "Public domain",
-        "licenseUrl": "https://commons.wikimedia.org/wiki/File:Entente_Balkanique.png"
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/59/Satchel_Paige_seated_next_to_bleachers_%281%29.jpg/1280px-Satchel_Paige_seated_next_to_bleachers_%281%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "alt": "Picture from the Wikipedia article on Satchel Paige.",
+        "credit": "Los Angeles Times",
+        "source": "https://commons.wikimedia.org/wiki/File:Satchel_Paige_seated_next_to_bleachers_(1).jpg",
+        "license": "CC BY 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by/4.0"
       }
     }
   ]

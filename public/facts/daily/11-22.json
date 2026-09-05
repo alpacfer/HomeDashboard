@@ -3,18 +3,17 @@
   "dateLabel": "22 November",
   "facts": [
     {
-      "id": "11-22-spain-juan-fern-ndez-explorer",
+      "id": "11-22-space-shuttle-discovery",
       "date": "11-22",
       "dateLabel": "22 November",
-      "country": "spain",
-      "countryName": "Spain",
-      "kind": "events",
-      "year": 1574,
-      "title": "Juan Fernández",
-      "body": "1574: Spanish navigator Juan Fernández discovers islands now known as the Juan Fernández Islands off Chile.",
+      "category": "space",
+      "categoryName": "Space",
+      "year": 1989,
+      "title": "Space Shuttle Discovery",
+      "body": "NASA launches Space Shuttle Discovery on STS-33, a classified mission for the United States Department of Defense.",
       "source": {
-        "name": "Wikipedia · Juan Fernández (explorer)",
-        "url": "https://en.wikipedia.org/wiki/Juan_Fern%C3%A1ndez_(explorer)",
+        "name": "Wikipedia · Space Shuttle Discovery",
+        "url": "https://en.wikipedia.org/wiki/Space_Shuttle_Discovery",
         "calendarUrl": "https://en.wikipedia.org/wiki/November_22",
         "license": {
           "name": "CC BY-SA 4.0",
@@ -22,27 +21,26 @@
         }
       },
       "image": {
-        "src": "https://commons.wikimedia.org/wiki/Special:Redirect/file/Flag_of_Spain.svg?width=1000",
-        "alt": "The national flag of Spain.",
-        "credit": "Government of Spain",
-        "source": "https://commons.wikimedia.org/wiki/File:Flag_of_Spain.svg",
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/1d/STS-133_Space_Shuttle_Discovery_after_undocking_3_%28cropped%29.jpg/1280px-STS-133_Space_Shuttle_Discovery_after_undocking_3_%28cropped%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "alt": "Picture from the Wikipedia article on Space Shuttle Discovery.",
+        "credit": "NASA",
+        "source": "https://commons.wikimedia.org/wiki/File:STS-133_Space_Shuttle_Discovery_after_undocking_3_(cropped).jpg",
         "license": "Public domain",
-        "licenseUrl": "https://commons.wikimedia.org/wiki/File:Flag_of_Spain.svg"
+        "licenseUrl": "https://commons.wikimedia.org/wiki/File:STS-133_Space_Shuttle_Discovery_after_undocking_3_(cropped).jpg"
       }
     },
     {
-      "id": "11-22-denmark-rasmus-rask",
+      "id": "11-22-china-clipper",
       "date": "11-22",
       "dateLabel": "22 November",
-      "country": "denmark",
-      "countryName": "Denmark",
-      "kind": "births",
-      "year": 1787,
-      "title": "Rasmus Rask",
-      "body": "Rasmus Rask, Danish linguist, philologist, and scholar (died 1832), was born on this day in 1787.",
+      "category": "world",
+      "categoryName": "World",
+      "year": 1935,
+      "title": "China Clipper",
+      "body": "The China Clipper inaugurates the first commercial transpacific air service, connecting Alameda, California with Manila.",
       "source": {
-        "name": "Wikipedia · Rasmus Rask",
-        "url": "https://en.wikipedia.org/wiki/Rasmus_Rask",
+        "name": "Wikipedia · China Clipper",
+        "url": "https://en.wikipedia.org/wiki/China_Clipper",
         "calendarUrl": "https://en.wikipedia.org/wiki/November_22",
         "license": {
           "name": "CC BY-SA 4.0",
@@ -50,27 +48,26 @@
         }
       },
       "image": {
-        "src": "https://upload.wikimedia.org/wikipedia/commons/3/30/Rasmus_Rask2.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
-        "alt": "Portrait or image of Rasmus Rask.",
-        "credit": "Bærentzen, Emil (30.10.1799-14.2.1868)",
-        "source": "https://commons.wikimedia.org/wiki/File:Rasmus_Rask2.jpg",
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/90/China_Clipper_over_San_Francisco.jpg/1280px-China_Clipper_over_San_Francisco.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "alt": "Picture from the Wikipedia article on China Clipper.",
+        "credit": "Sunderland, Clyde H., aerial photographer",
+        "source": "https://commons.wikimedia.org/wiki/File:China_Clipper_over_San_Francisco.jpg",
         "license": "Public domain",
-        "licenseUrl": "https://commons.wikimedia.org/wiki/File:Rasmus_Rask2.jpg"
+        "licenseUrl": "https://commons.wikimedia.org/wiki/File:China_Clipper_over_San_Francisco.jpg"
       }
     },
     {
-      "id": "11-22-greece-world-war-ii",
+      "id": "11-22-prime-minister-of-the-united-kingdom",
       "date": "11-22",
       "dateLabel": "22 November",
-      "country": "greece",
-      "countryName": "Greece",
-      "kind": "events",
-      "year": 1940,
-      "title": "World War II",
-      "body": "1940: World War II: Following the initial Italian invasion, Greek troops counterattack into Italian-occupied Albania and capture Korytsa.",
+      "category": "world",
+      "categoryName": "World",
+      "year": 1990,
+      "title": "Prime Minister of the United Kingdom",
+      "body": "British Prime Minister Margaret Thatcher withdraws from the Conservative Party leadership election, confirming the end of her Premiership.",
       "source": {
-        "name": "Wikipedia · World War II",
-        "url": "https://en.wikipedia.org/wiki/World_War_II",
+        "name": "Wikipedia · Prime Minister of the United Kingdom",
+        "url": "https://en.wikipedia.org/wiki/Prime_Minister_of_the_United_Kingdom",
         "calendarUrl": "https://en.wikipedia.org/wiki/November_22",
         "license": {
           "name": "CC BY-SA 4.0",
@@ -78,12 +75,12 @@
         }
       },
       "image": {
-        "src": "https://upload.wikimedia.org/wikipedia/commons/1/10/Bundesarchiv_Bild_101I-646-5188-17%2C_Flugzeuge_Junkers_Ju_87.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
-        "alt": "Image related to World War II.",
-        "credit": "Bundesarchiv, Bild 101I-646-5188-17 / Opitz / CC-BY-SA 3.0",
-        "source": "https://commons.wikimedia.org/wiki/File:Bundesarchiv_Bild_101I-646-5188-17,_Flugzeuge_Junkers_Ju_87.jpg",
-        "license": "CC BY-SA 3.0 de",
-        "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0/de/deed.en"
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/6c/Coat_of_arms_of_the_United_Kingdom_%282024%2C_lesser_arms%29.svg/1280px-Coat_of_arms_of_the_United_Kingdom_%282024%2C_lesser_arms%29.svg.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "alt": "Picture from the Wikipedia article on Prime Minister of the United Kingdom.",
+        "credit": "Dgp4004",
+        "source": "https://commons.wikimedia.org/wiki/File:Coat_of_arms_of_the_United_Kingdom_(2024,_lesser_arms).svg",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0"
       }
     }
   ]

@@ -3,18 +3,17 @@
   "dateLabel": "4 September",
   "facts": [
     {
-      "id": "09-04-spain-treaty-of-alc-ovas",
+      "id": "09-04-oakland-athletics",
       "date": "09-04",
       "dateLabel": "4 September",
-      "country": "spain",
-      "countryName": "Spain",
-      "kind": "events",
-      "year": 1479,
-      "title": "Treaty of Alcáçovas",
-      "body": "1479: The Treaty of Alcáçovas is signed by the Catholic Monarchs of Castile and Aragon on one side and Afonso V and his son, Prince John of Portugal.",
+      "category": "sport",
+      "categoryName": "Sport",
+      "year": 2002,
+      "title": "Oakland Athletics",
+      "body": "The Oakland Athletics win their 20th consecutive game, an American League record, until the Cleveland Indians surpassed it in 2017.",
       "source": {
-        "name": "Wikipedia · Treaty of Alcáçovas",
-        "url": "https://en.wikipedia.org/wiki/Treaty_of_Alc%C3%A1%C3%A7ovas",
+        "name": "Wikipedia · Oakland Athletics",
+        "url": "https://en.wikipedia.org/wiki/Oakland_Athletics",
         "calendarUrl": "https://en.wikipedia.org/wiki/September_4",
         "license": {
           "name": "CC BY-SA 4.0",
@@ -22,27 +21,26 @@
         }
       },
       "image": {
-        "src": "https://upload.wikimedia.org/wikipedia/commons/b/b0/Alca%C3%A7ovas1.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
-        "alt": "Image related to Treaty of Alcáçovas.",
-        "credit": "Public document conserved in the Archivo General de Simancas (Spain). Signature R.G.S. III-1480 302.",
-        "source": "https://commons.wikimedia.org/wiki/File:Alca%C3%A7ovas1.jpg",
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a4/Oakland_A%27s_logo.svg/1280px-Oakland_A%27s_logo.svg.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "alt": "Picture from the Wikipedia article on Oakland Athletics.",
+        "credit": "Oakland Athletics",
+        "source": "https://commons.wikimedia.org/wiki/File:Oakland_A%27s_logo.svg",
         "license": "Public domain",
-        "licenseUrl": "https://commons.wikimedia.org/wiki/File:Alca%C3%A7ovas1.jpg"
+        "licenseUrl": "https://commons.wikimedia.org/wiki/File:Oakland_A%27s_logo.svg"
       }
     },
     {
-      "id": "09-04-denmark-sophie-of-mecklenburg-g-strow",
+      "id": "09-04-leipzig",
       "date": "09-04",
       "dateLabel": "4 September",
-      "country": "denmark",
-      "countryName": "Denmark",
-      "kind": "births",
-      "year": 1557,
-      "title": "Sophie of Mecklenburg-Güstrow",
-      "body": "Sophie of Mecklenburg-Güstrow, queen consort of Denmark and Norway (died 1631), was born on this day in 1557.",
+      "category": "world",
+      "categoryName": "World",
+      "year": 1989,
+      "title": "Leipzig",
+      "body": "In Leipzig, East Germany, the first of weekly demonstration for the legalisation of opposition groups and democratic reforms takes place.",
       "source": {
-        "name": "Wikipedia · Sophie of Mecklenburg-Güstrow",
-        "url": "https://en.wikipedia.org/wiki/Sophie_of_Mecklenburg-G%C3%BCstrow",
+        "name": "Wikipedia · Leipzig",
+        "url": "https://en.wikipedia.org/wiki/Leipzig",
         "calendarUrl": "https://en.wikipedia.org/wiki/September_4",
         "license": {
           "name": "CC BY-SA 4.0",
@@ -50,27 +48,26 @@
         }
       },
       "image": {
-        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/1c/Sophiemecklenburgdenmark.jpg/1280px-Sophiemecklenburgdenmark.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-        "alt": "Portrait or image of Sophie of Mecklenburg-Güstrow.",
-        "credit": "Hans Knieper",
-        "source": "https://commons.wikimedia.org/wiki/File:Sophiemecklenburgdenmark.jpg",
-        "license": "Public domain",
-        "licenseUrl": "https://commons.wikimedia.org/wiki/File:Sophiemecklenburgdenmark.jpg"
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/24/Blick_vom_City-Hochhaus_Leipzig_05.jpg/1280px-Blick_vom_City-Hochhaus_Leipzig_05.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "alt": "Picture from the Wikipedia article on Leipzig.",
+        "credit": "Derbrauni",
+        "source": "https://commons.wikimedia.org/wiki/File:Blick_vom_City-Hochhaus_Leipzig_05.jpg",
+        "license": "CC BY 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by/4.0"
       }
     },
     {
-      "id": "09-04-greece-robert-v-keeley",
+      "id": "09-04-larry-page",
       "date": "09-04",
       "dateLabel": "4 September",
-      "country": "greece",
-      "countryName": "Greece",
-      "kind": "births",
-      "year": 1929,
-      "title": "Robert V. Keeley",
-      "body": "Robert V. Keeley, Lebanese-American soldier and diplomat, United States Ambassador to Greece (died 2015), was born on this day in 1929.",
+      "category": "tech",
+      "categoryName": "Tech",
+      "year": 1998,
+      "title": "Larry Page",
+      "body": "Google is founded by Larry Page and Sergey Brin, two PhD students at Stanford University.",
       "source": {
-        "name": "Wikipedia · Robert V. Keeley",
-        "url": "https://en.wikipedia.org/wiki/Robert_V._Keeley",
+        "name": "Wikipedia · Larry Page",
+        "url": "https://en.wikipedia.org/wiki/Larry_Page",
         "calendarUrl": "https://en.wikipedia.org/wiki/September_4",
         "license": {
           "name": "CC BY-SA 4.0",
@@ -78,12 +75,12 @@
         }
       },
       "image": {
-        "src": "https://upload.wikimedia.org/wikipedia/commons/d/d4/Robert_V._Keeley_-_State_1989-06-_Iss_323_%28IA_sim_state-magazine_1989-06_323%29_%28page_4_crop%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
-        "alt": "Portrait or image of Robert V. Keeley.",
-        "credit": "Internet Archive identifier: sim_state-magazine_1989-06_323 https://archive.org/download/sim_state-magazine_1989-06_323/sim_state-magazine_1989-06_323.pdf IA contributor: Internet Archive IA digitizing sponsor: Kahle/Austin Foundation",
-        "source": "https://commons.wikimedia.org/wiki/File:Robert_V._Keeley_-_State_1989-06-_Iss_323_(IA_sim_state-magazine_1989-06_323)_(page_4_crop).jpg",
-        "license": "Public domain",
-        "licenseUrl": "https://commons.wikimedia.org/wiki/File:Robert_V._Keeley_-_State_1989-06-_Iss_323_(IA_sim_state-magazine_1989-06_323)_(page_4_crop).jpg"
+        "src": "https://upload.wikimedia.org/wikipedia/commons/2/2a/Larry_Page_in_the_European_Parliament%2C_17.06.2009_%28cropped_2%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+        "alt": "Picture from the Wikipedia article on Larry Page.",
+        "credit": "Stansfield PL",
+        "source": "https://commons.wikimedia.org/wiki/File:Larry_Page_in_the_European_Parliament,_17.06.2009_(cropped_2).jpg",
+        "license": "CC BY-SA 3.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0"
       }
     }
   ]

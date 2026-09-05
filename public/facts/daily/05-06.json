@@ -3,18 +3,17 @@
   "dateLabel": "6 May",
   "facts": [
     {
-      "id": "05-06-spain-siege-of-cuzco",
+      "id": "05-06-steve-jobs",
       "date": "05-06",
       "dateLabel": "6 May",
-      "country": "spain",
-      "countryName": "Spain",
-      "kind": "events",
-      "year": 1536,
-      "title": "Siege of Cuzco",
-      "body": "1536: The Siege of Cuzco commences, in which Incan forces attempt to retake the city of Cuzco from the Spanish.",
+      "category": "tech",
+      "categoryName": "Tech",
+      "year": 1998,
+      "title": "Steve Jobs",
+      "body": "Steve Jobs of Apple Inc. unveils the first iMac.",
       "source": {
-        "name": "Wikipedia · Siege of Cusco",
-        "url": "https://en.wikipedia.org/wiki/Siege_of_Cusco",
+        "name": "Wikipedia · Steve Jobs",
+        "url": "https://en.wikipedia.org/wiki/Steve_Jobs",
         "calendarUrl": "https://en.wikipedia.org/wiki/May_6",
         "license": {
           "name": "CC BY-SA 4.0",
@@ -22,55 +21,26 @@
         }
       },
       "image": {
-        "src": "https://upload.wikimedia.org/wikipedia/commons/a/a3/POMA0402v.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
-        "alt": "Image related to Siege of Cuzco.",
-        "credit": "Felipe Guaman Poma de Ayala",
-        "source": "https://commons.wikimedia.org/wiki/File:POMA0402v.jpg",
-        "license": "Public domain",
-        "licenseUrl": "https://commons.wikimedia.org/wiki/File:POMA0402v.jpg"
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/51/Steve_Jobs_Headshot_2010_%28cropped_4%29.jpg/1280px-Steve_Jobs_Headshot_2010_%28cropped_4%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "alt": "Picture from the Wikipedia article on Steve Jobs.",
+        "credit": "Matthew Yohe at en.wikipedia",
+        "source": "https://commons.wikimedia.org/wiki/File:Steve_Jobs_Headshot_2010_(cropped_4).jpg",
+        "license": "CC BY-SA 3.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0"
       }
     },
     {
-      "id": "05-06-denmark-alan-dale",
+      "id": "05-06-roger-bannister",
       "date": "05-06",
       "dateLabel": "6 May",
-      "country": "denmark",
-      "countryName": "Denmark",
-      "kind": "births",
-      "year": 1947,
-      "title": "Alan Dale",
-      "body": "Alan Dale, New Zealand actor, was born on this day in 1947.",
-      "source": {
-        "name": "Wikipedia · Alan Dale",
-        "url": "https://en.wikipedia.org/wiki/Alan_Dale",
-        "calendarUrl": "https://en.wikipedia.org/wiki/May_6",
-        "license": {
-          "name": "CC BY-SA 4.0",
-          "url": "https://creativecommons.org/licenses/by-sa/4.0/"
-        }
-      },
-      "image": {
-        "src": "https://upload.wikimedia.org/wikipedia/commons/2/23/Alan_Dale_2009_%28cropped-J1%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
-        "alt": "Portrait or image of Alan Dale.",
-        "credit": "USANA Health Sciences",
-        "source": "https://commons.wikimedia.org/wiki/File:Alan_Dale_2009_(cropped-J1).jpg",
-        "license": "CC BY-SA 2.0",
-        "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0"
-      }
-    },
-    {
-      "id": "05-06-greece-dora-bakoyannis",
-      "date": "05-06",
-      "dateLabel": "6 May",
-      "country": "greece",
-      "countryName": "Greece",
-      "kind": "births",
+      "category": "sport",
+      "categoryName": "Sport",
       "year": 1954,
-      "title": "Dora Bakoyannis",
-      "body": "Dora Bakoyannis, Greek politician, 120th Greek Minister for Foreign Affairs, was born on this day in 1954.",
+      "title": "Roger Bannister",
+      "body": "Roger Bannister becomes the first person to run the mile in under four minutes.",
       "source": {
-        "name": "Wikipedia · Dora Bakoyannis",
-        "url": "https://en.wikipedia.org/wiki/Dora_Bakoyannis",
+        "name": "Wikipedia · Roger Bannister",
+        "url": "https://en.wikipedia.org/wiki/Roger_Bannister",
         "calendarUrl": "https://en.wikipedia.org/wiki/May_6",
         "license": {
           "name": "CC BY-SA 4.0",
@@ -78,12 +48,39 @@
         }
       },
       "image": {
-        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/46/Dora_Bakyoannis%2C_Former_Minister_of_Foreign_Affairs%2C_Greece_speaking_during_the_Closing_Dinner_%28Cropped%29.jpg/1280px-Dora_Bakyoannis%2C_Former_Minister_of_Foreign_Affairs%2C_Greece_speaking_during_the_Closing_Dinner_%28Cropped%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-        "alt": "Portrait or image of Dora Bakoyannis.",
-        "credit": "Richter Frank-Jurgen",
-        "source": "https://commons.wikimedia.org/wiki/File:Dora_Bakyoannis,_Former_Minister_of_Foreign_Affairs,_Greece_speaking_during_the_Closing_Dinner_(Cropped).jpg",
-        "license": "CC BY-SA 2.0",
-        "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0"
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c3/Roger_Bannister_2.jpg/1280px-Roger_Bannister_2.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "alt": "Picture from the Wikipedia article on Roger Bannister.",
+        "credit": "© Pruneau / Wikimedia Commons",
+        "source": "https://commons.wikimedia.org/wiki/File:Roger_Bannister_2.jpg",
+        "license": "CC BY-SA 3.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0"
+      }
+    },
+    {
+      "id": "05-06-john-steinbeck",
+      "date": "05-06",
+      "dateLabel": "6 May",
+      "category": "culture",
+      "categoryName": "Culture",
+      "year": 1940,
+      "title": "John Steinbeck",
+      "body": "John Steinbeck is awarded the Pulitzer Prize for his novel The Grapes of Wrath.",
+      "source": {
+        "name": "Wikipedia · John Steinbeck",
+        "url": "https://en.wikipedia.org/wiki/John_Steinbeck",
+        "calendarUrl": "https://en.wikipedia.org/wiki/May_6",
+        "license": {
+          "name": "CC BY-SA 4.0",
+          "url": "https://creativecommons.org/licenses/by-sa/4.0/"
+        }
+      },
+      "image": {
+        "src": "https://upload.wikimedia.org/wikipedia/commons/d/d7/John_Steinbeck_1939_%28cropped%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+        "alt": "Picture from the Wikipedia article on John Steinbeck.",
+        "credit": "McFadden Publications, Inc.; no photographer credited; photo likely the work of Sonya Noskowiak, as Steinbeck is wearing the same clothes from her 1935 studio s",
+        "source": "https://commons.wikimedia.org/wiki/File:John_Steinbeck_1939_(cropped).jpg",
+        "license": "Public domain",
+        "licenseUrl": "https://commons.wikimedia.org/wiki/File:John_Steinbeck_1939_(cropped).jpg"
       }
     }
   ]

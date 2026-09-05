@@ -3,18 +3,17 @@
   "dateLabel": "22 March",
   "facts": [
     {
-      "id": "03-22-spain-ferdinand-ii-of-aragon",
+      "id": "03-22-intel-corporation",
       "date": "03-22",
       "dateLabel": "22 March",
-      "country": "spain",
-      "countryName": "Spain",
-      "kind": "events",
-      "year": 1508,
-      "title": "Ferdinand II of Aragon",
-      "body": "1508: Ferdinand II of Aragon commissions Amerigo Vespucci chief navigator of the Spanish Empire.",
+      "category": "tech",
+      "categoryName": "Tech",
+      "year": 1993,
+      "title": "Intel",
+      "body": "The Intel Corporation ships the first Pentium chips (80586), featuring a 60 MHz clock speed, 100+ MIPS, and a 64 bit data path.",
       "source": {
-        "name": "Wikipedia · Ferdinand II of Aragon",
-        "url": "https://en.wikipedia.org/wiki/Ferdinand_II_of_Aragon",
+        "name": "Wikipedia · Intel",
+        "url": "https://en.wikipedia.org/wiki/Intel",
         "calendarUrl": "https://en.wikipedia.org/wiki/March_22",
         "license": {
           "name": "CC BY-SA 4.0",
@@ -22,27 +21,26 @@
         }
       },
       "image": {
-        "src": "https://upload.wikimedia.org/wikipedia/commons/2/2d/Michel_Sittow_004.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
-        "alt": "Image related to Ferdinand II of Aragon.",
-        "credit": "Michael Sittow",
-        "source": "https://commons.wikimedia.org/wiki/File:Michel_Sittow_004.jpg",
-        "license": "Public domain",
-        "licenseUrl": "https://commons.wikimedia.org/wiki/File:Michel_Sittow_004.jpg"
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/97/Intel_Headquarters_in_2023.jpg/1280px-Intel_Headquarters_in_2023.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "alt": "Picture from the Wikipedia article on Intel.",
+        "credit": "Coolcaesar",
+        "source": "https://commons.wikimedia.org/wiki/File:Intel_Headquarters_in_2023.jpg",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0"
       }
     },
     {
-      "id": "03-22-denmark-thelred-of-wessex",
+      "id": "03-22-the-beatles",
       "date": "03-22",
       "dateLabel": "22 March",
-      "country": "denmark",
-      "countryName": "Denmark",
-      "kind": "events",
-      "year": 871,
-      "title": "Æthelred of Wessex",
-      "body": "871: Æthelred of Wessex is defeated by a Danish invasion army at the Battle of Marton.",
+      "category": "culture",
+      "categoryName": "Culture",
+      "year": 1963,
+      "title": "The Beatles",
+      "body": "The Beatles release their debut album Please Please Me.",
       "source": {
-        "name": "Wikipedia · Æthelred I of Wessex",
-        "url": "https://en.wikipedia.org/wiki/%C3%86thelred_I_of_Wessex",
+        "name": "Wikipedia · The Beatles",
+        "url": "https://en.wikipedia.org/wiki/The_Beatles",
         "calendarUrl": "https://en.wikipedia.org/wiki/March_22",
         "license": {
           "name": "CC BY-SA 4.0",
@@ -50,27 +48,26 @@
         }
       },
       "image": {
-        "src": "https://upload.wikimedia.org/wikipedia/commons/0/0f/%C3%86thelred_-_MS_Royal_14_B_VI.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
-        "alt": "Image related to Æthelred of Wessex.",
-        "credit": "Unknown authorUnknown author",
-        "source": "https://commons.wikimedia.org/wiki/File:%C3%86thelred_-_MS_Royal_14_B_VI.jpg",
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/42/The_Beatles_1963_Dezo_Hoffman_Capitol_Records_press_photo_2.jpg/1280px-The_Beatles_1963_Dezo_Hoffman_Capitol_Records_press_photo_2.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "alt": "Picture from the Wikipedia article on The Beatles.",
+        "credit": "Dezo Hoffmann, Distributed by Capitol Records",
+        "source": "https://commons.wikimedia.org/wiki/File:The_Beatles_1963_Dezo_Hoffman_Capitol_Records_press_photo_2.jpg",
         "license": "Public domain",
-        "licenseUrl": "https://commons.wikimedia.org/wiki/File:%C3%86thelred_-_MS_Royal_14_B_VI.jpg"
+        "licenseUrl": "https://commons.wikimedia.org/wiki/File:The_Beatles_1963_Dezo_Hoffman_Capitol_Records_press_photo_2.jpg"
       }
     },
     {
-      "id": "03-22-greece-london-protocol-1829",
+      "id": "03-22-arthur-leonard-schawlow",
       "date": "03-22",
       "dateLabel": "22 March",
-      "country": "greece",
-      "countryName": "Greece",
-      "kind": "events",
-      "year": 1829,
-      "title": "London Protocol",
-      "body": "1829: In the London Protocol, the three protecting powers (United Kingdom, France and Russia) establish the borders of Greece.",
+      "category": "science",
+      "categoryName": "Science",
+      "year": 1960,
+      "title": "Arthur Leonard Schawlow",
+      "body": "Arthur Leonard Schawlow and Charles Hard Townes receive the first patent for a laser.",
       "source": {
-        "name": "Wikipedia · London Protocol (1829)",
-        "url": "https://en.wikipedia.org/wiki/London_Protocol_(1829)",
+        "name": "Wikipedia · Arthur Leonard Schawlow",
+        "url": "https://en.wikipedia.org/wiki/Arthur_Leonard_Schawlow",
         "calendarUrl": "https://en.wikipedia.org/wiki/March_22",
         "license": {
           "name": "CC BY-SA 4.0",
@@ -78,12 +75,12 @@
         }
       },
       "image": {
-        "src": "https://commons.wikimedia.org/wiki/Special:Redirect/file/Flag_of_Greece.svg?width=1000",
-        "alt": "The national flag of Greece.",
-        "credit": "Greek government",
-        "source": "https://commons.wikimedia.org/wiki/File:Flag_of_Greece.svg",
-        "license": "Public domain",
-        "licenseUrl": "https://commons.wikimedia.org/wiki/File:Flag_of_Greece.svg"
+        "src": "https://upload.wikimedia.org/wikipedia/commons/6/62/Artur_Schawlow%2C_Stanford_University.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+        "alt": "Picture from the Wikipedia article on Arthur Leonard Schawlow.",
+        "credit": "Jose Mercado / Stanford News Service",
+        "source": "https://commons.wikimedia.org/wiki/File:Artur_Schawlow,_Stanford_University.jpg",
+        "license": "CC BY 3.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by/3.0"
       }
     }
   ]

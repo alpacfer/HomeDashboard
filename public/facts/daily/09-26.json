@@ -3,18 +3,17 @@
   "dateLabel": "26 September",
   "facts": [
     {
-      "id": "09-26-spain-dudum-siquidem",
+      "id": "09-26-albert-einstein",
       "date": "09-26",
       "dateLabel": "26 September",
-      "country": "spain",
-      "countryName": "Spain",
-      "kind": "events",
-      "year": 1493,
-      "title": "Dudum siquidem",
-      "body": "1493: Pope Alexander VI issues the papal bull Dudum siquidem to the Spanish, extending the grant of new lands he made them in Inter caetera.",
+      "category": "world",
+      "categoryName": "World",
+      "year": 1905,
+      "title": "Albert Einstein",
+      "body": "Albert Einstein publishes the third of his Annus Mirabilis papers, introducing the special theory of relativity.",
       "source": {
-        "name": "Wikipedia · Dudum siquidem",
-        "url": "https://en.wikipedia.org/wiki/Dudum_siquidem",
+        "name": "Wikipedia · Albert Einstein",
+        "url": "https://en.wikipedia.org/wiki/Albert_Einstein",
         "calendarUrl": "https://en.wikipedia.org/wiki/September_26",
         "license": {
           "name": "CC BY-SA 4.0",
@@ -22,27 +21,26 @@
         }
       },
       "image": {
-        "src": "https://upload.wikimedia.org/wikipedia/commons/6/6c/Pope_Alexander_Vi.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
-        "alt": "Image related to Dudum siquidem.",
-        "credit": "Cristofano dell'Altissimo",
-        "source": "https://commons.wikimedia.org/wiki/File:Pope_Alexander_Vi.jpg",
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/28/Albert_Einstein_Head_cleaned.jpg/1280px-Albert_Einstein_Head_cleaned.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "alt": "Picture from the Wikipedia article on Albert Einstein.",
+        "credit": "Oren Jack Turner",
+        "source": "https://commons.wikimedia.org/wiki/File:Albert_Einstein_Head_cleaned.jpg",
         "license": "Public domain",
-        "licenseUrl": "https://commons.wikimedia.org/wiki/File:Pope_Alexander_Vi.jpg"
+        "licenseUrl": "https://commons.wikimedia.org/wiki/File:Albert_Einstein_Head_cleaned.jpg"
       }
     },
     {
-      "id": "09-26-denmark-1907-imperial-conference",
+      "id": "09-26-george-washington",
       "date": "09-26",
       "dateLabel": "26 September",
-      "country": "denmark",
-      "countryName": "Denmark",
-      "kind": "events",
-      "year": 1907,
-      "title": "1907 Imperial Conference",
-      "body": "1907: Four months after the 1907 Imperial Conference, New Zealand and Newfoundland are promoted from colonies to dominions within the British Empire.",
+      "category": "world",
+      "categoryName": "World",
+      "year": 1789,
+      "title": "George Washington",
+      "body": "George Washington appoints Thomas Jefferson the first United States Secretary of State.",
       "source": {
-        "name": "Wikipedia · 1907 Imperial Conference",
-        "url": "https://en.wikipedia.org/wiki/1907_Imperial_Conference",
+        "name": "Wikipedia · George Washington",
+        "url": "https://en.wikipedia.org/wiki/George_Washington",
         "calendarUrl": "https://en.wikipedia.org/wiki/September_26",
         "license": {
           "name": "CC BY-SA 4.0",
@@ -50,27 +48,26 @@
         }
       },
       "image": {
-        "src": "https://commons.wikimedia.org/wiki/Special:Redirect/file/Flag_of_Denmark.svg?width=1000",
-        "alt": "The national flag of Denmark.",
-        "credit": "Danish government",
-        "source": "https://commons.wikimedia.org/wiki/File:Flag_of_Denmark.svg",
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b6/Gilbert_Stuart_Williamstown_Portrait_of_George_Washington.jpg/1280px-Gilbert_Stuart_Williamstown_Portrait_of_George_Washington.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "alt": "Picture from the Wikipedia article on George Washington.",
+        "credit": "Gilbert Stuart",
+        "source": "https://commons.wikimedia.org/wiki/File:Gilbert_Stuart_Williamstown_Portrait_of_George_Washington.jpg",
         "license": "Public domain",
-        "licenseUrl": "https://commons.wikimedia.org/wiki/File:Flag_of_Denmark.svg"
+        "licenseUrl": "https://commons.wikimedia.org/wiki/File:Gilbert_Stuart_Williamstown_Portrait_of_George_Washington.jpg"
       }
     },
     {
-      "id": "09-26-greece-morean-war",
+      "id": "09-26-federal-trade-commission",
       "date": "09-26",
       "dateLabel": "26 September",
-      "country": "greece",
-      "countryName": "Greece",
-      "kind": "events",
-      "year": 1687,
-      "title": "Morean War",
-      "body": "1687: Morean War: The Parthenon in Athens, used as a gunpowder depot by the Ottoman garrison, is partially destroyed after being bombarded during the Siege of the Acropolis by Venetian forces.",
+      "category": "world",
+      "categoryName": "World",
+      "year": 1914,
+      "title": "Federal Trade Commission",
+      "body": "The United States Federal Trade Commission is established by the Federal Trade Commission Act.",
       "source": {
-        "name": "Wikipedia · Morean War",
-        "url": "https://en.wikipedia.org/wiki/Morean_War",
+        "name": "Wikipedia · Federal Trade Commission",
+        "url": "https://en.wikipedia.org/wiki/Federal_Trade_Commission",
         "calendarUrl": "https://en.wikipedia.org/wiki/September_26",
         "license": {
           "name": "CC BY-SA 4.0",
@@ -78,12 +75,12 @@
         }
       },
       "image": {
-        "src": "https://upload.wikimedia.org/wikipedia/commons/b/b8/Medal_for_the_Venetian_victories_in_the_Morean_War%2C_G._Hautsch%2C_Nuremberg%2C_1687.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
-        "alt": "Image related to Morean War.",
-        "credit": "Classical Numismatic Group, Inc. http://www.cngcoins.com",
-        "source": "https://commons.wikimedia.org/wiki/File:Medal_for_the_Venetian_victories_in_the_Morean_War,_G._Hautsch,_Nuremberg,_1687.jpg",
-        "license": "CC BY-SA 2.5",
-        "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.5"
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/69/Seal_of_the_United_States_Federal_Trade_Commission.svg/1280px-Seal_of_the_United_States_Federal_Trade_Commission.svg.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "alt": "Picture from the Wikipedia article on Federal Trade Commission.",
+        "credit": "Tiffany & Co.",
+        "source": "https://commons.wikimedia.org/wiki/File:Seal_of_the_United_States_Federal_Trade_Commission.svg",
+        "license": "Public domain",
+        "licenseUrl": "https://commons.wikimedia.org/wiki/File:Seal_of_the_United_States_Federal_Trade_Commission.svg"
       }
     }
   ]

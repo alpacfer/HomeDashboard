@@ -3,18 +3,17 @@
   "dateLabel": "22 October",
   "facts": [
     {
-      "id": "10-22-spain-hispano-moroccan-war-1859-60",
+      "id": "10-22-jean-paul-sartre",
       "date": "10-22",
       "dateLabel": "22 October",
-      "country": "spain",
-      "countryName": "Spain",
-      "kind": "events",
-      "year": 1859,
-      "title": "war",
-      "body": "1859: Spain declares war on Morocco.",
+      "category": "science",
+      "categoryName": "Science",
+      "year": 1964,
+      "title": "Jean-Paul Sartre",
+      "body": "Jean-Paul Sartre is awarded the Nobel Prize in Literature, though he does not accept the prize.",
       "source": {
-        "name": "Wikipedia · Hispano-Moroccan War (1859–60)",
-        "url": "https://en.wikipedia.org/wiki/Hispano-Moroccan_War_(1859%E2%80%9360)",
+        "name": "Wikipedia · Jean-Paul Sartre",
+        "url": "https://en.wikipedia.org/wiki/Jean-Paul_Sartre",
         "calendarUrl": "https://en.wikipedia.org/wiki/October_22",
         "license": {
           "name": "CC BY-SA 4.0",
@@ -22,27 +21,26 @@
         }
       },
       "image": {
-        "src": "https://commons.wikimedia.org/wiki/Special:Redirect/file/Flag_of_Spain.svg?width=1000",
-        "alt": "The national flag of Spain.",
-        "credit": "Government of Spain",
-        "source": "https://commons.wikimedia.org/wiki/File:Flag_of_Spain.svg",
-        "license": "Public domain",
-        "licenseUrl": "https://commons.wikimedia.org/wiki/File:Flag_of_Spain.svg"
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e9/Jean_Paul_Sartre_1965.jpg/1280px-Jean_Paul_Sartre_1965.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "alt": "Picture from the Wikipedia article on Jean-Paul Sartre.",
+        "credit": "Unknown author",
+        "source": "https://commons.wikimedia.org/wiki/File:Jean_Paul_Sartre_1965.jpg",
+        "license": "CC BY-SA 3.0 nl",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0/nl/deed.en"
       }
     },
     {
-      "id": "10-22-denmark-steen-christensen",
+      "id": "10-22-lunar-probe",
       "date": "10-22",
       "dateLabel": "22 October",
-      "country": "denmark",
-      "countryName": "Denmark",
-      "kind": "events",
-      "year": 1997,
-      "title": "Steen Christensen",
-      "body": "1997: Danish fugitive Steen Christensen kills two police officers, Chief Constable Eero Holsti and Senior Constable Antero Palo, in Ullanlinna, Helsinki, Finland during his prison escape.",
+      "category": "space",
+      "categoryName": "Space",
+      "year": 2008,
+      "title": "Exploration of the Moon",
+      "body": "India launches its first uncrewed lunar probe mission Chandrayaan-1.",
       "source": {
-        "name": "Wikipedia · Steen Christensen",
-        "url": "https://en.wikipedia.org/wiki/Steen_Christensen",
+        "name": "Wikipedia · Exploration of the Moon",
+        "url": "https://en.wikipedia.org/wiki/Exploration_of_the_Moon",
         "calendarUrl": "https://en.wikipedia.org/wiki/October_22",
         "license": {
           "name": "CC BY-SA 4.0",
@@ -50,27 +48,26 @@
         }
       },
       "image": {
-        "src": "https://commons.wikimedia.org/wiki/Special:Redirect/file/Flag_of_Denmark.svg?width=1000",
-        "alt": "The national flag of Denmark.",
-        "credit": "Danish government",
-        "source": "https://commons.wikimedia.org/wiki/File:Flag_of_Denmark.svg",
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/ca/Lunar_module_AS12-51-7507.jpg/1280px-Lunar_module_AS12-51-7507.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "alt": "Picture from the Wikipedia article on Exploration of the Moon.",
+        "credit": "NASA",
+        "source": "https://commons.wikimedia.org/wiki/File:Lunar_module_AS12-51-7507.jpg",
         "license": "Public domain",
-        "licenseUrl": "https://commons.wikimedia.org/wiki/File:Flag_of_Denmark.svg"
+        "licenseUrl": "https://commons.wikimedia.org/wiki/File:Lunar_module_AS12-51-7507.jpg"
       }
     },
     {
-      "id": "10-22-greece-ahmad-ibn-kayghalagh",
+      "id": "10-22-john-adams-composer",
       "date": "10-22",
       "dateLabel": "22 October",
-      "country": "greece",
-      "countryName": "Greece",
-      "kind": "events",
-      "year": 906,
-      "title": "Ahmad ibn Kayghalagh",
-      "body": "906: Abbasid general Ahmad ibn Kayghalagh leads a raid against the Byzantine Empire, taking 4,000–5,000 captives.",
+      "category": "culture",
+      "categoryName": "Culture",
+      "year": 1987,
+      "title": "John Adams",
+      "body": "John Adams' opera Nixon in China premiered at the Houston Grand Opera.",
       "source": {
-        "name": "Wikipedia · Ahmad ibn Kayghalagh",
-        "url": "https://en.wikipedia.org/wiki/Ahmad_ibn_Kayghalagh",
+        "name": "Wikipedia · John Adams (composer)",
+        "url": "https://en.wikipedia.org/wiki/John_Adams_(composer)",
         "calendarUrl": "https://en.wikipedia.org/wiki/October_22",
         "license": {
           "name": "CC BY-SA 4.0",
@@ -78,12 +75,12 @@
         }
       },
       "image": {
-        "src": "https://commons.wikimedia.org/wiki/Special:Redirect/file/Flag_of_Greece.svg?width=1000",
-        "alt": "The national flag of Greece.",
-        "credit": "Greek government",
-        "source": "https://commons.wikimedia.org/wiki/File:Flag_of_Greece.svg",
-        "license": "Public domain",
-        "licenseUrl": "https://commons.wikimedia.org/wiki/File:Flag_of_Greece.svg"
+        "src": "https://upload.wikimedia.org/wikipedia/commons/0/07/JA-portrait-1-LW.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+        "alt": "Picture from the Wikipedia article on John Adams.",
+        "credit": "The original uploader was Macror at English Wikipedia. (Original text: Deborah O'Grady)",
+        "source": "https://commons.wikimedia.org/wiki/File:JA-portrait-1-LW.jpg",
+        "license": "CC BY-SA 3.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0/"
       }
     }
   ]

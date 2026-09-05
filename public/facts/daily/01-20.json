@@ -3,18 +3,17 @@
   "dateLabel": "20 January",
   "facts": [
     {
-      "id": "01-20-spain-taula-de-canvi-de-barcelona",
+      "id": "01-20-martin-luther-king-jr-day",
       "date": "01-20",
       "dateLabel": "20 January",
-      "country": "spain",
-      "countryName": "Spain",
-      "kind": "events",
-      "year": 1401,
-      "title": "Taula de canvi",
-      "body": "1401: The Taula de canvi (Catalan: \"Table of change\"), described as Europe's first-ever public bank, began operations inside Barcelona's Llotja de Mar.",
+      "category": "world",
+      "categoryName": "World",
+      "year": 1986,
+      "title": "Martin Luther King Jr. Day",
+      "body": "In the United States, Martin Luther King Jr. Day is celebrated as a federal holiday for the first time.",
       "source": {
-        "name": "Wikipedia · Taula de canvi de Barcelona",
-        "url": "https://en.wikipedia.org/wiki/Taula_de_canvi_de_Barcelona",
+        "name": "Wikipedia · Martin Luther King Jr. Day",
+        "url": "https://en.wikipedia.org/wiki/Martin_Luther_King_Jr._Day",
         "calendarUrl": "https://en.wikipedia.org/wiki/January_20",
         "license": {
           "name": "CC BY-SA 4.0",
@@ -22,27 +21,26 @@
         }
       },
       "image": {
-        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/16/Sal%C3%B3_de_contractacions_-_45587886644.jpg/1280px-Sal%C3%B3_de_contractacions_-_45587886644.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-        "alt": "Image related to Taula de canvi.",
-        "credit": "Press Cambrabcn",
-        "source": "https://commons.wikimedia.org/wiki/File:Sal%C3%B3_de_contractacions_-_45587886644.jpg",
-        "license": "CC BY-SA 2.0",
-        "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0"
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/0d/Martin_Luther_King_press_conference_01269u_edit.jpg/1280px-Martin_Luther_King_press_conference_01269u_edit.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "alt": "Picture from the Wikipedia article on Martin Luther King Jr. Day.",
+        "credit": "Marion S. Trikosko",
+        "source": "https://commons.wikimedia.org/wiki/File:Martin_Luther_King_press_conference_01269u_edit.jpg",
+        "license": "Public domain",
+        "licenseUrl": "https://commons.wikimedia.org/wiki/File:Martin_Luther_King_press_conference_01269u_edit.jpg"
       }
     },
     {
-      "id": "01-20-denmark-christian-ii-of-denmark",
+      "id": "01-20-pakistan-and-weapons-of-mass-destruction",
       "date": "01-20",
       "dateLabel": "20 January",
-      "country": "denmark",
-      "countryName": "Denmark",
-      "kind": "events",
-      "year": 1523,
-      "title": "Christian II",
-      "body": "1523: Christian II is forced to abdicate as King of Denmark and Norway.",
+      "category": "world",
+      "categoryName": "World",
+      "year": 1972,
+      "title": "Pakistan and weapons of mass destruction",
+      "body": "Pakistan launches its nuclear weapons program, a few weeks after its defeat in the Bangladesh Liberation War, as well as the Indo-Pakistani War of 1971.",
       "source": {
-        "name": "Wikipedia · Christian II of Denmark",
-        "url": "https://en.wikipedia.org/wiki/Christian_II_of_Denmark",
+        "name": "Wikipedia · Pakistan and weapons of mass destruction",
+        "url": "https://en.wikipedia.org/wiki/Pakistan_and_weapons_of_mass_destruction",
         "calendarUrl": "https://en.wikipedia.org/wiki/January_20",
         "license": {
           "name": "CC BY-SA 4.0",
@@ -50,27 +48,26 @@
         }
       },
       "image": {
-        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c5/Lucas_Cranach_%28I%29_-_Bildnis_Christians_II.%2C_K%C3%B6nig_von_D%C3%A4nemark_%28MbK%2C_Leipzig%29.jpg/1280px-Lucas_Cranach_%28I%29_-_Bildnis_Christians_II.%2C_K%C3%B6nig_von_D%C3%A4nemark_%28MbK%2C_Leipzig%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-        "alt": "Image related to Christian II.",
-        "credit": "Lucas Cranach the Elder",
-        "source": "https://commons.wikimedia.org/wiki/File:Lucas_Cranach_(I)_-_Bildnis_Christians_II.,_K%C3%B6nig_von_D%C3%A4nemark_(MbK,_Leipzig).jpg",
-        "license": "Public domain",
-        "licenseUrl": "https://commons.wikimedia.org/wiki/File:Lucas_Cranach_(I)_-_Bildnis_Christians_II.,_K%C3%B6nig_von_D%C3%A4nemark_(MbK,_Leipzig).jpg"
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/ce/IRBM_of_Pakistan_at_IDEAS_2008.jpg/1280px-IRBM_of_Pakistan_at_IDEAS_2008.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "alt": "Picture from the Wikipedia article on Pakistan and weapons of mass destruction.",
+        "credit": "SyedNaqvi90 at English Wikipedia",
+        "source": "https://commons.wikimedia.org/wiki/File:IRBM_of_Pakistan_at_IDEAS_2008.jpg",
+        "license": "CC BY-SA 3.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0"
       }
     },
     {
-      "id": "01-20-greece-constantinople-conference",
+      "id": "01-20-black-january",
       "date": "01-20",
       "dateLabel": "20 January",
-      "country": "greece",
-      "countryName": "Greece",
-      "kind": "events",
-      "year": 1877,
-      "title": "Constantinople Conference",
-      "body": "1877: The last day of the Constantinople Conference results in agreement for political reforms in the Balkans.",
+      "category": "world",
+      "categoryName": "World",
+      "year": 1990,
+      "title": "Black January",
+      "body": "Protests in Azerbaijan, part of the Dissolution of the Soviet Union.",
       "source": {
-        "name": "Wikipedia · Constantinople Conference",
-        "url": "https://en.wikipedia.org/wiki/Constantinople_Conference",
+        "name": "Wikipedia · Black January",
+        "url": "https://en.wikipedia.org/wiki/Black_January",
         "calendarUrl": "https://en.wikipedia.org/wiki/January_20",
         "license": {
           "name": "CC BY-SA 4.0",
@@ -78,12 +75,12 @@
         }
       },
       "image": {
-        "src": "https://upload.wikimedia.org/wikipedia/commons/b/bc/Constantinople_Conference.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
-        "alt": "Image related to Constantinople Conference.",
-        "credit": "Unknown authorUnknown author",
-        "source": "https://commons.wikimedia.org/wiki/File:Constantinople_Conference.jpg",
-        "license": "Public domain",
-        "licenseUrl": "https://commons.wikimedia.org/wiki/File:Constantinople_Conference.jpg"
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/10/20_yanvar_abid%C9%99si.jpg/1280px-20_yanvar_abid%C9%99si.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "alt": "Picture from the Wikipedia article on Black January.",
+        "credit": "Rəcəb Həsənbəyov",
+        "source": "https://commons.wikimedia.org/wiki/File:20_yanvar_abid%C9%99si.jpg",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0"
       }
     }
   ]

@@ -3,18 +3,17 @@
   "dateLabel": "26 July",
   "facts": [
     {
-      "id": "07-26-spain-act-of-abjuration",
+      "id": "07-26-walt-disney",
       "date": "07-26",
       "dateLabel": "26 July",
-      "country": "spain",
-      "countryName": "Spain",
-      "kind": "events",
-      "year": 1581,
-      "title": "Plakkaat van Verlatinghe (Act of Abjuration)",
-      "body": "1581: Plakkaat van Verlatinghe (Act of Abjuration): The northern Low Countries declare their independence from the Spanish king, Philip II.",
+      "category": "culture",
+      "categoryName": "Culture",
+      "year": 1951,
+      "title": "Walt Disney",
+      "body": "Walt Disney's 13th animated film, Alice in Wonderland, premieres in London, England, United Kingdom.",
       "source": {
-        "name": "Wikipedia · Act of Abjuration",
-        "url": "https://en.wikipedia.org/wiki/Act_of_Abjuration",
+        "name": "Wikipedia · Walt Disney",
+        "url": "https://en.wikipedia.org/wiki/Walt_Disney",
         "calendarUrl": "https://en.wikipedia.org/wiki/July_26",
         "license": {
           "name": "CC BY-SA 4.0",
@@ -22,27 +21,26 @@
         }
       },
       "image": {
-        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/98/Plakkaat_van_Verlatinghe%2C_pagina_1.jpg/1280px-Plakkaat_van_Verlatinghe%2C_pagina_1.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-        "alt": "Image related to Plakkaat van Verlatinghe (Act of Abjuration).",
-        "credit": "Staten-Generaal",
-        "source": "https://commons.wikimedia.org/wiki/File:Plakkaat_van_Verlatinghe,_pagina_1.jpg",
+        "src": "https://upload.wikimedia.org/wikipedia/commons/5/50/Walt_Disney_1946_%28cropped2%29.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+        "alt": "Picture from the Wikipedia article on Walt Disney.",
+        "credit": "Boy Scouts of America",
+        "source": "https://commons.wikimedia.org/wiki/File:Walt_Disney_1946_(cropped2).JPG",
         "license": "Public domain",
-        "licenseUrl": "https://commons.wikimedia.org/wiki/File:Plakkaat_van_Verlatinghe,_pagina_1.jpg"
+        "licenseUrl": "https://commons.wikimedia.org/wiki/File:Walt_Disney_1946_(cropped2).JPG"
       }
     },
     {
-      "id": "07-26-denmark-kees-meeuws",
+      "id": "07-26-apollo-15",
       "date": "07-26",
       "dateLabel": "26 July",
-      "country": "denmark",
-      "countryName": "Denmark",
-      "kind": "births",
-      "year": 1974,
-      "title": "Kees Meeuws",
-      "body": "Kees Meeuws, New Zealand rugby player and coach, was born on this day in 1974.",
+      "category": "space",
+      "categoryName": "Space",
+      "year": 1971,
+      "title": "Apollo 15",
+      "body": "Launch of Apollo 15 on the first Apollo \"J-Mission\", and first use of a Lunar Roving Vehicle.",
       "source": {
-        "name": "Wikipedia · Kees Meeuws",
-        "url": "https://en.wikipedia.org/wiki/Kees_Meeuws",
+        "name": "Wikipedia · Apollo 15",
+        "url": "https://en.wikipedia.org/wiki/Apollo_15",
         "calendarUrl": "https://en.wikipedia.org/wiki/July_26",
         "license": {
           "name": "CC BY-SA 4.0",
@@ -50,27 +48,26 @@
         }
       },
       "image": {
-        "src": "https://commons.wikimedia.org/wiki/Special:Redirect/file/Flag_of_Denmark.svg?width=1000",
-        "alt": "The national flag of Denmark.",
-        "credit": "Danish government",
-        "source": "https://commons.wikimedia.org/wiki/File:Flag_of_Denmark.svg",
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/62/AS15-88-11866_-_Apollo_15_flag%2C_rover%2C_LM%2C_Irwin_-_restoration1.jpg/1280px-AS15-88-11866_-_Apollo_15_flag%2C_rover%2C_LM%2C_Irwin_-_restoration1.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "alt": "Picture from the Wikipedia article on Apollo 15.",
+        "credit": "NASA Johnson Space Center Restored by Bammesk",
+        "source": "https://commons.wikimedia.org/wiki/File:AS15-88-11866_-_Apollo_15_flag,_rover,_LM,_Irwin_-_restoration1.jpg",
         "license": "Public domain",
-        "licenseUrl": "https://commons.wikimedia.org/wiki/File:Flag_of_Denmark.svg"
+        "licenseUrl": "https://commons.wikimedia.org/wiki/File:AS15-88-11866_-_Apollo_15_flag,_rover,_LM,_Irwin_-_restoration1.jpg"
       }
     },
     {
-      "id": "07-26-greece-battle-of-pliska",
+      "id": "07-26-solar-impulse-2",
       "date": "07-26",
       "dateLabel": "26 July",
-      "country": "greece",
-      "countryName": "Greece",
-      "kind": "events",
-      "year": 811,
-      "title": "Battle of Pliska",
-      "body": "811: Battle of Pliska: Byzantine Emperor Nikephoros I is killed and his heir Staurakios is seriously wounded.",
+      "category": "world",
+      "categoryName": "World",
+      "year": 2016,
+      "title": "Solar Impulse",
+      "body": "Solar Impulse 2 becomes the first solar-powered aircraft to circumnavigate the Earth.",
       "source": {
-        "name": "Wikipedia · Battle of Pliska",
-        "url": "https://en.wikipedia.org/wiki/Battle_of_Pliska",
+        "name": "Wikipedia · Solar Impulse",
+        "url": "https://en.wikipedia.org/wiki/Solar_Impulse",
         "calendarUrl": "https://en.wikipedia.org/wiki/July_26",
         "license": {
           "name": "CC BY-SA 4.0",
@@ -78,12 +75,12 @@
         }
       },
       "image": {
-        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/93/52-manasses-chronicle.jpg/1280px-52-manasses-chronicle.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-        "alt": "Image related to Battle of Pliska.",
-        "credit": "Original: Constantine Manasses",
-        "source": "https://commons.wikimedia.org/wiki/File:52-manasses-chronicle.jpg",
-        "license": "Public domain",
-        "licenseUrl": "https://commons.wikimedia.org/wiki/File:52-manasses-chronicle.jpg"
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/73/SolarImpulse_HB-SIA_landing_Brussels_Airport_3-crop.jpg/1280px-SolarImpulse_HB-SIA_landing_Brussels_Airport_3-crop.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "alt": "Picture from the Wikipedia article on Solar Impulse.",
+        "credit": "Brussels Airport",
+        "source": "https://commons.wikimedia.org/wiki/File:SolarImpulse_HB-SIA_landing_Brussels_Airport_3-crop.jpg",
+        "license": "CC BY-SA 2.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0"
       }
     }
   ]

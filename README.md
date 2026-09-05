@@ -11,7 +11,7 @@ The implementation and operational notes are split by responsibility:
 - [Architecture and route map](docs/ARCHITECTURE.md) — app composition, data flow, time-zone rules, and where to make common changes.
 - [Deployment and target environment](docs/DEPLOYMENT.md) — Render free-plan settings, Fire TV Stick limits, and the constraints they place on every change.
 - [Transit integration](docs/TRANSPORT.md) — the two providers and why, credentials, stop and headsign matching, how delays and incidents are marked, caching and quota.
-- [Daily facts](docs/DAILY_FACTS.md) — generated data format, editorial overrides, attribution, and regeneration workflow.
+- [Daily facts](docs/DAILY_FACTS.md) — what counts as a fact worth showing, how the calendar is selected, editorial overrides, attribution, and the regeneration workflow.
 - [Debugging](docs/DEBUGGING.md) — the screenshot and provider-probe tools, the URL flags, provider quotas, and why a card is muted.
 - [AGENTS.md](AGENTS.md) — the working contract for AI coding agents. `CLAUDE.md` imports it.
 
@@ -73,7 +73,9 @@ http://localhost:3000/?scene=fact&fact=1
 ```
 
 `scene` is `transport`, `fact` or `map`. `fact` is the zero-based index of the
-daily fact and wraps. A pinned display shows a `Pinned` badge where the
+daily fact and wraps. Add `&date=MM-DD` to show another calendar date's facts
+instead of today's, which is the only way to look at a fact that is not
+today's. A pinned display shows a `Pinned` badge where the
 rotation ring normally is, schedules nothing, and never leaves the scene. An
 unrecognised value is ignored and the panel rotates as usual, so a mistyped
 URL cannot leave the wall display stuck. This is the standard way to reach a

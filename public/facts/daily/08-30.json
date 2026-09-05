@@ -3,18 +3,17 @@
   "dateLabel": "30 August",
   "facts": [
     {
-      "id": "08-30-spain-peter-iii-of-aragon",
+      "id": "08-30-space-shuttle-discovery",
       "date": "08-30",
       "dateLabel": "30 August",
-      "country": "spain",
-      "countryName": "Spain",
-      "kind": "events",
-      "year": 1282,
-      "title": "Peter III of Aragon",
-      "body": "1282: Peter III of Aragon lands at Trapani to intervene in the War of the Sicilian Vespers.",
+      "category": "space",
+      "categoryName": "Space",
+      "year": 1984,
+      "title": "Space Shuttle Discovery",
+      "body": "The Space Shuttle Discovery takes off on its maiden voyage.",
       "source": {
-        "name": "Wikipedia · Peter III of Aragon",
-        "url": "https://en.wikipedia.org/wiki/Peter_III_of_Aragon",
+        "name": "Wikipedia · Space Shuttle Discovery",
+        "url": "https://en.wikipedia.org/wiki/Space_Shuttle_Discovery",
         "calendarUrl": "https://en.wikipedia.org/wiki/August_30",
         "license": {
           "name": "CC BY-SA 4.0",
@@ -22,27 +21,26 @@
         }
       },
       "image": {
-        "src": "https://upload.wikimedia.org/wikipedia/commons/e/e3/Pedro_III_rey_de_Arag%C3%B3n.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
-        "alt": "Image related to Peter III of Aragon.",
-        "credit": "Villani",
-        "source": "https://commons.wikimedia.org/wiki/File:Pedro_III_rey_de_Arag%C3%B3n.jpg",
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/1d/STS-133_Space_Shuttle_Discovery_after_undocking_3_%28cropped%29.jpg/1280px-STS-133_Space_Shuttle_Discovery_after_undocking_3_%28cropped%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "alt": "Picture from the Wikipedia article on Space Shuttle Discovery.",
+        "credit": "NASA",
+        "source": "https://commons.wikimedia.org/wiki/File:STS-133_Space_Shuttle_Discovery_after_undocking_3_(cropped).jpg",
         "license": "Public domain",
-        "licenseUrl": "https://commons.wikimedia.org/wiki/File:Pedro_III_rey_de_Arag%C3%B3n.jpg"
+        "licenseUrl": "https://commons.wikimedia.org/wiki/File:STS-133_Space_Shuttle_Discovery_after_undocking_3_(cropped).jpg"
       }
     },
     {
-      "id": "08-30-denmark-bruce-mclaren",
+      "id": "08-30-ernest-shackleton",
       "date": "08-30",
       "dateLabel": "30 August",
-      "country": "denmark",
-      "countryName": "Denmark",
-      "kind": "births",
-      "year": 1937,
-      "title": "Bruce McLaren",
-      "body": "Bruce McLaren, New Zealand race car driver and engineer, founded the McLaren racing team (died 1970), was born on this day in 1937.",
+      "category": "curious",
+      "categoryName": "Curious",
+      "year": 1916,
+      "title": "Ernest Shackleton",
+      "body": "Ernest Shackleton completes the rescue of all of his men stranded on Elephant Island in Antarctica.",
       "source": {
-        "name": "Wikipedia · Bruce McLaren",
-        "url": "https://en.wikipedia.org/wiki/Bruce_McLaren",
+        "name": "Wikipedia · Ernest Shackleton",
+        "url": "https://en.wikipedia.org/wiki/Ernest_Shackleton",
         "calendarUrl": "https://en.wikipedia.org/wiki/August_30",
         "license": {
           "name": "CC BY-SA 4.0",
@@ -50,27 +48,26 @@
         }
       },
       "image": {
-        "src": "https://upload.wikimedia.org/wikipedia/commons/a/a0/McLarenBruce.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
-        "alt": "Portrait or image of Bruce McLaren.",
-        "credit": "Lothar Spurzem",
-        "source": "https://commons.wikimedia.org/wiki/File:McLarenBruce.jpg",
-        "license": "CC BY-SA 2.0 de",
-        "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0/de/deed.en"
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/bd/Ernest_Shackleton_before_1909.jpg/1280px-Ernest_Shackleton_before_1909.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "alt": "Picture from the Wikipedia article on Ernest Shackleton.",
+        "credit": "George Charles Beresford / Adam Cuerden",
+        "source": "https://commons.wikimedia.org/wiki/File:Ernest_Shackleton_before_1909.jpg",
+        "license": "Public domain",
+        "licenseUrl": "https://commons.wikimedia.org/wiki/File:Ernest_Shackleton_before_1909.jpg"
       }
     },
     {
-      "id": "08-30-greece-list-of-byzantine-emperors",
+      "id": "08-30-operation-deliberate-force",
       "date": "08-30",
       "dateLabel": "30 August",
-      "country": "greece",
-      "countryName": "Greece",
-      "kind": "events",
-      "year": 1057,
-      "title": "Byzantine Emperor",
-      "body": "1057: Elderly Byzantine Emperor Michael VI Bringas abdicates after just one year on the throne.",
+      "category": "world",
+      "categoryName": "World",
+      "year": 1995,
+      "title": "Operation Deliberate Force",
+      "body": "NATO launches Operation Deliberate Force against Bosnian Serb forces.",
       "source": {
-        "name": "Wikipedia · List of Byzantine emperors",
-        "url": "https://en.wikipedia.org/wiki/List_of_Byzantine_emperors",
+        "name": "Wikipedia · Operation Deliberate Force",
+        "url": "https://en.wikipedia.org/wiki/Operation_Deliberate_Force",
         "calendarUrl": "https://en.wikipedia.org/wiki/August_30",
         "license": {
           "name": "CC BY-SA 4.0",
@@ -78,12 +75,12 @@
         }
       },
       "image": {
-        "src": "https://upload.wikimedia.org/wikipedia/commons/b/b6/Konstantinos_XI_Palaiologos_fresco_%28less_edited%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
-        "alt": "Image related to Byzantine Emperor.",
-        "credit": "ILoveHirasawaYui",
-        "source": "https://commons.wikimedia.org/wiki/File:Konstantinos_XI_Palaiologos_fresco_(less_edited).jpg",
-        "license": "CC0",
-        "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/deed.en"
+        "src": "https://upload.wikimedia.org/wikipedia/commons/6/65/F-16_deliberate_force.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+        "alt": "Picture from the Wikipedia article on Operation Deliberate Force.",
+        "credit": "SSGT. Debbie Hernandez",
+        "source": "https://commons.wikimedia.org/wiki/File:F-16_deliberate_force.JPG",
+        "license": "Public domain",
+        "licenseUrl": "https://commons.wikimedia.org/wiki/File:F-16_deliberate_force.JPG"
       }
     }
   ]

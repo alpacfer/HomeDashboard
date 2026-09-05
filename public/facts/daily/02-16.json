@@ -3,18 +3,17 @@
   "dateLabel": "16 February",
   "facts": [
     {
-      "id": "02-16-spain-1936-spanish-general-election",
+      "id": "02-16-haleyville-alabama",
       "date": "02-16",
       "dateLabel": "16 February",
-      "country": "spain",
-      "countryName": "Spain",
-      "kind": "events",
-      "year": 1936,
-      "title": "1936 Spanish general election",
-      "body": "1936: The Popular Front wins the 1936 Spanish general election.",
+      "category": "tech",
+      "categoryName": "Tech",
+      "year": 1968,
+      "title": "Haleyville, Alabama",
+      "body": "In Haleyville, Alabama, the first 9-1-1 emergency telephone system goes into service.",
       "source": {
-        "name": "Wikipedia · 1936 Spanish general election",
-        "url": "https://en.wikipedia.org/wiki/1936_Spanish_general_election",
+        "name": "Wikipedia · Haleyville, Alabama",
+        "url": "https://en.wikipedia.org/wiki/Haleyville,_Alabama",
         "calendarUrl": "https://en.wikipedia.org/wiki/February_16",
         "license": {
           "name": "CC BY-SA 4.0",
@@ -22,27 +21,53 @@
         }
       },
       "image": {
-        "src": "https://upload.wikimedia.org/wikipedia/commons/2/2d/Indalecio_Prieto%2C_1936_%28cropped%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
-        "alt": "Image related to 1936 Spanish general election.",
-        "credit": "Agence de presse Meurisse",
-        "source": "https://commons.wikimedia.org/wiki/File:Indalecio_Prieto,_1936_(cropped).jpg",
-        "license": "Public domain",
-        "licenseUrl": "https://commons.wikimedia.org/wiki/File:Indalecio_Prieto,_1936_(cropped).jpg"
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/1d/Marion_County_and_Winston_County_Alabama_Incorporated_and_Unincorporated_areas_Haleyville_Highlighted_0132704.svg/1280px-Marion_County_and_Winston_County_Alabama_Incorporated_and_Unincorporated_areas_Haleyville_Highlighted_0132704.svg.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "alt": "Picture from the Wikipedia article on Haleyville, Alabama.",
+        "credit": "DemocraticLuntz at English Wikipedia",
+        "source": "https://commons.wikimedia.org/wiki/File:Marion_County_and_Winston_County_Alabama_Incorporated_and_Unincorporated_areas_Haleyville_Highlighted_0132704.svg",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0"
       }
     },
     {
-      "id": "02-16-denmark-soviet-union",
+      "id": "02-16-southern-cross-expedition",
       "date": "02-16",
       "dateLabel": "16 February",
-      "country": "denmark",
-      "countryName": "Denmark",
-      "kind": "events",
+      "category": "science",
+      "categoryName": "Science",
+      "year": 1900,
+      "title": "Southern Cross Expedition",
+      "body": "The Southern Cross expedition led by Carsten Borchgrevink achieves a new Farthest South of 78° 50'S, making the first landing at the Great Ice Barrier.",
+      "source": {
+        "name": "Wikipedia · Southern Cross Expedition",
+        "url": "https://en.wikipedia.org/wiki/Southern_Cross_Expedition",
+        "calendarUrl": "https://en.wikipedia.org/wiki/February_16",
+        "license": {
+          "name": "CC BY-SA 4.0",
+          "url": "https://creativecommons.org/licenses/by-sa/4.0/"
+        }
+      },
+      "image": {
+        "src": "https://upload.wikimedia.org/wikipedia/commons/1/10/Borchgrevink_theodolite.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+        "alt": "Picture from the Wikipedia article on Southern Cross Expedition.",
+        "credit": "William Colbeck [Attributed]",
+        "source": "https://commons.wikimedia.org/wiki/File:Borchgrevink_theodolite.jpg",
+        "license": "Public domain",
+        "licenseUrl": "https://commons.wikimedia.org/wiki/File:Borchgrevink_theodolite.jpg"
+      }
+    },
+    {
+      "id": "02-16-marlborough-sounds",
+      "date": "02-16",
+      "dateLabel": "16 February",
+      "category": "world",
+      "categoryName": "World",
       "year": 1986,
-      "title": "Soviet",
-      "body": "1986: The Soviet liner runs aground in the Marlborough Sounds, New Zealand.",
+      "title": "Marlborough Sounds",
+      "body": "The Soviet liner runs aground in the Marlborough Sounds, New Zealand.",
       "source": {
-        "name": "Wikipedia · Soviet Union",
-        "url": "https://en.wikipedia.org/wiki/Soviet_Union",
+        "name": "Wikipedia · Marlborough Sounds",
+        "url": "https://en.wikipedia.org/wiki/Marlborough_Sounds",
         "calendarUrl": "https://en.wikipedia.org/wiki/February_16",
         "license": {
           "name": "CC BY-SA 4.0",
@@ -50,40 +75,12 @@
         }
       },
       "image": {
-        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a9/Flag_of_the_Soviet_Union.svg/1280px-Flag_of_the_Soviet_Union.svg.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-        "alt": "Image related to Soviet.",
-        "credit": "СССР",
-        "source": "https://commons.wikimedia.org/wiki/File:Flag_of_the_Soviet_Union.svg",
-        "license": "Public domain",
-        "licenseUrl": "https://commons.wikimedia.org/wiki/File:Flag_of_the_Soviet_Union.svg"
-      }
-    },
-    {
-      "id": "02-16-greece-leopold-i-holy-roman-emperor",
-      "date": "02-16",
-      "dateLabel": "16 February",
-      "country": "greece",
-      "countryName": "Greece",
-      "kind": "events",
-      "year": 1699,
-      "title": "Leopoldine",
-      "body": "1699: First Leopoldine Diploma is issued by the Holy Roman Emperor, recognizing the Greek Catholic clergy enjoyed the same privileges as Roman Catholic priests in the Principality of Transylvania.",
-      "source": {
-        "name": "Wikipedia · Leopold I, Holy Roman Emperor",
-        "url": "https://en.wikipedia.org/wiki/Leopold_I%2C_Holy_Roman_Emperor",
-        "calendarUrl": "https://en.wikipedia.org/wiki/February_16",
-        "license": {
-          "name": "CC BY-SA 4.0",
-          "url": "https://creativecommons.org/licenses/by-sa/4.0/"
-        }
-      },
-      "image": {
-        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/43/Benjamin_von_Block_001.jpg/1280px-Benjamin_von_Block_001.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-        "alt": "Image related to Leopoldine.",
-        "credit": "Benjamin Block",
-        "source": "https://commons.wikimedia.org/wiki/File:Benjamin_von_Block_001.jpg",
-        "license": "Public domain",
-        "licenseUrl": "https://commons.wikimedia.org/wiki/File:Benjamin_von_Block_001.jpg"
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/09/Marlborough_Sounds_topographic_map-en.svg/1280px-Marlborough_Sounds_topographic_map-en.svg.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "alt": "Picture from the Wikipedia article on Marlborough Sounds.",
+        "credit": "Eric Gaba (user Sting) for Wikimedia Commons using LINZ data",
+        "source": "https://commons.wikimedia.org/wiki/File:Marlborough_Sounds_topographic_map-en.svg",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0"
       }
     }
   ]

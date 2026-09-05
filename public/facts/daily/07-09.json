@@ -3,18 +3,17 @@
   "dateLabel": "9 July",
   "facts": [
     {
-      "id": "07-09-spain-argentina",
+      "id": "07-09-braddock-expedition",
       "date": "07-09",
       "dateLabel": "9 July",
-      "country": "spain",
-      "countryName": "Spain",
-      "kind": "events",
-      "year": 1816,
-      "title": "Argentina",
-      "body": "1816: Argentina declares independence from Spain.",
+      "category": "science",
+      "categoryName": "Science",
+      "year": 1755,
+      "title": "Braddock Expedition",
+      "body": "The Braddock Expedition is soundly defeated by a smaller French and Native American force in its attempt to capture Fort Duquesne in what is now downtown Pittsburgh.",
       "source": {
-        "name": "Wikipedia · Argentina",
-        "url": "https://en.wikipedia.org/wiki/Argentina",
+        "name": "Wikipedia · Braddock Expedition",
+        "url": "https://en.wikipedia.org/wiki/Braddock_Expedition",
         "calendarUrl": "https://en.wikipedia.org/wiki/July_9",
         "license": {
           "name": "CC BY-SA 4.0",
@@ -22,27 +21,26 @@
         }
       },
       "image": {
-        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/1a/Flag_of_Argentina.svg/1280px-Flag_of_Argentina.svg.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-        "alt": "Image related to Argentina.",
-        "credit": "Manuel Belgrano",
-        "source": "https://commons.wikimedia.org/wiki/File:Flag_of_Argentina.svg",
+        "src": "https://upload.wikimedia.org/wikipedia/commons/5/5d/Braddock_1755.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+        "alt": "Picture from the Wikipedia article on Braddock Expedition.",
+        "credit": "Wikimedia Commons contributor",
+        "source": "https://commons.wikimedia.org/wiki/File:Braddock_1755.jpg",
         "license": "Public domain",
-        "licenseUrl": "https://commons.wikimedia.org/wiki/File:Flag_of_Argentina.svg"
+        "licenseUrl": "https://commons.wikimedia.org/wiki/File:Braddock_1755.jpg"
       }
     },
     {
-      "id": "07-09-denmark-new-zealand-parliament",
+      "id": "07-09-russell-einstein-manifesto",
       "date": "07-09",
       "dateLabel": "9 July",
-      "country": "denmark",
-      "countryName": "Denmark",
-      "kind": "events",
-      "year": 1986,
-      "title": "New Zealand Parliament",
-      "body": "1986: The New Zealand Parliament passes the Homosexual Law Reform Act legalising homosexuality in New Zealand.",
+      "category": "world",
+      "categoryName": "World",
+      "year": 1955,
+      "title": "Russell–Einstein Manifesto",
+      "body": "The Russell–Einstein Manifesto calls for a reduction of the risk of nuclear warfare.",
       "source": {
-        "name": "Wikipedia · New Zealand Parliament",
-        "url": "https://en.wikipedia.org/wiki/New_Zealand_Parliament",
+        "name": "Wikipedia · Russell–Einstein Manifesto",
+        "url": "https://en.wikipedia.org/wiki/Russell%E2%80%93Einstein_Manifesto",
         "calendarUrl": "https://en.wikipedia.org/wiki/July_9",
         "license": {
           "name": "CC BY-SA 4.0",
@@ -50,27 +48,26 @@
         }
       },
       "image": {
-        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d3/Coat_of_arms_of_New_Zealand.svg/1280px-Coat_of_arms_of_New_Zealand.svg.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-        "alt": "Image related to New Zealand Parliament.",
-        "credit": "Sodacan",
-        "source": "https://commons.wikimedia.org/wiki/File:Coat_of_arms_of_New_Zealand.svg",
-        "license": "CC BY-SA 3.0",
-        "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0"
+        "src": "https://upload.wikimedia.org/wikipedia/commons/a/a7/Operation_Castle_-_Romeo_001.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+        "alt": "Picture from the Wikipedia article on Russell–Einstein Manifesto.",
+        "credit": "United States Department of Energy",
+        "source": "https://commons.wikimedia.org/wiki/File:Operation_Castle_-_Romeo_001.jpg",
+        "license": "Public domain",
+        "licenseUrl": "https://commons.wikimedia.org/wiki/File:Operation_Castle_-_Romeo_001.jpg"
       }
     },
     {
-      "id": "07-09-greece-first-council-of-constantinople",
+      "id": "07-09-1877-wimbledon-championship",
       "date": "07-09",
       "dateLabel": "9 July",
-      "country": "greece",
-      "countryName": "Greece",
-      "kind": "events",
-      "year": 381,
-      "title": "First Council",
-      "body": "381: The end of the First Council of Christian bishops convened in Constantinople by the Roman emperor Theodosius I.",
+      "category": "sport",
+      "categoryName": "Sport",
+      "year": 1877,
+      "title": "1877 Wimbledon Championship",
+      "body": "The inaugural Wimbledon Championships begins.",
       "source": {
-        "name": "Wikipedia · First Council of Constantinople",
-        "url": "https://en.wikipedia.org/wiki/First_Council_of_Constantinople",
+        "name": "Wikipedia · 1877 Wimbledon Championship",
+        "url": "https://en.wikipedia.org/wiki/1877_Wimbledon_Championship",
         "calendarUrl": "https://en.wikipedia.org/wiki/July_9",
         "license": {
           "name": "CC BY-SA 4.0",
@@ -78,12 +75,12 @@
         }
       },
       "image": {
-        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d3/CouncilOfConstantinople381BnFMSGr510.jpg/1280px-CouncilOfConstantinople381BnFMSGr510.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-        "alt": "Image related to First Council.",
-        "credit": "Unknown authorUnknown author",
-        "source": "https://commons.wikimedia.org/wiki/File:CouncilOfConstantinople381BnFMSGr510.jpg",
+        "src": "https://upload.wikimedia.org/wikipedia/commons/e/ef/Wimbledon_Championship_1877.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+        "alt": "Picture from the Wikipedia article on 1877 Wimbledon Championship.",
+        "credit": "H.W.P.",
+        "source": "https://commons.wikimedia.org/wiki/File:Wimbledon_Championship_1877.jpg",
         "license": "Public domain",
-        "licenseUrl": "https://commons.wikimedia.org/wiki/File:CouncilOfConstantinople381BnFMSGr510.jpg"
+        "licenseUrl": "https://commons.wikimedia.org/wiki/File:Wimbledon_Championship_1877.jpg"
       }
     }
   ]

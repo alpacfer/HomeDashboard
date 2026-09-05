@@ -3,18 +3,17 @@
   "dateLabel": "1 December",
   "facts": [
     {
-      "id": "12-01-spain-jos-n-ez-de-c-ceres",
+      "id": "12-01-arecibo-telescope",
       "date": "12-01",
       "dateLabel": "1 December",
-      "country": "spain",
-      "countryName": "Spain",
-      "kind": "events",
-      "year": 1821,
-      "title": "José Núñez de Cáceres",
-      "body": "1821: José Núñez de Cáceres wins the independence of the Dominican Republic from Spain and names the new territory the Republic of Spanish Haiti.",
+      "category": "space",
+      "categoryName": "Space",
+      "year": 2020,
+      "title": "Arecibo Telescope",
+      "body": "The Arecibo Telescope collapses.",
       "source": {
-        "name": "Wikipedia · José Núñez de Cáceres",
-        "url": "https://en.wikipedia.org/wiki/Jos%C3%A9_N%C3%BA%C3%B1ez_de_C%C3%A1ceres",
+        "name": "Wikipedia · Arecibo Telescope",
+        "url": "https://en.wikipedia.org/wiki/Arecibo_Telescope",
         "calendarUrl": "https://en.wikipedia.org/wiki/December_1",
         "license": {
           "name": "CC BY-SA 4.0",
@@ -22,27 +21,26 @@
         }
       },
       "image": {
-        "src": "https://upload.wikimedia.org/wikipedia/commons/e/e0/Nunezcaceres.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
-        "alt": "Image related to José Núñez de Cáceres.",
-        "credit": "Unknown/Desconocido",
-        "source": "https://commons.wikimedia.org/wiki/File:Nunezcaceres.jpg",
-        "license": "CC0",
-        "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/deed.en"
+        "src": "https://upload.wikimedia.org/wikipedia/commons/c/cd/Arecibo_Observatory_Aerial_View.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+        "alt": "Picture from the Wikipedia article on Arecibo Telescope.",
+        "credit": "H. Schweiker/WIYN and NOAO/AURA/NSF",
+        "source": "https://commons.wikimedia.org/wiki/File:Arecibo_Observatory_Aerial_View.jpg",
+        "license": "CC BY 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by/4.0"
       }
     },
     {
-      "id": "12-01-denmark-kingdom-of-iceland",
+      "id": "12-01-antarctic-treaty-system",
       "date": "12-01",
       "dateLabel": "1 December",
-      "country": "denmark",
-      "countryName": "Denmark",
-      "kind": "events",
-      "year": 1918,
-      "title": "Iceland",
-      "body": "1918: Iceland becomes a sovereign state, yet remains a part of the Danish kingdom.",
+      "category": "science",
+      "categoryName": "Science",
+      "year": 1959,
+      "title": "Antarctic Treaty System",
+      "body": "Opening date for signature of the Antarctic Treaty, which sets aside Antarctica as a scientific preserve and bans military activity on the continent.",
       "source": {
-        "name": "Wikipedia · Kingdom of Iceland",
-        "url": "https://en.wikipedia.org/wiki/Kingdom_of_Iceland",
+        "name": "Wikipedia · Antarctic Treaty System",
+        "url": "https://en.wikipedia.org/wiki/Antarctic_Treaty_System",
         "calendarUrl": "https://en.wikipedia.org/wiki/December_1",
         "license": {
           "name": "CC BY-SA 4.0",
@@ -50,27 +48,26 @@
         }
       },
       "image": {
-        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/34/Flag_of_Iceland_%281918%E2%80%931944%29.svg/1280px-Flag_of_Iceland_%281918%E2%80%931944%29.svg.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-        "alt": "Image related to Iceland.",
-        "credit": "Original: Matthías Þórðarson Vector: Gustavo Ronconi",
-        "source": "https://commons.wikimedia.org/wiki/File:Flag_of_Iceland_(1918%E2%80%931944).svg",
-        "license": "Public domain",
-        "licenseUrl": "https://commons.wikimedia.org/wiki/File:Flag_of_Iceland_(1918%E2%80%931944).svg"
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/68/Flag_of_the_Antarctic_Treaty.svg/1280px-Flag_of_the_Antarctic_Treaty.svg.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "alt": "Picture from the Wikipedia article on Antarctic Treaty System.",
+        "credit": "Antarctic_Treaty_flag.svg: Alakasam. derivative work: B1mbo (talk)",
+        "source": "https://commons.wikimedia.org/wiki/File:Flag_of_the_Antarctic_Treaty.svg",
+        "license": "CC BY-SA 3.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0"
       }
     },
     {
-      "id": "12-01-greece-crete",
+      "id": "12-01-rutherford-b-hayes",
       "date": "12-01",
       "dateLabel": "1 December",
-      "country": "greece",
-      "countryName": "Greece",
-      "kind": "events",
-      "year": 1913,
-      "title": "Crete",
-      "body": "1913: Crete, having obtained self rule from Turkey after the First Balkan War, is annexed by Greece.",
+      "category": "tech",
+      "categoryName": "Tech",
+      "year": 1878,
+      "title": "Rutherford B. Hayes",
+      "body": "President Rutherford B. Hayes gets the first telephone installed in the White House.",
       "source": {
-        "name": "Wikipedia · Crete",
-        "url": "https://en.wikipedia.org/wiki/Crete",
+        "name": "Wikipedia · Rutherford B. Hayes",
+        "url": "https://en.wikipedia.org/wiki/Rutherford_B._Hayes",
         "calendarUrl": "https://en.wikipedia.org/wiki/December_1",
         "license": {
           "name": "CC BY-SA 4.0",
@@ -78,12 +75,12 @@
         }
       },
       "image": {
-        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/01/Island_of_Crete%2C_Greece.JPG/1280px-Island_of_Crete%2C_Greece.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-        "alt": "Image related to Crete.",
-        "credit": "ISS Expedition 28 crew",
-        "source": "https://commons.wikimedia.org/wiki/File:Island_of_Crete,_Greece.JPG",
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/50/President_Rutherford_Hayes_1870_-_1880_Restored.jpg/1280px-President_Rutherford_Hayes_1870_-_1880_Restored.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "alt": "Picture from the Wikipedia article on Rutherford B. Hayes.",
+        "credit": "Mathew Benjamin Brady",
+        "source": "https://commons.wikimedia.org/wiki/File:President_Rutherford_Hayes_1870_-_1880_Restored.jpg",
         "license": "Public domain",
-        "licenseUrl": "https://commons.wikimedia.org/wiki/File:Island_of_Crete,_Greece.JPG"
+        "licenseUrl": "https://commons.wikimedia.org/wiki/File:President_Rutherford_Hayes_1870_-_1880_Restored.jpg"
       }
     }
   ]

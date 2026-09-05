@@ -3,18 +3,17 @@
   "dateLabel": "30 December",
   "facts": [
     {
-      "id": "12-30-spain-reapers-war",
+      "id": "12-30-discovery-expedition",
       "date": "12-30",
       "dateLabel": "30 December",
-      "country": "spain",
-      "countryName": "Spain",
-      "kind": "events",
-      "year": 1641,
-      "title": "Reapers' War",
-      "body": "1641: Reapers' War: Louis XIII of France swears the Catalan constitutions, being appointed Count of Barcelona and thus establishing the personal union of the Principality of Catalonia with the Kingdom of France.",
+      "category": "science",
+      "categoryName": "Science",
+      "year": 1902,
+      "title": "Discovery Expedition",
+      "body": "The Discovery Expedition under Robert Falcon Scott attains a Farthest South at 82°17′S in Antarctica.",
       "source": {
-        "name": "Wikipedia · Reapers' War",
-        "url": "https://en.wikipedia.org/wiki/Reapers'_War",
+        "name": "Wikipedia · Discovery Expedition",
+        "url": "https://en.wikipedia.org/wiki/Discovery_Expedition",
         "calendarUrl": "https://en.wikipedia.org/wiki/December_30",
         "license": {
           "name": "CC BY-SA 4.0",
@@ -22,27 +21,26 @@
         }
       },
       "image": {
-        "src": "https://upload.wikimedia.org/wikipedia/commons/8/87/Batalla_de_Montju%C3%AFc_de_1641.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
-        "alt": "Image related to Reapers' War.",
-        "credit": "Pandolfo Reschi",
-        "source": "https://commons.wikimedia.org/wiki/File:Batalla_de_Montju%C3%AFc_de_1641.jpg",
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b6/Discovery_alongside_Barrier.jpg/1280px-Discovery_alongside_Barrier.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "alt": "Picture from the Wikipedia article on Discovery Expedition.",
+        "credit": "Cropped from image published in H.R. Mill: The Siege of the South Pole, Alston Rivers, London 1905)",
+        "source": "https://commons.wikimedia.org/wiki/File:Discovery_alongside_Barrier.jpg",
         "license": "Public domain",
-        "licenseUrl": "https://commons.wikimedia.org/wiki/File:Batalla_de_Montju%C3%AFc_de_1641.jpg"
+        "licenseUrl": "https://commons.wikimedia.org/wiki/File:Discovery_alongside_Barrier.jpg"
       }
     },
     {
-      "id": "12-30-denmark-ulrik-of-denmark-1578-1624",
+      "id": "12-30-madrid-barajas-airport",
       "date": "12-30",
       "dateLabel": "30 December",
-      "country": "denmark",
-      "countryName": "Denmark",
-      "kind": "births",
-      "year": 1578,
-      "title": "Ulrik of Denmark",
-      "body": "Ulrik of Denmark, Danish prince-bishop (died 1624), was born on this day in 1578.",
+      "category": "world",
+      "categoryName": "World",
+      "year": 2006,
+      "title": "Madrid–Barajas Airport",
+      "body": "Madrid–Barajas Airport is bombed.",
       "source": {
-        "name": "Wikipedia · Ulrik of Denmark (1578–1624)",
-        "url": "https://en.wikipedia.org/wiki/Ulrik_of_Denmark_(1578%E2%80%931624)",
+        "name": "Wikipedia · Madrid–Barajas Airport",
+        "url": "https://en.wikipedia.org/wiki/Madrid%E2%80%93Barajas_Airport",
         "calendarUrl": "https://en.wikipedia.org/wiki/December_30",
         "license": {
           "name": "CC BY-SA 4.0",
@@ -50,27 +48,26 @@
         }
       },
       "image": {
-        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d5/Hertug_Ulrik.jpg/1280px-Hertug_Ulrik.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-        "alt": "Portrait or image of Ulrik of Denmark.",
-        "credit": "Orf3us",
-        "source": "https://commons.wikimedia.org/wiki/File:Hertug_Ulrik.jpg",
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f1/Aena_Madrid_logo.svg/1280px-Aena_Madrid_logo.svg.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "alt": "Picture from the Wikipedia article on Madrid–Barajas Airport.",
+        "credit": "Aena",
+        "source": "https://commons.wikimedia.org/wiki/File:Aena_Madrid_logo.svg",
         "license": "Public domain",
-        "licenseUrl": "https://commons.wikimedia.org/wiki/File:Hertug_Ulrik.jpg"
+        "licenseUrl": "https://commons.wikimedia.org/wiki/File:Aena_Madrid_logo.svg"
       }
     },
     {
-      "id": "12-30-greece-george-ii-of-greece",
+      "id": "12-30-ice-hockey",
       "date": "12-30",
       "dateLabel": "30 December",
-      "country": "greece",
-      "countryName": "Greece",
-      "kind": "events",
-      "year": 1944,
-      "title": "George II of Greece",
-      "body": "1944: King George II of Greece declares a regency, leaving the throne vacant.",
+      "category": "sport",
+      "categoryName": "Sport",
+      "year": 1896,
+      "title": "Ice hockey",
+      "body": "Canadian ice hockey player Ernie McLea scores the first hat-trick in Stanley Cup play, and the Cup-winning goal as the Montreal Victorias defeat the Winnipeg Victorias 6–5.",
       "source": {
-        "name": "Wikipedia · George II of Greece",
-        "url": "https://en.wikipedia.org/wiki/George_II_of_Greece",
+        "name": "Wikipedia · Ice hockey",
+        "url": "https://en.wikipedia.org/wiki/Ice_hockey",
         "calendarUrl": "https://en.wikipedia.org/wiki/December_30",
         "license": {
           "name": "CC BY-SA 4.0",
@@ -78,12 +75,12 @@
         }
       },
       "image": {
-        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/58/Georgeiiofgreece.jpg/1280px-Georgeiiofgreece.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-        "alt": "Image related to George II of Greece.",
-        "credit": "United States Office of War Information, Overseas Picture Division, Washington Division.",
-        "source": "https://commons.wikimedia.org/wiki/File:Georgeiiofgreece.jpg",
-        "license": "Public domain",
-        "licenseUrl": "https://commons.wikimedia.org/wiki/File:Georgeiiofgreece.jpg"
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/39/Pittsburgh_Penguins%2C_Washington_Capitals%2C_Bryan_Rust_%2833744033514%29.jpg/1280px-Pittsburgh_Penguins%2C_Washington_Capitals%2C_Bryan_Rust_%2833744033514%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "alt": "Picture from the Wikipedia article on Ice hockey.",
+        "credit": "Keith Allison from Hanover, MD, USA",
+        "source": "https://commons.wikimedia.org/wiki/File:Pittsburgh_Penguins,_Washington_Capitals,_Bryan_Rust_(33744033514).jpg",
+        "license": "CC BY-SA 2.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0"
       }
     }
   ]

@@ -191,16 +191,23 @@ a:focus-visible { outline:2px solid var(--foreground); outline-offset:8px; }
 .transport-mini .transport-incidents { margin-top:1vh; }
 .transport-mini .transport-status { margin-top:1vh; }
 .daily-fact-scene { --fact-accent:#e6c864; display:flex; flex-direction:column; position:relative; padding:1vh 0 3vh; }
-.country-spain { --fact-accent:#f2c94c; }
-.country-denmark { --fact-accent:#ee746a; }
-.country-greece { --fact-accent:#72b6ec; }
+.category-tech { --fact-accent:#6fd3e8; }
+.category-space { --fact-accent:#a99bf5; }
+.category-curious { --fact-accent:#f5a75b; }
+.category-culture { --fact-accent:#f58fb4; }
+.category-science { --fact-accent:#6fdba0; }
+.category-sport { --fact-accent:#f2c94c; }
+.category-world { --fact-accent:#d9d3c3; }
 .daily-fact-heading { display:grid; grid-template-columns:auto auto; justify-content:start; align-items:baseline; gap:.7vw; min-height:5.2vh; color:var(--muted); font-size:.9vw; line-height:1; text-transform:uppercase; letter-spacing:.08em; }
 .daily-fact-heading strong { color:var(--fact-accent); font-size:1.2vw; }
 .daily-fact-heading time { grid-column:1 / -1; margin-top:.45vh; color:var(--foreground); font-size:1.15vw; font-variant-numeric:tabular-nums; }
 .fact-feature { flex:1; display:grid; grid-template-columns:minmax(0,1.5fr) minmax(0,1fr); align-items:center; gap:1.8vw; padding:3vh 0; }
 .fact-copy { min-width:0; }
-.fact-copy h2 { max-width:16ch; margin:0 0 2.5vh; font-size:3.25vw; line-height:1.06; letter-spacing:-.05em; font-weight:700; color:var(--fact-accent); }
-.fact-copy p { margin:0; max-width:38ch; font-size:1.5vw; line-height:1.5; letter-spacing:-.015em; }
+.fact-year { display:flex; align-items:baseline; gap:.7vw; margin:0 0 1.3vh; line-height:1; }
+.fact-year strong { color:var(--fact-accent); font-size:2.5vw; font-weight:700; letter-spacing:-.045em; font-variant-numeric:lining-nums tabular-nums; }
+.fact-year span { color:var(--muted); font-size:.95vw; text-transform:uppercase; letter-spacing:.08em; }
+.fact-copy h2 { max-width:17ch; margin:0 0 1.9vh; font-size:2.85vw; line-height:1.07; letter-spacing:-.045em; font-weight:700; color:var(--foreground); }
+.fact-copy p.fact-body { margin:0; max-width:40ch; font-size:1.4vw; line-height:1.5; letter-spacing:-.015em; }
 .fact-illustration { margin:0; min-width:0; }
 .fact-illustration img { display:block; width:100%; aspect-ratio:4/3; max-height:45vh; object-fit:cover; object-position:center; border-radius:.6vw; background:#19191c; }
 .fact-image-fallback { display:grid; place-items:center; width:100%; min-height:28vh; padding:2vw; border:1px solid #303035; border-radius:.6vw; background:#19191c; color:var(--muted); font-size:1vw; text-align:center; }

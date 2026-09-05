@@ -3,18 +3,17 @@
   "dateLabel": "13 September",
   "facts": [
     {
-      "id": "09-13-spain-american-revolutionary-war",
+      "id": "09-13-ibm-305-ramac",
       "date": "09-13",
       "dateLabel": "13 September",
-      "country": "spain",
-      "countryName": "Spain",
-      "kind": "events",
-      "year": 1782,
-      "title": "American Revolutionary War",
-      "body": "1782: American Revolutionary War: Franco-Spanish troops launch the unsuccessful \"grand assault\" during the Great Siege of Gibraltar.",
+      "category": "tech",
+      "categoryName": "Tech",
+      "year": 1956,
+      "title": "IBM 305 RAMAC",
+      "body": "The IBM 305 RAMAC is introduced, the first commercial computer to use disk storage.",
       "source": {
-        "name": "Wikipedia · American Revolutionary War",
-        "url": "https://en.wikipedia.org/wiki/American_Revolutionary_War",
+        "name": "Wikipedia · IBM 305 RAMAC",
+        "url": "https://en.wikipedia.org/wiki/IBM_305_RAMAC",
         "calendarUrl": "https://en.wikipedia.org/wiki/September_13",
         "license": {
           "name": "CC BY-SA 4.0",
@@ -22,68 +21,66 @@
         }
       },
       "image": {
-        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b8/Surrender_of_Lord_Cornwallis.jpg/1280px-Surrender_of_Lord_Cornwallis.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-        "alt": "Image related to American Revolutionary War.",
-        "credit": "John Trumbull",
-        "source": "https://commons.wikimedia.org/wiki/File:Surrender_of_Lord_Cornwallis.jpg",
-        "license": "Public domain",
-        "licenseUrl": "https://commons.wikimedia.org/wiki/File:Surrender_of_Lord_Cornwallis.jpg"
-      }
-    },
-    {
-      "id": "09-13-denmark-elizabeth-mccombs",
-      "date": "09-13",
-      "dateLabel": "13 September",
-      "country": "denmark",
-      "countryName": "Denmark",
-      "kind": "events",
-      "year": 1933,
-      "title": "Elizabeth McCombs",
-      "body": "1933: Elizabeth McCombs becomes the first woman elected to the New Zealand Parliament.",
-      "source": {
-        "name": "Wikipedia · Elizabeth McCombs",
-        "url": "https://en.wikipedia.org/wiki/Elizabeth_McCombs",
-        "calendarUrl": "https://en.wikipedia.org/wiki/September_13",
-        "license": {
-          "name": "CC BY-SA 4.0",
-          "url": "https://creativecommons.org/licenses/by-sa/4.0/"
-        }
-      },
-      "image": {
-        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f7/Elizabeth_McCombs_1933.jpg/1280px-Elizabeth_McCombs_1933.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-        "alt": "Image related to Elizabeth McCombs.",
-        "credit": "Unknown photographer",
-        "source": "https://commons.wikimedia.org/wiki/File:Elizabeth_McCombs_1933.jpg",
-        "license": "Public domain",
-        "licenseUrl": "https://commons.wikimedia.org/wiki/File:Elizabeth_McCombs_1933.jpg"
-      }
-    },
-    {
-      "id": "09-13-greece-belisarius",
-      "date": "09-13",
-      "dateLabel": "13 September",
-      "country": "greece",
-      "countryName": "Greece",
-      "kind": "events",
-      "year": 533,
-      "title": "Belisarius",
-      "body": "533: Belisarius of the Byzantine Empire defeats Gelimer and the Vandals at the Battle of Ad Decimum, near Carthage, North Africa.",
-      "source": {
-        "name": "Wikipedia · Belisarius",
-        "url": "https://en.wikipedia.org/wiki/Belisarius",
-        "calendarUrl": "https://en.wikipedia.org/wiki/September_13",
-        "license": {
-          "name": "CC BY-SA 4.0",
-          "url": "https://creativecommons.org/licenses/by-sa/4.0/"
-        }
-      },
-      "image": {
-        "src": "https://upload.wikimedia.org/wikipedia/commons/8/8b/Belisarius_mosaic.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
-        "alt": "Image related to Belisarius.",
-        "credit": "Petar Milošević",
-        "source": "https://commons.wikimedia.org/wiki/File:Belisarius_mosaic.jpg",
+        "src": "https://upload.wikimedia.org/wikipedia/commons/2/25/IBM_305_RAMAC_system_%281%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+        "alt": "Picture from the Wikipedia article on IBM 305 RAMAC.",
+        "credit": "Norsk Teknisk Museum",
+        "source": "https://commons.wikimedia.org/wiki/File:IBM_305_RAMAC_system_(1).jpg",
         "license": "CC BY-SA 4.0",
         "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0"
+      }
+    },
+    {
+      "id": "09-13-hannibal-goodwin",
+      "date": "09-13",
+      "dateLabel": "13 September",
+      "category": "culture",
+      "categoryName": "Culture",
+      "year": 1898,
+      "title": "Hannibal Goodwin",
+      "body": "Hannibal Goodwin patents celluloid photographic film.",
+      "source": {
+        "name": "Wikipedia · Hannibal Goodwin",
+        "url": "https://en.wikipedia.org/wiki/Hannibal_Goodwin",
+        "calendarUrl": "https://en.wikipedia.org/wiki/September_13",
+        "license": {
+          "name": "CC BY-SA 4.0",
+          "url": "https://creativecommons.org/licenses/by-sa/4.0/"
+        }
+      },
+      "image": {
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b6/Hannibal_Goodwin_001.jpg/1280px-Hannibal_Goodwin_001.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "alt": "Picture from the Wikipedia article on Hannibal Goodwin.",
+        "credit": "Robert Grau",
+        "source": "https://commons.wikimedia.org/wiki/File:Hannibal_Goodwin_001.jpg",
+        "license": "Public domain",
+        "licenseUrl": "https://commons.wikimedia.org/wiki/File:Hannibal_Goodwin_001.jpg"
+      }
+    },
+    {
+      "id": "09-13-santos-dumont-14-bis",
+      "date": "09-13",
+      "dateLabel": "13 September",
+      "category": "world",
+      "categoryName": "World",
+      "year": 1906,
+      "title": "Santos-Dumont 14-bis",
+      "body": "The Santos-Dumont 14-bis makes a short hop, the first flight of a fixed-wing aircraft in Europe.",
+      "source": {
+        "name": "Wikipedia · Santos-Dumont 14-bis",
+        "url": "https://en.wikipedia.org/wiki/Santos-Dumont_14-bis",
+        "calendarUrl": "https://en.wikipedia.org/wiki/September_13",
+        "license": {
+          "name": "CC BY-SA 4.0",
+          "url": "https://creativecommons.org/licenses/by-sa/4.0/"
+        }
+      },
+      "image": {
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d7/14-bis_de_Alberto_Santos_Dumont.jpg/1280px-14-bis_de_Alberto_Santos_Dumont.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "alt": "Picture from the Wikipedia article on Santos-Dumont 14-bis.",
+        "credit": "Jules Beau",
+        "source": "https://commons.wikimedia.org/wiki/File:14-bis_de_Alberto_Santos_Dumont.jpg",
+        "license": "Public domain",
+        "licenseUrl": "https://commons.wikimedia.org/wiki/File:14-bis_de_Alberto_Santos_Dumont.jpg"
       }
     }
   ]

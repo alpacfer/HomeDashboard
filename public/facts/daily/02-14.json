@@ -3,18 +3,17 @@
   "dateLabel": "14 February",
   "facts": [
     {
-      "id": "02-14-spain-french-revolutionary-wars",
+      "id": "02-14-voyager-1",
       "date": "02-14",
       "dateLabel": "14 February",
-      "country": "spain",
-      "countryName": "Spain",
-      "kind": "events",
-      "year": 1797,
-      "title": "French Revolutionary Wars",
-      "body": "1797: French Revolutionary Wars: Battle of Cape St. Vincent: John Jervis, (later 1st Earl of St Vincent) and Horatio Nelson (later 1st Viscount Nelson) lead the British Royal Navy to victory over a Spanish fleet in action near Gibraltar.",
+      "category": "space",
+      "categoryName": "Space",
+      "year": 1990,
+      "title": "Voyager 1",
+      "body": "The Voyager 1 spacecraft takes the photograph of planet Earth that later becomes famous as Pale Blue Dot.",
       "source": {
-        "name": "Wikipedia · French Revolutionary Wars",
-        "url": "https://en.wikipedia.org/wiki/French_Revolutionary_Wars",
+        "name": "Wikipedia · Voyager 1",
+        "url": "https://en.wikipedia.org/wiki/Voyager_1",
         "calendarUrl": "https://en.wikipedia.org/wiki/February_14",
         "license": {
           "name": "CC BY-SA 4.0",
@@ -22,27 +21,53 @@
         }
       },
       "image": {
-        "src": "https://upload.wikimedia.org/wikipedia/commons/9/9e/French_Revolutionary_Wars.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
-        "alt": "Image related to French Revolutionary Wars.",
-        "credit": "Ruedi33a",
-        "source": "https://commons.wikimedia.org/wiki/File:French_Revolutionary_Wars.jpg",
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/60/Voyager_spacecraft_model.png/1280px-Voyager_spacecraft_model.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "alt": "Picture from the Wikipedia article on Voyager 1.",
+        "credit": "National Aeronautics and Space Administration (NASA)",
+        "source": "https://commons.wikimedia.org/wiki/File:Voyager_spacecraft_model.png",
+        "license": "Public domain",
+        "licenseUrl": "https://commons.wikimedia.org/wiki/File:Voyager_spacecraft_model.png"
+      }
+    },
+    {
+      "id": "02-14-ibm",
+      "date": "02-14",
+      "dateLabel": "14 February",
+      "category": "tech",
+      "categoryName": "Tech",
+      "year": 1924,
+      "title": "IBM",
+      "body": "The Computing-Tabulating-Recording Company changes its name to International Business Machines Corporation (IBM).",
+      "source": {
+        "name": "Wikipedia · IBM",
+        "url": "https://en.wikipedia.org/wiki/IBM",
+        "calendarUrl": "https://en.wikipedia.org/wiki/February_14",
+        "license": {
+          "name": "CC BY-SA 4.0",
+          "url": "https://creativecommons.org/licenses/by-sa/4.0/"
+        }
+      },
+      "image": {
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b5/IBM_CHQ_-_Oct_2014.jpg/1280px-IBM_CHQ_-_Oct_2014.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "alt": "Picture from the Wikipedia article on IBM.",
+        "credit": "Treesmittenex",
+        "source": "https://commons.wikimedia.org/wiki/File:IBM_CHQ_-_Oct_2014.jpg",
         "license": "CC BY-SA 4.0",
         "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0"
       }
     },
     {
-      "id": "02-14-denmark-rie-rasmussen",
+      "id": "02-14-ruhollah-khomeini",
       "date": "02-14",
       "dateLabel": "14 February",
-      "country": "denmark",
-      "countryName": "Denmark",
-      "kind": "births",
-      "year": 1976,
-      "title": "Rie Rasmussen",
-      "body": "Rie Rasmussen, Danish model, film director, writer, photographer, and actress, was born on this day in 1976.",
+      "category": "culture",
+      "categoryName": "Culture",
+      "year": 1989,
+      "title": "Ruhollah Khomeini",
+      "body": "Iranian leader Ruhollah Khomeini issues a fatwa encouraging Muslims to kill Salman Rushdie, author of The Satanic Verses.",
       "source": {
-        "name": "Wikipedia · Rie Rasmussen",
-        "url": "https://en.wikipedia.org/wiki/Rie_Rasmussen",
+        "name": "Wikipedia · Ruhollah Khomeini",
+        "url": "https://en.wikipedia.org/wiki/Ruhollah_Khomeini",
         "calendarUrl": "https://en.wikipedia.org/wiki/February_14",
         "license": {
           "name": "CC BY-SA 4.0",
@@ -50,40 +75,12 @@
         }
       },
       "image": {
-        "src": "https://commons.wikimedia.org/wiki/Special:Redirect/file/Flag_of_Denmark.svg?width=1000",
-        "alt": "The national flag of Denmark.",
-        "credit": "Danish government",
-        "source": "https://commons.wikimedia.org/wiki/File:Flag_of_Denmark.svg",
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b3/Portrait_of_Ruhollah_Khomeini_By_Ali_Kaveh.jpg/1280px-Portrait_of_Ruhollah_Khomeini_By_Ali_Kaveh.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "alt": "Picture from the Wikipedia article on Ruhollah Khomeini.",
+        "credit": "Ali Kaveh[1][2][3]",
+        "source": "https://commons.wikimedia.org/wiki/File:Portrait_of_Ruhollah_Khomeini_By_Ali_Kaveh.jpg",
         "license": "Public domain",
-        "licenseUrl": "https://commons.wikimedia.org/wiki/File:Flag_of_Denmark.svg"
-      }
-    },
-    {
-      "id": "02-14-greece-stelios-haji-ioannou",
-      "date": "02-14",
-      "dateLabel": "14 February",
-      "country": "greece",
-      "countryName": "Greece",
-      "kind": "births",
-      "year": 1967,
-      "title": "Stelios Haji-Ioannou",
-      "body": "Stelios Haji-Ioannou, Greek-English businessman, founded easyJet, was born on this day in 1967.",
-      "source": {
-        "name": "Wikipedia · Stelios Haji-Ioannou",
-        "url": "https://en.wikipedia.org/wiki/Stelios_Haji-Ioannou",
-        "calendarUrl": "https://en.wikipedia.org/wiki/February_14",
-        "license": {
-          "name": "CC BY-SA 4.0",
-          "url": "https://creativecommons.org/licenses/by-sa/4.0/"
-        }
-      },
-      "image": {
-        "src": "https://upload.wikimedia.org/wikipedia/commons/6/69/Sir_Stelios_Haji-Ioannou_Portrait.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
-        "alt": "Portrait or image of Stelios Haji-Ioannou.",
-        "credit": "easy",
-        "source": "https://commons.wikimedia.org/wiki/File:Sir_Stelios_Haji-Ioannou_Portrait.jpg",
-        "license": "CC BY 4.0",
-        "licenseUrl": "https://creativecommons.org/licenses/by/4.0"
+        "licenseUrl": "https://commons.wikimedia.org/wiki/File:Portrait_of_Ruhollah_Khomeini_By_Ali_Kaveh.jpg"
       }
     }
   ]

@@ -3,15 +3,68 @@
   "dateLabel": "4 December",
   "facts": [
     {
-      "id": "12-04-spain-boss-tweed",
+      "id": "12-04-gemini-7",
       "date": "12-04",
       "dateLabel": "4 December",
-      "country": "spain",
-      "countryName": "Spain",
-      "kind": "events",
+      "category": "space",
+      "categoryName": "Space",
+      "year": 1965,
+      "title": "Gemini 7",
+      "body": "Launch of Gemini 7 with crew members Frank Borman and Jim Lovell. The Gemini 7 spacecraft was the passive target for the first crewed space rendezvous performed by the crew of Gemini 6A.",
+      "source": {
+        "name": "Wikipedia · Gemini 7",
+        "url": "https://en.wikipedia.org/wiki/Gemini_7",
+        "calendarUrl": "https://en.wikipedia.org/wiki/December_4",
+        "license": {
+          "name": "CC BY-SA 4.0",
+          "url": "https://creativecommons.org/licenses/by-sa/4.0/"
+        }
+      },
+      "image": {
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/8d/Gemini_6_7.jpg/1280px-Gemini_6_7.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "alt": "Picture from the Wikipedia article on Gemini 7.",
+        "credit": "NASA",
+        "source": "https://commons.wikimedia.org/wiki/File:Gemini_6_7.jpg",
+        "license": "Public domain",
+        "licenseUrl": "https://commons.wikimedia.org/wiki/File:Gemini_6_7.jpg"
+      }
+    },
+    {
+      "id": "12-04-montreal-canadiens",
+      "date": "12-04",
+      "dateLabel": "4 December",
+      "category": "sport",
+      "categoryName": "Sport",
+      "year": 1909,
+      "title": "Montreal Canadiens",
+      "body": "The Montreal Canadiens ice hockey club, the oldest surviving professional hockey franchise in the world, is founded as a charter member of the National Hockey Association.",
+      "source": {
+        "name": "Wikipedia · Montreal Canadiens",
+        "url": "https://en.wikipedia.org/wiki/Montreal_Canadiens",
+        "calendarUrl": "https://en.wikipedia.org/wiki/December_4",
+        "license": {
+          "name": "CC BY-SA 4.0",
+          "url": "https://creativecommons.org/licenses/by-sa/4.0/"
+        }
+      },
+      "image": {
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/69/Montreal_Canadiens.svg/1280px-Montreal_Canadiens.svg.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "alt": "Picture from the Wikipedia article on Montreal Canadiens.",
+        "credit": "Montreal Canadiens",
+        "source": "https://commons.wikimedia.org/wiki/File:Montreal_Canadiens.svg",
+        "license": "Public domain",
+        "licenseUrl": "https://commons.wikimedia.org/wiki/File:Montreal_Canadiens.svg"
+      }
+    },
+    {
+      "id": "12-04-boss-tweed",
+      "date": "12-04",
+      "dateLabel": "4 December",
+      "category": "curious",
+      "categoryName": "Curious",
       "year": 1875,
-      "title": "Boss Tweed",
-      "body": "1875: Notorious New York City politician Boss Tweed escapes from prison; he is later recaptured in Spain.",
+      "title": "William M. Tweed",
+      "body": "Notorious New York City politician Boss Tweed escapes from prison; he is later recaptured in Spain.",
       "source": {
         "name": "Wikipedia · William M. Tweed",
         "url": "https://en.wikipedia.org/wiki/William_M._Tweed",
@@ -23,67 +76,11 @@
       },
       "image": {
         "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/24/William_M._%28Boss%29_Tweed%2C_N.Y_-_NARA_-_526217_%28cropped%29.jpg/1280px-William_M._%28Boss%29_Tweed%2C_N.Y_-_NARA_-_526217_%28cropped%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-        "alt": "Image related to Boss Tweed.",
+        "alt": "Picture from the Wikipedia article on William M. Tweed.",
         "credit": "Mathew Benjamin Brady",
         "source": "https://commons.wikimedia.org/wiki/File:William_M._(Boss)_Tweed,_N.Y_-_NARA_-_526217_(cropped).jpg",
         "license": "Public domain",
         "licenseUrl": "https://commons.wikimedia.org/wiki/File:William_M._(Boss)_Tweed,_N.Y_-_NARA_-_526217_(cropped).jpg"
-      }
-    },
-    {
-      "id": "12-04-denmark-gary-freeman-rugby-league",
-      "date": "12-04",
-      "dateLabel": "4 December",
-      "country": "denmark",
-      "countryName": "Denmark",
-      "kind": "births",
-      "year": 1962,
-      "title": "Gary Freeman",
-      "body": "Gary Freeman, New Zealand rugby league player, coach, and sportscaster, was born on this day in 1962.",
-      "source": {
-        "name": "Wikipedia · Gary Freeman (rugby league)",
-        "url": "https://en.wikipedia.org/wiki/Gary_Freeman_(rugby_league)",
-        "calendarUrl": "https://en.wikipedia.org/wiki/December_4",
-        "license": {
-          "name": "CC BY-SA 4.0",
-          "url": "https://creativecommons.org/licenses/by-sa/4.0/"
-        }
-      },
-      "image": {
-        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/16/Gary_Freeman_%2810_November_2008%29.jpg/1280px-Gary_Freeman_%2810_November_2008%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-        "alt": "Portrait or image of Gary Freeman.",
-        "credit": "paddynapper",
-        "source": "https://commons.wikimedia.org/wiki/File:Gary_Freeman_(10_November_2008).jpg",
-        "license": "CC BY-SA 2.0",
-        "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0"
-      }
-    },
-    {
-      "id": "12-04-greece-alpha-phi-alpha",
-      "date": "12-04",
-      "dateLabel": "4 December",
-      "country": "greece",
-      "countryName": "Greece",
-      "kind": "events",
-      "year": 1906,
-      "title": "Alpha Phi Alpha",
-      "body": "1906: Alpha Phi Alpha, the first intercollegiate Greek lettered fraternity for African-Americans, was founded at Cornell University in Ithaca, New York.",
-      "source": {
-        "name": "Wikipedia · Alpha Phi Alpha",
-        "url": "https://en.wikipedia.org/wiki/Alpha_Phi_Alpha",
-        "calendarUrl": "https://en.wikipedia.org/wiki/December_4",
-        "license": {
-          "name": "CC BY-SA 4.0",
-          "url": "https://creativecommons.org/licenses/by-sa/4.0/"
-        }
-      },
-      "image": {
-        "src": "https://commons.wikimedia.org/wiki/Special:Redirect/file/Flag_of_Greece.svg?width=1000",
-        "alt": "The national flag of Greece.",
-        "credit": "Greek government",
-        "source": "https://commons.wikimedia.org/wiki/File:Flag_of_Greece.svg",
-        "license": "Public domain",
-        "licenseUrl": "https://commons.wikimedia.org/wiki/File:Flag_of_Greece.svg"
       }
     }
   ]

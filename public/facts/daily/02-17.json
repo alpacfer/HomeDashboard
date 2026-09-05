@@ -3,18 +3,17 @@
   "dateLabel": "17 February",
   "facts": [
     {
-      "id": "02-17-spain-gustavo-adolfo-b-cquer",
+      "id": "02-17-discovery-program",
       "date": "02-17",
       "dateLabel": "17 February",
-      "country": "spain",
-      "countryName": "Spain",
-      "kind": "births",
-      "year": 1836,
-      "title": "Gustavo Adolfo Bécquer",
-      "body": "Gustavo Adolfo Bécquer, Spanish author, poet, and playwright (died 1870), was born on this day in 1836.",
+      "category": "space",
+      "categoryName": "Space",
+      "year": 1996,
+      "title": "Discovery Program",
+      "body": "NASA's Discovery Program begins as the NEAR Shoemaker spacecraft lifts off on the first mission ever to orbit and land on an asteroid, 433 Eros.",
       "source": {
-        "name": "Wikipedia · Gustavo Adolfo Bécquer",
-        "url": "https://en.wikipedia.org/wiki/Gustavo_Adolfo_B%C3%A9cquer",
+        "name": "Wikipedia · Discovery Program",
+        "url": "https://en.wikipedia.org/wiki/Discovery_Program",
         "calendarUrl": "https://en.wikipedia.org/wiki/February_17",
         "license": {
           "name": "CC BY-SA 4.0",
@@ -22,27 +21,26 @@
         }
       },
       "image": {
-        "src": "https://upload.wikimedia.org/wikipedia/commons/9/99/Portrait_of_Gustavo_Adolfo_B%C3%A9cquer%2C_by_his_brother_Valeriano_%281862%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
-        "alt": "Portrait or image of Gustavo Adolfo Bécquer.",
-        "credit": "Valeriano Bécquer",
-        "source": "https://commons.wikimedia.org/wiki/File:Portrait_of_Gustavo_Adolfo_B%C3%A9cquer,_by_his_brother_Valeriano_(1862).jpg",
+        "src": "https://upload.wikimedia.org/wikipedia/commons/5/54/Properties_of_regolith_on_Eros.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+        "alt": "Picture from the Wikipedia article on Discovery Program.",
+        "credit": "NASA/JPL/JHUAPL",
+        "source": "https://commons.wikimedia.org/wiki/File:Properties_of_regolith_on_Eros.jpg",
         "license": "Public domain",
-        "licenseUrl": "https://commons.wikimedia.org/wiki/File:Portrait_of_Gustavo_Adolfo_B%C3%A9cquer,_by_his_brother_Valeriano_(1862).jpg"
+        "licenseUrl": "https://commons.wikimedia.org/wiki/File:Properties_of_regolith_on_Eros.jpg"
       }
     },
     {
-      "id": "02-17-denmark-frederick-i-of-denmark",
+      "id": "02-17-mount-everest",
       "date": "02-17",
       "dateLabel": "17 February",
-      "country": "denmark",
-      "countryName": "Denmark",
-      "kind": "events",
-      "year": 1500,
-      "title": "Frederick",
-      "body": "1500: Duke Frederick of Schleswig-Holstein and King John of Denmark attempt to subdue the peasantry of Dithmarschen, Denmark, in the Battle of Hemmingstedt.",
+      "category": "science",
+      "categoryName": "Science",
+      "year": 1980,
+      "title": "Mount Everest",
+      "body": "First winter ascent of Mount Everest by Krzysztof Wielicki and Leszek Cichy.",
       "source": {
-        "name": "Wikipedia · Frederick I of Denmark",
-        "url": "https://en.wikipedia.org/wiki/Frederick_I_of_Denmark",
+        "name": "Wikipedia · Mount Everest",
+        "url": "https://en.wikipedia.org/wiki/Mount_Everest",
         "calendarUrl": "https://en.wikipedia.org/wiki/February_17",
         "license": {
           "name": "CC BY-SA 4.0",
@@ -50,40 +48,39 @@
         }
       },
       "image": {
-        "src": "https://upload.wikimedia.org/wikipedia/commons/2/2c/Frederik1dk.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
-        "alt": "Image related to Frederick.",
-        "credit": "Attributed to Jacob Binck",
-        "source": "https://commons.wikimedia.org/wiki/File:Frederik1dk.jpg",
-        "license": "Public domain",
-        "licenseUrl": "https://commons.wikimedia.org/wiki/File:Frederik1dk.jpg"
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/15/Mt._Everest_from_Gokyo_Ri_November_5%2C_2012.jpg/1280px-Mt._Everest_from_Gokyo_Ri_November_5%2C_2012.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "alt": "Picture from the Wikipedia article on Mount Everest.",
+        "credit": "Rdevany",
+        "source": "https://commons.wikimedia.org/wiki/File:Mt._Everest_from_Gokyo_Ri_November_5,_2012.jpg",
+        "license": "CC BY-SA 3.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0"
       }
     },
     {
-      "id": "02-17-greece-daylight",
+      "id": "02-17-philadelphia",
       "date": "02-17",
       "dateLabel": "17 February",
-      "country": "greece",
-      "countryName": "Greece",
-      "kind": "daylight",
-      "year": 0,
-      "title": "Athens's daylight",
-      "body": "On 17 February, Athens gets about 10 hours and 50 minutes of daylight.",
+      "category": "tech",
+      "categoryName": "Tech",
+      "year": 1996,
+      "title": "Philadelphia",
+      "body": "In Philadelphia, world champion Garry Kasparov beats the Deep Blue supercomputer in a chess match.",
       "source": {
-        "name": "NOAA Solar Calculator",
-        "url": "https://gml.noaa.gov/grad/solcalc/",
-        "calendarUrl": "https://gml.noaa.gov/grad/solcalc/calcdetails.html",
+        "name": "Wikipedia · Philadelphia",
+        "url": "https://en.wikipedia.org/wiki/Philadelphia",
+        "calendarUrl": "https://en.wikipedia.org/wiki/February_17",
         "license": {
-          "name": "public-domain NOAA method",
-          "url": "https://www.noaa.gov/disclaimer"
+          "name": "CC BY-SA 4.0",
+          "url": "https://creativecommons.org/licenses/by-sa/4.0/"
         }
       },
       "image": {
-        "src": "https://commons.wikimedia.org/wiki/Special:Redirect/file/Flag_of_Greece.svg?width=1000",
-        "alt": "The national flag of Greece.",
-        "credit": "Greek government",
-        "source": "https://commons.wikimedia.org/wiki/File:Flag_of_Greece.svg",
-        "license": "Public domain",
-        "licenseUrl": "https://commons.wikimedia.org/wiki/File:Flag_of_Greece.svg"
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/19/Philadelphia_skyline_20240528_%28cropped_2-1%29.jpg/1280px-Philadelphia_skyline_20240528_%28cropped_2-1%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "alt": "Picture from the Wikipedia article on Philadelphia.",
+        "credit": "颐园居",
+        "source": "https://commons.wikimedia.org/wiki/File:Philadelphia_skyline_20240528_(cropped_2-1).jpg",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0"
       }
     }
   ]

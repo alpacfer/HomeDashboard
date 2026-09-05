@@ -3,18 +3,17 @@
   "dateLabel": "20 April",
   "facts": [
     {
-      "id": "04-20-spain-robert-blake-admiral",
+      "id": "04-20-apollo-16",
       "date": "04-20",
       "dateLabel": "20 April",
-      "country": "spain",
-      "countryName": "Spain",
-      "kind": "events",
-      "year": 1657,
-      "title": "Robert Blake",
-      "body": "1657: English Admiral Robert Blake destroys a Spanish silver fleet, under heavy fire from the shore, at the Battle of Santa Cruz de Tenerife.",
+      "category": "space",
+      "categoryName": "Space",
+      "year": 1972,
+      "title": "Apollo 16",
+      "body": "The Apollo 16 Lunar Module Orion, commanded by John Young and piloted by Charles Duke, lands on the Moon.",
       "source": {
-        "name": "Wikipedia · Robert Blake (admiral)",
-        "url": "https://en.wikipedia.org/wiki/Robert_Blake_(admiral)",
+        "name": "Wikipedia · Apollo 16",
+        "url": "https://en.wikipedia.org/wiki/Apollo_16",
         "calendarUrl": "https://en.wikipedia.org/wiki/April_20",
         "license": {
           "name": "CC BY-SA 4.0",
@@ -22,55 +21,26 @@
         }
       },
       "image": {
-        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a1/Robert_Blake.jpg/1280px-Robert_Blake.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-        "alt": "Image related to Robert Blake.",
-        "credit": "Henry Perronet Briggs",
-        "source": "https://commons.wikimedia.org/wiki/File:Robert_Blake.jpg",
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b3/John_W._Young_on_the_Moon.jpg/1280px-John_W._Young_on_the_Moon.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "alt": "Picture from the Wikipedia article on Apollo 16.",
+        "credit": "Charlie Duke",
+        "source": "https://commons.wikimedia.org/wiki/File:John_W._Young_on_the_Moon.jpg",
         "license": "Public domain",
-        "licenseUrl": "https://commons.wikimedia.org/wiki/File:Robert_Blake.jpg"
+        "licenseUrl": "https://commons.wikimedia.org/wiki/File:John_W._Young_on_the_Moon.jpg"
       }
     },
     {
-      "id": "04-20-denmark-daylight",
+      "id": "04-20-price-of-oil",
       "date": "04-20",
       "dateLabel": "20 April",
-      "country": "denmark",
-      "countryName": "Denmark",
-      "kind": "daylight",
-      "year": 0,
-      "title": "Copenhagen's daylight",
-      "body": "On 20 April, Copenhagen gets about 14 hours and 30 minutes of daylight.",
+      "category": "world",
+      "categoryName": "World",
+      "year": 2020,
+      "title": "Price of oil",
+      "body": "For the first time in history, oil prices drop below zero, an effect of the 2020 Russia-Saudi Arabia oil price war.",
       "source": {
-        "name": "NOAA Solar Calculator",
-        "url": "https://gml.noaa.gov/grad/solcalc/",
-        "calendarUrl": "https://gml.noaa.gov/grad/solcalc/calcdetails.html",
-        "license": {
-          "name": "public-domain NOAA method",
-          "url": "https://www.noaa.gov/disclaimer"
-        }
-      },
-      "image": {
-        "src": "https://commons.wikimedia.org/wiki/Special:Redirect/file/Flag_of_Denmark.svg?width=1000",
-        "alt": "The national flag of Denmark.",
-        "credit": "Danish government",
-        "source": "https://commons.wikimedia.org/wiki/File:Flag_of_Denmark.svg",
-        "license": "Public domain",
-        "licenseUrl": "https://commons.wikimedia.org/wiki/File:Flag_of_Denmark.svg"
-      }
-    },
-    {
-      "id": "04-20-greece-augoustinos-kantiotes",
-      "date": "04-20",
-      "dateLabel": "20 April",
-      "country": "greece",
-      "countryName": "Greece",
-      "kind": "births",
-      "year": 1907,
-      "title": "Augoustinos Kantiotes",
-      "body": "Augoustinos Kantiotes, Greek bishop (died 2010), was born on this day in 1907.",
-      "source": {
-        "name": "Wikipedia · Augoustinos Kantiotes",
-        "url": "https://en.wikipedia.org/wiki/Augoustinos_Kantiotes",
+        "name": "Wikipedia · Price of oil",
+        "url": "https://en.wikipedia.org/wiki/Price_of_oil",
         "calendarUrl": "https://en.wikipedia.org/wiki/April_20",
         "license": {
           "name": "CC BY-SA 4.0",
@@ -78,12 +48,39 @@
         }
       },
       "image": {
-        "src": "https://commons.wikimedia.org/wiki/Special:Redirect/file/Flag_of_Greece.svg?width=1000",
-        "alt": "The national flag of Greece.",
-        "credit": "Greek government",
-        "source": "https://commons.wikimedia.org/wiki/File:Flag_of_Greece.svg",
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/93/Oil_price_benchmarks.webp/1280px-Oil_price_benchmarks.webp?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "alt": "Picture from the Wikipedia article on Price of oil.",
+        "credit": "Wikideas1",
+        "source": "https://commons.wikimedia.org/wiki/File:Oil_price_benchmarks.webp",
+        "license": "CC0",
+        "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/deed.en"
+      }
+    },
+    {
+      "id": "04-20-louis-pasteur",
+      "date": "04-20",
+      "dateLabel": "20 April",
+      "category": "science",
+      "categoryName": "Science",
+      "year": 1862,
+      "title": "Louis Pasteur",
+      "body": "Louis Pasteur and Claude Bernard complete the experiment disproving the theory of spontaneous generation.",
+      "source": {
+        "name": "Wikipedia · Louis Pasteur",
+        "url": "https://en.wikipedia.org/wiki/Louis_Pasteur",
+        "calendarUrl": "https://en.wikipedia.org/wiki/April_20",
+        "license": {
+          "name": "CC BY-SA 4.0",
+          "url": "https://creativecommons.org/licenses/by-sa/4.0/"
+        }
+      },
+      "image": {
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a6/Louis_Pasteur%2C_foto_av_Paul_Nadar%2C_Crisco_edit.jpg/1280px-Louis_Pasteur%2C_foto_av_Paul_Nadar%2C_Crisco_edit.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "alt": "Picture from the Wikipedia article on Louis Pasteur.",
+        "credit": "Paul Nadar",
+        "source": "https://commons.wikimedia.org/wiki/File:Louis_Pasteur,_foto_av_Paul_Nadar,_Crisco_edit.jpg",
         "license": "Public domain",
-        "licenseUrl": "https://commons.wikimedia.org/wiki/File:Flag_of_Greece.svg"
+        "licenseUrl": "https://commons.wikimedia.org/wiki/File:Louis_Pasteur,_foto_av_Paul_Nadar,_Crisco_edit.jpg"
       }
     }
   ]

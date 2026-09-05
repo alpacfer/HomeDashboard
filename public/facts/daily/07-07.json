@@ -3,18 +3,17 @@
   "dateLabel": "7 July",
   "facts": [
     {
-      "id": "07-07-spain-conquistador",
+      "id": "07-07-venus",
       "date": "07-07",
       "dateLabel": "7 July",
-      "country": "spain",
-      "countryName": "Spain",
-      "kind": "events",
-      "year": 1520,
-      "title": "conquistador",
-      "body": "1520: Spanish conquistadores defeat a larger Aztec army at the Battle of Otumba.",
+      "category": "space",
+      "categoryName": "Space",
+      "year": 1959,
+      "title": "Venus",
+      "body": "Venus occults the star Regulus. This rare event is used to determine the diameter of Venus and the structure of the Venusian atmosphere.",
       "source": {
-        "name": "Wikipedia · Conquistador",
-        "url": "https://en.wikipedia.org/wiki/Conquistador",
+        "name": "Wikipedia · Venus",
+        "url": "https://en.wikipedia.org/wiki/Venus",
         "calendarUrl": "https://en.wikipedia.org/wiki/July_7",
         "license": {
           "name": "CC BY-SA 4.0",
@@ -22,27 +21,53 @@
         }
       },
       "image": {
-        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/de/Alberto_del_Canto5.jpg/1280px-Alberto_del_Canto5.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-        "alt": "Image related to conquistador.",
-        "credit": "Ricardo DelaG",
-        "source": "https://commons.wikimedia.org/wiki/File:Alberto_del_Canto5.jpg",
+        "src": "https://upload.wikimedia.org/wikipedia/commons/0/08/Venus_from_Mariner_10.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+        "alt": "Picture from the Wikipedia article on Venus.",
+        "credit": "NASA/JPL-Caltech",
+        "source": "https://commons.wikimedia.org/wiki/File:Venus_from_Mariner_10.jpg",
+        "license": "Public domain",
+        "licenseUrl": "https://commons.wikimedia.org/wiki/File:Venus_from_Mariner_10.jpg"
+      }
+    },
+    {
+      "id": "07-07-boris-becker",
+      "date": "07-07",
+      "dateLabel": "7 July",
+      "category": "sport",
+      "categoryName": "Sport",
+      "year": 1985,
+      "title": "Boris Becker",
+      "body": "Boris Becker becomes the youngest male player ever to win Wimbledon at age 17.",
+      "source": {
+        "name": "Wikipedia · Boris Becker",
+        "url": "https://en.wikipedia.org/wiki/Boris_Becker",
+        "calendarUrl": "https://en.wikipedia.org/wiki/July_7",
+        "license": {
+          "name": "CC BY-SA 4.0",
+          "url": "https://creativecommons.org/licenses/by-sa/4.0/"
+        }
+      },
+      "image": {
+        "src": "https://upload.wikimedia.org/wikipedia/commons/c/cb/Boris_Becker_-_240422_174721_%28cropped%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+        "alt": "Picture from the Wikipedia article on Boris Becker.",
+        "credit": "Barcex",
+        "source": "https://commons.wikimedia.org/wiki/File:Boris_Becker_-_240422_174721_(cropped).jpg",
         "license": "CC BY-SA 4.0",
         "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0"
       }
     },
     {
-      "id": "07-07-denmark-new-zealand-labour-party",
+      "id": "07-07-opportunity-rover",
       "date": "07-07",
       "dateLabel": "7 July",
-      "country": "denmark",
-      "countryName": "Denmark",
-      "kind": "events",
-      "year": 1916,
-      "title": "New Zealand Labour Party",
-      "body": "1916: The New Zealand Labour Party was founded in Wellington.",
+      "category": "space",
+      "categoryName": "Space",
+      "year": 2003,
+      "title": "Opportunity",
+      "body": "NASA Opportunity rover, MER-B or Mars Exploration Rover–B, was launched into space aboard a Delta II rocket.",
       "source": {
-        "name": "Wikipedia · New Zealand Labour Party",
-        "url": "https://en.wikipedia.org/wiki/New_Zealand_Labour_Party",
+        "name": "Wikipedia · Opportunity (rover)",
+        "url": "https://en.wikipedia.org/wiki/Opportunity_(rover)",
         "calendarUrl": "https://en.wikipedia.org/wiki/July_7",
         "license": {
           "name": "CC BY-SA 4.0",
@@ -50,40 +75,12 @@
         }
       },
       "image": {
-        "src": "https://commons.wikimedia.org/wiki/Special:Redirect/file/Flag_of_Denmark.svg?width=1000",
-        "alt": "The national flag of Denmark.",
-        "credit": "Danish government",
-        "source": "https://commons.wikimedia.org/wiki/File:Flag_of_Denmark.svg",
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d8/NASA_Mars_Rover.jpg/1280px-NASA_Mars_Rover.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "alt": "Picture from the Wikipedia article on Opportunity.",
+        "credit": "NASA/JPL/Cornell University, Maas Digital LLC",
+        "source": "https://commons.wikimedia.org/wiki/File:NASA_Mars_Rover.jpg",
         "license": "Public domain",
-        "licenseUrl": "https://commons.wikimedia.org/wiki/File:Flag_of_Denmark.svg"
-      }
-    },
-    {
-      "id": "07-07-greece-eudoxia-epiphania",
-      "date": "07-07",
-      "dateLabel": "7 July",
-      "country": "greece",
-      "countryName": "Greece",
-      "kind": "births",
-      "year": 611,
-      "title": "Eudoxia Epiphania",
-      "body": "Eudoxia Epiphania, daughter of Byzantine emperor Heraclius, was born on this day in 611.",
-      "source": {
-        "name": "Wikipedia · Eudoxia Epiphania",
-        "url": "https://en.wikipedia.org/wiki/Eudoxia_Epiphania",
-        "calendarUrl": "https://en.wikipedia.org/wiki/July_7",
-        "license": {
-          "name": "CC BY-SA 4.0",
-          "url": "https://creativecommons.org/licenses/by-sa/4.0/"
-        }
-      },
-      "image": {
-        "src": "https://commons.wikimedia.org/wiki/Special:Redirect/file/Flag_of_Greece.svg?width=1000",
-        "alt": "The national flag of Greece.",
-        "credit": "Greek government",
-        "source": "https://commons.wikimedia.org/wiki/File:Flag_of_Greece.svg",
-        "license": "Public domain",
-        "licenseUrl": "https://commons.wikimedia.org/wiki/File:Flag_of_Greece.svg"
+        "licenseUrl": "https://commons.wikimedia.org/wiki/File:NASA_Mars_Rover.jpg"
       }
     }
   ]

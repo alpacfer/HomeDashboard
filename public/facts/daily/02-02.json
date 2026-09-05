@@ -3,18 +3,17 @@
   "dateLabel": "2 February",
   "facts": [
     {
-      "id": "02-02-spain-pedro-de-mendoza",
+      "id": "02-02-federal-bureau-of-investigation",
       "date": "02-02",
       "dateLabel": "2 February",
-      "country": "spain",
-      "countryName": "Spain",
-      "kind": "events",
-      "year": 1536,
-      "title": "Pedro de Mendoza",
-      "body": "1536: Spaniard Pedro de Mendoza founds Buenos Aires, Argentina.",
+      "category": "world",
+      "categoryName": "World",
+      "year": 1980,
+      "title": "Federal Bureau of Investigation",
+      "body": "Reports surface that the FBI is targeting allegedly corrupt Congressmen in the Abscam operation.",
       "source": {
-        "name": "Wikipedia · Pedro de Mendoza",
-        "url": "https://en.wikipedia.org/wiki/Pedro_de_Mendoza",
+        "name": "Wikipedia · Federal Bureau of Investigation",
+        "url": "https://en.wikipedia.org/wiki/Federal_Bureau_of_Investigation",
         "calendarUrl": "https://en.wikipedia.org/wiki/February_2",
         "license": {
           "name": "CC BY-SA 4.0",
@@ -22,68 +21,66 @@
         }
       },
       "image": {
-        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/49/Buenos_Aires_-_San_Telmo_-_Parque_Lezama_-_20071215c.jpg/1280px-Buenos_Aires_-_San_Telmo_-_Parque_Lezama_-_20071215c.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-        "alt": "Image related to Pedro de Mendoza.",
-        "credit": "Taken by the uploader, w:es:Usuario:Barcex",
-        "source": "https://commons.wikimedia.org/wiki/File:Buenos_Aires_-_San_Telmo_-_Parque_Lezama_-_20071215c.jpg",
-        "license": "CC BY-SA 3.0",
-        "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0/"
-      }
-    },
-    {
-      "id": "02-02-denmark-battle-of-luneberg-heath",
-      "date": "02-02",
-      "dateLabel": "2 February",
-      "country": "denmark",
-      "countryName": "Denmark",
-      "kind": "events",
-      "year": 880,
-      "title": "Battle of Lüneburg Heath",
-      "body": "880: Battle of Lüneburg Heath: King Louis III of France is defeated by the Norse Great Heathen Army at Lüneburg Heath in Saxony.",
-      "source": {
-        "name": "Wikipedia · Battle of Lüneburg Heath",
-        "url": "https://en.wikipedia.org/wiki/Battle_of_L%C3%BCneburg_Heath",
-        "calendarUrl": "https://en.wikipedia.org/wiki/February_2",
-        "license": {
-          "name": "CC BY-SA 4.0",
-          "url": "https://creativecommons.org/licenses/by-sa/4.0/"
-        }
-      },
-      "image": {
-        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/0d/L%C3%BCneburger_Heide_109.jpg/1280px-L%C3%BCneburger_Heide_109.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-        "alt": "Image related to Battle of Lüneburg Heath.",
-        "credit": "Willow",
-        "source": "https://commons.wikimedia.org/wiki/File:L%C3%BCneburger_Heide_109.jpg",
-        "license": "CC BY 2.5",
-        "licenseUrl": "https://creativecommons.org/licenses/by/2.5"
-      }
-    },
-    {
-      "id": "02-02-greece-anna-of-savoy",
-      "date": "02-02",
-      "dateLabel": "2 February",
-      "country": "greece",
-      "countryName": "Greece",
-      "kind": "events",
-      "year": 1347,
-      "title": "Byzantine Empress Anna",
-      "body": "1347: Byzantine Empress Anna convenes a synod to depose patriarch Joseph XIV in Constantinople. The same night, conspirators let in her rival John VI Kantakouzenos which ends the Byzantine civil war of 1341–1347.",
-      "source": {
-        "name": "Wikipedia · Anna of Savoy",
-        "url": "https://en.wikipedia.org/wiki/Anna_of_Savoy",
-        "calendarUrl": "https://en.wikipedia.org/wiki/February_2",
-        "license": {
-          "name": "CC BY-SA 4.0",
-          "url": "https://creativecommons.org/licenses/by-sa/4.0/"
-        }
-      },
-      "image": {
-        "src": "https://upload.wikimedia.org/wikipedia/commons/1/1b/Anna_of_Savoy.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
-        "alt": "Image related to Byzantine Empress Anna.",
-        "credit": "EmpressAnnaofSavoy.JPG: unknown, Byzantine period art derivative work: Constantine ✍",
-        "source": "https://commons.wikimedia.org/wiki/File:Anna_of_Savoy.jpg",
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/72/New_seal_of_the_Federal_Bureau_of_Investigation.svg/1280px-New_seal_of_the_Federal_Bureau_of_Investigation.svg.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "alt": "Picture from the Wikipedia article on Federal Bureau of Investigation.",
+        "credit": "Vectorized by Siar O",
+        "source": "https://commons.wikimedia.org/wiki/File:New_seal_of_the_Federal_Bureau_of_Investigation.svg",
         "license": "Public domain",
-        "licenseUrl": "https://commons.wikimedia.org/wiki/File:Anna_of_Savoy.jpg"
+        "licenseUrl": "https://commons.wikimedia.org/wiki/File:New_seal_of_the_Federal_Bureau_of_Investigation.svg"
+      }
+    },
+    {
+      "id": "02-02-ural-mountains",
+      "date": "02-02",
+      "dateLabel": "2 February",
+      "category": "curious",
+      "categoryName": "Curious",
+      "year": 1959,
+      "title": "Ural Mountains",
+      "body": "Nine experienced ski hikers in the northern Ural Mountains in the Soviet Union die under mysterious circumstances.",
+      "source": {
+        "name": "Wikipedia · Ural Mountains",
+        "url": "https://en.wikipedia.org/wiki/Ural_Mountains",
+        "calendarUrl": "https://en.wikipedia.org/wiki/February_2",
+        "license": {
+          "name": "CC BY-SA 4.0",
+          "url": "https://creativecommons.org/licenses/by-sa/4.0/"
+        }
+      },
+      "image": {
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/ef/Landscape_view_in_Circumpolar_Urals.jpg/1280px-Landscape_view_in_Circumpolar_Urals.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "alt": "Picture from the Wikipedia article on Ural Mountains.",
+        "credit": "ugraland [1] from Moscow, Russia",
+        "source": "https://commons.wikimedia.org/wiki/File:Landscape_view_in_Circumpolar_Urals.jpg",
+        "license": "CC BY 2.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by/2.0"
+      }
+    },
+    {
+      "id": "02-02-tennis",
+      "date": "02-02",
+      "dateLabel": "2 February",
+      "category": "sport",
+      "categoryName": "Sport",
+      "year": 2004,
+      "title": "Tennis",
+      "body": "Swiss tennis player Roger Federer becomes the No. 1 ranked men's singles player, a position he will hold for a record 237 weeks.",
+      "source": {
+        "name": "Wikipedia · Tennis",
+        "url": "https://en.wikipedia.org/wiki/Tennis",
+        "calendarUrl": "https://en.wikipedia.org/wiki/February_2",
+        "license": {
+          "name": "CC BY-SA 4.0",
+          "url": "https://creativecommons.org/licenses/by-sa/4.0/"
+        }
+      },
+      "image": {
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/94/2013_Australian_Open_-_Guillaume_Rufin.jpg/1280px-2013_Australian_Open_-_Guillaume_Rufin.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "alt": "Picture from the Wikipedia article on Tennis.",
+        "credit": "Brendan Dennis",
+        "source": "https://commons.wikimedia.org/wiki/File:2013_Australian_Open_-_Guillaume_Rufin.jpg",
+        "license": "CC BY-SA 3.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0"
       }
     }
   ]

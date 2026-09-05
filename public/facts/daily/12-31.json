@@ -3,18 +3,17 @@
   "dateLabel": "31 December",
   "facts": [
     {
-      "id": "12-31-spain-james-i-of-aragon",
+      "id": "12-31-grail",
       "date": "12-31",
       "dateLabel": "31 December",
-      "country": "spain",
-      "countryName": "Spain",
-      "kind": "events",
-      "year": 1229,
-      "title": "James I the Conqueror",
-      "body": "1229: James I the Conqueror, King of Aragon, enters Medina Mayurqa (now known as Palma de Mallorca, Spain), thus consummating the Christian reconquest of the island of Mallorca.",
+      "category": "space",
+      "categoryName": "Space",
+      "year": 2011,
+      "title": "GRAIL",
+      "body": "NASA succeeds in putting the first of two Gravity Recovery and Interior Laboratory satellites in orbit around the Moon.",
       "source": {
-        "name": "Wikipedia · James I of Aragon",
-        "url": "https://en.wikipedia.org/wiki/James_I_of_Aragon",
+        "name": "Wikipedia · GRAIL",
+        "url": "https://en.wikipedia.org/wiki/GRAIL",
         "calendarUrl": "https://en.wikipedia.org/wiki/December_31",
         "license": {
           "name": "CC BY-SA 4.0",
@@ -22,27 +21,26 @@
         }
       },
       "image": {
-        "src": "https://upload.wikimedia.org/wikipedia/commons/6/60/Jaime_I_de_Arag%C3%B3n.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
-        "alt": "Image related to James I the Conqueror.",
-        "credit": "Incipit_Vidal_Mayor.jpg: Vidal de Canellas y cancillería real del rey de Aragón. derivative work: Escarlati (talk)",
-        "source": "https://commons.wikimedia.org/wiki/File:Jaime_I_de_Arag%C3%B3n.jpg",
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/cd/GRAIL.jpg/1280px-GRAIL.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "alt": "Picture from the Wikipedia article on GRAIL.",
+        "credit": "NASA",
+        "source": "https://commons.wikimedia.org/wiki/File:GRAIL.jpg",
         "license": "Public domain",
-        "licenseUrl": "https://commons.wikimedia.org/wiki/File:Jaime_I_de_Arag%C3%B3n.jpg"
+        "licenseUrl": "https://commons.wikimedia.org/wiki/File:GRAIL.jpg"
       }
     },
     {
-      "id": "12-31-denmark-vaughan-jones",
+      "id": "12-31-general-motors",
       "date": "12-31",
       "dateLabel": "31 December",
-      "country": "denmark",
-      "countryName": "Denmark",
-      "kind": "births",
-      "year": 1952,
-      "title": "Vaughan Jones",
-      "body": "Vaughan Jones, New Zealand mathematician and academic (died 2020), was born on this day in 1952.",
+      "category": "world",
+      "categoryName": "World",
+      "year": 1955,
+      "title": "General Motors",
+      "body": "General Motors becomes the first U.S. corporation to make over US$1 billion in a year.",
       "source": {
-        "name": "Wikipedia · Vaughan Jones",
-        "url": "https://en.wikipedia.org/wiki/Vaughan_Jones",
+        "name": "Wikipedia · General Motors",
+        "url": "https://en.wikipedia.org/wiki/General_Motors",
         "calendarUrl": "https://en.wikipedia.org/wiki/December_31",
         "license": {
           "name": "CC BY-SA 4.0",
@@ -50,40 +48,39 @@
         }
       },
       "image": {
-        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/ec/Vaughan_Jones_2018_%28cropped%29.JPG/1280px-Vaughan_Jones_2018_%28cropped%29.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-        "alt": "Portrait or image of Vaughan Jones.",
-        "credit": "George M. Bergman",
-        "source": "https://commons.wikimedia.org/wiki/File:Vaughan_Jones_2018_(cropped).JPG",
-        "license": "CC BY-SA 4.0",
-        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0"
-      }
-    },
-    {
-      "id": "12-31-greece-byzantine-empire",
-      "date": "12-31",
-      "dateLabel": "31 December",
-      "country": "greece",
-      "countryName": "Greece",
-      "kind": "events",
-      "year": 535,
-      "title": "Byzantine",
-      "body": "535: Byzantine general Belisarius completes the conquest of Sicily, defeating the Gothic garrison of Palermo (Panormos), and ending his consulship for the year.",
-      "source": {
-        "name": "Wikipedia · Byzantine Empire",
-        "url": "https://en.wikipedia.org/wiki/Byzantine_Empire",
-        "calendarUrl": "https://en.wikipedia.org/wiki/December_31",
-        "license": {
-          "name": "CC BY-SA 4.0",
-          "url": "https://creativecommons.org/licenses/by-sa/4.0/"
-        }
-      },
-      "image": {
-        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/69/Red_Eastern_Roman_Empire_565_CE.svg/1280px-Red_Eastern_Roman_Empire_565_CE.svg.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-        "alt": "Image related to Byzantine.",
-        "credit": "PortosPL31",
-        "source": "https://commons.wikimedia.org/wiki/File:Red_Eastern_Roman_Empire_565_CE.svg",
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/00/Hudson%E2%80%99s_Detroit_Building_2026-01-01.jpg/1280px-Hudson%E2%80%99s_Detroit_Building_2026-01-01.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "alt": "Picture from the Wikipedia article on General Motors.",
+        "credit": "TheWxResearcher",
+        "source": "https://commons.wikimedia.org/wiki/File:Hudson%E2%80%99s_Detroit_Building_2026-01-01.jpg",
         "license": "CC0",
         "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/deed.en"
+      }
+    },
+    {
+      "id": "12-31-covid-19-vaccine",
+      "date": "12-31",
+      "dateLabel": "31 December",
+      "category": "science",
+      "categoryName": "Science",
+      "year": 2020,
+      "title": "COVID-19 vaccine",
+      "body": "The World Health Organization issues its first emergency use validation for a COVID-19 vaccine.",
+      "source": {
+        "name": "Wikipedia · COVID-19 vaccine",
+        "url": "https://en.wikipedia.org/wiki/COVID-19_vaccine",
+        "calendarUrl": "https://en.wikipedia.org/wiki/December_31",
+        "license": {
+          "name": "CC BY-SA 4.0",
+          "url": "https://creativecommons.org/licenses/by-sa/4.0/"
+        }
+      },
+      "image": {
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/8b/Corona_vaccination_mechanism.webm/1280px--Corona_vaccination_mechanism.webm.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo",
+        "alt": "Picture from the Wikipedia article on COVID-19 vaccine.",
+        "credit": "Lasse Folkersen og Ann-Louise Bergström",
+        "source": "https://commons.wikimedia.org/wiki/File:Corona_vaccination_mechanism.webm",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0"
       }
     }
   ]

@@ -3,18 +3,17 @@
   "dateLabel": "25 August",
   "facts": [
     {
-      "id": "08-25-spain-war-of-the-portuguese-succession",
+      "id": "08-25-great-moon-hoax",
       "date": "08-25",
       "dateLabel": "25 August",
-      "country": "spain",
-      "countryName": "Spain",
-      "kind": "events",
-      "year": 1580,
-      "title": "War of the Portuguese Succession",
-      "body": "1580: War of the Portuguese Succession: Spanish victory at the Battle of Alcântara brings about the Iberian Union.",
+      "category": "curious",
+      "categoryName": "Curious",
+      "year": 1835,
+      "title": "Great Moon Hoax",
+      "body": "The first Great Moon Hoax article is published in The New York Sun, announcing the discovery of life and civilization on the Moon.",
       "source": {
-        "name": "Wikipedia · War of the Portuguese Succession",
-        "url": "https://en.wikipedia.org/wiki/War_of_the_Portuguese_Succession",
+        "name": "Wikipedia · Great Moon Hoax",
+        "url": "https://en.wikipedia.org/wiki/Great_Moon_Hoax",
         "calendarUrl": "https://en.wikipedia.org/wiki/August_25",
         "license": {
           "name": "CC BY-SA 4.0",
@@ -22,27 +21,26 @@
         }
       },
       "image": {
-        "src": "https://upload.wikimedia.org/wikipedia/commons/5/58/Desembarcoislasterceiras.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
-        "alt": "Image related to War of the Portuguese Succession.",
-        "credit": "Wikimedia Commons contributor",
-        "source": "https://commons.wikimedia.org/wiki/File:Desembarcoislasterceiras.jpg",
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/70/Great_Moon_Hoax_-_Day_4.jpg/1280px-Great_Moon_Hoax_-_Day_4.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "alt": "Picture from the Wikipedia article on Great Moon Hoax.",
+        "credit": "Benjamin Henry Day (1810-1889)",
+        "source": "https://commons.wikimedia.org/wiki/File:Great_Moon_Hoax_-_Day_4.jpg",
         "license": "Public domain",
-        "licenseUrl": "https://commons.wikimedia.org/wiki/File:Desembarcoislasterceiras.jpg"
+        "licenseUrl": "https://commons.wikimedia.org/wiki/File:Great_Moon_Hoax_-_Day_4.jpg"
       }
     },
     {
-      "id": "08-25-denmark-sille-lundquist",
+      "id": "08-25-linus-torvalds",
       "date": "08-25",
       "dateLabel": "25 August",
-      "country": "denmark",
-      "countryName": "Denmark",
-      "kind": "births",
-      "year": 1970,
-      "title": "Sille Lundquist",
-      "body": "Sille Lundquist, Danish model and fashion model (died 2018), was born on this day in 1970.",
+      "category": "tech",
+      "categoryName": "Tech",
+      "year": 1991,
+      "title": "Linus Torvalds",
+      "body": "Linus Torvalds announces the first version of what will become Linux.",
       "source": {
-        "name": "Wikipedia · Sille Lundquist",
-        "url": "https://en.wikipedia.org/wiki/Sille_Lundquist",
+        "name": "Wikipedia · Linus Torvalds",
+        "url": "https://en.wikipedia.org/wiki/Linus_Torvalds",
         "calendarUrl": "https://en.wikipedia.org/wiki/August_25",
         "license": {
           "name": "CC BY-SA 4.0",
@@ -50,27 +48,26 @@
         }
       },
       "image": {
-        "src": "https://commons.wikimedia.org/wiki/Special:Redirect/file/Flag_of_Denmark.svg?width=1000",
-        "alt": "The national flag of Denmark.",
-        "credit": "Danish government",
-        "source": "https://commons.wikimedia.org/wiki/File:Flag_of_Denmark.svg",
-        "license": "Public domain",
-        "licenseUrl": "https://commons.wikimedia.org/wiki/File:Flag_of_Denmark.svg"
+        "src": "https://upload.wikimedia.org/wikipedia/commons/0/01/LinuxCon_Europe_Linus_Torvalds_03_%28cropped%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+        "alt": "Picture from the Wikipedia article on Linus Torvalds.",
+        "credit": "Krd (photo)Von Sprat (crop/extraction)",
+        "source": "https://commons.wikimedia.org/wiki/File:LinuxCon_Europe_Linus_Torvalds_03_(cropped).jpg",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0"
       }
     },
     {
-      "id": "08-25-greece-nicholas-a-peppas",
+      "id": "08-25-voyager-1",
       "date": "08-25",
       "dateLabel": "25 August",
-      "country": "greece",
-      "countryName": "Greece",
-      "kind": "births",
-      "year": 1948,
-      "title": "Nicholas A. Peppas",
-      "body": "Nicholas A. Peppas, Greek chemist and biologist, was born on this day in 1948.",
+      "category": "space",
+      "categoryName": "Space",
+      "year": 2012,
+      "title": "Voyager 1",
+      "body": "Voyager 1 spacecraft enters interstellar space, becoming the first man-made object to do so.",
       "source": {
-        "name": "Wikipedia · Nicholas A. Peppas",
-        "url": "https://en.wikipedia.org/wiki/Nicholas_A._Peppas",
+        "name": "Wikipedia · Voyager 1",
+        "url": "https://en.wikipedia.org/wiki/Voyager_1",
         "calendarUrl": "https://en.wikipedia.org/wiki/August_25",
         "license": {
           "name": "CC BY-SA 4.0",
@@ -78,12 +75,12 @@
         }
       },
       "image": {
-        "src": "https://upload.wikimedia.org/wikipedia/commons/8/89/Peppasdec2014.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
-        "alt": "Portrait or image of Nicholas A. Peppas.",
-        "credit": "Apwebmaster",
-        "source": "https://commons.wikimedia.org/wiki/File:Peppasdec2014.jpg",
-        "license": "CC BY-SA 3.0",
-        "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0"
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/60/Voyager_spacecraft_model.png/1280px-Voyager_spacecraft_model.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "alt": "Picture from the Wikipedia article on Voyager 1.",
+        "credit": "National Aeronautics and Space Administration (NASA)",
+        "source": "https://commons.wikimedia.org/wiki/File:Voyager_spacecraft_model.png",
+        "license": "Public domain",
+        "licenseUrl": "https://commons.wikimedia.org/wiki/File:Voyager_spacecraft_model.png"
       }
     }
   ]

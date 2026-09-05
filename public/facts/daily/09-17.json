@@ -3,18 +3,17 @@
   "dateLabel": "17 September",
   "facts": [
     {
-      "id": "09-17-spain-battle-of-vilanova",
+      "id": "09-17-linux",
       "date": "09-17",
       "dateLabel": "17 September",
-      "country": "spain",
-      "countryName": "Spain",
-      "kind": "events",
-      "year": 1658,
-      "title": "Battle of Vilanova",
-      "body": "1658: The Battle of Vilanova is fought between Portugal and Spain during the Portuguese Restoration War.",
+      "category": "tech",
+      "categoryName": "Tech",
+      "year": 1991,
+      "title": "Linux",
+      "body": "The first version of the Linux kernel (0.01) is released to the Internet.",
       "source": {
-        "name": "Wikipedia · Battle of Vilanova",
-        "url": "https://en.wikipedia.org/wiki/Battle_of_Vilanova",
+        "name": "Wikipedia · Linux",
+        "url": "https://en.wikipedia.org/wiki/Linux",
         "calendarUrl": "https://en.wikipedia.org/wiki/September_17",
         "license": {
           "name": "CC BY-SA 4.0",
@@ -22,27 +21,26 @@
         }
       },
       "image": {
-        "src": "https://commons.wikimedia.org/wiki/Special:Redirect/file/Flag_of_Spain.svg?width=1000",
-        "alt": "The national flag of Spain.",
-        "credit": "Government of Spain",
-        "source": "https://commons.wikimedia.org/wiki/File:Flag_of_Spain.svg",
-        "license": "Public domain",
-        "licenseUrl": "https://commons.wikimedia.org/wiki/File:Flag_of_Spain.svg"
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/35/Tux.svg/1280px-Tux.svg.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "alt": "Picture from the Wikipedia article on Linux.",
+        "credit": "Larry Ewing (lewing@isc.tamu.edu) and The GIMP",
+        "source": "https://commons.wikimedia.org/wiki/File:Tux.svg",
+        "license": "Attribution",
+        "licenseUrl": "https://commons.wikimedia.org/wiki/File:Tux.svg"
       }
     },
     {
-      "id": "09-17-denmark-hedwig-ross",
+      "id": "09-17-space-shuttle-enterprise",
       "date": "09-17",
       "dateLabel": "17 September",
-      "country": "denmark",
-      "countryName": "Denmark",
-      "kind": "births",
-      "year": 1900,
-      "title": "Hedwig Ross",
-      "body": "Hedwig Ross, New Zealand-born educator and political activist, founding member of the Communist Party of New Zealand (died 1971), was born on this day in 1900.",
+      "category": "space",
+      "categoryName": "Space",
+      "year": 1976,
+      "title": "Space Shuttle Enterprise",
+      "body": "The Space Shuttle Enterprise is unveiled by NASA.",
       "source": {
-        "name": "Wikipedia · Hedwig Ross",
-        "url": "https://en.wikipedia.org/wiki/Hedwig_Ross",
+        "name": "Wikipedia · Space Shuttle Enterprise",
+        "url": "https://en.wikipedia.org/wiki/Space_Shuttle_Enterprise",
         "calendarUrl": "https://en.wikipedia.org/wiki/September_17",
         "license": {
           "name": "CC BY-SA 4.0",
@@ -50,27 +48,26 @@
         }
       },
       "image": {
-        "src": "https://commons.wikimedia.org/wiki/Special:Redirect/file/Flag_of_Denmark.svg?width=1000",
-        "alt": "The national flag of Denmark.",
-        "credit": "Danish government",
-        "source": "https://commons.wikimedia.org/wiki/File:Flag_of_Denmark.svg",
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/72/Enterprise_free_flight.jpg/1280px-Enterprise_free_flight.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "alt": "Picture from the Wikipedia article on Space Shuttle Enterprise.",
+        "credit": "NASA",
+        "source": "https://commons.wikimedia.org/wiki/File:Enterprise_free_flight.jpg",
         "license": "Public domain",
-        "licenseUrl": "https://commons.wikimedia.org/wiki/File:Flag_of_Denmark.svg"
+        "licenseUrl": "https://commons.wikimedia.org/wiki/File:Enterprise_free_flight.jpg"
       }
     },
     {
-      "id": "09-17-greece-battle-of-myriokephalon",
+      "id": "09-17-vanessa-williams",
       "date": "09-17",
       "dateLabel": "17 September",
-      "country": "greece",
-      "countryName": "Greece",
-      "kind": "events",
-      "year": 1176,
-      "title": "Battle of Myriokephalon",
-      "body": "1176: The Battle of Myriokephalon is the last attempt by the Byzantine Empire to recover central Anatolia from the Seljuk Turks.",
+      "category": "world",
+      "categoryName": "World",
+      "year": 1983,
+      "title": "Vanessa Williams",
+      "body": "Vanessa Williams becomes the first black Miss America.",
       "source": {
-        "name": "Wikipedia · Battle of Myriokephalon",
-        "url": "https://en.wikipedia.org/wiki/Battle_of_Myriokephalon",
+        "name": "Wikipedia · Vanessa Williams",
+        "url": "https://en.wikipedia.org/wiki/Vanessa_Williams",
         "calendarUrl": "https://en.wikipedia.org/wiki/September_17",
         "license": {
           "name": "CC BY-SA 4.0",
@@ -78,12 +75,12 @@
         }
       },
       "image": {
-        "src": "https://upload.wikimedia.org/wikipedia/commons/8/82/Crusades_surprised_by_turks.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
-        "alt": "Image related to Battle of Myriokephalon.",
-        "credit": "Wikimedia Commons contributor",
-        "source": "https://commons.wikimedia.org/wiki/File:Crusades_surprised_by_turks.jpg",
-        "license": "Public domain",
-        "licenseUrl": "https://commons.wikimedia.org/wiki/File:Crusades_surprised_by_turks.jpg"
+        "src": "https://upload.wikimedia.org/wikipedia/commons/f/f2/Vanessa_Williams_April_2019.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+        "alt": "Picture from the Wikipedia article on Vanessa Williams.",
+        "credit": "WBLS",
+        "source": "https://commons.wikimedia.org/wiki/File:Vanessa_Williams_April_2019.png",
+        "license": "CC BY 3.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by/3.0"
       }
     }
   ]

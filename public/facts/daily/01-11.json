@@ -3,18 +3,17 @@
   "dateLabel": "11 January",
   "facts": [
     {
-      "id": "01-11-spain-arauco-war",
+      "id": "01-11-pikku-kakkonen",
       "date": "01-11",
       "dateLabel": "11 January",
-      "country": "spain",
-      "countryName": "Spain",
-      "kind": "events",
-      "year": 1654,
-      "title": "Arauco War",
-      "body": "1654: Arauco War: A Spanish army is defeated by local Mapuche-Huilliches as it tries to cross Bueno River in Southern Chile.",
+      "category": "culture",
+      "categoryName": "Culture",
+      "year": 1977,
+      "title": "Pikku Kakkonen",
+      "body": "The first episode of Finnish children's TV show Pikku Kakkonen (\"Little Number Two\") is aired on Yle TV2.",
       "source": {
-        "name": "Wikipedia · Arauco War",
-        "url": "https://en.wikipedia.org/wiki/Arauco_War",
+        "name": "Wikipedia · Pikku Kakkonen",
+        "url": "https://en.wikipedia.org/wiki/Pikku_Kakkonen",
         "calendarUrl": "https://en.wikipedia.org/wiki/January_11",
         "license": {
           "name": "CC BY-SA 4.0",
@@ -22,27 +21,26 @@
         }
       },
       "image": {
-        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/14/Mapa_Chile_Espa%C3%B1oles_y_Araucanos.jpg/1280px-Mapa_Chile_Espa%C3%B1oles_y_Araucanos.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-        "alt": "Image related to Arauco War.",
-        "credit": "Tomas Lopez compuesto por el mapa manuscrito de Poncho Chileno, Madrid 1777",
-        "source": "https://commons.wikimedia.org/wiki/File:Mapa_Chile_Espa%C3%B1oles_y_Araucanos.jpg",
-        "license": "Public domain",
-        "licenseUrl": "https://commons.wikimedia.org/wiki/File:Mapa_Chile_Espa%C3%B1oles_y_Araucanos.jpg"
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e5/Pikku-kakkosen-puisto.jpg/1280px-Pikku-kakkosen-puisto.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "alt": "Picture from the Wikipedia article on Pikku Kakkonen.",
+        "credit": "Aleksi Kinnunen",
+        "source": "https://commons.wikimedia.org/wiki/File:Pikku-kakkosen-puisto.jpg",
+        "license": "CC BY-SA 3.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0"
       }
     },
     {
-      "id": "01-11-denmark-nicolas-steno",
+      "id": "01-11-major-league-baseball",
       "date": "01-11",
       "dateLabel": "11 January",
-      "country": "denmark",
-      "countryName": "Denmark",
-      "kind": "births",
-      "year": 1638,
-      "title": "Nicolas Steno",
-      "body": "Nicolas Steno, Danish bishop and anatomist (died 1686), was born on this day in 1638.",
+      "category": "sport",
+      "categoryName": "Sport",
+      "year": 1973,
+      "title": "Major League Baseball",
+      "body": "Major League Baseball owners vote in approval of the American League adopting the designated hitter position.",
       "source": {
-        "name": "Wikipedia · Nicolas Steno",
-        "url": "https://en.wikipedia.org/wiki/Nicolas_Steno",
+        "name": "Wikipedia · Major League Baseball",
+        "url": "https://en.wikipedia.org/wiki/Major_League_Baseball",
         "calendarUrl": "https://en.wikipedia.org/wiki/January_11",
         "license": {
           "name": "CC BY-SA 4.0",
@@ -50,27 +48,26 @@
         }
       },
       "image": {
-        "src": "https://upload.wikimedia.org/wikipedia/commons/9/97/Stensen_Schwerin.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
-        "alt": "Portrait or image of Nicolas Steno.",
-        "credit": "Unknown authorUnknown author",
-        "source": "https://commons.wikimedia.org/wiki/File:Stensen_Schwerin.jpg",
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a6/Major_League_Baseball_logo.svg/1280px-Major_League_Baseball_logo.svg.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "alt": "Picture from the Wikipedia article on Major League Baseball.",
+        "credit": "Major League Baseball",
+        "source": "https://commons.wikimedia.org/wiki/File:Major_League_Baseball_logo.svg",
         "license": "Public domain",
-        "licenseUrl": "https://commons.wikimedia.org/wiki/File:Stensen_Schwerin.jpg"
+        "licenseUrl": "https://commons.wikimedia.org/wiki/File:Major_League_Baseball_logo.svg"
       }
     },
     {
-      "id": "01-11-greece-theodora-porphyrogenita",
+      "id": "01-11-amelia-earhart",
       "date": "01-11",
       "dateLabel": "11 January",
-      "country": "greece",
-      "countryName": "Greece",
-      "kind": "events",
-      "year": 1055,
-      "title": "Theodora",
-      "body": "1055: Theodora is crowned empress of the Byzantine Empire.",
+      "category": "world",
+      "categoryName": "World",
+      "year": 1935,
+      "title": "Amelia Earhart",
+      "body": "Amelia Earhart becomes the first person to fly solo from Hawaii to California.",
       "source": {
-        "name": "Wikipedia · Theodora Porphyrogenita",
-        "url": "https://en.wikipedia.org/wiki/Theodora_Porphyrogenita",
+        "name": "Wikipedia · Amelia Earhart",
+        "url": "https://en.wikipedia.org/wiki/Amelia_Earhart",
         "calendarUrl": "https://en.wikipedia.org/wiki/January_11",
         "license": {
           "name": "CC BY-SA 4.0",
@@ -78,12 +75,12 @@
         }
       },
       "image": {
-        "src": "https://upload.wikimedia.org/wikipedia/commons/8/88/Golden_seal_of_Empress_Theodora.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
-        "alt": "Image related to Theodora.",
-        "credit": "Dumbarton Oaks",
-        "source": "https://commons.wikimedia.org/wiki/File:Golden_seal_of_Empress_Theodora.png",
+        "src": "https://upload.wikimedia.org/wikipedia/commons/7/72/Amelia_Earhart_standing_under_nose_of_her_Lockheed_Model_10-E_Electra%2C_small_%28cropped%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+        "alt": "Picture from the Wikipedia article on Amelia Earhart.",
+        "credit": "Underwood & Underwood (active 1880 – c. 1950)[1]",
+        "source": "https://commons.wikimedia.org/wiki/File:Amelia_Earhart_standing_under_nose_of_her_Lockheed_Model_10-E_Electra,_small_(cropped).jpg",
         "license": "Public domain",
-        "licenseUrl": "https://commons.wikimedia.org/wiki/File:Golden_seal_of_Empress_Theodora.png"
+        "licenseUrl": "https://commons.wikimedia.org/wiki/File:Amelia_Earhart_standing_under_nose_of_her_Lockheed_Model_10-E_Electra,_small_(cropped).jpg"
       }
     }
   ]

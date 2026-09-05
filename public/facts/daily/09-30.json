@@ -3,18 +3,17 @@
   "dateLabel": "30 September",
   "facts": [
     {
-      "id": "09-30-spain-war-of-the-austrian-succession",
+      "id": "09-30-boeing-747",
       "date": "09-30",
       "dateLabel": "30 September",
-      "country": "spain",
-      "countryName": "Spain",
-      "kind": "events",
-      "year": 1744,
-      "title": "War of the Austrian Succession",
-      "body": "1744: War of the Austrian Succession: France and Spain defeat Sardinia at the Battle of Madonna dell'Olmo, but soon have to withdraw from Sardinia.",
+      "category": "world",
+      "categoryName": "World",
+      "year": 1968,
+      "title": "Boeing 747",
+      "body": "The Boeing 747 is rolled out and shown to the public for the first time.",
       "source": {
-        "name": "Wikipedia · War of the Austrian Succession",
-        "url": "https://en.wikipedia.org/wiki/War_of_the_Austrian_Succession",
+        "name": "Wikipedia · Boeing 747",
+        "url": "https://en.wikipedia.org/wiki/Boeing_747",
         "calendarUrl": "https://en.wikipedia.org/wiki/September_30",
         "license": {
           "name": "CC BY-SA 4.0",
@@ -22,68 +21,66 @@
         }
       },
       "image": {
-        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/14/War_of_The_Austrian_Succesion_Collage_1.jpg/1280px-War_of_The_Austrian_Succesion_Collage_1.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-        "alt": "Image related to War of the Austrian Succession.",
-        "credit": "DavidDijkgraaf",
-        "source": "https://commons.wikimedia.org/wiki/File:War_of_The_Austrian_Succesion_Collage_1.jpg",
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b8/B-747_Iberia.jpg/1280px-B-747_Iberia.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "alt": "Picture from the Wikipedia article on Boeing 747.",
+        "credit": "Iberia Airlines",
+        "source": "https://commons.wikimedia.org/wiki/File:B-747_Iberia.jpg",
+        "license": "CC BY 2.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by/2.0"
+      }
+    },
+    {
+      "id": "09-30-the-flintstones",
+      "date": "09-30",
+      "dateLabel": "30 September",
+      "category": "culture",
+      "categoryName": "Culture",
+      "year": 1960,
+      "title": "The Flintstones",
+      "body": "The Flintstones animated sitcom premieres on ABC television.",
+      "source": {
+        "name": "Wikipedia · The Flintstones",
+        "url": "https://en.wikipedia.org/wiki/The_Flintstones",
+        "calendarUrl": "https://en.wikipedia.org/wiki/September_30",
+        "license": {
+          "name": "CC BY-SA 4.0",
+          "url": "https://creativecommons.org/licenses/by-sa/4.0/"
+        }
+      },
+      "image": {
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/09/The_Flintstones_official_logo.svg/1280px-The_Flintstones_official_logo.svg.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "alt": "Picture from the Wikipedia article on The Flintstones.",
+        "credit": "Hanna-Barbera",
+        "source": "https://commons.wikimedia.org/wiki/File:The_Flintstones_official_logo.svg",
+        "license": "Public domain",
+        "licenseUrl": "https://commons.wikimedia.org/wiki/File:The_Flintstones_official_logo.svg"
+      }
+    },
+    {
+      "id": "09-30-ethernet",
+      "date": "09-30",
+      "dateLabel": "30 September",
+      "category": "tech",
+      "categoryName": "Tech",
+      "year": 1980,
+      "title": "Ethernet",
+      "body": "Ethernet specifications are published by Xerox working with Intel and Digital Equipment Corporation.",
+      "source": {
+        "name": "Wikipedia · Ethernet",
+        "url": "https://en.wikipedia.org/wiki/Ethernet",
+        "calendarUrl": "https://en.wikipedia.org/wiki/September_30",
+        "license": {
+          "name": "CC BY-SA 4.0",
+          "url": "https://creativecommons.org/licenses/by-sa/4.0/"
+        }
+      },
+      "image": {
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/55/Ethernet_connector.webp/1280px-Ethernet_connector.webp?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "alt": "Picture from the Wikipedia article on Ethernet.",
+        "credit": "Wikideas1",
+        "source": "https://commons.wikimedia.org/wiki/File:Ethernet_connector.webp",
         "license": "CC0",
         "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/deed.en"
-      }
-    },
-    {
-      "id": "09-30-denmark-jyllands-posten-muhammad-cartoons-controversy",
-      "date": "09-30",
-      "dateLabel": "30 September",
-      "country": "denmark",
-      "countryName": "Denmark",
-      "kind": "events",
-      "year": 2005,
-      "title": "Controversial drawings of Muhammad",
-      "body": "2005: Controversial drawings of Muhammad are printed in a Danish newspaper.",
-      "source": {
-        "name": "Wikipedia · Jyllands-Posten Muhammad cartoons controversy",
-        "url": "https://en.wikipedia.org/wiki/Jyllands-Posten_Muhammad_cartoons_controversy",
-        "calendarUrl": "https://en.wikipedia.org/wiki/September_30",
-        "license": {
-          "name": "CC BY-SA 4.0",
-          "url": "https://creativecommons.org/licenses/by-sa/4.0/"
-        }
-      },
-      "image": {
-        "src": "https://commons.wikimedia.org/wiki/Special:Redirect/file/Flag_of_Denmark.svg?width=1000",
-        "alt": "The national flag of Denmark.",
-        "credit": "Danish government",
-        "source": "https://commons.wikimedia.org/wiki/File:Flag_of_Denmark.svg",
-        "license": "Public domain",
-        "licenseUrl": "https://commons.wikimedia.org/wiki/File:Flag_of_Denmark.svg"
-      }
-    },
-    {
-      "id": "09-30-greece-vassilis-papazachos",
-      "date": "09-30",
-      "dateLabel": "30 September",
-      "country": "greece",
-      "countryName": "Greece",
-      "kind": "births",
-      "year": 1929,
-      "title": "Vassilis Papazachos",
-      "body": "Vassilis Papazachos, Greek seismologist and academic (died 2022), was born on this day in 1929.",
-      "source": {
-        "name": "Wikipedia · Vassilis Papazachos",
-        "url": "https://en.wikipedia.org/wiki/Vassilis_Papazachos",
-        "calendarUrl": "https://en.wikipedia.org/wiki/September_30",
-        "license": {
-          "name": "CC BY-SA 4.0",
-          "url": "https://creativecommons.org/licenses/by-sa/4.0/"
-        }
-      },
-      "image": {
-        "src": "https://commons.wikimedia.org/wiki/Special:Redirect/file/Flag_of_Greece.svg?width=1000",
-        "alt": "The national flag of Greece.",
-        "credit": "Greek government",
-        "source": "https://commons.wikimedia.org/wiki/File:Flag_of_Greece.svg",
-        "license": "Public domain",
-        "licenseUrl": "https://commons.wikimedia.org/wiki/File:Flag_of_Greece.svg"
       }
     }
   ]

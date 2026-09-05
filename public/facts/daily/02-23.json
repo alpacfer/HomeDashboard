@@ -3,18 +3,17 @@
   "dateLabel": "23 February",
   "facts": [
     {
-      "id": "02-23-spain-antonio-tejero",
+      "id": "02-23-theoretical-physics",
       "date": "02-23",
       "dateLabel": "23 February",
-      "country": "spain",
-      "countryName": "Spain",
-      "kind": "events",
-      "year": 1981,
-      "title": "Antonio Tejero",
-      "body": "1981: In Spain, Antonio Tejero attempts a coup d'état by capturing the Spanish Congress of Deputies.",
+      "category": "science",
+      "categoryName": "Science",
+      "year": 1927,
+      "title": "Theoretical physics",
+      "body": "German theoretical physicist Werner Heisenberg writes a letter to fellow physicist Wolfgang Pauli, in which he describes his uncertainty principle for the first time.",
       "source": {
-        "name": "Wikipedia · Antonio Tejero",
-        "url": "https://en.wikipedia.org/wiki/Antonio_Tejero",
+        "name": "Wikipedia · Theoretical physics",
+        "url": "https://en.wikipedia.org/wiki/Theoretical_physics",
         "calendarUrl": "https://en.wikipedia.org/wiki/February_23",
         "license": {
           "name": "CC BY-SA 4.0",
@@ -22,27 +21,26 @@
         }
       },
       "image": {
-        "src": "https://upload.wikimedia.org/wikipedia/commons/0/0f/Antonio_Tejero.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
-        "alt": "Image related to Antonio Tejero.",
-        "credit": "Diario Región (Oviedo) Agencia EFE",
-        "source": "https://commons.wikimedia.org/wiki/File:Antonio_Tejero.jpg",
-        "license": "CC BY 4.0",
-        "licenseUrl": "https://creativecommons.org/licenses/by/4.0"
+        "src": "https://upload.wikimedia.org/wikipedia/commons/d/d7/LorentzianWormhole.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+        "alt": "Picture from the Wikipedia article on Theoretical physics.",
+        "credit": "AllenMcC.",
+        "source": "https://commons.wikimedia.org/wiki/File:LorentzianWormhole.jpg",
+        "license": "CC BY-SA 3.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0"
       }
     },
     {
-      "id": "02-23-denmark-pia-kj-rsgaard",
+      "id": "02-23-alabama",
       "date": "02-23",
       "dateLabel": "23 February",
-      "country": "denmark",
-      "countryName": "Denmark",
-      "kind": "births",
-      "year": 1947,
-      "title": "Pia Kjærsgaard",
-      "body": "Pia Kjærsgaard, Danish politician, Speaker of the Danish Parliament, was born on this day in 1947.",
+      "category": "world",
+      "categoryName": "World",
+      "year": 1883,
+      "title": "Alabama",
+      "body": "Alabama becomes the first U.S. state to enact an anti-trust law.",
       "source": {
-        "name": "Wikipedia · Pia Kjærsgaard",
-        "url": "https://en.wikipedia.org/wiki/Pia_Kj%C3%A6rsgaard",
+        "name": "Wikipedia · Alabama",
+        "url": "https://en.wikipedia.org/wiki/Alabama",
         "calendarUrl": "https://en.wikipedia.org/wiki/February_23",
         "license": {
           "name": "CC BY-SA 4.0",
@@ -50,27 +48,26 @@
         }
       },
       "image": {
-        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b9/Pia_Kj%C3%A6rsgaard_portrait_2023_%283%29.jpg/1280px-Pia_Kj%C3%A6rsgaard_portrait_2023_%283%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-        "alt": "Portrait or image of Pia Kjærsgaard.",
-        "credit": "Dansk Folkeparti",
-        "source": "https://commons.wikimedia.org/wiki/File:Pia_Kj%C3%A6rsgaard_portrait_2023_(3).jpg",
-        "license": "CC BY-SA 2.0",
-        "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0"
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/5c/Flag_of_Alabama.svg/1280px-Flag_of_Alabama.svg.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "alt": "Picture from the Wikipedia article on Alabama.",
+        "credit": "Steve Hall",
+        "source": "https://commons.wikimedia.org/wiki/File:Flag_of_Alabama.svg",
+        "license": "Public domain",
+        "licenseUrl": "https://commons.wikimedia.org/wiki/File:Flag_of_Alabama.svg"
       }
     },
     {
-      "id": "02-23-greece-byzantine-emperor",
+      "id": "02-23-ariane-4",
       "date": "02-23",
       "dateLabel": "23 February",
-      "country": "greece",
-      "countryName": "Greece",
-      "kind": "events",
-      "year": 532,
-      "title": "Byzantine emperor",
-      "body": "532: Byzantine emperor Justinian I lays the foundation stone of a new Orthodox Christian basilica in Constantinople – the Hagia Sophia.",
+      "category": "space",
+      "categoryName": "Space",
+      "year": 2002,
+      "title": "Ariane 4",
+      "body": "An Ariane 4 rocket is launched from the Guiana Space Centre carrying Intelsat 904.",
       "source": {
-        "name": "Wikipedia · List of Byzantine emperors",
-        "url": "https://en.wikipedia.org/wiki/List_of_Byzantine_emperors",
+        "name": "Wikipedia · Ariane 4",
+        "url": "https://en.wikipedia.org/wiki/Ariane_4",
         "calendarUrl": "https://en.wikipedia.org/wiki/February_23",
         "license": {
           "name": "CC BY-SA 4.0",
@@ -78,12 +75,12 @@
         }
       },
       "image": {
-        "src": "https://upload.wikimedia.org/wikipedia/commons/b/b6/Konstantinos_XI_Palaiologos_fresco_%28less_edited%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
-        "alt": "Image related to Byzantine emperor.",
-        "credit": "ILoveHirasawaYui",
-        "source": "https://commons.wikimedia.org/wiki/File:Konstantinos_XI_Palaiologos_fresco_(less_edited).jpg",
-        "license": "CC0",
-        "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/deed.en"
+        "src": "https://upload.wikimedia.org/wikipedia/commons/9/9f/Ariane42P_rocket.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+        "alt": "Picture from the Wikipedia article on Ariane 4.",
+        "credit": "NASA",
+        "source": "https://commons.wikimedia.org/wiki/File:Ariane42P_rocket.png",
+        "license": "Public domain",
+        "licenseUrl": "https://commons.wikimedia.org/wiki/File:Ariane42P_rocket.png"
       }
     }
   ]

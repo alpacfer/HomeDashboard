@@ -3,18 +3,17 @@
   "dateLabel": "2 May",
   "facts": [
     {
-      "id": "05-02-spain-acropolis-of-athens",
+      "id": "05-02-de-havilland-comet",
       "date": "05-02",
       "dateLabel": "2 May",
-      "country": "spain",
-      "countryName": "Spain",
-      "kind": "events",
-      "year": 1388,
-      "title": "Acropolis of Athens",
-      "body": "1388: The surrender of the Acropolis of Athens to Nerio Acciaioli ends the Catalan presence in the Duchy of Athens.",
+      "category": "space",
+      "categoryName": "Space",
+      "year": 1952,
+      "title": "de Havilland Comet",
+      "body": "A De Havilland Comet makes the first jetliner flight with fare-paying passengers, from London to Johannesburg.",
       "source": {
-        "name": "Wikipedia · Acropolis of Athens",
-        "url": "https://en.wikipedia.org/wiki/Acropolis_of_Athens",
+        "name": "Wikipedia · De Havilland Comet",
+        "url": "https://en.wikipedia.org/wiki/De_Havilland_Comet",
         "calendarUrl": "https://en.wikipedia.org/wiki/May_2",
         "license": {
           "name": "CC BY-SA 4.0",
@@ -22,27 +21,26 @@
         }
       },
       "image": {
-        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/2c/1029_Acropolis_of_Athens_in_Greece_at_night_Photo_by_Giles_Laurent.jpg/1280px-1029_Acropolis_of_Athens_in_Greece_at_night_Photo_by_Giles_Laurent.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-        "alt": "Image related to Acropolis of Athens.",
-        "credit": "Giles Laurent",
-        "source": "https://commons.wikimedia.org/wiki/File:1029_Acropolis_of_Athens_in_Greece_at_night_Photo_by_Giles_Laurent.jpg",
-        "license": "CC BY-SA 4.0",
-        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0"
+        "src": "https://upload.wikimedia.org/wikipedia/commons/5/5e/BEA_de_Havilland_DH-106_Comet_4B_Berlin.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+        "alt": "Picture from the Wikipedia article on de Havilland Comet.",
+        "credit": "BEA_De_Havilland_DH-106_Comet_4B_Manteufel.jpg: Ralf Manteufel derivative work: Altair78 (talk)",
+        "source": "https://commons.wikimedia.org/wiki/File:BEA_de_Havilland_DH-106_Comet_4B_Berlin.jpg",
+        "license": "GFDL 1.2",
+        "licenseUrl": "https://www.gnu.org/licenses/old-licenses/fdl-1.2.html"
       }
     },
     {
-      "id": "05-02-denmark-albert-g-nther",
+      "id": "05-02-pastel",
       "date": "05-02",
       "dateLabel": "2 May",
-      "country": "denmark",
-      "countryName": "Denmark",
-      "kind": "events",
-      "year": 1867,
-      "title": "Albert Günther",
-      "body": "1867: Albert Günther publishes the first study to recognise that the New Zealand tuatara is not a lizard.",
+      "category": "sport",
+      "categoryName": "Sport",
+      "year": 2012,
+      "title": "Pastel",
+      "body": "A pastel version of The Scream, by Norwegian painter Edvard Munch, sells for $120 million in a New York City auction, setting a new world record for a work of art at auction.",
       "source": {
-        "name": "Wikipedia · Albert Günther",
-        "url": "https://en.wikipedia.org/wiki/Albert_G%C3%BCnther",
+        "name": "Wikipedia · Pastel",
+        "url": "https://en.wikipedia.org/wiki/Pastel",
         "calendarUrl": "https://en.wikipedia.org/wiki/May_2",
         "license": {
           "name": "CC BY-SA 4.0",
@@ -50,40 +48,39 @@
         }
       },
       "image": {
-        "src": "https://upload.wikimedia.org/wikipedia/commons/4/47/Gunther_Albert_1830-1914.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
-        "alt": "Image related to Albert Günther.",
-        "credit": "Wikimedia Commons contributor",
-        "source": "https://commons.wikimedia.org/wiki/File:Gunther_Albert_1830-1914.png",
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/2e/William_Merritt_Chase%2C_Study_of_Flesh_Color_and_Gold%2C_1888%2C_NGA_103252.jpg/1280px-William_Merritt_Chase%2C_Study_of_Flesh_Color_and_Gold%2C_1888%2C_NGA_103252.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "alt": "Picture from the Wikipedia article on Pastel.",
+        "credit": "William Merritt Chase",
+        "source": "https://commons.wikimedia.org/wiki/File:William_Merritt_Chase,_Study_of_Flesh_Color_and_Gold,_1888,_NGA_103252.jpg",
+        "license": "CC0",
+        "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/deed.en"
+      }
+    },
+    {
+      "id": "05-02-removal-of-hungary-s-border-fence-with-austria",
+      "date": "05-02",
+      "dateLabel": "2 May",
+      "category": "world",
+      "categoryName": "World",
+      "year": 1989,
+      "title": "Removal of Hungary's border fence with Austria",
+      "body": "Hungary begins dismantling its border fence with Austria, which allows a number of East Germans to defect.",
+      "source": {
+        "name": "Wikipedia · Removal of Hungary's border fence with Austria",
+        "url": "https://en.wikipedia.org/wiki/Removal_of_Hungary%27s_border_fence_with_Austria",
+        "calendarUrl": "https://en.wikipedia.org/wiki/May_2",
+        "license": {
+          "name": "CC BY-SA 4.0",
+          "url": "https://creativecommons.org/licenses/by-sa/4.0/"
+        }
+      },
+      "image": {
+        "src": "https://upload.wikimedia.org/wikipedia/commons/f/f2/Paneur_grenz%C3%BCbergang_130609.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+        "alt": "Picture from the Wikipedia article on Removal of Hungary's border fence with Austria.",
+        "credit": "Cuchulainn 17:15, 20. Jun. 2009 (CEST)",
+        "source": "https://commons.wikimedia.org/wiki/File:Paneur_grenz%C3%BCbergang_130609.JPG",
         "license": "Public domain",
-        "licenseUrl": "https://commons.wikimedia.org/wiki/File:Gunther_Albert_1830-1914.png"
-      }
-    },
-    {
-      "id": "05-02-greece-acropolis-of-athens",
-      "date": "05-02",
-      "dateLabel": "2 May",
-      "country": "greece",
-      "countryName": "Greece",
-      "kind": "events",
-      "year": 1388,
-      "title": "Acropolis of Athens",
-      "body": "1388: The surrender of the Acropolis of Athens to Nerio Acciaioli ends the Catalan presence in the Duchy of Athens.",
-      "source": {
-        "name": "Wikipedia · Acropolis of Athens",
-        "url": "https://en.wikipedia.org/wiki/Acropolis_of_Athens",
-        "calendarUrl": "https://en.wikipedia.org/wiki/May_2",
-        "license": {
-          "name": "CC BY-SA 4.0",
-          "url": "https://creativecommons.org/licenses/by-sa/4.0/"
-        }
-      },
-      "image": {
-        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/2c/1029_Acropolis_of_Athens_in_Greece_at_night_Photo_by_Giles_Laurent.jpg/1280px-1029_Acropolis_of_Athens_in_Greece_at_night_Photo_by_Giles_Laurent.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-        "alt": "Image related to Acropolis of Athens.",
-        "credit": "Giles Laurent",
-        "source": "https://commons.wikimedia.org/wiki/File:1029_Acropolis_of_Athens_in_Greece_at_night_Photo_by_Giles_Laurent.jpg",
-        "license": "CC BY-SA 4.0",
-        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0"
+        "licenseUrl": "https://commons.wikimedia.org/wiki/File:Paneur_grenz%C3%BCbergang_130609.JPG"
       }
     }
   ]

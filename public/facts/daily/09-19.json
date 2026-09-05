@@ -3,18 +3,17 @@
   "dateLabel": "19 September",
   "facts": [
     {
-      "id": "09-19-spain-glorious-revolution-spain",
+      "id": "09-19-emoticon",
       "date": "09-19",
       "dateLabel": "19 September",
-      "country": "spain",
-      "countryName": "Spain",
-      "kind": "events",
-      "year": 1868,
-      "title": "La Gloriosa",
-      "body": "1868: La Gloriosa begins in Spain.",
+      "category": "tech",
+      "categoryName": "Tech",
+      "year": 1982,
+      "title": "The first :-)",
+      "body": "Scott Fahlman suggested :-) and :-( on a Carnegie Mellon message board, so people could tell which posts were jokes. The original message was lost for twenty years, then found on a backup tape.",
       "source": {
-        "name": "Wikipedia · Glorious Revolution (Spain)",
-        "url": "https://en.wikipedia.org/wiki/Glorious_Revolution_(Spain)",
+        "name": "Wikipedia · Emoticon",
+        "url": "https://en.wikipedia.org/wiki/Emoticon",
         "calendarUrl": "https://en.wikipedia.org/wiki/September_19",
         "license": {
           "name": "CC BY-SA 4.0",
@@ -22,27 +21,26 @@
         }
       },
       "image": {
-        "src": "https://upload.wikimedia.org/wikipedia/commons/d/d1/Alegoria_Revolucionaria_La_Gloriosa.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
-        "alt": "Image related to La Gloriosa.",
-        "credit": "19th century Spanish engraver/printer",
-        "source": "https://commons.wikimedia.org/wiki/File:Alegoria_Revolucionaria_La_Gloriosa.jpg",
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d8/Smiley_Face_Emoticon.svg/1280px-Smiley_Face_Emoticon.svg.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "alt": "A smiley face, the symbol the first emoticon was drawn to represent.",
+        "credit": "Harringstars",
+        "source": "https://commons.wikimedia.org/wiki/File:Smiley_Face_Emoticon.svg",
         "license": "Public domain",
-        "licenseUrl": "https://commons.wikimedia.org/wiki/File:Alegoria_Revolucionaria_La_Gloriosa.jpg"
+        "licenseUrl": "https://commons.wikimedia.org/wiki/File:Smiley_Face_Emoticon.svg"
       }
     },
     {
-      "id": "09-19-denmark-women-s-suffrage-in-new-zealand",
+      "id": "09-19-michael-eavis",
       "date": "09-19",
       "dateLabel": "19 September",
-      "country": "denmark",
-      "countryName": "Denmark",
-      "kind": "events",
-      "year": 1893,
-      "title": "Electoral Act of 1893",
-      "body": "1893: In New Zealand, the Electoral Act of 1893 is consented to by the governor, giving all women in New Zealand the right to vote.",
+      "category": "world",
+      "categoryName": "World",
+      "year": 1970,
+      "title": "Michael Eavis",
+      "body": "Michael Eavis hosts the first Glastonbury Festival.",
       "source": {
-        "name": "Wikipedia · Women's suffrage in New Zealand",
-        "url": "https://en.wikipedia.org/wiki/Women's_suffrage_in_New_Zealand",
+        "name": "Wikipedia · Michael Eavis",
+        "url": "https://en.wikipedia.org/wiki/Michael_Eavis",
         "calendarUrl": "https://en.wikipedia.org/wiki/September_19",
         "license": {
           "name": "CC BY-SA 4.0",
@@ -50,27 +48,26 @@
         }
       },
       "image": {
-        "src": "https://upload.wikimedia.org/wikipedia/commons/f/fd/Tribute_to_the_Suffragettes%2C_Christchurch%2C_NZ_-_cropped.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
-        "alt": "Image related to Electoral Act of 1893.",
-        "credit": "Robert Cutts",
-        "source": "https://commons.wikimedia.org/wiki/File:Tribute_to_the_Suffragettes,_Christchurch,_NZ_-_cropped.jpg",
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b3/Coldplay_Glasto24_290624_%28224%29_%2853838030769%29_%28cropped%29.jpg/1280px-Coldplay_Glasto24_290624_%28224%29_%2853838030769%29_%28cropped%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "alt": "Picture from the Wikipedia article on Michael Eavis.",
+        "credit": "Raph_PH",
+        "source": "https://commons.wikimedia.org/wiki/File:Coldplay_Glasto24_290624_(224)_(53838030769)_(cropped).jpg",
         "license": "CC BY 2.0",
         "licenseUrl": "https://creativecommons.org/licenses/by/2.0"
       }
     },
     {
-      "id": "09-19-greece-siege-of-damascus-634",
+      "id": "09-19-tipper-gore",
       "date": "09-19",
       "dateLabel": "19 September",
-      "country": "greece",
-      "countryName": "Greece",
-      "kind": "events",
-      "year": 634,
-      "title": "Siege of Damascus",
-      "body": "634: Siege of Damascus: The Rashidun Arabs under Khalid ibn al-Walid capture Damascus from the Byzantine Empire.",
+      "category": "culture",
+      "categoryName": "Culture",
+      "year": 1985,
+      "title": "Tipper Gore",
+      "body": "Tipper Gore and other political wives form the Parents Music Resource Center as Frank Zappa, John Denver, and other musicians testify at U.S. Congressional hearings on obscenity in rock music.",
       "source": {
-        "name": "Wikipedia · Siege of Damascus (634)",
-        "url": "https://en.wikipedia.org/wiki/Siege_of_Damascus_(634)",
+        "name": "Wikipedia · Tipper Gore",
+        "url": "https://en.wikipedia.org/wiki/Tipper_Gore",
         "calendarUrl": "https://en.wikipedia.org/wiki/September_19",
         "license": {
           "name": "CC BY-SA 4.0",
@@ -78,12 +75,12 @@
         }
       },
       "image": {
-        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f5/Damascus-Bab_Kisan.jpg/1280px-Damascus-Bab_Kisan.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-        "alt": "Image related to Siege of Damascus.",
-        "credit": "Heretiq",
-        "source": "https://commons.wikimedia.org/wiki/File:Damascus-Bab_Kisan.jpg",
-        "license": "CC BY-SA 3.0",
-        "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0/"
+        "src": "https://upload.wikimedia.org/wikipedia/commons/f/fa/Tipper_Gore_Headshot.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+        "alt": "Picture from the Wikipedia article on Tipper Gore.",
+        "credit": "Nancy Rhoda",
+        "source": "https://commons.wikimedia.org/wiki/File:Tipper_Gore_Headshot.jpg",
+        "license": "CC BY 3.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by/3.0"
       }
     }
   ]

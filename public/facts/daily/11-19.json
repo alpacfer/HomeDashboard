@@ -3,18 +3,17 @@
   "dateLabel": "19 November",
   "facts": [
     {
-      "id": "11-19-spain-oil-tanker",
+      "id": "11-19-shenzhou-spacecraft",
       "date": "11-19",
       "dateLabel": "19 November",
-      "country": "spain",
-      "countryName": "Spain",
-      "kind": "events",
-      "year": 2002,
-      "title": "oil tanker",
-      "body": "2002: The Greek oil tanker Prestige splits in half and sinks off the coast of Galicia, releasing over of oil in the largest environmental disaster in Spanish and Portuguese history.",
+      "category": "space",
+      "categoryName": "Space",
+      "year": 1999,
+      "title": "Shenzhou",
+      "body": "The People's Republic of China launches its first Shenzhou spacecraft.",
       "source": {
-        "name": "Wikipedia · Oil tanker",
-        "url": "https://en.wikipedia.org/wiki/Oil_tanker",
+        "name": "Wikipedia · Shenzhou (spacecraft)",
+        "url": "https://en.wikipedia.org/wiki/Shenzhou_(spacecraft)",
         "calendarUrl": "https://en.wikipedia.org/wiki/November_19",
         "license": {
           "name": "CC BY-SA 4.0",
@@ -22,27 +21,26 @@
         }
       },
       "image": {
-        "src": "https://upload.wikimedia.org/wikipedia/commons/7/75/Supertanker_AbQaiq.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
-        "alt": "Image related to oil tanker.",
-        "credit": "Wikimedia Commons contributor",
-        "source": "https://commons.wikimedia.org/wiki/File:Supertanker_AbQaiq.jpg",
-        "license": "Public domain",
-        "licenseUrl": "https://commons.wikimedia.org/wiki/File:Supertanker_AbQaiq.jpg"
+        "src": "https://upload.wikimedia.org/wikipedia/commons/8/8c/Shenzhou_spacecraft_ground_test.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+        "alt": "Picture from the Wikipedia article on Shenzhou.",
+        "credit": "中国新闻社",
+        "source": "https://commons.wikimedia.org/wiki/File:Shenzhou_spacecraft_ground_test.png",
+        "license": "CC BY 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by/4.0"
       }
     },
     {
-      "id": "11-19-denmark-pike-river-mine-disaster",
+      "id": "11-19-malice-at-the-palace",
       "date": "11-19",
       "dateLabel": "19 November",
-      "country": "denmark",
-      "countryName": "Denmark",
-      "kind": "events",
-      "year": 2010,
-      "title": "four explosions",
-      "body": "2010: The first of four explosions takes place at the Pike River Mine in New Zealand. Twenty-nine people are killed in the nation's worst mining disaster since 1914.",
+      "category": "sport",
+      "categoryName": "Sport",
+      "year": 2004,
+      "title": "Malice at the Palace",
+      "body": "The worst brawl in NBA history results in several players being suspended. Several players and fans are charged with assault and battery.",
       "source": {
-        "name": "Wikipedia · Pike River Mine disaster",
-        "url": "https://en.wikipedia.org/wiki/Pike_River_Mine_disaster",
+        "name": "Wikipedia · Malice at the Palace",
+        "url": "https://en.wikipedia.org/wiki/Malice_at_the_Palace",
         "calendarUrl": "https://en.wikipedia.org/wiki/November_19",
         "license": {
           "name": "CC BY-SA 4.0",
@@ -50,27 +48,26 @@
         }
       },
       "image": {
-        "src": "https://commons.wikimedia.org/wiki/Special:Redirect/file/Flag_of_Denmark.svg?width=1000",
-        "alt": "The national flag of Denmark.",
-        "credit": "Danish government",
-        "source": "https://commons.wikimedia.org/wiki/File:Flag_of_Denmark.svg",
-        "license": "Public domain",
-        "licenseUrl": "https://commons.wikimedia.org/wiki/File:Flag_of_Denmark.svg"
+        "src": "https://upload.wikimedia.org/wikipedia/commons/6/61/Palace_of_Auburn_Hills.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+        "alt": "Picture from the Wikipedia article on Malice at the Palace.",
+        "credit": "Kevin Ward from Eastpointe, U.S.",
+        "source": "https://commons.wikimedia.org/wiki/File:Palace_of_Auburn_Hills.jpg",
+        "license": "CC BY-SA 2.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0"
       }
     },
     {
-      "id": "11-19-greece-alexander-papagos",
+      "id": "11-19-apollo-12",
       "date": "11-19",
       "dateLabel": "19 November",
-      "country": "greece",
-      "countryName": "Greece",
-      "kind": "events",
-      "year": 1952,
-      "title": "Alexander Papagos",
-      "body": "1952: Greek Field Marshal Alexander Papagos becomes the 152nd Prime Minister of Greece.",
+      "category": "space",
+      "categoryName": "Space",
+      "year": 1969,
+      "title": "Apollo 12",
+      "body": "Apollo 12 astronauts Pete Conrad and Alan Bean land at Oceanus Procellarum (the \"Ocean of Storms\") and become the third and fourth humans to walk on the Moon.",
       "source": {
-        "name": "Wikipedia · Alexandros Papagos",
-        "url": "https://en.wikipedia.org/wiki/Alexandros_Papagos",
+        "name": "Wikipedia · Apollo 12",
+        "url": "https://en.wikipedia.org/wiki/Apollo_12",
         "calendarUrl": "https://en.wikipedia.org/wiki/November_19",
         "license": {
           "name": "CC BY-SA 4.0",
@@ -78,12 +75,12 @@
         }
       },
       "image": {
-        "src": "https://upload.wikimedia.org/wikipedia/commons/a/a3/Alexandros_Papagos_as_PM.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
-        "alt": "Image related to Alexander Papagos.",
-        "credit": "Unknown photographer, taken as part of the series Photographs of Marshall Plan Programs, Exhibits, and Personnel, 1948 - 1967",
-        "source": "https://commons.wikimedia.org/wiki/File:Alexandros_Papagos_as_PM.jpg",
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/4e/Surveyor_3-Apollo_12.jpg/1280px-Surveyor_3-Apollo_12.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "alt": "Picture from the Wikipedia article on Apollo 12.",
+        "credit": "NASA, Alan L. Bean",
+        "source": "https://commons.wikimedia.org/wiki/File:Surveyor_3-Apollo_12.jpg",
         "license": "Public domain",
-        "licenseUrl": "https://commons.wikimedia.org/wiki/File:Alexandros_Papagos_as_PM.jpg"
+        "licenseUrl": "https://commons.wikimedia.org/wiki/File:Surveyor_3-Apollo_12.jpg"
       }
     }
   ]

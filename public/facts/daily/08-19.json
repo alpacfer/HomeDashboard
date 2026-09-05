@@ -3,18 +3,17 @@
   "dateLabel": "19 August",
   "facts": [
     {
-      "id": "08-19-spain-eighty-years-war",
+      "id": "08-19-syncom",
       "date": "08-19",
       "dateLabel": "19 August",
-      "country": "spain",
-      "countryName": "Spain",
-      "kind": "events",
-      "year": 1604,
-      "title": "Eighty Years War",
-      "body": "1604: Eighty Years War: a besieging Dutch and English army led by Maurice of Orange forces the Spanish garrison of Sluis to capitulate.",
+      "category": "space",
+      "categoryName": "Space",
+      "year": 1964,
+      "title": "Syncom",
+      "body": "Syncom 3, the first geostationary communication satellite, is launched. Two months later, it would enable live coverage of the 1964 Summer Olympics.",
       "source": {
-        "name": "Wikipedia · Eighty Years' War",
-        "url": "https://en.wikipedia.org/wiki/Eighty_Years'_War",
+        "name": "Wikipedia · Syncom",
+        "url": "https://en.wikipedia.org/wiki/Syncom",
         "calendarUrl": "https://en.wikipedia.org/wiki/August_19",
         "license": {
           "name": "CC BY-SA 4.0",
@@ -22,27 +21,26 @@
         }
       },
       "image": {
-        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b9/Battle_of_Gibraltar_1607.jpg/1280px-Battle_of_Gibraltar_1607.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-        "alt": "Image related to Eighty Years War.",
-        "credit": "Cornelis Claesz van Wieringen / Formerly attributed to Hendrick Cornelisz Vroom",
-        "source": "https://commons.wikimedia.org/wiki/File:Battle_of_Gibraltar_1607.jpg",
+        "src": "https://upload.wikimedia.org/wikipedia/commons/8/80/Syncom_colour.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+        "alt": "Picture from the Wikipedia article on Syncom.",
+        "credit": "Wikimedia Commons contributor",
+        "source": "https://commons.wikimedia.org/wiki/File:Syncom_colour.jpg",
         "license": "Public domain",
-        "licenseUrl": "https://commons.wikimedia.org/wiki/File:Battle_of_Gibraltar_1607.jpg"
+        "licenseUrl": "https://commons.wikimedia.org/wiki/File:Syncom_colour.jpg"
       }
     },
     {
-      "id": "08-19-denmark-ronald-king",
+      "id": "08-19-east-germany",
       "date": "08-19",
       "dateLabel": "19 August",
-      "country": "denmark",
-      "countryName": "Denmark",
-      "kind": "births",
-      "year": 1909,
-      "title": "Ronald King",
-      "body": "Ronald King, New Zealand rugby player (died 1988), was born on this day in 1909.",
+      "category": "world",
+      "categoryName": "World",
+      "year": 1989,
+      "title": "East Germany",
+      "body": "Several hundred East Germans cross the frontier between Hungary and Austria during the Pan-European Picnic, part of the events that began the process of the Fall of the Berlin Wall.",
       "source": {
-        "name": "Wikipedia · Ronald King",
-        "url": "https://en.wikipedia.org/wiki/Ronald_King",
+        "name": "Wikipedia · East Germany",
+        "url": "https://en.wikipedia.org/wiki/East_Germany",
         "calendarUrl": "https://en.wikipedia.org/wiki/August_19",
         "license": {
           "name": "CC BY-SA 4.0",
@@ -50,27 +48,26 @@
         }
       },
       "image": {
-        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/81/Ronald_King_rugby.jpg/1280px-Ronald_King_rugby.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-        "alt": "Portrait or image of Ronald King.",
-        "credit": "Unknown (Crown Studios of Wellington)",
-        "source": "https://commons.wikimedia.org/wiki/File:Ronald_King_rugby.jpg",
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/97/Flag_of_the_German_Democratic_Republic.svg/1280px-Flag_of_the_German_Democratic_Republic.svg.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "alt": "Picture from the Wikipedia article on East Germany.",
+        "credit": "Deutsche Demokratische Republik Flaggenentwurf: Fritz Behrendt",
+        "source": "https://commons.wikimedia.org/wiki/File:Flag_of_the_German_Democratic_Republic.svg",
         "license": "Public domain",
-        "licenseUrl": "https://commons.wikimedia.org/wiki/File:Ronald_King_rugby.jpg"
+        "licenseUrl": "https://commons.wikimedia.org/wiki/File:Flag_of_the_German_Democratic_Republic.svg"
       }
     },
     {
-      "id": "08-19-greece-byzantine-emperor",
+      "id": "08-19-korabl-sputnik-2",
       "date": "08-19",
       "dateLabel": "19 August",
-      "country": "greece",
-      "countryName": "Greece",
-      "kind": "events",
-      "year": 797,
-      "title": "Byzantine Emperor",
-      "body": "797: Byzantine Emperor Constantine VI is seized by supporters of his mother Irene, deposed and blinded.",
+      "category": "space",
+      "categoryName": "Space",
+      "year": 1960,
+      "title": "Korabl-Sputnik 2",
+      "body": "The Soviet Union launches the satellite with the dogs Belka and Strelka, 40 mice, two rats and a variety of plants.",
       "source": {
-        "name": "Wikipedia · List of Byzantine emperors",
-        "url": "https://en.wikipedia.org/wiki/List_of_Byzantine_emperors",
+        "name": "Wikipedia · Korabl-Sputnik 2",
+        "url": "https://en.wikipedia.org/wiki/Korabl-Sputnik_2",
         "calendarUrl": "https://en.wikipedia.org/wiki/August_19",
         "license": {
           "name": "CC BY-SA 4.0",
@@ -78,12 +75,12 @@
         }
       },
       "image": {
-        "src": "https://upload.wikimedia.org/wikipedia/commons/b/b6/Konstantinos_XI_Palaiologos_fresco_%28less_edited%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
-        "alt": "Image related to Byzantine Emperor.",
-        "credit": "ILoveHirasawaYui",
-        "source": "https://commons.wikimedia.org/wiki/File:Konstantinos_XI_Palaiologos_fresco_(less_edited).jpg",
-        "license": "CC0",
-        "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/deed.en"
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/86/Space_capsule_of_Sputnik-5.JPG/1280px-Space_capsule_of_Sputnik-5.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "alt": "Picture from the Wikipedia article on Korabl-Sputnik 2.",
+        "credit": "Pretenderrs",
+        "source": "https://commons.wikimedia.org/wiki/File:Space_capsule_of_Sputnik-5.JPG",
+        "license": "CC BY-SA 3.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0"
       }
     }
   ]

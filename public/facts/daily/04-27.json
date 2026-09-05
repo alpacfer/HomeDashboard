@@ -3,18 +3,17 @@
   "dateLabel": "27 April",
   "facts": [
     {
-      "id": "04-27-spain-spanish-empire",
+      "id": "04-27-betty-boothroyd",
       "date": "04-27",
       "dateLabel": "27 April",
-      "country": "spain",
-      "countryName": "Spain",
-      "kind": "events",
-      "year": 1522,
-      "title": "Spanish",
-      "body": "1522: A Spanish-Imperial army defeats French-Venetian army in the battle of Bicocca. The battle marks the end of dominance of Swiss mercenaries on the battlefield and is one of the first where firearms play a decisive role.",
+      "category": "world",
+      "categoryName": "World",
+      "year": 1992,
+      "title": "Betty Boothroyd",
+      "body": "Betty Boothroyd becomes the first woman to be elected Speaker of the British House of Commons in its 700-year history.",
       "source": {
-        "name": "Wikipedia · Spanish Empire",
-        "url": "https://en.wikipedia.org/wiki/Spanish_Empire",
+        "name": "Wikipedia · Betty Boothroyd",
+        "url": "https://en.wikipedia.org/wiki/Betty_Boothroyd",
         "calendarUrl": "https://en.wikipedia.org/wiki/April_27",
         "license": {
           "name": "CC BY-SA 4.0",
@@ -22,27 +21,26 @@
         }
       },
       "image": {
-        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f5/Flag_of_Cross_of_Burgundy.svg/1280px-Flag_of_Cross_of_Burgundy.svg.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-        "alt": "Image related to Spanish.",
-        "credit": "Ningyou.",
-        "source": "https://commons.wikimedia.org/wiki/File:Flag_of_Cross_of_Burgundy.svg",
-        "license": "Public domain",
-        "licenseUrl": "https://commons.wikimedia.org/wiki/File:Flag_of_Cross_of_Burgundy.svg"
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/8f/Official_portrait_of_Baroness_Boothroyd_%28cropped%29.jpg/1280px-Official_portrait_of_Baroness_Boothroyd_%28cropped%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "alt": "Picture from the Wikipedia article on Betty Boothroyd.",
+        "credit": "Chris McAndrew",
+        "source": "https://commons.wikimedia.org/wiki/File:Official_portrait_of_Baroness_Boothroyd_(cropped).jpg",
+        "license": "CC BY 3.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by/3.0"
       }
     },
     {
-      "id": "04-27-denmark-charlotte-amalie-of-hesse-kassel",
+      "id": "04-27-state-duma-russian-empire",
       "date": "04-27",
       "dateLabel": "27 April",
-      "country": "denmark",
-      "countryName": "Denmark",
-      "kind": "births",
-      "year": 1650,
-      "title": "Charlotte Amalie of Hesse-Kassel",
-      "body": "Charlotte Amalie of Hesse-Kassel, Queen Consort of Denmark (1670–1699) (died 1714), was born on this day in 1650.",
+      "category": "world",
+      "categoryName": "World",
+      "year": 1906,
+      "title": "State Duma",
+      "body": "The State Duma of the Russian Empire meets for the first time.",
       "source": {
-        "name": "Wikipedia · Charlotte Amalie of Hesse-Kassel",
-        "url": "https://en.wikipedia.org/wiki/Charlotte_Amalie_of_Hesse-Kassel",
+        "name": "Wikipedia · State Duma (Russian Empire)",
+        "url": "https://en.wikipedia.org/wiki/State_Duma_(Russian_Empire)",
         "calendarUrl": "https://en.wikipedia.org/wiki/April_27",
         "license": {
           "name": "CC BY-SA 4.0",
@@ -50,27 +48,26 @@
         }
       },
       "image": {
-        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/90/Charlotte_Amalie_of_Hesse-Kassel_1690.jpg/1280px-Charlotte_Amalie_of_Hesse-Kassel_1690.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-        "alt": "Portrait or image of Charlotte Amalie of Hesse-Kassel.",
-        "credit": "Jacques d'Agar",
-        "source": "https://commons.wikimedia.org/wiki/File:Charlotte_Amalie_of_Hesse-Kassel_1690.jpg",
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/be/Lesser_coat_of_arms_of_the_Russian_Empire.svg/1280px-Lesser_coat_of_arms_of_the_Russian_Empire.svg.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "alt": "Picture from the Wikipedia article on State Duma.",
+        "credit": "own svg edit based on different vector versions to look close to File:Russian imperiam.png",
+        "source": "https://commons.wikimedia.org/wiki/File:Lesser_coat_of_arms_of_the_Russian_Empire.svg",
         "license": "Public domain",
-        "licenseUrl": "https://commons.wikimedia.org/wiki/File:Charlotte_Amalie_of_Hesse-Kassel_1690.jpg"
+        "licenseUrl": "https://commons.wikimedia.org/wiki/File:Lesser_coat_of_arms_of_the_Russian_Empire.svg"
       }
     },
     {
-      "id": "04-27-greece-world-war-ii",
+      "id": "04-27-operation-moolah",
       "date": "04-27",
       "dateLabel": "27 April",
-      "country": "greece",
-      "countryName": "Greece",
-      "kind": "events",
-      "year": 1941,
-      "title": "World War II",
-      "body": "1941: World War II: German troops enter Athens.",
+      "category": "world",
+      "categoryName": "World",
+      "year": 1953,
+      "title": "Operation Moolah",
+      "body": "Operation Moolah offers $50,000 to any pilot who defects with a fully mission-capable Mikoyan-Gurevich MiG-15 to South Korea. The first pilot was to receive $100,000.",
       "source": {
-        "name": "Wikipedia · World War II",
-        "url": "https://en.wikipedia.org/wiki/World_War_II",
+        "name": "Wikipedia · Operation Moolah",
+        "url": "https://en.wikipedia.org/wiki/Operation_Moolah",
         "calendarUrl": "https://en.wikipedia.org/wiki/April_27",
         "license": {
           "name": "CC BY-SA 4.0",
@@ -78,12 +75,12 @@
         }
       },
       "image": {
-        "src": "https://upload.wikimedia.org/wikipedia/commons/1/10/Bundesarchiv_Bild_101I-646-5188-17%2C_Flugzeuge_Junkers_Ju_87.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
-        "alt": "Image related to World War II.",
-        "credit": "Bundesarchiv, Bild 101I-646-5188-17 / Opitz / CC-BY-SA 3.0",
-        "source": "https://commons.wikimedia.org/wiki/File:Bundesarchiv_Bild_101I-646-5188-17,_Flugzeuge_Junkers_Ju_87.jpg",
-        "license": "CC BY-SA 3.0 de",
-        "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0/de/deed.en"
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/4e/MiG-15_USAF.jpg/1280px-MiG-15_USAF.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "alt": "Picture from the Wikipedia article on Operation Moolah.",
+        "credit": "Wikimedia Commons contributor",
+        "source": "https://commons.wikimedia.org/wiki/File:MiG-15_USAF.jpg",
+        "license": "Public domain",
+        "licenseUrl": "https://commons.wikimedia.org/wiki/File:MiG-15_USAF.jpg"
       }
     }
   ]

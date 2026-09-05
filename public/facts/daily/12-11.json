@@ -3,18 +3,17 @@
   "dateLabel": "11 December",
   "facts": [
     {
-      "id": "12-11-spain-treaty-of-benavente",
+      "id": "12-11-apollo-17",
       "date": "12-11",
       "dateLabel": "11 December",
-      "country": "spain",
-      "countryName": "Spain",
-      "kind": "events",
-      "year": 1239,
-      "title": "Treaty of Benavente",
-      "body": "1239: Treaty of Benavente: the heiresses of the Kingdom of León renounce their throne to King Ferdinand III of Castile.",
+      "category": "space",
+      "categoryName": "Space",
+      "year": 1972,
+      "title": "Apollo 17",
+      "body": "Apollo 17 becomes the sixth and final Apollo mission to land on the Moon.",
       "source": {
-        "name": "Wikipedia · Treaty of Benavente",
-        "url": "https://en.wikipedia.org/wiki/Treaty_of_Benavente",
+        "name": "Wikipedia · Apollo 17",
+        "url": "https://en.wikipedia.org/wiki/Apollo_17",
         "calendarUrl": "https://en.wikipedia.org/wiki/December_11",
         "license": {
           "name": "CC BY-SA 4.0",
@@ -22,27 +21,26 @@
         }
       },
       "image": {
-        "src": "https://upload.wikimedia.org/wikipedia/commons/e/eb/Monteagudo_de_las_Vicar%C3%ADas%2C_Castillo_de_la_Raya_Torre_de_Mart%C3%ADn_Gonz%C3%A1lez-PM_17432.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
-        "alt": "Image related to Treaty of Benavente.",
-        "credit": "PMRMaeyaert",
-        "source": "https://commons.wikimedia.org/wiki/File:Monteagudo_de_las_Vicar%C3%ADas,_Castillo_de_la_Raya_Torre_de_Mart%C3%ADn_Gonz%C3%A1lez-PM_17432.jpg",
-        "license": "CC BY-SA 3.0 es",
-        "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0/es/deed.en"
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/ac/Eugene_Cernan_at_the_LM%2C_Apollo_17%2C_AS17-134-20378.jpg/1280px-Eugene_Cernan_at_the_LM%2C_Apollo_17%2C_AS17-134-20378.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "alt": "Picture from the Wikipedia article on Apollo 17.",
+        "credit": "Harrison Schmitt / Apollo 17",
+        "source": "https://commons.wikimedia.org/wiki/File:Eugene_Cernan_at_the_LM,_Apollo_17,_AS17-134-20378.jpg",
+        "license": "Public domain",
+        "licenseUrl": "https://commons.wikimedia.org/wiki/File:Eugene_Cernan_at_the_LM,_Apollo_17,_AS17-134-20378.jpg"
       }
     },
     {
-      "id": "12-11-denmark-new-zealand-parliament-buildings",
+      "id": "12-11-louvre",
       "date": "12-11",
       "dateLabel": "11 December",
-      "country": "denmark",
-      "countryName": "Denmark",
-      "kind": "events",
-      "year": 1907,
-      "title": "New Zealand Parliament Buildings",
-      "body": "1907: The New Zealand Parliament Buildings are almost completely destroyed by fire.",
+      "category": "curious",
+      "categoryName": "Curious",
+      "year": 1913,
+      "title": "Louvre",
+      "body": "More than two years after it was stolen from the Louvre, Leonardo da Vinci's painting Mona Lisa is recovered in Florence, Italy. The thief, Vincenzo Peruggia, is immediately arrested.",
       "source": {
-        "name": "Wikipedia · New Zealand Parliament Buildings",
-        "url": "https://en.wikipedia.org/wiki/New_Zealand_Parliament_Buildings",
+        "name": "Wikipedia · Louvre",
+        "url": "https://en.wikipedia.org/wiki/Louvre",
         "calendarUrl": "https://en.wikipedia.org/wiki/December_11",
         "license": {
           "name": "CC BY-SA 4.0",
@@ -50,27 +48,26 @@
         }
       },
       "image": {
-        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/31/NZ_Parliament_Buildings_2020-06-26.jpg/1280px-NZ_Parliament_Buildings_2020-06-26.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-        "alt": "Image related to New Zealand Parliament Buildings.",
-        "credit": "Tom Ackroyd",
-        "source": "https://commons.wikimedia.org/wiki/File:NZ_Parliament_Buildings_2020-06-26.jpg",
-        "license": "CC BY-SA 4.0",
-        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0"
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/66/Louvre_Museum_Wikimedia_Commons.jpg/1280px-Louvre_Museum_Wikimedia_Commons.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "alt": "Picture from the Wikipedia article on Louvre.",
+        "credit": "Benh LIEU SONG (Flickr)",
+        "source": "https://commons.wikimedia.org/wiki/File:Louvre_Museum_Wikimedia_Commons.jpg",
+        "license": "CC BY-SA 3.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0"
       }
     },
     {
-      "id": "12-11-greece-byzantine-emperor",
+      "id": "12-11-food-and-drug-administration",
       "date": "12-11",
       "dateLabel": "11 December",
-      "country": "greece",
-      "countryName": "Greece",
-      "kind": "events",
-      "year": 969,
-      "title": "Byzantine Emperor",
-      "body": "969: Byzantine Emperor Nikephoros II Phokas is assassinated by his wife Theophano and her lover, the later Emperor John I Tzimiskes.",
+      "category": "science",
+      "categoryName": "Science",
+      "year": 2020,
+      "title": "Food and Drug Administration",
+      "body": "The Food and Drug Administration issues an Emergency Use Authorization on the Pfizer–BioNTech COVID-19 vaccine, the first COVID-19 vaccine to be approved by the agency.",
       "source": {
-        "name": "Wikipedia · List of Byzantine emperors",
-        "url": "https://en.wikipedia.org/wiki/List_of_Byzantine_emperors",
+        "name": "Wikipedia · Food and Drug Administration",
+        "url": "https://en.wikipedia.org/wiki/Food_and_Drug_Administration",
         "calendarUrl": "https://en.wikipedia.org/wiki/December_11",
         "license": {
           "name": "CC BY-SA 4.0",
@@ -78,12 +75,12 @@
         }
       },
       "image": {
-        "src": "https://upload.wikimedia.org/wikipedia/commons/b/b6/Konstantinos_XI_Palaiologos_fresco_%28less_edited%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
-        "alt": "Image related to Byzantine Emperor.",
-        "credit": "ILoveHirasawaYui",
-        "source": "https://commons.wikimedia.org/wiki/File:Konstantinos_XI_Palaiologos_fresco_(less_edited).jpg",
-        "license": "CC0",
-        "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/deed.en"
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/4a/US_Food_and_Drug_Administration_Seal.png/1280px-US_Food_and_Drug_Administration_Seal.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "alt": "Picture from the Wikipedia article on Food and Drug Administration.",
+        "credit": "United States Department of the Army",
+        "source": "https://commons.wikimedia.org/wiki/File:US_Food_and_Drug_Administration_Seal.png",
+        "license": "Public domain",
+        "licenseUrl": "https://commons.wikimedia.org/wiki/File:US_Food_and_Drug_Administration_Seal.png"
       }
     }
   ]

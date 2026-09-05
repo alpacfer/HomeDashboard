@@ -3,18 +3,17 @@
   "dateLabel": "5 June",
   "facts": [
     {
-      "id": "06-05-spain-battle-of-the-gulf-of-naples",
+      "id": "06-05-elvis-presley",
       "date": "06-05",
       "dateLabel": "5 June",
-      "country": "spain",
-      "countryName": "Spain",
-      "kind": "events",
-      "year": 1284,
-      "title": "Battle of the Gulf of Naples",
-      "body": "1284: Battle of the Gulf of Naples: Roger of Lauria, admiral to King Peter III of Aragon, destroys the Neapolitan fleet and captures Charles of Salerno.",
+      "category": "culture",
+      "categoryName": "Culture",
+      "year": 1956,
+      "title": "Elvis Presley",
+      "body": "Elvis Presley introduces his new single, \"Hound Dog\", on The Milton Berle Show, scandalizing the audience with his suggestive hip movements.",
       "source": {
-        "name": "Wikipedia · Battle of the Gulf of Naples",
-        "url": "https://en.wikipedia.org/wiki/Battle_of_the_Gulf_of_Naples",
+        "name": "Wikipedia · Elvis Presley",
+        "url": "https://en.wikipedia.org/wiki/Elvis_Presley",
         "calendarUrl": "https://en.wikipedia.org/wiki/June_5",
         "license": {
           "name": "CC BY-SA 4.0",
@@ -22,27 +21,26 @@
         }
       },
       "image": {
-        "src": "https://upload.wikimedia.org/wikipedia/commons/e/ee/Battle_of_the_Gulf_of_Naples.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
-        "alt": "Image related to Battle of the Gulf of Naples.",
-        "credit": "Giovanni Villani",
-        "source": "https://commons.wikimedia.org/wiki/File:Battle_of_the_Gulf_of_Naples.jpg",
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/99/Elvis_Presley_promoting_Jailhouse_Rock.jpg/1280px-Elvis_Presley_promoting_Jailhouse_Rock.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "alt": "Picture from the Wikipedia article on Elvis Presley.",
+        "credit": "Metro-Goldwyn-Mayer, Inc. Reproduction Number: LC-USZ6-2067 Location: NYWTS -- BIOG",
+        "source": "https://commons.wikimedia.org/wiki/File:Elvis_Presley_promoting_Jailhouse_Rock.jpg",
         "license": "Public domain",
-        "licenseUrl": "https://commons.wikimedia.org/wiki/File:Battle_of_the_Gulf_of_Naples.jpg"
+        "licenseUrl": "https://commons.wikimedia.org/wiki/File:Elvis_Presley_promoting_Jailhouse_Rock.jpg"
       }
     },
     {
-      "id": "06-05-denmark-denmark",
+      "id": "06-05-ayatollah",
       "date": "06-05",
       "dateLabel": "5 June",
-      "country": "denmark",
-      "countryName": "Denmark",
-      "kind": "events",
-      "year": 1849,
-      "title": "Denmark",
-      "body": "1849: Denmark becomes a constitutional monarchy by the signing of a new constitution.",
+      "category": "world",
+      "categoryName": "World",
+      "year": 1963,
+      "title": "Ayatollah",
+      "body": "Protests against the arrest of Ayatollah Ruhollah Khomeini by the Shah of Iran, Mohammad Reza Pahlavi. In several cities, masses of angry demonstrators are confronted by tanks and paratroopers.",
       "source": {
-        "name": "Wikipedia · Denmark",
-        "url": "https://en.wikipedia.org/wiki/Denmark",
+        "name": "Wikipedia · Ayatollah",
+        "url": "https://en.wikipedia.org/wiki/Ayatollah",
         "calendarUrl": "https://en.wikipedia.org/wiki/June_5",
         "license": {
           "name": "CC BY-SA 4.0",
@@ -50,27 +48,26 @@
         }
       },
       "image": {
-        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/9c/Flag_of_Denmark.svg/1280px-Flag_of_Denmark.svg.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-        "alt": "Image related to Denmark.",
-        "credit": "Madden and others",
-        "source": "https://commons.wikimedia.org/wiki/File:Flag_of_Denmark.svg",
-        "license": "Public domain",
-        "licenseUrl": "https://commons.wikimedia.org/wiki/File:Flag_of_Denmark.svg"
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/ed/Grand_Ayatollahs_Qom_%D9%81%D8%AA%D9%88%DA%A9%D9%84%D8%A7%DA%98%D8%8C_%D8%A2%DB%8C%D8%AA_%D8%A7%D9%84%D9%84%D9%87_%D9%87%D8%A7%DB%8C_%D8%A7%DB%8C%D8%B1%D8%A7%D9%86-%D9%82%D9%85_02.jpg/1280px-Grand_Ayatollahs_Qom_%D9%81%D8%AA%D9%88%DA%A9%D9%84%D8%A7%DA%98%D8%8C_%D8%A2%DB%8C%D8%AA_%D8%A7%D9%84%D9%84%D9%87_%D9%87%D8%A7%DB%8C_%D8%A7%DB%8C%D8%B1%D8%A7%D9%86-%D9%82%D9%85_02.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "alt": "Picture from the Wikipedia article on Ayatollah.",
+        "credit": "Mostafameraji",
+        "source": "https://commons.wikimedia.org/wiki/File:Grand_Ayatollahs_Qom_%D9%81%D8%AA%D9%88%DA%A9%D9%84%D8%A7%DA%98%D8%8C_%D8%A2%DB%8C%D8%AA_%D8%A7%D9%84%D9%84%D9%87_%D9%87%D8%A7%DB%8C_%D8%A7%DB%8C%D8%B1%D8%A7%D9%86-%D9%82%D9%85_02.jpg",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0"
       }
     },
     {
-      "id": "06-05-greece-theodora-wife-of-theophilos",
+      "id": "06-05-2012-transit-of-venus",
       "date": "06-05",
       "dateLabel": "5 June",
-      "country": "greece",
-      "countryName": "Greece",
-      "kind": "events",
-      "year": 830,
-      "title": "Theodora",
-      "body": "830: Theodora is crowned Byzantine empress and marries then emperor Theophilos in the Hagia Sophia. She is credited with restoring Christian orthodoxy and icons.",
+      "category": "space",
+      "categoryName": "Space",
+      "year": 2012,
+      "title": "2012 transit of Venus",
+      "body": "Last transit of Venus until the year 2117.",
       "source": {
-        "name": "Wikipedia · Theodora (wife of Theophilos)",
-        "url": "https://en.wikipedia.org/wiki/Theodora_(wife_of_Theophilos)",
+        "name": "Wikipedia · 2012 transit of Venus",
+        "url": "https://en.wikipedia.org/wiki/2012_transit_of_Venus",
         "calendarUrl": "https://en.wikipedia.org/wiki/June_5",
         "license": {
           "name": "CC BY-SA 4.0",
@@ -78,12 +75,12 @@
         }
       },
       "image": {
-        "src": "https://upload.wikimedia.org/wikipedia/commons/7/78/Theodora_in_the_Madrid_Skylitzes2.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
-        "alt": "Image related to Theodora.",
-        "credit": "unknown Byzantine artist",
-        "source": "https://commons.wikimedia.org/wiki/File:Theodora_in_the_Madrid_Skylitzes2.png",
-        "license": "Public domain",
-        "licenseUrl": "https://commons.wikimedia.org/wiki/File:Theodora_in_the_Madrid_Skylitzes2.png"
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/47/SDO%27s_Ultra-high_Definition_View_of_2012_Venus_Transit_%28304_Angstrom_Full_Disc_02%29.jpg/1280px-SDO%27s_Ultra-high_Definition_View_of_2012_Venus_Transit_%28304_Angstrom_Full_Disc_02%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "alt": "Picture from the Wikipedia article on 2012 transit of Venus.",
+        "credit": "NASA/SDO, AIA",
+        "source": "https://commons.wikimedia.org/wiki/File:SDO%27s_Ultra-high_Definition_View_of_2012_Venus_Transit_(304_Angstrom_Full_Disc_02).jpg",
+        "license": "CC BY 2.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by/2.0"
       }
     }
   ]

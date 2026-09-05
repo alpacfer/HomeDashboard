@@ -3,18 +3,17 @@
   "dateLabel": "19 December",
   "facts": [
     {
-      "id": "12-19-spain-french-revolutionary-wars",
+      "id": "12-19-apollo-17",
       "date": "12-19",
       "dateLabel": "19 December",
-      "country": "spain",
-      "countryName": "Spain",
-      "kind": "events",
-      "year": 1796,
-      "title": "French Revolutionary Wars",
-      "body": "1796: French Revolutionary Wars: Two British frigates under Commodore Horatio Nelson and two Spanish frigates under Commodore Don Jacobo Stuart engage in battle off the coast of Murcia.",
+      "category": "space",
+      "categoryName": "Space",
+      "year": 1972,
+      "title": "Apollo 17",
+      "body": "The last crewed lunar flight, Apollo 17, carrying Eugene Cernan, Ronald Evans, and Harrison Schmitt, returns to Earth.",
       "source": {
-        "name": "Wikipedia · French Revolutionary Wars",
-        "url": "https://en.wikipedia.org/wiki/French_Revolutionary_Wars",
+        "name": "Wikipedia · Apollo 17",
+        "url": "https://en.wikipedia.org/wiki/Apollo_17",
         "calendarUrl": "https://en.wikipedia.org/wiki/December_19",
         "license": {
           "name": "CC BY-SA 4.0",
@@ -22,27 +21,26 @@
         }
       },
       "image": {
-        "src": "https://upload.wikimedia.org/wikipedia/commons/9/9e/French_Revolutionary_Wars.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
-        "alt": "Image related to French Revolutionary Wars.",
-        "credit": "Ruedi33a",
-        "source": "https://commons.wikimedia.org/wiki/File:French_Revolutionary_Wars.jpg",
-        "license": "CC BY-SA 4.0",
-        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0"
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/ac/Eugene_Cernan_at_the_LM%2C_Apollo_17%2C_AS17-134-20378.jpg/1280px-Eugene_Cernan_at_the_LM%2C_Apollo_17%2C_AS17-134-20378.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "alt": "Picture from the Wikipedia article on Apollo 17.",
+        "credit": "Harrison Schmitt / Apollo 17",
+        "source": "https://commons.wikimedia.org/wiki/File:Eugene_Cernan_at_the_LM,_Apollo_17,_AS17-134-20378.jpg",
+        "license": "Public domain",
+        "licenseUrl": "https://commons.wikimedia.org/wiki/File:Eugene_Cernan_at_the_LM,_Apollo_17,_AS17-134-20378.jpg"
       }
     },
     {
-      "id": "12-19-denmark-sebastian-singer",
+      "id": "12-19-fifa-world-cup-trophy",
       "date": "12-19",
       "dateLabel": "19 December",
-      "country": "denmark",
-      "countryName": "Denmark",
-      "kind": "births",
-      "year": 1949,
-      "title": "Sebastian",
-      "body": "Sebastian, Danish singer-songwriter and guitarist, was born on this day in 1949.",
+      "category": "sport",
+      "categoryName": "Sport",
+      "year": 1983,
+      "title": "FIFA World Cup Trophy",
+      "body": "The original FIFA World Cup trophy, the Jules Rimet Trophy, is stolen from the headquarters of the Brazilian Football Confederation in Rio de Janeiro, Brazil.",
       "source": {
-        "name": "Wikipedia · Sebastian (singer)",
-        "url": "https://en.wikipedia.org/wiki/Sebastian_(singer)",
+        "name": "Wikipedia · FIFA World Cup Trophy",
+        "url": "https://en.wikipedia.org/wiki/FIFA_World_Cup_Trophy",
         "calendarUrl": "https://en.wikipedia.org/wiki/December_19",
         "license": {
           "name": "CC BY-SA 4.0",
@@ -50,27 +48,26 @@
         }
       },
       "image": {
-        "src": "https://upload.wikimedia.org/wikipedia/commons/f/f8/Sebastian_%28Danish_artist%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
-        "alt": "Portrait or image of Sebastian.",
-        "credit": "Arne List",
-        "source": "https://commons.wikimedia.org/wiki/File:Sebastian_(Danish_artist).jpg",
-        "license": "CC BY-SA 3.0",
-        "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0/"
+        "src": "https://upload.wikimedia.org/wikipedia/commons/c/ce/FIFA_World_Cup_Trophy_photo_by_Djuradj_Vujcic.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+        "alt": "Picture from the Wikipedia article on FIFA World Cup Trophy.",
+        "credit": "photo by Djuradj Vujcic",
+        "source": "https://commons.wikimedia.org/wiki/File:FIFA_World_Cup_Trophy_photo_by_Djuradj_Vujcic.jpg",
+        "license": "CC BY 2.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by/2.0"
       }
     },
     {
-      "id": "12-19-greece-pope-martin-i",
+      "id": "12-19-first-indochina-war",
       "date": "12-19",
       "dateLabel": "19 December",
-      "country": "greece",
-      "countryName": "Greece",
-      "kind": "events",
-      "year": 653,
-      "title": "Pope Martin I",
-      "body": "653: Pope Martin I, having been abducted by Byzantine authorities from Rome for his opposition to Monothelitism, is tried in Constantinople.",
+      "category": "world",
+      "categoryName": "World",
+      "year": 1946,
+      "title": "First Indochina War",
+      "body": "Start of the First Indochina War.",
       "source": {
-        "name": "Wikipedia · Pope Martin I",
-        "url": "https://en.wikipedia.org/wiki/Pope_Martin_I",
+        "name": "Wikipedia · First Indochina War",
+        "url": "https://en.wikipedia.org/wiki/First_Indochina_War",
         "calendarUrl": "https://en.wikipedia.org/wiki/December_19",
         "license": {
           "name": "CC BY-SA 4.0",
@@ -78,12 +75,12 @@
         }
       },
       "image": {
-        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/11/14_Chiesa_di_Santa_Maria_della_Consolazione_%28Todi%29%2C_el_papa_Mart%C3%AD_I%2C_de_Carlo_Laurenti.jpg/1280px-14_Chiesa_di_Santa_Maria_della_Consolazione_%28Todi%29%2C_el_papa_Mart%C3%AD_I%2C_de_Carlo_Laurenti.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-        "alt": "Image related to Pope Martin I.",
-        "credit": "Enric",
-        "source": "https://commons.wikimedia.org/wiki/File:14_Chiesa_di_Santa_Maria_della_Consolazione_(Todi),_el_papa_Mart%C3%AD_I,_de_Carlo_Laurenti.jpg",
-        "license": "CC BY-SA 4.0",
-        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0"
+        "src": "https://upload.wikimedia.org/wikipedia/commons/3/33/First_Indochina_War_COLLAGE.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+        "alt": "Picture from the Wikipedia article on First Indochina War.",
+        "credit": "Mohamed Ajjani",
+        "source": "https://commons.wikimedia.org/wiki/File:First_Indochina_War_COLLAGE.jpg",
+        "license": "CC BY 3.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by/3.0"
       }
     }
   ]

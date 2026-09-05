@@ -3,18 +3,17 @@
   "dateLabel": "11 May",
   "facts": [
     {
-      "id": "05-11-spain-louis-ix-of-france",
+      "id": "05-11-deep-blue-versus-garry-kasparov",
       "date": "05-11",
       "dateLabel": "11 May",
-      "country": "spain",
-      "countryName": "Spain",
-      "kind": "events",
-      "year": 1258,
-      "title": "Louis IX of France",
-      "body": "1258: Louis IX of France and James I of Aragon sign the Treaty of Corbeil, renouncing claims of feudal overlordship in one another's territories and separating the House of Barcelona from the politics of France.",
+      "category": "tech",
+      "categoryName": "Tech",
+      "year": 1997,
+      "title": "Deep Blue beats Kasparov",
+      "body": "A chess computer won a full match against a reigning world champion for the first time. Kasparov, convinced no machine could have played that well, accused IBM of hiding a human.",
       "source": {
-        "name": "Wikipedia · Louis IX of France",
-        "url": "https://en.wikipedia.org/wiki/Louis_IX_of_France",
+        "name": "Wikipedia · Deep Blue versus Garry Kasparov",
+        "url": "https://en.wikipedia.org/wiki/Deep_Blue_versus_Garry_Kasparov",
         "calendarUrl": "https://en.wikipedia.org/wiki/May_11",
         "license": {
           "name": "CC BY-SA 4.0",
@@ -22,27 +21,26 @@
         }
       },
       "image": {
-        "src": "https://upload.wikimedia.org/wikipedia/commons/d/de/Saintlouis_%28cropped%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
-        "alt": "Image related to Louis IX of France.",
-        "credit": "AnonymousUnknown author",
-        "source": "https://commons.wikimedia.org/wiki/File:Saintlouis_(cropped).jpg",
-        "license": "Public domain",
-        "licenseUrl": "https://commons.wikimedia.org/wiki/File:Saintlouis_(cropped).jpg"
+        "src": "https://upload.wikimedia.org/wikipedia/commons/b/be/Deep_Blue.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+        "alt": "A photograph of the Deep Blue chess computer.",
+        "credit": "James the photographer",
+        "source": "https://commons.wikimedia.org/wiki/File:Deep_Blue.jpg",
+        "license": "CC BY 2.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by/2.0"
       }
     },
     {
-      "id": "05-11-denmark-sophie-axelsdatter-brahe",
+      "id": "05-11-space-shuttle-atlantis",
       "date": "05-11",
       "dateLabel": "11 May",
-      "country": "denmark",
-      "countryName": "Denmark",
-      "kind": "births",
-      "year": 1578,
-      "title": "Sophie Axelsdatter Brahe",
-      "body": "Sophie Axelsdatter Brahe, Danish noblewoman (died 1646), was born on this day in 1578.",
+      "category": "space",
+      "categoryName": "Space",
+      "year": 2009,
+      "title": "Space Shuttle Atlantis",
+      "body": "Space Shuttle Atlantis is launched on the final mission to service the Hubble Space Telescope.",
       "source": {
-        "name": "Wikipedia · Sophie Axelsdatter Brahe",
-        "url": "https://en.wikipedia.org/wiki/Sophie_Axelsdatter_Brahe",
+        "name": "Wikipedia · Space Shuttle Atlantis",
+        "url": "https://en.wikipedia.org/wiki/Space_Shuttle_Atlantis",
         "calendarUrl": "https://en.wikipedia.org/wiki/May_11",
         "license": {
           "name": "CC BY-SA 4.0",
@@ -50,27 +48,26 @@
         }
       },
       "image": {
-        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/db/Sophie_Brahe_%281578%E2%80%931646%29.JPG/1280px-Sophie_Brahe_%281578%E2%80%931646%29.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-        "alt": "Portrait or image of Sophie Axelsdatter Brahe.",
-        "credit": "probably painted by Johan Jørgensen Kulbars (-1649)",
-        "source": "https://commons.wikimedia.org/wiki/File:Sophie_Brahe_(1578%E2%80%931646).JPG",
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/0e/STS132_Atlantis_undocking2_%28cropped%29.jpg/1280px-STS132_Atlantis_undocking2_%28cropped%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "alt": "Picture from the Wikipedia article on Space Shuttle Atlantis.",
+        "credit": "NASA",
+        "source": "https://commons.wikimedia.org/wiki/File:STS132_Atlantis_undocking2_(cropped).jpg",
         "license": "Public domain",
-        "licenseUrl": "https://commons.wikimedia.org/wiki/File:Sophie_Brahe_(1578%E2%80%931646).JPG"
+        "licenseUrl": "https://commons.wikimedia.org/wiki/File:STS132_Atlantis_undocking2_(cropped).jpg"
       }
     },
     {
-      "id": "05-11-greece-constantine-the-great",
+      "id": "05-11-minnesota",
       "date": "05-11",
       "dateLabel": "11 May",
-      "country": "greece",
-      "countryName": "Greece",
-      "kind": "events",
-      "year": 330,
-      "title": "Constantine the Great",
-      "body": "330: Constantine the Great dedicates the much-expanded and rebuilt city of Byzantium, changing its name to Constantinople and declaring it the new capital of the Roman Empire that modern historians describe as Byzantine Empire.",
+      "category": "world",
+      "categoryName": "World",
+      "year": 1858,
+      "title": "Minnesota",
+      "body": "Minnesota becomes the 32nd U.S. state.",
       "source": {
-        "name": "Wikipedia · Constantine the Great",
-        "url": "https://en.wikipedia.org/wiki/Constantine_the_Great",
+        "name": "Wikipedia · Minnesota",
+        "url": "https://en.wikipedia.org/wiki/Minnesota",
         "calendarUrl": "https://en.wikipedia.org/wiki/May_11",
         "license": {
           "name": "CC BY-SA 4.0",
@@ -78,12 +75,12 @@
         }
       },
       "image": {
-        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/28/Constantine_I_The_Great%2C_Colossal_bronze_statue_fragments%2C_Capitoline_Museums.jpg/1280px-Constantine_I_The_Great%2C_Colossal_bronze_statue_fragments%2C_Capitoline_Museums.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-        "alt": "Image related to Constantine the Great.",
-        "credit": "Apaleutos25",
-        "source": "https://commons.wikimedia.org/wiki/File:Constantine_I_The_Great,_Colossal_bronze_statue_fragments,_Capitoline_Museums.jpg",
-        "license": "CC BY-SA 4.0",
-        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0"
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b9/Flag_of_Minnesota.svg/1280px-Flag_of_Minnesota.svg.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "alt": "Picture from the Wikipedia article on Minnesota.",
+        "credit": "Original: Minnesota State Emblems Redesign Commission Vector: Jamie Eilat, Undertiago",
+        "source": "https://commons.wikimedia.org/wiki/File:Flag_of_Minnesota.svg",
+        "license": "Public domain",
+        "licenseUrl": "https://commons.wikimedia.org/wiki/File:Flag_of_Minnesota.svg"
       }
     }
   ]

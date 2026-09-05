@@ -21,6 +21,9 @@
 //   --pet <spot>           Add ?pet=: hold the Tenant at weather, week,
 //                          transport, fact or map. Prefix with travel- to
 //                          replay its safe-spot route before it holds.
+//   --date <MM-DD>      Add ?date=: show that calendar date's facts instead
+//                          of today's. The only way to see a fact that is not
+//                          today's.
 //   --transit-demo         Add ?transit=demo: the departure boards are drawn
 //                          from a synthetic answer holding a cancellation, a
 //                          long delay, an early departure, a platform change
@@ -76,6 +79,7 @@ function parseArgs(argv) {
       case '--transit-demo': options.transitDemo = true; break;
       case '--time': options.time = value(); break;
       case '--pet': options.pet = value(); break;
+      case '--date': options.date = value(); break;
       case '--width': options.width = Number(value()); break;
       case '--height': options.height = Number(value()); break;
       case '--scale': options.scale = Number(value()); break;

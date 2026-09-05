@@ -3,18 +3,17 @@
   "dateLabel": "7 June",
   "facts": [
     {
-      "id": "06-07-spain-spain",
+      "id": "06-07-israel",
       "date": "06-07",
       "dateLabel": "7 June",
-      "country": "spain",
-      "countryName": "Spain",
-      "kind": "events",
-      "year": 1494,
-      "title": "Spain",
-      "body": "1494: Spain and Portugal sign the Treaty of Tordesillas which divides the New World between the two countries.",
+      "category": "world",
+      "categoryName": "World",
+      "year": 1967,
+      "title": "Israel",
+      "body": "Israeli soldiers enter Jerusalem.",
       "source": {
-        "name": "Wikipedia · Spain",
-        "url": "https://en.wikipedia.org/wiki/Spain",
+        "name": "Wikipedia · Israel",
+        "url": "https://en.wikipedia.org/wiki/Israel",
         "calendarUrl": "https://en.wikipedia.org/wiki/June_7",
         "license": {
           "name": "CC BY-SA 4.0",
@@ -22,27 +21,26 @@
         }
       },
       "image": {
-        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/24/Flag_of_the_Kingdom_of_Spain.svg/1280px-Flag_of_the_Kingdom_of_Spain.svg.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-        "alt": "Image related to Spain.",
-        "credit": "Antonio Valdés y Fernández Bazán",
-        "source": "https://commons.wikimedia.org/wiki/File:Flag_of_the_Kingdom_of_Spain.svg",
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d4/Flag_of_Israel.svg/1280px-Flag_of_Israel.svg.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "alt": "Picture from the Wikipedia article on Israel.",
+        "credit": "Israel Belkind and Fanny Abramovitch (original) “The Provisional Council of State Proclamation of the Flag of the State of Israel” of 25 Tishrei 5709 (28 Octobe",
+        "source": "https://commons.wikimedia.org/wiki/File:Flag_of_Israel.svg",
         "license": "Public domain",
-        "licenseUrl": "https://commons.wikimedia.org/wiki/File:Flag_of_the_Kingdom_of_Spain.svg"
+        "licenseUrl": "https://commons.wikimedia.org/wiki/File:Flag_of_Israel.svg"
       }
     },
     {
-      "id": "06-07-denmark-robina-nicol",
+      "id": "06-07-israeli-air-force",
       "date": "06-07",
       "dateLabel": "7 June",
-      "country": "denmark",
-      "countryName": "Denmark",
-      "kind": "births",
-      "year": 1861,
-      "title": "Robina Nicol",
-      "body": "Robina Nicol, New Zealand photographer and suffragist (died 1942), was born on this day in 1861.",
+      "category": "culture",
+      "categoryName": "Culture",
+      "year": 1981,
+      "title": "Israeli Air Force",
+      "body": "The Israeli Air Force destroys Iraq's Osiraq nuclear reactor during Operation Opera.",
       "source": {
-        "name": "Wikipedia · Robina Nicol",
-        "url": "https://en.wikipedia.org/wiki/Robina_Nicol",
+        "name": "Wikipedia · Israeli Air Force",
+        "url": "https://en.wikipedia.org/wiki/Israeli_Air_Force",
         "calendarUrl": "https://en.wikipedia.org/wiki/June_7",
         "license": {
           "name": "CC BY-SA 4.0",
@@ -50,27 +48,26 @@
         }
       },
       "image": {
-        "src": "https://upload.wikimedia.org/wikipedia/commons/0/08/Robina_Nicol_%28cropped%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
-        "alt": "Portrait or image of Robina Nicol.",
-        "credit": "attributed to Robina Nicol",
-        "source": "https://commons.wikimedia.org/wiki/File:Robina_Nicol_(cropped).jpg",
-        "license": "CC BY 3.0",
-        "licenseUrl": "https://creativecommons.org/licenses/by/3.0"
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/01/Israeli_Air_Force_-_Coat_of_arms.svg/1280px-Israeli_Air_Force_-_Coat_of_arms.svg.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "alt": "Picture from the Wikipedia article on Israeli Air Force.",
+        "credit": "Original: Fry1989 Vector: Mintz l",
+        "source": "https://commons.wikimedia.org/wiki/File:Israeli_Air_Force_-_Coat_of_arms.svg",
+        "license": "Public domain",
+        "licenseUrl": "https://commons.wikimedia.org/wiki/File:Israeli_Air_Force_-_Coat_of_arms.svg"
       }
     },
     {
-      "id": "06-07-greece-theodosius-ii",
+      "id": "06-07-lux-radio-theatre",
       "date": "06-07",
       "dateLabel": "7 June",
-      "country": "greece",
-      "countryName": "Greece",
-      "kind": "events",
-      "year": 421,
-      "title": "Theodosius II",
-      "body": "421: Emperor Theodosius II marries Aelia Eudocia at Constantinople (Byzantine Empire).",
+      "category": "culture",
+      "categoryName": "Culture",
+      "year": 1955,
+      "title": "Lux Radio Theatre",
+      "body": "Lux Radio Theatre signs off the air permanently. The show launched in New York in 1934, and featured radio adaptations of Broadway shows and popular films.",
       "source": {
-        "name": "Wikipedia · Theodosius II",
-        "url": "https://en.wikipedia.org/wiki/Theodosius_II",
+        "name": "Wikipedia · Lux Radio Theatre",
+        "url": "https://en.wikipedia.org/wiki/Lux_Radio_Theatre",
         "calendarUrl": "https://en.wikipedia.org/wiki/June_7",
         "license": {
           "name": "CC BY-SA 4.0",
@@ -78,12 +75,12 @@
         }
       },
       "image": {
-        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/26/Theodosius_II_Louvre_Ma1036.jpg/1280px-Theodosius_II_Louvre_Ma1036.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-        "alt": "Image related to Theodosius II.",
-        "credit": "Marie-Lan Nguyen (User:Jastrow), 2009",
-        "source": "https://commons.wikimedia.org/wiki/File:Theodosius_II_Louvre_Ma1036.jpg",
-        "license": "CC BY 2.5",
-        "licenseUrl": "https://creativecommons.org/licenses/by/2.5"
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/56/Lux_Radio_Theatre_1948.jpg/1280px-Lux_Radio_Theatre_1948.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "alt": "Picture from the Wikipedia article on Lux Radio Theatre.",
+        "credit": "Macfadden Publications",
+        "source": "https://commons.wikimedia.org/wiki/File:Lux_Radio_Theatre_1948.jpg",
+        "license": "Public domain",
+        "licenseUrl": "https://commons.wikimedia.org/wiki/File:Lux_Radio_Theatre_1948.jpg"
       }
     }
   ]

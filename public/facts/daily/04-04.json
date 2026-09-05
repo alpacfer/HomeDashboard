@@ -3,18 +3,17 @@
   "dateLabel": "4 April",
   "facts": [
     {
-      "id": "04-04-spain-gaspar-sanz",
+      "id": "04-04-bill-gates",
       "date": "04-04",
       "dateLabel": "4 April",
-      "country": "spain",
-      "countryName": "Spain",
-      "kind": "births",
-      "year": 1640,
-      "title": "Gaspar Sanz",
-      "body": "Gaspar Sanz, Spanish guitarist, composer, and priest (died 1710), was born on this day in 1640.",
+      "category": "tech",
+      "categoryName": "Tech",
+      "year": 1975,
+      "title": "Bill Gates",
+      "body": "Microsoft is founded as a partnership between Bill Gates and Paul Allen in Albuquerque, New Mexico.",
       "source": {
-        "name": "Wikipedia · Gaspar Sanz",
-        "url": "https://en.wikipedia.org/wiki/Gaspar_Sanz",
+        "name": "Wikipedia · Bill Gates",
+        "url": "https://en.wikipedia.org/wiki/Bill_Gates",
         "calendarUrl": "https://en.wikipedia.org/wiki/April_4",
         "license": {
           "name": "CC BY-SA 4.0",
@@ -22,27 +21,26 @@
         }
       },
       "image": {
-        "src": "https://upload.wikimedia.org/wikipedia/commons/c/c5/Gaspar_Sanz.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
-        "alt": "Portrait or image of Gaspar Sanz.",
-        "credit": "Instrucciòn_de_Mùsica_sobre_la_Guitarra_Española_-_JohnOfAustria.jpg: Gaspar Sanz",
-        "source": "https://commons.wikimedia.org/wiki/File:Gaspar_Sanz.jpg",
+        "src": "https://upload.wikimedia.org/wikipedia/commons/d/d9/Bill_Gates_at_the_European_Commission_-_P067383-987995_%28cropped%29_5.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+        "alt": "Picture from the Wikipedia article on Bill Gates.",
+        "credit": "© European Union, 2026",
+        "source": "https://commons.wikimedia.org/wiki/File:Bill_Gates_at_the_European_Commission_-_P067383-987995_(cropped)_5.jpg",
         "license": "CC BY 4.0",
         "licenseUrl": "https://creativecommons.org/licenses/by/4.0"
       }
     },
     {
-      "id": "04-04-denmark-catherine-tizard",
+      "id": "04-04-comet-hyakutake",
       "date": "04-04",
       "dateLabel": "4 April",
-      "country": "denmark",
-      "countryName": "Denmark",
-      "kind": "births",
-      "year": 1931,
-      "title": "Catherine Tizard",
-      "body": "Catherine Tizard, New Zealand politician, 16th Governor-General of New Zealand (died 2021), was born on this day in 1931.",
+      "category": "space",
+      "categoryName": "Space",
+      "year": 1996,
+      "title": "Comet Hyakutake",
+      "body": "Comet Hyakutake is imaged by the USA Asteroid Orbiter Near Earth Asteroid Rendezvous.",
       "source": {
-        "name": "Wikipedia · Catherine Tizard",
-        "url": "https://en.wikipedia.org/wiki/Catherine_Tizard",
+        "name": "Wikipedia · Comet Hyakutake",
+        "url": "https://en.wikipedia.org/wiki/Comet_Hyakutake",
         "calendarUrl": "https://en.wikipedia.org/wiki/April_4",
         "license": {
           "name": "CC BY-SA 4.0",
@@ -50,27 +48,26 @@
         }
       },
       "image": {
-        "src": "https://upload.wikimedia.org/wikipedia/commons/7/7a/Governor-General_Catherine_Tizard.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
-        "alt": "Portrait or image of Catherine Tizard.",
-        "credit": "Government House. The Governor-General of New Zealand",
-        "source": "https://commons.wikimedia.org/wiki/File:Governor-General_Catherine_Tizard.jpg",
-        "license": "CC BY-SA 4.0",
-        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0"
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/1f/Hyakutake_Color.jpg/1280px-Hyakutake_Color.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "alt": "Picture from the Wikipedia article on Comet Hyakutake.",
+        "credit": "E. Kolmhofer, H. Raab; Johannes-Kepler-Observatory, Linz, Austria (http://www.sternwarte.at)",
+        "source": "https://commons.wikimedia.org/wiki/File:Hyakutake_Color.jpg",
+        "license": "CC BY-SA 3.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0"
       }
     },
     {
-      "id": "04-04-greece-byzantine-venetian-treaty-of-1268",
+      "id": "04-04-france",
       "date": "04-04",
       "dateLabel": "4 April",
-      "country": "greece",
-      "countryName": "Greece",
-      "kind": "events",
-      "year": 1268,
-      "title": "five-year Byzantine–Venetian peace treaty",
-      "body": "1268: A five-year Byzantine–Venetian peace treaty is concluded between Venetian envoys and Emperor Michael VIII Palaiologos.",
+      "category": "world",
+      "categoryName": "World",
+      "year": 2009,
+      "title": "France",
+      "body": "France announces its return to full participation of its military forces within NATO.",
       "source": {
-        "name": "Wikipedia · Byzantine–Venetian treaty of 1268",
-        "url": "https://en.wikipedia.org/wiki/Byzantine%E2%80%93Venetian_treaty_of_1268",
+        "name": "Wikipedia · France",
+        "url": "https://en.wikipedia.org/wiki/France",
         "calendarUrl": "https://en.wikipedia.org/wiki/April_4",
         "license": {
           "name": "CC BY-SA 4.0",
@@ -78,12 +75,12 @@
         }
       },
       "image": {
-        "src": "https://upload.wikimedia.org/wikipedia/commons/0/09/ShepherdByzempire1265.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
-        "alt": "Image related to five-year Byzantine–Venetian peace treaty.",
-        "credit": "William Robert Shepherd",
-        "source": "https://commons.wikimedia.org/wiki/File:ShepherdByzempire1265.jpg",
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c3/Flag_of_France.svg/1280px-Flag_of_France.svg.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "alt": "Picture from the Wikipedia article on France.",
+        "credit": "Original: Unknown Vector: SKopp",
+        "source": "https://commons.wikimedia.org/wiki/File:Flag_of_France.svg",
         "license": "Public domain",
-        "licenseUrl": "https://commons.wikimedia.org/wiki/File:ShepherdByzempire1265.jpg"
+        "licenseUrl": "https://commons.wikimedia.org/wiki/File:Flag_of_France.svg"
       }
     }
   ]

@@ -3,18 +3,17 @@
   "dateLabel": "3 December",
   "facts": [
     {
-      "id": "12-03-spain-oil-tanker",
+      "id": "12-03-sms",
       "date": "12-03",
       "dateLabel": "3 December",
-      "country": "spain",
-      "countryName": "Spain",
-      "kind": "events",
+      "category": "tech",
+      "categoryName": "Tech",
       "year": 1992,
-      "title": "oil tanker",
-      "body": "1992: The Greek oil tanker Aegean Sea, carrying 80,000 tonnes of crude oil, runs aground in a storm while approaching A Coruña, Spain, and spills much of its cargo.",
+      "title": "The first text message",
+      "body": "An engineer typed \"Merry Christmas\" on a computer and sent it to a colleague's phone. Phones of the day could receive a text message but had no way to write one back.",
       "source": {
-        "name": "Wikipedia · Oil tanker",
-        "url": "https://en.wikipedia.org/wiki/Oil_tanker",
+        "name": "Wikipedia · SMS",
+        "url": "https://en.wikipedia.org/wiki/SMS",
         "calendarUrl": "https://en.wikipedia.org/wiki/December_3",
         "license": {
           "name": "CC BY-SA 4.0",
@@ -22,27 +21,26 @@
         }
       },
       "image": {
-        "src": "https://upload.wikimedia.org/wikipedia/commons/7/75/Supertanker_AbQaiq.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
-        "alt": "Image related to oil tanker.",
-        "credit": "Wikimedia Commons contributor",
-        "source": "https://commons.wikimedia.org/wiki/File:Supertanker_AbQaiq.jpg",
-        "license": "Public domain",
-        "licenseUrl": "https://commons.wikimedia.org/wiki/File:Supertanker_AbQaiq.jpg"
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f5/Party_SMS.jpg/1280px-Party_SMS.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "alt": "A mobile phone showing a received text message.",
+        "credit": "Thomas van de Weerd from Utrecht, The Netherlands",
+        "source": "https://commons.wikimedia.org/wiki/File:Party_SMS.jpg",
+        "license": "CC BY 2.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by/2.0"
       }
     },
     {
-      "id": "12-03-denmark-albert-asher",
+      "id": "12-03-pioneer-10",
       "date": "12-03",
       "dateLabel": "3 December",
-      "country": "denmark",
-      "countryName": "Denmark",
-      "kind": "births",
-      "year": 1879,
-      "title": "Albert Asher",
-      "body": "Albert Asher, New Zealand rugby player (died 1965), was born on this day in 1879.",
+      "category": "space",
+      "categoryName": "Space",
+      "year": 1973,
+      "title": "Pioneer 10",
+      "body": "Pioneer 10 sends back the first close-up images of Jupiter.",
       "source": {
-        "name": "Wikipedia · Albert Asher",
-        "url": "https://en.wikipedia.org/wiki/Albert_Asher",
+        "name": "Wikipedia · Pioneer 10",
+        "url": "https://en.wikipedia.org/wiki/Pioneer_10",
         "calendarUrl": "https://en.wikipedia.org/wiki/December_3",
         "license": {
           "name": "CC BY-SA 4.0",
@@ -50,27 +48,26 @@
         }
       },
       "image": {
-        "src": "https://upload.wikimedia.org/wikipedia/commons/5/5e/Albert_Asher_Auckland.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
-        "alt": "Portrait or image of Albert Asher.",
-        "credit": "Observer",
-        "source": "https://commons.wikimedia.org/wiki/File:Albert_Asher_Auckland.png",
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f0/An_artist%27s_impression_of_a_Pioneer_spacecraft_on_its_way_to_interstellar_space.jpg/1280px-An_artist%27s_impression_of_a_Pioneer_spacecraft_on_its_way_to_interstellar_space.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "alt": "Picture from the Wikipedia article on Pioneer 10.",
+        "credit": "NASA/Don Davis",
+        "source": "https://commons.wikimedia.org/wiki/File:An_artist%27s_impression_of_a_Pioneer_spacecraft_on_its_way_to_interstellar_space.jpg",
         "license": "Public domain",
-        "licenseUrl": "https://commons.wikimedia.org/wiki/File:Albert_Asher_Auckland.png"
+        "licenseUrl": "https://commons.wikimedia.org/wiki/File:An_artist%27s_impression_of_a_Pioneer_spacecraft_on_its_way_to_interstellar_space.jpg"
       }
     },
     {
-      "id": "12-03-greece-kingdom-of-bulgaria",
+      "id": "12-03-cincinnati",
       "date": "12-03",
       "dateLabel": "3 December",
-      "country": "greece",
-      "countryName": "Greece",
-      "kind": "events",
-      "year": 1912,
-      "title": "Bulgaria",
-      "body": "1912: Bulgaria, Greece, Montenegro, and Serbia (the Balkan League) sign an armistice with the Ottoman Empire, temporarily halting the First Balkan War. (The armistice will expire on February 3, 1913, and hostilities will resume.).",
+      "category": "culture",
+      "categoryName": "Culture",
+      "year": 1979,
+      "title": "Cincinnati",
+      "body": "In Cincinnati, 11 fans are suffocated in a crush for seats on the concourse outside Riverfront Coliseum before a Who concert.",
       "source": {
-        "name": "Wikipedia · Kingdom of Bulgaria",
-        "url": "https://en.wikipedia.org/wiki/Kingdom_of_Bulgaria",
+        "name": "Wikipedia · Cincinnati",
+        "url": "https://en.wikipedia.org/wiki/Cincinnati",
         "calendarUrl": "https://en.wikipedia.org/wiki/December_3",
         "license": {
           "name": "CC BY-SA 4.0",
@@ -78,12 +75,12 @@
         }
       },
       "image": {
-        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/9a/Flag_of_Bulgaria.svg/1280px-Flag_of_Bulgaria.svg.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-        "alt": "Image related to Bulgaria.",
-        "credit": "SKopp",
-        "source": "https://commons.wikimedia.org/wiki/File:Flag_of_Bulgaria.svg",
-        "license": "Public domain",
-        "licenseUrl": "https://commons.wikimedia.org/wiki/File:Flag_of_Bulgaria.svg"
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/5c/Downtown_Cincinnati_viewed_from_Devou_Park_%28cropped%29.jpg/1280px-Downtown_Cincinnati_viewed_from_Devou_Park_%28cropped%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "alt": "Picture from the Wikipedia article on Cincinnati.",
+        "credit": "EEJCC",
+        "source": "https://commons.wikimedia.org/wiki/File:Downtown_Cincinnati_viewed_from_Devou_Park_(cropped).jpg",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0"
       }
     }
   ]

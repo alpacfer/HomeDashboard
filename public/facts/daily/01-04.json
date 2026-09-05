@@ -3,18 +3,17 @@
   "dateLabel": "4 January",
   "facts": [
     {
-      "id": "01-04-spain-spain",
+      "id": "01-04-luna-1",
       "date": "01-04",
       "dateLabel": "4 January",
-      "country": "spain",
-      "countryName": "Spain",
-      "kind": "events",
-      "year": 1762,
-      "title": "Spain",
-      "body": "1762: Great Britain declares war on Spain, which meant the entry of Spain into the Seven Years' War.",
+      "category": "space",
+      "categoryName": "Space",
+      "year": 1959,
+      "title": "Luna 1",
+      "body": "Luna 1 becomes the first spacecraft to reach the vicinity of the Moon.",
       "source": {
-        "name": "Wikipedia · Spain",
-        "url": "https://en.wikipedia.org/wiki/Spain",
+        "name": "Wikipedia · Luna 1",
+        "url": "https://en.wikipedia.org/wiki/Luna_1",
         "calendarUrl": "https://en.wikipedia.org/wiki/January_4",
         "license": {
           "name": "CC BY-SA 4.0",
@@ -22,27 +21,26 @@
         }
       },
       "image": {
-        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/24/Flag_of_the_Kingdom_of_Spain.svg/1280px-Flag_of_the_Kingdom_of_Spain.svg.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-        "alt": "Image related to Spain.",
-        "credit": "Antonio Valdés y Fernández Bazán",
-        "source": "https://commons.wikimedia.org/wiki/File:Flag_of_the_Kingdom_of_Spain.svg",
-        "license": "Public domain",
-        "licenseUrl": "https://commons.wikimedia.org/wiki/File:Flag_of_the_Kingdom_of_Spain.svg"
+        "src": "https://upload.wikimedia.org/wikipedia/commons/c/cc/RIAN_archive_510848_Interplanetary_station_Luna_1_-_blacked.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+        "alt": "Picture from the Wikipedia article on Luna 1.",
+        "credit": "RIA Novosti archive, image #510848 / Alexander Mokletsov / CC-BY-SA 3.0",
+        "source": "https://commons.wikimedia.org/wiki/File:RIAN_archive_510848_Interplanetary_station_Luna_1_-_blacked.jpg",
+        "license": "CC BY-SA 3.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0"
       }
     },
     {
-      "id": "01-04-denmark-battle-of-reading-871",
+      "id": "01-04-the-doors",
       "date": "01-04",
       "dateLabel": "4 January",
-      "country": "denmark",
-      "countryName": "Denmark",
-      "kind": "events",
-      "year": 871,
-      "title": "Battle of Reading",
-      "body": "871: Battle of Reading: Æthelred of Wessex and his brother Alfred are defeated by a Danish invasion army.",
+      "category": "culture",
+      "categoryName": "Culture",
+      "year": 1967,
+      "title": "The Doors",
+      "body": "The Doors released their eponymous debut album.",
       "source": {
-        "name": "Wikipedia · Battle of Reading (871)",
-        "url": "https://en.wikipedia.org/wiki/Battle_of_Reading_(871)",
+        "name": "Wikipedia · The Doors",
+        "url": "https://en.wikipedia.org/wiki/The_Doors",
         "calendarUrl": "https://en.wikipedia.org/wiki/January_4",
         "license": {
           "name": "CC BY-SA 4.0",
@@ -50,27 +48,26 @@
         }
       },
       "image": {
-        "src": "https://upload.wikimedia.org/wikipedia/commons/d/d9/Alfred_the_Great.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
-        "alt": "Image related to Battle of Reading.",
-        "credit": "Wikimedia Commons contributor",
-        "source": "https://commons.wikimedia.org/wiki/File:Alfred_the_Great.jpg",
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/69/The_Doors_1968.JPG/1280px-The_Doors_1968.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "alt": "Picture from the Wikipedia article on The Doors.",
+        "credit": "Joel Brodsky; Distributed by Agency for the Performing Arts (APA)",
+        "source": "https://commons.wikimedia.org/wiki/File:The_Doors_1968.JPG",
         "license": "Public domain",
-        "licenseUrl": "https://commons.wikimedia.org/wiki/File:Alfred_the_Great.jpg"
+        "licenseUrl": "https://commons.wikimedia.org/wiki/File:The_Doors_1968.JPG"
       }
     },
     {
-      "id": "01-04-greece-national-radical-union",
+      "id": "01-04-jesse-ventura",
       "date": "01-04",
       "dateLabel": "4 January",
-      "country": "greece",
-      "countryName": "Greece",
-      "kind": "events",
-      "year": 1956,
-      "title": "National Radical Union",
-      "body": "1956: The Greek National Radical Union is formed by Konstantinos Karamanlis.",
+      "category": "sport",
+      "categoryName": "Sport",
+      "year": 1999,
+      "title": "Jesse Ventura",
+      "body": "Former professional wrestler Jesse Ventura is sworn in as governor of Minnesota, United States.",
       "source": {
-        "name": "Wikipedia · National Radical Union",
-        "url": "https://en.wikipedia.org/wiki/National_Radical_Union",
+        "name": "Wikipedia · Jesse Ventura",
+        "url": "https://en.wikipedia.org/wiki/Jesse_Ventura",
         "calendarUrl": "https://en.wikipedia.org/wiki/January_4",
         "license": {
           "name": "CC BY-SA 4.0",
@@ -78,12 +75,12 @@
         }
       },
       "image": {
-        "src": "https://commons.wikimedia.org/wiki/Special:Redirect/file/Flag_of_Greece.svg?width=1000",
-        "alt": "The national flag of Greece.",
-        "credit": "Greek government",
-        "source": "https://commons.wikimedia.org/wiki/File:Flag_of_Greece.svg",
-        "license": "Public domain",
-        "licenseUrl": "https://commons.wikimedia.org/wiki/File:Flag_of_Greece.svg"
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/fd/Jesse_Ventura_2024_%283x4_cropped_b%29.jpg/1280px-Jesse_Ventura_2024_%283x4_cropped_b%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "alt": "Picture from the Wikipedia article on Jesse Ventura.",
+        "credit": "Gage Skidmore from Surprise, AZ, United States of America",
+        "source": "https://commons.wikimedia.org/wiki/File:Jesse_Ventura_2024_(3x4_cropped_b).jpg",
+        "license": "CC BY-SA 2.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0"
       }
     }
   ]

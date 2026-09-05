@@ -3,18 +3,17 @@
   "dateLabel": "12 October",
   "facts": [
     {
-      "id": "10-12-spain-war-of-jenkins-ear",
+      "id": "10-12-voskhod-1",
       "date": "10-12",
       "dateLabel": "12 October",
-      "country": "spain",
-      "countryName": "Spain",
-      "kind": "events",
-      "year": 1748,
-      "title": "War of Jenkins' Ear",
-      "body": "1748: War of Jenkins' Ear: A British squadron wins a tactical victory over a Spanish squadron off Havana.",
+      "category": "space",
+      "categoryName": "Space",
+      "year": 1964,
+      "title": "Voskhod 1",
+      "body": "The Soviet Union launches the Voskhod 1 into Earth orbit as the first spacecraft with a multi-person crew, and the first flight without pressure suits.",
       "source": {
-        "name": "Wikipedia · War of Jenkins' Ear",
-        "url": "https://en.wikipedia.org/wiki/War_of_Jenkins'_Ear",
+        "name": "Wikipedia · Voskhod 1",
+        "url": "https://en.wikipedia.org/wiki/Voskhod_1",
         "calendarUrl": "https://en.wikipedia.org/wiki/October_12",
         "license": {
           "name": "CC BY-SA 4.0",
@@ -22,27 +21,26 @@
         }
       },
       "image": {
-        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/ad/A_new_and_correct_map_of_the_trading_part_of_the_West_Indies.png/1280px-A_new_and_correct_map_of_the_trading_part_of_the_West_Indies.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-        "alt": "Image related to War of Jenkins' Ear.",
-        "credit": "Henry Overton",
-        "source": "https://commons.wikimedia.org/wiki/File:A_new_and_correct_map_of_the_trading_part_of_the_West_Indies.png",
-        "license": "Public domain",
-        "licenseUrl": "https://commons.wikimedia.org/wiki/File:A_new_and_correct_map_of_the_trading_part_of_the_West_Indies.png"
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/ad/Voskhod_1_capsule_on_display%2C_2016.jpg/1280px-Voskhod_1_capsule_on_display%2C_2016.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "alt": "Picture from the Wikipedia article on Voskhod 1.",
+        "credit": "Andrew Gray",
+        "source": "https://commons.wikimedia.org/wiki/File:Voskhod_1_capsule_on_display,_2016.jpg",
+        "license": "CC BY-SA 3.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0"
       }
     },
     {
-      "id": "10-12-denmark-first-battle-of-passchendaele",
+      "id": "10-12-2012-nobel-peace-prize",
       "date": "10-12",
       "dateLabel": "12 October",
-      "country": "denmark",
-      "countryName": "Denmark",
-      "kind": "events",
-      "year": 1917,
-      "title": "First Battle of Passchendaele",
-      "body": "1917: World War I: The First Battle of Passchendaele takes place resulting in the largest single-day loss of life in New Zealand history.",
+      "category": "science",
+      "categoryName": "Science",
+      "year": 2012,
+      "title": "2012 Nobel Peace Prize",
+      "body": "The European Union wins the 2012 Nobel Peace Prize.",
       "source": {
-        "name": "Wikipedia · First Battle of Passchendaele",
-        "url": "https://en.wikipedia.org/wiki/First_Battle_of_Passchendaele",
+        "name": "Wikipedia · 2012 Nobel Peace Prize",
+        "url": "https://en.wikipedia.org/wiki/2012_Nobel_Peace_Prize",
         "calendarUrl": "https://en.wikipedia.org/wiki/October_12",
         "license": {
           "name": "CC BY-SA 4.0",
@@ -50,27 +48,26 @@
         }
       },
       "image": {
-        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d7/Morning_a_Passchendaele._Frank_Hurley.jpg/1280px-Morning_a_Passchendaele._Frank_Hurley.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-        "alt": "Image related to First Battle of Passchendaele.",
-        "credit": "Frank Hurley",
-        "source": "https://commons.wikimedia.org/wiki/File:Morning_a_Passchendaele._Frank_Hurley.jpg",
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b7/Flag_of_Europe.svg/1280px-Flag_of_Europe.svg.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "alt": "Picture from the Wikipedia article on 2012 Nobel Peace Prize.",
+        "credit": "User:Verdy p, User:-xfi-, User:Paddu, User:Nightstallion, User:Funakoshi, User:Jeltz, User:Dbenbenn, User:Zscout370",
+        "source": "https://commons.wikimedia.org/wiki/File:Flag_of_Europe.svg",
         "license": "Public domain",
-        "licenseUrl": "https://commons.wikimedia.org/wiki/File:Morning_a_Passchendaele._Frank_Hurley.jpg"
+        "licenseUrl": "https://commons.wikimedia.org/wiki/File:Flag_of_Europe.svg"
       }
     },
     {
-      "id": "10-12-greece-1856-heraklion-earthquake",
+      "id": "10-12-jeanne-genevi-ve-labrosse",
       "date": "10-12",
       "dateLabel": "12 October",
-      "country": "greece",
-      "countryName": "Greece",
-      "kind": "events",
-      "year": 1856,
-      "title": "M 7.7–8.3 earthquake",
-      "body": "1856: An M 7.7–8.3 earthquake off the Greek island of Crete cause major damage as far as Egypt and Malta.",
+      "category": "curious",
+      "categoryName": "Curious",
+      "year": 1799,
+      "title": "Jeanne Geneviève Garnerin",
+      "body": "Jeanne Geneviève Labrosse becomes the first woman to jump from a balloon with a parachute.",
       "source": {
-        "name": "Wikipedia · 1856 Heraklion earthquake",
-        "url": "https://en.wikipedia.org/wiki/1856_Heraklion_earthquake",
+        "name": "Wikipedia · Jeanne Geneviève Garnerin",
+        "url": "https://en.wikipedia.org/wiki/Jeanne_Genevi%C3%A8ve_Garnerin",
         "calendarUrl": "https://en.wikipedia.org/wiki/October_12",
         "license": {
           "name": "CC BY-SA 4.0",
@@ -78,12 +75,12 @@
         }
       },
       "image": {
-        "src": "https://commons.wikimedia.org/wiki/Special:Redirect/file/Flag_of_Greece.svg?width=1000",
-        "alt": "The national flag of Greece.",
-        "credit": "Greek government",
-        "source": "https://commons.wikimedia.org/wiki/File:Flag_of_Greece.svg",
+        "src": "https://upload.wikimedia.org/wikipedia/commons/a/ac/Madame_Garnerin%2C_by_Christoph_Haller_von_Hallerstein%2C_%281771_-_1839%29_%28cropped%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+        "alt": "Picture from the Wikipedia article on Jeanne Geneviève Garnerin.",
+        "credit": "Christoph Haller von Hallerstein",
+        "source": "https://commons.wikimedia.org/wiki/File:Madame_Garnerin,_by_Christoph_Haller_von_Hallerstein,_(1771_-_1839)_(cropped).jpg",
         "license": "Public domain",
-        "licenseUrl": "https://commons.wikimedia.org/wiki/File:Flag_of_Greece.svg"
+        "licenseUrl": "https://commons.wikimedia.org/wiki/File:Madame_Garnerin,_by_Christoph_Haller_von_Hallerstein,_(1771_-_1839)_(cropped).jpg"
       }
     }
   ]

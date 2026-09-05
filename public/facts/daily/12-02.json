@@ -3,18 +3,17 @@
   "dateLabel": "2 December",
   "facts": [
     {
-      "id": "12-02-spain-david-rivas",
+      "id": "12-02-sts-61",
       "date": "12-02",
       "dateLabel": "2 December",
-      "country": "spain",
-      "countryName": "Spain",
-      "kind": "births",
-      "year": 1978,
-      "title": "David Rivas",
-      "body": "David Rivas, Spanish footballer, was born on this day in 1978.",
+      "category": "space",
+      "categoryName": "Space",
+      "year": 1993,
+      "title": "STS-61",
+      "body": "NASA launches the Space Shuttle Endeavour on a mission to repair the Hubble Space Telescope.",
       "source": {
-        "name": "Wikipedia · David Rivas",
-        "url": "https://en.wikipedia.org/wiki/David_Rivas",
+        "name": "Wikipedia · STS-61",
+        "url": "https://en.wikipedia.org/wiki/STS-61",
         "calendarUrl": "https://en.wikipedia.org/wiki/December_2",
         "license": {
           "name": "CC BY-SA 4.0",
@@ -22,27 +21,26 @@
         }
       },
       "image": {
-        "src": "https://commons.wikimedia.org/wiki/Special:Redirect/file/Flag_of_Spain.svg?width=1000",
-        "alt": "The national flag of Spain.",
-        "credit": "Government of Spain",
-        "source": "https://commons.wikimedia.org/wiki/File:Flag_of_Spain.svg",
-        "license": "Public domain",
-        "licenseUrl": "https://commons.wikimedia.org/wiki/File:Flag_of_Spain.svg"
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/45/STS061-98-050_-_Astronauts_Musgrave_and_Hoffman_during_servicing_of_HST_%28Retouched%29.jpg/1280px-STS061-98-050_-_Astronauts_Musgrave_and_Hoffman_during_servicing_of_HST_%28Retouched%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "alt": "Picture from the Wikipedia article on STS-61.",
+        "credit": "Askeuhd",
+        "source": "https://commons.wikimedia.org/wiki/File:STS061-98-050_-_Astronauts_Musgrave_and_Hoffman_during_servicing_of_HST_(Retouched).jpg",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0"
       }
     },
     {
-      "id": "12-02-denmark-erima-harvey-northcroft",
+      "id": "12-02-fidel-castro",
       "date": "12-02",
       "dateLabel": "2 December",
-      "country": "denmark",
-      "countryName": "Denmark",
-      "kind": "births",
-      "year": 1884,
-      "title": "Erima Harvey Northcroft",
-      "body": "Erima Harvey Northcroft, New Zealand soldier, lawyer, and judge (died 1953), was born on this day in 1884.",
+      "category": "world",
+      "categoryName": "World",
+      "year": 1961,
+      "title": "Fidel Castro",
+      "body": "In a nationally broadcast speech, Cuban leader Fidel Castro declares that he is a Marxist–Leninist and that Cuba will adopt Communism.",
       "source": {
-        "name": "Wikipedia · Erima Northcroft",
-        "url": "https://en.wikipedia.org/wiki/Erima_Northcroft",
+        "name": "Wikipedia · Fidel Castro",
+        "url": "https://en.wikipedia.org/wiki/Fidel_Castro",
         "calendarUrl": "https://en.wikipedia.org/wiki/December_2",
         "license": {
           "name": "CC BY-SA 4.0",
@@ -50,27 +48,26 @@
         }
       },
       "image": {
-        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/27/NL-HaNA_2.21.273_1_0099_01.jpg/1280px-NL-HaNA_2.21.273_1_0099_01.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-        "alt": "Portrait or image of Erima Harvey Northcroft.",
-        "credit": "Bert Röling / Nationaal Archief",
-        "source": "https://commons.wikimedia.org/wiki/File:NL-HaNA_2.21.273_1_0099_01.jpg",
-        "license": "CC0",
-        "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/deed.en"
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/86/Fidel_Castro%2C_Prime_Minister_of_Cuba._Castro_at_the_United_Nations%2C_New_York_%283x4_cropped%29.jpg/1280px-Fidel_Castro%2C_Prime_Minister_of_Cuba._Castro_at_the_United_Nations%2C_New_York_%283x4_cropped%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "alt": "Picture from the Wikipedia article on Fidel Castro.",
+        "credit": "Bernard Gotfryd",
+        "source": "https://commons.wikimedia.org/wiki/File:Fidel_Castro,_Prime_Minister_of_Cuba._Castro_at_the_United_Nations,_New_York_(3x4_cropped).jpg",
+        "license": "Public domain",
+        "licenseUrl": "https://commons.wikimedia.org/wiki/File:Fidel_Castro,_Prime_Minister_of_Cuba._Castro_at_the_United_Nations,_New_York_(3x4_cropped).jpg"
       }
     },
     {
-      "id": "12-02-greece-maria-callas",
+      "id": "12-02-tremont-temple",
       "date": "12-02",
       "dateLabel": "2 December",
-      "country": "greece",
-      "countryName": "Greece",
-      "kind": "births",
-      "year": 1923,
-      "title": "Maria Callas",
-      "body": "Maria Callas, American-Greek soprano and actress (died 1977), was born on this day in 1923.",
+      "category": "culture",
+      "categoryName": "Culture",
+      "year": 1867,
+      "title": "Tremont Temple",
+      "body": "At Tremont Temple in Boston, British author Charles Dickens gives his first public reading in the United States.",
       "source": {
-        "name": "Wikipedia · Maria Callas",
-        "url": "https://en.wikipedia.org/wiki/Maria_Callas",
+        "name": "Wikipedia · Tremont Temple",
+        "url": "https://en.wikipedia.org/wiki/Tremont_Temple",
         "calendarUrl": "https://en.wikipedia.org/wiki/December_2",
         "license": {
           "name": "CC BY-SA 4.0",
@@ -78,12 +75,12 @@
         }
       },
       "image": {
-        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a1/Maria_Callas_1958.jpg/1280px-Maria_Callas_1958.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-        "alt": "Portrait or image of Maria Callas.",
-        "credit": "CBS Television",
-        "source": "https://commons.wikimedia.org/wiki/File:Maria_Callas_1958.jpg",
-        "license": "Public domain",
-        "licenseUrl": "https://commons.wikimedia.org/wiki/File:Maria_Callas_1958.jpg"
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/35/Tremont_Temple_Boston.jpg/1280px-Tremont_Temple_Boston.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "alt": "Picture from the Wikipedia article on Tremont Temple.",
+        "credit": "Kenneth C. Zirkel",
+        "source": "https://commons.wikimedia.org/wiki/File:Tremont_Temple_Boston.jpg",
+        "license": "CC BY 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by/4.0"
       }
     }
   ]

@@ -3,18 +3,17 @@
   "dateLabel": "11 March",
   "facts": [
     {
-      "id": "03-11-spain-2004-madrid-train-bombings",
+      "id": "03-11-space-shuttle-endeavour",
       "date": "03-11",
       "dateLabel": "11 March",
-      "country": "spain",
-      "countryName": "Spain",
-      "kind": "events",
-      "year": 2004,
-      "title": "Madrid train bombings",
-      "body": "2004: Madrid train bombings: Simultaneous explosions on rush hour trains in Madrid, Spain kill 191 people.",
+      "category": "space",
+      "categoryName": "Space",
+      "year": 2008,
+      "title": "Space Shuttle Endeavour",
+      "body": "Space Shuttle Endeavour launches on STS-123, carrying the first component of the Japanese Kibō module to the International Space Station.",
       "source": {
-        "name": "Wikipedia · 2004 Madrid train bombings",
-        "url": "https://en.wikipedia.org/wiki/2004_Madrid_train_bombings",
+        "name": "Wikipedia · Space Shuttle Endeavour",
+        "url": "https://en.wikipedia.org/wiki/Space_Shuttle_Endeavour",
         "calendarUrl": "https://en.wikipedia.org/wiki/March_11",
         "license": {
           "name": "CC BY-SA 4.0",
@@ -22,27 +21,26 @@
         }
       },
       "image": {
-        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/19/Atentado_11M.jpg/1280px-Atentado_11M.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-        "alt": "Image related to Madrid train bombings.",
-        "credit": "Ramón Peco (desdetasmania)",
-        "source": "https://commons.wikimedia.org/wiki/File:Atentado_11M.jpg",
-        "license": "CC BY 2.0",
-        "licenseUrl": "https://creativecommons.org/licenses/by/2.0"
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/65/STS-123_Dextre%26Kibo_ELM-PS_in_orbit_%28cropped%29.jpg/1280px-STS-123_Dextre%26Kibo_ELM-PS_in_orbit_%28cropped%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "alt": "Picture from the Wikipedia article on Space Shuttle Endeavour.",
+        "credit": "NASA",
+        "source": "https://commons.wikimedia.org/wiki/File:STS-123_Dextre%26Kibo_ELM-PS_in_orbit_(cropped).jpg",
+        "license": "Public domain",
+        "licenseUrl": "https://commons.wikimedia.org/wiki/File:STS-123_Dextre%26Kibo_ELM-PS_in_orbit_(cropped).jpg"
       }
     },
     {
-      "id": "03-11-denmark-flagstaff-war",
+      "id": "03-11-the-daily-courant",
       "date": "03-11",
       "dateLabel": "11 March",
-      "country": "denmark",
-      "countryName": "Denmark",
-      "kind": "events",
-      "year": 1845,
-      "title": "Flagstaff War",
-      "body": "1845: Flagstaff War: Unhappy with translational differences regarding the Treaty of Waitangi, chiefs Hōne Heke, Kawiti and Māori tribe members chop down the British flagpole for a fourth time and drive settlers out of Kororāreka, New Zealand.",
+      "category": "world",
+      "categoryName": "World",
+      "year": 1702,
+      "title": "The Daily Courant",
+      "body": "The Daily Courant, England's first national daily newspaper, is published for the first time.",
       "source": {
-        "name": "Wikipedia · Flagstaff War",
-        "url": "https://en.wikipedia.org/wiki/Flagstaff_War",
+        "name": "Wikipedia · The Daily Courant",
+        "url": "https://en.wikipedia.org/wiki/The_Daily_Courant",
         "calendarUrl": "https://en.wikipedia.org/wiki/March_11",
         "license": {
           "name": "CC BY-SA 4.0",
@@ -50,27 +48,26 @@
         }
       },
       "image": {
-        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/1e/HekeFlagstaff.jpg/1280px-HekeFlagstaff.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-        "alt": "Image related to Flagstaff War.",
-        "credit": "McCormick, Arthur David, 1860-1943",
-        "source": "https://commons.wikimedia.org/wiki/File:HekeFlagstaff.jpg",
+        "src": "https://upload.wikimedia.org/wikipedia/commons/e/ec/The_Daily_Courant.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+        "alt": "Picture from the Wikipedia article on The Daily Courant.",
+        "credit": "Edward Mallet from rooms above the White Hart pub in Fleet Street",
+        "source": "https://commons.wikimedia.org/wiki/File:The_Daily_Courant.png",
         "license": "Public domain",
-        "licenseUrl": "https://commons.wikimedia.org/wiki/File:HekeFlagstaff.jpg"
+        "licenseUrl": "https://commons.wikimedia.org/wiki/File:The_Daily_Courant.png"
       }
     },
     {
-      "id": "03-11-greece-triumph-of-orthodoxy",
+      "id": "03-11-international-criminal-court",
       "date": "03-11",
       "dateLabel": "11 March",
-      "country": "greece",
-      "countryName": "Greece",
-      "kind": "events",
-      "year": 843,
-      "title": "Triumph of Orthodoxy",
-      "body": "843: Triumph of Orthodoxy: Empress Theodora II restores the veneration of icons in the Orthodox churches in the Byzantine Empire.",
+      "category": "world",
+      "categoryName": "World",
+      "year": 2003,
+      "title": "International Criminal Court",
+      "body": "The International Criminal Court holds its inaugural session in The Hague.",
       "source": {
-        "name": "Wikipedia · Feast of Orthodoxy",
-        "url": "https://en.wikipedia.org/wiki/Feast_of_Orthodoxy",
+        "name": "Wikipedia · International Criminal Court",
+        "url": "https://en.wikipedia.org/wiki/International_Criminal_Court",
         "calendarUrl": "https://en.wikipedia.org/wiki/March_11",
         "license": {
           "name": "CC BY-SA 4.0",
@@ -78,12 +75,12 @@
         }
       },
       "image": {
-        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b5/Triumph_orthodoxy.jpg/1280px-Triumph_orthodoxy.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-        "alt": "Image related to Triumph of Orthodoxy.",
-        "credit": "anonymous",
-        "source": "https://commons.wikimedia.org/wiki/File:Triumph_orthodoxy.jpg",
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/60/International_Criminal_Court_%E2%80%93_State_Parties.svg/1280px-International_Criminal_Court_%E2%80%93_State_Parties.svg.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "alt": "Picture from the Wikipedia article on International Criminal Court.",
+        "credit": "Nice4What",
+        "source": "https://commons.wikimedia.org/wiki/File:International_Criminal_Court_%E2%80%93_State_Parties.svg",
         "license": "Public domain",
-        "licenseUrl": "https://commons.wikimedia.org/wiki/File:Triumph_orthodoxy.jpg"
+        "licenseUrl": "https://commons.wikimedia.org/wiki/File:International_Criminal_Court_%E2%80%93_State_Parties.svg"
       }
     }
   ]

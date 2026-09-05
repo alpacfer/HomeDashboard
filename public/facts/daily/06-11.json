@@ -3,18 +3,17 @@
   "dateLabel": "11 June",
   "facts": [
     {
-      "id": "06-11-spain-henry-viii",
+      "id": "06-11-antonio-meucci",
       "date": "06-11",
       "dateLabel": "11 June",
-      "country": "spain",
-      "countryName": "Spain",
-      "kind": "events",
-      "year": 1509,
-      "title": "Henry VIII",
-      "body": "1509: Henry VIII of England marries Catherine of Aragon.",
+      "category": "tech",
+      "categoryName": "Tech",
+      "year": 2002,
+      "title": "Antonio Meucci",
+      "body": "Antonio Meucci is acknowledged as the first inventor of the telephone by the United States Congress.",
       "source": {
-        "name": "Wikipedia · Henry VIII",
-        "url": "https://en.wikipedia.org/wiki/Henry_VIII",
+        "name": "Wikipedia · Antonio Meucci",
+        "url": "https://en.wikipedia.org/wiki/Antonio_Meucci",
         "calendarUrl": "https://en.wikipedia.org/wiki/June_11",
         "license": {
           "name": "CC BY-SA 4.0",
@@ -22,27 +21,26 @@
         }
       },
       "image": {
-        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f9/After_Hans_Holbein_the_Younger_-_Portrait_of_Henry_VIII_-_Google_Art_Project.jpg/1280px-After_Hans_Holbein_the_Younger_-_Portrait_of_Henry_VIII_-_Google_Art_Project.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-        "alt": "Image related to Henry VIII.",
-        "credit": "Workshop of Hans Holbein the Younger",
-        "source": "https://commons.wikimedia.org/wiki/File:After_Hans_Holbein_the_Younger_-_Portrait_of_Henry_VIII_-_Google_Art_Project.jpg",
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/75/Antonio_Meucci.jpg/1280px-Antonio_Meucci.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "alt": "Picture from the Wikipedia article on Antonio Meucci.",
+        "credit": "Unknown author",
+        "source": "https://commons.wikimedia.org/wiki/File:Antonio_Meucci.jpg",
         "license": "Public domain",
-        "licenseUrl": "https://commons.wikimedia.org/wiki/File:After_Hans_Holbein_the_Younger_-_Portrait_of_Henry_VIII_-_Google_Art_Project.jpg"
+        "licenseUrl": "https://commons.wikimedia.org/wiki/File:Antonio_Meucci.jpg"
       }
     },
     {
-      "id": "06-11-denmark-denmark",
+      "id": "06-11-fermi-gamma-ray-space-telescope",
       "date": "06-11",
       "dateLabel": "11 June",
-      "country": "denmark",
-      "countryName": "Denmark",
-      "kind": "events",
-      "year": 1748,
-      "title": "Denmark",
-      "body": "1748: Denmark adopts the characteristic Nordic Cross flag later taken up by all other Scandinavian countries.",
+      "category": "space",
+      "categoryName": "Space",
+      "year": 2008,
+      "title": "Fermi Gamma-ray Space Telescope",
+      "body": "The Fermi Gamma-ray Space Telescope is launched into orbit.",
       "source": {
-        "name": "Wikipedia · Denmark",
-        "url": "https://en.wikipedia.org/wiki/Denmark",
+        "name": "Wikipedia · Fermi Gamma-ray Space Telescope",
+        "url": "https://en.wikipedia.org/wiki/Fermi_Gamma-ray_Space_Telescope",
         "calendarUrl": "https://en.wikipedia.org/wiki/June_11",
         "license": {
           "name": "CC BY-SA 4.0",
@@ -50,27 +48,26 @@
         }
       },
       "image": {
-        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/9c/Flag_of_Denmark.svg/1280px-Flag_of_Denmark.svg.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-        "alt": "Image related to Denmark.",
-        "credit": "Madden and others",
-        "source": "https://commons.wikimedia.org/wiki/File:Flag_of_Denmark.svg",
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b7/Fermi_Gamma-ray_Space_Telescope_spacecraft_model.png/1280px-Fermi_Gamma-ray_Space_Telescope_spacecraft_model.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "alt": "Picture from the Wikipedia article on Fermi Gamma-ray Space Telescope.",
+        "credit": "NASA",
+        "source": "https://commons.wikimedia.org/wiki/File:Fermi_Gamma-ray_Space_Telescope_spacecraft_model.png",
         "license": "Public domain",
-        "licenseUrl": "https://commons.wikimedia.org/wiki/File:Flag_of_Denmark.svg"
+        "licenseUrl": "https://commons.wikimedia.org/wiki/File:Fermi_Gamma-ray_Space_Telescope_spacecraft_model.png"
       }
     },
     {
-      "id": "06-11-greece-norman-conquest-of-southern-italy",
+      "id": "06-11-june-1962-alcatraz-escape",
       "date": "06-11",
       "dateLabel": "11 June",
-      "country": "greece",
-      "countryName": "Greece",
-      "kind": "events",
-      "year": 1011,
-      "title": "Lombard Revolt",
-      "body": "1011: Lombard Revolt: Greek citizens of Bari rise up against the Lombard rebels led by Melus and deliver the city to Basil Mesardonites, Byzantine governor (catepan) of the Catepanate of Italy.",
+      "category": "curious",
+      "categoryName": "Curious",
+      "year": 1962,
+      "title": "June 1962 Alcatraz escape",
+      "body": "Frank Morris, John Anglin and Clarence Anglin allegedly become the only prisoners to escape from the prison on Alcatraz Island.",
       "source": {
-        "name": "Wikipedia · Norman conquest of southern Italy",
-        "url": "https://en.wikipedia.org/wiki/Norman_conquest_of_southern_Italy",
+        "name": "Wikipedia · June 1962 Alcatraz escape",
+        "url": "https://en.wikipedia.org/wiki/June_1962_Alcatraz_escape",
         "calendarUrl": "https://en.wikipedia.org/wiki/June_11",
         "license": {
           "name": "CC BY-SA 4.0",
@@ -78,12 +75,12 @@
         }
       },
       "image": {
-        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e9/Italy_1000_AD.svg/1280px-Italy_1000_AD.svg.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-        "alt": "Image related to Lombard Revolt.",
-        "credit": "No machine-readable author provided. MapMaster assumed (based on copyright claims).",
-        "source": "https://commons.wikimedia.org/wiki/File:Italy_1000_AD.svg",
-        "license": "CC BY-SA 3.0",
-        "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0/"
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/94/Alcatraz_Island_March_1962.jpg/1280px-Alcatraz_Island_March_1962.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "alt": "Picture from the Wikipedia article on June 1962 Alcatraz escape.",
+        "credit": "Jdreed (talk) (Uploads)",
+        "source": "https://commons.wikimedia.org/wiki/File:Alcatraz_Island_March_1962.jpg",
+        "license": "CC BY 3.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by/3.0"
       }
     }
   ]

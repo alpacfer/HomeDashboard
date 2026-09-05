@@ -3,18 +3,17 @@
   "dateLabel": "3 April",
   "facts": [
     {
-      "id": "04-03-spain-louis-guglielmi",
+      "id": "04-03-osborne-1",
       "date": "04-03",
       "dateLabel": "3 April",
-      "country": "spain",
-      "countryName": "Spain",
-      "kind": "births",
-      "year": 1916,
-      "title": "Louis Guglielmi",
-      "body": "Louis Guglielmi, Catalan composer (died 1991), was born on this day in 1916.",
+      "category": "tech",
+      "categoryName": "Tech",
+      "year": 1981,
+      "title": "Osborne 1",
+      "body": "The Osborne 1, the first successful portable computer, is unveiled at the West Coast Computer Faire in San Francisco.",
       "source": {
-        "name": "Wikipedia · Louiguy",
-        "url": "https://en.wikipedia.org/wiki/Louiguy",
+        "name": "Wikipedia · Osborne 1",
+        "url": "https://en.wikipedia.org/wiki/Osborne_1",
         "calendarUrl": "https://en.wikipedia.org/wiki/April_3",
         "license": {
           "name": "CC BY-SA 4.0",
@@ -22,27 +21,26 @@
         }
       },
       "image": {
-        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a1/Louiguy_Wikimedia.png/1280px-Louiguy_Wikimedia.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-        "alt": "Portrait or image of Louis Guglielmi.",
-        "credit": "Studio Carlet Ainé",
-        "source": "https://commons.wikimedia.org/wiki/File:Louiguy_Wikimedia.png",
-        "license": "Public domain",
-        "licenseUrl": "https://commons.wikimedia.org/wiki/File:Louiguy_Wikimedia.png"
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/66/Osborne_1_open.jpg/1280px-Osborne_1_open.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "alt": "Picture from the Wikipedia article on Osborne 1.",
+        "credit": "Bilby",
+        "source": "https://commons.wikimedia.org/wiki/File:Osborne_1_open.jpg",
+        "license": "CC BY 3.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by/3.0"
       }
     },
     {
-      "id": "04-03-denmark-christian-g-nther-von-bernstorff",
+      "id": "04-03-us-congress",
       "date": "04-03",
       "dateLabel": "3 April",
-      "country": "denmark",
-      "countryName": "Denmark",
-      "kind": "births",
-      "year": 1769,
-      "title": "Christian Günther von Bernstorff",
-      "body": "Christian Günther von Bernstorff, Danish-Prussian politician and diplomat (died 1835), was born on this day in 1769.",
+      "category": "culture",
+      "categoryName": "Culture",
+      "year": 1980,
+      "title": "United States Congress",
+      "body": "US Congress restores a federal trust relationship with the 501 members of the Shivwits, Kanosh, Koosharem, and the Indian Peaks and Cedar City bands of the Paiute people of Utah.",
       "source": {
-        "name": "Wikipedia · Christian Günther von Bernstorff",
-        "url": "https://en.wikipedia.org/wiki/Christian_G%C3%BCnther_von_Bernstorff",
+        "name": "Wikipedia · United States Congress",
+        "url": "https://en.wikipedia.org/wiki/United_States_Congress",
         "calendarUrl": "https://en.wikipedia.org/wiki/April_3",
         "license": {
           "name": "CC BY-SA 4.0",
@@ -50,27 +48,26 @@
         }
       },
       "image": {
-        "src": "https://upload.wikimedia.org/wikipedia/commons/4/45/Christian_Bernstorff.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
-        "alt": "Portrait or image of Christian Günther von Bernstorff.",
-        "credit": "Saddhiyama",
-        "source": "https://commons.wikimedia.org/wiki/File:Christian_Bernstorff.jpg",
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/5b/Greater_coat_of_arms_of_the_United_States.svg/1280px-Greater_coat_of_arms_of_the_United_States.svg.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "alt": "Picture from the Wikipedia article on United States Congress.",
+        "credit": "Ssolbergj",
+        "source": "https://commons.wikimedia.org/wiki/File:Greater_coat_of_arms_of_the_United_States.svg",
         "license": "Public domain",
-        "licenseUrl": "https://commons.wikimedia.org/wiki/File:Christian_Bernstorff.jpg"
+        "licenseUrl": "https://commons.wikimedia.org/wiki/File:Greater_coat_of_arms_of_the_United_States.svg"
       }
     },
     {
-      "id": "04-03-greece-polyeuctus-of-constantinople",
+      "id": "04-03-mount-everest",
       "date": "04-03",
       "dateLabel": "3 April",
-      "country": "greece",
-      "countryName": "Greece",
-      "kind": "events",
-      "year": 956,
-      "title": "Polyeuctus of Constantinople",
-      "body": "956: Polyeuctus of Constantinople is elected as patriarch of Constantinople.",
+      "category": "science",
+      "categoryName": "Science",
+      "year": 1933,
+      "title": "Mount Everest",
+      "body": "First flight over Mount Everest, the British Houston-Mount Everest Flight Expedition, led by the Marquis of Clydesdale and funded by Lucy, Lady Houston.",
       "source": {
-        "name": "Wikipedia · Polyeuctus of Constantinople",
-        "url": "https://en.wikipedia.org/wiki/Polyeuctus_of_Constantinople",
+        "name": "Wikipedia · Mount Everest",
+        "url": "https://en.wikipedia.org/wiki/Mount_Everest",
         "calendarUrl": "https://en.wikipedia.org/wiki/April_3",
         "license": {
           "name": "CC BY-SA 4.0",
@@ -78,12 +75,12 @@
         }
       },
       "image": {
-        "src": "https://upload.wikimedia.org/wikipedia/commons/2/29/Consecration_of_Patriarch_Polyeuctus.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
-        "alt": "Image related to Polyeuctus of Constantinople.",
-        "credit": "Unknown, 13th-century author",
-        "source": "https://commons.wikimedia.org/wiki/File:Consecration_of_Patriarch_Polyeuctus.png",
-        "license": "Public domain",
-        "licenseUrl": "https://commons.wikimedia.org/wiki/File:Consecration_of_Patriarch_Polyeuctus.png"
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/15/Mt._Everest_from_Gokyo_Ri_November_5%2C_2012.jpg/1280px-Mt._Everest_from_Gokyo_Ri_November_5%2C_2012.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "alt": "Picture from the Wikipedia article on Mount Everest.",
+        "credit": "Rdevany",
+        "source": "https://commons.wikimedia.org/wiki/File:Mt._Everest_from_Gokyo_Ri_November_5,_2012.jpg",
+        "license": "CC BY-SA 3.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0"
       }
     }
   ]

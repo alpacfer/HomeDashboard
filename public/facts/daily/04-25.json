@@ -3,18 +3,17 @@
   "dateLabel": "25 April",
   "facts": [
     {
-      "id": "04-25-spain-eighty-years-war",
+      "id": "04-25-pioneer-10",
       "date": "04-25",
       "dateLabel": "25 April",
-      "country": "spain",
-      "countryName": "Spain",
-      "kind": "events",
-      "year": 1607,
-      "title": "Eighty Years' War",
-      "body": "1607: Eighty Years' War: The Dutch fleet destroys the anchored Spanish fleet at Gibraltar.",
+      "category": "space",
+      "categoryName": "Space",
+      "year": 1983,
+      "title": "Pioneer 10",
+      "body": "Pioneer 10 travels beyond Pluto's orbit.",
       "source": {
-        "name": "Wikipedia · Eighty Years' War",
-        "url": "https://en.wikipedia.org/wiki/Eighty_Years'_War",
+        "name": "Wikipedia · Pioneer 10",
+        "url": "https://en.wikipedia.org/wiki/Pioneer_10",
         "calendarUrl": "https://en.wikipedia.org/wiki/April_25",
         "license": {
           "name": "CC BY-SA 4.0",
@@ -22,27 +21,26 @@
         }
       },
       "image": {
-        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b9/Battle_of_Gibraltar_1607.jpg/1280px-Battle_of_Gibraltar_1607.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-        "alt": "Image related to Eighty Years' War.",
-        "credit": "Cornelis Claesz van Wieringen / Formerly attributed to Hendrick Cornelisz Vroom",
-        "source": "https://commons.wikimedia.org/wiki/File:Battle_of_Gibraltar_1607.jpg",
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f0/An_artist%27s_impression_of_a_Pioneer_spacecraft_on_its_way_to_interstellar_space.jpg/1280px-An_artist%27s_impression_of_a_Pioneer_spacecraft_on_its_way_to_interstellar_space.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "alt": "Picture from the Wikipedia article on Pioneer 10.",
+        "credit": "NASA/Don Davis",
+        "source": "https://commons.wikimedia.org/wiki/File:An_artist%27s_impression_of_a_Pioneer_spacecraft_on_its_way_to_interstellar_space.jpg",
         "license": "Public domain",
-        "licenseUrl": "https://commons.wikimedia.org/wiki/File:Battle_of_Gibraltar_1607.jpg"
+        "licenseUrl": "https://commons.wikimedia.org/wiki/File:An_artist%27s_impression_of_a_Pioneer_spacecraft_on_its_way_to_interstellar_space.jpg"
       }
     },
     {
-      "id": "04-25-denmark-world-war-i",
+      "id": "04-25-solar-cell",
       "date": "04-25",
       "dateLabel": "25 April",
-      "country": "denmark",
-      "countryName": "Denmark",
-      "kind": "events",
-      "year": 1915,
-      "title": "World War I",
-      "body": "1915: World War I: The Battle of Gallipoli begins: The invasion of the Turkish Gallipoli Peninsula by British, French, Indian, Newfoundland, Australian and New Zealand troops begins with landings at Anzac Cove and Cape Helles.",
+      "category": "tech",
+      "categoryName": "Tech",
+      "year": 1954,
+      "title": "Solar cell",
+      "body": "The first practical solar cell is publicly demonstrated by Bell Telephone Laboratories.",
       "source": {
-        "name": "Wikipedia · World War I",
-        "url": "https://en.wikipedia.org/wiki/World_War_I",
+        "name": "Wikipedia · Solar cell",
+        "url": "https://en.wikipedia.org/wiki/Solar_cell",
         "calendarUrl": "https://en.wikipedia.org/wiki/April_25",
         "license": {
           "name": "CC BY-SA 4.0",
@@ -50,27 +48,26 @@
         }
       },
       "image": {
-        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e6/Bataille_de_Verdun_1916.jpg/1280px-Bataille_de_Verdun_1916.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-        "alt": "Image related to World War I.",
-        "credit": "Collection DocAnciens/docpix.fr",
-        "source": "https://commons.wikimedia.org/wiki/File:Bataille_de_Verdun_1916.jpg",
+        "src": "https://upload.wikimedia.org/wikipedia/commons/9/90/Solar_cell.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+        "alt": "Picture from the Wikipedia article on Solar cell.",
+        "credit": "Unknown author",
+        "source": "https://commons.wikimedia.org/wiki/File:Solar_cell.png",
         "license": "Public domain",
-        "licenseUrl": "https://commons.wikimedia.org/wiki/File:Bataille_de_Verdun_1916.jpg"
+        "licenseUrl": "https://commons.wikimedia.org/wiki/File:Solar_cell.png"
       }
     },
     {
-      "id": "04-25-greece-nikolaos-roussen",
+      "id": "04-25-francis-crick",
       "date": "04-25",
       "dateLabel": "25 April",
-      "country": "greece",
-      "countryName": "Greece",
-      "kind": "births",
-      "year": 1913,
-      "title": "Nikolaos Roussen",
-      "body": "Nikolaos Roussen, Greek captain (died 1944), was born on this day in 1913.",
+      "category": "science",
+      "categoryName": "Science",
+      "year": 1953,
+      "title": "Francis Crick",
+      "body": "Francis Crick and James Watson publish \"Molecular Structure of Nucleic Acids: A Structure for Deoxyribose Nucleic Acid\" describing the double helix structure of DNA.",
       "source": {
-        "name": "Wikipedia · Nikolaos Roussen",
-        "url": "https://en.wikipedia.org/wiki/Nikolaos_Roussen",
+        "name": "Wikipedia · Francis Crick",
+        "url": "https://en.wikipedia.org/wiki/Francis_Crick",
         "calendarUrl": "https://en.wikipedia.org/wiki/April_25",
         "license": {
           "name": "CC BY-SA 4.0",
@@ -78,12 +75,12 @@
         }
       },
       "image": {
-        "src": "https://commons.wikimedia.org/wiki/Special:Redirect/file/Flag_of_Greece.svg?width=1000",
-        "alt": "The national flag of Greece.",
-        "credit": "Greek government",
-        "source": "https://commons.wikimedia.org/wiki/File:Flag_of_Greece.svg",
-        "license": "Public domain",
-        "licenseUrl": "https://commons.wikimedia.org/wiki/File:Flag_of_Greece.svg"
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/99/Francis_Crick_crop.jpg/1280px-Francis_Crick_crop.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "alt": "Picture from the Wikipedia article on Francis Crick.",
+        "credit": "Francis_Crick.png: Photo: Marc Lieberman, per ticket:2015100910022707 derivative work: Materialscientist (talk)",
+        "source": "https://commons.wikimedia.org/wiki/File:Francis_Crick_crop.jpg",
+        "license": "CC BY 2.5",
+        "licenseUrl": "https://creativecommons.org/licenses/by/2.5"
       }
     }
   ]

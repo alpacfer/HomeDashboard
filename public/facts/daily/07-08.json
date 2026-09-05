@@ -3,18 +3,17 @@
   "dateLabel": "8 July",
   "facts": [
     {
-      "id": "07-08-spain-roger-of-lauria",
+      "id": "07-08-space-shuttle-columbia",
       "date": "07-08",
       "dateLabel": "8 July",
-      "country": "spain",
-      "countryName": "Spain",
-      "kind": "events",
-      "year": 1283,
-      "title": "Roger of Lauria",
-      "body": "1283: Roger of Lauria, commanding the Aragonese fleet, defeats an Angevin fleet sent to put down a rebellion on Malta.",
+      "category": "space",
+      "categoryName": "Space",
+      "year": 1994,
+      "title": "Space Shuttle Columbia",
+      "body": "Space Shuttle Columbia is launched on an international science mission.",
       "source": {
-        "name": "Wikipedia · Roger of Lauria",
-        "url": "https://en.wikipedia.org/wiki/Roger_of_Lauria",
+        "name": "Wikipedia · Space Shuttle Columbia",
+        "url": "https://en.wikipedia.org/wiki/Space_Shuttle_Columbia",
         "calendarUrl": "https://en.wikipedia.org/wiki/July_8",
         "license": {
           "name": "CC BY-SA 4.0",
@@ -22,68 +21,66 @@
         }
       },
       "image": {
-        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a6/Roger_de_Ll%C3%BAria.jpg/1280px-Roger_de_Ll%C3%BAria.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-        "alt": "Image related to Roger of Lauria.",
-        "credit": "Thom Quine",
-        "source": "https://commons.wikimedia.org/wiki/File:Roger_de_Ll%C3%BAria.jpg",
-        "license": "CC BY-SA 3.0",
-        "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0"
-      }
-    },
-    {
-      "id": "07-08-denmark-john-money",
-      "date": "07-08",
-      "dateLabel": "8 July",
-      "country": "denmark",
-      "countryName": "Denmark",
-      "kind": "births",
-      "year": 1921,
-      "title": "John Money",
-      "body": "John Money, New Zealand psychologist and sexologist, known for his research on gender identity, and responsible for controversial involuntary sex reassignment of David Reimer (died 2006), was born on this day in 1921.",
-      "source": {
-        "name": "Wikipedia · John Money",
-        "url": "https://en.wikipedia.org/wiki/John_Money",
-        "calendarUrl": "https://en.wikipedia.org/wiki/July_8",
-        "license": {
-          "name": "CC BY-SA 4.0",
-          "url": "https://creativecommons.org/licenses/by-sa/4.0/"
-        }
-      },
-      "image": {
-        "src": "https://upload.wikimedia.org/wikipedia/commons/4/48/John_Money_%281996%29_%28cropped%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
-        "alt": "Portrait or image of John Money.",
-        "credit": "Luca Borghi",
-        "source": "https://commons.wikimedia.org/wiki/File:John_Money_(1996)_(cropped).jpg",
-        "license": "CC BY-SA 4.0",
-        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0"
-      }
-    },
-    {
-      "id": "07-08-greece-alexandros-papanastasiou",
-      "date": "07-08",
-      "dateLabel": "8 July",
-      "country": "greece",
-      "countryName": "Greece",
-      "kind": "births",
-      "year": 1876,
-      "title": "Alexandros Papanastasiou",
-      "body": "Alexandros Papanastasiou, Greek sociologist and politician, Prime Minister of Greece (died 1936), was born on this day in 1876.",
-      "source": {
-        "name": "Wikipedia · Alexandros Papanastasiou",
-        "url": "https://en.wikipedia.org/wiki/Alexandros_Papanastasiou",
-        "calendarUrl": "https://en.wikipedia.org/wiki/July_8",
-        "license": {
-          "name": "CC BY-SA 4.0",
-          "url": "https://creativecommons.org/licenses/by-sa/4.0/"
-        }
-      },
-      "image": {
-        "src": "https://upload.wikimedia.org/wikipedia/commons/5/52/1935_Press_Photo_Alexander_Papanastasiou_Former_Premier_Greece.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
-        "alt": "Portrait or image of Alexandros Papanastasiou.",
-        "credit": "Kaufmann & Fabry Co.",
-        "source": "https://commons.wikimedia.org/wiki/File:1935_Press_Photo_Alexander_Papanastasiou_Former_Premier_Greece.png",
+        "src": "https://upload.wikimedia.org/wikipedia/commons/2/26/Space_Shuttle_Columbia_lands_following_STS-62_on_18_March_1994._%28cropped%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+        "alt": "Picture from the Wikipedia article on Space Shuttle Columbia.",
+        "credit": "NASA",
+        "source": "https://commons.wikimedia.org/wiki/File:Space_Shuttle_Columbia_lands_following_STS-62_on_18_March_1994._(cropped).jpg",
         "license": "Public domain",
-        "licenseUrl": "https://commons.wikimedia.org/wiki/File:1935_Press_Photo_Alexander_Papanastasiou_Former_Premier_Greece.png"
+        "licenseUrl": "https://commons.wikimedia.org/wiki/File:Space_Shuttle_Columbia_lands_following_STS-62_on_18_March_1994._(cropped).jpg"
+      }
+    },
+    {
+      "id": "07-08-space-shuttle-atlantis",
+      "date": "07-08",
+      "dateLabel": "8 July",
+      "category": "space",
+      "categoryName": "Space",
+      "year": 2011,
+      "title": "Space Shuttle Atlantis",
+      "body": "Space Shuttle Atlantis is launched in the final mission of the U.S. Space Shuttle program.",
+      "source": {
+        "name": "Wikipedia · Space Shuttle Atlantis",
+        "url": "https://en.wikipedia.org/wiki/Space_Shuttle_Atlantis",
+        "calendarUrl": "https://en.wikipedia.org/wiki/July_8",
+        "license": {
+          "name": "CC BY-SA 4.0",
+          "url": "https://creativecommons.org/licenses/by-sa/4.0/"
+        }
+      },
+      "image": {
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/0e/STS132_Atlantis_undocking2_%28cropped%29.jpg/1280px-STS132_Atlantis_undocking2_%28cropped%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "alt": "Picture from the Wikipedia article on Space Shuttle Atlantis.",
+        "credit": "NASA",
+        "source": "https://commons.wikimedia.org/wiki/File:STS132_Atlantis_undocking2_(cropped).jpg",
+        "license": "Public domain",
+        "licenseUrl": "https://commons.wikimedia.org/wiki/File:STS132_Atlantis_undocking2_(cropped).jpg"
+      }
+    },
+    {
+      "id": "07-08-list-of-kings-of-burundi",
+      "date": "07-08",
+      "dateLabel": "8 July",
+      "category": "world",
+      "categoryName": "World",
+      "year": 1966,
+      "title": "List of kings of Burundi",
+      "body": "King Mwambutsa IV Bangiriceng of Burundi is deposed by his son Prince Charles Ndizi.",
+      "source": {
+        "name": "Wikipedia · List of kings of Burundi",
+        "url": "https://en.wikipedia.org/wiki/List_of_kings_of_Burundi",
+        "calendarUrl": "https://en.wikipedia.org/wiki/July_8",
+        "license": {
+          "name": "CC BY-SA 4.0",
+          "url": "https://creativecommons.org/licenses/by-sa/4.0/"
+        }
+      },
+      "image": {
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/88/Coat_of_arms_of_the_Kingdom_of_Burundi.svg/1280px-Coat_of_arms_of_the_Kingdom_of_Burundi.svg.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "alt": "Picture from the Wikipedia article on List of kings of Burundi.",
+        "credit": "Samhanin",
+        "source": "https://commons.wikimedia.org/wiki/File:Coat_of_arms_of_the_Kingdom_of_Burundi.svg",
+        "license": "CC BY 3.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by/3.0"
       }
     }
   ]

@@ -3,18 +3,17 @@
   "dateLabel": "11 August",
   "facts": [
     {
-      "id": "08-11-spain-spanish-american-war",
+      "id": "08-11-vostok-3",
       "date": "08-11",
       "dateLabel": "11 August",
-      "country": "spain",
-      "countryName": "Spain",
-      "kind": "events",
-      "year": 1898,
-      "title": "Spanish–American War",
-      "body": "1898: Spanish–American War: American troops enter the city of Mayagüez, Puerto Rico.",
+      "category": "space",
+      "categoryName": "Space",
+      "year": 1962,
+      "title": "Vostok 3 and 4",
+      "body": "Vostok 3 launches from the Baikonur Cosmodrome and cosmonaut Andrian Nikolayev becomes the first person to float in microgravity.",
       "source": {
-        "name": "Wikipedia · Spanish–American War",
-        "url": "https://en.wikipedia.org/wiki/Spanish%E2%80%93American_War",
+        "name": "Wikipedia · Vostok 3 and 4",
+        "url": "https://en.wikipedia.org/wiki/Vostok_3_and_4",
         "calendarUrl": "https://en.wikipedia.org/wiki/August_11",
         "license": {
           "name": "CC BY-SA 4.0",
@@ -22,27 +21,26 @@
         }
       },
       "image": {
-        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/84/Collage_infobox_for_Spanish-American_War.jpg/1280px-Collage_infobox_for_Spanish-American_War.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-        "alt": "Image related to Spanish–American War.",
-        "credit": "Barbudo Barbudo and TEP",
-        "source": "https://commons.wikimedia.org/wiki/File:Collage_infobox_for_Spanish-American_War.jpg",
-        "license": "CC BY-SA 4.0",
-        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0"
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/3e/Vostok_Spacecraft_Diagram.svg/1280px-Vostok_Spacecraft_Diagram.svg.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "alt": "Picture from the Wikipedia article on Vostok 3 and 4.",
+        "credit": "Roryjoem",
+        "source": "https://commons.wikimedia.org/wiki/File:Vostok_Spacecraft_Diagram.svg",
+        "license": "CC BY-SA 3.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0"
       }
     },
     {
-      "id": "08-11-denmark-glenys-page",
+      "id": "08-11-babe-ruth",
       "date": "08-11",
       "dateLabel": "11 August",
-      "country": "denmark",
-      "countryName": "Denmark",
-      "kind": "births",
-      "year": 1940,
-      "title": "Glenys Page",
-      "body": "Glenys Page, New Zealand cricketer (died 2012), was born on this day in 1940.",
+      "category": "sport",
+      "categoryName": "Sport",
+      "year": 1929,
+      "title": "Babe Ruth",
+      "body": "Babe Ruth becomes the first baseball player to hit 500 home runs in his career with a home run at League Park in Cleveland, Ohio.",
       "source": {
-        "name": "Wikipedia · Glenys Page",
-        "url": "https://en.wikipedia.org/wiki/Glenys_Page",
+        "name": "Wikipedia · Babe Ruth",
+        "url": "https://en.wikipedia.org/wiki/Babe_Ruth",
         "calendarUrl": "https://en.wikipedia.org/wiki/August_11",
         "license": {
           "name": "CC BY-SA 4.0",
@@ -50,27 +48,26 @@
         }
       },
       "image": {
-        "src": "https://commons.wikimedia.org/wiki/Special:Redirect/file/Flag_of_Denmark.svg?width=1000",
-        "alt": "The national flag of Denmark.",
-        "credit": "Danish government",
-        "source": "https://commons.wikimedia.org/wiki/File:Flag_of_Denmark.svg",
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/13/Babe_Ruth2.jpg/1280px-Babe_Ruth2.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "alt": "Picture from the Wikipedia article on Babe Ruth.",
+        "credit": "Irwin, La Broad, & Pudlin.",
+        "source": "https://commons.wikimedia.org/wiki/File:Babe_Ruth2.jpg",
         "license": "Public domain",
-        "licenseUrl": "https://commons.wikimedia.org/wiki/File:Flag_of_Denmark.svg"
+        "licenseUrl": "https://commons.wikimedia.org/wiki/File:Babe_Ruth2.jpg"
       }
     },
     {
-      "id": "08-11-greece-georgios-karatzaferis",
+      "id": "08-11-nickelodeon",
       "date": "08-11",
       "dateLabel": "11 August",
-      "country": "greece",
-      "countryName": "Greece",
-      "kind": "births",
-      "year": 1947,
-      "title": "Georgios Karatzaferis",
-      "body": "Georgios Karatzaferis, Greek journalist and politician, was born on this day in 1947.",
+      "category": "world",
+      "categoryName": "World",
+      "year": 1991,
+      "title": "Nickelodeon",
+      "body": "Nickelodeon's first line of \"Nicktoons\" (Doug, Rugrats and Ren & Stimpy) premiere on the channel.",
       "source": {
-        "name": "Wikipedia · Georgios Karatzaferis",
-        "url": "https://en.wikipedia.org/wiki/Georgios_Karatzaferis",
+        "name": "Wikipedia · Nickelodeon",
+        "url": "https://en.wikipedia.org/wiki/Nickelodeon",
         "calendarUrl": "https://en.wikipedia.org/wiki/August_11",
         "license": {
           "name": "CC BY-SA 4.0",
@@ -78,12 +75,12 @@
         }
       },
       "image": {
-        "src": "https://upload.wikimedia.org/wikipedia/commons/7/7d/GeorgiosKaratzaferis.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
-        "alt": "Portrait or image of Georgios Karatzaferis.",
-        "credit": "Papandreou_-_Karatzaferis.jpg: https://www.flickr.com/photos/primeministergr/ Prime Minister of Greece derivative work: Peeperman (talk)",
-        "source": "https://commons.wikimedia.org/wiki/File:GeorgiosKaratzaferis.jpg",
-        "license": "CC BY-SA 2.0",
-        "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0"
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e5/Nickelodeon_2023_logo_%28outline%29.svg/1280px-Nickelodeon_2023_logo_%28outline%29.svg.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "alt": "Picture from the Wikipedia article on Nickelodeon.",
+        "credit": "Viacom International Inc.",
+        "source": "https://commons.wikimedia.org/wiki/File:Nickelodeon_2023_logo_(outline).svg",
+        "license": "Public domain",
+        "licenseUrl": "https://commons.wikimedia.org/wiki/File:Nickelodeon_2023_logo_(outline).svg"
       }
     }
   ]

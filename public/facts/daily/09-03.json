@@ -3,18 +3,17 @@
   "dateLabel": "3 September",
   "facts": [
     {
-      "id": "09-03-spain-battle-of-st-george-s-caye",
+      "id": "09-03-viking-2",
       "date": "09-03",
       "dateLabel": "3 September",
-      "country": "spain",
-      "countryName": "Spain",
-      "kind": "events",
-      "year": 1798,
-      "title": "St. George's Caye",
-      "body": "1798: The week long battle of St. George's Caye begins between Spain and Britain off the coast of Belize.",
+      "category": "space",
+      "categoryName": "Space",
+      "year": 1976,
+      "title": "Viking 2",
+      "body": "The American Viking 2 spacecraft lands at Utopia Planitia on Mars.",
       "source": {
-        "name": "Wikipedia · Battle of St. George's Caye",
-        "url": "https://en.wikipedia.org/wiki/Battle_of_St._George's_Caye",
+        "name": "Wikipedia · Viking 2",
+        "url": "https://en.wikipedia.org/wiki/Viking_2",
         "calendarUrl": "https://en.wikipedia.org/wiki/September_3",
         "license": {
           "name": "CC BY-SA 4.0",
@@ -22,27 +21,26 @@
         }
       },
       "image": {
-        "src": "https://commons.wikimedia.org/wiki/Special:Redirect/file/Flag_of_Spain.svg?width=1000",
-        "alt": "The national flag of Spain.",
-        "credit": "Government of Spain",
-        "source": "https://commons.wikimedia.org/wiki/File:Flag_of_Spain.svg",
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/75/Viking_spacecraft.jpg/1280px-Viking_spacecraft.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "alt": "Picture from the Wikipedia article on Viking 2.",
+        "credit": "NASA",
+        "source": "https://commons.wikimedia.org/wiki/File:Viking_spacecraft.jpg",
         "license": "Public domain",
-        "licenseUrl": "https://commons.wikimedia.org/wiki/File:Flag_of_Spain.svg"
+        "licenseUrl": "https://commons.wikimedia.org/wiki/File:Viking_spacecraft.jpg"
       }
     },
     {
-      "id": "09-03-denmark-world-war-ii",
+      "id": "09-03-giuseppe-farina",
       "date": "09-03",
       "dateLabel": "3 September",
-      "country": "denmark",
-      "countryName": "Denmark",
-      "kind": "events",
-      "year": 1939,
-      "title": "World War II",
-      "body": "1939: World War II: France, the United Kingdom, New Zealand and Australia declare war on Germany after the invasion of Poland, forming the Allied nations. The Viceroy of India also declares war, but without consulting the provincial legislatures.",
+      "category": "sport",
+      "categoryName": "Sport",
+      "year": 1950,
+      "title": "Giuseppe Farina",
+      "body": "\"Nino\" Farina becomes the first Formula One Drivers' champion after winning the 1950 Italian Grand Prix.",
       "source": {
-        "name": "Wikipedia · World War II",
-        "url": "https://en.wikipedia.org/wiki/World_War_II",
+        "name": "Wikipedia · Giuseppe Farina",
+        "url": "https://en.wikipedia.org/wiki/Giuseppe_Farina",
         "calendarUrl": "https://en.wikipedia.org/wiki/September_3",
         "license": {
           "name": "CC BY-SA 4.0",
@@ -50,27 +48,26 @@
         }
       },
       "image": {
-        "src": "https://upload.wikimedia.org/wikipedia/commons/1/10/Bundesarchiv_Bild_101I-646-5188-17%2C_Flugzeuge_Junkers_Ju_87.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
-        "alt": "Image related to World War II.",
-        "credit": "Bundesarchiv, Bild 101I-646-5188-17 / Opitz / CC-BY-SA 3.0",
-        "source": "https://commons.wikimedia.org/wiki/File:Bundesarchiv_Bild_101I-646-5188-17,_Flugzeuge_Junkers_Ju_87.jpg",
-        "license": "CC BY-SA 3.0 de",
-        "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0/de/deed.en"
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d0/Giuseppe_Farina_-_El_Gr%C3%A1fico_1750.jpg/1280px-Giuseppe_Farina_-_El_Gr%C3%A1fico_1750.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "alt": "Picture from the Wikipedia article on Giuseppe Farina.",
+        "credit": "El Gráfico",
+        "source": "https://commons.wikimedia.org/wiki/File:Giuseppe_Farina_-_El_Gr%C3%A1fico_1750.jpg",
+        "license": "Public domain",
+        "licenseUrl": "https://commons.wikimedia.org/wiki/File:Giuseppe_Farina_-_El_Gr%C3%A1fico_1750.jpg"
       }
     },
     {
-      "id": "09-03-greece-byzantine-empire",
+      "id": "09-03-malcolm-campbell",
       "date": "09-03",
       "dateLabel": "3 September",
-      "country": "greece",
-      "countryName": "Greece",
-      "kind": "events",
-      "year": 863,
-      "title": "Byzantine",
-      "body": "863: Major Byzantine victory under general Petronas at the Battle of Lalakaon against an Arab raid under emir Umar al-Aqta, who is killed in battle.",
+      "category": "world",
+      "categoryName": "World",
+      "year": 1935,
+      "title": "Malcolm Campbell",
+      "body": "Sir Malcolm Campbell reaches a speed of 304.331 miles per hour on the Bonneville Salt Flats in Utah, becoming the first person to drive an automobile over 300 mph.",
       "source": {
-        "name": "Wikipedia · Byzantine Empire",
-        "url": "https://en.wikipedia.org/wiki/Byzantine_Empire",
+        "name": "Wikipedia · Malcolm Campbell",
+        "url": "https://en.wikipedia.org/wiki/Malcolm_Campbell",
         "calendarUrl": "https://en.wikipedia.org/wiki/September_3",
         "license": {
           "name": "CC BY-SA 4.0",
@@ -78,12 +75,12 @@
         }
       },
       "image": {
-        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/69/Red_Eastern_Roman_Empire_565_CE.svg/1280px-Red_Eastern_Roman_Empire_565_CE.svg.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-        "alt": "Image related to Byzantine.",
-        "credit": "PortosPL31",
-        "source": "https://commons.wikimedia.org/wiki/File:Red_Eastern_Roman_Empire_565_CE.svg",
-        "license": "CC0",
-        "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/deed.en"
+        "src": "https://upload.wikimedia.org/wikipedia/commons/d/d7/Malcolm_Campbell_rc10431.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+        "alt": "Picture from the Wikipedia article on Malcolm Campbell.",
+        "credit": "Richard LeSesne / State Archives of Florida, Florida Memory",
+        "source": "https://commons.wikimedia.org/wiki/File:Malcolm_Campbell_rc10431.jpg",
+        "license": "Public domain",
+        "licenseUrl": "https://commons.wikimedia.org/wiki/File:Malcolm_Campbell_rc10431.jpg"
       }
     }
   ]

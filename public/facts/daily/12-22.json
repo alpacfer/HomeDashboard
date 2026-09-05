@@ -3,18 +3,17 @@
   "dateLabel": "22 December",
   "facts": [
     {
-      "id": "12-22-spain-sergi-darder",
+      "id": "12-22-vsv-ebov",
       "date": "12-22",
       "dateLabel": "22 December",
-      "country": "spain",
-      "countryName": "Spain",
-      "kind": "births",
-      "year": 1993,
-      "title": "Sergi Darder",
-      "body": "Sergi Darder, Spanish footballer, was born on this day in 1993.",
+      "category": "science",
+      "categoryName": "Science",
+      "year": 2016,
+      "title": "rVSV-ZEBOV vaccine",
+      "body": "A study finds the VSV-EBOV vaccine against the Ebola virus between 70 and 100% effective, making it the first proven vaccine against the disease.",
       "source": {
-        "name": "Wikipedia · Sergi Darder",
-        "url": "https://en.wikipedia.org/wiki/Sergi_Darder",
+        "name": "Wikipedia · RVSV-ZEBOV vaccine",
+        "url": "https://en.wikipedia.org/wiki/RVSV-ZEBOV_vaccine",
         "calendarUrl": "https://en.wikipedia.org/wiki/December_22",
         "license": {
           "name": "CC BY-SA 4.0",
@@ -22,55 +21,26 @@
         }
       },
       "image": {
-        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d9/BHA_5_v_Espanyol_1_pre_season_30_07_2022_38_%28cropped%29.jpg/1280px-BHA_5_v_Espanyol_1_pre_season_30_07_2022_38_%28cropped%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-        "alt": "Portrait or image of Sergi Darder.",
-        "credit": "jamesboyes",
-        "source": "https://commons.wikimedia.org/wiki/File:BHA_5_v_Espanyol_1_pre_season_30_07_2022_38_(cropped).jpg",
-        "license": "CC BY 2.0",
-        "licenseUrl": "https://creativecommons.org/licenses/by/2.0"
-      }
-    },
-    {
-      "id": "12-22-denmark-daylight",
-      "date": "12-22",
-      "dateLabel": "22 December",
-      "country": "denmark",
-      "countryName": "Denmark",
-      "kind": "daylight",
-      "year": 0,
-      "title": "Copenhagen's daylight",
-      "body": "On 22 December, Copenhagen gets about 7 hours of daylight.",
-      "source": {
-        "name": "NOAA Solar Calculator",
-        "url": "https://gml.noaa.gov/grad/solcalc/",
-        "calendarUrl": "https://gml.noaa.gov/grad/solcalc/calcdetails.html",
-        "license": {
-          "name": "public-domain NOAA method",
-          "url": "https://www.noaa.gov/disclaimer"
-        }
-      },
-      "image": {
-        "src": "https://commons.wikimedia.org/wiki/Special:Redirect/file/Flag_of_Denmark.svg?width=1000",
-        "alt": "The national flag of Denmark.",
-        "credit": "Danish government",
-        "source": "https://commons.wikimedia.org/wiki/File:Flag_of_Denmark.svg",
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/3f/Ebola_virus_em.png/1280px-Ebola_virus_em.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "alt": "Picture from the Wikipedia article on rVSV-ZEBOV vaccine.",
+        "credit": "CDC/ Dr. Frederick A. Murphy",
+        "source": "https://commons.wikimedia.org/wiki/File:Ebola_virus_em.png",
         "license": "Public domain",
-        "licenseUrl": "https://commons.wikimedia.org/wiki/File:Flag_of_Denmark.svg"
+        "licenseUrl": "https://commons.wikimedia.org/wiki/File:Ebola_virus_em.png"
       }
     },
     {
-      "id": "12-22-greece-himara",
+      "id": "12-22-323-brucia",
       "date": "12-22",
       "dateLabel": "22 December",
-      "country": "greece",
-      "countryName": "Greece",
-      "kind": "events",
-      "year": 1940,
-      "title": "Himara",
-      "body": "1940: World War II: Himara is captured by the Greek army.",
+      "category": "space",
+      "categoryName": "Space",
+      "year": 1891,
+      "title": "323 Brucia",
+      "body": "Asteroid 323 Brucia becomes the first asteroid discovered using photography.",
       "source": {
-        "name": "Wikipedia · Himarë",
-        "url": "https://en.wikipedia.org/wiki/Himar%C3%AB",
+        "name": "Wikipedia · 323 Brucia",
+        "url": "https://en.wikipedia.org/wiki/323_Brucia",
         "calendarUrl": "https://en.wikipedia.org/wiki/December_22",
         "license": {
           "name": "CC BY-SA 4.0",
@@ -78,12 +48,39 @@
         }
       },
       "image": {
-        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/52/ALB_20070718_img_1368.jpg/1280px-ALB_20070718_img_1368.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-        "alt": "Image related to Himara.",
-        "credit": "Dori",
-        "source": "https://commons.wikimedia.org/wiki/File:ALB_20070718_img_1368.jpg",
-        "license": "CC BY 2.5",
-        "licenseUrl": "https://creativecommons.org/licenses/by/2.5"
+        "src": "https://upload.wikimedia.org/wikipedia/commons/8/81/323_Brucia.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+        "alt": "Picture from the Wikipedia article on 323 Brucia.",
+        "credit": "https://damit.cuni.cz/projects/damit/",
+        "source": "https://commons.wikimedia.org/wiki/File:323_Brucia.png",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0"
+      }
+    },
+    {
+      "id": "12-22-speed-limit",
+      "date": "12-22",
+      "dateLabel": "22 December",
+      "category": "world",
+      "categoryName": "World",
+      "year": 1965,
+      "title": "Speed limit",
+      "body": "In the United Kingdom, a speed limit is applied to all rural roads including motorways for the first time.",
+      "source": {
+        "name": "Wikipedia · Speed limit",
+        "url": "https://en.wikipedia.org/wiki/Speed_limit",
+        "calendarUrl": "https://en.wikipedia.org/wiki/December_22",
+        "license": {
+          "name": "CC BY-SA 4.0",
+          "url": "https://creativecommons.org/licenses/by-sa/4.0/"
+        }
+      },
+      "image": {
+        "src": "https://upload.wikimedia.org/wikipedia/commons/5/54/Expwy_Spdlmt_CHN.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+        "alt": "Picture from the Wikipedia article on Speed limit.",
+        "credit": "Bdgzczy",
+        "source": "https://commons.wikimedia.org/wiki/File:Expwy_Spdlmt_CHN.jpg",
+        "license": "Public domain",
+        "licenseUrl": "https://commons.wikimedia.org/wiki/File:Expwy_Spdlmt_CHN.jpg"
       }
     }
   ]

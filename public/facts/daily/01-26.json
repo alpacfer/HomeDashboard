@@ -3,18 +3,17 @@
   "dateLabel": "26 January",
   "facts": [
     {
-      "id": "01-26-spain-reapers-war",
+      "id": "01-26-ranger-3",
       "date": "01-26",
       "dateLabel": "26 January",
-      "country": "spain",
-      "countryName": "Spain",
-      "kind": "events",
-      "year": 1641,
-      "title": "Reapers' War",
-      "body": "1641: Reapers' War: Battle of Montjuïc, decisive victory of the Catalan army (with French support) over the Spanish army.",
+      "category": "space",
+      "categoryName": "Space",
+      "year": 1962,
+      "title": "Ranger 3",
+      "body": "Ranger 3 is launched to study the Moon. The space probe later misses the Moon by 22,000 miles (35,400 km).",
       "source": {
-        "name": "Wikipedia · Reapers' War",
-        "url": "https://en.wikipedia.org/wiki/Reapers'_War",
+        "name": "Wikipedia · Ranger 3",
+        "url": "https://en.wikipedia.org/wiki/Ranger_3",
         "calendarUrl": "https://en.wikipedia.org/wiki/January_26",
         "license": {
           "name": "CC BY-SA 4.0",
@@ -22,27 +21,26 @@
         }
       },
       "image": {
-        "src": "https://upload.wikimedia.org/wikipedia/commons/8/87/Batalla_de_Montju%C3%AFc_de_1641.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
-        "alt": "Image related to Reapers' War.",
-        "credit": "Pandolfo Reschi",
-        "source": "https://commons.wikimedia.org/wiki/File:Batalla_de_Montju%C3%AFc_de_1641.jpg",
+        "src": "https://upload.wikimedia.org/wikipedia/commons/5/5d/Ranger_3.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+        "alt": "Picture from the Wikipedia article on Ranger 3.",
+        "credit": "NASA/JPL-Caltech",
+        "source": "https://commons.wikimedia.org/wiki/File:Ranger_3.jpg",
         "license": "Public domain",
-        "licenseUrl": "https://commons.wikimedia.org/wiki/File:Batalla_de_Montju%C3%AFc_de_1641.jpg"
+        "licenseUrl": "https://commons.wikimedia.org/wiki/File:Ranger_3.jpg"
       }
     },
     {
-      "id": "01-26-denmark-anders-fogh-rasmussen",
+      "id": "01-26-audie-murphy",
       "date": "01-26",
       "dateLabel": "26 January",
-      "country": "denmark",
-      "countryName": "Denmark",
-      "kind": "births",
-      "year": 1953,
-      "title": "Anders Fogh Rasmussen",
-      "body": "Anders Fogh Rasmussen, Danish politician and diplomat, 39th Prime Minister of Denmark, was born on this day in 1953.",
+      "category": "sport",
+      "categoryName": "Sport",
+      "year": 1945,
+      "title": "Audie Murphy",
+      "body": "Audie Murphy displays valor and bravery in action for which he will later be awarded the Medal of Honor.",
       "source": {
-        "name": "Wikipedia · Anders Fogh Rasmussen",
-        "url": "https://en.wikipedia.org/wiki/Anders_Fogh_Rasmussen",
+        "name": "Wikipedia · Audie Murphy",
+        "url": "https://en.wikipedia.org/wiki/Audie_Murphy",
         "calendarUrl": "https://en.wikipedia.org/wiki/January_26",
         "license": {
           "name": "CC BY-SA 4.0",
@@ -50,27 +48,26 @@
         }
       },
       "image": {
-        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a1/Anders_Fogh_Rasmussen_by_Christian_Ursilva.jpg/1280px-Anders_Fogh_Rasmussen_by_Christian_Ursilva.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-        "alt": "Portrait or image of Anders Fogh Rasmussen.",
-        "credit": "Christian Ursilva from København, Danmark",
-        "source": "https://commons.wikimedia.org/wiki/File:Anders_Fogh_Rasmussen_by_Christian_Ursilva.jpg",
-        "license": "CC BY-SA 4.0",
-        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0"
+        "src": "https://upload.wikimedia.org/wikipedia/commons/e/e8/Audie_Murphy.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+        "alt": "Picture from the Wikipedia article on Audie Murphy.",
+        "credit": "U.S. Army (http://www.detrick.army.mil/samc/index.cfm)",
+        "source": "https://commons.wikimedia.org/wiki/File:Audie_Murphy.jpg",
+        "license": "Public domain",
+        "licenseUrl": "https://commons.wikimedia.org/wiki/File:Audie_Murphy.jpg"
       }
     },
     {
-      "id": "01-26-greece-dimitrios-holevas",
+      "id": "01-26-diamond",
       "date": "01-26",
       "dateLabel": "26 January",
-      "country": "greece",
-      "countryName": "Greece",
-      "kind": "births",
-      "year": 1907,
-      "title": "Dimitrios Holevas",
-      "body": "Dimitrios Holevas, Greek priest and philologist (died 2001), was born on this day in 1907.",
+      "category": "curious",
+      "categoryName": "Curious",
+      "year": 1905,
+      "title": "Diamond",
+      "body": "The world's largest diamond ever, the Cullinan, which weighs, is found at the Premier Mine near Pretoria in South Africa.",
       "source": {
-        "name": "Wikipedia · Dimitrios Holevas",
-        "url": "https://en.wikipedia.org/wiki/Dimitrios_Holevas",
+        "name": "Wikipedia · Diamond",
+        "url": "https://en.wikipedia.org/wiki/Diamond",
         "calendarUrl": "https://en.wikipedia.org/wiki/January_26",
         "license": {
           "name": "CC BY-SA 4.0",
@@ -78,12 +75,12 @@
         }
       },
       "image": {
-        "src": "https://commons.wikimedia.org/wiki/Special:Redirect/file/Flag_of_Greece.svg?width=1000",
-        "alt": "The national flag of Greece.",
-        "credit": "Greek government",
-        "source": "https://commons.wikimedia.org/wiki/File:Flag_of_Greece.svg",
-        "license": "Public domain",
-        "licenseUrl": "https://commons.wikimedia.org/wiki/File:Flag_of_Greece.svg"
+        "src": "https://upload.wikimedia.org/wikipedia/commons/b/b7/Rough_Diamond.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+        "alt": "Picture from the Wikipedia article on Diamond.",
+        "credit": "DGPC/ADF Luísa Oliveira",
+        "source": "https://commons.wikimedia.org/wiki/File:Rough_Diamond.jpg",
+        "license": "CC0",
+        "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/deed.en"
       }
     }
   ]

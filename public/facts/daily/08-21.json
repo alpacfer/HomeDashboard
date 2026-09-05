@@ -3,18 +3,17 @@
   "dateLabel": "21 August",
   "facts": [
     {
-      "id": "08-21-spain-puebloan-peoples",
+      "id": "08-21-tiger-woods",
       "date": "08-21",
       "dateLabel": "21 August",
-      "country": "spain",
-      "countryName": "Spain",
-      "kind": "events",
-      "year": 1680,
-      "title": "Pueblo Indians",
-      "body": "1680: Pueblo Indians capture Santa Fe from the Spanish during the Pueblo Revolt.",
+      "category": "sport",
+      "categoryName": "Sport",
+      "year": 2000,
+      "title": "Tiger Woods",
+      "body": "American golfer Tiger Woods wins the 82nd PGA Championship and becomes the first golfer since Ben Hogan in 1953 to win three majors in a calendar year.",
       "source": {
-        "name": "Wikipedia · Pueblo peoples",
-        "url": "https://en.wikipedia.org/wiki/Pueblo_peoples",
+        "name": "Wikipedia · Tiger Woods",
+        "url": "https://en.wikipedia.org/wiki/Tiger_Woods",
         "calendarUrl": "https://en.wikipedia.org/wiki/August_21",
         "license": {
           "name": "CC BY-SA 4.0",
@@ -22,27 +21,26 @@
         }
       },
       "image": {
-        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/7e/Secretary_Deb_Haaland%2C_official_headshot.jpg/1280px-Secretary_Deb_Haaland%2C_official_headshot.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-        "alt": "Image related to Pueblo Indians.",
-        "credit": "Department of the Interior",
-        "source": "https://commons.wikimedia.org/wiki/File:Secretary_Deb_Haaland,_official_headshot.jpg",
+        "src": "https://upload.wikimedia.org/wikipedia/commons/a/a7/President_Donald_Trump_hosts_a_reception_honoring_Black_History_Month_%2854341713089%29_%28cropped%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+        "alt": "Picture from the Wikipedia article on Tiger Woods.",
+        "credit": "The White House",
+        "source": "https://commons.wikimedia.org/wiki/File:President_Donald_Trump_hosts_a_reception_honoring_Black_History_Month_(54341713089)_(cropped).jpg",
         "license": "Public domain",
-        "licenseUrl": "https://commons.wikimedia.org/wiki/File:Secretary_Deb_Haaland,_official_headshot.jpg"
+        "licenseUrl": "https://commons.wikimedia.org/wiki/File:President_Donald_Trump_hosts_a_reception_honoring_Black_History_Month_(54341713089)_(cropped).jpg"
       }
     },
     {
-      "id": "08-21-denmark-erik-paaske",
+      "id": "08-21-solar-eclipse-of-august-21-2017",
       "date": "08-21",
       "dateLabel": "21 August",
-      "country": "denmark",
-      "countryName": "Denmark",
-      "kind": "births",
-      "year": 1933,
-      "title": "Erik Paaske",
-      "body": "Erik Paaske, Danish actor and singer (died 1992), was born on this day in 1933.",
+      "category": "space",
+      "categoryName": "Space",
+      "year": 2017,
+      "title": "Solar eclipse of August 21, 2017",
+      "body": "A solar eclipse traverses the continental United States.",
       "source": {
-        "name": "Wikipedia · Erik Paaske",
-        "url": "https://en.wikipedia.org/wiki/Erik_Paaske",
+        "name": "Wikipedia · Solar eclipse of August 21, 2017",
+        "url": "https://en.wikipedia.org/wiki/Solar_eclipse_of_August_21,_2017",
         "calendarUrl": "https://en.wikipedia.org/wiki/August_21",
         "license": {
           "name": "CC BY-SA 4.0",
@@ -50,27 +48,26 @@
         }
       },
       "image": {
-        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/ed/Erik_Paaske_photographed_by_Per_Thastum.jpg/1280px-Erik_Paaske_photographed_by_Per_Thastum.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-        "alt": "Portrait or image of Erik Paaske.",
-        "credit": "Peter Thastum",
-        "source": "https://commons.wikimedia.org/wiki/File:Erik_Paaske_photographed_by_Per_Thastum.jpg",
-        "license": "CC BY 4.0",
-        "licenseUrl": "https://creativecommons.org/licenses/by/4.0"
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/cd/Total_Solar_Eclipse_8-21-17.jpg/1280px-Total_Solar_Eclipse_8-21-17.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "alt": "Picture from the Wikipedia article on Solar eclipse of August 21, 2017.",
+        "credit": "Michael S Adler",
+        "source": "https://commons.wikimedia.org/wiki/File:Total_Solar_Eclipse_8-21-17.jpg",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0"
       }
     },
     {
-      "id": "08-21-greece-kostas-giannidis",
+      "id": "08-21-mona-lisa",
       "date": "08-21",
       "dateLabel": "21 August",
-      "country": "greece",
-      "countryName": "Greece",
-      "kind": "births",
-      "year": 1903,
-      "title": "Kostas Giannidis",
-      "body": "Kostas Giannidis, Greek pianist, composer, and conductor (died 1984), was born on this day in 1903.",
+      "category": "curious",
+      "categoryName": "Curious",
+      "year": 1911,
+      "title": "Mona Lisa",
+      "body": "The Mona Lisa is stolen by Vincenzo Peruggia, a Louvre employee.",
       "source": {
-        "name": "Wikipedia · Kostas Giannidis",
-        "url": "https://en.wikipedia.org/wiki/Kostas_Giannidis",
+        "name": "Wikipedia · Mona Lisa",
+        "url": "https://en.wikipedia.org/wiki/Mona_Lisa",
         "calendarUrl": "https://en.wikipedia.org/wiki/August_21",
         "license": {
           "name": "CC BY-SA 4.0",
@@ -78,12 +75,12 @@
         }
       },
       "image": {
-        "src": "https://commons.wikimedia.org/wiki/Special:Redirect/file/Flag_of_Greece.svg?width=1000",
-        "alt": "The national flag of Greece.",
-        "credit": "Greek government",
-        "source": "https://commons.wikimedia.org/wiki/File:Flag_of_Greece.svg",
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/ec/Mona_Lisa%2C_by_Leonardo_da_Vinci%2C_from_C2RMF_retouched.jpg/1280px-Mona_Lisa%2C_by_Leonardo_da_Vinci%2C_from_C2RMF_retouched.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "alt": "Picture from the Wikipedia article on Mona Lisa.",
+        "credit": "Leonardo da Vinci",
+        "source": "https://commons.wikimedia.org/wiki/File:Mona_Lisa,_by_Leonardo_da_Vinci,_from_C2RMF_retouched.jpg",
         "license": "Public domain",
-        "licenseUrl": "https://commons.wikimedia.org/wiki/File:Flag_of_Greece.svg"
+        "licenseUrl": "https://commons.wikimedia.org/wiki/File:Mona_Lisa,_by_Leonardo_da_Vinci,_from_C2RMF_retouched.jpg"
       }
     }
   ]

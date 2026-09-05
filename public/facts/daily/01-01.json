@@ -3,18 +3,17 @@
   "dateLabel": "1 January",
   "facts": [
     {
-      "id": "01-01-spain-captaincy-general-of-cuba",
+      "id": "01-01-mobile-phone",
       "date": "01-01",
       "dateLabel": "1 January",
-      "country": "spain",
-      "countryName": "Spain",
-      "kind": "events",
-      "year": 1899,
-      "title": "Spanish rule",
-      "body": "1899: Spanish rule ends in Cuba.",
+      "category": "tech",
+      "categoryName": "Tech",
+      "year": 1985,
+      "title": "Mobile phone",
+      "body": "The first British mobile phone call is made by Michael Harrison to his father Sir Ernest Harrison, chairman of Vodafone.",
       "source": {
-        "name": "Wikipedia · Captaincy General of Cuba",
-        "url": "https://en.wikipedia.org/wiki/Captaincy_General_of_Cuba",
+        "name": "Wikipedia · Mobile phone",
+        "url": "https://en.wikipedia.org/wiki/Mobile_phone",
         "calendarUrl": "https://en.wikipedia.org/wiki/January_1",
         "license": {
           "name": "CC BY-SA 4.0",
@@ -22,27 +21,26 @@
         }
       },
       "image": {
-        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/7d/Flag_of_Spain_%281785%E2%80%931873%2C_1875%E2%80%931931%29.svg/1280px-Flag_of_Spain_%281785%E2%80%931873%2C_1875%E2%80%931931%29.svg.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-        "alt": "Image related to Spanish rule.",
-        "credit": "previous version User:Ignaciogavira; current version HansenBCN, designs from SanchoPanzaXXI",
-        "source": "https://commons.wikimedia.org/wiki/File:Flag_of_Spain_(1785%E2%80%931873,_1875%E2%80%931931).svg",
-        "license": "CC BY-SA 3.0",
-        "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0/"
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/8d/Mobile_Phone_Evolution_1992_-_2014.jpg/1280px-Mobile_Phone_Evolution_1992_-_2014.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "alt": "Picture from the Wikipedia article on Mobile phone.",
+        "credit": "Jojhnjoy",
+        "source": "https://commons.wikimedia.org/wiki/File:Mobile_Phone_Evolution_1992_-_2014.jpg",
+        "license": "Public domain",
+        "licenseUrl": "https://commons.wikimedia.org/wiki/File:Mobile_Phone_Evolution_1992_-_2014.jpg"
       }
     },
     {
-      "id": "01-01-denmark-western-samoa-trust-territory",
+      "id": "01-01-juan-maldacena",
       "date": "01-01",
       "dateLabel": "1 January",
-      "country": "denmark",
-      "countryName": "Denmark",
-      "kind": "events",
-      "year": 1962,
-      "title": "Western Samoa",
-      "body": "1962: Western Samoa achieves independence from New Zealand; its name is changed to the Independent State of Western Samoa.",
+      "category": "science",
+      "categoryName": "Science",
+      "year": 1998,
+      "title": "Juan Maldacena",
+      "body": "Argentinian physicist Juan Maldacena publishes a landmark paper initiating the study of AdS/CFT correspondence, which links string theory and quantum gravity.",
       "source": {
-        "name": "Wikipedia · Territory of Western Samoa",
-        "url": "https://en.wikipedia.org/wiki/Territory_of_Western_Samoa",
+        "name": "Wikipedia · Juan Maldacena",
+        "url": "https://en.wikipedia.org/wiki/Juan_Maldacena",
         "calendarUrl": "https://en.wikipedia.org/wiki/January_1",
         "license": {
           "name": "CC BY-SA 4.0",
@@ -50,27 +48,26 @@
         }
       },
       "image": {
-        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/67/Flag_of_the_Samoa_Trust_Territory.svg/1280px-Flag_of_the_Samoa_Trust_Territory.svg.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-        "alt": "Image related to Western Samoa.",
-        "credit": "Original: New Zealand Government Vector: Sodacan",
-        "source": "https://commons.wikimedia.org/wiki/File:Flag_of_the_Samoa_Trust_Territory.svg",
-        "license": "CC BY-SA 4.0",
-        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0"
+        "src": "https://upload.wikimedia.org/wikipedia/commons/b/bc/JuanMaldacena.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+        "alt": "Picture from the Wikipedia article on Juan Maldacena.",
+        "credit": "Lumidek at English Wikipedia",
+        "source": "https://commons.wikimedia.org/wiki/File:JuanMaldacena.jpg",
+        "license": "CC BY 3.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by/3.0"
       }
     },
     {
-      "id": "01-01-greece-romanos-iv-diogenes",
+      "id": "01-01-javier-p-rez-de-cu-llar",
       "date": "01-01",
       "dateLabel": "1 January",
-      "country": "greece",
-      "countryName": "Greece",
-      "kind": "events",
-      "year": 1068,
-      "title": "Romanos IV Diogenes",
-      "body": "1068: Romanos IV Diogenes marries Eudokia Makrembolitissa and is crowned Byzantine Emperor.",
+      "category": "world",
+      "categoryName": "World",
+      "year": 1982,
+      "title": "Javier Pérez de Cuéllar",
+      "body": "Peruvian Javier Pérez de Cuéllar becomes the first Latin American to hold the title of Secretary-General of the United Nations.",
       "source": {
-        "name": "Wikipedia · Romanos IV Diogenes",
-        "url": "https://en.wikipedia.org/wiki/Romanos_IV_Diogenes",
+        "name": "Wikipedia · Javier Pérez de Cuéllar",
+        "url": "https://en.wikipedia.org/wiki/Javier_P%C3%A9rez_de_Cu%C3%A9llar",
         "calendarUrl": "https://en.wikipedia.org/wiki/January_1",
         "license": {
           "name": "CC BY-SA 4.0",
@@ -78,12 +75,12 @@
         }
       },
       "image": {
-        "src": "https://upload.wikimedia.org/wikipedia/commons/2/2a/Romanus_IV_coin_crop.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
-        "alt": "Image related to Romanos IV Diogenes.",
-        "credit": "Classical Numismatic Group, Inc. http://www.cngcoins.com",
-        "source": "https://commons.wikimedia.org/wiki/File:Romanus_IV_coin_crop.png",
-        "license": "CC BY-SA 3.0",
-        "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0/"
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/47/Javier_P%C3%A9rez_de_Cu%C3%A9llar_%281982%29.jpg/1280px-Javier_P%C3%A9rez_de_Cu%C3%A9llar_%281982%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "alt": "Picture from the Wikipedia article on Javier Pérez de Cuéllar.",
+        "credit": "Rob Bogaerts for Anefo",
+        "source": "https://commons.wikimedia.org/wiki/File:Javier_P%C3%A9rez_de_Cu%C3%A9llar_(1982).jpg",
+        "license": "CC BY-SA 3.0 nl",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0/nl/deed.en"
       }
     }
   ]

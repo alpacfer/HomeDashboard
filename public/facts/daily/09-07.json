@@ -3,18 +3,17 @@
   "dateLabel": "7 September",
   "facts": [
     {
-      "id": "09-07-spain-treaty-of-southampton",
+      "id": "09-07-bitcoin",
       "date": "09-07",
       "dateLabel": "7 September",
-      "country": "spain",
-      "countryName": "Spain",
-      "kind": "events",
-      "year": 1625,
-      "title": "Treaty of Southampton",
-      "body": "1625: The Treaty of Southampton makes an alliance between England and the Dutch Republic against Spain.",
+      "category": "tech",
+      "categoryName": "Tech",
+      "year": 2021,
+      "title": "Bitcoin",
+      "body": "Bitcoin becomes legal tender in El Salvador.",
       "source": {
-        "name": "Wikipedia · Treaty of Southampton",
-        "url": "https://en.wikipedia.org/wiki/Treaty_of_Southampton",
+        "name": "Wikipedia · Bitcoin",
+        "url": "https://en.wikipedia.org/wiki/Bitcoin",
         "calendarUrl": "https://en.wikipedia.org/wiki/September_7",
         "license": {
           "name": "CC BY-SA 4.0",
@@ -22,27 +21,26 @@
         }
       },
       "image": {
-        "src": "https://commons.wikimedia.org/wiki/Special:Redirect/file/Flag_of_Spain.svg?width=1000",
-        "alt": "The national flag of Spain.",
-        "credit": "Government of Spain",
-        "source": "https://commons.wikimedia.org/wiki/File:Flag_of_Spain.svg",
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/46/Bitcoin.svg/1280px-Bitcoin.svg.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "alt": "Picture from the Wikipedia article on Bitcoin.",
+        "credit": "Grayliptrot",
+        "source": "https://commons.wikimedia.org/wiki/File:Bitcoin.svg",
         "license": "Public domain",
-        "licenseUrl": "https://commons.wikimedia.org/wiki/File:Flag_of_Spain.svg"
+        "licenseUrl": "https://commons.wikimedia.org/wiki/File:Bitcoin.svg"
       }
     },
     {
-      "id": "09-07-denmark-johan-ludvig-holstein-ledreborg",
+      "id": "09-07-guillaume-apollinaire",
       "date": "09-07",
       "dateLabel": "7 September",
-      "country": "denmark",
-      "countryName": "Denmark",
-      "kind": "births",
-      "year": 1694,
-      "title": "Johan Ludvig Holstein-Ledreborg",
-      "body": "Johan Ludvig Holstein-Ledreborg, Danish Minister of State (died 1763), was born on this day in 1694.",
+      "category": "culture",
+      "categoryName": "Culture",
+      "year": 1911,
+      "title": "Guillaume Apollinaire",
+      "body": "French poet Guillaume Apollinaire is arrested and put in jail on suspicion of stealing the Mona Lisa from the Louvre museum.",
       "source": {
-        "name": "Wikipedia · Johan Ludvig Holstein",
-        "url": "https://en.wikipedia.org/wiki/Johan_Ludvig_Holstein",
+        "name": "Wikipedia · Guillaume Apollinaire",
+        "url": "https://en.wikipedia.org/wiki/Guillaume_Apollinaire",
         "calendarUrl": "https://en.wikipedia.org/wiki/September_7",
         "license": {
           "name": "CC BY-SA 4.0",
@@ -50,27 +48,26 @@
         }
       },
       "image": {
-        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/0c/Count_Johan_Ludvig_Holstein_Ledreborg_%28Carl_Gustaf_Pilo%29_-_Gothenburg_Museum_of_Art_-_WL_65.tif/lossy-page1-1280px-Count_Johan_Ludvig_Holstein_Ledreborg_%28Carl_Gustaf_Pilo%29_-_Gothenburg_Museum_of_Art_-_WL_65.tif.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-        "alt": "Portrait or image of Johan Ludvig Holstein-Ledreborg.",
-        "credit": "Göteborgs konstmuseum (Gothenburg Museum of Art). Photo: Hossein Sehatlou",
-        "source": "https://commons.wikimedia.org/wiki/File:Count_Johan_Ludvig_Holstein_Ledreborg_(Carl_Gustaf_Pilo)_-_Gothenburg_Museum_of_Art_-_WL_65.tif",
-        "license": "CC BY 4.0",
-        "licenseUrl": "https://creativecommons.org/licenses/by/4.0"
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/68/Guillaume_Apollinaire_foto.jpg/1280px-Guillaume_Apollinaire_foto.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "alt": "Picture from the Wikipedia article on Guillaume Apollinaire.",
+        "credit": "Unknown",
+        "source": "https://commons.wikimedia.org/wiki/File:Guillaume_Apollinaire_foto.jpg",
+        "license": "Public domain",
+        "licenseUrl": "https://commons.wikimedia.org/wiki/File:Guillaume_Apollinaire_foto.jpg"
       }
     },
     {
-      "id": "09-07-greece-1999-athens-earthquake",
+      "id": "09-07-torrijos-carter-treaties",
       "date": "09-07",
       "dateLabel": "7 September",
-      "country": "greece",
-      "countryName": "Greece",
-      "kind": "events",
-      "year": 1999,
-      "title": "Athens earthquake",
-      "body": "1999: The 6.0 Athens earthquake affected the area with a maximum Mercalli intensity of IX (Violent), killing 143, injuring 800–1,600, and leaving 50,000 homeless.",
+      "category": "world",
+      "categoryName": "World",
+      "year": 1977,
+      "title": "Torrijos–Carter Treaties",
+      "body": "The Torrijos–Carter Treaties between Panama and the United States on the status of the Panama Canal are signed. The United States agrees to transfer control of the canal to Panama at the end of the 20th century.",
       "source": {
-        "name": "Wikipedia · 1999 Athens earthquake",
-        "url": "https://en.wikipedia.org/wiki/1999_Athens_earthquake",
+        "name": "Wikipedia · Torrijos–Carter Treaties",
+        "url": "https://en.wikipedia.org/wiki/Torrijos%E2%80%93Carter_Treaties",
         "calendarUrl": "https://en.wikipedia.org/wiki/September_7",
         "license": {
           "name": "CC BY-SA 4.0",
@@ -78,12 +75,12 @@
         }
       },
       "image": {
-        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/1b/Ricomex_1.jpg/1280px-Ricomex_1.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-        "alt": "Image related to Athens earthquake.",
-        "credit": "Tony Esopi",
-        "source": "https://commons.wikimedia.org/wiki/File:Ricomex_1.jpg",
-        "license": "CC BY-SA 3.0",
-        "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0/"
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/87/Jimmy_Carter_and_General_Omar_Torrijos_signing_the_Panama_Canal_Treaty.jpg/1280px-Jimmy_Carter_and_General_Omar_Torrijos_signing_the_Panama_Canal_Treaty.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "alt": "Picture from the Wikipedia article on Torrijos–Carter Treaties.",
+        "credit": "White House photo",
+        "source": "https://commons.wikimedia.org/wiki/File:Jimmy_Carter_and_General_Omar_Torrijos_signing_the_Panama_Canal_Treaty.jpg",
+        "license": "Public domain",
+        "licenseUrl": "https://commons.wikimedia.org/wiki/File:Jimmy_Carter_and_General_Omar_Torrijos_signing_the_Panama_Canal_Treaty.jpg"
       }
     }
   ]

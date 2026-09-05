@@ -3,18 +3,17 @@
   "dateLabel": "27 November",
   "facts": [
     {
-      "id": "11-27-spain-spain",
+      "id": "11-27-hydrogen",
       "date": "11-27",
       "dateLabel": "27 November",
-      "country": "spain",
-      "countryName": "Spain",
-      "kind": "events",
-      "year": 1912,
-      "title": "Spain",
-      "body": "1912: Spain declares a protectorate over the north shore of Morocco.",
+      "category": "space",
+      "categoryName": "Space",
+      "year": 2001,
+      "title": "Hydrogen",
+      "body": "A hydrogen atmosphere is discovered on the extrasolar planet Osiris by the Hubble Space Telescope, the first atmosphere detected on an extrasolar planet.",
       "source": {
-        "name": "Wikipedia · Spain",
-        "url": "https://en.wikipedia.org/wiki/Spain",
+        "name": "Wikipedia · Hydrogen",
+        "url": "https://en.wikipedia.org/wiki/Hydrogen",
         "calendarUrl": "https://en.wikipedia.org/wiki/November_27",
         "license": {
           "name": "CC BY-SA 4.0",
@@ -22,27 +21,26 @@
         }
       },
       "image": {
-        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/24/Flag_of_the_Kingdom_of_Spain.svg/1280px-Flag_of_the_Kingdom_of_Spain.svg.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-        "alt": "Image related to Spain.",
-        "credit": "Antonio Valdés y Fernández Bazán",
-        "source": "https://commons.wikimedia.org/wiki/File:Flag_of_the_Kingdom_of_Spain.svg",
-        "license": "Public domain",
-        "licenseUrl": "https://commons.wikimedia.org/wiki/File:Flag_of_the_Kingdom_of_Spain.svg"
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/83/Hydrogen_discharge_tube.jpg/1280px-Hydrogen_discharge_tube.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "alt": "Picture from the Wikipedia article on Hydrogen.",
+        "credit": "Alchemist-hp (talk) (www.pse-mendelejew.de)",
+        "source": "https://commons.wikimedia.org/wiki/File:Hydrogen_discharge_tube.jpg",
+        "license": "FAL",
+        "licenseUrl": "https://artlibre.org/licence/lal/en"
       }
     },
     {
-      "id": "11-27-denmark-new-zealand-labour-party",
+      "id": "11-27-utah-monolith",
       "date": "11-27",
       "dateLabel": "27 November",
-      "country": "denmark",
-      "countryName": "Denmark",
-      "kind": "events",
-      "year": 1999,
-      "title": "Labour Party",
-      "body": "1999: The centre-left Labour Party takes control of the New Zealand government with leader Helen Clark becoming the first elected female prime minister in New Zealand's history.",
+      "category": "science",
+      "categoryName": "Science",
+      "year": 2020,
+      "title": "Utah monolith",
+      "body": "Days after the announcement of its discovery, the Utah monolith is removed by recreationists.",
       "source": {
-        "name": "Wikipedia · New Zealand Labour Party",
-        "url": "https://en.wikipedia.org/wiki/New_Zealand_Labour_Party",
+        "name": "Wikipedia · Utah monolith",
+        "url": "https://en.wikipedia.org/wiki/Utah_monolith",
         "calendarUrl": "https://en.wikipedia.org/wiki/November_27",
         "license": {
           "name": "CC BY-SA 4.0",
@@ -50,27 +48,26 @@
         }
       },
       "image": {
-        "src": "https://commons.wikimedia.org/wiki/Special:Redirect/file/Flag_of_Denmark.svg?width=1000",
-        "alt": "The national flag of Denmark.",
-        "credit": "Danish government",
-        "source": "https://commons.wikimedia.org/wiki/File:Flag_of_Denmark.svg",
-        "license": "Public domain",
-        "licenseUrl": "https://commons.wikimedia.org/wiki/File:Flag_of_Denmark.svg"
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/39/Utah_Desert_Monolith.jpg/1280px-Utah_Desert_Monolith.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "alt": "Picture from the Wikipedia article on Utah monolith.",
+        "credit": "Original image taken by Patrickamackie2 (Patrick A. Mackie)Cropped and colour adjusted by Chainwit.",
+        "source": "https://commons.wikimedia.org/wiki/File:Utah_Desert_Monolith.jpg",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0"
       }
     },
     {
-      "id": "11-27-greece-byzantine-empire",
+      "id": "11-27-berners-street-hoax",
       "date": "11-27",
       "dateLabel": "27 November",
-      "country": "greece",
-      "countryName": "Greece",
-      "kind": "events",
-      "year": 602,
-      "title": "Byzantine",
-      "body": "602: Byzantine Emperor Maurice is forced to watch as the usurper Phocas executes his five sons before Maurice is beheaded himself.",
+      "category": "curious",
+      "categoryName": "Curious",
+      "year": 1809,
+      "title": "Berners Street hoax",
+      "body": "The Berners Street hoax is perpetrated by Theodore Hook in the City of Westminster, London.",
       "source": {
-        "name": "Wikipedia · Byzantine Empire",
-        "url": "https://en.wikipedia.org/wiki/Byzantine_Empire",
+        "name": "Wikipedia · Berners Street hoax",
+        "url": "https://en.wikipedia.org/wiki/Berners_Street_hoax",
         "calendarUrl": "https://en.wikipedia.org/wiki/November_27",
         "license": {
           "name": "CC BY-SA 4.0",
@@ -78,12 +75,12 @@
         }
       },
       "image": {
-        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/69/Red_Eastern_Roman_Empire_565_CE.svg/1280px-Red_Eastern_Roman_Empire_565_CE.svg.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-        "alt": "Image related to Byzantine.",
-        "credit": "PortosPL31",
-        "source": "https://commons.wikimedia.org/wiki/File:Red_Eastern_Roman_Empire_565_CE.svg",
-        "license": "CC0",
-        "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/deed.en"
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/1c/Berners_Street_Hoax.jpg/1280px-Berners_Street_Hoax.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "alt": "Picture from the Wikipedia article on Berners Street hoax.",
+        "credit": "William Heath",
+        "source": "https://commons.wikimedia.org/wiki/File:Berners_Street_Hoax.jpg",
+        "license": "Public domain",
+        "licenseUrl": "https://commons.wikimedia.org/wiki/File:Berners_Street_Hoax.jpg"
       }
     }
   ]

@@ -3,18 +3,17 @@
   "dateLabel": "3 June",
   "facts": [
     {
-      "id": "06-03-spain-galley",
+      "id": "06-03-gemini-4",
       "date": "06-03",
       "dateLabel": "3 June",
-      "country": "spain",
-      "countryName": "Spain",
-      "kind": "events",
-      "year": 1602,
-      "title": "galley",
-      "body": "1602: An English naval force defeats a fleet of Spanish galleys, and captures a large Portuguese carrack at the Battle of Sesimbra Bay.",
+      "category": "space",
+      "categoryName": "Space",
+      "year": 1965,
+      "title": "Gemini 4",
+      "body": "The launch of Gemini 4, the first multi-day space mission by a NASA crew. Ed White, a crew member, performs the first American spacewalk.",
       "source": {
-        "name": "Wikipedia · Galley",
-        "url": "https://en.wikipedia.org/wiki/Galley",
+        "name": "Wikipedia · Gemini 4",
+        "url": "https://en.wikipedia.org/wiki/Gemini_4",
         "calendarUrl": "https://en.wikipedia.org/wiki/June_3",
         "license": {
           "name": "CC BY-SA 4.0",
@@ -22,27 +21,26 @@
         }
       },
       "image": {
-        "src": "https://upload.wikimedia.org/wikipedia/commons/a/a7/Sbonski_de_Passabon-Galere_a_la_voille.jpeg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
-        "alt": "Image related to galley.",
-        "credit": "Henri Sbonski de Passebon",
-        "source": "https://commons.wikimedia.org/wiki/File:Sbonski_de_Passabon-Galere_a_la_voille.jpeg",
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/08/Ed_White_First_American_Spacewalker_-_GPN-2000-001180.jpg/1280px-Ed_White_First_American_Spacewalker_-_GPN-2000-001180.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "alt": "Picture from the Wikipedia article on Gemini 4.",
+        "credit": "NASA / James McDivitt",
+        "source": "https://commons.wikimedia.org/wiki/File:Ed_White_First_American_Spacewalker_-_GPN-2000-001180.jpg",
         "license": "Public domain",
-        "licenseUrl": "https://commons.wikimedia.org/wiki/File:Sbonski_de_Passabon-Galere_a_la_voille.jpeg"
+        "licenseUrl": "https://commons.wikimedia.org/wiki/File:Ed_White_First_American_Spacewalker_-_GPN-2000-001180.jpg"
       }
     },
     {
-      "id": "06-03-denmark-magdalene-thoresen",
+      "id": "06-03-electric-power-transmission",
       "date": "06-03",
       "dateLabel": "3 June",
-      "country": "denmark",
-      "countryName": "Denmark",
-      "kind": "births",
-      "year": 1819,
-      "title": "Magdalene Thoresen",
-      "body": "Magdalene Thoresen, Danish writer (died 1903), was born on this day in 1819.",
+      "category": "world",
+      "categoryName": "World",
+      "year": 1889,
+      "title": "Electric power transmission",
+      "body": "The first long-distance electric power transmission line in the United States is completed, running between a generator at Willamette Falls and downtown Portland, Oregon.",
       "source": {
-        "name": "Wikipedia · Magdalene Thoresen",
-        "url": "https://en.wikipedia.org/wiki/Magdalene_Thoresen",
+        "name": "Wikipedia · Electric power transmission",
+        "url": "https://en.wikipedia.org/wiki/Electric_power_transmission",
         "calendarUrl": "https://en.wikipedia.org/wiki/June_3",
         "license": {
           "name": "CC BY-SA 4.0",
@@ -50,27 +48,26 @@
         }
       },
       "image": {
-        "src": "https://upload.wikimedia.org/wikipedia/commons/d/d0/Magdalene_Thoresen_by_Grundtvig.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
-        "alt": "Portrait or image of Magdalene Thoresen.",
-        "credit": "Ludvig Grundtvig",
-        "source": "https://commons.wikimedia.org/wiki/File:Magdalene_Thoresen_by_Grundtvig.jpg",
-        "license": "Public domain",
-        "licenseUrl": "https://commons.wikimedia.org/wiki/File:Magdalene_Thoresen_by_Grundtvig.jpg"
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/ca/500kV_3-Phase_Transmission_Lines.png/1280px-500kV_3-Phase_Transmission_Lines.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "alt": "Picture from the Wikipedia article on Electric power transmission.",
+        "credit": "Varistor60",
+        "source": "https://commons.wikimedia.org/wiki/File:500kV_3-Phase_Transmission_Lines.png",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0"
       }
     },
     {
-      "id": "06-03-greece-byzantine-empire",
+      "id": "06-03-thames-diamond-jubilee-pageant",
       "date": "06-03",
       "dateLabel": "3 June",
-      "country": "greece",
-      "countryName": "Greece",
-      "kind": "events",
-      "year": 713,
-      "title": "Byzantine",
-      "body": "713: The Byzantine emperor Philippicus is blinded, deposed and sent into exile by conspirators of the Opsikion army in Thrace. He is succeeded by Anastasios II, who begins the reorganization of the Byzantine army.",
+      "category": "world",
+      "categoryName": "World",
+      "year": 2012,
+      "title": "Thames Diamond Jubilee Pageant",
+      "body": "The pageant for the Diamond Jubilee of Elizabeth II takes place on the River Thames.",
       "source": {
-        "name": "Wikipedia · Byzantine Empire",
-        "url": "https://en.wikipedia.org/wiki/Byzantine_Empire",
+        "name": "Wikipedia · Thames Diamond Jubilee Pageant",
+        "url": "https://en.wikipedia.org/wiki/Thames_Diamond_Jubilee_Pageant",
         "calendarUrl": "https://en.wikipedia.org/wiki/June_3",
         "license": {
           "name": "CC BY-SA 4.0",
@@ -78,12 +75,12 @@
         }
       },
       "image": {
-        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/69/Red_Eastern_Roman_Empire_565_CE.svg/1280px-Red_Eastern_Roman_Empire_565_CE.svg.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-        "alt": "Image related to Byzantine.",
-        "credit": "PortosPL31",
-        "source": "https://commons.wikimedia.org/wiki/File:Red_Eastern_Roman_Empire_565_CE.svg",
-        "license": "CC0",
-        "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/deed.en"
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/1f/HM_the_Queen%27s_Diamond_Jubilee_River_Pageant_in_London_MOD_45154237.jpg/1280px-HM_the_Queen%27s_Diamond_Jubilee_River_Pageant_in_London_MOD_45154237.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "alt": "Picture from the Wikipedia article on Thames Diamond Jubilee Pageant.",
+        "credit": "Photo: PO Phot Terry Seward/MOD",
+        "source": "https://commons.wikimedia.org/wiki/File:HM_the_Queen%27s_Diamond_Jubilee_River_Pageant_in_London_MOD_45154237.jpg",
+        "license": "OGL v1.0",
+        "licenseUrl": "https://NationalArchives.gov.uk/doc/open-government-licence/version/1/"
       }
     }
   ]

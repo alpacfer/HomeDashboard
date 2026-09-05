@@ -3,18 +3,17 @@
   "dateLabel": "19 February",
   "facts": [
     {
-      "id": "02-19-spain-boeing-727",
+      "id": "02-19-mars-odyssey",
       "date": "02-19",
       "dateLabel": "19 February",
-      "country": "spain",
-      "countryName": "Spain",
-      "kind": "events",
-      "year": 1985,
-      "title": "Boeing 727",
-      "body": "1985: A Boeing 727 operating as Iberia Flight 610 crashes Mount Oiz in Spain, killing 148; it is the deadliest accident to occur in Iberia's history and the deadliest to occur in Basque County.",
+      "category": "space",
+      "categoryName": "Space",
+      "year": 2002,
+      "title": "2001 Mars Odyssey",
+      "body": "NASA's Mars Odyssey space probe begins to map the surface of Mars using its thermal emission imaging system.",
       "source": {
-        "name": "Wikipedia · Boeing 727",
-        "url": "https://en.wikipedia.org/wiki/Boeing_727",
+        "name": "Wikipedia · 2001 Mars Odyssey",
+        "url": "https://en.wikipedia.org/wiki/2001_Mars_Odyssey",
         "calendarUrl": "https://en.wikipedia.org/wiki/February_19",
         "license": {
           "name": "CC BY-SA 4.0",
@@ -22,27 +21,26 @@
         }
       },
       "image": {
-        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/57/B-727_Iberia_%28cropped%29.jpg/1280px-B-727_Iberia_%28cropped%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-        "alt": "Image related to Boeing 727.",
-        "credit": "Iberia Airlines",
-        "source": "https://commons.wikimedia.org/wiki/File:B-727_Iberia_(cropped).jpg",
-        "license": "CC BY 2.0",
-        "licenseUrl": "https://creativecommons.org/licenses/by/2.0"
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/0e/Mars_Odyssey_spacecraft_model.png/1280px-Mars_Odyssey_spacecraft_model.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "alt": "Picture from the Wikipedia article on 2001 Mars Odyssey.",
+        "credit": "National Aeronautics and Space Administration (NASA)",
+        "source": "https://commons.wikimedia.org/wiki/File:Mars_Odyssey_spacecraft_model.png",
+        "license": "Public domain",
+        "licenseUrl": "https://commons.wikimedia.org/wiki/File:Mars_Odyssey_spacecraft_model.png"
       }
     },
     {
-      "id": "02-19-denmark-thelma-kench",
+      "id": "02-19-thomas-edison",
       "date": "02-19",
       "dateLabel": "19 February",
-      "country": "denmark",
-      "countryName": "Denmark",
-      "kind": "births",
-      "year": 1914,
-      "title": "Thelma Kench",
-      "body": "Thelma Kench, New Zealand Olympic sprinter (died 1985), was born on this day in 1914.",
+      "category": "science",
+      "categoryName": "Science",
+      "year": 1878,
+      "title": "Thomas Edison",
+      "body": "Thomas Edison patents the phonograph.",
       "source": {
-        "name": "Wikipedia · Thelma Kench",
-        "url": "https://en.wikipedia.org/wiki/Thelma_Kench",
+        "name": "Wikipedia · Thomas Edison",
+        "url": "https://en.wikipedia.org/wiki/Thomas_Edison",
         "calendarUrl": "https://en.wikipedia.org/wiki/February_19",
         "license": {
           "name": "CC BY-SA 4.0",
@@ -50,40 +48,39 @@
         }
       },
       "image": {
-        "src": "https://upload.wikimedia.org/wikipedia/commons/8/87/Thelma_Kench_1932.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
-        "alt": "Portrait or image of Thelma Kench.",
-        "credit": "Unknown (Keystone-France)",
-        "source": "https://commons.wikimedia.org/wiki/File:Thelma_Kench_1932.jpg",
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/9d/Thomas_Edison2.jpg/1280px-Thomas_Edison2.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "alt": "Picture from the Wikipedia article on Thomas Edison.",
+        "credit": "Louis Bachrach, Bachrach Studios, restored by Michel Vuijlsteke",
+        "source": "https://commons.wikimedia.org/wiki/File:Thomas_Edison2.jpg",
         "license": "Public domain",
-        "licenseUrl": "https://commons.wikimedia.org/wiki/File:Thelma_Kench_1932.jpg"
+        "licenseUrl": "https://commons.wikimedia.org/wiki/File:Thomas_Edison2.jpg"
       }
     },
     {
-      "id": "02-19-greece-daylight",
+      "id": "02-19-t-7-rocket",
       "date": "02-19",
       "dateLabel": "19 February",
-      "country": "greece",
-      "countryName": "Greece",
-      "kind": "daylight",
-      "year": 0,
-      "title": "Athens's daylight",
-      "body": "On 19 February, Athens gets about 10 hours and 50 minutes of daylight.",
+      "category": "space",
+      "categoryName": "Space",
+      "year": 1960,
+      "title": "T-7",
+      "body": "China successfully launches the T-7, its first sounding rocket.",
       "source": {
-        "name": "NOAA Solar Calculator",
-        "url": "https://gml.noaa.gov/grad/solcalc/",
-        "calendarUrl": "https://gml.noaa.gov/grad/solcalc/calcdetails.html",
+        "name": "Wikipedia · T-7 (rocket)",
+        "url": "https://en.wikipedia.org/wiki/T-7_(rocket)",
+        "calendarUrl": "https://en.wikipedia.org/wiki/February_19",
         "license": {
-          "name": "public-domain NOAA method",
-          "url": "https://www.noaa.gov/disclaimer"
+          "name": "CC BY-SA 4.0",
+          "url": "https://creativecommons.org/licenses/by-sa/4.0/"
         }
       },
       "image": {
-        "src": "https://commons.wikimedia.org/wiki/Special:Redirect/file/Flag_of_Greece.svg?width=1000",
-        "alt": "The national flag of Greece.",
-        "credit": "Greek government",
-        "source": "https://commons.wikimedia.org/wiki/File:Flag_of_Greece.svg",
-        "license": "Public domain",
-        "licenseUrl": "https://commons.wikimedia.org/wiki/File:Flag_of_Greece.svg"
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/10/Zhongguo_Diyimei_Zixing_Sheji_Zhizaode_Shiyan_Tankong_Huojian_T-7M_Fashechang_Yizhi.jpg/1280px-Zhongguo_Diyimei_Zixing_Sheji_Zhizaode_Shiyan_Tankong_Huojian_T-7M_Fashechang_Yizhi.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "alt": "Picture from the Wikipedia article on T-7.",
+        "credit": "Fayhoo",
+        "source": "https://commons.wikimedia.org/wiki/File:Zhongguo_Diyimei_Zixing_Sheji_Zhizaode_Shiyan_Tankong_Huojian_T-7M_Fashechang_Yizhi.jpg",
+        "license": "CC BY-SA 3.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0"
       }
     }
   ]

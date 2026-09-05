@@ -3,18 +3,17 @@
   "dateLabel": "6 September",
   "facts": [
     {
-      "id": "09-06-spain-victoria-ship",
+      "id": "09-06-minotaur-v",
       "date": "09-06",
       "dateLabel": "6 September",
-      "country": "spain",
-      "countryName": "Spain",
-      "kind": "events",
-      "year": 1522,
-      "title": "Victoria",
-      "body": "1522: The Victoria returns to Sanlúcar de Barrameda in Spain, the only surviving ship of Ferdinand Magellan's expedition and the first known ship to circumnavigate the world.",
+      "category": "space",
+      "categoryName": "Space",
+      "year": 2013,
+      "title": "Minotaur V",
+      "body": "The first Minotaur V rocket is launched from the Mid-Atlantic Regional Spaceport on Wallops Island, carrying NASA's LADEE spacecraft.",
       "source": {
-        "name": "Wikipedia · Victoria (ship)",
-        "url": "https://en.wikipedia.org/wiki/Victoria_(ship)",
+        "name": "Wikipedia · Minotaur V",
+        "url": "https://en.wikipedia.org/wiki/Minotaur_V",
         "calendarUrl": "https://en.wikipedia.org/wiki/September_6",
         "license": {
           "name": "CC BY-SA 4.0",
@@ -22,55 +21,26 @@
         }
       },
       "image": {
-        "src": "https://upload.wikimedia.org/wikipedia/commons/4/43/Nao_Victoria.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
-        "alt": "Image related to Victoria.",
-        "credit": "Gnsin",
-        "source": "https://commons.wikimedia.org/wiki/File:Nao_Victoria.jpg",
-        "license": "CC BY-SA 3.0",
-        "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0/"
-      }
-    },
-    {
-      "id": "09-06-denmark-daylight",
-      "date": "09-06",
-      "dateLabel": "6 September",
-      "country": "denmark",
-      "countryName": "Denmark",
-      "kind": "daylight",
-      "year": 0,
-      "title": "Copenhagen's daylight",
-      "body": "On 6 September, Copenhagen gets about 13 hours and 15 minutes of daylight.",
-      "source": {
-        "name": "NOAA Solar Calculator",
-        "url": "https://gml.noaa.gov/grad/solcalc/",
-        "calendarUrl": "https://gml.noaa.gov/grad/solcalc/calcdetails.html",
-        "license": {
-          "name": "public-domain NOAA method",
-          "url": "https://www.noaa.gov/disclaimer"
-        }
-      },
-      "image": {
-        "src": "https://commons.wikimedia.org/wiki/Special:Redirect/file/Flag_of_Denmark.svg?width=1000",
-        "alt": "The national flag of Denmark.",
-        "credit": "Danish government",
-        "source": "https://commons.wikimedia.org/wiki/File:Flag_of_Denmark.svg",
+        "src": "https://upload.wikimedia.org/wikipedia/commons/8/88/Minotaur_V_carrying_LADEE_at_MARS_Pad_0B_2013-09-04.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+        "alt": "Picture from the Wikipedia article on Minotaur V.",
+        "credit": "NASA/NASA Edge/Franklin Fitzgerald",
+        "source": "https://commons.wikimedia.org/wiki/File:Minotaur_V_carrying_LADEE_at_MARS_Pad_0B_2013-09-04.jpg",
         "license": "Public domain",
-        "licenseUrl": "https://commons.wikimedia.org/wiki/File:Flag_of_Denmark.svg"
+        "licenseUrl": "https://commons.wikimedia.org/wiki/File:Minotaur_V_carrying_LADEE_at_MARS_Pad_0B_2013-09-04.jpg"
       }
     },
     {
-      "id": "09-06-greece-istanbul",
+      "id": "09-06-baltic-states",
       "date": "09-06",
       "dateLabel": "6 September",
-      "country": "greece",
-      "countryName": "Greece",
-      "kind": "events",
-      "year": 1955,
-      "title": "Istanbul",
-      "body": "1955: Istanbul's Greek, Jewish, and Armenian minorities are the target of a government-sponsored pogrom; dozens are killed in ensuing riots.",
+      "category": "world",
+      "categoryName": "World",
+      "year": 1991,
+      "title": "Baltic states",
+      "body": "The Soviet Union recognizes the independence of the Baltic states Estonia, Latvia, and Lithuania.",
       "source": {
-        "name": "Wikipedia · Istanbul",
-        "url": "https://en.wikipedia.org/wiki/Istanbul",
+        "name": "Wikipedia · Baltic states",
+        "url": "https://en.wikipedia.org/wiki/Baltic_states",
         "calendarUrl": "https://en.wikipedia.org/wiki/September_6",
         "license": {
           "name": "CC BY-SA 4.0",
@@ -78,12 +48,39 @@
         }
       },
       "image": {
-        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/cb/Historical_peninsula_and_modern_skyline_of_Istanbul.jpg/1280px-Historical_peninsula_and_modern_skyline_of_Istanbul.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-        "alt": "Image related to Istanbul.",
-        "credit": "Hunanuk",
-        "source": "https://commons.wikimedia.org/wiki/File:Historical_peninsula_and_modern_skyline_of_Istanbul.jpg",
-        "license": "CC0",
-        "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/deed.en"
+        "src": "https://upload.wikimedia.org/wikipedia/commons/4/4b/Estonia-latvia-lithuania-in-northern-europe.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+        "alt": "Picture from the Wikipedia article on Baltic states.",
+        "credit": "Blomsterhagens",
+        "source": "https://commons.wikimedia.org/wiki/File:Estonia-latvia-lithuania-in-northern-europe.png",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0"
+      }
+    },
+    {
+      "id": "09-06-operation-grand-slam",
+      "date": "09-06",
+      "dateLabel": "6 September",
+      "category": "sport",
+      "categoryName": "Sport",
+      "year": 1965,
+      "title": "Operation Grand Slam",
+      "body": "India retaliates following Pakistan's Operation Grand Slam which results in the Indo-Pakistani War of 1965 that ends in a stalemate followed by the signing of the Tashkent Declaration.",
+      "source": {
+        "name": "Wikipedia · Operation Grand Slam",
+        "url": "https://en.wikipedia.org/wiki/Operation_Grand_Slam",
+        "calendarUrl": "https://en.wikipedia.org/wiki/September_6",
+        "license": {
+          "name": "CC BY-SA 4.0",
+          "url": "https://creativecommons.org/licenses/by-sa/4.0/"
+        }
+      },
+      "image": {
+        "src": "https://upload.wikimedia.org/wikipedia/commons/e/e2/Captured_Indian_AMX-13_Squadron_%28Chamb_1965%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+        "alt": "Picture from the Wikipedia article on Operation Grand Slam.",
+        "credit": "GeoNews",
+        "source": "https://commons.wikimedia.org/wiki/File:Captured_Indian_AMX-13_Squadron_(Chamb_1965).jpg",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0"
       }
     }
   ]

@@ -3,18 +3,17 @@
   "dateLabel": "13 July",
   "facts": [
     {
-      "id": "07-13-spain-battle-of-gravelines-1558",
+      "id": "07-13-vuoristorata",
       "date": "07-13",
       "dateLabel": "13 July",
-      "country": "spain",
-      "countryName": "Spain",
-      "kind": "events",
-      "year": 1558,
-      "title": "Battle of Gravelines",
-      "body": "1558: Battle of Gravelines: In France, Spanish forces led by Count Lamoral of Egmont defeat the French forces of Marshal Paul de Thermes at Gravelines.",
+      "category": "world",
+      "categoryName": "World",
+      "year": 1951,
+      "title": "Vuoristorata",
+      "body": "Vuoristorata, one of the oldest still-operating wooden roller coasters in Europe, is opened at the Linnanmäki amusement park in Helsinki, Finland.",
       "source": {
-        "name": "Wikipedia · Battle of Gravelines (1558)",
-        "url": "https://en.wikipedia.org/wiki/Battle_of_Gravelines_(1558)",
+        "name": "Wikipedia · Vuoristorata",
+        "url": "https://en.wikipedia.org/wiki/Vuoristorata",
         "calendarUrl": "https://en.wikipedia.org/wiki/July_13",
         "license": {
           "name": "CC BY-SA 4.0",
@@ -22,27 +21,26 @@
         }
       },
       "image": {
-        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/96/Eccoui_amantsmi_lectori_il_vero_sito_della_battaglia_data_nel_anno_1558_a_di_13_di_luglio_intorno_a_Gravellina..._-_btv1b550000120.jpg/1280px-Eccoui_amantsmi_lectori_il_vero_sito_della_battaglia_data_nel_anno_1558_a_di_13_di_luglio_intorno_a_Gravellina..._-_btv1b550000120.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-        "alt": "Image related to Battle of Gravelines.",
-        "credit": "Bibliothèque nationale de France",
-        "source": "https://commons.wikimedia.org/wiki/File:Eccoui_amantsmi_lectori_il_vero_sito_della_battaglia_data_nel_anno_1558_a_di_13_di_luglio_intorno_a_Gravellina..._-_btv1b550000120.jpg",
-        "license": "Public domain",
-        "licenseUrl": "https://commons.wikimedia.org/wiki/File:Eccoui_amantsmi_lectori_il_vero_sito_della_battaglia_data_nel_anno_1558_a_di_13_di_luglio_intorno_a_Gravellina..._-_btv1b550000120.jpg"
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/01/Linnanm%C3%A4ki_Vuoristorata.jpg/1280px-Linnanm%C3%A4ki_Vuoristorata.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "alt": "Picture from the Wikipedia article on Vuoristorata.",
+        "credit": "Oona Räisänen",
+        "source": "https://commons.wikimedia.org/wiki/File:Linnanm%C3%A4ki_Vuoristorata.jpg",
+        "license": "CC BY-SA 3.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0"
       }
     },
     {
-      "id": "07-13-denmark-anker-j-rgensen",
+      "id": "07-13-prime-minister-of-the-united-kingdom",
       "date": "07-13",
       "dateLabel": "13 July",
-      "country": "denmark",
-      "countryName": "Denmark",
-      "kind": "births",
-      "year": 1922,
-      "title": "Anker Jørgensen",
-      "body": "Anker Jørgensen, Danish trade union leader and politician, 16th Prime Minister of Denmark (died 2016), was born on this day in 1922.",
+      "category": "world",
+      "categoryName": "World",
+      "year": 2016,
+      "title": "Prime Minister of the United Kingdom",
+      "body": "Prime Minister of the United Kingdom David Cameron resigns, and is succeeded by Theresa May.",
       "source": {
-        "name": "Wikipedia · Anker Jørgensen",
-        "url": "https://en.wikipedia.org/wiki/Anker_J%C3%B8rgensen",
+        "name": "Wikipedia · Prime Minister of the United Kingdom",
+        "url": "https://en.wikipedia.org/wiki/Prime_Minister_of_the_United_Kingdom",
         "calendarUrl": "https://en.wikipedia.org/wiki/July_13",
         "license": {
           "name": "CC BY-SA 4.0",
@@ -50,27 +48,26 @@
         }
       },
       "image": {
-        "src": "https://upload.wikimedia.org/wikipedia/commons/b/b8/Anker_J%C3%B8rgensen_%281975%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
-        "alt": "Portrait or image of Anker Jørgensen.",
-        "credit": "Mieremet, Rob / Anefo",
-        "source": "https://commons.wikimedia.org/wiki/File:Anker_J%C3%B8rgensen_(1975).jpg",
-        "license": "CC0",
-        "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/deed.en"
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/6c/Coat_of_arms_of_the_United_Kingdom_%282024%2C_lesser_arms%29.svg/1280px-Coat_of_arms_of_the_United_Kingdom_%282024%2C_lesser_arms%29.svg.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "alt": "Picture from the Wikipedia article on Prime Minister of the United Kingdom.",
+        "credit": "Dgp4004",
+        "source": "https://commons.wikimedia.org/wiki/File:Coat_of_arms_of_the_United_Kingdom_(2024,_lesser_arms).svg",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0"
       }
     },
     {
-      "id": "07-13-greece-stelios-manolas",
+      "id": "07-13-1930-fifa-world-cup",
       "date": "07-13",
       "dateLabel": "13 July",
-      "country": "greece",
-      "countryName": "Greece",
-      "kind": "births",
-      "year": 1961,
-      "title": "Stelios Manolas",
-      "body": "Stelios Manolas, Greek footballer and manager, was born on this day in 1961.",
+      "category": "sport",
+      "categoryName": "Sport",
+      "year": 1930,
+      "title": "1930 FIFA World Cup",
+      "body": "The inaugural FIFA World Cup begins in Uruguay.",
       "source": {
-        "name": "Wikipedia · Stelios Manolas",
-        "url": "https://en.wikipedia.org/wiki/Stelios_Manolas",
+        "name": "Wikipedia · 1930 FIFA World Cup",
+        "url": "https://en.wikipedia.org/wiki/1930_FIFA_World_Cup",
         "calendarUrl": "https://en.wikipedia.org/wiki/July_13",
         "license": {
           "name": "CC BY-SA 4.0",
@@ -78,12 +75,12 @@
         }
       },
       "image": {
-        "src": "https://commons.wikimedia.org/wiki/Special:Redirect/file/Flag_of_Greece.svg?width=1000",
-        "alt": "The national flag of Greece.",
-        "credit": "Greek government",
-        "source": "https://commons.wikimedia.org/wiki/File:Flag_of_Greece.svg",
+        "src": "https://upload.wikimedia.org/wikipedia/commons/4/42/Uruguay_1930_World_Cup.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+        "alt": "Picture from the Wikipedia article on 1930 FIFA World Cup.",
+        "credit": "Guillermo Laborde (1886–1940)",
+        "source": "https://commons.wikimedia.org/wiki/File:Uruguay_1930_World_Cup.jpg",
         "license": "Public domain",
-        "licenseUrl": "https://commons.wikimedia.org/wiki/File:Flag_of_Greece.svg"
+        "licenseUrl": "https://commons.wikimedia.org/wiki/File:Uruguay_1930_World_Cup.jpg"
       }
     }
   ]

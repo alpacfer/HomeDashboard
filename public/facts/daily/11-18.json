@@ -3,18 +3,17 @@
   "dateLabel": "18 November",
   "facts": [
     {
-      "id": "11-18-spain-robert-s-nchez",
+      "id": "11-18-maven",
       "date": "11-18",
       "dateLabel": "18 November",
-      "country": "spain",
-      "countryName": "Spain",
-      "kind": "births",
-      "year": 1997,
-      "title": "Robert Sánchez",
-      "body": "Robert Sánchez, Spanish footballer, was born on this day in 1997.",
+      "category": "space",
+      "categoryName": "Space",
+      "year": 2013,
+      "title": "MAVEN",
+      "body": "NASA launches the MAVEN probe to Mars.",
       "source": {
-        "name": "Wikipedia · Robert Sánchez",
-        "url": "https://en.wikipedia.org/wiki/Robert_S%C3%A1nchez",
+        "name": "Wikipedia · MAVEN",
+        "url": "https://en.wikipedia.org/wiki/MAVEN",
         "calendarUrl": "https://en.wikipedia.org/wiki/November_18",
         "license": {
           "name": "CC BY-SA 4.0",
@@ -22,27 +21,26 @@
         }
       },
       "image": {
-        "src": "https://upload.wikimedia.org/wikipedia/commons/4/4a/Robert_S%C3%A1nchez_FIFA_Club_World_Cup_final_extraction.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
-        "alt": "Portrait or image of Robert Sánchez.",
-        "credit": "The White House",
-        "source": "https://commons.wikimedia.org/wiki/File:Robert_S%C3%A1nchez_FIFA_Club_World_Cup_final_extraction.jpg",
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/70/MAVEN_Mission_Logo.png/1280px-MAVEN_Mission_Logo.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "alt": "Picture from the Wikipedia article on MAVEN.",
+        "credit": "NASA",
+        "source": "https://commons.wikimedia.org/wiki/File:MAVEN_Mission_Logo.png",
         "license": "Public domain",
-        "licenseUrl": "https://commons.wikimedia.org/wiki/File:Robert_S%C3%A1nchez_FIFA_Club_World_Cup_final_extraction.jpg"
+        "licenseUrl": "https://commons.wikimedia.org/wiki/File:MAVEN_Mission_Logo.png"
       }
     },
     {
-      "id": "11-18-denmark-christian-ix",
+      "id": "11-18-bell-telephone-company",
       "date": "11-18",
       "dateLabel": "18 November",
-      "country": "denmark",
-      "countryName": "Denmark",
-      "kind": "events",
-      "year": 1863,
-      "title": "Christian IX",
-      "body": "1863: King Christian IX of Denmark signs the November constitution that declares Schleswig to be part of Denmark. This is seen by the German Confederation as a violation of the London Protocol and leads to the German–Danish war of 1864.",
+      "category": "tech",
+      "categoryName": "Tech",
+      "year": 1963,
+      "title": "Bell Telephone Company",
+      "body": "The Bell Telephone Company introduces the first push-button telephone.",
       "source": {
-        "name": "Wikipedia · Christian IX",
-        "url": "https://en.wikipedia.org/wiki/Christian_IX",
+        "name": "Wikipedia · Bell Telephone Company",
+        "url": "https://en.wikipedia.org/wiki/Bell_Telephone_Company",
         "calendarUrl": "https://en.wikipedia.org/wiki/November_18",
         "license": {
           "name": "CC BY-SA 4.0",
@@ -50,27 +48,26 @@
         }
       },
       "image": {
-        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/41/Christian_IX_of_Denmark_%28restored_picture%29.jpg/1280px-Christian_IX_of_Denmark_%28restored_picture%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-        "alt": "Image related to Christian IX.",
-        "credit": "The original uploader was Anathema at German Wikipedia.",
-        "source": "https://commons.wikimedia.org/wiki/File:Christian_IX_of_Denmark_(restored_picture).jpg",
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/50/Bell_System_hires_1889_logo.PNG/1280px-Bell_System_hires_1889_logo.PNG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "alt": "Picture from the Wikipedia article on Bell Telephone Company.",
+        "credit": "AT&T",
+        "source": "https://commons.wikimedia.org/wiki/File:Bell_System_hires_1889_logo.PNG",
         "license": "Public domain",
-        "licenseUrl": "https://commons.wikimedia.org/wiki/File:Christian_IX_of_Denmark_(restored_picture).jpg"
+        "licenseUrl": "https://commons.wikimedia.org/wiki/File:Bell_System_hires_1889_logo.PNG"
       }
     },
     {
-      "id": "11-18-greece-world-war-ii",
+      "id": "11-18-mcdonnell-douglas-f-a-18-hornet",
       "date": "11-18",
       "dateLabel": "18 November",
-      "country": "greece",
-      "countryName": "Greece",
-      "kind": "events",
-      "year": 1940,
-      "title": "World War II",
-      "body": "1940: World War II: German leader Adolf Hitler and Italian Foreign Minister Galeazzo Ciano meet to discuss Benito Mussolini's disastrous Italian invasion of Greece.",
+      "category": "world",
+      "categoryName": "World",
+      "year": 1978,
+      "title": "McDonnell Douglas F/A-18 Hornet",
+      "body": "The McDonnell Douglas F/A-18 Hornet makes its first flight, at the Naval Air Test Center in Maryland, United States.",
       "source": {
-        "name": "Wikipedia · World War II",
-        "url": "https://en.wikipedia.org/wiki/World_War_II",
+        "name": "Wikipedia · McDonnell Douglas F/A-18 Hornet",
+        "url": "https://en.wikipedia.org/wiki/McDonnell_Douglas_F/A-18_Hornet",
         "calendarUrl": "https://en.wikipedia.org/wiki/November_18",
         "license": {
           "name": "CC BY-SA 4.0",
@@ -78,12 +75,12 @@
         }
       },
       "image": {
-        "src": "https://upload.wikimedia.org/wikipedia/commons/1/10/Bundesarchiv_Bild_101I-646-5188-17%2C_Flugzeuge_Junkers_Ju_87.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
-        "alt": "Image related to World War II.",
-        "credit": "Bundesarchiv, Bild 101I-646-5188-17 / Opitz / CC-BY-SA 3.0",
-        "source": "https://commons.wikimedia.org/wiki/File:Bundesarchiv_Bild_101I-646-5188-17,_Flugzeuge_Junkers_Ju_87.jpg",
-        "license": "CC BY-SA 3.0 de",
-        "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0/de/deed.en"
+        "src": "https://upload.wikimedia.org/wikipedia/commons/4/44/FA-18C_desert_refueling.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+        "alt": "Picture from the Wikipedia article on McDonnell Douglas F/A-18 Hornet.",
+        "credit": "US Air Force",
+        "source": "https://commons.wikimedia.org/wiki/File:FA-18C_desert_refueling.jpg",
+        "license": "Public domain",
+        "licenseUrl": "https://commons.wikimedia.org/wiki/File:FA-18C_desert_refueling.jpg"
       }
     }
   ]

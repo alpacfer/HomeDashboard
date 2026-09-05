@@ -3,18 +3,17 @@
   "dateLabel": "13 February",
   "facts": [
     {
-      "id": "02-13-spain-war-of-the-straits",
+      "id": "02-13-european-space-agency",
       "date": "02-13",
       "dateLabel": "13 February",
-      "country": "spain",
-      "countryName": "Spain",
-      "kind": "events",
-      "year": 1352,
-      "title": "War of the Straits",
-      "body": "1352: War of the Straits: The Battle of the Bosporus is fought in a stormy sea into the night between the Genoese, Venetian, Aragonese, and Byzantine fleets.",
+      "category": "space",
+      "categoryName": "Space",
+      "year": 2012,
+      "title": "European Space Agency",
+      "body": "The European Space Agency (ESA) conducted the first launch of the European Vega rocket from Europe's spaceport in Kourou, French Guiana.",
       "source": {
-        "name": "Wikipedia · War of the Straits",
-        "url": "https://en.wikipedia.org/wiki/War_of_the_Straits",
+        "name": "Wikipedia · European Space Agency",
+        "url": "https://en.wikipedia.org/wiki/European_Space_Agency",
         "calendarUrl": "https://en.wikipedia.org/wiki/February_13",
         "license": {
           "name": "CC BY-SA 4.0",
@@ -22,55 +21,26 @@
         }
       },
       "image": {
-        "src": "https://commons.wikimedia.org/wiki/Special:Redirect/file/Flag_of_Spain.svg?width=1000",
-        "alt": "The national flag of Spain.",
-        "credit": "Government of Spain",
-        "source": "https://commons.wikimedia.org/wiki/File:Flag_of_Spain.svg",
-        "license": "Public domain",
-        "licenseUrl": "https://commons.wikimedia.org/wiki/File:Flag_of_Spain.svg"
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/96/ESA_Headquarters_in_Paris.jpg/1280px-ESA_Headquarters_in_Paris.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "alt": "Picture from the Wikipedia article on European Space Agency.",
+        "credit": "ESA/P. Sebirot, CC BY-SA 3.0 IGO",
+        "source": "https://commons.wikimedia.org/wiki/File:ESA_Headquarters_in_Paris.jpg",
+        "license": "CC BY-SA 3.0 igo",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0/igo/deed.en"
       }
     },
     {
-      "id": "02-13-denmark-daylight",
+      "id": "02-13-coso-artifact",
       "date": "02-13",
       "dateLabel": "13 February",
-      "country": "denmark",
-      "countryName": "Denmark",
-      "kind": "daylight",
-      "year": 0,
-      "title": "Copenhagen's daylight",
-      "body": "On 13 February, Copenhagen gets about 9 hours and 20 minutes of daylight.",
+      "category": "science",
+      "categoryName": "Science",
+      "year": 1961,
+      "title": "Coso artifact",
+      "body": "An allegedly 500,000-year-old rock is discovered near Olancha, California, US, that appears to anachronistically encase a spark plug.",
       "source": {
-        "name": "NOAA Solar Calculator",
-        "url": "https://gml.noaa.gov/grad/solcalc/",
-        "calendarUrl": "https://gml.noaa.gov/grad/solcalc/calcdetails.html",
-        "license": {
-          "name": "public-domain NOAA method",
-          "url": "https://www.noaa.gov/disclaimer"
-        }
-      },
-      "image": {
-        "src": "https://commons.wikimedia.org/wiki/Special:Redirect/file/Flag_of_Denmark.svg?width=1000",
-        "alt": "The national flag of Denmark.",
-        "credit": "Danish government",
-        "source": "https://commons.wikimedia.org/wiki/File:Flag_of_Denmark.svg",
-        "license": "Public domain",
-        "licenseUrl": "https://commons.wikimedia.org/wiki/File:Flag_of_Denmark.svg"
-      }
-    },
-    {
-      "id": "02-13-greece-war-of-the-straits",
-      "date": "02-13",
-      "dateLabel": "13 February",
-      "country": "greece",
-      "countryName": "Greece",
-      "kind": "events",
-      "year": 1352,
-      "title": "War of the Straits",
-      "body": "1352: War of the Straits: The Battle of the Bosporus is fought in a stormy sea into the night between the Genoese, Venetian, Aragonese, and Byzantine fleets.",
-      "source": {
-        "name": "Wikipedia · War of the Straits",
-        "url": "https://en.wikipedia.org/wiki/War_of_the_Straits",
+        "name": "Wikipedia · Coso artifact",
+        "url": "https://en.wikipedia.org/wiki/Coso_artifact",
         "calendarUrl": "https://en.wikipedia.org/wiki/February_13",
         "license": {
           "name": "CC BY-SA 4.0",
@@ -78,12 +48,39 @@
         }
       },
       "image": {
-        "src": "https://commons.wikimedia.org/wiki/Special:Redirect/file/Flag_of_Greece.svg?width=1000",
-        "alt": "The national flag of Greece.",
-        "credit": "Greek government",
-        "source": "https://commons.wikimedia.org/wiki/File:Flag_of_Greece.svg",
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/20/Coso_Artifact.jpg/1280px-Coso_Artifact.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "alt": "Picture from the Wikipedia article on Coso artifact.",
+        "credit": "Pierre Stromberg",
+        "source": "https://commons.wikimedia.org/wiki/File:Coso_Artifact.jpg",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0"
+      }
+    },
+    {
+      "id": "02-13-frank-selvy",
+      "date": "02-13",
+      "dateLabel": "13 February",
+      "category": "sport",
+      "categoryName": "Sport",
+      "year": 1954,
+      "title": "Frank Selvy",
+      "body": "Frank Selvy becomes the only NCAA Division I basketball player ever to score 100 points in a single game.",
+      "source": {
+        "name": "Wikipedia · Frank Selvy",
+        "url": "https://en.wikipedia.org/wiki/Frank_Selvy",
+        "calendarUrl": "https://en.wikipedia.org/wiki/February_13",
+        "license": {
+          "name": "CC BY-SA 4.0",
+          "url": "https://creativecommons.org/licenses/by-sa/4.0/"
+        }
+      },
+      "image": {
+        "src": "https://upload.wikimedia.org/wikipedia/commons/c/ce/Frank_Selvy_Furman.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+        "alt": "Picture from the Wikipedia article on Frank Selvy.",
+        "credit": "Unknown Furman Univrsity",
+        "source": "https://commons.wikimedia.org/wiki/File:Frank_Selvy_Furman.jpg",
         "license": "Public domain",
-        "licenseUrl": "https://commons.wikimedia.org/wiki/File:Flag_of_Greece.svg"
+        "licenseUrl": "https://commons.wikimedia.org/wiki/File:Frank_Selvy_Furman.jpg"
       }
     }
   ]

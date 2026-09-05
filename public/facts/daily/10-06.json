@@ -3,18 +3,17 @@
   "dateLabel": "6 October",
   "facts": [
     {
-      "id": "10-06-spain-events-of-6-october",
+      "id": "10-06-51-pegasi-b",
       "date": "10-06",
       "dateLabel": "6 October",
-      "country": "spain",
-      "countryName": "Spain",
-      "kind": "events",
-      "year": 1934,
-      "title": "Revolution of 1934",
-      "body": "1934: Revolution of 1934: The President of the autonomous government of Catalonia, Lluís Companys, proclaims the Catalan State with the support of the Worker's Alliance.",
+      "category": "science",
+      "categoryName": "Science",
+      "year": 1995,
+      "title": "51 Pegasi b",
+      "body": "The first planet orbiting another sun, 51 Pegasi b, is discovered.",
       "source": {
-        "name": "Wikipedia · Events of 6 October",
-        "url": "https://en.wikipedia.org/wiki/Events_of_6_October",
+        "name": "Wikipedia · 51 Pegasi b",
+        "url": "https://en.wikipedia.org/wiki/51_Pegasi_b",
         "calendarUrl": "https://en.wikipedia.org/wiki/October_6",
         "license": {
           "name": "CC BY-SA 4.0",
@@ -22,27 +21,53 @@
         }
       },
       "image": {
-        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/01/%CE%9A%CF%85%CE%B2%CE%B5%CF%81%CE%BD%CE%B7%CF%84%CE%B9%CE%BA%CF%8C_%CE%9C%CE%AD%CE%B3%CE%B1%CF%81%CE%BF_%CE%9A%CE%B1%CF%84%CE%B1%CE%BB%CE%BF%CE%BD%CE%AF%CE%B1%CF%82_2563.jpg/1280px-%CE%9A%CF%85%CE%B2%CE%B5%CF%81%CE%BD%CE%B7%CF%84%CE%B9%CE%BA%CF%8C_%CE%9C%CE%AD%CE%B3%CE%B1%CF%81%CE%BF_%CE%9A%CE%B1%CF%84%CE%B1%CE%BB%CE%BF%CE%BD%CE%AF%CE%B1%CF%82_2563.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-        "alt": "Image related to Revolution of 1934.",
-        "credit": "C messier",
-        "source": "https://commons.wikimedia.org/wiki/File:%CE%9A%CF%85%CE%B2%CE%B5%CF%81%CE%BD%CE%B7%CF%84%CE%B9%CE%BA%CF%8C_%CE%9C%CE%AD%CE%B3%CE%B1%CF%81%CE%BF_%CE%9A%CE%B1%CF%84%CE%B1%CE%BB%CE%BF%CE%BD%CE%AF%CE%B1%CF%82_2563.jpg",
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f7/Artist_impression_of_the_exoplanet_51_Pegasi_b.jpg/1280px-Artist_impression_of_the_exoplanet_51_Pegasi_b.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "alt": "Picture from the Wikipedia article on 51 Pegasi b.",
+        "credit": "ESO/M. Kornmesser/Nick Risinger (skysurvey.org)",
+        "source": "https://commons.wikimedia.org/wiki/File:Artist_impression_of_the_exoplanet_51_Pegasi_b.jpg",
+        "license": "CC BY 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by/4.0"
+      }
+    },
+    {
+      "id": "10-06-hua-guofeng",
+      "date": "10-06",
+      "dateLabel": "6 October",
+      "category": "world",
+      "categoryName": "World",
+      "year": 1976,
+      "title": "Hua Guofeng",
+      "body": "Premier Hua Guofeng arrests the Gang of Four, ending the Cultural Revolution in China.",
+      "source": {
+        "name": "Wikipedia · Hua Guofeng",
+        "url": "https://en.wikipedia.org/wiki/Hua_Guofeng",
+        "calendarUrl": "https://en.wikipedia.org/wiki/October_6",
+        "license": {
+          "name": "CC BY-SA 4.0",
+          "url": "https://creativecommons.org/licenses/by-sa/4.0/"
+        }
+      },
+      "image": {
+        "src": "https://upload.wikimedia.org/wikipedia/commons/e/ed/Mus%C3%A9e_de_Bretagne_-_Hua_Guofeng_197904-02_%28cropped%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+        "alt": "Picture from the Wikipedia article on Hua Guofeng.",
+        "credit": "Sigismond Michalowski",
+        "source": "https://commons.wikimedia.org/wiki/File:Mus%C3%A9e_de_Bretagne_-_Hua_Guofeng_197904-02_(cropped).jpg",
         "license": "CC BY-SA 4.0",
         "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0"
       }
     },
     {
-      "id": "10-06-denmark-johan-herman-wessel",
+      "id": "10-06-the-jazz-singer",
       "date": "10-06",
       "dateLabel": "6 October",
-      "country": "denmark",
-      "countryName": "Denmark",
-      "kind": "births",
-      "year": 1742,
-      "title": "Johan Herman Wessel",
-      "body": "Johan Herman Wessel, Norwegian-Danish poet and playwright (died 1785), was born on this day in 1742.",
+      "category": "culture",
+      "categoryName": "Culture",
+      "year": 1927,
+      "title": "The Jazz Singer",
+      "body": "Opening of The Jazz Singer, the first prominent \"talkie\" movie.",
       "source": {
-        "name": "Wikipedia · Johan Herman Wessel",
-        "url": "https://en.wikipedia.org/wiki/Johan_Herman_Wessel",
+        "name": "Wikipedia · The Jazz Singer",
+        "url": "https://en.wikipedia.org/wiki/The_Jazz_Singer",
         "calendarUrl": "https://en.wikipedia.org/wiki/October_6",
         "license": {
           "name": "CC BY-SA 4.0",
@@ -50,40 +75,12 @@
         }
       },
       "image": {
-        "src": "https://upload.wikimedia.org/wikipedia/commons/8/8d/Johan_Herman_Wessel.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
-        "alt": "Portrait or image of Johan Herman Wessel.",
-        "credit": "Wikimedia Commons contributor",
-        "source": "https://commons.wikimedia.org/wiki/File:Johan_Herman_Wessel.jpg",
+        "src": "https://upload.wikimedia.org/wikipedia/commons/d/d2/The_Jazz_Singer_1927_Poster.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+        "alt": "Picture from the Wikipedia article on The Jazz Singer.",
+        "credit": "Unknown author",
+        "source": "https://commons.wikimedia.org/wiki/File:The_Jazz_Singer_1927_Poster.jpg",
         "license": "Public domain",
-        "licenseUrl": "https://commons.wikimedia.org/wiki/File:Johan_Herman_Wessel.jpg"
-      }
-    },
-    {
-      "id": "10-06-greece-eleftherios-venizelos",
-      "date": "10-06",
-      "dateLabel": "6 October",
-      "country": "greece",
-      "countryName": "Greece",
-      "kind": "events",
-      "year": 1910,
-      "title": "Eleftherios Venizelos",
-      "body": "1910: Eleftherios Venizelos is elected Prime Minister of Greece for the first of seven times.",
-      "source": {
-        "name": "Wikipedia · Eleftherios Venizelos",
-        "url": "https://en.wikipedia.org/wiki/Eleftherios_Venizelos",
-        "calendarUrl": "https://en.wikipedia.org/wiki/October_6",
-        "license": {
-          "name": "CC BY-SA 4.0",
-          "url": "https://creativecommons.org/licenses/by-sa/4.0/"
-        }
-      },
-      "image": {
-        "src": "https://upload.wikimedia.org/wikipedia/commons/0/01/Eleftherios_Venizelos_1919_%283x4_cropped%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
-        "alt": "Image related to Eleftherios Venizelos.",
-        "credit": "Photoprint copyrighted by Harris & Ewing (No known restrictions on publication)",
-        "source": "https://commons.wikimedia.org/wiki/File:Eleftherios_Venizelos_1919_(3x4_cropped).jpg",
-        "license": "Public domain",
-        "licenseUrl": "https://commons.wikimedia.org/wiki/File:Eleftherios_Venizelos_1919_(3x4_cropped).jpg"
+        "licenseUrl": "https://commons.wikimedia.org/wiki/File:The_Jazz_Singer_1927_Poster.jpg"
       }
     }
   ]

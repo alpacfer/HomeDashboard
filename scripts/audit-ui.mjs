@@ -93,6 +93,7 @@ function parseArgs(argv) {
       case '--transit-demo': options.transitDemo = true; break;
       case '--time': options.time = value(); break;
       case '--pet': options.pet = value(); break;
+      case '--date': options.date = value(); break;
       case '--width': options.width = Number(value()); break;
       case '--height': options.height = Number(value()); break;
       case '--min-font': options.minFont = Number(value()); break;

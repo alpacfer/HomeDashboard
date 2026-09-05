@@ -3,18 +3,17 @@
   "dateLabel": "28 August",
   "facts": [
     {
-      "id": "08-28-spain-kaqchikel-people",
+      "id": "08-28-galileo-spacecraft",
       "date": "08-28",
       "dateLabel": "28 August",
-      "country": "spain",
-      "countryName": "Spain",
-      "kind": "events",
-      "year": 1524,
-      "title": "Kaqchikel",
-      "body": "1524: The Kaqchikel Maya rebel against their former Spanish allies during the Spanish conquest of Guatemala.",
+      "category": "space",
+      "categoryName": "Space",
+      "year": 1993,
+      "title": "Galileo",
+      "body": "NASA's Galileo probe performs a flyby of the asteroid 243 Ida. Astronomers later discover a moon, the first known asteroid moon, in pictures from the flyby and name it Dactyl.",
       "source": {
-        "name": "Wikipedia · Kaqchikel people",
-        "url": "https://en.wikipedia.org/wiki/Kaqchikel_people",
+        "name": "Wikipedia · Galileo (spacecraft)",
+        "url": "https://en.wikipedia.org/wiki/Galileo_(spacecraft)",
         "calendarUrl": "https://en.wikipedia.org/wiki/August_28",
         "license": {
           "name": "CC BY-SA 4.0",
@@ -22,27 +21,26 @@
         }
       },
       "image": {
-        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/4c/Chichicastenango-004.jpg/1280px-Chichicastenango-004.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-        "alt": "Image related to Kaqchikel.",
-        "credit": "Reinhard Jahn, Mannheim nanosmile Wikipedia account please use this discussion page",
-        "source": "https://commons.wikimedia.org/wiki/File:Chichicastenango-004.jpg",
-        "license": "CC BY-SA 2.0 de",
-        "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0/de/deed.en"
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/9c/Artwork_Galileo-Io-Jupiter.JPG/1280px-Artwork_Galileo-Io-Jupiter.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "alt": "Picture from the Wikipedia article on Galileo.",
+        "credit": "NASA",
+        "source": "https://commons.wikimedia.org/wiki/File:Artwork_Galileo-Io-Jupiter.JPG",
+        "license": "Public domain",
+        "licenseUrl": "https://commons.wikimedia.org/wiki/File:Artwork_Galileo-Io-Jupiter.JPG"
       }
     },
     {
-      "id": "08-28-denmark-denmark-in-world-war-ii",
+      "id": "08-28-indian-space-research-organisation",
       "date": "08-28",
       "dateLabel": "28 August",
-      "country": "denmark",
-      "countryName": "Denmark",
-      "kind": "events",
-      "year": 1943,
-      "title": "Denmark in World War II",
-      "body": "1943: Denmark in World War II: German authorities demand that Danish authorities crack down on acts of resistance. The next day, martial law is imposed on Denmark.",
+      "category": "world",
+      "categoryName": "World",
+      "year": 2016,
+      "title": "ISRO",
+      "body": "The first experimental mission of ISRO's Scramjet Engine towards the realisation of an Air Breathing Propulsion System is successfully conducted from Satish Dhawan Space Centre SHAR, Sriharikota.",
       "source": {
-        "name": "Wikipedia · Denmark in World War II",
-        "url": "https://en.wikipedia.org/wiki/Denmark_in_World_War_II",
+        "name": "Wikipedia · ISRO",
+        "url": "https://en.wikipedia.org/wiki/ISRO",
         "calendarUrl": "https://en.wikipedia.org/wiki/August_28",
         "license": {
           "name": "CC BY-SA 4.0",
@@ -50,27 +48,26 @@
         }
       },
       "image": {
-        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a9/Schalburgerblegdamsvej.jpg/1280px-Schalburgerblegdamsvej.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-        "alt": "Image related to Denmark in World War II.",
-        "credit": "Unknown authorUnknown author",
-        "source": "https://commons.wikimedia.org/wiki/File:Schalburgerblegdamsvej.jpg",
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/bd/Indian_Space_Research_Organisation_Logo.svg/1280px-Indian_Space_Research_Organisation_Logo.svg.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "alt": "Picture from the Wikipedia article on ISRO.",
+        "credit": "Indian Space Research Organisation",
+        "source": "https://commons.wikimedia.org/wiki/File:Indian_Space_Research_Organisation_Logo.svg",
         "license": "Public domain",
-        "licenseUrl": "https://commons.wikimedia.org/wiki/File:Schalburgerblegdamsvej.jpg"
+        "licenseUrl": "https://commons.wikimedia.org/wiki/File:Indian_Space_Research_Organisation_Logo.svg"
       }
     },
     {
-      "id": "08-28-greece-greek-army",
+      "id": "08-28-solar-storm-of-1859",
       "date": "08-28",
       "dateLabel": "28 August",
-      "country": "greece",
-      "countryName": "Greece",
-      "kind": "events",
-      "year": 1909,
-      "title": "Greek Army",
-      "body": "1909: A group of mid-level Greek Army officers launches the Goudi coup, seeking wide-ranging reforms.",
+      "category": "tech",
+      "categoryName": "Tech",
+      "year": 1859,
+      "title": "Carrington Event",
+      "body": "The Carrington event is the strongest geomagnetic storm on record to strike the Earth. Electrical telegraph service is widely disrupted.",
       "source": {
-        "name": "Wikipedia · Hellenic Army",
-        "url": "https://en.wikipedia.org/wiki/Hellenic_Army",
+        "name": "Wikipedia · Carrington Event",
+        "url": "https://en.wikipedia.org/wiki/Carrington_Event",
         "calendarUrl": "https://en.wikipedia.org/wiki/August_28",
         "license": {
           "name": "CC BY-SA 4.0",
@@ -78,12 +75,12 @@
         }
       },
       "image": {
-        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/85/HellenicArmySeal.svg/1280px-HellenicArmySeal.svg.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-        "alt": "Image related to Greek Army.",
-        "credit": "Diafora",
-        "source": "https://commons.wikimedia.org/wiki/File:HellenicArmySeal.svg",
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/92/Carrington_Richard_drawing_of_1859_sunspots.jpeg/1280px-Carrington_Richard_drawing_of_1859_sunspots.jpeg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "alt": "Picture from the Wikipedia article on Carrington Event.",
+        "credit": "Richard Christopher Carrington",
+        "source": "https://commons.wikimedia.org/wiki/File:Carrington_Richard_drawing_of_1859_sunspots.jpeg",
         "license": "Public domain",
-        "licenseUrl": "https://commons.wikimedia.org/wiki/File:HellenicArmySeal.svg"
+        "licenseUrl": "https://commons.wikimedia.org/wiki/File:Carrington_Richard_drawing_of_1859_sunspots.jpeg"
       }
     }
   ]

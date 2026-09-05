@@ -3,18 +3,17 @@
   "dateLabel": "12 September",
   "facts": [
     {
-      "id": "09-12-spain-battle-of-portop",
+      "id": "09-12-voyager-1",
       "date": "09-12",
       "dateLabel": "12 September",
-      "country": "spain",
-      "countryName": "Spain",
-      "kind": "events",
-      "year": 1229,
-      "title": "Battle of Portopí",
-      "body": "1229: Battle of Portopí: The Aragonese army under the command of James I of Aragon disembarks at Santa Ponça, Mallorca, with the purpose of conquering the island.",
+      "category": "space",
+      "categoryName": "Space",
+      "year": 2013,
+      "title": "Voyager 1",
+      "body": "NASA confirms that its Voyager 1 probe has become the first manmade object to enter interstellar space.",
       "source": {
-        "name": "Wikipedia · Battle of Portopí",
-        "url": "https://en.wikipedia.org/wiki/Battle_of_Portop%C3%AD",
+        "name": "Wikipedia · Voyager 1",
+        "url": "https://en.wikipedia.org/wiki/Voyager_1",
         "calendarUrl": "https://en.wikipedia.org/wiki/September_12",
         "license": {
           "name": "CC BY-SA 4.0",
@@ -22,55 +21,26 @@
         }
       },
       "image": {
-        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/45/Tumba_de_Los_Montcada-Mallorca-rafax.jpg/1280px-Tumba_de_Los_Montcada-Mallorca-rafax.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-        "alt": "Image related to Battle of Portopí.",
-        "credit": "Rafael Ortega Díaz",
-        "source": "https://commons.wikimedia.org/wiki/File:Tumba_de_Los_Montcada-Mallorca-rafax.jpg",
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/60/Voyager_spacecraft_model.png/1280px-Voyager_spacecraft_model.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "alt": "Picture from the Wikipedia article on Voyager 1.",
+        "credit": "National Aeronautics and Space Administration (NASA)",
+        "source": "https://commons.wikimedia.org/wiki/File:Voyager_spacecraft_model.png",
         "license": "Public domain",
-        "licenseUrl": "https://commons.wikimedia.org/wiki/File:Tumba_de_Los_Montcada-Mallorca-rafax.jpg"
+        "licenseUrl": "https://commons.wikimedia.org/wiki/File:Voyager_spacecraft_model.png"
       }
     },
     {
-      "id": "09-12-denmark-daylight",
+      "id": "09-12-dwight-gooden",
       "date": "09-12",
       "dateLabel": "12 September",
-      "country": "denmark",
-      "countryName": "Denmark",
-      "kind": "daylight",
-      "year": 0,
-      "title": "Copenhagen's daylight",
-      "body": "On 12 September, Copenhagen gets about 12 hours and 50 minutes of daylight.",
+      "category": "sport",
+      "categoryName": "Sport",
+      "year": 1984,
+      "title": "Dwight Gooden",
+      "body": "Dwight Gooden sets the baseball record for strikeouts in a season by a rookie with 276, previously set by Herb Score with 246 in 1954. Gooden's 276 strikeouts that season, pitched in 218 innings, set the current record.",
       "source": {
-        "name": "NOAA Solar Calculator",
-        "url": "https://gml.noaa.gov/grad/solcalc/",
-        "calendarUrl": "https://gml.noaa.gov/grad/solcalc/calcdetails.html",
-        "license": {
-          "name": "public-domain NOAA method",
-          "url": "https://www.noaa.gov/disclaimer"
-        }
-      },
-      "image": {
-        "src": "https://commons.wikimedia.org/wiki/Special:Redirect/file/Flag_of_Denmark.svg?width=1000",
-        "alt": "The national flag of Denmark.",
-        "credit": "Danish government",
-        "source": "https://commons.wikimedia.org/wiki/File:Flag_of_Denmark.svg",
-        "license": "Public domain",
-        "licenseUrl": "https://commons.wikimedia.org/wiki/File:Flag_of_Denmark.svg"
-      }
-    },
-    {
-      "id": "09-12-greece-stefanos-korkolis",
-      "date": "09-12",
-      "dateLabel": "12 September",
-      "country": "greece",
-      "countryName": "Greece",
-      "kind": "births",
-      "year": 1960,
-      "title": "Stefanos Korkolis",
-      "body": "Stefanos Korkolis, Greek pianist and composer, was born on this day in 1960.",
-      "source": {
-        "name": "Wikipedia · Stefanos Korkolis",
-        "url": "https://en.wikipedia.org/wiki/Stefanos_Korkolis",
+        "name": "Wikipedia · Dwight Gooden",
+        "url": "https://en.wikipedia.org/wiki/Dwight_Gooden",
         "calendarUrl": "https://en.wikipedia.org/wiki/September_12",
         "license": {
           "name": "CC BY-SA 4.0",
@@ -78,12 +48,39 @@
         }
       },
       "image": {
-        "src": "https://upload.wikimedia.org/wikipedia/commons/1/1c/Stefanos_Korkolis.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
-        "alt": "Portrait or image of Stefanos Korkolis.",
-        "credit": "Athens Epidaurus Festival",
-        "source": "https://commons.wikimedia.org/wiki/File:Stefanos_Korkolis.jpg",
-        "license": "CC BY 3.0",
-        "licenseUrl": "https://creativecommons.org/licenses/by/3.0"
+        "src": "https://upload.wikimedia.org/wikipedia/commons/9/90/Dwight_Gooden_1986_by_Barry_Colla.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+        "alt": "Picture from the Wikipedia article on Dwight Gooden.",
+        "credit": "Barry Colla Photography",
+        "source": "https://commons.wikimedia.org/wiki/File:Dwight_Gooden_1986_by_Barry_Colla.jpg",
+        "license": "Public domain",
+        "licenseUrl": "https://commons.wikimedia.org/wiki/File:Dwight_Gooden_1986_by_Barry_Colla.jpg"
+      }
+    },
+    {
+      "id": "09-12-jack-kilby",
+      "date": "09-12",
+      "dateLabel": "12 September",
+      "category": "world",
+      "categoryName": "World",
+      "year": 1958,
+      "title": "Jack Kilby",
+      "body": "Jack Kilby demonstrates the first working integrated circuit while working at Texas Instruments.",
+      "source": {
+        "name": "Wikipedia · Jack Kilby",
+        "url": "https://en.wikipedia.org/wiki/Jack_Kilby",
+        "calendarUrl": "https://en.wikipedia.org/wiki/September_12",
+        "license": {
+          "name": "CC BY-SA 4.0",
+          "url": "https://creativecommons.org/licenses/by-sa/4.0/"
+        }
+      },
+      "image": {
+        "src": "https://upload.wikimedia.org/wikipedia/commons/9/91/Jack_Kilby_%28cropped%29.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+        "alt": "Picture from the Wikipedia article on Jack Kilby.",
+        "credit": "James R. Biard",
+        "source": "https://commons.wikimedia.org/wiki/File:Jack_Kilby_(cropped).png",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0"
       }
     }
   ]

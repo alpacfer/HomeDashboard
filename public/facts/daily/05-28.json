@@ -3,18 +3,17 @@
   "dateLabel": "28 May",
   "facts": [
     {
-      "id": "05-28-spain-spanish-armada",
+      "id": "05-28-harambe",
       "date": "05-28",
       "dateLabel": "28 May",
-      "country": "spain",
-      "countryName": "Spain",
-      "kind": "events",
-      "year": 1588,
-      "title": "Spanish Armada",
-      "body": "1588: The Spanish Armada, with 130 ships and 30,000 men, sets sail from Lisbon, Portugal, heading for the English Channel. (It will take until May 30 for all ships to leave port.).",
+      "category": "curious",
+      "categoryName": "Curious",
+      "year": 2016,
+      "title": "Harambe",
+      "body": "A gorilla at Cincinnati Zoo was shot after a three-year-old boy climbed into his enclosure. The argument about whether it was necessary turned into a meme that outlasted the news by years.",
       "source": {
-        "name": "Wikipedia · Spanish Armada",
-        "url": "https://en.wikipedia.org/wiki/Spanish_Armada",
+        "name": "Wikipedia · Harambe",
+        "url": "https://en.wikipedia.org/wiki/Harambe",
         "calendarUrl": "https://en.wikipedia.org/wiki/May_28",
         "license": {
           "name": "CC BY-SA 4.0",
@@ -22,27 +21,53 @@
         }
       },
       "image": {
-        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/2e/Armadaroute.jpg/1280px-Armadaroute.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-        "alt": "Image related to Spanish Armada.",
-        "credit": "Robert Adams, Augustine Ryther",
-        "source": "https://commons.wikimedia.org/wiki/File:Armadaroute.jpg",
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/07/WesternLowlandGorilla03.jpg/1280px-WesternLowlandGorilla03.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "alt": "A western lowland gorilla, the subspecies Harambe belonged to.",
+        "credit": "Greg Hume",
+        "source": "https://commons.wikimedia.org/wiki/File:WesternLowlandGorilla03.jpg",
+        "license": "CC BY-SA 3.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0"
+      }
+    },
+    {
+      "id": "05-28-palestine-liberation-organization",
+      "date": "05-28",
+      "dateLabel": "28 May",
+      "category": "world",
+      "categoryName": "World",
+      "year": 1964,
+      "title": "Palestine Liberation Organization",
+      "body": "The Palestine Liberation Organization (PLO) is founded, with Yasser Arafat elected as its first leader.",
+      "source": {
+        "name": "Wikipedia · Palestine Liberation Organization",
+        "url": "https://en.wikipedia.org/wiki/Palestine_Liberation_Organization",
+        "calendarUrl": "https://en.wikipedia.org/wiki/May_28",
+        "license": {
+          "name": "CC BY-SA 4.0",
+          "url": "https://creativecommons.org/licenses/by-sa/4.0/"
+        }
+      },
+      "image": {
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d4/Emblem_of_the_PLO_Vector_Graphic.svg/1280px-Emblem_of_the_PLO_Vector_Graphic.svg.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "alt": "Picture from the Wikipedia article on Palestine Liberation Organization.",
+        "credit": "PLO",
+        "source": "https://commons.wikimedia.org/wiki/File:Emblem_of_the_PLO_Vector_Graphic.svg",
         "license": "Public domain",
-        "licenseUrl": "https://commons.wikimedia.org/wiki/File:Armadaroute.jpg"
+        "licenseUrl": "https://commons.wikimedia.org/wiki/File:Emblem_of_the_PLO_Vector_Graphic.svg"
       }
     },
     {
-      "id": "05-28-denmark-risi-pouri-lane",
+      "id": "05-28-peter-benenson",
       "date": "05-28",
       "dateLabel": "28 May",
-      "country": "denmark",
-      "countryName": "Denmark",
-      "kind": "births",
-      "year": 2000,
-      "title": "Risi Pouri-Lane",
-      "body": "Risi Pouri-Lane, New Zealand rugby sevens player, was born on this day in 2000.",
+      "category": "world",
+      "categoryName": "World",
+      "year": 1961,
+      "title": "Peter Benenson",
+      "body": "Peter Benenson's article The Forgotten Prisoners is published in several internationally read newspapers. This will later be thought of as the founding of the human rights organization Amnesty International.",
       "source": {
-        "name": "Wikipedia · Risi Pouri-Lane",
-        "url": "https://en.wikipedia.org/wiki/Risi_Pouri-Lane",
+        "name": "Wikipedia · Peter Benenson",
+        "url": "https://en.wikipedia.org/wiki/Peter_Benenson",
         "calendarUrl": "https://en.wikipedia.org/wiki/May_28",
         "license": {
           "name": "CC BY-SA 4.0",
@@ -50,40 +75,12 @@
         }
       },
       "image": {
-        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f9/059A8976.jpg/1280px-059A8976.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-        "alt": "Portrait or image of Risi Pouri-Lane.",
-        "credit": "Rachaelwhare",
-        "source": "https://commons.wikimedia.org/wiki/File:059A8976.jpg",
-        "license": "CC BY-SA 4.0",
-        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0"
-      }
-    },
-    {
-      "id": "05-28-greece-byzantine-emperor",
-      "date": "05-28",
-      "dateLabel": "28 May",
-      "country": "greece",
-      "countryName": "Greece",
-      "kind": "events",
-      "year": 1347,
-      "title": "Byzantine Emperor",
-      "body": "1347: Marriage of Byzantine Emperor John V Palaiologos and Helena Kantakouzene.",
-      "source": {
-        "name": "Wikipedia · List of Byzantine emperors",
-        "url": "https://en.wikipedia.org/wiki/List_of_Byzantine_emperors",
-        "calendarUrl": "https://en.wikipedia.org/wiki/May_28",
-        "license": {
-          "name": "CC BY-SA 4.0",
-          "url": "https://creativecommons.org/licenses/by-sa/4.0/"
-        }
-      },
-      "image": {
-        "src": "https://upload.wikimedia.org/wikipedia/commons/b/b6/Konstantinos_XI_Palaiologos_fresco_%28less_edited%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
-        "alt": "Image related to Byzantine Emperor.",
-        "credit": "ILoveHirasawaYui",
-        "source": "https://commons.wikimedia.org/wiki/File:Konstantinos_XI_Palaiologos_fresco_(less_edited).jpg",
-        "license": "CC0",
-        "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/deed.en"
+        "src": "https://upload.wikimedia.org/wikipedia/commons/b/bc/Peter_Benenson.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+        "alt": "Picture from the Wikipedia article on Peter Benenson.",
+        "credit": "Olga Berrios",
+        "source": "https://commons.wikimedia.org/wiki/File:Peter_Benenson.jpg",
+        "license": "CC BY 2.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by/2.0"
       }
     }
   ]

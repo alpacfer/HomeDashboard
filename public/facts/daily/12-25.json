@@ -3,18 +3,17 @@
   "dateLabel": "25 December",
   "facts": [
     {
-      "id": "12-25-spain-battle-of-tucapel",
+      "id": "12-25-apollo-8",
       "date": "12-25",
       "dateLabel": "25 December",
-      "country": "spain",
-      "countryName": "Spain",
-      "kind": "events",
-      "year": 1553,
-      "title": "Battle of Tucapel",
-      "body": "1553: Battle of Tucapel: Mapuche rebels under Lautaro defeat the Spanish conquistadors and executes the governor of Chile, Pedro de Valdivia.",
+      "category": "space",
+      "categoryName": "Space",
+      "year": 1968,
+      "title": "Apollo 8",
+      "body": "Apollo 8 performs the first successful Trans-Earth injection (TEI) maneuver, sending the crew and spacecraft on a trajectory back to Earth from Lunar orbit.",
       "source": {
-        "name": "Wikipedia · Battle of Tucapel",
-        "url": "https://en.wikipedia.org/wiki/Battle_of_Tucapel",
+        "name": "Wikipedia · Apollo 8",
+        "url": "https://en.wikipedia.org/wiki/Apollo_8",
         "calendarUrl": "https://en.wikipedia.org/wiki/December_25",
         "license": {
           "name": "CC BY-SA 4.0",
@@ -22,27 +21,26 @@
         }
       },
       "image": {
-        "src": "https://upload.wikimedia.org/wikipedia/commons/6/6e/Pedro_de_Valdivia.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
-        "alt": "Image related to Battle of Tucapel.",
-        "credit": "Federico de Madrazo y Kuntz",
-        "source": "https://commons.wikimedia.org/wiki/File:Pedro_de_Valdivia.jpg",
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a8/NASA-Apollo8-Dec24-Earthrise.jpg/1280px-NASA-Apollo8-Dec24-Earthrise.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "alt": "Picture from the Wikipedia article on Apollo 8.",
+        "credit": "NASA/Bill Anders",
+        "source": "https://commons.wikimedia.org/wiki/File:NASA-Apollo8-Dec24-Earthrise.jpg",
         "license": "Public domain",
-        "licenseUrl": "https://commons.wikimedia.org/wiki/File:Pedro_de_Valdivia.jpg"
+        "licenseUrl": "https://commons.wikimedia.org/wiki/File:NASA-Apollo8-Dec24-Earthrise.jpg"
       }
     },
     {
-      "id": "12-25-denmark-samuel-marsden",
+      "id": "12-25-mile-muselier",
       "date": "12-25",
       "dateLabel": "25 December",
-      "country": "denmark",
-      "countryName": "Denmark",
-      "kind": "events",
-      "year": 1814,
-      "title": "Samuel Marsden",
-      "body": "1814: Rev. Samuel Marsden holds the first Christian service on land in New Zealand at Rangihoua Bay.",
+      "category": "world",
+      "categoryName": "World",
+      "year": 1941,
+      "title": "Émile Muselier",
+      "body": "Admiral Émile Muselier seizes the archipelago of Saint Pierre and Miquelon, which become the first part of France to be liberated by the Free French Forces.",
       "source": {
-        "name": "Wikipedia · Samuel Marsden",
-        "url": "https://en.wikipedia.org/wiki/Samuel_Marsden",
+        "name": "Wikipedia · Émile Muselier",
+        "url": "https://en.wikipedia.org/wiki/%C3%89mile_Muselier",
         "calendarUrl": "https://en.wikipedia.org/wiki/December_25",
         "license": {
           "name": "CC BY-SA 4.0",
@@ -50,27 +48,26 @@
         }
       },
       "image": {
-        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/96/Samuel_marsden.jpg/1280px-Samuel_marsden.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-        "alt": "Image related to Samuel Marsden.",
-        "credit": "Artist not credited",
-        "source": "https://commons.wikimedia.org/wiki/File:Samuel_marsden.jpg",
-        "license": "CC BY-SA 3.0",
-        "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0"
+        "src": "https://upload.wikimedia.org/wikipedia/commons/a/a2/%C3%89mile_Muselier%2C_1882-1965_%28cropped%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+        "alt": "Picture from the Wikipedia article on Émile Muselier.",
+        "credit": "Wide World Photos/ Archival by La Presse",
+        "source": "https://commons.wikimedia.org/wiki/File:%C3%89mile_Muselier,_1882-1965_(cropped).jpg",
+        "license": "Public domain",
+        "licenseUrl": "https://commons.wikimedia.org/wiki/File:%C3%89mile_Muselier,_1882-1965_(cropped).jpg"
       }
     },
     {
-      "id": "12-25-greece-leo-v-the-armenian",
+      "id": "12-25-james-webb-space-telescope",
       "date": "12-25",
       "dateLabel": "25 December",
-      "country": "greece",
-      "countryName": "Greece",
-      "kind": "events",
-      "year": 820,
-      "title": "Leo V",
-      "body": "820: Eastern Emperor Leo V is murdered in a church of the Great Palace of Constantinople by followers of Michael II.",
+      "category": "space",
+      "categoryName": "Space",
+      "year": 2021,
+      "title": "James Webb Space Telescope",
+      "body": "The James Webb Space Telescope is launched.",
       "source": {
-        "name": "Wikipedia · Leo V the Armenian",
-        "url": "https://en.wikipedia.org/wiki/Leo_V_the_Armenian",
+        "name": "Wikipedia · James Webb Space Telescope",
+        "url": "https://en.wikipedia.org/wiki/James_Webb_Space_Telescope",
         "calendarUrl": "https://en.wikipedia.org/wiki/December_25",
         "license": {
           "name": "CC BY-SA 4.0",
@@ -78,12 +75,12 @@
         }
       },
       "image": {
-        "src": "https://upload.wikimedia.org/wikipedia/commons/8/89/Leo_V_in_Madrid_Skylitzes.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
-        "alt": "Image related to Leo V.",
-        "credit": "Unknown authorUnknown author",
-        "source": "https://commons.wikimedia.org/wiki/File:Leo_V_in_Madrid_Skylitzes.jpg",
+        "src": "https://upload.wikimedia.org/wikipedia/commons/2/2a/JWST_spacecraft_model_3.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+        "alt": "Picture from the Wikipedia article on James Webb Space Telescope.",
+        "credit": "NASA",
+        "source": "https://commons.wikimedia.org/wiki/File:JWST_spacecraft_model_3.png",
         "license": "Public domain",
-        "licenseUrl": "https://commons.wikimedia.org/wiki/File:Leo_V_in_Madrid_Skylitzes.jpg"
+        "licenseUrl": "https://commons.wikimedia.org/wiki/File:JWST_spacecraft_model_3.png"
       }
     }
   ]

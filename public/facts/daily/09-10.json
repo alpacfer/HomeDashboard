@@ -3,18 +3,17 @@
   "dateLabel": "10 September",
   "facts": [
     {
-      "id": "09-10-spain-battle-of-st-george-s-caye",
+      "id": "09-10-large-hadron-collider",
       "date": "09-10",
       "dateLabel": "10 September",
-      "country": "spain",
-      "countryName": "Spain",
-      "kind": "events",
-      "year": 1798,
-      "title": "Battle of St. George's Caye",
-      "body": "1798: At the Battle of St. George's Caye, British Honduras defeats Spain.",
+      "category": "science",
+      "categoryName": "Science",
+      "year": 2008,
+      "title": "Large Hadron Collider",
+      "body": "The Large Hadron Collider at CERN, described as the biggest scientific experiment in history, is powered up in Geneva, Switzerland.",
       "source": {
-        "name": "Wikipedia · Battle of St. George's Caye",
-        "url": "https://en.wikipedia.org/wiki/Battle_of_St._George's_Caye",
+        "name": "Wikipedia · Large Hadron Collider",
+        "url": "https://en.wikipedia.org/wiki/Large_Hadron_Collider",
         "calendarUrl": "https://en.wikipedia.org/wiki/September_10",
         "license": {
           "name": "CC BY-SA 4.0",
@@ -22,27 +21,26 @@
         }
       },
       "image": {
-        "src": "https://commons.wikimedia.org/wiki/Special:Redirect/file/Flag_of_Spain.svg?width=1000",
-        "alt": "The national flag of Spain.",
-        "credit": "Government of Spain",
-        "source": "https://commons.wikimedia.org/wiki/File:Flag_of_Spain.svg",
-        "license": "Public domain",
-        "licenseUrl": "https://commons.wikimedia.org/wiki/File:Flag_of_Spain.svg"
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/74/LHC.svg/1280px-LHC.svg.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "alt": "Picture from the Wikipedia article on Large Hadron Collider.",
+        "credit": "Arpad Horvath",
+        "source": "https://commons.wikimedia.org/wiki/File:LHC.svg",
+        "license": "CC BY-SA 2.5",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.5"
       }
     },
     {
-      "id": "09-10-denmark-hans-niels-andersen",
+      "id": "09-10-george-mary-searle",
       "date": "09-10",
       "dateLabel": "10 September",
-      "country": "denmark",
-      "countryName": "Denmark",
-      "kind": "births",
-      "year": 1852,
-      "title": "Hans Niels Andersen",
-      "body": "Hans Niels Andersen, Danish businessman, founded the East Asiatic Company (died 1937), was born on this day in 1852.",
+      "category": "space",
+      "categoryName": "Space",
+      "year": 1858,
+      "title": "George Mary Searle",
+      "body": "George Mary Searle discovers the asteroid 55 Pandora.",
       "source": {
-        "name": "Wikipedia · Hans Niels Andersen",
-        "url": "https://en.wikipedia.org/wiki/Hans_Niels_Andersen",
+        "name": "Wikipedia · George Mary Searle",
+        "url": "https://en.wikipedia.org/wiki/George_Mary_Searle",
         "calendarUrl": "https://en.wikipedia.org/wiki/September_10",
         "license": {
           "name": "CC BY-SA 4.0",
@@ -50,27 +48,26 @@
         }
       },
       "image": {
-        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/98/Hans_Niels_Andersen_by_Jens_Petersen_%26_S%C3%B8n.jpg/1280px-Hans_Niels_Andersen_by_Jens_Petersen_%26_S%C3%B8n.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-        "alt": "Portrait or image of Hans Niels Andersen.",
-        "credit": "Jens Petersen",
-        "source": "https://commons.wikimedia.org/wiki/File:Hans_Niels_Andersen_by_Jens_Petersen_%26_S%C3%B8n.jpg",
+        "src": "https://upload.wikimedia.org/wikipedia/commons/3/3a/George_Mary_Searle.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+        "alt": "Picture from the Wikipedia article on George Mary Searle.",
+        "credit": "Unknown author",
+        "source": "https://commons.wikimedia.org/wiki/File:George_Mary_Searle.jpg",
         "license": "Public domain",
-        "licenseUrl": "https://commons.wikimedia.org/wiki/File:Hans_Niels_Andersen_by_Jens_Petersen_%26_S%C3%B8n.jpg"
+        "licenseUrl": "https://commons.wikimedia.org/wiki/File:George_Mary_Searle.jpg"
       }
     },
     {
-      "id": "09-10-greece-synod-of-melfi-1089",
+      "id": "09-10-operation-barras",
       "date": "09-10",
       "dateLabel": "10 September",
-      "country": "greece",
-      "countryName": "Greece",
-      "kind": "events",
-      "year": 1089,
-      "title": "first synod",
-      "body": "1089: The first synod of pope Urban II starts in Melfi, with seventy bishops and twelve abbots in attendance. The synod issues several decrees about church law and deals with the relation with the Greek part of the Church.",
+      "category": "world",
+      "categoryName": "World",
+      "year": 2000,
+      "title": "Operation Barras",
+      "body": "Operation Barras successfully frees six British soldiers held captive for over two weeks and contributes to the end of the Sierra Leone Civil War.",
       "source": {
-        "name": "Wikipedia · Synod of Melfi (1089)",
-        "url": "https://en.wikipedia.org/wiki/Synod_of_Melfi_(1089)",
+        "name": "Wikipedia · Operation Barras",
+        "url": "https://en.wikipedia.org/wiki/Operation_Barras",
         "calendarUrl": "https://en.wikipedia.org/wiki/September_10",
         "license": {
           "name": "CC BY-SA 4.0",
@@ -78,12 +75,12 @@
         }
       },
       "image": {
-        "src": "https://commons.wikimedia.org/wiki/Special:Redirect/file/Flag_of_Greece.svg?width=1000",
-        "alt": "The national flag of Greece.",
-        "credit": "Greek government",
-        "source": "https://commons.wikimedia.org/wiki/File:Flag_of_Greece.svg",
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/24/UNsierraleone.PNG/1280px-UNsierraleone.PNG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "alt": "Picture from the Wikipedia article on Operation Barras.",
+        "credit": "Wikimedia Commons contributor",
+        "source": "https://commons.wikimedia.org/wiki/File:UNsierraleone.PNG",
         "license": "Public domain",
-        "licenseUrl": "https://commons.wikimedia.org/wiki/File:Flag_of_Greece.svg"
+        "licenseUrl": "https://commons.wikimedia.org/wiki/File:UNsierraleone.PNG"
       }
     }
   ]

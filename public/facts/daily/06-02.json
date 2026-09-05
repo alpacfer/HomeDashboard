@@ -3,18 +3,17 @@
   "dateLabel": "2 June",
   "facts": [
     {
-      "id": "06-02-spain-napoleonic-wars",
+      "id": "06-02-surveyor-1",
       "date": "06-02",
       "dateLabel": "2 June",
-      "country": "spain",
-      "countryName": "Spain",
-      "kind": "events",
-      "year": 1805,
-      "title": "Napoleonic Wars",
-      "body": "1805: Napoleonic Wars: A Franco-Spanish fleet recaptures from the British the island of Diamond Rock, which guards the entrance to the bay leading to Fort-de-France, Martinique.",
+      "category": "space",
+      "categoryName": "Space",
+      "year": 1966,
+      "title": "Surveyor 1",
+      "body": "Surveyor 1 lands in Oceanus Procellarum on the Moon, becoming the first U.S. spacecraft to soft-land on another world.",
       "source": {
-        "name": "Wikipedia · Napoleonic Wars",
-        "url": "https://en.wikipedia.org/wiki/Napoleonic_Wars",
+        "name": "Wikipedia · Surveyor 1",
+        "url": "https://en.wikipedia.org/wiki/Surveyor_1",
         "calendarUrl": "https://en.wikipedia.org/wiki/June_2",
         "license": {
           "name": "CC BY-SA 4.0",
@@ -22,55 +21,26 @@
         }
       },
       "image": {
-        "src": "https://upload.wikimedia.org/wikipedia/commons/3/39/Napoleonic_Wars_%28revision%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
-        "alt": "Image related to Napoleonic Wars.",
-        "credit": "Ruedi33a",
-        "source": "https://commons.wikimedia.org/wiki/File:Napoleonic_Wars_(revision).jpg",
-        "license": "CC BY-SA 4.0",
-        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0"
-      }
-    },
-    {
-      "id": "06-02-denmark-daniel-pollen",
-      "date": "06-02",
-      "dateLabel": "2 June",
-      "country": "denmark",
-      "countryName": "Denmark",
-      "kind": "births",
-      "year": 1813,
-      "title": "Daniel Pollen",
-      "body": "Daniel Pollen, Irish-New Zealand politician, 9th Prime Minister of New Zealand (died 1896), was born on this day in 1813.",
-      "source": {
-        "name": "Wikipedia · Daniel Pollen",
-        "url": "https://en.wikipedia.org/wiki/Daniel_Pollen",
-        "calendarUrl": "https://en.wikipedia.org/wiki/June_2",
-        "license": {
-          "name": "CC BY-SA 4.0",
-          "url": "https://creativecommons.org/licenses/by-sa/4.0/"
-        }
-      },
-      "image": {
-        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e1/Daniel_Pollen%2C_ca_1873.jpg/1280px-Daniel_Pollen%2C_ca_1873.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-        "alt": "Portrait or image of Daniel Pollen.",
-        "credit": "Photographer unidentified",
-        "source": "https://commons.wikimedia.org/wiki/File:Daniel_Pollen,_ca_1873.jpg",
+        "src": "https://upload.wikimedia.org/wikipedia/commons/2/2a/Surveyor_NASA_lunar_lander.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+        "alt": "Picture from the Wikipedia article on Surveyor 1.",
+        "credit": "NASA",
+        "source": "https://commons.wikimedia.org/wiki/File:Surveyor_NASA_lunar_lander.jpg",
         "license": "Public domain",
-        "licenseUrl": "https://commons.wikimedia.org/wiki/File:Daniel_Pollen,_ca_1873.jpg"
+        "licenseUrl": "https://commons.wikimedia.org/wiki/File:Surveyor_NASA_lunar_lander.jpg"
       }
     },
     {
-      "id": "06-02-greece-manfred-king-of-sicily",
+      "id": "06-02-palestine-liberation-organization",
       "date": "06-02",
       "dateLabel": "2 June",
-      "country": "greece",
-      "countryName": "Greece",
-      "kind": "events",
-      "year": 1259,
-      "title": "Manfred, King of Sicily",
-      "body": "1259: Wedding of Manfred, King of Sicily, and Byzantine princess Helena Angelina Doukaina.",
+      "category": "world",
+      "categoryName": "World",
+      "year": 1964,
+      "title": "Palestine Liberation Organization",
+      "body": "The Palestine Liberation Organization (PLO) is formed.",
       "source": {
-        "name": "Wikipedia · Manfred, King of Sicily",
-        "url": "https://en.wikipedia.org/wiki/Manfred%2C_King_of_Sicily",
+        "name": "Wikipedia · Palestine Liberation Organization",
+        "url": "https://en.wikipedia.org/wiki/Palestine_Liberation_Organization",
         "calendarUrl": "https://en.wikipedia.org/wiki/June_2",
         "license": {
           "name": "CC BY-SA 4.0",
@@ -78,12 +48,39 @@
         }
       },
       "image": {
-        "src": "https://upload.wikimedia.org/wikipedia/commons/6/6c/Manfred_Sizilien_Manfredi_Sicilia_De_Arte_Venandi_cum_Avibus_-_dated_MSS_1258-1266.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
-        "alt": "Image related to Manfred, King of Sicily.",
-        "credit": "Frederick II (Hohenstaufen) / Manfred of Sicily (Hohenstaufen)",
-        "source": "https://commons.wikimedia.org/wiki/File:Manfred_Sizilien_Manfredi_Sicilia_De_Arte_Venandi_cum_Avibus_-_dated_MSS_1258-1266.png",
-        "license": "CC BY-SA 4.0",
-        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0"
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d4/Emblem_of_the_PLO_Vector_Graphic.svg/1280px-Emblem_of_the_PLO_Vector_Graphic.svg.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "alt": "Picture from the Wikipedia article on Palestine Liberation Organization.",
+        "credit": "PLO",
+        "source": "https://commons.wikimedia.org/wiki/File:Emblem_of_the_PLO_Vector_Graphic.svg",
+        "license": "Public domain",
+        "licenseUrl": "https://commons.wikimedia.org/wiki/File:Emblem_of_the_PLO_Vector_Graphic.svg"
+      }
+    },
+    {
+      "id": "06-02-guglielmo-marconi",
+      "date": "06-02",
+      "dateLabel": "2 June",
+      "category": "tech",
+      "categoryName": "Tech",
+      "year": 1896,
+      "title": "Guglielmo Marconi",
+      "body": "Guglielmo Marconi applies for a patent for his wireless telegraph.",
+      "source": {
+        "name": "Wikipedia · Guglielmo Marconi",
+        "url": "https://en.wikipedia.org/wiki/Guglielmo_Marconi",
+        "calendarUrl": "https://en.wikipedia.org/wiki/June_2",
+        "license": {
+          "name": "CC BY-SA 4.0",
+          "url": "https://creativecommons.org/licenses/by-sa/4.0/"
+        }
+      },
+      "image": {
+        "src": "https://upload.wikimedia.org/wikipedia/commons/0/0d/Guglielmo_Marconi.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+        "alt": "Picture from the Wikipedia article on Guglielmo Marconi.",
+        "credit": "Pach Brothers",
+        "source": "https://commons.wikimedia.org/wiki/File:Guglielmo_Marconi.jpg",
+        "license": "Public domain",
+        "licenseUrl": "https://commons.wikimedia.org/wiki/File:Guglielmo_Marconi.jpg"
       }
     }
   ]

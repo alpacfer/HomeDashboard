@@ -3,18 +3,17 @@
   "dateLabel": "6 December",
   "facts": [
     {
-      "id": "12-06-spain-quito",
+      "id": "12-06-mars-global-surveyor",
       "date": "12-06",
       "dateLabel": "6 December",
-      "country": "spain",
-      "countryName": "Spain",
-      "kind": "events",
-      "year": 1534,
-      "title": "Quito",
-      "body": "1534: The city of Quito in Ecuador is founded by Spanish settlers led by Sebastián de Belalcázar.",
+      "category": "space",
+      "categoryName": "Space",
+      "year": 2006,
+      "title": "Mars Global Surveyor",
+      "body": "NASA reveals photographs taken by Mars Global Surveyor suggesting the presence of liquid water on Mars.",
       "source": {
-        "name": "Wikipedia · Quito",
-        "url": "https://en.wikipedia.org/wiki/Quito",
+        "name": "Wikipedia · Mars Global Surveyor",
+        "url": "https://en.wikipedia.org/wiki/Mars_Global_Surveyor",
         "calendarUrl": "https://en.wikipedia.org/wiki/December_6",
         "license": {
           "name": "CC BY-SA 4.0",
@@ -22,68 +21,66 @@
         }
       },
       "image": {
-        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/5b/FACHADA_ASAMBLEA_NACIONAL._QUITO%2C_20_DE_FEBRERO_2020._01.jpg/1280px-FACHADA_ASAMBLEA_NACIONAL._QUITO%2C_20_DE_FEBRERO_2020._01.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-        "alt": "Image related to Quito.",
-        "credit": "Asamblea Nacional del Ecuador",
-        "source": "https://commons.wikimedia.org/wiki/File:FACHADA_ASAMBLEA_NACIONAL._QUITO,_20_DE_FEBRERO_2020._01.jpg",
-        "license": "CC BY-SA 2.0",
-        "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0"
-      }
-    },
-    {
-      "id": "12-06-denmark-ulrich-thomsen",
-      "date": "12-06",
-      "dateLabel": "6 December",
-      "country": "denmark",
-      "countryName": "Denmark",
-      "kind": "births",
-      "year": 1963,
-      "title": "Ulrich Thomsen",
-      "body": "Ulrich Thomsen, Danish actor and producer, was born on this day in 1963.",
-      "source": {
-        "name": "Wikipedia · Ulrich Thomsen",
-        "url": "https://en.wikipedia.org/wiki/Ulrich_Thomsen",
-        "calendarUrl": "https://en.wikipedia.org/wiki/December_6",
-        "license": {
-          "name": "CC BY-SA 4.0",
-          "url": "https://creativecommons.org/licenses/by-sa/4.0/"
-        }
-      },
-      "image": {
-        "src": "https://upload.wikimedia.org/wikipedia/commons/b/b1/Ulrich_Thomsen_o.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
-        "alt": "Portrait or image of Ulrich Thomsen.",
-        "credit": "Siebbi",
-        "source": "https://commons.wikimedia.org/wiki/File:Ulrich_Thomsen_o.jpg",
-        "license": "CC BY 3.0",
-        "licenseUrl": "https://creativecommons.org/licenses/by/3.0"
-      }
-    },
-    {
-      "id": "12-06-greece-aristeidis-grigoriadis",
-      "date": "12-06",
-      "dateLabel": "6 December",
-      "country": "greece",
-      "countryName": "Greece",
-      "kind": "births",
-      "year": 1985,
-      "title": "Aristeidis Grigoriadis",
-      "body": "Aristeidis Grigoriadis, Greek swimmer, was born on this day in 1985.",
-      "source": {
-        "name": "Wikipedia · Aristeidis Grigoriadis",
-        "url": "https://en.wikipedia.org/wiki/Aristeidis_Grigoriadis",
-        "calendarUrl": "https://en.wikipedia.org/wiki/December_6",
-        "license": {
-          "name": "CC BY-SA 4.0",
-          "url": "https://creativecommons.org/licenses/by-sa/4.0/"
-        }
-      },
-      "image": {
-        "src": "https://commons.wikimedia.org/wiki/Special:Redirect/file/Flag_of_Greece.svg?width=1000",
-        "alt": "The national flag of Greece.",
-        "credit": "Greek government",
-        "source": "https://commons.wikimedia.org/wiki/File:Flag_of_Greece.svg",
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d8/Mars_global_surveyor.jpg/1280px-Mars_global_surveyor.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "alt": "Picture from the Wikipedia article on Mars Global Surveyor.",
+        "credit": "NASA/JPL-Caltech/Corby Waste",
+        "source": "https://commons.wikimedia.org/wiki/File:Mars_global_surveyor.jpg",
         "license": "Public domain",
-        "licenseUrl": "https://commons.wikimedia.org/wiki/File:Flag_of_Greece.svg"
+        "licenseUrl": "https://commons.wikimedia.org/wiki/File:Mars_global_surveyor.jpg"
+      }
+    },
+    {
+      "id": "12-06-a-m-records-inc-v-napster-inc-2000",
+      "date": "12-06",
+      "dateLabel": "6 December",
+      "category": "world",
+      "categoryName": "World",
+      "year": 1999,
+      "title": "A&M Records, Inc. v. Napster, Inc.",
+      "body": "A&M Records, Inc. v. Napster, Inc.: The Recording Industry Association of America sues the peer-to-peer file-sharing service Napster, alleging copyright infringement.",
+      "source": {
+        "name": "Wikipedia · A&M Records, Inc. v. Napster, Inc.",
+        "url": "https://en.wikipedia.org/wiki/A%26M_Records,_Inc._v._Napster,_Inc.",
+        "calendarUrl": "https://en.wikipedia.org/wiki/December_6",
+        "license": {
+          "name": "CC BY-SA 4.0",
+          "url": "https://creativecommons.org/licenses/by-sa/4.0/"
+        }
+      },
+      "image": {
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/cf/Seal_of_the_United_States_Courts%2C_Ninth_Judicial_Circuit.svg/1280px-Seal_of_the_United_States_Courts%2C_Ninth_Judicial_Circuit.svg.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "alt": "Picture from the Wikipedia article on A&M Records, Inc. v. Napster, Inc..",
+        "credit": "U.S. Government",
+        "source": "https://commons.wikimedia.org/wiki/File:Seal_of_the_United_States_Courts,_Ninth_Judicial_Circuit.svg",
+        "license": "Public domain",
+        "licenseUrl": "https://commons.wikimedia.org/wiki/File:Seal_of_the_United_States_Courts,_Ninth_Judicial_Circuit.svg"
+      }
+    },
+    {
+      "id": "12-06-nefertiti-bust",
+      "date": "12-06",
+      "dateLabel": "6 December",
+      "category": "science",
+      "categoryName": "Science",
+      "year": 1912,
+      "title": "Nefertiti Bust",
+      "body": "The Nefertiti Bust is discovered.",
+      "source": {
+        "name": "Wikipedia · Nefertiti Bust",
+        "url": "https://en.wikipedia.org/wiki/Nefertiti_Bust",
+        "calendarUrl": "https://en.wikipedia.org/wiki/December_6",
+        "license": {
+          "name": "CC BY-SA 4.0",
+          "url": "https://creativecommons.org/licenses/by-sa/4.0/"
+        }
+      },
+      "image": {
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/1f/Nofretete_Neues_Museum.jpg/1280px-Nofretete_Neues_Museum.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "alt": "Picture from the Wikipedia article on Nefertiti Bust.",
+        "credit": "Philip Pikart",
+        "source": "https://commons.wikimedia.org/wiki/File:Nofretete_Neues_Museum.jpg",
+        "license": "CC BY-SA 3.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0"
       }
     }
   ]

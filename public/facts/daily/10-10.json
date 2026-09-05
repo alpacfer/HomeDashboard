@@ -3,18 +3,17 @@
   "dateLabel": "10 October",
   "facts": [
     {
-      "id": "10-10-spain-ten-years-war",
+      "id": "10-10-king-crimson",
       "date": "10-10",
       "dateLabel": "10 October",
-      "country": "spain",
-      "countryName": "Spain",
-      "kind": "events",
-      "year": 1868,
-      "title": "Ten Years' War",
-      "body": "1868: The Ten Years' War begins against Spanish rule in Cuba.",
+      "category": "culture",
+      "categoryName": "Culture",
+      "year": 1969,
+      "title": "King Crimson",
+      "body": "King Crimson releases their debut album, In the Court of the Crimson King.",
       "source": {
-        "name": "Wikipedia · Ten Years' War",
-        "url": "https://en.wikipedia.org/wiki/Ten_Years'_War",
+        "name": "Wikipedia · King Crimson",
+        "url": "https://en.wikipedia.org/wiki/King_Crimson",
         "calendarUrl": "https://en.wikipedia.org/wiki/October_10",
         "license": {
           "name": "CC BY-SA 4.0",
@@ -22,27 +21,26 @@
         }
       },
       "image": {
-        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/57/Embarcament_dels_voluntaris_catalans_al_port_de_Barcelona.jpg/1280px-Embarcament_dels_voluntaris_catalans_al_port_de_Barcelona.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-        "alt": "Image related to Ten Years' War.",
-        "credit": "Ramon Padró i Pedret",
-        "source": "https://commons.wikimedia.org/wiki/File:Embarcament_dels_voluntaris_catalans_al_port_de_Barcelona.jpg",
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/9b/King_Crimson%2C_De_vereeniging_te_Nijmegen_-_48113112087_%28cropped%29.jpg/1280px-King_Crimson%2C_De_vereeniging_te_Nijmegen_-_48113112087_%28cropped%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "alt": "Picture from the Wikipedia article on King Crimson.",
+        "credit": "Ted Potters",
+        "source": "https://commons.wikimedia.org/wiki/File:King_Crimson,_De_vereeniging_te_Nijmegen_-_48113112087_(cropped).jpg",
         "license": "Public domain",
-        "licenseUrl": "https://commons.wikimedia.org/wiki/File:Embarcament_dels_voluntaris_catalans_al_port_de_Barcelona.jpg"
+        "licenseUrl": "https://commons.wikimedia.org/wiki/File:King_Crimson,_De_vereeniging_te_Nijmegen_-_48113112087_(cropped).jpg"
       }
     },
     {
-      "id": "10-10-denmark-sten-sture-the-elder",
+      "id": "10-10-sheikh-muszaphar-shukor",
       "date": "10-10",
       "dateLabel": "10 October",
-      "country": "denmark",
-      "countryName": "Denmark",
-      "kind": "events",
-      "year": 1471,
-      "title": "Sten Sture the Elder",
-      "body": "1471: Sten Sture the Elder, the Regent of Sweden, with the help of farmers and miners, repels an attack by King Christian I of Denmark.",
+      "category": "world",
+      "categoryName": "World",
+      "year": 2007,
+      "title": "Sheikh Muszaphar Shukor",
+      "body": "Sheikh Muszaphar Shukor becomes the first Malaysian in space on board Soyuz TMA-11.",
       "source": {
-        "name": "Wikipedia · Sten Sture the Elder",
-        "url": "https://en.wikipedia.org/wiki/Sten_Sture_the_Elder",
+        "name": "Wikipedia · Sheikh Muszaphar Shukor",
+        "url": "https://en.wikipedia.org/wiki/Sheikh_Muszaphar_Shukor",
         "calendarUrl": "https://en.wikipedia.org/wiki/October_10",
         "license": {
           "name": "CC BY-SA 4.0",
@@ -50,27 +48,26 @@
         }
       },
       "image": {
-        "src": "https://commons.wikimedia.org/wiki/Special:Redirect/file/Flag_of_Denmark.svg?width=1000",
-        "alt": "The national flag of Denmark.",
-        "credit": "Danish government",
-        "source": "https://commons.wikimedia.org/wiki/File:Flag_of_Denmark.svg",
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/84/Muszaphar_shukor.jpg/1280px-Muszaphar_shukor.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "alt": "Picture from the Wikipedia article on Sheikh Muszaphar Shukor.",
+        "credit": "NASA",
+        "source": "https://commons.wikimedia.org/wiki/File:Muszaphar_shukor.jpg",
         "license": "Public domain",
-        "licenseUrl": "https://commons.wikimedia.org/wiki/File:Flag_of_Denmark.svg"
+        "licenseUrl": "https://commons.wikimedia.org/wiki/File:Muszaphar_shukor.jpg"
       }
     },
     {
-      "id": "10-10-greece-coup-d-tat",
+      "id": "10-10-triton-moon",
       "date": "10-10",
       "dateLabel": "10 October",
-      "country": "greece",
-      "countryName": "Greece",
-      "kind": "events",
-      "year": 1935,
-      "title": "coup d'état",
-      "body": "1935: In Greece, a coup d'état ends the Second Hellenic Republic.",
+      "category": "science",
+      "categoryName": "Science",
+      "year": 1846,
+      "title": "Triton",
+      "body": "Triton, the largest moon of the planet Neptune, is discovered by English astronomer William Lassell.",
       "source": {
-        "name": "Wikipedia · Coup d'état",
-        "url": "https://en.wikipedia.org/wiki/Coup_d'%C3%A9tat",
+        "name": "Wikipedia · Triton (moon)",
+        "url": "https://en.wikipedia.org/wiki/Triton_(moon)",
         "calendarUrl": "https://en.wikipedia.org/wiki/October_10",
         "license": {
           "name": "CC BY-SA 4.0",
@@ -78,12 +75,12 @@
         }
       },
       "image": {
-        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/44/Bouchot_-_Le_general_Bonaparte_au_Conseil_des_Cinq-Cents.jpg/1280px-Bouchot_-_Le_general_Bonaparte_au_Conseil_des_Cinq-Cents.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-        "alt": "Image related to coup d'état.",
-        "credit": "François Bouchot",
-        "source": "https://commons.wikimedia.org/wiki/File:Bouchot_-_Le_general_Bonaparte_au_Conseil_des_Cinq-Cents.jpg",
-        "license": "Public domain",
-        "licenseUrl": "https://commons.wikimedia.org/wiki/File:Bouchot_-_Le_general_Bonaparte_au_Conseil_des_Cinq-Cents.jpg"
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/98/Triton-usgs23-with-frame.jpg/1280px-Triton-usgs23-with-frame.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "alt": "Picture from the Wikipedia article on Triton.",
+        "credit": "Michael T. Bland, U.S. Geological Survey (USGS)",
+        "source": "https://commons.wikimedia.org/wiki/File:Triton-usgs23-with-frame.jpg",
+        "license": "CC BY 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by/4.0"
       }
     }
   ]

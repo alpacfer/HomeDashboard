@@ -3,18 +3,17 @@
   "dateLabel": "1 September",
   "facts": [
     {
-      "id": "09-01-spain-sancti-spiritu-falls",
+      "id": "09-01-emma-nutt",
       "date": "09-01",
       "dateLabel": "1 September",
-      "country": "spain",
-      "countryName": "Spain",
-      "kind": "events",
-      "year": 1529,
-      "title": "The first Spanish fort in Argentina fell",
-      "body": "In 1529, Indigenous fighters burned Sancti Spiritu, the first Spanish fort built in what is now Argentina.",
+      "category": "tech",
+      "categoryName": "Tech",
+      "year": 1878,
+      "title": "Emma Nutt",
+      "body": "Emma Nutt becomes the world's first female telephone operator when she is recruited by Alexander Graham Bell to the Boston Telephone Dispatch Company.",
       "source": {
-        "name": "Wikipedia · Sancti Spiritu",
-        "url": "https://en.wikipedia.org/wiki/Sancti_Spiritu_(Argentina)",
+        "name": "Wikipedia · Emma Nutt",
+        "url": "https://en.wikipedia.org/wiki/Emma_Nutt",
         "calendarUrl": "https://en.wikipedia.org/wiki/September_1",
         "license": {
           "name": "CC BY-SA 4.0",
@@ -22,68 +21,66 @@
         }
       },
       "image": {
-        "src": "https://upload.wikimedia.org/wikipedia/commons/3/33/Sebastian_Cabot_-_S._Rawle_after_Hans_Holbein%2C_1824.jpeg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
-        "alt": "An engraved portrait of explorer Sebastian Cabot.",
-        "credit": "Samuel Rawle, after Hans Holbein the Younger",
-        "source": "https://commons.wikimedia.org/wiki/File:Sebastian_Cabot_-_S._Rawle_after_Hans_Holbein,_1824.jpeg",
+        "src": "https://upload.wikimedia.org/wikipedia/commons/a/af/Emma_Nutt_circa_1878-1900.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+        "alt": "Picture from the Wikipedia article on Emma Nutt.",
+        "credit": "Unknown author",
+        "source": "https://commons.wikimedia.org/wiki/File:Emma_Nutt_circa_1878-1900.jpg",
         "license": "Public domain",
-        "licenseUrl": "https://commons.wikimedia.org/wiki/File:Sebastian_Cabot_-_S._Rawle_after_Hans_Holbein,_1824.jpeg"
+        "licenseUrl": "https://commons.wikimedia.org/wiki/File:Emma_Nutt_circa_1878-1900.jpg"
       }
     },
     {
-      "id": "09-01-denmark-neutrality-1939",
+      "id": "09-01-narcissa-whitman",
       "date": "09-01",
       "dateLabel": "1 September",
-      "country": "denmark",
-      "countryName": "Denmark",
-      "kind": "events",
-      "year": 1939,
-      "title": "Denmark declared neutrality",
-      "body": "On 1 September 1939, King Christian X activated Denmark's neutrality rules as war began in Europe. Germany invaded seven months later.",
+      "category": "world",
+      "categoryName": "World",
+      "year": 1836,
+      "title": "Narcissa Whitman",
+      "body": "Narcissa Whitman, one of the first English-speaking white women to settle west of the Rocky Mountains, arrives at Walla Walla, Washington.",
       "source": {
-        "name": "Retsinformation · Royal decree 282",
-        "url": "https://www.retsinformation.dk/eli/lta/1939/282",
-        "calendarUrl": "https://www.retsinformation.dk/eli/lta/1939/282",
+        "name": "Wikipedia · Narcissa Whitman",
+        "url": "https://en.wikipedia.org/wiki/Narcissa_Whitman",
+        "calendarUrl": "https://en.wikipedia.org/wiki/September_1",
         "license": {
-          "name": "Official Danish record",
-          "url": "https://www.retsinformation.dk/"
+          "name": "CC BY-SA 4.0",
+          "url": "https://creativecommons.org/licenses/by-sa/4.0/"
         }
       },
       "image": {
-        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/9b/Kong_Christian_d._X_%286045750136%29_%282%29.jpg/1280px-Kong_Christian_d._X_%286045750136%29_%282%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-        "alt": "King Christian X riding through Copenhagen during the war years.",
-        "credit": "National Museum of Denmark",
-        "source": "https://commons.wikimedia.org/wiki/File:Kong_Christian_d._X_(6045750136)_(2).jpg",
-        "license": "CC BY-SA 2.0",
-        "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0"
+        "src": "https://upload.wikimedia.org/wikipedia/commons/7/77/Narcissa_whitman_nps.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+        "alt": "Picture from the Wikipedia article on Narcissa Whitman.",
+        "credit": "(unknown)",
+        "source": "https://commons.wikimedia.org/wiki/File:Narcissa_whitman_nps.jpg",
+        "license": "Public domain",
+        "licenseUrl": "https://commons.wikimedia.org/wiki/File:Narcissa_whitman_nps.jpg"
       }
     },
     {
-      "id": "09-01-greece-byzantine-new-year",
+      "id": "09-01-3-juno",
       "date": "09-01",
       "dateLabel": "1 September",
-      "country": "greece",
-      "countryName": "Greece",
-      "kind": "events",
-      "year": 462,
-      "title": "The Byzantine year began today",
-      "body": "For centuries, the Byzantine Empire started its new year on 1 September. The Greek Orthodox church still begins its liturgical year today.",
+      "category": "space",
+      "categoryName": "Space",
+      "year": 1804,
+      "title": "3 Juno",
+      "body": "3 Juno, one of the largest asteroids in the Main Belt, is discovered by the German astronomer Karl Ludwig Harding.",
       "source": {
-        "name": "Greek Orthodox Archdiocese · Ecclesiastical New Year",
-        "url": "https://www.goarch.org/chapel/saints?contentid=188&language=en",
-        "calendarUrl": "https://www.goarch.org/chapel/saints?contentid=188&language=en",
+        "name": "Wikipedia · 3 Juno",
+        "url": "https://en.wikipedia.org/wiki/3_Juno",
+        "calendarUrl": "https://en.wikipedia.org/wiki/September_1",
         "license": {
-          "name": "Historical reference",
-          "url": "https://www.goarch.org/chapel/saints?contentid=188&language=en"
+          "name": "CC BY-SA 4.0",
+          "url": "https://creativecommons.org/licenses/by-sa/4.0/"
         }
       },
       "image": {
-        "src": "https://upload.wikimedia.org/wikipedia/commons/2/28/Monreale_creation_Adam.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
-        "alt": "A medieval Byzantine-style mosaic showing the creation of Adam.",
-        "credit": "Unknown medieval artist",
-        "source": "https://commons.wikimedia.org/wiki/File:Monreale_creation_Adam.jpg",
-        "license": "Public domain",
-        "licenseUrl": "https://commons.wikimedia.org/wiki/File:Monreale_creation_Adam.jpg"
+        "src": "https://upload.wikimedia.org/wikipedia/commons/6/61/3_Juno_VLT_%282021%29.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+        "alt": "Picture from the Wikipedia article on 3 Juno.",
+        "credit": "VSO Very Large Telescope SPHERE/ZIMPOL team",
+        "source": "https://commons.wikimedia.org/wiki/File:3_Juno_VLT_(2021).png",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0"
       }
     }
   ]

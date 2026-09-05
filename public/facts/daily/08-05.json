@@ -3,18 +3,17 @@
   "dateLabel": "5 August",
   "facts": [
     {
-      "id": "08-05-spain-battle-of-alhandic",
+      "id": "08-05-american-bandstand",
       "date": "08-05",
       "dateLabel": "5 August",
-      "country": "spain",
-      "countryName": "Spain",
-      "kind": "events",
-      "year": 939,
-      "title": "Battle of Alhandic",
-      "body": "939: The Battle of Alhandic is fought between Ramiro II of León and Abd-ar-Rahman III at Zamora in the context of the Spanish Reconquista. The battle resulted in a victory for the Emirate of Córdoba.",
+      "category": "culture",
+      "categoryName": "Culture",
+      "year": 1957,
+      "title": "American Bandstand",
+      "body": "American Bandstand, a show dedicated to the teenage \"baby-boomers\" by playing the songs and showing popular dances of the time, debuts on the ABC television network.",
       "source": {
-        "name": "Wikipedia · Battle of Alhandic",
-        "url": "https://en.wikipedia.org/wiki/Battle_of_Alhandic",
+        "name": "Wikipedia · American Bandstand",
+        "url": "https://en.wikipedia.org/wiki/American_Bandstand",
         "calendarUrl": "https://en.wikipedia.org/wiki/August_5",
         "license": {
           "name": "CC BY-SA 4.0",
@@ -22,27 +21,53 @@
         }
       },
       "image": {
-        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/78/Murallas_de_Zamora.JPG/1280px-Murallas_de_Zamora.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-        "alt": "Image related to Battle of Alhandic.",
-        "credit": "Outisnn",
-        "source": "https://commons.wikimedia.org/wiki/File:Murallas_de_Zamora.JPG",
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/5c/American_Bandstand.svg/1280px-American_Bandstand.svg.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "alt": "Picture from the Wikipedia article on American Bandstand.",
+        "credit": "Dick Clark Productions",
+        "source": "https://commons.wikimedia.org/wiki/File:American_Bandstand.svg",
+        "license": "Public domain",
+        "licenseUrl": "https://commons.wikimedia.org/wiki/File:American_Bandstand.svg"
+      }
+    },
+    {
+      "id": "08-05-knin",
+      "date": "08-05",
+      "dateLabel": "5 August",
+      "category": "world",
+      "categoryName": "World",
+      "year": 1995,
+      "title": "Knin",
+      "body": "The city of Knin, Croatia, a significant Serb stronghold, is taken by Croatian forces during Operation Storm. The date is celebrated in Croatia as Victory Day.",
+      "source": {
+        "name": "Wikipedia · Knin",
+        "url": "https://en.wikipedia.org/wiki/Knin",
+        "calendarUrl": "https://en.wikipedia.org/wiki/August_5",
+        "license": {
+          "name": "CC BY-SA 4.0",
+          "url": "https://creativecommons.org/licenses/by-sa/4.0/"
+        }
+      },
+      "image": {
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/0d/Knin_25.jpg/1280px-Knin_25.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "alt": "Picture from the Wikipedia article on Knin.",
+        "credit": "CroatianPalpatine",
+        "source": "https://commons.wikimedia.org/wiki/File:Knin_25.jpg",
         "license": "CC BY-SA 4.0",
         "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0"
       }
     },
     {
-      "id": "08-05-denmark-kingdom-of-england",
+      "id": "08-05-mars-6",
       "date": "08-05",
       "dateLabel": "5 August",
-      "country": "denmark",
-      "countryName": "Denmark",
-      "kind": "events",
-      "year": 910,
-      "title": "England",
-      "body": "910: The last major Danish army to raid England for nearly a century is defeated at the Battle of Tettenhall by the allied forces of Mercia and Wessex, led by King Edward the Elder and Æthelred, Lord of the Mercians.",
+      "category": "space",
+      "categoryName": "Space",
+      "year": 1973,
+      "title": "Mars 6",
+      "body": "Mars 6 is launched from the USSR.",
       "source": {
-        "name": "Wikipedia · Kingdom of England",
-        "url": "https://en.wikipedia.org/wiki/Kingdom_of_England",
+        "name": "Wikipedia · Mars 6",
+        "url": "https://en.wikipedia.org/wiki/Mars_6",
         "calendarUrl": "https://en.wikipedia.org/wiki/August_5",
         "license": {
           "name": "CC BY-SA 4.0",
@@ -50,40 +75,12 @@
         }
       },
       "image": {
-        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/be/Flag_of_England.svg/1280px-Flag_of_England.svg.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-        "alt": "Image related to England.",
-        "credit": "Original: traditional Vector: Nicholas Shanks",
-        "source": "https://commons.wikimedia.org/wiki/File:Flag_of_England.svg",
+        "src": "https://upload.wikimedia.org/wikipedia/commons/9/90/Mars_6.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+        "alt": "Picture from the Wikipedia article on Mars 6.",
+        "credit": "Nasa",
+        "source": "https://commons.wikimedia.org/wiki/File:Mars_6.jpg",
         "license": "Public domain",
-        "licenseUrl": "https://commons.wikimedia.org/wiki/File:Flag_of_England.svg"
-      }
-    },
-    {
-      "id": "08-05-greece-byzantine-norman-wars",
-      "date": "08-05",
-      "dateLabel": "5 August",
-      "country": "greece",
-      "countryName": "Greece",
-      "kind": "events",
-      "year": 1068,
-      "title": "Byzantine–Norman wars",
-      "body": "1068: Byzantine–Norman wars: Italo-Normans begin a nearly-three-year siege of Bari.",
-      "source": {
-        "name": "Wikipedia · Byzantine–Norman wars",
-        "url": "https://en.wikipedia.org/wiki/Byzantine%E2%80%93Norman_wars",
-        "calendarUrl": "https://en.wikipedia.org/wiki/August_5",
-        "license": {
-          "name": "CC BY-SA 4.0",
-          "url": "https://creativecommons.org/licenses/by-sa/4.0/"
-        }
-      },
-      "image": {
-        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c0/Italy_and_Illyria_1084_AD.svg/1280px-Italy_and_Illyria_1084_AD.svg.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-        "alt": "Image related to Byzantine–Norman wars.",
-        "credit": "MapMaster",
-        "source": "https://commons.wikimedia.org/wiki/File:Italy_and_Illyria_1084_AD.svg",
-        "license": "CC BY-SA 2.5",
-        "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.5"
+        "licenseUrl": "https://commons.wikimedia.org/wiki/File:Mars_6.jpg"
       }
     }
   ]

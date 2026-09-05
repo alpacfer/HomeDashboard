@@ -3,18 +3,17 @@
   "dateLabel": "13 November",
   "facts": [
     {
-      "id": "11-13-spain-edward-burd-grubb-jr",
+      "id": "11-13-great-internet-mersenne-prime-search",
       "date": "11-13",
       "dateLabel": "13 November",
-      "country": "spain",
-      "countryName": "Spain",
-      "kind": "births",
-      "year": 1841,
-      "title": "Edward Burd Grubb, Jr.",
-      "body": "Edward Burd Grubb, Jr., American general and diplomat, United States Ambassador to Spain (died 1913), was born on this day in 1841.",
+      "category": "tech",
+      "categoryName": "Tech",
+      "year": 1996,
+      "title": "Great Internet Mersenne Prime Search",
+      "body": "As part of the Great Internet Mersenne Prime Search (GIMPS) project, Joel Armengaud discovers the project's first Mersenne prime number, 2^{1398269}-1, a number with 420,921 digits.",
       "source": {
-        "name": "Wikipedia · Edward Burd Grubb Jr.",
-        "url": "https://en.wikipedia.org/wiki/Edward_Burd_Grubb_Jr.",
+        "name": "Wikipedia · Great Internet Mersenne Prime Search",
+        "url": "https://en.wikipedia.org/wiki/Great_Internet_Mersenne_Prime_Search",
         "calendarUrl": "https://en.wikipedia.org/wiki/November_13",
         "license": {
           "name": "CC BY-SA 4.0",
@@ -22,27 +21,26 @@
         }
       },
       "image": {
-        "src": "https://commons.wikimedia.org/wiki/Special:Redirect/file/Flag_of_Spain.svg?width=1000",
-        "alt": "The national flag of Spain.",
-        "credit": "Government of Spain",
-        "source": "https://commons.wikimedia.org/wiki/File:Flag_of_Spain.svg",
+        "src": "https://upload.wikimedia.org/wikipedia/commons/7/78/GIMPS_logo_2020.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+        "alt": "Picture from the Wikipedia article on Great Internet Mersenne Prime Search.",
+        "credit": "Viliam Furík",
+        "source": "https://commons.wikimedia.org/wiki/File:GIMPS_logo_2020.png",
         "license": "Public domain",
-        "licenseUrl": "https://commons.wikimedia.org/wiki/File:Flag_of_Spain.svg"
+        "licenseUrl": "https://commons.wikimedia.org/wiki/File:GIMPS_logo_2020.png"
       }
     },
     {
-      "id": "11-13-denmark-aramoana",
+      "id": "11-13-walt-disney",
       "date": "11-13",
       "dateLabel": "13 November",
-      "country": "denmark",
-      "countryName": "Denmark",
-      "kind": "events",
-      "year": 1990,
-      "title": "Aramoana",
-      "body": "1990: In Aramoana, New Zealand, David Gray shoots dead 13 people in a massacre before being tracked down and killed by police the next day.",
+      "category": "culture",
+      "categoryName": "Culture",
+      "year": 1940,
+      "title": "Walt Disney",
+      "body": "Walt Disney's animated musical film Fantasia is first released at New York's Broadway Theatre, on the first night of a roadshow.",
       "source": {
-        "name": "Wikipedia · Aramoana",
-        "url": "https://en.wikipedia.org/wiki/Aramoana",
+        "name": "Wikipedia · Walt Disney",
+        "url": "https://en.wikipedia.org/wiki/Walt_Disney",
         "calendarUrl": "https://en.wikipedia.org/wiki/November_13",
         "license": {
           "name": "CC BY-SA 4.0",
@@ -50,27 +48,26 @@
         }
       },
       "image": {
-        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/32/Aramoana.jpg/1280px-Aramoana.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-        "alt": "Image related to Aramoana.",
-        "credit": "Benchill",
-        "source": "https://commons.wikimedia.org/wiki/File:Aramoana.jpg",
+        "src": "https://upload.wikimedia.org/wikipedia/commons/5/50/Walt_Disney_1946_%28cropped2%29.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+        "alt": "Picture from the Wikipedia article on Walt Disney.",
+        "credit": "Boy Scouts of America",
+        "source": "https://commons.wikimedia.org/wiki/File:Walt_Disney_1946_(cropped2).JPG",
         "license": "Public domain",
-        "licenseUrl": "https://commons.wikimedia.org/wiki/File:Aramoana.jpg"
+        "licenseUrl": "https://commons.wikimedia.org/wiki/File:Walt_Disney_1946_(cropped2).JPG"
       }
     },
     {
-      "id": "11-13-greece-allies-of-world-war-i",
+      "id": "11-13-solar-eclipse",
       "date": "11-13",
       "dateLabel": "13 November",
-      "country": "greece",
-      "countryName": "Greece",
-      "kind": "events",
-      "year": 1918,
-      "title": "Allied troops",
-      "body": "1918: World War I: Allied troops occupy Constantinople, the capital of the Ottoman Empire.",
+      "category": "space",
+      "categoryName": "Space",
+      "year": 2012,
+      "title": "Solar eclipse",
+      "body": "A total solar eclipse occurs in parts of Australia and the South Pacific.",
       "source": {
-        "name": "Wikipedia · Allies of World War I",
-        "url": "https://en.wikipedia.org/wiki/Allies_of_World_War_I",
+        "name": "Wikipedia · Solar eclipse",
+        "url": "https://en.wikipedia.org/wiki/Solar_eclipse",
         "calendarUrl": "https://en.wikipedia.org/wiki/November_13",
         "license": {
           "name": "CC BY-SA 4.0",
@@ -78,12 +75,12 @@
         }
       },
       "image": {
-        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/45/Le_grande_pavois_des_Allies_%28cropped%29.jpg/1280px-Le_grande_pavois_des_Allies_%28cropped%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-        "alt": "Image related to Allied troops.",
-        "credit": "L'Illustration",
-        "source": "https://commons.wikimedia.org/wiki/File:Le_grande_pavois_des_Allies_(cropped).jpg",
-        "license": "Public domain",
-        "licenseUrl": "https://commons.wikimedia.org/wiki/File:Le_grande_pavois_des_Allies_(cropped).jpg"
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c7/Solar_eclipse_1999_4.jpg/1280px-Solar_eclipse_1999_4.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "alt": "Picture from the Wikipedia article on Solar eclipse.",
+        "credit": "Luc Viatour",
+        "source": "https://commons.wikimedia.org/wiki/File:Solar_eclipse_1999_4.jpg",
+        "license": "CC BY-SA 3.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0/"
       }
     }
   ]

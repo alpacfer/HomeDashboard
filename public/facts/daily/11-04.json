@@ -3,18 +3,17 @@
   "dateLabel": "4 November",
   "facts": [
     {
-      "id": "11-04-spain-catherine-of-aragon",
+      "id": "11-04-african-americans",
       "date": "11-04",
       "dateLabel": "4 November",
-      "country": "spain",
-      "countryName": "Spain",
-      "kind": "events",
-      "year": 1501,
-      "title": "Catherine of Aragon",
-      "body": "1501: Catherine of Aragon (later Henry VIII's first wife) meets Arthur, Prince of Wales, Henry VIII's older brother – they would later marry.",
+      "category": "world",
+      "categoryName": "World",
+      "year": 2008,
+      "title": "African Americans",
+      "body": "Barack Obama becomes the first person of biracial or African-American descent to be elected as President of the United States.",
       "source": {
-        "name": "Wikipedia · Catherine of Aragon",
-        "url": "https://en.wikipedia.org/wiki/Catherine_of_Aragon",
+        "name": "Wikipedia · African Americans",
+        "url": "https://en.wikipedia.org/wiki/African_Americans",
         "calendarUrl": "https://en.wikipedia.org/wiki/November_4",
         "license": {
           "name": "CC BY-SA 4.0",
@@ -22,27 +21,26 @@
         }
       },
       "image": {
-        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/6b/Catherine_of_Aragon_%281485-1536%29.jpg/1280px-Catherine_of_Aragon_%281485-1536%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-        "alt": "Image related to Catherine of Aragon.",
-        "credit": "Lucas Horenbout",
-        "source": "https://commons.wikimedia.org/wiki/File:Catherine_of_Aragon_(1485-1536).jpg",
-        "license": "Public domain",
-        "licenseUrl": "https://commons.wikimedia.org/wiki/File:Catherine_of_Aragon_(1485-1536).jpg"
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/3c/Black_Americans_2020_County.png/1280px-Black_Americans_2020_County.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "alt": "Picture from the Wikipedia article on African Americans.",
+        "credit": "Tweedle",
+        "source": "https://commons.wikimedia.org/wiki/File:Black_Americans_2020_County.png",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0"
       }
     },
     {
-      "id": "11-04-denmark-giff-vivian",
+      "id": "11-04-1973-oil-crisis",
       "date": "11-04",
       "dateLabel": "4 November",
-      "country": "denmark",
-      "countryName": "Denmark",
-      "kind": "births",
-      "year": 1912,
-      "title": "Giff Vivian",
-      "body": "Giff Vivian, New Zealand cricketer (died 1983), was born on this day in 1912.",
+      "category": "sport",
+      "categoryName": "Sport",
+      "year": 1973,
+      "title": "1973 oil crisis",
+      "body": "The Netherlands experiences the first car-free Sunday caused by the 1973 oil crisis. Highways are used only by cyclists and roller skaters.",
       "source": {
-        "name": "Wikipedia · Giff Vivian",
-        "url": "https://en.wikipedia.org/wiki/Giff_Vivian",
+        "name": "Wikipedia · 1973 oil crisis",
+        "url": "https://en.wikipedia.org/wiki/1973_oil_crisis",
         "calendarUrl": "https://en.wikipedia.org/wiki/November_4",
         "license": {
           "name": "CC BY-SA 4.0",
@@ -50,27 +48,26 @@
         }
       },
       "image": {
-        "src": "https://upload.wikimedia.org/wikipedia/commons/5/53/Giff_Vivian_1937.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
-        "alt": "Portrait or image of Giff Vivian.",
-        "credit": "Unknown authorUnknown author",
-        "source": "https://commons.wikimedia.org/wiki/File:Giff_Vivian_1937.jpg",
-        "license": "Public domain",
-        "licenseUrl": "https://commons.wikimedia.org/wiki/File:Giff_Vivian_1937.jpg"
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/3f/West_Texas_Intermediate_oil_prices_1950%E2%80%932000_%28with_1973_highlight%29.svg/1280px-West_Texas_Intermediate_oil_prices_1950%E2%80%932000_%28with_1973_highlight%29.svg.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "alt": "Picture from the Wikipedia article on 1973 oil crisis.",
+        "credit": "Isochrone",
+        "source": "https://commons.wikimedia.org/wiki/File:West_Texas_Intermediate_oil_prices_1950%E2%80%932000_(with_1973_highlight).svg",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0"
       }
     },
     {
-      "id": "11-04-greece-byzantine-emperor",
+      "id": "11-04-wolfgang-amadeus-mozart",
       "date": "11-04",
       "dateLabel": "4 November",
-      "country": "greece",
-      "countryName": "Greece",
-      "kind": "events",
-      "year": 512,
-      "title": "Byzantine emperor",
-      "body": "512: Following Byzantine emperor Anastasius' deposition of Chalcedonian patriarchs and attempts to make Monophysite changes to liturgy, riots break out in Constantinople with a mob trying to proclaim Areobindus as emperor.",
+      "category": "culture",
+      "categoryName": "Culture",
+      "year": 1783,
+      "title": "Wolfgang Amadeus Mozart",
+      "body": "Wolfgang Amadeus Mozart's Symphony No. 36 is performed for the first time in Linz, Austria.",
       "source": {
-        "name": "Wikipedia · List of Byzantine emperors",
-        "url": "https://en.wikipedia.org/wiki/List_of_Byzantine_emperors",
+        "name": "Wikipedia · Wolfgang Amadeus Mozart",
+        "url": "https://en.wikipedia.org/wiki/Wolfgang_Amadeus_Mozart",
         "calendarUrl": "https://en.wikipedia.org/wiki/November_4",
         "license": {
           "name": "CC BY-SA 4.0",
@@ -78,12 +75,12 @@
         }
       },
       "image": {
-        "src": "https://upload.wikimedia.org/wikipedia/commons/b/b6/Konstantinos_XI_Palaiologos_fresco_%28less_edited%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
-        "alt": "Image related to Byzantine emperor.",
-        "credit": "ILoveHirasawaYui",
-        "source": "https://commons.wikimedia.org/wiki/File:Konstantinos_XI_Palaiologos_fresco_(less_edited).jpg",
-        "license": "CC0",
-        "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/deed.en"
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/ad/The_Mozart_Family_-_Wolfgang_Amadeus_Mozart_headshot.jpg/1280px-The_Mozart_Family_-_Wolfgang_Amadeus_Mozart_headshot.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "alt": "Picture from the Wikipedia article on Wolfgang Amadeus Mozart.",
+        "credit": "Johann Nepomuk della Croce",
+        "source": "https://commons.wikimedia.org/wiki/File:The_Mozart_Family_-_Wolfgang_Amadeus_Mozart_headshot.jpg",
+        "license": "Public domain",
+        "licenseUrl": "https://commons.wikimedia.org/wiki/File:The_Mozart_Family_-_Wolfgang_Amadeus_Mozart_headshot.jpg"
       }
     }
   ]

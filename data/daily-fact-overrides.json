@@ -1,88 +1,136 @@
 {
+  "comment": "Editorial seeds. Each takes a slot on its date before anything scored, and the generator fills the rest. See docs/DAILY_FACTS.md. `article` is the source and headline subject; `imageArticle` overrides only where the picture comes from.",
   "facts": [
     {
-      "id": "09-01-spain-sancti-spiritu-falls",
-      "date": "09-01",
-      "dateLabel": "1 September",
-      "country": "spain",
-      "countryName": "Spain",
-      "kind": "events",
-      "year": 1529,
-      "title": "The first Spanish fort in Argentina fell",
-      "body": "In 1529, Indigenous fighters burned Sancti Spiritu, the first Spanish fort built in what is now Argentina.",
-      "source": {
-        "name": "Wikipedia · Sancti Spiritu",
-        "url": "https://en.wikipedia.org/wiki/Sancti_Spiritu_(Argentina)",
-        "calendarUrl": "https://en.wikipedia.org/wiki/September_1",
-        "license": {
-          "name": "CC BY-SA 4.0",
-          "url": "https://creativecommons.org/licenses/by-sa/4.0/"
-        }
-      },
-      "image": {
-        "src": "https://upload.wikimedia.org/wikipedia/commons/3/33/Sebastian_Cabot_-_S._Rawle_after_Hans_Holbein%2C_1824.jpeg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
-        "alt": "An engraved portrait of explorer Sebastian Cabot.",
-        "credit": "Samuel Rawle, after Hans Holbein the Younger",
-        "source": "https://commons.wikimedia.org/wiki/File:Sebastian_Cabot_-_S._Rawle_after_Hans_Holbein,_1824.jpeg",
-        "license": "Public domain",
-        "licenseUrl": "https://commons.wikimedia.org/wiki/File:Sebastian_Cabot_-_S._Rawle_after_Hans_Holbein,_1824.jpeg"
-      }
+      "date": "01-15",
+      "year": 2001,
+      "category": "tech",
+      "article": "Wikipedia",
+      "title": "Wikipedia opens",
+      "body": "An encyclopedia anyone could edit went live, as a side project meant to feed articles to a more serious one written by experts. The serious one closed in 2009.",
+      "alt": "An early screenshot of the Wikipedia main page."
     },
     {
-      "id": "09-01-denmark-neutrality-1939",
-      "date": "09-01",
-      "dateLabel": "1 September",
-      "country": "denmark",
-      "countryName": "Denmark",
-      "kind": "events",
-      "year": 1939,
-      "title": "Denmark declared neutrality",
-      "body": "On 1 September 1939, King Christian X activated Denmark's neutrality rules as war began in Europe. Germany invaded seven months later.",
-      "source": {
-        "name": "Retsinformation · Royal decree 282",
-        "url": "https://www.retsinformation.dk/eli/lta/1939/282",
-        "calendarUrl": "https://www.retsinformation.dk/eli/lta/1939/282",
-        "license": {
-          "name": "Official Danish record",
-          "url": "https://www.retsinformation.dk/"
-        }
-      },
-      "image": {
-        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/9b/Kong_Christian_d._X_%286045750136%29_%282%29.jpg/1280px-Kong_Christian_d._X_%286045750136%29_%282%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-        "alt": "King Christian X riding through Copenhagen during the war years.",
-        "credit": "National Museum of Denmark",
-        "source": "https://commons.wikimedia.org/wiki/File:Kong_Christian_d._X_(6045750136)_(2).jpg",
-        "license": "CC BY-SA 2.0",
-        "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0"
-      }
+      "date": "03-10",
+      "year": 1876,
+      "category": "science",
+      "article": "Telephone",
+      "imageArticle": "Alexander Graham Bell",
+      "title": "The first telephone call",
+      "body": "Alexander Graham Bell made the first successful telephone call, to his assistant in the next room: \"Mr Watson, come here, I want to see you.\"",
+      "alt": "A portrait photograph of Alexander Graham Bell."
     },
     {
-      "id": "09-01-greece-byzantine-new-year",
-      "date": "09-01",
-      "dateLabel": "1 September",
-      "country": "greece",
-      "countryName": "Greece",
-      "kind": "events",
-      "year": 462,
-      "title": "The Byzantine year began today",
-      "body": "For centuries, the Byzantine Empire started its new year on 1 September. The Greek Orthodox church still begins its liturgical year today.",
-      "source": {
-        "name": "Greek Orthodox Archdiocese · Ecclesiastical New Year",
-        "url": "https://www.goarch.org/chapel/saints?contentid=188&language=en",
-        "calendarUrl": "https://www.goarch.org/chapel/saints?contentid=188&language=en",
-        "license": {
-          "name": "Historical reference",
-          "url": "https://www.goarch.org/chapel/saints?contentid=188&language=en"
-        }
-      },
-      "image": {
-        "src": "https://upload.wikimedia.org/wikipedia/commons/2/28/Monreale_creation_Adam.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
-        "alt": "A medieval Byzantine-style mosaic showing the creation of Adam.",
-        "credit": "Unknown medieval artist",
-        "source": "https://commons.wikimedia.org/wiki/File:Monreale_creation_Adam.jpg",
-        "license": "Public domain",
-        "licenseUrl": "https://commons.wikimedia.org/wiki/File:Monreale_creation_Adam.jpg"
-      }
+      "date": "04-23",
+      "year": 2005,
+      "category": "tech",
+      "article": "Me at the zoo",
+      "imageArticle": "Jawed Karim",
+      "title": "Me at the zoo",
+      "body": "YouTube co-founder Jawed Karim posted nineteen seconds of himself standing in front of the elephants at San Diego Zoo. It was the first video ever uploaded to the site.",
+      "alt": "A photograph of YouTube co-founder Jawed Karim."
+    },
+    {
+      "date": "05-11",
+      "year": 1997,
+      "category": "tech",
+      "article": "Deep Blue versus Garry Kasparov",
+      "title": "Deep Blue beats Kasparov",
+      "body": "A chess computer won a full match against a reigning world champion for the first time. Kasparov, convinced no machine could have played that well, accused IBM of hiding a human.",
+      "alt": "A photograph of the Deep Blue chess computer."
+    },
+    {
+      "date": "05-17",
+      "year": 1902,
+      "category": "curious",
+      "article": "Antikythera mechanism",
+      "title": "The Antikythera mechanism",
+      "body": "A Greek archaeologist noticed that a corroded lump raised from a shipwreck was full of gear teeth. It is a two-thousand-year-old machine for predicting eclipses.",
+      "alt": "The largest surviving fragment of the corroded Antikythera mechanism."
+    },
+    {
+      "date": "05-28",
+      "year": 2016,
+      "category": "curious",
+      "article": "Harambe",
+      "imageArticle": "Western lowland gorilla",
+      "title": "Harambe",
+      "body": "A gorilla at Cincinnati Zoo was shot after a three-year-old boy climbed into his enclosure. The argument about whether it was necessary turned into a meme that outlasted the news by years.",
+      "alt": "A western lowland gorilla, the subspecies Harambe belonged to."
+    },
+    {
+      "date": "06-29",
+      "year": 2007,
+      "category": "tech",
+      "article": "IPhone (1st generation)",
+      "imageArticle": "History of the iPhone",
+      "title": "The iPhone goes on sale",
+      "body": "People queued outside Apple stores for days for a phone that could not send a picture message, record video, or run any software but Apple's own. The app store was a year away.",
+      "alt": "Steve Jobs presenting the original iPhone on stage."
+    },
+    {
+      "date": "08-01",
+      "year": 1981,
+      "category": "culture",
+      "article": "MTV",
+      "title": "MTV signs on",
+      "body": "The channel opened with \"Video Killed the Radio Star\" by The Buggles. Hardly anyone saw it: MTV was not carried in New York or Los Angeles, so the launch party watched on a feed from New Jersey.",
+      "alt": "The MTV logo used by the music television channel."
+    },
+    {
+      "date": "09-09",
+      "year": 1947,
+      "category": "curious",
+      "article": "Software bug",
+      "imageFile": "H96566k.jpg",
+      "title": "The first computer bug",
+      "body": "Operators found a moth stuck in a relay of the Harvard Mark II. They taped it into the logbook and wrote underneath it: \"First actual case of bug being found.\"",
+      "alt": "A page from a computer logbook, illustrating the history of software bugs."
+    },
+    {
+      "date": "09-19",
+      "year": 1982,
+      "category": "tech",
+      "article": "Emoticon",
+      "title": "The first :-)",
+      "body": "Scott Fahlman suggested :-) and :-( on a Carnegie Mellon message board, so people could tell which posts were jokes. The original message was lost for twenty years, then found on a backup tape.",
+      "alt": "A smiley face, the symbol the first emoticon was drawn to represent."
+    },
+    {
+      "date": "10-29",
+      "year": 1969,
+      "category": "tech",
+      "article": "ARPANET",
+      "title": "The first message online",
+      "body": "The first computer-to-computer message was sent from Los Angeles to Stanford over ARPANET. It was meant to say LOGIN. The system crashed after LO.",
+      "alt": "A logical map of the early ARPANET computer network."
+    },
+    {
+      "date": "11-09",
+      "year": 1989,
+      "category": "world",
+      "article": "Fall of the Berlin Wall",
+      "title": "The Berlin Wall opens",
+      "body": "An East German spokesman, misreading a note at a press conference, said the border was open immediately. Crowds went to the checkpoints to find out, and the guards let them through.",
+      "alt": "Crowds of West and East Germans at the Brandenburg Gate in 1989."
+    },
+    {
+      "date": "12-03",
+      "year": 1992,
+      "category": "tech",
+      "article": "SMS",
+      "title": "The first text message",
+      "body": "An engineer typed \"Merry Christmas\" on a computer and sent it to a colleague's phone. Phones of the day could receive a text message but had no way to write one back.",
+      "alt": "A mobile phone showing a received text message."
+    },
+    {
+      "date": "12-09",
+      "year": 1968,
+      "category": "tech",
+      "article": "The Mother of All Demos",
+      "title": "The Mother of All Demos",
+      "body": "Douglas Engelbart spent ninety minutes demonstrating the computer mouse, hypertext links, video calling and two people editing one document at once. Most of it took another twenty-five years to arrive.",
+      "alt": "Douglas Engelbart during his 1968 computing demonstration."
     }
   ]
 }

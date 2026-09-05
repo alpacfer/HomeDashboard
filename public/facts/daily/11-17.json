@@ -3,18 +3,17 @@
   "dateLabel": "17 November",
   "facts": [
     {
-      "id": "11-17-spain-henry-viii",
+      "id": "11-17-lunokhod-1",
       "date": "11-17",
       "dateLabel": "17 November",
-      "country": "spain",
-      "countryName": "Spain",
-      "kind": "events",
-      "year": 1511,
-      "title": "Henry VIII",
-      "body": "1511: Henry VIII of England concludes the Treaty of Westminster, a pledge of mutual aid against the French, with Ferdinand II of Aragon.",
+      "category": "space",
+      "categoryName": "Space",
+      "year": 1970,
+      "title": "Lunokhod 1",
+      "body": "The Soviet Union lands Lunokhod 1 on Mare Imbrium (Sea of Rains) on the Moon. This is the first roving remote-controlled robot to land on another world and is released by the orbiting Luna 17 spacecraft.",
       "source": {
-        "name": "Wikipedia · Henry VIII",
-        "url": "https://en.wikipedia.org/wiki/Henry_VIII",
+        "name": "Wikipedia · Lunokhod 1",
+        "url": "https://en.wikipedia.org/wiki/Lunokhod_1",
         "calendarUrl": "https://en.wikipedia.org/wiki/November_17",
         "license": {
           "name": "CC BY-SA 4.0",
@@ -22,27 +21,53 @@
         }
       },
       "image": {
-        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f9/After_Hans_Holbein_the_Younger_-_Portrait_of_Henry_VIII_-_Google_Art_Project.jpg/1280px-After_Hans_Holbein_the_Younger_-_Portrait_of_Henry_VIII_-_Google_Art_Project.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-        "alt": "Image related to Henry VIII.",
-        "credit": "Workshop of Hans Holbein the Younger",
-        "source": "https://commons.wikimedia.org/wiki/File:After_Hans_Holbein_the_Younger_-_Portrait_of_Henry_VIII_-_Google_Art_Project.jpg",
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/79/Soviet_moonrover.JPG/1280px-Soviet_moonrover.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "alt": "Picture from the Wikipedia article on Lunokhod 1.",
+        "credit": "Petar Milošević",
+        "source": "https://commons.wikimedia.org/wiki/File:Soviet_moonrover.JPG",
+        "license": "CC BY-SA 3.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0"
+      }
+    },
+    {
+      "id": "11-17-nathaniel-palmer",
+      "date": "11-17",
+      "dateLabel": "17 November",
+      "category": "science",
+      "categoryName": "Science",
+      "year": 1820,
+      "title": "Nathaniel Palmer",
+      "body": "Captain Nathaniel Palmer becomes the first American to see Antarctica. (The Palmer Peninsula is later named after him.)",
+      "source": {
+        "name": "Wikipedia · Nathaniel Palmer",
+        "url": "https://en.wikipedia.org/wiki/Nathaniel_Palmer",
+        "calendarUrl": "https://en.wikipedia.org/wiki/November_17",
+        "license": {
+          "name": "CC BY-SA 4.0",
+          "url": "https://creativecommons.org/licenses/by-sa/4.0/"
+        }
+      },
+      "image": {
+        "src": "https://upload.wikimedia.org/wikipedia/commons/7/7e/Nathaniel_Palmer.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+        "alt": "Picture from the Wikipedia article on Nathaniel Palmer.",
+        "credit": "Unknown author",
+        "source": "https://commons.wikimedia.org/wiki/File:Nathaniel_Palmer.jpg",
         "license": "Public domain",
-        "licenseUrl": "https://commons.wikimedia.org/wiki/File:After_Hans_Holbein_the_Younger_-_Portrait_of_Henry_VIII_-_Google_Art_Project.jpg"
+        "licenseUrl": "https://commons.wikimedia.org/wiki/File:Nathaniel_Palmer.jpg"
       }
     },
     {
-      "id": "11-17-denmark-vickers-viscount",
+      "id": "11-17-heidi-game",
       "date": "11-17",
       "dateLabel": "17 November",
-      "country": "denmark",
-      "countryName": "Denmark",
-      "kind": "events",
-      "year": 1957,
-      "title": "Vickers Viscount",
-      "body": "1957: Vickers Viscount G-AOHP of British European Airways crashes at Ballerup after the failure of three engines on approach to Copenhagen Airport. The cause is a malfunction of the anti-icing system on the aircraft. There are no fatalities.",
+      "category": "sport",
+      "categoryName": "Sport",
+      "year": 1968,
+      "title": "Heidi Game",
+      "body": "Viewers of the Raiders–Jets football game in the eastern United States are denied the opportunity to watch its exciting finish when NBC broadcasts Heidi instead, prompting changes to sports broadcasting in the U.S.",
       "source": {
-        "name": "Wikipedia · Vickers Viscount",
-        "url": "https://en.wikipedia.org/wiki/Vickers_Viscount",
+        "name": "Wikipedia · Heidi Game",
+        "url": "https://en.wikipedia.org/wiki/Heidi_Game",
         "calendarUrl": "https://en.wikipedia.org/wiki/November_17",
         "license": {
           "name": "CC BY-SA 4.0",
@@ -50,40 +75,12 @@
         }
       },
       "image": {
-        "src": "https://upload.wikimedia.org/wikipedia/commons/e/e1/Cambrian_Airways_Vickers_Viscount_Manteufel-5.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
-        "alt": "Image related to Vickers Viscount.",
-        "credit": "Ralf Manteufel",
-        "source": "https://commons.wikimedia.org/wiki/File:Cambrian_Airways_Vickers_Viscount_Manteufel-5.jpg",
-        "license": "GFDL 1.2",
-        "licenseUrl": "https://www.gnu.org/licenses/old-licenses/fdl-1.2.html"
-      }
-    },
-    {
-      "id": "11-17-greece-athens-polytechnic-uprising",
-      "date": "11-17",
-      "dateLabel": "17 November",
-      "country": "greece",
-      "countryName": "Greece",
-      "kind": "events",
-      "year": 1973,
-      "title": "Athens Polytechnic uprising",
-      "body": "1973: The Athens Polytechnic uprising against the military regime ends in a bloodshed in the Greek capital.",
-      "source": {
-        "name": "Wikipedia · Athens Polytechnic uprising",
-        "url": "https://en.wikipedia.org/wiki/Athens_Polytechnic_uprising",
-        "calendarUrl": "https://en.wikipedia.org/wiki/November_17",
-        "license": {
-          "name": "CC BY-SA 4.0",
-          "url": "https://creativecommons.org/licenses/by-sa/4.0/"
-        }
-      },
-      "image": {
-        "src": "https://upload.wikimedia.org/wikipedia/commons/d/d1/Athens_Polytechnic_1973.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
-        "alt": "Image related to Athens Polytechnic uprising.",
-        "credit": "Unknown authorUnknown author",
-        "source": "https://commons.wikimedia.org/wiki/File:Athens_Polytechnic_1973.png",
-        "license": "CC BY-SA 4.0",
-        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0"
+        "src": "https://upload.wikimedia.org/wikipedia/commons/4/44/Heidi_Game_program.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+        "alt": "Picture from the Wikipedia article on Heidi Game.",
+        "credit": "Scanned by a Hall of Fame employee (name available on serious request, trying to preserve privacy here)",
+        "source": "https://commons.wikimedia.org/wiki/File:Heidi_Game_program.jpg",
+        "license": "Public domain",
+        "licenseUrl": "https://commons.wikimedia.org/wiki/File:Heidi_Game_program.jpg"
       }
     }
   ]

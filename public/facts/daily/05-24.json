@@ -3,18 +3,17 @@
   "dateLabel": "24 May",
   "facts": [
     {
-      "id": "05-24-spain-french-royal-army-1652-1830",
+      "id": "05-24-astronaut",
       "date": "05-24",
       "dateLabel": "24 May",
-      "country": "spain",
-      "countryName": "Spain",
-      "kind": "events",
-      "year": 1667,
-      "title": "French Royal Army",
-      "body": "1667: The French Royal Army crosses the border into the Spanish Netherlands, starting the War of Devolution opposing France to the Spanish Empire and the Triple Alliance.",
+      "category": "space",
+      "categoryName": "Space",
+      "year": 1962,
+      "title": "Astronaut",
+      "body": "American astronaut Scott Carpenter orbits the Earth three times in the Aurora 7 space capsule.",
       "source": {
-        "name": "Wikipedia · French Royal Army",
-        "url": "https://en.wikipedia.org/wiki/French_Royal_Army",
+        "name": "Wikipedia · Astronaut",
+        "url": "https://en.wikipedia.org/wiki/Astronaut",
         "calendarUrl": "https://en.wikipedia.org/wiki/May_24",
         "license": {
           "name": "CC BY-SA 4.0",
@@ -22,68 +21,66 @@
         }
       },
       "image": {
-        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/bc/Grand_Royal_Coat_of_Arms_of_France.svg/1280px-Grand_Royal_Coat_of_Arms_of_France.svg.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-        "alt": "Image related to French Royal Army.",
-        "credit": "Own work based on: FranceRoyale.jpg and Collier de l'ordre du Saint-Esprit.jpg; and Image from L'Etat de la France, (Page 28), 1789.",
-        "source": "https://commons.wikimedia.org/wiki/File:Grand_Royal_Coat_of_Arms_of_France.svg",
-        "license": "CC BY-SA 3.0",
-        "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0"
-      }
-    },
-    {
-      "id": "05-24-denmark-world-war-ii",
-      "date": "05-24",
-      "dateLabel": "24 May",
-      "country": "denmark",
-      "countryName": "Denmark",
-      "kind": "events",
-      "year": 1941,
-      "title": "World War II",
-      "body": "1941: World War II: Battle of the Atlantic: In the Battle of the Denmark Strait, the German battleship Bismarck sinks the pride of the Royal Navy,, killing all but three crewmen.",
-      "source": {
-        "name": "Wikipedia · World War II",
-        "url": "https://en.wikipedia.org/wiki/World_War_II",
-        "calendarUrl": "https://en.wikipedia.org/wiki/May_24",
-        "license": {
-          "name": "CC BY-SA 4.0",
-          "url": "https://creativecommons.org/licenses/by-sa/4.0/"
-        }
-      },
-      "image": {
-        "src": "https://upload.wikimedia.org/wikipedia/commons/1/10/Bundesarchiv_Bild_101I-646-5188-17%2C_Flugzeuge_Junkers_Ju_87.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
-        "alt": "Image related to World War II.",
-        "credit": "Bundesarchiv, Bild 101I-646-5188-17 / Opitz / CC-BY-SA 3.0",
-        "source": "https://commons.wikimedia.org/wiki/File:Bundesarchiv_Bild_101I-646-5188-17,_Flugzeuge_Junkers_Ju_87.jpg",
-        "license": "CC BY-SA 3.0 de",
-        "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0/de/deed.en"
-      }
-    },
-    {
-      "id": "05-24-greece-first-kingdom-of-greece",
-      "date": "05-24",
-      "dateLabel": "24 May",
-      "country": "greece",
-      "countryName": "Greece",
-      "kind": "events",
-      "year": 1832,
-      "title": "First Kingdom of Greece",
-      "body": "1832: The First Kingdom of Greece is declared in the London Conference.",
-      "source": {
-        "name": "Wikipedia · Kingdom of Greece",
-        "url": "https://en.wikipedia.org/wiki/Kingdom_of_Greece",
-        "calendarUrl": "https://en.wikipedia.org/wiki/May_24",
-        "license": {
-          "name": "CC BY-SA 4.0",
-          "url": "https://creativecommons.org/licenses/by-sa/4.0/"
-        }
-      },
-      "image": {
-        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a5/State_Flag_of_Greece_%281863-1924_and_1935-1973%29.svg/1280px-State_Flag_of_Greece_%281863-1924_and_1935-1973%29.svg.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-        "alt": "Image related to First Kingdom of Greece.",
-        "credit": "User:peeperman",
-        "source": "https://commons.wikimedia.org/wiki/File:State_Flag_of_Greece_(1863-1924_and_1935-1973).svg",
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/91/Bruce_McCandless_II_during_EVA_in_1984.jpg/1280px-Bruce_McCandless_II_during_EVA_in_1984.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "alt": "Picture from the Wikipedia article on Astronaut.",
+        "credit": "NASA",
+        "source": "https://commons.wikimedia.org/wiki/File:Bruce_McCandless_II_during_EVA_in_1984.jpg",
         "license": "Public domain",
-        "licenseUrl": "https://commons.wikimedia.org/wiki/File:State_Flag_of_Greece_(1863-1924_and_1935-1973).svg"
+        "licenseUrl": "https://commons.wikimedia.org/wiki/File:Bruce_McCandless_II_during_EVA_in_1984.jpg"
+      }
+    },
+    {
+      "id": "05-24-amy-johnson",
+      "date": "05-24",
+      "dateLabel": "24 May",
+      "category": "world",
+      "categoryName": "World",
+      "year": 1930,
+      "title": "Amy Johnson",
+      "body": "Amy Johnson lands in Darwin, Northern Territory, becoming the first woman to fly solo from England to Australia (she left on May 5 for the 11,000 mile flight).",
+      "source": {
+        "name": "Wikipedia · Amy Johnson",
+        "url": "https://en.wikipedia.org/wiki/Amy_Johnson",
+        "calendarUrl": "https://en.wikipedia.org/wiki/May_24",
+        "license": {
+          "name": "CC BY-SA 4.0",
+          "url": "https://creativecommons.org/licenses/by-sa/4.0/"
+        }
+      },
+      "image": {
+        "src": "https://upload.wikimedia.org/wikipedia/commons/b/b0/Amy_Johnson_%28Our_Generation%2C_1938%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+        "alt": "Picture from the Wikipedia article on Amy Johnson.",
+        "credit": "Andy Dingley (scanner)",
+        "source": "https://commons.wikimedia.org/wiki/File:Amy_Johnson_(Our_Generation,_1938).jpg",
+        "license": "Public domain",
+        "licenseUrl": "https://commons.wikimedia.org/wiki/File:Amy_Johnson_(Our_Generation,_1938).jpg"
+      }
+    },
+    {
+      "id": "05-24-khorramshahr",
+      "date": "05-24",
+      "dateLabel": "24 May",
+      "category": "world",
+      "categoryName": "World",
+      "year": 1982,
+      "title": "Khorramshahr",
+      "body": "Iranians recapture the port city of Khorramshahr from the Iraqis during the Iran–Iraq War.",
+      "source": {
+        "name": "Wikipedia · Khorramshahr",
+        "url": "https://en.wikipedia.org/wiki/Khorramshahr",
+        "calendarUrl": "https://en.wikipedia.org/wiki/May_24",
+        "license": {
+          "name": "CC BY-SA 4.0",
+          "url": "https://creativecommons.org/licenses/by-sa/4.0/"
+        }
+      },
+      "image": {
+        "src": "https://upload.wikimedia.org/wikipedia/commons/a/a6/Nowruz_2018_in_Khorramshahr_%2813970109000585636579510470063573_33197%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+        "alt": "Picture from the Wikipedia article on Khorramshahr.",
+        "credit": "Fars Media Corporation",
+        "source": "https://commons.wikimedia.org/wiki/File:Nowruz_2018_in_Khorramshahr_(13970109000585636579510470063573_33197).jpg",
+        "license": "CC BY 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by/4.0"
       }
     }
   ]

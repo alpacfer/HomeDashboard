@@ -3,18 +3,17 @@
   "dateLabel": "23 June",
   "facts": [
     {
-      "id": "06-23-spain-reconquista",
+      "id": "06-23-space-station-processing-facility",
       "date": "06-23",
       "dateLabel": "23 June",
-      "country": "spain",
-      "countryName": "Spain",
-      "kind": "events",
-      "year": 1280,
-      "title": "Spanish Reconquista",
-      "body": "1280: The Spanish Reconquista: In the Battle of Moclín the Emirate of Granada ambush a superior pursuing force, killing most of them in a military disaster for the Kingdom of Castile.",
+      "category": "space",
+      "categoryName": "Space",
+      "year": 1994,
+      "title": "Space Systems Processing Facility",
+      "body": "NASA's Space Station Processing Facility, a new state-of-the-art manufacturing building for the International Space Station, officially opens at Kennedy Space Center.",
       "source": {
-        "name": "Wikipedia · Reconquista",
-        "url": "https://en.wikipedia.org/wiki/Reconquista",
+        "name": "Wikipedia · Space Systems Processing Facility",
+        "url": "https://en.wikipedia.org/wiki/Space_Systems_Processing_Facility",
         "calendarUrl": "https://en.wikipedia.org/wiki/June_23",
         "license": {
           "name": "CC BY-SA 4.0",
@@ -22,27 +21,26 @@
         }
       },
       "image": {
-        "src": "https://upload.wikimedia.org/wikipedia/commons/3/3a/Cantigas_battle.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
-        "alt": "Image related to Spanish Reconquista.",
-        "credit": "Creator:Abdula",
-        "source": "https://commons.wikimedia.org/wiki/File:Cantigas_battle.jpg",
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b1/SSPF_interior.jpg/1280px-SSPF_interior.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "alt": "Picture from the Wikipedia article on Space Systems Processing Facility.",
+        "credit": "NASA/Kennedy Space Center",
+        "source": "https://commons.wikimedia.org/wiki/File:SSPF_interior.jpg",
         "license": "Public domain",
-        "licenseUrl": "https://commons.wikimedia.org/wiki/File:Cantigas_battle.jpg"
+        "licenseUrl": "https://commons.wikimedia.org/wiki/File:SSPF_interior.jpg"
       }
     },
     {
-      "id": "06-23-denmark-margaret-of-denmark-queen-of-scotland",
+      "id": "06-23-nik-wallenda",
       "date": "06-23",
       "dateLabel": "23 June",
-      "country": "denmark",
-      "countryName": "Denmark",
-      "kind": "births",
-      "year": 1456,
-      "title": "Margaret of Denmark, Queen of Scotland",
-      "body": "Margaret of Denmark, Queen of Scotland, (died 1486), was born on this day in 1456.",
+      "category": "world",
+      "categoryName": "World",
+      "year": 2013,
+      "title": "Nik Wallenda",
+      "body": "Nik Wallenda becomes the first man to successfully walk across the Grand Canyon on a tight rope.",
       "source": {
-        "name": "Wikipedia · Margaret of Denmark, Queen of Scotland",
-        "url": "https://en.wikipedia.org/wiki/Margaret_of_Denmark%2C_Queen_of_Scotland",
+        "name": "Wikipedia · Nik Wallenda",
+        "url": "https://en.wikipedia.org/wiki/Nik_Wallenda",
         "calendarUrl": "https://en.wikipedia.org/wiki/June_23",
         "license": {
           "name": "CC BY-SA 4.0",
@@ -50,27 +48,26 @@
         }
       },
       "image": {
-        "src": "https://upload.wikimedia.org/wikipedia/commons/c/ca/Margaret_of_Scotland_%281469%29_by_Hugo_van_der_Goes.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
-        "alt": "Portrait or image of Margaret of Denmark, Queen of Scotland.",
-        "credit": "Hugo van der Goes",
-        "source": "https://commons.wikimedia.org/wiki/File:Margaret_of_Scotland_(1469)_by_Hugo_van_der_Goes.jpg",
-        "license": "Public domain",
-        "licenseUrl": "https://commons.wikimedia.org/wiki/File:Margaret_of_Scotland_(1469)_by_Hugo_van_der_Goes.jpg"
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/4b/Nik-Wallenda-Skyscraper-Live.jpg/1280px-Nik-Wallenda-Skyscraper-Live.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "alt": "Picture from the Wikipedia article on Nik Wallenda.",
+        "credit": "Alex Goykhman",
+        "source": "https://commons.wikimedia.org/wiki/File:Nik-Wallenda-Skyscraper-Live.jpg",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0"
       }
     },
     {
-      "id": "06-23-greece-costas-simitis",
+      "id": "06-23-ashton-eaton",
       "date": "06-23",
       "dateLabel": "23 June",
-      "country": "greece",
-      "countryName": "Greece",
-      "kind": "births",
-      "year": 1936,
-      "title": "Costas Simitis",
-      "body": "Costas Simitis, Greek economist, lawyer, and politician, 180th Prime Minister of Greece (died 2025), was born on this day in 1936.",
+      "category": "sport",
+      "categoryName": "Sport",
+      "year": 2012,
+      "title": "Ashton Eaton",
+      "body": "Ashton Eaton breaks the decathlon world record at the United States Olympic Trials.",
       "source": {
-        "name": "Wikipedia · Costas Simitis",
-        "url": "https://en.wikipedia.org/wiki/Costas_Simitis",
+        "name": "Wikipedia · Ashton Eaton",
+        "url": "https://en.wikipedia.org/wiki/Ashton_Eaton",
         "calendarUrl": "https://en.wikipedia.org/wiki/June_23",
         "license": {
           "name": "CC BY-SA 4.0",
@@ -78,12 +75,12 @@
         }
       },
       "image": {
-        "src": "https://upload.wikimedia.org/wikipedia/commons/0/05/Costas_Simitis_2003.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
-        "alt": "Portrait or image of Costas Simitis.",
-        "credit": "© European Union, 2026",
-        "source": "https://commons.wikimedia.org/wiki/File:Costas_Simitis_2003.jpg",
-        "license": "CC BY 4.0",
-        "licenseUrl": "https://creativecommons.org/licenses/by/4.0"
+        "src": "https://upload.wikimedia.org/wikipedia/commons/e/ef/Ashton_Eaton_2_Daegu_2011.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+        "alt": "Picture from the Wikipedia article on Ashton Eaton.",
+        "credit": "Erik van Leeuwen",
+        "source": "https://commons.wikimedia.org/wiki/File:Ashton_Eaton_2_Daegu_2011.jpg",
+        "license": "GFDL",
+        "licenseUrl": "https://www.gnu.org/copyleft/fdl.html"
       }
     }
   ]

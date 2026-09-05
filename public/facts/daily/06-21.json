@@ -3,18 +3,17 @@
   "dateLabel": "21 June",
   "facts": [
     {
-      "id": "06-21-spain-kingdom-of-france",
+      "id": "06-21-spaceshipone",
       "date": "06-21",
       "dateLabel": "21 June",
-      "country": "spain",
-      "countryName": "Spain",
-      "kind": "events",
-      "year": 1529,
-      "title": "French",
-      "body": "1529: French forces are driven out of northern Italy by Spain at the Battle of Landriano during the War of the League of Cognac.",
+      "category": "space",
+      "categoryName": "Space",
+      "year": 2004,
+      "title": "SpaceShipOne",
+      "body": "SpaceShipOne becomes the first privately funded spaceplane to achieve spaceflight.",
       "source": {
-        "name": "Wikipedia · Kingdom of France",
-        "url": "https://en.wikipedia.org/wiki/Kingdom_of_France",
+        "name": "Wikipedia · SpaceShipOne",
+        "url": "https://en.wikipedia.org/wiki/SpaceShipOne",
         "calendarUrl": "https://en.wikipedia.org/wiki/June_21",
         "license": {
           "name": "CC BY-SA 4.0",
@@ -22,27 +21,26 @@
         }
       },
       "image": {
-        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/9a/Royal_Standard_of_the_King_of_France.svg/1280px-Royal_Standard_of_the_King_of_France.svg.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-        "alt": "Image related to French.",
-        "credit": "Sodacan",
-        "source": "https://commons.wikimedia.org/wiki/File:Royal_Standard_of_the_King_of_France.svg",
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/93/SpaceShipOne_Flight_15P_photo_Don_Ramey_Logan.jpg/1280px-SpaceShipOne_Flight_15P_photo_Don_Ramey_Logan.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "alt": "Picture from the Wikipedia article on SpaceShipOne.",
+        "credit": "Photograph by Don Ramey Logan",
+        "source": "https://commons.wikimedia.org/wiki/File:SpaceShipOne_Flight_15P_photo_Don_Ramey_Logan.jpg",
         "license": "CC BY-SA 3.0",
         "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0"
       }
     },
     {
-      "id": "06-21-denmark-jeremy-coney",
+      "id": "06-21-u-s-supreme-court",
       "date": "06-21",
       "dateLabel": "21 June",
-      "country": "denmark",
-      "countryName": "Denmark",
-      "kind": "births",
-      "year": 1952,
-      "title": "Jeremy Coney",
-      "body": "Jeremy Coney, New Zealand cricketer and sportscaster, was born on this day in 1952.",
+      "category": "world",
+      "categoryName": "World",
+      "year": 1989,
+      "title": "Supreme Court of the United States",
+      "body": "The U.S. Supreme Court rules in Texas v. Johnson, 491 U.S. 397, that American flag-burning is a form of political protest protected by the First Amendment.",
       "source": {
-        "name": "Wikipedia · Jeremy Coney",
-        "url": "https://en.wikipedia.org/wiki/Jeremy_Coney",
+        "name": "Wikipedia · Supreme Court of the United States",
+        "url": "https://en.wikipedia.org/wiki/Supreme_Court_of_the_United_States",
         "calendarUrl": "https://en.wikipedia.org/wiki/June_21",
         "license": {
           "name": "CC BY-SA 4.0",
@@ -50,27 +48,26 @@
         }
       },
       "image": {
-        "src": "https://upload.wikimedia.org/wikipedia/commons/8/8b/Jeremy_Coney%2C_1987.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
-        "alt": "Portrait or image of Jeremy Coney.",
-        "credit": "Unknown photographer",
-        "source": "https://commons.wikimedia.org/wiki/File:Jeremy_Coney,_1987.jpg",
-        "license": "CC BY 3.0 nz",
-        "licenseUrl": "https://creativecommons.org/licenses/by/3.0/nz/deed.en"
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f3/Seal_of_the_United_States_Supreme_Court.svg/1280px-Seal_of_the_United_States_Supreme_Court.svg.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "alt": "Picture from the Wikipedia article on Supreme Court of the United States.",
+        "credit": "Original: Optimager Vector: Ipankonin",
+        "source": "https://commons.wikimedia.org/wiki/File:Seal_of_the_United_States_Supreme_Court.svg",
+        "license": "Public domain",
+        "licenseUrl": "https://commons.wikimedia.org/wiki/File:Seal_of_the_United_States_Supreme_Court.svg"
       }
     },
     {
-      "id": "06-21-greece-belisarius",
+      "id": "06-21-pluto",
       "date": "06-21",
       "dateLabel": "21 June",
-      "country": "greece",
-      "countryName": "Greece",
-      "kind": "events",
-      "year": 533,
-      "title": "Belisarios",
-      "body": "533: A Byzantine expeditionary fleet under Belisarios sails from Constantinople to attack the Vandals in Africa, via Greece and Sicily.",
+      "category": "space",
+      "categoryName": "Space",
+      "year": 2006,
+      "title": "Pluto",
+      "body": "Pluto's newly discovered moons are officially named Nix and Hydra.",
       "source": {
-        "name": "Wikipedia · Belisarius",
-        "url": "https://en.wikipedia.org/wiki/Belisarius",
+        "name": "Wikipedia · Pluto",
+        "url": "https://en.wikipedia.org/wiki/Pluto",
         "calendarUrl": "https://en.wikipedia.org/wiki/June_21",
         "license": {
           "name": "CC BY-SA 4.0",
@@ -78,12 +75,12 @@
         }
       },
       "image": {
-        "src": "https://upload.wikimedia.org/wikipedia/commons/8/8b/Belisarius_mosaic.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
-        "alt": "Image related to Belisarios.",
-        "credit": "Petar Milošević",
-        "source": "https://commons.wikimedia.org/wiki/File:Belisarius_mosaic.jpg",
-        "license": "CC BY-SA 4.0",
-        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0"
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/ca/Pluto_in_True_Color_-_High-Res.png/1280px-Pluto_in_True_Color_-_High-Res.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "alt": "Picture from the Wikipedia article on Pluto.",
+        "credit": "NASA/Johns Hopkins University Applied Physics Laboratory/Southwest Research Institute/Alex Parker",
+        "source": "https://commons.wikimedia.org/wiki/File:Pluto_in_True_Color_-_High-Res.png",
+        "license": "Public domain",
+        "licenseUrl": "https://commons.wikimedia.org/wiki/File:Pluto_in_True_Color_-_High-Res.png"
       }
     }
   ]

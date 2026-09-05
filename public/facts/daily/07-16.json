@@ -3,18 +3,17 @@
   "dateLabel": "16 July",
   "facts": [
     {
-      "id": "07-16-spain-arjona-spain",
+      "id": "07-16-j-d-salinger",
       "date": "07-16",
       "dateLabel": "16 July",
-      "country": "spain",
-      "countryName": "Spain",
-      "kind": "events",
-      "year": 1232,
-      "title": "Arjona",
-      "body": "1232: The Spanish town of Arjona declares independence and names its native Muhammad ibn Yusuf as ruler. This marks the Muhammad's first rise to prominence; he later established the Nasrid Emirate of Granada, the last independent Muslim state in Spain.",
+      "category": "culture",
+      "categoryName": "Culture",
+      "year": 1951,
+      "title": "J. D. Salinger",
+      "body": "J. D. Salinger publishes his popular yet controversial novel, The Catcher in the Rye.",
       "source": {
-        "name": "Wikipedia · Arjona, Spain",
-        "url": "https://en.wikipedia.org/wiki/Arjona%2C_Spain",
+        "name": "Wikipedia · J. D. Salinger",
+        "url": "https://en.wikipedia.org/wiki/J._D._Salinger",
         "calendarUrl": "https://en.wikipedia.org/wiki/July_16",
         "license": {
           "name": "CC BY-SA 4.0",
@@ -22,55 +21,26 @@
         }
       },
       "image": {
-        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/23/Arjona%2C_Andalucia%2C_Espa%C3%B1a_-_52548512060.jpg/1280px-Arjona%2C_Andalucia%2C_Espa%C3%B1a_-_52548512060.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-        "alt": "Image related to Arjona.",
-        "credit": "Pom'",
-        "source": "https://commons.wikimedia.org/wiki/File:Arjona,_Andalucia,_Espa%C3%B1a_-_52548512060.jpg",
-        "license": "CC BY-SA 2.0",
-        "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0"
-      }
-    },
-    {
-      "id": "07-16-denmark-daylight",
-      "date": "07-16",
-      "dateLabel": "16 July",
-      "country": "denmark",
-      "countryName": "Denmark",
-      "kind": "daylight",
-      "year": 0,
-      "title": "Copenhagen's daylight",
-      "body": "On 16 July, Copenhagen gets about 16 hours and 55 minutes of daylight.",
-      "source": {
-        "name": "NOAA Solar Calculator",
-        "url": "https://gml.noaa.gov/grad/solcalc/",
-        "calendarUrl": "https://gml.noaa.gov/grad/solcalc/calcdetails.html",
-        "license": {
-          "name": "public-domain NOAA method",
-          "url": "https://www.noaa.gov/disclaimer"
-        }
-      },
-      "image": {
-        "src": "https://commons.wikimedia.org/wiki/Special:Redirect/file/Flag_of_Denmark.svg?width=1000",
-        "alt": "The national flag of Denmark.",
-        "credit": "Danish government",
-        "source": "https://commons.wikimedia.org/wiki/File:Flag_of_Denmark.svg",
+        "src": "https://upload.wikimedia.org/wikipedia/commons/9/93/J._D._Salinger_%28Catcher_in_the_Rye_portrait%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+        "alt": "Picture from the Wikipedia article on J. D. Salinger.",
+        "credit": "Photo by Lotte Jacobi, per a credit in the bottom-left corner of the original dust jacket's back cover. Published by Little, Brown and Company",
+        "source": "https://commons.wikimedia.org/wiki/File:J._D._Salinger_(Catcher_in_the_Rye_portrait).jpg",
         "license": "Public domain",
-        "licenseUrl": "https://commons.wikimedia.org/wiki/File:Flag_of_Denmark.svg"
+        "licenseUrl": "https://commons.wikimedia.org/wiki/File:J._D._Salinger_(Catcher_in_the_Rye_portrait).jpg"
       }
     },
     {
-      "id": "07-16-greece-battle-of-spercheios",
+      "id": "07-16-apollo-11",
       "date": "07-16",
       "dateLabel": "16 July",
-      "country": "greece",
-      "countryName": "Greece",
-      "kind": "events",
-      "year": 997,
-      "title": "Battle of Spercheios",
-      "body": "997: Battle of Spercheios: Bulgarian forces of Tsar Samuel are defeated by a Byzantine army under general Nikephoros Ouranos at the Spercheios River in Greece.",
+      "category": "space",
+      "categoryName": "Space",
+      "year": 1969,
+      "title": "Apollo 11",
+      "body": "The Apollo 11 lunar landing mission is launched from Cape Kennedy in Florida, USA.",
       "source": {
-        "name": "Wikipedia · Battle of Spercheios",
-        "url": "https://en.wikipedia.org/wiki/Battle_of_Spercheios",
+        "name": "Wikipedia · Apollo 11",
+        "url": "https://en.wikipedia.org/wiki/Apollo_11",
         "calendarUrl": "https://en.wikipedia.org/wiki/July_16",
         "license": {
           "name": "CC BY-SA 4.0",
@@ -78,12 +48,39 @@
         }
       },
       "image": {
-        "src": "https://upload.wikimedia.org/wikipedia/commons/a/a5/Skylitzes-Ouranos_kills_Bulgarians.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
-        "alt": "Image related to Battle of Spercheios.",
-        "credit": "Johannes Skylitzes",
-        "source": "https://commons.wikimedia.org/wiki/File:Skylitzes-Ouranos_kills_Bulgarians.jpg",
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/41/A_Man_on_the_Moon%2C_AS11-40-5903_%28cropped%29.jpg/1280px-A_Man_on_the_Moon%2C_AS11-40-5903_%28cropped%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "alt": "Picture from the Wikipedia article on Apollo 11.",
+        "credit": "Neil A. Armstrong",
+        "source": "https://commons.wikimedia.org/wiki/File:A_Man_on_the_Moon,_AS11-40-5903_(cropped).jpg",
         "license": "Public domain",
-        "licenseUrl": "https://commons.wikimedia.org/wiki/File:Skylitzes-Ouranos_kills_Bulgarians.jpg"
+        "licenseUrl": "https://commons.wikimedia.org/wiki/File:A_Man_on_the_Moon,_AS11-40-5903_(cropped).jpg"
+      }
+    },
+    {
+      "id": "07-16-john-robertson-duigan",
+      "date": "07-16",
+      "dateLabel": "16 July",
+      "category": "world",
+      "categoryName": "World",
+      "year": 1910,
+      "title": "John Robertson Duigan",
+      "body": "John Robertson Duigan makes the first flight of the Duigan pusher biplane, the first aircraft built in Australia.",
+      "source": {
+        "name": "Wikipedia · John Robertson Duigan",
+        "url": "https://en.wikipedia.org/wiki/John_Robertson_Duigan",
+        "calendarUrl": "https://en.wikipedia.org/wiki/July_16",
+        "license": {
+          "name": "CC BY-SA 4.0",
+          "url": "https://creativecommons.org/licenses/by-sa/4.0/"
+        }
+      },
+      "image": {
+        "src": "https://upload.wikimedia.org/wikipedia/commons/c/c0/John_R._Duigan.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+        "alt": "Picture from the Wikipedia article on John Robertson Duigan.",
+        "credit": "Unknown author",
+        "source": "https://commons.wikimedia.org/wiki/File:John_R._Duigan.jpg",
+        "license": "Public domain",
+        "licenseUrl": "https://commons.wikimedia.org/wiki/File:John_R._Duigan.jpg"
       }
     }
   ]

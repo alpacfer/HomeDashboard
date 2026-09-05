@@ -3,18 +3,17 @@
   "dateLabel": "27 October",
   "facts": [
     {
-      "id": "10-27-spain-treaty-of-madrid-1795",
+      "id": "10-27-sa-1-apollo",
       "date": "10-27",
       "dateLabel": "27 October",
-      "country": "spain",
-      "countryName": "Spain",
-      "kind": "events",
-      "year": 1795,
-      "title": "Treaty of Madrid",
-      "body": "1795: The United States and Spain sign the Treaty of Madrid, which establishes the boundaries between Spanish colonies and the U.S.",
+      "category": "space",
+      "categoryName": "Space",
+      "year": 1961,
+      "title": "Saturn I SA-1",
+      "body": "NASA tests the first Saturn I rocket in Mission Saturn-Apollo 1.",
       "source": {
-        "name": "Wikipedia · Pinckney's Treaty",
-        "url": "https://en.wikipedia.org/wiki/Pinckney's_Treaty",
+        "name": "Wikipedia · Saturn I SA-1",
+        "url": "https://en.wikipedia.org/wiki/Saturn_I_SA-1",
         "calendarUrl": "https://en.wikipedia.org/wiki/October_27",
         "license": {
           "name": "CC BY-SA 4.0",
@@ -22,68 +21,66 @@
         }
       },
       "image": {
-        "src": "https://upload.wikimedia.org/wikipedia/commons/1/18/Pinckney%27s_Treaty_line_1795.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
-        "alt": "Image related to Treaty of Madrid.",
-        "credit": "Drdpw",
-        "source": "https://commons.wikimedia.org/wiki/File:Pinckney%27s_Treaty_line_1795.png",
-        "license": "CC BY-SA 4.0",
-        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0"
-      }
-    },
-    {
-      "id": "10-27-denmark-poul-bundgaard",
-      "date": "10-27",
-      "dateLabel": "27 October",
-      "country": "denmark",
-      "countryName": "Denmark",
-      "kind": "births",
-      "year": 1922,
-      "title": "Poul Bundgaard",
-      "body": "Poul Bundgaard, Danish actor and singer (died 1998), was born on this day in 1922.",
-      "source": {
-        "name": "Wikipedia · Poul Bundgaard",
-        "url": "https://en.wikipedia.org/wiki/Poul_Bundgaard",
-        "calendarUrl": "https://en.wikipedia.org/wiki/October_27",
-        "license": {
-          "name": "CC BY-SA 4.0",
-          "url": "https://creativecommons.org/licenses/by-sa/4.0/"
-        }
-      },
-      "image": {
-        "src": "https://upload.wikimedia.org/wikipedia/commons/9/9a/Poul_Bundgaard.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
-        "alt": "Portrait or image of Poul Bundgaard.",
-        "credit": "Bent Paulsen",
-        "source": "https://commons.wikimedia.org/wiki/File:Poul_Bundgaard.jpg",
-        "license": "CC BY-SA 3.0",
-        "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0"
-      }
-    },
-    {
-      "id": "10-27-greece-giorgos-konstantinou",
-      "date": "10-27",
-      "dateLabel": "27 October",
-      "country": "greece",
-      "countryName": "Greece",
-      "kind": "births",
-      "year": 1934,
-      "title": "Giorgos Konstantinou",
-      "body": "Giorgos Konstantinou, Greek actor, director, and screenwriter, was born on this day in 1934.",
-      "source": {
-        "name": "Wikipedia · Giorgos Konstantinou",
-        "url": "https://en.wikipedia.org/wiki/Giorgos_Konstantinou",
-        "calendarUrl": "https://en.wikipedia.org/wiki/October_27",
-        "license": {
-          "name": "CC BY-SA 4.0",
-          "url": "https://creativecommons.org/licenses/by-sa/4.0/"
-        }
-      },
-      "image": {
-        "src": "https://commons.wikimedia.org/wiki/Special:Redirect/file/Flag_of_Greece.svg?width=1000",
-        "alt": "The national flag of Greece.",
-        "credit": "Greek government",
-        "source": "https://commons.wikimedia.org/wiki/File:Flag_of_Greece.svg",
+        "src": "https://upload.wikimedia.org/wikipedia/commons/f/f3/SA-1_LO.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+        "alt": "Picture from the Wikipedia article on Saturn I SA-1.",
+        "credit": "NASA",
+        "source": "https://commons.wikimedia.org/wiki/File:SA-1_LO.jpg",
         "license": "Public domain",
-        "licenseUrl": "https://commons.wikimedia.org/wiki/File:Flag_of_Greece.svg"
+        "licenseUrl": "https://commons.wikimedia.org/wiki/File:SA-1_LO.jpg"
+      }
+    },
+    {
+      "id": "10-27-benjamin-o-davis-jr",
+      "date": "10-27",
+      "dateLabel": "27 October",
+      "category": "world",
+      "categoryName": "World",
+      "year": 1954,
+      "title": "Benjamin O. Davis Jr.",
+      "body": "Benjamin O. Davis, Jr. becomes the first African-American general in the United States Air Force.",
+      "source": {
+        "name": "Wikipedia · Benjamin O. Davis Jr.",
+        "url": "https://en.wikipedia.org/wiki/Benjamin_O._Davis_Jr.",
+        "calendarUrl": "https://en.wikipedia.org/wiki/October_27",
+        "license": {
+          "name": "CC BY-SA 4.0",
+          "url": "https://creativecommons.org/licenses/by-sa/4.0/"
+        }
+      },
+      "image": {
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a9/Benjamindavis.jpg/1280px-Benjamindavis.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "alt": "Picture from the Wikipedia article on Benjamin O. Davis Jr..",
+        "credit": "http://www.af.mil/shared/media/photodb/photos/070207-F-9999W-001.jpg",
+        "source": "https://commons.wikimedia.org/wiki/File:Benjamindavis.jpg",
+        "license": "Public domain",
+        "licenseUrl": "https://commons.wikimedia.org/wiki/File:Benjamindavis.jpg"
+      }
+    },
+    {
+      "id": "10-27-big-bang-financial-markets",
+      "date": "10-27",
+      "dateLabel": "27 October",
+      "category": "world",
+      "categoryName": "World",
+      "year": 1986,
+      "title": "Big Bang",
+      "body": "The British government suddenly deregulates financial markets, leading to a total restructuring of the way in which they operate in the country, in an event now referred to as the Big Bang.",
+      "source": {
+        "name": "Wikipedia · Big Bang (financial markets)",
+        "url": "https://en.wikipedia.org/wiki/Big_Bang_(financial_markets)",
+        "calendarUrl": "https://en.wikipedia.org/wiki/October_27",
+        "license": {
+          "name": "CC BY-SA 4.0",
+          "url": "https://creativecommons.org/licenses/by-sa/4.0/"
+        }
+      },
+      "image": {
+        "src": "https://upload.wikimedia.org/wikipedia/commons/1/17/Canary-wharf-one.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+        "alt": "Picture from the Wikipedia article on Big Bang.",
+        "credit": "Wikimedia Commons contributor",
+        "source": "https://commons.wikimedia.org/wiki/File:Canary-wharf-one.jpg",
+        "license": "Public domain",
+        "licenseUrl": "https://commons.wikimedia.org/wiki/File:Canary-wharf-one.jpg"
       }
     }
   ]

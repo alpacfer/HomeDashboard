@@ -3,18 +3,17 @@
   "dateLabel": "22 February",
   "facts": [
     {
-      "id": "02-22-spain-adams-on-s-treaty",
+      "id": "02-22-securitas-depot-robbery",
       "date": "02-22",
       "dateLabel": "22 February",
-      "country": "spain",
-      "countryName": "Spain",
-      "kind": "events",
-      "year": 1819,
-      "title": "Adams–Onís Treaty",
-      "body": "1819: By the Adams–Onís Treaty, Spain sells Florida to the United States for five million U.S. dollars.",
+      "category": "curious",
+      "categoryName": "Curious",
+      "year": 2006,
+      "title": "Securitas depot robbery",
+      "body": "The Securitas depot robbery was the UK's largest heist. Almost £53m (about $92.5 million or €78 million) was stolen from a Securitas depot in Tonbridge, Kent.",
       "source": {
-        "name": "Wikipedia · Adams–Onís Treaty",
-        "url": "https://en.wikipedia.org/wiki/Adams%E2%80%93On%C3%ADs_Treaty",
+        "name": "Wikipedia · Securitas depot robbery",
+        "url": "https://en.wikipedia.org/wiki/Securitas_depot_robbery",
         "calendarUrl": "https://en.wikipedia.org/wiki/February_22",
         "license": {
           "name": "CC BY-SA 4.0",
@@ -22,27 +21,26 @@
         }
       },
       "image": {
-        "src": "https://upload.wikimedia.org/wikipedia/commons/9/96/Adams_onis_map.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
-        "alt": "Image related to Adams–Onís Treaty.",
-        "credit": "Wikimedia Commons contributor",
-        "source": "https://commons.wikimedia.org/wiki/File:Adams_onis_map.png",
-        "license": "CC BY-SA 2.5",
-        "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.5"
+        "src": "https://upload.wikimedia.org/wikipedia/commons/6/6f/Securitas_Depot%2C_Vale_Road%2C_Tonbridge%2C_Kent_-_geograph.org.uk_-_1124839-Optimised.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+        "alt": "Picture from the Wikipedia article on Securitas depot robbery.",
+        "credit": "Oast House Archive: https://www.geograph.org.uk/profile/10354",
+        "source": "https://commons.wikimedia.org/wiki/File:Securitas_Depot,_Vale_Road,_Tonbridge,_Kent_-_geograph.org.uk_-_1124839-Optimised.jpg",
+        "license": "CC BY-SA 2.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0"
       }
     },
     {
-      "id": "02-22-denmark-2011-christchurch-earthquake",
+      "id": "02-22-corona-satellite",
       "date": "02-22",
       "dateLabel": "22 February",
-      "country": "denmark",
-      "countryName": "Denmark",
-      "kind": "events",
-      "year": 2011,
-      "title": "2011 Christchurch earthquake",
-      "body": "2011: New Zealand's second deadliest earthquake, the 2011 Christchurch earthquake, kills 185 people.",
+      "category": "space",
+      "categoryName": "Space",
+      "year": 1995,
+      "title": "CORONA",
+      "body": "The Corona reconnaissance satellite program, in existence from 1959 to 1972, is declassified.",
       "source": {
-        "name": "Wikipedia · 2011 Christchurch earthquake",
-        "url": "https://en.wikipedia.org/wiki/2011_Christchurch_earthquake",
+        "name": "Wikipedia · CORONA (satellite)",
+        "url": "https://en.wikipedia.org/wiki/CORONA_(satellite)",
         "calendarUrl": "https://en.wikipedia.org/wiki/February_22",
         "license": {
           "name": "CC BY-SA 4.0",
@@ -50,27 +48,26 @@
         }
       },
       "image": {
-        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/2b/ChristchurchBasilicaPostEarthquake_gobeirne.jpg/1280px-ChristchurchBasilicaPostEarthquake_gobeirne.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-        "alt": "Image related to 2011 Christchurch earthquake.",
-        "credit": "Greg O'Beirne",
-        "source": "https://commons.wikimedia.org/wiki/File:ChristchurchBasilicaPostEarthquake_gobeirne.jpg",
-        "license": "CC BY-SA 3.0",
-        "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0"
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c3/Fairchild_C-119J_Flying_Boxcar_recovers_CORONA_Capsule_1960_USAF_040314-O-9999R-001.jpg/1280px-Fairchild_C-119J_Flying_Boxcar_recovers_CORONA_Capsule_1960_USAF_040314-O-9999R-001.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "alt": "Picture from the Wikipedia article on CORONA.",
+        "credit": "040314-O-9999R-001.jpg from Air Force Link - Photos Transferred from de.wikipedia to Commons by Avron using CommonsHelper.",
+        "source": "https://commons.wikimedia.org/wiki/File:Fairchild_C-119J_Flying_Boxcar_recovers_CORONA_Capsule_1960_USAF_040314-O-9999R-001.jpg",
+        "license": "Public domain",
+        "licenseUrl": "https://commons.wikimedia.org/wiki/File:Fairchild_C-119J_Flying_Boxcar_recovers_CORONA_Capsule_1960_USAF_040314-O-9999R-001.jpg"
       }
     },
     {
-      "id": "02-22-greece-georgios-printezis",
+      "id": "02-22-aldrich-ames",
       "date": "02-22",
       "dateLabel": "22 February",
-      "country": "greece",
-      "countryName": "Greece",
-      "kind": "births",
-      "year": 1985,
-      "title": "Georgios Printezis",
-      "body": "Georgios Printezis, Greek basketball player, was born on this day in 1985.",
+      "category": "world",
+      "categoryName": "World",
+      "year": 1994,
+      "title": "Aldrich Ames",
+      "body": "Aldrich Ames and his wife are charged by the United States Department of Justice with spying for the Soviet Union.",
       "source": {
-        "name": "Wikipedia · Georgios Printezis",
-        "url": "https://en.wikipedia.org/wiki/Georgios_Printezis",
+        "name": "Wikipedia · Aldrich Ames",
+        "url": "https://en.wikipedia.org/wiki/Aldrich_Ames",
         "calendarUrl": "https://en.wikipedia.org/wiki/February_22",
         "license": {
           "name": "CC BY-SA 4.0",
@@ -78,12 +75,12 @@
         }
       },
       "image": {
-        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/bf/2022-03-10_ALBA_Berlin_gegen_Olympiacos_Piraeus_%28EuroLeague_2021-22%29_by_Sandro_Halank%E2%80%93037.jpg/1280px-2022-03-10_ALBA_Berlin_gegen_Olympiacos_Piraeus_%28EuroLeague_2021-22%29_by_Sandro_Halank%E2%80%93037.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-        "alt": "Portrait or image of Georgios Printezis.",
-        "credit": "Sandro Halank, Wikimedia Commons, CC BY-SA 4.0",
-        "source": "https://commons.wikimedia.org/wiki/File:2022-03-10_ALBA_Berlin_gegen_Olympiacos_Piraeus_(EuroLeague_2021-22)_by_Sandro_Halank%E2%80%93037.jpg",
-        "license": "CC BY-SA 4.0",
-        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0"
+        "src": "https://upload.wikimedia.org/wikipedia/commons/4/4f/Aldrich_Ames_mugshot.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+        "alt": "Picture from the Wikipedia article on Aldrich Ames.",
+        "credit": "staff, Federal Bureau of Investigation",
+        "source": "https://commons.wikimedia.org/wiki/File:Aldrich_Ames_mugshot.jpg",
+        "license": "Public domain",
+        "licenseUrl": "https://commons.wikimedia.org/wiki/File:Aldrich_Ames_mugshot.jpg"
       }
     }
   ]

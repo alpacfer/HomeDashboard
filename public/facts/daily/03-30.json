@@ -3,18 +3,17 @@
   "dateLabel": "30 March",
   "facts": [
     {
-      "id": "03-30-spain-maimonides",
+      "id": "03-30-spacex",
       "date": "03-30",
       "dateLabel": "30 March",
-      "country": "spain",
-      "countryName": "Spain",
-      "kind": "births",
-      "year": 1135,
-      "title": "Maimonides",
-      "body": "Maimonides, Spanish rabbi and philosopher (April 6 also proposed, d. 1204), was born on this day in 1135.",
+      "category": "space",
+      "categoryName": "Space",
+      "year": 2017,
+      "title": "SpaceX",
+      "body": "SpaceX conducts the world's first reflight of an orbital class rocket.",
       "source": {
-        "name": "Wikipedia · Maimonides",
-        "url": "https://en.wikipedia.org/wiki/Maimonides",
+        "name": "Wikipedia · SpaceX",
+        "url": "https://en.wikipedia.org/wiki/SpaceX",
         "calendarUrl": "https://en.wikipedia.org/wiki/March_30",
         "license": {
           "name": "CC BY-SA 4.0",
@@ -22,27 +21,26 @@
         }
       },
       "image": {
-        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/38/Portrait_of_Moses_Maimonides_in_Thesaurus_antiquitatum_sacrarum.tif/lossy-page1-960px-Portrait_of_Moses_Maimonides_in_Thesaurus_antiquitatum_sacrarum.tif.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-        "alt": "Portrait or image of Maimonides.",
-        "credit": "Blaisio Ugolino",
-        "source": "https://commons.wikimedia.org/wiki/File:Portrait_of_Moses_Maimonides_in_Thesaurus_antiquitatum_sacrarum.tif",
-        "license": "Public domain",
-        "licenseUrl": "https://commons.wikimedia.org/wiki/File:Portrait_of_Moses_Maimonides_in_Thesaurus_antiquitatum_sacrarum.tif"
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/3e/Starship_-_Flight_13_%28Sunset%29.jpg/1280px-Starship_-_Flight_13_%28Sunset%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "alt": "Picture from the Wikipedia article on SpaceX.",
+        "credit": "SpaceX",
+        "source": "https://commons.wikimedia.org/wiki/File:Starship_-_Flight_13_(Sunset).jpg",
+        "license": "CC BY 2.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by/2.0"
       }
     },
     {
-      "id": "03-30-denmark-george-i-of-greece",
+      "id": "03-30-14th-dalai-lama",
       "date": "03-30",
       "dateLabel": "30 March",
-      "country": "denmark",
-      "countryName": "Denmark",
-      "kind": "events",
-      "year": 1863,
-      "title": "Wilhelm Georg",
-      "body": "1863: Danish prince Wilhelm Georg is chosen as King George of Greece.",
+      "category": "world",
+      "categoryName": "World",
+      "year": 1959,
+      "title": "14th Dalai Lama",
+      "body": "Tenzin Gyatso, the 14th Dalai Lama, flees Tibet for India.",
       "source": {
-        "name": "Wikipedia · George I of Greece",
-        "url": "https://en.wikipedia.org/wiki/George_I_of_Greece",
+        "name": "Wikipedia · 14th Dalai Lama",
+        "url": "https://en.wikipedia.org/wiki/14th_Dalai_Lama",
         "calendarUrl": "https://en.wikipedia.org/wiki/March_30",
         "license": {
           "name": "CC BY-SA 4.0",
@@ -50,27 +48,26 @@
         }
       },
       "image": {
-        "src": "https://upload.wikimedia.org/wikipedia/commons/d/d8/George_I_of_Greece%2C_c.1912.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
-        "alt": "Image related to Wilhelm Georg.",
-        "credit": "Unknown photographer",
-        "source": "https://commons.wikimedia.org/wiki/File:George_I_of_Greece,_c.1912.jpg",
-        "license": "Public domain",
-        "licenseUrl": "https://commons.wikimedia.org/wiki/File:George_I_of_Greece,_c.1912.jpg"
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/fb/The_Dalai_Lama_in_2012.jpg/1280px-The_Dalai_Lama_in_2012.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "alt": "Picture from the Wikipedia article on 14th Dalai Lama.",
+        "credit": "Christopher Michel",
+        "source": "https://commons.wikimedia.org/wiki/File:The_Dalai_Lama_in_2012.jpg",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0"
       }
     },
     {
-      "id": "03-30-greece-maurice-s-balkan-campaigns",
+      "id": "03-30-timeline-of-chemical-element-discoveries",
       "date": "03-30",
       "dateLabel": "30 March",
-      "country": "greece",
-      "countryName": "Greece",
-      "kind": "events",
-      "year": 598,
-      "title": "Avar–Byzantine wars",
-      "body": "598: Avar–Byzantine wars: The Avars lift the siege at the Byzantine stronghold of Tomis. Their leader Bayan I retreats north of the Danube River after the Avaro-Slavic army is decimated by the plague.",
+      "category": "science",
+      "categoryName": "Science",
+      "year": 1861,
+      "title": "Timeline of chemical element discoveries",
+      "body": "Sir William Crookes announces his discovery of thallium.",
       "source": {
-        "name": "Wikipedia · Maurice's Balkan campaigns",
-        "url": "https://en.wikipedia.org/wiki/Maurice's_Balkan_campaigns",
+        "name": "Wikipedia · Timeline of chemical element discoveries",
+        "url": "https://en.wikipedia.org/wiki/Timeline_of_chemical_element_discoveries",
         "calendarUrl": "https://en.wikipedia.org/wiki/March_30",
         "license": {
           "name": "CC BY-SA 4.0",
@@ -78,12 +75,12 @@
         }
       },
       "image": {
-        "src": "https://commons.wikimedia.org/wiki/Special:Redirect/file/Flag_of_Greece.svg?width=1000",
-        "alt": "The national flag of Greece.",
-        "credit": "Greek government",
-        "source": "https://commons.wikimedia.org/wiki/File:Flag_of_Greece.svg",
-        "license": "Public domain",
-        "licenseUrl": "https://commons.wikimedia.org/wiki/File:Flag_of_Greece.svg"
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/03/Simple_Periodic_Table_Chart-blocks.svg/1280px-Simple_Periodic_Table_Chart-blocks.svg.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "alt": "Picture from the Wikipedia article on Timeline of chemical element discoveries.",
+        "credit": "User:Double sharp, based on File:Simple Periodic Table Chart-en.svg by User:Offnfopt",
+        "source": "https://commons.wikimedia.org/wiki/File:Simple_Periodic_Table_Chart-blocks.svg",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0"
       }
     }
   ]

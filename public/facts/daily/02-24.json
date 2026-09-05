@@ -3,18 +3,17 @@
   "dateLabel": "24 February",
   "facts": [
     {
-      "id": "02-24-spain-house-of-habsburg",
+      "id": "02-24-spy-satellite",
       "date": "02-24",
       "dateLabel": "24 February",
-      "country": "spain",
-      "countryName": "Spain",
-      "kind": "events",
-      "year": 1525,
-      "title": "Spanish-Austrian",
-      "body": "1525: A Spanish-Austrian army defeats a French army at the Battle of Pavia.",
+      "category": "space",
+      "categoryName": "Space",
+      "year": 2007,
+      "title": "Reconnaissance satellite",
+      "body": "Japan launches its fourth spy satellite, stepping up its ability to monitor potential threats such as North Korea.",
       "source": {
-        "name": "Wikipedia · House of Habsburg",
-        "url": "https://en.wikipedia.org/wiki/House_of_Habsburg",
+        "name": "Wikipedia · Reconnaissance satellite",
+        "url": "https://en.wikipedia.org/wiki/Reconnaissance_satellite",
         "calendarUrl": "https://en.wikipedia.org/wiki/February_24",
         "license": {
           "name": "CC BY-SA 4.0",
@@ -22,27 +21,26 @@
         }
       },
       "image": {
-        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/57/Arms_of_Counts_of_Habsbourg.svg/1280px-Arms_of_Counts_of_Habsbourg.svg.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-        "alt": "Image related to Spanish-Austrian.",
-        "credit": "[1]",
-        "source": "https://commons.wikimedia.org/wiki/File:Arms_of_Counts_of_Habsbourg.svg",
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/ad/U.S._RecSat_Big_Picture.jpg/1280px-U.S._RecSat_Big_Picture.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "alt": "Picture from the Wikipedia article on Reconnaissance satellite.",
+        "credit": "Giuseppe De Chiara 1968",
+        "source": "https://commons.wikimedia.org/wiki/File:U.S._RecSat_Big_Picture.jpg",
         "license": "CC BY-SA 3.0",
         "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0"
       }
     },
     {
-      "id": "02-24-denmark-united-airlines-flight-811",
+      "id": "02-24-nazi-party",
       "date": "02-24",
       "dateLabel": "24 February",
-      "country": "denmark",
-      "countryName": "Denmark",
-      "kind": "events",
-      "year": 1989,
-      "title": "United Airlines Flight 811",
-      "body": "1989: United Airlines Flight 811, bound for New Zealand from Honolulu, rips open during flight, blowing nine passengers out of the business-class section.",
+      "category": "world",
+      "categoryName": "World",
+      "year": 1920,
+      "title": "Nazi Party",
+      "body": "The Nazi Party (NSDAP) is founded by Adolf Hitler in the Hofbräuhaus beer hall in Munich, Germany.",
       "source": {
-        "name": "Wikipedia · United Airlines Flight 811",
-        "url": "https://en.wikipedia.org/wiki/United_Airlines_Flight_811",
+        "name": "Wikipedia · Nazi Party",
+        "url": "https://en.wikipedia.org/wiki/Nazi_Party",
         "calendarUrl": "https://en.wikipedia.org/wiki/February_24",
         "license": {
           "name": "CC BY-SA 4.0",
@@ -50,27 +48,26 @@
         }
       },
       "image": {
-        "src": "https://upload.wikimedia.org/wikipedia/commons/7/70/Ntrs.nasa.gov_Flight_811.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
-        "alt": "Image related to United Airlines Flight 811.",
-        "credit": "Unknown authorUnknown author",
-        "source": "https://commons.wikimedia.org/wiki/File:Ntrs.nasa.gov_Flight_811.jpg",
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/92/Parteiadler_Nationalsozialistische_Deutsche_Arbeiterpartei_%281933%E2%80%931945%29.svg/1280px-Parteiadler_Nationalsozialistische_Deutsche_Arbeiterpartei_%281933%E2%80%931945%29.svg.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "alt": "Picture from the Wikipedia article on Nazi Party.",
+        "credit": "RsVe, corrected by Barliner.",
+        "source": "https://commons.wikimedia.org/wiki/File:Parteiadler_Nationalsozialistische_Deutsche_Arbeiterpartei_(1933%E2%80%931945).svg",
         "license": "Public domain",
-        "licenseUrl": "https://commons.wikimedia.org/wiki/File:Ntrs.nasa.gov_Flight_811.jpg"
+        "licenseUrl": "https://commons.wikimedia.org/wiki/File:Parteiadler_Nationalsozialistische_Deutsche_Arbeiterpartei_(1933%E2%80%931945).svg"
       }
     },
     {
-      "id": "02-24-greece-world-war-ii",
+      "id": "02-24-l-orfeo",
       "date": "02-24",
       "dateLabel": "24 February",
-      "country": "greece",
-      "countryName": "Greece",
-      "kind": "events",
-      "year": 1943,
-      "title": "World War II",
-      "body": "1943: World War II: First large-scale protest march resulting in clashes with the Axis occupation forces and collaborationist police in Athens against rumours of forced mobilization of Greek workers for work in Germany.",
+      "category": "culture",
+      "categoryName": "Culture",
+      "year": 1607,
+      "title": "L'Orfeo",
+      "body": "L'Orfeo by Claudio Monteverdi, one of the first works recognized as an opera, receives its première performance.",
       "source": {
-        "name": "Wikipedia · World War II",
-        "url": "https://en.wikipedia.org/wiki/World_War_II",
+        "name": "Wikipedia · L'Orfeo",
+        "url": "https://en.wikipedia.org/wiki/L%27Orfeo",
         "calendarUrl": "https://en.wikipedia.org/wiki/February_24",
         "license": {
           "name": "CC BY-SA 4.0",
@@ -78,12 +75,12 @@
         }
       },
       "image": {
-        "src": "https://upload.wikimedia.org/wikipedia/commons/1/10/Bundesarchiv_Bild_101I-646-5188-17%2C_Flugzeuge_Junkers_Ju_87.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
-        "alt": "Image related to World War II.",
-        "credit": "Bundesarchiv, Bild 101I-646-5188-17 / Opitz / CC-BY-SA 3.0",
-        "source": "https://commons.wikimedia.org/wiki/File:Bundesarchiv_Bild_101I-646-5188-17,_Flugzeuge_Junkers_Ju_87.jpg",
-        "license": "CC BY-SA 3.0 de",
-        "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0/de/deed.en"
+        "src": "https://upload.wikimedia.org/wikipedia/commons/8/8d/Cesare_Gennari_Orfeo.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+        "alt": "Picture from the Wikipedia article on L'Orfeo.",
+        "credit": "Cesare Gennari",
+        "source": "https://commons.wikimedia.org/wiki/File:Cesare_Gennari_Orfeo.jpg",
+        "license": "Public domain",
+        "licenseUrl": "https://commons.wikimedia.org/wiki/File:Cesare_Gennari_Orfeo.jpg"
       }
     }
   ]

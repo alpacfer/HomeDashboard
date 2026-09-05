@@ -3,18 +3,17 @@
   "dateLabel": "3 May",
   "facts": [
     {
-      "id": "05-03-spain-fort-caroline",
+      "id": "05-03-email",
       "date": "05-03",
       "dateLabel": "3 May",
-      "country": "spain",
-      "countryName": "Spain",
-      "kind": "events",
-      "year": 1568,
-      "title": "Fort Caroline",
-      "body": "1568: Angered by the brutal onslaught of Spanish troops at Fort Caroline, a French force burns the San Mateo fort and massacres hundreds of Spaniards.",
+      "category": "tech",
+      "categoryName": "Tech",
+      "year": 1978,
+      "title": "Email",
+      "body": "The first unsolicited bulk commercial email (which would later become known as \"spam\") is sent by a Digital Equipment Corporation marketing representative to every ARPANET address on the west coast of the United States.",
       "source": {
-        "name": "Wikipedia · Fort Caroline",
-        "url": "https://en.wikipedia.org/wiki/Fort_Caroline",
+        "name": "Wikipedia · Email",
+        "url": "https://en.wikipedia.org/wiki/Email",
         "calendarUrl": "https://en.wikipedia.org/wiki/May_3",
         "license": {
           "name": "CC BY-SA 4.0",
@@ -22,27 +21,26 @@
         }
       },
       "image": {
-        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/98/Fort_Caroline_moat_FOCA1566.jpg/1280px-Fort_Caroline_moat_FOCA1566.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-        "alt": "Image related to Fort Caroline.",
-        "credit": "NPS Photo",
-        "source": "https://commons.wikimedia.org/wiki/File:Fort_Caroline_moat_FOCA1566.jpg",
-        "license": "Public domain",
-        "licenseUrl": "https://commons.wikimedia.org/wiki/File:Fort_Caroline_moat_FOCA1566.jpg"
+        "src": "https://upload.wikimedia.org/wikipedia/commons/e/ed/Evolution_36_mail.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+        "alt": "Picture from the Wikipedia article on Email.",
+        "credit": "AlexanderVanLoon",
+        "source": "https://commons.wikimedia.org/wiki/File:Evolution_36_mail.png",
+        "license": "CC BY-SA 3.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0"
       }
     },
     {
-      "id": "05-03-denmark-jacob-riis",
+      "id": "05-03-raja-harishchandra",
       "date": "05-03",
       "dateLabel": "3 May",
-      "country": "denmark",
-      "countryName": "Denmark",
-      "kind": "births",
-      "year": 1849,
-      "title": "Jacob Riis",
-      "body": "Jacob Riis, Danish-American journalist and photographer (died 1914), was born on this day in 1849.",
+      "category": "culture",
+      "categoryName": "Culture",
+      "year": 1913,
+      "title": "Raja Harishchandra",
+      "body": "Raja Harishchandra, the first full-length Indian feature film, is released, marking the beginning of the Indian film industry.",
       "source": {
-        "name": "Wikipedia · Jacob Riis",
-        "url": "https://en.wikipedia.org/wiki/Jacob_Riis",
+        "name": "Wikipedia · Raja Harishchandra",
+        "url": "https://en.wikipedia.org/wiki/Raja_Harishchandra",
         "calendarUrl": "https://en.wikipedia.org/wiki/May_3",
         "license": {
           "name": "CC BY-SA 4.0",
@@ -50,27 +48,26 @@
         }
       },
       "image": {
-        "src": "https://upload.wikimedia.org/wikipedia/commons/2/2d/Jacob_Riis_2.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
-        "alt": "Portrait or image of Jacob Riis.",
-        "credit": "Pirie MacDonald",
-        "source": "https://commons.wikimedia.org/wiki/File:Jacob_Riis_2.jpg",
+        "src": "https://upload.wikimedia.org/wikipedia/commons/6/6a/Publicity_poster_for_film%2C_Raja_Harishchandra_%281913%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+        "alt": "Picture from the Wikipedia article on Raja Harishchandra.",
+        "credit": "Dadasaheb Phalke",
+        "source": "https://commons.wikimedia.org/wiki/File:Publicity_poster_for_film,_Raja_Harishchandra_(1913).jpg",
         "license": "Public domain",
-        "licenseUrl": "https://commons.wikimedia.org/wiki/File:Jacob_Riis_2.jpg"
+        "licenseUrl": "https://commons.wikimedia.org/wiki/File:Publicity_poster_for_film,_Raja_Harishchandra_(1913).jpg"
       }
     },
     {
-      "id": "05-03-greece-national-and-kapodistrian-university-of-athens",
+      "id": "05-03-anglo-saxon",
       "date": "05-03",
       "dateLabel": "3 May",
-      "country": "greece",
-      "countryName": "Greece",
-      "kind": "events",
-      "year": 1837,
-      "title": "University of Athens",
-      "body": "1837: The University of Athens is founded in Athens, Greece.",
+      "category": "science",
+      "categoryName": "Science",
+      "year": 1848,
+      "title": "Anglo-Saxons",
+      "body": "The boar-crested Anglo-Saxon Benty Grange helmet is discovered in a barrow on the Benty Grange farm in Derbyshire.",
       "source": {
-        "name": "Wikipedia · National and Kapodistrian University of Athens",
-        "url": "https://en.wikipedia.org/wiki/National_and_Kapodistrian_University_of_Athens",
+        "name": "Wikipedia · Anglo-Saxons",
+        "url": "https://en.wikipedia.org/wiki/Anglo-Saxons",
         "calendarUrl": "https://en.wikipedia.org/wiki/May_3",
         "license": {
           "name": "CC BY-SA 4.0",
@@ -78,12 +75,12 @@
         }
       },
       "image": {
-        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/74/Universit%C3%A4t_von_Athen.jpg/1280px-Universit%C3%A4t_von_Athen.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-        "alt": "Image related to University of Athens.",
-        "credit": "Thomas Wolf, www.foto-tw.de",
-        "source": "https://commons.wikimedia.org/wiki/File:Universit%C3%A4t_von_Athen.jpg",
-        "license": "CC BY-SA 3.0 de",
-        "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0/de/deed.en"
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/64/LindisfarneChiRiho.jpg/1280px-LindisfarneChiRiho.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "alt": "Picture from the Wikipedia article on Anglo-Saxons.",
+        "credit": "Eadfrith",
+        "source": "https://commons.wikimedia.org/wiki/File:LindisfarneChiRiho.jpg",
+        "license": "Public domain",
+        "licenseUrl": "https://commons.wikimedia.org/wiki/File:LindisfarneChiRiho.jpg"
       }
     }
   ]

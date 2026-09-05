@@ -3,18 +3,17 @@
   "dateLabel": "5 May",
   "facts": [
     {
-      "id": "05-05-spain-christopher-columbus",
+      "id": "05-05-alan-shepard",
       "date": "05-05",
       "dateLabel": "5 May",
-      "country": "spain",
-      "countryName": "Spain",
-      "kind": "events",
-      "year": 1494,
-      "title": "Christopher Columbus",
-      "body": "1494: On his second voyage to the New World, Christopher Columbus sights Jamaica, landing at Discovery Bay and declares Jamaica the property of the Spanish crown.",
+      "category": "space",
+      "categoryName": "Space",
+      "year": 1961,
+      "title": "Alan Shepard",
+      "body": "Alan Shepard becomes the first American to travel into outer space, on a sub-orbital flight.",
       "source": {
-        "name": "Wikipedia · Christopher Columbus",
-        "url": "https://en.wikipedia.org/wiki/Christopher_Columbus",
+        "name": "Wikipedia · Alan Shepard",
+        "url": "https://en.wikipedia.org/wiki/Alan_Shepard",
         "calendarUrl": "https://en.wikipedia.org/wiki/May_5",
         "license": {
           "name": "CC BY-SA 4.0",
@@ -22,27 +21,26 @@
         }
       },
       "image": {
-        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c2/Portrait_of_a_Man%2C_Said_to_be_Christopher_Columbus.jpg/1280px-Portrait_of_a_Man%2C_Said_to_be_Christopher_Columbus.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-        "alt": "Image related to Christopher Columbus.",
-        "credit": "Sebastiano del Piombo",
-        "source": "https://commons.wikimedia.org/wiki/File:Portrait_of_a_Man,_Said_to_be_Christopher_Columbus.jpg",
+        "src": "https://upload.wikimedia.org/wikipedia/commons/9/9b/Business_suit_portrait_of_Al_Shepard.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+        "alt": "Picture from the Wikipedia article on Alan Shepard.",
+        "credit": "NASA",
+        "source": "https://commons.wikimedia.org/wiki/File:Business_suit_portrait_of_Al_Shepard.jpg",
         "license": "Public domain",
-        "licenseUrl": "https://commons.wikimedia.org/wiki/File:Portrait_of_a_Man,_Said_to_be_Christopher_Columbus.jpg"
+        "licenseUrl": "https://commons.wikimedia.org/wiki/File:Business_suit_portrait_of_Al_Shepard.jpg"
       }
     },
     {
-      "id": "05-05-denmark-s-ren-kierkegaard",
+      "id": "05-05-pitcher",
       "date": "05-05",
       "dateLabel": "5 May",
-      "country": "denmark",
-      "countryName": "Denmark",
-      "kind": "births",
-      "year": 1813,
-      "title": "Søren Kierkegaard",
-      "body": "Søren Kierkegaard, Danish philosopher and author (died 1855), was born on this day in 1813.",
+      "category": "sport",
+      "categoryName": "Sport",
+      "year": 1904,
+      "title": "Pitcher",
+      "body": "Pitching against the Philadelphia Athletics at the Huntington Avenue Grounds, Cy Young of the Boston Americans throws the first perfect game in the modern era of baseball.",
       "source": {
-        "name": "Wikipedia · Søren Kierkegaard",
-        "url": "https://en.wikipedia.org/wiki/S%C3%B8ren_Kierkegaard",
+        "name": "Wikipedia · Pitcher",
+        "url": "https://en.wikipedia.org/wiki/Pitcher",
         "calendarUrl": "https://en.wikipedia.org/wiki/May_5",
         "license": {
           "name": "CC BY-SA 4.0",
@@ -50,27 +48,26 @@
         }
       },
       "image": {
-        "src": "https://upload.wikimedia.org/wikipedia/commons/d/d4/S%C3%B8ren_Kierkegaard_%281813-1855%29_-_%28cropped%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
-        "alt": "Portrait or image of Søren Kierkegaard.",
-        "credit": "La Biblioteca Real de Dinamarca",
-        "source": "https://commons.wikimedia.org/wiki/File:S%C3%B8ren_Kierkegaard_(1813-1855)_-_(cropped).jpg",
-        "license": "Public domain",
-        "licenseUrl": "https://commons.wikimedia.org/wiki/File:S%C3%B8ren_Kierkegaard_(1813-1855)_-_(cropped).jpg"
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/70/Clayton_Kershaw_on_July_23%2C_2015_%282%29.jpg/1280px-Clayton_Kershaw_on_July_23%2C_2015_%282%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "alt": "Picture from the Wikipedia article on Pitcher.",
+        "credit": "Arturo Pardavila III on Flickr",
+        "source": "https://commons.wikimedia.org/wiki/File:Clayton_Kershaw_on_July_23,_2015_(2).jpg",
+        "license": "CC BY 2.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by/2.0"
       }
     },
     {
-      "id": "05-05-greece-second-council-of-constantinople",
+      "id": "05-05-the-guardian",
       "date": "05-05",
       "dateLabel": "5 May",
-      "country": "greece",
-      "countryName": "Greece",
-      "kind": "events",
-      "year": 553,
-      "title": "Second Council of Constantinople",
-      "body": "553: The Second Council of Constantinople begins.",
+      "category": "world",
+      "categoryName": "World",
+      "year": 1821,
+      "title": "The Guardian",
+      "body": "The first edition of The Manchester Guardian, now The Guardian, is published.",
       "source": {
-        "name": "Wikipedia · Second Council of Constantinople",
-        "url": "https://en.wikipedia.org/wiki/Second_Council_of_Constantinople",
+        "name": "Wikipedia · The Guardian",
+        "url": "https://en.wikipedia.org/wiki/The_Guardian",
         "calendarUrl": "https://en.wikipedia.org/wiki/May_5",
         "license": {
           "name": "CC BY-SA 4.0",
@@ -78,12 +75,12 @@
         }
       },
       "image": {
-        "src": "https://upload.wikimedia.org/wikipedia/commons/b/b8/EcumenicalCouncil_5th_11-22.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
-        "alt": "Image related to Second Council of Constantinople.",
-        "credit": "Dionisius",
-        "source": "https://commons.wikimedia.org/wiki/File:EcumenicalCouncil_5th_11-22.jpg",
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/75/The_Guardian_2018.svg/1280px-The_Guardian_2018.svg.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "alt": "Picture from the Wikipedia article on The Guardian.",
+        "credit": "Asvensson",
+        "source": "https://commons.wikimedia.org/wiki/File:The_Guardian_2018.svg",
         "license": "Public domain",
-        "licenseUrl": "https://commons.wikimedia.org/wiki/File:EcumenicalCouncil_5th_11-22.jpg"
+        "licenseUrl": "https://commons.wikimedia.org/wiki/File:The_Guardian_2018.svg"
       }
     }
   ]

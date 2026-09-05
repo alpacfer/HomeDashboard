@@ -3,18 +3,17 @@
   "dateLabel": "25 June",
   "facts": [
     {
-      "id": "06-25-spain-spanish-empire",
+      "id": "06-25-jay-z",
       "date": "06-25",
       "dateLabel": "25 June",
-      "country": "spain",
-      "countryName": "Spain",
-      "kind": "events",
-      "year": 1658,
-      "title": "Spanish",
-      "body": "1658: Spanish forces fail to retake Jamaica at the Battle of Rio Nuevo during the Anglo-Spanish War.",
+      "category": "culture",
+      "categoryName": "Culture",
+      "year": 1996,
+      "title": "Jay-Z",
+      "body": "American rapper Jay-Z releases his debut album, Reasonable Doubt.",
       "source": {
-        "name": "Wikipedia · Spanish Empire",
-        "url": "https://en.wikipedia.org/wiki/Spanish_Empire",
+        "name": "Wikipedia · Jay-Z",
+        "url": "https://en.wikipedia.org/wiki/Jay-Z",
         "calendarUrl": "https://en.wikipedia.org/wiki/June_25",
         "license": {
           "name": "CC BY-SA 4.0",
@@ -22,55 +21,26 @@
         }
       },
       "image": {
-        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f5/Flag_of_Cross_of_Burgundy.svg/1280px-Flag_of_Cross_of_Burgundy.svg.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-        "alt": "Image related to Spanish.",
-        "credit": "Ningyou.",
-        "source": "https://commons.wikimedia.org/wiki/File:Flag_of_Cross_of_Burgundy.svg",
-        "license": "Public domain",
-        "licenseUrl": "https://commons.wikimedia.org/wiki/File:Flag_of_Cross_of_Burgundy.svg"
-      }
-    },
-    {
-      "id": "06-25-denmark-tim-finn",
-      "date": "06-25",
-      "dateLabel": "25 June",
-      "country": "denmark",
-      "countryName": "Denmark",
-      "kind": "births",
-      "year": 1952,
-      "title": "Tim Finn",
-      "body": "Tim Finn, New Zealand singer-songwriter, was born on this day in 1952.",
-      "source": {
-        "name": "Wikipedia · Tim Finn",
-        "url": "https://en.wikipedia.org/wiki/Tim_Finn",
-        "calendarUrl": "https://en.wikipedia.org/wiki/June_25",
-        "license": {
-          "name": "CC BY-SA 4.0",
-          "url": "https://creativecommons.org/licenses/by-sa/4.0/"
-        }
-      },
-      "image": {
-        "src": "https://upload.wikimedia.org/wikipedia/commons/3/35/Tim_Finn_%40_Sir_Stewart_Bovell_Park_%288_1_12%29_%286693050143%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
-        "alt": "Portrait or image of Tim Finn.",
-        "credit": "Stuart Sevastos",
-        "source": "https://commons.wikimedia.org/wiki/File:Tim_Finn_@_Sir_Stewart_Bovell_Park_(8_1_12)_(6693050143).jpg",
+        "src": "https://upload.wikimedia.org/wikipedia/commons/5/55/Jay-Z_meets_with_New_York_Senate_Majority_Leader_in_Albany_%28cropped%29.webp?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+        "alt": "Picture from the Wikipedia article on Jay-Z.",
+        "credit": "Photo Courtesy of NYS Senate Media Services",
+        "source": "https://commons.wikimedia.org/wiki/File:Jay-Z_meets_with_New_York_Senate_Majority_Leader_in_Albany_(cropped).webp",
         "license": "CC BY 2.0",
         "licenseUrl": "https://creativecommons.org/licenses/by/2.0"
       }
     },
     {
-      "id": "06-25-greece-nikiforos-diamandouros",
+      "id": "06-25-washington-state",
       "date": "06-25",
       "dateLabel": "25 June",
-      "country": "greece",
-      "countryName": "Greece",
-      "kind": "births",
-      "year": 1942,
-      "title": "Nikiforos Diamandouros",
-      "body": "Nikiforos Diamandouros, Greek academic and politician, was born on this day in 1942.",
+      "category": "tech",
+      "categoryName": "Tech",
+      "year": 1981,
+      "title": "Washington",
+      "body": "Microsoft is restructured to become an incorporated business in its home state of Washington.",
       "source": {
-        "name": "Wikipedia · Nikiforos Diamandouros",
-        "url": "https://en.wikipedia.org/wiki/Nikiforos_Diamandouros",
+        "name": "Wikipedia · Washington (state)",
+        "url": "https://en.wikipedia.org/wiki/Washington_(state)",
         "calendarUrl": "https://en.wikipedia.org/wiki/June_25",
         "license": {
           "name": "CC BY-SA 4.0",
@@ -78,12 +48,39 @@
         }
       },
       "image": {
-        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a5/Nikiforos_Diamandouros_b9dn603_4987.jpg/1280px-Nikiforos_Diamandouros_b9dn603_4987.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-        "alt": "Portrait or image of Nikiforos Diamandouros.",
-        "credit": "Janwikifoto",
-        "source": "https://commons.wikimedia.org/wiki/File:Nikiforos_Diamandouros_b9dn603_4987.jpg",
-        "license": "CC BY-SA 3.0",
-        "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0"
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/54/Flag_of_Washington.svg/1280px-Flag_of_Washington.svg.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "alt": "Picture from the Wikipedia article on Washington.",
+        "credit": "WA Secretary of State",
+        "source": "https://commons.wikimedia.org/wiki/File:Flag_of_Washington.svg",
+        "license": "Public domain",
+        "licenseUrl": "https://commons.wikimedia.org/wiki/File:Flag_of_Washington.svg"
+      }
+    },
+    {
+      "id": "06-25-rainbow-flag-lgbt-movement",
+      "date": "06-25",
+      "dateLabel": "25 June",
+      "category": "world",
+      "categoryName": "World",
+      "year": 1978,
+      "title": "Rainbow flag",
+      "body": "The rainbow flag representing gay pride is flown for the first time during the San Francisco Gay Freedom Day Parade.",
+      "source": {
+        "name": "Wikipedia · Rainbow flag (LGBTQ)",
+        "url": "https://en.wikipedia.org/wiki/Rainbow_flag_(LGBTQ)",
+        "calendarUrl": "https://en.wikipedia.org/wiki/June_25",
+        "license": {
+          "name": "CC BY-SA 4.0",
+          "url": "https://creativecommons.org/licenses/by-sa/4.0/"
+        }
+      },
+      "image": {
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/48/Gay_Pride_Flag.svg/1280px-Gay_Pride_Flag.svg.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "alt": "Picture from the Wikipedia article on Rainbow flag.",
+        "credit": "Guanaco and subsequent editors",
+        "source": "https://commons.wikimedia.org/wiki/File:Gay_Pride_Flag.svg",
+        "license": "Copyrighted free use",
+        "licenseUrl": "https://commons.wikimedia.org/wiki/File:Gay_Pride_Flag.svg"
       }
     }
   ]

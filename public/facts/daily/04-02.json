@@ -3,18 +3,17 @@
   "dateLabel": "2 April",
   "facts": [
     {
-      "id": "04-02-spain-juan-ponce-de-le-n",
+      "id": "04-02-mikhail-gorbachev",
       "date": "04-02",
       "dateLabel": "2 April",
-      "country": "spain",
-      "countryName": "Spain",
-      "kind": "events",
-      "year": 1513,
-      "title": "Juan Ponce de León",
-      "body": "1513: Having spotted land on March 27, Spanish explorer Juan Ponce de León comes ashore on what is now the U.S. state of Florida, landing somewhere between the modern city of St. Augustine and the mouth of the St. Johns River.",
+      "category": "world",
+      "categoryName": "World",
+      "year": 1989,
+      "title": "Mikhail Gorbachev",
+      "body": "Soviet leader Mikhail Gorbachev arrives in Havana, Cuba, to meet with Fidel Castro in an attempt to mend strained relations.",
       "source": {
-        "name": "Wikipedia · Juan Ponce de León",
-        "url": "https://en.wikipedia.org/wiki/Juan_Ponce_de_Le%C3%B3n",
+        "name": "Wikipedia · Mikhail Gorbachev",
+        "url": "https://en.wikipedia.org/wiki/Mikhail_Gorbachev",
         "calendarUrl": "https://en.wikipedia.org/wiki/April_2",
         "license": {
           "name": "CC BY-SA 4.0",
@@ -22,27 +21,53 @@
         }
       },
       "image": {
-        "src": "https://upload.wikimedia.org/wikipedia/commons/7/77/Juan_Ponce_de_Le%C3%B3n.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
-        "alt": "Image related to Juan Ponce de León.",
-        "credit": "Unknown authorUnknown author",
-        "source": "https://commons.wikimedia.org/wiki/File:Juan_Ponce_de_Le%C3%B3n.jpg",
+        "src": "https://upload.wikimedia.org/wikipedia/commons/5/57/RIAN_archive_850809_General_Secretary_of_the_CPSU_CC_M._Gorbachev_%28crop%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+        "alt": "Picture from the Wikipedia article on Mikhail Gorbachev.",
+        "credit": "RIA Novosti archive, image #850809 / Vladimir Vyatkin / CC-BY-SA 3.0",
+        "source": "https://commons.wikimedia.org/wiki/File:RIAN_archive_850809_General_Secretary_of_the_CPSU_CC_M._Gorbachev_(crop).jpg",
+        "license": "CC BY-SA 3.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0"
+      }
+    },
+    {
+      "id": "04-02-india-national-cricket-team",
+      "date": "04-02",
+      "dateLabel": "2 April",
+      "category": "sport",
+      "categoryName": "Sport",
+      "year": 2011,
+      "title": "India national cricket team",
+      "body": "India wins the Cricket World Cup for the second time in history under the captaincy of MS Dhoni.",
+      "source": {
+        "name": "Wikipedia · India national cricket team",
+        "url": "https://en.wikipedia.org/wiki/India_national_cricket_team",
+        "calendarUrl": "https://en.wikipedia.org/wiki/April_2",
+        "license": {
+          "name": "CC BY-SA 4.0",
+          "url": "https://creativecommons.org/licenses/by-sa/4.0/"
+        }
+      },
+      "image": {
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/45/Board_of_Control_for_Cricket_in_India_Logo_%282024%29.svg/1280px-Board_of_Control_for_Cricket_in_India_Logo_%282024%29.svg.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "alt": "Picture from the Wikipedia article on India national cricket team.",
+        "credit": "Board of Control for Cricket in India",
+        "source": "https://commons.wikimedia.org/wiki/File:Board_of_Control_for_Cricket_in_India_Logo_(2024).svg",
         "license": "Public domain",
-        "licenseUrl": "https://commons.wikimedia.org/wiki/File:Juan_Ponce_de_Le%C3%B3n.jpg"
+        "licenseUrl": "https://commons.wikimedia.org/wiki/File:Board_of_Control_for_Cricket_in_India_Logo_(2024).svg"
       }
     },
     {
-      "id": "04-02-denmark-french-revolutionary-wars",
+      "id": "04-02-ludwig-van-beethoven",
       "date": "04-02",
       "dateLabel": "2 April",
-      "country": "denmark",
-      "countryName": "Denmark",
-      "kind": "events",
-      "year": 1801,
-      "title": "French Revolutionary Wars",
-      "body": "1801: French Revolutionary Wars: In the Battle of Copenhagen a British Royal Navy squadron defeats a hastily assembled, smaller, mostly-volunteer Dano-Norwegian Navy at high cost, forcing Denmark out of the Second League of Armed Neutrality.",
+      "category": "culture",
+      "categoryName": "Culture",
+      "year": 1800,
+      "title": "Ludwig van Beethoven",
+      "body": "Ludwig van Beethoven leads the premiere of his First Symphony in Vienna.",
       "source": {
-        "name": "Wikipedia · French Revolutionary Wars",
-        "url": "https://en.wikipedia.org/wiki/French_Revolutionary_Wars",
+        "name": "Wikipedia · Ludwig van Beethoven",
+        "url": "https://en.wikipedia.org/wiki/Ludwig_van_Beethoven",
         "calendarUrl": "https://en.wikipedia.org/wiki/April_2",
         "license": {
           "name": "CC BY-SA 4.0",
@@ -50,40 +75,12 @@
         }
       },
       "image": {
-        "src": "https://upload.wikimedia.org/wikipedia/commons/9/9e/French_Revolutionary_Wars.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
-        "alt": "Image related to French Revolutionary Wars.",
-        "credit": "Ruedi33a",
-        "source": "https://commons.wikimedia.org/wiki/File:French_Revolutionary_Wars.jpg",
-        "license": "CC BY-SA 4.0",
-        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0"
-      }
-    },
-    {
-      "id": "04-02-greece-dimitris-mitropanos",
-      "date": "04-02",
-      "dateLabel": "2 April",
-      "country": "greece",
-      "countryName": "Greece",
-      "kind": "births",
-      "year": 1948,
-      "title": "Dimitris Mitropanos",
-      "body": "Dimitris Mitropanos, Greek singer (died 2012), was born on this day in 1948.",
-      "source": {
-        "name": "Wikipedia · Dimitris Mitropanos",
-        "url": "https://en.wikipedia.org/wiki/Dimitris_Mitropanos",
-        "calendarUrl": "https://en.wikipedia.org/wiki/April_2",
-        "license": {
-          "name": "CC BY-SA 4.0",
-          "url": "https://creativecommons.org/licenses/by-sa/4.0/"
-        }
-      },
-      "image": {
-        "src": "https://upload.wikimedia.org/wikipedia/commons/c/c0/Dimitris_Mitropanos.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
-        "alt": "Portrait or image of Dimitris Mitropanos.",
-        "credit": "Stav732",
-        "source": "https://commons.wikimedia.org/wiki/File:Dimitris_Mitropanos.jpg",
-        "license": "CC BY 4.0",
-        "licenseUrl": "https://creativecommons.org/licenses/by/4.0"
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/6e/Joseph_Karl_Stieler%27s_Beethoven_mit_dem_Manuskript_der_Missa_solemnis.jpg/1280px-Joseph_Karl_Stieler%27s_Beethoven_mit_dem_Manuskript_der_Missa_solemnis.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "alt": "Picture from the Wikipedia article on Ludwig van Beethoven.",
+        "credit": "Joseph Karl Stieler",
+        "source": "https://commons.wikimedia.org/wiki/File:Joseph_Karl_Stieler%27s_Beethoven_mit_dem_Manuskript_der_Missa_solemnis.jpg",
+        "license": "Public domain",
+        "licenseUrl": "https://commons.wikimedia.org/wiki/File:Joseph_Karl_Stieler%27s_Beethoven_mit_dem_Manuskript_der_Missa_solemnis.jpg"
       }
     }
   ]

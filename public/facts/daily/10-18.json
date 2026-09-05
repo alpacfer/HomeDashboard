@@ -3,18 +3,17 @@
   "dateLabel": "18 October",
   "facts": [
     {
-      "id": "10-18-spain-pope-martin-iv",
+      "id": "10-18-venera-4",
       "date": "10-18",
       "dateLabel": "18 October",
-      "country": "spain",
-      "countryName": "Spain",
-      "kind": "events",
-      "year": 1281,
-      "title": "Pope Martin IV",
-      "body": "1281: Pope Martin IV excommunicates King Peter III of Aragon for usurping the crown of Sicily (a sentence renewed on 7 May and 18 November 1282).",
+      "category": "space",
+      "categoryName": "Space",
+      "year": 1967,
+      "title": "Venera 4",
+      "body": "The Soviet probe Venera 4 reaches Venus and becomes the first spacecraft to measure the atmosphere of another planet.",
       "source": {
-        "name": "Wikipedia · Pope Martin IV",
-        "url": "https://en.wikipedia.org/wiki/Pope_Martin_IV",
+        "name": "Wikipedia · Venera 4",
+        "url": "https://en.wikipedia.org/wiki/Venera_4",
         "calendarUrl": "https://en.wikipedia.org/wiki/October_18",
         "license": {
           "name": "CC BY-SA 4.0",
@@ -22,68 +21,66 @@
         }
       },
       "image": {
-        "src": "https://upload.wikimedia.org/wikipedia/commons/6/62/Martin_IV.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
-        "alt": "Image related to Pope Martin IV.",
-        "credit": "Unknown authorUnknown author",
-        "source": "https://commons.wikimedia.org/wiki/File:Martin_IV.jpg",
-        "license": "Public domain",
-        "licenseUrl": "https://commons.wikimedia.org/wiki/File:Martin_IV.jpg"
-      }
-    },
-    {
-      "id": "10-18-denmark-sidney-holland",
-      "date": "10-18",
-      "dateLabel": "18 October",
-      "country": "denmark",
-      "countryName": "Denmark",
-      "kind": "births",
-      "year": 1893,
-      "title": "Sidney Holland",
-      "body": "Sidney Holland, New Zealand lieutenant and politician, 25th Prime Minister of New Zealand (died 1961), was born on this day in 1893.",
-      "source": {
-        "name": "Wikipedia · Sidney Holland",
-        "url": "https://en.wikipedia.org/wiki/Sidney_Holland",
-        "calendarUrl": "https://en.wikipedia.org/wiki/October_18",
-        "license": {
-          "name": "CC BY-SA 4.0",
-          "url": "https://creativecommons.org/licenses/by-sa/4.0/"
-        }
-      },
-      "image": {
-        "src": "https://upload.wikimedia.org/wikipedia/commons/2/2c/Sidney_George_Holland_%281953%29_2.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
-        "alt": "Portrait or image of Sidney Holland.",
-        "credit": "Gordon Burt",
-        "source": "https://commons.wikimedia.org/wiki/File:Sidney_George_Holland_(1953)_2.png",
-        "license": "Public domain",
-        "licenseUrl": "https://commons.wikimedia.org/wiki/File:Sidney_George_Holland_(1953)_2.png"
-      }
-    },
-    {
-      "id": "10-18-greece-normans",
-      "date": "10-18",
-      "dateLabel": "18 October",
-      "country": "greece",
-      "countryName": "Greece",
-      "kind": "events",
-      "year": 1081,
-      "title": "Normans",
-      "body": "1081: The Normans defeat the Byzantine Empire in the Battle of Dyrrhachium.",
-      "source": {
-        "name": "Wikipedia · Normans",
-        "url": "https://en.wikipedia.org/wiki/Normans",
-        "calendarUrl": "https://en.wikipedia.org/wiki/October_18",
-        "license": {
-          "name": "CC BY-SA 4.0",
-          "url": "https://creativecommons.org/licenses/by-sa/4.0/"
-        }
-      },
-      "image": {
-        "src": "https://upload.wikimedia.org/wikipedia/commons/d/dd/Drapeau_de_la_Normandie_%28version_traditionnelle%29.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
-        "alt": "Image related to Normans.",
-        "credit": "Oedipe23",
-        "source": "https://commons.wikimedia.org/wiki/File:Drapeau_de_la_Normandie_(version_traditionnelle).png",
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/05/Venera_4_%28MMA_2011%29_%281%29.JPG/1280px-Venera_4_%28MMA_2011%29_%281%29.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "alt": "Picture from the Wikipedia article on Venera 4.",
+        "credit": "Armael",
+        "source": "https://commons.wikimedia.org/wiki/File:Venera_4_(MMA_2011)_(1).JPG",
         "license": "CC0",
         "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/deed.en"
+      }
+    },
+    {
+      "id": "10-18-regency-tr-1",
+      "date": "10-18",
+      "dateLabel": "18 October",
+      "category": "tech",
+      "categoryName": "Tech",
+      "year": 1954,
+      "title": "Regency TR-1",
+      "body": "Texas Instruments announces the Regency TR-1, the first mass-produced transistor radio.",
+      "source": {
+        "name": "Wikipedia · Regency TR-1",
+        "url": "https://en.wikipedia.org/wiki/Regency_TR-1",
+        "calendarUrl": "https://en.wikipedia.org/wiki/October_18",
+        "license": {
+          "name": "CC BY-SA 4.0",
+          "url": "https://creativecommons.org/licenses/by-sa/4.0/"
+        }
+      },
+      "image": {
+        "src": "https://upload.wikimedia.org/wikipedia/commons/2/2c/Regency_TR-1.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+        "alt": "Picture from the Wikipedia article on Regency TR-1.",
+        "credit": "Cmglee",
+        "source": "https://commons.wikimedia.org/wiki/File:Regency_TR-1.jpg",
+        "license": "CC BY-SA 3.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0"
+      }
+    },
+    {
+      "id": "10-18-henrik-igityan-national-centre-for-aesthetics",
+      "date": "10-18",
+      "dateLabel": "18 October",
+      "category": "culture",
+      "categoryName": "Culture",
+      "year": 1978,
+      "title": "Henrik Igityan National Centre for Aesthetics",
+      "body": "Based on the world's first children's art museum, the Henrik Igityan National Centre for Aesthetics opened in Yerevan.",
+      "source": {
+        "name": "Wikipedia · Henrik Igityan National Centre for Aesthetics",
+        "url": "https://en.wikipedia.org/wiki/Henrik_Igityan_National_Centre_for_Aesthetics",
+        "calendarUrl": "https://en.wikipedia.org/wiki/October_18",
+        "license": {
+          "name": "CC BY-SA 4.0",
+          "url": "https://creativecommons.org/licenses/by-sa/4.0/"
+        }
+      },
+      "image": {
+        "src": "https://upload.wikimedia.org/wikipedia/commons/6/63/National_Center_of_Aesthetics%2C_Armenia%2C_Yerevan.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+        "alt": "Picture from the Wikipedia article on Henrik Igityan National Centre for Aesthetics.",
+        "credit": "GAK wiki",
+        "source": "https://commons.wikimedia.org/wiki/File:National_Center_of_Aesthetics,_Armenia,_Yerevan.jpg",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0"
       }
     }
   ]

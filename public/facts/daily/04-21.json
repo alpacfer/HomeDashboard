@@ -3,18 +3,17 @@
   "dateLabel": "21 April",
   "facts": [
     {
-      "id": "04-21-spain-spanish-american-war",
+      "id": "04-21-transit-satellite",
       "date": "04-21",
       "dateLabel": "21 April",
-      "country": "spain",
-      "countryName": "Spain",
-      "kind": "events",
-      "year": 1898,
-      "title": "Spanish–American War",
-      "body": "1898: Spanish–American War: The United States Navy begins a blockade of Cuban ports. When the U.S. Congress issued a declaration of war on April 25, it declared that a state of war had existed from this date.",
+      "category": "space",
+      "categoryName": "Space",
+      "year": 1964,
+      "title": "Transit",
+      "body": "A Transit-5bn satellite fails to reach orbit after launch; as it re-enters the atmosphere, of radioactive plutonium in its SNAP RTG power source is widely dispersed.",
       "source": {
-        "name": "Wikipedia · Spanish–American War",
-        "url": "https://en.wikipedia.org/wiki/Spanish%E2%80%93American_War",
+        "name": "Wikipedia · Transit (satellite navigation system)",
+        "url": "https://en.wikipedia.org/wiki/Transit_(satellite_navigation_system)",
         "calendarUrl": "https://en.wikipedia.org/wiki/April_21",
         "license": {
           "name": "CC BY-SA 4.0",
@@ -22,27 +21,26 @@
         }
       },
       "image": {
-        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/84/Collage_infobox_for_Spanish-American_War.jpg/1280px-Collage_infobox_for_Spanish-American_War.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-        "alt": "Image related to Spanish–American War.",
-        "credit": "Barbudo Barbudo and TEP",
-        "source": "https://commons.wikimedia.org/wiki/File:Collage_infobox_for_Spanish-American_War.jpg",
-        "license": "CC BY-SA 4.0",
-        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0"
+        "src": "https://upload.wikimedia.org/wikipedia/commons/e/e5/GRAB_1_and_Transit_2A_%28launch_preparations%29.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+        "alt": "Picture from the Wikipedia article on Transit.",
+        "credit": "Bruce Carlson",
+        "source": "https://commons.wikimedia.org/wiki/File:GRAB_1_and_Transit_2A_(launch_preparations).png",
+        "license": "Public domain",
+        "licenseUrl": "https://commons.wikimedia.org/wiki/File:GRAB_1_and_Transit_2A_(launch_preparations).png"
       }
     },
     {
-      "id": "04-21-denmark-fredrik-bajer",
+      "id": "04-21-loch-ness-monster",
       "date": "04-21",
       "dateLabel": "21 April",
-      "country": "denmark",
-      "countryName": "Denmark",
-      "kind": "births",
-      "year": 1837,
-      "title": "Fredrik Bajer",
-      "body": "Fredrik Bajer, Danish lieutenant and politician, Nobel Prize laureate (died 1922), was born on this day in 1837.",
+      "category": "curious",
+      "categoryName": "Curious",
+      "year": 1934,
+      "title": "Loch Ness Monster",
+      "body": "The \"Surgeon's Photograph\", the most famous photo allegedly showing the Loch Ness Monster, is published in the Daily Mail (in 1994, it is revealed to be a hoax).",
       "source": {
-        "name": "Wikipedia · Fredrik Bajer",
-        "url": "https://en.wikipedia.org/wiki/Fredrik_Bajer",
+        "name": "Wikipedia · Loch Ness Monster",
+        "url": "https://en.wikipedia.org/wiki/Loch_Ness_Monster",
         "calendarUrl": "https://en.wikipedia.org/wiki/April_21",
         "license": {
           "name": "CC BY-SA 4.0",
@@ -50,27 +48,26 @@
         }
       },
       "image": {
-        "src": "https://upload.wikimedia.org/wikipedia/commons/e/e2/Frederik_Bajer_by_E._M%C3%B8ller.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
-        "alt": "Portrait or image of Fredrik Bajer.",
-        "credit": "Eduard Benjamin Møller (1841-1911)",
-        "source": "https://commons.wikimedia.org/wiki/File:Frederik_Bajer_by_E._M%C3%B8ller.jpg",
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b3/Loch_Ness_Monster_Surgeon%27s_photograph.jpg/1280px-Loch_Ness_Monster_Surgeon%27s_photograph.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "alt": "Picture from the Wikipedia article on Loch Ness Monster.",
+        "credit": "M. A. Wetherell",
+        "source": "https://commons.wikimedia.org/wiki/File:Loch_Ness_Monster_Surgeon%27s_photograph.jpg",
         "license": "Public domain",
-        "licenseUrl": "https://commons.wikimedia.org/wiki/File:Frederik_Bajer_by_E._M%C3%B8ller.jpg"
+        "licenseUrl": "https://commons.wikimedia.org/wiki/File:Loch_Ness_Monster_Surgeon%27s_photograph.jpg"
       }
     },
     {
-      "id": "04-21-greece-benderli-ali-pasha",
+      "id": "04-21-rollie-fingers",
       "date": "04-21",
       "dateLabel": "21 April",
-      "country": "greece",
-      "countryName": "Greece",
-      "kind": "events",
-      "year": 1821,
-      "title": "Benderli Ali Pasha",
-      "body": "1821: Benderli Ali Pasha arrives in Constantinople as the new Grand Vizier of the Ottoman Empire; he remains in power for only nine days before being sent into exile.",
+      "category": "world",
+      "categoryName": "World",
+      "year": 1982,
+      "title": "Rollie Fingers",
+      "body": "Rollie Fingers of the Milwaukee Brewers becomes the first pitcher to record 300 saves.",
       "source": {
-        "name": "Wikipedia · Benderli Ali Pasha",
-        "url": "https://en.wikipedia.org/wiki/Benderli_Ali_Pasha",
+        "name": "Wikipedia · Rollie Fingers",
+        "url": "https://en.wikipedia.org/wiki/Rollie_Fingers",
         "calendarUrl": "https://en.wikipedia.org/wiki/April_21",
         "license": {
           "name": "CC BY-SA 4.0",
@@ -78,12 +75,12 @@
         }
       },
       "image": {
-        "src": "https://commons.wikimedia.org/wiki/Special:Redirect/file/Flag_of_Greece.svg?width=1000",
-        "alt": "The national flag of Greece.",
-        "credit": "Greek government",
-        "source": "https://commons.wikimedia.org/wiki/File:Flag_of_Greece.svg",
+        "src": "https://upload.wikimedia.org/wikipedia/commons/d/db/RollieFingersOAK.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+        "alt": "Picture from the Wikipedia article on Rollie Fingers.",
+        "credit": "Doug McWilliams",
+        "source": "https://commons.wikimedia.org/wiki/File:RollieFingersOAK.png",
         "license": "Public domain",
-        "licenseUrl": "https://commons.wikimedia.org/wiki/File:Flag_of_Greece.svg"
+        "licenseUrl": "https://commons.wikimedia.org/wiki/File:RollieFingersOAK.png"
       }
     }
   ]

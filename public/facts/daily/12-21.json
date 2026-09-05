@@ -3,18 +3,17 @@
   "dateLabel": "21 December",
   "facts": [
     {
-      "id": "12-21-spain-battle-of-linuesa",
+      "id": "12-21-apollo-8",
       "date": "12-21",
       "dateLabel": "21 December",
-      "country": "spain",
-      "countryName": "Spain",
-      "kind": "events",
-      "year": 1361,
-      "title": "Battle of Linuesa",
-      "body": "1361: The Battle of Linuesa is fought in the context of the Spanish Reconquista between the forces of the Emirate of Granada and the combined army of the Kingdom of Castile and of Jaén resulting in a Castilian victory.",
+      "category": "space",
+      "categoryName": "Space",
+      "year": 1968,
+      "title": "Apollo 8",
+      "body": "Apollo 8 is launched from the Kennedy Space Center, placing its crew on a lunar trajectory for the first visit to another celestial body by humans.",
       "source": {
-        "name": "Wikipedia · Battle of Linuesa",
-        "url": "https://en.wikipedia.org/wiki/Battle_of_Linuesa",
+        "name": "Wikipedia · Apollo 8",
+        "url": "https://en.wikipedia.org/wiki/Apollo_8",
         "calendarUrl": "https://en.wikipedia.org/wiki/December_21",
         "license": {
           "name": "CC BY-SA 4.0",
@@ -22,68 +21,66 @@
         }
       },
       "image": {
-        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/34/Emirate_of_Granada.svg/1280px-Emirate_of_Granada.svg.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-        "alt": "Image related to Battle of Linuesa.",
-        "credit": "Amitchell125 (based on the map produced by Tyk and Redtony)",
-        "source": "https://commons.wikimedia.org/wiki/File:Emirate_of_Granada.svg",
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a8/NASA-Apollo8-Dec24-Earthrise.jpg/1280px-NASA-Apollo8-Dec24-Earthrise.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "alt": "Picture from the Wikipedia article on Apollo 8.",
+        "credit": "NASA/Bill Anders",
+        "source": "https://commons.wikimedia.org/wiki/File:NASA-Apollo8-Dec24-Earthrise.jpg",
+        "license": "Public domain",
+        "licenseUrl": "https://commons.wikimedia.org/wiki/File:NASA-Apollo8-Dec24-Earthrise.jpg"
+      }
+    },
+    {
+      "id": "12-21-bethlehem",
+      "date": "12-21",
+      "dateLabel": "21 December",
+      "category": "world",
+      "categoryName": "World",
+      "year": 1995,
+      "title": "Bethlehem",
+      "body": "The city of Bethlehem passes from Israeli to Palestinian control.",
+      "source": {
+        "name": "Wikipedia · Bethlehem",
+        "url": "https://en.wikipedia.org/wiki/Bethlehem",
+        "calendarUrl": "https://en.wikipedia.org/wiki/December_21",
+        "license": {
+          "name": "CC BY-SA 4.0",
+          "url": "https://creativecommons.org/licenses/by-sa/4.0/"
+        }
+      },
+      "image": {
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/61/Church_of_the_Nativity_%287703592746%29.jpg/1280px-Church_of_the_Nativity_%287703592746%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "alt": "Picture from the Wikipedia article on Bethlehem.",
+        "credit": "Neil Ward",
+        "source": "https://commons.wikimedia.org/wiki/File:Church_of_the_Nativity_(7703592746).jpg",
+        "license": "CC BY 2.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by/2.0"
+      }
+    },
+    {
+      "id": "12-21-great-conjunction",
+      "date": "12-21",
+      "dateLabel": "21 December",
+      "category": "space",
+      "categoryName": "Space",
+      "year": 2020,
+      "title": "Great conjunction",
+      "body": "A great conjunction of Jupiter and Saturn occurs, with the two planets separated in the sky by 0.1 degrees. This is the closest conjunction between the two planets since 1623.",
+      "source": {
+        "name": "Wikipedia · Great conjunction",
+        "url": "https://en.wikipedia.org/wiki/Great_conjunction",
+        "calendarUrl": "https://en.wikipedia.org/wiki/December_21",
+        "license": {
+          "name": "CC BY-SA 4.0",
+          "url": "https://creativecommons.org/licenses/by-sa/4.0/"
+        }
+      },
+      "image": {
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/9e/TheGreatConjunction2020.png/1280px-TheGreatConjunction2020.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "alt": "Picture from the Wikipedia article on Great conjunction.",
+        "credit": "KSPFanatic102",
+        "source": "https://commons.wikimedia.org/wiki/File:TheGreatConjunction2020.png",
         "license": "CC BY-SA 4.0",
         "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0"
-      }
-    },
-    {
-      "id": "12-21-denmark-nora-helmer",
-      "date": "12-21",
-      "dateLabel": "21 December",
-      "country": "denmark",
-      "countryName": "Denmark",
-      "kind": "events",
-      "year": 1879,
-      "title": "Nora Helmer",
-      "body": "1879: the fictional character of Nora Helmer is first portrayed by Betty Hennings at a showing of A Doll's House at the Royal Danish Theatre.",
-      "source": {
-        "name": "Wikipedia · Nora Helmer",
-        "url": "https://en.wikipedia.org/wiki/Nora_Helmer",
-        "calendarUrl": "https://en.wikipedia.org/wiki/December_21",
-        "license": {
-          "name": "CC BY-SA 4.0",
-          "url": "https://creativecommons.org/licenses/by-sa/4.0/"
-        }
-      },
-      "image": {
-        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c6/Betty_Hennings_Nora_1_%28cropped%29.jpg/1280px-Betty_Hennings_Nora_1_%28cropped%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-        "alt": "Image related to Nora Helmer.",
-        "credit": "J. A. Schulz",
-        "source": "https://commons.wikimedia.org/wiki/File:Betty_Hennings_Nora_1_(cropped).jpg",
-        "license": "Public domain",
-        "licenseUrl": "https://commons.wikimedia.org/wiki/File:Betty_Hennings_Nora_1_(cropped).jpg"
-      }
-    },
-    {
-      "id": "12-21-greece-nikolaos-sifounakis",
-      "date": "12-21",
-      "dateLabel": "21 December",
-      "country": "greece",
-      "countryName": "Greece",
-      "kind": "births",
-      "year": 1949,
-      "title": "Nikolaos Sifounakis",
-      "body": "Nikolaos Sifounakis, Greek lawyer and politician, was born on this day in 1949.",
-      "source": {
-        "name": "Wikipedia · Nikolaos Sifounakis",
-        "url": "https://en.wikipedia.org/wiki/Nikolaos_Sifounakis",
-        "calendarUrl": "https://en.wikipedia.org/wiki/December_21",
-        "license": {
-          "name": "CC BY-SA 4.0",
-          "url": "https://creativecommons.org/licenses/by-sa/4.0/"
-        }
-      },
-      "image": {
-        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/0c/%CE%A3%CF%85%CE%BD%CE%B5%CE%B4%CF%81%CE%AF%CE%B1%CF%83%CE%B7_%CF%84%CE%BF%CF%85_%CE%A5%CF%80%CE%BF%CF%85%CF%81%CE%B3%CE%B9%CE%BA%CE%BF%CF%8D_%CE%A3%CF%85%CE%BC%CE%B2%CE%BF%CF%85%CE%BB%CE%AF%CE%BF%CF%85_08.11.2011.jpg/1280px-%CE%A3%CF%85%CE%BD%CE%B5%CE%B4%CF%81%CE%AF%CE%B1%CF%83%CE%B7_%CF%84%CE%BF%CF%85_%CE%A5%CF%80%CE%BF%CF%85%CF%81%CE%B3%CE%B9%CE%BA%CE%BF%CF%8D_%CE%A3%CF%85%CE%BC%CE%B2%CE%BF%CF%85%CE%BB%CE%AF%CE%BF%CF%85_08.11.2011.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-        "alt": "Portrait or image of Nikolaos Sifounakis.",
-        "credit": "Vasileios Filis",
-        "source": "https://commons.wikimedia.org/wiki/File:%CE%A3%CF%85%CE%BD%CE%B5%CE%B4%CF%81%CE%AF%CE%B1%CF%83%CE%B7_%CF%84%CE%BF%CF%85_%CE%A5%CF%80%CE%BF%CF%85%CF%81%CE%B3%CE%B9%CE%BA%CE%BF%CF%8D_%CE%A3%CF%85%CE%BC%CE%B2%CE%BF%CF%85%CE%BB%CE%AF%CE%BF%CF%85_08.11.2011.jpg",
-        "license": "CC BY-SA 2.0",
-        "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0"
       }
     }
   ]

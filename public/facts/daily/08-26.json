@@ -3,18 +3,17 @@
   "dateLabel": "26 August",
   "facts": [
     {
-      "id": "08-26-spain-dutch-portuguese-war",
+      "id": "08-26-pope-john-paul-i",
       "date": "08-26",
       "dateLabel": "26 August",
-      "country": "spain",
-      "countryName": "Spain",
-      "kind": "events",
-      "year": 1642,
-      "title": "Dutch–Portuguese War",
-      "body": "1642: Dutch–Portuguese War: Second Battle of San Salvador: The Dutch force the Spanish garrison at San Salvador (modern day Keelung, Taiwan) to surrender, ending the short-lived Spanish colony on Formosa and replacing it with a new Dutch administration.",
+      "category": "world",
+      "categoryName": "World",
+      "year": 1978,
+      "title": "Pope John Paul I",
+      "body": "Albino Luciani is elected as Pope John Paul I.",
       "source": {
-        "name": "Wikipedia · Dutch–Portuguese War",
-        "url": "https://en.wikipedia.org/wiki/Dutch%E2%80%93Portuguese_War",
+        "name": "Wikipedia · Pope John Paul I",
+        "url": "https://en.wikipedia.org/wiki/Pope_John_Paul_I",
         "calendarUrl": "https://en.wikipedia.org/wiki/August_26",
         "license": {
           "name": "CC BY-SA 4.0",
@@ -22,27 +21,26 @@
         }
       },
       "image": {
-        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f8/Victor_Meirelles_-_%27Battle_of_Guararapes%27%2C_1879%2C_oil_on_canvas%2C_Museu_Nacional_de_Belas_Artes%2C_Rio_de_Janeiro.JPG/1280px-Victor_Meirelles_-_%27Battle_of_Guararapes%27%2C_1879%2C_oil_on_canvas%2C_Museu_Nacional_de_Belas_Artes%2C_Rio_de_Janeiro.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-        "alt": "Image related to Dutch–Portuguese War.",
-        "credit": "Victor Meirelles",
-        "source": "https://commons.wikimedia.org/wiki/File:Victor_Meirelles_-_%27Battle_of_Guararapes%27,_1879,_oil_on_canvas,_Museu_Nacional_de_Belas_Artes,_Rio_de_Janeiro.JPG",
-        "license": "Public domain",
-        "licenseUrl": "https://commons.wikimedia.org/wiki/File:Victor_Meirelles_-_%27Battle_of_Guararapes%27,_1879,_oil_on_canvas,_Museu_Nacional_de_Belas_Artes,_Rio_de_Janeiro.JPG"
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e9/Paus_Johannes_Paulus_I_%28Bestanddeelnr_929-9074%29_%28cropped%29.jpg/1280px-Paus_Johannes_Paulus_I_%28Bestanddeelnr_929-9074%29_%28cropped%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "alt": "Picture from the Wikipedia article on Pope John Paul I.",
+        "credit": "Anefo",
+        "source": "https://commons.wikimedia.org/wiki/File:Paus_Johannes_Paulus_I_(Bestanddeelnr_929-9074)_(cropped).jpg",
+        "license": "CC0",
+        "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/deed.en"
       }
     },
     {
-      "id": "08-26-denmark-clara-sch-nfeld",
+      "id": "08-26-james-cook",
       "date": "08-26",
       "dateLabel": "26 August",
-      "country": "denmark",
-      "countryName": "Denmark",
-      "kind": "births",
-      "year": 1856,
-      "title": "Clara Schønfeld",
-      "body": "Clara Schønfeld, Danish actress (died 1939), was born on this day in 1856.",
+      "category": "science",
+      "categoryName": "Science",
+      "year": 1768,
+      "title": "James Cook",
+      "body": "Captain James Cook sets sail from England on board, starting his first voyage of discovery.",
       "source": {
-        "name": "Wikipedia · Clara Schønfeld",
-        "url": "https://en.wikipedia.org/wiki/Clara_Sch%C3%B8nfeld",
+        "name": "Wikipedia · James Cook",
+        "url": "https://en.wikipedia.org/wiki/James_Cook",
         "calendarUrl": "https://en.wikipedia.org/wiki/August_26",
         "license": {
           "name": "CC BY-SA 4.0",
@@ -50,27 +48,26 @@
         }
       },
       "image": {
-        "src": "https://commons.wikimedia.org/wiki/Special:Redirect/file/Flag_of_Denmark.svg?width=1000",
-        "alt": "The national flag of Denmark.",
-        "credit": "Danish government",
-        "source": "https://commons.wikimedia.org/wiki/File:Flag_of_Denmark.svg",
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/76/Captainjamescookportrait.jpg/1280px-Captainjamescookportrait.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "alt": "Picture from the Wikipedia article on James Cook.",
+        "credit": "Nathaniel Dance-Holland",
+        "source": "https://commons.wikimedia.org/wiki/File:Captainjamescookportrait.jpg",
         "license": "Public domain",
-        "licenseUrl": "https://commons.wikimedia.org/wiki/File:Flag_of_Denmark.svg"
+        "licenseUrl": "https://commons.wikimedia.org/wiki/File:Captainjamescookportrait.jpg"
       }
     },
     {
-      "id": "08-26-greece-seljuq-turks",
+      "id": "08-26-lutheran",
       "date": "08-26",
       "dateLabel": "26 August",
-      "country": "greece",
-      "countryName": "Greece",
-      "kind": "events",
-      "year": 1071,
-      "title": "Seljuq Turks",
-      "body": "1071: The Seljuq Turks defeat the Byzantine army at the Battle of Manzikert, and soon gain control of most of Anatolia.",
+      "category": "world",
+      "categoryName": "World",
+      "year": 1748,
+      "title": "Lutheranism",
+      "body": "The first Lutheran denomination in North America, the Pennsylvania Ministerium, is founded in Philadelphia.",
       "source": {
-        "name": "Wikipedia · Seljuk dynasty",
-        "url": "https://en.wikipedia.org/wiki/Seljuk_dynasty",
+        "name": "Wikipedia · Lutheranism",
+        "url": "https://en.wikipedia.org/wiki/Lutheranism",
         "calendarUrl": "https://en.wikipedia.org/wiki/August_26",
         "license": {
           "name": "CC BY-SA 4.0",
@@ -78,12 +75,12 @@
         }
       },
       "image": {
-        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/31/Ince_minare_sculpture_1.jpg/1280px-Ince_minare_sculpture_1.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-        "alt": "Image related to Seljuq Turks.",
-        "credit": "Fabienkhan modified by Ewan ar Born",
-        "source": "https://commons.wikimedia.org/wiki/File:Ince_minare_sculpture_1.jpg",
-        "license": "CC BY-SA 2.5",
-        "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.5"
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/17/Konsekration_Alsike_Kyrka.png/1280px-Konsekration_Alsike_Kyrka.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "alt": "Picture from the Wikipedia article on Lutheranism.",
+        "credit": "Atleett",
+        "source": "https://commons.wikimedia.org/wiki/File:Konsekration_Alsike_Kyrka.png",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0"
       }
     }
   ]

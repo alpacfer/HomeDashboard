@@ -3,18 +3,17 @@
   "dateLabel": "23 April",
   "facts": [
     {
-      "id": "04-23-spain-battle-of-villalar",
+      "id": "04-23-me-at-the-zoo",
       "date": "04-23",
       "dateLabel": "23 April",
-      "country": "spain",
-      "countryName": "Spain",
-      "kind": "events",
-      "year": 1521,
-      "title": "Battle of Villalar",
-      "body": "1521: Battle of Villalar: King Charles I of Spain defeats the Comuneros.",
+      "category": "tech",
+      "categoryName": "Tech",
+      "year": 2005,
+      "title": "Me at the zoo",
+      "body": "YouTube co-founder Jawed Karim posted nineteen seconds of himself standing in front of the elephants at San Diego Zoo. It was the first video ever uploaded to the site.",
       "source": {
-        "name": "Wikipedia · Battle of Villalar",
-        "url": "https://en.wikipedia.org/wiki/Battle_of_Villalar",
+        "name": "Wikipedia · Me at the zoo",
+        "url": "https://en.wikipedia.org/wiki/Me_at_the_zoo",
         "calendarUrl": "https://en.wikipedia.org/wiki/April_23",
         "license": {
           "name": "CC BY-SA 4.0",
@@ -22,27 +21,26 @@
         }
       },
       "image": {
-        "src": "https://upload.wikimedia.org/wikipedia/commons/2/2d/BatallaDeVillalar.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
-        "alt": "Image related to Battle of Villalar.",
-        "credit": "Manuel Picolo López",
-        "source": "https://commons.wikimedia.org/wiki/File:BatallaDeVillalar.jpg",
+        "src": "https://upload.wikimedia.org/wikipedia/commons/2/24/Jawed_Karim_2008.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+        "alt": "A photograph of YouTube co-founder Jawed Karim.",
+        "credit": "Picture taken by Robin BrownOriginal uploaded by Jawed (Transfered by Quibik)",
+        "source": "https://commons.wikimedia.org/wiki/File:Jawed_Karim_2008.jpg",
         "license": "Public domain",
-        "licenseUrl": "https://commons.wikimedia.org/wiki/File:BatallaDeVillalar.jpg"
+        "licenseUrl": "https://commons.wikimedia.org/wiki/File:Jawed_Karim_2008.jpg"
       }
     },
     {
-      "id": "04-23-denmark-battle-of-clontarf",
+      "id": "04-23-soyuz-1",
       "date": "04-23",
       "dateLabel": "23 April",
-      "country": "denmark",
-      "countryName": "Denmark",
-      "kind": "events",
-      "year": 1014,
-      "title": "Battle of Clontarf",
-      "body": "1014: Battle of Clontarf: High King of Ireland Brian Boru defeats Viking invaders, but is killed in battle.",
+      "category": "space",
+      "categoryName": "Space",
+      "year": 1967,
+      "title": "Soyuz 1",
+      "body": "Soyuz 1 (Russian: Союз 1, Union 1), a crewed spaceflight carrying cosmonaut Colonel Vladimir Komarov, is launched into orbit.",
       "source": {
-        "name": "Wikipedia · Battle of Clontarf",
-        "url": "https://en.wikipedia.org/wiki/Battle_of_Clontarf",
+        "name": "Wikipedia · Soyuz 1",
+        "url": "https://en.wikipedia.org/wiki/Soyuz_1",
         "calendarUrl": "https://en.wikipedia.org/wiki/April_23",
         "license": {
           "name": "CC BY-SA 4.0",
@@ -50,27 +48,26 @@
         }
       },
       "image": {
-        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a7/%27Battle_of_Clontarf%27%2C_oil_on_canvas_painting_by_Hugh_Frazer%2C_1826.jpg/1280px-%27Battle_of_Clontarf%27%2C_oil_on_canvas_painting_by_Hugh_Frazer%2C_1826.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-        "alt": "Image related to Battle of Clontarf.",
-        "credit": "Hugh Frazer",
-        "source": "https://commons.wikimedia.org/wiki/File:%27Battle_of_Clontarf%27,_oil_on_canvas_painting_by_Hugh_Frazer,_1826.jpg",
-        "license": "Public domain",
-        "licenseUrl": "https://commons.wikimedia.org/wiki/File:%27Battle_of_Clontarf%27,_oil_on_canvas_painting_by_Hugh_Frazer,_1826.jpg"
+        "src": "https://upload.wikimedia.org/wikipedia/commons/a/ab/%D0%92%D0%BB%D0%B0%D0%B4%D0%B8%D0%BC%D0%B8%D1%80_%D0%9A%D0%BE%D0%BC%D0%B0%D1%80%D0%BE%D0%B2.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+        "alt": "Picture from the Wikipedia article on Soyuz 1.",
+        "credit": "Mil.ru",
+        "source": "https://commons.wikimedia.org/wiki/File:%D0%92%D0%BB%D0%B0%D0%B4%D0%B8%D0%BC%D0%B8%D1%80_%D0%9A%D0%BE%D0%BC%D0%B0%D1%80%D0%BE%D0%B2.jpg",
+        "license": "CC BY 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by/4.0"
       }
     },
     {
-      "id": "04-23-greece-world-war-ii",
+      "id": "04-23-coca-cola",
       "date": "04-23",
       "dateLabel": "23 April",
-      "country": "greece",
-      "countryName": "Greece",
-      "kind": "events",
-      "year": 1941,
-      "title": "World War II",
-      "body": "1941: World War II: The Greek government and King George II evacuate Athens before the invading Wehrmacht.",
+      "category": "world",
+      "categoryName": "World",
+      "year": 1985,
+      "title": "Coca-Cola",
+      "body": "Coca-Cola changes its formula and releases New Coke. The response is overwhelmingly negative, and the original formula is back on the market in less than three months.",
       "source": {
-        "name": "Wikipedia · World War II",
-        "url": "https://en.wikipedia.org/wiki/World_War_II",
+        "name": "Wikipedia · Coca-Cola",
+        "url": "https://en.wikipedia.org/wiki/Coca-Cola",
         "calendarUrl": "https://en.wikipedia.org/wiki/April_23",
         "license": {
           "name": "CC BY-SA 4.0",
@@ -78,12 +75,12 @@
         }
       },
       "image": {
-        "src": "https://upload.wikimedia.org/wikipedia/commons/1/10/Bundesarchiv_Bild_101I-646-5188-17%2C_Flugzeuge_Junkers_Ju_87.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
-        "alt": "Image related to World War II.",
-        "credit": "Bundesarchiv, Bild 101I-646-5188-17 / Opitz / CC-BY-SA 3.0",
-        "source": "https://commons.wikimedia.org/wiki/File:Bundesarchiv_Bild_101I-646-5188-17,_Flugzeuge_Junkers_Ju_87.jpg",
-        "license": "CC BY-SA 3.0 de",
-        "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0/de/deed.en"
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/27/Coca_Cola_Flasche_-_Original_Taste.jpg/1280px-Coca_Cola_Flasche_-_Original_Taste.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "alt": "Picture from the Wikipedia article on Coca-Cola.",
+        "credit": "DYVER",
+        "source": "https://commons.wikimedia.org/wiki/File:Coca_Cola_Flasche_-_Original_Taste.jpg",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0"
       }
     }
   ]

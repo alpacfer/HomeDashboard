@@ -3,18 +3,17 @@
   "dateLabel": "28 January",
   "facts": [
     {
-      "id": "01-28-spain-spanish-legion",
+      "id": "01-28-the-shining-novel",
       "date": "01-28",
       "dateLabel": "28 January",
-      "country": "spain",
-      "countryName": "Spain",
-      "kind": "events",
-      "year": 1920,
-      "title": "Spanish Legion",
-      "body": "1920: Foundation of the Spanish Legion.",
+      "category": "culture",
+      "categoryName": "Culture",
+      "year": 1977,
+      "title": "The Shining",
+      "body": "The Shining, the horror novel and the first hardcover bestseller by Stephen King, is published.",
       "source": {
-        "name": "Wikipedia · Spanish Legion",
-        "url": "https://en.wikipedia.org/wiki/Spanish_Legion",
+        "name": "Wikipedia · The Shining (novel)",
+        "url": "https://en.wikipedia.org/wiki/The_Shining_(novel)",
         "calendarUrl": "https://en.wikipedia.org/wiki/January_28",
         "license": {
           "name": "CC BY-SA 4.0",
@@ -22,55 +21,26 @@
         }
       },
       "image": {
-        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/78/Emblem_of_the_Spanish_Legion.svg/1280px-Emblem_of_the_Spanish_Legion.svg.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-        "alt": "Image related to Spanish Legion.",
-        "credit": "Heralder",
-        "source": "https://commons.wikimedia.org/wiki/File:Emblem_of_the_Spanish_Legion.svg",
-        "license": "CC BY-SA 3.0",
-        "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0"
-      }
-    },
-    {
-      "id": "01-28-denmark-trevor-skeet",
-      "date": "01-28",
-      "dateLabel": "28 January",
-      "country": "denmark",
-      "countryName": "Denmark",
-      "kind": "births",
-      "year": 1918,
-      "title": "Trevor Skeet",
-      "body": "Trevor Skeet, New Zealand-English lawyer and politician (died 2004), was born on this day in 1918.",
-      "source": {
-        "name": "Wikipedia · Trevor Skeet",
-        "url": "https://en.wikipedia.org/wiki/Trevor_Skeet",
-        "calendarUrl": "https://en.wikipedia.org/wiki/January_28",
-        "license": {
-          "name": "CC BY-SA 4.0",
-          "url": "https://creativecommons.org/licenses/by-sa/4.0/"
-        }
-      },
-      "image": {
-        "src": "https://commons.wikimedia.org/wiki/Special:Redirect/file/Flag_of_Denmark.svg?width=1000",
-        "alt": "The national flag of Denmark.",
-        "credit": "Danish government",
-        "source": "https://commons.wikimedia.org/wiki/File:Flag_of_Denmark.svg",
+        "src": "https://upload.wikimedia.org/wikipedia/commons/0/09/The_Shining_%281977%29_front_cover%2C_first_edition.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+        "alt": "Picture from the Wikipedia article on The Shining.",
+        "credit": "Jacket illustration by Dave Christensen Jacket typography by Al Nagy Photo by Alex Gotfryd",
+        "source": "https://commons.wikimedia.org/wiki/File:The_Shining_(1977)_front_cover,_first_edition.jpg",
         "license": "Public domain",
-        "licenseUrl": "https://commons.wikimedia.org/wiki/File:Flag_of_Denmark.svg"
+        "licenseUrl": "https://commons.wikimedia.org/wiki/File:The_Shining_(1977)_front_cover,_first_edition.jpg"
       }
     },
     {
-      "id": "01-28-greece-markos-vafeiadis",
+      "id": "01-28-great-lakes-blizzard-of-1977",
       "date": "01-28",
       "dateLabel": "28 January",
-      "country": "greece",
-      "countryName": "Greece",
-      "kind": "births",
-      "year": 1906,
-      "title": "Markos Vafeiadis",
-      "body": "Markos Vafeiadis, Greek general and politician (died 1992), was born on this day in 1906.",
+      "category": "world",
+      "categoryName": "World",
+      "year": 1977,
+      "title": "Blizzard of 1977",
+      "body": "The first day of the Great Lakes Blizzard of 1977, which dumps of snow in one day in Upstate New York. Buffalo, Syracuse, Watertown, and surrounding areas are most affected.",
       "source": {
-        "name": "Wikipedia · Markos Vafeiadis",
-        "url": "https://en.wikipedia.org/wiki/Markos_Vafeiadis",
+        "name": "Wikipedia · Blizzard of 1977",
+        "url": "https://en.wikipedia.org/wiki/Blizzard_of_1977",
         "calendarUrl": "https://en.wikipedia.org/wiki/January_28",
         "license": {
           "name": "CC BY-SA 4.0",
@@ -78,12 +48,39 @@
         }
       },
       "image": {
-        "src": "https://upload.wikimedia.org/wikipedia/commons/4/4e/Markos_Vafeiadis.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
-        "alt": "Portrait or image of Markos Vafeiadis.",
-        "credit": "Geler7167",
-        "source": "https://commons.wikimedia.org/wiki/File:Markos_Vafeiadis.png",
-        "license": "CC BY-SA 4.0",
-        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0"
+        "src": "https://upload.wikimedia.org/wikipedia/commons/d/d5/Blizzard_of_1977.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+        "alt": "Picture from the Wikipedia article on Blizzard of 1977.",
+        "credit": "\"Department of Transportation\" (presumably New York State Department of Transportation), published in Operation Snow Go - Blizzard of '77[1] by the U.S. Army Co",
+        "source": "https://commons.wikimedia.org/wiki/File:Blizzard_of_1977.jpg",
+        "license": "Public domain",
+        "licenseUrl": "https://commons.wikimedia.org/wiki/File:Blizzard_of_1977.jpg"
+      }
+    },
+    {
+      "id": "01-28-lego",
+      "date": "01-28",
+      "dateLabel": "28 January",
+      "category": "culture",
+      "categoryName": "Culture",
+      "year": 1958,
+      "title": "Lego",
+      "body": "The Lego company patents the design of its Lego bricks, still compatible with bricks produced today.",
+      "source": {
+        "name": "Wikipedia · Lego",
+        "url": "https://en.wikipedia.org/wiki/Lego",
+        "calendarUrl": "https://en.wikipedia.org/wiki/January_28",
+        "license": {
+          "name": "CC BY-SA 4.0",
+          "url": "https://creativecommons.org/licenses/by-sa/4.0/"
+        }
+      },
+      "image": {
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/24/LEGO_logo.svg/1280px-LEGO_logo.svg.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "alt": "Picture from the Wikipedia article on Lego.",
+        "credit": "The Lego Group",
+        "source": "https://commons.wikimedia.org/wiki/File:LEGO_logo.svg",
+        "license": "Public domain",
+        "licenseUrl": "https://commons.wikimedia.org/wiki/File:LEGO_logo.svg"
       }
     }
   ]

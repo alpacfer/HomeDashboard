@@ -3,18 +3,17 @@
   "dateLabel": "9 August",
   "facts": [
     {
-      "id": "08-09-spain-maria-vittoria-dal-pozzo",
+      "id": "08-09-thomas-edison",
       "date": "08-09",
       "dateLabel": "9 August",
-      "country": "spain",
-      "countryName": "Spain",
-      "kind": "births",
-      "year": 1847,
-      "title": "Maria Vittoria dal Pozzo",
-      "body": "Maria Vittoria dal Pozzo, Queen Consort of King Amadeo I of Spain (died 1876), was born on this day in 1847.",
+      "category": "tech",
+      "categoryName": "Tech",
+      "year": 1892,
+      "title": "Thomas Edison",
+      "body": "Thomas Edison receives a patent for a two-way telegraph.",
       "source": {
-        "name": "Wikipedia · Maria Vittoria dal Pozzo",
-        "url": "https://en.wikipedia.org/wiki/Maria_Vittoria_dal_Pozzo",
+        "name": "Wikipedia · Thomas Edison",
+        "url": "https://en.wikipedia.org/wiki/Thomas_Edison",
         "calendarUrl": "https://en.wikipedia.org/wiki/August_9",
         "license": {
           "name": "CC BY-SA 4.0",
@@ -22,27 +21,26 @@
         }
       },
       "image": {
-        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/ea/Mar%C3%ADa_Victoria_dal_Pozzo%2C_reina_consorte_de_Espa%C3%B1a.jpg/1280px-Mar%C3%ADa_Victoria_dal_Pozzo%2C_reina_consorte_de_Espa%C3%B1a.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-        "alt": "Portrait or image of Maria Vittoria dal Pozzo.",
-        "credit": "Unknown authorUnknown author",
-        "source": "https://commons.wikimedia.org/wiki/File:Mar%C3%ADa_Victoria_dal_Pozzo,_reina_consorte_de_Espa%C3%B1a.jpg",
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/9d/Thomas_Edison2.jpg/1280px-Thomas_Edison2.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "alt": "Picture from the Wikipedia article on Thomas Edison.",
+        "credit": "Louis Bachrach, Bachrach Studios, restored by Michel Vuijlsteke",
+        "source": "https://commons.wikimedia.org/wiki/File:Thomas_Edison2.jpg",
         "license": "Public domain",
-        "licenseUrl": "https://commons.wikimedia.org/wiki/File:Mar%C3%ADa_Victoria_dal_Pozzo,_reina_consorte_de_Espa%C3%B1a.jpg"
+        "licenseUrl": "https://commons.wikimedia.org/wiki/File:Thomas_Edison2.jpg"
       }
     },
     {
-      "id": "08-09-denmark-edward-vii",
+      "id": "08-09-watergate-scandal",
       "date": "08-09",
       "dateLabel": "9 August",
-      "country": "denmark",
-      "countryName": "Denmark",
-      "kind": "events",
-      "year": 1902,
-      "title": "Edward VII",
-      "body": "1902: Edward VII and Alexandra of Denmark are crowned King and Queen of the United Kingdom of Great Britain and Ireland.",
+      "category": "world",
+      "categoryName": "World",
+      "year": 1974,
+      "title": "Watergate scandal",
+      "body": "As a direct result of the Watergate scandal, Richard Nixon becomes the first president of the United States to resign from office. Vice President Gerald Ford becomes president.",
       "source": {
-        "name": "Wikipedia · Edward VII",
-        "url": "https://en.wikipedia.org/wiki/Edward_VII",
+        "name": "Wikipedia · Watergate scandal",
+        "url": "https://en.wikipedia.org/wiki/Watergate_scandal",
         "calendarUrl": "https://en.wikipedia.org/wiki/August_9",
         "license": {
           "name": "CC BY-SA 4.0",
@@ -50,27 +48,26 @@
         }
       },
       "image": {
-        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/56/King-Edward-VII_%28cropped%29_%28b%29.jpg/1280px-King-Edward-VII_%28cropped%29_%28b%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-        "alt": "Image related to Edward VII.",
-        "credit": "W. & D. Downey",
-        "source": "https://commons.wikimedia.org/wiki/File:King-Edward-VII_(cropped)_(b).jpg",
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/1f/Watergate_complex.jpg/1280px-Watergate_complex.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "alt": "Picture from the Wikipedia article on Watergate scandal.",
+        "credit": "U.S. District Court for the District of Columbia",
+        "source": "https://commons.wikimedia.org/wiki/File:Watergate_complex.jpg",
         "license": "Public domain",
-        "licenseUrl": "https://commons.wikimedia.org/wiki/File:King-Edward-VII_(cropped)_(b).jpg"
+        "licenseUrl": "https://commons.wikimedia.org/wiki/File:Watergate_complex.jpg"
       }
     },
     {
-      "id": "08-09-greece-vasilios-koutsianikoulis",
+      "id": "08-09-dmitri-shostakovich",
       "date": "08-09",
       "dateLabel": "9 August",
-      "country": "greece",
-      "countryName": "Greece",
-      "kind": "births",
-      "year": 1988,
-      "title": "Vasilios Koutsianikoulis",
-      "body": "Vasilios Koutsianikoulis, Greek footballer, was born on this day in 1988.",
+      "category": "culture",
+      "categoryName": "Culture",
+      "year": 1942,
+      "title": "Dmitri Shostakovich",
+      "body": "Dmitri Shostakovich's 7th symphony premieres in a besieged Leningrad.",
       "source": {
-        "name": "Wikipedia · Vasilios Koutsianikoulis",
-        "url": "https://en.wikipedia.org/wiki/Vasilios_Koutsianikoulis",
+        "name": "Wikipedia · Dmitri Shostakovich",
+        "url": "https://en.wikipedia.org/wiki/Dmitri_Shostakovich",
         "calendarUrl": "https://en.wikipedia.org/wiki/August_9",
         "license": {
           "name": "CC BY-SA 4.0",
@@ -78,12 +75,12 @@
         }
       },
       "image": {
-        "src": "https://commons.wikimedia.org/wiki/Special:Redirect/file/Flag_of_Greece.svg?width=1000",
-        "alt": "The national flag of Greece.",
-        "credit": "Greek government",
-        "source": "https://commons.wikimedia.org/wiki/File:Flag_of_Greece.svg",
+        "src": "https://upload.wikimedia.org/wikipedia/commons/6/64/%D0%9A%D0%BE%D0%BC%D0%BF%D0%BE%D0%B7%D0%B8%D1%82%D0%BE%D1%80_%D0%94%D0%BC%D0%B8%D1%82%D1%80%D0%B8%D0%B9_%D0%94%D0%BC%D0%B8%D1%82%D1%80%D0%B8%D0%B5%D0%B2%D0%B8%D1%87_%D0%A8%D0%BE%D1%81%D1%82%D0%B0%D0%BA%D0%BE%D0%B2%D0%B8%D1%87.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+        "alt": "Picture from the Wikipedia article on Dmitri Shostakovich.",
+        "credit": "Unknown author",
+        "source": "https://commons.wikimedia.org/wiki/File:%D0%9A%D0%BE%D0%BC%D0%BF%D0%BE%D0%B7%D0%B8%D1%82%D0%BE%D1%80_%D0%94%D0%BC%D0%B8%D1%82%D1%80%D0%B8%D0%B9_%D0%94%D0%BC%D0%B8%D1%82%D1%80%D0%B8%D0%B5%D0%B2%D0%B8%D1%87_%D0%A8%D0%BE%D1%81%D1%82%D0%B0%D0%BA%D0%BE%D0%B2%D0%B8%D1%87.jpg",
         "license": "Public domain",
-        "licenseUrl": "https://commons.wikimedia.org/wiki/File:Flag_of_Greece.svg"
+        "licenseUrl": "https://commons.wikimedia.org/wiki/File:%D0%9A%D0%BE%D0%BC%D0%BF%D0%BE%D0%B7%D0%B8%D1%82%D0%BE%D1%80_%D0%94%D0%BC%D0%B8%D1%82%D1%80%D0%B8%D0%B9_%D0%94%D0%BC%D0%B8%D1%82%D1%80%D0%B8%D0%B5%D0%B2%D0%B8%D1%87_%D0%A8%D0%BE%D1%81%D1%82%D0%B0%D0%BA%D0%BE%D0%B2%D0%B8%D1%87.jpg"
       }
     }
   ]

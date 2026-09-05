@@ -3,18 +3,17 @@
   "dateLabel": "28 March",
   "facts": [
     {
-      "id": "03-28-spain-peninsular-war",
+      "id": "03-28-2006-youth-protests-in-france",
       "date": "03-28",
       "dateLabel": "28 March",
-      "country": "spain",
-      "countryName": "Spain",
-      "kind": "events",
-      "year": 1809,
-      "title": "Peninsular War",
-      "body": "1809: Peninsular War: France defeats Spain in the Battle of Medellín.",
+      "category": "world",
+      "categoryName": "World",
+      "year": 2006,
+      "title": "2006 youth protests in France",
+      "body": "At least one million union members, students and unemployed take to the streets in France in protest at the government's proposed First Employment Contract law.",
       "source": {
-        "name": "Wikipedia · Peninsular War",
-        "url": "https://en.wikipedia.org/wiki/Peninsular_War",
+        "name": "Wikipedia · 2006 youth protests in France",
+        "url": "https://en.wikipedia.org/wiki/2006_youth_protests_in_France",
         "calendarUrl": "https://en.wikipedia.org/wiki/March_28",
         "license": {
           "name": "CC BY-SA 4.0",
@@ -22,27 +21,26 @@
         }
       },
       "image": {
-        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/93/Peninsular_war_collage.jpg/1280px-Peninsular_war_collage.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-        "alt": "Image related to Peninsular War.",
-        "credit": "Ruedi33a",
-        "source": "https://commons.wikimedia.org/wiki/File:Peninsular_war_collage.jpg",
-        "license": "CC BY-SA 4.0",
-        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0"
+        "src": "https://upload.wikimedia.org/wikipedia/commons/0/00/Paris_main_entry_campus_jussieu-greve_contre_CPE-2006-02-27.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+        "alt": "Picture from the Wikipedia article on 2006 youth protests in France.",
+        "credit": "Nomen.nominandum~commonswiki",
+        "source": "https://commons.wikimedia.org/wiki/File:Paris_main_entry_campus_jussieu-greve_contre_CPE-2006-02-27.jpg",
+        "license": "CC BY-SA 3.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0/"
       }
     },
     {
-      "id": "03-28-denmark-ingrid-of-sweden",
+      "id": "03-28-heinrich-wilhelm-matth-us-olbers",
       "date": "03-28",
       "dateLabel": "28 March",
-      "country": "denmark",
-      "countryName": "Denmark",
-      "kind": "births",
-      "year": 1910,
-      "title": "Ingrid of Sweden",
-      "body": "Ingrid of Sweden, Queen of Denmark (died 2000), was born on this day in 1910.",
+      "category": "space",
+      "categoryName": "Space",
+      "year": 1802,
+      "title": "Heinrich Wilhelm Matthias Olbers",
+      "body": "Heinrich Wilhelm Matthäus Olbers discovers 2 Pallas, the second asteroid ever to be discovered.",
       "source": {
-        "name": "Wikipedia · Ingrid of Sweden",
-        "url": "https://en.wikipedia.org/wiki/Ingrid_of_Sweden",
+        "name": "Wikipedia · Heinrich Wilhelm Matthias Olbers",
+        "url": "https://en.wikipedia.org/wiki/Heinrich_Wilhelm_Matthias_Olbers",
         "calendarUrl": "https://en.wikipedia.org/wiki/March_28",
         "license": {
           "name": "CC BY-SA 4.0",
@@ -50,27 +48,26 @@
         }
       },
       "image": {
-        "src": "https://upload.wikimedia.org/wikipedia/commons/4/48/Ingrid_of_Sweden_and_Denmark_1954.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
-        "alt": "Portrait or image of Ingrid of Sweden.",
-        "credit": "Willem van de Poll",
-        "source": "https://commons.wikimedia.org/wiki/File:Ingrid_of_Sweden_and_Denmark_1954.jpg",
-        "license": "CC0",
-        "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/deed.en"
+        "src": "https://upload.wikimedia.org/wikipedia/commons/7/7b/Heinrich_Wilhelm_Matthias_Olbers.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+        "alt": "Picture from the Wikipedia article on Heinrich Wilhelm Matthias Olbers.",
+        "credit": "Rudolph Suhrlandt",
+        "source": "https://commons.wikimedia.org/wiki/File:Heinrich_Wilhelm_Matthias_Olbers.jpg",
+        "license": "Public domain",
+        "licenseUrl": "https://commons.wikimedia.org/wiki/File:Heinrich_Wilhelm_Matthias_Olbers.jpg"
       }
     },
     {
-      "id": "03-28-greece-world-war-ii",
+      "id": "03-28-vienna-philharmonic",
       "date": "03-28",
       "dateLabel": "28 March",
-      "country": "greece",
-      "countryName": "Greece",
-      "kind": "events",
-      "year": 1941,
-      "title": "World War II",
-      "body": "1941: World War II: First day of the Battle of Cape Matapan in Greece between the navies of the United Kingdom and Australia, and the Royal Italian navy.",
+      "category": "culture",
+      "categoryName": "Culture",
+      "year": 1842,
+      "title": "Vienna Philharmonic",
+      "body": "First concert of the Vienna Philharmonic Orchestra, conducted by Otto Nicolai.",
       "source": {
-        "name": "Wikipedia · World War II",
-        "url": "https://en.wikipedia.org/wiki/World_War_II",
+        "name": "Wikipedia · Vienna Philharmonic",
+        "url": "https://en.wikipedia.org/wiki/Vienna_Philharmonic",
         "calendarUrl": "https://en.wikipedia.org/wiki/March_28",
         "license": {
           "name": "CC BY-SA 4.0",
@@ -78,12 +75,12 @@
         }
       },
       "image": {
-        "src": "https://upload.wikimedia.org/wikipedia/commons/1/10/Bundesarchiv_Bild_101I-646-5188-17%2C_Flugzeuge_Junkers_Ju_87.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
-        "alt": "Image related to World War II.",
-        "credit": "Bundesarchiv, Bild 101I-646-5188-17 / Opitz / CC-BY-SA 3.0",
-        "source": "https://commons.wikimedia.org/wiki/File:Bundesarchiv_Bild_101I-646-5188-17,_Flugzeuge_Junkers_Ju_87.jpg",
-        "license": "CC BY-SA 3.0 de",
-        "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0/de/deed.en"
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/51/Wiener_Philharmoniker_logo.svg/1280px-Wiener_Philharmoniker_logo.svg.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "alt": "Picture from the Wikipedia article on Vienna Philharmonic.",
+        "credit": "Wiener Philharmoniker",
+        "source": "https://commons.wikimedia.org/wiki/File:Wiener_Philharmoniker_logo.svg",
+        "license": "Public domain",
+        "licenseUrl": "https://commons.wikimedia.org/wiki/File:Wiener_Philharmoniker_logo.svg"
       }
     }
   ]

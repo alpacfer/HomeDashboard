@@ -3,18 +3,17 @@
   "dateLabel": "9 March",
   "facts": [
     {
-      "id": "03-09-spain-joseph-of-anchieta",
+      "id": "03-09-siberia",
       "date": "03-09",
       "dateLabel": "9 March",
-      "country": "spain",
-      "countryName": "Spain",
-      "kind": "births",
-      "year": 1534,
-      "title": "Joseph of Anchieta",
-      "body": "Joseph of Anchieta, Spanish Jesuit saint and missionary (died 1597), was born on this day in 1534.",
+      "category": "space",
+      "categoryName": "Space",
+      "year": 1997,
+      "title": "Siberia",
+      "body": "Observers in China, Mongolia and eastern Siberia are treated to a rare double feature as an eclipse permits Hale-Bopp to be seen during the day.",
       "source": {
-        "name": "Wikipedia · Joseph of Anchieta",
-        "url": "https://en.wikipedia.org/wiki/Joseph_of_Anchieta",
+        "name": "Wikipedia · Siberia",
+        "url": "https://en.wikipedia.org/wiki/Siberia",
         "calendarUrl": "https://en.wikipedia.org/wiki/March_9",
         "license": {
           "name": "CC BY-SA 4.0",
@@ -22,68 +21,66 @@
         }
       },
       "image": {
-        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/15/Benedito_Calixto_de_Jesus_-_Retrato_do_Padre_Jos%C3%A9_de_Anchieta%2C_Acervo_do_Museu_Paulista_da_USP.jpg/1280px-Benedito_Calixto_de_Jesus_-_Retrato_do_Padre_Jos%C3%A9_de_Anchieta%2C_Acervo_do_Museu_Paulista_da_USP.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-        "alt": "Portrait or image of Joseph of Anchieta.",
-        "credit": "Benedito Calixto",
-        "source": "https://commons.wikimedia.org/wiki/File:Benedito_Calixto_de_Jesus_-_Retrato_do_Padre_Jos%C3%A9_de_Anchieta,_Acervo_do_Museu_Paulista_da_USP.jpg",
-        "license": "Public domain",
-        "licenseUrl": "https://commons.wikimedia.org/wiki/File:Benedito_Calixto_de_Jesus_-_Retrato_do_Padre_Jos%C3%A9_de_Anchieta,_Acervo_do_Museu_Paulista_da_USP.jpg"
-      }
-    },
-    {
-      "id": "03-09-denmark-ian-turbott",
-      "date": "03-09",
-      "dateLabel": "9 March",
-      "country": "denmark",
-      "countryName": "Denmark",
-      "kind": "births",
-      "year": 1922,
-      "title": "Ian Turbott",
-      "body": "Ian Turbott, New Zealand-Australian former diplomat and university administrator (died 2016), was born on this day in 1922.",
-      "source": {
-        "name": "Wikipedia · Ian Turbott",
-        "url": "https://en.wikipedia.org/wiki/Ian_Turbott",
-        "calendarUrl": "https://en.wikipedia.org/wiki/March_9",
-        "license": {
-          "name": "CC BY-SA 4.0",
-          "url": "https://creativecommons.org/licenses/by-sa/4.0/"
-        }
-      },
-      "image": {
-        "src": "https://commons.wikimedia.org/wiki/Special:Redirect/file/Flag_of_Denmark.svg?width=1000",
-        "alt": "The national flag of Denmark.",
-        "credit": "Danish government",
-        "source": "https://commons.wikimedia.org/wiki/File:Flag_of_Denmark.svg",
-        "license": "Public domain",
-        "licenseUrl": "https://commons.wikimedia.org/wiki/File:Flag_of_Denmark.svg"
-      }
-    },
-    {
-      "id": "03-09-greece-constantinople",
-      "date": "03-09",
-      "dateLabel": "9 March",
-      "country": "greece",
-      "countryName": "Greece",
-      "kind": "events",
-      "year": 1044,
-      "title": "Constantinople",
-      "body": "1044: The people of Constantinople riot against emperor Constantine IX Monomachos, whose preference of his mistress Maria Skleraina over empress Zoe Porphyrogenita is seen as an insult.",
-      "source": {
-        "name": "Wikipedia · Constantinople",
-        "url": "https://en.wikipedia.org/wiki/Constantinople",
-        "calendarUrl": "https://en.wikipedia.org/wiki/March_9",
-        "license": {
-          "name": "CC BY-SA 4.0",
-          "url": "https://creativecommons.org/licenses/by-sa/4.0/"
-        }
-      },
-      "image": {
-        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/bb/Byzantine_Constantinople-en.png/1280px-Byzantine_Constantinople-en.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-        "alt": "Image related to Constantinople.",
-        "credit": "Cplakidas",
-        "source": "https://commons.wikimedia.org/wiki/File:Byzantine_Constantinople-en.png",
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/0c/Siberia_%28orthographic_projection%29.svg/1280px-Siberia_%28orthographic_projection%29.svg.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "alt": "Picture from the Wikipedia article on Siberia.",
+        "credit": "M.Bitton",
+        "source": "https://commons.wikimedia.org/wiki/File:Siberia_(orthographic_projection).svg",
         "license": "CC BY-SA 3.0",
         "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0"
+      }
+    },
+    {
+      "id": "03-09-barbie",
+      "date": "03-09",
+      "dateLabel": "9 March",
+      "category": "culture",
+      "categoryName": "Culture",
+      "year": 1959,
+      "title": "Barbie",
+      "body": "The Barbie doll makes its debut at the American International Toy Fair in New York.",
+      "source": {
+        "name": "Wikipedia · Barbie",
+        "url": "https://en.wikipedia.org/wiki/Barbie",
+        "calendarUrl": "https://en.wikipedia.org/wiki/March_9",
+        "license": {
+          "name": "CC BY-SA 4.0",
+          "url": "https://creativecommons.org/licenses/by-sa/4.0/"
+        }
+      },
+      "image": {
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/0b/Barbie_Logo.svg/1280px-Barbie_Logo.svg.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "alt": "Picture from the Wikipedia article on Barbie.",
+        "credit": "Mattel, Inc.",
+        "source": "https://commons.wikimedia.org/wiki/File:Barbie_Logo.svg",
+        "license": "Public domain",
+        "licenseUrl": "https://commons.wikimedia.org/wiki/File:Barbie_Logo.svg"
+      }
+    },
+    {
+      "id": "03-09-nupedia",
+      "date": "03-09",
+      "dateLabel": "9 March",
+      "category": "tech",
+      "categoryName": "Tech",
+      "year": 2000,
+      "title": "Nupedia",
+      "body": "Nupedia, a multi-language online encyclopedia, is launched.",
+      "source": {
+        "name": "Wikipedia · Nupedia",
+        "url": "https://en.wikipedia.org/wiki/Nupedia",
+        "calendarUrl": "https://en.wikipedia.org/wiki/March_9",
+        "license": {
+          "name": "CC BY-SA 4.0",
+          "url": "https://creativecommons.org/licenses/by-sa/4.0/"
+        }
+      },
+      "image": {
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/ae/Nupedia_20030808_screenshot.png/1280px-Nupedia_20030808_screenshot.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "alt": "Picture from the Wikipedia article on Nupedia.",
+        "credit": "Software: Wikimedia Foundation and contributors logo by Sally Milo/Milo Design Screenshot: VulcanSphere",
+        "source": "https://commons.wikimedia.org/wiki/File:Nupedia_20030808_screenshot.png",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0"
       }
     }
   ]

@@ -3,18 +3,17 @@
   "dateLabel": "1 April",
   "facts": [
     {
-      "id": "04-01-spain-generalissimo",
+      "id": "04-01-email",
       "date": "04-01",
       "dateLabel": "1 April",
-      "country": "spain",
-      "countryName": "Spain",
-      "kind": "events",
-      "year": 1939,
-      "title": "Generalísimo",
-      "body": "1939: Spanish Civil War: Generalísimo Francisco Franco of the Spanish State announces the end of the Spanish Civil War, when the last of the Republican forces surrender.",
+      "category": "tech",
+      "categoryName": "Tech",
+      "year": 2004,
+      "title": "Email",
+      "body": "Google launches its Email service Gmail.",
       "source": {
-        "name": "Wikipedia · Generalissimo",
-        "url": "https://en.wikipedia.org/wiki/Generalissimo",
+        "name": "Wikipedia · Email",
+        "url": "https://en.wikipedia.org/wiki/Email",
         "calendarUrl": "https://en.wikipedia.org/wiki/April_1",
         "license": {
           "name": "CC BY-SA 4.0",
@@ -22,27 +21,26 @@
         }
       },
       "image": {
-        "src": "https://upload.wikimedia.org/wikipedia/commons/c/cc/Francisco_Franco_1975_%28cropped%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
-        "alt": "Image related to Generalísimo.",
-        "credit": "Fotograaf Onbekend / Anefo",
-        "source": "https://commons.wikimedia.org/wiki/File:Francisco_Franco_1975_(cropped).jpg",
-        "license": "CC0",
-        "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/deed.en"
+        "src": "https://upload.wikimedia.org/wikipedia/commons/e/ed/Evolution_36_mail.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+        "alt": "Picture from the Wikipedia article on Email.",
+        "credit": "AlexanderVanLoon",
+        "source": "https://commons.wikimedia.org/wiki/File:Evolution_36_mail.png",
+        "license": "CC BY-SA 3.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0"
       }
     },
     {
-      "id": "04-01-denmark-royal-new-zealand-air-force",
+      "id": "04-01-television-infrared-observation-satellite",
       "date": "04-01",
       "dateLabel": "1 April",
-      "country": "denmark",
-      "countryName": "Denmark",
-      "kind": "events",
-      "year": 1937,
-      "title": "Royal New Zealand Air Force",
-      "body": "1937: The Royal New Zealand Air Force is formed as an independent service.",
+      "category": "space",
+      "categoryName": "Space",
+      "year": 1960,
+      "title": "Television Infrared Observation Satellite",
+      "body": "The TIROS-1 satellite transmits the first television picture from space.",
       "source": {
-        "name": "Wikipedia · Royal New Zealand Air Force",
-        "url": "https://en.wikipedia.org/wiki/Royal_New_Zealand_Air_Force",
+        "name": "Wikipedia · Television Infrared Observation Satellite",
+        "url": "https://en.wikipedia.org/wiki/Television_Infrared_Observation_Satellite",
         "calendarUrl": "https://en.wikipedia.org/wiki/April_1",
         "license": {
           "name": "CC BY-SA 4.0",
@@ -50,27 +48,26 @@
         }
       },
       "image": {
-        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/37/Air_Force_Ensign_of_New_Zealand.svg/1280px-Air_Force_Ensign_of_New_Zealand.svg.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-        "alt": "Image related to Royal New Zealand Air Force.",
-        "credit": "Nightstallion",
-        "source": "https://commons.wikimedia.org/wiki/File:Air_Force_Ensign_of_New_Zealand.svg",
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/11/TIROS_VI_satellite_used_in_Parade_of_Progress_Show.jpg/1280px-TIROS_VI_satellite_used_in_Parade_of_Progress_Show.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "alt": "Picture from the Wikipedia article on Television Infrared Observation Satellite.",
+        "credit": "NASA/Glenn Research Center",
+        "source": "https://commons.wikimedia.org/wiki/File:TIROS_VI_satellite_used_in_Parade_of_Progress_Show.jpg",
         "license": "Public domain",
-        "licenseUrl": "https://commons.wikimedia.org/wiki/File:Air_Force_Ensign_of_New_Zealand.svg"
+        "licenseUrl": "https://commons.wikimedia.org/wiki/File:TIROS_VI_satellite_used_in_Parade_of_Progress_Show.jpg"
       }
     },
     {
-      "id": "04-01-greece-alexios-i-komnenos",
+      "id": "04-01-islamic-republic",
       "date": "04-01",
       "dateLabel": "1 April",
-      "country": "greece",
-      "countryName": "Greece",
-      "kind": "events",
-      "year": 1081,
-      "title": "Alexios I Komnenos",
-      "body": "1081: Alexios I Komnenos overthrows the Byzantine emperor Nikephoros III Botaneiates, and, after his troops spend three days extensively looting Constantinople, is formally crowned on April 4.",
+      "category": "world",
+      "categoryName": "World",
+      "year": 1979,
+      "title": "Islamic republic",
+      "body": "Iran becomes an Islamic republic by a 99% vote, officially overthrowing the Shah.",
       "source": {
-        "name": "Wikipedia · Alexios I Komnenos",
-        "url": "https://en.wikipedia.org/wiki/Alexios_I_Komnenos",
+        "name": "Wikipedia · Islamic republic",
+        "url": "https://en.wikipedia.org/wiki/Islamic_republic",
         "calendarUrl": "https://en.wikipedia.org/wiki/April_1",
         "license": {
           "name": "CC BY-SA 4.0",
@@ -78,12 +75,12 @@
         }
       },
       "image": {
-        "src": "https://upload.wikimedia.org/wikipedia/commons/8/8c/Alexios_I_Komnenos.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
-        "alt": "Image related to Alexios I Komnenos.",
-        "credit": "Alexios1komnenos.jpg: UnknownUnknown derivative work: Constantine ✍",
-        "source": "https://commons.wikimedia.org/wiki/File:Alexios_I_Komnenos.jpg",
-        "license": "Public domain",
-        "licenseUrl": "https://commons.wikimedia.org/wiki/File:Alexios_I_Komnenos.jpg"
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e5/Shahada_green.svg/1280px-Shahada_green.svg.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "alt": "Picture from the Wikipedia article on Islamic republic.",
+        "credit": "The Cheesedealer",
+        "source": "https://commons.wikimedia.org/wiki/File:Shahada_green.svg",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0"
       }
     }
   ]

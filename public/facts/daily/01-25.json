@@ -3,18 +3,17 @@
   "dateLabel": "25 January",
   "facts": [
     {
-      "id": "01-25-spain-apalachee-massacre",
+      "id": "01-25-thomas-edison",
       "date": "01-25",
       "dateLabel": "25 January",
-      "country": "spain",
-      "countryName": "Spain",
-      "kind": "events",
-      "year": 1704,
-      "title": "Apalachee massacre",
-      "body": "1704: The Apalachee massacre: A combined British and Muscogee force from the Province of Carolina destroys the main fortified mission of Ayubale, breaking Spain's hold on Spanish Florida.",
+      "category": "tech",
+      "categoryName": "Tech",
+      "year": 1881,
+      "title": "Thomas Edison",
+      "body": "Thomas Edison and Alexander Graham Bell form the Oriental Telephone Company.",
       "source": {
-        "name": "Wikipedia · Apalachee massacre",
-        "url": "https://en.wikipedia.org/wiki/Apalachee_massacre",
+        "name": "Wikipedia · Thomas Edison",
+        "url": "https://en.wikipedia.org/wiki/Thomas_Edison",
         "calendarUrl": "https://en.wikipedia.org/wiki/January_25",
         "license": {
           "name": "CC BY-SA 4.0",
@@ -22,55 +21,26 @@
         }
       },
       "image": {
-        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/6e/OcmulgeeRaid.JPG/1280px-OcmulgeeRaid.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-        "alt": "Image related to Apalachee massacre.",
-        "credit": "Jflo23",
-        "source": "https://commons.wikimedia.org/wiki/File:OcmulgeeRaid.JPG",
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/9d/Thomas_Edison2.jpg/1280px-Thomas_Edison2.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "alt": "Picture from the Wikipedia article on Thomas Edison.",
+        "credit": "Louis Bachrach, Bachrach Studios, restored by Michel Vuijlsteke",
+        "source": "https://commons.wikimedia.org/wiki/File:Thomas_Edison2.jpg",
         "license": "Public domain",
-        "licenseUrl": "https://commons.wikimedia.org/wiki/File:OcmulgeeRaid.JPG"
+        "licenseUrl": "https://commons.wikimedia.org/wiki/File:Thomas_Edison2.jpg"
       }
     },
     {
-      "id": "01-25-denmark-daylight",
+      "id": "01-25-ariane-5",
       "date": "01-25",
       "dateLabel": "25 January",
-      "country": "denmark",
-      "countryName": "Denmark",
-      "kind": "daylight",
-      "year": 0,
-      "title": "Copenhagen's daylight",
-      "body": "On 25 January, Copenhagen gets about 8 hours and 10 minutes of daylight.",
+      "category": "space",
+      "categoryName": "Space",
+      "year": 2018,
+      "title": "Ariane 5",
+      "body": "An Ariane 5 rocket is launched carrying SES-14, Al Yah 3, and NASA's Global-scale Observations of the Limb and Disk, but the satellites end up in the wrong orbit.",
       "source": {
-        "name": "NOAA Solar Calculator",
-        "url": "https://gml.noaa.gov/grad/solcalc/",
-        "calendarUrl": "https://gml.noaa.gov/grad/solcalc/calcdetails.html",
-        "license": {
-          "name": "public-domain NOAA method",
-          "url": "https://www.noaa.gov/disclaimer"
-        }
-      },
-      "image": {
-        "src": "https://commons.wikimedia.org/wiki/Special:Redirect/file/Flag_of_Denmark.svg?width=1000",
-        "alt": "The national flag of Denmark.",
-        "credit": "Danish government",
-        "source": "https://commons.wikimedia.org/wiki/File:Flag_of_Denmark.svg",
-        "license": "Public domain",
-        "licenseUrl": "https://commons.wikimedia.org/wiki/File:Flag_of_Denmark.svg"
-      }
-    },
-    {
-      "id": "01-25-greece-treaty-of-constantinople-1479",
-      "date": "01-25",
-      "dateLabel": "25 January",
-      "country": "greece",
-      "countryName": "Greece",
-      "kind": "events",
-      "year": 1479,
-      "title": "Treaty of Constantinople",
-      "body": "1479: The Treaty of Constantinople ends the 16-year-long First Ottoman–Venetian War.",
-      "source": {
-        "name": "Wikipedia · Treaty of Constantinople (1479)",
-        "url": "https://en.wikipedia.org/wiki/Treaty_of_Constantinople_(1479)",
+        "name": "Wikipedia · Ariane 5",
+        "url": "https://en.wikipedia.org/wiki/Ariane_5",
         "calendarUrl": "https://en.wikipedia.org/wiki/January_25",
         "license": {
           "name": "CC BY-SA 4.0",
@@ -78,12 +48,39 @@
         }
       },
       "image": {
-        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/6e/Bellini%2C_Gentile_-_Sultan_Mehmet_II.jpg/1280px-Bellini%2C_Gentile_-_Sultan_Mehmet_II.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-        "alt": "Image related to Treaty of Constantinople.",
-        "credit": "Gentile Bellini",
-        "source": "https://commons.wikimedia.org/wiki/File:Bellini,_Gentile_-_Sultan_Mehmet_II.jpg",
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/4f/Ariane_5_with_James_Webb_Space_Telescope_Prelaunch_%2851773093465%29.jpg/1280px-Ariane_5_with_James_Webb_Space_Telescope_Prelaunch_%2851773093465%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "alt": "Picture from the Wikipedia article on Ariane 5.",
+        "credit": "Chris Gunn",
+        "source": "https://commons.wikimedia.org/wiki/File:Ariane_5_with_James_Webb_Space_Telescope_Prelaunch_(51773093465).jpg",
         "license": "Public domain",
-        "licenseUrl": "https://commons.wikimedia.org/wiki/File:Bellini,_Gentile_-_Sultan_Mehmet_II.jpg"
+        "licenseUrl": "https://commons.wikimedia.org/wiki/File:Ariane_5_with_James_Webb_Space_Telescope_Prelaunch_(51773093465).jpg"
+      }
+    },
+    {
+      "id": "01-25-mother-teresa",
+      "date": "01-25",
+      "dateLabel": "25 January",
+      "category": "world",
+      "categoryName": "World",
+      "year": 1980,
+      "title": "Mother Teresa",
+      "body": "Mother Teresa is honored with India's highest civilian award, the Bharat Ratna.",
+      "source": {
+        "name": "Wikipedia · Mother Teresa",
+        "url": "https://en.wikipedia.org/wiki/Mother_Teresa",
+        "calendarUrl": "https://en.wikipedia.org/wiki/January_25",
+        "license": {
+          "name": "CC BY-SA 4.0",
+          "url": "https://creativecommons.org/licenses/by-sa/4.0/"
+        }
+      },
+      "image": {
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d6/Mother_Teresa_1.jpg/1280px-Mother_Teresa_1.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "alt": "Picture from the Wikipedia article on Mother Teresa.",
+        "credit": "Kingkongphoto & www.celebrity-photos.com from Laurel Maryland, USA",
+        "source": "https://commons.wikimedia.org/wiki/File:Mother_Teresa_1.jpg",
+        "license": "CC BY-SA 2.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0"
       }
     }
   ]

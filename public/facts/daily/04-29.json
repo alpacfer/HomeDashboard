@@ -3,18 +3,17 @@
   "dateLabel": "29 April",
   "facts": [
     {
-      "id": "04-29-spain-gran-canaria",
+      "id": "04-29-los-angeles-public-library",
       "date": "04-29",
       "dateLabel": "29 April",
-      "country": "spain",
-      "countryName": "Spain",
-      "kind": "events",
-      "year": 1483,
-      "title": "Gran Canaria",
-      "body": "1483: Gran Canaria, the main island of the Canary Islands, is conquered by the Kingdom of Castile.",
+      "category": "world",
+      "categoryName": "World",
+      "year": 1986,
+      "title": "Los Angeles Public Library",
+      "body": "A fire at the Central library of the Los Angeles Public Library damages or destroys 400,000 books and other items.",
       "source": {
-        "name": "Wikipedia · Gran Canaria",
-        "url": "https://en.wikipedia.org/wiki/Gran_Canaria",
+        "name": "Wikipedia · Los Angeles Public Library",
+        "url": "https://en.wikipedia.org/wiki/Los_Angeles_Public_Library",
         "calendarUrl": "https://en.wikipedia.org/wiki/April_29",
         "license": {
           "name": "CC BY-SA 4.0",
@@ -22,27 +21,26 @@
         }
       },
       "image": {
-        "src": "https://upload.wikimedia.org/wikipedia/commons/5/55/Gran_Canaria_Sentinel-2.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
-        "alt": "Image related to Gran Canaria.",
-        "credit": "Contains modified Copernicus Sentinel data 2023",
-        "source": "https://commons.wikimedia.org/wiki/File:Gran_Canaria_Sentinel-2.jpg",
-        "license": "Attribution",
-        "licenseUrl": "https://commons.wikimedia.org/wiki/File:Gran_Canaria_Sentinel-2.jpg"
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/1b/Los-angeles-central-library.jpg/1280px-Los-angeles-central-library.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "alt": "Picture from the Wikipedia article on Los Angeles Public Library.",
+        "credit": "Mfield, Matthew Field, http://www.photography.mattfield.com",
+        "source": "https://commons.wikimedia.org/wiki/File:Los-angeles-central-library.jpg",
+        "license": "GFDL 1.2",
+        "licenseUrl": "https://www.gnu.org/licenses/old-licenses/fdl-1.2.html"
       }
     },
     {
-      "id": "04-29-denmark-swedish-war-of-liberation",
+      "id": "04-29-centaurus-a",
       "date": "04-29",
       "dateLabel": "29 April",
-      "country": "denmark",
-      "countryName": "Denmark",
-      "kind": "events",
-      "year": 1521,
-      "title": "Swedish War of Liberation",
-      "body": "1521: Swedish War of Liberation: Swedish troops defeat a Danish force in the Battle of Västerås.",
+      "category": "space",
+      "categoryName": "Space",
+      "year": 1826,
+      "title": "Centaurus A",
+      "body": "The galaxy Centaurus A or NGC 5128 is discovered by James Dunlop.",
       "source": {
-        "name": "Wikipedia · Swedish War of Liberation",
-        "url": "https://en.wikipedia.org/wiki/Swedish_War_of_Liberation",
+        "name": "Wikipedia · Centaurus A",
+        "url": "https://en.wikipedia.org/wiki/Centaurus_A",
         "calendarUrl": "https://en.wikipedia.org/wiki/April_29",
         "license": {
           "name": "CC BY-SA 4.0",
@@ -50,27 +48,26 @@
         }
       },
       "image": {
-        "src": "https://upload.wikimedia.org/wikipedia/commons/e/ea/The_Entry_of_King_Gustav_Vasa_of_Sweden_into_Stockholm_-_color.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
-        "alt": "Image related to Swedish War of Liberation.",
-        "credit": "Carl Larsson",
-        "source": "https://commons.wikimedia.org/wiki/File:The_Entry_of_King_Gustav_Vasa_of_Sweden_into_Stockholm_-_color.jpg",
-        "license": "Public domain",
-        "licenseUrl": "https://commons.wikimedia.org/wiki/File:The_Entry_of_King_Gustav_Vasa_of_Sweden_into_Stockholm_-_color.jpg"
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d2/ESO_Centaurus_A_LABOCA.jpg/1280px-ESO_Centaurus_A_LABOCA.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "alt": "Picture from the Wikipedia article on Centaurus A.",
+        "credit": "ESO/WFI (Optical); MPIfR/ESO/APEX/A.Weiss et al. (Submillimetre); NASA/CXC/CfA/R.Kraft et al. (X-ray)",
+        "source": "https://commons.wikimedia.org/wiki/File:ESO_Centaurus_A_LABOCA.jpg",
+        "license": "CC BY 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by/4.0"
       }
     },
     {
-      "id": "04-29-greece-battle-of-levounion",
+      "id": "04-29-wedding-of-prince-william-and-catherine-middleton",
       "date": "04-29",
       "dateLabel": "29 April",
-      "country": "greece",
-      "countryName": "Greece",
-      "kind": "events",
-      "year": 1091,
-      "title": "Battle of Levounion",
-      "body": "1091: Battle of Levounion: The Pechenegs are defeated by Byzantine Emperor Alexios I Komnenos.",
+      "category": "world",
+      "categoryName": "World",
+      "year": 2011,
+      "title": "Wedding of Prince William and Catherine Middleton",
+      "body": "The wedding of Prince William and Catherine Middleton takes place at Westminster Abbey in London.",
       "source": {
-        "name": "Wikipedia · Battle of Levounion",
-        "url": "https://en.wikipedia.org/wiki/Battle_of_Levounion",
+        "name": "Wikipedia · Wedding of Prince William and Catherine Middleton",
+        "url": "https://en.wikipedia.org/wiki/Wedding_of_Prince_William_and_Catherine_Middleton",
         "calendarUrl": "https://en.wikipedia.org/wiki/April_29",
         "license": {
           "name": "CC BY-SA 4.0",
@@ -78,12 +75,12 @@
         }
       },
       "image": {
-        "src": "https://upload.wikimedia.org/wikipedia/commons/2/21/Alexius_I.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
-        "alt": "Image related to Battle of Levounion.",
-        "credit": "AnonymousUnknown author",
-        "source": "https://commons.wikimedia.org/wiki/File:Alexius_I.jpg",
-        "license": "Public domain",
-        "licenseUrl": "https://commons.wikimedia.org/wiki/File:Alexius_I.jpg"
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a0/All_smiles_Wedding_of_Prince_William_of_Wales_and_Kate_Middleton.jpg/1280px-All_smiles_Wedding_of_Prince_William_of_Wales_and_Kate_Middleton.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "alt": "Picture from the Wikipedia article on Wedding of Prince William and Catherine Middleton.",
+        "credit": "Robbie Dale",
+        "source": "https://commons.wikimedia.org/wiki/File:All_smiles_Wedding_of_Prince_William_of_Wales_and_Kate_Middleton.jpg",
+        "license": "CC BY-SA 2.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0"
       }
     }
   ]

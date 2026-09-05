@@ -3,18 +3,17 @@
   "dateLabel": "17 July",
   "facts": [
     {
-      "id": "07-17-spain-kingdom-of-spain",
+      "id": "07-17-soyuz-spacecraft",
       "date": "07-17",
       "dateLabel": "17 July",
-      "country": "spain",
-      "countryName": "Spain",
-      "kind": "events",
-      "year": 1821,
-      "title": "Kingdom of Spain",
-      "body": "1821: The Kingdom of Spain cedes the territory of Florida to the United States.",
+      "category": "space",
+      "categoryName": "Space",
+      "year": 1975,
+      "title": "Soyuz",
+      "body": "An American Apollo and a Soviet Soyuz spacecraft dock with each other in orbit marking the first such link-up between spacecraft from the two nations.",
       "source": {
-        "name": "Wikipedia · Spain",
-        "url": "https://en.wikipedia.org/wiki/Spain",
+        "name": "Wikipedia · Soyuz (spacecraft)",
+        "url": "https://en.wikipedia.org/wiki/Soyuz_(spacecraft)",
         "calendarUrl": "https://en.wikipedia.org/wiki/July_17",
         "license": {
           "name": "CC BY-SA 4.0",
@@ -22,27 +21,26 @@
         }
       },
       "image": {
-        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/24/Flag_of_the_Kingdom_of_Spain.svg/1280px-Flag_of_the_Kingdom_of_Spain.svg.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-        "alt": "Image related to Kingdom of Spain.",
-        "credit": "Antonio Valdés y Fernández Bazán",
-        "source": "https://commons.wikimedia.org/wiki/File:Flag_of_the_Kingdom_of_Spain.svg",
-        "license": "Public domain",
-        "licenseUrl": "https://commons.wikimedia.org/wiki/File:Flag_of_the_Kingdom_of_Spain.svg"
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/fa/Soyuz_MS.jpg/1280px-Soyuz_MS.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "alt": "Picture from the Wikipedia article on Soyuz.",
+        "credit": "CactiStaccingCrane",
+        "source": "https://commons.wikimedia.org/wiki/File:Soyuz_MS.jpg",
+        "license": "CC0",
+        "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/deed.en"
       }
     },
     {
-      "id": "07-17-denmark-henri-nathansen",
+      "id": "07-17-allies-of-world-war-ii",
       "date": "07-17",
       "dateLabel": "17 July",
-      "country": "denmark",
-      "countryName": "Denmark",
-      "kind": "births",
-      "year": 1868,
-      "title": "Henri Nathansen",
-      "body": "Henri Nathansen, Danish director and playwright (died 1944), was born on this day in 1868.",
+      "category": "world",
+      "categoryName": "World",
+      "year": 1945,
+      "title": "Allies of World War II",
+      "body": "The main three leaders of the Allied nations, Winston Churchill, Harry S. Truman and Joseph Stalin, hold the Potsdam Conference in the German city of Potsdam to decide the future of a defeated Germany.",
       "source": {
-        "name": "Wikipedia · Henri Nathansen",
-        "url": "https://en.wikipedia.org/wiki/Henri_Nathansen",
+        "name": "Wikipedia · Allies of World War II",
+        "url": "https://en.wikipedia.org/wiki/Allies_of_World_War_II",
         "calendarUrl": "https://en.wikipedia.org/wiki/July_17",
         "license": {
           "name": "CC BY-SA 4.0",
@@ -50,27 +48,26 @@
         }
       },
       "image": {
-        "src": "https://upload.wikimedia.org/wikipedia/commons/8/80/Henri_Nathansen82.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
-        "alt": "Portrait or image of Henri Nathansen.",
-        "credit": "Unknown authorUnknown author",
-        "source": "https://commons.wikimedia.org/wiki/File:Henri_Nathansen82.jpg",
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/bf/UN_Fight_for_Freedom_Leslie_Ragan_1943_poster_-_restoration1.jpg/1280px-UN_Fight_for_Freedom_Leslie_Ragan_1943_poster_-_restoration1.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "alt": "Picture from the Wikipedia article on Allies of World War II.",
+        "credit": "United States Office of War Information, poster by Leslie Ragan Restored by: Bammesk",
+        "source": "https://commons.wikimedia.org/wiki/File:UN_Fight_for_Freedom_Leslie_Ragan_1943_poster_-_restoration1.jpg",
         "license": "Public domain",
-        "licenseUrl": "https://commons.wikimedia.org/wiki/File:Henri_Nathansen82.jpg"
+        "licenseUrl": "https://commons.wikimedia.org/wiki/File:UN_Fight_for_Freedom_Leslie_Ragan_1943_poster_-_restoration1.jpg"
       }
     },
     {
-      "id": "07-17-greece-fourth-crusade",
+      "id": "07-17-george-i-of-great-britain",
       "date": "07-17",
       "dateLabel": "17 July",
-      "country": "greece",
-      "countryName": "Greece",
-      "kind": "events",
-      "year": 1203,
-      "title": "Fourth Crusade",
-      "body": "1203: The Fourth Crusade assaults Constantinople. The Byzantine emperor Alexios III Angelos flees from his capital into exile.",
+      "category": "culture",
+      "categoryName": "Culture",
+      "year": 1717,
+      "title": "George I of Great Britain",
+      "body": "King George I of Great Britain sails down the River Thames with a barge of 50 musicians, where George Frideric Handel's Water Music is premiered.",
       "source": {
-        "name": "Wikipedia · Fourth Crusade",
-        "url": "https://en.wikipedia.org/wiki/Fourth_Crusade",
+        "name": "Wikipedia · George I of Great Britain",
+        "url": "https://en.wikipedia.org/wiki/George_I_of_Great_Britain",
         "calendarUrl": "https://en.wikipedia.org/wiki/July_17",
         "license": {
           "name": "CC BY-SA 4.0",
@@ -78,12 +75,12 @@
         }
       },
       "image": {
-        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/0a/ConquestOfConstantinopleByTheCrusadersIn1204.jpg/1280px-ConquestOfConstantinopleByTheCrusadersIn1204.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-        "alt": "Image related to Fourth Crusade.",
-        "credit": "Loyset Liédet",
-        "source": "https://commons.wikimedia.org/wiki/File:ConquestOfConstantinopleByTheCrusadersIn1204.jpg",
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/02/King_George_I_by_Sir_Godfrey_Kneller%2C_Bt_%283%29.jpg/1280px-King_George_I_by_Sir_Godfrey_Kneller%2C_Bt_%283%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "alt": "Picture from the Wikipedia article on George I of Great Britain.",
+        "credit": "Workshop of Godfrey Kneller",
+        "source": "https://commons.wikimedia.org/wiki/File:King_George_I_by_Sir_Godfrey_Kneller,_Bt_(3).jpg",
         "license": "Public domain",
-        "licenseUrl": "https://commons.wikimedia.org/wiki/File:ConquestOfConstantinopleByTheCrusadersIn1204.jpg"
+        "licenseUrl": "https://commons.wikimedia.org/wiki/File:King_George_I_by_Sir_Godfrey_Kneller,_Bt_(3).jpg"
       }
     }
   ]

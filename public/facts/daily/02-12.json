@@ -3,18 +3,17 @@
   "dateLabel": "12 February",
   "facts": [
     {
-      "id": "02-12-spain-argentina",
+      "id": "02-12-venera-1",
       "date": "02-12",
       "dateLabel": "12 February",
-      "country": "spain",
-      "countryName": "Spain",
-      "kind": "events",
-      "year": 1817,
-      "title": "Argentine",
-      "body": "1817: An Argentine/Chilean patriotic army, after crossing the Andes, defeats Spanish troops at the Battle of Chacabuco.",
+      "category": "space",
+      "categoryName": "Space",
+      "year": 1961,
+      "title": "Venera 1",
+      "body": "The Soviet Union launches Venera 1 towards Venus.",
       "source": {
-        "name": "Wikipedia · Argentina",
-        "url": "https://en.wikipedia.org/wiki/Argentina",
+        "name": "Wikipedia · Venera 1",
+        "url": "https://en.wikipedia.org/wiki/Venera_1",
         "calendarUrl": "https://en.wikipedia.org/wiki/February_12",
         "license": {
           "name": "CC BY-SA 4.0",
@@ -22,27 +21,26 @@
         }
       },
       "image": {
-        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/1a/Flag_of_Argentina.svg/1280px-Flag_of_Argentina.svg.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-        "alt": "Image related to Argentine.",
-        "credit": "Manuel Belgrano",
-        "source": "https://commons.wikimedia.org/wiki/File:Flag_of_Argentina.svg",
-        "license": "Public domain",
-        "licenseUrl": "https://commons.wikimedia.org/wiki/File:Flag_of_Argentina.svg"
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/50/Venera_1_%28a%29_%28Memorial_Museum_of_Astronautics%29.JPG/1280px-Venera_1_%28a%29_%28Memorial_Museum_of_Astronautics%29.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "alt": "Picture from the Wikipedia article on Venera 1.",
+        "credit": "Armael",
+        "source": "https://commons.wikimedia.org/wiki/File:Venera_1_(a)_(Memorial_Museum_of_Astronautics).JPG",
+        "license": "CC0",
+        "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/deed.en"
       }
     },
     {
-      "id": "02-12-denmark-ferry",
+      "id": "02-12-national-gallery-of-norway",
       "date": "02-12",
       "dateLabel": "12 February",
-      "country": "denmark",
-      "countryName": "Denmark",
-      "kind": "events",
-      "year": 1909,
-      "title": "ferry",
-      "body": "1909: New Zealand's worst maritime disaster of the 20th century happens when the, an inter-island ferry, sinks and explodes at the entrance to Wellington Harbour.",
+      "category": "culture",
+      "categoryName": "Culture",
+      "year": 1994,
+      "title": "National Gallery",
+      "body": "Four thieves break into the National Gallery of Norway and steal Edvard Munch's iconic painting The Scream.",
       "source": {
-        "name": "Wikipedia · Ferry",
-        "url": "https://en.wikipedia.org/wiki/Ferry",
+        "name": "Wikipedia · National Gallery (Norway)",
+        "url": "https://en.wikipedia.org/wiki/National_Gallery_(Norway)",
         "calendarUrl": "https://en.wikipedia.org/wiki/February_12",
         "license": {
           "name": "CC BY-SA 4.0",
@@ -50,27 +48,26 @@
         }
       },
       "image": {
-        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/bd/DFDS_Transmanche_Ferry_loading_at_Newhaven_Harbour.jpg/1280px-DFDS_Transmanche_Ferry_loading_at_Newhaven_Harbour.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-        "alt": "Image related to ferry.",
-        "credit": "FrogsLegs71",
-        "source": "https://commons.wikimedia.org/wiki/File:DFDS_Transmanche_Ferry_loading_at_Newhaven_Harbour.jpg",
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/15/Nasjonalgalleriet_oslo.jpg/1280px-Nasjonalgalleriet_oslo.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "alt": "Picture from the Wikipedia article on National Gallery.",
+        "credit": "Bjørn Erik Pedersen",
+        "source": "https://commons.wikimedia.org/wiki/File:Nasjonalgalleriet_oslo.jpg",
         "license": "CC BY-SA 3.0",
-        "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0"
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0/"
       }
     },
     {
-      "id": "02-12-greece-republic-of-north-macedonia",
+      "id": "02-12-aleksandr-solzhenitsyn",
       "date": "02-12",
       "dateLabel": "12 February",
-      "country": "greece",
-      "countryName": "Greece",
-      "kind": "events",
-      "year": 2019,
-      "title": "Republic of North Macedonia",
-      "body": "2019: The country known as the Republic of Macedonia renames itself the Republic of North Macedonia in accordance with the Prespa agreement, settling a long-standing naming dispute with Greece.",
+      "category": "science",
+      "categoryName": "Science",
+      "year": 1974,
+      "title": "Aleksandr Solzhenitsyn",
+      "body": "Aleksandr Solzhenitsyn, winner of the Nobel Prize in Literature in 1970, is exiled from the Soviet Union.",
       "source": {
-        "name": "Wikipedia · North Macedonia",
-        "url": "https://en.wikipedia.org/wiki/North_Macedonia",
+        "name": "Wikipedia · Aleksandr Solzhenitsyn",
+        "url": "https://en.wikipedia.org/wiki/Aleksandr_Solzhenitsyn",
         "calendarUrl": "https://en.wikipedia.org/wiki/February_12",
         "license": {
           "name": "CC BY-SA 4.0",
@@ -78,12 +75,12 @@
         }
       },
       "image": {
-        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/79/Flag_of_North_Macedonia.svg/1280px-Flag_of_North_Macedonia.svg.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-        "alt": "Image related to Republic of North Macedonia.",
-        "credit": "User:SKopp, redrawn by User:Gabbe",
-        "source": "https://commons.wikimedia.org/wiki/File:Flag_of_North_Macedonia.svg",
-        "license": "Public domain",
-        "licenseUrl": "https://commons.wikimedia.org/wiki/File:Flag_of_North_Macedonia.svg"
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/8d/Aleksandr_Solzhenitsyn_1974crop.jpg/1280px-Aleksandr_Solzhenitsyn_1974crop.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "alt": "Picture from the Wikipedia article on Aleksandr Solzhenitsyn.",
+        "credit": "Bert Verhoeff for Anefo",
+        "source": "https://commons.wikimedia.org/wiki/File:Aleksandr_Solzhenitsyn_1974crop.jpg",
+        "license": "CC0",
+        "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/deed.en"
       }
     }
   ]

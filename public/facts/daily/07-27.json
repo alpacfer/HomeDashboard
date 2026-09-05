@@ -3,18 +3,17 @@
   "dateLabel": "27 July",
   "facts": [
     {
-      "id": "07-27-spain-enrique-granados",
+      "id": "07-27-transatlantic-telegraph-cable",
       "date": "07-27",
       "dateLabel": "27 July",
-      "country": "spain",
-      "countryName": "Spain",
-      "kind": "births",
-      "year": 1867,
-      "title": "Enrique Granados",
-      "body": "Enrique Granados, Spanish pianist and composer (died 1916), was born on this day in 1867.",
+      "category": "tech",
+      "categoryName": "Tech",
+      "year": 1866,
+      "title": "Transatlantic telegraph cable",
+      "body": "The first permanent transatlantic telegraph cable is successfully completed, stretching from Valentia Island, Ireland, to Heart's Content, Newfoundland.",
       "source": {
-        "name": "Wikipedia · Enrique Granados",
-        "url": "https://en.wikipedia.org/wiki/Enrique_Granados",
+        "name": "Wikipedia · Transatlantic telegraph cable",
+        "url": "https://en.wikipedia.org/wiki/Transatlantic_telegraph_cable",
         "calendarUrl": "https://en.wikipedia.org/wiki/July_27",
         "license": {
           "name": "CC BY-SA 4.0",
@@ -22,27 +21,26 @@
         }
       },
       "image": {
-        "src": "https://upload.wikimedia.org/wikipedia/commons/c/cd/Granados.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
-        "alt": "Portrait or image of Enrique Granados.",
-        "credit": "english/spanish Wiki",
-        "source": "https://commons.wikimedia.org/wiki/File:Granados.jpg",
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a6/Landing_of_the_Atlantic_Cable_of_1866%2C_Heart%27s_Content%2C_Newfoundland.jpg/1280px-Landing_of_the_Atlantic_Cable_of_1866%2C_Heart%27s_Content%2C_Newfoundland.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "alt": "Picture from the Wikipedia article on Transatlantic telegraph cable.",
+        "credit": "Robert Charles Dudley",
+        "source": "https://commons.wikimedia.org/wiki/File:Landing_of_the_Atlantic_Cable_of_1866,_Heart%27s_Content,_Newfoundland.jpg",
         "license": "Public domain",
-        "licenseUrl": "https://commons.wikimedia.org/wiki/File:Granados.jpg"
+        "licenseUrl": "https://commons.wikimedia.org/wiki/File:Landing_of_the_Atlantic_Cable_of_1866,_Heart%27s_Content,_Newfoundland.jpg"
       }
     },
     {
-      "id": "07-27-denmark-nikolaj-coster-waldau",
+      "id": "07-27-de-havilland-comet",
       "date": "07-27",
       "dateLabel": "27 July",
-      "country": "denmark",
-      "countryName": "Denmark",
-      "kind": "births",
-      "year": 1970,
-      "title": "Nikolaj Coster-Waldau",
-      "body": "Nikolaj Coster-Waldau, Danish actor and producer, was born on this day in 1970.",
+      "category": "space",
+      "categoryName": "Space",
+      "year": 1949,
+      "title": "de Havilland Comet",
+      "body": "Initial flight of the de Havilland Comet, the first jet-powered airliner.",
       "source": {
-        "name": "Wikipedia · Nikolaj Coster-Waldau",
-        "url": "https://en.wikipedia.org/wiki/Nikolaj_Coster-Waldau",
+        "name": "Wikipedia · De Havilland Comet",
+        "url": "https://en.wikipedia.org/wiki/De_Havilland_Comet",
         "calendarUrl": "https://en.wikipedia.org/wiki/July_27",
         "license": {
           "name": "CC BY-SA 4.0",
@@ -50,27 +48,26 @@
         }
       },
       "image": {
-        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/92/Nikolaj_Coster-Waldau-68363.jpg/1280px-Nikolaj_Coster-Waldau-68363.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-        "alt": "Portrait or image of Nikolaj Coster-Waldau.",
-        "credit": "Harald Krichel",
-        "source": "https://commons.wikimedia.org/wiki/File:Nikolaj_Coster-Waldau-68363.jpg",
-        "license": "CC BY-SA 3.0",
-        "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0"
+        "src": "https://upload.wikimedia.org/wikipedia/commons/5/5e/BEA_de_Havilland_DH-106_Comet_4B_Berlin.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+        "alt": "Picture from the Wikipedia article on de Havilland Comet.",
+        "credit": "BEA_De_Havilland_DH-106_Comet_4B_Manteufel.jpg: Ralf Manteufel derivative work: Altair78 (talk)",
+        "source": "https://commons.wikimedia.org/wiki/File:BEA_de_Havilland_DH-106_Comet_4B_Berlin.jpg",
+        "license": "GFDL 1.2",
+        "licenseUrl": "https://www.gnu.org/licenses/old-licenses/fdl-1.2.html"
       }
     },
     {
-      "id": "07-27-greece-michail-stasinopoulos",
+      "id": "07-27-south-vietnam",
       "date": "07-27",
       "dateLabel": "27 July",
-      "country": "greece",
-      "countryName": "Greece",
-      "kind": "births",
-      "year": 1903,
-      "title": "Michail Stasinopoulos",
-      "body": "Michail Stasinopoulos, Greek jurist and politician, President of Greece (died 2002), was born on this day in 1903.",
+      "category": "world",
+      "categoryName": "World",
+      "year": 1964,
+      "title": "South Vietnam",
+      "body": "Five thousand more American military advisers are sent to South Vietnam bringing the total number of United States forces in Vietnam to 21,000.",
       "source": {
-        "name": "Wikipedia · Michail Stasinopoulos",
-        "url": "https://en.wikipedia.org/wiki/Michail_Stasinopoulos",
+        "name": "Wikipedia · South Vietnam",
+        "url": "https://en.wikipedia.org/wiki/South_Vietnam",
         "calendarUrl": "https://en.wikipedia.org/wiki/July_27",
         "license": {
           "name": "CC BY-SA 4.0",
@@ -78,12 +75,12 @@
         }
       },
       "image": {
-        "src": "https://upload.wikimedia.org/wikipedia/commons/a/a1/1974_Press_Photo_Michael_Stasinopoulos_sworn_in_at_President_of_Greek_Republic_%28cropped%29.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
-        "alt": "Portrait or image of Michail Stasinopoulos.",
-        "credit": "Associated Press",
-        "source": "https://commons.wikimedia.org/wiki/File:1974_Press_Photo_Michael_Stasinopoulos_sworn_in_at_President_of_Greek_Republic_(cropped).png",
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e9/Flag_of_South_Vietnam.svg/1280px-Flag_of_South_Vietnam.svg.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "alt": "Picture from the Wikipedia article on South Vietnam.",
+        "credit": "(many, see history)",
+        "source": "https://commons.wikimedia.org/wiki/File:Flag_of_South_Vietnam.svg",
         "license": "Public domain",
-        "licenseUrl": "https://commons.wikimedia.org/wiki/File:1974_Press_Photo_Michael_Stasinopoulos_sworn_in_at_President_of_Greek_Republic_(cropped).png"
+        "licenseUrl": "https://commons.wikimedia.org/wiki/File:Flag_of_South_Vietnam.svg"
       }
     }
   ]

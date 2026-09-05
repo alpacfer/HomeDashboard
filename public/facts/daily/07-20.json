@@ -3,18 +3,17 @@
   "dateLabel": "20 July",
   "facts": [
     {
-      "id": "07-20-spain-bogot",
+      "id": "07-20-apollo-11",
       "date": "07-20",
       "dateLabel": "20 July",
-      "country": "spain",
-      "countryName": "Spain",
-      "kind": "events",
-      "year": 1810,
-      "title": "Bogotá",
-      "body": "1810: Citizens of Bogotá, New Granada declare independence from Spain.",
+      "category": "space",
+      "categoryName": "Space",
+      "year": 1969,
+      "title": "Apollo 11",
+      "body": "Apollo 11's crew successfully makes the first human landing on the Moon in the Sea of Tranquility. Americans Neil Armstrong and Buzz Aldrin become the first humans to walk on the Moon six and a half hours later.",
       "source": {
-        "name": "Wikipedia · Bogotá",
-        "url": "https://en.wikipedia.org/wiki/Bogot%C3%A1",
+        "name": "Wikipedia · Apollo 11",
+        "url": "https://en.wikipedia.org/wiki/Apollo_11",
         "calendarUrl": "https://en.wikipedia.org/wiki/July_20",
         "license": {
           "name": "CC BY-SA 4.0",
@@ -22,68 +21,66 @@
         }
       },
       "image": {
-        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/20/Bogota%2C_Colombia_%2836668708290%29.jpg/1280px-Bogota%2C_Colombia_%2836668708290%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-        "alt": "Image related to Bogotá.",
-        "credit": "Pedro Szekely from Los Angeles, USA",
-        "source": "https://commons.wikimedia.org/wiki/File:Bogota,_Colombia_(36668708290).jpg",
-        "license": "CC BY-SA 2.0",
-        "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0"
-      }
-    },
-    {
-      "id": "07-20-denmark-league-of-nations",
-      "date": "07-20",
-      "dateLabel": "20 July",
-      "country": "denmark",
-      "countryName": "Denmark",
-      "kind": "events",
-      "year": 1940,
-      "title": "League of Nations",
-      "body": "1940: Denmark leaves the League of Nations.",
-      "source": {
-        "name": "Wikipedia · League of Nations",
-        "url": "https://en.wikipedia.org/wiki/League_of_Nations",
-        "calendarUrl": "https://en.wikipedia.org/wiki/July_20",
-        "license": {
-          "name": "CC BY-SA 4.0",
-          "url": "https://creativecommons.org/licenses/by-sa/4.0/"
-        }
-      },
-      "image": {
-        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c5/Flag_of_the_League_of_Nations_%281939%29.svg/1280px-Flag_of_the_League_of_Nations_%281939%29.svg.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-        "alt": "Image related to League of Nations.",
-        "credit": "Martin Grandjean This W3C-unspecified vector image was created with Inkscape.",
-        "source": "https://commons.wikimedia.org/wiki/File:Flag_of_the_League_of_Nations_(1939).svg",
-        "license": "CC BY-SA 4.0",
-        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0"
-      }
-    },
-    {
-      "id": "07-20-greece-kardam-of-bulgaria",
-      "date": "07-20",
-      "dateLabel": "20 July",
-      "country": "greece",
-      "countryName": "Greece",
-      "kind": "events",
-      "year": 792,
-      "title": "Kardam of Bulgaria",
-      "body": "792: Kardam of Bulgaria defeats Byzantine Emperor Constantine VI at the Battle of Marcellae.",
-      "source": {
-        "name": "Wikipedia · Kardam of Bulgaria",
-        "url": "https://en.wikipedia.org/wiki/Kardam_of_Bulgaria",
-        "calendarUrl": "https://en.wikipedia.org/wiki/July_20",
-        "license": {
-          "name": "CC BY-SA 4.0",
-          "url": "https://creativecommons.org/licenses/by-sa/4.0/"
-        }
-      },
-      "image": {
-        "src": "https://commons.wikimedia.org/wiki/Special:Redirect/file/Flag_of_Greece.svg?width=1000",
-        "alt": "The national flag of Greece.",
-        "credit": "Greek government",
-        "source": "https://commons.wikimedia.org/wiki/File:Flag_of_Greece.svg",
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/41/A_Man_on_the_Moon%2C_AS11-40-5903_%28cropped%29.jpg/1280px-A_Man_on_the_Moon%2C_AS11-40-5903_%28cropped%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "alt": "Picture from the Wikipedia article on Apollo 11.",
+        "credit": "Neil A. Armstrong",
+        "source": "https://commons.wikimedia.org/wiki/File:A_Man_on_the_Moon,_AS11-40-5903_(cropped).jpg",
         "license": "Public domain",
-        "licenseUrl": "https://commons.wikimedia.org/wiki/File:Flag_of_Greece.svg"
+        "licenseUrl": "https://commons.wikimedia.org/wiki/File:A_Man_on_the_Moon,_AS11-40-5903_(cropped).jpg"
+      }
+    },
+    {
+      "id": "07-20-central-intelligence-agency",
+      "date": "07-20",
+      "dateLabel": "20 July",
+      "category": "science",
+      "categoryName": "Science",
+      "year": 1977,
+      "title": "Central Intelligence Agency",
+      "body": "The Central Intelligence Agency releases documents under the Freedom of Information Act revealing it had engaged in mind-control experiments.",
+      "source": {
+        "name": "Wikipedia · Central Intelligence Agency",
+        "url": "https://en.wikipedia.org/wiki/Central_Intelligence_Agency",
+        "calendarUrl": "https://en.wikipedia.org/wiki/July_20",
+        "license": {
+          "name": "CC BY-SA 4.0",
+          "url": "https://creativecommons.org/licenses/by-sa/4.0/"
+        }
+      },
+      "image": {
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/25/Seal_of_the_Central_Intelligence_Agency.svg/1280px-Seal_of_the_Central_Intelligence_Agency.svg.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "alt": "Picture from the Wikipedia article on Central Intelligence Agency.",
+        "credit": "United States Federal government",
+        "source": "https://commons.wikimedia.org/wiki/File:Seal_of_the_Central_Intelligence_Agency.svg",
+        "license": "Public domain",
+        "licenseUrl": "https://commons.wikimedia.org/wiki/File:Seal_of_the_Central_Intelligence_Agency.svg"
+      }
+    },
+    {
+      "id": "07-20-special-olympics",
+      "date": "07-20",
+      "dateLabel": "20 July",
+      "category": "sport",
+      "categoryName": "Sport",
+      "year": 1968,
+      "title": "Special Olympics",
+      "body": "The first International Special Olympics Summer Games are held at Soldier Field in Chicago, with about 1,000 athletes with intellectual disabilities.",
+      "source": {
+        "name": "Wikipedia · Special Olympics",
+        "url": "https://en.wikipedia.org/wiki/Special_Olympics",
+        "calendarUrl": "https://en.wikipedia.org/wiki/July_20",
+        "license": {
+          "name": "CC BY-SA 4.0",
+          "url": "https://creativecommons.org/licenses/by-sa/4.0/"
+        }
+      },
+      "image": {
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/21/Logo_Special_Olympics.svg/1280px-Logo_Special_Olympics.svg.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "alt": "Picture from the Wikipedia article on Special Olympics.",
+        "credit": "Special Olympics",
+        "source": "https://commons.wikimedia.org/wiki/File:Logo_Special_Olympics.svg",
+        "license": "Public domain",
+        "licenseUrl": "https://commons.wikimedia.org/wiki/File:Logo_Special_Olympics.svg"
       }
     }
   ]

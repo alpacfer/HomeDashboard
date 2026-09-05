@@ -3,18 +3,17 @@
   "dateLabel": "24 August",
   "facts": [
     {
-      "id": "08-24-spain-peninsular-war",
+      "id": "08-24-amelia-earhart",
       "date": "08-24",
       "dateLabel": "24 August",
-      "country": "spain",
-      "countryName": "Spain",
-      "kind": "events",
-      "year": 1812,
-      "title": "Peninsular War",
-      "body": "1812: Peninsular War: A coalition of Spanish, British, and Portuguese forces succeed in lifting the two-and-a-half-year-long Siege of Cádiz.",
+      "category": "world",
+      "categoryName": "World",
+      "year": 1932,
+      "title": "Amelia Earhart",
+      "body": "Amelia Earhart becomes the first woman to fly across the United States non-stop (from Los Angeles to Newark, New Jersey).",
       "source": {
-        "name": "Wikipedia · Peninsular War",
-        "url": "https://en.wikipedia.org/wiki/Peninsular_War",
+        "name": "Wikipedia · Amelia Earhart",
+        "url": "https://en.wikipedia.org/wiki/Amelia_Earhart",
         "calendarUrl": "https://en.wikipedia.org/wiki/August_24",
         "license": {
           "name": "CC BY-SA 4.0",
@@ -22,27 +21,26 @@
         }
       },
       "image": {
-        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/93/Peninsular_war_collage.jpg/1280px-Peninsular_war_collage.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-        "alt": "Image related to Peninsular War.",
-        "credit": "Ruedi33a",
-        "source": "https://commons.wikimedia.org/wiki/File:Peninsular_war_collage.jpg",
-        "license": "CC BY-SA 4.0",
-        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0"
+        "src": "https://upload.wikimedia.org/wikipedia/commons/7/72/Amelia_Earhart_standing_under_nose_of_her_Lockheed_Model_10-E_Electra%2C_small_%28cropped%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+        "alt": "Picture from the Wikipedia article on Amelia Earhart.",
+        "credit": "Underwood & Underwood (active 1880 – c. 1950)[1]",
+        "source": "https://commons.wikimedia.org/wiki/File:Amelia_Earhart_standing_under_nose_of_her_Lockheed_Model_10-E_Electra,_small_(cropped).jpg",
+        "license": "Public domain",
+        "licenseUrl": "https://commons.wikimedia.org/wiki/File:Amelia_Earhart_standing_under_nose_of_her_Lockheed_Model_10-E_Electra,_small_(cropped).jpg"
       }
     },
     {
-      "id": "08-24-denmark-sophia-brahe",
+      "id": "08-24-national-space-agency",
       "date": "08-24",
       "dateLabel": "24 August",
-      "country": "denmark",
-      "countryName": "Denmark",
-      "kind": "births",
-      "year": 1556,
-      "title": "Sophia Brahe",
-      "body": "Sophia Brahe, Danish horticulturalist and astronomer (died 1643), was born on this day in 1556.",
+      "category": "space",
+      "categoryName": "Space",
+      "year": 2017,
+      "title": "List of government space agencies",
+      "body": "The National Space Agency of Taiwan successfully launches the observation satellite Formosat-5 into space.",
       "source": {
-        "name": "Wikipedia · Sophia Brahe",
-        "url": "https://en.wikipedia.org/wiki/Sophia_Brahe",
+        "name": "Wikipedia · List of government space agencies",
+        "url": "https://en.wikipedia.org/wiki/List_of_government_space_agencies",
         "calendarUrl": "https://en.wikipedia.org/wiki/August_24",
         "license": {
           "name": "CC BY-SA 4.0",
@@ -50,40 +48,39 @@
         }
       },
       "image": {
-        "src": "https://upload.wikimedia.org/wikipedia/commons/b/b9/Sophie_Brahe_portrait.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
-        "alt": "Portrait or image of Sophia Brahe.",
-        "credit": "Unknown authorUnknown author",
-        "source": "https://commons.wikimedia.org/wiki/File:Sophie_Brahe_portrait.jpg",
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/5d/STS115_Atlantis_undock_ISS_edit2.jpg/1280px-STS115_Atlantis_undock_ISS_edit2.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "alt": "Picture from the Wikipedia article on List of government space agencies.",
+        "credit": "STS115_Atlantis_undock_ISS.jpg: NASA derivative work: The High Fin Sperm Whale",
+        "source": "https://commons.wikimedia.org/wiki/File:STS115_Atlantis_undock_ISS_edit2.jpg",
         "license": "Public domain",
-        "licenseUrl": "https://commons.wikimedia.org/wiki/File:Sophie_Brahe_portrait.jpg"
+        "licenseUrl": "https://commons.wikimedia.org/wiki/File:STS115_Atlantis_undock_ISS_edit2.jpg"
       }
     },
     {
-      "id": "08-24-greece-daylight",
+      "id": "08-24-australian-antarctic-territory",
       "date": "08-24",
       "dateLabel": "24 August",
-      "country": "greece",
-      "countryName": "Greece",
-      "kind": "daylight",
-      "year": 0,
-      "title": "Athens's daylight",
-      "body": "On 24 August, Athens gets about 13 hours and 15 minutes of daylight.",
+      "category": "science",
+      "categoryName": "Science",
+      "year": 1936,
+      "title": "Australian Antarctic Territory",
+      "body": "The Australian Antarctic Territory is created.",
       "source": {
-        "name": "NOAA Solar Calculator",
-        "url": "https://gml.noaa.gov/grad/solcalc/",
-        "calendarUrl": "https://gml.noaa.gov/grad/solcalc/calcdetails.html",
+        "name": "Wikipedia · Australian Antarctic Territory",
+        "url": "https://en.wikipedia.org/wiki/Australian_Antarctic_Territory",
+        "calendarUrl": "https://en.wikipedia.org/wiki/August_24",
         "license": {
-          "name": "public-domain NOAA method",
-          "url": "https://www.noaa.gov/disclaimer"
+          "name": "CC BY-SA 4.0",
+          "url": "https://creativecommons.org/licenses/by-sa/4.0/"
         }
       },
       "image": {
-        "src": "https://commons.wikimedia.org/wiki/Special:Redirect/file/Flag_of_Greece.svg?width=1000",
-        "alt": "The national flag of Greece.",
-        "credit": "Greek government",
-        "source": "https://commons.wikimedia.org/wiki/File:Flag_of_Greece.svg",
-        "license": "Public domain",
-        "licenseUrl": "https://commons.wikimedia.org/wiki/File:Flag_of_Greece.svg"
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a5/Antarctica%2C_Australia_territorial_claim.svg/1280px-Antarctica%2C_Australia_territorial_claim.svg.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "alt": "Picture from the Wikipedia article on Australian Antarctic Territory.",
+        "credit": "Lokal_Profil",
+        "source": "https://commons.wikimedia.org/wiki/File:Antarctica,_Australia_territorial_claim.svg",
+        "license": "CC BY-SA 2.5",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.5"
       }
     }
   ]

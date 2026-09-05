@@ -3,18 +3,17 @@
   "dateLabel": "10 February",
   "facts": [
     {
-      "id": "02-10-spain-world-war-ii",
+      "id": "02-10-deep-blue-chess-computer",
       "date": "02-10",
       "dateLabel": "10 February",
-      "country": "spain",
-      "countryName": "Spain",
-      "kind": "events",
-      "year": 1943,
-      "title": "World War II",
-      "body": "1943: World War II: Attempting to completely lift the Siege of Leningrad, the Soviet Red Army engages German troops and Spanish volunteers in the Battle of Krasny Bor.",
+      "category": "tech",
+      "categoryName": "Tech",
+      "year": 1996,
+      "title": "Deep Blue",
+      "body": "IBM supercomputer Deep Blue defeats Garry Kasparov in chess for the first time.",
       "source": {
-        "name": "Wikipedia · World War II",
-        "url": "https://en.wikipedia.org/wiki/World_War_II",
+        "name": "Wikipedia · Deep Blue (chess computer)",
+        "url": "https://en.wikipedia.org/wiki/Deep_Blue_(chess_computer)",
         "calendarUrl": "https://en.wikipedia.org/wiki/February_10",
         "license": {
           "name": "CC BY-SA 4.0",
@@ -22,27 +21,26 @@
         }
       },
       "image": {
-        "src": "https://upload.wikimedia.org/wikipedia/commons/1/10/Bundesarchiv_Bild_101I-646-5188-17%2C_Flugzeuge_Junkers_Ju_87.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
-        "alt": "Image related to World War II.",
-        "credit": "Bundesarchiv, Bild 101I-646-5188-17 / Opitz / CC-BY-SA 3.0",
-        "source": "https://commons.wikimedia.org/wiki/File:Bundesarchiv_Bild_101I-646-5188-17,_Flugzeuge_Junkers_Ju_87.jpg",
-        "license": "CC BY-SA 3.0 de",
-        "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0/de/deed.en"
+        "src": "https://upload.wikimedia.org/wikipedia/commons/b/be/Deep_Blue.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+        "alt": "Picture from the Wikipedia article on Deep Blue.",
+        "credit": "James the photographer",
+        "source": "https://commons.wikimedia.org/wiki/File:Deep_Blue.jpg",
+        "license": "CC BY 2.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by/2.0"
       }
     },
     {
-      "id": "02-10-denmark-denmark",
+      "id": "02-10-ron-brown",
       "date": "02-10",
       "dateLabel": "10 February",
-      "country": "denmark",
-      "countryName": "Denmark",
-      "kind": "events",
-      "year": 1920,
-      "title": "Denmark",
-      "body": "1920: About 75% of the population in Zone I votes to join Denmark in the 1920 Schleswig plebiscites.",
+      "category": "world",
+      "categoryName": "World",
+      "year": 1989,
+      "title": "Ron Brown",
+      "body": "Ron Brown is elected chairman of the Democratic National Committee, becoming the first African American to lead a major American political party.",
       "source": {
-        "name": "Wikipedia · Denmark",
-        "url": "https://en.wikipedia.org/wiki/Denmark",
+        "name": "Wikipedia · Ron Brown",
+        "url": "https://en.wikipedia.org/wiki/Ron_Brown",
         "calendarUrl": "https://en.wikipedia.org/wiki/February_10",
         "license": {
           "name": "CC BY-SA 4.0",
@@ -50,27 +48,26 @@
         }
       },
       "image": {
-        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/9c/Flag_of_Denmark.svg/1280px-Flag_of_Denmark.svg.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-        "alt": "Image related to Denmark.",
-        "credit": "Madden and others",
-        "source": "https://commons.wikimedia.org/wiki/File:Flag_of_Denmark.svg",
+        "src": "https://upload.wikimedia.org/wikipedia/commons/5/5b/RonBrownUS.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+        "alt": "Picture from the Wikipedia article on Ron Brown.",
+        "credit": "Wikimedia Commons contributor",
+        "source": "https://commons.wikimedia.org/wiki/File:RonBrownUS.JPG",
         "license": "Public domain",
-        "licenseUrl": "https://commons.wikimedia.org/wiki/File:Flag_of_Denmark.svg"
+        "licenseUrl": "https://commons.wikimedia.org/wiki/File:RonBrownUS.JPG"
       }
     },
     {
-      "id": "02-10-greece-manuel-ii-palaiologos",
+      "id": "02-10-lockheed-u-2",
       "date": "02-10",
       "dateLabel": "10 February",
-      "country": "greece",
-      "countryName": "Greece",
-      "kind": "events",
-      "year": 1392,
-      "title": "Manuel II Palaiologos",
-      "body": "1392: Byzantine Emperor Manuel II Palaiologos marries Helena Dragaš, daughter of the Serbian Prince Constantine Dragaš. She is crowned as empress the following day.",
+      "category": "world",
+      "categoryName": "World",
+      "year": 1962,
+      "title": "Lockheed U-2",
+      "body": "Captured American U2 spy-plane pilot Gary Powers is exchanged for captured Soviet spy Rudolf Abel.",
       "source": {
-        "name": "Wikipedia · Manuel II Palaiologos",
-        "url": "https://en.wikipedia.org/wiki/Manuel_II_Palaiologos",
+        "name": "Wikipedia · Lockheed U-2",
+        "url": "https://en.wikipedia.org/wiki/Lockheed_U-2",
         "calendarUrl": "https://en.wikipedia.org/wiki/February_10",
         "license": {
           "name": "CC BY-SA 4.0",
@@ -78,12 +75,12 @@
         }
       },
       "image": {
-        "src": "https://upload.wikimedia.org/wikipedia/commons/9/92/Manuel_II_Palaiologos_%28cropped%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
-        "alt": "Image related to Manuel II Palaiologos.",
-        "credit": "The original uploader was Pitchka",
-        "source": "https://commons.wikimedia.org/wiki/File:Manuel_II_Palaiologos_(cropped).jpg",
-        "license": "CC BY-SA 4.0",
-        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0"
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/95/Usaf.u2.750pix.jpg/1280px-Usaf.u2.750pix.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "alt": "Picture from the Wikipedia article on Lockheed U-2.",
+        "credit": "United States Department of the Air Force",
+        "source": "https://commons.wikimedia.org/wiki/File:Usaf.u2.750pix.jpg",
+        "license": "Public domain",
+        "licenseUrl": "https://commons.wikimedia.org/wiki/File:Usaf.u2.750pix.jpg"
       }
     }
   ]

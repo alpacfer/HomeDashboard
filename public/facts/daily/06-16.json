@@ -3,18 +3,17 @@
   "dateLabel": "16 June",
   "facts": [
     {
-      "id": "06-16-spain-war-of-the-austrian-succession",
+      "id": "06-16-shenzhou-9",
       "date": "06-16",
       "dateLabel": "16 June",
-      "country": "spain",
-      "countryName": "Spain",
-      "kind": "events",
-      "year": 1746,
-      "title": "War of the Austrian Succession",
-      "body": "1746: War of the Austrian Succession: Austria and Sardinia defeat a Franco-Spanish army at the Battle of Piacenza.",
+      "category": "space",
+      "categoryName": "Space",
+      "year": 2012,
+      "title": "Shenzhou 9",
+      "body": "China successfully launches its Shenzhou 9 spacecraft, carrying three astronauts, including the first female Chinese astronaut Liu Yang, to the Tiangong-1 orbital module.",
       "source": {
-        "name": "Wikipedia · War of the Austrian Succession",
-        "url": "https://en.wikipedia.org/wiki/War_of_the_Austrian_Succession",
+        "name": "Wikipedia · Shenzhou 9",
+        "url": "https://en.wikipedia.org/wiki/Shenzhou_9",
         "calendarUrl": "https://en.wikipedia.org/wiki/June_16",
         "license": {
           "name": "CC BY-SA 4.0",
@@ -22,68 +21,66 @@
         }
       },
       "image": {
-        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/14/War_of_The_Austrian_Succesion_Collage_1.jpg/1280px-War_of_The_Austrian_Succesion_Collage_1.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-        "alt": "Image related to War of the Austrian Succession.",
-        "credit": "DavidDijkgraaf",
-        "source": "https://commons.wikimedia.org/wiki/File:War_of_The_Austrian_Succesion_Collage_1.jpg",
+        "src": "https://upload.wikimedia.org/wikipedia/commons/2/29/Tiangong_1_drawing.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+        "alt": "Picture from the Wikipedia article on Shenzhou 9.",
+        "credit": "Craigboy",
+        "source": "https://commons.wikimedia.org/wiki/File:Tiangong_1_drawing.png",
+        "license": "CC BY-SA 3.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0"
+      }
+    },
+    {
+      "id": "06-16-shanghai-disneyland-park",
+      "date": "06-16",
+      "dateLabel": "16 June",
+      "category": "culture",
+      "categoryName": "Culture",
+      "year": 2016,
+      "title": "Shanghai Disneyland",
+      "body": "Shanghai Disneyland Park, the first Disney Park in mainland China, opens to the public.",
+      "source": {
+        "name": "Wikipedia · Shanghai Disneyland",
+        "url": "https://en.wikipedia.org/wiki/Shanghai_Disneyland",
+        "calendarUrl": "https://en.wikipedia.org/wiki/June_16",
+        "license": {
+          "name": "CC BY-SA 4.0",
+          "url": "https://creativecommons.org/licenses/by-sa/4.0/"
+        }
+      },
+      "image": {
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/9a/18-03-12_ShanghaiDisney_013.jpg/1280px-18-03-12_ShanghaiDisney_013.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "alt": "Picture from the Wikipedia article on Shanghai Disneyland.",
+        "credit": "Josh Grenier",
+        "source": "https://commons.wikimedia.org/wiki/File:18-03-12_ShanghaiDisney_013.jpg",
+        "license": "CC BY 2.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by/2.0"
+      }
+    },
+    {
+      "id": "06-16-oracle-corporation",
+      "date": "06-16",
+      "dateLabel": "16 June",
+      "category": "tech",
+      "categoryName": "Tech",
+      "year": 1977,
+      "title": "Oracle Corporation",
+      "body": "Oracle Corporation is incorporated in Redwood Shores, California, as Software Development Laboratories (SDL), by Larry Ellison, Bob Miner and Ed Oates.",
+      "source": {
+        "name": "Wikipedia · Oracle Corporation",
+        "url": "https://en.wikipedia.org/wiki/Oracle_Corporation",
+        "calendarUrl": "https://en.wikipedia.org/wiki/June_16",
+        "license": {
+          "name": "CC BY-SA 4.0",
+          "url": "https://creativecommons.org/licenses/by-sa/4.0/"
+        }
+      },
+      "image": {
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d1/Oracle_Campus_in_Austin_2018.jpg/1280px-Oracle_Campus_in_Austin_2018.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "alt": "Picture from the Wikipedia article on Oracle Corporation.",
+        "credit": "DronePhotographer",
+        "source": "https://commons.wikimedia.org/wiki/File:Oracle_Campus_in_Austin_2018.jpg",
         "license": "CC0",
         "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/deed.en"
-      }
-    },
-    {
-      "id": "06-16-denmark-henry-perenara",
-      "date": "06-16",
-      "dateLabel": "16 June",
-      "country": "denmark",
-      "countryName": "Denmark",
-      "kind": "births",
-      "year": 1980,
-      "title": "Henry Perenara",
-      "body": "Henry Perenara, New Zealand rugby league player and referee, was born on this day in 1980.",
-      "source": {
-        "name": "Wikipedia · Henry Perenara",
-        "url": "https://en.wikipedia.org/wiki/Henry_Perenara",
-        "calendarUrl": "https://en.wikipedia.org/wiki/June_16",
-        "license": {
-          "name": "CC BY-SA 4.0",
-          "url": "https://creativecommons.org/licenses/by-sa/4.0/"
-        }
-      },
-      "image": {
-        "src": "https://commons.wikimedia.org/wiki/Special:Redirect/file/Flag_of_Denmark.svg?width=1000",
-        "alt": "The national flag of Denmark.",
-        "credit": "Danish government",
-        "source": "https://commons.wikimedia.org/wiki/File:Flag_of_Denmark.svg",
-        "license": "Public domain",
-        "licenseUrl": "https://commons.wikimedia.org/wiki/File:Flag_of_Denmark.svg"
-      }
-    },
-    {
-      "id": "06-16-greece-joseph-solomon-delmedigo",
-      "date": "06-16",
-      "dateLabel": "16 June",
-      "country": "greece",
-      "countryName": "Greece",
-      "kind": "births",
-      "year": 1591,
-      "title": "Joseph Solomon Delmedigo",
-      "body": "Joseph Solomon Delmedigo, Greek-Italian physician, mathematician, and theorist (died 1655), was born on this day in 1591.",
-      "source": {
-        "name": "Wikipedia · Joseph Solomon Delmedigo",
-        "url": "https://en.wikipedia.org/wiki/Joseph_Solomon_Delmedigo",
-        "calendarUrl": "https://en.wikipedia.org/wiki/June_16",
-        "license": {
-          "name": "CC BY-SA 4.0",
-          "url": "https://creativecommons.org/licenses/by-sa/4.0/"
-        }
-      },
-      "image": {
-        "src": "https://upload.wikimedia.org/wikipedia/commons/c/ca/Delmedigo.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
-        "alt": "Portrait or image of Joseph Solomon Delmedigo.",
-        "credit": "engraved by W. Delff after a painting by C. Duyster",
-        "source": "https://commons.wikimedia.org/wiki/File:Delmedigo.jpg",
-        "license": "Public domain",
-        "licenseUrl": "https://commons.wikimedia.org/wiki/File:Delmedigo.jpg"
       }
     }
   ]

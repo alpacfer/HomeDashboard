@@ -3,18 +3,17 @@
   "dateLabel": "9 November",
   "facts": [
     {
-      "id": "11-09-spain-treaty-of-seville-1729",
+      "id": "11-09-fall-of-the-berlin-wall",
       "date": "11-09",
       "dateLabel": "9 November",
-      "country": "spain",
-      "countryName": "Spain",
-      "kind": "events",
-      "year": 1729,
-      "title": "Treaty of Seville",
-      "body": "1729: Spain, France and Great Britain sign the Treaty of Seville.",
+      "category": "world",
+      "categoryName": "World",
+      "year": 1989,
+      "title": "The Berlin Wall opens",
+      "body": "An East German spokesman, misreading a note at a press conference, said the border was open immediately. Crowds went to the checkpoints to find out, and the guards let them through.",
       "source": {
-        "name": "Wikipedia · Treaty of Seville",
-        "url": "https://en.wikipedia.org/wiki/Treaty_of_Seville",
+        "name": "Wikipedia · Fall of the Berlin Wall",
+        "url": "https://en.wikipedia.org/wiki/Fall_of_the_Berlin_Wall",
         "calendarUrl": "https://en.wikipedia.org/wiki/November_9",
         "license": {
           "name": "CC BY-SA 4.0",
@@ -22,68 +21,66 @@
         }
       },
       "image": {
-        "src": "https://upload.wikimedia.org/wikipedia/commons/e/e4/German_print_of_the_1727_Gibraltar_Siege.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
-        "alt": "Image related to Treaty of Seville.",
-        "credit": "Unknown authorUnknown author",
-        "source": "https://commons.wikimedia.org/wiki/File:German_print_of_the_1727_Gibraltar_Siege.jpg",
-        "license": "Public domain",
-        "licenseUrl": "https://commons.wikimedia.org/wiki/File:German_print_of_the_1727_Gibraltar_Siege.jpg"
-      }
-    },
-    {
-      "id": "11-09-denmark-thomasine-christine-gyllembourg-ehrensv-rd",
-      "date": "11-09",
-      "dateLabel": "9 November",
-      "country": "denmark",
-      "countryName": "Denmark",
-      "kind": "births",
-      "year": 1773,
-      "title": "Thomasine Christine Gyllembourg-Ehrensvärd",
-      "body": "Thomasine Christine Gyllembourg-Ehrensvärd, Danish author (died 1856), was born on this day in 1773.",
-      "source": {
-        "name": "Wikipedia · Thomasine Christine Gyllembourg-Ehrensvärd",
-        "url": "https://en.wikipedia.org/wiki/Thomasine_Christine_Gyllembourg-Ehrensv%C3%A4rd",
-        "calendarUrl": "https://en.wikipedia.org/wiki/November_9",
-        "license": {
-          "name": "CC BY-SA 4.0",
-          "url": "https://creativecommons.org/licenses/by-sa/4.0/"
-        }
-      },
-      "image": {
-        "src": "https://upload.wikimedia.org/wikipedia/commons/f/f5/Thomasine_Gyllembourg.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
-        "alt": "Portrait or image of Thomasine Christine Gyllembourg-Ehrensvärd.",
-        "credit": "Jens Juel",
-        "source": "https://commons.wikimedia.org/wiki/File:Thomasine_Gyllembourg.jpg",
-        "license": "Public domain",
-        "licenseUrl": "https://commons.wikimedia.org/wiki/File:Thomasine_Gyllembourg.jpg"
-      }
-    },
-    {
-      "id": "11-09-greece-zisis-vryzas",
-      "date": "11-09",
-      "dateLabel": "9 November",
-      "country": "greece",
-      "countryName": "Greece",
-      "kind": "births",
-      "year": 1973,
-      "title": "Zisis Vryzas",
-      "body": "Zisis Vryzas, Greek footballer and coach, was born on this day in 1973.",
-      "source": {
-        "name": "Wikipedia · Zisis Vryzas",
-        "url": "https://en.wikipedia.org/wiki/Zisis_Vryzas",
-        "calendarUrl": "https://en.wikipedia.org/wiki/November_9",
-        "license": {
-          "name": "CC BY-SA 4.0",
-          "url": "https://creativecommons.org/licenses/by-sa/4.0/"
-        }
-      },
-      "image": {
-        "src": "https://upload.wikimedia.org/wikipedia/commons/8/8c/Angelidesiakovos.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
-        "alt": "Portrait or image of Zisis Vryzas.",
-        "credit": "Alfaweiss at English Wikipedia",
-        "source": "https://commons.wikimedia.org/wiki/File:Angelidesiakovos.jpg",
+        "src": "https://upload.wikimedia.org/wikipedia/commons/1/1c/West_and_East_Germans_at_the_Brandenburg_Gate_in_1989.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+        "alt": "Crowds of West and East Germans at the Brandenburg Gate in 1989.",
+        "credit": "Lear 21 at English Wikipedia",
+        "source": "https://commons.wikimedia.org/wiki/File:West_and_East_Germans_at_the_Brandenburg_Gate_in_1989.jpg",
         "license": "CC BY-SA 3.0",
         "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0"
+      }
+    },
+    {
+      "id": "11-09-apollo-4",
+      "date": "11-09",
+      "dateLabel": "9 November",
+      "category": "space",
+      "categoryName": "Space",
+      "year": 1967,
+      "title": "Apollo 4",
+      "body": "NASA launches the unmanned Apollo 4 test spacecraft, atop the first Saturn V rocket, from Florida's Cape Kennedy.",
+      "source": {
+        "name": "Wikipedia · Apollo 4",
+        "url": "https://en.wikipedia.org/wiki/Apollo_4",
+        "calendarUrl": "https://en.wikipedia.org/wiki/November_9",
+        "license": {
+          "name": "CC BY-SA 4.0",
+          "url": "https://creativecommons.org/licenses/by-sa/4.0/"
+        }
+      },
+      "image": {
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/13/Apollo_4_Launch_-_GPN-2000-000044.jpg/1280px-Apollo_4_Launch_-_GPN-2000-000044.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "alt": "Picture from the Wikipedia article on Apollo 4.",
+        "credit": "NASA",
+        "source": "https://commons.wikimedia.org/wiki/File:Apollo_4_Launch_-_GPN-2000-000044.jpg",
+        "license": "Public domain",
+        "licenseUrl": "https://commons.wikimedia.org/wiki/File:Apollo_4_Launch_-_GPN-2000-000044.jpg"
+      }
+    },
+    {
+      "id": "11-09-ruth-harkness",
+      "date": "11-09",
+      "dateLabel": "9 November",
+      "category": "curious",
+      "categoryName": "Curious",
+      "year": 1936,
+      "title": "Ruth Harkness",
+      "body": "American fashion designer Ruth Harkness seeks and captures a nine-week-old panda cub in Sichuan; named Su Lin, he becomes the first live giant panda to enter the United States.",
+      "source": {
+        "name": "Wikipedia · Ruth Harkness",
+        "url": "https://en.wikipedia.org/wiki/Ruth_Harkness",
+        "calendarUrl": "https://en.wikipedia.org/wiki/November_9",
+        "license": {
+          "name": "CC BY-SA 4.0",
+          "url": "https://creativecommons.org/licenses/by-sa/4.0/"
+        }
+      },
+      "image": {
+        "src": "https://upload.wikimedia.org/wikipedia/commons/0/0a/Ruth_Elizabeth_Harkness_and_Su_Lin.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+        "alt": "Picture from the Wikipedia article on Ruth Harkness.",
+        "credit": "Ruth Elizabeth Harkness",
+        "source": "https://commons.wikimedia.org/wiki/File:Ruth_Elizabeth_Harkness_and_Su_Lin.jpg",
+        "license": "Public domain",
+        "licenseUrl": "https://commons.wikimedia.org/wiki/File:Ruth_Elizabeth_Harkness_and_Su_Lin.jpg"
       }
     }
   ]

@@ -3,18 +3,17 @@
   "dateLabel": "22 June",
   "facts": [
     {
-      "id": "06-22-spain-infanta-beatriz-of-spain",
+      "id": "06-22-charon-moon",
       "date": "06-22",
       "dateLabel": "22 June",
-      "country": "spain",
-      "countryName": "Spain",
-      "kind": "births",
-      "year": 1909,
-      "title": "Infanta Beatriz of Spain",
-      "body": "Infanta Beatriz of Spain, Spanish princess and aristocrat (died 2002), was born on this day in 1909.",
+      "category": "space",
+      "categoryName": "Space",
+      "year": 1978,
+      "title": "Charon",
+      "body": "Charon, the first of Pluto's satellites to be discovered, was first seen at the United States Naval Observatory by James W. Christy.",
       "source": {
-        "name": "Wikipedia · Infanta Beatriz of Spain",
-        "url": "https://en.wikipedia.org/wiki/Infanta_Beatriz_of_Spain",
+        "name": "Wikipedia · Charon (moon)",
+        "url": "https://en.wikipedia.org/wiki/Charon_(moon)",
         "calendarUrl": "https://en.wikipedia.org/wiki/June_22",
         "license": {
           "name": "CC BY-SA 4.0",
@@ -22,27 +21,26 @@
         }
       },
       "image": {
-        "src": "https://upload.wikimedia.org/wikipedia/commons/1/1a/The_Infanta_do%C3%B1a_Beatriz_de_Borb%C3%B3n_y_Battenberg%3B_daughter_of_Alfonso_XIII.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
-        "alt": "Portrait or image of Infanta Beatriz of Spain.",
-        "credit": "Philip de László",
-        "source": "https://commons.wikimedia.org/wiki/File:The_Infanta_do%C3%B1a_Beatriz_de_Borb%C3%B3n_y_Battenberg;_daughter_of_Alfonso_XIII.jpg",
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/0e/Charon_in_True_Color_-_High-Res.png/1280px-Charon_in_True_Color_-_High-Res.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "alt": "Picture from the Wikipedia article on Charon.",
+        "credit": "NASA/Johns Hopkins University Applied Physics Laboratory/Southwest Research Institute/Alex Parker",
+        "source": "https://commons.wikimedia.org/wiki/File:Charon_in_True_Color_-_High-Res.png",
         "license": "Public domain",
-        "licenseUrl": "https://commons.wikimedia.org/wiki/File:The_Infanta_do%C3%B1a_Beatriz_de_Borb%C3%B3n_y_Battenberg;_daughter_of_Alfonso_XIII.jpg"
+        "licenseUrl": "https://commons.wikimedia.org/wiki/File:Charon_in_True_Color_-_High-Res.png"
       }
     },
     {
-      "id": "06-22-denmark-richard-seddon",
+      "id": "06-22-virgin-atlantic",
       "date": "06-22",
       "dateLabel": "22 June",
-      "country": "denmark",
-      "countryName": "Denmark",
-      "kind": "births",
-      "year": 1845,
-      "title": "Richard Seddon",
-      "body": "Richard Seddon, English-New Zealand politician, 15th Prime Minister of New Zealand (died 1906), was born on this day in 1845.",
+      "category": "world",
+      "categoryName": "World",
+      "year": 1984,
+      "title": "Virgin Atlantic",
+      "body": "Virgin Atlantic launches with its first flight from London to Newark.",
       "source": {
-        "name": "Wikipedia · Richard Seddon",
-        "url": "https://en.wikipedia.org/wiki/Richard_Seddon",
+        "name": "Wikipedia · Virgin Atlantic",
+        "url": "https://en.wikipedia.org/wiki/Virgin_Atlantic",
         "calendarUrl": "https://en.wikipedia.org/wiki/June_22",
         "license": {
           "name": "CC BY-SA 4.0",
@@ -50,27 +48,26 @@
         }
       },
       "image": {
-        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/9d/Richard_Seddon_portrait_1905.jpg/1280px-Richard_Seddon_portrait_1905.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-        "alt": "Portrait or image of Richard Seddon.",
-        "credit": "Herman John Schmidt",
-        "source": "https://commons.wikimedia.org/wiki/File:Richard_Seddon_portrait_1905.jpg",
-        "license": "Public domain",
-        "licenseUrl": "https://commons.wikimedia.org/wiki/File:Richard_Seddon_portrait_1905.jpg"
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/cc/Airbus_A350-1041_%E2%80%98G-VJAM%E2%80%99_Virgin_Atlantic.jpg/1280px-Airbus_A350-1041_%E2%80%98G-VJAM%E2%80%99_Virgin_Atlantic.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "alt": "Picture from the Wikipedia article on Virgin Atlantic.",
+        "credit": "HawkeyeUK",
+        "source": "https://commons.wikimedia.org/wiki/File:Airbus_A350-1041_%E2%80%98G-VJAM%E2%80%99_Virgin_Atlantic.jpg",
+        "license": "CC BY-SA 2.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0"
       }
     },
     {
-      "id": "06-22-greece-battle-of-versinikia",
+      "id": "06-22-west-indies",
       "date": "06-22",
       "dateLabel": "22 June",
-      "country": "greece",
-      "countryName": "Greece",
-      "kind": "events",
-      "year": 813,
-      "title": "Battle of Versinikia",
-      "body": "813: Battle of Versinikia: The Bulgars led by Krum defeat the Byzantine army near Edirne. Emperor Michael I is forced to abdicate in favor of Leo V the Armenian.",
+      "category": "world",
+      "categoryName": "World",
+      "year": 1948,
+      "title": "West Indies",
+      "body": "The ship brought the first group of 802 West Indian immigrants to Tilbury, marking the start of modern immigration to the United Kingdom.",
       "source": {
-        "name": "Wikipedia · Battle of Versinikia",
-        "url": "https://en.wikipedia.org/wiki/Battle_of_Versinikia",
+        "name": "Wikipedia · West Indies",
+        "url": "https://en.wikipedia.org/wiki/West_Indies",
         "calendarUrl": "https://en.wikipedia.org/wiki/June_22",
         "license": {
           "name": "CC BY-SA 4.0",
@@ -78,12 +75,12 @@
         }
       },
       "image": {
-        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d3/Territorial_expansion_during_the_reign_of_Khan_Krum_%28803-814%29.png/1280px-Territorial_expansion_during_the_reign_of_Khan_Krum_%28803-814%29.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-        "alt": "Image related to Battle of Versinikia.",
-        "credit": "Kandi",
-        "source": "https://commons.wikimedia.org/wiki/File:Territorial_expansion_during_the_reign_of_Khan_Krum_(803-814).png",
-        "license": "CC BY-SA 4.0",
-        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0"
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/81/West_Indies_%28orthographic_projection%29.svg/1280px-West_Indies_%28orthographic_projection%29.svg.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "alt": "Picture from the Wikipedia article on West Indies.",
+        "credit": "Heraldry",
+        "source": "https://commons.wikimedia.org/wiki/File:West_Indies_(orthographic_projection).svg",
+        "license": "CC BY-SA 3.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0/"
       }
     }
   ]

@@ -3,46 +3,17 @@
   "dateLabel": "29 March",
   "facts": [
     {
-      "id": "03-29-spain-daylight",
+      "id": "03-29-mariner-10",
       "date": "03-29",
       "dateLabel": "29 March",
-      "country": "spain",
-      "countryName": "Spain",
-      "kind": "daylight",
-      "year": 0,
-      "title": "Madrid's daylight",
-      "body": "On 29 March, Madrid gets about 12 hours and 30 minutes of daylight.",
+      "category": "space",
+      "categoryName": "Space",
+      "year": 1974,
+      "title": "Mariner 10",
+      "body": "NASA's Mariner 10 becomes the first space probe to fly by Mercury.",
       "source": {
-        "name": "NOAA Solar Calculator",
-        "url": "https://gml.noaa.gov/grad/solcalc/",
-        "calendarUrl": "https://gml.noaa.gov/grad/solcalc/calcdetails.html",
-        "license": {
-          "name": "public-domain NOAA method",
-          "url": "https://www.noaa.gov/disclaimer"
-        }
-      },
-      "image": {
-        "src": "https://commons.wikimedia.org/wiki/Special:Redirect/file/Flag_of_Spain.svg?width=1000",
-        "alt": "The national flag of Spain.",
-        "credit": "Government of Spain",
-        "source": "https://commons.wikimedia.org/wiki/File:Flag_of_Spain.svg",
-        "license": "Public domain",
-        "licenseUrl": "https://commons.wikimedia.org/wiki/File:Flag_of_Spain.svg"
-      }
-    },
-    {
-      "id": "03-29-denmark-hypnosis-murders",
-      "date": "03-29",
-      "dateLabel": "29 March",
-      "country": "denmark",
-      "countryName": "Denmark",
-      "kind": "events",
-      "year": 1951,
-      "title": "Hypnosis murders",
-      "body": "1951: Hypnosis murders in Copenhagen.",
-      "source": {
-        "name": "Wikipedia · Hypnosis murders",
-        "url": "https://en.wikipedia.org/wiki/Hypnosis_murders",
+        "name": "Wikipedia · Mariner 10",
+        "url": "https://en.wikipedia.org/wiki/Mariner_10",
         "calendarUrl": "https://en.wikipedia.org/wiki/March_29",
         "license": {
           "name": "CC BY-SA 4.0",
@@ -50,27 +21,26 @@
         }
       },
       "image": {
-        "src": "https://commons.wikimedia.org/wiki/Special:Redirect/file/Flag_of_Denmark.svg?width=1000",
-        "alt": "The national flag of Denmark.",
-        "credit": "Danish government",
-        "source": "https://commons.wikimedia.org/wiki/File:Flag_of_Denmark.svg",
-        "license": "Public domain",
-        "licenseUrl": "https://commons.wikimedia.org/wiki/File:Flag_of_Denmark.svg"
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/2e/NASM-A19830006000-NASM2019-01579.jpg/1280px-NASM-A19830006000-NASM2019-01579.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "alt": "Picture from the Wikipedia article on Mariner 10.",
+        "credit": "National Air and Space Museum",
+        "source": "https://commons.wikimedia.org/wiki/File:NASM-A19830006000-NASM2019-01579.jpg",
+        "license": "CC0",
+        "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/deed.en"
       }
     },
     {
-      "id": "03-29-greece-world-war-ii",
+      "id": "03-29-south-vietnam",
       "date": "03-29",
       "dateLabel": "29 March",
-      "country": "greece",
-      "countryName": "Greece",
-      "kind": "events",
-      "year": 1941,
-      "title": "World War II",
-      "body": "1941: World War II: British Royal Navy and Royal Australian Navy forces defeat those of the Italian Regia Marina off the Peloponnesian coast of Greece in the Battle of Cape Matapan.",
+      "category": "world",
+      "categoryName": "World",
+      "year": 1973,
+      "title": "South Vietnam",
+      "body": "The last United States combat soldiers leave South Vietnam.",
       "source": {
-        "name": "Wikipedia · World War II",
-        "url": "https://en.wikipedia.org/wiki/World_War_II",
+        "name": "Wikipedia · South Vietnam",
+        "url": "https://en.wikipedia.org/wiki/South_Vietnam",
         "calendarUrl": "https://en.wikipedia.org/wiki/March_29",
         "license": {
           "name": "CC BY-SA 4.0",
@@ -78,12 +48,39 @@
         }
       },
       "image": {
-        "src": "https://upload.wikimedia.org/wikipedia/commons/1/10/Bundesarchiv_Bild_101I-646-5188-17%2C_Flugzeuge_Junkers_Ju_87.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
-        "alt": "Image related to World War II.",
-        "credit": "Bundesarchiv, Bild 101I-646-5188-17 / Opitz / CC-BY-SA 3.0",
-        "source": "https://commons.wikimedia.org/wiki/File:Bundesarchiv_Bild_101I-646-5188-17,_Flugzeuge_Junkers_Ju_87.jpg",
-        "license": "CC BY-SA 3.0 de",
-        "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0/de/deed.en"
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e9/Flag_of_South_Vietnam.svg/1280px-Flag_of_South_Vietnam.svg.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "alt": "Picture from the Wikipedia article on South Vietnam.",
+        "credit": "(many, see history)",
+        "source": "https://commons.wikimedia.org/wiki/File:Flag_of_South_Vietnam.svg",
+        "license": "Public domain",
+        "licenseUrl": "https://commons.wikimedia.org/wiki/File:Flag_of_South_Vietnam.svg"
+      }
+    },
+    {
+      "id": "03-29-dow-jones-industrial-average",
+      "date": "03-29",
+      "dateLabel": "29 March",
+      "category": "world",
+      "categoryName": "World",
+      "year": 1999,
+      "title": "Dow Jones Industrial Average",
+      "body": "The Dow Jones Industrial Average closes above the 10,000 mark (10,006.78) for the first time, during the height of the dot-com bubble.",
+      "source": {
+        "name": "Wikipedia · Dow Jones Industrial Average",
+        "url": "https://en.wikipedia.org/wiki/Dow_Jones_Industrial_Average",
+        "calendarUrl": "https://en.wikipedia.org/wiki/March_29",
+        "license": {
+          "name": "CC BY-SA 4.0",
+          "url": "https://creativecommons.org/licenses/by-sa/4.0/"
+        }
+      },
+      "image": {
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/cd/DJIA_historical_graph_%28log%29.svg/1280px-DJIA_historical_graph_%28log%29.svg.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "alt": "Picture from the Wikipedia article on Dow Jones Industrial Average.",
+        "credit": "Lalala666 at English Wikipedia",
+        "source": "https://commons.wikimedia.org/wiki/File:DJIA_historical_graph_(log).svg",
+        "license": "Public domain",
+        "licenseUrl": "https://commons.wikimedia.org/wiki/File:DJIA_historical_graph_(log).svg"
       }
     }
   ]

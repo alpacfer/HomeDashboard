@@ -3,18 +3,17 @@
   "dateLabel": "7 February",
   "facts": [
     {
-      "id": "02-07-spain-american-revolutionary-war",
+      "id": "02-07-the-beatles",
       "date": "02-07",
       "dateLabel": "7 February",
-      "country": "spain",
-      "countryName": "Spain",
-      "kind": "events",
-      "year": 1783,
-      "title": "American Revolutionary War",
-      "body": "1783: American Revolutionary War: French and Spanish forces lift the Great Siege of Gibraltar.",
+      "category": "culture",
+      "categoryName": "Culture",
+      "year": 1964,
+      "title": "The Beatles",
+      "body": "The Beatles land in the United States for the first time, at the newly renamed John F. Kennedy International Airport.",
       "source": {
-        "name": "Wikipedia · American Revolutionary War",
-        "url": "https://en.wikipedia.org/wiki/American_Revolutionary_War",
+        "name": "Wikipedia · The Beatles",
+        "url": "https://en.wikipedia.org/wiki/The_Beatles",
         "calendarUrl": "https://en.wikipedia.org/wiki/February_7",
         "license": {
           "name": "CC BY-SA 4.0",
@@ -22,27 +21,26 @@
         }
       },
       "image": {
-        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b8/Surrender_of_Lord_Cornwallis.jpg/1280px-Surrender_of_Lord_Cornwallis.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-        "alt": "Image related to American Revolutionary War.",
-        "credit": "John Trumbull",
-        "source": "https://commons.wikimedia.org/wiki/File:Surrender_of_Lord_Cornwallis.jpg",
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/42/The_Beatles_1963_Dezo_Hoffman_Capitol_Records_press_photo_2.jpg/1280px-The_Beatles_1963_Dezo_Hoffman_Capitol_Records_press_photo_2.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "alt": "Picture from the Wikipedia article on The Beatles.",
+        "credit": "Dezo Hoffmann, Distributed by Capitol Records",
+        "source": "https://commons.wikimedia.org/wiki/File:The_Beatles_1963_Dezo_Hoffman_Capitol_Records_press_photo_2.jpg",
         "license": "Public domain",
-        "licenseUrl": "https://commons.wikimedia.org/wiki/File:Surrender_of_Lord_Cornwallis.jpg"
+        "licenseUrl": "https://commons.wikimedia.org/wiki/File:The_Beatles_1963_Dezo_Hoffman_Capitol_Records_press_photo_2.jpg"
       }
     },
     {
-      "id": "02-07-denmark-auckland",
+      "id": "02-07-pluto",
       "date": "02-07",
       "dateLabel": "7 February",
-      "country": "denmark",
-      "countryName": "Denmark",
-      "kind": "events",
-      "year": 1863,
-      "title": "Auckland",
-      "body": "1863: sinks off the coast of Auckland, New Zealand, killing 189.",
+      "category": "space",
+      "categoryName": "Space",
+      "year": 1979,
+      "title": "Pluto",
+      "body": "Pluto moves inside Neptune's orbit for the first time since either was discovered.",
       "source": {
-        "name": "Wikipedia · Auckland",
-        "url": "https://en.wikipedia.org/wiki/Auckland",
+        "name": "Wikipedia · Pluto",
+        "url": "https://en.wikipedia.org/wiki/Pluto",
         "calendarUrl": "https://en.wikipedia.org/wiki/February_7",
         "license": {
           "name": "CC BY-SA 4.0",
@@ -50,27 +48,26 @@
         }
       },
       "image": {
-        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c9/Auckland_skyline_-_May_2024_%282%29.jpg/1280px-Auckland_skyline_-_May_2024_%282%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-        "alt": "Image related to Auckland.",
-        "credit": "elpinto007",
-        "source": "https://commons.wikimedia.org/wiki/File:Auckland_skyline_-_May_2024_(2).jpg",
-        "license": "CC BY-SA 2.0",
-        "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0"
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/ca/Pluto_in_True_Color_-_High-Res.png/1280px-Pluto_in_True_Color_-_High-Res.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "alt": "Picture from the Wikipedia article on Pluto.",
+        "credit": "NASA/Johns Hopkins University Applied Physics Laboratory/Southwest Research Institute/Alex Parker",
+        "source": "https://commons.wikimedia.org/wiki/File:Pluto_in_True_Color_-_High-Res.png",
+        "license": "Public domain",
+        "licenseUrl": "https://commons.wikimedia.org/wiki/File:Pluto_in_True_Color_-_High-Res.png"
       }
     },
     {
-      "id": "02-07-greece-council-of-constantinople-1285",
+      "id": "02-07-happisburgh-footprints",
       "date": "02-07",
       "dateLabel": "7 February",
-      "country": "greece",
-      "countryName": "Greece",
-      "kind": "events",
-      "year": 1285,
-      "title": "synod at Blachernae",
-      "body": "1285: A synod at Blachernae convened by anti-Unionist Greek clergy condemns the former pro-Unionist patriarch John XI of Constantinople.",
+      "category": "science",
+      "categoryName": "Science",
+      "year": 2014,
+      "title": "Happisburgh footprints",
+      "body": "Scientists announce that the Happisburgh footprints in Norfolk, England, date back to more than 800,000 years ago, making them the oldest known hominid footprints outside Africa.",
       "source": {
-        "name": "Wikipedia · Council of Constantinople (1285)",
-        "url": "https://en.wikipedia.org/wiki/Council_of_Constantinople_(1285)",
+        "name": "Wikipedia · Happisburgh footprints",
+        "url": "https://en.wikipedia.org/wiki/Happisburgh_footprints",
         "calendarUrl": "https://en.wikipedia.org/wiki/February_7",
         "license": {
           "name": "CC BY-SA 4.0",
@@ -78,12 +75,12 @@
         }
       },
       "image": {
-        "src": "https://commons.wikimedia.org/wiki/Special:Redirect/file/Flag_of_Greece.svg?width=1000",
-        "alt": "The national flag of Greece.",
-        "credit": "Greek government",
-        "source": "https://commons.wikimedia.org/wiki/File:Flag_of_Greece.svg",
-        "license": "Public domain",
-        "licenseUrl": "https://commons.wikimedia.org/wiki/File:Flag_of_Greece.svg"
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/eb/UK_Happisburgh_c._800000_BP_EN.svg/1280px-UK_Happisburgh_c._800000_BP_EN.svg.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "alt": "Picture from the Wikipedia article on Happisburgh footprints.",
+        "credit": "Philg88",
+        "source": "https://commons.wikimedia.org/wiki/File:UK_Happisburgh_c._800000_BP_EN.svg",
+        "license": "CC BY 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by/4.0"
       }
     }
   ]

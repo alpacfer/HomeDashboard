@@ -3,18 +3,17 @@
   "dateLabel": "12 April",
   "facts": [
     {
-      "id": "04-12-spain-montserrat-caball",
+      "id": "04-12-cosmonaut",
       "date": "04-12",
       "dateLabel": "12 April",
-      "country": "spain",
-      "countryName": "Spain",
-      "kind": "births",
-      "year": 1933,
-      "title": "Montserrat Caballé",
-      "body": "Montserrat Caballé, Spanish soprano and actress (died 2018), was born on this day in 1933.",
+      "category": "space",
+      "categoryName": "Space",
+      "year": 1961,
+      "title": "Astronaut",
+      "body": "The Soviet cosmonaut Yuri Gagarin becomes the first human to travel into outer space and perform the first crewed orbital flight, Vostok 1.",
       "source": {
-        "name": "Wikipedia · Montserrat Caballé",
-        "url": "https://en.wikipedia.org/wiki/Montserrat_Caball%C3%A9",
+        "name": "Wikipedia · Astronaut",
+        "url": "https://en.wikipedia.org/wiki/Astronaut",
         "calendarUrl": "https://en.wikipedia.org/wiki/April_12",
         "license": {
           "name": "CC BY-SA 4.0",
@@ -22,27 +21,26 @@
         }
       },
       "image": {
-        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f5/Montserrat_Caball%C3%A9_c._1969_%281%29.jpg/1280px-Montserrat_Caball%C3%A9_c._1969_%281%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-        "alt": "Portrait or image of Montserrat Caballé.",
-        "credit": "Unknown authorUnknown author",
-        "source": "https://commons.wikimedia.org/wiki/File:Montserrat_Caball%C3%A9_c._1969_(1).jpg",
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/91/Bruce_McCandless_II_during_EVA_in_1984.jpg/1280px-Bruce_McCandless_II_during_EVA_in_1984.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "alt": "Picture from the Wikipedia article on Astronaut.",
+        "credit": "NASA",
+        "source": "https://commons.wikimedia.org/wiki/File:Bruce_McCandless_II_during_EVA_in_1984.jpg",
         "license": "Public domain",
-        "licenseUrl": "https://commons.wikimedia.org/wiki/File:Montserrat_Caball%C3%A9_c._1969_(1).jpg"
+        "licenseUrl": "https://commons.wikimedia.org/wiki/File:Bruce_McCandless_II_during_EVA_in_1984.jpg"
       }
     },
     {
-      "id": "04-12-denmark-soviet-union",
+      "id": "04-12-polio-vaccine",
       "date": "04-12",
       "dateLabel": "12 April",
-      "country": "denmark",
-      "countryName": "Denmark",
-      "kind": "events",
-      "year": 1963,
-      "title": "Soviet",
-      "body": "1963: The Soviet nuclear-powered submarine K-33 collides with the Finnish merchant vessel M/S Finnclipper in the Danish straits.{{cite book.",
+      "category": "science",
+      "categoryName": "Science",
+      "year": 1955,
+      "title": "Polio vaccine",
+      "body": "The polio vaccine, developed by Dr. Jonas Salk, is declared safe and effective.",
       "source": {
-        "name": "Wikipedia · Soviet Union",
-        "url": "https://en.wikipedia.org/wiki/Soviet_Union",
+        "name": "Wikipedia · Polio vaccine",
+        "url": "https://en.wikipedia.org/wiki/Polio_vaccine",
         "calendarUrl": "https://en.wikipedia.org/wiki/April_12",
         "license": {
           "name": "CC BY-SA 4.0",
@@ -50,27 +48,26 @@
         }
       },
       "image": {
-        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a9/Flag_of_the_Soviet_Union.svg/1280px-Flag_of_the_Soviet_Union.svg.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-        "alt": "Image related to Soviet.",
-        "credit": "СССР",
-        "source": "https://commons.wikimedia.org/wiki/File:Flag_of_the_Soviet_Union.svg",
+        "src": "https://upload.wikimedia.org/wikipedia/commons/2/20/Poliodrops.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+        "alt": "Picture from the Wikipedia article on Polio vaccine.",
+        "credit": "USAID",
+        "source": "https://commons.wikimedia.org/wiki/File:Poliodrops.jpg",
         "license": "Public domain",
-        "licenseUrl": "https://commons.wikimedia.org/wiki/File:Flag_of_the_Soviet_Union.svg"
+        "licenseUrl": "https://commons.wikimedia.org/wiki/File:Poliodrops.jpg"
       }
     },
     {
-      "id": "04-12-greece-prince-of-antioch",
+      "id": "04-12-harold-washington",
       "date": "04-12",
       "dateLabel": "12 April",
-      "country": "greece",
-      "countryName": "Greece",
-      "kind": "events",
-      "year": 1159,
-      "title": "prince of Antioch",
-      "body": "1159: Having received the submission of the prince of Antioch, Raynald of Châtillon, Byzantine Emperor Manuel I Komnenos enters triumphantly the city of Antioch.",
+      "category": "world",
+      "categoryName": "World",
+      "year": 1983,
+      "title": "Harold Washington",
+      "body": "Harold Washington is elected as the first black mayor of Chicago.",
       "source": {
-        "name": "Wikipedia · Prince of Antioch",
-        "url": "https://en.wikipedia.org/wiki/Prince_of_Antioch",
+        "name": "Wikipedia · Harold Washington",
+        "url": "https://en.wikipedia.org/wiki/Harold_Washington",
         "calendarUrl": "https://en.wikipedia.org/wiki/April_12",
         "license": {
           "name": "CC BY-SA 4.0",
@@ -78,12 +75,12 @@
         }
       },
       "image": {
-        "src": "https://upload.wikimedia.org/wikipedia/commons/c/ca/AntiochPrinces.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
-        "alt": "Image related to prince of Antioch.",
-        "credit": "The original uploader was Muriel Gottrop at English Wikipedia.",
-        "source": "https://commons.wikimedia.org/wiki/File:AntiochPrinces.png",
-        "license": "CC BY-SA 3.0",
-        "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0/"
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/fc/Washington_h.jpg/1280px-Washington_h.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "alt": "Picture from the Wikipedia article on Harold Washington.",
+        "credit": "US Federal Government",
+        "source": "https://commons.wikimedia.org/wiki/File:Washington_h.jpg",
+        "license": "Public domain",
+        "licenseUrl": "https://commons.wikimedia.org/wiki/File:Washington_h.jpg"
       }
     }
   ]

@@ -3,18 +3,17 @@
   "dateLabel": "21 February",
   "facts": [
     {
-      "id": "02-21-spain-league-of-nations",
+      "id": "02-21-aldrich-ames",
       "date": "02-21",
       "dateLabel": "21 February",
-      "country": "spain",
-      "countryName": "Spain",
-      "kind": "events",
-      "year": 1937,
-      "title": "League of Nations",
-      "body": "1937: The League of Nations bans foreign national \"volunteers\" in the Spanish Civil War.",
+      "category": "world",
+      "categoryName": "World",
+      "year": 1994,
+      "title": "Aldrich Ames",
+      "body": "Aldrich Ames is arrested by the Federal Bureau of Investigation for selling national secrets to the Soviet Union in Arlington County, Virginia.",
       "source": {
-        "name": "Wikipedia · League of Nations",
-        "url": "https://en.wikipedia.org/wiki/League_of_Nations",
+        "name": "Wikipedia · Aldrich Ames",
+        "url": "https://en.wikipedia.org/wiki/Aldrich_Ames",
         "calendarUrl": "https://en.wikipedia.org/wiki/February_21",
         "license": {
           "name": "CC BY-SA 4.0",
@@ -22,55 +21,26 @@
         }
       },
       "image": {
-        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c5/Flag_of_the_League_of_Nations_%281939%29.svg/1280px-Flag_of_the_League_of_Nations_%281939%29.svg.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-        "alt": "Image related to League of Nations.",
-        "credit": "Martin Grandjean This W3C-unspecified vector image was created with Inkscape.",
-        "source": "https://commons.wikimedia.org/wiki/File:Flag_of_the_League_of_Nations_(1939).svg",
-        "license": "CC BY-SA 4.0",
-        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0"
-      }
-    },
-    {
-      "id": "02-21-denmark-henrik-dam",
-      "date": "02-21",
-      "dateLabel": "21 February",
-      "country": "denmark",
-      "countryName": "Denmark",
-      "kind": "births",
-      "year": 1895,
-      "title": "Henrik Dam",
-      "body": "Henrik Dam, Danish biochemist and physiologist, Nobel Prize laureate (died 1976), was born on this day in 1895.",
-      "source": {
-        "name": "Wikipedia · Henrik Dam",
-        "url": "https://en.wikipedia.org/wiki/Henrik_Dam",
-        "calendarUrl": "https://en.wikipedia.org/wiki/February_21",
-        "license": {
-          "name": "CC BY-SA 4.0",
-          "url": "https://creativecommons.org/licenses/by-sa/4.0/"
-        }
-      },
-      "image": {
-        "src": "https://upload.wikimedia.org/wikipedia/commons/1/1e/Henrik_Dam_nobel.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
-        "alt": "Portrait or image of Henrik Dam.",
-        "credit": "Unknown authorUnknown author",
-        "source": "https://commons.wikimedia.org/wiki/File:Henrik_Dam_nobel.jpg",
+        "src": "https://upload.wikimedia.org/wikipedia/commons/4/4f/Aldrich_Ames_mugshot.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+        "alt": "Picture from the Wikipedia article on Aldrich Ames.",
+        "credit": "staff, Federal Bureau of Investigation",
+        "source": "https://commons.wikimedia.org/wiki/File:Aldrich_Ames_mugshot.jpg",
         "license": "Public domain",
-        "licenseUrl": "https://commons.wikimedia.org/wiki/File:Henrik_Dam_nobel.jpg"
+        "licenseUrl": "https://commons.wikimedia.org/wiki/File:Aldrich_Ames_mugshot.jpg"
       }
     },
     {
-      "id": "02-21-greece-ioannina",
+      "id": "02-21-spacecraft",
       "date": "02-21",
       "dateLabel": "21 February",
-      "country": "greece",
-      "countryName": "Greece",
-      "kind": "events",
-      "year": 1913,
-      "title": "Ioannina",
-      "body": "1913: Ioannina is incorporated into the Greek state after the Balkan Wars.",
+      "category": "space",
+      "categoryName": "Space",
+      "year": 1972,
+      "title": "Spacecraft",
+      "body": "The Soviet uncrewed spaceship Luna 20 lands on the Moon.",
       "source": {
-        "name": "Wikipedia · Ioannina",
-        "url": "https://en.wikipedia.org/wiki/Ioannina",
+        "name": "Wikipedia · Spacecraft",
+        "url": "https://en.wikipedia.org/wiki/Spacecraft",
         "calendarUrl": "https://en.wikipedia.org/wiki/February_21",
         "license": {
           "name": "CC BY-SA 4.0",
@@ -78,12 +48,39 @@
         }
       },
       "image": {
-        "src": "https://upload.wikimedia.org/wikipedia/commons/e/e5/Ioannina_Montage_L.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
-        "alt": "Image related to Ioannina.",
-        "credit": "SilentResident (compilation, sources to attribute see above; if any of the sources used in the Montage are removed from Wikimedia Commons, or better ones are found, please inform its creator so that they can update it. You can contact the creator by leaving a message here: [1])",
-        "source": "https://commons.wikimedia.org/wiki/File:Ioannina_Montage_L.png",
-        "license": "CC BY-SA 3.0",
-        "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0"
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/bc/Soyuz_TMA-7_spacecraft2edit1.jpg/1280px-Soyuz_TMA-7_spacecraft2edit1.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "alt": "Picture from the Wikipedia article on Spacecraft.",
+        "credit": "The original uploader was Thegreenj at English Wikipedia.",
+        "source": "https://commons.wikimedia.org/wiki/File:Soyuz_TMA-7_spacecraft2edit1.jpg",
+        "license": "Public domain",
+        "licenseUrl": "https://commons.wikimedia.org/wiki/File:Soyuz_TMA-7_spacecraft2edit1.jpg"
+      }
+    },
+    {
+      "id": "02-21-telephone-directory",
+      "date": "02-21",
+      "dateLabel": "21 February",
+      "category": "tech",
+      "categoryName": "Tech",
+      "year": 1878,
+      "title": "Telephone directory",
+      "body": "The first telephone directory is issued in New Haven, Connecticut.",
+      "source": {
+        "name": "Wikipedia · Telephone directory",
+        "url": "https://en.wikipedia.org/wiki/Telephone_directory",
+        "calendarUrl": "https://en.wikipedia.org/wiki/February_21",
+        "license": {
+          "name": "CC BY-SA 4.0",
+          "url": "https://creativecommons.org/licenses/by-sa/4.0/"
+        }
+      },
+      "image": {
+        "src": "https://upload.wikimedia.org/wikipedia/commons/d/d3/Telefonbog_ubt-1.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+        "alt": "Picture from the Wikipedia article on Telephone directory.",
+        "credit": "© 2010 by Tomasz Sienicki [user: tsca, mail: tomasz.sienicki at gmail.com]",
+        "source": "https://commons.wikimedia.org/wiki/File:Telefonbog_ubt-1.JPG",
+        "license": "CC BY 3.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by/3.0"
       }
     }
   ]

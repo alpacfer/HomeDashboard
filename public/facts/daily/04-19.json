@@ -3,18 +3,17 @@
   "dateLabel": "19 April",
   "facts": [
     {
-      "id": "04-19-spain-kingdom-of-england",
+      "id": "04-19-aryabhata-satellite",
       "date": "04-19",
       "dateLabel": "19 April",
-      "country": "spain",
-      "countryName": "Spain",
-      "kind": "events",
-      "year": 1572,
-      "title": "England",
-      "body": "1572: England and France sign an alliance against Spain in the treaty of Blois.",
+      "category": "space",
+      "categoryName": "Space",
+      "year": 1975,
+      "title": "Aryabhata",
+      "body": "India's first satellite Aryabhata launched in orbit from Kapustin Yar, Russia.",
       "source": {
-        "name": "Wikipedia · Kingdom of England",
-        "url": "https://en.wikipedia.org/wiki/Kingdom_of_England",
+        "name": "Wikipedia · Aryabhata (satellite)",
+        "url": "https://en.wikipedia.org/wiki/Aryabhata_(satellite)",
         "calendarUrl": "https://en.wikipedia.org/wiki/April_19",
         "license": {
           "name": "CC BY-SA 4.0",
@@ -22,27 +21,26 @@
         }
       },
       "image": {
-        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/be/Flag_of_England.svg/1280px-Flag_of_England.svg.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-        "alt": "Image related to England.",
-        "credit": "Original: traditional Vector: Nicholas Shanks",
-        "source": "https://commons.wikimedia.org/wiki/File:Flag_of_England.svg",
+        "src": "https://upload.wikimedia.org/wikipedia/commons/5/50/Aryabhata_Satellite.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+        "alt": "Picture from the Wikipedia article on Aryabhata.",
+        "credit": "ISRO",
+        "source": "https://commons.wikimedia.org/wiki/File:Aryabhata_Satellite.jpg",
         "license": "Public domain",
-        "licenseUrl": "https://commons.wikimedia.org/wiki/File:Flag_of_England.svg"
+        "licenseUrl": "https://commons.wikimedia.org/wiki/File:Aryabhata_Satellite.jpg"
       }
     },
     {
-      "id": "04-19-denmark-sven-hassel",
+      "id": "04-19-ingenuity-helicopter",
       "date": "04-19",
       "dateLabel": "19 April",
-      "country": "denmark",
-      "countryName": "Denmark",
-      "kind": "births",
-      "year": 1917,
-      "title": "Sven Hassel",
-      "body": "Sven Hassel, Danish-German soldier and author (died 2012), was born on this day in 1917.",
+      "category": "world",
+      "categoryName": "World",
+      "year": 2021,
+      "title": "Ingenuity",
+      "body": "The Ingenuity helicopter becomes the first aircraft to achieve flight on another planet.",
       "source": {
-        "name": "Wikipedia · Sven Hassel",
-        "url": "https://en.wikipedia.org/wiki/Sven_Hassel",
+        "name": "Wikipedia · Ingenuity (helicopter)",
+        "url": "https://en.wikipedia.org/wiki/Ingenuity_(helicopter)",
         "calendarUrl": "https://en.wikipedia.org/wiki/April_19",
         "license": {
           "name": "CC BY-SA 4.0",
@@ -50,27 +48,26 @@
         }
       },
       "image": {
-        "src": "https://commons.wikimedia.org/wiki/Special:Redirect/file/Flag_of_Denmark.svg?width=1000",
-        "alt": "The national flag of Denmark.",
-        "credit": "Danish government",
-        "source": "https://commons.wikimedia.org/wiki/File:Flag_of_Denmark.svg",
+        "src": "https://upload.wikimedia.org/wikipedia/commons/5/58/Mars_helicopter_on_sol_46.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+        "alt": "Picture from the Wikipedia article on Ingenuity.",
+        "credit": "NASA",
+        "source": "https://commons.wikimedia.org/wiki/File:Mars_helicopter_on_sol_46.png",
         "license": "Public domain",
-        "licenseUrl": "https://commons.wikimedia.org/wiki/File:Flag_of_Denmark.svg"
+        "licenseUrl": "https://commons.wikimedia.org/wiki/File:Mars_helicopter_on_sol_46.png"
       }
     },
     {
-      "id": "04-19-greece-battle-of-callinicum",
+      "id": "04-19-augustin-jean-fresnel",
       "date": "04-19",
       "dateLabel": "19 April",
-      "country": "greece",
-      "countryName": "Greece",
-      "kind": "events",
-      "year": 531,
-      "title": "Battle of Callinicum",
-      "body": "531: Battle of Callinicum: A Byzantine army under Belisarius is defeated by the Persians at Raqqa (northern Syria).",
+      "category": "science",
+      "categoryName": "Science",
+      "year": 1818,
+      "title": "Augustin-Jean Fresnel",
+      "body": "French physicist Augustin Fresnel signs his preliminary \"Note on the Theory of Diffraction\" (deposited on the following day). The document ends with what we now call the Fresnel integrals.",
       "source": {
-        "name": "Wikipedia · Battle of Callinicum",
-        "url": "https://en.wikipedia.org/wiki/Battle_of_Callinicum",
+        "name": "Wikipedia · Augustin-Jean Fresnel",
+        "url": "https://en.wikipedia.org/wiki/Augustin-Jean_Fresnel",
         "calendarUrl": "https://en.wikipedia.org/wiki/April_19",
         "license": {
           "name": "CC BY-SA 4.0",
@@ -78,12 +75,12 @@
         }
       },
       "image": {
-        "src": "https://commons.wikimedia.org/wiki/Special:Redirect/file/Flag_of_Greece.svg?width=1000",
-        "alt": "The national flag of Greece.",
-        "credit": "Greek government",
-        "source": "https://commons.wikimedia.org/wiki/File:Flag_of_Greece.svg",
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/02/Augustin_Fresnel.jpg/1280px-Augustin_Fresnel.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "alt": "Picture from the Wikipedia article on Augustin-Jean Fresnel.",
+        "credit": "E Rosette after a painting by A Tardieu",
+        "source": "https://commons.wikimedia.org/wiki/File:Augustin_Fresnel.jpg",
         "license": "Public domain",
-        "licenseUrl": "https://commons.wikimedia.org/wiki/File:Flag_of_Greece.svg"
+        "licenseUrl": "https://commons.wikimedia.org/wiki/File:Augustin_Fresnel.jpg"
       }
     }
   ]

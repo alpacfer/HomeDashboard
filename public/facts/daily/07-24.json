@@ -3,18 +3,17 @@
   "dateLabel": "24 July",
   "facts": [
     {
-      "id": "07-24-spain-war-of-the-spanish-succession",
+      "id": "07-24-apollo-11",
       "date": "07-24",
       "dateLabel": "24 July",
-      "country": "spain",
-      "countryName": "Spain",
-      "kind": "events",
-      "year": 1712,
-      "title": "War of the Spanish Succession",
-      "body": "1712: War of the Spanish Succession: The French under Marshal Villars win a decisive victory over Eugene of Savoy at Denain.",
+      "category": "space",
+      "categoryName": "Space",
+      "year": 1969,
+      "title": "Apollo 11",
+      "body": "Apollo 11 splashes down safely in the Pacific Ocean.",
       "source": {
-        "name": "Wikipedia · War of the Spanish Succession",
-        "url": "https://en.wikipedia.org/wiki/War_of_the_Spanish_Succession",
+        "name": "Wikipedia · Apollo 11",
+        "url": "https://en.wikipedia.org/wiki/Apollo_11",
         "calendarUrl": "https://en.wikipedia.org/wiki/July_24",
         "license": {
           "name": "CC BY-SA 4.0",
@@ -22,27 +21,26 @@
         }
       },
       "image": {
-        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/18/Final_War_of_the_Spanish_Succession_Collage.jpg/1280px-Final_War_of_the_Spanish_Succession_Collage.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-        "alt": "Image related to War of the Spanish Succession.",
-        "credit": "DavidDijkgraaf",
-        "source": "https://commons.wikimedia.org/wiki/File:Final_War_of_the_Spanish_Succession_Collage.jpg",
-        "license": "CC0",
-        "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/deed.en"
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/41/A_Man_on_the_Moon%2C_AS11-40-5903_%28cropped%29.jpg/1280px-A_Man_on_the_Moon%2C_AS11-40-5903_%28cropped%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "alt": "Picture from the Wikipedia article on Apollo 11.",
+        "credit": "Neil A. Armstrong",
+        "source": "https://commons.wikimedia.org/wiki/File:A_Man_on_the_Moon,_AS11-40-5903_(cropped).jpg",
+        "license": "Public domain",
+        "licenseUrl": "https://commons.wikimedia.org/wiki/File:A_Man_on_the_Moon,_AS11-40-5903_(cropped).jpg"
       }
     },
     {
-      "id": "07-24-denmark-prince-william-duke-of-gloucester",
+      "id": "07-24-hiram-bingham-iii",
       "date": "07-24",
       "dateLabel": "24 July",
-      "country": "denmark",
-      "countryName": "Denmark",
-      "kind": "births",
-      "year": 1689,
-      "title": "Prince William, Duke of Gloucester",
-      "body": "Prince William, Duke of Gloucester, son of Queen Anne of Great Britain and Prince George of Denmark (died 1700), was born on this day in 1689.",
+      "category": "science",
+      "categoryName": "Science",
+      "year": 1911,
+      "title": "Hiram Bingham III",
+      "body": "Hiram Bingham III re-discovers Machu Picchu, \"the Lost City of the Incas\".",
       "source": {
-        "name": "Wikipedia · Prince William, Duke of Gloucester",
-        "url": "https://en.wikipedia.org/wiki/Prince_William%2C_Duke_of_Gloucester",
+        "name": "Wikipedia · Hiram Bingham III",
+        "url": "https://en.wikipedia.org/wiki/Hiram_Bingham_III",
         "calendarUrl": "https://en.wikipedia.org/wiki/July_24",
         "license": {
           "name": "CC BY-SA 4.0",
@@ -50,27 +48,26 @@
         }
       },
       "image": {
-        "src": "https://upload.wikimedia.org/wikipedia/commons/8/8b/Prince_William_of_Denmark.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
-        "alt": "Portrait or image of Prince William, Duke of Gloucester.",
-        "credit": "After Godfrey Kneller",
-        "source": "https://commons.wikimedia.org/wiki/File:Prince_William_of_Denmark.jpg",
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e6/Senator_Hiram_Bingham_of_Conn.%2C_%281-9-25%29_LCCN2016839105_%283x4a%29.jpg/1280px-Senator_Hiram_Bingham_of_Conn.%2C_%281-9-25%29_LCCN2016839105_%283x4a%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "alt": "Picture from the Wikipedia article on Hiram Bingham III.",
+        "credit": "National Photo Company Collection",
+        "source": "https://commons.wikimedia.org/wiki/File:Senator_Hiram_Bingham_of_Conn.,_(1-9-25)_LCCN2016839105_(3x4a).jpg",
         "license": "Public domain",
-        "licenseUrl": "https://commons.wikimedia.org/wiki/File:Prince_William_of_Denmark.jpg"
+        "licenseUrl": "https://commons.wikimedia.org/wiki/File:Senator_Hiram_Bingham_of_Conn.,_(1-9-25)_LCCN2016839105_(3x4a).jpg"
       }
     },
     {
-      "id": "07-24-greece-treaty-of-lausanne-1923",
+      "id": "07-24-american-national-exhibition",
       "date": "07-24",
       "dateLabel": "24 July",
-      "country": "greece",
-      "countryName": "Greece",
-      "kind": "events",
-      "year": 1923,
-      "title": "Treaty of Lausanne",
-      "body": "1923: The Treaty of Lausanne, settling the boundaries of modern Turkey, is signed in Switzerland by Greece, Bulgaria and other countries that fought in World War I.",
+      "category": "culture",
+      "categoryName": "Culture",
+      "year": 1959,
+      "title": "American National Exhibition",
+      "body": "At the opening of the American National Exhibition in Moscow, U.S. vice president Richard Nixon and Soviet premier Nikita Khrushchev have a \"Kitchen Debate\".",
       "source": {
-        "name": "Wikipedia · Treaty of Lausanne",
-        "url": "https://en.wikipedia.org/wiki/Treaty_of_Lausanne",
+        "name": "Wikipedia · American National Exhibition",
+        "url": "https://en.wikipedia.org/wiki/American_National_Exhibition",
         "calendarUrl": "https://en.wikipedia.org/wiki/July_24",
         "license": {
           "name": "CC BY-SA 4.0",
@@ -78,12 +75,12 @@
         }
       },
       "image": {
-        "src": "https://upload.wikimedia.org/wikipedia/commons/5/58/Turkey-Greece-Bulgaria_on_Treaty_of_Lausanne.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
-        "alt": "Image related to Treaty of Lausanne.",
-        "credit": "Wikimedia Commons contributor",
-        "source": "https://commons.wikimedia.org/wiki/File:Turkey-Greece-Bulgaria_on_Treaty_of_Lausanne.png",
-        "license": "Public domain",
-        "licenseUrl": "https://commons.wikimedia.org/wiki/File:Turkey-Greece-Bulgaria_on_Treaty_of_Lausanne.png"
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d4/Nixon_and_Krushchev_%2846792026815%29.jpg/1280px-Nixon_and_Krushchev_%2846792026815%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "alt": "Picture from the Wikipedia article on American National Exhibition.",
+        "credit": "IIP Photo Archive from Washington, DC, USA",
+        "source": "https://commons.wikimedia.org/wiki/File:Nixon_and_Krushchev_(46792026815).jpg",
+        "license": "CC BY 2.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by/2.0"
       }
     }
   ]
