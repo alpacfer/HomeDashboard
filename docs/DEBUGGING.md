@@ -13,8 +13,9 @@ npm run probe:transit         ask every departure provider as the route would
 npm run audit                 check every scene at 1280 x 720 for layout faults
 npm run check:rules           the AGENTS.md rules a script can check
 /?scene=map                   pin the rotating panel (README)
-/?weather=off                 make no weather request at all
-/?weather=demo                as off, but the map draws a synthetic run
+/?weather=off                 no weather request; placeholder card, ribbon and week
+/?weather=demo                as off, and the map draws a synthetic run too
+/?weather=none                no request and no placeholder: the empty card
 /?time=08:46                  pin the clock to a Copenhagen time
 /?pet=map                     hold the Tenant at a measured UI landmark
 /?pet=travel-map              replay its safe-spot journey to that landmark
@@ -30,8 +31,9 @@ can never leave the wall display stuck. They combine:
 | --- | --- | --- |
 | `?transit=demo` | Draws the departure boards from a synthetic answer holding a cancellation, a long delay, an early departure, a platform change and two service messages. No provider is asked. It is the only way to check how a delay or an incident is marked on purpose. | `lib/transit-demo.ts` |
 | `?scene=transport`, `?scene=fact&fact=N`, `?scene=map` | Holds one scene on the right-hand panel and schedules nothing. A `Pinned` badge replaces the rotation ring. | `lib/panel-rotation.ts` |
-| `?weather=off` | The weather card, the week strip and the forecast map make **no request**. The card shows its unavailable state. The clock, the transit strip and the daily facts work as normal. | `lib/debug-flags.ts` |
-| `?weather=demo` | Makes no request either, but the forecast map draws the synthetic run in `lib/precipitation-demo.ts`: a band crossing the frame, hour by hour with the quarters inside an hour identical, exactly the shape the real provider returns. It is the only way to photograph the map's animation without buying a grid, and it is deterministic, so two captures of the same change are comparable. | `lib/debug-flags.ts` |
+| `?weather=off` | The weather card, the week strip and the forecast map make **no request**. The card, the ribbon and the week strip are filled from `lib/weather-demo.ts` instead, so a capture of something else still shows the dashboard in context rather than a hole in it. Built from the pinned clock, so it lines up with `?time=`. The clock, the transit strip and the daily facts work as normal. | `lib/debug-flags.ts` |
+| `?weather=none` | No request and no placeholder: the card shows its genuinely unavailable state, with the offline dot. That is a state the display has to get right when every provider is down, so it stays reachable. `--no-weather` on any of the three tools. | `lib/debug-flags.ts` |
+| `?weather=demo` | As `off` for the card, and the forecast map draws the synthetic run in `lib/precipitation-demo.ts` as well: a band crossing the frame, hour by hour with the quarters inside an hour identical, exactly the shape the real provider returns. It is the only way to photograph the map's animation without buying a grid, and it is deterministic, so two captures of the same change are comparable. | `lib/debug-flags.ts` |
 | `?time=HH:MM` | The clock reads that Copenhagen time; seconds still tick, so the minute still rolls. Everything that reads the clock follows: the Tenant's mood and the ribbon's window. For checking the digits that stress the face, since one that clips on a 4 looks fine at 21:21. | `lib/debug-flags.ts` |
 | `?pet=weather`, `week`, `transport`, `fact`, `map` | Holds the Tenant at that measured UI landmark. This checks its destination poses without waiting for curiosity to select an adventure; normal travel is unchanged when the flag is absent. | `lib/debug-flags.ts` |
 | `?pet=travel-weather`, `travel-week`, `travel-transport`, `travel-fact`, `travel-map` | Sends the Tenant from home to that landmark through its real measured landing pads, then holds it there. Use a screenshot sequence to inspect charge, parabola and chained landings without waiting for curiosity. | `lib/debug-flags.ts` |

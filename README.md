@@ -84,14 +84,19 @@ parsing lives in `lib/panel-rotation.ts`.
 
 ### Switch the weather off
 
-`/?weather=off` makes no weather, week or forecast-map request at all; the card
-shows its unavailable state and everything else works. Use it for any check that
-is not about the weather: Open-Meteo counts one load of the forecast map as
-about three hundred calls against a daily quota that the display shares with
-every machine on the same connection.
+`/?weather=off` makes no weather, week or forecast-map request at all, and
+fills the card, the ribbon and the week strip with the placeholder forecast in
+`lib/weather-demo.ts` instead, so a capture of something else still shows the
+dashboard in context. Use it for any check that is not about the weather:
+Open-Meteo counts one load of the forecast map as about three hundred calls
+against a daily quota that the display shares with every machine on the same
+connection.
 
-`/?weather=demo` makes no request either, but draws a synthetic forecast on the
-map, which is the only way to look at its animation without buying a grid.
+`/?weather=demo` is `off` plus a synthetic forecast drawn on the map, which is
+the only way to look at its animation without buying a grid.
+
+`/?weather=none` makes no request and draws no placeholder either: it is how
+the genuinely unavailable card, with its offline dot, is looked at.
 
 `/?time=08:46` pins the clock to a Copenhagen time, for checking the face
 against the digits that stress it. All three are parsed in `lib/debug-flags.ts`.

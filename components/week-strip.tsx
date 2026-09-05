@@ -3,7 +3,8 @@
 import { useEffect, useMemo, useState } from 'react';
 import { FORECAST_LATITUDE, FORECAST_LONGITUDE } from '@/lib/weather';
 import { DAILY_SOURCES, type DailySourceName, type ForecastDay } from '@/lib/daily-forecast';
-import { debugFlags } from '@/lib/debug-flags';
+import { debugFlags, pinnedNow } from '@/lib/debug-flags';
+import { demoDailyPayload } from '@/lib/weather-demo';
 import { describeLockout } from '@/lib/open-meteo-quota';
 import { ICONS } from './condition-icons';
 import { readStored, writeStored } from './device-storage';
@@ -34,7 +35,18 @@ export default function WeekStrip({ now }: { now: Date | null }) {
   const [week, setWeek] = useState<StoredWeek | null>(null);
 
   useEffect(() => {
-    if (debugFlags(window.location.search).weather !== 'live') return;
+    // See components/weather-panel.tsx: `off` and `demo` fill the strip from a
+    // placeholder body so a capture shows it in context, `none` leaves it
+    // empty. The body is Open-Meteo-shaped so its own parser reads it.
+    const flags = debugFlags(window.location.search);
+    const mode = flags.weather;
+    if (mode !== 'live') {
+      if (mode === 'none') return;
+      // Off the effect body, like the storage restore below, and built from the
+      // pinned clock so the week starts on the day the digits show.
+      const placeholder = window.setTimeout(() => setWeek({ source: 'Open-Meteo', payload: demoDailyPayload(pinnedNow(flags.time, new Date())) }), 0);
+      return () => window.clearTimeout(placeholder);
+    }
     let active = true;
     let pending = false;
     let failures = 0;

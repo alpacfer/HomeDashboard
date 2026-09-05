@@ -72,17 +72,24 @@ screen. In short:
   delay, cancellation and platform change would be marked. Run it first when
   the boards show dashes. `--headsigns` lists what each stop is signing today,
   which is how `TRANSITOUS_HEADSIGNS` is re-derived after a timetable change.
-- **`/?weather=off`** stops every weather request. **Use it for every capture
-  that is not about the weather.** Open-Meteo's quota is ten thousand calls a
-  day per IP address, one load of the forecast map costs about three hundred,
+- **`/?weather=off`** stops every weather request and fills the card, the
+  ribbon and the week strip from `lib/weather-demo.ts`, so a capture of
+  something else still shows the dashboard in context. **Use it for every
+  capture that is not about the weather.** Open-Meteo's quota is ten thousand
+  calls a day per IP address, one load of the forecast map costs about three hundred,
   and the display shares the address with this machine. A day of screenshots
   against `?scene=map` once spent the whole quota and muted the display. The
   limits and the arithmetic are in `lib/open-meteo-quota.ts`; a `429` locks
   Open-Meteo out for every component until the limit it names resets.
-- **`/?weather=demo`** (`npm run shot -- --demo`) makes no request either but
-  draws a synthetic forecast on the map. Use it for any capture **of** the map:
-  headless Chrome starts each run with an empty profile, so `?weather=off`
-  shows nothing and a live capture buys three hundred coordinates every time.
+- **`/?weather=demo`** (`npm run shot -- --demo`) is `off` plus a synthetic
+  forecast on the map. Use it for any capture **of** the map: headless Chrome
+  starts each run with an empty profile, so `?weather=off` leaves the map blank
+  and a live capture buys three hundred coordinates every time.
+- **`/?weather=none`** (`npm run shot -- --no-weather`) makes no request and
+  draws no placeholder either. It is the only way to photograph the genuinely
+  unavailable card, which is a state the display has to get right. The
+  placeholder is never a fallback: a provider that fails on the wall shows the
+  offline dot and the last good forecast, never invented weather.
 - **`/?time=HH:MM`** pins the clock to a Copenhagen time (`npm run shot --
   --time 08:46`), so the face can be checked against the digits that stress it.
 - **`/?transit=demo`** (`npm run shot -- --transit-demo`) draws the departure

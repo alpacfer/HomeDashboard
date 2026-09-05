@@ -3,18 +3,23 @@
 // flag defaults to normal behaviour, so a mistyped URL can never leave the
 // wall display in a debug state.
 //
-//   ?weather=off   No weather, week or forecast-map request is made. The card
-//                  shows its unavailable state and nothing spends provider
-//                  quota. Use it for any screenshot that is not about the
-//                  weather: Open-Meteo counts one forecast-map load as about
-//                  three hundred calls against a daily quota of ten thousand
-//                  that the display shares with every machine on the same
-//                  connection (lib/open-meteo-quota.ts).
-//   ?weather=demo  As `off` for every request, but the forecast map draws the
-//                  synthetic run in lib/precipitation-demo.ts instead of
-//                  nothing. It is the only way to photograph the map's
-//                  animation without buying a grid, and it is deterministic,
-//                  so two captures of the same change are comparable.
+//   ?weather=off   No weather, week or forecast-map request is made. The card,
+//                  the ribbon and the week strip are filled from
+//                  lib/weather-demo.ts instead, so a capture of something else
+//                  still shows the dashboard in context. Nothing spends
+//                  provider quota: Open-Meteo counts one forecast-map load as
+//                  about three hundred calls against a daily quota of ten
+//                  thousand that the display shares with every machine on the
+//                  same connection (lib/open-meteo-quota.ts). Use it for any
+//                  screenshot that is not about the weather.
+//   ?weather=demo  As `off`, and the forecast map draws the synthetic run in
+//                  lib/precipitation-demo.ts as well. It is the only way to
+//                  photograph the map's animation without buying a grid, and
+//                  it is deterministic, so two captures of the same change are
+//                  comparable.
+//   ?weather=none  No request and no placeholder: the card shows its genuinely
+//                  unavailable state. That is a state the display has to get
+//                  right when every provider is down, so it stays reachable.
 //   ?transit=demo  The departure boards are drawn from a synthetic answer that
 //                  contains a cancellation, a long delay, an early departure, a
 //                  platform change and two service messages. No provider is
@@ -43,7 +48,7 @@
 import type { WorldSpotId } from './clock-tenant';
 
 export type PinnedTime = { hour: number; minute: number };
-export type Weather = 'live' | 'off' | 'demo';
+export type Weather = 'live' | 'off' | 'demo' | 'none';
 export type Transit = 'live' | 'demo';
 export type PetMotionPreview = 'hop' | 'balance' | 'peek';
 export type DebugFlags = {
@@ -61,7 +66,7 @@ export function debugFlags(search: string): DebugFlags {
   const pet = params.get('pet');
   const motion = params.get('pet-motion');
   return {
-    weather: weather === 'off' || weather === 'demo' ? weather : 'live',
+    weather: weather === 'off' || weather === 'demo' || weather === 'none' ? weather : 'live',
     transit: params.get('transit') === 'demo' ? 'demo' : 'live',
     time: parseTime(params.get('time')),
     pet: parsePet(pet),

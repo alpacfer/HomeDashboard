@@ -74,6 +74,7 @@ function parseArgs(argv) {
       case '--fact': options.fact = value(); break;
       case '--offline': options.offline = true; break;
       case '--demo': options.demo = true; break;
+      case '--no-weather': options.noWeather = true; break;
       case '--transit-demo': options.transitDemo = true; break;
       case '--time': options.time = value(); break;
       case '--pet': options.pet = value(); break;

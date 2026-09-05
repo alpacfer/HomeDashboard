@@ -5,7 +5,8 @@ import { CloudOff } from 'lucide-react';
 import { describeHour, FORECAST_LATITUDE, FORECAST_LONGITUDE, isDaylight, reviveWeatherHours, validWeatherHours, type WeatherHour } from '@/lib/weather';
 import { SOURCES, type SourceName } from '@/lib/forecast-sources';
 import { buildRibbon, rainHeadline, temperatureTrack } from '@/lib/forecast-summary';
-import { debugFlags } from '@/lib/debug-flags';
+import { debugFlags, pinnedNow } from '@/lib/debug-flags';
+import { demoWeatherHours } from '@/lib/weather-demo';
 import { describeLockout } from '@/lib/open-meteo-quota';
 import type { Conditions } from '@/lib/clock-conditions';
 import { ICONS, NIGHT_ICONS } from './condition-icons';
@@ -51,8 +52,29 @@ export default function WeatherPanel({ now, onConditions }: { now: Date | null; 
   const [failed, setFailed] = useState(false);
 
   useEffect(() => {
-    // Debug: `?weather=off` makes no request at all. See lib/debug-flags.ts.
-    if (debugFlags(window.location.search).weather !== 'live') return;
+    // Debug: every mode but `live` makes no request at all. `off` and `demo`
+    // draw a placeholder forecast so a capture of something else still shows
+    // the card in context; `none` leaves it genuinely empty, which is the
+    // state a real outage produces. The placeholder is never a fallback: a
+    // provider that fails on the wall shows the dot and the last good answer.
+    // The source stays null, so nothing credits a provider for invented data.
+    const flags = debugFlags(window.location.search);
+    const mode = flags.weather;
+    if (mode !== 'live') {
+      if (mode === 'none') return;
+      // Built from the pinned clock, not the wall clock: the ribbon's window
+      // has to line up with the digits under `?time=` rather than draw a
+      // different hour of the day beside them, and the age that decides
+      // whether the card is drawn muted is measured against that same clock.
+      // Off the effect body, like the storage restore below, because setting
+      // state synchronously in an effect cascades a render.
+      const placeholder = window.setTimeout(() => {
+        const at = pinnedNow(flags.time, new Date());
+        setHours(demoWeatherHours(at));
+        setUpdatedAt(at.getTime());
+      }, 0);
+      return () => window.clearTimeout(placeholder);
+    }
     let active = true;
     let pending = false;
     let failures = 0;
