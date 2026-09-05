@@ -12,6 +12,7 @@
 // cloud cover and precipitation, so the icon and the amount cannot disagree.
 
 import { finite, frozenShare, metNorwayUrl, validLocationForecast, type MetEntry } from './forecast-sources';
+import { googleRoutePath, parseGoogleDays } from './google-weather';
 import { type ConditionKind } from './weather';
 
 export const WEEK_DAYS = 7;
@@ -118,6 +119,27 @@ export function parseDailyForecast(payload: unknown, now: Date): ForecastDay[] |
 }
 
 // ---------------------------------------------------------------------------
+// Google, WeatherNext 3, through the same route handler the hours come from.
+// The reading of a day into halves, and why a day missing one is dropped, is
+// in lib/google-weather.ts; what is left here is the part every provider
+// shares — today removed, the week cut to length, the condition derived from
+// the day's own cloud and precipitation so the icon cannot disagree with the
+// amount beside it.
+// ---------------------------------------------------------------------------
+
+export function parseGoogleDaily(payload: unknown, now: Date): ForecastDay[] | null {
+  const parsed = parseGoogleDays(payload);
+  if (!parsed) return null;
+  const today = copenhagenDateKey(now);
+  const days = parsed.flatMap((entry): ForecastDay[] => {
+    if (entry.date <= today) return [];
+    const day = { precipitation: entry.precipitation, snow: entry.snow, cloud: entry.cloud };
+    return [{ date: entry.date, label: weekdayLabel(entry.date), high: entry.high, low: entry.low, ...day, kind: describeDay(day) }];
+  }).slice(0, WEEK_DAYS);
+  return days.length === WEEK_DAYS ? days : null;
+}
+
+// ---------------------------------------------------------------------------
 // MET Norway, aggregated from the same Locationforecast response the hourly
 // fallback uses, so the two cost one request between them.
 //
@@ -190,10 +212,11 @@ export function parseMetDaily(payload: unknown, now: Date): ForecastDay[] | null
   return week.length === WEEK_DAYS ? week : null;
 }
 
-// Preference order, as for the hours: Open-Meteo's daily aggregation first,
-// MET Norway when it cannot answer. Each parser takes "now" because "today" is
-// dropped at parse time and moves at Copenhagen midnight.
-export type DailySourceName = 'Open-Meteo' | 'MET Norway';
+// Preference order, as for the hours: Google first, Open-Meteo's daily
+// aggregation when it cannot answer, MET Norway when neither can. Each parser
+// takes "now" because "today" is dropped at parse time and moves at
+// Copenhagen midnight.
+export type DailySourceName = 'Google' | 'Open-Meteo' | 'MET Norway';
 
 export type DailySource = {
   name: DailySourceName;
@@ -203,6 +226,7 @@ export type DailySource = {
 };
 
 export const DAILY_SOURCES: DailySource[] = [
+  { name: 'Google', url: () => googleRoutePath('days'), parse: parseGoogleDaily, cache: 'no-store' },
   { name: 'Open-Meteo', url: openMeteoDailyUrl, parse: parseDailyForecast, cache: 'default' },
   { name: 'MET Norway', url: metNorwayUrl, parse: parseMetDaily, cache: 'default' },
 ];

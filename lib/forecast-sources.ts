@@ -1,6 +1,14 @@
-// Where the hours come from. DMI first, Open-Meteo behind it, MET Norway last.
+// Where the hours come from. Google first, then DMI, Open-Meteo behind it,
+// MET Norway last.
 //
-// The first two are the same forecast. Open-Meteo's `dmi_seamless` is the DMI Harmonie
+// Google is WeatherNext 3, asked through the route handler in
+// app/api/weather/route.ts because its key cannot ship to the browser. It
+// leads on its precipitation skill rather than its resolution: at 5 km it is
+// coarser than the 2 km Harmonie run behind it, and the whole reason the three
+// providers below are unchanged is that the model in front is the newest thing
+// here and the least proven on this location. See lib/google-weather.ts.
+//
+// The next two are the same forecast. Open-Meteo's `dmi_seamless` is the DMI Harmonie
 // run, verified field by field against a direct capture from DMI's own EDR API:
 // cloud 0.82/0.99 against 82/99, visibility 5969/5870 against 5960/5880,
 // temperatures identical. So the fallback is not a downgrade in data, only in
@@ -24,9 +32,10 @@
 // Every parser returns the identical WeatherHour shape, so which provider
 // answered never changes what the display says. Only the credit line differs.
 
+import { googleRoutePath, parseGoogleHours } from './google-weather';
 import { type WeatherHour } from './weather';
 
-export type SourceName = 'DMI' | 'Open-Meteo' | 'MET Norway';
+export type SourceName = 'Google' | 'DMI' | 'Open-Meteo' | 'MET Norway';
 
 export type Source = {
   name: SourceName;
@@ -282,9 +291,20 @@ export function parseLocationForecast(payload: unknown): WeatherHour[] | null {
   });
 }
 
-// Order is the preference order: DMI is asked first every time, Open-Meteo
-// only answers when DMI does not, and MET Norway only when both are down.
+// Order is the preference order: Google is asked first every time, DMI only
+// answers when Google does not, Open-Meteo only when DMI does not, and MET
+// Norway only when all three are down.
 export const SOURCES: Source[] = [
+  {
+    name: 'Google',
+    // The policy asks for this exact sentence on or beside the data.
+    attribution: { href: 'https://developers.google.com/maps/documentation/weather/policies', credit: 'Source: Includes weather data from Google.' },
+    // Same origin, and the route decides the location. The coordinates the
+    // other providers are handed are ignored here on purpose.
+    url: () => googleRoutePath('hours'),
+    parse: parseGoogleHours,
+    cache: 'no-store',
+  },
   {
     name: 'DMI',
     attribution: { href: 'https://www.dmi.dk/friedata/dokumentation/terms-of-use', credit: 'DMI Harmonie forecast, DMI free data, CC BY 4.0.' },

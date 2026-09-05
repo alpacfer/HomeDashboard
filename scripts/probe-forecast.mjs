@@ -8,8 +8,14 @@
 // passed: one grid request is about three hundred coordinates and Open-Meteo
 // counts every one of them against the daily quota this machine shares with
 // the display (see docs/DEBUGGING.md).
+//
+// Google is asked only when GOOGLE_WEATHER_API_KEY is in the environment, the
+// same way scripts/probe-transit.mjs treats REJSEPLANEN_ACCESS_ID. Without it
+// the line says so and the run carries on: that is exactly what the display
+// does. The key is never printed.
 
 import { SOURCES } from '../lib/forecast-sources.ts';
+import { googleUpstreamUrl } from '../lib/google-weather.ts';
 import { FORECAST_LATITUDE, FORECAST_LONGITUDE } from '../lib/weather.ts';
 import { DAILY_SOURCES } from '../lib/daily-forecast.ts';
 import { MODEL_META_URL, parseModelRun } from '../lib/forecast-refresh.ts';
@@ -19,10 +25,32 @@ import { callWeight, describeLockout, EXPECTED_DAY, expectedDailySpend, OPEN_MET
 
 const withGrid = process.argv.includes('--grid');
 const now = new Date();
+// Google is asked directly rather than through /api/weather, which only exists
+// while the dev server is running. That means the key travels in the query
+// string here, so nothing printed goes out without being scrubbed first.
+const googleKey = process.env.GOOGLE_WEATHER_API_KEY;
+const scrub = text => googleKey ? String(text).replaceAll(googleKey, '***') : String(text);
+
+function sourceUrl(source, kind) {
+  if (source.name !== 'Google') return source.url(FORECAST_LATITUDE, FORECAST_LONGITUDE);
+  return googleKey ? googleUpstreamUrl(kind, FORECAST_LATITUDE, FORECAST_LONGITUDE, googleKey) : null;
+}
+
+// What the display cannot tell you from a screenshot: whether Google's `qpf`
+// is the rain alone or the hour's whole total. lib/google-weather.ts adds
+// `snowQpf` to it on the strength of the schema calling one rain and the other
+// snow, and the first hour that carries both settles it against DMI's split.
+function precipitationFields(body) {
+  const wet = (body?.forecastHours ?? []).filter(hour => hour?.precipitation?.qpf?.quantity || hour?.precipitation?.snowQpf?.quantity);
+  if (!wet.length) return 'every hour dry, so qpf and snowQpf cannot be compared yet';
+  return 'raw ' + wet.slice(0, 4).map(hour => hour.interval?.startTime?.slice(11, 16)
+    + ' qpf ' + (hour.precipitation.qpf?.quantity ?? '-')
+    + ' snowQpf ' + (hour.precipitation.snowQpf?.quantity ?? '-')).join(', ');
+}
 // The browser cannot set its User-Agent, but a script should identify itself.
 const headers = { 'User-Agent': 'HomeDashboard probe (https://github.com/alejandro/HomeDashboard)', Origin: 'http://127.0.0.1:3000' };
 
-async function probe(label, url, parse) {
+async function probe(label, url, parse, note) {
   const started = Date.now();
   let line = label.padEnd(22);
   try {
@@ -35,16 +63,17 @@ async function probe(label, url, parse) {
     const cors = response.headers.get('access-control-allow-origin');
     line += ('HTTP ' + response.status).padEnd(10) + (ms + ' ms').padEnd(9) + (Math.round(text.length / 1024) + ' KB').padEnd(8) + 'cors ' + (cors ?? '-').padEnd(4);
     if (response.ok) line += parsed === null ? '  parse: REJECTED' : '  parsed ' + describe(parsed);
-    else line += '  ' + text.replace(/\s+/g, ' ').slice(0, 110);
+    else line += '  ' + scrub(text.replace(/\s+/g, ' ').slice(0, 110));
     const expires = response.headers.get('expires');
     if (expires) line += '  expires ' + expires;
-    console.log(line);
+    console.log(scrub(line));
+    if (note && body !== null) console.log(''.padEnd(22) + scrub(note(body)));
     // What the display makes of a refusal: the lockout it records and shares.
     const lockout = url.includes('open-meteo.com') ? refusalLockout(response.status, text, Date.now()) : null;
     if (lockout) console.log(''.padEnd(22) + 'the display records: ' + describeLockout(lockout));
     return parsed;
   } catch (error) {
-    console.log(line + 'FAILED ' + (error instanceof Error ? error.message : String(error)));
+    console.log(scrub(line + 'FAILED ' + (error instanceof Error ? error.message : String(error))));
     return null;
   }
 }
@@ -58,7 +87,12 @@ function describe(parsed) {
 console.log('Forecast providers at ' + now.toISOString() + ' for ' + FORECAST_LATITUDE + ', ' + FORECAST_LONGITUDE + '\n');
 let hourlyWorking = 0;
 for (const source of SOURCES) {
-  const hours = await probe('hourly ' + source.name, source.url(FORECAST_LATITUDE, FORECAST_LONGITUDE), source.parse);
+  const url = sourceUrl(source, 'hours');
+  if (!url) {
+    console.log(('hourly ' + source.name).padEnd(22) + 'GOOGLE_WEATHER_API_KEY is not set, so the card falls through to DMI.');
+    continue;
+  }
+  const hours = await probe('hourly ' + source.name, url, source.parse, source.name === 'Google' ? precipitationFields : null);
   if (hours?.length) {
     hourlyWorking += 1;
     const ribbon = buildRibbon(hours, now);
@@ -67,7 +101,12 @@ for (const source of SOURCES) {
 }
 console.log('');
 for (const source of DAILY_SOURCES) {
-  const week = await probe('week ' + source.name, source.url(FORECAST_LATITUDE, FORECAST_LONGITUDE), body => source.parse(body, now));
+  const url = sourceUrl(source, 'days');
+  if (!url) {
+    console.log(('week ' + source.name).padEnd(22) + 'GOOGLE_WEATHER_API_KEY is not set, so the strip falls through to Open-Meteo.');
+    continue;
+  }
+  const week = await probe('week ' + source.name, url, body => source.parse(body, now));
   if (week) console.log(''.padEnd(22) + week.map(day => day.label + ' ' + Math.round(day.high) + '/' + Math.round(day.low) + ' ' + day.kind).join(', '));
 }
 console.log('');

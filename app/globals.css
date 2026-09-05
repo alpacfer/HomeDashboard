@@ -74,6 +74,10 @@ a:focus-visible { outline:2px solid var(--foreground); outline-offset:8px; }
 .ribbon-heading { display:flex; align-items:baseline; justify-content:space-between; gap:1vw; margin-bottom:1.1vh; }
 .ribbon-heading h2 { margin:0; color:var(--muted); font-size:clamp(11px,1vw,22px); text-transform:uppercase; letter-spacing:.08em; }
 .ribbon-heading span { color:var(--muted); font-size:1.15vw; font-variant-numeric:tabular-nums; }
+/* The provider credit. Held above the legibility floor because it is text on a
+   wall, not fine print on a page, and kept out of the band's even spacing with
+   a negative margin so adding it does not squeeze the ribbon. */
+.weather-credit { flex:0 0 auto; margin-top:-1.4vh; padding:0 var(--panel-inset); color:var(--muted); font-size:clamp(11px,.9vw,18px); line-height:1.2; }
 .temperature-track { position:relative; width:100%; height:7vh; min-height:3.5vh; margin-top:.4vh; }
 .temperature-track svg { display:block; width:100%; height:100%; overflow:visible; }
 .temperature-track polyline { fill:none; stroke:var(--accent); stroke-width:2.2; stroke-linejoin:round; stroke-linecap:round; vector-effect:non-scaling-stroke; }

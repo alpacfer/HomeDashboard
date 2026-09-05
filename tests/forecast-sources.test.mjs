@@ -42,18 +42,22 @@ function forecast({
   return { hourly: hourly ?? { time, temperature_2m, cloud_cover, visibility, precipitation, rain, showers } };
 }
 
-test('DMI is asked first and a fallback always exists', () => {
+test('Google leads, DMI is asked next and a fallback always exists', () => {
   // The display must never depend on a single upstream: DMI answered 429 to
   // everything for hours during their maintenance and left the screen blank.
-  assert.deepEqual(SOURCES.map(entry => entry.name), ['DMI', 'Open-Meteo', 'MET Norway']);
+  assert.deepEqual(SOURCES.map(entry => entry.name), ['Google', 'DMI', 'Open-Meteo', 'MET Norway']);
   assert.ok(SOURCES.length >= 3, 'there must always be a fallback, and one on a different model behind it');
   for (const entry of SOURCES) {
     assert.match(entry.attribution.href, /^https:\/\//);
-    assert.match(entry.attribution.credit, /CC BY 4\.0/, 'every provider requires attribution');
+    assert.ok(entry.attribution.credit.length > 0, 'every provider requires attribution');
   }
-  // The first two carry the DMI model and must say so; the third is independent
-  // of DMI and of Open-Meteo's per-address quota (see tests/met-norway.test.mjs).
-  for (const entry of SOURCES.slice(0, 2)) assert.match(entry.attribution.credit, /DMI/);
+  // The three that publish under CC BY have to carry the licence; Google's
+  // terms ask for a sentence of their own instead, checked where it is set.
+  for (const entry of SOURCES.slice(1)) assert.match(entry.attribution.credit, /CC BY 4\.0/);
+  // Two of those carry the DMI model and must say so; MET Norway is
+  // independent of DMI and of Open-Meteo's per-address quota, and Google is
+  // independent of all three (see tests/met-norway.test.mjs).
+  for (const entry of SOURCES.slice(1, 3)) assert.match(entry.attribution.credit, /DMI/);
 });
 
 test('neither request asks for a probability or a weather code', () => {

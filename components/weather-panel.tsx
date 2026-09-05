@@ -243,5 +243,11 @@ export default function WeatherPanel({ now, onConditions }: { now: Date | null; 
         {view.ribbon.map(entry => <span key={entry.timestamp} className={entry.midnight ? 'day-break' : undefined}>{entry.label}</span>)}
       </div>
     </div> : null}
+
+    {/* Google's policy asks for its credit on or beside the data, not only in
+        the label on the icon, so the provider that answered is named in print.
+        Only once something has answered: crediting a provider for a card that
+        is still empty would name the wrong one. */}
+    {source && <small className="weather-credit" aria-hidden="true">{credit.credit}</small>}
   </section>;
 }

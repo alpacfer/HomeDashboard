@@ -18,15 +18,15 @@ function clone() {
 test('MET Norway stands behind both DMI routes, for the hours and for the week', () => {
   // Two providers carrying one model behind one per-address quota is one point
   // of failure; this is the independent one.
-  assert.deepEqual(SOURCES.map(entry => entry.name), ['DMI', 'Open-Meteo', 'MET Norway']);
-  assert.deepEqual(DAILY_SOURCES.map(entry => entry.name), ['Open-Meteo', 'MET Norway']);
-  const met = SOURCES[2];
+  assert.deepEqual(SOURCES.map(entry => entry.name), ['Google', 'DMI', 'Open-Meteo', 'MET Norway']);
+  assert.deepEqual(DAILY_SOURCES.map(entry => entry.name), ['Google', 'Open-Meteo', 'MET Norway']);
+  const met = SOURCES[3];
   assert.match(met.attribution.credit, /CC BY 4\.0/);
   // Its terms require honouring Expires, which only the browser cache does.
   assert.equal(met.cache, 'default');
-  assert.equal(DAILY_SOURCES[1].cache, 'default');
+  assert.equal(DAILY_SOURCES[2].cache, 'default');
   // Both ask for the same URL so one cached response serves the two panels.
-  assert.equal(met.url(55.73825, 12.53836), DAILY_SOURCES[1].url(55.73825, 12.53836));
+  assert.equal(met.url(55.73825, 12.53836), DAILY_SOURCES[2].url(55.73825, 12.53836));
 });
 
 test('the request truncates coordinates to four decimals, as the terms require', () => {

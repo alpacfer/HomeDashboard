@@ -187,10 +187,29 @@ HTTP status, latency, size, CORS header, whether the payload parsed, and the
 provider's reason when it refused.
 
 ```text
+hourly Google         HTTP 200  221 ms   38 KB   cors -     parsed 24 items
+                      every hour dry, so qpf and snowQpf cannot be compared yet
 hourly DMI            HTTP 429  243 ms   0 KB    cors *     {"status":429,"error":"Too Many Requests","message":"Server is busy..."}
 hourly Open-Meteo     HTTP 429  168 ms   0 KB    cors *     {"reason":"Daily API request limit exceeded. Please try again tomorrow."}
 hourly MET Norway     HTTP 200  108 ms   90 KB   cors *     parsed 54 items  expires Thu, 03 Sep 2026 19:12:15 GMT
 ```
+
+`npm run probe` is a plain Node script and does not read `.env.local`, so source
+it first:
+
+```sh
+set -a && . ./.env.local && set +a && npm run probe
+```
+
+Google is asked only when `GOOGLE_WEATHER_API_KEY` is in the environment, the
+same way `npm run probe:transit` treats `REJSEPLANEN_ACCESS_ID`; without it the
+line says so and the run carries on, which is what the display does too. The
+probe asks Google directly rather than through `/api/weather`, so the key
+travels in the query string and is scrubbed from everything printed. The second
+line is there to settle one thing the documentation does not: whether Google's
+`qpf` is the rain alone or the hour's whole total. `lib/google-weather.ts` adds
+`snowQpf` to it, and the first hour that carries both settles it against DMI's
+own split.
 
 The card has two separate signals, and the probe tells you which applies:
 

@@ -50,8 +50,10 @@ loop, or anything that runs on the server.
 
 ## Provider limits
 
-Four external providers are called from the browser, and each has a limit worth
-respecting for a display that runs unattended for weeks. The one that matters
+Five external providers stand behind the display, four called straight from the
+browser and one (Google) through a route handler, and each has a limit worth
+respecting for a display that runs unattended for weeks. Google's is the only
+one that is metered in money rather than in refusals. The one that matters
 most is Open-Meteo's, because it is counted **per client IP address**: the Fire
 TV, the machines the project is developed on and every screenshot session share
 the home connection's quota. See [DEBUGGING.md](DEBUGGING.md) for the day it ran
@@ -59,6 +61,7 @@ out and what now prevents that.
 
 | Provider | Documented limit | What the code does about it |
 | --- | --- | --- |
+| Google Weather API | 10,000 calls a month free against the Weather Usage SKU, then $0.15 per 1,000. Counted per Google Cloud project, not per address. A page is a call: `hours` caps `pageSize` at 24, `days` at 10. | Asked first for the card and the week through `/api/weather`, which holds `GOOGLE_WEATHER_API_KEY`. One page each, sized so a second page is never needed: about 2,920 calls a month for the card and 730 for the week, roughly a third of the tier. The route caches each kind for less than the asking panel's refresh interval, so reloads, `npm run audit` and `npm run shot` do not each buy a call. Set a daily cap in the Cloud console: the key cannot be IP-restricted, because Render's free plan has no static outbound address. |
 | DMI forecast EDR | 500 requests per 5 seconds, shared across all callers. Over it, `429 Server is busy` rather than a queue. | Asked first every refresh, and skipped for an hour after it fails so a long outage does not cost a request each time. |
 | Open-Meteo `dmi_seamless` | Shares the 10,000-call daily quota below. | The second opinion, used only when DMI does not answer. Carries the same DMI Harmonie run. Not asked at all while a `429` from any Open-Meteo request on the device says the quota is spent: the lockout in `components/open-meteo-lockout.ts` lasts until the limit it names resets, midnight UTC for the daily one, and is shared with the week strip and the map. |
 | MET Norway Locationforecast | 20 requests a second per application; honour the `Expires` header; coordinates truncated to four decimals; identification by `Origin` for browser clients. | The third opinion for the hours and the second for the week, on its own model and its own quota, so both DMI routes can be down without the display going stale. Fetched with the browser's HTTP cache enabled so `Expires` is respected, and one URL serves both panels. |
@@ -118,7 +121,7 @@ the other.
 | Start command | `npm run start:render` | Binds `0.0.0.0` so Render's proxy can reach it. |
 | Node version | from `.nvmrc` | Same version as local and CI. |
 | Health check path | `/` | The one static route. |
-| Environment | `REJSEPLANEN_ACCESS_ID`, `SITE_URL` | Set in the dashboard. Never committed. |
+| Environment | `REJSEPLANEN_ACCESS_ID`, `GOOGLE_WEATHER_API_KEY`, `SITE_URL` | Set in the dashboard. Never committed. |
 
 **`npm start` will not work on Render.** It binds `127.0.0.1`, which is
 deliberate for local use and fatal behind Render's proxy. Use

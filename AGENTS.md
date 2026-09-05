@@ -134,7 +134,8 @@ tokens (`--background`, `--foreground`, `--accent`, `--rain`, `--muted`) before
 adding a colour.
 
 **Keep secrets server-side.** `REJSEPLANEN_ACCESS_ID` and `DEEPL_API_KEY` are
-read only by `app/api/departures/route.ts`. Anything prefixed `NEXT_PUBLIC_` ships to the
+read only by `app/api/departures/route.ts`, and `GOOGLE_WEATHER_API_KEY` only
+by `app/api/weather/route.ts`. Anything prefixed `NEXT_PUBLIC_` ships to the
 browser and must never hold a credential. Never commit `.env.local`.
 
 **Scripts stay in Node, not shell.** The repository is worked on from both
@@ -150,10 +151,13 @@ Storage is an input like a provider: a previous build may have written a
 different shape. See `components/device-storage.ts`.
 
 **Never spend the display's quota from a development machine.** The Fire TV and
-this machine share one Open-Meteo quota. Pass `--offline` to `npm run shot`,
-add `?weather=off` to any URL you load by hand unless the weather is the
-subject (or `?weather=demo` when the forecast map is the subject), and never
-run `npm run probe -- --grid` in a loop.
+this machine share one Open-Meteo quota, and one Google Cloud project. Pass
+`--offline` to `npm run shot`, add `?weather=off` to any URL you load by hand
+unless the weather is the subject (or `?weather=demo` when the forecast map is
+the subject), and never run `npm run probe -- --grid` in a loop. Google's tier
+is monthly rather than daily, so a spent one stays spent until the first of the
+month: `npm run probe` costs two calls of it, and every page load that is not
+`?weather=off` costs up to two more.
 
 ## Rules that are enforced for you
 
