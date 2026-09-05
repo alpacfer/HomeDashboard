@@ -95,12 +95,23 @@ plays twice in a row.
 
 ## The Tenant
 
-Chibi Totoro, drawn in a thin ink line: a small white rounded body with two
-cat-like ears at the corners of its head, ringed eyes with pupils and lids,
-and two three-toed feet peeking out under the belly, standing to the right of
-the minutes with its feet on the digits' baseline. Its colours are fixed and never follow the outfit. The
-SVG keeps the eyes and mouth as the original rig inside a scaling `transform`,
-so every lid, pupil and `d:path()` offset in the CSS applies unchanged; a
+An ivory forest pet inspired by the simple Chibi Totoro reference: a pear-shaped
+body, slightly uneven ears, wide round eyes, tiny toes and a green sprout.
+Its warm outline and flat cel colours are fixed and never follow the outfit.
+It stands to the right of the minutes with its feet on the digits' baseline.
+The body, ears and retractable hand are **one closed SVG path**, defined by
+`lib/tenant-drawing.ts`. Every pose has matching cubic segments, so CSS can
+morph the contour during a short wave, ear twitch or sneeze without revealing
+overlapping outlines. The hand disappears into the side at rest and emerges
+only to wave or grasp the rain leaf. The static SVG path is the fallback for
+browsers without CSS path animation. There are no filters, raster sprites,
+new animation dependencies or per-frame JavaScript updates.
+
+The sprout follows the existing secondary-motion layer (`.t-tail`); its sway
+lags a jump and settles on landing. The eyes and mouth keep the original rig
+inside a scaling `transform`, so the established gaze offsets still work.
+A smile briefly closes the eyes into crescents and brings out soft cheeks;
+the resting face leaves the mouth undrawn. A
 shelved big-Totoro drawing with the same class names is kept in
 [assets/tenant-skins/](../assets/tenant-skins/README.md). It is decoration that knows where the numbers are, and what shape
 they are.
@@ -172,20 +183,36 @@ While the Tenant is off its resting spot, `Clock` postpones set pieces so an
 unrelated scripted clock effect does not interrupt it. Normal digit rolls are
 not postponed; they are part of the environment the Tenant can encounter.
 
-**Motion.** Every intentional position change uses one compositor-only jump
-pipeline—including getting onto and off a digit, the optional idle hop,
-dashboard travel, and coming home. Pure route logic selects
-measured landing pads and samples each parabola at its quarters; the component
-advances one charge and flight timer at a time. A trip interrupted by a scene
-change reads the live transform and makes that exact matrix the first frame of
-the new charge, so it settles before the new parabola instead of snapping or
-gliding. Completed motion classes remain painted for an 80 ms grace so a slow
-browser cannot let a JavaScript timeout remove them before their final frame.
-Falls remain separate involuntary physics; once landed, the return is a normal
-charged jump. The SVG is layered so nothing fights: the positioned
-element carries poses, `.t-figure` breathing and the balance for
-the top's shape, `.t-gest` gestures and perch actions, `.t-pose` the sticky
-sitting squash, and each animates only its own transform.
+**Motion.** Every intentional position change uses one jump pipeline, including
+getting onto and off a digit, the idle hop, dashboard travel and coming home.
+`tenantHopArc()` solves ascent and descent under constant gravity; the apex
+shifts along the flight when the landing pad is higher or lower. Horizontal
+speed stays constant in the air. Height scales with distance and is capped by
+the available viewport headroom, including the sprout. Charge lasts 330–560 ms
+depending on effort; landing compression and recovery reflect impact speed.
+
+`lib/tenant-motion.ts` samples the flight at 48 intervals plus the exact apex
+and contact instant, then adds damped landing recovery. The browser plays these
+transform-only tracks with the Web Animations API. Stage changes use actual
+animation completion, so there is no timeout gap at takeoff or landing. A
+scene change samples the current matrix before replacing the animation, and
+the filled final frame is released only after the destination pose is in the
+DOM. Animations and their finish callbacks are cancelled on teardown.
+
+Balance uses a damped spring responding to small, uneven weight shifts rather
+than looping left/right rotations. The surface controls their strength, from
+a barely noticeable shift on a flat top to active corrections on a colon.
+Peeking, teetering, idle leaning and investigating the weather/map use spring
+tracks too. Observation time and lean depth vary; eyes acquire the subject
+first, the torso follows, and the head and sprout lag at different rates.
+The simulations run once per action and produce bounded keyframe arrays, with
+no per-frame JavaScript, new polling loop or dependency.
+
+The SVG layers compose: the root carries travel, `.t-figure` breathing,
+`.t-balance` weight corrections, `.t-posture` the intentional lean, `.t-gest`
+other gestures, and `.t-pose` sitting. Head/sprout counter-motion has separate
+wrappers. Interrupting a spring track eases from its live transform instead of
+snapping to neutral. Involuntary falls retain their separate animation.
 
 ## Reduced motion
 
@@ -205,4 +232,19 @@ pa-slip`), positioned by the custom properties the component sets on it. Add
 `?pet=weather`, `week`, `transport`, `fact` or `map`
 to hold it at a measured dashboard landmark for a reproducible visual check.
 Prefix the value with `travel-` (for example `?pet=travel-map`) to replay the
-real safe-spot route and hold only after it arrives.
+real safe-spot route and hold only after it arrives. For procedural motion,
+`?pet-motion=hop`, `balance` and `peek` replay actual motion on measured clock
+surfaces without waiting for an autonomous choice; changing CSS classes alone
+cannot start these tracks. These previews take precedence over the pet landmark
+flags. Reload to replay. Use `--url` with the screenshot/motion tools and keep
+`--offline --transit-demo` enabled.
+
+`tests/tenant-motion.test.mjs` checks constant gravity, exact endpoints,
+ceiling clearance, planted landing recovery, interpolation error, bounded
+spring tracks and variation between seeds.
+
+`tests/tenant-drawing.test.mjs` guards the single-contour morph topology and
+the stable belly baseline. For the drawing itself, capture `.tenant` with
+padding for the sprout, force `g-wave`, `g-listen`, `g-smile` or `mood-rain`,
+and inspect a sequence as well as a still. Travel is checked with
+`npm run motion -- --offline --transit-demo --time 14:24 --pet travel-transport --selector .tenant --wait 300 --seconds 12`.

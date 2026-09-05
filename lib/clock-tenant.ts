@@ -286,30 +286,58 @@ function surfaceTarget(surface: Box, origin: Box, rest: Targets['rest'], size: n
   };
 }
 
-// A hop is a quadratic flight sampled at quarters. The vertical correction is
-// exactly 4h*t*(1-t), so the Tenant rises away from the straight line between
-// its two landing pads and returns to it at the destination.
+// Ballistic flight under constant gravity. Solve the ascent and descent
+// separately: the apex of a jump onto a higher ledge is NOT halfway along it.
+// All timing follows the height and landing speed, in body-sized units.
 export type HopArc = {
+  from: TravelPoint;
+  to: TravelPoint;
   duration: number;
+  flightMs: number;
+  chargeMs: number;
+  settleMs: number;
+  gravity: number;
+  launchSpeed: number;
+  impactSpeed: number;
+  squash: number;
+  apexAt: number;
   quarter: TravelPoint;
   apex: TravelPoint;
   threeQuarter: TravelPoint;
 };
 
-export function tenantHopArc(from: TravelPoint, to: TravelPoint, size: number): HopArc {
-  const distance = Math.hypot(to.x - from.x, to.y - from.y);
+export function tenantHopArc(from: TravelPoint, to: TravelPoint, size: number, ceiling = -Infinity, vigor = 0.5): HopArc {
   const body = Math.max(1, Number.isFinite(size) ? size : 1);
-  const lift = Math.min(body * 1.85, Math.max(body * 0.72, body * 0.55 + distance * 0.16));
+  const horizontal = Math.abs(to.x - from.x);
+  const desired = Math.min(body * 2.35, body * 1.15 + horizontal * 0.24) * (0.94 + clamp01(vigor) * 0.12);
+  const highest = Math.min(from.y, to.y);
+  const lift = Math.min(desired, Math.max(1, highest - ceiling));
+  const apexY = highest - lift;
+  const gravity = body * 34;
+  const launchSpeed = Math.sqrt(2 * gravity * (from.y - apexY));
+  const impactSpeed = Math.sqrt(2 * gravity * (to.y - apexY));
+  const seconds = (launchSpeed + impactSpeed) / gravity;
+  const effort = Math.min(1, launchSpeed / (body * 13));
+  const settleMs = Math.round(330 + Math.min(1, impactSpeed / (body * 18)) * 170);
   const point = (at: number): TravelPoint => ({
-    x: round(from.x + (to.x - from.x) * at),
-    y: round(from.y + (to.y - from.y) * at - 4 * lift * at * (1 - at)),
+    x: from.x + (to.x - from.x) * at,
+    y: from.y - launchSpeed * seconds * at + gravity * (seconds * at) ** 2 / 2,
   });
-  return {
-    duration: Math.round(Math.min(980, Math.max(620, 500 + distance * 1.35))),
-    quarter: point(0.25),
-    apex: point(0.5),
-    threeQuarter: point(0.75),
+  const apexAt = launchSpeed / gravity / seconds;
+  return { from, to, gravity, launchSpeed, impactSpeed, apexAt,
+    flightMs: seconds * 1000, settleMs, duration: seconds * 1000 + settleMs,
+    chargeMs: Math.round(330 + effort * 230), squash: 0.16 + effort * 0.12,
+    quarter: point(0.25), apex: { x: point(apexAt).x, y: apexY }, threeQuarter: point(0.75),
   };
+}
+
+export function tenantHopPoint(arc: HopArc, progress: number): TravelPoint {
+  const at = Math.min(1, Math.max(0, progress));
+  if (at === 0) return arc.from;
+  if (at === 1) return arc.to;
+  const seconds = arc.flightMs * at / 1000;
+  return { x: arc.from.x + (arc.to.x - arc.from.x) * at,
+    y: arc.from.y - arc.launchSpeed * seconds + arc.gravity * seconds ** 2 / 2 };
 }
 
 // Find the shortest chain whose individual jumps fit the Tenant's scale. A

@@ -37,8 +37,13 @@ test('the pet can be pinned only to a known dashboard landmark', () => {
 
 test('a pinned time shifts now by whole hours and minutes and keeps the seconds', () => {
   // 19:14:47 UTC is 21:14:47 in Copenhagen on this date.
-  const now = new Date(Date.UTC(2026, 8, 3, 19, 14, 47));
+const now = new Date(Date.UTC(2026, 8, 3, 19, 14, 47));
   assert.equal(pinnedNow({ hour: 8, minute: 46 }, now).getTime(), Date.UTC(2026, 8, 3, 6, 46, 47));
   assert.equal(pinnedNow({ hour: 23, minute: 30 }, now).getTime(), Date.UTC(2026, 8, 3, 21, 30, 47));
   assert.equal(pinnedNow(null, now), now);
+});
+
+test('motion previews accept only the three deliberate checks', () => {
+  for (const motion of ['hop', 'balance', 'peek']) assert.equal(debugFlags('?pet-motion=' + motion).petMotion, motion);
+  for (const search of ['', '?pet-motion=jump', '?pet-motion=PEEK']) assert.equal(debugFlags(search).petMotion, null);
 });

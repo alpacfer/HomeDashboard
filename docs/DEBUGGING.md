@@ -35,6 +35,7 @@ can never leave the wall display stuck. They combine:
 | `?time=HH:MM` | The clock reads that Copenhagen time; seconds still tick, so the minute still rolls. Everything that reads the clock follows: the wardrobe, the Tenant's mood, the ribbon's window. For checking an outfit against chosen digits, since a face that clips on a 4 looks fine at 21:21. | `lib/debug-flags.ts` |
 | `?pet=weather`, `week`, `transport`, `fact`, `map` | Holds the Tenant at that measured UI landmark. This checks its destination poses without waiting for curiosity to select an adventure; normal travel is unchanged when the flag is absent. | `lib/debug-flags.ts` |
 | `?pet=travel-weather`, `travel-week`, `travel-transport`, `travel-fact`, `travel-map` | Sends the Tenant from home to that landmark through its real measured landing pads, then holds it there. Use a screenshot sequence to inspect charge, parabola and chained landings without waiting for curiosity. | `lib/debug-flags.ts` |
+| `?pet-motion=hop`, `balance`, `peek` | Plays the pet's actual gravity/spring motion after a short setup. Hop jumps at home; balance and peek use a measured round digit. Reload to replay. Takes precedence over pet landmark flags. Pass the URL with `--url` to the screenshot and motion tools. | `lib/debug-flags.ts` |
 
 Use `weather=off` for any capture that is not about the weather, and
 `weather=demo` for one that is about the forecast map. The reason is quota,

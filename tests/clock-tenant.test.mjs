@@ -185,9 +185,9 @@ test('a travel hop charges into a parabola and lands exactly on its safe spot', 
   const from = { x: 10, y: 80 };
   const to = { x: 210, y: 20 };
   const arc = tenantHopArc(from, to, 50);
-  assert.ok(arc.duration >= 620 && arc.duration <= 980);
+  assert.ok(arc.flightMs > 500 && arc.duration > arc.flightMs);
   assert.equal(arc.quarter.x, 60);
-  assert.equal(arc.apex.x, 110);
+  assert.ok(arc.apex.x > 110, 'a higher landing puts the apex later in the flight');
   assert.equal(arc.threeQuarter.x, 160);
   const straightApex = (from.y + to.y) / 2;
   assert.ok(arc.apex.y < straightApex - 35, 'the apex rises well above a straight path');

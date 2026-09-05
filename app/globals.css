@@ -379,6 +379,9 @@ a:focus-visible { outline:2px solid var(--foreground); outline-offset:8px; }
 .tenant { position:absolute; left:var(--tenant-left); top:var(--tenant-top); width:.42em; height:.42em; font-size:var(--clock-size); transform-origin:50% 100%; transition:none; will-change:transform; pointer-events:none; z-index:900; }
 .tenant svg { display:block; width:100%; height:100%; overflow:visible; }
 .tenant .t-figure,.tenant .t-gest,.tenant .t-pose { transform-origin:50px 96px; }
+.t-balance,.t-posture { transform-origin:50px 98px; }
+.t-balance-head,.t-posture-head { transform-origin:50px 55px; }
+.t-balance-sprout,.t-posture-sprout { transform-origin:50px 31px; }
 .tenant .t-figure { animation:t-idle 21s ease-in-out infinite; }
 /* Five uneven breaths and one weight shift take long enough that rest no
    longer exposes a four-second sine loop. */
@@ -390,23 +393,34 @@ a:focus-visible { outline:2px solid var(--foreground); outline-offset:8px; }
   90% {transform:translate(1px,0) rotate(.7deg);}
 }
 .t-pose { transition:transform .5s cubic-bezier(.34,1.56,.64,1); }
-/* The Tenant is Chibi Totoro: fixed white fur, never the outfit's colour. */
-.tenant { --fur:#f3ede3; --ink-dark:#1a1a1f; --line:#2b2623; }
-.t-body,.t-lid,.t-ear-fill,.t-foot,.t-arm-blob { fill:var(--fur); }
-/* A thin ink line, as in a pencil drawing: the body, the ears' outer edges, the arm and the toes. */
-.t-body,.t-foot,.t-arm-blob { stroke:var(--line); stroke-width:1.5; stroke-linejoin:round; }
-.t-ear-line { fill:none; stroke:var(--line); stroke-width:1.5; stroke-linecap:round; stroke-linejoin:round; }
-.t-ears { transform-origin:50px 30px; transition:transform .3s cubic-bezier(.2,.8,.2,1); }
-.t-tail { fill:none; stroke:var(--fur); stroke-width:7; stroke-linecap:round; transform-origin:74px 86px; transition:transform .45s cubic-bezier(.2,.8,.2,1); }
-.t-arm { transform-origin:20px 66px; transition:transform .45s cubic-bezier(.2,.8,.2,1); }
-.t-arm-blob { fill:var(--fur); }
-.t-grip { fill:none; stroke:var(--background); stroke-width:1.5; stroke-linecap:round; opacity:0; transition:opacity .2s ease; }
+/* Flat cel colours and a single warm outline. Ears and hand are points on
+   .t-body, never overlapping stroked pieces. Only short gestures morph it. */
+.tenant { --fur:#fffdf4; --ink-dark:#383b33; --line:#535348; }
+.t-body,.t-lid { fill:var(--fur); }
+.t-body { d:var(--pet-rest); stroke:var(--line); stroke-width:2.6; stroke-linejoin:round; stroke-linecap:round; transition:d .24s ease-in-out; }
+.t-belly-wash { fill:#e8e9d9; }
+.t-foot { fill:none; stroke:var(--line); stroke-width:3.2; stroke-linecap:round; }
+.t-tail { transform-origin:50px 31px; transition:transform .45s cubic-bezier(.2,.8,.2,1),opacity .3s ease; }
+.t-sprout-stem { fill:none; stroke:var(--line); stroke-width:2.5; stroke-linecap:round; }
+.t-sprout-leaf { fill:#b2cf7d; stroke:var(--line); stroke-width:2.4; stroke-linejoin:round; }
+.t-sprout-leaf-b { fill:#c2db8d; }
+.t-grip { fill:none; stroke:var(--line); stroke-width:1.8; stroke-linecap:round; opacity:0; transition:opacity .2s ease; }
 .t-face { transform-origin:50px 62px; transition:transform .5s cubic-bezier(.2,.8,.2,1); }
 .t-eye { fill:#fff; }
-.t-eye-ring { fill:none; stroke:var(--line); stroke-width:1.8; }
+.t-eye-ring { fill:none; stroke:var(--line); stroke-width:2.8; transform-box:fill-box; transform-origin:center; transition:transform .15s ease; }
+.t-eye-happy,.t-eye-sleep { fill:none; stroke:var(--line); stroke-width:3; stroke-linecap:round; opacity:0; }
+.t-cheeks { fill:#eab8a2; opacity:0; transition:opacity .3s ease; }
 .t-pupil { fill:var(--ink-dark); transition:transform .35s cubic-bezier(.2,.8,.2,1); }
 .t-lid { transform:translateY(-30px); transition:transform .12s ease-in; }
-.t-mouth { fill:none; stroke:var(--line); stroke-width:2.2; stroke-linecap:round; transition:d .45s ease,fill .45s ease; }
+.t-mouth { fill:none; stroke:var(--line); stroke-width:2.7; stroke-linecap:round; opacity:0; transition:d .3s ease,fill .3s ease,opacity .25s ease; }
+.g-smile .t-mouth,.g-wave .t-mouth,.g-yawn .t-mouth,.g-sneeze .t-mouth,.mood-hot .t-mouth,.mood-cold .t-mouth,.pose-jumping .t-mouth,.pose-falling .t-mouth,.pose-sprawled .t-mouth,.sitting .t-mouth { opacity:1; }
+.g-smile .t-cheeks,.g-wave .t-cheeks { opacity:.65; }
+/* The eyes close into little crescents for a delighted smile, then reopen
+   before the gesture releases. A blink has no permanent dark ring inside it. */
+.g-smile .t-eye,.g-smile .t-pupils,.g-smile .t-eye-ring { animation:t-smile-eyes 1.8s ease-in-out both; }
+.g-smile .t-eye-happy { animation:t-smile-crescents 1.8s ease-in-out both; }
+@keyframes t-smile-eyes { 0%,100% {opacity:1;} 18%,76% {opacity:0;} }
+@keyframes t-smile-crescents { 0%,100% {opacity:0;} 18%,76% {opacity:1;} }
 /* Each foot pivots on its own centre, so a swing or a spread reads as the foot moving. */
 .t-foot { transform-origin:36px 96px; transition:transform .4s cubic-bezier(.34,1.56,.64,1); }
 .t-foot-b { transform-origin:64px 96px; }
@@ -415,24 +429,27 @@ a:focus-visible { outline:2px solid var(--foreground); outline-offset:8px; }
 .t-scarf path { fill:var(--rain); }
 .t-scarf { opacity:0; transform:scale(0); transform-origin:50px 56px; transition:opacity .3s ease,transform .5s cubic-bezier(.34,1.56,.64,1); }
 .t-leaf { opacity:0; transform:translateY(7px) scale(.45) rotate(-7deg); transform-origin:9px 59px; transition:opacity .3s ease,transform .5s cubic-bezier(.34,1.56,.64,1); }
-.t-leaf-blade { fill:var(--live); stroke:var(--background); stroke-width:2.5; stroke-linejoin:round; }
+.t-leaf-blade { fill:#adc879; stroke:var(--line); stroke-width:2.5; stroke-linejoin:round; }
 .t-leaf-vein,.t-leaf-stem,.t-leaf-stem-outline { fill:none; stroke-linecap:round; stroke-linejoin:round; }
-.t-leaf-vein { stroke:var(--background); stroke-width:2; }
-.t-leaf-stem-outline { stroke:var(--background); stroke-width:6.5; }
-.t-leaf-stem { stroke:var(--live); stroke-width:3.5; }
+.t-leaf-vein { stroke:#688051; stroke-width:1.5; }
+.t-leaf-stem-outline { stroke:var(--line); stroke-width:4; }
+.t-leaf-stem { stroke:#adc879; stroke-width:1.7; }
 .t-drop,.t-sweat { fill:var(--rain); opacity:0; }
 .t-zz { opacity:0; font-family:'Space Grotesk',Arial,sans-serif; font-weight:700; font-size:16px; fill:var(--foreground); }
 .t-zz:nth-of-type(2) { font-size:12px; }
 
 /* Moods. Before the poses, so a jump or a balance wins over a shiver. */
 .mood-asleep .t-lid { transform:translateY(-3px); transition-duration:1.4s; }
+.mood-asleep .t-eye,.mood-asleep .t-pupils,.mood-asleep .t-eye-ring { opacity:0; }
+.mood-asleep .t-eye-sleep { opacity:1; }
 .mood-asleep .t-figure { animation:t-breathe 4.6s ease-in-out infinite; }
 @keyframes t-breathe { 0%,100% {transform:scale(1,.95) translateY(0);} 50% {transform:scale(1.03,.99) translateY(-1px);} }
 .mood-asleep .t-zz { animation:t-zz 2.6s ease-in-out infinite; }
 .mood-asleep .t-zz:nth-of-type(2) { animation-delay:.9s; }
 @keyframes t-zz { 0% {opacity:0;transform:translate(0,0) scale(.6);} 30% {opacity:1;} 100% {opacity:0;transform:translate(14px,-26px) scale(1.1);} }
 .mood-rain .t-leaf { opacity:1; transform:translateY(0) scale(1) rotate(0); }
-.mood-rain .t-arm { transform:rotate(60deg); }
+.mood-rain .t-body { d:var(--pet-rain); }
+.mood-rain .t-sprout { opacity:0; }
 .mood-rain .t-grip { opacity:1; }
 .mood-rain .t-drop { animation:t-drop 1s linear infinite; }
 .mood-rain .t-drop:nth-child(2) { animation-delay:.33s; }
@@ -453,6 +470,10 @@ a:focus-visible { outline:2px solid var(--foreground); outline-offset:8px; }
    eyes lead and the face follow. */
 .g-blink .t-lid { animation:t-blink .27s linear both; }
 .g-double-blink .t-lid { animation:t-double-blink .62s linear both; }
+.g-blink .t-eye-ring { animation:t-blink-ring .27s linear both; }
+.g-double-blink .t-eye-ring { animation:t-double-blink-ring .62s linear both; }
+@keyframes t-blink-ring { 0%,100% {transform:scaleY(1);} 38%,48% {transform:scaleY(.06);} }
+@keyframes t-double-blink-ring { 0%,42%,100% {transform:scaleY(1);} 15%,22%,61%,69% {transform:scaleY(.06);} }
 @keyframes t-blink { 0% {transform:translateY(-30px);} 38%,48% {transform:translateY(0);} 100% {transform:translateY(-30px);} }
 @keyframes t-double-blink { 0%,42%,100% {transform:translateY(-30px);} 15%,22%,61%,69% {transform:translateY(0);} }
 .g-glance-digits .t-pupil { transform:translate(-4px,1.5px); }
@@ -473,76 +494,61 @@ a:focus-visible { outline:2px solid var(--foreground); outline-offset:8px; }
 .g-stretch .t-lid { animation:t-yawn-lids 1.4s ease-in-out both; }
 .g-wiggle .t-gest { animation:t-wiggle .9s ease-in-out both; }
 @keyframes t-wiggle { 0%,100% {transform:rotate(0);} 20% {transform:rotate(-5deg);} 45% {transform:rotate(5deg);} 70% {transform:rotate(-3deg);} 88% {transform:rotate(1.5deg);} }
-.g-lean .t-gest { animation:t-lean 1.9s cubic-bezier(.4,0,.2,1) both; }
-@keyframes t-lean { 0%,100% {transform:rotate(0) translateX(0);} 30%,70% {transform:rotate(-11deg) translateX(-5px);} }
+/* Leaning, peering and balance are spring tracks on independent SVG layers.
+   Their eyes start first; the torso and sprout arrive at different times. */
 .g-lean .t-pupil { transform:translate(-4px,1px); }
-.g-scratch .t-ears { animation:t-scratch-ears .34s ease-in-out 4 alternate; }
+.g-scratch .t-body { animation:t-scratch-ears 1.7s ease-in-out both; }
 .g-scratch .t-gest { animation:t-scratch-body .34s ease-in-out 4 alternate; }
 .g-scratch .t-face { transform:rotate(2deg) translateX(1px); }
-@keyframes t-scratch-ears { from {transform:rotate(0);} to {transform:rotate(5deg) translateY(1px);} }
+@keyframes t-scratch-ears { 0%,100% {d:var(--pet-rest);} 20%,55% {d:var(--pet-flinch);} 38%,75% {d:var(--pet-listen);} }
 @keyframes t-scratch-body { from {transform:rotate(0);} to {transform:rotate(2.5deg) translateX(1px);} }
 .g-sneeze .t-gest { animation:t-sneeze .9s cubic-bezier(.4,0,.2,1) both; }
 .g-sneeze .t-lid { animation:t-sneeze-lids .9s linear both; }
-.g-sneeze .t-ears { animation:t-ear-flinch .9s ease-out both; }
+.g-sneeze .t-body { animation:t-ear-flinch .9s ease-out both; }
 @keyframes t-sneeze { 0%,100% {transform:translate(0,0) rotate(0);} 30% {transform:translate(-2px,1px) rotate(-3deg) scale(1.04,.96);} 42% {transform:translate(5px,-2px) rotate(7deg) scale(.94,1.06);} 62% {transform:translate(-1px,0) rotate(-2deg);} }
 @keyframes t-sneeze-lids { 0%,22%,100% {transform:translateY(-30px);} 34%,62% {transform:translateY(0);} }
-@keyframes t-ear-flinch { 0%,100% {transform:rotate(0) scale(1);} 38% {transform:rotate(-5deg) scale(1.08,.84);} 64% {transform:rotate(2deg) scale(.97,1.04);} }
-.g-wave .t-ears { animation:t-wave-ears .34s ease-in-out 4 alternate; }
-.g-wave .t-gest { animation:t-wave-body .68s ease-in-out 2 alternate; }
-.g-wave .t-arm { animation:t-arm-wave .34s ease-in-out 4 alternate; }
+@keyframes t-ear-flinch { 0%,100% {d:var(--pet-rest);} 38% {d:var(--pet-flinch);} 64% {d:var(--pet-listen);} }
+.g-wave .t-sprout { animation:t-wave-ears 1.5s ease-in-out both; }
+.g-wave .t-gest { animation:t-wave-body 1.5s ease-in-out both; }
+.g-wave .t-body { animation:t-arm-wave 1.5s ease-in-out both; }
 .g-smile .t-tail { animation:t-tail-wag .3s ease-in-out 5 alternate; }
-.mood-rain.g-wave .t-arm { animation:t-leaf-arm-bob .45s ease-in-out 3 alternate; }
-.mood-rain.g-wave .t-leaf { animation:t-leaf-bob .45s ease-in-out 3 alternate; }
-@keyframes t-wave-ears { from {transform:rotate(-2deg);} to {transform:rotate(5deg) scale(1.04,1.08);} }
-@keyframes t-wave-body { from {transform:rotate(-2deg);} to {transform:rotate(3deg) translateY(-1px);} }
-@keyframes t-arm-wave { from {transform:rotate(35deg);} to {transform:rotate(72deg);} }
-@keyframes t-leaf-arm-bob { from {transform:rotate(57deg);} to {transform:rotate(63deg);} }
-@keyframes t-leaf-bob { from {transform:translateY(0) rotate(-1deg);} to {transform:translateY(-1px) rotate(2deg);} }
+.mood-rain.g-wave .t-leaf { animation:t-leaf-bob 1.5s ease-in-out both; }
+/* Keep the grasp connected during rain gestures; the body can still act. */
+.mood-rain.g-wave .t-body,.mood-rain.g-scratch .t-body,.mood-rain.g-listen .t-body,.mood-rain.g-sneeze .t-body { animation:none; d:var(--pet-rain); }
+@keyframes t-wave-ears { 0%,100% {transform:rotate(0);} 25%,60% {transform:rotate(-8deg);} 42%,78% {transform:rotate(6deg);} }
+@keyframes t-wave-body { 0%,100% {transform:rotate(0);} 24%,60% {transform:rotate(3deg) translateY(-1px);} 42%,78% {transform:rotate(-1deg);} }
+@keyframes t-arm-wave { 0%,100% {d:var(--pet-rest);} 18%,47%,76% {d:var(--pet-waveLow);} 32%,61% {d:var(--pet-waveHigh);} }
+@keyframes t-leaf-bob { 0%,100% {transform:translateY(0) rotate(0);} 25%,60% {transform:translateY(-1px) rotate(2deg);} 42%,78% {transform:translateY(0) rotate(-1deg);} }
 @keyframes t-tail-wag { from {transform:rotate(-9deg);} to {transform:rotate(12deg);} }
 .g-doze .t-gest { animation:t-doze 2.6s ease-in-out both; }
 .g-doze .t-lid { animation:t-doze-lids 2.6s ease-in-out both; }
+.g-doze .t-eye-ring { animation:t-doze-ring 2.6s ease-in-out both; }
+@keyframes t-doze-ring { 0%,100% {transform:scaleY(1);} 25%,76% {transform:scaleY(.06);} }
 @keyframes t-doze { 0%,100% {transform:translateY(0) scale(1);} 32%,72% {transform:translateY(4px) scale(1.03,.94) rotate(2deg);} }
 @keyframes t-doze-lids { 0%,100% {transform:translateY(-30px);} 25%,76% {transform:translateY(-4px);} }
-.g-listen .t-ears { animation:t-listen 1.7s cubic-bezier(.2,.8,.2,1) both; }
+.g-listen .t-body { animation:t-listen 1.7s cubic-bezier(.2,.8,.2,1) both; }
 .g-listen .t-pupil { transform:translate(4px,-2px); }
 .g-listen .t-face { transform:translateX(1.5px) rotate(1deg); transition-delay:.1s; }
-@keyframes t-listen { 0%,100% {transform:scale(1) rotate(0);} 22%,72% {transform:scale(1.08,1.14) rotate(2deg);} 45% {transform:scale(1.1,1.15) rotate(-2deg);} }
+@keyframes t-listen { 0%,100% {d:var(--pet-rest);} 22%,72% {d:var(--pet-listen);} 45% {d:var(--pet-rest);} }
 
-/* Every intentional position change starts with a visible charge
-   on a measured safe spot, then follows one sampled quadratic parabola to the
-   next. React changes back to charge only after this landing has settled, so a
-   long route reads as chained bounces and never as a diagonal glide. The
-   charge begins at the live matrix of the pose it interrupts, so a balance
-   or half-finished flight also hands off without a snap. */
-.pose-charging { animation:t-jump-charge .22s cubic-bezier(.4,0,.6,1) both; transition:none; }
-.pose-charging .t-pupil { transform:translateY(-3px); }
-.pose-jumping { animation:t-travel-hop var(--hop-ms) linear both; transition:none; }
+/* The Web Animations API plays precomputed gravity and spring trajectories
+   from lib/tenant-motion.ts. These transforms hold their final destinations
+   when the completed animation is released. No four-segment CSS parabola. */
+.pose-charging { transform:translate(var(--hop-from-x),var(--hop-from-y)); transition:none; }
+.pose-charging .t-pupil { transform:translateY(-4px); transition-duration:.18s; }
+.pose-charging .t-face { transform:translateY(-1.2px); transition-delay:.08s; }
+.pose-charging .t-tail { transform:rotate(-9deg); transition-duration:.3s; }
+.pose-jumping { transform:translate(var(--hop-to-x),var(--hop-to-y)); transition:none; }
 .pose-visiting { transform:translate(var(--world-x),var(--world-y)); transition:none; }
-@keyframes t-jump-charge {
-  from {transform:var(--handoff-transform);}
-  to {transform:translate(var(--hop-from-x),calc(var(--hop-from-y) + 4px)) rotate(0) scale(1.13,.82);}
-}
-@keyframes t-travel-hop {
-  0% {transform:translate(var(--hop-from-x),calc(var(--hop-from-y) + 4px)) scale(1.13,.82);}
-  8% {transform:translate(var(--hop-from-x),calc(var(--hop-from-y) - .025em)) scale(.96,1.07);}
-  25% {transform:translate(var(--hop-quarter-x),var(--hop-quarter-y)) rotate(-4deg) scale(.97,1.04);}
-  50% {transform:translate(var(--hop-apex-x),var(--hop-apex-y)) rotate(2deg) scale(1);}
-  75% {transform:translate(var(--hop-three-quarter-x),var(--hop-three-quarter-y)) rotate(4deg) scale(1.02,.98);}
-  90% {transform:translate(var(--hop-to-x),calc(var(--hop-to-y) - .015em)) rotate(0) scale(.98,1.04);}
-  95% {transform:translate(var(--hop-to-x),var(--hop-to-y)) scale(1.16,.8);}
-  100% {transform:translate(var(--hop-to-x),var(--hop-to-y)) scale(1);}
-}
-.pose-jumping .t-tail { animation:t-tail-flight .34s ease-in-out infinite alternate; }
+.pose-jumping .t-tail { animation:t-tail-flight var(--hop-ms) ease-in-out both; }
 .pose-jumping .t-mouth { d:path('M40 74 Q50 84 60 74'); }
-@keyframes t-tail-flight { from {transform:rotate(14deg);} to {transform:rotate(-12deg);} }
+@keyframes t-tail-flight { 0%,100% {transform:rotate(0);} 18% {transform:rotate(16deg);} 55% {transform:rotate(-9deg);} 80% {transform:rotate(5deg);} }
 
 /* Each landmark gets a short, readable activity. These play only for the few
    seconds of a visit, so they can be expressive without becoming wallpaper. */
 .pose-visiting.w-left .t-face { transform:translateX(-2px) rotate(-2deg); }
 .pose-visiting.w-right .t-face { transform:translateX(2px) rotate(2deg); }
 .pose-visiting .t-pupil { transform:translate(0,4px); }
-.visit-weather.pose-visiting .t-gest { animation:t-visit-weather 4.8s ease-in-out both; }
-@keyframes t-visit-weather { 0%,100% {transform:translateY(0);} 18%,42% {transform:translateY(3px) rotate(-4deg) scale(1.03,.96);} 65% {transform:translateY(-2px) rotate(2deg);} }
 .visit-week.pose-visiting .t-pupils { animation:t-read-week 4.8s ease-in-out both; }
 @keyframes t-read-week { 0%,100% {transform:translate(0,0);} 12% {transform:translate(-4px,3px);} 32% {transform:translate(-2px,5px);} 52% {transform:translate(1px,5px);} 72% {transform:translate(4px,3px);} 90% {transform:translate(-2px,3px);} }
 .visit-transport.pose-visiting .t-foot-b { animation:t-waiting-foot .5s ease-in-out 8 alternate; }
@@ -551,9 +557,7 @@ a:focus-visible { outline:2px solid var(--foreground); outline-offset:8px; }
 .visit-fact.pose-visiting .t-face { animation:t-admire 4.6s ease-in-out both; }
 @keyframes t-admire { 0%,100% {transform:translate(0,0);} 30%,70% {transform:translate(-2px,-1px) rotate(-2deg) scale(1.02);} }
 .visit-map.pose-visiting .t-pupils { animation:t-track-map 5.4s ease-in-out both; }
-.visit-map.pose-visiting .t-gest { animation:t-map-lean 5.4s ease-in-out both; }
 @keyframes t-track-map { 0%,100% {transform:translate(0,0);} 12% {transform:translate(-4px,-1px);} 38% {transform:translate(4px,-2px);} 66% {transform:translate(0,5px);} 88% {transform:translate(-3px,1px);} }
-@keyframes t-map-lean { 0%,100% {transform:rotate(0);} 28%,72% {transform:rotate(-6deg) translateX(-2px);} }
 
 /* A panel may rotate while a visit gesture is still between keyframes. These
    short handoffs begin at the computed matrices captured before React changes
@@ -580,26 +584,18 @@ a:focus-visible { outline:2px solid var(--foreground); outline-offset:8px; }
 .pose-perched.w-left .t-gest,.pose-perched.w-right .t-gest { animation:t-startle .5s ease-out both; }
 @keyframes t-startle { 0%,100% {transform:translateY(0) scale(1);} 30% {transform:translateY(1px) scale(1.06,.94);} 62% {transform:translateY(-3px) scale(.97,1.04);} }
 
-/* What the top is decides how it stands there. */
-.on-round.pose-perched .t-figure { animation:t-sway 1.7s ease-in-out infinite alternate; }
-@keyframes t-sway { from {transform:rotate(-2.2deg) translateX(-1px);} to {transform:rotate(2.2deg) translateX(1px);} }
-.on-ledge.pose-perched .t-figure { animation:t-teeter-idle 1.3s ease-in-out infinite alternate; }
-@keyframes t-teeter-idle { from {transform:rotate(-3.5deg) translateX(-1.5px);} to {transform:rotate(3.5deg) translateX(1.5px);} }
+/* The perch's shape controls the strength of spring-based weight corrections,
+   and how close together the feet stand. There is no periodic rocking loop. */
 .on-ledge.pose-perched .t-foot { transform:translateX(3px); }
 .on-ledge.pose-perched .t-foot-b { transform:translateX(-3px); }
-.on-ball.pose-perched .t-figure { animation:t-balance 1s ease-in-out infinite alternate; }
-@keyframes t-balance { from {transform:rotate(-6deg) translateX(-2px) translateY(0);} to {transform:rotate(6deg) translateX(2px) translateY(-1px);} }
 .on-ball.pose-perched .t-foot { transform:translateX(7px); }
 .on-ball.pose-perched .t-foot-b { transform:translateX(-7px); }
 .on-ball.pose-perched .t-pupil { transform:translate(0,2px); }
 .on-ball.pose-perched .t-mouth { d:path('M44 77 Q50 74 56 77'); }
 
 /* Perch actions, on .t-gest so they ride over the balance underneath. */
-.pa-peer .t-gest { animation:t-peer 1.7s cubic-bezier(.4,0,.2,1) both; }
-@keyframes t-peer { 0%,100% {transform:rotate(0) translateX(0);} 30%,70% {transform:rotate(-9deg) translateX(-3px);} }
-.pose-perched.pa-peer .t-pupil { transform:translate(-2px,6px); }
-.pa-teeter .t-gest { animation:t-teeter 1.7s ease-in-out both; }
-@keyframes t-teeter { 0%,100% {transform:rotate(0) translateX(0);} 18% {transform:rotate(-9deg) translateX(-3px);} 42% {transform:rotate(8deg) translateX(3px);} 64% {transform:rotate(-5deg) translateX(-2px);} 84% {transform:rotate(2.5deg) translateX(1px);} }
+.pose-perched.pa-peer .t-pupil { transform:translate(calc(var(--peek-side) * 3px),5px); transition-duration:.18s; }
+.pose-perched.pa-peer .t-face { transform:translate(calc(var(--peek-side) * 1px),1.5px); transition-delay:.12s; }
 .pose-perched.pa-teeter .t-pupil { transform:translate(0,-1px); }
 .pa-teeter .t-lid { transform:translateY(-34px); }
 .pa-slip .t-gest { animation:t-slip 1s cubic-bezier(.3,0,.2,1) both; }

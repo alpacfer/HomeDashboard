@@ -38,24 +38,28 @@ import type { WorldSpotId } from './clock-tenant';
 export type PinnedTime = { hour: number; minute: number };
 export type Weather = 'live' | 'off' | 'demo';
 export type Transit = 'live' | 'demo';
+export type PetMotionPreview = 'hop' | 'balance' | 'peek';
 export type DebugFlags = {
   weather: Weather;
   transit: Transit;
   time: PinnedTime | null;
   pet: WorldSpotId | null;
   petTravel: WorldSpotId | null;
+  petMotion: PetMotionPreview | null;
 };
 
 export function debugFlags(search: string): DebugFlags {
   const params = new URLSearchParams(search);
   const weather = params.get('weather');
   const pet = params.get('pet');
+  const motion = params.get('pet-motion');
   return {
     weather: weather === 'off' || weather === 'demo' ? weather : 'live',
     transit: params.get('transit') === 'demo' ? 'demo' : 'live',
     time: parseTime(params.get('time')),
     pet: parsePet(pet),
     petTravel: pet?.startsWith('travel-') ? parsePet(pet.slice('travel-'.length)) : null,
+    petMotion: motion === 'hop' || motion === 'balance' || motion === 'peek' ? motion : null,
   };
 }
 

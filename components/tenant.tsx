@@ -5,12 +5,11 @@
 //
 // Intentional locomotion is always the same jump: charge on a measured pad,
 // follow one parabolic arc, land, and either settle or charge the next hop.
-// The route itself is pure logic in lib/clock-tenant.ts; this component only
-// advances its timers. Falls remain separate involuntary physics.
-// A motion class is kept for a short painted-frame grace after its nominal
-// duration, and interruptions first capture the live transforms they replace.
-// This matters on the Fire TV: a timeout can run just before the animation's
-// final frame is painted even when both were given the same duration.
+// Geometry is pure logic in lib/clock-tenant.ts; spring and flight tracks are
+// precomputed in lib/tenant-motion.ts and played by the Web Animations API.
+// Flight stages advance on animation completion, never a competing timer.
+// CSS gestures still get a short painted-frame grace after their nominal
+// duration. Interruptions capture live transforms before replacing them.
 //
 // The SVG is layered so that animations compose instead of fighting:
 //   .tenant    the positioned element: charge and locomotion keyframes
@@ -20,7 +19,7 @@
 // Each layer animates only its own transform, so a slip on a round top runs
 // over the sway underneath it and hands back to it without a jump.
 
-import { useEffect, useRef, useState, type CSSProperties } from 'react';
+import { useEffect, useLayoutEffect, useRef, useState, type CSSProperties } from 'react';
 import {
   DOTS_SPOT, msToNextMinute, perchDuration, perchIdleDelay,
   pickIdle, pickPerch, pickPerchAction, tenantHopArc, tenantTravelRoute,
@@ -30,6 +29,9 @@ import {
   advancePetMind, choosePetActivity, commitPetActivity, initialPetMind, noticePetScene, noticePetStimulus, petDecisionDelay,
 } from '@/lib/pet-behavior';
 import type { Rotation } from '@/lib/panel-rotation';
+import { TENANT_SHAPES, TENANT_PATH_STYLES } from '@/lib/tenant-drawing';
+import { balanceClip, postureClip, jumpChargeFrames, jumpFlightFrames, type MotionClip, type MotionFrame } from '@/lib/tenant-motion';
+import { debugFlags } from '@/lib/debug-flags';
 
 export type TenantProps = {
   mood: Mood;
@@ -59,8 +61,8 @@ export type TenantProps = {
 type Pose = 'rest' | 'perched' | 'falling' | 'sprawled' | 'charging' | 'jumping' | 'visiting';
 
 type GestureAction = Exclude<IdleAction, 'hop'>;
-type TimedGesture = { action: GestureAction; key: number };
-type TimedPerchAction = { action: PerchAction; key: number; endsAt: number };
+type TimedGesture = { action: GestureAction; key: number; clip?: MotionClip };
+type TimedPerchAction = { action: PerchAction; key: number; endsAt: number; clip?: MotionClip };
 type InnerHandoff = { gest: string; pupils: string; face: string; tail: string; foot: string; footB: string };
 
 const GESTURE_MS: Record<GestureAction, number> = {
@@ -68,8 +70,7 @@ const GESTURE_MS: Record<GestureAction, number> = {
   stretch: 1400, wiggle: 900, lean: 1900, yawn: 2300,
   scratch: 1700, sneeze: 900, wave: 1500, doze: 2600, listen: 1700,
 };
-const PERCH_ACTION_MS: Record<PerchAction, number> = { sit: 500, peer: 1700, teeter: 1700, slip: 1000 };
-const CHARGE_MS = 220;
+const PERCH_ACTION_MS: Record<PerchAction, number> = { sit: 500, peer: 4100, teeter: 3400, slip: 1000 };
 const INNER_HANDOFF_MS = 180;
 // Keep a completed keyframe painted for a few frames before React removes its
 // class. Nominally equal CSS and JS clocks otherwise race on slower browsers.
@@ -95,15 +96,16 @@ type TenantActions = {
 type Hop = HopArc & { from: TravelPoint; to: TravelPoint };
 
 export default function Tenant({ mood, targets, activeScene, previewSpot = null, travelSpot = null, rollKey, nextDigit, rolledDigit, busy, onPlay, onHome }: TenantProps) {
+  const [motionPreview] = useState(() => typeof window === 'undefined' ? null : debugFlags(window.location.search).petMotion);
   const [pose, setPose] = useState<Pose>('rest');
   const [perchIndex, setPerchIndex] = useState(3);
   const [sitting, setSitting] = useState(false);
   const [gesture, setGesture] = useState<TimedGesture | null>(null);
   const [perchAction, setPerchAction] = useState<TimedPerchAction | null>(null);
+  const [visitPosture, setVisitPosture] = useState<MotionClip | undefined>();
   const [watch, setWatch] = useState<-1 | 0 | 1>(0);
   const [worldTarget, setWorldTarget] = useState<WorldSpot | null>(null);
   const [hop, setHop] = useState<Hop | null>(null);
-  const [handoffTransform, setHandoffTransform] = useState('matrix(1, 0, 0, 1, 0, 0)');
   const [innerHandoff, setInnerHandoff] = useState<InnerHandoff | null>(null);
   const [figureFrom, setFigureFrom] = useState('matrix(1, 0, 0, 1, 0, 0)');
   // Where a fall starts: the element's actual translation at that moment, so
@@ -112,6 +114,7 @@ export default function Tenant({ mood, targets, activeScene, previewSpot = null,
 
   // Everything the effects need to read without re-subscribing.
   const elementRef = useRef<HTMLDivElement>(null);
+  const rootAnimation = useRef<Animation | null>(null);
   const poseRef = useRef<Pose>('rest');
   const moodRef = useRef(mood);
   const busyRef = useRef(busy);
@@ -172,21 +175,23 @@ export default function Tenant({ mood, targets, activeScene, previewSpot = null,
   // keyed cleanup also prevents an old timer from clearing a newer repeat.
   const startGesture = (action: GestureAction) => {
     if (gestureRef.current) return false;
-    const next = { action, key: ++gestureSequence.current };
+    const clip = action === 'lean' ? postureClip('lean', Math.random()) : undefined;
+    const next = { action, key: ++gestureSequence.current, clip };
     gestureRef.current = next;
     setGesture(next);
     afterMotion(() => {
       if (gestureRef.current?.key !== next.key) return;
       gestureRef.current = null;
       setGesture(current => current?.key === next.key ? null : current);
-    }, GESTURE_MS[action]);
+    }, clip?.duration ?? GESTURE_MS[action]);
     return true;
   };
 
   const startPerchAction = (action: PerchAction) => {
     if (perchActionRef.current) return false;
-    const duration = PERCH_ACTION_MS[action];
-    const next = { action, key: ++perchActionSequence.current, endsAt: Date.now() + duration + MOTION_SETTLE_MS };
+    const clip = action === 'peer' || action === 'teeter' ? postureClip(action, motionPreview ? 0.37 : Math.random(), currentPerch().slide * -1) : undefined;
+    const duration = clip?.duration ?? PERCH_ACTION_MS[action];
+    const next = { action, key: ++perchActionSequence.current, endsAt: Date.now() + duration + MOTION_SETTLE_MS, clip };
     perchActionRef.current = next;
     setPerchAction(next);
     afterMotion(() => {
@@ -240,24 +245,43 @@ export default function Tenant({ mood, targets, activeScene, previewSpot = null,
   const travel = (to: TravelPoint, arrived: () => void, safe = targetsRef.current.safe) => {
     const token = ++journey.current;
     const start = whereNow();
+    smoothInnerHandoff();
+    gestureRef.current = null;
+    perchActionRef.current = null;
+    setGesture(null);
+    setPerchAction(null);
     const route = tenantTravelRoute(start, to, safe, tenantSize());
+    // Completion follows the browser's actual animation clock, not a timer
+    // racing the next paint. A replacement begins at the live matrix before
+    // cancelling the old animation, including scene-change interruptions.
+    const play = (frames: MotionFrame[], duration: number, finished: () => void, easing = 'linear') => {
+      const element = elementRef.current;
+      if (!element) return;
+      const previous = rootAnimation.current;
+      const animation = element.animate(frames, { duration, easing, fill: 'both' });
+      rootAnimation.current = animation;
+      if (previous) { previous.onfinish = null; previous.cancel(); }
+      animation.onfinish = () => {
+        if (journey.current === token && rootAnimation.current === animation) finished();
+      };
+    };
     const take = (from: TravelPoint, index: number) => {
       if (journey.current !== token) return;
       const next = route[index];
       if (!next) { setHop(null); arrived(); return; }
-      const arc = tenantHopArc(from, next, tenantSize());
+      const element = elementRef.current;
+      const restTop = (element?.offsetParent?.getBoundingClientRect().top ?? 0) + targetsRef.current.rest.top;
+      const arc = tenantHopArc(from, next, tenantSize(), 12 - restTop, Math.random());
       setFrom(from);
-      setHandoffTransform(computedTransform());
-      setHop({ from, to: next, ...arc });
+      const current = computedTransform();
+      setHop(arc);
       move('charging');
-      afterMotion(() => {
-        if (journey.current !== token || poseRef.current !== 'charging') return;
+      play(jumpChargeFrames(arc, current), arc.chargeMs, () => {
         move('jumping');
-        afterMotion(() => {
-          if (journey.current !== token || poseRef.current !== 'jumping') return;
+        play(jumpFlightFrames(arc), arc.duration, () => {
           take(next, index + 1);
-        }, arc.duration);
-      }, CHARGE_MS);
+        });
+      }, 'cubic-bezier(.3,0,.4,1)');
     };
     take(start, 0);
   };
@@ -276,7 +300,6 @@ export default function Tenant({ mood, targets, activeScene, previewSpot = null,
     const safe = stableOnly
       ? targetsRef.current.safe.filter(spot => /^(weather|ribbon|week)-/.test(spot.key) || spot.key === 'destination-weather' || spot.key === 'destination-week')
       : targetsRef.current.safe;
-    smoothInnerHandoff();
     travel({ x: 0, y: 0 }, () => {
       worldRef.current = null;
       setWorldTarget(null);
@@ -305,6 +328,7 @@ export default function Tenant({ mood, targets, activeScene, previewSpot = null,
     setWorldTarget(target);
     setWatch(target.look);
     travel(target, () => {
+      setVisitPosture(target.id === 'weather' || target.id === 'map' ? postureClip('peer', Math.random(), target.look) : undefined);
       move('visiting');
       // The longest landmark action is 5.4 s. Let it return to its neutral
       // keyframe and breathe before a voluntary departure can begin.
@@ -332,7 +356,6 @@ export default function Tenant({ mood, targets, activeScene, previewSpot = null,
     if (poseRef.current !== 'perched') return;
     journey.current += 1;
     setFrom(whereNow());
-    setHandoffTransform(computedTransform());
     setFigureFrom(computedTransform('.t-figure'));
     setSitting(false);
     perchActionRef.current = null;
@@ -357,11 +380,70 @@ export default function Tenant({ mood, targets, activeScene, previewSpot = null,
 
   useEffect(() => { onHome?.(pose === 'rest'); }, [pose, onHome]);
 
+  // Retire the filled root animation only after React has painted the new
+  // resting/perched location into the DOM. No one-frame flash back home.
+  useLayoutEffect(() => {
+    if (pose === 'charging' || pose === 'jumping') return;
+    const animation = rootAnimation.current;
+    if (animation) { animation.onfinish = null; animation.cancel(); rootAnimation.current = null; }
+  }, [pose]);
+
+  const onTop = pose === 'perched';
+  const topKind = targets.perch[perchIndex]?.kind ?? 'flat';
+  const balanceSnapshot = useRef<string[]>([]);
+  useLayoutEffect(() => {
+    const root = elementRef.current;
+    const selectors = ['.t-balance', '.t-balance-head', '.t-balance-sprout'];
+    const clip = onTop ? balanceClip(topKind, motionPreview ? 0.42 : Math.random()) : null;
+    const tracks = clip ? [clip.body, clip.head, clip.sprout] : null;
+    const animations = selectors.map((selector, i) => {
+      const element = root?.querySelector(selector);
+      if (!element) return null;
+      const frames = tracks?.[i] ?? [
+        { offset: 0, transform: balanceSnapshot.current[i] ?? 'none' },
+        { offset: 1, transform: 'translate(0px,0px) rotate(0deg) scale(1,1)' },
+      ];
+      return element.animate(frames, { duration: clip?.duration ?? INNER_HANDOFF_MS, fill: 'both' });
+    });
+    return () => {
+      balanceSnapshot.current = selectors.map(selector => {
+        const element = root?.querySelector(selector);
+        return element ? getComputedStyle(element).transform : 'none';
+      });
+      animations.forEach(animation => animation?.cancel());
+    };
+  }, [onTop, topKind, motionPreview]);
+
+  const posture = gesture?.clip ?? perchAction?.clip ?? (pose === 'visiting' ? visitPosture : undefined);
+  const postureSnapshot = useRef<string[]>([]);
+  useLayoutEffect(() => {
+    const root = elementRef.current;
+    const selectors = ['.t-posture', '.t-posture-head', '.t-posture-sprout'];
+    const tracks = posture ? [posture.body, posture.head, posture.sprout] : null;
+    const animations = selectors.map((selector, i) => {
+      const element = root?.querySelector(selector);
+      if (!element) return null;
+      const frames = tracks?.[i] ?? [
+        { offset: 0, transform: postureSnapshot.current[i] ?? 'none' },
+        { offset: 1, transform: 'translate(0px,0px) rotate(0deg) scale(1,1)' },
+      ];
+      return element.animate(frames, { duration: posture?.duration ?? INNER_HANDOFF_MS, fill: 'both' });
+    });
+    return () => {
+      postureSnapshot.current = selectors.map(selector => {
+        const element = root?.querySelector(selector);
+        return element ? getComputedStyle(element).transform : 'none';
+      });
+      animations.forEach(animation => animation?.cancel());
+    };
+  }, [posture]);
+
   // One sparse decision loop owns all resting behavior. Slowly changing drives
   // make perching and roaming arise from accumulated curiosity rather than a
   // second metronome; recent actions are suppressed so special gestures stay
-  // surprising. CSS still owns every animation frame.
+  // surprising. The browser owns every animation frame.
   useEffect(() => {
+    if (motionPreview) return;
     let alive = true;
     const tick = () => {
       if (!alive) return;
@@ -395,12 +477,12 @@ export default function Tenant({ mood, targets, activeScene, previewSpot = null,
     };
     later(tick, petDecisionDelay(Math.random(), mindRef.current.energy));
     return () => { alive = false; };
-  }, []);
+  }, [motionPreview]);
 
   // Things it does while perched, chosen by the shape under its feet: sit,
   // peer over the edge, teeter on a stem, or slip and catch itself.
   useEffect(() => {
-    if (pose !== 'perched') return;
+    if (pose !== 'perched' || motionPreview) return;
     let alive = true;
     const tick = () => {
       if (!alive || poseRef.current !== 'perched') return;
@@ -417,22 +499,41 @@ export default function Tenant({ mood, targets, activeScene, previewSpot = null,
     };
     later(tick, perchIdleDelay(Math.random()) * 0.6);
     return () => { alive = false; };
-  }, [pose]);
+  }, [pose, motionPreview]);
+
+  // Reproduce real spring tracks and the real jump pipeline for captures;
+  // changing a CSS class cannot launch a browser-owned procedural animation.
+  useEffect(() => {
+    if (!motionPreview) return;
+    const timer = window.setTimeout(() => {
+      if (motionPreview === 'hop') {
+        act.current.jumpTo({ x: 0, y: 0 }, () => move('rest'), []);
+        return;
+      }
+      const index = Math.max(0, targets.perch.findIndex(perch => perch.kind === 'round'));
+      setPerchIndex(index);
+      perchRef.current = index;
+      move('perched');
+      if (motionPreview === 'peek') act.current.startPerchAction('peer');
+    }, 600);
+    return () => window.clearTimeout(timer);
+  }, [motionPreview, targets]);
 
   // A visual-test URL may pin one landmark. It skips the trip so a screenshot
   // can inspect the destination pose deterministically; ordinary visits still
   // cross the dashboard using the full roaming choreography.
   useEffect(() => {
-    if (!previewSpot) return;
+    if (!previewSpot || motionPreview) return;
     const target = targets.world.find(spot => spot.id === previewSpot);
     const current = worldRef.current;
     if (!target || (poseRef.current === 'visiting' && current?.id === target.id && current.x === target.x && current.y === target.y)) return;
     worldRef.current = target;
     setWorldTarget(target);
+    setVisitPosture(target.id === 'weather' || target.id === 'map' ? postureClip('peer', 0.37, target.look) : undefined);
     journey.current += 1;
     setHop(null);
     move('visiting');
-  }, [previewSpot, targets]);
+  }, [previewSpot, targets, motionPreview]);
 
   // Restarted whenever the landmark is remeasured rather than guarded by a ref
   // that outlives a remount: such a guard survived React's development remount
@@ -440,9 +541,9 @@ export default function Tenant({ mood, targets, activeScene, previewSpot = null,
   // in its opening charge for good. `targets` only changes when the clock is
   // remeasured, so this re-aims during the initial settle and then holds.
   useEffect(() => {
-    if (!travelSpot || !targets.world.some(spot => spot.id === travelSpot)) return;
+    if (!travelSpot || motionPreview || !targets.world.some(spot => spot.id === travelSpot)) return;
     act.current.roamTo(travelSpot);
-  }, [travelSpot, targets]);
+  }, [travelSpot, targets, motionPreview]);
 
   // A scene change raises interest in that side of the dashboard. If the old
   // scene disappears while the Tenant is visiting it, come home from the
@@ -488,6 +589,11 @@ export default function Tenant({ mood, targets, activeScene, previewSpot = null,
     const pending = timers.current;
     return () => {
       document.removeEventListener('visibilitychange', resume);
+      if (rootAnimation.current) {
+        rootAnimation.current.onfinish = null;
+        rootAnimation.current.cancel();
+        rootAnimation.current = null;
+      }
       for (const id of pending) window.clearTimeout(id);
       pending.clear();
     };
@@ -495,27 +601,23 @@ export default function Tenant({ mood, targets, activeScene, previewSpot = null,
 
   const perch = targets.perch[perchIndex] ?? targets.perch[3] ?? FALLBACK_PERCH;
   const style = {
+    ...TENANT_PATH_STYLES,
     '--tenant-left': targets.rest.left + 'px',
     '--tenant-top': targets.rest.top + 'px',
     '--perch-x': perch.x + 'px',
     '--perch-y': perch.y + 'px',
     '--slide': perch.slide,
+    '--peek-side': -perch.slide,
     '--from-x': from.x + 'px',
     '--from-y': from.y + 'px',
     '--world-x': (worldTarget?.x ?? 0) + 'px',
     '--world-y': (worldTarget?.y ?? 0) + 'px',
     '--hop-from-x': (hop?.from.x ?? 0) + 'px',
     '--hop-from-y': (hop?.from.y ?? 0) + 'px',
-    '--hop-quarter-x': (hop?.quarter.x ?? 0) + 'px',
-    '--hop-quarter-y': (hop?.quarter.y ?? 0) + 'px',
-    '--hop-apex-x': (hop?.apex.x ?? 0) + 'px',
-    '--hop-apex-y': (hop?.apex.y ?? 0) + 'px',
-    '--hop-three-quarter-x': (hop?.threeQuarter.x ?? 0) + 'px',
-    '--hop-three-quarter-y': (hop?.threeQuarter.y ?? 0) + 'px',
     '--hop-to-x': (hop?.to.x ?? 0) + 'px',
     '--hop-to-y': (hop?.to.y ?? 0) + 'px',
     '--hop-ms': (hop?.duration ?? 700) + 'ms',
-    '--handoff-transform': handoffTransform,
+    '--charge-ms': (hop?.chargeMs ?? 500) + 'ms',
     '--figure-from': figureFrom,
     '--inner-gest-from': innerHandoff?.gest ?? 'matrix(1, 0, 0, 1, 0, 0)',
     '--inner-pupils-from': innerHandoff?.pupils ?? 'matrix(1, 0, 0, 1, 0, 0)',
@@ -525,7 +627,6 @@ export default function Tenant({ mood, targets, activeScene, previewSpot = null,
     '--inner-foot-b-from': innerHandoff?.footB ?? 'matrix(1, 0, 0, 1, 0, 0)',
   } as CSSProperties;
 
-  const onTop = pose === 'perched';
   const className = ['tenant', 'mood-' + mood, 'pose-' + pose,
     onTop ? 'on-' + perch.kind : '',
     gesture ? 'g-' + gesture.action : '',
@@ -542,6 +643,7 @@ export default function Tenant({ mood, targets, activeScene, previewSpot = null,
         <clipPath id="tenant-eye-mask"><ellipse cx="34" cy="54" rx="11" ry="13" /><ellipse cx="66" cy="54" rx="11" ry="13" /></clipPath>
       </defs>
       <g className="t-figure">
+      <g className="t-balance"><g className="t-posture">
       <g className="t-rain-drops">
         <rect className="t-drop" x="10" y="0" width="3" height="10" rx="1.5" />
         <rect className="t-drop" x="50" y="0" width="3" height="10" rx="1.5" />
@@ -552,60 +654,57 @@ export default function Tenant({ mood, targets, activeScene, previewSpot = null,
       <g className="t-gest">
       {/* Feet sit behind the body and peek out below it, toes first, the way
           the reference draws them: the belly line runs over them. */}
-      <path className="t-foot" d="M29 90 C28 94 28 98 31 99 C33 100 34 98 36 97 C37 99 39 100 41 99 C43 98 44 96 43 90 Z" />
-      <path className="t-foot t-foot-b" d="M57 90 C56 94 56 98 59 99 C61 100 62 98 64 97 C65 99 67 100 69 99 C71 98 72 96 71 90 Z" />
+      <path className="t-foot" d="M31 93 L30 99 M36 94 L36 100 M41 94 L42 99" />
+      <path className="t-foot t-foot-b" d="M59 94 L58 99 M64 94 L64 100 M69 93 L70 99" />
       <g className="t-pose">
-      {/* Chibi Totoro shows no tail; the element stays, inside the body, so the tail keyframes still have a target. */}
-      <path className="t-tail" d="M58 86 C62 90 66 88 64 84" />
-      <path className="t-body" d="M35 26 C43 21 57 22 65 27 C72 33 76 46 79 58 C82 70 86 84 80 91 C74 97 60 96 50 96 C40 96 26 98 20 91 C14 84 18 70 21 58 C24 46 28 32 35 26 Z" />
-      {/* Each ear is a fill that covers the head line where it attaches, plus
-          an open stroke along its two edges, so ear and head share one outline. */}
-      <g className="t-ears">
-        <path className="t-ear-fill" d="M26 42 C20 32 15 20 16 9 C16.5 4 21 2 24 6 C31 14 37 21 44 27 C40 32 33 37 26 42 Z" />
-        <path className="t-ear-line" d="M27 40 C21 31 15 20 16 9 C16.5 4 21 2 24 6 C31 14 37 21 42 26" />
-        <path className="t-ear-fill" d="M56 26 C61 19 65 11 67 4 C68 0 73 0 74 4 C76 14 76 25 75 36 C69 33 62 29 56 26 Z" />
-        <path className="t-ear-line" d="M58 27 C62 20 65 11 67 4 C68 0 73 0 74 4 C76 14 76 25 75 34" />
-      </g>
-      <g className="t-face">
+      {/* The sprout reuses the old tail's secondary-motion layer. It sits
+          behind the head and follows a wave, a bounce or a delighted wiggle. */}
+      <g className="t-balance-sprout"><g className="t-posture-sprout"><g className="t-tail t-sprout">
+        <path className="t-sprout-stem" d="M50 32 Q48 18 46 5" />
+        <path className="t-sprout-leaf" d="M46 7 C35 10 29 3 31 -1 C34 -6 44 -2 46 7 Z" />
+        <path className="t-sprout-leaf t-sprout-leaf-b" d="M46 7 C45 -2 53 -9 59 -6 C65 -2 57 7 46 7 Z" />
+      </g></g></g>
+      <path className="t-body" d={TENANT_SHAPES.rest} />
+      <path className="t-belly-wash" d="M22 66 C22 83 33 91 51 91 C64 91 74 88 79 83 C76 94 64 93 50 93 C30 94 18 92 20 77 Z" />
+      <g className="t-balance-head"><g className="t-posture-head"><g className="t-face">
       {/* The eye rig is the original Tenant geometry scaled into round eyes,
           so every lid, pupil and glance offset in the CSS lands proportionally. */}
-      <g transform="translate(13.65 10.8) scale(.727 .615)">
+      <g transform="translate(4.5 6.5) scale(.91 .77)">
       <ellipse className="t-eye" cx="34" cy="54" rx="11" ry="13" />
       <ellipse className="t-eye" cx="66" cy="54" rx="11" ry="13" />
       <g className="t-pupils">
-        <circle className="t-pupil" cx="35" cy="56" r="4.5" />
-        <circle className="t-pupil" cx="67" cy="56" r="4.5" />
+        <circle className="t-pupil" cx="35" cy="54" r="4.5" />
+        <circle className="t-pupil" cx="67" cy="54" r="4.5" />
       </g>
       <g clipPath="url(#tenant-eye-mask)"><rect className="t-lid" x="22" y="40" width="24" height="28" rx="11" /><rect className="t-lid" x="54" y="40" width="24" height="28" rx="11" /></g>
       <ellipse className="t-eye-ring" cx="34" cy="54" rx="11" ry="13" />
       <ellipse className="t-eye-ring" cx="66" cy="54" rx="11" ry="13" />
+      <path className="t-eye-happy" d="M27 56 Q34 44 41 56 M59 56 Q66 44 73 56" />
+      <path className="t-eye-sleep" d="M27 53 Q34 60 41 53 M59 53 Q66 60 73 53" />
       <g className="t-shades"><rect x="21" y="46" width="26" height="14" rx="5" /><rect x="53" y="46" width="26" height="14" rx="5" /><rect x="47" y="51" width="6" height="3" /></g>
       </g>
+      <g className="t-cheeks"><ellipse cx="24" cy="61" rx="4.5" ry="2" /><ellipse cx="76" cy="61" rx="4.5" ry="2" /></g>
       {/* The mouth rig is the original mouth, smaller and lower; the CSS
           d:path() shapes for every mood still apply. */}
-      <g transform="translate(20 13) scale(.6)">
+      <g transform="translate(17 17) scale(.66)">
       <path className="t-mouth" d="M43 75 Q50 79 57 75" />
       </g>
       <ellipse className="t-sweat" cx="80" cy="38" rx="3" ry="4.5" />
-      </g>
+      </g></g></g>
       <g className="t-scarf"><path d="M22 52 C36 62 64 62 78 52 C64 57 36 57 22 52 Z" /><path d="M66 56 L74 72 L62 68 Z" /></g>
-      <g transform="translate(0 -6)">
+      <g>
       <g className="t-leaf">
-        <path className="t-leaf-blade" d="M12 18 C32 -6 66 -14 97 4 C80 26 48 32 14 23 L20 19 L12 21 L18 15 Z" />
-        <path className="t-leaf-vein" d="M92 5 C67 8 41 13 16 20 M68 9 L76 -1 M52 12 L59 24 M43 14 L34 4 M29 17 L23 25" />
-        <path className="t-leaf-stem-outline" d="M15 18 C-4 22 -7 37 5 54 C15 68 14 86 8 101" />
-        <path className="t-leaf-stem" d="M15 18 C-4 22 -7 37 5 54 C15 68 14 86 8 101" />
+        <path className="t-leaf-blade" d="M10 18 C29 -6 66 -11 94 6 C75 25 39 30 10 18 Z" />
+        <path className="t-leaf-vein" d="M88 7 Q52 10 12 18 M65 10 L73 1 M47 13 L57 22" />
+        <path className="t-leaf-stem-outline" d="M12 18 C1 29 5 41 8 54" />
+        <path className="t-leaf-stem" d="M12 18 C1 29 5 41 8 54" />
       </g>
       </g>
-      <g transform="translate(9 2)">
-      <g className="t-arm">
-        <path className="t-arm-blob" d="M20 62 C12 59 4 64 4 71 C4 78 10 82 16 78 C20 75 21 69 20 62 Z" />
-        <path className="t-grip" d="M8 68 L8.5 74 M11 67 L11.5 72" />
+      <path className="t-grip" d="M6 53 Q9 55 12 54" />
       </g>
       </g>
       </g>
-      </g>
-      </g>
+      </g></g>
     </svg>
   </div>;
 }
