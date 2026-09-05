@@ -21,39 +21,12 @@
         }
       },
       "image": {
-        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/50/Soyuz_TM-31_launch.jpg/1280px-Soyuz_TM-31_launch.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/50/Soyuz_TM-31_launch.jpg/500px-Soyuz_TM-31_launch.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
         "alt": "Picture from the Wikipedia article on Soyuz TM-31.",
         "credit": "NASA",
         "source": "https://commons.wikimedia.org/wiki/File:Soyuz_TM-31_launch.jpg",
         "license": "Public domain",
         "licenseUrl": "https://commons.wikimedia.org/wiki/File:Soyuz_TM-31_launch.jpg"
-      }
-    },
-    {
-      "id": "10-31-yachtsman",
-      "date": "10-31",
-      "dateLabel": "31 October",
-      "category": "world",
-      "categoryName": "World",
-      "year": 1999,
-      "title": "Yacht",
-      "body": "Yachtsman Jesse Martin returns to Melbourne after 11 months of circumnavigating the world, solo, non-stop and unassisted.",
-      "source": {
-        "name": "Wikipedia · Yacht",
-        "url": "https://en.wikipedia.org/wiki/Yacht",
-        "calendarUrl": "https://en.wikipedia.org/wiki/October_31",
-        "license": {
-          "name": "CC BY-SA 4.0",
-          "url": "https://creativecommons.org/licenses/by-sa/4.0/"
-        }
-      },
-      "image": {
-        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/ef/Bavaria_Cruiser_45.jpg/1280px-Bavaria_Cruiser_45.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-        "alt": "Picture from the Wikipedia article on Yacht.",
-        "credit": "Justin Leighton",
-        "source": "https://commons.wikimedia.org/wiki/File:Bavaria_Cruiser_45.jpg",
-        "license": "CC BY-SA 3.0",
-        "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0"
       }
     },
     {
@@ -75,39 +48,12 @@
         }
       },
       "image": {
-        "src": "https://upload.wikimedia.org/wikipedia/commons/c/ce/WeaponsInspector.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/ce/WeaponsInspector.JPG/500px-WeaponsInspector.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
         "alt": "Picture from the Wikipedia article on Iraq disarmament crisis.",
         "credit": "Petr Pavlicek",
         "source": "https://commons.wikimedia.org/wiki/File:WeaponsInspector.JPG",
         "license": "Attribution",
         "licenseUrl": "https://commons.wikimedia.org/wiki/File:WeaponsInspector.JPG"
-      }
-    },
-    {
-      "id": "10-31-berlin-brandenburg-airport",
-      "date": "10-31",
-      "dateLabel": "31 October",
-      "category": "world",
-      "categoryName": "World",
-      "year": 2020,
-      "title": "Berlin Brandenburg Airport",
-      "body": "Berlin Brandenburg Airport opens its doors after nearly 10 years of delays due to construction issues and project corruption.",
-      "source": {
-        "name": "Wikipedia · Berlin Brandenburg Airport",
-        "url": "https://en.wikipedia.org/wiki/Berlin_Brandenburg_Airport",
-        "calendarUrl": "https://en.wikipedia.org/wiki/October_31",
-        "license": {
-          "name": "CC BY-SA 4.0",
-          "url": "https://creativecommons.org/licenses/by-sa/4.0/"
-        }
-      },
-      "image": {
-        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/45/Berlin_Brandenburg_Airport_Terminal_1.jpg/1280px-Berlin_Brandenburg_Airport_Terminal_1.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-        "alt": "Picture from the Wikipedia article on Berlin Brandenburg Airport.",
-        "credit": "Arne Müseler / www.arne-mueseler.com",
-        "source": "https://commons.wikimedia.org/wiki/File:Berlin_Brandenburg_Airport_Terminal_1.jpg",
-        "license": "CC BY-SA 3.0 de",
-        "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0/de/deed.en"
       }
     },
     {
@@ -129,12 +75,66 @@
         }
       },
       "image": {
-        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/0e/World_Population_Prospects.svg/1280px-World_Population_Prospects.svg.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/0e/World_Population_Prospects.svg/500px-World_Population_Prospects.svg.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
         "alt": "Picture from the Wikipedia article on World population.",
         "credit": "United Nations",
         "source": "https://commons.wikimedia.org/wiki/File:World_Population_Prospects.svg",
         "license": "CC BY 3.0 igo",
         "licenseUrl": "https://creativecommons.org/licenses/by/3.0/igo/deed.en"
+      }
+    },
+    {
+      "id": "10-31-yachtsman",
+      "date": "10-31",
+      "dateLabel": "31 October",
+      "category": "world",
+      "categoryName": "World",
+      "year": 1999,
+      "title": "Yacht",
+      "body": "Yachtsman Jesse Martin returns to Melbourne after 11 months of circumnavigating the world, solo, non-stop and unassisted.",
+      "source": {
+        "name": "Wikipedia · Yacht",
+        "url": "https://en.wikipedia.org/wiki/Yacht",
+        "calendarUrl": "https://en.wikipedia.org/wiki/October_31",
+        "license": {
+          "name": "CC BY-SA 4.0",
+          "url": "https://creativecommons.org/licenses/by-sa/4.0/"
+        }
+      },
+      "image": {
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/ef/Bavaria_Cruiser_45.jpg/500px-Bavaria_Cruiser_45.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "alt": "Picture from the Wikipedia article on Yacht.",
+        "credit": "Justin Leighton",
+        "source": "https://commons.wikimedia.org/wiki/File:Bavaria_Cruiser_45.jpg",
+        "license": "CC BY-SA 3.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0"
+      }
+    },
+    {
+      "id": "10-31-berlin-brandenburg-airport",
+      "date": "10-31",
+      "dateLabel": "31 October",
+      "category": "world",
+      "categoryName": "World",
+      "year": 2020,
+      "title": "Berlin Brandenburg Airport",
+      "body": "Berlin Brandenburg Airport opens its doors after nearly 10 years of delays due to construction issues and project corruption.",
+      "source": {
+        "name": "Wikipedia · Berlin Brandenburg Airport",
+        "url": "https://en.wikipedia.org/wiki/Berlin_Brandenburg_Airport",
+        "calendarUrl": "https://en.wikipedia.org/wiki/October_31",
+        "license": {
+          "name": "CC BY-SA 4.0",
+          "url": "https://creativecommons.org/licenses/by-sa/4.0/"
+        }
+      },
+      "image": {
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/45/Berlin_Brandenburg_Airport_Terminal_1.jpg/500px-Berlin_Brandenburg_Airport_Terminal_1.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "alt": "Picture from the Wikipedia article on Berlin Brandenburg Airport.",
+        "credit": "Arne Müseler / www.arne-mueseler.com",
+        "source": "https://commons.wikimedia.org/wiki/File:Berlin_Brandenburg_Airport_Terminal_1.jpg",
+        "license": "CC BY-SA 3.0 de",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0/de/deed.en"
       }
     }
   ]

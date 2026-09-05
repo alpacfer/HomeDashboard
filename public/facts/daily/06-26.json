@@ -3,33 +3,6 @@
   "dateLabel": "26 June",
   "facts": [
     {
-      "id": "06-26-william-shockley",
-      "date": "06-26",
-      "dateLabel": "26 June",
-      "category": "tech",
-      "categoryName": "Tech",
-      "year": 1948,
-      "title": "William Shockley",
-      "body": "William Shockley files the original patent for the grown-junction transistor, the first bipolar junction transistor.",
-      "source": {
-        "name": "Wikipedia · William Shockley",
-        "url": "https://en.wikipedia.org/wiki/William_Shockley",
-        "calendarUrl": "https://en.wikipedia.org/wiki/June_26",
-        "license": {
-          "name": "CC BY-SA 4.0",
-          "url": "https://creativecommons.org/licenses/by-sa/4.0/"
-        }
-      },
-      "image": {
-        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b8/Shockley.jpg/1280px-Shockley.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-        "alt": "Picture from the Wikipedia article on William Shockley.",
-        "credit": "Nobel foundation",
-        "source": "https://commons.wikimedia.org/wiki/File:Shockley.jpg",
-        "license": "Public domain",
-        "licenseUrl": "https://commons.wikimedia.org/wiki/File:Shockley.jpg"
-      }
-    },
-    {
       "id": "06-26-j-k-rowling",
       "date": "06-26",
       "dateLabel": "26 June",
@@ -48,12 +21,66 @@
         }
       },
       "image": {
-        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/5d/J._K._Rowling_2010.jpg/1280px-J._K._Rowling_2010.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/5d/J._K._Rowling_2010.jpg/500px-J._K._Rowling_2010.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
         "alt": "Picture from the Wikipedia article on J. K. Rowling.",
         "credit": "Daniel Ogren",
         "source": "https://commons.wikimedia.org/wiki/File:J._K._Rowling_2010.jpg",
         "license": "CC BY 2.0",
         "licenseUrl": "https://creativecommons.org/licenses/by/2.0"
+      }
+    },
+    {
+      "id": "06-26-supreme-court-of-the-united-states",
+      "date": "06-26",
+      "dateLabel": "26 June",
+      "category": "world",
+      "categoryName": "World",
+      "year": 1997,
+      "title": "Supreme Court of the United States",
+      "body": "The U.S. Supreme Court rules that the Communications Decency Act violates the First Amendment to the United States Constitution.",
+      "source": {
+        "name": "Wikipedia · Supreme Court of the United States",
+        "url": "https://en.wikipedia.org/wiki/Supreme_Court_of_the_United_States",
+        "calendarUrl": "https://en.wikipedia.org/wiki/June_26",
+        "license": {
+          "name": "CC BY-SA 4.0",
+          "url": "https://creativecommons.org/licenses/by-sa/4.0/"
+        }
+      },
+      "image": {
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f3/Seal_of_the_United_States_Supreme_Court.svg/500px-Seal_of_the_United_States_Supreme_Court.svg.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "alt": "Picture from the Wikipedia article on Supreme Court of the United States.",
+        "credit": "Optimager Vector: Ipankonin",
+        "source": "https://commons.wikimedia.org/wiki/File:Seal_of_the_United_States_Supreme_Court.svg",
+        "license": "Public domain",
+        "licenseUrl": "https://commons.wikimedia.org/wiki/File:Seal_of_the_United_States_Supreme_Court.svg"
+      }
+    },
+    {
+      "id": "06-26-william-shockley",
+      "date": "06-26",
+      "dateLabel": "26 June",
+      "category": "tech",
+      "categoryName": "Tech",
+      "year": 1948,
+      "title": "William Shockley",
+      "body": "William Shockley files the original patent for the grown-junction transistor, the first bipolar junction transistor.",
+      "source": {
+        "name": "Wikipedia · William Shockley",
+        "url": "https://en.wikipedia.org/wiki/William_Shockley",
+        "calendarUrl": "https://en.wikipedia.org/wiki/June_26",
+        "license": {
+          "name": "CC BY-SA 4.0",
+          "url": "https://creativecommons.org/licenses/by-sa/4.0/"
+        }
+      },
+      "image": {
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b8/Shockley.jpg/500px-Shockley.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "alt": "Picture from the Wikipedia article on William Shockley.",
+        "credit": "Nobel foundation",
+        "source": "https://commons.wikimedia.org/wiki/File:Shockley.jpg",
+        "license": "Public domain",
+        "licenseUrl": "https://commons.wikimedia.org/wiki/File:Shockley.jpg"
       }
     },
     {
@@ -75,39 +102,12 @@
         }
       },
       "image": {
-        "src": "https://upload.wikimedia.org/wikipedia/commons/f/f3/Logo_HGP.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f3/Logo_HGP.jpg/500px-Logo_HGP.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
         "alt": "Picture from the Wikipedia article on Human Genome Project.",
         "credit": "U.S. Department of Energy",
         "source": "https://commons.wikimedia.org/wiki/File:Logo_HGP.jpg",
         "license": "Public domain",
         "licenseUrl": "https://commons.wikimedia.org/wiki/File:Logo_HGP.jpg"
-      }
-    },
-    {
-      "id": "06-26-universal-product-code",
-      "date": "06-26",
-      "dateLabel": "26 June",
-      "category": "world",
-      "categoryName": "World",
-      "year": 1974,
-      "title": "Universal Product Code",
-      "body": "The Universal Product Code is scanned for the first time to sell a package of Wrigley's chewing gum at the Marsh Supermarket in Troy, Ohio.",
-      "source": {
-        "name": "Wikipedia · Universal Product Code",
-        "url": "https://en.wikipedia.org/wiki/Universal_Product_Code",
-        "calendarUrl": "https://en.wikipedia.org/wiki/June_26",
-        "license": {
-          "name": "CC BY-SA 4.0",
-          "url": "https://creativecommons.org/licenses/by-sa/4.0/"
-        }
-      },
-      "image": {
-        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e9/UPC-A-036000291452.svg/1280px-UPC-A-036000291452.svg.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-        "alt": "Picture from the Wikipedia article on Universal Product Code.",
-        "credit": "toguro",
-        "source": "https://commons.wikimedia.org/wiki/File:UPC-A-036000291452.svg",
-        "license": "CC0",
-        "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/deed.en"
       }
     },
     {
@@ -129,7 +129,7 @@
         }
       },
       "image": {
-        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/6e/Circuit_de_la_sarthe_1906c.svg/1280px-Circuit_de_la_sarthe_1906c.svg.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/6e/Circuit_de_la_sarthe_1906c.svg/500px-Circuit_de_la_sarthe_1906c.svg.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
         "alt": "Picture from the Wikipedia article on 1906 French Grand Prix.",
         "credit": "Alexander Jones",
         "source": "https://commons.wikimedia.org/wiki/File:Circuit_de_la_sarthe_1906c.svg",

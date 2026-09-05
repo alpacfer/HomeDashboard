@@ -21,39 +21,12 @@
         }
       },
       "image": {
-        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/83/Hydrogen_discharge_tube.jpg/1280px-Hydrogen_discharge_tube.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/83/Hydrogen_discharge_tube.jpg/500px-Hydrogen_discharge_tube.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
         "alt": "Picture from the Wikipedia article on Hydrogen.",
         "credit": "Alchemist-hp",
         "source": "https://commons.wikimedia.org/wiki/File:Hydrogen_discharge_tube.jpg",
         "license": "FAL",
         "licenseUrl": "https://artlibre.org/licence/lal/en"
-      }
-    },
-    {
-      "id": "11-27-macy-s-thanksgiving-day-parade",
-      "date": "11-27",
-      "dateLabel": "27 November",
-      "category": "world",
-      "categoryName": "World",
-      "year": 1924,
-      "title": "Macy's Thanksgiving Day Parade",
-      "body": "In New York City, the first Macy's Thanksgiving Day Parade is held.",
-      "source": {
-        "name": "Wikipedia · Macy's Thanksgiving Day Parade",
-        "url": "https://en.wikipedia.org/wiki/Macy%27s_Thanksgiving_Day_Parade",
-        "calendarUrl": "https://en.wikipedia.org/wiki/November_27",
-        "license": {
-          "name": "CC BY-SA 4.0",
-          "url": "https://creativecommons.org/licenses/by-sa/4.0/"
-        }
-      },
-      "image": {
-        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c1/Macy%27s_Thanksgiving_Parade%2C_New_York_City%2C_2005_15.jpg/1280px-Macy%27s_Thanksgiving_Parade%2C_New_York_City%2C_2005_15.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-        "alt": "Picture from the Wikipedia article on Macy's Thanksgiving Day Parade.",
-        "credit": "cisc1970",
-        "source": "https://commons.wikimedia.org/wiki/File:Macy%27s_Thanksgiving_Parade,_New_York_City,_2005_15.jpg",
-        "license": "CC BY 2.0",
-        "licenseUrl": "https://creativecommons.org/licenses/by/2.0"
       }
     },
     {
@@ -75,12 +48,39 @@
         }
       },
       "image": {
-        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/39/Utah_Desert_Monolith.jpg/1280px-Utah_Desert_Monolith.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/39/Utah_Desert_Monolith.jpg/500px-Utah_Desert_Monolith.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
         "alt": "Picture from the Wikipedia article on Utah monolith.",
         "credit": "Original image taken",
         "source": "https://commons.wikimedia.org/wiki/File:Utah_Desert_Monolith.jpg",
         "license": "CC BY-SA 4.0",
         "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0"
+      }
+    },
+    {
+      "id": "11-27-kurdistan-workers-party",
+      "date": "11-27",
+      "dateLabel": "27 November",
+      "category": "world",
+      "categoryName": "World",
+      "year": 1978,
+      "title": "Kurdistan Workers' Party",
+      "body": "The Kurdistan Workers' Party (PKK) is founded in the Turkish village of Fis.",
+      "source": {
+        "name": "Wikipedia · Kurdistan Workers' Party",
+        "url": "https://en.wikipedia.org/wiki/Kurdistan_Workers%27_Party",
+        "calendarUrl": "https://en.wikipedia.org/wiki/November_27",
+        "license": {
+          "name": "CC BY-SA 4.0",
+          "url": "https://creativecommons.org/licenses/by-sa/4.0/"
+        }
+      },
+      "image": {
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/df/Flag_of_Kurdistan_Workers%27_Party.svg/500px-Flag_of_Kurdistan_Workers%27_Party.svg.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "alt": "Picture from the Wikipedia article on Kurdistan Workers' Party.",
+        "credit": "Herrn",
+        "source": "https://commons.wikimedia.org/wiki/File:Flag_of_Kurdistan_Workers%27_Party.svg",
+        "license": "CC BY-SA 3.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0"
       }
     },
     {
@@ -102,7 +102,7 @@
         }
       },
       "image": {
-        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/1c/Berners_Street_Hoax.jpg/1280px-Berners_Street_Hoax.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/1c/Berners_Street_Hoax.jpg/500px-Berners_Street_Hoax.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
         "alt": "Picture from the Wikipedia article on Berners Street hoax.",
         "credit": "William Heath",
         "source": "https://commons.wikimedia.org/wiki/File:Berners_Street_Hoax.jpg",
@@ -129,7 +129,7 @@
         }
       },
       "image": {
-        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/0e/STS132_Atlantis_undocking2_%28cropped%29.jpg/1280px-STS132_Atlantis_undocking2_%28cropped%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/0e/STS132_Atlantis_undocking2_%28cropped%29.jpg/500px-STS132_Atlantis_undocking2_%28cropped%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
         "alt": "Picture from the Wikipedia article on Space Shuttle Atlantis.",
         "credit": "NASA",
         "source": "https://commons.wikimedia.org/wiki/File:STS132_Atlantis_undocking2_(cropped).jpg",

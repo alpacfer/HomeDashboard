@@ -21,7 +21,7 @@
         }
       },
       "image": {
-        "src": "https://upload.wikimedia.org/wikipedia/commons/5/5e/BEA_de_Havilland_DH-106_Comet_4B_Berlin.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/5e/BEA_de_Havilland_DH-106_Comet_4B_Berlin.jpg/500px-BEA_de_Havilland_DH-106_Comet_4B_Berlin.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
         "alt": "Picture from the Wikipedia article on de Havilland Comet.",
         "credit": "Wikimedia Commons",
         "source": "https://commons.wikimedia.org/wiki/File:BEA_de_Havilland_DH-106_Comet_4B_Berlin.jpg",
@@ -48,39 +48,12 @@
         }
       },
       "image": {
-        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a6/Landing_of_the_Atlantic_Cable_of_1866%2C_Heart%27s_Content%2C_Newfoundland.jpg/1280px-Landing_of_the_Atlantic_Cable_of_1866%2C_Heart%27s_Content%2C_Newfoundland.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a6/Landing_of_the_Atlantic_Cable_of_1866%2C_Heart%27s_Content%2C_Newfoundland.jpg/500px-Landing_of_the_Atlantic_Cable_of_1866%2C_Heart%27s_Content%2C_Newfoundland.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
         "alt": "Picture from the Wikipedia article on Transatlantic telegraph cable.",
         "credit": "Robert Charles Dudley",
         "source": "https://commons.wikimedia.org/wiki/File:Landing_of_the_Atlantic_Cable_of_1866,_Heart%27s_Content,_Newfoundland.jpg",
         "license": "Public domain",
         "licenseUrl": "https://commons.wikimedia.org/wiki/File:Landing_of_the_Atlantic_Cable_of_1866,_Heart%27s_Content,_Newfoundland.jpg"
-      }
-    },
-    {
-      "id": "07-27-wilhelm-ii-german-emperor",
-      "date": "07-27",
-      "dateLabel": "27 July",
-      "category": "world",
-      "categoryName": "World",
-      "year": 1900,
-      "title": "Wilhelm II",
-      "body": "Kaiser Wilhelm II makes a speech comparing Germans to Huns; for years afterwards, \"Hun\" would be a disparaging name for Germans.",
-      "source": {
-        "name": "Wikipedia · Wilhelm II",
-        "url": "https://en.wikipedia.org/wiki/Wilhelm_II",
-        "calendarUrl": "https://en.wikipedia.org/wiki/July_27",
-        "license": {
-          "name": "CC BY-SA 4.0",
-          "url": "https://creativecommons.org/licenses/by-sa/4.0/"
-        }
-      },
-      "image": {
-        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/ee/Kaiser_Wilhelm_II_of_Germany_-_1902_%283x4_cropped%29.jpg/1280px-Kaiser_Wilhelm_II_of_Germany_-_1902_%283x4_cropped%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-        "alt": "Picture from the Wikipedia article on Wilhelm II.",
-        "credit": "Studio of Thomas Heinrich Voigt",
-        "source": "https://commons.wikimedia.org/wiki/File:Kaiser_Wilhelm_II_of_Germany_-_1902_(3x4_cropped).jpg",
-        "license": "Public domain",
-        "licenseUrl": "https://commons.wikimedia.org/wiki/File:Kaiser_Wilhelm_II_of_Germany_-_1902_(3x4_cropped).jpg"
       }
     },
     {
@@ -102,7 +75,7 @@
         }
       },
       "image": {
-        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/ef/Puijo_tower.jpg/1280px-Puijo_tower.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/ef/Puijo_tower.jpg/500px-Puijo_tower.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
         "alt": "Picture from the Wikipedia article on Puijo tower.",
         "credit": "Tiia Monto",
         "source": "https://commons.wikimedia.org/wiki/File:Puijo_tower.jpg",
@@ -129,12 +102,39 @@
         }
       },
       "image": {
-        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/1f/Aerial_view_of_Korean_War_Veterans_Memorial.jpg/1280px-Aerial_view_of_Korean_War_Veterans_Memorial.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/1f/Aerial_view_of_Korean_War_Veterans_Memorial.jpg/500px-Aerial_view_of_Korean_War_Veterans_Memorial.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
         "alt": "Picture from the Wikipedia article on Korean War Veterans Memorial.",
         "credit": "Carol M. Highsmith",
         "source": "https://commons.wikimedia.org/wiki/File:Aerial_view_of_Korean_War_Veterans_Memorial.jpg",
         "license": "Public domain",
         "licenseUrl": "https://commons.wikimedia.org/wiki/File:Aerial_view_of_Korean_War_Veterans_Memorial.jpg"
+      }
+    },
+    {
+      "id": "07-27-canonization",
+      "date": "07-27",
+      "dateLabel": "27 July",
+      "category": "sport",
+      "categoryName": "Sport",
+      "year": 1947,
+      "title": "Canonization",
+      "body": "In Vatican City, Rome, canonization of Catherine Labouré, the saint whose apparitions of the Virgin Mary originated the worldwide distribution of the Miraculous Medal.",
+      "source": {
+        "name": "Wikipedia · Canonization",
+        "url": "https://en.wikipedia.org/wiki/Canonization",
+        "calendarUrl": "https://en.wikipedia.org/wiki/July_27",
+        "license": {
+          "name": "CC BY-SA 4.0",
+          "url": "https://creativecommons.org/licenses/by-sa/4.0/"
+        }
+      },
+      "image": {
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c4/Canonization_of_the_Martyrs_of_Katyn_by_the_Polish_Orthodox_Church_%2825%29.jpg/500px-Canonization_of_the_Martyrs_of_Katyn_by_the_Polish_Orthodox_Church_%2825%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "alt": "Picture from the Wikipedia article on Canonization.",
+        "credit": "Radosław Botev",
+        "source": "https://commons.wikimedia.org/wiki/File:Canonization_of_the_Martyrs_of_Katyn_by_the_Polish_Orthodox_Church_(25).jpg",
+        "license": "CC BY 3.0 pl",
+        "licenseUrl": "https://creativecommons.org/licenses/by/3.0/pl/deed.en"
       }
     }
   ]

@@ -21,93 +21,12 @@
         }
       },
       "image": {
-        "src": "https://upload.wikimedia.org/wikipedia/commons/2/2a/Surveyor_NASA_lunar_lander.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/2a/Surveyor_NASA_lunar_lander.jpg/500px-Surveyor_NASA_lunar_lander.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
         "alt": "Picture from the Wikipedia article on Surveyor 1.",
         "credit": "NASA",
         "source": "https://commons.wikimedia.org/wiki/File:Surveyor_NASA_lunar_lander.jpg",
         "license": "Public domain",
         "licenseUrl": "https://commons.wikimedia.org/wiki/File:Surveyor_NASA_lunar_lander.jpg"
-      }
-    },
-    {
-      "id": "06-02-coronation-of-queen-elizabeth-ii",
-      "date": "06-02",
-      "dateLabel": "2 June",
-      "category": "world",
-      "categoryName": "World",
-      "year": 1953,
-      "title": "Coronation of Elizabeth II",
-      "body": "The coronation of Queen Elizabeth II at Westminster Abbey becomes the first British coronation, and one of the first major international events, to be televised.",
-      "source": {
-        "name": "Wikipedia · Coronation of Elizabeth II",
-        "url": "https://en.wikipedia.org/wiki/Coronation_of_Elizabeth_II",
-        "calendarUrl": "https://en.wikipedia.org/wiki/June_2",
-        "license": {
-          "name": "CC BY-SA 4.0",
-          "url": "https://creativecommons.org/licenses/by-sa/4.0/"
-        }
-      },
-      "image": {
-        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/7c/Queen_Elizabeth_II_on_her_Coronation_Day.jpg/1280px-Queen_Elizabeth_II_on_her_Coronation_Day.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-        "alt": "Picture from the Wikipedia article on Coronation of Elizabeth II.",
-        "credit": "Cecil Beaton",
-        "source": "https://commons.wikimedia.org/wiki/File:Queen_Elizabeth_II_on_her_Coronation_Day.jpg",
-        "license": "Public domain",
-        "licenseUrl": "https://commons.wikimedia.org/wiki/File:Queen_Elizabeth_II_on_her_Coronation_Day.jpg"
-      }
-    },
-    {
-      "id": "06-02-guglielmo-marconi",
-      "date": "06-02",
-      "dateLabel": "2 June",
-      "category": "tech",
-      "categoryName": "Tech",
-      "year": 1896,
-      "title": "Guglielmo Marconi",
-      "body": "Guglielmo Marconi applies for a patent for his wireless telegraph.",
-      "source": {
-        "name": "Wikipedia · Guglielmo Marconi",
-        "url": "https://en.wikipedia.org/wiki/Guglielmo_Marconi",
-        "calendarUrl": "https://en.wikipedia.org/wiki/June_2",
-        "license": {
-          "name": "CC BY-SA 4.0",
-          "url": "https://creativecommons.org/licenses/by-sa/4.0/"
-        }
-      },
-      "image": {
-        "src": "https://upload.wikimedia.org/wikipedia/commons/0/0d/Guglielmo_Marconi.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
-        "alt": "Picture from the Wikipedia article on Guglielmo Marconi.",
-        "credit": "Pach Brothers",
-        "source": "https://commons.wikimedia.org/wiki/File:Guglielmo_Marconi.jpg",
-        "license": "Public domain",
-        "licenseUrl": "https://commons.wikimedia.org/wiki/File:Guglielmo_Marconi.jpg"
-      }
-    },
-    {
-      "id": "06-02-mars",
-      "date": "06-02",
-      "dateLabel": "2 June",
-      "category": "space",
-      "categoryName": "Space",
-      "year": 2003,
-      "title": "Mars",
-      "body": "Europe launches its first voyage to another planet, Mars. The European Space Agency's Mars Express probe launches from the Baikonur space center in Kazakhstan.",
-      "source": {
-        "name": "Wikipedia · Mars",
-        "url": "https://en.wikipedia.org/wiki/Mars",
-        "calendarUrl": "https://en.wikipedia.org/wiki/June_2",
-        "license": {
-          "name": "CC BY-SA 4.0",
-          "url": "https://creativecommons.org/licenses/by-sa/4.0/"
-        }
-      },
-      "image": {
-        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/0c/Mars_-_August_30_2021_-_Flickr_-_Kevin_M._Gill.png/1280px-Mars_-_August_30_2021_-_Flickr_-_Kevin_M._Gill.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-        "alt": "Picture from the Wikipedia article on Mars.",
-        "credit": "Kevin Gill",
-        "source": "https://commons.wikimedia.org/wiki/File:Mars_-_August_30_2021_-_Flickr_-_Kevin_M._Gill.png",
-        "license": "CC BY 2.0",
-        "licenseUrl": "https://creativecommons.org/licenses/by/2.0"
       }
     },
     {
@@ -135,6 +54,87 @@
         "source": "https://commons.wikimedia.org/wiki/File:Charles-Rolls.jpg",
         "license": "Public domain",
         "licenseUrl": "https://commons.wikimedia.org/wiki/File:Charles-Rolls.jpg"
+      }
+    },
+    {
+      "id": "06-02-guglielmo-marconi",
+      "date": "06-02",
+      "dateLabel": "2 June",
+      "category": "tech",
+      "categoryName": "Tech",
+      "year": 1896,
+      "title": "Guglielmo Marconi",
+      "body": "Guglielmo Marconi applies for a patent for his wireless telegraph.",
+      "source": {
+        "name": "Wikipedia · Guglielmo Marconi",
+        "url": "https://en.wikipedia.org/wiki/Guglielmo_Marconi",
+        "calendarUrl": "https://en.wikipedia.org/wiki/June_2",
+        "license": {
+          "name": "CC BY-SA 4.0",
+          "url": "https://creativecommons.org/licenses/by-sa/4.0/"
+        }
+      },
+      "image": {
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/0d/Guglielmo_Marconi.jpg/500px-Guglielmo_Marconi.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "alt": "Picture from the Wikipedia article on Guglielmo Marconi.",
+        "credit": "Pach Brothers",
+        "source": "https://commons.wikimedia.org/wiki/File:Guglielmo_Marconi.jpg",
+        "license": "Public domain",
+        "licenseUrl": "https://commons.wikimedia.org/wiki/File:Guglielmo_Marconi.jpg"
+      }
+    },
+    {
+      "id": "06-02-mars",
+      "date": "06-02",
+      "dateLabel": "2 June",
+      "category": "space",
+      "categoryName": "Space",
+      "year": 2003,
+      "title": "Mars",
+      "body": "Europe launches its first voyage to another planet, Mars. The European Space Agency's Mars Express probe launches from the Baikonur space center in Kazakhstan.",
+      "source": {
+        "name": "Wikipedia · Mars",
+        "url": "https://en.wikipedia.org/wiki/Mars",
+        "calendarUrl": "https://en.wikipedia.org/wiki/June_2",
+        "license": {
+          "name": "CC BY-SA 4.0",
+          "url": "https://creativecommons.org/licenses/by-sa/4.0/"
+        }
+      },
+      "image": {
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/0c/Mars_-_August_30_2021_-_Flickr_-_Kevin_M._Gill.png/500px-Mars_-_August_30_2021_-_Flickr_-_Kevin_M._Gill.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "alt": "Picture from the Wikipedia article on Mars.",
+        "credit": "Kevin Gill",
+        "source": "https://commons.wikimedia.org/wiki/File:Mars_-_August_30_2021_-_Flickr_-_Kevin_M._Gill.png",
+        "license": "CC BY 2.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by/2.0"
+      }
+    },
+    {
+      "id": "06-02-telangana",
+      "date": "06-02",
+      "dateLabel": "2 June",
+      "category": "world",
+      "categoryName": "World",
+      "year": 2014,
+      "title": "Telangana",
+      "body": "Telangana officially becomes the 29th state of India, formed from ten districts of northwestern Andhra Pradesh.",
+      "source": {
+        "name": "Wikipedia · Telangana",
+        "url": "https://en.wikipedia.org/wiki/Telangana",
+        "calendarUrl": "https://en.wikipedia.org/wiki/June_2",
+        "license": {
+          "name": "CC BY-SA 4.0",
+          "url": "https://creativecommons.org/licenses/by-sa/4.0/"
+        }
+      },
+      "image": {
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f7/A_typical_charminar_evening.jpg/500px-A_typical_charminar_evening.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "alt": "Picture from the Wikipedia article on Telangana.",
+        "credit": "Vivekanand pokala",
+        "source": "https://commons.wikimedia.org/wiki/File:A_typical_charminar_evening.jpg",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0"
       }
     }
   ]

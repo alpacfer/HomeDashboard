@@ -21,7 +21,7 @@
         }
       },
       "image": {
-        "src": "https://upload.wikimedia.org/wikipedia/commons/a/a7/President_Donald_Trump_hosts_a_reception_honoring_Black_History_Month_%2854341713089%29_%28cropped%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a7/President_Donald_Trump_hosts_a_reception_honoring_Black_History_Month_%2854341713089%29_%28cropped%29.jpg/500px-President_Donald_Trump_hosts_a_reception_honoring_Black_History_Month_%2854341713089%29_%28cropped%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
         "alt": "Picture from the Wikipedia article on Tiger Woods.",
         "credit": "The White House",
         "source": "https://commons.wikimedia.org/wiki/File:President_Donald_Trump_hosts_a_reception_honoring_Black_History_Month_(54341713089)_(cropped).jpg",
@@ -30,17 +30,17 @@
       }
     },
     {
-      "id": "08-21-solar-eclipse-of-august-21-2017",
+      "id": "08-21-mars-observer",
       "date": "08-21",
       "dateLabel": "21 August",
       "category": "space",
       "categoryName": "Space",
-      "year": 2017,
-      "title": "Solar eclipse of August 21, 2017",
-      "body": "A solar eclipse traverses the continental United States.",
+      "year": 1993,
+      "title": "Mars Observer",
+      "body": "NASA loses contact with the Mars Observer spacecraft.",
       "source": {
-        "name": "Wikipedia · Solar eclipse of August 21, 2017",
-        "url": "https://en.wikipedia.org/wiki/Solar_eclipse_of_August_21,_2017",
+        "name": "Wikipedia · Mars Observer",
+        "url": "https://en.wikipedia.org/wiki/Mars_Observer",
         "calendarUrl": "https://en.wikipedia.org/wiki/August_21",
         "license": {
           "name": "CC BY-SA 4.0",
@@ -48,12 +48,12 @@
         }
       },
       "image": {
-        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/cd/Total_Solar_Eclipse_8-21-17.jpg/1280px-Total_Solar_Eclipse_8-21-17.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-        "alt": "Picture from the Wikipedia article on Solar eclipse of August 21, 2017.",
-        "credit": "Michael S Adler",
-        "source": "https://commons.wikimedia.org/wiki/File:Total_Solar_Eclipse_8-21-17.jpg",
-        "license": "CC BY-SA 4.0",
-        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0"
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b1/Mars_Observer.jpg/500px-Mars_Observer.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "alt": "Picture from the Wikipedia article on Mars Observer.",
+        "credit": "Image Credit: NASA/JPL",
+        "source": "https://commons.wikimedia.org/wiki/File:Mars_Observer.jpg",
+        "license": "Public domain",
+        "licenseUrl": "https://commons.wikimedia.org/wiki/File:Mars_Observer.jpg"
       }
     },
     {
@@ -75,7 +75,7 @@
         }
       },
       "image": {
-        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/ec/Mona_Lisa%2C_by_Leonardo_da_Vinci%2C_from_C2RMF_retouched.jpg/1280px-Mona_Lisa%2C_by_Leonardo_da_Vinci%2C_from_C2RMF_retouched.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/ec/Mona_Lisa%2C_by_Leonardo_da_Vinci%2C_from_C2RMF_retouched.jpg/500px-Mona_Lisa%2C_by_Leonardo_da_Vinci%2C_from_C2RMF_retouched.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
         "alt": "Picture from the Wikipedia article on Mona Lisa.",
         "credit": "Leonardo da Vinci",
         "source": "https://commons.wikimedia.org/wiki/File:Mona_Lisa,_by_Leonardo_da_Vinci,_from_C2RMF_retouched.jpg",
@@ -102,7 +102,7 @@
         }
       },
       "image": {
-        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/5d/WTMP_Foodtrippings_D19.JPG/1280px-WTMP_Foodtrippings_D19.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/5d/WTMP_Foodtrippings_D19.JPG/500px-WTMP_Foodtrippings_D19.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
         "alt": "Picture from the Wikipedia article on Thomasites.",
         "credit": "Sharlyne Ang and Karla Redor",
         "source": "https://commons.wikimedia.org/wiki/File:WTMP_Foodtrippings_D19.JPG",
@@ -129,7 +129,7 @@
         }
       },
       "image": {
-        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e0/JarvisISS008-E-14052.PNG/1280px-JarvisISS008-E-14052.PNG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e0/JarvisISS008-E-14052.PNG/500px-JarvisISS008-E-14052.PNG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
         "alt": "Picture from the Wikipedia article on Jarvis Island.",
         "credit": "NASA",
         "source": "https://commons.wikimedia.org/wiki/File:JarvisISS008-E-14052.PNG",

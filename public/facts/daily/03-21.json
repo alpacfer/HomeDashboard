@@ -3,33 +3,6 @@
   "dateLabel": "21 March",
   "facts": [
     {
-      "id": "03-21-bertrand-piccard",
-      "date": "03-21",
-      "dateLabel": "21 March",
-      "category": "curious",
-      "categoryName": "Curious",
-      "year": 1999,
-      "title": "Bertrand Piccard",
-      "body": "Bertrand Piccard and Brian Jones become the first to circumnavigate the Earth in a hot air balloon.",
-      "source": {
-        "name": "Wikipedia · Bertrand Piccard",
-        "url": "https://en.wikipedia.org/wiki/Bertrand_Piccard",
-        "calendarUrl": "https://en.wikipedia.org/wiki/March_21",
-        "license": {
-          "name": "CC BY-SA 4.0",
-          "url": "https://creativecommons.org/licenses/by-sa/4.0/"
-        }
-      },
-      "image": {
-        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e9/Bertrand_Piccard_on_the_Green_Carpet_at_the_2025_Zurich_Film_Festival_01.jpg/1280px-Bertrand_Piccard_on_the_Green_Carpet_at_the_2025_Zurich_Film_Festival_01.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-        "alt": "Picture from the Wikipedia article on Bertrand Piccard.",
-        "credit": "Quejaytee",
-        "source": "https://commons.wikimedia.org/wiki/File:Bertrand_Piccard_on_the_Green_Carpet_at_the_2025_Zurich_Film_Festival_01.jpg",
-        "license": "CC BY 4.0",
-        "licenseUrl": "https://creativecommons.org/licenses/by/4.0"
-      }
-    },
-    {
       "id": "03-21-social-media",
       "date": "03-21",
       "dateLabel": "21 March",
@@ -48,12 +21,39 @@
         }
       },
       "image": {
-        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a3/Social_media_platter.svg/1280px-Social_media_platter.svg.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a3/Social_media_platter.svg/500px-Social_media_platter.svg.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
         "alt": "Picture from the Wikipedia article on Social media.",
         "credit": "Gemdation",
         "source": "https://commons.wikimedia.org/wiki/File:Social_media_platter.svg",
         "license": "CC0",
         "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/deed.en"
+      }
+    },
+    {
+      "id": "03-21-bertrand-piccard",
+      "date": "03-21",
+      "dateLabel": "21 March",
+      "category": "curious",
+      "categoryName": "Curious",
+      "year": 1999,
+      "title": "Bertrand Piccard",
+      "body": "Bertrand Piccard and Brian Jones become the first to circumnavigate the Earth in a hot air balloon.",
+      "source": {
+        "name": "Wikipedia · Bertrand Piccard",
+        "url": "https://en.wikipedia.org/wiki/Bertrand_Piccard",
+        "calendarUrl": "https://en.wikipedia.org/wiki/March_21",
+        "license": {
+          "name": "CC BY-SA 4.0",
+          "url": "https://creativecommons.org/licenses/by-sa/4.0/"
+        }
+      },
+      "image": {
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e9/Bertrand_Piccard_on_the_Green_Carpet_at_the_2025_Zurich_Film_Festival_01.jpg/500px-Bertrand_Piccard_on_the_Green_Carpet_at_the_2025_Zurich_Film_Festival_01.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "alt": "Picture from the Wikipedia article on Bertrand Piccard.",
+        "credit": "Quejaytee",
+        "source": "https://commons.wikimedia.org/wiki/File:Bertrand_Piccard_on_the_Green_Carpet_at_the_2025_Zurich_Film_Festival_01.jpg",
+        "license": "CC BY 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by/4.0"
       }
     },
     {
@@ -75,7 +75,7 @@
         }
       },
       "image": {
-        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/3a/The_Ranger_Spacecraft_GPN-2000-001979_%28cropped%29.jpg/1280px-The_Ranger_Spacecraft_GPN-2000-001979_%28cropped%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/3a/The_Ranger_Spacecraft_GPN-2000-001979_%28cropped%29.jpg/500px-The_Ranger_Spacecraft_GPN-2000-001979_%28cropped%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
         "alt": "Picture from the Wikipedia article on Ranger 9.",
         "credit": "NASA Headquarters",
         "source": "https://commons.wikimedia.org/wiki/File:The_Ranger_Spacecraft_GPN-2000-001979_(cropped).jpg",
@@ -102,7 +102,7 @@
         }
       },
       "image": {
-        "src": "https://upload.wikimedia.org/wikipedia/commons/f/f3/Alan_Freed_disk_jockey.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f3/Alan_Freed_disk_jockey.jpg/500px-Alan_Freed_disk_jockey.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
         "alt": "Picture from the Wikipedia article on Alan Freed.",
         "credit": "James Kriegsmann, NY",
         "source": "https://commons.wikimedia.org/wiki/File:Alan_Freed_disk_jockey.jpg",
@@ -129,7 +129,7 @@
         }
       },
       "image": {
-        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b3/Charles_Lindbergh_%28Harris_%26_Ewing_photo%2C_cropped%29.jpg/1280px-Charles_Lindbergh_%28Harris_%26_Ewing_photo%2C_cropped%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b3/Charles_Lindbergh_%28Harris_%26_Ewing_photo%2C_cropped%29.jpg/500px-Charles_Lindbergh_%28Harris_%26_Ewing_photo%2C_cropped%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
         "alt": "Picture from the Wikipedia article on Charles Lindbergh.",
         "credit": "Harris & Ewing",
         "source": "https://commons.wikimedia.org/wiki/File:Charles_Lindbergh_(Harris_%26_Ewing_photo,_cropped).jpg",

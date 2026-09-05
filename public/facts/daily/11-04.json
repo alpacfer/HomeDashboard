@@ -21,7 +21,7 @@
         }
       },
       "image": {
-        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/3c/Black_Americans_2020_County.png/1280px-Black_Americans_2020_County.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/3c/Black_Americans_2020_County.png/500px-Black_Americans_2020_County.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
         "alt": "Picture from the Wikipedia article on African Americans.",
         "credit": "Tweedle",
         "source": "https://commons.wikimedia.org/wiki/File:Black_Americans_2020_County.png",
@@ -48,39 +48,12 @@
         }
       },
       "image": {
-        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/3f/West_Texas_Intermediate_oil_prices_1950%E2%80%932000_%28with_1973_highlight%29.svg/1280px-West_Texas_Intermediate_oil_prices_1950%E2%80%932000_%28with_1973_highlight%29.svg.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/3f/West_Texas_Intermediate_oil_prices_1950%E2%80%932000_%28with_1973_highlight%29.svg/500px-West_Texas_Intermediate_oil_prices_1950%E2%80%932000_%28with_1973_highlight%29.svg.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
         "alt": "Picture from the Wikipedia article on 1973 oil crisis.",
         "credit": "Isochrone",
         "source": "https://commons.wikimedia.org/wiki/File:West_Texas_Intermediate_oil_prices_1950%E2%80%932000_(with_1973_highlight).svg",
         "license": "CC BY-SA 4.0",
         "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0"
-      }
-    },
-    {
-      "id": "11-04-wolfgang-amadeus-mozart",
-      "date": "11-04",
-      "dateLabel": "4 November",
-      "category": "culture",
-      "categoryName": "Culture",
-      "year": 1783,
-      "title": "Wolfgang Amadeus Mozart",
-      "body": "Wolfgang Amadeus Mozart's Symphony No. 36 is performed for the first time in Linz, Austria.",
-      "source": {
-        "name": "Wikipedia · Wolfgang Amadeus Mozart",
-        "url": "https://en.wikipedia.org/wiki/Wolfgang_Amadeus_Mozart",
-        "calendarUrl": "https://en.wikipedia.org/wiki/November_4",
-        "license": {
-          "name": "CC BY-SA 4.0",
-          "url": "https://creativecommons.org/licenses/by-sa/4.0/"
-        }
-      },
-      "image": {
-        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/ad/The_Mozart_Family_-_Wolfgang_Amadeus_Mozart_headshot.jpg/1280px-The_Mozart_Family_-_Wolfgang_Amadeus_Mozart_headshot.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-        "alt": "Picture from the Wikipedia article on Wolfgang Amadeus Mozart.",
-        "credit": "Johann Nepomuk della Croce",
-        "source": "https://commons.wikimedia.org/wiki/File:The_Mozart_Family_-_Wolfgang_Amadeus_Mozart_headshot.jpg",
-        "license": "Public domain",
-        "licenseUrl": "https://commons.wikimedia.org/wiki/File:The_Mozart_Family_-_Wolfgang_Amadeus_Mozart_headshot.jpg"
       }
     },
     {
@@ -111,17 +84,17 @@
       }
     },
     {
-      "id": "11-04-federal-government-of-the-united-states",
+      "id": "11-04-wolfgang-amadeus-mozart",
       "date": "11-04",
       "dateLabel": "4 November",
-      "category": "world",
-      "categoryName": "World",
-      "year": 1952,
-      "title": "Federal government of the United States",
-      "body": "The United States government establishes the National Security Agency, or NSA.",
+      "category": "culture",
+      "categoryName": "Culture",
+      "year": 1783,
+      "title": "Wolfgang Amadeus Mozart",
+      "body": "Wolfgang Amadeus Mozart's Symphony No. 36 is performed for the first time in Linz, Austria.",
       "source": {
-        "name": "Wikipedia · Federal government of the United States",
-        "url": "https://en.wikipedia.org/wiki/Federal_government_of_the_United_States",
+        "name": "Wikipedia · Wolfgang Amadeus Mozart",
+        "url": "https://en.wikipedia.org/wiki/Wolfgang_Amadeus_Mozart",
         "calendarUrl": "https://en.wikipedia.org/wiki/November_4",
         "license": {
           "name": "CC BY-SA 4.0",
@@ -129,12 +102,39 @@
         }
       },
       "image": {
-        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/5b/Greater_coat_of_arms_of_the_United_States.svg/1280px-Greater_coat_of_arms_of_the_United_States.svg.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-        "alt": "Picture from the Wikipedia article on Federal government of the United States.",
-        "credit": "Ssolbergj",
-        "source": "https://commons.wikimedia.org/wiki/File:Greater_coat_of_arms_of_the_United_States.svg",
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/ad/The_Mozart_Family_-_Wolfgang_Amadeus_Mozart_headshot.jpg/500px-The_Mozart_Family_-_Wolfgang_Amadeus_Mozart_headshot.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "alt": "Picture from the Wikipedia article on Wolfgang Amadeus Mozart.",
+        "credit": "Johann Nepomuk della Croce",
+        "source": "https://commons.wikimedia.org/wiki/File:The_Mozart_Family_-_Wolfgang_Amadeus_Mozart_headshot.jpg",
         "license": "Public domain",
-        "licenseUrl": "https://commons.wikimedia.org/wiki/File:Greater_coat_of_arms_of_the_United_States.svg"
+        "licenseUrl": "https://commons.wikimedia.org/wiki/File:The_Mozart_Family_-_Wolfgang_Amadeus_Mozart_headshot.jpg"
+      }
+    },
+    {
+      "id": "11-04-kasakela-chimpanzee-community",
+      "date": "11-04",
+      "dateLabel": "4 November",
+      "category": "world",
+      "categoryName": "World",
+      "year": 1960,
+      "title": "Kasakela chimpanzee community",
+      "body": "At the Kasakela Chimpanzee Community in Tanzania, Jane Goodall observes chimpanzees creating tools, the first-ever observation in non-human animals.",
+      "source": {
+        "name": "Wikipedia · Kasakela chimpanzee community",
+        "url": "https://en.wikipedia.org/wiki/Kasakela_chimpanzee_community",
+        "calendarUrl": "https://en.wikipedia.org/wiki/November_4",
+        "license": {
+          "name": "CC BY-SA 4.0",
+          "url": "https://creativecommons.org/licenses/by-sa/4.0/"
+        }
+      },
+      "image": {
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f8/Sculpture_of_Jane_Goodall_and_David_Greybeard.jpg/500px-Sculpture_of_Jane_Goodall_and_David_Greybeard.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "alt": "Picture from the Wikipedia article on Kasakela chimpanzee community.",
+        "credit": "Geary",
+        "source": "https://commons.wikimedia.org/wiki/File:Sculpture_of_Jane_Goodall_and_David_Greybeard.jpg",
+        "license": "CC0",
+        "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/deed.en"
       }
     }
   ]

@@ -3,6 +3,33 @@
   "dateLabel": "18 December",
   "facts": [
     {
+      "id": "12-18-saturn",
+      "date": "12-18",
+      "dateLabel": "18 December",
+      "category": "space",
+      "categoryName": "Space",
+      "year": 1966,
+      "title": "Saturn",
+      "body": "Saturn's moon Epimetheus is discovered by astronomer Richard Walker.",
+      "source": {
+        "name": "Wikipedia · Saturn",
+        "url": "https://en.wikipedia.org/wiki/Saturn",
+        "calendarUrl": "https://en.wikipedia.org/wiki/December_18",
+        "license": {
+          "name": "CC BY-SA 4.0",
+          "url": "https://creativecommons.org/licenses/by-sa/4.0/"
+        }
+      },
+      "image": {
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/43/Saturn_global_view_from_Cassini%2C_rings_open_Better_Colour.png/500px-Saturn_global_view_from_Cassini%2C_rings_open_Better_Colour.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "alt": "Picture from the Wikipedia article on Saturn.",
+        "credit": "NASA",
+        "source": "https://commons.wikimedia.org/wiki/File:Saturn_global_view_from_Cassini,_rings_open_Better_Colour.png",
+        "license": "Public domain",
+        "licenseUrl": "https://commons.wikimedia.org/wiki/File:Saturn_global_view_from_Cassini,_rings_open_Better_Colour.png"
+      }
+    },
+    {
       "id": "12-18-heavy-bomber",
       "date": "12-18",
       "dateLabel": "18 December",
@@ -21,39 +48,12 @@
         }
       },
       "image": {
-        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d3/B-29_in_flight.jpg/1280px-B-29_in_flight.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d3/B-29_in_flight.jpg/500px-B-29_in_flight.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
         "alt": "Picture from the Wikipedia article on Heavy bomber.",
         "credit": "Wikimedia Commons",
         "source": "https://commons.wikimedia.org/wiki/File:B-29_in_flight.jpg",
         "license": "Public domain",
         "licenseUrl": "https://commons.wikimedia.org/wiki/File:B-29_in_flight.jpg"
-      }
-    },
-    {
-      "id": "12-18-terra-satellite",
-      "date": "12-18",
-      "dateLabel": "18 December",
-      "category": "space",
-      "categoryName": "Space",
-      "year": 1999,
-      "title": "Terra",
-      "body": "NASA launches into orbit the Terra platform carrying five Earth Observation instruments, including ASTER, CERES, MISR, MODIS and MOPITT.",
-      "source": {
-        "name": "Wikipedia · Terra (satellite)",
-        "url": "https://en.wikipedia.org/wiki/Terra_(satellite)",
-        "calendarUrl": "https://en.wikipedia.org/wiki/December_18",
-        "license": {
-          "name": "CC BY-SA 4.0",
-          "url": "https://creativecommons.org/licenses/by-sa/4.0/"
-        }
-      },
-      "image": {
-        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/92/Terra_spacecraft_model.png/1280px-Terra_spacecraft_model.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-        "alt": "Picture from the Wikipedia article on Terra.",
-        "credit": "NASA",
-        "source": "https://commons.wikimedia.org/wiki/File:Terra_spacecraft_model.png",
-        "license": "Public domain",
-        "licenseUrl": "https://commons.wikimedia.org/wiki/File:Terra_spacecraft_model.png"
       }
     },
     {
@@ -75,12 +75,39 @@
         }
       },
       "image": {
-        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b8/House_of_Representatives_Votes_to_Adopt_the_Articles_of_Impeachment_Against_Donald_Trump.jpg/1280px-House_of_Representatives_Votes_to_Adopt_the_Articles_of_Impeachment_Against_Donald_Trump.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b8/House_of_Representatives_Votes_to_Adopt_the_Articles_of_Impeachment_Against_Donald_Trump.jpg/500px-House_of_Representatives_Votes_to_Adopt_the_Articles_of_Impeachment_Against_Donald_Trump.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
         "alt": "Picture from the Wikipedia article on First impeachment of Donald Trump.",
         "credit": "United States House of Representatives",
         "source": "https://commons.wikimedia.org/wiki/File:House_of_Representatives_Votes_to_Adopt_the_Articles_of_Impeachment_Against_Donald_Trump.jpg",
         "license": "Public domain",
         "licenseUrl": "https://commons.wikimedia.org/wiki/File:House_of_Representatives_Votes_to_Adopt_the_Articles_of_Impeachment_Against_Donald_Trump.jpg"
+      }
+    },
+    {
+      "id": "12-18-terra-satellite",
+      "date": "12-18",
+      "dateLabel": "18 December",
+      "category": "space",
+      "categoryName": "Space",
+      "year": 1999,
+      "title": "Terra",
+      "body": "NASA launches into orbit the Terra platform carrying five Earth Observation instruments, including ASTER, CERES, MISR, MODIS and MOPITT.",
+      "source": {
+        "name": "Wikipedia · Terra (satellite)",
+        "url": "https://en.wikipedia.org/wiki/Terra_(satellite)",
+        "calendarUrl": "https://en.wikipedia.org/wiki/December_18",
+        "license": {
+          "name": "CC BY-SA 4.0",
+          "url": "https://creativecommons.org/licenses/by-sa/4.0/"
+        }
+      },
+      "image": {
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/92/Terra_spacecraft_model.png/500px-Terra_spacecraft_model.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "alt": "Picture from the Wikipedia article on Terra.",
+        "credit": "NASA",
+        "source": "https://commons.wikimedia.org/wiki/File:Terra_spacecraft_model.png",
+        "license": "Public domain",
+        "licenseUrl": "https://commons.wikimedia.org/wiki/File:Terra_spacecraft_model.png"
       }
     },
     {
@@ -102,39 +129,12 @@
         }
       },
       "image": {
-        "src": "https://upload.wikimedia.org/wikipedia/commons/0/09/Atlas-B_with_Score_payload.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/09/Atlas-B_with_Score_payload.jpg/500px-Atlas-B_with_Score_payload.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
         "alt": "Picture from the Wikipedia article on SCORE.",
         "credit": "U.S. Air Force",
         "source": "https://commons.wikimedia.org/wiki/File:Atlas-B_with_Score_payload.jpg",
         "license": "Public domain",
         "licenseUrl": "https://commons.wikimedia.org/wiki/File:Atlas-B_with_Score_payload.jpg"
-      }
-    },
-    {
-      "id": "12-18-soyuz-13",
-      "date": "12-18",
-      "dateLabel": "18 December",
-      "category": "space",
-      "categoryName": "Space",
-      "year": 1973,
-      "title": "Soyuz 13",
-      "body": "Soyuz 13, crewed by cosmonauts Valentin Lebedev and Pyotr Klimuk, is launched from Baikonur in the Soviet Union.",
-      "source": {
-        "name": "Wikipedia · Soyuz 13",
-        "url": "https://en.wikipedia.org/wiki/Soyuz_13",
-        "calendarUrl": "https://en.wikipedia.org/wiki/December_18",
-        "license": {
-          "name": "CC BY-SA 4.0",
-          "url": "https://creativecommons.org/licenses/by-sa/4.0/"
-        }
-      },
-      "image": {
-        "src": "https://upload.wikimedia.org/wikipedia/commons/4/45/Vimpel_%27Diamond%27.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
-        "alt": "Picture from the Wikipedia article on Soyuz 13.",
-        "credit": "Soviet space program",
-        "source": "https://commons.wikimedia.org/wiki/File:Vimpel_%27Diamond%27.jpg",
-        "license": "Public domain",
-        "licenseUrl": "https://commons.wikimedia.org/wiki/File:Vimpel_%27Diamond%27.jpg"
       }
     }
   ]

@@ -3,33 +3,6 @@
   "dateLabel": "20 June",
   "facts": [
     {
-      "id": "06-20-united-states-secretary-of-state",
-      "date": "06-20",
-      "dateLabel": "20 June",
-      "category": "space",
-      "categoryName": "Space",
-      "year": 1945,
-      "title": "United States Secretary of State",
-      "body": "The United States Secretary of State approves the transfer of Wernher von Braun and his team of Nazi rocket scientists to the U.S. under Operation Paperclip.",
-      "source": {
-        "name": "Wikipedia · United States Secretary of State",
-        "url": "https://en.wikipedia.org/wiki/United_States_Secretary_of_State",
-        "calendarUrl": "https://en.wikipedia.org/wiki/June_20",
-        "license": {
-          "name": "CC BY-SA 4.0",
-          "url": "https://creativecommons.org/licenses/by-sa/4.0/"
-        }
-      },
-      "image": {
-        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/fc/Seal_of_the_United_States_Secretary_of_State.svg/1280px-Seal_of_the_United_States_Secretary_of_State.svg.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-        "alt": "Picture from the Wikipedia article on United States Secretary of State.",
-        "credit": "United States Department of State…",
-        "source": "https://commons.wikimedia.org/wiki/File:Seal_of_the_United_States_Secretary_of_State.svg",
-        "license": "Public domain",
-        "licenseUrl": "https://commons.wikimedia.org/wiki/File:Seal_of_the_United_States_Secretary_of_State.svg"
-      }
-    },
-    {
       "id": "06-20-jaws-film",
       "date": "06-20",
       "dateLabel": "20 June",
@@ -48,12 +21,66 @@
         }
       },
       "image": {
-        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/40/Jaws_movie_poster.jpg/1280px-Jaws_movie_poster.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/40/Jaws_movie_poster.jpg/500px-Jaws_movie_poster.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
         "alt": "Picture from the Wikipedia article on Jaws.",
         "credit": "Roger Kastel",
         "source": "https://commons.wikimedia.org/wiki/File:Jaws_movie_poster.jpg",
         "license": "Public domain",
         "licenseUrl": "https://commons.wikimedia.org/wiki/File:Jaws_movie_poster.jpg"
+      }
+    },
+    {
+      "id": "06-20-asteroid",
+      "date": "06-20",
+      "dateLabel": "20 June",
+      "category": "space",
+      "categoryName": "Space",
+      "year": 1990,
+      "title": "Asteroid",
+      "body": "Asteroid Eureka is discovered.",
+      "source": {
+        "name": "Wikipedia · Asteroid",
+        "url": "https://en.wikipedia.org/wiki/Asteroid",
+        "calendarUrl": "https://en.wikipedia.org/wiki/June_20",
+        "license": {
+          "name": "CC BY-SA 4.0",
+          "url": "https://creativecommons.org/licenses/by-sa/4.0/"
+        }
+      },
+      "image": {
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/89/243_ida_crop.jpg/500px-243_ida_crop.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "alt": "Picture from the Wikipedia article on Asteroid.",
+        "credit": "Wikimedia Commons",
+        "source": "https://commons.wikimedia.org/wiki/File:243_ida_crop.jpg",
+        "license": "Public domain",
+        "licenseUrl": "https://commons.wikimedia.org/wiki/File:243_ida_crop.jpg"
+      }
+    },
+    {
+      "id": "06-20-wikimedia-foundation",
+      "date": "06-20",
+      "dateLabel": "20 June",
+      "category": "world",
+      "categoryName": "World",
+      "year": 2003,
+      "title": "Wikimedia Foundation",
+      "body": "The Wikimedia Foundation is founded in St. Petersburg, Florida.",
+      "source": {
+        "name": "Wikipedia · Wikimedia Foundation",
+        "url": "https://en.wikipedia.org/wiki/Wikimedia_Foundation",
+        "calendarUrl": "https://en.wikipedia.org/wiki/June_20",
+        "license": {
+          "name": "CC BY-SA 4.0",
+          "url": "https://creativecommons.org/licenses/by-sa/4.0/"
+        }
+      },
+      "image": {
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/31/Wikimedia_Foundation_logo_-_vertical.svg/500px-Wikimedia_Foundation_logo_-_vertical.svg.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "alt": "Picture from the Wikipedia article on Wikimedia Foundation.",
+        "credit": "Logo and trademark of the Wikimedia…",
+        "source": "https://commons.wikimedia.org/wiki/File:Wikimedia_Foundation_logo_-_vertical.svg",
+        "license": "Public domain",
+        "licenseUrl": "https://commons.wikimedia.org/wiki/File:Wikimedia_Foundation_logo_-_vertical.svg"
       }
     },
     {
@@ -75,7 +102,7 @@
         }
       },
       "image": {
-        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/9c/Alexander_Graham_Bell_1895_NPG_77_363.jpg/1280px-Alexander_Graham_Bell_1895_NPG_77_363.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/9c/Alexander_Graham_Bell_1895_NPG_77_363.jpg/500px-Alexander_Graham_Bell_1895_NPG_77_363.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
         "alt": "Picture from the Wikipedia article on Alexander Graham Bell.",
         "credit": "Unknown author",
         "source": "https://commons.wikimedia.org/wiki/File:Alexander_Graham_Bell_1895_NPG_77_363.jpg",
@@ -102,39 +129,12 @@
         }
       },
       "image": {
-        "src": "https://upload.wikimedia.org/wikipedia/commons/5/5f/%D0%AD%D0%B4%D1%83%D0%B0%D1%80%D0%B4_%D0%A2%D0%BE%D0%BB%D0%BB%D1%8C.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/5f/%D0%AD%D0%B4%D1%83%D0%B0%D1%80%D0%B4_%D0%A2%D0%BE%D0%BB%D0%BB%D1%8C.jpg/500px-%D0%AD%D0%B4%D1%83%D0%B0%D1%80%D0%B4_%D0%A2%D0%BE%D0%BB%D0%BB%D1%8C.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
         "alt": "Picture from the Wikipedia article on Eduard von Toll.",
         "credit": "Th. John",
         "source": "https://commons.wikimedia.org/wiki/File:%D0%AD%D0%B4%D1%83%D0%B0%D1%80%D0%B4_%D0%A2%D0%BE%D0%BB%D0%BB%D1%8C.jpg",
         "license": "Public domain",
         "licenseUrl": "https://commons.wikimedia.org/wiki/File:%D0%AD%D0%B4%D1%83%D0%B0%D1%80%D0%B4_%D0%A2%D0%BE%D0%BB%D0%BB%D1%8C.jpg"
-      }
-    },
-    {
-      "id": "06-20-wikimedia-foundation",
-      "date": "06-20",
-      "dateLabel": "20 June",
-      "category": "world",
-      "categoryName": "World",
-      "year": 2003,
-      "title": "Wikimedia Foundation",
-      "body": "The Wikimedia Foundation is founded in St. Petersburg, Florida.",
-      "source": {
-        "name": "Wikipedia · Wikimedia Foundation",
-        "url": "https://en.wikipedia.org/wiki/Wikimedia_Foundation",
-        "calendarUrl": "https://en.wikipedia.org/wiki/June_20",
-        "license": {
-          "name": "CC BY-SA 4.0",
-          "url": "https://creativecommons.org/licenses/by-sa/4.0/"
-        }
-      },
-      "image": {
-        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/31/Wikimedia_Foundation_logo_-_vertical.svg/1280px-Wikimedia_Foundation_logo_-_vertical.svg.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-        "alt": "Picture from the Wikipedia article on Wikimedia Foundation.",
-        "credit": "Logo and trademark of the Wikimedia…",
-        "source": "https://commons.wikimedia.org/wiki/File:Wikimedia_Foundation_logo_-_vertical.svg",
-        "license": "Public domain",
-        "licenseUrl": "https://commons.wikimedia.org/wiki/File:Wikimedia_Foundation_logo_-_vertical.svg"
       }
     }
   ]

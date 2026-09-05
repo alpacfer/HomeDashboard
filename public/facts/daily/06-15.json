@@ -48,7 +48,7 @@
         }
       },
       "image": {
-        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a2/Captain_John_Alcock%2C_portrait.jpg/1280px-Captain_John_Alcock%2C_portrait.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a2/Captain_John_Alcock%2C_portrait.jpg/500px-Captain_John_Alcock%2C_portrait.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
         "alt": "Picture from the Wikipedia article on John Alcock.",
         "credit": "Unknown author",
         "source": "https://commons.wikimedia.org/wiki/File:Captain_John_Alcock,_portrait.jpg",
@@ -57,17 +57,17 @@
       }
     },
     {
-      "id": "06-15-pope-leo-x",
+      "id": "06-15-new-hampshire",
       "date": "06-15",
       "dateLabel": "15 June",
       "category": "world",
       "categoryName": "World",
-      "year": 1520,
-      "title": "Pope Leo X",
-      "body": "Pope Leo X threatens to excommunicate Martin Luther in Exsurge Domine.",
+      "year": 1804,
+      "title": "New Hampshire",
+      "body": "New Hampshire approves the Twelfth Amendment to the United States Constitution, ratifying the document.",
       "source": {
-        "name": "Wikipedia · Pope Leo X",
-        "url": "https://en.wikipedia.org/wiki/Pope_Leo_X",
+        "name": "Wikipedia · New Hampshire",
+        "url": "https://en.wikipedia.org/wiki/New_Hampshire",
         "calendarUrl": "https://en.wikipedia.org/wiki/June_15",
         "license": {
           "name": "CC BY-SA 4.0",
@@ -75,39 +75,12 @@
         }
       },
       "image": {
-        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b2/Raffaello%2C_ritratto_di_papa_leone_X_tra_i_cardinali_luigi_de%27_rossi_e_giulio_de%27_medici%2C_1518%2C_03.jpg/1280px-Raffaello%2C_ritratto_di_papa_leone_X_tra_i_cardinali_luigi_de%27_rossi_e_giulio_de%27_medici%2C_1518%2C_03.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-        "alt": "Picture from the Wikipedia article on Pope Leo X.",
-        "credit": "Francesco Bini",
-        "source": "https://commons.wikimedia.org/wiki/File:Raffaello,_ritratto_di_papa_leone_X_tra_i_cardinali_luigi_de%27_rossi_e_giulio_de%27_medici,_1518,_03.jpg",
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/28/Flag_of_New_Hampshire.svg/500px-Flag_of_New_Hampshire.svg.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "alt": "Picture from the Wikipedia article on New Hampshire.",
+        "credit": "Xrmap flag collection",
+        "source": "https://commons.wikimedia.org/wiki/File:Flag_of_New_Hampshire.svg",
         "license": "Public domain",
-        "licenseUrl": "https://commons.wikimedia.org/wiki/File:Raffaello,_ritratto_di_papa_leone_X_tra_i_cardinali_luigi_de%27_rossi_e_giulio_de%27_medici,_1518,_03.jpg"
-      }
-    },
-    {
-      "id": "06-15-oregon-treaty",
-      "date": "06-15",
-      "dateLabel": "15 June",
-      "category": "world",
-      "categoryName": "World",
-      "year": 1846,
-      "title": "Oregon Treaty",
-      "body": "The Oregon Treaty extends the border between the United States and British North America, established by the Treaty of 1818, westward to the Pacific Ocean.",
-      "source": {
-        "name": "Wikipedia · Oregon Treaty",
-        "url": "https://en.wikipedia.org/wiki/Oregon_Treaty",
-        "calendarUrl": "https://en.wikipedia.org/wiki/June_15",
-        "license": {
-          "name": "CC BY-SA 4.0",
-          "url": "https://creativecommons.org/licenses/by-sa/4.0/"
-        }
-      },
-      "image": {
-        "src": "https://upload.wikimedia.org/wikipedia/commons/1/18/Oregoncountry.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
-        "alt": "Picture from the Wikipedia article on Oregon Treaty.",
-        "credit": "Kmusser",
-        "source": "https://commons.wikimedia.org/wiki/File:Oregoncountry.png",
-        "license": "CC BY-SA 2.5",
-        "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.5"
+        "licenseUrl": "https://commons.wikimedia.org/wiki/File:Flag_of_New_Hampshire.svg"
       }
     },
     {
@@ -129,12 +102,39 @@
         }
       },
       "image": {
-        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/6a/The_Pig_War_Map.svg/1280px-The_Pig_War_Map.svg.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/6a/The_Pig_War_Map.svg/500px-The_Pig_War_Map.svg.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
         "alt": "Picture from the Wikipedia article on Pig War.",
         "credit": "Ameli Sanchos",
         "source": "https://commons.wikimedia.org/wiki/File:The_Pig_War_Map.svg",
         "license": "CC BY 4.0",
         "licenseUrl": "https://creativecommons.org/licenses/by/4.0"
+      }
+    },
+    {
+      "id": "06-15-oregon-treaty",
+      "date": "06-15",
+      "dateLabel": "15 June",
+      "category": "world",
+      "categoryName": "World",
+      "year": 1846,
+      "title": "Oregon Treaty",
+      "body": "The Oregon Treaty extends the border between the United States and British North America, established by the Treaty of 1818, westward to the Pacific Ocean.",
+      "source": {
+        "name": "Wikipedia · Oregon Treaty",
+        "url": "https://en.wikipedia.org/wiki/Oregon_Treaty",
+        "calendarUrl": "https://en.wikipedia.org/wiki/June_15",
+        "license": {
+          "name": "CC BY-SA 4.0",
+          "url": "https://creativecommons.org/licenses/by-sa/4.0/"
+        }
+      },
+      "image": {
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/18/Oregoncountry.png/500px-Oregoncountry.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "alt": "Picture from the Wikipedia article on Oregon Treaty.",
+        "credit": "Kmusser",
+        "source": "https://commons.wikimedia.org/wiki/File:Oregoncountry.png",
+        "license": "CC BY-SA 2.5",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.5"
       }
     }
   ]

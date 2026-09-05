@@ -21,7 +21,7 @@
         }
       },
       "image": {
-        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c2/Steve_Jobs_presents_iPhone.jpg/1280px-Steve_Jobs_presents_iPhone.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c2/Steve_Jobs_presents_iPhone.jpg/500px-Steve_Jobs_presents_iPhone.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
         "alt": "Steve Jobs presenting the original iPhone on stage.",
         "credit": "Blake Patterson",
         "source": "https://commons.wikimedia.org/wiki/File:Steve_Jobs_presents_iPhone.jpg",
@@ -48,39 +48,12 @@
         }
       },
       "image": {
-        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/8c/Atlantis_docked_to_MIR_-_GPN-2000-001315.jpg/1280px-Atlantis_docked_to_MIR_-_GPN-2000-001315.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/8c/Atlantis_docked_to_MIR_-_GPN-2000-001315.jpg/500px-Atlantis_docked_to_MIR_-_GPN-2000-001315.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
         "alt": "Picture from the Wikipedia article on STS-71.",
         "credit": "NASA",
         "source": "https://commons.wikimedia.org/wiki/File:Atlantis_docked_to_MIR_-_GPN-2000-001315.jpg",
         "license": "Public domain",
         "licenseUrl": "https://commons.wikimedia.org/wiki/File:Atlantis_docked_to_MIR_-_GPN-2000-001315.jpg"
-      }
-    },
-    {
-      "id": "06-29-seychelles",
-      "date": "06-29",
-      "dateLabel": "29 June",
-      "category": "world",
-      "categoryName": "World",
-      "year": 1976,
-      "title": "Seychelles",
-      "body": "The Seychelles become independent from the United Kingdom.",
-      "source": {
-        "name": "Wikipedia · Seychelles",
-        "url": "https://en.wikipedia.org/wiki/Seychelles",
-        "calendarUrl": "https://en.wikipedia.org/wiki/June_29",
-        "license": {
-          "name": "CC BY-SA 4.0",
-          "url": "https://creativecommons.org/licenses/by-sa/4.0/"
-        }
-      },
-      "image": {
-        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/fc/Flag_of_Seychelles.svg/1280px-Flag_of_Seychelles.svg.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-        "alt": "Picture from the Wikipedia article on Seychelles.",
-        "credit": "User:Vxb83",
-        "source": "https://commons.wikimedia.org/wiki/File:Flag_of_Seychelles.svg",
-        "license": "Public domain",
-        "licenseUrl": "https://commons.wikimedia.org/wiki/File:Flag_of_Seychelles.svg"
       }
     },
     {
@@ -102,7 +75,7 @@
         }
       },
       "image": {
-        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/4c/Vincent_van_Gogh_-_Self-Portrait_-_Google_Art_Project_%28454045%29.jpg/1280px-Vincent_van_Gogh_-_Self-Portrait_-_Google_Art_Project_%28454045%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/4c/Vincent_van_Gogh_-_Self-Portrait_-_Google_Art_Project_%28454045%29.jpg/500px-Vincent_van_Gogh_-_Self-Portrait_-_Google_Art_Project_%28454045%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
         "alt": "Picture from the Wikipedia article on Vincent van Gogh.",
         "credit": "Vincent van Gogh",
         "source": "https://commons.wikimedia.org/wiki/File:Vincent_van_Gogh_-_Self-Portrait_-_Google_Art_Project_(454045).jpg",
@@ -129,12 +102,39 @@
         }
       },
       "image": {
-        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/7b/Mikhail_Baryshnikov.jpg/1280px-Mikhail_Baryshnikov.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/7b/Mikhail_Baryshnikov.jpg/500px-Mikhail_Baryshnikov.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
         "alt": "Picture from the Wikipedia article on Mikhail Baryshnikov.",
         "credit": "Saeima",
         "source": "https://commons.wikimedia.org/wiki/File:Mikhail_Baryshnikov.jpg",
         "license": "CC BY-SA 2.0",
         "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0"
+      }
+    },
+    {
+      "id": "06-29-seychelles",
+      "date": "06-29",
+      "dateLabel": "29 June",
+      "category": "world",
+      "categoryName": "World",
+      "year": 1976,
+      "title": "Seychelles",
+      "body": "The Seychelles become independent from the United Kingdom.",
+      "source": {
+        "name": "Wikipedia · Seychelles",
+        "url": "https://en.wikipedia.org/wiki/Seychelles",
+        "calendarUrl": "https://en.wikipedia.org/wiki/June_29",
+        "license": {
+          "name": "CC BY-SA 4.0",
+          "url": "https://creativecommons.org/licenses/by-sa/4.0/"
+        }
+      },
+      "image": {
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/fc/Flag_of_Seychelles.svg/500px-Flag_of_Seychelles.svg.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "alt": "Picture from the Wikipedia article on Seychelles.",
+        "credit": "User:Vxb83",
+        "source": "https://commons.wikimedia.org/wiki/File:Flag_of_Seychelles.svg",
+        "license": "Public domain",
+        "licenseUrl": "https://commons.wikimedia.org/wiki/File:Flag_of_Seychelles.svg"
       }
     }
   ]

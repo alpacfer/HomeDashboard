@@ -3,17 +3,17 @@
   "dateLabel": "16 December",
   "facts": [
     {
-      "id": "12-16-bahrain",
+      "id": "12-16-alhambra-decree",
       "date": "12-16",
       "dateLabel": "16 December",
       "category": "world",
       "categoryName": "World",
-      "year": 1971,
-      "title": "Bahrain",
-      "body": "The United Kingdom recognizes Bahrain's independence, which is commemorated annually as Bahrain's National Day.",
+      "year": 1968,
+      "title": "Alhambra Decree",
+      "body": "Official revocation of the Edict of Expulsion of Jews from Spain.",
       "source": {
-        "name": "Wikipedia · Bahrain",
-        "url": "https://en.wikipedia.org/wiki/Bahrain",
+        "name": "Wikipedia · Alhambra Decree",
+        "url": "https://en.wikipedia.org/wiki/Alhambra_Decree",
         "calendarUrl": "https://en.wikipedia.org/wiki/December_16",
         "license": {
           "name": "CC BY-SA 4.0",
@@ -21,12 +21,12 @@
         }
       },
       "image": {
-        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/2c/Flag_of_Bahrain.svg/1280px-Flag_of_Bahrain.svg.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-        "alt": "Picture from the Wikipedia article on Bahrain.",
-        "credit": "Drawn by SKopp, rewritten by Zscout370",
-        "source": "https://commons.wikimedia.org/wiki/File:Flag_of_Bahrain.svg",
+        "src": "https://upload.wikimedia.org/wikipedia/commons/c/c1/Spanishhaggadah.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+        "alt": "Picture from the Wikipedia article on Alhambra Decree.",
+        "credit": "Unknown author",
+        "source": "https://commons.wikimedia.org/wiki/File:Spanishhaggadah.jpg",
         "license": "Public domain",
-        "licenseUrl": "https://commons.wikimedia.org/wiki/File:Flag_of_Bahrain.svg"
+        "licenseUrl": "https://commons.wikimedia.org/wiki/File:Spanishhaggadah.jpg"
       }
     },
     {
@@ -48,12 +48,39 @@
         }
       },
       "image": {
-        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/5b/2014_Women%27s_Six_Nations_Championship_-_France_Italy_%2851%29.jpg/1280px-2014_Women%27s_Six_Nations_Championship_-_France_Italy_%2851%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/5b/2014_Women%27s_Six_Nations_Championship_-_France_Italy_%2851%29.jpg/500px-2014_Women%27s_Six_Nations_Championship_-_France_Italy_%2851%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
         "alt": "Picture from the Wikipedia article on Rugby union.",
         "credit": "Caroline Léna Becker",
         "source": "https://commons.wikimedia.org/wiki/File:2014_Women%27s_Six_Nations_Championship_-_France_Italy_(51).jpg",
         "license": "CC BY 3.0",
         "licenseUrl": "https://creativecommons.org/licenses/by/3.0"
+      }
+    },
+    {
+      "id": "12-16-constitution-of-bangladesh",
+      "date": "12-16",
+      "dateLabel": "16 December",
+      "category": "world",
+      "categoryName": "World",
+      "year": 1972,
+      "title": "Constitution of Bangladesh",
+      "body": "The Constitution of the People's Republic of Bangladesh is enacted.",
+      "source": {
+        "name": "Wikipedia · Constitution of Bangladesh",
+        "url": "https://en.wikipedia.org/wiki/Constitution_of_Bangladesh",
+        "calendarUrl": "https://en.wikipedia.org/wiki/December_16",
+        "license": {
+          "name": "CC BY-SA 4.0",
+          "url": "https://creativecommons.org/licenses/by-sa/4.0/"
+        }
+      },
+      "image": {
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/5b/%E0%A6%AC%E0%A6%BE%E0%A6%82%E0%A6%B2%E0%A6%BE%E0%A6%A6%E0%A7%87%E0%A6%B6%E0%A7%87%E0%A6%B0_%E0%A6%B8%E0%A6%82%E0%A6%AC%E0%A6%BF%E0%A6%A7%E0%A6%BE%E0%A6%A8_%E0%A7%A7%E0%A7%AF%E0%A7%AD%E0%A7%A8_%28%E0%A6%AA%E0%A7%83%E0%A6%B7%E0%A7%8D%E0%A6%A0%E0%A6%BE_%E0%A7%A7%29.jpg/500px-%E0%A6%AC%E0%A6%BE%E0%A6%82%E0%A6%B2%E0%A6%BE%E0%A6%A6%E0%A7%87%E0%A6%B6%E0%A7%87%E0%A6%B0_%E0%A6%B8%E0%A6%82%E0%A6%AC%E0%A6%BF%E0%A6%A7%E0%A6%BE%E0%A6%A8_%E0%A7%A7%E0%A7%AF%E0%A7%AD%E0%A7%A8_%28%E0%A6%AA%E0%A7%83%E0%A6%B7%E0%A7%8D%E0%A6%A0%E0%A6%BE_%E0%A7%A7%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "alt": "Picture from the Wikipedia article on Constitution of Bangladesh.",
+        "credit": "Bangladesh Government/বাংলাদেশ সরকার",
+        "source": "https://commons.wikimedia.org/wiki/File:%E0%A6%AC%E0%A6%BE%E0%A6%82%E0%A6%B2%E0%A6%BE%E0%A6%A6%E0%A7%87%E0%A6%B6%E0%A7%87%E0%A6%B0_%E0%A6%B8%E0%A6%82%E0%A6%AC%E0%A6%BF%E0%A6%A7%E0%A6%BE%E0%A6%A8_%E0%A7%A7%E0%A7%AF%E0%A7%AD%E0%A7%A8_(%E0%A6%AA%E0%A7%83%E0%A6%B7%E0%A7%8D%E0%A6%A0%E0%A6%BE_%E0%A7%A7).jpg",
+        "license": "EdictGov-Bangladesh",
+        "licenseUrl": "https://commons.wikimedia.org/wiki/File:%E0%A6%AC%E0%A6%BE%E0%A6%82%E0%A6%B2%E0%A6%BE%E0%A6%A6%E0%A7%87%E0%A6%B6%E0%A7%87%E0%A6%B0_%E0%A6%B8%E0%A6%82%E0%A6%AC%E0%A6%BF%E0%A6%A7%E0%A6%BE%E0%A6%A8_%E0%A7%A7%E0%A7%AF%E0%A7%AD%E0%A7%A8_(%E0%A6%AA%E0%A7%83%E0%A6%B7%E0%A7%8D%E0%A6%A0%E0%A6%BE_%E0%A7%A7).jpg"
       }
     },
     {
@@ -75,7 +102,7 @@
         }
       },
       "image": {
-        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/ef/Pia%C8%9Ba_Victoriei_Timi%C8%99oara.jpg/1280px-Pia%C8%9Ba_Victoriei_Timi%C8%99oara.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/ef/Pia%C8%9Ba_Victoriei_Timi%C8%99oara.jpg/500px-Pia%C8%9Ba_Victoriei_Timi%C8%99oara.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
         "alt": "Picture from the Wikipedia article on Timișoara.",
         "credit": "Marius Catalin Boldeanu",
         "source": "https://commons.wikimedia.org/wiki/File:Pia%C8%9Ba_Victoriei_Timi%C8%99oara.jpg",
@@ -102,39 +129,12 @@
         }
       },
       "image": {
-        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/69/StarWarsPinballEpilepsyWarning.jpg/1280px-StarWarsPinballEpilepsyWarning.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/69/StarWarsPinballEpilepsyWarning.jpg/500px-StarWarsPinballEpilepsyWarning.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
         "alt": "Picture from the Wikipedia article on Photosensitive epilepsy.",
         "credit": "Kencf0618",
         "source": "https://commons.wikimedia.org/wiki/File:StarWarsPinballEpilepsyWarning.jpg",
         "license": "CC BY-SA 3.0",
         "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0"
-      }
-    },
-    {
-      "id": "12-16-alhambra-decree",
-      "date": "12-16",
-      "dateLabel": "16 December",
-      "category": "world",
-      "categoryName": "World",
-      "year": 1968,
-      "title": "Alhambra Decree",
-      "body": "Official revocation of the Edict of Expulsion of Jews from Spain.",
-      "source": {
-        "name": "Wikipedia · Alhambra Decree",
-        "url": "https://en.wikipedia.org/wiki/Alhambra_Decree",
-        "calendarUrl": "https://en.wikipedia.org/wiki/December_16",
-        "license": {
-          "name": "CC BY-SA 4.0",
-          "url": "https://creativecommons.org/licenses/by-sa/4.0/"
-        }
-      },
-      "image": {
-        "src": "https://upload.wikimedia.org/wikipedia/commons/c/c1/Spanishhaggadah.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
-        "alt": "Picture from the Wikipedia article on Alhambra Decree.",
-        "credit": "Unknown author",
-        "source": "https://commons.wikimedia.org/wiki/File:Spanishhaggadah.jpg",
-        "license": "Public domain",
-        "licenseUrl": "https://commons.wikimedia.org/wiki/File:Spanishhaggadah.jpg"
       }
     }
   ]

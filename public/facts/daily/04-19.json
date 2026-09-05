@@ -21,7 +21,7 @@
         }
       },
       "image": {
-        "src": "https://upload.wikimedia.org/wikipedia/commons/5/58/Mars_helicopter_on_sol_46.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/58/Mars_helicopter_on_sol_46.png/500px-Mars_helicopter_on_sol_46.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
         "alt": "Picture from the Wikipedia article on Ingenuity.",
         "credit": "NASA",
         "source": "https://commons.wikimedia.org/wiki/File:Mars_helicopter_on_sol_46.png",
@@ -75,12 +75,39 @@
         }
       },
       "image": {
-        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/02/Augustin_Fresnel.jpg/1280px-Augustin_Fresnel.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/02/Augustin_Fresnel.jpg/500px-Augustin_Fresnel.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
         "alt": "Picture from the Wikipedia article on Augustin-Jean Fresnel.",
         "credit": "E Rosette after a painting by A Tardieu",
         "source": "https://commons.wikimedia.org/wiki/File:Augustin_Fresnel.jpg",
         "license": "Public domain",
         "licenseUrl": "https://commons.wikimedia.org/wiki/File:Augustin_Fresnel.jpg"
+      }
+    },
+    {
+      "id": "04-19-bundestag",
+      "date": "04-19",
+      "dateLabel": "19 April",
+      "category": "world",
+      "categoryName": "World",
+      "year": 1999,
+      "title": "Bundestag",
+      "body": "The German Bundestag returns to Berlin.",
+      "source": {
+        "name": "Wikipedia · Bundestag",
+        "url": "https://en.wikipedia.org/wiki/Bundestag",
+        "calendarUrl": "https://en.wikipedia.org/wiki/April_19",
+        "license": {
+          "name": "CC BY-SA 4.0",
+          "url": "https://creativecommons.org/licenses/by-sa/4.0/"
+        }
+      },
+      "image": {
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b5/Deutscher_Bundestag_logo.svg/500px-Deutscher_Bundestag_logo.svg.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "alt": "Picture from the Wikipedia article on Bundestag.",
+        "credit": "Bundestag",
+        "source": "https://commons.wikimedia.org/wiki/File:Deutscher_Bundestag_logo.svg",
+        "license": "Public domain",
+        "licenseUrl": "https://commons.wikimedia.org/wiki/File:Deutscher_Bundestag_logo.svg"
       }
     },
     {
@@ -102,39 +129,12 @@
         }
       },
       "image": {
-        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/3e/Grace_Kelly_1955.jpg/1280px-Grace_Kelly_1955.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/3e/Grace_Kelly_1955.jpg/500px-Grace_Kelly_1955.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
         "alt": "Picture from the Wikipedia article on Grace Kelly.",
         "credit": "Sterling Publications-publisher's name…",
         "source": "https://commons.wikimedia.org/wiki/File:Grace_Kelly_1955.jpg",
         "license": "Public domain",
         "licenseUrl": "https://commons.wikimedia.org/wiki/File:Grace_Kelly_1955.jpg"
-      }
-    },
-    {
-      "id": "04-19-john-adams",
-      "date": "04-19",
-      "dateLabel": "19 April",
-      "category": "world",
-      "categoryName": "World",
-      "year": 1782,
-      "title": "John Adams",
-      "body": "John Adams secures Dutch recognition of the United States as an independent government. The house which he had purchased in The Hague becomes the first American embassy.",
-      "source": {
-        "name": "Wikipedia · John Adams",
-        "url": "https://en.wikipedia.org/wiki/John_Adams",
-        "calendarUrl": "https://en.wikipedia.org/wiki/April_19",
-        "license": {
-          "name": "CC BY-SA 4.0",
-          "url": "https://creativecommons.org/licenses/by-sa/4.0/"
-        }
-      },
-      "image": {
-        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/75/John_Adams_Portrait.jpg/1280px-John_Adams_Portrait.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-        "alt": "Picture from the Wikipedia article on John Adams.",
-        "credit": "Gilbert Stuart",
-        "source": "https://commons.wikimedia.org/wiki/File:John_Adams_Portrait.jpg",
-        "license": "Public domain",
-        "licenseUrl": "https://commons.wikimedia.org/wiki/File:John_Adams_Portrait.jpg"
       }
     }
   ]

@@ -3,6 +3,33 @@
   "dateLabel": "24 November",
   "facts": [
     {
+      "id": "11-24-hibiscus-rising",
+      "date": "11-24",
+      "dateLabel": "24 November",
+      "category": "world",
+      "categoryName": "World",
+      "year": 2023,
+      "title": "Hibiscus Rising",
+      "body": "Hibiscus Rising, commemorating David Oluwale, is unveiled in Leeds.",
+      "source": {
+        "name": "Wikipedia · Hibiscus Rising",
+        "url": "https://en.wikipedia.org/wiki/Hibiscus_Rising",
+        "calendarUrl": "https://en.wikipedia.org/wiki/November_24",
+        "license": {
+          "name": "CC BY-SA 4.0",
+          "url": "https://creativecommons.org/licenses/by-sa/4.0/"
+        }
+      },
+      "image": {
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/ed/Hibiscus_Rising_sculpture_by_Yinka_Shonibare._LEEDS_2023.jpg/500px-Hibiscus_Rising_sculpture_by_Yinka_Shonibare._LEEDS_2023.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "alt": "Picture from the Wikipedia article on Hibiscus Rising.",
+        "credit": "David Lindsay, photographer working",
+        "source": "https://commons.wikimedia.org/wiki/File:Hibiscus_Rising_sculpture_by_Yinka_Shonibare._LEEDS_2023.jpg",
+        "license": "CC BY-SA 2.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0"
+      }
+    },
+    {
       "id": "11-24-donald-johanson",
       "date": "11-24",
       "dateLabel": "24 November",
@@ -21,12 +48,39 @@
         }
       },
       "image": {
-        "src": "https://upload.wikimedia.org/wikipedia/commons/3/30/Donald_Johanson_%281%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/30/Donald_Johanson_%281%29.jpg/500px-Donald_Johanson_%281%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
         "alt": "Picture from the Wikipedia article on Donald Johanson.",
         "credit": "Wikimedia Commons",
         "source": "https://commons.wikimedia.org/wiki/File:Donald_Johanson_(1).jpg",
         "license": "CC BY-SA 3.0",
         "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0/"
+      }
+    },
+    {
+      "id": "11-24-charles-darwin",
+      "date": "11-24",
+      "dateLabel": "24 November",
+      "category": "science",
+      "categoryName": "Science",
+      "year": 1859,
+      "title": "Charles Darwin",
+      "body": "British naturalist Charles Darwin's On the Origin of Species is published.",
+      "source": {
+        "name": "Wikipedia · Charles Darwin",
+        "url": "https://en.wikipedia.org/wiki/Charles_Darwin",
+        "calendarUrl": "https://en.wikipedia.org/wiki/November_24",
+        "license": {
+          "name": "CC BY-SA 4.0",
+          "url": "https://creativecommons.org/licenses/by-sa/4.0/"
+        }
+      },
+      "image": {
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/2e/Charles_Darwin_seated_crop.jpg/500px-Charles_Darwin_seated_crop.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "alt": "Picture from the Wikipedia article on Charles Darwin.",
+        "credit": "Wikimedia Commons",
+        "source": "https://commons.wikimedia.org/wiki/File:Charles_Darwin_seated_crop.jpg",
+        "license": "Public domain",
+        "licenseUrl": "https://commons.wikimedia.org/wiki/File:Charles_Darwin_seated_crop.jpg"
       }
     },
     {
@@ -48,7 +102,7 @@
         }
       },
       "image": {
-        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/4e/Surveyor_3-Apollo_12.jpg/1280px-Surveyor_3-Apollo_12.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/4e/Surveyor_3-Apollo_12.jpg/500px-Surveyor_3-Apollo_12.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
         "alt": "Picture from the Wikipedia article on Apollo 12.",
         "credit": "NASA, Alan L. Bean",
         "source": "https://commons.wikimedia.org/wiki/File:Surveyor_3-Apollo_12.jpg",
@@ -57,71 +111,17 @@
       }
     },
     {
-      "id": "11-24-federal-bureau-of-investigation",
-      "date": "11-24",
-      "dateLabel": "24 November",
-      "category": "science",
-      "categoryName": "Science",
-      "year": 1932,
-      "title": "Federal Bureau of Investigation",
-      "body": "In Washington, D.C., the FBI Scientific Crime Detection Laboratory (better known as the FBI Crime Lab) officially opens.",
-      "source": {
-        "name": "Wikipedia · Federal Bureau of Investigation",
-        "url": "https://en.wikipedia.org/wiki/Federal_Bureau_of_Investigation",
-        "calendarUrl": "https://en.wikipedia.org/wiki/November_24",
-        "license": {
-          "name": "CC BY-SA 4.0",
-          "url": "https://creativecommons.org/licenses/by-sa/4.0/"
-        }
-      },
-      "image": {
-        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/72/New_seal_of_the_Federal_Bureau_of_Investigation.svg/1280px-New_seal_of_the_Federal_Bureau_of_Investigation.svg.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-        "alt": "Picture from the Wikipedia article on Federal Bureau of Investigation.",
-        "credit": "Wikimedia Commons",
-        "source": "https://commons.wikimedia.org/wiki/File:New_seal_of_the_Federal_Bureau_of_Investigation.svg",
-        "license": "Public domain",
-        "licenseUrl": "https://commons.wikimedia.org/wiki/File:New_seal_of_the_Federal_Bureau_of_Investigation.svg"
-      }
-    },
-    {
-      "id": "11-24-avdhela-project",
-      "date": "11-24",
-      "dateLabel": "24 November",
-      "category": "world",
-      "categoryName": "World",
-      "year": 2009,
-      "title": "Avdhela Project",
-      "body": "The Avdhela Project, an Aromanian digital library and cultural initiative, is founded in Bucharest, Romania.",
-      "source": {
-        "name": "Wikipedia · Avdhela Project",
-        "url": "https://en.wikipedia.org/wiki/Avdhela_Project",
-        "calendarUrl": "https://en.wikipedia.org/wiki/November_24",
-        "license": {
-          "name": "CC BY-SA 4.0",
-          "url": "https://creativecommons.org/licenses/by-sa/4.0/"
-        }
-      },
-      "image": {
-        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d9/Proiectavdhela.ro_logo.svg/1280px-Proiectavdhela.ro_logo.svg.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-        "alt": "Picture from the Wikipedia article on Avdhela Project.",
-        "credit": "odder, original work",
-        "source": "https://commons.wikimedia.org/wiki/File:Proiectavdhela.ro_logo.svg",
-        "license": "Public domain",
-        "licenseUrl": "https://commons.wikimedia.org/wiki/File:Proiectavdhela.ro_logo.svg"
-      }
-    },
-    {
-      "id": "11-24-anna-sewell",
+      "id": "11-24-that-was-the-week-that-was",
       "date": "11-24",
       "dateLabel": "24 November",
       "category": "culture",
       "categoryName": "Culture",
-      "year": 1877,
-      "title": "Anna Sewell",
-      "body": "Anna Sewell's animal welfare novel Black Beauty is published.",
+      "year": 1962,
+      "title": "That Was the Week That Was",
+      "body": "The influential British satirical television programme That Was the Week That Was is first broadcast.",
       "source": {
-        "name": "Wikipedia · Anna Sewell",
-        "url": "https://en.wikipedia.org/wiki/Anna_Sewell",
+        "name": "Wikipedia · That Was the Week That Was",
+        "url": "https://en.wikipedia.org/wiki/That_Was_the_Week_That_Was",
         "calendarUrl": "https://en.wikipedia.org/wiki/November_24",
         "license": {
           "name": "CC BY-SA 4.0",
@@ -129,12 +129,12 @@
         }
       },
       "image": {
-        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b2/Anna_Sewell%2C_author_of_Black_Beauty.jpg/1280px-Anna_Sewell%2C_author_of_Black_Beauty.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-        "alt": "Picture from the Wikipedia article on Anna Sewell.",
-        "credit": "Unknown author",
-        "source": "https://commons.wikimedia.org/wiki/File:Anna_Sewell,_author_of_Black_Beauty.jpg",
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/70/That_Was_the_Week_That_Was_opening_title.jpg/500px-That_Was_the_Week_That_Was_opening_title.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "alt": "Picture from the Wikipedia article on That Was the Week That Was.",
+        "credit": "BBC One",
+        "source": "https://commons.wikimedia.org/wiki/File:That_Was_the_Week_That_Was_opening_title.jpg",
         "license": "Public domain",
-        "licenseUrl": "https://commons.wikimedia.org/wiki/File:Anna_Sewell,_author_of_Black_Beauty.jpg"
+        "licenseUrl": "https://commons.wikimedia.org/wiki/File:That_Was_the_Week_That_Was_opening_title.jpg"
       }
     }
   ]

@@ -3,30 +3,42 @@
   "dateLabel": "13 August",
   "facts": [
     {
-      "id": "08-13-carl-gustav-witt",
+      "id": "08-13-apollo-11",
       "date": "08-13",
       "dateLabel": "13 August",
       "category": "space",
       "categoryName": "Space",
-      "year": 1898,
-      "title": "Carl Gustav Witt",
-      "body": "Carl Gustav Witt discovers 433 Eros, the first near-Earth asteroid to be found.",
+      "year": 1969,
+      "title": "Apollo 11",
+      "body": "The Apollo 11 astronauts enjoy a ticker-tape parade in New York City. That evening, at a state dinner in Los Angeles, they are awarded the Presidential Medal of Freedom by U.S. President Richard Nixon.",
       "source": {
-        "name": "Wikipedia · Carl Gustav Witt",
-        "url": "https://en.wikipedia.org/wiki/Carl_Gustav_Witt",
+        "name": "Wikipedia · Apollo 11",
+        "url": "https://en.wikipedia.org/wiki/Apollo_11",
         "calendarUrl": "https://en.wikipedia.org/wiki/August_13",
         "license": {
           "name": "CC BY-SA 4.0",
           "url": "https://creativecommons.org/licenses/by-sa/4.0/"
         }
       },
-      "image": {
-        "src": "https://upload.wikimedia.org/wikipedia/commons/6/69/GustavWitt.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
-        "alt": "Picture from the Wikipedia article on Carl Gustav Witt.",
-        "credit": "Adolf Halwas",
-        "source": "https://commons.wikimedia.org/wiki/File:GustavWitt.jpg",
+      "video": {
+        "src": "https://upload.wikimedia.org/wikipedia/commons/transcoded/a/a6/Apollo_11_Landing_-_first_steps_on_the_moon.ogv/Apollo_11_Landing_-_first_steps_on_the_moon.ogv.240p.vp9.webm",
+        "fallback": "https://upload.wikimedia.org/wikipedia/commons/transcoded/a/a6/Apollo_11_Landing_-_first_steps_on_the_moon.ogv/Apollo_11_Landing_-_first_steps_on_the_moon.ogv.360p.mpeg4.mov",
+        "width": 320,
+        "height": 240,
+        "poster": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a6/Apollo_11_Landing_-_first_steps_on_the_moon.ogv/250px--Apollo_11_Landing_-_first_steps_on_the_moon.ogv.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo",
+        "seconds": 62,
+        "credit": "NASA",
+        "source": "https://commons.wikimedia.org/wiki/File:Apollo_11_Landing_-_first_steps_on_the_moon.ogv",
         "license": "Public domain",
-        "licenseUrl": "https://commons.wikimedia.org/wiki/File:GustavWitt.jpg"
+        "licenseUrl": "https://commons.wikimedia.org/wiki/File:Apollo_11_Landing_-_first_steps_on_the_moon.ogv"
+      },
+      "image": {
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/41/A_Man_on_the_Moon%2C_AS11-40-5903_%28cropped%29.jpg/500px-A_Man_on_the_Moon%2C_AS11-40-5903_%28cropped%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "alt": "Picture from the Wikipedia article on Apollo 11.",
+        "credit": "Neil A. Armstrong",
+        "source": "https://commons.wikimedia.org/wiki/File:A_Man_on_the_Moon,_AS11-40-5903_(cropped).jpg",
+        "license": "Public domain",
+        "licenseUrl": "https://commons.wikimedia.org/wiki/File:A_Man_on_the_Moon,_AS11-40-5903_(cropped).jpg"
       }
     },
     {
@@ -75,7 +87,7 @@
         }
       },
       "image": {
-        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a8/Hartford%2C_CT_skyline_%28cropped%29.jpg/1280px-Hartford%2C_CT_skyline_%28cropped%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a8/Hartford%2C_CT_skyline_%28cropped%29.jpg/500px-Hartford%2C_CT_skyline_%28cropped%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
         "alt": "Picture from the Wikipedia article on Hartford, Connecticut.",
         "credit": "Quintin Soloviev",
         "source": "https://commons.wikimedia.org/wiki/File:Hartford,_CT_skyline_(cropped).jpg",
@@ -84,54 +96,44 @@
       }
     },
     {
-      "id": "08-13-apollo-11",
+      "id": "08-13-carl-gustav-witt",
       "date": "08-13",
       "dateLabel": "13 August",
       "category": "space",
       "categoryName": "Space",
-      "year": 1969,
-      "title": "Apollo 11",
-      "body": "The Apollo 11 astronauts enjoy a ticker-tape parade in New York City. That evening, at a state dinner in Los Angeles, they are awarded the Presidential Medal of Freedom by U.S. President Richard Nixon.",
+      "year": 1898,
+      "title": "Carl Gustav Witt",
+      "body": "Carl Gustav Witt discovers 433 Eros, the first near-Earth asteroid to be found.",
       "source": {
-        "name": "Wikipedia · Apollo 11",
-        "url": "https://en.wikipedia.org/wiki/Apollo_11",
+        "name": "Wikipedia · Carl Gustav Witt",
+        "url": "https://en.wikipedia.org/wiki/Carl_Gustav_Witt",
         "calendarUrl": "https://en.wikipedia.org/wiki/August_13",
         "license": {
           "name": "CC BY-SA 4.0",
           "url": "https://creativecommons.org/licenses/by-sa/4.0/"
         }
       },
-      "video": {
-        "src": "https://upload.wikimedia.org/wikipedia/commons/transcoded/a/a6/Apollo_11_Landing_-_first_steps_on_the_moon.ogv/Apollo_11_Landing_-_first_steps_on_the_moon.ogv.240p.vp9.webm",
-        "fallback": "https://upload.wikimedia.org/wikipedia/commons/transcoded/a/a6/Apollo_11_Landing_-_first_steps_on_the_moon.ogv/Apollo_11_Landing_-_first_steps_on_the_moon.ogv.360p.mpeg4.mov",
-        "poster": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a6/Apollo_11_Landing_-_first_steps_on_the_moon.ogv/250px--Apollo_11_Landing_-_first_steps_on_the_moon.ogv.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo",
-        "seconds": 62,
-        "credit": "NASA",
-        "source": "https://commons.wikimedia.org/wiki/File:Apollo_11_Landing_-_first_steps_on_the_moon.ogv",
-        "license": "Public domain",
-        "licenseUrl": "https://commons.wikimedia.org/wiki/File:Apollo_11_Landing_-_first_steps_on_the_moon.ogv"
-      },
       "image": {
-        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/41/A_Man_on_the_Moon%2C_AS11-40-5903_%28cropped%29.jpg/1280px-A_Man_on_the_Moon%2C_AS11-40-5903_%28cropped%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-        "alt": "Picture from the Wikipedia article on Apollo 11.",
-        "credit": "Neil A. Armstrong",
-        "source": "https://commons.wikimedia.org/wiki/File:A_Man_on_the_Moon,_AS11-40-5903_(cropped).jpg",
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/69/GustavWitt.jpg/500px-GustavWitt.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "alt": "Picture from the Wikipedia article on Carl Gustav Witt.",
+        "credit": "Adolf Halwas",
+        "source": "https://commons.wikimedia.org/wiki/File:GustavWitt.jpg",
         "license": "Public domain",
-        "licenseUrl": "https://commons.wikimedia.org/wiki/File:A_Man_on_the_Moon,_AS11-40-5903_(cropped).jpg"
+        "licenseUrl": "https://commons.wikimedia.org/wiki/File:GustavWitt.jpg"
       }
     },
     {
-      "id": "08-13-bmw",
+      "id": "08-13-united-states-marine-corps",
       "date": "08-13",
       "dateLabel": "13 August",
       "category": "world",
       "categoryName": "World",
       "year": 1918,
-      "title": "BMW",
-      "body": "Bayerische Motoren Werke AG (BMW) is established as a public company in Germany.",
+      "title": "United States Marine Corps",
+      "body": "Women enlist in the United States Marine Corps for the first time. Opha May Johnson is the first woman to enlist.",
       "source": {
-        "name": "Wikipedia · BMW",
-        "url": "https://en.wikipedia.org/wiki/BMW",
+        "name": "Wikipedia · United States Marine Corps",
+        "url": "https://en.wikipedia.org/wiki/United_States_Marine_Corps",
         "calendarUrl": "https://en.wikipedia.org/wiki/August_13",
         "license": {
           "name": "CC BY-SA 4.0",
@@ -139,12 +141,12 @@
         }
       },
       "image": {
-        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/73/Logo_BMW_Group_2021.svg/1280px-Logo_BMW_Group_2021.svg.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-        "alt": "Picture from the Wikipedia article on BMW.",
-        "credit": "BMW Group",
-        "source": "https://commons.wikimedia.org/wiki/File:Logo_BMW_Group_2021.svg",
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/9f/Emblem_of_the_United_States_Marine_Corps.svg/500px-Emblem_of_the_United_States_Marine_Corps.svg.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "alt": "Picture from the Wikipedia article on United States Marine Corps.",
+        "credit": "U.S. Government",
+        "source": "https://commons.wikimedia.org/wiki/File:Emblem_of_the_United_States_Marine_Corps.svg",
         "license": "Public domain",
-        "licenseUrl": "https://commons.wikimedia.org/wiki/File:Logo_BMW_Group_2021.svg"
+        "licenseUrl": "https://commons.wikimedia.org/wiki/File:Emblem_of_the_United_States_Marine_Corps.svg"
       }
     }
   ]

@@ -31,6 +31,8 @@ npm run shot -- --scene map            # screenshot the running display, 1280 x 
 npm run probe                          # ask every forecast provider as the browser would
 npm run probe:transit                  # ask every departure provider as the route would
 npm run audit                          # every scene at 1280 x 720, checked for layout faults
+npm run facts:generate                 # rebuild the calendar from the local cache, seconds
+npm run facts:generate -- --refresh    # re-ask Wikimedia for everything, ~20 minutes
 ```
 
 ## Debugging tools

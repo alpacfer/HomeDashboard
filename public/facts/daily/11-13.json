@@ -3,6 +3,33 @@
   "dateLabel": "13 November",
   "facts": [
     {
+      "id": "11-13-mozambique",
+      "date": "11-13",
+      "dateLabel": "13 November",
+      "category": "world",
+      "categoryName": "World",
+      "year": 1995,
+      "title": "Mozambique",
+      "body": "Mozambique becomes the first state to join the Commonwealth of Nations without having been part of the former British Empire.",
+      "source": {
+        "name": "Wikipedia · Mozambique",
+        "url": "https://en.wikipedia.org/wiki/Mozambique",
+        "calendarUrl": "https://en.wikipedia.org/wiki/November_13",
+        "license": {
+          "name": "CC BY-SA 4.0",
+          "url": "https://creativecommons.org/licenses/by-sa/4.0/"
+        }
+      },
+      "image": {
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d0/Flag_of_Mozambique.svg/500px-Flag_of_Mozambique.svg.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "alt": "Picture from the Wikipedia article on Mozambique.",
+        "credit": "FRELIMO",
+        "source": "https://commons.wikimedia.org/wiki/File:Flag_of_Mozambique.svg",
+        "license": "Public domain",
+        "licenseUrl": "https://commons.wikimedia.org/wiki/File:Flag_of_Mozambique.svg"
+      }
+    },
+    {
       "id": "11-13-great-internet-mersenne-prime-search",
       "date": "11-13",
       "dateLabel": "13 November",
@@ -21,7 +48,7 @@
         }
       },
       "image": {
-        "src": "https://upload.wikimedia.org/wikipedia/commons/7/78/GIMPS_logo_2020.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/78/GIMPS_logo_2020.png/500px-GIMPS_logo_2020.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
         "alt": "Picture from the Wikipedia article on Great Internet Mersenne Prime Search.",
         "credit": "Viliam Furík",
         "source": "https://commons.wikimedia.org/wiki/File:GIMPS_logo_2020.png",
@@ -57,33 +84,6 @@
       }
     },
     {
-      "id": "11-13-mozambique",
-      "date": "11-13",
-      "dateLabel": "13 November",
-      "category": "world",
-      "categoryName": "World",
-      "year": 1995,
-      "title": "Mozambique",
-      "body": "Mozambique becomes the first state to join the Commonwealth of Nations without having been part of the former British Empire.",
-      "source": {
-        "name": "Wikipedia · Mozambique",
-        "url": "https://en.wikipedia.org/wiki/Mozambique",
-        "calendarUrl": "https://en.wikipedia.org/wiki/November_13",
-        "license": {
-          "name": "CC BY-SA 4.0",
-          "url": "https://creativecommons.org/licenses/by-sa/4.0/"
-        }
-      },
-      "image": {
-        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d0/Flag_of_Mozambique.svg/1280px-Flag_of_Mozambique.svg.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-        "alt": "Picture from the Wikipedia article on Mozambique.",
-        "credit": "FRELIMO",
-        "source": "https://commons.wikimedia.org/wiki/File:Flag_of_Mozambique.svg",
-        "license": "Public domain",
-        "licenseUrl": "https://commons.wikimedia.org/wiki/File:Flag_of_Mozambique.svg"
-      }
-    },
-    {
       "id": "11-13-solar-eclipse",
       "date": "11-13",
       "dateLabel": "13 November",
@@ -102,7 +102,7 @@
         }
       },
       "image": {
-        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c7/Solar_eclipse_1999_4.jpg/1280px-Solar_eclipse_1999_4.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c7/Solar_eclipse_1999_4.jpg/500px-Solar_eclipse_1999_4.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
         "alt": "Picture from the Wikipedia article on Solar eclipse.",
         "credit": "Luc Viatour",
         "source": "https://commons.wikimedia.org/wiki/File:Solar_eclipse_1999_4.jpg",
@@ -129,7 +129,7 @@
         }
       },
       "image": {
-        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e7/Ray_Mancini_in_World_Boxing_March_1984_issue.jpg/1280px-Ray_Mancini_in_World_Boxing_March_1984_issue.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e7/Ray_Mancini_in_World_Boxing_March_1984_issue.jpg/500px-Ray_Mancini_in_World_Boxing_March_1984_issue.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
         "alt": "Picture from the Wikipedia article on Ray Mancini.",
         "credit": "Chaz Fenn",
         "source": "https://commons.wikimedia.org/wiki/File:Ray_Mancini_in_World_Boxing_March_1984_issue.jpg",

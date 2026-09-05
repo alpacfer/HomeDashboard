@@ -3,33 +3,6 @@
   "dateLabel": "14 September",
   "facts": [
     {
-      "id": "09-14-elizabeth-ann-seton",
-      "date": "09-14",
-      "dateLabel": "14 September",
-      "category": "world",
-      "categoryName": "World",
-      "year": 1975,
-      "title": "Elizabeth Ann Seton",
-      "body": "The first American saint, Elizabeth Ann Seton, is canonized by Pope Paul VI.",
-      "source": {
-        "name": "Wikipedia · Elizabeth Ann Seton",
-        "url": "https://en.wikipedia.org/wiki/Elizabeth_Ann_Seton",
-        "calendarUrl": "https://en.wikipedia.org/wiki/September_14",
-        "license": {
-          "name": "CC BY-SA 4.0",
-          "url": "https://creativecommons.org/licenses/by-sa/4.0/"
-        }
-      },
-      "image": {
-        "src": "https://upload.wikimedia.org/wikipedia/commons/8/83/Elizabeth_Ann_Seton_portrait_by_Amabilia_Filicchi.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
-        "alt": "Picture from the Wikipedia article on Elizabeth Ann Seton.",
-        "credit": "Amabilia Filicchi",
-        "source": "https://commons.wikimedia.org/wiki/File:Elizabeth_Ann_Seton_portrait_by_Amabilia_Filicchi.jpg",
-        "license": "Public domain",
-        "licenseUrl": "https://commons.wikimedia.org/wiki/File:Elizabeth_Ann_Seton_portrait_by_Amabilia_Filicchi.jpg"
-      }
-    },
-    {
       "id": "09-14-major-league-baseball",
       "date": "09-14",
       "dateLabel": "14 September",
@@ -48,66 +21,12 @@
         }
       },
       "image": {
-        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a6/Major_League_Baseball_logo.svg/1280px-Major_League_Baseball_logo.svg.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a6/Major_League_Baseball_logo.svg/500px-Major_League_Baseball_logo.svg.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
         "alt": "Picture from the Wikipedia article on Major League Baseball.",
         "credit": "Major League Baseball",
         "source": "https://commons.wikimedia.org/wiki/File:Major_League_Baseball_logo.svg",
         "license": "Public domain",
         "licenseUrl": "https://commons.wikimedia.org/wiki/File:Major_League_Baseball_logo.svg"
-      }
-    },
-    {
-      "id": "09-14-kiribati",
-      "date": "09-14",
-      "dateLabel": "14 September",
-      "category": "world",
-      "categoryName": "World",
-      "year": 1999,
-      "title": "Kiribati",
-      "body": "Kiribati, Nauru and Tonga join the United Nations.",
-      "source": {
-        "name": "Wikipedia · Kiribati",
-        "url": "https://en.wikipedia.org/wiki/Kiribati",
-        "calendarUrl": "https://en.wikipedia.org/wiki/September_14",
-        "license": {
-          "name": "CC BY-SA 4.0",
-          "url": "https://creativecommons.org/licenses/by-sa/4.0/"
-        }
-      },
-      "image": {
-        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d3/Flag_of_Kiribati.svg/1280px-Flag_of_Kiribati.svg.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-        "alt": "Picture from the Wikipedia article on Kiribati.",
-        "credit": "User:Hanzlan",
-        "source": "https://commons.wikimedia.org/wiki/File:Flag_of_Kiribati.svg",
-        "license": "Public domain",
-        "licenseUrl": "https://commons.wikimedia.org/wiki/File:Flag_of_Kiribati.svg"
-      }
-    },
-    {
-      "id": "09-14-joe-kittinger",
-      "date": "09-14",
-      "dateLabel": "14 September",
-      "category": "world",
-      "categoryName": "World",
-      "year": 1984,
-      "title": "Joseph Kittinger",
-      "body": "Joe Kittinger becomes the first person to fly a gas balloon alone across the Atlantic Ocean.",
-      "source": {
-        "name": "Wikipedia · Joseph Kittinger",
-        "url": "https://en.wikipedia.org/wiki/Joseph_Kittinger",
-        "calendarUrl": "https://en.wikipedia.org/wiki/September_14",
-        "license": {
-          "name": "CC BY-SA 4.0",
-          "url": "https://creativecommons.org/licenses/by-sa/4.0/"
-        }
-      },
-      "image": {
-        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/12/Joseph_Kittinger%2C_Jr.jpg/1280px-Joseph_Kittinger%2C_Jr.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-        "alt": "Picture from the Wikipedia article on Joseph Kittinger.",
-        "credit": "U.S. Air Force",
-        "source": "https://commons.wikimedia.org/wiki/File:Joseph_Kittinger,_Jr.jpg",
-        "license": "Public domain",
-        "licenseUrl": "https://commons.wikimedia.org/wiki/File:Joseph_Kittinger,_Jr.jpg"
       }
     },
     {
@@ -129,12 +48,93 @@
         }
       },
       "image": {
-        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/db/LIGO_measurement_of_gravitational_waves.svg/1280px-LIGO_measurement_of_gravitational_waves.svg.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/db/LIGO_measurement_of_gravitational_waves.svg/500px-LIGO_measurement_of_gravitational_waves.svg.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
         "alt": "Picture from the Wikipedia article on First observation of gravitational waves.",
         "credit": "B. P. Abbott et al",
         "source": "https://commons.wikimedia.org/wiki/File:LIGO_measurement_of_gravitational_waves.svg",
         "license": "CC BY 3.0",
         "licenseUrl": "https://creativecommons.org/licenses/by/3.0"
+      }
+    },
+    {
+      "id": "09-14-maastricht",
+      "date": "09-14",
+      "dateLabel": "14 September",
+      "category": "world",
+      "categoryName": "World",
+      "year": 1944,
+      "title": "Maastricht",
+      "body": "Maastricht becomes the first Dutch city to be liberated by allied forces.",
+      "source": {
+        "name": "Wikipedia · Maastricht",
+        "url": "https://en.wikipedia.org/wiki/Maastricht",
+        "calendarUrl": "https://en.wikipedia.org/wiki/September_14",
+        "license": {
+          "name": "CC BY-SA 4.0",
+          "url": "https://creativecommons.org/licenses/by-sa/4.0/"
+        }
+      },
+      "image": {
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e1/Maastricht_sunset.jpg/500px-Maastricht_sunset.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "alt": "Picture from the Wikipedia article on Maastricht.",
+        "credit": "Bert Kaufmann",
+        "source": "https://commons.wikimedia.org/wiki/File:Maastricht_sunset.jpg",
+        "license": "CC BY 2.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by/2.0"
+      }
+    },
+    {
+      "id": "09-14-opec",
+      "date": "09-14",
+      "dateLabel": "14 September",
+      "category": "world",
+      "categoryName": "World",
+      "year": 1960,
+      "title": "OPEC",
+      "body": "The Organization of Petroleum Exporting Countries (OPEC) is founded.",
+      "source": {
+        "name": "Wikipedia · OPEC",
+        "url": "https://en.wikipedia.org/wiki/OPEC",
+        "calendarUrl": "https://en.wikipedia.org/wiki/September_14",
+        "license": {
+          "name": "CC BY-SA 4.0",
+          "url": "https://creativecommons.org/licenses/by-sa/4.0/"
+        }
+      },
+      "image": {
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d1/Flag_of_OPEC.svg/500px-Flag_of_OPEC.svg.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "alt": "Picture from the Wikipedia article on OPEC.",
+        "credit": "Zscout370",
+        "source": "https://commons.wikimedia.org/wiki/File:Flag_of_OPEC.svg",
+        "license": "Public domain",
+        "licenseUrl": "https://commons.wikimedia.org/wiki/File:Flag_of_OPEC.svg"
+      }
+    },
+    {
+      "id": "09-14-kiribati",
+      "date": "09-14",
+      "dateLabel": "14 September",
+      "category": "world",
+      "categoryName": "World",
+      "year": 1999,
+      "title": "Kiribati",
+      "body": "Kiribati, Nauru and Tonga join the United Nations.",
+      "source": {
+        "name": "Wikipedia · Kiribati",
+        "url": "https://en.wikipedia.org/wiki/Kiribati",
+        "calendarUrl": "https://en.wikipedia.org/wiki/September_14",
+        "license": {
+          "name": "CC BY-SA 4.0",
+          "url": "https://creativecommons.org/licenses/by-sa/4.0/"
+        }
+      },
+      "image": {
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d3/Flag_of_Kiribati.svg/500px-Flag_of_Kiribati.svg.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "alt": "Picture from the Wikipedia article on Kiribati.",
+        "credit": "User:Hanzlan",
+        "source": "https://commons.wikimedia.org/wiki/File:Flag_of_Kiribati.svg",
+        "license": "Public domain",
+        "licenseUrl": "https://commons.wikimedia.org/wiki/File:Flag_of_Kiribati.svg"
       }
     }
   ]

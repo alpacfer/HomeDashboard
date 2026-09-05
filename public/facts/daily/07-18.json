@@ -21,12 +21,39 @@
         }
       },
       "image": {
-        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/87/Nadia_Com%C4%83neci_at_Sports_Festival_2026.jpg/1280px-Nadia_Com%C4%83neci_at_Sports_Festival_2026.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/87/Nadia_Com%C4%83neci_at_Sports_Festival_2026.jpg/500px-Nadia_Com%C4%83neci_at_Sports_Festival_2026.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
         "alt": "Picture from the Wikipedia article on Nadia Comăneci.",
         "credit": "Nuță Lucian",
         "source": "https://commons.wikimedia.org/wiki/File:Nadia_Com%C4%83neci_at_Sports_Festival_2026.jpg",
         "license": "CC BY-SA 4.0",
         "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0"
+      }
+    },
+    {
+      "id": "07-18-gemini-10",
+      "date": "07-18",
+      "dateLabel": "18 July",
+      "category": "world",
+      "categoryName": "World",
+      "year": 1966,
+      "title": "Gemini 10",
+      "body": "Gemini 10 is launched from Cape Kennedy on a 70-hour mission that includes docking with an orbiting Agena target vehicle.",
+      "source": {
+        "name": "Wikipedia · Gemini 10",
+        "url": "https://en.wikipedia.org/wiki/Gemini_10",
+        "calendarUrl": "https://en.wikipedia.org/wiki/July_18",
+        "license": {
+          "name": "CC BY-SA 4.0",
+          "url": "https://creativecommons.org/licenses/by-sa/4.0/"
+        }
+      },
+      "image": {
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/46/Agena_Firing_-_GPN-2000-001355.jpg/500px-Agena_Firing_-_GPN-2000-001355.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "alt": "Picture from the Wikipedia article on Gemini 10.",
+        "credit": "NASA",
+        "source": "https://commons.wikimedia.org/wiki/File:Agena_Firing_-_GPN-2000-001355.jpg",
+        "license": "Public domain",
+        "licenseUrl": "https://commons.wikimedia.org/wiki/File:Agena_Firing_-_GPN-2000-001355.jpg"
       }
     },
     {
@@ -48,7 +75,7 @@
         }
       },
       "image": {
-        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/97/Intel_Headquarters_in_2023.jpg/1280px-Intel_Headquarters_in_2023.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/97/Intel_Headquarters_in_2023.jpg/500px-Intel_Headquarters_in_2023.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
         "alt": "Picture from the Wikipedia article on Intel.",
         "credit": "Coolcaesar",
         "source": "https://commons.wikimedia.org/wiki/File:Intel_Headquarters_in_2023.jpg",
@@ -75,7 +102,7 @@
         }
       },
       "image": {
-        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b2/Messerschmitt_Me_262A_at_the_National_Museum_of_the_USAF_%28cropped%29.jpg/1280px-Messerschmitt_Me_262A_at_the_National_Museum_of_the_USAF_%28cropped%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b2/Messerschmitt_Me_262A_at_the_National_Museum_of_the_USAF_%28cropped%29.jpg/500px-Messerschmitt_Me_262A_at_the_National_Museum_of_the_USAF_%28cropped%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
         "alt": "Picture from the Wikipedia article on Messerschmitt Me 262.",
         "credit": "USAF museum",
         "source": "https://commons.wikimedia.org/wiki/File:Messerschmitt_Me_262A_at_the_National_Museum_of_the_USAF_(cropped).jpg",
@@ -102,39 +129,12 @@
         }
       },
       "image": {
-        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d0/Flag_of_Montserrat.svg/1280px-Flag_of_Montserrat.svg.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d0/Flag_of_Montserrat.svg/500px-Flag_of_Montserrat.svg.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
         "alt": "Picture from the Wikipedia article on Montserrat.",
         "credit": "Wikimedia Commons",
         "source": "https://commons.wikimedia.org/wiki/File:Flag_of_Montserrat.svg",
         "license": "Public domain",
         "licenseUrl": "https://commons.wikimedia.org/wiki/File:Flag_of_Montserrat.svg"
-      }
-    },
-    {
-      "id": "07-18-mein-kampf",
-      "date": "07-18",
-      "dateLabel": "18 July",
-      "category": "world",
-      "categoryName": "World",
-      "year": 1925,
-      "title": "Mein Kampf",
-      "body": "Adolf Hitler publishes Mein Kampf.",
-      "source": {
-        "name": "Wikipedia · Mein Kampf",
-        "url": "https://en.wikipedia.org/wiki/Mein_Kampf",
-        "calendarUrl": "https://en.wikipedia.org/wiki/July_18",
-        "license": {
-          "name": "CC BY-SA 4.0",
-          "url": "https://creativecommons.org/licenses/by-sa/4.0/"
-        }
-      },
-      "image": {
-        "src": "https://upload.wikimedia.org/wikipedia/commons/3/30/Mein_Kampf_dust_jacket.jpeg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
-        "alt": "Picture from the Wikipedia article on Mein Kampf.",
-        "credit": "Unknown author of dust jacket",
-        "source": "https://commons.wikimedia.org/wiki/File:Mein_Kampf_dust_jacket.jpeg",
-        "license": "Public domain",
-        "licenseUrl": "https://commons.wikimedia.org/wiki/File:Mein_Kampf_dust_jacket.jpeg"
       }
     }
   ]

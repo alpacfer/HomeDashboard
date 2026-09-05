@@ -21,7 +21,7 @@
         }
       },
       "image": {
-        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/5c/American_Bandstand.svg/1280px-American_Bandstand.svg.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/5c/American_Bandstand.svg/500px-American_Bandstand.svg.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
         "alt": "Picture from the Wikipedia article on American Bandstand.",
         "credit": "Dick Clark Productions",
         "source": "https://commons.wikimedia.org/wiki/File:American_Bandstand.svg",
@@ -57,6 +57,33 @@
       }
     },
     {
+      "id": "08-05-operation-pierce-arrow",
+      "date": "08-05",
+      "dateLabel": "5 August",
+      "category": "world",
+      "categoryName": "World",
+      "year": 1964,
+      "title": "Operation Pierce Arrow",
+      "body": "American aircraft from carriers and bomb North Vietnam in retaliation for strikes against U.S. destroyers in the Gulf of Tonkin.",
+      "source": {
+        "name": "Wikipedia · Operation Pierce Arrow",
+        "url": "https://en.wikipedia.org/wiki/Operation_Pierce_Arrow",
+        "calendarUrl": "https://en.wikipedia.org/wiki/August_5",
+        "license": {
+          "name": "CC BY-SA 4.0",
+          "url": "https://creativecommons.org/licenses/by-sa/4.0/"
+        }
+      },
+      "image": {
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/df/Map_of_Operation_Pierce_Arrow_in_Vietnam_1964.png/500px-Map_of_Operation_Pierce_Arrow_in_Vietnam_1964.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "alt": "Picture from the Wikipedia article on Operation Pierce Arrow.",
+        "credit": "U.S. Department of Defense",
+        "source": "https://commons.wikimedia.org/wiki/File:Map_of_Operation_Pierce_Arrow_in_Vietnam_1964.png",
+        "license": "Public domain",
+        "licenseUrl": "https://commons.wikimedia.org/wiki/File:Map_of_Operation_Pierce_Arrow_in_Vietnam_1964.png"
+      }
+    },
+    {
       "id": "08-05-cyrus-west-field",
       "date": "08-05",
       "dateLabel": "5 August",
@@ -75,39 +102,12 @@
         }
       },
       "image": {
-        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f7/CyrusField4.jpg/1280px-CyrusField4.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f7/CyrusField4.jpg/500px-CyrusField4.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
         "alt": "Picture from the Wikipedia article on Cyrus W. Field.",
         "credit": "Napoleon Sarony",
         "source": "https://commons.wikimedia.org/wiki/File:CyrusField4.jpg",
         "license": "Public domain",
         "licenseUrl": "https://commons.wikimedia.org/wiki/File:CyrusField4.jpg"
-      }
-    },
-    {
-      "id": "08-05-pacific-islands-forum",
-      "date": "08-05",
-      "dateLabel": "5 August",
-      "category": "world",
-      "categoryName": "World",
-      "year": 1971,
-      "title": "Pacific Islands Forum",
-      "body": "The first Pacific Islands Forum (then known as the \"South Pacific Forum\") is held in Wellington, New Zealand, with the aim of enhancing cooperation between the independent countries of the Pacific Ocean.",
-      "source": {
-        "name": "Wikipedia · Pacific Islands Forum",
-        "url": "https://en.wikipedia.org/wiki/Pacific_Islands_Forum",
-        "calendarUrl": "https://en.wikipedia.org/wiki/August_5",
-        "license": {
-          "name": "CC BY-SA 4.0",
-          "url": "https://creativecommons.org/licenses/by-sa/4.0/"
-        }
-      },
-      "image": {
-        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c1/Flag_of_the_Pacific_Islands_Forum.svg/1280px-Flag_of_the_Pacific_Islands_Forum.svg.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-        "alt": "Picture from the Wikipedia article on Pacific Islands Forum.",
-        "credit": "Zoltán Horváth",
-        "source": "https://commons.wikimedia.org/wiki/File:Flag_of_the_Pacific_Islands_Forum.svg",
-        "license": "Public domain",
-        "licenseUrl": "https://commons.wikimedia.org/wiki/File:Flag_of_the_Pacific_Islands_Forum.svg"
       }
     },
     {
@@ -129,7 +129,7 @@
         }
       },
       "image": {
-        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/30/Sir_Francis_Ronalds_by_Hugh_Carter.jpg/1280px-Sir_Francis_Ronalds_by_Hugh_Carter.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/30/Sir_Francis_Ronalds_by_Hugh_Carter.jpg/500px-Sir_Francis_Ronalds_by_Hugh_Carter.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
         "alt": "Picture from the Wikipedia article on Francis Ronalds.",
         "credit": "Hugh Carter",
         "source": "https://commons.wikimedia.org/wiki/File:Sir_Francis_Ronalds_by_Hugh_Carter.jpg",

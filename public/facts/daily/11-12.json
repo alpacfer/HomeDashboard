@@ -3,33 +3,6 @@
   "dateLabel": "12 November",
   "facts": [
     {
-      "id": "11-12-tim-berners-lee",
-      "date": "11-12",
-      "dateLabel": "12 November",
-      "category": "tech",
-      "categoryName": "Tech",
-      "year": 1990,
-      "title": "Tim Berners-Lee",
-      "body": "Tim Berners-Lee publishes a formal proposal for the World Wide Web.",
-      "source": {
-        "name": "Wikipedia · Tim Berners-Lee",
-        "url": "https://en.wikipedia.org/wiki/Tim_Berners-Lee",
-        "calendarUrl": "https://en.wikipedia.org/wiki/November_12",
-        "license": {
-          "name": "CC BY-SA 4.0",
-          "url": "https://creativecommons.org/licenses/by-sa/4.0/"
-        }
-      },
-      "image": {
-        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d1/Tim_Berners-Lee_at_the_2025_Web_Summit_%28Cropped%29.jpg/1280px-Tim_Berners-Lee_at_the_2025_Web_Summit_%28Cropped%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-        "alt": "Picture from the Wikipedia article on Tim Berners-Lee.",
-        "credit": "Summit",
-        "source": "https://commons.wikimedia.org/wiki/File:Tim_Berners-Lee_at_the_2025_Web_Summit_(Cropped).jpg",
-        "license": "CC BY 4.0",
-        "licenseUrl": "https://creativecommons.org/licenses/by/4.0"
-      }
-    },
-    {
       "id": "11-12-voyager-i",
       "date": "11-12",
       "dateLabel": "12 November",
@@ -48,12 +21,39 @@
         }
       },
       "image": {
-        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/60/Voyager_spacecraft_model.png/1280px-Voyager_spacecraft_model.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/60/Voyager_spacecraft_model.png/500px-Voyager_spacecraft_model.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
         "alt": "Picture from the Wikipedia article on Voyager 1.",
         "credit": "NASA",
         "source": "https://commons.wikimedia.org/wiki/File:Voyager_spacecraft_model.png",
         "license": "Public domain",
         "licenseUrl": "https://commons.wikimedia.org/wiki/File:Voyager_spacecraft_model.png"
+      }
+    },
+    {
+      "id": "11-12-tim-berners-lee",
+      "date": "11-12",
+      "dateLabel": "12 November",
+      "category": "tech",
+      "categoryName": "Tech",
+      "year": 1990,
+      "title": "Tim Berners-Lee",
+      "body": "Tim Berners-Lee publishes a formal proposal for the World Wide Web.",
+      "source": {
+        "name": "Wikipedia · Tim Berners-Lee",
+        "url": "https://en.wikipedia.org/wiki/Tim_Berners-Lee",
+        "calendarUrl": "https://en.wikipedia.org/wiki/November_12",
+        "license": {
+          "name": "CC BY-SA 4.0",
+          "url": "https://creativecommons.org/licenses/by-sa/4.0/"
+        }
+      },
+      "image": {
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d1/Tim_Berners-Lee_at_the_2025_Web_Summit_%28Cropped%29.jpg/500px-Tim_Berners-Lee_at_the_2025_Web_Summit_%28Cropped%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "alt": "Picture from the Wikipedia article on Tim Berners-Lee.",
+        "credit": "Summit",
+        "source": "https://commons.wikimedia.org/wiki/File:Tim_Berners-Lee_at_the_2025_Web_Summit_(Cropped).jpg",
+        "license": "CC BY 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by/4.0"
       }
     },
     {
@@ -102,7 +102,7 @@
         }
       },
       "image": {
-        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/95/Philae_lander_%28transparent_bg%29.png/1280px-Philae_lander_%28transparent_bg%29.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/95/Philae_lander_%28transparent_bg%29.png/500px-Philae_lander_%28transparent_bg%29.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
         "alt": "Picture from the Wikipedia article on Philae.",
         "credit": "ESA/ATG medialab",
         "source": "https://commons.wikimedia.org/wiki/File:Philae_lander_(transparent_bg).png",
@@ -129,7 +129,7 @@
         }
       },
       "image": {
-        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a1/STS-2_Canadarm_debut.jpg/1280px-STS-2_Canadarm_debut.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a1/STS-2_Canadarm_debut.jpg/500px-STS-2_Canadarm_debut.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
         "alt": "Picture from the Wikipedia article on STS-2.",
         "credit": "NASA",
         "source": "https://commons.wikimedia.org/wiki/File:STS-2_Canadarm_debut.jpg",

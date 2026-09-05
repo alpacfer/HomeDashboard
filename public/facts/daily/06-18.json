@@ -3,44 +3,17 @@
   "dateLabel": "18 June",
   "facts": [
     {
-      "id": "06-18-lunar-reconnaissance-orbiter",
-      "date": "06-18",
-      "dateLabel": "18 June",
-      "category": "space",
-      "categoryName": "Space",
-      "year": 2009,
-      "title": "Lunar Reconnaissance Orbiter",
-      "body": "The Lunar Reconnaissance Orbiter (LRO), a NASA robotic spacecraft is launched.",
-      "source": {
-        "name": "Wikipedia · Lunar Reconnaissance Orbiter",
-        "url": "https://en.wikipedia.org/wiki/Lunar_Reconnaissance_Orbiter",
-        "calendarUrl": "https://en.wikipedia.org/wiki/June_18",
-        "license": {
-          "name": "CC BY-SA 4.0",
-          "url": "https://creativecommons.org/licenses/by-sa/4.0/"
-        }
-      },
-      "image": {
-        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/95/Lunar_Reconnaissance_Orbiter_001.jpg/1280px-Lunar_Reconnaissance_Orbiter_001.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-        "alt": "Picture from the Wikipedia article on Lunar Reconnaissance Orbiter.",
-        "credit": "NASA",
-        "source": "https://commons.wikimedia.org/wiki/File:Lunar_Reconnaissance_Orbiter_001.jpg",
-        "license": "Public domain",
-        "licenseUrl": "https://commons.wikimedia.org/wiki/File:Lunar_Reconnaissance_Orbiter_001.jpg"
-      }
-    },
-    {
-      "id": "06-18-columbia-records",
+      "id": "06-18-benjamin-britten",
       "date": "06-18",
       "dateLabel": "18 June",
       "category": "culture",
       "categoryName": "Culture",
-      "year": 1948,
-      "title": "Columbia Records",
-      "body": "Columbia Records introduces the long-playing record album in a public demonstration at the Waldorf-Astoria Hotel in New York City.",
+      "year": 1958,
+      "title": "Benjamin Britten",
+      "body": "Benjamin Britten's one-act opera Noye's Fludde premieres at the Aldeburgh Festival.",
       "source": {
-        "name": "Wikipedia · Columbia Records",
-        "url": "https://en.wikipedia.org/wiki/Columbia_Records",
+        "name": "Wikipedia · Benjamin Britten",
+        "url": "https://en.wikipedia.org/wiki/Benjamin_Britten",
         "calendarUrl": "https://en.wikipedia.org/wiki/June_18",
         "license": {
           "name": "CC BY-SA 4.0",
@@ -48,12 +21,39 @@
         }
       },
       "image": {
-        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/0a/Columbia_Records_Colored_Logo.svg/1280px-Columbia_Records_Colored_Logo.svg.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-        "alt": "Picture from the Wikipedia article on Columbia Records.",
-        "credit": "converted to SVG by Bryantriplex",
-        "source": "https://commons.wikimedia.org/wiki/File:Columbia_Records_Colored_Logo.svg",
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d2/Fortepan_137711_%28cropped%29.jpg/500px-Fortepan_137711_%28cropped%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "alt": "Picture from the Wikipedia article on Benjamin Britten.",
+        "credit": "Szalay Zoltán",
+        "source": "https://commons.wikimedia.org/wiki/File:Fortepan_137711_(cropped).jpg",
+        "license": "CC BY-SA 3.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0"
+      }
+    },
+    {
+      "id": "06-18-satellite",
+      "date": "06-18",
+      "dateLabel": "18 June",
+      "category": "space",
+      "categoryName": "Space",
+      "year": 2006,
+      "title": "Satellite",
+      "body": "The first Kazakh space satellite, KazSat-1, is launched.",
+      "source": {
+        "name": "Wikipedia · Satellite",
+        "url": "https://en.wikipedia.org/wiki/Satellite",
+        "calendarUrl": "https://en.wikipedia.org/wiki/June_18",
+        "license": {
+          "name": "CC BY-SA 4.0",
+          "url": "https://creativecommons.org/licenses/by-sa/4.0/"
+        }
+      },
+      "image": {
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a7/Two_3U_CubeSats.jpg/500px-Two_3U_CubeSats.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "alt": "Picture from the Wikipedia article on Satellite.",
+        "credit": "NASA",
+        "source": "https://commons.wikimedia.org/wiki/File:Two_3U_CubeSats.jpg",
         "license": "Public domain",
-        "licenseUrl": "https://commons.wikimedia.org/wiki/File:Columbia_Records_Colored_Logo.svg"
+        "licenseUrl": "https://commons.wikimedia.org/wiki/File:Two_3U_CubeSats.jpg"
       }
     },
     {
@@ -75,7 +75,7 @@
         }
       },
       "image": {
-        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e7/Roberto_Calvi.jpg/1280px-Roberto_Calvi.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e7/Roberto_Calvi.jpg/500px-Roberto_Calvi.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
         "alt": "Picture from the Wikipedia article on Roberto Calvi.",
         "credit": "Unknown author",
         "source": "https://commons.wikimedia.org/wiki/File:Roberto_Calvi.jpg",
@@ -84,17 +84,17 @@
       }
     },
     {
-      "id": "06-18-aviator",
+      "id": "06-18-lockheed-f-117-nighthawk",
       "date": "06-18",
       "dateLabel": "18 June",
       "category": "world",
       "categoryName": "World",
-      "year": 1928,
-      "title": "Aircraft pilot",
-      "body": "Aviator Amelia Earhart becomes the first woman to fly in an aircraft across the Atlantic Ocean (she is a passenger; Wilmer Stultz is the pilot and Lou Gordon the mechanic).",
+      "year": 1981,
+      "title": "Lockheed F-117 Nighthawk",
+      "body": "The Lockheed F-117 Nighthawk, the first operational aircraft initially designed around stealth technology, makes its first flight.",
       "source": {
-        "name": "Wikipedia · Aircraft pilot",
-        "url": "https://en.wikipedia.org/wiki/Aircraft_pilot",
+        "name": "Wikipedia · Lockheed F-117 Nighthawk",
+        "url": "https://en.wikipedia.org/wiki/Lockheed_F-117_Nighthawk",
         "calendarUrl": "https://en.wikipedia.org/wiki/June_18",
         "license": {
           "name": "CC BY-SA 4.0",
@@ -102,26 +102,26 @@
         }
       },
       "image": {
-        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/38/Lt_Mike_Hunter_1.jpg/1280px-Lt_Mike_Hunter_1.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-        "alt": "Picture from the Wikipedia article on Aircraft pilot.",
-        "credit": "Alfred T. Palmer",
-        "source": "https://commons.wikimedia.org/wiki/File:Lt_Mike_Hunter_1.jpg",
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a1/F-117_Nighthawk_Front.jpg/500px-F-117_Nighthawk_Front.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "alt": "Picture from the Wikipedia article on Lockheed F-117 Nighthawk.",
+        "credit": "Staff Sgt",
+        "source": "https://commons.wikimedia.org/wiki/File:F-117_Nighthawk_Front.jpg",
         "license": "Public domain",
-        "licenseUrl": "https://commons.wikimedia.org/wiki/File:Lt_Mike_Hunter_1.jpg"
+        "licenseUrl": "https://commons.wikimedia.org/wiki/File:F-117_Nighthawk_Front.jpg"
       }
     },
     {
-      "id": "06-18-benjamin-britten",
+      "id": "06-18-lunar-reconnaissance-orbiter",
       "date": "06-18",
       "dateLabel": "18 June",
-      "category": "culture",
-      "categoryName": "Culture",
-      "year": 1958,
-      "title": "Benjamin Britten",
-      "body": "Benjamin Britten's one-act opera Noye's Fludde premieres at the Aldeburgh Festival.",
+      "category": "space",
+      "categoryName": "Space",
+      "year": 2009,
+      "title": "Lunar Reconnaissance Orbiter",
+      "body": "The Lunar Reconnaissance Orbiter (LRO), a NASA robotic spacecraft is launched.",
       "source": {
-        "name": "Wikipedia · Benjamin Britten",
-        "url": "https://en.wikipedia.org/wiki/Benjamin_Britten",
+        "name": "Wikipedia · Lunar Reconnaissance Orbiter",
+        "url": "https://en.wikipedia.org/wiki/Lunar_Reconnaissance_Orbiter",
         "calendarUrl": "https://en.wikipedia.org/wiki/June_18",
         "license": {
           "name": "CC BY-SA 4.0",
@@ -129,12 +129,12 @@
         }
       },
       "image": {
-        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d2/Fortepan_137711_%28cropped%29.jpg/1280px-Fortepan_137711_%28cropped%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-        "alt": "Picture from the Wikipedia article on Benjamin Britten.",
-        "credit": "Szalay Zoltán",
-        "source": "https://commons.wikimedia.org/wiki/File:Fortepan_137711_(cropped).jpg",
-        "license": "CC BY-SA 3.0",
-        "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0"
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/95/Lunar_Reconnaissance_Orbiter_001.jpg/500px-Lunar_Reconnaissance_Orbiter_001.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "alt": "Picture from the Wikipedia article on Lunar Reconnaissance Orbiter.",
+        "credit": "NASA",
+        "source": "https://commons.wikimedia.org/wiki/File:Lunar_Reconnaissance_Orbiter_001.jpg",
+        "license": "Public domain",
+        "licenseUrl": "https://commons.wikimedia.org/wiki/File:Lunar_Reconnaissance_Orbiter_001.jpg"
       }
     }
   ]

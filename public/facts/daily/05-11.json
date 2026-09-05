@@ -48,7 +48,7 @@
         }
       },
       "image": {
-        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/ba/ESC_2024_Map_2.svg/1280px-ESC_2024_Map_2.svg.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/ba/ESC_2024_Map_2.svg/500px-ESC_2024_Map_2.svg.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
         "alt": "Picture from the Wikipedia article on Eurovision Song Contest 2024.",
         "credit": "ImStevan",
         "source": "https://commons.wikimedia.org/wiki/File:ESC_2024_Map_2.svg",
@@ -75,12 +75,39 @@
         }
       },
       "image": {
-        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/0e/STS132_Atlantis_undocking2_%28cropped%29.jpg/1280px-STS132_Atlantis_undocking2_%28cropped%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/0e/STS132_Atlantis_undocking2_%28cropped%29.jpg/500px-STS132_Atlantis_undocking2_%28cropped%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
         "alt": "Picture from the Wikipedia article on Space Shuttle Atlantis.",
         "credit": "NASA",
         "source": "https://commons.wikimedia.org/wiki/File:STS132_Atlantis_undocking2_(cropped).jpg",
         "license": "Public domain",
         "licenseUrl": "https://commons.wikimedia.org/wiki/File:STS132_Atlantis_undocking2_(cropped).jpg"
+      }
+    },
+    {
+      "id": "05-11-minnesota",
+      "date": "05-11",
+      "dateLabel": "11 May",
+      "category": "world",
+      "categoryName": "World",
+      "year": 1858,
+      "title": "Minnesota",
+      "body": "Minnesota becomes the 32nd U.S. state.",
+      "source": {
+        "name": "Wikipedia · Minnesota",
+        "url": "https://en.wikipedia.org/wiki/Minnesota",
+        "calendarUrl": "https://en.wikipedia.org/wiki/May_11",
+        "license": {
+          "name": "CC BY-SA 4.0",
+          "url": "https://creativecommons.org/licenses/by-sa/4.0/"
+        }
+      },
+      "image": {
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b9/Flag_of_Minnesota.svg/500px-Flag_of_Minnesota.svg.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "alt": "Picture from the Wikipedia article on Minnesota.",
+        "credit": "Minnesota State Emblems Redesign…",
+        "source": "https://commons.wikimedia.org/wiki/File:Flag_of_Minnesota.svg",
+        "license": "Public domain",
+        "licenseUrl": "https://commons.wikimedia.org/wiki/File:Flag_of_Minnesota.svg"
       }
     },
     {
@@ -108,33 +135,6 @@
         "source": "https://commons.wikimedia.org/wiki/File:Deep_Blue.jpg",
         "license": "CC BY 2.0",
         "licenseUrl": "https://creativecommons.org/licenses/by/2.0"
-      }
-    },
-    {
-      "id": "05-11-pentagon-papers",
-      "date": "05-11",
-      "dateLabel": "11 May",
-      "category": "world",
-      "categoryName": "World",
-      "year": 1973,
-      "title": "Pentagon Papers",
-      "body": "Citing government misconduct, Daniel Ellsberg's charges for his involvement in releasing the Pentagon Papers to The New York Times are dismissed.",
-      "source": {
-        "name": "Wikipedia · Pentagon Papers",
-        "url": "https://en.wikipedia.org/wiki/Pentagon_Papers",
-        "calendarUrl": "https://en.wikipedia.org/wiki/May_11",
-        "license": {
-          "name": "CC BY-SA 4.0",
-          "url": "https://creativecommons.org/licenses/by-sa/4.0/"
-        }
-      },
-      "image": {
-        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/31/Dissident_Activities_in_Indochina.svg/1280px-Dissident_Activities_in_Indochina.svg.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-        "alt": "Picture from the Wikipedia article on Pentagon Papers.",
-        "credit": "Central Intelligence Agency",
-        "source": "https://commons.wikimedia.org/wiki/File:Dissident_Activities_in_Indochina.svg",
-        "license": "Public domain",
-        "licenseUrl": "https://commons.wikimedia.org/wiki/File:Dissident_Activities_in_Indochina.svg"
       }
     }
   ]

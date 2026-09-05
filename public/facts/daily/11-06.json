@@ -3,33 +3,6 @@
   "dateLabel": "6 November",
   "facts": [
     {
-      "id": "11-06-meet-the-press",
-      "date": "11-06",
-      "dateLabel": "6 November",
-      "category": "culture",
-      "categoryName": "Culture",
-      "year": 1947,
-      "title": "Meet the Press",
-      "body": "Meet the Press, the longest running television program in history, makes its debut on NBC Television.",
-      "source": {
-        "name": "Wikipedia · Meet the Press",
-        "url": "https://en.wikipedia.org/wiki/Meet_the_Press",
-        "calendarUrl": "https://en.wikipedia.org/wiki/November_6",
-        "license": {
-          "name": "CC BY-SA 4.0",
-          "url": "https://creativecommons.org/licenses/by-sa/4.0/"
-        }
-      },
-      "image": {
-        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/74/Meet_the_Press_2023.svg/1280px-Meet_the_Press_2023.svg.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-        "alt": "Picture from the Wikipedia article on Meet the Press.",
-        "credit": "NBC News / NBCUniversal",
-        "source": "https://commons.wikimedia.org/wiki/File:Meet_the_Press_2023.svg",
-        "license": "Public domain",
-        "licenseUrl": "https://commons.wikimedia.org/wiki/File:Meet_the_Press_2023.svg"
-      }
-    },
-    {
       "id": "11-06-tammy-baldwin",
       "date": "11-06",
       "dateLabel": "6 November",
@@ -48,12 +21,39 @@
         }
       },
       "image": {
-        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/ef/Tammy_Baldwin%2C_official_portrait%2C_113th_Congress.jpg/1280px-Tammy_Baldwin%2C_official_portrait%2C_113th_Congress.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/ef/Tammy_Baldwin%2C_official_portrait%2C_113th_Congress.jpg/500px-Tammy_Baldwin%2C_official_portrait%2C_113th_Congress.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
         "alt": "Picture from the Wikipedia article on Tammy Baldwin.",
         "credit": "United States Senate",
         "source": "https://commons.wikimedia.org/wiki/File:Tammy_Baldwin,_official_portrait,_113th_Congress.jpg",
         "license": "Public domain",
         "licenseUrl": "https://commons.wikimedia.org/wiki/File:Tammy_Baldwin,_official_portrait,_113th_Congress.jpg"
+      }
+    },
+    {
+      "id": "11-06-meet-the-press",
+      "date": "11-06",
+      "dateLabel": "6 November",
+      "category": "culture",
+      "categoryName": "Culture",
+      "year": 1947,
+      "title": "Meet the Press",
+      "body": "Meet the Press, the longest running television program in history, makes its debut on NBC Television.",
+      "source": {
+        "name": "Wikipedia · Meet the Press",
+        "url": "https://en.wikipedia.org/wiki/Meet_the_Press",
+        "calendarUrl": "https://en.wikipedia.org/wiki/November_6",
+        "license": {
+          "name": "CC BY-SA 4.0",
+          "url": "https://creativecommons.org/licenses/by-sa/4.0/"
+        }
+      },
+      "image": {
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/74/Meet_the_Press_2023.svg/500px-Meet_the_Press_2023.svg.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "alt": "Picture from the Wikipedia article on Meet the Press.",
+        "credit": "NBC News / NBCUniversal",
+        "source": "https://commons.wikimedia.org/wiki/File:Meet_the_Press_2023.svg",
+        "license": "Public domain",
+        "licenseUrl": "https://commons.wikimedia.org/wiki/File:Meet_the_Press_2023.svg"
       }
     },
     {
@@ -75,7 +75,7 @@
         }
       },
       "image": {
-        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/39/New_brunswick_from_the_air_in_February_2026.jpg/1280px-New_brunswick_from_the_air_in_February_2026.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/39/New_brunswick_from_the_air_in_February_2026.jpg/500px-New_brunswick_from_the_air_in_February_2026.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
         "alt": "Picture from the Wikipedia article on New Brunswick, New Jersey.",
         "credit": "Alansohn",
         "source": "https://commons.wikimedia.org/wiki/File:New_brunswick_from_the_air_in_February_2026.jpg",
@@ -129,7 +129,7 @@
         }
       },
       "image": {
-        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/4b/Seal_of_the_United_States_Atomic_Energy_Commission.svg/1280px-Seal_of_the_United_States_Atomic_Energy_Commission.svg.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/4b/Seal_of_the_United_States_Atomic_Energy_Commission.svg/500px-Seal_of_the_United_States_Atomic_Energy_Commission.svg.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
         "alt": "Picture from the Wikipedia article on United States Atomic Energy Commission.",
         "credit": "United States Atomic Energy Commission",
         "source": "https://commons.wikimedia.org/wiki/File:Seal_of_the_United_States_Atomic_Energy_Commission.svg",

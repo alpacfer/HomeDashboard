@@ -3,33 +3,6 @@
   "dateLabel": "16 August",
   "facts": [
     {
-      "id": "08-16-joseph-kittinger",
-      "date": "08-16",
-      "dateLabel": "16 August",
-      "category": "curious",
-      "categoryName": "Curious",
-      "year": 1960,
-      "title": "Joseph Kittinger",
-      "body": "Joseph Kittinger parachutes from a balloon over New Mexico, United States, at, setting three records that held until 2012: High-altitude jump, free fall, and highest speed by a human without an aircraft.",
-      "source": {
-        "name": "Wikipedia · Joseph Kittinger",
-        "url": "https://en.wikipedia.org/wiki/Joseph_Kittinger",
-        "calendarUrl": "https://en.wikipedia.org/wiki/August_16",
-        "license": {
-          "name": "CC BY-SA 4.0",
-          "url": "https://creativecommons.org/licenses/by-sa/4.0/"
-        }
-      },
-      "image": {
-        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/12/Joseph_Kittinger%2C_Jr.jpg/1280px-Joseph_Kittinger%2C_Jr.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-        "alt": "Picture from the Wikipedia article on Joseph Kittinger.",
-        "credit": "U.S. Air Force",
-        "source": "https://commons.wikimedia.org/wiki/File:Joseph_Kittinger,_Jr.jpg",
-        "license": "Public domain",
-        "licenseUrl": "https://commons.wikimedia.org/wiki/File:Joseph_Kittinger,_Jr.jpg"
-      }
-    },
-    {
       "id": "08-16-cartoon",
       "date": "08-16",
       "dateLabel": "16 August",
@@ -48,7 +21,7 @@
         }
       },
       "image": {
-        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f9/SubstanceandShadow.jpg/1280px-SubstanceandShadow.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f9/SubstanceandShadow.jpg/500px-SubstanceandShadow.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
         "alt": "Picture from the Wikipedia article on Cartoon.",
         "credit": "Wikimedia Commons",
         "source": "https://commons.wikimedia.org/wiki/File:SubstanceandShadow.jpg",
@@ -75,12 +48,39 @@
         }
       },
       "image": {
-        "src": "https://upload.wikimedia.org/wikipedia/commons/d/d4/Solar_flare_%28TRACE%29.gif?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d4/Solar_flare_%28TRACE%29.gif/500px-Solar_flare_%28TRACE%29.gif?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
         "alt": "Picture from the Wikipedia article on Solar particle event.",
         "credit": "NASA",
         "source": "https://commons.wikimedia.org/wiki/File:Solar_flare_(TRACE).gif",
         "license": "Public domain",
         "licenseUrl": "https://commons.wikimedia.org/wiki/File:Solar_flare_(TRACE).gif"
+      }
+    },
+    {
+      "id": "08-16-joseph-kittinger",
+      "date": "08-16",
+      "dateLabel": "16 August",
+      "category": "curious",
+      "categoryName": "Curious",
+      "year": 1960,
+      "title": "Joseph Kittinger",
+      "body": "Joseph Kittinger parachutes from a balloon over New Mexico, United States, at, setting three records that held until 2012: High-altitude jump, free fall, and highest speed by a human without an aircraft.",
+      "source": {
+        "name": "Wikipedia · Joseph Kittinger",
+        "url": "https://en.wikipedia.org/wiki/Joseph_Kittinger",
+        "calendarUrl": "https://en.wikipedia.org/wiki/August_16",
+        "license": {
+          "name": "CC BY-SA 4.0",
+          "url": "https://creativecommons.org/licenses/by-sa/4.0/"
+        }
+      },
+      "image": {
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/12/Joseph_Kittinger%2C_Jr.jpg/500px-Joseph_Kittinger%2C_Jr.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "alt": "Picture from the Wikipedia article on Joseph Kittinger.",
+        "credit": "U.S. Air Force",
+        "source": "https://commons.wikimedia.org/wiki/File:Joseph_Kittinger,_Jr.jpg",
+        "license": "Public domain",
+        "licenseUrl": "https://commons.wikimedia.org/wiki/File:Joseph_Kittinger,_Jr.jpg"
       }
     },
     {
@@ -102,7 +102,7 @@
         }
       },
       "image": {
-        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/0d/Antarctica%2C_New_Zealand_territorial_claim.svg/1280px-Antarctica%2C_New_Zealand_territorial_claim.svg.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/0d/Antarctica%2C_New_Zealand_territorial_claim.svg/500px-Antarctica%2C_New_Zealand_territorial_claim.svg.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
         "alt": "Picture from the Wikipedia article on Ross Dependency.",
         "credit": "Lokal_Profil",
         "source": "https://commons.wikimedia.org/wiki/File:Antarctica,_New_Zealand_territorial_claim.svg",
@@ -111,17 +111,17 @@
       }
     },
     {
-      "id": "08-16-richard-wagner",
+      "id": "08-16-tohoku-university",
       "date": "08-16",
       "dateLabel": "16 August",
-      "category": "culture",
-      "categoryName": "Culture",
-      "year": 1876,
-      "title": "Richard Wagner",
-      "body": "Richard Wagner's Siegfried, the penultimate opera in his Ring cycle, is premiered at the Bayreuth Festspielhaus.",
+      "category": "world",
+      "categoryName": "World",
+      "year": 1913,
+      "title": "Tohoku University",
+      "body": "Tōhoku Imperial University of Japan (modern day Tohoku University) becomes the first university in Japan to admit female students.",
       "source": {
-        "name": "Wikipedia · Richard Wagner",
-        "url": "https://en.wikipedia.org/wiki/Richard_Wagner",
+        "name": "Wikipedia · Tohoku University",
+        "url": "https://en.wikipedia.org/wiki/Tohoku_University",
         "calendarUrl": "https://en.wikipedia.org/wiki/August_16",
         "license": {
           "name": "CC BY-SA 4.0",
@@ -129,12 +129,12 @@
         }
       },
       "image": {
-        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/9d/RichardWagner.jpg/1280px-RichardWagner.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-        "alt": "Picture from the Wikipedia article on Richard Wagner.",
-        "credit": "Franz Hanfstaengl",
-        "source": "https://commons.wikimedia.org/wiki/File:RichardWagner.jpg",
-        "license": "Public domain",
-        "licenseUrl": "https://commons.wikimedia.org/wiki/File:RichardWagner.jpg"
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/dd/Aobayama_New_Campus%2C_Tohoku_University%2C_1st_Nov_2025%E2%91%A1.jpg/500px-Aobayama_New_Campus%2C_Tohoku_University%2C_1st_Nov_2025%E2%91%A1.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "alt": "Picture from the Wikipedia article on Tohoku University.",
+        "credit": "Wikimedia Commons",
+        "source": "https://commons.wikimedia.org/wiki/File:Aobayama_New_Campus,_Tohoku_University,_1st_Nov_2025%E2%91%A1.jpg",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0"
       }
     }
   ]

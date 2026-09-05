@@ -21,7 +21,7 @@
         }
       },
       "image": {
-        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/1d/STS-133_Space_Shuttle_Discovery_after_undocking_3_%28cropped%29.jpg/1280px-STS-133_Space_Shuttle_Discovery_after_undocking_3_%28cropped%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/1d/STS-133_Space_Shuttle_Discovery_after_undocking_3_%28cropped%29.jpg/500px-STS-133_Space_Shuttle_Discovery_after_undocking_3_%28cropped%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
         "alt": "Picture from the Wikipedia article on Space Shuttle Discovery.",
         "credit": "NASA",
         "source": "https://commons.wikimedia.org/wiki/File:STS-133_Space_Shuttle_Discovery_after_undocking_3_(cropped).jpg",
@@ -48,7 +48,7 @@
         }
       },
       "image": {
-        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/90/China_Clipper_over_San_Francisco.jpg/1280px-China_Clipper_over_San_Francisco.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/90/China_Clipper_over_San_Francisco.jpg/500px-China_Clipper_over_San_Francisco.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
         "alt": "Picture from the Wikipedia article on China Clipper.",
         "credit": "Sunderland",
         "source": "https://commons.wikimedia.org/wiki/File:China_Clipper_over_San_Francisco.jpg",
@@ -75,12 +75,39 @@
         }
       },
       "image": {
-        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f8/Morning_first_day_of_Orange_Revolution.jpg/1280px-Morning_first_day_of_Orange_Revolution.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f8/Morning_first_day_of_Orange_Revolution.jpg/500px-Morning_first_day_of_Orange_Revolution.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
         "alt": "Picture from the Wikipedia article on Orange Revolution.",
         "credit": "Serhiy",
         "source": "https://commons.wikimedia.org/wiki/File:Morning_first_day_of_Orange_Revolution.jpg",
         "license": "CC BY-SA 3.0",
         "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0/"
+      }
+    },
+    {
+      "id": "11-22-prime-minister-of-the-united-kingdom",
+      "date": "11-22",
+      "dateLabel": "22 November",
+      "category": "world",
+      "categoryName": "World",
+      "year": 1990,
+      "title": "Prime Minister of the United Kingdom",
+      "body": "British Prime Minister Margaret Thatcher withdraws from the Conservative Party leadership election, confirming the end of her Premiership.",
+      "source": {
+        "name": "Wikipedia · Prime Minister of the United Kingdom",
+        "url": "https://en.wikipedia.org/wiki/Prime_Minister_of_the_United_Kingdom",
+        "calendarUrl": "https://en.wikipedia.org/wiki/November_22",
+        "license": {
+          "name": "CC BY-SA 4.0",
+          "url": "https://creativecommons.org/licenses/by-sa/4.0/"
+        }
+      },
+      "image": {
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/6c/Coat_of_arms_of_the_United_Kingdom_%282024%2C_lesser_arms%29.svg/500px-Coat_of_arms_of_the_United_Kingdom_%282024%2C_lesser_arms%29.svg.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "alt": "Picture from the Wikipedia article on Prime Minister of the United Kingdom.",
+        "credit": "Dgp4004",
+        "source": "https://commons.wikimedia.org/wiki/File:Coat_of_arms_of_the_United_Kingdom_(2024,_lesser_arms).svg",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0"
       }
     },
     {
@@ -108,33 +135,6 @@
         "source": "https://commons.wikimedia.org/wiki/File:Prince_Albert_of_Saxe-Coburg-Gotha_(cropped).png",
         "license": "Public domain",
         "licenseUrl": "https://commons.wikimedia.org/wiki/File:Prince_Albert_of_Saxe-Coburg-Gotha_(cropped).png"
-      }
-    },
-    {
-      "id": "11-22-prime-minister-of-the-united-kingdom",
-      "date": "11-22",
-      "dateLabel": "22 November",
-      "category": "world",
-      "categoryName": "World",
-      "year": 1990,
-      "title": "Prime Minister of the United Kingdom",
-      "body": "British Prime Minister Margaret Thatcher withdraws from the Conservative Party leadership election, confirming the end of her Premiership.",
-      "source": {
-        "name": "Wikipedia · Prime Minister of the United Kingdom",
-        "url": "https://en.wikipedia.org/wiki/Prime_Minister_of_the_United_Kingdom",
-        "calendarUrl": "https://en.wikipedia.org/wiki/November_22",
-        "license": {
-          "name": "CC BY-SA 4.0",
-          "url": "https://creativecommons.org/licenses/by-sa/4.0/"
-        }
-      },
-      "image": {
-        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/6c/Coat_of_arms_of_the_United_Kingdom_%282024%2C_lesser_arms%29.svg/1280px-Coat_of_arms_of_the_United_Kingdom_%282024%2C_lesser_arms%29.svg.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-        "alt": "Picture from the Wikipedia article on Prime Minister of the United Kingdom.",
-        "credit": "Dgp4004",
-        "source": "https://commons.wikimedia.org/wiki/File:Coat_of_arms_of_the_United_Kingdom_(2024,_lesser_arms).svg",
-        "license": "CC BY-SA 4.0",
-        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0"
       }
     }
   ]

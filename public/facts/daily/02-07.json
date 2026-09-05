@@ -21,7 +21,7 @@
         }
       },
       "image": {
-        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/ca/Pluto_in_True_Color_-_High-Res.png/1280px-Pluto_in_True_Color_-_High-Res.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/ca/Pluto_in_True_Color_-_High-Res.png/500px-Pluto_in_True_Color_-_High-Res.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
         "alt": "Picture from the Wikipedia article on Pluto.",
         "credit": "NASA",
         "source": "https://commons.wikimedia.org/wiki/File:Pluto_in_True_Color_-_High-Res.png",
@@ -48,7 +48,7 @@
         }
       },
       "image": {
-        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/42/The_Beatles_1963_Dezo_Hoffman_Capitol_Records_press_photo_2.jpg/1280px-The_Beatles_1963_Dezo_Hoffman_Capitol_Records_press_photo_2.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/42/The_Beatles_1963_Dezo_Hoffman_Capitol_Records_press_photo_2.jpg/500px-The_Beatles_1963_Dezo_Hoffman_Capitol_Records_press_photo_2.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
         "alt": "Picture from the Wikipedia article on The Beatles.",
         "credit": "Dezo Hoffmann",
         "source": "https://commons.wikimedia.org/wiki/File:The_Beatles_1963_Dezo_Hoffman_Capitol_Records_press_photo_2.jpg",
@@ -75,39 +75,12 @@
         }
       },
       "image": {
-        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/eb/UK_Happisburgh_c._800000_BP_EN.svg/1280px-UK_Happisburgh_c._800000_BP_EN.svg.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/eb/UK_Happisburgh_c._800000_BP_EN.svg/500px-UK_Happisburgh_c._800000_BP_EN.svg.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
         "alt": "Picture from the Wikipedia article on Happisburgh footprints.",
         "credit": "Philg88",
         "source": "https://commons.wikimedia.org/wiki/File:UK_Happisburgh_c._800000_BP_EN.svg",
         "license": "CC BY 4.0",
         "licenseUrl": "https://creativecommons.org/licenses/by/4.0"
-      }
-    },
-    {
-      "id": "02-07-maastricht-treaty",
-      "date": "02-07",
-      "dateLabel": "7 February",
-      "category": "world",
-      "categoryName": "World",
-      "year": 1992,
-      "title": "Maastricht Treaty",
-      "body": "The Maastricht Treaty is signed, leading to the creation of the European Union.",
-      "source": {
-        "name": "Wikipedia · Maastricht Treaty",
-        "url": "https://en.wikipedia.org/wiki/Maastricht_Treaty",
-        "calendarUrl": "https://en.wikipedia.org/wiki/February_7",
-        "license": {
-          "name": "CC BY-SA 4.0",
-          "url": "https://creativecommons.org/licenses/by-sa/4.0/"
-        }
-      },
-      "image": {
-        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/65/GER_%E2%80%94_BY_%E2%80%94_Regensburg_-_Donaumarkt_1_%28Museum_der_Bayerischen_Geschichte%3B_Vertrag_von_Maastricht%29_%28cropped%29.JPG/1280px-GER_%E2%80%94_BY_%E2%80%94_Regensburg_-_Donaumarkt_1_%28Museum_der_Bayerischen_Geschichte%3B_Vertrag_von_Maastricht%29_%28cropped%29.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-        "alt": "Picture from the Wikipedia article on Maastricht Treaty.",
-        "credit": "User:Mateus2019",
-        "source": "https://commons.wikimedia.org/wiki/File:GER_%E2%80%94_BY_%E2%80%94_Regensburg_-_Donaumarkt_1_(Museum_der_Bayerischen_Geschichte;_Vertrag_von_Maastricht)_(cropped).JPG",
-        "license": "CC BY 2.0 de",
-        "licenseUrl": "https://creativecommons.org/licenses/by/2.0/de/deed.en"
       }
     },
     {
@@ -129,12 +102,39 @@
         }
       },
       "image": {
-        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/0c/North_Korean_missile_launches_over_Japan.svg/1280px-North_Korean_missile_launches_over_Japan.svg.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/0c/North_Korean_missile_launches_over_Japan.svg/500px-North_Korean_missile_launches_over_Japan.svg.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
         "alt": "Picture from the Wikipedia article on Kwangmyŏngsŏng-4.",
         "credit": "Phoenix7777",
         "source": "https://commons.wikimedia.org/wiki/File:North_Korean_missile_launches_over_Japan.svg",
         "license": "CC BY-SA 4.0",
         "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0"
+      }
+    },
+    {
+      "id": "02-07-walt-disney",
+      "date": "02-07",
+      "dateLabel": "7 February",
+      "category": "culture",
+      "categoryName": "Culture",
+      "year": 1940,
+      "title": "Walt Disney",
+      "body": "The second full-length animated Walt Disney film, Pinocchio, premieres.",
+      "source": {
+        "name": "Wikipedia · Walt Disney",
+        "url": "https://en.wikipedia.org/wiki/Walt_Disney",
+        "calendarUrl": "https://en.wikipedia.org/wiki/February_7",
+        "license": {
+          "name": "CC BY-SA 4.0",
+          "url": "https://creativecommons.org/licenses/by-sa/4.0/"
+        }
+      },
+      "image": {
+        "src": "https://upload.wikimedia.org/wikipedia/commons/5/50/Walt_Disney_1946_%28cropped2%29.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+        "alt": "Picture from the Wikipedia article on Walt Disney.",
+        "credit": "Boy Scouts of America",
+        "source": "https://commons.wikimedia.org/wiki/File:Walt_Disney_1946_(cropped2).JPG",
+        "license": "Public domain",
+        "licenseUrl": "https://commons.wikimedia.org/wiki/File:Walt_Disney_1946_(cropped2).JPG"
       }
     }
   ]

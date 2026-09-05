@@ -45,3 +45,6 @@ next-env.d.ts
 
 # agent config: the project config in .claude/ is committed, personal overrides are not
 .claude/settings.local.json
+
+# Upstream answers kept by npm run facts:generate. Rebuildable: --refresh.
+.cache/

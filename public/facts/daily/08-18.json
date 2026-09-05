@@ -3,33 +3,6 @@
   "dateLabel": "18 August",
   "facts": [
     {
-      "id": "08-18-luna-24",
-      "date": "08-18",
-      "dateLabel": "18 August",
-      "category": "space",
-      "categoryName": "Space",
-      "year": 1976,
-      "title": "Luna 24",
-      "body": "The Soviet Union's robotic probe Luna 24 successfully lands on the Moon.",
-      "source": {
-        "name": "Wikipedia · Luna 24",
-        "url": "https://en.wikipedia.org/wiki/Luna_24",
-        "calendarUrl": "https://en.wikipedia.org/wiki/August_18",
-        "license": {
-          "name": "CC BY-SA 4.0",
-          "url": "https://creativecommons.org/licenses/by-sa/4.0/"
-        }
-      },
-      "image": {
-        "src": "https://upload.wikimedia.org/wikipedia/commons/c/ca/Luna24_rev_fig.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
-        "alt": "Picture from the Wikipedia article on Luna 24.",
-        "credit": "LRO",
-        "source": "https://commons.wikimedia.org/wiki/File:Luna24_rev_fig.png",
-        "license": "Public domain",
-        "licenseUrl": "https://commons.wikimedia.org/wiki/File:Luna24_rev_fig.png"
-      }
-    },
-    {
       "id": "08-18-vladimir-nabokov",
       "date": "08-18",
       "dateLabel": "18 August",
@@ -48,7 +21,7 @@
         }
       },
       "image": {
-        "src": "https://upload.wikimedia.org/wikipedia/commons/8/87/Vladimir_Nabokov_1973.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/87/Vladimir_Nabokov_1973.jpg/500px-Vladimir_Nabokov_1973.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
         "alt": "Picture from the Wikipedia article on Vladimir Nabokov.",
         "credit": "Walter Mori",
         "source": "https://commons.wikimedia.org/wiki/File:Vladimir_Nabokov_1973.jpg",
@@ -57,17 +30,17 @@
       }
     },
     {
-      "id": "08-18-karl-jatho",
+      "id": "08-18-luna-24",
       "date": "08-18",
       "dateLabel": "18 August",
-      "category": "world",
-      "categoryName": "World",
-      "year": 1903,
-      "title": "Karl Jatho",
-      "body": "German engineer Karl Jatho allegedly flies his self-made, motored gliding airplane four months before the first flight of the Wright brothers.",
+      "category": "space",
+      "categoryName": "Space",
+      "year": 1976,
+      "title": "Luna 24",
+      "body": "The Soviet Union's robotic probe Luna 24 successfully lands on the Moon.",
       "source": {
-        "name": "Wikipedia · Karl Jatho",
-        "url": "https://en.wikipedia.org/wiki/Karl_Jatho",
+        "name": "Wikipedia · Luna 24",
+        "url": "https://en.wikipedia.org/wiki/Luna_24",
         "calendarUrl": "https://en.wikipedia.org/wiki/August_18",
         "license": {
           "name": "CC BY-SA 4.0",
@@ -75,39 +48,12 @@
         }
       },
       "image": {
-        "src": "https://upload.wikimedia.org/wikipedia/commons/6/64/Karl_Jatho_1907-1908_am_Steuer_seines_Zweiflaechers.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
-        "alt": "Picture from the Wikipedia article on Karl Jatho.",
-        "credit": "Unknown author",
-        "source": "https://commons.wikimedia.org/wiki/File:Karl_Jatho_1907-1908_am_Steuer_seines_Zweiflaechers.jpg",
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/ca/Luna24_rev_fig.png/500px-Luna24_rev_fig.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "alt": "Picture from the Wikipedia article on Luna 24.",
+        "credit": "LRO",
+        "source": "https://commons.wikimedia.org/wiki/File:Luna24_rev_fig.png",
         "license": "Public domain",
-        "licenseUrl": "https://commons.wikimedia.org/wiki/File:Karl_Jatho_1907-1908_am_Steuer_seines_Zweiflaechers.jpg"
-      }
-    },
-    {
-      "id": "08-18-astronomer",
-      "date": "08-18",
-      "dateLabel": "18 August",
-      "category": "science",
-      "categoryName": "Science",
-      "year": 1868,
-      "title": "Astronomer",
-      "body": "French astronomer Pierre Janssen discovers helium.",
-      "source": {
-        "name": "Wikipedia · Astronomer",
-        "url": "https://en.wikipedia.org/wiki/Astronomer",
-        "calendarUrl": "https://en.wikipedia.org/wiki/August_18",
-        "license": {
-          "name": "CC BY-SA 4.0",
-          "url": "https://creativecommons.org/licenses/by-sa/4.0/"
-        }
-      },
-      "image": {
-        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/cf/IAU_2006_General_Assembly-_Result_of_the_IAU_Resolution_Votes_%28iau0603g%29.jpg/1280px-IAU_2006_General_Assembly-_Result_of_the_IAU_Resolution_Votes_%28iau0603g%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-        "alt": "Picture from the Wikipedia article on Astronomer.",
-        "credit": "IAU/Robert Hurt",
-        "source": "https://commons.wikimedia.org/wiki/File:IAU_2006_General_Assembly-_Result_of_the_IAU_Resolution_Votes_(iau0603g).jpg",
-        "license": "CC BY 4.0",
-        "licenseUrl": "https://creativecommons.org/licenses/by/4.0"
+        "licenseUrl": "https://commons.wikimedia.org/wiki/File:Luna24_rev_fig.png"
       }
     },
     {
@@ -129,12 +75,66 @@
         }
       },
       "image": {
-        "src": "https://upload.wikimedia.org/wikipedia/commons/f/f3/James_Meredith_in_2010_%28cropped%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f3/James_Meredith_in_2010_%28cropped%29.jpg/500px-James_Meredith_in_2010_%28cropped%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
         "alt": "Picture from the Wikipedia article on James Meredith.",
         "credit": "/\\ \\/\\/ /\\ from USA",
         "source": "https://commons.wikimedia.org/wiki/File:James_Meredith_in_2010_(cropped).jpg",
         "license": "CC BY-SA 2.0",
         "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0"
+      }
+    },
+    {
+      "id": "08-18-astronomer",
+      "date": "08-18",
+      "dateLabel": "18 August",
+      "category": "science",
+      "categoryName": "Science",
+      "year": 1868,
+      "title": "Astronomer",
+      "body": "French astronomer Pierre Janssen discovers helium.",
+      "source": {
+        "name": "Wikipedia · Astronomer",
+        "url": "https://en.wikipedia.org/wiki/Astronomer",
+        "calendarUrl": "https://en.wikipedia.org/wiki/August_18",
+        "license": {
+          "name": "CC BY-SA 4.0",
+          "url": "https://creativecommons.org/licenses/by-sa/4.0/"
+        }
+      },
+      "image": {
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/cf/IAU_2006_General_Assembly-_Result_of_the_IAU_Resolution_Votes_%28iau0603g%29.jpg/500px-IAU_2006_General_Assembly-_Result_of_the_IAU_Resolution_Votes_%28iau0603g%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "alt": "Picture from the Wikipedia article on Astronomer.",
+        "credit": "IAU/Robert Hurt",
+        "source": "https://commons.wikimedia.org/wiki/File:IAU_2006_General_Assembly-_Result_of_the_IAU_Resolution_Votes_(iau0603g).jpg",
+        "license": "CC BY 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by/4.0"
+      }
+    },
+    {
+      "id": "08-18-brojen-das",
+      "date": "08-18",
+      "dateLabel": "18 August",
+      "category": "world",
+      "categoryName": "World",
+      "year": 1958,
+      "title": "Brojen Das",
+      "body": "Brojen Das from Bangladesh swims across the English Channel in a competition as the first Bengali and the first Asian to do so, placing first among the 39 competitors.",
+      "source": {
+        "name": "Wikipedia · Brojen Das",
+        "url": "https://en.wikipedia.org/wiki/Brojen_Das",
+        "calendarUrl": "https://en.wikipedia.org/wiki/August_18",
+        "license": {
+          "name": "CC BY-SA 4.0",
+          "url": "https://creativecommons.org/licenses/by-sa/4.0/"
+        }
+      },
+      "image": {
+        "src": "https://upload.wikimedia.org/wikipedia/commons/4/48/Brojen_das.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+        "alt": "Picture from the Wikipedia article on Brojen Das.",
+        "credit": "Wikimedia Commons",
+        "source": "https://commons.wikimedia.org/wiki/File:Brojen_das.jpg",
+        "license": "CC BY-SA 2.5",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.5"
       }
     }
   ]

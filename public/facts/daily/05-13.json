@@ -3,6 +3,87 @@
   "dateLabel": "13 May",
   "facts": [
     {
+      "id": "05-13-li-hongzhi",
+      "date": "05-13",
+      "dateLabel": "13 May",
+      "category": "world",
+      "categoryName": "World",
+      "year": 1992,
+      "title": "Li Hongzhi",
+      "body": "Li Hongzhi gives the first public lecture on Falun Gong in Changchun, People's Republic of China.",
+      "source": {
+        "name": "Wikipedia · Li Hongzhi",
+        "url": "https://en.wikipedia.org/wiki/Li_Hongzhi",
+        "calendarUrl": "https://en.wikipedia.org/wiki/May_13",
+        "license": {
+          "name": "CC BY-SA 4.0",
+          "url": "https://creativecommons.org/licenses/by-sa/4.0/"
+        }
+      },
+      "image": {
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b4/Portrait_photo_of_Li_Hongzhi.png/500px-Portrait_photo_of_Li_Hongzhi.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "alt": "Picture from the Wikipedia article on Li Hongzhi.",
+        "credit": "Falun Dafa Information Center",
+        "source": "https://commons.wikimedia.org/wiki/File:Portrait_photo_of_Li_Hongzhi.png",
+        "license": "CC BY 3.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by/3.0"
+      }
+    },
+    {
+      "id": "05-13-1950-british-grand-prix",
+      "date": "05-13",
+      "dateLabel": "13 May",
+      "category": "sport",
+      "categoryName": "Sport",
+      "year": 1950,
+      "title": "1950 British Grand Prix",
+      "body": "The inaugural Formula One World Championship race takes place at Silverstone Circuit. The race was won by Giuseppe Farina, who would go on to become the inaugural champion that year.",
+      "source": {
+        "name": "Wikipedia · 1950 British Grand Prix",
+        "url": "https://en.wikipedia.org/wiki/1950_British_Grand_Prix",
+        "calendarUrl": "https://en.wikipedia.org/wiki/May_13",
+        "license": {
+          "name": "CC BY-SA 4.0",
+          "url": "https://creativecommons.org/licenses/by-sa/4.0/"
+        }
+      },
+      "image": {
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b2/Silverstone_Circuit_1949_to_1951.png/500px-Silverstone_Circuit_1949_to_1951.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "alt": "Picture from the Wikipedia article on 1950 British Grand Prix.",
+        "credit": "Tom McKay",
+        "source": "https://commons.wikimedia.org/wiki/File:Silverstone_Circuit_1949_to_1951.png",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0"
+      }
+    },
+    {
+      "id": "05-13-great-comet-of-1861",
+      "date": "05-13",
+      "dateLabel": "13 May",
+      "category": "space",
+      "categoryName": "Space",
+      "year": 1861,
+      "title": "C/1861 J1",
+      "body": "The Great Comet of 1861 is discovered by John Tebbutt of Windsor, New South Wales, Australia.",
+      "source": {
+        "name": "Wikipedia · C/1861 J1 (Tebbutt)",
+        "url": "https://en.wikipedia.org/wiki/C/1861_J1_(Tebbutt)",
+        "calendarUrl": "https://en.wikipedia.org/wiki/May_13",
+        "license": {
+          "name": "CC BY-SA 4.0",
+          "url": "https://creativecommons.org/licenses/by-sa/4.0/"
+        }
+      },
+      "image": {
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/39/Great_Comet_1861_%28128495343%29.jpg/500px-Great_Comet_1861_%28128495343%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "alt": "Picture from the Wikipedia article on C/1861 J1.",
+        "credit": "Edmund Weiss",
+        "source": "https://commons.wikimedia.org/wiki/File:Great_Comet_1861_(128495343).jpg",
+        "license": "Public domain",
+        "licenseUrl": "https://commons.wikimedia.org/wiki/File:Great_Comet_1861_(128495343).jpg"
+      }
+    },
+    {
       "id": "05-13-tiananmen-square-protests-of-1989",
       "date": "05-13",
       "dateLabel": "13 May",
@@ -30,60 +111,6 @@
       }
     },
     {
-      "id": "05-13-1950-british-grand-prix",
-      "date": "05-13",
-      "dateLabel": "13 May",
-      "category": "sport",
-      "categoryName": "Sport",
-      "year": 1950,
-      "title": "1950 British Grand Prix",
-      "body": "The inaugural Formula One World Championship race takes place at Silverstone Circuit. The race was won by Giuseppe Farina, who would go on to become the inaugural champion that year.",
-      "source": {
-        "name": "Wikipedia · 1950 British Grand Prix",
-        "url": "https://en.wikipedia.org/wiki/1950_British_Grand_Prix",
-        "calendarUrl": "https://en.wikipedia.org/wiki/May_13",
-        "license": {
-          "name": "CC BY-SA 4.0",
-          "url": "https://creativecommons.org/licenses/by-sa/4.0/"
-        }
-      },
-      "image": {
-        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b2/Silverstone_Circuit_1949_to_1951.png/1280px-Silverstone_Circuit_1949_to_1951.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-        "alt": "Picture from the Wikipedia article on 1950 British Grand Prix.",
-        "credit": "Tom McKay",
-        "source": "https://commons.wikimedia.org/wiki/File:Silverstone_Circuit_1949_to_1951.png",
-        "license": "CC BY-SA 4.0",
-        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0"
-      }
-    },
-    {
-      "id": "05-13-great-comet-of-1861",
-      "date": "05-13",
-      "dateLabel": "13 May",
-      "category": "space",
-      "categoryName": "Space",
-      "year": 1861,
-      "title": "C/1861 J1",
-      "body": "The Great Comet of 1861 is discovered by John Tebbutt of Windsor, New South Wales, Australia.",
-      "source": {
-        "name": "Wikipedia · C/1861 J1 (Tebbutt)",
-        "url": "https://en.wikipedia.org/wiki/C/1861_J1_(Tebbutt)",
-        "calendarUrl": "https://en.wikipedia.org/wiki/May_13",
-        "license": {
-          "name": "CC BY-SA 4.0",
-          "url": "https://creativecommons.org/licenses/by-sa/4.0/"
-        }
-      },
-      "image": {
-        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/39/Great_Comet_1861_%28128495343%29.jpg/1280px-Great_Comet_1861_%28128495343%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-        "alt": "Picture from the Wikipedia article on C/1861 J1.",
-        "credit": "Edmund Weiss",
-        "source": "https://commons.wikimedia.org/wiki/File:Great_Comet_1861_(128495343).jpg",
-        "license": "Public domain",
-        "licenseUrl": "https://commons.wikimedia.org/wiki/File:Great_Comet_1861_(128495343).jpg"
-      }
-    },
-    {
       "id": "05-13-alison-hargreaves",
       "date": "05-13",
       "dateLabel": "13 May",
@@ -102,39 +129,12 @@
         }
       },
       "image": {
-        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/91/Tom_Frost_-_Climbers_on_Kangtega_-_1986.jpg/1280px-Tom_Frost_-_Climbers_on_Kangtega_-_1986.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/91/Tom_Frost_-_Climbers_on_Kangtega_-_1986.jpg/500px-Tom_Frost_-_Climbers_on_Kangtega_-_1986.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
         "alt": "Picture from the Wikipedia article on Alison Hargreaves.",
         "credit": "Tom Frost",
         "source": "https://commons.wikimedia.org/wiki/File:Tom_Frost_-_Climbers_on_Kangtega_-_1986.jpg",
         "license": "CC BY 3.0",
         "licenseUrl": "https://creativecommons.org/licenses/by/3.0"
-      }
-    },
-    {
-      "id": "05-13-1909-giro-d-italia",
-      "date": "05-13",
-      "dateLabel": "13 May",
-      "category": "sport",
-      "categoryName": "Sport",
-      "year": 1909,
-      "title": "1909 Giro d'Italia",
-      "body": "The first edition of the Giro d'Italia, a long-distance multiple-stage bicycle race, begins in Milan; the Italian cyclist Luigi Ganna was the eventual winner.",
-      "source": {
-        "name": "Wikipedia · 1909 Giro d'Italia",
-        "url": "https://en.wikipedia.org/wiki/1909_Giro_d%27Italia",
-        "calendarUrl": "https://en.wikipedia.org/wiki/May_13",
-        "license": {
-          "name": "CC BY-SA 4.0",
-          "url": "https://creativecommons.org/licenses/by-sa/4.0/"
-        }
-      },
-      "image": {
-        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/ae/Giro_1909.png/1280px-Giro_1909.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-        "alt": "Picture from the Wikipedia article on 1909 Giro d'Italia.",
-        "credit": "Viktorin1988",
-        "source": "https://commons.wikimedia.org/wiki/File:Giro_1909.png",
-        "license": "CC BY 2.5",
-        "licenseUrl": "https://creativecommons.org/licenses/by/2.5"
       }
     }
   ]

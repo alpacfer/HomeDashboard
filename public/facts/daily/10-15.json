@@ -3,33 +3,6 @@
   "dateLabel": "15 October",
   "facts": [
     {
-      "id": "10-15-fortran",
-      "date": "10-15",
-      "dateLabel": "15 October",
-      "category": "tech",
-      "categoryName": "Tech",
-      "year": 1956,
-      "title": "Fortran",
-      "body": "FORTRAN, the first modern computer language, is first shared with the coding community.",
-      "source": {
-        "name": "Wikipedia · Fortran",
-        "url": "https://en.wikipedia.org/wiki/Fortran",
-        "calendarUrl": "https://en.wikipedia.org/wiki/October_15",
-        "license": {
-          "name": "CC BY-SA 4.0",
-          "url": "https://creativecommons.org/licenses/by-sa/4.0/"
-        }
-      },
-      "image": {
-        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b8/Fortran_logo.svg/1280px-Fortran_logo.svg.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-        "alt": "Picture from the Wikipedia article on Fortran.",
-        "credit": "Fortran-lang community",
-        "source": "https://commons.wikimedia.org/wiki/File:Fortran_logo.svg",
-        "license": "Public domain",
-        "licenseUrl": "https://commons.wikimedia.org/wiki/File:Fortran_logo.svg"
-      }
-    },
-    {
       "id": "10-15-cassini-huygens",
       "date": "10-15",
       "dateLabel": "15 October",
@@ -48,7 +21,7 @@
         }
       },
       "image": {
-        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b2/Cassini_Saturn_Orbit_Insertion.jpg/1280px-Cassini_Saturn_Orbit_Insertion.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b2/Cassini_Saturn_Orbit_Insertion.jpg/500px-Cassini_Saturn_Orbit_Insertion.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
         "alt": "Picture from the Wikipedia article on Cassini–Huygens.",
         "credit": "NASA/JPL",
         "source": "https://commons.wikimedia.org/wiki/File:Cassini_Saturn_Orbit_Insertion.jpg",
@@ -57,17 +30,17 @@
       }
     },
     {
-      "id": "10-15-montgolfier-brothers",
+      "id": "10-15-fortran",
       "date": "10-15",
       "dateLabel": "15 October",
-      "category": "curious",
-      "categoryName": "Curious",
-      "year": 1783,
-      "title": "Montgolfier brothers",
-      "body": "The Montgolfier brothers' hot air balloon makes the first human ascent, piloted by Jean-François Pilâtre de Rozier.",
+      "category": "tech",
+      "categoryName": "Tech",
+      "year": 1956,
+      "title": "Fortran",
+      "body": "FORTRAN, the first modern computer language, is first shared with the coding community.",
       "source": {
-        "name": "Wikipedia · Montgolfier brothers",
-        "url": "https://en.wikipedia.org/wiki/Montgolfier_brothers",
+        "name": "Wikipedia · Fortran",
+        "url": "https://en.wikipedia.org/wiki/Fortran",
         "calendarUrl": "https://en.wikipedia.org/wiki/October_15",
         "license": {
           "name": "CC BY-SA 4.0",
@@ -75,39 +48,12 @@
         }
       },
       "image": {
-        "src": "https://upload.wikimedia.org/wikipedia/commons/5/53/Joseph-montgolfier.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
-        "alt": "Picture from the Wikipedia article on Montgolfier brothers.",
-        "credit": "Unidentified painter",
-        "source": "https://commons.wikimedia.org/wiki/File:Joseph-montgolfier.jpg",
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b8/Fortran_logo.svg/500px-Fortran_logo.svg.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "alt": "Picture from the Wikipedia article on Fortran.",
+        "credit": "Fortran-lang community",
+        "source": "https://commons.wikimedia.org/wiki/File:Fortran_logo.svg",
         "license": "Public domain",
-        "licenseUrl": "https://commons.wikimedia.org/wiki/File:Joseph-montgolfier.jpg"
-      }
-    },
-    {
-      "id": "10-15-wayne-gretzky",
-      "date": "10-15",
-      "dateLabel": "15 October",
-      "category": "world",
-      "categoryName": "World",
-      "year": 1989,
-      "title": "Wayne Gretzky",
-      "body": "Wayne Gretzky becomes the all-time leading points scorer in the NHL.",
-      "source": {
-        "name": "Wikipedia · Wayne Gretzky",
-        "url": "https://en.wikipedia.org/wiki/Wayne_Gretzky",
-        "calendarUrl": "https://en.wikipedia.org/wiki/October_15",
-        "license": {
-          "name": "CC BY-SA 4.0",
-          "url": "https://creativecommons.org/licenses/by-sa/4.0/"
-        }
-      },
-      "image": {
-        "src": "https://upload.wikimedia.org/wikipedia/commons/c/cc/Andrew_Scheer_with_Wayne_Gretzky_%2848055697168%29_%28cropped%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
-        "alt": "Picture from the Wikipedia article on Wayne Gretzky.",
-        "credit": "Andre Forget - Andrew Scheer",
-        "source": "https://commons.wikimedia.org/wiki/File:Andrew_Scheer_with_Wayne_Gretzky_(48055697168)_(cropped).jpg",
-        "license": "CC0",
-        "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/deed.en"
+        "licenseUrl": "https://commons.wikimedia.org/wiki/File:Fortran_logo.svg"
       }
     },
     {
@@ -135,6 +81,60 @@
         "source": "https://commons.wikimedia.org/wiki/File:RIAN_archive_850809_General_Secretary_of_the_CPSU_CC_M._Gorbachev_(crop).jpg",
         "license": "CC BY-SA 3.0",
         "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0"
+      }
+    },
+    {
+      "id": "10-15-montgolfier-brothers",
+      "date": "10-15",
+      "dateLabel": "15 October",
+      "category": "curious",
+      "categoryName": "Curious",
+      "year": 1783,
+      "title": "Montgolfier brothers",
+      "body": "The Montgolfier brothers' hot air balloon makes the first human ascent, piloted by Jean-François Pilâtre de Rozier.",
+      "source": {
+        "name": "Wikipedia · Montgolfier brothers",
+        "url": "https://en.wikipedia.org/wiki/Montgolfier_brothers",
+        "calendarUrl": "https://en.wikipedia.org/wiki/October_15",
+        "license": {
+          "name": "CC BY-SA 4.0",
+          "url": "https://creativecommons.org/licenses/by-sa/4.0/"
+        }
+      },
+      "image": {
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/53/Joseph-montgolfier.jpg/500px-Joseph-montgolfier.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "alt": "Picture from the Wikipedia article on Montgolfier brothers.",
+        "credit": "Unidentified painter",
+        "source": "https://commons.wikimedia.org/wiki/File:Joseph-montgolfier.jpg",
+        "license": "Public domain",
+        "licenseUrl": "https://commons.wikimedia.org/wiki/File:Joseph-montgolfier.jpg"
+      }
+    },
+    {
+      "id": "10-15-galileo-spacecraft",
+      "date": "10-15",
+      "dateLabel": "15 October",
+      "category": "space",
+      "categoryName": "Space",
+      "year": 2001,
+      "title": "Galileo",
+      "body": "NASA's Galileo spacecraft passes within of Jupiter's moon Io.",
+      "source": {
+        "name": "Wikipedia · Galileo (spacecraft)",
+        "url": "https://en.wikipedia.org/wiki/Galileo_(spacecraft)",
+        "calendarUrl": "https://en.wikipedia.org/wiki/October_15",
+        "license": {
+          "name": "CC BY-SA 4.0",
+          "url": "https://creativecommons.org/licenses/by-sa/4.0/"
+        }
+      },
+      "image": {
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/9c/Artwork_Galileo-Io-Jupiter.JPG/500px-Artwork_Galileo-Io-Jupiter.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "alt": "Picture from the Wikipedia article on Galileo.",
+        "credit": "NASA",
+        "source": "https://commons.wikimedia.org/wiki/File:Artwork_Galileo-Io-Jupiter.JPG",
+        "license": "Public domain",
+        "licenseUrl": "https://commons.wikimedia.org/wiki/File:Artwork_Galileo-Io-Jupiter.JPG"
       }
     }
   ]

@@ -3,6 +3,87 @@
   "dateLabel": "25 June",
   "facts": [
     {
+      "id": "06-25-igor-stravinsky",
+      "date": "06-25",
+      "dateLabel": "25 June",
+      "category": "culture",
+      "categoryName": "Culture",
+      "year": 1910,
+      "title": "Igor Stravinsky",
+      "body": "Igor Stravinsky's ballet The Firebird is premiered in Paris, bringing him to prominence as a composer.",
+      "source": {
+        "name": "Wikipedia · Igor Stravinsky",
+        "url": "https://en.wikipedia.org/wiki/Igor_Stravinsky",
+        "calendarUrl": "https://en.wikipedia.org/wiki/June_25",
+        "license": {
+          "name": "CC BY-SA 4.0",
+          "url": "https://creativecommons.org/licenses/by-sa/4.0/"
+        }
+      },
+      "image": {
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/33/Igor_Stravinsky_LOC_32392u.jpg/500px-Igor_Stravinsky_LOC_32392u.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "alt": "Picture from the Wikipedia article on Igor Stravinsky.",
+        "credit": "George Grantham Bain Collection",
+        "source": "https://commons.wikimedia.org/wiki/File:Igor_Stravinsky_LOC_32392u.jpg",
+        "license": "Public domain",
+        "licenseUrl": "https://commons.wikimedia.org/wiki/File:Igor_Stravinsky_LOC_32392u.jpg"
+      }
+    },
+    {
+      "id": "06-25-washington-state",
+      "date": "06-25",
+      "dateLabel": "25 June",
+      "category": "tech",
+      "categoryName": "Tech",
+      "year": 1981,
+      "title": "Washington",
+      "body": "Microsoft is restructured to become an incorporated business in its home state of Washington.",
+      "source": {
+        "name": "Wikipedia · Washington (state)",
+        "url": "https://en.wikipedia.org/wiki/Washington_(state)",
+        "calendarUrl": "https://en.wikipedia.org/wiki/June_25",
+        "license": {
+          "name": "CC BY-SA 4.0",
+          "url": "https://creativecommons.org/licenses/by-sa/4.0/"
+        }
+      },
+      "image": {
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/54/Flag_of_Washington.svg/500px-Flag_of_Washington.svg.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "alt": "Picture from the Wikipedia article on Washington.",
+        "credit": "WA Secretary of State",
+        "source": "https://commons.wikimedia.org/wiki/File:Flag_of_Washington.svg",
+        "license": "Public domain",
+        "licenseUrl": "https://commons.wikimedia.org/wiki/File:Flag_of_Washington.svg"
+      }
+    },
+    {
+      "id": "06-25-rainbow-flag-lgbt-movement",
+      "date": "06-25",
+      "dateLabel": "25 June",
+      "category": "world",
+      "categoryName": "World",
+      "year": 1978,
+      "title": "Rainbow flag",
+      "body": "The rainbow flag representing gay pride is flown for the first time during the San Francisco Gay Freedom Day Parade.",
+      "source": {
+        "name": "Wikipedia · Rainbow flag (LGBTQ)",
+        "url": "https://en.wikipedia.org/wiki/Rainbow_flag_(LGBTQ)",
+        "calendarUrl": "https://en.wikipedia.org/wiki/June_25",
+        "license": {
+          "name": "CC BY-SA 4.0",
+          "url": "https://creativecommons.org/licenses/by-sa/4.0/"
+        }
+      },
+      "image": {
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/48/Gay_Pride_Flag.svg/500px-Gay_Pride_Flag.svg.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "alt": "Picture from the Wikipedia article on Rainbow flag.",
+        "credit": "Guanaco and subsequent editors",
+        "source": "https://commons.wikimedia.org/wiki/File:Gay_Pride_Flag.svg",
+        "license": "Copyrighted free use",
+        "licenseUrl": "https://commons.wikimedia.org/wiki/File:Gay_Pride_Flag.svg"
+      }
+    },
+    {
       "id": "06-25-taoism",
       "date": "06-25",
       "dateLabel": "25 June",
@@ -21,7 +102,7 @@
         }
       },
       "image": {
-        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b8/%E6%AD%A6%E5%BD%93%E5%B1%B1%E7%B4%AB%E9%9C%84%E5%AE%AB_%2814739990839%29.jpg/1280px-%E6%AD%A6%E5%BD%93%E5%B1%B1%E7%B4%AB%E9%9C%84%E5%AE%AB_%2814739990839%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b8/%E6%AD%A6%E5%BD%93%E5%B1%B1%E7%B4%AB%E9%9C%84%E5%AE%AB_%2814739990839%29.jpg/500px-%E6%AD%A6%E5%BD%93%E5%B1%B1%E7%B4%AB%E9%9C%84%E5%AE%AB_%2814739990839%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
         "alt": "Picture from the Wikipedia article on Taoism.",
         "credit": "liuzr99",
         "source": "https://commons.wikimedia.org/wiki/File:%E6%AD%A6%E5%BD%93%E5%B1%B1%E7%B4%AB%E9%9C%84%E5%AE%AB_(14739990839).jpg",
@@ -54,87 +135,6 @@
         "source": "https://commons.wikimedia.org/wiki/File:Jay-Z_meets_with_New_York_Senate_Majority_Leader_in_Albany_(cropped).webp",
         "license": "CC BY 2.0",
         "licenseUrl": "https://creativecommons.org/licenses/by/2.0"
-      }
-    },
-    {
-      "id": "06-25-washington-state",
-      "date": "06-25",
-      "dateLabel": "25 June",
-      "category": "tech",
-      "categoryName": "Tech",
-      "year": 1981,
-      "title": "Washington",
-      "body": "Microsoft is restructured to become an incorporated business in its home state of Washington.",
-      "source": {
-        "name": "Wikipedia · Washington (state)",
-        "url": "https://en.wikipedia.org/wiki/Washington_(state)",
-        "calendarUrl": "https://en.wikipedia.org/wiki/June_25",
-        "license": {
-          "name": "CC BY-SA 4.0",
-          "url": "https://creativecommons.org/licenses/by-sa/4.0/"
-        }
-      },
-      "image": {
-        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/54/Flag_of_Washington.svg/1280px-Flag_of_Washington.svg.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-        "alt": "Picture from the Wikipedia article on Washington.",
-        "credit": "WA Secretary of State",
-        "source": "https://commons.wikimedia.org/wiki/File:Flag_of_Washington.svg",
-        "license": "Public domain",
-        "licenseUrl": "https://commons.wikimedia.org/wiki/File:Flag_of_Washington.svg"
-      }
-    },
-    {
-      "id": "06-25-kim-campbell",
-      "date": "06-25",
-      "dateLabel": "25 June",
-      "category": "world",
-      "categoryName": "World",
-      "year": 1993,
-      "title": "Kim Campbell",
-      "body": "Kim Campbell is sworn in as the first female Prime Minister of Canada.",
-      "source": {
-        "name": "Wikipedia · Kim Campbell",
-        "url": "https://en.wikipedia.org/wiki/Kim_Campbell",
-        "calendarUrl": "https://en.wikipedia.org/wiki/June_25",
-        "license": {
-          "name": "CC BY-SA 4.0",
-          "url": "https://creativecommons.org/licenses/by-sa/4.0/"
-        }
-      },
-      "image": {
-        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/07/Kim_Campbell.jpg/1280px-Kim_Campbell.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-        "alt": "Picture from the Wikipedia article on Kim Campbell.",
-        "credit": "Simon Fraser University",
-        "source": "https://commons.wikimedia.org/wiki/File:Kim_Campbell.jpg",
-        "license": "CC BY 2.0",
-        "licenseUrl": "https://creativecommons.org/licenses/by/2.0"
-      }
-    },
-    {
-      "id": "06-25-igor-stravinsky",
-      "date": "06-25",
-      "dateLabel": "25 June",
-      "category": "culture",
-      "categoryName": "Culture",
-      "year": 1910,
-      "title": "Igor Stravinsky",
-      "body": "Igor Stravinsky's ballet The Firebird is premiered in Paris, bringing him to prominence as a composer.",
-      "source": {
-        "name": "Wikipedia · Igor Stravinsky",
-        "url": "https://en.wikipedia.org/wiki/Igor_Stravinsky",
-        "calendarUrl": "https://en.wikipedia.org/wiki/June_25",
-        "license": {
-          "name": "CC BY-SA 4.0",
-          "url": "https://creativecommons.org/licenses/by-sa/4.0/"
-        }
-      },
-      "image": {
-        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/33/Igor_Stravinsky_LOC_32392u.jpg/1280px-Igor_Stravinsky_LOC_32392u.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-        "alt": "Picture from the Wikipedia article on Igor Stravinsky.",
-        "credit": "George Grantham Bain Collection",
-        "source": "https://commons.wikimedia.org/wiki/File:Igor_Stravinsky_LOC_32392u.jpg",
-        "license": "Public domain",
-        "licenseUrl": "https://commons.wikimedia.org/wiki/File:Igor_Stravinsky_LOC_32392u.jpg"
       }
     }
   ]

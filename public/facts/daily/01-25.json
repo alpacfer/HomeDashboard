@@ -21,7 +21,7 @@
         }
       },
       "image": {
-        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/9d/Thomas_Edison2.jpg/1280px-Thomas_Edison2.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/9d/Thomas_Edison2.jpg/500px-Thomas_Edison2.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
         "alt": "Picture from the Wikipedia article on Thomas Edison.",
         "credit": "Louis Bachrach, Bachrach Studios",
         "source": "https://commons.wikimedia.org/wiki/File:Thomas_Edison2.jpg",
@@ -50,6 +50,8 @@
       "video": {
         "src": "https://upload.wikimedia.org/wikipedia/commons/transcoded/2/2d/Ariane_5_10_2007.ogv/Ariane_5_10_2007.ogv.240p.vp9.webm",
         "fallback": "https://upload.wikimedia.org/wikipedia/commons/transcoded/2/2d/Ariane_5_10_2007.ogv/Ariane_5_10_2007.ogv.360p.mpeg4.mov",
+        "width": 354,
+        "height": 240,
         "poster": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/2d/Ariane_5_10_2007.ogv/500px--Ariane_5_10_2007.ogv.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo",
         "seconds": 98,
         "credit": "Arria Belli",
@@ -58,7 +60,7 @@
         "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0"
       },
       "image": {
-        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/4f/Ariane_5_with_James_Webb_Space_Telescope_Prelaunch_%2851773093465%29.jpg/1280px-Ariane_5_with_James_Webb_Space_Telescope_Prelaunch_%2851773093465%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/4f/Ariane_5_with_James_Webb_Space_Telescope_Prelaunch_%2851773093465%29.jpg/500px-Ariane_5_with_James_Webb_Space_Telescope_Prelaunch_%2851773093465%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
         "alt": "Picture from the Wikipedia article on Ariane 5.",
         "credit": "Chris Gunn",
         "source": "https://commons.wikimedia.org/wiki/File:Ariane_5_with_James_Webb_Space_Telescope_Prelaunch_(51773093465).jpg",
@@ -85,7 +87,7 @@
         }
       },
       "image": {
-        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d6/Mother_Teresa_1.jpg/1280px-Mother_Teresa_1.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d6/Mother_Teresa_1.jpg/500px-Mother_Teresa_1.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
         "alt": "Picture from the Wikipedia article on Mother Teresa.",
         "credit": "Kingkongphoto & www.celebrity-photos.com",
         "source": "https://commons.wikimedia.org/wiki/File:Mother_Teresa_1.jpg",
@@ -112,7 +114,7 @@
         }
       },
       "image": {
-        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d3/Nike_Campus%2C_Beaverton_-_DPLA_-_ffa63f1bbaf5cd21aeada3d3978db2b0.jpg/1280px-Nike_Campus%2C_Beaverton_-_DPLA_-_ffa63f1bbaf5cd21aeada3d3978db2b0.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d3/Nike_Campus%2C_Beaverton_-_DPLA_-_ffa63f1bbaf5cd21aeada3d3978db2b0.jpg/500px-Nike_Campus%2C_Beaverton_-_DPLA_-_ffa63f1bbaf5cd21aeada3d3978db2b0.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
         "alt": "Picture from the Wikipedia article on Nike, Inc..",
         "credit": "Gary Halvorson, Oregon State Archives",
         "source": "https://commons.wikimedia.org/wiki/File:Nike_Campus,_Beaverton_-_DPLA_-_ffa63f1bbaf5cd21aeada3d3978db2b0.jpg",
@@ -139,7 +141,7 @@
         }
       },
       "image": {
-        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a2/Clementine_lunar.jpg/1280px-Clementine_lunar.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a2/Clementine_lunar.jpg/500px-Clementine_lunar.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
         "alt": "Picture from the Wikipedia article on Clementine.",
         "credit": "U.S. Naval Research Laboratory",
         "source": "https://commons.wikimedia.org/wiki/File:Clementine_lunar.jpg",

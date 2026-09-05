@@ -3,33 +3,6 @@
   "dateLabel": "27 September",
   "facts": [
     {
-      "id": "09-27-zhai-zhigang",
-      "date": "09-27",
-      "dateLabel": "27 September",
-      "category": "space",
-      "categoryName": "Space",
-      "year": 2008,
-      "title": "Zhai Zhigang",
-      "body": "CNSA astronaut Zhai Zhigang becomes the first Chinese person to perform a spacewalk.",
-      "source": {
-        "name": "Wikipedia · Zhai Zhigang",
-        "url": "https://en.wikipedia.org/wiki/Zhai_Zhigang",
-        "calendarUrl": "https://en.wikipedia.org/wiki/September_27",
-        "license": {
-          "name": "CC BY-SA 4.0",
-          "url": "https://creativecommons.org/licenses/by-sa/4.0/"
-        }
-      },
-      "image": {
-        "src": "https://upload.wikimedia.org/wikipedia/commons/f/ff/Zhai_Zhigang.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
-        "alt": "Picture from the Wikipedia article on Zhai Zhigang.",
-        "credit": "Johnson Lau",
-        "source": "https://commons.wikimedia.org/wiki/File:Zhai_Zhigang.JPG",
-        "license": "CC BY-SA 3.0",
-        "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0"
-      }
-    },
-    {
       "id": "09-27-google",
       "date": "09-27",
       "dateLabel": "27 September",
@@ -48,7 +21,7 @@
         }
       },
       "image": {
-        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/32/Googleplex_HQ_%28cropped%29.jpg/1280px-Googleplex_HQ_%28cropped%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/32/Googleplex_HQ_%28cropped%29.jpg/500px-Googleplex_HQ_%28cropped%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
         "alt": "Picture from the Wikipedia article on Google.",
         "credit": "Asoundd",
         "source": "https://commons.wikimedia.org/wiki/File:Googleplex_HQ_(cropped).jpg",
@@ -57,17 +30,17 @@
       }
     },
     {
-      "id": "09-27-september-2019-climate-strikes",
+      "id": "09-27-zhai-zhigang",
       "date": "09-27",
       "dateLabel": "27 September",
-      "category": "world",
-      "categoryName": "World",
-      "year": 2019,
-      "title": "September 2019 climate strikes",
-      "body": "Over two million people participated in worldwide strikes to protest climate change across 2,400 locations worldwide.",
+      "category": "space",
+      "categoryName": "Space",
+      "year": 2008,
+      "title": "Zhai Zhigang",
+      "body": "CNSA astronaut Zhai Zhigang becomes the first Chinese person to perform a spacewalk.",
       "source": {
-        "name": "Wikipedia · September 2019 climate strikes",
-        "url": "https://en.wikipedia.org/wiki/September_2019_climate_strikes",
+        "name": "Wikipedia · Zhai Zhigang",
+        "url": "https://en.wikipedia.org/wiki/Zhai_Zhigang",
         "calendarUrl": "https://en.wikipedia.org/wiki/September_27",
         "license": {
           "name": "CC BY-SA 4.0",
@@ -75,12 +48,12 @@
         }
       },
       "image": {
-        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/50/Sept_2019_Global_Climate_Strike_logo_en.svg/1280px-Sept_2019_Global_Climate_Strike_logo_en.svg.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-        "alt": "Picture from the Wikipedia article on September 2019 climate strikes.",
-        "credit": "350.org",
-        "source": "https://commons.wikimedia.org/wiki/File:Sept_2019_Global_Climate_Strike_logo_en.svg",
-        "license": "Public domain",
-        "licenseUrl": "https://commons.wikimedia.org/wiki/File:Sept_2019_Global_Climate_Strike_logo_en.svg"
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/ff/Zhai_Zhigang.JPG/500px-Zhai_Zhigang.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "alt": "Picture from the Wikipedia article on Zhai Zhigang.",
+        "credit": "Johnson Lau",
+        "source": "https://commons.wikimedia.org/wiki/File:Zhai_Zhigang.JPG",
+        "license": "CC BY-SA 3.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0"
       }
     },
     {
@@ -102,7 +75,7 @@
         }
       },
       "image": {
-        "src": "https://upload.wikimedia.org/wikipedia/commons/3/30/Bobby_Jones_c1921.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/30/Bobby_Jones_c1921.jpg/500px-Bobby_Jones_c1921.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
         "alt": "Picture from the Wikipedia article on Bobby Jones.",
         "credit": "unattributed",
         "source": "https://commons.wikimedia.org/wiki/File:Bobby_Jones_c1921.jpg",
@@ -111,17 +84,17 @@
       }
     },
     {
-      "id": "09-27-smart-1",
+      "id": "09-27-dawn-spacecraft",
       "date": "09-27",
       "dateLabel": "27 September",
       "category": "space",
       "categoryName": "Space",
-      "year": 2003,
-      "title": "SMART-1",
-      "body": "The SMART-1 satellite is launched.",
+      "year": 2007,
+      "title": "Dawn",
+      "body": "NASA launches the Dawn probe to the asteroid belt.",
       "source": {
-        "name": "Wikipedia · SMART-1",
-        "url": "https://en.wikipedia.org/wiki/SMART-1",
+        "name": "Wikipedia · Dawn (spacecraft)",
+        "url": "https://en.wikipedia.org/wiki/Dawn_(spacecraft)",
         "calendarUrl": "https://en.wikipedia.org/wiki/September_27",
         "license": {
           "name": "CC BY-SA 4.0",
@@ -129,12 +102,39 @@
         }
       },
       "image": {
-        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f8/Artist%27s_impression_of_the_SMART-1_mission_ESA199399.jpg/1280px-Artist%27s_impression_of_the_SMART-1_mission_ESA199399.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-        "alt": "Picture from the Wikipedia article on SMART-1.",
-        "credit": "ESA",
-        "source": "https://commons.wikimedia.org/wiki/File:Artist%27s_impression_of_the_SMART-1_mission_ESA199399.jpg",
-        "license": "CC BY-SA 3.0 igo",
-        "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0/igo/deed.en"
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/35/Dawn_logo.png/500px-Dawn_logo.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "alt": "Picture from the Wikipedia article on Dawn.",
+        "credit": "NASA",
+        "source": "https://commons.wikimedia.org/wiki/File:Dawn_logo.png",
+        "license": "Public domain",
+        "licenseUrl": "https://commons.wikimedia.org/wiki/File:Dawn_logo.png"
+      }
+    },
+    {
+      "id": "09-27-september-2019-climate-strikes",
+      "date": "09-27",
+      "dateLabel": "27 September",
+      "category": "world",
+      "categoryName": "World",
+      "year": 2019,
+      "title": "September 2019 climate strikes",
+      "body": "Over two million people participated in worldwide strikes to protest climate change across 2,400 locations worldwide.",
+      "source": {
+        "name": "Wikipedia · September 2019 climate strikes",
+        "url": "https://en.wikipedia.org/wiki/September_2019_climate_strikes",
+        "calendarUrl": "https://en.wikipedia.org/wiki/September_27",
+        "license": {
+          "name": "CC BY-SA 4.0",
+          "url": "https://creativecommons.org/licenses/by-sa/4.0/"
+        }
+      },
+      "image": {
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/50/Sept_2019_Global_Climate_Strike_logo_en.svg/500px-Sept_2019_Global_Climate_Strike_logo_en.svg.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "alt": "Picture from the Wikipedia article on September 2019 climate strikes.",
+        "credit": "350.org",
+        "source": "https://commons.wikimedia.org/wiki/File:Sept_2019_Global_Climate_Strike_logo_en.svg",
+        "license": "Public domain",
+        "licenseUrl": "https://commons.wikimedia.org/wiki/File:Sept_2019_Global_Climate_Strike_logo_en.svg"
       }
     }
   ]

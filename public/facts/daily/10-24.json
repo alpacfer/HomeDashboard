@@ -3,33 +3,6 @@
   "dateLabel": "24 October",
   "facts": [
     {
-      "id": "10-24-chang-e-1",
-      "date": "10-24",
-      "dateLabel": "24 October",
-      "category": "space",
-      "categoryName": "Space",
-      "year": 2007,
-      "title": "Chang'e 1",
-      "body": "Chang'e 1, the first satellite in the Chinese Lunar Exploration Program, is launched from Xichang Satellite Launch Center.",
-      "source": {
-        "name": "Wikipedia · Chang'e 1",
-        "url": "https://en.wikipedia.org/wiki/Chang%27e_1",
-        "calendarUrl": "https://en.wikipedia.org/wiki/October_24",
-        "license": {
-          "name": "CC BY-SA 4.0",
-          "url": "https://creativecommons.org/licenses/by-sa/4.0/"
-        }
-      },
-      "image": {
-        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/ad/Chang_e_1.jpg/1280px-Chang_e_1.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-        "alt": "Picture from the Wikipedia article on Chang'e 1.",
-        "credit": "Nasa",
-        "source": "https://commons.wikimedia.org/wiki/File:Chang_e_1.jpg",
-        "license": "Public domain",
-        "licenseUrl": "https://commons.wikimedia.org/wiki/File:Chang_e_1.jpg"
-      }
-    },
-    {
       "id": "10-24-hong-kong-zhuhai-macau-bridge",
       "date": "10-24",
       "dateLabel": "24 October",
@@ -48,7 +21,7 @@
         }
       },
       "image": {
-        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/06/West_section_of_Hong_Kong-Zhuhai-Macau_Bridge_%2820180902174105%29.jpg/1280px-West_section_of_Hong_Kong-Zhuhai-Macau_Bridge_%2820180902174105%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/06/West_section_of_Hong_Kong-Zhuhai-Macau_Bridge_%2820180902174105%29.jpg/500px-West_section_of_Hong_Kong-Zhuhai-Macau_Bridge_%2820180902174105%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
         "alt": "Picture from the Wikipedia article on Hong Kong–Zhuhai–Macau Bridge.",
         "credit": "N509FZ",
         "source": "https://commons.wikimedia.org/wiki/File:West_section_of_Hong_Kong-Zhuhai-Macau_Bridge_(20180902174105).jpg",
@@ -75,12 +48,39 @@
         }
       },
       "image": {
-        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d4/Telegraph_Office_Monument_-_Salt_Lake_City%2C_Utah_-_8_July_2018.jpg/1280px-Telegraph_Office_Monument_-_Salt_Lake_City%2C_Utah_-_8_July_2018.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d4/Telegraph_Office_Monument_-_Salt_Lake_City%2C_Utah_-_8_July_2018.jpg/500px-Telegraph_Office_Monument_-_Salt_Lake_City%2C_Utah_-_8_July_2018.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
         "alt": "Picture from the Wikipedia article on First transcontinental telegraph.",
         "credit": "Beneathtimp",
         "source": "https://commons.wikimedia.org/wiki/File:Telegraph_Office_Monument_-_Salt_Lake_City,_Utah_-_8_July_2018.jpg",
         "license": "CC0",
         "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/deed.en"
+      }
+    },
+    {
+      "id": "10-24-chang-e-1",
+      "date": "10-24",
+      "dateLabel": "24 October",
+      "category": "space",
+      "categoryName": "Space",
+      "year": 2007,
+      "title": "Chang'e 1",
+      "body": "Chang'e 1, the first satellite in the Chinese Lunar Exploration Program, is launched from Xichang Satellite Launch Center.",
+      "source": {
+        "name": "Wikipedia · Chang'e 1",
+        "url": "https://en.wikipedia.org/wiki/Chang%27e_1",
+        "calendarUrl": "https://en.wikipedia.org/wiki/October_24",
+        "license": {
+          "name": "CC BY-SA 4.0",
+          "url": "https://creativecommons.org/licenses/by-sa/4.0/"
+        }
+      },
+      "image": {
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/ad/Chang_e_1.jpg/500px-Chang_e_1.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "alt": "Picture from the Wikipedia article on Chang'e 1.",
+        "credit": "Nasa",
+        "source": "https://commons.wikimedia.org/wiki/File:Chang_e_1.jpg",
+        "license": "Public domain",
+        "licenseUrl": "https://commons.wikimedia.org/wiki/File:Chang_e_1.jpg"
       }
     },
     {
@@ -102,7 +102,7 @@
         }
       },
       "image": {
-        "src": "https://upload.wikimedia.org/wikipedia/commons/f/f5/Deep_Space_1_clean_%28PIA04242%29.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f5/Deep_Space_1_clean_%28PIA04242%29.png/500px-Deep_Space_1_clean_%28PIA04242%29.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
         "alt": "Picture from the Wikipedia article on Deep Space 1.",
         "credit": "NASA/JPL",
         "source": "https://commons.wikimedia.org/wiki/File:Deep_Space_1_clean_(PIA04242).png",
@@ -129,7 +129,7 @@
         }
       },
       "image": {
-        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/5b/First_photo_from_space.jpg/1280px-First_photo_from_space.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/5b/First_photo_from_space.jpg/500px-First_photo_from_space.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
         "alt": "Picture from the Wikipedia article on V-2 No. 13.",
         "credit": "U.S. Army",
         "source": "https://commons.wikimedia.org/wiki/File:First_photo_from_space.jpg",

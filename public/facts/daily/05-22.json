@@ -21,12 +21,39 @@
         }
       },
       "image": {
-        "src": "https://upload.wikimedia.org/wikipedia/commons/b/bb/Apollo_10_Lunar_Module.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/bb/Apollo_10_Lunar_Module.jpg/500px-Apollo_10_Lunar_Module.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
         "alt": "Picture from the Wikipedia article on Apollo 10.",
         "credit": "Wikimedia Commons",
         "source": "https://commons.wikimedia.org/wiki/File:Apollo_10_Lunar_Module.jpg",
         "license": "Public domain",
         "licenseUrl": "https://commons.wikimedia.org/wiki/File:Apollo_10_Lunar_Module.jpg"
+      }
+    },
+    {
+      "id": "05-22-republic-of-ireland",
+      "date": "05-22",
+      "dateLabel": "22 May",
+      "category": "world",
+      "categoryName": "World",
+      "year": 2015,
+      "title": "Republic of Ireland",
+      "body": "The Republic of Ireland becomes the first nation in the world to utilise a public referendum to legalise gay marriage.",
+      "source": {
+        "name": "Wikipedia · Republic of Ireland",
+        "url": "https://en.wikipedia.org/wiki/Republic_of_Ireland",
+        "calendarUrl": "https://en.wikipedia.org/wiki/May_22",
+        "license": {
+          "name": "CC BY-SA 4.0",
+          "url": "https://creativecommons.org/licenses/by-sa/4.0/"
+        }
+      },
+      "image": {
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/45/Flag_of_Ireland.svg/500px-Flag_of_Ireland.svg.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "alt": "Picture from the Wikipedia article on Republic of Ireland.",
+        "credit": "Éire",
+        "source": "https://commons.wikimedia.org/wiki/File:Flag_of_Ireland.svg",
+        "license": "Public domain",
+        "licenseUrl": "https://commons.wikimedia.org/wiki/File:Flag_of_Ireland.svg"
       }
     },
     {
@@ -48,7 +75,7 @@
         }
       },
       "image": {
-        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/af/Orville_Wright_1905-crop.jpg/1280px-Orville_Wright_1905-crop.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/af/Orville_Wright_1905-crop.jpg/500px-Orville_Wright_1905-crop.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
         "alt": "Picture from the Wikipedia article on Wright brothers.",
         "credit": "Orville Wright and Wilbur Wright",
         "source": "https://commons.wikimedia.org/wiki/File:Orville_Wright_1905-crop.jpg",
@@ -57,17 +84,17 @@
       }
     },
     {
-      "id": "05-22-tokyo-skytree",
+      "id": "05-22-bosnia-and-herzegovina",
       "date": "05-22",
       "dateLabel": "22 May",
       "category": "world",
       "categoryName": "World",
-      "year": 2012,
-      "title": "Tokyo Skytree",
-      "body": "Tokyo Skytree opens to the public. It is the tallest tower in the world (634 m), and the third tallest man-made structure on Earth after Merdeka 118 (680.5 m) and Burj Khalifa (829.8 m).",
+      "year": 1992,
+      "title": "Bosnia and Herzegovina",
+      "body": "Bosnia and Herzegovina, Croatia and Slovenia join the United Nations.",
       "source": {
-        "name": "Wikipedia · Tokyo Skytree",
-        "url": "https://en.wikipedia.org/wiki/Tokyo_Skytree",
+        "name": "Wikipedia · Bosnia and Herzegovina",
+        "url": "https://en.wikipedia.org/wiki/Bosnia_and_Herzegovina",
         "calendarUrl": "https://en.wikipedia.org/wiki/May_22",
         "license": {
           "name": "CC BY-SA 4.0",
@@ -75,12 +102,12 @@
         }
       },
       "image": {
-        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/84/Tokyo_Skytree_2014_%E2%85%A2.jpg/1280px-Tokyo_Skytree_2014_%E2%85%A2.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-        "alt": "Picture from the Wikipedia article on Tokyo Skytree.",
-        "credit": "Kakidai",
-        "source": "https://commons.wikimedia.org/wiki/File:Tokyo_Skytree_2014_%E2%85%A2.jpg",
-        "license": "CC BY-SA 3.0",
-        "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0"
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/bf/Flag_of_Bosnia_and_Herzegovina.svg/500px-Flag_of_Bosnia_and_Herzegovina.svg.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "alt": "Picture from the Wikipedia article on Bosnia and Herzegovina.",
+        "credit": "Mladen Kolobarić",
+        "source": "https://commons.wikimedia.org/wiki/File:Flag_of_Bosnia_and_Herzegovina.svg",
+        "license": "Public domain",
+        "licenseUrl": "https://commons.wikimedia.org/wiki/File:Flag_of_Bosnia_and_Herzegovina.svg"
       }
     },
     {
@@ -102,39 +129,12 @@
         }
       },
       "image": {
-        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/16/Official_Presidential_Portrait_of_President_Donald_J._Trump_%282025%29.jpg/1280px-Official_Presidential_Portrait_of_President_Donald_J._Trump_%282025%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/16/Official_Presidential_Portrait_of_President_Donald_J._Trump_%282025%29.jpg/500px-Official_Presidential_Portrait_of_President_Donald_J._Trump_%282025%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
         "alt": "Picture from the Wikipedia article on Donald Trump.",
         "credit": "Daniel Torok",
         "source": "https://commons.wikimedia.org/wiki/File:Official_Presidential_Portrait_of_President_Donald_J._Trump_(2025).jpg",
         "license": "Public domain",
         "licenseUrl": "https://commons.wikimedia.org/wiki/File:Official_Presidential_Portrait_of_President_Donald_J._Trump_(2025).jpg"
-      }
-    },
-    {
-      "id": "05-22-inter-milan",
-      "date": "05-22",
-      "dateLabel": "22 May",
-      "category": "world",
-      "categoryName": "World",
-      "year": 2010,
-      "title": "Inter Milan",
-      "body": "Inter Milan beat Bayern Munich 2–0 in the UEFA Champions League final in Madrid, Spain to become the first, and so far only, Italian team to win the historic treble (Serie A, Coppa Italia, Champions League).",
-      "source": {
-        "name": "Wikipedia · Inter Milan",
-        "url": "https://en.wikipedia.org/wiki/Inter_Milan",
-        "calendarUrl": "https://en.wikipedia.org/wiki/May_22",
-        "license": {
-          "name": "CC BY-SA 4.0",
-          "url": "https://creativecommons.org/licenses/by-sa/4.0/"
-        }
-      },
-      "image": {
-        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/05/FC_Internazionale_Milano_2021.svg/1280px-FC_Internazionale_Milano_2021.svg.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-        "alt": "Picture from the Wikipedia article on Inter Milan.",
-        "credit": "FC Internazionale Milano S.p.A",
-        "source": "https://commons.wikimedia.org/wiki/File:FC_Internazionale_Milano_2021.svg",
-        "license": "Public domain",
-        "licenseUrl": "https://commons.wikimedia.org/wiki/File:FC_Internazionale_Milano_2021.svg"
       }
     }
   ]

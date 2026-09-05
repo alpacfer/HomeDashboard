@@ -21,7 +21,7 @@
         }
       },
       "image": {
-        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c0/IRIS_spacecraft_model.png/1280px-IRIS_spacecraft_model.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c0/IRIS_spacecraft_model.png/500px-IRIS_spacecraft_model.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
         "alt": "Picture from the Wikipedia article on Interface Region Imaging Spectrograph.",
         "credit": "NASA",
         "source": "https://commons.wikimedia.org/wiki/File:IRIS_spacecraft_model.png",
@@ -48,66 +48,12 @@
         }
       },
       "image": {
-        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/ff/1954_World_Cup.svg/1280px-1954_World_Cup.svg.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/ff/1954_World_Cup.svg/500px-1954_World_Cup.svg.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
         "alt": "Picture from the Wikipedia article on 1954 FIFA World Cup.",
         "credit": "Unknown author",
         "source": "https://commons.wikimedia.org/wiki/File:1954_World_Cup.svg",
         "license": "Public domain",
         "licenseUrl": "https://commons.wikimedia.org/wiki/File:1954_World_Cup.svg"
-      }
-    },
-    {
-      "id": "06-27-djibouti",
-      "date": "06-27",
-      "dateLabel": "27 June",
-      "category": "world",
-      "categoryName": "World",
-      "year": 1977,
-      "title": "Djibouti",
-      "body": "France grants independence to Djibouti.",
-      "source": {
-        "name": "Wikipedia · Djibouti",
-        "url": "https://en.wikipedia.org/wiki/Djibouti",
-        "calendarUrl": "https://en.wikipedia.org/wiki/June_27",
-        "license": {
-          "name": "CC BY-SA 4.0",
-          "url": "https://creativecommons.org/licenses/by-sa/4.0/"
-        }
-      },
-      "image": {
-        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/34/Flag_of_Djibouti.svg/1280px-Flag_of_Djibouti.svg.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-        "alt": "Picture from the Wikipedia article on Djibouti.",
-        "credit": "Unknown author",
-        "source": "https://commons.wikimedia.org/wiki/File:Flag_of_Djibouti.svg",
-        "license": "Public domain",
-        "licenseUrl": "https://commons.wikimedia.org/wiki/File:Flag_of_Djibouti.svg"
-      }
-    },
-    {
-      "id": "06-27-space-shuttle-atlantis",
-      "date": "06-27",
-      "dateLabel": "27 June",
-      "category": "space",
-      "categoryName": "Space",
-      "year": 1995,
-      "title": "Space Shuttle Atlantis",
-      "body": "Space Shuttle Atlantis launches on STS-71, the first space shuttle mission to dock with the Russian space station Mir.",
-      "source": {
-        "name": "Wikipedia · Space Shuttle Atlantis",
-        "url": "https://en.wikipedia.org/wiki/Space_Shuttle_Atlantis",
-        "calendarUrl": "https://en.wikipedia.org/wiki/June_27",
-        "license": {
-          "name": "CC BY-SA 4.0",
-          "url": "https://creativecommons.org/licenses/by-sa/4.0/"
-        }
-      },
-      "image": {
-        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/0e/STS132_Atlantis_undocking2_%28cropped%29.jpg/1280px-STS132_Atlantis_undocking2_%28cropped%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-        "alt": "Picture from the Wikipedia article on Space Shuttle Atlantis.",
-        "credit": "NASA",
-        "source": "https://commons.wikimedia.org/wiki/File:STS132_Atlantis_undocking2_(cropped).jpg",
-        "license": "Public domain",
-        "licenseUrl": "https://commons.wikimedia.org/wiki/File:STS132_Atlantis_undocking2_(cropped).jpg"
       }
     },
     {
@@ -129,12 +75,66 @@
         }
       },
       "image": {
-        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/8c/Moengkaung.jpg/1280px-Moengkaung.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/8c/Moengkaung.jpg/500px-Moengkaung.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
         "alt": "Picture from the Wikipedia article on Mogaung.",
         "credit": "Saimawnkham",
         "source": "https://commons.wikimedia.org/wiki/File:Moengkaung.jpg",
         "license": "CC BY-SA 4.0",
         "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0"
+      }
+    },
+    {
+      "id": "06-27-space-shuttle-atlantis",
+      "date": "06-27",
+      "dateLabel": "27 June",
+      "category": "space",
+      "categoryName": "Space",
+      "year": 1995,
+      "title": "Space Shuttle Atlantis",
+      "body": "Space Shuttle Atlantis launches on STS-71, the first space shuttle mission to dock with the Russian space station Mir.",
+      "source": {
+        "name": "Wikipedia · Space Shuttle Atlantis",
+        "url": "https://en.wikipedia.org/wiki/Space_Shuttle_Atlantis",
+        "calendarUrl": "https://en.wikipedia.org/wiki/June_27",
+        "license": {
+          "name": "CC BY-SA 4.0",
+          "url": "https://creativecommons.org/licenses/by-sa/4.0/"
+        }
+      },
+      "image": {
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/0e/STS132_Atlantis_undocking2_%28cropped%29.jpg/500px-STS132_Atlantis_undocking2_%28cropped%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "alt": "Picture from the Wikipedia article on Space Shuttle Atlantis.",
+        "credit": "NASA",
+        "source": "https://commons.wikimedia.org/wiki/File:STS132_Atlantis_undocking2_(cropped).jpg",
+        "license": "Public domain",
+        "licenseUrl": "https://commons.wikimedia.org/wiki/File:STS132_Atlantis_undocking2_(cropped).jpg"
+      }
+    },
+    {
+      "id": "06-27-president-of-the-united-states",
+      "date": "06-27",
+      "dateLabel": "27 June",
+      "category": "world",
+      "categoryName": "World",
+      "year": 1974,
+      "title": "President of the United States",
+      "body": "U.S. president Richard Nixon visits the Soviet Union.",
+      "source": {
+        "name": "Wikipedia · President of the United States",
+        "url": "https://en.wikipedia.org/wiki/President_of_the_United_States",
+        "calendarUrl": "https://en.wikipedia.org/wiki/June_27",
+        "license": {
+          "name": "CC BY-SA 4.0",
+          "url": "https://creativecommons.org/licenses/by-sa/4.0/"
+        }
+      },
+      "image": {
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/36/Seal_of_the_President_of_the_United_States.svg/500px-Seal_of_the_President_of_the_United_States.svg.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "alt": "Picture from the Wikipedia article on President of the United States.",
+        "credit": "Unknown author",
+        "source": "https://commons.wikimedia.org/wiki/File:Seal_of_the_President_of_the_United_States.svg",
+        "license": "Public domain",
+        "licenseUrl": "https://commons.wikimedia.org/wiki/File:Seal_of_the_President_of_the_United_States.svg"
       }
     }
   ]

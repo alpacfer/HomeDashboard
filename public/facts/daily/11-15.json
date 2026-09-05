@@ -3,6 +3,33 @@
   "dateLabel": "15 November",
   "facts": [
     {
+      "id": "11-15-cleveland-transit-system",
+      "date": "11-15",
+      "dateLabel": "15 November",
+      "category": "world",
+      "categoryName": "World",
+      "year": 1968,
+      "title": "Greater Cleveland Regional Transit Authority",
+      "body": "The Cleveland Transit System becomes the first transit system in the western hemisphere to provide direct rapid transit service from a city's downtown to its major airport.",
+      "source": {
+        "name": "Wikipedia · Greater Cleveland Regional Transit Authority",
+        "url": "https://en.wikipedia.org/wiki/Greater_Cleveland_Regional_Transit_Authority",
+        "calendarUrl": "https://en.wikipedia.org/wiki/November_15",
+        "license": {
+          "name": "CC BY-SA 4.0",
+          "url": "https://creativecommons.org/licenses/by-sa/4.0/"
+        }
+      },
+      "image": {
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/be/Cocoa_with_Santa_Claus_%2851728473259%29.jpg/500px-Cocoa_with_Santa_Claus_%2851728473259%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "alt": "Picture from the Wikipedia article on Greater Cleveland Regional Transit Authority.",
+        "credit": "Erik Drost",
+        "source": "https://commons.wikimedia.org/wiki/File:Cocoa_with_Santa_Claus_(51728473259).jpg",
+        "license": "Public domain",
+        "licenseUrl": "https://commons.wikimedia.org/wiki/File:Cocoa_with_Santa_Claus_(51728473259).jpg"
+      }
+    },
+    {
       "id": "11-15-intel",
       "date": "11-15",
       "dateLabel": "15 November",
@@ -21,7 +48,7 @@
         }
       },
       "image": {
-        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/97/Intel_Headquarters_in_2023.jpg/1280px-Intel_Headquarters_in_2023.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/97/Intel_Headquarters_in_2023.jpg/500px-Intel_Headquarters_in_2023.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
         "alt": "Picture from the Wikipedia article on Intel.",
         "credit": "Coolcaesar",
         "source": "https://commons.wikimedia.org/wiki/File:Intel_Headquarters_in_2023.jpg",
@@ -48,7 +75,7 @@
         }
       },
       "image": {
-        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d3/Prime_Minister_Keir_Starmer_meets_Sir_Lewis_Hamilton_%2854566928382%29_%28cropped%29.jpg/1280px-Prime_Minister_Keir_Starmer_meets_Sir_Lewis_Hamilton_%2854566928382%29_%28cropped%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d3/Prime_Minister_Keir_Starmer_meets_Sir_Lewis_Hamilton_%2854566928382%29_%28cropped%29.jpg/500px-Prime_Minister_Keir_Starmer_meets_Sir_Lewis_Hamilton_%2854566928382%29_%28cropped%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
         "alt": "Picture from the Wikipedia article on Lewis Hamilton.",
         "credit": "Number 10",
         "source": "https://commons.wikimedia.org/wiki/File:Prime_Minister_Keir_Starmer_meets_Sir_Lewis_Hamilton_(54566928382)_(cropped).jpg",
@@ -57,17 +84,17 @@
       }
     },
     {
-      "id": "11-15-cleveland-transit-system",
+      "id": "11-15-ren-l-vesque",
       "date": "11-15",
       "dateLabel": "15 November",
       "category": "world",
       "categoryName": "World",
-      "year": 1968,
-      "title": "Greater Cleveland Regional Transit Authority",
-      "body": "The Cleveland Transit System becomes the first transit system in the western hemisphere to provide direct rapid transit service from a city's downtown to its major airport.",
+      "year": 1976,
+      "title": "René Lévesque",
+      "body": "René Lévesque and the Parti Québécois take power to become the first Quebec government of the 20th century clearly in favor of independence.",
       "source": {
-        "name": "Wikipedia · Greater Cleveland Regional Transit Authority",
-        "url": "https://en.wikipedia.org/wiki/Greater_Cleveland_Regional_Transit_Authority",
+        "name": "Wikipedia · René Lévesque",
+        "url": "https://en.wikipedia.org/wiki/Ren%C3%A9_L%C3%A9vesque",
         "calendarUrl": "https://en.wikipedia.org/wiki/November_15",
         "license": {
           "name": "CC BY-SA 4.0",
@@ -75,12 +102,12 @@
         }
       },
       "image": {
-        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/be/Cocoa_with_Santa_Claus_%2851728473259%29.jpg/1280px-Cocoa_with_Santa_Claus_%2851728473259%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-        "alt": "Picture from the Wikipedia article on Greater Cleveland Regional Transit Authority.",
-        "credit": "Erik Drost",
-        "source": "https://commons.wikimedia.org/wiki/File:Cocoa_with_Santa_Claus_(51728473259).jpg",
-        "license": "Public domain",
-        "licenseUrl": "https://commons.wikimedia.org/wiki/File:Cocoa_with_Santa_Claus_(51728473259).jpg"
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/6e/Ren%C3%A9_L%C3%A9vesque_BAnQ_P243S1D865_%28cropped%29.jpg/500px-Ren%C3%A9_L%C3%A9vesque_BAnQ_P243S1D865_%28cropped%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "alt": "Picture from the Wikipedia article on René Lévesque.",
+        "credit": "Harvey Majo",
+        "source": "https://commons.wikimedia.org/wiki/File:Ren%C3%A9_L%C3%A9vesque_BAnQ_P243S1D865_(cropped).jpg",
+        "license": "CC BY-SA 3.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0"
       }
     },
     {
@@ -102,39 +129,12 @@
         }
       },
       "image": {
-        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/1a/Xbox-Console-wDuke-L.png/1280px-Xbox-Console-wDuke-L.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/1a/Xbox-Console-wDuke-L.png/500px-Xbox-Console-wDuke-L.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
         "alt": "Picture from the Wikipedia article on Xbox.",
         "credit": "Remove white background",
         "source": "https://commons.wikimedia.org/wiki/File:Xbox-Console-wDuke-L.png",
         "license": "Public domain",
         "licenseUrl": "https://commons.wikimedia.org/wiki/File:Xbox-Console-wDuke-L.png"
-      }
-    },
-    {
-      "id": "11-15-saint-petersburg-metro",
-      "date": "11-15",
-      "dateLabel": "15 November",
-      "category": "world",
-      "categoryName": "World",
-      "year": 1955,
-      "title": "Saint Petersburg Metro",
-      "body": "The first part of the Saint Petersburg Metro is opened.",
-      "source": {
-        "name": "Wikipedia · Saint Petersburg Metro",
-        "url": "https://en.wikipedia.org/wiki/Saint_Petersburg_Metro",
-        "calendarUrl": "https://en.wikipedia.org/wiki/November_15",
-        "license": {
-          "name": "CC BY-SA 4.0",
-          "url": "https://creativecommons.org/licenses/by-sa/4.0/"
-        }
-      },
-      "image": {
-        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e7/Metro_SPB_Line1_Narvskaya_pavilion.jpg/1280px-Metro_SPB_Line1_Narvskaya_pavilion.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-        "alt": "Picture from the Wikipedia article on Saint Petersburg Metro.",
-        "credit": "Alex 'Florstein' Fedorov",
-        "source": "https://commons.wikimedia.org/wiki/File:Metro_SPB_Line1_Narvskaya_pavilion.jpg",
-        "license": "CC BY-SA 4.0",
-        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0"
       }
     }
   ]

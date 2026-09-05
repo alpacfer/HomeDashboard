@@ -3,6 +3,33 @@
   "dateLabel": "25 August",
   "facts": [
     {
+      "id": "08-25-voyager-2",
+      "date": "08-25",
+      "dateLabel": "25 August",
+      "category": "space",
+      "categoryName": "Space",
+      "year": 1981,
+      "title": "Voyager 2",
+      "body": "Voyager 2 spacecraft makes its closest approach to Saturn.",
+      "source": {
+        "name": "Wikipedia · Voyager 2",
+        "url": "https://en.wikipedia.org/wiki/Voyager_2",
+        "calendarUrl": "https://en.wikipedia.org/wiki/August_25",
+        "license": {
+          "name": "CC BY-SA 4.0",
+          "url": "https://creativecommons.org/licenses/by-sa/4.0/"
+        }
+      },
+      "image": {
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/60/Voyager_spacecraft_model.png/500px-Voyager_spacecraft_model.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "alt": "Picture from the Wikipedia article on Voyager 2.",
+        "credit": "NASA",
+        "source": "https://commons.wikimedia.org/wiki/File:Voyager_spacecraft_model.png",
+        "license": "Public domain",
+        "licenseUrl": "https://commons.wikimedia.org/wiki/File:Voyager_spacecraft_model.png"
+      }
+    },
+    {
       "id": "08-25-great-moon-hoax",
       "date": "08-25",
       "dateLabel": "25 August",
@@ -21,7 +48,7 @@
         }
       },
       "image": {
-        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/70/Great_Moon_Hoax_-_Day_4.jpg/1280px-Great_Moon_Hoax_-_Day_4.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/70/Great_Moon_Hoax_-_Day_4.jpg/500px-Great_Moon_Hoax_-_Day_4.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
         "alt": "Picture from the Wikipedia article on Great Moon Hoax.",
         "credit": "Benjamin Henry Day",
         "source": "https://commons.wikimedia.org/wiki/File:Great_Moon_Hoax_-_Day_4.jpg",
@@ -48,39 +75,12 @@
         }
       },
       "image": {
-        "src": "https://upload.wikimedia.org/wikipedia/commons/0/01/LinuxCon_Europe_Linus_Torvalds_03_%28cropped%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/01/LinuxCon_Europe_Linus_Torvalds_03_%28cropped%29.jpg/500px-LinuxCon_Europe_Linus_Torvalds_03_%28cropped%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
         "alt": "Picture from the Wikipedia article on Linus Torvalds.",
         "credit": "Krd Von Sprat",
         "source": "https://commons.wikimedia.org/wiki/File:LinuxCon_Europe_Linus_Torvalds_03_(cropped).jpg",
         "license": "CC BY-SA 4.0",
         "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0"
-      }
-    },
-    {
-      "id": "08-25-voyager-1",
-      "date": "08-25",
-      "dateLabel": "25 August",
-      "category": "space",
-      "categoryName": "Space",
-      "year": 2012,
-      "title": "Voyager 1",
-      "body": "Voyager 1 spacecraft enters interstellar space, becoming the first man-made object to do so.",
-      "source": {
-        "name": "Wikipedia · Voyager 1",
-        "url": "https://en.wikipedia.org/wiki/Voyager_1",
-        "calendarUrl": "https://en.wikipedia.org/wiki/August_25",
-        "license": {
-          "name": "CC BY-SA 4.0",
-          "url": "https://creativecommons.org/licenses/by-sa/4.0/"
-        }
-      },
-      "image": {
-        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/60/Voyager_spacecraft_model.png/1280px-Voyager_spacecraft_model.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-        "alt": "Picture from the Wikipedia article on Voyager 1.",
-        "credit": "NASA",
-        "source": "https://commons.wikimedia.org/wiki/File:Voyager_spacecraft_model.png",
-        "license": "Public domain",
-        "licenseUrl": "https://commons.wikimedia.org/wiki/File:Voyager_spacecraft_model.png"
       }
     },
     {
@@ -102,7 +102,7 @@
         }
       },
       "image": {
-        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a1/Emblem_of_the_Kuomintang.svg/1280px-Emblem_of_the_Kuomintang.svg.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a1/Emblem_of_the_Kuomintang.svg/500px-Emblem_of_the_Kuomintang.svg.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
         "alt": "Picture from the Wikipedia article on Kuomintang.",
         "credit": "see above",
         "source": "https://commons.wikimedia.org/wiki/File:Emblem_of_the_Kuomintang.svg",
@@ -129,7 +129,7 @@
         }
       },
       "image": {
-        "src": "https://upload.wikimedia.org/wikipedia/commons/d/d5/Hugh_Glass_News_Article_%28cropped%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d5/Hugh_Glass_News_Article_%28cropped%29.jpg/500px-Hugh_Glass_News_Article_%28cropped%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
         "alt": "Picture from the Wikipedia article on Hugh Glass.",
         "credit": "The Milwaukee Journal",
         "source": "https://commons.wikimedia.org/wiki/File:Hugh_Glass_News_Article_(cropped).jpg",

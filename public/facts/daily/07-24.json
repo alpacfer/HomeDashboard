@@ -3,6 +3,60 @@
   "dateLabel": "24 July",
   "facts": [
     {
+      "id": "07-24-apollo-11",
+      "date": "07-24",
+      "dateLabel": "24 July",
+      "category": "space",
+      "categoryName": "Space",
+      "year": 1969,
+      "title": "Apollo 11",
+      "body": "Apollo 11 splashes down safely in the Pacific Ocean.",
+      "source": {
+        "name": "Wikipedia · Apollo 11",
+        "url": "https://en.wikipedia.org/wiki/Apollo_11",
+        "calendarUrl": "https://en.wikipedia.org/wiki/July_24",
+        "license": {
+          "name": "CC BY-SA 4.0",
+          "url": "https://creativecommons.org/licenses/by-sa/4.0/"
+        }
+      },
+      "image": {
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/41/A_Man_on_the_Moon%2C_AS11-40-5903_%28cropped%29.jpg/500px-A_Man_on_the_Moon%2C_AS11-40-5903_%28cropped%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "alt": "Picture from the Wikipedia article on Apollo 11.",
+        "credit": "Neil A. Armstrong",
+        "source": "https://commons.wikimedia.org/wiki/File:A_Man_on_the_Moon,_AS11-40-5903_(cropped).jpg",
+        "license": "Public domain",
+        "licenseUrl": "https://commons.wikimedia.org/wiki/File:A_Man_on_the_Moon,_AS11-40-5903_(cropped).jpg"
+      }
+    },
+    {
+      "id": "07-24-american-national-exhibition",
+      "date": "07-24",
+      "dateLabel": "24 July",
+      "category": "culture",
+      "categoryName": "Culture",
+      "year": 1959,
+      "title": "American National Exhibition",
+      "body": "At the opening of the American National Exhibition in Moscow, U.S. vice president Richard Nixon and Soviet premier Nikita Khrushchev have a \"Kitchen Debate\".",
+      "source": {
+        "name": "Wikipedia · American National Exhibition",
+        "url": "https://en.wikipedia.org/wiki/American_National_Exhibition",
+        "calendarUrl": "https://en.wikipedia.org/wiki/July_24",
+        "license": {
+          "name": "CC BY-SA 4.0",
+          "url": "https://creativecommons.org/licenses/by-sa/4.0/"
+        }
+      },
+      "image": {
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d4/Nixon_and_Krushchev_%2846792026815%29.jpg/500px-Nixon_and_Krushchev_%2846792026815%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "alt": "Picture from the Wikipedia article on American National Exhibition.",
+        "credit": "IIP Photo Archive",
+        "source": "https://commons.wikimedia.org/wiki/File:Nixon_and_Krushchev_(46792026815).jpg",
+        "license": "CC BY 2.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by/2.0"
+      }
+    },
+    {
       "id": "07-24-hiram-bingham-iii",
       "date": "07-24",
       "dateLabel": "24 July",
@@ -21,7 +75,7 @@
         }
       },
       "image": {
-        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e6/Senator_Hiram_Bingham_of_Conn.%2C_%281-9-25%29_LCCN2016839105_%283x4a%29.jpg/1280px-Senator_Hiram_Bingham_of_Conn.%2C_%281-9-25%29_LCCN2016839105_%283x4a%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e6/Senator_Hiram_Bingham_of_Conn.%2C_%281-9-25%29_LCCN2016839105_%283x4a%29.jpg/500px-Senator_Hiram_Bingham_of_Conn.%2C_%281-9-25%29_LCCN2016839105_%283x4a%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
         "alt": "Picture from the Wikipedia article on Hiram Bingham III.",
         "credit": "National Photo Company Collection",
         "source": "https://commons.wikimedia.org/wiki/File:Senator_Hiram_Bingham_of_Conn.,_(1-9-25)_LCCN2016839105_(3x4a).jpg",
@@ -48,66 +102,12 @@
         }
       },
       "image": {
-        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/3b/STORIE_Launch_and_Install_on_the_Space_Station_%28SVS15043_-_4~orig%29.jpg/1280px-STORIE_Launch_and_Install_on_the_Space_Station_%28SVS15043_-_4~orig%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/3b/STORIE_Launch_and_Install_on_the_Space_Station_%28SVS15043_-_4~orig%29.jpg/500px-STORIE_Launch_and_Install_on_the_Space_Station_%28SVS15043_-_4~orig%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
         "alt": "Picture from the Wikipedia article on Cape Canaveral Space Force Station.",
         "credit": "NASA's Scientific Visualization Studio",
         "source": "https://commons.wikimedia.org/wiki/File:STORIE_Launch_and_Install_on_the_Space_Station_(SVS15043_-_4~orig).jpg",
         "license": "CC0",
         "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/deed.en"
-      }
-    },
-    {
-      "id": "07-24-american-national-exhibition",
-      "date": "07-24",
-      "dateLabel": "24 July",
-      "category": "culture",
-      "categoryName": "Culture",
-      "year": 1959,
-      "title": "American National Exhibition",
-      "body": "At the opening of the American National Exhibition in Moscow, U.S. vice president Richard Nixon and Soviet premier Nikita Khrushchev have a \"Kitchen Debate\".",
-      "source": {
-        "name": "Wikipedia · American National Exhibition",
-        "url": "https://en.wikipedia.org/wiki/American_National_Exhibition",
-        "calendarUrl": "https://en.wikipedia.org/wiki/July_24",
-        "license": {
-          "name": "CC BY-SA 4.0",
-          "url": "https://creativecommons.org/licenses/by-sa/4.0/"
-        }
-      },
-      "image": {
-        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d4/Nixon_and_Krushchev_%2846792026815%29.jpg/1280px-Nixon_and_Krushchev_%2846792026815%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-        "alt": "Picture from the Wikipedia article on American National Exhibition.",
-        "credit": "IIP Photo Archive",
-        "source": "https://commons.wikimedia.org/wiki/File:Nixon_and_Krushchev_(46792026815).jpg",
-        "license": "CC BY 2.0",
-        "licenseUrl": "https://creativecommons.org/licenses/by/2.0"
-      }
-    },
-    {
-      "id": "07-24-apollo-11",
-      "date": "07-24",
-      "dateLabel": "24 July",
-      "category": "space",
-      "categoryName": "Space",
-      "year": 1969,
-      "title": "Apollo 11",
-      "body": "Apollo 11 splashes down safely in the Pacific Ocean.",
-      "source": {
-        "name": "Wikipedia · Apollo 11",
-        "url": "https://en.wikipedia.org/wiki/Apollo_11",
-        "calendarUrl": "https://en.wikipedia.org/wiki/July_24",
-        "license": {
-          "name": "CC BY-SA 4.0",
-          "url": "https://creativecommons.org/licenses/by-sa/4.0/"
-        }
-      },
-      "image": {
-        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/41/A_Man_on_the_Moon%2C_AS11-40-5903_%28cropped%29.jpg/1280px-A_Man_on_the_Moon%2C_AS11-40-5903_%28cropped%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-        "alt": "Picture from the Wikipedia article on Apollo 11.",
-        "credit": "Neil A. Armstrong",
-        "source": "https://commons.wikimedia.org/wiki/File:A_Man_on_the_Moon,_AS11-40-5903_(cropped).jpg",
-        "license": "Public domain",
-        "licenseUrl": "https://commons.wikimedia.org/wiki/File:A_Man_on_the_Moon,_AS11-40-5903_(cropped).jpg"
       }
     },
     {
@@ -129,7 +129,7 @@
         }
       },
       "image": {
-        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d5/George_Brett_by_Gage_Skidmore_2.jpg/1280px-George_Brett_by_Gage_Skidmore_2.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d5/George_Brett_by_Gage_Skidmore_2.jpg/500px-George_Brett_by_Gage_Skidmore_2.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
         "alt": "Picture from the Wikipedia article on George Brett.",
         "credit": "Gage Skidmore",
         "source": "https://commons.wikimedia.org/wiki/File:George_Brett_by_Gage_Skidmore_2.jpg",

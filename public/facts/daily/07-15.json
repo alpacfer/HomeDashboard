@@ -21,39 +21,12 @@
         }
       },
       "image": {
-        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/01/Gangnam_Style_South_Korea.jpg/1280px-Gangnam_Style_South_Korea.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/01/Gangnam_Style_South_Korea.jpg/500px-Gangnam_Style_South_Korea.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
         "alt": "A crowd performing the horse-riding dance from Gangnam Style.",
         "credit": "Pacific Air Forces",
         "source": "https://commons.wikimedia.org/wiki/File:Gangnam_Style_South_Korea.jpg",
         "license": "Public domain",
         "licenseUrl": "https://commons.wikimedia.org/wiki/File:Gangnam_Style_South_Korea.jpg"
-      }
-    },
-    {
-      "id": "07-15-nintendo",
-      "date": "07-15",
-      "dateLabel": "15 July",
-      "category": "tech",
-      "categoryName": "Tech",
-      "year": 1983,
-      "title": "Nintendo",
-      "body": "Nintendo and Sega enter the console market with the respective releases of the Famicom and SG-1000 in Japan.",
-      "source": {
-        "name": "Wikipedia · Nintendo",
-        "url": "https://en.wikipedia.org/wiki/Nintendo",
-        "calendarUrl": "https://en.wikipedia.org/wiki/July_15",
-        "license": {
-          "name": "CC BY-SA 4.0",
-          "url": "https://creativecommons.org/licenses/by-sa/4.0/"
-        }
-      },
-      "image": {
-        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/1e/Headquarters_of_Nintendo_Co.%2C_Ltd.jpg/1280px-Headquarters_of_Nintendo_Co.%2C_Ltd.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-        "alt": "Picture from the Wikipedia article on Nintendo.",
-        "credit": "Tokumeigakarinoaoshima",
-        "source": "https://commons.wikimedia.org/wiki/File:Headquarters_of_Nintendo_Co.,_Ltd.jpg",
-        "license": "CC BY-SA 4.0",
-        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0"
       }
     },
     {
@@ -75,12 +48,39 @@
         }
       },
       "image": {
-        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/09/X_%28formerly_Twitter%29_logo_late_2025.svg/1280px-X_%28formerly_Twitter%29_logo_late_2025.svg.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/09/X_%28formerly_Twitter%29_logo_late_2025.svg/500px-X_%28formerly_Twitter%29_logo_late_2025.svg.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
         "alt": "Picture from the Wikipedia article on X.",
         "credit": "X Corp",
         "source": "https://commons.wikimedia.org/wiki/File:X_(formerly_Twitter)_logo_late_2025.svg",
         "license": "Public domain",
         "licenseUrl": "https://commons.wikimedia.org/wiki/File:X_(formerly_Twitter)_logo_late_2025.svg"
+      }
+    },
+    {
+      "id": "07-15-nintendo",
+      "date": "07-15",
+      "dateLabel": "15 July",
+      "category": "tech",
+      "categoryName": "Tech",
+      "year": 1983,
+      "title": "Nintendo",
+      "body": "Nintendo and Sega enter the console market with the respective releases of the Famicom and SG-1000 in Japan.",
+      "source": {
+        "name": "Wikipedia · Nintendo",
+        "url": "https://en.wikipedia.org/wiki/Nintendo",
+        "calendarUrl": "https://en.wikipedia.org/wiki/July_15",
+        "license": {
+          "name": "CC BY-SA 4.0",
+          "url": "https://creativecommons.org/licenses/by-sa/4.0/"
+        }
+      },
+      "image": {
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/1e/Headquarters_of_Nintendo_Co.%2C_Ltd.jpg/500px-Headquarters_of_Nintendo_Co.%2C_Ltd.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "alt": "Picture from the Wikipedia article on Nintendo.",
+        "credit": "Tokumeigakarinoaoshima",
+        "source": "https://commons.wikimedia.org/wiki/File:Headquarters_of_Nintendo_Co.,_Ltd.jpg",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0"
       }
     },
     {
@@ -102,7 +102,7 @@
         }
       },
       "image": {
-        "src": "https://upload.wikimedia.org/wikipedia/commons/c/cd/Emil_Kraepelin_1926.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/cd/Emil_Kraepelin_1926.jpg/500px-Emil_Kraepelin_1926.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
         "alt": "Picture from the Wikipedia article on Emil Kraepelin.",
         "credit": "Unknown author",
         "source": "https://commons.wikimedia.org/wiki/File:Emil_Kraepelin_1926.jpg",
@@ -129,7 +129,7 @@
         }
       },
       "image": {
-        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b0/PSY_EMTV_logo_27_%288198008711%29.jpg/1280px-PSY_EMTV_logo_27_%288198008711%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b0/PSY_EMTV_logo_27_%288198008711%29.jpg/500px-PSY_EMTV_logo_27_%288198008711%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
         "alt": "Picture from the Wikipedia article on Psy.",
         "credit": "Korea.net",
         "source": "https://commons.wikimedia.org/wiki/File:PSY_EMTV_logo_27_(8198008711).jpg",

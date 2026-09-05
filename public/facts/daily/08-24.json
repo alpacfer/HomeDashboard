@@ -3,44 +3,17 @@
   "dateLabel": "24 August",
   "facts": [
     {
-      "id": "08-24-amelia-earhart",
-      "date": "08-24",
-      "dateLabel": "24 August",
-      "category": "world",
-      "categoryName": "World",
-      "year": 1932,
-      "title": "Amelia Earhart",
-      "body": "Amelia Earhart becomes the first woman to fly across the United States non-stop (from Los Angeles to Newark, New Jersey).",
-      "source": {
-        "name": "Wikipedia · Amelia Earhart",
-        "url": "https://en.wikipedia.org/wiki/Amelia_Earhart",
-        "calendarUrl": "https://en.wikipedia.org/wiki/August_24",
-        "license": {
-          "name": "CC BY-SA 4.0",
-          "url": "https://creativecommons.org/licenses/by-sa/4.0/"
-        }
-      },
-      "image": {
-        "src": "https://upload.wikimedia.org/wikipedia/commons/7/72/Amelia_Earhart_standing_under_nose_of_her_Lockheed_Model_10-E_Electra%2C_small_%28cropped%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
-        "alt": "Picture from the Wikipedia article on Amelia Earhart.",
-        "credit": "Underwood & Underwood",
-        "source": "https://commons.wikimedia.org/wiki/File:Amelia_Earhart_standing_under_nose_of_her_Lockheed_Model_10-E_Electra,_small_(cropped).jpg",
-        "license": "Public domain",
-        "licenseUrl": "https://commons.wikimedia.org/wiki/File:Amelia_Earhart_standing_under_nose_of_her_Lockheed_Model_10-E_Electra,_small_(cropped).jpg"
-      }
-    },
-    {
-      "id": "08-24-national-space-agency",
+      "id": "08-24-proxima-centauri-b",
       "date": "08-24",
       "dateLabel": "24 August",
       "category": "space",
       "categoryName": "Space",
-      "year": 2017,
-      "title": "List of government space agencies",
-      "body": "The National Space Agency of Taiwan successfully launches the observation satellite Formosat-5 into space.",
+      "year": 2016,
+      "title": "Proxima Centauri b",
+      "body": "Proxima Centauri b, the closest exoplanet to Earth, is discovered by the European Southern Observatory.",
       "source": {
-        "name": "Wikipedia · List of government space agencies",
-        "url": "https://en.wikipedia.org/wiki/List_of_government_space_agencies",
+        "name": "Wikipedia · Proxima Centauri b",
+        "url": "https://en.wikipedia.org/wiki/Proxima_Centauri_b",
         "calendarUrl": "https://en.wikipedia.org/wiki/August_24",
         "license": {
           "name": "CC BY-SA 4.0",
@@ -48,12 +21,12 @@
         }
       },
       "image": {
-        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/5d/STS115_Atlantis_undock_ISS_edit2.jpg/1280px-STS115_Atlantis_undock_ISS_edit2.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-        "alt": "Picture from the Wikipedia article on List of government space agencies.",
-        "credit": "The High Fin Sperm Whale",
-        "source": "https://commons.wikimedia.org/wiki/File:STS115_Atlantis_undock_ISS_edit2.jpg",
-        "license": "Public domain",
-        "licenseUrl": "https://commons.wikimedia.org/wiki/File:STS115_Atlantis_undock_ISS_edit2.jpg"
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/81/Artist%E2%80%99s_impression_of_Proxima_Centauri_b_shown_hypothetically_as_an_arid_rocky_super-earth.jpg/500px-Artist%E2%80%99s_impression_of_Proxima_Centauri_b_shown_hypothetically_as_an_arid_rocky_super-earth.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "alt": "Picture from the Wikipedia article on Proxima Centauri b.",
+        "credit": "ESO/M. Kornmesser",
+        "source": "https://commons.wikimedia.org/wiki/File:Artist%E2%80%99s_impression_of_Proxima_Centauri_b_shown_hypothetically_as_an_arid_rocky_super-earth.jpg",
+        "license": "CC BY 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by/4.0"
       }
     },
     {
@@ -75,7 +48,7 @@
         }
       },
       "image": {
-        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a5/Antarctica%2C_Australia_territorial_claim.svg/1280px-Antarctica%2C_Australia_territorial_claim.svg.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a5/Antarctica%2C_Australia_territorial_claim.svg/500px-Antarctica%2C_Australia_territorial_claim.svg.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
         "alt": "Picture from the Wikipedia article on Australian Antarctic Territory.",
         "credit": "Lokal_Profil",
         "source": "https://commons.wikimedia.org/wiki/File:Antarctica,_Australia_territorial_claim.svg",
@@ -84,17 +57,17 @@
       }
     },
     {
-      "id": "08-24-proxima-centauri-b",
+      "id": "08-24-national-space-agency",
       "date": "08-24",
       "dateLabel": "24 August",
       "category": "space",
       "categoryName": "Space",
-      "year": 2016,
-      "title": "Proxima Centauri b",
-      "body": "Proxima Centauri b, the closest exoplanet to Earth, is discovered by the European Southern Observatory.",
+      "year": 2017,
+      "title": "List of government space agencies",
+      "body": "The National Space Agency of Taiwan successfully launches the observation satellite Formosat-5 into space.",
       "source": {
-        "name": "Wikipedia · Proxima Centauri b",
-        "url": "https://en.wikipedia.org/wiki/Proxima_Centauri_b",
+        "name": "Wikipedia · List of government space agencies",
+        "url": "https://en.wikipedia.org/wiki/List_of_government_space_agencies",
         "calendarUrl": "https://en.wikipedia.org/wiki/August_24",
         "license": {
           "name": "CC BY-SA 4.0",
@@ -102,12 +75,12 @@
         }
       },
       "image": {
-        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/81/Artist%E2%80%99s_impression_of_Proxima_Centauri_b_shown_hypothetically_as_an_arid_rocky_super-earth.jpg/1280px-Artist%E2%80%99s_impression_of_Proxima_Centauri_b_shown_hypothetically_as_an_arid_rocky_super-earth.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-        "alt": "Picture from the Wikipedia article on Proxima Centauri b.",
-        "credit": "ESO/M. Kornmesser",
-        "source": "https://commons.wikimedia.org/wiki/File:Artist%E2%80%99s_impression_of_Proxima_Centauri_b_shown_hypothetically_as_an_arid_rocky_super-earth.jpg",
-        "license": "CC BY 4.0",
-        "licenseUrl": "https://creativecommons.org/licenses/by/4.0"
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/5d/STS115_Atlantis_undock_ISS_edit2.jpg/500px-STS115_Atlantis_undock_ISS_edit2.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "alt": "Picture from the Wikipedia article on List of government space agencies.",
+        "credit": "The High Fin Sperm Whale",
+        "source": "https://commons.wikimedia.org/wiki/File:STS115_Atlantis_undock_ISS_edit2.jpg",
+        "license": "Public domain",
+        "licenseUrl": "https://commons.wikimedia.org/wiki/File:STS115_Atlantis_undock_ISS_edit2.jpg"
       }
     },
     {
@@ -129,12 +102,39 @@
         }
       },
       "image": {
-        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/43/IAU_logo.svg/1280px-IAU_logo.svg.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/43/IAU_logo.svg/500px-IAU_logo.svg.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
         "alt": "Picture from the Wikipedia article on International Astronomical Union.",
         "credit": "International Astronomical Union",
         "source": "https://commons.wikimedia.org/wiki/File:IAU_logo.svg",
         "license": "Public domain",
         "licenseUrl": "https://commons.wikimedia.org/wiki/File:IAU_logo.svg"
+      }
+    },
+    {
+      "id": "08-24-amelia-earhart",
+      "date": "08-24",
+      "dateLabel": "24 August",
+      "category": "world",
+      "categoryName": "World",
+      "year": 1932,
+      "title": "Amelia Earhart",
+      "body": "Amelia Earhart becomes the first woman to fly across the United States non-stop (from Los Angeles to Newark, New Jersey).",
+      "source": {
+        "name": "Wikipedia · Amelia Earhart",
+        "url": "https://en.wikipedia.org/wiki/Amelia_Earhart",
+        "calendarUrl": "https://en.wikipedia.org/wiki/August_24",
+        "license": {
+          "name": "CC BY-SA 4.0",
+          "url": "https://creativecommons.org/licenses/by-sa/4.0/"
+        }
+      },
+      "image": {
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/72/Amelia_Earhart_standing_under_nose_of_her_Lockheed_Model_10-E_Electra%2C_small_%28cropped%29.jpg/500px-Amelia_Earhart_standing_under_nose_of_her_Lockheed_Model_10-E_Electra%2C_small_%28cropped%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "alt": "Picture from the Wikipedia article on Amelia Earhart.",
+        "credit": "Underwood & Underwood",
+        "source": "https://commons.wikimedia.org/wiki/File:Amelia_Earhart_standing_under_nose_of_her_Lockheed_Model_10-E_Electra,_small_(cropped).jpg",
+        "license": "Public domain",
+        "licenseUrl": "https://commons.wikimedia.org/wiki/File:Amelia_Earhart_standing_under_nose_of_her_Lockheed_Model_10-E_Electra,_small_(cropped).jpg"
       }
     }
   ]

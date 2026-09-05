@@ -105,6 +105,66 @@ thinnest dates in the calendar are 6 March and 28 February, which offer eight
 and nine candidates for five slots, so a refresh that loses a picture upstream
 is most likely to fail there.
 
+## What is stored here, and what is not
+
+| | Where | Size |
+| --- | --- | --- |
+| The facts | `public/facts/daily/*.json`, committed | 2.9 MB |
+| The pictures | Wikimedia's CDN, fetched by the browser | ~400 MB if they were local |
+| The clips | Wikimedia's CDN, fetched by the browser | ~10 MB if they were local |
+
+**No media is committed, and that is deliberate.** The temptation is to keep
+the eleven clips locally because ten megabytes is nothing next to four hundred,
+and that was tried. It is the wrong call for four reasons:
+
+- It mitigates one risk for eleven files and leaves the identical risk on
+  1,830. A renamed Commons file breaks a picture exactly as it breaks a clip.
+- Binaries in git are forever, and content-addressed names accumulate: nothing
+  prunes a clip a later refresh stopped using, so the repository grows on every
+  refresh and never shrinks. That is the opposite of scalable.
+- Render clones the repository on every deploy, on the free plan.
+- **The free service sleeps after fifteen minutes idle.** A clip served from
+  here would pay a cold start of tens of seconds; `upload.wikimedia.org` never
+  sleeps, does range requests properly, and is cached at the edge. It is
+  strictly better at serving media than this service is.
+
+So everything the browser draws comes from Wikimedia, and one rule covers it:
+one origin, one failure mode, one attribution story. A picture or clip that
+will not load already degrades to a caption rather than a broken panel.
+
+The width the display asks for is `iiurlwidth` in
+[scripts/generate-daily-facts.mjs](../scripts/generate-daily-facts.mjs), and it
+is **480, which is not the width you get**. Wikimedia snaps a thumbnail request
+to its own buckets, and the buckets are far apart:
+
+| asked | served | bytes |
+| --- | --- | --- |
+| 480 | 500px | 23 KB |
+| 540 | 960px | 59 KB |
+| 1000 | 1280px | 93 KB |
+
+Asking for 540 rather than 480 costs two and a half times the bytes for a
+picture the panel paints 270px wide. 500px is still nearly twice what the only
+screen this runs on can show, so it is sharp; 1280 was five times, and the
+stick was decoding twenty-five times the pixels it needed. Check what came back
+rather than what was asked for if this is ever tuned again.
+
+## The local cache
+
+A refresh asks Wikimedia for about seventeen thousand things and almost none of
+them change between runs. Every answer is kept in `.cache/daily-facts`
+(gitignored), so a second run needs no network and finishes in seconds instead
+of eighteen minutes. That matters more than it sounds: before it existed,
+adding one field to the eighteen facts that carry a clip cost a full re-read of
+366 calendar pages, 5,884 articles and 4,814 file descriptions.
+
+The cache is used by default and **`npm run facts:generate -- --refresh`
+ignores it**, which is the way round that makes the cheap thing easy and the
+expensive thing deliberate. A cached run reproduces the calendar exactly; only
+`--refresh` can discover that Wikipedia has changed, so a real editorial
+refresh wants it. Every run prints how old the cache is and how many answers
+came from it, so a stale one is never merely invisible.
+
 ## Editorial overrides
 
 `data/daily-fact-overrides.json` is the editorial hand on the wheel. An entry
@@ -226,6 +286,34 @@ for YouTube, but that is not the same code path. Everything comes from
 `upload.wikimedia.org`, which sends `Accept-Ranges: bytes` and
 `Access-Control-Allow-Origin: *` — the same CDN and the same posture as the
 pictures, so this costs Render nothing and needs no route handler.
+
+**What shape it is.** A photograph is cropped to 4:3 and always has been:
+cropping a still loses framing, which it can afford. A clip cannot — cropping a
+film loses the shot. The calendar's widest is a Mars horizon panorama at
+1.99:1, and forcing that into 4:3 threw away a third of the frame, horizon
+included. So the generator stores the transcode's own `width` and `height`, the
+panel sets them on the figure as `--media-ar`, and the clip is drawn whole.
+
+The row is a two-column grid, so the column widths change with it.
+`mediaShape` in [lib/daily-facts.ts](../lib/daily-facts.ts) sorts a clip into
+three bands and is tested:
+
+| Shape | Ratio | Columns (copy / picture) | What it is |
+| --- | --- | --- | --- |
+| `tall` | under 0.95 | 2 / 0.72 | Taller than it is wide. The words take the space; the clip is capped at 52vh so it cannot push the credit off the panel. |
+| `boxy` | 0.95 to 1.5 | 1.5 / 1 | Academy 4:3 up to 3:2. The layout the panel was built around, and what a still always gets. |
+| `wide` | 1.5 and over | 1 / 1.32 | 16:9 and wider. Earns more of the row instead of losing its edges. |
+
+Of the eleven clips in the calendar today, six are `boxy` and five are `wide`.
+**None is `tall`** — Wikimedia's archive footage is film and television, and
+neither was shot in portrait. The `tall` layout is built and tested but has no
+live example, so a refresh that finds one is the first time it will be seen on
+the wall.
+
+Only a clip that is *playing* reshapes the row. Reduced motion and a refused
+decoder both fall back to the 4:3 still, and the columns fall back with them,
+which is why `playing` is decided in `RotatingPanel` rather than inside
+`FactArtwork`.
 
 **How it is played.** `FactVideo` in
 [components/rotating-panel.tsx](../components/rotating-panel.tsx) is the only

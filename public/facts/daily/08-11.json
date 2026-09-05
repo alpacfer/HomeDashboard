@@ -3,33 +3,6 @@
   "dateLabel": "11 August",
   "facts": [
     {
-      "id": "08-11-luna-25",
-      "date": "08-11",
-      "dateLabel": "11 August",
-      "category": "world",
-      "categoryName": "World",
-      "year": 2023,
-      "title": "Luna 25",
-      "body": "Luna 25 launches from the Vostochny Cosmodrome.",
-      "source": {
-        "name": "Wikipedia · Luna 25",
-        "url": "https://en.wikipedia.org/wiki/Luna_25",
-        "calendarUrl": "https://en.wikipedia.org/wiki/August_11",
-        "license": {
-          "name": "CC BY-SA 4.0",
-          "url": "https://creativecommons.org/licenses/by-sa/4.0/"
-        }
-      },
-      "image": {
-        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/ff/Maquette-Luna-Glob-Lander-b-DSC_0075.jpg/1280px-Maquette-Luna-Glob-Lander-b-DSC_0075.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-        "alt": "Picture from the Wikipedia article on Luna 25.",
-        "credit": "Pline",
-        "source": "https://commons.wikimedia.org/wiki/File:Maquette-Luna-Glob-Lander-b-DSC_0075.jpg",
-        "license": "CC BY-SA 4.0",
-        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0"
-      }
-    },
-    {
       "id": "08-11-vostok-3",
       "date": "08-11",
       "dateLabel": "11 August",
@@ -48,7 +21,7 @@
         }
       },
       "image": {
-        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/3e/Vostok_Spacecraft_Diagram.svg/1280px-Vostok_Spacecraft_Diagram.svg.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/3e/Vostok_Spacecraft_Diagram.svg/500px-Vostok_Spacecraft_Diagram.svg.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
         "alt": "Picture from the Wikipedia article on Vostok 3 and 4.",
         "credit": "Roryjoem",
         "source": "https://commons.wikimedia.org/wiki/File:Vostok_Spacecraft_Diagram.svg",
@@ -75,7 +48,7 @@
         }
       },
       "image": {
-        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/13/Babe_Ruth2.jpg/1280px-Babe_Ruth2.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/13/Babe_Ruth2.jpg/500px-Babe_Ruth2.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
         "alt": "Picture from the Wikipedia article on Babe Ruth.",
         "credit": "Irwin, La Broad, & Pudlin",
         "source": "https://commons.wikimedia.org/wiki/File:Babe_Ruth2.jpg",
@@ -102,12 +75,39 @@
         }
       },
       "image": {
-        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e5/Nickelodeon_2023_logo_%28outline%29.svg/1280px-Nickelodeon_2023_logo_%28outline%29.svg.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e5/Nickelodeon_2023_logo_%28outline%29.svg/500px-Nickelodeon_2023_logo_%28outline%29.svg.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
         "alt": "Picture from the Wikipedia article on Nickelodeon.",
         "credit": "Viacom International Inc",
         "source": "https://commons.wikimedia.org/wiki/File:Nickelodeon_2023_logo_(outline).svg",
         "license": "Public domain",
         "licenseUrl": "https://commons.wikimedia.org/wiki/File:Nickelodeon_2023_logo_(outline).svg"
+      }
+    },
+    {
+      "id": "08-11-luna-25",
+      "date": "08-11",
+      "dateLabel": "11 August",
+      "category": "world",
+      "categoryName": "World",
+      "year": 2023,
+      "title": "Luna 25",
+      "body": "Luna 25 launches from the Vostochny Cosmodrome.",
+      "source": {
+        "name": "Wikipedia · Luna 25",
+        "url": "https://en.wikipedia.org/wiki/Luna_25",
+        "calendarUrl": "https://en.wikipedia.org/wiki/August_11",
+        "license": {
+          "name": "CC BY-SA 4.0",
+          "url": "https://creativecommons.org/licenses/by-sa/4.0/"
+        }
+      },
+      "image": {
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/ff/Maquette-Luna-Glob-Lander-b-DSC_0075.jpg/500px-Maquette-Luna-Glob-Lander-b-DSC_0075.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "alt": "Picture from the Wikipedia article on Luna 25.",
+        "credit": "Pline",
+        "source": "https://commons.wikimedia.org/wiki/File:Maquette-Luna-Glob-Lander-b-DSC_0075.jpg",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0"
       }
     },
     {
@@ -129,7 +129,7 @@
         }
       },
       "image": {
-        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/59/2018_Mall_of_America_01.jpg/1280px-2018_Mall_of_America_01.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/59/2018_Mall_of_America_01.jpg/500px-2018_Mall_of_America_01.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
         "alt": "Picture from the Wikipedia article on Mall of America.",
         "credit": "Farragutful",
         "source": "https://commons.wikimedia.org/wiki/File:2018_Mall_of_America_01.jpg",

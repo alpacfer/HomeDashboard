@@ -21,7 +21,7 @@
         }
       },
       "image": {
-        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e0/King_George_VI_LOC_matpc.14736_A_%28cropped%29.jpg/1280px-King_George_VI_LOC_matpc.14736_A_%28cropped%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e0/King_George_VI_LOC_matpc.14736_A_%28cropped%29.jpg/500px-King_George_VI_LOC_matpc.14736_A_%28cropped%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
         "alt": "Picture from the Wikipedia article on George VI.",
         "credit": "Matson Photo Service",
         "source": "https://commons.wikimedia.org/wiki/File:King_George_VI_LOC_matpc.14736_A_(cropped).jpg",
@@ -57,33 +57,6 @@
       }
     },
     {
-      "id": "09-23-faisal-of-saudi-arabia",
-      "date": "09-23",
-      "dateLabel": "23 September",
-      "category": "world",
-      "categoryName": "World",
-      "year": 1932,
-      "title": "Faisal of Saudi Arabia",
-      "body": "Crown Prince (later king) Faisal of Saudi Arabia, on behalf of Ibn Saud, proclaims the unification of the Kingdom of Saudi Arabia, the current iteration of the Third Saudi State.",
-      "source": {
-        "name": "Wikipedia · Faisal of Saudi Arabia",
-        "url": "https://en.wikipedia.org/wiki/Faisal_of_Saudi_Arabia",
-        "calendarUrl": "https://en.wikipedia.org/wiki/September_23",
-        "license": {
-          "name": "CC BY-SA 4.0",
-          "url": "https://creativecommons.org/licenses/by-sa/4.0/"
-        }
-      },
-      "image": {
-        "src": "https://upload.wikimedia.org/wikipedia/commons/6/68/King_Faisal_bin_Abdulaziz_%28cropped%29%28b%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
-        "alt": "Picture from the Wikipedia article on Faisal of Saudi Arabia.",
-        "credit": "Louis Fabian Bachrach Jr",
-        "source": "https://commons.wikimedia.org/wiki/File:King_Faisal_bin_Abdulaziz_(cropped)(b).jpg",
-        "license": "Public domain",
-        "licenseUrl": "https://commons.wikimedia.org/wiki/File:King_Faisal_bin_Abdulaziz_(cropped)(b).jpg"
-      }
-    },
-    {
       "id": "09-23-urbain-le-verrier",
       "date": "09-23",
       "dateLabel": "23 September",
@@ -108,6 +81,33 @@
         "source": "https://commons.wikimedia.org/wiki/File:Le_Verrier_colored.jpg",
         "license": "Public domain",
         "licenseUrl": "https://commons.wikimedia.org/wiki/File:Le_Verrier_colored.jpg"
+      }
+    },
+    {
+      "id": "09-23-election",
+      "date": "09-23",
+      "dateLabel": "23 September",
+      "category": "world",
+      "categoryName": "World",
+      "year": 2022,
+      "title": "Election",
+      "body": "Voting begins in the five-day sham annexation referendums in Russian-occupied Ukraine, leading to Russian annexation of Donetsk, Kherson, Luhansk and Zaporizhzhia oblasts.",
+      "source": {
+        "name": "Wikipedia · Election",
+        "url": "https://en.wikipedia.org/wiki/Election",
+        "calendarUrl": "https://en.wikipedia.org/wiki/September_23",
+        "license": {
+          "name": "CC BY-SA 4.0",
+          "url": "https://creativecommons.org/licenses/by-sa/4.0/"
+        }
+      },
+      "image": {
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/fc/Election_MG_3455.JPG/500px-Election_MG_3455.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "alt": "Picture from the Wikipedia article on Election.",
+        "credit": "Rama",
+        "source": "https://commons.wikimedia.org/wiki/File:Election_MG_3455.JPG",
+        "license": "CC BY-SA 2.0 fr",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0/fr/deed.en"
       }
     },
     {

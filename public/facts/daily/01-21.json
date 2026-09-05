@@ -21,66 +21,12 @@
         }
       },
       "image": {
-        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f8/KSC-03PD-0786.jpg/1280px-KSC-03PD-0786.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f8/KSC-03PD-0786.jpg/500px-KSC-03PD-0786.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
         "alt": "Picture from the Wikipedia article on Spirit.",
         "credit": "NASA",
         "source": "https://commons.wikimedia.org/wiki/File:KSC-03PD-0786.jpg",
         "license": "Public domain",
         "licenseUrl": "https://commons.wikimedia.org/wiki/File:KSC-03PD-0786.jpg"
-      }
-    },
-    {
-      "id": "01-21-jazira-region",
-      "date": "01-21",
-      "dateLabel": "21 January",
-      "category": "world",
-      "categoryName": "World",
-      "year": 2014,
-      "title": "Jazira Region",
-      "body": "The Jazira Canton declares its autonomy from the Syrian Arab Republic.",
-      "source": {
-        "name": "Wikipedia · Jazira Region",
-        "url": "https://en.wikipedia.org/wiki/Jazira_Region",
-        "calendarUrl": "https://en.wikipedia.org/wiki/January_21",
-        "license": {
-          "name": "CC BY-SA 4.0",
-          "url": "https://creativecommons.org/licenses/by-sa/4.0/"
-        }
-      },
-      "image": {
-        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/10/Flag_of_Jazira_Canton.svg/1280px-Flag_of_Jazira_Canton.svg.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-        "alt": "Picture from the Wikipedia article on Jazira Region.",
-        "credit": "Mikelelgediento",
-        "source": "https://commons.wikimedia.org/wiki/File:Flag_of_Jazira_Canton.svg",
-        "license": "Public domain",
-        "licenseUrl": "https://commons.wikimedia.org/wiki/File:Flag_of_Jazira_Canton.svg"
-      }
-    },
-    {
-      "id": "01-21-little-joe-1b",
-      "date": "01-21",
-      "dateLabel": "21 January",
-      "category": "space",
-      "categoryName": "Space",
-      "year": 1960,
-      "title": "Little Joe 1B",
-      "body": "Little Joe 1B, a Mercury spacecraft, lifts off from Wallops Island, Virginia, with Miss Sam, a female rhesus monkey, on board.",
-      "source": {
-        "name": "Wikipedia · Little Joe 1B",
-        "url": "https://en.wikipedia.org/wiki/Little_Joe_1B",
-        "calendarUrl": "https://en.wikipedia.org/wiki/January_21",
-        "license": {
-          "name": "CC BY-SA 4.0",
-          "url": "https://creativecommons.org/licenses/by-sa/4.0/"
-        }
-      },
-      "image": {
-        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f2/Launch_of_Little_Joe_1B%2C_January_21%2C_1960.jpg/1280px-Launch_of_Little_Joe_1B%2C_January_21%2C_1960.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-        "alt": "Picture from the Wikipedia article on Little Joe 1B.",
-        "credit": "NASA; Subject work of original work",
-        "source": "https://commons.wikimedia.org/wiki/File:Launch_of_Little_Joe_1B,_January_21,_1960.jpg",
-        "license": "Public domain",
-        "licenseUrl": "https://commons.wikimedia.org/wiki/File:Launch_of_Little_Joe_1B,_January_21,_1960.jpg"
       }
     },
     {
@@ -102,12 +48,39 @@
         }
       },
       "image": {
-        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/1a/Seal_of_the_United_States_House_of_Representatives.svg/1280px-Seal_of_the_United_States_House_of_Representatives.svg.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/1a/Seal_of_the_United_States_House_of_Representatives.svg/500px-Seal_of_the_United_States_House_of_Representatives.svg.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
         "alt": "Picture from the Wikipedia article on United States House of Representatives.",
         "credit": "Ipankonin",
         "source": "https://commons.wikimedia.org/wiki/File:Seal_of_the_United_States_House_of_Representatives.svg",
         "license": "Public domain",
         "licenseUrl": "https://commons.wikimedia.org/wiki/File:Seal_of_the_United_States_House_of_Representatives.svg"
+      }
+    },
+    {
+      "id": "01-21-little-joe-1b",
+      "date": "01-21",
+      "dateLabel": "21 January",
+      "category": "space",
+      "categoryName": "Space",
+      "year": 1960,
+      "title": "Little Joe 1B",
+      "body": "Little Joe 1B, a Mercury spacecraft, lifts off from Wallops Island, Virginia, with Miss Sam, a female rhesus monkey, on board.",
+      "source": {
+        "name": "Wikipedia · Little Joe 1B",
+        "url": "https://en.wikipedia.org/wiki/Little_Joe_1B",
+        "calendarUrl": "https://en.wikipedia.org/wiki/January_21",
+        "license": {
+          "name": "CC BY-SA 4.0",
+          "url": "https://creativecommons.org/licenses/by-sa/4.0/"
+        }
+      },
+      "image": {
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f2/Launch_of_Little_Joe_1B%2C_January_21%2C_1960.jpg/500px-Launch_of_Little_Joe_1B%2C_January_21%2C_1960.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "alt": "Picture from the Wikipedia article on Little Joe 1B.",
+        "credit": "NASA; Subject work of original work",
+        "source": "https://commons.wikimedia.org/wiki/File:Launch_of_Little_Joe_1B,_January_21,_1960.jpg",
+        "license": "Public domain",
+        "licenseUrl": "https://commons.wikimedia.org/wiki/File:Launch_of_Little_Joe_1B,_January_21,_1960.jpg"
       }
     },
     {
@@ -129,12 +102,39 @@
         }
       },
       "image": {
-        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/57/Seal_of_the_United_States_Coast_Guard.svg/1280px-Seal_of_the_United_States_Coast_Guard.svg.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/57/Seal_of_the_United_States_Coast_Guard.svg/500px-Seal_of_the_United_States_Coast_Guard.svg.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
         "alt": "Picture from the Wikipedia article on United States Coast Guard.",
         "credit": "U.S. Government",
         "source": "https://commons.wikimedia.org/wiki/File:Seal_of_the_United_States_Coast_Guard.svg",
         "license": "Public domain",
         "licenseUrl": "https://commons.wikimedia.org/wiki/File:Seal_of_the_United_States_Coast_Guard.svg"
+      }
+    },
+    {
+      "id": "01-21-dmc-delorean",
+      "date": "01-21",
+      "dateLabel": "21 January",
+      "category": "world",
+      "categoryName": "World",
+      "year": 1981,
+      "title": "DMC DeLorean",
+      "body": "Production of the DeLorean sports car begins in Dunmurry, Northern Ireland, United Kingdom.",
+      "source": {
+        "name": "Wikipedia · DMC DeLorean",
+        "url": "https://en.wikipedia.org/wiki/DMC_DeLorean",
+        "calendarUrl": "https://en.wikipedia.org/wiki/January_21",
+        "license": {
+          "name": "CC BY-SA 4.0",
+          "url": "https://creativecommons.org/licenses/by-sa/4.0/"
+        }
+      },
+      "image": {
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/2c/Delorean_DMC-12_side.jpg/500px-Delorean_DMC-12_side.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "alt": "Picture from the Wikipedia article on DMC DeLorean.",
+        "credit": "Kevin Abato, www.grenexmedia.com",
+        "source": "https://commons.wikimedia.org/wiki/File:Delorean_DMC-12_side.jpg",
+        "license": "CC BY-SA 3.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0/"
       }
     }
   ]

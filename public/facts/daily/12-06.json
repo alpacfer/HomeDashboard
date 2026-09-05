@@ -21,7 +21,7 @@
         }
       },
       "image": {
-        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d8/Mars_global_surveyor.jpg/1280px-Mars_global_surveyor.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d8/Mars_global_surveyor.jpg/500px-Mars_global_surveyor.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
         "alt": "Picture from the Wikipedia article on Mars Global Surveyor.",
         "credit": "NASA/JPL-Caltech/Corby Waste",
         "source": "https://commons.wikimedia.org/wiki/File:Mars_global_surveyor.jpg",
@@ -48,7 +48,7 @@
         }
       },
       "image": {
-        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/cf/Seal_of_the_United_States_Courts%2C_Ninth_Judicial_Circuit.svg/1280px-Seal_of_the_United_States_Courts%2C_Ninth_Judicial_Circuit.svg.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/cf/Seal_of_the_United_States_Courts%2C_Ninth_Judicial_Circuit.svg/500px-Seal_of_the_United_States_Courts%2C_Ninth_Judicial_Circuit.svg.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
         "alt": "Picture from the Wikipedia article on A&M Records, Inc. v. Napster, Inc..",
         "credit": "U.S. Government",
         "source": "https://commons.wikimedia.org/wiki/File:Seal_of_the_United_States_Courts,_Ninth_Judicial_Circuit.svg",
@@ -75,39 +75,12 @@
         }
       },
       "image": {
-        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/1f/Nofretete_Neues_Museum.jpg/1280px-Nofretete_Neues_Museum.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/1f/Nofretete_Neues_Museum.jpg/500px-Nofretete_Neues_Museum.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
         "alt": "Picture from the Wikipedia article on Nefertiti Bust.",
         "credit": "Philip Pikart",
         "source": "https://commons.wikimedia.org/wiki/File:Nofretete_Neues_Museum.jpg",
         "license": "CC BY-SA 3.0",
         "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0"
-      }
-    },
-    {
-      "id": "12-06-bophuthatswana",
-      "date": "12-06",
-      "dateLabel": "6 December",
-      "category": "world",
-      "categoryName": "World",
-      "year": 1977,
-      "title": "Bophuthatswana",
-      "body": "South Africa grants independence to Bophuthatswana, although it is not recognized by any other country.",
-      "source": {
-        "name": "Wikipedia · Bophuthatswana",
-        "url": "https://en.wikipedia.org/wiki/Bophuthatswana",
-        "calendarUrl": "https://en.wikipedia.org/wiki/December_6",
-        "license": {
-          "name": "CC BY-SA 4.0",
-          "url": "https://creativecommons.org/licenses/by-sa/4.0/"
-        }
-      },
-      "image": {
-        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d3/Flag_of_Bophuthatswana_%281972%E2%80%931994%29.svg/1280px-Flag_of_Bophuthatswana_%281972%E2%80%931994%29.svg.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-        "alt": "Picture from the Wikipedia article on Bophuthatswana.",
-        "credit": "Washiucho",
-        "source": "https://commons.wikimedia.org/wiki/File:Flag_of_Bophuthatswana_(1972%E2%80%931994).svg",
-        "license": "Public domain",
-        "licenseUrl": "https://commons.wikimedia.org/wiki/File:Flag_of_Bophuthatswana_(1972%E2%80%931994).svg"
       }
     },
     {
@@ -129,12 +102,39 @@
         }
       },
       "image": {
-        "src": "https://upload.wikimedia.org/wikipedia/commons/1/17/1882_transit_of_venus.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/17/1882_transit_of_venus.jpg/500px-1882_transit_of_venus.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
         "alt": "Picture from the Wikipedia article on 1882 transit of Venus.",
         "credit": "Template:US Naval Observatory",
         "source": "https://commons.wikimedia.org/wiki/File:1882_transit_of_venus.jpg",
         "license": "Public domain",
         "licenseUrl": "https://commons.wikimedia.org/wiki/File:1882_transit_of_venus.jpg"
+      }
+    },
+    {
+      "id": "12-06-bophuthatswana",
+      "date": "12-06",
+      "dateLabel": "6 December",
+      "category": "world",
+      "categoryName": "World",
+      "year": 1977,
+      "title": "Bophuthatswana",
+      "body": "South Africa grants independence to Bophuthatswana, although it is not recognized by any other country.",
+      "source": {
+        "name": "Wikipedia · Bophuthatswana",
+        "url": "https://en.wikipedia.org/wiki/Bophuthatswana",
+        "calendarUrl": "https://en.wikipedia.org/wiki/December_6",
+        "license": {
+          "name": "CC BY-SA 4.0",
+          "url": "https://creativecommons.org/licenses/by-sa/4.0/"
+        }
+      },
+      "image": {
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d3/Flag_of_Bophuthatswana_%281972%E2%80%931994%29.svg/500px-Flag_of_Bophuthatswana_%281972%E2%80%931994%29.svg.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "alt": "Picture from the Wikipedia article on Bophuthatswana.",
+        "credit": "Washiucho",
+        "source": "https://commons.wikimedia.org/wiki/File:Flag_of_Bophuthatswana_(1972%E2%80%931994).svg",
+        "license": "Public domain",
+        "licenseUrl": "https://commons.wikimedia.org/wiki/File:Flag_of_Bophuthatswana_(1972%E2%80%931994).svg"
       }
     }
   ]

@@ -21,7 +21,7 @@
         }
       },
       "image": {
-        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/91/Bruce_McCandless_II_during_EVA_in_1984.jpg/1280px-Bruce_McCandless_II_during_EVA_in_1984.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/91/Bruce_McCandless_II_during_EVA_in_1984.jpg/500px-Bruce_McCandless_II_during_EVA_in_1984.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
         "alt": "Picture from the Wikipedia article on Astronaut.",
         "credit": "NASA",
         "source": "https://commons.wikimedia.org/wiki/File:Bruce_McCandless_II_during_EVA_in_1984.jpg",
@@ -48,7 +48,7 @@
         }
       },
       "image": {
-        "src": "https://upload.wikimedia.org/wikipedia/commons/a/a6/Nowruz_2018_in_Khorramshahr_%2813970109000585636579510470063573_33197%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a6/Nowruz_2018_in_Khorramshahr_%2813970109000585636579510470063573_33197%29.jpg/500px-Nowruz_2018_in_Khorramshahr_%2813970109000585636579510470063573_33197%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
         "alt": "Picture from the Wikipedia article on Khorramshahr.",
         "credit": "Fars Media Corporation",
         "source": "https://commons.wikimedia.org/wiki/File:Nowruz_2018_in_Khorramshahr_(13970109000585636579510470063573_33197).jpg",
@@ -77,6 +77,8 @@
       "video": {
         "src": "https://upload.wikimedia.org/wikipedia/commons/transcoded/f/f2/Amy_Johnson_seeks_Husband%27s_Record.webm/Amy_Johnson_seeks_Husband%27s_Record.webm.240p.vp9.webm",
         "fallback": "https://upload.wikimedia.org/wikipedia/commons/transcoded/f/f2/Amy_Johnson_seeks_Husband%27s_Record.webm/Amy_Johnson_seeks_Husband%27s_Record.webm.360p.mpeg4.mov",
+        "width": 426,
+        "height": 240,
         "poster": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f2/Amy_Johnson_seeks_Husband%27s_Record.webm/500px--Amy_Johnson_seeks_Husband%27s_Record.webm.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo",
         "seconds": 96,
         "credit": "British Movietone",
@@ -85,7 +87,7 @@
         "licenseUrl": "https://commons.wikimedia.org/wiki/File:Amy_Johnson_seeks_Husband%27s_Record.webm"
       },
       "image": {
-        "src": "https://upload.wikimedia.org/wikipedia/commons/b/b0/Amy_Johnson_%28Our_Generation%2C_1938%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b0/Amy_Johnson_%28Our_Generation%2C_1938%29.jpg/500px-Amy_Johnson_%28Our_Generation%2C_1938%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
         "alt": "Picture from the Wikipedia article on Amy Johnson.",
         "credit": "Andy Dingley",
         "source": "https://commons.wikimedia.org/wiki/File:Amy_Johnson_(Our_Generation,_1938).jpg",
@@ -112,7 +114,7 @@
         }
       },
       "image": {
-        "src": "https://upload.wikimedia.org/wikipedia/commons/4/4d/Sikorsky%2C_Igor.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/4d/Sikorsky%2C_Igor.jpg/500px-Sikorsky%2C_Igor.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
         "alt": "Picture from the Wikipedia article on Igor Sikorsky.",
         "credit": "SDASM Archives",
         "source": "https://commons.wikimedia.org/wiki/File:Sikorsky,_Igor.jpg",
@@ -139,7 +141,7 @@
         }
       },
       "image": {
-        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/6d/Ashmolean_Museum_in_July_2014.jpg/1280px-Ashmolean_Museum_in_July_2014.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/6d/Ashmolean_Museum_in_July_2014.jpg/500px-Ashmolean_Museum_in_July_2014.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
         "alt": "Picture from the Wikipedia article on Ashmolean Museum.",
         "credit": "Lewis Clarke",
         "source": "https://commons.wikimedia.org/wiki/File:Ashmolean_Museum_in_July_2014.jpg",

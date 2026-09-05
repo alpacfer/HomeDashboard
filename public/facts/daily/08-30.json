@@ -21,7 +21,7 @@
         }
       },
       "image": {
-        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/9c/S83-35803_%28cropped%29.jpg/1280px-S83-35803_%28cropped%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/9c/S83-35803_%28cropped%29.jpg/500px-S83-35803_%28cropped%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
         "alt": "Picture from the Wikipedia article on Space Shuttle Challenger.",
         "credit": "NASA",
         "source": "https://commons.wikimedia.org/wiki/File:S83-35803_(cropped).jpg",
@@ -48,12 +48,39 @@
         }
       },
       "image": {
-        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/bd/Ernest_Shackleton_before_1909.jpg/1280px-Ernest_Shackleton_before_1909.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/bd/Ernest_Shackleton_before_1909.jpg/500px-Ernest_Shackleton_before_1909.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
         "alt": "Picture from the Wikipedia article on Ernest Shackleton.",
         "credit": "George Charles Beresford / Adam Cuerden",
         "source": "https://commons.wikimedia.org/wiki/File:Ernest_Shackleton_before_1909.jpg",
         "license": "Public domain",
         "licenseUrl": "https://commons.wikimedia.org/wiki/File:Ernest_Shackleton_before_1909.jpg"
+      }
+    },
+    {
+      "id": "08-30-thurgood-marshall",
+      "date": "08-30",
+      "dateLabel": "30 August",
+      "category": "world",
+      "categoryName": "World",
+      "year": 1967,
+      "title": "Thurgood Marshall",
+      "body": "Thurgood Marshall is confirmed as the first African American Justice of the Supreme Court of the United States.",
+      "source": {
+        "name": "Wikipedia · Thurgood Marshall",
+        "url": "https://en.wikipedia.org/wiki/Thurgood_Marshall",
+        "calendarUrl": "https://en.wikipedia.org/wiki/August_30",
+        "license": {
+          "name": "CC BY-SA 4.0",
+          "url": "https://creativecommons.org/licenses/by-sa/4.0/"
+        }
+      },
+      "image": {
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/5d/Thurgood-marshall-2.jpg/500px-Thurgood-marshall-2.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "alt": "Picture from the Wikipedia article on Thurgood Marshall.",
+        "credit": "Robert S. Oakes",
+        "source": "https://commons.wikimedia.org/wiki/File:Thurgood-marshall-2.jpg",
+        "license": "Public domain",
+        "licenseUrl": "https://commons.wikimedia.org/wiki/File:Thurgood-marshall-2.jpg"
       }
     },
     {
@@ -75,39 +102,12 @@
         }
       },
       "image": {
-        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/0d/Ottoia_tricuspida_ROM_63057.jpg/1280px-Ottoia_tricuspida_ROM_63057.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/0d/Ottoia_tricuspida_ROM_63057.jpg/500px-Ottoia_tricuspida_ROM_63057.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
         "alt": "Picture from the Wikipedia article on Burgess Shale.",
         "credit": "Martin R. Smith",
         "source": "https://commons.wikimedia.org/wiki/File:Ottoia_tricuspida_ROM_63057.jpg",
         "license": "CC0",
         "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/deed.en"
-      }
-    },
-    {
-      "id": "08-30-operation-deliberate-force",
-      "date": "08-30",
-      "dateLabel": "30 August",
-      "category": "world",
-      "categoryName": "World",
-      "year": 1995,
-      "title": "Operation Deliberate Force",
-      "body": "NATO launches Operation Deliberate Force against Bosnian Serb forces.",
-      "source": {
-        "name": "Wikipedia · Operation Deliberate Force",
-        "url": "https://en.wikipedia.org/wiki/Operation_Deliberate_Force",
-        "calendarUrl": "https://en.wikipedia.org/wiki/August_30",
-        "license": {
-          "name": "CC BY-SA 4.0",
-          "url": "https://creativecommons.org/licenses/by-sa/4.0/"
-        }
-      },
-      "image": {
-        "src": "https://upload.wikimedia.org/wikipedia/commons/6/65/F-16_deliberate_force.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
-        "alt": "Picture from the Wikipedia article on Operation Deliberate Force.",
-        "credit": "SSGT. Debbie Hernandez",
-        "source": "https://commons.wikimedia.org/wiki/File:F-16_deliberate_force.JPG",
-        "license": "Public domain",
-        "licenseUrl": "https://commons.wikimedia.org/wiki/File:F-16_deliberate_force.JPG"
       }
     },
     {
@@ -129,7 +129,7 @@
         }
       },
       "image": {
-        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/1d/STS-133_Space_Shuttle_Discovery_after_undocking_3_%28cropped%29.jpg/1280px-STS-133_Space_Shuttle_Discovery_after_undocking_3_%28cropped%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/1d/STS-133_Space_Shuttle_Discovery_after_undocking_3_%28cropped%29.jpg/500px-STS-133_Space_Shuttle_Discovery_after_undocking_3_%28cropped%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
         "alt": "Picture from the Wikipedia article on Space Shuttle Discovery.",
         "credit": "NASA",
         "source": "https://commons.wikimedia.org/wiki/File:STS-133_Space_Shuttle_Discovery_after_undocking_3_(cropped).jpg",

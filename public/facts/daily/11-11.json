@@ -21,39 +21,12 @@
         }
       },
       "image": {
-        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e6/S66-63536.jpg/1280px-S66-63536.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e6/S66-63536.jpg/500px-S66-63536.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
         "alt": "Picture from the Wikipedia article on Gemini 12.",
         "credit": "NASA/Jim Lovell",
         "source": "https://commons.wikimedia.org/wiki/File:S66-63536.jpg",
         "license": "Public domain",
         "licenseUrl": "https://commons.wikimedia.org/wiki/File:S66-63536.jpg"
-      }
-    },
-    {
-      "id": "11-11-patent",
-      "date": "11-11",
-      "dateLabel": "11 November",
-      "category": "science",
-      "categoryName": "Science",
-      "year": 1930,
-      "title": "Patent",
-      "body": "Patent number US1781541 is awarded to Albert Einstein and Leó Szilárd for their invention, the Einstein refrigerator.",
-      "source": {
-        "name": "Wikipedia · Patent",
-        "url": "https://en.wikipedia.org/wiki/Patent",
-        "calendarUrl": "https://en.wikipedia.org/wiki/November_11",
-        "license": {
-          "name": "CC BY-SA 4.0",
-          "url": "https://creativecommons.org/licenses/by-sa/4.0/"
-        }
-      },
-      "image": {
-        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f5/US_Patent_cover_%28US_Patent_5%2C860%2C492%29.jpg/1280px-US_Patent_cover_%28US_Patent_5%2C860%2C492%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-        "alt": "Picture from the Wikipedia article on Patent.",
-        "credit": "USPTO",
-        "source": "https://commons.wikimedia.org/wiki/File:US_Patent_cover_(US_Patent_5,860,492).jpg",
-        "license": "Public domain",
-        "licenseUrl": "https://commons.wikimedia.org/wiki/File:US_Patent_cover_(US_Patent_5,860,492).jpg"
       }
     },
     {
@@ -75,12 +48,39 @@
         }
       },
       "image": {
-        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a2/Royal_coat_of_arms_of_the_United_Kingdom_%281952%E2%80%932022%2C_variant_1%29.svg/1280px-Royal_coat_of_arms_of_the_United_Kingdom_%281952%E2%80%932022%2C_variant_1%29.svg.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a2/Royal_coat_of_arms_of_the_United_Kingdom_%281952%E2%80%932022%2C_variant_1%29.svg/500px-Royal_coat_of_arms_of_the_United_Kingdom_%281952%E2%80%932022%2C_variant_1%29.svg.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
         "alt": "Picture from the Wikipedia article on House of Lords Act 1999.",
         "credit": "Sodacan",
         "source": "https://commons.wikimedia.org/wiki/File:Royal_coat_of_arms_of_the_United_Kingdom_(1952%E2%80%932022,_variant_1).svg",
         "license": "CC BY-SA 3.0",
         "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0"
+      }
+    },
+    {
+      "id": "11-11-patent",
+      "date": "11-11",
+      "dateLabel": "11 November",
+      "category": "science",
+      "categoryName": "Science",
+      "year": 1930,
+      "title": "Patent",
+      "body": "Patent number US1781541 is awarded to Albert Einstein and Leó Szilárd for their invention, the Einstein refrigerator.",
+      "source": {
+        "name": "Wikipedia · Patent",
+        "url": "https://en.wikipedia.org/wiki/Patent",
+        "calendarUrl": "https://en.wikipedia.org/wiki/November_11",
+        "license": {
+          "name": "CC BY-SA 4.0",
+          "url": "https://creativecommons.org/licenses/by-sa/4.0/"
+        }
+      },
+      "image": {
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f5/US_Patent_cover_%28US_Patent_5%2C860%2C492%29.jpg/500px-US_Patent_cover_%28US_Patent_5%2C860%2C492%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "alt": "Picture from the Wikipedia article on Patent.",
+        "credit": "USPTO",
+        "source": "https://commons.wikimedia.org/wiki/File:US_Patent_cover_(US_Patent_5,860,492).jpg",
+        "license": "Public domain",
+        "licenseUrl": "https://commons.wikimedia.org/wiki/File:US_Patent_cover_(US_Patent_5,860,492).jpg"
       }
     },
     {
@@ -102,7 +102,7 @@
         }
       },
       "image": {
-        "src": "https://upload.wikimedia.org/wikipedia/commons/2/26/Space_Shuttle_Columbia_lands_following_STS-62_on_18_March_1994._%28cropped%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/26/Space_Shuttle_Columbia_lands_following_STS-62_on_18_March_1994._%28cropped%29.jpg/500px-Space_Shuttle_Columbia_lands_following_STS-62_on_18_March_1994._%28cropped%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
         "alt": "Picture from the Wikipedia article on Space Shuttle Columbia.",
         "credit": "NASA",
         "source": "https://commons.wikimedia.org/wiki/File:Space_Shuttle_Columbia_lands_following_STS-62_on_18_March_1994._(cropped).jpg",
@@ -129,7 +129,7 @@
         }
       },
       "image": {
-        "src": "https://upload.wikimedia.org/wikipedia/commons/1/1f/HCMTT.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/1f/HCMTT.jpg/500px-HCMTT.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
         "alt": "Picture from the Wikipedia article on Operation Commando Hunt.",
         "credit": "Wikimedia Commons",
         "source": "https://commons.wikimedia.org/wiki/File:HCMTT.jpg",

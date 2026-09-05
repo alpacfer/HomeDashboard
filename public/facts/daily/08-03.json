@@ -48,12 +48,66 @@
         }
       },
       "image": {
-        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/ef/USS_Nautilus_SSN-571_-underway.jpg/1280px-USS_Nautilus_SSN-571_-underway.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/ef/USS_Nautilus_SSN-571_-underway.jpg/500px-USS_Nautilus_SSN-571_-underway.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
         "alt": "Picture from the Wikipedia article on USS Nautilus.",
         "credit": "USN official photo # 199068",
         "source": "https://commons.wikimedia.org/wiki/File:USS_Nautilus_SSN-571_-underway.jpg",
         "license": "Public domain",
         "licenseUrl": "https://commons.wikimedia.org/wiki/File:USS_Nautilus_SSN-571_-underway.jpg"
+      }
+    },
+    {
+      "id": "08-03-harvard-university",
+      "date": "08-03",
+      "dateLabel": "3 August",
+      "category": "world",
+      "categoryName": "World",
+      "year": 1852,
+      "title": "Harvard University",
+      "body": "Harvard University wins the first Boat Race between Yale University and Harvard. The race is also known as the first ever American intercollegiate athletic event.",
+      "source": {
+        "name": "Wikipedia · Harvard University",
+        "url": "https://en.wikipedia.org/wiki/Harvard_University",
+        "calendarUrl": "https://en.wikipedia.org/wiki/August_3",
+        "license": {
+          "name": "CC BY-SA 4.0",
+          "url": "https://creativecommons.org/licenses/by-sa/4.0/"
+        }
+      },
+      "image": {
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/cc/Harvard_University_coat_of_arms.svg/500px-Harvard_University_coat_of_arms.svg.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "alt": "Picture from the Wikipedia article on Harvard University.",
+        "credit": "Harvard University",
+        "source": "https://commons.wikimedia.org/wiki/File:Harvard_University_coat_of_arms.svg",
+        "license": "Public domain",
+        "licenseUrl": "https://commons.wikimedia.org/wiki/File:Harvard_University_coat_of_arms.svg"
+      }
+    },
+    {
+      "id": "08-03-firestone-tire-and-rubber-company",
+      "date": "08-03",
+      "dateLabel": "3 August",
+      "category": "world",
+      "categoryName": "World",
+      "year": 1900,
+      "title": "Firestone",
+      "body": "The Firestone Tire and Rubber Company is founded.",
+      "source": {
+        "name": "Wikipedia · Firestone (company)",
+        "url": "https://en.wikipedia.org/wiki/Firestone_(company)",
+        "calendarUrl": "https://en.wikipedia.org/wiki/August_3",
+        "license": {
+          "name": "CC BY-SA 4.0",
+          "url": "https://creativecommons.org/licenses/by-sa/4.0/"
+        }
+      },
+      "image": {
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f5/Bridgestone_Americas_HQ_1.jpg/500px-Bridgestone_Americas_HQ_1.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "alt": "Picture from the Wikipedia article on Firestone.",
+        "credit": "Louis Chader",
+        "source": "https://commons.wikimedia.org/wiki/File:Bridgestone_Americas_HQ_1.jpg",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0"
       }
     },
     {
@@ -75,66 +129,12 @@
         }
       },
       "image": {
-        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/24/Rob_Manfred_7-15-2014.jpg/1280px-Rob_Manfred_7-15-2014.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/24/Rob_Manfred_7-15-2014.jpg/500px-Rob_Manfred_7-15-2014.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
         "alt": "Picture from the Wikipedia article on Commissioner of Baseball.",
         "credit": "Arturo Pardavila III",
         "source": "https://commons.wikimedia.org/wiki/File:Rob_Manfred_7-15-2014.jpg",
         "license": "CC BY-SA 2.0",
         "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0"
-      }
-    },
-    {
-      "id": "08-03-jesse-owens",
-      "date": "08-03",
-      "dateLabel": "3 August",
-      "category": "sport",
-      "categoryName": "Sport",
-      "year": 1936,
-      "title": "Jesse Owens",
-      "body": "Jesse Owens wins the 100 metre dash, defeating Ralph Metcalfe, at the Berlin Olympics.",
-      "source": {
-        "name": "Wikipedia · Jesse Owens",
-        "url": "https://en.wikipedia.org/wiki/Jesse_Owens",
-        "calendarUrl": "https://en.wikipedia.org/wiki/August_3",
-        "license": {
-          "name": "CC BY-SA 4.0",
-          "url": "https://creativecommons.org/licenses/by-sa/4.0/"
-        }
-      },
-      "image": {
-        "src": "https://upload.wikimedia.org/wikipedia/commons/1/19/Jesse_Owens_1936.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
-        "alt": "Picture from the Wikipedia article on Jesse Owens.",
-        "credit": "Acme News Photos",
-        "source": "https://commons.wikimedia.org/wiki/File:Jesse_Owens_1936.jpg",
-        "license": "Public domain",
-        "licenseUrl": "https://commons.wikimedia.org/wiki/File:Jesse_Owens_1936.jpg"
-      }
-    },
-    {
-      "id": "08-03-senegal",
-      "date": "08-03",
-      "dateLabel": "3 August",
-      "category": "world",
-      "categoryName": "World",
-      "year": 1981,
-      "title": "Senegal",
-      "body": "Senegalese opposition parties, under the leadership of Mamadou Dia, launch the Antiimperialist Action Front – Suxxali Reew Mi.",
-      "source": {
-        "name": "Wikipedia · Senegal",
-        "url": "https://en.wikipedia.org/wiki/Senegal",
-        "calendarUrl": "https://en.wikipedia.org/wiki/August_3",
-        "license": {
-          "name": "CC BY-SA 4.0",
-          "url": "https://creativecommons.org/licenses/by-sa/4.0/"
-        }
-      },
-      "image": {
-        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/fd/Flag_of_Senegal.svg/1280px-Flag_of_Senegal.svg.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-        "alt": "Picture from the Wikipedia article on Senegal.",
-        "credit": "Original upload by Nightstallion",
-        "source": "https://commons.wikimedia.org/wiki/File:Flag_of_Senegal.svg",
-        "license": "Public domain",
-        "licenseUrl": "https://commons.wikimedia.org/wiki/File:Flag_of_Senegal.svg"
       }
     }
   ]

@@ -21,39 +21,12 @@
         }
       },
       "image": {
-        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/ac/Eugene_Cernan_at_the_LM%2C_Apollo_17%2C_AS17-134-20378.jpg/1280px-Eugene_Cernan_at_the_LM%2C_Apollo_17%2C_AS17-134-20378.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/ac/Eugene_Cernan_at_the_LM%2C_Apollo_17%2C_AS17-134-20378.jpg/500px-Eugene_Cernan_at_the_LM%2C_Apollo_17%2C_AS17-134-20378.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
         "alt": "Picture from the Wikipedia article on Apollo 17.",
         "credit": "Harrison Schmitt / Apollo 17",
         "source": "https://commons.wikimedia.org/wiki/File:Eugene_Cernan_at_the_LM,_Apollo_17,_AS17-134-20378.jpg",
         "license": "Public domain",
         "licenseUrl": "https://commons.wikimedia.org/wiki/File:Eugene_Cernan_at_the_LM,_Apollo_17,_AS17-134-20378.jpg"
-      }
-    },
-    {
-      "id": "12-11-louvre",
-      "date": "12-11",
-      "dateLabel": "11 December",
-      "category": "curious",
-      "categoryName": "Curious",
-      "year": 1913,
-      "title": "Louvre",
-      "body": "More than two years after it was stolen from the Louvre, Leonardo da Vinci's painting Mona Lisa is recovered in Florence, Italy. The thief, Vincenzo Peruggia, is immediately arrested.",
-      "source": {
-        "name": "Wikipedia · Louvre",
-        "url": "https://en.wikipedia.org/wiki/Louvre",
-        "calendarUrl": "https://en.wikipedia.org/wiki/December_11",
-        "license": {
-          "name": "CC BY-SA 4.0",
-          "url": "https://creativecommons.org/licenses/by-sa/4.0/"
-        }
-      },
-      "image": {
-        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/66/Louvre_Museum_Wikimedia_Commons.jpg/1280px-Louvre_Museum_Wikimedia_Commons.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-        "alt": "Picture from the Wikipedia article on Louvre.",
-        "credit": "Benh LIEU SONG",
-        "source": "https://commons.wikimedia.org/wiki/File:Louvre_Museum_Wikimedia_Commons.jpg",
-        "license": "CC BY-SA 3.0",
-        "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0"
       }
     },
     {
@@ -75,12 +48,39 @@
         }
       },
       "image": {
-        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/9a/WTO_members_and_observers.svg/1280px-WTO_members_and_observers.svg.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/9a/WTO_members_and_observers.svg/500px-WTO_members_and_observers.svg.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
         "alt": "Picture from the Wikipedia article on World Trade Organization.",
         "credit": "Happenstance et al",
         "source": "https://commons.wikimedia.org/wiki/File:WTO_members_and_observers.svg",
         "license": "Public domain",
         "licenseUrl": "https://commons.wikimedia.org/wiki/File:WTO_members_and_observers.svg"
+      }
+    },
+    {
+      "id": "12-11-guglielmo-marconi",
+      "date": "12-11",
+      "dateLabel": "11 December",
+      "category": "world",
+      "categoryName": "World",
+      "year": 1901,
+      "title": "Guglielmo Marconi",
+      "body": "Guglielmo Marconi transmits the first transatlantic radio signal from Poldhu, Cornwall, England to St. John's, Newfoundland.",
+      "source": {
+        "name": "Wikipedia · Guglielmo Marconi",
+        "url": "https://en.wikipedia.org/wiki/Guglielmo_Marconi",
+        "calendarUrl": "https://en.wikipedia.org/wiki/December_11",
+        "license": {
+          "name": "CC BY-SA 4.0",
+          "url": "https://creativecommons.org/licenses/by-sa/4.0/"
+        }
+      },
+      "image": {
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/0d/Guglielmo_Marconi.jpg/500px-Guglielmo_Marconi.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "alt": "Picture from the Wikipedia article on Guglielmo Marconi.",
+        "credit": "Pach Brothers",
+        "source": "https://commons.wikimedia.org/wiki/File:Guglielmo_Marconi.jpg",
+        "license": "Public domain",
+        "licenseUrl": "https://commons.wikimedia.org/wiki/File:Guglielmo_Marconi.jpg"
       }
     },
     {
@@ -102,7 +102,7 @@
         }
       },
       "image": {
-        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c3/Flag_of_France.svg/1280px-Flag_of_France.svg.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c3/Flag_of_France.svg/500px-Flag_of_France.svg.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
         "alt": "Picture from the Wikipedia article on French Upper Volta.",
         "credit": "Unknown Vector: SKopp",
         "source": "https://commons.wikimedia.org/wiki/File:Flag_of_France.svg",
@@ -111,17 +111,17 @@
       }
     },
     {
-      "id": "12-11-rovio-entertainment",
+      "id": "12-11-buncefield-fire",
       "date": "12-11",
       "dateLabel": "11 December",
       "category": "world",
       "categoryName": "World",
-      "year": 2009,
-      "title": "Rovio Entertainment",
-      "body": "Finnish game developer Rovio Entertainment releases the hit mobile game Angry Birds internationally on iOS.",
+      "year": 2005,
+      "title": "Buncefield fire",
+      "body": "The Buncefield Oil Depot catches fire in Hemel Hempstead, England.",
       "source": {
-        "name": "Wikipedia · Rovio Entertainment",
-        "url": "https://en.wikipedia.org/wiki/Rovio_Entertainment",
+        "name": "Wikipedia · Buncefield fire",
+        "url": "https://en.wikipedia.org/wiki/Buncefield_fire",
         "calendarUrl": "https://en.wikipedia.org/wiki/December_11",
         "license": {
           "name": "CC BY-SA 4.0",
@@ -129,12 +129,12 @@
         }
       },
       "image": {
-        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/ea/Rovio_Entertainment_hdqtrs_%282016_%E2%80%93%29_Keilaranta_7_Espoo.jpg/1280px-Rovio_Entertainment_hdqtrs_%282016_%E2%80%93%29_Keilaranta_7_Espoo.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-        "alt": "Picture from the Wikipedia article on Rovio Entertainment.",
-        "credit": "Htm",
-        "source": "https://commons.wikimedia.org/wiki/File:Rovio_Entertainment_hdqtrs_(2016_%E2%80%93)_Keilaranta_7_Espoo.jpg",
-        "license": "CC BY-SA 4.0",
-        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0"
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b2/Buncefield015.jpg/500px-Buncefield015.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "alt": "Picture from the Wikipedia article on Buncefield fire.",
+        "credit": "Rick Martin",
+        "source": "https://commons.wikimedia.org/wiki/File:Buncefield015.jpg",
+        "license": "CC BY-SA 3.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0"
       }
     }
   ]

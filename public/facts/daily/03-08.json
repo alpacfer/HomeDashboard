@@ -3,17 +3,17 @@
   "dateLabel": "8 March",
   "facts": [
     {
-      "id": "03-08-philips",
+      "id": "03-08-voyager-1",
       "date": "03-08",
       "dateLabel": "8 March",
-      "category": "world",
-      "categoryName": "World",
+      "category": "space",
+      "categoryName": "Space",
       "year": 1979,
-      "title": "Philips",
-      "body": "Philips demonstrates the compact disc publicly for the first time.",
+      "title": "Voyager 1",
+      "body": "Images taken by Voyager 1 prove the existence of volcanoes on Io, a moon of Jupiter.",
       "source": {
-        "name": "Wikipedia · Philips",
-        "url": "https://en.wikipedia.org/wiki/Philips",
+        "name": "Wikipedia · Voyager 1",
+        "url": "https://en.wikipedia.org/wiki/Voyager_1",
         "calendarUrl": "https://en.wikipedia.org/wiki/March_8",
         "license": {
           "name": "CC BY-SA 4.0",
@@ -21,12 +21,12 @@
         }
       },
       "image": {
-        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/ec/2025_Prinses_Irenestraat_59%2C_Asd_%28D%29.jpg/1280px-2025_Prinses_Irenestraat_59%2C_Asd_%28D%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-        "alt": "Picture from the Wikipedia article on Philips.",
-        "credit": "Ceescamel",
-        "source": "https://commons.wikimedia.org/wiki/File:2025_Prinses_Irenestraat_59,_Asd_(D).jpg",
-        "license": "CC0",
-        "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/deed.en"
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/60/Voyager_spacecraft_model.png/500px-Voyager_spacecraft_model.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "alt": "Picture from the Wikipedia article on Voyager 1.",
+        "credit": "NASA",
+        "source": "https://commons.wikimedia.org/wiki/File:Voyager_spacecraft_model.png",
+        "license": "Public domain",
+        "licenseUrl": "https://commons.wikimedia.org/wiki/File:Voyager_spacecraft_model.png"
       }
     },
     {
@@ -48,7 +48,7 @@
         }
       },
       "image": {
-        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/57/Hulk_Hogan%2C_circa_1985.jpg/1280px-Hulk_Hogan%2C_circa_1985.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/57/Hulk_Hogan%2C_circa_1985.jpg/500px-Hulk_Hogan%2C_circa_1985.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
         "alt": "Picture from the Wikipedia article on Hulk Hogan.",
         "credit": "Unknown photographer",
         "source": "https://commons.wikimedia.org/wiki/File:Hulk_Hogan,_circa_1985.jpg",
@@ -57,17 +57,17 @@
       }
     },
     {
-      "id": "03-08-voyager-1",
+      "id": "03-08-philips",
       "date": "03-08",
       "dateLabel": "8 March",
-      "category": "space",
-      "categoryName": "Space",
+      "category": "world",
+      "categoryName": "World",
       "year": 1979,
-      "title": "Voyager 1",
-      "body": "Images taken by Voyager 1 prove the existence of volcanoes on Io, a moon of Jupiter.",
+      "title": "Philips",
+      "body": "Philips demonstrates the compact disc publicly for the first time.",
       "source": {
-        "name": "Wikipedia · Voyager 1",
-        "url": "https://en.wikipedia.org/wiki/Voyager_1",
+        "name": "Wikipedia · Philips",
+        "url": "https://en.wikipedia.org/wiki/Philips",
         "calendarUrl": "https://en.wikipedia.org/wiki/March_8",
         "license": {
           "name": "CC BY-SA 4.0",
@@ -75,12 +75,12 @@
         }
       },
       "image": {
-        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/60/Voyager_spacecraft_model.png/1280px-Voyager_spacecraft_model.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-        "alt": "Picture from the Wikipedia article on Voyager 1.",
-        "credit": "NASA",
-        "source": "https://commons.wikimedia.org/wiki/File:Voyager_spacecraft_model.png",
-        "license": "Public domain",
-        "licenseUrl": "https://commons.wikimedia.org/wiki/File:Voyager_spacecraft_model.png"
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/ec/2025_Prinses_Irenestraat_59%2C_Asd_%28D%29.jpg/500px-2025_Prinses_Irenestraat_59%2C_Asd_%28D%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "alt": "Picture from the Wikipedia article on Philips.",
+        "credit": "Ceescamel",
+        "source": "https://commons.wikimedia.org/wiki/File:2025_Prinses_Irenestraat_59,_Asd_(D).jpg",
+        "license": "CC0",
+        "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/deed.en"
       }
     },
     {
@@ -102,7 +102,7 @@
         }
       },
       "image": {
-        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/38/Lt_Mike_Hunter_1.jpg/1280px-Lt_Mike_Hunter_1.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/38/Lt_Mike_Hunter_1.jpg/500px-Lt_Mike_Hunter_1.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
         "alt": "Picture from the Wikipedia article on Aircraft pilot.",
         "credit": "Alfred T. Palmer",
         "source": "https://commons.wikimedia.org/wiki/File:Lt_Mike_Hunter_1.jpg",
@@ -129,7 +129,7 @@
         }
       },
       "image": {
-        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/19/Malta_Gozo%2C_Azure_Window_%2810264176345%29.jpg/1280px-Malta_Gozo%2C_Azure_Window_%2810264176345%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/19/Malta_Gozo%2C_Azure_Window_%2810264176345%29.jpg/500px-Malta_Gozo%2C_Azure_Window_%2810264176345%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
         "alt": "Picture from the Wikipedia article on Azure Window.",
         "credit": "Berit Watkin from Redhill/Surrey, UK",
         "source": "https://commons.wikimedia.org/wiki/File:Malta_Gozo,_Azure_Window_(10264176345).jpg",

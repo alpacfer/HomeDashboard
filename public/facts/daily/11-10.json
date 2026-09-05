@@ -3,33 +3,6 @@
   "dateLabel": "10 November",
   "facts": [
     {
-      "id": "11-10-mars",
-      "date": "11-10",
-      "dateLabel": "10 November",
-      "category": "space",
-      "categoryName": "Space",
-      "year": 2008,
-      "title": "Mars",
-      "body": "Over five months after landing on Mars, NASA declares the Phoenix mission concluded after communications with the lander were lost.",
-      "source": {
-        "name": "Wikipedia · Mars",
-        "url": "https://en.wikipedia.org/wiki/Mars",
-        "calendarUrl": "https://en.wikipedia.org/wiki/November_10",
-        "license": {
-          "name": "CC BY-SA 4.0",
-          "url": "https://creativecommons.org/licenses/by-sa/4.0/"
-        }
-      },
-      "image": {
-        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/0c/Mars_-_August_30_2021_-_Flickr_-_Kevin_M._Gill.png/1280px-Mars_-_August_30_2021_-_Flickr_-_Kevin_M._Gill.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-        "alt": "Picture from the Wikipedia article on Mars.",
-        "credit": "Kevin Gill",
-        "source": "https://commons.wikimedia.org/wiki/File:Mars_-_August_30_2021_-_Flickr_-_Kevin_M._Gill.png",
-        "license": "CC BY 2.0",
-        "licenseUrl": "https://creativecommons.org/licenses/by/2.0"
-      }
-    },
-    {
       "id": "11-10-bill-gates",
       "date": "11-10",
       "dateLabel": "10 November",
@@ -48,12 +21,39 @@
         }
       },
       "image": {
-        "src": "https://upload.wikimedia.org/wikipedia/commons/d/d9/Bill_Gates_at_the_European_Commission_-_P067383-987995_%28cropped%29_5.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d9/Bill_Gates_at_the_European_Commission_-_P067383-987995_%28cropped%29_5.jpg/500px-Bill_Gates_at_the_European_Commission_-_P067383-987995_%28cropped%29_5.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
         "alt": "Picture from the Wikipedia article on Bill Gates.",
         "credit": "© European Union, 2026",
         "source": "https://commons.wikimedia.org/wiki/File:Bill_Gates_at_the_European_Commission_-_P067383-987995_(cropped)_5.jpg",
         "license": "CC BY 4.0",
         "licenseUrl": "https://creativecommons.org/licenses/by/4.0"
+      }
+    },
+    {
+      "id": "11-10-mars",
+      "date": "11-10",
+      "dateLabel": "10 November",
+      "category": "space",
+      "categoryName": "Space",
+      "year": 2008,
+      "title": "Mars",
+      "body": "Over five months after landing on Mars, NASA declares the Phoenix mission concluded after communications with the lander were lost.",
+      "source": {
+        "name": "Wikipedia · Mars",
+        "url": "https://en.wikipedia.org/wiki/Mars",
+        "calendarUrl": "https://en.wikipedia.org/wiki/November_10",
+        "license": {
+          "name": "CC BY-SA 4.0",
+          "url": "https://creativecommons.org/licenses/by-sa/4.0/"
+        }
+      },
+      "image": {
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/0c/Mars_-_August_30_2021_-_Flickr_-_Kevin_M._Gill.png/500px-Mars_-_August_30_2021_-_Flickr_-_Kevin_M._Gill.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "alt": "Picture from the Wikipedia article on Mars.",
+        "credit": "Kevin Gill",
+        "source": "https://commons.wikimedia.org/wiki/File:Mars_-_August_30_2021_-_Flickr_-_Kevin_M._Gill.png",
+        "license": "CC BY 2.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by/2.0"
       }
     },
     {
@@ -102,7 +102,7 @@
         }
       },
       "image": {
-        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e0/NET_Logo_1967_%28Color%29.svg/1280px-NET_Logo_1967_%28Color%29.svg.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e0/NET_Logo_1967_%28Color%29.svg/500px-NET_Logo_1967_%28Color%29.svg.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
         "alt": "Picture from the Wikipedia article on National Educational Television.",
         "credit": "National Educational Television",
         "source": "https://commons.wikimedia.org/wiki/File:NET_Logo_1967_(Color).svg",
@@ -129,7 +129,7 @@
         }
       },
       "image": {
-        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/5d/NANP_countries.svg/1280px-NANP_countries.svg.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/5d/NANP_countries.svg/500px-NANP_countries.svg.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
         "alt": "Picture from the Wikipedia article on North American Numbering Plan.",
         "credit": "DLommes",
         "source": "https://commons.wikimedia.org/wiki/File:NANP_countries.svg",

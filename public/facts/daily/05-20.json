@@ -21,93 +21,12 @@
         }
       },
       "image": {
-        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/1a/HIV-budding-Color.jpg/1280px-HIV-budding-Color.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/1a/HIV-budding-Color.jpg/500px-HIV-budding-Color.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
         "alt": "Picture from the Wikipedia article on HIV.",
         "credit": "CDC/ C. Goldsmith",
         "source": "https://commons.wikimedia.org/wiki/File:HIV-budding-Color.jpg",
         "license": "Public domain",
         "licenseUrl": "https://commons.wikimedia.org/wiki/File:HIV-budding-Color.jpg"
-      }
-    },
-    {
-      "id": "05-20-operation-redwing",
-      "date": "05-20",
-      "dateLabel": "20 May",
-      "category": "world",
-      "categoryName": "World",
-      "year": 1956,
-      "title": "Operation Redwing",
-      "body": "In Operation Redwing, the first United States airborne hydrogen bomb is dropped over Bikini Atoll in the Pacific Ocean.",
-      "source": {
-        "name": "Wikipedia · Operation Redwing",
-        "url": "https://en.wikipedia.org/wiki/Operation_Redwing",
-        "calendarUrl": "https://en.wikipedia.org/wiki/May_20",
-        "license": {
-          "name": "CC BY-SA 4.0",
-          "url": "https://creativecommons.org/licenses/by-sa/4.0/"
-        }
-      },
-      "image": {
-        "src": "https://upload.wikimedia.org/wikipedia/commons/1/1f/RedwingCherokee2.gif?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
-        "alt": "Picture from the Wikipedia article on Operation Redwing.",
-        "credit": "Unknown author",
-        "source": "https://commons.wikimedia.org/wiki/File:RedwingCherokee2.gif",
-        "license": "Public domain",
-        "licenseUrl": "https://commons.wikimedia.org/wiki/File:RedwingCherokee2.gif"
-      }
-    },
-    {
-      "id": "05-20-discovery-of-cosmic-microwave-background-radiation",
-      "date": "05-20",
-      "dateLabel": "20 May",
-      "category": "science",
-      "categoryName": "Science",
-      "year": 1964,
-      "title": "Discovery of cosmic microwave background radiation",
-      "body": "Discovery of the cosmic microwave background radiation by Robert Woodrow Wilson and Arno Penzias.",
-      "source": {
-        "name": "Wikipedia · Discovery of cosmic microwave background radiation",
-        "url": "https://en.wikipedia.org/wiki/Discovery_of_cosmic_microwave_background_radiation",
-        "calendarUrl": "https://en.wikipedia.org/wiki/May_20",
-        "license": {
-          "name": "CC BY-SA 4.0",
-          "url": "https://creativecommons.org/licenses/by-sa/4.0/"
-        }
-      },
-      "image": {
-        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/ed/WMAP_2012.png/1280px-WMAP_2012.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-        "alt": "Picture from the Wikipedia article on Discovery of cosmic microwave background radiation.",
-        "credit": "NASA / WMAP Science Team",
-        "source": "https://commons.wikimedia.org/wiki/File:WMAP_2012.png",
-        "license": "Public domain",
-        "licenseUrl": "https://commons.wikimedia.org/wiki/File:WMAP_2012.png"
-      }
-    },
-    {
-      "id": "05-20-luttra-woman",
-      "date": "05-20",
-      "dateLabel": "20 May",
-      "category": "science",
-      "categoryName": "Science",
-      "year": 1943,
-      "title": "Luttra Woman",
-      "body": "The Luttra Woman, a bog body from the Early Neolithic period (radiocarbon-dated ), is discovered near Luttra, Sweden.",
-      "source": {
-        "name": "Wikipedia · Luttra Woman",
-        "url": "https://en.wikipedia.org/wiki/Luttra_Woman",
-        "calendarUrl": "https://en.wikipedia.org/wiki/May_20",
-        "license": {
-          "name": "CC BY-SA 4.0",
-          "url": "https://creativecommons.org/licenses/by-sa/4.0/"
-        }
-      },
-      "image": {
-        "src": "https://upload.wikimedia.org/wikipedia/commons/c/c6/Hallonflickans_kranium_9989.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
-        "alt": "Picture from the Wikipedia article on Luttra Woman.",
-        "credit": "Gunnar Creutz",
-        "source": "https://commons.wikimedia.org/wiki/File:Hallonflickans_kranium_9989.jpg",
-        "license": "CC BY-SA 3.0",
-        "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0"
       }
     },
     {
@@ -129,12 +48,93 @@
         }
       },
       "image": {
-        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/dc/Radio_Mart%C3%AD_broadcast_studio.jpg/1280px-Radio_Mart%C3%AD_broadcast_studio.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/dc/Radio_Mart%C3%AD_broadcast_studio.jpg/500px-Radio_Mart%C3%AD_broadcast_studio.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
         "alt": "Picture from the Wikipedia article on Radio y Televisión Martí.",
         "credit": "Broadcasting Board of Governors",
         "source": "https://commons.wikimedia.org/wiki/File:Radio_Mart%C3%AD_broadcast_studio.jpg",
         "license": "Public domain",
         "licenseUrl": "https://commons.wikimedia.org/wiki/File:Radio_Mart%C3%AD_broadcast_studio.jpg"
+      }
+    },
+    {
+      "id": "05-20-international-system-of-units",
+      "date": "05-20",
+      "dateLabel": "20 May",
+      "category": "world",
+      "categoryName": "World",
+      "year": 2019,
+      "title": "International System of Units",
+      "body": "The International System of Units (SI): The base units are redefined, making the international prototype of the kilogram obsolete.",
+      "source": {
+        "name": "Wikipedia · International System of Units",
+        "url": "https://en.wikipedia.org/wiki/International_System_of_Units",
+        "calendarUrl": "https://en.wikipedia.org/wiki/May_20",
+        "license": {
+          "name": "CC BY-SA 4.0",
+          "url": "https://creativecommons.org/licenses/by-sa/4.0/"
+        }
+      },
+      "image": {
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/3c/SI_Illustration_Base_Units_and_Constants_Colour_Full.svg/500px-SI_Illustration_Base_Units_and_Constants_Colour_Full.svg.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "alt": "Picture from the Wikipedia article on International System of Units.",
+        "credit": "BIPM, User:Cmglee Rearranged version",
+        "source": "https://commons.wikimedia.org/wiki/File:SI_Illustration_Base_Units_and_Constants_Colour_Full.svg",
+        "license": "Public domain",
+        "licenseUrl": "https://commons.wikimedia.org/wiki/File:SI_Illustration_Base_Units_and_Constants_Colour_Full.svg"
+      }
+    },
+    {
+      "id": "05-20-east-timor",
+      "date": "05-20",
+      "dateLabel": "20 May",
+      "category": "world",
+      "categoryName": "World",
+      "year": 2002,
+      "title": "Timor-Leste",
+      "body": "The independence of East Timor is recognized by Portugal, formally ending 23 years of Indonesian rule and three years of provisional UN administration (Portugal itself is the former colonizer of East Timor until 1976).",
+      "source": {
+        "name": "Wikipedia · Timor-Leste",
+        "url": "https://en.wikipedia.org/wiki/Timor-Leste",
+        "calendarUrl": "https://en.wikipedia.org/wiki/May_20",
+        "license": {
+          "name": "CC BY-SA 4.0",
+          "url": "https://creativecommons.org/licenses/by-sa/4.0/"
+        }
+      },
+      "image": {
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/26/Flag_of_East_Timor.svg/500px-Flag_of_East_Timor.svg.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "alt": "Picture from the Wikipedia article on Timor-Leste.",
+        "credit": "See File history, below, for details",
+        "source": "https://commons.wikimedia.org/wiki/File:Flag_of_East_Timor.svg",
+        "license": "Public domain",
+        "licenseUrl": "https://commons.wikimedia.org/wiki/File:Flag_of_East_Timor.svg"
+      }
+    },
+    {
+      "id": "05-20-mamata-banerjee",
+      "date": "05-20",
+      "dateLabel": "20 May",
+      "category": "world",
+      "categoryName": "World",
+      "year": 2011,
+      "title": "Mamata Banerjee",
+      "body": "Mamata Banerjee is sworn in as the Chief Minister of West Bengal, the first woman to hold this post.",
+      "source": {
+        "name": "Wikipedia · Mamata Banerjee",
+        "url": "https://en.wikipedia.org/wiki/Mamata_Banerjee",
+        "calendarUrl": "https://en.wikipedia.org/wiki/May_20",
+        "license": {
+          "name": "CC BY-SA 4.0",
+          "url": "https://creativecommons.org/licenses/by-sa/4.0/"
+        }
+      },
+      "image": {
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/4d/Official_portrait_of_Mamata_Banerjee.jpg/500px-Official_portrait_of_Mamata_Banerjee.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "alt": "Picture from the Wikipedia article on Mamata Banerjee.",
+        "credit": "Government of West Bengal",
+        "source": "https://commons.wikimedia.org/wiki/File:Official_portrait_of_Mamata_Banerjee.jpg",
+        "license": "CC BY 1.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by/1.0"
       }
     }
   ]

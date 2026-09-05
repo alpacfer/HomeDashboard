@@ -21,7 +21,7 @@
         }
       },
       "image": {
-        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b8/B-747_Iberia.jpg/1280px-B-747_Iberia.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b8/B-747_Iberia.jpg/500px-B-747_Iberia.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
         "alt": "Picture from the Wikipedia article on Boeing 747.",
         "credit": "Iberia Airlines",
         "source": "https://commons.wikimedia.org/wiki/File:B-747_Iberia.jpg",
@@ -48,7 +48,7 @@
         }
       },
       "image": {
-        "src": "https://upload.wikimedia.org/wikipedia/commons/f/f7/Doug_Williams_at_Washington_Charity_Golf_Classic_2021.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f7/Doug_Williams_at_Washington_Charity_Golf_Classic_2021.jpg/500px-Doug_Williams_at_Washington_Charity_Golf_Classic_2021.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
         "alt": "Picture from the Wikipedia article on Doug Williams.",
         "credit": "All-Pro Reels",
         "source": "https://commons.wikimedia.org/wiki/File:Doug_Williams_at_Washington_Charity_Golf_Classic_2021.jpg",
@@ -77,6 +77,8 @@
       "video": {
         "src": "https://upload.wikimedia.org/wikipedia/commons/transcoded/d/d7/Apollo_14_footage_of_the_astronauts_climbing_down_from_the_lunar_lander_and_planting_an_American_flag.ogv/Apollo_14_footage_of_the_astronauts_climbing_down_from_the_lunar_lander_and_planting_an_American_flag.ogv.240p.vp9.webm",
         "fallback": "https://upload.wikimedia.org/wikipedia/commons/transcoded/d/d7/Apollo_14_footage_of_the_astronauts_climbing_down_from_the_lunar_lander_and_planting_an_American_flag.ogv/Apollo_14_footage_of_the_astronauts_climbing_down_from_the_lunar_lander_and_planting_an_American_flag.ogv.360p.mpeg4.mov",
+        "width": 322,
+        "height": 240,
         "poster": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d7/Apollo_14_footage_of_the_astronauts_climbing_down_from_the_lunar_lander_and_planting_an_American_flag.ogv/960px--Apollo_14_footage_of_the_astronauts_climbing_down_from_the_lunar_lander_and_planting_an_American_flag.ogv.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo",
         "seconds": 125,
         "credit": "NASA/Johnson Space Center",
@@ -85,7 +87,7 @@
         "licenseUrl": "https://commons.wikimedia.org/wiki/File:Apollo_14_footage_of_the_astronauts_climbing_down_from_the_lunar_lander_and_planting_an_American_flag.ogv"
       },
       "image": {
-        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/09/Apollo_14_Shepard.jpg/1280px-Apollo_14_Shepard.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/09/Apollo_14_Shepard.jpg/500px-Apollo_14_Shepard.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
         "alt": "Picture from the Wikipedia article on Apollo 14.",
         "credit": "Edgar D. Mitchell / NASA",
         "source": "https://commons.wikimedia.org/wiki/File:Apollo_14_Shepard.jpg",
@@ -112,7 +114,7 @@
         }
       },
       "image": {
-        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/88/Ham_Launch_-_GPN-2000-001007.jpg/1280px-Ham_Launch_-_GPN-2000-001007.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/88/Ham_Launch_-_GPN-2000-001007.jpg/500px-Ham_Launch_-_GPN-2000-001007.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
         "alt": "Picture from the Wikipedia article on Mercury-Redstone 2.",
         "credit": "NASA",
         "source": "https://commons.wikimedia.org/wiki/File:Ham_Launch_-_GPN-2000-001007.jpg",
@@ -139,7 +141,7 @@
         }
       },
       "image": {
-        "src": "https://upload.wikimedia.org/wikipedia/commons/7/73/Explorer1.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/73/Explorer1.jpg/500px-Explorer1.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
         "alt": "Picture from the Wikipedia article on Explorer 1.",
         "credit": "NASA",
         "source": "https://commons.wikimedia.org/wiki/File:Explorer1.jpg",

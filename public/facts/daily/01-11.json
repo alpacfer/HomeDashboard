@@ -21,39 +21,12 @@
         }
       },
       "image": {
-        "src": "https://upload.wikimedia.org/wikipedia/commons/4/4d/Wikicat-keyboard.jpeg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/4d/Wikicat-keyboard.jpeg/500px-Wikicat-keyboard.jpeg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
         "alt": "A cat photographed and captioned in the deliberately misspelled style of a lolcat.",
         "credit": "Wikimedia Commons",
         "source": "https://commons.wikimedia.org/wiki/File:Wikicat-keyboard.jpeg",
         "license": "CC BY 2.5",
         "licenseUrl": "https://creativecommons.org/licenses/by/2.5"
-      }
-    },
-    {
-      "id": "01-11-amelia-earhart",
-      "date": "01-11",
-      "dateLabel": "11 January",
-      "category": "world",
-      "categoryName": "World",
-      "year": 1935,
-      "title": "Amelia Earhart",
-      "body": "Amelia Earhart becomes the first person to fly solo from Hawaii to California.",
-      "source": {
-        "name": "Wikipedia · Amelia Earhart",
-        "url": "https://en.wikipedia.org/wiki/Amelia_Earhart",
-        "calendarUrl": "https://en.wikipedia.org/wiki/January_11",
-        "license": {
-          "name": "CC BY-SA 4.0",
-          "url": "https://creativecommons.org/licenses/by-sa/4.0/"
-        }
-      },
-      "image": {
-        "src": "https://upload.wikimedia.org/wikipedia/commons/7/72/Amelia_Earhart_standing_under_nose_of_her_Lockheed_Model_10-E_Electra%2C_small_%28cropped%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
-        "alt": "Picture from the Wikipedia article on Amelia Earhart.",
-        "credit": "Underwood & Underwood",
-        "source": "https://commons.wikimedia.org/wiki/File:Amelia_Earhart_standing_under_nose_of_her_Lockheed_Model_10-E_Electra,_small_(cropped).jpg",
-        "license": "Public domain",
-        "licenseUrl": "https://commons.wikimedia.org/wiki/File:Amelia_Earhart_standing_under_nose_of_her_Lockheed_Model_10-E_Electra,_small_(cropped).jpg"
       }
     },
     {
@@ -75,12 +48,39 @@
         }
       },
       "image": {
-        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e5/Pikku-kakkosen-puisto.jpg/1280px-Pikku-kakkosen-puisto.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e5/Pikku-kakkosen-puisto.jpg/500px-Pikku-kakkosen-puisto.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
         "alt": "Picture from the Wikipedia article on Pikku Kakkonen.",
         "credit": "Aleksi Kinnunen",
         "source": "https://commons.wikimedia.org/wiki/File:Pikku-kakkosen-puisto.jpg",
         "license": "CC BY-SA 3.0",
         "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0"
+      }
+    },
+    {
+      "id": "01-11-republic-of-ireland",
+      "date": "01-11",
+      "dateLabel": "11 January",
+      "category": "world",
+      "categoryName": "World",
+      "year": 1994,
+      "title": "Republic of Ireland",
+      "body": "The Irish Government announces the end of a 15-year broadcasting ban on the IRA and its political arm Sinn Féin.",
+      "source": {
+        "name": "Wikipedia · Republic of Ireland",
+        "url": "https://en.wikipedia.org/wiki/Republic_of_Ireland",
+        "calendarUrl": "https://en.wikipedia.org/wiki/January_11",
+        "license": {
+          "name": "CC BY-SA 4.0",
+          "url": "https://creativecommons.org/licenses/by-sa/4.0/"
+        }
+      },
+      "image": {
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/45/Flag_of_Ireland.svg/500px-Flag_of_Ireland.svg.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "alt": "Picture from the Wikipedia article on Republic of Ireland.",
+        "credit": "Éire",
+        "source": "https://commons.wikimedia.org/wiki/File:Flag_of_Ireland.svg",
+        "license": "Public domain",
+        "licenseUrl": "https://commons.wikimedia.org/wiki/File:Flag_of_Ireland.svg"
       }
     },
     {
@@ -102,7 +102,7 @@
         }
       },
       "image": {
-        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/63/STS072-734-011.jpg/1280px-STS072-734-011.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/63/STS072-734-011.jpg/500px-STS072-734-011.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
         "alt": "Picture from the Wikipedia article on STS-72.",
         "credit": "NASA",
         "source": "https://commons.wikimedia.org/wiki/File:STS072-734-011.jpg",
@@ -129,7 +129,7 @@
         }
       },
       "image": {
-        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/36/William_Herschel01.jpg/1280px-William_Herschel01.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/36/William_Herschel01.jpg/500px-William_Herschel01.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
         "alt": "Picture from the Wikipedia article on William Herschel.",
         "credit": "Lemuel Francis Abbott",
         "source": "https://commons.wikimedia.org/wiki/File:William_Herschel01.jpg",

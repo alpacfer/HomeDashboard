@@ -3,6 +3,33 @@
   "dateLabel": "28 April",
   "facts": [
     {
+      "id": "04-28-igor-stravinsky",
+      "date": "04-28",
+      "dateLabel": "28 April",
+      "category": "culture",
+      "categoryName": "Culture",
+      "year": 1948,
+      "title": "Igor Stravinsky",
+      "body": "Igor Stravinsky conducts the premiere of his American ballet, Orpheus at the New York City Center.",
+      "source": {
+        "name": "Wikipedia · Igor Stravinsky",
+        "url": "https://en.wikipedia.org/wiki/Igor_Stravinsky",
+        "calendarUrl": "https://en.wikipedia.org/wiki/April_28",
+        "license": {
+          "name": "CC BY-SA 4.0",
+          "url": "https://creativecommons.org/licenses/by-sa/4.0/"
+        }
+      },
+      "image": {
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/33/Igor_Stravinsky_LOC_32392u.jpg/500px-Igor_Stravinsky_LOC_32392u.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "alt": "Picture from the Wikipedia article on Igor Stravinsky.",
+        "credit": "George Grantham Bain Collection",
+        "source": "https://commons.wikimedia.org/wiki/File:Igor_Stravinsky_LOC_32392u.jpg",
+        "license": "Public domain",
+        "licenseUrl": "https://commons.wikimedia.org/wiki/File:Igor_Stravinsky_LOC_32392u.jpg"
+      }
+    },
+    {
       "id": "04-28-the-dark-side-of-the-moon",
       "date": "04-28",
       "dateLabel": "28 April",
@@ -21,7 +48,7 @@
         }
       },
       "image": {
-        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/3b/Dark_Side_of_the_Moon.png/1280px-Dark_Side_of_the_Moon.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/3b/Dark_Side_of_the_Moon.png/500px-Dark_Side_of_the_Moon.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
         "alt": "Picture from the Wikipedia article on The Dark Side of the Moon.",
         "credit": "w:George Hardie",
         "source": "https://commons.wikimedia.org/wiki/File:Dark_Side_of_the_Moon.png",
@@ -57,33 +84,6 @@
       }
     },
     {
-      "id": "04-28-igor-stravinsky",
-      "date": "04-28",
-      "dateLabel": "28 April",
-      "category": "culture",
-      "categoryName": "Culture",
-      "year": 1948,
-      "title": "Igor Stravinsky",
-      "body": "Igor Stravinsky conducts the premiere of his American ballet, Orpheus at the New York City Center.",
-      "source": {
-        "name": "Wikipedia · Igor Stravinsky",
-        "url": "https://en.wikipedia.org/wiki/Igor_Stravinsky",
-        "calendarUrl": "https://en.wikipedia.org/wiki/April_28",
-        "license": {
-          "name": "CC BY-SA 4.0",
-          "url": "https://creativecommons.org/licenses/by-sa/4.0/"
-        }
-      },
-      "image": {
-        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/33/Igor_Stravinsky_LOC_32392u.jpg/1280px-Igor_Stravinsky_LOC_32392u.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-        "alt": "Picture from the Wikipedia article on Igor Stravinsky.",
-        "credit": "George Grantham Bain Collection",
-        "source": "https://commons.wikimedia.org/wiki/File:Igor_Stravinsky_LOC_32392u.jpg",
-        "license": "Public domain",
-        "licenseUrl": "https://commons.wikimedia.org/wiki/File:Igor_Stravinsky_LOC_32392u.jpg"
-      }
-    },
-    {
       "id": "04-28-louis-paulhan",
       "date": "04-28",
       "dateLabel": "28 April",
@@ -102,7 +102,7 @@
         }
       },
       "image": {
-        "src": "https://upload.wikimedia.org/wikipedia/commons/f/f1/Louis_Paulhan.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f1/Louis_Paulhan.jpg/500px-Louis_Paulhan.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
         "alt": "Picture from the Wikipedia article on Louis Paulhan.",
         "credit": "Unknown author",
         "source": "https://commons.wikimedia.org/wiki/File:Louis_Paulhan.jpg",
@@ -129,7 +129,7 @@
         }
       },
       "image": {
-        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/bb/Stern_Logo_2020.svg/1280px-Stern_Logo_2020.svg.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/bb/Stern_Logo_2020.svg/500px-Stern_Logo_2020.svg.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
         "alt": "Picture from the Wikipedia article on Stern.",
         "credit": "Gruner + Jahr",
         "source": "https://commons.wikimedia.org/wiki/File:Stern_Logo_2020.svg",

@@ -21,7 +21,7 @@
         }
       },
       "image": {
-        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/0e/Mars_Odyssey_spacecraft_model.png/1280px-Mars_Odyssey_spacecraft_model.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/0e/Mars_Odyssey_spacecraft_model.png/500px-Mars_Odyssey_spacecraft_model.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
         "alt": "Picture from the Wikipedia article on 2001 Mars Odyssey.",
         "credit": "NASA",
         "source": "https://commons.wikimedia.org/wiki/File:Mars_Odyssey_spacecraft_model.png",
@@ -48,39 +48,12 @@
         }
       },
       "image": {
-        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/9d/Thomas_Edison2.jpg/1280px-Thomas_Edison2.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/9d/Thomas_Edison2.jpg/500px-Thomas_Edison2.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
         "alt": "Picture from the Wikipedia article on Thomas Edison.",
         "credit": "Louis Bachrach, Bachrach Studios",
         "source": "https://commons.wikimedia.org/wiki/File:Thomas_Edison2.jpg",
         "license": "Public domain",
         "licenseUrl": "https://commons.wikimedia.org/wiki/File:Thomas_Edison2.jpg"
-      }
-    },
-    {
-      "id": "02-19-cyprus",
-      "date": "02-19",
-      "dateLabel": "19 February",
-      "category": "world",
-      "categoryName": "World",
-      "year": 1959,
-      "title": "Cyprus",
-      "body": "The United Kingdom grants Cyprus independence, which is formally proclaimed on August 16, 1960.",
-      "source": {
-        "name": "Wikipedia · Cyprus",
-        "url": "https://en.wikipedia.org/wiki/Cyprus",
-        "calendarUrl": "https://en.wikipedia.org/wiki/February_19",
-        "license": {
-          "name": "CC BY-SA 4.0",
-          "url": "https://creativecommons.org/licenses/by-sa/4.0/"
-        }
-      },
-      "image": {
-        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d4/Flag_of_Cyprus.svg/1280px-Flag_of_Cyprus.svg.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-        "alt": "Picture from the Wikipedia article on Cyprus.",
-        "credit": "İsmet Güney, SVG",
-        "source": "https://commons.wikimedia.org/wiki/File:Flag_of_Cyprus.svg",
-        "license": "Public domain",
-        "licenseUrl": "https://commons.wikimedia.org/wiki/File:Flag_of_Cyprus.svg"
       }
     },
     {
@@ -102,7 +75,7 @@
         }
       },
       "image": {
-        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/10/Zhongguo_Diyimei_Zixing_Sheji_Zhizaode_Shiyan_Tankong_Huojian_T-7M_Fashechang_Yizhi.jpg/1280px-Zhongguo_Diyimei_Zixing_Sheji_Zhizaode_Shiyan_Tankong_Huojian_T-7M_Fashechang_Yizhi.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/10/Zhongguo_Diyimei_Zixing_Sheji_Zhizaode_Shiyan_Tankong_Huojian_T-7M_Fashechang_Yizhi.jpg/500px-Zhongguo_Diyimei_Zixing_Sheji_Zhizaode_Shiyan_Tankong_Huojian_T-7M_Fashechang_Yizhi.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
         "alt": "Picture from the Wikipedia article on T-7.",
         "credit": "Fayhoo",
         "source": "https://commons.wikimedia.org/wiki/File:Zhongguo_Diyimei_Zixing_Sheji_Zhizaode_Shiyan_Tankong_Huojian_T-7M_Fashechang_Yizhi.jpg",
@@ -129,12 +102,39 @@
         }
       },
       "image": {
-        "src": "https://upload.wikimedia.org/wikipedia/commons/f/f4/William_IV_in_1833_by_Shee_cropped.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f4/William_IV_in_1833_by_Shee_cropped.jpg/500px-William_IV_in_1833_by_Shee_cropped.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
         "alt": "Picture from the Wikipedia article on William IV.",
         "credit": "Martin Archer Shee",
         "source": "https://commons.wikimedia.org/wiki/File:William_IV_in_1833_by_Shee_cropped.jpg",
         "license": "Public domain",
         "licenseUrl": "https://commons.wikimedia.org/wiki/File:William_IV_in_1833_by_Shee_cropped.jpg"
+      }
+    },
+    {
+      "id": "02-19-british-empire",
+      "date": "02-19",
+      "dateLabel": "19 February",
+      "category": "science",
+      "categoryName": "Science",
+      "year": 1819,
+      "title": "British Empire",
+      "body": "British explorer William Smith discovers the South Shetland Islands.",
+      "source": {
+        "name": "Wikipedia · British Empire",
+        "url": "https://en.wikipedia.org/wiki/British_Empire",
+        "calendarUrl": "https://en.wikipedia.org/wiki/February_19",
+        "license": {
+          "name": "CC BY-SA 4.0",
+          "url": "https://creativecommons.org/licenses/by-sa/4.0/"
+        }
+      },
+      "image": {
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f2/Flag_of_Great_Britain_%281707%E2%80%931800%29.svg/500px-Flag_of_Great_Britain_%281707%E2%80%931800%29.svg.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "alt": "Picture from the Wikipedia article on British Empire.",
+        "credit": "Hoshie",
+        "source": "https://commons.wikimedia.org/wiki/File:Flag_of_Great_Britain_(1707%E2%80%931800).svg",
+        "license": "Public domain",
+        "licenseUrl": "https://commons.wikimedia.org/wiki/File:Flag_of_Great_Britain_(1707%E2%80%931800).svg"
       }
     }
   ]

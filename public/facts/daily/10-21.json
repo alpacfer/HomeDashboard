@@ -21,7 +21,7 @@
         }
       },
       "image": {
-        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/28/ErnestHemingway.jpg/1280px-ErnestHemingway.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/28/ErnestHemingway.jpg/500px-ErnestHemingway.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
         "alt": "Picture from the Wikipedia article on Ernest Hemingway.",
         "credit": "Lloyd Arnold",
         "source": "https://commons.wikimedia.org/wiki/File:ErnestHemingway.jpg",
@@ -48,7 +48,7 @@
         }
       },
       "image": {
-        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/2d/Lauda_at_1982_Dutch_Grand_Prix.jpg/1280px-Lauda_at_1982_Dutch_Grand_Prix.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/2d/Lauda_at_1982_Dutch_Grand_Prix.jpg/500px-Lauda_at_1982_Dutch_Grand_Prix.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
         "alt": "Picture from the Wikipedia article on Niki Lauda.",
         "credit": "Hans van Dijk for Anefo / neg",
         "source": "https://commons.wikimedia.org/wiki/File:Lauda_at_1982_Dutch_Grand_Prix.jpg",
@@ -75,7 +75,7 @@
         }
       },
       "image": {
-        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/55/Comet_C_1965_S1_Ikeya-Seki.jpg/1280px-Comet_C_1965_S1_Ikeya-Seki.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/55/Comet_C_1965_S1_Ikeya-Seki.jpg/500px-Comet_C_1965_S1_Ikeya-Seki.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
         "alt": "Picture from the Wikipedia article on Comet Ikeya–Seki.",
         "credit": "Maynard Pittendreigh",
         "source": "https://commons.wikimedia.org/wiki/File:Comet_C_1965_S1_Ikeya-Seki.jpg",
@@ -102,7 +102,7 @@
         }
       },
       "image": {
-        "src": "https://upload.wikimedia.org/wikipedia/commons/6/63/Eris_and_moon_Dysnomia_JWST_NIRCam.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/63/Eris_and_moon_Dysnomia_JWST_NIRCam.jpg/500px-Eris_and_moon_Dysnomia_JWST_NIRCam.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
         "alt": "Picture from the Wikipedia article on Eris.",
         "credit": "NASA",
         "source": "https://commons.wikimedia.org/wiki/File:Eris_and_moon_Dysnomia_JWST_NIRCam.jpg",
@@ -111,17 +111,17 @@
       }
     },
     {
-      "id": "10-21-solomon-r-guggenheim-museum",
+      "id": "10-21-fred-dryer",
       "date": "10-21",
       "dateLabel": "21 October",
-      "category": "culture",
-      "categoryName": "Culture",
-      "year": 1959,
-      "title": "Solomon R. Guggenheim Museum",
-      "body": "In New York City, the Solomon R. Guggenheim Museum opens to the public.",
+      "category": "world",
+      "categoryName": "World",
+      "year": 1973,
+      "title": "Fred Dryer",
+      "body": "Fred Dryer of the Los Angeles Rams becomes the first player in NFL history to score two safeties in the same game.",
       "source": {
-        "name": "Wikipedia · Solomon R. Guggenheim Museum",
-        "url": "https://en.wikipedia.org/wiki/Solomon_R._Guggenheim_Museum",
+        "name": "Wikipedia · Fred Dryer",
+        "url": "https://en.wikipedia.org/wiki/Fred_Dryer",
         "calendarUrl": "https://en.wikipedia.org/wiki/October_21",
         "license": {
           "name": "CC BY-SA 4.0",
@@ -129,12 +129,12 @@
         }
       },
       "image": {
-        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/ff/Solomon_R._Guggenheim_Museum_%2848059131351%29.jpg/1280px-Solomon_R._Guggenheim_Museum_%2848059131351%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-        "alt": "Picture from the Wikipedia article on Solomon R. Guggenheim Museum.",
-        "credit": "Ajay Suresh from New York, NY, USA",
-        "source": "https://commons.wikimedia.org/wiki/File:Solomon_R._Guggenheim_Museum_(48059131351).jpg",
-        "license": "CC BY 2.0",
-        "licenseUrl": "https://creativecommons.org/licenses/by/2.0"
+        "src": "https://upload.wikimedia.org/wikipedia/commons/0/0b/Dryerhof.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+        "alt": "Picture from the Wikipedia article on Fred Dryer.",
+        "credit": "Howdythere",
+        "source": "https://commons.wikimedia.org/wiki/File:Dryerhof.jpg",
+        "license": "Public domain",
+        "licenseUrl": "https://commons.wikimedia.org/wiki/File:Dryerhof.jpg"
       }
     }
   ]

@@ -30,33 +30,6 @@
       }
     },
     {
-      "id": "03-17-richard-ramirez",
-      "date": "03-17",
-      "dateLabel": "17 March",
-      "category": "world",
-      "categoryName": "World",
-      "year": 1985,
-      "title": "Richard Ramirez",
-      "body": "Serial killer Richard Ramirez, aka the \"Night Stalker\", commits the first two murders in his Los Angeles murder spree.",
-      "source": {
-        "name": "Wikipedia · Richard Ramirez",
-        "url": "https://en.wikipedia.org/wiki/Richard_Ramirez",
-        "calendarUrl": "https://en.wikipedia.org/wiki/March_17",
-        "license": {
-          "name": "CC BY-SA 4.0",
-          "url": "https://creativecommons.org/licenses/by-sa/4.0/"
-        }
-      },
-      "image": {
-        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/fc/Richard_Ramirez_1984_mug_shot.jpg/1280px-Richard_Ramirez_1984_mug_shot.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-        "alt": "Picture from the Wikipedia article on Richard Ramirez.",
-        "credit": "Los Angeles Police Department",
-        "source": "https://commons.wikimedia.org/wiki/File:Richard_Ramirez_1984_mug_shot.jpg",
-        "license": "Public domain",
-        "licenseUrl": "https://commons.wikimedia.org/wiki/File:Richard_Ramirez_1984_mug_shot.jpg"
-      }
-    },
-    {
       "id": "03-17-rmelan",
       "date": "03-17",
       "dateLabel": "17 March",
@@ -75,7 +48,7 @@
         }
       },
       "image": {
-        "src": "https://upload.wikimedia.org/wikipedia/commons/d/df/Rmelan_%281%29_12-10-2013.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/df/Rmelan_%281%29_12-10-2013.jpg/500px-Rmelan_%281%29_12-10-2013.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
         "alt": "Picture from the Wikipedia article on Rmelan.",
         "credit": "Nouh Hammami",
         "source": "https://commons.wikimedia.org/wiki/File:Rmelan_(1)_12-10-2013.jpg",
@@ -102,12 +75,39 @@
         }
       },
       "image": {
-        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/6f/Hanging_of_the_Lw%C3%B3w_Ghetto_Judenrat.jpg/1280px-Hanging_of_the_Lw%C3%B3w_Ghetto_Judenrat.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/6f/Hanging_of_the_Lw%C3%B3w_Ghetto_Judenrat.jpg/500px-Hanging_of_the_Lw%C3%B3w_Ghetto_Judenrat.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
         "alt": "Picture from the Wikipedia article on Lwów Ghetto.",
         "credit": "Unknown author",
         "source": "https://commons.wikimedia.org/wiki/File:Hanging_of_the_Lw%C3%B3w_Ghetto_Judenrat.jpg",
         "license": "Public domain",
         "licenseUrl": "https://commons.wikimedia.org/wiki/File:Hanging_of_the_Lw%C3%B3w_Ghetto_Judenrat.jpg"
+      }
+    },
+    {
+      "id": "03-17-richard-ramirez",
+      "date": "03-17",
+      "dateLabel": "17 March",
+      "category": "world",
+      "categoryName": "World",
+      "year": 1985,
+      "title": "Richard Ramirez",
+      "body": "Serial killer Richard Ramirez, aka the \"Night Stalker\", commits the first two murders in his Los Angeles murder spree.",
+      "source": {
+        "name": "Wikipedia · Richard Ramirez",
+        "url": "https://en.wikipedia.org/wiki/Richard_Ramirez",
+        "calendarUrl": "https://en.wikipedia.org/wiki/March_17",
+        "license": {
+          "name": "CC BY-SA 4.0",
+          "url": "https://creativecommons.org/licenses/by-sa/4.0/"
+        }
+      },
+      "image": {
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/fc/Richard_Ramirez_1984_mug_shot.jpg/500px-Richard_Ramirez_1984_mug_shot.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "alt": "Picture from the Wikipedia article on Richard Ramirez.",
+        "credit": "Los Angeles Police Department",
+        "source": "https://commons.wikimedia.org/wiki/File:Richard_Ramirez_1984_mug_shot.jpg",
+        "license": "Public domain",
+        "licenseUrl": "https://commons.wikimedia.org/wiki/File:Richard_Ramirez_1984_mug_shot.jpg"
       }
     },
     {
@@ -129,7 +129,7 @@
         }
       },
       "image": {
-        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a1/Seal_of_University_of_California%2C_Berkeley.svg/1280px-Seal_of_University_of_California%2C_Berkeley.svg.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a1/Seal_of_University_of_California%2C_Berkeley.svg/500px-Seal_of_University_of_California%2C_Berkeley.svg.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
         "alt": "Picture from the Wikipedia article on University of California, Berkeley.",
         "credit": "University of California, Berkeley",
         "source": "https://commons.wikimedia.org/wiki/File:Seal_of_University_of_California,_Berkeley.svg",

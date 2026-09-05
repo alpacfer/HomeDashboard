@@ -21,93 +21,12 @@
         }
       },
       "image": {
-        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/8b/BBC_One_logo_2021.svg/1280px-BBC_One_logo_2021.svg.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/8b/BBC_One_logo_2021.svg/500px-BBC_One_logo_2021.svg.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
         "alt": "Picture from the Wikipedia article on BBC One.",
         "credit": "BBC",
         "source": "https://commons.wikimedia.org/wiki/File:BBC_One_logo_2021.svg",
         "license": "Public domain",
         "licenseUrl": "https://commons.wikimedia.org/wiki/File:BBC_One_logo_2021.svg"
-      }
-    },
-    {
-      "id": "02-11-european-space-agency",
-      "date": "02-11",
-      "dateLabel": "11 February",
-      "category": "space",
-      "categoryName": "Space",
-      "year": 2015,
-      "title": "European Space Agency",
-      "body": "The European Space Agency's Intermediate eXperimental Vehicle is launched on a Vega rocket.",
-      "source": {
-        "name": "Wikipedia · European Space Agency",
-        "url": "https://en.wikipedia.org/wiki/European_Space_Agency",
-        "calendarUrl": "https://en.wikipedia.org/wiki/February_11",
-        "license": {
-          "name": "CC BY-SA 4.0",
-          "url": "https://creativecommons.org/licenses/by-sa/4.0/"
-        }
-      },
-      "image": {
-        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/96/ESA_Headquarters_in_Paris.jpg/1280px-ESA_Headquarters_in_Paris.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-        "alt": "Picture from the Wikipedia article on European Space Agency.",
-        "credit": "ESA/P. Sebirot, CC BY-SA 3.0 IGO",
-        "source": "https://commons.wikimedia.org/wiki/File:ESA_Headquarters_in_Paris.jpg",
-        "license": "CC BY-SA 3.0 igo",
-        "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0/igo/deed.en"
-      }
-    },
-    {
-      "id": "02-11-anton-bruckner",
-      "date": "02-11",
-      "dateLabel": "11 February",
-      "category": "culture",
-      "categoryName": "Culture",
-      "year": 1903,
-      "title": "Anton Bruckner",
-      "body": "Anton Bruckner's 9th Symphony receives its first performance in Vienna, Austria.",
-      "source": {
-        "name": "Wikipedia · Anton Bruckner",
-        "url": "https://en.wikipedia.org/wiki/Anton_Bruckner",
-        "calendarUrl": "https://en.wikipedia.org/wiki/February_11",
-        "license": {
-          "name": "CC BY-SA 4.0",
-          "url": "https://creativecommons.org/licenses/by-sa/4.0/"
-        }
-      },
-      "image": {
-        "src": "https://upload.wikimedia.org/wikipedia/commons/b/bf/Anton_Bruckner.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
-        "alt": "Picture from the Wikipedia article on Anton Bruckner.",
-        "credit": "Josef Büche",
-        "source": "https://commons.wikimedia.org/wiki/File:Anton_Bruckner.jpg",
-        "license": "Public domain",
-        "licenseUrl": "https://commons.wikimedia.org/wiki/File:Anton_Bruckner.jpg"
-      }
-    },
-    {
-      "id": "02-11-space-shuttle-discovery",
-      "date": "02-11",
-      "dateLabel": "11 February",
-      "category": "space",
-      "categoryName": "Space",
-      "year": 1997,
-      "title": "Space Shuttle Discovery",
-      "body": "Space Shuttle Discovery is launched on a mission to service the Hubble Space Telescope.",
-      "source": {
-        "name": "Wikipedia · Space Shuttle Discovery",
-        "url": "https://en.wikipedia.org/wiki/Space_Shuttle_Discovery",
-        "calendarUrl": "https://en.wikipedia.org/wiki/February_11",
-        "license": {
-          "name": "CC BY-SA 4.0",
-          "url": "https://creativecommons.org/licenses/by-sa/4.0/"
-        }
-      },
-      "image": {
-        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/1d/STS-133_Space_Shuttle_Discovery_after_undocking_3_%28cropped%29.jpg/1280px-STS-133_Space_Shuttle_Discovery_after_undocking_3_%28cropped%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-        "alt": "Picture from the Wikipedia article on Space Shuttle Discovery.",
-        "credit": "NASA",
-        "source": "https://commons.wikimedia.org/wiki/File:STS-133_Space_Shuttle_Discovery_after_undocking_3_(cropped).jpg",
-        "license": "Public domain",
-        "licenseUrl": "https://commons.wikimedia.org/wiki/File:STS-133_Space_Shuttle_Discovery_after_undocking_3_(cropped).jpg"
       }
     },
     {
@@ -129,12 +48,93 @@
         }
       },
       "image": {
-        "src": "https://upload.wikimedia.org/wikipedia/commons/b/bd/Ohsumi.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/bd/Ohsumi.jpg/500px-Ohsumi.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
         "alt": "Picture from the Wikipedia article on Ohsumi.",
         "credit": "Rlandmann",
         "source": "https://commons.wikimedia.org/wiki/File:Ohsumi.jpg",
         "license": "CC BY-SA 3.0",
         "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0"
+      }
+    },
+    {
+      "id": "02-11-the-beatles",
+      "date": "02-11",
+      "dateLabel": "11 February",
+      "category": "culture",
+      "categoryName": "Culture",
+      "year": 1963,
+      "title": "The Beatles",
+      "body": "The Beatles record their first album, Please Please Me.",
+      "source": {
+        "name": "Wikipedia · The Beatles",
+        "url": "https://en.wikipedia.org/wiki/The_Beatles",
+        "calendarUrl": "https://en.wikipedia.org/wiki/February_11",
+        "license": {
+          "name": "CC BY-SA 4.0",
+          "url": "https://creativecommons.org/licenses/by-sa/4.0/"
+        }
+      },
+      "image": {
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/42/The_Beatles_1963_Dezo_Hoffman_Capitol_Records_press_photo_2.jpg/500px-The_Beatles_1963_Dezo_Hoffman_Capitol_Records_press_photo_2.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "alt": "Picture from the Wikipedia article on The Beatles.",
+        "credit": "Dezo Hoffmann",
+        "source": "https://commons.wikimedia.org/wiki/File:The_Beatles_1963_Dezo_Hoffman_Capitol_Records_press_photo_2.jpg",
+        "license": "Public domain",
+        "licenseUrl": "https://commons.wikimedia.org/wiki/File:The_Beatles_1963_Dezo_Hoffman_Capitol_Records_press_photo_2.jpg"
+      }
+    },
+    {
+      "id": "02-11-pluto",
+      "date": "02-11",
+      "dateLabel": "11 February",
+      "category": "space",
+      "categoryName": "Space",
+      "year": 1999,
+      "title": "Pluto",
+      "body": "Pluto crosses Neptune's orbit, ending a nearly 20-year period when it was closer to the Sun than the gas giant; Pluto is not expected to interact with Neptune's orbit again until 2231.",
+      "source": {
+        "name": "Wikipedia · Pluto",
+        "url": "https://en.wikipedia.org/wiki/Pluto",
+        "calendarUrl": "https://en.wikipedia.org/wiki/February_11",
+        "license": {
+          "name": "CC BY-SA 4.0",
+          "url": "https://creativecommons.org/licenses/by-sa/4.0/"
+        }
+      },
+      "image": {
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/ca/Pluto_in_True_Color_-_High-Res.png/500px-Pluto_in_True_Color_-_High-Res.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "alt": "Picture from the Wikipedia article on Pluto.",
+        "credit": "NASA",
+        "source": "https://commons.wikimedia.org/wiki/File:Pluto_in_True_Color_-_High-Res.png",
+        "license": "Public domain",
+        "licenseUrl": "https://commons.wikimedia.org/wiki/File:Pluto_in_True_Color_-_High-Res.png"
+      }
+    },
+    {
+      "id": "02-11-european-space-agency",
+      "date": "02-11",
+      "dateLabel": "11 February",
+      "category": "space",
+      "categoryName": "Space",
+      "year": 2015,
+      "title": "European Space Agency",
+      "body": "The European Space Agency's Intermediate eXperimental Vehicle is launched on a Vega rocket.",
+      "source": {
+        "name": "Wikipedia · European Space Agency",
+        "url": "https://en.wikipedia.org/wiki/European_Space_Agency",
+        "calendarUrl": "https://en.wikipedia.org/wiki/February_11",
+        "license": {
+          "name": "CC BY-SA 4.0",
+          "url": "https://creativecommons.org/licenses/by-sa/4.0/"
+        }
+      },
+      "image": {
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/96/ESA_Headquarters_in_Paris.jpg/500px-ESA_Headquarters_in_Paris.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "alt": "Picture from the Wikipedia article on European Space Agency.",
+        "credit": "ESA/P. Sebirot, CC BY-SA 3.0 IGO",
+        "source": "https://commons.wikimedia.org/wiki/File:ESA_Headquarters_in_Paris.jpg",
+        "license": "CC BY-SA 3.0 igo",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0/igo/deed.en"
       }
     }
   ]

@@ -3,6 +3,33 @@
   "dateLabel": "22 October",
   "facts": [
     {
+      "id": "10-22-jean-paul-sartre",
+      "date": "10-22",
+      "dateLabel": "22 October",
+      "category": "science",
+      "categoryName": "Science",
+      "year": 1964,
+      "title": "Jean-Paul Sartre",
+      "body": "Jean-Paul Sartre is awarded the Nobel Prize in Literature, though he does not accept the prize.",
+      "source": {
+        "name": "Wikipedia · Jean-Paul Sartre",
+        "url": "https://en.wikipedia.org/wiki/Jean-Paul_Sartre",
+        "calendarUrl": "https://en.wikipedia.org/wiki/October_22",
+        "license": {
+          "name": "CC BY-SA 4.0",
+          "url": "https://creativecommons.org/licenses/by-sa/4.0/"
+        }
+      },
+      "image": {
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e9/Jean_Paul_Sartre_1965.jpg/500px-Jean_Paul_Sartre_1965.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "alt": "Picture from the Wikipedia article on Jean-Paul Sartre.",
+        "credit": "Unknown author",
+        "source": "https://commons.wikimedia.org/wiki/File:Jean_Paul_Sartre_1965.jpg",
+        "license": "CC BY-SA 3.0 nl",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0/nl/deed.en"
+      }
+    },
+    {
       "id": "10-22-lunar-probe",
       "date": "10-22",
       "dateLabel": "22 October",
@@ -21,7 +48,7 @@
         }
       },
       "image": {
-        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/ca/Lunar_module_AS12-51-7507.jpg/1280px-Lunar_module_AS12-51-7507.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/ca/Lunar_module_AS12-51-7507.jpg/500px-Lunar_module_AS12-51-7507.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
         "alt": "Picture from the Wikipedia article on Exploration of the Moon.",
         "credit": "NASA",
         "source": "https://commons.wikimedia.org/wiki/File:Lunar_module_AS12-51-7507.jpg",
@@ -75,7 +102,7 @@
         }
       },
       "image": {
-        "src": "https://upload.wikimedia.org/wikipedia/commons/4/47/Lance_Armstrong_%28Tour_Down_Under_2009%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/47/Lance_Armstrong_%28Tour_Down_Under_2009%29.jpg/500px-Lance_Armstrong_%28Tour_Down_Under_2009%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
         "alt": "Picture from the Wikipedia article on Lance Armstrong.",
         "credit": "Paul Coster",
         "source": "https://commons.wikimedia.org/wiki/File:Lance_Armstrong_(Tour_Down_Under_2009).jpg",
@@ -102,39 +129,12 @@
         }
       },
       "image": {
-        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/8c/Flag_of_the_Australian_Capital_Territory.svg/1280px-Flag_of_the_Australian_Capital_Territory.svg.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/8c/Flag_of_the_Australian_Capital_Territory.svg/500px-Flag_of_the_Australian_Capital_Territory.svg.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
         "alt": "Picture from the Wikipedia article on Australian Capital Territory.",
         "credit": "Ivo Ostyn",
         "source": "https://commons.wikimedia.org/wiki/File:Flag_of_the_Australian_Capital_Territory.svg",
         "license": "Public domain",
         "licenseUrl": "https://commons.wikimedia.org/wiki/File:Flag_of_the_Australian_Capital_Territory.svg"
-      }
-    },
-    {
-      "id": "10-22-jean-paul-sartre",
-      "date": "10-22",
-      "dateLabel": "22 October",
-      "category": "science",
-      "categoryName": "Science",
-      "year": 1964,
-      "title": "Jean-Paul Sartre",
-      "body": "Jean-Paul Sartre is awarded the Nobel Prize in Literature, though he does not accept the prize.",
-      "source": {
-        "name": "Wikipedia · Jean-Paul Sartre",
-        "url": "https://en.wikipedia.org/wiki/Jean-Paul_Sartre",
-        "calendarUrl": "https://en.wikipedia.org/wiki/October_22",
-        "license": {
-          "name": "CC BY-SA 4.0",
-          "url": "https://creativecommons.org/licenses/by-sa/4.0/"
-        }
-      },
-      "image": {
-        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e9/Jean_Paul_Sartre_1965.jpg/1280px-Jean_Paul_Sartre_1965.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-        "alt": "Picture from the Wikipedia article on Jean-Paul Sartre.",
-        "credit": "Unknown author",
-        "source": "https://commons.wikimedia.org/wiki/File:Jean_Paul_Sartre_1965.jpg",
-        "license": "CC BY-SA 3.0 nl",
-        "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0/nl/deed.en"
       }
     }
   ]

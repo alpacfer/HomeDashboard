@@ -21,39 +21,12 @@
         }
       },
       "image": {
-        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/45/STS061-98-050_-_Astronauts_Musgrave_and_Hoffman_during_servicing_of_HST_%28Retouched%29.jpg/1280px-STS061-98-050_-_Astronauts_Musgrave_and_Hoffman_during_servicing_of_HST_%28Retouched%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/45/STS061-98-050_-_Astronauts_Musgrave_and_Hoffman_during_servicing_of_HST_%28Retouched%29.jpg/500px-STS061-98-050_-_Astronauts_Musgrave_and_Hoffman_during_servicing_of_HST_%28Retouched%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
         "alt": "Picture from the Wikipedia article on STS-61.",
         "credit": "Askeuhd",
         "source": "https://commons.wikimedia.org/wiki/File:STS061-98-050_-_Astronauts_Musgrave_and_Hoffman_during_servicing_of_HST_(Retouched).jpg",
         "license": "CC BY-SA 4.0",
         "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0"
-      }
-    },
-    {
-      "id": "12-02-fidel-castro",
-      "date": "12-02",
-      "dateLabel": "2 December",
-      "category": "world",
-      "categoryName": "World",
-      "year": 1961,
-      "title": "Fidel Castro",
-      "body": "In a nationally broadcast speech, Cuban leader Fidel Castro declares that he is a Marxist–Leninist and that Cuba will adopt Communism.",
-      "source": {
-        "name": "Wikipedia · Fidel Castro",
-        "url": "https://en.wikipedia.org/wiki/Fidel_Castro",
-        "calendarUrl": "https://en.wikipedia.org/wiki/December_2",
-        "license": {
-          "name": "CC BY-SA 4.0",
-          "url": "https://creativecommons.org/licenses/by-sa/4.0/"
-        }
-      },
-      "image": {
-        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/86/Fidel_Castro%2C_Prime_Minister_of_Cuba._Castro_at_the_United_Nations%2C_New_York_%283x4_cropped%29.jpg/1280px-Fidel_Castro%2C_Prime_Minister_of_Cuba._Castro_at_the_United_Nations%2C_New_York_%283x4_cropped%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-        "alt": "Picture from the Wikipedia article on Fidel Castro.",
-        "credit": "Bernard Gotfryd",
-        "source": "https://commons.wikimedia.org/wiki/File:Fidel_Castro,_Prime_Minister_of_Cuba._Castro_at_the_United_Nations,_New_York_(3x4_cropped).jpg",
-        "license": "Public domain",
-        "licenseUrl": "https://commons.wikimedia.org/wiki/File:Fidel_Castro,_Prime_Minister_of_Cuba._Castro_at_the_United_Nations,_New_York_(3x4_cropped).jpg"
       }
     },
     {
@@ -75,7 +48,7 @@
         }
       },
       "image": {
-        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/35/Tremont_Temple_Boston.jpg/1280px-Tremont_Temple_Boston.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/35/Tremont_Temple_Boston.jpg/500px-Tremont_Temple_Boston.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
         "alt": "Picture from the Wikipedia article on Tremont Temple.",
         "credit": "Kenneth C. Zirkel",
         "source": "https://commons.wikimedia.org/wiki/File:Tremont_Temple_Boston.jpg",
@@ -102,12 +75,39 @@
         }
       },
       "image": {
-        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/49/Flag_of_Ukraine.svg/1280px-Flag_of_Ukraine.svg.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/49/Flag_of_Ukraine.svg/500px-Flag_of_Ukraine.svg.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
         "alt": "Picture from the Wikipedia article on Ukraine.",
         "credit": "Government of Ukraine",
         "source": "https://commons.wikimedia.org/wiki/File:Flag_of_Ukraine.svg",
         "license": "Public domain",
         "licenseUrl": "https://commons.wikimedia.org/wiki/File:Flag_of_Ukraine.svg"
+      }
+    },
+    {
+      "id": "12-02-benazir-bhutto",
+      "date": "12-02",
+      "dateLabel": "2 December",
+      "category": "world",
+      "categoryName": "World",
+      "year": 1988,
+      "title": "Benazir Bhutto",
+      "body": "Benazir Bhutto is sworn in as Prime Minister of Pakistan, becoming the first woman to head the government of a Muslim-majority state.",
+      "source": {
+        "name": "Wikipedia · Benazir Bhutto",
+        "url": "https://en.wikipedia.org/wiki/Benazir_Bhutto",
+        "calendarUrl": "https://en.wikipedia.org/wiki/December_2",
+        "license": {
+          "name": "CC BY-SA 4.0",
+          "url": "https://creativecommons.org/licenses/by-sa/4.0/"
+        }
+      },
+      "image": {
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c4/Oliver_Mark_-_Benazir_Bhutto%2C_Dubai_2006_%28cropped%29.jpg/500px-Oliver_Mark_-_Benazir_Bhutto%2C_Dubai_2006_%28cropped%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "alt": "Picture from the Wikipedia article on Benazir Bhutto.",
+        "credit": "© Oliver Mark",
+        "source": "https://commons.wikimedia.org/wiki/File:Oliver_Mark_-_Benazir_Bhutto,_Dubai_2006_(cropped).jpg",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0"
       }
     },
     {
@@ -129,7 +129,7 @@
         }
       },
       "image": {
-        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/fb/Northern_Ireland_in_the_UK_and_Europe.svg/1280px-Northern_Ireland_in_the_UK_and_Europe.svg.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/fb/Northern_Ireland_in_the_UK_and_Europe.svg/500px-Northern_Ireland_in_the_UK_and_Europe.svg.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
         "alt": "Picture from the Wikipedia article on Northern Ireland.",
         "credit": "Wikimedia Commons",
         "source": "https://commons.wikimedia.org/wiki/File:Northern_Ireland_in_the_UK_and_Europe.svg",

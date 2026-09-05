@@ -3,60 +3,6 @@
   "dateLabel": "21 November",
   "facts": [
     {
-      "id": "11-21-verrazzano-narrows-bridge",
-      "date": "11-21",
-      "dateLabel": "21 November",
-      "category": "curious",
-      "categoryName": "Curious",
-      "year": 1964,
-      "title": "Verrazzano–Narrows Bridge",
-      "body": "The Verrazzano–Narrows Bridge opens to traffic. At the time it is the world's longest bridge span.",
-      "source": {
-        "name": "Wikipedia · Verrazzano–Narrows Bridge",
-        "url": "https://en.wikipedia.org/wiki/Verrazzano%E2%80%93Narrows_Bridge",
-        "calendarUrl": "https://en.wikipedia.org/wiki/November_21",
-        "license": {
-          "name": "CC BY-SA 4.0",
-          "url": "https://creativecommons.org/licenses/by-sa/4.0/"
-        }
-      },
-      "image": {
-        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/72/Verrazano_Bridge2.jpg/1280px-Verrazano_Bridge2.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-        "alt": "Picture from the Wikipedia article on Verrazzano–Narrows Bridge.",
-        "credit": "Wikimedia Commons",
-        "source": "https://commons.wikimedia.org/wiki/File:Verrazano_Bridge2.jpg",
-        "license": "Public domain",
-        "licenseUrl": "https://commons.wikimedia.org/wiki/File:Verrazano_Bridge2.jpg"
-      }
-    },
-    {
-      "id": "11-21-la-ronde-restaurant",
-      "date": "11-21",
-      "dateLabel": "21 November",
-      "category": "world",
-      "categoryName": "World",
-      "year": 1961,
-      "title": "La Ronde",
-      "body": "\"La Ronde\" opens in Honolulu, the first revolving restaurant in the United States.",
-      "source": {
-        "name": "Wikipedia · La Ronde (restaurant)",
-        "url": "https://en.wikipedia.org/wiki/La_Ronde_(restaurant)",
-        "calendarUrl": "https://en.wikipedia.org/wiki/November_21",
-        "license": {
-          "name": "CC BY-SA 4.0",
-          "url": "https://creativecommons.org/licenses/by-sa/4.0/"
-        }
-      },
-      "image": {
-        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c5/ALA_MOANA_OFFICE_BUILDING_GLOWS_IN_THE_AFTERNOON_SUN_-_NARA_-_553789.jpg/1280px-ALA_MOANA_OFFICE_BUILDING_GLOWS_IN_THE_AFTERNOON_SUN_-_NARA_-_553789.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-        "alt": "Picture from the Wikipedia article on La Ronde.",
-        "credit": "Charles O'Rear",
-        "source": "https://commons.wikimedia.org/wiki/File:ALA_MOANA_OFFICE_BUILDING_GLOWS_IN_THE_AFTERNOON_SUN_-_NARA_-_553789.jpg",
-        "license": "Public domain",
-        "licenseUrl": "https://commons.wikimedia.org/wiki/File:ALA_MOANA_OFFICE_BUILDING_GLOWS_IN_THE_AFTERNOON_SUN_-_NARA_-_553789.jpg"
-      }
-    },
-    {
       "id": "11-21-philadelphia-athletics-nfl",
       "date": "11-21",
       "dateLabel": "21 November",
@@ -84,6 +30,33 @@
       }
     },
     {
+      "id": "11-21-natural-history-museum-london",
+      "date": "11-21",
+      "dateLabel": "21 November",
+      "category": "curious",
+      "categoryName": "Curious",
+      "year": 1953,
+      "title": "Natural History Museum, London",
+      "body": "The Natural History Museum, London announces that the \"Piltdown Man\" skull, initially believed to be one of the most important fossilized hominid skulls ever found, is a hoax.",
+      "source": {
+        "name": "Wikipedia · Natural History Museum, London",
+        "url": "https://en.wikipedia.org/wiki/Natural_History_Museum,_London",
+        "calendarUrl": "https://en.wikipedia.org/wiki/November_21",
+        "license": {
+          "name": "CC BY-SA 4.0",
+          "url": "https://creativecommons.org/licenses/by-sa/4.0/"
+        }
+      },
+      "image": {
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/7b/Natural_History_Museum_London_logo_%28large%29.svg/500px-Natural_History_Museum_London_logo_%28large%29.svg.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "alt": "Picture from the Wikipedia article on Natural History Museum, London.",
+        "credit": "Unknown author",
+        "source": "https://commons.wikimedia.org/wiki/File:Natural_History_Museum_London_logo_(large).svg",
+        "license": "Public domain",
+        "licenseUrl": "https://commons.wikimedia.org/wiki/File:Natural_History_Museum_London_logo_(large).svg"
+      }
+    },
+    {
       "id": "11-21-claude-monet",
       "date": "11-21",
       "dateLabel": "21 November",
@@ -102,7 +75,7 @@
         }
       },
       "image": {
-        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a4/Claude_Monet_1899_Nadar_crop.jpg/1280px-Claude_Monet_1899_Nadar_crop.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a4/Claude_Monet_1899_Nadar_crop.jpg/500px-Claude_Monet_1899_Nadar_crop.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
         "alt": "Picture from the Wikipedia article on Claude Monet.",
         "credit": "Nadar",
         "source": "https://commons.wikimedia.org/wiki/File:Claude_Monet_1899_Nadar_crop.jpg",
@@ -111,17 +84,17 @@
       }
     },
     {
-      "id": "11-21-arpanet",
+      "id": "11-21-tesla-inc",
       "date": "11-21",
       "dateLabel": "21 November",
       "category": "world",
       "categoryName": "World",
-      "year": 1969,
-      "title": "ARPANET",
-      "body": "The first permanent ARPANET link is established between UCLA and SRI.",
+      "year": 2019,
+      "title": "Tesla, Inc.",
+      "body": "Tesla launches the SUV Cybertruck. A gaffe occurs during the launch event when its \"unbreakable\" windows shatter during demonstration.",
       "source": {
-        "name": "Wikipedia · ARPANET",
-        "url": "https://en.wikipedia.org/wiki/ARPANET",
+        "name": "Wikipedia · Tesla, Inc.",
+        "url": "https://en.wikipedia.org/wiki/Tesla,_Inc.",
         "calendarUrl": "https://en.wikipedia.org/wiki/November_21",
         "license": {
           "name": "CC BY-SA 4.0",
@@ -129,12 +102,39 @@
         }
       },
       "image": {
-        "src": "https://upload.wikimedia.org/wikipedia/commons/b/bf/Arpanet_logical_map%2C_march_1977.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
-        "alt": "Picture from the Wikipedia article on ARPANET.",
-        "credit": "ARPANET",
-        "source": "https://commons.wikimedia.org/wiki/File:Arpanet_logical_map,_march_1977.png",
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/bd/Tesla_Motors.svg/500px-Tesla_Motors.svg.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "alt": "Picture from the Wikipedia article on Tesla, Inc..",
+        "credit": "Tesla",
+        "source": "https://commons.wikimedia.org/wiki/File:Tesla_Motors.svg",
         "license": "Public domain",
-        "licenseUrl": "https://commons.wikimedia.org/wiki/File:Arpanet_logical_map,_march_1977.png"
+        "licenseUrl": "https://commons.wikimedia.org/wiki/File:Tesla_Motors.svg"
+      }
+    },
+    {
+      "id": "11-21-verrazzano-narrows-bridge",
+      "date": "11-21",
+      "dateLabel": "21 November",
+      "category": "curious",
+      "categoryName": "Curious",
+      "year": 1964,
+      "title": "Verrazzano–Narrows Bridge",
+      "body": "The Verrazzano–Narrows Bridge opens to traffic. At the time it is the world's longest bridge span.",
+      "source": {
+        "name": "Wikipedia · Verrazzano–Narrows Bridge",
+        "url": "https://en.wikipedia.org/wiki/Verrazzano%E2%80%93Narrows_Bridge",
+        "calendarUrl": "https://en.wikipedia.org/wiki/November_21",
+        "license": {
+          "name": "CC BY-SA 4.0",
+          "url": "https://creativecommons.org/licenses/by-sa/4.0/"
+        }
+      },
+      "image": {
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/72/Verrazano_Bridge2.jpg/500px-Verrazano_Bridge2.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "alt": "Picture from the Wikipedia article on Verrazzano–Narrows Bridge.",
+        "credit": "Wikimedia Commons",
+        "source": "https://commons.wikimedia.org/wiki/File:Verrazano_Bridge2.jpg",
+        "license": "Public domain",
+        "licenseUrl": "https://commons.wikimedia.org/wiki/File:Verrazano_Bridge2.jpg"
       }
     }
   ]

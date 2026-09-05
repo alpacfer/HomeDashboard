@@ -3,33 +3,6 @@
   "dateLabel": "22 August",
   "facts": [
     {
-      "id": "08-22-nolan-ryan",
-      "date": "08-22",
-      "dateLabel": "22 August",
-      "category": "sport",
-      "categoryName": "Sport",
-      "year": 1989,
-      "title": "Nolan Ryan",
-      "body": "Nolan Ryan strikes out Rickey Henderson to become the first Major League Baseball pitcher to record 5,000 strikeouts.",
-      "source": {
-        "name": "Wikipedia · Nolan Ryan",
-        "url": "https://en.wikipedia.org/wiki/Nolan_Ryan",
-        "calendarUrl": "https://en.wikipedia.org/wiki/August_22",
-        "license": {
-          "name": "CC BY-SA 4.0",
-          "url": "https://creativecommons.org/licenses/by-sa/4.0/"
-        }
-      },
-      "image": {
-        "src": "https://upload.wikimedia.org/wikipedia/commons/f/f3/Nolan_Ryan_Tiger_Stadium_1990_CROP.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
-        "alt": "Picture from the Wikipedia article on Nolan Ryan.",
-        "credit": "Wikimedia Commons",
-        "source": "https://commons.wikimedia.org/wiki/File:Nolan_Ryan_Tiger_Stadium_1990_CROP.jpg",
-        "license": "CC BY 2.0",
-        "licenseUrl": "https://creativecommons.org/licenses/by/2.0"
-      }
-    },
-    {
       "id": "08-22-the-scream",
       "date": "08-22",
       "dateLabel": "22 August",
@@ -48,7 +21,7 @@
         }
       },
       "image": {
-        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c5/Edvard_Munch%2C_1893%2C_The_Scream%2C_oil%2C_tempera_and_pastel_on_cardboard%2C_91_x_73_cm%2C_National_Gallery_of_Norway.jpg/1280px-Edvard_Munch%2C_1893%2C_The_Scream%2C_oil%2C_tempera_and_pastel_on_cardboard%2C_91_x_73_cm%2C_National_Gallery_of_Norway.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c5/Edvard_Munch%2C_1893%2C_The_Scream%2C_oil%2C_tempera_and_pastel_on_cardboard%2C_91_x_73_cm%2C_National_Gallery_of_Norway.jpg/500px-Edvard_Munch%2C_1893%2C_The_Scream%2C_oil%2C_tempera_and_pastel_on_cardboard%2C_91_x_73_cm%2C_National_Gallery_of_Norway.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
         "alt": "Picture from the Wikipedia article on The Scream.",
         "credit": "Edvard Munch",
         "source": "https://commons.wikimedia.org/wiki/File:Edvard_Munch,_1893,_The_Scream,_oil,_tempera_and_pastel_on_cardboard,_91_x_73_cm,_National_Gallery_of_Norway.jpg",
@@ -57,17 +30,17 @@
       }
     },
     {
-      "id": "08-22-pope-paul-vi",
+      "id": "08-22-nolan-ryan",
       "date": "08-22",
       "dateLabel": "22 August",
-      "category": "world",
-      "categoryName": "World",
-      "year": 1968,
-      "title": "Pope Paul VI",
-      "body": "Pope Paul VI arrives in Bogotá, Colombia. It is the first visit of a pope to Latin America.",
+      "category": "sport",
+      "categoryName": "Sport",
+      "year": 1989,
+      "title": "Nolan Ryan",
+      "body": "Nolan Ryan strikes out Rickey Henderson to become the first Major League Baseball pitcher to record 5,000 strikeouts.",
       "source": {
-        "name": "Wikipedia · Pope Paul VI",
-        "url": "https://en.wikipedia.org/wiki/Pope_Paul_VI",
+        "name": "Wikipedia · Nolan Ryan",
+        "url": "https://en.wikipedia.org/wiki/Nolan_Ryan",
         "calendarUrl": "https://en.wikipedia.org/wiki/August_22",
         "license": {
           "name": "CC BY-SA 4.0",
@@ -75,12 +48,39 @@
         }
       },
       "image": {
-        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e3/Pope_Paul_VI_1969_Portrait_%284x5_cropped%29.jpg/1280px-Pope_Paul_VI_1969_Portrait_%284x5_cropped%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-        "alt": "Picture from the Wikipedia article on Pope Paul VI.",
-        "credit": "Fotografia Felici",
-        "source": "https://commons.wikimedia.org/wiki/File:Pope_Paul_VI_1969_Portrait_(4x5_cropped).jpg",
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f3/Nolan_Ryan_Tiger_Stadium_1990_CROP.jpg/500px-Nolan_Ryan_Tiger_Stadium_1990_CROP.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "alt": "Picture from the Wikipedia article on Nolan Ryan.",
+        "credit": "Wikimedia Commons",
+        "source": "https://commons.wikimedia.org/wiki/File:Nolan_Ryan_Tiger_Stadium_1990_CROP.jpg",
+        "license": "CC BY 2.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by/2.0"
+      }
+    },
+    {
+      "id": "08-22-j-edgar-hoover",
+      "date": "08-22",
+      "dateLabel": "22 August",
+      "category": "world",
+      "categoryName": "World",
+      "year": 1971,
+      "title": "J. Edgar Hoover",
+      "body": "J. Edgar Hoover and John Mitchell announce the arrest of 20 of the Camden 28.",
+      "source": {
+        "name": "Wikipedia · J. Edgar Hoover",
+        "url": "https://en.wikipedia.org/wiki/J._Edgar_Hoover",
+        "calendarUrl": "https://en.wikipedia.org/wiki/August_22",
+        "license": {
+          "name": "CC BY-SA 4.0",
+          "url": "https://creativecommons.org/licenses/by-sa/4.0/"
+        }
+      },
+      "image": {
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b0/Hoover-JEdgar-LOC.jpg/500px-Hoover-JEdgar-LOC.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "alt": "Picture from the Wikipedia article on J. Edgar Hoover.",
+        "credit": "Marion S. Trikosko",
+        "source": "https://commons.wikimedia.org/wiki/File:Hoover-JEdgar-LOC.jpg",
         "license": "Public domain",
-        "licenseUrl": "https://commons.wikimedia.org/wiki/File:Pope_Paul_VI_1969_Portrait_(4x5_cropped).jpg"
+        "licenseUrl": "https://commons.wikimedia.org/wiki/File:Hoover-JEdgar-LOC.jpg"
       }
     },
     {
@@ -102,7 +102,7 @@
         }
       },
       "image": {
-        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/0c/Henry_St_John%2C_1st_Viscount_Bolingbroke_%281678-1751%29.jpg/1280px-Henry_St_John%2C_1st_Viscount_Bolingbroke_%281678-1751%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/0c/Henry_St_John%2C_1st_Viscount_Bolingbroke_%281678-1751%29.jpg/500px-Henry_St_John%2C_1st_Viscount_Bolingbroke_%281678-1751%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
         "alt": "Picture from the Wikipedia article on Quebec expedition.",
         "credit": "Charles Jervas",
         "source": "https://commons.wikimedia.org/wiki/File:Henry_St_John,_1st_Viscount_Bolingbroke_(1678-1751).jpg",
@@ -129,7 +129,7 @@
         }
       },
       "image": {
-        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d7/Grigori_Perelman%2C_1993_%28re-scanned%29_%28cropped%29.jpg/1280px-Grigori_Perelman%2C_1993_%28re-scanned%29_%28cropped%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d7/Grigori_Perelman%2C_1993_%28re-scanned%29_%28cropped%29.jpg/500px-Grigori_Perelman%2C_1993_%28re-scanned%29_%28cropped%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
         "alt": "Picture from the Wikipedia article on Grigori Perelman.",
         "credit": "George M. Bergman",
         "source": "https://commons.wikimedia.org/wiki/File:Grigori_Perelman,_1993_(re-scanned)_(cropped).jpg",

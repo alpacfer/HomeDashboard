@@ -21,12 +21,39 @@
         }
       },
       "image": {
-        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/39/Pittsburgh_Penguins%2C_Washington_Capitals%2C_Bryan_Rust_%2833744033514%29.jpg/1280px-Pittsburgh_Penguins%2C_Washington_Capitals%2C_Bryan_Rust_%2833744033514%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/39/Pittsburgh_Penguins%2C_Washington_Capitals%2C_Bryan_Rust_%2833744033514%29.jpg/500px-Pittsburgh_Penguins%2C_Washington_Capitals%2C_Bryan_Rust_%2833744033514%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
         "alt": "Picture from the Wikipedia article on Ice hockey.",
         "credit": "Keith Allison from Hanover, MD, USA",
         "source": "https://commons.wikimedia.org/wiki/File:Pittsburgh_Penguins,_Washington_Capitals,_Bryan_Rust_(33744033514).jpg",
         "license": "CC BY-SA 2.0",
         "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0"
+      }
+    },
+    {
+      "id": "04-16-fidel-castro",
+      "date": "04-16",
+      "dateLabel": "16 April",
+      "category": "world",
+      "categoryName": "World",
+      "year": 1961,
+      "title": "Fidel Castro",
+      "body": "In a nationally broadcast speech, Cuban leader Fidel Castro declares that he is a Marxist–Leninist and that Cuba is going to adopt Communism.",
+      "source": {
+        "name": "Wikipedia · Fidel Castro",
+        "url": "https://en.wikipedia.org/wiki/Fidel_Castro",
+        "calendarUrl": "https://en.wikipedia.org/wiki/April_16",
+        "license": {
+          "name": "CC BY-SA 4.0",
+          "url": "https://creativecommons.org/licenses/by-sa/4.0/"
+        }
+      },
+      "image": {
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/86/Fidel_Castro%2C_Prime_Minister_of_Cuba._Castro_at_the_United_Nations%2C_New_York_%283x4_cropped%29.jpg/500px-Fidel_Castro%2C_Prime_Minister_of_Cuba._Castro_at_the_United_Nations%2C_New_York_%283x4_cropped%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "alt": "Picture from the Wikipedia article on Fidel Castro.",
+        "credit": "Bernard Gotfryd",
+        "source": "https://commons.wikimedia.org/wiki/File:Fidel_Castro,_Prime_Minister_of_Cuba._Castro_at_the_United_Nations,_New_York_(3x4_cropped).jpg",
+        "license": "Public domain",
+        "licenseUrl": "https://commons.wikimedia.org/wiki/File:Fidel_Castro,_Prime_Minister_of_Cuba._Castro_at_the_United_Nations,_New_York_(3x4_cropped).jpg"
       }
     },
     {
@@ -48,7 +75,7 @@
         }
       },
       "image": {
-        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b3/John_W._Young_on_the_Moon.jpg/1280px-John_W._Young_on_the_Moon.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b3/John_W._Young_on_the_Moon.jpg/500px-John_W._Young_on_the_Moon.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
         "alt": "Picture from the Wikipedia article on Apollo 16.",
         "credit": "Charlie Duke",
         "source": "https://commons.wikimedia.org/wiki/File:John_W._Young_on_the_Moon.jpg",
@@ -84,17 +111,17 @@
       }
     },
     {
-      "id": "04-16-fidel-castro",
+      "id": "04-16-usta-e",
       "date": "04-16",
       "dateLabel": "16 April",
       "category": "world",
       "categoryName": "World",
-      "year": 1961,
-      "title": "Fidel Castro",
-      "body": "In a nationally broadcast speech, Cuban leader Fidel Castro declares that he is a Marxist–Leninist and that Cuba is going to adopt Communism.",
+      "year": 1941,
+      "title": "Ustaše",
+      "body": "The Nazi-affiliated Ustaše is put in charge of the Independent State of Croatia by the Axis powers after Operation 25 is effected.",
       "source": {
-        "name": "Wikipedia · Fidel Castro",
-        "url": "https://en.wikipedia.org/wiki/Fidel_Castro",
+        "name": "Wikipedia · Ustaše",
+        "url": "https://en.wikipedia.org/wiki/Usta%C5%A1e",
         "calendarUrl": "https://en.wikipedia.org/wiki/April_16",
         "license": {
           "name": "CC BY-SA 4.0",
@@ -102,39 +129,12 @@
         }
       },
       "image": {
-        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/86/Fidel_Castro%2C_Prime_Minister_of_Cuba._Castro_at_the_United_Nations%2C_New_York_%283x4_cropped%29.jpg/1280px-Fidel_Castro%2C_Prime_Minister_of_Cuba._Castro_at_the_United_Nations%2C_New_York_%283x4_cropped%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-        "alt": "Picture from the Wikipedia article on Fidel Castro.",
-        "credit": "Bernard Gotfryd",
-        "source": "https://commons.wikimedia.org/wiki/File:Fidel_Castro,_Prime_Minister_of_Cuba._Castro_at_the_United_Nations,_New_York_(3x4_cropped).jpg",
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/42/Usta%C5%A1e_symbol.svg/500px-Usta%C5%A1e_symbol.svg.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "alt": "Picture from the Wikipedia article on Ustaše.",
+        "credit": "Nanin7 Original artist of the badge…",
+        "source": "https://commons.wikimedia.org/wiki/File:Usta%C5%A1e_symbol.svg",
         "license": "Public domain",
-        "licenseUrl": "https://commons.wikimedia.org/wiki/File:Fidel_Castro,_Prime_Minister_of_Cuba._Castro_at_the_United_Nations,_New_York_(3x4_cropped).jpg"
-      }
-    },
-    {
-      "id": "04-16-2012-pulitzer-prize",
-      "date": "04-16",
-      "dateLabel": "16 April",
-      "category": "world",
-      "categoryName": "World",
-      "year": 2012,
-      "title": "2012 Pulitzer Prize",
-      "body": "The Pulitzer Prize winners are announced. It was the first time since 1977 that no book won the Fiction Prize.",
-      "source": {
-        "name": "Wikipedia · 2012 Pulitzer Prize",
-        "url": "https://en.wikipedia.org/wiki/2012_Pulitzer_Prize",
-        "calendarUrl": "https://en.wikipedia.org/wiki/April_16",
-        "license": {
-          "name": "CC BY-SA 4.0",
-          "url": "https://creativecommons.org/licenses/by-sa/4.0/"
-        }
-      },
-      "image": {
-        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/eb/Pulitzer_Prizes_%28medal%29.png/1280px-Pulitzer_Prizes_%28medal%29.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-        "alt": "Picture from the Wikipedia article on 2012 Pulitzer Prize.",
-        "credit": "Daniel Chester French and Augustus…",
-        "source": "https://commons.wikimedia.org/wiki/File:Pulitzer_Prizes_(medal).png",
-        "license": "Public domain",
-        "licenseUrl": "https://commons.wikimedia.org/wiki/File:Pulitzer_Prizes_(medal).png"
+        "licenseUrl": "https://commons.wikimedia.org/wiki/File:Usta%C5%A1e_symbol.svg"
       }
     }
   ]

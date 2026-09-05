@@ -21,7 +21,7 @@
         }
       },
       "image": {
-        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a8/NASA-Apollo8-Dec24-Earthrise.jpg/1280px-NASA-Apollo8-Dec24-Earthrise.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a8/NASA-Apollo8-Dec24-Earthrise.jpg/500px-NASA-Apollo8-Dec24-Earthrise.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
         "alt": "Picture from the Wikipedia article on Apollo 8.",
         "credit": "NASA/Bill Anders",
         "source": "https://commons.wikimedia.org/wiki/File:NASA-Apollo8-Dec24-Earthrise.jpg",
@@ -48,7 +48,7 @@
         }
       },
       "image": {
-        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/61/Church_of_the_Nativity_%287703592746%29.jpg/1280px-Church_of_the_Nativity_%287703592746%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/61/Church_of_the_Nativity_%287703592746%29.jpg/500px-Church_of_the_Nativity_%287703592746%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
         "alt": "Picture from the Wikipedia article on Bethlehem.",
         "credit": "Neil Ward",
         "source": "https://commons.wikimedia.org/wiki/File:Church_of_the_Nativity_(7703592746).jpg",
@@ -75,39 +75,12 @@
         }
       },
       "image": {
-        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/9e/TheGreatConjunction2020.png/1280px-TheGreatConjunction2020.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/9e/TheGreatConjunction2020.png/500px-TheGreatConjunction2020.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
         "alt": "Picture from the Wikipedia article on Great conjunction.",
         "credit": "KSPFanatic102",
         "source": "https://commons.wikimedia.org/wiki/File:TheGreatConjunction2020.png",
         "license": "CC BY-SA 4.0",
         "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0"
-      }
-    },
-    {
-      "id": "12-21-alma-ata-protocol",
-      "date": "12-21",
-      "dateLabel": "21 December",
-      "category": "world",
-      "categoryName": "World",
-      "year": 1991,
-      "title": "Alma-Ata Protocol",
-      "body": "The leaders of 11 now effectively autonomous Soviet republics sign the Alma-Ata Protocol establishing the Commonwealth of Independent States in place of the collapsing Soviet Union.",
-      "source": {
-        "name": "Wikipedia · Alma-Ata Protocol",
-        "url": "https://en.wikipedia.org/wiki/Alma-Ata_Protocol",
-        "calendarUrl": "https://en.wikipedia.org/wiki/December_21",
-        "license": {
-          "name": "CC BY-SA 4.0",
-          "url": "https://creativecommons.org/licenses/by-sa/4.0/"
-        }
-      },
-      "image": {
-        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/bf/RIAN_archive_41059_CIS_heads_of_state.jpg/1280px-RIAN_archive_41059_CIS_heads_of_state.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-        "alt": "Picture from the Wikipedia article on Alma-Ata Protocol.",
-        "credit": "RIA Novosti archive, image #41059",
-        "source": "https://commons.wikimedia.org/wiki/File:RIAN_archive_41059_CIS_heads_of_state.jpg",
-        "license": "CC BY-SA 3.0",
-        "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0"
       }
     },
     {
@@ -129,12 +102,39 @@
         }
       },
       "image": {
-        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/42/Emblem_of_the_Spanish_Civil_Guard.svg/1280px-Emblem_of_the_Spanish_Civil_Guard.svg.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/42/Emblem_of_the_Spanish_Civil_Guard.svg/500px-Emblem_of_the_Spanish_Civil_Guard.svg.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
         "alt": "Picture from the Wikipedia article on Civil Guard.",
         "credit": "Wikimedia Commons",
         "source": "https://commons.wikimedia.org/wiki/File:Emblem_of_the_Spanish_Civil_Guard.svg",
         "license": "CC BY-SA 3.0",
         "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0"
+      }
+    },
+    {
+      "id": "12-21-rhodesia",
+      "date": "12-21",
+      "dateLabel": "21 December",
+      "category": "world",
+      "categoryName": "World",
+      "year": 1979,
+      "title": "Rhodesia",
+      "body": "An independence agreement for Rhodesia is signed in London by Lord Carrington, Sir Ian Gilmour, Robert Mugabe, Joshua Nkomo, Bishop Abel Muzorewa and S.C. Mundawarara.",
+      "source": {
+        "name": "Wikipedia · Rhodesia",
+        "url": "https://en.wikipedia.org/wiki/Rhodesia",
+        "calendarUrl": "https://en.wikipedia.org/wiki/December_21",
+        "license": {
+          "name": "CC BY-SA 4.0",
+          "url": "https://creativecommons.org/licenses/by-sa/4.0/"
+        }
+      },
+      "image": {
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/02/Flag_of_Rhodesia_%281968%E2%80%931979%29.svg/500px-Flag_of_Rhodesia_%281968%E2%80%931979%29.svg.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "alt": "Picture from the Wikipedia article on Rhodesia.",
+        "credit": "Actarux",
+        "source": "https://commons.wikimedia.org/wiki/File:Flag_of_Rhodesia_(1968%E2%80%931979).svg",
+        "license": "Public domain",
+        "licenseUrl": "https://commons.wikimedia.org/wiki/File:Flag_of_Rhodesia_(1968%E2%80%931979).svg"
       }
     }
   ]

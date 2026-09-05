@@ -21,7 +21,7 @@
         }
       },
       "image": {
-        "src": "https://upload.wikimedia.org/wikipedia/commons/9/90/2024-08-25_Motorsport%2C_Formel_1%2C_Gro%C3%9Fer_Preis_der_Niederlande_2024_STP_3968_by_Stepro_%28cropped2%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/90/2024-08-25_Motorsport%2C_Formel_1%2C_Gro%C3%9Fer_Preis_der_Niederlande_2024_STP_3968_by_Stepro_%28cropped2%29.jpg/500px-2024-08-25_Motorsport%2C_Formel_1%2C_Gro%C3%9Fer_Preis_der_Niederlande_2024_STP_3968_by_Stepro_%28cropped2%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
         "alt": "Picture from the Wikipedia article on Lando Norris.",
         "credit": "Steffen Prößdorf",
         "source": "https://commons.wikimedia.org/wiki/File:2024-08-25_Motorsport,_Formel_1,_Gro%C3%9Fer_Preis_der_Niederlande_2024_STP_3968_by_Stepro_(cropped2).jpg",
@@ -48,12 +48,39 @@
         }
       },
       "image": {
-        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/85/Jaxa_logo.svg/1280px-Jaxa_logo.svg.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/85/Jaxa_logo.svg/500px-Jaxa_logo.svg.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
         "alt": "Picture from the Wikipedia article on JAXA.",
         "credit": "JAXA",
         "source": "https://commons.wikimedia.org/wiki/File:Jaxa_logo.svg",
         "license": "Public domain",
         "licenseUrl": "https://commons.wikimedia.org/wiki/File:Jaxa_logo.svg"
+      }
+    },
+    {
+      "id": "12-07-royal-opera-house",
+      "date": "12-07",
+      "dateLabel": "7 December",
+      "category": "culture",
+      "categoryName": "Culture",
+      "year": 1732,
+      "title": "Royal Opera House",
+      "body": "The Royal Opera House opens at Covent Garden, London, England.",
+      "source": {
+        "name": "Wikipedia · Royal Opera House",
+        "url": "https://en.wikipedia.org/wiki/Royal_Opera_House",
+        "calendarUrl": "https://en.wikipedia.org/wiki/December_7",
+        "license": {
+          "name": "CC BY-SA 4.0",
+          "url": "https://creativecommons.org/licenses/by-sa/4.0/"
+        }
+      },
+      "image": {
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/bb/Royal_Opera_House_and_ballerina.jpg/500px-Royal_Opera_House_and_ballerina.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "alt": "Picture from the Wikipedia article on Royal Opera House.",
+        "credit": "Russ London",
+        "source": "https://commons.wikimedia.org/wiki/File:Royal_Opera_House_and_ballerina.jpg",
+        "license": "CC BY-SA 3.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0"
       }
     },
     {
@@ -75,7 +102,7 @@
         }
       },
       "image": {
-        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/14/Albert_Einstein_1947.jpg/1280px-Albert_Einstein_1947.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/14/Albert_Einstein_1947.jpg/500px-Albert_Einstein_1947.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
         "alt": "Picture from the Wikipedia article on Physicist.",
         "credit": "Oren Jack Turner",
         "source": "https://commons.wikimedia.org/wiki/File:Albert_Einstein_1947.jpg",
@@ -102,37 +129,10 @@
         }
       },
       "image": {
-        "src": "https://upload.wikimedia.org/wikipedia/commons/7/7a/Pollock_to_Hussey.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/7a/Pollock_to_Hussey.jpg/500px-Pollock_to_Hussey.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
         "alt": "Picture from the Wikipedia article on Cricket.",
         "credit": "Prescott Pym on Flickr",
         "source": "https://commons.wikimedia.org/wiki/File:Pollock_to_Hussey.jpg",
-        "license": "CC BY 2.0",
-        "licenseUrl": "https://creativecommons.org/licenses/by/2.0"
-      }
-    },
-    {
-      "id": "12-07-new-york-philharmonic",
-      "date": "12-07",
-      "dateLabel": "7 December",
-      "category": "culture",
-      "categoryName": "Culture",
-      "year": 1842,
-      "title": "New York Philharmonic",
-      "body": "First concert of the New York Philharmonic, founded by Ureli Corelli Hill.",
-      "source": {
-        "name": "Wikipedia · New York Philharmonic",
-        "url": "https://en.wikipedia.org/wiki/New_York_Philharmonic",
-        "calendarUrl": "https://en.wikipedia.org/wiki/December_7",
-        "license": {
-          "name": "CC BY-SA 4.0",
-          "url": "https://creativecommons.org/licenses/by-sa/4.0/"
-        }
-      },
-      "image": {
-        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/bc/New_York_Philharmonic_at_Avery_Fisher_Hall_%287230083424%29_%28cropped%29.jpg/1280px-New_York_Philharmonic_at_Avery_Fisher_Hall_%287230083424%29_%28cropped%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-        "alt": "Picture from the Wikipedia article on New York Philharmonic.",
-        "credit": "Jun Seita from Palo Alto, CA, U.S",
-        "source": "https://commons.wikimedia.org/wiki/File:New_York_Philharmonic_at_Avery_Fisher_Hall_(7230083424)_(cropped).jpg",
         "license": "CC BY 2.0",
         "licenseUrl": "https://creativecommons.org/licenses/by/2.0"
       }

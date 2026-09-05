@@ -3,6 +3,33 @@
   "dateLabel": "22 December",
   "facts": [
     {
+      "id": "12-22-ludwig-van-beethoven",
+      "date": "12-22",
+      "dateLabel": "22 December",
+      "category": "culture",
+      "categoryName": "Culture",
+      "year": 1808,
+      "title": "Ludwig van Beethoven",
+      "body": "Ludwig van Beethoven conducts and performs in concert at the Theater an der Wien, Vienna, with the premiere of his Fifth Symphony, Sixth Symphony, Fourth Piano Concerto and Choral Fantasy.",
+      "source": {
+        "name": "Wikipedia · Ludwig van Beethoven",
+        "url": "https://en.wikipedia.org/wiki/Ludwig_van_Beethoven",
+        "calendarUrl": "https://en.wikipedia.org/wiki/December_22",
+        "license": {
+          "name": "CC BY-SA 4.0",
+          "url": "https://creativecommons.org/licenses/by-sa/4.0/"
+        }
+      },
+      "image": {
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/6e/Joseph_Karl_Stieler%27s_Beethoven_mit_dem_Manuskript_der_Missa_solemnis.jpg/500px-Joseph_Karl_Stieler%27s_Beethoven_mit_dem_Manuskript_der_Missa_solemnis.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "alt": "Picture from the Wikipedia article on Ludwig van Beethoven.",
+        "credit": "Joseph Karl Stieler",
+        "source": "https://commons.wikimedia.org/wiki/File:Joseph_Karl_Stieler%27s_Beethoven_mit_dem_Manuskript_der_Missa_solemnis.jpg",
+        "license": "Public domain",
+        "licenseUrl": "https://commons.wikimedia.org/wiki/File:Joseph_Karl_Stieler%27s_Beethoven_mit_dem_Manuskript_der_Missa_solemnis.jpg"
+      }
+    },
+    {
       "id": "12-22-vsv-ebov",
       "date": "12-22",
       "dateLabel": "22 December",
@@ -21,7 +48,7 @@
         }
       },
       "image": {
-        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/3f/Ebola_virus_em.png/1280px-Ebola_virus_em.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/3f/Ebola_virus_em.png/500px-Ebola_virus_em.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
         "alt": "Picture from the Wikipedia article on rVSV-ZEBOV vaccine.",
         "credit": "CDC/ Dr. Frederick A. Murphy",
         "source": "https://commons.wikimedia.org/wiki/File:Ebola_virus_em.png",
@@ -48,7 +75,7 @@
         }
       },
       "image": {
-        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/2b/IRT_Broadway-Seventh_14th_Street_Northbound_Platform.jpg/1280px-IRT_Broadway-Seventh_14th_Street_Northbound_Platform.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/2b/IRT_Broadway-Seventh_14th_Street_Northbound_Platform.jpg/500px-IRT_Broadway-Seventh_14th_Street_Northbound_Platform.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
         "alt": "Picture from the Wikipedia article on 1984 New York City Subway shooting.",
         "credit": "GeneralPunger",
         "source": "https://commons.wikimedia.org/wiki/File:IRT_Broadway-Seventh_14th_Street_Northbound_Platform.jpg",
@@ -75,7 +102,7 @@
         }
       },
       "image": {
-        "src": "https://upload.wikimedia.org/wikipedia/commons/8/81/323_Brucia.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/81/323_Brucia.png/500px-323_Brucia.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
         "alt": "Picture from the Wikipedia article on 323 Brucia.",
         "credit": "Wikimedia Commons",
         "source": "https://commons.wikimedia.org/wiki/File:323_Brucia.png",
@@ -84,44 +111,17 @@
       }
     },
     {
-      "id": "12-22-ludwig-van-beethoven",
-      "date": "12-22",
-      "dateLabel": "22 December",
-      "category": "culture",
-      "categoryName": "Culture",
-      "year": 1808,
-      "title": "Ludwig van Beethoven",
-      "body": "Ludwig van Beethoven conducts and performs in concert at the Theater an der Wien, Vienna, with the premiere of his Fifth Symphony, Sixth Symphony, Fourth Piano Concerto and Choral Fantasy.",
-      "source": {
-        "name": "Wikipedia · Ludwig van Beethoven",
-        "url": "https://en.wikipedia.org/wiki/Ludwig_van_Beethoven",
-        "calendarUrl": "https://en.wikipedia.org/wiki/December_22",
-        "license": {
-          "name": "CC BY-SA 4.0",
-          "url": "https://creativecommons.org/licenses/by-sa/4.0/"
-        }
-      },
-      "image": {
-        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/6e/Joseph_Karl_Stieler%27s_Beethoven_mit_dem_Manuskript_der_Missa_solemnis.jpg/1280px-Joseph_Karl_Stieler%27s_Beethoven_mit_dem_Manuskript_der_Missa_solemnis.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-        "alt": "Picture from the Wikipedia article on Ludwig van Beethoven.",
-        "credit": "Joseph Karl Stieler",
-        "source": "https://commons.wikimedia.org/wiki/File:Joseph_Karl_Stieler%27s_Beethoven_mit_dem_Manuskript_der_Missa_solemnis.jpg",
-        "license": "Public domain",
-        "licenseUrl": "https://commons.wikimedia.org/wiki/File:Joseph_Karl_Stieler%27s_Beethoven_mit_dem_Manuskript_der_Missa_solemnis.jpg"
-      }
-    },
-    {
-      "id": "12-22-hussein-farrah-aidid",
+      "id": "12-22-zimbabwe",
       "date": "12-22",
       "dateLabel": "22 December",
       "category": "world",
       "categoryName": "World",
-      "year": 1997,
-      "title": "Hussein Farrah Aidid",
-      "body": "Hussein Farrah Aidid relinquishes the disputed title of President of Somalia by signing the Cairo Declaration, in Cairo, Egypt. It is the first major step towards reconciliation in Somalia since 1991.",
+      "year": 1987,
+      "title": "Zimbabwe",
+      "body": "In Zimbabwe, the political parties ZANU and ZAPU reach an agreement that ends the violence in the Matabeleland region known as the Gukurahundi.",
       "source": {
-        "name": "Wikipedia · Hussein Farrah Aidid",
-        "url": "https://en.wikipedia.org/wiki/Hussein_Farrah_Aidid",
+        "name": "Wikipedia · Zimbabwe",
+        "url": "https://en.wikipedia.org/wiki/Zimbabwe",
         "calendarUrl": "https://en.wikipedia.org/wiki/December_22",
         "license": {
           "name": "CC BY-SA 4.0",
@@ -129,12 +129,12 @@
         }
       },
       "image": {
-        "src": "https://upload.wikimedia.org/wikipedia/commons/0/09/%D0%A5%D1%83%D1%81%D0%B5%D0%B9%D0%BD_%D0%A4%D0%B0%D1%80%D0%B0%D1%85_%D0%90%D0%B9%D0%B4%D0%B8%D0%B4_07_%282021%29.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
-        "alt": "Picture from the Wikipedia article on Hussein Farrah Aidid.",
-        "credit": "CBA TV",
-        "source": "https://commons.wikimedia.org/wiki/File:%D0%A5%D1%83%D1%81%D0%B5%D0%B9%D0%BD_%D0%A4%D0%B0%D1%80%D0%B0%D1%85_%D0%90%D0%B9%D0%B4%D0%B8%D0%B4_07_(2021).png",
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/6a/Flag_of_Zimbabwe.svg/500px-Flag_of_Zimbabwe.svg.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "alt": "Picture from the Wikipedia article on Zimbabwe.",
+        "credit": "See File history below for details",
+        "source": "https://commons.wikimedia.org/wiki/File:Flag_of_Zimbabwe.svg",
         "license": "Public domain",
-        "licenseUrl": "https://commons.wikimedia.org/wiki/File:%D0%A5%D1%83%D1%81%D0%B5%D0%B9%D0%BD_%D0%A4%D0%B0%D1%80%D0%B0%D1%85_%D0%90%D0%B9%D0%B4%D0%B8%D0%B4_07_(2021).png"
+        "licenseUrl": "https://commons.wikimedia.org/wiki/File:Flag_of_Zimbabwe.svg"
       }
     }
   ]

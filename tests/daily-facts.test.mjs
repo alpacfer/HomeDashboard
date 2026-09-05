@@ -1,7 +1,7 @@
 import { test } from 'node:test';
 import assert from 'node:assert/strict';
 import { readFile } from 'node:fs/promises';
-import { DAILY_FACT_CATEGORIES, DAILY_FACT_COUNT, dailyDateKey, pinnedDateKey, validDailyFacts, yearsAgo } from '../lib/daily-facts.ts';
+import { DAILY_FACT_CATEGORIES, DAILY_FACT_COUNT, dailyDateKey, mediaShape, pinnedDateKey, validDailyFacts, yearsAgo } from '../lib/daily-facts.ts';
 import { FACTS_PER_DAY } from '../scripts/lib/fact-selection.mjs';
 
 test('every calendar day stores five sourced, illustrated, modern facts', async () => {
@@ -73,6 +73,22 @@ test('every editorial seed is still on its date after a refresh', async () => {
   }
 });
 
+test('a clip is laid out by its own shape, and a picture never is', () => {
+  // The real transcodes in the calendar, at the sizes Commons serves them.
+  assert.equal(mediaShape(426, 214), 'wide', 'the Mars horizon panorama, 1.99:1');
+  assert.equal(mediaShape(426, 240), 'wide', '16:9');
+  assert.equal(mediaShape(354, 240), 'boxy', 'Ariane 5 at 1.48 stays in the layout the panel was built around');
+  assert.equal(mediaShape(320, 240), 'boxy', 'academy 4:3');
+  assert.equal(mediaShape(240, 320), 'tall');
+  assert.equal(mediaShape(1080, 1920), 'tall', 'a phone-shot clip, if one ever reaches the calendar');
+  assert.equal(mediaShape(240, 240), 'boxy', 'square is not tall');
+  // A shape is asked for before a clip has loaded, so bad numbers must not
+  // throw or invent a layout: they fall back to the one a still would get.
+  for (const bad of [[0, 100], [100, 0], [-1, 5], [Number.NaN, 10], [Infinity, 10]]) {
+    assert.equal(mediaShape(...bad), 'boxy', JSON.stringify(bad));
+  }
+});
+
 test('the browser and the generator agree on how many facts a day holds', () => {
   // lib/ may not import from scripts/, and the generator runs as plain Node
   // and cannot import a .ts module, so the two constants are written twice.
@@ -110,6 +126,19 @@ test('a file with the wrong shape is refused before it reaches the screen', () =
   assert.equal(validDailyFacts({ ...file, facts: facts.slice(1) }, '09-05'), false, 'a short day is refused');
   assert.equal(validDailyFacts({ ...file, facts: [...facts, fact] }, '09-05'), false, 'so is a long one');
   assert.equal(validDailyFacts({ ...file, facts: facts.map(() => fact) }, '09-05'), false, 'and one repeated fact');
+  // A clip is optional, so absent stays valid; present and malformed does not.
+  // The panel reads width and height before a frame has loaded to shape the
+  // row, so a file that omits them would lay the row out from undefined.
+  const clip = { src: 'https://upload.wikimedia.org/a.webm', poster: 'https://upload.wikimedia.org/a.jpg', width: 426, height: 240, seconds: 16,
+    credit: 'NASA', source: 'https://commons.wikimedia.org/x', license: 'Public domain', licenseUrl: 'https://commons.wikimedia.org/x' };
+  const withClip = size => ({ ...file, facts: facts.map((f, i) => i ? f : { ...f, video: { ...clip, ...size } }) });
+  assert.equal(validDailyFacts(withClip({}), '09-05'), true);
+  for (const bad of [{ width: undefined }, { height: undefined }, { width: 0 }, { height: -240 }, { width: 426.5 }, { width: '426' }]) {
+    assert.equal(validDailyFacts(withClip(bad), '09-05'), false, JSON.stringify(bad));
+  }
+  for (const bad of [{ src: 'http://insecure/a.webm' }, { poster: 'not a url' }]) {
+    assert.equal(validDailyFacts(withClip(bad), '09-05'), false, JSON.stringify(bad));
+  }
   assert.equal(validDailyFacts({ ...file, facts: file.facts.map(f => ({ ...f, category: 'denmark' })) }, '09-05'), false);
   assert.equal(validDailyFacts({ ...file, facts: file.facts.map(f => ({ ...f, year: 0 })) }, '09-05'), false);
   assert.equal(validDailyFacts({ ...file, facts: file.facts.map(f => ({ ...f, image: { ...f.image, src: 'http://a/b.jpg' } })) }, '09-05'), false);

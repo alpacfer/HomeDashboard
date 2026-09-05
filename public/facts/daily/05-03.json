@@ -21,7 +21,7 @@
         }
       },
       "image": {
-        "src": "https://upload.wikimedia.org/wikipedia/commons/e/ed/Evolution_36_mail.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/ed/Evolution_36_mail.png/500px-Evolution_36_mail.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
         "alt": "Picture from the Wikipedia article on Email.",
         "credit": "AlexanderVanLoon",
         "source": "https://commons.wikimedia.org/wiki/File:Evolution_36_mail.png",
@@ -57,33 +57,6 @@
       }
     },
     {
-      "id": "05-03-anglo-saxon",
-      "date": "05-03",
-      "dateLabel": "3 May",
-      "category": "science",
-      "categoryName": "Science",
-      "year": 1848,
-      "title": "Anglo-Saxons",
-      "body": "The boar-crested Anglo-Saxon Benty Grange helmet is discovered in a barrow on the Benty Grange farm in Derbyshire.",
-      "source": {
-        "name": "Wikipedia · Anglo-Saxons",
-        "url": "https://en.wikipedia.org/wiki/Anglo-Saxons",
-        "calendarUrl": "https://en.wikipedia.org/wiki/May_3",
-        "license": {
-          "name": "CC BY-SA 4.0",
-          "url": "https://creativecommons.org/licenses/by-sa/4.0/"
-        }
-      },
-      "image": {
-        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/64/LindisfarneChiRiho.jpg/1280px-LindisfarneChiRiho.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-        "alt": "Picture from the Wikipedia article on Anglo-Saxons.",
-        "credit": "Eadfrith",
-        "source": "https://commons.wikimedia.org/wiki/File:LindisfarneChiRiho.jpg",
-        "license": "Public domain",
-        "licenseUrl": "https://commons.wikimedia.org/wiki/File:LindisfarneChiRiho.jpg"
-      }
-    },
-    {
       "id": "05-03-solar-eclipse-of-may-3-1715",
       "date": "05-03",
       "dateLabel": "3 May",
@@ -111,6 +84,33 @@
       }
     },
     {
+      "id": "05-03-anglo-saxon",
+      "date": "05-03",
+      "dateLabel": "3 May",
+      "category": "science",
+      "categoryName": "Science",
+      "year": 1848,
+      "title": "Anglo-Saxons",
+      "body": "The boar-crested Anglo-Saxon Benty Grange helmet is discovered in a barrow on the Benty Grange farm in Derbyshire.",
+      "source": {
+        "name": "Wikipedia · Anglo-Saxons",
+        "url": "https://en.wikipedia.org/wiki/Anglo-Saxons",
+        "calendarUrl": "https://en.wikipedia.org/wiki/May_3",
+        "license": {
+          "name": "CC BY-SA 4.0",
+          "url": "https://creativecommons.org/licenses/by-sa/4.0/"
+        }
+      },
+      "image": {
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/64/LindisfarneChiRiho.jpg/500px-LindisfarneChiRiho.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "alt": "Picture from the Wikipedia article on Anglo-Saxons.",
+        "credit": "Eadfrith",
+        "source": "https://commons.wikimedia.org/wiki/File:LindisfarneChiRiho.jpg",
+        "license": "Public domain",
+        "licenseUrl": "https://commons.wikimedia.org/wiki/File:LindisfarneChiRiho.jpg"
+      }
+    },
+    {
       "id": "05-03-geocaching",
       "date": "05-03",
       "dateLabel": "3 May",
@@ -129,7 +129,7 @@
         }
       },
       "image": {
-        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e8/Geocaching.svg/1280px-Geocaching.svg.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e8/Geocaching.svg/500px-Geocaching.svg.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
         "alt": "Picture from the Wikipedia article on Geocaching.",
         "credit": "Liimes",
         "source": "https://commons.wikimedia.org/wiki/File:Geocaching.svg",

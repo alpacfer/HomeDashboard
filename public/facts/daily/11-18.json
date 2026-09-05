@@ -3,33 +3,6 @@
   "dateLabel": "18 November",
   "facts": [
     {
-      "id": "11-18-bell-telephone-company",
-      "date": "11-18",
-      "dateLabel": "18 November",
-      "category": "tech",
-      "categoryName": "Tech",
-      "year": 1963,
-      "title": "Bell Telephone Company",
-      "body": "The Bell Telephone Company introduces the first push-button telephone.",
-      "source": {
-        "name": "Wikipedia · Bell Telephone Company",
-        "url": "https://en.wikipedia.org/wiki/Bell_Telephone_Company",
-        "calendarUrl": "https://en.wikipedia.org/wiki/November_18",
-        "license": {
-          "name": "CC BY-SA 4.0",
-          "url": "https://creativecommons.org/licenses/by-sa/4.0/"
-        }
-      },
-      "image": {
-        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/50/Bell_System_hires_1889_logo.PNG/1280px-Bell_System_hires_1889_logo.PNG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-        "alt": "Picture from the Wikipedia article on Bell Telephone Company.",
-        "credit": "AT&T",
-        "source": "https://commons.wikimedia.org/wiki/File:Bell_System_hires_1889_logo.PNG",
-        "license": "Public domain",
-        "licenseUrl": "https://commons.wikimedia.org/wiki/File:Bell_System_hires_1889_logo.PNG"
-      }
-    },
-    {
       "id": "11-18-maven",
       "date": "11-18",
       "dateLabel": "18 November",
@@ -48,7 +21,7 @@
         }
       },
       "image": {
-        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/70/MAVEN_Mission_Logo.png/1280px-MAVEN_Mission_Logo.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/70/MAVEN_Mission_Logo.png/500px-MAVEN_Mission_Logo.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
         "alt": "Picture from the Wikipedia article on MAVEN.",
         "credit": "NASA",
         "source": "https://commons.wikimedia.org/wiki/File:MAVEN_Mission_Logo.png",
@@ -75,7 +48,7 @@
         }
       },
       "image": {
-        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/50/Steamboat_Willie_1928_Poster.png/1280px-Steamboat_Willie_1928_Poster.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/50/Steamboat_Willie_1928_Poster.png/500px-Steamboat_Willie_1928_Poster.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
         "alt": "Picture from the Wikipedia article on Steamboat Willie.",
         "credit": "Walt Disney / Ub Iwerks",
         "source": "https://commons.wikimedia.org/wiki/File:Steamboat_Willie_1928_Poster.png",
@@ -84,17 +57,17 @@
       }
     },
     {
-      "id": "11-18-mcdonnell-douglas-f-a-18-hornet",
+      "id": "11-18-bell-telephone-company",
       "date": "11-18",
       "dateLabel": "18 November",
-      "category": "world",
-      "categoryName": "World",
-      "year": 1978,
-      "title": "McDonnell Douglas F/A-18 Hornet",
-      "body": "The McDonnell Douglas F/A-18 Hornet makes its first flight, at the Naval Air Test Center in Maryland, United States.",
+      "category": "tech",
+      "categoryName": "Tech",
+      "year": 1963,
+      "title": "Bell Telephone Company",
+      "body": "The Bell Telephone Company introduces the first push-button telephone.",
       "source": {
-        "name": "Wikipedia · McDonnell Douglas F/A-18 Hornet",
-        "url": "https://en.wikipedia.org/wiki/McDonnell_Douglas_F/A-18_Hornet",
+        "name": "Wikipedia · Bell Telephone Company",
+        "url": "https://en.wikipedia.org/wiki/Bell_Telephone_Company",
         "calendarUrl": "https://en.wikipedia.org/wiki/November_18",
         "license": {
           "name": "CC BY-SA 4.0",
@@ -102,12 +75,12 @@
         }
       },
       "image": {
-        "src": "https://upload.wikimedia.org/wikipedia/commons/4/44/FA-18C_desert_refueling.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
-        "alt": "Picture from the Wikipedia article on McDonnell Douglas F/A-18 Hornet.",
-        "credit": "US Air Force",
-        "source": "https://commons.wikimedia.org/wiki/File:FA-18C_desert_refueling.jpg",
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/50/Bell_System_hires_1889_logo.PNG/500px-Bell_System_hires_1889_logo.PNG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "alt": "Picture from the Wikipedia article on Bell Telephone Company.",
+        "credit": "AT&T",
+        "source": "https://commons.wikimedia.org/wiki/File:Bell_System_hires_1889_logo.PNG",
         "license": "Public domain",
-        "licenseUrl": "https://commons.wikimedia.org/wiki/File:FA-18C_desert_refueling.jpg"
+        "licenseUrl": "https://commons.wikimedia.org/wiki/File:Bell_System_hires_1889_logo.PNG"
       }
     },
     {
@@ -129,12 +102,39 @@
         }
       },
       "image": {
-        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/39/Utah_Desert_Monolith.jpg/1280px-Utah_Desert_Monolith.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/39/Utah_Desert_Monolith.jpg/500px-Utah_Desert_Monolith.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
         "alt": "Picture from the Wikipedia article on Utah monolith.",
         "credit": "Original image taken",
         "source": "https://commons.wikimedia.org/wiki/File:Utah_Desert_Monolith.jpg",
         "license": "CC BY-SA 4.0",
         "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0"
+      }
+    },
+    {
+      "id": "11-18-croatian-republic-of-herzeg-bosnia",
+      "date": "11-18",
+      "dateLabel": "18 November",
+      "category": "world",
+      "categoryName": "World",
+      "year": 1991,
+      "title": "Croatian Republic of Herzeg-Bosnia",
+      "body": "The autonomous Croatian Community of Herzeg-Bosnia, which would in 1993 become a republic, was established in Bosnia and Herzegovina.",
+      "source": {
+        "name": "Wikipedia · Croatian Republic of Herzeg-Bosnia",
+        "url": "https://en.wikipedia.org/wiki/Croatian_Republic_of_Herzeg-Bosnia",
+        "calendarUrl": "https://en.wikipedia.org/wiki/November_18",
+        "license": {
+          "name": "CC BY-SA 4.0",
+          "url": "https://creativecommons.org/licenses/by-sa/4.0/"
+        }
+      },
+      "image": {
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/bf/Flag_of_the_Croatian_Republic_of_Herzeg-Bosnia.svg/500px-Flag_of_the_Croatian_Republic_of_Herzeg-Bosnia.svg.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "alt": "Picture from the Wikipedia article on Croatian Republic of Herzeg-Bosnia.",
+        "credit": "See File history below for details",
+        "source": "https://commons.wikimedia.org/wiki/File:Flag_of_the_Croatian_Republic_of_Herzeg-Bosnia.svg",
+        "license": "Public domain",
+        "licenseUrl": "https://commons.wikimedia.org/wiki/File:Flag_of_the_Croatian_Republic_of_Herzeg-Bosnia.svg"
       }
     }
   ]

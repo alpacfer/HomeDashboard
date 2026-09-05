@@ -3,44 +3,17 @@
   "dateLabel": "12 January",
   "facts": [
     {
-      "id": "01-12-downtown-disney",
-      "date": "01-12",
-      "dateLabel": "12 January",
-      "category": "culture",
-      "categoryName": "Culture",
-      "year": 2001,
-      "title": "Downtown Disney",
-      "body": "Downtown Disney opens to the public as part of the Disneyland Resort in Anaheim, California.",
-      "source": {
-        "name": "Wikipedia · Downtown Disney",
-        "url": "https://en.wikipedia.org/wiki/Downtown_Disney",
-        "calendarUrl": "https://en.wikipedia.org/wiki/January_12",
-        "license": {
-          "name": "CC BY-SA 4.0",
-          "url": "https://creativecommons.org/licenses/by-sa/4.0/"
-        }
-      },
-      "image": {
-        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/12/Downtown_Disney%2C_2025.jpg/1280px-Downtown_Disney%2C_2025.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-        "alt": "Picture from the Wikipedia article on Downtown Disney.",
-        "credit": "Contributor19",
-        "source": "https://commons.wikimedia.org/wiki/File:Downtown_Disney,_2025.jpg",
-        "license": "CC BY 4.0",
-        "licenseUrl": "https://creativecommons.org/licenses/by/4.0"
-      }
-    },
-    {
-      "id": "01-12-comet-mcnaught",
+      "id": "01-12-deep-impact-spacecraft",
       "date": "01-12",
       "dateLabel": "12 January",
       "category": "space",
       "categoryName": "Space",
-      "year": 2007,
-      "title": "Comet McNaught",
-      "body": "Comet C/2006 P1 (McNaught), one of the brightest comets ever observed is at its zenith visible during the day.",
+      "year": 2005,
+      "title": "Deep Impact",
+      "body": "Deep Impact launches from Cape Canaveral on a Delta II rocket.",
       "source": {
-        "name": "Wikipedia · Comet McNaught",
-        "url": "https://en.wikipedia.org/wiki/Comet_McNaught",
+        "name": "Wikipedia · Deep Impact (spacecraft)",
+        "url": "https://en.wikipedia.org/wiki/Deep_Impact_(spacecraft)",
         "calendarUrl": "https://en.wikipedia.org/wiki/January_12",
         "license": {
           "name": "CC BY-SA 4.0",
@@ -48,39 +21,12 @@
         }
       },
       "image": {
-        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/15/Comet_P1_McNaught02_-_23-01-07.jpg/1280px-Comet_P1_McNaught02_-_23-01-07.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-        "alt": "Picture from the Wikipedia article on Comet McNaught.",
-        "credit": "fir0002 Canon 20D + Canon 17-40mm f/4 L",
-        "source": "https://commons.wikimedia.org/wiki/File:Comet_P1_McNaught02_-_23-01-07.jpg",
-        "license": "GFDL 1.2",
-        "licenseUrl": "https://www.gnu.org/licenses/old-licenses/fdl-1.2.html"
-      }
-    },
-    {
-      "id": "01-12-human-cloning",
-      "date": "01-12",
-      "dateLabel": "12 January",
-      "category": "science",
-      "categoryName": "Science",
-      "year": 1998,
-      "title": "Human cloning",
-      "body": "Nineteen European nations agree to forbid human cloning.",
-      "source": {
-        "name": "Wikipedia · Human cloning",
-        "url": "https://en.wikipedia.org/wiki/Human_cloning",
-        "calendarUrl": "https://en.wikipedia.org/wiki/January_12",
-        "license": {
-          "name": "CC BY-SA 4.0",
-          "url": "https://creativecommons.org/licenses/by-sa/4.0/"
-        }
-      },
-      "image": {
-        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b8/The_development_and_the_ways_to_rejuvenate_cells_-_en.svg/1280px-The_development_and_the_ways_to_rejuvenate_cells_-_en.svg.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-        "alt": "Picture from the Wikipedia article on Human cloning.",
-        "credit": "Kaidor",
-        "source": "https://commons.wikimedia.org/wiki/File:The_development_and_the_ways_to_rejuvenate_cells_-_en.svg",
-        "license": "CC BY-SA 3.0",
-        "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0"
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/3d/Deep_Impact.jpg/500px-Deep_Impact.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "alt": "Picture from the Wikipedia article on Deep Impact.",
+        "credit": "NASA/JPL",
+        "source": "https://commons.wikimedia.org/wiki/File:Deep_Impact.jpg",
+        "license": "Public domain",
+        "licenseUrl": "https://commons.wikimedia.org/wiki/File:Deep_Impact.jpg"
       }
     },
     {
@@ -102,7 +48,7 @@
         }
       },
       "image": {
-        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/69/New_York_Jets_2024.svg/1280px-New_York_Jets_2024.svg.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/69/New_York_Jets_2024.svg/500px-New_York_Jets_2024.svg.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
         "alt": "Picture from the Wikipedia article on New York Jets.",
         "credit": "New York Jets",
         "source": "https://commons.wikimedia.org/wiki/File:New_York_Jets_2024.svg",
@@ -111,17 +57,17 @@
       }
     },
     {
-      "id": "01-12-deep-impact-spacecraft",
+      "id": "01-12-downtown-disney",
       "date": "01-12",
       "dateLabel": "12 January",
-      "category": "space",
-      "categoryName": "Space",
-      "year": 2005,
-      "title": "Deep Impact",
-      "body": "Deep Impact launches from Cape Canaveral on a Delta II rocket.",
+      "category": "culture",
+      "categoryName": "Culture",
+      "year": 2001,
+      "title": "Downtown Disney",
+      "body": "Downtown Disney opens to the public as part of the Disneyland Resort in Anaheim, California.",
       "source": {
-        "name": "Wikipedia · Deep Impact (spacecraft)",
-        "url": "https://en.wikipedia.org/wiki/Deep_Impact_(spacecraft)",
+        "name": "Wikipedia · Downtown Disney",
+        "url": "https://en.wikipedia.org/wiki/Downtown_Disney",
         "calendarUrl": "https://en.wikipedia.org/wiki/January_12",
         "license": {
           "name": "CC BY-SA 4.0",
@@ -129,12 +75,66 @@
         }
       },
       "image": {
-        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/3d/Deep_Impact.jpg/1280px-Deep_Impact.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-        "alt": "Picture from the Wikipedia article on Deep Impact.",
-        "credit": "NASA/JPL",
-        "source": "https://commons.wikimedia.org/wiki/File:Deep_Impact.jpg",
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/12/Downtown_Disney%2C_2025.jpg/500px-Downtown_Disney%2C_2025.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "alt": "Picture from the Wikipedia article on Downtown Disney.",
+        "credit": "Contributor19",
+        "source": "https://commons.wikimedia.org/wiki/File:Downtown_Disney,_2025.jpg",
+        "license": "CC BY 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by/4.0"
+      }
+    },
+    {
+      "id": "01-12-human-cloning",
+      "date": "01-12",
+      "dateLabel": "12 January",
+      "category": "science",
+      "categoryName": "Science",
+      "year": 1998,
+      "title": "Human cloning",
+      "body": "Nineteen European nations agree to forbid human cloning.",
+      "source": {
+        "name": "Wikipedia · Human cloning",
+        "url": "https://en.wikipedia.org/wiki/Human_cloning",
+        "calendarUrl": "https://en.wikipedia.org/wiki/January_12",
+        "license": {
+          "name": "CC BY-SA 4.0",
+          "url": "https://creativecommons.org/licenses/by-sa/4.0/"
+        }
+      },
+      "image": {
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b8/The_development_and_the_ways_to_rejuvenate_cells_-_en.svg/500px-The_development_and_the_ways_to_rejuvenate_cells_-_en.svg.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "alt": "Picture from the Wikipedia article on Human cloning.",
+        "credit": "Kaidor",
+        "source": "https://commons.wikimedia.org/wiki/File:The_development_and_the_ways_to_rejuvenate_cells_-_en.svg",
+        "license": "CC BY-SA 3.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0"
+      }
+    },
+    {
+      "id": "01-12-space-shuttle-atlantis",
+      "date": "01-12",
+      "dateLabel": "12 January",
+      "category": "space",
+      "categoryName": "Space",
+      "year": 1997,
+      "title": "Space Shuttle Atlantis",
+      "body": "Atlantis launches from the Kennedy Space Center on mission STS-81 to the Russian space station Mir, carrying astronaut Jerry M. Linenger for a four-month stay on board the station, replacing astronaut John E. Blaha.",
+      "source": {
+        "name": "Wikipedia · Space Shuttle Atlantis",
+        "url": "https://en.wikipedia.org/wiki/Space_Shuttle_Atlantis",
+        "calendarUrl": "https://en.wikipedia.org/wiki/January_12",
+        "license": {
+          "name": "CC BY-SA 4.0",
+          "url": "https://creativecommons.org/licenses/by-sa/4.0/"
+        }
+      },
+      "image": {
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/0e/STS132_Atlantis_undocking2_%28cropped%29.jpg/500px-STS132_Atlantis_undocking2_%28cropped%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "alt": "Picture from the Wikipedia article on Space Shuttle Atlantis.",
+        "credit": "NASA",
+        "source": "https://commons.wikimedia.org/wiki/File:STS132_Atlantis_undocking2_(cropped).jpg",
         "license": "Public domain",
-        "licenseUrl": "https://commons.wikimedia.org/wiki/File:Deep_Impact.jpg"
+        "licenseUrl": "https://commons.wikimedia.org/wiki/File:STS132_Atlantis_undocking2_(cropped).jpg"
       }
     }
   ]

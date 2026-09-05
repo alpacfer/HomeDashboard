@@ -21,7 +21,7 @@
         }
       },
       "image": {
-        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/be/Lesser_coat_of_arms_of_the_Russian_Empire.svg/1280px-Lesser_coat_of_arms_of_the_Russian_Empire.svg.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/be/Lesser_coat_of_arms_of_the_Russian_Empire.svg/500px-Lesser_coat_of_arms_of_the_Russian_Empire.svg.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
         "alt": "Picture from the Wikipedia article on State Duma.",
         "credit": "Wikimedia Commons",
         "source": "https://commons.wikimedia.org/wiki/File:Lesser_coat_of_arms_of_the_Russian_Empire.svg",
@@ -48,12 +48,39 @@
         }
       },
       "image": {
-        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/8f/Official_portrait_of_Baroness_Boothroyd_%28cropped%29.jpg/1280px-Official_portrait_of_Baroness_Boothroyd_%28cropped%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/8f/Official_portrait_of_Baroness_Boothroyd_%28cropped%29.jpg/500px-Official_portrait_of_Baroness_Boothroyd_%28cropped%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
         "alt": "Picture from the Wikipedia article on Betty Boothroyd.",
         "credit": "Chris McAndrew",
         "source": "https://commons.wikimedia.org/wiki/File:Official_portrait_of_Baroness_Boothroyd_(cropped).jpg",
         "license": "CC BY 3.0",
         "licenseUrl": "https://creativecommons.org/licenses/by/3.0"
+      }
+    },
+    {
+      "id": "04-27-federal-republic-of-yugoslavia",
+      "date": "04-27",
+      "dateLabel": "27 April",
+      "category": "world",
+      "categoryName": "World",
+      "year": 1992,
+      "title": "Serbia and Montenegro",
+      "body": "The Federal Republic of Yugoslavia, comprising Serbia and Montenegro, is proclaimed.",
+      "source": {
+        "name": "Wikipedia · Serbia and Montenegro",
+        "url": "https://en.wikipedia.org/wiki/Serbia_and_Montenegro",
+        "calendarUrl": "https://en.wikipedia.org/wiki/April_27",
+        "license": {
+          "name": "CC BY-SA 4.0",
+          "url": "https://creativecommons.org/licenses/by-sa/4.0/"
+        }
+      },
+      "image": {
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/3e/Flag_of_Serbia_and_Montenegro_%281992%E2%80%932006%29.svg/500px-Flag_of_Serbia_and_Montenegro_%281992%E2%80%932006%29.svg.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "alt": "Picture from the Wikipedia article on Serbia and Montenegro.",
+        "credit": "See File history below for details",
+        "source": "https://commons.wikimedia.org/wiki/File:Flag_of_Serbia_and_Montenegro_(1992%E2%80%932006).svg",
+        "license": "Public domain",
+        "licenseUrl": "https://commons.wikimedia.org/wiki/File:Flag_of_Serbia_and_Montenegro_(1992%E2%80%932006).svg"
       }
     },
     {
@@ -75,7 +102,7 @@
         }
       },
       "image": {
-        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/4e/MiG-15_USAF.jpg/1280px-MiG-15_USAF.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/4e/MiG-15_USAF.jpg/500px-MiG-15_USAF.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
         "alt": "Picture from the Wikipedia article on Operation Moolah.",
         "credit": "Wikimedia Commons",
         "source": "https://commons.wikimedia.org/wiki/File:MiG-15_USAF.jpg",
@@ -102,39 +129,12 @@
         }
       },
       "image": {
-        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/34/Expo_67_logo.svg/1280px-Expo_67_logo.svg.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/34/Expo_67_logo.svg/500px-Expo_67_logo.svg.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
         "alt": "Picture from the Wikipedia article on Expo 67.",
         "credit": "Julien Hébert",
         "source": "https://commons.wikimedia.org/wiki/File:Expo_67_logo.svg",
         "license": "Public domain",
         "licenseUrl": "https://commons.wikimedia.org/wiki/File:Expo_67_logo.svg"
-      }
-    },
-    {
-      "id": "04-27-russian-federation",
-      "date": "04-27",
-      "dateLabel": "27 April",
-      "category": "world",
-      "categoryName": "World",
-      "year": 1992,
-      "title": "Russia",
-      "body": "The Russian Federation and 12 other former Soviet republics become members of the International Monetary Fund and the World Bank.",
-      "source": {
-        "name": "Wikipedia · Russia",
-        "url": "https://en.wikipedia.org/wiki/Russia",
-        "calendarUrl": "https://en.wikipedia.org/wiki/April_27",
-        "license": {
-          "name": "CC BY-SA 4.0",
-          "url": "https://creativecommons.org/licenses/by-sa/4.0/"
-        }
-      },
-      "image": {
-        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f3/Flag_of_Russia.svg/1280px-Flag_of_Russia.svg.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-        "alt": "Picture from the Wikipedia article on Russia.",
-        "credit": "Peter the Great",
-        "source": "https://commons.wikimedia.org/wiki/File:Flag_of_Russia.svg",
-        "license": "Public domain",
-        "licenseUrl": "https://commons.wikimedia.org/wiki/File:Flag_of_Russia.svg"
       }
     }
   ]

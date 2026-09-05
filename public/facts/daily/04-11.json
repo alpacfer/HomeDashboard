@@ -3,33 +3,6 @@
   "dateLabel": "11 April",
   "facts": [
     {
-      "id": "04-11-pope-john-xxiii",
-      "date": "04-11",
-      "dateLabel": "11 April",
-      "category": "world",
-      "categoryName": "World",
-      "year": 1963,
-      "title": "Pope John XXIII",
-      "body": "Pope John XXIII issues Pacem in terris, the first encyclical addressed to all Christians instead of only Catholics, and which described the conditions for world peace in human terms.",
-      "source": {
-        "name": "Wikipedia · Pope John XXIII",
-        "url": "https://en.wikipedia.org/wiki/Pope_John_XXIII",
-        "calendarUrl": "https://en.wikipedia.org/wiki/April_11",
-        "license": {
-          "name": "CC BY-SA 4.0",
-          "url": "https://creativecommons.org/licenses/by-sa/4.0/"
-        }
-      },
-      "image": {
-        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/0c/Ioannes_XXIII%2C_by_De_Agostini%2C_1958%E2%80%931963.jpg/1280px-Ioannes_XXIII%2C_by_De_Agostini%2C_1958%E2%80%931963.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-        "alt": "Picture from the Wikipedia article on Pope John XXIII.",
-        "credit": "De Agostini Editore",
-        "source": "https://commons.wikimedia.org/wiki/File:Ioannes_XXIII,_by_De_Agostini,_1958%E2%80%931963.jpg",
-        "license": "Public domain",
-        "licenseUrl": "https://commons.wikimedia.org/wiki/File:Ioannes_XXIII,_by_De_Agostini,_1958%E2%80%931963.jpg"
-      }
-    },
-    {
       "id": "04-11-middlesbrough",
       "date": "04-11",
       "dateLabel": "11 April",
@@ -48,7 +21,7 @@
         }
       },
       "image": {
-        "src": "https://upload.wikimedia.org/wikipedia/commons/a/a3/Middlesborough_Town_Hall_image_by_Robert_Eva.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a3/Middlesborough_Town_Hall_image_by_Robert_Eva.jpg/500px-Middlesborough_Town_Hall_image_by_Robert_Eva.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
         "alt": "Picture from the Wikipedia article on Middlesbrough.",
         "credit": "Robert Eva",
         "source": "https://commons.wikimedia.org/wiki/File:Middlesborough_Town_Hall_image_by_Robert_Eva.jpg",
@@ -57,17 +30,17 @@
       }
     },
     {
-      "id": "04-11-tel-aviv",
+      "id": "04-11-pope-john-xxiii",
       "date": "04-11",
       "dateLabel": "11 April",
       "category": "world",
       "categoryName": "World",
-      "year": 1909,
-      "title": "Tel Aviv",
-      "body": "The city of Tel Aviv is founded.",
+      "year": 1963,
+      "title": "Pope John XXIII",
+      "body": "Pope John XXIII issues Pacem in terris, the first encyclical addressed to all Christians instead of only Catholics, and which described the conditions for world peace in human terms.",
       "source": {
-        "name": "Wikipedia · Tel Aviv",
-        "url": "https://en.wikipedia.org/wiki/Tel_Aviv",
+        "name": "Wikipedia · Pope John XXIII",
+        "url": "https://en.wikipedia.org/wiki/Pope_John_XXIII",
         "calendarUrl": "https://en.wikipedia.org/wiki/April_11",
         "license": {
           "name": "CC BY-SA 4.0",
@@ -75,53 +48,26 @@
         }
       },
       "image": {
-        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/69/Sarona_CBD_01_%28cropped%29.jpg/1280px-Sarona_CBD_01_%28cropped%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-        "alt": "Picture from the Wikipedia article on Tel Aviv.",
-        "credit": "Ynhockey",
-        "source": "https://commons.wikimedia.org/wiki/File:Sarona_CBD_01_(cropped).jpg",
-        "license": "CC BY-SA 4.0",
-        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0"
-      }
-    },
-    {
-      "id": "04-11-president-of-iran",
-      "date": "04-11",
-      "dateLabel": "11 April",
-      "category": "world",
-      "categoryName": "World",
-      "year": 2006,
-      "title": "President of Iran",
-      "body": "Iranian president Mahmoud Ahmadinejad announces Iran's claim to have successfully enriched uranium.",
-      "source": {
-        "name": "Wikipedia · President of Iran",
-        "url": "https://en.wikipedia.org/wiki/President_of_Iran",
-        "calendarUrl": "https://en.wikipedia.org/wiki/April_11",
-        "license": {
-          "name": "CC BY-SA 4.0",
-          "url": "https://creativecommons.org/licenses/by-sa/4.0/"
-        }
-      },
-      "image": {
-        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/92/Office_of_the_President_of_the_Islamic_Republic_of_Iran_Seal.svg/1280px-Office_of_the_President_of_the_Islamic_Republic_of_Iran_Seal.svg.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-        "alt": "Picture from the Wikipedia article on President of Iran.",
-        "credit": "MrInfo2012",
-        "source": "https://commons.wikimedia.org/wiki/File:Office_of_the_President_of_the_Islamic_Republic_of_Iran_Seal.svg",
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/0c/Ioannes_XXIII%2C_by_De_Agostini%2C_1958%E2%80%931963.jpg/500px-Ioannes_XXIII%2C_by_De_Agostini%2C_1958%E2%80%931963.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "alt": "Picture from the Wikipedia article on Pope John XXIII.",
+        "credit": "De Agostini Editore",
+        "source": "https://commons.wikimedia.org/wiki/File:Ioannes_XXIII,_by_De_Agostini,_1958%E2%80%931963.jpg",
         "license": "Public domain",
-        "licenseUrl": "https://commons.wikimedia.org/wiki/File:Office_of_the_President_of_the_Islamic_Republic_of_Iran_Seal.svg"
+        "licenseUrl": "https://commons.wikimedia.org/wiki/File:Ioannes_XXIII,_by_De_Agostini,_1958%E2%80%931963.jpg"
       }
     },
     {
-      "id": "04-11-palacio-quemado",
+      "id": "04-11-emir",
       "date": "04-11",
       "dateLabel": "11 April",
       "category": "world",
       "categoryName": "World",
-      "year": 1952,
-      "title": "Palacio Quemado",
-      "body": "Rebels take over Palacio Quemado.",
+      "year": 1921,
+      "title": "Emir",
+      "body": "Emir Abdullah establishes the first centralised government in the newly created British protectorate of Transjordan.",
       "source": {
-        "name": "Wikipedia · Palacio Quemado",
-        "url": "https://en.wikipedia.org/wiki/Palacio_Quemado",
+        "name": "Wikipedia · Emir",
+        "url": "https://en.wikipedia.org/wiki/Emir",
         "calendarUrl": "https://en.wikipedia.org/wiki/April_11",
         "license": {
           "name": "CC BY-SA 4.0",
@@ -129,12 +75,66 @@
         }
       },
       "image": {
-        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/af/Palacio_Quemado_%28Palacio_de_Gobierno%29_y_Catedral_Metropolitana_de_La_Paz%2C_Bolivia.jpg/1280px-Palacio_Quemado_%28Palacio_de_Gobierno%29_y_Catedral_Metropolitana_de_La_Paz%2C_Bolivia.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-        "alt": "Picture from the Wikipedia article on Palacio Quemado.",
-        "credit": "Rodrigo Achá from Arica, Chile",
-        "source": "https://commons.wikimedia.org/wiki/File:Palacio_Quemado_(Palacio_de_Gobierno)_y_Catedral_Metropolitana_de_La_Paz,_Bolivia.jpg",
-        "license": "CC BY 2.0",
-        "licenseUrl": "https://creativecommons.org/licenses/by/2.0"
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e9/Shuja_Shah_Durrani_and_Men_in_his_decorated_palace_Wellcome_V0050531.jpg/500px-Shuja_Shah_Durrani_and_Men_in_his_decorated_palace_Wellcome_V0050531.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "alt": "Picture from the Wikipedia article on Emir.",
+        "credit": "Wikimedia Commons",
+        "source": "https://commons.wikimedia.org/wiki/File:Shuja_Shah_Durrani_and_Men_in_his_decorated_palace_Wellcome_V0050531.jpg",
+        "license": "Public domain",
+        "licenseUrl": "https://commons.wikimedia.org/wiki/File:Shuja_Shah_Durrani_and_Men_in_his_decorated_palace_Wellcome_V0050531.jpg"
+      }
+    },
+    {
+      "id": "04-11-adolf-eichmann",
+      "date": "04-11",
+      "dateLabel": "11 April",
+      "category": "world",
+      "categoryName": "World",
+      "year": 1961,
+      "title": "Adolf Eichmann",
+      "body": "The trial of Adolf Eichmann begins in Jerusalem.",
+      "source": {
+        "name": "Wikipedia · Adolf Eichmann",
+        "url": "https://en.wikipedia.org/wiki/Adolf_Eichmann",
+        "calendarUrl": "https://en.wikipedia.org/wiki/April_11",
+        "license": {
+          "name": "CC BY-SA 4.0",
+          "url": "https://creativecommons.org/licenses/by-sa/4.0/"
+        }
+      },
+      "image": {
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/2c/Adolf_Eichmann%2C_1942_%28cropped%29.jpg/500px-Adolf_Eichmann%2C_1942_%28cropped%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "alt": "Picture from the Wikipedia article on Adolf Eichmann.",
+        "credit": "Author and location unknown",
+        "source": "https://commons.wikimedia.org/wiki/File:Adolf_Eichmann,_1942_(cropped).jpg",
+        "license": "Public domain",
+        "licenseUrl": "https://commons.wikimedia.org/wiki/File:Adolf_Eichmann,_1942_(cropped).jpg"
+      }
+    },
+    {
+      "id": "04-11-self-governance-of-singapore",
+      "date": "04-11",
+      "dateLabel": "11 April",
+      "category": "world",
+      "categoryName": "World",
+      "year": 1957,
+      "title": "Self-governance of Singapore",
+      "body": "United Kingdom agrees to Singaporean self-rule.",
+      "source": {
+        "name": "Wikipedia · Self-governance of Singapore",
+        "url": "https://en.wikipedia.org/wiki/Self-governance_of_Singapore",
+        "calendarUrl": "https://en.wikipedia.org/wiki/April_11",
+        "license": {
+          "name": "CC BY-SA 4.0",
+          "url": "https://creativecommons.org/licenses/by-sa/4.0/"
+        }
+      },
+      "image": {
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/44/Plan_of_the_British_settlement_of_Singapore_published_1828.jpg/500px-Plan_of_the_British_settlement_of_Singapore_published_1828.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "alt": "Picture from the Wikipedia article on Self-governance of Singapore.",
+        "credit": "John Crawfurd",
+        "source": "https://commons.wikimedia.org/wiki/File:Plan_of_the_British_settlement_of_Singapore_published_1828.jpg",
+        "license": "Public domain",
+        "licenseUrl": "https://commons.wikimedia.org/wiki/File:Plan_of_the_British_settlement_of_Singapore_published_1828.jpg"
       }
     }
   ]

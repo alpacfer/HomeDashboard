@@ -22,6 +22,8 @@
       },
       "video": {
         "src": "https://upload.wikimedia.org/wikipedia/commons/transcoded/3/3c/Voyager_Captures_Sounds_of_Interstellar_Space.webm/Voyager_Captures_Sounds_of_Interstellar_Space.webm.240p.vp9.webm",
+        "width": 426,
+        "height": 240,
         "poster": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/3c/Voyager_Captures_Sounds_of_Interstellar_Space.webm/1280px--Voyager_Captures_Sounds_of_Interstellar_Space.webm.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo",
         "seconds": 61,
         "credit": "NASA Jet Propulsion Laboratory",
@@ -30,7 +32,7 @@
         "licenseUrl": "https://commons.wikimedia.org/wiki/File:Voyager_Captures_Sounds_of_Interstellar_Space.webm"
       },
       "image": {
-        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/60/Voyager_spacecraft_model.png/1280px-Voyager_spacecraft_model.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/60/Voyager_spacecraft_model.png/500px-Voyager_spacecraft_model.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
         "alt": "Picture from the Wikipedia article on Voyager 1.",
         "credit": "NASA",
         "source": "https://commons.wikimedia.org/wiki/File:Voyager_spacecraft_model.png",
@@ -57,7 +59,7 @@
         }
       },
       "image": {
-        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/89/Muhammad_Ali_NYWTS.jpg/1280px-Muhammad_Ali_NYWTS.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/89/Muhammad_Ali_NYWTS.jpg/500px-Muhammad_Ali_NYWTS.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
         "alt": "Picture from the Wikipedia article on Muhammad Ali.",
         "credit": "Ira Rosenberg",
         "source": "https://commons.wikimedia.org/wiki/File:Muhammad_Ali_NYWTS.jpg",
@@ -84,7 +86,7 @@
         }
       },
       "image": {
-        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c3/Flag_of_France.svg/1280px-Flag_of_France.svg.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c3/Flag_of_France.svg/500px-Flag_of_France.svg.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
         "alt": "Picture from the Wikipedia article on French Upper Volta.",
         "credit": "Unknown Vector: SKopp",
         "source": "https://commons.wikimedia.org/wiki/File:Flag_of_France.svg",
@@ -111,7 +113,7 @@
         }
       },
       "image": {
-        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/1d/STS-133_Space_Shuttle_Discovery_after_undocking_3_%28cropped%29.jpg/1280px-STS-133_Space_Shuttle_Discovery_after_undocking_3_%28cropped%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/1d/STS-133_Space_Shuttle_Discovery_after_undocking_3_%28cropped%29.jpg/500px-STS-133_Space_Shuttle_Discovery_after_undocking_3_%28cropped%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
         "alt": "Picture from the Wikipedia article on Space Shuttle Discovery.",
         "credit": "NASA",
         "source": "https://commons.wikimedia.org/wiki/File:STS-133_Space_Shuttle_Discovery_after_undocking_3_(cropped).jpg",
@@ -138,7 +140,7 @@
         }
       },
       "image": {
-        "src": "https://upload.wikimedia.org/wikipedia/commons/b/be/Greenham_Common_women%27s_protest_1982%2C_gathering_around_the_base_-_geograph.org.uk_-_759136.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/be/Greenham_Common_women%27s_protest_1982%2C_gathering_around_the_base_-_geograph.org.uk_-_759136.jpg/500px-Greenham_Common_women%27s_protest_1982%2C_gathering_around_the_base_-_geograph.org.uk_-_759136.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
         "alt": "Picture from the Wikipedia article on Greenham Common Women's Peace Camp.",
         "credit": "ceridwen",
         "source": "https://commons.wikimedia.org/wiki/File:Greenham_Common_women%27s_protest_1982,_gathering_around_the_base_-_geograph.org.uk_-_759136.jpg",

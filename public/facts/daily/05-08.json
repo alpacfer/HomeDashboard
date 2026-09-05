@@ -3,17 +3,17 @@
   "dateLabel": "8 May",
   "facts": [
     {
-      "id": "05-08-mount-everest",
+      "id": "05-08-tollund-man",
       "date": "05-08",
       "dateLabel": "8 May",
       "category": "science",
       "categoryName": "Science",
-      "year": 1978,
-      "title": "Mount Everest",
-      "body": "The first ascent of Mount Everest without supplemental oxygen, by Reinhold Messner and Peter Habeler.",
+      "year": 1950,
+      "title": "Tollund Man",
+      "body": "The Tollund Man is discovered in a peat bog near Silkeborg, Denmark.",
       "source": {
-        "name": "Wikipedia · Mount Everest",
-        "url": "https://en.wikipedia.org/wiki/Mount_Everest",
+        "name": "Wikipedia · Tollund Man",
+        "url": "https://en.wikipedia.org/wiki/Tollund_Man",
         "calendarUrl": "https://en.wikipedia.org/wiki/May_8",
         "license": {
           "name": "CC BY-SA 4.0",
@@ -21,12 +21,39 @@
         }
       },
       "image": {
-        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/15/Mt._Everest_from_Gokyo_Ri_November_5%2C_2012.jpg/1280px-Mt._Everest_from_Gokyo_Ri_November_5%2C_2012.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-        "alt": "Picture from the Wikipedia article on Mount Everest.",
-        "credit": "Rdevany",
-        "source": "https://commons.wikimedia.org/wiki/File:Mt._Everest_from_Gokyo_Ri_November_5,_2012.jpg",
-        "license": "CC BY-SA 3.0",
-        "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0"
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f7/Moorleiche_von_Tollund_J%C3%BCtland_um_100_n_Chr_hingerichtet.jpg/500px-Moorleiche_von_Tollund_J%C3%BCtland_um_100_n_Chr_hingerichtet.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "alt": "Picture from the Wikipedia article on Tollund Man.",
+        "credit": "Unknown author",
+        "source": "https://commons.wikimedia.org/wiki/File:Moorleiche_von_Tollund_J%C3%BCtland_um_100_n_Chr_hingerichtet.jpg",
+        "license": "Public domain",
+        "licenseUrl": "https://commons.wikimedia.org/wiki/File:Moorleiche_von_Tollund_J%C3%BCtland_um_100_n_Chr_hingerichtet.jpg"
+      }
+    },
+    {
+      "id": "05-08-the-new-revolution-roller-coaster",
+      "date": "05-08",
+      "dateLabel": "8 May",
+      "category": "world",
+      "categoryName": "World",
+      "year": 1976,
+      "title": "The Great American Revolution",
+      "body": "The rollercoaster The New Revolution, the first steel coaster with a vertical loop, opens at Six Flags Magic Mountain.",
+      "source": {
+        "name": "Wikipedia · The Great American Revolution",
+        "url": "https://en.wikipedia.org/wiki/The_Great_American_Revolution",
+        "calendarUrl": "https://en.wikipedia.org/wiki/May_8",
+        "license": {
+          "name": "CC BY-SA 4.0",
+          "url": "https://creativecommons.org/licenses/by-sa/4.0/"
+        }
+      },
+      "image": {
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e4/Revolution_-_at_Six_Flags_Magic_Mountain_-_September_2018.jpg/500px-Revolution_-_at_Six_Flags_Magic_Mountain_-_September_2018.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "alt": "Picture from the Wikipedia article on The Great American Revolution.",
+        "credit": "Wikimedia Commons",
+        "source": "https://commons.wikimedia.org/wiki/File:Revolution_-_at_Six_Flags_Magic_Mountain_-_September_2018.jpg",
+        "license": "CC BY 2.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by/2.0"
       }
     },
     {
@@ -48,7 +75,7 @@
         }
       },
       "image": {
-        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/42/The_Beatles_1963_Dezo_Hoffman_Capitol_Records_press_photo_2.jpg/1280px-The_Beatles_1963_Dezo_Hoffman_Capitol_Records_press_photo_2.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/42/The_Beatles_1963_Dezo_Hoffman_Capitol_Records_press_photo_2.jpg/500px-The_Beatles_1963_Dezo_Hoffman_Capitol_Records_press_photo_2.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
         "alt": "Picture from the Wikipedia article on The Beatles.",
         "credit": "Dezo Hoffmann",
         "source": "https://commons.wikimedia.org/wiki/File:The_Beatles_1963_Dezo_Hoffman_Capitol_Records_press_photo_2.jpg",
@@ -75,7 +102,7 @@
         }
       },
       "image": {
-        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f3/1984_Olympic_Games_boycott.svg/1280px-1984_Olympic_Games_boycott.svg.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f3/1984_Olympic_Games_boycott.svg/500px-1984_Olympic_Games_boycott.svg.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
         "alt": "Picture from the Wikipedia article on 1984 Summer Olympics boycott.",
         "credit": "Sannita",
         "source": "https://commons.wikimedia.org/wiki/File:1984_Olympic_Games_boycott.svg",
@@ -84,44 +111,17 @@
       }
     },
     {
-      "id": "05-08-the-new-revolution-roller-coaster",
-      "date": "05-08",
-      "dateLabel": "8 May",
-      "category": "world",
-      "categoryName": "World",
-      "year": 1976,
-      "title": "The Great American Revolution",
-      "body": "The rollercoaster The New Revolution, the first steel coaster with a vertical loop, opens at Six Flags Magic Mountain.",
-      "source": {
-        "name": "Wikipedia · The Great American Revolution",
-        "url": "https://en.wikipedia.org/wiki/The_Great_American_Revolution",
-        "calendarUrl": "https://en.wikipedia.org/wiki/May_8",
-        "license": {
-          "name": "CC BY-SA 4.0",
-          "url": "https://creativecommons.org/licenses/by-sa/4.0/"
-        }
-      },
-      "image": {
-        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e4/Revolution_-_at_Six_Flags_Magic_Mountain_-_September_2018.jpg/1280px-Revolution_-_at_Six_Flags_Magic_Mountain_-_September_2018.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-        "alt": "Picture from the Wikipedia article on The Great American Revolution.",
-        "credit": "Wikimedia Commons",
-        "source": "https://commons.wikimedia.org/wiki/File:Revolution_-_at_Six_Flags_Magic_Mountain_-_September_2018.jpg",
-        "license": "CC BY 2.0",
-        "licenseUrl": "https://creativecommons.org/licenses/by/2.0"
-      }
-    },
-    {
-      "id": "05-08-tollund-man",
+      "id": "05-08-mount-everest",
       "date": "05-08",
       "dateLabel": "8 May",
       "category": "science",
       "categoryName": "Science",
-      "year": 1950,
-      "title": "Tollund Man",
-      "body": "The Tollund Man is discovered in a peat bog near Silkeborg, Denmark.",
+      "year": 1978,
+      "title": "Mount Everest",
+      "body": "The first ascent of Mount Everest without supplemental oxygen, by Reinhold Messner and Peter Habeler.",
       "source": {
-        "name": "Wikipedia · Tollund Man",
-        "url": "https://en.wikipedia.org/wiki/Tollund_Man",
+        "name": "Wikipedia · Mount Everest",
+        "url": "https://en.wikipedia.org/wiki/Mount_Everest",
         "calendarUrl": "https://en.wikipedia.org/wiki/May_8",
         "license": {
           "name": "CC BY-SA 4.0",
@@ -129,12 +129,12 @@
         }
       },
       "image": {
-        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f7/Moorleiche_von_Tollund_J%C3%BCtland_um_100_n_Chr_hingerichtet.jpg/1280px-Moorleiche_von_Tollund_J%C3%BCtland_um_100_n_Chr_hingerichtet.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-        "alt": "Picture from the Wikipedia article on Tollund Man.",
-        "credit": "Unknown author",
-        "source": "https://commons.wikimedia.org/wiki/File:Moorleiche_von_Tollund_J%C3%BCtland_um_100_n_Chr_hingerichtet.jpg",
-        "license": "Public domain",
-        "licenseUrl": "https://commons.wikimedia.org/wiki/File:Moorleiche_von_Tollund_J%C3%BCtland_um_100_n_Chr_hingerichtet.jpg"
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/15/Mt._Everest_from_Gokyo_Ri_November_5%2C_2012.jpg/500px-Mt._Everest_from_Gokyo_Ri_November_5%2C_2012.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "alt": "Picture from the Wikipedia article on Mount Everest.",
+        "credit": "Rdevany",
+        "source": "https://commons.wikimedia.org/wiki/File:Mt._Everest_from_Gokyo_Ri_November_5,_2012.jpg",
+        "license": "CC BY-SA 3.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0"
       }
     }
   ]

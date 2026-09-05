@@ -21,66 +21,12 @@
         }
       },
       "image": {
-        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b2/Cassini_Saturn_Orbit_Insertion.jpg/1280px-Cassini_Saturn_Orbit_Insertion.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b2/Cassini_Saturn_Orbit_Insertion.jpg/500px-Cassini_Saturn_Orbit_Insertion.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
         "alt": "Picture from the Wikipedia article on Cassini–Huygens.",
         "credit": "NASA/JPL",
         "source": "https://commons.wikimedia.org/wiki/File:Cassini_Saturn_Orbit_Insertion.jpg",
         "license": "Public domain",
         "licenseUrl": "https://commons.wikimedia.org/wiki/File:Cassini_Saturn_Orbit_Insertion.jpg"
-      }
-    },
-    {
-      "id": "06-11-compaq",
-      "date": "06-11",
-      "dateLabel": "11 June",
-      "category": "tech",
-      "categoryName": "Tech",
-      "year": 1998,
-      "title": "Compaq",
-      "body": "Compaq Computer pays US$9 billion for Digital Equipment Corporation in the largest high-tech acquisition.",
-      "source": {
-        "name": "Wikipedia · Compaq",
-        "url": "https://en.wikipedia.org/wiki/Compaq",
-        "calendarUrl": "https://en.wikipedia.org/wiki/June_11",
-        "license": {
-          "name": "CC BY-SA 4.0",
-          "url": "https://creativecommons.org/licenses/by-sa/4.0/"
-        }
-      },
-      "image": {
-        "src": "https://upload.wikimedia.org/wikipedia/commons/e/e8/HewlettPackardCampusHarrisCoTX.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
-        "alt": "Picture from the Wikipedia article on Compaq.",
-        "credit": "U.S. Geological Survey",
-        "source": "https://commons.wikimedia.org/wiki/File:HewlettPackardCampusHarrisCoTX.png",
-        "license": "Public domain",
-        "licenseUrl": "https://commons.wikimedia.org/wiki/File:HewlettPackardCampusHarrisCoTX.png"
-      }
-    },
-    {
-      "id": "06-11-altaf-hussain-pakistani-politician",
-      "date": "06-11",
-      "dateLabel": "11 June",
-      "category": "world",
-      "categoryName": "World",
-      "year": 1978,
-      "title": "Altaf Hussain",
-      "body": "Altaf Hussain founds the student political movement All Pakistan Muhajir Students Organisation (APMSO) in Karachi University.",
-      "source": {
-        "name": "Wikipedia · Altaf Hussain (Pakistani politician)",
-        "url": "https://en.wikipedia.org/wiki/Altaf_Hussain_(Pakistani_politician)",
-        "calendarUrl": "https://en.wikipedia.org/wiki/June_11",
-        "license": {
-          "name": "CC BY-SA 4.0",
-          "url": "https://creativecommons.org/licenses/by-sa/4.0/"
-        }
-      },
-      "image": {
-        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c9/Altaf_Hussain.jpg/1280px-Altaf_Hussain.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-        "alt": "Picture from the Wikipedia article on Altaf Hussain.",
-        "credit": "ABP Sanjha",
-        "source": "https://commons.wikimedia.org/wiki/File:Altaf_Hussain.jpg",
-        "license": "CC BY 3.0",
-        "licenseUrl": "https://creativecommons.org/licenses/by/3.0"
       }
     },
     {
@@ -102,12 +48,66 @@
         }
       },
       "image": {
-        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/75/Antonio_Meucci.jpg/1280px-Antonio_Meucci.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/75/Antonio_Meucci.jpg/500px-Antonio_Meucci.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
         "alt": "Picture from the Wikipedia article on Antonio Meucci.",
         "credit": "Unknown author",
         "source": "https://commons.wikimedia.org/wiki/File:Antonio_Meucci.jpg",
         "license": "Public domain",
         "licenseUrl": "https://commons.wikimedia.org/wiki/File:Antonio_Meucci.jpg"
+      }
+    },
+    {
+      "id": "06-11-diane-abbott",
+      "date": "06-11",
+      "dateLabel": "11 June",
+      "category": "world",
+      "categoryName": "World",
+      "year": 1987,
+      "title": "Diane Abbott",
+      "body": "Diane Abbott, Paul Boateng and Bernie Grant are elected as the first black MPs in Great Britain.",
+      "source": {
+        "name": "Wikipedia · Diane Abbott",
+        "url": "https://en.wikipedia.org/wiki/Diane_Abbott",
+        "calendarUrl": "https://en.wikipedia.org/wiki/June_11",
+        "license": {
+          "name": "CC BY-SA 4.0",
+          "url": "https://creativecommons.org/licenses/by-sa/4.0/"
+        }
+      },
+      "image": {
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/2c/Official_portrait_of_Ms_Diane_Abbott_crop_2.jpg/500px-Official_portrait_of_Ms_Diane_Abbott_crop_2.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "alt": "Picture from the Wikipedia article on Diane Abbott.",
+        "credit": "Chris McAndrew",
+        "source": "https://commons.wikimedia.org/wiki/File:Official_portrait_of_Ms_Diane_Abbott_crop_2.jpg",
+        "license": "CC BY 3.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by/3.0"
+      }
+    },
+    {
+      "id": "06-11-compaq",
+      "date": "06-11",
+      "dateLabel": "11 June",
+      "category": "tech",
+      "categoryName": "Tech",
+      "year": 1998,
+      "title": "Compaq",
+      "body": "Compaq Computer pays US$9 billion for Digital Equipment Corporation in the largest high-tech acquisition.",
+      "source": {
+        "name": "Wikipedia · Compaq",
+        "url": "https://en.wikipedia.org/wiki/Compaq",
+        "calendarUrl": "https://en.wikipedia.org/wiki/June_11",
+        "license": {
+          "name": "CC BY-SA 4.0",
+          "url": "https://creativecommons.org/licenses/by-sa/4.0/"
+        }
+      },
+      "image": {
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e8/HewlettPackardCampusHarrisCoTX.png/500px-HewlettPackardCampusHarrisCoTX.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "alt": "Picture from the Wikipedia article on Compaq.",
+        "credit": "U.S. Geological Survey",
+        "source": "https://commons.wikimedia.org/wiki/File:HewlettPackardCampusHarrisCoTX.png",
+        "license": "Public domain",
+        "licenseUrl": "https://commons.wikimedia.org/wiki/File:HewlettPackardCampusHarrisCoTX.png"
       }
     },
     {
@@ -129,7 +129,7 @@
         }
       },
       "image": {
-        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b7/Fermi_Gamma-ray_Space_Telescope_spacecraft_model.png/1280px-Fermi_Gamma-ray_Space_Telescope_spacecraft_model.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b7/Fermi_Gamma-ray_Space_Telescope_spacecraft_model.png/500px-Fermi_Gamma-ray_Space_Telescope_spacecraft_model.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
         "alt": "Picture from the Wikipedia article on Fermi Gamma-ray Space Telescope.",
         "credit": "NASA",
         "source": "https://commons.wikimedia.org/wiki/File:Fermi_Gamma-ray_Space_Telescope_spacecraft_model.png",

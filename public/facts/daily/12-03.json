@@ -21,39 +21,12 @@
         }
       },
       "image": {
-        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f5/Party_SMS.jpg/1280px-Party_SMS.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f5/Party_SMS.jpg/500px-Party_SMS.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
         "alt": "A mobile phone showing a received text message.",
         "credit": "Thomas van de Weerd",
         "source": "https://commons.wikimedia.org/wiki/File:Party_SMS.jpg",
         "license": "CC BY 2.0",
         "licenseUrl": "https://creativecommons.org/licenses/by/2.0"
-      }
-    },
-    {
-      "id": "12-03-groote-schuur-hospital",
-      "date": "12-03",
-      "dateLabel": "3 December",
-      "category": "science",
-      "categoryName": "Science",
-      "year": 1967,
-      "title": "Groote Schuur Hospital",
-      "body": "At Groote Schuur Hospital in Cape Town, South Africa, a transplant team headed by Christiaan Barnard carries out the first heart transplant on a human (53-year-old Louis Washkansky).",
-      "source": {
-        "name": "Wikipedia · Groote Schuur Hospital",
-        "url": "https://en.wikipedia.org/wiki/Groote_Schuur_Hospital",
-        "calendarUrl": "https://en.wikipedia.org/wiki/December_3",
-        "license": {
-          "name": "CC BY-SA 4.0",
-          "url": "https://creativecommons.org/licenses/by-sa/4.0/"
-        }
-      },
-      "image": {
-        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/28/Groote_Schuur_Hospital%2C_Observatory%2C_Cape_Town%2C_Western_Cape._05.JPG/1280px-Groote_Schuur_Hospital%2C_Observatory%2C_Cape_Town%2C_Western_Cape._05.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-        "alt": "Picture from the Wikipedia article on Groote Schuur Hospital.",
-        "credit": "A3alb",
-        "source": "https://commons.wikimedia.org/wiki/File:Groote_Schuur_Hospital,_Observatory,_Cape_Town,_Western_Cape._05.JPG",
-        "license": "CC BY-SA 3.0",
-        "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0"
       }
     },
     {
@@ -75,7 +48,7 @@
         }
       },
       "image": {
-        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f0/An_artist%27s_impression_of_a_Pioneer_spacecraft_on_its_way_to_interstellar_space.jpg/1280px-An_artist%27s_impression_of_a_Pioneer_spacecraft_on_its_way_to_interstellar_space.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f0/An_artist%27s_impression_of_a_Pioneer_spacecraft_on_its_way_to_interstellar_space.jpg/500px-An_artist%27s_impression_of_a_Pioneer_spacecraft_on_its_way_to_interstellar_space.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
         "alt": "Picture from the Wikipedia article on Pioneer 10.",
         "credit": "NASA/Don Davis",
         "source": "https://commons.wikimedia.org/wiki/File:An_artist%27s_impression_of_a_Pioneer_spacecraft_on_its_way_to_interstellar_space.jpg",
@@ -84,17 +57,17 @@
       }
     },
     {
-      "id": "12-03-cincinnati",
+      "id": "12-03-groote-schuur-hospital",
       "date": "12-03",
       "dateLabel": "3 December",
-      "category": "culture",
-      "categoryName": "Culture",
-      "year": 1979,
-      "title": "Cincinnati",
-      "body": "In Cincinnati, 11 fans are suffocated in a crush for seats on the concourse outside Riverfront Coliseum before a Who concert.",
+      "category": "science",
+      "categoryName": "Science",
+      "year": 1967,
+      "title": "Groote Schuur Hospital",
+      "body": "At Groote Schuur Hospital in Cape Town, South Africa, a transplant team headed by Christiaan Barnard carries out the first heart transplant on a human (53-year-old Louis Washkansky).",
       "source": {
-        "name": "Wikipedia · Cincinnati",
-        "url": "https://en.wikipedia.org/wiki/Cincinnati",
+        "name": "Wikipedia · Groote Schuur Hospital",
+        "url": "https://en.wikipedia.org/wiki/Groote_Schuur_Hospital",
         "calendarUrl": "https://en.wikipedia.org/wiki/December_3",
         "license": {
           "name": "CC BY-SA 4.0",
@@ -102,10 +75,37 @@
         }
       },
       "image": {
-        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/5c/Downtown_Cincinnati_viewed_from_Devou_Park_%28cropped%29.jpg/1280px-Downtown_Cincinnati_viewed_from_Devou_Park_%28cropped%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-        "alt": "Picture from the Wikipedia article on Cincinnati.",
-        "credit": "EEJCC",
-        "source": "https://commons.wikimedia.org/wiki/File:Downtown_Cincinnati_viewed_from_Devou_Park_(cropped).jpg",
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/28/Groote_Schuur_Hospital%2C_Observatory%2C_Cape_Town%2C_Western_Cape._05.JPG/500px-Groote_Schuur_Hospital%2C_Observatory%2C_Cape_Town%2C_Western_Cape._05.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "alt": "Picture from the Wikipedia article on Groote Schuur Hospital.",
+        "credit": "A3alb",
+        "source": "https://commons.wikimedia.org/wiki/File:Groote_Schuur_Hospital,_Observatory,_Cape_Town,_Western_Cape._05.JPG",
+        "license": "CC BY-SA 3.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0"
+      }
+    },
+    {
+      "id": "12-03-sony",
+      "date": "12-03",
+      "dateLabel": "3 December",
+      "category": "tech",
+      "categoryName": "Tech",
+      "year": 1994,
+      "title": "Sony",
+      "body": "Sony releases the PlayStation game console in Japan.",
+      "source": {
+        "name": "Wikipedia · Sony",
+        "url": "https://en.wikipedia.org/wiki/Sony",
+        "calendarUrl": "https://en.wikipedia.org/wiki/December_3",
+        "license": {
+          "name": "CC BY-SA 4.0",
+          "url": "https://creativecommons.org/licenses/by-sa/4.0/"
+        }
+      },
+      "image": {
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/7d/Sony_headquaters_2.jpg/500px-Sony_headquaters_2.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "alt": "Picture from the Wikipedia article on Sony.",
+        "credit": "Akonnchiroll",
+        "source": "https://commons.wikimedia.org/wiki/File:Sony_headquaters_2.jpg",
         "license": "CC BY-SA 4.0",
         "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0"
       }
@@ -129,7 +129,7 @@
         }
       },
       "image": {
-        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/85/Jaxa_logo.svg/1280px-Jaxa_logo.svg.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/85/Jaxa_logo.svg/500px-Jaxa_logo.svg.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
         "alt": "Picture from the Wikipedia article on JAXA.",
         "credit": "JAXA",
         "source": "https://commons.wikimedia.org/wiki/File:Jaxa_logo.svg",

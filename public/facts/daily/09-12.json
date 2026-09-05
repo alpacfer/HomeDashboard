@@ -21,7 +21,7 @@
         }
       },
       "image": {
-        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/60/Voyager_spacecraft_model.png/1280px-Voyager_spacecraft_model.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/60/Voyager_spacecraft_model.png/500px-Voyager_spacecraft_model.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
         "alt": "Picture from the Wikipedia article on Voyager 1.",
         "credit": "NASA",
         "source": "https://commons.wikimedia.org/wiki/File:Voyager_spacecraft_model.png",
@@ -84,17 +84,17 @@
       }
     },
     {
-      "id": "09-12-gustav-mahler",
+      "id": "09-12-lunik-ii",
       "date": "09-12",
       "dateLabel": "12 September",
-      "category": "culture",
-      "categoryName": "Culture",
-      "year": 1910,
-      "title": "Gustav Mahler",
-      "body": "Premiere performance of Gustav Mahler's Symphony No. 8 in Munich (with a chorus of 852 singers and an orchestra of 171 players. Mahler's rehearsal assistant conductor was Bruno Walter).",
+      "category": "space",
+      "categoryName": "Space",
+      "year": 1959,
+      "title": "Luna 2",
+      "body": "The Soviet Union launches a large rocket, Lunik II, at the Moon.",
       "source": {
-        "name": "Wikipedia · Gustav Mahler",
-        "url": "https://en.wikipedia.org/wiki/Gustav_Mahler",
+        "name": "Wikipedia · Luna 2",
+        "url": "https://en.wikipedia.org/wiki/Luna_2",
         "calendarUrl": "https://en.wikipedia.org/wiki/September_12",
         "license": {
           "name": "CC BY-SA 4.0",
@@ -102,12 +102,12 @@
         }
       },
       "image": {
-        "src": "https://upload.wikimedia.org/wikipedia/commons/0/06/Photo_of_Gustav_Mahler_by_Moritz_N%C3%A4hr_01.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
-        "alt": "Picture from the Wikipedia article on Gustav Mahler.",
-        "credit": "Moritz Nähr",
-        "source": "https://commons.wikimedia.org/wiki/File:Photo_of_Gustav_Mahler_by_Moritz_N%C3%A4hr_01.jpg",
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/cc/Luna_1_-_2_Spacecraft.png/500px-Luna_1_-_2_Spacecraft.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "alt": "Picture from the Wikipedia article on Luna 2.",
+        "credit": "NASA/NSSDCA",
+        "source": "https://commons.wikimedia.org/wiki/File:Luna_1_-_2_Spacecraft.png",
         "license": "Public domain",
-        "licenseUrl": "https://commons.wikimedia.org/wiki/File:Photo_of_Gustav_Mahler_by_Moritz_N%C3%A4hr_01.jpg"
+        "licenseUrl": "https://commons.wikimedia.org/wiki/File:Luna_1_-_2_Spacecraft.png"
       }
     },
     {
@@ -129,7 +129,7 @@
         }
       },
       "image": {
-        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b2/Gemini_11_Agena.jpg/1280px-Gemini_11_Agena.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b2/Gemini_11_Agena.jpg/500px-Gemini_11_Agena.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
         "alt": "Picture from the Wikipedia article on Gemini 11.",
         "credit": "NASA",
         "source": "https://commons.wikimedia.org/wiki/File:Gemini_11_Agena.jpg",

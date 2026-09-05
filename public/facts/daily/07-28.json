@@ -21,12 +21,39 @@
         }
       },
       "image": {
-        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/27/Ian_Thorpe_2012.jpg/1280px-Ian_Thorpe_2012.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/27/Ian_Thorpe_2012.jpg/500px-Ian_Thorpe_2012.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
         "alt": "Picture from the Wikipedia article on Ian Thorpe.",
         "credit": "Doha Stadium Plus Qatar from Doha, Qatar",
         "source": "https://commons.wikimedia.org/wiki/File:Ian_Thorpe_2012.jpg",
         "license": "CC BY 2.0",
         "licenseUrl": "https://creativecommons.org/licenses/by/2.0"
+      }
+    },
+    {
+      "id": "07-28-hawaii-clipper",
+      "date": "07-28",
+      "dateLabel": "28 July",
+      "category": "world",
+      "categoryName": "World",
+      "year": 1938,
+      "title": "Pan Am Flight 229",
+      "body": "Hawaii Clipper disappears between Guam and Manila as the first loss of an airliner in trans-Pacific China Clipper service.",
+      "source": {
+        "name": "Wikipedia · Pan Am Flight 229",
+        "url": "https://en.wikipedia.org/wiki/Pan_Am_Flight_229",
+        "calendarUrl": "https://en.wikipedia.org/wiki/July_28",
+        "license": {
+          "name": "CC BY-SA 4.0",
+          "url": "https://creativecommons.org/licenses/by-sa/4.0/"
+        }
+      },
+      "image": {
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/79/Martin_130_Clipper_%284589907311%29.jpg/500px-Martin_130_Clipper_%284589907311%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "alt": "Picture from the Wikipedia article on Pan Am Flight 229.",
+        "credit": "SDASM Archives",
+        "source": "https://commons.wikimedia.org/wiki/File:Martin_130_Clipper_(4589907311).jpg",
+        "license": "Public domain",
+        "licenseUrl": "https://commons.wikimedia.org/wiki/File:Martin_130_Clipper_(4589907311).jpg"
       }
     },
     {
@@ -48,7 +75,7 @@
         }
       },
       "image": {
-        "src": "https://upload.wikimedia.org/wikipedia/commons/f/f9/PSM_V44_D647_Delineations_on_pieces_of_antler.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f9/PSM_V44_D647_Delineations_on_pieces_of_antler.jpg/500px-PSM_V44_D647_Delineations_on_pieces_of_antler.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
         "alt": "Picture from the Wikipedia article on Prehistory.",
         "credit": "Unknown author",
         "source": "https://commons.wikimedia.org/wiki/File:PSM_V44_D647_Delineations_on_pieces_of_antler.jpg",
@@ -84,33 +111,6 @@
       }
     },
     {
-      "id": "07-28-sutton-hoo-helmet",
-      "date": "07-28",
-      "dateLabel": "28 July",
-      "category": "science",
-      "categoryName": "Science",
-      "year": 1939,
-      "title": "Sutton Hoo helmet",
-      "body": "The Sutton Hoo helmet is discovered.",
-      "source": {
-        "name": "Wikipedia · Sutton Hoo helmet",
-        "url": "https://en.wikipedia.org/wiki/Sutton_Hoo_helmet",
-        "calendarUrl": "https://en.wikipedia.org/wiki/July_28",
-        "license": {
-          "name": "CC BY-SA 4.0",
-          "url": "https://creativecommons.org/licenses/by-sa/4.0/"
-        }
-      },
-      "image": {
-        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/ee/Sutton_Hoo_helmet_2016.png/1280px-Sutton_Hoo_helmet_2016.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-        "alt": "Picture from the Wikipedia article on Sutton Hoo helmet.",
-        "credit": "user:Geni",
-        "source": "https://commons.wikimedia.org/wiki/File:Sutton_Hoo_helmet_2016.png",
-        "license": "Public domain",
-        "licenseUrl": "https://commons.wikimedia.org/wiki/File:Sutton_Hoo_helmet_2016.png"
-      }
-    },
-    {
       "id": "07-28-australasian-antarctic-expedition",
       "date": "07-28",
       "dateLabel": "28 July",
@@ -129,7 +129,7 @@
         }
       },
       "image": {
-        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/24/Mawson_main_base.jpg/1280px-Mawson_main_base.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/24/Mawson_main_base.jpg/500px-Mawson_main_base.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
         "alt": "Picture from the Wikipedia article on Australasian Antarctic Expedition.",
         "credit": "Frank Hurley",
         "source": "https://commons.wikimedia.org/wiki/File:Mawson_main_base.jpg",

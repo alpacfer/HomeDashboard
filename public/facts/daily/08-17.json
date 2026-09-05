@@ -21,7 +21,7 @@
         }
       },
       "image": {
-        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b0/VenusLanderTopo.png/1280px-VenusLanderTopo.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b0/VenusLanderTopo.png/500px-VenusLanderTopo.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
         "alt": "Picture from the Wikipedia article on Venera program.",
         "credit": "Zamonin",
         "source": "https://commons.wikimedia.org/wiki/File:VenusLanderTopo.png",
@@ -48,39 +48,12 @@
         }
       },
       "image": {
-        "src": "https://upload.wikimedia.org/wikipedia/commons/c/c7/Michael_Phelps_Rio_Olympics_2016.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c7/Michael_Phelps_Rio_Olympics_2016.jpg/500px-Michael_Phelps_Rio_Olympics_2016.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
         "alt": "Picture from the Wikipedia article on Michael Phelps.",
         "credit": "Agência Brasil Fotografias",
         "source": "https://commons.wikimedia.org/wiki/File:Michael_Phelps_Rio_Olympics_2016.jpg",
         "license": "CC BY 2.0",
         "licenseUrl": "https://creativecommons.org/licenses/by/2.0"
-      }
-    },
-    {
-      "id": "08-17-richard-wagner",
-      "date": "08-17",
-      "dateLabel": "17 August",
-      "category": "culture",
-      "categoryName": "Culture",
-      "year": 1876,
-      "title": "Richard Wagner",
-      "body": "Richard Wagner's Götterdämmerung, the last opera in his Ring cycle, premieres at the Bayreuth Festspielhaus.",
-      "source": {
-        "name": "Wikipedia · Richard Wagner",
-        "url": "https://en.wikipedia.org/wiki/Richard_Wagner",
-        "calendarUrl": "https://en.wikipedia.org/wiki/August_17",
-        "license": {
-          "name": "CC BY-SA 4.0",
-          "url": "https://creativecommons.org/licenses/by-sa/4.0/"
-        }
-      },
-      "image": {
-        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/9d/RichardWagner.jpg/1280px-RichardWagner.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-        "alt": "Picture from the Wikipedia article on Richard Wagner.",
-        "credit": "Franz Hanfstaengl",
-        "source": "https://commons.wikimedia.org/wiki/File:RichardWagner.jpg",
-        "license": "Public domain",
-        "licenseUrl": "https://commons.wikimedia.org/wiki/File:RichardWagner.jpg"
       }
     },
     {
@@ -102,12 +75,39 @@
         }
       },
       "image": {
-        "src": "https://upload.wikimedia.org/wikipedia/commons/9/9b/RIAN_archive_186141_Nuclear_icebreaker_Arktika_%28cropped%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/9b/RIAN_archive_186141_Nuclear_icebreaker_Arktika_%28cropped%29.jpg/500px-RIAN_archive_186141_Nuclear_icebreaker_Arktika_%28cropped%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
         "alt": "Picture from the Wikipedia article on Arktika.",
         "credit": "RIA Novosti archive, image #186141",
         "source": "https://commons.wikimedia.org/wiki/File:RIAN_archive_186141_Nuclear_icebreaker_Arktika_(cropped).jpg",
         "license": "CC BY-SA 3.0",
         "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0"
+      }
+    },
+    {
+      "id": "08-17-richard-wagner",
+      "date": "08-17",
+      "dateLabel": "17 August",
+      "category": "culture",
+      "categoryName": "Culture",
+      "year": 1876,
+      "title": "Richard Wagner",
+      "body": "Richard Wagner's Götterdämmerung, the last opera in his Ring cycle, premieres at the Bayreuth Festspielhaus.",
+      "source": {
+        "name": "Wikipedia · Richard Wagner",
+        "url": "https://en.wikipedia.org/wiki/Richard_Wagner",
+        "calendarUrl": "https://en.wikipedia.org/wiki/August_17",
+        "license": {
+          "name": "CC BY-SA 4.0",
+          "url": "https://creativecommons.org/licenses/by-sa/4.0/"
+        }
+      },
+      "image": {
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/9d/RichardWagner.jpg/500px-RichardWagner.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "alt": "Picture from the Wikipedia article on Richard Wagner.",
+        "credit": "Franz Hanfstaengl",
+        "source": "https://commons.wikimedia.org/wiki/File:RichardWagner.jpg",
+        "license": "Public domain",
+        "licenseUrl": "https://commons.wikimedia.org/wiki/File:RichardWagner.jpg"
       }
     },
     {
@@ -129,7 +129,7 @@
         }
       },
       "image": {
-        "src": "https://upload.wikimedia.org/wikipedia/commons/5/53/Pioneer_able.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/53/Pioneer_able.png/500px-Pioneer_able.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
         "alt": "Picture from the Wikipedia article on Pioneer 0.",
         "credit": "NASA",
         "source": "https://commons.wikimedia.org/wiki/File:Pioneer_able.png",

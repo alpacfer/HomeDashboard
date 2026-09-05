@@ -21,7 +21,7 @@
         }
       },
       "image": {
-        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/68/MTV_2021_%28brand_version%29.svg/1280px-MTV_2021_%28brand_version%29.svg.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/68/MTV_2021_%28brand_version%29.svg/500px-MTV_2021_%28brand_version%29.svg.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
         "alt": "The MTV logo used by the music television channel.",
         "credit": "CillBill - Loyalkaspar",
         "source": "https://commons.wikimedia.org/wiki/File:MTV_2021_(brand_version).svg",
@@ -48,39 +48,12 @@
         }
       },
       "image": {
-        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/2d/Lauda_at_1982_Dutch_Grand_Prix.jpg/1280px-Lauda_at_1982_Dutch_Grand_Prix.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/2d/Lauda_at_1982_Dutch_Grand_Prix.jpg/500px-Lauda_at_1982_Dutch_Grand_Prix.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
         "alt": "Picture from the Wikipedia article on Niki Lauda.",
         "credit": "Hans van Dijk for Anefo / neg",
         "source": "https://commons.wikimedia.org/wiki/File:Lauda_at_1982_Dutch_Grand_Prix.jpg",
         "license": "CC0",
         "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/deed.en"
-      }
-    },
-    {
-      "id": "08-01-vigd-s-finnbogad-ttir",
-      "date": "08-01",
-      "dateLabel": "1 August",
-      "category": "world",
-      "categoryName": "World",
-      "year": 1980,
-      "title": "Vigdís Finnbogadóttir",
-      "body": "Vigdís Finnbogadóttir is elected President of Iceland and becomes the world's first democratically elected female head of state.",
-      "source": {
-        "name": "Wikipedia · Vigdís Finnbogadóttir",
-        "url": "https://en.wikipedia.org/wiki/Vigd%C3%ADs_Finnbogad%C3%B3ttir",
-        "calendarUrl": "https://en.wikipedia.org/wiki/August_1",
-        "license": {
-          "name": "CC BY-SA 4.0",
-          "url": "https://creativecommons.org/licenses/by-sa/4.0/"
-        }
-      },
-      "image": {
-        "src": "https://upload.wikimedia.org/wikipedia/commons/a/ae/Vigdis_Finnbogadottir_%281985%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
-        "alt": "Picture from the Wikipedia article on Vigdís Finnbogadóttir.",
-        "credit": "Rob Croes for Anefo",
-        "source": "https://commons.wikimedia.org/wiki/File:Vigdis_Finnbogadottir_(1985).jpg",
-        "license": "CC BY-SA 3.0 nl",
-        "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0/nl/deed.en"
       }
     },
     {
@@ -102,7 +75,7 @@
         }
       },
       "image": {
-        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/63/Joseph_Priestley_%28NPG%29.jpg/1280px-Joseph_Priestley_%28NPG%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/63/Joseph_Priestley_%28NPG%29.jpg/500px-Joseph_Priestley_%28NPG%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
         "alt": "Picture from the Wikipedia article on Joseph Priestley.",
         "credit": "James Sharples",
         "source": "https://commons.wikimedia.org/wiki/File:Joseph_Priestley_(NPG).jpg",
@@ -129,12 +102,39 @@
         }
       },
       "image": {
-        "src": "https://upload.wikimedia.org/wikipedia/commons/8/8e/Frank_Herbert_1984_%28square%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/8e/Frank_Herbert_1984_%28square%29.jpg/500px-Frank_Herbert_1984_%28square%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
         "alt": "Picture from the Wikipedia article on Frank Herbert.",
         "credit": "Unknown photographer",
         "source": "https://commons.wikimedia.org/wiki/File:Frank_Herbert_1984_(square).jpg",
         "license": "Public domain",
         "licenseUrl": "https://commons.wikimedia.org/wiki/File:Frank_Herbert_1984_(square).jpg"
+      }
+    },
+    {
+      "id": "08-01-the-concert-for-bangladesh",
+      "date": "08-01",
+      "dateLabel": "1 August",
+      "category": "culture",
+      "categoryName": "Culture",
+      "year": 1971,
+      "title": "The Concert for Bangladesh",
+      "body": "The Concert for Bangladesh, organized by former Beatle George Harrison, is held at Madison Square Garden in New York City.",
+      "source": {
+        "name": "Wikipedia · The Concert for Bangladesh",
+        "url": "https://en.wikipedia.org/wiki/The_Concert_for_Bangladesh",
+        "calendarUrl": "https://en.wikipedia.org/wiki/August_1",
+        "license": {
+          "name": "CC BY-SA 4.0",
+          "url": "https://creativecommons.org/licenses/by-sa/4.0/"
+        }
+      },
+      "image": {
+        "src": "https://upload.wikimedia.org/wikipedia/commons/e/e9/MSG_box-office_sign_for_Concert_for_Bangladesh.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+        "alt": "Picture from the Wikipedia article on The Concert for Bangladesh.",
+        "credit": "In both Concert",
+        "source": "https://commons.wikimedia.org/wiki/File:MSG_box-office_sign_for_Concert_for_Bangladesh.jpg",
+        "license": "Public domain",
+        "licenseUrl": "https://commons.wikimedia.org/wiki/File:MSG_box-office_sign_for_Concert_for_Bangladesh.jpg"
       }
     }
   ]

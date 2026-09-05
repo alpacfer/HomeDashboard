@@ -21,7 +21,7 @@
         }
       },
       "image": {
-        "src": "https://upload.wikimedia.org/wikipedia/commons/c/c3/Stormont%2C_Belfast_-_geograph.org.uk_-_1708122.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c3/Stormont%2C_Belfast_-_geograph.org.uk_-_1708122.jpg/500px-Stormont%2C_Belfast_-_geograph.org.uk_-_1708122.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
         "alt": "Picture from the Wikipedia article on Direct rule.",
         "credit": "Kenneth Allen",
         "source": "https://commons.wikimedia.org/wiki/File:Stormont,_Belfast_-_geograph.org.uk_-_1708122.jpg",
@@ -48,7 +48,7 @@
         }
       },
       "image": {
-        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/8d/RobertKoch_cropped.jpg/1280px-RobertKoch_cropped.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/8d/RobertKoch_cropped.jpg/500px-RobertKoch_cropped.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
         "alt": "Picture from the Wikipedia article on Robert Koch.",
         "credit": "Unknown author",
         "source": "https://commons.wikimedia.org/wiki/File:RobertKoch_cropped.jpg",
@@ -75,7 +75,7 @@
         }
       },
       "image": {
-        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/91/Flag_of_Bhutan.svg/1280px-Flag_of_Bhutan.svg.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/91/Flag_of_Bhutan.svg/500px-Flag_of_Bhutan.svg.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
         "alt": "Picture from the Wikipedia article on Bhutan.",
         "credit": "See File history below for details",
         "source": "https://commons.wikimedia.org/wiki/File:Flag_of_Bhutan.svg",
@@ -102,7 +102,7 @@
         }
       },
       "image": {
-        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/60/Flag_of_the_Mayor_of_New_York_City.svg/1280px-Flag_of_the_Mayor_of_New_York_City.svg.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/60/Flag_of_the_Mayor_of_New_York_City.svg/500px-Flag_of_the_Mayor_of_New_York_City.svg.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
         "alt": "Picture from the Wikipedia article on Mayor of New York City.",
         "credit": "Fry1989 00:26, 1 December 2010",
         "source": "https://commons.wikimedia.org/wiki/File:Flag_of_the_Mayor_of_New_York_City.svg",
@@ -111,17 +111,17 @@
       }
     },
     {
-      "id": "03-24-carnegie-steel-company",
+      "id": "03-24-morarji-desai",
       "date": "03-24",
       "dateLabel": "24 March",
       "category": "world",
       "categoryName": "World",
-      "year": 1900,
-      "title": "Carnegie Steel Company",
-      "body": "Carnegie Steel Company is formed in New Jersey; its capitalization of $160 million is the largest to date.",
+      "year": 1977,
+      "title": "Morarji Desai",
+      "body": "Morarji Desai becomes the prime minister of India, the first prime minister not to belong to Indian National Congress.",
       "source": {
-        "name": "Wikipedia · Carnegie Steel Company",
-        "url": "https://en.wikipedia.org/wiki/Carnegie_Steel_Company",
+        "name": "Wikipedia · Morarji Desai",
+        "url": "https://en.wikipedia.org/wiki/Morarji_Desai",
         "calendarUrl": "https://en.wikipedia.org/wiki/March_24",
         "license": {
           "name": "CC BY-SA 4.0",
@@ -129,12 +129,12 @@
         }
       },
       "image": {
-        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/63/Carnegie-Illinois_Steel_furnaces.jpg/1280px-Carnegie-Illinois_Steel_furnaces.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-        "alt": "Picture from the Wikipedia article on Carnegie Steel Company.",
-        "credit": "Alfred T. Palmer",
-        "source": "https://commons.wikimedia.org/wiki/File:Carnegie-Illinois_Steel_furnaces.jpg",
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e4/Morarji_Desai_During_his_visit_to_the_United_States_of_America_%28cropped%29.jpg/500px-Morarji_Desai_During_his_visit_to_the_United_States_of_America_%28cropped%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "alt": "Picture from the Wikipedia article on Morarji Desai.",
+        "credit": "US EMBASSY NEW DELHI",
+        "source": "https://commons.wikimedia.org/wiki/File:Morarji_Desai_During_his_visit_to_the_United_States_of_America_(cropped).jpg",
         "license": "Public domain",
-        "licenseUrl": "https://commons.wikimedia.org/wiki/File:Carnegie-Illinois_Steel_furnaces.jpg"
+        "licenseUrl": "https://commons.wikimedia.org/wiki/File:Morarji_Desai_During_his_visit_to_the_United_States_of_America_(cropped).jpg"
       }
     }
   ]

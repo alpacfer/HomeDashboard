@@ -3,33 +3,6 @@
   "dateLabel": "7 July",
   "facts": [
     {
-      "id": "07-07-venus",
-      "date": "07-07",
-      "dateLabel": "7 July",
-      "category": "space",
-      "categoryName": "Space",
-      "year": 1959,
-      "title": "Venus",
-      "body": "Venus occults the star Regulus. This rare event is used to determine the diameter of Venus and the structure of the Venusian atmosphere.",
-      "source": {
-        "name": "Wikipedia · Venus",
-        "url": "https://en.wikipedia.org/wiki/Venus",
-        "calendarUrl": "https://en.wikipedia.org/wiki/July_7",
-        "license": {
-          "name": "CC BY-SA 4.0",
-          "url": "https://creativecommons.org/licenses/by-sa/4.0/"
-        }
-      },
-      "image": {
-        "src": "https://upload.wikimedia.org/wikipedia/commons/0/08/Venus_from_Mariner_10.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
-        "alt": "Picture from the Wikipedia article on Venus.",
-        "credit": "NASA/JPL-Caltech",
-        "source": "https://commons.wikimedia.org/wiki/File:Venus_from_Mariner_10.jpg",
-        "license": "Public domain",
-        "licenseUrl": "https://commons.wikimedia.org/wiki/File:Venus_from_Mariner_10.jpg"
-      }
-    },
-    {
       "id": "07-07-boris-becker",
       "date": "07-07",
       "dateLabel": "7 July",
@@ -48,12 +21,39 @@
         }
       },
       "image": {
-        "src": "https://upload.wikimedia.org/wikipedia/commons/c/cb/Boris_Becker_-_240422_174721_%28cropped%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/cb/Boris_Becker_-_240422_174721_%28cropped%29.jpg/500px-Boris_Becker_-_240422_174721_%28cropped%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
         "alt": "Picture from the Wikipedia article on Boris Becker.",
         "credit": "Barcex",
         "source": "https://commons.wikimedia.org/wiki/File:Boris_Becker_-_240422_174721_(cropped).jpg",
         "license": "CC BY-SA 4.0",
         "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0"
+      }
+    },
+    {
+      "id": "07-07-venus",
+      "date": "07-07",
+      "dateLabel": "7 July",
+      "category": "space",
+      "categoryName": "Space",
+      "year": 1959,
+      "title": "Venus",
+      "body": "Venus occults the star Regulus. This rare event is used to determine the diameter of Venus and the structure of the Venusian atmosphere.",
+      "source": {
+        "name": "Wikipedia · Venus",
+        "url": "https://en.wikipedia.org/wiki/Venus",
+        "calendarUrl": "https://en.wikipedia.org/wiki/July_7",
+        "license": {
+          "name": "CC BY-SA 4.0",
+          "url": "https://creativecommons.org/licenses/by-sa/4.0/"
+        }
+      },
+      "image": {
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/08/Venus_from_Mariner_10.jpg/500px-Venus_from_Mariner_10.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "alt": "Picture from the Wikipedia article on Venus.",
+        "credit": "NASA/JPL-Caltech",
+        "source": "https://commons.wikimedia.org/wiki/File:Venus_from_Mariner_10.jpg",
+        "license": "Public domain",
+        "licenseUrl": "https://commons.wikimedia.org/wiki/File:Venus_from_Mariner_10.jpg"
       }
     },
     {
@@ -75,7 +75,7 @@
         }
       },
       "image": {
-        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/33/Fresh_made_bread_05.jpg/1280px-Fresh_made_bread_05.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/33/Fresh_made_bread_05.jpg/500px-Fresh_made_bread_05.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
         "alt": "Picture from the Wikipedia article on Sliced bread.",
         "credit": "FranHogan",
         "source": "https://commons.wikimedia.org/wiki/File:Fresh_made_bread_05.jpg",
@@ -102,7 +102,7 @@
         }
       },
       "image": {
-        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d8/NASA_Mars_Rover.jpg/1280px-NASA_Mars_Rover.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d8/NASA_Mars_Rover.jpg/500px-NASA_Mars_Rover.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
         "alt": "Picture from the Wikipedia article on Opportunity.",
         "credit": "NASA",
         "source": "https://commons.wikimedia.org/wiki/File:NASA_Mars_Rover.jpg",
@@ -111,17 +111,17 @@
       }
     },
     {
-      "id": "07-07-brioni-agreement",
+      "id": "07-07-new-york-court-of-appeals",
       "date": "07-07",
       "dateLabel": "7 July",
       "category": "world",
       "categoryName": "World",
-      "year": 1991,
-      "title": "Brioni Agreement",
-      "body": "The Brioni Agreement ends the ten-day independence war in Slovenia against the rest of the Socialist Federal Republic of Yugoslavia.",
+      "year": 1992,
+      "title": "New York Court of Appeals",
+      "body": "The New York Court of Appeals rules that women have the same right as men to go topless in public.",
       "source": {
-        "name": "Wikipedia · Brioni Agreement",
-        "url": "https://en.wikipedia.org/wiki/Brioni_Agreement",
+        "name": "Wikipedia · New York Court of Appeals",
+        "url": "https://en.wikipedia.org/wiki/New_York_Court_of_Appeals",
         "calendarUrl": "https://en.wikipedia.org/wiki/July_7",
         "license": {
           "name": "CC BY-SA 4.0",
@@ -129,12 +129,12 @@
         }
       },
       "image": {
-        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c5/Slovenia_Croatia_and_Yugoslavia_location_map.svg/1280px-Slovenia_Croatia_and_Yugoslavia_location_map.svg.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-        "alt": "Picture from the Wikipedia article on Brioni Agreement.",
-        "credit": "Tomobe03",
-        "source": "https://commons.wikimedia.org/wiki/File:Slovenia_Croatia_and_Yugoslavia_location_map.svg",
-        "license": "CC BY-SA 3.0",
-        "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0"
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/72/Seal_of_the_New_York_Court_of_Appeals.svg/500px-Seal_of_the_New_York_Court_of_Appeals.svg.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "alt": "Picture from the Wikipedia article on New York Court of Appeals.",
+        "credit": "Unknown author",
+        "source": "https://commons.wikimedia.org/wiki/File:Seal_of_the_New_York_Court_of_Appeals.svg",
+        "license": "Public domain",
+        "licenseUrl": "https://commons.wikimedia.org/wiki/File:Seal_of_the_New_York_Court_of_Appeals.svg"
       }
     }
   ]

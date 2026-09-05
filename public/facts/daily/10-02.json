@@ -3,6 +3,33 @@
   "dateLabel": "2 October",
   "facts": [
     {
+      "id": "10-02-thurgood-marshall",
+      "date": "10-02",
+      "dateLabel": "2 October",
+      "category": "world",
+      "categoryName": "World",
+      "year": 1967,
+      "title": "Thurgood Marshall",
+      "body": "Thurgood Marshall is sworn in as the first African-American justice of the United States Supreme Court.",
+      "source": {
+        "name": "Wikipedia · Thurgood Marshall",
+        "url": "https://en.wikipedia.org/wiki/Thurgood_Marshall",
+        "calendarUrl": "https://en.wikipedia.org/wiki/October_2",
+        "license": {
+          "name": "CC BY-SA 4.0",
+          "url": "https://creativecommons.org/licenses/by-sa/4.0/"
+        }
+      },
+      "image": {
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/5d/Thurgood-marshall-2.jpg/500px-Thurgood-marshall-2.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "alt": "Picture from the Wikipedia article on Thurgood Marshall.",
+        "credit": "Robert S. Oakes",
+        "source": "https://commons.wikimedia.org/wiki/File:Thurgood-marshall-2.jpg",
+        "license": "Public domain",
+        "licenseUrl": "https://commons.wikimedia.org/wiki/File:Thurgood-marshall-2.jpg"
+      }
+    },
+    {
       "id": "10-02-gustavo-d-az-ordaz",
       "date": "10-02",
       "dateLabel": "2 October",
@@ -48,39 +75,12 @@
         }
       },
       "image": {
-        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b6/Bushy_parkrun_27th_September_2014_%2815194006519%29.jpg/1280px-Bushy_parkrun_27th_September_2014_%2815194006519%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b6/Bushy_parkrun_27th_September_2014_%2815194006519%29.jpg/500px-Bushy_parkrun_27th_September_2014_%2815194006519%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
         "alt": "Picture from the Wikipedia article on Parkrun.",
         "credit": "Kevin Wood",
         "source": "https://commons.wikimedia.org/wiki/File:Bushy_parkrun_27th_September_2014_(15194006519).jpg",
         "license": "CC BY 2.0",
         "licenseUrl": "https://creativecommons.org/licenses/by/2.0"
-      }
-    },
-    {
-      "id": "10-02-thurgood-marshall",
-      "date": "10-02",
-      "dateLabel": "2 October",
-      "category": "world",
-      "categoryName": "World",
-      "year": 1967,
-      "title": "Thurgood Marshall",
-      "body": "Thurgood Marshall is sworn in as the first African-American justice of the United States Supreme Court.",
-      "source": {
-        "name": "Wikipedia · Thurgood Marshall",
-        "url": "https://en.wikipedia.org/wiki/Thurgood_Marshall",
-        "calendarUrl": "https://en.wikipedia.org/wiki/October_2",
-        "license": {
-          "name": "CC BY-SA 4.0",
-          "url": "https://creativecommons.org/licenses/by-sa/4.0/"
-        }
-      },
-      "image": {
-        "src": "https://upload.wikimedia.org/wikipedia/commons/5/5d/Thurgood-marshall-2.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
-        "alt": "Picture from the Wikipedia article on Thurgood Marshall.",
-        "credit": "Robert S. Oakes",
-        "source": "https://commons.wikimedia.org/wiki/File:Thurgood-marshall-2.jpg",
-        "license": "Public domain",
-        "licenseUrl": "https://commons.wikimedia.org/wiki/File:Thurgood-marshall-2.jpg"
       }
     },
     {
@@ -102,7 +102,7 @@
         }
       },
       "image": {
-        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a7/The_seal_of_Opus_Dei.svg/1280px-The_seal_of_Opus_Dei.svg.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a7/The_seal_of_Opus_Dei.svg/500px-The_seal_of_Opus_Dei.svg.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
         "alt": "Picture from the Wikipedia article on Opus Dei.",
         "credit": "Hddty",
         "source": "https://commons.wikimedia.org/wiki/File:The_seal_of_Opus_Dei.svg",
@@ -129,7 +129,7 @@
         }
       },
       "image": {
-        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/5c/Great_Seal_of_the_United_States_%28obverse%29.svg/1280px-Great_Seal_of_the_United_States_%28obverse%29.svg.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/5c/Great_Seal_of_the_United_States_%28obverse%29.svg/500px-Great_Seal_of_the_United_States_%28obverse%29.svg.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
         "alt": "Picture from the Wikipedia article on Freedom of Information Act.",
         "credit": "U.S. Government",
         "source": "https://commons.wikimedia.org/wiki/File:Great_Seal_of_the_United_States_(obverse).svg",

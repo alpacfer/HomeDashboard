@@ -21,7 +21,7 @@
         }
       },
       "image": {
-        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/6b/Mars_Orbiter_Mission_Over_Mars_%2815237158879%29.jpg/1280px-Mars_Orbiter_Mission_Over_Mars_%2815237158879%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/6b/Mars_Orbiter_Mission_Over_Mars_%2815237158879%29.jpg/500px-Mars_Orbiter_Mission_Over_Mars_%2815237158879%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
         "alt": "Picture from the Wikipedia article on Mars Orbiter Mission.",
         "credit": "Kevin Gill",
         "source": "https://commons.wikimedia.org/wiki/File:Mars_Orbiter_Mission_Over_Mars_(15237158879).jpg",
@@ -48,7 +48,7 @@
         }
       },
       "image": {
-        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/18/Qingdao_Harbour_51341-Qingdao_%2849055637186%29.jpg/1280px-Qingdao_Harbour_51341-Qingdao_%2849055637186%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/18/Qingdao_Harbour_51341-Qingdao_%2849055637186%29.jpg/500px-Qingdao_Harbour_51341-Qingdao_%2849055637186%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
         "alt": "Picture from the Wikipedia article on Qingdao.",
         "credit": "xiquinhosilva",
         "source": "https://commons.wikimedia.org/wiki/File:Qingdao_Harbour_51341-Qingdao_(49055637186).jpg",
@@ -102,7 +102,7 @@
         }
       },
       "image": {
-        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/ad/Chang_e_1.jpg/1280px-Chang_e_1.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/ad/Chang_e_1.jpg/500px-Chang_e_1.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
         "alt": "Picture from the Wikipedia article on Chang'e 1.",
         "credit": "Nasa",
         "source": "https://commons.wikimedia.org/wiki/File:Chang_e_1.jpg",
@@ -111,17 +111,17 @@
       }
     },
     {
-      "id": "11-05-rona-ambrose",
+      "id": "11-05-morea-expedition",
       "date": "11-05",
       "dateLabel": "5 November",
-      "category": "world",
-      "categoryName": "World",
-      "year": 2015,
-      "title": "Rona Ambrose",
-      "body": "Rona Ambrose takes over after Stephen Harper as the Leader of the Conservative Party of Canada.",
+      "category": "science",
+      "categoryName": "Science",
+      "year": 1828,
+      "title": "Morea expedition",
+      "body": "The French Morea expedition to recapture Morea (now the Peloponnese) ends when the last Ottoman forces depart the peninsula.",
       "source": {
-        "name": "Wikipedia · Rona Ambrose",
-        "url": "https://en.wikipedia.org/wiki/Rona_Ambrose",
+        "name": "Wikipedia · Morea expedition",
+        "url": "https://en.wikipedia.org/wiki/Morea_expedition",
         "calendarUrl": "https://en.wikipedia.org/wiki/November_5",
         "license": {
           "name": "CC BY-SA 4.0",
@@ -129,12 +129,12 @@
         }
       },
       "image": {
-        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/cc/Rona_Ambrose_at_the_67th_World_Health_Assembly_-_2014_%28cropped%29.jpg/1280px-Rona_Ambrose_at_the_67th_World_Health_Assembly_-_2014_%28cropped%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-        "alt": "Picture from the Wikipedia article on Rona Ambrose.",
-        "credit": "U.S. Mission Geneva/ Eric Bridiers",
-        "source": "https://commons.wikimedia.org/wiki/File:Rona_Ambrose_at_the_67th_World_Health_Assembly_-_2014_(cropped).jpg",
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a1/Entrevue_du_g%C3%A9n%C3%A9ral_Maison_et_d%27Ibrahim_Pacha%2C_%C3%A0_Navarin%2C_septembre_1828_%28d%C3%A9tail%29.jpg/500px-Entrevue_du_g%C3%A9n%C3%A9ral_Maison_et_d%27Ibrahim_Pacha%2C_%C3%A0_Navarin%2C_septembre_1828_%28d%C3%A9tail%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "alt": "Picture from the Wikipedia article on Morea expedition.",
+        "credit": "Jean-Charles Langlois",
+        "source": "https://commons.wikimedia.org/wiki/File:Entrevue_du_g%C3%A9n%C3%A9ral_Maison_et_d%27Ibrahim_Pacha,_%C3%A0_Navarin,_septembre_1828_(d%C3%A9tail).jpg",
         "license": "Public domain",
-        "licenseUrl": "https://commons.wikimedia.org/wiki/File:Rona_Ambrose_at_the_67th_World_Health_Assembly_-_2014_(cropped).jpg"
+        "licenseUrl": "https://commons.wikimedia.org/wiki/File:Entrevue_du_g%C3%A9n%C3%A9ral_Maison_et_d%27Ibrahim_Pacha,_%C3%A0_Navarin,_septembre_1828_(d%C3%A9tail).jpg"
       }
     }
   ]

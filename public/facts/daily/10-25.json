@@ -3,33 +3,6 @@
   "dateLabel": "25 October",
   "facts": [
     {
-      "id": "10-25-pyotr-ilyich-tchaikovsky",
-      "date": "10-25",
-      "dateLabel": "25 October",
-      "category": "world",
-      "categoryName": "World",
-      "year": 1875,
-      "title": "Pyotr Ilyich Tchaikovsky",
-      "body": "Pyotr Ilyich Tchaikovsky's Piano Concerto No. 1 in B♭ minor, Op. 23 premieres in Boston, Massachusetts, with Benjamin Johnson Lang as conductor and Hans von Bülow as soloist.",
-      "source": {
-        "name": "Wikipedia · Pyotr Ilyich Tchaikovsky",
-        "url": "https://en.wikipedia.org/wiki/Pyotr_Ilyich_Tchaikovsky",
-        "calendarUrl": "https://en.wikipedia.org/wiki/October_25",
-        "license": {
-          "name": "CC BY-SA 4.0",
-          "url": "https://creativecommons.org/licenses/by-sa/4.0/"
-        }
-      },
-      "image": {
-        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/20/Tchaikovsky_by_Reutlinger_%28cropped%29.jpg/1280px-Tchaikovsky_by_Reutlinger_%28cropped%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-        "alt": "Picture from the Wikipedia article on Pyotr Ilyich Tchaikovsky.",
-        "credit": "Émile Reutlinger",
-        "source": "https://commons.wikimedia.org/wiki/File:Tchaikovsky_by_Reutlinger_(cropped).jpg",
-        "license": "Public domain",
-        "licenseUrl": "https://commons.wikimedia.org/wiki/File:Tchaikovsky_by_Reutlinger_(cropped).jpg"
-      }
-    },
-    {
       "id": "10-25-adlai-stevenson-ii",
       "date": "10-25",
       "dateLabel": "25 October",
@@ -48,39 +21,12 @@
         }
       },
       "image": {
-        "src": "https://upload.wikimedia.org/wikipedia/commons/c/ce/Portrait_of_Ambassador_Adlai_E._Stevenson_II_%28cropped%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/ce/Portrait_of_Ambassador_Adlai_E._Stevenson_II_%28cropped%29.jpg/500px-Portrait_of_Ambassador_Adlai_E._Stevenson_II_%28cropped%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
         "alt": "Picture from the Wikipedia article on Adlai Stevenson II.",
         "credit": "Louis Fabian Bachrach, Jr",
         "source": "https://commons.wikimedia.org/wiki/File:Portrait_of_Ambassador_Adlai_E._Stevenson_II_(cropped).jpg",
         "license": "Public domain",
         "licenseUrl": "https://commons.wikimedia.org/wiki/File:Portrait_of_Ambassador_Adlai_E._Stevenson_II_(cropped).jpg"
-      }
-    },
-    {
-      "id": "10-25-kazakh-soviet-socialist-republic",
-      "date": "10-25",
-      "dateLabel": "25 October",
-      "category": "world",
-      "categoryName": "World",
-      "year": 1990,
-      "title": "Kazakh Soviet Socialist Republic",
-      "body": "The Kazakh Soviet Socialist Republic declares its sovereignty from the Soviet Union.",
-      "source": {
-        "name": "Wikipedia · Kazakh Soviet Socialist Republic",
-        "url": "https://en.wikipedia.org/wiki/Kazakh_Soviet_Socialist_Republic",
-        "calendarUrl": "https://en.wikipedia.org/wiki/October_25",
-        "license": {
-          "name": "CC BY-SA 4.0",
-          "url": "https://creativecommons.org/licenses/by-sa/4.0/"
-        }
-      },
-      "image": {
-        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a0/Flag_of_the_Kazakh_Soviet_Socialist_Republic_%281953%E2%80%931991%29%3B_Flag_of_Kazakhstan_%281991%E2%80%931992%29.svg/1280px-Flag_of_the_Kazakh_Soviet_Socialist_Republic_%281953%E2%80%931991%29%3B_Flag_of_Kazakhstan_%281991%E2%80%931992%29.svg.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-        "alt": "Picture from the Wikipedia article on Kazakh Soviet Socialist Republic.",
-        "credit": "No machine-readable author provided",
-        "source": "https://commons.wikimedia.org/wiki/File:Flag_of_the_Kazakh_Soviet_Socialist_Republic_(1953%E2%80%931991);_Flag_of_Kazakhstan_(1991%E2%80%931992).svg",
-        "license": "Public domain",
-        "licenseUrl": "https://commons.wikimedia.org/wiki/File:Flag_of_the_Kazakh_Soviet_Socialist_Republic_(1953%E2%80%931991);_Flag_of_Kazakhstan_(1991%E2%80%931992).svg"
       }
     },
     {
@@ -111,6 +57,60 @@
       }
     },
     {
+      "id": "10-25-pyotr-ilyich-tchaikovsky",
+      "date": "10-25",
+      "dateLabel": "25 October",
+      "category": "world",
+      "categoryName": "World",
+      "year": 1875,
+      "title": "Pyotr Ilyich Tchaikovsky",
+      "body": "Pyotr Ilyich Tchaikovsky's Piano Concerto No. 1 in B♭ minor, Op. 23 premieres in Boston, Massachusetts, with Benjamin Johnson Lang as conductor and Hans von Bülow as soloist.",
+      "source": {
+        "name": "Wikipedia · Pyotr Ilyich Tchaikovsky",
+        "url": "https://en.wikipedia.org/wiki/Pyotr_Ilyich_Tchaikovsky",
+        "calendarUrl": "https://en.wikipedia.org/wiki/October_25",
+        "license": {
+          "name": "CC BY-SA 4.0",
+          "url": "https://creativecommons.org/licenses/by-sa/4.0/"
+        }
+      },
+      "image": {
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/20/Tchaikovsky_by_Reutlinger_%28cropped%29.jpg/500px-Tchaikovsky_by_Reutlinger_%28cropped%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "alt": "Picture from the Wikipedia article on Pyotr Ilyich Tchaikovsky.",
+        "credit": "Émile Reutlinger",
+        "source": "https://commons.wikimedia.org/wiki/File:Tchaikovsky_by_Reutlinger_(cropped).jpg",
+        "license": "Public domain",
+        "licenseUrl": "https://commons.wikimedia.org/wiki/File:Tchaikovsky_by_Reutlinger_(cropped).jpg"
+      }
+    },
+    {
+      "id": "10-25-kazakh-soviet-socialist-republic",
+      "date": "10-25",
+      "dateLabel": "25 October",
+      "category": "world",
+      "categoryName": "World",
+      "year": 1990,
+      "title": "Kazakh Soviet Socialist Republic",
+      "body": "The Kazakh Soviet Socialist Republic declares its sovereignty from the Soviet Union.",
+      "source": {
+        "name": "Wikipedia · Kazakh Soviet Socialist Republic",
+        "url": "https://en.wikipedia.org/wiki/Kazakh_Soviet_Socialist_Republic",
+        "calendarUrl": "https://en.wikipedia.org/wiki/October_25",
+        "license": {
+          "name": "CC BY-SA 4.0",
+          "url": "https://creativecommons.org/licenses/by-sa/4.0/"
+        }
+      },
+      "image": {
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a0/Flag_of_the_Kazakh_Soviet_Socialist_Republic_%281953%E2%80%931991%29%3B_Flag_of_Kazakhstan_%281991%E2%80%931992%29.svg/500px-Flag_of_the_Kazakh_Soviet_Socialist_Republic_%281953%E2%80%931991%29%3B_Flag_of_Kazakhstan_%281991%E2%80%931992%29.svg.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "alt": "Picture from the Wikipedia article on Kazakh Soviet Socialist Republic.",
+        "credit": "No machine-readable author provided",
+        "source": "https://commons.wikimedia.org/wiki/File:Flag_of_the_Kazakh_Soviet_Socialist_Republic_(1953%E2%80%931991);_Flag_of_Kazakhstan_(1991%E2%80%931992).svg",
+        "license": "Public domain",
+        "licenseUrl": "https://commons.wikimedia.org/wiki/File:Flag_of_the_Kazakh_Soviet_Socialist_Republic_(1953%E2%80%931991);_Flag_of_Kazakhstan_(1991%E2%80%931992).svg"
+      }
+    },
+    {
       "id": "10-25-george-lansbury",
       "date": "10-25",
       "dateLabel": "25 October",
@@ -129,7 +129,7 @@
         }
       },
       "image": {
-        "src": "https://upload.wikimedia.org/wikipedia/commons/8/8e/George-Lansbury.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/8e/George-Lansbury.jpg/500px-George-Lansbury.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
         "alt": "Picture from the Wikipedia article on George Lansbury.",
         "credit": "Howard Coster",
         "source": "https://commons.wikimedia.org/wiki/File:George-Lansbury.jpg",

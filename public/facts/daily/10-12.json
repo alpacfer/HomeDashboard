@@ -21,39 +21,12 @@
         }
       },
       "image": {
-        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/ad/Voskhod_1_capsule_on_display%2C_2016.jpg/1280px-Voskhod_1_capsule_on_display%2C_2016.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/ad/Voskhod_1_capsule_on_display%2C_2016.jpg/500px-Voskhod_1_capsule_on_display%2C_2016.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
         "alt": "Picture from the Wikipedia article on Voskhod 1.",
         "credit": "Andrew Gray",
         "source": "https://commons.wikimedia.org/wiki/File:Voskhod_1_capsule_on_display,_2016.jpg",
         "license": "CC BY-SA 3.0",
         "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0"
-      }
-    },
-    {
-      "id": "10-12-jeanne-genevi-ve-labrosse",
-      "date": "10-12",
-      "dateLabel": "12 October",
-      "category": "curious",
-      "categoryName": "Curious",
-      "year": 1799,
-      "title": "Jeanne Geneviève Garnerin",
-      "body": "Jeanne Geneviève Labrosse becomes the first woman to jump from a balloon with a parachute.",
-      "source": {
-        "name": "Wikipedia · Jeanne Geneviève Garnerin",
-        "url": "https://en.wikipedia.org/wiki/Jeanne_Genevi%C3%A8ve_Garnerin",
-        "calendarUrl": "https://en.wikipedia.org/wiki/October_12",
-        "license": {
-          "name": "CC BY-SA 4.0",
-          "url": "https://creativecommons.org/licenses/by-sa/4.0/"
-        }
-      },
-      "image": {
-        "src": "https://upload.wikimedia.org/wikipedia/commons/a/ac/Madame_Garnerin%2C_by_Christoph_Haller_von_Hallerstein%2C_%281771_-_1839%29_%28cropped%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
-        "alt": "Picture from the Wikipedia article on Jeanne Geneviève Garnerin.",
-        "credit": "Christoph Haller von Hallerstein",
-        "source": "https://commons.wikimedia.org/wiki/File:Madame_Garnerin,_by_Christoph_Haller_von_Hallerstein,_(1771_-_1839)_(cropped).jpg",
-        "license": "Public domain",
-        "licenseUrl": "https://commons.wikimedia.org/wiki/File:Madame_Garnerin,_by_Christoph_Haller_von_Hallerstein,_(1771_-_1839)_(cropped).jpg"
       }
     },
     {
@@ -75,12 +48,39 @@
         }
       },
       "image": {
-        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b7/Flag_of_Europe.svg/1280px-Flag_of_Europe.svg.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b7/Flag_of_Europe.svg/500px-Flag_of_Europe.svg.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
         "alt": "Picture from the Wikipedia article on 2012 Nobel Peace Prize.",
         "credit": "User:Verdy p",
         "source": "https://commons.wikimedia.org/wiki/File:Flag_of_Europe.svg",
         "license": "Public domain",
         "licenseUrl": "https://commons.wikimedia.org/wiki/File:Flag_of_Europe.svg"
+      }
+    },
+    {
+      "id": "10-12-jeanne-genevi-ve-labrosse",
+      "date": "10-12",
+      "dateLabel": "12 October",
+      "category": "curious",
+      "categoryName": "Curious",
+      "year": 1799,
+      "title": "Jeanne Geneviève Garnerin",
+      "body": "Jeanne Geneviève Labrosse becomes the first woman to jump from a balloon with a parachute.",
+      "source": {
+        "name": "Wikipedia · Jeanne Geneviève Garnerin",
+        "url": "https://en.wikipedia.org/wiki/Jeanne_Genevi%C3%A8ve_Garnerin",
+        "calendarUrl": "https://en.wikipedia.org/wiki/October_12",
+        "license": {
+          "name": "CC BY-SA 4.0",
+          "url": "https://creativecommons.org/licenses/by-sa/4.0/"
+        }
+      },
+      "image": {
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/ac/Madame_Garnerin%2C_by_Christoph_Haller_von_Hallerstein%2C_%281771_-_1839%29_%28cropped%29.jpg/500px-Madame_Garnerin%2C_by_Christoph_Haller_von_Hallerstein%2C_%281771_-_1839%29_%28cropped%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "alt": "Picture from the Wikipedia article on Jeanne Geneviève Garnerin.",
+        "credit": "Christoph Haller von Hallerstein",
+        "source": "https://commons.wikimedia.org/wiki/File:Madame_Garnerin,_by_Christoph_Haller_von_Hallerstein,_(1771_-_1839)_(cropped).jpg",
+        "license": "Public domain",
+        "licenseUrl": "https://commons.wikimedia.org/wiki/File:Madame_Garnerin,_by_Christoph_Haller_von_Hallerstein,_(1771_-_1839)_(cropped).jpg"
       }
     },
     {
@@ -102,7 +102,7 @@
         }
       },
       "image": {
-        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/8b/Iron_lung_CDC.jpg/1280px-Iron_lung_CDC.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/8b/Iron_lung_CDC.jpg/500px-Iron_lung_CDC.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
         "alt": "Picture from the Wikipedia article on Iron lung.",
         "credit": "CDC/GHO/Mary Hilpertshauser",
         "source": "https://commons.wikimedia.org/wiki/File:Iron_lung_CDC.jpg",
@@ -129,7 +129,7 @@
         }
       },
       "image": {
-        "src": "https://upload.wikimedia.org/wikipedia/commons/1/1e/Magellan_at_Kennedy_Space_Center.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/1e/Magellan_at_Kennedy_Space_Center.jpg/500px-Magellan_at_Kennedy_Space_Center.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
         "alt": "Picture from the Wikipedia article on Magellan.",
         "credit": "NASA",
         "source": "https://commons.wikimedia.org/wiki/File:Magellan_at_Kennedy_Space_Center.jpg",

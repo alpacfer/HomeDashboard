@@ -3,43 +3,6 @@
   "dateLabel": "9 February",
   "facts": [
     {
-      "id": "02-09-apollo-14",
-      "date": "02-09",
-      "dateLabel": "9 February",
-      "category": "space",
-      "categoryName": "Space",
-      "year": 1971,
-      "title": "Apollo 14",
-      "body": "Apollo 14 returns to Earth after the third human Moon landing.",
-      "source": {
-        "name": "Wikipedia · Apollo 14",
-        "url": "https://en.wikipedia.org/wiki/Apollo_14",
-        "calendarUrl": "https://en.wikipedia.org/wiki/February_9",
-        "license": {
-          "name": "CC BY-SA 4.0",
-          "url": "https://creativecommons.org/licenses/by-sa/4.0/"
-        }
-      },
-      "video": {
-        "src": "https://upload.wikimedia.org/wikipedia/commons/transcoded/d/d7/Apollo_14_footage_of_the_astronauts_climbing_down_from_the_lunar_lander_and_planting_an_American_flag.ogv/Apollo_14_footage_of_the_astronauts_climbing_down_from_the_lunar_lander_and_planting_an_American_flag.ogv.240p.vp9.webm",
-        "fallback": "https://upload.wikimedia.org/wikipedia/commons/transcoded/d/d7/Apollo_14_footage_of_the_astronauts_climbing_down_from_the_lunar_lander_and_planting_an_American_flag.ogv/Apollo_14_footage_of_the_astronauts_climbing_down_from_the_lunar_lander_and_planting_an_American_flag.ogv.360p.mpeg4.mov",
-        "poster": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d7/Apollo_14_footage_of_the_astronauts_climbing_down_from_the_lunar_lander_and_planting_an_American_flag.ogv/960px--Apollo_14_footage_of_the_astronauts_climbing_down_from_the_lunar_lander_and_planting_an_American_flag.ogv.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo",
-        "seconds": 125,
-        "credit": "NASA/Johnson Space Center",
-        "source": "https://commons.wikimedia.org/wiki/File:Apollo_14_footage_of_the_astronauts_climbing_down_from_the_lunar_lander_and_planting_an_American_flag.ogv",
-        "license": "Public domain",
-        "licenseUrl": "https://commons.wikimedia.org/wiki/File:Apollo_14_footage_of_the_astronauts_climbing_down_from_the_lunar_lander_and_planting_an_American_flag.ogv"
-      },
-      "image": {
-        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/09/Apollo_14_Shepard.jpg/1280px-Apollo_14_Shepard.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-        "alt": "Picture from the Wikipedia article on Apollo 14.",
-        "credit": "Edgar D. Mitchell / NASA",
-        "source": "https://commons.wikimedia.org/wiki/File:Apollo_14_Shepard.jpg",
-        "license": "Public domain",
-        "licenseUrl": "https://commons.wikimedia.org/wiki/File:Apollo_14_Shepard.jpg"
-      }
-    },
-    {
       "id": "02-09-the-beatles",
       "date": "02-09",
       "dateLabel": "9 February",
@@ -58,7 +21,7 @@
         }
       },
       "image": {
-        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/42/The_Beatles_1963_Dezo_Hoffman_Capitol_Records_press_photo_2.jpg/1280px-The_Beatles_1963_Dezo_Hoffman_Capitol_Records_press_photo_2.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/42/The_Beatles_1963_Dezo_Hoffman_Capitol_Records_press_photo_2.jpg/500px-The_Beatles_1963_Dezo_Hoffman_Capitol_Records_press_photo_2.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
         "alt": "Picture from the Wikipedia article on The Beatles.",
         "credit": "Dezo Hoffmann",
         "source": "https://commons.wikimedia.org/wiki/File:The_Beatles_1963_Dezo_Hoffman_Capitol_Records_press_photo_2.jpg",
@@ -85,39 +48,12 @@
         }
       },
       "image": {
-        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/59/Satchel_Paige_seated_next_to_bleachers_%281%29.jpg/1280px-Satchel_Paige_seated_next_to_bleachers_%281%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/59/Satchel_Paige_seated_next_to_bleachers_%281%29.jpg/500px-Satchel_Paige_seated_next_to_bleachers_%281%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
         "alt": "Picture from the Wikipedia article on Satchel Paige.",
         "credit": "Los Angeles Times",
         "source": "https://commons.wikimedia.org/wiki/File:Satchel_Paige_seated_next_to_bleachers_(1).jpg",
         "license": "CC BY 4.0",
         "licenseUrl": "https://creativecommons.org/licenses/by/4.0"
-      }
-    },
-    {
-      "id": "02-09-budd-company",
-      "date": "02-09",
-      "dateLabel": "9 February",
-      "category": "world",
-      "categoryName": "World",
-      "year": 1978,
-      "title": "Budd Company",
-      "body": "The Budd Company unveils its first SPV-2000 self-propelled railcar in Philadelphia, Pennsylvania.",
-      "source": {
-        "name": "Wikipedia · Budd Company",
-        "url": "https://en.wikipedia.org/wiki/Budd_Company",
-        "calendarUrl": "https://en.wikipedia.org/wiki/February_9",
-        "license": {
-          "name": "CC BY-SA 4.0",
-          "url": "https://creativecommons.org/licenses/by-sa/4.0/"
-        }
-      },
-      "image": {
-        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/0b/Budd_Mfg_Philly.JPG/1280px-Budd_Mfg_Philly.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-        "alt": "Picture from the Wikipedia article on Budd Company.",
-        "credit": "Smallbones",
-        "source": "https://commons.wikimedia.org/wiki/File:Budd_Mfg_Philly.JPG",
-        "license": "Public domain",
-        "licenseUrl": "https://commons.wikimedia.org/wiki/File:Budd_Mfg_Philly.JPG"
       }
     },
     {
@@ -139,12 +75,78 @@
         }
       },
       "image": {
-        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/2a/Lspn_comet_halley.jpg/1280px-Lspn_comet_halley.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/2a/Lspn_comet_halley.jpg/500px-Lspn_comet_halley.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
         "alt": "Picture from the Wikipedia article on Halley's Comet.",
         "credit": "NASA/W. Liller",
         "source": "https://commons.wikimedia.org/wiki/File:Lspn_comet_halley.jpg",
         "license": "Public domain",
         "licenseUrl": "https://commons.wikimedia.org/wiki/File:Lspn_comet_halley.jpg"
+      }
+    },
+    {
+      "id": "02-09-budd-company",
+      "date": "02-09",
+      "dateLabel": "9 February",
+      "category": "world",
+      "categoryName": "World",
+      "year": 1978,
+      "title": "Budd Company",
+      "body": "The Budd Company unveils its first SPV-2000 self-propelled railcar in Philadelphia, Pennsylvania.",
+      "source": {
+        "name": "Wikipedia · Budd Company",
+        "url": "https://en.wikipedia.org/wiki/Budd_Company",
+        "calendarUrl": "https://en.wikipedia.org/wiki/February_9",
+        "license": {
+          "name": "CC BY-SA 4.0",
+          "url": "https://creativecommons.org/licenses/by-sa/4.0/"
+        }
+      },
+      "image": {
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/0b/Budd_Mfg_Philly.JPG/500px-Budd_Mfg_Philly.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "alt": "Picture from the Wikipedia article on Budd Company.",
+        "credit": "Smallbones",
+        "source": "https://commons.wikimedia.org/wiki/File:Budd_Mfg_Philly.JPG",
+        "license": "Public domain",
+        "licenseUrl": "https://commons.wikimedia.org/wiki/File:Budd_Mfg_Philly.JPG"
+      }
+    },
+    {
+      "id": "02-09-apollo-14",
+      "date": "02-09",
+      "dateLabel": "9 February",
+      "category": "space",
+      "categoryName": "Space",
+      "year": 1971,
+      "title": "Apollo 14",
+      "body": "Apollo 14 returns to Earth after the third human Moon landing.",
+      "source": {
+        "name": "Wikipedia · Apollo 14",
+        "url": "https://en.wikipedia.org/wiki/Apollo_14",
+        "calendarUrl": "https://en.wikipedia.org/wiki/February_9",
+        "license": {
+          "name": "CC BY-SA 4.0",
+          "url": "https://creativecommons.org/licenses/by-sa/4.0/"
+        }
+      },
+      "video": {
+        "src": "https://upload.wikimedia.org/wikipedia/commons/transcoded/d/d7/Apollo_14_footage_of_the_astronauts_climbing_down_from_the_lunar_lander_and_planting_an_American_flag.ogv/Apollo_14_footage_of_the_astronauts_climbing_down_from_the_lunar_lander_and_planting_an_American_flag.ogv.240p.vp9.webm",
+        "fallback": "https://upload.wikimedia.org/wikipedia/commons/transcoded/d/d7/Apollo_14_footage_of_the_astronauts_climbing_down_from_the_lunar_lander_and_planting_an_American_flag.ogv/Apollo_14_footage_of_the_astronauts_climbing_down_from_the_lunar_lander_and_planting_an_American_flag.ogv.360p.mpeg4.mov",
+        "width": 322,
+        "height": 240,
+        "poster": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d7/Apollo_14_footage_of_the_astronauts_climbing_down_from_the_lunar_lander_and_planting_an_American_flag.ogv/960px--Apollo_14_footage_of_the_astronauts_climbing_down_from_the_lunar_lander_and_planting_an_American_flag.ogv.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo",
+        "seconds": 125,
+        "credit": "NASA/Johnson Space Center",
+        "source": "https://commons.wikimedia.org/wiki/File:Apollo_14_footage_of_the_astronauts_climbing_down_from_the_lunar_lander_and_planting_an_American_flag.ogv",
+        "license": "Public domain",
+        "licenseUrl": "https://commons.wikimedia.org/wiki/File:Apollo_14_footage_of_the_astronauts_climbing_down_from_the_lunar_lander_and_planting_an_American_flag.ogv"
+      },
+      "image": {
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/09/Apollo_14_Shepard.jpg/500px-Apollo_14_Shepard.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "alt": "Picture from the Wikipedia article on Apollo 14.",
+        "credit": "Edgar D. Mitchell / NASA",
+        "source": "https://commons.wikimedia.org/wiki/File:Apollo_14_Shepard.jpg",
+        "license": "Public domain",
+        "licenseUrl": "https://commons.wikimedia.org/wiki/File:Apollo_14_Shepard.jpg"
       }
     }
   ]

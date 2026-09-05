@@ -21,7 +21,7 @@
         }
       },
       "image": {
-        "src": "https://upload.wikimedia.org/wikipedia/commons/d/d4/Relay_1.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d4/Relay_1.jpg/500px-Relay_1.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
         "alt": "Picture from the Wikipedia article on Relay program.",
         "credit": "user:NH2501",
         "source": "https://commons.wikimedia.org/wiki/File:Relay_1.jpg",
@@ -48,66 +48,12 @@
         }
       },
       "image": {
-        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e4/Cernan_s71-51308.jpg/1280px-Cernan_s71-51308.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e4/Cernan_s71-51308.jpg/500px-Cernan_s71-51308.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
         "alt": "Picture from the Wikipedia article on Gene Cernan.",
         "credit": "NASA",
         "source": "https://commons.wikimedia.org/wiki/File:Cernan_s71-51308.jpg",
         "license": "Public domain",
         "licenseUrl": "https://commons.wikimedia.org/wiki/File:Cernan_s71-51308.jpg"
-      }
-    },
-    {
-      "id": "12-13-knesset",
-      "date": "12-13",
-      "dateLabel": "13 December",
-      "category": "world",
-      "categoryName": "World",
-      "year": 1949,
-      "title": "Knesset",
-      "body": "The Knesset votes to move the capital of Israel from Tel Aviv to Jerusalem.",
-      "source": {
-        "name": "Wikipedia · Knesset",
-        "url": "https://en.wikipedia.org/wiki/Knesset",
-        "calendarUrl": "https://en.wikipedia.org/wiki/December_13",
-        "license": {
-          "name": "CC BY-SA 4.0",
-          "url": "https://creativecommons.org/licenses/by-sa/4.0/"
-        }
-      },
-      "image": {
-        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/de/Israeli_Knesset_Current_Composition.svg/1280px-Israeli_Knesset_Current_Composition.svg.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-        "alt": "Picture from the Wikipedia article on Knesset.",
-        "credit": "User:אורי פרקש",
-        "source": "https://commons.wikimedia.org/wiki/File:Israeli_Knesset_Current_Composition.svg",
-        "license": "Public domain",
-        "licenseUrl": "https://commons.wikimedia.org/wiki/File:Israeli_Knesset_Current_Composition.svg"
-      }
-    },
-    {
-      "id": "12-13-chairman-of-the-palestine-liberation-organization",
-      "date": "12-13",
-      "dateLabel": "13 December",
-      "category": "world",
-      "categoryName": "World",
-      "year": 1988,
-      "title": "Chairman of the Palestine Liberation Organization",
-      "body": "PLO Chairman Yasser Arafat gives a speech at a UN General Assembly meeting in Geneva, Switzerland, after United States authorities refused to grant him a visa to visit UN headquarters in New York.",
-      "source": {
-        "name": "Wikipedia · Chairman of the Palestine Liberation Organization",
-        "url": "https://en.wikipedia.org/wiki/Chairman_of_the_Palestine_Liberation_Organization",
-        "calendarUrl": "https://en.wikipedia.org/wiki/December_13",
-        "license": {
-          "name": "CC BY-SA 4.0",
-          "url": "https://creativecommons.org/licenses/by-sa/4.0/"
-        }
-      },
-      "image": {
-        "src": "https://upload.wikimedia.org/wikipedia/commons/e/e5/Mahmoud_Abbas_2021_%28cropped%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
-        "alt": "Picture from the Wikipedia article on Chairman of the Palestine Liberation Organization.",
-        "credit": "Quirinale.it",
-        "source": "https://commons.wikimedia.org/wiki/File:Mahmoud_Abbas_2021_(cropped).jpg",
-        "license": "Attribution",
-        "licenseUrl": "https://commons.wikimedia.org/wiki/File:Mahmoud_Abbas_2021_(cropped).jpg"
       }
     },
     {
@@ -129,12 +75,66 @@
         }
       },
       "image": {
-        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/ef/Imperial_coat_of_arms_of_Ethiopia_%28Haile_Selassie%29.svg/1280px-Imperial_coat_of_arms_of_Ethiopia_%28Haile_Selassie%29.svg.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/ef/Imperial_coat_of_arms_of_Ethiopia_%28Haile_Selassie%29.svg/500px-Imperial_coat_of_arms_of_Ethiopia_%28Haile_Selassie%29.svg.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
         "alt": "Picture from the Wikipedia article on Emperor of Ethiopia.",
         "credit": "This SVG coat of arms includes elements",
         "source": "https://commons.wikimedia.org/wiki/File:Imperial_coat_of_arms_of_Ethiopia_(Haile_Selassie).svg",
         "license": "CC BY-SA 3.0",
         "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0"
+      }
+    },
+    {
+      "id": "12-13-chairman-of-the-palestine-liberation-organization",
+      "date": "12-13",
+      "dateLabel": "13 December",
+      "category": "world",
+      "categoryName": "World",
+      "year": 1988,
+      "title": "Chairman of the Palestine Liberation Organization",
+      "body": "PLO Chairman Yasser Arafat gives a speech at a UN General Assembly meeting in Geneva, Switzerland, after United States authorities refused to grant him a visa to visit UN headquarters in New York.",
+      "source": {
+        "name": "Wikipedia · Chairman of the Palestine Liberation Organization",
+        "url": "https://en.wikipedia.org/wiki/Chairman_of_the_Palestine_Liberation_Organization",
+        "calendarUrl": "https://en.wikipedia.org/wiki/December_13",
+        "license": {
+          "name": "CC BY-SA 4.0",
+          "url": "https://creativecommons.org/licenses/by-sa/4.0/"
+        }
+      },
+      "image": {
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e5/Mahmoud_Abbas_2021_%28cropped%29.jpg/500px-Mahmoud_Abbas_2021_%28cropped%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "alt": "Picture from the Wikipedia article on Chairman of the Palestine Liberation Organization.",
+        "credit": "Quirinale.it",
+        "source": "https://commons.wikimedia.org/wiki/File:Mahmoud_Abbas_2021_(cropped).jpg",
+        "license": "Attribution",
+        "licenseUrl": "https://commons.wikimedia.org/wiki/File:Mahmoud_Abbas_2021_(cropped).jpg"
+      }
+    },
+    {
+      "id": "12-13-knesset",
+      "date": "12-13",
+      "dateLabel": "13 December",
+      "category": "world",
+      "categoryName": "World",
+      "year": 1949,
+      "title": "Knesset",
+      "body": "The Knesset votes to move the capital of Israel from Tel Aviv to Jerusalem.",
+      "source": {
+        "name": "Wikipedia · Knesset",
+        "url": "https://en.wikipedia.org/wiki/Knesset",
+        "calendarUrl": "https://en.wikipedia.org/wiki/December_13",
+        "license": {
+          "name": "CC BY-SA 4.0",
+          "url": "https://creativecommons.org/licenses/by-sa/4.0/"
+        }
+      },
+      "image": {
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/de/Israeli_Knesset_Current_Composition.svg/500px-Israeli_Knesset_Current_Composition.svg.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "alt": "Picture from the Wikipedia article on Knesset.",
+        "credit": "User:אורי פרקש",
+        "source": "https://commons.wikimedia.org/wiki/File:Israeli_Knesset_Current_Composition.svg",
+        "license": "Public domain",
+        "licenseUrl": "https://commons.wikimedia.org/wiki/File:Israeli_Knesset_Current_Composition.svg"
       }
     }
   ]

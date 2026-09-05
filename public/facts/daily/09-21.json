@@ -3,6 +3,33 @@
   "dateLabel": "21 September",
   "facts": [
     {
+      "id": "09-21-j-r-r-tolkien",
+      "date": "09-21",
+      "dateLabel": "21 September",
+      "category": "world",
+      "categoryName": "World",
+      "year": 1937,
+      "title": "J. R. R. Tolkien",
+      "body": "J.R.R. Tolkien's The Hobbit is published for the first time. (September 22 is celebrated by some fans as Hobbit Day, however.)",
+      "source": {
+        "name": "Wikipedia · J. R. R. Tolkien",
+        "url": "https://en.wikipedia.org/wiki/J._R._R._Tolkien",
+        "calendarUrl": "https://en.wikipedia.org/wiki/September_21",
+        "license": {
+          "name": "CC BY-SA 4.0",
+          "url": "https://creativecommons.org/licenses/by-sa/4.0/"
+        }
+      },
+      "image": {
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d4/J._R._R._Tolkien%2C_ca._1925.jpg/500px-J._R._R._Tolkien%2C_ca._1925.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "alt": "Picture from the Wikipedia article on J. R. R. Tolkien.",
+        "credit": "Unknown photo studio commissioned",
+        "source": "https://commons.wikimedia.org/wiki/File:J._R._R._Tolkien,_ca._1925.jpg",
+        "license": "Public domain",
+        "licenseUrl": "https://commons.wikimedia.org/wiki/File:J._R._R._Tolkien,_ca._1925.jpg"
+      }
+    },
+    {
       "id": "09-21-galileo-spacecraft",
       "date": "09-21",
       "dateLabel": "21 September",
@@ -21,39 +48,12 @@
         }
       },
       "image": {
-        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/9c/Artwork_Galileo-Io-Jupiter.JPG/1280px-Artwork_Galileo-Io-Jupiter.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/9c/Artwork_Galileo-Io-Jupiter.JPG/500px-Artwork_Galileo-Io-Jupiter.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
         "alt": "Picture from the Wikipedia article on Galileo.",
         "credit": "NASA",
         "source": "https://commons.wikimedia.org/wiki/File:Artwork_Galileo-Io-Jupiter.JPG",
         "license": "Public domain",
         "licenseUrl": "https://commons.wikimedia.org/wiki/File:Artwork_Galileo-Io-Jupiter.JPG"
-      }
-    },
-    {
-      "id": "09-21-bahrain",
-      "date": "09-21",
-      "dateLabel": "21 September",
-      "category": "world",
-      "categoryName": "World",
-      "year": 1971,
-      "title": "Bahrain",
-      "body": "Bahrain, Bhutan and Qatar join the United Nations.",
-      "source": {
-        "name": "Wikipedia · Bahrain",
-        "url": "https://en.wikipedia.org/wiki/Bahrain",
-        "calendarUrl": "https://en.wikipedia.org/wiki/September_21",
-        "license": {
-          "name": "CC BY-SA 4.0",
-          "url": "https://creativecommons.org/licenses/by-sa/4.0/"
-        }
-      },
-      "image": {
-        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/2c/Flag_of_Bahrain.svg/1280px-Flag_of_Bahrain.svg.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-        "alt": "Picture from the Wikipedia article on Bahrain.",
-        "credit": "Drawn by SKopp, rewritten by Zscout370",
-        "source": "https://commons.wikimedia.org/wiki/File:Flag_of_Bahrain.svg",
-        "license": "Public domain",
-        "licenseUrl": "https://commons.wikimedia.org/wiki/File:Flag_of_Bahrain.svg"
       }
     },
     {
@@ -75,7 +75,7 @@
         }
       },
       "image": {
-        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b5/Wrestling_-_Sikeston%2C_MO_1938_-_1.jpg/1280px-Wrestling_-_Sikeston%2C_MO_1938_-_1.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b5/Wrestling_-_Sikeston%2C_MO_1938_-_1.jpg/500px-Wrestling_-_Sikeston%2C_MO_1938_-_1.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
         "alt": "Picture from the Wikipedia article on Salvador Lutteroth.",
         "credit": "Russell Lee",
         "source": "https://commons.wikimedia.org/wiki/File:Wrestling_-_Sikeston,_MO_1938_-_1.jpg",
@@ -84,17 +84,17 @@
       }
     },
     {
-      "id": "09-21-j-r-r-tolkien",
+      "id": "09-21-bahrain",
       "date": "09-21",
       "dateLabel": "21 September",
       "category": "world",
       "categoryName": "World",
-      "year": 1937,
-      "title": "J. R. R. Tolkien",
-      "body": "J.R.R. Tolkien's The Hobbit is published for the first time. (September 22 is celebrated by some fans as Hobbit Day, however.)",
+      "year": 1971,
+      "title": "Bahrain",
+      "body": "Bahrain, Bhutan and Qatar join the United Nations.",
       "source": {
-        "name": "Wikipedia · J. R. R. Tolkien",
-        "url": "https://en.wikipedia.org/wiki/J._R._R._Tolkien",
+        "name": "Wikipedia · Bahrain",
+        "url": "https://en.wikipedia.org/wiki/Bahrain",
         "calendarUrl": "https://en.wikipedia.org/wiki/September_21",
         "license": {
           "name": "CC BY-SA 4.0",
@@ -102,26 +102,26 @@
         }
       },
       "image": {
-        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d4/J._R._R._Tolkien%2C_ca._1925.jpg/1280px-J._R._R._Tolkien%2C_ca._1925.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-        "alt": "Picture from the Wikipedia article on J. R. R. Tolkien.",
-        "credit": "Unknown photo studio commissioned",
-        "source": "https://commons.wikimedia.org/wiki/File:J._R._R._Tolkien,_ca._1925.jpg",
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/2c/Flag_of_Bahrain.svg/500px-Flag_of_Bahrain.svg.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "alt": "Picture from the Wikipedia article on Bahrain.",
+        "credit": "Drawn by SKopp, rewritten by Zscout370",
+        "source": "https://commons.wikimedia.org/wiki/File:Flag_of_Bahrain.svg",
         "license": "Public domain",
-        "licenseUrl": "https://commons.wikimedia.org/wiki/File:J._R._R._Tolkien,_ca._1925.jpg"
+        "licenseUrl": "https://commons.wikimedia.org/wiki/File:Flag_of_Bahrain.svg"
       }
     },
     {
-      "id": "09-21-st-olaf-s-church-tyrv",
+      "id": "09-21-sandra-day-o-connor",
       "date": "09-21",
       "dateLabel": "21 September",
       "category": "world",
       "categoryName": "World",
-      "year": 1997,
-      "title": "St. Olaf's Church, Tyrvää",
-      "body": "St. Olaf's Church, a stone church from the 16th century in Tyrvää, Finland, is burnt down by a burglar.",
+      "year": 1981,
+      "title": "Sandra Day O'Connor",
+      "body": "Sandra Day O'Connor is unanimously approved by the U.S. Senate as the first female Supreme Court justice.",
       "source": {
-        "name": "Wikipedia · St. Olaf's Church, Tyrvää",
-        "url": "https://en.wikipedia.org/wiki/St._Olaf%27s_Church,_Tyrv%C3%A4%C3%A4",
+        "name": "Wikipedia · Sandra Day O'Connor",
+        "url": "https://en.wikipedia.org/wiki/Sandra_Day_O%27Connor",
         "calendarUrl": "https://en.wikipedia.org/wiki/September_21",
         "license": {
           "name": "CC BY-SA 4.0",
@@ -129,12 +129,12 @@
         }
       },
       "image": {
-        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/3e/Tyrv%C3%A4%C3%A4n_Pyh%C3%A4n_Olavin_Kirkko%2C_Sastamala.jpg/1280px-Tyrv%C3%A4%C3%A4n_Pyh%C3%A4n_Olavin_Kirkko%2C_Sastamala.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-        "alt": "Picture from the Wikipedia article on St. Olaf's Church, Tyrvää.",
-        "credit": "SpottingHistory",
-        "source": "https://commons.wikimedia.org/wiki/File:Tyrv%C3%A4%C3%A4n_Pyh%C3%A4n_Olavin_Kirkko,_Sastamala.jpg",
-        "license": "CC BY-SA 4.0",
-        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0"
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/00/Sandra_Day_O%27Connor.jpg/500px-Sandra_Day_O%27Connor.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "alt": "Picture from the Wikipedia article on Sandra Day O'Connor.",
+        "credit": "Library of Congress (Transferred",
+        "source": "https://commons.wikimedia.org/wiki/File:Sandra_Day_O%27Connor.jpg",
+        "license": "Public domain",
+        "licenseUrl": "https://commons.wikimedia.org/wiki/File:Sandra_Day_O%27Connor.jpg"
       }
     }
   ]

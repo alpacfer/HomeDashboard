@@ -3,6 +3,33 @@
   "dateLabel": "4 August",
   "facts": [
     {
+      "id": "08-04-republic-of-upper-volta",
+      "date": "08-04",
+      "dateLabel": "4 August",
+      "category": "world",
+      "categoryName": "World",
+      "year": 1984,
+      "title": "Republic of Upper Volta",
+      "body": "The Republic of Upper Volta changes its name to Burkina Faso.",
+      "source": {
+        "name": "Wikipedia · Republic of Upper Volta",
+        "url": "https://en.wikipedia.org/wiki/Republic_of_Upper_Volta",
+        "calendarUrl": "https://en.wikipedia.org/wiki/August_4",
+        "license": {
+          "name": "CC BY-SA 4.0",
+          "url": "https://creativecommons.org/licenses/by-sa/4.0/"
+        }
+      },
+      "image": {
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/4a/Flag_of_Upper_Volta.svg/500px-Flag_of_Upper_Volta.svg.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "alt": "Picture from the Wikipedia article on Republic of Upper Volta.",
+        "credit": "odder",
+        "source": "https://commons.wikimedia.org/wiki/File:Flag_of_Upper_Volta.svg",
+        "license": "Public domain",
+        "licenseUrl": "https://commons.wikimedia.org/wiki/File:Flag_of_Upper_Volta.svg"
+      }
+    },
+    {
       "id": "08-04-phoenix-spacecraft",
       "date": "08-04",
       "dateLabel": "4 August",
@@ -21,39 +48,12 @@
         }
       },
       "image": {
-        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/6a/Phoenix_landing.jpg/1280px-Phoenix_landing.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/6a/Phoenix_landing.jpg/500px-Phoenix_landing.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
         "alt": "Picture from the Wikipedia article on Phoenix.",
         "credit": "NASA/JPL/Corby Waste",
         "source": "https://commons.wikimedia.org/wiki/File:Phoenix_landing.jpg",
         "license": "Public domain",
         "licenseUrl": "https://commons.wikimedia.org/wiki/File:Phoenix_landing.jpg"
-      }
-    },
-    {
-      "id": "08-04-the-saturday-evening-post",
-      "date": "08-04",
-      "dateLabel": "4 August",
-      "category": "world",
-      "categoryName": "World",
-      "year": 1821,
-      "title": "The Saturday Evening Post",
-      "body": "The Saturday Evening Post is published for the first time as a weekly newspaper.",
-      "source": {
-        "name": "Wikipedia · The Saturday Evening Post",
-        "url": "https://en.wikipedia.org/wiki/The_Saturday_Evening_Post",
-        "calendarUrl": "https://en.wikipedia.org/wiki/August_4",
-        "license": {
-          "name": "CC BY-SA 4.0",
-          "url": "https://creativecommons.org/licenses/by-sa/4.0/"
-        }
-      },
-      "image": {
-        "src": "https://upload.wikimedia.org/wikipedia/commons/e/ed/Saturday_evening_post_1903_11_28_a.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
-        "alt": "Picture from the Wikipedia article on The Saturday Evening Post.",
-        "credit": "George Fort Gibbs",
-        "source": "https://commons.wikimedia.org/wiki/File:Saturday_evening_post_1903_11_28_a.jpg",
-        "license": "Public domain",
-        "licenseUrl": "https://commons.wikimedia.org/wiki/File:Saturday_evening_post_1903_11_28_a.jpg"
       }
     },
     {
@@ -75,7 +75,7 @@
         }
       },
       "image": {
-        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/23/Seal_of_the_Federal_Communications_Commission.svg/1280px-Seal_of_the_Federal_Communications_Commission.svg.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/23/Seal_of_the_Federal_Communications_Commission.svg/500px-Seal_of_the_Federal_Communications_Commission.svg.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
         "alt": "Picture from the Wikipedia article on Federal Communications Commission.",
         "credit": "Umasankar Arumugam",
         "source": "https://commons.wikimedia.org/wiki/File:Seal_of_the_Federal_Communications_Commission.svg",
@@ -84,17 +84,17 @@
       }
     },
     {
-      "id": "08-04-republic-of-upper-volta",
+      "id": "08-04-the-saturday-evening-post",
       "date": "08-04",
       "dateLabel": "4 August",
       "category": "world",
       "categoryName": "World",
-      "year": 1984,
-      "title": "Republic of Upper Volta",
-      "body": "The Republic of Upper Volta changes its name to Burkina Faso.",
+      "year": 1821,
+      "title": "The Saturday Evening Post",
+      "body": "The Saturday Evening Post is published for the first time as a weekly newspaper.",
       "source": {
-        "name": "Wikipedia · Republic of Upper Volta",
-        "url": "https://en.wikipedia.org/wiki/Republic_of_Upper_Volta",
+        "name": "Wikipedia · The Saturday Evening Post",
+        "url": "https://en.wikipedia.org/wiki/The_Saturday_Evening_Post",
         "calendarUrl": "https://en.wikipedia.org/wiki/August_4",
         "license": {
           "name": "CC BY-SA 4.0",
@@ -102,12 +102,12 @@
         }
       },
       "image": {
-        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/4a/Flag_of_Upper_Volta.svg/1280px-Flag_of_Upper_Volta.svg.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-        "alt": "Picture from the Wikipedia article on Republic of Upper Volta.",
-        "credit": "odder",
-        "source": "https://commons.wikimedia.org/wiki/File:Flag_of_Upper_Volta.svg",
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/ed/Saturday_evening_post_1903_11_28_a.jpg/500px-Saturday_evening_post_1903_11_28_a.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "alt": "Picture from the Wikipedia article on The Saturday Evening Post.",
+        "credit": "George Fort Gibbs",
+        "source": "https://commons.wikimedia.org/wiki/File:Saturday_evening_post_1903_11_28_a.jpg",
         "license": "Public domain",
-        "licenseUrl": "https://commons.wikimedia.org/wiki/File:Flag_of_Upper_Volta.svg"
+        "licenseUrl": "https://commons.wikimedia.org/wiki/File:Saturday_evening_post_1903_11_28_a.jpg"
       }
     },
     {
@@ -129,7 +129,7 @@
         }
       },
       "image": {
-        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/63/Flag_of_the_President_of_Uganda.svg/1280px-Flag_of_the_President_of_Uganda.svg.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/63/Flag_of_the_President_of_Uganda.svg/500px-Flag_of_the_President_of_Uganda.svg.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
         "alt": "Picture from the Wikipedia article on President of Uganda.",
         "credit": "Wikimedia Commons",
         "source": "https://commons.wikimedia.org/wiki/File:Flag_of_the_President_of_Uganda.svg",

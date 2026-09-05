@@ -3,6 +3,33 @@
   "dateLabel": "4 September",
   "facts": [
     {
+      "id": "09-04-larry-page",
+      "date": "09-04",
+      "dateLabel": "4 September",
+      "category": "tech",
+      "categoryName": "Tech",
+      "year": 1998,
+      "title": "Larry Page",
+      "body": "Google is founded by Larry Page and Sergey Brin, two PhD students at Stanford University.",
+      "source": {
+        "name": "Wikipedia · Larry Page",
+        "url": "https://en.wikipedia.org/wiki/Larry_Page",
+        "calendarUrl": "https://en.wikipedia.org/wiki/September_4",
+        "license": {
+          "name": "CC BY-SA 4.0",
+          "url": "https://creativecommons.org/licenses/by-sa/4.0/"
+        }
+      },
+      "image": {
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/2a/Larry_Page_in_the_European_Parliament%2C_17.06.2009_%28cropped_2%29.jpg/500px-Larry_Page_in_the_European_Parliament%2C_17.06.2009_%28cropped_2%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "alt": "Picture from the Wikipedia article on Larry Page.",
+        "credit": "Stansfield PL",
+        "source": "https://commons.wikimedia.org/wiki/File:Larry_Page_in_the_European_Parliament,_17.06.2009_(cropped_2).jpg",
+        "license": "CC BY-SA 3.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0"
+      }
+    },
+    {
       "id": "09-04-mark-spitz",
       "date": "09-04",
       "dateLabel": "4 September",
@@ -21,7 +48,7 @@
         }
       },
       "image": {
-        "src": "https://upload.wikimedia.org/wikipedia/commons/0/03/Mark_Spitz.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/03/Mark_Spitz.jpg/500px-Mark_Spitz.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
         "alt": "Picture from the Wikipedia article on Mark Spitz.",
         "credit": "Doha Stadium Plus Qatar Photograph…",
         "source": "https://commons.wikimedia.org/wiki/File:Mark_Spitz.jpg",
@@ -48,39 +75,12 @@
         }
       },
       "image": {
-        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/24/Blick_vom_City-Hochhaus_Leipzig_05.jpg/1280px-Blick_vom_City-Hochhaus_Leipzig_05.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/24/Blick_vom_City-Hochhaus_Leipzig_05.jpg/500px-Blick_vom_City-Hochhaus_Leipzig_05.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
         "alt": "Picture from the Wikipedia article on Leipzig.",
         "credit": "Derbrauni",
         "source": "https://commons.wikimedia.org/wiki/File:Blick_vom_City-Hochhaus_Leipzig_05.jpg",
         "license": "CC BY 4.0",
         "licenseUrl": "https://creativecommons.org/licenses/by/4.0"
-      }
-    },
-    {
-      "id": "09-04-larry-page",
-      "date": "09-04",
-      "dateLabel": "4 September",
-      "category": "tech",
-      "categoryName": "Tech",
-      "year": 1998,
-      "title": "Larry Page",
-      "body": "Google is founded by Larry Page and Sergey Brin, two PhD students at Stanford University.",
-      "source": {
-        "name": "Wikipedia · Larry Page",
-        "url": "https://en.wikipedia.org/wiki/Larry_Page",
-        "calendarUrl": "https://en.wikipedia.org/wiki/September_4",
-        "license": {
-          "name": "CC BY-SA 4.0",
-          "url": "https://creativecommons.org/licenses/by-sa/4.0/"
-        }
-      },
-      "image": {
-        "src": "https://upload.wikimedia.org/wikipedia/commons/2/2a/Larry_Page_in_the_European_Parliament%2C_17.06.2009_%28cropped_2%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
-        "alt": "Picture from the Wikipedia article on Larry Page.",
-        "credit": "Stansfield PL",
-        "source": "https://commons.wikimedia.org/wiki/File:Larry_Page_in_the_European_Parliament,_17.06.2009_(cropped_2).jpg",
-        "license": "CC BY-SA 3.0",
-        "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0"
       }
     },
     {
@@ -102,7 +102,7 @@
         }
       },
       "image": {
-        "src": "https://upload.wikimedia.org/wikipedia/commons/8/85/C60-Fulleren-kristallin.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/85/C60-Fulleren-kristallin.JPG/500px-C60-Fulleren-kristallin.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
         "alt": "Picture from the Wikipedia article on Buckminsterfullerene.",
         "credit": "Jochen Gschnaller",
         "source": "https://commons.wikimedia.org/wiki/File:C60-Fulleren-kristallin.JPG",
@@ -129,7 +129,7 @@
         }
       },
       "image": {
-        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/3c/Tokyo_DisneySea_logo.svg/1280px-Tokyo_DisneySea_logo.svg.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/3c/Tokyo_DisneySea_logo.svg/500px-Tokyo_DisneySea_logo.svg.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
         "alt": "Picture from the Wikipedia article on Tokyo DisneySea.",
         "credit": "Disney Enterprises, Inc",
         "source": "https://commons.wikimedia.org/wiki/File:Tokyo_DisneySea_logo.svg",

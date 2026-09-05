@@ -3,60 +3,6 @@
   "dateLabel": "19 June",
   "facts": [
     {
-      "id": "06-19-patent",
-      "date": "06-19",
-      "dateLabel": "19 June",
-      "category": "science",
-      "categoryName": "Science",
-      "year": 2018,
-      "title": "Patent",
-      "body": "The 10,000,000th United States Patent is issued.",
-      "source": {
-        "name": "Wikipedia · Patent",
-        "url": "https://en.wikipedia.org/wiki/Patent",
-        "calendarUrl": "https://en.wikipedia.org/wiki/June_19",
-        "license": {
-          "name": "CC BY-SA 4.0",
-          "url": "https://creativecommons.org/licenses/by-sa/4.0/"
-        }
-      },
-      "image": {
-        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f5/US_Patent_cover_%28US_Patent_5%2C860%2C492%29.jpg/1280px-US_Patent_cover_%28US_Patent_5%2C860%2C492%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-        "alt": "Picture from the Wikipedia article on Patent.",
-        "credit": "USPTO",
-        "source": "https://commons.wikimedia.org/wiki/File:US_Patent_cover_(US_Patent_5,860,492).jpg",
-        "license": "Public domain",
-        "licenseUrl": "https://commons.wikimedia.org/wiki/File:US_Patent_cover_(US_Patent_5,860,492).jpg"
-      }
-    },
-    {
-      "id": "06-19-kuwait",
-      "date": "06-19",
-      "dateLabel": "19 June",
-      "category": "world",
-      "categoryName": "World",
-      "year": 1961,
-      "title": "Kuwait",
-      "body": "Kuwait declares independence from the United Kingdom.",
-      "source": {
-        "name": "Wikipedia · Kuwait",
-        "url": "https://en.wikipedia.org/wiki/Kuwait",
-        "calendarUrl": "https://en.wikipedia.org/wiki/June_19",
-        "license": {
-          "name": "CC BY-SA 4.0",
-          "url": "https://creativecommons.org/licenses/by-sa/4.0/"
-        }
-      },
-      "image": {
-        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/aa/Flag_of_Kuwait.svg/1280px-Flag_of_Kuwait.svg.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-        "alt": "Picture from the Wikipedia article on Kuwait.",
-        "credit": "Wikimedia Commons",
-        "source": "https://commons.wikimedia.org/wiki/File:Flag_of_Kuwait.svg",
-        "license": "Public domain",
-        "licenseUrl": "https://commons.wikimedia.org/wiki/File:Flag_of_Kuwait.svg"
-      }
-    },
-    {
       "id": "06-19-king-roger-opera",
       "date": "06-19",
       "dateLabel": "19 June",
@@ -75,39 +21,12 @@
         }
       },
       "image": {
-        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/9b/Karol_Szymanowski.jpg/1280px-Karol_Szymanowski.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/9b/Karol_Szymanowski.jpg/500px-Karol_Szymanowski.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
         "alt": "Picture from the Wikipedia article on King Roger.",
         "credit": "George Grantham Bain Collection",
         "source": "https://commons.wikimedia.org/wiki/File:Karol_Szymanowski.jpg",
         "license": "Public domain",
         "licenseUrl": "https://commons.wikimedia.org/wiki/File:Karol_Szymanowski.jpg"
-      }
-    },
-    {
-      "id": "06-19-people-s-armed-police",
-      "date": "06-19",
-      "dateLabel": "19 June",
-      "category": "world",
-      "categoryName": "World",
-      "year": 1982,
-      "title": "People's Armed Police",
-      "body": "The People's Armed Police is de facto founded; it is officially established 10 months later on April 5, 1983.",
-      "source": {
-        "name": "Wikipedia · People's Armed Police",
-        "url": "https://en.wikipedia.org/wiki/People%27s_Armed_Police",
-        "calendarUrl": "https://en.wikipedia.org/wiki/June_19",
-        "license": {
-          "name": "CC BY-SA 4.0",
-          "url": "https://creativecommons.org/licenses/by-sa/4.0/"
-        }
-      },
-      "image": {
-        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d0/People%27s_Armed_Police_Flag.svg/1280px-People%27s_Armed_Police_Flag.svg.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-        "alt": "Picture from the Wikipedia article on People's Armed Police.",
-        "credit": "Wikimedia Commons",
-        "source": "https://commons.wikimedia.org/wiki/File:People%27s_Armed_Police_Flag.svg",
-        "license": "Public domain",
-        "licenseUrl": "https://commons.wikimedia.org/wiki/File:People%27s_Armed_Police_Flag.svg"
       }
     },
     {
@@ -129,12 +48,93 @@
         }
       },
       "image": {
-        "src": "https://upload.wikimedia.org/wikipedia/commons/e/ed/Josephus_Laurentius_Dyckmans_-_Paternal_advice.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/ed/Josephus_Laurentius_Dyckmans_-_Paternal_advice.jpg/500px-Josephus_Laurentius_Dyckmans_-_Paternal_advice.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
         "alt": "Picture from the Wikipedia article on Father's Day.",
         "credit": "Josephus Laurentius Dyckmans",
         "source": "https://commons.wikimedia.org/wiki/File:Josephus_Laurentius_Dyckmans_-_Paternal_advice.jpg",
         "license": "Public domain",
         "licenseUrl": "https://commons.wikimedia.org/wiki/File:Josephus_Laurentius_Dyckmans_-_Paternal_advice.jpg"
+      }
+    },
+    {
+      "id": "06-19-patent",
+      "date": "06-19",
+      "dateLabel": "19 June",
+      "category": "science",
+      "categoryName": "Science",
+      "year": 2018,
+      "title": "Patent",
+      "body": "The 10,000,000th United States Patent is issued.",
+      "source": {
+        "name": "Wikipedia · Patent",
+        "url": "https://en.wikipedia.org/wiki/Patent",
+        "calendarUrl": "https://en.wikipedia.org/wiki/June_19",
+        "license": {
+          "name": "CC BY-SA 4.0",
+          "url": "https://creativecommons.org/licenses/by-sa/4.0/"
+        }
+      },
+      "image": {
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f5/US_Patent_cover_%28US_Patent_5%2C860%2C492%29.jpg/500px-US_Patent_cover_%28US_Patent_5%2C860%2C492%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "alt": "Picture from the Wikipedia article on Patent.",
+        "credit": "USPTO",
+        "source": "https://commons.wikimedia.org/wiki/File:US_Patent_cover_(US_Patent_5,860,492).jpg",
+        "license": "Public domain",
+        "licenseUrl": "https://commons.wikimedia.org/wiki/File:US_Patent_cover_(US_Patent_5,860,492).jpg"
+      }
+    },
+    {
+      "id": "06-19-charlotte-motor-speedway",
+      "date": "06-19",
+      "dateLabel": "19 June",
+      "category": "world",
+      "categoryName": "World",
+      "year": 1960,
+      "title": "Charlotte Motor Speedway",
+      "body": "Charlotte Motor Speedway holds its first NASCAR race, the inaugural World 600.",
+      "source": {
+        "name": "Wikipedia · Charlotte Motor Speedway",
+        "url": "https://en.wikipedia.org/wiki/Charlotte_Motor_Speedway",
+        "calendarUrl": "https://en.wikipedia.org/wiki/June_19",
+        "license": {
+          "name": "CC BY-SA 4.0",
+          "url": "https://creativecommons.org/licenses/by-sa/4.0/"
+        }
+      },
+      "image": {
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/71/Charlotte_Motor_Speedway_February_2024.png/500px-Charlotte_Motor_Speedway_February_2024.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "alt": "Picture from the Wikipedia article on Charlotte Motor Speedway.",
+        "credit": "Mblock150",
+        "source": "https://commons.wikimedia.org/wiki/File:Charlotte_Motor_Speedway_February_2024.png",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0"
+      }
+    },
+    {
+      "id": "06-19-kuwait",
+      "date": "06-19",
+      "dateLabel": "19 June",
+      "category": "world",
+      "categoryName": "World",
+      "year": 1961,
+      "title": "Kuwait",
+      "body": "Kuwait declares independence from the United Kingdom.",
+      "source": {
+        "name": "Wikipedia · Kuwait",
+        "url": "https://en.wikipedia.org/wiki/Kuwait",
+        "calendarUrl": "https://en.wikipedia.org/wiki/June_19",
+        "license": {
+          "name": "CC BY-SA 4.0",
+          "url": "https://creativecommons.org/licenses/by-sa/4.0/"
+        }
+      },
+      "image": {
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/aa/Flag_of_Kuwait.svg/500px-Flag_of_Kuwait.svg.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "alt": "Picture from the Wikipedia article on Kuwait.",
+        "credit": "Wikimedia Commons",
+        "source": "https://commons.wikimedia.org/wiki/File:Flag_of_Kuwait.svg",
+        "license": "Public domain",
+        "licenseUrl": "https://commons.wikimedia.org/wiki/File:Flag_of_Kuwait.svg"
       }
     }
   ]

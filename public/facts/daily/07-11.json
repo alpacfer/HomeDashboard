@@ -3,33 +3,6 @@
   "dateLabel": "11 July",
   "facts": [
     {
-      "id": "07-11-world-chess-championship-1972",
-      "date": "07-11",
-      "dateLabel": "11 July",
-      "category": "sport",
-      "categoryName": "Sport",
-      "year": 1972,
-      "title": "World Chess Championship 1972",
-      "body": "The first game of the World Chess Championship 1972 between challenger Bobby Fischer and defending champion Boris Spassky starts.",
-      "source": {
-        "name": "Wikipedia · World Chess Championship 1972",
-        "url": "https://en.wikipedia.org/wiki/World_Chess_Championship_1972",
-        "calendarUrl": "https://en.wikipedia.org/wiki/July_11",
-        "license": {
-          "name": "CC BY-SA 4.0",
-          "url": "https://creativecommons.org/licenses/by-sa/4.0/"
-        }
-      },
-      "image": {
-        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/ab/Eerste_ronde_IBM-schaaktoernooi%2C_Boris_Spasski%2C_Bestanddeelnr_926-5521.jpg/1280px-Eerste_ronde_IBM-schaaktoernooi%2C_Boris_Spasski%2C_Bestanddeelnr_926-5521.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-        "alt": "Picture from the Wikipedia article on World Chess Championship 1972.",
-        "credit": "Rob Croes / Anefo",
-        "source": "https://commons.wikimedia.org/wiki/File:Eerste_ronde_IBM-schaaktoernooi,_Boris_Spasski,_Bestanddeelnr_926-5521.jpg",
-        "license": "CC0",
-        "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/deed.en"
-      }
-    },
-    {
       "id": "07-11-joaqu-n-el-chapo-guzm-n",
       "date": "07-11",
       "dateLabel": "11 July",
@@ -48,39 +21,12 @@
         }
       },
       "image": {
-        "src": "https://upload.wikimedia.org/wikipedia/commons/8/80/Booking_photo_of_Joaquin_%E2%80%9CEl_Chapo%E2%80%9C_Guzman_%28front%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/80/Booking_photo_of_Joaquin_%E2%80%9CEl_Chapo%E2%80%9C_Guzman_%28front%29.jpg/500px-Booking_photo_of_Joaquin_%E2%80%9CEl_Chapo%E2%80%9C_Guzman_%28front%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
         "alt": "Picture from the Wikipedia article on El Chapo.",
         "credit": "DEA",
         "source": "https://commons.wikimedia.org/wiki/File:Booking_photo_of_Joaquin_%E2%80%9CEl_Chapo%E2%80%9C_Guzman_(front).jpg",
         "license": "Public domain",
         "licenseUrl": "https://commons.wikimedia.org/wiki/File:Booking_photo_of_Joaquin_%E2%80%9CEl_Chapo%E2%80%9C_Guzman_(front).jpg"
-      }
-    },
-    {
-      "id": "07-11-skylab",
-      "date": "07-11",
-      "dateLabel": "11 July",
-      "category": "space",
-      "categoryName": "Space",
-      "year": 1979,
-      "title": "Skylab",
-      "body": "America's first space station, Skylab, is destroyed as it re-enters the Earth's atmosphere over the Indian Ocean.",
-      "source": {
-        "name": "Wikipedia · Skylab",
-        "url": "https://en.wikipedia.org/wiki/Skylab",
-        "calendarUrl": "https://en.wikipedia.org/wiki/July_11",
-        "license": {
-          "name": "CC BY-SA 4.0",
-          "url": "https://creativecommons.org/licenses/by-sa/4.0/"
-        }
-      },
-      "image": {
-        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/07/Skylab_%28SL-4%29.jpg/1280px-Skylab_%28SL-4%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-        "alt": "Picture from the Wikipedia article on Skylab.",
-        "credit": "NASA",
-        "source": "https://commons.wikimedia.org/wiki/File:Skylab_(SL-4).jpg",
-        "license": "Public domain",
-        "licenseUrl": "https://commons.wikimedia.org/wiki/File:Skylab_(SL-4).jpg"
       }
     },
     {
@@ -102,12 +48,66 @@
         }
       },
       "image": {
-        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/ec/Hollywood_Bowl_2024.jpg/1280px-Hollywood_Bowl_2024.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/ec/Hollywood_Bowl_2024.jpg/500px-Hollywood_Bowl_2024.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
         "alt": "Picture from the Wikipedia article on Hollywood Bowl.",
         "credit": "Edwardrhodes06",
         "source": "https://commons.wikimedia.org/wiki/File:Hollywood_Bowl_2024.jpg",
         "license": "CC BY-SA 4.0",
         "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0"
+      }
+    },
+    {
+      "id": "07-11-skylab",
+      "date": "07-11",
+      "dateLabel": "11 July",
+      "category": "space",
+      "categoryName": "Space",
+      "year": 1979,
+      "title": "Skylab",
+      "body": "America's first space station, Skylab, is destroyed as it re-enters the Earth's atmosphere over the Indian Ocean.",
+      "source": {
+        "name": "Wikipedia · Skylab",
+        "url": "https://en.wikipedia.org/wiki/Skylab",
+        "calendarUrl": "https://en.wikipedia.org/wiki/July_11",
+        "license": {
+          "name": "CC BY-SA 4.0",
+          "url": "https://creativecommons.org/licenses/by-sa/4.0/"
+        }
+      },
+      "image": {
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/07/Skylab_%28SL-4%29.jpg/500px-Skylab_%28SL-4%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "alt": "Picture from the Wikipedia article on Skylab.",
+        "credit": "NASA",
+        "source": "https://commons.wikimedia.org/wiki/File:Skylab_(SL-4).jpg",
+        "license": "Public domain",
+        "licenseUrl": "https://commons.wikimedia.org/wiki/File:Skylab_(SL-4).jpg"
+      }
+    },
+    {
+      "id": "07-11-world-chess-championship-1972",
+      "date": "07-11",
+      "dateLabel": "11 July",
+      "category": "sport",
+      "categoryName": "Sport",
+      "year": 1972,
+      "title": "World Chess Championship 1972",
+      "body": "The first game of the World Chess Championship 1972 between challenger Bobby Fischer and defending champion Boris Spassky starts.",
+      "source": {
+        "name": "Wikipedia · World Chess Championship 1972",
+        "url": "https://en.wikipedia.org/wiki/World_Chess_Championship_1972",
+        "calendarUrl": "https://en.wikipedia.org/wiki/July_11",
+        "license": {
+          "name": "CC BY-SA 4.0",
+          "url": "https://creativecommons.org/licenses/by-sa/4.0/"
+        }
+      },
+      "image": {
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/ab/Eerste_ronde_IBM-schaaktoernooi%2C_Boris_Spasski%2C_Bestanddeelnr_926-5521.jpg/500px-Eerste_ronde_IBM-schaaktoernooi%2C_Boris_Spasski%2C_Bestanddeelnr_926-5521.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "alt": "Picture from the Wikipedia article on World Chess Championship 1972.",
+        "credit": "Rob Croes / Anefo",
+        "source": "https://commons.wikimedia.org/wiki/File:Eerste_ronde_IBM-schaaktoernooi,_Boris_Spasski,_Bestanddeelnr_926-5521.jpg",
+        "license": "CC0",
+        "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/deed.en"
       }
     },
     {
@@ -129,7 +129,7 @@
         }
       },
       "image": {
-        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/9b/Lunar_orbit_rendezvous.svg/1280px-Lunar_orbit_rendezvous.svg.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/9b/Lunar_orbit_rendezvous.svg/500px-Lunar_orbit_rendezvous.svg.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
         "alt": "Picture from the Wikipedia article on Lunar orbit rendezvous.",
         "credit": "Jooja",
         "source": "https://commons.wikimedia.org/wiki/File:Lunar_orbit_rendezvous.svg",

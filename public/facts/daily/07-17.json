@@ -21,12 +21,39 @@
         }
       },
       "image": {
-        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/fa/Soyuz_MS.jpg/1280px-Soyuz_MS.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/fa/Soyuz_MS.jpg/500px-Soyuz_MS.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
         "alt": "Picture from the Wikipedia article on Soyuz.",
         "credit": "CactiStaccingCrane",
         "source": "https://commons.wikimedia.org/wiki/File:Soyuz_MS.jpg",
         "license": "CC0",
         "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/deed.en"
+      }
+    },
+    {
+      "id": "07-17-east-timor",
+      "date": "07-17",
+      "dateLabel": "17 July",
+      "category": "world",
+      "categoryName": "World",
+      "year": 1976,
+      "title": "Timor-Leste",
+      "body": "East Timor is annexed and becomes the 27th province of Indonesia.",
+      "source": {
+        "name": "Wikipedia · Timor-Leste",
+        "url": "https://en.wikipedia.org/wiki/Timor-Leste",
+        "calendarUrl": "https://en.wikipedia.org/wiki/July_17",
+        "license": {
+          "name": "CC BY-SA 4.0",
+          "url": "https://creativecommons.org/licenses/by-sa/4.0/"
+        }
+      },
+      "image": {
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/26/Flag_of_East_Timor.svg/500px-Flag_of_East_Timor.svg.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "alt": "Picture from the Wikipedia article on Timor-Leste.",
+        "credit": "See File history, below, for details",
+        "source": "https://commons.wikimedia.org/wiki/File:Flag_of_East_Timor.svg",
+        "license": "Public domain",
+        "licenseUrl": "https://commons.wikimedia.org/wiki/File:Flag_of_East_Timor.svg"
       }
     },
     {
@@ -48,7 +75,7 @@
         }
       },
       "image": {
-        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/02/King_George_I_by_Sir_Godfrey_Kneller%2C_Bt_%283%29.jpg/1280px-King_George_I_by_Sir_Godfrey_Kneller%2C_Bt_%283%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/02/King_George_I_by_Sir_Godfrey_Kneller%2C_Bt_%283%29.jpg/500px-King_George_I_by_Sir_Godfrey_Kneller%2C_Bt_%283%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
         "alt": "Picture from the Wikipedia article on George I of Great Britain.",
         "credit": "Workshop of Godfrey Kneller",
         "source": "https://commons.wikimedia.org/wiki/File:King_George_I_by_Sir_Godfrey_Kneller,_Bt_(3).jpg",
@@ -75,7 +102,7 @@
         }
       },
       "image": {
-        "src": "https://upload.wikimedia.org/wikipedia/commons/8/8a/Portrait_of_King_Zahir_Shah_of_Afghanistan_in_1963.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/8a/Portrait_of_King_Zahir_Shah_of_Afghanistan_in_1963.jpg/500px-Portrait_of_King_Zahir_Shah_of_Afghanistan_in_1963.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
         "alt": "Picture from the Wikipedia article on Mohammad Zahir Shah.",
         "credit": "Unknown author",
         "source": "https://commons.wikimedia.org/wiki/File:Portrait_of_King_Zahir_Shah_of_Afghanistan_in_1963.jpg",
@@ -102,39 +129,12 @@
         }
       },
       "image": {
-        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/9d/Lyra_constellation_map.svg/1280px-Lyra_constellation_map.svg.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/9d/Lyra_constellation_map.svg/500px-Lyra_constellation_map.svg.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
         "alt": "Picture from the Wikipedia article on Vega.",
         "credit": "Wikimedia Commons",
         "source": "https://commons.wikimedia.org/wiki/File:Lyra_constellation_map.svg",
         "license": "CC BY-SA 3.0",
         "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0/"
-      }
-    },
-    {
-      "id": "07-17-east-timor",
-      "date": "07-17",
-      "dateLabel": "17 July",
-      "category": "world",
-      "categoryName": "World",
-      "year": 1976,
-      "title": "Timor-Leste",
-      "body": "East Timor is annexed and becomes the 27th province of Indonesia.",
-      "source": {
-        "name": "Wikipedia · Timor-Leste",
-        "url": "https://en.wikipedia.org/wiki/Timor-Leste",
-        "calendarUrl": "https://en.wikipedia.org/wiki/July_17",
-        "license": {
-          "name": "CC BY-SA 4.0",
-          "url": "https://creativecommons.org/licenses/by-sa/4.0/"
-        }
-      },
-      "image": {
-        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/26/Flag_of_East_Timor.svg/1280px-Flag_of_East_Timor.svg.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-        "alt": "Picture from the Wikipedia article on Timor-Leste.",
-        "credit": "See File history, below, for details",
-        "source": "https://commons.wikimedia.org/wiki/File:Flag_of_East_Timor.svg",
-        "license": "Public domain",
-        "licenseUrl": "https://commons.wikimedia.org/wiki/File:Flag_of_East_Timor.svg"
       }
     }
   ]

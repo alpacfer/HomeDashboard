@@ -21,7 +21,7 @@
         }
       },
       "image": {
-        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/dd/SpaceX_Demo-2_Launch_%28NHQ202005300044%29.jpg/1280px-SpaceX_Demo-2_Launch_%28NHQ202005300044%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/dd/SpaceX_Demo-2_Launch_%28NHQ202005300044%29.jpg/500px-SpaceX_Demo-2_Launch_%28NHQ202005300044%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
         "alt": "Picture from the Wikipedia article on Crew Dragon Demo-2.",
         "credit": "Joel Kowsky",
         "source": "https://commons.wikimedia.org/wiki/File:SpaceX_Demo-2_Launch_(NHQ202005300044).jpg",
@@ -75,7 +75,7 @@
         }
       },
       "image": {
-        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/13/Smetana_LCCN2014716851_%28cropped%29.jpg/1280px-Smetana_LCCN2014716851_%28cropped%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/13/Smetana_LCCN2014716851_%28cropped%29.jpg/500px-Smetana_LCCN2014716851_%28cropped%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
         "alt": "Picture from the Wikipedia article on Bedřich Smetana.",
         "credit": "Bain News Service, publisher",
         "source": "https://commons.wikimedia.org/wiki/File:Smetana_LCCN2014716851_(cropped).jpg",
@@ -102,7 +102,7 @@
         }
       },
       "image": {
-        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/11/Mariner09.jpg/1280px-Mariner09.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/11/Mariner09.jpg/500px-Mariner09.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
         "alt": "Picture from the Wikipedia article on Mariner 9.",
         "credit": "NASA",
         "source": "https://commons.wikimedia.org/wiki/File:Mariner09.jpg",
@@ -111,17 +111,17 @@
       }
     },
     {
-      "id": "05-30-auckland-harbour-bridge",
+      "id": "05-30-european-space-agency",
       "date": "05-30",
       "dateLabel": "30 May",
       "category": "world",
       "categoryName": "World",
-      "year": 1959,
-      "title": "Auckland Harbour Bridge",
-      "body": "The Auckland Harbour Bridge, crossing the Waitemata Harbour in Auckland, New Zealand, is officially opened by Governor-General Charles Lyttelton, 10th Viscount Cobham.",
+      "year": 1975,
+      "title": "European Space Agency",
+      "body": "The European Space Agency is established.",
       "source": {
-        "name": "Wikipedia · Auckland Harbour Bridge",
-        "url": "https://en.wikipedia.org/wiki/Auckland_Harbour_Bridge",
+        "name": "Wikipedia · European Space Agency",
+        "url": "https://en.wikipedia.org/wiki/European_Space_Agency",
         "calendarUrl": "https://en.wikipedia.org/wiki/May_30",
         "license": {
           "name": "CC BY-SA 4.0",
@@ -129,12 +129,12 @@
         }
       },
       "image": {
-        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/bc/Auckland_Harbour_Bridge_-_August_2024.jpg/1280px-Auckland_Harbour_Bridge_-_August_2024.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-        "alt": "Picture from the Wikipedia article on Auckland Harbour Bridge.",
-        "credit": "MrSeabody",
-        "source": "https://commons.wikimedia.org/wiki/File:Auckland_Harbour_Bridge_-_August_2024.jpg",
-        "license": "CC0",
-        "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/deed.en"
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/96/ESA_Headquarters_in_Paris.jpg/500px-ESA_Headquarters_in_Paris.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "alt": "Picture from the Wikipedia article on European Space Agency.",
+        "credit": "ESA/P. Sebirot, CC BY-SA 3.0 IGO",
+        "source": "https://commons.wikimedia.org/wiki/File:ESA_Headquarters_in_Paris.jpg",
+        "license": "CC BY-SA 3.0 igo",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0/igo/deed.en"
       }
     }
   ]

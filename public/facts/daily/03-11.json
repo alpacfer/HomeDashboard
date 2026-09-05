@@ -3,33 +3,6 @@
   "dateLabel": "11 March",
   "facts": [
     {
-      "id": "03-11-bob-hawke",
-      "date": "03-11",
-      "dateLabel": "11 March",
-      "category": "world",
-      "categoryName": "World",
-      "year": 1983,
-      "title": "Bob Hawke",
-      "body": "Bob Hawke is appointed Prime Minister of Australia.",
-      "source": {
-        "name": "Wikipedia · Bob Hawke",
-        "url": "https://en.wikipedia.org/wiki/Bob_Hawke",
-        "calendarUrl": "https://en.wikipedia.org/wiki/March_11",
-        "license": {
-          "name": "CC BY-SA 4.0",
-          "url": "https://creativecommons.org/licenses/by-sa/4.0/"
-        }
-      },
-      "image": {
-        "src": "https://upload.wikimedia.org/wikipedia/commons/0/00/Bob_Hawke-1983.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
-        "alt": "Picture from the Wikipedia article on Bob Hawke.",
-        "credit": "© Commonwealth of Australia 2011",
-        "source": "https://commons.wikimedia.org/wiki/File:Bob_Hawke-1983.jpg",
-        "license": "CC BY-SA 3.0 au",
-        "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0/au/deed.en"
-      }
-    },
-    {
       "id": "03-11-space-shuttle-endeavour",
       "date": "03-11",
       "dateLabel": "11 March",
@@ -48,66 +21,12 @@
         }
       },
       "image": {
-        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/65/STS-123_Dextre%26Kibo_ELM-PS_in_orbit_%28cropped%29.jpg/1280px-STS-123_Dextre%26Kibo_ELM-PS_in_orbit_%28cropped%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/65/STS-123_Dextre%26Kibo_ELM-PS_in_orbit_%28cropped%29.jpg/500px-STS-123_Dextre%26Kibo_ELM-PS_in_orbit_%28cropped%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
         "alt": "Picture from the Wikipedia article on Space Shuttle Endeavour.",
         "credit": "NASA",
         "source": "https://commons.wikimedia.org/wiki/File:STS-123_Dextre%26Kibo_ELM-PS_in_orbit_(cropped).jpg",
         "license": "Public domain",
         "licenseUrl": "https://commons.wikimedia.org/wiki/File:STS-123_Dextre%26Kibo_ELM-PS_in_orbit_(cropped).jpg"
-      }
-    },
-    {
-      "id": "03-11-patricio-aylwin",
-      "date": "03-11",
-      "dateLabel": "11 March",
-      "category": "world",
-      "categoryName": "World",
-      "year": 1990,
-      "title": "Patricio Aylwin",
-      "body": "Patricio Aylwin is sworn in as the first democratically elected President of Chile since 1970.",
-      "source": {
-        "name": "Wikipedia · Patricio Aylwin",
-        "url": "https://en.wikipedia.org/wiki/Patricio_Aylwin",
-        "calendarUrl": "https://en.wikipedia.org/wiki/March_11",
-        "license": {
-          "name": "CC BY-SA 4.0",
-          "url": "https://creativecommons.org/licenses/by-sa/4.0/"
-        }
-      },
-      "image": {
-        "src": "https://upload.wikimedia.org/wikipedia/commons/d/d9/Aylwin_Banda_%282%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
-        "alt": "Picture from the Wikipedia article on Patricio Aylwin.",
-        "credit": "Biblioteca del Congreso Nacional",
-        "source": "https://commons.wikimedia.org/wiki/File:Aylwin_Banda_(2).jpg",
-        "license": "CC BY 3.0 cl",
-        "licenseUrl": "https://creativecommons.org/licenses/by/3.0/cl/deed.en"
-      }
-    },
-    {
-      "id": "03-11-michelle-bachelet",
-      "date": "03-11",
-      "dateLabel": "11 March",
-      "category": "world",
-      "categoryName": "World",
-      "year": 2006,
-      "title": "Michelle Bachelet",
-      "body": "Michelle Bachelet is inaugurated as the first female president of Chile.",
-      "source": {
-        "name": "Wikipedia · Michelle Bachelet",
-        "url": "https://en.wikipedia.org/wiki/Michelle_Bachelet",
-        "calendarUrl": "https://en.wikipedia.org/wiki/March_11",
-        "license": {
-          "name": "CC BY-SA 4.0",
-          "url": "https://creativecommons.org/licenses/by-sa/4.0/"
-        }
-      },
-      "image": {
-        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/02/Portrait_Michelle_Bachelet.jpg/1280px-Portrait_Michelle_Bachelet.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-        "alt": "Picture from the Wikipedia article on Michelle Bachelet.",
-        "credit": "Estado de Chile",
-        "source": "https://commons.wikimedia.org/wiki/File:Portrait_Michelle_Bachelet.jpg",
-        "license": "CC BY 3.0 cl",
-        "licenseUrl": "https://creativecommons.org/licenses/by/3.0/cl/deed.en"
       }
     },
     {
@@ -129,12 +48,93 @@
         }
       },
       "image": {
-        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/5c/Great_Seal_of_the_United_States_%28obverse%29.svg/1280px-Great_Seal_of_the_United_States_%28obverse%29.svg.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/5c/Great_Seal_of_the_United_States_%28obverse%29.svg/500px-Great_Seal_of_the_United_States_%28obverse%29.svg.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
         "alt": "Picture from the Wikipedia article on American Rescue Plan Act of 2021.",
         "credit": "U.S. Government",
         "source": "https://commons.wikimedia.org/wiki/File:Great_Seal_of_the_United_States_(obverse).svg",
         "license": "Public domain",
         "licenseUrl": "https://commons.wikimedia.org/wiki/File:Great_Seal_of_the_United_States_(obverse).svg"
+      }
+    },
+    {
+      "id": "03-11-mesopotamian-campaign",
+      "date": "03-11",
+      "dateLabel": "11 March",
+      "category": "world",
+      "categoryName": "World",
+      "year": 1917,
+      "title": "Mesopotamian campaign",
+      "body": "Baghdad falls to Anglo-Indian forces commanded by General Frederick Stanley Maude.",
+      "source": {
+        "name": "Wikipedia · Mesopotamian campaign",
+        "url": "https://en.wikipedia.org/wiki/Mesopotamian_campaign",
+        "calendarUrl": "https://en.wikipedia.org/wiki/March_11",
+        "license": {
+          "name": "CC BY-SA 4.0",
+          "url": "https://creativecommons.org/licenses/by-sa/4.0/"
+        }
+      },
+      "image": {
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/3a/British_and_Indian_machine_gunners_with_a_Vickers_machine_gun%2C_Lewis_gun_and_range-finder%2C_1917.jpg/500px-British_and_Indian_machine_gunners_with_a_Vickers_machine_gun%2C_Lewis_gun_and_range-finder%2C_1917.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "alt": "Picture from the Wikipedia article on Mesopotamian campaign.",
+        "credit": "From an album compiled",
+        "source": "https://commons.wikimedia.org/wiki/File:British_and_Indian_machine_gunners_with_a_Vickers_machine_gun,_Lewis_gun_and_range-finder,_1917.jpg",
+        "license": "Public domain",
+        "licenseUrl": "https://commons.wikimedia.org/wiki/File:British_and_Indian_machine_gunners_with_a_Vickers_machine_gun,_Lewis_gun_and_range-finder,_1917.jpg"
+      }
+    },
+    {
+      "id": "03-11-empire-of-vietnam",
+      "date": "03-11",
+      "dateLabel": "11 March",
+      "category": "world",
+      "categoryName": "World",
+      "year": 1945,
+      "title": "Empire of Vietnam",
+      "body": "The Empire of Vietnam, a short-lived Japanese puppet state, is established.",
+      "source": {
+        "name": "Wikipedia · Empire of Vietnam",
+        "url": "https://en.wikipedia.org/wiki/Empire_of_Vietnam",
+        "calendarUrl": "https://en.wikipedia.org/wiki/March_11",
+        "license": {
+          "name": "CC BY-SA 4.0",
+          "url": "https://creativecommons.org/licenses/by-sa/4.0/"
+        }
+      },
+      "image": {
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/34/Long_tinh_flag.svg/500px-Long_tinh_flag.svg.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "alt": "Picture from the Wikipedia article on Empire of Vietnam.",
+        "credit": "Smurrayinchester",
+        "source": "https://commons.wikimedia.org/wiki/File:Long_tinh_flag.svg",
+        "license": "Public domain",
+        "licenseUrl": "https://commons.wikimedia.org/wiki/File:Long_tinh_flag.svg"
+      }
+    },
+    {
+      "id": "03-11-the-daily-courant",
+      "date": "03-11",
+      "dateLabel": "11 March",
+      "category": "world",
+      "categoryName": "World",
+      "year": 1702,
+      "title": "The Daily Courant",
+      "body": "The Daily Courant, England's first national daily newspaper, is published for the first time.",
+      "source": {
+        "name": "Wikipedia · The Daily Courant",
+        "url": "https://en.wikipedia.org/wiki/The_Daily_Courant",
+        "calendarUrl": "https://en.wikipedia.org/wiki/March_11",
+        "license": {
+          "name": "CC BY-SA 4.0",
+          "url": "https://creativecommons.org/licenses/by-sa/4.0/"
+        }
+      },
+      "image": {
+        "src": "https://upload.wikimedia.org/wikipedia/commons/e/ec/The_Daily_Courant.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+        "alt": "Picture from the Wikipedia article on The Daily Courant.",
+        "credit": "Edward Mallet",
+        "source": "https://commons.wikimedia.org/wiki/File:The_Daily_Courant.png",
+        "license": "Public domain",
+        "licenseUrl": "https://commons.wikimedia.org/wiki/File:The_Daily_Courant.png"
       }
     }
   ]

@@ -21,7 +21,7 @@
         }
       },
       "image": {
-        "src": "https://upload.wikimedia.org/wikipedia/commons/b/b9/Zhurong_rover_3x2_crop.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b9/Zhurong_rover_3x2_crop.png/500px-Zhurong_rover_3x2_crop.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
         "alt": "Picture from the Wikipedia article on Zhurong.",
         "credit": "Wikimedia Commons",
         "source": "https://commons.wikimedia.org/wiki/File:Zhurong_rover_3x2_crop.png",
@@ -48,7 +48,7 @@
         }
       },
       "image": {
-        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/61/Talyllyn_Railway_-_geograph.org.uk_-_866546.jpg/1280px-Talyllyn_Railway_-_geograph.org.uk_-_866546.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/61/Talyllyn_Railway_-_geograph.org.uk_-_866546.jpg/500px-Talyllyn_Railway_-_geograph.org.uk_-_866546.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
         "alt": "Picture from the Wikipedia article on Talyllyn Railway.",
         "credit": "Jeff Buck",
         "source": "https://commons.wikimedia.org/wiki/File:Talyllyn_Railway_-_geograph.org.uk_-_866546.jpg",
@@ -75,7 +75,7 @@
         }
       },
       "image": {
-        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/4a/L%27Exposition_de_Paris%2C_LDUT1210%283%29%283%29.jpg/1280px-L%27Exposition_de_Paris%2C_LDUT1210%283%29%283%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/4a/L%27Exposition_de_Paris%2C_LDUT1210%283%29%283%29.jpg/500px-L%27Exposition_de_Paris%2C_LDUT1210%283%29%283%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
         "alt": "Picture from the Wikipedia article on Exposition Universelle.",
         "credit": "La Librairie Illustrée, editeur",
         "source": "https://commons.wikimedia.org/wiki/File:L%27Exposition_de_Paris,_LDUT1210(3)(3).jpg",
@@ -102,7 +102,7 @@
         }
       },
       "image": {
-        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/89/Portrait_of_William_Clark_%28cropped%29.jpg/1280px-Portrait_of_William_Clark_%28cropped%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/89/Portrait_of_William_Clark_%28cropped%29.jpg/500px-Portrait_of_William_Clark_%28cropped%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
         "alt": "Picture from the Wikipedia article on William Clark.",
         "credit": "Jarvis, John Wesley, 1780-1840",
         "source": "https://commons.wikimedia.org/wiki/File:Portrait_of_William_Clark_(cropped).jpg",
@@ -130,6 +130,8 @@
       },
       "video": {
         "src": "https://upload.wikimedia.org/wikipedia/commons/transcoded/1/1c/Skylab_astronauts_have_fun.ogv/Skylab_astronauts_have_fun.ogv.240p.vp9.webm",
+        "width": 320,
+        "height": 240,
         "poster": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/1c/Skylab_astronauts_have_fun.ogv/330px--Skylab_astronauts_have_fun.ogv.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo",
         "seconds": 45,
         "credit": "Unknown",
@@ -138,7 +140,7 @@
         "licenseUrl": "https://commons.wikimedia.org/wiki/File:Skylab_astronauts_have_fun.ogv"
       },
       "image": {
-        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/07/Skylab_%28SL-4%29.jpg/1280px-Skylab_%28SL-4%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/07/Skylab_%28SL-4%29.jpg/500px-Skylab_%28SL-4%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
         "alt": "Picture from the Wikipedia article on Skylab.",
         "credit": "NASA",
         "source": "https://commons.wikimedia.org/wiki/File:Skylab_(SL-4).jpg",

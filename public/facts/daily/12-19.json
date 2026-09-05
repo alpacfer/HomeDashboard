@@ -21,39 +21,12 @@
         }
       },
       "image": {
-        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/ac/Eugene_Cernan_at_the_LM%2C_Apollo_17%2C_AS17-134-20378.jpg/1280px-Eugene_Cernan_at_the_LM%2C_Apollo_17%2C_AS17-134-20378.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/ac/Eugene_Cernan_at_the_LM%2C_Apollo_17%2C_AS17-134-20378.jpg/500px-Eugene_Cernan_at_the_LM%2C_Apollo_17%2C_AS17-134-20378.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
         "alt": "Picture from the Wikipedia article on Apollo 17.",
         "credit": "Harrison Schmitt / Apollo 17",
         "source": "https://commons.wikimedia.org/wiki/File:Eugene_Cernan_at_the_LM,_Apollo_17,_AS17-134-20378.jpg",
         "license": "Public domain",
         "licenseUrl": "https://commons.wikimedia.org/wiki/File:Eugene_Cernan_at_the_LM,_Apollo_17,_AS17-134-20378.jpg"
-      }
-    },
-    {
-      "id": "12-19-fifa-world-cup-trophy",
-      "date": "12-19",
-      "dateLabel": "19 December",
-      "category": "sport",
-      "categoryName": "Sport",
-      "year": 1983,
-      "title": "FIFA World Cup Trophy",
-      "body": "The original FIFA World Cup trophy, the Jules Rimet Trophy, is stolen from the headquarters of the Brazilian Football Confederation in Rio de Janeiro, Brazil.",
-      "source": {
-        "name": "Wikipedia · FIFA World Cup Trophy",
-        "url": "https://en.wikipedia.org/wiki/FIFA_World_Cup_Trophy",
-        "calendarUrl": "https://en.wikipedia.org/wiki/December_19",
-        "license": {
-          "name": "CC BY-SA 4.0",
-          "url": "https://creativecommons.org/licenses/by-sa/4.0/"
-        }
-      },
-      "image": {
-        "src": "https://upload.wikimedia.org/wikipedia/commons/c/ce/FIFA_World_Cup_Trophy_photo_by_Djuradj_Vujcic.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
-        "alt": "Picture from the Wikipedia article on FIFA World Cup Trophy.",
-        "credit": "Djuradj Vujcic",
-        "source": "https://commons.wikimedia.org/wiki/File:FIFA_World_Cup_Trophy_photo_by_Djuradj_Vujcic.jpg",
-        "license": "CC BY 2.0",
-        "licenseUrl": "https://creativecommons.org/licenses/by/2.0"
       }
     },
     {
@@ -84,6 +57,33 @@
       }
     },
     {
+      "id": "12-19-fifa-world-cup-trophy",
+      "date": "12-19",
+      "dateLabel": "19 December",
+      "category": "sport",
+      "categoryName": "Sport",
+      "year": 1983,
+      "title": "FIFA World Cup Trophy",
+      "body": "The original FIFA World Cup trophy, the Jules Rimet Trophy, is stolen from the headquarters of the Brazilian Football Confederation in Rio de Janeiro, Brazil.",
+      "source": {
+        "name": "Wikipedia · FIFA World Cup Trophy",
+        "url": "https://en.wikipedia.org/wiki/FIFA_World_Cup_Trophy",
+        "calendarUrl": "https://en.wikipedia.org/wiki/December_19",
+        "license": {
+          "name": "CC BY-SA 4.0",
+          "url": "https://creativecommons.org/licenses/by-sa/4.0/"
+        }
+      },
+      "image": {
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/ce/FIFA_World_Cup_Trophy_photo_by_Djuradj_Vujcic.jpg/500px-FIFA_World_Cup_Trophy_photo_by_Djuradj_Vujcic.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "alt": "Picture from the Wikipedia article on FIFA World Cup Trophy.",
+        "credit": "Djuradj Vujcic",
+        "source": "https://commons.wikimedia.org/wiki/File:FIFA_World_Cup_Trophy_photo_by_Djuradj_Vujcic.jpg",
+        "license": "CC BY 2.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by/2.0"
+      }
+    },
+    {
       "id": "12-19-gaia-spacecraft",
       "date": "12-19",
       "dateLabel": "19 December",
@@ -102,7 +102,7 @@
         }
       },
       "image": {
-        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/fd/Gaia_observes_the_Milky_Way_ESA24305955.jpeg/1280px-Gaia_observes_the_Milky_Way_ESA24305955.jpeg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/fd/Gaia_observes_the_Milky_Way_ESA24305955.jpeg/500px-Gaia_observes_the_Milky_Way_ESA24305955.jpeg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
         "alt": "Picture from the Wikipedia article on Gaia.",
         "credit": "ESA/Gaia/DPAC",
         "source": "https://commons.wikimedia.org/wiki/File:Gaia_observes_the_Milky_Way_ESA24305955.jpeg",
@@ -129,7 +129,7 @@
         }
       },
       "image": {
-        "src": "https://upload.wikimedia.org/wikipedia/commons/b/b8/Penlee_Memorials_-_geograph.org.uk_-_848496.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b8/Penlee_Memorials_-_geograph.org.uk_-_848496.jpg/500px-Penlee_Memorials_-_geograph.org.uk_-_848496.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
         "alt": "Picture from the Wikipedia article on Penlee lifeboat disaster.",
         "credit": "Tony Atkin",
         "source": "https://commons.wikimedia.org/wiki/File:Penlee_Memorials_-_geograph.org.uk_-_848496.jpg",

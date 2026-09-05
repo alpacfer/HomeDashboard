@@ -2,7 +2,7 @@
 
 import { useEffect, useRef, useState, type CSSProperties } from 'react';
 import TransportPanel from '@/components/transport-panel';
-import { DAILY_FACT_COUNT, dailyDateKey, pinnedDateKey, validDailyFacts, yearsAgo, type DailyFact } from '@/lib/daily-facts';
+import { DAILY_FACT_COUNT, dailyDateKey, mediaShape, pinnedDateKey, validDailyFacts, yearsAgo, type DailyFact } from '@/lib/daily-facts';
 import { initialRotation, nextRotation, pinnedRotation, resumeRotation } from '@/lib/panel-rotation';
 import ForecastMapPanel from '@/components/forecast-map-panel';
 import type { Rotation } from '@/lib/panel-rotation';
@@ -116,8 +116,8 @@ function FactVideo({ fact, onFail }: { fact: DailyFact; onFail: () => void }) {
     className="fact-video"
     poster={fact.video.poster}
     aria-label={fact.image.alt}
-    width="1000"
-    height="750"
+    width={fact.video.width}
+    height={fact.video.height}
     muted
     loop
     playsInline
@@ -127,12 +127,14 @@ function FactVideo({ fact, onFail }: { fact: DailyFact; onFail: () => void }) {
   />;
 }
 
-function FactArtwork({ fact }: { fact: DailyFact }) {
+// Whether a clip is playing is decided by the panel and not here, because the
+// row's column widths depend on it: a clip that fell back to its still is a
+// 4:3 picture again, and sizing the row for the clip would leave the picture
+// floating in a column shaped for something else.
+function FactArtwork({ fact, playing, onVideoFail }: { fact: DailyFact; playing: boolean; onVideoFail: () => void }) {
   const [failed, setFailed] = useState(false);
-  const [noVideo, setNoVideo] = useState(false);
-  const stillOnly = useReducedMotion();
   if (failed) return <div className="fact-image-fallback" role="img" aria-label={fact.image.alt}>Picture temporarily unavailable</div>;
-  if (fact.video && !noVideo && !stillOnly) return <FactVideo fact={fact} onFail={() => setNoVideo(true)} />;
+  if (playing) return <FactVideo fact={fact} onFail={onVideoFail} />;
   return <FactStill fact={fact} onError={() => setFailed(true)} />;
 }
 
@@ -236,6 +238,17 @@ export default function RotatingPanel({ onSceneChange }: { onSceneChange?: (scen
 
   useEffect(() => { onSceneChange?.(rotation.phase); }, [onSceneChange, rotation.phase]);
 
+  // Only a clip that is actually playing reshapes the row. A still is cropped
+  // to 4:3 and always was, so no shape means the layout the panel has always
+  // used — which is also what reduced motion and a refused decoder get.
+  // The refusal is remembered against the fact it happened to, so moving to
+  // the next one clears it without an effect that resets state on every change
+  // of fact — which is a cascading render, and lint says so.
+  const [refusedId, setRefusedId] = useState<string | null>(null);
+  const stillOnly = useReducedMotion();
+  const playing = Boolean(fact?.video) && !stillOnly && refusedId !== fact?.id;
+  const shape = playing ? mediaShape(fact!.video!.width, fact!.video!.height) : null;
+
   useEffect(() => {
     if (fact) preloadArtwork(fact.image.src, 'high');
   }, [fact]);
@@ -264,14 +277,17 @@ export default function RotatingPanel({ onSceneChange }: { onSceneChange?: (scen
         <strong>{fact.categoryName}</strong>
         <time dateTime={`2024-${fact.date}`}>{fact.dateLabel}</time>
       </header>
-      <div className="fact-feature">
+      <div className={'fact-feature' + (shape ? ' media-' + shape : '')}>
         <div className="fact-copy">
           <p className="fact-year"><strong>{fact.year}</strong><span>{yearsAgo(fact.year)}</span></p>
           <h2>{fact.title}</h2>
           <p className="fact-body">{fact.body}</p>
         </div>
-        <figure className="fact-illustration">
-          <FactArtwork fact={fact} />
+        <figure
+          className={'fact-illustration' + (shape ? ' has-video media-' + shape : '')}
+          style={shape ? ({ '--media-ar': `${fact.video!.width} / ${fact.video!.height}` } as CSSProperties) : undefined}
+        >
+          <FactArtwork fact={fact} playing={playing} onVideoFail={() => setRefusedId(fact.id)} />
           <figcaption><a href={fact.image.source} target="_blank" rel="noreferrer">{fact.image.credit}</a><span className="credit-dot"> · </span><a href={fact.image.licenseUrl} target="_blank" rel="noreferrer">{fact.image.license}</a></figcaption>
         </figure>
       </div>

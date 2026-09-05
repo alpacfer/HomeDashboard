@@ -3,33 +3,6 @@
   "dateLabel": "14 June",
   "facts": [
     {
-      "id": "06-14-disneyland-monorail-system",
-      "date": "06-14",
-      "dateLabel": "14 June",
-      "category": "world",
-      "categoryName": "World",
-      "year": 1959,
-      "title": "Disneyland Monorail",
-      "body": "Disneyland Monorail System, the first daily operating monorail system in the Western Hemisphere, opens to the public in Anaheim, California.",
-      "source": {
-        "name": "Wikipedia · Disneyland Monorail",
-        "url": "https://en.wikipedia.org/wiki/Disneyland_Monorail",
-        "calendarUrl": "https://en.wikipedia.org/wiki/June_14",
-        "license": {
-          "name": "CC BY-SA 4.0",
-          "url": "https://creativecommons.org/licenses/by-sa/4.0/"
-        }
-      },
-      "image": {
-        "src": "https://upload.wikimedia.org/wikipedia/commons/0/0d/Disneyland_Mark_VII_Monorail_Red.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
-        "alt": "Picture from the Wikipedia article on Disneyland Monorail.",
-        "credit": "Hawaiian717",
-        "source": "https://commons.wikimedia.org/wiki/File:Disneyland_Mark_VII_Monorail_Red.jpg",
-        "license": "CC BY-SA 3.0",
-        "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0"
-      }
-    },
-    {
       "id": "06-14-near-earth-object",
       "date": "06-14",
       "dateLabel": "14 June",
@@ -48,12 +21,39 @@
         }
       },
       "image": {
-        "src": "https://upload.wikimedia.org/wikipedia/commons/c/c5/The_VLT_images_the_very_faint_Near-Earth_Object_2009_FD.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c5/The_VLT_images_the_very_faint_Near-Earth_Object_2009_FD.jpg/500px-The_VLT_images_the_very_faint_Near-Earth_Object_2009_FD.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
         "alt": "Picture from the Wikipedia article on Near-Earth object.",
         "credit": "ESO",
         "source": "https://commons.wikimedia.org/wiki/File:The_VLT_images_the_very_faint_Near-Earth_Object_2009_FD.jpg",
         "license": "CC BY 4.0",
         "licenseUrl": "https://creativecommons.org/licenses/by/4.0"
+      }
+    },
+    {
+      "id": "06-14-disneyland-monorail-system",
+      "date": "06-14",
+      "dateLabel": "14 June",
+      "category": "world",
+      "categoryName": "World",
+      "year": 1959,
+      "title": "Disneyland Monorail",
+      "body": "Disneyland Monorail System, the first daily operating monorail system in the Western Hemisphere, opens to the public in Anaheim, California.",
+      "source": {
+        "name": "Wikipedia · Disneyland Monorail",
+        "url": "https://en.wikipedia.org/wiki/Disneyland_Monorail",
+        "calendarUrl": "https://en.wikipedia.org/wiki/June_14",
+        "license": {
+          "name": "CC BY-SA 4.0",
+          "url": "https://creativecommons.org/licenses/by-sa/4.0/"
+        }
+      },
+      "image": {
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/0d/Disneyland_Mark_VII_Monorail_Red.jpg/500px-Disneyland_Mark_VII_Monorail_Red.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "alt": "Picture from the Wikipedia article on Disneyland Monorail.",
+        "credit": "Hawaiian717",
+        "source": "https://commons.wikimedia.org/wiki/File:Disneyland_Mark_VII_Monorail_Red.jpg",
+        "license": "CC BY-SA 3.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0"
       }
     },
     {
@@ -102,7 +102,7 @@
         }
       },
       "image": {
-        "src": "https://upload.wikimedia.org/wikipedia/commons/0/02/Mariner_5.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/02/Mariner_5.jpg/500px-Mariner_5.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
         "alt": "Picture from the Wikipedia article on Mariner 5.",
         "credit": "NASA, Original uploader was W.wolny at…",
         "source": "https://commons.wikimedia.org/wiki/File:Mariner_5.jpg",
@@ -129,7 +129,7 @@
         }
       },
       "image": {
-        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f7/Flag_of_Pennsylvania.svg/1280px-Flag_of_Pennsylvania.svg.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f7/Flag_of_Pennsylvania.svg/500px-Flag_of_Pennsylvania.svg.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
         "alt": "Picture from the Wikipedia article on Pennsylvania.",
         "credit": "Simtropolitan",
         "source": "https://commons.wikimedia.org/wiki/File:Flag_of_Pennsylvania.svg",

@@ -21,12 +21,39 @@
         }
       },
       "image": {
-        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/94/South_Atlantic_tropical_cyclone_tracks.png/1280px-South_Atlantic_tropical_cyclone_tracks.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/94/South_Atlantic_tropical_cyclone_tracks.png/500px-South_Atlantic_tropical_cyclone_tracks.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
         "alt": "Picture from the Wikipedia article on South Atlantic tropical cyclone.",
         "credit": "OreoStar-fait",
         "source": "https://commons.wikimedia.org/wiki/File:South_Atlantic_tropical_cyclone_tracks.png",
         "license": "Public domain",
         "licenseUrl": "https://commons.wikimedia.org/wiki/File:South_Atlantic_tropical_cyclone_tracks.png"
+      }
+    },
+    {
+      "id": "04-10-potos",
+      "date": "04-10",
+      "dateLabel": "10 April",
+      "category": "science",
+      "categoryName": "Science",
+      "year": 1545,
+      "title": "Potosí",
+      "body": "The settlement of Villa Imperial de Carlos V (now the city of Potosí) in Bolivia is founded after the discovery of huge silver deposits in the area.",
+      "source": {
+        "name": "Wikipedia · Potosí",
+        "url": "https://en.wikipedia.org/wiki/Potos%C3%AD",
+        "calendarUrl": "https://en.wikipedia.org/wiki/April_10",
+        "license": {
+          "name": "CC BY-SA 4.0",
+          "url": "https://creativecommons.org/licenses/by-sa/4.0/"
+        }
+      },
+      "image": {
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/15/Vista_de_la_Villa_Imperial_de_Potos%C3%AD.jpg/500px-Vista_de_la_Villa_Imperial_de_Potos%C3%AD.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "alt": "Picture from the Wikipedia article on Potosí.",
+        "credit": "Parallelepiped09",
+        "source": "https://commons.wikimedia.org/wiki/File:Vista_de_la_Villa_Imperial_de_Potos%C3%AD.jpg",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0"
       }
     },
     {
@@ -48,10 +75,37 @@
         }
       },
       "image": {
-        "src": "https://upload.wikimedia.org/wikipedia/commons/4/4f/MaccaLyricsRFH051121_%2815_of_18%29_%28updated%29_%28cropped%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/4f/MaccaLyricsRFH051121_%2815_of_18%29_%28updated%29_%28cropped%29.jpg/500px-MaccaLyricsRFH051121_%2815_of_18%29_%28updated%29_%28cropped%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
         "alt": "Picture from the Wikipedia article on Paul McCartney.",
         "credit": "Raph_PH",
         "source": "https://commons.wikimedia.org/wiki/File:MaccaLyricsRFH051121_(15_of_18)_(updated)_(cropped).jpg",
+        "license": "CC BY 2.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by/2.0"
+      }
+    },
+    {
+      "id": "04-10-marathon",
+      "date": "04-10",
+      "dateLabel": "10 April",
+      "category": "sport",
+      "categoryName": "Sport",
+      "year": 1896,
+      "title": "Marathon",
+      "body": "The Olympic marathon is run ending with the victory of Greek athlete Spyridon Louis.",
+      "source": {
+        "name": "Wikipedia · Marathon",
+        "url": "https://en.wikipedia.org/wiki/Marathon",
+        "calendarUrl": "https://en.wikipedia.org/wiki/April_10",
+        "license": {
+          "name": "CC BY-SA 4.0",
+          "url": "https://creativecommons.org/licenses/by-sa/4.0/"
+        }
+      },
+      "image": {
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/bf/BSK_CSOB_MARATON046_%2833791445325%29.jpg/500px-BSK_CSOB_MARATON046_%2833791445325%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "alt": "Picture from the Wikipedia article on Marathon.",
+        "credit": "Bratislavská župa",
+        "source": "https://commons.wikimedia.org/wiki/File:BSK_CSOB_MARATON046_(33791445325).jpg",
         "license": "CC BY 2.0",
         "licenseUrl": "https://creativecommons.org/licenses/by/2.0"
       }
@@ -75,66 +129,12 @@
         }
       },
       "image": {
-        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d7/Yinqueshan_Han_tomb_museum.jpg/1280px-Yinqueshan_Han_tomb_museum.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d7/Yinqueshan_Han_tomb_museum.jpg/500px-Yinqueshan_Han_tomb_museum.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
         "alt": "Picture from the Wikipedia article on Yinqueshan Han Tombs Bamboo Slips Museum.",
         "credit": "kanegen",
         "source": "https://commons.wikimedia.org/wiki/File:Yinqueshan_Han_tomb_museum.jpg",
         "license": "CC BY 2.0",
         "licenseUrl": "https://creativecommons.org/licenses/by/2.0"
-      }
-    },
-    {
-      "id": "04-10-deshin-shekpa-5th-karmapa-lama",
-      "date": "04-10",
-      "dateLabel": "10 April",
-      "category": "curious",
-      "categoryName": "Curious",
-      "year": 1407,
-      "title": "5th Karmapa, Deshin Shekpa",
-      "body": "Deshin Shekpa, 5th Karmapa Lama visits the Ming dynasty capital at Nanjing and is awarded the title \"Great Treasure Prince of Dharma\".",
-      "source": {
-        "name": "Wikipedia · 5th Karmapa, Deshin Shekpa",
-        "url": "https://en.wikipedia.org/wiki/5th_Karmapa,_Deshin_Shekpa",
-        "calendarUrl": "https://en.wikipedia.org/wiki/April_10",
-        "license": {
-          "name": "CC BY-SA 4.0",
-          "url": "https://creativecommons.org/licenses/by-sa/4.0/"
-        }
-      },
-      "image": {
-        "src": "https://upload.wikimedia.org/wikipedia/commons/1/1f/Karmapa5.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
-        "alt": "Picture from the Wikipedia article on 5th Karmapa, Deshin Shekpa.",
-        "credit": "Wikimedia Commons",
-        "source": "https://commons.wikimedia.org/wiki/File:Karmapa5.jpg",
-        "license": "Public domain",
-        "licenseUrl": "https://commons.wikimedia.org/wiki/File:Karmapa5.jpg"
-      }
-    },
-    {
-      "id": "04-10-rms-titanic",
-      "date": "04-10",
-      "dateLabel": "10 April",
-      "category": "world",
-      "categoryName": "World",
-      "year": 1912,
-      "title": "Titanic",
-      "body": "RMS Titanic sets sail from Southampton, UK, on her maiden and only voyage.",
-      "source": {
-        "name": "Wikipedia · Titanic",
-        "url": "https://en.wikipedia.org/wiki/Titanic",
-        "calendarUrl": "https://en.wikipedia.org/wiki/April_10",
-        "license": {
-          "name": "CC BY-SA 4.0",
-          "url": "https://creativecommons.org/licenses/by-sa/4.0/"
-        }
-      },
-      "image": {
-        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/6d/RMS_Titanic_3_%28cropped_to_ship%29.jpg/1280px-RMS_Titanic_3_%28cropped_to_ship%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-        "alt": "Picture from the Wikipedia article on Titanic.",
-        "credit": "Francis Godolphin Osbourne Stuart",
-        "source": "https://commons.wikimedia.org/wiki/File:RMS_Titanic_3_(cropped_to_ship).jpg",
-        "license": "Public domain",
-        "licenseUrl": "https://commons.wikimedia.org/wiki/File:RMS_Titanic_3_(cropped_to_ship).jpg"
       }
     }
   ]

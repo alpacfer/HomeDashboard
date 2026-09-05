@@ -3,6 +3,33 @@
   "dateLabel": "18 September",
   "facts": [
     {
+      "id": "09-18-voyager-i",
+      "date": "09-18",
+      "dateLabel": "18 September",
+      "category": "space",
+      "categoryName": "Space",
+      "year": 1977,
+      "title": "Voyager 1",
+      "body": "Voyager I takes the first distant photograph of the Earth and the Moon together.",
+      "source": {
+        "name": "Wikipedia · Voyager 1",
+        "url": "https://en.wikipedia.org/wiki/Voyager_1",
+        "calendarUrl": "https://en.wikipedia.org/wiki/September_18",
+        "license": {
+          "name": "CC BY-SA 4.0",
+          "url": "https://creativecommons.org/licenses/by-sa/4.0/"
+        }
+      },
+      "image": {
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/60/Voyager_spacecraft_model.png/500px-Voyager_spacecraft_model.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "alt": "Picture from the Wikipedia article on Voyager 1.",
+        "credit": "NASA",
+        "source": "https://commons.wikimedia.org/wiki/File:Voyager_spacecraft_model.png",
+        "license": "Public domain",
+        "licenseUrl": "https://commons.wikimedia.org/wiki/File:Voyager_spacecraft_model.png"
+      }
+    },
+    {
       "id": "09-18-cbs-studios",
       "date": "09-18",
       "dateLabel": "18 September",
@@ -21,7 +48,7 @@
         }
       },
       "image": {
-        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f1/CBS_Studios_%28Stacked%29.svg/1280px-CBS_Studios_%28Stacked%29.svg.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f1/CBS_Studios_%28Stacked%29.svg/500px-CBS_Studios_%28Stacked%29.svg.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
         "alt": "Picture from the Wikipedia article on CBS Studios.",
         "credit": "Paramount Global",
         "source": "https://commons.wikimedia.org/wiki/File:CBS_Studios_(Stacked).svg",
@@ -48,39 +75,12 @@
         }
       },
       "image": {
-        "src": "https://upload.wikimedia.org/wikipedia/commons/a/a2/Frederick_Pollard%2C_1916_%28cropped%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a2/Frederick_Pollard%2C_1916_%28cropped%29.jpg/500px-Frederick_Pollard%2C_1916_%28cropped%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
         "alt": "Picture from the Wikipedia article on Fritz Pollard.",
         "credit": "Unknown photographer",
         "source": "https://commons.wikimedia.org/wiki/File:Frederick_Pollard,_1916_(cropped).jpg",
         "license": "Public domain",
         "licenseUrl": "https://commons.wikimedia.org/wiki/File:Frederick_Pollard,_1916_(cropped).jpg"
-      }
-    },
-    {
-      "id": "09-18-voyager-i",
-      "date": "09-18",
-      "dateLabel": "18 September",
-      "category": "space",
-      "categoryName": "Space",
-      "year": 1977,
-      "title": "Voyager 1",
-      "body": "Voyager I takes the first distant photograph of the Earth and the Moon together.",
-      "source": {
-        "name": "Wikipedia · Voyager 1",
-        "url": "https://en.wikipedia.org/wiki/Voyager_1",
-        "calendarUrl": "https://en.wikipedia.org/wiki/September_18",
-        "license": {
-          "name": "CC BY-SA 4.0",
-          "url": "https://creativecommons.org/licenses/by-sa/4.0/"
-        }
-      },
-      "image": {
-        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/60/Voyager_spacecraft_model.png/1280px-Voyager_spacecraft_model.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-        "alt": "Picture from the Wikipedia article on Voyager 1.",
-        "credit": "NASA",
-        "source": "https://commons.wikimedia.org/wiki/File:Voyager_spacecraft_model.png",
-        "license": "Public domain",
-        "licenseUrl": "https://commons.wikimedia.org/wiki/File:Voyager_spacecraft_model.png"
       }
     },
     {
@@ -111,17 +111,17 @@
       }
     },
     {
-      "id": "09-18-mel-brooks",
+      "id": "09-18-philippe-croizon",
       "date": "09-18",
       "dateLabel": "18 September",
       "category": "world",
       "categoryName": "World",
-      "year": 1965,
-      "title": "Mel Brooks",
-      "body": "Mel Brooks and Buck Henry's spy-comedy series Get Smart premieres on NBC Television.",
+      "year": 2010,
+      "title": "Philippe Croizon",
+      "body": "Philippe Croizon becomes the first quadruple amputee to swim across the English Channel.",
       "source": {
-        "name": "Wikipedia · Mel Brooks",
-        "url": "https://en.wikipedia.org/wiki/Mel_Brooks",
+        "name": "Wikipedia · Philippe Croizon",
+        "url": "https://en.wikipedia.org/wiki/Philippe_Croizon",
         "calendarUrl": "https://en.wikipedia.org/wiki/September_18",
         "license": {
           "name": "CC BY-SA 4.0",
@@ -129,12 +129,12 @@
         }
       },
       "image": {
-        "src": "https://upload.wikimedia.org/wikipedia/commons/9/94/MelBrooksApr10.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
-        "alt": "Picture from the Wikipedia article on Mel Brooks.",
-        "credit": "Angela George",
-        "source": "https://commons.wikimedia.org/wiki/File:MelBrooksApr10.jpg",
-        "license": "CC BY-SA 3.0",
-        "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0"
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/72/Dakar_2016_-_Conf%C3%A9rence_de_presse_-_20151118_-_134.jpg/500px-Dakar_2016_-_Conf%C3%A9rence_de_presse_-_20151118_-_134.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "alt": "Picture from the Wikipedia article on Philippe Croizon.",
+        "credit": "Thesupermat",
+        "source": "https://commons.wikimedia.org/wiki/File:Dakar_2016_-_Conf%C3%A9rence_de_presse_-_20151118_-_134.jpg",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0"
       }
     }
   ]

@@ -21,7 +21,7 @@
         }
       },
       "image": {
-        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/9d/Thomas_Edison2.jpg/1280px-Thomas_Edison2.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/9d/Thomas_Edison2.jpg/500px-Thomas_Edison2.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
         "alt": "Picture from the Wikipedia article on Thomas Edison.",
         "credit": "Louis Bachrach, Bachrach Studios",
         "source": "https://commons.wikimedia.org/wiki/File:Thomas_Edison2.jpg",
@@ -48,7 +48,7 @@
         }
       },
       "image": {
-        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/1e/Abbey_Road_Zebra.jpg/1280px-Abbey_Road_Zebra.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/1e/Abbey_Road_Zebra.jpg/500px-Abbey_Road_Zebra.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
         "alt": "Picture from the Wikipedia article on Zebra crossing.",
         "credit": "Misterweiss",
         "source": "https://commons.wikimedia.org/wiki/File:Abbey_Road_Zebra.jpg",
@@ -75,12 +75,39 @@
         }
       },
       "image": {
-        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/0c/Dave_Matthews_Band_-_Band_Shot_Melbourne_2005.jpg/1280px-Dave_Matthews_Band_-_Band_Shot_Melbourne_2005.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/0c/Dave_Matthews_Band_-_Band_Shot_Melbourne_2005.jpg/500px-Dave_Matthews_Band_-_Band_Shot_Melbourne_2005.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
         "alt": "Picture from the Wikipedia article on Dave Matthews Band.",
         "credit": "Diliff",
         "source": "https://commons.wikimedia.org/wiki/File:Dave_Matthews_Band_-_Band_Shot_Melbourne_2005.jpg",
         "license": "CC BY 2.5",
         "licenseUrl": "https://creativecommons.org/licenses/by/2.5"
+      }
+    },
+    {
+      "id": "08-08-joseph-whidbey",
+      "date": "08-08",
+      "dateLabel": "8 August",
+      "category": "science",
+      "categoryName": "Science",
+      "year": 1794,
+      "title": "Joseph Whidbey",
+      "body": "Joseph Whidbey leads an expedition to search for the Northwest Passage near Juneau, Alaska.",
+      "source": {
+        "name": "Wikipedia · Joseph Whidbey",
+        "url": "https://en.wikipedia.org/wiki/Joseph_Whidbey",
+        "calendarUrl": "https://en.wikipedia.org/wiki/August_8",
+        "license": {
+          "name": "CC BY-SA 4.0",
+          "url": "https://creativecommons.org/licenses/by-sa/4.0/"
+        }
+      },
+      "image": {
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/69/A_Portrait_of_Joseph_Whidbey.jpg/500px-A_Portrait_of_Joseph_Whidbey.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "alt": "Picture from the Wikipedia article on Joseph Whidbey.",
+        "credit": "Unknown author",
+        "source": "https://commons.wikimedia.org/wiki/File:A_Portrait_of_Joseph_Whidbey.jpg",
+        "license": "Public domain",
+        "licenseUrl": "https://commons.wikimedia.org/wiki/File:A_Portrait_of_Joseph_Whidbey.jpg"
       }
     },
     {
@@ -102,39 +129,12 @@
         }
       },
       "image": {
-        "src": "https://upload.wikimedia.org/wikipedia/commons/1/1e/Conrad_Wise_Chapman_-_Submarine_Torpedo_Boat_H.L._Hunley%2C_Dec._6%2C_1863_%28cropped%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/1e/Conrad_Wise_Chapman_-_Submarine_Torpedo_Boat_H.L._Hunley%2C_Dec._6%2C_1863_%28cropped%29.jpg/500px-Conrad_Wise_Chapman_-_Submarine_Torpedo_Boat_H.L._Hunley%2C_Dec._6%2C_1863_%28cropped%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
         "alt": "Picture from the Wikipedia article on H. L. Hunley.",
         "credit": "Conrad Wise Chapman",
         "source": "https://commons.wikimedia.org/wiki/File:Conrad_Wise_Chapman_-_Submarine_Torpedo_Boat_H.L._Hunley,_Dec._6,_1863_(cropped).jpg",
         "license": "Public domain",
         "licenseUrl": "https://commons.wikimedia.org/wiki/File:Conrad_Wise_Chapman_-_Submarine_Torpedo_Boat_H.L._Hunley,_Dec._6,_1863_(cropped).jpg"
-      }
-    },
-    {
-      "id": "08-08-warsaw-radio-mast",
-      "date": "08-08",
-      "dateLabel": "8 August",
-      "category": "world",
-      "categoryName": "World",
-      "year": 1991,
-      "title": "Warsaw radio mast",
-      "body": "The Warsaw radio mast, then the tallest construction ever built, collapses.",
-      "source": {
-        "name": "Wikipedia · Warsaw radio mast",
-        "url": "https://en.wikipedia.org/wiki/Warsaw_radio_mast",
-        "calendarUrl": "https://en.wikipedia.org/wiki/August_8",
-        "license": {
-          "name": "CC BY-SA 4.0",
-          "url": "https://creativecommons.org/licenses/by-sa/4.0/"
-        }
-      },
-      "image": {
-        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/20/Maszt_radiowy_w_Konstantynowie.jpg/1280px-Maszt_radiowy_w_Konstantynowie.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-        "alt": "Picture from the Wikipedia article on Warsaw radio mast.",
-        "credit": "R. Kreyser",
-        "source": "https://commons.wikimedia.org/wiki/File:Maszt_radiowy_w_Konstantynowie.jpg",
-        "license": "Public domain",
-        "licenseUrl": "https://commons.wikimedia.org/wiki/File:Maszt_radiowy_w_Konstantynowie.jpg"
       }
     }
   ]

@@ -3,30 +3,42 @@
   "dateLabel": "31 July",
   "facts": [
     {
-      "id": "07-31-ranger-7",
+      "id": "07-31-apollo-15",
       "date": "07-31",
       "dateLabel": "31 July",
       "category": "space",
       "categoryName": "Space",
-      "year": 1964,
-      "title": "Ranger 7",
-      "body": "Ranger 7 sends back the first close-up photographs of the moon, with images 1,000 times clearer than anything ever seen from earth-bound telescopes.",
+      "year": 1971,
+      "title": "Apollo 15",
+      "body": "The Apollo 15 astronauts become the first to ride in a lunar rover.",
       "source": {
-        "name": "Wikipedia · Ranger 7",
-        "url": "https://en.wikipedia.org/wiki/Ranger_7",
+        "name": "Wikipedia · Apollo 15",
+        "url": "https://en.wikipedia.org/wiki/Apollo_15",
         "calendarUrl": "https://en.wikipedia.org/wiki/July_31",
         "license": {
           "name": "CC BY-SA 4.0",
           "url": "https://creativecommons.org/licenses/by-sa/4.0/"
         }
       },
-      "image": {
-        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/bd/The_Ranger_Spacecraft_GPN-2000-001979.jpg/1280px-The_Ranger_Spacecraft_GPN-2000-001979.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-        "alt": "Picture from the Wikipedia article on Ranger 7.",
-        "credit": "NASA Headquarters",
-        "source": "https://commons.wikimedia.org/wiki/File:The_Ranger_Spacecraft_GPN-2000-001979.jpg",
+      "video": {
+        "src": "https://upload.wikimedia.org/wikipedia/commons/transcoded/f/f7/Apollo_15_Lunar_Roving_Vehicle_deployment.webm/Apollo_15_Lunar_Roving_Vehicle_deployment.webm.240p.vp9.webm",
+        "fallback": "https://upload.wikimedia.org/wikipedia/commons/transcoded/f/f7/Apollo_15_Lunar_Roving_Vehicle_deployment.webm/Apollo_15_Lunar_Roving_Vehicle_deployment.webm.360p.mpeg4.mov",
+        "width": 426,
+        "height": 240,
+        "poster": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f7/Apollo_15_Lunar_Roving_Vehicle_deployment.webm/500px--Apollo_15_Lunar_Roving_Vehicle_deployment.webm.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo",
+        "seconds": 15,
+        "credit": "Apollo 15",
+        "source": "https://commons.wikimedia.org/wiki/File:Apollo_15_Lunar_Roving_Vehicle_deployment.webm",
         "license": "Public domain",
-        "licenseUrl": "https://commons.wikimedia.org/wiki/File:The_Ranger_Spacecraft_GPN-2000-001979.jpg"
+        "licenseUrl": "https://commons.wikimedia.org/wiki/File:Apollo_15_Lunar_Roving_Vehicle_deployment.webm"
+      },
+      "image": {
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/62/AS15-88-11866_-_Apollo_15_flag%2C_rover%2C_LM%2C_Irwin_-_restoration1.jpg/500px-AS15-88-11866_-_Apollo_15_flag%2C_rover%2C_LM%2C_Irwin_-_restoration1.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "alt": "Picture from the Wikipedia article on Apollo 15.",
+        "credit": "NASA Johnson Space Center Restored",
+        "source": "https://commons.wikimedia.org/wiki/File:AS15-88-11866_-_Apollo_15_flag,_rover,_LM,_Irwin_-_restoration1.jpg",
+        "license": "Public domain",
+        "licenseUrl": "https://commons.wikimedia.org/wiki/File:AS15-88-11866_-_Apollo_15_flag,_rover,_LM,_Irwin_-_restoration1.jpg"
       }
     },
     {
@@ -48,7 +60,7 @@
         }
       },
       "image": {
-        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/86/Fidel_Castro%2C_Prime_Minister_of_Cuba._Castro_at_the_United_Nations%2C_New_York_%283x4_cropped%29.jpg/1280px-Fidel_Castro%2C_Prime_Minister_of_Cuba._Castro_at_the_United_Nations%2C_New_York_%283x4_cropped%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/86/Fidel_Castro%2C_Prime_Minister_of_Cuba._Castro_at_the_United_Nations%2C_New_York_%283x4_cropped%29.jpg/500px-Fidel_Castro%2C_Prime_Minister_of_Cuba._Castro_at_the_United_Nations%2C_New_York_%283x4_cropped%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
         "alt": "Picture from the Wikipedia article on Fidel Castro.",
         "credit": "Bernard Gotfryd",
         "source": "https://commons.wikimedia.org/wiki/File:Fidel_Castro,_Prime_Minister_of_Cuba._Castro_at_the_United_Nations,_New_York_(3x4_cropped).jpg",
@@ -75,7 +87,7 @@
         }
       },
       "image": {
-        "src": "https://upload.wikimedia.org/wikipedia/commons/c/c7/Michael_Phelps_Rio_Olympics_2016.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c7/Michael_Phelps_Rio_Olympics_2016.jpg/500px-Michael_Phelps_Rio_Olympics_2016.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
         "alt": "Picture from the Wikipedia article on Michael Phelps.",
         "credit": "Agência Brasil Fotografias",
         "source": "https://commons.wikimedia.org/wiki/File:Michael_Phelps_Rio_Olympics_2016.jpg",
@@ -102,7 +114,7 @@
         }
       },
       "image": {
-        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f5/US_Patent_cover_%28US_Patent_5%2C860%2C492%29.jpg/1280px-US_Patent_cover_%28US_Patent_5%2C860%2C492%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f5/US_Patent_cover_%28US_Patent_5%2C860%2C492%29.jpg/500px-US_Patent_cover_%28US_Patent_5%2C860%2C492%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
         "alt": "Picture from the Wikipedia article on Patent.",
         "credit": "USPTO",
         "source": "https://commons.wikimedia.org/wiki/File:US_Patent_cover_(US_Patent_5,860,492).jpg",
@@ -111,40 +123,30 @@
       }
     },
     {
-      "id": "07-31-apollo-15",
+      "id": "07-31-ranger-7",
       "date": "07-31",
       "dateLabel": "31 July",
       "category": "space",
       "categoryName": "Space",
-      "year": 1971,
-      "title": "Apollo 15",
-      "body": "The Apollo 15 astronauts become the first to ride in a lunar rover.",
+      "year": 1964,
+      "title": "Ranger 7",
+      "body": "Ranger 7 sends back the first close-up photographs of the moon, with images 1,000 times clearer than anything ever seen from earth-bound telescopes.",
       "source": {
-        "name": "Wikipedia · Apollo 15",
-        "url": "https://en.wikipedia.org/wiki/Apollo_15",
+        "name": "Wikipedia · Ranger 7",
+        "url": "https://en.wikipedia.org/wiki/Ranger_7",
         "calendarUrl": "https://en.wikipedia.org/wiki/July_31",
         "license": {
           "name": "CC BY-SA 4.0",
           "url": "https://creativecommons.org/licenses/by-sa/4.0/"
         }
       },
-      "video": {
-        "src": "https://upload.wikimedia.org/wikipedia/commons/transcoded/f/f7/Apollo_15_Lunar_Roving_Vehicle_deployment.webm/Apollo_15_Lunar_Roving_Vehicle_deployment.webm.240p.vp9.webm",
-        "fallback": "https://upload.wikimedia.org/wikipedia/commons/transcoded/f/f7/Apollo_15_Lunar_Roving_Vehicle_deployment.webm/Apollo_15_Lunar_Roving_Vehicle_deployment.webm.360p.mpeg4.mov",
-        "poster": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f7/Apollo_15_Lunar_Roving_Vehicle_deployment.webm/500px--Apollo_15_Lunar_Roving_Vehicle_deployment.webm.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo",
-        "seconds": 15,
-        "credit": "Apollo 15",
-        "source": "https://commons.wikimedia.org/wiki/File:Apollo_15_Lunar_Roving_Vehicle_deployment.webm",
-        "license": "Public domain",
-        "licenseUrl": "https://commons.wikimedia.org/wiki/File:Apollo_15_Lunar_Roving_Vehicle_deployment.webm"
-      },
       "image": {
-        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/62/AS15-88-11866_-_Apollo_15_flag%2C_rover%2C_LM%2C_Irwin_-_restoration1.jpg/1280px-AS15-88-11866_-_Apollo_15_flag%2C_rover%2C_LM%2C_Irwin_-_restoration1.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-        "alt": "Picture from the Wikipedia article on Apollo 15.",
-        "credit": "NASA Johnson Space Center Restored",
-        "source": "https://commons.wikimedia.org/wiki/File:AS15-88-11866_-_Apollo_15_flag,_rover,_LM,_Irwin_-_restoration1.jpg",
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/bd/The_Ranger_Spacecraft_GPN-2000-001979.jpg/500px-The_Ranger_Spacecraft_GPN-2000-001979.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "alt": "Picture from the Wikipedia article on Ranger 7.",
+        "credit": "NASA Headquarters",
+        "source": "https://commons.wikimedia.org/wiki/File:The_Ranger_Spacecraft_GPN-2000-001979.jpg",
         "license": "Public domain",
-        "licenseUrl": "https://commons.wikimedia.org/wiki/File:AS15-88-11866_-_Apollo_15_flag,_rover,_LM,_Irwin_-_restoration1.jpg"
+        "licenseUrl": "https://commons.wikimedia.org/wiki/File:The_Ranger_Spacecraft_GPN-2000-001979.jpg"
       }
     }
   ]

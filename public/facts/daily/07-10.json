@@ -21,39 +21,12 @@
         }
       },
       "image": {
-        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/96/VW_K%C3%A4fer_Baujahr_1966.jpg/1280px-VW_K%C3%A4fer_Baujahr_1966.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/96/VW_K%C3%A4fer_Baujahr_1966.jpg/500px-VW_K%C3%A4fer_Baujahr_1966.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
         "alt": "Picture from the Wikipedia article on Volkswagen Beetle.",
         "credit": "Vwexport1300",
         "source": "https://commons.wikimedia.org/wiki/File:VW_K%C3%A4fer_Baujahr_1966.jpg",
         "license": "CC BY-SA 3.0",
         "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0"
-      }
-    },
-    {
-      "id": "07-10-news-international-phone-hacking-scandal",
-      "date": "07-10",
-      "dateLabel": "10 July",
-      "category": "world",
-      "categoryName": "World",
-      "year": 2011,
-      "title": "News International phone hacking scandal",
-      "body": "Amid widespread backlash to revelations of phone hacking, the British weekly tabloid newspaper News of the World publishes its final issue and shuts down after nearly 168 years in print.",
-      "source": {
-        "name": "Wikipedia · News International phone hacking scandal",
-        "url": "https://en.wikipedia.org/wiki/News_International_phone_hacking_scandal",
-        "calendarUrl": "https://en.wikipedia.org/wiki/July_10",
-        "license": {
-          "name": "CC BY-SA 4.0",
-          "url": "https://creativecommons.org/licenses/by-sa/4.0/"
-        }
-      },
-      "image": {
-        "src": "https://upload.wikimedia.org/wikipedia/commons/c/c2/Rupert_Murdoch_-_WEF_Davos_2007.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
-        "alt": "Picture from the Wikipedia article on News International phone hacking scandal.",
-        "credit": "worldeconomicforum at",
-        "source": "https://commons.wikimedia.org/wiki/File:Rupert_Murdoch_-_WEF_Davos_2007.jpg",
-        "license": "CC BY-SA 2.0",
-        "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0"
       }
     },
     {
@@ -75,7 +48,7 @@
         }
       },
       "image": {
-        "src": "https://upload.wikimedia.org/wikipedia/commons/6/6f/Telstar_1_replica.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/6f/Telstar_1_replica.jpg/500px-Telstar_1_replica.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
         "alt": "Picture from the Wikipedia article on Telstar 1.",
         "credit": "Wikimedia Commons",
         "source": "https://commons.wikimedia.org/wiki/File:Telstar_1_replica.jpg",
@@ -102,12 +75,39 @@
         }
       },
       "image": {
-        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/4c/DNA_Structure%2BKey%2BLabelled.pn_NoBB.png/1280px-DNA_Structure%2BKey%2BLabelled.pn_NoBB.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/4c/DNA_Structure%2BKey%2BLabelled.pn_NoBB.png/500px-DNA_Structure%2BKey%2BLabelled.pn_NoBB.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
         "alt": "Picture from the Wikipedia article on DNA.",
         "credit": "Zephyris",
         "source": "https://commons.wikimedia.org/wiki/File:DNA_Structure%2BKey%2BLabelled.pn_NoBB.png",
         "license": "CC BY-SA 3.0",
         "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0"
+      }
+    },
+    {
+      "id": "07-10-news-international-phone-hacking-scandal",
+      "date": "07-10",
+      "dateLabel": "10 July",
+      "category": "world",
+      "categoryName": "World",
+      "year": 2011,
+      "title": "News International phone hacking scandal",
+      "body": "Amid widespread backlash to revelations of phone hacking, the British weekly tabloid newspaper News of the World publishes its final issue and shuts down after nearly 168 years in print.",
+      "source": {
+        "name": "Wikipedia · News International phone hacking scandal",
+        "url": "https://en.wikipedia.org/wiki/News_International_phone_hacking_scandal",
+        "calendarUrl": "https://en.wikipedia.org/wiki/July_10",
+        "license": {
+          "name": "CC BY-SA 4.0",
+          "url": "https://creativecommons.org/licenses/by-sa/4.0/"
+        }
+      },
+      "image": {
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c2/Rupert_Murdoch_-_WEF_Davos_2007.jpg/500px-Rupert_Murdoch_-_WEF_Davos_2007.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "alt": "Picture from the Wikipedia article on News International phone hacking scandal.",
+        "credit": "worldeconomicforum at",
+        "source": "https://commons.wikimedia.org/wiki/File:Rupert_Murdoch_-_WEF_Davos_2007.jpg",
+        "license": "CC BY-SA 2.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0"
       }
     },
     {

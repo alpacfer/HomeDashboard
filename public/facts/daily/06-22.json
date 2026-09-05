@@ -21,66 +21,12 @@
         }
       },
       "image": {
-        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/0e/Charon_in_True_Color_-_High-Res.png/1280px-Charon_in_True_Color_-_High-Res.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/0e/Charon_in_True_Color_-_High-Res.png/500px-Charon_in_True_Color_-_High-Res.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
         "alt": "Picture from the Wikipedia article on Charon.",
         "credit": "NASA",
         "source": "https://commons.wikimedia.org/wiki/File:Charon_in_True_Color_-_High-Res.png",
         "license": "Public domain",
         "licenseUrl": "https://commons.wikimedia.org/wiki/File:Charon_in_True_Color_-_High-Res.png"
-      }
-    },
-    {
-      "id": "06-22-virgin-atlantic",
-      "date": "06-22",
-      "dateLabel": "22 June",
-      "category": "world",
-      "categoryName": "World",
-      "year": 1984,
-      "title": "Virgin Atlantic",
-      "body": "Virgin Atlantic launches with its first flight from London to Newark.",
-      "source": {
-        "name": "Wikipedia · Virgin Atlantic",
-        "url": "https://en.wikipedia.org/wiki/Virgin_Atlantic",
-        "calendarUrl": "https://en.wikipedia.org/wiki/June_22",
-        "license": {
-          "name": "CC BY-SA 4.0",
-          "url": "https://creativecommons.org/licenses/by-sa/4.0/"
-        }
-      },
-      "image": {
-        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/cc/Airbus_A350-1041_%E2%80%98G-VJAM%E2%80%99_Virgin_Atlantic.jpg/1280px-Airbus_A350-1041_%E2%80%98G-VJAM%E2%80%99_Virgin_Atlantic.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-        "alt": "Picture from the Wikipedia article on Virgin Atlantic.",
-        "credit": "HawkeyeUK",
-        "source": "https://commons.wikimedia.org/wiki/File:Airbus_A350-1041_%E2%80%98G-VJAM%E2%80%99_Virgin_Atlantic.jpg",
-        "license": "CC BY-SA 2.0",
-        "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0"
-      }
-    },
-    {
-      "id": "06-22-checkpoint-charlie",
-      "date": "06-22",
-      "dateLabel": "22 June",
-      "category": "world",
-      "categoryName": "World",
-      "year": 1990,
-      "title": "Checkpoint Charlie",
-      "body": "Checkpoint Charlie is dismantled in Berlin.",
-      "source": {
-        "name": "Wikipedia · Checkpoint Charlie",
-        "url": "https://en.wikipedia.org/wiki/Checkpoint_Charlie",
-        "calendarUrl": "https://en.wikipedia.org/wiki/June_22",
-        "license": {
-          "name": "CC BY-SA 4.0",
-          "url": "https://creativecommons.org/licenses/by-sa/4.0/"
-        }
-      },
-      "image": {
-        "src": "https://upload.wikimedia.org/wikipedia/commons/7/75/Berlin_-_Checkpoint_Charlie_1963.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
-        "alt": "Picture from the Wikipedia article on Checkpoint Charlie.",
-        "credit": "Roger Wollstadt",
-        "source": "https://commons.wikimedia.org/wiki/File:Berlin_-_Checkpoint_Charlie_1963.jpg",
-        "license": "CC BY-SA 2.0",
-        "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0"
       }
     },
     {
@@ -102,7 +48,7 @@
         }
       },
       "image": {
-        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/81/West_Indies_%28orthographic_projection%29.svg/1280px-West_Indies_%28orthographic_projection%29.svg.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/81/West_Indies_%28orthographic_projection%29.svg/500px-West_Indies_%28orthographic_projection%29.svg.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
         "alt": "Picture from the Wikipedia article on West Indies.",
         "credit": "Heraldry",
         "source": "https://commons.wikimedia.org/wiki/File:West_Indies_(orthographic_projection).svg",
@@ -129,12 +75,66 @@
         }
       },
       "image": {
-        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e0/King_George_VI_LOC_matpc.14736_A_%28cropped%29.jpg/1280px-King_George_VI_LOC_matpc.14736_A_%28cropped%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e0/King_George_VI_LOC_matpc.14736_A_%28cropped%29.jpg/500px-King_George_VI_LOC_matpc.14736_A_%28cropped%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
         "alt": "Picture from the Wikipedia article on George VI.",
         "credit": "Matson Photo Service",
         "source": "https://commons.wikimedia.org/wiki/File:King_George_VI_LOC_matpc.14736_A_(cropped).jpg",
         "license": "Public domain",
         "licenseUrl": "https://commons.wikimedia.org/wiki/File:King_George_VI_LOC_matpc.14736_A_(cropped).jpg"
+      }
+    },
+    {
+      "id": "06-22-virgin-atlantic",
+      "date": "06-22",
+      "dateLabel": "22 June",
+      "category": "world",
+      "categoryName": "World",
+      "year": 1984,
+      "title": "Virgin Atlantic",
+      "body": "Virgin Atlantic launches with its first flight from London to Newark.",
+      "source": {
+        "name": "Wikipedia · Virgin Atlantic",
+        "url": "https://en.wikipedia.org/wiki/Virgin_Atlantic",
+        "calendarUrl": "https://en.wikipedia.org/wiki/June_22",
+        "license": {
+          "name": "CC BY-SA 4.0",
+          "url": "https://creativecommons.org/licenses/by-sa/4.0/"
+        }
+      },
+      "image": {
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/cc/Airbus_A350-1041_%E2%80%98G-VJAM%E2%80%99_Virgin_Atlantic.jpg/500px-Airbus_A350-1041_%E2%80%98G-VJAM%E2%80%99_Virgin_Atlantic.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "alt": "Picture from the Wikipedia article on Virgin Atlantic.",
+        "credit": "HawkeyeUK",
+        "source": "https://commons.wikimedia.org/wiki/File:Airbus_A350-1041_%E2%80%98G-VJAM%E2%80%99_Virgin_Atlantic.jpg",
+        "license": "CC BY-SA 2.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0"
+      }
+    },
+    {
+      "id": "06-22-checkpoint-charlie",
+      "date": "06-22",
+      "dateLabel": "22 June",
+      "category": "world",
+      "categoryName": "World",
+      "year": 1990,
+      "title": "Checkpoint Charlie",
+      "body": "Checkpoint Charlie is dismantled in Berlin.",
+      "source": {
+        "name": "Wikipedia · Checkpoint Charlie",
+        "url": "https://en.wikipedia.org/wiki/Checkpoint_Charlie",
+        "calendarUrl": "https://en.wikipedia.org/wiki/June_22",
+        "license": {
+          "name": "CC BY-SA 4.0",
+          "url": "https://creativecommons.org/licenses/by-sa/4.0/"
+        }
+      },
+      "image": {
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/75/Berlin_-_Checkpoint_Charlie_1963.jpg/500px-Berlin_-_Checkpoint_Charlie_1963.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "alt": "Picture from the Wikipedia article on Checkpoint Charlie.",
+        "credit": "Roger Wollstadt",
+        "source": "https://commons.wikimedia.org/wiki/File:Berlin_-_Checkpoint_Charlie_1963.jpg",
+        "license": "CC BY-SA 2.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0"
       }
     }
   ]

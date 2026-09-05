@@ -3,60 +3,6 @@
   "dateLabel": "3 July",
   "facts": [
     {
-      "id": "07-03-karl-benz",
-      "date": "07-03",
-      "dateLabel": "3 July",
-      "category": "science",
-      "categoryName": "Science",
-      "year": 1886,
-      "title": "Carl Benz",
-      "body": "Karl Benz officially unveils the Benz Patent-Motorwagen, the first purpose-built automobile.",
-      "source": {
-        "name": "Wikipedia · Carl Benz",
-        "url": "https://en.wikipedia.org/wiki/Carl_Benz",
-        "calendarUrl": "https://en.wikipedia.org/wiki/July_3",
-        "license": {
-          "name": "CC BY-SA 4.0",
-          "url": "https://creativecommons.org/licenses/by-sa/4.0/"
-        }
-      },
-      "image": {
-        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/95/Carl_Benz_circa_1920.jpg/1280px-Carl_Benz_circa_1920.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-        "alt": "Picture from the Wikipedia article on Carl Benz.",
-        "credit": "Unknown",
-        "source": "https://commons.wikimedia.org/wiki/File:Carl_Benz_circa_1920.jpg",
-        "license": "Public domain",
-        "licenseUrl": "https://commons.wikimedia.org/wiki/File:Carl_Benz_circa_1920.jpg"
-      }
-    },
-    {
-      "id": "07-03-fatih-sultan-mehmet-bridge",
-      "date": "07-03",
-      "dateLabel": "3 July",
-      "category": "world",
-      "categoryName": "World",
-      "year": 1988,
-      "title": "Fatih Sultan Mehmet Bridge",
-      "body": "The Fatih Sultan Mehmet Bridge in Istanbul, Turkey is completed, providing the second connection between the continents of Europe and Asia over the Bosphorus.",
-      "source": {
-        "name": "Wikipedia · Fatih Sultan Mehmet Bridge",
-        "url": "https://en.wikipedia.org/wiki/Fatih_Sultan_Mehmet_Bridge",
-        "calendarUrl": "https://en.wikipedia.org/wiki/July_3",
-        "license": {
-          "name": "CC BY-SA 4.0",
-          "url": "https://creativecommons.org/licenses/by-sa/4.0/"
-        }
-      },
-      "image": {
-        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/15/Fatih_sultan_mehmet_k%C3%B6pr%C3%BCs%C3%BC_%28cropped%29.jpg/1280px-Fatih_sultan_mehmet_k%C3%B6pr%C3%BCs%C3%BC_%28cropped%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-        "alt": "Picture from the Wikipedia article on Fatih Sultan Mehmet Bridge.",
-        "credit": "Mehrdad85",
-        "source": "https://commons.wikimedia.org/wiki/File:Fatih_sultan_mehmet_k%C3%B6pr%C3%BCs%C3%BC_(cropped).jpg",
-        "license": "CC BY-SA 4.0",
-        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0"
-      }
-    },
-    {
       "id": "07-03-david-bowie",
       "date": "07-03",
       "dateLabel": "3 July",
@@ -84,6 +30,60 @@
       }
     },
     {
+      "id": "07-03-karl-benz",
+      "date": "07-03",
+      "dateLabel": "3 July",
+      "category": "science",
+      "categoryName": "Science",
+      "year": 1886,
+      "title": "Carl Benz",
+      "body": "Karl Benz officially unveils the Benz Patent-Motorwagen, the first purpose-built automobile.",
+      "source": {
+        "name": "Wikipedia · Carl Benz",
+        "url": "https://en.wikipedia.org/wiki/Carl_Benz",
+        "calendarUrl": "https://en.wikipedia.org/wiki/July_3",
+        "license": {
+          "name": "CC BY-SA 4.0",
+          "url": "https://creativecommons.org/licenses/by-sa/4.0/"
+        }
+      },
+      "image": {
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/95/Carl_Benz_circa_1920.jpg/500px-Carl_Benz_circa_1920.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "alt": "Picture from the Wikipedia article on Carl Benz.",
+        "credit": "Unknown",
+        "source": "https://commons.wikimedia.org/wiki/File:Carl_Benz_circa_1920.jpg",
+        "license": "Public domain",
+        "licenseUrl": "https://commons.wikimedia.org/wiki/File:Carl_Benz_circa_1920.jpg"
+      }
+    },
+    {
+      "id": "07-03-fatih-sultan-mehmet-bridge",
+      "date": "07-03",
+      "dateLabel": "3 July",
+      "category": "world",
+      "categoryName": "World",
+      "year": 1988,
+      "title": "Fatih Sultan Mehmet Bridge",
+      "body": "The Fatih Sultan Mehmet Bridge in Istanbul, Turkey is completed, providing the second connection between the continents of Europe and Asia over the Bosphorus.",
+      "source": {
+        "name": "Wikipedia · Fatih Sultan Mehmet Bridge",
+        "url": "https://en.wikipedia.org/wiki/Fatih_Sultan_Mehmet_Bridge",
+        "calendarUrl": "https://en.wikipedia.org/wiki/July_3",
+        "license": {
+          "name": "CC BY-SA 4.0",
+          "url": "https://creativecommons.org/licenses/by-sa/4.0/"
+        }
+      },
+      "image": {
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/15/Fatih_sultan_mehmet_k%C3%B6pr%C3%BCs%C3%BC_%28cropped%29.jpg/500px-Fatih_sultan_mehmet_k%C3%B6pr%C3%BCs%C3%BC_%28cropped%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "alt": "Picture from the Wikipedia article on Fatih Sultan Mehmet Bridge.",
+        "credit": "Mehrdad85",
+        "source": "https://commons.wikimedia.org/wiki/File:Fatih_sultan_mehmet_k%C3%B6pr%C3%BCs%C3%BC_(cropped).jpg",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0"
+      }
+    },
+    {
       "id": "07-03-pitcairn-island",
       "date": "07-03",
       "dateLabel": "3 July",
@@ -102,7 +102,7 @@
         }
       },
       "image": {
-        "src": "https://upload.wikimedia.org/wikipedia/commons/2/2c/Pitcairnsatellite.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/2c/Pitcairnsatellite.png/500px-Pitcairnsatellite.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
         "alt": "Picture from the Wikipedia article on Pitcairn Island.",
         "credit": "NASA",
         "source": "https://commons.wikimedia.org/wiki/File:Pitcairnsatellite.png",
@@ -129,7 +129,7 @@
         }
       },
       "image": {
-        "src": "https://upload.wikimedia.org/wikipedia/commons/f/f6/Nytrib1864.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f6/Nytrib1864.jpg/500px-Nytrib1864.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
         "alt": "Picture from the Wikipedia article on New-York Tribune.",
         "credit": "Unknown author",
         "source": "https://commons.wikimedia.org/wiki/File:Nytrib1864.jpg",

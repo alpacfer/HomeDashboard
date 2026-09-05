@@ -3,6 +3,33 @@
   "dateLabel": "29 November",
   "facts": [
     {
+      "id": "11-29-i-want-to-hold-your-hand",
+      "date": "11-29",
+      "dateLabel": "29 November",
+      "category": "culture",
+      "categoryName": "Culture",
+      "year": 1963,
+      "title": "I Want to Hold Your Hand",
+      "body": "\"I Want to Hold Your Hand\", recorded on October 17, 1963, is released by the Beatles in the United Kingdom.",
+      "source": {
+        "name": "Wikipedia · I Want to Hold Your Hand",
+        "url": "https://en.wikipedia.org/wiki/I_Want_to_Hold_Your_Hand",
+        "calendarUrl": "https://en.wikipedia.org/wiki/November_29",
+        "license": {
+          "name": "CC BY-SA 4.0",
+          "url": "https://creativecommons.org/licenses/by-sa/4.0/"
+        }
+      },
+      "image": {
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/8f/I_Want_to_Hold_Your_Hand_US_picture_sleeve.jpg/500px-I_Want_to_Hold_Your_Hand_US_picture_sleeve.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "alt": "Picture from the Wikipedia article on I Want to Hold Your Hand.",
+        "credit": "Capitol Records",
+        "source": "https://commons.wikimedia.org/wiki/File:I_Want_to_Hold_Your_Hand_US_picture_sleeve.jpg",
+        "license": "Public domain",
+        "licenseUrl": "https://commons.wikimedia.org/wiki/File:I_Want_to_Hold_Your_Hand_US_picture_sleeve.jpg"
+      }
+    },
+    {
       "id": "11-29-atari-inc",
       "date": "11-29",
       "dateLabel": "29 November",
@@ -21,39 +48,12 @@
         }
       },
       "image": {
-        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/3e/Atari_logo_alt.svg/1280px-Atari_logo_alt.svg.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/3e/Atari_logo_alt.svg/500px-Atari_logo_alt.svg.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
         "alt": "Picture from the Wikipedia article on Atari, Inc..",
         "credit": "George Opperman, per source",
         "source": "https://commons.wikimedia.org/wiki/File:Atari_logo_alt.svg",
         "license": "Public domain",
         "licenseUrl": "https://commons.wikimedia.org/wiki/File:Atari_logo_alt.svg"
-      }
-    },
-    {
-      "id": "11-29-michael-jackson",
-      "date": "11-29",
-      "dateLabel": "29 November",
-      "category": "culture",
-      "categoryName": "Culture",
-      "year": 1982,
-      "title": "Michael Jackson",
-      "body": "Michael Jackson releases Thriller, the best-selling music album of all time.",
-      "source": {
-        "name": "Wikipedia · Michael Jackson",
-        "url": "https://en.wikipedia.org/wiki/Michael_Jackson",
-        "calendarUrl": "https://en.wikipedia.org/wiki/November_29",
-        "license": {
-          "name": "CC BY-SA 4.0",
-          "url": "https://creativecommons.org/licenses/by-sa/4.0/"
-        }
-      },
-      "image": {
-        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b9/Michael_Jackson_1983_%283x4_cropped%29_%28contrast%29.jpg/1280px-Michael_Jackson_1983_%283x4_cropped%29_%28contrast%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-        "alt": "Picture from the Wikipedia article on Michael Jackson.",
-        "credit": "Matthew Rolston",
-        "source": "https://commons.wikimedia.org/wiki/File:Michael_Jackson_1983_(3x4_cropped)_(contrast).jpg",
-        "license": "Public domain",
-        "licenseUrl": "https://commons.wikimedia.org/wiki/File:Michael_Jackson_1983_(3x4_cropped)_(contrast).jpg"
       }
     },
     {
@@ -75,7 +75,7 @@
         }
       },
       "image": {
-        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/9d/Thomas_Edison2.jpg/1280px-Thomas_Edison2.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/9d/Thomas_Edison2.jpg/500px-Thomas_Edison2.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
         "alt": "Picture from the Wikipedia article on Thomas Edison.",
         "credit": "Louis Bachrach, Bachrach Studios",
         "source": "https://commons.wikimedia.org/wiki/File:Thomas_Edison2.jpg",
@@ -102,7 +102,7 @@
         }
       },
       "image": {
-        "src": "https://upload.wikimedia.org/wikipedia/commons/5/5c/Richard_E._Byrd_cph.3b17378.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/5c/Richard_E._Byrd_cph.3b17378.jpg/500px-Richard_E._Byrd_cph.3b17378.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
         "alt": "Picture from the Wikipedia article on Richard E. Byrd.",
         "credit": "Underwood & Underwood",
         "source": "https://commons.wikimedia.org/wiki/File:Richard_E._Byrd_cph.3b17378.jpg",
@@ -129,7 +129,7 @@
         }
       },
       "image": {
-        "src": "https://upload.wikimedia.org/wikipedia/commons/5/59/Mercury-Atlas_5_Enos_with_handler_%28cropped%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/59/Mercury-Atlas_5_Enos_with_handler_%28cropped%29.jpg/500px-Mercury-Atlas_5_Enos_with_handler_%28cropped%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
         "alt": "Picture from the Wikipedia article on Enos.",
         "credit": "NASA",
         "source": "https://commons.wikimedia.org/wiki/File:Mercury-Atlas_5_Enos_with_handler_(cropped).jpg",

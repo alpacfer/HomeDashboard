@@ -21,7 +21,7 @@
         }
       },
       "image": {
-        "src": "https://upload.wikimedia.org/wikipedia/commons/0/00/Paris_main_entry_campus_jussieu-greve_contre_CPE-2006-02-27.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/00/Paris_main_entry_campus_jussieu-greve_contre_CPE-2006-02-27.jpg/500px-Paris_main_entry_campus_jussieu-greve_contre_CPE-2006-02-27.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
         "alt": "Picture from the Wikipedia article on 2006 youth protests in France.",
         "credit": "Nomen.nominandum~commonswiki",
         "source": "https://commons.wikimedia.org/wiki/File:Paris_main_entry_campus_jussieu-greve_contre_CPE-2006-02-27.jpg",
@@ -48,7 +48,7 @@
         }
       },
       "image": {
-        "src": "https://upload.wikimedia.org/wikipedia/commons/7/7b/Heinrich_Wilhelm_Matthias_Olbers.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/7b/Heinrich_Wilhelm_Matthias_Olbers.jpg/500px-Heinrich_Wilhelm_Matthias_Olbers.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
         "alt": "Picture from the Wikipedia article on Heinrich Wilhelm Matthias Olbers.",
         "credit": "Rudolph Suhrlandt",
         "source": "https://commons.wikimedia.org/wiki/File:Heinrich_Wilhelm_Matthias_Olbers.jpg",
@@ -75,39 +75,12 @@
         }
       },
       "image": {
-        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/51/Wiener_Philharmoniker_logo.svg/1280px-Wiener_Philharmoniker_logo.svg.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/51/Wiener_Philharmoniker_logo.svg/500px-Wiener_Philharmoniker_logo.svg.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
         "alt": "Picture from the Wikipedia article on Vienna Philharmonic.",
         "credit": "Wiener Philharmoniker",
         "source": "https://commons.wikimedia.org/wiki/File:Wiener_Philharmoniker_logo.svg",
         "license": "Public domain",
         "licenseUrl": "https://commons.wikimedia.org/wiki/File:Wiener_Philharmoniker_logo.svg"
-      }
-    },
-    {
-      "id": "03-28-henri-fabre",
-      "date": "03-28",
-      "dateLabel": "28 March",
-      "category": "world",
-      "categoryName": "World",
-      "year": 1910,
-      "title": "Henri Fabre",
-      "body": "Henri Fabre becomes the first person to fly a seaplane, the Fabre Hydravion, after taking off from water runway Étang le Barre, near Marseille.",
-      "source": {
-        "name": "Wikipedia · Henri Fabre",
-        "url": "https://en.wikipedia.org/wiki/Henri_Fabre",
-        "calendarUrl": "https://en.wikipedia.org/wiki/March_28",
-        "license": {
-          "name": "CC BY-SA 4.0",
-          "url": "https://creativecommons.org/licenses/by-sa/4.0/"
-        }
-      },
-      "image": {
-        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/0f/Hydroplane_%28de_Henri%29_Fabre_%28Monaco%2C_concours_de_canots_automobiles%2C_2_-17_avril%29_1911_-_btv1b53240713d.jpg/1280px-Hydroplane_%28de_Henri%29_Fabre_%28Monaco%2C_concours_de_canots_automobiles%2C_2_-17_avril%29_1911_-_btv1b53240713d.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-        "alt": "Picture from the Wikipedia article on Henri Fabre.",
-        "credit": "Agence de presse Meurisse",
-        "source": "https://commons.wikimedia.org/wiki/File:Hydroplane_(de_Henri)_Fabre_(Monaco,_concours_de_canots_automobiles,_2_-17_avril)_1911_-_btv1b53240713d.jpg",
-        "license": "Public domain",
-        "licenseUrl": "https://commons.wikimedia.org/wiki/File:Hydroplane_(de_Henri)_Fabre_(Monaco,_concours_de_canots_automobiles,_2_-17_avril)_1911_-_btv1b53240713d.jpg"
       }
     },
     {
@@ -129,12 +102,39 @@
         }
       },
       "image": {
-        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f3/Seal_of_the_United_States_Supreme_Court.svg/1280px-Seal_of_the_United_States_Supreme_Court.svg.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f3/Seal_of_the_United_States_Supreme_Court.svg/500px-Seal_of_the_United_States_Supreme_Court.svg.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
         "alt": "Picture from the Wikipedia article on Supreme Court of the United States.",
         "credit": "Optimager Vector: Ipankonin",
         "source": "https://commons.wikimedia.org/wiki/File:Seal_of_the_United_States_Supreme_Court.svg",
         "license": "Public domain",
         "licenseUrl": "https://commons.wikimedia.org/wiki/File:Seal_of_the_United_States_Supreme_Court.svg"
+      }
+    },
+    {
+      "id": "03-28-henri-fabre",
+      "date": "03-28",
+      "dateLabel": "28 March",
+      "category": "world",
+      "categoryName": "World",
+      "year": 1910,
+      "title": "Henri Fabre",
+      "body": "Henri Fabre becomes the first person to fly a seaplane, the Fabre Hydravion, after taking off from water runway Étang le Barre, near Marseille.",
+      "source": {
+        "name": "Wikipedia · Henri Fabre",
+        "url": "https://en.wikipedia.org/wiki/Henri_Fabre",
+        "calendarUrl": "https://en.wikipedia.org/wiki/March_28",
+        "license": {
+          "name": "CC BY-SA 4.0",
+          "url": "https://creativecommons.org/licenses/by-sa/4.0/"
+        }
+      },
+      "image": {
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/0f/Hydroplane_%28de_Henri%29_Fabre_%28Monaco%2C_concours_de_canots_automobiles%2C_2_-17_avril%29_1911_-_btv1b53240713d.jpg/500px-Hydroplane_%28de_Henri%29_Fabre_%28Monaco%2C_concours_de_canots_automobiles%2C_2_-17_avril%29_1911_-_btv1b53240713d.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "alt": "Picture from the Wikipedia article on Henri Fabre.",
+        "credit": "Agence de presse Meurisse",
+        "source": "https://commons.wikimedia.org/wiki/File:Hydroplane_(de_Henri)_Fabre_(Monaco,_concours_de_canots_automobiles,_2_-17_avril)_1911_-_btv1b53240713d.jpg",
+        "license": "Public domain",
+        "licenseUrl": "https://commons.wikimedia.org/wiki/File:Hydroplane_(de_Henri)_Fabre_(Monaco,_concours_de_canots_automobiles,_2_-17_avril)_1911_-_btv1b53240713d.jpg"
       }
     }
   ]

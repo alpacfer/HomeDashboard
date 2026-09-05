@@ -21,7 +21,7 @@
         }
       },
       "image": {
-        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a4/Perseverance-Selfie-at-Rochette-Horizontal-V2.gif/1280px-Perseverance-Selfie-at-Rochette-Horizontal-V2.gif?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a4/Perseverance-Selfie-at-Rochette-Horizontal-V2.gif/500px-Perseverance-Selfie-at-Rochette-Horizontal-V2.gif?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
         "alt": "Picture from the Wikipedia article on Perseverance.",
         "credit": "NASA/JPL-Caltech",
         "source": "https://commons.wikimedia.org/wiki/File:Perseverance-Selfie-at-Rochette-Horizontal-V2.gif",
@@ -75,7 +75,7 @@
         }
       },
       "image": {
-        "src": "https://upload.wikimedia.org/wikipedia/commons/f/fa/FortNassauMouri.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/fa/FortNassauMouri.JPG/500px-FortNassauMouri.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
         "alt": "Picture from the Wikipedia article on Shirley's Gold Coast expedition.",
         "credit": "Wikimedia Commons",
         "source": "https://commons.wikimedia.org/wiki/File:FortNassauMouri.JPG",
@@ -103,6 +103,8 @@
       },
       "video": {
         "src": "https://upload.wikimedia.org/wikipedia/commons/transcoded/f/fa/Space_Shuttle_Enterprise_747_separation.ogv/Space_Shuttle_Enterprise_747_separation.ogv.240p.vp9.webm",
+        "width": 342,
+        "height": 240,
         "poster": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/fa/Space_Shuttle_Enterprise_747_separation.ogv/500px--Space_Shuttle_Enterprise_747_separation.ogv.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo",
         "seconds": 16,
         "credit": "NASA",
@@ -111,7 +113,7 @@
         "licenseUrl": "https://commons.wikimedia.org/wiki/File:Space_Shuttle_Enterprise_747_separation.ogv"
       },
       "image": {
-        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/72/Enterprise_free_flight.jpg/1280px-Enterprise_free_flight.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/72/Enterprise_free_flight.jpg/500px-Enterprise_free_flight.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
         "alt": "Picture from the Wikipedia article on Space Shuttle Enterprise.",
         "credit": "NASA",
         "source": "https://commons.wikimedia.org/wiki/File:Enterprise_free_flight.jpg",
@@ -138,7 +140,7 @@
         }
       },
       "image": {
-        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/1b/Flag_of_Japan_%281870%E2%80%931999%29.svg/1280px-Flag_of_Japan_%281870%E2%80%931999%29.svg.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/1b/Flag_of_Japan_%281870%E2%80%931999%29.svg/500px-Flag_of_Japan_%281870%E2%80%931999%29.svg.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
         "alt": "Picture from the Wikipedia article on Empire of Japan.",
         "credit": "kahusi",
         "source": "https://commons.wikimedia.org/wiki/File:Flag_of_Japan_(1870%E2%80%931999).svg",

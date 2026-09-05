@@ -21,39 +21,12 @@
         }
       },
       "image": {
-        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/8e/Soyuz_TM-29_logo_SVG.svg/1280px-Soyuz_TM-29_logo_SVG.svg.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/8e/Soyuz_TM-29_logo_SVG.svg/500px-Soyuz_TM-29_logo_SVG.svg.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
         "alt": "Picture from the Wikipedia article on Soyuz TM-29.",
         "credit": "BMacZero",
         "source": "https://commons.wikimedia.org/wiki/File:Soyuz_TM-29_logo_SVG.svg",
         "license": "Public domain",
         "licenseUrl": "https://commons.wikimedia.org/wiki/File:Soyuz_TM-29_logo_SVG.svg"
-      }
-    },
-    {
-      "id": "08-28-indian-space-research-organisation",
-      "date": "08-28",
-      "dateLabel": "28 August",
-      "category": "world",
-      "categoryName": "World",
-      "year": 2016,
-      "title": "ISRO",
-      "body": "The first experimental mission of ISRO's Scramjet Engine towards the realisation of an Air Breathing Propulsion System is successfully conducted from Satish Dhawan Space Centre SHAR, Sriharikota.",
-      "source": {
-        "name": "Wikipedia · ISRO",
-        "url": "https://en.wikipedia.org/wiki/ISRO",
-        "calendarUrl": "https://en.wikipedia.org/wiki/August_28",
-        "license": {
-          "name": "CC BY-SA 4.0",
-          "url": "https://creativecommons.org/licenses/by-sa/4.0/"
-        }
-      },
-      "image": {
-        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/bd/Indian_Space_Research_Organisation_Logo.svg/1280px-Indian_Space_Research_Organisation_Logo.svg.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-        "alt": "Picture from the Wikipedia article on ISRO.",
-        "credit": "Indian Space Research Organisation",
-        "source": "https://commons.wikimedia.org/wiki/File:Indian_Space_Research_Organisation_Logo.svg",
-        "license": "Public domain",
-        "licenseUrl": "https://commons.wikimedia.org/wiki/File:Indian_Space_Research_Organisation_Logo.svg"
       }
     },
     {
@@ -75,12 +48,39 @@
         }
       },
       "image": {
-        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/92/Carrington_Richard_drawing_of_1859_sunspots.jpeg/1280px-Carrington_Richard_drawing_of_1859_sunspots.jpeg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/92/Carrington_Richard_drawing_of_1859_sunspots.jpeg/500px-Carrington_Richard_drawing_of_1859_sunspots.jpeg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
         "alt": "Picture from the Wikipedia article on Carrington Event.",
         "credit": "Richard Christopher Carrington",
         "source": "https://commons.wikimedia.org/wiki/File:Carrington_Richard_drawing_of_1859_sunspots.jpeg",
         "license": "Public domain",
         "licenseUrl": "https://commons.wikimedia.org/wiki/File:Carrington_Richard_drawing_of_1859_sunspots.jpeg"
+      }
+    },
+    {
+      "id": "08-28-martin-luther-king-jr",
+      "date": "08-28",
+      "dateLabel": "28 August",
+      "category": "world",
+      "categoryName": "World",
+      "year": 1963,
+      "title": "Martin Luther King Jr.",
+      "body": "Rev. Dr. Martin Luther King Jr. gives his I Have a Dream speech.",
+      "source": {
+        "name": "Wikipedia · Martin Luther King Jr.",
+        "url": "https://en.wikipedia.org/wiki/Martin_Luther_King_Jr.",
+        "calendarUrl": "https://en.wikipedia.org/wiki/August_28",
+        "license": {
+          "name": "CC BY-SA 4.0",
+          "url": "https://creativecommons.org/licenses/by-sa/4.0/"
+        }
+      },
+      "image": {
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/ce/Martin_Luther_King%2C_Jr._and_Lyndon_Johnson_%28cropped%29.jpg/500px-Martin_Luther_King%2C_Jr._and_Lyndon_Johnson_%28cropped%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "alt": "Picture from the Wikipedia article on Martin Luther King Jr..",
+        "credit": "Yoichi Okamoto",
+        "source": "https://commons.wikimedia.org/wiki/File:Martin_Luther_King,_Jr._and_Lyndon_Johnson_(cropped).jpg",
+        "license": "Public domain",
+        "licenseUrl": "https://commons.wikimedia.org/wiki/File:Martin_Luther_King,_Jr._and_Lyndon_Johnson_(cropped).jpg"
       }
     },
     {
@@ -102,7 +102,7 @@
         }
       },
       "image": {
-        "src": "https://upload.wikimedia.org/wikipedia/commons/d/d2/HenryHudson.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d2/HenryHudson.jpg/500px-HenryHudson.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
         "alt": "Picture from the Wikipedia article on Henry Hudson.",
         "credit": "Wikimedia Commons",
         "source": "https://commons.wikimedia.org/wiki/File:HenryHudson.jpg",
@@ -129,7 +129,7 @@
         }
       },
       "image": {
-        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/9c/Artwork_Galileo-Io-Jupiter.JPG/1280px-Artwork_Galileo-Io-Jupiter.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/9c/Artwork_Galileo-Io-Jupiter.JPG/500px-Artwork_Galileo-Io-Jupiter.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
         "alt": "Picture from the Wikipedia article on Galileo.",
         "credit": "NASA",
         "source": "https://commons.wikimedia.org/wiki/File:Artwork_Galileo-Io-Jupiter.JPG",

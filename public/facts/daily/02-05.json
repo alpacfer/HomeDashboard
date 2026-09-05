@@ -3,6 +3,33 @@
   "dateLabel": "5 February",
   "facts": [
     {
+      "id": "02-05-claudio-monteverdi",
+      "date": "02-05",
+      "dateLabel": "5 February",
+      "category": "culture",
+      "categoryName": "Culture",
+      "year": 1913,
+      "title": "Claudio Monteverdi",
+      "body": "Claudio Monteverdi's last opera L'incoronazione di Poppea was performed theatrically for the first time in more than 250 years.",
+      "source": {
+        "name": "Wikipedia · Claudio Monteverdi",
+        "url": "https://en.wikipedia.org/wiki/Claudio_Monteverdi",
+        "calendarUrl": "https://en.wikipedia.org/wiki/February_5",
+        "license": {
+          "name": "CC BY-SA 4.0",
+          "url": "https://creativecommons.org/licenses/by-sa/4.0/"
+        }
+      },
+      "image": {
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/02/Bernardo_Strozzi_-_Claudio_Monteverdi_%28c.1630%29.jpg/500px-Bernardo_Strozzi_-_Claudio_Monteverdi_%28c.1630%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "alt": "Picture from the Wikipedia article on Claudio Monteverdi.",
+        "credit": "Bernardo Strozzi",
+        "source": "https://commons.wikimedia.org/wiki/File:Bernardo_Strozzi_-_Claudio_Monteverdi_(c.1630).jpg",
+        "license": "Public domain",
+        "licenseUrl": "https://commons.wikimedia.org/wiki/File:Bernardo_Strozzi_-_Claudio_Monteverdi_(c.1630).jpg"
+      }
+    },
+    {
       "id": "02-05-apollo-14",
       "date": "02-05",
       "dateLabel": "5 February",
@@ -23,6 +50,8 @@
       "video": {
         "src": "https://upload.wikimedia.org/wikipedia/commons/transcoded/d/d7/Apollo_14_footage_of_the_astronauts_climbing_down_from_the_lunar_lander_and_planting_an_American_flag.ogv/Apollo_14_footage_of_the_astronauts_climbing_down_from_the_lunar_lander_and_planting_an_American_flag.ogv.240p.vp9.webm",
         "fallback": "https://upload.wikimedia.org/wikipedia/commons/transcoded/d/d7/Apollo_14_footage_of_the_astronauts_climbing_down_from_the_lunar_lander_and_planting_an_American_flag.ogv/Apollo_14_footage_of_the_astronauts_climbing_down_from_the_lunar_lander_and_planting_an_American_flag.ogv.360p.mpeg4.mov",
+        "width": 322,
+        "height": 240,
         "poster": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d7/Apollo_14_footage_of_the_astronauts_climbing_down_from_the_lunar_lander_and_planting_an_American_flag.ogv/960px--Apollo_14_footage_of_the_astronauts_climbing_down_from_the_lunar_lander_and_planting_an_American_flag.ogv.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo",
         "seconds": 125,
         "credit": "NASA/Johnson Space Center",
@@ -31,7 +60,7 @@
         "licenseUrl": "https://commons.wikimedia.org/wiki/File:Apollo_14_footage_of_the_astronauts_climbing_down_from_the_lunar_lander_and_planting_an_American_flag.ogv"
       },
       "image": {
-        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/09/Apollo_14_Shepard.jpg/1280px-Apollo_14_Shepard.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/09/Apollo_14_Shepard.jpg/500px-Apollo_14_Shepard.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
         "alt": "Picture from the Wikipedia article on Apollo 14.",
         "credit": "Edgar D. Mitchell / NASA",
         "source": "https://commons.wikimedia.org/wiki/File:Apollo_14_Shepard.jpg",
@@ -58,39 +87,12 @@
         }
       },
       "image": {
-        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d7/Leo_Baekeland_ca_1906.jpg/1280px-Leo_Baekeland_ca_1906.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d7/Leo_Baekeland_ca_1906.jpg/500px-Leo_Baekeland_ca_1906.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
         "alt": "Picture from the Wikipedia article on Leo Baekeland.",
         "credit": "Unknown author",
         "source": "https://commons.wikimedia.org/wiki/File:Leo_Baekeland_ca_1906.jpg",
         "license": "Public domain",
         "licenseUrl": "https://commons.wikimedia.org/wiki/File:Leo_Baekeland_ca_1906.jpg"
-      }
-    },
-    {
-      "id": "02-05-claudio-monteverdi",
-      "date": "02-05",
-      "dateLabel": "5 February",
-      "category": "culture",
-      "categoryName": "Culture",
-      "year": 1913,
-      "title": "Claudio Monteverdi",
-      "body": "Claudio Monteverdi's last opera L'incoronazione di Poppea was performed theatrically for the first time in more than 250 years.",
-      "source": {
-        "name": "Wikipedia · Claudio Monteverdi",
-        "url": "https://en.wikipedia.org/wiki/Claudio_Monteverdi",
-        "calendarUrl": "https://en.wikipedia.org/wiki/February_5",
-        "license": {
-          "name": "CC BY-SA 4.0",
-          "url": "https://creativecommons.org/licenses/by-sa/4.0/"
-        }
-      },
-      "image": {
-        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/02/Bernardo_Strozzi_-_Claudio_Monteverdi_%28c.1630%29.jpg/1280px-Bernardo_Strozzi_-_Claudio_Monteverdi_%28c.1630%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-        "alt": "Picture from the Wikipedia article on Claudio Monteverdi.",
-        "credit": "Bernardo Strozzi",
-        "source": "https://commons.wikimedia.org/wiki/File:Bernardo_Strozzi_-_Claudio_Monteverdi_(c.1630).jpg",
-        "license": "Public domain",
-        "licenseUrl": "https://commons.wikimedia.org/wiki/File:Bernardo_Strozzi_-_Claudio_Monteverdi_(c.1630).jpg"
       }
     },
     {
@@ -112,7 +114,7 @@
         }
       },
       "image": {
-        "src": "https://upload.wikimedia.org/wikipedia/commons/9/9c/Benedictus_XVI_fanon_2013.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/9c/Benedictus_XVI_fanon_2013.jpg/500px-Benedictus_XVI_fanon_2013.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
         "alt": "Picture from the Wikipedia article on Papal Mass.",
         "credit": "Cavasindavide1995",
         "source": "https://commons.wikimedia.org/wiki/File:Benedictus_XVI_fanon_2013.jpg",
@@ -139,7 +141,7 @@
         }
       },
       "image": {
-        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/16/5174-3._St._Petersburg._Greater_Hermitage.jpg/1280px-5174-3._St._Petersburg._Greater_Hermitage.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/16/5174-3._St._Petersburg._Greater_Hermitage.jpg/500px-5174-3._St._Petersburg._Greater_Hermitage.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
         "alt": "Picture from the Wikipedia article on Hermitage Museum.",
         "credit": "GAlexandrova",
         "source": "https://commons.wikimedia.org/wiki/File:5174-3._St._Petersburg._Greater_Hermitage.jpg",

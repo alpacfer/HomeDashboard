@@ -21,7 +21,7 @@
         }
       },
       "image": {
-        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/eb/Inside_seikan_tunnel.JPG/1280px-Inside_seikan_tunnel.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/eb/Inside_seikan_tunnel.JPG/500px-Inside_seikan_tunnel.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
         "alt": "Picture from the Wikipedia article on Seikan Tunnel.",
         "credit": "Risto Kaijaluoto",
         "source": "https://commons.wikimedia.org/wiki/File:Inside_seikan_tunnel.JPG",
@@ -48,39 +48,12 @@
         }
       },
       "image": {
-        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f3/Flag_of_Russia.svg/1280px-Flag_of_Russia.svg.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f3/Flag_of_Russia.svg/500px-Flag_of_Russia.svg.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
         "alt": "Picture from the Wikipedia article on Russian Empire.",
         "credit": "Peter the Great",
         "source": "https://commons.wikimedia.org/wiki/File:Flag_of_Russia.svg",
         "license": "Public domain",
         "licenseUrl": "https://commons.wikimedia.org/wiki/File:Flag_of_Russia.svg"
-      }
-    },
-    {
-      "id": "01-27-modest-mussorgsky",
-      "date": "01-27",
-      "dateLabel": "27 January",
-      "category": "culture",
-      "categoryName": "Culture",
-      "year": 1874,
-      "title": "Modest Mussorgsky",
-      "body": "Modest Mussorgsky's opera Boris Godunov premieres in Mariinsky Theatre in St.Petersburg.",
-      "source": {
-        "name": "Wikipedia · Modest Mussorgsky",
-        "url": "https://en.wikipedia.org/wiki/Modest_Mussorgsky",
-        "calendarUrl": "https://en.wikipedia.org/wiki/January_27",
-        "license": {
-          "name": "CC BY-SA 4.0",
-          "url": "https://creativecommons.org/licenses/by-sa/4.0/"
-        }
-      },
-      "image": {
-        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/5c/MussorgskySignature.png/1280px-MussorgskySignature.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-        "alt": "Picture from the Wikipedia article on Modest Mussorgsky.",
-        "credit": "Modest Mussorgsky",
-        "source": "https://commons.wikimedia.org/wiki/File:MussorgskySignature.png",
-        "license": "Public domain",
-        "licenseUrl": "https://commons.wikimedia.org/wiki/File:MussorgskySignature.png"
       }
     },
     {
@@ -102,7 +75,7 @@
         }
       },
       "image": {
-        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/1a/IPad_mini_Air_Pro.png/1280px-IPad_mini_Air_Pro.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/1a/IPad_mini_Air_Pro.png/500px-IPad_mini_Air_Pro.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
         "alt": "Picture from the Wikipedia article on iPad.",
         "credit": "KA KIT",
         "source": "https://commons.wikimedia.org/wiki/File:IPad_mini_Air_Pro.png",
@@ -129,12 +102,39 @@
         }
       },
       "image": {
-        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/8b/Martin_Luther_King_Jr_National_Historic_Site_%2836233249121%29.jpg/1280px-Martin_Luther_King_Jr_National_Historic_Site_%2836233249121%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/8b/Martin_Luther_King_Jr_National_Historic_Site_%2836233249121%29.jpg/500px-Martin_Luther_King_Jr_National_Historic_Site_%2836233249121%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
         "alt": "Picture from the Wikipedia article on National Recording Registry.",
         "credit": "National Park Service",
         "source": "https://commons.wikimedia.org/wiki/File:Martin_Luther_King_Jr_National_Historic_Site_(36233249121).jpg",
         "license": "Public domain",
         "licenseUrl": "https://commons.wikimedia.org/wiki/File:Martin_Luther_King_Jr_National_Historic_Site_(36233249121).jpg"
+      }
+    },
+    {
+      "id": "01-27-modest-mussorgsky",
+      "date": "01-27",
+      "dateLabel": "27 January",
+      "category": "culture",
+      "categoryName": "Culture",
+      "year": 1874,
+      "title": "Modest Mussorgsky",
+      "body": "Modest Mussorgsky's opera Boris Godunov premieres in Mariinsky Theatre in St.Petersburg.",
+      "source": {
+        "name": "Wikipedia · Modest Mussorgsky",
+        "url": "https://en.wikipedia.org/wiki/Modest_Mussorgsky",
+        "calendarUrl": "https://en.wikipedia.org/wiki/January_27",
+        "license": {
+          "name": "CC BY-SA 4.0",
+          "url": "https://creativecommons.org/licenses/by-sa/4.0/"
+        }
+      },
+      "image": {
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/5c/MussorgskySignature.png/500px-MussorgskySignature.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "alt": "Picture from the Wikipedia article on Modest Mussorgsky.",
+        "credit": "Modest Mussorgsky",
+        "source": "https://commons.wikimedia.org/wiki/File:MussorgskySignature.png",
+        "license": "Public domain",
+        "licenseUrl": "https://commons.wikimedia.org/wiki/File:MussorgskySignature.png"
       }
     }
   ]

@@ -21,7 +21,7 @@
         }
       },
       "image": {
-        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/75/Viking_spacecraft.jpg/1280px-Viking_spacecraft.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/75/Viking_spacecraft.jpg/500px-Viking_spacecraft.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
         "alt": "Picture from the Wikipedia article on Viking 2.",
         "credit": "NASA",
         "source": "https://commons.wikimedia.org/wiki/File:Viking_spacecraft.jpg",
@@ -48,7 +48,7 @@
         }
       },
       "image": {
-        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d0/Giuseppe_Farina_-_El_Gr%C3%A1fico_1750.jpg/1280px-Giuseppe_Farina_-_El_Gr%C3%A1fico_1750.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d0/Giuseppe_Farina_-_El_Gr%C3%A1fico_1750.jpg/500px-Giuseppe_Farina_-_El_Gr%C3%A1fico_1750.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
         "alt": "Picture from the Wikipedia article on Giuseppe Farina.",
         "credit": "El Gráfico",
         "source": "https://commons.wikimedia.org/wiki/File:Giuseppe_Farina_-_El_Gr%C3%A1fico_1750.jpg",
@@ -75,39 +75,12 @@
         }
       },
       "image": {
-        "src": "https://upload.wikimedia.org/wikipedia/commons/d/d7/Malcolm_Campbell_rc10431.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d7/Malcolm_Campbell_rc10431.jpg/500px-Malcolm_Campbell_rc10431.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
         "alt": "Picture from the Wikipedia article on Malcolm Campbell.",
         "credit": "Richard LeSesne",
         "source": "https://commons.wikimedia.org/wiki/File:Malcolm_Campbell_rc10431.jpg",
         "license": "Public domain",
         "licenseUrl": "https://commons.wikimedia.org/wiki/File:Malcolm_Campbell_rc10431.jpg"
-      }
-    },
-    {
-      "id": "09-03-john-brallier",
-      "date": "09-03",
-      "dateLabel": "3 September",
-      "category": "sport",
-      "categoryName": "Sport",
-      "year": 1895,
-      "title": "John Brallier",
-      "body": "John Brallier becomes the first openly paid professional American football player, when he was paid US$10 by David Berry, to play for the Latrobe Athletic Association in a 12–0 win over the Jeanette Athletic Association.",
-      "source": {
-        "name": "Wikipedia · John Brallier",
-        "url": "https://en.wikipedia.org/wiki/John_Brallier",
-        "calendarUrl": "https://en.wikipedia.org/wiki/September_3",
-        "license": {
-          "name": "CC BY-SA 4.0",
-          "url": "https://creativecommons.org/licenses/by-sa/4.0/"
-        }
-      },
-      "image": {
-        "src": "https://upload.wikimedia.org/wikipedia/commons/5/50/John_Brallier_1895_W%26J_uniform_cropped.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
-        "alt": "Picture from the Wikipedia article on John Brallier.",
-        "credit": "Wikimedia Commons",
-        "source": "https://commons.wikimedia.org/wiki/File:John_Brallier_1895_W%26J_uniform_cropped.jpg",
-        "license": "Public domain",
-        "licenseUrl": "https://commons.wikimedia.org/wiki/File:John_Brallier_1895_W%26J_uniform_cropped.jpg"
       }
     },
     {
@@ -135,6 +108,33 @@
         "source": "https://commons.wikimedia.org/wiki/File:EvgeniyAbalakov.jpg",
         "license": "Public domain",
         "licenseUrl": "https://commons.wikimedia.org/wiki/File:EvgeniyAbalakov.jpg"
+      }
+    },
+    {
+      "id": "09-03-john-brallier",
+      "date": "09-03",
+      "dateLabel": "3 September",
+      "category": "sport",
+      "categoryName": "Sport",
+      "year": 1895,
+      "title": "John Brallier",
+      "body": "John Brallier becomes the first openly paid professional American football player, when he was paid US$10 by David Berry, to play for the Latrobe Athletic Association in a 12–0 win over the Jeanette Athletic Association.",
+      "source": {
+        "name": "Wikipedia · John Brallier",
+        "url": "https://en.wikipedia.org/wiki/John_Brallier",
+        "calendarUrl": "https://en.wikipedia.org/wiki/September_3",
+        "license": {
+          "name": "CC BY-SA 4.0",
+          "url": "https://creativecommons.org/licenses/by-sa/4.0/"
+        }
+      },
+      "image": {
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/50/John_Brallier_1895_W%26J_uniform_cropped.jpg/500px-John_Brallier_1895_W%26J_uniform_cropped.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "alt": "Picture from the Wikipedia article on John Brallier.",
+        "credit": "Wikimedia Commons",
+        "source": "https://commons.wikimedia.org/wiki/File:John_Brallier_1895_W%26J_uniform_cropped.jpg",
+        "license": "Public domain",
+        "licenseUrl": "https://commons.wikimedia.org/wiki/File:John_Brallier_1895_W%26J_uniform_cropped.jpg"
       }
     }
   ]

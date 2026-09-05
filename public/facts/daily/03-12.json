@@ -21,7 +21,7 @@
         }
       },
       "image": {
-        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d1/Tim_Berners-Lee_at_the_2025_Web_Summit_%28Cropped%29.jpg/1280px-Tim_Berners-Lee_at_the_2025_Web_Summit_%28Cropped%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d1/Tim_Berners-Lee_at_the_2025_Web_Summit_%28Cropped%29.jpg/500px-Tim_Berners-Lee_at_the_2025_Web_Summit_%28Cropped%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
         "alt": "Picture from the Wikipedia article on Tim Berners-Lee.",
         "credit": "Summit",
         "source": "https://commons.wikimedia.org/wiki/File:Tim_Berners-Lee_at_the_2025_Web_Summit_(Cropped).jpg",
@@ -48,7 +48,7 @@
         }
       },
       "image": {
-        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/7a/Mahatma-Gandhi%2C_studio%2C_1931.jpg/1280px-Mahatma-Gandhi%2C_studio%2C_1931.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/7a/Mahatma-Gandhi%2C_studio%2C_1931.jpg/500px-Mahatma-Gandhi%2C_studio%2C_1931.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
         "alt": "Picture from the Wikipedia article on Mahatma Gandhi.",
         "credit": "Elliott & Fry",
         "source": "https://commons.wikimedia.org/wiki/File:Mahatma-Gandhi,_studio,_1931.jpg",
@@ -75,7 +75,7 @@
         }
       },
       "image": {
-        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/77/Flag_of_Mauritius.svg/1280px-Flag_of_Mauritius.svg.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/77/Flag_of_Mauritius.svg/500px-Flag_of_Mauritius.svg.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
         "alt": "Picture from the Wikipedia article on Mauritius.",
         "credit": "Zscout370",
         "source": "https://commons.wikimedia.org/wiki/File:Flag_of_Mauritius.svg",
@@ -84,17 +84,17 @@
       }
     },
     {
-      "id": "03-12-warsaw-pact",
+      "id": "03-12-bernie-madoff",
       "date": "03-12",
       "dateLabel": "12 March",
       "category": "world",
       "categoryName": "World",
-      "year": 1999,
-      "title": "Warsaw Pact",
-      "body": "Former Warsaw Pact members the Czech Republic, Hungary and Poland join NATO.",
+      "year": 2009,
+      "title": "Bernie Madoff",
+      "body": "Financier Bernie Madoff pleads guilty to one of the largest frauds in Wall Street's history.",
       "source": {
-        "name": "Wikipedia · Warsaw Pact",
-        "url": "https://en.wikipedia.org/wiki/Warsaw_Pact",
+        "name": "Wikipedia · Bernie Madoff",
+        "url": "https://en.wikipedia.org/wiki/Bernie_Madoff",
         "calendarUrl": "https://en.wikipedia.org/wiki/March_12",
         "license": {
           "name": "CC BY-SA 4.0",
@@ -102,26 +102,26 @@
         }
       },
       "image": {
-        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a8/Warsaw_Pact_in_1990_%28orthographic_projection%29.svg/1280px-Warsaw_Pact_in_1990_%28orthographic_projection%29.svg.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-        "alt": "Picture from the Wikipedia article on Warsaw Pact.",
-        "credit": "Rob984",
-        "source": "https://commons.wikimedia.org/wiki/File:Warsaw_Pact_in_1990_(orthographic_projection).svg",
-        "license": "CC BY-SA 4.0",
-        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0"
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f7/Bernard_Madoff_2009_mug_shot_%283x4_cropped%29.jpg/500px-Bernard_Madoff_2009_mug_shot_%283x4_cropped%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "alt": "Picture from the Wikipedia article on Bernie Madoff.",
+        "credit": "U.S. Department of Justice",
+        "source": "https://commons.wikimedia.org/wiki/File:Bernard_Madoff_2009_mug_shot_(3x4_cropped).jpg",
+        "license": "Public domain",
+        "licenseUrl": "https://commons.wikimedia.org/wiki/File:Bernard_Madoff_2009_mug_shot_(3x4_cropped).jpg"
       }
     },
     {
-      "id": "03-12-franklin-d-roosevelt",
+      "id": "03-12-world-health-organization",
       "date": "03-12",
       "dateLabel": "12 March",
       "category": "world",
       "categoryName": "World",
-      "year": 1933,
-      "title": "Franklin D. Roosevelt",
-      "body": "Franklin D. Roosevelt addresses the nation for the first time as President of the United States. This is also the first of his \"fireside chats\".",
+      "year": 2003,
+      "title": "World Health Organization",
+      "body": "The World Health Organization officially release a global warning of outbreaks of Severe acute respiratory syndrome (SARS).",
       "source": {
-        "name": "Wikipedia · Franklin D. Roosevelt",
-        "url": "https://en.wikipedia.org/wiki/Franklin_D._Roosevelt",
+        "name": "Wikipedia · World Health Organization",
+        "url": "https://en.wikipedia.org/wiki/World_Health_Organization",
         "calendarUrl": "https://en.wikipedia.org/wiki/March_12",
         "license": {
           "name": "CC BY-SA 4.0",
@@ -129,10 +129,10 @@
         }
       },
       "image": {
-        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/fd/FDR-1944-Campaign-Portrait_%283x4_retouched%2C_cropped%29.jpg/1280px-FDR-1944-Campaign-Portrait_%283x4_retouched%2C_cropped%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-        "alt": "Picture from the Wikipedia article on Franklin D. Roosevelt.",
-        "credit": "Leon Perskie",
-        "source": "https://commons.wikimedia.org/wiki/File:FDR-1944-Campaign-Portrait_(3x4_retouched,_cropped).jpg",
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/88/World_Health_Organization_%40_Pregny-Chamb%C3%A9sy_%2850636746028%29.jpg/500px-World_Health_Organization_%40_Pregny-Chamb%C3%A9sy_%2850636746028%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "alt": "Picture from the Wikipedia article on World Health Organization.",
+        "credit": "Guilhem Vellut from Annecy, France",
+        "source": "https://commons.wikimedia.org/wiki/File:World_Health_Organization_@_Pregny-Chamb%C3%A9sy_(50636746028).jpg",
         "license": "CC BY 2.0",
         "licenseUrl": "https://creativecommons.org/licenses/by/2.0"
       }

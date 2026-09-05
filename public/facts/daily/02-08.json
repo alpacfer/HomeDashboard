@@ -21,7 +21,7 @@
         }
       },
       "image": {
-        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/09/Emblem_of_the_Stasi.svg/1280px-Emblem_of_the_Stasi.svg.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/09/Emblem_of_the_Stasi.svg/500px-Emblem_of_the_Stasi.svg.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
         "alt": "Picture from the Wikipedia article on Stasi.",
         "credit": "Ministerium für Staatssicherheit der DDR",
         "source": "https://commons.wikimedia.org/wiki/File:Emblem_of_the_Stasi.svg",
@@ -48,12 +48,39 @@
         }
       },
       "image": {
-        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/92/Skylab_and_Earth_Limb_-_GPN-2000-001055.jpg/1280px-Skylab_and_Earth_Limb_-_GPN-2000-001055.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/92/Skylab_and_Earth_Limb_-_GPN-2000-001055.jpg/500px-Skylab_and_Earth_Limb_-_GPN-2000-001055.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
         "alt": "Picture from the Wikipedia article on Skylab 4.",
         "credit": "NASA",
         "source": "https://commons.wikimedia.org/wiki/File:Skylab_and_Earth_Limb_-_GPN-2000-001055.jpg",
         "license": "Public domain",
         "licenseUrl": "https://commons.wikimedia.org/wiki/File:Skylab_and_Earth_Limb_-_GPN-2000-001055.jpg"
+      }
+    },
+    {
+      "id": "02-08-british-armed-forces",
+      "date": "02-08",
+      "dateLabel": "8 February",
+      "category": "world",
+      "categoryName": "World",
+      "year": 1945,
+      "title": "British Armed Forces",
+      "body": "British and Canadian forces commence Operation Veritable to occupy land between the Maas and Rhine rivers.",
+      "source": {
+        "name": "Wikipedia · British Armed Forces",
+        "url": "https://en.wikipedia.org/wiki/British_Armed_Forces",
+        "calendarUrl": "https://en.wikipedia.org/wiki/February_8",
+        "license": {
+          "name": "CC BY-SA 4.0",
+          "url": "https://creativecommons.org/licenses/by-sa/4.0/"
+        }
+      },
+      "image": {
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/2c/Ministry_of_Defence_Emblem.svg/500px-Ministry_of_Defence_Emblem.svg.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "alt": "Picture from the Wikipedia article on British Armed Forces.",
+        "credit": "This vector image includes elements that…",
+        "source": "https://commons.wikimedia.org/wiki/File:Ministry_of_Defence_Emblem.svg",
+        "license": "CC BY-SA 3.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0"
       }
     },
     {
@@ -75,7 +102,7 @@
         }
       },
       "image": {
-        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/07/Japanese_sugarcane_workers_1.jpg/1280px-Japanese_sugarcane_workers_1.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/07/Japanese_sugarcane_workers_1.jpg/500px-Japanese_sugarcane_workers_1.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
         "alt": "Picture from the Wikipedia article on Japanese in Hawaii.",
         "credit": "Viriditas",
         "source": "https://commons.wikimedia.org/wiki/File:Japanese_sugarcane_workers_1.jpg",
@@ -102,39 +129,12 @@
         }
       },
       "image": {
-        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/df/Flag_of_Spain_%281931%E2%80%931939%29.svg/1280px-Flag_of_Spain_%281931%E2%80%931939%29.svg.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/df/Flag_of_Spain_%281931%E2%80%931939%29.svg/500px-Flag_of_Spain_%281931%E2%80%931939%29.svg.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
         "alt": "Picture from the Wikipedia article on Republican faction.",
         "credit": "SanchoPanzaXXI",
         "source": "https://commons.wikimedia.org/wiki/File:Flag_of_Spain_(1931%E2%80%931939).svg",
         "license": "CC BY-SA 4.0",
         "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0"
-      }
-    },
-    {
-      "id": "02-08-people-s-republic-of-korea",
-      "date": "02-08",
-      "dateLabel": "8 February",
-      "category": "world",
-      "categoryName": "World",
-      "year": 1946,
-      "title": "People's Republic of Korea",
-      "body": "The People's Republic of Korea is dissolved in the North and replaced by the communist-controlled Provisional People's Committee of North Korea.",
-      "source": {
-        "name": "Wikipedia · People's Republic of Korea",
-        "url": "https://en.wikipedia.org/wiki/People%27s_Republic_of_Korea",
-        "calendarUrl": "https://en.wikipedia.org/wiki/February_8",
-        "license": {
-          "name": "CC BY-SA 4.0",
-          "url": "https://creativecommons.org/licenses/by-sa/4.0/"
-        }
-      },
-      "image": {
-        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/22/Flag_of_the_People%27s_Committee_of_Korea.svg/1280px-Flag_of_the_People%27s_Committee_of_Korea.svg.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-        "alt": "Picture from the Wikipedia article on People's Republic of Korea.",
-        "credit": "Samhanin",
-        "source": "https://commons.wikimedia.org/wiki/File:Flag_of_the_People%27s_Committee_of_Korea.svg",
-        "license": "Public domain",
-        "licenseUrl": "https://commons.wikimedia.org/wiki/File:Flag_of_the_People%27s_Committee_of_Korea.svg"
       }
     }
   ]

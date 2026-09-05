@@ -21,66 +21,12 @@
         }
       },
       "image": {
-        "src": "https://upload.wikimedia.org/wikipedia/commons/8/82/Cricket_6.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/82/Cricket_6.jpg/500px-Cricket_6.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
         "alt": "Picture from the Wikipedia article on 2023 Cricket World Cup final.",
         "credit": "Pantman2",
         "source": "https://commons.wikimedia.org/wiki/File:Cricket_6.jpg",
         "license": "CC BY-SA 4.0",
         "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0"
-      }
-    },
-    {
-      "id": "11-19-shenzhou-spacecraft",
-      "date": "11-19",
-      "dateLabel": "19 November",
-      "category": "space",
-      "categoryName": "Space",
-      "year": 1999,
-      "title": "Shenzhou",
-      "body": "The People's Republic of China launches its first Shenzhou spacecraft.",
-      "source": {
-        "name": "Wikipedia · Shenzhou (spacecraft)",
-        "url": "https://en.wikipedia.org/wiki/Shenzhou_(spacecraft)",
-        "calendarUrl": "https://en.wikipedia.org/wiki/November_19",
-        "license": {
-          "name": "CC BY-SA 4.0",
-          "url": "https://creativecommons.org/licenses/by-sa/4.0/"
-        }
-      },
-      "image": {
-        "src": "https://upload.wikimedia.org/wikipedia/commons/8/8c/Shenzhou_spacecraft_ground_test.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
-        "alt": "Picture from the Wikipedia article on Shenzhou.",
-        "credit": "Wikimedia Commons",
-        "source": "https://commons.wikimedia.org/wiki/File:Shenzhou_spacecraft_ground_test.png",
-        "license": "CC BY 4.0",
-        "licenseUrl": "https://creativecommons.org/licenses/by/4.0"
-      }
-    },
-    {
-      "id": "11-19-malice-at-the-palace",
-      "date": "11-19",
-      "dateLabel": "19 November",
-      "category": "sport",
-      "categoryName": "Sport",
-      "year": 2004,
-      "title": "Malice at the Palace",
-      "body": "The worst brawl in NBA history results in several players being suspended. Several players and fans are charged with assault and battery.",
-      "source": {
-        "name": "Wikipedia · Malice at the Palace",
-        "url": "https://en.wikipedia.org/wiki/Malice_at_the_Palace",
-        "calendarUrl": "https://en.wikipedia.org/wiki/November_19",
-        "license": {
-          "name": "CC BY-SA 4.0",
-          "url": "https://creativecommons.org/licenses/by-sa/4.0/"
-        }
-      },
-      "image": {
-        "src": "https://upload.wikimedia.org/wikipedia/commons/6/61/Palace_of_Auburn_Hills.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
-        "alt": "Picture from the Wikipedia article on Malice at the Palace.",
-        "credit": "Kevin Ward from Eastpointe, U.S",
-        "source": "https://commons.wikimedia.org/wiki/File:Palace_of_Auburn_Hills.jpg",
-        "license": "CC BY-SA 2.0",
-        "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0"
       }
     },
     {
@@ -102,12 +48,66 @@
         }
       },
       "image": {
-        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/4e/Surveyor_3-Apollo_12.jpg/1280px-Surveyor_3-Apollo_12.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/4e/Surveyor_3-Apollo_12.jpg/500px-Surveyor_3-Apollo_12.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
         "alt": "Picture from the Wikipedia article on Apollo 12.",
         "credit": "NASA, Alan L. Bean",
         "source": "https://commons.wikimedia.org/wiki/File:Surveyor_3-Apollo_12.jpg",
         "license": "Public domain",
         "licenseUrl": "https://commons.wikimedia.org/wiki/File:Surveyor_3-Apollo_12.jpg"
+      }
+    },
+    {
+      "id": "11-19-malice-at-the-palace",
+      "date": "11-19",
+      "dateLabel": "19 November",
+      "category": "sport",
+      "categoryName": "Sport",
+      "year": 2004,
+      "title": "Malice at the Palace",
+      "body": "The worst brawl in NBA history results in several players being suspended. Several players and fans are charged with assault and battery.",
+      "source": {
+        "name": "Wikipedia · Malice at the Palace",
+        "url": "https://en.wikipedia.org/wiki/Malice_at_the_Palace",
+        "calendarUrl": "https://en.wikipedia.org/wiki/November_19",
+        "license": {
+          "name": "CC BY-SA 4.0",
+          "url": "https://creativecommons.org/licenses/by-sa/4.0/"
+        }
+      },
+      "image": {
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/61/Palace_of_Auburn_Hills.jpg/500px-Palace_of_Auburn_Hills.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "alt": "Picture from the Wikipedia article on Malice at the Palace.",
+        "credit": "Kevin Ward from Eastpointe, U.S",
+        "source": "https://commons.wikimedia.org/wiki/File:Palace_of_Auburn_Hills.jpg",
+        "license": "CC BY-SA 2.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0"
+      }
+    },
+    {
+      "id": "11-19-shenzhou-spacecraft",
+      "date": "11-19",
+      "dateLabel": "19 November",
+      "category": "space",
+      "categoryName": "Space",
+      "year": 1999,
+      "title": "Shenzhou",
+      "body": "The People's Republic of China launches its first Shenzhou spacecraft.",
+      "source": {
+        "name": "Wikipedia · Shenzhou (spacecraft)",
+        "url": "https://en.wikipedia.org/wiki/Shenzhou_(spacecraft)",
+        "calendarUrl": "https://en.wikipedia.org/wiki/November_19",
+        "license": {
+          "name": "CC BY-SA 4.0",
+          "url": "https://creativecommons.org/licenses/by-sa/4.0/"
+        }
+      },
+      "image": {
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/8c/Shenzhou_spacecraft_ground_test.png/500px-Shenzhou_spacecraft_ground_test.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "alt": "Picture from the Wikipedia article on Shenzhou.",
+        "credit": "Wikimedia Commons",
+        "source": "https://commons.wikimedia.org/wiki/File:Shenzhou_spacecraft_ground_test.png",
+        "license": "CC BY 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by/4.0"
       }
     },
     {
@@ -129,7 +129,7 @@
         }
       },
       "image": {
-        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/42/Football_in_Bloomington%2C_Indiana%2C_1995.jpg/1280px-Football_in_Bloomington%2C_Indiana%2C_1995.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/42/Football_in_Bloomington%2C_Indiana%2C_1995.jpg/500px-Football_in_Bloomington%2C_Indiana%2C_1995.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
         "alt": "Picture from the Wikipedia article on Association football.",
         "credit": "Rdikeman",
         "source": "https://commons.wikimedia.org/wiki/File:Football_in_Bloomington,_Indiana,_1995.jpg",

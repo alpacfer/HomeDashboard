@@ -3,33 +3,6 @@
   "dateLabel": "25 February",
   "facts": [
     {
-      "id": "02-25-warsaw-pact",
-      "date": "02-25",
-      "dateLabel": "25 February",
-      "category": "world",
-      "categoryName": "World",
-      "year": 1991,
-      "title": "Warsaw Pact",
-      "body": "Disbandment of the Warsaw Pact at a meeting of its members in Budapest.",
-      "source": {
-        "name": "Wikipedia · Warsaw Pact",
-        "url": "https://en.wikipedia.org/wiki/Warsaw_Pact",
-        "calendarUrl": "https://en.wikipedia.org/wiki/February_25",
-        "license": {
-          "name": "CC BY-SA 4.0",
-          "url": "https://creativecommons.org/licenses/by-sa/4.0/"
-        }
-      },
-      "image": {
-        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a8/Warsaw_Pact_in_1990_%28orthographic_projection%29.svg/1280px-Warsaw_Pact_in_1990_%28orthographic_projection%29.svg.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-        "alt": "Picture from the Wikipedia article on Warsaw Pact.",
-        "credit": "Rob984",
-        "source": "https://commons.wikimedia.org/wiki/File:Warsaw_Pact_in_1990_(orthographic_projection).svg",
-        "license": "CC BY-SA 4.0",
-        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0"
-      }
-    },
-    {
       "id": "02-25-george-frideric-handel",
       "date": "02-25",
       "dateLabel": "25 February",
@@ -48,39 +21,12 @@
         }
       },
       "image": {
-        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/fa/George_Frideric_Handel_by_Balthasar_Denner.jpg/1280px-George_Frideric_Handel_by_Balthasar_Denner.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/fa/George_Frideric_Handel_by_Balthasar_Denner.jpg/500px-George_Frideric_Handel_by_Balthasar_Denner.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
         "alt": "Picture from the Wikipedia article on George Frideric Handel.",
         "credit": "Attributed to Balthasar Denner",
         "source": "https://commons.wikimedia.org/wiki/File:George_Frideric_Handel_by_Balthasar_Denner.jpg",
         "license": "Public domain",
         "licenseUrl": "https://commons.wikimedia.org/wiki/File:George_Frideric_Handel_by_Balthasar_Denner.jpg"
-      }
-    },
-    {
-      "id": "02-25-samuel-colt",
-      "date": "02-25",
-      "dateLabel": "25 February",
-      "category": "science",
-      "categoryName": "Science",
-      "year": 1836,
-      "title": "Samuel Colt",
-      "body": "Samuel Colt is granted a United States patent for his revolver firearm.",
-      "source": {
-        "name": "Wikipedia · Samuel Colt",
-        "url": "https://en.wikipedia.org/wiki/Samuel_Colt",
-        "calendarUrl": "https://en.wikipedia.org/wiki/February_25",
-        "license": {
-          "name": "CC BY-SA 4.0",
-          "url": "https://creativecommons.org/licenses/by-sa/4.0/"
-        }
-      },
-      "image": {
-        "src": "https://upload.wikimedia.org/wikipedia/commons/c/c7/Samuel_Colt_engraving_by_John_Chester_Buttre%2C_c1855.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
-        "alt": "Picture from the Wikipedia article on Samuel Colt.",
-        "credit": "John Chester Buttre",
-        "source": "https://commons.wikimedia.org/wiki/File:Samuel_Colt_engraving_by_John_Chester_Buttre,_c1855.jpg",
-        "license": "Public domain",
-        "licenseUrl": "https://commons.wikimedia.org/wiki/File:Samuel_Colt_engraving_by_John_Chester_Buttre,_c1855.jpg"
       }
     },
     {
@@ -111,6 +57,60 @@
       }
     },
     {
+      "id": "02-25-samuel-colt",
+      "date": "02-25",
+      "dateLabel": "25 February",
+      "category": "science",
+      "categoryName": "Science",
+      "year": 1836,
+      "title": "Samuel Colt",
+      "body": "Samuel Colt is granted a United States patent for his revolver firearm.",
+      "source": {
+        "name": "Wikipedia · Samuel Colt",
+        "url": "https://en.wikipedia.org/wiki/Samuel_Colt",
+        "calendarUrl": "https://en.wikipedia.org/wiki/February_25",
+        "license": {
+          "name": "CC BY-SA 4.0",
+          "url": "https://creativecommons.org/licenses/by-sa/4.0/"
+        }
+      },
+      "image": {
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c7/Samuel_Colt_engraving_by_John_Chester_Buttre%2C_c1855.jpg/500px-Samuel_Colt_engraving_by_John_Chester_Buttre%2C_c1855.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "alt": "Picture from the Wikipedia article on Samuel Colt.",
+        "credit": "John Chester Buttre",
+        "source": "https://commons.wikimedia.org/wiki/File:Samuel_Colt_engraving_by_John_Chester_Buttre,_c1855.jpg",
+        "license": "Public domain",
+        "licenseUrl": "https://commons.wikimedia.org/wiki/File:Samuel_Colt_engraving_by_John_Chester_Buttre,_c1855.jpg"
+      }
+    },
+    {
+      "id": "02-25-warsaw-pact",
+      "date": "02-25",
+      "dateLabel": "25 February",
+      "category": "world",
+      "categoryName": "World",
+      "year": 1991,
+      "title": "Warsaw Pact",
+      "body": "Disbandment of the Warsaw Pact at a meeting of its members in Budapest.",
+      "source": {
+        "name": "Wikipedia · Warsaw Pact",
+        "url": "https://en.wikipedia.org/wiki/Warsaw_Pact",
+        "calendarUrl": "https://en.wikipedia.org/wiki/February_25",
+        "license": {
+          "name": "CC BY-SA 4.0",
+          "url": "https://creativecommons.org/licenses/by-sa/4.0/"
+        }
+      },
+      "image": {
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a8/Warsaw_Pact_in_1990_%28orthographic_projection%29.svg/500px-Warsaw_Pact_in_1990_%28orthographic_projection%29.svg.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "alt": "Picture from the Wikipedia article on Warsaw Pact.",
+        "credit": "Rob984",
+        "source": "https://commons.wikimedia.org/wiki/File:Warsaw_Pact_in_1990_(orthographic_projection).svg",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0"
+      }
+    },
+    {
       "id": "02-25-pan-american-games",
       "date": "02-25",
       "dateLabel": "25 February",
@@ -129,7 +129,7 @@
         }
       },
       "image": {
-        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/5c/Olympic_rings_without_rims.svg/1280px-Olympic_rings_without_rims.svg.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/5c/Olympic_rings_without_rims.svg/500px-Olympic_rings_without_rims.svg.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
         "alt": "Picture from the Wikipedia article on Pan American Games.",
         "credit": "Pierre de Coubertin",
         "source": "https://commons.wikimedia.org/wiki/File:Olympic_rings_without_rims.svg",

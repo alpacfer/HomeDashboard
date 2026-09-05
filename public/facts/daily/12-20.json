@@ -3,6 +3,33 @@
   "dateLabel": "20 December",
   "facts": [
     {
+      "id": "12-20-macau",
+      "date": "12-20",
+      "dateLabel": "20 December",
+      "category": "world",
+      "categoryName": "World",
+      "year": 1999,
+      "title": "Macau",
+      "body": "Macau is handed over to China by Portugal.",
+      "source": {
+        "name": "Wikipedia · Macau",
+        "url": "https://en.wikipedia.org/wiki/Macau",
+        "calendarUrl": "https://en.wikipedia.org/wiki/December_20",
+        "license": {
+          "name": "CC BY-SA 4.0",
+          "url": "https://creativecommons.org/licenses/by-sa/4.0/"
+        }
+      },
+      "image": {
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/63/Flag_of_Macau.svg/500px-Flag_of_Macau.svg.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "alt": "Picture from the Wikipedia article on Macau.",
+        "credit": "see File history",
+        "source": "https://commons.wikimedia.org/wiki/File:Flag_of_Macau.svg",
+        "license": "Public domain",
+        "licenseUrl": "https://commons.wikimedia.org/wiki/File:Flag_of_Macau.svg"
+      }
+    },
+    {
       "id": "12-20-state-council-of-china",
       "date": "12-20",
       "dateLabel": "20 December",
@@ -21,12 +48,39 @@
         }
       },
       "image": {
-        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/6b/%E4%B8%AD%E8%8F%AF%E4%BA%BA%E6%B0%91%E5%85%B1%E5%92%8C%E5%9C%8B%E5%9C%8B%E5%BE%BD.svg/1280px-%E4%B8%AD%E8%8F%AF%E4%BA%BA%E6%B0%91%E5%85%B1%E5%92%8C%E5%9C%8B%E5%9C%8B%E5%BE%BD.svg.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/6b/%E4%B8%AD%E8%8F%AF%E4%BA%BA%E6%B0%91%E5%85%B1%E5%92%8C%E5%9C%8B%E5%9C%8B%E5%BE%BD.svg/500px-%E4%B8%AD%E8%8F%AF%E4%BA%BA%E6%B0%91%E5%85%B1%E5%92%8C%E5%9C%8B%E5%9C%8B%E5%BE%BD.svg.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
         "alt": "Picture from the Wikipedia article on State Council of China.",
         "credit": "multiple people, e.g",
         "source": "https://commons.wikimedia.org/wiki/File:%E4%B8%AD%E8%8F%AF%E4%BA%BA%E6%B0%91%E5%85%B1%E5%92%8C%E5%9C%8B%E5%9C%8B%E5%BE%BD.svg",
         "license": "Public domain",
         "licenseUrl": "https://commons.wikimedia.org/wiki/File:%E4%B8%AD%E8%8F%AF%E4%BA%BA%E6%B0%91%E5%85%B1%E5%92%8C%E5%9C%8B%E5%9C%8B%E5%BE%BD.svg"
+      }
+    },
+    {
+      "id": "12-20-northern-bank-robbery",
+      "date": "12-20",
+      "dateLabel": "20 December",
+      "category": "world",
+      "categoryName": "World",
+      "year": 2004,
+      "title": "Northern Bank robbery",
+      "body": "A gang of thieves steal £26.5 million worth of currency from the Donegall Square West headquarters of Northern Bank in Belfast, Northern Ireland, United Kingdom, one of the largest bank robberies in British history.",
+      "source": {
+        "name": "Wikipedia · Northern Bank robbery",
+        "url": "https://en.wikipedia.org/wiki/Northern_Bank_robbery",
+        "calendarUrl": "https://en.wikipedia.org/wiki/December_20",
+        "license": {
+          "name": "CC BY-SA 4.0",
+          "url": "https://creativecommons.org/licenses/by-sa/4.0/"
+        }
+      },
+      "image": {
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/9d/Northern_Bank%2C_Belfast%2C_May_2010.JPG/500px-Northern_Bank%2C_Belfast%2C_May_2010.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "alt": "Picture from the Wikipedia article on Northern Bank robbery.",
+        "credit": "Ardfern",
+        "source": "https://commons.wikimedia.org/wiki/File:Northern_Bank,_Belfast,_May_2010.JPG",
+        "license": "CC BY-SA 3.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0"
       }
     },
     {
@@ -48,7 +102,7 @@
         }
       },
       "image": {
-        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/29/Seal_of_the_United_States_Space_Force.svg/1280px-Seal_of_the_United_States_Space_Force.svg.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/29/Seal_of_the_United_States_Space_Force.svg/500px-Seal_of_the_United_States_Space_Force.svg.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
         "alt": "Picture from the Wikipedia article on United States Space Force.",
         "credit": "United States Space Force",
         "source": "https://commons.wikimedia.org/wiki/File:Seal_of_the_United_States_Space_Force.svg",
@@ -75,76 +129,12 @@
         }
       },
       "image": {
-        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/cf/EBR-1%2C_August_2012.jpg/1280px-EBR-1%2C_August_2012.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/cf/EBR-1%2C_August_2012.jpg/500px-EBR-1%2C_August_2012.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
         "alt": "Picture from the Wikipedia article on Experimental Breeder Reactor I.",
         "credit": "Orange Suede Sofa",
         "source": "https://commons.wikimedia.org/wiki/File:EBR-1,_August_2012.jpg",
         "license": "CC BY-SA 3.0",
         "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0"
-      }
-    },
-    {
-      "id": "12-20-it-s-a-wonderful-life",
-      "date": "12-20",
-      "dateLabel": "20 December",
-      "category": "world",
-      "categoryName": "World",
-      "year": 1946,
-      "title": "It's a Wonderful Life",
-      "body": "It's a Wonderful Life premieres at the Globe Theatre in New York to mixed reviews. [1]",
-      "source": {
-        "name": "Wikipedia · It's a Wonderful Life",
-        "url": "https://en.wikipedia.org/wiki/It%27s_a_Wonderful_Life",
-        "calendarUrl": "https://en.wikipedia.org/wiki/December_20",
-        "license": {
-          "name": "CC BY-SA 4.0",
-          "url": "https://creativecommons.org/licenses/by-sa/4.0/"
-        }
-      },
-      "video": {
-        "src": "https://upload.wikimedia.org/wikipedia/commons/transcoded/0/0c/It%27s_A_Wonderful_Life_trailer_%281946%29.webm/It%27s_A_Wonderful_Life_trailer_%281946%29.webm.240p.vp9.webm",
-        "fallback": "https://upload.wikimedia.org/wikipedia/commons/transcoded/0/0c/It%27s_A_Wonderful_Life_trailer_%281946%29.webm/It%27s_A_Wonderful_Life_trailer_%281946%29.webm.360p.mpeg4.mov",
-        "poster": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/0c/It%27s_A_Wonderful_Life_trailer_%281946%29.webm/1280px--It%27s_A_Wonderful_Life_trailer_%281946%29.webm.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo",
-        "seconds": 104,
-        "credit": "Frank Capra",
-        "source": "https://commons.wikimedia.org/wiki/File:It%27s_A_Wonderful_Life_trailer_(1946).webm",
-        "license": "Public domain",
-        "licenseUrl": "https://commons.wikimedia.org/wiki/File:It%27s_A_Wonderful_Life_trailer_(1946).webm"
-      },
-      "image": {
-        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/25/It%27s_a_Wonderful_Life_%281946_poster%29.jpeg/1280px-It%27s_a_Wonderful_Life_%281946_poster%29.jpeg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-        "alt": "Picture from the Wikipedia article on It's a Wonderful Life.",
-        "credit": "\"Copyright 1946 RKO Radio Pictures Inc.\"",
-        "source": "https://commons.wikimedia.org/wiki/File:It%27s_a_Wonderful_Life_(1946_poster).jpeg",
-        "license": "Public domain",
-        "licenseUrl": "https://commons.wikimedia.org/wiki/File:It%27s_a_Wonderful_Life_(1946_poster).jpeg"
-      }
-    },
-    {
-      "id": "12-20-macau",
-      "date": "12-20",
-      "dateLabel": "20 December",
-      "category": "world",
-      "categoryName": "World",
-      "year": 1999,
-      "title": "Macau",
-      "body": "Macau is handed over to China by Portugal.",
-      "source": {
-        "name": "Wikipedia · Macau",
-        "url": "https://en.wikipedia.org/wiki/Macau",
-        "calendarUrl": "https://en.wikipedia.org/wiki/December_20",
-        "license": {
-          "name": "CC BY-SA 4.0",
-          "url": "https://creativecommons.org/licenses/by-sa/4.0/"
-        }
-      },
-      "image": {
-        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/63/Flag_of_Macau.svg/1280px-Flag_of_Macau.svg.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-        "alt": "Picture from the Wikipedia article on Macau.",
-        "credit": "see File history",
-        "source": "https://commons.wikimedia.org/wiki/File:Flag_of_Macau.svg",
-        "license": "Public domain",
-        "licenseUrl": "https://commons.wikimedia.org/wiki/File:Flag_of_Macau.svg"
       }
     }
   ]

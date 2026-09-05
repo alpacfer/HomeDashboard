@@ -235,7 +235,16 @@ a:focus-visible { outline:2px solid var(--foreground); outline-offset:8px; }
 .daily-fact-heading { display:grid; grid-template-columns:auto auto; justify-content:start; align-items:baseline; gap:.7vw; min-height:5.2vh; color:var(--muted); font-size:.9vw; line-height:1; text-transform:uppercase; letter-spacing:.08em; }
 .daily-fact-heading strong { color:var(--fact-accent); font-size:1.2vw; }
 .daily-fact-heading time { grid-column:1 / -1; margin-top:.45vh; color:var(--foreground); font-size:1.15vw; font-variant-numeric:tabular-nums; }
+/* The row is split by what the illustration is shaped like. A still is always
+   cropped to 4:3, so `boxy` is the split the panel was built around and stays
+   the default. A clip is never cropped — see .fact-illustration video — so a
+   wide one is given more of the row rather than having a third of its frame
+   thrown away, and a tall one is given less, because the alternative is a
+   column of letterbox and a headline squeezed against it. The shape is decided
+   by mediaShape() in lib/daily-facts.ts, not here. */
 .fact-feature { flex:1; display:grid; grid-template-columns:minmax(0,1.5fr) minmax(0,1fr); align-items:center; gap:1.8vw; padding:3vh 0; }
+.fact-feature.media-wide { grid-template-columns:minmax(0,1fr) minmax(0,1.32fr); }
+.fact-feature.media-tall { grid-template-columns:minmax(0,2fr) minmax(0,.72fr); }
 .fact-copy { min-width:0; }
 .fact-year { display:flex; align-items:baseline; gap:.7vw; margin:0 0 1.3vh; line-height:1; }
 .fact-year strong { color:var(--fact-accent); font-size:2.5vw; font-weight:700; letter-spacing:-.045em; font-variant-numeric:lining-nums tabular-nums; }
@@ -245,6 +254,24 @@ a:focus-visible { outline:2px solid var(--foreground); outline-offset:8px; }
 .fact-illustration { margin:0; min-width:0; }
 .fact-illustration img,
 .fact-illustration video { display:block; width:100%; aspect-ratio:4/3; max-height:45vh; object-fit:cover; object-position:center; border-radius:.6vw; background:#19191c; }
+/* The clip is decoration and carries no sound, so it needs no controls and
+   must never be mistaken for something to press: there is no pointer on this
+   wall. The poster covers the gap before the first frame paints. */
+.fact-video { pointer-events:none; }
+.fact-video::-webkit-media-controls { display:none !important; }
+/* A clip is shown whole. --media-ar is the transcode's real ratio, set on the
+   figure by the panel, so the box is the shape of the picture and `cover` has
+   nothing left to crop. A still keeps the 4:3 rule above: cropping a photograph
+   loses framing, cropping a film loses the shot. Height is capped so a tall
+   clip cannot push the credit off the panel; width follows from the ratio. */
+/* height:auto is load-bearing. width and height on a media element are
+   presentational hints, and a fixed height leaves aspect-ratio nothing to
+   solve for: the clip was drawn 288 by 433 — its stated height, capped by
+   max-height — instead of 288 by 145. The attributes now carry the clip's own
+   size so the box is right before any CSS arrives, and this lets the ratio
+   drive the height once it does. */
+.fact-illustration.has-video video { aspect-ratio:var(--media-ar); height:auto; }
+.fact-illustration.has-video.media-tall video { max-height:52vh; width:auto; max-width:100%; margin-inline:auto; }
 /* The clip is decoration and carries no sound, so it needs no controls and
    must never be mistaken for something to press: there is no pointer on this
    wall. The poster covers the gap before the first frame paints. */

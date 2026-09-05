@@ -48,7 +48,7 @@
         }
       },
       "image": {
-        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a5/Ethiopia%2C_the_Ogaden_Region._LOC_91682434.jpg/1280px-Ethiopia%2C_the_Ogaden_Region._LOC_91682434.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a5/Ethiopia%2C_the_Ogaden_Region._LOC_91682434.jpg/500px-Ethiopia%2C_the_Ogaden_Region._LOC_91682434.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
         "alt": "Picture from the Wikipedia article on Ogaden.",
         "credit": "United States",
         "source": "https://commons.wikimedia.org/wiki/File:Ethiopia,_the_Ogaden_Region._LOC_91682434.jpg",
@@ -75,39 +75,12 @@
         }
       },
       "image": {
-        "src": "https://upload.wikimedia.org/wikipedia/commons/1/15/Studio_portrait_photograph_of_Edwin_Powell_Hubble_%28cropped%29.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/15/Studio_portrait_photograph_of_Edwin_Powell_Hubble_%28cropped%29.JPG/500px-Studio_portrait_photograph_of_Edwin_Powell_Hubble_%28cropped%29.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
         "alt": "Picture from the Wikipedia article on Edwin Hubble.",
         "credit": "Johan Hagemeyer",
         "source": "https://commons.wikimedia.org/wiki/File:Studio_portrait_photograph_of_Edwin_Powell_Hubble_(cropped).JPG",
         "license": "Public domain",
         "licenseUrl": "https://commons.wikimedia.org/wiki/File:Studio_portrait_photograph_of_Edwin_Powell_Hubble_(cropped).JPG"
-      }
-    },
-    {
-      "id": "11-23-jacques-mayol",
-      "date": "11-23",
-      "dateLabel": "23 November",
-      "category": "world",
-      "categoryName": "World",
-      "year": 1976,
-      "title": "Jacques Mayol",
-      "body": "Jacques Mayol is the first man to reach a depth of undersea without breathing equipment.",
-      "source": {
-        "name": "Wikipedia · Jacques Mayol",
-        "url": "https://en.wikipedia.org/wiki/Jacques_Mayol",
-        "calendarUrl": "https://en.wikipedia.org/wiki/November_23",
-        "license": {
-          "name": "CC BY-SA 4.0",
-          "url": "https://creativecommons.org/licenses/by-sa/4.0/"
-        }
-      },
-      "image": {
-        "src": "https://upload.wikimedia.org/wikipedia/commons/b/bd/Record_mondial_de_poids_constant_-_62_m_en_1989.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
-        "alt": "Picture from the Wikipedia article on Jacques Mayol.",
-        "credit": "Razeurmamba",
-        "source": "https://commons.wikimedia.org/wiki/File:Record_mondial_de_poids_constant_-_62_m_en_1989.png",
-        "license": "CC BY-SA 4.0",
-        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0"
       }
     },
     {
@@ -135,6 +108,33 @@
         "source": "https://commons.wikimedia.org/wiki/File:Ellen_Johnson-Sirleaf_(2022)_(cropped).jpg",
         "license": "Public domain",
         "licenseUrl": "https://commons.wikimedia.org/wiki/File:Ellen_Johnson-Sirleaf_(2022)_(cropped).jpg"
+      }
+    },
+    {
+      "id": "11-23-jacques-mayol",
+      "date": "11-23",
+      "dateLabel": "23 November",
+      "category": "world",
+      "categoryName": "World",
+      "year": 1976,
+      "title": "Jacques Mayol",
+      "body": "Jacques Mayol is the first man to reach a depth of undersea without breathing equipment.",
+      "source": {
+        "name": "Wikipedia · Jacques Mayol",
+        "url": "https://en.wikipedia.org/wiki/Jacques_Mayol",
+        "calendarUrl": "https://en.wikipedia.org/wiki/November_23",
+        "license": {
+          "name": "CC BY-SA 4.0",
+          "url": "https://creativecommons.org/licenses/by-sa/4.0/"
+        }
+      },
+      "image": {
+        "src": "https://upload.wikimedia.org/wikipedia/commons/b/bd/Record_mondial_de_poids_constant_-_62_m_en_1989.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+        "alt": "Picture from the Wikipedia article on Jacques Mayol.",
+        "credit": "Razeurmamba",
+        "source": "https://commons.wikimedia.org/wiki/File:Record_mondial_de_poids_constant_-_62_m_en_1989.png",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0"
       }
     }
   ]

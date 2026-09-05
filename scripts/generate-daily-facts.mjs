@@ -10,7 +10,8 @@
 // something the display does.
 
 import { existsSync } from 'node:fs';
-import { mkdir, readFile, rm, writeFile } from 'node:fs/promises';
+import { createHash } from 'node:crypto';
+import { mkdir, readFile, readdir, rm, stat, writeFile } from 'node:fs/promises';
 import {
   CATEGORIES, FACTS_PER_DAY, VIDEOS_PER_DAY, WORLD, chooseFacts, isRecent, measurableLinks, parseEntries, plainText,
   readableBody, scoreEntry, tidyCredit, videoEarnsItsPlace,
@@ -51,10 +52,69 @@ for (let month = 1; month <= 12; month++) {
   }
 }
 
+// Every upstream answer is kept on disk, because a refresh asks Wikimedia for
+// about seventeen thousand things and almost none of them change between runs.
+// Before this, adding one field to the eighteen facts that carry a clip meant
+// re-reading 366 calendar pages, 5,884 articles and 4,814 file descriptions —
+// eighteen minutes, and eighteen minutes again for the next small change.
+//
+// The cache is on by default and `--refresh` ignores it, which is the way
+// round that makes the cheap thing easy and the expensive thing deliberate.
+// A cached run reproduces the calendar exactly; only `--refresh` can discover
+// that Wikipedia has changed. The run prints the cache's age so a stale one is
+// never invisible.
+const CACHE_DIR = new URL('../.cache/daily-facts/', import.meta.url);
+const refreshing = process.argv.includes('--refresh');
+const cacheStats = { hit: 0, miss: 0 };
+
+function cacheKey(kind, payload) {
+  return `${kind}-${createHash('sha1').update(payload).digest('hex').slice(0, 32)}.json`;
+}
+
+async function cached(kind, payload, fetcher) {
+  const file = new URL(cacheKey(kind, payload), CACHE_DIR);
+  if (!refreshing) {
+    try {
+      const hit = JSON.parse(await readFile(file, 'utf8'));
+      cacheStats.hit += 1;
+      return hit;
+    } catch { /* A miss, a half-written file, or no cache yet. Ask upstream. */ }
+  }
+  const fresh = await fetcher();
+  cacheStats.miss += 1;
+  // Written through a temporary name so an interrupted run cannot leave a
+  // truncated file that later parses as a valid but wrong answer.
+  const temporary = new URL(`${cacheKey(kind, payload)}.${process.pid}.tmp`, CACHE_DIR);
+  await writeFile(temporary, JSON.stringify(fresh));
+  await rm(file, { force: true });
+  await writeFile(file, JSON.stringify(fresh));
+  await rm(temporary, { force: true });
+  return fresh;
+}
+
+async function cacheAge() {
+  try {
+    const files = await readdir(CACHE_DIR);
+    if (!files.length) return null;
+    let oldest = Infinity;
+    for (const name of files.slice(0, 200)) {
+      const info = await stat(new URL(name, CACHE_DIR));
+      oldest = Math.min(oldest, info.mtimeMs);
+    }
+    return Number.isFinite(oldest) ? Math.round((Date.now() - oldest) / 86_400_000) : null;
+  } catch { return null; }
+}
+
 const pause = ms => new Promise(resolve => setTimeout(resolve, ms));
 let lastRequestAt = 0;
 
-async function api(endpoint, params, attempt = 0) {
+// The cache wraps the request, not the retry loop: a run that had to back off
+// through a 429 still stores one clean answer.
+async function api(endpoint, params) {
+  return cached('api', endpoint + '\n' + JSON.stringify(params), () => apiRequest(endpoint, params));
+}
+
+async function apiRequest(endpoint, params, attempt = 0) {
   const delay = Math.max(0, 1_100 - (Date.now() - lastRequestAt));
   if (delay) await pause(delay);
   lastRequestAt = Date.now();
@@ -76,18 +136,18 @@ async function api(endpoint, params, attempt = 0) {
     // should end the run.
     if (attempt >= 6) throw error;
     await pause((2 ** attempt) * 1000);
-    return api(endpoint, params, attempt + 1);
+    return apiRequest(endpoint, params, attempt + 1);
   }
   if ((response.status === 429 || response.status >= 500) && attempt < 6) {
     const retry = Math.max(2, Number(response.headers.get('retry-after')) || 2 ** attempt);
     await pause(retry * 1000);
-    return api(endpoint, params, attempt + 1);
+    return apiRequest(endpoint, params, attempt + 1);
   }
   if (!response.ok) throw new Error(`${endpoint}: HTTP ${response.status}`);
   const data = await response.json();
   if (data.error?.code === 'maxlag' && attempt < 6) {
     await pause((2 ** attempt) * 1000);
-    return api(endpoint, params, attempt + 1);
+    return apiRequest(endpoint, params, attempt + 1);
   }
   if (data.error) throw new Error(`${data.error.code}: ${data.error.info}`);
   return data;
@@ -117,6 +177,14 @@ function readableTitle(page, fallback) {
   const display = plainText(page?.displaytitle ?? '') || page?.title || fallback;
   return display.replace(/\s*\([^)]*\)\s*$/, '').trim() || fallback;
 }
+
+await mkdir(CACHE_DIR, { recursive: true });
+const age = await cacheAge();
+console.log(refreshing
+  ? 'Refreshing: every upstream answer will be re-fetched and the cache rewritten.'
+  : age === null
+    ? 'No local cache yet. This run fills it; the next one will not need the network.'
+    : `Using the local cache in .cache/daily-facts (oldest entry ${age} day${age === 1 ? '' : 's'} old). Pass --refresh to re-ask upstream.`);
 
 console.log('Reading the 366 English Wikipedia calendar pages...');
 const datePages = new Map();
@@ -157,6 +225,10 @@ if (viewsCache && existsSync(viewsCache)) {
 const viewQueue = viewTitles.filter(title => !views.has(title));
 let viewsDone = 0;
 async function readViews(title) {
+  return cached('views', `${VIEWS_WINDOW.join('-')}\n${title}`, () => readViewsRequest(title));
+}
+
+async function readViewsRequest(title) {
   const url = `${PAGEVIEWS}/${encodeURIComponent(title.replace(/ /g, '_'))}/monthly/${VIEWS_WINDOW[0]}/${VIEWS_WINDOW[1]}`;
   for (let attempt = 0; attempt < 3; attempt++) {
     try {
@@ -245,7 +317,7 @@ for (const batch of chunks(imageTitles)) {
     action: 'query',
     prop: 'imageinfo',
     iiprop: 'url|extmetadata',
-    iiurlwidth: '1000',
+    iiurlwidth: '480',
     iiextmetadatalanguage: 'en',
     iiextmetadatafilter: 'Artist|Credit|Attribution|LicenseShortName|LicenseUrl|ImageDescription|UsageTerms',
     titles: batch.join('|'),
@@ -295,9 +367,16 @@ for (const batch of chunks(clipTitles)) {
 function playableVideo(info) {
   const derivatives = info.derivatives ?? [];
   const pick = key => derivatives.find(derivative => derivative.transcodekey === key)?.src;
-  const src = pick('240p.vp9.webm') ?? pick('360p.vp9.webm');
+  const chosen = derivatives.find(derivative => derivative.transcodekey === '240p.vp9.webm')
+    ?? derivatives.find(derivative => derivative.transcodekey === '360p.vp9.webm');
+  const src = chosen?.src;
   const fallback = pick('360p.mpeg4.mov') ?? pick('480p.mpeg4.mov');
   if (!src) return null;
+  // The transcode's own size, not the source file's. They agree on shape, but
+  // the panel is laid out from the thing that actually plays.
+  const width = Number(chosen.width ?? info.width);
+  const height = Number(chosen.height ?? info.height);
+  if (!Number.isInteger(width) || !Number.isInteger(height) || width <= 0 || height <= 0) return null;
   const metadata = info.extmetadata ?? {};
   let licenseUrl = metadata.LicenseUrl?.value || info.descriptionurl;
   if (licenseUrl.startsWith('//')) licenseUrl = `https:${licenseUrl}`;
@@ -305,6 +384,8 @@ function playableVideo(info) {
   return {
     src,
     ...(fallback ? { fallback } : {}),
+    width,
+    height,
     poster: info.thumburl,
     seconds: Math.round(info.duration ?? 0),
     credit: tidyCredit(metadataValue(metadata, 'Attribution') || metadataValue(metadata, 'Artist') || metadataValue(metadata, 'Credit')),
@@ -431,6 +512,8 @@ await writeFile(new URL('index.json', OUTPUT), `${JSON.stringify({
   facts: total,
 }, null, 2)}\n`);
 
+const asked = cacheStats.hit + cacheStats.miss;
+console.log(`${cacheStats.hit} of ${asked} upstream answers came from the local cache, ${cacheStats.miss} from the network.`);
 console.log(`Generated ${total} facts across ${dates.length} dates.`);
 console.log(`${recentFacts} are from the last few years (${Math.round(100 * recentFacts / total)}%).`);
 console.log(`${videoFacts} carry a clip that earned it; the rest are the photograph they always were.`);

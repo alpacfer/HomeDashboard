@@ -21,7 +21,7 @@
         }
       },
       "image": {
-        "src": "https://upload.wikimedia.org/wikipedia/commons/9/93/J._D._Salinger_%28Catcher_in_the_Rye_portrait%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/93/J._D._Salinger_%28Catcher_in_the_Rye_portrait%29.jpg/500px-J._D._Salinger_%28Catcher_in_the_Rye_portrait%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
         "alt": "Picture from the Wikipedia article on J. D. Salinger.",
         "credit": "Lotte Jacobi",
         "source": "https://commons.wikimedia.org/wiki/File:J._D._Salinger_(Catcher_in_the_Rye_portrait).jpg",
@@ -50,6 +50,8 @@
       "video": {
         "src": "https://upload.wikimedia.org/wikipedia/commons/transcoded/a/a6/Apollo_11_Landing_-_first_steps_on_the_moon.ogv/Apollo_11_Landing_-_first_steps_on_the_moon.ogv.240p.vp9.webm",
         "fallback": "https://upload.wikimedia.org/wikipedia/commons/transcoded/a/a6/Apollo_11_Landing_-_first_steps_on_the_moon.ogv/Apollo_11_Landing_-_first_steps_on_the_moon.ogv.360p.mpeg4.mov",
+        "width": 320,
+        "height": 240,
         "poster": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a6/Apollo_11_Landing_-_first_steps_on_the_moon.ogv/250px--Apollo_11_Landing_-_first_steps_on_the_moon.ogv.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo",
         "seconds": 62,
         "credit": "NASA",
@@ -58,7 +60,7 @@
         "licenseUrl": "https://commons.wikimedia.org/wiki/File:Apollo_11_Landing_-_first_steps_on_the_moon.ogv"
       },
       "image": {
-        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/41/A_Man_on_the_Moon%2C_AS11-40-5903_%28cropped%29.jpg/1280px-A_Man_on_the_Moon%2C_AS11-40-5903_%28cropped%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/41/A_Man_on_the_Moon%2C_AS11-40-5903_%28cropped%29.jpg/500px-A_Man_on_the_Moon%2C_AS11-40-5903_%28cropped%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
         "alt": "Picture from the Wikipedia article on Apollo 11.",
         "credit": "Neil A. Armstrong",
         "source": "https://commons.wikimedia.org/wiki/File:A_Man_on_the_Moon,_AS11-40-5903_(cropped).jpg",
@@ -67,17 +69,17 @@
       }
     },
     {
-      "id": "07-16-john-robertson-duigan",
+      "id": "07-16-mohammad-ali-shah-qajar",
       "date": "07-16",
       "dateLabel": "16 July",
       "category": "world",
       "categoryName": "World",
-      "year": 1910,
-      "title": "John Robertson Duigan",
-      "body": "John Robertson Duigan makes the first flight of the Duigan pusher biplane, the first aircraft built in Australia.",
+      "year": 1909,
+      "title": "Mohammad Ali Shah Qajar",
+      "body": "Mohammad Ali Shah Qajar is forced out as Shah of Persia and is replaced by his son Ahmad Shah Qajar.",
       "source": {
-        "name": "Wikipedia · John Robertson Duigan",
-        "url": "https://en.wikipedia.org/wiki/John_Robertson_Duigan",
+        "name": "Wikipedia · Mohammad Ali Shah Qajar",
+        "url": "https://en.wikipedia.org/wiki/Mohammad_Ali_Shah_Qajar",
         "calendarUrl": "https://en.wikipedia.org/wiki/July_16",
         "license": {
           "name": "CC BY-SA 4.0",
@@ -85,12 +87,12 @@
         }
       },
       "image": {
-        "src": "https://upload.wikimedia.org/wikipedia/commons/c/c0/John_R._Duigan.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
-        "alt": "Picture from the Wikipedia article on John Robertson Duigan.",
-        "credit": "Unknown author",
-        "source": "https://commons.wikimedia.org/wiki/File:John_R._Duigan.jpg",
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/09/Mohammad_Ali_Shah.jpg/500px-Mohammad_Ali_Shah.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "alt": "Picture from the Wikipedia article on Mohammad Ali Shah Qajar.",
+        "credit": "Wikimedia Commons",
+        "source": "https://commons.wikimedia.org/wiki/File:Mohammad_Ali_Shah.jpg",
         "license": "Public domain",
-        "licenseUrl": "https://commons.wikimedia.org/wiki/File:John_R._Duigan.jpg"
+        "licenseUrl": "https://commons.wikimedia.org/wiki/File:Mohammad_Ali_Shah.jpg"
       }
     },
     {
@@ -112,7 +114,7 @@
         }
       },
       "image": {
-        "src": "https://upload.wikimedia.org/wikipedia/commons/b/b8/Max_Reger_playing_piano.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b8/Max_Reger_playing_piano.jpg/500px-Max_Reger_playing_piano.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
         "alt": "Picture from the Wikipedia article on Max Reger.",
         "credit": "Rudolf Dührkoop",
         "source": "https://commons.wikimedia.org/wiki/File:Max_Reger_playing_piano.jpg",
@@ -121,17 +123,17 @@
       }
     },
     {
-      "id": "07-16-mont-blanc-tunnel",
+      "id": "07-16-emperor-of-ethiopia",
       "date": "07-16",
       "dateLabel": "16 July",
       "category": "world",
       "categoryName": "World",
-      "year": 1965,
-      "title": "Mont Blanc Tunnel",
-      "body": "The Mont Blanc Tunnel linking France and Italy opens.",
+      "year": 1931,
+      "title": "Emperor of Ethiopia",
+      "body": "Emperor Haile Selassie signs the first constitution of Ethiopia.",
       "source": {
-        "name": "Wikipedia · Mont Blanc Tunnel",
-        "url": "https://en.wikipedia.org/wiki/Mont_Blanc_Tunnel",
+        "name": "Wikipedia · Emperor of Ethiopia",
+        "url": "https://en.wikipedia.org/wiki/Emperor_of_Ethiopia",
         "calendarUrl": "https://en.wikipedia.org/wiki/July_16",
         "license": {
           "name": "CC BY-SA 4.0",
@@ -139,12 +141,12 @@
         }
       },
       "image": {
-        "src": "https://upload.wikimedia.org/wikipedia/commons/9/96/Tunnel_du_mont-blanc_cot%C3%A9_italien.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
-        "alt": "Picture from the Wikipedia article on Mont Blanc Tunnel.",
-        "credit": "Photo prise par François Trazzi",
-        "source": "https://commons.wikimedia.org/wiki/File:Tunnel_du_mont-blanc_cot%C3%A9_italien.jpg",
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/ef/Imperial_coat_of_arms_of_Ethiopia_%28Haile_Selassie%29.svg/500px-Imperial_coat_of_arms_of_Ethiopia_%28Haile_Selassie%29.svg.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "alt": "Picture from the Wikipedia article on Emperor of Ethiopia.",
+        "credit": "This SVG coat of arms includes elements",
+        "source": "https://commons.wikimedia.org/wiki/File:Imperial_coat_of_arms_of_Ethiopia_(Haile_Selassie).svg",
         "license": "CC BY-SA 3.0",
-        "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0/"
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0"
       }
     }
   ]

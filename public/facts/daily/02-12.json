@@ -21,7 +21,7 @@
         }
       },
       "image": {
-        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/50/Venera_1_%28a%29_%28Memorial_Museum_of_Astronautics%29.JPG/1280px-Venera_1_%28a%29_%28Memorial_Museum_of_Astronautics%29.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/50/Venera_1_%28a%29_%28Memorial_Museum_of_Astronautics%29.JPG/500px-Venera_1_%28a%29_%28Memorial_Museum_of_Astronautics%29.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
         "alt": "Picture from the Wikipedia article on Venera 1.",
         "credit": "Armael",
         "source": "https://commons.wikimedia.org/wiki/File:Venera_1_(a)_(Memorial_Museum_of_Astronautics).JPG",
@@ -48,12 +48,39 @@
         }
       },
       "image": {
-        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/15/Nasjonalgalleriet_oslo.jpg/1280px-Nasjonalgalleriet_oslo.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/15/Nasjonalgalleriet_oslo.jpg/500px-Nasjonalgalleriet_oslo.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
         "alt": "Picture from the Wikipedia article on National Gallery.",
         "credit": "Bjørn Erik Pedersen",
         "source": "https://commons.wikimedia.org/wiki/File:Nasjonalgalleriet_oslo.jpg",
         "license": "CC BY-SA 3.0",
         "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0/"
+      }
+    },
+    {
+      "id": "02-12-aleksandr-solzhenitsyn",
+      "date": "02-12",
+      "dateLabel": "12 February",
+      "category": "science",
+      "categoryName": "Science",
+      "year": 1974,
+      "title": "Aleksandr Solzhenitsyn",
+      "body": "Aleksandr Solzhenitsyn, winner of the Nobel Prize in Literature in 1970, is exiled from the Soviet Union.",
+      "source": {
+        "name": "Wikipedia · Aleksandr Solzhenitsyn",
+        "url": "https://en.wikipedia.org/wiki/Aleksandr_Solzhenitsyn",
+        "calendarUrl": "https://en.wikipedia.org/wiki/February_12",
+        "license": {
+          "name": "CC BY-SA 4.0",
+          "url": "https://creativecommons.org/licenses/by-sa/4.0/"
+        }
+      },
+      "image": {
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/8d/Aleksandr_Solzhenitsyn_1974crop.jpg/500px-Aleksandr_Solzhenitsyn_1974crop.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "alt": "Picture from the Wikipedia article on Aleksandr Solzhenitsyn.",
+        "credit": "Bert Verhoeff for Anefo",
+        "source": "https://commons.wikimedia.org/wiki/File:Aleksandr_Solzhenitsyn_1974crop.jpg",
+        "license": "CC0",
+        "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/deed.en"
       }
     },
     {
@@ -81,33 +108,6 @@
         "source": "https://commons.wikimedia.org/wiki/File:Carmen_Lawrence_1990_(cropped).png",
         "license": "CC BY-SA 2.0",
         "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0"
-      }
-    },
-    {
-      "id": "02-12-aleksandr-solzhenitsyn",
-      "date": "02-12",
-      "dateLabel": "12 February",
-      "category": "science",
-      "categoryName": "Science",
-      "year": 1974,
-      "title": "Aleksandr Solzhenitsyn",
-      "body": "Aleksandr Solzhenitsyn, winner of the Nobel Prize in Literature in 1970, is exiled from the Soviet Union.",
-      "source": {
-        "name": "Wikipedia · Aleksandr Solzhenitsyn",
-        "url": "https://en.wikipedia.org/wiki/Aleksandr_Solzhenitsyn",
-        "calendarUrl": "https://en.wikipedia.org/wiki/February_12",
-        "license": {
-          "name": "CC BY-SA 4.0",
-          "url": "https://creativecommons.org/licenses/by-sa/4.0/"
-        }
-      },
-      "image": {
-        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/8d/Aleksandr_Solzhenitsyn_1974crop.jpg/1280px-Aleksandr_Solzhenitsyn_1974crop.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-        "alt": "Picture from the Wikipedia article on Aleksandr Solzhenitsyn.",
-        "credit": "Bert Verhoeff for Anefo",
-        "source": "https://commons.wikimedia.org/wiki/File:Aleksandr_Solzhenitsyn_1974crop.jpg",
-        "license": "CC0",
-        "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/deed.en"
       }
     },
     {

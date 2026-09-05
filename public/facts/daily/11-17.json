@@ -21,66 +21,12 @@
         }
       },
       "image": {
-        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/79/Soviet_moonrover.JPG/1280px-Soviet_moonrover.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/79/Soviet_moonrover.JPG/500px-Soviet_moonrover.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
         "alt": "Picture from the Wikipedia article on Lunokhod 1.",
         "credit": "Petar Milošević",
         "source": "https://commons.wikimedia.org/wiki/File:Soviet_moonrover.JPG",
         "license": "CC BY-SA 3.0",
         "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0"
-      }
-    },
-    {
-      "id": "11-17-tartu-art-museum",
-      "date": "11-17",
-      "dateLabel": "17 November",
-      "category": "culture",
-      "categoryName": "Culture",
-      "year": 1940,
-      "title": "Tartu Art Museum",
-      "body": "The Tartu Art Museum is established in Tartu, Estonia.",
-      "source": {
-        "name": "Wikipedia · Tartu Art Museum",
-        "url": "https://en.wikipedia.org/wiki/Tartu_Art_Museum",
-        "calendarUrl": "https://en.wikipedia.org/wiki/November_17",
-        "license": {
-          "name": "CC BY-SA 4.0",
-          "url": "https://creativecommons.org/licenses/by-sa/4.0/"
-        }
-      },
-      "image": {
-        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/cc/Tartu_asv2022-04_img17_Barclay_de_Tolly_House.jpg/1280px-Tartu_asv2022-04_img17_Barclay_de_Tolly_House.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-        "alt": "Picture from the Wikipedia article on Tartu Art Museum.",
-        "credit": "A.Savin",
-        "source": "https://commons.wikimedia.org/wiki/File:Tartu_asv2022-04_img17_Barclay_de_Tolly_House.jpg",
-        "license": "FAL",
-        "licenseUrl": "https://artlibre.org/licence/lal/en"
-      }
-    },
-    {
-      "id": "11-17-arnold-schwarzenegger",
-      "date": "11-17",
-      "dateLabel": "17 November",
-      "category": "world",
-      "categoryName": "World",
-      "year": 2003,
-      "title": "Arnold Schwarzenegger",
-      "body": "Actor Arnold Schwarzenegger's tenure as the governor of California begins.",
-      "source": {
-        "name": "Wikipedia · Arnold Schwarzenegger",
-        "url": "https://en.wikipedia.org/wiki/Arnold_Schwarzenegger",
-        "calendarUrl": "https://en.wikipedia.org/wiki/November_17",
-        "license": {
-          "name": "CC BY-SA 4.0",
-          "url": "https://creativecommons.org/licenses/by-sa/4.0/"
-        }
-      },
-      "image": {
-        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e3/Arnold_Schwarzenegger_-_Austrian_World_Summit_2026_BHO-2906.jpg/1280px-Arnold_Schwarzenegger_-_Austrian_World_Summit_2026_BHO-2906.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-        "alt": "Picture from the Wikipedia article on Arnold Schwarzenegger.",
-        "credit": "Bernhard Holub",
-        "source": "https://commons.wikimedia.org/wiki/File:Arnold_Schwarzenegger_-_Austrian_World_Summit_2026_BHO-2906.jpg",
-        "license": "CC BY-SA 4.0",
-        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0"
       }
     },
     {
@@ -129,12 +75,66 @@
         }
       },
       "image": {
-        "src": "https://upload.wikimedia.org/wikipedia/commons/4/44/Heidi_Game_program.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/44/Heidi_Game_program.jpg/500px-Heidi_Game_program.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
         "alt": "Picture from the Wikipedia article on Heidi Game.",
         "credit": "Scanned by a Hall of Fame employee",
         "source": "https://commons.wikimedia.org/wiki/File:Heidi_Game_program.jpg",
         "license": "Public domain",
         "licenseUrl": "https://commons.wikimedia.org/wiki/File:Heidi_Game_program.jpg"
+      }
+    },
+    {
+      "id": "11-17-john-bardeen",
+      "date": "11-17",
+      "dateLabel": "17 November",
+      "category": "tech",
+      "categoryName": "Tech",
+      "year": 1947,
+      "title": "John Bardeen",
+      "body": "American scientists John Bardeen and Walter Houser Brattain observe the basic principles of the transistor, a key element for the electronics revolution of the 20th century.",
+      "source": {
+        "name": "Wikipedia · John Bardeen",
+        "url": "https://en.wikipedia.org/wiki/John_Bardeen",
+        "calendarUrl": "https://en.wikipedia.org/wiki/November_17",
+        "license": {
+          "name": "CC BY-SA 4.0",
+          "url": "https://creativecommons.org/licenses/by-sa/4.0/"
+        }
+      },
+      "image": {
+        "src": "https://upload.wikimedia.org/wikipedia/commons/4/4a/Bardeen.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+        "alt": "Picture from the Wikipedia article on John Bardeen.",
+        "credit": "Nobel foundation",
+        "source": "https://commons.wikimedia.org/wiki/File:Bardeen.jpg",
+        "license": "Public domain",
+        "licenseUrl": "https://commons.wikimedia.org/wiki/File:Bardeen.jpg"
+      }
+    },
+    {
+      "id": "11-17-tartu-art-museum",
+      "date": "11-17",
+      "dateLabel": "17 November",
+      "category": "culture",
+      "categoryName": "Culture",
+      "year": 1940,
+      "title": "Tartu Art Museum",
+      "body": "The Tartu Art Museum is established in Tartu, Estonia.",
+      "source": {
+        "name": "Wikipedia · Tartu Art Museum",
+        "url": "https://en.wikipedia.org/wiki/Tartu_Art_Museum",
+        "calendarUrl": "https://en.wikipedia.org/wiki/November_17",
+        "license": {
+          "name": "CC BY-SA 4.0",
+          "url": "https://creativecommons.org/licenses/by-sa/4.0/"
+        }
+      },
+      "image": {
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/cc/Tartu_asv2022-04_img17_Barclay_de_Tolly_House.jpg/500px-Tartu_asv2022-04_img17_Barclay_de_Tolly_House.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "alt": "Picture from the Wikipedia article on Tartu Art Museum.",
+        "credit": "A.Savin",
+        "source": "https://commons.wikimedia.org/wiki/File:Tartu_asv2022-04_img17_Barclay_de_Tolly_House.jpg",
+        "license": "FAL",
+        "licenseUrl": "https://artlibre.org/licence/lal/en"
       }
     }
   ]

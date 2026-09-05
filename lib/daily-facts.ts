@@ -35,6 +35,10 @@ export type DailyFact = {
   // `poster` is the still the panel shows until the first frame paints, and is
   // what it falls back to for good if the video will not play.
   video?: {
+    /** The playing transcode's own pixel size, so the panel can shape itself
+        to the clip before a frame has loaded rather than after. */
+    width: number;
+    height: number;
     src: string;
     fallback?: string;
     poster: string;
@@ -108,6 +112,8 @@ function validVideo(value: unknown): boolean {
   return Boolean(
     video.src?.startsWith('https://') && video.poster?.startsWith('https://') &&
     typeof video.seconds === 'number' && Number.isFinite(video.seconds) && video.seconds > 0 &&
+    typeof video.width === 'number' && Number.isInteger(video.width) && video.width > 0 &&
+    typeof video.height === 'number' && Number.isInteger(video.height) && video.height > 0 &&
     typeof video.credit === 'string' && video.credit.length > 0 &&
     video.source?.startsWith('https://') && video.licenseUrl?.startsWith('https://') &&
     typeof video.license === 'string' && video.license.length > 0,
@@ -127,4 +133,25 @@ export function validDailyFacts(value: unknown, expectedDate: string): value is 
     fact.image?.source?.startsWith('https://') && fact.image?.licenseUrl?.startsWith('https://') &&
     validVideo(fact.video),
   );
+}
+
+// Which of the three layouts a clip gets. A picture is always cropped to 4:3
+// because a still can be cropped without losing the moment, but a clip cannot:
+// the widest one in the calendar is 1.99:1, and forcing that into 4:3 threw
+// away a third of the frame — the Mars horizon panorama lost the horizon.
+//
+// Three bands rather than a continuous ratio, because the panel is a two
+// column grid and the column widths are what actually change. Everything from
+// academy ratio to 3:2 keeps the layout the calendar was built around; 16:9
+// and wider earns a bigger share of the row; anything taller than it is wide
+// gets the narrow column and gives the words the space instead.
+export type MediaShape = 'wide' | 'boxy' | 'tall';
+export const WIDE_AT = 1.5;
+export const TALL_AT = 0.95;
+export function mediaShape(width: number, height: number): MediaShape {
+  if (!Number.isFinite(width) || !Number.isFinite(height) || width <= 0 || height <= 0) return 'boxy';
+  const ratio = width / height;
+  if (ratio >= WIDE_AT) return 'wide';
+  if (ratio < TALL_AT) return 'tall';
+  return 'boxy';
 }

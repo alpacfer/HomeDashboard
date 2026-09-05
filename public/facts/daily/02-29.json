@@ -21,7 +21,7 @@
         }
       },
       "image": {
-        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/27/Poster_-_Gone_With_the_Wind_01.jpg/1280px-Poster_-_Gone_With_the_Wind_01.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/27/Poster_-_Gone_With_the_Wind_01.jpg/500px-Poster_-_Gone_With_the_Wind_01.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
         "alt": "Picture from the Wikipedia article on Gone with the Wind.",
         "credit": "Armando Seguso",
         "source": "https://commons.wikimedia.org/wiki/File:Poster_-_Gone_With_the_Wind_01.jpg",
@@ -75,7 +75,7 @@
         }
       },
       "image": {
-        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/07/Berkeley_cityscape.jpg/1280px-Berkeley_cityscape.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/07/Berkeley_cityscape.jpg/500px-Berkeley_cityscape.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
         "alt": "Picture from the Wikipedia article on Berkeley, California.",
         "credit": "pedrik",
         "source": "https://commons.wikimedia.org/wiki/File:Berkeley_cityscape.jpg",
@@ -102,7 +102,7 @@
         }
       },
       "image": {
-        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c2/Portrait_of_a_Man%2C_Said_to_be_Christopher_Columbus.jpg/1280px-Portrait_of_a_Man%2C_Said_to_be_Christopher_Columbus.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c2/Portrait_of_a_Man%2C_Said_to_be_Christopher_Columbus.jpg/500px-Portrait_of_a_Man%2C_Said_to_be_Christopher_Columbus.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
         "alt": "Picture from the Wikipedia article on Christopher Columbus.",
         "credit": "Sebastiano del Piombo",
         "source": "https://commons.wikimedia.org/wiki/File:Portrait_of_a_Man,_Said_to_be_Christopher_Columbus.jpg",
@@ -111,17 +111,17 @@
       }
     },
     {
-      "id": "02-29-angelina-jolie",
+      "id": "02-29-free-public-transport",
       "date": "02-29",
       "dateLabel": "29 February",
-      "category": "culture",
-      "categoryName": "Culture",
-      "year": 2004,
-      "title": "Angelina Jolie",
-      "body": "Angelina Jolie wears a White Marc Bouwer dress to the 76th Academy Awards, which has since been placed on numerous lists for best Oscars fashion.",
+      "category": "world",
+      "categoryName": "World",
+      "year": 2020,
+      "title": "Free public transport",
+      "body": "Luxembourg becomes the first country in the world to render public transport free nationwide.",
       "source": {
-        "name": "Wikipedia · Angelina Jolie",
-        "url": "https://en.wikipedia.org/wiki/Angelina_Jolie",
+        "name": "Wikipedia · Free public transport",
+        "url": "https://en.wikipedia.org/wiki/Free_public_transport",
         "calendarUrl": "https://en.wikipedia.org/wiki/February_29",
         "license": {
           "name": "CC BY-SA 4.0",
@@ -129,10 +129,10 @@
         }
       },
       "image": {
-        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/12/Angelina_Jolie-643531_%28cropped%29.jpg/1280px-Angelina_Jolie-643531_%28cropped%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-        "alt": "Picture from the Wikipedia article on Angelina Jolie.",
-        "credit": "Harald Krichel",
-        "source": "https://commons.wikimedia.org/wiki/File:Angelina_Jolie-643531_(cropped).jpg",
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e0/Luxembourg%2C_tram_2018-07_all%C3%A9e_Scheffer.jpg/500px-Luxembourg%2C_tram_2018-07_all%C3%A9e_Scheffer.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "alt": "Picture from the Wikipedia article on Free public transport.",
+        "credit": "GilPe",
+        "source": "https://commons.wikimedia.org/wiki/File:Luxembourg,_tram_2018-07_all%C3%A9e_Scheffer.jpg",
         "license": "CC BY-SA 4.0",
         "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0"
       }

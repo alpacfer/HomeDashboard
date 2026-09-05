@@ -21,39 +21,12 @@
         }
       },
       "image": {
-        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/89/LaunchingTheJamesCaird2.jpg/1280px-LaunchingTheJamesCaird2.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/89/LaunchingTheJamesCaird2.jpg/500px-LaunchingTheJamesCaird2.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
         "alt": "Picture from the Wikipedia article on Voyage of the James Caird.",
         "credit": "Probably Frank Hurley",
         "source": "https://commons.wikimedia.org/wiki/File:LaunchingTheJamesCaird2.jpg",
         "license": "Public domain",
         "licenseUrl": "https://commons.wikimedia.org/wiki/File:LaunchingTheJamesCaird2.jpg"
-      }
-    },
-    {
-      "id": "05-10-v-2-rocket",
-      "date": "05-10",
-      "dateLabel": "10 May",
-      "category": "space",
-      "categoryName": "Space",
-      "year": 1946,
-      "title": "V-2 rocket",
-      "body": "First successful launch of an American V-2 rocket at White Sands Proving Ground.",
-      "source": {
-        "name": "Wikipedia · V-2 rocket",
-        "url": "https://en.wikipedia.org/wiki/V-2_rocket",
-        "calendarUrl": "https://en.wikipedia.org/wiki/May_10",
-        "license": {
-          "name": "CC BY-SA 4.0",
-          "url": "https://creativecommons.org/licenses/by-sa/4.0/"
-        }
-      },
-      "image": {
-        "src": "https://upload.wikimedia.org/wikipedia/commons/c/cf/Fus%C3%A9e_V2_%28cropped%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
-        "alt": "Picture from the Wikipedia article on V-2 rocket.",
-        "credit": "AElfwine",
-        "source": "https://commons.wikimedia.org/wiki/File:Fus%C3%A9e_V2_(cropped).jpg",
-        "license": "CC BY-SA 3.0",
-        "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0/"
       }
     },
     {
@@ -75,12 +48,39 @@
         }
       },
       "image": {
-        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/7d/Sony_headquaters_2.jpg/1280px-Sony_headquaters_2.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/7d/Sony_headquaters_2.jpg/500px-Sony_headquaters_2.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
         "alt": "Picture from the Wikipedia article on Sony.",
         "credit": "Akonnchiroll",
         "source": "https://commons.wikimedia.org/wiki/File:Sony_headquaters_2.jpg",
         "license": "CC BY-SA 4.0",
         "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0"
+      }
+    },
+    {
+      "id": "05-10-v-2-rocket",
+      "date": "05-10",
+      "dateLabel": "10 May",
+      "category": "space",
+      "categoryName": "Space",
+      "year": 1946,
+      "title": "V-2 rocket",
+      "body": "First successful launch of an American V-2 rocket at White Sands Proving Ground.",
+      "source": {
+        "name": "Wikipedia · V-2 rocket",
+        "url": "https://en.wikipedia.org/wiki/V-2_rocket",
+        "calendarUrl": "https://en.wikipedia.org/wiki/May_10",
+        "license": {
+          "name": "CC BY-SA 4.0",
+          "url": "https://creativecommons.org/licenses/by-sa/4.0/"
+        }
+      },
+      "image": {
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/cf/Fus%C3%A9e_V2_%28cropped%29.jpg/500px-Fus%C3%A9e_V2_%28cropped%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "alt": "Picture from the Wikipedia article on V-2 rocket.",
+        "credit": "AElfwine",
+        "source": "https://commons.wikimedia.org/wiki/File:Fus%C3%A9e_V2_(cropped).jpg",
+        "license": "CC BY-SA 3.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0/"
       }
     },
     {
@@ -129,7 +129,7 @@
         }
       },
       "image": {
-        "src": "https://upload.wikimedia.org/wikipedia/commons/0/0d/Mother%27s_day_card.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/0d/Mother%27s_day_card.jpg/500px-Mother%27s_day_card.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
         "alt": "Picture from the Wikipedia article on Mother's Day.",
         "credit": "Dave Parker from Tracy, CA, USA",
         "source": "https://commons.wikimedia.org/wiki/File:Mother%27s_day_card.jpg",

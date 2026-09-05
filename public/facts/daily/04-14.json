@@ -21,93 +21,12 @@
         }
       },
       "image": {
-        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/3d/Juice_launch_kit_cover_close-up.png/1280px-Juice_launch_kit_cover_close-up.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/3d/Juice_launch_kit_cover_close-up.png/500px-Juice_launch_kit_cover_close-up.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
         "alt": "Picture from the Wikipedia article on Jupiter Icy Moons Explorer.",
         "credit": "ESA, CC BY-SA IGO 3.0",
         "source": "https://commons.wikimedia.org/wiki/File:Juice_launch_kit_cover_close-up.png",
         "license": "CC BY-SA 3.0 igo",
         "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0/igo/deed.en"
-      }
-    },
-    {
-      "id": "04-14-film",
-      "date": "04-14",
-      "dateLabel": "14 April",
-      "category": "culture",
-      "categoryName": "Culture",
-      "year": 1894,
-      "title": "Film",
-      "body": "The first ever commercial motion picture house opens in New York City, United States. It uses ten Kinetoscopes, devices for peep-show viewing of films.",
-      "source": {
-        "name": "Wikipedia · Film",
-        "url": "https://en.wikipedia.org/wiki/Film",
-        "calendarUrl": "https://en.wikipedia.org/wiki/April_14",
-        "license": {
-          "name": "CC BY-SA 4.0",
-          "url": "https://creativecommons.org/licenses/by-sa/4.0/"
-        }
-      },
-      "image": {
-        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/6d/Le_Voyage_dans_la_Lune_%281902%29.webm/1280px--Le_Voyage_dans_la_Lune_%281902%29.webm.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo",
-        "alt": "Picture from the Wikipedia article on Film.",
-        "credit": "Georges Méliès",
-        "source": "https://commons.wikimedia.org/wiki/File:Le_Voyage_dans_la_Lune_(1902).webm",
-        "license": "Public domain",
-        "licenseUrl": "https://commons.wikimedia.org/wiki/File:Le_Voyage_dans_la_Lune_(1902).webm"
-      }
-    },
-    {
-      "id": "04-14-human-genome-project",
-      "date": "04-14",
-      "dateLabel": "14 April",
-      "category": "science",
-      "categoryName": "Science",
-      "year": 2003,
-      "title": "Human Genome Project",
-      "body": "The Human Genome Project is completed with 99% of the human genome sequenced to an accuracy of 99.99%.",
-      "source": {
-        "name": "Wikipedia · Human Genome Project",
-        "url": "https://en.wikipedia.org/wiki/Human_Genome_Project",
-        "calendarUrl": "https://en.wikipedia.org/wiki/April_14",
-        "license": {
-          "name": "CC BY-SA 4.0",
-          "url": "https://creativecommons.org/licenses/by-sa/4.0/"
-        }
-      },
-      "image": {
-        "src": "https://upload.wikimedia.org/wikipedia/commons/f/f3/Logo_HGP.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
-        "alt": "Picture from the Wikipedia article on Human Genome Project.",
-        "credit": "U.S. Department of Energy",
-        "source": "https://commons.wikimedia.org/wiki/File:Logo_HGP.jpg",
-        "license": "Public domain",
-        "licenseUrl": "https://commons.wikimedia.org/wiki/File:Logo_HGP.jpg"
-      }
-    },
-    {
-      "id": "04-14-president-of-georgia",
-      "date": "04-14",
-      "dateLabel": "14 April",
-      "category": "world",
-      "categoryName": "World",
-      "year": 1991,
-      "title": "President of Georgia",
-      "body": "The Republic of Georgia introduces the post of President following its declaration of independence from the Soviet Union.",
-      "source": {
-        "name": "Wikipedia · President of Georgia",
-        "url": "https://en.wikipedia.org/wiki/President_of_Georgia",
-        "calendarUrl": "https://en.wikipedia.org/wiki/April_14",
-        "license": {
-          "name": "CC BY-SA 4.0",
-          "url": "https://creativecommons.org/licenses/by-sa/4.0/"
-        }
-      },
-      "image": {
-        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f9/Flag_of_the_President_of_Georgia.svg/1280px-Flag_of_the_President_of_Georgia.svg.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-        "alt": "Picture from the Wikipedia article on President of Georgia.",
-        "credit": "Administration of the President of…",
-        "source": "https://commons.wikimedia.org/wiki/File:Flag_of_the_President_of_Georgia.svg",
-        "license": "Public domain",
-        "licenseUrl": "https://commons.wikimedia.org/wiki/File:Flag_of_the_President_of_Georgia.svg"
       }
     },
     {
@@ -135,6 +54,87 @@
         "source": "https://commons.wikimedia.org/wiki/File:Circuit_de_Monaco_1950.png",
         "license": "CC BY-SA 3.0",
         "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0"
+      }
+    },
+    {
+      "id": "04-14-naval-mine",
+      "date": "04-14",
+      "dateLabel": "14 April",
+      "category": "world",
+      "categoryName": "World",
+      "year": 1988,
+      "title": "Naval mine",
+      "body": "The strikes a mine in the Persian Gulf during Operation Earnest Will.",
+      "source": {
+        "name": "Wikipedia · Naval mine",
+        "url": "https://en.wikipedia.org/wiki/Naval_mine",
+        "calendarUrl": "https://en.wikipedia.org/wiki/April_14",
+        "license": {
+          "name": "CC BY-SA 4.0",
+          "url": "https://creativecommons.org/licenses/by-sa/4.0/"
+        }
+      },
+      "image": {
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f7/Mina_morska_typu_M_1908-39.jpg/500px-Mina_morska_typu_M_1908-39.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "alt": "Picture from the Wikipedia article on Naval mine.",
+        "credit": "Wikimedia Commons",
+        "source": "https://commons.wikimedia.org/wiki/File:Mina_morska_typu_M_1908-39.jpg",
+        "license": "CC BY-SA 3.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0/"
+      }
+    },
+    {
+      "id": "04-14-film",
+      "date": "04-14",
+      "dateLabel": "14 April",
+      "category": "culture",
+      "categoryName": "Culture",
+      "year": 1894,
+      "title": "Film",
+      "body": "The first ever commercial motion picture house opens in New York City, United States. It uses ten Kinetoscopes, devices for peep-show viewing of films.",
+      "source": {
+        "name": "Wikipedia · Film",
+        "url": "https://en.wikipedia.org/wiki/Film",
+        "calendarUrl": "https://en.wikipedia.org/wiki/April_14",
+        "license": {
+          "name": "CC BY-SA 4.0",
+          "url": "https://creativecommons.org/licenses/by-sa/4.0/"
+        }
+      },
+      "image": {
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/6d/Le_Voyage_dans_la_Lune_%281902%29.webm/500px--Le_Voyage_dans_la_Lune_%281902%29.webm.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo",
+        "alt": "Picture from the Wikipedia article on Film.",
+        "credit": "Georges Méliès",
+        "source": "https://commons.wikimedia.org/wiki/File:Le_Voyage_dans_la_Lune_(1902).webm",
+        "license": "Public domain",
+        "licenseUrl": "https://commons.wikimedia.org/wiki/File:Le_Voyage_dans_la_Lune_(1902).webm"
+      }
+    },
+    {
+      "id": "04-14-human-genome-project",
+      "date": "04-14",
+      "dateLabel": "14 April",
+      "category": "science",
+      "categoryName": "Science",
+      "year": 2003,
+      "title": "Human Genome Project",
+      "body": "The Human Genome Project is completed with 99% of the human genome sequenced to an accuracy of 99.99%.",
+      "source": {
+        "name": "Wikipedia · Human Genome Project",
+        "url": "https://en.wikipedia.org/wiki/Human_Genome_Project",
+        "calendarUrl": "https://en.wikipedia.org/wiki/April_14",
+        "license": {
+          "name": "CC BY-SA 4.0",
+          "url": "https://creativecommons.org/licenses/by-sa/4.0/"
+        }
+      },
+      "image": {
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f3/Logo_HGP.jpg/500px-Logo_HGP.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "alt": "Picture from the Wikipedia article on Human Genome Project.",
+        "credit": "U.S. Department of Energy",
+        "source": "https://commons.wikimedia.org/wiki/File:Logo_HGP.jpg",
+        "license": "Public domain",
+        "licenseUrl": "https://commons.wikimedia.org/wiki/File:Logo_HGP.jpg"
       }
     }
   ]

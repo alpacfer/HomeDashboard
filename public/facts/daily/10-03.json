@@ -21,39 +21,12 @@
         }
       },
       "image": {
-        "src": "https://upload.wikimedia.org/wikipedia/commons/9/90/Professor_Svante_Paabo_ForMemRS_%28cropped%29_%28cropped%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/90/Professor_Svante_Paabo_ForMemRS_%28cropped%29_%28cropped%29.jpg/500px-Professor_Svante_Paabo_ForMemRS_%28cropped%29_%28cropped%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
         "alt": "Picture from the Wikipedia article on Svante Pääbo.",
         "credit": "Duncan.Hull",
         "source": "https://commons.wikimedia.org/wiki/File:Professor_Svante_Paabo_ForMemRS_(cropped)_(cropped).jpg",
         "license": "CC BY-SA 4.0",
         "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0"
-      }
-    },
-    {
-      "id": "10-03-east-germany",
-      "date": "10-03",
-      "dateLabel": "3 October",
-      "category": "world",
-      "categoryName": "World",
-      "year": 1990,
-      "title": "East Germany",
-      "body": "The German Democratic Republic is abolished and becomes part of the Federal Republic of Germany; the event is afterwards celebrated as German Unity Day.",
-      "source": {
-        "name": "Wikipedia · East Germany",
-        "url": "https://en.wikipedia.org/wiki/East_Germany",
-        "calendarUrl": "https://en.wikipedia.org/wiki/October_3",
-        "license": {
-          "name": "CC BY-SA 4.0",
-          "url": "https://creativecommons.org/licenses/by-sa/4.0/"
-        }
-      },
-      "image": {
-        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/97/Flag_of_the_German_Democratic_Republic.svg/1280px-Flag_of_the_German_Democratic_Republic.svg.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-        "alt": "Picture from the Wikipedia article on East Germany.",
-        "credit": "Deutsche Demokratische Republik…",
-        "source": "https://commons.wikimedia.org/wiki/File:Flag_of_the_German_Democratic_Republic.svg",
-        "license": "Public domain",
-        "licenseUrl": "https://commons.wikimedia.org/wiki/File:Flag_of_the_German_Democratic_Republic.svg"
       }
     },
     {
@@ -75,12 +48,39 @@
         }
       },
       "image": {
-        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b0/Schirra_walter_3.jpg/1280px-Schirra_walter_3.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b0/Schirra_walter_3.jpg/500px-Schirra_walter_3.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
         "alt": "Picture from the Wikipedia article on Wally Schirra.",
         "credit": "NASA",
         "source": "https://commons.wikimedia.org/wiki/File:Schirra_walter_3.jpg",
         "license": "Public domain",
         "licenseUrl": "https://commons.wikimedia.org/wiki/File:Schirra_walter_3.jpg"
+      }
+    },
+    {
+      "id": "10-03-cincinnati-reds",
+      "date": "10-03",
+      "dateLabel": "3 October",
+      "category": "world",
+      "categoryName": "World",
+      "year": 1919,
+      "title": "Cincinnati Reds",
+      "body": "Cincinnati Reds pitcher Adolfo Luque becomes the first Latin American player to appear in a World Series.",
+      "source": {
+        "name": "Wikipedia · Cincinnati Reds",
+        "url": "https://en.wikipedia.org/wiki/Cincinnati_Reds",
+        "calendarUrl": "https://en.wikipedia.org/wiki/October_3",
+        "license": {
+          "name": "CC BY-SA 4.0",
+          "url": "https://creativecommons.org/licenses/by-sa/4.0/"
+        }
+      },
+      "image": {
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/01/Cincinnati_Reds_Logo.svg/500px-Cincinnati_Reds_Logo.svg.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "alt": "Picture from the Wikipedia article on Cincinnati Reds.",
+        "credit": "Unknown author",
+        "source": "https://commons.wikimedia.org/wiki/File:Cincinnati_Reds_Logo.svg",
+        "license": "Public domain",
+        "licenseUrl": "https://commons.wikimedia.org/wiki/File:Cincinnati_Reds_Logo.svg"
       }
     },
     {
@@ -102,7 +102,7 @@
         }
       },
       "image": {
-        "src": "https://upload.wikimedia.org/wikipedia/commons/3/37/Nadine_Gordimer_01.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/37/Nadine_Gordimer_01.JPG/500px-Nadine_Gordimer_01.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
         "alt": "Picture from the Wikipedia article on Nadine Gordimer.",
         "credit": "Bengt Oberger",
         "source": "https://commons.wikimedia.org/wiki/File:Nadine_Gordimer_01.JPG",
@@ -111,17 +111,17 @@
       }
     },
     {
-      "id": "10-03-v-2-rocket",
+      "id": "10-03-east-germany",
       "date": "10-03",
       "dateLabel": "3 October",
-      "category": "space",
-      "categoryName": "Space",
-      "year": 1942,
-      "title": "V-2 rocket",
-      "body": "A German V-2 rocket reaches a record 85 km (46 nm) in altitude.",
+      "category": "world",
+      "categoryName": "World",
+      "year": 1990,
+      "title": "East Germany",
+      "body": "The German Democratic Republic is abolished and becomes part of the Federal Republic of Germany; the event is afterwards celebrated as German Unity Day.",
       "source": {
-        "name": "Wikipedia · V-2 rocket",
-        "url": "https://en.wikipedia.org/wiki/V-2_rocket",
+        "name": "Wikipedia · East Germany",
+        "url": "https://en.wikipedia.org/wiki/East_Germany",
         "calendarUrl": "https://en.wikipedia.org/wiki/October_3",
         "license": {
           "name": "CC BY-SA 4.0",
@@ -129,12 +129,12 @@
         }
       },
       "image": {
-        "src": "https://upload.wikimedia.org/wikipedia/commons/c/cf/Fus%C3%A9e_V2_%28cropped%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
-        "alt": "Picture from the Wikipedia article on V-2 rocket.",
-        "credit": "AElfwine",
-        "source": "https://commons.wikimedia.org/wiki/File:Fus%C3%A9e_V2_(cropped).jpg",
-        "license": "CC BY-SA 3.0",
-        "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0/"
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/97/Flag_of_the_German_Democratic_Republic.svg/500px-Flag_of_the_German_Democratic_Republic.svg.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "alt": "Picture from the Wikipedia article on East Germany.",
+        "credit": "Deutsche Demokratische Republik…",
+        "source": "https://commons.wikimedia.org/wiki/File:Flag_of_the_German_Democratic_Republic.svg",
+        "license": "Public domain",
+        "licenseUrl": "https://commons.wikimedia.org/wiki/File:Flag_of_the_German_Democratic_Republic.svg"
       }
     }
   ]
