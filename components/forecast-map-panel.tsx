@@ -52,6 +52,9 @@ export default function ForecastMapPanel({ active }: { active: boolean }) {
   // every request and every coverage check uses this instead.
   const view = useRef<MapBounds | null>(null);
   const refresh = useRef<() => void>(() => undefined);
+  // Whether the scheduler's timer has ever been armed. See the first-appearance
+  // effect below, which is the only thing that arms it.
+  const started = useRef(false);
   const [mapReady, setMapReady] = useState(false);
   const [grid, setGrid] = useState<PrecipitationGrid | null>(null);
   // How far through the sequence the animation is, 0 to 1. The canvas is
@@ -443,7 +446,23 @@ export default function ForecastMapPanel({ active }: { active: boolean }) {
         setStatus('ready');
         return;
       }
-      if (!held.current || !coversView(held.current.bounds, view.current)) refresh.current();
+      // The first measurement arms the scheduler whatever is in hand, and
+      // after that only a view that has outgrown the grid asks for anything.
+      //
+      // Nothing else can arm it. The scheduler's own opening pass runs before
+      // this frame, finds no view yet, and returns without booking a timer, so
+      // leaving the arming to the test below meant a page that restored a grid
+      // from storage never scheduled anything at all. That restore is a
+      // timeout against this animation frame and usually wins: measured over
+      // eight reloads, seven left the map with no pending timer, replaying the
+      // stored run until its last frame passed and then sitting on "forecast
+      // expired" for good, while the card and the week strip kept refreshing
+      // on their own intervals. Arming costs a kilobyte of CDN-cached
+      // metadata; the grid is still only fetched when that names a new run.
+      if (!started.current || !held.current || !coversView(held.current.bounds, view.current)) {
+        started.current = true;
+        refresh.current();
+      }
     });
     return () => window.cancelAnimationFrame(resize);
   }, [active, mapReady]);
