@@ -21,6 +21,19 @@ test('the clock can be pinned to a Copenhagen time, and only to one that exists'
   assert.equal(debugFlags('?time=now').time, null);
 });
 
+test('the credited source can be pinned, and only to a provider that exists', () => {
+  assert.equal(debugFlags('').source, null);
+  assert.equal(debugFlags('?weather=off&source=google').source, 'Google');
+  assert.equal(debugFlags('?weather=off&source=dmi').source, 'DMI');
+  assert.equal(debugFlags('?weather=off&source=open-meteo').source, 'Open-Meteo');
+  assert.equal(debugFlags('?weather=off&source=met').source, 'MET Norway');
+  // A typo must leave the card uncredited rather than name a provider that
+  // did not answer, which is the one thing a credit may never do.
+  assert.equal(debugFlags('?source=Google').source, null);
+  assert.equal(debugFlags('?source=yr').source, null);
+  assert.equal(debugFlags('?source=').source, null);
+});
+
 test('the pet can be pinned only to a known dashboard landmark', () => {
   assert.equal(debugFlags('').pet, null);
   assert.equal(debugFlags('').petTravel, null);

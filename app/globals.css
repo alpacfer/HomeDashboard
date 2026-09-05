@@ -93,15 +93,25 @@ a:focus-visible { outline:2px solid var(--foreground); outline-offset:8px; }
    bars that shrink, never the tick row: a chart with no times under it is the
    one thing that must not happen. */
 .rain-ribbon { --ribbon-gap:.28vw; display:flex; flex-direction:column; min-height:0; padding:0 var(--panel-inset); }
-.ribbon-heading { display:flex; align-items:baseline; justify-content:space-between; gap:1vw; margin-bottom:1.1vh; }
+/* The credit rides with the heading on the left, so the degrees are pushed to
+   the right edge by a margin rather than by space-between: with three children
+   space-between would have spread all three and left the mark stranded in the
+   middle of the row. */
+.ribbon-heading { display:flex; align-items:baseline; gap:.55vw; margin-bottom:1.1vh; }
+.ribbon-heading > span { margin-left:auto; }
 .ribbon-heading h2 { margin:0; color:var(--muted); font-size:clamp(11px,1vw,22px); text-transform:uppercase; letter-spacing:.08em; }
 .ribbon-heading span { color:var(--muted); font-size:1.15vw; font-variant-numeric:tabular-nums; }
-/* The provider credit. Google's policy asks for it beside the data, not that
-   anyone read it from the sofa, so it is fine print in the band's bottom corner
-   at the size the map's own credit uses. Out of the flow rather than pulled up
-   by a margin: as a flex item it drew a share of the band's even spacing and
-   landed mid-column, reading as a heading between the ribbon and the week. */
-.weather-credit { position:absolute; right:var(--panel-inset); bottom:0; max-width:100%; color:var(--muted); font-size:.62vw; line-height:1.2; text-align:right; }
+/* The provider credit: who answered, as a monogram in a hairline tile beside
+   the ribbon's heading. It was the licence sentence in the band's bottom
+   corner, and a line of fine print running most of the way across the ribbon
+   competed with the hours it sat under while saying nothing anyone reads from a
+   sofa. The sentence both DMI's CC BY and Google's policy ask for is on the
+   weather icon's link instead, in its accessible label. Centred rather than on
+   the row's baseline: a bordered box sitting on a baseline hangs below the
+   heading it belongs to. */
+.weather-credit { display:inline-flex; align-self:center; align-items:center; justify-content:center;
+  min-width:1.9em; padding:.12em .4em; border:1px solid currentColor; border-radius:.28vw;
+  color:var(--muted); opacity:.7; font-size:.62vw; font-weight:700; line-height:1.35; letter-spacing:.06em; white-space:nowrap; }
 .temperature-track { position:relative; width:100%; height:7vh; min-height:3.5vh; margin-top:.4vh; }
 .temperature-track svg { display:block; width:100%; height:100%; overflow:visible; }
 .temperature-track polyline { fill:none; stroke:var(--accent); stroke-width:2.2; stroke-linejoin:round; stroke-linecap:round; vector-effect:non-scaling-stroke; }

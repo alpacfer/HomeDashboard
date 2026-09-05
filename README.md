@@ -99,7 +99,12 @@ the only way to look at its animation without buying a grid.
 the genuinely unavailable card, with its offline dot, is looked at.
 
 `/?time=08:46` pins the clock to a Copenhagen time, for checking the face
-against the digits that stress it. All three are parsed in `lib/debug-flags.ts`.
+against the digits that stress it.
+
+`/?source=google|dmi|open-meteo|met` credits that provider under the ribbon
+while the weather is a placeholder, so each source monogram can be looked at
+without asking anyone for a forecast. It is ignored on a live card, where the
+mark names whoever answered. All of these are parsed in `lib/debug-flags.ts`.
 
 ### Capture and diagnose
 

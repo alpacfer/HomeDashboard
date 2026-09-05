@@ -57,7 +57,8 @@ export default function WeatherPanel({ now, onConditions }: { now: Date | null; 
     // the card in context; `none` leaves it genuinely empty, which is the
     // state a real outage produces. The placeholder is never a fallback: a
     // provider that fails on the wall shows the dot and the last good answer.
-    // The source stays null, so nothing credits a provider for invented data.
+    // The source stays null, so nothing credits a provider for invented data,
+    // unless `?source=` names one on purpose to photograph its mark.
     const flags = debugFlags(window.location.search);
     const mode = flags.weather;
     if (mode !== 'live') {
@@ -72,6 +73,7 @@ export default function WeatherPanel({ now, onConditions }: { now: Date | null; 
         const at = pinnedNow(flags.time, new Date());
         setHours(demoWeatherHours(at));
         setUpdatedAt(at.getTime());
+        setSource(flags.source);
       }, 0);
       return () => window.clearTimeout(placeholder);
     }
@@ -242,8 +244,19 @@ export default function WeatherPanel({ now, onConditions }: { now: Date | null; 
         + view.ribbon.filter(entry => entry.band !== 'dry')
           .map(entry => String(entry.hour).padStart(2, '0') + ':00 ' + entry.kind.replace('-', ' ') + ' ' + entry.millimetres.toFixed(1) + ' millimetres')
           .join(', ')}>
+      {/* The provider that answered is named in print as well as in the label
+          on the icon, but as its monogram rather than the licence sentence: the
+          sentence ran the width of the ribbon in eight-pixel text under the
+          hours it belongs to, and nobody reads it from a sofa. It sits beside
+          the heading because that is what it labels — these hours came from
+          this provider — where under the tick row it read as one more number in
+          the chart. The full sentence both DMI's CC BY and Google's policy ask
+          for is still on the icon's link, above. Only once something has
+          answered: crediting a provider for a card that is still empty would
+          name the wrong one. */}
       <div className="ribbon-heading" aria-hidden="true">
         <h2>Next {view.ribbon.length} hours</h2>
+        {source && <small className="weather-credit">{credit.mark}</small>}
         <span>{Math.round(view.track.high)}° / {Math.round(view.track.low)}°</span>
       </div>
       <div className="temperature-track" aria-hidden="true">
@@ -265,11 +278,5 @@ export default function WeatherPanel({ now, onConditions }: { now: Date | null; 
         {view.ribbon.map(entry => <span key={entry.timestamp} className={entry.midnight ? 'day-break' : undefined}>{entry.label}</span>)}
       </div>
     </div> : null}
-
-    {/* Google's policy asks for its credit on or beside the data, not only in
-        the label on the icon, so the provider that answered is named in print.
-        Only once something has answered: crediting a provider for a card that
-        is still empty would name the wrong one. */}
-    {source && <small className="weather-credit" aria-hidden="true">{credit.credit}</small>}
   </section>;
 }

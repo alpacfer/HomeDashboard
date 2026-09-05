@@ -60,6 +60,15 @@ test('Google leads, DMI is asked next and a fallback always exists', () => {
   for (const entry of SOURCES.slice(1, 3)) assert.match(entry.attribution.credit, /DMI/);
 });
 
+test('every provider has a short monogram to print, and no two share one', () => {
+  // The mark is what the card shows; the sentence stays in the icon's label.
+  // Anything longer than a few characters is the sentence again, in a corner
+  // three hundred pixels wide.
+  const marks = SOURCES.map(entry => entry.attribution.mark);
+  for (const mark of marks) assert.match(mark, /^[A-Z][A-Z-]{0,3}$/);
+  assert.equal(new Set(marks).size, marks.length, 'two providers sharing a mark would credit the wrong one');
+});
+
 test('neither request asks for a probability or a weather code', () => {
   // This is the fault the rework exists to fix. precipitation_probability is
   // byte-identical across every Open-Meteo model because DMI publishes none,

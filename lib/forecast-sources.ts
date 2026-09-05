@@ -37,9 +37,17 @@ import { type WeatherHour } from './weather';
 
 export type SourceName = 'Google' | 'DMI' | 'Open-Meteo' | 'MET Norway';
 
+// What the card prints under the ribbon. `credit` is the full licence
+// sentence, which stays in the accessible label on the weather icon because
+// DMI's CC BY and Google's policy both ask for it; `mark` is the monogram
+// drawn on screen in its place. The sentence was a line of eight-pixel text
+// running most of the way across the ribbon, which nobody on a sofa reads and
+// which competed with the hours it sat under.
+export type Attribution = { href: string; credit: string; mark: string };
+
 export type Source = {
   name: SourceName;
-  attribution: { href: string; credit: string };
+  attribution: Attribution;
   url: (latitude: number, longitude: number) => string;
   parse: (payload: unknown) => WeatherHour[] | null;
   // The fetch cache mode. Open-Meteo and DMI are asked for a fresh body every
@@ -297,8 +305,9 @@ export function parseLocationForecast(payload: unknown): WeatherHour[] | null {
 export const SOURCES: Source[] = [
   {
     name: 'Google',
-    // The policy asks for this exact sentence on or beside the data.
-    attribution: { href: 'https://developers.google.com/maps/documentation/weather/policies', credit: 'Source: Includes weather data from Google.' },
+    // The policy asks for this exact sentence on or beside the data, so it
+    // stays in the label the icon's link carries.
+    attribution: { href: 'https://developers.google.com/maps/documentation/weather/policies', credit: 'Source: Includes weather data from Google.', mark: 'G' },
     // Same origin, and the route decides the location. The coordinates the
     // other providers are handed are ignored here on purpose.
     url: () => googleRoutePath('hours'),
@@ -307,21 +316,21 @@ export const SOURCES: Source[] = [
   },
   {
     name: 'DMI',
-    attribution: { href: 'https://www.dmi.dk/friedata/dokumentation/terms-of-use', credit: 'DMI Harmonie forecast, DMI free data, CC BY 4.0.' },
+    attribution: { href: 'https://www.dmi.dk/friedata/dokumentation/terms-of-use', credit: 'DMI Harmonie forecast, DMI free data, CC BY 4.0.', mark: 'DMI' },
     url: dmiUrl,
     parse: parseCoverage,
     cache: 'no-store',
   },
   {
     name: 'Open-Meteo',
-    attribution: { href: 'https://open-meteo.com/en/docs/dmi-api', credit: 'DMI Harmonie forecast via Open-Meteo, CC BY 4.0.' },
+    attribution: { href: 'https://open-meteo.com/en/docs/dmi-api', credit: 'DMI Harmonie forecast via Open-Meteo, CC BY 4.0.', mark: 'OM' },
     url: openMeteoUrl,
     parse: parseForecast,
     cache: 'no-store',
   },
   {
     name: 'MET Norway',
-    attribution: { href: 'https://api.met.no/doc/License', credit: 'MET Norway Locationforecast, CC BY 4.0.' },
+    attribution: { href: 'https://api.met.no/doc/License', credit: 'MET Norway Locationforecast, CC BY 4.0.', mark: 'MET' },
     url: metNorwayUrl,
     parse: parseLocationForecast,
     cache: 'default',

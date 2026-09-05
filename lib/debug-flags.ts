@@ -41,11 +41,18 @@
 //                  land on fourteen dates spread across the year. Read in
 //                  lib/daily-facts.ts, not here, because that is where the date
 //                  key is derived.
+//   ?source=<id>   Credits this provider under the ribbon while the weather is
+//                  a placeholder, so each source mark can be photographed
+//                  without asking anyone for a forecast. One of google, dmi,
+//                  open-meteo, met. Ignored when the weather is live: the mark
+//                  there names whoever actually answered, and inventing that is
+//                  the one thing a credit must never do.
 //   ?pet=<spot>    Holds the Tenant at weather, week, transport, fact or map.
 //   ?pet=travel-<spot>  Sends it there through the measured safe-spot route,
 //                  then holds it. This makes locomotion reproducible too.
 
 import type { WorldSpotId } from './clock-tenant';
+import type { SourceName } from './forecast-sources';
 
 export type PinnedTime = { hour: number; minute: number };
 export type Weather = 'live' | 'off' | 'demo' | 'none';
@@ -55,6 +62,7 @@ export type DebugFlags = {
   weather: Weather;
   transit: Transit;
   time: PinnedTime | null;
+  source: SourceName | null;
   pet: WorldSpotId | null;
   petTravel: WorldSpotId | null;
   petMotion: PetMotionPreview | null;
@@ -69,10 +77,24 @@ export function debugFlags(search: string): DebugFlags {
     weather: weather === 'off' || weather === 'demo' || weather === 'none' ? weather : 'live',
     transit: params.get('transit') === 'demo' ? 'demo' : 'live',
     time: parseTime(params.get('time')),
+    source: parseSource(params.get('source')),
     pet: parsePet(pet),
     petTravel: pet?.startsWith('travel-') ? parsePet(pet.slice('travel-'.length)) : null,
     petMotion: motion === 'hop' || motion === 'balance' || motion === 'peek' ? motion : null,
   };
+}
+
+// URL ids rather than the provider names themselves, so the flag does not
+// carry a space and a capital letter into a query string.
+// A Map rather than an object literal: a plain lookup answers `?source=
+// constructor` with something from Object.prototype, and this table decides
+// what the display credits.
+const SOURCE_IDS = new Map<string, SourceName>([
+  ['google', 'Google'], ['dmi', 'DMI'], ['open-meteo', 'Open-Meteo'], ['met', 'MET Norway'],
+]);
+
+function parseSource(value: string | null): SourceName | null {
+  return SOURCE_IDS.get(value ?? '') ?? null;
 }
 
 function parsePet(value: string | null): WorldSpotId | null {
