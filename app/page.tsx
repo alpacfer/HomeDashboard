@@ -6,7 +6,7 @@ import WeatherPanel from '@/components/weather-panel';
 import WeekStrip from '@/components/week-strip';
 import Clock from '@/components/clock';
 import KeepAwake from '@/components/keep-awake';
-import type { Conditions } from '@/lib/clock-wardrobe';
+import type { Conditions } from '@/lib/clock-conditions';
 import { debugFlags, pinnedNow } from '@/lib/debug-flags';
 import type { Rotation } from '@/lib/panel-rotation';
 import type { WorldSpotId } from '@/lib/clock-tenant';
@@ -14,8 +14,7 @@ import type { WorldSpotId } from '@/lib/clock-tenant';
 export default function Home() {
   const [now, setNow] = useState<Date | null>(null);
   // The current hour's temperature and wetness, reported by the weather panel
-  // so the clock's wardrobe and its Tenant can react to the sky without a
-  // second fetch.
+  // so the clock's Tenant can react to the sky without a second fetch.
   const [conditions, setConditions] = useState<Conditions | null>(null);
   const [activeScene, setActiveScene] = useState<Rotation['phase']>('transport');
   const [petPreview] = useState<WorldSpotId | null>(() => typeof window === 'undefined' ? null : debugFlags(window.location.search).pet);

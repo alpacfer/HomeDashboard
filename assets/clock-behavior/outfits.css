@@ -1,0 +1,52 @@
+/* The clock's eighteen outfits, and the crossfade between them.
+
+   Shelved. This file is not imported by the build; see the README beside it
+   for what it was and how to put it back. Kept exactly as it left
+   app/globals.css so restoring it is a paste, not a rewrite. */
+/* ---------------------------------------------------------------------------
+   Outfits. One class per outfit on .clock-block; each sets only custom
+   properties. --digit-scale fits the face's digits into the fixed .62em cells
+   so the time never moves when the clothes change. The cells clip, so the
+   scale is set from the face's widest and tallest digit ink (canvas
+   measureText over 0 to 9, as lib/clock-tenant.ts measures it), at about 95 %
+   of the largest scale that fits: shadows, drips and glitch slices count as
+   ink. Date sizes are multiples of --date-base so the wardrobe remains
+   internally consistent.
+   Chosen in lib/clock-wardrobe.ts. Faces come from app/clock-fonts.css. */
+.o-editorial { --digit-font:'Fraunces',Georgia,serif; --digit-weight:900; --digit-scale:.95; --digit-var:'opsz' 144,'SOFT' 30,'WONK' 1; --date-font:'Fraunces',Georgia,serif; --date-weight:500; --date-size:calc(var(--date-base) * 1.27); --date-space:0; --date-tf:none; --colon:var(--sun); --date-ink:#d8d3c7; --ink:#f6f1e6; }
+.o-poster { --digit-font:'Anton',Impact,sans-serif; --digit-weight:400; --digit-scale:1.2; --date-font:'Bebas Neue',Impact,sans-serif; --date-weight:400; --date-size:calc(var(--date-base) * 1.27); --date-space:.16em; --colon:var(--foreground); --date-ink:var(--accent); --colon-r:0; }
+.o-casual { --digit-font:'Recursive',sans-serif; --digit-weight:900; --digit-scale:1.02; --digit-var:'CASL' 1; --date-font:'Recursive',sans-serif; --date-weight:600; --date-size:calc(var(--date-base) * 1.13); --date-space:0; --date-tf:none; --date-ink:#bdb8ad; }
+.o-casual .clock-date { font-variation-settings:'CASL' 1; }
+.o-fashion { --digit-font:'Bodoni Moda',Georgia,serif; --digit-weight:900; --digit-scale:.86; --digit-var:'opsz' 96; --date-font:'Bodoni Moda',Georgia,serif; --date-weight:400; --date-size:var(--date-base); --date-space:.34em; --ink:#ffffff; --colon:#ffffff; --date-ink:#bdbdbd; }
+.o-doodle { --digit-font:'Rubik Doodle Shadow',sans-serif; --digit-weight:400; --digit-scale:.7; --date-font:'Cabin Sketch',sans-serif; --date-size:calc(var(--date-base) * 1.2); --date-space:.06em; --date-tf:none; --colon:var(--sun); --date-ink:#cfcabd; }
+.o-neon { --digit-font:'Monoton',cursive; --digit-weight:400; --digit-scale:.74; --date-font:'Tilt Neon',sans-serif; --date-weight:400; --date-size:calc(var(--date-base) * 1.2); --date-space:.1em; --date-tf:none; --ink:#ff6ad5; --colon:#7df9ff; --date-ink:#7df9ff; --glow:0 0 .12em rgba(255,106,213,.9),0 0 .4em rgba(255,106,213,.45); }
+.o-terminal { --digit-font:'Space Mono',ui-monospace,monospace; --digit-scale:.98; --date-font:'Space Mono',ui-monospace,monospace; --date-size:calc(var(--date-base) * .93); --date-space:.02em; --date-tf:lowercase; --ink:#d8dbd0; --colon:var(--muted); --date-ink:var(--muted); --colon-r:0; }
+.o-terminal .clock-date::after { content:'_'; animation:live-pulse 1s steps(2,end) infinite; }
+.o-arcade { --digit-font:'Press Start 2P',monospace; --digit-weight:400; --digit-scale:.6; --date-font:'Press Start 2P',monospace; --date-weight:400; --date-size:calc(var(--date-base) * .73); --date-space:.06em; --ink:var(--rain); --colon:var(--sun); --date-ink:var(--rain); --colon-r:0; }
+.o-crt { --digit-font:'Sixtyfour',monospace; --digit-weight:400; --digit-scale:.54; --date-font:'Sixtyfour',monospace; --date-weight:400; --date-size:calc(var(--date-base) * .73); --date-space:.1em; --ink:#7cff7c; --colon:#7cff7c; --date-ink:#4fb54f; --colon-r:0; --glow:0 0 .1em rgba(124,255,124,.6); }
+.o-dotmatrix { --digit-font:'Handjet',monospace; --digit-weight:700; --digit-scale:1.4; --date-font:'Handjet',monospace; --date-size:calc(var(--date-base) * 1.6); --date-space:.08em; --ink:#ffb347; --colon:#ffb347; --date-ink:#c98a3b; --colon-r:0; }
+.o-wonky { --digit-font:'Kablammo',cursive; --digit-weight:400; --digit-scale:1.02; --digit-var:'MORF' 18; --date-font:'Kablammo',cursive; --date-weight:400; --date-size:calc(var(--date-base) * 1.07); --date-space:.04em; --date-tf:none; --ink:#ffd166; --colon:#06d6a0; --date-ink:#06d6a0; }
+.o-shade { --digit-font:'Bungee Shade',Impact,sans-serif; --digit-weight:400; --digit-scale:.74; --date-font:'Bungee',Impact,sans-serif; --date-weight:400; --date-size:calc(var(--date-base) * .93); --date-space:.1em; --ink:var(--sun); --colon:var(--foreground); --date-ink:var(--sun); }
+.o-stencil { --digit-font:'Black Ops One',Impact,sans-serif; --digit-weight:400; --digit-scale:.82; --date-font:'Black Ops One',Impact,sans-serif; --date-weight:400; --date-size:calc(var(--date-base) * .93); --date-space:.12em; --ink:#c9b458; --colon:#c9b458; --date-ink:#8f8449; --colon-r:0; }
+.o-wet { --digit-font:'Rubik Wet Paint',sans-serif; --digit-weight:400; --digit-scale:.82; --date-font:'Rubik Wet Paint',sans-serif; --date-weight:400; --date-size:calc(var(--date-base) * 1.13); --date-space:.06em; --ink:var(--rain); --colon:var(--rain); --date-ink:#5aa5d6; }
+.o-burned { --digit-font:'Rubik Burned',sans-serif; --digit-weight:400; --digit-scale:.74; --date-font:'Rubik Burned',sans-serif; --date-weight:400; --date-size:calc(var(--date-base) * 1.13); --date-space:.06em; --ink:#ff8c42; --colon:var(--sun); --date-ink:#d9742f; }
+.o-halloween { --digit-font:'Creepster',cursive; --digit-weight:400; --digit-scale:1.24; --date-font:'Creepster',cursive; --date-weight:400; --date-size:calc(var(--date-base) * 1.27); --date-space:.08em; --ink:#ff7a00; --colon:#9dff5a; --date-ink:#9dff5a; }
+.o-christmas { --digit-font:'Mountains of Christmas',cursive; --digit-weight:700; --digit-scale:1.22; --date-font:'Mountains of Christmas',cursive; --date-size:calc(var(--date-base) * 1.33); --date-space:.04em; --date-tf:none; --ink:#e63946; --colon:#2a9d8f; --date-ink:#2a9d8f; }
+
+/* Dressing: the crossfade between outfits. The block already wears the new
+   outfit; the ghost is a copy of the old one laid exactly over it and fading
+   out while the new digits fade in, one digit after another, the date last.
+   Every colour, glyph and glow change rides inside these two fades, so there
+   is no frame at which anything simply switches. DRESS_MS in
+   lib/clock-wardrobe.ts is the length of this animation. */
+.clock-ghost { position:absolute; inset:0; pointer-events:none; }
+.clock-ghost .clock { transition:none; }
+/* The fade-in runs on the digit cells, not the faces: a face keeps its own roll
+   animation, so a digit that rolled out earlier in the minute stays gone
+   instead of fading back in over the new one and rolling out again. */
+.is-dressing > .clock .clock-digit,.is-dressing > .clock .separator span { animation:dress-in 1000ms cubic-bezier(.4,0,.2,1) var(--d,120ms) both; }
+.is-dressing > .clock-date { animation:dress-in 1000ms cubic-bezier(.4,0,.2,1) 260ms both; }
+.clock-ghost .digit-face,.clock-ghost .separator span { animation:dress-out 1000ms cubic-bezier(.4,0,.2,1) var(--d,120ms) both; }
+.clock-ghost .clock-date { animation:dress-out 1000ms cubic-bezier(.4,0,.2,1) 260ms both; }
+@keyframes dress-in { from {opacity:0;transform:scale(.96);} to {opacity:1;transform:scale(1);} }
+@keyframes dress-out { from {opacity:1;transform:scale(1);} to {opacity:0;transform:scale(1.04);} }

@@ -1,30 +1,27 @@
 'use client';
 
-// The clock, its wardrobe, its set pieces and its Tenant.
+// The clock widget: one enclosed card holding the time, the date and the
+// Tenant's home.
 //
-// Three layers sit on the plain clock, and all three are driven from pure
-// modules in lib/ so this file only owns timers, measurement and markup:
+// The card is a frame with its own background layer (.clock-surface) and, above
+// it, the block the clock has always been. The block is still the Tenant's
+// coordinate origin, so every perch, safe spot and world landmark it measures
+// stays in the block's own pixels; the card does not clip, because the
+// character leaves it to visit the rest of the dashboard.
 //
-//   outfits     lib/clock-wardrobe.ts   which typeface, colours and date format
-//   set pieces  lib/clock-events.ts     choreographed moments, and when they fit
-//   the Tenant  lib/clock-tenant.ts     the character beside the minutes
+// This file owns timers, measurement and markup. What the clock does not do
+// any more is dress itself or play set pieces: the wardrobe and the eight
+// choreographed moments are shelved in assets/clock-behavior/, along with the
+// CSS they animated. The custom properties they set are still the ones these
+// rules read, so restoring them is putting the two stylesheets back and
+// scheduling them again. See docs/CLOCK.md.
 //
-// Nothing here may change abruptly. An outfit change keeps the old outfit on
-// screen as a fading ghost while the new one fades in, and only starts once the
-// new fonts are loaded. A set piece only starts in a quiet part of the minute,
-// never over the roll, and every keyframe set begins and ends at rest. The
-// Tenant's targets are measured from the digits' real ink, not their cells, so
-// it stands on the top of a "1" and shoves the edge of a "7".
+// The Tenant's targets are measured from the digits' real ink, not their cells,
+// so it stands on the top of a "1" and shoves the edge of a "7".
 
 import { useCallback, useEffect, useRef, useState, type CSSProperties } from 'react';
-import { changedDigits, clockFrame } from '@/lib/clock-motion';
-import {
-  DEFAULT_OUTFIT, DRESS_MS, nextOutfitDelay, outfitById, outfitDate, pickOutfit, wardrobeContext,
-  type Conditions, type OutfitId,
-} from '@/lib/clock-wardrobe';
-import {
-  HOUR_PIECE_DELAY_MS, delayToQuiet, flapSequence, nextEventDelay, pickSetPiece, setPieceById, type SetPieceId,
-} from '@/lib/clock-events';
+import { changedDigits, clockDate, clockFrame } from '@/lib/clock-motion';
+import { moodContext, type Conditions } from '@/lib/clock-conditions';
 import {
   inkBox, inkColumns, landingSpotTarget, nextChangingDigit, tenantMood, tenantTargets, topProfile, worldSpotTarget,
   type Box, type Targets, type WorldSpotId,
@@ -32,9 +29,6 @@ import {
 import type { Rotation } from '@/lib/panel-rotation';
 import Tenant from './tenant';
 
-// Per-digit variation for the zero-gravity piece, so no two digits drift alike.
-const ROTATIONS = ['6deg', '-5deg', '7deg', '-8deg'];
-const FLAP_STEP_MS = 230;
 // The Tenant is 0.42 of the clock's font size tall and rests 0.08 of it right
 // of the last cell.
 const TENANT_SIZE_EM = 0.42;
@@ -49,9 +43,6 @@ const PROFILE_H = 150;
 // How long the colon's dots squash after the Tenant lands on them.
 const PLAY_MS = 900;
 
-type Ghost = { outfit: OutfitId; digits: string; date: string; key: number };
-type Piece = { id: SetPieceId; key: number };
-type Flap = { text: string; previous: string };
 type Play = { id: 'land' | 'spring'; key: number };
 
 export default function Clock({ now, conditions = null, activeScene = 'transport', petPreview = null, petTravel = null }: {
@@ -66,35 +57,18 @@ export default function Clock({ now, conditions = null, activeScene = 'transport
   if (next !== frame) setFrame(next);
   const digits = changedDigits(next);
 
-  const [outfit, setOutfit] = useState<OutfitId>(DEFAULT_OUTFIT);
-  const [ghost, setGhost] = useState<Ghost | null>(null);
-  const [piece, setPiece] = useState<Piece | null>(null);
-  const [flap, setFlap] = useState<Flap | null>(null);
   const [targets, setTargets] = useState<Targets | null>(null);
   const [play, setPlay] = useState<Play | null>(null);
   const [reduced, setReduced] = useState(false);
 
   // The timers read live values through refs so they never have to be rebuilt.
   const blockRef = useRef<HTMLDivElement>(null);
-  const nowRef = useRef(now);
   const frameRef = useRef(next);
-  const conditionsRef = useRef(conditions);
-  const outfitRef = useRef(outfit);
   const activeSceneRef = useRef(activeScene);
-  const busyRef = useRef(false);
-  const reducedRef = useRef(false);
   useEffect(() => {
-    nowRef.current = now;
     frameRef.current = next;
-    conditionsRef.current = conditions;
-    outfitRef.current = outfit;
     activeSceneRef.current = activeScene;
-    busyRef.current = ghost !== null || piece !== null;
-    reducedRef.current = reduced;
   });
-  const lastPiece = useRef<SetPieceId | null>(null);
-  const hourPiece = useRef<(() => void) | null>(null);
-  const tenantHome = useRef(true);
   const canvas = useRef<CanvasRenderingContext2D | null>(null);
   const timers = useRef(new Set<number>());
 
@@ -115,9 +89,9 @@ export default function Clock({ now, conditions = null, activeScene = 'transport
   // Where the ink of each digit is, in the block's own coordinates, from the
   // cells' boxes and canvas text metrics for the face they are drawn in, and
   // what the top of each glyph looks like, from a small bitmap of it. Runs
-  // after the fonts are ready, after every roll and outfit change, and on
-  // resize. Four measureText calls and four 160 x 150 bitmaps, so it is cheap
-  // enough to run each minute.
+  // after the fonts are ready, after every roll, and on resize. Four
+  // measureText calls and four 160 x 150 bitmaps, so it is cheap enough to run
+  // each minute.
   const measure = useCallback(() => {
     const block = blockRef.current;
     const clock = block?.querySelector<HTMLElement>(':scope > .clock');
@@ -231,16 +205,13 @@ export default function Clock({ now, conditions = null, activeScene = 'transport
     setPlay({ id, key: Date.now() });
     later(() => setPlay(current => current?.id === id ? null : current), PLAY_MS);
   }, [later]);
-  const onHome = useCallback((home: boolean) => { tenantHome.current = home; }, []);
 
-  // The roll itself: measure the new ink once it has landed and, after an
-  // hour roll, schedule the hour set piece. `next` is a new object only when
-  // the minute changes.
+  // The roll itself: measure the new ink once it has landed. `next` is a new
+  // object only when the minute changes.
   const rolled = next.previous !== null;
   useEffect(() => {
     if (!rolled) return;
     later(measure, ROLL_MS);
-    if (frameRef.current.text.endsWith(':00')) hourPiece.current?.();
   }, [next, rolled, later, measure]);
 
   // Signals for the Tenant, derived rather than stored: each is the minute
@@ -249,129 +220,54 @@ export default function Clock({ now, conditions = null, activeScene = 'transport
   const rolledIndex = digits.findIndex(({ previous }) => previous !== null);
   const rolledDigit = rolledIndex < 0 ? 3 : rolledIndex;
 
-  // Wardrobe and set-piece scheduling. One effect, one set of timers, all
+  // Measure once the faces are ready and once more after the dashboard has
+  // settled, and again whenever the viewport changes. One set of timers, all
   // cleared on unmount: this display runs for weeks without a reload.
   useEffect(() => {
     let alive = true;
-
-    const scheduleOutfit = (ms: number) => later(changeOutfit, ms);
-    const changeOutfit = () => {
-      const at = nowRef.current ?? new Date();
-      if (busyRef.current || document.hidden) { scheduleOutfit(4000); return; }
-      const wait = delayToQuiet(at, DRESS_MS + 400);
-      if (wait) { scheduleOutfit(wait); return; }
-      const from = outfitRef.current;
-      const to = pickOutfit(wardrobeContext(at, conditionsRef.current), Math.random(), from);
-      if (to === from) { scheduleOutfit(nextOutfitDelay(Math.random())); return; }
-      // Load the new faces first. A font that swaps in halfway through the
-      // crossfade is exactly the abrupt change the crossfade exists to avoid.
-      Promise.all(outfitById(to).fonts.map(family => document.fonts.load(`700 100px "${family}"`).catch(() => [])))
-        .then(() => {
-          if (!alive) return;
-          const then = nowRef.current ?? new Date();
-          const again = delayToQuiet(then, DRESS_MS + 400);
-          if (busyRef.current || again) { scheduleOutfit(again || 4000); return; }
-          if (!reducedRef.current) {
-            setGhost({ outfit: from, digits: frameRef.current.text.replace(':', ''), date: outfitDate(from, then).label, key: Date.now() });
-            later(() => setGhost(null), DRESS_MS + 60);
-          }
-          outfitRef.current = to;
-          setOutfit(to);
-          later(measure, DRESS_MS + 150);
-          scheduleOutfit(nextOutfitDelay(Math.random()));
-        });
-    };
-
-    const start = (id: SetPieceId) => {
-      lastPiece.current = id;
-      setPiece({ id, key: Date.now() });
-      if (id === 'flap') {
-        const frames = flapSequence(frameRef.current.text);
-        let previous = frameRef.current.text.replace(':', '');
-        frames.forEach((text, index) => {
-          const from = previous;
-          later(() => setFlap({ text, previous: from }), 300 + index * FLAP_STEP_MS);
-          previous = text;
-        });
-        later(() => setFlap(null), 300 + frames.length * FLAP_STEP_MS + FLAP_STEP_MS);
-      }
-      later(() => setPiece(current => current?.id === id ? null : current), setPieceById(id).duration + 80);
-    };
-    const scheduleEvent = (ms: number) => later(() => runEvent(false), ms);
-    const runEvent = (atHour: boolean) => {
-      if (reducedRef.current) return;
-      const at = nowRef.current ?? new Date();
-      if (busyRef.current || document.hidden) { if (!atHour) scheduleEvent(4000); return; }
-      // The digits should not fly off while the Tenant is standing on one.
-      if (!atHour && !tenantHome.current) { scheduleEvent(4000); return; }
-      const choice = pickSetPiece(outfitById(outfitRef.current).morph, atHour, Math.random(), lastPiece.current);
-      if (!choice) { if (!atHour) scheduleEvent(nextEventDelay(Math.random())); return; }
-      const wait = delayToQuiet(at, choice.duration);
-      if (wait) { later(() => runEvent(atHour), wait); return; }
-      start(choice.id);
-      if (!atHour) scheduleEvent(nextEventDelay(Math.random()));
-    };
-    hourPiece.current = () => later(() => runEvent(true), HOUR_PIECE_DELAY_MS);
-
-    document.fonts.ready.then(() => {
-      if (!alive) return;
-      measure();
-      scheduleOutfit(nextOutfitDelay(Math.random()));
-      scheduleEvent(nextEventDelay(Math.random()));
-    });
+    document.fonts.ready.then(() => { if (alive) measure(); });
     later(measure, 2000);
     window.addEventListener('resize', measure);
     const pending = timers.current;
     return () => {
       alive = false;
-      hourPiece.current = null;
       window.removeEventListener('resize', measure);
       for (const id of pending) window.clearTimeout(id);
       pending.clear();
     };
   }, [later, measure]);
 
-  const date = outfitDate(outfit, now);
-  const context = now ? wardrobeContext(now, conditions) : null;
-  const mood = context ? tenantMood(context) : 'awake';
+  const date = clockDate(now);
+  const mood = now ? tenantMood(moodContext(now, conditions)) : 'awake';
   const nextDigit = now ? nextChangingDigit(now) : 3;
 
-  const className = ['clock-block', 'o-' + outfit,
-    piece ? 'sp-' + piece.id : '',
+  const className = ['clock-block',
     play ? 'tn-' + play.id : '',
-    ghost ? 'is-dressing' : '',
     mood === 'asleep' ? 'is-asleep' : ''].filter(Boolean).join(' ');
 
-  return <div className={className} ref={blockRef}>
-    <h1 className={'clock' + (now ? ' is-live' : '')} aria-label={now ? next.text : 'Loading time'}>
-      {digits.map(({ digit, previous }, index) => {
-        const shown = flap ? flap.text[index] : digit;
-        const style = {
-          '--roll-delay': (3 - index) * 35 + 'ms', '--d': index * 90 + 'ms', '--rd': (3 - index) * 140 + 'ms',
-          '--r': ROTATIONS[index], '--kd': (3 - index) * 70 + 'ms', '--kx': -(3 - index) * 2 + '%',
-        } as CSSProperties;
-        return <span className={'clock-digit digit-' + index} key={index} aria-hidden="true" style={style}>
-          {flap && flap.previous[index] !== shown && <span className="digit-face digit-flap-out" key={'flap-out-' + flap.previous} data-d={flap.previous[index]}>{flap.previous[index]}</span>}
-          {!flap && previous !== null && <span className="digit-face digit-out" key={'out-' + next.minute} data-d={previous}>{previous}</span>}
-          <span className={'digit-face' + (!flap && previous !== null ? ' digit-in' : '') + (flap && flap.previous[index] !== shown ? ' digit-flap' : '')}
-            key={flap ? 'flap-' + flap.text : 'in-' + next.minute} data-d={shown}>{shown}</span>
-        </span>;
-      })}
-      <span className="separator" aria-hidden="true"><span /><span /></span>
-    </h1>
-    <time className="clock-date" dateTime={date.dateTime} aria-label={now ? 'Date: ' + date.label : 'Loading date'}>{date.label}</time>
+  return <section className="clock-widget" aria-label="Time and date">
+    {/* The background of the widget, on its own layer so the frame itself can
+        stay unclipped for the Tenant. Restyle it through --clock-surface. */}
+    <div className="clock-surface" aria-hidden="true" />
 
-    {ghost && <div className={'clock-ghost o-' + ghost.outfit} aria-hidden="true" key={ghost.key}>
-      <div className="clock">
-        {[...ghost.digits].map((digit, index) => <span className={'clock-digit digit-' + index} key={index} style={{ '--d': index * 90 + 'ms' } as CSSProperties}>
-          <span className="digit-face" data-d={digit}>{digit}</span>
-        </span>)}
-        <span className="separator"><span /><span /></span>
-      </div>
-      <span className="clock-date">{ghost.date}</span>
-    </div>}
+    <div className={className} ref={blockRef}>
+      <h1 className={'clock' + (now ? ' is-live' : '')} aria-label={now ? next.text : 'Loading time'}>
+        {digits.map(({ digit, previous }, index) => {
+          const style = { '--roll-delay': (3 - index) * 35 + 'ms' } as CSSProperties;
+          return <span className={'clock-digit digit-' + index} key={index} aria-hidden="true" style={style}>
+            {previous !== null && <span className="digit-face digit-out" key={'out-' + next.minute} data-d={previous}>{previous}</span>}
+            <span className={'digit-face' + (previous !== null ? ' digit-in' : '')} key={'in-' + next.minute} data-d={digit}>{digit}</span>
+          </span>;
+        })}
+        <span className="separator" aria-hidden="true"><span /><span /></span>
+      </h1>
+      <time className="clock-date" dateTime={date.dateTime} aria-label={now ? 'Date: ' + date.label : 'Loading date'}>{date.label}</time>
 
-    {targets && !reduced && <Tenant mood={mood} targets={targets} activeScene={activeScene} previewSpot={petPreview} travelSpot={petTravel} rollKey={rollKey}
-      nextDigit={nextDigit} rolledDigit={rolledDigit} busy={ghost !== null || piece !== null} onPlay={onPlay} onHome={onHome} />}
-  </div>;
+      {/* `busy` is what held the character still while the clock dressed or
+          played a set piece. Nothing in the widget does either any more, so it
+          is never busy; the prop stays as the seam those would plug back into. */}
+      {targets && !reduced && <Tenant mood={mood} targets={targets} activeScene={activeScene} previewSpot={petPreview} travelSpot={petTravel} rollKey={rollKey}
+        nextDigit={nextDigit} rolledDigit={rolledDigit} busy={false} onPlay={onPlay} />}
+    </div>
+  </section>;
 }

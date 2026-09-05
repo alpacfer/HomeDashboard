@@ -93,8 +93,8 @@ every machine on the same connection.
 `/?weather=demo` makes no request either, but draws a synthetic forecast on the
 map, which is the only way to look at its animation without buying a grid.
 
-`/?time=08:46` pins the clock to a Copenhagen time, for checking an outfit
-against chosen digits. All three are parsed in `lib/debug-flags.ts`.
+`/?time=08:46` pins the clock to a Copenhagen time, for checking the face
+against the digits that stress it. All three are parsed in `lib/debug-flags.ts`.
 
 ### Capture and diagnose
 

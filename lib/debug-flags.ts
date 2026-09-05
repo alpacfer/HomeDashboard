@@ -25,10 +25,10 @@
 //                  browser (lib/transit-demo.ts).
 //   ?time=HH:MM    The page's clock reads this Copenhagen time instead of the
 //                  real one; seconds still tick, so the minute still rolls.
-//                  Which digits an outfit shows otherwise depends on when the
+//                  Which digits the clock shows otherwise depends on when the
 //                  screenshot is taken, and a face that clips on a 4 looks
 //                  fine at 21:21. Everything that reads the clock follows:
-//                  the wardrobe, the Tenant's mood and the ribbon's window.
+//                  the Tenant's mood and the ribbon's window.
 //   ?date=MM-DD    The daily-fact panel shows that calendar date instead of
 //                  today's, and stops rolling over at midnight. It is the only
 //                  way to look at a fact that is not today's, which matters

@@ -17,7 +17,7 @@
 //                          the capture costs no quota. Use it for anything that
 //                          is not about the weather (see docs/DEBUGGING.md).
 //   --time <HH:MM>         Add ?time=: pin the clock to a Copenhagen time, so
-//                          an outfit can be checked against chosen digits.
+//                          the face can be checked against the digits that stress it.
 //   --pet <spot>           Add ?pet=: hold the Tenant at weather, week,
 //                          transport, fact or map. Prefix with travel- to
 //                          replay its safe-spot route before it holds.
@@ -39,7 +39,7 @@
 //   --class <sel>=<names>  Force the element's whole class list, re-applied
 //                          every 40 ms so React cannot undo it. Repeatable.
 //                          Include the element's own class, or its styles go:
-//                          --class ".clock-block=clock-block o-neon sp-domino"
+//                          --class ".tenant=tenant pose-perched on-round pa-slip"
 //   --sequence <n>         Capture n frames from one page load instead of one,
 //                          spaced --every apart, written as <name>-1.png and so
 //                          on. One browser for the lot: a moving scene needs

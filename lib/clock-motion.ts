@@ -1,8 +1,11 @@
 const formatter = new Intl.DateTimeFormat('en-GB', {
   timeZone: 'Europe/Copenhagen', hour: '2-digit', minute: '2-digit', hourCycle: 'h23',
 });
+// Spelt out in full: the widget shows one date and it is read from across a
+// room. Assembled from parts rather than formatted whole so the order stays
+// "Friday 5 September" whatever en-GB decides to do with a weekday.
 const dateFormatter = new Intl.DateTimeFormat('en-GB', {
-  timeZone: 'Europe/Copenhagen', day: 'numeric', month: 'long',
+  timeZone: 'Europe/Copenhagen', weekday: 'long', day: 'numeric', month: 'long',
 });
 const dateTimeFormatter = new Intl.DateTimeFormat('en-GB', {
   timeZone: 'Europe/Copenhagen', year: 'numeric', month: '2-digit', day: '2-digit',
@@ -15,8 +18,9 @@ export type ClockDate = { label: string; dateTime?: string };
 export function clockDate(now: Date | null): ClockDate {
   if (!now) return { label: '—' };
   const parts = Object.fromEntries(dateTimeFormatter.formatToParts(now).map(part => [part.type, part.value]));
+  const spelt = Object.fromEntries(dateFormatter.formatToParts(now).map(part => [part.type, part.value]));
   return {
-    label: dateFormatter.format(now),
+    label: `${spelt.weekday} ${spelt.day} ${spelt.month}`,
     dateTime: `${parts.year}-${parts.month}-${parts.day}`,
   };
 }

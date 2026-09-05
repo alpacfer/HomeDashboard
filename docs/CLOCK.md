@@ -1,124 +1,106 @@
-# The clock: outfits, set pieces and the Tenant
+# The clock: the widget, and the Tenant
 
-The clock is the one thing on the display that is always on screen, so it is
-the one thing allowed to play. Three layers sit on the plain digits, and one
-rule governs all of them: **nothing changes abruptly.** Every transition is a
-fade, a move or a morph that starts from where the clock is and ends at rest.
+The clock is the one thing on the display that is always on screen. It is one
+enclosed widget holding three things: the time, the date, and the home of a
+small resident character. One rule governs everything in it: **nothing changes
+abruptly.** Every transition is a fade, a move or a morph that starts from
+where the clock is and ends at rest.
 
 ```text
 components/clock.tsx      timers, measurement, markup
 components/tenant.tsx     the character's own timers and its SVG
-lib/clock-wardrobe.ts     outfits: faces, colours, date formats, weighted pick
-lib/clock-events.ts       set pieces: which fit, when the minute is quiet
+lib/clock-motion.ts       Copenhagen time, the date, which digits roll
+lib/clock-conditions.ts   the hour and the sky the character reads
 lib/clock-tenant.ts       mood, idle life, glyph geometry
 app/clock-fonts.css       generated @font-face rules (do not edit)
 public/fonts/clock/       generated subset woff2 files (do not edit)
 scripts/fetch-clock-fonts.mjs  regenerates both of the above
 ```
 
-## Outfits
+## The widget
 
-An outfit is one class on `.clock-block` (`o-<id>`) that sets custom
-properties in `app/globals.css`: the digit face and a `--digit-scale` that fits
-its digits into the fixed `.62em` grid cells, the date face, size, case and
-colour, the colon colour and shape, and any glow. The date **format** belongs
-to the outfit too (`Outfit.date` in `lib/clock-wardrobe.ts`): terminal shows
-`2026-09-03 Thu`, editorial shows `Thursday, 3 September`, arcade shows
-`Thu 03 Sep`.
+`.clock-widget` is the frame: a rounded card that spans the shell's width, in
+the same family as the weather card under it. `.clock-surface` is its
+background, on a layer of its own, and `.clock-block` sits above that with the
+digits, the date and the character.
 
-There are eighteen. `outfitWeights()` decides which are likely right now from
-the Copenhagen hour and weekday, the current temperature and whether the
-current hour is wet. Weekday daytime leans on Grotesk, the home outfit; weekend
-mornings on the serif; Friday and Saturday evenings on neon; night on terminal
-and CRT with nothing loud. Rain adds weight to the dripping face, heat to the
-burned one. 31 October and 24 to 26 December allow only their own outfit.
-`pickOutfit()` never returns the outfit already worn.
+The background is a separate layer rather than a `background` on the frame
+because the Tenant leaves the card. A frame that clipped its own backdrop to
+its rounded corners would clip the character with it, so the frame stays
+unclipped and only the surface layer is rounded and hidden. For the same
+reason `.clock-block` carries no `z-index`: that would make it a stacking
+context and trap a travelling character inside the card. Being the later
+positioned sibling is what puts it above the surface.
 
-One change every 20 to 40 minutes (`nextOutfitDelay`). The change itself is
-a **crossfade**: the component first loads the new outfit's fonts through
-`document.fonts.load`, then renders a ghost copy of the old outfit over the
-block and fades it out while the new digits fade in, one digit after another,
-the date last (`DRESS_MS`, one second). Colours, glyphs and glows all ride
-inside those two fades. A change waits for a quiet part of the minute so it
-never overlaps the roll. The fade-in runs on the digit **cells**, not the
-faces: a face keeps its own roll animation, so the digit that rolled out
-earlier in the minute stays gone instead of fading back in over the new one.
+Two custom properties on `.clock-widget` are the whole of the styling seam:
 
-Faces come from Google Fonts, subset to the digits, the Latin letters and the
-date punctuation by asking the CSS API with `text=`, which works for variable
-families too. `npm run fonts:clock` downloads them into `public/fonts/clock/`
-and writes `app/clock-fonts.css`. To add an outfit: add the face to
-`scripts/fetch-clock-fonts.mjs`, rerun the script, add the outfit to `OUTFITS`
-with its fonts and date style, add its `.o-<id>` rule to `globals.css`, and
-give it a weight in `outfitWeights()`. The cells clip, so `--digit-scale` is
-not a taste: measure the face's ink for 0 to 9 with canvas `measureText`
-(`actualBoundingBox*`, the way `Clock` measures for the Tenant), and set the
-scale to about 95 % of the largest that keeps every digit inside .62em by
-1.12em. Shadows, drips and slices count as ink. A face that only fits at half
-the size of the others does not belong here; that is why Rubik Glitch went.
-Then look at it: `npm run shot -- --offline --time 08:46 --clip .clock-block
---class ".clock-block=clock-block o-<id>"` shows the four widest digits, and
-`--class ".clock-block=clock-block o-<id> sp-morph" --freeze 1600` the widest
-point of its morph, if it has one. Check the digits at wall distance before
-committing: 0 against 8, 1 against 7, 3 against 8.
-
-## Set pieces
-
-A set piece is one class on `.clock-block` (`sp-<id>`) whose keyframes live in
-`globals.css`. Every keyframe set **starts and ends at identity**, so the class
-is simply added and removed after `SetPiece.duration`. Pieces animate the digit
-cells; the minute roll animates the faces inside them; the two never run at
-once.
-
-| Piece | Length | What happens |
+| Property | Is | Default |
 | --- | --- | --- |
-| `domino` | 2.4 s | The minutes lean into the hours one after another, hold, spring back. |
-| `zerog` | 3.2 s | Everything lifts off, drifts, drops and lands with a squash. |
-| `rubber` | 1.7 s | The last digit is pulled off to the right, snaps back, knocks through the row. |
-| `cradle` | 2.0 s | The colon dots swing out and clack back; the digits they hit flinch. |
-| `ink` | 2.8 s | Fill fades to outline, ink floods up from the baseline, outline fades under it. |
-| `morph` | 3.2 s | The outfit's own variable axes move: weight, softness, casualness, bleed, pixel shape. |
-| `quake` | 3.4 s | Hour only. The block shakes, a digit drops out and climbs back. |
-| `flap` | 1.9 s | Hour only. Each digit flaps through three wrong numbers and lands on the right one. |
+| `--clock-surface` | Passed straight to `background`, so it takes a colour, a gradient or a `url()`. | `rgba(243,242,238,.035)` |
+| `--clock-ring` | The hairline around the card, drawn as an inset shadow. | `rgba(243,242,238,.09)` |
 
-`morph` is only eligible on an outfit whose digit face is a variable font
-(`Outfit.morph`), and each such outfit has its own choreography in
-`globals.css`, so the face never switches, only its shape. `quake` and `flap`
-briefly show a wrong or missing digit and are therefore reserved for the hour,
-2.6 s after the roll (`HOUR_PIECE_DELAY_MS`), when the roll has already drawn
-the eye.
+The card's padding is vertical only. The horizontal inset stays on `.clock`
+and `.clock-date` as `--panel-inset`, so the digits sit exactly where they
+always did and the surface reaches the shell's edges the way the weather
+card's does.
 
-One piece every 5 to 15 minutes. `delayToQuiet()` shifts the start so the whole
-piece fits inside the current minute with a two-second margin at both ends,
-and a piece never starts while an outfit is changing. The same piece never
-plays twice in a row.
+## The digits and the date
+
+The time is four digit cells and a colon on a fixed grid: two `.62em` columns,
+a `.26em` colon, two more `.62em` columns. The cells never move, so nothing
+about the time reflows. Only the digits that actually changed roll
+(`changedDigits`), staggered from the right by `--roll-delay`; a first load, a
+resumed screen or a clock correction snaps instead of rolling, and missed
+minutes are never replayed. The colon pulses while the clock is live.
+
+The face is Clock Grotesk, one of the subset faces in `app/clock-fonts.css`,
+which `npm run fonts:clock` generates from the list in
+`scripts/fetch-clock-fonts.mjs`. `--digit-scale` fits its digits into the
+`.62em` cells; the cells clip, so that number is measured, not chosen. The
+date is spelt out in full below the time — `Friday 5 September`, uppercased by
+the stylesheet — from `clockDate()`, in `Europe/Copenhagen` like every other
+formatter on the display.
+
+Type is read through custom properties on `.clock-block` (`--digit-font`,
+`--digit-scale`, `--digit-var`, the `--date-*` group, `--ink`, `--colon`,
+`--date-ink`, `--glow`, `--colon-r`) rather than written into the rules. That
+is deliberate: it is the seam the shelved wardrobe plugs back into.
+
+## Shelved: outfits and set pieces
+
+The clock used to dress itself in one of eighteen outfits every twenty to
+forty minutes, crossfading between them, and play one of eight choreographed
+set pieces on the digits every five to fifteen. Both are shelved in
+[assets/clock-behavior/](../assets/clock-behavior/README.md), with the
+stylesheets they animated, their tests, and instructions for putting them
+back. The generated fonts were left alone, so nothing needs downloading again.
 
 ## The Tenant
 
-An ivory forest pet inspired by the simple Chibi Totoro reference: a pear-shaped
-body, slightly uneven ears, wide round eyes, tiny toes and a green sprout.
-Its warm outline and flat cel colours are fixed and never follow the outfit.
-It stands to the right of the minutes with its feet on the digits' baseline.
+An ivory forest pet inspired by the simple Chibi Totoro reference: a
+pear-shaped body, slightly uneven ears, wide round eyes, tiny toes and a green
+sprout. Its warm outline and flat cel colours are fixed. Its home is inside
+the widget, to the right of the minutes with its feet on the digits' baseline.
 The body, ears and retractable hand are **one closed SVG path**, defined by
 `lib/tenant-drawing.ts`. Every pose has matching cubic segments, so CSS can
 morph the contour during a short wave, ear twitch or sneeze without revealing
 overlapping outlines. The hand disappears into the side at rest and emerges
 only to wave or grasp the rain leaf. The static SVG path is the fallback for
-browsers without CSS path animation. There are no filters, raster sprites,
-new animation dependencies or per-frame JavaScript updates.
+browsers without CSS path animation. There are no filters, raster sprites, new
+animation dependencies or per-frame JavaScript updates.
 
 The sprout follows the existing secondary-motion layer (`.t-tail`); its sway
 lags a jump and settles on landing. The eyes and mouth keep the original rig
 inside a scaling `transform`, so the established gaze offsets still work.
 A smile briefly closes the eyes into crescents and brings out soft cheeks;
-the resting face leaves the mouth undrawn. A
-shelved big-Totoro drawing with the same class names is kept in
-[assets/tenant-skins/](../assets/tenant-skins/README.md). It is decoration that knows where the numbers are, and what shape
-they are.
+the resting face leaves the mouth undrawn. A shelved big-Totoro drawing with
+the same class names is kept in
+[assets/tenant-skins/](../assets/tenant-skins/README.md). It is decoration
+that knows where the numbers are, and what shape they are.
 
-**Geometry.** After the fonts are ready, after every roll and outfit change,
-and on resize, `Clock` measures each digit: the cell's box from the DOM and the
-glyph's metrics from a canvas `measureText` call in the face's computed font.
+**Geometry.** After the fonts are ready, after every roll, and on resize,
+`Clock` measures each digit: the cell's box from the DOM and the glyph's
+metrics from a canvas `measureText` call in the face's computed font.
 `inkBox()` turns those into the glyph's actual ink rectangle. Each digit is
 also drawn once, at 96 px, on a small offscreen canvas, and `inkColumns()` reads
 the top of the ink in every column; `topProfile()` classifies that top as a
@@ -128,7 +110,9 @@ the apex: the centre of the highest flat run. `tenantTargets()` turns all of
 that into one perch per digit, with `--perch-x/y` on the apex and the direction
 in which an arch falls away. The
 colon's top dot is measured too and is the fifth perch, a **ball**. That is why
-it stands on the stem of a "1" rather than over its flag.
+it stands on the stem of a "1" rather than over its flag. Every measurement is
+in `.clock-block`'s own coordinates, which is why the block stays the origin
+however the widget around it is styled.
 
 **Behaviour.** One sparse decision loop advances a tiny set of drives—energy,
 curiosity, adventure and interest in the current panel—and chooses between
@@ -143,7 +127,7 @@ listening. The small hop uses the same charged parabola as travel rather than
 an inner-body shortcut. The cadence varies with energy rather than following
 independent metronomes.
 
-The Tenant is no longer confined to the clock. `Clock` measures five destination
+The Tenant is not confined to the widget. `Clock` measures five destination
 landmarks and a network of safe landing pads from their real DOM boxes: the
 weather card, rain ribbon, week days, active transport-board rules, fact image
 and footer, forecast-map edges and the compact departures rule. A long route is
@@ -179,9 +163,10 @@ and the clock dims to 72 %. It
 holds a broad leaf over its ears when the current hour is wet, wears sunglasses
 above 25° and a scarf below 0°, using the same fields the weather card shows.
 
-While the Tenant is off its resting spot, `Clock` postpones set pieces so an
-unrelated scripted clock effect does not interrupt it. Normal digit rolls are
-not postponed; they are part of the environment the Tenant can encounter.
+Nothing in the clock interrupts the Tenant any more. `busy` on `<Tenant>` is
+what held it still while the clock dressed or played a set piece; it is passed
+as `false` and kept as the seam those would plug back into. Digit rolls were
+never postponed either way: they are part of the environment it encounters.
 
 **Motion.** Every intentional position change uses one jump pipeline, including
 getting onto and off a digit, the idle hop, dashboard travel and coming home.
@@ -216,20 +201,22 @@ snapping to neutral. Involuntary falls retain their separate animation.
 
 ## Reduced motion
 
-Under `prefers-reduced-motion: reduce` the roll snaps, no outfit crossfade or
-set piece runs, and the Tenant is not rendered. Outfits still change, instantly.
+Under `prefers-reduced-motion: reduce` the roll snaps and the Tenant is not
+rendered.
 
 ## Checking it
 
 Everything about *which* and *when* is in `lib/` and covered by
-`tests/clock-wardrobe.test.mjs`, `tests/clock-events.test.mjs`,
-`tests/clock-tenant.test.mjs` and `tests/pet-behavior.test.mjs`, including the top-shape classifier, which is
-tested against the measured column tops of the Grotesk digits. To watch a piece
-without waiting for its timer, add the class by hand in DevTools (`sp-domino`,
-`o-neon`) on `.clock-block`; the CSS is the whole choreography. The Tenant's
-poses are classes on `.tenant` in the same way (`pose-perched on-round
-pa-slip`), positioned by the custom properties the component sets on it. Add
-`?pet=weather`, `week`, `transport`, `fact` or `map`
+`tests/clock.test.mjs`, `tests/clock-conditions.test.mjs`,
+`tests/clock-tenant.test.mjs` and `tests/pet-behavior.test.mjs`, including the
+top-shape classifier, which is tested against the measured column tops of the
+Grotesk digits. `npm run audit` checks the card at both layouts, and
+`npm run shot -- --offline --clip .clock-widget` is the picture of it;
+`--clip .clock-block` crops to the digits alone, without the card.
+
+The Tenant's poses are classes on `.tenant` (`pose-perched on-round pa-slip`),
+positioned by the custom properties the component sets on it. Add `?pet=weather`,
+`week`, `transport`, `fact` or `map`
 to hold it at a measured dashboard landmark for a reproducible visual check.
 Prefix the value with `travel-` (for example `?pet=travel-map`) to replay the
 real safe-spot route and hold only after it arrives. For procedural motion,

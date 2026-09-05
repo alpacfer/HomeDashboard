@@ -7,7 +7,7 @@ import { SOURCES, type SourceName } from '@/lib/forecast-sources';
 import { buildRibbon, rainHeadline, temperatureTrack } from '@/lib/forecast-summary';
 import { debugFlags } from '@/lib/debug-flags';
 import { describeLockout } from '@/lib/open-meteo-quota';
-import type { Conditions } from '@/lib/clock-wardrobe';
+import type { Conditions } from '@/lib/clock-conditions';
 import { ICONS, NIGHT_ICONS } from './condition-icons';
 import { readStored, writeStored } from './device-storage';
 import { openMeteoLockout, recordOpenMeteoRefusal } from './open-meteo-lockout';

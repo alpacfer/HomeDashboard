@@ -1,0 +1,81 @@
+/* The clock's set pieces: eight choreographed moments.
+
+   Shelved. This file is not imported by the build; see the README beside it
+   for what it was and how to put it back. Kept exactly as it left
+   app/globals.css so restoring it is a paste, not a rewrite. */
+/* ---------------------------------------------------------------------------
+   Set pieces. One class per piece on .clock-block (`sp-<id>`), chosen and
+   timed in lib/clock-events.ts. Every keyframe set starts and ends at rest,
+   so the class can be added and removed without a visible step. Pieces move
+   the cells (.clock-digit), the roll moves the faces inside them, and the two
+   never run at once. Stagger variables --d, --rd, --kd, --kx and --r are set
+   per digit by the component. */
+.sp-domino .clock-digit { animation:sp-domino 2400ms cubic-bezier(.34,1.3,.64,1) var(--rd,0ms) both; transform-origin:0 100%; }
+@keyframes sp-domino { 0% {transform:rotate(0);} 14% {transform:rotate(-16deg);} 50% {transform:rotate(-16deg);} 72% {transform:rotate(5deg);} 88% {transform:rotate(-2deg);} 100% {transform:rotate(0);} }
+.sp-domino .separator { animation:sp-domino-colon 2400ms cubic-bezier(.34,1.3,.64,1) 200ms both; }
+@keyframes sp-domino-colon { 0%,100% {transform:translate(0,0);} 14% {transform:translate(-.08em,-.12em);} 50% {transform:translate(-.08em,-.12em);} 72% {transform:translate(0,.03em);} }
+
+.sp-zerog .clock-digit { animation:sp-zerog 3200ms cubic-bezier(.45,.05,.55,.95) var(--d,0ms) both; transform-origin:50% 100%; }
+@keyframes sp-zerog { 0% {transform:translateY(0) rotate(0) scale(1);} 25% {transform:translateY(-38%) rotate(var(--r,6deg)) scale(1.02);} 55% {transform:translateY(-44%) rotate(calc(var(--r,6deg) * -.6)) scale(1.02);} 78% {transform:translateY(0) rotate(0) scale(1.14,.84);} 88% {transform:translateY(-6%) scale(.96,1.05);} 100% {transform:translateY(0) scale(1);} }
+.sp-zerog .separator span { animation:sp-zerog-dot 3200ms cubic-bezier(.45,.05,.55,.95) both; }
+.sp-zerog .separator span:last-child { animation-delay:120ms; }
+@keyframes sp-zerog-dot { 0%,100% {transform:translate(0,0);} 30% {transform:translate(.1em,-.5em);} 60% {transform:translate(-.06em,-.55em);} 80% {transform:translate(0,.04em) scale(1.3,.7);} }
+
+.sp-rubber .digit-3 { animation:sp-rubber-pull 1700ms cubic-bezier(.2,.9,.3,1.4) both; transform-origin:0 50%; }
+@keyframes sp-rubber-pull { 0% {transform:scaleX(1) translateX(0);} 45% {transform:scaleX(1.55) translateX(.06em);} 55% {transform:scaleX(.7) translateX(-.1em);} 66% {transform:scaleX(1.18) translateX(.02em);} 78% {transform:scaleX(.94);} 100% {transform:scaleX(1) translateX(0);} }
+.sp-rubber .digit-2,.sp-rubber .digit-1,.sp-rubber .digit-0,.sp-rubber .separator { animation:sp-rubber-knock 900ms cubic-bezier(.34,1.56,.64,1) calc(760ms + var(--kd,0ms)) both; }
+@keyframes sp-rubber-knock { 0%,100% {transform:translateX(0);} 30% {transform:translateX(var(--kx,-4%)) skewX(-4deg);} }
+
+.sp-cradle .separator span:first-child { animation:sp-cradle-a 2000ms cubic-bezier(.45,.05,.55,.95) both; transform-origin:50% -3em; }
+.sp-cradle .separator span:last-child { animation:sp-cradle-b 2000ms cubic-bezier(.45,.05,.55,.95) both; transform-origin:50% -3em; }
+@keyframes sp-cradle-a { 0% {transform:rotate(0);} 20% {transform:rotate(22deg);} 40%,100% {transform:rotate(0);} }
+@keyframes sp-cradle-b { 0%,40% {transform:rotate(0);} 60% {transform:rotate(-22deg);} 80%,100% {transform:rotate(0);} }
+.sp-cradle .digit-1 { animation:sp-flinch 600ms cubic-bezier(.34,1.56,.64,1) 380ms both; --fx:-5%; }
+.sp-cradle .digit-2 { animation:sp-flinch 600ms cubic-bezier(.34,1.56,.64,1) 1180ms both; --fx:5%; }
+@keyframes sp-flinch { 0%,100% {transform:translateX(0);} 30% {transform:translateX(var(--fx)) skewX(calc(var(--fx) * -.8));} }
+
+/* Ink: the fill fades to an outline, ink floods up from the baseline on a
+   duplicate glyph (the ::after), then the outline fades away under the fill.
+   Both ends are the plain filled digit. */
+.sp-ink .digit-face { -webkit-text-stroke:.035em transparent; animation:sp-ink-outline 2800ms ease var(--d,0ms) both; }
+@keyframes sp-ink-outline { 0% {color:var(--ink);-webkit-text-stroke-color:transparent;} 14% {color:transparent;-webkit-text-stroke-color:var(--ink);} 84% {color:transparent;-webkit-text-stroke-color:var(--ink);} 100% {color:transparent;-webkit-text-stroke-color:transparent;} }
+.sp-ink .digit-face::after { content:attr(data-d); position:absolute; inset:0; display:flex; align-items:center; justify-content:center; color:var(--ink); -webkit-text-stroke:0; clip-path:inset(100% 0 0 0); animation:sp-ink-fill 2800ms cubic-bezier(.65,0,.35,1) var(--d,0ms) both; }
+@keyframes sp-ink-fill { 0%,28% {clip-path:inset(100% 0 0 0);} 80%,100% {clip-path:inset(0 0 0 0);} }
+
+/* Morph: the outfit's own variable axes move. Each variable outfit has its own
+   choreography, so the face never changes, only its shape. Static outfits are
+   not eligible (Outfit.morph). */
+.sp-morph.o-grotesk .clock { animation:morph-grotesk 3200ms cubic-bezier(.45,0,.55,1) both; }
+@keyframes morph-grotesk { 0%,100% {font-variation-settings:'wght' 700;} 40%,60% {font-variation-settings:'wght' 300;} }
+.sp-morph.o-editorial .clock { animation:morph-editorial 3200ms cubic-bezier(.45,0,.55,1) both; }
+@keyframes morph-editorial { 0%,100% {font-variation-settings:'opsz' 144,'SOFT' 30,'WONK' 1,'wght' 900;} 45%,65% {font-variation-settings:'opsz' 144,'SOFT' 100,'WONK' 1,'wght' 500;} }
+.sp-morph.o-editorial .clock-digit { animation:morph-sag 3200ms cubic-bezier(.45,0,.55,1) var(--d,0ms) both; transform-origin:50% 100%; }
+@keyframes morph-sag { 0%,100% {transform:scaleY(1) skewX(0);} 45%,65% {transform:scaleY(.92) skewX(3deg);} }
+.sp-morph.o-casual .clock { animation:morph-casual 3200ms cubic-bezier(.45,0,.55,1) both; }
+@keyframes morph-casual { 0%,100% {font-variation-settings:'CASL' 1,'slnt' 0;} 45%,65% {font-variation-settings:'CASL' 0,'slnt' -15;} }
+.sp-morph.o-fashion .clock { animation:morph-fashion 3200ms cubic-bezier(.45,0,.55,1) both; }
+@keyframes morph-fashion { 0%,100% {font-variation-settings:'opsz' 96,'wght' 900;} 45%,65% {font-variation-settings:'opsz' 6,'wght' 400;} }
+.sp-morph.o-crt .clock { animation:morph-crt 3200ms cubic-bezier(.45,0,.55,1) both; }
+@keyframes morph-crt { 0%,100% {font-variation-settings:'BLED' 0,'SCAN' 0;} 45%,65% {font-variation-settings:'BLED' 100,'SCAN' 100;} }
+.sp-morph.o-dotmatrix .clock { animation:morph-dotmatrix 3200ms cubic-bezier(.45,0,.55,1) both; }
+@keyframes morph-dotmatrix { 0%,100% {font-variation-settings:'ELSH' 0,'wght' 700;} 45%,65% {font-variation-settings:'ELSH' 16,'wght' 400;} }
+.sp-morph.o-wonky .digit-face { animation:morph-wonky 2600ms ease-in-out var(--d,0ms) both; }
+@keyframes morph-wonky { 0%,100% {font-variation-settings:'MORF' 18;} 50% {font-variation-settings:'MORF' 60;} }
+.sp-morph.o-neon .clock-digit { animation:morph-neon 3200ms steps(1,end) var(--d,0ms) both; }
+@keyframes morph-neon { 0%,100% {opacity:1;} 12% {opacity:.35;} 16% {opacity:1;} 22% {opacity:.5;} 25% {opacity:1;} 58% {opacity:.3;} 61% {opacity:1;} 64% {opacity:.6;} 68% {opacity:1;} }
+.sp-morph.o-neon .clock-date { animation:morph-tilt 3200ms cubic-bezier(.45,0,.55,1) both; }
+@keyframes morph-tilt { 0%,100% {font-variation-settings:'XROT' 0,'YROT' 0;} 30% {font-variation-settings:'XROT' -30,'YROT' 25;} 70% {font-variation-settings:'XROT' 25,'YROT' -30;} }
+
+/* Hour pieces. A digit drops out and climbs back; a board flaps through
+   wrong numbers. Only after the hour roll, when the eye is already there. */
+.sp-quake .clock { animation:sp-quake 1000ms linear both; }
+@keyframes sp-quake { 0%,100% {transform:translate(0,0) rotate(0);} 10% {transform:translate(-1.2%,.6%) rotate(-.5deg);} 20% {transform:translate(1.2%,-.4%) rotate(.5deg);} 30% {transform:translate(-1%,.5%) rotate(-.4deg);} 40% {transform:translate(1%,-.6%) rotate(.4deg);} 50% {transform:translate(-.8%,.3%) rotate(-.3deg);} 60% {transform:translate(.8%,-.3%) rotate(.3deg);} 70% {transform:translate(-.5%,.2%);} 80% {transform:translate(.5%,-.2%);} 90% {transform:translate(-.2%,.1%);} }
+.sp-quake .digit-2 { animation:sp-quake-fall 3400ms cubic-bezier(.4,0,.2,1) both; transform-origin:50% 100%; }
+@keyframes sp-quake-fall { 0%,25% {transform:translateY(0) rotate(0);} 40% {transform:translateY(95%) rotate(14deg);} 60% {transform:translateY(95%) rotate(14deg);} 75% {transform:translateY(-8%) rotate(-3deg) scale(.96,1.06);} 85% {transform:translateY(0) scale(1.08,.9);} 100% {transform:translateY(0) scale(1);} }
+
+/* The flap piece's own rules, which sat among the roll rules in
+   app/globals.css rather than in the block above. */
+.digit-flap { animation:digit-flap-in 230ms cubic-bezier(.4,0,.6,1) both; transform-origin:50% 0; }
+.digit-flap-out { animation:digit-flap-out 230ms cubic-bezier(.4,0,.6,1) both; transform-origin:50% 100%; }
+@keyframes digit-flap-in { from {transform:rotateX(-90deg);opacity:.5;} to {transform:rotateX(0);opacity:1;} }
+@keyframes digit-flap-out { from {transform:rotateX(0);opacity:1;} to {transform:rotateX(90deg);opacity:.5;} }

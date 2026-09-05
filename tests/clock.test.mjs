@@ -25,7 +25,7 @@ test('seconds do not restart animations and resuming does not replay missed minu
   assert.equal(clockFrame(at('11:08:00'), frame).previous, null);
   assert.equal(clockFrame(at('10:06:00'), frame).previous, null);
 });
-test('date follows Copenhagen and includes the numeric day and month', () => {
-  assert.deepEqual(clockDate(new Date('2026-08-31T22:00:00Z')), { label: '1 September', dateTime: '2026-09-01' });
+test('date follows Copenhagen and spells out the weekday, day and month', () => {
+  assert.deepEqual(clockDate(new Date('2026-08-31T22:00:00Z')), { label: 'Tuesday 1 September', dateTime: '2026-09-01' });
   assert.deepEqual(clockDate(null), { label: '—' });
 });

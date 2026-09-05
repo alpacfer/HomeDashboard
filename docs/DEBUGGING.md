@@ -32,7 +32,7 @@ can never leave the wall display stuck. They combine:
 | `?scene=transport`, `?scene=fact&fact=N`, `?scene=map` | Holds one scene on the right-hand panel and schedules nothing. A `Pinned` badge replaces the rotation ring. | `lib/panel-rotation.ts` |
 | `?weather=off` | The weather card, the week strip and the forecast map make **no request**. The card shows its unavailable state. The clock, the transit strip and the daily facts work as normal. | `lib/debug-flags.ts` |
 | `?weather=demo` | Makes no request either, but the forecast map draws the synthetic run in `lib/precipitation-demo.ts`: a band crossing the frame, hour by hour with the quarters inside an hour identical, exactly the shape the real provider returns. It is the only way to photograph the map's animation without buying a grid, and it is deterministic, so two captures of the same change are comparable. | `lib/debug-flags.ts` |
-| `?time=HH:MM` | The clock reads that Copenhagen time; seconds still tick, so the minute still rolls. Everything that reads the clock follows: the wardrobe, the Tenant's mood, the ribbon's window. For checking an outfit against chosen digits, since a face that clips on a 4 looks fine at 21:21. | `lib/debug-flags.ts` |
+| `?time=HH:MM` | The clock reads that Copenhagen time; seconds still tick, so the minute still rolls. Everything that reads the clock follows: the Tenant's mood and the ribbon's window. For checking the digits that stress the face, since one that clips on a 4 looks fine at 21:21. | `lib/debug-flags.ts` |
 | `?pet=weather`, `week`, `transport`, `fact`, `map` | Holds the Tenant at that measured UI landmark. This checks its destination poses without waiting for curiosity to select an adventure; normal travel is unchanged when the flag is absent. | `lib/debug-flags.ts` |
 | `?pet=travel-weather`, `travel-week`, `travel-transport`, `travel-fact`, `travel-map` | Sends the Tenant from home to that landmark through its real measured landing pads, then holds it there. Use a screenshot sequence to inspect charge, parabola and chained landings without waiting for curiosity. | `lib/debug-flags.ts` |
 | `?pet-motion=hop`, `balance`, `peek` | Plays the pet's actual gravity/spring motion after a short setup. Hop jumps at home; balance and peek use a measured round digit. Reload to replay. Takes precedence over pet landmark flags. Pass the URL with `--url` to the screenshot and motion tools. | `lib/debug-flags.ts` |
@@ -116,8 +116,8 @@ npm run shot -- --scene transport --offline            # 1280 x 720, no weather 
 npm run shot -- --scene transport --offline --transit-demo  # ... with every delay and incident mark
 npm run shot -- --scene map                             # the map, live data
 npm run shot -- --clip .weather-band --scale 2          # one element, at 2x
-npm run shot -- --offline --time 08:46 --clip .clock-block --class ".clock-block=clock-block o-neon"
-npm run shot -- --offline --clip .clock-block --class ".clock-block=clock-block o-neon sp-domino" --freeze 800
+npm run shot -- --offline --time 08:46 --clip .clock-widget      # the clock card
+npm run shot -- --offline --clip .clock-block --pad 0             # the digits, without the card
 npm run shot -- --reduced-motion --clip .display-shell
 npm run shot -- --scene map --demo --pet map
 npm run shot -- --console                               # print what the page logged
@@ -131,16 +131,16 @@ npm run shot -- --console                               # print what the page lo
 - `--class "<selector>=<names>"` replaces the element's whole class list and
   re-applies it every 40 ms, because React rewrites `className` whenever its
   own value changes. Include the element's own class (`clock-block`) or its
-  styles go with it. This is how an outfit, a set piece or a Tenant pose is
-  reached on demand: the class names are listed in [CLOCK.md](CLOCK.md).
+  styles go with it. This is how a Tenant pose is reached on demand: the class
+  names are listed in [CLOCK.md](CLOCK.md).
 - `--demo` is the `?weather=demo` flag above, and is how the forecast map is
   captured: headless Chrome starts each run with an empty profile, so without
   it every capture of the map buys another three hundred coordinates.
-- `--time HH:MM` pins the clock (the `?time=` flag above), so an outfit can be
+- `--time HH:MM` pins the clock (the `?time=` flag above), so the face can be
   checked against the digits that stress it. `08:46` shows a 0, an 8, a 4 and
-  a 6, which between them are the widest and tallest digits of every face.
+  a 6, which between them are the widest and tallest digits it has.
 - `--freeze <ms>` pauses every CSS animation at that time, so a keyframe in the
-  middle of a set piece can be captured.
+  middle of a roll or a Tenant gesture can be captured.
 - `--console` prints everything the page logged. The weather card logs one
   line, `[weather] every provider failed: ...`, naming each provider and its
   reason, which is the fastest explanation of a muted card.

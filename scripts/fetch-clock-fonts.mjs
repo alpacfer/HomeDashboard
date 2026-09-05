@@ -25,7 +25,8 @@ const FONT_DIR = path.join(ROOT, 'public', 'fonts', 'clock');
 const CSS_FILE = path.join(ROOT, 'app', 'clock-fonts.css');
 
 // Every glyph the clock and its date can show. Keep in step with the date
-// formats in lib/clock-wardrobe.ts.
+// formats in assets/clock-behavior/clock-wardrobe.ts, which is shelved: the
+// display wears Clock Grotesk alone until that wardrobe is restored.
 const TEXT = '0123456789ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz,- ';
 
 // A Chromium user agent is what makes Google answer with woff2 and, for

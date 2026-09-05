@@ -74,6 +74,7 @@ const FURNITURE = [
   '.fact-illustration figcaption',
   '.fact-footer',
   '.forecast-map-credit',
+  '.weather-credit',
   '.leaflet-control-attribution',
 ];
 

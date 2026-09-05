@@ -41,8 +41,7 @@ screen. In short:
 - **`npm run shot`** (`scripts/screenshot.mjs`) is how screenshots are taken.
   It needs the dev server running (start it with the preview tool, never a bare
   `npm run dev` in Bash), waits for it, and writes PNGs under `screenshots/`.
-  `--clip <selector>` gives the smallest image; `--class` forces an outfit, set
-  piece or Tenant pose; `--freeze` stops animations at a time;
+  `--clip <selector>` gives the smallest image; `--class` forces a Tenant pose; `--freeze` stops animations at a time;
   `--reduced-motion` covers the accessibility path; `--transit-demo` fills the
   departure boards with every delay and incident mark; `--sequence n` captures
   a strip of moments from one page load, which is how a moving scene is shown;
@@ -85,7 +84,7 @@ screen. In short:
   headless Chrome starts each run with an empty profile, so `?weather=off`
   shows nothing and a live capture buys three hundred coordinates every time.
 - **`/?time=HH:MM`** pins the clock to a Copenhagen time (`npm run shot --
-  --time 08:46`), so an outfit can be checked against chosen digits.
+  --time 08:46`), so the face can be checked against the digits that stress it.
 - **`/?transit=demo`** (`npm run shot -- --transit-demo`) draws the departure
   boards from a synthetic answer holding a cancellation, a long delay, an early
   departure, a platform change and two service messages, asking no provider.
@@ -207,7 +206,7 @@ Run `npm run audit` first: it is faster than a capture, it covers every scene
 at once, and a screenshot that looks right can still be clipping content or
 wrapping a marker onto its own line. Then take the picture with `npm run shot`
 (see Debugging tools above). Use the smallest
-screenshot that demonstrates the change: `--clip .clock-block` for a clock
+screenshot that demonstrates the change: `--clip .clock-widget` for a clock
 change, `--clip .weather-band` for the weather card, the relevant panel for a
 rotating-panel change. To reach a rotating scene without waiting for the
 cycle, pin it with `--scene map`, `--scene transport` or

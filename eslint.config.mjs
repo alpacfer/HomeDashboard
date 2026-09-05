@@ -5,7 +5,9 @@ import nextTs from 'eslint-config-next/typescript';
 const eslintConfig = defineConfig([
   ...nextVitals,
   ...nextTs,
-  globalIgnores(['.next/**', 'out/**', 'build/**', 'dist/**', 'next-env.d.ts']),
+  // assets/ is shelved work, not part of the build: kept as it was so it can
+  // be moved back, and checked again when it is. See assets/clock-behavior/.
+  globalIgnores(['.next/**', 'out/**', 'build/**', 'dist/**', 'next-env.d.ts', 'assets/**']),
   {
     // lib/ holds pure logic: parsing, validation, time conversion, selection.
     // Nothing in it may reach for React, the DOM, the network, or Next.js.
