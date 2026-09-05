@@ -57,6 +57,33 @@
       }
     },
     {
+      "id": "07-07-sliced-bread",
+      "date": "07-07",
+      "dateLabel": "7 July",
+      "category": "world",
+      "categoryName": "World",
+      "year": 1928,
+      "title": "Sliced bread",
+      "body": "Sliced bread is sold for the first time (on the inventor's 48th birthday) by the Chillicothe Baking Company of Chillicothe, Missouri.",
+      "source": {
+        "name": "Wikipedia · Sliced bread",
+        "url": "https://en.wikipedia.org/wiki/Sliced_bread",
+        "calendarUrl": "https://en.wikipedia.org/wiki/July_7",
+        "license": {
+          "name": "CC BY-SA 4.0",
+          "url": "https://creativecommons.org/licenses/by-sa/4.0/"
+        }
+      },
+      "image": {
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/33/Fresh_made_bread_05.jpg/1280px-Fresh_made_bread_05.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "alt": "Picture from the Wikipedia article on Sliced bread.",
+        "credit": "FranHogan",
+        "source": "https://commons.wikimedia.org/wiki/File:Fresh_made_bread_05.jpg",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0"
+      }
+    },
+    {
       "id": "07-07-opportunity-rover",
       "date": "07-07",
       "dateLabel": "7 July",
@@ -77,10 +104,37 @@
       "image": {
         "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d8/NASA_Mars_Rover.jpg/1280px-NASA_Mars_Rover.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
         "alt": "Picture from the Wikipedia article on Opportunity.",
-        "credit": "NASA/JPL/Cornell University, Maas Digital LLC",
+        "credit": "NASA",
         "source": "https://commons.wikimedia.org/wiki/File:NASA_Mars_Rover.jpg",
         "license": "Public domain",
         "licenseUrl": "https://commons.wikimedia.org/wiki/File:NASA_Mars_Rover.jpg"
+      }
+    },
+    {
+      "id": "07-07-brioni-agreement",
+      "date": "07-07",
+      "dateLabel": "7 July",
+      "category": "world",
+      "categoryName": "World",
+      "year": 1991,
+      "title": "Brioni Agreement",
+      "body": "The Brioni Agreement ends the ten-day independence war in Slovenia against the rest of the Socialist Federal Republic of Yugoslavia.",
+      "source": {
+        "name": "Wikipedia · Brioni Agreement",
+        "url": "https://en.wikipedia.org/wiki/Brioni_Agreement",
+        "calendarUrl": "https://en.wikipedia.org/wiki/July_7",
+        "license": {
+          "name": "CC BY-SA 4.0",
+          "url": "https://creativecommons.org/licenses/by-sa/4.0/"
+        }
+      },
+      "image": {
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c5/Slovenia_Croatia_and_Yugoslavia_location_map.svg/1280px-Slovenia_Croatia_and_Yugoslavia_location_map.svg.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "alt": "Picture from the Wikipedia article on Brioni Agreement.",
+        "credit": "Tomobe03",
+        "source": "https://commons.wikimedia.org/wiki/File:Slovenia_Croatia_and_Yugoslavia_location_map.svg",
+        "license": "CC BY-SA 3.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0"
       }
     }
   ]

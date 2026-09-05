@@ -3,30 +3,39 @@
   "dateLabel": "5 September",
   "facts": [
     {
-      "id": "09-05-space-shuttle-discovery",
+      "id": "09-05-voyager-1",
       "date": "09-05",
       "dateLabel": "5 September",
       "category": "space",
       "categoryName": "Space",
-      "year": 1984,
-      "title": "Space Shuttle Discovery",
-      "body": "The Space Shuttle Discovery lands after its maiden voyage.",
+      "year": 1977,
+      "title": "Voyager 1",
+      "body": "NASA launches the Voyager 1 spacecraft.",
       "source": {
-        "name": "Wikipedia · Space Shuttle Discovery",
-        "url": "https://en.wikipedia.org/wiki/Space_Shuttle_Discovery",
+        "name": "Wikipedia · Voyager 1",
+        "url": "https://en.wikipedia.org/wiki/Voyager_1",
         "calendarUrl": "https://en.wikipedia.org/wiki/September_5",
         "license": {
           "name": "CC BY-SA 4.0",
           "url": "https://creativecommons.org/licenses/by-sa/4.0/"
         }
       },
-      "image": {
-        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/1d/STS-133_Space_Shuttle_Discovery_after_undocking_3_%28cropped%29.jpg/1280px-STS-133_Space_Shuttle_Discovery_after_undocking_3_%28cropped%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-        "alt": "Picture from the Wikipedia article on Space Shuttle Discovery.",
-        "credit": "NASA",
-        "source": "https://commons.wikimedia.org/wiki/File:STS-133_Space_Shuttle_Discovery_after_undocking_3_(cropped).jpg",
+      "video": {
+        "src": "https://upload.wikimedia.org/wikipedia/commons/transcoded/3/3c/Voyager_Captures_Sounds_of_Interstellar_Space.webm/Voyager_Captures_Sounds_of_Interstellar_Space.webm.240p.vp9.webm",
+        "poster": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/3c/Voyager_Captures_Sounds_of_Interstellar_Space.webm/1280px--Voyager_Captures_Sounds_of_Interstellar_Space.webm.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo",
+        "seconds": 61,
+        "credit": "NASA Jet Propulsion Laboratory",
+        "source": "https://commons.wikimedia.org/wiki/File:Voyager_Captures_Sounds_of_Interstellar_Space.webm",
         "license": "Public domain",
-        "licenseUrl": "https://commons.wikimedia.org/wiki/File:STS-133_Space_Shuttle_Discovery_after_undocking_3_(cropped).jpg"
+        "licenseUrl": "https://commons.wikimedia.org/wiki/File:Voyager_Captures_Sounds_of_Interstellar_Space.webm"
+      },
+      "image": {
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/60/Voyager_spacecraft_model.png/1280px-Voyager_spacecraft_model.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "alt": "Picture from the Wikipedia article on Voyager 1.",
+        "credit": "NASA",
+        "source": "https://commons.wikimedia.org/wiki/File:Voyager_spacecraft_model.png",
+        "license": "Public domain",
+        "licenseUrl": "https://commons.wikimedia.org/wiki/File:Voyager_spacecraft_model.png"
       }
     },
     {
@@ -54,6 +63,60 @@
         "source": "https://commons.wikimedia.org/wiki/File:Muhammad_Ali_NYWTS.jpg",
         "license": "Public domain",
         "licenseUrl": "https://commons.wikimedia.org/wiki/File:Muhammad_Ali_NYWTS.jpg"
+      }
+    },
+    {
+      "id": "09-05-french-upper-volta",
+      "date": "09-05",
+      "dateLabel": "5 September",
+      "category": "world",
+      "categoryName": "World",
+      "year": 1932,
+      "title": "French Upper Volta",
+      "body": "The French Upper Volta is broken apart between Ivory Coast, French Sudan, and Niger.",
+      "source": {
+        "name": "Wikipedia · French Upper Volta",
+        "url": "https://en.wikipedia.org/wiki/French_Upper_Volta",
+        "calendarUrl": "https://en.wikipedia.org/wiki/September_5",
+        "license": {
+          "name": "CC BY-SA 4.0",
+          "url": "https://creativecommons.org/licenses/by-sa/4.0/"
+        }
+      },
+      "image": {
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c3/Flag_of_France.svg/1280px-Flag_of_France.svg.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "alt": "Picture from the Wikipedia article on French Upper Volta.",
+        "credit": "Unknown Vector: SKopp",
+        "source": "https://commons.wikimedia.org/wiki/File:Flag_of_France.svg",
+        "license": "Public domain",
+        "licenseUrl": "https://commons.wikimedia.org/wiki/File:Flag_of_France.svg"
+      }
+    },
+    {
+      "id": "09-05-space-shuttle-discovery",
+      "date": "09-05",
+      "dateLabel": "5 September",
+      "category": "space",
+      "categoryName": "Space",
+      "year": 1984,
+      "title": "Space Shuttle Discovery",
+      "body": "The Space Shuttle Discovery lands after its maiden voyage.",
+      "source": {
+        "name": "Wikipedia · Space Shuttle Discovery",
+        "url": "https://en.wikipedia.org/wiki/Space_Shuttle_Discovery",
+        "calendarUrl": "https://en.wikipedia.org/wiki/September_5",
+        "license": {
+          "name": "CC BY-SA 4.0",
+          "url": "https://creativecommons.org/licenses/by-sa/4.0/"
+        }
+      },
+      "image": {
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/1d/STS-133_Space_Shuttle_Discovery_after_undocking_3_%28cropped%29.jpg/1280px-STS-133_Space_Shuttle_Discovery_after_undocking_3_%28cropped%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "alt": "Picture from the Wikipedia article on Space Shuttle Discovery.",
+        "credit": "NASA",
+        "source": "https://commons.wikimedia.org/wiki/File:STS-133_Space_Shuttle_Discovery_after_undocking_3_(cropped).jpg",
+        "license": "Public domain",
+        "licenseUrl": "https://commons.wikimedia.org/wiki/File:STS-133_Space_Shuttle_Discovery_after_undocking_3_(cropped).jpg"
       }
     },
     {

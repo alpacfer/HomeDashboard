@@ -3,33 +3,6 @@
   "dateLabel": "6 November",
   "facts": [
     {
-      "id": "11-06-art-modell",
-      "date": "11-06",
-      "dateLabel": "6 November",
-      "category": "world",
-      "categoryName": "World",
-      "year": 1995,
-      "title": "Art Modell",
-      "body": "Art Modell announces that he signed a deal that would relocate the Cleveland Browns to Baltimore.",
-      "source": {
-        "name": "Wikipedia · Art Modell",
-        "url": "https://en.wikipedia.org/wiki/Art_Modell",
-        "calendarUrl": "https://en.wikipedia.org/wiki/November_6",
-        "license": {
-          "name": "CC BY-SA 4.0",
-          "url": "https://creativecommons.org/licenses/by-sa/4.0/"
-        }
-      },
-      "image": {
-        "src": "https://upload.wikimedia.org/wikipedia/commons/7/79/1980-modell-browns_crop.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
-        "alt": "Picture from the Wikipedia article on Art Modell.",
-        "credit": "Jerry Sherk (talk); cropped by Beyond My Ken (talk) 20:22, 9 January 2011 (UTC) (Transferred by Beyond My Ken/Originally uploaded by Beyond My Ken)",
-        "source": "https://commons.wikimedia.org/wiki/File:1980-modell-browns_crop.jpg",
-        "license": "CC BY-SA 3.0",
-        "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0"
-      }
-    },
-    {
       "id": "11-06-meet-the-press",
       "date": "11-06",
       "dateLabel": "6 November",
@@ -57,6 +30,33 @@
       }
     },
     {
+      "id": "11-06-tammy-baldwin",
+      "date": "11-06",
+      "dateLabel": "6 November",
+      "category": "world",
+      "categoryName": "World",
+      "year": 2012,
+      "title": "Tammy Baldwin",
+      "body": "Tammy Baldwin becomes the first openly gay politician to be elected to the United States Senate.",
+      "source": {
+        "name": "Wikipedia · Tammy Baldwin",
+        "url": "https://en.wikipedia.org/wiki/Tammy_Baldwin",
+        "calendarUrl": "https://en.wikipedia.org/wiki/November_6",
+        "license": {
+          "name": "CC BY-SA 4.0",
+          "url": "https://creativecommons.org/licenses/by-sa/4.0/"
+        }
+      },
+      "image": {
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/ef/Tammy_Baldwin%2C_official_portrait%2C_113th_Congress.jpg/1280px-Tammy_Baldwin%2C_official_portrait%2C_113th_Congress.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "alt": "Picture from the Wikipedia article on Tammy Baldwin.",
+        "credit": "United States Senate",
+        "source": "https://commons.wikimedia.org/wiki/File:Tammy_Baldwin,_official_portrait,_113th_Congress.jpg",
+        "license": "Public domain",
+        "licenseUrl": "https://commons.wikimedia.org/wiki/File:Tammy_Baldwin,_official_portrait,_113th_Congress.jpg"
+      }
+    },
+    {
       "id": "11-06-new-brunswick-new-jersey",
       "date": "11-06",
       "dateLabel": "6 November",
@@ -81,6 +81,60 @@
         "source": "https://commons.wikimedia.org/wiki/File:New_brunswick_from_the_air_in_February_2026.jpg",
         "license": "CC BY-SA 4.0",
         "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0"
+      }
+    },
+    {
+      "id": "11-06-art-modell",
+      "date": "11-06",
+      "dateLabel": "6 November",
+      "category": "world",
+      "categoryName": "World",
+      "year": 1995,
+      "title": "Art Modell",
+      "body": "Art Modell announces that he signed a deal that would relocate the Cleveland Browns to Baltimore.",
+      "source": {
+        "name": "Wikipedia · Art Modell",
+        "url": "https://en.wikipedia.org/wiki/Art_Modell",
+        "calendarUrl": "https://en.wikipedia.org/wiki/November_6",
+        "license": {
+          "name": "CC BY-SA 4.0",
+          "url": "https://creativecommons.org/licenses/by-sa/4.0/"
+        }
+      },
+      "image": {
+        "src": "https://upload.wikimedia.org/wikipedia/commons/7/79/1980-modell-browns_crop.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+        "alt": "Picture from the Wikipedia article on Art Modell.",
+        "credit": "Jerry Sherk",
+        "source": "https://commons.wikimedia.org/wiki/File:1980-modell-browns_crop.jpg",
+        "license": "CC BY-SA 3.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0"
+      }
+    },
+    {
+      "id": "11-06-united-states-atomic-energy-commission",
+      "date": "11-06",
+      "dateLabel": "6 November",
+      "category": "world",
+      "categoryName": "World",
+      "year": 1971,
+      "title": "United States Atomic Energy Commission",
+      "body": "The United States Atomic Energy Commission tests the largest U.S. underground hydrogen bomb, code-named Cannikin, on Amchitka Island in the Aleutians.",
+      "source": {
+        "name": "Wikipedia · United States Atomic Energy Commission",
+        "url": "https://en.wikipedia.org/wiki/United_States_Atomic_Energy_Commission",
+        "calendarUrl": "https://en.wikipedia.org/wiki/November_6",
+        "license": {
+          "name": "CC BY-SA 4.0",
+          "url": "https://creativecommons.org/licenses/by-sa/4.0/"
+        }
+      },
+      "image": {
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/4b/Seal_of_the_United_States_Atomic_Energy_Commission.svg/1280px-Seal_of_the_United_States_Atomic_Energy_Commission.svg.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "alt": "Picture from the Wikipedia article on United States Atomic Energy Commission.",
+        "credit": "United States Atomic Energy Commission",
+        "source": "https://commons.wikimedia.org/wiki/File:Seal_of_the_United_States_Atomic_Energy_Commission.svg",
+        "license": "Public domain",
+        "licenseUrl": "https://commons.wikimedia.org/wiki/File:Seal_of_the_United_States_Atomic_Energy_Commission.svg"
       }
     }
   ]

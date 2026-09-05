@@ -3,17 +3,17 @@
   "dateLabel": "13 May",
   "facts": [
     {
-      "id": "05-13-ben-carlin",
+      "id": "05-13-tiananmen-square-protests-of-1989",
       "date": "05-13",
       "dateLabel": "13 May",
       "category": "world",
       "categoryName": "World",
-      "year": 1958,
-      "title": "Ben Carlin",
-      "body": "Ben Carlin becomes the first (and only) person to circumnavigate the world by amphibious vehicle, having travelled over by sea and by land during a ten-year journey.",
+      "year": 1989,
+      "title": "1989 Tiananmen Square protests and massacre",
+      "body": "Large groups of students occupy Tiananmen Square and begin a hunger strike.",
       "source": {
-        "name": "Wikipedia · Ben Carlin",
-        "url": "https://en.wikipedia.org/wiki/Ben_Carlin",
+        "name": "Wikipedia · 1989 Tiananmen Square protests and massacre",
+        "url": "https://en.wikipedia.org/wiki/1989_Tiananmen_Square_protests_and_massacre",
         "calendarUrl": "https://en.wikipedia.org/wiki/May_13",
         "license": {
           "name": "CC BY-SA 4.0",
@@ -21,12 +21,12 @@
         }
       },
       "image": {
-        "src": "https://upload.wikimedia.org/wikipedia/commons/2/2f/BenCarlin01.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
-        "alt": "Picture from the Wikipedia article on Ben Carlin.",
-        "credit": "BenAndElinoreCarlin02.jpg: Unknown photographer derivative work: IgnorantArmies",
-        "source": "https://commons.wikimedia.org/wiki/File:BenCarlin01.jpg",
-        "license": "Public domain",
-        "licenseUrl": "https://commons.wikimedia.org/wiki/File:BenCarlin01.jpg"
+        "src": "https://upload.wikimedia.org/wikipedia/commons/e/e7/Ud%C3%A1losti_na_n%C3%A1m%C4%9Bst%C3%AD_Tian_an_men%2C_%C4%8C%C3%ADna_1989%2C_foto_Ji%C5%99%C3%AD_Tondl.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+        "alt": "Picture from the Wikipedia article on 1989 Tiananmen Square protests and massacre.",
+        "credit": "Jiří Tondl",
+        "source": "https://commons.wikimedia.org/wiki/File:Ud%C3%A1losti_na_n%C3%A1m%C4%9Bst%C3%AD_Tian_an_men,_%C4%8C%C3%ADna_1989,_foto_Ji%C5%99%C3%AD_Tondl.jpg",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0"
       }
     },
     {
@@ -81,6 +81,60 @@
         "source": "https://commons.wikimedia.org/wiki/File:Great_Comet_1861_(128495343).jpg",
         "license": "Public domain",
         "licenseUrl": "https://commons.wikimedia.org/wiki/File:Great_Comet_1861_(128495343).jpg"
+      }
+    },
+    {
+      "id": "05-13-alison-hargreaves",
+      "date": "05-13",
+      "dateLabel": "13 May",
+      "category": "world",
+      "categoryName": "World",
+      "year": 1995,
+      "title": "Alison Hargreaves",
+      "body": "Alison Hargreaves, a 33-year-old British mother, becomes the first woman to ascend Everest without oxygen or the help of sherpas.",
+      "source": {
+        "name": "Wikipedia · Alison Hargreaves",
+        "url": "https://en.wikipedia.org/wiki/Alison_Hargreaves",
+        "calendarUrl": "https://en.wikipedia.org/wiki/May_13",
+        "license": {
+          "name": "CC BY-SA 4.0",
+          "url": "https://creativecommons.org/licenses/by-sa/4.0/"
+        }
+      },
+      "image": {
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/91/Tom_Frost_-_Climbers_on_Kangtega_-_1986.jpg/1280px-Tom_Frost_-_Climbers_on_Kangtega_-_1986.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "alt": "Picture from the Wikipedia article on Alison Hargreaves.",
+        "credit": "Tom Frost",
+        "source": "https://commons.wikimedia.org/wiki/File:Tom_Frost_-_Climbers_on_Kangtega_-_1986.jpg",
+        "license": "CC BY 3.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by/3.0"
+      }
+    },
+    {
+      "id": "05-13-1909-giro-d-italia",
+      "date": "05-13",
+      "dateLabel": "13 May",
+      "category": "sport",
+      "categoryName": "Sport",
+      "year": 1909,
+      "title": "1909 Giro d'Italia",
+      "body": "The first edition of the Giro d'Italia, a long-distance multiple-stage bicycle race, begins in Milan; the Italian cyclist Luigi Ganna was the eventual winner.",
+      "source": {
+        "name": "Wikipedia · 1909 Giro d'Italia",
+        "url": "https://en.wikipedia.org/wiki/1909_Giro_d%27Italia",
+        "calendarUrl": "https://en.wikipedia.org/wiki/May_13",
+        "license": {
+          "name": "CC BY-SA 4.0",
+          "url": "https://creativecommons.org/licenses/by-sa/4.0/"
+        }
+      },
+      "image": {
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/ae/Giro_1909.png/1280px-Giro_1909.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "alt": "Picture from the Wikipedia article on 1909 Giro d'Italia.",
+        "credit": "Viktorin1988",
+        "source": "https://commons.wikimedia.org/wiki/File:Giro_1909.png",
+        "license": "CC BY 2.5",
+        "licenseUrl": "https://creativecommons.org/licenses/by/2.5"
       }
     }
   ]

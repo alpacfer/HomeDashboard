@@ -3,17 +3,17 @@
   "dateLabel": "28 December",
   "facts": [
     {
-      "id": "12-28-maurice-richard",
+      "id": "12-28-1958-nfl-championship-game",
       "date": "12-28",
       "dateLabel": "28 December",
       "category": "sport",
       "categoryName": "Sport",
-      "year": 1944,
-      "title": "Maurice Richard",
-      "body": "Maurice Richard becomes the first player to score eight points in one game of NHL ice hockey.",
+      "year": 1958,
+      "title": "1958 NFL Championship Game",
+      "body": "\"Greatest Game Ever Played\": The Baltimore Colts defeat the New York Giants in the first ever National Football League sudden death overtime game at New York's Yankee Stadium to win the NFL Championship.",
       "source": {
-        "name": "Wikipedia · Maurice Richard",
-        "url": "https://en.wikipedia.org/wiki/Maurice_Richard",
+        "name": "Wikipedia · 1958 NFL Championship Game",
+        "url": "https://en.wikipedia.org/wiki/1958_NFL_Championship_Game",
         "calendarUrl": "https://en.wikipedia.org/wiki/December_28",
         "license": {
           "name": "CC BY-SA 4.0",
@@ -21,12 +21,12 @@
         }
       },
       "image": {
-        "src": "https://upload.wikimedia.org/wikipedia/commons/c/c7/Maurice_richard_profile.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
-        "alt": "Picture from the Wikipedia article on Maurice Richard.",
-        "credit": "National Archives of Canada, Thomas Patrick Gorman fonds",
-        "source": "https://commons.wikimedia.org/wiki/File:Maurice_richard_profile.jpg",
+        "src": "https://upload.wikimedia.org/wikipedia/commons/6/6b/1958ChampionshipGameProgram.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+        "alt": "Picture from the Wikipedia article on 1958 NFL Championship Game.",
+        "credit": "Unknown author",
+        "source": "https://commons.wikimedia.org/wiki/File:1958ChampionshipGameProgram.jpg",
         "license": "Public domain",
-        "licenseUrl": "https://commons.wikimedia.org/wiki/File:Maurice_richard_profile.jpg"
+        "licenseUrl": "https://commons.wikimedia.org/wiki/File:1958ChampionshipGameProgram.jpg"
       }
     },
     {
@@ -50,7 +50,7 @@
       "image": {
         "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/14/Countess_Constance_Markiewicz-1.1.2_%28cropped%29.jpg/1280px-Countess_Constance_Markiewicz-1.1.2_%28cropped%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
         "alt": "Picture from the Wikipedia article on Constance Markievicz.",
-        "credit": "Keogh Brothers Ltd.",
+        "credit": "Keogh Brothers Ltd",
         "source": "https://commons.wikimedia.org/wiki/File:Countess_Constance_Markiewicz-1.1.2_(cropped).jpg",
         "license": "Public domain",
         "licenseUrl": "https://commons.wikimedia.org/wiki/File:Countess_Constance_Markiewicz-1.1.2_(cropped).jpg"
@@ -81,6 +81,60 @@
         "source": "https://commons.wikimedia.org/wiki/File:Great_Seal_of_the_United_States_(obverse).svg",
         "license": "Public domain",
         "licenseUrl": "https://commons.wikimedia.org/wiki/File:Great_Seal_of_the_United_States_(obverse).svg"
+      }
+    },
+    {
+      "id": "12-28-maurice-richard",
+      "date": "12-28",
+      "dateLabel": "28 December",
+      "category": "sport",
+      "categoryName": "Sport",
+      "year": 1944,
+      "title": "Maurice Richard",
+      "body": "Maurice Richard becomes the first player to score eight points in one game of NHL ice hockey.",
+      "source": {
+        "name": "Wikipedia · Maurice Richard",
+        "url": "https://en.wikipedia.org/wiki/Maurice_Richard",
+        "calendarUrl": "https://en.wikipedia.org/wiki/December_28",
+        "license": {
+          "name": "CC BY-SA 4.0",
+          "url": "https://creativecommons.org/licenses/by-sa/4.0/"
+        }
+      },
+      "image": {
+        "src": "https://upload.wikimedia.org/wikipedia/commons/c/c7/Maurice_richard_profile.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+        "alt": "Picture from the Wikipedia article on Maurice Richard.",
+        "credit": "National Archives of Canada",
+        "source": "https://commons.wikimedia.org/wiki/File:Maurice_richard_profile.jpg",
+        "license": "Public domain",
+        "licenseUrl": "https://commons.wikimedia.org/wiki/File:Maurice_richard_profile.jpg"
+      }
+    },
+    {
+      "id": "12-28-syracuse-pros",
+      "date": "12-28",
+      "dateLabel": "28 December",
+      "category": "sport",
+      "categoryName": "Sport",
+      "year": 1902,
+      "title": "Syracuse Pros",
+      "body": "The Syracuse Athletic Club defeat the New York Philadelphians, 5–0, in the first indoor professional football game, which was held at Madison Square Garden.",
+      "source": {
+        "name": "Wikipedia · Syracuse Pros",
+        "url": "https://en.wikipedia.org/wiki/Syracuse_Pros",
+        "calendarUrl": "https://en.wikipedia.org/wiki/December_28",
+        "license": {
+          "name": "CC BY-SA 4.0",
+          "url": "https://creativecommons.org/licenses/by-sa/4.0/"
+        }
+      },
+      "image": {
+        "src": "https://upload.wikimedia.org/wikipedia/commons/5/59/Syracuse_Pros_Logo%3F.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+        "alt": "Picture from the Wikipedia article on Syracuse Pros.",
+        "credit": "Unknown author",
+        "source": "https://commons.wikimedia.org/wiki/File:Syracuse_Pros_Logo%3F.png",
+        "license": "CC0",
+        "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/deed.en"
       }
     }
   ]

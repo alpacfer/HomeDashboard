@@ -23,37 +23,10 @@
       "image": {
         "src": "https://upload.wikimedia.org/wikipedia/commons/b/be/Sputnik_asm.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
         "alt": "Picture from the Wikipedia article on Timeline of first orbital launches by country.",
-        "credit": "NSSDC, NASA[1]",
+        "credit": "NSSDC, NASA",
         "source": "https://commons.wikimedia.org/wiki/File:Sputnik_asm.jpg",
         "license": "Public domain",
         "licenseUrl": "https://commons.wikimedia.org/wiki/File:Sputnik_asm.jpg"
-      }
-    },
-    {
-      "id": "12-12-kenya",
-      "date": "12-12",
-      "dateLabel": "12 December",
-      "category": "world",
-      "categoryName": "World",
-      "year": 1963,
-      "title": "Kenya",
-      "body": "Kenya declares independence from Great Britain.",
-      "source": {
-        "name": "Wikipedia · Kenya",
-        "url": "https://en.wikipedia.org/wiki/Kenya",
-        "calendarUrl": "https://en.wikipedia.org/wiki/December_12",
-        "license": {
-          "name": "CC BY-SA 4.0",
-          "url": "https://creativecommons.org/licenses/by-sa/4.0/"
-        }
-      },
-      "image": {
-        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/49/Flag_of_Kenya.svg/1280px-Flag_of_Kenya.svg.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-        "alt": "Picture from the Wikipedia article on Kenya.",
-        "credit": "User:Pumbaa80",
-        "source": "https://commons.wikimedia.org/wiki/File:Flag_of_Kenya.svg",
-        "license": "Public domain",
-        "licenseUrl": "https://commons.wikimedia.org/wiki/File:Flag_of_Kenya.svg"
       }
     },
     {
@@ -81,6 +54,87 @@
         "source": "https://commons.wikimedia.org/wiki/File:USS_Panay_sinking_after_Japanese_air_attack.jpg",
         "license": "Public domain",
         "licenseUrl": "https://commons.wikimedia.org/wiki/File:USS_Panay_sinking_after_Japanese_air_attack.jpg"
+      }
+    },
+    {
+      "id": "12-12-guglielmo-marconi",
+      "date": "12-12",
+      "dateLabel": "12 December",
+      "category": "world",
+      "categoryName": "World",
+      "year": 1901,
+      "title": "Guglielmo Marconi",
+      "body": "Guglielmo Marconi receives the first transatlantic radio signal (the letter \"S\" [•••] in Morse Code), at Signal Hill in St John's, Newfoundland.",
+      "source": {
+        "name": "Wikipedia · Guglielmo Marconi",
+        "url": "https://en.wikipedia.org/wiki/Guglielmo_Marconi",
+        "calendarUrl": "https://en.wikipedia.org/wiki/December_12",
+        "license": {
+          "name": "CC BY-SA 4.0",
+          "url": "https://creativecommons.org/licenses/by-sa/4.0/"
+        }
+      },
+      "image": {
+        "src": "https://upload.wikimedia.org/wikipedia/commons/0/0d/Guglielmo_Marconi.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+        "alt": "Picture from the Wikipedia article on Guglielmo Marconi.",
+        "credit": "Pach Brothers",
+        "source": "https://commons.wikimedia.org/wiki/File:Guglielmo_Marconi.jpg",
+        "license": "Public domain",
+        "licenseUrl": "https://commons.wikimedia.org/wiki/File:Guglielmo_Marconi.jpg"
+      }
+    },
+    {
+      "id": "12-12-supreme-court-of-the-united-states",
+      "date": "12-12",
+      "dateLabel": "12 December",
+      "category": "world",
+      "categoryName": "World",
+      "year": 2000,
+      "title": "Supreme Court of the United States",
+      "body": "The United States Supreme Court releases its decision in Bush v. Gore.",
+      "source": {
+        "name": "Wikipedia · Supreme Court of the United States",
+        "url": "https://en.wikipedia.org/wiki/Supreme_Court_of_the_United_States",
+        "calendarUrl": "https://en.wikipedia.org/wiki/December_12",
+        "license": {
+          "name": "CC BY-SA 4.0",
+          "url": "https://creativecommons.org/licenses/by-sa/4.0/"
+        }
+      },
+      "image": {
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f3/Seal_of_the_United_States_Supreme_Court.svg/1280px-Seal_of_the_United_States_Supreme_Court.svg.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "alt": "Picture from the Wikipedia article on Supreme Court of the United States.",
+        "credit": "Optimager Vector: Ipankonin",
+        "source": "https://commons.wikimedia.org/wiki/File:Seal_of_the_United_States_Supreme_Court.svg",
+        "license": "Public domain",
+        "licenseUrl": "https://commons.wikimedia.org/wiki/File:Seal_of_the_United_States_Supreme_Court.svg"
+      }
+    },
+    {
+      "id": "12-12-lebensborn",
+      "date": "12-12",
+      "dateLabel": "12 December",
+      "category": "world",
+      "categoryName": "World",
+      "year": 1935,
+      "title": "Lebensborn",
+      "body": "The Lebensborn Project, a Nazi reproduction program, is founded by Heinrich Himmler.",
+      "source": {
+        "name": "Wikipedia · Lebensborn",
+        "url": "https://en.wikipedia.org/wiki/Lebensborn",
+        "calendarUrl": "https://en.wikipedia.org/wiki/December_12",
+        "license": {
+          "name": "CC BY-SA 4.0",
+          "url": "https://creativecommons.org/licenses/by-sa/4.0/"
+        }
+      },
+      "image": {
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/5f/Bundesarchiv_Bild_146-1973-010-11%2C_Schwester_in_einem_Lebensbornheim.jpg/1280px-Bundesarchiv_Bild_146-1973-010-11%2C_Schwester_in_einem_Lebensbornheim.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "alt": "Picture from the Wikipedia article on Lebensborn.",
+        "credit": "Bundesarchiv, Bild 146-1973-010-11",
+        "source": "https://commons.wikimedia.org/wiki/File:Bundesarchiv_Bild_146-1973-010-11,_Schwester_in_einem_Lebensbornheim.jpg",
+        "license": "CC BY-SA 3.0 de",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0/de/deed.en"
       }
     }
   ]

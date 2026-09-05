@@ -3,6 +3,33 @@
   "dateLabel": "2 August",
   "facts": [
     {
+      "id": "08-02-positron",
+      "date": "08-02",
+      "dateLabel": "2 August",
+      "category": "science",
+      "categoryName": "Science",
+      "year": 1932,
+      "title": "Positron",
+      "body": "The positron (antiparticle of the electron) is discovered by Carl D. Anderson.",
+      "source": {
+        "name": "Wikipedia · Positron",
+        "url": "https://en.wikipedia.org/wiki/Positron",
+        "calendarUrl": "https://en.wikipedia.org/wiki/August_2",
+        "license": {
+          "name": "CC BY-SA 4.0",
+          "url": "https://creativecommons.org/licenses/by-sa/4.0/"
+        }
+      },
+      "image": {
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/5a/PositronDiscovery.png/1280px-PositronDiscovery.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "alt": "Picture from the Wikipedia article on Positron.",
+        "credit": "Carl D. Anderson",
+        "source": "https://commons.wikimedia.org/wiki/File:PositronDiscovery.png",
+        "license": "Public domain",
+        "licenseUrl": "https://commons.wikimedia.org/wiki/File:PositronDiscovery.png"
+      }
+    },
+    {
       "id": "08-02-helsinki-metro",
       "date": "08-02",
       "dateLabel": "2 August",
@@ -30,17 +57,17 @@
       }
     },
     {
-      "id": "08-02-positron",
+      "id": "08-02-austria-hungary",
       "date": "08-02",
       "dateLabel": "2 August",
-      "category": "science",
-      "categoryName": "Science",
-      "year": 1932,
-      "title": "Positron",
-      "body": "The positron (antiparticle of the electron) is discovered by Carl D. Anderson.",
+      "category": "world",
+      "categoryName": "World",
+      "year": 1916,
+      "title": "Austria-Hungary",
+      "body": "Austrian sabotage causes the sinking of the Italian battleship Leonardo da Vinci in Taranto.",
       "source": {
-        "name": "Wikipedia · Positron",
-        "url": "https://en.wikipedia.org/wiki/Positron",
+        "name": "Wikipedia · Austria-Hungary",
+        "url": "https://en.wikipedia.org/wiki/Austria-Hungary",
         "calendarUrl": "https://en.wikipedia.org/wiki/August_2",
         "license": {
           "name": "CC BY-SA 4.0",
@@ -48,12 +75,12 @@
         }
       },
       "image": {
-        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/5a/PositronDiscovery.png/1280px-PositronDiscovery.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-        "alt": "Picture from the Wikipedia article on Positron.",
-        "credit": "Carl D. Anderson (1905–1991)",
-        "source": "https://commons.wikimedia.org/wiki/File:PositronDiscovery.png",
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c0/Coat_of_arms_of_Austria-Hungary_%281914%29.svg/1280px-Coat_of_arms_of_Austria-Hungary_%281914%29.svg.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "alt": "Picture from the Wikipedia article on Austria-Hungary.",
+        "credit": "Own work",
+        "source": "https://commons.wikimedia.org/wiki/File:Coat_of_arms_of_Austria-Hungary_(1914).svg",
         "license": "Public domain",
-        "licenseUrl": "https://commons.wikimedia.org/wiki/File:PositronDiscovery.png"
+        "licenseUrl": "https://commons.wikimedia.org/wiki/File:Coat_of_arms_of_Austria-Hungary_(1914).svg"
       }
     },
     {
@@ -81,6 +108,33 @@
         "source": "https://commons.wikimedia.org/wiki/File:Great_Seal_of_the_United_States_(obverse).svg",
         "license": "Public domain",
         "licenseUrl": "https://commons.wikimedia.org/wiki/File:Great_Seal_of_the_United_States_(obverse).svg"
+      }
+    },
+    {
+      "id": "08-02-tragic-week-spain",
+      "date": "08-02",
+      "dateLabel": "2 August",
+      "category": "world",
+      "categoryName": "World",
+      "year": 1909,
+      "title": "Tragic Week",
+      "body": "End of the Tragic Week in Barcelona, a series of antiwar and antigovernment protests in Spain and especially in Barcelona.",
+      "source": {
+        "name": "Wikipedia · Tragic Week (Spain)",
+        "url": "https://en.wikipedia.org/wiki/Tragic_Week_(Spain)",
+        "calendarUrl": "https://en.wikipedia.org/wiki/August_2",
+        "license": {
+          "name": "CC BY-SA 4.0",
+          "url": "https://creativecommons.org/licenses/by-sa/4.0/"
+        }
+      },
+      "image": {
+        "src": "https://upload.wikimedia.org/wikipedia/commons/f/f0/TragicWeekroundup.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+        "alt": "Picture from the Wikipedia article on Tragic Week.",
+        "credit": "A History",
+        "source": "https://commons.wikimedia.org/wiki/File:TragicWeekroundup.jpg",
+        "license": "Public domain",
+        "licenseUrl": "https://commons.wikimedia.org/wiki/File:TragicWeekroundup.jpg"
       }
     }
   ]

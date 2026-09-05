@@ -3,6 +3,33 @@
   "dateLabel": "30 January",
   "facts": [
     {
+      "id": "01-30-harlem-shake-meme",
+      "date": "01-30",
+      "dateLabel": "30 January",
+      "category": "curious",
+      "categoryName": "Curious",
+      "year": 2013,
+      "title": "The Harlem Shake",
+      "body": "George Miller uploaded thirty seconds of costumed people flailing to a Baauer track. Within a fortnight thousands of imitations were going up every day, and the song it was danced to went to number one on the strength of them.",
+      "source": {
+        "name": "Wikipedia · Harlem Shake (meme)",
+        "url": "https://en.wikipedia.org/wiki/Harlem_Shake_(meme)",
+        "calendarUrl": "https://en.wikipedia.org/wiki/January_30",
+        "license": {
+          "name": "CC BY-SA 4.0",
+          "url": "https://creativecommons.org/licenses/by-sa/4.0/"
+        }
+      },
+      "image": {
+        "src": "https://upload.wikimedia.org/wikipedia/commons/c/cb/Harlem_Shake_meme_B-Town_ASU.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+        "alt": "A group in outlandish costumes mid-flail in a Harlem Shake video.",
+        "credit": "Christopher Clabaugh",
+        "source": "https://commons.wikimedia.org/wiki/File:Harlem_Shake_meme_B-Town_ASU.jpg",
+        "license": "Public domain",
+        "licenseUrl": "https://commons.wikimedia.org/wiki/File:Harlem_Shake_meme_B-Town_ASU.jpg"
+      }
+    },
+    {
       "id": "01-30-naro-1",
       "date": "01-30",
       "dateLabel": "30 January",
@@ -23,7 +50,7 @@
       "image": {
         "src": "https://upload.wikimedia.org/wikipedia/commons/d/db/%EB%82%98%EB%A1%9C%ED%98%B8%28KSLV-I%29_%EB%B0%9C%EC%82%AC_%EC%9E%A5%EB%A9%B4_%2812%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
         "alt": "Picture from the Wikipedia article on Naro-1.",
-        "credit": "한국항공우주연구원 (Korea Aerospace Research Institute)",
+        "credit": "Wikimedia Commons",
         "source": "https://commons.wikimedia.org/wiki/File:%EB%82%98%EB%A1%9C%ED%98%B8(KSLV-I)_%EB%B0%9C%EC%82%AC_%EC%9E%A5%EB%A9%B4_(12).jpg",
         "license": "KOGL Type 1",
         "licenseUrl": "https://www.kogl.or.kr/info/licenseType1.do"
@@ -77,10 +104,37 @@
       "image": {
         "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/42/The_Beatles_1963_Dezo_Hoffman_Capitol_Records_press_photo_2.jpg/1280px-The_Beatles_1963_Dezo_Hoffman_Capitol_Records_press_photo_2.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
         "alt": "Picture from the Wikipedia article on The Beatles.",
-        "credit": "Dezo Hoffmann, Distributed by Capitol Records",
+        "credit": "Dezo Hoffmann",
         "source": "https://commons.wikimedia.org/wiki/File:The_Beatles_1963_Dezo_Hoffman_Capitol_Records_press_photo_2.jpg",
         "license": "Public domain",
         "licenseUrl": "https://commons.wikimedia.org/wiki/File:The_Beatles_1963_Dezo_Hoffman_Capitol_Records_press_photo_2.jpg"
+      }
+    },
+    {
+      "id": "01-30-embassy-of-the-united-states-kabul",
+      "date": "01-30",
+      "dateLabel": "30 January",
+      "category": "world",
+      "categoryName": "World",
+      "year": 1989,
+      "title": "Embassy of the United States, Kabul",
+      "body": "The American embassy in Kabul, Afghanistan is closed.",
+      "source": {
+        "name": "Wikipedia · Embassy of the United States, Kabul",
+        "url": "https://en.wikipedia.org/wiki/Embassy_of_the_United_States,_Kabul",
+        "calendarUrl": "https://en.wikipedia.org/wiki/January_30",
+        "license": {
+          "name": "CC BY-SA 4.0",
+          "url": "https://creativecommons.org/licenses/by-sa/4.0/"
+        }
+      },
+      "image": {
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d3/Memorial_Day_at_the_US_Embassy_in_Kabul.jpg/1280px-Memorial_Day_at_the_US_Embassy_in_Kabul.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "alt": "Picture from the Wikipedia article on Embassy of the United States, Kabul.",
+        "credit": "S.K. Vemmer",
+        "source": "https://commons.wikimedia.org/wiki/File:Memorial_Day_at_the_US_Embassy_in_Kabul.jpg",
+        "license": "Public domain",
+        "licenseUrl": "https://commons.wikimedia.org/wiki/File:Memorial_Day_at_the_US_Embassy_in_Kabul.jpg"
       }
     }
   ]

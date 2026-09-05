@@ -77,10 +77,64 @@
       "image": {
         "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/8f/WordLensDemo5Feb2012.jpg/1280px-WordLensDemo5Feb2012.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
         "alt": "Picture from the Wikipedia article on Machine translation.",
-        "credit": "Quest Visual, Inc. ZTebaykina at en.wikipedia",
+        "credit": "Quest Visual",
         "source": "https://commons.wikimedia.org/wiki/File:WordLensDemo5Feb2012.jpg",
         "license": "CC BY-SA 3.0",
         "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0"
+      }
+    },
+    {
+      "id": "01-07-brunei",
+      "date": "01-07",
+      "dateLabel": "7 January",
+      "category": "world",
+      "categoryName": "World",
+      "year": 1984,
+      "title": "Brunei",
+      "body": "Brunei becomes the sixth member of the Association of Southeast Asian Nations (ASEAN).",
+      "source": {
+        "name": "Wikipedia · Brunei",
+        "url": "https://en.wikipedia.org/wiki/Brunei",
+        "calendarUrl": "https://en.wikipedia.org/wiki/January_7",
+        "license": {
+          "name": "CC BY-SA 4.0",
+          "url": "https://creativecommons.org/licenses/by-sa/4.0/"
+        }
+      },
+      "image": {
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/9c/Flag_of_Brunei.svg/1280px-Flag_of_Brunei.svg.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "alt": "Picture from the Wikipedia article on Brunei.",
+        "credit": "Nightstallion",
+        "source": "https://commons.wikimedia.org/wiki/File:Flag_of_Brunei.svg",
+        "license": "Public domain",
+        "licenseUrl": "https://commons.wikimedia.org/wiki/File:Flag_of_Brunei.svg"
+      }
+    },
+    {
+      "id": "01-07-thomas-edison",
+      "date": "01-07",
+      "dateLabel": "7 January",
+      "category": "culture",
+      "categoryName": "Culture",
+      "year": 1894,
+      "title": "Thomas Edison",
+      "body": "Thomas Edison makes a kinetoscopic film of someone sneezing. On the same day, his employee, William Kennedy Dickson, receives a patent for motion picture film.",
+      "source": {
+        "name": "Wikipedia · Thomas Edison",
+        "url": "https://en.wikipedia.org/wiki/Thomas_Edison",
+        "calendarUrl": "https://en.wikipedia.org/wiki/January_7",
+        "license": {
+          "name": "CC BY-SA 4.0",
+          "url": "https://creativecommons.org/licenses/by-sa/4.0/"
+        }
+      },
+      "image": {
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/9d/Thomas_Edison2.jpg/1280px-Thomas_Edison2.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "alt": "Picture from the Wikipedia article on Thomas Edison.",
+        "credit": "Louis Bachrach, Bachrach Studios",
+        "source": "https://commons.wikimedia.org/wiki/File:Thomas_Edison2.jpg",
+        "license": "Public domain",
+        "licenseUrl": "https://commons.wikimedia.org/wiki/File:Thomas_Edison2.jpg"
       }
     }
   ]

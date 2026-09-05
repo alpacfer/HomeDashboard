@@ -30,33 +30,6 @@
       }
     },
     {
-      "id": "05-07-integrated-circuit",
-      "date": "05-07",
-      "dateLabel": "7 May",
-      "category": "tech",
-      "categoryName": "Tech",
-      "year": 1952,
-      "title": "Integrated circuit",
-      "body": "The concept of the integrated circuit, the basis for all modern computers, is first published by Geoffrey Dummer.",
-      "source": {
-        "name": "Wikipedia · Integrated circuit",
-        "url": "https://en.wikipedia.org/wiki/Integrated_circuit",
-        "calendarUrl": "https://en.wikipedia.org/wiki/May_7",
-        "license": {
-          "name": "CC BY-SA 4.0",
-          "url": "https://creativecommons.org/licenses/by-sa/4.0/"
-        }
-      },
-      "image": {
-        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/89/NXP_PCF8577C_LCD_driver_with_I%C2%B2C_%28Colour_Corrected%29.jpg/1280px-NXP_PCF8577C_LCD_driver_with_I%C2%B2C_%28Colour_Corrected%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-        "alt": "Picture from the Wikipedia article on Integrated circuit.",
-        "credit": "cole8888, https://flickr.com/photos/187597251@N05/ (aka Cole L)",
-        "source": "https://commons.wikimedia.org/wiki/File:NXP_PCF8577C_LCD_driver_with_I%C2%B2C_(Colour_Corrected).jpg",
-        "license": "CC BY-SA 2.0",
-        "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0"
-      }
-    },
-    {
       "id": "05-07-ludwig-van-beethoven",
       "date": "05-07",
       "dateLabel": "7 May",
@@ -81,6 +54,87 @@
         "source": "https://commons.wikimedia.org/wiki/File:Joseph_Karl_Stieler%27s_Beethoven_mit_dem_Manuskript_der_Missa_solemnis.jpg",
         "license": "Public domain",
         "licenseUrl": "https://commons.wikimedia.org/wiki/File:Joseph_Karl_Stieler%27s_Beethoven_mit_dem_Manuskript_der_Missa_solemnis.jpg"
+      }
+    },
+    {
+      "id": "05-07-integrated-circuit",
+      "date": "05-07",
+      "dateLabel": "7 May",
+      "category": "tech",
+      "categoryName": "Tech",
+      "year": 1952,
+      "title": "Integrated circuit",
+      "body": "The concept of the integrated circuit, the basis for all modern computers, is first published by Geoffrey Dummer.",
+      "source": {
+        "name": "Wikipedia · Integrated circuit",
+        "url": "https://en.wikipedia.org/wiki/Integrated_circuit",
+        "calendarUrl": "https://en.wikipedia.org/wiki/May_7",
+        "license": {
+          "name": "CC BY-SA 4.0",
+          "url": "https://creativecommons.org/licenses/by-sa/4.0/"
+        }
+      },
+      "image": {
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/89/NXP_PCF8577C_LCD_driver_with_I%C2%B2C_%28Colour_Corrected%29.jpg/1280px-NXP_PCF8577C_LCD_driver_with_I%C2%B2C_%28Colour_Corrected%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "alt": "Picture from the Wikipedia article on Integrated circuit.",
+        "credit": "cole8888",
+        "source": "https://commons.wikimedia.org/wiki/File:NXP_PCF8577C_LCD_driver_with_I%C2%B2C_(Colour_Corrected).jpg",
+        "license": "CC BY-SA 2.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0"
+      }
+    },
+    {
+      "id": "05-07-clipper",
+      "date": "05-07",
+      "dateLabel": "7 May",
+      "category": "curious",
+      "categoryName": "Curious",
+      "year": 1864,
+      "title": "Clipper",
+      "body": "The world's oldest surviving clipper ship, the City of Adelaide is launched by William Pile, Hay and Co. in Sunderland, England, for transporting passengers and goods between Britain and Australia.",
+      "source": {
+        "name": "Wikipedia · Clipper",
+        "url": "https://en.wikipedia.org/wiki/Clipper",
+        "calendarUrl": "https://en.wikipedia.org/wiki/May_7",
+        "license": {
+          "name": "CC BY-SA 4.0",
+          "url": "https://creativecommons.org/licenses/by-sa/4.0/"
+        }
+      },
+      "image": {
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/2d/Taeping_%28clipper%2C_1863%29_-_SLV_H91.325-1033.jpg/1280px-Taeping_%28clipper%2C_1863%29_-_SLV_H91.325-1033.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "alt": "Picture from the Wikipedia article on Clipper.",
+        "credit": "Allan C. Green",
+        "source": "https://commons.wikimedia.org/wiki/File:Taeping_(clipper,_1863)_-_SLV_H91.325-1033.jpg",
+        "license": "Public domain",
+        "licenseUrl": "https://commons.wikimedia.org/wiki/File:Taeping_(clipper,_1863)_-_SLV_H91.325-1033.jpg"
+      }
+    },
+    {
+      "id": "05-07-eastern-orthodox-church",
+      "date": "05-07",
+      "dateLabel": "7 May",
+      "category": "world",
+      "categoryName": "World",
+      "year": 1999,
+      "title": "Eastern Orthodox Church",
+      "body": "Pope John Paul II travels to Romania, becoming the first pope to visit a predominantly Eastern Orthodox country since the Great Schism in 1054.",
+      "source": {
+        "name": "Wikipedia · Eastern Orthodox Church",
+        "url": "https://en.wikipedia.org/wiki/Eastern_Orthodox_Church",
+        "calendarUrl": "https://en.wikipedia.org/wiki/May_7",
+        "license": {
+          "name": "CC BY-SA 4.0",
+          "url": "https://creativecommons.org/licenses/by-sa/4.0/"
+        }
+      },
+      "image": {
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/5e/St._George%27s_Cathedral_2022_%286%29.jpg/1280px-St._George%27s_Cathedral_2022_%286%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "alt": "Picture from the Wikipedia article on Eastern Orthodox Church.",
+        "credit": "Antoloji",
+        "source": "https://commons.wikimedia.org/wiki/File:St._George%27s_Cathedral_2022_(6).jpg",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0"
       }
     }
   ]

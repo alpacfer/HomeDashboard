@@ -3,6 +3,33 @@
   "dateLabel": "8 March",
   "facts": [
     {
+      "id": "03-08-philips",
+      "date": "03-08",
+      "dateLabel": "8 March",
+      "category": "world",
+      "categoryName": "World",
+      "year": 1979,
+      "title": "Philips",
+      "body": "Philips demonstrates the compact disc publicly for the first time.",
+      "source": {
+        "name": "Wikipedia · Philips",
+        "url": "https://en.wikipedia.org/wiki/Philips",
+        "calendarUrl": "https://en.wikipedia.org/wiki/March_8",
+        "license": {
+          "name": "CC BY-SA 4.0",
+          "url": "https://creativecommons.org/licenses/by-sa/4.0/"
+        }
+      },
+      "image": {
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/ec/2025_Prinses_Irenestraat_59%2C_Asd_%28D%29.jpg/1280px-2025_Prinses_Irenestraat_59%2C_Asd_%28D%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "alt": "Picture from the Wikipedia article on Philips.",
+        "credit": "Ceescamel",
+        "source": "https://commons.wikimedia.org/wiki/File:2025_Prinses_Irenestraat_59,_Asd_(D).jpg",
+        "license": "CC0",
+        "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/deed.en"
+      }
+    },
+    {
       "id": "03-08-hulk-hogan",
       "date": "03-08",
       "dateLabel": "8 March",
@@ -50,7 +77,7 @@
       "image": {
         "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/60/Voyager_spacecraft_model.png/1280px-Voyager_spacecraft_model.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
         "alt": "Picture from the Wikipedia article on Voyager 1.",
-        "credit": "National Aeronautics and Space Administration (NASA)",
+        "credit": "NASA",
         "source": "https://commons.wikimedia.org/wiki/File:Voyager_spacecraft_model.png",
         "license": "Public domain",
         "licenseUrl": "https://commons.wikimedia.org/wiki/File:Voyager_spacecraft_model.png"
@@ -81,6 +108,33 @@
         "source": "https://commons.wikimedia.org/wiki/File:Lt_Mike_Hunter_1.jpg",
         "license": "Public domain",
         "licenseUrl": "https://commons.wikimedia.org/wiki/File:Lt_Mike_Hunter_1.jpg"
+      }
+    },
+    {
+      "id": "03-08-azure-window",
+      "date": "03-08",
+      "dateLabel": "8 March",
+      "category": "world",
+      "categoryName": "World",
+      "year": 2017,
+      "title": "Azure Window",
+      "body": "The Azure Window, a natural arch on the Maltese island of Gozo, collapses in stormy weather.",
+      "source": {
+        "name": "Wikipedia · Azure Window",
+        "url": "https://en.wikipedia.org/wiki/Azure_Window",
+        "calendarUrl": "https://en.wikipedia.org/wiki/March_8",
+        "license": {
+          "name": "CC BY-SA 4.0",
+          "url": "https://creativecommons.org/licenses/by-sa/4.0/"
+        }
+      },
+      "image": {
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/19/Malta_Gozo%2C_Azure_Window_%2810264176345%29.jpg/1280px-Malta_Gozo%2C_Azure_Window_%2810264176345%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "alt": "Picture from the Wikipedia article on Azure Window.",
+        "credit": "Berit Watkin from Redhill/Surrey, UK",
+        "source": "https://commons.wikimedia.org/wiki/File:Malta_Gozo,_Azure_Window_(10264176345).jpg",
+        "license": "CC BY 2.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by/2.0"
       }
     }
   ]

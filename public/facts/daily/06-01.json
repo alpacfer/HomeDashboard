@@ -77,10 +77,64 @@
       "image": {
         "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/02/Flag_of_Rhodesia_%281968%E2%80%931979%29.svg/1280px-Flag_of_Rhodesia_%281968%E2%80%931979%29.svg.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
         "alt": "Picture from the Wikipedia article on Rhodesia.",
-        "credit": "Actarux (original)",
+        "credit": "Actarux",
         "source": "https://commons.wikimedia.org/wiki/File:Flag_of_Rhodesia_(1968%E2%80%931979).svg",
         "license": "Public domain",
         "licenseUrl": "https://commons.wikimedia.org/wiki/File:Flag_of_Rhodesia_(1968%E2%80%931979).svg"
+      }
+    },
+    {
+      "id": "06-01-heimlich-maneuver",
+      "date": "06-01",
+      "dateLabel": "1 June",
+      "category": "world",
+      "categoryName": "World",
+      "year": 1974,
+      "title": "Heimlich maneuver",
+      "body": "The Heimlich maneuver for rescuing choking victims is published in the journal Emergency Medicine.",
+      "source": {
+        "name": "Wikipedia · Heimlich maneuver",
+        "url": "https://en.wikipedia.org/wiki/Heimlich_maneuver",
+        "calendarUrl": "https://en.wikipedia.org/wiki/June_1",
+        "license": {
+          "name": "CC BY-SA 4.0",
+          "url": "https://creativecommons.org/licenses/by-sa/4.0/"
+        }
+      },
+      "image": {
+        "src": "https://upload.wikimedia.org/wikipedia/commons/9/92/Abdominal_thrusts_against_choking_%28cropped%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+        "alt": "Picture from the Wikipedia article on Heimlich maneuver.",
+        "credit": "US ARMY MEDICAL DEPARTMENT CENTER AND…",
+        "source": "https://commons.wikimedia.org/wiki/File:Abdominal_thrusts_against_choking_(cropped).jpg",
+        "license": "Public domain",
+        "licenseUrl": "https://commons.wikimedia.org/wiki/File:Abdominal_thrusts_against_choking_(cropped).jpg"
+      }
+    },
+    {
+      "id": "06-01-republic-of-south-africa",
+      "date": "06-01",
+      "dateLabel": "1 June",
+      "category": "world",
+      "categoryName": "World",
+      "year": 1994,
+      "title": "South Africa",
+      "body": "Republic of South Africa becomes a republic in the Commonwealth of Nations.",
+      "source": {
+        "name": "Wikipedia · South Africa",
+        "url": "https://en.wikipedia.org/wiki/South_Africa",
+        "calendarUrl": "https://en.wikipedia.org/wiki/June_1",
+        "license": {
+          "name": "CC BY-SA 4.0",
+          "url": "https://creativecommons.org/licenses/by-sa/4.0/"
+        }
+      },
+      "image": {
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/af/Flag_of_South_Africa.svg/1280px-Flag_of_South_Africa.svg.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "alt": "Picture from the Wikipedia article on South Africa.",
+        "credit": "Flag design",
+        "source": "https://commons.wikimedia.org/wiki/File:Flag_of_South_Africa.svg",
+        "license": "Public domain",
+        "licenseUrl": "https://commons.wikimedia.org/wiki/File:Flag_of_South_Africa.svg"
       }
     }
   ]

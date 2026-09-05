@@ -23,7 +23,7 @@
       "image": {
         "src": "https://upload.wikimedia.org/wikipedia/commons/5/57/RIAN_archive_850809_General_Secretary_of_the_CPSU_CC_M._Gorbachev_%28crop%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
         "alt": "Picture from the Wikipedia article on Mikhail Gorbachev.",
-        "credit": "RIA Novosti archive, image #850809 / Vladimir Vyatkin / CC-BY-SA 3.0",
+        "credit": "RIA Novosti archive, image #850809",
         "source": "https://commons.wikimedia.org/wiki/File:RIAN_archive_850809_General_Secretary_of_the_CPSU_CC_M._Gorbachev_(crop).jpg",
         "license": "CC BY-SA 3.0",
         "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0"
@@ -81,6 +81,60 @@
         "source": "https://commons.wikimedia.org/wiki/File:Joseph_Karl_Stieler%27s_Beethoven_mit_dem_Manuskript_der_Missa_solemnis.jpg",
         "license": "Public domain",
         "licenseUrl": "https://commons.wikimedia.org/wiki/File:Joseph_Karl_Stieler%27s_Beethoven_mit_dem_Manuskript_der_Missa_solemnis.jpg"
+      }
+    },
+    {
+      "id": "04-02-siege-of-the-church-of-the-nativity",
+      "date": "04-02",
+      "dateLabel": "2 April",
+      "category": "world",
+      "categoryName": "World",
+      "year": 2002,
+      "title": "Siege of the Church of the Nativity",
+      "body": "Israeli forces surround the Church of the Nativity in Bethlehem, into which armed Palestinians had retreated.",
+      "source": {
+        "name": "Wikipedia · Siege of the Church of the Nativity",
+        "url": "https://en.wikipedia.org/wiki/Siege_of_the_Church_of_the_Nativity",
+        "calendarUrl": "https://en.wikipedia.org/wiki/April_2",
+        "license": {
+          "name": "CC BY-SA 4.0",
+          "url": "https://creativecommons.org/licenses/by-sa/4.0/"
+        }
+      },
+      "image": {
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/ed/%D7%97%D7%95%D7%9E%D7%AA_%D7%9E%D7%92%D7%9F_6.jpg/1280px-%D7%97%D7%95%D7%9E%D7%AA_%D7%9E%D7%92%D7%9F_6.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "alt": "Picture from the Wikipedia article on Siege of the Church of the Nativity.",
+        "credit": "Ofer Yizhar / IDF Spokesperson's Unit",
+        "source": "https://commons.wikimedia.org/wiki/File:%D7%97%D7%95%D7%9E%D7%AA_%D7%9E%D7%92%D7%9F_6.jpg",
+        "license": "CC BY-SA 3.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0"
+      }
+    },
+    {
+      "id": "04-02-hatton-garden-safe-deposit-burglary",
+      "date": "04-02",
+      "dateLabel": "2 April",
+      "category": "world",
+      "categoryName": "World",
+      "year": 2015,
+      "title": "Hatton Garden safe deposit burglary",
+      "body": "Four men steal items worth up to £200 million from an underground safe deposit facility in London's Hatton Garden area in what has been called the \"largest burglary in English legal history.\"",
+      "source": {
+        "name": "Wikipedia · Hatton Garden safe deposit burglary",
+        "url": "https://en.wikipedia.org/wiki/Hatton_Garden_safe_deposit_burglary",
+        "calendarUrl": "https://en.wikipedia.org/wiki/April_2",
+        "license": {
+          "name": "CC BY-SA 4.0",
+          "url": "https://creativecommons.org/licenses/by-sa/4.0/"
+        }
+      },
+      "image": {
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/7a/88-90_Hatton_Garden%2C_front_door_TQ3181_U23_%28perspective%29.jpg/1280px-88-90_Hatton_Garden%2C_front_door_TQ3181_U23_%28perspective%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "alt": "Picture from the Wikipedia article on Hatton Garden safe deposit burglary.",
+        "credit": "Roger W. Haworth",
+        "source": "https://commons.wikimedia.org/wiki/File:88-90_Hatton_Garden,_front_door_TQ3181_U23_(perspective).jpg",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0"
       }
     }
   ]

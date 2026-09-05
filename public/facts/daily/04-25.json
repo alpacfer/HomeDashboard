@@ -77,10 +77,64 @@
       "image": {
         "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/99/Francis_Crick_crop.jpg/1280px-Francis_Crick_crop.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
         "alt": "Picture from the Wikipedia article on Francis Crick.",
-        "credit": "Francis_Crick.png: Photo: Marc Lieberman, per ticket:2015100910022707 derivative work: Materialscientist (talk)",
+        "credit": "Marc Lieberman",
         "source": "https://commons.wikimedia.org/wiki/File:Francis_Crick_crop.jpg",
         "license": "CC BY 2.5",
         "licenseUrl": "https://creativecommons.org/licenses/by/2.5"
+      }
+    },
+    {
+      "id": "04-25-robert-noyce",
+      "date": "04-25",
+      "dateLabel": "25 April",
+      "category": "science",
+      "categoryName": "Science",
+      "year": 1961,
+      "title": "Robert Noyce",
+      "body": "Robert Noyce is granted a patent for an integrated circuit.",
+      "source": {
+        "name": "Wikipedia · Robert Noyce",
+        "url": "https://en.wikipedia.org/wiki/Robert_Noyce",
+        "calendarUrl": "https://en.wikipedia.org/wiki/April_25",
+        "license": {
+          "name": "CC BY-SA 4.0",
+          "url": "https://creativecommons.org/licenses/by-sa/4.0/"
+        }
+      },
+      "image": {
+        "src": "https://upload.wikimedia.org/wikipedia/commons/8/82/Robert_Noyce_with_Motherboard_1959.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+        "alt": "Picture from the Wikipedia article on Robert Noyce.",
+        "credit": "Intel Free Press",
+        "source": "https://commons.wikimedia.org/wiki/File:Robert_Noyce_with_Motherboard_1959.png",
+        "license": "CC BY-SA 2.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0"
+      }
+    },
+    {
+      "id": "04-25-operation-sandblast",
+      "date": "04-25",
+      "dateLabel": "25 April",
+      "category": "world",
+      "categoryName": "World",
+      "year": 1960,
+      "title": "Operation Sandblast",
+      "body": "The United States Navy submarine completes the first submerged circumnavigation of the globe.",
+      "source": {
+        "name": "Wikipedia · Operation Sandblast",
+        "url": "https://en.wikipedia.org/wiki/Operation_Sandblast",
+        "calendarUrl": "https://en.wikipedia.org/wiki/April_25",
+        "license": {
+          "name": "CC BY-SA 4.0",
+          "url": "https://creativecommons.org/licenses/by-sa/4.0/"
+        }
+      },
+      "image": {
+        "src": "https://upload.wikimedia.org/wikipedia/commons/c/cc/USS_Triton_SSRN-586_circumnavigation_map_1960.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+        "alt": "Picture from the Wikipedia article on Operation Sandblast.",
+        "credit": "U.S. Navy",
+        "source": "https://commons.wikimedia.org/wiki/File:USS_Triton_SSRN-586_circumnavigation_map_1960.jpg",
+        "license": "Public domain",
+        "licenseUrl": "https://commons.wikimedia.org/wiki/File:USS_Triton_SSRN-586_circumnavigation_map_1960.jpg"
       }
     }
   ]

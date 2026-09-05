@@ -77,10 +77,64 @@
       "image": {
         "src": "https://upload.wikimedia.org/wikipedia/commons/4/4a/Sinaiticus_text.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
         "alt": "Picture from the Wikipedia article on Codex Sinaiticus.",
-        "credit": "Wikimedia Commons contributor",
+        "credit": "Wikimedia Commons",
         "source": "https://commons.wikimedia.org/wiki/File:Sinaiticus_text.jpg",
         "license": "Public domain",
         "licenseUrl": "https://commons.wikimedia.org/wiki/File:Sinaiticus_text.jpg"
+      }
+    },
+    {
+      "id": "02-04-dominion-of-ceylon",
+      "date": "02-04",
+      "dateLabel": "4 February",
+      "category": "world",
+      "categoryName": "World",
+      "year": 1948,
+      "title": "Dominion of Ceylon",
+      "body": "Ceylon (later renamed Sri Lanka) becomes independent within the British Commonwealth.",
+      "source": {
+        "name": "Wikipedia · Dominion of Ceylon",
+        "url": "https://en.wikipedia.org/wiki/Dominion_of_Ceylon",
+        "calendarUrl": "https://en.wikipedia.org/wiki/February_4",
+        "license": {
+          "name": "CC BY-SA 4.0",
+          "url": "https://creativecommons.org/licenses/by-sa/4.0/"
+        }
+      },
+      "image": {
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/70/Flag_of_Ceylon_%281948%E2%80%931951%29.svg/1280px-Flag_of_Ceylon_%281948%E2%80%931951%29.svg.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "alt": "Picture from the Wikipedia article on Dominion of Ceylon.",
+        "credit": "Zscout370",
+        "source": "https://commons.wikimedia.org/wiki/File:Flag_of_Ceylon_(1948%E2%80%931951).svg",
+        "license": "Public domain",
+        "licenseUrl": "https://commons.wikimedia.org/wiki/File:Flag_of_Ceylon_(1948%E2%80%931951).svg"
+      }
+    },
+    {
+      "id": "02-04-yalta-conference",
+      "date": "02-04",
+      "dateLabel": "4 February",
+      "category": "world",
+      "categoryName": "World",
+      "year": 1945,
+      "title": "Yalta Conference",
+      "body": "The Yalta Conference between the \"Big Three\" (Churchill, Roosevelt, and Stalin) opens at the Livadia Palace in the Crimea.",
+      "source": {
+        "name": "Wikipedia · Yalta Conference",
+        "url": "https://en.wikipedia.org/wiki/Yalta_Conference",
+        "calendarUrl": "https://en.wikipedia.org/wiki/February_4",
+        "license": {
+          "name": "CC BY-SA 4.0",
+          "url": "https://creativecommons.org/licenses/by-sa/4.0/"
+        }
+      },
+      "image": {
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/05/Yalta_Conference_%28Churchill%2C_Roosevelt%2C_Stalin%29_%28B%26W%29.jpg/1280px-Yalta_Conference_%28Churchill%2C_Roosevelt%2C_Stalin%29_%28B%26W%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "alt": "Picture from the Wikipedia article on Yalta Conference.",
+        "credit": "US government photographer",
+        "source": "https://commons.wikimedia.org/wiki/File:Yalta_Conference_(Churchill,_Roosevelt,_Stalin)_(B%26W).jpg",
+        "license": "Public domain",
+        "licenseUrl": "https://commons.wikimedia.org/wiki/File:Yalta_Conference_(Churchill,_Roosevelt,_Stalin)_(B%26W).jpg"
       }
     }
   ]

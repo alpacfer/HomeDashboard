@@ -3,6 +3,33 @@
   "dateLabel": "19 January",
   "facts": [
     {
+      "id": "01-19-jaxa",
+      "date": "01-19",
+      "dateLabel": "19 January",
+      "category": "space",
+      "categoryName": "Space",
+      "year": 2024,
+      "title": "JAXA",
+      "body": "The Japan Aerospace Exploration Agency's probe lands on the moon, making Japan the 5th country to land a spacecraft on the moon.",
+      "source": {
+        "name": "Wikipedia · JAXA",
+        "url": "https://en.wikipedia.org/wiki/JAXA",
+        "calendarUrl": "https://en.wikipedia.org/wiki/January_19",
+        "license": {
+          "name": "CC BY-SA 4.0",
+          "url": "https://creativecommons.org/licenses/by-sa/4.0/"
+        }
+      },
+      "image": {
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/85/Jaxa_logo.svg/1280px-Jaxa_logo.svg.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "alt": "Picture from the Wikipedia article on JAXA.",
+        "credit": "JAXA",
+        "source": "https://commons.wikimedia.org/wiki/File:Jaxa_logo.svg",
+        "license": "Public domain",
+        "licenseUrl": "https://commons.wikimedia.org/wiki/File:Jaxa_logo.svg"
+      }
+    },
+    {
       "id": "01-19-team-n2i",
       "date": "01-19",
       "dateLabel": "19 January",
@@ -30,17 +57,17 @@
       }
     },
     {
-      "id": "01-19-yasser-arafat",
+      "id": "01-19-czech-republic",
       "date": "01-19",
       "dateLabel": "19 January",
       "category": "world",
       "categoryName": "World",
-      "year": 1997,
-      "title": "Yasser Arafat",
-      "body": "Yasser Arafat returns to Hebron after more than 30 years and joins celebrations over the handover of the last Israeli-controlled West Bank city.",
+      "year": 1993,
+      "title": "Czech Republic",
+      "body": "Czech Republic and Slovakia join the United Nations.",
       "source": {
-        "name": "Wikipedia · Yasser Arafat",
-        "url": "https://en.wikipedia.org/wiki/Yasser_Arafat",
+        "name": "Wikipedia · Czech Republic",
+        "url": "https://en.wikipedia.org/wiki/Czech_Republic",
         "calendarUrl": "https://en.wikipedia.org/wiki/January_19",
         "license": {
           "name": "CC BY-SA 4.0",
@@ -48,12 +75,12 @@
         }
       },
       "image": {
-        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b1/Leader_of_the_PLO%2C_Yasser_Arafat%2C_1996_Dan_Hadani_Archive.jpg/1280px-Leader_of_the_PLO%2C_Yasser_Arafat%2C_1996_Dan_Hadani_Archive.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-        "alt": "Picture from the Wikipedia article on Yasser Arafat.",
-        "credit": "Gideon Markowiz / Photographer: Israel Press and Photo Agency (I.P.P.A.) / Dan Hadani collection, National Library of Israel / CC BY 4.0",
-        "source": "https://commons.wikimedia.org/wiki/File:Leader_of_the_PLO,_Yasser_Arafat,_1996_Dan_Hadani_Archive.jpg",
-        "license": "CC BY 4.0",
-        "licenseUrl": "https://creativecommons.org/licenses/by/4.0"
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/cb/Flag_of_the_Czech_Republic.svg/1280px-Flag_of_the_Czech_Republic.svg.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "alt": "Picture from the Wikipedia article on Czech Republic.",
+        "credit": "Jaroslav Kursa",
+        "source": "https://commons.wikimedia.org/wiki/File:Flag_of_the_Czech_Republic.svg",
+        "license": "Public domain",
+        "licenseUrl": "https://commons.wikimedia.org/wiki/File:Flag_of_the_Czech_Republic.svg"
       }
     },
     {
@@ -81,6 +108,33 @@
         "source": "https://commons.wikimedia.org/wiki/File:Giuseppe_Verdi_by_Ferdinand_Mulnier_BW.jpg",
         "license": "Public domain",
         "licenseUrl": "https://commons.wikimedia.org/wiki/File:Giuseppe_Verdi_by_Ferdinand_Mulnier_BW.jpg"
+      }
+    },
+    {
+      "id": "01-19-georges-claude",
+      "date": "01-19",
+      "dateLabel": "19 January",
+      "category": "science",
+      "categoryName": "Science",
+      "year": 1915,
+      "title": "Georges Claude",
+      "body": "Georges Claude patents the neon discharge tube for use in advertising.",
+      "source": {
+        "name": "Wikipedia · Georges Claude",
+        "url": "https://en.wikipedia.org/wiki/Georges_Claude",
+        "calendarUrl": "https://en.wikipedia.org/wiki/January_19",
+        "license": {
+          "name": "CC BY-SA 4.0",
+          "url": "https://creativecommons.org/licenses/by-sa/4.0/"
+        }
+      },
+      "image": {
+        "src": "https://upload.wikimedia.org/wikipedia/commons/b/b0/Georges_Claude_1926.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+        "alt": "Picture from the Wikipedia article on Georges Claude.",
+        "credit": "Agence de presse Meurisse",
+        "source": "https://commons.wikimedia.org/wiki/File:Georges_Claude_1926.jpg",
+        "license": "Public domain",
+        "licenseUrl": "https://commons.wikimedia.org/wiki/File:Georges_Claude_1926.jpg"
       }
     }
   ]

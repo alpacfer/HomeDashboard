@@ -30,6 +30,33 @@
       }
     },
     {
+      "id": "10-04-pope-paul-vi",
+      "date": "10-04",
+      "dateLabel": "4 October",
+      "category": "world",
+      "categoryName": "World",
+      "year": 1965,
+      "title": "Pope Paul VI",
+      "body": "Pope Paul VI begins the first papal visit to the Americas.",
+      "source": {
+        "name": "Wikipedia · Pope Paul VI",
+        "url": "https://en.wikipedia.org/wiki/Pope_Paul_VI",
+        "calendarUrl": "https://en.wikipedia.org/wiki/October_4",
+        "license": {
+          "name": "CC BY-SA 4.0",
+          "url": "https://creativecommons.org/licenses/by-sa/4.0/"
+        }
+      },
+      "image": {
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e3/Pope_Paul_VI_1969_Portrait_%284x5_cropped%29.jpg/1280px-Pope_Paul_VI_1969_Portrait_%284x5_cropped%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "alt": "Picture from the Wikipedia article on Pope Paul VI.",
+        "credit": "Fotografia Felici",
+        "source": "https://commons.wikimedia.org/wiki/File:Pope_Paul_VI_1969_Portrait_(4x5_cropped).jpg",
+        "license": "Public domain",
+        "licenseUrl": "https://commons.wikimedia.org/wiki/File:Pope_Paul_VI_1969_Portrait_(4x5_cropped).jpg"
+      }
+    },
+    {
       "id": "10-04-horace-rawlins",
       "date": "10-04",
       "dateLabel": "4 October",
@@ -77,10 +104,37 @@
       "image": {
         "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/93/SpaceShipOne_Flight_15P_photo_Don_Ramey_Logan.jpg/1280px-SpaceShipOne_Flight_15P_photo_Don_Ramey_Logan.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
         "alt": "Picture from the Wikipedia article on SpaceShipOne.",
-        "credit": "Photograph by Don Ramey Logan",
+        "credit": "Don Ramey Logan",
         "source": "https://commons.wikimedia.org/wiki/File:SpaceShipOne_Flight_15P_photo_Don_Ramey_Logan.jpg",
         "license": "CC BY-SA 3.0",
         "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0"
+      }
+    },
+    {
+      "id": "10-04-basutoland",
+      "date": "10-04",
+      "dateLabel": "4 October",
+      "category": "world",
+      "categoryName": "World",
+      "year": 1966,
+      "title": "Basutoland",
+      "body": "Basutoland becomes independent from the United Kingdom and is renamed Lesotho.",
+      "source": {
+        "name": "Wikipedia · Basutoland",
+        "url": "https://en.wikipedia.org/wiki/Basutoland",
+        "calendarUrl": "https://en.wikipedia.org/wiki/October_4",
+        "license": {
+          "name": "CC BY-SA 4.0",
+          "url": "https://creativecommons.org/licenses/by-sa/4.0/"
+        }
+      },
+      "image": {
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a5/Flag_of_the_United_Kingdom_%281-2%29.svg/1280px-Flag_of_the_United_Kingdom_%281-2%29.svg.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "alt": "Picture from the Wikipedia article on Basutoland.",
+        "credit": "Acts of Union 1800 Vector: Zscout370",
+        "source": "https://commons.wikimedia.org/wiki/File:Flag_of_the_United_Kingdom_(1-2).svg",
+        "license": "Public domain",
+        "licenseUrl": "https://commons.wikimedia.org/wiki/File:Flag_of_the_United_Kingdom_(1-2).svg"
       }
     }
   ]

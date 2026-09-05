@@ -23,37 +23,10 @@
       "image": {
         "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/3f/Australian_Aboriginal_Flag.svg/1280px-Australian_Aboriginal_Flag.svg.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
         "alt": "Picture from the Wikipedia article on Australian Aboriginal flag.",
-        "credit": "Original: Harold Thomas; Vectorization: Trisreed",
+        "credit": "Harold Thomas; Vectorization: Trisreed",
         "source": "https://commons.wikimedia.org/wiki/File:Australian_Aboriginal_Flag.svg",
         "license": "Copyrighted free use",
         "licenseUrl": "https://commons.wikimedia.org/wiki/File:Australian_Aboriginal_Flag.svg"
-      }
-    },
-    {
-      "id": "07-12-medal-of-honor",
-      "date": "07-12",
-      "dateLabel": "12 July",
-      "category": "sport",
-      "categoryName": "Sport",
-      "year": 1862,
-      "title": "Medal of Honor",
-      "body": "The Medal of Honor is authorized by the United States Congress.",
-      "source": {
-        "name": "Wikipedia · Medal of Honor",
-        "url": "https://en.wikipedia.org/wiki/Medal_of_Honor",
-        "calendarUrl": "https://en.wikipedia.org/wiki/July_12",
-        "license": {
-          "name": "CC BY-SA 4.0",
-          "url": "https://creativecommons.org/licenses/by-sa/4.0/"
-        }
-      },
-      "image": {
-        "src": "https://upload.wikimedia.org/wikipedia/commons/2/2e/Tri-service_medal_of_honor.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
-        "alt": "Picture from the Wikipedia article on Medal of Honor.",
-        "credit": "US Special Operations Command",
-        "source": "https://commons.wikimedia.org/wiki/File:Tri-service_medal_of_honor.jpg",
-        "license": "Public domain",
-        "licenseUrl": "https://commons.wikimedia.org/wiki/File:Tri-service_medal_of_honor.jpg"
       }
     },
     {
@@ -81,6 +54,87 @@
         "source": "https://commons.wikimedia.org/wiki/File:Gorton_Monastery,_Gorton.jpg",
         "license": "CC BY 2.0",
         "licenseUrl": "https://creativecommons.org/licenses/by/2.0"
+      }
+    },
+    {
+      "id": "07-12-kiribati",
+      "date": "07-12",
+      "dateLabel": "12 July",
+      "category": "world",
+      "categoryName": "World",
+      "year": 1979,
+      "title": "Kiribati",
+      "body": "The island nation of Kiribati becomes independent from the United Kingdom.",
+      "source": {
+        "name": "Wikipedia · Kiribati",
+        "url": "https://en.wikipedia.org/wiki/Kiribati",
+        "calendarUrl": "https://en.wikipedia.org/wiki/July_12",
+        "license": {
+          "name": "CC BY-SA 4.0",
+          "url": "https://creativecommons.org/licenses/by-sa/4.0/"
+        }
+      },
+      "image": {
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d3/Flag_of_Kiribati.svg/1280px-Flag_of_Kiribati.svg.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "alt": "Picture from the Wikipedia article on Kiribati.",
+        "credit": "User:Hanzlan",
+        "source": "https://commons.wikimedia.org/wiki/File:Flag_of_Kiribati.svg",
+        "license": "Public domain",
+        "licenseUrl": "https://commons.wikimedia.org/wiki/File:Flag_of_Kiribati.svg"
+      }
+    },
+    {
+      "id": "07-12-national-personnel-records-center-fire",
+      "date": "07-12",
+      "dateLabel": "12 July",
+      "category": "world",
+      "categoryName": "World",
+      "year": 1973,
+      "title": "National Personnel Records Center fire",
+      "body": "A fire destroys the entire sixth floor of the National Personnel Records Center of the United States.",
+      "source": {
+        "name": "Wikipedia · National Personnel Records Center fire",
+        "url": "https://en.wikipedia.org/wiki/National_Personnel_Records_Center_fire",
+        "calendarUrl": "https://en.wikipedia.org/wiki/July_12",
+        "license": {
+          "name": "CC BY-SA 4.0",
+          "url": "https://creativecommons.org/licenses/by-sa/4.0/"
+        }
+      },
+      "image": {
+        "src": "https://upload.wikimedia.org/wikipedia/commons/7/78/NARAfire.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+        "alt": "Picture from the Wikipedia article on National Personnel Records Center fire.",
+        "credit": "Unknown author",
+        "source": "https://commons.wikimedia.org/wiki/File:NARAfire.jpg",
+        "license": "Public domain",
+        "licenseUrl": "https://commons.wikimedia.org/wiki/File:NARAfire.jpg"
+      }
+    },
+    {
+      "id": "07-12-s-o-tom-and-pr-ncipe",
+      "date": "07-12",
+      "dateLabel": "12 July",
+      "category": "world",
+      "categoryName": "World",
+      "year": 1975,
+      "title": "São Tomé and Príncipe",
+      "body": "São Tomé and Príncipe declare independence from Portugal.",
+      "source": {
+        "name": "Wikipedia · São Tomé and Príncipe",
+        "url": "https://en.wikipedia.org/wiki/S%C3%A3o_Tom%C3%A9_and_Pr%C3%ADncipe",
+        "calendarUrl": "https://en.wikipedia.org/wiki/July_12",
+        "license": {
+          "name": "CC BY-SA 4.0",
+          "url": "https://creativecommons.org/licenses/by-sa/4.0/"
+        }
+      },
+      "image": {
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/0a/Flag_of_S%C3%A3o_Tom%C3%A9_and_Pr%C3%ADncipe.svg/1280px-Flag_of_S%C3%A3o_Tom%C3%A9_and_Pr%C3%ADncipe.svg.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "alt": "Picture from the Wikipedia article on São Tomé and Príncipe.",
+        "credit": "See File history below for details",
+        "source": "https://commons.wikimedia.org/wiki/File:Flag_of_S%C3%A3o_Tom%C3%A9_and_Pr%C3%ADncipe.svg",
+        "license": "Public domain",
+        "licenseUrl": "https://commons.wikimedia.org/wiki/File:Flag_of_S%C3%A3o_Tom%C3%A9_and_Pr%C3%ADncipe.svg"
       }
     }
   ]

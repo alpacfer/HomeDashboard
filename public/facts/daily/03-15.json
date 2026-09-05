@@ -23,7 +23,7 @@
       "image": {
         "src": "https://upload.wikimedia.org/wikipedia/commons/5/57/RIAN_archive_850809_General_Secretary_of_the_CPSU_CC_M._Gorbachev_%28crop%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
         "alt": "Picture from the Wikipedia article on Mikhail Gorbachev.",
-        "credit": "RIA Novosti archive, image #850809 / Vladimir Vyatkin / CC-BY-SA 3.0",
+        "credit": "RIA Novosti archive, image #850809",
         "source": "https://commons.wikimedia.org/wiki/File:RIAN_archive_850809_General_Secretary_of_the_CPSU_CC_M._Gorbachev_(crop).jpg",
         "license": "CC BY-SA 3.0",
         "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0"
@@ -50,7 +50,7 @@
       "image": {
         "src": "https://upload.wikimedia.org/wikipedia/commons/6/67/Morrell.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
         "alt": "Picture from the Wikipedia article on Benjamin Morrell.",
-        "credit": "Engraving by Gimber and Dick after painting by artist identified as \"Sloan\"",
+        "credit": "Engraving",
         "source": "https://commons.wikimedia.org/wiki/File:Morrell.jpg",
         "license": "Public domain",
         "licenseUrl": "https://commons.wikimedia.org/wiki/File:Morrell.jpg"
@@ -81,6 +81,60 @@
         "source": "https://commons.wikimedia.org/wiki/File:Flag_of_Somalia.svg",
         "license": "Public domain",
         "licenseUrl": "https://commons.wikimedia.org/wiki/File:Flag_of_Somalia.svg"
+      }
+    },
+    {
+      "id": "03-15-school-strike-for-climate",
+      "date": "03-15",
+      "dateLabel": "15 March",
+      "category": "world",
+      "categoryName": "World",
+      "year": 2019,
+      "title": "Fridays for Future",
+      "body": "Approximately 1.4 million young people in 123 countries go on strike to protest climate change.",
+      "source": {
+        "name": "Wikipedia · Fridays for Future",
+        "url": "https://en.wikipedia.org/wiki/Fridays_for_Future",
+        "calendarUrl": "https://en.wikipedia.org/wiki/March_15",
+        "license": {
+          "name": "CC BY-SA 4.0",
+          "url": "https://creativecommons.org/licenses/by-sa/4.0/"
+        }
+      },
+      "image": {
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/9f/Maximum_school_strikers_per_country.svg/1280px-Maximum_school_strikers_per_country.svg.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "alt": "Picture from the Wikipedia article on Fridays for Future.",
+        "credit": "PJ Geest This W3C-unspecified vector…",
+        "source": "https://commons.wikimedia.org/wiki/File:Maximum_school_strikers_per_country.svg",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0"
+      }
+    },
+    {
+      "id": "03-15-2019-20-hong-kong-protests",
+      "date": "03-15",
+      "dateLabel": "15 March",
+      "category": "world",
+      "categoryName": "World",
+      "year": 2019,
+      "title": "2019–2020 Hong Kong protests",
+      "body": "Beginning of the 2019–20 Hong Kong protests.",
+      "source": {
+        "name": "Wikipedia · 2019–2020 Hong Kong protests",
+        "url": "https://en.wikipedia.org/wiki/2019%E2%80%932020_Hong_Kong_protests",
+        "calendarUrl": "https://en.wikipedia.org/wiki/March_15",
+        "license": {
+          "name": "CC BY-SA 4.0",
+          "url": "https://creativecommons.org/licenses/by-sa/4.0/"
+        }
+      },
+      "image": {
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/fb/Hong_Kong_anti-extradition_bill_protest_%2848108527758%29.jpg/1280px-Hong_Kong_anti-extradition_bill_protest_%2848108527758%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "alt": "Picture from the Wikipedia article on 2019–2020 Hong Kong protests.",
+        "credit": "Studio Incendo",
+        "source": "https://commons.wikimedia.org/wiki/File:Hong_Kong_anti-extradition_bill_protest_(48108527758).jpg",
+        "license": "CC BY 2.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by/2.0"
       }
     }
   ]

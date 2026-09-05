@@ -3,33 +3,6 @@
   "dateLabel": "18 November",
   "facts": [
     {
-      "id": "11-18-maven",
-      "date": "11-18",
-      "dateLabel": "18 November",
-      "category": "space",
-      "categoryName": "Space",
-      "year": 2013,
-      "title": "MAVEN",
-      "body": "NASA launches the MAVEN probe to Mars.",
-      "source": {
-        "name": "Wikipedia · MAVEN",
-        "url": "https://en.wikipedia.org/wiki/MAVEN",
-        "calendarUrl": "https://en.wikipedia.org/wiki/November_18",
-        "license": {
-          "name": "CC BY-SA 4.0",
-          "url": "https://creativecommons.org/licenses/by-sa/4.0/"
-        }
-      },
-      "image": {
-        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/70/MAVEN_Mission_Logo.png/1280px-MAVEN_Mission_Logo.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-        "alt": "Picture from the Wikipedia article on MAVEN.",
-        "credit": "NASA",
-        "source": "https://commons.wikimedia.org/wiki/File:MAVEN_Mission_Logo.png",
-        "license": "Public domain",
-        "licenseUrl": "https://commons.wikimedia.org/wiki/File:MAVEN_Mission_Logo.png"
-      }
-    },
-    {
       "id": "11-18-bell-telephone-company",
       "date": "11-18",
       "dateLabel": "18 November",
@@ -57,6 +30,60 @@
       }
     },
     {
+      "id": "11-18-maven",
+      "date": "11-18",
+      "dateLabel": "18 November",
+      "category": "space",
+      "categoryName": "Space",
+      "year": 2013,
+      "title": "MAVEN",
+      "body": "NASA launches the MAVEN probe to Mars.",
+      "source": {
+        "name": "Wikipedia · MAVEN",
+        "url": "https://en.wikipedia.org/wiki/MAVEN",
+        "calendarUrl": "https://en.wikipedia.org/wiki/November_18",
+        "license": {
+          "name": "CC BY-SA 4.0",
+          "url": "https://creativecommons.org/licenses/by-sa/4.0/"
+        }
+      },
+      "image": {
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/70/MAVEN_Mission_Logo.png/1280px-MAVEN_Mission_Logo.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "alt": "Picture from the Wikipedia article on MAVEN.",
+        "credit": "NASA",
+        "source": "https://commons.wikimedia.org/wiki/File:MAVEN_Mission_Logo.png",
+        "license": "Public domain",
+        "licenseUrl": "https://commons.wikimedia.org/wiki/File:MAVEN_Mission_Logo.png"
+      }
+    },
+    {
+      "id": "11-18-steamboat-willie",
+      "date": "11-18",
+      "dateLabel": "18 November",
+      "category": "culture",
+      "categoryName": "Culture",
+      "year": 1928,
+      "title": "Steamboat Willie",
+      "body": "Release of the animated short Steamboat Willie, the first fully synchronized sound cartoon.",
+      "source": {
+        "name": "Wikipedia · Steamboat Willie",
+        "url": "https://en.wikipedia.org/wiki/Steamboat_Willie",
+        "calendarUrl": "https://en.wikipedia.org/wiki/November_18",
+        "license": {
+          "name": "CC BY-SA 4.0",
+          "url": "https://creativecommons.org/licenses/by-sa/4.0/"
+        }
+      },
+      "image": {
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/50/Steamboat_Willie_1928_Poster.png/1280px-Steamboat_Willie_1928_Poster.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "alt": "Picture from the Wikipedia article on Steamboat Willie.",
+        "credit": "Walt Disney / Ub Iwerks",
+        "source": "https://commons.wikimedia.org/wiki/File:Steamboat_Willie_1928_Poster.png",
+        "license": "Public domain",
+        "licenseUrl": "https://commons.wikimedia.org/wiki/File:Steamboat_Willie_1928_Poster.png"
+      }
+    },
+    {
       "id": "11-18-mcdonnell-douglas-f-a-18-hornet",
       "date": "11-18",
       "dateLabel": "18 November",
@@ -81,6 +108,33 @@
         "source": "https://commons.wikimedia.org/wiki/File:FA-18C_desert_refueling.jpg",
         "license": "Public domain",
         "licenseUrl": "https://commons.wikimedia.org/wiki/File:FA-18C_desert_refueling.jpg"
+      }
+    },
+    {
+      "id": "11-18-utah-monolith",
+      "date": "11-18",
+      "dateLabel": "18 November",
+      "category": "science",
+      "categoryName": "Science",
+      "year": 2020,
+      "title": "Utah monolith",
+      "body": "The Utah monolith, built sometime in 2016 is discovered by state biologists of the Utah Division of Wildlife Resources.",
+      "source": {
+        "name": "Wikipedia · Utah monolith",
+        "url": "https://en.wikipedia.org/wiki/Utah_monolith",
+        "calendarUrl": "https://en.wikipedia.org/wiki/November_18",
+        "license": {
+          "name": "CC BY-SA 4.0",
+          "url": "https://creativecommons.org/licenses/by-sa/4.0/"
+        }
+      },
+      "image": {
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/39/Utah_Desert_Monolith.jpg/1280px-Utah_Desert_Monolith.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "alt": "Picture from the Wikipedia article on Utah monolith.",
+        "credit": "Original image taken",
+        "source": "https://commons.wikimedia.org/wiki/File:Utah_Desert_Monolith.jpg",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0"
       }
     }
   ]

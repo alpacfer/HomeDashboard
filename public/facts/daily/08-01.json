@@ -50,7 +50,7 @@
       "image": {
         "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/2d/Lauda_at_1982_Dutch_Grand_Prix.jpg/1280px-Lauda_at_1982_Dutch_Grand_Prix.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
         "alt": "Picture from the Wikipedia article on Niki Lauda.",
-        "credit": "Hans van Dijk for Anefo / neg. stroken, 1945-1989, 2.24.01.05, item number 932-2315",
+        "credit": "Hans van Dijk for Anefo / neg",
         "source": "https://commons.wikimedia.org/wiki/File:Lauda_at_1982_Dutch_Grand_Prix.jpg",
         "license": "CC0",
         "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/deed.en"
@@ -81,6 +81,60 @@
         "source": "https://commons.wikimedia.org/wiki/File:Vigdis_Finnbogadottir_(1985).jpg",
         "license": "CC BY-SA 3.0 nl",
         "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0/nl/deed.en"
+      }
+    },
+    {
+      "id": "08-01-joseph-priestley",
+      "date": "08-01",
+      "dateLabel": "1 August",
+      "category": "science",
+      "categoryName": "Science",
+      "year": 1774,
+      "title": "Joseph Priestley",
+      "body": "British scientist Joseph Priestley discovers oxygen gas, corroborating the prior discovery of this element by German-Swedish chemist Carl Wilhelm Scheele.",
+      "source": {
+        "name": "Wikipedia · Joseph Priestley",
+        "url": "https://en.wikipedia.org/wiki/Joseph_Priestley",
+        "calendarUrl": "https://en.wikipedia.org/wiki/August_1",
+        "license": {
+          "name": "CC BY-SA 4.0",
+          "url": "https://creativecommons.org/licenses/by-sa/4.0/"
+        }
+      },
+      "image": {
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/63/Joseph_Priestley_%28NPG%29.jpg/1280px-Joseph_Priestley_%28NPG%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "alt": "Picture from the Wikipedia article on Joseph Priestley.",
+        "credit": "James Sharples",
+        "source": "https://commons.wikimedia.org/wiki/File:Joseph_Priestley_(NPG).jpg",
+        "license": "Public domain",
+        "licenseUrl": "https://commons.wikimedia.org/wiki/File:Joseph_Priestley_(NPG).jpg"
+      }
+    },
+    {
+      "id": "08-01-frank-herbert",
+      "date": "08-01",
+      "dateLabel": "1 August",
+      "category": "culture",
+      "categoryName": "Culture",
+      "year": 1965,
+      "title": "Frank Herbert",
+      "body": "Frank Herbert's novel, Dune, is published for the first time. It was named as the world's best-selling science fiction novel in 2003.",
+      "source": {
+        "name": "Wikipedia · Frank Herbert",
+        "url": "https://en.wikipedia.org/wiki/Frank_Herbert",
+        "calendarUrl": "https://en.wikipedia.org/wiki/August_1",
+        "license": {
+          "name": "CC BY-SA 4.0",
+          "url": "https://creativecommons.org/licenses/by-sa/4.0/"
+        }
+      },
+      "image": {
+        "src": "https://upload.wikimedia.org/wikipedia/commons/8/8e/Frank_Herbert_1984_%28square%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+        "alt": "Picture from the Wikipedia article on Frank Herbert.",
+        "credit": "Unknown photographer",
+        "source": "https://commons.wikimedia.org/wiki/File:Frank_Herbert_1984_(square).jpg",
+        "license": "Public domain",
+        "licenseUrl": "https://commons.wikimedia.org/wiki/File:Frank_Herbert_1984_(square).jpg"
       }
     }
   ]

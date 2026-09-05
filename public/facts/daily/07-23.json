@@ -3,6 +3,87 @@
   "dateLabel": "23 July",
   "facts": [
     {
+      "id": "07-23-jackie-robinson",
+      "date": "07-23",
+      "dateLabel": "23 July",
+      "category": "sport",
+      "categoryName": "Sport",
+      "year": 1962,
+      "title": "Jackie Robinson",
+      "body": "Jackie Robinson becomes the first African American to be inducted into the National Baseball Hall of Fame.",
+      "source": {
+        "name": "Wikipedia · Jackie Robinson",
+        "url": "https://en.wikipedia.org/wiki/Jackie_Robinson",
+        "calendarUrl": "https://en.wikipedia.org/wiki/July_23",
+        "license": {
+          "name": "CC BY-SA 4.0",
+          "url": "https://creativecommons.org/licenses/by-sa/4.0/"
+        }
+      },
+      "image": {
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/bd/Jackie_Robinson%2C_NPG_97_135.jpg/1280px-Jackie_Robinson%2C_NPG_97_135.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "alt": "Picture from the Wikipedia article on Jackie Robinson.",
+        "credit": "Harry Warnecke",
+        "source": "https://commons.wikimedia.org/wiki/File:Jackie_Robinson,_NPG_97_135.jpg",
+        "license": "CC0",
+        "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/deed.en"
+      }
+    },
+    {
+      "id": "07-23-ph-m-tu-n",
+      "date": "07-23",
+      "dateLabel": "23 July",
+      "category": "space",
+      "categoryName": "Space",
+      "year": 1980,
+      "title": "Phạm Tuân",
+      "body": "Phạm Tuân becomes the first Vietnamese citizen and the first Asian in space when he flies aboard the Soyuz 37 mission as an Intercosmos Research Cosmonaut.",
+      "source": {
+        "name": "Wikipedia · Phạm Tuân",
+        "url": "https://en.wikipedia.org/wiki/Ph%E1%BA%A1m_Tu%C3%A2n",
+        "calendarUrl": "https://en.wikipedia.org/wiki/July_23",
+        "license": {
+          "name": "CC BY-SA 4.0",
+          "url": "https://creativecommons.org/licenses/by-sa/4.0/"
+        }
+      },
+      "image": {
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/38/Ph%E1%BA%A1m_Tu%C3%A2n_.JPG/1280px-Ph%E1%BA%A1m_Tu%C3%A2n_.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "alt": "Picture from the Wikipedia article on Phạm Tuân.",
+        "credit": "Duyphuong",
+        "source": "https://commons.wikimedia.org/wiki/File:Ph%E1%BA%A1m_Tu%C3%A2n_.JPG",
+        "license": "CC BY 3.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by/3.0"
+      }
+    },
+    {
+      "id": "07-23-telstar",
+      "date": "07-23",
+      "dateLabel": "23 July",
+      "category": "culture",
+      "categoryName": "Culture",
+      "year": 1962,
+      "title": "Telstar",
+      "body": "Telstar relays the first publicly transmitted, live trans-Atlantic television program, featuring Walter Cronkite.",
+      "source": {
+        "name": "Wikipedia · Telstar",
+        "url": "https://en.wikipedia.org/wiki/Telstar",
+        "calendarUrl": "https://en.wikipedia.org/wiki/July_23",
+        "license": {
+          "name": "CC BY-SA 4.0",
+          "url": "https://creativecommons.org/licenses/by-sa/4.0/"
+        }
+      },
+      "image": {
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/6b/Telstar_satellite-CnAM_35181-IMG_5408-gradient.jpg/1280px-Telstar_satellite-CnAM_35181-IMG_5408-gradient.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "alt": "Picture from the Wikipedia article on Telstar.",
+        "credit": "Rama",
+        "source": "https://commons.wikimedia.org/wiki/File:Telstar_satellite-CnAM_35181-IMG_5408-gradient.jpg",
+        "license": "CC BY-SA 3.0 fr",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0/fr/deed.en"
+      }
+    },
+    {
       "id": "07-23-digital-equipment-corporation",
       "date": "07-23",
       "dateLabel": "23 July",
@@ -30,17 +111,17 @@
       }
     },
     {
-      "id": "07-23-ph-m-tu-n",
+      "id": "07-23-william-austin-burt",
       "date": "07-23",
       "dateLabel": "23 July",
-      "category": "space",
-      "categoryName": "Space",
-      "year": 1980,
-      "title": "Phạm Tuân",
-      "body": "Phạm Tuân becomes the first Vietnamese citizen and the first Asian in space when he flies aboard the Soyuz 37 mission as an Intercosmos Research Cosmonaut.",
+      "category": "science",
+      "categoryName": "Science",
+      "year": 1829,
+      "title": "William Austin Burt",
+      "body": "In the United States, William Austin Burt patents the typographer, a precursor to the typewriter.",
       "source": {
-        "name": "Wikipedia · Phạm Tuân",
-        "url": "https://en.wikipedia.org/wiki/Ph%E1%BA%A1m_Tu%C3%A2n",
+        "name": "Wikipedia · William Austin Burt",
+        "url": "https://en.wikipedia.org/wiki/William_Austin_Burt",
         "calendarUrl": "https://en.wikipedia.org/wiki/July_23",
         "license": {
           "name": "CC BY-SA 4.0",
@@ -48,39 +129,12 @@
         }
       },
       "image": {
-        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/38/Ph%E1%BA%A1m_Tu%C3%A2n_.JPG/1280px-Ph%E1%BA%A1m_Tu%C3%A2n_.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-        "alt": "Picture from the Wikipedia article on Phạm Tuân.",
-        "credit": "Duyphuong (thảo luận)",
-        "source": "https://commons.wikimedia.org/wiki/File:Ph%E1%BA%A1m_Tu%C3%A2n_.JPG",
-        "license": "CC BY 3.0",
-        "licenseUrl": "https://creativecommons.org/licenses/by/3.0"
-      }
-    },
-    {
-      "id": "07-23-jackie-robinson",
-      "date": "07-23",
-      "dateLabel": "23 July",
-      "category": "sport",
-      "categoryName": "Sport",
-      "year": 1962,
-      "title": "Jackie Robinson",
-      "body": "Jackie Robinson becomes the first African American to be inducted into the National Baseball Hall of Fame.",
-      "source": {
-        "name": "Wikipedia · Jackie Robinson",
-        "url": "https://en.wikipedia.org/wiki/Jackie_Robinson",
-        "calendarUrl": "https://en.wikipedia.org/wiki/July_23",
-        "license": {
-          "name": "CC BY-SA 4.0",
-          "url": "https://creativecommons.org/licenses/by-sa/4.0/"
-        }
-      },
-      "image": {
-        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/bd/Jackie_Robinson%2C_NPG_97_135.jpg/1280px-Jackie_Robinson%2C_NPG_97_135.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-        "alt": "Picture from the Wikipedia article on Jackie Robinson.",
-        "credit": "Harry Warnecke / Frank Livia / Robert F. Cranston / William Klein",
-        "source": "https://commons.wikimedia.org/wiki/File:Jackie_Robinson,_NPG_97_135.jpg",
-        "license": "CC0",
-        "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/deed.en"
+        "src": "https://upload.wikimedia.org/wikipedia/commons/0/0b/William_A_Burt_1873.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+        "alt": "Picture from the Wikipedia article on William Austin Burt.",
+        "credit": "Tuttle, Charles Richard",
+        "source": "https://commons.wikimedia.org/wiki/File:William_A_Burt_1873.jpg",
+        "license": "Public domain",
+        "licenseUrl": "https://commons.wikimedia.org/wiki/File:William_A_Burt_1873.jpg"
       }
     }
   ]

@@ -3,6 +3,33 @@
   "dateLabel": "22 March",
   "facts": [
     {
+      "id": "03-22-cosmonaut",
+      "date": "03-22",
+      "dateLabel": "22 March",
+      "category": "space",
+      "categoryName": "Space",
+      "year": 1995,
+      "title": "Astronaut",
+      "body": "Cosmonaut Valeri Polyakov returns to earth after setting a record of 438 days in space.",
+      "source": {
+        "name": "Wikipedia · Astronaut",
+        "url": "https://en.wikipedia.org/wiki/Astronaut",
+        "calendarUrl": "https://en.wikipedia.org/wiki/March_22",
+        "license": {
+          "name": "CC BY-SA 4.0",
+          "url": "https://creativecommons.org/licenses/by-sa/4.0/"
+        }
+      },
+      "image": {
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/91/Bruce_McCandless_II_during_EVA_in_1984.jpg/1280px-Bruce_McCandless_II_during_EVA_in_1984.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "alt": "Picture from the Wikipedia article on Astronaut.",
+        "credit": "NASA",
+        "source": "https://commons.wikimedia.org/wiki/File:Bruce_McCandless_II_during_EVA_in_1984.jpg",
+        "license": "Public domain",
+        "licenseUrl": "https://commons.wikimedia.org/wiki/File:Bruce_McCandless_II_during_EVA_in_1984.jpg"
+      }
+    },
+    {
       "id": "03-22-intel-corporation",
       "date": "03-22",
       "dateLabel": "22 March",
@@ -30,6 +57,33 @@
       }
     },
     {
+      "id": "03-22-tara-lipinski",
+      "date": "03-22",
+      "dateLabel": "22 March",
+      "category": "world",
+      "categoryName": "World",
+      "year": 1997,
+      "title": "Tara Lipinski",
+      "body": "Tara Lipinski, aged 14 years and nine months, becomes the youngest women's World Figure Skating Champion.",
+      "source": {
+        "name": "Wikipedia · Tara Lipinski",
+        "url": "https://en.wikipedia.org/wiki/Tara_Lipinski",
+        "calendarUrl": "https://en.wikipedia.org/wiki/March_22",
+        "license": {
+          "name": "CC BY-SA 4.0",
+          "url": "https://creativecommons.org/licenses/by-sa/4.0/"
+        }
+      },
+      "image": {
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/9a/Tara_Lipinski_in_Sochi.jpg/1280px-Tara_Lipinski_in_Sochi.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "alt": "Picture from the Wikipedia article on Tara Lipinski.",
+        "credit": "Andy Miah",
+        "source": "https://commons.wikimedia.org/wiki/File:Tara_Lipinski_in_Sochi.jpg",
+        "license": "CC0",
+        "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/deed.en"
+      }
+    },
+    {
       "id": "03-22-the-beatles",
       "date": "03-22",
       "dateLabel": "22 March",
@@ -50,7 +104,7 @@
       "image": {
         "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/42/The_Beatles_1963_Dezo_Hoffman_Capitol_Records_press_photo_2.jpg/1280px-The_Beatles_1963_Dezo_Hoffman_Capitol_Records_press_photo_2.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
         "alt": "Picture from the Wikipedia article on The Beatles.",
-        "credit": "Dezo Hoffmann, Distributed by Capitol Records",
+        "credit": "Dezo Hoffmann",
         "source": "https://commons.wikimedia.org/wiki/File:The_Beatles_1963_Dezo_Hoffman_Capitol_Records_press_photo_2.jpg",
         "license": "Public domain",
         "licenseUrl": "https://commons.wikimedia.org/wiki/File:The_Beatles_1963_Dezo_Hoffman_Capitol_Records_press_photo_2.jpg"

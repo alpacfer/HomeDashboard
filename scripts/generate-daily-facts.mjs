@@ -12,7 +12,8 @@
 import { existsSync } from 'node:fs';
 import { mkdir, readFile, rm, writeFile } from 'node:fs/promises';
 import {
-  CATEGORIES, WORLD, chooseFacts, measurableLinks, parseEntries, plainText, scoreEntry,
+  CATEGORIES, FACTS_PER_DAY, VIDEOS_PER_DAY, WORLD, chooseFacts, isRecent, measurableLinks, parseEntries, plainText,
+  readableBody, scoreEntry, tidyCredit, videoEarnsItsPlace,
 } from './lib/fact-selection.mjs';
 
 const API = 'https://en.wikipedia.org/w/api.php';
@@ -110,19 +111,6 @@ function slug(value) {
   return value.toLowerCase().replace(/[^a-z0-9]+/g, '-').replace(/^-|-$/g, '').slice(0, 60);
 }
 
-// The calendar entry, minus the scaffolding a wall display does not need: the
-// year is shown on its own line, and a "Space Race:" style topic prefix is
-// noise once the category is named above the headline.
-function readableBody(text) {
-  let body = text
-    .replace(/^(?:[A-Z][\w'’.-]*(?:\s+[\w'’.-]+){0,4})\s*:\s+/, '')
-    .replace(/\s+/g, ' ')
-    .replace(/\s+([,.;:])/g, '$1')
-    .trim();
-  if (body && !/[.!?"')\]]$/.test(body)) body += '.';
-  return body;
-}
-
 // Wikipedia stores "IPhone" and displays "iPhone". The display title is the
 // one a person would write.
 function readableTitle(page, fallback) {
@@ -212,7 +200,7 @@ for (const date of dates) {
   // the day needs far more candidates than it has places.
   const all = shortlists.get(date.key);
   const picks = chooseFacts(all.slice(0, SHORTLIST), { views, seeds, reserve: all.slice(SHORTLIST), count: SHORTLIST * 2 });
-  if (picks.length < 3) throw new Error(`${date.key}: only ${picks.length} usable entries`);
+  if (picks.length < FACTS_PER_DAY) throw new Error(`${date.key}: only ${picks.length} usable entries`);
   chosen.set(date.key, picks);
 }
 
@@ -268,25 +256,102 @@ for (const batch of chunks(imageTitles)) {
   }
 }
 
+// Clips, for the few subjects that have one. Most articles carry none, and
+// most of what they do carry is not worth a decoder — see videoEarnsItsPlace
+// in scripts/lib/fact-selection.mjs, which decides that and is tested.
+console.log(`Looking for freely licensed video on ${articleTitles.length} articles...`);
+const videosByArticle = new Map();
+for (const batch of chunks(articleTitles)) {
+  const data = await api(API, { action: 'query', prop: 'images', imlimit: '500', redirects: '1', titles: batch.join('|') });
+  for (const page of data.query?.pages ?? []) {
+    if (page.missing) continue;
+    const clips = (page.images ?? []).map(image => image.title).filter(title => /\.(?:webm|ogv)$/i.test(title));
+    if (clips.length) videosByArticle.set(normalizedTitle(page.title), clips);
+  }
+}
+const clipTitles = [...new Set([...videosByArticle.values()].flat())];
+console.log(`  reading ${clipTitles.length} candidate clips...`);
+const clipInfo = new Map();
+for (const batch of chunks(clipTitles)) {
+  const data = await api(COMMONS_API, {
+    action: 'query',
+    prop: 'videoinfo',
+    viprop: 'url|size|dimensions|extmetadata|derivatives',
+    viurlwidth: '1000',
+    viextmetadatalanguage: 'en',
+    viextmetadatafilter: 'Artist|Credit|Attribution|LicenseShortName|LicenseUrl|UsageTerms',
+    titles: batch.join('|'),
+  });
+  for (const page of data.query?.pages ?? []) {
+    const info = page.videoinfo?.[0];
+    if (!page.missing && info?.thumburl && info?.descriptionurl) clipInfo.set(normalizedTitle(page.title), info);
+  }
+}
+
+// Wikimedia transcodes every clip; the source file is 8 to 100 MB and is never
+// what the display should fetch. 240p VP9 is about 0.3 Mbps, and the H.264
+// derivative stands behind it because whether Silk decodes VP9 is unverified.
+// A clip with neither is skipped rather than served at full size.
+function playableVideo(info) {
+  const derivatives = info.derivatives ?? [];
+  const pick = key => derivatives.find(derivative => derivative.transcodekey === key)?.src;
+  const src = pick('240p.vp9.webm') ?? pick('360p.vp9.webm');
+  const fallback = pick('360p.mpeg4.mov') ?? pick('480p.mpeg4.mov');
+  if (!src) return null;
+  const metadata = info.extmetadata ?? {};
+  let licenseUrl = metadata.LicenseUrl?.value || info.descriptionurl;
+  if (licenseUrl.startsWith('//')) licenseUrl = `https:${licenseUrl}`;
+  if (licenseUrl.startsWith('http://')) licenseUrl = `https://${licenseUrl.slice('http://'.length)}`;
+  return {
+    src,
+    ...(fallback ? { fallback } : {}),
+    poster: info.thumburl,
+    seconds: Math.round(info.duration ?? 0),
+    credit: tidyCredit(metadataValue(metadata, 'Attribution') || metadataValue(metadata, 'Artist') || metadataValue(metadata, 'Credit')),
+    source: info.descriptionurl,
+    license: metadataValue(metadata, 'LicenseShortName') || metadataValue(metadata, 'UsageTerms') || 'See file page',
+    licenseUrl,
+  };
+}
+
+// The clip a pick deserves, or nothing. Shortest first: of two that qualify,
+// the one the panel's fifteen seconds covers more of is the better showing.
+function chosenVideo(pick) {
+  const clips = videosByArticle.get(normalizedTitle(pick.seed?.imageArticle ?? pick.subject)) ?? [];
+  const usable = clips
+    .map(title => ({ title, info: clipInfo.get(normalizedTitle(title)) }))
+    .filter(clip => clip.info && videoEarnsItsPlace({
+      file: clip.title.replace(/^File:/, ''),
+      subject: pick.subject,
+      text: pick.seed?.body ?? pick.text,
+      seconds: clip.info.duration,
+    }))
+    .sort((a, b) => (a.info.duration ?? 0) - (b.info.duration ?? 0));
+  for (const clip of usable) {
+    const video = playableVideo(clip.info);
+    if (video) return video;
+  }
+  return null;
+}
+
 await rm(OUTPUT, { recursive: true, force: true });
 await mkdir(OUTPUT, { recursive: true });
 const missingPictures = [];
 const longHeadlines = [];
 const tallPictures = [];
 let total = 0;
+// How many dates seated a fact from the last few years. The supply is thin —
+// the calendar pages carry only a couple of hundred recent entries that are
+// neither grim nor political — so this number is the honest measure of the
+// recent window, and a refresh that quietly loses it should say so.
+let recentFacts = 0;
+let videoFacts = 0;
 
-// Commons sometimes stores the same name twice in one field, which reads as
-// "Unknown authorUnknown author" under the picture.
-function tidyCredit(value) {
-  const trimmed = value.trim().replace(/\s+/g, ' ');
-  const half = trimmed.length / 2;
-  if (Number.isInteger(half) && trimmed.slice(0, half) === trimmed.slice(half)) return trimmed.slice(0, half);
-  return trimmed.slice(0, 160);
-}
 for (const date of dates) {
   const facts = [];
+  let videos = 0;
   for (const pick of chosen.get(date.key)) {
-    if (facts.length === 3) break;
+    if (facts.length === FACTS_PER_DAY) break;
     const article = articles.get(normalizedTitle(pick.subject));
     const pictureFrom = articles.get(normalizedTitle(pick.seed?.imageArticle ?? pick.subject));
     const image = pick.seed?.imageFile
@@ -313,10 +378,18 @@ for (const date of dates) {
       continue;
     }
     const metadata = image.extmetadata ?? {};
-    const credit = metadataValue(metadata, 'Attribution') || metadataValue(metadata, 'Artist') || metadataValue(metadata, 'Credit') || 'Wikimedia Commons contributor';
+    const credit = metadataValue(metadata, 'Attribution') || metadataValue(metadata, 'Artist') || metadataValue(metadata, 'Credit');
     let licenseUrl = metadata.LicenseUrl?.value || image.descriptionurl;
     if (licenseUrl.startsWith('//')) licenseUrl = `https:${licenseUrl}`;
     if (licenseUrl.startsWith('http://')) licenseUrl = `https://${licenseUrl.slice('http://'.length)}`;
+    // At most VIDEOS_PER_DAY, so a date is a page with a moving picture on it
+    // rather than a playlist, and so the stick decodes one clip a scene at the
+    // very most.
+    const video = videos < VIDEOS_PER_DAY ? chosenVideo(pick) : null;
+    if (video) {
+      videos++;
+      videoFacts++;
+    }
     facts.push({
       id: `${date.key}-${slug(pick.subject)}`,
       date: date.key,
@@ -332,6 +405,7 @@ for (const date of dates) {
         calendarUrl: `https://en.wikipedia.org/wiki/${date.title}`,
         license: TEXT_LICENSE,
       },
+      ...(video ? { video } : {}),
       image: {
         src: image.thumburl,
         alt: pick.seed?.alt || `Picture from the Wikipedia article on ${title}.`,
@@ -342,9 +416,10 @@ for (const date of dates) {
       },
     });
     total++;
+    if (isRecent(pick.year)) recentFacts++;
   }
-  if (facts.length !== 3) throw new Error(`${date.key}: ${facts.length} illustrated facts, need 3`);
-  if (new Set(facts.map(fact => fact.id)).size !== 3) throw new Error(`${date.key}: duplicate fact ids`);
+  if (facts.length !== FACTS_PER_DAY) throw new Error(`${date.key}: ${facts.length} illustrated facts, need ${FACTS_PER_DAY}`);
+  if (new Set(facts.map(fact => fact.id)).size !== FACTS_PER_DAY) throw new Error(`${date.key}: duplicate fact ids`);
   await writeFile(new URL(`${date.key}.json`, OUTPUT), `${JSON.stringify({ date: date.key, dateLabel: date.label, facts }, null, 2)}\n`);
 }
 
@@ -357,6 +432,8 @@ await writeFile(new URL('index.json', OUTPUT), `${JSON.stringify({
 }, null, 2)}\n`);
 
 console.log(`Generated ${total} facts across ${dates.length} dates.`);
+console.log(`${recentFacts} are from the last few years (${Math.round(100 * recentFacts / total)}%).`);
+console.log(`${videoFacts} carry a clip that earned it; the rest are the photograph they always were.`);
 if (missingPictures.length) console.log(`Passed over ${missingPictures.length} candidates with no picture.`);
 if (longHeadlines.length) console.log(`Passed over ${longHeadlines.length} candidates whose headline was too long.`);
 if (tallPictures.length) console.log(`Passed over ${tallPictures.length} candidates whose picture was too tall to crop.`);

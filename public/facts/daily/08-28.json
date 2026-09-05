@@ -3,17 +3,17 @@
   "dateLabel": "28 August",
   "facts": [
     {
-      "id": "08-28-galileo-spacecraft",
+      "id": "08-28-soyuz-tm-29",
       "date": "08-28",
       "dateLabel": "28 August",
       "category": "space",
       "categoryName": "Space",
-      "year": 1993,
-      "title": "Galileo",
-      "body": "NASA's Galileo probe performs a flyby of the asteroid 243 Ida. Astronomers later discover a moon, the first known asteroid moon, in pictures from the flyby and name it Dactyl.",
+      "year": 1999,
+      "title": "Soyuz TM-29",
+      "body": "The Russian space mission Soyuz TM-29 reaches completion, ending nearly 10 years of continuous occupation on the space station Mir as it approaches the end of its life.",
       "source": {
-        "name": "Wikipedia · Galileo (spacecraft)",
-        "url": "https://en.wikipedia.org/wiki/Galileo_(spacecraft)",
+        "name": "Wikipedia · Soyuz TM-29",
+        "url": "https://en.wikipedia.org/wiki/Soyuz_TM-29",
         "calendarUrl": "https://en.wikipedia.org/wiki/August_28",
         "license": {
           "name": "CC BY-SA 4.0",
@@ -21,12 +21,12 @@
         }
       },
       "image": {
-        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/9c/Artwork_Galileo-Io-Jupiter.JPG/1280px-Artwork_Galileo-Io-Jupiter.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-        "alt": "Picture from the Wikipedia article on Galileo.",
-        "credit": "NASA",
-        "source": "https://commons.wikimedia.org/wiki/File:Artwork_Galileo-Io-Jupiter.JPG",
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/8e/Soyuz_TM-29_logo_SVG.svg/1280px-Soyuz_TM-29_logo_SVG.svg.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "alt": "Picture from the Wikipedia article on Soyuz TM-29.",
+        "credit": "BMacZero",
+        "source": "https://commons.wikimedia.org/wiki/File:Soyuz_TM-29_logo_SVG.svg",
         "license": "Public domain",
-        "licenseUrl": "https://commons.wikimedia.org/wiki/File:Artwork_Galileo-Io-Jupiter.JPG"
+        "licenseUrl": "https://commons.wikimedia.org/wiki/File:Soyuz_TM-29_logo_SVG.svg"
       }
     },
     {
@@ -81,6 +81,60 @@
         "source": "https://commons.wikimedia.org/wiki/File:Carrington_Richard_drawing_of_1859_sunspots.jpeg",
         "license": "Public domain",
         "licenseUrl": "https://commons.wikimedia.org/wiki/File:Carrington_Richard_drawing_of_1859_sunspots.jpeg"
+      }
+    },
+    {
+      "id": "08-28-henry-hudson",
+      "date": "08-28",
+      "dateLabel": "28 August",
+      "category": "science",
+      "categoryName": "Science",
+      "year": 1609,
+      "title": "Henry Hudson",
+      "body": "Henry Hudson discovers Delaware Bay.",
+      "source": {
+        "name": "Wikipedia · Henry Hudson",
+        "url": "https://en.wikipedia.org/wiki/Henry_Hudson",
+        "calendarUrl": "https://en.wikipedia.org/wiki/August_28",
+        "license": {
+          "name": "CC BY-SA 4.0",
+          "url": "https://creativecommons.org/licenses/by-sa/4.0/"
+        }
+      },
+      "image": {
+        "src": "https://upload.wikimedia.org/wikipedia/commons/d/d2/HenryHudson.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+        "alt": "Picture from the Wikipedia article on Henry Hudson.",
+        "credit": "Wikimedia Commons",
+        "source": "https://commons.wikimedia.org/wiki/File:HenryHudson.jpg",
+        "license": "Public domain",
+        "licenseUrl": "https://commons.wikimedia.org/wiki/File:HenryHudson.jpg"
+      }
+    },
+    {
+      "id": "08-28-galileo-spacecraft",
+      "date": "08-28",
+      "dateLabel": "28 August",
+      "category": "space",
+      "categoryName": "Space",
+      "year": 1993,
+      "title": "Galileo",
+      "body": "NASA's Galileo probe performs a flyby of the asteroid 243 Ida. Astronomers later discover a moon, the first known asteroid moon, in pictures from the flyby and name it Dactyl.",
+      "source": {
+        "name": "Wikipedia · Galileo (spacecraft)",
+        "url": "https://en.wikipedia.org/wiki/Galileo_(spacecraft)",
+        "calendarUrl": "https://en.wikipedia.org/wiki/August_28",
+        "license": {
+          "name": "CC BY-SA 4.0",
+          "url": "https://creativecommons.org/licenses/by-sa/4.0/"
+        }
+      },
+      "image": {
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/9c/Artwork_Galileo-Io-Jupiter.JPG/1280px-Artwork_Galileo-Io-Jupiter.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "alt": "Picture from the Wikipedia article on Galileo.",
+        "credit": "NASA",
+        "source": "https://commons.wikimedia.org/wiki/File:Artwork_Galileo-Io-Jupiter.JPG",
+        "license": "Public domain",
+        "licenseUrl": "https://commons.wikimedia.org/wiki/File:Artwork_Galileo-Io-Jupiter.JPG"
       }
     }
   ]

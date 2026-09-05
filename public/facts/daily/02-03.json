@@ -30,17 +30,17 @@
       }
     },
     {
-      "id": "02-03-prime-minister-of-the-united-kingdom",
+      "id": "02-03-john-buster",
       "date": "02-03",
       "dateLabel": "3 February",
       "category": "world",
       "categoryName": "World",
-      "year": 1960,
-      "title": "Prime Minister of the United Kingdom",
-      "body": "British Prime Minister Harold Macmillan speaks of \"a wind of change\", signalling that his Government is likely to support decolonisation.",
+      "year": 1984,
+      "title": "John Buster",
+      "body": "Doctor John Buster and a research team at Harbor-UCLA Medical Center in the United States announce history's first embryo transfer, from one woman to another resulting in a live birth.",
       "source": {
-        "name": "Wikipedia · Prime Minister of the United Kingdom",
-        "url": "https://en.wikipedia.org/wiki/Prime_Minister_of_the_United_Kingdom",
+        "name": "Wikipedia · John Buster",
+        "url": "https://en.wikipedia.org/wiki/John_Buster",
         "calendarUrl": "https://en.wikipedia.org/wiki/February_3",
         "license": {
           "name": "CC BY-SA 4.0",
@@ -48,12 +48,12 @@
         }
       },
       "image": {
-        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/6c/Coat_of_arms_of_the_United_Kingdom_%282024%2C_lesser_arms%29.svg/1280px-Coat_of_arms_of_the_United_Kingdom_%282024%2C_lesser_arms%29.svg.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-        "alt": "Picture from the Wikipedia article on Prime Minister of the United Kingdom.",
-        "credit": "Dgp4004",
-        "source": "https://commons.wikimedia.org/wiki/File:Coat_of_arms_of_the_United_Kingdom_(2024,_lesser_arms).svg",
-        "license": "CC BY-SA 4.0",
-        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0"
+        "src": "https://upload.wikimedia.org/wikipedia/commons/2/28/John-Buste%2C_MD.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+        "alt": "Picture from the Wikipedia article on John Buster.",
+        "credit": "Initial Design Group, Inc",
+        "source": "https://commons.wikimedia.org/wiki/File:John-Buste,_MD.jpg",
+        "license": "CC BY-SA 3.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0"
       }
     },
     {
@@ -81,6 +81,60 @@
         "source": "https://commons.wikimedia.org/wiki/File:Commander_Eileen_Collins_-_GPN-2000-001177.jpg",
         "license": "Public domain",
         "licenseUrl": "https://commons.wikimedia.org/wiki/File:Commander_Eileen_Collins_-_GPN-2000-001177.jpg"
+      }
+    },
+    {
+      "id": "02-03-sts-60",
+      "date": "02-03",
+      "dateLabel": "3 February",
+      "category": "space",
+      "categoryName": "Space",
+      "year": 1994,
+      "title": "STS-60",
+      "body": "STS-60 is launched, carrying Sergei Krikalev, the first Russian cosmonaut to fly aboard the Shuttle.",
+      "source": {
+        "name": "Wikipedia · STS-60",
+        "url": "https://en.wikipedia.org/wiki/STS-60",
+        "calendarUrl": "https://en.wikipedia.org/wiki/February_3",
+        "license": {
+          "name": "CC BY-SA 4.0",
+          "url": "https://creativecommons.org/licenses/by-sa/4.0/"
+        }
+      },
+      "image": {
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/eb/Wake_Shield_Facility_on_STS-60_%28STS060-74-054%29.jpg/1280px-Wake_Shield_Facility_on_STS-60_%28STS060-74-054%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "alt": "Picture from the Wikipedia article on STS-60.",
+        "credit": "NASA",
+        "source": "https://commons.wikimedia.org/wiki/File:Wake_Shield_Facility_on_STS-60_(STS060-74-054).jpg",
+        "license": "Public domain",
+        "licenseUrl": "https://commons.wikimedia.org/wiki/File:Wake_Shield_Facility_on_STS-60_(STS060-74-054).jpg"
+      }
+    },
+    {
+      "id": "02-03-benelux",
+      "date": "02-03",
+      "dateLabel": "3 February",
+      "category": "world",
+      "categoryName": "World",
+      "year": 1958,
+      "title": "Benelux",
+      "body": "Founding of the Benelux Economic Union, creating a testing ground for a later European Economic Community.",
+      "source": {
+        "name": "Wikipedia · Benelux",
+        "url": "https://en.wikipedia.org/wiki/Benelux",
+        "calendarUrl": "https://en.wikipedia.org/wiki/February_3",
+        "license": {
+          "name": "CC BY-SA 4.0",
+          "url": "https://creativecommons.org/licenses/by-sa/4.0/"
+        }
+      },
+      "image": {
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/ac/Benelux.svg/1280px-Benelux.svg.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "alt": "Picture from the Wikipedia article on Benelux.",
+        "credit": "Hayden120",
+        "source": "https://commons.wikimedia.org/wiki/File:Benelux.svg",
+        "license": "CC BY-SA 3.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0"
       }
     }
   ]

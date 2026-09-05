@@ -57,17 +57,17 @@
       }
     },
     {
-      "id": "12-08-german-empire",
+      "id": "12-08-belovezh-accords",
       "date": "12-08",
       "dateLabel": "8 December",
       "category": "world",
       "categoryName": "World",
-      "year": 1912,
-      "title": "German Empire",
-      "body": "Leaders of the German Empire hold an Imperial War Council to discuss the possibility that war might break out.",
+      "year": 1991,
+      "title": "Belovezha Accords",
+      "body": "The leaders of Russia, Belarus and Ukraine sign an agreement dissolving the Soviet Union and establishing the Commonwealth of Independent States.",
       "source": {
-        "name": "Wikipedia · German Empire",
-        "url": "https://en.wikipedia.org/wiki/German_Empire",
+        "name": "Wikipedia · Belovezha Accords",
+        "url": "https://en.wikipedia.org/wiki/Belovezha_Accords",
         "calendarUrl": "https://en.wikipedia.org/wiki/December_8",
         "license": {
           "name": "CC BY-SA 4.0",
@@ -75,12 +75,66 @@
         }
       },
       "image": {
-        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/1f/Flag_of_Germany_%281867%E2%80%931918%29.svg/1280px-Flag_of_Germany_%281867%E2%80%931918%29.svg.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-        "alt": "Picture from the Wikipedia article on German Empire.",
-        "credit": "Original: Adolf Soetbeer, Otto von Bismarck Vector: B1mbo, Madden",
-        "source": "https://commons.wikimedia.org/wiki/File:Flag_of_Germany_(1867%E2%80%931918).svg",
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/43/RIAN_archive_848095_Signing_the_Agreement_to_eliminate_the_USSR_and_establish_the_Commonwealth_of_Independent_States.jpg/1280px-RIAN_archive_848095_Signing_the_Agreement_to_eliminate_the_USSR_and_establish_the_Commonwealth_of_Independent_States.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "alt": "Picture from the Wikipedia article on Belovezha Accords.",
+        "credit": "RIA Novosti archive, image #848095",
+        "source": "https://commons.wikimedia.org/wiki/File:RIAN_archive_848095_Signing_the_Agreement_to_eliminate_the_USSR_and_establish_the_Commonwealth_of_Independent_States.jpg",
+        "license": "CC BY-SA 3.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0"
+      }
+    },
+    {
+      "id": "12-08-flag-of-europe",
+      "date": "12-08",
+      "dateLabel": "8 December",
+      "category": "world",
+      "categoryName": "World",
+      "year": 1955,
+      "title": "Flag of Europe",
+      "body": "The Flag of Europe is adopted by Council of Europe.",
+      "source": {
+        "name": "Wikipedia · Flag of Europe",
+        "url": "https://en.wikipedia.org/wiki/Flag_of_Europe",
+        "calendarUrl": "https://en.wikipedia.org/wiki/December_8",
+        "license": {
+          "name": "CC BY-SA 4.0",
+          "url": "https://creativecommons.org/licenses/by-sa/4.0/"
+        }
+      },
+      "image": {
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b7/Flag_of_Europe.svg/1280px-Flag_of_Europe.svg.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "alt": "Picture from the Wikipedia article on Flag of Europe.",
+        "credit": "User:Verdy p",
+        "source": "https://commons.wikimedia.org/wiki/File:Flag_of_Europe.svg",
         "license": "Public domain",
-        "licenseUrl": "https://commons.wikimedia.org/wiki/File:Flag_of_Germany_(1867%E2%80%931918).svg"
+        "licenseUrl": "https://commons.wikimedia.org/wiki/File:Flag_of_Europe.svg"
+      }
+    },
+    {
+      "id": "12-08-south-asian-association-for-regional-cooperation",
+      "date": "12-08",
+      "dateLabel": "8 December",
+      "category": "world",
+      "categoryName": "World",
+      "year": 1985,
+      "title": "South Asian Association for Regional Cooperation",
+      "body": "The South Asian Association for Regional Cooperation, the regional intergovernmental organization and geopolitical union in South Asia, is established.",
+      "source": {
+        "name": "Wikipedia · South Asian Association for Regional Cooperation",
+        "url": "https://en.wikipedia.org/wiki/South_Asian_Association_for_Regional_Cooperation",
+        "calendarUrl": "https://en.wikipedia.org/wiki/December_8",
+        "license": {
+          "name": "CC BY-SA 4.0",
+          "url": "https://creativecommons.org/licenses/by-sa/4.0/"
+        }
+      },
+      "image": {
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e3/South_Asia_%28orthographic_projection%29_without_national_boundaries.svg/1280px-South_Asia_%28orthographic_projection%29_without_national_boundaries.svg.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "alt": "Picture from the Wikipedia article on South Asian Association for Regional Cooperation.",
+        "credit": "user:Serg!o",
+        "source": "https://commons.wikimedia.org/wiki/File:South_Asia_(orthographic_projection)_without_national_boundaries.svg",
+        "license": "CC BY-SA 3.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0"
       }
     }
   ]

@@ -3,17 +3,17 @@
   "dateLabel": "19 July",
   "facts": [
     {
-      "id": "07-19-maurice-garin",
+      "id": "07-19-knesset",
       "date": "07-19",
       "dateLabel": "19 July",
-      "category": "sport",
-      "categoryName": "Sport",
-      "year": 1903,
-      "title": "Maurice Garin",
-      "body": "Maurice Garin wins the first Tour de France.",
+      "category": "world",
+      "categoryName": "World",
+      "year": 2018,
+      "title": "Knesset",
+      "body": "The Knesset passes the controversial Nationality Bill, which defines the State of Israel as the nation-state of the Jewish people.",
       "source": {
-        "name": "Wikipedia · Maurice Garin",
-        "url": "https://en.wikipedia.org/wiki/Maurice_Garin",
+        "name": "Wikipedia · Knesset",
+        "url": "https://en.wikipedia.org/wiki/Knesset",
         "calendarUrl": "https://en.wikipedia.org/wiki/July_19",
         "license": {
           "name": "CC BY-SA 4.0",
@@ -21,12 +21,12 @@
         }
       },
       "image": {
-        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/97/Maurice_Garin_Meurisse_BNF_Gallica.jpg/1280px-Maurice_Garin_Meurisse_BNF_Gallica.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-        "alt": "Picture from the Wikipedia article on Maurice Garin.",
-        "credit": "Agence de presse Meurisse",
-        "source": "https://commons.wikimedia.org/wiki/File:Maurice_Garin_Meurisse_BNF_Gallica.jpg",
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/de/Israeli_Knesset_Current_Composition.svg/1280px-Israeli_Knesset_Current_Composition.svg.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "alt": "Picture from the Wikipedia article on Knesset.",
+        "credit": "User:אורי פרקש",
+        "source": "https://commons.wikimedia.org/wiki/File:Israeli_Knesset_Current_Composition.svg",
         "license": "Public domain",
-        "licenseUrl": "https://commons.wikimedia.org/wiki/File:Maurice_Garin_Meurisse_BNF_Gallica.jpg"
+        "licenseUrl": "https://commons.wikimedia.org/wiki/File:Israeli_Knesset_Current_Composition.svg"
       }
     },
     {
@@ -57,17 +57,17 @@
       }
     },
     {
-      "id": "07-19-people-s-defense-units",
+      "id": "07-19-maurice-garin",
       "date": "07-19",
       "dateLabel": "19 July",
-      "category": "world",
-      "categoryName": "World",
-      "year": 2012,
-      "title": "People's Defense Units",
-      "body": "The People's Protection Units (YPG) capture the city of Kobanî without resistance, starting the Rojava conflict in Northeast Syria.",
+      "category": "sport",
+      "categoryName": "Sport",
+      "year": 1903,
+      "title": "Maurice Garin",
+      "body": "Maurice Garin wins the first Tour de France.",
       "source": {
-        "name": "Wikipedia · People's Defense Units",
-        "url": "https://en.wikipedia.org/wiki/People%27s_Defense_Units",
+        "name": "Wikipedia · Maurice Garin",
+        "url": "https://en.wikipedia.org/wiki/Maurice_Garin",
         "calendarUrl": "https://en.wikipedia.org/wiki/July_19",
         "license": {
           "name": "CC BY-SA 4.0",
@@ -75,12 +75,66 @@
         }
       },
       "image": {
-        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/32/People%27s_Protection_Units_Flag.svg/1280px-People%27s_Protection_Units_Flag.svg.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-        "alt": "Picture from the Wikipedia article on People's Defense Units.",
-        "credit": "MrPenguin20",
-        "source": "https://commons.wikimedia.org/wiki/File:People%27s_Protection_Units_Flag.svg",
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/97/Maurice_Garin_Meurisse_BNF_Gallica.jpg/1280px-Maurice_Garin_Meurisse_BNF_Gallica.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "alt": "Picture from the Wikipedia article on Maurice Garin.",
+        "credit": "Agence de presse Meurisse",
+        "source": "https://commons.wikimedia.org/wiki/File:Maurice_Garin_Meurisse_BNF_Gallica.jpg",
         "license": "Public domain",
-        "licenseUrl": "https://commons.wikimedia.org/wiki/File:People%27s_Protection_Units_Flag.svg"
+        "licenseUrl": "https://commons.wikimedia.org/wiki/File:Maurice_Garin_Meurisse_BNF_Gallica.jpg"
+      }
+    },
+    {
+      "id": "07-19-1952-summer-olympics",
+      "date": "07-19",
+      "dateLabel": "19 July",
+      "category": "sport",
+      "categoryName": "Sport",
+      "year": 1952,
+      "title": "1952 Summer Olympics",
+      "body": "Opening of the Summer Olympics in Helsinki, Finland.",
+      "source": {
+        "name": "Wikipedia · 1952 Summer Olympics",
+        "url": "https://en.wikipedia.org/wiki/1952_Summer_Olympics",
+        "calendarUrl": "https://en.wikipedia.org/wiki/July_19",
+        "license": {
+          "name": "CC BY-SA 4.0",
+          "url": "https://creativecommons.org/licenses/by-sa/4.0/"
+        }
+      },
+      "image": {
+        "src": "https://upload.wikimedia.org/wikipedia/commons/f/f3/Olympia-1952.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+        "alt": "Picture from the Wikipedia article on 1952 Summer Olympics.",
+        "credit": "Published by Posti- ja telelaitos",
+        "source": "https://commons.wikimedia.org/wiki/File:Olympia-1952.jpg",
+        "license": "Public domain",
+        "licenseUrl": "https://commons.wikimedia.org/wiki/File:Olympia-1952.jpg"
+      }
+    },
+    {
+      "id": "07-19-sagarmatha-national-park",
+      "date": "07-19",
+      "dateLabel": "19 July",
+      "category": "world",
+      "categoryName": "World",
+      "year": 1976,
+      "title": "Sagarmatha National Park",
+      "body": "Sagarmatha National Park in Nepal is created.",
+      "source": {
+        "name": "Wikipedia · Sagarmatha National Park",
+        "url": "https://en.wikipedia.org/wiki/Sagarmatha_National_Park",
+        "calendarUrl": "https://en.wikipedia.org/wiki/July_19",
+        "license": {
+          "name": "CC BY-SA 4.0",
+          "url": "https://creativecommons.org/licenses/by-sa/4.0/"
+        }
+      },
+      "image": {
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c9/Valley%2C_Tengboche%2C_Mountains_of_Nepal.jpg/1280px-Valley%2C_Tengboche%2C_Mountains_of_Nepal.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "alt": "Picture from the Wikipedia article on Sagarmatha National Park.",
+        "credit": "© Vyacheslav Argenberg",
+        "source": "https://commons.wikimedia.org/wiki/File:Valley,_Tengboche,_Mountains_of_Nepal.jpg",
+        "license": "CC BY 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by/4.0"
       }
     }
   ]

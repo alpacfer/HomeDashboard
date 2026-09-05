@@ -3,17 +3,17 @@
   "dateLabel": "10 May",
   "facts": [
     {
-      "id": "05-10-rudolf-hess",
+      "id": "05-10-voyage-of-the-james-caird",
       "date": "05-10",
       "dateLabel": "10 May",
       "category": "curious",
       "categoryName": "Curious",
-      "year": 1941,
-      "title": "Rudolf Hess",
-      "body": "Rudolf Hess parachutes into Scotland to try to negotiate a peace deal between the United Kingdom and Nazi Germany.",
+      "year": 1916,
+      "title": "Voyage of the James Caird",
+      "body": "Sailing in the lifeboat James Caird, Ernest Shackleton arrives at South Georgia after a journey of 800 nautical miles from Elephant Island.",
       "source": {
-        "name": "Wikipedia · Rudolf Hess",
-        "url": "https://en.wikipedia.org/wiki/Rudolf_Hess",
+        "name": "Wikipedia · Voyage of the James Caird",
+        "url": "https://en.wikipedia.org/wiki/Voyage_of_the_James_Caird",
         "calendarUrl": "https://en.wikipedia.org/wiki/May_10",
         "license": {
           "name": "CC BY-SA 4.0",
@@ -21,12 +21,12 @@
         }
       },
       "image": {
-        "src": "https://upload.wikimedia.org/wikipedia/commons/d/d7/Bundesarchiv_Bild_183-1987-0313-507%2C_Rudolf_Hess_%28cropped%29%28b%29%282%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
-        "alt": "Picture from the Wikipedia article on Rudolf Hess.",
-        "credit": "Bundesarchiv, Bild 183-1987-0313-507 / CC-BY-SA 3.0",
-        "source": "https://commons.wikimedia.org/wiki/File:Bundesarchiv_Bild_183-1987-0313-507,_Rudolf_Hess_(cropped)(b)(2).jpg",
-        "license": "CC BY-SA 3.0 de",
-        "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0/de/deed.en"
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/89/LaunchingTheJamesCaird2.jpg/1280px-LaunchingTheJamesCaird2.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "alt": "Picture from the Wikipedia article on Voyage of the James Caird.",
+        "credit": "Probably Frank Hurley",
+        "source": "https://commons.wikimedia.org/wiki/File:LaunchingTheJamesCaird2.jpg",
+        "license": "Public domain",
+        "licenseUrl": "https://commons.wikimedia.org/wiki/File:LaunchingTheJamesCaird2.jpg"
       }
     },
     {
@@ -81,6 +81,60 @@
         "source": "https://commons.wikimedia.org/wiki/File:Sony_headquaters_2.jpg",
         "license": "CC BY-SA 4.0",
         "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0"
+      }
+    },
+    {
+      "id": "05-10-rudolf-hess",
+      "date": "05-10",
+      "dateLabel": "10 May",
+      "category": "curious",
+      "categoryName": "Curious",
+      "year": 1941,
+      "title": "Rudolf Hess",
+      "body": "Rudolf Hess parachutes into Scotland to try to negotiate a peace deal between the United Kingdom and Nazi Germany.",
+      "source": {
+        "name": "Wikipedia · Rudolf Hess",
+        "url": "https://en.wikipedia.org/wiki/Rudolf_Hess",
+        "calendarUrl": "https://en.wikipedia.org/wiki/May_10",
+        "license": {
+          "name": "CC BY-SA 4.0",
+          "url": "https://creativecommons.org/licenses/by-sa/4.0/"
+        }
+      },
+      "image": {
+        "src": "https://upload.wikimedia.org/wikipedia/commons/d/d7/Bundesarchiv_Bild_183-1987-0313-507%2C_Rudolf_Hess_%28cropped%29%28b%29%282%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+        "alt": "Picture from the Wikipedia article on Rudolf Hess.",
+        "credit": "Bundesarchiv, Bild 183-1987-0313-507",
+        "source": "https://commons.wikimedia.org/wiki/File:Bundesarchiv_Bild_183-1987-0313-507,_Rudolf_Hess_(cropped)(b)(2).jpg",
+        "license": "CC BY-SA 3.0 de",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0/de/deed.en"
+      }
+    },
+    {
+      "id": "05-10-mother-s-day",
+      "date": "05-10",
+      "dateLabel": "10 May",
+      "category": "world",
+      "categoryName": "World",
+      "year": 1908,
+      "title": "Mother's Day",
+      "body": "Mother's Day is observed for the first time in the United States, in Grafton, West Virginia.",
+      "source": {
+        "name": "Wikipedia · Mother's Day",
+        "url": "https://en.wikipedia.org/wiki/Mother%27s_Day",
+        "calendarUrl": "https://en.wikipedia.org/wiki/May_10",
+        "license": {
+          "name": "CC BY-SA 4.0",
+          "url": "https://creativecommons.org/licenses/by-sa/4.0/"
+        }
+      },
+      "image": {
+        "src": "https://upload.wikimedia.org/wikipedia/commons/0/0d/Mother%27s_day_card.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+        "alt": "Picture from the Wikipedia article on Mother's Day.",
+        "credit": "Dave Parker from Tracy, CA, USA",
+        "source": "https://commons.wikimedia.org/wiki/File:Mother%27s_day_card.jpg",
+        "license": "CC BY 2.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by/2.0"
       }
     }
   ]

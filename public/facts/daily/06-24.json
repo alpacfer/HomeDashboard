@@ -23,7 +23,7 @@
       "image": {
         "src": "https://upload.wikimedia.org/wikipedia/commons/b/b7/Humber_Br%C3%A9ck_zu_Hull_w.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
         "alt": "Picture from the Wikipedia article on Humber Bridge.",
-        "credit": "Original: Tonyharp at English Wikipedia Modifications: Cornischong at Luxembourgish Wikipedia",
+        "credit": "Original: Tonyharp",
         "source": "https://commons.wikimedia.org/wiki/File:Humber_Br%C3%A9ck_zu_Hull_w.jpg",
         "license": "CC BY-SA 3.0",
         "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0/"
@@ -57,17 +57,17 @@
       }
     },
     {
-      "id": "06-24-victory-day-parade",
+      "id": "06-24-julia-gillard",
       "date": "06-24",
       "dateLabel": "24 June",
       "category": "world",
       "categoryName": "World",
-      "year": 1945,
-      "title": "Victory Day parades",
-      "body": "The first Victory Day Parade takes place on Red Square in Moscow, Soviet Union, symbolizing the victory of the Soviet Union over Nazi Germany.",
+      "year": 2010,
+      "title": "Julia Gillard",
+      "body": "Julia Gillard assumes office as the first female Prime Minister of Australia.",
       "source": {
-        "name": "Wikipedia · Victory Day parades",
-        "url": "https://en.wikipedia.org/wiki/Victory_Day_parades",
+        "name": "Wikipedia · Julia Gillard",
+        "url": "https://en.wikipedia.org/wiki/Julia_Gillard",
         "calendarUrl": "https://en.wikipedia.org/wiki/June_24",
         "license": {
           "name": "CC BY-SA 4.0",
@@ -75,12 +75,66 @@
         }
       },
       "image": {
-        "src": "https://upload.wikimedia.org/wikipedia/commons/5/5c/Parad_pobedy_1945.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
-        "alt": "Picture from the Wikipedia article on Victory Day parades.",
-        "credit": "Центральная студия документальных фильмов, ЦСДФ",
-        "source": "https://commons.wikimedia.org/wiki/File:Parad_pobedy_1945.jpg",
+        "src": "https://upload.wikimedia.org/wikipedia/commons/9/97/Julia-gillard-official-portrait-pmc.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+        "alt": "Picture from the Wikipedia article on Julia Gillard.",
+        "credit": "© Commonwealth of Australia 2019",
+        "source": "https://commons.wikimedia.org/wiki/File:Julia-gillard-official-portrait-pmc.jpg",
+        "license": "CC BY 3.0 au",
+        "licenseUrl": "https://creativecommons.org/licenses/by/3.0/au/deed.en"
+      }
+    },
+    {
+      "id": "06-24-kenneth-arnold",
+      "date": "06-24",
+      "dateLabel": "24 June",
+      "category": "curious",
+      "categoryName": "Curious",
+      "year": 1947,
+      "title": "Kenneth Arnold",
+      "body": "Kenneth Arnold makes the first widely reported UFO sighting near Mount Rainier, Washington.",
+      "source": {
+        "name": "Wikipedia · Kenneth Arnold",
+        "url": "https://en.wikipedia.org/wiki/Kenneth_Arnold",
+        "calendarUrl": "https://en.wikipedia.org/wiki/June_24",
+        "license": {
+          "name": "CC BY-SA 4.0",
+          "url": "https://creativecommons.org/licenses/by-sa/4.0/"
+        }
+      },
+      "image": {
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/9f/Kenneth_Arnold.jpg/1280px-Kenneth_Arnold.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "alt": "Picture from the Wikipedia article on Kenneth Arnold.",
+        "credit": "Associated Press",
+        "source": "https://commons.wikimedia.org/wiki/File:Kenneth_Arnold.jpg",
         "license": "Public domain",
-        "licenseUrl": "https://commons.wikimedia.org/wiki/File:Parad_pobedy_1945.jpg"
+        "licenseUrl": "https://commons.wikimedia.org/wiki/File:Kenneth_Arnold.jpg"
+      }
+    },
+    {
+      "id": "06-24-o-canada",
+      "date": "06-24",
+      "dateLabel": "24 June",
+      "category": "culture",
+      "categoryName": "Culture",
+      "year": 1880,
+      "title": "O Canada",
+      "body": "First performance of O Canada at the Congrès national des Canadiens-Français. The song would later become the national anthem of Canada.",
+      "source": {
+        "name": "Wikipedia · O Canada",
+        "url": "https://en.wikipedia.org/wiki/O_Canada",
+        "calendarUrl": "https://en.wikipedia.org/wiki/June_24",
+        "license": {
+          "name": "CC BY-SA 4.0",
+          "url": "https://creativecommons.org/licenses/by-sa/4.0/"
+        }
+      },
+      "image": {
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b2/O_Canada_bilingual_sheet_music.pdf/page1-960px-O_Canada_bilingual_sheet_music.pdf.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "alt": "Picture from the Wikipedia article on O Canada.",
+        "credit": "Government of Canada",
+        "source": "https://commons.wikimedia.org/wiki/File:O_Canada_bilingual_sheet_music.pdf",
+        "license": "Public domain",
+        "licenseUrl": "https://commons.wikimedia.org/wiki/File:O_Canada_bilingual_sheet_music.pdf"
       }
     }
   ]

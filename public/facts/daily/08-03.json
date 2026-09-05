@@ -3,6 +3,33 @@
   "dateLabel": "3 August",
   "facts": [
     {
+      "id": "08-03-basketball-association-of-america",
+      "date": "08-03",
+      "dateLabel": "3 August",
+      "category": "sport",
+      "categoryName": "Sport",
+      "year": 1949,
+      "title": "Basketball Association of America",
+      "body": "The Basketball Association of America and the National Basketball League finalize the merger that would create the National Basketball Association.",
+      "source": {
+        "name": "Wikipedia · Basketball Association of America",
+        "url": "https://en.wikipedia.org/wiki/Basketball_Association_of_America",
+        "calendarUrl": "https://en.wikipedia.org/wiki/August_3",
+        "license": {
+          "name": "CC BY-SA 4.0",
+          "url": "https://creativecommons.org/licenses/by-sa/4.0/"
+        }
+      },
+      "image": {
+        "src": "https://upload.wikimedia.org/wikipedia/commons/0/07/Basketball-Association-of-America-logo.gif?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+        "alt": "Picture from the Wikipedia article on Basketball Association of America.",
+        "credit": "Unknown author",
+        "source": "https://commons.wikimedia.org/wiki/File:Basketball-Association-of-America-logo.gif",
+        "license": "Public domain",
+        "licenseUrl": "https://commons.wikimedia.org/wiki/File:Basketball-Association-of-America-logo.gif"
+      }
+    },
+    {
       "id": "08-03-uss-nautilus-ssn-571",
       "date": "08-03",
       "dateLabel": "3 August",
@@ -50,7 +77,7 @@
       "image": {
         "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/24/Rob_Manfred_7-15-2014.jpg/1280px-Rob_Manfred_7-15-2014.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
         "alt": "Picture from the Wikipedia article on Commissioner of Baseball.",
-        "credit": "Arturo Pardavila III from Hoboken, NJ, USA",
+        "credit": "Arturo Pardavila III",
         "source": "https://commons.wikimedia.org/wiki/File:Rob_Manfred_7-15-2014.jpg",
         "license": "CC BY-SA 2.0",
         "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0"
@@ -81,6 +108,33 @@
         "source": "https://commons.wikimedia.org/wiki/File:Jesse_Owens_1936.jpg",
         "license": "Public domain",
         "licenseUrl": "https://commons.wikimedia.org/wiki/File:Jesse_Owens_1936.jpg"
+      }
+    },
+    {
+      "id": "08-03-senegal",
+      "date": "08-03",
+      "dateLabel": "3 August",
+      "category": "world",
+      "categoryName": "World",
+      "year": 1981,
+      "title": "Senegal",
+      "body": "Senegalese opposition parties, under the leadership of Mamadou Dia, launch the Antiimperialist Action Front – Suxxali Reew Mi.",
+      "source": {
+        "name": "Wikipedia · Senegal",
+        "url": "https://en.wikipedia.org/wiki/Senegal",
+        "calendarUrl": "https://en.wikipedia.org/wiki/August_3",
+        "license": {
+          "name": "CC BY-SA 4.0",
+          "url": "https://creativecommons.org/licenses/by-sa/4.0/"
+        }
+      },
+      "image": {
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/fd/Flag_of_Senegal.svg/1280px-Flag_of_Senegal.svg.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "alt": "Picture from the Wikipedia article on Senegal.",
+        "credit": "Original upload by Nightstallion",
+        "source": "https://commons.wikimedia.org/wiki/File:Flag_of_Senegal.svg",
+        "license": "Public domain",
+        "licenseUrl": "https://commons.wikimedia.org/wiki/File:Flag_of_Senegal.svg"
       }
     }
   ]

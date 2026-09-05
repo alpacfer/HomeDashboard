@@ -23,10 +23,37 @@
       "image": {
         "src": "https://upload.wikimedia.org/wikipedia/commons/d/d7/LorentzianWormhole.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
         "alt": "Picture from the Wikipedia article on Theoretical physics.",
-        "credit": "AllenMcC.",
+        "credit": "AllenMcC",
         "source": "https://commons.wikimedia.org/wiki/File:LorentzianWormhole.jpg",
         "license": "CC BY-SA 3.0",
         "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0"
+      }
+    },
+    {
+      "id": "02-23-ariane-4",
+      "date": "02-23",
+      "dateLabel": "23 February",
+      "category": "space",
+      "categoryName": "Space",
+      "year": 2002,
+      "title": "Ariane 4",
+      "body": "An Ariane 4 rocket is launched from the Guiana Space Centre carrying Intelsat 904.",
+      "source": {
+        "name": "Wikipedia · Ariane 4",
+        "url": "https://en.wikipedia.org/wiki/Ariane_4",
+        "calendarUrl": "https://en.wikipedia.org/wiki/February_23",
+        "license": {
+          "name": "CC BY-SA 4.0",
+          "url": "https://creativecommons.org/licenses/by-sa/4.0/"
+        }
+      },
+      "image": {
+        "src": "https://upload.wikimedia.org/wikipedia/commons/9/9f/Ariane42P_rocket.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+        "alt": "Picture from the Wikipedia article on Ariane 4.",
+        "credit": "NASA",
+        "source": "https://commons.wikimedia.org/wiki/File:Ariane42P_rocket.png",
+        "license": "Public domain",
+        "licenseUrl": "https://commons.wikimedia.org/wiki/File:Ariane42P_rocket.png"
       }
     },
     {
@@ -57,17 +84,17 @@
       }
     },
     {
-      "id": "02-23-ariane-4",
+      "id": "02-23-poliomyelitis",
       "date": "02-23",
       "dateLabel": "23 February",
-      "category": "space",
-      "categoryName": "Space",
-      "year": 2002,
-      "title": "Ariane 4",
-      "body": "An Ariane 4 rocket is launched from the Guiana Space Centre carrying Intelsat 904.",
+      "category": "science",
+      "categoryName": "Science",
+      "year": 1954,
+      "title": "Polio",
+      "body": "The first mass inoculation of children against polio with the Salk vaccine begins in Pittsburgh.",
       "source": {
-        "name": "Wikipedia · Ariane 4",
-        "url": "https://en.wikipedia.org/wiki/Ariane_4",
+        "name": "Wikipedia · Polio",
+        "url": "https://en.wikipedia.org/wiki/Polio",
         "calendarUrl": "https://en.wikipedia.org/wiki/February_23",
         "license": {
           "name": "CC BY-SA 4.0",
@@ -75,12 +102,39 @@
         }
       },
       "image": {
-        "src": "https://upload.wikimedia.org/wikipedia/commons/9/9f/Ariane42P_rocket.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
-        "alt": "Picture from the Wikipedia article on Ariane 4.",
-        "credit": "NASA",
-        "source": "https://commons.wikimedia.org/wiki/File:Ariane42P_rocket.png",
+        "src": "https://upload.wikimedia.org/wikipedia/commons/5/57/Polio_lores134.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+        "alt": "Picture from the Wikipedia article on Polio.",
+        "credit": "CDC/NIP/ Barbara Rice",
+        "source": "https://commons.wikimedia.org/wiki/File:Polio_lores134.jpg",
         "license": "Public domain",
-        "licenseUrl": "https://commons.wikimedia.org/wiki/File:Ariane42P_rocket.png"
+        "licenseUrl": "https://commons.wikimedia.org/wiki/File:Polio_lores134.jpg"
+      }
+    },
+    {
+      "id": "02-23-winds",
+      "date": "02-23",
+      "dateLabel": "23 February",
+      "category": "space",
+      "categoryName": "Space",
+      "year": 2008,
+      "title": "WINDS",
+      "body": "The Japanese WINDS satellite is launched.",
+      "source": {
+        "name": "Wikipedia · WINDS",
+        "url": "https://en.wikipedia.org/wiki/WINDS",
+        "calendarUrl": "https://en.wikipedia.org/wiki/February_23",
+        "license": {
+          "name": "CC BY-SA 4.0",
+          "url": "https://creativecommons.org/licenses/by-sa/4.0/"
+        }
+      },
+      "image": {
+        "src": "https://upload.wikimedia.org/wikipedia/commons/2/27/H-IIA_F14_launching_KIZUNA.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+        "alt": "Picture from the Wikipedia article on WINDS.",
+        "credit": "Naritama",
+        "source": "https://commons.wikimedia.org/wiki/File:H-IIA_F14_launching_KIZUNA.jpg",
+        "license": "CC BY 2.1 jp",
+        "licenseUrl": "https://creativecommons.org/licenses/by/2.1/jp/deed.en"
       }
     }
   ]

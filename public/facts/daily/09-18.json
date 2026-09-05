@@ -3,17 +3,17 @@
   "dateLabel": "18 September",
   "facts": [
     {
-      "id": "09-18-voyager-i",
+      "id": "09-18-cbs-studios",
       "date": "09-18",
       "dateLabel": "18 September",
-      "category": "space",
-      "categoryName": "Space",
-      "year": 1977,
-      "title": "Voyager 1",
-      "body": "Voyager I takes the first distant photograph of the Earth and the Moon together.",
+      "category": "culture",
+      "categoryName": "Culture",
+      "year": 2009,
+      "title": "CBS Studios",
+      "body": "After 72 years on radio and television, CBS Television broadcasts the final episode of Guiding Light, the longest-running soap opera in American history.",
       "source": {
-        "name": "Wikipedia · Voyager 1",
-        "url": "https://en.wikipedia.org/wiki/Voyager_1",
+        "name": "Wikipedia · CBS Studios",
+        "url": "https://en.wikipedia.org/wiki/CBS_Studios",
         "calendarUrl": "https://en.wikipedia.org/wiki/September_18",
         "license": {
           "name": "CC BY-SA 4.0",
@@ -21,12 +21,12 @@
         }
       },
       "image": {
-        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/60/Voyager_spacecraft_model.png/1280px-Voyager_spacecraft_model.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-        "alt": "Picture from the Wikipedia article on Voyager 1.",
-        "credit": "National Aeronautics and Space Administration (NASA)",
-        "source": "https://commons.wikimedia.org/wiki/File:Voyager_spacecraft_model.png",
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f1/CBS_Studios_%28Stacked%29.svg/1280px-CBS_Studios_%28Stacked%29.svg.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "alt": "Picture from the Wikipedia article on CBS Studios.",
+        "credit": "Paramount Global",
+        "source": "https://commons.wikimedia.org/wiki/File:CBS_Studios_(Stacked).svg",
         "license": "Public domain",
-        "licenseUrl": "https://commons.wikimedia.org/wiki/File:Voyager_spacecraft_model.png"
+        "licenseUrl": "https://commons.wikimedia.org/wiki/File:CBS_Studios_(Stacked).svg"
       }
     },
     {
@@ -57,6 +57,33 @@
       }
     },
     {
+      "id": "09-18-voyager-i",
+      "date": "09-18",
+      "dateLabel": "18 September",
+      "category": "space",
+      "categoryName": "Space",
+      "year": 1977,
+      "title": "Voyager 1",
+      "body": "Voyager I takes the first distant photograph of the Earth and the Moon together.",
+      "source": {
+        "name": "Wikipedia · Voyager 1",
+        "url": "https://en.wikipedia.org/wiki/Voyager_1",
+        "calendarUrl": "https://en.wikipedia.org/wiki/September_18",
+        "license": {
+          "name": "CC BY-SA 4.0",
+          "url": "https://creativecommons.org/licenses/by-sa/4.0/"
+        }
+      },
+      "image": {
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/60/Voyager_spacecraft_model.png/1280px-Voyager_spacecraft_model.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "alt": "Picture from the Wikipedia article on Voyager 1.",
+        "credit": "NASA",
+        "source": "https://commons.wikimedia.org/wiki/File:Voyager_spacecraft_model.png",
+        "license": "Public domain",
+        "licenseUrl": "https://commons.wikimedia.org/wiki/File:Voyager_spacecraft_model.png"
+      }
+    },
+    {
       "id": "09-18-george-owen-squier",
       "date": "09-18",
       "dateLabel": "18 September",
@@ -81,6 +108,33 @@
         "source": "https://commons.wikimedia.org/wiki/File:George_Owen_Squier.jpg",
         "license": "Public domain",
         "licenseUrl": "https://commons.wikimedia.org/wiki/File:George_Owen_Squier.jpg"
+      }
+    },
+    {
+      "id": "09-18-mel-brooks",
+      "date": "09-18",
+      "dateLabel": "18 September",
+      "category": "world",
+      "categoryName": "World",
+      "year": 1965,
+      "title": "Mel Brooks",
+      "body": "Mel Brooks and Buck Henry's spy-comedy series Get Smart premieres on NBC Television.",
+      "source": {
+        "name": "Wikipedia · Mel Brooks",
+        "url": "https://en.wikipedia.org/wiki/Mel_Brooks",
+        "calendarUrl": "https://en.wikipedia.org/wiki/September_18",
+        "license": {
+          "name": "CC BY-SA 4.0",
+          "url": "https://creativecommons.org/licenses/by-sa/4.0/"
+        }
+      },
+      "image": {
+        "src": "https://upload.wikimedia.org/wikipedia/commons/9/94/MelBrooksApr10.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+        "alt": "Picture from the Wikipedia article on Mel Brooks.",
+        "credit": "Angela George",
+        "source": "https://commons.wikimedia.org/wiki/File:MelBrooksApr10.jpg",
+        "license": "CC BY-SA 3.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0"
       }
     }
   ]

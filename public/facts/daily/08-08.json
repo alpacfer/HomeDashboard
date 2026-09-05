@@ -23,10 +23,37 @@
       "image": {
         "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/9d/Thomas_Edison2.jpg/1280px-Thomas_Edison2.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
         "alt": "Picture from the Wikipedia article on Thomas Edison.",
-        "credit": "Louis Bachrach, Bachrach Studios, restored by Michel Vuijlsteke",
+        "credit": "Louis Bachrach, Bachrach Studios",
         "source": "https://commons.wikimedia.org/wiki/File:Thomas_Edison2.jpg",
         "license": "Public domain",
         "licenseUrl": "https://commons.wikimedia.org/wiki/File:Thomas_Edison2.jpg"
+      }
+    },
+    {
+      "id": "08-08-zebra-crossing",
+      "date": "08-08",
+      "dateLabel": "8 August",
+      "category": "culture",
+      "categoryName": "Culture",
+      "year": 1969,
+      "title": "Zebra crossing",
+      "body": "At a zebra crossing in London, photographer Iain Macmillan takes the iconic photo that becomes the cover image of the Beatles' album Abbey Road.",
+      "source": {
+        "name": "Wikipedia · Zebra crossing",
+        "url": "https://en.wikipedia.org/wiki/Zebra_crossing",
+        "calendarUrl": "https://en.wikipedia.org/wiki/August_8",
+        "license": {
+          "name": "CC BY-SA 4.0",
+          "url": "https://creativecommons.org/licenses/by-sa/4.0/"
+        }
+      },
+      "image": {
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/1e/Abbey_Road_Zebra.jpg/1280px-Abbey_Road_Zebra.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "alt": "Picture from the Wikipedia article on Zebra crossing.",
+        "credit": "Misterweiss",
+        "source": "https://commons.wikimedia.org/wiki/File:Abbey_Road_Zebra.jpg",
+        "license": "Public domain",
+        "licenseUrl": "https://commons.wikimedia.org/wiki/File:Abbey_Road_Zebra.jpg"
       }
     },
     {
@@ -81,6 +108,33 @@
         "source": "https://commons.wikimedia.org/wiki/File:Conrad_Wise_Chapman_-_Submarine_Torpedo_Boat_H.L._Hunley,_Dec._6,_1863_(cropped).jpg",
         "license": "Public domain",
         "licenseUrl": "https://commons.wikimedia.org/wiki/File:Conrad_Wise_Chapman_-_Submarine_Torpedo_Boat_H.L._Hunley,_Dec._6,_1863_(cropped).jpg"
+      }
+    },
+    {
+      "id": "08-08-warsaw-radio-mast",
+      "date": "08-08",
+      "dateLabel": "8 August",
+      "category": "world",
+      "categoryName": "World",
+      "year": 1991,
+      "title": "Warsaw radio mast",
+      "body": "The Warsaw radio mast, then the tallest construction ever built, collapses.",
+      "source": {
+        "name": "Wikipedia · Warsaw radio mast",
+        "url": "https://en.wikipedia.org/wiki/Warsaw_radio_mast",
+        "calendarUrl": "https://en.wikipedia.org/wiki/August_8",
+        "license": {
+          "name": "CC BY-SA 4.0",
+          "url": "https://creativecommons.org/licenses/by-sa/4.0/"
+        }
+      },
+      "image": {
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/20/Maszt_radiowy_w_Konstantynowie.jpg/1280px-Maszt_radiowy_w_Konstantynowie.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "alt": "Picture from the Wikipedia article on Warsaw radio mast.",
+        "credit": "R. Kreyser",
+        "source": "https://commons.wikimedia.org/wiki/File:Maszt_radiowy_w_Konstantynowie.jpg",
+        "license": "Public domain",
+        "licenseUrl": "https://commons.wikimedia.org/wiki/File:Maszt_radiowy_w_Konstantynowie.jpg"
       }
     }
   ]

@@ -82,6 +82,60 @@
         "license": "Attribution",
         "licenseUrl": "https://commons.wikimedia.org/wiki/File:WeaponsInspector.JPG"
       }
+    },
+    {
+      "id": "10-31-berlin-brandenburg-airport",
+      "date": "10-31",
+      "dateLabel": "31 October",
+      "category": "world",
+      "categoryName": "World",
+      "year": 2020,
+      "title": "Berlin Brandenburg Airport",
+      "body": "Berlin Brandenburg Airport opens its doors after nearly 10 years of delays due to construction issues and project corruption.",
+      "source": {
+        "name": "Wikipedia · Berlin Brandenburg Airport",
+        "url": "https://en.wikipedia.org/wiki/Berlin_Brandenburg_Airport",
+        "calendarUrl": "https://en.wikipedia.org/wiki/October_31",
+        "license": {
+          "name": "CC BY-SA 4.0",
+          "url": "https://creativecommons.org/licenses/by-sa/4.0/"
+        }
+      },
+      "image": {
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/45/Berlin_Brandenburg_Airport_Terminal_1.jpg/1280px-Berlin_Brandenburg_Airport_Terminal_1.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "alt": "Picture from the Wikipedia article on Berlin Brandenburg Airport.",
+        "credit": "Arne Müseler / www.arne-mueseler.com",
+        "source": "https://commons.wikimedia.org/wiki/File:Berlin_Brandenburg_Airport_Terminal_1.jpg",
+        "license": "CC BY-SA 3.0 de",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0/de/deed.en"
+      }
+    },
+    {
+      "id": "10-31-global-population",
+      "date": "10-31",
+      "dateLabel": "31 October",
+      "category": "world",
+      "categoryName": "World",
+      "year": 2011,
+      "title": "World population",
+      "body": "The global population of humans reaches seven billion. This day is now recognized by the United Nations as the Day of Seven Billion.",
+      "source": {
+        "name": "Wikipedia · World population",
+        "url": "https://en.wikipedia.org/wiki/World_population",
+        "calendarUrl": "https://en.wikipedia.org/wiki/October_31",
+        "license": {
+          "name": "CC BY-SA 4.0",
+          "url": "https://creativecommons.org/licenses/by-sa/4.0/"
+        }
+      },
+      "image": {
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/0e/World_Population_Prospects.svg/1280px-World_Population_Prospects.svg.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "alt": "Picture from the Wikipedia article on World population.",
+        "credit": "United Nations",
+        "source": "https://commons.wikimedia.org/wiki/File:World_Population_Prospects.svg",
+        "license": "CC BY 3.0 igo",
+        "licenseUrl": "https://creativecommons.org/licenses/by/3.0/igo/deed.en"
+      }
     }
   ]
 }

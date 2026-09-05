@@ -23,7 +23,7 @@
       "image": {
         "src": "https://upload.wikimedia.org/wikipedia/commons/6/6f/Securitas_Depot%2C_Vale_Road%2C_Tonbridge%2C_Kent_-_geograph.org.uk_-_1124839-Optimised.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
         "alt": "Picture from the Wikipedia article on Securitas depot robbery.",
-        "credit": "Oast House Archive: https://www.geograph.org.uk/profile/10354",
+        "credit": "Oast House Archive",
         "source": "https://commons.wikimedia.org/wiki/File:Securitas_Depot,_Vale_Road,_Tonbridge,_Kent_-_geograph.org.uk_-_1124839-Optimised.jpg",
         "license": "CC BY-SA 2.0",
         "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0"
@@ -50,7 +50,7 @@
       "image": {
         "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c3/Fairchild_C-119J_Flying_Boxcar_recovers_CORONA_Capsule_1960_USAF_040314-O-9999R-001.jpg/1280px-Fairchild_C-119J_Flying_Boxcar_recovers_CORONA_Capsule_1960_USAF_040314-O-9999R-001.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
         "alt": "Picture from the Wikipedia article on CORONA.",
-        "credit": "040314-O-9999R-001.jpg from Air Force Link - Photos Transferred from de.wikipedia to Commons by Avron using CommonsHelper.",
+        "credit": "Wikimedia Commons",
         "source": "https://commons.wikimedia.org/wiki/File:Fairchild_C-119J_Flying_Boxcar_recovers_CORONA_Capsule_1960_USAF_040314-O-9999R-001.jpg",
         "license": "Public domain",
         "licenseUrl": "https://commons.wikimedia.org/wiki/File:Fairchild_C-119J_Flying_Boxcar_recovers_CORONA_Capsule_1960_USAF_040314-O-9999R-001.jpg"
@@ -81,6 +81,60 @@
         "source": "https://commons.wikimedia.org/wiki/File:Aldrich_Ames_mugshot.jpg",
         "license": "Public domain",
         "licenseUrl": "https://commons.wikimedia.org/wiki/File:Aldrich_Ames_mugshot.jpg"
+      }
+    },
+    {
+      "id": "02-22-broadway-theatre",
+      "date": "02-22",
+      "dateLabel": "22 February",
+      "category": "culture",
+      "categoryName": "Culture",
+      "year": 1983,
+      "title": "Broadway theatre",
+      "body": "The notorious Broadway flop Moose Murders opens and closes on the same night at the Eugene O'Neill Theatre.",
+      "source": {
+        "name": "Wikipedia · Broadway theatre",
+        "url": "https://en.wikipedia.org/wiki/Broadway_theatre",
+        "calendarUrl": "https://en.wikipedia.org/wiki/February_22",
+        "license": {
+          "name": "CC BY-SA 4.0",
+          "url": "https://creativecommons.org/licenses/by-sa/4.0/"
+        }
+      },
+      "image": {
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/cd/Various_Pictures_from_New_York_City_-_September%2C_2025.jpg/1280px-Various_Pictures_from_New_York_City_-_September%2C_2025.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "alt": "Picture from the Wikipedia article on Broadway theatre.",
+        "credit": "Corey Seeman",
+        "source": "https://commons.wikimedia.org/wiki/File:Various_Pictures_from_New_York_City_-_September,_2025.jpg",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0"
+      }
+    },
+    {
+      "id": "02-22-roslin-midlothian",
+      "date": "02-22",
+      "dateLabel": "22 February",
+      "category": "science",
+      "categoryName": "Science",
+      "year": 1997,
+      "title": "Roslin, Midlothian",
+      "body": "In Roslin, Midlothian, British scientists announce that an adult sheep named Dolly has been successfully cloned.",
+      "source": {
+        "name": "Wikipedia · Roslin, Midlothian",
+        "url": "https://en.wikipedia.org/wiki/Roslin,_Midlothian",
+        "calendarUrl": "https://en.wikipedia.org/wiki/February_22",
+        "license": {
+          "name": "CC BY-SA 4.0",
+          "url": "https://creativecommons.org/licenses/by-sa/4.0/"
+        }
+      },
+      "image": {
+        "src": "https://upload.wikimedia.org/wikipedia/commons/a/a6/Roslin%2C_Midlothian.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+        "alt": "Picture from the Wikipedia article on Roslin, Midlothian.",
+        "credit": "Richard Webb",
+        "source": "https://commons.wikimedia.org/wiki/File:Roslin,_Midlothian.jpg",
+        "license": "CC BY-SA 2.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0"
       }
     }
   ]

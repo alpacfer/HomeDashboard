@@ -3,17 +3,17 @@
   "dateLabel": "9 May",
   "facts": [
     {
-      "id": "05-09-german-submarine-u-110-1940",
+      "id": "05-09-channel-islands",
       "date": "05-09",
       "dateLabel": "9 May",
       "category": "world",
       "categoryName": "World",
-      "year": 1941,
-      "title": "German submarine U-110",
-      "body": "The German submarine U-110 is captured by the Royal Navy. On board is the latest Enigma machine which Allied cryptographers later use to break coded German messages.",
+      "year": 1945,
+      "title": "Channel Islands",
+      "body": "The Channel Islands are liberated from Nazi occupation.",
       "source": {
-        "name": "Wikipedia · German submarine U-110 (1940)",
-        "url": "https://en.wikipedia.org/wiki/German_submarine_U-110_(1940)",
+        "name": "Wikipedia · Channel Islands",
+        "url": "https://en.wikipedia.org/wiki/Channel_Islands",
         "calendarUrl": "https://en.wikipedia.org/wiki/May_9",
         "license": {
           "name": "CC BY-SA 4.0",
@@ -21,12 +21,12 @@
         }
       },
       "image": {
-        "src": "https://upload.wikimedia.org/wikipedia/commons/8/86/U-110_and_HMS_Bulldog.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
-        "alt": "Picture from the Wikipedia article on German submarine U-110.",
-        "credit": "Royal Navy official photographer",
-        "source": "https://commons.wikimedia.org/wiki/File:U-110_and_HMS_Bulldog.jpg",
-        "license": "Public domain",
-        "licenseUrl": "https://commons.wikimedia.org/wiki/File:U-110_and_HMS_Bulldog.jpg"
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/97/Channel_Islands_by_Sentinel-2.jpg/1280px-Channel_Islands_by_Sentinel-2.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "alt": "Picture from the Wikipedia article on Channel Islands.",
+        "credit": "Copernicus Sentinel-2, ESA",
+        "source": "https://commons.wikimedia.org/wiki/File:Channel_Islands_by_Sentinel-2.jpg",
+        "license": "CC BY-SA 3.0 igo",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0/igo/deed.en"
       }
     },
     {
@@ -77,10 +77,64 @@
       "image": {
         "src": "https://upload.wikimedia.org/wikipedia/commons/2/23/Print%2C_frontispiece%2C_satirical_print_%28BM_Cc%2C1.163%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
         "alt": "Picture from the Wikipedia article on Exhibition of 1761.",
-        "credit": "After: William Hogarth Print made by: Charles Grignion",
+        "credit": "Charles Grignion",
         "source": "https://commons.wikimedia.org/wiki/File:Print,_frontispiece,_satirical_print_(BM_Cc,1.163).jpg",
         "license": "Public domain",
         "licenseUrl": "https://commons.wikimedia.org/wiki/File:Print,_frontispiece,_satirical_print_(BM_Cc,1.163).jpg"
+      }
+    },
+    {
+      "id": "05-09-shusha",
+      "date": "05-09",
+      "dateLabel": "9 May",
+      "category": "world",
+      "categoryName": "World",
+      "year": 1992,
+      "title": "Shusha",
+      "body": "Armenian forces capture Shusha, marking a major turning point in the First Nagorno-Karabakh War.",
+      "source": {
+        "name": "Wikipedia · Shusha",
+        "url": "https://en.wikipedia.org/wiki/Shusha",
+        "calendarUrl": "https://en.wikipedia.org/wiki/May_9",
+        "license": {
+          "name": "CC BY-SA 4.0",
+          "url": "https://creativecommons.org/licenses/by-sa/4.0/"
+        }
+      },
+      "image": {
+        "src": "https://upload.wikimedia.org/wikipedia/commons/8/8e/ShushaCollection2021.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+        "alt": "Picture from the Wikipedia article on Shusha.",
+        "credit": "Compiled",
+        "source": "https://commons.wikimedia.org/wiki/File:ShushaCollection2021.jpg",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0"
+      }
+    },
+    {
+      "id": "05-09-food-and-drug-administration",
+      "date": "05-09",
+      "dateLabel": "9 May",
+      "category": "world",
+      "categoryName": "World",
+      "year": 1960,
+      "title": "Food and Drug Administration",
+      "body": "The Food and Drug Administration announces it will approve birth control as an additional indication for Searle's Enovid, making Enovid the world's first approved oral contraceptive pill.",
+      "source": {
+        "name": "Wikipedia · Food and Drug Administration",
+        "url": "https://en.wikipedia.org/wiki/Food_and_Drug_Administration",
+        "calendarUrl": "https://en.wikipedia.org/wiki/May_9",
+        "license": {
+          "name": "CC BY-SA 4.0",
+          "url": "https://creativecommons.org/licenses/by-sa/4.0/"
+        }
+      },
+      "image": {
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/4a/US_Food_and_Drug_Administration_Seal.png/1280px-US_Food_and_Drug_Administration_Seal.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "alt": "Picture from the Wikipedia article on Food and Drug Administration.",
+        "credit": "United States Department of the Army",
+        "source": "https://commons.wikimedia.org/wiki/File:US_Food_and_Drug_Administration_Seal.png",
+        "license": "Public domain",
+        "licenseUrl": "https://commons.wikimedia.org/wiki/File:US_Food_and_Drug_Administration_Seal.png"
       }
     }
   ]

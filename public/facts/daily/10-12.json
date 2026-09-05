@@ -30,33 +30,6 @@
       }
     },
     {
-      "id": "10-12-2012-nobel-peace-prize",
-      "date": "10-12",
-      "dateLabel": "12 October",
-      "category": "science",
-      "categoryName": "Science",
-      "year": 2012,
-      "title": "2012 Nobel Peace Prize",
-      "body": "The European Union wins the 2012 Nobel Peace Prize.",
-      "source": {
-        "name": "Wikipedia · 2012 Nobel Peace Prize",
-        "url": "https://en.wikipedia.org/wiki/2012_Nobel_Peace_Prize",
-        "calendarUrl": "https://en.wikipedia.org/wiki/October_12",
-        "license": {
-          "name": "CC BY-SA 4.0",
-          "url": "https://creativecommons.org/licenses/by-sa/4.0/"
-        }
-      },
-      "image": {
-        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b7/Flag_of_Europe.svg/1280px-Flag_of_Europe.svg.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-        "alt": "Picture from the Wikipedia article on 2012 Nobel Peace Prize.",
-        "credit": "User:Verdy p, User:-xfi-, User:Paddu, User:Nightstallion, User:Funakoshi, User:Jeltz, User:Dbenbenn, User:Zscout370",
-        "source": "https://commons.wikimedia.org/wiki/File:Flag_of_Europe.svg",
-        "license": "Public domain",
-        "licenseUrl": "https://commons.wikimedia.org/wiki/File:Flag_of_Europe.svg"
-      }
-    },
-    {
       "id": "10-12-jeanne-genevi-ve-labrosse",
       "date": "10-12",
       "dateLabel": "12 October",
@@ -81,6 +54,87 @@
         "source": "https://commons.wikimedia.org/wiki/File:Madame_Garnerin,_by_Christoph_Haller_von_Hallerstein,_(1771_-_1839)_(cropped).jpg",
         "license": "Public domain",
         "licenseUrl": "https://commons.wikimedia.org/wiki/File:Madame_Garnerin,_by_Christoph_Haller_von_Hallerstein,_(1771_-_1839)_(cropped).jpg"
+      }
+    },
+    {
+      "id": "10-12-2012-nobel-peace-prize",
+      "date": "10-12",
+      "dateLabel": "12 October",
+      "category": "science",
+      "categoryName": "Science",
+      "year": 2012,
+      "title": "2012 Nobel Peace Prize",
+      "body": "The European Union wins the 2012 Nobel Peace Prize.",
+      "source": {
+        "name": "Wikipedia · 2012 Nobel Peace Prize",
+        "url": "https://en.wikipedia.org/wiki/2012_Nobel_Peace_Prize",
+        "calendarUrl": "https://en.wikipedia.org/wiki/October_12",
+        "license": {
+          "name": "CC BY-SA 4.0",
+          "url": "https://creativecommons.org/licenses/by-sa/4.0/"
+        }
+      },
+      "image": {
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b7/Flag_of_Europe.svg/1280px-Flag_of_Europe.svg.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "alt": "Picture from the Wikipedia article on 2012 Nobel Peace Prize.",
+        "credit": "User:Verdy p",
+        "source": "https://commons.wikimedia.org/wiki/File:Flag_of_Europe.svg",
+        "license": "Public domain",
+        "licenseUrl": "https://commons.wikimedia.org/wiki/File:Flag_of_Europe.svg"
+      }
+    },
+    {
+      "id": "10-12-iron-lung",
+      "date": "10-12",
+      "dateLabel": "12 October",
+      "category": "world",
+      "categoryName": "World",
+      "year": 1928,
+      "title": "Iron lung",
+      "body": "An iron lung respirator is used for the first time at Boston Children's Hospital.",
+      "source": {
+        "name": "Wikipedia · Iron lung",
+        "url": "https://en.wikipedia.org/wiki/Iron_lung",
+        "calendarUrl": "https://en.wikipedia.org/wiki/October_12",
+        "license": {
+          "name": "CC BY-SA 4.0",
+          "url": "https://creativecommons.org/licenses/by-sa/4.0/"
+        }
+      },
+      "image": {
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/8b/Iron_lung_CDC.jpg/1280px-Iron_lung_CDC.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "alt": "Picture from the Wikipedia article on Iron lung.",
+        "credit": "CDC/GHO/Mary Hilpertshauser",
+        "source": "https://commons.wikimedia.org/wiki/File:Iron_lung_CDC.jpg",
+        "license": "Public domain",
+        "licenseUrl": "https://commons.wikimedia.org/wiki/File:Iron_lung_CDC.jpg"
+      }
+    },
+    {
+      "id": "10-12-magellan-spacecraft",
+      "date": "10-12",
+      "dateLabel": "12 October",
+      "category": "space",
+      "categoryName": "Space",
+      "year": 1994,
+      "title": "Magellan",
+      "body": "The Magellan spacecraft burns up in the atmosphere of Venus.",
+      "source": {
+        "name": "Wikipedia · Magellan (spacecraft)",
+        "url": "https://en.wikipedia.org/wiki/Magellan_(spacecraft)",
+        "calendarUrl": "https://en.wikipedia.org/wiki/October_12",
+        "license": {
+          "name": "CC BY-SA 4.0",
+          "url": "https://creativecommons.org/licenses/by-sa/4.0/"
+        }
+      },
+      "image": {
+        "src": "https://upload.wikimedia.org/wikipedia/commons/1/1e/Magellan_at_Kennedy_Space_Center.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+        "alt": "Picture from the Wikipedia article on Magellan.",
+        "credit": "NASA",
+        "source": "https://commons.wikimedia.org/wiki/File:Magellan_at_Kennedy_Space_Center.jpg",
+        "license": "Public domain",
+        "licenseUrl": "https://commons.wikimedia.org/wiki/File:Magellan_at_Kennedy_Space_Center.jpg"
       }
     }
   ]

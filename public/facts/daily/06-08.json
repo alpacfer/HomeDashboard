@@ -23,37 +23,10 @@
       "image": {
         "src": "https://upload.wikimedia.org/wikipedia/commons/7/7e/Venus_Transit_2004.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
         "alt": "Picture from the Wikipedia article on 2004 transit of Venus.",
-        "credit": "Original uploader was Mswggpai at en.wikipedia",
+        "credit": "Mswggpai at en.wikipedia",
         "source": "https://commons.wikimedia.org/wiki/File:Venus_Transit_2004.JPG",
         "license": "CC BY-SA 3.0",
         "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0/"
-      }
-    },
-    {
-      "id": "06-08-homosexuality",
-      "date": "06-08",
-      "dateLabel": "8 June",
-      "category": "world",
-      "categoryName": "World",
-      "year": 1984,
-      "title": "Homosexuality",
-      "body": "Homosexuality is decriminalized in the Australian state of New South Wales.",
-      "source": {
-        "name": "Wikipedia · Homosexuality",
-        "url": "https://en.wikipedia.org/wiki/Homosexuality",
-        "calendarUrl": "https://en.wikipedia.org/wiki/June_8",
-        "license": {
-          "name": "CC BY-SA 4.0",
-          "url": "https://creativecommons.org/licenses/by-sa/4.0/"
-        }
-      },
-      "image": {
-        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/87/Homosexuality_symbols.svg/1280px-Homosexuality_symbols.svg.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-        "alt": "Picture from the Wikipedia article on Homosexuality.",
-        "credit": "I would appreciate being notified if you use my work outside Wikimedia. Do not copy this image illegally by ignoring the terms of the license below, as it is no",
-        "source": "https://commons.wikimedia.org/wiki/File:Homosexuality_symbols.svg",
-        "license": "CC BY-SA 3.0",
-        "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0"
       }
     },
     {
@@ -77,10 +50,91 @@
       "image": {
         "src": "https://upload.wikimedia.org/wikipedia/commons/7/7e/George_Orwell_press_photo.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
         "alt": "Picture from the Wikipedia article on George Orwell.",
-        "credit": "Branch of the National Union of Journalists (BNUJ).",
+        "credit": "Branch of the National Union of…",
         "source": "https://commons.wikimedia.org/wiki/File:George_Orwell_press_photo.jpg",
         "license": "Public domain",
         "licenseUrl": "https://commons.wikimedia.org/wiki/File:George_Orwell_press_photo.jpg"
+      }
+    },
+    {
+      "id": "06-08-1924-british-mount-everest-expedition",
+      "date": "06-08",
+      "dateLabel": "8 June",
+      "category": "science",
+      "categoryName": "Science",
+      "year": 1924,
+      "title": "1924 British Mount Everest expedition",
+      "body": "British mountaineers Andrew Irvine and George Mallory go missing.",
+      "source": {
+        "name": "Wikipedia · 1924 British Mount Everest expedition",
+        "url": "https://en.wikipedia.org/wiki/1924_British_Mount_Everest_expedition",
+        "calendarUrl": "https://en.wikipedia.org/wiki/June_8",
+        "license": {
+          "name": "CC BY-SA 4.0",
+          "url": "https://creativecommons.org/licenses/by-sa/4.0/"
+        }
+      },
+      "image": {
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d9/Mount_Everest_North_Face.jpg/1280px-Mount_Everest_North_Face.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "alt": "Picture from the Wikipedia article on 1924 British Mount Everest expedition.",
+        "credit": "Carsten.nebel",
+        "source": "https://commons.wikimedia.org/wiki/File:Mount_Everest_North_Face.jpg",
+        "license": "CC BY-SA 3.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0"
+      }
+    },
+    {
+      "id": "06-08-herman-hollerith",
+      "date": "06-08",
+      "dateLabel": "8 June",
+      "category": "tech",
+      "categoryName": "Tech",
+      "year": 1887,
+      "title": "Herman Hollerith",
+      "body": "Herman Hollerith applies for US patent #395,781 for the 'Art of Compiling Statistics', which was his punched card calculator.",
+      "source": {
+        "name": "Wikipedia · Herman Hollerith",
+        "url": "https://en.wikipedia.org/wiki/Herman_Hollerith",
+        "calendarUrl": "https://en.wikipedia.org/wiki/June_8",
+        "license": {
+          "name": "CC BY-SA 4.0",
+          "url": "https://creativecommons.org/licenses/by-sa/4.0/"
+        }
+      },
+      "image": {
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/42/Hollerith.jpg/1280px-Hollerith.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "alt": "Picture from the Wikipedia article on Herman Hollerith.",
+        "credit": "Charles Milton Bell",
+        "source": "https://commons.wikimedia.org/wiki/File:Hollerith.jpg",
+        "license": "Public domain",
+        "licenseUrl": "https://commons.wikimedia.org/wiki/File:Hollerith.jpg"
+      }
+    },
+    {
+      "id": "06-08-captain-united-states-o-3",
+      "date": "06-08",
+      "dateLabel": "8 June",
+      "category": "world",
+      "categoryName": "World",
+      "year": 1995,
+      "title": "Captain",
+      "body": "Downed U.S. Air Force pilot Captain Scott O'Grady is rescued by U.S. Marines in Bosnia.",
+      "source": {
+        "name": "Wikipedia · Captain (United States O-3)",
+        "url": "https://en.wikipedia.org/wiki/Captain_(United_States_O-3)",
+        "calendarUrl": "https://en.wikipedia.org/wiki/June_8",
+        "license": {
+          "name": "CC BY-SA 4.0",
+          "url": "https://creativecommons.org/licenses/by-sa/4.0/"
+        }
+      },
+      "image": {
+        "src": "https://upload.wikimedia.org/wikipedia/commons/5/5d/American-black-sculptor-and-former-test-pilot-Edward-Joseph-Ed-391768059582.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+        "alt": "Picture from the Wikipedia article on Captain.",
+        "credit": "Unknown photographer",
+        "source": "https://commons.wikimedia.org/wiki/File:American-black-sculptor-and-former-test-pilot-Edward-Joseph-Ed-391768059582.jpg",
+        "license": "Public domain",
+        "licenseUrl": "https://commons.wikimedia.org/wiki/File:American-black-sculptor-and-former-test-pilot-Edward-Joseph-Ed-391768059582.jpg"
       }
     }
   ]

@@ -50,7 +50,7 @@
       "image": {
         "src": "https://upload.wikimedia.org/wikipedia/commons/3/39/Jos%C3%A9_Mart%C3%AD_con_grupo_de_emigrados_cubanos_en_el_antiguo_fuerte_Martello_Tower_en_Cayo_hueso%2C_Estados_Unidos_1893.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
         "alt": "Picture from the Wikipedia article on Cuban exile.",
-        "credit": "Cuba. Secretaría de Instrucción Pública y Bellas Artes.",
+        "credit": "Cuba. Secretaría de Instrucción Pública…",
         "source": "https://commons.wikimedia.org/wiki/File:Jos%C3%A9_Mart%C3%AD_con_grupo_de_emigrados_cubanos_en_el_antiguo_fuerte_Martello_Tower_en_Cayo_hueso,_Estados_Unidos_1893.jpg",
         "license": "CC0",
         "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/deed.en"
@@ -81,6 +81,60 @@
         "source": "https://commons.wikimedia.org/wiki/File:Kepler_Space_Telescope_spacecraft_model_2.png",
         "license": "Public domain",
         "licenseUrl": "https://commons.wikimedia.org/wiki/File:Kepler_Space_Telescope_spacecraft_model_2.png"
+      }
+    },
+    {
+      "id": "04-17-jerrie-mock",
+      "date": "04-17",
+      "dateLabel": "17 April",
+      "category": "world",
+      "categoryName": "World",
+      "year": 1964,
+      "title": "Jerrie Mock",
+      "body": "Jerrie Mock completes the first around-the-world airplane flight by a woman. Her solo flight in the Spirit of Columbus, which took days, took off and landed at the Port Columbus International Airport in Ohio.",
+      "source": {
+        "name": "Wikipedia · Jerrie Mock",
+        "url": "https://en.wikipedia.org/wiki/Jerrie_Mock",
+        "calendarUrl": "https://en.wikipedia.org/wiki/April_17",
+        "license": {
+          "name": "CC BY-SA 4.0",
+          "url": "https://creativecommons.org/licenses/by-sa/4.0/"
+        }
+      },
+      "image": {
+        "src": "https://upload.wikimedia.org/wikipedia/commons/e/e8/Jerrie_Mock_1964c.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+        "alt": "Picture from the Wikipedia article on Jerrie Mock.",
+        "credit": "Unknown author",
+        "source": "https://commons.wikimedia.org/wiki/File:Jerrie_Mock_1964c.jpg",
+        "license": "Public domain",
+        "licenseUrl": "https://commons.wikimedia.org/wiki/File:Jerrie_Mock_1964c.jpg"
+      }
+    },
+    {
+      "id": "04-17-anneli-j-tteenm-ki",
+      "date": "04-17",
+      "dateLabel": "17 April",
+      "category": "world",
+      "categoryName": "World",
+      "year": 2003,
+      "title": "Anneli Jäätteenmäki",
+      "body": "Anneli Jäätteenmäki takes office as the first female prime minister of Finland.",
+      "source": {
+        "name": "Wikipedia · Anneli Jäätteenmäki",
+        "url": "https://en.wikipedia.org/wiki/Anneli_J%C3%A4%C3%A4tteenm%C3%A4ki",
+        "calendarUrl": "https://en.wikipedia.org/wiki/April_17",
+        "license": {
+          "name": "CC BY-SA 4.0",
+          "url": "https://creativecommons.org/licenses/by-sa/4.0/"
+        }
+      },
+      "image": {
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a6/Anneli_J%C3%A4%C3%A4tteenm%C3%A4ki_2014-04-06_%283%29.jpg/1280px-Anneli_J%C3%A4%C3%A4tteenm%C3%A4ki_2014-04-06_%283%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "alt": "Picture from the Wikipedia article on Anneli Jäätteenmäki.",
+        "credit": "Walter Isack",
+        "source": "https://commons.wikimedia.org/wiki/File:Anneli_J%C3%A4%C3%A4tteenm%C3%A4ki_2014-04-06_(3).jpg",
+        "license": "CC BY-SA 3.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0"
       }
     }
   ]

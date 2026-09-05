@@ -50,7 +50,7 @@
       "image": {
         "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e9/Fire_near_Old_Faithful_Complex_2.jpg/1280px-Fire_near_Old_Faithful_Complex_2.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
         "alt": "Picture from the Wikipedia article on Yellowstone fires of 1988.",
-        "credit": "Wikimedia Commons contributor",
+        "credit": "Wikimedia Commons",
         "source": "https://commons.wikimedia.org/wiki/File:Fire_near_Old_Faithful_Complex_2.jpg",
         "license": "Public domain",
         "licenseUrl": "https://commons.wikimedia.org/wiki/File:Fire_near_Old_Faithful_Complex_2.jpg"
@@ -77,10 +77,64 @@
       "image": {
         "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d9/%E5%AD%99%E4%B8%AD%E5%B1%B1%E8%82%96%E5%83%8F.jpg/1280px-%E5%AD%99%E4%B8%AD%E5%B1%B1%E8%82%96%E5%83%8F.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
         "alt": "Picture from the Wikipedia article on Sun Yat-sen.",
-        "credit": "上海波尔照相馆",
+        "credit": "Wikimedia Commons",
         "source": "https://commons.wikimedia.org/wiki/File:%E5%AD%99%E4%B8%AD%E5%B1%B1%E8%82%96%E5%83%8F.jpg",
         "license": "Public domain",
         "licenseUrl": "https://commons.wikimedia.org/wiki/File:%E5%AD%99%E4%B8%AD%E5%B1%B1%E8%82%96%E5%83%8F.jpg"
+      }
+    },
+    {
+      "id": "08-20-charles-darwin",
+      "date": "08-20",
+      "dateLabel": "20 August",
+      "category": "science",
+      "categoryName": "Science",
+      "year": 1858,
+      "title": "Charles Darwin",
+      "body": "Charles Darwin first publishes his theory of evolution through natural selection in The Journal of the Proceedings of the Linnean Society of London, alongside Alfred Russel Wallace's same theory.",
+      "source": {
+        "name": "Wikipedia · Charles Darwin",
+        "url": "https://en.wikipedia.org/wiki/Charles_Darwin",
+        "calendarUrl": "https://en.wikipedia.org/wiki/August_20",
+        "license": {
+          "name": "CC BY-SA 4.0",
+          "url": "https://creativecommons.org/licenses/by-sa/4.0/"
+        }
+      },
+      "image": {
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/2e/Charles_Darwin_seated_crop.jpg/1280px-Charles_Darwin_seated_crop.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "alt": "Picture from the Wikipedia article on Charles Darwin.",
+        "credit": "Wikimedia Commons",
+        "source": "https://commons.wikimedia.org/wiki/File:Charles_Darwin_seated_crop.jpg",
+        "license": "Public domain",
+        "licenseUrl": "https://commons.wikimedia.org/wiki/File:Charles_Darwin_seated_crop.jpg"
+      }
+    },
+    {
+      "id": "08-20-voyager-2",
+      "date": "08-20",
+      "dateLabel": "20 August",
+      "category": "space",
+      "categoryName": "Space",
+      "year": 1977,
+      "title": "Voyager 2",
+      "body": "NASA launches the Voyager 2 spacecraft.",
+      "source": {
+        "name": "Wikipedia · Voyager 2",
+        "url": "https://en.wikipedia.org/wiki/Voyager_2",
+        "calendarUrl": "https://en.wikipedia.org/wiki/August_20",
+        "license": {
+          "name": "CC BY-SA 4.0",
+          "url": "https://creativecommons.org/licenses/by-sa/4.0/"
+        }
+      },
+      "image": {
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/60/Voyager_spacecraft_model.png/1280px-Voyager_spacecraft_model.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "alt": "Picture from the Wikipedia article on Voyager 2.",
+        "credit": "NASA",
+        "source": "https://commons.wikimedia.org/wiki/File:Voyager_spacecraft_model.png",
+        "license": "Public domain",
+        "licenseUrl": "https://commons.wikimedia.org/wiki/File:Voyager_spacecraft_model.png"
       }
     }
   ]

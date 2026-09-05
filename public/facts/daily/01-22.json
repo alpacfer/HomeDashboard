@@ -3,33 +3,6 @@
   "dateLabel": "22 January",
   "facts": [
     {
-      "id": "01-22-ktla",
-      "date": "01-22",
-      "dateLabel": "22 January",
-      "category": "culture",
-      "categoryName": "Culture",
-      "year": 1947,
-      "title": "KTLA",
-      "body": "KTLA, the first commercial television station west of the Mississippi River, begins operation in Hollywood.",
-      "source": {
-        "name": "Wikipedia · KTLA",
-        "url": "https://en.wikipedia.org/wiki/KTLA",
-        "calendarUrl": "https://en.wikipedia.org/wiki/January_22",
-        "license": {
-          "name": "CC BY-SA 4.0",
-          "url": "https://creativecommons.org/licenses/by-sa/4.0/"
-        }
-      },
-      "image": {
-        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/97/KTLA_Tower02.JPG/1280px-KTLA_Tower02.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-        "alt": "Picture from the Wikipedia article on KTLA.",
-        "credit": "Minnaert",
-        "source": "https://commons.wikimedia.org/wiki/File:KTLA_Tower02.JPG",
-        "license": "Public domain",
-        "licenseUrl": "https://commons.wikimedia.org/wiki/File:KTLA_Tower02.JPG"
-      }
-    },
-    {
       "id": "01-22-apollo-5",
       "date": "01-22",
       "dateLabel": "22 January",
@@ -57,6 +30,33 @@
       }
     },
     {
+      "id": "01-22-ktla",
+      "date": "01-22",
+      "dateLabel": "22 January",
+      "category": "culture",
+      "categoryName": "Culture",
+      "year": 1947,
+      "title": "KTLA",
+      "body": "KTLA, the first commercial television station west of the Mississippi River, begins operation in Hollywood.",
+      "source": {
+        "name": "Wikipedia · KTLA",
+        "url": "https://en.wikipedia.org/wiki/KTLA",
+        "calendarUrl": "https://en.wikipedia.org/wiki/January_22",
+        "license": {
+          "name": "CC BY-SA 4.0",
+          "url": "https://creativecommons.org/licenses/by-sa/4.0/"
+        }
+      },
+      "image": {
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/97/KTLA_Tower02.JPG/1280px-KTLA_Tower02.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "alt": "Picture from the Wikipedia article on KTLA.",
+        "credit": "Minnaert",
+        "source": "https://commons.wikimedia.org/wiki/File:KTLA_Tower02.JPG",
+        "license": "Public domain",
+        "licenseUrl": "https://commons.wikimedia.org/wiki/File:KTLA_Tower02.JPG"
+      }
+    },
+    {
       "id": "01-22-boeing-747",
       "date": "01-22",
       "dateLabel": "22 January",
@@ -81,6 +81,60 @@
         "source": "https://commons.wikimedia.org/wiki/File:B-747_Iberia.jpg",
         "license": "CC BY 2.0",
         "licenseUrl": "https://creativecommons.org/licenses/by/2.0"
+      }
+    },
+    {
+      "id": "01-22-apollo-17",
+      "date": "01-22",
+      "dateLabel": "22 January",
+      "category": "space",
+      "categoryName": "Space",
+      "year": 1973,
+      "title": "Apollo 17",
+      "body": "The crew of Apollo 17 addresses a joint session of Congress after the completion of the final Apollo Moon landing mission.",
+      "source": {
+        "name": "Wikipedia · Apollo 17",
+        "url": "https://en.wikipedia.org/wiki/Apollo_17",
+        "calendarUrl": "https://en.wikipedia.org/wiki/January_22",
+        "license": {
+          "name": "CC BY-SA 4.0",
+          "url": "https://creativecommons.org/licenses/by-sa/4.0/"
+        }
+      },
+      "image": {
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/ac/Eugene_Cernan_at_the_LM%2C_Apollo_17%2C_AS17-134-20378.jpg/1280px-Eugene_Cernan_at_the_LM%2C_Apollo_17%2C_AS17-134-20378.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "alt": "Picture from the Wikipedia article on Apollo 17.",
+        "credit": "Harrison Schmitt / Apollo 17",
+        "source": "https://commons.wikimedia.org/wiki/File:Eugene_Cernan_at_the_LM,_Apollo_17,_AS17-134-20378.jpg",
+        "license": "Public domain",
+        "licenseUrl": "https://commons.wikimedia.org/wiki/File:Eugene_Cernan_at_the_LM,_Apollo_17,_AS17-134-20378.jpg"
+      }
+    },
+    {
+      "id": "01-22-space-shuttle-discovery",
+      "date": "01-22",
+      "dateLabel": "22 January",
+      "category": "space",
+      "categoryName": "Space",
+      "year": 1992,
+      "title": "Space Shuttle Discovery",
+      "body": "The space shuttle Discovery launches on STS-42 carrying Dr. Roberta Bondar, who becomes the first Canadian woman and the first neurologist in space.",
+      "source": {
+        "name": "Wikipedia · Space Shuttle Discovery",
+        "url": "https://en.wikipedia.org/wiki/Space_Shuttle_Discovery",
+        "calendarUrl": "https://en.wikipedia.org/wiki/January_22",
+        "license": {
+          "name": "CC BY-SA 4.0",
+          "url": "https://creativecommons.org/licenses/by-sa/4.0/"
+        }
+      },
+      "image": {
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/1d/STS-133_Space_Shuttle_Discovery_after_undocking_3_%28cropped%29.jpg/1280px-STS-133_Space_Shuttle_Discovery_after_undocking_3_%28cropped%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "alt": "Picture from the Wikipedia article on Space Shuttle Discovery.",
+        "credit": "NASA",
+        "source": "https://commons.wikimedia.org/wiki/File:STS-133_Space_Shuttle_Discovery_after_undocking_3_(cropped).jpg",
+        "license": "Public domain",
+        "licenseUrl": "https://commons.wikimedia.org/wiki/File:STS-133_Space_Shuttle_Discovery_after_undocking_3_(cropped).jpg"
       }
     }
   ]

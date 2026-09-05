@@ -57,6 +57,60 @@
       }
     },
     {
+      "id": "10-15-montgolfier-brothers",
+      "date": "10-15",
+      "dateLabel": "15 October",
+      "category": "curious",
+      "categoryName": "Curious",
+      "year": 1783,
+      "title": "Montgolfier brothers",
+      "body": "The Montgolfier brothers' hot air balloon makes the first human ascent, piloted by Jean-François Pilâtre de Rozier.",
+      "source": {
+        "name": "Wikipedia · Montgolfier brothers",
+        "url": "https://en.wikipedia.org/wiki/Montgolfier_brothers",
+        "calendarUrl": "https://en.wikipedia.org/wiki/October_15",
+        "license": {
+          "name": "CC BY-SA 4.0",
+          "url": "https://creativecommons.org/licenses/by-sa/4.0/"
+        }
+      },
+      "image": {
+        "src": "https://upload.wikimedia.org/wikipedia/commons/5/53/Joseph-montgolfier.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+        "alt": "Picture from the Wikipedia article on Montgolfier brothers.",
+        "credit": "Unidentified painter",
+        "source": "https://commons.wikimedia.org/wiki/File:Joseph-montgolfier.jpg",
+        "license": "Public domain",
+        "licenseUrl": "https://commons.wikimedia.org/wiki/File:Joseph-montgolfier.jpg"
+      }
+    },
+    {
+      "id": "10-15-wayne-gretzky",
+      "date": "10-15",
+      "dateLabel": "15 October",
+      "category": "world",
+      "categoryName": "World",
+      "year": 1989,
+      "title": "Wayne Gretzky",
+      "body": "Wayne Gretzky becomes the all-time leading points scorer in the NHL.",
+      "source": {
+        "name": "Wikipedia · Wayne Gretzky",
+        "url": "https://en.wikipedia.org/wiki/Wayne_Gretzky",
+        "calendarUrl": "https://en.wikipedia.org/wiki/October_15",
+        "license": {
+          "name": "CC BY-SA 4.0",
+          "url": "https://creativecommons.org/licenses/by-sa/4.0/"
+        }
+      },
+      "image": {
+        "src": "https://upload.wikimedia.org/wikipedia/commons/c/cc/Andrew_Scheer_with_Wayne_Gretzky_%2848055697168%29_%28cropped%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+        "alt": "Picture from the Wikipedia article on Wayne Gretzky.",
+        "credit": "Andre Forget - Andrew Scheer",
+        "source": "https://commons.wikimedia.org/wiki/File:Andrew_Scheer_with_Wayne_Gretzky_(48055697168)_(cropped).jpg",
+        "license": "CC0",
+        "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/deed.en"
+      }
+    },
+    {
       "id": "10-15-mikhail-gorbachev",
       "date": "10-15",
       "dateLabel": "15 October",
@@ -77,7 +131,7 @@
       "image": {
         "src": "https://upload.wikimedia.org/wikipedia/commons/5/57/RIAN_archive_850809_General_Secretary_of_the_CPSU_CC_M._Gorbachev_%28crop%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
         "alt": "Picture from the Wikipedia article on Mikhail Gorbachev.",
-        "credit": "RIA Novosti archive, image #850809 / Vladimir Vyatkin / CC-BY-SA 3.0",
+        "credit": "RIA Novosti archive, image #850809",
         "source": "https://commons.wikimedia.org/wiki/File:RIAN_archive_850809_General_Secretary_of_the_CPSU_CC_M._Gorbachev_(crop).jpg",
         "license": "CC BY-SA 3.0",
         "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0"

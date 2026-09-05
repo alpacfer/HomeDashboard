@@ -3,6 +3,33 @@
   "dateLabel": "7 November",
   "facts": [
     {
+      "id": "11-07-magic-johnson",
+      "date": "11-07",
+      "dateLabel": "7 November",
+      "category": "sport",
+      "categoryName": "Sport",
+      "year": 1991,
+      "title": "Magic Johnson",
+      "body": "Magic Johnson announces that he is HIV-positive and retires from the NBA.",
+      "source": {
+        "name": "Wikipedia · Magic Johnson",
+        "url": "https://en.wikipedia.org/wiki/Magic_Johnson",
+        "calendarUrl": "https://en.wikipedia.org/wiki/November_7",
+        "license": {
+          "name": "CC BY-SA 4.0",
+          "url": "https://creativecommons.org/licenses/by-sa/4.0/"
+        }
+      },
+      "image": {
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/29/Magic_Johnson_at_SXSW_2022_%2851958828669%29_%28cropped%29.jpg/1280px-Magic_Johnson_at_SXSW_2022_%2851958828669%29_%28cropped%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "alt": "Picture from the Wikipedia article on Magic Johnson.",
+        "credit": "Daniel Benavides from Austin, TX",
+        "source": "https://commons.wikimedia.org/wiki/File:Magic_Johnson_at_SXSW_2022_(51958828669)_(cropped).jpg",
+        "license": "CC BY 2.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by/2.0"
+      }
+    },
+    {
       "id": "11-07-david-dinkins",
       "date": "11-07",
       "dateLabel": "7 November",
@@ -81,6 +108,33 @@
         "source": "https://commons.wikimedia.org/wiki/File:Mars_global_surveyor.jpg",
         "license": "Public domain",
         "licenseUrl": "https://commons.wikimedia.org/wiki/File:Mars_global_surveyor.jpg"
+      }
+    },
+    {
+      "id": "11-07-museum-of-modern-art",
+      "date": "11-07",
+      "dateLabel": "7 November",
+      "category": "culture",
+      "categoryName": "Culture",
+      "year": 1929,
+      "title": "Museum of Modern Art",
+      "body": "In New York City, the Museum of Modern Art opens to the public.",
+      "source": {
+        "name": "Wikipedia · Museum of Modern Art",
+        "url": "https://en.wikipedia.org/wiki/Museum_of_Modern_Art",
+        "calendarUrl": "https://en.wikipedia.org/wiki/November_7",
+        "license": {
+          "name": "CC BY-SA 4.0",
+          "url": "https://creativecommons.org/licenses/by-sa/4.0/"
+        }
+      },
+      "image": {
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/8b/MoMa_NY_USA_1.jpg/1280px-MoMa_NY_USA_1.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "alt": "Picture from the Wikipedia article on Museum of Modern Art.",
+        "credit": "hibino",
+        "source": "https://commons.wikimedia.org/wiki/File:MoMa_NY_USA_1.jpg",
+        "license": "CC BY 2.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by/2.0"
       }
     }
   ]

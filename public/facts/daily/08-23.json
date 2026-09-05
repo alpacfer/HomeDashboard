@@ -82,6 +82,60 @@
         "license": "Public domain",
         "licenseUrl": "https://commons.wikimedia.org/wiki/File:Alexei_Nikolaevich_of_Russia_(3x4_cropped).jpg"
       }
+    },
+    {
+      "id": "08-23-southern-cross-expedition",
+      "date": "08-23",
+      "dateLabel": "23 August",
+      "category": "science",
+      "categoryName": "Science",
+      "year": 1898,
+      "title": "Southern Cross Expedition",
+      "body": "The Southern Cross Expedition, the first British venture of the Heroic Age of Antarctic Exploration, departs from London.",
+      "source": {
+        "name": "Wikipedia · Southern Cross Expedition",
+        "url": "https://en.wikipedia.org/wiki/Southern_Cross_Expedition",
+        "calendarUrl": "https://en.wikipedia.org/wiki/August_23",
+        "license": {
+          "name": "CC BY-SA 4.0",
+          "url": "https://creativecommons.org/licenses/by-sa/4.0/"
+        }
+      },
+      "image": {
+        "src": "https://upload.wikimedia.org/wikipedia/commons/1/10/Borchgrevink_theodolite.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+        "alt": "Picture from the Wikipedia article on Southern Cross Expedition.",
+        "credit": "William Colbeck [Attributed]",
+        "source": "https://commons.wikimedia.org/wiki/File:Borchgrevink_theodolite.jpg",
+        "license": "Public domain",
+        "licenseUrl": "https://commons.wikimedia.org/wiki/File:Borchgrevink_theodolite.jpg"
+      }
+    },
+    {
+      "id": "08-23-lockheed-c-130",
+      "date": "08-23",
+      "dateLabel": "23 August",
+      "category": "world",
+      "categoryName": "World",
+      "year": 1954,
+      "title": "Lockheed C-130 Hercules",
+      "body": "The first flight of the Lockheed C-130 multi-role aircraft takes place.",
+      "source": {
+        "name": "Wikipedia · Lockheed C-130 Hercules",
+        "url": "https://en.wikipedia.org/wiki/Lockheed_C-130_Hercules",
+        "calendarUrl": "https://en.wikipedia.org/wiki/August_23",
+        "license": {
+          "name": "CC BY-SA 4.0",
+          "url": "https://creativecommons.org/licenses/by-sa/4.0/"
+        }
+      },
+      "image": {
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/cc/Lockheed_C-130_Hercules.jpg/1280px-Lockheed_C-130_Hercules.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "alt": "Picture from the Wikipedia article on Lockheed C-130 Hercules.",
+        "credit": "U.S. Air Force photo by Tech",
+        "source": "https://commons.wikimedia.org/wiki/File:Lockheed_C-130_Hercules.jpg",
+        "license": "Public domain",
+        "licenseUrl": "https://commons.wikimedia.org/wiki/File:Lockheed_C-130_Hercules.jpg"
+      }
     }
   ]
 }

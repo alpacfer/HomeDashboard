@@ -3,6 +3,33 @@
   "dateLabel": "27 October",
   "facts": [
     {
+      "id": "10-27-benjamin-o-davis-jr",
+      "date": "10-27",
+      "dateLabel": "27 October",
+      "category": "world",
+      "categoryName": "World",
+      "year": 1954,
+      "title": "Benjamin O. Davis Jr.",
+      "body": "Benjamin O. Davis, Jr. becomes the first African-American general in the United States Air Force.",
+      "source": {
+        "name": "Wikipedia · Benjamin O. Davis Jr.",
+        "url": "https://en.wikipedia.org/wiki/Benjamin_O._Davis_Jr.",
+        "calendarUrl": "https://en.wikipedia.org/wiki/October_27",
+        "license": {
+          "name": "CC BY-SA 4.0",
+          "url": "https://creativecommons.org/licenses/by-sa/4.0/"
+        }
+      },
+      "image": {
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a9/Benjamindavis.jpg/1280px-Benjamindavis.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "alt": "Picture from the Wikipedia article on Benjamin O. Davis Jr..",
+        "credit": "Wikimedia Commons",
+        "source": "https://commons.wikimedia.org/wiki/File:Benjamindavis.jpg",
+        "license": "Public domain",
+        "licenseUrl": "https://commons.wikimedia.org/wiki/File:Benjamindavis.jpg"
+      }
+    },
+    {
       "id": "10-27-sa-1-apollo",
       "date": "10-27",
       "dateLabel": "27 October",
@@ -30,17 +57,17 @@
       }
     },
     {
-      "id": "10-27-benjamin-o-davis-jr",
+      "id": "10-27-saint-vincent-and-the-grenadines",
       "date": "10-27",
       "dateLabel": "27 October",
       "category": "world",
       "categoryName": "World",
-      "year": 1954,
-      "title": "Benjamin O. Davis Jr.",
-      "body": "Benjamin O. Davis, Jr. becomes the first African-American general in the United States Air Force.",
+      "year": 1979,
+      "title": "Saint Vincent and the Grenadines",
+      "body": "Saint Vincent and the Grenadines gains its independence from the United Kingdom.",
       "source": {
-        "name": "Wikipedia · Benjamin O. Davis Jr.",
-        "url": "https://en.wikipedia.org/wiki/Benjamin_O._Davis_Jr.",
+        "name": "Wikipedia · Saint Vincent and the Grenadines",
+        "url": "https://en.wikipedia.org/wiki/Saint_Vincent_and_the_Grenadines",
         "calendarUrl": "https://en.wikipedia.org/wiki/October_27",
         "license": {
           "name": "CC BY-SA 4.0",
@@ -48,26 +75,26 @@
         }
       },
       "image": {
-        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a9/Benjamindavis.jpg/1280px-Benjamindavis.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-        "alt": "Picture from the Wikipedia article on Benjamin O. Davis Jr..",
-        "credit": "http://www.af.mil/shared/media/photodb/photos/070207-F-9999W-001.jpg",
-        "source": "https://commons.wikimedia.org/wiki/File:Benjamindavis.jpg",
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/6d/Flag_of_Saint_Vincent_and_the_Grenadines.svg/1280px-Flag_of_Saint_Vincent_and_the_Grenadines.svg.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "alt": "Picture from the Wikipedia article on Saint Vincent and the Grenadines.",
+        "credit": "No machine-readable author provided",
+        "source": "https://commons.wikimedia.org/wiki/File:Flag_of_Saint_Vincent_and_the_Grenadines.svg",
         "license": "Public domain",
-        "licenseUrl": "https://commons.wikimedia.org/wiki/File:Benjamindavis.jpg"
+        "licenseUrl": "https://commons.wikimedia.org/wiki/File:Flag_of_Saint_Vincent_and_the_Grenadines.svg"
       }
     },
     {
-      "id": "10-27-big-bang-financial-markets",
+      "id": "10-27-republic-of-the-congo-l-opoldville",
       "date": "10-27",
       "dateLabel": "27 October",
       "category": "world",
       "categoryName": "World",
-      "year": 1986,
-      "title": "Big Bang",
-      "body": "The British government suddenly deregulates financial markets, leading to a total restructuring of the way in which they operate in the country, in an event now referred to as the Big Bang.",
+      "year": 1971,
+      "title": "First Congolese Republic",
+      "body": "The Democratic Republic of the Congo is renamed Zaire.",
       "source": {
-        "name": "Wikipedia · Big Bang (financial markets)",
-        "url": "https://en.wikipedia.org/wiki/Big_Bang_(financial_markets)",
+        "name": "Wikipedia · First Congolese Republic",
+        "url": "https://en.wikipedia.org/wiki/First_Congolese_Republic",
         "calendarUrl": "https://en.wikipedia.org/wiki/October_27",
         "license": {
           "name": "CC BY-SA 4.0",
@@ -75,12 +102,39 @@
         }
       },
       "image": {
-        "src": "https://upload.wikimedia.org/wikipedia/commons/1/17/Canary-wharf-one.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
-        "alt": "Picture from the Wikipedia article on Big Bang.",
-        "credit": "Wikimedia Commons contributor",
-        "source": "https://commons.wikimedia.org/wiki/File:Canary-wharf-one.jpg",
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/9f/Flag_of_the_Republic_of_the_Congo_%28L%C3%A9opoldville%29_%281960%E2%80%931963%29.svg/1280px-Flag_of_the_Republic_of_the_Congo_%28L%C3%A9opoldville%29_%281960%E2%80%931963%29.svg.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "alt": "Picture from the Wikipedia article on First Congolese Republic.",
+        "credit": "See file history below for details",
+        "source": "https://commons.wikimedia.org/wiki/File:Flag_of_the_Republic_of_the_Congo_(L%C3%A9opoldville)_(1960%E2%80%931963).svg",
         "license": "Public domain",
-        "licenseUrl": "https://commons.wikimedia.org/wiki/File:Canary-wharf-one.jpg"
+        "licenseUrl": "https://commons.wikimedia.org/wiki/File:Flag_of_the_Republic_of_the_Congo_(L%C3%A9opoldville)_(1960%E2%80%931963).svg"
+      }
+    },
+    {
+      "id": "10-27-uzbek-soviet-socialist-republic",
+      "date": "10-27",
+      "dateLabel": "27 October",
+      "category": "world",
+      "categoryName": "World",
+      "year": 1924,
+      "title": "Uzbek Soviet Socialist Republic",
+      "body": "The Uzbek SSR is founded in the Soviet Union.",
+      "source": {
+        "name": "Wikipedia · Uzbek Soviet Socialist Republic",
+        "url": "https://en.wikipedia.org/wiki/Uzbek_Soviet_Socialist_Republic",
+        "calendarUrl": "https://en.wikipedia.org/wiki/October_27",
+        "license": {
+          "name": "CC BY-SA 4.0",
+          "url": "https://creativecommons.org/licenses/by-sa/4.0/"
+        }
+      },
+      "image": {
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/2f/Flag_of_the_Uzbek_Soviet_Socialist_Republic_%281952%E2%80%931991%29.svg/1280px-Flag_of_the_Uzbek_Soviet_Socialist_Republic_%281952%E2%80%931991%29.svg.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "alt": "Picture from the Wikipedia article on Uzbek Soviet Socialist Republic.",
+        "credit": "Denelson83, Urmas, Nokka",
+        "source": "https://commons.wikimedia.org/wiki/File:Flag_of_the_Uzbek_Soviet_Socialist_Republic_(1952%E2%80%931991).svg",
+        "license": "Public domain",
+        "licenseUrl": "https://commons.wikimedia.org/wiki/File:Flag_of_the_Uzbek_Soviet_Socialist_Republic_(1952%E2%80%931991).svg"
       }
     }
   ]

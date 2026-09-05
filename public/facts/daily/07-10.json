@@ -30,6 +30,33 @@
       }
     },
     {
+      "id": "07-10-news-international-phone-hacking-scandal",
+      "date": "07-10",
+      "dateLabel": "10 July",
+      "category": "world",
+      "categoryName": "World",
+      "year": 2011,
+      "title": "News International phone hacking scandal",
+      "body": "Amid widespread backlash to revelations of phone hacking, the British weekly tabloid newspaper News of the World publishes its final issue and shuts down after nearly 168 years in print.",
+      "source": {
+        "name": "Wikipedia · News International phone hacking scandal",
+        "url": "https://en.wikipedia.org/wiki/News_International_phone_hacking_scandal",
+        "calendarUrl": "https://en.wikipedia.org/wiki/July_10",
+        "license": {
+          "name": "CC BY-SA 4.0",
+          "url": "https://creativecommons.org/licenses/by-sa/4.0/"
+        }
+      },
+      "image": {
+        "src": "https://upload.wikimedia.org/wikipedia/commons/c/c2/Rupert_Murdoch_-_WEF_Davos_2007.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+        "alt": "Picture from the Wikipedia article on News International phone hacking scandal.",
+        "credit": "worldeconomicforum at",
+        "source": "https://commons.wikimedia.org/wiki/File:Rupert_Murdoch_-_WEF_Davos_2007.jpg",
+        "license": "CC BY-SA 2.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0"
+      }
+    },
+    {
       "id": "07-10-telstar-1",
       "date": "07-10",
       "dateLabel": "10 July",
@@ -50,7 +77,7 @@
       "image": {
         "src": "https://upload.wikimedia.org/wikipedia/commons/6/6f/Telstar_1_replica.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
         "alt": "Picture from the Wikipedia article on Telstar 1.",
-        "credit": "This file comes from Science Museum Collections, a website operated by Science Museum Group, a non-departmental public body in the UK. This tag does not indicat",
+        "credit": "Wikimedia Commons",
         "source": "https://commons.wikimedia.org/wiki/File:Telstar_1_replica.jpg",
         "license": "CC BY 4.0",
         "licenseUrl": "https://creativecommons.org/licenses/by/4.0"
@@ -81,6 +108,33 @@
         "source": "https://commons.wikimedia.org/wiki/File:DNA_Structure%2BKey%2BLabelled.pn_NoBB.png",
         "license": "CC BY-SA 3.0",
         "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0"
+      }
+    },
+    {
+      "id": "07-10-paavo-nurmi",
+      "date": "07-10",
+      "dateLabel": "10 July",
+      "category": "sport",
+      "categoryName": "Sport",
+      "year": 1924,
+      "title": "Paavo Nurmi",
+      "body": "Paavo Nurmi wins the 1,500 m and 5,000 m events at the Paris Olympics, with just an hour between the two races.",
+      "source": {
+        "name": "Wikipedia · Paavo Nurmi",
+        "url": "https://en.wikipedia.org/wiki/Paavo_Nurmi",
+        "calendarUrl": "https://en.wikipedia.org/wiki/July_10",
+        "license": {
+          "name": "CC BY-SA 4.0",
+          "url": "https://creativecommons.org/licenses/by-sa/4.0/"
+        }
+      },
+      "image": {
+        "src": "https://upload.wikimedia.org/wikipedia/commons/a/a8/Paavo_Nurmi_%28Antwerp_1920%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+        "alt": "Picture from the Wikipedia article on Paavo Nurmi.",
+        "credit": "Unknown author",
+        "source": "https://commons.wikimedia.org/wiki/File:Paavo_Nurmi_(Antwerp_1920).jpg",
+        "license": "Public domain",
+        "licenseUrl": "https://commons.wikimedia.org/wiki/File:Paavo_Nurmi_(Antwerp_1920).jpg"
       }
     }
   ]

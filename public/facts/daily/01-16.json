@@ -3,6 +3,33 @@
   "dateLabel": "16 January",
   "facts": [
     {
+      "id": "01-16-el-salvador",
+      "date": "01-16",
+      "dateLabel": "16 January",
+      "category": "world",
+      "categoryName": "World",
+      "year": 1992,
+      "title": "El Salvador",
+      "body": "El Salvador officials and rebel leaders sign the Chapultepec Peace Accords in Mexico City, Mexico ending the 12-year Salvadoran Civil War that claimed at least 75,000 lives.",
+      "source": {
+        "name": "Wikipedia · El Salvador",
+        "url": "https://en.wikipedia.org/wiki/El_Salvador",
+        "calendarUrl": "https://en.wikipedia.org/wiki/January_16",
+        "license": {
+          "name": "CC BY-SA 4.0",
+          "url": "https://creativecommons.org/licenses/by-sa/4.0/"
+        }
+      },
+      "image": {
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/34/Flag_of_El_Salvador.svg/1280px-Flag_of_El_Salvador.svg.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "alt": "Picture from the Wikipedia article on El Salvador.",
+        "credit": "See File history below for details",
+        "source": "https://commons.wikimedia.org/wiki/File:Flag_of_El_Salvador.svg",
+        "license": "Public domain",
+        "licenseUrl": "https://commons.wikimedia.org/wiki/File:Flag_of_El_Salvador.svg"
+      }
+    },
+    {
       "id": "01-16-ernest-shackleton",
       "date": "01-16",
       "dateLabel": "16 January",
@@ -30,33 +57,6 @@
       }
     },
     {
-      "id": "01-16-mohammad-reza-pahlavi",
-      "date": "01-16",
-      "dateLabel": "16 January",
-      "category": "world",
-      "categoryName": "World",
-      "year": 1979,
-      "title": "Mohammad Reza Pahlavi",
-      "body": "The last Iranian Shah flees Iran with his family for good and relocates to Egypt.",
-      "source": {
-        "name": "Wikipedia · Mohammad Reza Pahlavi",
-        "url": "https://en.wikipedia.org/wiki/Mohammad_Reza_Pahlavi",
-        "calendarUrl": "https://en.wikipedia.org/wiki/January_16",
-        "license": {
-          "name": "CC BY-SA 4.0",
-          "url": "https://creativecommons.org/licenses/by-sa/4.0/"
-        }
-      },
-      "image": {
-        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c8/Mohammad_Reza_Pahlavi_1973_portrait_%284x5_cropped%29.jpg/1280px-Mohammad_Reza_Pahlavi_1973_portrait_%284x5_cropped%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-        "alt": "Picture from the Wikipedia article on Mohammad Reza Pahlavi.",
-        "credit": "Ghazarians",
-        "source": "https://commons.wikimedia.org/wiki/File:Mohammad_Reza_Pahlavi_1973_portrait_(4x5_cropped).jpg",
-        "license": "Public domain",
-        "licenseUrl": "https://commons.wikimedia.org/wiki/File:Mohammad_Reza_Pahlavi_1973_portrait_(4x5_cropped).jpg"
-      }
-    },
-    {
       "id": "01-16-space-shuttle-columbia",
       "date": "01-16",
       "dateLabel": "16 January",
@@ -81,6 +81,60 @@
         "source": "https://commons.wikimedia.org/wiki/File:Space_Shuttle_Columbia_lands_following_STS-62_on_18_March_1994._(cropped).jpg",
         "license": "Public domain",
         "licenseUrl": "https://commons.wikimedia.org/wiki/File:Space_Shuttle_Columbia_lands_following_STS-62_on_18_March_1994._(cropped).jpg"
+      }
+    },
+    {
+      "id": "01-16-czechs",
+      "date": "01-16",
+      "dateLabel": "16 January",
+      "category": "world",
+      "categoryName": "World",
+      "year": 1969,
+      "title": "Czechs",
+      "body": "Czech student Jan Palach commits suicide by self-immolation in Prague, Czechoslovakia, in protest against the Soviets' crushing of the Prague Spring the year before.",
+      "source": {
+        "name": "Wikipedia · Czechs",
+        "url": "https://en.wikipedia.org/wiki/Czechs",
+        "calendarUrl": "https://en.wikipedia.org/wiki/January_16",
+        "license": {
+          "name": "CC BY-SA 4.0",
+          "url": "https://creativecommons.org/licenses/by-sa/4.0/"
+        }
+      },
+      "image": {
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/57/Map_of_the_Czech_Diaspora_in_the_World.svg/1280px-Map_of_the_Czech_Diaspora_in_the_World.svg.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "alt": "Picture from the Wikipedia article on Czechs.",
+        "credit": "Allice Hunter",
+        "source": "https://commons.wikimedia.org/wiki/File:Map_of_the_Czech_Diaspora_in_the_World.svg",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0"
+      }
+    },
+    {
+      "id": "01-16-league-of-nations",
+      "date": "01-16",
+      "dateLabel": "16 January",
+      "category": "world",
+      "categoryName": "World",
+      "year": 1920,
+      "title": "League of Nations",
+      "body": "The League of Nations holds its first council meeting in Paris, France.",
+      "source": {
+        "name": "Wikipedia · League of Nations",
+        "url": "https://en.wikipedia.org/wiki/League_of_Nations",
+        "calendarUrl": "https://en.wikipedia.org/wiki/January_16",
+        "license": {
+          "name": "CC BY-SA 4.0",
+          "url": "https://creativecommons.org/licenses/by-sa/4.0/"
+        }
+      },
+      "image": {
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c5/Flag_of_the_League_of_Nations_%281939%29.svg/1280px-Flag_of_the_League_of_Nations_%281939%29.svg.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "alt": "Picture from the Wikipedia article on League of Nations.",
+        "credit": "Martin Grandjean This W3C-unspecified…",
+        "source": "https://commons.wikimedia.org/wiki/File:Flag_of_the_League_of_Nations_(1939).svg",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0"
       }
     }
   ]

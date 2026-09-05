@@ -23,7 +23,7 @@
       "image": {
         "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b8/SEAL_gov_california.svg/1280px-SEAL_gov_california.svg.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
         "alt": "Picture from the Wikipedia article on Governor of California.",
-        "credit": "State of California / reproduction: Dorian crd",
+        "credit": "State of California",
         "source": "https://commons.wikimedia.org/wiki/File:SEAL_gov_california.svg",
         "license": "Public domain",
         "licenseUrl": "https://commons.wikimedia.org/wiki/File:SEAL_gov_california.svg"
@@ -81,6 +81,60 @@
         "source": "https://commons.wikimedia.org/wiki/File:Flag_of_Massachusetts.svg",
         "license": "Public domain",
         "licenseUrl": "https://commons.wikimedia.org/wiki/File:Flag_of_Massachusetts.svg"
+      }
+    },
+    {
+      "id": "06-04-jonathan-pollard",
+      "date": "06-04",
+      "dateLabel": "4 June",
+      "category": "world",
+      "categoryName": "World",
+      "year": 1986,
+      "title": "Jonathan Pollard",
+      "body": "Jonathan Pollard pleads guilty to espionage for selling top secret United States military intelligence to Israel.",
+      "source": {
+        "name": "Wikipedia · Jonathan Pollard",
+        "url": "https://en.wikipedia.org/wiki/Jonathan_Pollard",
+        "calendarUrl": "https://en.wikipedia.org/wiki/June_4",
+        "license": {
+          "name": "CC BY-SA 4.0",
+          "url": "https://creativecommons.org/licenses/by-sa/4.0/"
+        }
+      },
+      "image": {
+        "src": "https://upload.wikimedia.org/wikipedia/commons/3/33/Jonathan_Pollard.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+        "alt": "Picture from the Wikipedia article on Jonathan Pollard.",
+        "credit": "U.S. Navy",
+        "source": "https://commons.wikimedia.org/wiki/File:Jonathan_Pollard.png",
+        "license": "Public domain",
+        "licenseUrl": "https://commons.wikimedia.org/wiki/File:Jonathan_Pollard.png"
+      }
+    },
+    {
+      "id": "06-04-kriegsmarine",
+      "date": "06-04",
+      "dateLabel": "4 June",
+      "category": "world",
+      "categoryName": "World",
+      "year": 1944,
+      "title": "Kriegsmarine",
+      "body": "A hunter-killer group of the United States Navy captures the German Kriegsmarine submarine U-505, the first time a U.S. Navy vessel had captured an enemy vessel at sea since the 19th century.",
+      "source": {
+        "name": "Wikipedia · Kriegsmarine",
+        "url": "https://en.wikipedia.org/wiki/Kriegsmarine",
+        "calendarUrl": "https://en.wikipedia.org/wiki/June_4",
+        "license": {
+          "name": "CC BY-SA 4.0",
+          "url": "https://creativecommons.org/licenses/by-sa/4.0/"
+        }
+      },
+      "image": {
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/42/Kriegsmarine_insignia_casco.svg/1280px-Kriegsmarine_insignia_casco.svg.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "alt": "Picture from the Wikipedia article on Kriegsmarine.",
+        "credit": "Lancaster, F l a n k e r",
+        "source": "https://commons.wikimedia.org/wiki/File:Kriegsmarine_insignia_casco.svg",
+        "license": "Public domain",
+        "licenseUrl": "https://commons.wikimedia.org/wiki/File:Kriegsmarine_insignia_casco.svg"
       }
     }
   ]

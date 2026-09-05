@@ -30,33 +30,6 @@
       }
     },
     {
-      "id": "08-04-syrian-democratic-forces",
-      "date": "08-04",
-      "dateLabel": "4 August",
-      "category": "world",
-      "categoryName": "World",
-      "year": 2018,
-      "title": "Syrian Democratic Forces",
-      "body": "The Syrian Democratic Forces (SDF) expel the Islamic State of Iraq and the Levant (ISIL) from the Iraq–Syria border, concluding the second phase of the Deir ez-Zor campaign.",
-      "source": {
-        "name": "Wikipedia · Syrian Democratic Forces",
-        "url": "https://en.wikipedia.org/wiki/Syrian_Democratic_Forces",
-        "calendarUrl": "https://en.wikipedia.org/wiki/August_4",
-        "license": {
-          "name": "CC BY-SA 4.0",
-          "url": "https://creativecommons.org/licenses/by-sa/4.0/"
-        }
-      },
-      "image": {
-        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/61/Flag_of_Syrian_Democratic_Forces.svg/1280px-Flag_of_Syrian_Democratic_Forces.svg.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-        "alt": "Picture from the Wikipedia article on Syrian Democratic Forces.",
-        "credit": "FugeeCamp",
-        "source": "https://commons.wikimedia.org/wiki/File:Flag_of_Syrian_Democratic_Forces.svg",
-        "license": "CC0",
-        "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/deed.en"
-      }
-    },
-    {
       "id": "08-04-the-saturday-evening-post",
       "date": "08-04",
       "dateLabel": "4 August",
@@ -81,6 +54,87 @@
         "source": "https://commons.wikimedia.org/wiki/File:Saturday_evening_post_1903_11_28_a.jpg",
         "license": "Public domain",
         "licenseUrl": "https://commons.wikimedia.org/wiki/File:Saturday_evening_post_1903_11_28_a.jpg"
+      }
+    },
+    {
+      "id": "08-04-federal-communications-commission",
+      "date": "08-04",
+      "dateLabel": "4 August",
+      "category": "world",
+      "categoryName": "World",
+      "year": 1987,
+      "title": "Federal Communications Commission",
+      "body": "The Federal Communications Commission rescinds the Fairness Doctrine which had required radio and television stations to give equal time to opposing views.",
+      "source": {
+        "name": "Wikipedia · Federal Communications Commission",
+        "url": "https://en.wikipedia.org/wiki/Federal_Communications_Commission",
+        "calendarUrl": "https://en.wikipedia.org/wiki/August_4",
+        "license": {
+          "name": "CC BY-SA 4.0",
+          "url": "https://creativecommons.org/licenses/by-sa/4.0/"
+        }
+      },
+      "image": {
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/23/Seal_of_the_Federal_Communications_Commission.svg/1280px-Seal_of_the_Federal_Communications_Commission.svg.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "alt": "Picture from the Wikipedia article on Federal Communications Commission.",
+        "credit": "Umasankar Arumugam",
+        "source": "https://commons.wikimedia.org/wiki/File:Seal_of_the_Federal_Communications_Commission.svg",
+        "license": "Public domain",
+        "licenseUrl": "https://commons.wikimedia.org/wiki/File:Seal_of_the_Federal_Communications_Commission.svg"
+      }
+    },
+    {
+      "id": "08-04-republic-of-upper-volta",
+      "date": "08-04",
+      "dateLabel": "4 August",
+      "category": "world",
+      "categoryName": "World",
+      "year": 1984,
+      "title": "Republic of Upper Volta",
+      "body": "The Republic of Upper Volta changes its name to Burkina Faso.",
+      "source": {
+        "name": "Wikipedia · Republic of Upper Volta",
+        "url": "https://en.wikipedia.org/wiki/Republic_of_Upper_Volta",
+        "calendarUrl": "https://en.wikipedia.org/wiki/August_4",
+        "license": {
+          "name": "CC BY-SA 4.0",
+          "url": "https://creativecommons.org/licenses/by-sa/4.0/"
+        }
+      },
+      "image": {
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/4a/Flag_of_Upper_Volta.svg/1280px-Flag_of_Upper_Volta.svg.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "alt": "Picture from the Wikipedia article on Republic of Upper Volta.",
+        "credit": "odder",
+        "source": "https://commons.wikimedia.org/wiki/File:Flag_of_Upper_Volta.svg",
+        "license": "Public domain",
+        "licenseUrl": "https://commons.wikimedia.org/wiki/File:Flag_of_Upper_Volta.svg"
+      }
+    },
+    {
+      "id": "08-04-president-of-uganda",
+      "date": "08-04",
+      "dateLabel": "4 August",
+      "category": "world",
+      "categoryName": "World",
+      "year": 1972,
+      "title": "President of Uganda",
+      "body": "Ugandan President Idi Amin announces that Uganda is no longer responsible for the care of British subjects of Asian origin, beginning the expulsions of Ugandan Asians.",
+      "source": {
+        "name": "Wikipedia · President of Uganda",
+        "url": "https://en.wikipedia.org/wiki/President_of_Uganda",
+        "calendarUrl": "https://en.wikipedia.org/wiki/August_4",
+        "license": {
+          "name": "CC BY-SA 4.0",
+          "url": "https://creativecommons.org/licenses/by-sa/4.0/"
+        }
+      },
+      "image": {
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/63/Flag_of_the_President_of_Uganda.svg/1280px-Flag_of_the_President_of_Uganda.svg.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "alt": "Picture from the Wikipedia article on President of Uganda.",
+        "credit": "Wikimedia Commons",
+        "source": "https://commons.wikimedia.org/wiki/File:Flag_of_the_President_of_Uganda.svg",
+        "license": "CC BY-SA 3.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0"
       }
     }
   ]

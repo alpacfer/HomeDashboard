@@ -30,33 +30,6 @@
       }
     },
     {
-      "id": "03-12-bernie-madoff",
-      "date": "03-12",
-      "dateLabel": "12 March",
-      "category": "world",
-      "categoryName": "World",
-      "year": 2009,
-      "title": "Bernie Madoff",
-      "body": "Financier Bernie Madoff pleads guilty to one of the largest frauds in Wall Street's history.",
-      "source": {
-        "name": "Wikipedia · Bernie Madoff",
-        "url": "https://en.wikipedia.org/wiki/Bernie_Madoff",
-        "calendarUrl": "https://en.wikipedia.org/wiki/March_12",
-        "license": {
-          "name": "CC BY-SA 4.0",
-          "url": "https://creativecommons.org/licenses/by-sa/4.0/"
-        }
-      },
-      "image": {
-        "src": "https://upload.wikimedia.org/wikipedia/commons/f/f7/Bernard_Madoff_2009_mug_shot_%283x4_cropped%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
-        "alt": "Picture from the Wikipedia article on Bernie Madoff.",
-        "credit": "U.S. Department of Justice",
-        "source": "https://commons.wikimedia.org/wiki/File:Bernard_Madoff_2009_mug_shot_(3x4_cropped).jpg",
-        "license": "Public domain",
-        "licenseUrl": "https://commons.wikimedia.org/wiki/File:Bernard_Madoff_2009_mug_shot_(3x4_cropped).jpg"
-      }
-    },
-    {
       "id": "03-12-mahatma-gandhi",
       "date": "03-12",
       "dateLabel": "12 March",
@@ -81,6 +54,87 @@
         "source": "https://commons.wikimedia.org/wiki/File:Mahatma-Gandhi,_studio,_1931.jpg",
         "license": "Public domain",
         "licenseUrl": "https://commons.wikimedia.org/wiki/File:Mahatma-Gandhi,_studio,_1931.jpg"
+      }
+    },
+    {
+      "id": "03-12-mauritius",
+      "date": "03-12",
+      "dateLabel": "12 March",
+      "category": "world",
+      "categoryName": "World",
+      "year": 1992,
+      "title": "Mauritius",
+      "body": "Mauritius becomes a republic while remaining a member of the Commonwealth of Nations.",
+      "source": {
+        "name": "Wikipedia · Mauritius",
+        "url": "https://en.wikipedia.org/wiki/Mauritius",
+        "calendarUrl": "https://en.wikipedia.org/wiki/March_12",
+        "license": {
+          "name": "CC BY-SA 4.0",
+          "url": "https://creativecommons.org/licenses/by-sa/4.0/"
+        }
+      },
+      "image": {
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/77/Flag_of_Mauritius.svg/1280px-Flag_of_Mauritius.svg.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "alt": "Picture from the Wikipedia article on Mauritius.",
+        "credit": "Zscout370",
+        "source": "https://commons.wikimedia.org/wiki/File:Flag_of_Mauritius.svg",
+        "license": "Public domain",
+        "licenseUrl": "https://commons.wikimedia.org/wiki/File:Flag_of_Mauritius.svg"
+      }
+    },
+    {
+      "id": "03-12-warsaw-pact",
+      "date": "03-12",
+      "dateLabel": "12 March",
+      "category": "world",
+      "categoryName": "World",
+      "year": 1999,
+      "title": "Warsaw Pact",
+      "body": "Former Warsaw Pact members the Czech Republic, Hungary and Poland join NATO.",
+      "source": {
+        "name": "Wikipedia · Warsaw Pact",
+        "url": "https://en.wikipedia.org/wiki/Warsaw_Pact",
+        "calendarUrl": "https://en.wikipedia.org/wiki/March_12",
+        "license": {
+          "name": "CC BY-SA 4.0",
+          "url": "https://creativecommons.org/licenses/by-sa/4.0/"
+        }
+      },
+      "image": {
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a8/Warsaw_Pact_in_1990_%28orthographic_projection%29.svg/1280px-Warsaw_Pact_in_1990_%28orthographic_projection%29.svg.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "alt": "Picture from the Wikipedia article on Warsaw Pact.",
+        "credit": "Rob984",
+        "source": "https://commons.wikimedia.org/wiki/File:Warsaw_Pact_in_1990_(orthographic_projection).svg",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0"
+      }
+    },
+    {
+      "id": "03-12-franklin-d-roosevelt",
+      "date": "03-12",
+      "dateLabel": "12 March",
+      "category": "world",
+      "categoryName": "World",
+      "year": 1933,
+      "title": "Franklin D. Roosevelt",
+      "body": "Franklin D. Roosevelt addresses the nation for the first time as President of the United States. This is also the first of his \"fireside chats\".",
+      "source": {
+        "name": "Wikipedia · Franklin D. Roosevelt",
+        "url": "https://en.wikipedia.org/wiki/Franklin_D._Roosevelt",
+        "calendarUrl": "https://en.wikipedia.org/wiki/March_12",
+        "license": {
+          "name": "CC BY-SA 4.0",
+          "url": "https://creativecommons.org/licenses/by-sa/4.0/"
+        }
+      },
+      "image": {
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/fd/FDR-1944-Campaign-Portrait_%283x4_retouched%2C_cropped%29.jpg/1280px-FDR-1944-Campaign-Portrait_%283x4_retouched%2C_cropped%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "alt": "Picture from the Wikipedia article on Franklin D. Roosevelt.",
+        "credit": "Leon Perskie",
+        "source": "https://commons.wikimedia.org/wiki/File:FDR-1944-Campaign-Portrait_(3x4_retouched,_cropped).jpg",
+        "license": "CC BY 2.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by/2.0"
       }
     }
   ]

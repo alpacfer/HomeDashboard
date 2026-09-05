@@ -30,33 +30,6 @@
       }
     },
     {
-      "id": "09-19-michael-eavis",
-      "date": "09-19",
-      "dateLabel": "19 September",
-      "category": "world",
-      "categoryName": "World",
-      "year": 1970,
-      "title": "Michael Eavis",
-      "body": "Michael Eavis hosts the first Glastonbury Festival.",
-      "source": {
-        "name": "Wikipedia · Michael Eavis",
-        "url": "https://en.wikipedia.org/wiki/Michael_Eavis",
-        "calendarUrl": "https://en.wikipedia.org/wiki/September_19",
-        "license": {
-          "name": "CC BY-SA 4.0",
-          "url": "https://creativecommons.org/licenses/by-sa/4.0/"
-        }
-      },
-      "image": {
-        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b3/Coldplay_Glasto24_290624_%28224%29_%2853838030769%29_%28cropped%29.jpg/1280px-Coldplay_Glasto24_290624_%28224%29_%2853838030769%29_%28cropped%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-        "alt": "Picture from the Wikipedia article on Michael Eavis.",
-        "credit": "Raph_PH",
-        "source": "https://commons.wikimedia.org/wiki/File:Coldplay_Glasto24_290624_(224)_(53838030769)_(cropped).jpg",
-        "license": "CC BY 2.0",
-        "licenseUrl": "https://creativecommons.org/licenses/by/2.0"
-      }
-    },
-    {
       "id": "09-19-tipper-gore",
       "date": "09-19",
       "dateLabel": "19 September",
@@ -81,6 +54,87 @@
         "source": "https://commons.wikimedia.org/wiki/File:Tipper_Gore_Headshot.jpg",
         "license": "CC BY 3.0",
         "licenseUrl": "https://creativecommons.org/licenses/by/3.0"
+      }
+    },
+    {
+      "id": "09-19-tzi",
+      "date": "09-19",
+      "dateLabel": "19 September",
+      "category": "science",
+      "categoryName": "Science",
+      "year": 1991,
+      "title": "Ötzi",
+      "body": "Ötzi the Iceman is discovered in the Alps on the border between Italy and Austria.",
+      "source": {
+        "name": "Wikipedia · Ötzi",
+        "url": "https://en.wikipedia.org/wiki/%C3%96tzi",
+        "calendarUrl": "https://en.wikipedia.org/wiki/September_19",
+        "license": {
+          "name": "CC BY-SA 4.0",
+          "url": "https://creativecommons.org/licenses/by-sa/4.0/"
+        }
+      },
+      "image": {
+        "src": "https://upload.wikimedia.org/wikipedia/commons/e/ee/Otzi-Quinson.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+        "alt": "Picture from the Wikipedia article on Ötzi.",
+        "credit": "Wikimedia Commons",
+        "source": "https://commons.wikimedia.org/wiki/File:Otzi-Quinson.jpg",
+        "license": "CC BY-SA 3.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0"
+      }
+    },
+    {
+      "id": "09-19-mariano-rivera",
+      "date": "09-19",
+      "dateLabel": "19 September",
+      "category": "sport",
+      "categoryName": "Sport",
+      "year": 2011,
+      "title": "Mariano Rivera",
+      "body": "Mariano Rivera of the New York Yankees surpasses Trevor Hoffman to become Major League Baseball's all-time career saves leader with 602.",
+      "source": {
+        "name": "Wikipedia · Mariano Rivera",
+        "url": "https://en.wikipedia.org/wiki/Mariano_Rivera",
+        "calendarUrl": "https://en.wikipedia.org/wiki/September_19",
+        "license": {
+          "name": "CC BY-SA 4.0",
+          "url": "https://creativecommons.org/licenses/by-sa/4.0/"
+        }
+      },
+      "image": {
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/36/Mariano_Rivera_allison_7_29_07.jpg/1280px-Mariano_Rivera_allison_7_29_07.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "alt": "Picture from the Wikipedia article on Mariano Rivera.",
+        "credit": "User Keith Allison on Flickr",
+        "source": "https://commons.wikimedia.org/wiki/File:Mariano_Rivera_allison_7_29_07.jpg",
+        "license": "CC BY-SA 2.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0"
+      }
+    },
+    {
+      "id": "09-19-scott-fahlman",
+      "date": "09-19",
+      "dateLabel": "19 September",
+      "category": "world",
+      "categoryName": "World",
+      "year": 1982,
+      "title": "Scott Fahlman",
+      "body": "Scott Fahlman posts the first documented emoticons:-) and:-( on the Carnegie Mellon University bulletin board system.",
+      "source": {
+        "name": "Wikipedia · Scott Fahlman",
+        "url": "https://en.wikipedia.org/wiki/Scott_Fahlman",
+        "calendarUrl": "https://en.wikipedia.org/wiki/September_19",
+        "license": {
+          "name": "CC BY-SA 4.0",
+          "url": "https://creativecommons.org/licenses/by-sa/4.0/"
+        }
+      },
+      "image": {
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/5d/SEF2007a.jpg/1280px-SEF2007a.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "alt": "Picture from the Wikipedia article on Scott Fahlman.",
+        "credit": "Scott E. Fahlman's wife",
+        "source": "https://commons.wikimedia.org/wiki/File:SEF2007a.jpg",
+        "license": "Public domain",
+        "licenseUrl": "https://commons.wikimedia.org/wiki/File:SEF2007a.jpg"
       }
     }
   ]

@@ -3,33 +3,6 @@
   "dateLabel": "8 November",
   "facts": [
     {
-      "id": "11-08-massachusetts",
-      "date": "11-08",
-      "dateLabel": "8 November",
-      "category": "world",
-      "categoryName": "World",
-      "year": 1966,
-      "title": "Massachusetts",
-      "body": "Former Massachusetts Attorney General Edward Brooke becomes the first African American elected to the United States Senate since Reconstruction.",
-      "source": {
-        "name": "Wikipedia · Massachusetts",
-        "url": "https://en.wikipedia.org/wiki/Massachusetts",
-        "calendarUrl": "https://en.wikipedia.org/wiki/November_8",
-        "license": {
-          "name": "CC BY-SA 4.0",
-          "url": "https://creativecommons.org/licenses/by-sa/4.0/"
-        }
-      },
-      "image": {
-        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f2/Flag_of_Massachusetts.svg/1280px-Flag_of_Massachusetts.svg.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-        "alt": "Picture from the Wikipedia article on Massachusetts.",
-        "credit": "State of Massachusetts",
-        "source": "https://commons.wikimedia.org/wiki/File:Flag_of_Massachusetts.svg",
-        "license": "Public domain",
-        "licenseUrl": "https://commons.wikimedia.org/wiki/File:Flag_of_Massachusetts.svg"
-      }
-    },
-    {
       "id": "11-08-manolis-andronikos",
       "date": "11-08",
       "dateLabel": "8 November",
@@ -81,6 +54,87 @@
         "source": "https://commons.wikimedia.org/wiki/File:HBO_logo.svg",
         "license": "Public domain",
         "licenseUrl": "https://commons.wikimedia.org/wiki/File:HBO_logo.svg"
+      }
+    },
+    {
+      "id": "11-08-potentially-hazardous-asteroid",
+      "date": "11-08",
+      "dateLabel": "8 November",
+      "category": "space",
+      "categoryName": "Space",
+      "year": 2011,
+      "title": "Potentially hazardous object",
+      "body": "The potentially hazardous asteroid 2005 YU55 passes 0.85 lunar distances from Earth (about ), the closest known approach by an asteroid of its brightness since in 1976.",
+      "source": {
+        "name": "Wikipedia · Potentially hazardous object",
+        "url": "https://en.wikipedia.org/wiki/Potentially_hazardous_object",
+        "calendarUrl": "https://en.wikipedia.org/wiki/November_8",
+        "license": {
+          "name": "CC BY-SA 4.0",
+          "url": "https://creativecommons.org/licenses/by-sa/4.0/"
+        }
+      },
+      "image": {
+        "src": "https://upload.wikimedia.org/wikipedia/commons/8/87/4179_Toutatis_HQ.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+        "alt": "Picture from the Wikipedia article on Potentially hazardous object.",
+        "credit": "Yun Jiang",
+        "source": "https://commons.wikimedia.org/wiki/File:4179_Toutatis_HQ.png",
+        "license": "CC BY 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by/4.0"
+      }
+    },
+    {
+      "id": "11-08-massachusetts",
+      "date": "11-08",
+      "dateLabel": "8 November",
+      "category": "world",
+      "categoryName": "World",
+      "year": 1966,
+      "title": "Massachusetts",
+      "body": "Former Massachusetts Attorney General Edward Brooke becomes the first African American elected to the United States Senate since Reconstruction.",
+      "source": {
+        "name": "Wikipedia · Massachusetts",
+        "url": "https://en.wikipedia.org/wiki/Massachusetts",
+        "calendarUrl": "https://en.wikipedia.org/wiki/November_8",
+        "license": {
+          "name": "CC BY-SA 4.0",
+          "url": "https://creativecommons.org/licenses/by-sa/4.0/"
+        }
+      },
+      "image": {
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f2/Flag_of_Massachusetts.svg/1280px-Flag_of_Massachusetts.svg.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "alt": "Picture from the Wikipedia article on Massachusetts.",
+        "credit": "State of Massachusetts",
+        "source": "https://commons.wikimedia.org/wiki/File:Flag_of_Massachusetts.svg",
+        "license": "Public domain",
+        "licenseUrl": "https://commons.wikimedia.org/wiki/File:Flag_of_Massachusetts.svg"
+      }
+    },
+    {
+      "id": "11-08-lyndon-b-johnson",
+      "date": "11-08",
+      "dateLabel": "8 November",
+      "category": "sport",
+      "categoryName": "Sport",
+      "year": 1966,
+      "title": "Lyndon B. Johnson",
+      "body": "U.S. President Lyndon B. Johnson signs into law an antitrust exemption allowing the National Football League to merge with the upstart American Football League.",
+      "source": {
+        "name": "Wikipedia · Lyndon B. Johnson",
+        "url": "https://en.wikipedia.org/wiki/Lyndon_B._Johnson",
+        "calendarUrl": "https://en.wikipedia.org/wiki/November_8",
+        "license": {
+          "name": "CC BY-SA 4.0",
+          "url": "https://creativecommons.org/licenses/by-sa/4.0/"
+        }
+      },
+      "image": {
+        "src": "https://upload.wikimedia.org/wikipedia/commons/5/54/Lyndon_B._Johnson%2C_photo_portrait%2C_color_%283x4_cropped%29%282%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+        "alt": "Picture from the Wikipedia article on Lyndon B. Johnson.",
+        "credit": "Arnold Newman",
+        "source": "https://commons.wikimedia.org/wiki/File:Lyndon_B._Johnson,_photo_portrait,_color_(3x4_cropped)(2).jpg",
+        "license": "Public domain",
+        "licenseUrl": "https://commons.wikimedia.org/wiki/File:Lyndon_B._Johnson,_photo_portrait,_color_(3x4_cropped)(2).jpg"
       }
     }
   ]

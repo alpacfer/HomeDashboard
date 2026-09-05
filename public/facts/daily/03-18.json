@@ -77,10 +77,64 @@
       "image": {
         "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/35/Flag_of_Bosnia_and_Herzegovina_%281992%E2%80%931998%29.svg/1280px-Flag_of_Bosnia_and_Herzegovina_%281992%E2%80%931998%29.svg.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
         "alt": "Picture from the Wikipedia article on Bosniaks.",
-        "credit": "The authors of the final version of the officially adopted flag are Prof. Dr. Enver Imamović and graphic designer Zvonimir Bebek. Other authors from the Working",
+        "credit": "Wikimedia Commons",
         "source": "https://commons.wikimedia.org/wiki/File:Flag_of_Bosnia_and_Herzegovina_(1992%E2%80%931998).svg",
         "license": "Public domain",
         "licenseUrl": "https://commons.wikimedia.org/wiki/File:Flag_of_Bosnia_and_Herzegovina_(1992%E2%80%931998).svg"
+      }
+    },
+    {
+      "id": "03-18-phoebe-moon",
+      "date": "03-18",
+      "dateLabel": "18 March",
+      "category": "space",
+      "categoryName": "Space",
+      "year": 1899,
+      "title": "Phoebe",
+      "body": "Phoebe, a satellite of Saturn, becomes the first to be discovered with photographs, taken in August 1898, by William Henry Pickering.",
+      "source": {
+        "name": "Wikipedia · Phoebe (moon)",
+        "url": "https://en.wikipedia.org/wiki/Phoebe_(moon)",
+        "calendarUrl": "https://en.wikipedia.org/wiki/March_18",
+        "license": {
+          "name": "CC BY-SA 4.0",
+          "url": "https://creativecommons.org/licenses/by-sa/4.0/"
+        }
+      },
+      "image": {
+        "src": "https://upload.wikimedia.org/wikipedia/commons/a/ae/Phoebe_cassini_full.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+        "alt": "Picture from the Wikipedia article on Phoebe.",
+        "credit": "NASA/JPL/Space Science Institute",
+        "source": "https://commons.wikimedia.org/wiki/File:Phoebe_cassini_full.jpg",
+        "license": "Public domain",
+        "licenseUrl": "https://commons.wikimedia.org/wiki/File:Phoebe_cassini_full.jpg"
+      }
+    },
+    {
+      "id": "03-18-william-henry-fry",
+      "date": "03-18",
+      "dateLabel": "18 March",
+      "category": "culture",
+      "categoryName": "Culture",
+      "year": 1848,
+      "title": "William Henry Fry",
+      "body": "The premiere of William Henry Fry's Leonora in Philadelphia is the first known performance of a grand opera by an American composer.",
+      "source": {
+        "name": "Wikipedia · William Henry Fry",
+        "url": "https://en.wikipedia.org/wiki/William_Henry_Fry",
+        "calendarUrl": "https://en.wikipedia.org/wiki/March_18",
+        "license": {
+          "name": "CC BY-SA 4.0",
+          "url": "https://creativecommons.org/licenses/by-sa/4.0/"
+        }
+      },
+      "image": {
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/fe/Portrait_of_William_Henry_Fry.jpg/1280px-Portrait_of_William_Henry_Fry.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "alt": "Picture from the Wikipedia article on William Henry Fry.",
+        "credit": "Louis C. Elson",
+        "source": "https://commons.wikimedia.org/wiki/File:Portrait_of_William_Henry_Fry.jpg",
+        "license": "Public domain",
+        "licenseUrl": "https://commons.wikimedia.org/wiki/File:Portrait_of_William_Henry_Fry.jpg"
       }
     }
   ]

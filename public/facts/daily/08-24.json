@@ -23,7 +23,7 @@
       "image": {
         "src": "https://upload.wikimedia.org/wikipedia/commons/7/72/Amelia_Earhart_standing_under_nose_of_her_Lockheed_Model_10-E_Electra%2C_small_%28cropped%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
         "alt": "Picture from the Wikipedia article on Amelia Earhart.",
-        "credit": "Underwood & Underwood (active 1880 – c. 1950)[1]",
+        "credit": "Underwood & Underwood",
         "source": "https://commons.wikimedia.org/wiki/File:Amelia_Earhart_standing_under_nose_of_her_Lockheed_Model_10-E_Electra,_small_(cropped).jpg",
         "license": "Public domain",
         "licenseUrl": "https://commons.wikimedia.org/wiki/File:Amelia_Earhart_standing_under_nose_of_her_Lockheed_Model_10-E_Electra,_small_(cropped).jpg"
@@ -50,7 +50,7 @@
       "image": {
         "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/5d/STS115_Atlantis_undock_ISS_edit2.jpg/1280px-STS115_Atlantis_undock_ISS_edit2.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
         "alt": "Picture from the Wikipedia article on List of government space agencies.",
-        "credit": "STS115_Atlantis_undock_ISS.jpg: NASA derivative work: The High Fin Sperm Whale",
+        "credit": "The High Fin Sperm Whale",
         "source": "https://commons.wikimedia.org/wiki/File:STS115_Atlantis_undock_ISS_edit2.jpg",
         "license": "Public domain",
         "licenseUrl": "https://commons.wikimedia.org/wiki/File:STS115_Atlantis_undock_ISS_edit2.jpg"
@@ -81,6 +81,60 @@
         "source": "https://commons.wikimedia.org/wiki/File:Antarctica,_Australia_territorial_claim.svg",
         "license": "CC BY-SA 2.5",
         "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.5"
+      }
+    },
+    {
+      "id": "08-24-proxima-centauri-b",
+      "date": "08-24",
+      "dateLabel": "24 August",
+      "category": "space",
+      "categoryName": "Space",
+      "year": 2016,
+      "title": "Proxima Centauri b",
+      "body": "Proxima Centauri b, the closest exoplanet to Earth, is discovered by the European Southern Observatory.",
+      "source": {
+        "name": "Wikipedia · Proxima Centauri b",
+        "url": "https://en.wikipedia.org/wiki/Proxima_Centauri_b",
+        "calendarUrl": "https://en.wikipedia.org/wiki/August_24",
+        "license": {
+          "name": "CC BY-SA 4.0",
+          "url": "https://creativecommons.org/licenses/by-sa/4.0/"
+        }
+      },
+      "image": {
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/81/Artist%E2%80%99s_impression_of_Proxima_Centauri_b_shown_hypothetically_as_an_arid_rocky_super-earth.jpg/1280px-Artist%E2%80%99s_impression_of_Proxima_Centauri_b_shown_hypothetically_as_an_arid_rocky_super-earth.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "alt": "Picture from the Wikipedia article on Proxima Centauri b.",
+        "credit": "ESO/M. Kornmesser",
+        "source": "https://commons.wikimedia.org/wiki/File:Artist%E2%80%99s_impression_of_Proxima_Centauri_b_shown_hypothetically_as_an_arid_rocky_super-earth.jpg",
+        "license": "CC BY 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by/4.0"
+      }
+    },
+    {
+      "id": "08-24-international-astronomical-union",
+      "date": "08-24",
+      "dateLabel": "24 August",
+      "category": "space",
+      "categoryName": "Space",
+      "year": 2006,
+      "title": "International Astronomical Union",
+      "body": "The International Astronomical Union (IAU) redefines the term \"planet\" such that Pluto is now considered a dwarf planet.",
+      "source": {
+        "name": "Wikipedia · International Astronomical Union",
+        "url": "https://en.wikipedia.org/wiki/International_Astronomical_Union",
+        "calendarUrl": "https://en.wikipedia.org/wiki/August_24",
+        "license": {
+          "name": "CC BY-SA 4.0",
+          "url": "https://creativecommons.org/licenses/by-sa/4.0/"
+        }
+      },
+      "image": {
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/43/IAU_logo.svg/1280px-IAU_logo.svg.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "alt": "Picture from the Wikipedia article on International Astronomical Union.",
+        "credit": "International Astronomical Union",
+        "source": "https://commons.wikimedia.org/wiki/File:IAU_logo.svg",
+        "license": "Public domain",
+        "licenseUrl": "https://commons.wikimedia.org/wiki/File:IAU_logo.svg"
       }
     }
   ]

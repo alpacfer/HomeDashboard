@@ -3,6 +3,33 @@
   "dateLabel": "19 October",
   "facts": [
     {
+      "id": "10-19-french-crown-jewels",
+      "date": "10-19",
+      "dateLabel": "19 October",
+      "category": "curious",
+      "categoryName": "Curious",
+      "year": 2025,
+      "title": "French Crown Jewels",
+      "body": "Pieces of the French Crown Jewels are successfully stolen during a heist on the Louvre Museum in Paris.",
+      "source": {
+        "name": "Wikipedia · French Crown Jewels",
+        "url": "https://en.wikipedia.org/wiki/French_Crown_Jewels",
+        "calendarUrl": "https://en.wikipedia.org/wiki/October_19",
+        "license": {
+          "name": "CC BY-SA 4.0",
+          "url": "https://creativecommons.org/licenses/by-sa/4.0/"
+        }
+      },
+      "image": {
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/57/FrenchCrownJewelsLouvre-1.jpg/1280px-FrenchCrownJewelsLouvre-1.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "alt": "Picture from the Wikipedia article on French Crown Jewels.",
+        "credit": "owensdt1",
+        "source": "https://commons.wikimedia.org/wiki/File:FrenchCrownJewelsLouvre-1.jpg",
+        "license": "CC BY 2.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by/2.0"
+      }
+    },
+    {
       "id": "10-19-history-of-the-eurovision-song-contest",
       "date": "10-19",
       "dateLabel": "19 October",
@@ -27,6 +54,33 @@
         "source": "https://commons.wikimedia.org/wiki/File:Marcel_Bezen%C3%A7on_(1980).jpg",
         "license": "CC0",
         "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/deed.en"
+      }
+    },
+    {
+      "id": "10-19-point-four-program",
+      "date": "10-19",
+      "dateLabel": "19 October",
+      "category": "world",
+      "categoryName": "World",
+      "year": 1950,
+      "title": "Point Four Program",
+      "body": "Iran becomes the first country to accept technical assistance from the United States under the Point Four Program.",
+      "source": {
+        "name": "Wikipedia · Point Four Program",
+        "url": "https://en.wikipedia.org/wiki/Point_Four_Program",
+        "calendarUrl": "https://en.wikipedia.org/wiki/October_19",
+        "license": {
+          "name": "CC BY-SA 4.0",
+          "url": "https://creativecommons.org/licenses/by-sa/4.0/"
+        }
+      },
+      "image": {
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/fd/Department_of_State_-_Technical_Cooperation_Administration.jpg/1280px-Department_of_State_-_Technical_Cooperation_Administration.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "alt": "Picture from the Wikipedia article on Point Four Program.",
+        "credit": "US Department of State",
+        "source": "https://commons.wikimedia.org/wiki/File:Department_of_State_-_Technical_Cooperation_Administration.jpg",
+        "license": "Public domain",
+        "licenseUrl": "https://commons.wikimedia.org/wiki/File:Department_of_State_-_Technical_Cooperation_Administration.jpg"
       }
     },
     {
@@ -77,7 +131,7 @@
       "image": {
         "src": "https://upload.wikimedia.org/wikipedia/commons/6/69/Ray_Bradbury_%281975%29_-cropped-.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
         "alt": "Picture from the Wikipedia article on Ray Bradbury.",
-        "credit": "photo by Alan Light",
+        "credit": "Alan Light",
         "source": "https://commons.wikimedia.org/wiki/File:Ray_Bradbury_(1975)_-cropped-.jpg",
         "license": "CC BY 2.0",
         "licenseUrl": "https://creativecommons.org/licenses/by/2.0"

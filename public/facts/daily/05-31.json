@@ -3,33 +3,6 @@
   "dateLabel": "31 May",
   "facts": [
     {
-      "id": "05-31-asteroid",
-      "date": "05-31",
-      "dateLabel": "31 May",
-      "category": "space",
-      "categoryName": "Space",
-      "year": 2013,
-      "title": "Asteroid",
-      "body": "The asteroid 1998 QE2 and its moon make their closest approach to Earth for the next two centuries.",
-      "source": {
-        "name": "Wikipedia · Asteroid",
-        "url": "https://en.wikipedia.org/wiki/Asteroid",
-        "calendarUrl": "https://en.wikipedia.org/wiki/May_31",
-        "license": {
-          "name": "CC BY-SA 4.0",
-          "url": "https://creativecommons.org/licenses/by-sa/4.0/"
-        }
-      },
-      "image": {
-        "src": "https://upload.wikimedia.org/wikipedia/commons/8/89/243_ida_crop.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
-        "alt": "Picture from the Wikipedia article on Asteroid.",
-        "credit": "243_ida.jpg: NASA/JPL derivative work: Chzz ►",
-        "source": "https://commons.wikimedia.org/wiki/File:243_ida_crop.jpg",
-        "license": "Public domain",
-        "licenseUrl": "https://commons.wikimedia.org/wiki/File:243_ida_crop.jpg"
-      }
-    },
-    {
       "id": "05-31-usain-bolt",
       "date": "05-31",
       "dateLabel": "31 May",
@@ -54,6 +27,87 @@
         "source": "https://commons.wikimedia.org/wiki/File:Usain_Bolt_smiling_Berlin_2009.JPG",
         "license": "GFDL",
         "licenseUrl": "https://www.gnu.org/copyleft/fdl.html"
+      }
+    },
+    {
+      "id": "05-31-asteroid",
+      "date": "05-31",
+      "dateLabel": "31 May",
+      "category": "space",
+      "categoryName": "Space",
+      "year": 2013,
+      "title": "Asteroid",
+      "body": "The asteroid 1998 QE2 and its moon make their closest approach to Earth for the next two centuries.",
+      "source": {
+        "name": "Wikipedia · Asteroid",
+        "url": "https://en.wikipedia.org/wiki/Asteroid",
+        "calendarUrl": "https://en.wikipedia.org/wiki/May_31",
+        "license": {
+          "name": "CC BY-SA 4.0",
+          "url": "https://creativecommons.org/licenses/by-sa/4.0/"
+        }
+      },
+      "image": {
+        "src": "https://upload.wikimedia.org/wikipedia/commons/8/89/243_ida_crop.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+        "alt": "Picture from the Wikipedia article on Asteroid.",
+        "credit": "Wikimedia Commons",
+        "source": "https://commons.wikimedia.org/wiki/File:243_ida_crop.jpg",
+        "license": "Public domain",
+        "licenseUrl": "https://commons.wikimedia.org/wiki/File:243_ida_crop.jpg"
+      }
+    },
+    {
+      "id": "05-31-confederation-bridge",
+      "date": "05-31",
+      "dateLabel": "31 May",
+      "category": "world",
+      "categoryName": "World",
+      "year": 1997,
+      "title": "Confederation Bridge",
+      "body": "The Confederation Bridge opens, linking Prince Edward Island with mainland New Brunswick.",
+      "source": {
+        "name": "Wikipedia · Confederation Bridge",
+        "url": "https://en.wikipedia.org/wiki/Confederation_Bridge",
+        "calendarUrl": "https://en.wikipedia.org/wiki/May_31",
+        "license": {
+          "name": "CC BY-SA 4.0",
+          "url": "https://creativecommons.org/licenses/by-sa/4.0/"
+        }
+      },
+      "image": {
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/dd/Confederation_Bridge_aerial_view_%28from_PEI_side%29.jpg/1280px-Confederation_Bridge_aerial_view_%28from_PEI_side%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "alt": "Picture from the Wikipedia article on Confederation Bridge.",
+        "credit": "Quintin Soloviev",
+        "source": "https://commons.wikimedia.org/wiki/File:Confederation_Bridge_aerial_view_(from_PEI_side).jpg",
+        "license": "CC BY 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by/4.0"
+      }
+    },
+    {
+      "id": "05-31-trans-alaska-pipeline-system",
+      "date": "05-31",
+      "dateLabel": "31 May",
+      "category": "world",
+      "categoryName": "World",
+      "year": 1977,
+      "title": "Trans-Alaska Pipeline System",
+      "body": "The Trans-Alaska Pipeline System is completed.",
+      "source": {
+        "name": "Wikipedia · Trans-Alaska Pipeline System",
+        "url": "https://en.wikipedia.org/wiki/Trans-Alaska_Pipeline_System",
+        "calendarUrl": "https://en.wikipedia.org/wiki/May_31",
+        "license": {
+          "name": "CC BY-SA 4.0",
+          "url": "https://creativecommons.org/licenses/by-sa/4.0/"
+        }
+      },
+      "image": {
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/8f/Trans-Alaska_Pipeline_System_Luca_Galuzzi_2005.jpg/1280px-Trans-Alaska_Pipeline_System_Luca_Galuzzi_2005.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "alt": "Picture from the Wikipedia article on Trans-Alaska Pipeline System.",
+        "credit": "Luca Galuzzi",
+        "source": "https://commons.wikimedia.org/wiki/File:Trans-Alaska_Pipeline_System_Luca_Galuzzi_2005.jpg",
+        "license": "CC BY-SA 2.5",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.5"
       }
     },
     {

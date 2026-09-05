@@ -3,17 +3,17 @@
   "dateLabel": "13 January",
   "facts": [
     {
-      "id": "01-13-douglas-wilder",
+      "id": "01-13-robert-c-weaver",
       "date": "01-13",
       "dateLabel": "13 January",
       "category": "world",
       "categoryName": "World",
-      "year": 1990,
-      "title": "Douglas Wilder",
-      "body": "Douglas Wilder becomes the first elected African American governor as he takes office as Governor of Virginia in Richmond, Virginia.",
+      "year": 1966,
+      "title": "Robert C. Weaver",
+      "body": "Robert C. Weaver becomes the first African American Cabinet member when he is appointed United States Secretary of Housing and Urban Development.",
       "source": {
-        "name": "Wikipedia · Douglas Wilder",
-        "url": "https://en.wikipedia.org/wiki/Douglas_Wilder",
+        "name": "Wikipedia · Robert C. Weaver",
+        "url": "https://en.wikipedia.org/wiki/Robert_C._Weaver",
         "calendarUrl": "https://en.wikipedia.org/wiki/January_13",
         "license": {
           "name": "CC BY-SA 4.0",
@@ -21,12 +21,12 @@
         }
       },
       "image": {
-        "src": "https://upload.wikimedia.org/wikipedia/commons/6/6f/Douglas_Wilder_2003_NIH.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
-        "alt": "Picture from the Wikipedia article on Douglas Wilder.",
-        "credit": "http://www.nih.gov/news/NIH-Record/02_04_2003/story01.htm - the exact image URL was http://www.nih.gov/news/NIH-Record/02_04_2003/images/kingday03.jpg",
-        "source": "https://commons.wikimedia.org/wiki/File:Douglas_Wilder_2003_NIH.jpg",
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/24/Robert_C._Weaver_official_portrait.jpg/1280px-Robert_C._Weaver_official_portrait.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "alt": "Picture from the Wikipedia article on Robert C. Weaver.",
+        "credit": "Department of Housing and Urban…",
+        "source": "https://commons.wikimedia.org/wiki/File:Robert_C._Weaver_official_portrait.jpg",
         "license": "Public domain",
-        "licenseUrl": "https://commons.wikimedia.org/wiki/File:Douglas_Wilder_2003_NIH.jpg"
+        "licenseUrl": "https://commons.wikimedia.org/wiki/File:Robert_C._Weaver_official_portrait.jpg"
       }
     },
     {
@@ -50,10 +50,37 @@
       "image": {
         "src": "https://upload.wikimedia.org/wikipedia/commons/3/36/Achlys_Hubble_2005.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
         "alt": "Picture from the Wikipedia article on 208996 Achlys.",
-        "credit": "Michael E. Brown/STScI/NASA (processing by Nrco0e)",
+        "credit": "Michael E. Brown/STScI/NASA",
         "source": "https://commons.wikimedia.org/wiki/File:Achlys_Hubble_2005.png",
         "license": "Public domain",
         "licenseUrl": "https://commons.wikimedia.org/wiki/File:Achlys_Hubble_2005.png"
+      }
+    },
+    {
+      "id": "01-13-henry-ford",
+      "date": "01-13",
+      "dateLabel": "13 January",
+      "category": "science",
+      "categoryName": "Science",
+      "year": 1942,
+      "title": "Henry Ford",
+      "body": "Henry Ford patents a soybean car, which is 30% lighter than a regular car.",
+      "source": {
+        "name": "Wikipedia · Henry Ford",
+        "url": "https://en.wikipedia.org/wiki/Henry_Ford",
+        "calendarUrl": "https://en.wikipedia.org/wiki/January_13",
+        "license": {
+          "name": "CC BY-SA 4.0",
+          "url": "https://creativecommons.org/licenses/by-sa/4.0/"
+        }
+      },
+      "image": {
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/27/Henry_Ford_portrait_1915_original_%283x4_cropped%29.png/1280px-Henry_Ford_portrait_1915_original_%283x4_cropped%29.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "alt": "Picture from the Wikipedia article on Henry Ford.",
+        "credit": "Ford Motor Company",
+        "source": "https://commons.wikimedia.org/wiki/File:Henry_Ford_portrait_1915_original_(3x4_cropped).png",
+        "license": "Public domain",
+        "licenseUrl": "https://commons.wikimedia.org/wiki/File:Henry_Ford_portrait_1915_original_(3x4_cropped).png"
       }
     },
     {
@@ -81,6 +108,33 @@
         "source": "https://commons.wikimedia.org/wiki/File:%E6%9D%8E%E7%99%BB%E8%BC%9D%E7%B8%BD%E7%B5%B1%E7%8E%89%E7%85%A7_001_cropped.jpg",
         "license": "Attribution",
         "licenseUrl": "https://commons.wikimedia.org/wiki/File:%E6%9D%8E%E7%99%BB%E8%BC%9D%E7%B8%BD%E7%B5%B1%E7%8E%89%E7%85%A7_001_cropped.jpg"
+      }
+    },
+    {
+      "id": "01-13-douglas-wilder",
+      "date": "01-13",
+      "dateLabel": "13 January",
+      "category": "world",
+      "categoryName": "World",
+      "year": 1990,
+      "title": "Douglas Wilder",
+      "body": "Douglas Wilder becomes the first elected African American governor as he takes office as Governor of Virginia in Richmond, Virginia.",
+      "source": {
+        "name": "Wikipedia · Douglas Wilder",
+        "url": "https://en.wikipedia.org/wiki/Douglas_Wilder",
+        "calendarUrl": "https://en.wikipedia.org/wiki/January_13",
+        "license": {
+          "name": "CC BY-SA 4.0",
+          "url": "https://creativecommons.org/licenses/by-sa/4.0/"
+        }
+      },
+      "image": {
+        "src": "https://upload.wikimedia.org/wikipedia/commons/6/6f/Douglas_Wilder_2003_NIH.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+        "alt": "Picture from the Wikipedia article on Douglas Wilder.",
+        "credit": "Wikimedia Commons",
+        "source": "https://commons.wikimedia.org/wiki/File:Douglas_Wilder_2003_NIH.jpg",
+        "license": "Public domain",
+        "licenseUrl": "https://commons.wikimedia.org/wiki/File:Douglas_Wilder_2003_NIH.jpg"
       }
     }
   ]

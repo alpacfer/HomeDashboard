@@ -30,33 +30,6 @@
       }
     },
     {
-      "id": "01-24-franklin-d-roosevelt",
-      "date": "01-24",
-      "dateLabel": "24 January",
-      "category": "world",
-      "categoryName": "World",
-      "year": 1943,
-      "title": "Franklin D. Roosevelt",
-      "body": "Franklin D. Roosevelt and Winston Churchill conclude a conference in Casablanca.",
-      "source": {
-        "name": "Wikipedia · Franklin D. Roosevelt",
-        "url": "https://en.wikipedia.org/wiki/Franklin_D._Roosevelt",
-        "calendarUrl": "https://en.wikipedia.org/wiki/January_24",
-        "license": {
-          "name": "CC BY-SA 4.0",
-          "url": "https://creativecommons.org/licenses/by-sa/4.0/"
-        }
-      },
-      "image": {
-        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/fd/FDR-1944-Campaign-Portrait_%283x4_retouched%2C_cropped%29.jpg/1280px-FDR-1944-Campaign-Portrait_%283x4_retouched%2C_cropped%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-        "alt": "Picture from the Wikipedia article on Franklin D. Roosevelt.",
-        "credit": "Leon Perskie",
-        "source": "https://commons.wikimedia.org/wiki/File:FDR-1944-Campaign-Portrait_(3x4_retouched,_cropped).jpg",
-        "license": "CC BY 2.0",
-        "licenseUrl": "https://creativecommons.org/licenses/by/2.0"
-      }
-    },
-    {
       "id": "01-24-voyager-2",
       "date": "01-24",
       "dateLabel": "24 January",
@@ -77,10 +50,91 @@
       "image": {
         "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/60/Voyager_spacecraft_model.png/1280px-Voyager_spacecraft_model.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
         "alt": "Picture from the Wikipedia article on Voyager 2.",
-        "credit": "National Aeronautics and Space Administration (NASA)",
+        "credit": "NASA",
         "source": "https://commons.wikimedia.org/wiki/File:Voyager_spacecraft_model.png",
         "license": "Public domain",
         "licenseUrl": "https://commons.wikimedia.org/wiki/File:Voyager_spacecraft_model.png"
+      }
+    },
+    {
+      "id": "01-24-scouting",
+      "date": "01-24",
+      "dateLabel": "24 January",
+      "category": "world",
+      "categoryName": "World",
+      "year": 1908,
+      "title": "Scouting",
+      "body": "The first Boy Scout troop is organized in England by Robert Baden-Powell.",
+      "source": {
+        "name": "Wikipedia · Scouting",
+        "url": "https://en.wikipedia.org/wiki/Scouting",
+        "calendarUrl": "https://en.wikipedia.org/wiki/January_24",
+        "license": {
+          "name": "CC BY-SA 4.0",
+          "url": "https://creativecommons.org/licenses/by-sa/4.0/"
+        }
+      },
+      "image": {
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/84/1996-Rover_Moot-Fahnengru%C3%9F.jpg/1280px-1996-Rover_Moot-Fahnengru%C3%9F.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "alt": "Picture from the Wikipedia article on Scouting.",
+        "credit": "Jörg Bürgis",
+        "source": "https://commons.wikimedia.org/wiki/File:1996-Rover_Moot-Fahnengru%C3%9F.jpg",
+        "license": "CC BY-SA 2.5",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.5"
+      }
+    },
+    {
+      "id": "01-24-kosmos-954",
+      "date": "01-24",
+      "dateLabel": "24 January",
+      "category": "space",
+      "categoryName": "Space",
+      "year": 1978,
+      "title": "Kosmos 954",
+      "body": "Soviet satellite Kosmos 954, with a nuclear reactor on board, burns up in Earth's atmosphere, scattering radioactive debris over Canada's Northwest Territories. Only 1% is recovered.",
+      "source": {
+        "name": "Wikipedia · Kosmos 954",
+        "url": "https://en.wikipedia.org/wiki/Kosmos_954",
+        "calendarUrl": "https://en.wikipedia.org/wiki/January_24",
+        "license": {
+          "name": "CC BY-SA 4.0",
+          "url": "https://creativecommons.org/licenses/by-sa/4.0/"
+        }
+      },
+      "image": {
+        "src": "https://upload.wikimedia.org/wikipedia/commons/f/fa/Cosmos-954_scheme.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+        "alt": "Picture from the Wikipedia article on Kosmos 954.",
+        "credit": "NNSA US DOE",
+        "source": "https://commons.wikimedia.org/wiki/File:Cosmos-954_scheme.png",
+        "license": "Public domain",
+        "licenseUrl": "https://commons.wikimedia.org/wiki/File:Cosmos-954_scheme.png"
+      }
+    },
+    {
+      "id": "01-24-thermonuclear-weapon",
+      "date": "01-24",
+      "dateLabel": "24 January",
+      "category": "world",
+      "categoryName": "World",
+      "year": 1961,
+      "title": "Thermonuclear weapon",
+      "body": "A bomber carrying two H-bombs breaks up in mid-air over North Carolina. The uranium core of one weapon remains lost.",
+      "source": {
+        "name": "Wikipedia · Thermonuclear weapon",
+        "url": "https://en.wikipedia.org/wiki/Thermonuclear_weapon",
+        "calendarUrl": "https://en.wikipedia.org/wiki/January_24",
+        "license": {
+          "name": "CC BY-SA 4.0",
+          "url": "https://creativecommons.org/licenses/by-sa/4.0/"
+        }
+      },
+      "image": {
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/44/W88_warhead_diagram-num.svg/1280px-W88_warhead_diagram-num.svg.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "alt": "Picture from the Wikipedia article on Thermonuclear weapon.",
+        "credit": "Ayack",
+        "source": "https://commons.wikimedia.org/wiki/File:W88_warhead_diagram-num.svg",
+        "license": "CC BY-SA 3.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0"
       }
     }
   ]

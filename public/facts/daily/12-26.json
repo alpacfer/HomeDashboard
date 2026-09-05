@@ -30,6 +30,60 @@
       }
     },
     {
+      "id": "12-26-the-beatles",
+      "date": "12-26",
+      "dateLabel": "26 December",
+      "category": "culture",
+      "categoryName": "Culture",
+      "year": 1963,
+      "title": "The Beatles",
+      "body": "The Beatles' \"I Want to Hold Your Hand\" and \"I Saw Her Standing There\" are released in the United States, marking the beginning of Beatlemania on an international level.",
+      "source": {
+        "name": "Wikipedia · The Beatles",
+        "url": "https://en.wikipedia.org/wiki/The_Beatles",
+        "calendarUrl": "https://en.wikipedia.org/wiki/December_26",
+        "license": {
+          "name": "CC BY-SA 4.0",
+          "url": "https://creativecommons.org/licenses/by-sa/4.0/"
+        }
+      },
+      "image": {
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/42/The_Beatles_1963_Dezo_Hoffman_Capitol_Records_press_photo_2.jpg/1280px-The_Beatles_1963_Dezo_Hoffman_Capitol_Records_press_photo_2.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "alt": "Picture from the Wikipedia article on The Beatles.",
+        "credit": "Dezo Hoffmann",
+        "source": "https://commons.wikimedia.org/wiki/File:The_Beatles_1963_Dezo_Hoffman_Capitol_Records_press_photo_2.jpg",
+        "license": "Public domain",
+        "licenseUrl": "https://commons.wikimedia.org/wiki/File:The_Beatles_1963_Dezo_Hoffman_Capitol_Records_press_photo_2.jpg"
+      }
+    },
+    {
+      "id": "12-26-rendlesham-forest-incident",
+      "date": "12-26",
+      "dateLabel": "26 December",
+      "category": "world",
+      "categoryName": "World",
+      "year": 1980,
+      "title": "Rendlesham Forest incident",
+      "body": "Witnesses report the first of several sightings of unexplained lights near RAF Woodbridge, in Rendlesham Forest, Suffolk, England, United Kingdom, an incident called \"Britain's Roswell\".",
+      "source": {
+        "name": "Wikipedia · Rendlesham Forest incident",
+        "url": "https://en.wikipedia.org/wiki/Rendlesham_Forest_incident",
+        "calendarUrl": "https://en.wikipedia.org/wiki/December_26",
+        "license": {
+          "name": "CC BY-SA 4.0",
+          "url": "https://creativecommons.org/licenses/by-sa/4.0/"
+        }
+      },
+      "image": {
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c6/RAF_Woodbridge_East_Gate.jpg/1280px-RAF_Woodbridge_East_Gate.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "alt": "Picture from the Wikipedia article on Rendlesham Forest incident.",
+        "credit": "Taras Young",
+        "source": "https://commons.wikimedia.org/wiki/File:RAF_Woodbridge_East_Gate.jpg",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0"
+      }
+    },
+    {
       "id": "12-26-tu-144",
       "date": "12-26",
       "dateLabel": "26 December",
@@ -57,17 +111,17 @@
       }
     },
     {
-      "id": "12-26-the-beatles",
+      "id": "12-26-kwanzaa",
       "date": "12-26",
       "dateLabel": "26 December",
-      "category": "culture",
-      "categoryName": "Culture",
-      "year": 1963,
-      "title": "The Beatles",
-      "body": "The Beatles' \"I Want to Hold Your Hand\" and \"I Saw Her Standing There\" are released in the United States, marking the beginning of Beatlemania on an international level.",
+      "category": "world",
+      "categoryName": "World",
+      "year": 1966,
+      "title": "Kwanzaa",
+      "body": "The first Kwanzaa is celebrated by Maulana Karenga, the chair of Black Studies at California State University, Long Beach.",
       "source": {
-        "name": "Wikipedia · The Beatles",
-        "url": "https://en.wikipedia.org/wiki/The_Beatles",
+        "name": "Wikipedia · Kwanzaa",
+        "url": "https://en.wikipedia.org/wiki/Kwanzaa",
         "calendarUrl": "https://en.wikipedia.org/wiki/December_26",
         "license": {
           "name": "CC BY-SA 4.0",
@@ -75,12 +129,12 @@
         }
       },
       "image": {
-        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/42/The_Beatles_1963_Dezo_Hoffman_Capitol_Records_press_photo_2.jpg/1280px-The_Beatles_1963_Dezo_Hoffman_Capitol_Records_press_photo_2.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-        "alt": "Picture from the Wikipedia article on The Beatles.",
-        "credit": "Dezo Hoffmann, Distributed by Capitol Records",
-        "source": "https://commons.wikimedia.org/wiki/File:The_Beatles_1963_Dezo_Hoffman_Capitol_Records_press_photo_2.jpg",
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d8/Kwanzaa_Candles-Kinara.svg/1280px-Kwanzaa_Candles-Kinara.svg.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "alt": "Picture from the Wikipedia article on Kwanzaa.",
+        "credit": "Nesnad",
+        "source": "https://commons.wikimedia.org/wiki/File:Kwanzaa_Candles-Kinara.svg",
         "license": "Public domain",
-        "licenseUrl": "https://commons.wikimedia.org/wiki/File:The_Beatles_1963_Dezo_Hoffman_Capitol_Records_press_photo_2.jpg"
+        "licenseUrl": "https://commons.wikimedia.org/wiki/File:Kwanzaa_Candles-Kinara.svg"
       }
     }
   ]

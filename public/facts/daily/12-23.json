@@ -23,37 +23,10 @@
       "image": {
         "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/ae/Voyager_aircraft_return_from_non-stop_trip_around_the_world_%28EC87-0029-02%29.jpg/1280px-Voyager_aircraft_return_from_non-stop_trip_around_the_world_%28EC87-0029-02%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
         "alt": "Picture from the Wikipedia article on Rutan Voyager.",
-        "credit": "NASA Armstrong Flight Research Center / NASA/Thomas Harrop",
+        "credit": "NASA Armstrong Flight Research Center",
         "source": "https://commons.wikimedia.org/wiki/File:Voyager_aircraft_return_from_non-stop_trip_around_the_world_(EC87-0029-02).jpg",
         "license": "Public domain",
         "licenseUrl": "https://commons.wikimedia.org/wiki/File:Voyager_aircraft_return_from_non-stop_trip_around_the_world_(EC87-0029-02).jpg"
-      }
-    },
-    {
-      "id": "12-23-kabul",
-      "date": "12-23",
-      "dateLabel": "23 December",
-      "category": "world",
-      "categoryName": "World",
-      "year": 1979,
-      "title": "Kabul",
-      "body": "Soviet Union forces occupy Kabul, the Afghan capital.",
-      "source": {
-        "name": "Wikipedia · Kabul",
-        "url": "https://en.wikipedia.org/wiki/Kabul",
-        "calendarUrl": "https://en.wikipedia.org/wiki/December_23",
-        "license": {
-          "name": "CC BY-SA 4.0",
-          "url": "https://creativecommons.org/licenses/by-sa/4.0/"
-        }
-      },
-      "image": {
-        "src": "https://upload.wikimedia.org/wikipedia/commons/4/43/Kabul%2C_Afghanistan_view.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
-        "alt": "Picture from the Wikipedia article on Kabul.",
-        "credit": "Weaveravel",
-        "source": "https://commons.wikimedia.org/wiki/File:Kabul,_Afghanistan_view.jpg",
-        "license": "CC BY-SA 4.0",
-        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0"
       }
     },
     {
@@ -81,6 +54,87 @@
         "source": "https://commons.wikimedia.org/wiki/File:Kidtransplant.svg",
         "license": "CC BY 3.0",
         "licenseUrl": "https://creativecommons.org/licenses/by/3.0"
+      }
+    },
+    {
+      "id": "12-23-immaculate-reception",
+      "date": "12-23",
+      "dateLabel": "23 December",
+      "category": "world",
+      "categoryName": "World",
+      "year": 1972,
+      "title": "Immaculate Reception",
+      "body": "The Immaculate Reception is caught by Franco Harris to win the Pittsburgh Steelers their first ever playoff victory, after defeating the Oakland Raiders.",
+      "source": {
+        "name": "Wikipedia · Immaculate Reception",
+        "url": "https://en.wikipedia.org/wiki/Immaculate_Reception",
+        "calendarUrl": "https://en.wikipedia.org/wiki/December_23",
+        "license": {
+          "name": "CC BY-SA 4.0",
+          "url": "https://creativecommons.org/licenses/by-sa/4.0/"
+        }
+      },
+      "image": {
+        "src": "https://upload.wikimedia.org/wikipedia/commons/f/fd/Three_Rivers_Stadium.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+        "alt": "Picture from the Wikipedia article on Immaculate Reception.",
+        "credit": "dbking",
+        "source": "https://commons.wikimedia.org/wiki/File:Three_Rivers_Stadium.jpg",
+        "license": "CC BY 2.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by/2.0"
+      }
+    },
+    {
+      "id": "12-23-transistor",
+      "date": "12-23",
+      "dateLabel": "23 December",
+      "category": "tech",
+      "categoryName": "Tech",
+      "year": 1947,
+      "title": "Transistor",
+      "body": "The transistor is first demonstrated at Bell Laboratories.",
+      "source": {
+        "name": "Wikipedia · Transistor",
+        "url": "https://en.wikipedia.org/wiki/Transistor",
+        "calendarUrl": "https://en.wikipedia.org/wiki/December_23",
+        "license": {
+          "name": "CC BY-SA 4.0",
+          "url": "https://creativecommons.org/licenses/by-sa/4.0/"
+        }
+      },
+      "image": {
+        "src": "https://upload.wikimedia.org/wikipedia/commons/e/e1/Transbauformen.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+        "alt": "Picture from the Wikipedia article on Transistor.",
+        "credit": "Ulfbastel",
+        "source": "https://commons.wikimedia.org/wiki/File:Transbauformen.jpg",
+        "license": "CC BY-SA 3.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0/"
+      }
+    },
+    {
+      "id": "12-23-kabul",
+      "date": "12-23",
+      "dateLabel": "23 December",
+      "category": "world",
+      "categoryName": "World",
+      "year": 1979,
+      "title": "Kabul",
+      "body": "Soviet Union forces occupy Kabul, the Afghan capital.",
+      "source": {
+        "name": "Wikipedia · Kabul",
+        "url": "https://en.wikipedia.org/wiki/Kabul",
+        "calendarUrl": "https://en.wikipedia.org/wiki/December_23",
+        "license": {
+          "name": "CC BY-SA 4.0",
+          "url": "https://creativecommons.org/licenses/by-sa/4.0/"
+        }
+      },
+      "image": {
+        "src": "https://upload.wikimedia.org/wikipedia/commons/4/43/Kabul%2C_Afghanistan_view.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+        "alt": "Picture from the Wikipedia article on Kabul.",
+        "credit": "Weaveravel",
+        "source": "https://commons.wikimedia.org/wiki/File:Kabul,_Afghanistan_view.jpg",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0"
       }
     }
   ]

@@ -30,6 +30,33 @@
       }
     },
     {
+      "id": "03-07-reform-of-the-house-of-lords",
+      "date": "03-07",
+      "dateLabel": "7 March",
+      "category": "world",
+      "categoryName": "World",
+      "year": 2007,
+      "title": "Reform of the House of Lords",
+      "body": "Reform of the House of Lords: The British House of Commons votes to make the upper chamber, the House of Lords, 100% elected.",
+      "source": {
+        "name": "Wikipedia · Reform of the House of Lords",
+        "url": "https://en.wikipedia.org/wiki/Reform_of_the_House_of_Lords",
+        "calendarUrl": "https://en.wikipedia.org/wiki/March_7",
+        "license": {
+          "name": "CC BY-SA 4.0",
+          "url": "https://creativecommons.org/licenses/by-sa/4.0/"
+        }
+      },
+      "image": {
+        "src": "https://upload.wikimedia.org/wikipedia/commons/8/81/Microcosm_of_London_Plate_052_-_House_of_Lords_edited.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+        "alt": "Picture from the Wikipedia article on Reform of the House of Lords.",
+        "credit": "Thomas Rowlandson and Augustus Charles…",
+        "source": "https://commons.wikimedia.org/wiki/File:Microcosm_of_London_Plate_052_-_House_of_Lords_edited.jpg",
+        "license": "Public domain",
+        "licenseUrl": "https://commons.wikimedia.org/wiki/File:Microcosm_of_London_Plate_052_-_House_of_Lords_edited.jpg"
+      }
+    },
+    {
       "id": "03-07-alexander-graham-bell",
       "date": "03-07",
       "dateLabel": "7 March",
@@ -57,17 +84,17 @@
       }
     },
     {
-      "id": "03-07-reform-of-the-house-of-lords",
+      "id": "03-07-9th-armored-division-united-states",
       "date": "03-07",
       "dateLabel": "7 March",
       "category": "world",
       "categoryName": "World",
-      "year": 2007,
-      "title": "Reform of the House of Lords",
-      "body": "Reform of the House of Lords: The British House of Commons votes to make the upper chamber, the House of Lords, 100% elected.",
+      "year": 1945,
+      "title": "9th Armored Division",
+      "body": "The American 9th Armored Division unexpectedly captures an intact bridge over the Rhine.",
       "source": {
-        "name": "Wikipedia · Reform of the House of Lords",
-        "url": "https://en.wikipedia.org/wiki/Reform_of_the_House_of_Lords",
+        "name": "Wikipedia · 9th Armored Division (United States)",
+        "url": "https://en.wikipedia.org/wiki/9th_Armored_Division_(United_States)",
         "calendarUrl": "https://en.wikipedia.org/wiki/March_7",
         "license": {
           "name": "CC BY-SA 4.0",
@@ -75,12 +102,39 @@
         }
       },
       "image": {
-        "src": "https://upload.wikimedia.org/wikipedia/commons/8/81/Microcosm_of_London_Plate_052_-_House_of_Lords_edited.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
-        "alt": "Picture from the Wikipedia article on Reform of the House of Lords.",
-        "credit": "Thomas Rowlandson (1756–1827) and Augustus Charles Pugin (1762–1832) (after) John Bluck (fl. 1791–1819), Joseph Constantine Stadler (fl. 1780–1812), Thomas Suth",
-        "source": "https://commons.wikimedia.org/wiki/File:Microcosm_of_London_Plate_052_-_House_of_Lords_edited.jpg",
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/67/9th_US_Armored_Division_SSI.svg/1280px-9th_US_Armored_Division_SSI.svg.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "alt": "Picture from the Wikipedia article on 9th Armored Division.",
+        "credit": "Wikimedia Commons",
+        "source": "https://commons.wikimedia.org/wiki/File:9th_US_Armored_Division_SSI.svg",
         "license": "Public domain",
-        "licenseUrl": "https://commons.wikimedia.org/wiki/File:Microcosm_of_London_Plate_052_-_House_of_Lords_edited.jpg"
+        "licenseUrl": "https://commons.wikimedia.org/wiki/File:9th_US_Armored_Division_SSI.svg"
+      }
+    },
+    {
+      "id": "03-07-sheikh-mujibur-rahman",
+      "date": "03-07",
+      "dateLabel": "7 March",
+      "category": "world",
+      "categoryName": "World",
+      "year": 1971,
+      "title": "Sheikh Mujibur Rahman",
+      "body": "Sheikh Mujibur Rahman, political leader of then East Pakistan (present day-Bangladesh), delivers his historic 7th March speech in the Racecourse Field (Now Suhrawardy Udyan) in Dhaka.",
+      "source": {
+        "name": "Wikipedia · Sheikh Mujibur Rahman",
+        "url": "https://en.wikipedia.org/wiki/Sheikh_Mujibur_Rahman",
+        "calendarUrl": "https://en.wikipedia.org/wiki/March_7",
+        "license": {
+          "name": "CC BY-SA 4.0",
+          "url": "https://creativecommons.org/licenses/by-sa/4.0/"
+        }
+      },
+      "image": {
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/3e/Official_Portrait_of_Bangabandhu_Sheikh_Mujibur_Rahman.jpg/1280px-Official_Portrait_of_Bangabandhu_Sheikh_Mujibur_Rahman.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "alt": "Picture from the Wikipedia article on Sheikh Mujibur Rahman.",
+        "credit": "Press Information Department",
+        "source": "https://commons.wikimedia.org/wiki/File:Official_Portrait_of_Bangabandhu_Sheikh_Mujibur_Rahman.jpg",
+        "license": "Public domain",
+        "licenseUrl": "https://commons.wikimedia.org/wiki/File:Official_Portrait_of_Bangabandhu_Sheikh_Mujibur_Rahman.jpg"
       }
     }
   ]

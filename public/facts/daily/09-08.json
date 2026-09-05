@@ -23,7 +23,7 @@
       "image": {
         "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e9/Fire_near_Old_Faithful_Complex_2.jpg/1280px-Fire_near_Old_Faithful_Complex_2.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
         "alt": "Picture from the Wikipedia article on Yellowstone fires of 1988.",
-        "credit": "Wikimedia Commons contributor",
+        "credit": "Wikimedia Commons",
         "source": "https://commons.wikimedia.org/wiki/File:Fire_near_Old_Faithful_Complex_2.jpg",
         "license": "Public domain",
         "licenseUrl": "https://commons.wikimedia.org/wiki/File:Fire_near_Old_Faithful_Complex_2.jpg"
@@ -50,7 +50,7 @@
       "image": {
         "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/7b/OSIRIS-REx_spacecraft_model.png/1280px-OSIRIS-REx_spacecraft_model.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
         "alt": "Picture from the Wikipedia article on OSIRIS-REx.",
-        "credit": "National Aeronautics and Space Administration (NASA) / Goddard Space Flight Center (GSFC) / University of Arizona / Lockheed Martin",
+        "credit": "NASA",
         "source": "https://commons.wikimedia.org/wiki/File:OSIRIS-REx_spacecraft_model.png",
         "license": "Public domain",
         "licenseUrl": "https://commons.wikimedia.org/wiki/File:OSIRIS-REx_spacecraft_model.png"
@@ -81,6 +81,60 @@
         "source": "https://commons.wikimedia.org/wiki/File:Fus%C3%A9e_V2_(cropped).jpg",
         "license": "CC BY-SA 3.0",
         "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0/"
+      }
+    },
+    {
+      "id": "09-08-huntsville-alabama",
+      "date": "09-08",
+      "dateLabel": "8 September",
+      "category": "space",
+      "categoryName": "Space",
+      "year": 1960,
+      "title": "Huntsville, Alabama",
+      "body": "In Huntsville, Alabama, US President Dwight D. Eisenhower formally dedicates the Marshall Space Flight Center (NASA had already activated the facility on July 1).",
+      "source": {
+        "name": "Wikipedia · Huntsville, Alabama",
+        "url": "https://en.wikipedia.org/wiki/Huntsville,_Alabama",
+        "calendarUrl": "https://en.wikipedia.org/wiki/September_8",
+        "license": {
+          "name": "CC BY-SA 4.0",
+          "url": "https://creativecommons.org/licenses/by-sa/4.0/"
+        }
+      },
+      "image": {
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/9f/Huntsville_Art_Museum_-_front_fa%C3%A7ade_and_stairs_2023.jpg/1280px-Huntsville_Art_Museum_-_front_fa%C3%A7ade_and_stairs_2023.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "alt": "Picture from the Wikipedia article on Huntsville, Alabama.",
+        "credit": "American Diabetio",
+        "source": "https://commons.wikimedia.org/wiki/File:Huntsville_Art_Museum_-_front_fa%C3%A7ade_and_stairs_2023.jpg",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0"
+      }
+    },
+    {
+      "id": "09-08-space-shuttle-atlantis",
+      "date": "09-08",
+      "dateLabel": "8 September",
+      "category": "space",
+      "categoryName": "Space",
+      "year": 2000,
+      "title": "Space Shuttle Atlantis",
+      "body": "NASA launches Space Shuttle Atlantis on STS-106 to resupply the International Space Station.",
+      "source": {
+        "name": "Wikipedia · Space Shuttle Atlantis",
+        "url": "https://en.wikipedia.org/wiki/Space_Shuttle_Atlantis",
+        "calendarUrl": "https://en.wikipedia.org/wiki/September_8",
+        "license": {
+          "name": "CC BY-SA 4.0",
+          "url": "https://creativecommons.org/licenses/by-sa/4.0/"
+        }
+      },
+      "image": {
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/0e/STS132_Atlantis_undocking2_%28cropped%29.jpg/1280px-STS132_Atlantis_undocking2_%28cropped%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "alt": "Picture from the Wikipedia article on Space Shuttle Atlantis.",
+        "credit": "NASA",
+        "source": "https://commons.wikimedia.org/wiki/File:STS132_Atlantis_undocking2_(cropped).jpg",
+        "license": "Public domain",
+        "licenseUrl": "https://commons.wikimedia.org/wiki/File:STS132_Atlantis_undocking2_(cropped).jpg"
       }
     }
   ]

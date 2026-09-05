@@ -23,24 +23,24 @@
       "image": {
         "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/60/Voyager_spacecraft_model.png/1280px-Voyager_spacecraft_model.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
         "alt": "Picture from the Wikipedia article on Voyager 1.",
-        "credit": "National Aeronautics and Space Administration (NASA)",
+        "credit": "NASA",
         "source": "https://commons.wikimedia.org/wiki/File:Voyager_spacecraft_model.png",
         "license": "Public domain",
         "licenseUrl": "https://commons.wikimedia.org/wiki/File:Voyager_spacecraft_model.png"
       }
     },
     {
-      "id": "02-14-ibm",
+      "id": "02-14-youtube",
       "date": "02-14",
       "dateLabel": "14 February",
       "category": "tech",
       "categoryName": "Tech",
-      "year": 1924,
-      "title": "IBM",
-      "body": "The Computing-Tabulating-Recording Company changes its name to International Business Machines Corporation (IBM).",
+      "year": 2005,
+      "title": "YouTube",
+      "body": "YouTube is launched by a group of college students, eventually becoming the largest video sharing website in the world and a main source for viral videos.",
       "source": {
-        "name": "Wikipedia · IBM",
-        "url": "https://en.wikipedia.org/wiki/IBM",
+        "name": "Wikipedia · YouTube",
+        "url": "https://en.wikipedia.org/wiki/YouTube",
         "calendarUrl": "https://en.wikipedia.org/wiki/February_14",
         "license": {
           "name": "CC BY-SA 4.0",
@@ -48,12 +48,12 @@
         }
       },
       "image": {
-        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b5/IBM_CHQ_-_Oct_2014.jpg/1280px-IBM_CHQ_-_Oct_2014.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-        "alt": "Picture from the Wikipedia article on IBM.",
-        "credit": "Treesmittenex",
-        "source": "https://commons.wikimedia.org/wiki/File:IBM_CHQ_-_Oct_2014.jpg",
-        "license": "CC BY-SA 4.0",
-        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0"
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/fd/Youtube_interface%2C_showing_search_results_of_Burger_Recipe.png/1280px-Youtube_interface%2C_showing_search_results_of_Burger_Recipe.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "alt": "Picture from the Wikipedia article on YouTube.",
+        "credit": "Lyles BBQ, Smile and Learn",
+        "source": "https://commons.wikimedia.org/wiki/File:Youtube_interface,_showing_search_results_of_Burger_Recipe.png",
+        "license": "Public domain",
+        "licenseUrl": "https://commons.wikimedia.org/wiki/File:Youtube_interface,_showing_search_results_of_Burger_Recipe.png"
       }
     },
     {
@@ -77,10 +77,64 @@
       "image": {
         "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b3/Portrait_of_Ruhollah_Khomeini_By_Ali_Kaveh.jpg/1280px-Portrait_of_Ruhollah_Khomeini_By_Ali_Kaveh.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
         "alt": "Picture from the Wikipedia article on Ruhollah Khomeini.",
-        "credit": "Ali Kaveh[1][2][3]",
+        "credit": "Ali Kaveh",
         "source": "https://commons.wikimedia.org/wiki/File:Portrait_of_Ruhollah_Khomeini_By_Ali_Kaveh.jpg",
         "license": "Public domain",
         "licenseUrl": "https://commons.wikimedia.org/wiki/File:Portrait_of_Ruhollah_Khomeini_By_Ali_Kaveh.jpg"
+      }
+    },
+    {
+      "id": "02-14-knesset",
+      "date": "02-14",
+      "dateLabel": "14 February",
+      "category": "world",
+      "categoryName": "World",
+      "year": 1949,
+      "title": "Knesset",
+      "body": "The Knesset (parliament of Israel) convenes for the first time.",
+      "source": {
+        "name": "Wikipedia · Knesset",
+        "url": "https://en.wikipedia.org/wiki/Knesset",
+        "calendarUrl": "https://en.wikipedia.org/wiki/February_14",
+        "license": {
+          "name": "CC BY-SA 4.0",
+          "url": "https://creativecommons.org/licenses/by-sa/4.0/"
+        }
+      },
+      "image": {
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/de/Israeli_Knesset_Current_Composition.svg/1280px-Israeli_Knesset_Current_Composition.svg.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "alt": "Picture from the Wikipedia article on Knesset.",
+        "credit": "User:אורי פרקש",
+        "source": "https://commons.wikimedia.org/wiki/File:Israeli_Knesset_Current_Composition.svg",
+        "license": "Public domain",
+        "licenseUrl": "https://commons.wikimedia.org/wiki/File:Israeli_Knesset_Current_Composition.svg"
+      }
+    },
+    {
+      "id": "02-14-timeline-of-chemical-element-discoveries",
+      "date": "02-14",
+      "dateLabel": "14 February",
+      "category": "science",
+      "categoryName": "Science",
+      "year": 1961,
+      "title": "Timeline of chemical element discoveries",
+      "body": "Element 103, Lawrencium, is first synthesized at the University of California.",
+      "source": {
+        "name": "Wikipedia · Timeline of chemical element discoveries",
+        "url": "https://en.wikipedia.org/wiki/Timeline_of_chemical_element_discoveries",
+        "calendarUrl": "https://en.wikipedia.org/wiki/February_14",
+        "license": {
+          "name": "CC BY-SA 4.0",
+          "url": "https://creativecommons.org/licenses/by-sa/4.0/"
+        }
+      },
+      "image": {
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/03/Simple_Periodic_Table_Chart-blocks.svg/1280px-Simple_Periodic_Table_Chart-blocks.svg.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "alt": "Picture from the Wikipedia article on Timeline of chemical element discoveries.",
+        "credit": "User:Double sharp",
+        "source": "https://commons.wikimedia.org/wiki/File:Simple_Periodic_Table_Chart-blocks.svg",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0"
       }
     }
   ]

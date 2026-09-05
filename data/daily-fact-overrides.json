@@ -1,6 +1,16 @@
 {
-  "comment": "Editorial seeds. Each takes a slot on its date before anything scored, and the generator fills the rest. See docs/DAILY_FACTS.md. `article` is the source and headline subject; `imageArticle` overrides only where the picture comes from.",
+  "comment": "Editorial seeds. Each takes a slot on its date before anything scored, and the generator fills the rest. See docs/DAILY_FACTS.md. `article` is the source and headline subject; `imageArticle` overrides only where the picture comes from, and `imageFile` names a Wikimedia Commons file outright. The meme entries need `imageFile` because the picture everybody recognises is almost always non-free: Wikipedia holds it locally under fair use, which this display may not reuse, so each meme is illustrated by a freely licensed picture of its subject instead.",
   "facts": [
+    {
+      "date": "01-11",
+      "year": 2007,
+      "category": "curious",
+      "article": "I Can Has Cheezburger?",
+      "imageArticle": "Lolcat",
+      "title": "I Can Has Cheezburger?",
+      "body": "Eric Nakagawa posted a photograph of a delighted cat asking for a cheeseburger, spelled wrong on purpose. The blog he built around it took a million and a half hits a day and made the captioned animal the internet's native art form.",
+      "alt": "A cat photographed and captioned in the deliberately misspelled style of a lolcat."
+    },
     {
       "date": "01-15",
       "year": 2001,
@@ -9,6 +19,16 @@
       "title": "Wikipedia opens",
       "body": "An encyclopedia anyone could edit went live, as a side project meant to feed articles to a more serious one written by experts. The serious one closed in 2009.",
       "alt": "An early screenshot of the Wikipedia main page."
+    },
+    {
+      "date": "01-30",
+      "year": 2013,
+      "category": "curious",
+      "article": "Harlem Shake (meme)",
+      "imageFile": "Harlem Shake meme B-Town ASU.jpg",
+      "title": "The Harlem Shake",
+      "body": "George Miller uploaded thirty seconds of costumed people flailing to a Baauer track. Within a fortnight thousands of imitations were going up every day, and the song it was danced to went to number one on the strength of them.",
+      "alt": "A group in outlandish costumes mid-flail in a Harlem Shake video."
     },
     {
       "date": "03-10",
@@ -31,6 +51,16 @@
       "alt": "A photograph of YouTube co-founder Jawed Karim."
     },
     {
+      "date": "04-23",
+      "year": 2021,
+      "category": "space",
+      "article": "SpaceX Crew-2",
+      "imageFile": "Grogu watching the Earth from Crew Dragon (ISS064-E-6954).jpg",
+      "title": "Grogu goes to orbit",
+      "body": "A Grogu plush toy flew to the International Space Station aboard Crew Dragon as the mission's zero-gravity indicator: the object that starts floating when the engines cut out. Baby Yoda had been the internet's favourite face for a year and a half.",
+      "alt": "A Grogu plush toy floating inside the Crew Dragon capsule with the Earth behind it."
+    },
+    {
       "date": "05-11",
       "year": 1997,
       "category": "tech",
@@ -38,6 +68,16 @@
       "title": "Deep Blue beats Kasparov",
       "body": "A chess computer won a full match against a reigning world champion for the first time. Kasparov, convinced no machine could have played that well, accused IBM of hiding a human.",
       "alt": "A photograph of the Deep Blue chess computer."
+    },
+    {
+      "date": "05-15",
+      "year": 2007,
+      "category": "curious",
+      "article": "Rickrolling",
+      "imageFile": "CalJam17 071017-106 (23791812018).jpg",
+      "title": "Rickrolling begins",
+      "body": "A 4chan user uploaded Rick Astley's Never Gonna Give You Up to YouTube and started passing the link off as something else entirely. The bait outlived most of the websites it was played on, and revived Astley's performing career.",
+      "alt": "Rick Astley performing on stage."
     },
     {
       "date": "05-17",
@@ -59,6 +99,26 @@
       "alt": "A western lowland gorilla, the subspecies Harambe belonged to."
     },
     {
+      "date": "06-06",
+      "year": 2012,
+      "category": "curious",
+      "article": "Overly Attached Girlfriend",
+      "imageFile": "Laina Morris by Gage Skidmore.jpg",
+      "title": "Overly Attached Girlfriend",
+      "body": "Laina Morris entered a Justin Bieber fan contest by staring down the camera with a fixed smile and singing about reading her boyfriend's messages. The face became one of the most reused on the internet.",
+      "alt": "A portrait of Laina Morris, who created the Overly Attached Girlfriend character."
+    },
+    {
+      "date": "06-17",
+      "year": 2016,
+      "category": "culture",
+      "article": "Baby Shark",
+      "imageFile": "Baby shark dance, Andersen.jpg",
+      "title": "Baby Shark",
+      "body": "Pinkfong put out a version of an old children's camp song with a dance made entirely of hand movements. It became the most-watched video on YouTube, and then the first to pass ten billion views.",
+      "alt": "Children performing the hand movements of the Baby Shark dance."
+    },
+    {
       "date": "06-29",
       "year": 2007,
       "category": "tech",
@@ -67,6 +127,16 @@
       "title": "The iPhone goes on sale",
       "body": "People queued outside Apple stores for days for a phone that could not send a picture message, record video, or run any software but Apple's own. The app store was a year away.",
       "alt": "Steve Jobs presenting the original iPhone on stage."
+    },
+    {
+      "date": "07-15",
+      "year": 2012,
+      "category": "culture",
+      "article": "Gangnam Style",
+      "imageFile": "Gangnam Style South Korea.jpg",
+      "title": "Gangnam Style",
+      "body": "Psy released a song mocking the pretensions of a wealthy Seoul district, danced as though riding an invisible horse. It became the first video on YouTube to be watched a billion times.",
+      "alt": "A crowd performing the horse-riding dance from Gangnam Style."
     },
     {
       "date": "08-01",
@@ -95,6 +165,16 @@
       "title": "The first :-)",
       "body": "Scott Fahlman suggested :-) and :-( on a Carnegie Mellon message board, so people could tell which posts were jokes. The original message was lost for twenty years, then found on a backup tape.",
       "alt": "A smiley face, the symbol the first emoticon was drawn to represent."
+    },
+    {
+      "date": "09-22",
+      "year": 2012,
+      "category": "curious",
+      "article": "Grumpy Cat",
+      "imageFile": "Grumpy Cat meme example.jpg",
+      "title": "Grumpy Cat",
+      "body": "Bryan Bundesen posted a photograph of his sister's cat to Reddit. Feline dwarfism and an underbite had given Tardar Sauce a look of permanent, profound disappointment, and made her the most bankable pet on the internet.",
+      "alt": "A captioned photograph of Grumpy Cat, whose underbite gave her a disapproving expression."
     },
     {
       "date": "10-29",

@@ -23,10 +23,37 @@
       "image": {
         "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c9/U.S._Flag_Flaps_Outside_U.S._Embassy_in_Havana%2C_Cuba_%2825998479275%29.jpg/1280px-U.S._Flag_Flaps_Outside_U.S._Embassy_in_Havana%2C_Cuba_%2825998479275%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
         "alt": "Picture from the Wikipedia article on Embassy of the United States, Havana.",
-        "credit": "U.S. Department of State from United States",
+        "credit": "U.S. Department of State",
         "source": "https://commons.wikimedia.org/wiki/File:U.S._Flag_Flaps_Outside_U.S._Embassy_in_Havana,_Cuba_(25998479275).jpg",
         "license": "Public domain",
         "licenseUrl": "https://commons.wikimedia.org/wiki/File:U.S._Flag_Flaps_Outside_U.S._Embassy_in_Havana,_Cuba_(25998479275).jpg"
+      }
+    },
+    {
+      "id": "08-14-villasur-expedition",
+      "date": "08-14",
+      "dateLabel": "14 August",
+      "category": "science",
+      "categoryName": "Science",
+      "year": 1720,
+      "title": "Villasur expedition",
+      "body": "The Spanish military Villasur expedition is defeated by Pawnee and Otoe warriors near present-day Columbus, Nebraska.",
+      "source": {
+        "name": "Wikipedia · Villasur expedition",
+        "url": "https://en.wikipedia.org/wiki/Villasur_expedition",
+        "calendarUrl": "https://en.wikipedia.org/wiki/August_14",
+        "license": {
+          "name": "CC BY-SA 4.0",
+          "url": "https://creativecommons.org/licenses/by-sa/4.0/"
+        }
+      },
+      "image": {
+        "src": "https://upload.wikimedia.org/wikipedia/commons/4/41/PawneeVillasur1720.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+        "alt": "Picture from the Wikipedia article on Villasur expedition.",
+        "credit": "Wikimedia Commons",
+        "source": "https://commons.wikimedia.org/wiki/File:PawneeVillasur1720.jpg",
+        "license": "Public domain",
+        "licenseUrl": "https://commons.wikimedia.org/wiki/File:PawneeVillasur1720.jpg"
       }
     },
     {
@@ -81,6 +108,33 @@
         "source": "https://commons.wikimedia.org/wiki/File:03.17_%E7%B8%BD%E7%B5%B1%E6%8E%A5%E8%A6%8B%E3%80%8C%E6%B3%A2%E8%98%AD%E5%89%8D%E7%B8%BD%E7%B5%B1%E8%8F%AF%E5%8B%92%E6%B2%99%E4%B9%99%E8%A1%8C%E3%80%8D_-_55151702432_(cropped).jpg",
         "license": "CC BY 4.0",
         "licenseUrl": "https://creativecommons.org/licenses/by/4.0"
+      }
+    },
+    {
+      "id": "08-14-wildfire",
+      "date": "08-14",
+      "dateLabel": "14 August",
+      "category": "world",
+      "categoryName": "World",
+      "year": 1933,
+      "title": "Wildfire",
+      "body": "Loggers cause a forest fire in the Coast Range of Oregon, later known as the first forest fire of the Tillamook Burn; destroying of land.",
+      "source": {
+        "name": "Wikipedia · Wildfire",
+        "url": "https://en.wikipedia.org/wiki/Wildfire",
+        "calendarUrl": "https://en.wikipedia.org/wiki/August_14",
+        "license": {
+          "name": "CC BY-SA 4.0",
+          "url": "https://creativecommons.org/licenses/by-sa/4.0/"
+        }
+      },
+      "image": {
+        "src": "https://upload.wikimedia.org/wikipedia/commons/0/05/Burnout_ops_on_Mangum_Fire_McCall_Smokejumpers.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+        "alt": "Picture from the Wikipedia article on Wildfire.",
+        "credit": "Mike McMillan/USFS",
+        "source": "https://commons.wikimedia.org/wiki/File:Burnout_ops_on_Mangum_Fire_McCall_Smokejumpers.jpg",
+        "license": "Public domain",
+        "licenseUrl": "https://commons.wikimedia.org/wiki/File:Burnout_ops_on_Mangum_Fire_McCall_Smokejumpers.jpg"
       }
     }
   ]

@@ -50,7 +50,7 @@
       "image": {
         "src": "https://upload.wikimedia.org/wikipedia/commons/2/20/Steve_Fossett_1.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
         "alt": "Picture from the Wikipedia article on Steve Fossett.",
-        "credit": "John Mathew Smith & www.celebrity-photos.com from Laurel Maryland, USA",
+        "credit": "John Mathew Smith & www.celebrity-photos…",
         "source": "https://commons.wikimedia.org/wiki/File:Steve_Fossett_1.jpg",
         "license": "CC BY-SA 2.0",
         "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0"
@@ -81,6 +81,60 @@
         "source": "https://commons.wikimedia.org/wiki/File:Petroleum_sample.jpg",
         "license": "CC0",
         "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/deed.en"
+      }
+    },
+    {
+      "id": "03-03-amateur-video",
+      "date": "03-03",
+      "dateLabel": "3 March",
+      "category": "world",
+      "categoryName": "World",
+      "year": 1991,
+      "title": "Amateur film",
+      "body": "An amateur video captures the beating of Rodney King by Los Angeles police officers.",
+      "source": {
+        "name": "Wikipedia · Amateur film",
+        "url": "https://en.wikipedia.org/wiki/Amateur_film",
+        "calendarUrl": "https://en.wikipedia.org/wiki/March_3",
+        "license": {
+          "name": "CC BY-SA 4.0",
+          "url": "https://creativecommons.org/licenses/by-sa/4.0/"
+        }
+      },
+      "image": {
+        "src": "https://upload.wikimedia.org/wikipedia/commons/a/ad/BolexH16.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+        "alt": "Picture from the Wikipedia article on Amateur film.",
+        "credit": "User:Janke",
+        "source": "https://commons.wikimedia.org/wiki/File:BolexH16.jpg",
+        "license": "Public domain",
+        "licenseUrl": "https://commons.wikimedia.org/wiki/File:BolexH16.jpg"
+      }
+    },
+    {
+      "id": "03-03-australia-act-1986",
+      "date": "03-03",
+      "dateLabel": "3 March",
+      "category": "world",
+      "categoryName": "World",
+      "year": 1986,
+      "title": "Australia Act 1986",
+      "body": "The Australia Act 1986 commences, causing Australia to become fully independent from the United Kingdom.",
+      "source": {
+        "name": "Wikipedia · Australia Act 1986",
+        "url": "https://en.wikipedia.org/wiki/Australia_Act_1986",
+        "calendarUrl": "https://en.wikipedia.org/wiki/March_3",
+        "license": {
+          "name": "CC BY-SA 4.0",
+          "url": "https://creativecommons.org/licenses/by-sa/4.0/"
+        }
+      },
+      "image": {
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c5/Coat_of_arms_of_the_Commonwealth_of_Australia.svg/1280px-Coat_of_arms_of_the_Commonwealth_of_Australia.svg.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "alt": "Picture from the Wikipedia article on Australia Act 1986.",
+        "credit": "Sodacan",
+        "source": "https://commons.wikimedia.org/wiki/File:Coat_of_arms_of_the_Commonwealth_of_Australia.svg",
+        "license": "Public domain",
+        "licenseUrl": "https://commons.wikimedia.org/wiki/File:Coat_of_arms_of_the_Commonwealth_of_Australia.svg"
       }
     }
   ]

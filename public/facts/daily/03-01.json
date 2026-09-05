@@ -82,6 +82,60 @@
         "license": "Public domain",
         "licenseUrl": "https://commons.wikimedia.org/wiki/File:Paul_Nadar_-_Henri_Becquerel.jpg"
       }
+    },
+    {
+      "id": "03-01-1991-iraqi-uprisings",
+      "date": "03-01",
+      "dateLabel": "1 March",
+      "category": "world",
+      "categoryName": "World",
+      "year": 1991,
+      "title": "1991 Iraqi uprisings",
+      "body": "Uprisings against Saddam Hussein begin in Iraq, leading to the deaths of more than 25,000 people, mostly civilians.",
+      "source": {
+        "name": "Wikipedia · 1991 Iraqi uprisings",
+        "url": "https://en.wikipedia.org/wiki/1991_Iraqi_uprisings",
+        "calendarUrl": "https://en.wikipedia.org/wiki/March_1",
+        "license": {
+          "name": "CC BY-SA 4.0",
+          "url": "https://creativecommons.org/licenses/by-sa/4.0/"
+        }
+      },
+      "image": {
+        "src": "https://upload.wikimedia.org/wikipedia/commons/3/37/Destroyed_tank_1991_uprising_Iraq.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+        "alt": "Picture from the Wikipedia article on 1991 Iraqi uprisings.",
+        "credit": "Unknown author",
+        "source": "https://commons.wikimedia.org/wiki/File:Destroyed_tank_1991_uprising_Iraq.jpg",
+        "license": "Public domain",
+        "licenseUrl": "https://commons.wikimedia.org/wiki/File:Destroyed_tank_1991_uprising_Iraq.jpg"
+      }
+    },
+    {
+      "id": "03-01-united-states-customs-service",
+      "date": "03-01",
+      "dateLabel": "1 March",
+      "category": "world",
+      "categoryName": "World",
+      "year": 2003,
+      "title": "United States Customs Service",
+      "body": "Management of the United States Customs Service and the United States Secret Service moves to the United States Department of Homeland Security.",
+      "source": {
+        "name": "Wikipedia · United States Customs Service",
+        "url": "https://en.wikipedia.org/wiki/United_States_Customs_Service",
+        "calendarUrl": "https://en.wikipedia.org/wiki/March_1",
+        "license": {
+          "name": "CC BY-SA 4.0",
+          "url": "https://creativecommons.org/licenses/by-sa/4.0/"
+        }
+      },
+      "image": {
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/2c/Seal_of_the_U.S._Customs_Service.svg/1280px-Seal_of_the_U.S._Customs_Service.svg.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "alt": "Picture from the Wikipedia article on United States Customs Service.",
+        "credit": "U.S. Government",
+        "source": "https://commons.wikimedia.org/wiki/File:Seal_of_the_U.S._Customs_Service.svg",
+        "license": "Public domain",
+        "licenseUrl": "https://commons.wikimedia.org/wiki/File:Seal_of_the_U.S._Customs_Service.svg"
+      }
     }
   ]
 }

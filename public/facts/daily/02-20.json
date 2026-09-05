@@ -82,6 +82,60 @@
         "license": "Public domain",
         "licenseUrl": "https://commons.wikimedia.org/wiki/File:Rossini_young-circa-1815.jpg"
       }
+    },
+    {
+      "id": "02-20-mir",
+      "date": "02-20",
+      "dateLabel": "20 February",
+      "category": "space",
+      "categoryName": "Space",
+      "year": 1986,
+      "title": "Mir",
+      "body": "The Soviet Union launches its Mir spacecraft. Remaining in orbit for 15 years, it is occupied for ten of those years.",
+      "source": {
+        "name": "Wikipedia · Mir",
+        "url": "https://en.wikipedia.org/wiki/Mir",
+        "calendarUrl": "https://en.wikipedia.org/wiki/February_20",
+        "license": {
+          "name": "CC BY-SA 4.0",
+          "url": "https://creativecommons.org/licenses/by-sa/4.0/"
+        }
+      },
+      "image": {
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/09/Mir_Space_Station_viewed_from_Endeavour_during_STS-89.jpg/1280px-Mir_Space_Station_viewed_from_Endeavour_during_STS-89.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "alt": "Picture from the Wikipedia article on Mir.",
+        "credit": "NASA",
+        "source": "https://commons.wikimedia.org/wiki/File:Mir_Space_Station_viewed_from_Endeavour_during_STS-89.jpg",
+        "license": "Public domain",
+        "licenseUrl": "https://commons.wikimedia.org/wiki/File:Mir_Space_Station_viewed_from_Endeavour_during_STS-89.jpg"
+      }
+    },
+    {
+      "id": "02-20-tara-lipinski",
+      "date": "02-20",
+      "dateLabel": "20 February",
+      "category": "sport",
+      "categoryName": "Sport",
+      "year": 1998,
+      "title": "Tara Lipinski",
+      "body": "American figure skater Tara Lipinski, at the age of 15, becomes the youngest Olympic figure skating gold-medalist at the 1998 Winter Olympics in Nagano, Japan.",
+      "source": {
+        "name": "Wikipedia · Tara Lipinski",
+        "url": "https://en.wikipedia.org/wiki/Tara_Lipinski",
+        "calendarUrl": "https://en.wikipedia.org/wiki/February_20",
+        "license": {
+          "name": "CC BY-SA 4.0",
+          "url": "https://creativecommons.org/licenses/by-sa/4.0/"
+        }
+      },
+      "image": {
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/9a/Tara_Lipinski_in_Sochi.jpg/1280px-Tara_Lipinski_in_Sochi.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "alt": "Picture from the Wikipedia article on Tara Lipinski.",
+        "credit": "Andy Miah",
+        "source": "https://commons.wikimedia.org/wiki/File:Tara_Lipinski_in_Sochi.jpg",
+        "license": "CC0",
+        "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/deed.en"
+      }
     }
   ]
 }

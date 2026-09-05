@@ -23,10 +23,91 @@
       "image": {
         "src": "https://upload.wikimedia.org/wikipedia/commons/2/24/Jawed_Karim_2008.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
         "alt": "A photograph of YouTube co-founder Jawed Karim.",
-        "credit": "Picture taken by Robin BrownOriginal uploaded by Jawed (Transfered by Quibik)",
+        "credit": "Picture taken",
         "source": "https://commons.wikimedia.org/wiki/File:Jawed_Karim_2008.jpg",
         "license": "Public domain",
         "licenseUrl": "https://commons.wikimedia.org/wiki/File:Jawed_Karim_2008.jpg"
+      }
+    },
+    {
+      "id": "04-23-spacex-crew-2",
+      "date": "04-23",
+      "dateLabel": "23 April",
+      "category": "space",
+      "categoryName": "Space",
+      "year": 2021,
+      "title": "Grogu goes to orbit",
+      "body": "A Grogu plush toy flew to the International Space Station aboard Crew Dragon as the mission's zero-gravity indicator: the object that starts floating when the engines cut out. Baby Yoda had been the internet's favourite face for a year and a half.",
+      "source": {
+        "name": "Wikipedia · SpaceX Crew-2",
+        "url": "https://en.wikipedia.org/wiki/SpaceX_Crew-2",
+        "calendarUrl": "https://en.wikipedia.org/wiki/April_23",
+        "license": {
+          "name": "CC BY-SA 4.0",
+          "url": "https://creativecommons.org/licenses/by-sa/4.0/"
+        }
+      },
+      "image": {
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/87/Grogu_watching_the_Earth_from_Crew_Dragon_%28ISS064-E-6954%29.jpg/1280px-Grogu_watching_the_Earth_from_Crew_Dragon_%28ISS064-E-6954%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "alt": "A Grogu plush toy floating inside the Crew Dragon capsule with the Earth behind it.",
+        "credit": "NASA",
+        "source": "https://commons.wikimedia.org/wiki/File:Grogu_watching_the_Earth_from_Crew_Dragon_(ISS064-E-6954).jpg",
+        "license": "Public domain",
+        "licenseUrl": "https://commons.wikimedia.org/wiki/File:Grogu_watching_the_Earth_from_Crew_Dragon_(ISS064-E-6954).jpg"
+      }
+    },
+    {
+      "id": "04-23-namibia",
+      "date": "04-23",
+      "dateLabel": "23 April",
+      "category": "world",
+      "categoryName": "World",
+      "year": 1990,
+      "title": "Namibia",
+      "body": "Namibia becomes the 160th member of the United Nations and the 50th member of the Commonwealth of Nations.",
+      "source": {
+        "name": "Wikipedia · Namibia",
+        "url": "https://en.wikipedia.org/wiki/Namibia",
+        "calendarUrl": "https://en.wikipedia.org/wiki/April_23",
+        "license": {
+          "name": "CC BY-SA 4.0",
+          "url": "https://creativecommons.org/licenses/by-sa/4.0/"
+        }
+      },
+      "image": {
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/00/Flag_of_Namibia.svg/1280px-Flag_of_Namibia.svg.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "alt": "Picture from the Wikipedia article on Namibia.",
+        "credit": "SVG by Vzb83~commonswiki et al",
+        "source": "https://commons.wikimedia.org/wiki/File:Flag_of_Namibia.svg",
+        "license": "Public domain",
+        "licenseUrl": "https://commons.wikimedia.org/wiki/File:Flag_of_Namibia.svg"
+      }
+    },
+    {
+      "id": "04-23-youtube",
+      "date": "04-23",
+      "dateLabel": "23 April",
+      "category": "tech",
+      "categoryName": "Tech",
+      "year": 2005,
+      "title": "YouTube",
+      "body": "The first YouTube video, titled \"Me at the zoo\", is published by co-founder Jawed Karim.",
+      "source": {
+        "name": "Wikipedia · YouTube",
+        "url": "https://en.wikipedia.org/wiki/YouTube",
+        "calendarUrl": "https://en.wikipedia.org/wiki/April_23",
+        "license": {
+          "name": "CC BY-SA 4.0",
+          "url": "https://creativecommons.org/licenses/by-sa/4.0/"
+        }
+      },
+      "image": {
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/fd/Youtube_interface%2C_showing_search_results_of_Burger_Recipe.png/1280px-Youtube_interface%2C_showing_search_results_of_Burger_Recipe.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "alt": "Picture from the Wikipedia article on YouTube.",
+        "credit": "Lyles BBQ, Smile and Learn",
+        "source": "https://commons.wikimedia.org/wiki/File:Youtube_interface,_showing_search_results_of_Burger_Recipe.png",
+        "license": "Public domain",
+        "licenseUrl": "https://commons.wikimedia.org/wiki/File:Youtube_interface,_showing_search_results_of_Burger_Recipe.png"
       }
     },
     {
@@ -54,33 +135,6 @@
         "source": "https://commons.wikimedia.org/wiki/File:%D0%92%D0%BB%D0%B0%D0%B4%D0%B8%D0%BC%D0%B8%D1%80_%D0%9A%D0%BE%D0%BC%D0%B0%D1%80%D0%BE%D0%B2.jpg",
         "license": "CC BY 4.0",
         "licenseUrl": "https://creativecommons.org/licenses/by/4.0"
-      }
-    },
-    {
-      "id": "04-23-coca-cola",
-      "date": "04-23",
-      "dateLabel": "23 April",
-      "category": "world",
-      "categoryName": "World",
-      "year": 1985,
-      "title": "Coca-Cola",
-      "body": "Coca-Cola changes its formula and releases New Coke. The response is overwhelmingly negative, and the original formula is back on the market in less than three months.",
-      "source": {
-        "name": "Wikipedia · Coca-Cola",
-        "url": "https://en.wikipedia.org/wiki/Coca-Cola",
-        "calendarUrl": "https://en.wikipedia.org/wiki/April_23",
-        "license": {
-          "name": "CC BY-SA 4.0",
-          "url": "https://creativecommons.org/licenses/by-sa/4.0/"
-        }
-      },
-      "image": {
-        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/27/Coca_Cola_Flasche_-_Original_Taste.jpg/1280px-Coca_Cola_Flasche_-_Original_Taste.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-        "alt": "Picture from the Wikipedia article on Coca-Cola.",
-        "credit": "DYVER",
-        "source": "https://commons.wikimedia.org/wiki/File:Coca_Cola_Flasche_-_Original_Taste.jpg",
-        "license": "CC BY-SA 4.0",
-        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0"
       }
     }
   ]

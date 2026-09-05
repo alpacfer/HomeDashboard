@@ -3,6 +3,33 @@
   "dateLabel": "31 January",
   "facts": [
     {
+      "id": "01-31-boeing-747",
+      "date": "01-31",
+      "dateLabel": "31 January",
+      "category": "world",
+      "categoryName": "World",
+      "year": 2023,
+      "title": "Boeing 747",
+      "body": "The last Boeing 747, the first wide-body airliner, is delivered to Atlas Air and operated for ApexLogistics. The aircraft was registered as N863GT and named \"Empower\".",
+      "source": {
+        "name": "Wikipedia · Boeing 747",
+        "url": "https://en.wikipedia.org/wiki/Boeing_747",
+        "calendarUrl": "https://en.wikipedia.org/wiki/January_31",
+        "license": {
+          "name": "CC BY-SA 4.0",
+          "url": "https://creativecommons.org/licenses/by-sa/4.0/"
+        }
+      },
+      "image": {
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b8/B-747_Iberia.jpg/1280px-B-747_Iberia.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "alt": "Picture from the Wikipedia article on Boeing 747.",
+        "credit": "Iberia Airlines",
+        "source": "https://commons.wikimedia.org/wiki/File:B-747_Iberia.jpg",
+        "license": "CC BY 2.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by/2.0"
+      }
+    },
+    {
       "id": "01-31-doug-williams-quarterback",
       "date": "01-31",
       "dateLabel": "31 January",
@@ -23,10 +50,74 @@
       "image": {
         "src": "https://upload.wikimedia.org/wikipedia/commons/f/f7/Doug_Williams_at_Washington_Charity_Golf_Classic_2021.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
         "alt": "Picture from the Wikipedia article on Doug Williams.",
-        "credit": "All-Pro Reels from District of Columbia, USA",
+        "credit": "All-Pro Reels",
         "source": "https://commons.wikimedia.org/wiki/File:Doug_Williams_at_Washington_Charity_Golf_Classic_2021.jpg",
         "license": "CC BY-SA 2.0",
         "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0"
+      }
+    },
+    {
+      "id": "01-31-apollo-14",
+      "date": "01-31",
+      "dateLabel": "31 January",
+      "category": "space",
+      "categoryName": "Space",
+      "year": 1971,
+      "title": "Apollo 14",
+      "body": "Astronauts Alan Shepard, Stuart Roosa, and Edgar Mitchell, aboard a Saturn V, lift off for a mission to the Fra Mauro Highlands on the Moon.",
+      "source": {
+        "name": "Wikipedia · Apollo 14",
+        "url": "https://en.wikipedia.org/wiki/Apollo_14",
+        "calendarUrl": "https://en.wikipedia.org/wiki/January_31",
+        "license": {
+          "name": "CC BY-SA 4.0",
+          "url": "https://creativecommons.org/licenses/by-sa/4.0/"
+        }
+      },
+      "video": {
+        "src": "https://upload.wikimedia.org/wikipedia/commons/transcoded/d/d7/Apollo_14_footage_of_the_astronauts_climbing_down_from_the_lunar_lander_and_planting_an_American_flag.ogv/Apollo_14_footage_of_the_astronauts_climbing_down_from_the_lunar_lander_and_planting_an_American_flag.ogv.240p.vp9.webm",
+        "fallback": "https://upload.wikimedia.org/wikipedia/commons/transcoded/d/d7/Apollo_14_footage_of_the_astronauts_climbing_down_from_the_lunar_lander_and_planting_an_American_flag.ogv/Apollo_14_footage_of_the_astronauts_climbing_down_from_the_lunar_lander_and_planting_an_American_flag.ogv.360p.mpeg4.mov",
+        "poster": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d7/Apollo_14_footage_of_the_astronauts_climbing_down_from_the_lunar_lander_and_planting_an_American_flag.ogv/960px--Apollo_14_footage_of_the_astronauts_climbing_down_from_the_lunar_lander_and_planting_an_American_flag.ogv.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo",
+        "seconds": 125,
+        "credit": "NASA/Johnson Space Center",
+        "source": "https://commons.wikimedia.org/wiki/File:Apollo_14_footage_of_the_astronauts_climbing_down_from_the_lunar_lander_and_planting_an_American_flag.ogv",
+        "license": "Public domain",
+        "licenseUrl": "https://commons.wikimedia.org/wiki/File:Apollo_14_footage_of_the_astronauts_climbing_down_from_the_lunar_lander_and_planting_an_American_flag.ogv"
+      },
+      "image": {
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/09/Apollo_14_Shepard.jpg/1280px-Apollo_14_Shepard.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "alt": "Picture from the Wikipedia article on Apollo 14.",
+        "credit": "Edgar D. Mitchell / NASA",
+        "source": "https://commons.wikimedia.org/wiki/File:Apollo_14_Shepard.jpg",
+        "license": "Public domain",
+        "licenseUrl": "https://commons.wikimedia.org/wiki/File:Apollo_14_Shepard.jpg"
+      }
+    },
+    {
+      "id": "01-31-mercury-redstone-2",
+      "date": "01-31",
+      "dateLabel": "31 January",
+      "category": "space",
+      "categoryName": "Space",
+      "year": 1961,
+      "title": "Mercury-Redstone 2",
+      "body": "The chimpanzee Ham travels into outer space.",
+      "source": {
+        "name": "Wikipedia · Mercury-Redstone 2",
+        "url": "https://en.wikipedia.org/wiki/Mercury-Redstone_2",
+        "calendarUrl": "https://en.wikipedia.org/wiki/January_31",
+        "license": {
+          "name": "CC BY-SA 4.0",
+          "url": "https://creativecommons.org/licenses/by-sa/4.0/"
+        }
+      },
+      "image": {
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/88/Ham_Launch_-_GPN-2000-001007.jpg/1280px-Ham_Launch_-_GPN-2000-001007.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "alt": "Picture from the Wikipedia article on Mercury-Redstone 2.",
+        "credit": "NASA",
+        "source": "https://commons.wikimedia.org/wiki/File:Ham_Launch_-_GPN-2000-001007.jpg",
+        "license": "Public domain",
+        "licenseUrl": "https://commons.wikimedia.org/wiki/File:Ham_Launch_-_GPN-2000-001007.jpg"
       }
     },
     {
@@ -54,33 +145,6 @@
         "source": "https://commons.wikimedia.org/wiki/File:Explorer1.jpg",
         "license": "Public domain",
         "licenseUrl": "https://commons.wikimedia.org/wiki/File:Explorer1.jpg"
-      }
-    },
-    {
-      "id": "01-31-anton-chekhov",
-      "date": "01-31",
-      "dateLabel": "31 January",
-      "category": "world",
-      "categoryName": "World",
-      "year": 1901,
-      "title": "Anton Chekhov",
-      "body": "Anton Chekhov's Three Sisters premieres at Moscow Art Theatre in Russia.",
-      "source": {
-        "name": "Wikipedia · Anton Chekhov",
-        "url": "https://en.wikipedia.org/wiki/Anton_Chekhov",
-        "calendarUrl": "https://en.wikipedia.org/wiki/January_31",
-        "license": {
-          "name": "CC BY-SA 4.0",
-          "url": "https://creativecommons.org/licenses/by-sa/4.0/"
-        }
-      },
-      "image": {
-        "src": "https://upload.wikimedia.org/wikipedia/commons/9/93/Anton_Chekhov_1889.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
-        "alt": "Picture from the Wikipedia article on Anton Chekhov.",
-        "credit": "V. Chekhovskii, Moscow",
-        "source": "https://commons.wikimedia.org/wiki/File:Anton_Chekhov_1889.jpg",
-        "license": "Public domain",
-        "licenseUrl": "https://commons.wikimedia.org/wiki/File:Anton_Chekhov_1889.jpg"
       }
     }
   ]

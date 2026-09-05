@@ -23,10 +23,64 @@
       "image": {
         "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/bd/Jackie_Robinson%2C_NPG_97_135.jpg/1280px-Jackie_Robinson%2C_NPG_97_135.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
         "alt": "Picture from the Wikipedia article on Jackie Robinson.",
-        "credit": "Harry Warnecke / Frank Livia / Robert F. Cranston / William Klein",
+        "credit": "Harry Warnecke",
         "source": "https://commons.wikimedia.org/wiki/File:Jackie_Robinson,_NPG_97_135.jpg",
         "license": "CC0",
         "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/deed.en"
+      }
+    },
+    {
+      "id": "04-18-republic-of-ireland-act-1948",
+      "date": "04-18",
+      "dateLabel": "18 April",
+      "category": "world",
+      "categoryName": "World",
+      "year": 1949,
+      "title": "The Republic of Ireland Act 1948",
+      "body": "The Republic of Ireland Act comes into force, declaring Éire to be a republic and severing Ireland \"association\" with the Commonwealth of Nations.",
+      "source": {
+        "name": "Wikipedia · The Republic of Ireland Act 1948",
+        "url": "https://en.wikipedia.org/wiki/The_Republic_of_Ireland_Act_1948",
+        "calendarUrl": "https://en.wikipedia.org/wiki/April_18",
+        "license": {
+          "name": "CC BY-SA 4.0",
+          "url": "https://creativecommons.org/licenses/by-sa/4.0/"
+        }
+      },
+      "image": {
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/fe/Coat_of_arms_of_Ireland.svg/1280px-Coat_of_arms_of_Ireland.svg.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "alt": "Picture from the Wikipedia article on The Republic of Ireland Act 1948.",
+        "credit": "Setanta Saki",
+        "source": "https://commons.wikimedia.org/wiki/File:Coat_of_arms_of_Ireland.svg",
+        "license": "Public domain",
+        "licenseUrl": "https://commons.wikimedia.org/wiki/File:Coat_of_arms_of_Ireland.svg"
+      }
+    },
+    {
+      "id": "04-18-turin",
+      "date": "04-18",
+      "dateLabel": "18 April",
+      "category": "world",
+      "categoryName": "World",
+      "year": 1945,
+      "title": "Turin",
+      "body": "In Turin, despite the harsh repressive measures adopted by Nazi-fascists, a great pre-insurrectional strike begins.",
+      "source": {
+        "name": "Wikipedia · Turin",
+        "url": "https://en.wikipedia.org/wiki/Turin",
+        "calendarUrl": "https://en.wikipedia.org/wiki/April_18",
+        "license": {
+          "name": "CC BY-SA 4.0",
+          "url": "https://creativecommons.org/licenses/by-sa/4.0/"
+        }
+      },
+      "image": {
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/ae/Torino_Piazza_Castello_11.jpg/1280px-Torino_Piazza_Castello_11.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "alt": "Picture from the Wikipedia article on Turin.",
+        "credit": "Zairon",
+        "source": "https://commons.wikimedia.org/wiki/File:Torino_Piazza_Castello_11.jpg",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0"
       }
     },
     {
@@ -77,7 +131,7 @@
       "image": {
         "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/6a/Flag_of_Zimbabwe.svg/1280px-Flag_of_Zimbabwe.svg.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
         "alt": "Picture from the Wikipedia article on Zimbabwe.",
-        "credit": "See File history below for details.",
+        "credit": "See File history below for details",
         "source": "https://commons.wikimedia.org/wiki/File:Flag_of_Zimbabwe.svg",
         "license": "Public domain",
         "licenseUrl": "https://commons.wikimedia.org/wiki/File:Flag_of_Zimbabwe.svg"

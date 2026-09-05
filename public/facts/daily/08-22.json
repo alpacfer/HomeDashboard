@@ -23,7 +23,7 @@
       "image": {
         "src": "https://upload.wikimedia.org/wikipedia/commons/f/f3/Nolan_Ryan_Tiger_Stadium_1990_CROP.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
         "alt": "Picture from the Wikipedia article on Nolan Ryan.",
-        "credit": "Nolan_Ryan_Tiger_Stadium_1990.jpg: Chuck Andersen derivative work: Delaywaves talk",
+        "credit": "Wikimedia Commons",
         "source": "https://commons.wikimedia.org/wiki/File:Nolan_Ryan_Tiger_Stadium_1990_CROP.jpg",
         "license": "CC BY 2.0",
         "licenseUrl": "https://creativecommons.org/licenses/by/2.0"
@@ -57,17 +57,17 @@
       }
     },
     {
-      "id": "08-22-baltic-states",
+      "id": "08-22-pope-paul-vi",
       "date": "08-22",
       "dateLabel": "22 August",
       "category": "world",
       "categoryName": "World",
-      "year": 1991,
-      "title": "Baltic states",
-      "body": "Iceland is the first nation in the world to recognize the independence of the Baltic states.",
+      "year": 1968,
+      "title": "Pope Paul VI",
+      "body": "Pope Paul VI arrives in Bogotá, Colombia. It is the first visit of a pope to Latin America.",
       "source": {
-        "name": "Wikipedia · Baltic states",
-        "url": "https://en.wikipedia.org/wiki/Baltic_states",
+        "name": "Wikipedia · Pope Paul VI",
+        "url": "https://en.wikipedia.org/wiki/Pope_Paul_VI",
         "calendarUrl": "https://en.wikipedia.org/wiki/August_22",
         "license": {
           "name": "CC BY-SA 4.0",
@@ -75,10 +75,64 @@
         }
       },
       "image": {
-        "src": "https://upload.wikimedia.org/wikipedia/commons/4/4b/Estonia-latvia-lithuania-in-northern-europe.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
-        "alt": "Picture from the Wikipedia article on Baltic states.",
-        "credit": "Blomsterhagens",
-        "source": "https://commons.wikimedia.org/wiki/File:Estonia-latvia-lithuania-in-northern-europe.png",
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e3/Pope_Paul_VI_1969_Portrait_%284x5_cropped%29.jpg/1280px-Pope_Paul_VI_1969_Portrait_%284x5_cropped%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "alt": "Picture from the Wikipedia article on Pope Paul VI.",
+        "credit": "Fotografia Felici",
+        "source": "https://commons.wikimedia.org/wiki/File:Pope_Paul_VI_1969_Portrait_(4x5_cropped).jpg",
+        "license": "Public domain",
+        "licenseUrl": "https://commons.wikimedia.org/wiki/File:Pope_Paul_VI_1969_Portrait_(4x5_cropped).jpg"
+      }
+    },
+    {
+      "id": "08-22-quebec-expedition-1711",
+      "date": "08-22",
+      "dateLabel": "22 August",
+      "category": "science",
+      "categoryName": "Science",
+      "year": 1711,
+      "title": "Quebec expedition",
+      "body": "Britain's Quebec Expedition loses eight ships and almost nine hundred soldiers, sailors and women to rocks at Pointe-aux-Anglais.",
+      "source": {
+        "name": "Wikipedia · Quebec expedition (1711)",
+        "url": "https://en.wikipedia.org/wiki/Quebec_expedition_(1711)",
+        "calendarUrl": "https://en.wikipedia.org/wiki/August_22",
+        "license": {
+          "name": "CC BY-SA 4.0",
+          "url": "https://creativecommons.org/licenses/by-sa/4.0/"
+        }
+      },
+      "image": {
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/0c/Henry_St_John%2C_1st_Viscount_Bolingbroke_%281678-1751%29.jpg/1280px-Henry_St_John%2C_1st_Viscount_Bolingbroke_%281678-1751%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "alt": "Picture from the Wikipedia article on Quebec expedition.",
+        "credit": "Charles Jervas",
+        "source": "https://commons.wikimedia.org/wiki/File:Henry_St_John,_1st_Viscount_Bolingbroke_(1678-1751).jpg",
+        "license": "Public domain",
+        "licenseUrl": "https://commons.wikimedia.org/wiki/File:Henry_St_John,_1st_Viscount_Bolingbroke_(1678-1751).jpg"
+      }
+    },
+    {
+      "id": "08-22-grigori-perelman",
+      "date": "08-22",
+      "dateLabel": "22 August",
+      "category": "sport",
+      "categoryName": "Sport",
+      "year": 2006,
+      "title": "Grigori Perelman",
+      "body": "Grigori Perelman is awarded the Fields Medal for his proof of the Poincaré conjecture in mathematics but refuses to accept the medal.",
+      "source": {
+        "name": "Wikipedia · Grigori Perelman",
+        "url": "https://en.wikipedia.org/wiki/Grigori_Perelman",
+        "calendarUrl": "https://en.wikipedia.org/wiki/August_22",
+        "license": {
+          "name": "CC BY-SA 4.0",
+          "url": "https://creativecommons.org/licenses/by-sa/4.0/"
+        }
+      },
+      "image": {
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d7/Grigori_Perelman%2C_1993_%28re-scanned%29_%28cropped%29.jpg/1280px-Grigori_Perelman%2C_1993_%28re-scanned%29_%28cropped%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "alt": "Picture from the Wikipedia article on Grigori Perelman.",
+        "credit": "George M. Bergman",
+        "source": "https://commons.wikimedia.org/wiki/File:Grigori_Perelman,_1993_(re-scanned)_(cropped).jpg",
         "license": "CC BY-SA 4.0",
         "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0"
       }

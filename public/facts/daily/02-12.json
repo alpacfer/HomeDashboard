@@ -57,6 +57,33 @@
       }
     },
     {
+      "id": "02-12-carmen-lawrence",
+      "date": "02-12",
+      "dateLabel": "12 February",
+      "category": "world",
+      "categoryName": "World",
+      "year": 1990,
+      "title": "Carmen Lawrence",
+      "body": "Carmen Lawrence becomes the first female Premier in Australian history when she becomes Premier of Western Australia.",
+      "source": {
+        "name": "Wikipedia · Carmen Lawrence",
+        "url": "https://en.wikipedia.org/wiki/Carmen_Lawrence",
+        "calendarUrl": "https://en.wikipedia.org/wiki/February_12",
+        "license": {
+          "name": "CC BY-SA 4.0",
+          "url": "https://creativecommons.org/licenses/by-sa/4.0/"
+        }
+      },
+      "image": {
+        "src": "https://upload.wikimedia.org/wikipedia/commons/1/16/Carmen_Lawrence_1990_%28cropped%29.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+        "alt": "Picture from the Wikipedia article on Carmen Lawrence.",
+        "credit": "State Library of Western Australia",
+        "source": "https://commons.wikimedia.org/wiki/File:Carmen_Lawrence_1990_(cropped).png",
+        "license": "CC BY-SA 2.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0"
+      }
+    },
+    {
       "id": "02-12-aleksandr-solzhenitsyn",
       "date": "02-12",
       "dateLabel": "12 February",
@@ -81,6 +108,33 @@
         "source": "https://commons.wikimedia.org/wiki/File:Aleksandr_Solzhenitsyn_1974crop.jpg",
         "license": "CC0",
         "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/deed.en"
+      }
+    },
+    {
+      "id": "02-12-near-shoemaker",
+      "date": "02-12",
+      "dateLabel": "12 February",
+      "category": "space",
+      "categoryName": "Space",
+      "year": 2001,
+      "title": "NEAR Shoemaker",
+      "body": "NEAR Shoemaker spacecraft touches down in the \"saddle\" region of 433 Eros, becoming the first spacecraft to land on an asteroid.",
+      "source": {
+        "name": "Wikipedia · NEAR Shoemaker",
+        "url": "https://en.wikipedia.org/wiki/NEAR_Shoemaker",
+        "calendarUrl": "https://en.wikipedia.org/wiki/February_12",
+        "license": {
+          "name": "CC BY-SA 4.0",
+          "url": "https://creativecommons.org/licenses/by-sa/4.0/"
+        }
+      },
+      "image": {
+        "src": "https://upload.wikimedia.org/wikipedia/commons/c/cb/NEAR_Shoemaker_spacecraft_model.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+        "alt": "Picture from the Wikipedia article on NEAR Shoemaker.",
+        "credit": "NASA",
+        "source": "https://commons.wikimedia.org/wiki/File:NEAR_Shoemaker_spacecraft_model.png",
+        "license": "Public domain",
+        "licenseUrl": "https://commons.wikimedia.org/wiki/File:NEAR_Shoemaker_spacecraft_model.png"
       }
     }
   ]

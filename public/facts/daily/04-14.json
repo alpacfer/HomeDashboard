@@ -3,17 +3,17 @@
   "dateLabel": "14 April",
   "facts": [
     {
-      "id": "04-14-space-shuttle-columbia",
+      "id": "04-14-jupiter-icy-moons-explorer",
       "date": "04-14",
       "dateLabel": "14 April",
       "category": "space",
       "categoryName": "Space",
-      "year": 1981,
-      "title": "Space Shuttle Columbia",
-      "body": "The first operational Space Shuttle, Columbia, completes its first test flight.",
+      "year": 2023,
+      "title": "Jupiter Icy Moons Explorer",
+      "body": "The Jupiter Icy Moons Explorer (JUICE) is launched by the European Space Agency.",
       "source": {
-        "name": "Wikipedia · Space Shuttle Columbia",
-        "url": "https://en.wikipedia.org/wiki/Space_Shuttle_Columbia",
+        "name": "Wikipedia · Jupiter Icy Moons Explorer",
+        "url": "https://en.wikipedia.org/wiki/Jupiter_Icy_Moons_Explorer",
         "calendarUrl": "https://en.wikipedia.org/wiki/April_14",
         "license": {
           "name": "CC BY-SA 4.0",
@@ -21,12 +21,12 @@
         }
       },
       "image": {
-        "src": "https://upload.wikimedia.org/wikipedia/commons/2/26/Space_Shuttle_Columbia_lands_following_STS-62_on_18_March_1994._%28cropped%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
-        "alt": "Picture from the Wikipedia article on Space Shuttle Columbia.",
-        "credit": "NASA",
-        "source": "https://commons.wikimedia.org/wiki/File:Space_Shuttle_Columbia_lands_following_STS-62_on_18_March_1994._(cropped).jpg",
-        "license": "Public domain",
-        "licenseUrl": "https://commons.wikimedia.org/wiki/File:Space_Shuttle_Columbia_lands_following_STS-62_on_18_March_1994._(cropped).jpg"
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/3d/Juice_launch_kit_cover_close-up.png/1280px-Juice_launch_kit_cover_close-up.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "alt": "Picture from the Wikipedia article on Jupiter Icy Moons Explorer.",
+        "credit": "ESA, CC BY-SA IGO 3.0",
+        "source": "https://commons.wikimedia.org/wiki/File:Juice_launch_kit_cover_close-up.png",
+        "license": "CC BY-SA 3.0 igo",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0/igo/deed.en"
       }
     },
     {
@@ -77,10 +77,64 @@
       "image": {
         "src": "https://upload.wikimedia.org/wikipedia/commons/f/f3/Logo_HGP.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
         "alt": "Picture from the Wikipedia article on Human Genome Project.",
-        "credit": "U.S. Department of Energy, Human Genome Project",
+        "credit": "U.S. Department of Energy",
         "source": "https://commons.wikimedia.org/wiki/File:Logo_HGP.jpg",
         "license": "Public domain",
         "licenseUrl": "https://commons.wikimedia.org/wiki/File:Logo_HGP.jpg"
+      }
+    },
+    {
+      "id": "04-14-president-of-georgia",
+      "date": "04-14",
+      "dateLabel": "14 April",
+      "category": "world",
+      "categoryName": "World",
+      "year": 1991,
+      "title": "President of Georgia",
+      "body": "The Republic of Georgia introduces the post of President following its declaration of independence from the Soviet Union.",
+      "source": {
+        "name": "Wikipedia · President of Georgia",
+        "url": "https://en.wikipedia.org/wiki/President_of_Georgia",
+        "calendarUrl": "https://en.wikipedia.org/wiki/April_14",
+        "license": {
+          "name": "CC BY-SA 4.0",
+          "url": "https://creativecommons.org/licenses/by-sa/4.0/"
+        }
+      },
+      "image": {
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f9/Flag_of_the_President_of_Georgia.svg/1280px-Flag_of_the_President_of_Georgia.svg.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "alt": "Picture from the Wikipedia article on President of Georgia.",
+        "credit": "Administration of the President of…",
+        "source": "https://commons.wikimedia.org/wiki/File:Flag_of_the_President_of_Georgia.svg",
+        "license": "Public domain",
+        "licenseUrl": "https://commons.wikimedia.org/wiki/File:Flag_of_the_President_of_Georgia.svg"
+      }
+    },
+    {
+      "id": "04-14-1929-monaco-grand-prix",
+      "date": "04-14",
+      "dateLabel": "14 April",
+      "category": "sport",
+      "categoryName": "Sport",
+      "year": 1929,
+      "title": "1929 Monaco Grand Prix",
+      "body": "The inaugural Monaco Grand Prix takes place in the Principality of Monaco. William Grover-Williams wins driving a Bugatti Type 35.",
+      "source": {
+        "name": "Wikipedia · 1929 Monaco Grand Prix",
+        "url": "https://en.wikipedia.org/wiki/1929_Monaco_Grand_Prix",
+        "calendarUrl": "https://en.wikipedia.org/wiki/April_14",
+        "license": {
+          "name": "CC BY-SA 4.0",
+          "url": "https://creativecommons.org/licenses/by-sa/4.0/"
+        }
+      },
+      "image": {
+        "src": "https://upload.wikimedia.org/wikipedia/commons/5/5e/Circuit_de_Monaco_1950.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+        "alt": "Picture from the Wikipedia article on 1929 Monaco Grand Prix.",
+        "credit": "Mario30095",
+        "source": "https://commons.wikimedia.org/wiki/File:Circuit_de_Monaco_1950.png",
+        "license": "CC BY-SA 3.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0"
       }
     }
   ]

@@ -3,17 +3,17 @@
   "dateLabel": "4 September",
   "facts": [
     {
-      "id": "09-04-oakland-athletics",
+      "id": "09-04-mark-spitz",
       "date": "09-04",
       "dateLabel": "4 September",
       "category": "sport",
       "categoryName": "Sport",
-      "year": 2002,
-      "title": "Oakland Athletics",
-      "body": "The Oakland Athletics win their 20th consecutive game, an American League record, until the Cleveland Indians surpassed it in 2017.",
+      "year": 1972,
+      "title": "Mark Spitz",
+      "body": "Mark Spitz becomes the first competitor to win seven medals at a single Olympic Games.",
       "source": {
-        "name": "Wikipedia · Oakland Athletics",
-        "url": "https://en.wikipedia.org/wiki/Oakland_Athletics",
+        "name": "Wikipedia · Mark Spitz",
+        "url": "https://en.wikipedia.org/wiki/Mark_Spitz",
         "calendarUrl": "https://en.wikipedia.org/wiki/September_4",
         "license": {
           "name": "CC BY-SA 4.0",
@@ -21,12 +21,12 @@
         }
       },
       "image": {
-        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a4/Oakland_A%27s_logo.svg/1280px-Oakland_A%27s_logo.svg.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-        "alt": "Picture from the Wikipedia article on Oakland Athletics.",
-        "credit": "Oakland Athletics",
-        "source": "https://commons.wikimedia.org/wiki/File:Oakland_A%27s_logo.svg",
-        "license": "Public domain",
-        "licenseUrl": "https://commons.wikimedia.org/wiki/File:Oakland_A%27s_logo.svg"
+        "src": "https://upload.wikimedia.org/wikipedia/commons/0/03/Mark_Spitz.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+        "alt": "Picture from the Wikipedia article on Mark Spitz.",
+        "credit": "Doha Stadium Plus Qatar Photograph…",
+        "source": "https://commons.wikimedia.org/wiki/File:Mark_Spitz.jpg",
+        "license": "CC BY 2.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by/2.0"
       }
     },
     {
@@ -81,6 +81,60 @@
         "source": "https://commons.wikimedia.org/wiki/File:Larry_Page_in_the_European_Parliament,_17.06.2009_(cropped_2).jpg",
         "license": "CC BY-SA 3.0",
         "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0"
+      }
+    },
+    {
+      "id": "09-04-buckminsterfullerene",
+      "date": "09-04",
+      "dateLabel": "4 September",
+      "category": "science",
+      "categoryName": "Science",
+      "year": 1985,
+      "title": "Buckminsterfullerene",
+      "body": "The discovery of Buckminsterfullerene, the first fullerene molecule of carbon.",
+      "source": {
+        "name": "Wikipedia · Buckminsterfullerene",
+        "url": "https://en.wikipedia.org/wiki/Buckminsterfullerene",
+        "calendarUrl": "https://en.wikipedia.org/wiki/September_4",
+        "license": {
+          "name": "CC BY-SA 4.0",
+          "url": "https://creativecommons.org/licenses/by-sa/4.0/"
+        }
+      },
+      "image": {
+        "src": "https://upload.wikimedia.org/wikipedia/commons/8/85/C60-Fulleren-kristallin.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+        "alt": "Picture from the Wikipedia article on Buckminsterfullerene.",
+        "credit": "Jochen Gschnaller",
+        "source": "https://commons.wikimedia.org/wiki/File:C60-Fulleren-kristallin.JPG",
+        "license": "CC BY-SA 3.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0/"
+      }
+    },
+    {
+      "id": "09-04-tokyo-disneysea",
+      "date": "09-04",
+      "dateLabel": "4 September",
+      "category": "culture",
+      "categoryName": "Culture",
+      "year": 2001,
+      "title": "Tokyo DisneySea",
+      "body": "Tokyo DisneySea opens to the public as part of the Tokyo Disney Resort in Urayasu, Chiba, Japan.",
+      "source": {
+        "name": "Wikipedia · Tokyo DisneySea",
+        "url": "https://en.wikipedia.org/wiki/Tokyo_DisneySea",
+        "calendarUrl": "https://en.wikipedia.org/wiki/September_4",
+        "license": {
+          "name": "CC BY-SA 4.0",
+          "url": "https://creativecommons.org/licenses/by-sa/4.0/"
+        }
+      },
+      "image": {
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/3c/Tokyo_DisneySea_logo.svg/1280px-Tokyo_DisneySea_logo.svg.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "alt": "Picture from the Wikipedia article on Tokyo DisneySea.",
+        "credit": "Disney Enterprises, Inc",
+        "source": "https://commons.wikimedia.org/wiki/File:Tokyo_DisneySea_logo.svg",
+        "license": "Public domain",
+        "licenseUrl": "https://commons.wikimedia.org/wiki/File:Tokyo_DisneySea_logo.svg"
       }
     }
   ]

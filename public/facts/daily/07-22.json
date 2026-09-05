@@ -23,7 +23,7 @@
       "image": {
         "src": "https://upload.wikimedia.org/wikipedia/commons/6/64/Russian_space_dog_box.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
         "alt": "Picture from the Wikipedia article on Dezik and Tsygan.",
-        "credit": "Wikimedia Commons contributor",
+        "credit": "Wikimedia Commons",
         "source": "https://commons.wikimedia.org/wiki/File:Russian_space_dog_box.jpg",
         "license": "CC BY-SA 3.0",
         "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0/"
@@ -81,6 +81,60 @@
         "source": "https://commons.wikimedia.org/wiki/File:Blue_Water_Bridge_2025k.jpg",
         "license": "CC BY-SA 4.0",
         "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0"
+      }
+    },
+    {
+      "id": "07-22-mariner-1",
+      "date": "07-22",
+      "dateLabel": "22 July",
+      "category": "space",
+      "categoryName": "Space",
+      "year": 1962,
+      "title": "Mariner 1",
+      "body": "Mariner 1 spacecraft flies erratically several minutes after launch and has to be destroyed.",
+      "source": {
+        "name": "Wikipedia · Mariner 1",
+        "url": "https://en.wikipedia.org/wiki/Mariner_1",
+        "calendarUrl": "https://en.wikipedia.org/wiki/July_22",
+        "license": {
+          "name": "CC BY-SA 4.0",
+          "url": "https://creativecommons.org/licenses/by-sa/4.0/"
+        }
+      },
+      "image": {
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e9/Mariner_2_Engineering_Model.jpg/1280px-Mariner_2_Engineering_Model.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "alt": "Picture from the Wikipedia article on Mariner 1.",
+        "credit": "Eric Long/Smithsonian",
+        "source": "https://commons.wikimedia.org/wiki/File:Mariner_2_Engineering_Model.jpg",
+        "license": "CC0",
+        "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/deed.en"
+      }
+    },
+    {
+      "id": "07-22-greg-lemond",
+      "date": "07-22",
+      "dateLabel": "22 July",
+      "category": "sport",
+      "categoryName": "Sport",
+      "year": 1990,
+      "title": "Greg LeMond",
+      "body": "Greg LeMond, an American road racing cyclist, wins his third Tour de France after leading the majority of the race. It was LeMond's second consecutive Tour de France victory.",
+      "source": {
+        "name": "Wikipedia · Greg LeMond",
+        "url": "https://en.wikipedia.org/wiki/Greg_LeMond",
+        "calendarUrl": "https://en.wikipedia.org/wiki/July_22",
+        "license": {
+          "name": "CC BY-SA 4.0",
+          "url": "https://creativecommons.org/licenses/by-sa/4.0/"
+        }
+      },
+      "image": {
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/6c/Greg_LeMond_by_Gage_Skidmore.jpg/1280px-Greg_LeMond_by_Gage_Skidmore.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "alt": "Picture from the Wikipedia article on Greg LeMond.",
+        "credit": "Gage Skidmore",
+        "source": "https://commons.wikimedia.org/wiki/File:Greg_LeMond_by_Gage_Skidmore.jpg",
+        "license": "CC BY-SA 3.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0"
       }
     }
   ]

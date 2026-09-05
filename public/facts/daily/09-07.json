@@ -57,6 +57,60 @@
       }
     },
     {
+      "id": "09-07-desmond-tutu",
+      "date": "09-07",
+      "dateLabel": "7 September",
+      "category": "world",
+      "categoryName": "World",
+      "year": 1986,
+      "title": "Desmond Tutu",
+      "body": "Desmond Tutu becomes the first black man to lead the Anglican Diocese of Cape Town.",
+      "source": {
+        "name": "Wikipedia · Desmond Tutu",
+        "url": "https://en.wikipedia.org/wiki/Desmond_Tutu",
+        "calendarUrl": "https://en.wikipedia.org/wiki/September_7",
+        "license": {
+          "name": "CC BY-SA 4.0",
+          "url": "https://creativecommons.org/licenses/by-sa/4.0/"
+        }
+      },
+      "image": {
+        "src": "https://upload.wikimedia.org/wikipedia/commons/e/e4/Archbishop-Tutu-medium.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+        "alt": "Picture from the Wikipedia article on Desmond Tutu.",
+        "credit": "Benny Gool",
+        "source": "https://commons.wikimedia.org/wiki/File:Archbishop-Tutu-medium.jpg",
+        "license": "Public domain",
+        "licenseUrl": "https://commons.wikimedia.org/wiki/File:Archbishop-Tutu-medium.jpg"
+      }
+    },
+    {
+      "id": "09-07-alberto-santos-dumont",
+      "date": "09-07",
+      "dateLabel": "7 September",
+      "category": "world",
+      "categoryName": "World",
+      "year": 1906,
+      "title": "Alberto Santos-Dumont",
+      "body": "Alberto Santos-Dumont flies his 14-bis aircraft at Bagatelle, France successfully for the first time.",
+      "source": {
+        "name": "Wikipedia · Alberto Santos-Dumont",
+        "url": "https://en.wikipedia.org/wiki/Alberto_Santos-Dumont",
+        "calendarUrl": "https://en.wikipedia.org/wiki/September_7",
+        "license": {
+          "name": "CC BY-SA 4.0",
+          "url": "https://creativecommons.org/licenses/by-sa/4.0/"
+        }
+      },
+      "image": {
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/18/Alberto_Santos-Dumont_by_Zaida_Ben-Yusuf.jpg/1280px-Alberto_Santos-Dumont_by_Zaida_Ben-Yusuf.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "alt": "Picture from the Wikipedia article on Alberto Santos-Dumont.",
+        "credit": "Zaida Ben-Yusuf / Adam Cuerden",
+        "source": "https://commons.wikimedia.org/wiki/File:Alberto_Santos-Dumont_by_Zaida_Ben-Yusuf.jpg",
+        "license": "Public domain",
+        "licenseUrl": "https://commons.wikimedia.org/wiki/File:Alberto_Santos-Dumont_by_Zaida_Ben-Yusuf.jpg"
+      }
+    },
+    {
       "id": "09-07-torrijos-carter-treaties",
       "date": "09-07",
       "dateLabel": "7 September",

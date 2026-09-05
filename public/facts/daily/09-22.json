@@ -3,6 +3,33 @@
   "dateLabel": "22 September",
   "facts": [
     {
+      "id": "09-22-grumpy-cat",
+      "date": "09-22",
+      "dateLabel": "22 September",
+      "category": "curious",
+      "categoryName": "Curious",
+      "year": 2012,
+      "title": "Grumpy Cat",
+      "body": "Bryan Bundesen posted a photograph of his sister's cat to Reddit. Feline dwarfism and an underbite had given Tardar Sauce a look of permanent, profound disappointment, and made her the most bankable pet on the internet.",
+      "source": {
+        "name": "Wikipedia · Grumpy Cat",
+        "url": "https://en.wikipedia.org/wiki/Grumpy_Cat",
+        "calendarUrl": "https://en.wikipedia.org/wiki/September_22",
+        "license": {
+          "name": "CC BY-SA 4.0",
+          "url": "https://creativecommons.org/licenses/by-sa/4.0/"
+        }
+      },
+      "image": {
+        "src": "https://upload.wikimedia.org/wikipedia/commons/1/1c/Grumpy_Cat_meme_example.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+        "alt": "A captioned photograph of Grumpy Cat, whose underbite gave her a disapproving expression.",
+        "credit": "Gage Skidmore",
+        "source": "https://commons.wikimedia.org/wiki/File:Grumpy_Cat_meme_example.jpg",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0"
+      }
+    },
+    {
       "id": "09-22-scarlet-gn",
       "date": "09-22",
       "dateLabel": "22 September",
@@ -23,10 +50,37 @@
       "image": {
         "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/28/Scarlet_GN.svg/1280px-Scarlet_GN.svg.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
         "alt": "Picture from the Wikipedia article on Scarlet GN.",
-        "credit": "Yikrazuul (talk)",
+        "credit": "Yikrazuul",
         "source": "https://commons.wikimedia.org/wiki/File:Scarlet_GN.svg",
         "license": "Public domain",
         "licenseUrl": "https://commons.wikimedia.org/wiki/File:Scarlet_GN.svg"
+      }
+    },
+    {
+      "id": "09-22-duke-of-york-s-picture-house",
+      "date": "09-22",
+      "dateLabel": "22 September",
+      "category": "culture",
+      "categoryName": "Culture",
+      "year": 1910,
+      "title": "Duke of York's Picture House, Brighton",
+      "body": "The Duke of York's Picture House opens in Brighton, now the oldest continually operating cinema in Britain.",
+      "source": {
+        "name": "Wikipedia · Duke of York's Picture House, Brighton",
+        "url": "https://en.wikipedia.org/wiki/Duke_of_York%27s_Picture_House,_Brighton",
+        "calendarUrl": "https://en.wikipedia.org/wiki/September_22",
+        "license": {
+          "name": "CC BY-SA 4.0",
+          "url": "https://creativecommons.org/licenses/by-sa/4.0/"
+        }
+      },
+      "image": {
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c0/Duke_of_York_Cinema.jpg/1280px-Duke_of_York_Cinema.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "alt": "Picture from the Wikipedia article on Duke of York's Picture House, Brighton.",
+        "credit": "Hassocks5489 at en.wikipedia",
+        "source": "https://commons.wikimedia.org/wiki/File:Duke_of_York_Cinema.jpg",
+        "license": "Public domain",
+        "licenseUrl": "https://commons.wikimedia.org/wiki/File:Duke_of_York_Cinema.jpg"
       }
     },
     {
@@ -57,17 +111,17 @@
       }
     },
     {
-      "id": "09-22-duke-of-york-s-picture-house",
+      "id": "09-22-mali",
       "date": "09-22",
       "dateLabel": "22 September",
-      "category": "culture",
-      "categoryName": "Culture",
-      "year": 1910,
-      "title": "Duke of York's Picture House, Brighton",
-      "body": "The Duke of York's Picture House opens in Brighton, now the oldest continually operating cinema in Britain.",
+      "category": "world",
+      "categoryName": "World",
+      "year": 1960,
+      "title": "Mali",
+      "body": "The Sudanese Republic is renamed Mali after the withdrawal of Senegal from the Mali Federation.",
       "source": {
-        "name": "Wikipedia · Duke of York's Picture House, Brighton",
-        "url": "https://en.wikipedia.org/wiki/Duke_of_York%27s_Picture_House,_Brighton",
+        "name": "Wikipedia · Mali",
+        "url": "https://en.wikipedia.org/wiki/Mali",
         "calendarUrl": "https://en.wikipedia.org/wiki/September_22",
         "license": {
           "name": "CC BY-SA 4.0",
@@ -75,12 +129,12 @@
         }
       },
       "image": {
-        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c0/Duke_of_York_Cinema.jpg/1280px-Duke_of_York_Cinema.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-        "alt": "Picture from the Wikipedia article on Duke of York's Picture House, Brighton.",
-        "credit": "Hassocks5489 at en.wikipedia",
-        "source": "https://commons.wikimedia.org/wiki/File:Duke_of_York_Cinema.jpg",
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/92/Flag_of_Mali.svg/1280px-Flag_of_Mali.svg.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "alt": "Picture from the Wikipedia article on Mali.",
+        "credit": "SKopp",
+        "source": "https://commons.wikimedia.org/wiki/File:Flag_of_Mali.svg",
         "license": "Public domain",
-        "licenseUrl": "https://commons.wikimedia.org/wiki/File:Duke_of_York_Cinema.jpg"
+        "licenseUrl": "https://commons.wikimedia.org/wiki/File:Flag_of_Mali.svg"
       }
     }
   ]

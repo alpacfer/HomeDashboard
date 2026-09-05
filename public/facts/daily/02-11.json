@@ -30,17 +30,17 @@
       }
     },
     {
-      "id": "02-11-nelson-mandela",
+      "id": "02-11-european-space-agency",
       "date": "02-11",
       "dateLabel": "11 February",
-      "category": "world",
-      "categoryName": "World",
-      "year": 1990,
-      "title": "Nelson Mandela",
-      "body": "Nelson Mandela is released from Victor Verster Prison outside Cape Town, South Africa after 27 years as a political prisoner.",
+      "category": "space",
+      "categoryName": "Space",
+      "year": 2015,
+      "title": "European Space Agency",
+      "body": "The European Space Agency's Intermediate eXperimental Vehicle is launched on a Vega rocket.",
       "source": {
-        "name": "Wikipedia · Nelson Mandela",
-        "url": "https://en.wikipedia.org/wiki/Nelson_Mandela",
+        "name": "Wikipedia · European Space Agency",
+        "url": "https://en.wikipedia.org/wiki/European_Space_Agency",
         "calendarUrl": "https://en.wikipedia.org/wiki/February_11",
         "license": {
           "name": "CC BY-SA 4.0",
@@ -48,12 +48,39 @@
         }
       },
       "image": {
-        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/02/Nelson_Mandela_1994.jpg/1280px-Nelson_Mandela_1994.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-        "alt": "Picture from the Wikipedia article on Nelson Mandela.",
-        "credit": "© copyright John Mathew Smith 2001",
-        "source": "https://commons.wikimedia.org/wiki/File:Nelson_Mandela_1994.jpg",
-        "license": "CC BY-SA 2.0",
-        "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0"
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/96/ESA_Headquarters_in_Paris.jpg/1280px-ESA_Headquarters_in_Paris.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "alt": "Picture from the Wikipedia article on European Space Agency.",
+        "credit": "ESA/P. Sebirot, CC BY-SA 3.0 IGO",
+        "source": "https://commons.wikimedia.org/wiki/File:ESA_Headquarters_in_Paris.jpg",
+        "license": "CC BY-SA 3.0 igo",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0/igo/deed.en"
+      }
+    },
+    {
+      "id": "02-11-anton-bruckner",
+      "date": "02-11",
+      "dateLabel": "11 February",
+      "category": "culture",
+      "categoryName": "Culture",
+      "year": 1903,
+      "title": "Anton Bruckner",
+      "body": "Anton Bruckner's 9th Symphony receives its first performance in Vienna, Austria.",
+      "source": {
+        "name": "Wikipedia · Anton Bruckner",
+        "url": "https://en.wikipedia.org/wiki/Anton_Bruckner",
+        "calendarUrl": "https://en.wikipedia.org/wiki/February_11",
+        "license": {
+          "name": "CC BY-SA 4.0",
+          "url": "https://creativecommons.org/licenses/by-sa/4.0/"
+        }
+      },
+      "image": {
+        "src": "https://upload.wikimedia.org/wikipedia/commons/b/bf/Anton_Bruckner.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+        "alt": "Picture from the Wikipedia article on Anton Bruckner.",
+        "credit": "Josef Büche",
+        "source": "https://commons.wikimedia.org/wiki/File:Anton_Bruckner.jpg",
+        "license": "Public domain",
+        "licenseUrl": "https://commons.wikimedia.org/wiki/File:Anton_Bruckner.jpg"
       }
     },
     {
@@ -81,6 +108,33 @@
         "source": "https://commons.wikimedia.org/wiki/File:STS-133_Space_Shuttle_Discovery_after_undocking_3_(cropped).jpg",
         "license": "Public domain",
         "licenseUrl": "https://commons.wikimedia.org/wiki/File:STS-133_Space_Shuttle_Discovery_after_undocking_3_(cropped).jpg"
+      }
+    },
+    {
+      "id": "02-11-ohsumi-satellite",
+      "date": "02-11",
+      "dateLabel": "11 February",
+      "category": "space",
+      "categoryName": "Space",
+      "year": 1970,
+      "title": "Ohsumi",
+      "body": "Japan launches Ohsumi, becoming the fourth nation to put an object into orbit using its own booster.",
+      "source": {
+        "name": "Wikipedia · Ohsumi (satellite)",
+        "url": "https://en.wikipedia.org/wiki/Ohsumi_(satellite)",
+        "calendarUrl": "https://en.wikipedia.org/wiki/February_11",
+        "license": {
+          "name": "CC BY-SA 4.0",
+          "url": "https://creativecommons.org/licenses/by-sa/4.0/"
+        }
+      },
+      "image": {
+        "src": "https://upload.wikimedia.org/wikipedia/commons/b/bd/Ohsumi.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+        "alt": "Picture from the Wikipedia article on Ohsumi.",
+        "credit": "Rlandmann",
+        "source": "https://commons.wikimedia.org/wiki/File:Ohsumi.jpg",
+        "license": "CC BY-SA 3.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0"
       }
     }
   ]

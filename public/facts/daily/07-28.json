@@ -30,6 +30,87 @@
       }
     },
     {
+      "id": "07-28-prehistory",
+      "date": "07-28",
+      "dateLabel": "28 July",
+      "category": "science",
+      "categoryName": "Science",
+      "year": 1996,
+      "title": "Prehistory",
+      "body": "The remains of a prehistoric man are discovered near Kennewick, Washington. Such remains will be known as the Kennewick Man.",
+      "source": {
+        "name": "Wikipedia · Prehistory",
+        "url": "https://en.wikipedia.org/wiki/Prehistory",
+        "calendarUrl": "https://en.wikipedia.org/wiki/July_28",
+        "license": {
+          "name": "CC BY-SA 4.0",
+          "url": "https://creativecommons.org/licenses/by-sa/4.0/"
+        }
+      },
+      "image": {
+        "src": "https://upload.wikimedia.org/wikipedia/commons/f/f9/PSM_V44_D647_Delineations_on_pieces_of_antler.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+        "alt": "Picture from the Wikipedia article on Prehistory.",
+        "credit": "Unknown author",
+        "source": "https://commons.wikimedia.org/wiki/File:PSM_V44_D647_Delineations_on_pieces_of_antler.jpg",
+        "license": "Public domain",
+        "licenseUrl": "https://commons.wikimedia.org/wiki/File:PSM_V44_D647_Delineations_on_pieces_of_antler.jpg"
+      }
+    },
+    {
+      "id": "07-28-wendy-tuck",
+      "date": "07-28",
+      "dateLabel": "28 July",
+      "category": "world",
+      "categoryName": "World",
+      "year": 2018,
+      "title": "Wendy Tuck",
+      "body": "Australian Wendy Tuck becomes the first female skipper to win the Clipper Round the World Yacht Race.",
+      "source": {
+        "name": "Wikipedia · Wendy Tuck",
+        "url": "https://en.wikipedia.org/wiki/Wendy_Tuck",
+        "calendarUrl": "https://en.wikipedia.org/wiki/July_28",
+        "license": {
+          "name": "CC BY-SA 4.0",
+          "url": "https://creativecommons.org/licenses/by-sa/4.0/"
+        }
+      },
+      "image": {
+        "src": "https://upload.wikimedia.org/wikipedia/commons/3/3d/Wendy_Tuck_in_Liverpool_%28cropped%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+        "alt": "Picture from the Wikipedia article on Wendy Tuck.",
+        "credit": "ernie hardman",
+        "source": "https://commons.wikimedia.org/wiki/File:Wendy_Tuck_in_Liverpool_(cropped).jpg",
+        "license": "CC BY 2.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by/2.0"
+      }
+    },
+    {
+      "id": "07-28-sutton-hoo-helmet",
+      "date": "07-28",
+      "dateLabel": "28 July",
+      "category": "science",
+      "categoryName": "Science",
+      "year": 1939,
+      "title": "Sutton Hoo helmet",
+      "body": "The Sutton Hoo helmet is discovered.",
+      "source": {
+        "name": "Wikipedia · Sutton Hoo helmet",
+        "url": "https://en.wikipedia.org/wiki/Sutton_Hoo_helmet",
+        "calendarUrl": "https://en.wikipedia.org/wiki/July_28",
+        "license": {
+          "name": "CC BY-SA 4.0",
+          "url": "https://creativecommons.org/licenses/by-sa/4.0/"
+        }
+      },
+      "image": {
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/ee/Sutton_Hoo_helmet_2016.png/1280px-Sutton_Hoo_helmet_2016.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "alt": "Picture from the Wikipedia article on Sutton Hoo helmet.",
+        "credit": "user:Geni",
+        "source": "https://commons.wikimedia.org/wiki/File:Sutton_Hoo_helmet_2016.png",
+        "license": "Public domain",
+        "licenseUrl": "https://commons.wikimedia.org/wiki/File:Sutton_Hoo_helmet_2016.png"
+      }
+    },
+    {
       "id": "07-28-australasian-antarctic-expedition",
       "date": "07-28",
       "dateLabel": "28 July",
@@ -54,33 +135,6 @@
         "source": "https://commons.wikimedia.org/wiki/File:Mawson_main_base.jpg",
         "license": "Public domain",
         "licenseUrl": "https://commons.wikimedia.org/wiki/File:Mawson_main_base.jpg"
-      }
-    },
-    {
-      "id": "07-28-hawaii-clipper",
-      "date": "07-28",
-      "dateLabel": "28 July",
-      "category": "world",
-      "categoryName": "World",
-      "year": 1938,
-      "title": "Pan Am Flight 229",
-      "body": "Hawaii Clipper disappears between Guam and Manila as the first loss of an airliner in trans-Pacific China Clipper service.",
-      "source": {
-        "name": "Wikipedia · Pan Am Flight 229",
-        "url": "https://en.wikipedia.org/wiki/Pan_Am_Flight_229",
-        "calendarUrl": "https://en.wikipedia.org/wiki/July_28",
-        "license": {
-          "name": "CC BY-SA 4.0",
-          "url": "https://creativecommons.org/licenses/by-sa/4.0/"
-        }
-      },
-      "image": {
-        "src": "https://upload.wikimedia.org/wikipedia/commons/7/79/Martin_130_Clipper_%284589907311%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
-        "alt": "Picture from the Wikipedia article on Pan Am Flight 229.",
-        "credit": "SDASM Archives",
-        "source": "https://commons.wikimedia.org/wiki/File:Martin_130_Clipper_(4589907311).jpg",
-        "license": "Public domain",
-        "licenseUrl": "https://commons.wikimedia.org/wiki/File:Martin_130_Clipper_(4589907311).jpg"
       }
     }
   ]

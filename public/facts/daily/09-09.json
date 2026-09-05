@@ -23,7 +23,7 @@
       "image": {
         "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e7/First_Computer_Bug%2C_1947.jpg/1280px-First_Computer_Bug%2C_1947.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
         "alt": "A page from a computer logbook, illustrating the history of software bugs.",
-        "credit": "Courtesy of the Naval Surface Warfare Center, Dahlgren, VA., 1988.",
+        "credit": "Wikimedia Commons",
         "source": "https://commons.wikimedia.org/wiki/File:First_Computer_Bug,_1947.jpg",
         "license": "Public domain",
         "licenseUrl": "https://commons.wikimedia.org/wiki/File:First_Computer_Bug,_1947.jpg"
@@ -50,7 +50,7 @@
       "image": {
         "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/99/Elvis_Presley_promoting_Jailhouse_Rock.jpg/1280px-Elvis_Presley_promoting_Jailhouse_Rock.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
         "alt": "Picture from the Wikipedia article on Elvis Presley.",
-        "credit": "Metro-Goldwyn-Mayer, Inc. Reproduction Number: LC-USZ6-2067 Location: NYWTS -- BIOG",
+        "credit": "Metro-Goldwyn-Mayer",
         "source": "https://commons.wikimedia.org/wiki/File:Elvis_Presley_promoting_Jailhouse_Rock.jpg",
         "license": "Public domain",
         "licenseUrl": "https://commons.wikimedia.org/wiki/File:Elvis_Presley_promoting_Jailhouse_Rock.jpg"
@@ -81,6 +81,60 @@
         "source": "https://commons.wikimedia.org/wiki/File:Indian_Space_Research_Organisation_Logo.svg",
         "license": "Public domain",
         "licenseUrl": "https://commons.wikimedia.org/wiki/File:Indian_Space_Research_Organisation_Logo.svg"
+      }
+    },
+    {
+      "id": "09-09-palestine-liberation-organization",
+      "date": "09-09",
+      "dateLabel": "9 September",
+      "category": "world",
+      "categoryName": "World",
+      "year": 1993,
+      "title": "Palestine Liberation Organization",
+      "body": "The Palestine Liberation Organization officially recognizes Israel as a legitimate state.",
+      "source": {
+        "name": "Wikipedia · Palestine Liberation Organization",
+        "url": "https://en.wikipedia.org/wiki/Palestine_Liberation_Organization",
+        "calendarUrl": "https://en.wikipedia.org/wiki/September_9",
+        "license": {
+          "name": "CC BY-SA 4.0",
+          "url": "https://creativecommons.org/licenses/by-sa/4.0/"
+        }
+      },
+      "image": {
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d4/Emblem_of_the_PLO_Vector_Graphic.svg/1280px-Emblem_of_the_PLO_Vector_Graphic.svg.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "alt": "Picture from the Wikipedia article on Palestine Liberation Organization.",
+        "credit": "PLO",
+        "source": "https://commons.wikimedia.org/wiki/File:Emblem_of_the_PLO_Vector_Graphic.svg",
+        "license": "Public domain",
+        "licenseUrl": "https://commons.wikimedia.org/wiki/File:Emblem_of_the_PLO_Vector_Graphic.svg"
+      }
+    },
+    {
+      "id": "09-09-amalthea-moon",
+      "date": "09-09",
+      "dateLabel": "9 September",
+      "category": "science",
+      "categoryName": "Science",
+      "year": 1892,
+      "title": "Amalthea",
+      "body": "Amalthea becomes the last moon to be discovered without the use of photography.",
+      "source": {
+        "name": "Wikipedia · Amalthea (moon)",
+        "url": "https://en.wikipedia.org/wiki/Amalthea_(moon)",
+        "calendarUrl": "https://en.wikipedia.org/wiki/September_9",
+        "license": {
+          "name": "CC BY-SA 4.0",
+          "url": "https://creativecommons.org/licenses/by-sa/4.0/"
+        }
+      },
+      "image": {
+        "src": "https://upload.wikimedia.org/wikipedia/commons/b/b1/Amalthea_PIA02532.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+        "alt": "Picture from the Wikipedia article on Amalthea.",
+        "credit": "NASA / JPL",
+        "source": "https://commons.wikimedia.org/wiki/File:Amalthea_PIA02532.png",
+        "license": "Public domain",
+        "licenseUrl": "https://commons.wikimedia.org/wiki/File:Amalthea_PIA02532.png"
       }
     }
   ]

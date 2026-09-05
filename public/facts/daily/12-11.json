@@ -50,24 +50,24 @@
       "image": {
         "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/66/Louvre_Museum_Wikimedia_Commons.jpg/1280px-Louvre_Museum_Wikimedia_Commons.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
         "alt": "Picture from the Wikipedia article on Louvre.",
-        "credit": "Benh LIEU SONG (Flickr)",
+        "credit": "Benh LIEU SONG",
         "source": "https://commons.wikimedia.org/wiki/File:Louvre_Museum_Wikimedia_Commons.jpg",
         "license": "CC BY-SA 3.0",
         "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0"
       }
     },
     {
-      "id": "12-11-food-and-drug-administration",
+      "id": "12-11-world-trade-organization",
       "date": "12-11",
       "dateLabel": "11 December",
-      "category": "science",
-      "categoryName": "Science",
-      "year": 2020,
-      "title": "Food and Drug Administration",
-      "body": "The Food and Drug Administration issues an Emergency Use Authorization on the Pfizer–BioNTech COVID-19 vaccine, the first COVID-19 vaccine to be approved by the agency.",
+      "category": "world",
+      "categoryName": "World",
+      "year": 2001,
+      "title": "World Trade Organization",
+      "body": "China joins the World Trade Organization (WTO).",
       "source": {
-        "name": "Wikipedia · Food and Drug Administration",
-        "url": "https://en.wikipedia.org/wiki/Food_and_Drug_Administration",
+        "name": "Wikipedia · World Trade Organization",
+        "url": "https://en.wikipedia.org/wiki/World_Trade_Organization",
         "calendarUrl": "https://en.wikipedia.org/wiki/December_11",
         "license": {
           "name": "CC BY-SA 4.0",
@@ -75,12 +75,66 @@
         }
       },
       "image": {
-        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/4a/US_Food_and_Drug_Administration_Seal.png/1280px-US_Food_and_Drug_Administration_Seal.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-        "alt": "Picture from the Wikipedia article on Food and Drug Administration.",
-        "credit": "United States Department of the Army",
-        "source": "https://commons.wikimedia.org/wiki/File:US_Food_and_Drug_Administration_Seal.png",
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/9a/WTO_members_and_observers.svg/1280px-WTO_members_and_observers.svg.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "alt": "Picture from the Wikipedia article on World Trade Organization.",
+        "credit": "Happenstance et al",
+        "source": "https://commons.wikimedia.org/wiki/File:WTO_members_and_observers.svg",
         "license": "Public domain",
-        "licenseUrl": "https://commons.wikimedia.org/wiki/File:US_Food_and_Drug_Administration_Seal.png"
+        "licenseUrl": "https://commons.wikimedia.org/wiki/File:WTO_members_and_observers.svg"
+      }
+    },
+    {
+      "id": "12-11-french-upper-volta",
+      "date": "12-11",
+      "dateLabel": "11 December",
+      "category": "world",
+      "categoryName": "World",
+      "year": 1958,
+      "title": "French Upper Volta",
+      "body": "French Upper Volta and French Dahomey gain self-government from France, becoming the Republic of Upper Volta (now Burkina Faso) and the Republic of Dahomey (now Benin), respectively, and joining the French Community.",
+      "source": {
+        "name": "Wikipedia · French Upper Volta",
+        "url": "https://en.wikipedia.org/wiki/French_Upper_Volta",
+        "calendarUrl": "https://en.wikipedia.org/wiki/December_11",
+        "license": {
+          "name": "CC BY-SA 4.0",
+          "url": "https://creativecommons.org/licenses/by-sa/4.0/"
+        }
+      },
+      "image": {
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c3/Flag_of_France.svg/1280px-Flag_of_France.svg.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "alt": "Picture from the Wikipedia article on French Upper Volta.",
+        "credit": "Unknown Vector: SKopp",
+        "source": "https://commons.wikimedia.org/wiki/File:Flag_of_France.svg",
+        "license": "Public domain",
+        "licenseUrl": "https://commons.wikimedia.org/wiki/File:Flag_of_France.svg"
+      }
+    },
+    {
+      "id": "12-11-rovio-entertainment",
+      "date": "12-11",
+      "dateLabel": "11 December",
+      "category": "world",
+      "categoryName": "World",
+      "year": 2009,
+      "title": "Rovio Entertainment",
+      "body": "Finnish game developer Rovio Entertainment releases the hit mobile game Angry Birds internationally on iOS.",
+      "source": {
+        "name": "Wikipedia · Rovio Entertainment",
+        "url": "https://en.wikipedia.org/wiki/Rovio_Entertainment",
+        "calendarUrl": "https://en.wikipedia.org/wiki/December_11",
+        "license": {
+          "name": "CC BY-SA 4.0",
+          "url": "https://creativecommons.org/licenses/by-sa/4.0/"
+        }
+      },
+      "image": {
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/ea/Rovio_Entertainment_hdqtrs_%282016_%E2%80%93%29_Keilaranta_7_Espoo.jpg/1280px-Rovio_Entertainment_hdqtrs_%282016_%E2%80%93%29_Keilaranta_7_Espoo.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "alt": "Picture from the Wikipedia article on Rovio Entertainment.",
+        "credit": "Htm",
+        "source": "https://commons.wikimedia.org/wiki/File:Rovio_Entertainment_hdqtrs_(2016_%E2%80%93)_Keilaranta_7_Espoo.jpg",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0"
       }
     }
   ]

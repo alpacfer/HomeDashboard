@@ -30,6 +30,33 @@
       }
     },
     {
+      "id": "08-07-calculator",
+      "date": "08-07",
+      "dateLabel": "7 August",
+      "category": "tech",
+      "categoryName": "Tech",
+      "year": 1944,
+      "title": "Calculator",
+      "body": "IBM dedicates the first program-controlled calculator, the Automatic Sequence Controlled Calculator (known best as the Harvard Mark I).",
+      "source": {
+        "name": "Wikipedia · Calculator",
+        "url": "https://en.wikipedia.org/wiki/Calculator",
+        "calendarUrl": "https://en.wikipedia.org/wiki/August_7",
+        "license": {
+          "name": "CC BY-SA 4.0",
+          "url": "https://creativecommons.org/licenses/by-sa/4.0/"
+        }
+      },
+      "image": {
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/cf/Casio_calculator_JS-20WK_in_201901_002.jpg/1280px-Casio_calculator_JS-20WK_in_201901_002.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "alt": "Picture from the Wikipedia article on Calculator.",
+        "credit": "Wikimedia Commons",
+        "source": "https://commons.wikimedia.org/wiki/File:Casio_calculator_JS-20WK_in_201901_002.jpg",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0"
+      }
+    },
+    {
       "id": "08-07-lynne-cox",
       "date": "08-07",
       "dateLabel": "7 August",
@@ -57,17 +84,17 @@
       }
     },
     {
-      "id": "08-07-calculator",
+      "id": "08-07-at-t-park",
       "date": "08-07",
       "dateLabel": "7 August",
-      "category": "tech",
-      "categoryName": "Tech",
-      "year": 1944,
-      "title": "Calculator",
-      "body": "IBM dedicates the first program-controlled calculator, the Automatic Sequence Controlled Calculator (known best as the Harvard Mark I).",
+      "category": "sport",
+      "categoryName": "Sport",
+      "year": 2007,
+      "title": "Oracle Park",
+      "body": "At AT&T Park, Barry Bonds hits his 756th career home run to surpass Hank Aaron's 33-year-old record.",
       "source": {
-        "name": "Wikipedia · Calculator",
-        "url": "https://en.wikipedia.org/wiki/Calculator",
+        "name": "Wikipedia · Oracle Park",
+        "url": "https://en.wikipedia.org/wiki/Oracle_Park",
         "calendarUrl": "https://en.wikipedia.org/wiki/August_7",
         "license": {
           "name": "CC BY-SA 4.0",
@@ -75,12 +102,39 @@
         }
       },
       "image": {
-        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/cf/Casio_calculator_JS-20WK_in_201901_002.jpg/1280px-Casio_calculator_JS-20WK_in_201901_002.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-        "alt": "Picture from the Wikipedia article on Calculator.",
-        "credit": "Mc681",
-        "source": "https://commons.wikimedia.org/wiki/File:Casio_calculator_JS-20WK_in_201901_002.jpg",
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/8e/Oracle_Park_2021.jpg/1280px-Oracle_Park_2021.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "alt": "Picture from the Wikipedia article on Oracle Park.",
+        "credit": "Chris6d",
+        "source": "https://commons.wikimedia.org/wiki/File:Oracle_Park_2021.jpg",
         "license": "CC BY-SA 4.0",
         "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0"
+      }
+    },
+    {
+      "id": "08-07-takao-doi",
+      "date": "08-07",
+      "dateLabel": "7 August",
+      "category": "space",
+      "categoryName": "Space",
+      "year": 1985,
+      "title": "Takao Doi",
+      "body": "Takao Doi, Mamoru Mohri and Chiaki Mukai are chosen to be Japan's first astronauts.",
+      "source": {
+        "name": "Wikipedia · Takao Doi",
+        "url": "https://en.wikipedia.org/wiki/Takao_Doi",
+        "calendarUrl": "https://en.wikipedia.org/wiki/August_7",
+        "license": {
+          "name": "CC BY-SA 4.0",
+          "url": "https://creativecommons.org/licenses/by-sa/4.0/"
+        }
+      },
+      "image": {
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a6/Doi.jpg/1280px-Doi.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "alt": "Picture from the Wikipedia article on Takao Doi.",
+        "credit": "NASA",
+        "source": "https://commons.wikimedia.org/wiki/File:Doi.jpg",
+        "license": "Public domain",
+        "licenseUrl": "https://commons.wikimedia.org/wiki/File:Doi.jpg"
       }
     }
   ]

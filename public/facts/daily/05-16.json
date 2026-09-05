@@ -3,6 +3,60 @@
   "dateLabel": "16 May",
   "facts": [
     {
+      "id": "05-16-venera-5",
+      "date": "05-16",
+      "dateLabel": "16 May",
+      "category": "space",
+      "categoryName": "Space",
+      "year": 1969,
+      "title": "Venera 5",
+      "body": "Venera 5, a Soviet space probe, lands on Venus.",
+      "source": {
+        "name": "Wikipedia · Venera 5",
+        "url": "https://en.wikipedia.org/wiki/Venera_5",
+        "calendarUrl": "https://en.wikipedia.org/wiki/May_16",
+        "license": {
+          "name": "CC BY-SA 4.0",
+          "url": "https://creativecommons.org/licenses/by-sa/4.0/"
+        }
+      },
+      "image": {
+        "src": "https://upload.wikimedia.org/wikipedia/commons/4/4e/The_Soviet_Union_1969_CPA_3821_stamp_%28Space_Probe%2C_Space_Capsule_and_Orbits%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+        "alt": "Picture from the Wikipedia article on Venera 5.",
+        "credit": "USSR Post",
+        "source": "https://commons.wikimedia.org/wiki/File:The_Soviet_Union_1969_CPA_3821_stamp_(Space_Probe,_Space_Capsule_and_Orbits).jpg",
+        "license": "Public domain",
+        "licenseUrl": "https://commons.wikimedia.org/wiki/File:The_Soviet_Union_1969_CPA_3821_stamp_(Space_Probe,_Space_Capsule_and_Orbits).jpg"
+      }
+    },
+    {
+      "id": "05-16-junko-tabei",
+      "date": "05-16",
+      "dateLabel": "16 May",
+      "category": "science",
+      "categoryName": "Science",
+      "year": 1975,
+      "title": "Junko Tabei",
+      "body": "Junko Tabei from Japan becomes the first woman to reach the summit of Mount Everest.",
+      "source": {
+        "name": "Wikipedia · Junko Tabei",
+        "url": "https://en.wikipedia.org/wiki/Junko_Tabei",
+        "calendarUrl": "https://en.wikipedia.org/wiki/May_16",
+        "license": {
+          "name": "CC BY-SA 4.0",
+          "url": "https://creativecommons.org/licenses/by-sa/4.0/"
+        }
+      },
+      "image": {
+        "src": "https://upload.wikimedia.org/wikipedia/commons/5/57/Junko_Tabei_85_%283to4%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+        "alt": "Picture from the Wikipedia article on Junko Tabei.",
+        "credit": "Jaan Künnap",
+        "source": "https://commons.wikimedia.org/wiki/File:Junko_Tabei_85_(3to4).jpg",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0"
+      }
+    },
+    {
       "id": "05-16-hollywood-los-angeles",
       "date": "05-16",
       "dateLabel": "16 May",
@@ -30,17 +84,17 @@
       }
     },
     {
-      "id": "05-16-venera-5",
+      "id": "05-16-tritons-fountain",
       "date": "05-16",
       "dateLabel": "16 May",
-      "category": "space",
-      "categoryName": "Space",
-      "year": 1969,
-      "title": "Venera 5",
-      "body": "Venera 5, a Soviet space probe, lands on Venus.",
+      "category": "world",
+      "categoryName": "World",
+      "year": 1959,
+      "title": "Tritons' Fountain",
+      "body": "The Tritons' Fountain in Valletta, Malta is turned on for the first time.",
       "source": {
-        "name": "Wikipedia · Venera 5",
-        "url": "https://en.wikipedia.org/wiki/Venera_5",
+        "name": "Wikipedia · Tritons' Fountain",
+        "url": "https://en.wikipedia.org/wiki/Tritons%27_Fountain",
         "calendarUrl": "https://en.wikipedia.org/wiki/May_16",
         "license": {
           "name": "CC BY-SA 4.0",
@@ -48,12 +102,12 @@
         }
       },
       "image": {
-        "src": "https://upload.wikimedia.org/wikipedia/commons/4/4e/The_Soviet_Union_1969_CPA_3821_stamp_%28Space_Probe%2C_Space_Capsule_and_Orbits%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
-        "alt": "Picture from the Wikipedia article on Venera 5.",
-        "credit": "USSR Post",
-        "source": "https://commons.wikimedia.org/wiki/File:The_Soviet_Union_1969_CPA_3821_stamp_(Space_Probe,_Space_Capsule_and_Orbits).jpg",
-        "license": "Public domain",
-        "licenseUrl": "https://commons.wikimedia.org/wiki/File:The_Soviet_Union_1969_CPA_3821_stamp_(Space_Probe,_Space_Capsule_and_Orbits).jpg"
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/59/Triton_Fountain_in_2018_02.jpg/1280px-Triton_Fountain_in_2018_02.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "alt": "Picture from the Wikipedia article on Tritons' Fountain.",
+        "credit": "Continentaleurope",
+        "source": "https://commons.wikimedia.org/wiki/File:Triton_Fountain_in_2018_02.jpg",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0"
       }
     },
     {

@@ -30,6 +30,33 @@
       }
     },
     {
+      "id": "12-17-wright-brothers",
+      "date": "12-17",
+      "dateLabel": "17 December",
+      "category": "world",
+      "categoryName": "World",
+      "year": 1903,
+      "title": "Wright brothers",
+      "body": "The Wright brothers make the first controlled powered, heavier-than-air flight in the Wright Flyer at Kitty Hawk, North Carolina.",
+      "source": {
+        "name": "Wikipedia · Wright brothers",
+        "url": "https://en.wikipedia.org/wiki/Wright_brothers",
+        "calendarUrl": "https://en.wikipedia.org/wiki/December_17",
+        "license": {
+          "name": "CC BY-SA 4.0",
+          "url": "https://creativecommons.org/licenses/by-sa/4.0/"
+        }
+      },
+      "image": {
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/af/Orville_Wright_1905-crop.jpg/1280px-Orville_Wright_1905-crop.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "alt": "Picture from the Wikipedia article on Wright brothers.",
+        "credit": "Orville Wright and Wilbur Wright",
+        "source": "https://commons.wikimedia.org/wiki/File:Orville_Wright_1905-crop.jpg",
+        "license": "Public domain",
+        "licenseUrl": "https://commons.wikimedia.org/wiki/File:Orville_Wright_1905-crop.jpg"
+      }
+    },
+    {
       "id": "12-17-1933-nfl-championship-game",
       "date": "12-17",
       "dateLabel": "17 December",
@@ -81,6 +108,33 @@
         "source": "https://commons.wikimedia.org/wiki/File:Otto_Hahn_1970.jpg",
         "license": "CC BY-SA 3.0 nl",
         "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0/nl/deed.en"
+      }
+    },
+    {
+      "id": "12-17-kurdistan",
+      "date": "12-17",
+      "dateLabel": "17 December",
+      "category": "world",
+      "categoryName": "World",
+      "year": 1945,
+      "title": "Kurdistan",
+      "body": "Kurdistan flag day, the flag of Kurdistan is raised for the first time in Mahabad in eastern Kurdistan.",
+      "source": {
+        "name": "Wikipedia · Kurdistan",
+        "url": "https://en.wikipedia.org/wiki/Kurdistan",
+        "calendarUrl": "https://en.wikipedia.org/wiki/December_17",
+        "license": {
+          "name": "CC BY-SA 4.0",
+          "url": "https://creativecommons.org/licenses/by-sa/4.0/"
+        }
+      },
+      "image": {
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/05/Kurdish-inhabited_areas_%28orthographic_projection_with_inset%29.svg/1280px-Kurdish-inhabited_areas_%28orthographic_projection_with_inset%29.svg.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "alt": "Picture from the Wikipedia article on Kurdistan.",
+        "credit": "Isochrone",
+        "source": "https://commons.wikimedia.org/wiki/File:Kurdish-inhabited_areas_(orthographic_projection_with_inset).svg",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0"
       }
     }
   ]

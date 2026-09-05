@@ -82,6 +82,60 @@
         "license": "Public domain",
         "licenseUrl": "https://commons.wikimedia.org/wiki/File:1959-cubacastrosignagrarianreformlaw.jpg"
       }
+    },
+    {
+      "id": "05-17-the-wonderful-wizard-of-oz",
+      "date": "05-17",
+      "dateLabel": "17 May",
+      "category": "culture",
+      "categoryName": "Culture",
+      "year": 1900,
+      "title": "The Wonderful Wizard of Oz",
+      "body": "The children's novel The Wonderful Wizard of Oz, by L. Frank Baum, is first published in the United States. The first copy is given to the author's sister.",
+      "source": {
+        "name": "Wikipedia · The Wonderful Wizard of Oz",
+        "url": "https://en.wikipedia.org/wiki/The_Wonderful_Wizard_of_Oz",
+        "calendarUrl": "https://en.wikipedia.org/wiki/May_17",
+        "license": {
+          "name": "CC BY-SA 4.0",
+          "url": "https://creativecommons.org/licenses/by-sa/4.0/"
+        }
+      },
+      "image": {
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/68/The_Wonderful_Wizard_of_Oz%2C_006.png/1280px-The_Wonderful_Wizard_of_Oz%2C_006.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "alt": "Picture from the Wikipedia article on The Wonderful Wizard of Oz.",
+        "credit": "William Wallace Denslow",
+        "source": "https://commons.wikimedia.org/wiki/File:The_Wonderful_Wizard_of_Oz,_006.png",
+        "license": "Public domain",
+        "licenseUrl": "https://commons.wikimedia.org/wiki/File:The_Wonderful_Wizard_of_Oz,_006.png"
+      }
+    },
+    {
+      "id": "05-17-nolan-bushnell",
+      "date": "05-17",
+      "dateLabel": "17 May",
+      "category": "world",
+      "categoryName": "World",
+      "year": 1977,
+      "title": "Nolan Bushnell",
+      "body": "Nolan Bushnell opens the first Chuck E. Cheese's Pizza Time Theatre (later renamed Chuck E. Cheese) in San Jose, California.",
+      "source": {
+        "name": "Wikipedia · Nolan Bushnell",
+        "url": "https://en.wikipedia.org/wiki/Nolan_Bushnell",
+        "calendarUrl": "https://en.wikipedia.org/wiki/May_17",
+        "license": {
+          "name": "CC BY-SA 4.0",
+          "url": "https://creativecommons.org/licenses/by-sa/4.0/"
+        }
+      },
+      "image": {
+        "src": "https://upload.wikimedia.org/wikipedia/commons/e/e1/Nolan_Bushnell_2013_%283x4_cropped%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+        "alt": "Picture from the Wikipedia article on Nolan Bushnell.",
+        "credit": "Tech Cocktail",
+        "source": "https://commons.wikimedia.org/wiki/File:Nolan_Bushnell_2013_(3x4_cropped).jpg",
+        "license": "CC BY-SA 2.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0"
+      }
     }
   ]
 }

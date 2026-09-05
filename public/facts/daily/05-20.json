@@ -3,33 +3,6 @@
   "dateLabel": "20 May",
   "facts": [
     {
-      "id": "05-20-charles-lindbergh",
-      "date": "05-20",
-      "dateLabel": "20 May",
-      "category": "world",
-      "categoryName": "World",
-      "year": 1927,
-      "title": "Charles Lindbergh",
-      "body": "Charles Lindbergh takes off for Paris from Roosevelt Field in Long Island, N.Y., aboard the Spirit of St. Louis on the first nonstop solo flight across the Atlantic Ocean, landing hours later.",
-      "source": {
-        "name": "Wikipedia · Charles Lindbergh",
-        "url": "https://en.wikipedia.org/wiki/Charles_Lindbergh",
-        "calendarUrl": "https://en.wikipedia.org/wiki/May_20",
-        "license": {
-          "name": "CC BY-SA 4.0",
-          "url": "https://creativecommons.org/licenses/by-sa/4.0/"
-        }
-      },
-      "image": {
-        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b3/Charles_Lindbergh_%28Harris_%26_Ewing_photo%2C_cropped%29.jpg/1280px-Charles_Lindbergh_%28Harris_%26_Ewing_photo%2C_cropped%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-        "alt": "Picture from the Wikipedia article on Charles Lindbergh.",
-        "credit": "Harris & Ewing",
-        "source": "https://commons.wikimedia.org/wiki/File:Charles_Lindbergh_(Harris_%26_Ewing_photo,_cropped).jpg",
-        "license": "Public domain",
-        "licenseUrl": "https://commons.wikimedia.org/wiki/File:Charles_Lindbergh_(Harris_%26_Ewing_photo,_cropped).jpg"
-      }
-    },
-    {
       "id": "05-20-hiv",
       "date": "05-20",
       "dateLabel": "20 May",
@@ -50,24 +23,24 @@
       "image": {
         "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/1a/HIV-budding-Color.jpg/1280px-HIV-budding-Color.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
         "alt": "Picture from the Wikipedia article on HIV.",
-        "credit": "Photo Credit: C. Goldsmith Content Providers: CDC/ C. Goldsmith, P. Feorino, E. L. Palmer, W. R. McManus",
+        "credit": "CDC/ C. Goldsmith",
         "source": "https://commons.wikimedia.org/wiki/File:HIV-budding-Color.jpg",
         "license": "Public domain",
         "licenseUrl": "https://commons.wikimedia.org/wiki/File:HIV-budding-Color.jpg"
       }
     },
     {
-      "id": "05-20-international-system-of-units",
+      "id": "05-20-operation-redwing",
       "date": "05-20",
       "dateLabel": "20 May",
       "category": "world",
       "categoryName": "World",
-      "year": 2019,
-      "title": "International System of Units",
-      "body": "The International System of Units (SI): The base units are redefined, making the international prototype of the kilogram obsolete.",
+      "year": 1956,
+      "title": "Operation Redwing",
+      "body": "In Operation Redwing, the first United States airborne hydrogen bomb is dropped over Bikini Atoll in the Pacific Ocean.",
       "source": {
-        "name": "Wikipedia · International System of Units",
-        "url": "https://en.wikipedia.org/wiki/International_System_of_Units",
+        "name": "Wikipedia · Operation Redwing",
+        "url": "https://en.wikipedia.org/wiki/Operation_Redwing",
         "calendarUrl": "https://en.wikipedia.org/wiki/May_20",
         "license": {
           "name": "CC BY-SA 4.0",
@@ -75,12 +48,93 @@
         }
       },
       "image": {
-        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/3c/SI_Illustration_Base_Units_and_Constants_Colour_Full.svg/1280px-SI_Illustration_Base_Units_and_Constants_Colour_Full.svg.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-        "alt": "Picture from the Wikipedia article on International System of Units.",
-        "credit": "BIPM (Original), User:Cmglee Rearranged version.",
-        "source": "https://commons.wikimedia.org/wiki/File:SI_Illustration_Base_Units_and_Constants_Colour_Full.svg",
+        "src": "https://upload.wikimedia.org/wikipedia/commons/1/1f/RedwingCherokee2.gif?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+        "alt": "Picture from the Wikipedia article on Operation Redwing.",
+        "credit": "Unknown author",
+        "source": "https://commons.wikimedia.org/wiki/File:RedwingCherokee2.gif",
         "license": "Public domain",
-        "licenseUrl": "https://commons.wikimedia.org/wiki/File:SI_Illustration_Base_Units_and_Constants_Colour_Full.svg"
+        "licenseUrl": "https://commons.wikimedia.org/wiki/File:RedwingCherokee2.gif"
+      }
+    },
+    {
+      "id": "05-20-discovery-of-cosmic-microwave-background-radiation",
+      "date": "05-20",
+      "dateLabel": "20 May",
+      "category": "science",
+      "categoryName": "Science",
+      "year": 1964,
+      "title": "Discovery of cosmic microwave background radiation",
+      "body": "Discovery of the cosmic microwave background radiation by Robert Woodrow Wilson and Arno Penzias.",
+      "source": {
+        "name": "Wikipedia · Discovery of cosmic microwave background radiation",
+        "url": "https://en.wikipedia.org/wiki/Discovery_of_cosmic_microwave_background_radiation",
+        "calendarUrl": "https://en.wikipedia.org/wiki/May_20",
+        "license": {
+          "name": "CC BY-SA 4.0",
+          "url": "https://creativecommons.org/licenses/by-sa/4.0/"
+        }
+      },
+      "image": {
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/ed/WMAP_2012.png/1280px-WMAP_2012.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "alt": "Picture from the Wikipedia article on Discovery of cosmic microwave background radiation.",
+        "credit": "NASA / WMAP Science Team",
+        "source": "https://commons.wikimedia.org/wiki/File:WMAP_2012.png",
+        "license": "Public domain",
+        "licenseUrl": "https://commons.wikimedia.org/wiki/File:WMAP_2012.png"
+      }
+    },
+    {
+      "id": "05-20-luttra-woman",
+      "date": "05-20",
+      "dateLabel": "20 May",
+      "category": "science",
+      "categoryName": "Science",
+      "year": 1943,
+      "title": "Luttra Woman",
+      "body": "The Luttra Woman, a bog body from the Early Neolithic period (radiocarbon-dated ), is discovered near Luttra, Sweden.",
+      "source": {
+        "name": "Wikipedia · Luttra Woman",
+        "url": "https://en.wikipedia.org/wiki/Luttra_Woman",
+        "calendarUrl": "https://en.wikipedia.org/wiki/May_20",
+        "license": {
+          "name": "CC BY-SA 4.0",
+          "url": "https://creativecommons.org/licenses/by-sa/4.0/"
+        }
+      },
+      "image": {
+        "src": "https://upload.wikimedia.org/wikipedia/commons/c/c6/Hallonflickans_kranium_9989.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+        "alt": "Picture from the Wikipedia article on Luttra Woman.",
+        "credit": "Gunnar Creutz",
+        "source": "https://commons.wikimedia.org/wiki/File:Hallonflickans_kranium_9989.jpg",
+        "license": "CC BY-SA 3.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0"
+      }
+    },
+    {
+      "id": "05-20-radio-mart",
+      "date": "05-20",
+      "dateLabel": "20 May",
+      "category": "world",
+      "categoryName": "World",
+      "year": 1985,
+      "title": "Radio y Televisión Martí",
+      "body": "Radio Martí, part of the Voice of America service, begins broadcasting to Cuba.",
+      "source": {
+        "name": "Wikipedia · Radio y Televisión Martí",
+        "url": "https://en.wikipedia.org/wiki/Radio_y_Televisi%C3%B3n_Mart%C3%AD",
+        "calendarUrl": "https://en.wikipedia.org/wiki/May_20",
+        "license": {
+          "name": "CC BY-SA 4.0",
+          "url": "https://creativecommons.org/licenses/by-sa/4.0/"
+        }
+      },
+      "image": {
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/dc/Radio_Mart%C3%AD_broadcast_studio.jpg/1280px-Radio_Mart%C3%AD_broadcast_studio.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "alt": "Picture from the Wikipedia article on Radio y Televisión Martí.",
+        "credit": "Broadcasting Board of Governors",
+        "source": "https://commons.wikimedia.org/wiki/File:Radio_Mart%C3%AD_broadcast_studio.jpg",
+        "license": "Public domain",
+        "licenseUrl": "https://commons.wikimedia.org/wiki/File:Radio_Mart%C3%AD_broadcast_studio.jpg"
       }
     }
   ]

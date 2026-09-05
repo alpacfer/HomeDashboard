@@ -30,6 +30,33 @@
       }
     },
     {
+      "id": "11-14-pes-pallo",
+      "date": "11-14",
+      "dateLabel": "14 November",
+      "category": "sport",
+      "categoryName": "Sport",
+      "year": 1920,
+      "title": "Pesäpallo",
+      "body": "Pesäpallo, the Finnish version of baseball developed by Lauri Pihkala, is played for the first time at Kaisaniemi Park in Helsinki.",
+      "source": {
+        "name": "Wikipedia · Pesäpallo",
+        "url": "https://en.wikipedia.org/wiki/Pes%C3%A4pallo",
+        "calendarUrl": "https://en.wikipedia.org/wiki/November_14",
+        "license": {
+          "name": "CC BY-SA 4.0",
+          "url": "https://creativecommons.org/licenses/by-sa/4.0/"
+        }
+      },
+      "image": {
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/db/Veto_-_Jymy_%2819.7.2015%29_09.JPG/1280px-Veto_-_Jymy_%2819.7.2015%29_09.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "alt": "Picture from the Wikipedia article on Pesäpallo.",
+        "credit": "Santeri Viinamäki",
+        "source": "https://commons.wikimedia.org/wiki/File:Veto_-_Jymy_(19.7.2015)_09.JPG",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0"
+      }
+    },
+    {
       "id": "11-14-theodore-maiman",
       "date": "11-14",
       "dateLabel": "14 November",
@@ -57,17 +84,17 @@
       }
     },
     {
-      "id": "11-14-pes-pallo",
+      "id": "11-14-ruby-bridges",
       "date": "11-14",
       "dateLabel": "14 November",
-      "category": "sport",
-      "categoryName": "Sport",
-      "year": 1920,
-      "title": "Pesäpallo",
-      "body": "Pesäpallo, the Finnish version of baseball developed by Lauri Pihkala, is played for the first time at Kaisaniemi Park in Helsinki.",
+      "category": "world",
+      "categoryName": "World",
+      "year": 1960,
+      "title": "Ruby Bridges",
+      "body": "Ruby Bridges becomes the first black child to attend an all-white elementary school in Louisiana.",
       "source": {
-        "name": "Wikipedia · Pesäpallo",
-        "url": "https://en.wikipedia.org/wiki/Pes%C3%A4pallo",
+        "name": "Wikipedia · Ruby Bridges",
+        "url": "https://en.wikipedia.org/wiki/Ruby_Bridges",
         "calendarUrl": "https://en.wikipedia.org/wiki/November_14",
         "license": {
           "name": "CC BY-SA 4.0",
@@ -75,12 +102,39 @@
         }
       },
       "image": {
-        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/db/Veto_-_Jymy_%2819.7.2015%29_09.JPG/1280px-Veto_-_Jymy_%2819.7.2015%29_09.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-        "alt": "Picture from the Wikipedia article on Pesäpallo.",
-        "credit": "Santeri Viinamäki",
-        "source": "https://commons.wikimedia.org/wiki/File:Veto_-_Jymy_(19.7.2015)_09.JPG",
-        "license": "CC BY-SA 4.0",
-        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0"
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/3d/Ruby_Bridges_%2816264182739%29.jpg/1280px-Ruby_Bridges_%2816264182739%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "alt": "Picture from the Wikipedia article on Ruby Bridges.",
+        "credit": "Texas A&M University-Commerce Marketing…",
+        "source": "https://commons.wikimedia.org/wiki/File:Ruby_Bridges_(16264182739).jpg",
+        "license": "CC BY 2.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by/2.0"
+      }
+    },
+    {
+      "id": "11-14-apollo-12",
+      "date": "11-14",
+      "dateLabel": "14 November",
+      "category": "space",
+      "categoryName": "Space",
+      "year": 1969,
+      "title": "Apollo 12",
+      "body": "NASA launches Apollo 12, the second crewed mission to the surface of the Moon.",
+      "source": {
+        "name": "Wikipedia · Apollo 12",
+        "url": "https://en.wikipedia.org/wiki/Apollo_12",
+        "calendarUrl": "https://en.wikipedia.org/wiki/November_14",
+        "license": {
+          "name": "CC BY-SA 4.0",
+          "url": "https://creativecommons.org/licenses/by-sa/4.0/"
+        }
+      },
+      "image": {
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/4e/Surveyor_3-Apollo_12.jpg/1280px-Surveyor_3-Apollo_12.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "alt": "Picture from the Wikipedia article on Apollo 12.",
+        "credit": "NASA, Alan L. Bean",
+        "source": "https://commons.wikimedia.org/wiki/File:Surveyor_3-Apollo_12.jpg",
+        "license": "Public domain",
+        "licenseUrl": "https://commons.wikimedia.org/wiki/File:Surveyor_3-Apollo_12.jpg"
       }
     }
   ]

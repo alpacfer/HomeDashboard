@@ -30,17 +30,17 @@
       }
     },
     {
-      "id": "04-22-operation-persecution",
+      "id": "04-22-robin-knox-johnston",
       "date": "04-22",
       "dateLabel": "22 April",
       "category": "world",
       "categoryName": "World",
-      "year": 1944,
-      "title": "Landing at Aitape",
-      "body": "Allied forces land in the Hollandia (currently known as Jayapura) area of New Guinea.",
+      "year": 1969,
+      "title": "Robin Knox-Johnston",
+      "body": "British yachtsman Sir Robin Knox-Johnston wins the Sunday Times Golden Globe Race and completes the first solo non-stop circumnavigation of the world.",
       "source": {
-        "name": "Wikipedia · Landing at Aitape",
-        "url": "https://en.wikipedia.org/wiki/Landing_at_Aitape",
+        "name": "Wikipedia · Robin Knox-Johnston",
+        "url": "https://en.wikipedia.org/wiki/Robin_Knox-Johnston",
         "calendarUrl": "https://en.wikipedia.org/wiki/April_22",
         "license": {
           "name": "CC BY-SA 4.0",
@@ -48,12 +48,66 @@
         }
       },
       "image": {
-        "src": "https://upload.wikimedia.org/wikipedia/commons/f/fb/Troops_unloading_supplies_at_Aitape.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
-        "alt": "Picture from the Wikipedia article on Landing at Aitape.",
-        "credit": "US-Army",
-        "source": "https://commons.wikimedia.org/wiki/File:Troops_unloading_supplies_at_Aitape.jpg",
+        "src": "https://upload.wikimedia.org/wikipedia/commons/7/72/Robin_Knox-Johnston.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+        "alt": "Picture from the Wikipedia article on Robin Knox-Johnston.",
+        "credit": "GeorgeCaulfield",
+        "source": "https://commons.wikimedia.org/wiki/File:Robin_Knox-Johnston.jpg",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0"
+      }
+    },
+    {
+      "id": "04-22-earth-day",
+      "date": "04-22",
+      "dateLabel": "22 April",
+      "category": "world",
+      "categoryName": "World",
+      "year": 1970,
+      "title": "Earth Day",
+      "body": "The first Earth Day is celebrated.",
+      "source": {
+        "name": "Wikipedia · Earth Day",
+        "url": "https://en.wikipedia.org/wiki/Earth_Day",
+        "calendarUrl": "https://en.wikipedia.org/wiki/April_22",
+        "license": {
+          "name": "CC BY-SA 4.0",
+          "url": "https://creativecommons.org/licenses/by-sa/4.0/"
+        }
+      },
+      "image": {
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/6a/Earth_Day_Flag.png/1280px-Earth_Day_Flag.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "alt": "Picture from the Wikipedia article on Earth Day.",
+        "credit": "John McConnell NASA SiBr4",
+        "source": "https://commons.wikimedia.org/wiki/File:Earth_Day_Flag.png",
         "license": "Public domain",
-        "licenseUrl": "https://commons.wikimedia.org/wiki/File:Troops_unloading_supplies_at_Aitape.jpg"
+        "licenseUrl": "https://commons.wikimedia.org/wiki/File:Earth_Day_Flag.png"
+      }
+    },
+    {
+      "id": "04-22-paris-agreement",
+      "date": "04-22",
+      "dateLabel": "22 April",
+      "category": "world",
+      "categoryName": "World",
+      "year": 2016,
+      "title": "Paris Agreement",
+      "body": "The Paris Agreement is signed, an agreement to help fight global warming.",
+      "source": {
+        "name": "Wikipedia · Paris Agreement",
+        "url": "https://en.wikipedia.org/wiki/Paris_Agreement",
+        "calendarUrl": "https://en.wikipedia.org/wiki/April_22",
+        "license": {
+          "name": "CC BY-SA 4.0",
+          "url": "https://creativecommons.org/licenses/by-sa/4.0/"
+        }
+      },
+      "image": {
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/4b/ParisAgreement.svg/1280px-ParisAgreement.svg.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "alt": "Picture from the Wikipedia article on Paris Agreement.",
+        "credit": "L.tak",
+        "source": "https://commons.wikimedia.org/wiki/File:ParisAgreement.svg",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0"
       }
     },
     {

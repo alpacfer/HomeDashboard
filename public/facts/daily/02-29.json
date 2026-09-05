@@ -23,7 +23,7 @@
       "image": {
         "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/27/Poster_-_Gone_With_the_Wind_01.jpg/1280px-Poster_-_Gone_With_the_Wind_01.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
         "alt": "Picture from the Wikipedia article on Gone with the Wind.",
-        "credit": "Armando Seguso (per Heritage Auctions)",
+        "credit": "Armando Seguso",
         "source": "https://commons.wikimedia.org/wiki/File:Poster_-_Gone_With_the_Wind_01.jpg",
         "license": "Public domain",
         "licenseUrl": "https://commons.wikimedia.org/wiki/File:Poster_-_Gone_With_the_Wind_01.jpg"
@@ -50,7 +50,7 @@
       "image": {
         "src": "https://upload.wikimedia.org/wikipedia/commons/b/b0/Svend_Robinson.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
         "alt": "Picture from the Wikipedia article on Svend Robinson.",
-        "credit": "Montrealais at the English-language Wikipedia",
+        "credit": "Montrealais",
         "source": "https://commons.wikimedia.org/wiki/File:Svend_Robinson.jpg",
         "license": "CC BY-SA 3.0",
         "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0/"
@@ -81,6 +81,60 @@
         "source": "https://commons.wikimedia.org/wiki/File:Berkeley_cityscape.jpg",
         "license": "CC BY 2.0",
         "licenseUrl": "https://creativecommons.org/licenses/by/2.0"
+      }
+    },
+    {
+      "id": "02-29-christopher-columbus",
+      "date": "02-29",
+      "dateLabel": "29 February",
+      "category": "space",
+      "categoryName": "Space",
+      "year": 1504,
+      "title": "Christopher Columbus",
+      "body": "Christopher Columbus uses his knowledge of a lunar eclipse that night to convince Jamaican natives to provide him with supplies.",
+      "source": {
+        "name": "Wikipedia · Christopher Columbus",
+        "url": "https://en.wikipedia.org/wiki/Christopher_Columbus",
+        "calendarUrl": "https://en.wikipedia.org/wiki/February_29",
+        "license": {
+          "name": "CC BY-SA 4.0",
+          "url": "https://creativecommons.org/licenses/by-sa/4.0/"
+        }
+      },
+      "image": {
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c2/Portrait_of_a_Man%2C_Said_to_be_Christopher_Columbus.jpg/1280px-Portrait_of_a_Man%2C_Said_to_be_Christopher_Columbus.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "alt": "Picture from the Wikipedia article on Christopher Columbus.",
+        "credit": "Sebastiano del Piombo",
+        "source": "https://commons.wikimedia.org/wiki/File:Portrait_of_a_Man,_Said_to_be_Christopher_Columbus.jpg",
+        "license": "Public domain",
+        "licenseUrl": "https://commons.wikimedia.org/wiki/File:Portrait_of_a_Man,_Said_to_be_Christopher_Columbus.jpg"
+      }
+    },
+    {
+      "id": "02-29-angelina-jolie",
+      "date": "02-29",
+      "dateLabel": "29 February",
+      "category": "culture",
+      "categoryName": "Culture",
+      "year": 2004,
+      "title": "Angelina Jolie",
+      "body": "Angelina Jolie wears a White Marc Bouwer dress to the 76th Academy Awards, which has since been placed on numerous lists for best Oscars fashion.",
+      "source": {
+        "name": "Wikipedia · Angelina Jolie",
+        "url": "https://en.wikipedia.org/wiki/Angelina_Jolie",
+        "calendarUrl": "https://en.wikipedia.org/wiki/February_29",
+        "license": {
+          "name": "CC BY-SA 4.0",
+          "url": "https://creativecommons.org/licenses/by-sa/4.0/"
+        }
+      },
+      "image": {
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/12/Angelina_Jolie-643531_%28cropped%29.jpg/1280px-Angelina_Jolie-643531_%28cropped%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "alt": "Picture from the Wikipedia article on Angelina Jolie.",
+        "credit": "Harald Krichel",
+        "source": "https://commons.wikimedia.org/wiki/File:Angelina_Jolie-643531_(cropped).jpg",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0"
       }
     }
   ]

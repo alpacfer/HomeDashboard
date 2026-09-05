@@ -23,7 +23,7 @@
       "image": {
         "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/0e/Charon_in_True_Color_-_High-Res.png/1280px-Charon_in_True_Color_-_High-Res.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
         "alt": "Picture from the Wikipedia article on Charon.",
-        "credit": "NASA/Johns Hopkins University Applied Physics Laboratory/Southwest Research Institute/Alex Parker",
+        "credit": "NASA",
         "source": "https://commons.wikimedia.org/wiki/File:Charon_in_True_Color_-_High-Res.png",
         "license": "Public domain",
         "licenseUrl": "https://commons.wikimedia.org/wiki/File:Charon_in_True_Color_-_High-Res.png"
@@ -57,6 +57,33 @@
       }
     },
     {
+      "id": "06-22-checkpoint-charlie",
+      "date": "06-22",
+      "dateLabel": "22 June",
+      "category": "world",
+      "categoryName": "World",
+      "year": 1990,
+      "title": "Checkpoint Charlie",
+      "body": "Checkpoint Charlie is dismantled in Berlin.",
+      "source": {
+        "name": "Wikipedia · Checkpoint Charlie",
+        "url": "https://en.wikipedia.org/wiki/Checkpoint_Charlie",
+        "calendarUrl": "https://en.wikipedia.org/wiki/June_22",
+        "license": {
+          "name": "CC BY-SA 4.0",
+          "url": "https://creativecommons.org/licenses/by-sa/4.0/"
+        }
+      },
+      "image": {
+        "src": "https://upload.wikimedia.org/wikipedia/commons/7/75/Berlin_-_Checkpoint_Charlie_1963.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+        "alt": "Picture from the Wikipedia article on Checkpoint Charlie.",
+        "credit": "Roger Wollstadt",
+        "source": "https://commons.wikimedia.org/wiki/File:Berlin_-_Checkpoint_Charlie_1963.jpg",
+        "license": "CC BY-SA 2.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0"
+      }
+    },
+    {
       "id": "06-22-west-indies",
       "date": "06-22",
       "dateLabel": "22 June",
@@ -81,6 +108,33 @@
         "source": "https://commons.wikimedia.org/wiki/File:West_Indies_(orthographic_projection).svg",
         "license": "CC BY-SA 3.0",
         "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0/"
+      }
+    },
+    {
+      "id": "06-22-george-vi",
+      "date": "06-22",
+      "dateLabel": "22 June",
+      "category": "world",
+      "categoryName": "World",
+      "year": 1948,
+      "title": "George VI",
+      "body": "King George VI formally gives up the title \"Emperor of India\", half a year after Britain actually gave up its rule of India.",
+      "source": {
+        "name": "Wikipedia · George VI",
+        "url": "https://en.wikipedia.org/wiki/George_VI",
+        "calendarUrl": "https://en.wikipedia.org/wiki/June_22",
+        "license": {
+          "name": "CC BY-SA 4.0",
+          "url": "https://creativecommons.org/licenses/by-sa/4.0/"
+        }
+      },
+      "image": {
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e0/King_George_VI_LOC_matpc.14736_A_%28cropped%29.jpg/1280px-King_George_VI_LOC_matpc.14736_A_%28cropped%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "alt": "Picture from the Wikipedia article on George VI.",
+        "credit": "Matson Photo Service",
+        "source": "https://commons.wikimedia.org/wiki/File:King_George_VI_LOC_matpc.14736_A_(cropped).jpg",
+        "license": "Public domain",
+        "licenseUrl": "https://commons.wikimedia.org/wiki/File:King_George_VI_LOC_matpc.14736_A_(cropped).jpg"
       }
     }
   ]

@@ -82,6 +82,60 @@
         "license": "Public domain",
         "licenseUrl": "https://commons.wikimedia.org/wiki/File:The_Mozart_Family_-_Wolfgang_Amadeus_Mozart_headshot.jpg"
       }
+    },
+    {
+      "id": "11-04-james-young-simpson",
+      "date": "11-04",
+      "dateLabel": "4 November",
+      "category": "science",
+      "categoryName": "Science",
+      "year": 1847,
+      "title": "James Young Simpson",
+      "body": "Sir James Young Simpson, a Scottish medical doctor, discovers the anaesthetic properties of chloroform.",
+      "source": {
+        "name": "Wikipedia · James Young Simpson",
+        "url": "https://en.wikipedia.org/wiki/James_Young_Simpson",
+        "calendarUrl": "https://en.wikipedia.org/wiki/November_4",
+        "license": {
+          "name": "CC BY-SA 4.0",
+          "url": "https://creativecommons.org/licenses/by-sa/4.0/"
+        }
+      },
+      "image": {
+        "src": "https://upload.wikimedia.org/wikipedia/commons/f/f8/Simpson_James_Young_signature_picture.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+        "alt": "Picture from the Wikipedia article on James Young Simpson.",
+        "credit": "Unidentified photographer",
+        "source": "https://commons.wikimedia.org/wiki/File:Simpson_James_Young_signature_picture.jpg",
+        "license": "Public domain",
+        "licenseUrl": "https://commons.wikimedia.org/wiki/File:Simpson_James_Young_signature_picture.jpg"
+      }
+    },
+    {
+      "id": "11-04-federal-government-of-the-united-states",
+      "date": "11-04",
+      "dateLabel": "4 November",
+      "category": "world",
+      "categoryName": "World",
+      "year": 1952,
+      "title": "Federal government of the United States",
+      "body": "The United States government establishes the National Security Agency, or NSA.",
+      "source": {
+        "name": "Wikipedia · Federal government of the United States",
+        "url": "https://en.wikipedia.org/wiki/Federal_government_of_the_United_States",
+        "calendarUrl": "https://en.wikipedia.org/wiki/November_4",
+        "license": {
+          "name": "CC BY-SA 4.0",
+          "url": "https://creativecommons.org/licenses/by-sa/4.0/"
+        }
+      },
+      "image": {
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/5b/Greater_coat_of_arms_of_the_United_States.svg/1280px-Greater_coat_of_arms_of_the_United_States.svg.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "alt": "Picture from the Wikipedia article on Federal government of the United States.",
+        "credit": "Ssolbergj",
+        "source": "https://commons.wikimedia.org/wiki/File:Greater_coat_of_arms_of_the_United_States.svg",
+        "license": "Public domain",
+        "licenseUrl": "https://commons.wikimedia.org/wiki/File:Greater_coat_of_arms_of_the_United_States.svg"
+      }
     }
   ]
 }

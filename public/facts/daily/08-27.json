@@ -23,7 +23,7 @@
       "image": {
         "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/0c/Mars_-_August_30_2021_-_Flickr_-_Kevin_M._Gill.png/1280px-Mars_-_August_30_2021_-_Flickr_-_Kevin_M._Gill.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
         "alt": "Picture from the Wikipedia article on Mars.",
-        "credit": "Kevin Gill from Los Angeles, CA, United States",
+        "credit": "Kevin Gill",
         "source": "https://commons.wikimedia.org/wiki/File:Mars_-_August_30_2021_-_Flickr_-_Kevin_M._Gill.png",
         "license": "CC BY 2.0",
         "licenseUrl": "https://creativecommons.org/licenses/by/2.0"
@@ -57,6 +57,33 @@
       }
     },
     {
+      "id": "08-27-european-community",
+      "date": "08-27",
+      "dateLabel": "27 August",
+      "category": "world",
+      "categoryName": "World",
+      "year": 1991,
+      "title": "European Economic Community",
+      "body": "The European Community recognizes the independence of the Baltic states of Estonia, Latvia and Lithuania.",
+      "source": {
+        "name": "Wikipedia · European Economic Community",
+        "url": "https://en.wikipedia.org/wiki/European_Economic_Community",
+        "calendarUrl": "https://en.wikipedia.org/wiki/August_27",
+        "license": {
+          "name": "CC BY-SA 4.0",
+          "url": "https://creativecommons.org/licenses/by-sa/4.0/"
+        }
+      },
+      "image": {
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b7/Flag_of_Europe.svg/1280px-Flag_of_Europe.svg.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "alt": "Picture from the Wikipedia article on European Economic Community.",
+        "credit": "User:Verdy p",
+        "source": "https://commons.wikimedia.org/wiki/File:Flag_of_Europe.svg",
+        "license": "Public domain",
+        "licenseUrl": "https://commons.wikimedia.org/wiki/File:Flag_of_Europe.svg"
+      }
+    },
+    {
       "id": "08-27-mariner-2",
       "date": "08-27",
       "dateLabel": "27 August",
@@ -81,6 +108,33 @@
         "source": "https://commons.wikimedia.org/wiki/File:Mariner_2_Engineering_Model.jpg",
         "license": "CC0",
         "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/deed.en"
+      }
+    },
+    {
+      "id": "08-27-calder-hall",
+      "date": "08-27",
+      "dateLabel": "27 August",
+      "category": "world",
+      "categoryName": "World",
+      "year": 1956,
+      "title": "Calder Hall nuclear power station",
+      "body": "The nuclear power station at Calder Hall in the United Kingdom was connected to the national power grid becoming the world's first commercial nuclear power station to generate electricity on an industrial scale.",
+      "source": {
+        "name": "Wikipedia · Calder Hall nuclear power station",
+        "url": "https://en.wikipedia.org/wiki/Calder_Hall_nuclear_power_station",
+        "calendarUrl": "https://en.wikipedia.org/wiki/August_27",
+        "license": {
+          "name": "CC BY-SA 4.0",
+          "url": "https://creativecommons.org/licenses/by-sa/4.0/"
+        }
+      },
+      "image": {
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/29/Calder_Hall_nuclear_power_station%2C_after_opening.jpg/1280px-Calder_Hall_nuclear_power_station%2C_after_opening.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "alt": "Picture from the Wikipedia article on Calder Hall nuclear power station.",
+        "credit": "UK government agencies",
+        "source": "https://commons.wikimedia.org/wiki/File:Calder_Hall_nuclear_power_station,_after_opening.jpg",
+        "license": "OGL 3",
+        "licenseUrl": "https://www.nationalarchives.gov.uk/doc/open-government-licence/version/3"
       }
     }
   ]

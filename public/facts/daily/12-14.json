@@ -30,33 +30,6 @@
       }
     },
     {
-      "id": "12-14-giacomo-puccini",
-      "date": "12-14",
-      "dateLabel": "14 December",
-      "category": "culture",
-      "categoryName": "Culture",
-      "year": 1918,
-      "title": "Giacomo Puccini",
-      "body": "Giacomo Puccini's comic opera Gianni Schicchi premieres at the Metropolitan Opera in New York City.",
-      "source": {
-        "name": "Wikipedia · Giacomo Puccini",
-        "url": "https://en.wikipedia.org/wiki/Giacomo_Puccini",
-        "calendarUrl": "https://en.wikipedia.org/wiki/December_14",
-        "license": {
-          "name": "CC BY-SA 4.0",
-          "url": "https://creativecommons.org/licenses/by-sa/4.0/"
-        }
-      },
-      "image": {
-        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/cc/Giacomo_Puccini_LCCN2005685154_%281%29_cropped.jpg/1280px-Giacomo_Puccini_LCCN2005685154_%281%29_cropped.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-        "alt": "Picture from the Wikipedia article on Giacomo Puccini.",
-        "credit": "Miscellaneous Items in High Demand, PPOC, Library of Congress",
-        "source": "https://commons.wikimedia.org/wiki/File:Giacomo_Puccini_LCCN2005685154_(1)_cropped.jpg",
-        "license": "Public domain",
-        "licenseUrl": "https://commons.wikimedia.org/wiki/File:Giacomo_Puccini_LCCN2005685154_(1)_cropped.jpg"
-      }
-    },
-    {
       "id": "12-14-commercial-pacific-cable-company",
       "date": "12-14",
       "dateLabel": "14 December",
@@ -77,10 +50,91 @@
       "image": {
         "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b3/House_Flag_of_Commercial_Pacific_Cable_Company.svg/1280px-House_Flag_of_Commercial_Pacific_Cable_Company.svg.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
         "alt": "Picture from the Wikipedia article on Commercial Pacific Cable Company.",
-        "credit": "Original: Commercial Pacific Cable Company Vector: Designism",
+        "credit": "Commercial Pacific Cable Company Vector…",
         "source": "https://commons.wikimedia.org/wiki/File:House_Flag_of_Commercial_Pacific_Cable_Company.svg",
         "license": "Public domain",
         "licenseUrl": "https://commons.wikimedia.org/wiki/File:House_Flag_of_Commercial_Pacific_Cable_Company.svg"
+      }
+    },
+    {
+      "id": "12-14-giacomo-puccini",
+      "date": "12-14",
+      "dateLabel": "14 December",
+      "category": "culture",
+      "categoryName": "Culture",
+      "year": 1918,
+      "title": "Giacomo Puccini",
+      "body": "Giacomo Puccini's comic opera Gianni Schicchi premieres at the Metropolitan Opera in New York City.",
+      "source": {
+        "name": "Wikipedia · Giacomo Puccini",
+        "url": "https://en.wikipedia.org/wiki/Giacomo_Puccini",
+        "calendarUrl": "https://en.wikipedia.org/wiki/December_14",
+        "license": {
+          "name": "CC BY-SA 4.0",
+          "url": "https://creativecommons.org/licenses/by-sa/4.0/"
+        }
+      },
+      "image": {
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/cc/Giacomo_Puccini_LCCN2005685154_%281%29_cropped.jpg/1280px-Giacomo_Puccini_LCCN2005685154_%281%29_cropped.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "alt": "Picture from the Wikipedia article on Giacomo Puccini.",
+        "credit": "Miscellaneous Items in High Demand…",
+        "source": "https://commons.wikimedia.org/wiki/File:Giacomo_Puccini_LCCN2005685154_(1)_cropped.jpg",
+        "license": "Public domain",
+        "licenseUrl": "https://commons.wikimedia.org/wiki/File:Giacomo_Puccini_LCCN2005685154_(1)_cropped.jpg"
+      }
+    },
+    {
+      "id": "12-14-gene-cernan",
+      "date": "12-14",
+      "dateLabel": "14 December",
+      "category": "space",
+      "categoryName": "Space",
+      "year": 1972,
+      "title": "Gene Cernan",
+      "body": "Eugene Cernan is the most recent person to walk on the Moon, after he and Harrison Schmitt complete the third and final extravehicular activity (EVA) of the Apollo 17 mission.",
+      "source": {
+        "name": "Wikipedia · Gene Cernan",
+        "url": "https://en.wikipedia.org/wiki/Gene_Cernan",
+        "calendarUrl": "https://en.wikipedia.org/wiki/December_14",
+        "license": {
+          "name": "CC BY-SA 4.0",
+          "url": "https://creativecommons.org/licenses/by-sa/4.0/"
+        }
+      },
+      "image": {
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e4/Cernan_s71-51308.jpg/1280px-Cernan_s71-51308.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "alt": "Picture from the Wikipedia article on Gene Cernan.",
+        "credit": "NASA",
+        "source": "https://commons.wikimedia.org/wiki/File:Cernan_s71-51308.jpg",
+        "license": "Public domain",
+        "licenseUrl": "https://commons.wikimedia.org/wiki/File:Cernan_s71-51308.jpg"
+      }
+    },
+    {
+      "id": "12-14-solar-eclipse-of-december-14-2020",
+      "date": "12-14",
+      "dateLabel": "14 December",
+      "category": "space",
+      "categoryName": "Space",
+      "year": 2020,
+      "title": "Solar eclipse of December 14, 2020",
+      "body": "A total solar eclipse is visible from parts of the South Pacific Ocean, southern South America, and the South Atlantic Ocean.",
+      "source": {
+        "name": "Wikipedia · Solar eclipse of December 14, 2020",
+        "url": "https://en.wikipedia.org/wiki/Solar_eclipse_of_December_14,_2020",
+        "calendarUrl": "https://en.wikipedia.org/wiki/December_14",
+        "license": {
+          "name": "CC BY-SA 4.0",
+          "url": "https://creativecommons.org/licenses/by-sa/4.0/"
+        }
+      },
+      "image": {
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/53/Eclipse_total_Gorbea_2020.jpg/1280px-Eclipse_total_Gorbea_2020.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "alt": "Picture from the Wikipedia article on Solar eclipse of December 14, 2020.",
+        "credit": "CuervoNN",
+        "source": "https://commons.wikimedia.org/wiki/File:Eclipse_total_Gorbea_2020.jpg",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0"
       }
     }
   ]

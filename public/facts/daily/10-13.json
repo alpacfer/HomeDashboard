@@ -82,6 +82,60 @@
         "license": "Public domain",
         "licenseUrl": "https://commons.wikimedia.org/wiki/File:Prince_Arthur,_1st_Duke_of_Connaught_and_Strathearn.jpg"
       }
+    },
+    {
+      "id": "10-13-2010-copiap-mining-accident",
+      "date": "10-13",
+      "dateLabel": "13 October",
+      "category": "world",
+      "categoryName": "World",
+      "year": 2010,
+      "title": "2010 Copiapó mining accident",
+      "body": "The mining accident in Copiapó, Chile ends as all 33 trapped miners arrive at the surface after a record 69 days underground.",
+      "source": {
+        "name": "Wikipedia · 2010 Copiapó mining accident",
+        "url": "https://en.wikipedia.org/wiki/2010_Copiap%C3%B3_mining_accident",
+        "calendarUrl": "https://en.wikipedia.org/wiki/October_13",
+        "license": {
+          "name": "CC BY-SA 4.0",
+          "url": "https://creativecommons.org/licenses/by-sa/4.0/"
+        }
+      },
+      "image": {
+        "src": "https://upload.wikimedia.org/wikipedia/commons/6/64/Mina_San_Jos%C3%A9_de_Copiap%C3%B3_en_2010.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+        "alt": "Picture from the Wikipedia article on 2010 Copiapó mining accident.",
+        "credit": "desierto_atacama",
+        "source": "https://commons.wikimedia.org/wiki/File:Mina_San_Jos%C3%A9_de_Copiap%C3%B3_en_2010.jpg",
+        "license": "CC BY-SA 2.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0"
+      }
+    },
+    {
+      "id": "10-13-maldives",
+      "date": "10-13",
+      "dateLabel": "13 October",
+      "category": "world",
+      "categoryName": "World",
+      "year": 2016,
+      "title": "Maldives",
+      "body": "The Maldives announces its decision to withdraw from the Commonwealth of Nations.",
+      "source": {
+        "name": "Wikipedia · Maldives",
+        "url": "https://en.wikipedia.org/wiki/Maldives",
+        "calendarUrl": "https://en.wikipedia.org/wiki/October_13",
+        "license": {
+          "name": "CC BY-SA 4.0",
+          "url": "https://creativecommons.org/licenses/by-sa/4.0/"
+        }
+      },
+      "image": {
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/0f/Flag_of_Maldives.svg/1280px-Flag_of_Maldives.svg.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "alt": "Picture from the Wikipedia article on Maldives.",
+        "credit": "See File history, below, for details",
+        "source": "https://commons.wikimedia.org/wiki/File:Flag_of_Maldives.svg",
+        "license": "Public domain",
+        "licenseUrl": "https://commons.wikimedia.org/wiki/File:Flag_of_Maldives.svg"
+      }
     }
   ]
 }

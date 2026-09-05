@@ -23,7 +23,7 @@
       "image": {
         "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/95/Carl_Benz_circa_1920.jpg/1280px-Carl_Benz_circa_1920.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
         "alt": "Picture from the Wikipedia article on Carl Benz.",
-        "credit": "Unknown (same photo credited to various stock photo agencies. The copyright is also claimed by the Mercedes-Benz Public Archive)",
+        "credit": "Unknown",
         "source": "https://commons.wikimedia.org/wiki/File:Carl_Benz_circa_1920.jpg",
         "license": "Public domain",
         "licenseUrl": "https://commons.wikimedia.org/wiki/File:Carl_Benz_circa_1920.jpg"
@@ -81,6 +81,60 @@
         "source": "https://commons.wikimedia.org/wiki/File:David-Bowie_Chicago_2002-08-08_photoby_Adam-Bielawski-cropped.jpg",
         "license": "CC BY-SA 3.0",
         "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0"
+      }
+    },
+    {
+      "id": "07-03-pitcairn-island",
+      "date": "07-03",
+      "dateLabel": "3 July",
+      "category": "science",
+      "categoryName": "Science",
+      "year": 1767,
+      "title": "Pitcairn Island",
+      "body": "Pitcairn Island is discovered by Midshipman Robert Pitcairn on an expeditionary voyage commanded by Philip Carteret.",
+      "source": {
+        "name": "Wikipedia · Pitcairn Island",
+        "url": "https://en.wikipedia.org/wiki/Pitcairn_Island",
+        "calendarUrl": "https://en.wikipedia.org/wiki/July_3",
+        "license": {
+          "name": "CC BY-SA 4.0",
+          "url": "https://creativecommons.org/licenses/by-sa/4.0/"
+        }
+      },
+      "image": {
+        "src": "https://upload.wikimedia.org/wikipedia/commons/2/2c/Pitcairnsatellite.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+        "alt": "Picture from the Wikipedia article on Pitcairn Island.",
+        "credit": "NASA",
+        "source": "https://commons.wikimedia.org/wiki/File:Pitcairnsatellite.png",
+        "license": "Public domain",
+        "licenseUrl": "https://commons.wikimedia.org/wiki/File:Pitcairnsatellite.png"
+      }
+    },
+    {
+      "id": "07-03-new-york-tribune",
+      "date": "07-03",
+      "dateLabel": "3 July",
+      "category": "world",
+      "categoryName": "World",
+      "year": 1886,
+      "title": "New-York Tribune",
+      "body": "The New-York Tribune becomes the first newspaper to use a linotype machine, eliminating typesetting by hand.",
+      "source": {
+        "name": "Wikipedia · New-York Tribune",
+        "url": "https://en.wikipedia.org/wiki/New-York_Tribune",
+        "calendarUrl": "https://en.wikipedia.org/wiki/July_3",
+        "license": {
+          "name": "CC BY-SA 4.0",
+          "url": "https://creativecommons.org/licenses/by-sa/4.0/"
+        }
+      },
+      "image": {
+        "src": "https://upload.wikimedia.org/wikipedia/commons/f/f6/Nytrib1864.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+        "alt": "Picture from the Wikipedia article on New-York Tribune.",
+        "credit": "Unknown author",
+        "source": "https://commons.wikimedia.org/wiki/File:Nytrib1864.jpg",
+        "license": "Public domain",
+        "licenseUrl": "https://commons.wikimedia.org/wiki/File:Nytrib1864.jpg"
       }
     }
   ]

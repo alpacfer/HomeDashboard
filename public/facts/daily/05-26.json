@@ -23,10 +23,37 @@
       "image": {
         "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/42/The_Beatles_1963_Dezo_Hoffman_Capitol_Records_press_photo_2.jpg/1280px-The_Beatles_1963_Dezo_Hoffman_Capitol_Records_press_photo_2.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
         "alt": "Picture from the Wikipedia article on The Beatles.",
-        "credit": "Dezo Hoffmann, Distributed by Capitol Records",
+        "credit": "Dezo Hoffmann",
         "source": "https://commons.wikimedia.org/wiki/File:The_Beatles_1963_Dezo_Hoffman_Capitol_Records_press_photo_2.jpg",
         "license": "Public domain",
         "licenseUrl": "https://commons.wikimedia.org/wiki/File:The_Beatles_1963_Dezo_Hoffman_Capitol_Records_press_photo_2.jpg"
+      }
+    },
+    {
+      "id": "05-26-apollo-10",
+      "date": "05-26",
+      "dateLabel": "26 May",
+      "category": "space",
+      "categoryName": "Space",
+      "year": 1969,
+      "title": "Apollo 10",
+      "body": "Apollo 10 returns to Earth after a successful eight-day test of all the components needed for the forthcoming first crewed Moon landing.",
+      "source": {
+        "name": "Wikipedia · Apollo 10",
+        "url": "https://en.wikipedia.org/wiki/Apollo_10",
+        "calendarUrl": "https://en.wikipedia.org/wiki/May_26",
+        "license": {
+          "name": "CC BY-SA 4.0",
+          "url": "https://creativecommons.org/licenses/by-sa/4.0/"
+        }
+      },
+      "image": {
+        "src": "https://upload.wikimedia.org/wikipedia/commons/b/bb/Apollo_10_Lunar_Module.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+        "alt": "Picture from the Wikipedia article on Apollo 10.",
+        "credit": "Wikimedia Commons",
+        "source": "https://commons.wikimedia.org/wiki/File:Apollo_10_Lunar_Module.jpg",
+        "license": "Public domain",
+        "licenseUrl": "https://commons.wikimedia.org/wiki/File:Apollo_10_Lunar_Module.jpg"
       }
     },
     {
@@ -57,17 +84,17 @@
       }
     },
     {
-      "id": "05-26-apollo-10",
+      "id": "05-26-zviad-gamsakhurdia",
       "date": "05-26",
       "dateLabel": "26 May",
-      "category": "space",
-      "categoryName": "Space",
-      "year": 1969,
-      "title": "Apollo 10",
-      "body": "Apollo 10 returns to Earth after a successful eight-day test of all the components needed for the forthcoming first crewed Moon landing.",
+      "category": "world",
+      "categoryName": "World",
+      "year": 1991,
+      "title": "Zviad Gamsakhurdia",
+      "body": "Zviad Gamsakhurdia becomes the first elected President of the Republic of Georgia in the post-Soviet era.",
       "source": {
-        "name": "Wikipedia · Apollo 10",
-        "url": "https://en.wikipedia.org/wiki/Apollo_10",
+        "name": "Wikipedia · Zviad Gamsakhurdia",
+        "url": "https://en.wikipedia.org/wiki/Zviad_Gamsakhurdia",
         "calendarUrl": "https://en.wikipedia.org/wiki/May_26",
         "license": {
           "name": "CC BY-SA 4.0",
@@ -75,12 +102,39 @@
         }
       },
       "image": {
-        "src": "https://upload.wikimedia.org/wikipedia/commons/b/bb/Apollo_10_Lunar_Module.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
-        "alt": "Picture from the Wikipedia article on Apollo 10.",
-        "credit": "Wikimedia Commons contributor",
-        "source": "https://commons.wikimedia.org/wiki/File:Apollo_10_Lunar_Module.jpg",
+        "src": "https://upload.wikimedia.org/wikipedia/commons/3/38/Zviad_Gamsakhurdia%2C_Tbilisi%2C_1988.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+        "alt": "Picture from the Wikipedia article on Zviad Gamsakhurdia.",
+        "credit": "George barateli",
+        "source": "https://commons.wikimedia.org/wiki/File:Zviad_Gamsakhurdia,_Tbilisi,_1988.jpg",
         "license": "Public domain",
-        "licenseUrl": "https://commons.wikimedia.org/wiki/File:Apollo_10_Lunar_Module.jpg"
+        "licenseUrl": "https://commons.wikimedia.org/wiki/File:Zviad_Gamsakhurdia,_Tbilisi,_1988.jpg"
+      }
+    },
+    {
+      "id": "05-26-national-sorry-day",
+      "date": "05-26",
+      "dateLabel": "26 May",
+      "category": "world",
+      "categoryName": "World",
+      "year": 1998,
+      "title": "National Sorry Day",
+      "body": "The first \"National Sorry Day\" is held in Australia. Reconciliation events are held nationally, and attended by over a million people.",
+      "source": {
+        "name": "Wikipedia · National Sorry Day",
+        "url": "https://en.wikipedia.org/wiki/National_Sorry_Day",
+        "calendarUrl": "https://en.wikipedia.org/wiki/May_26",
+        "license": {
+          "name": "CC BY-SA 4.0",
+          "url": "https://creativecommons.org/licenses/by-sa/4.0/"
+        }
+      },
+      "image": {
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/95/Lord_Mayor%27s_National_Sorry_Day_Celebration_2016_King_George_Square_Brisbane_P1440424.jpg/1280px-Lord_Mayor%27s_National_Sorry_Day_Celebration_2016_King_George_Square_Brisbane_P1440424.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "alt": "Picture from the Wikipedia article on National Sorry Day.",
+        "credit": "John Robert McPherson",
+        "source": "https://commons.wikimedia.org/wiki/File:Lord_Mayor%27s_National_Sorry_Day_Celebration_2016_King_George_Square_Brisbane_P1440424.jpg",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0"
       }
     }
   ]

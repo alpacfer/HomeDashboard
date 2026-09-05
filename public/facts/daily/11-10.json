@@ -3,6 +3,33 @@
   "dateLabel": "10 November",
   "facts": [
     {
+      "id": "11-10-mars",
+      "date": "11-10",
+      "dateLabel": "10 November",
+      "category": "space",
+      "categoryName": "Space",
+      "year": 2008,
+      "title": "Mars",
+      "body": "Over five months after landing on Mars, NASA declares the Phoenix mission concluded after communications with the lander were lost.",
+      "source": {
+        "name": "Wikipedia · Mars",
+        "url": "https://en.wikipedia.org/wiki/Mars",
+        "calendarUrl": "https://en.wikipedia.org/wiki/November_10",
+        "license": {
+          "name": "CC BY-SA 4.0",
+          "url": "https://creativecommons.org/licenses/by-sa/4.0/"
+        }
+      },
+      "image": {
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/0c/Mars_-_August_30_2021_-_Flickr_-_Kevin_M._Gill.png/1280px-Mars_-_August_30_2021_-_Flickr_-_Kevin_M._Gill.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "alt": "Picture from the Wikipedia article on Mars.",
+        "credit": "Kevin Gill",
+        "source": "https://commons.wikimedia.org/wiki/File:Mars_-_August_30_2021_-_Flickr_-_Kevin_M._Gill.png",
+        "license": "CC BY 2.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by/2.0"
+      }
+    },
+    {
       "id": "11-10-bill-gates",
       "date": "11-10",
       "dateLabel": "10 November",
@@ -30,33 +57,6 @@
       }
     },
     {
-      "id": "11-10-mars",
-      "date": "11-10",
-      "dateLabel": "10 November",
-      "category": "space",
-      "categoryName": "Space",
-      "year": 2008,
-      "title": "Mars",
-      "body": "Over five months after landing on Mars, NASA declares the Phoenix mission concluded after communications with the lander were lost.",
-      "source": {
-        "name": "Wikipedia · Mars",
-        "url": "https://en.wikipedia.org/wiki/Mars",
-        "calendarUrl": "https://en.wikipedia.org/wiki/November_10",
-        "license": {
-          "name": "CC BY-SA 4.0",
-          "url": "https://creativecommons.org/licenses/by-sa/4.0/"
-        }
-      },
-      "image": {
-        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/0c/Mars_-_August_30_2021_-_Flickr_-_Kevin_M._Gill.png/1280px-Mars_-_August_30_2021_-_Flickr_-_Kevin_M._Gill.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-        "alt": "Picture from the Wikipedia article on Mars.",
-        "credit": "Kevin Gill from Los Angeles, CA, United States",
-        "source": "https://commons.wikimedia.org/wiki/File:Mars_-_August_30_2021_-_Flickr_-_Kevin_M._Gill.png",
-        "license": "CC BY 2.0",
-        "licenseUrl": "https://creativecommons.org/licenses/by/2.0"
-      }
-    },
-    {
       "id": "11-10-frans-eemil-sillanp",
       "date": "11-10",
       "dateLabel": "10 November",
@@ -77,10 +77,64 @@
       "image": {
         "src": "https://upload.wikimedia.org/wikipedia/commons/1/1d/FransEemilSillanp%C3%A4%C3%A4.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
         "alt": "Picture from the Wikipedia article on Frans Eemil Sillanpää.",
-        "credit": "The original uploader was Blofeld of SPECTRE at English Wikipedia.",
+        "credit": "Blofeld of SPECTRE",
         "source": "https://commons.wikimedia.org/wiki/File:FransEemilSillanp%C3%A4%C3%A4.jpg",
         "license": "Public domain",
         "licenseUrl": "https://commons.wikimedia.org/wiki/File:FransEemilSillanp%C3%A4%C3%A4.jpg"
+      }
+    },
+    {
+      "id": "11-10-national-educational-television",
+      "date": "11-10",
+      "dateLabel": "10 November",
+      "category": "world",
+      "categoryName": "World",
+      "year": 1969,
+      "title": "National Educational Television",
+      "body": "National Educational Television (the predecessor to the Public Broadcasting Service) in the United States debuts Sesame Street.",
+      "source": {
+        "name": "Wikipedia · National Educational Television",
+        "url": "https://en.wikipedia.org/wiki/National_Educational_Television",
+        "calendarUrl": "https://en.wikipedia.org/wiki/November_10",
+        "license": {
+          "name": "CC BY-SA 4.0",
+          "url": "https://creativecommons.org/licenses/by-sa/4.0/"
+        }
+      },
+      "image": {
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e0/NET_Logo_1967_%28Color%29.svg/1280px-NET_Logo_1967_%28Color%29.svg.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "alt": "Picture from the Wikipedia article on National Educational Television.",
+        "credit": "National Educational Television",
+        "source": "https://commons.wikimedia.org/wiki/File:NET_Logo_1967_(Color).svg",
+        "license": "Public domain",
+        "licenseUrl": "https://commons.wikimedia.org/wiki/File:NET_Logo_1967_(Color).svg"
+      }
+    },
+    {
+      "id": "11-10-north-american-numbering-plan",
+      "date": "11-10",
+      "dateLabel": "10 November",
+      "category": "tech",
+      "categoryName": "Tech",
+      "year": 1951,
+      "title": "North American Numbering Plan",
+      "body": "With the rollout of the North American Numbering Plan, direct-dial coast-to-coast telephone service begins in the United States.",
+      "source": {
+        "name": "Wikipedia · North American Numbering Plan",
+        "url": "https://en.wikipedia.org/wiki/North_American_Numbering_Plan",
+        "calendarUrl": "https://en.wikipedia.org/wiki/November_10",
+        "license": {
+          "name": "CC BY-SA 4.0",
+          "url": "https://creativecommons.org/licenses/by-sa/4.0/"
+        }
+      },
+      "image": {
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/5d/NANP_countries.svg/1280px-NANP_countries.svg.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "alt": "Picture from the Wikipedia article on North American Numbering Plan.",
+        "credit": "DLommes",
+        "source": "https://commons.wikimedia.org/wiki/File:NANP_countries.svg",
+        "license": "CC BY-SA 3.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0"
       }
     }
   ]

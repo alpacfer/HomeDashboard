@@ -23,7 +23,7 @@
       "image": {
         "src": "https://upload.wikimedia.org/wikipedia/commons/9/93/J._D._Salinger_%28Catcher_in_the_Rye_portrait%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
         "alt": "Picture from the Wikipedia article on J. D. Salinger.",
-        "credit": "Photo by Lotte Jacobi, per a credit in the bottom-left corner of the original dust jacket's back cover. Published by Little, Brown and Company",
+        "credit": "Lotte Jacobi",
         "source": "https://commons.wikimedia.org/wiki/File:J._D._Salinger_(Catcher_in_the_Rye_portrait).jpg",
         "license": "Public domain",
         "licenseUrl": "https://commons.wikimedia.org/wiki/File:J._D._Salinger_(Catcher_in_the_Rye_portrait).jpg"
@@ -46,6 +46,16 @@
           "name": "CC BY-SA 4.0",
           "url": "https://creativecommons.org/licenses/by-sa/4.0/"
         }
+      },
+      "video": {
+        "src": "https://upload.wikimedia.org/wikipedia/commons/transcoded/a/a6/Apollo_11_Landing_-_first_steps_on_the_moon.ogv/Apollo_11_Landing_-_first_steps_on_the_moon.ogv.240p.vp9.webm",
+        "fallback": "https://upload.wikimedia.org/wikipedia/commons/transcoded/a/a6/Apollo_11_Landing_-_first_steps_on_the_moon.ogv/Apollo_11_Landing_-_first_steps_on_the_moon.ogv.360p.mpeg4.mov",
+        "poster": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a6/Apollo_11_Landing_-_first_steps_on_the_moon.ogv/250px--Apollo_11_Landing_-_first_steps_on_the_moon.ogv.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo",
+        "seconds": 62,
+        "credit": "NASA",
+        "source": "https://commons.wikimedia.org/wiki/File:Apollo_11_Landing_-_first_steps_on_the_moon.ogv",
+        "license": "Public domain",
+        "licenseUrl": "https://commons.wikimedia.org/wiki/File:Apollo_11_Landing_-_first_steps_on_the_moon.ogv"
       },
       "image": {
         "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/41/A_Man_on_the_Moon%2C_AS11-40-5903_%28cropped%29.jpg/1280px-A_Man_on_the_Moon%2C_AS11-40-5903_%28cropped%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
@@ -81,6 +91,60 @@
         "source": "https://commons.wikimedia.org/wiki/File:John_R._Duigan.jpg",
         "license": "Public domain",
         "licenseUrl": "https://commons.wikimedia.org/wiki/File:John_R._Duigan.jpg"
+      }
+    },
+    {
+      "id": "07-16-max-reger",
+      "date": "07-16",
+      "dateLabel": "16 July",
+      "category": "culture",
+      "categoryName": "Culture",
+      "year": 1916,
+      "title": "Max Reger",
+      "body": "Max Reger's Hebbel Requiem is first performed in a memorial concert for the composer, conducted by Philipp Wolfrum.",
+      "source": {
+        "name": "Wikipedia · Max Reger",
+        "url": "https://en.wikipedia.org/wiki/Max_Reger",
+        "calendarUrl": "https://en.wikipedia.org/wiki/July_16",
+        "license": {
+          "name": "CC BY-SA 4.0",
+          "url": "https://creativecommons.org/licenses/by-sa/4.0/"
+        }
+      },
+      "image": {
+        "src": "https://upload.wikimedia.org/wikipedia/commons/b/b8/Max_Reger_playing_piano.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+        "alt": "Picture from the Wikipedia article on Max Reger.",
+        "credit": "Rudolf Dührkoop",
+        "source": "https://commons.wikimedia.org/wiki/File:Max_Reger_playing_piano.jpg",
+        "license": "Public domain",
+        "licenseUrl": "https://commons.wikimedia.org/wiki/File:Max_Reger_playing_piano.jpg"
+      }
+    },
+    {
+      "id": "07-16-mont-blanc-tunnel",
+      "date": "07-16",
+      "dateLabel": "16 July",
+      "category": "world",
+      "categoryName": "World",
+      "year": 1965,
+      "title": "Mont Blanc Tunnel",
+      "body": "The Mont Blanc Tunnel linking France and Italy opens.",
+      "source": {
+        "name": "Wikipedia · Mont Blanc Tunnel",
+        "url": "https://en.wikipedia.org/wiki/Mont_Blanc_Tunnel",
+        "calendarUrl": "https://en.wikipedia.org/wiki/July_16",
+        "license": {
+          "name": "CC BY-SA 4.0",
+          "url": "https://creativecommons.org/licenses/by-sa/4.0/"
+        }
+      },
+      "image": {
+        "src": "https://upload.wikimedia.org/wikipedia/commons/9/96/Tunnel_du_mont-blanc_cot%C3%A9_italien.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+        "alt": "Picture from the Wikipedia article on Mont Blanc Tunnel.",
+        "credit": "Photo prise par François Trazzi",
+        "source": "https://commons.wikimedia.org/wiki/File:Tunnel_du_mont-blanc_cot%C3%A9_italien.jpg",
+        "license": "CC BY-SA 3.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0/"
       }
     }
   ]

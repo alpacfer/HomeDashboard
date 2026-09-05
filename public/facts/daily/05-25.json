@@ -30,6 +30,60 @@
       }
     },
     {
+      "id": "05-25-erik-weihenmayer",
+      "date": "05-25",
+      "dateLabel": "25 May",
+      "category": "science",
+      "categoryName": "Science",
+      "year": 2001,
+      "title": "Erik Weihenmayer",
+      "body": "Erik Weihenmayer becomes the first blind person to reach the summit of Mount Everest, in the Himalayas, with Dr. Sherman Bull.",
+      "source": {
+        "name": "Wikipedia · Erik Weihenmayer",
+        "url": "https://en.wikipedia.org/wiki/Erik_Weihenmayer",
+        "calendarUrl": "https://en.wikipedia.org/wiki/May_25",
+        "license": {
+          "name": "CC BY-SA 4.0",
+          "url": "https://creativecommons.org/licenses/by-sa/4.0/"
+        }
+      },
+      "image": {
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/9c/Erik_in_Colorado.jpg/1280px-Erik_in_Colorado.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "alt": "Picture from the Wikipedia article on Erik Weihenmayer.",
+        "credit": "Conkoch",
+        "source": "https://commons.wikimedia.org/wiki/File:Erik_in_Colorado.jpg",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0"
+      }
+    },
+    {
+      "id": "05-25-riyadh",
+      "date": "05-25",
+      "dateLabel": "25 May",
+      "category": "world",
+      "categoryName": "World",
+      "year": 1981,
+      "title": "Riyadh",
+      "body": "In Riyadh, the Gulf Cooperation Council is created between Bahrain, Kuwait, Oman, Qatar, Saudi Arabia and the United Arab Emirates.",
+      "source": {
+        "name": "Wikipedia · Riyadh",
+        "url": "https://en.wikipedia.org/wiki/Riyadh",
+        "calendarUrl": "https://en.wikipedia.org/wiki/May_25",
+        "license": {
+          "name": "CC BY-SA 4.0",
+          "url": "https://creativecommons.org/licenses/by-sa/4.0/"
+        }
+      },
+      "image": {
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/20/Riyadh_Skyline.jpg/1280px-Riyadh_Skyline.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "alt": "Picture from the Wikipedia article on Riyadh.",
+        "credit": "B.alotaby",
+        "source": "https://commons.wikimedia.org/wiki/File:Riyadh_Skyline.jpg",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0"
+      }
+    },
+    {
       "id": "05-25-jesse-owens",
       "date": "05-25",
       "dateLabel": "25 May",
@@ -57,17 +111,17 @@
       }
     },
     {
-      "id": "05-25-erik-weihenmayer",
+      "id": "05-25-spacex-dragon-1",
       "date": "05-25",
       "dateLabel": "25 May",
-      "category": "science",
-      "categoryName": "Science",
-      "year": 2001,
-      "title": "Erik Weihenmayer",
-      "body": "Erik Weihenmayer becomes the first blind person to reach the summit of Mount Everest, in the Himalayas, with Dr. Sherman Bull.",
+      "category": "space",
+      "categoryName": "Space",
+      "year": 2012,
+      "title": "SpaceX Dragon 1",
+      "body": "The SpaceX Dragon 1 becomes the first commercial spacecraft to successfully rendezvous and berth with the International Space Station.",
       "source": {
-        "name": "Wikipedia · Erik Weihenmayer",
-        "url": "https://en.wikipedia.org/wiki/Erik_Weihenmayer",
+        "name": "Wikipedia · SpaceX Dragon 1",
+        "url": "https://en.wikipedia.org/wiki/SpaceX_Dragon_1",
         "calendarUrl": "https://en.wikipedia.org/wiki/May_25",
         "license": {
           "name": "CC BY-SA 4.0",
@@ -75,12 +129,12 @@
         }
       },
       "image": {
-        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/9c/Erik_in_Colorado.jpg/1280px-Erik_in_Colorado.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-        "alt": "Picture from the Wikipedia article on Erik Weihenmayer.",
-        "credit": "Conkoch",
-        "source": "https://commons.wikimedia.org/wiki/File:Erik_in_Colorado.jpg",
-        "license": "CC BY-SA 4.0",
-        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0"
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/9e/CRS-20_Dragon%E2%80%93Enhanced.jpg/1280px-CRS-20_Dragon%E2%80%93Enhanced.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "alt": "Picture from the Wikipedia article on SpaceX Dragon 1.",
+        "credit": "Wikimedia Commons",
+        "source": "https://commons.wikimedia.org/wiki/File:CRS-20_Dragon%E2%80%93Enhanced.jpg",
+        "license": "Public domain",
+        "licenseUrl": "https://commons.wikimedia.org/wiki/File:CRS-20_Dragon%E2%80%93Enhanced.jpg"
       }
     }
   ]

@@ -23,24 +23,24 @@
       "image": {
         "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/93/SpaceShipOne_Flight_15P_photo_Don_Ramey_Logan.jpg/1280px-SpaceShipOne_Flight_15P_photo_Don_Ramey_Logan.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
         "alt": "Picture from the Wikipedia article on SpaceShipOne.",
-        "credit": "Photograph by Don Ramey Logan",
+        "credit": "Don Ramey Logan",
         "source": "https://commons.wikimedia.org/wiki/File:SpaceShipOne_Flight_15P_photo_Don_Ramey_Logan.jpg",
         "license": "CC BY-SA 3.0",
         "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0"
       }
     },
     {
-      "id": "06-21-u-s-supreme-court",
+      "id": "06-21-1963-papal-conclave",
       "date": "06-21",
       "dateLabel": "21 June",
       "category": "world",
       "categoryName": "World",
-      "year": 1989,
-      "title": "Supreme Court of the United States",
-      "body": "The U.S. Supreme Court rules in Texas v. Johnson, 491 U.S. 397, that American flag-burning is a form of political protest protected by the First Amendment.",
+      "year": 1963,
+      "title": "1963 conclave",
+      "body": "Cardinal Giovanni Battista Montini is elected as Pope Paul VI.",
       "source": {
-        "name": "Wikipedia · Supreme Court of the United States",
-        "url": "https://en.wikipedia.org/wiki/Supreme_Court_of_the_United_States",
+        "name": "Wikipedia · 1963 conclave",
+        "url": "https://en.wikipedia.org/wiki/1963_conclave",
         "calendarUrl": "https://en.wikipedia.org/wiki/June_21",
         "license": {
           "name": "CC BY-SA 4.0",
@@ -48,12 +48,12 @@
         }
       },
       "image": {
-        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f3/Seal_of_the_United_States_Supreme_Court.svg/1280px-Seal_of_the_United_States_Supreme_Court.svg.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-        "alt": "Picture from the Wikipedia article on Supreme Court of the United States.",
-        "credit": "Original: Optimager Vector: Ipankonin",
-        "source": "https://commons.wikimedia.org/wiki/File:Seal_of_the_United_States_Supreme_Court.svg",
+        "src": "https://upload.wikimedia.org/wikipedia/commons/a/a8/Paulus_VI%2C_from_University_of_Urbino_%283x4_cropped%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+        "alt": "Picture from the Wikipedia article on 1963 conclave.",
+        "credit": "RaminusFalcon at Italian Wikipedia",
+        "source": "https://commons.wikimedia.org/wiki/File:Paulus_VI,_from_University_of_Urbino_(3x4_cropped).jpg",
         "license": "Public domain",
-        "licenseUrl": "https://commons.wikimedia.org/wiki/File:Seal_of_the_United_States_Supreme_Court.svg"
+        "licenseUrl": "https://commons.wikimedia.org/wiki/File:Paulus_VI,_from_University_of_Urbino_(3x4_cropped).jpg"
       }
     },
     {
@@ -77,10 +77,64 @@
       "image": {
         "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/ca/Pluto_in_True_Color_-_High-Res.png/1280px-Pluto_in_True_Color_-_High-Res.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
         "alt": "Picture from the Wikipedia article on Pluto.",
-        "credit": "NASA/Johns Hopkins University Applied Physics Laboratory/Southwest Research Institute/Alex Parker",
+        "credit": "NASA",
         "source": "https://commons.wikimedia.org/wiki/File:Pluto_in_True_Color_-_High-Res.png",
         "license": "Public domain",
         "licenseUrl": "https://commons.wikimedia.org/wiki/File:Pluto_in_True_Color_-_High-Res.png"
+      }
+    },
+    {
+      "id": "06-21-space-shuttle-endeavour",
+      "date": "06-21",
+      "dateLabel": "21 June",
+      "category": "space",
+      "categoryName": "Space",
+      "year": 1993,
+      "title": "Space Shuttle Endeavour",
+      "body": "Space Shuttle Endeavour is launched on STS-57 to retrieve the European Retrievable Carrier (EURECA) satellite. It is also the first shuttle mission to carry the Spacehab module.",
+      "source": {
+        "name": "Wikipedia · Space Shuttle Endeavour",
+        "url": "https://en.wikipedia.org/wiki/Space_Shuttle_Endeavour",
+        "calendarUrl": "https://en.wikipedia.org/wiki/June_21",
+        "license": {
+          "name": "CC BY-SA 4.0",
+          "url": "https://creativecommons.org/licenses/by-sa/4.0/"
+        }
+      },
+      "image": {
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/65/STS-123_Dextre%26Kibo_ELM-PS_in_orbit_%28cropped%29.jpg/1280px-STS-123_Dextre%26Kibo_ELM-PS_in_orbit_%28cropped%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "alt": "Picture from the Wikipedia article on Space Shuttle Endeavour.",
+        "credit": "NASA",
+        "source": "https://commons.wikimedia.org/wiki/File:STS-123_Dextre%26Kibo_ELM-PS_in_orbit_(cropped).jpg",
+        "license": "Public domain",
+        "licenseUrl": "https://commons.wikimedia.org/wiki/File:STS-123_Dextre%26Kibo_ELM-PS_in_orbit_(cropped).jpg"
+      }
+    },
+    {
+      "id": "06-21-penn-central",
+      "date": "06-21",
+      "dateLabel": "21 June",
+      "category": "world",
+      "categoryName": "World",
+      "year": 1970,
+      "title": "Penn Central Transportation Company",
+      "body": "Penn Central declares Section 77 bankruptcy in what was the largest U.S. corporate bankruptcy to date.",
+      "source": {
+        "name": "Wikipedia · Penn Central Transportation Company",
+        "url": "https://en.wikipedia.org/wiki/Penn_Central_Transportation_Company",
+        "calendarUrl": "https://en.wikipedia.org/wiki/June_21",
+        "license": {
+          "name": "CC BY-SA 4.0",
+          "url": "https://creativecommons.org/licenses/by-sa/4.0/"
+        }
+      },
+      "image": {
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/6b/PC_SD45_6133_on_Horsesoe_Curve_near_Altoona%2C_PA_on_September_13%2C_1970_%2824713401701%29.jpg/1280px-PC_SD45_6133_on_Horsesoe_Curve_near_Altoona%2C_PA_on_September_13%2C_1970_%2824713401701%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "alt": "Picture from the Wikipedia article on Penn Central Transportation Company.",
+        "credit": "Roger Puta",
+        "source": "https://commons.wikimedia.org/wiki/File:PC_SD45_6133_on_Horsesoe_Curve_near_Altoona,_PA_on_September_13,_1970_(24713401701).jpg",
+        "license": "Public domain",
+        "licenseUrl": "https://commons.wikimedia.org/wiki/File:PC_SD45_6133_on_Horsesoe_Curve_near_Altoona,_PA_on_September_13,_1970_(24713401701).jpg"
       }
     }
   ]

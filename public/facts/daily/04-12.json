@@ -82,6 +82,60 @@
         "license": "Public domain",
         "licenseUrl": "https://commons.wikimedia.org/wiki/File:Washington_h.jpg"
       }
+    },
+    {
+      "id": "04-12-frank-whittle",
+      "date": "04-12",
+      "dateLabel": "12 April",
+      "category": "sport",
+      "categoryName": "Sport",
+      "year": 1937,
+      "title": "Frank Whittle",
+      "body": "Sir Frank Whittle ground-tests the first jet engine designed to power an aircraft, at Rugby, England.",
+      "source": {
+        "name": "Wikipedia · Frank Whittle",
+        "url": "https://en.wikipedia.org/wiki/Frank_Whittle",
+        "calendarUrl": "https://en.wikipedia.org/wiki/April_12",
+        "license": {
+          "name": "CC BY-SA 4.0",
+          "url": "https://creativecommons.org/licenses/by-sa/4.0/"
+        }
+      },
+      "image": {
+        "src": "https://upload.wikimedia.org/wikipedia/commons/d/d7/Frank_Whittle_CH_011867_crop.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+        "alt": "Picture from the Wikipedia article on Frank Whittle.",
+        "credit": "British Government",
+        "source": "https://commons.wikimedia.org/wiki/File:Frank_Whittle_CH_011867_crop.jpg",
+        "license": "Public domain",
+        "licenseUrl": "https://commons.wikimedia.org/wiki/File:Frank_Whittle_CH_011867_crop.jpg"
+      }
+    },
+    {
+      "id": "04-12-space-shuttle-discovery",
+      "date": "04-12",
+      "dateLabel": "12 April",
+      "category": "space",
+      "categoryName": "Space",
+      "year": 1985,
+      "title": "Space Shuttle Discovery",
+      "body": "Space Shuttle Discovery launches on STS-51D to deploy two communications satellites.",
+      "source": {
+        "name": "Wikipedia · Space Shuttle Discovery",
+        "url": "https://en.wikipedia.org/wiki/Space_Shuttle_Discovery",
+        "calendarUrl": "https://en.wikipedia.org/wiki/April_12",
+        "license": {
+          "name": "CC BY-SA 4.0",
+          "url": "https://creativecommons.org/licenses/by-sa/4.0/"
+        }
+      },
+      "image": {
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/1d/STS-133_Space_Shuttle_Discovery_after_undocking_3_%28cropped%29.jpg/1280px-STS-133_Space_Shuttle_Discovery_after_undocking_3_%28cropped%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "alt": "Picture from the Wikipedia article on Space Shuttle Discovery.",
+        "credit": "NASA",
+        "source": "https://commons.wikimedia.org/wiki/File:STS-133_Space_Shuttle_Discovery_after_undocking_3_(cropped).jpg",
+        "license": "Public domain",
+        "licenseUrl": "https://commons.wikimedia.org/wiki/File:STS-133_Space_Shuttle_Discovery_after_undocking_3_(cropped).jpg"
+      }
     }
   ]
 }

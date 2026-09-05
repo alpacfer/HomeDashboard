@@ -3,6 +3,33 @@
   "dateLabel": "27 July",
   "facts": [
     {
+      "id": "07-27-de-havilland-comet",
+      "date": "07-27",
+      "dateLabel": "27 July",
+      "category": "space",
+      "categoryName": "Space",
+      "year": 1949,
+      "title": "de Havilland Comet",
+      "body": "Initial flight of the de Havilland Comet, the first jet-powered airliner.",
+      "source": {
+        "name": "Wikipedia · De Havilland Comet",
+        "url": "https://en.wikipedia.org/wiki/De_Havilland_Comet",
+        "calendarUrl": "https://en.wikipedia.org/wiki/July_27",
+        "license": {
+          "name": "CC BY-SA 4.0",
+          "url": "https://creativecommons.org/licenses/by-sa/4.0/"
+        }
+      },
+      "image": {
+        "src": "https://upload.wikimedia.org/wikipedia/commons/5/5e/BEA_de_Havilland_DH-106_Comet_4B_Berlin.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+        "alt": "Picture from the Wikipedia article on de Havilland Comet.",
+        "credit": "Wikimedia Commons",
+        "source": "https://commons.wikimedia.org/wiki/File:BEA_de_Havilland_DH-106_Comet_4B_Berlin.jpg",
+        "license": "GFDL 1.2",
+        "licenseUrl": "https://www.gnu.org/licenses/old-licenses/fdl-1.2.html"
+      }
+    },
+    {
       "id": "07-27-transatlantic-telegraph-cable",
       "date": "07-27",
       "dateLabel": "27 July",
@@ -30,44 +57,17 @@
       }
     },
     {
-      "id": "07-27-de-havilland-comet",
-      "date": "07-27",
-      "dateLabel": "27 July",
-      "category": "space",
-      "categoryName": "Space",
-      "year": 1949,
-      "title": "de Havilland Comet",
-      "body": "Initial flight of the de Havilland Comet, the first jet-powered airliner.",
-      "source": {
-        "name": "Wikipedia · De Havilland Comet",
-        "url": "https://en.wikipedia.org/wiki/De_Havilland_Comet",
-        "calendarUrl": "https://en.wikipedia.org/wiki/July_27",
-        "license": {
-          "name": "CC BY-SA 4.0",
-          "url": "https://creativecommons.org/licenses/by-sa/4.0/"
-        }
-      },
-      "image": {
-        "src": "https://upload.wikimedia.org/wikipedia/commons/5/5e/BEA_de_Havilland_DH-106_Comet_4B_Berlin.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
-        "alt": "Picture from the Wikipedia article on de Havilland Comet.",
-        "credit": "BEA_De_Havilland_DH-106_Comet_4B_Manteufel.jpg: Ralf Manteufel derivative work: Altair78 (talk)",
-        "source": "https://commons.wikimedia.org/wiki/File:BEA_de_Havilland_DH-106_Comet_4B_Berlin.jpg",
-        "license": "GFDL 1.2",
-        "licenseUrl": "https://www.gnu.org/licenses/old-licenses/fdl-1.2.html"
-      }
-    },
-    {
-      "id": "07-27-south-vietnam",
+      "id": "07-27-wilhelm-ii-german-emperor",
       "date": "07-27",
       "dateLabel": "27 July",
       "category": "world",
       "categoryName": "World",
-      "year": 1964,
-      "title": "South Vietnam",
-      "body": "Five thousand more American military advisers are sent to South Vietnam bringing the total number of United States forces in Vietnam to 21,000.",
+      "year": 1900,
+      "title": "Wilhelm II",
+      "body": "Kaiser Wilhelm II makes a speech comparing Germans to Huns; for years afterwards, \"Hun\" would be a disparaging name for Germans.",
       "source": {
-        "name": "Wikipedia · South Vietnam",
-        "url": "https://en.wikipedia.org/wiki/South_Vietnam",
+        "name": "Wikipedia · Wilhelm II",
+        "url": "https://en.wikipedia.org/wiki/Wilhelm_II",
         "calendarUrl": "https://en.wikipedia.org/wiki/July_27",
         "license": {
           "name": "CC BY-SA 4.0",
@@ -75,12 +75,66 @@
         }
       },
       "image": {
-        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e9/Flag_of_South_Vietnam.svg/1280px-Flag_of_South_Vietnam.svg.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-        "alt": "Picture from the Wikipedia article on South Vietnam.",
-        "credit": "(many, see history)",
-        "source": "https://commons.wikimedia.org/wiki/File:Flag_of_South_Vietnam.svg",
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/ee/Kaiser_Wilhelm_II_of_Germany_-_1902_%283x4_cropped%29.jpg/1280px-Kaiser_Wilhelm_II_of_Germany_-_1902_%283x4_cropped%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "alt": "Picture from the Wikipedia article on Wilhelm II.",
+        "credit": "Studio of Thomas Heinrich Voigt",
+        "source": "https://commons.wikimedia.org/wiki/File:Kaiser_Wilhelm_II_of_Germany_-_1902_(3x4_cropped).jpg",
         "license": "Public domain",
-        "licenseUrl": "https://commons.wikimedia.org/wiki/File:Flag_of_South_Vietnam.svg"
+        "licenseUrl": "https://commons.wikimedia.org/wiki/File:Kaiser_Wilhelm_II_of_Germany_-_1902_(3x4_cropped).jpg"
+      }
+    },
+    {
+      "id": "07-27-puijo-tower",
+      "date": "07-27",
+      "dateLabel": "27 July",
+      "category": "world",
+      "categoryName": "World",
+      "year": 1963,
+      "title": "Puijo tower",
+      "body": "The Puijo observation tower is opened to the general public at Puijo Hill in Kuopio, Finland.",
+      "source": {
+        "name": "Wikipedia · Puijo tower",
+        "url": "https://en.wikipedia.org/wiki/Puijo_tower",
+        "calendarUrl": "https://en.wikipedia.org/wiki/July_27",
+        "license": {
+          "name": "CC BY-SA 4.0",
+          "url": "https://creativecommons.org/licenses/by-sa/4.0/"
+        }
+      },
+      "image": {
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/ef/Puijo_tower.jpg/1280px-Puijo_tower.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "alt": "Picture from the Wikipedia article on Puijo tower.",
+        "credit": "Tiia Monto",
+        "source": "https://commons.wikimedia.org/wiki/File:Puijo_tower.jpg",
+        "license": "CC BY-SA 3.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0"
+      }
+    },
+    {
+      "id": "07-27-korean-war-veterans-memorial",
+      "date": "07-27",
+      "dateLabel": "27 July",
+      "category": "world",
+      "categoryName": "World",
+      "year": 1995,
+      "title": "Korean War Veterans Memorial",
+      "body": "The Korean War Veterans Memorial is dedicated in Washington, D.C.",
+      "source": {
+        "name": "Wikipedia · Korean War Veterans Memorial",
+        "url": "https://en.wikipedia.org/wiki/Korean_War_Veterans_Memorial",
+        "calendarUrl": "https://en.wikipedia.org/wiki/July_27",
+        "license": {
+          "name": "CC BY-SA 4.0",
+          "url": "https://creativecommons.org/licenses/by-sa/4.0/"
+        }
+      },
+      "image": {
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/1f/Aerial_view_of_Korean_War_Veterans_Memorial.jpg/1280px-Aerial_view_of_Korean_War_Veterans_Memorial.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "alt": "Picture from the Wikipedia article on Korean War Veterans Memorial.",
+        "credit": "Carol M. Highsmith",
+        "source": "https://commons.wikimedia.org/wiki/File:Aerial_view_of_Korean_War_Veterans_Memorial.jpg",
+        "license": "Public domain",
+        "licenseUrl": "https://commons.wikimedia.org/wiki/File:Aerial_view_of_Korean_War_Veterans_Memorial.jpg"
       }
     }
   ]

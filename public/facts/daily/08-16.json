@@ -3,6 +3,33 @@
   "dateLabel": "16 August",
   "facts": [
     {
+      "id": "08-16-joseph-kittinger",
+      "date": "08-16",
+      "dateLabel": "16 August",
+      "category": "curious",
+      "categoryName": "Curious",
+      "year": 1960,
+      "title": "Joseph Kittinger",
+      "body": "Joseph Kittinger parachutes from a balloon over New Mexico, United States, at, setting three records that held until 2012: High-altitude jump, free fall, and highest speed by a human without an aircraft.",
+      "source": {
+        "name": "Wikipedia · Joseph Kittinger",
+        "url": "https://en.wikipedia.org/wiki/Joseph_Kittinger",
+        "calendarUrl": "https://en.wikipedia.org/wiki/August_16",
+        "license": {
+          "name": "CC BY-SA 4.0",
+          "url": "https://creativecommons.org/licenses/by-sa/4.0/"
+        }
+      },
+      "image": {
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/12/Joseph_Kittinger%2C_Jr.jpg/1280px-Joseph_Kittinger%2C_Jr.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "alt": "Picture from the Wikipedia article on Joseph Kittinger.",
+        "credit": "U.S. Air Force",
+        "source": "https://commons.wikimedia.org/wiki/File:Joseph_Kittinger,_Jr.jpg",
+        "license": "Public domain",
+        "licenseUrl": "https://commons.wikimedia.org/wiki/File:Joseph_Kittinger,_Jr.jpg"
+      }
+    },
+    {
       "id": "08-16-cartoon",
       "date": "08-16",
       "dateLabel": "16 August",
@@ -23,7 +50,7 @@
       "image": {
         "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f9/SubstanceandShadow.jpg/1280px-SubstanceandShadow.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
         "alt": "Picture from the Wikipedia article on Cartoon.",
-        "credit": "Wikimedia Commons contributor",
+        "credit": "Wikimedia Commons",
         "source": "https://commons.wikimedia.org/wiki/File:SubstanceandShadow.jpg",
         "license": "Public domain",
         "licenseUrl": "https://commons.wikimedia.org/wiki/File:SubstanceandShadow.jpg"
@@ -57,17 +84,17 @@
       }
     },
     {
-      "id": "08-16-joseph-kittinger",
+      "id": "08-16-ross-dependency",
       "date": "08-16",
       "dateLabel": "16 August",
-      "category": "curious",
-      "categoryName": "Curious",
-      "year": 1960,
-      "title": "Joseph Kittinger",
-      "body": "Joseph Kittinger parachutes from a balloon over New Mexico, United States, at, setting three records that held until 2012: High-altitude jump, free fall, and highest speed by a human without an aircraft.",
+      "category": "science",
+      "categoryName": "Science",
+      "year": 1923,
+      "title": "Ross Dependency",
+      "body": "The United Kingdom gives the name \"Ross Dependency\" to part of its claimed Antarctic territory and makes the Governor-General of the Dominion of New Zealand its administrator.",
       "source": {
-        "name": "Wikipedia · Joseph Kittinger",
-        "url": "https://en.wikipedia.org/wiki/Joseph_Kittinger",
+        "name": "Wikipedia · Ross Dependency",
+        "url": "https://en.wikipedia.org/wiki/Ross_Dependency",
         "calendarUrl": "https://en.wikipedia.org/wiki/August_16",
         "license": {
           "name": "CC BY-SA 4.0",
@@ -75,12 +102,39 @@
         }
       },
       "image": {
-        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/12/Joseph_Kittinger%2C_Jr.jpg/1280px-Joseph_Kittinger%2C_Jr.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-        "alt": "Picture from the Wikipedia article on Joseph Kittinger.",
-        "credit": "U.S. Air Force",
-        "source": "https://commons.wikimedia.org/wiki/File:Joseph_Kittinger,_Jr.jpg",
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/0d/Antarctica%2C_New_Zealand_territorial_claim.svg/1280px-Antarctica%2C_New_Zealand_territorial_claim.svg.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "alt": "Picture from the Wikipedia article on Ross Dependency.",
+        "credit": "Lokal_Profil",
+        "source": "https://commons.wikimedia.org/wiki/File:Antarctica,_New_Zealand_territorial_claim.svg",
+        "license": "CC BY-SA 2.5",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.5"
+      }
+    },
+    {
+      "id": "08-16-richard-wagner",
+      "date": "08-16",
+      "dateLabel": "16 August",
+      "category": "culture",
+      "categoryName": "Culture",
+      "year": 1876,
+      "title": "Richard Wagner",
+      "body": "Richard Wagner's Siegfried, the penultimate opera in his Ring cycle, is premiered at the Bayreuth Festspielhaus.",
+      "source": {
+        "name": "Wikipedia · Richard Wagner",
+        "url": "https://en.wikipedia.org/wiki/Richard_Wagner",
+        "calendarUrl": "https://en.wikipedia.org/wiki/August_16",
+        "license": {
+          "name": "CC BY-SA 4.0",
+          "url": "https://creativecommons.org/licenses/by-sa/4.0/"
+        }
+      },
+      "image": {
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/9d/RichardWagner.jpg/1280px-RichardWagner.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "alt": "Picture from the Wikipedia article on Richard Wagner.",
+        "credit": "Franz Hanfstaengl",
+        "source": "https://commons.wikimedia.org/wiki/File:RichardWagner.jpg",
         "license": "Public domain",
-        "licenseUrl": "https://commons.wikimedia.org/wiki/File:Joseph_Kittinger,_Jr.jpg"
+        "licenseUrl": "https://commons.wikimedia.org/wiki/File:RichardWagner.jpg"
       }
     }
   ]

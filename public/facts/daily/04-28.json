@@ -23,24 +23,24 @@
       "image": {
         "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/3b/Dark_Side_of_the_Moon.png/1280px-Dark_Side_of_the_Moon.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
         "alt": "Picture from the Wikipedia article on The Dark Side of the Moon.",
-        "credit": "w:George Hardie (artist)",
+        "credit": "w:George Hardie",
         "source": "https://commons.wikimedia.org/wiki/File:Dark_Side_of_the_Moon.png",
         "license": "Public domain",
         "licenseUrl": "https://commons.wikimedia.org/wiki/File:Dark_Side_of_the_Moon.png"
       }
     },
     {
-      "id": "04-28-central-intelligence-agency",
+      "id": "04-28-max-theiler",
       "date": "04-28",
       "dateLabel": "28 April",
-      "category": "world",
-      "categoryName": "World",
-      "year": 1994,
-      "title": "Central Intelligence Agency",
-      "body": "Former Central Intelligence Agency counterintelligence officer and analyst Aldrich Ames pleads guilty to giving US secrets to the Soviet Union and later Russia.",
+      "category": "science",
+      "categoryName": "Science",
+      "year": 1937,
+      "title": "Max Theiler",
+      "body": "South African medical researcher Max Theiler develops the yellow fever vaccine at the Rockefeller Foundation in New York City.",
       "source": {
-        "name": "Wikipedia · Central Intelligence Agency",
-        "url": "https://en.wikipedia.org/wiki/Central_Intelligence_Agency",
+        "name": "Wikipedia · Max Theiler",
+        "url": "https://en.wikipedia.org/wiki/Max_Theiler",
         "calendarUrl": "https://en.wikipedia.org/wiki/April_28",
         "license": {
           "name": "CC BY-SA 4.0",
@@ -48,12 +48,66 @@
         }
       },
       "image": {
-        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/25/Seal_of_the_Central_Intelligence_Agency.svg/1280px-Seal_of_the_Central_Intelligence_Agency.svg.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-        "alt": "Picture from the Wikipedia article on Central Intelligence Agency.",
-        "credit": "United States Federal government",
-        "source": "https://commons.wikimedia.org/wiki/File:Seal_of_the_Central_Intelligence_Agency.svg",
+        "src": "https://upload.wikimedia.org/wikipedia/commons/b/b3/Max_Theiler_nobel.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+        "alt": "Picture from the Wikipedia article on Max Theiler.",
+        "credit": "Unknown author",
+        "source": "https://commons.wikimedia.org/wiki/File:Max_Theiler_nobel.jpg",
         "license": "Public domain",
-        "licenseUrl": "https://commons.wikimedia.org/wiki/File:Seal_of_the_Central_Intelligence_Agency.svg"
+        "licenseUrl": "https://commons.wikimedia.org/wiki/File:Max_Theiler_nobel.jpg"
+      }
+    },
+    {
+      "id": "04-28-igor-stravinsky",
+      "date": "04-28",
+      "dateLabel": "28 April",
+      "category": "culture",
+      "categoryName": "Culture",
+      "year": 1948,
+      "title": "Igor Stravinsky",
+      "body": "Igor Stravinsky conducts the premiere of his American ballet, Orpheus at the New York City Center.",
+      "source": {
+        "name": "Wikipedia · Igor Stravinsky",
+        "url": "https://en.wikipedia.org/wiki/Igor_Stravinsky",
+        "calendarUrl": "https://en.wikipedia.org/wiki/April_28",
+        "license": {
+          "name": "CC BY-SA 4.0",
+          "url": "https://creativecommons.org/licenses/by-sa/4.0/"
+        }
+      },
+      "image": {
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/33/Igor_Stravinsky_LOC_32392u.jpg/1280px-Igor_Stravinsky_LOC_32392u.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "alt": "Picture from the Wikipedia article on Igor Stravinsky.",
+        "credit": "George Grantham Bain Collection",
+        "source": "https://commons.wikimedia.org/wiki/File:Igor_Stravinsky_LOC_32392u.jpg",
+        "license": "Public domain",
+        "licenseUrl": "https://commons.wikimedia.org/wiki/File:Igor_Stravinsky_LOC_32392u.jpg"
+      }
+    },
+    {
+      "id": "04-28-louis-paulhan",
+      "date": "04-28",
+      "dateLabel": "28 April",
+      "category": "world",
+      "categoryName": "World",
+      "year": 1910,
+      "title": "Louis Paulhan",
+      "body": "Frenchman Louis Paulhan wins the 1910 London to Manchester air race, the first long-distance aeroplane race in the United Kingdom.",
+      "source": {
+        "name": "Wikipedia · Louis Paulhan",
+        "url": "https://en.wikipedia.org/wiki/Louis_Paulhan",
+        "calendarUrl": "https://en.wikipedia.org/wiki/April_28",
+        "license": {
+          "name": "CC BY-SA 4.0",
+          "url": "https://creativecommons.org/licenses/by-sa/4.0/"
+        }
+      },
+      "image": {
+        "src": "https://upload.wikimedia.org/wikipedia/commons/f/f1/Louis_Paulhan.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+        "alt": "Picture from the Wikipedia article on Louis Paulhan.",
+        "credit": "Unknown author",
+        "source": "https://commons.wikimedia.org/wiki/File:Louis_Paulhan.jpg",
+        "license": "Public domain",
+        "licenseUrl": "https://commons.wikimedia.org/wiki/File:Louis_Paulhan.jpg"
       }
     },
     {

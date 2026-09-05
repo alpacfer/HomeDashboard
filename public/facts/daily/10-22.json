@@ -3,33 +3,6 @@
   "dateLabel": "22 October",
   "facts": [
     {
-      "id": "10-22-jean-paul-sartre",
-      "date": "10-22",
-      "dateLabel": "22 October",
-      "category": "science",
-      "categoryName": "Science",
-      "year": 1964,
-      "title": "Jean-Paul Sartre",
-      "body": "Jean-Paul Sartre is awarded the Nobel Prize in Literature, though he does not accept the prize.",
-      "source": {
-        "name": "Wikipedia · Jean-Paul Sartre",
-        "url": "https://en.wikipedia.org/wiki/Jean-Paul_Sartre",
-        "calendarUrl": "https://en.wikipedia.org/wiki/October_22",
-        "license": {
-          "name": "CC BY-SA 4.0",
-          "url": "https://creativecommons.org/licenses/by-sa/4.0/"
-        }
-      },
-      "image": {
-        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e9/Jean_Paul_Sartre_1965.jpg/1280px-Jean_Paul_Sartre_1965.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-        "alt": "Picture from the Wikipedia article on Jean-Paul Sartre.",
-        "credit": "Unknown author",
-        "source": "https://commons.wikimedia.org/wiki/File:Jean_Paul_Sartre_1965.jpg",
-        "license": "CC BY-SA 3.0 nl",
-        "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0/nl/deed.en"
-      }
-    },
-    {
       "id": "10-22-lunar-probe",
       "date": "10-22",
       "dateLabel": "22 October",
@@ -77,10 +50,91 @@
       "image": {
         "src": "https://upload.wikimedia.org/wikipedia/commons/0/07/JA-portrait-1-LW.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
         "alt": "Picture from the Wikipedia article on John Adams.",
-        "credit": "The original uploader was Macror at English Wikipedia. (Original text: Deborah O'Grady)",
+        "credit": "Macror",
         "source": "https://commons.wikimedia.org/wiki/File:JA-portrait-1-LW.jpg",
         "license": "CC BY-SA 3.0",
         "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0/"
+      }
+    },
+    {
+      "id": "10-22-lance-armstrong",
+      "date": "10-22",
+      "dateLabel": "22 October",
+      "category": "sport",
+      "categoryName": "Sport",
+      "year": 2012,
+      "title": "Lance Armstrong",
+      "body": "Cyclist Lance Armstrong is formally stripped of his seven Tour de France titles after being charged for doping.",
+      "source": {
+        "name": "Wikipedia · Lance Armstrong",
+        "url": "https://en.wikipedia.org/wiki/Lance_Armstrong",
+        "calendarUrl": "https://en.wikipedia.org/wiki/October_22",
+        "license": {
+          "name": "CC BY-SA 4.0",
+          "url": "https://creativecommons.org/licenses/by-sa/4.0/"
+        }
+      },
+      "image": {
+        "src": "https://upload.wikimedia.org/wikipedia/commons/4/47/Lance_Armstrong_%28Tour_Down_Under_2009%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+        "alt": "Picture from the Wikipedia article on Lance Armstrong.",
+        "credit": "Paul Coster",
+        "source": "https://commons.wikimedia.org/wiki/File:Lance_Armstrong_(Tour_Down_Under_2009).jpg",
+        "license": "CC BY 2.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by/2.0"
+      }
+    },
+    {
+      "id": "10-22-australian-capital-territory",
+      "date": "10-22",
+      "dateLabel": "22 October",
+      "category": "world",
+      "categoryName": "World",
+      "year": 2013,
+      "title": "Australian Capital Territory",
+      "body": "The Australian Capital Territory becomes the first Australian jurisdiction to legalize same-sex marriage with the Marriage Equality (Same Sex) Act 2013.",
+      "source": {
+        "name": "Wikipedia · Australian Capital Territory",
+        "url": "https://en.wikipedia.org/wiki/Australian_Capital_Territory",
+        "calendarUrl": "https://en.wikipedia.org/wiki/October_22",
+        "license": {
+          "name": "CC BY-SA 4.0",
+          "url": "https://creativecommons.org/licenses/by-sa/4.0/"
+        }
+      },
+      "image": {
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/8c/Flag_of_the_Australian_Capital_Territory.svg/1280px-Flag_of_the_Australian_Capital_Territory.svg.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "alt": "Picture from the Wikipedia article on Australian Capital Territory.",
+        "credit": "Ivo Ostyn",
+        "source": "https://commons.wikimedia.org/wiki/File:Flag_of_the_Australian_Capital_Territory.svg",
+        "license": "Public domain",
+        "licenseUrl": "https://commons.wikimedia.org/wiki/File:Flag_of_the_Australian_Capital_Territory.svg"
+      }
+    },
+    {
+      "id": "10-22-jean-paul-sartre",
+      "date": "10-22",
+      "dateLabel": "22 October",
+      "category": "science",
+      "categoryName": "Science",
+      "year": 1964,
+      "title": "Jean-Paul Sartre",
+      "body": "Jean-Paul Sartre is awarded the Nobel Prize in Literature, though he does not accept the prize.",
+      "source": {
+        "name": "Wikipedia · Jean-Paul Sartre",
+        "url": "https://en.wikipedia.org/wiki/Jean-Paul_Sartre",
+        "calendarUrl": "https://en.wikipedia.org/wiki/October_22",
+        "license": {
+          "name": "CC BY-SA 4.0",
+          "url": "https://creativecommons.org/licenses/by-sa/4.0/"
+        }
+      },
+      "image": {
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e9/Jean_Paul_Sartre_1965.jpg/1280px-Jean_Paul_Sartre_1965.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "alt": "Picture from the Wikipedia article on Jean-Paul Sartre.",
+        "credit": "Unknown author",
+        "source": "https://commons.wikimedia.org/wiki/File:Jean_Paul_Sartre_1965.jpg",
+        "license": "CC BY-SA 3.0 nl",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0/nl/deed.en"
       }
     }
   ]

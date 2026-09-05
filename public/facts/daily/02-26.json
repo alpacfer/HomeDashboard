@@ -23,7 +23,7 @@
       "image": {
         "src": "https://upload.wikimedia.org/wikipedia/commons/2/2c/AS-201_launch.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
         "alt": "Picture from the Wikipedia article on AS-201.",
-        "credit": "Wikimedia Commons contributor",
+        "credit": "Wikimedia Commons",
         "source": "https://commons.wikimedia.org/wiki/File:AS-201_launch.jpg",
         "license": "Public domain",
         "licenseUrl": "https://commons.wikimedia.org/wiki/File:AS-201_launch.jpg"
@@ -81,6 +81,60 @@
         "source": "https://commons.wikimedia.org/wiki/File:Karte_Expedition_Willem_Jansz_1605-1606.png",
         "license": "CC BY-SA 3.0",
         "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0"
+      }
+    },
+    {
+      "id": "02-26-new-york-philharmonic",
+      "date": "02-26",
+      "dateLabel": "26 February",
+      "category": "world",
+      "categoryName": "World",
+      "year": 2008,
+      "title": "New York Philharmonic",
+      "body": "The New York Philharmonic performs in Pyongyang, North Korea; this was the first such event to take place in North Korea.",
+      "source": {
+        "name": "Wikipedia · New York Philharmonic",
+        "url": "https://en.wikipedia.org/wiki/New_York_Philharmonic",
+        "calendarUrl": "https://en.wikipedia.org/wiki/February_26",
+        "license": {
+          "name": "CC BY-SA 4.0",
+          "url": "https://creativecommons.org/licenses/by-sa/4.0/"
+        }
+      },
+      "image": {
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/bc/New_York_Philharmonic_at_Avery_Fisher_Hall_%287230083424%29_%28cropped%29.jpg/1280px-New_York_Philharmonic_at_Avery_Fisher_Hall_%287230083424%29_%28cropped%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "alt": "Picture from the Wikipedia article on New York Philharmonic.",
+        "credit": "Jun Seita from Palo Alto, CA, U.S",
+        "source": "https://commons.wikimedia.org/wiki/File:New_York_Philharmonic_at_Avery_Fisher_Hall_(7230083424)_(cropped).jpg",
+        "license": "CC BY 2.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by/2.0"
+      }
+    },
+    {
+      "id": "02-26-superliner-railcar",
+      "date": "02-26",
+      "dateLabel": "26 February",
+      "category": "world",
+      "categoryName": "World",
+      "year": 1979,
+      "title": "Superliner",
+      "body": "The Superliner railcar enters revenue service with Amtrak.",
+      "source": {
+        "name": "Wikipedia · Superliner (railcar)",
+        "url": "https://en.wikipedia.org/wiki/Superliner_(railcar)",
+        "calendarUrl": "https://en.wikipedia.org/wiki/February_26",
+        "license": {
+          "name": "CC BY-SA 4.0",
+          "url": "https://creativecommons.org/licenses/by-sa/4.0/"
+        }
+      },
+      "image": {
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/03/AMTK_322_with_the_San_Francisco_Zephyr_at_Cape_Horn%2C_CA_in_November_1980_-_2_Photos_%2830567817685%29.jpg/1280px-AMTK_322_with_the_San_Francisco_Zephyr_at_Cape_Horn%2C_CA_in_November_1980_-_2_Photos_%2830567817685%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "alt": "Picture from the Wikipedia article on Superliner.",
+        "credit": "Roger Puta",
+        "source": "https://commons.wikimedia.org/wiki/File:AMTK_322_with_the_San_Francisco_Zephyr_at_Cape_Horn,_CA_in_November_1980_-_2_Photos_(30567817685).jpg",
+        "license": "Public domain",
+        "licenseUrl": "https://commons.wikimedia.org/wiki/File:AMTK_322_with_the_San_Francisco_Zephyr_at_Cape_Horn,_CA_in_November_1980_-_2_Photos_(30567817685).jpg"
       }
     }
   ]

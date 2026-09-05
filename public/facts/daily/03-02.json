@@ -30,6 +30,33 @@
       }
     },
     {
+      "id": "03-02-wilt-chamberlain",
+      "date": "03-02",
+      "dateLabel": "2 March",
+      "category": "sport",
+      "categoryName": "Sport",
+      "year": 1962,
+      "title": "Wilt Chamberlain",
+      "body": "Wilt Chamberlain sets the single-game scoring record in the National Basketball Association by scoring 100 points.",
+      "source": {
+        "name": "Wikipedia · Wilt Chamberlain",
+        "url": "https://en.wikipedia.org/wiki/Wilt_Chamberlain",
+        "calendarUrl": "https://en.wikipedia.org/wiki/March_2",
+        "license": {
+          "name": "CC BY-SA 4.0",
+          "url": "https://creativecommons.org/licenses/by-sa/4.0/"
+        }
+      },
+      "image": {
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/11/Wilt_Chamberlain_1960_%28cropped%29_%28cropped%29.jpg/1280px-Wilt_Chamberlain_1960_%28cropped%29_%28cropped%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "alt": "Picture from the Wikipedia article on Wilt Chamberlain.",
+        "credit": "Bill Allen",
+        "source": "https://commons.wikimedia.org/wiki/File:Wilt_Chamberlain_1960_(cropped)_(cropped).jpg",
+        "license": "Public domain",
+        "licenseUrl": "https://commons.wikimedia.org/wiki/File:Wilt_Chamberlain_1960_(cropped)_(cropped).jpg"
+      }
+    },
+    {
       "id": "03-02-charlie-chaplin",
       "date": "03-02",
       "dateLabel": "2 March",
@@ -81,6 +108,33 @@
         "source": "https://commons.wikimedia.org/wiki/File:Artwork_Galileo-Io-Jupiter.JPG",
         "license": "Public domain",
         "licenseUrl": "https://commons.wikimedia.org/wiki/File:Artwork_Galileo-Io-Jupiter.JPG"
+      }
+    },
+    {
+      "id": "03-02-fermilab",
+      "date": "03-02",
+      "dateLabel": "2 March",
+      "category": "science",
+      "categoryName": "Science",
+      "year": 1995,
+      "title": "Fermi National Accelerator Laboratory",
+      "body": "Researchers at Fermilab announce the discovery of the top quark.",
+      "source": {
+        "name": "Wikipedia · Fermi National Accelerator Laboratory",
+        "url": "https://en.wikipedia.org/wiki/Fermi_National_Accelerator_Laboratory",
+        "calendarUrl": "https://en.wikipedia.org/wiki/March_2",
+        "license": {
+          "name": "CC BY-SA 4.0",
+          "url": "https://creativecommons.org/licenses/by-sa/4.0/"
+        }
+      },
+      "image": {
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a9/Fermilab_Robert_Rathbun_Wilson_Hall_2011.jpg/1280px-Fermilab_Robert_Rathbun_Wilson_Hall_2011.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "alt": "Picture from the Wikipedia article on Fermi National Accelerator Laboratory.",
+        "credit": "CramBetter.com",
+        "source": "https://commons.wikimedia.org/wiki/File:Fermilab_Robert_Rathbun_Wilson_Hall_2011.jpg",
+        "license": "CC BY 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by/4.0"
       }
     }
   ]

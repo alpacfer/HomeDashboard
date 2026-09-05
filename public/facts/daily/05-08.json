@@ -30,33 +30,6 @@
       }
     },
     {
-      "id": "05-08-world-health-organization",
-      "date": "05-08",
-      "dateLabel": "8 May",
-      "category": "world",
-      "categoryName": "World",
-      "year": 1980,
-      "title": "World Health Organization",
-      "body": "The World Health Organization confirms the eradication of smallpox.",
-      "source": {
-        "name": "Wikipedia · World Health Organization",
-        "url": "https://en.wikipedia.org/wiki/World_Health_Organization",
-        "calendarUrl": "https://en.wikipedia.org/wiki/May_8",
-        "license": {
-          "name": "CC BY-SA 4.0",
-          "url": "https://creativecommons.org/licenses/by-sa/4.0/"
-        }
-      },
-      "image": {
-        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/88/World_Health_Organization_%40_Pregny-Chamb%C3%A9sy_%2850636746028%29.jpg/1280px-World_Health_Organization_%40_Pregny-Chamb%C3%A9sy_%2850636746028%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-        "alt": "Picture from the Wikipedia article on World Health Organization.",
-        "credit": "Guilhem Vellut from Annecy, France",
-        "source": "https://commons.wikimedia.org/wiki/File:World_Health_Organization_@_Pregny-Chamb%C3%A9sy_(50636746028).jpg",
-        "license": "CC BY 2.0",
-        "licenseUrl": "https://creativecommons.org/licenses/by/2.0"
-      }
-    },
-    {
       "id": "05-08-the-beatles",
       "date": "05-08",
       "dateLabel": "8 May",
@@ -77,10 +50,91 @@
       "image": {
         "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/42/The_Beatles_1963_Dezo_Hoffman_Capitol_Records_press_photo_2.jpg/1280px-The_Beatles_1963_Dezo_Hoffman_Capitol_Records_press_photo_2.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
         "alt": "Picture from the Wikipedia article on The Beatles.",
-        "credit": "Dezo Hoffmann, Distributed by Capitol Records",
+        "credit": "Dezo Hoffmann",
         "source": "https://commons.wikimedia.org/wiki/File:The_Beatles_1963_Dezo_Hoffman_Capitol_Records_press_photo_2.jpg",
         "license": "Public domain",
         "licenseUrl": "https://commons.wikimedia.org/wiki/File:The_Beatles_1963_Dezo_Hoffman_Capitol_Records_press_photo_2.jpg"
+      }
+    },
+    {
+      "id": "05-08-1984-summer-olympics-boycott",
+      "date": "05-08",
+      "dateLabel": "8 May",
+      "category": "sport",
+      "categoryName": "Sport",
+      "year": 1984,
+      "title": "1984 Summer Olympics boycott",
+      "body": "The Soviet Union announces a boycott upon the Summer Olympics at Los Angeles, later joined by 14 other countries.",
+      "source": {
+        "name": "Wikipedia · 1984 Summer Olympics boycott",
+        "url": "https://en.wikipedia.org/wiki/1984_Summer_Olympics_boycott",
+        "calendarUrl": "https://en.wikipedia.org/wiki/May_8",
+        "license": {
+          "name": "CC BY-SA 4.0",
+          "url": "https://creativecommons.org/licenses/by-sa/4.0/"
+        }
+      },
+      "image": {
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f3/1984_Olympic_Games_boycott.svg/1280px-1984_Olympic_Games_boycott.svg.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "alt": "Picture from the Wikipedia article on 1984 Summer Olympics boycott.",
+        "credit": "Sannita",
+        "source": "https://commons.wikimedia.org/wiki/File:1984_Olympic_Games_boycott.svg",
+        "license": "CC BY-SA 3.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0"
+      }
+    },
+    {
+      "id": "05-08-the-new-revolution-roller-coaster",
+      "date": "05-08",
+      "dateLabel": "8 May",
+      "category": "world",
+      "categoryName": "World",
+      "year": 1976,
+      "title": "The Great American Revolution",
+      "body": "The rollercoaster The New Revolution, the first steel coaster with a vertical loop, opens at Six Flags Magic Mountain.",
+      "source": {
+        "name": "Wikipedia · The Great American Revolution",
+        "url": "https://en.wikipedia.org/wiki/The_Great_American_Revolution",
+        "calendarUrl": "https://en.wikipedia.org/wiki/May_8",
+        "license": {
+          "name": "CC BY-SA 4.0",
+          "url": "https://creativecommons.org/licenses/by-sa/4.0/"
+        }
+      },
+      "image": {
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e4/Revolution_-_at_Six_Flags_Magic_Mountain_-_September_2018.jpg/1280px-Revolution_-_at_Six_Flags_Magic_Mountain_-_September_2018.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "alt": "Picture from the Wikipedia article on The Great American Revolution.",
+        "credit": "Wikimedia Commons",
+        "source": "https://commons.wikimedia.org/wiki/File:Revolution_-_at_Six_Flags_Magic_Mountain_-_September_2018.jpg",
+        "license": "CC BY 2.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by/2.0"
+      }
+    },
+    {
+      "id": "05-08-tollund-man",
+      "date": "05-08",
+      "dateLabel": "8 May",
+      "category": "science",
+      "categoryName": "Science",
+      "year": 1950,
+      "title": "Tollund Man",
+      "body": "The Tollund Man is discovered in a peat bog near Silkeborg, Denmark.",
+      "source": {
+        "name": "Wikipedia · Tollund Man",
+        "url": "https://en.wikipedia.org/wiki/Tollund_Man",
+        "calendarUrl": "https://en.wikipedia.org/wiki/May_8",
+        "license": {
+          "name": "CC BY-SA 4.0",
+          "url": "https://creativecommons.org/licenses/by-sa/4.0/"
+        }
+      },
+      "image": {
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f7/Moorleiche_von_Tollund_J%C3%BCtland_um_100_n_Chr_hingerichtet.jpg/1280px-Moorleiche_von_Tollund_J%C3%BCtland_um_100_n_Chr_hingerichtet.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "alt": "Picture from the Wikipedia article on Tollund Man.",
+        "credit": "Unknown author",
+        "source": "https://commons.wikimedia.org/wiki/File:Moorleiche_von_Tollund_J%C3%BCtland_um_100_n_Chr_hingerichtet.jpg",
+        "license": "Public domain",
+        "licenseUrl": "https://commons.wikimedia.org/wiki/File:Moorleiche_von_Tollund_J%C3%BCtland_um_100_n_Chr_hingerichtet.jpg"
       }
     }
   ]

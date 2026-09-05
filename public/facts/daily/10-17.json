@@ -23,7 +23,7 @@
       "image": {
         "src": "https://upload.wikimedia.org/wikipedia/commons/6/61/%27Salem%27s_Lot_%281975%29_front_cover%2C_first_edition.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
         "alt": "Picture from the Wikipedia article on 'Salem's Lot.",
-        "credit": "Jacket design by Al Nagy Jacket illustration by Dave Christensen",
+        "credit": "Jacket design",
         "source": "https://commons.wikimedia.org/wiki/File:%27Salem%27s_Lot_(1975)_front_cover,_first_edition.jpg",
         "license": "Public domain",
         "licenseUrl": "https://commons.wikimedia.org/wiki/File:%27Salem%27s_Lot_(1975)_front_cover,_first_edition.jpg"
@@ -77,10 +77,64 @@
       "image": {
         "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d6/Mother_Teresa_1.jpg/1280px-Mother_Teresa_1.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
         "alt": "Picture from the Wikipedia article on Mother Teresa.",
-        "credit": "Kingkongphoto & www.celebrity-photos.com from Laurel Maryland, USA",
+        "credit": "Kingkongphoto & www.celebrity-photos.com",
         "source": "https://commons.wikimedia.org/wiki/File:Mother_Teresa_1.jpg",
         "license": "CC BY-SA 2.0",
         "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0"
+      }
+    },
+    {
+      "id": "10-17-parque-central-complex-fire",
+      "date": "10-17",
+      "dateLabel": "17 October",
+      "category": "world",
+      "categoryName": "World",
+      "year": 2004,
+      "title": "Parque Central Complex fire",
+      "body": "A fire that lasted over 15 hours destroyed almost one third of the East Tower of the Parque Central Urban Complex in Caracas, Venezuela.",
+      "source": {
+        "name": "Wikipedia · Parque Central Complex fire",
+        "url": "https://en.wikipedia.org/wiki/Parque_Central_Complex_fire",
+        "calendarUrl": "https://en.wikipedia.org/wiki/October_17",
+        "license": {
+          "name": "CC BY-SA 4.0",
+          "url": "https://creativecommons.org/licenses/by-sa/4.0/"
+        }
+      },
+      "image": {
+        "src": "https://upload.wikimedia.org/wikipedia/commons/0/06/ParqueCentral2004.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+        "alt": "Picture from the Wikipedia article on Parque Central Complex fire.",
+        "credit": "Luis Ruiz Berti",
+        "source": "https://commons.wikimedia.org/wiki/File:ParqueCentral2004.jpg",
+        "license": "Public domain",
+        "licenseUrl": "https://commons.wikimedia.org/wiki/File:ParqueCentral2004.jpg"
+      }
+    },
+    {
+      "id": "10-17-department-of-education-organization-act",
+      "date": "10-17",
+      "dateLabel": "17 October",
+      "category": "world",
+      "categoryName": "World",
+      "year": 1979,
+      "title": "Department of Education Organization Act",
+      "body": "The Department of Education Organization Act creates the U.S. Department of Education.",
+      "source": {
+        "name": "Wikipedia · Department of Education Organization Act",
+        "url": "https://en.wikipedia.org/wiki/Department_of_Education_Organization_Act",
+        "calendarUrl": "https://en.wikipedia.org/wiki/October_17",
+        "license": {
+          "name": "CC BY-SA 4.0",
+          "url": "https://creativecommons.org/licenses/by-sa/4.0/"
+        }
+      },
+      "image": {
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/5c/Great_Seal_of_the_United_States_%28obverse%29.svg/1280px-Great_Seal_of_the_United_States_%28obverse%29.svg.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "alt": "Picture from the Wikipedia article on Department of Education Organization Act.",
+        "credit": "U.S. Government",
+        "source": "https://commons.wikimedia.org/wiki/File:Great_Seal_of_the_United_States_(obverse).svg",
+        "license": "Public domain",
+        "licenseUrl": "https://commons.wikimedia.org/wiki/File:Great_Seal_of_the_United_States_(obverse).svg"
       }
     }
   ]

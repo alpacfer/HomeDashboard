@@ -3,33 +3,6 @@
   "dateLabel": "9 June",
   "facts": [
     {
-      "id": "06-09-golan-heights",
-      "date": "06-09",
-      "dateLabel": "9 June",
-      "category": "world",
-      "categoryName": "World",
-      "year": 1967,
-      "title": "Golan Heights",
-      "body": "Israel captures the Golan Heights from Syria.",
-      "source": {
-        "name": "Wikipedia · Golan Heights",
-        "url": "https://en.wikipedia.org/wiki/Golan_Heights",
-        "calendarUrl": "https://en.wikipedia.org/wiki/June_9",
-        "license": {
-          "name": "CC BY-SA 4.0",
-          "url": "https://creativecommons.org/licenses/by-sa/4.0/"
-        }
-      },
-      "image": {
-        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/6d/Golan_Heights_Map-SVG.svg/1280px-Golan_Heights_Map-SVG.svg.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-        "alt": "Picture from the Wikipedia article on Golan Heights.",
-        "credit": "Goran_tek-en",
-        "source": "https://commons.wikimedia.org/wiki/File:Golan_Heights_Map-SVG.svg",
-        "license": "CC BY-SA 4.0",
-        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0"
-      }
-    },
-    {
       "id": "06-09-broad-peak",
       "date": "06-09",
       "dateLabel": "9 June",
@@ -81,6 +54,87 @@
         "source": "https://commons.wikimedia.org/wiki/File:Charles_Kingsford_Smith_1932-06-20_(cropped).jpg",
         "license": "Public domain",
         "licenseUrl": "https://commons.wikimedia.org/wiki/File:Charles_Kingsford_Smith_1932-06-20_(cropped).jpg"
+      }
+    },
+    {
+      "id": "06-09-james-oglethorpe",
+      "date": "06-09",
+      "dateLabel": "9 June",
+      "category": "world",
+      "categoryName": "World",
+      "year": 1732,
+      "title": "James Oglethorpe",
+      "body": "James Oglethorpe is granted a royal charter for the colony of the future U.S. state of Georgia.",
+      "source": {
+        "name": "Wikipedia · James Oglethorpe",
+        "url": "https://en.wikipedia.org/wiki/James_Oglethorpe",
+        "calendarUrl": "https://en.wikipedia.org/wiki/June_9",
+        "license": {
+          "name": "CC BY-SA 4.0",
+          "url": "https://creativecommons.org/licenses/by-sa/4.0/"
+        }
+      },
+      "image": {
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b4/James_Edward_Oglethorpe.jpg/1280px-James_Edward_Oglethorpe.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "alt": "Picture from the Wikipedia article on James Oglethorpe.",
+        "credit": "Alfred Edmund Dyer",
+        "source": "https://commons.wikimedia.org/wiki/File:James_Edward_Oglethorpe.jpg",
+        "license": "Public domain",
+        "licenseUrl": "https://commons.wikimedia.org/wiki/File:James_Edward_Oglethorpe.jpg"
+      }
+    },
+    {
+      "id": "06-09-land",
+      "date": "06-09",
+      "dateLabel": "9 June",
+      "category": "world",
+      "categoryName": "World",
+      "year": 1922,
+      "title": "Åland",
+      "body": "Åland's Regional Assembly convenes for its first plenary session in Mariehamn, Åland; today, the day is celebrated as Self-Government Day of Åland.",
+      "source": {
+        "name": "Wikipedia · Åland",
+        "url": "https://en.wikipedia.org/wiki/%C3%85land",
+        "calendarUrl": "https://en.wikipedia.org/wiki/June_9",
+        "license": {
+          "name": "CC BY-SA 4.0",
+          "url": "https://creativecommons.org/licenses/by-sa/4.0/"
+        }
+      },
+      "image": {
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/52/Flag_of_%C3%85land.svg/1280px-Flag_of_%C3%85land.svg.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "alt": "Picture from the Wikipedia article on Åland.",
+        "credit": "created by Zscout370",
+        "source": "https://commons.wikimedia.org/wiki/File:Flag_of_%C3%85land.svg",
+        "license": "Public domain",
+        "licenseUrl": "https://commons.wikimedia.org/wiki/File:Flag_of_%C3%85land.svg"
+      }
+    },
+    {
+      "id": "06-09-secretariat-horse",
+      "date": "06-09",
+      "dateLabel": "9 June",
+      "category": "world",
+      "categoryName": "World",
+      "year": 1973,
+      "title": "Secretariat",
+      "body": "In horse racing, Secretariat wins the U.S. Triple Crown.",
+      "source": {
+        "name": "Wikipedia · Secretariat (horse)",
+        "url": "https://en.wikipedia.org/wiki/Secretariat_(horse)",
+        "calendarUrl": "https://en.wikipedia.org/wiki/June_9",
+        "license": {
+          "name": "CC BY-SA 4.0",
+          "url": "https://creativecommons.org/licenses/by-sa/4.0/"
+        }
+      },
+      "image": {
+        "src": "https://upload.wikimedia.org/wikipedia/commons/d/d6/Ron_Turcotte_and_Secretariat_after_winning_the_1973_Preakness_Stakes.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+        "alt": "Picture from the Wikipedia article on Secretariat.",
+        "credit": "Carl D. Harris",
+        "source": "https://commons.wikimedia.org/wiki/File:Ron_Turcotte_and_Secretariat_after_winning_the_1973_Preakness_Stakes.jpg",
+        "license": "Public domain",
+        "licenseUrl": "https://commons.wikimedia.org/wiki/File:Ron_Turcotte_and_Secretariat_after_winning_the_1973_Preakness_Stakes.jpg"
       }
     }
   ]

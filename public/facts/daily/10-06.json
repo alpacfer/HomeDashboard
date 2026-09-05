@@ -3,17 +3,17 @@
   "dateLabel": "6 October",
   "facts": [
     {
-      "id": "10-06-51-pegasi-b",
+      "id": "10-06-annie-ernaux",
       "date": "10-06",
       "dateLabel": "6 October",
       "category": "science",
       "categoryName": "Science",
-      "year": 1995,
-      "title": "51 Pegasi b",
-      "body": "The first planet orbiting another sun, 51 Pegasi b, is discovered.",
+      "year": 2022,
+      "title": "Annie Ernaux",
+      "body": "Annie Ernaux is awarded the Nobel Prize in Literature.",
       "source": {
-        "name": "Wikipedia · 51 Pegasi b",
-        "url": "https://en.wikipedia.org/wiki/51_Pegasi_b",
+        "name": "Wikipedia · Annie Ernaux",
+        "url": "https://en.wikipedia.org/wiki/Annie_Ernaux",
         "calendarUrl": "https://en.wikipedia.org/wiki/October_6",
         "license": {
           "name": "CC BY-SA 4.0",
@@ -21,37 +21,10 @@
         }
       },
       "image": {
-        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f7/Artist_impression_of_the_exoplanet_51_Pegasi_b.jpg/1280px-Artist_impression_of_the_exoplanet_51_Pegasi_b.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-        "alt": "Picture from the Wikipedia article on 51 Pegasi b.",
-        "credit": "ESO/M. Kornmesser/Nick Risinger (skysurvey.org)",
-        "source": "https://commons.wikimedia.org/wiki/File:Artist_impression_of_the_exoplanet_51_Pegasi_b.jpg",
-        "license": "CC BY 4.0",
-        "licenseUrl": "https://creativecommons.org/licenses/by/4.0"
-      }
-    },
-    {
-      "id": "10-06-hua-guofeng",
-      "date": "10-06",
-      "dateLabel": "6 October",
-      "category": "world",
-      "categoryName": "World",
-      "year": 1976,
-      "title": "Hua Guofeng",
-      "body": "Premier Hua Guofeng arrests the Gang of Four, ending the Cultural Revolution in China.",
-      "source": {
-        "name": "Wikipedia · Hua Guofeng",
-        "url": "https://en.wikipedia.org/wiki/Hua_Guofeng",
-        "calendarUrl": "https://en.wikipedia.org/wiki/October_6",
-        "license": {
-          "name": "CC BY-SA 4.0",
-          "url": "https://creativecommons.org/licenses/by-sa/4.0/"
-        }
-      },
-      "image": {
-        "src": "https://upload.wikimedia.org/wikipedia/commons/e/ed/Mus%C3%A9e_de_Bretagne_-_Hua_Guofeng_197904-02_%28cropped%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
-        "alt": "Picture from the Wikipedia article on Hua Guofeng.",
-        "credit": "Sigismond Michalowski",
-        "source": "https://commons.wikimedia.org/wiki/File:Mus%C3%A9e_de_Bretagne_-_Hua_Guofeng_197904-02_(cropped).jpg",
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f0/Annie_Ernaux_in_2022_%284_av_11%29.jpg/1280px-Annie_Ernaux_in_2022_%284_av_11%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "alt": "Picture from the Wikipedia article on Annie Ernaux.",
+        "credit": "Frankie Fouganthin",
+        "source": "https://commons.wikimedia.org/wiki/File:Annie_Ernaux_in_2022_(4_av_11).jpg",
         "license": "CC BY-SA 4.0",
         "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0"
       }
@@ -81,6 +54,87 @@
         "source": "https://commons.wikimedia.org/wiki/File:The_Jazz_Singer_1927_Poster.jpg",
         "license": "Public domain",
         "licenseUrl": "https://commons.wikimedia.org/wiki/File:The_Jazz_Singer_1927_Poster.jpg"
+      }
+    },
+    {
+      "id": "10-06-white-house",
+      "date": "10-06",
+      "dateLabel": "6 October",
+      "category": "world",
+      "categoryName": "World",
+      "year": 1979,
+      "title": "White House",
+      "body": "Pope John Paul II becomes the first pontiff to visit the White House.",
+      "source": {
+        "name": "Wikipedia · White House",
+        "url": "https://en.wikipedia.org/wiki/White_House",
+        "calendarUrl": "https://en.wikipedia.org/wiki/October_6",
+        "license": {
+          "name": "CC BY-SA 4.0",
+          "url": "https://creativecommons.org/licenses/by-sa/4.0/"
+        }
+      },
+      "image": {
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/1d/White_House_north_and_south_sides.jpg/1280px-White_House_north_and_south_sides.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "alt": "Picture from the Wikipedia article on White House.",
+        "credit": "Cezary p MattWade",
+        "source": "https://commons.wikimedia.org/wiki/File:White_House_north_and_south_sides.jpg",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0"
+      }
+    },
+    {
+      "id": "10-06-51-pegasi-b",
+      "date": "10-06",
+      "dateLabel": "6 October",
+      "category": "science",
+      "categoryName": "Science",
+      "year": 1995,
+      "title": "51 Pegasi b",
+      "body": "The first planet orbiting another sun, 51 Pegasi b, is discovered.",
+      "source": {
+        "name": "Wikipedia · 51 Pegasi b",
+        "url": "https://en.wikipedia.org/wiki/51_Pegasi_b",
+        "calendarUrl": "https://en.wikipedia.org/wiki/October_6",
+        "license": {
+          "name": "CC BY-SA 4.0",
+          "url": "https://creativecommons.org/licenses/by-sa/4.0/"
+        }
+      },
+      "image": {
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f7/Artist_impression_of_the_exoplanet_51_Pegasi_b.jpg/1280px-Artist_impression_of_the_exoplanet_51_Pegasi_b.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "alt": "Picture from the Wikipedia article on 51 Pegasi b.",
+        "credit": "ESO/M. Kornmesser/Nick Risinger",
+        "source": "https://commons.wikimedia.org/wiki/File:Artist_impression_of_the_exoplanet_51_Pegasi_b.jpg",
+        "license": "CC BY 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by/4.0"
+      }
+    },
+    {
+      "id": "10-06-mikoyan-mig-29",
+      "date": "10-06",
+      "dateLabel": "6 October",
+      "category": "world",
+      "categoryName": "World",
+      "year": 1977,
+      "title": "Mikoyan MiG-29",
+      "body": "The first prototype of the Mikoyan MiG-29, designated 9-01, makes its maiden flight.",
+      "source": {
+        "name": "Wikipedia · Mikoyan MiG-29",
+        "url": "https://en.wikipedia.org/wiki/Mikoyan_MiG-29",
+        "calendarUrl": "https://en.wikipedia.org/wiki/October_6",
+        "license": {
+          "name": "CC BY-SA 4.0",
+          "url": "https://creativecommons.org/licenses/by-sa/4.0/"
+        }
+      },
+      "image": {
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/af/VVS_100th_IMG_0691_%287727464290%29_%28cropped%29.jpg/1280px-VVS_100th_IMG_0691_%287727464290%29_%28cropped%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "alt": "Picture from the Wikipedia article on Mikoyan MiG-29.",
+        "credit": "Artem Katranzhi from Bakashikha, Russia",
+        "source": "https://commons.wikimedia.org/wiki/File:VVS_100th_IMG_0691_(7727464290)_(cropped).jpg",
+        "license": "CC BY-SA 2.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0"
       }
     }
   ]

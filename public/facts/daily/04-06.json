@@ -50,10 +50,64 @@
       "image": {
         "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e1/At_Brighton%2C_East_Sussex_2024_019.jpg/1280px-At_Brighton%2C_East_Sussex_2024_019.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
         "alt": "Picture from the Wikipedia article on Brighton.",
-        "credit": "Photograph by Mike Peel (www.mikepeel.net).",
+        "credit": "Mike Peel",
         "source": "https://commons.wikimedia.org/wiki/File:At_Brighton,_East_Sussex_2024_019.jpg",
         "license": "CC BY-SA 4.0",
         "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0"
+      }
+    },
+    {
+      "id": "04-06-1896-summer-olympics",
+      "date": "04-06",
+      "dateLabel": "6 April",
+      "category": "sport",
+      "categoryName": "Sport",
+      "year": 1896,
+      "title": "1896 Summer Olympics",
+      "body": "In Athens, the opening of the first modern Olympic Games is celebrated, 1,500 years after the original games are banned by Roman emperor Theodosius I.",
+      "source": {
+        "name": "Wikipedia · 1896 Summer Olympics",
+        "url": "https://en.wikipedia.org/wiki/1896_Summer_Olympics",
+        "calendarUrl": "https://en.wikipedia.org/wiki/April_6",
+        "license": {
+          "name": "CC BY-SA 4.0",
+          "url": "https://creativecommons.org/licenses/by-sa/4.0/"
+        }
+      },
+      "image": {
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/ae/Commemorative_album_of_1896_Olympic_Games_-_cover_by_E._Gilli%C3%A9ron.jpg/1280px-Commemorative_album_of_1896_Olympic_Games_-_cover_by_E._Gilli%C3%A9ron.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "alt": "Picture from the Wikipedia article on 1896 Summer Olympics.",
+        "credit": "Émile Gilliéron",
+        "source": "https://commons.wikimedia.org/wiki/File:Commemorative_album_of_1896_Olympic_Games_-_cover_by_E._Gilli%C3%A9ron.jpg",
+        "license": "Public domain",
+        "licenseUrl": "https://commons.wikimedia.org/wiki/File:Commemorative_album_of_1896_Olympic_Games_-_cover_by_E._Gilli%C3%A9ron.jpg"
+      }
+    },
+    {
+      "id": "04-06-cameroon",
+      "date": "04-06",
+      "dateLabel": "6 April",
+      "category": "world",
+      "categoryName": "World",
+      "year": 1984,
+      "title": "Cameroon",
+      "body": "Members of Cameroon's Republican Guard unsuccessfully attempt to overthrow the government headed by Paul Biya.",
+      "source": {
+        "name": "Wikipedia · Cameroon",
+        "url": "https://en.wikipedia.org/wiki/Cameroon",
+        "calendarUrl": "https://en.wikipedia.org/wiki/April_6",
+        "license": {
+          "name": "CC BY-SA 4.0",
+          "url": "https://creativecommons.org/licenses/by-sa/4.0/"
+        }
+      },
+      "image": {
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/4f/Flag_of_Cameroon.svg/1280px-Flag_of_Cameroon.svg.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "alt": "Picture from the Wikipedia article on Cameroon.",
+        "credit": "xfi",
+        "source": "https://commons.wikimedia.org/wiki/File:Flag_of_Cameroon.svg",
+        "license": "Public domain",
+        "licenseUrl": "https://commons.wikimedia.org/wiki/File:Flag_of_Cameroon.svg"
       }
     },
     {

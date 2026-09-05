@@ -3,33 +3,6 @@
   "dateLabel": "7 June",
   "facts": [
     {
-      "id": "06-07-israel",
-      "date": "06-07",
-      "dateLabel": "7 June",
-      "category": "world",
-      "categoryName": "World",
-      "year": 1967,
-      "title": "Israel",
-      "body": "Israeli soldiers enter Jerusalem.",
-      "source": {
-        "name": "Wikipedia · Israel",
-        "url": "https://en.wikipedia.org/wiki/Israel",
-        "calendarUrl": "https://en.wikipedia.org/wiki/June_7",
-        "license": {
-          "name": "CC BY-SA 4.0",
-          "url": "https://creativecommons.org/licenses/by-sa/4.0/"
-        }
-      },
-      "image": {
-        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d4/Flag_of_Israel.svg/1280px-Flag_of_Israel.svg.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-        "alt": "Picture from the Wikipedia article on Israel.",
-        "credit": "Israel Belkind and Fanny Abramovitch (original) “The Provisional Council of State Proclamation of the Flag of the State of Israel” of 25 Tishrei 5709 (28 Octobe",
-        "source": "https://commons.wikimedia.org/wiki/File:Flag_of_Israel.svg",
-        "license": "Public domain",
-        "licenseUrl": "https://commons.wikimedia.org/wiki/File:Flag_of_Israel.svg"
-      }
-    },
-    {
       "id": "06-07-israeli-air-force",
       "date": "06-07",
       "dateLabel": "7 June",
@@ -50,10 +23,37 @@
       "image": {
         "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/01/Israeli_Air_Force_-_Coat_of_arms.svg/1280px-Israeli_Air_Force_-_Coat_of_arms.svg.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
         "alt": "Picture from the Wikipedia article on Israeli Air Force.",
-        "credit": "Original: Fry1989 Vector: Mintz l",
+        "credit": "Fry1989 Vector: Mintz l",
         "source": "https://commons.wikimedia.org/wiki/File:Israeli_Air_Force_-_Coat_of_arms.svg",
         "license": "Public domain",
         "licenseUrl": "https://commons.wikimedia.org/wiki/File:Israeli_Air_Force_-_Coat_of_arms.svg"
+      }
+    },
+    {
+      "id": "06-07-sony",
+      "date": "06-07",
+      "dateLabel": "7 June",
+      "category": "world",
+      "categoryName": "World",
+      "year": 1975,
+      "title": "Sony",
+      "body": "Sony launches Betamax, the first videocassette recorder format.",
+      "source": {
+        "name": "Wikipedia · Sony",
+        "url": "https://en.wikipedia.org/wiki/Sony",
+        "calendarUrl": "https://en.wikipedia.org/wiki/June_7",
+        "license": {
+          "name": "CC BY-SA 4.0",
+          "url": "https://creativecommons.org/licenses/by-sa/4.0/"
+        }
+      },
+      "image": {
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/7d/Sony_headquaters_2.jpg/1280px-Sony_headquaters_2.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "alt": "Picture from the Wikipedia article on Sony.",
+        "credit": "Akonnchiroll",
+        "source": "https://commons.wikimedia.org/wiki/File:Sony_headquaters_2.jpg",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0"
       }
     },
     {
@@ -81,6 +81,60 @@
         "source": "https://commons.wikimedia.org/wiki/File:Lux_Radio_Theatre_1948.jpg",
         "license": "Public domain",
         "licenseUrl": "https://commons.wikimedia.org/wiki/File:Lux_Radio_Theatre_1948.jpg"
+      }
+    },
+    {
+      "id": "06-07-silver-jubilee-of-elizabeth-ii",
+      "date": "06-07",
+      "dateLabel": "7 June",
+      "category": "world",
+      "categoryName": "World",
+      "year": 1977,
+      "title": "Silver Jubilee of Elizabeth II",
+      "body": "Five hundred million people watch the high day of the Silver Jubilee of Queen Elizabeth II begin on television.",
+      "source": {
+        "name": "Wikipedia · Silver Jubilee of Elizabeth II",
+        "url": "https://en.wikipedia.org/wiki/Silver_Jubilee_of_Elizabeth_II",
+        "calendarUrl": "https://en.wikipedia.org/wiki/June_7",
+        "license": {
+          "name": "CC BY-SA 4.0",
+          "url": "https://creativecommons.org/licenses/by-sa/4.0/"
+        }
+      },
+      "image": {
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/72/First_London_Silver_Jubilee_Routemaster_SRM3_%28RM1650%29_%28650_DYE%29_heritage_route_9_Trafalgar_Square_9_December_2005.jpg/1280px-First_London_Silver_Jubilee_Routemaster_SRM3_%28RM1650%29_%28650_DYE%29_heritage_route_9_Trafalgar_Square_9_December_2005.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "alt": "Picture from the Wikipedia article on Silver Jubilee of Elizabeth II.",
+        "credit": "Jon Bennett",
+        "source": "https://commons.wikimedia.org/wiki/File:First_London_Silver_Jubilee_Routemaster_SRM3_(RM1650)_(650_DYE)_heritage_route_9_Trafalgar_Square_9_December_2005.jpg",
+        "license": "CC BY 2.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by/2.0"
+      }
+    },
+    {
+      "id": "06-07-mount-pinatubo",
+      "date": "06-07",
+      "dateLabel": "7 June",
+      "category": "world",
+      "categoryName": "World",
+      "year": 1991,
+      "title": "Mount Pinatubo",
+      "body": "Mount Pinatubo erupts, generating an ash column high.",
+      "source": {
+        "name": "Wikipedia · Mount Pinatubo",
+        "url": "https://en.wikipedia.org/wiki/Mount_Pinatubo",
+        "calendarUrl": "https://en.wikipedia.org/wiki/June_7",
+        "license": {
+          "name": "CC BY-SA 4.0",
+          "url": "https://creativecommons.org/licenses/by-sa/4.0/"
+        }
+      },
+      "image": {
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/48/Mt_Pinatubo_trekking_-_panoramio_%285%29.jpg/1280px-Mt_Pinatubo_trekking_-_panoramio_%285%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "alt": "Picture from the Wikipedia article on Mount Pinatubo.",
+        "credit": "Sindre Helvik",
+        "source": "https://commons.wikimedia.org/wiki/File:Mt_Pinatubo_trekking_-_panoramio_(5).jpg",
+        "license": "CC BY 3.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by/3.0"
       }
     }
   ]

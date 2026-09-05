@@ -23,7 +23,7 @@
       "image": {
         "src": "https://upload.wikimedia.org/wikipedia/commons/7/7f/Vanguard_1.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
         "alt": "Picture from the Wikipedia article on Vanguard 1.",
-        "credit": "NASA photo (retouched)",
+        "credit": "NASA photo",
         "source": "https://commons.wikimedia.org/wiki/File:Vanguard_1.jpg",
         "license": "Public domain",
         "licenseUrl": "https://commons.wikimedia.org/wiki/File:Vanguard_1.jpg"
@@ -81,6 +81,60 @@
         "source": "https://commons.wikimedia.org/wiki/File:Rmelan_(1)_12-10-2013.jpg",
         "license": "CC BY 2.0",
         "licenseUrl": "https://creativecommons.org/licenses/by/2.0"
+      }
+    },
+    {
+      "id": "03-17-lw-w-ghetto",
+      "date": "03-17",
+      "dateLabel": "17 March",
+      "category": "world",
+      "categoryName": "World",
+      "year": 1942,
+      "title": "Lwów Ghetto",
+      "body": "The first Jews from the Lvov Ghetto are gassed at the Belzec death camp in what is today eastern Poland.",
+      "source": {
+        "name": "Wikipedia · Lwów Ghetto",
+        "url": "https://en.wikipedia.org/wiki/Lw%C3%B3w_Ghetto",
+        "calendarUrl": "https://en.wikipedia.org/wiki/March_17",
+        "license": {
+          "name": "CC BY-SA 4.0",
+          "url": "https://creativecommons.org/licenses/by-sa/4.0/"
+        }
+      },
+      "image": {
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/6f/Hanging_of_the_Lw%C3%B3w_Ghetto_Judenrat.jpg/1280px-Hanging_of_the_Lw%C3%B3w_Ghetto_Judenrat.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "alt": "Picture from the Wikipedia article on Lwów Ghetto.",
+        "credit": "Unknown author",
+        "source": "https://commons.wikimedia.org/wiki/File:Hanging_of_the_Lw%C3%B3w_Ghetto_Judenrat.jpg",
+        "license": "Public domain",
+        "licenseUrl": "https://commons.wikimedia.org/wiki/File:Hanging_of_the_Lw%C3%B3w_Ghetto_Judenrat.jpg"
+      }
+    },
+    {
+      "id": "03-17-university-of-california-berkeley",
+      "date": "03-17",
+      "dateLabel": "17 March",
+      "category": "world",
+      "categoryName": "World",
+      "year": 1950,
+      "title": "University of California, Berkeley",
+      "body": "Researchers at the University of California, Berkeley announce the creation of element 98, which they name \"californium\".",
+      "source": {
+        "name": "Wikipedia · University of California, Berkeley",
+        "url": "https://en.wikipedia.org/wiki/University_of_California,_Berkeley",
+        "calendarUrl": "https://en.wikipedia.org/wiki/March_17",
+        "license": {
+          "name": "CC BY-SA 4.0",
+          "url": "https://creativecommons.org/licenses/by-sa/4.0/"
+        }
+      },
+      "image": {
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a1/Seal_of_University_of_California%2C_Berkeley.svg/1280px-Seal_of_University_of_California%2C_Berkeley.svg.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "alt": "Picture from the Wikipedia article on University of California, Berkeley.",
+        "credit": "University of California, Berkeley",
+        "source": "https://commons.wikimedia.org/wiki/File:Seal_of_University_of_California,_Berkeley.svg",
+        "license": "Public domain",
+        "licenseUrl": "https://commons.wikimedia.org/wiki/File:Seal_of_University_of_California,_Berkeley.svg"
       }
     }
   ]

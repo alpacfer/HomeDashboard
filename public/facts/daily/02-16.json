@@ -23,7 +23,7 @@
       "image": {
         "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/1d/Marion_County_and_Winston_County_Alabama_Incorporated_and_Unincorporated_areas_Haleyville_Highlighted_0132704.svg/1280px-Marion_County_and_Winston_County_Alabama_Incorporated_and_Unincorporated_areas_Haleyville_Highlighted_0132704.svg.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
         "alt": "Picture from the Wikipedia article on Haleyville, Alabama.",
-        "credit": "DemocraticLuntz at English Wikipedia",
+        "credit": "DemocraticLuntz",
         "source": "https://commons.wikimedia.org/wiki/File:Marion_County_and_Winston_County_Alabama_Incorporated_and_Unincorporated_areas_Haleyville_Highlighted_0132704.svg",
         "license": "CC BY-SA 4.0",
         "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0"
@@ -57,17 +57,17 @@
       }
     },
     {
-      "id": "02-16-marlborough-sounds",
+      "id": "02-16-operation-sandblast",
       "date": "02-16",
       "dateLabel": "16 February",
       "category": "world",
       "categoryName": "World",
-      "year": 1986,
-      "title": "Marlborough Sounds",
-      "body": "The Soviet liner runs aground in the Marlborough Sounds, New Zealand.",
+      "year": 1960,
+      "title": "Operation Sandblast",
+      "body": "The U.S. Navy submarine begins Operation Sandblast, setting sail from New London, Connecticut, to begin the first submerged circumnavigation of the globe.",
       "source": {
-        "name": "Wikipedia · Marlborough Sounds",
-        "url": "https://en.wikipedia.org/wiki/Marlborough_Sounds",
+        "name": "Wikipedia · Operation Sandblast",
+        "url": "https://en.wikipedia.org/wiki/Operation_Sandblast",
         "calendarUrl": "https://en.wikipedia.org/wiki/February_16",
         "license": {
           "name": "CC BY-SA 4.0",
@@ -75,12 +75,66 @@
         }
       },
       "image": {
-        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/09/Marlborough_Sounds_topographic_map-en.svg/1280px-Marlborough_Sounds_topographic_map-en.svg.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-        "alt": "Picture from the Wikipedia article on Marlborough Sounds.",
-        "credit": "Eric Gaba (user Sting) for Wikimedia Commons using LINZ data",
-        "source": "https://commons.wikimedia.org/wiki/File:Marlborough_Sounds_topographic_map-en.svg",
-        "license": "CC BY-SA 4.0",
-        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0"
+        "src": "https://upload.wikimedia.org/wikipedia/commons/c/cc/USS_Triton_SSRN-586_circumnavigation_map_1960.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+        "alt": "Picture from the Wikipedia article on Operation Sandblast.",
+        "credit": "U.S. Navy",
+        "source": "https://commons.wikimedia.org/wiki/File:USS_Triton_SSRN-586_circumnavigation_map_1960.jpg",
+        "license": "Public domain",
+        "licenseUrl": "https://commons.wikimedia.org/wiki/File:USS_Triton_SSRN-586_circumnavigation_map_1960.jpg"
+      }
+    },
+    {
+      "id": "02-16-bulletin-board-system",
+      "date": "02-16",
+      "dateLabel": "16 February",
+      "category": "tech",
+      "categoryName": "Tech",
+      "year": 1978,
+      "title": "Bulletin board system",
+      "body": "The first computer bulletin board system is created (CBBS in Chicago).",
+      "source": {
+        "name": "Wikipedia · Bulletin board system",
+        "url": "https://en.wikipedia.org/wiki/Bulletin_board_system",
+        "calendarUrl": "https://en.wikipedia.org/wiki/February_16",
+        "license": {
+          "name": "CC BY-SA 4.0",
+          "url": "https://creativecommons.org/licenses/by-sa/4.0/"
+        }
+      },
+      "image": {
+        "src": "https://upload.wikimedia.org/wikipedia/commons/1/1a/FreePort_Software_banner%2C_inverted.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+        "alt": "Picture from the Wikipedia article on Bulletin board system.",
+        "credit": "Michael L. Umbricht",
+        "source": "https://commons.wikimedia.org/wiki/File:FreePort_Software_banner,_inverted.png",
+        "license": "CC BY 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by/4.0"
+      }
+    },
+    {
+      "id": "02-16-wallace-h-carothers",
+      "date": "02-16",
+      "dateLabel": "16 February",
+      "category": "science",
+      "categoryName": "Science",
+      "year": 1937,
+      "title": "Wallace Carothers",
+      "body": "Wallace H. Carothers receives a United States patent for nylon.",
+      "source": {
+        "name": "Wikipedia · Wallace Carothers",
+        "url": "https://en.wikipedia.org/wiki/Wallace_Carothers",
+        "calendarUrl": "https://en.wikipedia.org/wiki/February_16",
+        "license": {
+          "name": "CC BY-SA 4.0",
+          "url": "https://creativecommons.org/licenses/by-sa/4.0/"
+        }
+      },
+      "image": {
+        "src": "https://upload.wikimedia.org/wikipedia/commons/2/2b/Wallace_Carothers%2C_in_the_lab.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+        "alt": "Picture from the Wikipedia article on Wallace Carothers.",
+        "credit": "Unknown photographer",
+        "source": "https://commons.wikimedia.org/wiki/File:Wallace_Carothers,_in_the_lab.jpg",
+        "license": "Public domain",
+        "licenseUrl": "https://commons.wikimedia.org/wiki/File:Wallace_Carothers,_in_the_lab.jpg"
       }
     }
   ]

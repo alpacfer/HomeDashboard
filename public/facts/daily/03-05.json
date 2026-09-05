@@ -57,17 +57,17 @@
       }
     },
     {
-      "id": "03-05-kingdom-of-italy",
+      "id": "03-05-empire-of-japan",
       "date": "03-05",
       "dateLabel": "5 March",
       "category": "world",
       "categoryName": "World",
-      "year": 1912,
-      "title": "Kingdom of Italy",
-      "body": "Italian forces are the first to use airships for military purposes, employing them for reconnaissance behind Turkish lines.",
+      "year": 1942,
+      "title": "Empire of Japan",
+      "body": "Japanese forces capture Batavia, capital of Dutch East Indies, which is left undefended after the withdrawal of the KNIL garrison and Australian Blackforce battalion to Buitenzorg and Bandung.",
       "source": {
-        "name": "Wikipedia · Kingdom of Italy",
-        "url": "https://en.wikipedia.org/wiki/Kingdom_of_Italy",
+        "name": "Wikipedia · Empire of Japan",
+        "url": "https://en.wikipedia.org/wiki/Empire_of_Japan",
         "calendarUrl": "https://en.wikipedia.org/wiki/March_5",
         "license": {
           "name": "CC BY-SA 4.0",
@@ -75,12 +75,66 @@
         }
       },
       "image": {
-        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/0d/Flag_of_Italy_%281861-1946%29_crowned.svg/1280px-Flag_of_Italy_%281861-1946%29_crowned.svg.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-        "alt": "Picture from the Wikipedia article on Kingdom of Italy.",
-        "credit": "F l a n k e r",
-        "source": "https://commons.wikimedia.org/wiki/File:Flag_of_Italy_(1861-1946)_crowned.svg",
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/1b/Flag_of_Japan_%281870%E2%80%931999%29.svg/1280px-Flag_of_Japan_%281870%E2%80%931999%29.svg.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "alt": "Picture from the Wikipedia article on Empire of Japan.",
+        "credit": "kahusi",
+        "source": "https://commons.wikimedia.org/wiki/File:Flag_of_Japan_(1870%E2%80%931999).svg",
         "license": "Public domain",
-        "licenseUrl": "https://commons.wikimedia.org/wiki/File:Flag_of_Italy_(1861-1946)_crowned.svg"
+        "licenseUrl": "https://commons.wikimedia.org/wiki/File:Flag_of_Japan_(1870%E2%80%931999).svg"
+      }
+    },
+    {
+      "id": "03-05-mefistofele",
+      "date": "03-05",
+      "dateLabel": "5 March",
+      "category": "culture",
+      "categoryName": "Culture",
+      "year": 1868,
+      "title": "Mefistofele",
+      "body": "Mefistofele, an opera by Arrigo Boito, receives its premiere performance at La Scala.",
+      "source": {
+        "name": "Wikipedia · Mefistofele",
+        "url": "https://en.wikipedia.org/wiki/Mefistofele",
+        "calendarUrl": "https://en.wikipedia.org/wiki/March_5",
+        "license": {
+          "name": "CC BY-SA 4.0",
+          "url": "https://creativecommons.org/licenses/by-sa/4.0/"
+        }
+      },
+      "image": {
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/21/Prologo_in_cielo%2C_bozzetto_di_Carlo_Ferrario_per_Mefistofele_%281881%29_-_Archivio_Storico_Ricordi_ICON004306.jpg/1280px-Prologo_in_cielo%2C_bozzetto_di_Carlo_Ferrario_per_Mefistofele_%281881%29_-_Archivio_Storico_Ricordi_ICON004306.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "alt": "Picture from the Wikipedia article on Mefistofele.",
+        "credit": "Archivio Storico Ricordi",
+        "source": "https://commons.wikimedia.org/wiki/File:Prologo_in_cielo,_bozzetto_di_Carlo_Ferrario_per_Mefistofele_(1881)_-_Archivio_Storico_Ricordi_ICON004306.jpg",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0"
+      }
+    },
+    {
+      "id": "03-05-george-westinghouse",
+      "date": "03-05",
+      "dateLabel": "5 March",
+      "category": "science",
+      "categoryName": "Science",
+      "year": 1872,
+      "title": "George Westinghouse",
+      "body": "George Westinghouse patents the air brake.",
+      "source": {
+        "name": "Wikipedia · George Westinghouse",
+        "url": "https://en.wikipedia.org/wiki/George_Westinghouse",
+        "calendarUrl": "https://en.wikipedia.org/wiki/March_5",
+        "license": {
+          "name": "CC BY-SA 4.0",
+          "url": "https://creativecommons.org/licenses/by-sa/4.0/"
+        }
+      },
+      "image": {
+        "src": "https://upload.wikimedia.org/wikipedia/commons/5/5b/George_Westinghouse_1884.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+        "alt": "Picture from the Wikipedia article on George Westinghouse.",
+        "credit": "unknown",
+        "source": "https://commons.wikimedia.org/wiki/File:George_Westinghouse_1884.png",
+        "license": "Public domain",
+        "licenseUrl": "https://commons.wikimedia.org/wiki/File:George_Westinghouse_1884.png"
       }
     }
   ]

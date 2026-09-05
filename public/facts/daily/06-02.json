@@ -30,17 +30,17 @@
       }
     },
     {
-      "id": "06-02-palestine-liberation-organization",
+      "id": "06-02-coronation-of-queen-elizabeth-ii",
       "date": "06-02",
       "dateLabel": "2 June",
       "category": "world",
       "categoryName": "World",
-      "year": 1964,
-      "title": "Palestine Liberation Organization",
-      "body": "The Palestine Liberation Organization (PLO) is formed.",
+      "year": 1953,
+      "title": "Coronation of Elizabeth II",
+      "body": "The coronation of Queen Elizabeth II at Westminster Abbey becomes the first British coronation, and one of the first major international events, to be televised.",
       "source": {
-        "name": "Wikipedia · Palestine Liberation Organization",
-        "url": "https://en.wikipedia.org/wiki/Palestine_Liberation_Organization",
+        "name": "Wikipedia · Coronation of Elizabeth II",
+        "url": "https://en.wikipedia.org/wiki/Coronation_of_Elizabeth_II",
         "calendarUrl": "https://en.wikipedia.org/wiki/June_2",
         "license": {
           "name": "CC BY-SA 4.0",
@@ -48,12 +48,12 @@
         }
       },
       "image": {
-        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d4/Emblem_of_the_PLO_Vector_Graphic.svg/1280px-Emblem_of_the_PLO_Vector_Graphic.svg.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-        "alt": "Picture from the Wikipedia article on Palestine Liberation Organization.",
-        "credit": "PLO",
-        "source": "https://commons.wikimedia.org/wiki/File:Emblem_of_the_PLO_Vector_Graphic.svg",
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/7c/Queen_Elizabeth_II_on_her_Coronation_Day.jpg/1280px-Queen_Elizabeth_II_on_her_Coronation_Day.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "alt": "Picture from the Wikipedia article on Coronation of Elizabeth II.",
+        "credit": "Cecil Beaton",
+        "source": "https://commons.wikimedia.org/wiki/File:Queen_Elizabeth_II_on_her_Coronation_Day.jpg",
         "license": "Public domain",
-        "licenseUrl": "https://commons.wikimedia.org/wiki/File:Emblem_of_the_PLO_Vector_Graphic.svg"
+        "licenseUrl": "https://commons.wikimedia.org/wiki/File:Queen_Elizabeth_II_on_her_Coronation_Day.jpg"
       }
     },
     {
@@ -81,6 +81,60 @@
         "source": "https://commons.wikimedia.org/wiki/File:Guglielmo_Marconi.jpg",
         "license": "Public domain",
         "licenseUrl": "https://commons.wikimedia.org/wiki/File:Guglielmo_Marconi.jpg"
+      }
+    },
+    {
+      "id": "06-02-mars",
+      "date": "06-02",
+      "dateLabel": "2 June",
+      "category": "space",
+      "categoryName": "Space",
+      "year": 2003,
+      "title": "Mars",
+      "body": "Europe launches its first voyage to another planet, Mars. The European Space Agency's Mars Express probe launches from the Baikonur space center in Kazakhstan.",
+      "source": {
+        "name": "Wikipedia · Mars",
+        "url": "https://en.wikipedia.org/wiki/Mars",
+        "calendarUrl": "https://en.wikipedia.org/wiki/June_2",
+        "license": {
+          "name": "CC BY-SA 4.0",
+          "url": "https://creativecommons.org/licenses/by-sa/4.0/"
+        }
+      },
+      "image": {
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/0c/Mars_-_August_30_2021_-_Flickr_-_Kevin_M._Gill.png/1280px-Mars_-_August_30_2021_-_Flickr_-_Kevin_M._Gill.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "alt": "Picture from the Wikipedia article on Mars.",
+        "credit": "Kevin Gill",
+        "source": "https://commons.wikimedia.org/wiki/File:Mars_-_August_30_2021_-_Flickr_-_Kevin_M._Gill.png",
+        "license": "CC BY 2.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by/2.0"
+      }
+    },
+    {
+      "id": "06-02-charles-rolls",
+      "date": "06-02",
+      "dateLabel": "2 June",
+      "category": "world",
+      "categoryName": "World",
+      "year": 1910,
+      "title": "Charles Rolls",
+      "body": "Charles Rolls, a co-founder of Rolls-Royce Limited, becomes the first man to make a non-stop double crossing of the English Channel by plane.",
+      "source": {
+        "name": "Wikipedia · Charles Rolls",
+        "url": "https://en.wikipedia.org/wiki/Charles_Rolls",
+        "calendarUrl": "https://en.wikipedia.org/wiki/June_2",
+        "license": {
+          "name": "CC BY-SA 4.0",
+          "url": "https://creativecommons.org/licenses/by-sa/4.0/"
+        }
+      },
+      "image": {
+        "src": "https://upload.wikimedia.org/wikipedia/commons/0/0a/Charles-Rolls.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+        "alt": "Picture from the Wikipedia article on Charles Rolls.",
+        "credit": "Wikimedia Commons",
+        "source": "https://commons.wikimedia.org/wiki/File:Charles-Rolls.jpg",
+        "license": "Public domain",
+        "licenseUrl": "https://commons.wikimedia.org/wiki/File:Charles-Rolls.jpg"
       }
     }
   ]

@@ -50,10 +50,37 @@
       "image": {
         "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d2/Kim_Dae-jung_presidential_portrait.jpg/1280px-Kim_Dae-jung_presidential_portrait.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
         "alt": "Picture from the Wikipedia article on Kim Dae-jung.",
-        "credit": "대한민국 국가기록원",
+        "credit": "Wikimedia Commons",
         "source": "https://commons.wikimedia.org/wiki/File:Kim_Dae-jung_presidential_portrait.jpg",
         "license": "KOGL Type 1",
         "licenseUrl": "https://www.kogl.or.kr/info/licenseType1.do"
+      }
+    },
+    {
+      "id": "06-13-bmw",
+      "date": "06-13",
+      "dateLabel": "13 June",
+      "category": "world",
+      "categoryName": "World",
+      "year": 1999,
+      "title": "BMW",
+      "body": "BMW win 1999 24 Hours of Le Mans.",
+      "source": {
+        "name": "Wikipedia · BMW",
+        "url": "https://en.wikipedia.org/wiki/BMW",
+        "calendarUrl": "https://en.wikipedia.org/wiki/June_13",
+        "license": {
+          "name": "CC BY-SA 4.0",
+          "url": "https://creativecommons.org/licenses/by-sa/4.0/"
+        }
+      },
+      "image": {
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/73/Logo_BMW_Group_2021.svg/1280px-Logo_BMW_Group_2021.svg.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "alt": "Picture from the Wikipedia article on BMW.",
+        "credit": "BMW Group",
+        "source": "https://commons.wikimedia.org/wiki/File:Logo_BMW_Group_2021.svg",
+        "license": "Public domain",
+        "licenseUrl": "https://commons.wikimedia.org/wiki/File:Logo_BMW_Group_2021.svg"
       }
     },
     {
@@ -77,10 +104,37 @@
       "image": {
         "src": "https://upload.wikimedia.org/wikipedia/commons/5/59/Hayabusa_hover.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
         "alt": "Picture from the Wikipedia article on Hayabusa.",
-        "credit": "JGarry at English Wikipedia",
+        "credit": "JGarry",
         "source": "https://commons.wikimedia.org/wiki/File:Hayabusa_hover.jpg",
         "license": "Public domain",
         "licenseUrl": "https://commons.wikimedia.org/wiki/File:Hayabusa_hover.jpg"
+      }
+    },
+    {
+      "id": "06-13-trooping-the-colour",
+      "date": "06-13",
+      "dateLabel": "13 June",
+      "category": "world",
+      "categoryName": "World",
+      "year": 1981,
+      "title": "Trooping the Colour",
+      "body": "At the Trooping the Colour ceremony in London, a teenager, Marcus Sarjeant, fires six blank shots at Queen Elizabeth II.",
+      "source": {
+        "name": "Wikipedia · Trooping the Colour",
+        "url": "https://en.wikipedia.org/wiki/Trooping_the_Colour",
+        "calendarUrl": "https://en.wikipedia.org/wiki/June_13",
+        "license": {
+          "name": "CC BY-SA 4.0",
+          "url": "https://creativecommons.org/licenses/by-sa/4.0/"
+        }
+      },
+      "image": {
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d8/Trooping_the_Colour_MOD_45155754.jpg/1280px-Trooping_the_Colour_MOD_45155754.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "alt": "Picture from the Wikipedia article on Trooping the Colour.",
+        "credit": "Corporal Paul Shaw/MOD",
+        "source": "https://commons.wikimedia.org/wiki/File:Trooping_the_Colour_MOD_45155754.jpg",
+        "license": "OGL v1.0",
+        "licenseUrl": "https://NationalArchives.gov.uk/doc/open-government-licence/version/1/"
       }
     }
   ]

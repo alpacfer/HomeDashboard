@@ -82,6 +82,60 @@
         "license": "Public domain",
         "licenseUrl": "https://commons.wikimedia.org/wiki/File:LindisfarneChiRiho.jpg"
       }
+    },
+    {
+      "id": "05-03-solar-eclipse-of-may-3-1715",
+      "date": "05-03",
+      "dateLabel": "3 May",
+      "category": "space",
+      "categoryName": "Space",
+      "year": 1715,
+      "title": "Solar eclipse of May 3, 1715",
+      "body": "A total solar eclipse is visible across northern Europe and northern Asia, as predicted by Edmond Halley to within four minutes accuracy.",
+      "source": {
+        "name": "Wikipedia · Solar eclipse of May 3, 1715",
+        "url": "https://en.wikipedia.org/wiki/Solar_eclipse_of_May_3,_1715",
+        "calendarUrl": "https://en.wikipedia.org/wiki/May_3",
+        "license": {
+          "name": "CC BY-SA 4.0",
+          "url": "https://creativecommons.org/licenses/by-sa/4.0/"
+        }
+      },
+      "image": {
+        "src": "https://upload.wikimedia.org/wikipedia/commons/f/fd/Solar_eclipse_1715May03-Cambridge_England.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+        "alt": "Picture from the Wikipedia article on Solar eclipse of May 3, 1715.",
+        "credit": "From public domain book",
+        "source": "https://commons.wikimedia.org/wiki/File:Solar_eclipse_1715May03-Cambridge_England.png",
+        "license": "Public domain",
+        "licenseUrl": "https://commons.wikimedia.org/wiki/File:Solar_eclipse_1715May03-Cambridge_England.png"
+      }
+    },
+    {
+      "id": "05-03-geocaching",
+      "date": "05-03",
+      "dateLabel": "3 May",
+      "category": "tech",
+      "categoryName": "Tech",
+      "year": 2000,
+      "title": "Geocaching",
+      "body": "The sport of geocaching begins, with the first cache placed and the coordinates from a GPS posted on Usenet.",
+      "source": {
+        "name": "Wikipedia · Geocaching",
+        "url": "https://en.wikipedia.org/wiki/Geocaching",
+        "calendarUrl": "https://en.wikipedia.org/wiki/May_3",
+        "license": {
+          "name": "CC BY-SA 4.0",
+          "url": "https://creativecommons.org/licenses/by-sa/4.0/"
+        }
+      },
+      "image": {
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e8/Geocaching.svg/1280px-Geocaching.svg.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "alt": "Picture from the Wikipedia article on Geocaching.",
+        "credit": "Liimes",
+        "source": "https://commons.wikimedia.org/wiki/File:Geocaching.svg",
+        "license": "Public domain",
+        "licenseUrl": "https://commons.wikimedia.org/wiki/File:Geocaching.svg"
+      }
     }
   ]
 }

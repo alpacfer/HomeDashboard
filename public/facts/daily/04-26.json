@@ -30,6 +30,33 @@
       }
     },
     {
+      "id": "04-26-people-s-daily",
+      "date": "04-26",
+      "dateLabel": "26 April",
+      "category": "world",
+      "categoryName": "World",
+      "year": 1989,
+      "title": "People's Daily",
+      "body": "People's Daily publishes the April 26 Editorial which inflames the nascent Tiananmen Square protests.",
+      "source": {
+        "name": "Wikipedia · People's Daily",
+        "url": "https://en.wikipedia.org/wiki/People%27s_Daily",
+        "calendarUrl": "https://en.wikipedia.org/wiki/April_26",
+        "license": {
+          "name": "CC BY-SA 4.0",
+          "url": "https://creativecommons.org/licenses/by-sa/4.0/"
+        }
+      },
+      "image": {
+        "src": "https://upload.wikimedia.org/wikipedia/commons/9/98/People%27s_daily_1_Oct_1949.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+        "alt": "Picture from the Wikipedia article on People's Daily.",
+        "credit": "People's daily",
+        "source": "https://commons.wikimedia.org/wiki/File:People%27s_daily_1_Oct_1949.jpg",
+        "license": "Public domain",
+        "licenseUrl": "https://commons.wikimedia.org/wiki/File:People%27s_daily_1_Oct_1949.jpg"
+      }
+    },
+    {
       "id": "04-26-ice-hockey",
       "date": "04-26",
       "dateLabel": "26 April",
@@ -57,17 +84,17 @@
       }
     },
     {
-      "id": "04-26-people-s-daily",
+      "id": "04-26-baltimore-and-ohio-railroad",
       "date": "04-26",
       "dateLabel": "26 April",
       "category": "world",
       "categoryName": "World",
-      "year": 1989,
-      "title": "People's Daily",
-      "body": "People's Daily publishes the April 26 Editorial which inflames the nascent Tiananmen Square protests.",
+      "year": 1958,
+      "title": "Baltimore and Ohio Railroad",
+      "body": "Final run of the Baltimore and Ohio Railroad's Royal Blue from Washington, D.C., to New York City after 68 years, the first U.S. passenger train to use electric locomotives.",
       "source": {
-        "name": "Wikipedia · People's Daily",
-        "url": "https://en.wikipedia.org/wiki/People%27s_Daily",
+        "name": "Wikipedia · Baltimore and Ohio Railroad",
+        "url": "https://en.wikipedia.org/wiki/Baltimore_and_Ohio_Railroad",
         "calendarUrl": "https://en.wikipedia.org/wiki/April_26",
         "license": {
           "name": "CC BY-SA 4.0",
@@ -75,12 +102,39 @@
         }
       },
       "image": {
-        "src": "https://upload.wikimedia.org/wikipedia/commons/9/98/People%27s_daily_1_Oct_1949.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
-        "alt": "Picture from the Wikipedia article on People's Daily.",
-        "credit": "People's daily",
-        "source": "https://commons.wikimedia.org/wiki/File:People%27s_daily_1_Oct_1949.jpg",
+        "src": "https://upload.wikimedia.org/wikipedia/commons/d/d0/Columbian_%28B%26O%29_train.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+        "alt": "Picture from the Wikipedia article on Baltimore and Ohio Railroad.",
+        "credit": "From collection of User:JGHowes",
+        "source": "https://commons.wikimedia.org/wiki/File:Columbian_(B%26O)_train.jpg",
         "license": "Public domain",
-        "licenseUrl": "https://commons.wikimedia.org/wiki/File:People%27s_daily_1_Oct_1949.jpg"
+        "licenseUrl": "https://commons.wikimedia.org/wiki/File:Columbian_(B%26O)_train.jpg"
+      }
+    },
+    {
+      "id": "04-26-container-ship",
+      "date": "04-26",
+      "dateLabel": "26 April",
+      "category": "world",
+      "categoryName": "World",
+      "year": 1956,
+      "title": "Container ship",
+      "body": ", the world's first successful container ship, leaves Port Newark, New Jersey, for Houston, Texas.",
+      "source": {
+        "name": "Wikipedia · Container ship",
+        "url": "https://en.wikipedia.org/wiki/Container_ship",
+        "calendarUrl": "https://en.wikipedia.org/wiki/April_26",
+        "license": {
+          "name": "CC BY-SA 4.0",
+          "url": "https://creativecommons.org/licenses/by-sa/4.0/"
+        }
+      },
+      "image": {
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/1c/MAERSK_MC_KINNEY_M%C3%96LLER_%26_MARSEILLE_MAERSK_%2848694054418%29.jpg/1280px-MAERSK_MC_KINNEY_M%C3%96LLER_%26_MARSEILLE_MAERSK_%2848694054418%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "alt": "Picture from the Wikipedia article on Container ship.",
+        "credit": "kees torn",
+        "source": "https://commons.wikimedia.org/wiki/File:MAERSK_MC_KINNEY_M%C3%96LLER_%26_MARSEILLE_MAERSK_(48694054418).jpg",
+        "license": "CC BY-SA 2.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0"
       }
     }
   ]

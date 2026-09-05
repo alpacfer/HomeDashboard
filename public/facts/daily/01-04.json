@@ -23,7 +23,7 @@
       "image": {
         "src": "https://upload.wikimedia.org/wikipedia/commons/c/cc/RIAN_archive_510848_Interplanetary_station_Luna_1_-_blacked.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
         "alt": "Picture from the Wikipedia article on Luna 1.",
-        "credit": "RIA Novosti archive, image #510848 / Alexander Mokletsov / CC-BY-SA 3.0",
+        "credit": "RIA Novosti archive, image #510848",
         "source": "https://commons.wikimedia.org/wiki/File:RIAN_archive_510848_Interplanetary_station_Luna_1_-_blacked.jpg",
         "license": "CC BY-SA 3.0",
         "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0"
@@ -50,10 +50,37 @@
       "image": {
         "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/69/The_Doors_1968.JPG/1280px-The_Doors_1968.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
         "alt": "Picture from the Wikipedia article on The Doors.",
-        "credit": "Joel Brodsky; Distributed by Agency for the Performing Arts (APA)",
+        "credit": "Joel Brodsky",
         "source": "https://commons.wikimedia.org/wiki/File:The_Doors_1968.JPG",
         "license": "Public domain",
         "licenseUrl": "https://commons.wikimedia.org/wiki/File:The_Doors_1968.JPG"
+      }
+    },
+    {
+      "id": "01-04-rose-heilbron",
+      "date": "01-04",
+      "dateLabel": "4 January",
+      "category": "world",
+      "categoryName": "World",
+      "year": 1972,
+      "title": "Rose Heilbron",
+      "body": "Rose Heilbron becomes the first female judge to sit at the Old Bailey in London, UK.",
+      "source": {
+        "name": "Wikipedia · Rose Heilbron",
+        "url": "https://en.wikipedia.org/wiki/Rose_Heilbron",
+        "calendarUrl": "https://en.wikipedia.org/wiki/January_4",
+        "license": {
+          "name": "CC BY-SA 4.0",
+          "url": "https://creativecommons.org/licenses/by-sa/4.0/"
+        }
+      },
+      "image": {
+        "src": "https://upload.wikimedia.org/wikipedia/commons/0/0c/Rose_Making-QC.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+        "alt": "Picture from the Wikipedia article on Rose Heilbron.",
+        "credit": "Unknown author",
+        "source": "https://commons.wikimedia.org/wiki/File:Rose_Making-QC.jpg",
+        "license": "Public domain",
+        "licenseUrl": "https://commons.wikimedia.org/wiki/File:Rose_Making-QC.jpg"
       }
     },
     {
@@ -77,10 +104,37 @@
       "image": {
         "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/fd/Jesse_Ventura_2024_%283x4_cropped_b%29.jpg/1280px-Jesse_Ventura_2024_%283x4_cropped_b%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
         "alt": "Picture from the Wikipedia article on Jesse Ventura.",
-        "credit": "Gage Skidmore from Surprise, AZ, United States of America",
+        "credit": "Gage Skidmore",
         "source": "https://commons.wikimedia.org/wiki/File:Jesse_Ventura_2024_(3x4_cropped_b).jpg",
         "license": "CC BY-SA 2.0",
         "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0"
+      }
+    },
+    {
+      "id": "01-04-topsy-elephant",
+      "date": "01-04",
+      "dateLabel": "4 January",
+      "category": "curious",
+      "categoryName": "Curious",
+      "year": 1903,
+      "title": "Topsy",
+      "body": "Topsy, an elephant, is electrocuted by the owners of Luna Park, Coney Island. The Edison film company records the film Electrocuting an Elephant of Topsy's death.",
+      "source": {
+        "name": "Wikipedia · Topsy (elephant)",
+        "url": "https://en.wikipedia.org/wiki/Topsy_(elephant)",
+        "calendarUrl": "https://en.wikipedia.org/wiki/January_4",
+        "license": {
+          "name": "CC BY-SA 4.0",
+          "url": "https://creativecommons.org/licenses/by-sa/4.0/"
+        }
+      },
+      "image": {
+        "src": "https://upload.wikimedia.org/wikipedia/commons/7/72/Topsy_the_elephant.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+        "alt": "Picture from the Wikipedia article on Topsy.",
+        "credit": "Unknown author",
+        "source": "https://commons.wikimedia.org/wiki/File:Topsy_the_elephant.png",
+        "license": "Public domain",
+        "licenseUrl": "https://commons.wikimedia.org/wiki/File:Topsy_the_elephant.png"
       }
     }
   ]

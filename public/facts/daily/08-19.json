@@ -23,7 +23,7 @@
       "image": {
         "src": "https://upload.wikimedia.org/wikipedia/commons/8/80/Syncom_colour.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
         "alt": "Picture from the Wikipedia article on Syncom.",
-        "credit": "Wikimedia Commons contributor",
+        "credit": "Wikimedia Commons",
         "source": "https://commons.wikimedia.org/wiki/File:Syncom_colour.jpg",
         "license": "Public domain",
         "licenseUrl": "https://commons.wikimedia.org/wiki/File:Syncom_colour.jpg"
@@ -50,7 +50,7 @@
       "image": {
         "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/97/Flag_of_the_German_Democratic_Republic.svg/1280px-Flag_of_the_German_Democratic_Republic.svg.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
         "alt": "Picture from the Wikipedia article on East Germany.",
-        "credit": "Deutsche Demokratische Republik Flaggenentwurf: Fritz Behrendt",
+        "credit": "Deutsche Demokratische Republik…",
         "source": "https://commons.wikimedia.org/wiki/File:Flag_of_the_German_Democratic_Republic.svg",
         "license": "Public domain",
         "licenseUrl": "https://commons.wikimedia.org/wiki/File:Flag_of_the_German_Democratic_Republic.svg"
@@ -81,6 +81,60 @@
         "source": "https://commons.wikimedia.org/wiki/File:Space_capsule_of_Sputnik-5.JPG",
         "license": "CC BY-SA 3.0",
         "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0"
+      }
+    },
+    {
+      "id": "08-19-iraq-war",
+      "date": "08-19",
+      "dateLabel": "19 August",
+      "category": "world",
+      "categoryName": "World",
+      "year": 2010,
+      "title": "Iraq War",
+      "body": "Operation Iraqi Freedom ends, with the last of the United States brigade combat teams crossing the border to Kuwait.",
+      "source": {
+        "name": "Wikipedia · Iraq War",
+        "url": "https://en.wikipedia.org/wiki/Iraq_War",
+        "calendarUrl": "https://en.wikipedia.org/wiki/August_19",
+        "license": {
+          "name": "CC BY-SA 4.0",
+          "url": "https://creativecommons.org/licenses/by-sa/4.0/"
+        }
+      },
+      "image": {
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/80/UStanks_baghdad_2003.JPEG/1280px-UStanks_baghdad_2003.JPEG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "alt": "Picture from the Wikipedia article on Iraq War.",
+        "credit": "Technical Sergeant John L. Houghton…",
+        "source": "https://commons.wikimedia.org/wiki/File:UStanks_baghdad_2003.JPEG",
+        "license": "Public domain",
+        "licenseUrl": "https://commons.wikimedia.org/wiki/File:UStanks_baghdad_2003.JPEG"
+      }
+    },
+    {
+      "id": "08-19-silvio-santos",
+      "date": "08-19",
+      "dateLabel": "19 August",
+      "category": "world",
+      "categoryName": "World",
+      "year": 1981,
+      "title": "Silvio Santos",
+      "body": "Silvio Santos launches a new Brazilian television channel in São Paulo, Sistema Brasileiro de Televisão.",
+      "source": {
+        "name": "Wikipedia · Silvio Santos",
+        "url": "https://en.wikipedia.org/wiki/Silvio_Santos",
+        "calendarUrl": "https://en.wikipedia.org/wiki/August_19",
+        "license": {
+          "name": "CC BY-SA 4.0",
+          "url": "https://creativecommons.org/licenses/by-sa/4.0/"
+        }
+      },
+      "image": {
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/1d/S%C3%ADlvio_Santos_circa_1970%28cropped%29.tiff/lossy-page1-1280px-S%C3%ADlvio_Santos_circa_1970%28cropped%29.tiff.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "alt": "Picture from the Wikipedia article on Silvio Santos.",
+        "credit": "Unknown",
+        "source": "https://commons.wikimedia.org/wiki/File:S%C3%ADlvio_Santos_circa_1970(cropped).tiff",
+        "license": "Public domain",
+        "licenseUrl": "https://commons.wikimedia.org/wiki/File:S%C3%ADlvio_Santos_circa_1970(cropped).tiff"
       }
     }
   ]

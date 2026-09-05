@@ -50,24 +50,24 @@
       "image": {
         "src": "https://upload.wikimedia.org/wikipedia/commons/5/5b/RonBrownUS.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
         "alt": "Picture from the Wikipedia article on Ron Brown.",
-        "credit": "Wikimedia Commons contributor",
+        "credit": "Wikimedia Commons",
         "source": "https://commons.wikimedia.org/wiki/File:RonBrownUS.JPG",
         "license": "Public domain",
         "licenseUrl": "https://commons.wikimedia.org/wiki/File:RonBrownUS.JPG"
       }
     },
     {
-      "id": "02-10-lockheed-u-2",
+      "id": "02-10-kaesong-industrial-region",
       "date": "02-10",
       "dateLabel": "10 February",
       "category": "world",
       "categoryName": "World",
-      "year": 1962,
-      "title": "Lockheed U-2",
-      "body": "Captured American U2 spy-plane pilot Gary Powers is exchanged for captured Soviet spy Rudolf Abel.",
+      "year": 2016,
+      "title": "Kaesong Industrial Region",
+      "body": "South Korea decides to stop the operation of the Kaesong joint industrial complex with North Korea in response to the launch of Kwangmyŏngsŏng-4.",
       "source": {
-        "name": "Wikipedia · Lockheed U-2",
-        "url": "https://en.wikipedia.org/wiki/Lockheed_U-2",
+        "name": "Wikipedia · Kaesong Industrial Region",
+        "url": "https://en.wikipedia.org/wiki/Kaesong_Industrial_Region",
         "calendarUrl": "https://en.wikipedia.org/wiki/February_10",
         "license": {
           "name": "CC BY-SA 4.0",
@@ -75,12 +75,66 @@
         }
       },
       "image": {
-        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/95/Usaf.u2.750pix.jpg/1280px-Usaf.u2.750pix.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-        "alt": "Picture from the Wikipedia article on Lockheed U-2.",
-        "credit": "United States Department of the Air Force",
-        "source": "https://commons.wikimedia.org/wiki/File:Usaf.u2.750pix.jpg",
+        "src": "https://upload.wikimedia.org/wikipedia/commons/2/24/Kaesong_model_complex.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+        "alt": "Picture from the Wikipedia article on Kaesong Industrial Region.",
+        "credit": "Wikimedia Commons",
+        "source": "https://commons.wikimedia.org/wiki/File:Kaesong_model_complex.jpg",
+        "license": "CC BY-SA 3.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0/"
+      }
+    },
+    {
+      "id": "02-10-nato",
+      "date": "02-10",
+      "dateLabel": "10 February",
+      "category": "world",
+      "categoryName": "World",
+      "year": 2003,
+      "title": "NATO",
+      "body": "France and Belgium break the NATO procedure of silent approval concerning the timing of protective measures for Turkey in case of a possible war with Iraq.",
+      "source": {
+        "name": "Wikipedia · NATO",
+        "url": "https://en.wikipedia.org/wiki/NATO",
+        "calendarUrl": "https://en.wikipedia.org/wiki/February_10",
+        "license": {
+          "name": "CC BY-SA 4.0",
+          "url": "https://creativecommons.org/licenses/by-sa/4.0/"
+        }
+      },
+      "image": {
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/55/NATO_OTAN_landscape_logo.svg/1280px-NATO_OTAN_landscape_logo.svg.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "alt": "Picture from the Wikipedia article on NATO.",
+        "credit": "Unknown author",
+        "source": "https://commons.wikimedia.org/wiki/File:NATO_OTAN_landscape_logo.svg",
         "license": "Public domain",
-        "licenseUrl": "https://commons.wikimedia.org/wiki/File:Usaf.u2.750pix.jpg"
+        "licenseUrl": "https://commons.wikimedia.org/wiki/File:NATO_OTAN_landscape_logo.svg"
+      }
+    },
+    {
+      "id": "02-10-dreadnought",
+      "date": "02-10",
+      "dateLabel": "10 February",
+      "category": "world",
+      "categoryName": "World",
+      "year": 1906,
+      "title": "Dreadnought",
+      "body": ", the first of a revolutionary new breed of battleships, is christened.",
+      "source": {
+        "name": "Wikipedia · Dreadnought",
+        "url": "https://en.wikipedia.org/wiki/Dreadnought",
+        "calendarUrl": "https://en.wikipedia.org/wiki/February_10",
+        "license": {
+          "name": "CC BY-SA 4.0",
+          "url": "https://creativecommons.org/licenses/by-sa/4.0/"
+        }
+      },
+      "image": {
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/62/HMS_Dreadnought_1906_H61017.jpg/1280px-HMS_Dreadnought_1906_H61017.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "alt": "Picture from the Wikipedia article on Dreadnought.",
+        "credit": "Adam Cuerden",
+        "source": "https://commons.wikimedia.org/wiki/File:HMS_Dreadnought_1906_H61017.jpg",
+        "license": "Public domain",
+        "licenseUrl": "https://commons.wikimedia.org/wiki/File:HMS_Dreadnought_1906_H61017.jpg"
       }
     }
   ]

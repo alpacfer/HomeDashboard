@@ -30,6 +30,60 @@
       }
     },
     {
+      "id": "02-17-philadelphia",
+      "date": "02-17",
+      "dateLabel": "17 February",
+      "category": "tech",
+      "categoryName": "Tech",
+      "year": 1996,
+      "title": "Philadelphia",
+      "body": "In Philadelphia, world champion Garry Kasparov beats the Deep Blue supercomputer in a chess match.",
+      "source": {
+        "name": "Wikipedia · Philadelphia",
+        "url": "https://en.wikipedia.org/wiki/Philadelphia",
+        "calendarUrl": "https://en.wikipedia.org/wiki/February_17",
+        "license": {
+          "name": "CC BY-SA 4.0",
+          "url": "https://creativecommons.org/licenses/by-sa/4.0/"
+        }
+      },
+      "image": {
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/19/Philadelphia_skyline_20240528_%28cropped_2-1%29.jpg/1280px-Philadelphia_skyline_20240528_%28cropped_2-1%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "alt": "Picture from the Wikipedia article on Philadelphia.",
+        "credit": "Wikimedia Commons",
+        "source": "https://commons.wikimedia.org/wiki/File:Philadelphia_skyline_20240528_(cropped_2-1).jpg",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0"
+      }
+    },
+    {
+      "id": "02-17-volkswagen-beetle",
+      "date": "02-17",
+      "dateLabel": "17 February",
+      "category": "world",
+      "categoryName": "World",
+      "year": 1972,
+      "title": "Volkswagen Beetle",
+      "body": "Cumulative sales of the Volkswagen Beetle exceed those of the Ford Model T.",
+      "source": {
+        "name": "Wikipedia · Volkswagen Beetle",
+        "url": "https://en.wikipedia.org/wiki/Volkswagen_Beetle",
+        "calendarUrl": "https://en.wikipedia.org/wiki/February_17",
+        "license": {
+          "name": "CC BY-SA 4.0",
+          "url": "https://creativecommons.org/licenses/by-sa/4.0/"
+        }
+      },
+      "image": {
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/96/VW_K%C3%A4fer_Baujahr_1966.jpg/1280px-VW_K%C3%A4fer_Baujahr_1966.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "alt": "Picture from the Wikipedia article on Volkswagen Beetle.",
+        "credit": "Vwexport1300",
+        "source": "https://commons.wikimedia.org/wiki/File:VW_K%C3%A4fer_Baujahr_1966.jpg",
+        "license": "CC BY-SA 3.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0"
+      }
+    },
+    {
       "id": "02-17-mount-everest",
       "date": "02-17",
       "dateLabel": "17 February",
@@ -57,17 +111,17 @@
       }
     },
     {
-      "id": "02-17-philadelphia",
+      "id": "02-17-vanguard-2",
       "date": "02-17",
       "dateLabel": "17 February",
-      "category": "tech",
-      "categoryName": "Tech",
-      "year": 1996,
-      "title": "Philadelphia",
-      "body": "In Philadelphia, world champion Garry Kasparov beats the Deep Blue supercomputer in a chess match.",
+      "category": "space",
+      "categoryName": "Space",
+      "year": 1959,
+      "title": "Vanguard 2",
+      "body": "The first weather satellite is launched to measure cloud-cover distribution.",
       "source": {
-        "name": "Wikipedia · Philadelphia",
-        "url": "https://en.wikipedia.org/wiki/Philadelphia",
+        "name": "Wikipedia · Vanguard 2",
+        "url": "https://en.wikipedia.org/wiki/Vanguard_2",
         "calendarUrl": "https://en.wikipedia.org/wiki/February_17",
         "license": {
           "name": "CC BY-SA 4.0",
@@ -75,12 +129,12 @@
         }
       },
       "image": {
-        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/19/Philadelphia_skyline_20240528_%28cropped_2-1%29.jpg/1280px-Philadelphia_skyline_20240528_%28cropped_2-1%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-        "alt": "Picture from the Wikipedia article on Philadelphia.",
-        "credit": "颐园居",
-        "source": "https://commons.wikimedia.org/wiki/File:Philadelphia_skyline_20240528_(cropped_2-1).jpg",
-        "license": "CC BY-SA 4.0",
-        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0"
+        "src": "https://upload.wikimedia.org/wikipedia/commons/3/35/Vanguard2.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+        "alt": "Picture from the Wikipedia article on Vanguard 2.",
+        "credit": "Wikimedia Commons",
+        "source": "https://commons.wikimedia.org/wiki/File:Vanguard2.jpg",
+        "license": "Public domain",
+        "licenseUrl": "https://commons.wikimedia.org/wiki/File:Vanguard2.jpg"
       }
     }
   ]

@@ -3,6 +3,33 @@
   "dateLabel": "8 April",
   "facts": [
     {
+      "id": "04-08-solar-eclipse",
+      "date": "04-08",
+      "dateLabel": "8 April",
+      "category": "space",
+      "categoryName": "Space",
+      "year": 2024,
+      "title": "Solar eclipse",
+      "body": "A total solar eclipse takes place at the Moon's ascending node, visible across North America.",
+      "source": {
+        "name": "Wikipedia · Solar eclipse",
+        "url": "https://en.wikipedia.org/wiki/Solar_eclipse",
+        "calendarUrl": "https://en.wikipedia.org/wiki/April_8",
+        "license": {
+          "name": "CC BY-SA 4.0",
+          "url": "https://creativecommons.org/licenses/by-sa/4.0/"
+        }
+      },
+      "image": {
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c7/Solar_eclipse_1999_4.jpg/1280px-Solar_eclipse_1999_4.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "alt": "Picture from the Wikipedia article on Solar eclipse.",
+        "credit": "Luc Viatour",
+        "source": "https://commons.wikimedia.org/wiki/File:Solar_eclipse_1999_4.jpg",
+        "license": "CC BY-SA 3.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0/"
+      }
+    },
+    {
       "id": "04-08-grace-hopper",
       "date": "04-08",
       "dateLabel": "8 April",
@@ -27,6 +54,33 @@
         "source": "https://commons.wikimedia.org/wiki/File:Commodore_Grace_M._Hopper,_USN_(covered)_head_and_shoulders_crop.jpg",
         "license": "Public domain",
         "licenseUrl": "https://commons.wikimedia.org/wiki/File:Commodore_Grace_M._Hopper,_USN_(covered)_head_and_shoulders_crop.jpg"
+      }
+    },
+    {
+      "id": "04-08-william-ewart-gladstone",
+      "date": "04-08",
+      "dateLabel": "8 April",
+      "category": "world",
+      "categoryName": "World",
+      "year": 1886,
+      "title": "William Ewart Gladstone",
+      "body": "William Ewart Gladstone introduces the first Irish Home Rule Bill into the British House of Commons.",
+      "source": {
+        "name": "Wikipedia · William Ewart Gladstone",
+        "url": "https://en.wikipedia.org/wiki/William_Ewart_Gladstone",
+        "calendarUrl": "https://en.wikipedia.org/wiki/April_8",
+        "license": {
+          "name": "CC BY-SA 4.0",
+          "url": "https://creativecommons.org/licenses/by-sa/4.0/"
+        }
+      },
+      "image": {
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c6/William_Ewart_Gladstone%2C_1892_%28cropped%29.jpg/1280px-William_Ewart_Gladstone%2C_1892_%28cropped%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "alt": "Picture from the Wikipedia article on William Ewart Gladstone.",
+        "credit": "Samuel Alexander Walker",
+        "source": "https://commons.wikimedia.org/wiki/File:William_Ewart_Gladstone,_1892_(cropped).jpg",
+        "license": "Public domain",
+        "licenseUrl": "https://commons.wikimedia.org/wiki/File:William_Ewart_Gladstone,_1892_(cropped).jpg"
       }
     },
     {
@@ -57,17 +111,17 @@
       }
     },
     {
-      "id": "04-08-william-ewart-gladstone",
+      "id": "04-08-solar-eclipse-of-april-8-2005",
       "date": "04-08",
       "dateLabel": "8 April",
-      "category": "world",
-      "categoryName": "World",
-      "year": 1886,
-      "title": "William Ewart Gladstone",
-      "body": "William Ewart Gladstone introduces the first Irish Home Rule Bill into the British House of Commons.",
+      "category": "space",
+      "categoryName": "Space",
+      "year": 2005,
+      "title": "Solar eclipse of April 8, 2005",
+      "body": "A solar eclipse occurs, visible over areas of the Pacific Ocean and Latin American countries such as Costa Rica, Panama, Colombia and Venezuela.",
       "source": {
-        "name": "Wikipedia · William Ewart Gladstone",
-        "url": "https://en.wikipedia.org/wiki/William_Ewart_Gladstone",
+        "name": "Wikipedia · Solar eclipse of April 8, 2005",
+        "url": "https://en.wikipedia.org/wiki/Solar_eclipse_of_April_8,_2005",
         "calendarUrl": "https://en.wikipedia.org/wiki/April_8",
         "license": {
           "name": "CC BY-SA 4.0",
@@ -75,12 +129,12 @@
         }
       },
       "image": {
-        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c6/William_Ewart_Gladstone%2C_1892_%28cropped%29.jpg/1280px-William_Ewart_Gladstone%2C_1892_%28cropped%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-        "alt": "Picture from the Wikipedia article on William Ewart Gladstone.",
-        "credit": "Samuel Alexander Walker",
-        "source": "https://commons.wikimedia.org/wiki/File:William_Ewart_Gladstone,_1892_(cropped).jpg",
-        "license": "Public domain",
-        "licenseUrl": "https://commons.wikimedia.org/wiki/File:William_Ewart_Gladstone,_1892_(cropped).jpg"
+        "src": "https://upload.wikimedia.org/wikipedia/commons/c/c7/Solar_eclipse_at_sunset_%282937676527%29_%28cropped%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+        "alt": "Picture from the Wikipedia article on Solar eclipse of April 8, 2005.",
+        "credit": "Juan Tello",
+        "source": "https://commons.wikimedia.org/wiki/File:Solar_eclipse_at_sunset_(2937676527)_(cropped).jpg",
+        "license": "CC BY 2.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by/2.0"
       }
     }
   ]

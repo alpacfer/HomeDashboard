@@ -30,6 +30,60 @@
       }
     },
     {
+      "id": "04-16-apollo-16",
+      "date": "04-16",
+      "dateLabel": "16 April",
+      "category": "space",
+      "categoryName": "Space",
+      "year": 1972,
+      "title": "Apollo 16",
+      "body": "The launch of Apollo 16 from Cape Canaveral, Florida.",
+      "source": {
+        "name": "Wikipedia · Apollo 16",
+        "url": "https://en.wikipedia.org/wiki/Apollo_16",
+        "calendarUrl": "https://en.wikipedia.org/wiki/April_16",
+        "license": {
+          "name": "CC BY-SA 4.0",
+          "url": "https://creativecommons.org/licenses/by-sa/4.0/"
+        }
+      },
+      "image": {
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b3/John_W._Young_on_the_Moon.jpg/1280px-John_W._Young_on_the_Moon.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "alt": "Picture from the Wikipedia article on Apollo 16.",
+        "credit": "Charlie Duke",
+        "source": "https://commons.wikimedia.org/wiki/File:John_W._Young_on_the_Moon.jpg",
+        "license": "Public domain",
+        "licenseUrl": "https://commons.wikimedia.org/wiki/File:John_W._Young_on_the_Moon.jpg"
+      }
+    },
+    {
+      "id": "04-16-albert-hofmann",
+      "date": "04-16",
+      "dateLabel": "16 April",
+      "category": "science",
+      "categoryName": "Science",
+      "year": 1943,
+      "title": "Albert Hofmann",
+      "body": "Albert Hofmann accidentally discovers the hallucinogenic effects of the research drug LSD. He intentionally takes the drug three days later on April 19.",
+      "source": {
+        "name": "Wikipedia · Albert Hofmann",
+        "url": "https://en.wikipedia.org/wiki/Albert_Hofmann",
+        "calendarUrl": "https://en.wikipedia.org/wiki/April_16",
+        "license": {
+          "name": "CC BY-SA 4.0",
+          "url": "https://creativecommons.org/licenses/by-sa/4.0/"
+        }
+      },
+      "image": {
+        "src": "https://upload.wikimedia.org/wikipedia/commons/a/aa/Albert_Hofmann_Oct_1993.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+        "alt": "Picture from the Wikipedia article on Albert Hofmann.",
+        "credit": "Philip H. Bailey",
+        "source": "https://commons.wikimedia.org/wiki/File:Albert_Hofmann_Oct_1993.jpg",
+        "license": "CC BY-SA 2.5",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.5"
+      }
+    },
+    {
       "id": "04-16-fidel-castro",
       "date": "04-16",
       "dateLabel": "16 April",
@@ -57,17 +111,17 @@
       }
     },
     {
-      "id": "04-16-apollo-16",
+      "id": "04-16-2012-pulitzer-prize",
       "date": "04-16",
       "dateLabel": "16 April",
-      "category": "space",
-      "categoryName": "Space",
-      "year": 1972,
-      "title": "Apollo 16",
-      "body": "The launch of Apollo 16 from Cape Canaveral, Florida.",
+      "category": "world",
+      "categoryName": "World",
+      "year": 2012,
+      "title": "2012 Pulitzer Prize",
+      "body": "The Pulitzer Prize winners are announced. It was the first time since 1977 that no book won the Fiction Prize.",
       "source": {
-        "name": "Wikipedia · Apollo 16",
-        "url": "https://en.wikipedia.org/wiki/Apollo_16",
+        "name": "Wikipedia · 2012 Pulitzer Prize",
+        "url": "https://en.wikipedia.org/wiki/2012_Pulitzer_Prize",
         "calendarUrl": "https://en.wikipedia.org/wiki/April_16",
         "license": {
           "name": "CC BY-SA 4.0",
@@ -75,12 +129,12 @@
         }
       },
       "image": {
-        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b3/John_W._Young_on_the_Moon.jpg/1280px-John_W._Young_on_the_Moon.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-        "alt": "Picture from the Wikipedia article on Apollo 16.",
-        "credit": "Charlie Duke",
-        "source": "https://commons.wikimedia.org/wiki/File:John_W._Young_on_the_Moon.jpg",
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/eb/Pulitzer_Prizes_%28medal%29.png/1280px-Pulitzer_Prizes_%28medal%29.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "alt": "Picture from the Wikipedia article on 2012 Pulitzer Prize.",
+        "credit": "Daniel Chester French and Augustus…",
+        "source": "https://commons.wikimedia.org/wiki/File:Pulitzer_Prizes_(medal).png",
         "license": "Public domain",
-        "licenseUrl": "https://commons.wikimedia.org/wiki/File:John_W._Young_on_the_Moon.jpg"
+        "licenseUrl": "https://commons.wikimedia.org/wiki/File:Pulitzer_Prizes_(medal).png"
       }
     }
   ]

@@ -30,33 +30,6 @@
       }
     },
     {
-      "id": "10-07-project-mercury",
-      "date": "10-07",
-      "dateLabel": "7 October",
-      "category": "world",
-      "categoryName": "World",
-      "year": 1958,
-      "title": "Project Mercury",
-      "body": "The U.S. crewed space-flight project is renamed to Project Mercury.",
-      "source": {
-        "name": "Wikipedia · Project Mercury",
-        "url": "https://en.wikipedia.org/wiki/Project_Mercury",
-        "calendarUrl": "https://en.wikipedia.org/wiki/October_7",
-        "license": {
-          "name": "CC BY-SA 4.0",
-          "url": "https://creativecommons.org/licenses/by-sa/4.0/"
-        }
-      },
-      "image": {
-        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/46/NASA_logo_%282023_colors%29.svg/1280px-NASA_logo_%282023_colors%29.svg.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-        "alt": "Picture from the Wikipedia article on Project Mercury.",
-        "credit": "NASA",
-        "source": "https://commons.wikimedia.org/wiki/File:NASA_logo_(2023_colors).svg",
-        "license": "Public domain",
-        "licenseUrl": "https://commons.wikimedia.org/wiki/File:NASA_logo_(2023_colors).svg"
-      }
-    },
-    {
       "id": "10-07-1916-cumberland-vs-georgia-tech-football-game",
       "date": "10-07",
       "dateLabel": "7 October",
@@ -81,6 +54,87 @@
         "source": "https://commons.wikimedia.org/wiki/File:GT_Cumberland_222_scoreboard.jpg",
         "license": "Public domain",
         "licenseUrl": "https://commons.wikimedia.org/wiki/File:GT_Cumberland_222_scoreboard.jpg"
+      }
+    },
+    {
+      "id": "10-07-fox-news",
+      "date": "10-07",
+      "dateLabel": "7 October",
+      "category": "world",
+      "categoryName": "World",
+      "year": 1996,
+      "title": "Fox News",
+      "body": "Fox News Channel begins broadcasting.",
+      "source": {
+        "name": "Wikipedia · Fox News",
+        "url": "https://en.wikipedia.org/wiki/Fox_News",
+        "calendarUrl": "https://en.wikipedia.org/wiki/October_7",
+        "license": {
+          "name": "CC BY-SA 4.0",
+          "url": "https://creativecommons.org/licenses/by-sa/4.0/"
+        }
+      },
+      "image": {
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/67/Fox_News_Channel_logo.svg/1280px-Fox_News_Channel_logo.svg.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "alt": "Picture from the Wikipedia article on Fox News.",
+        "credit": "Fox Corporation",
+        "source": "https://commons.wikimedia.org/wiki/File:Fox_News_Channel_logo.svg",
+        "license": "Public domain",
+        "licenseUrl": "https://commons.wikimedia.org/wiki/File:Fox_News_Channel_logo.svg"
+      }
+    },
+    {
+      "id": "10-07-morea-expedition",
+      "date": "10-07",
+      "dateLabel": "7 October",
+      "category": "science",
+      "categoryName": "Science",
+      "year": 1828,
+      "title": "Morea expedition",
+      "body": "The city of Patras, Greece, is liberated by the French expeditionary force.",
+      "source": {
+        "name": "Wikipedia · Morea expedition",
+        "url": "https://en.wikipedia.org/wiki/Morea_expedition",
+        "calendarUrl": "https://en.wikipedia.org/wiki/October_7",
+        "license": {
+          "name": "CC BY-SA 4.0",
+          "url": "https://creativecommons.org/licenses/by-sa/4.0/"
+        }
+      },
+      "image": {
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a1/Entrevue_du_g%C3%A9n%C3%A9ral_Maison_et_d%27Ibrahim_Pacha%2C_%C3%A0_Navarin%2C_septembre_1828_%28d%C3%A9tail%29.jpg/1280px-Entrevue_du_g%C3%A9n%C3%A9ral_Maison_et_d%27Ibrahim_Pacha%2C_%C3%A0_Navarin%2C_septembre_1828_%28d%C3%A9tail%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "alt": "Picture from the Wikipedia article on Morea expedition.",
+        "credit": "Jean-Charles Langlois",
+        "source": "https://commons.wikimedia.org/wiki/File:Entrevue_du_g%C3%A9n%C3%A9ral_Maison_et_d%27Ibrahim_Pacha,_%C3%A0_Navarin,_septembre_1828_(d%C3%A9tail).jpg",
+        "license": "Public domain",
+        "licenseUrl": "https://commons.wikimedia.org/wiki/File:Entrevue_du_g%C3%A9n%C3%A9ral_Maison_et_d%27Ibrahim_Pacha,_%C3%A0_Navarin,_septembre_1828_(d%C3%A9tail).jpg"
+      }
+    },
+    {
+      "id": "10-07-2008-tc3",
+      "date": "10-07",
+      "dateLabel": "7 October",
+      "category": "space",
+      "categoryName": "Space",
+      "year": 2008,
+      "title": "2008 TC3",
+      "body": "Asteroid 2008 TC3 impacts the Earth over Sudan, the first time an asteroid impact is detected prior to its entry into Earth's atmosphere.",
+      "source": {
+        "name": "Wikipedia · 2008 TC3",
+        "url": "https://en.wikipedia.org/wiki/2008_TC3",
+        "calendarUrl": "https://en.wikipedia.org/wiki/October_7",
+        "license": {
+          "name": "CC BY-SA 4.0",
+          "url": "https://creativecommons.org/licenses/by-sa/4.0/"
+        }
+      },
+      "image": {
+        "src": "https://upload.wikimedia.org/wikipedia/commons/8/8f/2008TC3-groundpath-rev.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+        "alt": "Picture from the Wikipedia article on 2008 TC3.",
+        "credit": "George William Herbert / US Government",
+        "source": "https://commons.wikimedia.org/wiki/File:2008TC3-groundpath-rev.png",
+        "license": "Public domain",
+        "licenseUrl": "https://commons.wikimedia.org/wiki/File:2008TC3-groundpath-rev.png"
       }
     }
   ]

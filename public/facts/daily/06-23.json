@@ -30,6 +30,33 @@
       }
     },
     {
+      "id": "06-23-ashton-eaton",
+      "date": "06-23",
+      "dateLabel": "23 June",
+      "category": "sport",
+      "categoryName": "Sport",
+      "year": 2012,
+      "title": "Ashton Eaton",
+      "body": "Ashton Eaton breaks the decathlon world record at the United States Olympic Trials.",
+      "source": {
+        "name": "Wikipedia · Ashton Eaton",
+        "url": "https://en.wikipedia.org/wiki/Ashton_Eaton",
+        "calendarUrl": "https://en.wikipedia.org/wiki/June_23",
+        "license": {
+          "name": "CC BY-SA 4.0",
+          "url": "https://creativecommons.org/licenses/by-sa/4.0/"
+        }
+      },
+      "image": {
+        "src": "https://upload.wikimedia.org/wikipedia/commons/e/ef/Ashton_Eaton_2_Daegu_2011.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+        "alt": "Picture from the Wikipedia article on Ashton Eaton.",
+        "credit": "Erik van Leeuwen",
+        "source": "https://commons.wikimedia.org/wiki/File:Ashton_Eaton_2_Daegu_2011.jpg",
+        "license": "GFDL",
+        "licenseUrl": "https://www.gnu.org/copyleft/fdl.html"
+      }
+    },
+    {
       "id": "06-23-nik-wallenda",
       "date": "06-23",
       "dateLabel": "23 June",
@@ -57,17 +84,17 @@
       }
     },
     {
-      "id": "06-23-ashton-eaton",
+      "id": "06-23-antarctic-treaty-system",
       "date": "06-23",
       "dateLabel": "23 June",
-      "category": "sport",
-      "categoryName": "Sport",
-      "year": 2012,
-      "title": "Ashton Eaton",
-      "body": "Ashton Eaton breaks the decathlon world record at the United States Olympic Trials.",
+      "category": "science",
+      "categoryName": "Science",
+      "year": 1961,
+      "title": "Antarctic Treaty System",
+      "body": "The Antarctic Treaty System, which sets aside Antarctica as a scientific preserve and limits military activity on the continent, its islands and ice shelves, comes into force.",
       "source": {
-        "name": "Wikipedia · Ashton Eaton",
-        "url": "https://en.wikipedia.org/wiki/Ashton_Eaton",
+        "name": "Wikipedia · Antarctic Treaty System",
+        "url": "https://en.wikipedia.org/wiki/Antarctic_Treaty_System",
         "calendarUrl": "https://en.wikipedia.org/wiki/June_23",
         "license": {
           "name": "CC BY-SA 4.0",
@@ -75,12 +102,39 @@
         }
       },
       "image": {
-        "src": "https://upload.wikimedia.org/wikipedia/commons/e/ef/Ashton_Eaton_2_Daegu_2011.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
-        "alt": "Picture from the Wikipedia article on Ashton Eaton.",
-        "credit": "Erik van Leeuwen",
-        "source": "https://commons.wikimedia.org/wiki/File:Ashton_Eaton_2_Daegu_2011.jpg",
-        "license": "GFDL",
-        "licenseUrl": "https://www.gnu.org/copyleft/fdl.html"
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/68/Flag_of_the_Antarctic_Treaty.svg/1280px-Flag_of_the_Antarctic_Treaty.svg.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "alt": "Picture from the Wikipedia article on Antarctic Treaty System.",
+        "credit": "Alakasam",
+        "source": "https://commons.wikimedia.org/wiki/File:Flag_of_the_Antarctic_Treaty.svg",
+        "license": "CC BY-SA 3.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0"
+      }
+    },
+    {
+      "id": "06-23-food-and-drug-administration",
+      "date": "06-23",
+      "dateLabel": "23 June",
+      "category": "world",
+      "categoryName": "World",
+      "year": 1960,
+      "title": "Food and Drug Administration",
+      "body": "The United States Food and Drug Administration declares Enovid to be the first officially approved combined oral contraceptive pill in the world.",
+      "source": {
+        "name": "Wikipedia · Food and Drug Administration",
+        "url": "https://en.wikipedia.org/wiki/Food_and_Drug_Administration",
+        "calendarUrl": "https://en.wikipedia.org/wiki/June_23",
+        "license": {
+          "name": "CC BY-SA 4.0",
+          "url": "https://creativecommons.org/licenses/by-sa/4.0/"
+        }
+      },
+      "image": {
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/4a/US_Food_and_Drug_Administration_Seal.png/1280px-US_Food_and_Drug_Administration_Seal.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "alt": "Picture from the Wikipedia article on Food and Drug Administration.",
+        "credit": "United States Department of the Army",
+        "source": "https://commons.wikimedia.org/wiki/File:US_Food_and_Drug_Administration_Seal.png",
+        "license": "Public domain",
+        "licenseUrl": "https://commons.wikimedia.org/wiki/File:US_Food_and_Drug_Administration_Seal.png"
       }
     }
   ]

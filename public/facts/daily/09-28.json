@@ -82,6 +82,60 @@
         "license": "Public domain",
         "licenseUrl": "https://commons.wikimedia.org/wiki/File:Synthetic_Production_of_Penicillin_TR1468.jpg"
       }
+    },
+    {
+      "id": "09-28-yitzhak-rabin",
+      "date": "09-28",
+      "dateLabel": "28 September",
+      "category": "world",
+      "categoryName": "World",
+      "year": 1995,
+      "title": "Yitzhak Rabin",
+      "body": "Israeli Prime Minister Yitzhak Rabin and PLO Chairman Yasser Arafat sign the Interim Agreement on the West Bank and the Gaza Strip.",
+      "source": {
+        "name": "Wikipedia · Yitzhak Rabin",
+        "url": "https://en.wikipedia.org/wiki/Yitzhak_Rabin",
+        "calendarUrl": "https://en.wikipedia.org/wiki/September_28",
+        "license": {
+          "name": "CC BY-SA 4.0",
+          "url": "https://creativecommons.org/licenses/by-sa/4.0/"
+        }
+      },
+      "image": {
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f2/Yitzhak_Rabin_1994_Portrait_%283x4_cropped%29.jpg/1280px-Yitzhak_Rabin_1994_Portrait_%283x4_cropped%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "alt": "Picture from the Wikipedia article on Yitzhak Rabin.",
+        "credit": "Yaakov Saar",
+        "source": "https://commons.wikimedia.org/wiki/File:Yitzhak_Rabin_1994_Portrait_(3x4_cropped).jpg",
+        "license": "CC BY-SA 3.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0"
+      }
+    },
+    {
+      "id": "09-28-color-television",
+      "date": "09-28",
+      "dateLabel": "28 September",
+      "category": "world",
+      "categoryName": "World",
+      "year": 1951,
+      "title": "Color television",
+      "body": "CBS makes the first color televisions available for sale to the general public, but the product is discontinued less than a month later.",
+      "source": {
+        "name": "Wikipedia · Color television",
+        "url": "https://en.wikipedia.org/wiki/Color_television",
+        "calendarUrl": "https://en.wikipedia.org/wiki/September_28",
+        "license": {
+          "name": "CC BY-SA 4.0",
+          "url": "https://creativecommons.org/licenses/by-sa/4.0/"
+        }
+      },
+      "image": {
+        "src": "https://upload.wikimedia.org/wikipedia/commons/c/cb/RCA_Victor_Color_TV_ad_featuring_milliner_Lilly_Dach%C3%A9%2C_1959.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+        "alt": "Picture from the Wikipedia article on Color television.",
+        "credit": "RCA Victor / Photographer not credited",
+        "source": "https://commons.wikimedia.org/wiki/File:RCA_Victor_Color_TV_ad_featuring_milliner_Lilly_Dach%C3%A9,_1959.jpg",
+        "license": "Public domain",
+        "licenseUrl": "https://commons.wikimedia.org/wiki/File:RCA_Victor_Color_TV_ad_featuring_milliner_Lilly_Dach%C3%A9,_1959.jpg"
+      }
     }
   ]
 }

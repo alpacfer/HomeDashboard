@@ -3,6 +3,33 @@
   "dateLabel": "20 March",
   "facts": [
     {
+      "id": "03-20-legoland-california",
+      "date": "03-20",
+      "dateLabel": "20 March",
+      "category": "world",
+      "categoryName": "World",
+      "year": 1999,
+      "title": "Legoland California",
+      "body": "Legoland California, the first Legoland outside of Europe, opens in Carlsbad, California, US.",
+      "source": {
+        "name": "Wikipedia · Legoland California",
+        "url": "https://en.wikipedia.org/wiki/Legoland_California",
+        "calendarUrl": "https://en.wikipedia.org/wiki/March_20",
+        "license": {
+          "name": "CC BY-SA 4.0",
+          "url": "https://creativecommons.org/licenses/by-sa/4.0/"
+        }
+      },
+      "image": {
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/fa/Legolandcaliforniaentrance.JPG/1280px-Legolandcaliforniaentrance.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "alt": "Picture from the Wikipedia article on Legoland California.",
+        "credit": "Coolcaesar",
+        "source": "https://commons.wikimedia.org/wiki/File:Legolandcaliforniaentrance.JPG",
+        "license": "CC BY-SA 3.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0"
+      }
+    },
+    {
       "id": "03-20-solar-eclipse-of-march-20-2015",
       "date": "03-20",
       "dateLabel": "20 March",
@@ -50,24 +77,24 @@
       "image": {
         "src": "https://upload.wikimedia.org/wikipedia/commons/0/01/American_Federation_of_Musicians_seal.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
         "alt": "Picture from the Wikipedia article on American Federation of Musicians.",
-        "credit": "https://www.afm.org/",
+        "credit": "Wikimedia Commons",
         "source": "https://commons.wikimedia.org/wiki/File:American_Federation_of_Musicians_seal.png",
         "license": "Public domain",
         "licenseUrl": "https://commons.wikimedia.org/wiki/File:American_Federation_of_Musicians_seal.png"
       }
     },
     {
-      "id": "03-20-legoland-california",
+      "id": "03-20-black-panther-party",
       "date": "03-20",
       "dateLabel": "20 March",
       "category": "world",
       "categoryName": "World",
-      "year": 1999,
-      "title": "Legoland California",
-      "body": "Legoland California, the first Legoland outside of Europe, opens in Carlsbad, California, US.",
+      "year": 2000,
+      "title": "Black Panther Party",
+      "body": "Jamil Abdullah Al-Amin, a former Black Panther once known as H. Rap Brown, is captured after murdering Georgia sheriff's deputy Ricky Kinchen and critically wounding Deputy Aldranon English.",
       "source": {
-        "name": "Wikipedia · Legoland California",
-        "url": "https://en.wikipedia.org/wiki/Legoland_California",
+        "name": "Wikipedia · Black Panther Party",
+        "url": "https://en.wikipedia.org/wiki/Black_Panther_Party",
         "calendarUrl": "https://en.wikipedia.org/wiki/March_20",
         "license": {
           "name": "CC BY-SA 4.0",
@@ -75,10 +102,37 @@
         }
       },
       "image": {
-        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/fa/Legolandcaliforniaentrance.JPG/1280px-Legolandcaliforniaentrance.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-        "alt": "Picture from the Wikipedia article on Legoland California.",
-        "credit": "Coolcaesar",
-        "source": "https://commons.wikimedia.org/wiki/File:Legolandcaliforniaentrance.JPG",
+        "src": "https://upload.wikimedia.org/wikipedia/commons/0/07/Black_Panther_Party_%28emblem%29.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+        "alt": "Picture from the Wikipedia article on Black Panther Party.",
+        "credit": "Wikimedia Commons",
+        "source": "https://commons.wikimedia.org/wiki/File:Black_Panther_Party_(emblem).png",
+        "license": "Public domain",
+        "licenseUrl": "https://commons.wikimedia.org/wiki/File:Black_Panther_Party_(emblem).png"
+      }
+    },
+    {
+      "id": "03-20-ferdinand-marcos",
+      "date": "03-20",
+      "dateLabel": "20 March",
+      "category": "world",
+      "categoryName": "World",
+      "year": 1990,
+      "title": "Ferdinand Marcos",
+      "body": "Ferdinand Marcos's widow, Imelda Marcos, goes on trial for bribery, embezzlement, and racketeering.",
+      "source": {
+        "name": "Wikipedia · Ferdinand Marcos",
+        "url": "https://en.wikipedia.org/wiki/Ferdinand_Marcos",
+        "calendarUrl": "https://en.wikipedia.org/wiki/March_20",
+        "license": {
+          "name": "CC BY-SA 4.0",
+          "url": "https://creativecommons.org/licenses/by-sa/4.0/"
+        }
+      },
+      "image": {
+        "src": "https://upload.wikimedia.org/wikipedia/commons/b/b4/Ferdinand_Marcos_%28cropped%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+        "alt": "Picture from the Wikipedia article on Ferdinand Marcos.",
+        "credit": "Wikimedia Commons",
+        "source": "https://commons.wikimedia.org/wiki/File:Ferdinand_Marcos_(cropped).jpg",
         "license": "CC BY-SA 3.0",
         "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0"
       }

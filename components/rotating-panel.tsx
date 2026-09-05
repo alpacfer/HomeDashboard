@@ -1,6 +1,6 @@
 'use client';
 
-import { useEffect, useState, type CSSProperties } from 'react';
+import { useEffect, useRef, useState, type CSSProperties } from 'react';
 import TransportPanel from '@/components/transport-panel';
 import { DAILY_FACT_COUNT, dailyDateKey, pinnedDateKey, validDailyFacts, yearsAgo, type DailyFact } from '@/lib/daily-facts';
 import { initialRotation, nextRotation, pinnedRotation, resumeRotation } from '@/lib/panel-rotation';
@@ -8,6 +8,21 @@ import ForecastMapPanel from '@/components/forecast-map-panel';
 import type { Rotation } from '@/lib/panel-rotation';
 
 const STORAGE_KEY = 'home-dashboard:next-daily-fact:v1';
+
+// The accessibility path scripts/screenshot.mjs exercises with --reduced-motion.
+// A daily fact's clip is decoration, so it is the poster and nothing else.
+function useReducedMotion() {
+  const [reduced, setReduced] = useState(false);
+  useEffect(() => {
+    if (typeof window.matchMedia !== 'function') return;
+    const query = window.matchMedia('(prefers-reduced-motion: reduce)');
+    const read = () => setReduced(query.matches);
+    read();
+    query.addEventListener('change', read);
+    return () => query.removeEventListener('change', read);
+  }, []);
+  return reduced;
+}
 const artworkCache = new Map<string, HTMLImageElement>();
 
 function preloadArtwork(src: string, priority: 'high' | 'low' = 'low') {
@@ -28,9 +43,7 @@ function preloadArtwork(src: string, priority: 'high' | 'low' = 'low') {
   }, { once: true });
 }
 
-function FactArtwork({ fact }: { fact: DailyFact }) {
-  const [failed, setFailed] = useState(false);
-  if (failed) return <div className="fact-image-fallback" role="img" aria-label={fact.image.alt}>Picture temporarily unavailable</div>;
+function FactStill({ fact, onError }: { fact: DailyFact; onError: () => void }) {
   // Wikimedia thumbnails are loaded from the licensed source stored with each fact.
   // eslint-disable-next-line @next/next/no-img-element
   return <img
@@ -41,8 +54,86 @@ function FactArtwork({ fact }: { fact: DailyFact }) {
     decoding="async"
     loading="eager"
     fetchPriority="high"
-    onError={() => setFailed(true)}
+    onError={onError}
   />;
+}
+
+// The only moving picture on the display, and the only thing here that holds a
+// decoder. Three rules follow from a wall that is never reloaded:
+//
+//   1. It is mounted only while its own fact is on screen, and torn down the
+//      moment the scene changes — paused, src cleared, load() called. Dropping
+//      the element alone leaves the decoder holding its buffers, which is the
+//      overnight leak docs/DEPLOYMENT.md is about.
+//   2. Any failure falls back to the still for the rest of the scene rather
+//      than retrying. A clip that cannot be decoded on this device would
+//      otherwise retry every time its date came round, for weeks.
+//   3. Reduced motion gets the poster and nothing else.
+//
+// muted is what makes autoplay legal without a gesture, and there is no
+// speaker on this wall in any case.
+function FactVideo({ fact, onFail }: { fact: DailyFact; onFail: () => void }) {
+  const node = useRef<HTMLVideoElement | null>(null);
+  const src = fact.video?.src;
+  const fallback = fact.video?.fallback;
+
+  useEffect(() => {
+    const element = node.current;
+    if (!element || !src) return;
+    // The source is set here rather than in the JSX, and that is the whole
+    // point. Teardown has to strip it to let the decoder go, and anything
+    // React also owns it would put back on its own terms: stripping a
+    // <source> child's src left React's tree unchanged, so on the next mount
+    // it re-attached an empty element, load() failed, and the panel fell back
+    // to the still for good. React owning nothing here means the two cannot
+    // disagree.
+    //
+    // Asking the browser first is also how the H.264 derivative gets used at
+    // all. Whether Silk decodes VP9 is unverified; if it says no, and the clip
+    // has a fallback, it plays that instead. If it says no to both, onError
+    // takes over and the still comes back.
+    // React sets muted as a property and not as an attribute, and an older
+    // Chromium can read the attribute when it decides whether autoplay is
+    // allowed. Setting both costs nothing and is the difference between a clip
+    // that plays on the wall and a poster that never moves.
+    element.muted = true;
+    element.setAttribute('muted', '');
+    const webm = element.canPlayType('video/webm; codecs="vp9"');
+    element.src = webm === 'probably' || webm === 'maybe' ? src : (fallback ?? src);
+    element.load();
+    const start = element.play();
+    if (start && typeof start.catch === 'function') start.catch(() => undefined);
+    return () => {
+      element.pause();
+      element.removeAttribute('src');
+      element.load();
+    };
+  }, [src, fallback]);
+
+  if (!fact.video) return null;
+  return <video
+    ref={node}
+    className="fact-video"
+    poster={fact.video.poster}
+    aria-label={fact.image.alt}
+    width="1000"
+    height="750"
+    muted
+    loop
+    playsInline
+    preload="metadata"
+    disablePictureInPicture
+    onError={onFail}
+  />;
+}
+
+function FactArtwork({ fact }: { fact: DailyFact }) {
+  const [failed, setFailed] = useState(false);
+  const [noVideo, setNoVideo] = useState(false);
+  const stillOnly = useReducedMotion();
+  if (failed) return <div className="fact-image-fallback" role="img" aria-label={fact.image.alt}>Picture temporarily unavailable</div>;
+  if (fact.video && !noVideo && !stillOnly) return <FactVideo fact={fact} onFail={() => setNoVideo(true)} />;
+  return <FactStill fact={fact} onError={() => setFailed(true)} />;
 }
 
 function useDailyFacts() {
@@ -181,11 +272,17 @@ export default function RotatingPanel({ onSceneChange }: { onSceneChange?: (scen
         </div>
         <figure className="fact-illustration">
           <FactArtwork fact={fact} />
-          <figcaption><a href={fact.image.source} target="_blank" rel="noreferrer">{fact.image.credit}</a><br /><a href={fact.image.licenseUrl} target="_blank" rel="noreferrer">{fact.image.license}</a></figcaption>
+          <figcaption><a href={fact.image.source} target="_blank" rel="noreferrer">{fact.image.credit}</a><span className="credit-dot"> · </span><a href={fact.image.licenseUrl} target="_blank" rel="noreferrer">{fact.image.license}</a></figcaption>
         </figure>
       </div>
+      {/* The article title the old footer spelled out is the headline two lines
+          above it, so the visible credit is the site and the licence and the
+          link still resolves to the article. Wikipedia's own reuse guidance
+          takes a link to the article as attribution; the full source name
+          stays in the accessible label. */}
       <footer className="fact-footer">
-        <a href={fact.source.url} target="_blank" rel="noreferrer" aria-label={`Source: ${fact.source.name}. Opens in a new tab.`}>{fact.source.name}</a>
+        <a href={fact.source.url} target="_blank" rel="noreferrer" aria-label={`Source: ${fact.source.name}. Opens in a new tab.`}>Wikipedia</a>
+        <span className="credit-dot">·</span>
         <a href={fact.source.license.url} target="_blank" rel="noreferrer">{fact.source.license.name}</a>
       </footer>
     </article>}

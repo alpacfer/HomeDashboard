@@ -3,6 +3,33 @@
   "dateLabel": "12 November",
   "facts": [
     {
+      "id": "11-12-tim-berners-lee",
+      "date": "11-12",
+      "dateLabel": "12 November",
+      "category": "tech",
+      "categoryName": "Tech",
+      "year": 1990,
+      "title": "Tim Berners-Lee",
+      "body": "Tim Berners-Lee publishes a formal proposal for the World Wide Web.",
+      "source": {
+        "name": "Wikipedia · Tim Berners-Lee",
+        "url": "https://en.wikipedia.org/wiki/Tim_Berners-Lee",
+        "calendarUrl": "https://en.wikipedia.org/wiki/November_12",
+        "license": {
+          "name": "CC BY-SA 4.0",
+          "url": "https://creativecommons.org/licenses/by-sa/4.0/"
+        }
+      },
+      "image": {
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d1/Tim_Berners-Lee_at_the_2025_Web_Summit_%28Cropped%29.jpg/1280px-Tim_Berners-Lee_at_the_2025_Web_Summit_%28Cropped%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "alt": "Picture from the Wikipedia article on Tim Berners-Lee.",
+        "credit": "Summit",
+        "source": "https://commons.wikimedia.org/wiki/File:Tim_Berners-Lee_at_the_2025_Web_Summit_(Cropped).jpg",
+        "license": "CC BY 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by/4.0"
+      }
+    },
+    {
       "id": "11-12-voyager-i",
       "date": "11-12",
       "dateLabel": "12 November",
@@ -23,37 +50,10 @@
       "image": {
         "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/60/Voyager_spacecraft_model.png/1280px-Voyager_spacecraft_model.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
         "alt": "Picture from the Wikipedia article on Voyager 1.",
-        "credit": "National Aeronautics and Space Administration (NASA)",
+        "credit": "NASA",
         "source": "https://commons.wikimedia.org/wiki/File:Voyager_spacecraft_model.png",
         "license": "Public domain",
         "licenseUrl": "https://commons.wikimedia.org/wiki/File:Voyager_spacecraft_model.png"
-      }
-    },
-    {
-      "id": "11-12-los-angeles-superior-court",
-      "date": "11-12",
-      "dateLabel": "12 November",
-      "category": "culture",
-      "categoryName": "Culture",
-      "year": 2021,
-      "title": "Los Angeles County Superior Court",
-      "body": "The Los Angeles Superior Court formally ends the 14-year conservatorship to pop singer Britney Spears.",
-      "source": {
-        "name": "Wikipedia · Los Angeles County Superior Court",
-        "url": "https://en.wikipedia.org/wiki/Los_Angeles_County_Superior_Court",
-        "calendarUrl": "https://en.wikipedia.org/wiki/November_12",
-        "license": {
-          "name": "CC BY-SA 4.0",
-          "url": "https://creativecommons.org/licenses/by-sa/4.0/"
-        }
-      },
-      "image": {
-        "src": "https://upload.wikimedia.org/wikipedia/commons/9/91/Seal_of_the_Superior_Court_of_California%2C_County_of_Los_Angeles.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
-        "alt": "Picture from the Wikipedia article on Los Angeles County Superior Court.",
-        "credit": "Superior Court of the State of California, Los Angeles",
-        "source": "https://commons.wikimedia.org/wiki/File:Seal_of_the_Superior_Court_of_California,_County_of_Los_Angeles.png",
-        "license": "Public domain",
-        "licenseUrl": "https://commons.wikimedia.org/wiki/File:Seal_of_the_Superior_Court_of_California,_County_of_Los_Angeles.png"
       }
     },
     {
@@ -77,10 +77,64 @@
       "image": {
         "src": "https://upload.wikimedia.org/wikipedia/commons/e/e5/Pudge_heffelfinger.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
         "alt": "Picture from the Wikipedia article on Pudge Heffelfinger.",
-        "credit": "Wikimedia Commons contributor",
+        "credit": "Wikimedia Commons",
         "source": "https://commons.wikimedia.org/wiki/File:Pudge_heffelfinger.jpg",
         "license": "Public domain",
         "licenseUrl": "https://commons.wikimedia.org/wiki/File:Pudge_heffelfinger.jpg"
+      }
+    },
+    {
+      "id": "11-12-philae-spacecraft",
+      "date": "11-12",
+      "dateLabel": "12 November",
+      "category": "space",
+      "categoryName": "Space",
+      "year": 2014,
+      "title": "Philae",
+      "body": "The Philae lander, deployed from the European Space Agency's Rosetta probe, reaches the surface of Comet 67P/Churyumov–Gerasimenko.",
+      "source": {
+        "name": "Wikipedia · Philae (spacecraft)",
+        "url": "https://en.wikipedia.org/wiki/Philae_(spacecraft)",
+        "calendarUrl": "https://en.wikipedia.org/wiki/November_12",
+        "license": {
+          "name": "CC BY-SA 4.0",
+          "url": "https://creativecommons.org/licenses/by-sa/4.0/"
+        }
+      },
+      "image": {
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/95/Philae_lander_%28transparent_bg%29.png/1280px-Philae_lander_%28transparent_bg%29.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "alt": "Picture from the Wikipedia article on Philae.",
+        "credit": "ESA/ATG medialab",
+        "source": "https://commons.wikimedia.org/wiki/File:Philae_lander_(transparent_bg).png",
+        "license": "CC BY-SA 2.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0"
+      }
+    },
+    {
+      "id": "11-12-sts-2",
+      "date": "11-12",
+      "dateLabel": "12 November",
+      "category": "space",
+      "categoryName": "Space",
+      "year": 1981,
+      "title": "STS-2",
+      "body": "Mission STS-2, utilizing the Space Shuttle Columbia, marks the first time a crewed spacecraft is launched into space twice.",
+      "source": {
+        "name": "Wikipedia · STS-2",
+        "url": "https://en.wikipedia.org/wiki/STS-2",
+        "calendarUrl": "https://en.wikipedia.org/wiki/November_12",
+        "license": {
+          "name": "CC BY-SA 4.0",
+          "url": "https://creativecommons.org/licenses/by-sa/4.0/"
+        }
+      },
+      "image": {
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a1/STS-2_Canadarm_debut.jpg/1280px-STS-2_Canadarm_debut.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "alt": "Picture from the Wikipedia article on STS-2.",
+        "credit": "NASA",
+        "source": "https://commons.wikimedia.org/wiki/File:STS-2_Canadarm_debut.jpg",
+        "license": "Public domain",
+        "licenseUrl": "https://commons.wikimedia.org/wiki/File:STS-2_Canadarm_debut.jpg"
       }
     }
   ]

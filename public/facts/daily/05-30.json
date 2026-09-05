@@ -30,6 +30,33 @@
       }
     },
     {
+      "id": "05-30-1989-tiananmen-square-protests-and-massacre",
+      "date": "05-30",
+      "dateLabel": "30 May",
+      "category": "world",
+      "categoryName": "World",
+      "year": 1989,
+      "title": "1989 Tiananmen Square protests and massacre",
+      "body": "The 10-metre high \"Goddess of Democracy\" statue is unveiled in Tiananmen Square by student demonstrators.",
+      "source": {
+        "name": "Wikipedia · 1989 Tiananmen Square protests and massacre",
+        "url": "https://en.wikipedia.org/wiki/1989_Tiananmen_Square_protests_and_massacre",
+        "calendarUrl": "https://en.wikipedia.org/wiki/May_30",
+        "license": {
+          "name": "CC BY-SA 4.0",
+          "url": "https://creativecommons.org/licenses/by-sa/4.0/"
+        }
+      },
+      "image": {
+        "src": "https://upload.wikimedia.org/wikipedia/commons/e/e7/Ud%C3%A1losti_na_n%C3%A1m%C4%9Bst%C3%AD_Tian_an_men%2C_%C4%8C%C3%ADna_1989%2C_foto_Ji%C5%99%C3%AD_Tondl.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+        "alt": "Picture from the Wikipedia article on 1989 Tiananmen Square protests and massacre.",
+        "credit": "Jiří Tondl",
+        "source": "https://commons.wikimedia.org/wiki/File:Ud%C3%A1losti_na_n%C3%A1m%C4%9Bst%C3%AD_Tian_an_men,_%C4%8C%C3%ADna_1989,_foto_Ji%C5%99%C3%AD_Tondl.jpg",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0"
+      }
+    },
+    {
       "id": "05-30-bedrich-smetana",
       "date": "05-30",
       "dateLabel": "30 May",
@@ -81,6 +108,33 @@
         "source": "https://commons.wikimedia.org/wiki/File:Mariner09.jpg",
         "license": "Public domain",
         "licenseUrl": "https://commons.wikimedia.org/wiki/File:Mariner09.jpg"
+      }
+    },
+    {
+      "id": "05-30-auckland-harbour-bridge",
+      "date": "05-30",
+      "dateLabel": "30 May",
+      "category": "world",
+      "categoryName": "World",
+      "year": 1959,
+      "title": "Auckland Harbour Bridge",
+      "body": "The Auckland Harbour Bridge, crossing the Waitemata Harbour in Auckland, New Zealand, is officially opened by Governor-General Charles Lyttelton, 10th Viscount Cobham.",
+      "source": {
+        "name": "Wikipedia · Auckland Harbour Bridge",
+        "url": "https://en.wikipedia.org/wiki/Auckland_Harbour_Bridge",
+        "calendarUrl": "https://en.wikipedia.org/wiki/May_30",
+        "license": {
+          "name": "CC BY-SA 4.0",
+          "url": "https://creativecommons.org/licenses/by-sa/4.0/"
+        }
+      },
+      "image": {
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/bc/Auckland_Harbour_Bridge_-_August_2024.jpg/1280px-Auckland_Harbour_Bridge_-_August_2024.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "alt": "Picture from the Wikipedia article on Auckland Harbour Bridge.",
+        "credit": "MrSeabody",
+        "source": "https://commons.wikimedia.org/wiki/File:Auckland_Harbour_Bridge_-_August_2024.jpg",
+        "license": "CC0",
+        "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/deed.en"
       }
     }
   ]

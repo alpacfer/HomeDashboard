@@ -23,7 +23,7 @@
       "image": {
         "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/99/Elvis_Presley_promoting_Jailhouse_Rock.jpg/1280px-Elvis_Presley_promoting_Jailhouse_Rock.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
         "alt": "Picture from the Wikipedia article on Elvis Presley.",
-        "credit": "Metro-Goldwyn-Mayer, Inc. Reproduction Number: LC-USZ6-2067 Location: NYWTS -- BIOG",
+        "credit": "Metro-Goldwyn-Mayer",
         "source": "https://commons.wikimedia.org/wiki/File:Elvis_Presley_promoting_Jailhouse_Rock.jpg",
         "license": "Public domain",
         "licenseUrl": "https://commons.wikimedia.org/wiki/File:Elvis_Presley_promoting_Jailhouse_Rock.jpg"
@@ -57,17 +57,17 @@
       }
     },
     {
-      "id": "01-14-kripalu-maharaj",
+      "id": "01-14-nbc",
       "date": "01-14",
       "dateLabel": "14 January",
       "category": "world",
       "categoryName": "World",
-      "year": 1957,
-      "title": "Kripalu Maharaj",
-      "body": "Kripalu Maharaj is named fifth Jagadguru (world teacher) after giving seven days of speeches before 500 Hindu scholars.",
+      "year": 1952,
+      "title": "NBC",
+      "body": "NBC's long-running morning news program Today debuts, with host Dave Garroway.",
       "source": {
-        "name": "Wikipedia · Kripalu Maharaj",
-        "url": "https://en.wikipedia.org/wiki/Kripalu_Maharaj",
+        "name": "Wikipedia · NBC",
+        "url": "https://en.wikipedia.org/wiki/NBC",
         "calendarUrl": "https://en.wikipedia.org/wiki/January_14",
         "license": {
           "name": "CC BY-SA 4.0",
@@ -75,12 +75,66 @@
         }
       },
       "image": {
-        "src": "https://upload.wikimedia.org/wikipedia/commons/c/c1/Kripalu_Ji_Maharaj_Giving_Lecture_%28cropped%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
-        "alt": "Picture from the Wikipedia article on Kripalu Maharaj.",
-        "credit": "SK",
-        "source": "https://commons.wikimedia.org/wiki/File:Kripalu_Ji_Maharaj_Giving_Lecture_(cropped).jpg",
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/7a/NBC_logo_2022_%28vertical%29.svg/1280px-NBC_logo_2022_%28vertical%29.svg.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "alt": "Picture from the Wikipedia article on NBC.",
+        "credit": "™/®Comcast",
+        "source": "https://commons.wikimedia.org/wiki/File:NBC_logo_2022_(vertical).svg",
+        "license": "Public domain",
+        "licenseUrl": "https://commons.wikimedia.org/wiki/File:NBC_logo_2022_(vertical).svg"
+      }
+    },
+    {
+      "id": "01-14-queen-maud-land",
+      "date": "01-14",
+      "dateLabel": "14 January",
+      "category": "science",
+      "categoryName": "Science",
+      "year": 1939,
+      "title": "Queen Maud Land",
+      "body": "Norway claims Queen Maud Land in Antarctica.",
+      "source": {
+        "name": "Wikipedia · Queen Maud Land",
+        "url": "https://en.wikipedia.org/wiki/Queen_Maud_Land",
+        "calendarUrl": "https://en.wikipedia.org/wiki/January_14",
+        "license": {
+          "name": "CC BY-SA 4.0",
+          "url": "https://creativecommons.org/licenses/by-sa/4.0/"
+        }
+      },
+      "image": {
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/1a/Antarctica%2C_Norway_territorial_claim_%28Queen_Maud_Land%2C_2015%29.svg/1280px-Antarctica%2C_Norway_territorial_claim_%28Queen_Maud_Land%2C_2015%29.svg.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "alt": "Picture from the Wikipedia article on Queen Maud Land.",
+        "credit": "Wikimedia Commons",
+        "source": "https://commons.wikimedia.org/wiki/File:Antarctica,_Norway_territorial_claim_(Queen_Maud_Land,_2015).svg",
         "license": "CC BY-SA 4.0",
         "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0"
+      }
+    },
+    {
+      "id": "01-14-margrethe-ii",
+      "date": "01-14",
+      "dateLabel": "14 January",
+      "category": "world",
+      "categoryName": "World",
+      "year": 1972,
+      "title": "Margrethe II",
+      "body": "Queen Margrethe II of Denmark ascends the throne, the first Queen of Denmark since 1412 and the first Danish monarch not named Frederik or Christian since 1513.",
+      "source": {
+        "name": "Wikipedia · Margrethe II",
+        "url": "https://en.wikipedia.org/wiki/Margrethe_II",
+        "calendarUrl": "https://en.wikipedia.org/wiki/January_14",
+        "license": {
+          "name": "CC BY-SA 4.0",
+          "url": "https://creativecommons.org/licenses/by-sa/4.0/"
+        }
+      },
+      "image": {
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e5/Drottning_Margrethe_av_Danmark.jpg/1280px-Drottning_Margrethe_av_Danmark.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "alt": "Picture from the Wikipedia article on Margrethe II.",
+        "credit": "Johannes Jansson/norden.org",
+        "source": "https://commons.wikimedia.org/wiki/File:Drottning_Margrethe_av_Danmark.jpg",
+        "license": "CC BY 2.5 dk",
+        "licenseUrl": "https://creativecommons.org/licenses/by/2.5/dk/deed.en"
       }
     }
   ]

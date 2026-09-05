@@ -82,6 +82,60 @@
         "license": "Public domain",
         "licenseUrl": "https://commons.wikimedia.org/wiki/File:Louis_Pasteur,_foto_av_Paul_Nadar,_Crisco_edit.jpg"
       }
+    },
+    {
+      "id": "04-20-v-dersolstavlan",
+      "date": "04-20",
+      "dateLabel": "20 April",
+      "category": "culture",
+      "categoryName": "Culture",
+      "year": 1535,
+      "title": "Vädersolstavlan",
+      "body": "A complex halo display is observed over Stockholm, Sweden, inspiring the Vädersolstavlan (\"The Sundog painting\"), the earliest depiction of such an event, and the oldest colour depiction of the city.",
+      "source": {
+        "name": "Wikipedia · Vädersolstavlan",
+        "url": "https://en.wikipedia.org/wiki/V%C3%A4dersolstavlan",
+        "calendarUrl": "https://en.wikipedia.org/wiki/April_20",
+        "license": {
+          "name": "CC BY-SA 4.0",
+          "url": "https://creativecommons.org/licenses/by-sa/4.0/"
+        }
+      },
+      "image": {
+        "src": "https://upload.wikimedia.org/wikipedia/commons/2/2a/V%C3%A4dersoltavlan_cropped.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+        "alt": "Picture from the Wikipedia article on Vädersolstavlan.",
+        "credit": "Jacob Heinrich Elbfas",
+        "source": "https://commons.wikimedia.org/wiki/File:V%C3%A4dersoltavlan_cropped.JPG",
+        "license": "Public domain",
+        "licenseUrl": "https://commons.wikimedia.org/wiki/File:V%C3%A4dersoltavlan_cropped.JPG"
+      }
+    },
+    {
+      "id": "04-20-danica-patrick",
+      "date": "04-20",
+      "dateLabel": "20 April",
+      "category": "world",
+      "categoryName": "World",
+      "year": 2008,
+      "title": "Danica Patrick",
+      "body": "Danica Patrick wins the Indy Japan 300, becoming the first female driver in history to win an Indy car race.",
+      "source": {
+        "name": "Wikipedia · Danica Patrick",
+        "url": "https://en.wikipedia.org/wiki/Danica_Patrick",
+        "calendarUrl": "https://en.wikipedia.org/wiki/April_20",
+        "license": {
+          "name": "CC BY-SA 4.0",
+          "url": "https://creativecommons.org/licenses/by-sa/4.0/"
+        }
+      },
+      "image": {
+        "src": "https://upload.wikimedia.org/wikipedia/commons/0/0f/Danica_Patrick_2025_1_secag.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+        "alt": "Picture from the Wikipedia article on Danica Patrick.",
+        "credit": "USDAgov",
+        "source": "https://commons.wikimedia.org/wiki/File:Danica_Patrick_2025_1_secag.jpg",
+        "license": "Public domain",
+        "licenseUrl": "https://commons.wikimedia.org/wiki/File:Danica_Patrick_2025_1_secag.jpg"
+      }
     }
   ]
 }

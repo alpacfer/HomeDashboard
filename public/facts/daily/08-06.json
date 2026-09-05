@@ -57,17 +57,17 @@
       }
     },
     {
-      "id": "08-06-gertrude-ederle",
+      "id": "08-06-erwadi",
       "date": "08-06",
       "dateLabel": "6 August",
       "category": "world",
       "categoryName": "World",
-      "year": 1926,
-      "title": "Gertrude Ederle",
-      "body": "Gertrude Ederle becomes the first woman to swim across the English Channel.",
+      "year": 2001,
+      "title": "Erwadi",
+      "body": "Twenty-eight mentally ill persons tied to a chain are burnt to death at a faith based institution at Erwadi, Tamil Nadu.",
       "source": {
-        "name": "Wikipedia · Gertrude Ederle",
-        "url": "https://en.wikipedia.org/wiki/Gertrude_Ederle",
+        "name": "Wikipedia · Erwadi",
+        "url": "https://en.wikipedia.org/wiki/Erwadi",
         "calendarUrl": "https://en.wikipedia.org/wiki/August_6",
         "license": {
           "name": "CC BY-SA 4.0",
@@ -75,12 +75,66 @@
         }
       },
       "image": {
-        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/53/Gertrude_Ederle.jpg/1280px-Gertrude_Ederle.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-        "alt": "Picture from the Wikipedia article on Gertrude Ederle.",
-        "credit": "Bain News Service, publisher",
-        "source": "https://commons.wikimedia.org/wiki/File:Gertrude_Ederle.jpg",
+        "src": "https://upload.wikimedia.org/wikipedia/commons/5/5c/Erwadidurgah.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+        "alt": "Picture from the Wikipedia article on Erwadi.",
+        "credit": "Wasifwasif",
+        "source": "https://commons.wikimedia.org/wiki/File:Erwadidurgah.jpg",
         "license": "Public domain",
-        "licenseUrl": "https://commons.wikimedia.org/wiki/File:Gertrude_Ederle.jpg"
+        "licenseUrl": "https://commons.wikimedia.org/wiki/File:Erwadidurgah.jpg"
+      }
+    },
+    {
+      "id": "08-06-dumont-television-network",
+      "date": "08-06",
+      "dateLabel": "6 August",
+      "category": "sport",
+      "categoryName": "Sport",
+      "year": 1956,
+      "title": "DuMont Television Network",
+      "body": "After going bankrupt in 1955, the American broadcaster DuMont Television Network makes its final broadcast, a boxing match from St. Nicholas Arena in New York in the Boxing from St. Nicholas Arena series.",
+      "source": {
+        "name": "Wikipedia · DuMont Television Network",
+        "url": "https://en.wikipedia.org/wiki/DuMont_Television_Network",
+        "calendarUrl": "https://en.wikipedia.org/wiki/August_6",
+        "license": {
+          "name": "CC BY-SA 4.0",
+          "url": "https://creativecommons.org/licenses/by-sa/4.0/"
+        }
+      },
+      "image": {
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f5/DuMont_logo_1952.svg/1280px-DuMont_logo_1952.svg.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "alt": "Picture from the Wikipedia article on DuMont Television Network.",
+        "credit": "DuMont Television Network",
+        "source": "https://commons.wikimedia.org/wiki/File:DuMont_logo_1952.svg",
+        "license": "Public domain",
+        "licenseUrl": "https://commons.wikimedia.org/wiki/File:DuMont_logo_1952.svg"
+      }
+    },
+    {
+      "id": "08-06-curiosity-rover",
+      "date": "08-06",
+      "dateLabel": "6 August",
+      "category": "space",
+      "categoryName": "Space",
+      "year": 2012,
+      "title": "Curiosity",
+      "body": "NASA's Curiosity rover lands on the surface of Mars.",
+      "source": {
+        "name": "Wikipedia · Curiosity (rover)",
+        "url": "https://en.wikipedia.org/wiki/Curiosity_(rover)",
+        "calendarUrl": "https://en.wikipedia.org/wiki/August_6",
+        "license": {
+          "name": "CC BY-SA 4.0",
+          "url": "https://creativecommons.org/licenses/by-sa/4.0/"
+        }
+      },
+      "image": {
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f3/Curiosity_Self-Portrait_at_%27Big_Sky%27_Drilling_Site.jpg/1280px-Curiosity_Self-Portrait_at_%27Big_Sky%27_Drilling_Site.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "alt": "Picture from the Wikipedia article on Curiosity.",
+        "credit": "NASA",
+        "source": "https://commons.wikimedia.org/wiki/File:Curiosity_Self-Portrait_at_%27Big_Sky%27_Drilling_Site.jpg",
+        "license": "Public domain",
+        "licenseUrl": "https://commons.wikimedia.org/wiki/File:Curiosity_Self-Portrait_at_%27Big_Sky%27_Drilling_Site.jpg"
       }
     }
   ]

@@ -3,33 +3,6 @@
   "dateLabel": "11 November",
   "facts": [
     {
-      "id": "11-11-patent",
-      "date": "11-11",
-      "dateLabel": "11 November",
-      "category": "science",
-      "categoryName": "Science",
-      "year": 1930,
-      "title": "Patent",
-      "body": "Patent number US1781541 is awarded to Albert Einstein and Leó Szilárd for their invention, the Einstein refrigerator.",
-      "source": {
-        "name": "Wikipedia · Patent",
-        "url": "https://en.wikipedia.org/wiki/Patent",
-        "calendarUrl": "https://en.wikipedia.org/wiki/November_11",
-        "license": {
-          "name": "CC BY-SA 4.0",
-          "url": "https://creativecommons.org/licenses/by-sa/4.0/"
-        }
-      },
-      "image": {
-        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f5/US_Patent_cover_%28US_Patent_5%2C860%2C492%29.jpg/1280px-US_Patent_cover_%28US_Patent_5%2C860%2C492%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-        "alt": "Picture from the Wikipedia article on Patent.",
-        "credit": "USPTO",
-        "source": "https://commons.wikimedia.org/wiki/File:US_Patent_cover_(US_Patent_5,860,492).jpg",
-        "license": "Public domain",
-        "licenseUrl": "https://commons.wikimedia.org/wiki/File:US_Patent_cover_(US_Patent_5,860,492).jpg"
-      }
-    },
-    {
       "id": "11-11-gemini-12",
       "date": "11-11",
       "dateLabel": "11 November",
@@ -57,6 +30,33 @@
       }
     },
     {
+      "id": "11-11-patent",
+      "date": "11-11",
+      "dateLabel": "11 November",
+      "category": "science",
+      "categoryName": "Science",
+      "year": 1930,
+      "title": "Patent",
+      "body": "Patent number US1781541 is awarded to Albert Einstein and Leó Szilárd for their invention, the Einstein refrigerator.",
+      "source": {
+        "name": "Wikipedia · Patent",
+        "url": "https://en.wikipedia.org/wiki/Patent",
+        "calendarUrl": "https://en.wikipedia.org/wiki/November_11",
+        "license": {
+          "name": "CC BY-SA 4.0",
+          "url": "https://creativecommons.org/licenses/by-sa/4.0/"
+        }
+      },
+      "image": {
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f5/US_Patent_cover_%28US_Patent_5%2C860%2C492%29.jpg/1280px-US_Patent_cover_%28US_Patent_5%2C860%2C492%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "alt": "Picture from the Wikipedia article on Patent.",
+        "credit": "USPTO",
+        "source": "https://commons.wikimedia.org/wiki/File:US_Patent_cover_(US_Patent_5,860,492).jpg",
+        "license": "Public domain",
+        "licenseUrl": "https://commons.wikimedia.org/wiki/File:US_Patent_cover_(US_Patent_5,860,492).jpg"
+      }
+    },
+    {
       "id": "11-11-house-of-lords-act-1999",
       "date": "11-11",
       "dateLabel": "11 November",
@@ -81,6 +81,60 @@
         "source": "https://commons.wikimedia.org/wiki/File:Royal_coat_of_arms_of_the_United_Kingdom_(1952%E2%80%932022,_variant_1).svg",
         "license": "CC BY-SA 3.0",
         "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0"
+      }
+    },
+    {
+      "id": "11-11-space-shuttle-columbia",
+      "date": "11-11",
+      "dateLabel": "11 November",
+      "category": "space",
+      "categoryName": "Space",
+      "year": 1982,
+      "title": "Space Shuttle Columbia",
+      "body": "Space Shuttle Columbia launches from the Kennedy Space Center on STS-5, the first operational mission of the Space Shuttle program.",
+      "source": {
+        "name": "Wikipedia · Space Shuttle Columbia",
+        "url": "https://en.wikipedia.org/wiki/Space_Shuttle_Columbia",
+        "calendarUrl": "https://en.wikipedia.org/wiki/November_11",
+        "license": {
+          "name": "CC BY-SA 4.0",
+          "url": "https://creativecommons.org/licenses/by-sa/4.0/"
+        }
+      },
+      "image": {
+        "src": "https://upload.wikimedia.org/wikipedia/commons/2/26/Space_Shuttle_Columbia_lands_following_STS-62_on_18_March_1994._%28cropped%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+        "alt": "Picture from the Wikipedia article on Space Shuttle Columbia.",
+        "credit": "NASA",
+        "source": "https://commons.wikimedia.org/wiki/File:Space_Shuttle_Columbia_lands_following_STS-62_on_18_March_1994._(cropped).jpg",
+        "license": "Public domain",
+        "licenseUrl": "https://commons.wikimedia.org/wiki/File:Space_Shuttle_Columbia_lands_following_STS-62_on_18_March_1994._(cropped).jpg"
+      }
+    },
+    {
+      "id": "11-11-operation-commando-hunt",
+      "date": "11-11",
+      "dateLabel": "11 November",
+      "category": "world",
+      "categoryName": "World",
+      "year": 1968,
+      "title": "Operation Commando Hunt",
+      "body": "Operation Commando Hunt initiated. The goal is to interdict men and supplies on the Ho Chi Minh trail, through Laos into South Vietnam.",
+      "source": {
+        "name": "Wikipedia · Operation Commando Hunt",
+        "url": "https://en.wikipedia.org/wiki/Operation_Commando_Hunt",
+        "calendarUrl": "https://en.wikipedia.org/wiki/November_11",
+        "license": {
+          "name": "CC BY-SA 4.0",
+          "url": "https://creativecommons.org/licenses/by-sa/4.0/"
+        }
+      },
+      "image": {
+        "src": "https://upload.wikimedia.org/wikipedia/commons/1/1f/HCMTT.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+        "alt": "Picture from the Wikipedia article on Operation Commando Hunt.",
+        "credit": "Wikimedia Commons",
+        "source": "https://commons.wikimedia.org/wiki/File:HCMTT.jpg",
+        "license": "Public domain",
+        "licenseUrl": "https://commons.wikimedia.org/wiki/File:HCMTT.jpg"
       }
     }
   ]

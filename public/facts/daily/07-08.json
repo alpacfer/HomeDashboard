@@ -82,6 +82,60 @@
         "license": "CC BY 3.0",
         "licenseUrl": "https://creativecommons.org/licenses/by/3.0"
       }
+    },
+    {
+      "id": "07-08-ne-win",
+      "date": "07-08",
+      "dateLabel": "8 July",
+      "category": "world",
+      "categoryName": "World",
+      "year": 1962,
+      "title": "Ne Win",
+      "body": "Ne Win besieges and blows up the Rangoon University Student Union building to crush the Student Movement.",
+      "source": {
+        "name": "Wikipedia · Ne Win",
+        "url": "https://en.wikipedia.org/wiki/Ne_Win",
+        "calendarUrl": "https://en.wikipedia.org/wiki/July_8",
+        "license": {
+          "name": "CC BY-SA 4.0",
+          "url": "https://creativecommons.org/licenses/by-sa/4.0/"
+        }
+      },
+      "image": {
+        "src": "https://upload.wikimedia.org/wikipedia/commons/d/de/Ne_Win_in_1959%2C_Jerusalem.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+        "alt": "Picture from the Wikipedia article on Ne Win.",
+        "credit": "Moshe Pridan",
+        "source": "https://commons.wikimedia.org/wiki/File:Ne_Win_in_1959,_Jerusalem.jpg",
+        "license": "Public domain",
+        "licenseUrl": "https://commons.wikimedia.org/wiki/File:Ne_Win_in_1959,_Jerusalem.jpg"
+      }
+    },
+    {
+      "id": "07-08-francis-gary-powers",
+      "date": "07-08",
+      "dateLabel": "8 July",
+      "category": "world",
+      "categoryName": "World",
+      "year": 1960,
+      "title": "Francis Gary Powers",
+      "body": "Francis Gary Powers is charged with espionage resulting from his flight over the Soviet Union.",
+      "source": {
+        "name": "Wikipedia · Francis Gary Powers",
+        "url": "https://en.wikipedia.org/wiki/Francis_Gary_Powers",
+        "calendarUrl": "https://en.wikipedia.org/wiki/July_8",
+        "license": {
+          "name": "CC BY-SA 4.0",
+          "url": "https://creativecommons.org/licenses/by-sa/4.0/"
+        }
+      },
+      "image": {
+        "src": "https://upload.wikimedia.org/wikipedia/commons/d/d4/KellyJohnsonandGaryPowers_%28crop%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+        "alt": "Picture from the Wikipedia article on Francis Gary Powers.",
+        "credit": "U.S. Air Force photo",
+        "source": "https://commons.wikimedia.org/wiki/File:KellyJohnsonandGaryPowers_(crop).jpg",
+        "license": "Public domain",
+        "licenseUrl": "https://commons.wikimedia.org/wiki/File:KellyJohnsonandGaryPowers_(crop).jpg"
+      }
     }
   ]
 }

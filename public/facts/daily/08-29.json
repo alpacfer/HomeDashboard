@@ -77,10 +77,64 @@
       "image": {
         "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/42/The_Beatles_1963_Dezo_Hoffman_Capitol_Records_press_photo_2.jpg/1280px-The_Beatles_1963_Dezo_Hoffman_Capitol_Records_press_photo_2.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
         "alt": "Picture from the Wikipedia article on The Beatles.",
-        "credit": "Dezo Hoffmann, Distributed by Capitol Records",
+        "credit": "Dezo Hoffmann",
         "source": "https://commons.wikimedia.org/wiki/File:The_Beatles_1963_Dezo_Hoffman_Capitol_Records_press_photo_2.jpg",
         "license": "Public domain",
         "licenseUrl": "https://commons.wikimedia.org/wiki/File:The_Beatles_1963_Dezo_Hoffman_Capitol_Records_press_photo_2.jpg"
+      }
+    },
+    {
+      "id": "08-29-michael-faraday",
+      "date": "08-29",
+      "dateLabel": "29 August",
+      "category": "science",
+      "categoryName": "Science",
+      "year": 1831,
+      "title": "Michael Faraday",
+      "body": "Michael Faraday discovers electromagnetic induction.",
+      "source": {
+        "name": "Wikipedia · Michael Faraday",
+        "url": "https://en.wikipedia.org/wiki/Michael_Faraday",
+        "calendarUrl": "https://en.wikipedia.org/wiki/August_29",
+        "license": {
+          "name": "CC BY-SA 4.0",
+          "url": "https://creativecommons.org/licenses/by-sa/4.0/"
+        }
+      },
+      "image": {
+        "src": "https://upload.wikimedia.org/wikipedia/commons/7/7e/Michael_Faraday_sitting_crop.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+        "alt": "Picture from the Wikipedia article on Michael Faraday.",
+        "credit": "Unknown author",
+        "source": "https://commons.wikimedia.org/wiki/File:Michael_Faraday_sitting_crop.jpg",
+        "license": "Public domain",
+        "licenseUrl": "https://commons.wikimedia.org/wiki/File:Michael_Faraday_sitting_crop.jpg"
+      }
+    },
+    {
+      "id": "08-29-submarine",
+      "date": "08-29",
+      "dateLabel": "29 August",
+      "category": "world",
+      "categoryName": "World",
+      "year": 1915,
+      "title": "Submarine",
+      "body": "US Navy salvage divers raise, the first U.S. submarine sunk in an accident.",
+      "source": {
+        "name": "Wikipedia · Submarine",
+        "url": "https://en.wikipedia.org/wiki/Submarine",
+        "calendarUrl": "https://en.wikipedia.org/wiki/August_29",
+        "license": {
+          "name": "CC BY-SA 4.0",
+          "url": "https://creativecommons.org/licenses/by-sa/4.0/"
+        }
+      },
+      "image": {
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/bb/US_Navy_040730-N-1234E-002_PCU_Virginia_%28SSN_774%29_returns_to_the_General_Dynamics_Electric_Boat_shipyard.jpg/1280px-US_Navy_040730-N-1234E-002_PCU_Virginia_%28SSN_774%29_returns_to_the_General_Dynamics_Electric_Boat_shipyard.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "alt": "Picture from the Wikipedia article on Submarine.",
+        "credit": "U.S. Navy photo",
+        "source": "https://commons.wikimedia.org/wiki/File:US_Navy_040730-N-1234E-002_PCU_Virginia_(SSN_774)_returns_to_the_General_Dynamics_Electric_Boat_shipyard.jpg",
+        "license": "Public domain",
+        "licenseUrl": "https://commons.wikimedia.org/wiki/File:US_Navy_040730-N-1234E-002_PCU_Virginia_(SSN_774)_returns_to_the_General_Dynamics_Electric_Boat_shipyard.jpg"
       }
     }
   ]

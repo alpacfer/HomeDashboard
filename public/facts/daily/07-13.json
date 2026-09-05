@@ -3,33 +3,6 @@
   "dateLabel": "13 July",
   "facts": [
     {
-      "id": "07-13-vuoristorata",
-      "date": "07-13",
-      "dateLabel": "13 July",
-      "category": "world",
-      "categoryName": "World",
-      "year": 1951,
-      "title": "Vuoristorata",
-      "body": "Vuoristorata, one of the oldest still-operating wooden roller coasters in Europe, is opened at the Linnanmäki amusement park in Helsinki, Finland.",
-      "source": {
-        "name": "Wikipedia · Vuoristorata",
-        "url": "https://en.wikipedia.org/wiki/Vuoristorata",
-        "calendarUrl": "https://en.wikipedia.org/wiki/July_13",
-        "license": {
-          "name": "CC BY-SA 4.0",
-          "url": "https://creativecommons.org/licenses/by-sa/4.0/"
-        }
-      },
-      "image": {
-        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/01/Linnanm%C3%A4ki_Vuoristorata.jpg/1280px-Linnanm%C3%A4ki_Vuoristorata.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-        "alt": "Picture from the Wikipedia article on Vuoristorata.",
-        "credit": "Oona Räisänen",
-        "source": "https://commons.wikimedia.org/wiki/File:Linnanm%C3%A4ki_Vuoristorata.jpg",
-        "license": "CC BY-SA 3.0",
-        "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0"
-      }
-    },
-    {
       "id": "07-13-prime-minister-of-the-united-kingdom",
       "date": "07-13",
       "dateLabel": "13 July",
@@ -77,10 +50,91 @@
       "image": {
         "src": "https://upload.wikimedia.org/wikipedia/commons/4/42/Uruguay_1930_World_Cup.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
         "alt": "Picture from the Wikipedia article on 1930 FIFA World Cup.",
-        "credit": "Guillermo Laborde (1886–1940)",
+        "credit": "Guillermo Laborde",
         "source": "https://commons.wikimedia.org/wiki/File:Uruguay_1930_World_Cup.jpg",
         "license": "Public domain",
         "licenseUrl": "https://commons.wikimedia.org/wiki/File:Uruguay_1930_World_Cup.jpg"
+      }
+    },
+    {
+      "id": "07-13-vuoristorata",
+      "date": "07-13",
+      "dateLabel": "13 July",
+      "category": "world",
+      "categoryName": "World",
+      "year": 1951,
+      "title": "Vuoristorata",
+      "body": "Vuoristorata, one of the oldest still-operating wooden roller coasters in Europe, is opened at the Linnanmäki amusement park in Helsinki, Finland.",
+      "source": {
+        "name": "Wikipedia · Vuoristorata",
+        "url": "https://en.wikipedia.org/wiki/Vuoristorata",
+        "calendarUrl": "https://en.wikipedia.org/wiki/July_13",
+        "license": {
+          "name": "CC BY-SA 4.0",
+          "url": "https://creativecommons.org/licenses/by-sa/4.0/"
+        }
+      },
+      "image": {
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/01/Linnanm%C3%A4ki_Vuoristorata.jpg/1280px-Linnanm%C3%A4ki_Vuoristorata.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "alt": "Picture from the Wikipedia article on Vuoristorata.",
+        "credit": "Oona Räisänen",
+        "source": "https://commons.wikimedia.org/wiki/File:Linnanm%C3%A4ki_Vuoristorata.jpg",
+        "license": "CC BY-SA 3.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0"
+      }
+    },
+    {
+      "id": "07-13-harold-macmillan",
+      "date": "07-13",
+      "dateLabel": "13 July",
+      "category": "world",
+      "categoryName": "World",
+      "year": 1962,
+      "title": "Harold Macmillan",
+      "body": "In an unprecedented action, British Prime Minister Harold Macmillan dismisses seven members of his Cabinet, marking the effective end of the National Liberals as a distinct force within British politics.",
+      "source": {
+        "name": "Wikipedia · Harold Macmillan",
+        "url": "https://en.wikipedia.org/wiki/Harold_Macmillan",
+        "calendarUrl": "https://en.wikipedia.org/wiki/July_13",
+        "license": {
+          "name": "CC BY-SA 4.0",
+          "url": "https://creativecommons.org/licenses/by-sa/4.0/"
+        }
+      },
+      "image": {
+        "src": "https://upload.wikimedia.org/wikipedia/commons/0/03/Harold_Macmillan.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+        "alt": "Picture from the Wikipedia article on Harold Macmillan.",
+        "credit": "Unknown photographer",
+        "source": "https://commons.wikimedia.org/wiki/File:Harold_Macmillan.jpg",
+        "license": "Public domain",
+        "licenseUrl": "https://commons.wikimedia.org/wiki/File:Harold_Macmillan.jpg"
+      }
+    },
+    {
+      "id": "07-13-directorate-general-for-external-security",
+      "date": "07-13",
+      "dateLabel": "13 July",
+      "category": "world",
+      "categoryName": "World",
+      "year": 2003,
+      "title": "Directorate General for External Security",
+      "body": "French DGSE personnel abort an operation to rescue Íngrid Betancourt from FARC rebels in Colombia, causing a political scandal when details are leaked to the press.",
+      "source": {
+        "name": "Wikipedia · Directorate General for External Security",
+        "url": "https://en.wikipedia.org/wiki/Directorate_General_for_External_Security",
+        "calendarUrl": "https://en.wikipedia.org/wiki/July_13",
+        "license": {
+          "name": "CC BY-SA 4.0",
+          "url": "https://creativecommons.org/licenses/by-sa/4.0/"
+        }
+      },
+      "image": {
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c7/Logo_de_la_Direction_G%C3%A9n%C3%A9rale_de_la_S%C3%A9curit%C3%A9_Ext%C3%A9rieure.svg/1280px-Logo_de_la_Direction_G%C3%A9n%C3%A9rale_de_la_S%C3%A9curit%C3%A9_Ext%C3%A9rieure.svg.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "alt": "Picture from the Wikipedia article on Directorate General for External Security.",
+        "credit": "Ministère des Armées",
+        "source": "https://commons.wikimedia.org/wiki/File:Logo_de_la_Direction_G%C3%A9n%C3%A9rale_de_la_S%C3%A9curit%C3%A9_Ext%C3%A9rieure.svg",
+        "license": "Public domain",
+        "licenseUrl": "https://commons.wikimedia.org/wiki/File:Logo_de_la_Direction_G%C3%A9n%C3%A9rale_de_la_S%C3%A9curit%C3%A9_Ext%C3%A9rieure.svg"
       }
     }
   ]

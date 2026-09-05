@@ -30,33 +30,6 @@
       }
     },
     {
-      "id": "06-03-electric-power-transmission",
-      "date": "06-03",
-      "dateLabel": "3 June",
-      "category": "world",
-      "categoryName": "World",
-      "year": 1889,
-      "title": "Electric power transmission",
-      "body": "The first long-distance electric power transmission line in the United States is completed, running between a generator at Willamette Falls and downtown Portland, Oregon.",
-      "source": {
-        "name": "Wikipedia · Electric power transmission",
-        "url": "https://en.wikipedia.org/wiki/Electric_power_transmission",
-        "calendarUrl": "https://en.wikipedia.org/wiki/June_3",
-        "license": {
-          "name": "CC BY-SA 4.0",
-          "url": "https://creativecommons.org/licenses/by-sa/4.0/"
-        }
-      },
-      "image": {
-        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/ca/500kV_3-Phase_Transmission_Lines.png/1280px-500kV_3-Phase_Transmission_Lines.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-        "alt": "Picture from the Wikipedia article on Electric power transmission.",
-        "credit": "Varistor60",
-        "source": "https://commons.wikimedia.org/wiki/File:500kV_3-Phase_Transmission_Lines.png",
-        "license": "CC BY-SA 4.0",
-        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0"
-      }
-    },
-    {
       "id": "06-03-thames-diamond-jubilee-pageant",
       "date": "06-03",
       "dateLabel": "3 June",
@@ -77,10 +50,91 @@
       "image": {
         "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/1f/HM_the_Queen%27s_Diamond_Jubilee_River_Pageant_in_London_MOD_45154237.jpg/1280px-HM_the_Queen%27s_Diamond_Jubilee_River_Pageant_in_London_MOD_45154237.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
         "alt": "Picture from the Wikipedia article on Thames Diamond Jubilee Pageant.",
-        "credit": "Photo: PO Phot Terry Seward/MOD",
+        "credit": "PO Phot Terry Seward/MOD",
         "source": "https://commons.wikimedia.org/wiki/File:HM_the_Queen%27s_Diamond_Jubilee_River_Pageant_in_London_MOD_45154237.jpg",
         "license": "OGL v1.0",
         "licenseUrl": "https://NationalArchives.gov.uk/doc/open-government-licence/version/1/"
+      }
+    },
+    {
+      "id": "06-03-serbia-and-montenegro",
+      "date": "06-03",
+      "dateLabel": "3 June",
+      "category": "world",
+      "categoryName": "World",
+      "year": 2006,
+      "title": "Serbia and Montenegro",
+      "body": "The union of Serbia and Montenegro comes to an end with Montenegro's formal declaration of independence.",
+      "source": {
+        "name": "Wikipedia · Serbia and Montenegro",
+        "url": "https://en.wikipedia.org/wiki/Serbia_and_Montenegro",
+        "calendarUrl": "https://en.wikipedia.org/wiki/June_3",
+        "license": {
+          "name": "CC BY-SA 4.0",
+          "url": "https://creativecommons.org/licenses/by-sa/4.0/"
+        }
+      },
+      "image": {
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/3e/Flag_of_Serbia_and_Montenegro_%281992%E2%80%932006%29.svg/1280px-Flag_of_Serbia_and_Montenegro_%281992%E2%80%932006%29.svg.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "alt": "Picture from the Wikipedia article on Serbia and Montenegro.",
+        "credit": "See File history below for details",
+        "source": "https://commons.wikimedia.org/wiki/File:Flag_of_Serbia_and_Montenegro_(1992%E2%80%932006).svg",
+        "license": "Public domain",
+        "licenseUrl": "https://commons.wikimedia.org/wiki/File:Flag_of_Serbia_and_Montenegro_(1992%E2%80%932006).svg"
+      }
+    },
+    {
+      "id": "06-03-academy-of-the-distrustful",
+      "date": "06-03",
+      "dateLabel": "3 June",
+      "category": "world",
+      "categoryName": "World",
+      "year": 2025,
+      "title": "Academy of the Distrustful",
+      "body": "Reconstitution of the Academy of the Distrustful in the Sala Dalmases of the Historical Archive of the City of Barcelona in Barcelona.",
+      "source": {
+        "name": "Wikipedia · Academy of the Distrustful",
+        "url": "https://en.wikipedia.org/wiki/Academy_of_the_Distrustful",
+        "calendarUrl": "https://en.wikipedia.org/wiki/June_3",
+        "license": {
+          "name": "CC BY-SA 4.0",
+          "url": "https://creativecommons.org/licenses/by-sa/4.0/"
+        }
+      },
+      "image": {
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/06/Emblema_de_l%27Acad%C3%A8mia_dels_Desconfiats.jpg/1280px-Emblema_de_l%27Acad%C3%A8mia_dels_Desconfiats.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "alt": "Picture from the Wikipedia article on Academy of the Distrustful.",
+        "credit": "Wikimedia Commons",
+        "source": "https://commons.wikimedia.org/wiki/File:Emblema_de_l%27Acad%C3%A8mia_dels_Desconfiats.jpg",
+        "license": "Public domain",
+        "licenseUrl": "https://commons.wikimedia.org/wiki/File:Emblema_de_l%27Acad%C3%A8mia_dels_Desconfiats.jpg"
+      }
+    },
+    {
+      "id": "06-03-edward-viii",
+      "date": "06-03",
+      "dateLabel": "3 June",
+      "category": "world",
+      "categoryName": "World",
+      "year": 1937,
+      "title": "Edward VIII",
+      "body": "The Duke of Windsor (the former King Edward VIII of the United Kingdom) marries Wallis Simpson.",
+      "source": {
+        "name": "Wikipedia · Edward VIII",
+        "url": "https://en.wikipedia.org/wiki/Edward_VIII",
+        "calendarUrl": "https://en.wikipedia.org/wiki/June_3",
+        "license": {
+          "name": "CC BY-SA 4.0",
+          "url": "https://creativecommons.org/licenses/by-sa/4.0/"
+        }
+      },
+      "image": {
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a3/HRH_The_Prince_of_Wales_No_4_%28HS85-10-36416%29.jpg/1280px-HRH_The_Prince_of_Wales_No_4_%28HS85-10-36416%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "alt": "Picture from the Wikipedia article on Edward VIII.",
+        "credit": "Freeland Studio",
+        "source": "https://commons.wikimedia.org/wiki/File:HRH_The_Prince_of_Wales_No_4_(HS85-10-36416).jpg",
+        "license": "Public domain",
+        "licenseUrl": "https://commons.wikimedia.org/wiki/File:HRH_The_Prince_of_Wales_No_4_(HS85-10-36416).jpg"
       }
     }
   ]

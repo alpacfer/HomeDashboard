@@ -23,7 +23,7 @@
       "image": {
         "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b1/Leader_of_the_PLO%2C_Yasser_Arafat%2C_1996_Dan_Hadani_Archive.jpg/1280px-Leader_of_the_PLO%2C_Yasser_Arafat%2C_1996_Dan_Hadani_Archive.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
         "alt": "Picture from the Wikipedia article on Yasser Arafat.",
-        "credit": "Gideon Markowiz / Photographer: Israel Press and Photo Agency (I.P.P.A.) / Dan Hadani collection, National Library of Israel / CC BY 4.0",
+        "credit": "Israel Press and Photo Agency",
         "source": "https://commons.wikimedia.org/wiki/File:Leader_of_the_PLO,_Yasser_Arafat,_1996_Dan_Hadani_Archive.jpg",
         "license": "CC BY 4.0",
         "licenseUrl": "https://creativecommons.org/licenses/by/4.0"
@@ -81,6 +81,60 @@
         "source": "https://commons.wikimedia.org/wiki/File:Apollo_7_during_the_first_live_television_transmission_from_space.jpg",
         "license": "Public domain",
         "licenseUrl": "https://commons.wikimedia.org/wiki/File:Apollo_7_during_the_first_live_television_transmission_from_space.jpg"
+      }
+    },
+    {
+      "id": "10-14-louis-le-prince",
+      "date": "10-14",
+      "dateLabel": "14 October",
+      "category": "culture",
+      "categoryName": "Culture",
+      "year": 1888,
+      "title": "Louis Le Prince",
+      "body": "Louis Le Prince films the first motion picture, Roundhay Garden Scene.",
+      "source": {
+        "name": "Wikipedia · Louis Le Prince",
+        "url": "https://en.wikipedia.org/wiki/Louis_Le_Prince",
+        "calendarUrl": "https://en.wikipedia.org/wiki/October_14",
+        "license": {
+          "name": "CC BY-SA 4.0",
+          "url": "https://creativecommons.org/licenses/by-sa/4.0/"
+        }
+      },
+      "image": {
+        "src": "https://upload.wikimedia.org/wikipedia/commons/b/ba/Louisleprincerestored.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+        "alt": "Picture from the Wikipedia article on Louis Le Prince.",
+        "credit": "Unknown author",
+        "source": "https://commons.wikimedia.org/wiki/File:Louisleprincerestored.png",
+        "license": "Public domain",
+        "licenseUrl": "https://commons.wikimedia.org/wiki/File:Louisleprincerestored.png"
+      }
+    },
+    {
+      "id": "10-14-aung-san-suu-kyi",
+      "date": "10-14",
+      "dateLabel": "14 October",
+      "category": "science",
+      "categoryName": "Science",
+      "year": 1991,
+      "title": "Aung San Suu Kyi",
+      "body": "Burmese opposition leader Aung San Suu Kyi is awarded the Nobel Peace Prize.",
+      "source": {
+        "name": "Wikipedia · Aung San Suu Kyi",
+        "url": "https://en.wikipedia.org/wiki/Aung_San_Suu_Kyi",
+        "calendarUrl": "https://en.wikipedia.org/wiki/October_14",
+        "license": {
+          "name": "CC BY-SA 4.0",
+          "url": "https://creativecommons.org/licenses/by-sa/4.0/"
+        }
+      },
+      "image": {
+        "src": "https://upload.wikimedia.org/wikipedia/commons/9/97/Aung_San_Suu_Kyi_at_the_Enthronement_of_Naruhito_%281%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+        "alt": "Picture from the Wikipedia article on Aung San Suu Kyi.",
+        "credit": "Wikimedia Commons",
+        "source": "https://commons.wikimedia.org/wiki/File:Aung_San_Suu_Kyi_at_the_Enthronement_of_Naruhito_(1).jpg",
+        "license": "CC BY 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by/4.0"
       }
     }
   ]

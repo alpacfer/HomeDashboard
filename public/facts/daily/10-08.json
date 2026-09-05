@@ -3,6 +3,33 @@
   "dateLabel": "8 October",
   "facts": [
     {
+      "id": "10-08-2020-ghazanchetsots-cathedral-shelling",
+      "date": "10-08",
+      "dateLabel": "8 October",
+      "category": "world",
+      "categoryName": "World",
+      "year": 2020,
+      "title": "2020 Ghazanchetsots Cathedral shelling",
+      "body": "Azerbaijan twice deliberately targeted the Church of the Holy Savior Ghazanchetsots of Shusha.",
+      "source": {
+        "name": "Wikipedia · 2020 Ghazanchetsots Cathedral shelling",
+        "url": "https://en.wikipedia.org/wiki/2020_Ghazanchetsots_Cathedral_shelling",
+        "calendarUrl": "https://en.wikipedia.org/wiki/October_8",
+        "license": {
+          "name": "CC BY-SA 4.0",
+          "url": "https://creativecommons.org/licenses/by-sa/4.0/"
+        }
+      },
+      "image": {
+        "src": "https://upload.wikimedia.org/wikipedia/commons/a/ae/Damaged_Ghazanchetsots_Cathedral_in_Shushi_2.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+        "alt": "Picture from the Wikipedia article on 2020 Ghazanchetsots Cathedral shelling.",
+        "credit": "ԶԻՆՈՒԺ MEDIA",
+        "source": "https://commons.wikimedia.org/wiki/File:Damaged_Ghazanchetsots_Cathedral_in_Shushi_2.png",
+        "license": "Public domain",
+        "licenseUrl": "https://commons.wikimedia.org/wiki/File:Damaged_Ghazanchetsots_Cathedral_in_Shushi_2.png"
+      }
+    },
+    {
       "id": "10-08-aleksandr-solzhenitsyn",
       "date": "10-08",
       "dateLabel": "8 October",
@@ -27,6 +54,33 @@
         "source": "https://commons.wikimedia.org/wiki/File:Aleksandr_Solzhenitsyn_1974crop.jpg",
         "license": "CC0",
         "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/deed.en"
+      }
+    },
+    {
+      "id": "10-08-stephenson-s-rocket",
+      "date": "10-08",
+      "dateLabel": "8 October",
+      "category": "space",
+      "categoryName": "Space",
+      "year": 1829,
+      "title": "Stephenson's Rocket",
+      "body": "Stephenson's Rocket wins the Rainhill Trials.",
+      "source": {
+        "name": "Wikipedia · Stephenson's Rocket",
+        "url": "https://en.wikipedia.org/wiki/Stephenson%27s_Rocket",
+        "calendarUrl": "https://en.wikipedia.org/wiki/October_8",
+        "license": {
+          "name": "CC BY-SA 4.0",
+          "url": "https://creativecommons.org/licenses/by-sa/4.0/"
+        }
+      },
+      "image": {
+        "src": "https://upload.wikimedia.org/wikipedia/commons/3/3f/Stephenson%27s_Rocket_drawing.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+        "alt": "Picture from the Wikipedia article on Stephenson's Rocket.",
+        "credit": "Wikimedia Commons",
+        "source": "https://commons.wikimedia.org/wiki/File:Stephenson%27s_Rocket_drawing.jpg",
+        "license": "Public domain",
+        "licenseUrl": "https://commons.wikimedia.org/wiki/File:Stephenson%27s_Rocket_drawing.jpg"
       }
     },
     {
@@ -57,17 +111,17 @@
       }
     },
     {
-      "id": "10-08-stephenson-s-rocket",
+      "id": "10-08-franklin-national-bank",
       "date": "10-08",
       "dateLabel": "8 October",
-      "category": "space",
-      "categoryName": "Space",
-      "year": 1829,
-      "title": "Stephenson's Rocket",
-      "body": "Stephenson's Rocket wins the Rainhill Trials.",
+      "category": "world",
+      "categoryName": "World",
+      "year": 1974,
+      "title": "Franklin National Bank",
+      "body": "Franklin National Bank collapses due to fraud and mismanagement; at the time it is the largest bank failure in the history of the United States.",
       "source": {
-        "name": "Wikipedia · Stephenson's Rocket",
-        "url": "https://en.wikipedia.org/wiki/Stephenson%27s_Rocket",
+        "name": "Wikipedia · Franklin National Bank",
+        "url": "https://en.wikipedia.org/wiki/Franklin_National_Bank",
         "calendarUrl": "https://en.wikipedia.org/wiki/October_8",
         "license": {
           "name": "CC BY-SA 4.0",
@@ -75,12 +129,12 @@
         }
       },
       "image": {
-        "src": "https://upload.wikimedia.org/wikipedia/commons/3/3f/Stephenson%27s_Rocket_drawing.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
-        "alt": "Picture from the Wikipedia article on Stephenson's Rocket.",
-        "credit": "Wikimedia Commons contributor",
-        "source": "https://commons.wikimedia.org/wiki/File:Stephenson%27s_Rocket_drawing.jpg",
-        "license": "Public domain",
-        "licenseUrl": "https://commons.wikimedia.org/wiki/File:Stephenson%27s_Rocket_drawing.jpg"
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f1/Franklin_National_Bank%3B_Franklin_Square-2.jpg/1280px-Franklin_National_Bank%3B_Franklin_Square-2.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "alt": "Picture from the Wikipedia article on Franklin National Bank.",
+        "credit": "DanTD",
+        "source": "https://commons.wikimedia.org/wiki/File:Franklin_National_Bank;_Franklin_Square-2.jpg",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0"
       }
     }
   ]

@@ -1,4 +1,4 @@
-export const DAILY_FACT_COUNT = 3;
+export const DAILY_FACT_COUNT = 5;
 
 // The category is an editorial promise about why the fact is worth reading,
 // not a subject index. It picks the accent colour and the label above the
@@ -24,6 +24,21 @@ export type DailyFact = {
   image: {
     src: string;
     alt: string;
+    credit: string;
+    source: string;
+    license: string;
+    licenseUrl: string;
+  };
+  // Optional, and rare: about one date in six offers a freely licensed clip.
+  // `src` is Wikimedia's 240p VP9 transcode and `fallback` its 360p H.264 one,
+  // because whether Silk decodes VP9 is not established — see docs/DAILY_FACTS.md.
+  // `poster` is the still the panel shows until the first frame paints, and is
+  // what it falls back to for good if the video will not play.
+  video?: {
+    src: string;
+    fallback?: string;
+    poster: string;
+    seconds: number;
     credit: string;
     source: string;
     license: string;
@@ -80,6 +95,25 @@ function isCategory(value: unknown): value is DailyFactCategory {
   return typeof value === 'string' && (DAILY_FACT_CATEGORIES as readonly string[]).includes(value);
 }
 
+// A video is optional, so absent is valid and malformed is not. Anything the
+// panel would hand to a <video> element has to be a real https URL before it
+// gets there: a broken one on a display nobody reloads is a decoder retrying
+// for weeks. A clip with no poster is refused too, because the poster is the
+// only thing the panel can fall back to when playback fails.
+function validVideo(value: unknown): boolean {
+  if (value === undefined) return true;
+  if (!value || typeof value !== 'object') return false;
+  const video = value as Partial<NonNullable<DailyFact['video']>>;
+  if (video.fallback !== undefined && !video.fallback.startsWith?.('https://')) return false;
+  return Boolean(
+    video.src?.startsWith('https://') && video.poster?.startsWith('https://') &&
+    typeof video.seconds === 'number' && Number.isFinite(video.seconds) && video.seconds > 0 &&
+    typeof video.credit === 'string' && video.credit.length > 0 &&
+    video.source?.startsWith('https://') && video.licenseUrl?.startsWith('https://') &&
+    typeof video.license === 'string' && video.license.length > 0,
+  );
+}
+
 export function validDailyFacts(value: unknown, expectedDate: string): value is DailyFactsFile {
   if (!value || typeof value !== 'object') return false;
   const file = value as Partial<DailyFactsFile>;
@@ -90,6 +124,7 @@ export function validDailyFacts(value: unknown, expectedDate: string): value is 
     Number.isInteger(fact.year) && fact.year > 0 &&
     typeof fact.title === 'string' && fact.title.length > 0 && typeof fact.body === 'string' && fact.body.length > 0 &&
     fact.source?.url?.startsWith('https://') && fact.image?.src?.startsWith('https://') &&
-    fact.image?.source?.startsWith('https://') && fact.image?.licenseUrl?.startsWith('https://'),
+    fact.image?.source?.startsWith('https://') && fact.image?.licenseUrl?.startsWith('https://') &&
+    validVideo(fact.video),
   );
 }

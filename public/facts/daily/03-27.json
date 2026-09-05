@@ -3,17 +3,17 @@
   "dateLabel": "27 March",
   "facts": [
     {
-      "id": "03-27-north-macedonia",
+      "id": "03-27-washington-metro",
       "date": "03-27",
       "dateLabel": "27 March",
       "category": "world",
       "categoryName": "World",
-      "year": 2020,
-      "title": "North Macedonia",
-      "body": "North Macedonia becomes the 30th member of NATO.",
+      "year": 1976,
+      "title": "Washington Metro",
+      "body": "The first section of the Washington Metro opens to the public.",
       "source": {
-        "name": "Wikipedia · North Macedonia",
-        "url": "https://en.wikipedia.org/wiki/North_Macedonia",
+        "name": "Wikipedia · Washington Metro",
+        "url": "https://en.wikipedia.org/wiki/Washington_Metro",
         "calendarUrl": "https://en.wikipedia.org/wiki/March_27",
         "license": {
           "name": "CC BY-SA 4.0",
@@ -21,12 +21,12 @@
         }
       },
       "image": {
-        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/79/Flag_of_North_Macedonia.svg/1280px-Flag_of_North_Macedonia.svg.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-        "alt": "Picture from the Wikipedia article on North Macedonia.",
-        "credit": "User:SKopp, redrawn by User:Gabbe",
-        "source": "https://commons.wikimedia.org/wiki/File:Flag_of_North_Macedonia.svg",
-        "license": "Public domain",
-        "licenseUrl": "https://commons.wikimedia.org/wiki/File:Flag_of_North_Macedonia.svg"
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/6e/Farragut_West_DC_Metro_td_%282018-04-29%29_052.jpg/1280px-Farragut_West_DC_Metro_td_%282018-04-29%29_052.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "alt": "Picture from the Wikipedia article on Washington Metro.",
+        "credit": "Tdorante10",
+        "source": "https://commons.wikimedia.org/wiki/File:Farragut_West_DC_Metro_td_(2018-04-29)_052.jpg",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0"
       }
     },
     {
@@ -57,17 +57,17 @@
       }
     },
     {
-      "id": "03-27-washington-metro",
+      "id": "03-27-food-and-drug-administration",
       "date": "03-27",
       "dateLabel": "27 March",
       "category": "world",
       "categoryName": "World",
-      "year": 1976,
-      "title": "Washington Metro",
-      "body": "The first section of the Washington Metro opens to the public.",
+      "year": 1998,
+      "title": "Food and Drug Administration",
+      "body": "The Food and Drug Administration approves Viagra for use as a treatment for erectile dysfunction, the first pill to be approved for this condition in the United States.",
       "source": {
-        "name": "Wikipedia · Washington Metro",
-        "url": "https://en.wikipedia.org/wiki/Washington_Metro",
+        "name": "Wikipedia · Food and Drug Administration",
+        "url": "https://en.wikipedia.org/wiki/Food_and_Drug_Administration",
         "calendarUrl": "https://en.wikipedia.org/wiki/March_27",
         "license": {
           "name": "CC BY-SA 4.0",
@@ -75,12 +75,66 @@
         }
       },
       "image": {
-        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/6e/Farragut_West_DC_Metro_td_%282018-04-29%29_052.jpg/1280px-Farragut_West_DC_Metro_td_%282018-04-29%29_052.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-        "alt": "Picture from the Wikipedia article on Washington Metro.",
-        "credit": "Tdorante10",
-        "source": "https://commons.wikimedia.org/wiki/File:Farragut_West_DC_Metro_td_(2018-04-29)_052.jpg",
-        "license": "CC BY-SA 4.0",
-        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0"
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/4a/US_Food_and_Drug_Administration_Seal.png/1280px-US_Food_and_Drug_Administration_Seal.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "alt": "Picture from the Wikipedia article on Food and Drug Administration.",
+        "credit": "United States Department of the Army",
+        "source": "https://commons.wikimedia.org/wiki/File:US_Food_and_Drug_Administration_Seal.png",
+        "license": "Public domain",
+        "licenseUrl": "https://commons.wikimedia.org/wiki/File:US_Food_and_Drug_Administration_Seal.png"
+      }
+    },
+    {
+      "id": "03-27-leander-class-frigate",
+      "date": "03-27",
+      "dateLabel": "27 March",
+      "category": "world",
+      "categoryName": "World",
+      "year": 2004,
+      "title": "Leander-class frigate",
+      "body": ", a decommissioned Leander-class frigate, is sunk as an artificial reef off Cornwall, the first of its kind in Europe.",
+      "source": {
+        "name": "Wikipedia · Leander-class frigate",
+        "url": "https://en.wikipedia.org/wiki/Leander-class_frigate",
+        "calendarUrl": "https://en.wikipedia.org/wiki/March_27",
+        "license": {
+          "name": "CC BY-SA 4.0",
+          "url": "https://creativecommons.org/licenses/by-sa/4.0/"
+        }
+      },
+      "image": {
+        "src": "https://upload.wikimedia.org/wikipedia/commons/d/d2/HMS_Apollo_1976_SMB-2008.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+        "alt": "Picture from the Wikipedia article on Leander-class frigate.",
+        "credit": "HMS Apollo",
+        "source": "https://commons.wikimedia.org/wiki/File:HMS_Apollo_1976_SMB-2008.jpg",
+        "license": "CC BY-SA 3.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0/"
+      }
+    },
+    {
+      "id": "03-27-cuban-dissident-movement",
+      "date": "03-27",
+      "dateLabel": "27 March",
+      "category": "world",
+      "categoryName": "World",
+      "year": 1990,
+      "title": "Cuban dissident movement",
+      "body": "The United States begins broadcasting anti-Castro propaganda to Cuba on TV Martí.",
+      "source": {
+        "name": "Wikipedia · Cuban dissident movement",
+        "url": "https://en.wikipedia.org/wiki/Cuban_dissident_movement",
+        "calendarUrl": "https://en.wikipedia.org/wiki/March_27",
+        "license": {
+          "name": "CC BY-SA 4.0",
+          "url": "https://creativecommons.org/licenses/by-sa/4.0/"
+        }
+      },
+      "image": {
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f9/Flag_of_Cuba_%281902%E2%80%931906%29.svg/1280px-Flag_of_Cuba_%281902%E2%80%931906%29.svg.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "alt": "Picture from the Wikipedia article on Cuban dissident movement.",
+        "credit": "see below",
+        "source": "https://commons.wikimedia.org/wiki/File:Flag_of_Cuba_(1902%E2%80%931906).svg",
+        "license": "Public domain",
+        "licenseUrl": "https://commons.wikimedia.org/wiki/File:Flag_of_Cuba_(1902%E2%80%931906).svg"
       }
     }
   ]

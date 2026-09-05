@@ -30,17 +30,17 @@
       }
     },
     {
-      "id": "09-21-j-r-r-tolkien",
+      "id": "09-21-bahrain",
       "date": "09-21",
       "dateLabel": "21 September",
       "category": "world",
       "categoryName": "World",
-      "year": 1937,
-      "title": "J. R. R. Tolkien",
-      "body": "J.R.R. Tolkien's The Hobbit is published for the first time. (September 22 is celebrated by some fans as Hobbit Day, however.)",
+      "year": 1971,
+      "title": "Bahrain",
+      "body": "Bahrain, Bhutan and Qatar join the United Nations.",
       "source": {
-        "name": "Wikipedia · J. R. R. Tolkien",
-        "url": "https://en.wikipedia.org/wiki/J._R._R._Tolkien",
+        "name": "Wikipedia · Bahrain",
+        "url": "https://en.wikipedia.org/wiki/Bahrain",
         "calendarUrl": "https://en.wikipedia.org/wiki/September_21",
         "license": {
           "name": "CC BY-SA 4.0",
@@ -48,12 +48,12 @@
         }
       },
       "image": {
-        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d4/J._R._R._Tolkien%2C_ca._1925.jpg/1280px-J._R._R._Tolkien%2C_ca._1925.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-        "alt": "Picture from the Wikipedia article on J. R. R. Tolkien.",
-        "credit": "Unknown photo studio commissioned by Tolkien's students 1925/6 (private communication from Catherine McIlwaine, Tolkien Archivist, Bodleian Library)",
-        "source": "https://commons.wikimedia.org/wiki/File:J._R._R._Tolkien,_ca._1925.jpg",
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/2c/Flag_of_Bahrain.svg/1280px-Flag_of_Bahrain.svg.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "alt": "Picture from the Wikipedia article on Bahrain.",
+        "credit": "Drawn by SKopp, rewritten by Zscout370",
+        "source": "https://commons.wikimedia.org/wiki/File:Flag_of_Bahrain.svg",
         "license": "Public domain",
-        "licenseUrl": "https://commons.wikimedia.org/wiki/File:J._R._R._Tolkien,_ca._1925.jpg"
+        "licenseUrl": "https://commons.wikimedia.org/wiki/File:Flag_of_Bahrain.svg"
       }
     },
     {
@@ -81,6 +81,60 @@
         "source": "https://commons.wikimedia.org/wiki/File:Wrestling_-_Sikeston,_MO_1938_-_1.jpg",
         "license": "Public domain",
         "licenseUrl": "https://commons.wikimedia.org/wiki/File:Wrestling_-_Sikeston,_MO_1938_-_1.jpg"
+      }
+    },
+    {
+      "id": "09-21-j-r-r-tolkien",
+      "date": "09-21",
+      "dateLabel": "21 September",
+      "category": "world",
+      "categoryName": "World",
+      "year": 1937,
+      "title": "J. R. R. Tolkien",
+      "body": "J.R.R. Tolkien's The Hobbit is published for the first time. (September 22 is celebrated by some fans as Hobbit Day, however.)",
+      "source": {
+        "name": "Wikipedia · J. R. R. Tolkien",
+        "url": "https://en.wikipedia.org/wiki/J._R._R._Tolkien",
+        "calendarUrl": "https://en.wikipedia.org/wiki/September_21",
+        "license": {
+          "name": "CC BY-SA 4.0",
+          "url": "https://creativecommons.org/licenses/by-sa/4.0/"
+        }
+      },
+      "image": {
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d4/J._R._R._Tolkien%2C_ca._1925.jpg/1280px-J._R._R._Tolkien%2C_ca._1925.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "alt": "Picture from the Wikipedia article on J. R. R. Tolkien.",
+        "credit": "Unknown photo studio commissioned",
+        "source": "https://commons.wikimedia.org/wiki/File:J._R._R._Tolkien,_ca._1925.jpg",
+        "license": "Public domain",
+        "licenseUrl": "https://commons.wikimedia.org/wiki/File:J._R._R._Tolkien,_ca._1925.jpg"
+      }
+    },
+    {
+      "id": "09-21-st-olaf-s-church-tyrv",
+      "date": "09-21",
+      "dateLabel": "21 September",
+      "category": "world",
+      "categoryName": "World",
+      "year": 1997,
+      "title": "St. Olaf's Church, Tyrvää",
+      "body": "St. Olaf's Church, a stone church from the 16th century in Tyrvää, Finland, is burnt down by a burglar.",
+      "source": {
+        "name": "Wikipedia · St. Olaf's Church, Tyrvää",
+        "url": "https://en.wikipedia.org/wiki/St._Olaf%27s_Church,_Tyrv%C3%A4%C3%A4",
+        "calendarUrl": "https://en.wikipedia.org/wiki/September_21",
+        "license": {
+          "name": "CC BY-SA 4.0",
+          "url": "https://creativecommons.org/licenses/by-sa/4.0/"
+        }
+      },
+      "image": {
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/3e/Tyrv%C3%A4%C3%A4n_Pyh%C3%A4n_Olavin_Kirkko%2C_Sastamala.jpg/1280px-Tyrv%C3%A4%C3%A4n_Pyh%C3%A4n_Olavin_Kirkko%2C_Sastamala.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "alt": "Picture from the Wikipedia article on St. Olaf's Church, Tyrvää.",
+        "credit": "SpottingHistory",
+        "source": "https://commons.wikimedia.org/wiki/File:Tyrv%C3%A4%C3%A4n_Pyh%C3%A4n_Olavin_Kirkko,_Sastamala.jpg",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0"
       }
     }
   ]

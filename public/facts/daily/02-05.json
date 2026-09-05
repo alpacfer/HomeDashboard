@@ -20,6 +20,16 @@
           "url": "https://creativecommons.org/licenses/by-sa/4.0/"
         }
       },
+      "video": {
+        "src": "https://upload.wikimedia.org/wikipedia/commons/transcoded/d/d7/Apollo_14_footage_of_the_astronauts_climbing_down_from_the_lunar_lander_and_planting_an_American_flag.ogv/Apollo_14_footage_of_the_astronauts_climbing_down_from_the_lunar_lander_and_planting_an_American_flag.ogv.240p.vp9.webm",
+        "fallback": "https://upload.wikimedia.org/wikipedia/commons/transcoded/d/d7/Apollo_14_footage_of_the_astronauts_climbing_down_from_the_lunar_lander_and_planting_an_American_flag.ogv/Apollo_14_footage_of_the_astronauts_climbing_down_from_the_lunar_lander_and_planting_an_American_flag.ogv.360p.mpeg4.mov",
+        "poster": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d7/Apollo_14_footage_of_the_astronauts_climbing_down_from_the_lunar_lander_and_planting_an_American_flag.ogv/960px--Apollo_14_footage_of_the_astronauts_climbing_down_from_the_lunar_lander_and_planting_an_American_flag.ogv.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo",
+        "seconds": 125,
+        "credit": "NASA/Johnson Space Center",
+        "source": "https://commons.wikimedia.org/wiki/File:Apollo_14_footage_of_the_astronauts_climbing_down_from_the_lunar_lander_and_planting_an_American_flag.ogv",
+        "license": "Public domain",
+        "licenseUrl": "https://commons.wikimedia.org/wiki/File:Apollo_14_footage_of_the_astronauts_climbing_down_from_the_lunar_lander_and_planting_an_American_flag.ogv"
+      },
       "image": {
         "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/09/Apollo_14_Shepard.jpg/1280px-Apollo_14_Shepard.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
         "alt": "Picture from the Wikipedia article on Apollo 14.",
@@ -27,6 +37,33 @@
         "source": "https://commons.wikimedia.org/wiki/File:Apollo_14_Shepard.jpg",
         "license": "Public domain",
         "licenseUrl": "https://commons.wikimedia.org/wiki/File:Apollo_14_Shepard.jpg"
+      }
+    },
+    {
+      "id": "02-05-leo-baekeland",
+      "date": "02-05",
+      "dateLabel": "5 February",
+      "category": "science",
+      "categoryName": "Science",
+      "year": 1907,
+      "title": "Leo Baekeland",
+      "body": "Belgian chemist Leo Baekeland announces the creation of Bakelite, the world's first synthetic plastic.",
+      "source": {
+        "name": "Wikipedia · Leo Baekeland",
+        "url": "https://en.wikipedia.org/wiki/Leo_Baekeland",
+        "calendarUrl": "https://en.wikipedia.org/wiki/February_5",
+        "license": {
+          "name": "CC BY-SA 4.0",
+          "url": "https://creativecommons.org/licenses/by-sa/4.0/"
+        }
+      },
+      "image": {
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d7/Leo_Baekeland_ca_1906.jpg/1280px-Leo_Baekeland_ca_1906.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "alt": "Picture from the Wikipedia article on Leo Baekeland.",
+        "credit": "Unknown author",
+        "source": "https://commons.wikimedia.org/wiki/File:Leo_Baekeland_ca_1906.jpg",
+        "license": "Public domain",
+        "licenseUrl": "https://commons.wikimedia.org/wiki/File:Leo_Baekeland_ca_1906.jpg"
       }
     },
     {
@@ -57,17 +94,17 @@
       }
     },
     {
-      "id": "02-05-leo-baekeland",
+      "id": "02-05-papal-mass",
       "date": "02-05",
       "dateLabel": "5 February",
-      "category": "science",
-      "categoryName": "Science",
-      "year": 1907,
-      "title": "Leo Baekeland",
-      "body": "Belgian chemist Leo Baekeland announces the creation of Bakelite, the world's first synthetic plastic.",
+      "category": "world",
+      "categoryName": "World",
+      "year": 2019,
+      "title": "Papal Mass",
+      "body": "Pope Francis becomes the first Pope in history to visit and perform papal mass in the Arabian Peninsula during his visit to Abu Dhabi.",
       "source": {
-        "name": "Wikipedia · Leo Baekeland",
-        "url": "https://en.wikipedia.org/wiki/Leo_Baekeland",
+        "name": "Wikipedia · Papal Mass",
+        "url": "https://en.wikipedia.org/wiki/Papal_Mass",
         "calendarUrl": "https://en.wikipedia.org/wiki/February_5",
         "license": {
           "name": "CC BY-SA 4.0",
@@ -75,12 +112,39 @@
         }
       },
       "image": {
-        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d7/Leo_Baekeland_ca_1906.jpg/1280px-Leo_Baekeland_ca_1906.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-        "alt": "Picture from the Wikipedia article on Leo Baekeland.",
-        "credit": "Unknown author",
-        "source": "https://commons.wikimedia.org/wiki/File:Leo_Baekeland_ca_1906.jpg",
-        "license": "Public domain",
-        "licenseUrl": "https://commons.wikimedia.org/wiki/File:Leo_Baekeland_ca_1906.jpg"
+        "src": "https://upload.wikimedia.org/wikipedia/commons/9/9c/Benedictus_XVI_fanon_2013.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+        "alt": "Picture from the Wikipedia article on Papal Mass.",
+        "credit": "Cavasindavide1995",
+        "source": "https://commons.wikimedia.org/wiki/File:Benedictus_XVI_fanon_2013.jpg",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0"
+      }
+    },
+    {
+      "id": "02-05-hermitage-museum",
+      "date": "02-05",
+      "dateLabel": "5 February",
+      "category": "culture",
+      "categoryName": "Culture",
+      "year": 1852,
+      "title": "Hermitage Museum",
+      "body": "The New Hermitage Museum in Saint Petersburg, Russia, one of the largest and oldest museums in the world, opens to the public.",
+      "source": {
+        "name": "Wikipedia · Hermitage Museum",
+        "url": "https://en.wikipedia.org/wiki/Hermitage_Museum",
+        "calendarUrl": "https://en.wikipedia.org/wiki/February_5",
+        "license": {
+          "name": "CC BY-SA 4.0",
+          "url": "https://creativecommons.org/licenses/by-sa/4.0/"
+        }
+      },
+      "image": {
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/16/5174-3._St._Petersburg._Greater_Hermitage.jpg/1280px-5174-3._St._Petersburg._Greater_Hermitage.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "alt": "Picture from the Wikipedia article on Hermitage Museum.",
+        "credit": "GAlexandrova",
+        "source": "https://commons.wikimedia.org/wiki/File:5174-3._St._Petersburg._Greater_Hermitage.jpg",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0"
       }
     }
   ]

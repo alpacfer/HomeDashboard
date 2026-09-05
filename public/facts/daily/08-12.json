@@ -3,6 +3,87 @@
   "dateLabel": "12 August",
   "facts": [
     {
+      "id": "08-12-ibm-personal-computer",
+      "date": "08-12",
+      "dateLabel": "12 August",
+      "category": "tech",
+      "categoryName": "Tech",
+      "year": 1981,
+      "title": "IBM Personal Computer",
+      "body": "The IBM Personal Computer is released.",
+      "source": {
+        "name": "Wikipedia · IBM Personal Computer",
+        "url": "https://en.wikipedia.org/wiki/IBM_Personal_Computer",
+        "calendarUrl": "https://en.wikipedia.org/wiki/August_12",
+        "license": {
+          "name": "CC BY-SA 4.0",
+          "url": "https://creativecommons.org/licenses/by-sa/4.0/"
+        }
+      },
+      "image": {
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/72/IBM_Personal_Computer_badge_recreation.svg/1280px-IBM_Personal_Computer_badge_recreation.svg.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "alt": "Picture from the Wikipedia article on IBM Personal Computer.",
+        "credit": "Own work",
+        "source": "https://commons.wikimedia.org/wiki/File:IBM_Personal_Computer_badge_recreation.svg",
+        "license": "Public domain",
+        "licenseUrl": "https://commons.wikimedia.org/wiki/File:IBM_Personal_Computer_badge_recreation.svg"
+      }
+    },
+    {
+      "id": "08-12-echo-1a",
+      "date": "08-12",
+      "dateLabel": "12 August",
+      "category": "space",
+      "categoryName": "Space",
+      "year": 1960,
+      "title": "Project Echo",
+      "body": "Echo 1A, NASA's first successful communications satellite, is launched.",
+      "source": {
+        "name": "Wikipedia · Project Echo",
+        "url": "https://en.wikipedia.org/wiki/Project_Echo",
+        "calendarUrl": "https://en.wikipedia.org/wiki/August_12",
+        "license": {
+          "name": "CC BY-SA 4.0",
+          "url": "https://creativecommons.org/licenses/by-sa/4.0/"
+        }
+      },
+      "image": {
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/1d/Twelve_foot_Subsatellite_and_Corner_Reflector%2C_Wm_O%27Sullivan_%28LRC-1958-B701_P-00557%29.tiff/lossy-page1-1280px-Twelve_foot_Subsatellite_and_Corner_Reflector%2C_Wm_O%27Sullivan_%28LRC-1958-B701_P-00557%29.tiff.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "alt": "Picture from the Wikipedia article on Project Echo.",
+        "credit": "NASA Langley Research Center / NACA",
+        "source": "https://commons.wikimedia.org/wiki/File:Twelve_foot_Subsatellite_and_Corner_Reflector,_Wm_O%27Sullivan_(LRC-1958-B701_P-00557).tiff",
+        "license": "Public domain",
+        "licenseUrl": "https://commons.wikimedia.org/wiki/File:Twelve_foot_Subsatellite_and_Corner_Reflector,_Wm_O%27Sullivan_(LRC-1958-B701_P-00557).tiff"
+      }
+    },
+    {
+      "id": "08-12-sue-dinosaur",
+      "date": "08-12",
+      "dateLabel": "12 August",
+      "category": "science",
+      "categoryName": "Science",
+      "year": 1990,
+      "title": "Sue",
+      "body": "Sue, the largest and most complete Tyrannosaurus rex skeleton found to date, is discovered by Sue Hendrickson in South Dakota.",
+      "source": {
+        "name": "Wikipedia · Sue (dinosaur)",
+        "url": "https://en.wikipedia.org/wiki/Sue_(dinosaur)",
+        "calendarUrl": "https://en.wikipedia.org/wiki/August_12",
+        "license": {
+          "name": "CC BY-SA 4.0",
+          "url": "https://creativecommons.org/licenses/by-sa/4.0/"
+        }
+      },
+      "image": {
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/82/FMNH_SUE_Trex.jpg/1280px-FMNH_SUE_Trex.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "alt": "Picture from the Wikipedia article on Sue.",
+        "credit": "Evolutionnumber9",
+        "source": "https://commons.wikimedia.org/wiki/File:FMNH_SUE_Trex.jpg",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0"
+      }
+    },
+    {
       "id": "08-12-major-league-baseball",
       "date": "08-12",
       "dateLabel": "12 August",
@@ -30,17 +111,17 @@
       }
     },
     {
-      "id": "08-12-ibm-personal-computer",
+      "id": "08-12-isaac-singer",
       "date": "08-12",
       "dateLabel": "12 August",
-      "category": "tech",
-      "categoryName": "Tech",
-      "year": 1981,
-      "title": "IBM Personal Computer",
-      "body": "The IBM Personal Computer is released.",
+      "category": "culture",
+      "categoryName": "Culture",
+      "year": 1851,
+      "title": "Isaac Singer",
+      "body": "Isaac Singer is granted a patent for his sewing machine.",
       "source": {
-        "name": "Wikipedia · IBM Personal Computer",
-        "url": "https://en.wikipedia.org/wiki/IBM_Personal_Computer",
+        "name": "Wikipedia · Isaac Singer",
+        "url": "https://en.wikipedia.org/wiki/Isaac_Singer",
         "calendarUrl": "https://en.wikipedia.org/wiki/August_12",
         "license": {
           "name": "CC BY-SA 4.0",
@@ -48,39 +129,12 @@
         }
       },
       "image": {
-        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/72/IBM_Personal_Computer_badge_recreation.svg/1280px-IBM_Personal_Computer_badge_recreation.svg.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-        "alt": "Picture from the Wikipedia article on IBM Personal Computer.",
-        "credit": "Own work (based on graphics by International Business Machines Corporation)",
-        "source": "https://commons.wikimedia.org/wiki/File:IBM_Personal_Computer_badge_recreation.svg",
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/28/Edward_Harrison_May_-_Isaac_Merrit_Singer_-_Google_Art_Project.jpg/1280px-Edward_Harrison_May_-_Isaac_Merrit_Singer_-_Google_Art_Project.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "alt": "Picture from the Wikipedia article on Isaac Singer.",
+        "credit": "Edward Harrison May",
+        "source": "https://commons.wikimedia.org/wiki/File:Edward_Harrison_May_-_Isaac_Merrit_Singer_-_Google_Art_Project.jpg",
         "license": "Public domain",
-        "licenseUrl": "https://commons.wikimedia.org/wiki/File:IBM_Personal_Computer_badge_recreation.svg"
-      }
-    },
-    {
-      "id": "08-12-syrian-democratic-forces",
-      "date": "08-12",
-      "dateLabel": "12 August",
-      "category": "world",
-      "categoryName": "World",
-      "year": 2016,
-      "title": "Syrian Democratic Forces",
-      "body": "The Syrian Democratic Forces (SDF) capture the city of Manbij from the Islamic State of Iraq and the Levant (ISIL).",
-      "source": {
-        "name": "Wikipedia · Syrian Democratic Forces",
-        "url": "https://en.wikipedia.org/wiki/Syrian_Democratic_Forces",
-        "calendarUrl": "https://en.wikipedia.org/wiki/August_12",
-        "license": {
-          "name": "CC BY-SA 4.0",
-          "url": "https://creativecommons.org/licenses/by-sa/4.0/"
-        }
-      },
-      "image": {
-        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/61/Flag_of_Syrian_Democratic_Forces.svg/1280px-Flag_of_Syrian_Democratic_Forces.svg.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-        "alt": "Picture from the Wikipedia article on Syrian Democratic Forces.",
-        "credit": "FugeeCamp",
-        "source": "https://commons.wikimedia.org/wiki/File:Flag_of_Syrian_Democratic_Forces.svg",
-        "license": "CC0",
-        "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/deed.en"
+        "licenseUrl": "https://commons.wikimedia.org/wiki/File:Edward_Harrison_May_-_Isaac_Merrit_Singer_-_Google_Art_Project.jpg"
       }
     }
   ]

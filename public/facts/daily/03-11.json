@@ -3,6 +3,33 @@
   "dateLabel": "11 March",
   "facts": [
     {
+      "id": "03-11-bob-hawke",
+      "date": "03-11",
+      "dateLabel": "11 March",
+      "category": "world",
+      "categoryName": "World",
+      "year": 1983,
+      "title": "Bob Hawke",
+      "body": "Bob Hawke is appointed Prime Minister of Australia.",
+      "source": {
+        "name": "Wikipedia · Bob Hawke",
+        "url": "https://en.wikipedia.org/wiki/Bob_Hawke",
+        "calendarUrl": "https://en.wikipedia.org/wiki/March_11",
+        "license": {
+          "name": "CC BY-SA 4.0",
+          "url": "https://creativecommons.org/licenses/by-sa/4.0/"
+        }
+      },
+      "image": {
+        "src": "https://upload.wikimedia.org/wikipedia/commons/0/00/Bob_Hawke-1983.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+        "alt": "Picture from the Wikipedia article on Bob Hawke.",
+        "credit": "© Commonwealth of Australia 2011",
+        "source": "https://commons.wikimedia.org/wiki/File:Bob_Hawke-1983.jpg",
+        "license": "CC BY-SA 3.0 au",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0/au/deed.en"
+      }
+    },
+    {
       "id": "03-11-space-shuttle-endeavour",
       "date": "03-11",
       "dateLabel": "11 March",
@@ -30,17 +57,17 @@
       }
     },
     {
-      "id": "03-11-the-daily-courant",
+      "id": "03-11-patricio-aylwin",
       "date": "03-11",
       "dateLabel": "11 March",
       "category": "world",
       "categoryName": "World",
-      "year": 1702,
-      "title": "The Daily Courant",
-      "body": "The Daily Courant, England's first national daily newspaper, is published for the first time.",
+      "year": 1990,
+      "title": "Patricio Aylwin",
+      "body": "Patricio Aylwin is sworn in as the first democratically elected President of Chile since 1970.",
       "source": {
-        "name": "Wikipedia · The Daily Courant",
-        "url": "https://en.wikipedia.org/wiki/The_Daily_Courant",
+        "name": "Wikipedia · Patricio Aylwin",
+        "url": "https://en.wikipedia.org/wiki/Patricio_Aylwin",
         "calendarUrl": "https://en.wikipedia.org/wiki/March_11",
         "license": {
           "name": "CC BY-SA 4.0",
@@ -48,26 +75,26 @@
         }
       },
       "image": {
-        "src": "https://upload.wikimedia.org/wikipedia/commons/e/ec/The_Daily_Courant.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
-        "alt": "Picture from the Wikipedia article on The Daily Courant.",
-        "credit": "Edward Mallet from rooms above the White Hart pub in Fleet Street",
-        "source": "https://commons.wikimedia.org/wiki/File:The_Daily_Courant.png",
-        "license": "Public domain",
-        "licenseUrl": "https://commons.wikimedia.org/wiki/File:The_Daily_Courant.png"
+        "src": "https://upload.wikimedia.org/wikipedia/commons/d/d9/Aylwin_Banda_%282%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+        "alt": "Picture from the Wikipedia article on Patricio Aylwin.",
+        "credit": "Biblioteca del Congreso Nacional",
+        "source": "https://commons.wikimedia.org/wiki/File:Aylwin_Banda_(2).jpg",
+        "license": "CC BY 3.0 cl",
+        "licenseUrl": "https://creativecommons.org/licenses/by/3.0/cl/deed.en"
       }
     },
     {
-      "id": "03-11-international-criminal-court",
+      "id": "03-11-michelle-bachelet",
       "date": "03-11",
       "dateLabel": "11 March",
       "category": "world",
       "categoryName": "World",
-      "year": 2003,
-      "title": "International Criminal Court",
-      "body": "The International Criminal Court holds its inaugural session in The Hague.",
+      "year": 2006,
+      "title": "Michelle Bachelet",
+      "body": "Michelle Bachelet is inaugurated as the first female president of Chile.",
       "source": {
-        "name": "Wikipedia · International Criminal Court",
-        "url": "https://en.wikipedia.org/wiki/International_Criminal_Court",
+        "name": "Wikipedia · Michelle Bachelet",
+        "url": "https://en.wikipedia.org/wiki/Michelle_Bachelet",
         "calendarUrl": "https://en.wikipedia.org/wiki/March_11",
         "license": {
           "name": "CC BY-SA 4.0",
@@ -75,12 +102,39 @@
         }
       },
       "image": {
-        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/60/International_Criminal_Court_%E2%80%93_State_Parties.svg/1280px-International_Criminal_Court_%E2%80%93_State_Parties.svg.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-        "alt": "Picture from the Wikipedia article on International Criminal Court.",
-        "credit": "Nice4What",
-        "source": "https://commons.wikimedia.org/wiki/File:International_Criminal_Court_%E2%80%93_State_Parties.svg",
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/02/Portrait_Michelle_Bachelet.jpg/1280px-Portrait_Michelle_Bachelet.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "alt": "Picture from the Wikipedia article on Michelle Bachelet.",
+        "credit": "Estado de Chile",
+        "source": "https://commons.wikimedia.org/wiki/File:Portrait_Michelle_Bachelet.jpg",
+        "license": "CC BY 3.0 cl",
+        "licenseUrl": "https://creativecommons.org/licenses/by/3.0/cl/deed.en"
+      }
+    },
+    {
+      "id": "03-11-american-rescue-plan-act-of-2021",
+      "date": "03-11",
+      "dateLabel": "11 March",
+      "category": "world",
+      "categoryName": "World",
+      "year": 2021,
+      "title": "American Rescue Plan Act of 2021",
+      "body": "US President Joe Biden signs the $1.9 trillion American Rescue Plan into law.",
+      "source": {
+        "name": "Wikipedia · American Rescue Plan Act of 2021",
+        "url": "https://en.wikipedia.org/wiki/American_Rescue_Plan_Act_of_2021",
+        "calendarUrl": "https://en.wikipedia.org/wiki/March_11",
+        "license": {
+          "name": "CC BY-SA 4.0",
+          "url": "https://creativecommons.org/licenses/by-sa/4.0/"
+        }
+      },
+      "image": {
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/5c/Great_Seal_of_the_United_States_%28obverse%29.svg/1280px-Great_Seal_of_the_United_States_%28obverse%29.svg.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "alt": "Picture from the Wikipedia article on American Rescue Plan Act of 2021.",
+        "credit": "U.S. Government",
+        "source": "https://commons.wikimedia.org/wiki/File:Great_Seal_of_the_United_States_(obverse).svg",
         "license": "Public domain",
-        "licenseUrl": "https://commons.wikimedia.org/wiki/File:International_Criminal_Court_%E2%80%93_State_Parties.svg"
+        "licenseUrl": "https://commons.wikimedia.org/wiki/File:Great_Seal_of_the_United_States_(obverse).svg"
       }
     }
   ]

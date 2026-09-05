@@ -243,7 +243,13 @@ a:focus-visible { outline:2px solid var(--foreground); outline-offset:8px; }
 .fact-copy h2 { max-width:17ch; margin:0 0 1.9vh; font-size:2.85vw; line-height:1.07; letter-spacing:-.045em; font-weight:700; color:var(--foreground); }
 .fact-copy p.fact-body { margin:0; max-width:40ch; font-size:1.4vw; line-height:1.5; letter-spacing:-.015em; }
 .fact-illustration { margin:0; min-width:0; }
-.fact-illustration img { display:block; width:100%; aspect-ratio:4/3; max-height:45vh; object-fit:cover; object-position:center; border-radius:.6vw; background:#19191c; }
+.fact-illustration img,
+.fact-illustration video { display:block; width:100%; aspect-ratio:4/3; max-height:45vh; object-fit:cover; object-position:center; border-radius:.6vw; background:#19191c; }
+/* The clip is decoration and carries no sound, so it needs no controls and
+   must never be mistaken for something to press: there is no pointer on this
+   wall. The poster covers the gap before the first frame paints. */
+.fact-video { pointer-events:none; }
+.fact-video::-webkit-media-controls { display:none !important; }
 .fact-image-fallback { display:grid; place-items:center; width:100%; min-height:28vh; padding:2vw; border:1px solid #303035; border-radius:.6vw; background:#19191c; color:var(--muted); font-size:1vw; text-align:center; }
 /* Attribution is required and nobody reads it from the sofa, so both credit
    lines are furniture: one line each, around 8px, and a step dimmer than

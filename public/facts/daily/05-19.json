@@ -30,6 +30,33 @@
       }
     },
     {
+      "id": "05-19-martin-luther-king-jr",
+      "date": "05-19",
+      "dateLabel": "19 May",
+      "category": "world",
+      "categoryName": "World",
+      "year": 1963,
+      "title": "Martin Luther King Jr.",
+      "body": "The New York Post Sunday Magazine publishes Martin Luther King Jr.'s Letter from Birmingham Jail.",
+      "source": {
+        "name": "Wikipedia · Martin Luther King Jr.",
+        "url": "https://en.wikipedia.org/wiki/Martin_Luther_King_Jr.",
+        "calendarUrl": "https://en.wikipedia.org/wiki/May_19",
+        "license": {
+          "name": "CC BY-SA 4.0",
+          "url": "https://creativecommons.org/licenses/by-sa/4.0/"
+        }
+      },
+      "image": {
+        "src": "https://upload.wikimedia.org/wikipedia/commons/c/ce/Martin_Luther_King%2C_Jr._and_Lyndon_Johnson_%28cropped%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+        "alt": "Picture from the Wikipedia article on Martin Luther King Jr..",
+        "credit": "Yoichi Okamoto",
+        "source": "https://commons.wikimedia.org/wiki/File:Martin_Luther_King,_Jr._and_Lyndon_Johnson_(cropped).jpg",
+        "license": "Public domain",
+        "licenseUrl": "https://commons.wikimedia.org/wiki/File:Martin_Luther_King,_Jr._and_Lyndon_Johnson_(cropped).jpg"
+      }
+    },
+    {
       "id": "05-19-rosenborg-bk",
       "date": "05-19",
       "dateLabel": "19 May",
@@ -57,17 +84,17 @@
       }
     },
     {
-      "id": "05-19-martin-luther-king-jr",
+      "id": "05-19-john-franklin",
       "date": "05-19",
       "dateLabel": "19 May",
-      "category": "world",
-      "categoryName": "World",
-      "year": 1963,
-      "title": "Martin Luther King Jr.",
-      "body": "The New York Post Sunday Magazine publishes Martin Luther King Jr.'s Letter from Birmingham Jail.",
+      "category": "science",
+      "categoryName": "Science",
+      "year": 1845,
+      "title": "John Franklin",
+      "body": "Captain Sir John Franklin and his ill-fated Arctic expedition depart from Greenhithe, England.",
       "source": {
-        "name": "Wikipedia · Martin Luther King Jr.",
-        "url": "https://en.wikipedia.org/wiki/Martin_Luther_King_Jr.",
+        "name": "Wikipedia · John Franklin",
+        "url": "https://en.wikipedia.org/wiki/John_Franklin",
         "calendarUrl": "https://en.wikipedia.org/wiki/May_19",
         "license": {
           "name": "CC BY-SA 4.0",
@@ -75,12 +102,39 @@
         }
       },
       "image": {
-        "src": "https://upload.wikimedia.org/wikipedia/commons/c/ce/Martin_Luther_King%2C_Jr._and_Lyndon_Johnson_%28cropped%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
-        "alt": "Picture from the Wikipedia article on Martin Luther King Jr..",
-        "credit": "Yoichi Okamoto",
-        "source": "https://commons.wikimedia.org/wiki/File:Martin_Luther_King,_Jr._and_Lyndon_Johnson_(cropped).jpg",
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b1/Sir_John_Franklin_by_Thomas_Phillips.jpg/1280px-Sir_John_Franklin_by_Thomas_Phillips.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "alt": "Picture from the Wikipedia article on John Franklin.",
+        "credit": "Thomas Phillips",
+        "source": "https://commons.wikimedia.org/wiki/File:Sir_John_Franklin_by_Thomas_Phillips.jpg",
         "license": "Public domain",
-        "licenseUrl": "https://commons.wikimedia.org/wiki/File:Martin_Luther_King,_Jr._and_Lyndon_Johnson_(cropped).jpg"
+        "licenseUrl": "https://commons.wikimedia.org/wiki/File:Sir_John_Franklin_by_Thomas_Phillips.jpg"
+      }
+    },
+    {
+      "id": "05-19-mars-2",
+      "date": "05-19",
+      "dateLabel": "19 May",
+      "category": "space",
+      "categoryName": "Space",
+      "year": 1971,
+      "title": "Mars 2",
+      "body": "Mars 2 is launched by the Soviet Union.",
+      "source": {
+        "name": "Wikipedia · Mars 2",
+        "url": "https://en.wikipedia.org/wiki/Mars_2",
+        "calendarUrl": "https://en.wikipedia.org/wiki/May_19",
+        "license": {
+          "name": "CC BY-SA 4.0",
+          "url": "https://creativecommons.org/licenses/by-sa/4.0/"
+        }
+      },
+      "image": {
+        "src": "https://upload.wikimedia.org/wikipedia/commons/f/f7/1972_CPA_4113.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+        "alt": "Picture from the Wikipedia article on Mars 2.",
+        "credit": "USSR Post",
+        "source": "https://commons.wikimedia.org/wiki/File:1972_CPA_4113.jpg",
+        "license": "Public domain",
+        "licenseUrl": "https://commons.wikimedia.org/wiki/File:1972_CPA_4113.jpg"
       }
     }
   ]

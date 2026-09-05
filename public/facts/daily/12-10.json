@@ -23,7 +23,7 @@
       "image": {
         "src": "https://upload.wikimedia.org/wikipedia/commons/1/11/Selma_Lagerl%C3%B6f.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
         "alt": "Picture from the Wikipedia article on Selma Lagerlöf.",
-        "credit": "https://www.nobelprize.org/nobel_prizes/literature/laureates/1909/lagerlof-facts.html",
+        "credit": "Wikimedia Commons",
         "source": "https://commons.wikimedia.org/wiki/File:Selma_Lagerl%C3%B6f.jpg",
         "license": "Public domain",
         "licenseUrl": "https://commons.wikimedia.org/wiki/File:Selma_Lagerl%C3%B6f.jpg"
@@ -81,6 +81,60 @@
         "source": "https://commons.wikimedia.org/wiki/File:Alfred_Nobel3.jpg",
         "license": "Public domain",
         "licenseUrl": "https://commons.wikimedia.org/wiki/File:Alfred_Nobel3.jpg"
+      }
+    },
+    {
+      "id": "12-10-theodore-roosevelt",
+      "date": "12-10",
+      "dateLabel": "10 December",
+      "category": "science",
+      "categoryName": "Science",
+      "year": 1906,
+      "title": "Theodore Roosevelt",
+      "body": "U.S. President Theodore Roosevelt is awarded the Nobel Peace Prize for his role in the mediation of the Russo-Japanese War, becoming the first American to win a Nobel Prize in any field.",
+      "source": {
+        "name": "Wikipedia · Theodore Roosevelt",
+        "url": "https://en.wikipedia.org/wiki/Theodore_Roosevelt",
+        "calendarUrl": "https://en.wikipedia.org/wiki/December_10",
+        "license": {
+          "name": "CC BY-SA 4.0",
+          "url": "https://creativecommons.org/licenses/by-sa/4.0/"
+        }
+      },
+      "image": {
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/69/Theodore_Roosevelt_by_the_Pach_Bros_%284x5_cropped%29_%282%29.jpg/1280px-Theodore_Roosevelt_by_the_Pach_Bros_%284x5_cropped%29_%282%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "alt": "Picture from the Wikipedia article on Theodore Roosevelt.",
+        "credit": "Adam Cuerden",
+        "source": "https://commons.wikimedia.org/wiki/File:Theodore_Roosevelt_by_the_Pach_Bros_(4x5_cropped)_(2).jpg",
+        "license": "Public domain",
+        "licenseUrl": "https://commons.wikimedia.org/wiki/File:Theodore_Roosevelt_by_the_Pach_Bros_(4x5_cropped)_(2).jpg"
+      }
+    },
+    {
+      "id": "12-10-tsakhiagiin-elbegdorj",
+      "date": "12-10",
+      "dateLabel": "10 December",
+      "category": "world",
+      "categoryName": "World",
+      "year": 1989,
+      "title": "Tsakhiagiin Elbegdorj",
+      "body": "At the country's first open pro-democracy public demonstration, Tsakhiagiin Elbegdorj announces the establishment of the Mongolian Democratic Union.",
+      "source": {
+        "name": "Wikipedia · Tsakhiagiin Elbegdorj",
+        "url": "https://en.wikipedia.org/wiki/Tsakhiagiin_Elbegdorj",
+        "calendarUrl": "https://en.wikipedia.org/wiki/December_10",
+        "license": {
+          "name": "CC BY-SA 4.0",
+          "url": "https://creativecommons.org/licenses/by-sa/4.0/"
+        }
+      },
+      "image": {
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/98/Tsakhiagiin_Elbegdorj_%283x4_cropped%29.jpg/1280px-Tsakhiagiin_Elbegdorj_%283x4_cropped%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "alt": "Picture from the Wikipedia article on Tsakhiagiin Elbegdorj.",
+        "credit": "Kremlin.ru / Government of Mongolia",
+        "source": "https://commons.wikimedia.org/wiki/File:Tsakhiagiin_Elbegdorj_(3x4_cropped).jpg",
+        "license": "CC BY 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by/4.0"
       }
     }
   ]

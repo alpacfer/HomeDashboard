@@ -23,10 +23,37 @@
       "image": {
         "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/3a/Burt_Rutan_Oct_3_2004_photo_Don_Ramey_Logan.jpg/1280px-Burt_Rutan_Oct_3_2004_photo_Don_Ramey_Logan.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
         "alt": "Picture from the Wikipedia article on Burt Rutan.",
-        "credit": "Photograph by Don Ramey Logan",
+        "credit": "Don Ramey Logan",
         "source": "https://commons.wikimedia.org/wiki/File:Burt_Rutan_Oct_3_2004_photo_Don_Ramey_Logan.jpg",
         "license": "CC BY-SA 3.0",
         "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0"
+      }
+    },
+    {
+      "id": "09-29-cern",
+      "date": "09-29",
+      "dateLabel": "29 September",
+      "category": "science",
+      "categoryName": "Science",
+      "year": 1954,
+      "title": "CERN",
+      "body": "The convention establishing CERN (the European Organization for Nuclear Research) is signed.",
+      "source": {
+        "name": "Wikipedia · CERN",
+        "url": "https://en.wikipedia.org/wiki/CERN",
+        "calendarUrl": "https://en.wikipedia.org/wiki/September_29",
+        "license": {
+          "name": "CC BY-SA 4.0",
+          "url": "https://creativecommons.org/licenses/by-sa/4.0/"
+        }
+      },
+      "image": {
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f1/CERN_logo_badge.svg/1280px-CERN_logo_badge.svg.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "alt": "Picture from the Wikipedia article on CERN.",
+        "credit": "European Organization",
+        "source": "https://commons.wikimedia.org/wiki/File:CERN_logo_badge.svg",
+        "license": "Public domain",
+        "licenseUrl": "https://commons.wikimedia.org/wiki/File:CERN_logo_badge.svg"
       }
     },
     {
@@ -77,10 +104,37 @@
       "image": {
         "src": "https://upload.wikimedia.org/wikipedia/commons/3/34/Marshall_Field%2C_c._1900.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
         "alt": "Picture from the Wikipedia article on 1923 USA Outdoor Track and Field Championships.",
-        "credit": "University of Chicago (Life time: 1900)",
+        "credit": "University of Chicago",
         "source": "https://commons.wikimedia.org/wiki/File:Marshall_Field,_c._1900.png",
         "license": "Public domain",
         "licenseUrl": "https://commons.wikimedia.org/wiki/File:Marshall_Field,_c._1900.png"
+      }
+    },
+    {
+      "id": "09-29-4179-toutatis",
+      "date": "09-29",
+      "dateLabel": "29 September",
+      "category": "space",
+      "categoryName": "Space",
+      "year": 2004,
+      "title": "4179 Toutatis",
+      "body": "The asteroid 4179 Toutatis passes within four lunar distances of Earth.",
+      "source": {
+        "name": "Wikipedia · 4179 Toutatis",
+        "url": "https://en.wikipedia.org/wiki/4179_Toutatis",
+        "calendarUrl": "https://en.wikipedia.org/wiki/September_29",
+        "license": {
+          "name": "CC BY-SA 4.0",
+          "url": "https://creativecommons.org/licenses/by-sa/4.0/"
+        }
+      },
+      "image": {
+        "src": "https://upload.wikimedia.org/wikipedia/commons/8/87/4179_Toutatis_HQ.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+        "alt": "Picture from the Wikipedia article on 4179 Toutatis.",
+        "credit": "Yun Jiang",
+        "source": "https://commons.wikimedia.org/wiki/File:4179_Toutatis_HQ.png",
+        "license": "CC BY 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by/4.0"
       }
     }
   ]

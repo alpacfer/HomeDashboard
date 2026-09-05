@@ -82,6 +82,60 @@
         "license": "Public domain",
         "licenseUrl": "https://commons.wikimedia.org/wiki/File:Social_Democratic_Party_logo_(1981).svg"
       }
+    },
+    {
+      "id": "03-26-vietnam-veterans-memorial",
+      "date": "03-26",
+      "dateLabel": "26 March",
+      "category": "world",
+      "categoryName": "World",
+      "year": 1982,
+      "title": "Vietnam Veterans Memorial",
+      "body": "A groundbreaking ceremony for the Vietnam Veterans Memorial is held in Washington, D.C.",
+      "source": {
+        "name": "Wikipedia · Vietnam Veterans Memorial",
+        "url": "https://en.wikipedia.org/wiki/Vietnam_Veterans_Memorial",
+        "calendarUrl": "https://en.wikipedia.org/wiki/March_26",
+        "license": {
+          "name": "CC BY-SA 4.0",
+          "url": "https://creativecommons.org/licenses/by-sa/4.0/"
+        }
+      },
+      "image": {
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/4c/Vietnam_Veterans_Memorial_reflection_in_low_light.jpg/1280px-Vietnam_Veterans_Memorial_reflection_in_low_light.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "alt": "Picture from the Wikipedia article on Vietnam Veterans Memorial.",
+        "credit": "National Park Service",
+        "source": "https://commons.wikimedia.org/wiki/File:Vietnam_Veterans_Memorial_reflection_in_low_light.jpg",
+        "license": "CC BY 2.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by/2.0"
+      }
+    },
+    {
+      "id": "03-26-taiwan",
+      "date": "03-26",
+      "dateLabel": "26 March",
+      "category": "world",
+      "categoryName": "World",
+      "year": 2005,
+      "title": "Taiwan",
+      "body": "Around 200,000 to 300,000 Taiwanese demonstrate in Taipei in opposition to the Anti-Secession Law of China.",
+      "source": {
+        "name": "Wikipedia · Taiwan",
+        "url": "https://en.wikipedia.org/wiki/Taiwan",
+        "calendarUrl": "https://en.wikipedia.org/wiki/March_26",
+        "license": {
+          "name": "CC BY-SA 4.0",
+          "url": "https://creativecommons.org/licenses/by-sa/4.0/"
+        }
+      },
+      "image": {
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/72/Flag_of_the_Republic_of_China.svg/1280px-Flag_of_the_Republic_of_China.svg.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "alt": "Picture from the Wikipedia article on Taiwan.",
+        "credit": "Sun Yat-sen",
+        "source": "https://commons.wikimedia.org/wiki/File:Flag_of_the_Republic_of_China.svg",
+        "license": "Public domain",
+        "licenseUrl": "https://commons.wikimedia.org/wiki/File:Flag_of_the_Republic_of_China.svg"
+      }
     }
   ]
 }

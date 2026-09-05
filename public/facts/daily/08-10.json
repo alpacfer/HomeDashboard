@@ -82,6 +82,60 @@
         "license": "Public domain",
         "licenseUrl": "https://commons.wikimedia.org/wiki/File:Walshjohn.jpg"
       }
+    },
+    {
+      "id": "08-10-okinawa-urban-monorail",
+      "date": "08-10",
+      "dateLabel": "10 August",
+      "category": "world",
+      "categoryName": "World",
+      "year": 2003,
+      "title": "Okinawa Urban Monorail",
+      "body": "The Okinawa Urban Monorail is opened in Naha, Okinawa.",
+      "source": {
+        "name": "Wikipedia · Okinawa Urban Monorail",
+        "url": "https://en.wikipedia.org/wiki/Okinawa_Urban_Monorail",
+        "calendarUrl": "https://en.wikipedia.org/wiki/August_10",
+        "license": {
+          "name": "CC BY-SA 4.0",
+          "url": "https://creativecommons.org/licenses/by-sa/4.0/"
+        }
+      },
+      "image": {
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/10/Naha-kuko_Station02s3s3750.jpg/1280px-Naha-kuko_Station02s3s3750.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "alt": "Picture from the Wikipedia article on Okinawa Urban Monorail.",
+        "credit": "663highland",
+        "source": "https://commons.wikimedia.org/wiki/File:Naha-kuko_Station02s3s3750.jpg",
+        "license": "CC BY 2.5",
+        "licenseUrl": "https://creativecommons.org/licenses/by/2.5"
+      }
+    },
+    {
+      "id": "08-10-list-of-earthquakes-in-new-zealand",
+      "date": "08-10",
+      "dateLabel": "10 August",
+      "category": "world",
+      "categoryName": "World",
+      "year": 1993,
+      "title": "List of earthquakes in New Zealand",
+      "body": "Two earthquakes affect New Zealand. A 7.0 shock (intensity VI (Strong)) in the South Island was followed nine hours later by a 6.4 event (intensity VII (Very strong)) in the North Island.",
+      "source": {
+        "name": "Wikipedia · List of earthquakes in New Zealand",
+        "url": "https://en.wikipedia.org/wiki/List_of_earthquakes_in_New_Zealand",
+        "calendarUrl": "https://en.wikipedia.org/wiki/August_10",
+        "license": {
+          "name": "CC BY-SA 4.0",
+          "url": "https://creativecommons.org/licenses/by-sa/4.0/"
+        }
+      },
+      "image": {
+        "src": "https://upload.wikimedia.org/wikipedia/commons/8/8a/NZ_faults.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+        "alt": "Picture from the Wikipedia article on List of earthquakes in New Zealand.",
+        "credit": "Mikenorton",
+        "source": "https://commons.wikimedia.org/wiki/File:NZ_faults.png",
+        "license": "CC BY-SA 3.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0"
+      }
     }
   ]
 }

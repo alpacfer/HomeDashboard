@@ -23,7 +23,7 @@
       "image": {
         "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d8/NASA_Mars_Rover.jpg/1280px-NASA_Mars_Rover.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
         "alt": "Picture from the Wikipedia article on Opportunity.",
-        "credit": "NASA/JPL/Cornell University, Maas Digital LLC",
+        "credit": "NASA",
         "source": "https://commons.wikimedia.org/wiki/File:NASA_Mars_Rover.jpg",
         "license": "Public domain",
         "licenseUrl": "https://commons.wikimedia.org/wiki/File:NASA_Mars_Rover.jpg"
@@ -57,17 +57,17 @@
       }
     },
     {
-      "id": "06-10-james-earl-ray",
+      "id": "06-10-african-national-congress",
       "date": "06-10",
       "dateLabel": "10 June",
-      "category": "curious",
-      "categoryName": "Curious",
-      "year": 1977,
-      "title": "James Earl Ray",
-      "body": "James Earl Ray escapes from Brushy Mountain State Penitentiary in Petros, Tennessee. He is recaptured three days later.",
+      "category": "world",
+      "categoryName": "World",
+      "year": 1980,
+      "title": "African National Congress",
+      "body": "The African National Congress in South Africa publishes a call to fight from their imprisoned leader Nelson Mandela.",
       "source": {
-        "name": "Wikipedia · James Earl Ray",
-        "url": "https://en.wikipedia.org/wiki/James_Earl_Ray",
+        "name": "Wikipedia · African National Congress",
+        "url": "https://en.wikipedia.org/wiki/African_National_Congress",
         "calendarUrl": "https://en.wikipedia.org/wiki/June_10",
         "license": {
           "name": "CC BY-SA 4.0",
@@ -75,12 +75,66 @@
         }
       },
       "image": {
-        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/25/Mugshot_of_James_Earl_Ray_-_July_8%2C_1955.jpg/1280px-Mugshot_of_James_Earl_Ray_-_July_8%2C_1955.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-        "alt": "Picture from the Wikipedia article on James Earl Ray.",
-        "credit": "Federal Bureau of Prisons",
-        "source": "https://commons.wikimedia.org/wiki/File:Mugshot_of_James_Earl_Ray_-_July_8,_1955.jpg",
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a2/Flag_of_the_African_National_Congress.svg/1280px-Flag_of_the_African_National_Congress.svg.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "alt": "Picture from the Wikipedia article on African National Congress.",
+        "credit": "African National Congress Vector…",
+        "source": "https://commons.wikimedia.org/wiki/File:Flag_of_the_African_National_Congress.svg",
         "license": "Public domain",
-        "licenseUrl": "https://commons.wikimedia.org/wiki/File:Mugshot_of_James_Earl_Ray_-_July_8,_1955.jpg"
+        "licenseUrl": "https://commons.wikimedia.org/wiki/File:Flag_of_the_African_National_Congress.svg"
+      }
+    },
+    {
+      "id": "06-10-jardin-des-plantes",
+      "date": "06-10",
+      "dateLabel": "10 June",
+      "category": "curious",
+      "categoryName": "Curious",
+      "year": 1793,
+      "title": "Jardin des Plantes",
+      "body": "The Jardin des Plantes museum opens in Paris. A year later, it becomes the first public zoo.",
+      "source": {
+        "name": "Wikipedia · Jardin des Plantes",
+        "url": "https://en.wikipedia.org/wiki/Jardin_des_Plantes",
+        "calendarUrl": "https://en.wikipedia.org/wiki/June_10",
+        "license": {
+          "name": "CC BY-SA 4.0",
+          "url": "https://creativecommons.org/licenses/by-sa/4.0/"
+        }
+      },
+      "image": {
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/48/Paris_75005_Grande_Galerie_de_l%27Evolution_20070804.jpg/1280px-Paris_75005_Grande_Galerie_de_l%27Evolution_20070804.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "alt": "Picture from the Wikipedia article on Jardin des Plantes.",
+        "credit": "Benh LIEU SONG",
+        "source": "https://commons.wikimedia.org/wiki/File:Paris_75005_Grande_Galerie_de_l%27Evolution_20070804.jpg",
+        "license": "CC BY 3.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by/3.0"
+      }
+    },
+    {
+      "id": "06-10-baseball",
+      "date": "06-10",
+      "dateLabel": "10 June",
+      "category": "sport",
+      "categoryName": "Sport",
+      "year": 1944,
+      "title": "Baseball",
+      "body": "In baseball, 15-year-old Joe Nuxhall of the Cincinnati Reds becomes the youngest player ever in a major-league game.",
+      "source": {
+        "name": "Wikipedia · Baseball",
+        "url": "https://en.wikipedia.org/wiki/Baseball",
+        "calendarUrl": "https://en.wikipedia.org/wiki/June_10",
+        "license": {
+          "name": "CC BY-SA 4.0",
+          "url": "https://creativecommons.org/licenses/by-sa/4.0/"
+        }
+      },
+      "image": {
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e7/Tommy_Milone_gives_up_a_home_run_to_Mike_Trout_on_May_21%2C_2017.jpg/1280px-Tommy_Milone_gives_up_a_home_run_to_Mike_Trout_on_May_21%2C_2017.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "alt": "Picture from the Wikipedia article on Baseball.",
+        "credit": "D. Benjamin Miller",
+        "source": "https://commons.wikimedia.org/wiki/File:Tommy_Milone_gives_up_a_home_run_to_Mike_Trout_on_May_21,_2017.jpg",
+        "license": "CC0",
+        "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/deed.en"
       }
     }
   ]

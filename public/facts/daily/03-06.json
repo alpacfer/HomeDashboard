@@ -3,33 +3,6 @@
   "dateLabel": "6 March",
   "facts": [
     {
-      "id": "03-06-iran",
-      "date": "03-06",
-      "dateLabel": "6 March",
-      "category": "world",
-      "categoryName": "World",
-      "year": 1975,
-      "title": "Iran",
-      "body": "Iran and Iraq announce a settlement of their border dispute.",
-      "source": {
-        "name": "Wikipedia · Iran",
-        "url": "https://en.wikipedia.org/wiki/Iran",
-        "calendarUrl": "https://en.wikipedia.org/wiki/March_6",
-        "license": {
-          "name": "CC BY-SA 4.0",
-          "url": "https://creativecommons.org/licenses/by-sa/4.0/"
-        }
-      },
-      "image": {
-        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/be/Flag_of_Iran_%28official%29.svg/1280px-Flag_of_Iran_%28official%29.svg.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-        "alt": "Picture from the Wikipedia article on Iran.",
-        "credit": "SVG file: SiBr4Designer: Hamid NadimiConstruction: ISIRI",
-        "source": "https://commons.wikimedia.org/wiki/File:Flag_of_Iran_(official).svg",
-        "license": "Public domain",
-        "licenseUrl": "https://commons.wikimedia.org/wiki/File:Flag_of_Iran_(official).svg"
-      }
-    },
-    {
       "id": "03-06-william-speirs-bruce",
       "date": "03-06",
       "dateLabel": "6 March",
@@ -57,6 +30,33 @@
       }
     },
     {
+      "id": "03-06-iran",
+      "date": "03-06",
+      "dateLabel": "6 March",
+      "category": "world",
+      "categoryName": "World",
+      "year": 1975,
+      "title": "Iran",
+      "body": "Iran and Iraq announce a settlement of their border dispute.",
+      "source": {
+        "name": "Wikipedia · Iran",
+        "url": "https://en.wikipedia.org/wiki/Iran",
+        "calendarUrl": "https://en.wikipedia.org/wiki/March_6",
+        "license": {
+          "name": "CC BY-SA 4.0",
+          "url": "https://creativecommons.org/licenses/by-sa/4.0/"
+        }
+      },
+      "image": {
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/be/Flag_of_Iran_%28official%29.svg/1280px-Flag_of_Iran_%28official%29.svg.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "alt": "Picture from the Wikipedia article on Iran.",
+        "credit": "Hamid NadimiConstruction: ISIRI",
+        "source": "https://commons.wikimedia.org/wiki/File:Flag_of_Iran_(official).svg",
+        "license": "Public domain",
+        "licenseUrl": "https://commons.wikimedia.org/wiki/File:Flag_of_Iran_(official).svg"
+      }
+    },
+    {
       "id": "03-06-ghana-independence-act-1957",
       "date": "03-06",
       "dateLabel": "6 March",
@@ -81,6 +81,60 @@
         "source": "https://commons.wikimedia.org/wiki/File:Royal_coat_of_arms_of_the_United_Kingdom_(1952%E2%80%932022,_variant_1).svg",
         "license": "CC BY-SA 3.0",
         "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0"
+      }
+    },
+    {
+      "id": "03-06-first-fleet",
+      "date": "03-06",
+      "dateLabel": "6 March",
+      "category": "world",
+      "categoryName": "World",
+      "year": 1788,
+      "title": "First Fleet",
+      "body": "The First Fleet arrives at Norfolk Island in order to found a convict settlement.",
+      "source": {
+        "name": "Wikipedia · First Fleet",
+        "url": "https://en.wikipedia.org/wiki/First_Fleet",
+        "calendarUrl": "https://en.wikipedia.org/wiki/March_6",
+        "license": {
+          "name": "CC BY-SA 4.0",
+          "url": "https://creativecommons.org/licenses/by-sa/4.0/"
+        }
+      },
+      "image": {
+        "src": "https://upload.wikimedia.org/wikipedia/commons/8/82/A_view_of_Botany_Bay_A1475003h_%28cropped%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+        "alt": "Picture from the Wikipedia article on First Fleet.",
+        "credit": "Original drawing",
+        "source": "https://commons.wikimedia.org/wiki/File:A_view_of_Botany_Bay_A1475003h_(cropped).jpg",
+        "license": "Public domain",
+        "licenseUrl": "https://commons.wikimedia.org/wiki/File:A_view_of_Botany_Bay_A1475003h_(cropped).jpg"
+      }
+    },
+    {
+      "id": "03-06-kajaani",
+      "date": "03-06",
+      "dateLabel": "6 March",
+      "category": "world",
+      "categoryName": "World",
+      "year": 1651,
+      "title": "Kajaani",
+      "body": "The town of Kajaani, known at the time as Cajanaburg, is founded by Count Per Brahe, the Governor-General of Finland.",
+      "source": {
+        "name": "Wikipedia · Kajaani",
+        "url": "https://en.wikipedia.org/wiki/Kajaani",
+        "calendarUrl": "https://en.wikipedia.org/wiki/March_6",
+        "license": {
+          "name": "CC BY-SA 4.0",
+          "url": "https://creativecommons.org/licenses/by-sa/4.0/"
+        }
+      },
+      "image": {
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e2/Kajaani_Raatihuone_20090116.JPG/1280px-Kajaani_Raatihuone_20090116.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "alt": "Picture from the Wikipedia article on Kajaani.",
+        "credit": "Estormiz",
+        "source": "https://commons.wikimedia.org/wiki/File:Kajaani_Raatihuone_20090116.JPG",
+        "license": "Public domain",
+        "licenseUrl": "https://commons.wikimedia.org/wiki/File:Kajaani_Raatihuone_20090116.JPG"
       }
     }
   ]

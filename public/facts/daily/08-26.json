@@ -3,6 +3,87 @@
   "dateLabel": "26 August",
   "facts": [
     {
+      "id": "08-26-boeing-787-dreamliner",
+      "date": "08-26",
+      "dateLabel": "26 August",
+      "category": "world",
+      "categoryName": "World",
+      "year": 2011,
+      "title": "Boeing 787 Dreamliner",
+      "body": "The Boeing 787 Dreamliner, Boeing's all-new composite airliner, receives certification from the EASA and the FAA.",
+      "source": {
+        "name": "Wikipedia · Boeing 787 Dreamliner",
+        "url": "https://en.wikipedia.org/wiki/Boeing_787_Dreamliner",
+        "calendarUrl": "https://en.wikipedia.org/wiki/August_26",
+        "license": {
+          "name": "CC BY-SA 4.0",
+          "url": "https://creativecommons.org/licenses/by-sa/4.0/"
+        }
+      },
+      "image": {
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/4e/Boeing_787_N1015B_ANA_Airlines_%2827611880663%29_%28cropped%29.jpg/1280px-Boeing_787_N1015B_ANA_Airlines_%2827611880663%29_%28cropped%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "alt": "Picture from the Wikipedia article on Boeing 787 Dreamliner.",
+        "credit": "pjs2005 from Hampshire, UK",
+        "source": "https://commons.wikimedia.org/wiki/File:Boeing_787_N1015B_ANA_Airlines_(27611880663)_(cropped).jpg",
+        "license": "CC BY-SA 2.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0"
+      }
+    },
+    {
+      "id": "08-26-rotherham-child-sexual-exploitation-scandal",
+      "date": "08-26",
+      "dateLabel": "26 August",
+      "category": "world",
+      "categoryName": "World",
+      "year": 2014,
+      "title": "Rotherham child sexual exploitation scandal",
+      "body": "The Jay Report into the Rotherham child sexual exploitation scandal is published.",
+      "source": {
+        "name": "Wikipedia · Rotherham child sexual exploitation scandal",
+        "url": "https://en.wikipedia.org/wiki/Rotherham_child_sexual_exploitation_scandal",
+        "calendarUrl": "https://en.wikipedia.org/wiki/August_26",
+        "license": {
+          "name": "CC BY-SA 4.0",
+          "url": "https://creativecommons.org/licenses/by-sa/4.0/"
+        }
+      },
+      "image": {
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d8/Rotherham_town_centre%2C_May_2010.jpg/1280px-Rotherham_town_centre%2C_May_2010.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "alt": "Picture from the Wikipedia article on Rotherham child sexual exploitation scandal.",
+        "credit": "Ben Sutherland",
+        "source": "https://commons.wikimedia.org/wiki/File:Rotherham_town_centre,_May_2010.jpg",
+        "license": "CC BY 2.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by/2.0"
+      }
+    },
+    {
+      "id": "08-26-chad",
+      "date": "08-26",
+      "dateLabel": "26 August",
+      "category": "world",
+      "categoryName": "World",
+      "year": 1940,
+      "title": "Chad",
+      "body": "Chad becomes the first French colony to join the Allies under the administration of Félix Éboué, France's first black colonial governor.",
+      "source": {
+        "name": "Wikipedia · Chad",
+        "url": "https://en.wikipedia.org/wiki/Chad",
+        "calendarUrl": "https://en.wikipedia.org/wiki/August_26",
+        "license": {
+          "name": "CC BY-SA 4.0",
+          "url": "https://creativecommons.org/licenses/by-sa/4.0/"
+        }
+      },
+      "image": {
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/4b/Flag_of_Chad.svg/1280px-Flag_of_Chad.svg.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "alt": "Picture from the Wikipedia article on Chad.",
+        "credit": "SKopp & others",
+        "source": "https://commons.wikimedia.org/wiki/File:Flag_of_Chad.svg",
+        "license": "Public domain",
+        "licenseUrl": "https://commons.wikimedia.org/wiki/File:Flag_of_Chad.svg"
+      }
+    },
+    {
       "id": "08-26-pope-john-paul-i",
       "date": "08-26",
       "dateLabel": "26 August",
@@ -30,44 +111,17 @@
       }
     },
     {
-      "id": "08-26-james-cook",
-      "date": "08-26",
-      "dateLabel": "26 August",
-      "category": "science",
-      "categoryName": "Science",
-      "year": 1768,
-      "title": "James Cook",
-      "body": "Captain James Cook sets sail from England on board, starting his first voyage of discovery.",
-      "source": {
-        "name": "Wikipedia · James Cook",
-        "url": "https://en.wikipedia.org/wiki/James_Cook",
-        "calendarUrl": "https://en.wikipedia.org/wiki/August_26",
-        "license": {
-          "name": "CC BY-SA 4.0",
-          "url": "https://creativecommons.org/licenses/by-sa/4.0/"
-        }
-      },
-      "image": {
-        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/76/Captainjamescookportrait.jpg/1280px-Captainjamescookportrait.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-        "alt": "Picture from the Wikipedia article on James Cook.",
-        "credit": "Nathaniel Dance-Holland",
-        "source": "https://commons.wikimedia.org/wiki/File:Captainjamescookportrait.jpg",
-        "license": "Public domain",
-        "licenseUrl": "https://commons.wikimedia.org/wiki/File:Captainjamescookportrait.jpg"
-      }
-    },
-    {
-      "id": "08-26-lutheran",
+      "id": "08-26-1972-summer-olympics",
       "date": "08-26",
       "dateLabel": "26 August",
       "category": "world",
       "categoryName": "World",
-      "year": 1748,
-      "title": "Lutheranism",
-      "body": "The first Lutheran denomination in North America, the Pennsylvania Ministerium, is founded in Philadelphia.",
+      "year": 1972,
+      "title": "1972 Summer Olympics",
+      "body": "The Games of the XX Olympiad open in Munich, West Germany.",
       "source": {
-        "name": "Wikipedia · Lutheranism",
-        "url": "https://en.wikipedia.org/wiki/Lutheranism",
+        "name": "Wikipedia · 1972 Summer Olympics",
+        "url": "https://en.wikipedia.org/wiki/1972_Summer_Olympics",
         "calendarUrl": "https://en.wikipedia.org/wiki/August_26",
         "license": {
           "name": "CC BY-SA 4.0",
@@ -75,12 +129,12 @@
         }
       },
       "image": {
-        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/17/Konsekration_Alsike_Kyrka.png/1280px-Konsekration_Alsike_Kyrka.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-        "alt": "Picture from the Wikipedia article on Lutheranism.",
-        "credit": "Atleett",
-        "source": "https://commons.wikimedia.org/wiki/File:Konsekration_Alsike_Kyrka.png",
-        "license": "CC BY-SA 4.0",
-        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0"
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d1/1972_Summer_Olympics_logo.svg/1280px-1972_Summer_Olympics_logo.svg.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "alt": "Picture from the Wikipedia article on 1972 Summer Olympics.",
+        "credit": "International Olympic Committee",
+        "source": "https://commons.wikimedia.org/wiki/File:1972_Summer_Olympics_logo.svg",
+        "license": "Public domain",
+        "licenseUrl": "https://commons.wikimedia.org/wiki/File:1972_Summer_Olympics_logo.svg"
       }
     }
   ]

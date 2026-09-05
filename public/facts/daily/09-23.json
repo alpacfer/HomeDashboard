@@ -3,33 +3,6 @@
   "dateLabel": "23 September",
   "facts": [
     {
-      "id": "09-23-cape-virgenes",
-      "date": "09-23",
-      "dateLabel": "23 September",
-      "category": "science",
-      "categoryName": "Science",
-      "year": 1884,
-      "title": "Cape Virgenes",
-      "body": "On the night of 23–24 September, the steamship Arctique runs aground near Cape Virgenes leading to the discovery of nearby placer gold, beginning the Tierra del Fuego gold rush.",
-      "source": {
-        "name": "Wikipedia · Cape Virgenes",
-        "url": "https://en.wikipedia.org/wiki/Cape_Virgenes",
-        "calendarUrl": "https://en.wikipedia.org/wiki/September_23",
-        "license": {
-          "name": "CC BY-SA 4.0",
-          "url": "https://creativecommons.org/licenses/by-sa/4.0/"
-        }
-      },
-      "image": {
-        "src": "https://upload.wikimedia.org/wikipedia/commons/1/1a/Capes_in_the_Americas.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
-        "alt": "Picture from the Wikipedia article on Cape Virgenes.",
-        "credit": "Wikimedia Commons contributor",
-        "source": "https://commons.wikimedia.org/wiki/File:Capes_in_the_Americas.png",
-        "license": "Public domain",
-        "licenseUrl": "https://commons.wikimedia.org/wiki/File:Capes_in_the_Americas.png"
-      }
-    },
-    {
       "id": "09-23-george-vi",
       "date": "09-23",
       "dateLabel": "23 September",
@@ -57,6 +30,60 @@
       }
     },
     {
+      "id": "09-23-cape-virgenes",
+      "date": "09-23",
+      "dateLabel": "23 September",
+      "category": "science",
+      "categoryName": "Science",
+      "year": 1884,
+      "title": "Cape Virgenes",
+      "body": "On the night of 23–24 September, the steamship Arctique runs aground near Cape Virgenes leading to the discovery of nearby placer gold, beginning the Tierra del Fuego gold rush.",
+      "source": {
+        "name": "Wikipedia · Cape Virgenes",
+        "url": "https://en.wikipedia.org/wiki/Cape_Virgenes",
+        "calendarUrl": "https://en.wikipedia.org/wiki/September_23",
+        "license": {
+          "name": "CC BY-SA 4.0",
+          "url": "https://creativecommons.org/licenses/by-sa/4.0/"
+        }
+      },
+      "image": {
+        "src": "https://upload.wikimedia.org/wikipedia/commons/1/1a/Capes_in_the_Americas.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+        "alt": "Picture from the Wikipedia article on Cape Virgenes.",
+        "credit": "Wikimedia Commons",
+        "source": "https://commons.wikimedia.org/wiki/File:Capes_in_the_Americas.png",
+        "license": "Public domain",
+        "licenseUrl": "https://commons.wikimedia.org/wiki/File:Capes_in_the_Americas.png"
+      }
+    },
+    {
+      "id": "09-23-faisal-of-saudi-arabia",
+      "date": "09-23",
+      "dateLabel": "23 September",
+      "category": "world",
+      "categoryName": "World",
+      "year": 1932,
+      "title": "Faisal of Saudi Arabia",
+      "body": "Crown Prince (later king) Faisal of Saudi Arabia, on behalf of Ibn Saud, proclaims the unification of the Kingdom of Saudi Arabia, the current iteration of the Third Saudi State.",
+      "source": {
+        "name": "Wikipedia · Faisal of Saudi Arabia",
+        "url": "https://en.wikipedia.org/wiki/Faisal_of_Saudi_Arabia",
+        "calendarUrl": "https://en.wikipedia.org/wiki/September_23",
+        "license": {
+          "name": "CC BY-SA 4.0",
+          "url": "https://creativecommons.org/licenses/by-sa/4.0/"
+        }
+      },
+      "image": {
+        "src": "https://upload.wikimedia.org/wikipedia/commons/6/68/King_Faisal_bin_Abdulaziz_%28cropped%29%28b%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+        "alt": "Picture from the Wikipedia article on Faisal of Saudi Arabia.",
+        "credit": "Louis Fabian Bachrach Jr",
+        "source": "https://commons.wikimedia.org/wiki/File:King_Faisal_bin_Abdulaziz_(cropped)(b).jpg",
+        "license": "Public domain",
+        "licenseUrl": "https://commons.wikimedia.org/wiki/File:King_Faisal_bin_Abdulaziz_(cropped)(b).jpg"
+      }
+    },
+    {
       "id": "09-23-urbain-le-verrier",
       "date": "09-23",
       "dateLabel": "23 September",
@@ -81,6 +108,33 @@
         "source": "https://commons.wikimedia.org/wiki/File:Le_Verrier_colored.jpg",
         "license": "Public domain",
         "licenseUrl": "https://commons.wikimedia.org/wiki/File:Le_Verrier_colored.jpg"
+      }
+    },
+    {
+      "id": "09-23-macedo-romanian-cultural-society",
+      "date": "09-23",
+      "dateLabel": "23 September",
+      "category": "world",
+      "categoryName": "World",
+      "year": 1879,
+      "title": "Macedo-Romanian Cultural Society",
+      "body": "The Macedo-Romanian Cultural Society is founded.",
+      "source": {
+        "name": "Wikipedia · Macedo-Romanian Cultural Society",
+        "url": "https://en.wikipedia.org/wiki/Macedo-Romanian_Cultural_Society",
+        "calendarUrl": "https://en.wikipedia.org/wiki/September_23",
+        "license": {
+          "name": "CC BY-SA 4.0",
+          "url": "https://creativecommons.org/licenses/by-sa/4.0/"
+        }
+      },
+      "image": {
+        "src": "https://upload.wikimedia.org/wikipedia/commons/f/f3/Stindardul_Societ%C4%83%C8%9Bii_de_Cultur%C4%83_Macedo-Rom%C3%A2ne%2C_avers.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+        "alt": "Picture from the Wikipedia article on Macedo-Romanian Cultural Society.",
+        "credit": "V. A. Urechia",
+        "source": "https://commons.wikimedia.org/wiki/File:Stindardul_Societ%C4%83%C8%9Bii_de_Cultur%C4%83_Macedo-Rom%C3%A2ne,_avers.png",
+        "license": "Public domain",
+        "licenseUrl": "https://commons.wikimedia.org/wiki/File:Stindardul_Societ%C4%83%C8%9Bii_de_Cultur%C4%83_Macedo-Rom%C3%A2ne,_avers.png"
       }
     }
   ]

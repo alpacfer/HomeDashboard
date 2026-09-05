@@ -3,17 +3,17 @@
   "dateLabel": "9 March",
   "facts": [
     {
-      "id": "03-09-siberia",
+      "id": "03-09-sputnik-9",
       "date": "03-09",
       "dateLabel": "9 March",
       "category": "space",
       "categoryName": "Space",
-      "year": 1997,
-      "title": "Siberia",
-      "body": "Observers in China, Mongolia and eastern Siberia are treated to a rare double feature as an eclipse permits Hale-Bopp to be seen during the day.",
+      "year": 1961,
+      "title": "Korabl-Sputnik 4",
+      "body": "Sputnik 9 successfully launches, carrying a dog and a human dummy, and demonstrating that the Soviet Union was ready to begin human spaceflight.",
       "source": {
-        "name": "Wikipedia · Siberia",
-        "url": "https://en.wikipedia.org/wiki/Siberia",
+        "name": "Wikipedia · Korabl-Sputnik 4",
+        "url": "https://en.wikipedia.org/wiki/Korabl-Sputnik_4",
         "calendarUrl": "https://en.wikipedia.org/wiki/March_9",
         "license": {
           "name": "CC BY-SA 4.0",
@@ -21,12 +21,12 @@
         }
       },
       "image": {
-        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/0c/Siberia_%28orthographic_projection%29.svg/1280px-Siberia_%28orthographic_projection%29.svg.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-        "alt": "Picture from the Wikipedia article on Siberia.",
-        "credit": "M.Bitton",
-        "source": "https://commons.wikimedia.org/wiki/File:Siberia_(orthographic_projection).svg",
-        "license": "CC BY-SA 3.0",
-        "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0"
+        "src": "https://upload.wikimedia.org/wikipedia/commons/4/43/The_Soviet_Union_1961_CPA_2587_stamp_%28Fourth_and_fifth_%27Spacecraft%27_flights._Dog_Chernushka_and_rocket%29_cancelled.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+        "alt": "Picture from the Wikipedia article on Korabl-Sputnik 4.",
+        "credit": "Post of the Soviet Union",
+        "source": "https://commons.wikimedia.org/wiki/File:The_Soviet_Union_1961_CPA_2587_stamp_(Fourth_and_fifth_%27Spacecraft%27_flights._Dog_Chernushka_and_rocket)_cancelled.jpg",
+        "license": "Public domain",
+        "licenseUrl": "https://commons.wikimedia.org/wiki/File:The_Soviet_Union_1961_CPA_2587_stamp_(Fourth_and_fifth_%27Spacecraft%27_flights._Dog_Chernushka_and_rocket)_cancelled.jpg"
       }
     },
     {
@@ -50,7 +50,7 @@
       "image": {
         "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/0b/Barbie_Logo.svg/1280px-Barbie_Logo.svg.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
         "alt": "Picture from the Wikipedia article on Barbie.",
-        "credit": "Mattel, Inc.",
+        "credit": "Mattel, Inc",
         "source": "https://commons.wikimedia.org/wiki/File:Barbie_Logo.svg",
         "license": "Public domain",
         "licenseUrl": "https://commons.wikimedia.org/wiki/File:Barbie_Logo.svg"
@@ -77,10 +77,64 @@
       "image": {
         "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/ae/Nupedia_20030808_screenshot.png/1280px-Nupedia_20030808_screenshot.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
         "alt": "Picture from the Wikipedia article on Nupedia.",
-        "credit": "Software: Wikimedia Foundation and contributors logo by Sally Milo/Milo Design Screenshot: VulcanSphere",
+        "credit": "Wikimedia Foundation and contributors…",
         "source": "https://commons.wikimedia.org/wiki/File:Nupedia_20030808_screenshot.png",
         "license": "CC BY-SA 4.0",
         "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0"
+      }
+    },
+    {
+      "id": "03-09-inter-milan",
+      "date": "03-09",
+      "dateLabel": "9 March",
+      "category": "sport",
+      "categoryName": "Sport",
+      "year": 1908,
+      "title": "Inter Milan",
+      "body": "Inter Milan is founded on Football Club Internazionale, following a schism from A.C. Milan.",
+      "source": {
+        "name": "Wikipedia · Inter Milan",
+        "url": "https://en.wikipedia.org/wiki/Inter_Milan",
+        "calendarUrl": "https://en.wikipedia.org/wiki/March_9",
+        "license": {
+          "name": "CC BY-SA 4.0",
+          "url": "https://creativecommons.org/licenses/by-sa/4.0/"
+        }
+      },
+      "image": {
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/05/FC_Internazionale_Milano_2021.svg/1280px-FC_Internazionale_Milano_2021.svg.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "alt": "Picture from the Wikipedia article on Inter Milan.",
+        "credit": "FC Internazionale Milano S.p.A",
+        "source": "https://commons.wikimedia.org/wiki/File:FC_Internazionale_Milano_2021.svg",
+        "license": "Public domain",
+        "licenseUrl": "https://commons.wikimedia.org/wiki/File:FC_Internazionale_Milano_2021.svg"
+      }
+    },
+    {
+      "id": "03-09-gold",
+      "date": "03-09",
+      "dateLabel": "9 March",
+      "category": "science",
+      "categoryName": "Science",
+      "year": 1842,
+      "title": "Gold",
+      "body": "The first documented discovery of gold in California occurs at Rancho San Francisco, six years before the California Gold Rush.",
+      "source": {
+        "name": "Wikipedia · Gold",
+        "url": "https://en.wikipedia.org/wiki/Gold",
+        "calendarUrl": "https://en.wikipedia.org/wiki/March_9",
+        "license": {
+          "name": "CC BY-SA 4.0",
+          "url": "https://creativecommons.org/licenses/by-sa/4.0/"
+        }
+      },
+      "image": {
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d7/Gold-crystals.jpg/1280px-Gold-crystals.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "alt": "Picture from the Wikipedia article on Gold.",
+        "credit": "Alchemist-hp www.pse-mendelejew.de",
+        "source": "https://commons.wikimedia.org/wiki/File:Gold-crystals.jpg",
+        "license": "CC BY-SA 3.0 de",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0/de/deed.en"
       }
     }
   ]

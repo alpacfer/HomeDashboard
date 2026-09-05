@@ -3,6 +3,33 @@
   "dateLabel": "16 June",
   "facts": [
     {
+      "id": "06-16-bhutan",
+      "date": "06-16",
+      "dateLabel": "16 June",
+      "category": "world",
+      "categoryName": "World",
+      "year": 2010,
+      "title": "Bhutan",
+      "body": "Bhutan becomes the first country to institute a total ban on tobacco.",
+      "source": {
+        "name": "Wikipedia · Bhutan",
+        "url": "https://en.wikipedia.org/wiki/Bhutan",
+        "calendarUrl": "https://en.wikipedia.org/wiki/June_16",
+        "license": {
+          "name": "CC BY-SA 4.0",
+          "url": "https://creativecommons.org/licenses/by-sa/4.0/"
+        }
+      },
+      "image": {
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/91/Flag_of_Bhutan.svg/1280px-Flag_of_Bhutan.svg.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "alt": "Picture from the Wikipedia article on Bhutan.",
+        "credit": "See File history below for details",
+        "source": "https://commons.wikimedia.org/wiki/File:Flag_of_Bhutan.svg",
+        "license": "Public domain",
+        "licenseUrl": "https://commons.wikimedia.org/wiki/File:Flag_of_Bhutan.svg"
+      }
+    },
+    {
       "id": "06-16-shenzhou-9",
       "date": "06-16",
       "dateLabel": "16 June",
@@ -81,6 +108,33 @@
         "source": "https://commons.wikimedia.org/wiki/File:Oracle_Campus_in_Austin_2018.jpg",
         "license": "CC0",
         "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/deed.en"
+      }
+    },
+    {
+      "id": "06-16-vostok-6",
+      "date": "06-16",
+      "dateLabel": "16 June",
+      "category": "space",
+      "categoryName": "Space",
+      "year": 1963,
+      "title": "Vostok 6",
+      "body": "Cosmonaut Valentina Tereshkova becomes the first woman in space.",
+      "source": {
+        "name": "Wikipedia · Vostok 6",
+        "url": "https://en.wikipedia.org/wiki/Vostok_6",
+        "calendarUrl": "https://en.wikipedia.org/wiki/June_16",
+        "license": {
+          "name": "CC BY-SA 4.0",
+          "url": "https://creativecommons.org/licenses/by-sa/4.0/"
+        }
+      },
+      "image": {
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/49/Vostok_6_capsule_on_display%2C_2016.jpg/1280px-Vostok_6_capsule_on_display%2C_2016.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "alt": "Picture from the Wikipedia article on Vostok 6.",
+        "credit": "Andrew Gray",
+        "source": "https://commons.wikimedia.org/wiki/File:Vostok_6_capsule_on_display,_2016.jpg",
+        "license": "CC BY-SA 3.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0"
       }
     }
   ]

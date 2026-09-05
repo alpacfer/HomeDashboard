@@ -82,6 +82,60 @@
         "license": "Public domain",
         "licenseUrl": "https://commons.wikimedia.org/wiki/File:Marian_Anderson_by_Carl_Van_Vechten_(cropped).jpg"
       }
+    },
+    {
+      "id": "04-09-boeing-737",
+      "date": "04-09",
+      "dateLabel": "9 April",
+      "category": "world",
+      "categoryName": "World",
+      "year": 1967,
+      "title": "Boeing 737",
+      "body": "The first Boeing 737 (a 100 series) makes its maiden flight.",
+      "source": {
+        "name": "Wikipedia · Boeing 737",
+        "url": "https://en.wikipedia.org/wiki/Boeing_737",
+        "calendarUrl": "https://en.wikipedia.org/wiki/April_9",
+        "license": {
+          "name": "CC BY-SA 4.0",
+          "url": "https://creativecommons.org/licenses/by-sa/4.0/"
+        }
+      },
+      "image": {
+        "src": "https://upload.wikimedia.org/wikipedia/commons/e/e9/South_African_Airlink_Boeing_737-200_Advanced_Smith.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+        "alt": "Picture from the Wikipedia article on Boeing 737.",
+        "credit": "Wikimedia Commons",
+        "source": "https://commons.wikimedia.org/wiki/File:South_African_Airlink_Boeing_737-200_Advanced_Smith.jpg",
+        "license": "GFDL 1.2",
+        "licenseUrl": "https://www.gnu.org/licenses/old-licenses/fdl-1.2.html"
+      }
+    },
+    {
+      "id": "04-09-tbilisi",
+      "date": "04-09",
+      "dateLabel": "9 April",
+      "category": "world",
+      "categoryName": "World",
+      "year": 2009,
+      "title": "Tbilisi",
+      "body": "In Tbilisi, Georgia, up to 60,000 people protest against the government of Mikheil Saakashvili.",
+      "source": {
+        "name": "Wikipedia · Tbilisi",
+        "url": "https://en.wikipedia.org/wiki/Tbilisi",
+        "calendarUrl": "https://en.wikipedia.org/wiki/April_9",
+        "license": {
+          "name": "CC BY-SA 4.0",
+          "url": "https://creativecommons.org/licenses/by-sa/4.0/"
+        }
+      },
+      "image": {
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/45/View_of_Tbilisi_from_Tabori_Church_2023-10-08-2.jpg/1280px-View_of_Tbilisi_from_Tabori_Church_2023-10-08-2.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "alt": "Picture from the Wikipedia article on Tbilisi.",
+        "credit": "Alexey Komarov",
+        "source": "https://commons.wikimedia.org/wiki/File:View_of_Tbilisi_from_Tabori_Church_2023-10-08-2.jpg",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0"
+      }
     }
   ]
 }

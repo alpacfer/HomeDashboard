@@ -30,33 +30,6 @@
       }
     },
     {
-      "id": "05-24-amy-johnson",
-      "date": "05-24",
-      "dateLabel": "24 May",
-      "category": "world",
-      "categoryName": "World",
-      "year": 1930,
-      "title": "Amy Johnson",
-      "body": "Amy Johnson lands in Darwin, Northern Territory, becoming the first woman to fly solo from England to Australia (she left on May 5 for the 11,000 mile flight).",
-      "source": {
-        "name": "Wikipedia · Amy Johnson",
-        "url": "https://en.wikipedia.org/wiki/Amy_Johnson",
-        "calendarUrl": "https://en.wikipedia.org/wiki/May_24",
-        "license": {
-          "name": "CC BY-SA 4.0",
-          "url": "https://creativecommons.org/licenses/by-sa/4.0/"
-        }
-      },
-      "image": {
-        "src": "https://upload.wikimedia.org/wikipedia/commons/b/b0/Amy_Johnson_%28Our_Generation%2C_1938%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
-        "alt": "Picture from the Wikipedia article on Amy Johnson.",
-        "credit": "Andy Dingley (scanner)",
-        "source": "https://commons.wikimedia.org/wiki/File:Amy_Johnson_(Our_Generation,_1938).jpg",
-        "license": "Public domain",
-        "licenseUrl": "https://commons.wikimedia.org/wiki/File:Amy_Johnson_(Our_Generation,_1938).jpg"
-      }
-    },
-    {
       "id": "05-24-khorramshahr",
       "date": "05-24",
       "dateLabel": "24 May",
@@ -81,6 +54,97 @@
         "source": "https://commons.wikimedia.org/wiki/File:Nowruz_2018_in_Khorramshahr_(13970109000585636579510470063573_33197).jpg",
         "license": "CC BY 4.0",
         "licenseUrl": "https://creativecommons.org/licenses/by/4.0"
+      }
+    },
+    {
+      "id": "05-24-amy-johnson",
+      "date": "05-24",
+      "dateLabel": "24 May",
+      "category": "world",
+      "categoryName": "World",
+      "year": 1930,
+      "title": "Amy Johnson",
+      "body": "Amy Johnson lands in Darwin, Northern Territory, becoming the first woman to fly solo from England to Australia (she left on May 5 for the 11,000 mile flight).",
+      "source": {
+        "name": "Wikipedia · Amy Johnson",
+        "url": "https://en.wikipedia.org/wiki/Amy_Johnson",
+        "calendarUrl": "https://en.wikipedia.org/wiki/May_24",
+        "license": {
+          "name": "CC BY-SA 4.0",
+          "url": "https://creativecommons.org/licenses/by-sa/4.0/"
+        }
+      },
+      "video": {
+        "src": "https://upload.wikimedia.org/wikipedia/commons/transcoded/f/f2/Amy_Johnson_seeks_Husband%27s_Record.webm/Amy_Johnson_seeks_Husband%27s_Record.webm.240p.vp9.webm",
+        "fallback": "https://upload.wikimedia.org/wikipedia/commons/transcoded/f/f2/Amy_Johnson_seeks_Husband%27s_Record.webm/Amy_Johnson_seeks_Husband%27s_Record.webm.360p.mpeg4.mov",
+        "poster": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f2/Amy_Johnson_seeks_Husband%27s_Record.webm/500px--Amy_Johnson_seeks_Husband%27s_Record.webm.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo",
+        "seconds": 96,
+        "credit": "British Movietone",
+        "source": "https://commons.wikimedia.org/wiki/File:Amy_Johnson_seeks_Husband%27s_Record.webm",
+        "license": "Public domain",
+        "licenseUrl": "https://commons.wikimedia.org/wiki/File:Amy_Johnson_seeks_Husband%27s_Record.webm"
+      },
+      "image": {
+        "src": "https://upload.wikimedia.org/wikipedia/commons/b/b0/Amy_Johnson_%28Our_Generation%2C_1938%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+        "alt": "Picture from the Wikipedia article on Amy Johnson.",
+        "credit": "Andy Dingley",
+        "source": "https://commons.wikimedia.org/wiki/File:Amy_Johnson_(Our_Generation,_1938).jpg",
+        "license": "Public domain",
+        "licenseUrl": "https://commons.wikimedia.org/wiki/File:Amy_Johnson_(Our_Generation,_1938).jpg"
+      }
+    },
+    {
+      "id": "05-24-igor-sikorsky",
+      "date": "05-24",
+      "dateLabel": "24 May",
+      "category": "world",
+      "categoryName": "World",
+      "year": 1940,
+      "title": "Igor Sikorsky",
+      "body": "Igor Sikorsky performs the first successful single-rotor helicopter flight.",
+      "source": {
+        "name": "Wikipedia · Igor Sikorsky",
+        "url": "https://en.wikipedia.org/wiki/Igor_Sikorsky",
+        "calendarUrl": "https://en.wikipedia.org/wiki/May_24",
+        "license": {
+          "name": "CC BY-SA 4.0",
+          "url": "https://creativecommons.org/licenses/by-sa/4.0/"
+        }
+      },
+      "image": {
+        "src": "https://upload.wikimedia.org/wikipedia/commons/4/4d/Sikorsky%2C_Igor.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+        "alt": "Picture from the Wikipedia article on Igor Sikorsky.",
+        "credit": "SDASM Archives",
+        "source": "https://commons.wikimedia.org/wiki/File:Sikorsky,_Igor.jpg",
+        "license": "Public domain",
+        "licenseUrl": "https://commons.wikimedia.org/wiki/File:Sikorsky,_Igor.jpg"
+      }
+    },
+    {
+      "id": "05-24-ashmolean-museum",
+      "date": "05-24",
+      "dateLabel": "24 May",
+      "category": "culture",
+      "categoryName": "Culture",
+      "year": 1683,
+      "title": "Ashmolean Museum",
+      "body": "The Ashmolean Museum in Oxford, England, opens as the world's first university museum.",
+      "source": {
+        "name": "Wikipedia · Ashmolean Museum",
+        "url": "https://en.wikipedia.org/wiki/Ashmolean_Museum",
+        "calendarUrl": "https://en.wikipedia.org/wiki/May_24",
+        "license": {
+          "name": "CC BY-SA 4.0",
+          "url": "https://creativecommons.org/licenses/by-sa/4.0/"
+        }
+      },
+      "image": {
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/6d/Ashmolean_Museum_in_July_2014.jpg/1280px-Ashmolean_Museum_in_July_2014.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "alt": "Picture from the Wikipedia article on Ashmolean Museum.",
+        "credit": "Lewis Clarke",
+        "source": "https://commons.wikimedia.org/wiki/File:Ashmolean_Museum_in_July_2014.jpg",
+        "license": "CC BY-SA 2.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0"
       }
     }
   ]

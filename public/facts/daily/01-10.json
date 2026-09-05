@@ -23,7 +23,7 @@
       "image": {
         "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d8/Lucas_gusher.jpg/1280px-Lucas_gusher.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
         "alt": "Picture from the Wikipedia article on Blowout.",
-        "credit": "Note: Image is available at [1] on the Paleontological Research Institution web site. The site credits the American Petroleum Institute; however, a Texas roadsi",
+        "credit": "Wikimedia Commons",
         "source": "https://commons.wikimedia.org/wiki/File:Lucas_gusher.jpg",
         "license": "Public domain",
         "licenseUrl": "https://commons.wikimedia.org/wiki/File:Lucas_gusher.jpg"
@@ -77,10 +77,64 @@
       "image": {
         "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/20/Metropolitan_Underground_Railway_stations.jpg/1280px-Metropolitan_Underground_Railway_stations.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
         "alt": "Picture from the Wikipedia article on Metropolitan Railway.",
-        "credit": "Unknown (illegible)",
+        "credit": "Unknown",
         "source": "https://commons.wikimedia.org/wiki/File:Metropolitan_Underground_Railway_stations.jpg",
         "license": "Public domain",
         "licenseUrl": "https://commons.wikimedia.org/wiki/File:Metropolitan_Underground_Railway_stations.jpg"
+      }
+    },
+    {
+      "id": "01-10-tashkent-declaration",
+      "date": "01-10",
+      "dateLabel": "10 January",
+      "category": "world",
+      "categoryName": "World",
+      "year": 1966,
+      "title": "Tashkent Declaration",
+      "body": "Tashkent Declaration, a peace agreement between India and Pakistan signed that resolved the Indo-Pakistani War of 1965.",
+      "source": {
+        "name": "Wikipedia · Tashkent Declaration",
+        "url": "https://en.wikipedia.org/wiki/Tashkent_Declaration",
+        "calendarUrl": "https://en.wikipedia.org/wiki/January_10",
+        "license": {
+          "name": "CC BY-SA 4.0",
+          "url": "https://creativecommons.org/licenses/by-sa/4.0/"
+        }
+      },
+      "image": {
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/10/Ayub_Khan_%28ex-president_Pakistan%29%2C_Ayub_Khan_%28links%29_en_Kosygin%2C_Bestanddeelnr_925-3209.jpg/1280px-Ayub_Khan_%28ex-president_Pakistan%29%2C_Ayub_Khan_%28links%29_en_Kosygin%2C_Bestanddeelnr_925-3209.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "alt": "Picture from the Wikipedia article on Tashkent Declaration.",
+        "credit": "Fotograaf Onbekend / Anefo",
+        "source": "https://commons.wikimedia.org/wiki/File:Ayub_Khan_(ex-president_Pakistan),_Ayub_Khan_(links)_en_Kosygin,_Bestanddeelnr_925-3209.jpg",
+        "license": "CC0",
+        "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/deed.en"
+      }
+    },
+    {
+      "id": "01-10-treaty-on-the-non-proliferation-of-nuclear-weapons",
+      "date": "01-10",
+      "dateLabel": "10 January",
+      "category": "world",
+      "categoryName": "World",
+      "year": 2003,
+      "title": "Treaty on the Non-Proliferation of Nuclear Weapons",
+      "body": "North Korea withdraws from the Treaty on the Non-Proliferation of Nuclear Weapons, making it the first state to withdraw from the treaty.",
+      "source": {
+        "name": "Wikipedia · Treaty on the Non-Proliferation of Nuclear Weapons",
+        "url": "https://en.wikipedia.org/wiki/Treaty_on_the_Non-Proliferation_of_Nuclear_Weapons",
+        "calendarUrl": "https://en.wikipedia.org/wiki/January_10",
+        "license": {
+          "name": "CC BY-SA 4.0",
+          "url": "https://creativecommons.org/licenses/by-sa/4.0/"
+        }
+      },
+      "image": {
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/ba/NPT_parties.svg/1280px-NPT_parties.svg.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "alt": "Picture from the Wikipedia article on Treaty on the Non-Proliferation of Nuclear Weapons.",
+        "credit": "Wikimedia Commons",
+        "source": "https://commons.wikimedia.org/wiki/File:NPT_parties.svg",
+        "license": "CC BY-SA 3.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0"
       }
     }
   ]

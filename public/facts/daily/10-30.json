@@ -23,10 +23,37 @@
       "image": {
         "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/34/Flag_of_El_Salvador.svg/1280px-Flag_of_El_Salvador.svg.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
         "alt": "Picture from the Wikipedia article on El Salvador.",
-        "credit": "See File history below for details.",
+        "credit": "See File history below for details",
         "source": "https://commons.wikimedia.org/wiki/File:Flag_of_El_Salvador.svg",
         "license": "Public domain",
         "licenseUrl": "https://commons.wikimedia.org/wiki/File:Flag_of_El_Salvador.svg"
+      }
+    },
+    {
+      "id": "10-30-space-shuttle-challenger",
+      "date": "10-30",
+      "dateLabel": "30 October",
+      "category": "space",
+      "categoryName": "Space",
+      "year": 1985,
+      "title": "Space Shuttle Challenger",
+      "body": "Space Shuttle Challenger lifts off for mission STS-61-A, its final successful mission.",
+      "source": {
+        "name": "Wikipedia · Space Shuttle Challenger",
+        "url": "https://en.wikipedia.org/wiki/Space_Shuttle_Challenger",
+        "calendarUrl": "https://en.wikipedia.org/wiki/October_30",
+        "license": {
+          "name": "CC BY-SA 4.0",
+          "url": "https://creativecommons.org/licenses/by-sa/4.0/"
+        }
+      },
+      "image": {
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/9c/S83-35803_%28cropped%29.jpg/1280px-S83-35803_%28cropped%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "alt": "Picture from the Wikipedia article on Space Shuttle Challenger.",
+        "credit": "NASA",
+        "source": "https://commons.wikimedia.org/wiki/File:S83-35803_(cropped).jpg",
+        "license": "Public domain",
+        "licenseUrl": "https://commons.wikimedia.org/wiki/File:S83-35803_(cropped).jpg"
       }
     },
     {
@@ -57,17 +84,17 @@
       }
     },
     {
-      "id": "10-30-space-shuttle-challenger",
+      "id": "10-30-1983-argentine-general-election",
       "date": "10-30",
       "dateLabel": "30 October",
-      "category": "space",
-      "categoryName": "Space",
-      "year": 1985,
-      "title": "Space Shuttle Challenger",
-      "body": "Space Shuttle Challenger lifts off for mission STS-61-A, its final successful mission.",
+      "category": "world",
+      "categoryName": "World",
+      "year": 1983,
+      "title": "1983 Argentine general election",
+      "body": "The first democratic elections in Argentina, after seven years of military rule, are held.",
       "source": {
-        "name": "Wikipedia · Space Shuttle Challenger",
-        "url": "https://en.wikipedia.org/wiki/Space_Shuttle_Challenger",
+        "name": "Wikipedia · 1983 Argentine general election",
+        "url": "https://en.wikipedia.org/wiki/1983_Argentine_general_election",
         "calendarUrl": "https://en.wikipedia.org/wiki/October_30",
         "license": {
           "name": "CC BY-SA 4.0",
@@ -75,12 +102,39 @@
         }
       },
       "image": {
-        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/9c/S83-35803_%28cropped%29.jpg/1280px-S83-35803_%28cropped%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-        "alt": "Picture from the Wikipedia article on Space Shuttle Challenger.",
-        "credit": "NASA",
-        "source": "https://commons.wikimedia.org/wiki/File:S83-35803_(cropped).jpg",
-        "license": "Public domain",
-        "licenseUrl": "https://commons.wikimedia.org/wiki/File:S83-35803_(cropped).jpg"
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/62/Elecciones_legislativas_de_Argentina_de_1983_-_Resultados_por_distrito.svg/1280px-Elecciones_legislativas_de_Argentina_de_1983_-_Resultados_por_distrito.svg.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "alt": "Picture from the Wikipedia article on 1983 Argentine general election.",
+        "credit": "FelipeRev",
+        "source": "https://commons.wikimedia.org/wiki/File:Elecciones_legislativas_de_Argentina_de_1983_-_Resultados_por_distrito.svg",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0"
+      }
+    },
+    {
+      "id": "10-30-bosphorus-bridge",
+      "date": "10-30",
+      "dateLabel": "30 October",
+      "category": "world",
+      "categoryName": "World",
+      "year": 1973,
+      "title": "Bosphorus Bridge",
+      "body": "The Bosphorus Bridge in Turkey is completed, connecting the continents of Europe and Asia over the Bosphorus for the second time.",
+      "source": {
+        "name": "Wikipedia · Bosphorus Bridge",
+        "url": "https://en.wikipedia.org/wiki/Bosphorus_Bridge",
+        "calendarUrl": "https://en.wikipedia.org/wiki/October_30",
+        "license": {
+          "name": "CC BY-SA 4.0",
+          "url": "https://creativecommons.org/licenses/by-sa/4.0/"
+        }
+      },
+      "image": {
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/ab/Bosphorus_Bridge_%281973%29_in_Istanbul.jpg/1280px-Bosphorus_Bridge_%281973%29_in_Istanbul.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "alt": "Picture from the Wikipedia article on Bosphorus Bridge.",
+        "credit": "Huseyinakbas63",
+        "source": "https://commons.wikimedia.org/wiki/File:Bosphorus_Bridge_(1973)_in_Istanbul.jpg",
+        "license": "CC BY 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by/4.0"
       }
     }
   ]

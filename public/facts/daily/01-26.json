@@ -30,33 +30,6 @@
       }
     },
     {
-      "id": "01-26-audie-murphy",
-      "date": "01-26",
-      "dateLabel": "26 January",
-      "category": "sport",
-      "categoryName": "Sport",
-      "year": 1945,
-      "title": "Audie Murphy",
-      "body": "Audie Murphy displays valor and bravery in action for which he will later be awarded the Medal of Honor.",
-      "source": {
-        "name": "Wikipedia · Audie Murphy",
-        "url": "https://en.wikipedia.org/wiki/Audie_Murphy",
-        "calendarUrl": "https://en.wikipedia.org/wiki/January_26",
-        "license": {
-          "name": "CC BY-SA 4.0",
-          "url": "https://creativecommons.org/licenses/by-sa/4.0/"
-        }
-      },
-      "image": {
-        "src": "https://upload.wikimedia.org/wikipedia/commons/e/e8/Audie_Murphy.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
-        "alt": "Picture from the Wikipedia article on Audie Murphy.",
-        "credit": "U.S. Army (http://www.detrick.army.mil/samc/index.cfm)",
-        "source": "https://commons.wikimedia.org/wiki/File:Audie_Murphy.jpg",
-        "license": "Public domain",
-        "licenseUrl": "https://commons.wikimedia.org/wiki/File:Audie_Murphy.jpg"
-      }
-    },
-    {
       "id": "01-26-diamond",
       "date": "01-26",
       "dateLabel": "26 January",
@@ -81,6 +54,87 @@
         "source": "https://commons.wikimedia.org/wiki/File:Rough_Diamond.jpg",
         "license": "CC0",
         "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/deed.en"
+      }
+    },
+    {
+      "id": "01-26-audie-murphy",
+      "date": "01-26",
+      "dateLabel": "26 January",
+      "category": "sport",
+      "categoryName": "Sport",
+      "year": 1945,
+      "title": "Audie Murphy",
+      "body": "Audie Murphy displays valor and bravery in action for which he will later be awarded the Medal of Honor.",
+      "source": {
+        "name": "Wikipedia · Audie Murphy",
+        "url": "https://en.wikipedia.org/wiki/Audie_Murphy",
+        "calendarUrl": "https://en.wikipedia.org/wiki/January_26",
+        "license": {
+          "name": "CC BY-SA 4.0",
+          "url": "https://creativecommons.org/licenses/by-sa/4.0/"
+        }
+      },
+      "image": {
+        "src": "https://upload.wikimedia.org/wikipedia/commons/e/e8/Audie_Murphy.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+        "alt": "Picture from the Wikipedia article on Audie Murphy.",
+        "credit": "U.S. Army (",
+        "source": "https://commons.wikimedia.org/wiki/File:Audie_Murphy.jpg",
+        "license": "Public domain",
+        "licenseUrl": "https://commons.wikimedia.org/wiki/File:Audie_Murphy.jpg"
+      }
+    },
+    {
+      "id": "01-26-port-egmont",
+      "date": "01-26",
+      "dateLabel": "26 January",
+      "category": "science",
+      "categoryName": "Science",
+      "year": 1765,
+      "title": "Port Egmont",
+      "body": "A British naval expedition arrives at and names Port Egmont in the Falkland Islands, founding a settlement there eight days later. (Arrival was 15 January 1765 O.S.)",
+      "source": {
+        "name": "Wikipedia · Port Egmont",
+        "url": "https://en.wikipedia.org/wiki/Port_Egmont",
+        "calendarUrl": "https://en.wikipedia.org/wiki/January_26",
+        "license": {
+          "name": "CC BY-SA 4.0",
+          "url": "https://creativecommons.org/licenses/by-sa/4.0/"
+        }
+      },
+      "image": {
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/40/Egmont-Soledad.PNG/1280px-Egmont-Soledad.PNG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "alt": "Picture from the Wikipedia article on Port Egmont.",
+        "credit": "Apcbg",
+        "source": "https://commons.wikimedia.org/wiki/File:Egmont-Soledad.PNG",
+        "license": "Public domain",
+        "licenseUrl": "https://commons.wikimedia.org/wiki/File:Egmont-Soledad.PNG"
+      }
+    },
+    {
+      "id": "01-26-hale-telescope",
+      "date": "01-26",
+      "dateLabel": "26 January",
+      "category": "space",
+      "categoryName": "Space",
+      "year": 1949,
+      "title": "Hale Telescope",
+      "body": "The Hale Telescope at Palomar Observatory sees first light under the direction of Edwin Hubble, becoming the largest aperture optical telescope (until BTA-6 is built in 1976).",
+      "source": {
+        "name": "Wikipedia · Hale Telescope",
+        "url": "https://en.wikipedia.org/wiki/Hale_Telescope",
+        "calendarUrl": "https://en.wikipedia.org/wiki/January_26",
+        "license": {
+          "name": "CC BY-SA 4.0",
+          "url": "https://creativecommons.org/licenses/by-sa/4.0/"
+        }
+      },
+      "image": {
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/87/Palomar_Observatory_2012_01.jpg/1280px-Palomar_Observatory_2012_01.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "alt": "Picture from the Wikipedia article on Hale Telescope.",
+        "credit": "Mike Peel",
+        "source": "https://commons.wikimedia.org/wiki/File:Palomar_Observatory_2012_01.jpg",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0"
       }
     }
   ]

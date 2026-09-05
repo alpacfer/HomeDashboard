@@ -50,10 +50,64 @@
       "image": {
         "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/90/China_Clipper_over_San_Francisco.jpg/1280px-China_Clipper_over_San_Francisco.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
         "alt": "Picture from the Wikipedia article on China Clipper.",
-        "credit": "Sunderland, Clyde H., aerial photographer",
+        "credit": "Sunderland",
         "source": "https://commons.wikimedia.org/wiki/File:China_Clipper_over_San_Francisco.jpg",
         "license": "Public domain",
         "licenseUrl": "https://commons.wikimedia.org/wiki/File:China_Clipper_over_San_Francisco.jpg"
+      }
+    },
+    {
+      "id": "11-22-orange-revolution",
+      "date": "11-22",
+      "dateLabel": "22 November",
+      "category": "world",
+      "categoryName": "World",
+      "year": 2004,
+      "title": "Orange Revolution",
+      "body": "The Orange Revolution begins in Ukraine, resulting from the presidential elections.",
+      "source": {
+        "name": "Wikipedia · Orange Revolution",
+        "url": "https://en.wikipedia.org/wiki/Orange_Revolution",
+        "calendarUrl": "https://en.wikipedia.org/wiki/November_22",
+        "license": {
+          "name": "CC BY-SA 4.0",
+          "url": "https://creativecommons.org/licenses/by-sa/4.0/"
+        }
+      },
+      "image": {
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f8/Morning_first_day_of_Orange_Revolution.jpg/1280px-Morning_first_day_of_Orange_Revolution.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "alt": "Picture from the Wikipedia article on Orange Revolution.",
+        "credit": "Serhiy",
+        "source": "https://commons.wikimedia.org/wiki/File:Morning_first_day_of_Orange_Revolution.jpg",
+        "license": "CC BY-SA 3.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0/"
+      }
+    },
+    {
+      "id": "11-22-albert-prince-consort",
+      "date": "11-22",
+      "dateLabel": "22 November",
+      "category": "world",
+      "categoryName": "World",
+      "year": 1855,
+      "title": "Prince Albert of Saxe-Coburg and Gotha",
+      "body": "In Birmingham, England, Albert, Prince Consort lays the foundation stone of the Birmingham and Midland Institute.",
+      "source": {
+        "name": "Wikipedia · Prince Albert of Saxe-Coburg and Gotha",
+        "url": "https://en.wikipedia.org/wiki/Prince_Albert_of_Saxe-Coburg_and_Gotha",
+        "calendarUrl": "https://en.wikipedia.org/wiki/November_22",
+        "license": {
+          "name": "CC BY-SA 4.0",
+          "url": "https://creativecommons.org/licenses/by-sa/4.0/"
+        }
+      },
+      "image": {
+        "src": "https://upload.wikimedia.org/wikipedia/commons/1/1b/Prince_Albert_of_Saxe-Coburg-Gotha_%28cropped%29.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+        "alt": "Picture from the Wikipedia article on Prince Albert of Saxe-Coburg and Gotha.",
+        "credit": "Vernon Heath, published",
+        "source": "https://commons.wikimedia.org/wiki/File:Prince_Albert_of_Saxe-Coburg-Gotha_(cropped).png",
+        "license": "Public domain",
+        "licenseUrl": "https://commons.wikimedia.org/wiki/File:Prince_Albert_of_Saxe-Coburg-Gotha_(cropped).png"
       }
     },
     {

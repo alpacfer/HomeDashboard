@@ -23,7 +23,7 @@
       "image": {
         "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/70/Great_Moon_Hoax_-_Day_4.jpg/1280px-Great_Moon_Hoax_-_Day_4.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
         "alt": "Picture from the Wikipedia article on Great Moon Hoax.",
-        "credit": "Benjamin Henry Day (1810-1889)",
+        "credit": "Benjamin Henry Day",
         "source": "https://commons.wikimedia.org/wiki/File:Great_Moon_Hoax_-_Day_4.jpg",
         "license": "Public domain",
         "licenseUrl": "https://commons.wikimedia.org/wiki/File:Great_Moon_Hoax_-_Day_4.jpg"
@@ -50,7 +50,7 @@
       "image": {
         "src": "https://upload.wikimedia.org/wikipedia/commons/0/01/LinuxCon_Europe_Linus_Torvalds_03_%28cropped%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
         "alt": "Picture from the Wikipedia article on Linus Torvalds.",
-        "credit": "Krd (photo)Von Sprat (crop/extraction)",
+        "credit": "Krd Von Sprat",
         "source": "https://commons.wikimedia.org/wiki/File:LinuxCon_Europe_Linus_Torvalds_03_(cropped).jpg",
         "license": "CC BY-SA 4.0",
         "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0"
@@ -77,10 +77,64 @@
       "image": {
         "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/60/Voyager_spacecraft_model.png/1280px-Voyager_spacecraft_model.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
         "alt": "Picture from the Wikipedia article on Voyager 1.",
-        "credit": "National Aeronautics and Space Administration (NASA)",
+        "credit": "NASA",
         "source": "https://commons.wikimedia.org/wiki/File:Voyager_spacecraft_model.png",
         "license": "Public domain",
         "licenseUrl": "https://commons.wikimedia.org/wiki/File:Voyager_spacecraft_model.png"
+      }
+    },
+    {
+      "id": "08-25-kuomintang",
+      "date": "08-25",
+      "dateLabel": "25 August",
+      "category": "world",
+      "categoryName": "World",
+      "year": 1912,
+      "title": "Kuomintang",
+      "body": "The Kuomintang is founded for the first time in Peking.",
+      "source": {
+        "name": "Wikipedia · Kuomintang",
+        "url": "https://en.wikipedia.org/wiki/Kuomintang",
+        "calendarUrl": "https://en.wikipedia.org/wiki/August_25",
+        "license": {
+          "name": "CC BY-SA 4.0",
+          "url": "https://creativecommons.org/licenses/by-sa/4.0/"
+        }
+      },
+      "image": {
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a1/Emblem_of_the_Kuomintang.svg/1280px-Emblem_of_the_Kuomintang.svg.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "alt": "Picture from the Wikipedia article on Kuomintang.",
+        "credit": "see above",
+        "source": "https://commons.wikimedia.org/wiki/File:Emblem_of_the_Kuomintang.svg",
+        "license": "Public domain",
+        "licenseUrl": "https://commons.wikimedia.org/wiki/File:Emblem_of_the_Kuomintang.svg"
+      }
+    },
+    {
+      "id": "08-25-hugh-glass",
+      "date": "08-25",
+      "dateLabel": "25 August",
+      "category": "science",
+      "categoryName": "Science",
+      "year": 1823,
+      "title": "Hugh Glass",
+      "body": "American fur trapper Hugh Glass is mauled by a grizzly bear while on an expedition in South Dakota.",
+      "source": {
+        "name": "Wikipedia · Hugh Glass",
+        "url": "https://en.wikipedia.org/wiki/Hugh_Glass",
+        "calendarUrl": "https://en.wikipedia.org/wiki/August_25",
+        "license": {
+          "name": "CC BY-SA 4.0",
+          "url": "https://creativecommons.org/licenses/by-sa/4.0/"
+        }
+      },
+      "image": {
+        "src": "https://upload.wikimedia.org/wikipedia/commons/d/d5/Hugh_Glass_News_Article_%28cropped%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+        "alt": "Picture from the Wikipedia article on Hugh Glass.",
+        "credit": "The Milwaukee Journal",
+        "source": "https://commons.wikimedia.org/wiki/File:Hugh_Glass_News_Article_(cropped).jpg",
+        "license": "Public domain",
+        "licenseUrl": "https://commons.wikimedia.org/wiki/File:Hugh_Glass_News_Article_(cropped).jpg"
       }
     }
   ]

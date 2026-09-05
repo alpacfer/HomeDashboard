@@ -30,6 +30,33 @@
       }
     },
     {
+      "id": "05-11-eurovision-song-contest-2024",
+      "date": "05-11",
+      "dateLabel": "11 May",
+      "category": "culture",
+      "categoryName": "Culture",
+      "year": 2024,
+      "title": "Eurovision Song Contest 2024",
+      "body": "The 68th edition of the Eurovision Song Contest is held in Malmö, Sweden. Nemo from Switzerland win with their song \"The Code\", making them the contest's first non-binary winner.",
+      "source": {
+        "name": "Wikipedia · Eurovision Song Contest 2024",
+        "url": "https://en.wikipedia.org/wiki/Eurovision_Song_Contest_2024",
+        "calendarUrl": "https://en.wikipedia.org/wiki/May_11",
+        "license": {
+          "name": "CC BY-SA 4.0",
+          "url": "https://creativecommons.org/licenses/by-sa/4.0/"
+        }
+      },
+      "image": {
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/ba/ESC_2024_Map_2.svg/1280px-ESC_2024_Map_2.svg.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "alt": "Picture from the Wikipedia article on Eurovision Song Contest 2024.",
+        "credit": "ImStevan",
+        "source": "https://commons.wikimedia.org/wiki/File:ESC_2024_Map_2.svg",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0"
+      }
+    },
+    {
       "id": "05-11-space-shuttle-atlantis",
       "date": "05-11",
       "dateLabel": "11 May",
@@ -57,17 +84,17 @@
       }
     },
     {
-      "id": "05-11-minnesota",
+      "id": "05-11-deep-blue-chess-computer",
       "date": "05-11",
       "dateLabel": "11 May",
-      "category": "world",
-      "categoryName": "World",
-      "year": 1858,
-      "title": "Minnesota",
-      "body": "Minnesota becomes the 32nd U.S. state.",
+      "category": "tech",
+      "categoryName": "Tech",
+      "year": 1997,
+      "title": "Deep Blue",
+      "body": "Deep Blue, a chess-playing supercomputer, defeats Garry Kasparov in the last game of the rematch, becoming the first computer to beat a world-champion chess player in a classic match format.",
       "source": {
-        "name": "Wikipedia · Minnesota",
-        "url": "https://en.wikipedia.org/wiki/Minnesota",
+        "name": "Wikipedia · Deep Blue (chess computer)",
+        "url": "https://en.wikipedia.org/wiki/Deep_Blue_(chess_computer)",
         "calendarUrl": "https://en.wikipedia.org/wiki/May_11",
         "license": {
           "name": "CC BY-SA 4.0",
@@ -75,12 +102,39 @@
         }
       },
       "image": {
-        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b9/Flag_of_Minnesota.svg/1280px-Flag_of_Minnesota.svg.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-        "alt": "Picture from the Wikipedia article on Minnesota.",
-        "credit": "Original: Minnesota State Emblems Redesign Commission Vector: Jamie Eilat, Undertiago",
-        "source": "https://commons.wikimedia.org/wiki/File:Flag_of_Minnesota.svg",
+        "src": "https://upload.wikimedia.org/wikipedia/commons/b/be/Deep_Blue.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+        "alt": "Picture from the Wikipedia article on Deep Blue.",
+        "credit": "James the photographer",
+        "source": "https://commons.wikimedia.org/wiki/File:Deep_Blue.jpg",
+        "license": "CC BY 2.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by/2.0"
+      }
+    },
+    {
+      "id": "05-11-pentagon-papers",
+      "date": "05-11",
+      "dateLabel": "11 May",
+      "category": "world",
+      "categoryName": "World",
+      "year": 1973,
+      "title": "Pentagon Papers",
+      "body": "Citing government misconduct, Daniel Ellsberg's charges for his involvement in releasing the Pentagon Papers to The New York Times are dismissed.",
+      "source": {
+        "name": "Wikipedia · Pentagon Papers",
+        "url": "https://en.wikipedia.org/wiki/Pentagon_Papers",
+        "calendarUrl": "https://en.wikipedia.org/wiki/May_11",
+        "license": {
+          "name": "CC BY-SA 4.0",
+          "url": "https://creativecommons.org/licenses/by-sa/4.0/"
+        }
+      },
+      "image": {
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/31/Dissident_Activities_in_Indochina.svg/1280px-Dissident_Activities_in_Indochina.svg.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "alt": "Picture from the Wikipedia article on Pentagon Papers.",
+        "credit": "Central Intelligence Agency",
+        "source": "https://commons.wikimedia.org/wiki/File:Dissident_Activities_in_Indochina.svg",
         "license": "Public domain",
-        "licenseUrl": "https://commons.wikimedia.org/wiki/File:Flag_of_Minnesota.svg"
+        "licenseUrl": "https://commons.wikimedia.org/wiki/File:Dissident_Activities_in_Indochina.svg"
       }
     }
   ]

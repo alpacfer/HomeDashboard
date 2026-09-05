@@ -30,17 +30,17 @@
       }
     },
     {
-      "id": "07-04-flag-of-the-united-states",
+      "id": "07-04-higgs-boson",
       "date": "07-04",
       "dateLabel": "4 July",
-      "category": "world",
-      "categoryName": "World",
-      "year": 1960,
-      "title": "Flag of the United States",
-      "body": "The 50-star flag of the United States debuts in Philadelphia following the admission of Hawaii as the 50th U.S. state over ten months prior (August 21, 1959), in accordance with the Flag Acts.",
+      "category": "science",
+      "categoryName": "Science",
+      "year": 2012,
+      "title": "Higgs boson",
+      "body": "The discovery of particles consistent with the Higgs boson at the Large Hadron Collider is announced at CERN.",
       "source": {
-        "name": "Wikipedia · Flag of the United States",
-        "url": "https://en.wikipedia.org/wiki/Flag_of_the_United_States",
+        "name": "Wikipedia · Higgs boson",
+        "url": "https://en.wikipedia.org/wiki/Higgs_boson",
         "calendarUrl": "https://en.wikipedia.org/wiki/July_4",
         "license": {
           "name": "CC BY-SA 4.0",
@@ -48,12 +48,12 @@
         }
       },
       "image": {
-        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/96/Flag_of_the_United_States_%28DDD-F-416E_specifications%29.svg/1280px-Flag_of_the_United_States_%28DDD-F-416E_specifications%29.svg.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-        "alt": "Picture from the Wikipedia article on Flag of the United States.",
-        "credit": "Vector file created by Dbenbenn, Zscout370, Jacobolus, Indolences, and Technion.",
-        "source": "https://commons.wikimedia.org/wiki/File:Flag_of_the_United_States_(DDD-F-416E_specifications).svg",
-        "license": "Public domain",
-        "licenseUrl": "https://commons.wikimedia.org/wiki/File:Flag_of_the_United_States_(DDD-F-416E_specifications).svg"
+        "src": "https://upload.wikimedia.org/wikipedia/commons/7/79/Candidate_Higgs_Events_in_ATLAS_and_CMS.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+        "alt": "Picture from the Wikipedia article on Higgs boson.",
+        "credit": "CERN",
+        "source": "https://commons.wikimedia.org/wiki/File:Candidate_Higgs_Events_in_ATLAS_and_CMS.png",
+        "license": "CC BY-SA 3.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0"
       }
     },
     {
@@ -81,6 +81,60 @@
         "source": "https://commons.wikimedia.org/wiki/File:Shockley.jpg",
         "license": "Public domain",
         "licenseUrl": "https://commons.wikimedia.org/wiki/File:Shockley.jpg"
+      }
+    },
+    {
+      "id": "07-04-chile-national-football-team",
+      "date": "07-04",
+      "dateLabel": "4 July",
+      "category": "sport",
+      "categoryName": "Sport",
+      "year": 2015,
+      "title": "Chile national football team",
+      "body": "Chile claims its first title in international football by defeating Argentina in the 2015 Copa América final.",
+      "source": {
+        "name": "Wikipedia · Chile national football team",
+        "url": "https://en.wikipedia.org/wiki/Chile_national_football_team",
+        "calendarUrl": "https://en.wikipedia.org/wiki/July_4",
+        "license": {
+          "name": "CC BY-SA 4.0",
+          "url": "https://creativecommons.org/licenses/by-sa/4.0/"
+        }
+      },
+      "image": {
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f1/Federaci%C3%B3n_de_F%C3%BAtbol_de_Chile_logo.svg/1280px-Federaci%C3%B3n_de_F%C3%BAtbol_de_Chile_logo.svg.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "alt": "Picture from the Wikipedia article on Chile national football team.",
+        "credit": "Original",
+        "source": "https://commons.wikimedia.org/wiki/File:Federaci%C3%B3n_de_F%C3%BAtbol_de_Chile_logo.svg",
+        "license": "Public domain",
+        "licenseUrl": "https://commons.wikimedia.org/wiki/File:Federaci%C3%B3n_de_F%C3%BAtbol_de_Chile_logo.svg"
+      }
+    },
+    {
+      "id": "07-04-mars-pathfinder",
+      "date": "07-04",
+      "dateLabel": "4 July",
+      "category": "space",
+      "categoryName": "Space",
+      "year": 1997,
+      "title": "Mars Pathfinder",
+      "body": "NASA's Pathfinder space probe lands on the surface of Mars.",
+      "source": {
+        "name": "Wikipedia · Mars Pathfinder",
+        "url": "https://en.wikipedia.org/wiki/Mars_Pathfinder",
+        "calendarUrl": "https://en.wikipedia.org/wiki/July_4",
+        "license": {
+          "name": "CC BY-SA 4.0",
+          "url": "https://creativecommons.org/licenses/by-sa/4.0/"
+        }
+      },
+      "image": {
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/7f/Mars_Pathfinder_Lander_preparations.jpg/1280px-Mars_Pathfinder_Lander_preparations.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "alt": "Picture from the Wikipedia article on Mars Pathfinder.",
+        "credit": "NASA",
+        "source": "https://commons.wikimedia.org/wiki/File:Mars_Pathfinder_Lander_preparations.jpg",
+        "license": "Public domain",
+        "licenseUrl": "https://commons.wikimedia.org/wiki/File:Mars_Pathfinder_Lander_preparations.jpg"
       }
     }
   ]

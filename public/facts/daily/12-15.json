@@ -50,7 +50,7 @@
       "image": {
         "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/27/Poster_-_Gone_With_the_Wind_01.jpg/1280px-Poster_-_Gone_With_the_Wind_01.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
         "alt": "Picture from the Wikipedia article on Gone with the Wind.",
-        "credit": "Armando Seguso (per Heritage Auctions)",
+        "credit": "Armando Seguso",
         "source": "https://commons.wikimedia.org/wiki/File:Poster_-_Gone_With_the_Wind_01.jpg",
         "license": "Public domain",
         "licenseUrl": "https://commons.wikimedia.org/wiki/File:Poster_-_Gone_With_the_Wind_01.jpg"
@@ -77,10 +77,64 @@
       "image": {
         "src": "https://upload.wikimedia.org/wikipedia/commons/1/1b/COLLECTIE_TROPENMUSEUM_Telegrafist_die_telegrammen_ontvangt_op_Sabang_TMnr_10022280.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
         "alt": "Picture from the Wikipedia article on Telegraphist.",
-        "credit": "Collectie Wereldmuseum (v/h Tropenmuseum), part of the National Museum of World Cultures",
+        "credit": "Collectie Wereldmuseum",
         "source": "https://commons.wikimedia.org/wiki/File:COLLECTIE_TROPENMUSEUM_Telegrafist_die_telegrammen_ontvangt_op_Sabang_TMnr_10022280.jpg",
         "license": "CC BY-SA 3.0",
         "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0"
+      }
+    },
+    {
+      "id": "12-15-italian-american",
+      "date": "12-15",
+      "dateLabel": "15 December",
+      "category": "science",
+      "categoryName": "Science",
+      "year": 1903,
+      "title": "Italian Americans",
+      "body": "Italian American food cart vendor Italo Marchiony receives a U.S. patent for inventing a machine that makes ice cream cones.",
+      "source": {
+        "name": "Wikipedia · Italian Americans",
+        "url": "https://en.wikipedia.org/wiki/Italian_Americans",
+        "calendarUrl": "https://en.wikipedia.org/wiki/December_15",
+        "license": {
+          "name": "CC BY-SA 4.0",
+          "url": "https://creativecommons.org/licenses/by-sa/4.0/"
+        }
+      },
+      "image": {
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b8/Map_of_Italian_Americans_in_2023.png/1280px-Map_of_Italian_Americans_in_2023.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "alt": "Picture from the Wikipedia article on Italian Americans.",
+        "credit": "Lightandtruth",
+        "source": "https://commons.wikimedia.org/wiki/File:Map_of_Italian_Americans_in_2023.png",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0"
+      }
+    },
+    {
+      "id": "12-15-leaning-tower-of-pisa",
+      "date": "12-15",
+      "dateLabel": "15 December",
+      "category": "world",
+      "categoryName": "World",
+      "year": 2001,
+      "title": "Leaning Tower of Pisa",
+      "body": "The Leaning Tower of Pisa reopens after 11 years and $27,000,000 spent to stabilize it, without fixing its famous lean.",
+      "source": {
+        "name": "Wikipedia · Leaning Tower of Pisa",
+        "url": "https://en.wikipedia.org/wiki/Leaning_Tower_of_Pisa",
+        "calendarUrl": "https://en.wikipedia.org/wiki/December_15",
+        "license": {
+          "name": "CC BY-SA 4.0",
+          "url": "https://creativecommons.org/licenses/by-sa/4.0/"
+        }
+      },
+      "image": {
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/4b/Italy_-_Pisa_-_Leaning_Tower.jpg/1280px-Italy_-_Pisa_-_Leaning_Tower.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "alt": "Picture from the Wikipedia article on Leaning Tower of Pisa.",
+        "credit": "Arne Müseler / www.arne-mueseler.com",
+        "source": "https://commons.wikimedia.org/wiki/File:Italy_-_Pisa_-_Leaning_Tower.jpg",
+        "license": "CC BY-SA 3.0 de",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0/de/deed.en"
       }
     }
   ]

@@ -23,7 +23,7 @@
       "image": {
         "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/60/Voyager_spacecraft_model.png/1280px-Voyager_spacecraft_model.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
         "alt": "Picture from the Wikipedia article on Voyager 1.",
-        "credit": "National Aeronautics and Space Administration (NASA)",
+        "credit": "NASA",
         "source": "https://commons.wikimedia.org/wiki/File:Voyager_spacecraft_model.png",
         "license": "Public domain",
         "licenseUrl": "https://commons.wikimedia.org/wiki/File:Voyager_spacecraft_model.png"
@@ -81,6 +81,60 @@
         "source": "https://commons.wikimedia.org/wiki/File:Jack_Kilby_(cropped).png",
         "license": "CC BY-SA 4.0",
         "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0"
+      }
+    },
+    {
+      "id": "09-12-gustav-mahler",
+      "date": "09-12",
+      "dateLabel": "12 September",
+      "category": "culture",
+      "categoryName": "Culture",
+      "year": 1910,
+      "title": "Gustav Mahler",
+      "body": "Premiere performance of Gustav Mahler's Symphony No. 8 in Munich (with a chorus of 852 singers and an orchestra of 171 players. Mahler's rehearsal assistant conductor was Bruno Walter).",
+      "source": {
+        "name": "Wikipedia · Gustav Mahler",
+        "url": "https://en.wikipedia.org/wiki/Gustav_Mahler",
+        "calendarUrl": "https://en.wikipedia.org/wiki/September_12",
+        "license": {
+          "name": "CC BY-SA 4.0",
+          "url": "https://creativecommons.org/licenses/by-sa/4.0/"
+        }
+      },
+      "image": {
+        "src": "https://upload.wikimedia.org/wikipedia/commons/0/06/Photo_of_Gustav_Mahler_by_Moritz_N%C3%A4hr_01.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+        "alt": "Picture from the Wikipedia article on Gustav Mahler.",
+        "credit": "Moritz Nähr",
+        "source": "https://commons.wikimedia.org/wiki/File:Photo_of_Gustav_Mahler_by_Moritz_N%C3%A4hr_01.jpg",
+        "license": "Public domain",
+        "licenseUrl": "https://commons.wikimedia.org/wiki/File:Photo_of_Gustav_Mahler_by_Moritz_N%C3%A4hr_01.jpg"
+      }
+    },
+    {
+      "id": "09-12-gemini-11",
+      "date": "09-12",
+      "dateLabel": "12 September",
+      "category": "space",
+      "categoryName": "Space",
+      "year": 1966,
+      "title": "Gemini 11",
+      "body": "Gemini 11, the penultimate mission of NASA's Gemini program, and the current human altitude record holder (except for the Apollo lunar missions).",
+      "source": {
+        "name": "Wikipedia · Gemini 11",
+        "url": "https://en.wikipedia.org/wiki/Gemini_11",
+        "calendarUrl": "https://en.wikipedia.org/wiki/September_12",
+        "license": {
+          "name": "CC BY-SA 4.0",
+          "url": "https://creativecommons.org/licenses/by-sa/4.0/"
+        }
+      },
+      "image": {
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b2/Gemini_11_Agena.jpg/1280px-Gemini_11_Agena.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "alt": "Picture from the Wikipedia article on Gemini 11.",
+        "credit": "NASA",
+        "source": "https://commons.wikimedia.org/wiki/File:Gemini_11_Agena.jpg",
+        "license": "Public domain",
+        "licenseUrl": "https://commons.wikimedia.org/wiki/File:Gemini_11_Agena.jpg"
       }
     }
   ]

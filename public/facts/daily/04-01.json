@@ -57,17 +57,17 @@
       }
     },
     {
-      "id": "04-01-islamic-republic",
+      "id": "04-01-steve-jobs",
       "date": "04-01",
       "dateLabel": "1 April",
-      "category": "world",
-      "categoryName": "World",
-      "year": 1979,
-      "title": "Islamic republic",
-      "body": "Iran becomes an Islamic republic by a 99% vote, officially overthrowing the Shah.",
+      "category": "tech",
+      "categoryName": "Tech",
+      "year": 1976,
+      "title": "Steve Jobs",
+      "body": "Steve Jobs and Steve Wozniak found Apple Computer, Inc.",
       "source": {
-        "name": "Wikipedia · Islamic republic",
-        "url": "https://en.wikipedia.org/wiki/Islamic_republic",
+        "name": "Wikipedia · Steve Jobs",
+        "url": "https://en.wikipedia.org/wiki/Steve_Jobs",
         "calendarUrl": "https://en.wikipedia.org/wiki/April_1",
         "license": {
           "name": "CC BY-SA 4.0",
@@ -75,12 +75,66 @@
         }
       },
       "image": {
-        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e5/Shahada_green.svg/1280px-Shahada_green.svg.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-        "alt": "Picture from the Wikipedia article on Islamic republic.",
-        "credit": "The Cheesedealer",
-        "source": "https://commons.wikimedia.org/wiki/File:Shahada_green.svg",
-        "license": "CC BY-SA 4.0",
-        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0"
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/51/Steve_Jobs_Headshot_2010_%28cropped_4%29.jpg/1280px-Steve_Jobs_Headshot_2010_%28cropped_4%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "alt": "Picture from the Wikipedia article on Steve Jobs.",
+        "credit": "Matthew Yohe at en.wikipedia",
+        "source": "https://commons.wikimedia.org/wiki/File:Steve_Jobs_Headshot_2010_(cropped_4).jpg",
+        "license": "CC BY-SA 3.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0"
+      }
+    },
+    {
+      "id": "04-01-comet-hale-bopp",
+      "date": "04-01",
+      "dateLabel": "1 April",
+      "category": "space",
+      "categoryName": "Space",
+      "year": 1997,
+      "title": "Comet Hale–Bopp",
+      "body": "Comet Hale–Bopp is seen passing at perihelion.",
+      "source": {
+        "name": "Wikipedia · Comet Hale–Bopp",
+        "url": "https://en.wikipedia.org/wiki/Comet_Hale%E2%80%93Bopp",
+        "calendarUrl": "https://en.wikipedia.org/wiki/April_1",
+        "license": {
+          "name": "CC BY-SA 4.0",
+          "url": "https://creativecommons.org/licenses/by-sa/4.0/"
+        }
+      },
+      "image": {
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/ba/Comet_Hale-Bopp_1995O1.jpg/1280px-Comet_Hale-Bopp_1995O1.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "alt": "Picture from the Wikipedia article on Comet Hale–Bopp.",
+        "credit": "E. Kolmhofer, H. Raab",
+        "source": "https://commons.wikimedia.org/wiki/File:Comet_Hale-Bopp_1995O1.jpg",
+        "license": "CC BY-SA 3.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0"
+      }
+    },
+    {
+      "id": "04-01-local-government",
+      "date": "04-01",
+      "dateLabel": "1 April",
+      "category": "world",
+      "categoryName": "World",
+      "year": 1989,
+      "title": "Local government",
+      "body": "Margaret Thatcher's new local government tax, the Community Charge (commonly known as the \"poll tax\"), is introduced in Scotland.",
+      "source": {
+        "name": "Wikipedia · Local government",
+        "url": "https://en.wikipedia.org/wiki/Local_government",
+        "calendarUrl": "https://en.wikipedia.org/wiki/April_1",
+        "license": {
+          "name": "CC BY-SA 4.0",
+          "url": "https://creativecommons.org/licenses/by-sa/4.0/"
+        }
+      },
+      "image": {
+        "src": "https://upload.wikimedia.org/wikipedia/commons/b/b6/Jyv%C3%A4skyl%C3%A4_city_council_1925.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+        "alt": "Picture from the Wikipedia article on Local government.",
+        "credit": "Unknown author",
+        "source": "https://commons.wikimedia.org/wiki/File:Jyv%C3%A4skyl%C3%A4_city_council_1925.jpg",
+        "license": "Public domain",
+        "licenseUrl": "https://commons.wikimedia.org/wiki/File:Jyv%C3%A4skyl%C3%A4_city_council_1925.jpg"
       }
     }
   ]

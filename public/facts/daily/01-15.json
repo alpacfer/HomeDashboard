@@ -23,10 +23,64 @@
       "image": {
         "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/80/Wikipedia-logo-v2.svg/1280px-Wikipedia-logo-v2.svg.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
         "alt": "An early screenshot of the Wikipedia main page.",
-        "credit": "Version 1 by Nohat (concept by Paullusmagnus); Wikimedia.",
+        "credit": "Version 1 by Nohat; Wikimedia",
         "source": "https://commons.wikimedia.org/wiki/File:Wikipedia-logo-v2.svg",
         "license": "CC BY-SA 3.0",
         "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0"
+      }
+    },
+    {
+      "id": "01-15-european-space-agency",
+      "date": "01-15",
+      "dateLabel": "15 January",
+      "category": "space",
+      "categoryName": "Space",
+      "year": 2005,
+      "title": "European Space Agency",
+      "body": "ESA's SMART-1 lunar orbiter discovers elements such as calcium, aluminum, silicon, iron, and other surface elements on the Moon.",
+      "source": {
+        "name": "Wikipedia · European Space Agency",
+        "url": "https://en.wikipedia.org/wiki/European_Space_Agency",
+        "calendarUrl": "https://en.wikipedia.org/wiki/January_15",
+        "license": {
+          "name": "CC BY-SA 4.0",
+          "url": "https://creativecommons.org/licenses/by-sa/4.0/"
+        }
+      },
+      "image": {
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/96/ESA_Headquarters_in_Paris.jpg/1280px-ESA_Headquarters_in_Paris.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "alt": "Picture from the Wikipedia article on European Space Agency.",
+        "credit": "ESA/P. Sebirot, CC BY-SA 3.0 IGO",
+        "source": "https://commons.wikimedia.org/wiki/File:ESA_Headquarters_in_Paris.jpg",
+        "license": "CC BY-SA 3.0 igo",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0/igo/deed.en"
+      }
+    },
+    {
+      "id": "01-15-super-bowl",
+      "date": "01-15",
+      "dateLabel": "15 January",
+      "category": "sport",
+      "categoryName": "Sport",
+      "year": 1967,
+      "title": "Super Bowl",
+      "body": "The first Super Bowl is played in Los Angeles. The Green Bay Packers defeat the Kansas City Chiefs 35–10.",
+      "source": {
+        "name": "Wikipedia · Super Bowl",
+        "url": "https://en.wikipedia.org/wiki/Super_Bowl",
+        "calendarUrl": "https://en.wikipedia.org/wiki/January_15",
+        "license": {
+          "name": "CC BY-SA 4.0",
+          "url": "https://creativecommons.org/licenses/by-sa/4.0/"
+        }
+      },
+      "image": {
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d0/Super_Bowl_rings_on_display.jpg/1280px-Super_Bowl_rings_on_display.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "alt": "Picture from the Wikipedia article on Super Bowl.",
+        "credit": "John Tornow",
+        "source": "https://commons.wikimedia.org/wiki/File:Super_Bowl_rings_on_display.jpg",
+        "license": "CC BY 2.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by/2.0"
       }
     },
     {
@@ -57,17 +111,17 @@
       }
     },
     {
-      "id": "01-15-european-space-agency",
+      "id": "01-15-british-museum",
       "date": "01-15",
       "dateLabel": "15 January",
-      "category": "space",
-      "categoryName": "Space",
-      "year": 2005,
-      "title": "European Space Agency",
-      "body": "ESA's SMART-1 lunar orbiter discovers elements such as calcium, aluminum, silicon, iron, and other surface elements on the Moon.",
+      "category": "culture",
+      "categoryName": "Culture",
+      "year": 1759,
+      "title": "British Museum",
+      "body": "The British Museum opens to the public.",
       "source": {
-        "name": "Wikipedia · European Space Agency",
-        "url": "https://en.wikipedia.org/wiki/European_Space_Agency",
+        "name": "Wikipedia · British Museum",
+        "url": "https://en.wikipedia.org/wiki/British_Museum",
         "calendarUrl": "https://en.wikipedia.org/wiki/January_15",
         "license": {
           "name": "CC BY-SA 4.0",
@@ -75,12 +129,12 @@
         }
       },
       "image": {
-        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/96/ESA_Headquarters_in_Paris.jpg/1280px-ESA_Headquarters_in_Paris.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-        "alt": "Picture from the Wikipedia article on European Space Agency.",
-        "credit": "ESA/P. Sebirot, CC BY-SA 3.0 IGO",
-        "source": "https://commons.wikimedia.org/wiki/File:ESA_Headquarters_in_Paris.jpg",
-        "license": "CC BY-SA 3.0 igo",
-        "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0/igo/deed.en"
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/86/British_Museum_%28aerial%29.jpg/1280px-British_Museum_%28aerial%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "alt": "Picture from the Wikipedia article on British Museum.",
+        "credit": "Luke Massey & the Greater London…",
+        "source": "https://commons.wikimedia.org/wiki/File:British_Museum_(aerial).jpg",
+        "license": "CC BY 2.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by/2.0"
       }
     }
   ]

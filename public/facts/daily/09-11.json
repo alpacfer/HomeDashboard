@@ -3,17 +3,17 @@
   "dateLabel": "11 September",
   "facts": [
     {
-      "id": "09-11-mars-global-surveyor",
+      "id": "09-11-soyuz-ms-26",
       "date": "09-11",
       "dateLabel": "11 September",
       "category": "space",
       "categoryName": "Space",
-      "year": 1997,
-      "title": "Mars Global Surveyor",
-      "body": "NASA's Mars Global Surveyor reaches Mars.",
+      "year": 2024,
+      "title": "Soyuz MS-26",
+      "body": "Soyuz MS-26 is launched to the International Space Station, setting a record of 19 people in orbit at the same time.",
       "source": {
-        "name": "Wikipedia · Mars Global Surveyor",
-        "url": "https://en.wikipedia.org/wiki/Mars_Global_Surveyor",
+        "name": "Wikipedia · Soyuz MS-26",
+        "url": "https://en.wikipedia.org/wiki/Soyuz_MS-26",
         "calendarUrl": "https://en.wikipedia.org/wiki/September_11",
         "license": {
           "name": "CC BY-SA 4.0",
@@ -21,12 +21,12 @@
         }
       },
       "image": {
-        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d8/Mars_global_surveyor.jpg/1280px-Mars_global_surveyor.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-        "alt": "Picture from the Wikipedia article on Mars Global Surveyor.",
-        "credit": "NASA/JPL-Caltech/Corby Waste",
-        "source": "https://commons.wikimedia.org/wiki/File:Mars_global_surveyor.jpg",
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/1c/Iss071e629830_%28Sept._11%2C_2024%29_---_The_Soyuz_MS-26_spacecraft.jpg/1280px-Iss071e629830_%28Sept._11%2C_2024%29_---_The_Soyuz_MS-26_spacecraft.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "alt": "Picture from the Wikipedia article on Soyuz MS-26.",
+        "credit": "NASA Johnson Space Center",
+        "source": "https://commons.wikimedia.org/wiki/File:Iss071e629830_(Sept._11,_2024)_---_The_Soyuz_MS-26_spacecraft.jpg",
         "license": "Public domain",
-        "licenseUrl": "https://commons.wikimedia.org/wiki/File:Mars_global_surveyor.jpg"
+        "licenseUrl": "https://commons.wikimedia.org/wiki/File:Iss071e629830_(Sept._11,_2024)_---_The_Soyuz_MS-26_spacecraft.jpg"
       }
     },
     {
@@ -50,10 +50,37 @@
       "image": {
         "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/97/Flag_of_the_German_Democratic_Republic.svg/1280px-Flag_of_the_German_Democratic_Republic.svg.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
         "alt": "Picture from the Wikipedia article on East Germany.",
-        "credit": "Deutsche Demokratische Republik Flaggenentwurf: Fritz Behrendt",
+        "credit": "Deutsche Demokratische Republik…",
         "source": "https://commons.wikimedia.org/wiki/File:Flag_of_the_German_Democratic_Republic.svg",
         "license": "Public domain",
         "licenseUrl": "https://commons.wikimedia.org/wiki/File:Flag_of_the_German_Democratic_Republic.svg"
+      }
+    },
+    {
+      "id": "09-11-benedict-arnold-s-expedition-to-quebec",
+      "date": "09-11",
+      "dateLabel": "11 September",
+      "category": "science",
+      "categoryName": "Science",
+      "year": 1775,
+      "title": "Benedict Arnold's expedition to Quebec",
+      "body": "Benedict Arnold's expedition to Quebec leaves Cambridge, Massachusetts.",
+      "source": {
+        "name": "Wikipedia · Benedict Arnold's expedition to Quebec",
+        "url": "https://en.wikipedia.org/wiki/Benedict_Arnold%27s_expedition_to_Quebec",
+        "calendarUrl": "https://en.wikipedia.org/wiki/September_11",
+        "license": {
+          "name": "CC BY-SA 4.0",
+          "url": "https://creativecommons.org/licenses/by-sa/4.0/"
+        }
+      },
+      "image": {
+        "src": "https://upload.wikimedia.org/wikipedia/commons/a/a8/CaratunkME_ArnoldExpeditionMarker.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+        "alt": "Picture from the Wikipedia article on Benedict Arnold's expedition to Quebec.",
+        "credit": "Magicpiano",
+        "source": "https://commons.wikimedia.org/wiki/File:CaratunkME_ArnoldExpeditionMarker.jpg",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0"
       }
     },
     {
@@ -81,6 +108,33 @@
         "source": "https://commons.wikimedia.org/wiki/File:Hope_Diamond.jpg",
         "license": "CC BY-SA 3.0",
         "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0/"
+      }
+    },
+    {
+      "id": "09-11-mars-global-surveyor",
+      "date": "09-11",
+      "dateLabel": "11 September",
+      "category": "space",
+      "categoryName": "Space",
+      "year": 1997,
+      "title": "Mars Global Surveyor",
+      "body": "NASA's Mars Global Surveyor reaches Mars.",
+      "source": {
+        "name": "Wikipedia · Mars Global Surveyor",
+        "url": "https://en.wikipedia.org/wiki/Mars_Global_Surveyor",
+        "calendarUrl": "https://en.wikipedia.org/wiki/September_11",
+        "license": {
+          "name": "CC BY-SA 4.0",
+          "url": "https://creativecommons.org/licenses/by-sa/4.0/"
+        }
+      },
+      "image": {
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d8/Mars_global_surveyor.jpg/1280px-Mars_global_surveyor.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "alt": "Picture from the Wikipedia article on Mars Global Surveyor.",
+        "credit": "NASA/JPL-Caltech/Corby Waste",
+        "source": "https://commons.wikimedia.org/wiki/File:Mars_global_surveyor.jpg",
+        "license": "Public domain",
+        "licenseUrl": "https://commons.wikimedia.org/wiki/File:Mars_global_surveyor.jpg"
       }
     }
   ]

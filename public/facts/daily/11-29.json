@@ -3,33 +3,6 @@
   "dateLabel": "29 November",
   "facts": [
     {
-      "id": "11-29-michael-jackson",
-      "date": "11-29",
-      "dateLabel": "29 November",
-      "category": "culture",
-      "categoryName": "Culture",
-      "year": 1982,
-      "title": "Michael Jackson",
-      "body": "Michael Jackson releases Thriller, the best-selling music album of all time.",
-      "source": {
-        "name": "Wikipedia · Michael Jackson",
-        "url": "https://en.wikipedia.org/wiki/Michael_Jackson",
-        "calendarUrl": "https://en.wikipedia.org/wiki/November_29",
-        "license": {
-          "name": "CC BY-SA 4.0",
-          "url": "https://creativecommons.org/licenses/by-sa/4.0/"
-        }
-      },
-      "image": {
-        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b9/Michael_Jackson_1983_%283x4_cropped%29_%28contrast%29.jpg/1280px-Michael_Jackson_1983_%283x4_cropped%29_%28contrast%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-        "alt": "Picture from the Wikipedia article on Michael Jackson.",
-        "credit": "Matthew Rolston; Distributed by Epic Records",
-        "source": "https://commons.wikimedia.org/wiki/File:Michael_Jackson_1983_(3x4_cropped)_(contrast).jpg",
-        "license": "Public domain",
-        "licenseUrl": "https://commons.wikimedia.org/wiki/File:Michael_Jackson_1983_(3x4_cropped)_(contrast).jpg"
-      }
-    },
-    {
       "id": "11-29-atari-inc",
       "date": "11-29",
       "dateLabel": "29 November",
@@ -50,10 +23,64 @@
       "image": {
         "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/3e/Atari_logo_alt.svg/1280px-Atari_logo_alt.svg.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
         "alt": "Picture from the Wikipedia article on Atari, Inc..",
-        "credit": "George Opperman (1935-1985), per source",
+        "credit": "George Opperman, per source",
         "source": "https://commons.wikimedia.org/wiki/File:Atari_logo_alt.svg",
         "license": "Public domain",
         "licenseUrl": "https://commons.wikimedia.org/wiki/File:Atari_logo_alt.svg"
+      }
+    },
+    {
+      "id": "11-29-michael-jackson",
+      "date": "11-29",
+      "dateLabel": "29 November",
+      "category": "culture",
+      "categoryName": "Culture",
+      "year": 1982,
+      "title": "Michael Jackson",
+      "body": "Michael Jackson releases Thriller, the best-selling music album of all time.",
+      "source": {
+        "name": "Wikipedia · Michael Jackson",
+        "url": "https://en.wikipedia.org/wiki/Michael_Jackson",
+        "calendarUrl": "https://en.wikipedia.org/wiki/November_29",
+        "license": {
+          "name": "CC BY-SA 4.0",
+          "url": "https://creativecommons.org/licenses/by-sa/4.0/"
+        }
+      },
+      "image": {
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b9/Michael_Jackson_1983_%283x4_cropped%29_%28contrast%29.jpg/1280px-Michael_Jackson_1983_%283x4_cropped%29_%28contrast%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "alt": "Picture from the Wikipedia article on Michael Jackson.",
+        "credit": "Matthew Rolston",
+        "source": "https://commons.wikimedia.org/wiki/File:Michael_Jackson_1983_(3x4_cropped)_(contrast).jpg",
+        "license": "Public domain",
+        "licenseUrl": "https://commons.wikimedia.org/wiki/File:Michael_Jackson_1983_(3x4_cropped)_(contrast).jpg"
+      }
+    },
+    {
+      "id": "11-29-thomas-edison",
+      "date": "11-29",
+      "dateLabel": "29 November",
+      "category": "world",
+      "categoryName": "World",
+      "year": 1877,
+      "title": "Thomas Edison",
+      "body": "Thomas Edison demonstrates his phonograph for the first time.",
+      "source": {
+        "name": "Wikipedia · Thomas Edison",
+        "url": "https://en.wikipedia.org/wiki/Thomas_Edison",
+        "calendarUrl": "https://en.wikipedia.org/wiki/November_29",
+        "license": {
+          "name": "CC BY-SA 4.0",
+          "url": "https://creativecommons.org/licenses/by-sa/4.0/"
+        }
+      },
+      "image": {
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/9d/Thomas_Edison2.jpg/1280px-Thomas_Edison2.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "alt": "Picture from the Wikipedia article on Thomas Edison.",
+        "credit": "Louis Bachrach, Bachrach Studios",
+        "source": "https://commons.wikimedia.org/wiki/File:Thomas_Edison2.jpg",
+        "license": "Public domain",
+        "licenseUrl": "https://commons.wikimedia.org/wiki/File:Thomas_Edison2.jpg"
       }
     },
     {
@@ -81,6 +108,33 @@
         "source": "https://commons.wikimedia.org/wiki/File:Richard_E._Byrd_cph.3b17378.jpg",
         "license": "Public domain",
         "licenseUrl": "https://commons.wikimedia.org/wiki/File:Richard_E._Byrd_cph.3b17378.jpg"
+      }
+    },
+    {
+      "id": "11-29-enos-chimpanzee",
+      "date": "11-29",
+      "dateLabel": "29 November",
+      "category": "space",
+      "categoryName": "Space",
+      "year": 1961,
+      "title": "Enos",
+      "body": "Enos, a chimpanzee, is launched into space. The spacecraft orbits the Earth twice and splashes down off the coast of Puerto Rico.",
+      "source": {
+        "name": "Wikipedia · Enos (chimpanzee)",
+        "url": "https://en.wikipedia.org/wiki/Enos_(chimpanzee)",
+        "calendarUrl": "https://en.wikipedia.org/wiki/November_29",
+        "license": {
+          "name": "CC BY-SA 4.0",
+          "url": "https://creativecommons.org/licenses/by-sa/4.0/"
+        }
+      },
+      "image": {
+        "src": "https://upload.wikimedia.org/wikipedia/commons/5/59/Mercury-Atlas_5_Enos_with_handler_%28cropped%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+        "alt": "Picture from the Wikipedia article on Enos.",
+        "credit": "NASA",
+        "source": "https://commons.wikimedia.org/wiki/File:Mercury-Atlas_5_Enos_with_handler_(cropped).jpg",
+        "license": "Public domain",
+        "licenseUrl": "https://commons.wikimedia.org/wiki/File:Mercury-Atlas_5_Enos_with_handler_(cropped).jpg"
       }
     }
   ]

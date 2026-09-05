@@ -3,33 +3,6 @@
   "dateLabel": "21 February",
   "facts": [
     {
-      "id": "02-21-aldrich-ames",
-      "date": "02-21",
-      "dateLabel": "21 February",
-      "category": "world",
-      "categoryName": "World",
-      "year": 1994,
-      "title": "Aldrich Ames",
-      "body": "Aldrich Ames is arrested by the Federal Bureau of Investigation for selling national secrets to the Soviet Union in Arlington County, Virginia.",
-      "source": {
-        "name": "Wikipedia · Aldrich Ames",
-        "url": "https://en.wikipedia.org/wiki/Aldrich_Ames",
-        "calendarUrl": "https://en.wikipedia.org/wiki/February_21",
-        "license": {
-          "name": "CC BY-SA 4.0",
-          "url": "https://creativecommons.org/licenses/by-sa/4.0/"
-        }
-      },
-      "image": {
-        "src": "https://upload.wikimedia.org/wikipedia/commons/4/4f/Aldrich_Ames_mugshot.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
-        "alt": "Picture from the Wikipedia article on Aldrich Ames.",
-        "credit": "staff, Federal Bureau of Investigation",
-        "source": "https://commons.wikimedia.org/wiki/File:Aldrich_Ames_mugshot.jpg",
-        "license": "Public domain",
-        "licenseUrl": "https://commons.wikimedia.org/wiki/File:Aldrich_Ames_mugshot.jpg"
-      }
-    },
-    {
       "id": "02-21-spacecraft",
       "date": "02-21",
       "dateLabel": "21 February",
@@ -50,7 +23,7 @@
       "image": {
         "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/bc/Soyuz_TMA-7_spacecraft2edit1.jpg/1280px-Soyuz_TMA-7_spacecraft2edit1.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
         "alt": "Picture from the Wikipedia article on Spacecraft.",
-        "credit": "The original uploader was Thegreenj at English Wikipedia.",
+        "credit": "Thegreenj",
         "source": "https://commons.wikimedia.org/wiki/File:Soyuz_TMA-7_spacecraft2edit1.jpg",
         "license": "Public domain",
         "licenseUrl": "https://commons.wikimedia.org/wiki/File:Soyuz_TMA-7_spacecraft2edit1.jpg"
@@ -77,10 +50,91 @@
       "image": {
         "src": "https://upload.wikimedia.org/wikipedia/commons/d/d3/Telefonbog_ubt-1.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
         "alt": "Picture from the Wikipedia article on Telephone directory.",
-        "credit": "© 2010 by Tomasz Sienicki [user: tsca, mail: tomasz.sienicki at gmail.com]",
+        "credit": "Wikimedia Commons",
         "source": "https://commons.wikimedia.org/wiki/File:Telefonbog_ubt-1.JPG",
         "license": "CC BY 3.0",
         "licenseUrl": "https://creativecommons.org/licenses/by/3.0"
+      }
+    },
+    {
+      "id": "02-21-steve-fossett",
+      "date": "02-21",
+      "dateLabel": "21 February",
+      "category": "world",
+      "categoryName": "World",
+      "year": 1995,
+      "title": "Steve Fossett",
+      "body": "Steve Fossett lands in Leader, Saskatchewan, Canada becoming the first person to make a solo flight across the Pacific Ocean in a balloon.",
+      "source": {
+        "name": "Wikipedia · Steve Fossett",
+        "url": "https://en.wikipedia.org/wiki/Steve_Fossett",
+        "calendarUrl": "https://en.wikipedia.org/wiki/February_21",
+        "license": {
+          "name": "CC BY-SA 4.0",
+          "url": "https://creativecommons.org/licenses/by-sa/4.0/"
+        }
+      },
+      "image": {
+        "src": "https://upload.wikimedia.org/wikipedia/commons/2/20/Steve_Fossett_1.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+        "alt": "Picture from the Wikipedia article on Steve Fossett.",
+        "credit": "John Mathew Smith & www.celebrity-photos…",
+        "source": "https://commons.wikimedia.org/wiki/File:Steve_Fossett_1.jpg",
+        "license": "CC BY-SA 2.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0"
+      }
+    },
+    {
+      "id": "02-21-sewing-machine",
+      "date": "02-21",
+      "dateLabel": "21 February",
+      "category": "science",
+      "categoryName": "Science",
+      "year": 1842,
+      "title": "Sewing machine",
+      "body": "John Greenough is granted the first U.S. patent for the sewing machine.",
+      "source": {
+        "name": "Wikipedia · Sewing machine",
+        "url": "https://en.wikipedia.org/wiki/Sewing_machine",
+        "calendarUrl": "https://en.wikipedia.org/wiki/February_21",
+        "license": {
+          "name": "CC BY-SA 4.0",
+          "url": "https://creativecommons.org/licenses/by-sa/4.0/"
+        }
+      },
+      "image": {
+        "src": "https://upload.wikimedia.org/wikipedia/commons/c/c7/Sewingmachine1.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+        "alt": "Picture from the Wikipedia article on Sewing machine.",
+        "credit": "Unknown author",
+        "source": "https://commons.wikimedia.org/wiki/File:Sewingmachine1.jpg",
+        "license": "Public domain",
+        "licenseUrl": "https://commons.wikimedia.org/wiki/File:Sewingmachine1.jpg"
+      }
+    },
+    {
+      "id": "02-21-bob-fitzsimmons",
+      "date": "02-21",
+      "dateLabel": "21 February",
+      "category": "sport",
+      "categoryName": "Sport",
+      "year": 1896,
+      "title": "Bob Fitzsimmons",
+      "body": "An Englishman raised in Australia, Bob Fitzsimmons, fights an Irishman, Peter Maher, in an American promoted event which technically takes place in Mexico, winning the 1896 World Heavyweight Championship in boxing.",
+      "source": {
+        "name": "Wikipedia · Bob Fitzsimmons",
+        "url": "https://en.wikipedia.org/wiki/Bob_Fitzsimmons",
+        "calendarUrl": "https://en.wikipedia.org/wiki/February_21",
+        "license": {
+          "name": "CC BY-SA 4.0",
+          "url": "https://creativecommons.org/licenses/by-sa/4.0/"
+        }
+      },
+      "image": {
+        "src": "https://upload.wikimedia.org/wikipedia/commons/3/30/Robert_Fitzsimmons.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+        "alt": "Picture from the Wikipedia article on Bob Fitzsimmons.",
+        "credit": "Unknown author",
+        "source": "https://commons.wikimedia.org/wiki/File:Robert_Fitzsimmons.jpg",
+        "license": "Public domain",
+        "licenseUrl": "https://commons.wikimedia.org/wiki/File:Robert_Fitzsimmons.jpg"
       }
     }
   ]

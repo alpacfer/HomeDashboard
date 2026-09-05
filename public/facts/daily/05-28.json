@@ -57,17 +57,17 @@
       }
     },
     {
-      "id": "05-28-peter-benenson",
+      "id": "05-28-world-trade-center-site",
       "date": "05-28",
       "dateLabel": "28 May",
       "category": "world",
       "categoryName": "World",
-      "year": 1961,
-      "title": "Peter Benenson",
-      "body": "Peter Benenson's article The Forgotten Prisoners is published in several internationally read newspapers. This will later be thought of as the founding of the human rights organization Amnesty International.",
+      "year": 2002,
+      "title": "World Trade Center site",
+      "body": "The last steel girder is removed from the original World Trade Center site. Cleanup duties officially end with closing ceremonies at Ground Zero in Manhattan, New York City.",
       "source": {
-        "name": "Wikipedia · Peter Benenson",
-        "url": "https://en.wikipedia.org/wiki/Peter_Benenson",
+        "name": "Wikipedia · World Trade Center site",
+        "url": "https://en.wikipedia.org/wiki/World_Trade_Center_site",
         "calendarUrl": "https://en.wikipedia.org/wiki/May_28",
         "license": {
           "name": "CC BY-SA 4.0",
@@ -75,12 +75,66 @@
         }
       },
       "image": {
-        "src": "https://upload.wikimedia.org/wikipedia/commons/b/bc/Peter_Benenson.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
-        "alt": "Picture from the Wikipedia article on Peter Benenson.",
-        "credit": "Olga Berrios",
-        "source": "https://commons.wikimedia.org/wiki/File:Peter_Benenson.jpg",
-        "license": "CC BY 2.0",
-        "licenseUrl": "https://creativecommons.org/licenses/by/2.0"
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/1f/WTC_New_York_1992_Sander_Lamme.jpg/1280px-WTC_New_York_1992_Sander_Lamme.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "alt": "Picture from the Wikipedia article on World Trade Center site.",
+        "credit": "Sander Lamme",
+        "source": "https://commons.wikimedia.org/wiki/File:WTC_New_York_1992_Sander_Lamme.jpg",
+        "license": "CC BY 3.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by/3.0"
+      }
+    },
+    {
+      "id": "05-28-gezi-park-protests",
+      "date": "05-28",
+      "dateLabel": "28 May",
+      "category": "world",
+      "categoryName": "World",
+      "year": 2013,
+      "title": "Gezi Park protests",
+      "body": "Start of the Gezi Park protests in Turkey.",
+      "source": {
+        "name": "Wikipedia · Gezi Park protests",
+        "url": "https://en.wikipedia.org/wiki/Gezi_Park_protests",
+        "calendarUrl": "https://en.wikipedia.org/wiki/May_28",
+        "license": {
+          "name": "CC BY-SA 4.0",
+          "url": "https://creativecommons.org/licenses/by-sa/4.0/"
+        }
+      },
+      "image": {
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/4c/Each_day_protestants_return_to_the_square._Events_of_June_7%2C_2013.jpg/1280px-Each_day_protestants_return_to_the_square._Events_of_June_7%2C_2013.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "alt": "Picture from the Wikipedia article on Gezi Park protests.",
+        "credit": "Mstyslav Chernov",
+        "source": "https://commons.wikimedia.org/wiki/File:Each_day_protestants_return_to_the_square._Events_of_June_7,_2013.jpg",
+        "license": "CC BY-SA 3.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0"
+      }
+    },
+    {
+      "id": "05-28-mathias-rust",
+      "date": "05-28",
+      "dateLabel": "28 May",
+      "category": "world",
+      "categoryName": "World",
+      "year": 1987,
+      "title": "Mathias Rust",
+      "body": "An 18-year-old West German pilot, Mathias Rust, evades Soviet Union air defences and lands a private plane in Red Square in Moscow, Russia.",
+      "source": {
+        "name": "Wikipedia · Mathias Rust",
+        "url": "https://en.wikipedia.org/wiki/Mathias_Rust",
+        "calendarUrl": "https://en.wikipedia.org/wiki/May_28",
+        "license": {
+          "name": "CC BY-SA 4.0",
+          "url": "https://creativecommons.org/licenses/by-sa/4.0/"
+        }
+      },
+      "image": {
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/8b/4134Mathias_Rust_%28cropped%29.JPG/1280px-4134Mathias_Rust_%28cropped%29.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "alt": "Picture from the Wikipedia article on Mathias Rust.",
+        "credit": "Creative Commons by-sa-3.0 de",
+        "source": "https://commons.wikimedia.org/wiki/File:4134Mathias_Rust_(cropped).JPG",
+        "license": "CC BY-SA 3.0 de",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0/de/deed.en"
       }
     }
   ]

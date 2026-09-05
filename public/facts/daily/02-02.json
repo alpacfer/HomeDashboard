@@ -3,17 +3,17 @@
   "dateLabel": "2 February",
   "facts": [
     {
-      "id": "02-02-federal-bureau-of-investigation",
+      "id": "02-02-slovenia",
       "date": "02-02",
       "dateLabel": "2 February",
-      "category": "world",
-      "categoryName": "World",
-      "year": 1980,
-      "title": "Federal Bureau of Investigation",
-      "body": "Reports surface that the FBI is targeting allegedly corrupt Congressmen in the Abscam operation.",
+      "category": "sport",
+      "categoryName": "Sport",
+      "year": 2025,
+      "title": "Slovenia",
+      "body": "Slovenian NBA player Luka Doncic is traded from the Dallas Mavericks to the Los Angeles Lakers in exchange for Anthony Davis in one of the largest trades in American sports history.",
       "source": {
-        "name": "Wikipedia · Federal Bureau of Investigation",
-        "url": "https://en.wikipedia.org/wiki/Federal_Bureau_of_Investigation",
+        "name": "Wikipedia · Slovenia",
+        "url": "https://en.wikipedia.org/wiki/Slovenia",
         "calendarUrl": "https://en.wikipedia.org/wiki/February_2",
         "license": {
           "name": "CC BY-SA 4.0",
@@ -21,12 +21,39 @@
         }
       },
       "image": {
-        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/72/New_seal_of_the_Federal_Bureau_of_Investigation.svg/1280px-New_seal_of_the_Federal_Bureau_of_Investigation.svg.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-        "alt": "Picture from the Wikipedia article on Federal Bureau of Investigation.",
-        "credit": "Vectorized by Siar O",
-        "source": "https://commons.wikimedia.org/wiki/File:New_seal_of_the_Federal_Bureau_of_Investigation.svg",
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f0/Flag_of_Slovenia.svg/1280px-Flag_of_Slovenia.svg.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "alt": "Picture from the Wikipedia article on Slovenia.",
+        "credit": "Marko Pogačnik Vector: Achim1999",
+        "source": "https://commons.wikimedia.org/wiki/File:Flag_of_Slovenia.svg",
         "license": "Public domain",
-        "licenseUrl": "https://commons.wikimedia.org/wiki/File:New_seal_of_the_Federal_Bureau_of_Investigation.svg"
+        "licenseUrl": "https://commons.wikimedia.org/wiki/File:Flag_of_Slovenia.svg"
+      }
+    },
+    {
+      "id": "02-02-soviet-withdrawal-from-afghanistan",
+      "date": "02-02",
+      "dateLabel": "2 February",
+      "category": "world",
+      "categoryName": "World",
+      "year": 1989,
+      "title": "Soviet withdrawal from Afghanistan",
+      "body": "The last Soviet armoured column leaves Kabul.",
+      "source": {
+        "name": "Wikipedia · Soviet withdrawal from Afghanistan",
+        "url": "https://en.wikipedia.org/wiki/Soviet_withdrawal_from_Afghanistan",
+        "calendarUrl": "https://en.wikipedia.org/wiki/February_2",
+        "license": {
+          "name": "CC BY-SA 4.0",
+          "url": "https://creativecommons.org/licenses/by-sa/4.0/"
+        }
+      },
+      "image": {
+        "src": "https://upload.wikimedia.org/wikipedia/commons/f/f7/RIAN_archive_58833_Withdrawal_of_Soviet_troops_from_Afghanistan.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+        "alt": "Picture from the Wikipedia article on Soviet withdrawal from Afghanistan.",
+        "credit": "RIA Novosti archive, image #58833",
+        "source": "https://commons.wikimedia.org/wiki/File:RIAN_archive_58833_Withdrawal_of_Soviet_troops_from_Afghanistan.jpg",
+        "license": "CC BY-SA 3.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0"
       }
     },
     {
@@ -50,7 +77,7 @@
       "image": {
         "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/ef/Landscape_view_in_Circumpolar_Urals.jpg/1280px-Landscape_view_in_Circumpolar_Urals.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
         "alt": "Picture from the Wikipedia article on Ural Mountains.",
-        "credit": "ugraland [1] from Moscow, Russia",
+        "credit": "ugraland from Moscow, Russia",
         "source": "https://commons.wikimedia.org/wiki/File:Landscape_view_in_Circumpolar_Urals.jpg",
         "license": "CC BY 2.0",
         "licenseUrl": "https://creativecommons.org/licenses/by/2.0"
@@ -81,6 +108,33 @@
         "source": "https://commons.wikimedia.org/wiki/File:2013_Australian_Open_-_Guillaume_Rufin.jpg",
         "license": "CC BY-SA 3.0",
         "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0"
+      }
+    },
+    {
+      "id": "02-02-digital-cinema",
+      "date": "02-02",
+      "dateLabel": "2 February",
+      "category": "culture",
+      "categoryName": "Culture",
+      "year": 2000,
+      "title": "Digital cinema",
+      "body": "First digital cinema projection in Europe (Paris) realized by Philippe Binant with the DLP CINEMA technology developed by Texas Instruments.",
+      "source": {
+        "name": "Wikipedia · Digital cinema",
+        "url": "https://en.wikipedia.org/wiki/Digital_cinema",
+        "calendarUrl": "https://en.wikipedia.org/wiki/February_2",
+        "license": {
+          "name": "CC BY-SA 4.0",
+          "url": "https://creativecommons.org/licenses/by-sa/4.0/"
+        }
+      },
+      "image": {
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/4e/Stadium_seating_digital_cinema.jpg/1280px-Stadium_seating_digital_cinema.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "alt": "Picture from the Wikipedia article on Digital cinema.",
+        "credit": "Author0612",
+        "source": "https://commons.wikimedia.org/wiki/File:Stadium_seating_digital_cinema.jpg",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0"
       }
     }
   ]

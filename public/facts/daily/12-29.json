@@ -3,6 +3,33 @@
   "dateLabel": "29 December",
   "facts": [
     {
+      "id": "12-29-v-clav-havel",
+      "date": "12-29",
+      "dateLabel": "29 December",
+      "category": "world",
+      "categoryName": "World",
+      "year": 1989,
+      "title": "Václav Havel",
+      "body": "Czech writer, philosopher and dissident Václav Havel is elected the first post-communist President of Czechoslovakia.",
+      "source": {
+        "name": "Wikipedia · Václav Havel",
+        "url": "https://en.wikipedia.org/wiki/V%C3%A1clav_Havel",
+        "calendarUrl": "https://en.wikipedia.org/wiki/December_29",
+        "license": {
+          "name": "CC BY-SA 4.0",
+          "url": "https://creativecommons.org/licenses/by-sa/4.0/"
+        }
+      },
+      "image": {
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a4/Vaclav_Havel.jpg/1280px-Vaclav_Havel.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "alt": "Picture from the Wikipedia article on Václav Havel.",
+        "credit": "Kingkongphoto & www.celebrity-photos.com",
+        "source": "https://commons.wikimedia.org/wiki/File:Vaclav_Havel.jpg",
+        "license": "CC BY-SA 2.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0"
+      }
+    },
+    {
       "id": "12-29-cecil-b-demille",
       "date": "12-29",
       "dateLabel": "29 December",
@@ -30,33 +57,6 @@
       }
     },
     {
-      "id": "12-29-v-clav-havel",
-      "date": "12-29",
-      "dateLabel": "29 December",
-      "category": "world",
-      "categoryName": "World",
-      "year": 1989,
-      "title": "Václav Havel",
-      "body": "Czech writer, philosopher and dissident Václav Havel is elected the first post-communist President of Czechoslovakia.",
-      "source": {
-        "name": "Wikipedia · Václav Havel",
-        "url": "https://en.wikipedia.org/wiki/V%C3%A1clav_Havel",
-        "calendarUrl": "https://en.wikipedia.org/wiki/December_29",
-        "license": {
-          "name": "CC BY-SA 4.0",
-          "url": "https://creativecommons.org/licenses/by-sa/4.0/"
-        }
-      },
-      "image": {
-        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a4/Vaclav_Havel.jpg/1280px-Vaclav_Havel.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-        "alt": "Picture from the Wikipedia article on Václav Havel.",
-        "credit": "Kingkongphoto & www.celebrity-photos.com from Laurel Maryland, USA",
-        "source": "https://commons.wikimedia.org/wiki/File:Vaclav_Havel.jpg",
-        "license": "CC BY-SA 2.0",
-        "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0"
-      }
-    },
-    {
       "id": "12-29-nikkei-225",
       "date": "12-29",
       "dateLabel": "29 December",
@@ -81,6 +81,60 @@
         "source": "https://commons.wikimedia.org/wiki/File:Nikkei_225(1970-).svg",
         "license": "CC BY 3.0",
         "licenseUrl": "https://creativecommons.org/licenses/by/3.0"
+      }
+    },
+    {
+      "id": "12-29-anglo-american-loan",
+      "date": "12-29",
+      "dateLabel": "29 December",
+      "category": "world",
+      "categoryName": "World",
+      "year": 2006,
+      "title": "Anglo-American loan",
+      "body": "The UK settles its Anglo-American loan, post-WWII loan debt.",
+      "source": {
+        "name": "Wikipedia · Anglo-American loan",
+        "url": "https://en.wikipedia.org/wiki/Anglo-American_loan",
+        "calendarUrl": "https://en.wikipedia.org/wiki/December_29",
+        "license": {
+          "name": "CC BY-SA 4.0",
+          "url": "https://creativecommons.org/licenses/by-sa/4.0/"
+        }
+      },
+      "image": {
+        "src": "https://upload.wikimedia.org/wikipedia/commons/8/84/Signature_Anglo_American_loan_agreement_1945.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+        "alt": "Picture from the Wikipedia article on Anglo-American loan.",
+        "credit": "The National Archives UK",
+        "source": "https://commons.wikimedia.org/wiki/File:Signature_Anglo_American_loan_agreement_1945.jpg",
+        "license": "Public domain",
+        "licenseUrl": "https://commons.wikimedia.org/wiki/File:Signature_Anglo_American_loan_agreement_1945.jpg"
+      }
+    },
+    {
+      "id": "12-29-muhammad-iqbal",
+      "date": "12-29",
+      "dateLabel": "29 December",
+      "category": "world",
+      "categoryName": "World",
+      "year": 1930,
+      "title": "Muhammad Iqbal",
+      "body": "Sir Muhammad Iqbal's presidential address in Allahabad introduces the two-nation theory and outlines a vision for the creation of Pakistan.",
+      "source": {
+        "name": "Wikipedia · Muhammad Iqbal",
+        "url": "https://en.wikipedia.org/wiki/Muhammad_Iqbal",
+        "calendarUrl": "https://en.wikipedia.org/wiki/December_29",
+        "license": {
+          "name": "CC BY-SA 4.0",
+          "url": "https://creativecommons.org/licenses/by-sa/4.0/"
+        }
+      },
+      "image": {
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/ac/Allama_Iqbal.jpg/1280px-Allama_Iqbal.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "alt": "Picture from the Wikipedia article on Muhammad Iqbal.",
+        "credit": "Iqbal Academy Pakistan",
+        "source": "https://commons.wikimedia.org/wiki/File:Allama_Iqbal.jpg",
+        "license": "Public domain",
+        "licenseUrl": "https://commons.wikimedia.org/wiki/File:Allama_Iqbal.jpg"
       }
     }
   ]

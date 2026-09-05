@@ -57,6 +57,33 @@
       }
     },
     {
+      "id": "06-15-pope-leo-x",
+      "date": "06-15",
+      "dateLabel": "15 June",
+      "category": "world",
+      "categoryName": "World",
+      "year": 1520,
+      "title": "Pope Leo X",
+      "body": "Pope Leo X threatens to excommunicate Martin Luther in Exsurge Domine.",
+      "source": {
+        "name": "Wikipedia · Pope Leo X",
+        "url": "https://en.wikipedia.org/wiki/Pope_Leo_X",
+        "calendarUrl": "https://en.wikipedia.org/wiki/June_15",
+        "license": {
+          "name": "CC BY-SA 4.0",
+          "url": "https://creativecommons.org/licenses/by-sa/4.0/"
+        }
+      },
+      "image": {
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b2/Raffaello%2C_ritratto_di_papa_leone_X_tra_i_cardinali_luigi_de%27_rossi_e_giulio_de%27_medici%2C_1518%2C_03.jpg/1280px-Raffaello%2C_ritratto_di_papa_leone_X_tra_i_cardinali_luigi_de%27_rossi_e_giulio_de%27_medici%2C_1518%2C_03.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "alt": "Picture from the Wikipedia article on Pope Leo X.",
+        "credit": "Francesco Bini",
+        "source": "https://commons.wikimedia.org/wiki/File:Raffaello,_ritratto_di_papa_leone_X_tra_i_cardinali_luigi_de%27_rossi_e_giulio_de%27_medici,_1518,_03.jpg",
+        "license": "Public domain",
+        "licenseUrl": "https://commons.wikimedia.org/wiki/File:Raffaello,_ritratto_di_papa_leone_X_tra_i_cardinali_luigi_de%27_rossi_e_giulio_de%27_medici,_1518,_03.jpg"
+      }
+    },
+    {
       "id": "06-15-oregon-treaty",
       "date": "06-15",
       "dateLabel": "15 June",
@@ -81,6 +108,33 @@
         "source": "https://commons.wikimedia.org/wiki/File:Oregoncountry.png",
         "license": "CC BY-SA 2.5",
         "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.5"
+      }
+    },
+    {
+      "id": "06-15-pig-war-1859",
+      "date": "06-15",
+      "dateLabel": "15 June",
+      "category": "world",
+      "categoryName": "World",
+      "year": 1859,
+      "title": "Pig War",
+      "body": "Ambiguity in the Oregon Treaty leads to the \"Northwestern Boundary Dispute\" between American and British/Canadian settlers.",
+      "source": {
+        "name": "Wikipedia · Pig War (1859)",
+        "url": "https://en.wikipedia.org/wiki/Pig_War_(1859)",
+        "calendarUrl": "https://en.wikipedia.org/wiki/June_15",
+        "license": {
+          "name": "CC BY-SA 4.0",
+          "url": "https://creativecommons.org/licenses/by-sa/4.0/"
+        }
+      },
+      "image": {
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/6a/The_Pig_War_Map.svg/1280px-The_Pig_War_Map.svg.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "alt": "Picture from the Wikipedia article on Pig War.",
+        "credit": "Ameli Sanchos",
+        "source": "https://commons.wikimedia.org/wiki/File:The_Pig_War_Map.svg",
+        "license": "CC BY 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by/4.0"
       }
     }
   ]

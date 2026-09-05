@@ -3,6 +3,33 @@
   "dateLabel": "27 April",
   "facts": [
     {
+      "id": "04-27-state-duma-russian-empire",
+      "date": "04-27",
+      "dateLabel": "27 April",
+      "category": "world",
+      "categoryName": "World",
+      "year": 1906,
+      "title": "State Duma",
+      "body": "The State Duma of the Russian Empire meets for the first time.",
+      "source": {
+        "name": "Wikipedia · State Duma (Russian Empire)",
+        "url": "https://en.wikipedia.org/wiki/State_Duma_(Russian_Empire)",
+        "calendarUrl": "https://en.wikipedia.org/wiki/April_27",
+        "license": {
+          "name": "CC BY-SA 4.0",
+          "url": "https://creativecommons.org/licenses/by-sa/4.0/"
+        }
+      },
+      "image": {
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/be/Lesser_coat_of_arms_of_the_Russian_Empire.svg/1280px-Lesser_coat_of_arms_of_the_Russian_Empire.svg.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "alt": "Picture from the Wikipedia article on State Duma.",
+        "credit": "Wikimedia Commons",
+        "source": "https://commons.wikimedia.org/wiki/File:Lesser_coat_of_arms_of_the_Russian_Empire.svg",
+        "license": "Public domain",
+        "licenseUrl": "https://commons.wikimedia.org/wiki/File:Lesser_coat_of_arms_of_the_Russian_Empire.svg"
+      }
+    },
+    {
       "id": "04-27-betty-boothroyd",
       "date": "04-27",
       "dateLabel": "27 April",
@@ -30,33 +57,6 @@
       }
     },
     {
-      "id": "04-27-state-duma-russian-empire",
-      "date": "04-27",
-      "dateLabel": "27 April",
-      "category": "world",
-      "categoryName": "World",
-      "year": 1906,
-      "title": "State Duma",
-      "body": "The State Duma of the Russian Empire meets for the first time.",
-      "source": {
-        "name": "Wikipedia · State Duma (Russian Empire)",
-        "url": "https://en.wikipedia.org/wiki/State_Duma_(Russian_Empire)",
-        "calendarUrl": "https://en.wikipedia.org/wiki/April_27",
-        "license": {
-          "name": "CC BY-SA 4.0",
-          "url": "https://creativecommons.org/licenses/by-sa/4.0/"
-        }
-      },
-      "image": {
-        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/be/Lesser_coat_of_arms_of_the_Russian_Empire.svg/1280px-Lesser_coat_of_arms_of_the_Russian_Empire.svg.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-        "alt": "Picture from the Wikipedia article on State Duma.",
-        "credit": "own svg edit based on different vector versions to look close to File:Russian imperiam.png",
-        "source": "https://commons.wikimedia.org/wiki/File:Lesser_coat_of_arms_of_the_Russian_Empire.svg",
-        "license": "Public domain",
-        "licenseUrl": "https://commons.wikimedia.org/wiki/File:Lesser_coat_of_arms_of_the_Russian_Empire.svg"
-      }
-    },
-    {
       "id": "04-27-operation-moolah",
       "date": "04-27",
       "dateLabel": "27 April",
@@ -77,10 +77,64 @@
       "image": {
         "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/4e/MiG-15_USAF.jpg/1280px-MiG-15_USAF.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
         "alt": "Picture from the Wikipedia article on Operation Moolah.",
-        "credit": "Wikimedia Commons contributor",
+        "credit": "Wikimedia Commons",
         "source": "https://commons.wikimedia.org/wiki/File:MiG-15_USAF.jpg",
         "license": "Public domain",
         "licenseUrl": "https://commons.wikimedia.org/wiki/File:MiG-15_USAF.jpg"
+      }
+    },
+    {
+      "id": "04-27-expo-67",
+      "date": "04-27",
+      "dateLabel": "27 April",
+      "category": "world",
+      "categoryName": "World",
+      "year": 1967,
+      "title": "Expo 67",
+      "body": "Expo 67 officially opens in Montreal, Quebec, Canada with a large opening ceremony broadcast around the world. It opens to the public the next day.",
+      "source": {
+        "name": "Wikipedia · Expo 67",
+        "url": "https://en.wikipedia.org/wiki/Expo_67",
+        "calendarUrl": "https://en.wikipedia.org/wiki/April_27",
+        "license": {
+          "name": "CC BY-SA 4.0",
+          "url": "https://creativecommons.org/licenses/by-sa/4.0/"
+        }
+      },
+      "image": {
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/34/Expo_67_logo.svg/1280px-Expo_67_logo.svg.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "alt": "Picture from the Wikipedia article on Expo 67.",
+        "credit": "Julien Hébert",
+        "source": "https://commons.wikimedia.org/wiki/File:Expo_67_logo.svg",
+        "license": "Public domain",
+        "licenseUrl": "https://commons.wikimedia.org/wiki/File:Expo_67_logo.svg"
+      }
+    },
+    {
+      "id": "04-27-russian-federation",
+      "date": "04-27",
+      "dateLabel": "27 April",
+      "category": "world",
+      "categoryName": "World",
+      "year": 1992,
+      "title": "Russia",
+      "body": "The Russian Federation and 12 other former Soviet republics become members of the International Monetary Fund and the World Bank.",
+      "source": {
+        "name": "Wikipedia · Russia",
+        "url": "https://en.wikipedia.org/wiki/Russia",
+        "calendarUrl": "https://en.wikipedia.org/wiki/April_27",
+        "license": {
+          "name": "CC BY-SA 4.0",
+          "url": "https://creativecommons.org/licenses/by-sa/4.0/"
+        }
+      },
+      "image": {
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f3/Flag_of_Russia.svg/1280px-Flag_of_Russia.svg.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "alt": "Picture from the Wikipedia article on Russia.",
+        "credit": "Peter the Great",
+        "source": "https://commons.wikimedia.org/wiki/File:Flag_of_Russia.svg",
+        "license": "Public domain",
+        "licenseUrl": "https://commons.wikimedia.org/wiki/File:Flag_of_Russia.svg"
       }
     }
   ]

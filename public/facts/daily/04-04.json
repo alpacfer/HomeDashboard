@@ -50,24 +50,24 @@
       "image": {
         "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/1f/Hyakutake_Color.jpg/1280px-Hyakutake_Color.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
         "alt": "Picture from the Wikipedia article on Comet Hyakutake.",
-        "credit": "E. Kolmhofer, H. Raab; Johannes-Kepler-Observatory, Linz, Austria (http://www.sternwarte.at)",
+        "credit": "E. Kolmhofer, H. Raab",
         "source": "https://commons.wikimedia.org/wiki/File:Hyakutake_Color.jpg",
         "license": "CC BY-SA 3.0",
         "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0"
       }
     },
     {
-      "id": "04-04-france",
+      "id": "04-04-the-beatles",
       "date": "04-04",
       "dateLabel": "4 April",
-      "category": "world",
-      "categoryName": "World",
-      "year": 2009,
-      "title": "France",
-      "body": "France announces its return to full participation of its military forces within NATO.",
+      "category": "culture",
+      "categoryName": "Culture",
+      "year": 1964,
+      "title": "The Beatles",
+      "body": "The Beatles occupy the top five positions on the Billboard Hot 100 pop chart.",
       "source": {
-        "name": "Wikipedia · France",
-        "url": "https://en.wikipedia.org/wiki/France",
+        "name": "Wikipedia · The Beatles",
+        "url": "https://en.wikipedia.org/wiki/The_Beatles",
         "calendarUrl": "https://en.wikipedia.org/wiki/April_4",
         "license": {
           "name": "CC BY-SA 4.0",
@@ -75,12 +75,66 @@
         }
       },
       "image": {
-        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c3/Flag_of_France.svg/1280px-Flag_of_France.svg.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-        "alt": "Picture from the Wikipedia article on France.",
-        "credit": "Original: Unknown Vector: SKopp",
-        "source": "https://commons.wikimedia.org/wiki/File:Flag_of_France.svg",
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/42/The_Beatles_1963_Dezo_Hoffman_Capitol_Records_press_photo_2.jpg/1280px-The_Beatles_1963_Dezo_Hoffman_Capitol_Records_press_photo_2.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "alt": "Picture from the Wikipedia article on The Beatles.",
+        "credit": "Dezo Hoffmann",
+        "source": "https://commons.wikimedia.org/wiki/File:The_Beatles_1963_Dezo_Hoffman_Capitol_Records_press_photo_2.jpg",
         "license": "Public domain",
-        "licenseUrl": "https://commons.wikimedia.org/wiki/File:Flag_of_France.svg"
+        "licenseUrl": "https://commons.wikimedia.org/wiki/File:The_Beatles_1963_Dezo_Hoffman_Capitol_Records_press_photo_2.jpg"
+      }
+    },
+    {
+      "id": "04-04-campaign-for-nuclear-disarmament",
+      "date": "04-04",
+      "dateLabel": "4 April",
+      "category": "world",
+      "categoryName": "World",
+      "year": 1958,
+      "title": "Campaign for Nuclear Disarmament",
+      "body": "The CND peace symbol is displayed in public for the first time in London.",
+      "source": {
+        "name": "Wikipedia · Campaign for Nuclear Disarmament",
+        "url": "https://en.wikipedia.org/wiki/Campaign_for_Nuclear_Disarmament",
+        "calendarUrl": "https://en.wikipedia.org/wiki/April_4",
+        "license": {
+          "name": "CC BY-SA 4.0",
+          "url": "https://creativecommons.org/licenses/by-sa/4.0/"
+        }
+      },
+      "image": {
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/88/Peace_symbol_%28fixed_width%29.svg/1280px-Peace_symbol_%28fixed_width%29.svg.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "alt": "Picture from the Wikipedia article on Campaign for Nuclear Disarmament.",
+        "credit": "Kwamikagami",
+        "source": "https://commons.wikimedia.org/wiki/File:Peace_symbol_(fixed_width).svg",
+        "license": "Public domain",
+        "licenseUrl": "https://commons.wikimedia.org/wiki/File:Peace_symbol_(fixed_width).svg"
+      }
+    },
+    {
+      "id": "04-04-denton-cooley",
+      "date": "04-04",
+      "dateLabel": "4 April",
+      "category": "world",
+      "categoryName": "World",
+      "year": 1969,
+      "title": "Denton Cooley",
+      "body": "Dr. Denton Cooley implants the first temporary artificial heart.",
+      "source": {
+        "name": "Wikipedia · Denton Cooley",
+        "url": "https://en.wikipedia.org/wiki/Denton_Cooley",
+        "calendarUrl": "https://en.wikipedia.org/wiki/April_4",
+        "license": {
+          "name": "CC BY-SA 4.0",
+          "url": "https://creativecommons.org/licenses/by-sa/4.0/"
+        }
+      },
+      "image": {
+        "src": "https://upload.wikimedia.org/wikipedia/commons/9/96/Cooly2.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+        "alt": "Picture from the Wikipedia article on Denton Cooley.",
+        "credit": "Wikimedia Commons",
+        "source": "https://commons.wikimedia.org/wiki/File:Cooly2.jpg",
+        "license": "Public domain",
+        "licenseUrl": "https://commons.wikimedia.org/wiki/File:Cooly2.jpg"
       }
     }
   ]

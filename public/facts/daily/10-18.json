@@ -82,6 +82,60 @@
         "license": "CC BY-SA 4.0",
         "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0"
       }
+    },
+    {
+      "id": "10-18-nuclear-weapon",
+      "date": "10-18",
+      "dateLabel": "18 October",
+      "category": "science",
+      "categoryName": "Science",
+      "year": 1945,
+      "title": "Nuclear weapon",
+      "body": "The USSR's nuclear program receives plans for the United States plutonium bomb from Klaus Fuchs at the Los Alamos National Laboratory.",
+      "source": {
+        "name": "Wikipedia · Nuclear weapon",
+        "url": "https://en.wikipedia.org/wiki/Nuclear_weapon",
+        "calendarUrl": "https://en.wikipedia.org/wiki/October_18",
+        "license": {
+          "name": "CC BY-SA 4.0",
+          "url": "https://creativecommons.org/licenses/by-sa/4.0/"
+        }
+      },
+      "image": {
+        "src": "https://upload.wikimedia.org/wikipedia/commons/0/0f/W87_MIRV.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+        "alt": "Picture from the Wikipedia article on Nuclear weapon.",
+        "credit": "US government DOD and/or DOE photograph",
+        "source": "https://commons.wikimedia.org/wiki/File:W87_MIRV.jpg",
+        "license": "Public domain",
+        "licenseUrl": "https://commons.wikimedia.org/wiki/File:W87_MIRV.jpg"
+      }
+    },
+    {
+      "id": "10-18-herman-melville",
+      "date": "10-18",
+      "dateLabel": "18 October",
+      "category": "curious",
+      "categoryName": "Curious",
+      "year": 1851,
+      "title": "Herman Melville",
+      "body": "Herman Melville's Moby-Dick is first published as The Whale by Richard Bentley of London.",
+      "source": {
+        "name": "Wikipedia · Herman Melville",
+        "url": "https://en.wikipedia.org/wiki/Herman_Melville",
+        "calendarUrl": "https://en.wikipedia.org/wiki/October_18",
+        "license": {
+          "name": "CC BY-SA 4.0",
+          "url": "https://creativecommons.org/licenses/by-sa/4.0/"
+        }
+      },
+      "image": {
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e8/Herman_Melville_by_Joseph_O_Eaton.jpg/1280px-Herman_Melville_by_Joseph_O_Eaton.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "alt": "Picture from the Wikipedia article on Herman Melville.",
+        "credit": "Joseph Oriel Eaton",
+        "source": "https://commons.wikimedia.org/wiki/File:Herman_Melville_by_Joseph_O_Eaton.jpg",
+        "license": "Public domain",
+        "licenseUrl": "https://commons.wikimedia.org/wiki/File:Herman_Melville_by_Joseph_O_Eaton.jpg"
+      }
     }
   ]
 }

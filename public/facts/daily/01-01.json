@@ -3,6 +3,33 @@
   "dateLabel": "1 January",
   "facts": [
     {
+      "id": "01-01-steamboat-willie",
+      "date": "01-01",
+      "dateLabel": "1 January",
+      "category": "culture",
+      "categoryName": "Culture",
+      "year": 2024,
+      "title": "Steamboat Willie",
+      "body": "Disney's copyright protection on Steamboat Willie and the original Mickey Mouse expires as they enter the public domain.",
+      "source": {
+        "name": "Wikipedia · Steamboat Willie",
+        "url": "https://en.wikipedia.org/wiki/Steamboat_Willie",
+        "calendarUrl": "https://en.wikipedia.org/wiki/January_1",
+        "license": {
+          "name": "CC BY-SA 4.0",
+          "url": "https://creativecommons.org/licenses/by-sa/4.0/"
+        }
+      },
+      "image": {
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/50/Steamboat_Willie_1928_Poster.png/1280px-Steamboat_Willie_1928_Poster.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "alt": "Picture from the Wikipedia article on Steamboat Willie.",
+        "credit": "Walt Disney / Ub Iwerks",
+        "source": "https://commons.wikimedia.org/wiki/File:Steamboat_Willie_1928_Poster.png",
+        "license": "Public domain",
+        "licenseUrl": "https://commons.wikimedia.org/wiki/File:Steamboat_Willie_1928_Poster.png"
+      }
+    },
+    {
       "id": "01-01-mobile-phone",
       "date": "01-01",
       "dateLabel": "1 January",
@@ -50,7 +77,7 @@
       "image": {
         "src": "https://upload.wikimedia.org/wikipedia/commons/b/bc/JuanMaldacena.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
         "alt": "Picture from the Wikipedia article on Juan Maldacena.",
-        "credit": "Lumidek at English Wikipedia",
+        "credit": "Lumidek",
         "source": "https://commons.wikimedia.org/wiki/File:JuanMaldacena.jpg",
         "license": "CC BY 3.0",
         "licenseUrl": "https://creativecommons.org/licenses/by/3.0"
@@ -81,6 +108,33 @@
         "source": "https://commons.wikimedia.org/wiki/File:Javier_P%C3%A9rez_de_Cu%C3%A9llar_(1982).jpg",
         "license": "CC BY-SA 3.0 nl",
         "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0/nl/deed.en"
+      }
+    },
+    {
+      "id": "01-01-college-football",
+      "date": "01-01",
+      "dateLabel": "1 January",
+      "category": "sport",
+      "categoryName": "Sport",
+      "year": 1902,
+      "title": "College football",
+      "body": "The first American college football bowl game, the Rose Bowl between Michigan and Stanford, is held in Pasadena, California.",
+      "source": {
+        "name": "Wikipedia · College football",
+        "url": "https://en.wikipedia.org/wiki/College_football",
+        "calendarUrl": "https://en.wikipedia.org/wiki/January_1",
+        "license": {
+          "name": "CC BY-SA 4.0",
+          "url": "https://creativecommons.org/licenses/by-sa/4.0/"
+        }
+      },
+      "image": {
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/bf/US_Navy_051203-N-2383B-223_U.S._Naval_Academy_Midshipman_fullback_Adam_Ballard_%2822%29_rushes_for_one_of_two_touchdowns_while_being_persued_by_Army_defenders_Cason_Shrode_%2854%29_and_Taylor_Justice_%2842%29.jpg/1280px-thumbnail.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "alt": "Picture from the Wikipedia article on College football.",
+        "credit": "U.S. Navy photo",
+        "source": "https://commons.wikimedia.org/wiki/File:US_Navy_051203-N-2383B-223_U.S._Naval_Academy_Midshipman_fullback_Adam_Ballard_(22)_rushes_for_one_of_two_touchdowns_while_being_persued_by_Army_defenders_Cason_Shrode_(54)_and_Taylor_Justice_(42).jpg",
+        "license": "Public domain",
+        "licenseUrl": "https://commons.wikimedia.org/wiki/File:US_Navy_051203-N-2383B-223_U.S._Naval_Academy_Midshipman_fullback_Adam_Ballard_(22)_rushes_for_one_of_two_touchdowns_while_being_persued_by_Army_defenders_Cason_Shrode_(54)_and_Taylor_Justice_(42).jpg"
       }
     }
   ]

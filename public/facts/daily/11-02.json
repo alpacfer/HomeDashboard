@@ -82,6 +82,60 @@
         "license": "Public domain",
         "licenseUrl": "https://commons.wikimedia.org/wiki/File:1956_Press_Photo_Communist_Party_Secretary_Nikita_S._Khrushchev_in_Moscow_(cropped).jpg"
       }
+    },
+    {
+      "id": "11-02-cuban-adjustment-act",
+      "date": "11-02",
+      "dateLabel": "2 November",
+      "category": "world",
+      "categoryName": "World",
+      "year": 1966,
+      "title": "Cuban Adjustment Act",
+      "body": "The Cuban Adjustment Act comes into force, allowing 123,000 Cubans the opportunity to apply for permanent residence in the United States.",
+      "source": {
+        "name": "Wikipedia · Cuban Adjustment Act",
+        "url": "https://en.wikipedia.org/wiki/Cuban_Adjustment_Act",
+        "calendarUrl": "https://en.wikipedia.org/wiki/November_2",
+        "license": {
+          "name": "CC BY-SA 4.0",
+          "url": "https://creativecommons.org/licenses/by-sa/4.0/"
+        }
+      },
+      "image": {
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/5c/Great_Seal_of_the_United_States_%28obverse%29.svg/1280px-Great_Seal_of_the_United_States_%28obverse%29.svg.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "alt": "Picture from the Wikipedia article on Cuban Adjustment Act.",
+        "credit": "U.S. Government",
+        "source": "https://commons.wikimedia.org/wiki/File:Great_Seal_of_the_United_States_(obverse).svg",
+        "license": "Public domain",
+        "licenseUrl": "https://commons.wikimedia.org/wiki/File:Great_Seal_of_the_United_States_(obverse).svg"
+      }
+    },
+    {
+      "id": "11-02-martin-luther-king-jr-day",
+      "date": "11-02",
+      "dateLabel": "2 November",
+      "category": "world",
+      "categoryName": "World",
+      "year": 1983,
+      "title": "Martin Luther King Jr. Day",
+      "body": "U.S. President Ronald Reagan signs a bill creating Martin Luther King Jr. Day.",
+      "source": {
+        "name": "Wikipedia · Martin Luther King Jr. Day",
+        "url": "https://en.wikipedia.org/wiki/Martin_Luther_King_Jr._Day",
+        "calendarUrl": "https://en.wikipedia.org/wiki/November_2",
+        "license": {
+          "name": "CC BY-SA 4.0",
+          "url": "https://creativecommons.org/licenses/by-sa/4.0/"
+        }
+      },
+      "image": {
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/0d/Martin_Luther_King_press_conference_01269u_edit.jpg/1280px-Martin_Luther_King_press_conference_01269u_edit.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "alt": "Picture from the Wikipedia article on Martin Luther King Jr. Day.",
+        "credit": "Marion S. Trikosko",
+        "source": "https://commons.wikimedia.org/wiki/File:Martin_Luther_King_press_conference_01269u_edit.jpg",
+        "license": "Public domain",
+        "licenseUrl": "https://commons.wikimedia.org/wiki/File:Martin_Luther_King_press_conference_01269u_edit.jpg"
+      }
     }
   ]
 }

@@ -23,7 +23,7 @@
       "image": {
         "src": "https://upload.wikimedia.org/wikipedia/commons/8/8d/KL_Intel_i286.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
         "alt": "Picture from the Wikipedia article on Intel 80286.",
-        "credit": "Konstantin Lanzet (with permission)",
+        "credit": "Konstantin Lanzet",
         "source": "https://commons.wikimedia.org/wiki/File:KL_Intel_i286.jpg",
         "license": "CC BY-SA 3.0",
         "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0/"
@@ -50,7 +50,7 @@
       "image": {
         "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/42/The_Beatles_1963_Dezo_Hoffman_Capitol_Records_press_photo_2.jpg/1280px-The_Beatles_1963_Dezo_Hoffman_Capitol_Records_press_photo_2.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
         "alt": "Picture from the Wikipedia article on The Beatles.",
-        "credit": "Dezo Hoffmann, Distributed by Capitol Records",
+        "credit": "Dezo Hoffmann",
         "source": "https://commons.wikimedia.org/wiki/File:The_Beatles_1963_Dezo_Hoffman_Capitol_Records_press_photo_2.jpg",
         "license": "Public domain",
         "licenseUrl": "https://commons.wikimedia.org/wiki/File:The_Beatles_1963_Dezo_Hoffman_Capitol_Records_press_photo_2.jpg"
@@ -81,6 +81,60 @@
         "source": "https://commons.wikimedia.org/wiki/File:Lillian_E_Fishburne.jpg",
         "license": "Public domain",
         "licenseUrl": "https://commons.wikimedia.org/wiki/File:Lillian_E_Fishburne.jpg"
+      }
+    },
+    {
+      "id": "02-01-first-cabinet-of-j-hanna-sigur-ard-ttir",
+      "date": "02-01",
+      "dateLabel": "1 February",
+      "category": "world",
+      "categoryName": "World",
+      "year": 2009,
+      "title": "First cabinet of Jóhanna Sigurðardóttir",
+      "body": "The first cabinet of Jóhanna Sigurðardóttir was formed in Iceland, making her the country's first female prime minister and the world's first openly gay head of government.",
+      "source": {
+        "name": "Wikipedia · First cabinet of Jóhanna Sigurðardóttir",
+        "url": "https://en.wikipedia.org/wiki/First_cabinet_of_J%C3%B3hanna_Sigur%C3%B0ard%C3%B3ttir",
+        "calendarUrl": "https://en.wikipedia.org/wiki/February_1",
+        "license": {
+          "name": "CC BY-SA 4.0",
+          "url": "https://creativecommons.org/licenses/by-sa/4.0/"
+        }
+      },
+      "image": {
+        "src": "https://upload.wikimedia.org/wikipedia/commons/e/e8/J%C3%B3hanna_Sigur%C3%B0ard%C3%B3ttir_Jan_2011_%28cropped%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+        "alt": "Picture from the Wikipedia article on First cabinet of Jóhanna Sigurðardóttir.",
+        "credit": "JackWilfred",
+        "source": "https://commons.wikimedia.org/wiki/File:J%C3%B3hanna_Sigur%C3%B0ard%C3%B3ttir_Jan_2011_(cropped).jpg",
+        "license": "CC BY 2.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by/2.0"
+      }
+    },
+    {
+      "id": "02-01-greensboro-sit-ins",
+      "date": "02-01",
+      "dateLabel": "1 February",
+      "category": "world",
+      "categoryName": "World",
+      "year": 1960,
+      "title": "Greensboro sit-ins",
+      "body": "Four black students stage the first of the Greensboro sit-ins at a lunch counter in Greensboro, North Carolina.",
+      "source": {
+        "name": "Wikipedia · Greensboro sit-ins",
+        "url": "https://en.wikipedia.org/wiki/Greensboro_sit-ins",
+        "calendarUrl": "https://en.wikipedia.org/wiki/February_1",
+        "license": {
+          "name": "CC BY-SA 4.0",
+          "url": "https://creativecommons.org/licenses/by-sa/4.0/"
+        }
+      },
+      "image": {
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/dc/Greensboro_Four.jpg/1280px-Greensboro_Four.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "alt": "Picture from the Wikipedia article on Greensboro sit-ins.",
+        "credit": "Jack Moebes",
+        "source": "https://commons.wikimedia.org/wiki/File:Greensboro_Four.jpg",
+        "license": "Public domain",
+        "licenseUrl": "https://commons.wikimedia.org/wiki/File:Greensboro_Four.jpg"
       }
     }
   ]

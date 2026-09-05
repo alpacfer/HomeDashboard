@@ -82,6 +82,60 @@
         "license": "Public domain",
         "licenseUrl": "https://commons.wikimedia.org/wiki/File:RAF-Badge.svg"
       }
+    },
+    {
+      "id": "03-14-alam-ara",
+      "date": "03-14",
+      "dateLabel": "14 March",
+      "category": "culture",
+      "categoryName": "Culture",
+      "year": 1931,
+      "title": "Alam Ara",
+      "body": "Alam Ara, India's first talking film, is released.",
+      "source": {
+        "name": "Wikipedia · Alam Ara",
+        "url": "https://en.wikipedia.org/wiki/Alam_Ara",
+        "calendarUrl": "https://en.wikipedia.org/wiki/March_14",
+        "license": {
+          "name": "CC BY-SA 4.0",
+          "url": "https://creativecommons.org/licenses/by-sa/4.0/"
+        }
+      },
+      "image": {
+        "src": "https://upload.wikimedia.org/wikipedia/commons/f/f5/Alam_Ara_poster%2C_1931.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+        "alt": "Picture from the Wikipedia article on Alam Ara.",
+        "credit": "Unknown author",
+        "source": "https://commons.wikimedia.org/wiki/File:Alam_Ara_poster,_1931.jpg",
+        "license": "Public domain",
+        "licenseUrl": "https://commons.wikimedia.org/wiki/File:Alam_Ara_poster,_1931.jpg"
+      }
+    },
+    {
+      "id": "03-14-johnson-south-reef-skirmish",
+      "date": "03-14",
+      "dateLabel": "14 March",
+      "category": "world",
+      "categoryName": "World",
+      "year": 1988,
+      "title": "Johnson South Reef skirmish",
+      "body": "In the Johnson South Reef Skirmish Chinese forces defeat Vietnamese forces in an altercation over control of one of the Spratly Islands.",
+      "source": {
+        "name": "Wikipedia · Johnson South Reef skirmish",
+        "url": "https://en.wikipedia.org/wiki/Johnson_South_Reef_skirmish",
+        "calendarUrl": "https://en.wikipedia.org/wiki/March_14",
+        "license": {
+          "name": "CC BY-SA 4.0",
+          "url": "https://creativecommons.org/licenses/by-sa/4.0/"
+        }
+      },
+      "image": {
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/85/Union_Banks_en.svg/1280px-Union_Banks_en.svg.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "alt": "Picture from the Wikipedia article on Johnson South Reef skirmish.",
+        "credit": "vi:User:RobertJordan",
+        "source": "https://commons.wikimedia.org/wiki/File:Union_Banks_en.svg",
+        "license": "CC BY 3.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by/3.0"
+      }
     }
   ]
 }

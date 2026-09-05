@@ -3,6 +3,33 @@
   "dateLabel": "17 June",
   "facts": [
     {
+      "id": "06-17-baby-shark",
+      "date": "06-17",
+      "dateLabel": "17 June",
+      "category": "culture",
+      "categoryName": "Culture",
+      "year": 2016,
+      "title": "Baby Shark",
+      "body": "Pinkfong put out a version of an old children's camp song with a dance made entirely of hand movements. It became the most-watched video on YouTube, and then the first to pass ten billion views.",
+      "source": {
+        "name": "Wikipedia · Baby Shark",
+        "url": "https://en.wikipedia.org/wiki/Baby_Shark",
+        "calendarUrl": "https://en.wikipedia.org/wiki/June_17",
+        "license": {
+          "name": "CC BY-SA 4.0",
+          "url": "https://creativecommons.org/licenses/by-sa/4.0/"
+        }
+      },
+      "image": {
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/bc/Baby_shark_dance%2C_Andersen.jpg/1280px-Baby_shark_dance%2C_Andersen.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "alt": "Children performing the hand movements of the Baby Shark dance.",
+        "credit": "julie corsi",
+        "source": "https://commons.wikimedia.org/wiki/File:Baby_shark_dance,_Andersen.jpg",
+        "license": "CC BY 2.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by/2.0"
+      }
+    },
+    {
       "id": "06-17-willem-barentsz",
       "date": "06-17",
       "dateLabel": "17 June",
@@ -27,6 +54,33 @@
         "source": "https://commons.wikimedia.org/wiki/File:Willem_Barents_(1883).png",
         "license": "Public domain",
         "licenseUrl": "https://commons.wikimedia.org/wiki/File:Willem_Barents_(1883).png"
+      }
+    },
+    {
+      "id": "06-17-george-h-w-bush",
+      "date": "06-17",
+      "dateLabel": "17 June",
+      "category": "world",
+      "categoryName": "World",
+      "year": 1992,
+      "title": "George H. W. Bush",
+      "body": "A \"joint understanding\" agreement on arms reduction is signed by U.S. president George Bush and Russian president Boris Yeltsin (this would be later codified in START II).",
+      "source": {
+        "name": "Wikipedia · George H. W. Bush",
+        "url": "https://en.wikipedia.org/wiki/George_H._W._Bush",
+        "calendarUrl": "https://en.wikipedia.org/wiki/June_17",
+        "license": {
+          "name": "CC BY-SA 4.0",
+          "url": "https://creativecommons.org/licenses/by-sa/4.0/"
+        }
+      },
+      "image": {
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/dc/George_H._W._Bush_presidential_portrait_%28cropped%29_%282%29.jpg/1280px-George_H._W._Bush_presidential_portrait_%28cropped%29_%282%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "alt": "Picture from the Wikipedia article on George H. W. Bush.",
+        "credit": "David Valdez",
+        "source": "https://commons.wikimedia.org/wiki/File:George_H._W._Bush_presidential_portrait_(cropped)_(2).jpg",
+        "license": "Public domain",
+        "licenseUrl": "https://commons.wikimedia.org/wiki/File:George_H._W._Bush_presidential_portrait_(cropped)_(2).jpg"
       }
     },
     {
@@ -57,17 +111,17 @@
       }
     },
     {
-      "id": "06-17-kansas-city-missouri",
+      "id": "06-17-college-board",
       "date": "06-17",
       "dateLabel": "17 June",
       "category": "world",
       "categoryName": "World",
-      "year": 1933,
-      "title": "Kansas City, Missouri",
-      "body": "In Kansas City, Missouri, four FBI agents and captured fugitive Frank Nash are gunned down by gangsters attempting to free Nash.",
+      "year": 1901,
+      "title": "College Board",
+      "body": "The College Board introduces its first standardized test, the forerunner to the SAT.",
       "source": {
-        "name": "Wikipedia · Kansas City, Missouri",
-        "url": "https://en.wikipedia.org/wiki/Kansas_City,_Missouri",
+        "name": "Wikipedia · College Board",
+        "url": "https://en.wikipedia.org/wiki/College_Board",
         "calendarUrl": "https://en.wikipedia.org/wiki/June_17",
         "license": {
           "name": "CC BY-SA 4.0",
@@ -75,12 +129,12 @@
         }
       },
       "image": {
-        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/79/Kansas_City_-_Downtown_-_panoramio_%2815%29.jpg/1280px-Kansas_City_-_Downtown_-_panoramio_%2815%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-        "alt": "Picture from the Wikipedia article on Kansas City, Missouri.",
-        "credit": "Stephen Edmonds",
-        "source": "https://commons.wikimedia.org/wiki/File:Kansas_City_-_Downtown_-_panoramio_(15).jpg",
-        "license": "CC BY-SA 3.0",
-        "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0"
+        "src": "https://upload.wikimedia.org/wikipedia/commons/6/61/College_Board_%28Reston%2C_VA%29_2.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+        "alt": "Picture from the Wikipedia article on College Board.",
+        "credit": "Dr. Blazer",
+        "source": "https://commons.wikimedia.org/wiki/File:College_Board_(Reston,_VA)_2.png",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0"
       }
     }
   ]

@@ -3,6 +3,33 @@
   "dateLabel": "27 February",
   "facts": [
     {
+      "id": "02-27-george-h-w-bush",
+      "date": "02-27",
+      "dateLabel": "27 February",
+      "category": "world",
+      "categoryName": "World",
+      "year": 1991,
+      "title": "George H. W. Bush",
+      "body": "U.S. President George H. W. Bush announces that \"Kuwait is liberated\".",
+      "source": {
+        "name": "Wikipedia · George H. W. Bush",
+        "url": "https://en.wikipedia.org/wiki/George_H._W._Bush",
+        "calendarUrl": "https://en.wikipedia.org/wiki/February_27",
+        "license": {
+          "name": "CC BY-SA 4.0",
+          "url": "https://creativecommons.org/licenses/by-sa/4.0/"
+        }
+      },
+      "image": {
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/dc/George_H._W._Bush_presidential_portrait_%28cropped%29_%282%29.jpg/1280px-George_H._W._Bush_presidential_portrait_%28cropped%29_%282%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "alt": "Picture from the Wikipedia article on George H. W. Bush.",
+        "credit": "David Valdez",
+        "source": "https://commons.wikimedia.org/wiki/File:George_H._W._Bush_presidential_portrait_(cropped)_(2).jpg",
+        "license": "Public domain",
+        "licenseUrl": "https://commons.wikimedia.org/wiki/File:George_H._W._Bush_presidential_portrait_(cropped)_(2).jpg"
+      }
+    },
+    {
       "id": "02-27-shanghai-stock-exchange",
       "date": "02-27",
       "dateLabel": "27 February",
@@ -23,7 +50,7 @@
       "image": {
         "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c2/Shanghai_Stock_Exchange_2.jpg/1280px-Shanghai_Stock_Exchange_2.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
         "alt": "Picture from the Wikipedia article on Shanghai Stock Exchange.",
-        "credit": "钉",
+        "credit": "Wikimedia Commons",
         "source": "https://commons.wikimedia.org/wiki/File:Shanghai_Stock_Exchange_2.jpg",
         "license": "CC BY-SA 4.0",
         "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0"
@@ -81,6 +108,33 @@
         "source": "https://commons.wikimedia.org/wiki/File:Flag_of_the_American_Indian_Movement_V2.svg",
         "license": "Public domain",
         "licenseUrl": "https://commons.wikimedia.org/wiki/File:Flag_of_the_American_Indian_Movement_V2.svg"
+      }
+    },
+    {
+      "id": "02-27-manuel-belgrano",
+      "date": "02-27",
+      "dateLabel": "27 February",
+      "category": "world",
+      "categoryName": "World",
+      "year": 1812,
+      "title": "Manuel Belgrano",
+      "body": "Manuel Belgrano raises the Flag of Argentina in the city of Rosario for the first time.",
+      "source": {
+        "name": "Wikipedia · Manuel Belgrano",
+        "url": "https://en.wikipedia.org/wiki/Manuel_Belgrano",
+        "calendarUrl": "https://en.wikipedia.org/wiki/February_27",
+        "license": {
+          "name": "CC BY-SA 4.0",
+          "url": "https://creativecommons.org/licenses/by-sa/4.0/"
+        }
+      },
+      "image": {
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/81/Manuel_belgrano_by_carbonier_retouched.jpg/1280px-Manuel_belgrano_by_carbonier_retouched.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "alt": "Picture from the Wikipedia article on Manuel Belgrano.",
+        "credit": "Attributed to Casimir Carbonnier",
+        "source": "https://commons.wikimedia.org/wiki/File:Manuel_belgrano_by_carbonier_retouched.jpg",
+        "license": "Public domain",
+        "licenseUrl": "https://commons.wikimedia.org/wiki/File:Manuel_belgrano_by_carbonier_retouched.jpg"
       }
     }
   ]

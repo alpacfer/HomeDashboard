@@ -82,6 +82,60 @@
         "license": "Public domain",
         "licenseUrl": "https://commons.wikimedia.org/wiki/File:MussorgskySignature.png"
       }
+    },
+    {
+      "id": "01-27-ipad",
+      "date": "01-27",
+      "dateLabel": "27 January",
+      "category": "tech",
+      "categoryName": "Tech",
+      "year": 2010,
+      "title": "iPad",
+      "body": "Apple announces the iPad.",
+      "source": {
+        "name": "Wikipedia · IPad",
+        "url": "https://en.wikipedia.org/wiki/IPad",
+        "calendarUrl": "https://en.wikipedia.org/wiki/January_27",
+        "license": {
+          "name": "CC BY-SA 4.0",
+          "url": "https://creativecommons.org/licenses/by-sa/4.0/"
+        }
+      },
+      "image": {
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/1a/IPad_mini_Air_Pro.png/1280px-IPad_mini_Air_Pro.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "alt": "Picture from the Wikipedia article on iPad.",
+        "credit": "KA KIT",
+        "source": "https://commons.wikimedia.org/wiki/File:IPad_mini_Air_Pro.png",
+        "license": "Public domain",
+        "licenseUrl": "https://commons.wikimedia.org/wiki/File:IPad_mini_Air_Pro.png"
+      }
+    },
+    {
+      "id": "01-27-national-recording-registry",
+      "date": "01-27",
+      "dateLabel": "27 January",
+      "category": "world",
+      "categoryName": "World",
+      "year": 2003,
+      "title": "National Recording Registry",
+      "body": "The first selections for the National Recording Registry are announced by the Library of Congress.",
+      "source": {
+        "name": "Wikipedia · National Recording Registry",
+        "url": "https://en.wikipedia.org/wiki/National_Recording_Registry",
+        "calendarUrl": "https://en.wikipedia.org/wiki/January_27",
+        "license": {
+          "name": "CC BY-SA 4.0",
+          "url": "https://creativecommons.org/licenses/by-sa/4.0/"
+        }
+      },
+      "image": {
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/8b/Martin_Luther_King_Jr_National_Historic_Site_%2836233249121%29.jpg/1280px-Martin_Luther_King_Jr_National_Historic_Site_%2836233249121%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "alt": "Picture from the Wikipedia article on National Recording Registry.",
+        "credit": "National Park Service",
+        "source": "https://commons.wikimedia.org/wiki/File:Martin_Luther_King_Jr_National_Historic_Site_(36233249121).jpg",
+        "license": "Public domain",
+        "licenseUrl": "https://commons.wikimedia.org/wiki/File:Martin_Luther_King_Jr_National_Historic_Site_(36233249121).jpg"
+      }
     }
   ]
 }

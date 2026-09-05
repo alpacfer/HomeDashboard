@@ -3,6 +3,33 @@
   "dateLabel": "12 May",
   "facts": [
     {
+      "id": "05-12-jimmy-carter",
+      "date": "05-12",
+      "dateLabel": "12 May",
+      "category": "world",
+      "categoryName": "World",
+      "year": 2002,
+      "title": "Jimmy Carter",
+      "body": "Former US President Jimmy Carter arrives in Cuba for a five-day visit with Fidel Castro, becoming the first President of the United States, in or out of office, to visit the island since the Cuban Revolution.",
+      "source": {
+        "name": "Wikipedia · Jimmy Carter",
+        "url": "https://en.wikipedia.org/wiki/Jimmy_Carter",
+        "calendarUrl": "https://en.wikipedia.org/wiki/May_12",
+        "license": {
+          "name": "CC BY-SA 4.0",
+          "url": "https://creativecommons.org/licenses/by-sa/4.0/"
+        }
+      },
+      "image": {
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/6a/Jimmy_Carter_Official_Portrait2_%283x4_cropped%29.jpg/1280px-Jimmy_Carter_Official_Portrait2_%283x4_cropped%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "alt": "Picture from the Wikipedia article on Jimmy Carter.",
+        "credit": "Department of Defense",
+        "source": "https://commons.wikimedia.org/wiki/File:Jimmy_Carter_Official_Portrait2_(3x4_cropped).jpg",
+        "license": "Public domain",
+        "licenseUrl": "https://commons.wikimedia.org/wiki/File:Jimmy_Carter_Official_Portrait2_(3x4_cropped).jpg"
+      }
+    },
+    {
       "id": "05-12-konrad-zuse",
       "date": "05-12",
       "dateLabel": "12 May",
@@ -30,33 +57,6 @@
       }
     },
     {
-      "id": "05-12-jimmy-carter",
-      "date": "05-12",
-      "dateLabel": "12 May",
-      "category": "world",
-      "categoryName": "World",
-      "year": 2002,
-      "title": "Jimmy Carter",
-      "body": "Former US President Jimmy Carter arrives in Cuba for a five-day visit with Fidel Castro, becoming the first President of the United States, in or out of office, to visit the island since the Cuban Revolution.",
-      "source": {
-        "name": "Wikipedia · Jimmy Carter",
-        "url": "https://en.wikipedia.org/wiki/Jimmy_Carter",
-        "calendarUrl": "https://en.wikipedia.org/wiki/May_12",
-        "license": {
-          "name": "CC BY-SA 4.0",
-          "url": "https://creativecommons.org/licenses/by-sa/4.0/"
-        }
-      },
-      "image": {
-        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/6a/Jimmy_Carter_Official_Portrait2_%283x4_cropped%29.jpg/1280px-Jimmy_Carter_Official_Portrait2_%283x4_cropped%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-        "alt": "Picture from the Wikipedia article on Jimmy Carter.",
-        "credit": "Department of Defense. Department of the Navy. Naval Photographic Center",
-        "source": "https://commons.wikimedia.org/wiki/File:Jimmy_Carter_Official_Portrait2_(3x4_cropped).jpg",
-        "license": "Public domain",
-        "licenseUrl": "https://commons.wikimedia.org/wiki/File:Jimmy_Carter_Official_Portrait2_(3x4_cropped).jpg"
-      }
-    },
-    {
       "id": "05-12-norge-airship",
       "date": "05-12",
       "dateLabel": "12 May",
@@ -81,6 +81,60 @@
         "source": "https://commons.wikimedia.org/wiki/File:Norge_airship_in_flight_1926.jpg",
         "license": "Public domain",
         "licenseUrl": "https://commons.wikimedia.org/wiki/File:Norge_airship_in_flight_1926.jpg"
+      }
+    },
+    {
+      "id": "05-12-democratic-kampuchea",
+      "date": "05-12",
+      "dateLabel": "12 May",
+      "category": "world",
+      "categoryName": "World",
+      "year": 1975,
+      "title": "Democratic Kampuchea",
+      "body": "Democratic Kampuchea naval forces capture the SS Mayaguez.",
+      "source": {
+        "name": "Wikipedia · Democratic Kampuchea",
+        "url": "https://en.wikipedia.org/wiki/Democratic_Kampuchea",
+        "calendarUrl": "https://en.wikipedia.org/wiki/May_12",
+        "license": {
+          "name": "CC BY-SA 4.0",
+          "url": "https://creativecommons.org/licenses/by-sa/4.0/"
+        }
+      },
+      "image": {
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a9/Flag_of_Democratic_Kampuchea.svg/1280px-Flag_of_Democratic_Kampuchea.svg.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "alt": "Picture from the Wikipedia article on Democratic Kampuchea.",
+        "credit": "Wikimedia Commons",
+        "source": "https://commons.wikimedia.org/wiki/File:Flag_of_Democratic_Kampuchea.svg",
+        "license": "Public domain",
+        "licenseUrl": "https://commons.wikimedia.org/wiki/File:Flag_of_Democratic_Kampuchea.svg"
+      }
+    },
+    {
+      "id": "05-12-may-2024-solar-storms",
+      "date": "05-12",
+      "dateLabel": "12 May",
+      "category": "world",
+      "categoryName": "World",
+      "year": 2024,
+      "title": "May 2024 solar storms",
+      "body": "Middle/end of the May 2024 solar storms, the most powerful set of geomagnetic storms since the 2003 Halloween solar storms.",
+      "source": {
+        "name": "Wikipedia · May 2024 solar storms",
+        "url": "https://en.wikipedia.org/wiki/May_2024_solar_storms",
+        "calendarUrl": "https://en.wikipedia.org/wiki/May_12",
+        "license": {
+          "name": "CC BY-SA 4.0",
+          "url": "https://creativecommons.org/licenses/by-sa/4.0/"
+        }
+      },
+      "image": {
+        "src": "https://upload.wikimedia.org/wikipedia/commons/6/69/Northern_Lights_From_Over_the_North_Pole_%28NESDIS_2024-05-15_nhem-aurora-labels%29.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+        "alt": "Picture from the Wikipedia article on May 2024 solar storms.",
+        "credit": "NOAA",
+        "source": "https://commons.wikimedia.org/wiki/File:Northern_Lights_From_Over_the_North_Pole_(NESDIS_2024-05-15_nhem-aurora-labels).png",
+        "license": "Public domain",
+        "licenseUrl": "https://commons.wikimedia.org/wiki/File:Northern_Lights_From_Over_the_North_Pole_(NESDIS_2024-05-15_nhem-aurora-labels).png"
       }
     }
   ]

@@ -23,7 +23,7 @@
       "image": {
         "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/bd/Jackie_Robinson%2C_NPG_97_135.jpg/1280px-Jackie_Robinson%2C_NPG_97_135.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
         "alt": "Picture from the Wikipedia article on Jackie Robinson.",
-        "credit": "Harry Warnecke / Frank Livia / Robert F. Cranston / William Klein",
+        "credit": "Harry Warnecke",
         "source": "https://commons.wikimedia.org/wiki/File:Jackie_Robinson,_NPG_97_135.jpg",
         "license": "CC0",
         "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/deed.en"
@@ -81,6 +81,60 @@
         "source": "https://commons.wikimedia.org/wiki/File:Sheffield_wednesday_hillsborough_stadium.jpg",
         "license": "CC BY-SA 3.0 de",
         "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0/de/deed.en"
+      }
+    },
+    {
+      "id": "04-15-marrakesh-agreement",
+      "date": "04-15",
+      "dateLabel": "15 April",
+      "category": "world",
+      "categoryName": "World",
+      "year": 1994,
+      "title": "Marrakesh Agreement",
+      "body": "Marrakesh Agreement relating to foundation of World Trade Organization is adopted.",
+      "source": {
+        "name": "Wikipedia · Marrakesh Agreement",
+        "url": "https://en.wikipedia.org/wiki/Marrakesh_Agreement",
+        "calendarUrl": "https://en.wikipedia.org/wiki/April_15",
+        "license": {
+          "name": "CC BY-SA 4.0",
+          "url": "https://creativecommons.org/licenses/by-sa/4.0/"
+        }
+      },
+      "image": {
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f4/Marrakesh_Agreement_April_1994_%289305978663%29.jpg/1280px-Marrakesh_Agreement_April_1994_%289305978663%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "alt": "Picture from the Wikipedia article on Marrakesh Agreement.",
+        "credit": "World Trade Organization",
+        "source": "https://commons.wikimedia.org/wiki/File:Marrakesh_Agreement_April_1994_(9305978663).jpg",
+        "license": "CC BY-SA 2.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0"
+      }
+    },
+    {
+      "id": "04-15-hu-yaobang",
+      "date": "04-15",
+      "dateLabel": "15 April",
+      "category": "world",
+      "categoryName": "World",
+      "year": 1989,
+      "title": "Hu Yaobang",
+      "body": "Upon Hu Yaobang's death, the Tiananmen Square protests of 1989 begin in China.",
+      "source": {
+        "name": "Wikipedia · Hu Yaobang",
+        "url": "https://en.wikipedia.org/wiki/Hu_Yaobang",
+        "calendarUrl": "https://en.wikipedia.org/wiki/April_15",
+        "license": {
+          "name": "CC BY-SA 4.0",
+          "url": "https://creativecommons.org/licenses/by-sa/4.0/"
+        }
+      },
+      "image": {
+        "src": "https://upload.wikimedia.org/wikipedia/commons/d/d6/Hu_Yaobang_and_Nilde_Iotti_%287%29_%284to3%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+        "alt": "Picture from the Wikipedia article on Hu Yaobang.",
+        "credit": "dati.camera.it",
+        "source": "https://commons.wikimedia.org/wiki/File:Hu_Yaobang_and_Nilde_Iotti_(7)_(4to3).jpg",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0"
       }
     }
   ]

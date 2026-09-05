@@ -50,7 +50,7 @@
       "image": {
         "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/13/Arecibo_radio_telescope_SJU_06_2019_6144.jpg/1280px-Arecibo_radio_telescope_SJU_06_2019_6144.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
         "alt": "Picture from the Wikipedia article on Arecibo Observatory.",
-        "credit": "Mariordo (Mario Roberto Durán Ortiz)",
+        "credit": "Mariordo",
         "source": "https://commons.wikimedia.org/wiki/File:Arecibo_radio_telescope_SJU_06_2019_6144.jpg",
         "license": "CC BY-SA 4.0",
         "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0"
@@ -81,6 +81,60 @@
         "source": "https://commons.wikimedia.org/wiki/File:Motion_Picture_Association_logo_2019.svg",
         "license": "Public domain",
         "licenseUrl": "https://commons.wikimedia.org/wiki/File:Motion_Picture_Association_logo_2019.svg"
+      }
+    },
+    {
+      "id": "11-01-national-weather-service",
+      "date": "11-01",
+      "dateLabel": "1 November",
+      "category": "space",
+      "categoryName": "Space",
+      "year": 1870,
+      "title": "National Weather Service",
+      "body": "In the United States, the Weather Bureau (later renamed the National Weather Service) makes its first official meteorological forecast.",
+      "source": {
+        "name": "Wikipedia · National Weather Service",
+        "url": "https://en.wikipedia.org/wiki/National_Weather_Service",
+        "calendarUrl": "https://en.wikipedia.org/wiki/November_1",
+        "license": {
+          "name": "CC BY-SA 4.0",
+          "url": "https://creativecommons.org/licenses/by-sa/4.0/"
+        }
+      },
+      "image": {
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/ff/US-NationalWeatherService-Logo.svg/1280px-US-NationalWeatherService-Logo.svg.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "alt": "Picture from the Wikipedia article on National Weather Service.",
+        "credit": "National Oceanic and Atmospheric…",
+        "source": "https://commons.wikimedia.org/wiki/File:US-NationalWeatherService-Logo.svg",
+        "license": "Public domain",
+        "licenseUrl": "https://commons.wikimedia.org/wiki/File:US-NationalWeatherService-Logo.svg"
+      }
+    },
+    {
+      "id": "11-01-chhattisgarh",
+      "date": "11-01",
+      "dateLabel": "1 November",
+      "category": "world",
+      "categoryName": "World",
+      "year": 2000,
+      "title": "Chhattisgarh",
+      "body": "Chhattisgarh officially becomes the 26th state of India, formed from sixteen districts of eastern Madhya Pradesh.",
+      "source": {
+        "name": "Wikipedia · Chhattisgarh",
+        "url": "https://en.wikipedia.org/wiki/Chhattisgarh",
+        "calendarUrl": "https://en.wikipedia.org/wiki/November_1",
+        "license": {
+          "name": "CC BY-SA 4.0",
+          "url": "https://creativecommons.org/licenses/by-sa/4.0/"
+        }
+      },
+      "image": {
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b1/Bhoramdeo_Temple%2C_Kawardha.jpg/1280px-Bhoramdeo_Temple%2C_Kawardha.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "alt": "Picture from the Wikipedia article on Chhattisgarh.",
+        "credit": "Pankaj Oudhia",
+        "source": "https://commons.wikimedia.org/wiki/File:Bhoramdeo_Temple,_Kawardha.jpg",
+        "license": "CC BY-SA 3.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0"
       }
     }
   ]

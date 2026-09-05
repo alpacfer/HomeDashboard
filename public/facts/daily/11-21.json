@@ -23,10 +23,37 @@
       "image": {
         "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/72/Verrazano_Bridge2.jpg/1280px-Verrazano_Bridge2.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
         "alt": "Picture from the Wikipedia article on Verrazzano–Narrows Bridge.",
-        "credit": "H.L.I.T.",
+        "credit": "Wikimedia Commons",
         "source": "https://commons.wikimedia.org/wiki/File:Verrazano_Bridge2.jpg",
         "license": "Public domain",
         "licenseUrl": "https://commons.wikimedia.org/wiki/File:Verrazano_Bridge2.jpg"
+      }
+    },
+    {
+      "id": "11-21-la-ronde-restaurant",
+      "date": "11-21",
+      "dateLabel": "21 November",
+      "category": "world",
+      "categoryName": "World",
+      "year": 1961,
+      "title": "La Ronde",
+      "body": "\"La Ronde\" opens in Honolulu, the first revolving restaurant in the United States.",
+      "source": {
+        "name": "Wikipedia · La Ronde (restaurant)",
+        "url": "https://en.wikipedia.org/wiki/La_Ronde_(restaurant)",
+        "calendarUrl": "https://en.wikipedia.org/wiki/November_21",
+        "license": {
+          "name": "CC BY-SA 4.0",
+          "url": "https://creativecommons.org/licenses/by-sa/4.0/"
+        }
+      },
+      "image": {
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c5/ALA_MOANA_OFFICE_BUILDING_GLOWS_IN_THE_AFTERNOON_SUN_-_NARA_-_553789.jpg/1280px-ALA_MOANA_OFFICE_BUILDING_GLOWS_IN_THE_AFTERNOON_SUN_-_NARA_-_553789.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "alt": "Picture from the Wikipedia article on La Ronde.",
+        "credit": "Charles O'Rear",
+        "source": "https://commons.wikimedia.org/wiki/File:ALA_MOANA_OFFICE_BUILDING_GLOWS_IN_THE_AFTERNOON_SUN_-_NARA_-_553789.jpg",
+        "license": "Public domain",
+        "licenseUrl": "https://commons.wikimedia.org/wiki/File:ALA_MOANA_OFFICE_BUILDING_GLOWS_IN_THE_AFTERNOON_SUN_-_NARA_-_553789.jpg"
       }
     },
     {
@@ -54,6 +81,33 @@
         "source": "https://commons.wikimedia.org/wiki/File:Philadelphia_Athletics_(Football).png",
         "license": "Public domain",
         "licenseUrl": "https://commons.wikimedia.org/wiki/File:Philadelphia_Athletics_(Football).png"
+      }
+    },
+    {
+      "id": "11-21-claude-monet",
+      "date": "11-21",
+      "dateLabel": "21 November",
+      "category": "culture",
+      "categoryName": "Culture",
+      "year": 1900,
+      "title": "Claude Monet",
+      "body": "Claude Monet's paintings shown at Gallery Durand-Ruel in Paris.",
+      "source": {
+        "name": "Wikipedia · Claude Monet",
+        "url": "https://en.wikipedia.org/wiki/Claude_Monet",
+        "calendarUrl": "https://en.wikipedia.org/wiki/November_21",
+        "license": {
+          "name": "CC BY-SA 4.0",
+          "url": "https://creativecommons.org/licenses/by-sa/4.0/"
+        }
+      },
+      "image": {
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a4/Claude_Monet_1899_Nadar_crop.jpg/1280px-Claude_Monet_1899_Nadar_crop.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "alt": "Picture from the Wikipedia article on Claude Monet.",
+        "credit": "Nadar",
+        "source": "https://commons.wikimedia.org/wiki/File:Claude_Monet_1899_Nadar_crop.jpg",
+        "license": "Public domain",
+        "licenseUrl": "https://commons.wikimedia.org/wiki/File:Claude_Monet_1899_Nadar_crop.jpg"
       }
     },
     {

@@ -30,6 +30,60 @@
       }
     },
     {
+      "id": "11-17-tartu-art-museum",
+      "date": "11-17",
+      "dateLabel": "17 November",
+      "category": "culture",
+      "categoryName": "Culture",
+      "year": 1940,
+      "title": "Tartu Art Museum",
+      "body": "The Tartu Art Museum is established in Tartu, Estonia.",
+      "source": {
+        "name": "Wikipedia · Tartu Art Museum",
+        "url": "https://en.wikipedia.org/wiki/Tartu_Art_Museum",
+        "calendarUrl": "https://en.wikipedia.org/wiki/November_17",
+        "license": {
+          "name": "CC BY-SA 4.0",
+          "url": "https://creativecommons.org/licenses/by-sa/4.0/"
+        }
+      },
+      "image": {
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/cc/Tartu_asv2022-04_img17_Barclay_de_Tolly_House.jpg/1280px-Tartu_asv2022-04_img17_Barclay_de_Tolly_House.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "alt": "Picture from the Wikipedia article on Tartu Art Museum.",
+        "credit": "A.Savin",
+        "source": "https://commons.wikimedia.org/wiki/File:Tartu_asv2022-04_img17_Barclay_de_Tolly_House.jpg",
+        "license": "FAL",
+        "licenseUrl": "https://artlibre.org/licence/lal/en"
+      }
+    },
+    {
+      "id": "11-17-arnold-schwarzenegger",
+      "date": "11-17",
+      "dateLabel": "17 November",
+      "category": "world",
+      "categoryName": "World",
+      "year": 2003,
+      "title": "Arnold Schwarzenegger",
+      "body": "Actor Arnold Schwarzenegger's tenure as the governor of California begins.",
+      "source": {
+        "name": "Wikipedia · Arnold Schwarzenegger",
+        "url": "https://en.wikipedia.org/wiki/Arnold_Schwarzenegger",
+        "calendarUrl": "https://en.wikipedia.org/wiki/November_17",
+        "license": {
+          "name": "CC BY-SA 4.0",
+          "url": "https://creativecommons.org/licenses/by-sa/4.0/"
+        }
+      },
+      "image": {
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e3/Arnold_Schwarzenegger_-_Austrian_World_Summit_2026_BHO-2906.jpg/1280px-Arnold_Schwarzenegger_-_Austrian_World_Summit_2026_BHO-2906.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "alt": "Picture from the Wikipedia article on Arnold Schwarzenegger.",
+        "credit": "Bernhard Holub",
+        "source": "https://commons.wikimedia.org/wiki/File:Arnold_Schwarzenegger_-_Austrian_World_Summit_2026_BHO-2906.jpg",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0"
+      }
+    },
+    {
       "id": "11-17-nathaniel-palmer",
       "date": "11-17",
       "dateLabel": "17 November",
@@ -77,7 +131,7 @@
       "image": {
         "src": "https://upload.wikimedia.org/wikipedia/commons/4/44/Heidi_Game_program.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
         "alt": "Picture from the Wikipedia article on Heidi Game.",
-        "credit": "Scanned by a Hall of Fame employee (name available on serious request, trying to preserve privacy here)",
+        "credit": "Scanned by a Hall of Fame employee",
         "source": "https://commons.wikimedia.org/wiki/File:Heidi_Game_program.jpg",
         "license": "Public domain",
         "licenseUrl": "https://commons.wikimedia.org/wiki/File:Heidi_Game_program.jpg"

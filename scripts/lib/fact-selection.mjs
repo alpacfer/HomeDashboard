@@ -92,6 +92,14 @@ export const GRIM = [
   /\b(?:declare[sd]? war|war on\b|at war\b|goes? to war|World War|the [A-Z]\w+ War\b)/,
   // Aviation entries on these pages are, almost without exception, accidents.
   /\bFlight\s+\d+\b/,
+  // Admitting the last five years brought the 2020s with it. A pandemic, a
+  // capital falling and a prison break are all grim wherever they sit in the
+  // calendar, so they go here rather than in POLITICAL.
+  /\b(?:COVID(?:[- ]?19)?|coronavirus|SARS-CoV[- ]?2?|lockdowns?|social distancing|face masks?)\b/i,
+  /\b(?:Taliban|ISIS|ISIL|Islamic State|Al[- ]?Qaeda|Boko Haram|Hamas|Hezbollah)\b/i,
+  /\b(?:flees|fled|fleeing|falls? (?:in)?to the hands of|seizes? (?:control|power))\b/i,
+  /\b(?:prisoners?|inmates?|detainees?|penitentiary|hostage)\b/i,
+  /\b(?:fails?|failure|explodes?|breaks? up)\s+(?:after|during|shortly after|on)\s+(?:lift[- ]?off|launch|take[- ]?off|re-?entry|ascent)\b/i,
 ];
 export function isGrim(text) {
   return GRIM.some(pattern => pattern.test(text));
@@ -168,17 +176,63 @@ export function categorize(text) {
   return { id: best.category.id, name: best.category.name, hits: best.hits, boost: best.category.boost + Math.min(18, best.hits * 6) };
 }
 
-// An anniversary needs distance. Anything inside the last few years is still
-// news rather than history, and antiquity reads as a textbook.
-export const CURRENT_ERA = 2021;
-export function recencyScore(year) {
-  if (year > CURRENT_ERA) return -140;
+// An anniversary needs distance, and antiquity reads as a textbook. But a
+// calendar whose newest entry is five years old reads as a museum, so the last
+// RECENT_YEARS are admitted rather than banned: below the 1975-2000 sweet spot
+// on purpose, so they earn a place instead of flooding one, and only the year
+// that has actually turned. `thisYear` is a parameter because this module is
+// pure and because the alternative was a hardcoded era that silently aged.
+// How many facts a date file holds. The generator runs as plain Node and
+// cannot import lib/daily-facts.ts, which is where the browser reads the same
+// number from, so the two are asserted equal in tests/daily-facts.test.mjs
+// rather than shared.
+export const FACTS_PER_DAY = 5;
+
+// The far end of the same rule the recent window sets at the near end.
+export const MODERN_ERA = 1000;
+export const RECENT_YEARS = 5;
+export function isRecent(year, thisYear = new Date().getUTCFullYear()) {
+  const age = thisYear - year;
+  return age >= 1 && age <= RECENT_YEARS;
+}
+export function recencyScore(year, thisYear = new Date().getUTCFullYear()) {
+  const age = thisYear - year;
+  // The current year is not an anniversary yet, and a later one is a typo or
+  // a vandalised calendar page.
+  if (age < 1) return -140;
+  if (age <= RECENT_YEARS) return 58;
   if (year >= 2000) return 66;
   if (year >= 1975) return 74;
   if (year >= 1950) return 60;
   if (year >= 1900) return 26;
   if (year >= 1700) return -20;
   return -60;
+}
+
+// Politics is ranked down everywhere by DULL, and dropped outright inside the
+// recent window. A treaty from 1963 is history; an election from last year is
+// an argument someone in the room is still having, and letting the newest
+// slot fill with one is the fastest way to make a wall display unwelcome.
+//
+// This list is a hard drop, so it is deliberately high-precision: every term
+// here is political in every context. The words that are usually political
+// and sometimes not — bill, king, queen, court, vote, poll, border — are left
+// to DULL, because "Bill Gates", "Queen", "Stephen King" and a tennis court
+// are exactly the entries this display exists for.
+export const POLITICAL = [
+  /\b(?:elections?|electoral|electorate|referendum|plebiscite|inaugurat\w+|sworn in|takes? (?:the )?oath|takes office|steps down as|resigns as|resignation as)\b/i,
+  /\b(?:party leader|leader of the (?:\w+ ){0,2}Party\b|(?:Liberal|Labour|Conservative|Republican|Democratic|Communist|Socialist|National) Party)/,
+  /\b(?:interim government|coalition government|caretaker government|chief adviser|head of government|independent state|diplomatic recognition|Nobel Peace Prize)\b/i,
+  /\b(?:presidential|president of|prime minister|vice[- ]president|chancellor of|head of state|first lady|governor of|mayor of|senators?|congressm\w+|member of parliament)\b/i,
+  /\b(?:parliament\w*|the senate|the congress|house of representatives|house of commons|politburo|cabinet|legislat\w+|impeach\w*|indict\w+|attorney general|supreme court|prosecutor)\b/i,
+  /\b(?:treaty|treaties|sanctions?|tariffs?|embargo|diplomatic|ambassador|foreign minister|foreign policy|geopolitic\w+|statehood|sovereignty)\b/i,
+  /\b(?:protests?|protesters?|demonstrations?|general strike|activis\w+|boycott|petitions?)\b/i,
+  /\b(?:Brexit|European Union|NATO|United Nations|Republican Party|Democratic Party|Conservative Party|Labour Party|left[- ]wing|right[- ]wing|nationalis\w+|populis\w+|partisan)\b/i,
+  /\b(?:immigration|asylum|deportations?|census|constitutional\b|amendment to the)\b/i,
+  /\b(?:signs?|signed)\b[^.]{0,40}\binto law\b|\bexecutive order\b|\bstate of the union\b|\bconservatorship\b|\bdeclassified\b/i,
+];
+export function isPolitical(text) {
+  return POLITICAL.some(pattern => pattern.test(text));
 }
 
 export function phrasingScore(text) {
@@ -242,6 +296,11 @@ export function parseEntries(wikitext) {
     // a paragraph of specialist vocabulary — a memoir on birefringence read to
     // the Academy of Sciences — and none of them belong on one.
     if (!links.length || text.length < 24 || text.length > 220) continue;
+    // Antiquity is out of scope, not merely unlikely. recencyScore ranks it
+    // down, but the variety pass can promote a low score over a better one of
+    // a kind the day already has, which is how San Marino's founding in 301
+    // reached the wall. See MODERN_ERA and tests/daily-facts.test.mjs.
+    if (year < MODERN_ERA) continue;
     if (isGrim(text) || isFragment(text)) continue;
     const specific = links.find(link => !GENERIC_LINKS.has(link.title));
     entries.push({ year, text, links, subject: (specific ?? links[0]).title });
@@ -249,20 +308,29 @@ export function parseEntries(wikitext) {
   return entries;
 }
 
-export function scoreEntry(entry, views = new Map()) {
+export function scoreEntry(entry, views = new Map(), thisYear = new Date().getUTCFullYear()) {
   const category = categorize(entry.text);
   const popularity = popularityScore(Math.max(0, ...measurableLinks(entry).map(title => views.get(title) ?? 0)));
   const wordy = entry.subject.length > 42 ? -24 : 0;
+  const recent = isRecent(entry.year, thisYear);
+  // Sunk rather than filtered, so there is one place where an entry's fate is
+  // decided and one number to read when asking why it lost.
+  const recentPolitics = recent && isPolitical(entry.text) ? -160 : 0;
   return {
     ...entry,
     category,
     popularity,
-    score: recencyScore(entry.year) + phrasingScore(entry.text) + category.boost + popularity + wordy + Math.min(8, Math.round(entry.text.length / 50)),
+    recent,
+    score: recencyScore(entry.year, thisYear) + phrasingScore(entry.text) + category.boost + popularity + wordy
+      + recentPolitics + Math.min(8, Math.round(entry.text.length / 50)),
   };
 }
 
-// Three a day, and never three of the same kind: a day of nothing but space
-// launches reads as a themed page rather than as a surprise.
+// Five a day, preferring different kinds. Variety is a preference and not a
+// rule: only 136 of the 366 calendar dates offer five distinct categories at
+// all, so the first pass takes one of each kind it can and the second fills
+// the rest on score alone. A day of nothing but space launches still reads as
+// a themed page, which is what the first pass is for.
 //
 // The order returned is the order the generator will try to use, and it drops
 // anything it cannot illustrate, so it asks for far more than three. Category
@@ -270,8 +338,18 @@ export function scoreEntry(entry, views = new Map()) {
 // second. `reserve` comes last and only last: those entries were never
 // measured against readership, and letting them compete on variety pulled the
 // calendar back towards older and duller anniversaries.
-export function chooseFacts(entries, { views = new Map(), count = 3, seeds = [], reserve = [] } = {}) {
-  const rank = list => list.map(entry => scoreEntry(entry, views)).sort((a, b) => b.score - a.score || b.year - a.year);
+// One of the three is held for the last RECENT_YEARS when the date offers a
+// candidate worth having, because recent entries score below the sweet spot on
+// purpose and would otherwise simply never win. RECENT_FLOOR is what "worth
+// having" means: a recent entry has to clear a real score, not merely be the
+// newest thing on a thin date, or the slot fills with a routine announcement
+// nobody would stop for. 70 is where the quality cliff sits when the whole
+// calendar is scored against real pageviews: above it are the Louvre heist,
+// Ingenuity's first flight on Mars and Webb's launch; the band below opens
+// with a declassified file and a signing ceremony.
+export const RECENT_FLOOR = 70;
+export function chooseFacts(entries, { views = new Map(), count = FACTS_PER_DAY, seeds = [], reserve = [], thisYear = new Date().getUTCFullYear() } = {}) {
+  const rank = list => list.map(entry => scoreEntry(entry, views, thisYear)).sort((a, b) => b.score - a.score || b.year - a.year);
   const ranked = rank(entries);
   const spare = rank(reserve);
   const chosen = [...seeds];
@@ -287,8 +365,168 @@ export function chooseFacts(entries, { views = new Map(), count = 3, seeds = [],
       usedSubjects.add(entry.subject);
     }
   };
+  const newest = ranked.find(entry => entry.recent && entry.score >= RECENT_FLOOR && !usedSubjects.has(entry.subject));
+  if (newest) take([newest], false);
   take(ranked, true);
   take(ranked, false);
   take(spare, false);
   return chosen.slice(0, count);
+}
+
+// The picture credit, cut down to something that belongs under a picture on a
+// wall. Commons' Attribution and Artist fields are free text, and about a
+// tenth of them are not a name at all: a paragraph of provenance, a bare URL,
+// a note asking to be told when the file is reused. Untouched they ran to 160
+// characters and were the loudest thing in the bottom half of the panel.
+//
+// The name is what attribution owes; the rest is on the file page, which the
+// credit links to. So: drop the scaffolding, keep the first credited party,
+// and fall back to the site when what is left does not read as a name.
+const CREDIT_ABBR = /\b(?:[A-Z]|Inc|Ltd|Co|Corp|Dr|Prof|St|Mr|Mrs|Ms|Jr|Sr|al|ca|fl|no|ed|vol|Bros)\.$/;
+const CREDIT_PROSE = /\b(?:I|me|my|you|your|we|our|please|feel free|available at|published in|presumably|appreciate|notified|comes from|this (?:file|photo|image|work|media)|the authors?|exact image|gallery|retrieved|according to|see also|courtesy of|permission|own \w+ edit|based on|derivative (?:of|work)|vectori[sz]ed)\b/i;
+const CREDIT_LABEL = /^(?:[^:]{1,30}:|(?:photo|photograph|image|picture|painting|portrait|drawing)\s+by)\s+/i;
+// Where a second contributor starts. Commons chains them with slashes and
+// semicolons, and Flickr credits append the uploader's home town.
+// "and" is deliberately not here. Splitting on it turned "National
+// Aeronautics and Space Administration" into "National Aeronautics", and a
+// joint credit truncated to "Thomas Rowlandson and Augustus…" is a better
+// attribution than one that silently drops the second name.
+const CREDIT_PARTY = /\s*[;/]\s*|\s+[-–—]\s+|\s+(?:from|for|by)\s+|\s*,\s*(?:and\s+)?(?:distributed|restored|cropped|colou?ri[sz]ed|retouched|uploaded|derivative)\b/i;
+const CREDIT_HOME = /\s+at\s+(?:the\s+)?English(?:-language)?\s+Wikipedia\b.*$/i;
+const CREDIT_UPLOADER = /^(?:the\s+)?original uploader was\s+/i;
+// An address is not a credit, and neither is a file name.
+const CREDIT_EMAIL = /\S+\s*(?:@|\[at\])\s*\S+\.\w{2,}/gi;
+const CREDIT_FILENAME = /^\S*_\S*_\S*$|\.(?:jpe?g|png|gif|svg|tiff?|webp|ogv|webm)\b/i;
+
+// Deliberately one entry. Commons writes NASA's Artist field out in full on
+// about a dozen of the calendar's pictures, and on a panel this size that
+// truncates to "National Aeronautics and Space…", which is both the longest
+// credit on the display and the one every reader already knows by its
+// initials. This is the same kind of display normalisation readableTitle does
+// for "IPhone", not the start of a lookup table: a name only belongs here when
+// the organisation itself uses the short form as its name.
+const CREDIT_INITIALISMS = [[/^National Aeronautics and Space Administration\b/i, 'NASA']];
+
+export function tidyCredit(value, limit = 40) {
+  let text = String(value ?? '')
+    .replace(/https?:\/\/\S+/g, ' ')
+    .replace(CREDIT_EMAIL, ' ')
+    .replace(/\[\d+\]/g, ' ')
+    .replace(/\([^()]*\)/g, ' ')
+    .replace(/\s+/g, ' ')
+    .replace(/\s+([,.;:])/g, '$1')
+    .replace(/^[-–—,;:.\s]+/, '')
+    .trim();
+  // Commons sometimes stores the same name twice in one field, which read as
+  // "Unknown authorUnknown author" under the picture.
+  const half = text.length / 2;
+  if (Number.isInteger(half) && text.slice(0, half).trim() === text.slice(half).trim()) text = text.slice(0, half).trim();
+  text = text.replace(/^(.{5,60}?)\1/, '$1').trim();
+  text = text.replace(CREDIT_HOME, '').replace(CREDIT_UPLOADER, '').trim();
+  for (const [pattern, short] of CREDIT_INITIALISMS) text = text.replace(pattern, short);
+  for (let pass = 0; pass < 2; pass++) {
+    const stripped = text.replace(CREDIT_LABEL, '').trim();
+    if (stripped === text || stripped.length < 10) break;
+    text = stripped;
+  }
+  for (const match of text.matchAll(/\.\s+/g)) {
+    const head = text.slice(0, match.index + 1);
+    if (head.length >= 8 && !CREDIT_ABBR.test(head)) { text = head.replace(/\.$/, ''); break; }
+  }
+  if (text.length > limit) {
+    const separator = text.slice(4).search(CREDIT_PARTY);
+    if (separator >= 0) text = text.slice(0, separator + 4).trim();
+  }
+  if (text.length > limit) {
+    const comma = text.indexOf(',');
+    const head = text.slice(0, comma);
+    if (comma >= 6 && head.split(' ').length <= 4 && !CREDIT_ABBR.test(head)) text = head;
+  }
+  text = text.replace(/[-–—,;:.\s]+$/, '').trim();
+  if (text.replace(/[^A-Za-zÀ-ɏ]/g, '').length < 3 || CREDIT_PROSE.test(text) || CREDIT_FILENAME.test(text)) return 'Wikimedia Commons';
+  if (text.length <= limit) return text;
+  const cut = text.slice(0, limit + 1);
+  const space = cut.lastIndexOf(' ');
+  return (space > limit / 2 ? cut.slice(0, space) : text.slice(0, limit)).replace(/[-–—,;:.\s]+$/, '') + '…';
+}
+
+// The calendar entry, minus the scaffolding a wall display does not need: the
+// year is shown on its own line, and a "Space Race:" style topic prefix is
+// noise once the category is named above the headline.
+//
+// The doubled full stop is upstream, not a bug here. Wikipedia's own source
+// for 19 October 2025 reads "in [[Paris]]..<ref>", and once the reference is
+// stripped the panel showed "Paris..". One entry in 1098 today, but the
+// calendar is re-read from a wiki on every refresh, so it is collapsed rather
+// than corrected upstream and forgotten.
+export function readableBody(text) {
+  let body = String(text ?? '')
+    .replace(/^(?:[A-Z][\w'’.-]*(?:\s+[\w'’.-]+){0,4})\s*:\s+/, '')
+    .replace(/\s+/g, ' ')
+    .replace(/\s+([,.;:])/g, '$1')
+    .replace(/([.!?])[.]+(?=\s|$)/g, '$1')
+    .trim();
+  if (body && !/[.!?"')\]]$/.test(body)) body += '.';
+  return body;
+}
+
+// Whether a clip earns the slot a photograph would otherwise have.
+//
+// A video is not an upgrade on a picture. It costs a decoder on a stick that
+// has exactly one, the scene lasts fifteen seconds and then moves on, and most
+// of what Commons holds for these subjects is a slow pan over the same object
+// the still already shows — a spacecraft on a stand, a museum exhibit, a
+// portrait that happens to have been filmed. Three things have to be true:
+//
+//   1. The fact is about something that moved. A launch, a flight, a dance, an
+//      eruption, a first performance. "Muhammad Ali wins gold" is a portrait,
+//      and so is "the Osborne 1 is unveiled".
+//   2. Fifteen seconds of it is representative. The panel plays the opening
+//      and nothing else, so a two-hour documentary shows a title card, and a
+//      three-second animation shows a stutter.
+//   3. The file is of the subject rather than merely on its article. Wikipedia
+//      articles carry incidental clips — an unrelated interview, a stock shot
+//      of the city it happened in.
+//
+// Anything that fails is shown as the still it already had, which is the right
+// answer far more often than not.
+export const VIDEO_MIN_SECONDS = 4;
+export const VIDEO_MAX_SECONDS = 150;
+export const VIDEOS_PER_DAY = 1;
+
+const MOTION = [
+  /\b(?:launch\w*|lift[- ]?off|blast\w* off|takes? off|take[- ]?off)\b/i,
+  /\b(?:flies|flew|flight|flying|airborne|orbits?|orbit\w+|spacewalk|re-?entry|splashdown|touchdown|lands?|landing)\b/i,
+  /\b(?:danc\w+|perform\w+|premiere[sd]?|concert|sings?|sang|plays? live|broadcast\w*|televis\w+|screen\w+)\b/i,
+  /\b(?:races?|racing|sprint\w*|runs? the|marathon|laps?|drives?|rides?|sails?|swims?|jumps?|leaps?|climbs?)\b/i,
+  /\b(?:erupt\w+|explod\w+ into|geyser|waterfall|avalanche of|flows?)\b/i,
+  /\b(?:parade|procession|ceremony|opening ceremony|demonstrat\w+|unveil\w+ in motion|marches?)\b/i,
+  /\b(?:first film|motion picture|animation|animated|cartoon|footage|newsreel|film is (?:released|shown|screened))\b/i,
+  /\b(?:robot\w*|rover|drone|helicopter|aircraft|aeroplane|airplane|balloon|train|locomotive|rocket)\b/i,
+];
+export function isMotion(text) {
+  return MOTION.some(pattern => pattern.test(text));
+}
+
+// A loose match, on purpose: Commons file names are written by hand and rarely
+// repeat an article title exactly. Sharing a distinctive word is enough to say
+// the clip is of the subject rather than of the town it happened in.
+const FILE_NOISE = new Set(['the', 'a', 'an', 'of', 'in', 'on', 'at', 'and', 'or', 'to', 'for', 'from', 'by', 'with',
+  'video', 'film', 'clip', 'footage', 'movie', 'ogv', 'webm', 'ogg', 'mov', 'full', 'part', 'hd', 'original', 'archive']);
+function words(value) {
+  return new Set(String(value ?? '').toLowerCase().replace(/[_\-.]+/g, ' ').replace(/[^a-z0-9 ]+/g, ' ')
+    .split(/\s+/).filter(word => word.length > 3 && !FILE_NOISE.has(word)));
+}
+export function fileMatchesSubject(file, subject) {
+  const wanted = words(subject);
+  if (!wanted.size) return false;
+  const found = words(file);
+  for (const word of wanted) if (found.has(word)) return true;
+  return false;
+}
+
+export function videoEarnsItsPlace({ file, subject, text, seconds } = {}) {
+  if (!Number.isFinite(seconds) || seconds < VIDEO_MIN_SECONDS || seconds > VIDEO_MAX_SECONDS) return false;
+  if (!fileMatchesSubject(file, subject)) return false;
+  return isMotion(String(text ?? ''));
 }

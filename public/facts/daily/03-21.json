@@ -3,33 +3,6 @@
   "dateLabel": "21 March",
   "facts": [
     {
-      "id": "03-21-social-media",
-      "date": "03-21",
-      "dateLabel": "21 March",
-      "category": "tech",
-      "categoryName": "Tech",
-      "year": 2006,
-      "title": "Social media",
-      "body": "The social media site Twitter (now officially named X) is founded.",
-      "source": {
-        "name": "Wikipedia · Social media",
-        "url": "https://en.wikipedia.org/wiki/Social_media",
-        "calendarUrl": "https://en.wikipedia.org/wiki/March_21",
-        "license": {
-          "name": "CC BY-SA 4.0",
-          "url": "https://creativecommons.org/licenses/by-sa/4.0/"
-        }
-      },
-      "image": {
-        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a3/Social_media_platter.svg/1280px-Social_media_platter.svg.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-        "alt": "Picture from the Wikipedia article on Social media.",
-        "credit": "Gemdation",
-        "source": "https://commons.wikimedia.org/wiki/File:Social_media_platter.svg",
-        "license": "CC0",
-        "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/deed.en"
-      }
-    },
-    {
       "id": "03-21-bertrand-piccard",
       "date": "03-21",
       "dateLabel": "21 March",
@@ -57,6 +30,33 @@
       }
     },
     {
+      "id": "03-21-social-media",
+      "date": "03-21",
+      "dateLabel": "21 March",
+      "category": "tech",
+      "categoryName": "Tech",
+      "year": 2006,
+      "title": "Social media",
+      "body": "The social media site Twitter (now officially named X) is founded.",
+      "source": {
+        "name": "Wikipedia · Social media",
+        "url": "https://en.wikipedia.org/wiki/Social_media",
+        "calendarUrl": "https://en.wikipedia.org/wiki/March_21",
+        "license": {
+          "name": "CC BY-SA 4.0",
+          "url": "https://creativecommons.org/licenses/by-sa/4.0/"
+        }
+      },
+      "image": {
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a3/Social_media_platter.svg/1280px-Social_media_platter.svg.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "alt": "Picture from the Wikipedia article on Social media.",
+        "credit": "Gemdation",
+        "source": "https://commons.wikimedia.org/wiki/File:Social_media_platter.svg",
+        "license": "CC0",
+        "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/deed.en"
+      }
+    },
+    {
       "id": "03-21-ranger-9",
       "date": "03-21",
       "dateLabel": "21 March",
@@ -77,10 +77,64 @@
       "image": {
         "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/3a/The_Ranger_Spacecraft_GPN-2000-001979_%28cropped%29.jpg/1280px-The_Ranger_Spacecraft_GPN-2000-001979_%28cropped%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
         "alt": "Picture from the Wikipedia article on Ranger 9.",
-        "credit": "NASA Headquarters - GReatest Images of NASA (NASA-HQ-GRIN)",
+        "credit": "NASA Headquarters",
         "source": "https://commons.wikimedia.org/wiki/File:The_Ranger_Spacecraft_GPN-2000-001979_(cropped).jpg",
         "license": "Public domain",
         "licenseUrl": "https://commons.wikimedia.org/wiki/File:The_Ranger_Spacecraft_GPN-2000-001979_(cropped).jpg"
+      }
+    },
+    {
+      "id": "03-21-alan-freed",
+      "date": "03-21",
+      "dateLabel": "21 March",
+      "category": "culture",
+      "categoryName": "Culture",
+      "year": 1952,
+      "title": "Alan Freed",
+      "body": "Alan Freed presents the Moondog Coronation Ball, the first rock and roll concert, in Cleveland, Ohio.",
+      "source": {
+        "name": "Wikipedia · Alan Freed",
+        "url": "https://en.wikipedia.org/wiki/Alan_Freed",
+        "calendarUrl": "https://en.wikipedia.org/wiki/March_21",
+        "license": {
+          "name": "CC BY-SA 4.0",
+          "url": "https://creativecommons.org/licenses/by-sa/4.0/"
+        }
+      },
+      "image": {
+        "src": "https://upload.wikimedia.org/wikipedia/commons/f/f3/Alan_Freed_disk_jockey.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+        "alt": "Picture from the Wikipedia article on Alan Freed.",
+        "credit": "James Kriegsmann, NY",
+        "source": "https://commons.wikimedia.org/wiki/File:Alan_Freed_disk_jockey.jpg",
+        "license": "Public domain",
+        "licenseUrl": "https://commons.wikimedia.org/wiki/File:Alan_Freed_disk_jockey.jpg"
+      }
+    },
+    {
+      "id": "03-21-charles-lindbergh",
+      "date": "03-21",
+      "dateLabel": "21 March",
+      "category": "sport",
+      "categoryName": "Sport",
+      "year": 1928,
+      "title": "Charles Lindbergh",
+      "body": "Charles Lindbergh is presented with the Medal of Honor for the first solo trans-Atlantic flight.",
+      "source": {
+        "name": "Wikipedia · Charles Lindbergh",
+        "url": "https://en.wikipedia.org/wiki/Charles_Lindbergh",
+        "calendarUrl": "https://en.wikipedia.org/wiki/March_21",
+        "license": {
+          "name": "CC BY-SA 4.0",
+          "url": "https://creativecommons.org/licenses/by-sa/4.0/"
+        }
+      },
+      "image": {
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b3/Charles_Lindbergh_%28Harris_%26_Ewing_photo%2C_cropped%29.jpg/1280px-Charles_Lindbergh_%28Harris_%26_Ewing_photo%2C_cropped%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "alt": "Picture from the Wikipedia article on Charles Lindbergh.",
+        "credit": "Harris & Ewing",
+        "source": "https://commons.wikimedia.org/wiki/File:Charles_Lindbergh_(Harris_%26_Ewing_photo,_cropped).jpg",
+        "license": "Public domain",
+        "licenseUrl": "https://commons.wikimedia.org/wiki/File:Charles_Lindbergh_(Harris_%26_Ewing_photo,_cropped).jpg"
       }
     }
   ]

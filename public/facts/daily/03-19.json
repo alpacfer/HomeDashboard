@@ -23,7 +23,7 @@
       "image": {
         "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/36/Muammar_al-Gaddafi_at_the_AU_summit.jpg/1280px-Muammar_al-Gaddafi_at_the_AU_summit.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
         "alt": "Picture from the Wikipedia article on Muammar Gaddafi.",
-        "credit": "U.S. Navy photo by Mass Communication Specialist 2nd Class Jesse B. Awalt/Released",
+        "credit": "U.S. Navy photo",
         "source": "https://commons.wikimedia.org/wiki/File:Muammar_al-Gaddafi_at_the_AU_summit.jpg",
         "license": "Public domain",
         "licenseUrl": "https://commons.wikimedia.org/wiki/File:Muammar_al-Gaddafi_at_the_AU_summit.jpg"
@@ -77,10 +77,64 @@
       "image": {
         "src": "https://upload.wikimedia.org/wikipedia/commons/6/67/Morrell.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
         "alt": "Picture from the Wikipedia article on Benjamin Morrell.",
-        "credit": "Engraving by Gimber and Dick after painting by artist identified as \"Sloan\"",
+        "credit": "Engraving",
         "source": "https://commons.wikimedia.org/wiki/File:Morrell.jpg",
         "license": "Public domain",
         "licenseUrl": "https://commons.wikimedia.org/wiki/File:Morrell.jpg"
+      }
+    },
+    {
+      "id": "03-19-united-states-house-of-representatives",
+      "date": "03-19",
+      "dateLabel": "19 March",
+      "category": "world",
+      "categoryName": "World",
+      "year": 1979,
+      "title": "United States House of Representatives",
+      "body": "The United States House of Representatives begins broadcasting its day-to-day business via the cable television network C-SPAN.",
+      "source": {
+        "name": "Wikipedia · United States House of Representatives",
+        "url": "https://en.wikipedia.org/wiki/United_States_House_of_Representatives",
+        "calendarUrl": "https://en.wikipedia.org/wiki/March_19",
+        "license": {
+          "name": "CC BY-SA 4.0",
+          "url": "https://creativecommons.org/licenses/by-sa/4.0/"
+        }
+      },
+      "image": {
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/1a/Seal_of_the_United_States_House_of_Representatives.svg/1280px-Seal_of_the_United_States_House_of_Representatives.svg.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "alt": "Picture from the Wikipedia article on United States House of Representatives.",
+        "credit": "Ipankonin",
+        "source": "https://commons.wikimedia.org/wiki/File:Seal_of_the_United_States_House_of_Representatives.svg",
+        "license": "Public domain",
+        "licenseUrl": "https://commons.wikimedia.org/wiki/File:Seal_of_the_United_States_House_of_Representatives.svg"
+      }
+    },
+    {
+      "id": "03-19-south-georgia-island",
+      "date": "03-19",
+      "dateLabel": "19 March",
+      "category": "world",
+      "categoryName": "World",
+      "year": 1982,
+      "title": "South Georgia",
+      "body": "Argentinian forces land on South Georgia Island, precipitating war with the United Kingdom.",
+      "source": {
+        "name": "Wikipedia · South Georgia",
+        "url": "https://en.wikipedia.org/wiki/South_Georgia",
+        "calendarUrl": "https://en.wikipedia.org/wiki/March_19",
+        "license": {
+          "name": "CC BY-SA 4.0",
+          "url": "https://creativecommons.org/licenses/by-sa/4.0/"
+        }
+      },
+      "image": {
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/32/South_Georgia_Island_as_seen_by_Sentinel-2.jpg/1280px-South_Georgia_Island_as_seen_by_Sentinel-2.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "alt": "Picture from the Wikipedia article on South Georgia.",
+        "credit": "European Space Agency",
+        "source": "https://commons.wikimedia.org/wiki/File:South_Georgia_Island_as_seen_by_Sentinel-2.jpg",
+        "license": "CC BY-SA 3.0 igo",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0/igo/deed.en"
       }
     }
   ]

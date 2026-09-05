@@ -3,33 +3,6 @@
   "dateLabel": "4 May",
   "facts": [
     {
-      "id": "05-04-prime-minister-of-the-united-kingdom",
-      "date": "05-04",
-      "dateLabel": "4 May",
-      "category": "world",
-      "categoryName": "World",
-      "year": 1979,
-      "title": "Prime Minister of the United Kingdom",
-      "body": "Margaret Thatcher becomes the first female Prime Minister of the United Kingdom.",
-      "source": {
-        "name": "Wikipedia · Prime Minister of the United Kingdom",
-        "url": "https://en.wikipedia.org/wiki/Prime_Minister_of_the_United_Kingdom",
-        "calendarUrl": "https://en.wikipedia.org/wiki/May_4",
-        "license": {
-          "name": "CC BY-SA 4.0",
-          "url": "https://creativecommons.org/licenses/by-sa/4.0/"
-        }
-      },
-      "image": {
-        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/6c/Coat_of_arms_of_the_United_Kingdom_%282024%2C_lesser_arms%29.svg/1280px-Coat_of_arms_of_the_United_Kingdom_%282024%2C_lesser_arms%29.svg.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-        "alt": "Picture from the Wikipedia article on Prime Minister of the United Kingdom.",
-        "credit": "Dgp4004",
-        "source": "https://commons.wikimedia.org/wiki/File:Coat_of_arms_of_the_United_Kingdom_(2024,_lesser_arms).svg",
-        "license": "CC BY-SA 4.0",
-        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0"
-      }
-    },
-    {
       "id": "05-04-sears-tower",
       "date": "05-04",
       "dateLabel": "4 May",
@@ -57,6 +30,33 @@
       }
     },
     {
+      "id": "05-04-ken-livingstone",
+      "date": "05-04",
+      "dateLabel": "4 May",
+      "category": "world",
+      "categoryName": "World",
+      "year": 2000,
+      "title": "Ken Livingstone",
+      "body": "Ken Livingstone becomes the first Mayor of London (an office separate from that of the Lord Mayor of London).",
+      "source": {
+        "name": "Wikipedia · Ken Livingstone",
+        "url": "https://en.wikipedia.org/wiki/Ken_Livingstone",
+        "calendarUrl": "https://en.wikipedia.org/wiki/May_4",
+        "license": {
+          "name": "CC BY-SA 4.0",
+          "url": "https://creativecommons.org/licenses/by-sa/4.0/"
+        }
+      },
+      "image": {
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/54/Ken_Livingstone.jpg/1280px-Ken_Livingstone.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "alt": "Picture from the Wikipedia article on Ken Livingstone.",
+        "credit": "World Economic Forum",
+        "source": "https://commons.wikimedia.org/wiki/File:Ken_Livingstone.jpg",
+        "license": "CC BY-SA 2.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0"
+      }
+    },
+    {
       "id": "05-04-vaganova-academy-of-russian-ballet",
       "date": "05-04",
       "dateLabel": "4 May",
@@ -77,10 +77,64 @@
       "image": {
         "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/fc/VaganovaEntrywayLongShotMay2009.jpg/1280px-VaganovaEntrywayLongShotMay2009.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
         "alt": "Picture from the Wikipedia article on Vaganova Academy of Russian Ballet.",
-        "credit": "OperaJoeGreen at English Wikipedia",
+        "credit": "OperaJoeGreen",
         "source": "https://commons.wikimedia.org/wiki/File:VaganovaEntrywayLongShotMay2009.jpg",
         "license": "CC0",
         "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/deed.en"
+      }
+    },
+    {
+      "id": "05-04-prime-minister-of-the-united-kingdom",
+      "date": "05-04",
+      "dateLabel": "4 May",
+      "category": "world",
+      "categoryName": "World",
+      "year": 1979,
+      "title": "Prime Minister of the United Kingdom",
+      "body": "Margaret Thatcher becomes the first female Prime Minister of the United Kingdom.",
+      "source": {
+        "name": "Wikipedia · Prime Minister of the United Kingdom",
+        "url": "https://en.wikipedia.org/wiki/Prime_Minister_of_the_United_Kingdom",
+        "calendarUrl": "https://en.wikipedia.org/wiki/May_4",
+        "license": {
+          "name": "CC BY-SA 4.0",
+          "url": "https://creativecommons.org/licenses/by-sa/4.0/"
+        }
+      },
+      "image": {
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/6c/Coat_of_arms_of_the_United_Kingdom_%282024%2C_lesser_arms%29.svg/1280px-Coat_of_arms_of_the_United_Kingdom_%282024%2C_lesser_arms%29.svg.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "alt": "Picture from the Wikipedia article on Prime Minister of the United Kingdom.",
+        "credit": "Dgp4004",
+        "source": "https://commons.wikimedia.org/wiki/File:Coat_of_arms_of_the_United_Kingdom_(2024,_lesser_arms).svg",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0"
+      }
+    },
+    {
+      "id": "05-04-w-series-championship",
+      "date": "05-04",
+      "dateLabel": "4 May",
+      "category": "world",
+      "categoryName": "World",
+      "year": 2019,
+      "title": "W Series",
+      "body": "The inaugural all-female motorsport series, W Series, takes place at Hockenheimring. The race was won by Jamie Chadwick, who would go on to become the inaugural series champion.",
+      "source": {
+        "name": "Wikipedia · W Series (championship)",
+        "url": "https://en.wikipedia.org/wiki/W_Series_(championship)",
+        "calendarUrl": "https://en.wikipedia.org/wiki/May_4",
+        "license": {
+          "name": "CC BY-SA 4.0",
+          "url": "https://creativecommons.org/licenses/by-sa/4.0/"
+        }
+      },
+      "image": {
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/3a/2019_W_Series%2C_Brands_Hatch_%2848854925806%29.jpg/1280px-2019_W_Series%2C_Brands_Hatch_%2848854925806%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "alt": "Picture from the Wikipedia article on W Series.",
+        "credit": "Matt Buck",
+        "source": "https://commons.wikimedia.org/wiki/File:2019_W_Series,_Brands_Hatch_(48854925806).jpg",
+        "license": "CC BY-SA 2.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0"
       }
     }
   ]

@@ -50,7 +50,7 @@
       "image": {
         "src": "https://upload.wikimedia.org/wikipedia/commons/4/48/Hr8799_orbit_hd.gif?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
         "alt": "Picture from the Wikipedia article on Exoplanet.",
-        "credit": "Jason Wang (Caltech)/Christian Marois (NRC Herzberg)",
+        "credit": "Jason Wang /Christian Marois",
         "source": "https://commons.wikimedia.org/wiki/File:Hr8799_orbit_hd.gif",
         "license": "CC BY 4.0",
         "licenseUrl": "https://creativecommons.org/licenses/by/4.0"
@@ -77,10 +77,64 @@
       "image": {
         "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/5d/STS115_Atlantis_undock_ISS_edit2.jpg/1280px-STS115_Atlantis_undock_ISS_edit2.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
         "alt": "Picture from the Wikipedia article on Launch vehicle.",
-        "credit": "STS115_Atlantis_undock_ISS.jpg: NASA derivative work: The High Fin Sperm Whale",
+        "credit": "The High Fin Sperm Whale",
         "source": "https://commons.wikimedia.org/wiki/File:STS115_Atlantis_undock_ISS_edit2.jpg",
         "license": "Public domain",
         "licenseUrl": "https://commons.wikimedia.org/wiki/File:STS115_Atlantis_undock_ISS_edit2.jpg"
+      }
+    },
+    {
+      "id": "01-09-sudan-people-s-liberation-movement",
+      "date": "01-09",
+      "dateLabel": "9 January",
+      "category": "world",
+      "categoryName": "World",
+      "year": 2005,
+      "title": "Sudan People's Liberation Movement",
+      "body": "The Sudan People's Liberation Movement and the Government of Sudan sign the Comprehensive Peace Agreement to end the Second Sudanese Civil War.",
+      "source": {
+        "name": "Wikipedia · Sudan People's Liberation Movement",
+        "url": "https://en.wikipedia.org/wiki/Sudan_People%27s_Liberation_Movement",
+        "calendarUrl": "https://en.wikipedia.org/wiki/January_9",
+        "license": {
+          "name": "CC BY-SA 4.0",
+          "url": "https://creativecommons.org/licenses/by-sa/4.0/"
+        }
+      },
+      "image": {
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/36/SPLM-SPLA.svg/1280px-SPLM-SPLA.svg.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "alt": "Picture from the Wikipedia article on Sudan People's Liberation Movement.",
+        "credit": "Unknown author",
+        "source": "https://commons.wikimedia.org/wiki/File:SPLM-SPLA.svg",
+        "license": "Public domain",
+        "licenseUrl": "https://commons.wikimedia.org/wiki/File:SPLM-SPLA.svg"
+      }
+    },
+    {
+      "id": "01-09-ernest-shackleton",
+      "date": "01-09",
+      "dateLabel": "9 January",
+      "category": "science",
+      "categoryName": "Science",
+      "year": 1909,
+      "title": "Ernest Shackleton",
+      "body": "Ernest Shackleton, leading the Nimrod Expedition to the South Pole, plants the British flag from the South Pole, the farthest anyone had ever reached at that time.",
+      "source": {
+        "name": "Wikipedia · Ernest Shackleton",
+        "url": "https://en.wikipedia.org/wiki/Ernest_Shackleton",
+        "calendarUrl": "https://en.wikipedia.org/wiki/January_9",
+        "license": {
+          "name": "CC BY-SA 4.0",
+          "url": "https://creativecommons.org/licenses/by-sa/4.0/"
+        }
+      },
+      "image": {
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/bd/Ernest_Shackleton_before_1909.jpg/1280px-Ernest_Shackleton_before_1909.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "alt": "Picture from the Wikipedia article on Ernest Shackleton.",
+        "credit": "George Charles Beresford / Adam Cuerden",
+        "source": "https://commons.wikimedia.org/wiki/File:Ernest_Shackleton_before_1909.jpg",
+        "license": "Public domain",
+        "licenseUrl": "https://commons.wikimedia.org/wiki/File:Ernest_Shackleton_before_1909.jpg"
       }
     }
   ]

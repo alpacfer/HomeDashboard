@@ -50,7 +50,7 @@
       "image": {
         "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/fa/Apple_logo_black.svg/1280px-Apple_logo_black.svg.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
         "alt": "Picture from the Wikipedia article on Apple Inc..",
-        "credit": "Original: Rob Janoff",
+        "credit": "Rob Janoff",
         "source": "https://commons.wikimedia.org/wiki/File:Apple_logo_black.svg",
         "license": "Public domain",
         "licenseUrl": "https://commons.wikimedia.org/wiki/File:Apple_logo_black.svg"
@@ -81,6 +81,60 @@
         "source": "https://commons.wikimedia.org/wiki/File:Mars_Polar_Lander_-_artist_depiction.png",
         "license": "Public domain",
         "licenseUrl": "https://commons.wikimedia.org/wiki/File:Mars_Polar_Lander_-_artist_depiction.png"
+      }
+    },
+    {
+      "id": "01-03-minnie-d-craig",
+      "date": "01-03",
+      "dateLabel": "3 January",
+      "category": "world",
+      "categoryName": "World",
+      "year": 1933,
+      "title": "Minnie D. Craig",
+      "body": "Minnie D. Craig becomes the first woman elected as Speaker of the North Dakota House of Representatives, the first woman to hold a Speaker position anywhere in the United States.",
+      "source": {
+        "name": "Wikipedia · Minnie D. Craig",
+        "url": "https://en.wikipedia.org/wiki/Minnie_D._Craig",
+        "calendarUrl": "https://en.wikipedia.org/wiki/January_3",
+        "license": {
+          "name": "CC BY-SA 4.0",
+          "url": "https://creativecommons.org/licenses/by-sa/4.0/"
+        }
+      },
+      "image": {
+        "src": "https://upload.wikimedia.org/wikipedia/commons/b/b0/Minnie_D._Craig.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+        "alt": "Picture from the Wikipedia article on Minnie D. Craig.",
+        "credit": "Unknown author",
+        "source": "https://commons.wikimedia.org/wiki/File:Minnie_D._Craig.jpg",
+        "license": "Public domain",
+        "licenseUrl": "https://commons.wikimedia.org/wiki/File:Minnie_D._Craig.jpg"
+      }
+    },
+    {
+      "id": "01-03-frances-p-bolton",
+      "date": "01-03",
+      "dateLabel": "3 January",
+      "category": "world",
+      "categoryName": "World",
+      "year": 1953,
+      "title": "Frances P. Bolton",
+      "body": "Frances P. Bolton and her son, Oliver from Ohio, become the first mother and son to serve simultaneously in the U.S. Congress.",
+      "source": {
+        "name": "Wikipedia · Frances P. Bolton",
+        "url": "https://en.wikipedia.org/wiki/Frances_P._Bolton",
+        "calendarUrl": "https://en.wikipedia.org/wiki/January_3",
+        "license": {
+          "name": "CC BY-SA 4.0",
+          "url": "https://creativecommons.org/licenses/by-sa/4.0/"
+        }
+      },
+      "image": {
+        "src": "https://upload.wikimedia.org/wikipedia/commons/b/b4/Frances_P._Bolton_1940-3_seated.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+        "alt": "Picture from the Wikipedia article on Frances P. Bolton.",
+        "credit": "Harris-Ewing collection",
+        "source": "https://commons.wikimedia.org/wiki/File:Frances_P._Bolton_1940-3_seated.jpg",
+        "license": "Public domain",
+        "licenseUrl": "https://commons.wikimedia.org/wiki/File:Frances_P._Bolton_1940-3_seated.jpg"
       }
     }
   ]

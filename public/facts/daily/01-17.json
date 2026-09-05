@@ -23,35 +23,8 @@
       "image": {
         "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/96/Matt_Drudge_1996_%28cropped%29.jpg/1280px-Matt_Drudge_1996_%28cropped%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
         "alt": "Picture from the Wikipedia article on Matt Drudge.",
-        "credit": "John Mathew Smith & www.celebrity-photos.com from Laurel Maryland, USA",
+        "credit": "John Mathew Smith & www.celebrity-photos…",
         "source": "https://commons.wikimedia.org/wiki/File:Matt_Drudge_1996_(cropped).jpg",
-        "license": "CC BY-SA 2.0",
-        "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0"
-      }
-    },
-    {
-      "id": "01-17-mount-nyiragongo",
-      "date": "01-17",
-      "dateLabel": "17 January",
-      "category": "world",
-      "categoryName": "World",
-      "year": 2002,
-      "title": "Mount Nyiragongo",
-      "body": "Mount Nyiragongo erupts in the Democratic Republic of the Congo, displacing an estimated 400,000 people.",
-      "source": {
-        "name": "Wikipedia · Mount Nyiragongo",
-        "url": "https://en.wikipedia.org/wiki/Mount_Nyiragongo",
-        "calendarUrl": "https://en.wikipedia.org/wiki/January_17",
-        "license": {
-          "name": "CC BY-SA 4.0",
-          "url": "https://creativecommons.org/licenses/by-sa/4.0/"
-        }
-      },
-      "image": {
-        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/13/An_aerial_view_of_the_towering_volcanic_peak_of_Mt._Nyiragongo.jpg/1280px-An_aerial_view_of_the_towering_volcanic_peak_of_Mt._Nyiragongo.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-        "alt": "Picture from the Wikipedia article on Mount Nyiragongo.",
-        "credit": "MONUSCO/Neil Wetmore",
-        "source": "https://commons.wikimedia.org/wiki/File:An_aerial_view_of_the_towering_volcanic_peak_of_Mt._Nyiragongo.jpg",
         "license": "CC BY-SA 2.0",
         "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0"
       }
@@ -81,6 +54,87 @@
         "source": "https://commons.wikimedia.org/wiki/File:Lance_Armstrong_(Tour_Down_Under_2009).jpg",
         "license": "CC BY 2.0",
         "licenseUrl": "https://creativecommons.org/licenses/by/2.0"
+      }
+    },
+    {
+      "id": "01-17-james-cook",
+      "date": "01-17",
+      "dateLabel": "17 January",
+      "category": "science",
+      "categoryName": "Science",
+      "year": 1773,
+      "title": "James Cook",
+      "body": "Captain James Cook leads the first expedition to sail south of the Antarctic Circle.",
+      "source": {
+        "name": "Wikipedia · James Cook",
+        "url": "https://en.wikipedia.org/wiki/James_Cook",
+        "calendarUrl": "https://en.wikipedia.org/wiki/January_17",
+        "license": {
+          "name": "CC BY-SA 4.0",
+          "url": "https://creativecommons.org/licenses/by-sa/4.0/"
+        }
+      },
+      "image": {
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/76/Captainjamescookportrait.jpg/1280px-Captainjamescookportrait.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "alt": "Picture from the Wikipedia article on James Cook.",
+        "credit": "Nathaniel Dance-Holland",
+        "source": "https://commons.wikimedia.org/wiki/File:Captainjamescookportrait.jpg",
+        "license": "Public domain",
+        "licenseUrl": "https://commons.wikimedia.org/wiki/File:Captainjamescookportrait.jpg"
+      }
+    },
+    {
+      "id": "01-17-czech-republic",
+      "date": "01-17",
+      "dateLabel": "17 January",
+      "category": "world",
+      "categoryName": "World",
+      "year": 1996,
+      "title": "Czech Republic",
+      "body": "The Czech Republic applies for membership in the European Union.",
+      "source": {
+        "name": "Wikipedia · Czech Republic",
+        "url": "https://en.wikipedia.org/wiki/Czech_Republic",
+        "calendarUrl": "https://en.wikipedia.org/wiki/January_17",
+        "license": {
+          "name": "CC BY-SA 4.0",
+          "url": "https://creativecommons.org/licenses/by-sa/4.0/"
+        }
+      },
+      "image": {
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/cb/Flag_of_the_Czech_Republic.svg/1280px-Flag_of_the_Czech_Republic.svg.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "alt": "Picture from the Wikipedia article on Czech Republic.",
+        "credit": "Jaroslav Kursa",
+        "source": "https://commons.wikimedia.org/wiki/File:Flag_of_the_Czech_Republic.svg",
+        "license": "Public domain",
+        "licenseUrl": "https://commons.wikimedia.org/wiki/File:Flag_of_the_Czech_Republic.svg"
+      }
+    },
+    {
+      "id": "01-17-doomsday-clock",
+      "date": "01-17",
+      "dateLabel": "17 January",
+      "category": "world",
+      "categoryName": "World",
+      "year": 2007,
+      "title": "Doomsday Clock",
+      "body": "The Doomsday Clock is set to five minutes to midnight in response to North Korea's nuclear testing.",
+      "source": {
+        "name": "Wikipedia · Doomsday Clock",
+        "url": "https://en.wikipedia.org/wiki/Doomsday_Clock",
+        "calendarUrl": "https://en.wikipedia.org/wiki/January_17",
+        "license": {
+          "name": "CC BY-SA 4.0",
+          "url": "https://creativecommons.org/licenses/by-sa/4.0/"
+        }
+      },
+      "image": {
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d5/Doomsday_clock_%281.42_minutes%29.svg/1280px-Doomsday_clock_%281.42_minutes%29.svg.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "alt": "Picture from the Wikipedia article on Doomsday Clock.",
+        "credit": "Wikimedia Commons",
+        "source": "https://commons.wikimedia.org/wiki/File:Doomsday_clock_(1.42_minutes).svg",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0"
       }
     }
   ]

@@ -3,17 +3,17 @@
   "dateLabel": "15 July",
   "facts": [
     {
-      "id": "07-15-twitter",
+      "id": "07-15-gangnam-style",
       "date": "07-15",
       "dateLabel": "15 July",
-      "category": "tech",
-      "categoryName": "Tech",
-      "year": 2006,
-      "title": "X",
-      "body": "Twitter, later one of the largest social media platforms in the world, is launched.",
+      "category": "culture",
+      "categoryName": "Culture",
+      "year": 2012,
+      "title": "Gangnam Style",
+      "body": "Psy released a song mocking the pretensions of a wealthy Seoul district, danced as though riding an invisible horse. It became the first video on YouTube to be watched a billion times.",
       "source": {
-        "name": "Wikipedia · X (social network)",
-        "url": "https://en.wikipedia.org/wiki/X_(social_network)",
+        "name": "Wikipedia · Gangnam Style",
+        "url": "https://en.wikipedia.org/wiki/Gangnam_Style",
         "calendarUrl": "https://en.wikipedia.org/wiki/July_15",
         "license": {
           "name": "CC BY-SA 4.0",
@@ -21,39 +21,12 @@
         }
       },
       "image": {
-        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/09/X_%28formerly_Twitter%29_logo_late_2025.svg/1280px-X_%28formerly_Twitter%29_logo_late_2025.svg.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-        "alt": "Picture from the Wikipedia article on X.",
-        "credit": "X Corp.",
-        "source": "https://commons.wikimedia.org/wiki/File:X_(formerly_Twitter)_logo_late_2025.svg",
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/01/Gangnam_Style_South_Korea.jpg/1280px-Gangnam_Style_South_Korea.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "alt": "A crowd performing the horse-riding dance from Gangnam Style.",
+        "credit": "Pacific Air Forces",
+        "source": "https://commons.wikimedia.org/wiki/File:Gangnam_Style_South_Korea.jpg",
         "license": "Public domain",
-        "licenseUrl": "https://commons.wikimedia.org/wiki/File:X_(formerly_Twitter)_logo_late_2025.svg"
-      }
-    },
-    {
-      "id": "07-15-boeing-367-80",
-      "date": "07-15",
-      "dateLabel": "15 July",
-      "category": "world",
-      "categoryName": "World",
-      "year": 1954,
-      "title": "Boeing 367-80",
-      "body": "The Boeing 367-80, the prototype for both the Boeing 707 and C-135 series, takes its first flight.",
-      "source": {
-        "name": "Wikipedia · Boeing 367-80",
-        "url": "https://en.wikipedia.org/wiki/Boeing_367-80",
-        "calendarUrl": "https://en.wikipedia.org/wiki/July_15",
-        "license": {
-          "name": "CC BY-SA 4.0",
-          "url": "https://creativecommons.org/licenses/by-sa/4.0/"
-        }
-      },
-      "image": {
-        "src": "https://upload.wikimedia.org/wikipedia/commons/6/64/Boeing_367-80_in_flight.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
-        "alt": "Picture from the Wikipedia article on Boeing 367-80.",
-        "credit": "Boeing Dreamscape",
-        "source": "https://commons.wikimedia.org/wiki/File:Boeing_367-80_in_flight.jpg",
-        "license": "Public domain",
-        "licenseUrl": "https://commons.wikimedia.org/wiki/File:Boeing_367-80_in_flight.jpg"
+        "licenseUrl": "https://commons.wikimedia.org/wiki/File:Gangnam_Style_South_Korea.jpg"
       }
     },
     {
@@ -81,6 +54,87 @@
         "source": "https://commons.wikimedia.org/wiki/File:Headquarters_of_Nintendo_Co.,_Ltd.jpg",
         "license": "CC BY-SA 4.0",
         "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0"
+      }
+    },
+    {
+      "id": "07-15-twitter",
+      "date": "07-15",
+      "dateLabel": "15 July",
+      "category": "tech",
+      "categoryName": "Tech",
+      "year": 2006,
+      "title": "X",
+      "body": "Twitter, later one of the largest social media platforms in the world, is launched.",
+      "source": {
+        "name": "Wikipedia · X (social network)",
+        "url": "https://en.wikipedia.org/wiki/X_(social_network)",
+        "calendarUrl": "https://en.wikipedia.org/wiki/July_15",
+        "license": {
+          "name": "CC BY-SA 4.0",
+          "url": "https://creativecommons.org/licenses/by-sa/4.0/"
+        }
+      },
+      "image": {
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/09/X_%28formerly_Twitter%29_logo_late_2025.svg/1280px-X_%28formerly_Twitter%29_logo_late_2025.svg.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "alt": "Picture from the Wikipedia article on X.",
+        "credit": "X Corp",
+        "source": "https://commons.wikimedia.org/wiki/File:X_(formerly_Twitter)_logo_late_2025.svg",
+        "license": "Public domain",
+        "licenseUrl": "https://commons.wikimedia.org/wiki/File:X_(formerly_Twitter)_logo_late_2025.svg"
+      }
+    },
+    {
+      "id": "07-15-emil-kraepelin",
+      "date": "07-15",
+      "dateLabel": "15 July",
+      "category": "world",
+      "categoryName": "World",
+      "year": 1910,
+      "title": "Emil Kraepelin",
+      "body": "In his book Clinical Psychiatry, Emil Kraepelin gives a name to Alzheimer's disease, naming it after his colleague Alois Alzheimer.",
+      "source": {
+        "name": "Wikipedia · Emil Kraepelin",
+        "url": "https://en.wikipedia.org/wiki/Emil_Kraepelin",
+        "calendarUrl": "https://en.wikipedia.org/wiki/July_15",
+        "license": {
+          "name": "CC BY-SA 4.0",
+          "url": "https://creativecommons.org/licenses/by-sa/4.0/"
+        }
+      },
+      "image": {
+        "src": "https://upload.wikimedia.org/wikipedia/commons/c/cd/Emil_Kraepelin_1926.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+        "alt": "Picture from the Wikipedia article on Emil Kraepelin.",
+        "credit": "Unknown author",
+        "source": "https://commons.wikimedia.org/wiki/File:Emil_Kraepelin_1926.jpg",
+        "license": "Public domain",
+        "licenseUrl": "https://commons.wikimedia.org/wiki/File:Emil_Kraepelin_1926.jpg"
+      }
+    },
+    {
+      "id": "07-15-psy",
+      "date": "07-15",
+      "dateLabel": "15 July",
+      "category": "world",
+      "categoryName": "World",
+      "year": 2012,
+      "title": "Psy",
+      "body": "South Korean rapper Psy releases his hit single Gangnam Style.",
+      "source": {
+        "name": "Wikipedia · Psy",
+        "url": "https://en.wikipedia.org/wiki/Psy",
+        "calendarUrl": "https://en.wikipedia.org/wiki/July_15",
+        "license": {
+          "name": "CC BY-SA 4.0",
+          "url": "https://creativecommons.org/licenses/by-sa/4.0/"
+        }
+      },
+      "image": {
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b0/PSY_EMTV_logo_27_%288198008711%29.jpg/1280px-PSY_EMTV_logo_27_%288198008711%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "alt": "Picture from the Wikipedia article on Psy.",
+        "credit": "Korea.net",
+        "source": "https://commons.wikimedia.org/wiki/File:PSY_EMTV_logo_27_(8198008711).jpg",
+        "license": "CC BY-SA 2.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0"
       }
     }
   ]

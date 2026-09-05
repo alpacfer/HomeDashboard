@@ -3,33 +3,6 @@
   "dateLabel": "12 January",
   "facts": [
     {
-      "id": "01-12-deep-impact-spacecraft",
-      "date": "01-12",
-      "dateLabel": "12 January",
-      "category": "space",
-      "categoryName": "Space",
-      "year": 2005,
-      "title": "Deep Impact",
-      "body": "Deep Impact launches from Cape Canaveral on a Delta II rocket.",
-      "source": {
-        "name": "Wikipedia · Deep Impact (spacecraft)",
-        "url": "https://en.wikipedia.org/wiki/Deep_Impact_(spacecraft)",
-        "calendarUrl": "https://en.wikipedia.org/wiki/January_12",
-        "license": {
-          "name": "CC BY-SA 4.0",
-          "url": "https://creativecommons.org/licenses/by-sa/4.0/"
-        }
-      },
-      "image": {
-        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/3d/Deep_Impact.jpg/1280px-Deep_Impact.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-        "alt": "Picture from the Wikipedia article on Deep Impact.",
-        "credit": "NASA/JPL",
-        "source": "https://commons.wikimedia.org/wiki/File:Deep_Impact.jpg",
-        "license": "Public domain",
-        "licenseUrl": "https://commons.wikimedia.org/wiki/File:Deep_Impact.jpg"
-      }
-    },
-    {
       "id": "01-12-downtown-disney",
       "date": "01-12",
       "dateLabel": "12 January",
@@ -57,17 +30,17 @@
       }
     },
     {
-      "id": "01-12-united-nations-security-council",
+      "id": "01-12-comet-mcnaught",
       "date": "01-12",
       "dateLabel": "12 January",
-      "category": "world",
-      "categoryName": "World",
-      "year": 1976,
-      "title": "United Nations Security Council",
-      "body": "The United Nations Security Council votes 11–1 to allow the Palestine Liberation Organization to participate in a Security Council debate (without voting rights).",
+      "category": "space",
+      "categoryName": "Space",
+      "year": 2007,
+      "title": "Comet McNaught",
+      "body": "Comet C/2006 P1 (McNaught), one of the brightest comets ever observed is at its zenith visible during the day.",
       "source": {
-        "name": "Wikipedia · United Nations Security Council",
-        "url": "https://en.wikipedia.org/wiki/United_Nations_Security_Council",
+        "name": "Wikipedia · Comet McNaught",
+        "url": "https://en.wikipedia.org/wiki/Comet_McNaught",
         "calendarUrl": "https://en.wikipedia.org/wiki/January_12",
         "license": {
           "name": "CC BY-SA 4.0",
@@ -75,12 +48,93 @@
         }
       },
       "image": {
-        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/52/Emblem_of_the_United_Nations.svg/1280px-Emblem_of_the_United_Nations.svg.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-        "alt": "Picture from the Wikipedia article on United Nations Security Council.",
-        "credit": "Joowwww",
-        "source": "https://commons.wikimedia.org/wiki/File:Emblem_of_the_United_Nations.svg",
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/15/Comet_P1_McNaught02_-_23-01-07.jpg/1280px-Comet_P1_McNaught02_-_23-01-07.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "alt": "Picture from the Wikipedia article on Comet McNaught.",
+        "credit": "fir0002 Canon 20D + Canon 17-40mm f/4 L",
+        "source": "https://commons.wikimedia.org/wiki/File:Comet_P1_McNaught02_-_23-01-07.jpg",
+        "license": "GFDL 1.2",
+        "licenseUrl": "https://www.gnu.org/licenses/old-licenses/fdl-1.2.html"
+      }
+    },
+    {
+      "id": "01-12-human-cloning",
+      "date": "01-12",
+      "dateLabel": "12 January",
+      "category": "science",
+      "categoryName": "Science",
+      "year": 1998,
+      "title": "Human cloning",
+      "body": "Nineteen European nations agree to forbid human cloning.",
+      "source": {
+        "name": "Wikipedia · Human cloning",
+        "url": "https://en.wikipedia.org/wiki/Human_cloning",
+        "calendarUrl": "https://en.wikipedia.org/wiki/January_12",
+        "license": {
+          "name": "CC BY-SA 4.0",
+          "url": "https://creativecommons.org/licenses/by-sa/4.0/"
+        }
+      },
+      "image": {
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b8/The_development_and_the_ways_to_rejuvenate_cells_-_en.svg/1280px-The_development_and_the_ways_to_rejuvenate_cells_-_en.svg.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "alt": "Picture from the Wikipedia article on Human cloning.",
+        "credit": "Kaidor",
+        "source": "https://commons.wikimedia.org/wiki/File:The_development_and_the_ways_to_rejuvenate_cells_-_en.svg",
+        "license": "CC BY-SA 3.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0"
+      }
+    },
+    {
+      "id": "01-12-new-york-jets",
+      "date": "01-12",
+      "dateLabel": "12 January",
+      "category": "sport",
+      "categoryName": "Sport",
+      "year": 1969,
+      "title": "New York Jets",
+      "body": "The New York Jets of the American Football League defeat the Baltimore Colts of the National Football League to win Super Bowl III in what is considered to be one of the greatest upsets in sports history.",
+      "source": {
+        "name": "Wikipedia · New York Jets",
+        "url": "https://en.wikipedia.org/wiki/New_York_Jets",
+        "calendarUrl": "https://en.wikipedia.org/wiki/January_12",
+        "license": {
+          "name": "CC BY-SA 4.0",
+          "url": "https://creativecommons.org/licenses/by-sa/4.0/"
+        }
+      },
+      "image": {
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/69/New_York_Jets_2024.svg/1280px-New_York_Jets_2024.svg.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "alt": "Picture from the Wikipedia article on New York Jets.",
+        "credit": "New York Jets",
+        "source": "https://commons.wikimedia.org/wiki/File:New_York_Jets_2024.svg",
         "license": "Public domain",
-        "licenseUrl": "https://commons.wikimedia.org/wiki/File:Emblem_of_the_United_Nations.svg"
+        "licenseUrl": "https://commons.wikimedia.org/wiki/File:New_York_Jets_2024.svg"
+      }
+    },
+    {
+      "id": "01-12-deep-impact-spacecraft",
+      "date": "01-12",
+      "dateLabel": "12 January",
+      "category": "space",
+      "categoryName": "Space",
+      "year": 2005,
+      "title": "Deep Impact",
+      "body": "Deep Impact launches from Cape Canaveral on a Delta II rocket.",
+      "source": {
+        "name": "Wikipedia · Deep Impact (spacecraft)",
+        "url": "https://en.wikipedia.org/wiki/Deep_Impact_(spacecraft)",
+        "calendarUrl": "https://en.wikipedia.org/wiki/January_12",
+        "license": {
+          "name": "CC BY-SA 4.0",
+          "url": "https://creativecommons.org/licenses/by-sa/4.0/"
+        }
+      },
+      "image": {
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/3d/Deep_Impact.jpg/1280px-Deep_Impact.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "alt": "Picture from the Wikipedia article on Deep Impact.",
+        "credit": "NASA/JPL",
+        "source": "https://commons.wikimedia.org/wiki/File:Deep_Impact.jpg",
+        "license": "Public domain",
+        "licenseUrl": "https://commons.wikimedia.org/wiki/File:Deep_Impact.jpg"
       }
     }
   ]

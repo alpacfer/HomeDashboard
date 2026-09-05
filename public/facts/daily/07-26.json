@@ -3,6 +3,33 @@
   "dateLabel": "26 July",
   "facts": [
     {
+      "id": "07-26-solar-impulse-2",
+      "date": "07-26",
+      "dateLabel": "26 July",
+      "category": "world",
+      "categoryName": "World",
+      "year": 2016,
+      "title": "Solar Impulse",
+      "body": "Solar Impulse 2 becomes the first solar-powered aircraft to circumnavigate the Earth.",
+      "source": {
+        "name": "Wikipedia · Solar Impulse",
+        "url": "https://en.wikipedia.org/wiki/Solar_Impulse",
+        "calendarUrl": "https://en.wikipedia.org/wiki/July_26",
+        "license": {
+          "name": "CC BY-SA 4.0",
+          "url": "https://creativecommons.org/licenses/by-sa/4.0/"
+        }
+      },
+      "image": {
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/73/SolarImpulse_HB-SIA_landing_Brussels_Airport_3-crop.jpg/1280px-SolarImpulse_HB-SIA_landing_Brussels_Airport_3-crop.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "alt": "Picture from the Wikipedia article on Solar Impulse.",
+        "credit": "Brussels Airport",
+        "source": "https://commons.wikimedia.org/wiki/File:SolarImpulse_HB-SIA_landing_Brussels_Airport_3-crop.jpg",
+        "license": "CC BY-SA 2.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0"
+      }
+    },
+    {
       "id": "07-26-walt-disney",
       "date": "07-26",
       "dateLabel": "26 July",
@@ -47,27 +74,37 @@
           "url": "https://creativecommons.org/licenses/by-sa/4.0/"
         }
       },
+      "video": {
+        "src": "https://upload.wikimedia.org/wikipedia/commons/transcoded/f/f7/Apollo_15_Lunar_Roving_Vehicle_deployment.webm/Apollo_15_Lunar_Roving_Vehicle_deployment.webm.240p.vp9.webm",
+        "fallback": "https://upload.wikimedia.org/wikipedia/commons/transcoded/f/f7/Apollo_15_Lunar_Roving_Vehicle_deployment.webm/Apollo_15_Lunar_Roving_Vehicle_deployment.webm.360p.mpeg4.mov",
+        "poster": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f7/Apollo_15_Lunar_Roving_Vehicle_deployment.webm/500px--Apollo_15_Lunar_Roving_Vehicle_deployment.webm.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo",
+        "seconds": 15,
+        "credit": "Apollo 15",
+        "source": "https://commons.wikimedia.org/wiki/File:Apollo_15_Lunar_Roving_Vehicle_deployment.webm",
+        "license": "Public domain",
+        "licenseUrl": "https://commons.wikimedia.org/wiki/File:Apollo_15_Lunar_Roving_Vehicle_deployment.webm"
+      },
       "image": {
         "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/62/AS15-88-11866_-_Apollo_15_flag%2C_rover%2C_LM%2C_Irwin_-_restoration1.jpg/1280px-AS15-88-11866_-_Apollo_15_flag%2C_rover%2C_LM%2C_Irwin_-_restoration1.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
         "alt": "Picture from the Wikipedia article on Apollo 15.",
-        "credit": "NASA Johnson Space Center Restored by Bammesk",
+        "credit": "NASA Johnson Space Center Restored",
         "source": "https://commons.wikimedia.org/wiki/File:AS15-88-11866_-_Apollo_15_flag,_rover,_LM,_Irwin_-_restoration1.jpg",
         "license": "Public domain",
         "licenseUrl": "https://commons.wikimedia.org/wiki/File:AS15-88-11866_-_Apollo_15_flag,_rover,_LM,_Irwin_-_restoration1.jpg"
       }
     },
     {
-      "id": "07-26-solar-impulse-2",
+      "id": "07-26-history-of-women-s-cricket",
       "date": "07-26",
       "dateLabel": "26 July",
-      "category": "world",
-      "categoryName": "World",
-      "year": 2016,
-      "title": "Solar Impulse",
-      "body": "Solar Impulse 2 becomes the first solar-powered aircraft to circumnavigate the Earth.",
+      "category": "sport",
+      "categoryName": "Sport",
+      "year": 1745,
+      "title": "History of women's cricket",
+      "body": "The first recorded women's cricket match takes place near Guildford, England.",
       "source": {
-        "name": "Wikipedia · Solar Impulse",
-        "url": "https://en.wikipedia.org/wiki/Solar_Impulse",
+        "name": "Wikipedia · History of women's cricket",
+        "url": "https://en.wikipedia.org/wiki/History_of_women%27s_cricket",
         "calendarUrl": "https://en.wikipedia.org/wiki/July_26",
         "license": {
           "name": "CC BY-SA 4.0",
@@ -75,12 +112,39 @@
         }
       },
       "image": {
-        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/73/SolarImpulse_HB-SIA_landing_Brussels_Airport_3-crop.jpg/1280px-SolarImpulse_HB-SIA_landing_Brussels_Airport_3-crop.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-        "alt": "Picture from the Wikipedia article on Solar Impulse.",
-        "credit": "Brussels Airport",
-        "source": "https://commons.wikimedia.org/wiki/File:SolarImpulse_HB-SIA_landing_Brussels_Airport_3-crop.jpg",
-        "license": "CC BY-SA 2.0",
-        "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0"
+        "src": "https://upload.wikimedia.org/wikipedia/commons/9/93/Test_cricket_-_women_-_1935.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+        "alt": "Picture from the Wikipedia article on History of women's cricket.",
+        "credit": "Unknown author",
+        "source": "https://commons.wikimedia.org/wiki/File:Test_cricket_-_women_-_1935.jpg",
+        "license": "Public domain",
+        "licenseUrl": "https://commons.wikimedia.org/wiki/File:Test_cricket_-_women_-_1935.jpg"
+      }
+    },
+    {
+      "id": "07-26-syncom",
+      "date": "07-26",
+      "dateLabel": "26 July",
+      "category": "space",
+      "categoryName": "Space",
+      "year": 1963,
+      "title": "Syncom",
+      "body": "Syncom 2, the world's first geosynchronous satellite, is launched from Cape Canaveral on a Delta B booster.",
+      "source": {
+        "name": "Wikipedia · Syncom",
+        "url": "https://en.wikipedia.org/wiki/Syncom",
+        "calendarUrl": "https://en.wikipedia.org/wiki/July_26",
+        "license": {
+          "name": "CC BY-SA 4.0",
+          "url": "https://creativecommons.org/licenses/by-sa/4.0/"
+        }
+      },
+      "image": {
+        "src": "https://upload.wikimedia.org/wikipedia/commons/8/80/Syncom_colour.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+        "alt": "Picture from the Wikipedia article on Syncom.",
+        "credit": "Wikimedia Commons",
+        "source": "https://commons.wikimedia.org/wiki/File:Syncom_colour.jpg",
+        "license": "Public domain",
+        "licenseUrl": "https://commons.wikimedia.org/wiki/File:Syncom_colour.jpg"
       }
     }
   ]

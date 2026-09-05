@@ -30,33 +30,6 @@
       }
     },
     {
-      "id": "03-13-seikan-tunnel",
-      "date": "03-13",
-      "dateLabel": "13 March",
-      "category": "world",
-      "categoryName": "World",
-      "year": 1988,
-      "title": "Seikan Tunnel",
-      "body": "The Seikan Tunnel, the longest tunnel in the world with an undersea segment, opens between Aomori and Hakodate, Japan.",
-      "source": {
-        "name": "Wikipedia · Seikan Tunnel",
-        "url": "https://en.wikipedia.org/wiki/Seikan_Tunnel",
-        "calendarUrl": "https://en.wikipedia.org/wiki/March_13",
-        "license": {
-          "name": "CC BY-SA 4.0",
-          "url": "https://creativecommons.org/licenses/by-sa/4.0/"
-        }
-      },
-      "image": {
-        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/eb/Inside_seikan_tunnel.JPG/1280px-Inside_seikan_tunnel.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-        "alt": "Picture from the Wikipedia article on Seikan Tunnel.",
-        "credit": "Risto Kaijaluoto",
-        "source": "https://commons.wikimedia.org/wiki/File:Inside_seikan_tunnel.JPG",
-        "license": "CC BY 3.0",
-        "licenseUrl": "https://creativecommons.org/licenses/by/3.0"
-      }
-    },
-    {
       "id": "03-13-william-herschel",
       "date": "03-13",
       "dateLabel": "13 March",
@@ -81,6 +54,87 @@
         "source": "https://commons.wikimedia.org/wiki/File:William_Herschel01.jpg",
         "license": "Public domain",
         "licenseUrl": "https://commons.wikimedia.org/wiki/File:William_Herschel01.jpg"
+      }
+    },
+    {
+      "id": "03-13-museum-of-the-revolution-cuba",
+      "date": "03-13",
+      "dateLabel": "13 March",
+      "category": "world",
+      "categoryName": "World",
+      "year": 1957,
+      "title": "Museum of the Revolution",
+      "body": "Cuban student revolutionaries storm the presidential palace in Havana in a failed attempt on the life of President Fulgencio Batista.",
+      "source": {
+        "name": "Wikipedia · Museum of the Revolution (Cuba)",
+        "url": "https://en.wikipedia.org/wiki/Museum_of_the_Revolution_(Cuba)",
+        "calendarUrl": "https://en.wikipedia.org/wiki/March_13",
+        "license": {
+          "name": "CC BY-SA 4.0",
+          "url": "https://creativecommons.org/licenses/by-sa/4.0/"
+        }
+      },
+      "image": {
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/5b/Museum_of_Revolution_Cuba.jpg/1280px-Museum_of_Revolution_Cuba.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "alt": "Picture from the Wikipedia article on Museum of the Revolution.",
+        "credit": "Paul Mannix",
+        "source": "https://commons.wikimedia.org/wiki/File:Museum_of_Revolution_Cuba.jpg",
+        "license": "CC BY-SA 2.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0"
+      }
+    },
+    {
+      "id": "03-13-congress-of-vienna",
+      "date": "03-13",
+      "dateLabel": "13 March",
+      "category": "curious",
+      "categoryName": "Curious",
+      "year": 1815,
+      "title": "Congress of Vienna",
+      "body": "Participants at the Congress of Vienna declare Napoleon an outlaw following his escape from Elba.",
+      "source": {
+        "name": "Wikipedia · Congress of Vienna",
+        "url": "https://en.wikipedia.org/wiki/Congress_of_Vienna",
+        "calendarUrl": "https://en.wikipedia.org/wiki/March_13",
+        "license": {
+          "name": "CC BY-SA 4.0",
+          "url": "https://creativecommons.org/licenses/by-sa/4.0/"
+        }
+      },
+      "image": {
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/ac/Europe_1815_map_en.png/1280px-Europe_1815_map_en.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "alt": "Picture from the Wikipedia article on Congress of Vienna.",
+        "credit": "Alexander Altenhof",
+        "source": "https://commons.wikimedia.org/wiki/File:Europe_1815_map_en.png",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0"
+      }
+    },
+    {
+      "id": "03-13-pluto",
+      "date": "03-13",
+      "dateLabel": "13 March",
+      "category": "space",
+      "categoryName": "Space",
+      "year": 1930,
+      "title": "Pluto",
+      "body": "The news of the discovery of Pluto is announced by Lowell Observatory.",
+      "source": {
+        "name": "Wikipedia · Pluto",
+        "url": "https://en.wikipedia.org/wiki/Pluto",
+        "calendarUrl": "https://en.wikipedia.org/wiki/March_13",
+        "license": {
+          "name": "CC BY-SA 4.0",
+          "url": "https://creativecommons.org/licenses/by-sa/4.0/"
+        }
+      },
+      "image": {
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/ca/Pluto_in_True_Color_-_High-Res.png/1280px-Pluto_in_True_Color_-_High-Res.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "alt": "Picture from the Wikipedia article on Pluto.",
+        "credit": "NASA",
+        "source": "https://commons.wikimedia.org/wiki/File:Pluto_in_True_Color_-_High-Res.png",
+        "license": "Public domain",
+        "licenseUrl": "https://commons.wikimedia.org/wiki/File:Pluto_in_True_Color_-_High-Res.png"
       }
     }
   ]

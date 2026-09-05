@@ -3,33 +3,6 @@
   "dateLabel": "21 October",
   "facts": [
     {
-      "id": "10-21-niki-lauda",
-      "date": "10-21",
-      "dateLabel": "21 October",
-      "category": "sport",
-      "categoryName": "Sport",
-      "year": 1984,
-      "title": "Niki Lauda",
-      "body": "Niki Lauda claims his third and final Formula One Drivers' Championship Title by half a point ahead of McLaren team-mate Alain Prost at the Portuguese Grand Prix.",
-      "source": {
-        "name": "Wikipedia · Niki Lauda",
-        "url": "https://en.wikipedia.org/wiki/Niki_Lauda",
-        "calendarUrl": "https://en.wikipedia.org/wiki/October_21",
-        "license": {
-          "name": "CC BY-SA 4.0",
-          "url": "https://creativecommons.org/licenses/by-sa/4.0/"
-        }
-      },
-      "image": {
-        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/2d/Lauda_at_1982_Dutch_Grand_Prix.jpg/1280px-Lauda_at_1982_Dutch_Grand_Prix.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-        "alt": "Picture from the Wikipedia article on Niki Lauda.",
-        "credit": "Hans van Dijk for Anefo / neg. stroken, 1945-1989, 2.24.01.05, item number 932-2315",
-        "source": "https://commons.wikimedia.org/wiki/File:Lauda_at_1982_Dutch_Grand_Prix.jpg",
-        "license": "CC0",
-        "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/deed.en"
-      }
-    },
-    {
       "id": "10-21-ernest-hemingway",
       "date": "10-21",
       "dateLabel": "21 October",
@@ -57,6 +30,33 @@
       }
     },
     {
+      "id": "10-21-niki-lauda",
+      "date": "10-21",
+      "dateLabel": "21 October",
+      "category": "sport",
+      "categoryName": "Sport",
+      "year": 1984,
+      "title": "Niki Lauda",
+      "body": "Niki Lauda claims his third and final Formula One Drivers' Championship Title by half a point ahead of McLaren team-mate Alain Prost at the Portuguese Grand Prix.",
+      "source": {
+        "name": "Wikipedia · Niki Lauda",
+        "url": "https://en.wikipedia.org/wiki/Niki_Lauda",
+        "calendarUrl": "https://en.wikipedia.org/wiki/October_21",
+        "license": {
+          "name": "CC BY-SA 4.0",
+          "url": "https://creativecommons.org/licenses/by-sa/4.0/"
+        }
+      },
+      "image": {
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/2d/Lauda_at_1982_Dutch_Grand_Prix.jpg/1280px-Lauda_at_1982_Dutch_Grand_Prix.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "alt": "Picture from the Wikipedia article on Niki Lauda.",
+        "credit": "Hans van Dijk for Anefo / neg",
+        "source": "https://commons.wikimedia.org/wiki/File:Lauda_at_1982_Dutch_Grand_Prix.jpg",
+        "license": "CC0",
+        "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/deed.en"
+      }
+    },
+    {
       "id": "10-21-comet-ikeya-seki",
       "date": "10-21",
       "dateLabel": "21 October",
@@ -81,6 +81,60 @@
         "source": "https://commons.wikimedia.org/wiki/File:Comet_C_1965_S1_Ikeya-Seki.jpg",
         "license": "CC BY 2.5",
         "licenseUrl": "https://creativecommons.org/licenses/by/2.5"
+      }
+    },
+    {
+      "id": "10-21-136199-eris",
+      "date": "10-21",
+      "dateLabel": "21 October",
+      "category": "science",
+      "categoryName": "Science",
+      "year": 2003,
+      "title": "Eris",
+      "body": "Images of the dwarf planet Eris are taken and subsequently used in documenting its discovery.",
+      "source": {
+        "name": "Wikipedia · Eris (dwarf planet)",
+        "url": "https://en.wikipedia.org/wiki/Eris_(dwarf_planet)",
+        "calendarUrl": "https://en.wikipedia.org/wiki/October_21",
+        "license": {
+          "name": "CC BY-SA 4.0",
+          "url": "https://creativecommons.org/licenses/by-sa/4.0/"
+        }
+      },
+      "image": {
+        "src": "https://upload.wikimedia.org/wikipedia/commons/6/63/Eris_and_moon_Dysnomia_JWST_NIRCam.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+        "alt": "Picture from the Wikipedia article on Eris.",
+        "credit": "NASA",
+        "source": "https://commons.wikimedia.org/wiki/File:Eris_and_moon_Dysnomia_JWST_NIRCam.jpg",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0"
+      }
+    },
+    {
+      "id": "10-21-solomon-r-guggenheim-museum",
+      "date": "10-21",
+      "dateLabel": "21 October",
+      "category": "culture",
+      "categoryName": "Culture",
+      "year": 1959,
+      "title": "Solomon R. Guggenheim Museum",
+      "body": "In New York City, the Solomon R. Guggenheim Museum opens to the public.",
+      "source": {
+        "name": "Wikipedia · Solomon R. Guggenheim Museum",
+        "url": "https://en.wikipedia.org/wiki/Solomon_R._Guggenheim_Museum",
+        "calendarUrl": "https://en.wikipedia.org/wiki/October_21",
+        "license": {
+          "name": "CC BY-SA 4.0",
+          "url": "https://creativecommons.org/licenses/by-sa/4.0/"
+        }
+      },
+      "image": {
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/ff/Solomon_R._Guggenheim_Museum_%2848059131351%29.jpg/1280px-Solomon_R._Guggenheim_Museum_%2848059131351%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "alt": "Picture from the Wikipedia article on Solomon R. Guggenheim Museum.",
+        "credit": "Ajay Suresh from New York, NY, USA",
+        "source": "https://commons.wikimedia.org/wiki/File:Solomon_R._Guggenheim_Museum_(48059131351).jpg",
+        "license": "CC BY 2.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by/2.0"
       }
     }
   ]

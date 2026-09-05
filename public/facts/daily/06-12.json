@@ -3,33 +3,6 @@
   "dateLabel": "12 June",
   "facts": [
     {
-      "id": "06-12-operation-joint-guardian",
-      "date": "06-12",
-      "dateLabel": "12 June",
-      "category": "world",
-      "categoryName": "World",
-      "year": 1999,
-      "title": "Kosovo Force",
-      "body": "Operation Joint Guardian begins when a NATO-led United Nations peacekeeping force, Kosovo Force (KFor), enters the province of Kosovo in the Federal Republic of Yugoslavia.",
-      "source": {
-        "name": "Wikipedia · Kosovo Force",
-        "url": "https://en.wikipedia.org/wiki/Kosovo_Force",
-        "calendarUrl": "https://en.wikipedia.org/wiki/June_12",
-        "license": {
-          "name": "CC BY-SA 4.0",
-          "url": "https://creativecommons.org/licenses/by-sa/4.0/"
-        }
-      },
-      "image": {
-        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/2e/Coat_of_arms_of_the_Kosovo_Force.svg/1280px-Coat_of_arms_of_the_Kosovo_Force.svg.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-        "alt": "Picture from the Wikipedia article on Kosovo Force.",
-        "credit": "Madboy74.",
-        "source": "https://commons.wikimedia.org/wiki/File:Coat_of_arms_of_the_Kosovo_Force.svg",
-        "license": "Public domain",
-        "licenseUrl": "https://commons.wikimedia.org/wiki/File:Coat_of_arms_of_the_Kosovo_Force.svg"
-      }
-    },
-    {
       "id": "06-12-baseball-hall-of-fame",
       "date": "06-12",
       "dateLabel": "12 June",
@@ -57,6 +30,33 @@
       }
     },
     {
+      "id": "06-12-kim-jong-un",
+      "date": "06-12",
+      "dateLabel": "12 June",
+      "category": "world",
+      "categoryName": "World",
+      "year": 2018,
+      "title": "Kim Jong Un",
+      "body": "United States President Donald Trump and Kim Jong-un of North Korea hold the first meeting between leaders of their two countries in Singapore.",
+      "source": {
+        "name": "Wikipedia · Kim Jong Un",
+        "url": "https://en.wikipedia.org/wiki/Kim_Jong_Un",
+        "calendarUrl": "https://en.wikipedia.org/wiki/June_12",
+        "license": {
+          "name": "CC BY-SA 4.0",
+          "url": "https://creativecommons.org/licenses/by-sa/4.0/"
+        }
+      },
+      "image": {
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d0/Kim_Jong-un_and_Vladimir_Putin_%282023-09-13%29_12_%28cropped_2%29.jpg/1280px-Kim_Jong-un_and_Vladimir_Putin_%282023-09-13%29_12_%28cropped_2%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "alt": "Picture from the Wikipedia article on Kim Jong Un.",
+        "credit": "Mil.ru",
+        "source": "https://commons.wikimedia.org/wiki/File:Kim_Jong-un_and_Vladimir_Putin_(2023-09-13)_12_(cropped_2).jpg",
+        "license": "CC BY 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by/4.0"
+      }
+    },
+    {
       "id": "06-12-cleopatra-1963-film",
       "date": "06-12",
       "dateLabel": "12 June",
@@ -81,6 +81,60 @@
         "source": "https://commons.wikimedia.org/wiki/File:Cleopatra_poster.jpg",
         "license": "Public domain",
         "licenseUrl": "https://commons.wikimedia.org/wiki/File:Cleopatra_poster.jpg"
+      }
+    },
+    {
+      "id": "06-12-bryan-allen-cyclist",
+      "date": "06-12",
+      "dateLabel": "12 June",
+      "category": "world",
+      "categoryName": "World",
+      "year": 1979,
+      "title": "Bryan Allen",
+      "body": "Bryan Allen wins the second Kremer prize for a man-powered flight across the English Channel in the Gossamer Albatross.",
+      "source": {
+        "name": "Wikipedia · Bryan Allen (hang glider)",
+        "url": "https://en.wikipedia.org/wiki/Bryan_Allen_(hang_glider)",
+        "calendarUrl": "https://en.wikipedia.org/wiki/June_12",
+        "license": {
+          "name": "CC BY-SA 4.0",
+          "url": "https://creativecommons.org/licenses/by-sa/4.0/"
+        }
+      },
+      "image": {
+        "src": "https://upload.wikimedia.org/wikipedia/commons/1/1d/Bryan_Allen_NASA_Mission_Data_Operations_Team.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+        "alt": "Picture from the Wikipedia article on Bryan Allen.",
+        "credit": "Unknown NASA photographer",
+        "source": "https://commons.wikimedia.org/wiki/File:Bryan_Allen_NASA_Mission_Data_Operations_Team.jpg",
+        "license": "Public domain",
+        "licenseUrl": "https://commons.wikimedia.org/wiki/File:Bryan_Allen_NASA_Mission_Data_Operations_Team.jpg"
+      }
+    },
+    {
+      "id": "06-12-operation-joint-guardian",
+      "date": "06-12",
+      "dateLabel": "12 June",
+      "category": "world",
+      "categoryName": "World",
+      "year": 1999,
+      "title": "Kosovo Force",
+      "body": "Operation Joint Guardian begins when a NATO-led United Nations peacekeeping force, Kosovo Force (KFor), enters the province of Kosovo in the Federal Republic of Yugoslavia.",
+      "source": {
+        "name": "Wikipedia · Kosovo Force",
+        "url": "https://en.wikipedia.org/wiki/Kosovo_Force",
+        "calendarUrl": "https://en.wikipedia.org/wiki/June_12",
+        "license": {
+          "name": "CC BY-SA 4.0",
+          "url": "https://creativecommons.org/licenses/by-sa/4.0/"
+        }
+      },
+      "image": {
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/2e/Coat_of_arms_of_the_Kosovo_Force.svg/1280px-Coat_of_arms_of_the_Kosovo_Force.svg.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "alt": "Picture from the Wikipedia article on Kosovo Force.",
+        "credit": "Madboy74",
+        "source": "https://commons.wikimedia.org/wiki/File:Coat_of_arms_of_the_Kosovo_Force.svg",
+        "license": "Public domain",
+        "licenseUrl": "https://commons.wikimedia.org/wiki/File:Coat_of_arms_of_the_Kosovo_Force.svg"
       }
     }
   ]

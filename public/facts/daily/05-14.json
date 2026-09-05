@@ -23,7 +23,7 @@
       "image": {
         "src": "https://upload.wikimedia.org/wikipedia/commons/b/b9/Zhurong_rover_3x2_crop.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
         "alt": "Picture from the Wikipedia article on Zhurong.",
-        "credit": "中国新闻社",
+        "credit": "Wikimedia Commons",
         "source": "https://commons.wikimedia.org/wiki/File:Zhurong_rover_3x2_crop.png",
         "license": "CC BY 4.0",
         "licenseUrl": "https://creativecommons.org/licenses/by/4.0"
@@ -81,6 +81,69 @@
         "source": "https://commons.wikimedia.org/wiki/File:L%27Exposition_de_Paris,_LDUT1210(3)(3).jpg",
         "license": "CC0",
         "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/deed.en"
+      }
+    },
+    {
+      "id": "05-14-william-clark",
+      "date": "05-14",
+      "dateLabel": "14 May",
+      "category": "science",
+      "categoryName": "Science",
+      "year": 1804,
+      "title": "William Clark",
+      "body": "William Clark and 42 men depart from Camp Dubois to join Meriwether Lewis at St Charles, Missouri, marking the beginning of the Lewis and Clark Expedition historic journey up the Missouri River.",
+      "source": {
+        "name": "Wikipedia · William Clark",
+        "url": "https://en.wikipedia.org/wiki/William_Clark",
+        "calendarUrl": "https://en.wikipedia.org/wiki/May_14",
+        "license": {
+          "name": "CC BY-SA 4.0",
+          "url": "https://creativecommons.org/licenses/by-sa/4.0/"
+        }
+      },
+      "image": {
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/89/Portrait_of_William_Clark_%28cropped%29.jpg/1280px-Portrait_of_William_Clark_%28cropped%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "alt": "Picture from the Wikipedia article on William Clark.",
+        "credit": "Jarvis, John Wesley, 1780-1840",
+        "source": "https://commons.wikimedia.org/wiki/File:Portrait_of_William_Clark_(cropped).jpg",
+        "license": "Public domain",
+        "licenseUrl": "https://commons.wikimedia.org/wiki/File:Portrait_of_William_Clark_(cropped).jpg"
+      }
+    },
+    {
+      "id": "05-14-skylab",
+      "date": "05-14",
+      "dateLabel": "14 May",
+      "category": "space",
+      "categoryName": "Space",
+      "year": 1973,
+      "title": "Skylab",
+      "body": "Skylab, the United States' first space station, is launched.",
+      "source": {
+        "name": "Wikipedia · Skylab",
+        "url": "https://en.wikipedia.org/wiki/Skylab",
+        "calendarUrl": "https://en.wikipedia.org/wiki/May_14",
+        "license": {
+          "name": "CC BY-SA 4.0",
+          "url": "https://creativecommons.org/licenses/by-sa/4.0/"
+        }
+      },
+      "video": {
+        "src": "https://upload.wikimedia.org/wikipedia/commons/transcoded/1/1c/Skylab_astronauts_have_fun.ogv/Skylab_astronauts_have_fun.ogv.240p.vp9.webm",
+        "poster": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/1c/Skylab_astronauts_have_fun.ogv/330px--Skylab_astronauts_have_fun.ogv.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo",
+        "seconds": 45,
+        "credit": "Unknown",
+        "source": "https://commons.wikimedia.org/wiki/File:Skylab_astronauts_have_fun.ogv",
+        "license": "Public domain",
+        "licenseUrl": "https://commons.wikimedia.org/wiki/File:Skylab_astronauts_have_fun.ogv"
+      },
+      "image": {
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/07/Skylab_%28SL-4%29.jpg/1280px-Skylab_%28SL-4%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "alt": "Picture from the Wikipedia article on Skylab.",
+        "credit": "NASA",
+        "source": "https://commons.wikimedia.org/wiki/File:Skylab_(SL-4).jpg",
+        "license": "Public domain",
+        "licenseUrl": "https://commons.wikimedia.org/wiki/File:Skylab_(SL-4).jpg"
       }
     }
   ]

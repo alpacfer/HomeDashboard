@@ -50,7 +50,7 @@
       "image": {
         "src": "https://upload.wikimedia.org/wikipedia/commons/5/55/Vatican_II_photo.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
         "alt": "Picture from the Wikipedia article on Second Vatican Council.",
-        "credit": "The taker of the photo is unknown, the publisher is from Carroll College.",
+        "credit": "The taker of the photo is unknown, the…",
         "source": "https://commons.wikimedia.org/wiki/File:Vatican_II_photo.jpg",
         "license": "CC BY 3.0",
         "licenseUrl": "https://creativecommons.org/licenses/by/3.0"
@@ -81,6 +81,60 @@
         "source": "https://commons.wikimedia.org/wiki/File:Apollo_7_during_the_first_live_television_transmission_from_space.jpg",
         "license": "Public domain",
         "licenseUrl": "https://commons.wikimedia.org/wiki/File:Apollo_7_during_the_first_live_television_transmission_from_space.jpg"
+      }
+    },
+    {
+      "id": "10-11-pioneer-1",
+      "date": "10-11",
+      "dateLabel": "11 October",
+      "category": "space",
+      "categoryName": "Space",
+      "year": 1958,
+      "title": "Pioneer 1",
+      "body": "NASA launches Pioneer 1, its first space probe, although it fails to achieve a stable orbit.",
+      "source": {
+        "name": "Wikipedia · Pioneer 1",
+        "url": "https://en.wikipedia.org/wiki/Pioneer_1",
+        "calendarUrl": "https://en.wikipedia.org/wiki/October_11",
+        "license": {
+          "name": "CC BY-SA 4.0",
+          "url": "https://creativecommons.org/licenses/by-sa/4.0/"
+        }
+      },
+      "image": {
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f9/Pioneer_I%2C_Reconstructed_Replica.jpg/1280px-Pioneer_I%2C_Reconstructed_Replica.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "alt": "Picture from the Wikipedia article on Pioneer 1.",
+        "credit": "National Air and Space Museum",
+        "source": "https://commons.wikimedia.org/wiki/File:Pioneer_I,_Reconstructed_Replica.jpg",
+        "license": "CC0",
+        "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/deed.en"
+      }
+    },
+    {
+      "id": "10-11-sts-92",
+      "date": "10-11",
+      "dateLabel": "11 October",
+      "category": "space",
+      "categoryName": "Space",
+      "year": 2000,
+      "title": "STS-92",
+      "body": "NASA launches STS-92, the 100th Space Shuttle mission.",
+      "source": {
+        "name": "Wikipedia · STS-92",
+        "url": "https://en.wikipedia.org/wiki/STS-92",
+        "calendarUrl": "https://en.wikipedia.org/wiki/October_11",
+        "license": {
+          "name": "CC BY-SA 4.0",
+          "url": "https://creativecommons.org/licenses/by-sa/4.0/"
+        }
+      },
+      "image": {
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/83/MS_Wisoff_and_Z1_Truss_Berthing.jpg/1280px-MS_Wisoff_and_Z1_Truss_Berthing.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "alt": "Picture from the Wikipedia article on STS-92.",
+        "credit": "NASA/JSC",
+        "source": "https://commons.wikimedia.org/wiki/File:MS_Wisoff_and_Z1_Truss_Berthing.jpg",
+        "license": "Public domain",
+        "licenseUrl": "https://commons.wikimedia.org/wiki/File:MS_Wisoff_and_Z1_Truss_Berthing.jpg"
       }
     }
   ]

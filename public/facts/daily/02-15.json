@@ -3,17 +3,17 @@
   "dateLabel": "15 February",
   "facts": [
     {
-      "id": "02-15-visegr-d-group",
+      "id": "02-15-sound-recording-and-reproduction",
       "date": "02-15",
       "dateLabel": "15 February",
       "category": "world",
       "categoryName": "World",
-      "year": 1991,
-      "title": "Visegrád Group",
-      "body": "The Visegrád Group, establishing cooperation to move toward free-market systems, is signed by the leaders of Czechoslovakia, Hungary and Poland.",
+      "year": 1972,
+      "title": "Sound recording and reproduction",
+      "body": "Sound recordings are granted U.S. federal copyright protection for the first time.",
       "source": {
-        "name": "Wikipedia · Visegrád Group",
-        "url": "https://en.wikipedia.org/wiki/Visegr%C3%A1d_Group",
+        "name": "Wikipedia · Sound recording and reproduction",
+        "url": "https://en.wikipedia.org/wiki/Sound_recording_and_reproduction",
         "calendarUrl": "https://en.wikipedia.org/wiki/February_15",
         "license": {
           "name": "CC BY-SA 4.0",
@@ -21,12 +21,12 @@
         }
       },
       "image": {
-        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b9/Visegrad_group_countries.svg/1280px-Visegrad_group_countries.svg.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-        "alt": "Picture from the Wikipedia article on Visegrád Group.",
-        "credit": "CrazyPhunk",
-        "source": "https://commons.wikimedia.org/wiki/File:Visegrad_group_countries.svg",
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/1b/Frances_Densmore_recording_Mountain_Chief2.jpg/1280px-Frances_Densmore_recording_Mountain_Chief2.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "alt": "Picture from the Wikipedia article on Sound recording and reproduction.",
+        "credit": "Harris & Ewing",
+        "source": "https://commons.wikimedia.org/wiki/File:Frances_Densmore_recording_Mountain_Chief2.jpg",
         "license": "Public domain",
-        "licenseUrl": "https://commons.wikimedia.org/wiki/File:Visegrad_group_countries.svg"
+        "licenseUrl": "https://commons.wikimedia.org/wiki/File:Frances_Densmore_recording_Mountain_Chief2.jpg"
       }
     },
     {
@@ -50,7 +50,7 @@
       "image": {
         "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/6c/ENIAC_Penn1.jpg/1280px-ENIAC_Penn1.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
         "alt": "Picture from the Wikipedia article on ENIAC.",
-        "credit": "The original uploader was TexasDex at English Wikipedia.",
+        "credit": "TexasDex",
         "source": "https://commons.wikimedia.org/wiki/File:ENIAC_Penn1.jpg",
         "license": "CC BY-SA 3.0",
         "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0/"
@@ -81,6 +81,60 @@
         "source": "https://commons.wikimedia.org/wiki/File:Ariane42P_rocket.png",
         "license": "Public domain",
         "licenseUrl": "https://commons.wikimedia.org/wiki/File:Ariane42P_rocket.png"
+      }
+    },
+    {
+      "id": "02-15-visegr-d-group",
+      "date": "02-15",
+      "dateLabel": "15 February",
+      "category": "world",
+      "categoryName": "World",
+      "year": 1991,
+      "title": "Visegrád Group",
+      "body": "The Visegrád Group, establishing cooperation to move toward free-market systems, is signed by the leaders of Czechoslovakia, Hungary and Poland.",
+      "source": {
+        "name": "Wikipedia · Visegrád Group",
+        "url": "https://en.wikipedia.org/wiki/Visegr%C3%A1d_Group",
+        "calendarUrl": "https://en.wikipedia.org/wiki/February_15",
+        "license": {
+          "name": "CC BY-SA 4.0",
+          "url": "https://creativecommons.org/licenses/by-sa/4.0/"
+        }
+      },
+      "image": {
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b9/Visegrad_group_countries.svg/1280px-Visegrad_group_countries.svg.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "alt": "Picture from the Wikipedia article on Visegrád Group.",
+        "credit": "CrazyPhunk",
+        "source": "https://commons.wikimedia.org/wiki/File:Visegrad_group_countries.svg",
+        "license": "Public domain",
+        "licenseUrl": "https://commons.wikimedia.org/wiki/File:Visegrad_group_countries.svg"
+      }
+    },
+    {
+      "id": "02-15-george-vi",
+      "date": "02-15",
+      "dateLabel": "15 February",
+      "category": "world",
+      "categoryName": "World",
+      "year": 1952,
+      "title": "George VI",
+      "body": "King George VI of the United Kingdom is buried in St George's Chapel, Windsor Castle.",
+      "source": {
+        "name": "Wikipedia · George VI",
+        "url": "https://en.wikipedia.org/wiki/George_VI",
+        "calendarUrl": "https://en.wikipedia.org/wiki/February_15",
+        "license": {
+          "name": "CC BY-SA 4.0",
+          "url": "https://creativecommons.org/licenses/by-sa/4.0/"
+        }
+      },
+      "image": {
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e0/King_George_VI_LOC_matpc.14736_A_%28cropped%29.jpg/1280px-King_George_VI_LOC_matpc.14736_A_%28cropped%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "alt": "Picture from the Wikipedia article on George VI.",
+        "credit": "Matson Photo Service",
+        "source": "https://commons.wikimedia.org/wiki/File:King_George_VI_LOC_matpc.14736_A_(cropped).jpg",
+        "license": "Public domain",
+        "licenseUrl": "https://commons.wikimedia.org/wiki/File:King_George_VI_LOC_matpc.14736_A_(cropped).jpg"
       }
     }
   ]

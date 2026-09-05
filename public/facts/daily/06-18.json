@@ -3,33 +3,6 @@
   "dateLabel": "18 June",
   "facts": [
     {
-      "id": "06-18-benjamin-britten",
-      "date": "06-18",
-      "dateLabel": "18 June",
-      "category": "culture",
-      "categoryName": "Culture",
-      "year": 1958,
-      "title": "Benjamin Britten",
-      "body": "Benjamin Britten's one-act opera Noye's Fludde premieres at the Aldeburgh Festival.",
-      "source": {
-        "name": "Wikipedia · Benjamin Britten",
-        "url": "https://en.wikipedia.org/wiki/Benjamin_Britten",
-        "calendarUrl": "https://en.wikipedia.org/wiki/June_18",
-        "license": {
-          "name": "CC BY-SA 4.0",
-          "url": "https://creativecommons.org/licenses/by-sa/4.0/"
-        }
-      },
-      "image": {
-        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d2/Fortepan_137711_%28cropped%29.jpg/1280px-Fortepan_137711_%28cropped%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-        "alt": "Picture from the Wikipedia article on Benjamin Britten.",
-        "credit": "Szalay Zoltán",
-        "source": "https://commons.wikimedia.org/wiki/File:Fortepan_137711_(cropped).jpg",
-        "license": "CC BY-SA 3.0",
-        "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0"
-      }
-    },
-    {
       "id": "06-18-lunar-reconnaissance-orbiter",
       "date": "06-18",
       "dateLabel": "18 June",
@@ -57,6 +30,33 @@
       }
     },
     {
+      "id": "06-18-columbia-records",
+      "date": "06-18",
+      "dateLabel": "18 June",
+      "category": "culture",
+      "categoryName": "Culture",
+      "year": 1948,
+      "title": "Columbia Records",
+      "body": "Columbia Records introduces the long-playing record album in a public demonstration at the Waldorf-Astoria Hotel in New York City.",
+      "source": {
+        "name": "Wikipedia · Columbia Records",
+        "url": "https://en.wikipedia.org/wiki/Columbia_Records",
+        "calendarUrl": "https://en.wikipedia.org/wiki/June_18",
+        "license": {
+          "name": "CC BY-SA 4.0",
+          "url": "https://creativecommons.org/licenses/by-sa/4.0/"
+        }
+      },
+      "image": {
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/0a/Columbia_Records_Colored_Logo.svg/1280px-Columbia_Records_Colored_Logo.svg.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "alt": "Picture from the Wikipedia article on Columbia Records.",
+        "credit": "converted to SVG by Bryantriplex",
+        "source": "https://commons.wikimedia.org/wiki/File:Columbia_Records_Colored_Logo.svg",
+        "license": "Public domain",
+        "licenseUrl": "https://commons.wikimedia.org/wiki/File:Columbia_Records_Colored_Logo.svg"
+      }
+    },
+    {
       "id": "06-18-roberto-calvi",
       "date": "06-18",
       "dateLabel": "18 June",
@@ -81,6 +81,60 @@
         "source": "https://commons.wikimedia.org/wiki/File:Roberto_Calvi.jpg",
         "license": "Public domain",
         "licenseUrl": "https://commons.wikimedia.org/wiki/File:Roberto_Calvi.jpg"
+      }
+    },
+    {
+      "id": "06-18-aviator",
+      "date": "06-18",
+      "dateLabel": "18 June",
+      "category": "world",
+      "categoryName": "World",
+      "year": 1928,
+      "title": "Aircraft pilot",
+      "body": "Aviator Amelia Earhart becomes the first woman to fly in an aircraft across the Atlantic Ocean (she is a passenger; Wilmer Stultz is the pilot and Lou Gordon the mechanic).",
+      "source": {
+        "name": "Wikipedia · Aircraft pilot",
+        "url": "https://en.wikipedia.org/wiki/Aircraft_pilot",
+        "calendarUrl": "https://en.wikipedia.org/wiki/June_18",
+        "license": {
+          "name": "CC BY-SA 4.0",
+          "url": "https://creativecommons.org/licenses/by-sa/4.0/"
+        }
+      },
+      "image": {
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/38/Lt_Mike_Hunter_1.jpg/1280px-Lt_Mike_Hunter_1.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "alt": "Picture from the Wikipedia article on Aircraft pilot.",
+        "credit": "Alfred T. Palmer",
+        "source": "https://commons.wikimedia.org/wiki/File:Lt_Mike_Hunter_1.jpg",
+        "license": "Public domain",
+        "licenseUrl": "https://commons.wikimedia.org/wiki/File:Lt_Mike_Hunter_1.jpg"
+      }
+    },
+    {
+      "id": "06-18-benjamin-britten",
+      "date": "06-18",
+      "dateLabel": "18 June",
+      "category": "culture",
+      "categoryName": "Culture",
+      "year": 1958,
+      "title": "Benjamin Britten",
+      "body": "Benjamin Britten's one-act opera Noye's Fludde premieres at the Aldeburgh Festival.",
+      "source": {
+        "name": "Wikipedia · Benjamin Britten",
+        "url": "https://en.wikipedia.org/wiki/Benjamin_Britten",
+        "calendarUrl": "https://en.wikipedia.org/wiki/June_18",
+        "license": {
+          "name": "CC BY-SA 4.0",
+          "url": "https://creativecommons.org/licenses/by-sa/4.0/"
+        }
+      },
+      "image": {
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d2/Fortepan_137711_%28cropped%29.jpg/1280px-Fortepan_137711_%28cropped%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "alt": "Picture from the Wikipedia article on Benjamin Britten.",
+        "credit": "Szalay Zoltán",
+        "source": "https://commons.wikimedia.org/wiki/File:Fortepan_137711_(cropped).jpg",
+        "license": "CC BY-SA 3.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0"
       }
     }
   ]

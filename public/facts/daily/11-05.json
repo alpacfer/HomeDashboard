@@ -23,7 +23,7 @@
       "image": {
         "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/6b/Mars_Orbiter_Mission_Over_Mars_%2815237158879%29.jpg/1280px-Mars_Orbiter_Mission_Over_Mars_%2815237158879%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
         "alt": "Picture from the Wikipedia article on Mars Orbiter Mission.",
-        "credit": "Kevin Gill from Nashua, NH, United States",
+        "credit": "Kevin Gill",
         "source": "https://commons.wikimedia.org/wiki/File:Mars_Orbiter_Mission_Over_Mars_(15237158879).jpg",
         "license": "CC BY-SA 2.0",
         "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0"
@@ -81,6 +81,60 @@
         "source": "https://commons.wikimedia.org/wiki/File:GeorgeBSelden1871.gif",
         "license": "Public domain",
         "licenseUrl": "https://commons.wikimedia.org/wiki/File:GeorgeBSelden1871.gif"
+      }
+    },
+    {
+      "id": "11-05-chang-e-1",
+      "date": "11-05",
+      "dateLabel": "5 November",
+      "category": "space",
+      "categoryName": "Space",
+      "year": 2007,
+      "title": "Chang'e 1",
+      "body": "China's first lunar satellite, Chang'e 1, goes into orbit around the Moon.",
+      "source": {
+        "name": "Wikipedia · Chang'e 1",
+        "url": "https://en.wikipedia.org/wiki/Chang%27e_1",
+        "calendarUrl": "https://en.wikipedia.org/wiki/November_5",
+        "license": {
+          "name": "CC BY-SA 4.0",
+          "url": "https://creativecommons.org/licenses/by-sa/4.0/"
+        }
+      },
+      "image": {
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/ad/Chang_e_1.jpg/1280px-Chang_e_1.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "alt": "Picture from the Wikipedia article on Chang'e 1.",
+        "credit": "Nasa",
+        "source": "https://commons.wikimedia.org/wiki/File:Chang_e_1.jpg",
+        "license": "Public domain",
+        "licenseUrl": "https://commons.wikimedia.org/wiki/File:Chang_e_1.jpg"
+      }
+    },
+    {
+      "id": "11-05-rona-ambrose",
+      "date": "11-05",
+      "dateLabel": "5 November",
+      "category": "world",
+      "categoryName": "World",
+      "year": 2015,
+      "title": "Rona Ambrose",
+      "body": "Rona Ambrose takes over after Stephen Harper as the Leader of the Conservative Party of Canada.",
+      "source": {
+        "name": "Wikipedia · Rona Ambrose",
+        "url": "https://en.wikipedia.org/wiki/Rona_Ambrose",
+        "calendarUrl": "https://en.wikipedia.org/wiki/November_5",
+        "license": {
+          "name": "CC BY-SA 4.0",
+          "url": "https://creativecommons.org/licenses/by-sa/4.0/"
+        }
+      },
+      "image": {
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/cc/Rona_Ambrose_at_the_67th_World_Health_Assembly_-_2014_%28cropped%29.jpg/1280px-Rona_Ambrose_at_the_67th_World_Health_Assembly_-_2014_%28cropped%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "alt": "Picture from the Wikipedia article on Rona Ambrose.",
+        "credit": "U.S. Mission Geneva/ Eric Bridiers",
+        "source": "https://commons.wikimedia.org/wiki/File:Rona_Ambrose_at_the_67th_World_Health_Assembly_-_2014_(cropped).jpg",
+        "license": "Public domain",
+        "licenseUrl": "https://commons.wikimedia.org/wiki/File:Rona_Ambrose_at_the_67th_World_Health_Assembly_-_2014_(cropped).jpg"
       }
     }
   ]

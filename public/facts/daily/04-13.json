@@ -3,6 +3,33 @@
   "dateLabel": "13 April",
   "facts": [
     {
+      "id": "04-13-rory-mcilroy",
+      "date": "04-13",
+      "dateLabel": "13 April",
+      "category": "sport",
+      "categoryName": "Sport",
+      "year": 2025,
+      "title": "Rory McIlroy",
+      "body": "Rory McIlroy wins the Masters Tournament, becoming just the sixth person to complete the Grand Slam in golf.",
+      "source": {
+        "name": "Wikipedia · Rory McIlroy",
+        "url": "https://en.wikipedia.org/wiki/Rory_McIlroy",
+        "calendarUrl": "https://en.wikipedia.org/wiki/April_13",
+        "license": {
+          "name": "CC BY-SA 4.0",
+          "url": "https://creativecommons.org/licenses/by-sa/4.0/"
+        }
+      },
+      "image": {
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/02/Rory_McIlroy_Ryder_Cup_2025-195_%28cropped%29.jpg/1280px-Rory_McIlroy_Ryder_Cup_2025-195_%28cropped%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "alt": "Picture from the Wikipedia article on Rory McIlroy.",
+        "credit": "Bryan Berlin",
+        "source": "https://commons.wikimedia.org/wiki/File:Rory_McIlroy_Ryder_Cup_2025-195_(cropped).jpg",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0"
+      }
+    },
+    {
       "id": "04-13-transit-satellite",
       "date": "04-13",
       "dateLabel": "13 April",
@@ -54,6 +81,33 @@
         "source": "https://commons.wikimedia.org/wiki/File:President_Donald_Trump_hosts_a_reception_honoring_Black_History_Month_(54341713089)_(cropped).jpg",
         "license": "Public domain",
         "licenseUrl": "https://commons.wikimedia.org/wiki/File:President_Donald_Trump_hosts_a_reception_honoring_Black_History_Month_(54341713089)_(cropped).jpg"
+      }
+    },
+    {
+      "id": "04-13-metropolitan-museum-of-art",
+      "date": "04-13",
+      "dateLabel": "13 April",
+      "category": "culture",
+      "categoryName": "Culture",
+      "year": 1870,
+      "title": "Metropolitan Museum of Art",
+      "body": "The New York City Metropolitan Museum of Art is founded.",
+      "source": {
+        "name": "Wikipedia · Metropolitan Museum of Art",
+        "url": "https://en.wikipedia.org/wiki/Metropolitan_Museum_of_Art",
+        "calendarUrl": "https://en.wikipedia.org/wiki/April_13",
+        "license": {
+          "name": "CC BY-SA 4.0",
+          "url": "https://creativecommons.org/licenses/by-sa/4.0/"
+        }
+      },
+      "image": {
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/30/Metropolitan_Museum_of_Art_%28The_Met%29_-_Central_Park%2C_NYC.jpg/1280px-Metropolitan_Museum_of_Art_%28The_Met%29_-_Central_Park%2C_NYC.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "alt": "Picture from the Wikipedia article on Metropolitan Museum of Art.",
+        "credit": "Hugo Schneider",
+        "source": "https://commons.wikimedia.org/wiki/File:Metropolitan_Museum_of_Art_(The_Met)_-_Central_Park,_NYC.jpg",
+        "license": "CC BY-SA 2.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0"
       }
     },
     {

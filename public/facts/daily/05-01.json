@@ -3,17 +3,17 @@
   "dateLabel": "1 May",
   "facts": [
     {
-      "id": "05-01-syrian-democratic-forces",
+      "id": "05-01-labor-day",
       "date": "05-01",
       "dateLabel": "1 May",
       "category": "world",
       "categoryName": "World",
-      "year": 2018,
-      "title": "Syrian Democratic Forces",
-      "body": "The Syrian Democratic Forces (SDF) resumes the Deir ez-Zor campaign in order to clear the remnants of the Islamic State of Iraq and the Levant (ISIL) from the Iraq–Syria border.",
+      "year": 1891,
+      "title": "Labor Day",
+      "body": "On Labor Day in Catania, Sicily, workers establish the first successful Fascio Siciliano, launching a movement of peasants and laborers protesting poverty, landlordism, taxation, and economic hardship across Sicily.",
       "source": {
-        "name": "Wikipedia · Syrian Democratic Forces",
-        "url": "https://en.wikipedia.org/wiki/Syrian_Democratic_Forces",
+        "name": "Wikipedia · Labor Day",
+        "url": "https://en.wikipedia.org/wiki/Labor_Day",
         "calendarUrl": "https://en.wikipedia.org/wiki/May_1",
         "license": {
           "name": "CC BY-SA 4.0",
@@ -21,12 +21,12 @@
         }
       },
       "image": {
-        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/61/Flag_of_Syrian_Democratic_Forces.svg/1280px-Flag_of_Syrian_Democratic_Forces.svg.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-        "alt": "Picture from the Wikipedia article on Syrian Democratic Forces.",
-        "credit": "FugeeCamp",
-        "source": "https://commons.wikimedia.org/wiki/File:Flag_of_Syrian_Democratic_Forces.svg",
-        "license": "CC0",
-        "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/deed.en"
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/25/First_United_States_Labor_Day_Parade%2C_September_5%2C_1882_in_New_York_City.jpg/1280px-First_United_States_Labor_Day_Parade%2C_September_5%2C_1882_in_New_York_City.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "alt": "Picture from the Wikipedia article on Labor Day.",
+        "credit": "A Staff Illustrator",
+        "source": "https://commons.wikimedia.org/wiki/File:First_United_States_Labor_Day_Parade,_September_5,_1882_in_New_York_City.jpg",
+        "license": "Public domain",
+        "licenseUrl": "https://commons.wikimedia.org/wiki/File:First_United_States_Labor_Day_Parade,_September_5,_1882_in_New_York_City.jpg"
       }
     },
     {
@@ -77,10 +77,64 @@
       "image": {
         "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c2/Flag_of_MPLA.svg/1280px-Flag_of_MPLA.svg.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
         "alt": "Picture from the Wikipedia article on MPLA.",
-        "credit": "No machine-readable author provided. E2m assumed (based on copyright claims).",
+        "credit": "No machine-readable author provided",
         "source": "https://commons.wikimedia.org/wiki/File:Flag_of_MPLA.svg",
         "license": "Public domain",
         "licenseUrl": "https://commons.wikimedia.org/wiki/File:Flag_of_MPLA.svg"
+      }
+    },
+    {
+      "id": "05-01-naruhito",
+      "date": "05-01",
+      "dateLabel": "1 May",
+      "category": "world",
+      "categoryName": "World",
+      "year": 2019,
+      "title": "Naruhito",
+      "body": "Naruhito ascends to the throne of Japan succeeding his father Akihito, beginning the Reiwa period.",
+      "source": {
+        "name": "Wikipedia · Naruhito",
+        "url": "https://en.wikipedia.org/wiki/Naruhito",
+        "calendarUrl": "https://en.wikipedia.org/wiki/May_1",
+        "license": {
+          "name": "CC BY-SA 4.0",
+          "url": "https://creativecommons.org/licenses/by-sa/4.0/"
+        }
+      },
+      "image": {
+        "src": "https://upload.wikimedia.org/wikipedia/commons/e/ec/Emperor_Naruhito_20250611_%2854582524056%2C_cropped%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+        "alt": "Picture from the Wikipedia article on Naruhito.",
+        "credit": "Presidencia de Guatemala",
+        "source": "https://commons.wikimedia.org/wiki/File:Emperor_Naruhito_20250611_(54582524056,_cropped).jpg",
+        "license": "Public domain",
+        "licenseUrl": "https://commons.wikimedia.org/wiki/File:Emperor_Naruhito_20250611_(54582524056,_cropped).jpg"
+      }
+    },
+    {
+      "id": "05-01-beatification-of-pope-john-paul-ii",
+      "date": "05-01",
+      "dateLabel": "1 May",
+      "category": "world",
+      "categoryName": "World",
+      "year": 2011,
+      "title": "Beatification of Pope John Paul II",
+      "body": "Pope John Paul II is beatified by his successor, Pope Benedict XVI.",
+      "source": {
+        "name": "Wikipedia · Beatification of Pope John Paul II",
+        "url": "https://en.wikipedia.org/wiki/Beatification_of_Pope_John_Paul_II",
+        "calendarUrl": "https://en.wikipedia.org/wiki/May_1",
+        "license": {
+          "name": "CC BY-SA 4.0",
+          "url": "https://creativecommons.org/licenses/by-sa/4.0/"
+        }
+      },
+      "image": {
+        "src": "https://upload.wikimedia.org/wikipedia/commons/5/52/Beatification_of_John_Paul_II_%281%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+        "alt": "Picture from the Wikipedia article on Beatification of Pope John Paul II.",
+        "credit": "Kancelaria Prezydenta RP",
+        "source": "https://commons.wikimedia.org/wiki/File:Beatification_of_John_Paul_II_(1).jpg",
+        "license": "GFDL 1.2",
+        "licenseUrl": "https://gnu.org/licenses/old-licenses/fdl-1.2.html"
       }
     }
   ]

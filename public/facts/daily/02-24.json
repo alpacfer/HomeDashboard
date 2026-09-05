@@ -30,6 +30,33 @@
       }
     },
     {
+      "id": "02-24-rinaldo-opera",
+      "date": "02-24",
+      "dateLabel": "24 February",
+      "category": "culture",
+      "categoryName": "Culture",
+      "year": 1711,
+      "title": "Rinaldo",
+      "body": "Rinaldo by George Frideric Handel, the first Italian opera written for the London stage, is premièred.",
+      "source": {
+        "name": "Wikipedia · Rinaldo (opera)",
+        "url": "https://en.wikipedia.org/wiki/Rinaldo_(opera)",
+        "calendarUrl": "https://en.wikipedia.org/wiki/February_24",
+        "license": {
+          "name": "CC BY-SA 4.0",
+          "url": "https://creativecommons.org/licenses/by-sa/4.0/"
+        }
+      },
+      "image": {
+        "src": "https://upload.wikimedia.org/wikipedia/commons/f/f8/Handel%2C_Lascia_ch%E2%80%99io_pianga_autograph_score%2C_1711.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+        "alt": "Picture from the Wikipedia article on Rinaldo.",
+        "credit": "George Frideric Handel",
+        "source": "https://commons.wikimedia.org/wiki/File:Handel,_Lascia_ch%E2%80%99io_pianga_autograph_score,_1711.jpg",
+        "license": "Public domain",
+        "licenseUrl": "https://commons.wikimedia.org/wiki/File:Handel,_Lascia_ch%E2%80%99io_pianga_autograph_score,_1711.jpg"
+      }
+    },
+    {
       "id": "02-24-nazi-party",
       "date": "02-24",
       "dateLabel": "24 February",
@@ -50,10 +77,37 @@
       "image": {
         "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/92/Parteiadler_Nationalsozialistische_Deutsche_Arbeiterpartei_%281933%E2%80%931945%29.svg/1280px-Parteiadler_Nationalsozialistische_Deutsche_Arbeiterpartei_%281933%E2%80%931945%29.svg.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
         "alt": "Picture from the Wikipedia article on Nazi Party.",
-        "credit": "RsVe, corrected by Barliner.",
+        "credit": "RsVe, corrected by Barliner",
         "source": "https://commons.wikimedia.org/wiki/File:Parteiadler_Nationalsozialistische_Deutsche_Arbeiterpartei_(1933%E2%80%931945).svg",
         "license": "Public domain",
         "licenseUrl": "https://commons.wikimedia.org/wiki/File:Parteiadler_Nationalsozialistische_Deutsche_Arbeiterpartei_(1933%E2%80%931945).svg"
+      }
+    },
+    {
+      "id": "02-24-great-jubilee",
+      "date": "02-24",
+      "dateLabel": "24 February",
+      "category": "world",
+      "categoryName": "World",
+      "year": 2000,
+      "title": "Great Jubilee",
+      "body": "Pope John Paul II arrives in Egypt for a three-day stay as part of the Great Jubilee, marking the first papal visit in modern Egyptian history.",
+      "source": {
+        "name": "Wikipedia · Great Jubilee",
+        "url": "https://en.wikipedia.org/wiki/Great_Jubilee",
+        "calendarUrl": "https://en.wikipedia.org/wiki/February_24",
+        "license": {
+          "name": "CC BY-SA 4.0",
+          "url": "https://creativecommons.org/licenses/by-sa/4.0/"
+        }
+      },
+      "image": {
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/39/Campana_Giubileo_2000_20110705.jpg/1280px-Campana_Giubileo_2000_20110705.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "alt": "Picture from the Wikipedia article on Great Jubilee.",
+        "credit": "gugganij",
+        "source": "https://commons.wikimedia.org/wiki/File:Campana_Giubileo_2000_20110705.jpg",
+        "license": "CC BY-SA 3.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0"
       }
     },
     {

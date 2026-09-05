@@ -30,17 +30,17 @@
       }
     },
     {
-      "id": "03-23-scar-romero",
+      "id": "03-23-islamic-republic",
       "date": "03-23",
       "dateLabel": "23 March",
       "category": "world",
       "categoryName": "World",
-      "year": 1980,
-      "title": "Óscar Romero",
-      "body": "Archbishop Óscar Romero of El Salvador gives his famous speech appealing to men of the El Salvadoran armed forces to stop killing the Salvadorans.",
+      "year": 1956,
+      "title": "Islamic republic",
+      "body": "Pakistan becomes the first Islamic republic in the world. This date is now celebrated as Republic Day in Pakistan.",
       "source": {
-        "name": "Wikipedia · Óscar Romero",
-        "url": "https://en.wikipedia.org/wiki/%C3%93scar_Romero",
+        "name": "Wikipedia · Islamic republic",
+        "url": "https://en.wikipedia.org/wiki/Islamic_republic",
         "calendarUrl": "https://en.wikipedia.org/wiki/March_23",
         "license": {
           "name": "CC BY-SA 4.0",
@@ -48,12 +48,12 @@
         }
       },
       "image": {
-        "src": "https://upload.wikimedia.org/wikipedia/commons/3/3f/Monse%C3%B1or_Romero_%28colour%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
-        "alt": "Picture from the Wikipedia article on Óscar Romero.",
-        "credit": "Arzobispado de San Salvador; Congregatio de Causis Sanctorum",
-        "source": "https://commons.wikimedia.org/wiki/File:Monse%C3%B1or_Romero_(colour).jpg",
-        "license": "Public domain",
-        "licenseUrl": "https://commons.wikimedia.org/wiki/File:Monse%C3%B1or_Romero_(colour).jpg"
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e5/Shahada_green.svg/1280px-Shahada_green.svg.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "alt": "Picture from the Wikipedia article on Islamic republic.",
+        "credit": "The Cheesedealer",
+        "source": "https://commons.wikimedia.org/wiki/File:Shahada_green.svg",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0"
       }
     },
     {
@@ -81,6 +81,60 @@
         "source": "https://commons.wikimedia.org/wiki/File:Otis.jpg",
         "license": "Public domain",
         "licenseUrl": "https://commons.wikimedia.org/wiki/File:Otis.jpg"
+      }
+    },
+    {
+      "id": "03-23-louisiana-purchase",
+      "date": "03-23",
+      "dateLabel": "23 March",
+      "category": "science",
+      "categoryName": "Science",
+      "year": 1806,
+      "title": "Louisiana Purchase",
+      "body": "After traveling through the Louisiana Purchase and reaching the Pacific Ocean, explorers Lewis and Clark and their Corps of Discovery begin their arduous journey home.",
+      "source": {
+        "name": "Wikipedia · Louisiana Purchase",
+        "url": "https://en.wikipedia.org/wiki/Louisiana_Purchase",
+        "calendarUrl": "https://en.wikipedia.org/wiki/March_23",
+        "license": {
+          "name": "CC BY-SA 4.0",
+          "url": "https://creativecommons.org/licenses/by-sa/4.0/"
+        }
+      },
+      "image": {
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/57/Louisiana_Purchase.png/1280px-Louisiana_Purchase.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "alt": "Picture from the Wikipedia article on Louisiana Purchase.",
+        "credit": "William Morris",
+        "source": "https://commons.wikimedia.org/wiki/File:Louisiana_Purchase.png",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0"
+      }
+    },
+    {
+      "id": "03-23-rajiv-gandhi-international-airport",
+      "date": "03-23",
+      "dateLabel": "23 March",
+      "category": "world",
+      "categoryName": "World",
+      "year": 2008,
+      "title": "Rajiv Gandhi International Airport",
+      "body": "Official opening of Rajiv Gandhi International Airport in Hyderabad, India.",
+      "source": {
+        "name": "Wikipedia · Rajiv Gandhi International Airport",
+        "url": "https://en.wikipedia.org/wiki/Rajiv_Gandhi_International_Airport",
+        "calendarUrl": "https://en.wikipedia.org/wiki/March_23",
+        "license": {
+          "name": "CC BY-SA 4.0",
+          "url": "https://creativecommons.org/licenses/by-sa/4.0/"
+        }
+      },
+      "image": {
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/fc/Rajiv_Gandhi_International_Airport_2024_Logo.svg/1280px-Rajiv_Gandhi_International_Airport_2024_Logo.svg.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "alt": "Picture from the Wikipedia article on Rajiv Gandhi International Airport.",
+        "credit": "Rajiv Gandhi International Airport",
+        "source": "https://commons.wikimedia.org/wiki/File:Rajiv_Gandhi_International_Airport_2024_Logo.svg",
+        "license": "Public domain",
+        "licenseUrl": "https://commons.wikimedia.org/wiki/File:Rajiv_Gandhi_International_Airport_2024_Logo.svg"
       }
     }
   ]

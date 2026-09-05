@@ -3,33 +3,6 @@
   "dateLabel": "26 September",
   "facts": [
     {
-      "id": "09-26-albert-einstein",
-      "date": "09-26",
-      "dateLabel": "26 September",
-      "category": "world",
-      "categoryName": "World",
-      "year": 1905,
-      "title": "Albert Einstein",
-      "body": "Albert Einstein publishes the third of his Annus Mirabilis papers, introducing the special theory of relativity.",
-      "source": {
-        "name": "Wikipedia · Albert Einstein",
-        "url": "https://en.wikipedia.org/wiki/Albert_Einstein",
-        "calendarUrl": "https://en.wikipedia.org/wiki/September_26",
-        "license": {
-          "name": "CC BY-SA 4.0",
-          "url": "https://creativecommons.org/licenses/by-sa/4.0/"
-        }
-      },
-      "image": {
-        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/28/Albert_Einstein_Head_cleaned.jpg/1280px-Albert_Einstein_Head_cleaned.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-        "alt": "Picture from the Wikipedia article on Albert Einstein.",
-        "credit": "Oren Jack Turner",
-        "source": "https://commons.wikimedia.org/wiki/File:Albert_Einstein_Head_cleaned.jpg",
-        "license": "Public domain",
-        "licenseUrl": "https://commons.wikimedia.org/wiki/File:Albert_Einstein_Head_cleaned.jpg"
-      }
-    },
-    {
       "id": "09-26-george-washington",
       "date": "09-26",
       "dateLabel": "26 September",
@@ -57,17 +30,17 @@
       }
     },
     {
-      "id": "09-26-federal-trade-commission",
+      "id": "09-26-united-states-presidential-debates",
       "date": "09-26",
       "dateLabel": "26 September",
       "category": "world",
       "categoryName": "World",
-      "year": 1914,
-      "title": "Federal Trade Commission",
-      "body": "The United States Federal Trade Commission is established by the Federal Trade Commission Act.",
+      "year": 1960,
+      "title": "United States presidential debates",
+      "body": "In Chicago, the first televised debate takes place between presidential candidates Richard M. Nixon and John F. Kennedy.",
       "source": {
-        "name": "Wikipedia · Federal Trade Commission",
-        "url": "https://en.wikipedia.org/wiki/Federal_Trade_Commission",
+        "name": "Wikipedia · United States presidential debates",
+        "url": "https://en.wikipedia.org/wiki/United_States_presidential_debates",
         "calendarUrl": "https://en.wikipedia.org/wiki/September_26",
         "license": {
           "name": "CC BY-SA 4.0",
@@ -75,12 +48,93 @@
         }
       },
       "image": {
-        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/69/Seal_of_the_United_States_Federal_Trade_Commission.svg/1280px-Seal_of_the_United_States_Federal_Trade_Commission.svg.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-        "alt": "Picture from the Wikipedia article on Federal Trade Commission.",
-        "credit": "Tiffany & Co.",
-        "source": "https://commons.wikimedia.org/wiki/File:Seal_of_the_United_States_Federal_Trade_Commission.svg",
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/07/Kennedy_Nixon_Debate_%281960%29.jpg/1280px-Kennedy_Nixon_Debate_%281960%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "alt": "Picture from the Wikipedia article on United States presidential debates.",
+        "credit": "United Press International",
+        "source": "https://commons.wikimedia.org/wiki/File:Kennedy_Nixon_Debate_(1960).jpg",
         "license": "Public domain",
-        "licenseUrl": "https://commons.wikimedia.org/wiki/File:Seal_of_the_United_States_Federal_Trade_Commission.svg"
+        "licenseUrl": "https://commons.wikimedia.org/wiki/File:Kennedy_Nixon_Debate_(1960).jpg"
+      }
+    },
+    {
+      "id": "09-26-2014-iguala-mass-kidnapping",
+      "date": "09-26",
+      "dateLabel": "26 September",
+      "category": "world",
+      "categoryName": "World",
+      "year": 2014,
+      "title": "Iguala mass kidnapping",
+      "body": "A mass kidnapping of 43 students from a teaching college occurs in Iguala, Mexico.",
+      "source": {
+        "name": "Wikipedia · Iguala mass kidnapping",
+        "url": "https://en.wikipedia.org/wiki/Iguala_mass_kidnapping",
+        "calendarUrl": "https://en.wikipedia.org/wiki/September_26",
+        "license": {
+          "name": "CC BY-SA 4.0",
+          "url": "https://creativecommons.org/licenses/by-sa/4.0/"
+        }
+      },
+      "image": {
+        "src": "https://upload.wikimedia.org/wikipedia/commons/d/dd/EPN_Firma.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+        "alt": "Picture from the Wikipedia article on Iguala mass kidnapping.",
+        "credit": "Microstar",
+        "source": "https://commons.wikimedia.org/wiki/File:EPN_Firma.png",
+        "license": "Public domain",
+        "licenseUrl": "https://commons.wikimedia.org/wiki/File:EPN_Firma.png"
+      }
+    },
+    {
+      "id": "09-26-anti-globalization-protests-in-prague",
+      "date": "09-26",
+      "dateLabel": "26 September",
+      "category": "world",
+      "categoryName": "World",
+      "year": 2000,
+      "title": "2000 Prague anti-globalization protests",
+      "body": "Anti-globalization protests in Prague (some 20,000 protesters) turn violent during the IMF and World Bank summits.",
+      "source": {
+        "name": "Wikipedia · 2000 Prague anti-globalization protests",
+        "url": "https://en.wikipedia.org/wiki/2000_Prague_anti-globalization_protests",
+        "calendarUrl": "https://en.wikipedia.org/wiki/September_26",
+        "license": {
+          "name": "CC BY-SA 4.0",
+          "url": "https://creativecommons.org/licenses/by-sa/4.0/"
+        }
+      },
+      "image": {
+        "src": "https://upload.wikimedia.org/wikipedia/commons/4/41/Kucera_Jaroslav_Praha%2C_Lum%C3%ADrova_ulice_2000_ANARCHISTI.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+        "alt": "Picture from the Wikipedia article on 2000 Prague anti-globalization protests.",
+        "credit": "Jaroslav Kučera",
+        "source": "https://commons.wikimedia.org/wiki/File:Kucera_Jaroslav_Praha,_Lum%C3%ADrova_ulice_2000_ANARCHISTI.jpg",
+        "license": "CC BY-SA 3.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0"
+      }
+    },
+    {
+      "id": "09-26-rationing-in-the-united-kingdom",
+      "date": "09-26",
+      "dateLabel": "26 September",
+      "category": "world",
+      "categoryName": "World",
+      "year": 1953,
+      "title": "Rationing in the United Kingdom",
+      "body": "Rationing of sugar in the United Kingdom ends.",
+      "source": {
+        "name": "Wikipedia · Rationing in the United Kingdom",
+        "url": "https://en.wikipedia.org/wiki/Rationing_in_the_United_Kingdom",
+        "calendarUrl": "https://en.wikipedia.org/wiki/September_26",
+        "license": {
+          "name": "CC BY-SA 4.0",
+          "url": "https://creativecommons.org/licenses/by-sa/4.0/"
+        }
+      },
+      "image": {
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/ce/WWII_Food_Rationing.jpg/1280px-WWII_Food_Rationing.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "alt": "Picture from the Wikipedia article on Rationing in the United Kingdom.",
+        "credit": "United States Office of War Information…",
+        "source": "https://commons.wikimedia.org/wiki/File:WWII_Food_Rationing.jpg",
+        "license": "Public domain",
+        "licenseUrl": "https://commons.wikimedia.org/wiki/File:WWII_Food_Rationing.jpg"
       }
     }
   ]

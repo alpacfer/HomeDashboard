@@ -50,10 +50,37 @@
       "image": {
         "src": "https://upload.wikimedia.org/wikipedia/commons/8/84/Elias_L%C3%B6nnrot_portrait-2.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
         "alt": "Picture from the Wikipedia article on Elias Lönnrot.",
-        "credit": "Elias_Lönnrot_potrait.jpg: unknwon derivative work: Bff",
+        "credit": "Wikimedia Commons",
         "source": "https://commons.wikimedia.org/wiki/File:Elias_L%C3%B6nnrot_portrait-2.jpg",
         "license": "Public domain",
         "licenseUrl": "https://commons.wikimedia.org/wiki/File:Elias_L%C3%B6nnrot_portrait-2.jpg"
+      }
+    },
+    {
+      "id": "02-28-february-1974-united-kingdom-general-election",
+      "date": "02-28",
+      "dateLabel": "28 February",
+      "category": "world",
+      "categoryName": "World",
+      "year": 1974,
+      "title": "February 1974 United Kingdom general election",
+      "body": "The British election ends in a hung parliament after the Jeremy Thorpe-led Liberal Party achieved their biggest vote share since 1929.",
+      "source": {
+        "name": "Wikipedia · February 1974 United Kingdom general election",
+        "url": "https://en.wikipedia.org/wiki/February_1974_United_Kingdom_general_election",
+        "calendarUrl": "https://en.wikipedia.org/wiki/February_28",
+        "license": {
+          "name": "CC BY-SA 4.0",
+          "url": "https://creativecommons.org/licenses/by-sa/4.0/"
+        }
+      },
+      "image": {
+        "src": "https://upload.wikimedia.org/wikipedia/commons/6/67/Harold_Wilson_1975.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+        "alt": "Picture from the Wikipedia article on February 1974 United Kingdom general election.",
+        "credit": "Unknown author or not provided",
+        "source": "https://commons.wikimedia.org/wiki/File:Harold_Wilson_1975.jpg",
+        "license": "Public domain",
+        "licenseUrl": "https://commons.wikimedia.org/wiki/File:Harold_Wilson_1975.jpg"
       }
     },
     {
@@ -81,6 +108,33 @@
         "source": "https://commons.wikimedia.org/wiki/File:Benedykt_XVI_(2010-10-17)_2.jpg",
         "license": "GFDL 1.2",
         "licenseUrl": "https://gnu.org/licenses/old-licenses/fdl-1.2.html"
+      }
+    },
+    {
+      "id": "02-28-space-shuttle-atlantis",
+      "date": "02-28",
+      "dateLabel": "28 February",
+      "category": "space",
+      "categoryName": "Space",
+      "year": 1990,
+      "title": "Space Shuttle Atlantis",
+      "body": "Space Shuttle Atlantis is launched on STS-36.",
+      "source": {
+        "name": "Wikipedia · Space Shuttle Atlantis",
+        "url": "https://en.wikipedia.org/wiki/Space_Shuttle_Atlantis",
+        "calendarUrl": "https://en.wikipedia.org/wiki/February_28",
+        "license": {
+          "name": "CC BY-SA 4.0",
+          "url": "https://creativecommons.org/licenses/by-sa/4.0/"
+        }
+      },
+      "image": {
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/0e/STS132_Atlantis_undocking2_%28cropped%29.jpg/1280px-STS132_Atlantis_undocking2_%28cropped%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "alt": "Picture from the Wikipedia article on Space Shuttle Atlantis.",
+        "credit": "NASA",
+        "source": "https://commons.wikimedia.org/wiki/File:STS132_Atlantis_undocking2_(cropped).jpg",
+        "license": "Public domain",
+        "licenseUrl": "https://commons.wikimedia.org/wiki/File:STS132_Atlantis_undocking2_(cropped).jpg"
       }
     }
   ]

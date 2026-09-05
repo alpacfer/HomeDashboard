@@ -3,6 +3,33 @@
   "dateLabel": "5 October",
   "facts": [
     {
+      "id": "10-05-wright-brothers",
+      "date": "10-05",
+      "dateLabel": "5 October",
+      "category": "sport",
+      "categoryName": "Sport",
+      "year": 1905,
+      "title": "Wright brothers",
+      "body": "The Wright brothers pilot the Wright Flyer III in a new world record flight of 24 miles in 39 minutes.",
+      "source": {
+        "name": "Wikipedia · Wright brothers",
+        "url": "https://en.wikipedia.org/wiki/Wright_brothers",
+        "calendarUrl": "https://en.wikipedia.org/wiki/October_5",
+        "license": {
+          "name": "CC BY-SA 4.0",
+          "url": "https://creativecommons.org/licenses/by-sa/4.0/"
+        }
+      },
+      "image": {
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/af/Orville_Wright_1905-crop.jpg/1280px-Orville_Wright_1905-crop.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "alt": "Picture from the Wikipedia article on Wright brothers.",
+        "credit": "Orville Wright and Wilbur Wright",
+        "source": "https://commons.wikimedia.org/wiki/File:Orville_Wright_1905-crop.jpg",
+        "license": "Public domain",
+        "licenseUrl": "https://commons.wikimedia.org/wiki/File:Orville_Wright_1905-crop.jpg"
+      }
+    },
+    {
       "id": "10-05-marc-garneau",
       "date": "10-05",
       "dateLabel": "5 October",
@@ -30,33 +57,6 @@
       }
     },
     {
-      "id": "10-05-wright-brothers",
-      "date": "10-05",
-      "dateLabel": "5 October",
-      "category": "sport",
-      "categoryName": "Sport",
-      "year": 1905,
-      "title": "Wright brothers",
-      "body": "The Wright brothers pilot the Wright Flyer III in a new world record flight of 24 miles in 39 minutes.",
-      "source": {
-        "name": "Wikipedia · Wright brothers",
-        "url": "https://en.wikipedia.org/wiki/Wright_brothers",
-        "calendarUrl": "https://en.wikipedia.org/wiki/October_5",
-        "license": {
-          "name": "CC BY-SA 4.0",
-          "url": "https://creativecommons.org/licenses/by-sa/4.0/"
-        }
-      },
-      "image": {
-        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/af/Orville_Wright_1905-crop.jpg/1280px-Orville_Wright_1905-crop.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-        "alt": "Picture from the Wikipedia article on Wright brothers.",
-        "credit": "Orville Wright and Wilbur Wright (credited as photographers) [1], [2]",
-        "source": "https://commons.wikimedia.org/wiki/File:Orville_Wright_1905-crop.jpg",
-        "license": "Public domain",
-        "licenseUrl": "https://commons.wikimedia.org/wiki/File:Orville_Wright_1905-crop.jpg"
-      }
-    },
-    {
       "id": "10-05-the-beatles",
       "date": "10-05",
       "dateLabel": "5 October",
@@ -77,10 +77,64 @@
       "image": {
         "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/42/The_Beatles_1963_Dezo_Hoffman_Capitol_Records_press_photo_2.jpg/1280px-The_Beatles_1963_Dezo_Hoffman_Capitol_Records_press_photo_2.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
         "alt": "Picture from the Wikipedia article on The Beatles.",
-        "credit": "Dezo Hoffmann, Distributed by Capitol Records",
+        "credit": "Dezo Hoffmann",
         "source": "https://commons.wikimedia.org/wiki/File:The_Beatles_1963_Dezo_Hoffman_Capitol_Records_press_photo_2.jpg",
         "license": "Public domain",
         "licenseUrl": "https://commons.wikimedia.org/wiki/File:The_Beatles_1963_Dezo_Hoffman_Capitol_Records_press_photo_2.jpg"
+      }
+    },
+    {
+      "id": "10-05-fighter-aircraft",
+      "date": "10-05",
+      "dateLabel": "5 October",
+      "category": "world",
+      "categoryName": "World",
+      "year": 1914,
+      "title": "Fighter aircraft",
+      "body": "An aircraft successfully destroys another aircraft with gunfire for the first time.",
+      "source": {
+        "name": "Wikipedia · Fighter aircraft",
+        "url": "https://en.wikipedia.org/wiki/Fighter_aircraft",
+        "calendarUrl": "https://en.wikipedia.org/wiki/October_5",
+        "license": {
+          "name": "CC BY-SA 4.0",
+          "url": "https://creativecommons.org/licenses/by-sa/4.0/"
+        }
+      },
+      "image": {
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/16/Formation_of_a_Legacy%2C_Heritage_flight_merges_aviation_past_and_present_86-16-51-22.jpg/1280px-Formation_of_a_Legacy%2C_Heritage_flight_merges_aviation_past_and_present_86-16-51-22.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "alt": "Picture from the Wikipedia article on Fighter aircraft.",
+        "credit": "U.S. Air Force photo by J.M. Eddins Jr",
+        "source": "https://commons.wikimedia.org/wiki/File:Formation_of_a_Legacy,_Heritage_flight_merges_aviation_past_and_present_86-16-51-22.jpg",
+        "license": "Public domain",
+        "licenseUrl": "https://commons.wikimedia.org/wiki/File:Formation_of_a_Legacy,_Heritage_flight_merges_aviation_past_and_present_86-16-51-22.jpg"
+      }
+    },
+    {
+      "id": "10-05-pbs",
+      "date": "10-05",
+      "dateLabel": "5 October",
+      "category": "world",
+      "categoryName": "World",
+      "year": 1970,
+      "title": "PBS",
+      "body": "The Public Broadcasting Service (PBS) is founded in the United States.",
+      "source": {
+        "name": "Wikipedia · PBS",
+        "url": "https://en.wikipedia.org/wiki/PBS",
+        "calendarUrl": "https://en.wikipedia.org/wiki/October_5",
+        "license": {
+          "name": "CC BY-SA 4.0",
+          "url": "https://creativecommons.org/licenses/by-sa/4.0/"
+        }
+      },
+      "image": {
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/89/PBS_logo_2019.svg/1280px-PBS_logo_2019.svg.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "alt": "Picture from the Wikipedia article on PBS.",
+        "credit": "™/®Public Broadcasting ServiceDesigned",
+        "source": "https://commons.wikimedia.org/wiki/File:PBS_logo_2019.svg",
+        "license": "Public domain",
+        "licenseUrl": "https://commons.wikimedia.org/wiki/File:PBS_logo_2019.svg"
       }
     }
   ]

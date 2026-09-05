@@ -50,24 +50,24 @@
       "image": {
         "src": "https://upload.wikimedia.org/wikipedia/commons/c/ce/FIFA_World_Cup_Trophy_photo_by_Djuradj_Vujcic.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
         "alt": "Picture from the Wikipedia article on FIFA World Cup Trophy.",
-        "credit": "photo by Djuradj Vujcic",
+        "credit": "Djuradj Vujcic",
         "source": "https://commons.wikimedia.org/wiki/File:FIFA_World_Cup_Trophy_photo_by_Djuradj_Vujcic.jpg",
         "license": "CC BY 2.0",
         "licenseUrl": "https://creativecommons.org/licenses/by/2.0"
       }
     },
     {
-      "id": "12-19-first-indochina-war",
+      "id": "12-19-mikhail-gorbachev",
       "date": "12-19",
       "dateLabel": "19 December",
       "category": "world",
       "categoryName": "World",
-      "year": 1946,
-      "title": "First Indochina War",
-      "body": "Start of the First Indochina War.",
+      "year": 1986,
+      "title": "Mikhail Gorbachev",
+      "body": "Mikhail Gorbachev, leader of the Soviet Union, releases Andrei Sakharov and his wife from exile in Gorky.",
       "source": {
-        "name": "Wikipedia · First Indochina War",
-        "url": "https://en.wikipedia.org/wiki/First_Indochina_War",
+        "name": "Wikipedia · Mikhail Gorbachev",
+        "url": "https://en.wikipedia.org/wiki/Mikhail_Gorbachev",
         "calendarUrl": "https://en.wikipedia.org/wiki/December_19",
         "license": {
           "name": "CC BY-SA 4.0",
@@ -75,12 +75,66 @@
         }
       },
       "image": {
-        "src": "https://upload.wikimedia.org/wikipedia/commons/3/33/First_Indochina_War_COLLAGE.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
-        "alt": "Picture from the Wikipedia article on First Indochina War.",
-        "credit": "Mohamed Ajjani",
-        "source": "https://commons.wikimedia.org/wiki/File:First_Indochina_War_COLLAGE.jpg",
-        "license": "CC BY 3.0",
-        "licenseUrl": "https://creativecommons.org/licenses/by/3.0"
+        "src": "https://upload.wikimedia.org/wikipedia/commons/5/57/RIAN_archive_850809_General_Secretary_of_the_CPSU_CC_M._Gorbachev_%28crop%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+        "alt": "Picture from the Wikipedia article on Mikhail Gorbachev.",
+        "credit": "RIA Novosti archive, image #850809",
+        "source": "https://commons.wikimedia.org/wiki/File:RIAN_archive_850809_General_Secretary_of_the_CPSU_CC_M._Gorbachev_(crop).jpg",
+        "license": "CC BY-SA 3.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0"
+      }
+    },
+    {
+      "id": "12-19-gaia-spacecraft",
+      "date": "12-19",
+      "dateLabel": "19 December",
+      "category": "space",
+      "categoryName": "Space",
+      "year": 2013,
+      "title": "Gaia",
+      "body": "Spacecraft Gaia is launched by the European Space Agency.",
+      "source": {
+        "name": "Wikipedia · Gaia (spacecraft)",
+        "url": "https://en.wikipedia.org/wiki/Gaia_(spacecraft)",
+        "calendarUrl": "https://en.wikipedia.org/wiki/December_19",
+        "license": {
+          "name": "CC BY-SA 4.0",
+          "url": "https://creativecommons.org/licenses/by-sa/4.0/"
+        }
+      },
+      "image": {
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/fd/Gaia_observes_the_Milky_Way_ESA24305955.jpeg/1280px-Gaia_observes_the_Milky_Way_ESA24305955.jpeg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "alt": "Picture from the Wikipedia article on Gaia.",
+        "credit": "ESA/Gaia/DPAC",
+        "source": "https://commons.wikimedia.org/wiki/File:Gaia_observes_the_Milky_Way_ESA24305955.jpeg",
+        "license": "CC BY-SA 3.0 igo",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0/igo/deed.en"
+      }
+    },
+    {
+      "id": "12-19-penlee-lifeboat-disaster",
+      "date": "12-19",
+      "dateLabel": "19 December",
+      "category": "world",
+      "categoryName": "World",
+      "year": 1981,
+      "title": "Penlee lifeboat disaster",
+      "body": "Sixteen lives are lost when the Penlee lifeboat goes to the aid of the stricken coaster Union Star in heavy seas.",
+      "source": {
+        "name": "Wikipedia · Penlee lifeboat disaster",
+        "url": "https://en.wikipedia.org/wiki/Penlee_lifeboat_disaster",
+        "calendarUrl": "https://en.wikipedia.org/wiki/December_19",
+        "license": {
+          "name": "CC BY-SA 4.0",
+          "url": "https://creativecommons.org/licenses/by-sa/4.0/"
+        }
+      },
+      "image": {
+        "src": "https://upload.wikimedia.org/wikipedia/commons/b/b8/Penlee_Memorials_-_geograph.org.uk_-_848496.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+        "alt": "Picture from the Wikipedia article on Penlee lifeboat disaster.",
+        "credit": "Tony Atkin",
+        "source": "https://commons.wikimedia.org/wiki/File:Penlee_Memorials_-_geograph.org.uk_-_848496.jpg",
+        "license": "CC BY-SA 2.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0"
       }
     }
   ]

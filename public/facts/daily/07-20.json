@@ -3,17 +3,17 @@
   "dateLabel": "20 July",
   "facts": [
     {
-      "id": "07-20-apollo-11",
+      "id": "07-20-jeff-bezos",
       "date": "07-20",
       "dateLabel": "20 July",
       "category": "space",
       "categoryName": "Space",
-      "year": 1969,
-      "title": "Apollo 11",
-      "body": "Apollo 11's crew successfully makes the first human landing on the Moon in the Sea of Tranquility. Americans Neil Armstrong and Buzz Aldrin become the first humans to walk on the Moon six and a half hours later.",
+      "year": 2021,
+      "title": "Jeff Bezos",
+      "body": "American businessman Jeff Bezos flies to space aboard New Shepard NS-16 operated by his private spaceflight company Blue Origin.",
       "source": {
-        "name": "Wikipedia · Apollo 11",
-        "url": "https://en.wikipedia.org/wiki/Apollo_11",
+        "name": "Wikipedia · Jeff Bezos",
+        "url": "https://en.wikipedia.org/wiki/Jeff_Bezos",
         "calendarUrl": "https://en.wikipedia.org/wiki/July_20",
         "license": {
           "name": "CC BY-SA 4.0",
@@ -21,12 +21,12 @@
         }
       },
       "image": {
-        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/41/A_Man_on_the_Moon%2C_AS11-40-5903_%28cropped%29.jpg/1280px-A_Man_on_the_Moon%2C_AS11-40-5903_%28cropped%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-        "alt": "Picture from the Wikipedia article on Apollo 11.",
-        "credit": "Neil A. Armstrong",
-        "source": "https://commons.wikimedia.org/wiki/File:A_Man_on_the_Moon,_AS11-40-5903_(cropped).jpg",
+        "src": "https://upload.wikimedia.org/wikipedia/commons/f/fc/260202-D-PM193-2205_SECWAR_Arsenal_of_Freedom_Tour_-_Florida_%283x4_cropped_on_Bezos_and_rotated%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+        "alt": "Picture from the Wikipedia article on Jeff Bezos.",
+        "credit": "SECWAR",
+        "source": "https://commons.wikimedia.org/wiki/File:260202-D-PM193-2205_SECWAR_Arsenal_of_Freedom_Tour_-_Florida_(3x4_cropped_on_Bezos_and_rotated).jpg",
         "license": "Public domain",
-        "licenseUrl": "https://commons.wikimedia.org/wiki/File:A_Man_on_the_Moon,_AS11-40-5903_(cropped).jpg"
+        "licenseUrl": "https://commons.wikimedia.org/wiki/File:260202-D-PM193-2205_SECWAR_Arsenal_of_Freedom_Tour_-_Florida_(3x4_cropped_on_Bezos_and_rotated).jpg"
       }
     },
     {
@@ -81,6 +81,70 @@
         "source": "https://commons.wikimedia.org/wiki/File:Logo_Special_Olympics.svg",
         "license": "Public domain",
         "licenseUrl": "https://commons.wikimedia.org/wiki/File:Logo_Special_Olympics.svg"
+      }
+    },
+    {
+      "id": "07-20-people-s-protection-units",
+      "date": "07-20",
+      "dateLabel": "20 July",
+      "category": "world",
+      "categoryName": "World",
+      "year": 2012,
+      "title": "People's Defense Units",
+      "body": "The People's Protection Units (YPG) capture the cities of Amuda and Efrîn without resistance.",
+      "source": {
+        "name": "Wikipedia · People's Defense Units",
+        "url": "https://en.wikipedia.org/wiki/People%27s_Defense_Units",
+        "calendarUrl": "https://en.wikipedia.org/wiki/July_20",
+        "license": {
+          "name": "CC BY-SA 4.0",
+          "url": "https://creativecommons.org/licenses/by-sa/4.0/"
+        }
+      },
+      "image": {
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/32/People%27s_Protection_Units_Flag.svg/1280px-People%27s_Protection_Units_Flag.svg.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "alt": "Picture from the Wikipedia article on People's Defense Units.",
+        "credit": "MrPenguin20",
+        "source": "https://commons.wikimedia.org/wiki/File:People%27s_Protection_Units_Flag.svg",
+        "license": "Public domain",
+        "licenseUrl": "https://commons.wikimedia.org/wiki/File:People%27s_Protection_Units_Flag.svg"
+      }
+    },
+    {
+      "id": "07-20-apollo-11",
+      "date": "07-20",
+      "dateLabel": "20 July",
+      "category": "space",
+      "categoryName": "Space",
+      "year": 1969,
+      "title": "Apollo 11",
+      "body": "Apollo 11's crew successfully makes the first human landing on the Moon in the Sea of Tranquility. Americans Neil Armstrong and Buzz Aldrin become the first humans to walk on the Moon six and a half hours later.",
+      "source": {
+        "name": "Wikipedia · Apollo 11",
+        "url": "https://en.wikipedia.org/wiki/Apollo_11",
+        "calendarUrl": "https://en.wikipedia.org/wiki/July_20",
+        "license": {
+          "name": "CC BY-SA 4.0",
+          "url": "https://creativecommons.org/licenses/by-sa/4.0/"
+        }
+      },
+      "video": {
+        "src": "https://upload.wikimedia.org/wikipedia/commons/transcoded/a/a6/Apollo_11_Landing_-_first_steps_on_the_moon.ogv/Apollo_11_Landing_-_first_steps_on_the_moon.ogv.240p.vp9.webm",
+        "fallback": "https://upload.wikimedia.org/wikipedia/commons/transcoded/a/a6/Apollo_11_Landing_-_first_steps_on_the_moon.ogv/Apollo_11_Landing_-_first_steps_on_the_moon.ogv.360p.mpeg4.mov",
+        "poster": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a6/Apollo_11_Landing_-_first_steps_on_the_moon.ogv/250px--Apollo_11_Landing_-_first_steps_on_the_moon.ogv.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo",
+        "seconds": 62,
+        "credit": "NASA",
+        "source": "https://commons.wikimedia.org/wiki/File:Apollo_11_Landing_-_first_steps_on_the_moon.ogv",
+        "license": "Public domain",
+        "licenseUrl": "https://commons.wikimedia.org/wiki/File:Apollo_11_Landing_-_first_steps_on_the_moon.ogv"
+      },
+      "image": {
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/41/A_Man_on_the_Moon%2C_AS11-40-5903_%28cropped%29.jpg/1280px-A_Man_on_the_Moon%2C_AS11-40-5903_%28cropped%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "alt": "Picture from the Wikipedia article on Apollo 11.",
+        "credit": "Neil A. Armstrong",
+        "source": "https://commons.wikimedia.org/wiki/File:A_Man_on_the_Moon,_AS11-40-5903_(cropped).jpg",
+        "license": "Public domain",
+        "licenseUrl": "https://commons.wikimedia.org/wiki/File:A_Man_on_the_Moon,_AS11-40-5903_(cropped).jpg"
       }
     }
   ]

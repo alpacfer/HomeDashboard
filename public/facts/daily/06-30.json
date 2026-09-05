@@ -77,10 +77,64 @@
       "image": {
         "src": "https://upload.wikimedia.org/wikipedia/commons/9/96/AerialShowgirlsTissu1.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
         "alt": "Picture from the Wikipedia article on Acrobatics.",
-        "credit": "Original uploader was AerialShowgirls at en.wikipedia",
+        "credit": "AerialShowgirls at en.wikipedia",
         "source": "https://commons.wikimedia.org/wiki/File:AerialShowgirlsTissu1.jpg",
         "license": "Public domain",
         "licenseUrl": "https://commons.wikimedia.org/wiki/File:AerialShowgirlsTissu1.jpg"
+      }
+    },
+    {
+      "id": "06-30-1860-oxford-evolution-debate",
+      "date": "06-30",
+      "dateLabel": "30 June",
+      "category": "culture",
+      "categoryName": "Culture",
+      "year": 1860,
+      "title": "1860 Oxford evolution debate",
+      "body": "The 1860 Oxford evolution debate at the Oxford University Museum of Natural History takes place.",
+      "source": {
+        "name": "Wikipedia · 1860 Oxford evolution debate",
+        "url": "https://en.wikipedia.org/wiki/1860_Oxford_evolution_debate",
+        "calendarUrl": "https://en.wikipedia.org/wiki/June_30",
+        "license": {
+          "name": "CC BY-SA 4.0",
+          "url": "https://creativecommons.org/licenses/by-sa/4.0/"
+        }
+      },
+      "image": {
+        "src": "https://upload.wikimedia.org/wikipedia/commons/f/fc/Oxf-uni-mus-nh.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+        "alt": "Picture from the Wikipedia article on 1860 Oxford evolution debate.",
+        "credit": "MykReeve",
+        "source": "https://commons.wikimedia.org/wiki/File:Oxf-uni-mus-nh.jpg",
+        "license": "CC BY-SA 3.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0/"
+      }
+    },
+    {
+      "id": "06-30-leap-second",
+      "date": "06-30",
+      "dateLabel": "30 June",
+      "category": "world",
+      "categoryName": "World",
+      "year": 1972,
+      "title": "Leap second",
+      "body": "The first leap second is added to the UTC time system.",
+      "source": {
+        "name": "Wikipedia · Leap second",
+        "url": "https://en.wikipedia.org/wiki/Leap_second",
+        "calendarUrl": "https://en.wikipedia.org/wiki/June_30",
+        "license": {
+          "name": "CC BY-SA 4.0",
+          "url": "https://creativecommons.org/licenses/by-sa/4.0/"
+        }
+      },
+      "image": {
+        "src": "https://upload.wikimedia.org/wikipedia/commons/8/87/Leapsecond2016.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+        "alt": "Picture from the Wikipedia article on Leap second.",
+        "credit": "US Government / NIST",
+        "source": "https://commons.wikimedia.org/wiki/File:Leapsecond2016.png",
+        "license": "Public domain",
+        "licenseUrl": "https://commons.wikimedia.org/wiki/File:Leapsecond2016.png"
       }
     }
   ]

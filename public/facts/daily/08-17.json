@@ -82,6 +82,60 @@
         "license": "Public domain",
         "licenseUrl": "https://commons.wikimedia.org/wiki/File:RichardWagner.jpg"
       }
+    },
+    {
+      "id": "08-17-arktika-1972-icebreaker",
+      "date": "08-17",
+      "dateLabel": "17 August",
+      "category": "world",
+      "categoryName": "World",
+      "year": 1977,
+      "title": "Arktika",
+      "body": "The Soviet icebreaker Arktika becomes the first surface ship to reach the North Pole.",
+      "source": {
+        "name": "Wikipedia · Arktika (1972 icebreaker)",
+        "url": "https://en.wikipedia.org/wiki/Arktika_(1972_icebreaker)",
+        "calendarUrl": "https://en.wikipedia.org/wiki/August_17",
+        "license": {
+          "name": "CC BY-SA 4.0",
+          "url": "https://creativecommons.org/licenses/by-sa/4.0/"
+        }
+      },
+      "image": {
+        "src": "https://upload.wikimedia.org/wikipedia/commons/9/9b/RIAN_archive_186141_Nuclear_icebreaker_Arktika_%28cropped%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+        "alt": "Picture from the Wikipedia article on Arktika.",
+        "credit": "RIA Novosti archive, image #186141",
+        "source": "https://commons.wikimedia.org/wiki/File:RIAN_archive_186141_Nuclear_icebreaker_Arktika_(cropped).jpg",
+        "license": "CC BY-SA 3.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0"
+      }
+    },
+    {
+      "id": "08-17-pioneer-0",
+      "date": "08-17",
+      "dateLabel": "17 August",
+      "category": "space",
+      "categoryName": "Space",
+      "year": 1958,
+      "title": "Pioneer 0",
+      "body": "Pioneer 0, America's first attempt at lunar orbit, is launched using the first Thor-Able rocket and fails. Notable as one of the first attempted launches beyond Earth orbit by any country.",
+      "source": {
+        "name": "Wikipedia · Pioneer 0",
+        "url": "https://en.wikipedia.org/wiki/Pioneer_0",
+        "calendarUrl": "https://en.wikipedia.org/wiki/August_17",
+        "license": {
+          "name": "CC BY-SA 4.0",
+          "url": "https://creativecommons.org/licenses/by-sa/4.0/"
+        }
+      },
+      "image": {
+        "src": "https://upload.wikimedia.org/wikipedia/commons/5/53/Pioneer_able.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+        "alt": "Picture from the Wikipedia article on Pioneer 0.",
+        "credit": "NASA",
+        "source": "https://commons.wikimedia.org/wiki/File:Pioneer_able.png",
+        "license": "Public domain",
+        "licenseUrl": "https://commons.wikimedia.org/wiki/File:Pioneer_able.png"
+      }
     }
   ]
 }

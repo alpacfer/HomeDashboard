@@ -82,6 +82,60 @@
         "license": "Public domain",
         "licenseUrl": "https://commons.wikimedia.org/wiki/File:Sept_2019_Global_Climate_Strike_logo_en.svg"
       }
+    },
+    {
+      "id": "09-27-bobby-jones-golfer",
+      "date": "09-27",
+      "dateLabel": "27 September",
+      "category": "sport",
+      "categoryName": "Sport",
+      "year": 1930,
+      "title": "Bobby Jones",
+      "body": "Bobby Jones wins the (pre-Masters) Grand Slam of golf.",
+      "source": {
+        "name": "Wikipedia · Bobby Jones (golfer)",
+        "url": "https://en.wikipedia.org/wiki/Bobby_Jones_(golfer)",
+        "calendarUrl": "https://en.wikipedia.org/wiki/September_27",
+        "license": {
+          "name": "CC BY-SA 4.0",
+          "url": "https://creativecommons.org/licenses/by-sa/4.0/"
+        }
+      },
+      "image": {
+        "src": "https://upload.wikimedia.org/wikipedia/commons/3/30/Bobby_Jones_c1921.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+        "alt": "Picture from the Wikipedia article on Bobby Jones.",
+        "credit": "unattributed",
+        "source": "https://commons.wikimedia.org/wiki/File:Bobby_Jones_c1921.jpg",
+        "license": "Public domain",
+        "licenseUrl": "https://commons.wikimedia.org/wiki/File:Bobby_Jones_c1921.jpg"
+      }
+    },
+    {
+      "id": "09-27-smart-1",
+      "date": "09-27",
+      "dateLabel": "27 September",
+      "category": "space",
+      "categoryName": "Space",
+      "year": 2003,
+      "title": "SMART-1",
+      "body": "The SMART-1 satellite is launched.",
+      "source": {
+        "name": "Wikipedia · SMART-1",
+        "url": "https://en.wikipedia.org/wiki/SMART-1",
+        "calendarUrl": "https://en.wikipedia.org/wiki/September_27",
+        "license": {
+          "name": "CC BY-SA 4.0",
+          "url": "https://creativecommons.org/licenses/by-sa/4.0/"
+        }
+      },
+      "image": {
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f8/Artist%27s_impression_of_the_SMART-1_mission_ESA199399.jpg/1280px-Artist%27s_impression_of_the_SMART-1_mission_ESA199399.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "alt": "Picture from the Wikipedia article on SMART-1.",
+        "credit": "ESA",
+        "source": "https://commons.wikimedia.org/wiki/File:Artist%27s_impression_of_the_SMART-1_mission_ESA199399.jpg",
+        "license": "CC BY-SA 3.0 igo",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0/igo/deed.en"
+      }
     }
   ]
 }

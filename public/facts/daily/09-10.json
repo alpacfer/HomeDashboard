@@ -3,6 +3,33 @@
   "dateLabel": "10 September",
   "facts": [
     {
+      "id": "09-10-polaris-dawn",
+      "date": "09-10",
+      "dateLabel": "10 September",
+      "category": "space",
+      "categoryName": "Space",
+      "year": 2024,
+      "title": "Polaris Dawn",
+      "body": "Polaris Dawn, the first private crewed spaceflight to involve a spacewalk, is launched from the Kennedy Space Center in Florida.",
+      "source": {
+        "name": "Wikipedia · Polaris Dawn",
+        "url": "https://en.wikipedia.org/wiki/Polaris_Dawn",
+        "calendarUrl": "https://en.wikipedia.org/wiki/September_10",
+        "license": {
+          "name": "CC BY-SA 4.0",
+          "url": "https://creativecommons.org/licenses/by-sa/4.0/"
+        }
+      },
+      "image": {
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/5d/Falcon_9_Polaris_Dawn_Launch_%288634899%29.jpg/1280px-Falcon_9_Polaris_Dawn_Launch_%288634899%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "alt": "Picture from the Wikipedia article on Polaris Dawn.",
+        "credit": "U.S. Space Force photo by Joshua Conti",
+        "source": "https://commons.wikimedia.org/wiki/File:Falcon_9_Polaris_Dawn_Launch_(8634899).jpg",
+        "license": "Public domain",
+        "licenseUrl": "https://commons.wikimedia.org/wiki/File:Falcon_9_Polaris_Dawn_Launch_(8634899).jpg"
+      }
+    },
+    {
       "id": "09-10-large-hadron-collider",
       "date": "09-10",
       "dateLabel": "10 September",
@@ -30,6 +57,60 @@
       }
     },
     {
+      "id": "09-10-operation-barras",
+      "date": "09-10",
+      "dateLabel": "10 September",
+      "category": "world",
+      "categoryName": "World",
+      "year": 2000,
+      "title": "Operation Barras",
+      "body": "Operation Barras successfully frees six British soldiers held captive for over two weeks and contributes to the end of the Sierra Leone Civil War.",
+      "source": {
+        "name": "Wikipedia · Operation Barras",
+        "url": "https://en.wikipedia.org/wiki/Operation_Barras",
+        "calendarUrl": "https://en.wikipedia.org/wiki/September_10",
+        "license": {
+          "name": "CC BY-SA 4.0",
+          "url": "https://creativecommons.org/licenses/by-sa/4.0/"
+        }
+      },
+      "image": {
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/24/UNsierraleone.PNG/1280px-UNsierraleone.PNG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "alt": "Picture from the Wikipedia article on Operation Barras.",
+        "credit": "Wikimedia Commons",
+        "source": "https://commons.wikimedia.org/wiki/File:UNsierraleone.PNG",
+        "license": "Public domain",
+        "licenseUrl": "https://commons.wikimedia.org/wiki/File:UNsierraleone.PNG"
+      }
+    },
+    {
+      "id": "09-10-speedway-world-championship",
+      "date": "09-10",
+      "dateLabel": "10 September",
+      "category": "sport",
+      "categoryName": "Sport",
+      "year": 1936,
+      "title": "Speedway World Championship",
+      "body": "The first world individual Speedway World Championship was held at London's Wembley Stadium.",
+      "source": {
+        "name": "Wikipedia · Speedway World Championship",
+        "url": "https://en.wikipedia.org/wiki/Speedway_World_Championship",
+        "calendarUrl": "https://en.wikipedia.org/wiki/September_10",
+        "license": {
+          "name": "CC BY-SA 4.0",
+          "url": "https://creativecommons.org/licenses/by-sa/4.0/"
+        }
+      },
+      "image": {
+        "src": "https://upload.wikimedia.org/wikipedia/commons/1/14/Lionel_van_Praag_1946.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+        "alt": "Picture from the Wikipedia article on Speedway World Championship.",
+        "credit": "Ray Olsen",
+        "source": "https://commons.wikimedia.org/wiki/File:Lionel_van_Praag_1946.jpg",
+        "license": "Public domain",
+        "licenseUrl": "https://commons.wikimedia.org/wiki/File:Lionel_van_Praag_1946.jpg"
+      }
+    },
+    {
       "id": "09-10-george-mary-searle",
       "date": "09-10",
       "dateLabel": "10 September",
@@ -54,33 +135,6 @@
         "source": "https://commons.wikimedia.org/wiki/File:George_Mary_Searle.jpg",
         "license": "Public domain",
         "licenseUrl": "https://commons.wikimedia.org/wiki/File:George_Mary_Searle.jpg"
-      }
-    },
-    {
-      "id": "09-10-operation-barras",
-      "date": "09-10",
-      "dateLabel": "10 September",
-      "category": "world",
-      "categoryName": "World",
-      "year": 2000,
-      "title": "Operation Barras",
-      "body": "Operation Barras successfully frees six British soldiers held captive for over two weeks and contributes to the end of the Sierra Leone Civil War.",
-      "source": {
-        "name": "Wikipedia · Operation Barras",
-        "url": "https://en.wikipedia.org/wiki/Operation_Barras",
-        "calendarUrl": "https://en.wikipedia.org/wiki/September_10",
-        "license": {
-          "name": "CC BY-SA 4.0",
-          "url": "https://creativecommons.org/licenses/by-sa/4.0/"
-        }
-      },
-      "image": {
-        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/24/UNsierraleone.PNG/1280px-UNsierraleone.PNG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-        "alt": "Picture from the Wikipedia article on Operation Barras.",
-        "credit": "Wikimedia Commons contributor",
-        "source": "https://commons.wikimedia.org/wiki/File:UNsierraleone.PNG",
-        "license": "Public domain",
-        "licenseUrl": "https://commons.wikimedia.org/wiki/File:UNsierraleone.PNG"
       }
     }
   ]

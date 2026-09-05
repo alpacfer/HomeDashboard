@@ -3,17 +3,17 @@
   "dateLabel": "30 August",
   "facts": [
     {
-      "id": "08-30-space-shuttle-discovery",
+      "id": "08-30-space-shuttle-challenger",
       "date": "08-30",
       "dateLabel": "30 August",
       "category": "space",
       "categoryName": "Space",
-      "year": 1984,
-      "title": "Space Shuttle Discovery",
-      "body": "The Space Shuttle Discovery takes off on its maiden voyage.",
+      "year": 1983,
+      "title": "Space Shuttle Challenger",
+      "body": "The Space Shuttle Challenger takes off on the first night launch of the shuttle program. Guion Bluford becomes the first African-American in space on this mission.",
       "source": {
-        "name": "Wikipedia · Space Shuttle Discovery",
-        "url": "https://en.wikipedia.org/wiki/Space_Shuttle_Discovery",
+        "name": "Wikipedia · Space Shuttle Challenger",
+        "url": "https://en.wikipedia.org/wiki/Space_Shuttle_Challenger",
         "calendarUrl": "https://en.wikipedia.org/wiki/August_30",
         "license": {
           "name": "CC BY-SA 4.0",
@@ -21,12 +21,12 @@
         }
       },
       "image": {
-        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/1d/STS-133_Space_Shuttle_Discovery_after_undocking_3_%28cropped%29.jpg/1280px-STS-133_Space_Shuttle_Discovery_after_undocking_3_%28cropped%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-        "alt": "Picture from the Wikipedia article on Space Shuttle Discovery.",
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/9c/S83-35803_%28cropped%29.jpg/1280px-S83-35803_%28cropped%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "alt": "Picture from the Wikipedia article on Space Shuttle Challenger.",
         "credit": "NASA",
-        "source": "https://commons.wikimedia.org/wiki/File:STS-133_Space_Shuttle_Discovery_after_undocking_3_(cropped).jpg",
+        "source": "https://commons.wikimedia.org/wiki/File:S83-35803_(cropped).jpg",
         "license": "Public domain",
-        "licenseUrl": "https://commons.wikimedia.org/wiki/File:STS-133_Space_Shuttle_Discovery_after_undocking_3_(cropped).jpg"
+        "licenseUrl": "https://commons.wikimedia.org/wiki/File:S83-35803_(cropped).jpg"
       }
     },
     {
@@ -57,6 +57,33 @@
       }
     },
     {
+      "id": "08-30-burgess-shale",
+      "date": "08-30",
+      "dateLabel": "30 August",
+      "category": "science",
+      "categoryName": "Science",
+      "year": 1909,
+      "title": "Burgess Shale",
+      "body": "Burgess Shale fossils are discovered by Charles Doolittle Walcott.",
+      "source": {
+        "name": "Wikipedia · Burgess Shale",
+        "url": "https://en.wikipedia.org/wiki/Burgess_Shale",
+        "calendarUrl": "https://en.wikipedia.org/wiki/August_30",
+        "license": {
+          "name": "CC BY-SA 4.0",
+          "url": "https://creativecommons.org/licenses/by-sa/4.0/"
+        }
+      },
+      "image": {
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/0d/Ottoia_tricuspida_ROM_63057.jpg/1280px-Ottoia_tricuspida_ROM_63057.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "alt": "Picture from the Wikipedia article on Burgess Shale.",
+        "credit": "Martin R. Smith",
+        "source": "https://commons.wikimedia.org/wiki/File:Ottoia_tricuspida_ROM_63057.jpg",
+        "license": "CC0",
+        "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/deed.en"
+      }
+    },
+    {
       "id": "08-30-operation-deliberate-force",
       "date": "08-30",
       "dateLabel": "30 August",
@@ -81,6 +108,33 @@
         "source": "https://commons.wikimedia.org/wiki/File:F-16_deliberate_force.JPG",
         "license": "Public domain",
         "licenseUrl": "https://commons.wikimedia.org/wiki/File:F-16_deliberate_force.JPG"
+      }
+    },
+    {
+      "id": "08-30-space-shuttle-discovery",
+      "date": "08-30",
+      "dateLabel": "30 August",
+      "category": "space",
+      "categoryName": "Space",
+      "year": 1984,
+      "title": "Space Shuttle Discovery",
+      "body": "The Space Shuttle Discovery takes off on its maiden voyage.",
+      "source": {
+        "name": "Wikipedia · Space Shuttle Discovery",
+        "url": "https://en.wikipedia.org/wiki/Space_Shuttle_Discovery",
+        "calendarUrl": "https://en.wikipedia.org/wiki/August_30",
+        "license": {
+          "name": "CC BY-SA 4.0",
+          "url": "https://creativecommons.org/licenses/by-sa/4.0/"
+        }
+      },
+      "image": {
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/1d/STS-133_Space_Shuttle_Discovery_after_undocking_3_%28cropped%29.jpg/1280px-STS-133_Space_Shuttle_Discovery_after_undocking_3_%28cropped%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "alt": "Picture from the Wikipedia article on Space Shuttle Discovery.",
+        "credit": "NASA",
+        "source": "https://commons.wikimedia.org/wiki/File:STS-133_Space_Shuttle_Discovery_after_undocking_3_(cropped).jpg",
+        "license": "Public domain",
+        "licenseUrl": "https://commons.wikimedia.org/wiki/File:STS-133_Space_Shuttle_Discovery_after_undocking_3_(cropped).jpg"
       }
     }
   ]

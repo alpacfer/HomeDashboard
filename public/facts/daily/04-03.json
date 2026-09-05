@@ -30,6 +30,33 @@
       }
     },
     {
+      "id": "04-03-bobby-fischer",
+      "date": "04-03",
+      "dateLabel": "3 April",
+      "category": "sport",
+      "categoryName": "Sport",
+      "year": 1975,
+      "title": "Bobby Fischer",
+      "body": "Bobby Fischer refuses to play in a chess match against Anatoly Karpov, giving Karpov the title of World Champion by default.",
+      "source": {
+        "name": "Wikipedia · Bobby Fischer",
+        "url": "https://en.wikipedia.org/wiki/Bobby_Fischer",
+        "calendarUrl": "https://en.wikipedia.org/wiki/April_3",
+        "license": {
+          "name": "CC BY-SA 4.0",
+          "url": "https://creativecommons.org/licenses/by-sa/4.0/"
+        }
+      },
+      "image": {
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/34/Bobby_Fischer_1972.jpg/1280px-Bobby_Fischer_1972.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "alt": "Picture from the Wikipedia article on Bobby Fischer.",
+        "credit": "Bert Verhoeff for Anefo",
+        "source": "https://commons.wikimedia.org/wiki/File:Bobby_Fischer_1972.jpg",
+        "license": "CC0",
+        "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/deed.en"
+      }
+    },
+    {
       "id": "04-03-us-congress",
       "date": "04-03",
       "dateLabel": "3 April",
@@ -54,6 +81,33 @@
         "source": "https://commons.wikimedia.org/wiki/File:Greater_coat_of_arms_of_the_United_States.svg",
         "license": "Public domain",
         "licenseUrl": "https://commons.wikimedia.org/wiki/File:Greater_coat_of_arms_of_the_United_States.svg"
+      }
+    },
+    {
+      "id": "04-03-grand-national",
+      "date": "04-03",
+      "dateLabel": "3 April",
+      "category": "world",
+      "categoryName": "World",
+      "year": 1993,
+      "title": "Grand National",
+      "body": "The outcome of the Grand National horse race is declared void for the first (and only) time.",
+      "source": {
+        "name": "Wikipedia · Grand National",
+        "url": "https://en.wikipedia.org/wiki/Grand_National",
+        "calendarUrl": "https://en.wikipedia.org/wiki/April_3",
+        "license": {
+          "name": "CC BY-SA 4.0",
+          "url": "https://creativecommons.org/licenses/by-sa/4.0/"
+        }
+      },
+      "image": {
+        "src": "https://upload.wikimedia.org/wikipedia/commons/d/d6/2011_Grand_National_cropped.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+        "alt": "Picture from the Wikipedia article on Grand National.",
+        "credit": "Wikimedia Commons",
+        "source": "https://commons.wikimedia.org/wiki/File:2011_Grand_National_cropped.jpg",
+        "license": "CC BY 2.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by/2.0"
       }
     },
     {

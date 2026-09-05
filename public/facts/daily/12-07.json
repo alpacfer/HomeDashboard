@@ -3,6 +3,33 @@
   "dateLabel": "7 December",
   "facts": [
     {
+      "id": "12-07-lando-norris",
+      "date": "12-07",
+      "dateLabel": "7 December",
+      "category": "sport",
+      "categoryName": "Sport",
+      "year": 2025,
+      "title": "Lando Norris",
+      "body": "British racing driver Lando Norris wins the Formula One World Drivers' Championship in 2025 with McLaren.",
+      "source": {
+        "name": "Wikipedia · Lando Norris",
+        "url": "https://en.wikipedia.org/wiki/Lando_Norris",
+        "calendarUrl": "https://en.wikipedia.org/wiki/December_7",
+        "license": {
+          "name": "CC BY-SA 4.0",
+          "url": "https://creativecommons.org/licenses/by-sa/4.0/"
+        }
+      },
+      "image": {
+        "src": "https://upload.wikimedia.org/wikipedia/commons/9/90/2024-08-25_Motorsport%2C_Formel_1%2C_Gro%C3%9Fer_Preis_der_Niederlande_2024_STP_3968_by_Stepro_%28cropped2%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+        "alt": "Picture from the Wikipedia article on Lando Norris.",
+        "credit": "Steffen Prößdorf",
+        "source": "https://commons.wikimedia.org/wiki/File:2024-08-25_Motorsport,_Formel_1,_Gro%C3%9Fer_Preis_der_Niederlande_2024_STP_3968_by_Stepro_(cropped2).jpg",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0"
+      }
+    },
+    {
       "id": "12-07-jaxa",
       "date": "12-07",
       "dateLabel": "7 December",
@@ -79,6 +106,33 @@
         "alt": "Picture from the Wikipedia article on Cricket.",
         "credit": "Prescott Pym on Flickr",
         "source": "https://commons.wikimedia.org/wiki/File:Pollock_to_Hussey.jpg",
+        "license": "CC BY 2.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by/2.0"
+      }
+    },
+    {
+      "id": "12-07-new-york-philharmonic",
+      "date": "12-07",
+      "dateLabel": "7 December",
+      "category": "culture",
+      "categoryName": "Culture",
+      "year": 1842,
+      "title": "New York Philharmonic",
+      "body": "First concert of the New York Philharmonic, founded by Ureli Corelli Hill.",
+      "source": {
+        "name": "Wikipedia · New York Philharmonic",
+        "url": "https://en.wikipedia.org/wiki/New_York_Philharmonic",
+        "calendarUrl": "https://en.wikipedia.org/wiki/December_7",
+        "license": {
+          "name": "CC BY-SA 4.0",
+          "url": "https://creativecommons.org/licenses/by-sa/4.0/"
+        }
+      },
+      "image": {
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/bc/New_York_Philharmonic_at_Avery_Fisher_Hall_%287230083424%29_%28cropped%29.jpg/1280px-New_York_Philharmonic_at_Avery_Fisher_Hall_%287230083424%29_%28cropped%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "alt": "Picture from the Wikipedia article on New York Philharmonic.",
+        "credit": "Jun Seita from Palo Alto, CA, U.S",
+        "source": "https://commons.wikimedia.org/wiki/File:New_York_Philharmonic_at_Avery_Fisher_Hall_(7230083424)_(cropped).jpg",
         "license": "CC BY 2.0",
         "licenseUrl": "https://creativecommons.org/licenses/by/2.0"
       }

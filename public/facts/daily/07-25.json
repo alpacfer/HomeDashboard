@@ -3,6 +3,33 @@
   "dateLabel": "25 July",
   "facts": [
     {
+      "id": "07-25-salyut-7",
+      "date": "07-25",
+      "dateLabel": "25 July",
+      "category": "space",
+      "categoryName": "Space",
+      "year": 1984,
+      "title": "Salyut 7",
+      "body": "Salyut 7 cosmonaut Svetlana Savitskaya becomes the first woman to perform a space walk.",
+      "source": {
+        "name": "Wikipedia · Salyut 7",
+        "url": "https://en.wikipedia.org/wiki/Salyut_7",
+        "calendarUrl": "https://en.wikipedia.org/wiki/July_25",
+        "license": {
+          "name": "CC BY-SA 4.0",
+          "url": "https://creativecommons.org/licenses/by-sa/4.0/"
+        }
+      },
+      "image": {
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/1c/Salyut_program_insignia.svg/1280px-Salyut_program_insignia.svg.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "alt": "Picture from the Wikipedia article on Salyut 7.",
+        "credit": "Wikimedia Commons",
+        "source": "https://commons.wikimedia.org/wiki/File:Salyut_program_insignia.svg",
+        "license": "Public domain",
+        "licenseUrl": "https://commons.wikimedia.org/wiki/File:Salyut_program_insignia.svg"
+      }
+    },
+    {
       "id": "07-25-ajinomoto",
       "date": "07-25",
       "dateLabel": "25 July",
@@ -23,37 +50,10 @@
       "image": {
         "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/72/Ajinomoto_global_logo.svg/1280px-Ajinomoto_global_logo.svg.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
         "alt": "Picture from the Wikipedia article on Ajinomoto.",
-        "credit": "Ajinomoto Co., Inc.",
+        "credit": "Ajinomoto Co., Inc",
         "source": "https://commons.wikimedia.org/wiki/File:Ajinomoto_global_logo.svg",
         "license": "Public domain",
         "licenseUrl": "https://commons.wikimedia.org/wiki/File:Ajinomoto_global_logo.svg"
-      }
-    },
-    {
-      "id": "07-25-viking-1",
-      "date": "07-25",
-      "dateLabel": "25 July",
-      "category": "space",
-      "categoryName": "Space",
-      "year": 1976,
-      "title": "Viking 1",
-      "body": "Viking 1 takes the famous Face on Mars photo.",
-      "source": {
-        "name": "Wikipedia · Viking 1",
-        "url": "https://en.wikipedia.org/wiki/Viking_1",
-        "calendarUrl": "https://en.wikipedia.org/wiki/July_25",
-        "license": {
-          "name": "CC BY-SA 4.0",
-          "url": "https://creativecommons.org/licenses/by-sa/4.0/"
-        }
-      },
-      "image": {
-        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/75/Viking_spacecraft.jpg/1280px-Viking_spacecraft.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-        "alt": "Picture from the Wikipedia article on Viking 1.",
-        "credit": "NASA",
-        "source": "https://commons.wikimedia.org/wiki/File:Viking_spacecraft.jpg",
-        "license": "Public domain",
-        "licenseUrl": "https://commons.wikimedia.org/wiki/File:Viking_spacecraft.jpg"
       }
     },
     {
@@ -81,6 +81,60 @@
         "source": "https://commons.wikimedia.org/wiki/File:DylanYoungKilkenny140719v2_(50_of_52)_(52246124397)_(cropped).jpg",
         "license": "CC BY 2.0",
         "licenseUrl": "https://creativecommons.org/licenses/by/2.0"
+      }
+    },
+    {
+      "id": "07-25-telegraph-agency-of-the-soviet-union",
+      "date": "07-25",
+      "dateLabel": "25 July",
+      "category": "tech",
+      "categoryName": "Tech",
+      "year": 1925,
+      "title": "TASS",
+      "body": "Telegraph Agency of the Soviet Union (TASS) is established.",
+      "source": {
+        "name": "Wikipedia · TASS",
+        "url": "https://en.wikipedia.org/wiki/TASS",
+        "calendarUrl": "https://en.wikipedia.org/wiki/July_25",
+        "license": {
+          "name": "CC BY-SA 4.0",
+          "url": "https://creativecommons.org/licenses/by-sa/4.0/"
+        }
+      },
+      "image": {
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/95/TASS_Logo_%28Latin%29_2022.svg/1280px-TASS_Logo_%28Latin%29_2022.svg.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "alt": "Picture from the Wikipedia article on TASS.",
+        "credit": "TASS",
+        "source": "https://commons.wikimedia.org/wiki/File:TASS_Logo_(Latin)_2022.svg",
+        "license": "Public domain",
+        "licenseUrl": "https://commons.wikimedia.org/wiki/File:TASS_Logo_(Latin)_2022.svg"
+      }
+    },
+    {
+      "id": "07-25-royal-flying-corps",
+      "date": "07-25",
+      "dateLabel": "25 July",
+      "category": "world",
+      "categoryName": "World",
+      "year": 1915,
+      "title": "Royal Flying Corps",
+      "body": "RFC Captain Lanoe Hawker becomes the first British pursuit aviator to earn the Victoria Cross.",
+      "source": {
+        "name": "Wikipedia · Royal Flying Corps",
+        "url": "https://en.wikipedia.org/wiki/Royal_Flying_Corps",
+        "calendarUrl": "https://en.wikipedia.org/wiki/July_25",
+        "license": {
+          "name": "CC BY-SA 4.0",
+          "url": "https://creativecommons.org/licenses/by-sa/4.0/"
+        }
+      },
+      "image": {
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f2/RFC_Cap_Badge.jpg/1280px-RFC_Cap_Badge.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "alt": "Picture from the Wikipedia article on Royal Flying Corps.",
+        "credit": "Tpaffett",
+        "source": "https://commons.wikimedia.org/wiki/File:RFC_Cap_Badge.jpg",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0"
       }
     }
   ]

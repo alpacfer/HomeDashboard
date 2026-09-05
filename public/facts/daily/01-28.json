@@ -23,7 +23,7 @@
       "image": {
         "src": "https://upload.wikimedia.org/wikipedia/commons/0/09/The_Shining_%281977%29_front_cover%2C_first_edition.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
         "alt": "Picture from the Wikipedia article on The Shining.",
-        "credit": "Jacket illustration by Dave Christensen Jacket typography by Al Nagy Photo by Alex Gotfryd",
+        "credit": "Jacket illustration",
         "source": "https://commons.wikimedia.org/wiki/File:The_Shining_(1977)_front_cover,_first_edition.jpg",
         "license": "Public domain",
         "licenseUrl": "https://commons.wikimedia.org/wiki/File:The_Shining_(1977)_front_cover,_first_edition.jpg"
@@ -50,7 +50,7 @@
       "image": {
         "src": "https://upload.wikimedia.org/wikipedia/commons/d/d5/Blizzard_of_1977.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
         "alt": "Picture from the Wikipedia article on Blizzard of 1977.",
-        "credit": "\"Department of Transportation\" (presumably New York State Department of Transportation), published in Operation Snow Go - Blizzard of '77[1] by the U.S. Army Co",
+        "credit": "\"Department of Transportation\"",
         "source": "https://commons.wikimedia.org/wiki/File:Blizzard_of_1977.jpg",
         "license": "Public domain",
         "licenseUrl": "https://commons.wikimedia.org/wiki/File:Blizzard_of_1977.jpg"
@@ -81,6 +81,60 @@
         "source": "https://commons.wikimedia.org/wiki/File:LEGO_logo.svg",
         "license": "Public domain",
         "licenseUrl": "https://commons.wikimedia.org/wiki/File:LEGO_logo.svg"
+      }
+    },
+    {
+      "id": "01-28-elvis-presley",
+      "date": "01-28",
+      "dateLabel": "28 January",
+      "category": "culture",
+      "categoryName": "Culture",
+      "year": 1956,
+      "title": "Elvis Presley",
+      "body": "Elvis Presley makes his first national television appearance.",
+      "source": {
+        "name": "Wikipedia · Elvis Presley",
+        "url": "https://en.wikipedia.org/wiki/Elvis_Presley",
+        "calendarUrl": "https://en.wikipedia.org/wiki/January_28",
+        "license": {
+          "name": "CC BY-SA 4.0",
+          "url": "https://creativecommons.org/licenses/by-sa/4.0/"
+        }
+      },
+      "image": {
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/99/Elvis_Presley_promoting_Jailhouse_Rock.jpg/1280px-Elvis_Presley_promoting_Jailhouse_Rock.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "alt": "Picture from the Wikipedia article on Elvis Presley.",
+        "credit": "Metro-Goldwyn-Mayer",
+        "source": "https://commons.wikimedia.org/wiki/File:Elvis_Presley_promoting_Jailhouse_Rock.jpg",
+        "license": "Public domain",
+        "licenseUrl": "https://commons.wikimedia.org/wiki/File:Elvis_Presley_promoting_Jailhouse_Rock.jpg"
+      }
+    },
+    {
+      "id": "01-28-1979-energy-crisis",
+      "date": "01-28",
+      "dateLabel": "28 January",
+      "category": "world",
+      "categoryName": "World",
+      "year": 1981,
+      "title": "1979 oil crisis",
+      "body": "Ronald Reagan lifts remaining domestic petroleum price and allocation controls in the United States, helping to end the 1979 energy crisis and begin the 1980s oil glut.",
+      "source": {
+        "name": "Wikipedia · 1979 oil crisis",
+        "url": "https://en.wikipedia.org/wiki/1979_oil_crisis",
+        "calendarUrl": "https://en.wikipedia.org/wiki/January_28",
+        "license": {
+          "name": "CC BY-SA 4.0",
+          "url": "https://creativecommons.org/licenses/by-sa/4.0/"
+        }
+      },
+      "image": {
+        "src": "https://upload.wikimedia.org/wikipedia/commons/7/79/Top_Oil_Producing_Countries.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+        "alt": "Picture from the Wikipedia article on 1979 oil crisis.",
+        "credit": "U.S. Energy Information Administration",
+        "source": "https://commons.wikimedia.org/wiki/File:Top_Oil_Producing_Countries.png",
+        "license": "Public domain",
+        "licenseUrl": "https://commons.wikimedia.org/wiki/File:Top_Oil_Producing_Countries.png"
       }
     }
   ]

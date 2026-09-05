@@ -30,17 +30,17 @@
       }
     },
     {
-      "id": "12-09-general-electric",
+      "id": "12-09-december-9th-movement",
       "date": "12-09",
       "dateLabel": "9 December",
       "category": "world",
       "categoryName": "World",
-      "year": 1953,
-      "title": "General Electric",
-      "body": "General Electric announces that all communist employees will be discharged from the company.",
+      "year": 1935,
+      "title": "December 9th Movement",
+      "body": "Student protests occur in Beijing's Tiananmen Square, and are subsequently dispersed by government authorities.",
       "source": {
-        "name": "Wikipedia · General Electric",
-        "url": "https://en.wikipedia.org/wiki/General_Electric",
+        "name": "Wikipedia · December 9th Movement",
+        "url": "https://en.wikipedia.org/wiki/December_9th_Movement",
         "calendarUrl": "https://en.wikipedia.org/wiki/December_9",
         "license": {
           "name": "CC BY-SA 4.0",
@@ -48,12 +48,12 @@
         }
       },
       "image": {
-        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/ff/General_Electric_logo.svg/1280px-General_Electric_logo.svg.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-        "alt": "Picture from the Wikipedia article on General Electric.",
-        "credit": "General Electric Company",
-        "source": "https://commons.wikimedia.org/wiki/File:General_Electric_logo.svg",
+        "src": "https://upload.wikimedia.org/wikipedia/commons/9/93/Beijing-1935.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+        "alt": "Picture from the Wikipedia article on December 9th Movement.",
+        "credit": "User Refrain on zh.wikipedia",
+        "source": "https://commons.wikimedia.org/wiki/File:Beijing-1935.jpg",
         "license": "Public domain",
-        "licenseUrl": "https://commons.wikimedia.org/wiki/File:General_Electric_logo.svg"
+        "licenseUrl": "https://commons.wikimedia.org/wiki/File:Beijing-1935.jpg"
       }
     },
     {
@@ -81,6 +81,60 @@
         "source": "https://commons.wikimedia.org/wiki/File:SRI_Douglas_Engelbart_1968_(cropped).jpg",
         "license": "CC BY-SA 3.0",
         "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0"
+      }
+    },
+    {
+      "id": "12-09-smallpox",
+      "date": "12-09",
+      "dateLabel": "9 December",
+      "category": "world",
+      "categoryName": "World",
+      "year": 1979,
+      "title": "Smallpox",
+      "body": "The eradication of the smallpox virus is certified, making smallpox the first of only two diseases that have been driven to extinction (with rinderpest in 2011 being the other).",
+      "source": {
+        "name": "Wikipedia · Smallpox",
+        "url": "https://en.wikipedia.org/wiki/Smallpox",
+        "calendarUrl": "https://en.wikipedia.org/wiki/December_9",
+        "license": {
+          "name": "CC BY-SA 4.0",
+          "url": "https://creativecommons.org/licenses/by-sa/4.0/"
+        }
+      },
+      "image": {
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/66/Child_with_Smallpox_Bangladesh.jpg/1280px-Child_with_Smallpox_Bangladesh.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "alt": "Picture from the Wikipedia article on Smallpox.",
+        "credit": "CDC/James Hicks",
+        "source": "https://commons.wikimedia.org/wiki/File:Child_with_Smallpox_Bangladesh.jpg",
+        "license": "Public domain",
+        "licenseUrl": "https://commons.wikimedia.org/wiki/File:Child_with_Smallpox_Bangladesh.jpg"
+      }
+    },
+    {
+      "id": "12-09-general-electric",
+      "date": "12-09",
+      "dateLabel": "9 December",
+      "category": "world",
+      "categoryName": "World",
+      "year": 1953,
+      "title": "General Electric",
+      "body": "General Electric announces that all communist employees will be discharged from the company.",
+      "source": {
+        "name": "Wikipedia · General Electric",
+        "url": "https://en.wikipedia.org/wiki/General_Electric",
+        "calendarUrl": "https://en.wikipedia.org/wiki/December_9",
+        "license": {
+          "name": "CC BY-SA 4.0",
+          "url": "https://creativecommons.org/licenses/by-sa/4.0/"
+        }
+      },
+      "image": {
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/ff/General_Electric_logo.svg/1280px-General_Electric_logo.svg.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "alt": "Picture from the Wikipedia article on General Electric.",
+        "credit": "General Electric Company",
+        "source": "https://commons.wikimedia.org/wiki/File:General_Electric_logo.svg",
+        "license": "Public domain",
+        "licenseUrl": "https://commons.wikimedia.org/wiki/File:General_Electric_logo.svg"
       }
     }
   ]

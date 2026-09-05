@@ -23,10 +23,64 @@
       "image": {
         "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b6/Discovery_alongside_Barrier.jpg/1280px-Discovery_alongside_Barrier.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
         "alt": "Picture from the Wikipedia article on Discovery Expedition.",
-        "credit": "Cropped from image published in H.R. Mill: The Siege of the South Pole, Alston Rivers, London 1905)",
+        "credit": "Cropped",
         "source": "https://commons.wikimedia.org/wiki/File:Discovery_alongside_Barrier.jpg",
         "license": "Public domain",
         "licenseUrl": "https://commons.wikimedia.org/wiki/File:Discovery_alongside_Barrier.jpg"
+      }
+    },
+    {
+      "id": "12-30-ice-hockey",
+      "date": "12-30",
+      "dateLabel": "30 December",
+      "category": "sport",
+      "categoryName": "Sport",
+      "year": 1896,
+      "title": "Ice hockey",
+      "body": "Canadian ice hockey player Ernie McLea scores the first hat-trick in Stanley Cup play, and the Cup-winning goal as the Montreal Victorias defeat the Winnipeg Victorias 6–5.",
+      "source": {
+        "name": "Wikipedia · Ice hockey",
+        "url": "https://en.wikipedia.org/wiki/Ice_hockey",
+        "calendarUrl": "https://en.wikipedia.org/wiki/December_30",
+        "license": {
+          "name": "CC BY-SA 4.0",
+          "url": "https://creativecommons.org/licenses/by-sa/4.0/"
+        }
+      },
+      "image": {
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/39/Pittsburgh_Penguins%2C_Washington_Capitals%2C_Bryan_Rust_%2833744033514%29.jpg/1280px-Pittsburgh_Penguins%2C_Washington_Capitals%2C_Bryan_Rust_%2833744033514%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "alt": "Picture from the Wikipedia article on Ice hockey.",
+        "credit": "Keith Allison from Hanover, MD, USA",
+        "source": "https://commons.wikimedia.org/wiki/File:Pittsburgh_Penguins,_Washington_Capitals,_Bryan_Rust_(33744033514).jpg",
+        "license": "CC BY-SA 2.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0"
+      }
+    },
+    {
+      "id": "12-30-benjamin-netanyahu",
+      "date": "12-30",
+      "dateLabel": "30 December",
+      "category": "world",
+      "categoryName": "World",
+      "year": 1996,
+      "title": "Benjamin Netanyahu",
+      "body": "Proposed budget cuts by Benjamin Netanyahu spark protests from 250,000 workers who shut down services across Israel.",
+      "source": {
+        "name": "Wikipedia · Benjamin Netanyahu",
+        "url": "https://en.wikipedia.org/wiki/Benjamin_Netanyahu",
+        "calendarUrl": "https://en.wikipedia.org/wiki/December_30",
+        "license": {
+          "name": "CC BY-SA 4.0",
+          "url": "https://creativecommons.org/licenses/by-sa/4.0/"
+        }
+      },
+      "image": {
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/74/Benjamin_Netanyahu%2C_February_2023.jpg/1280px-Benjamin_Netanyahu%2C_February_2023.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "alt": "Picture from the Wikipedia article on Benjamin Netanyahu.",
+        "credit": "Avi Ohayon",
+        "source": "https://commons.wikimedia.org/wiki/File:Benjamin_Netanyahu,_February_2023.jpg",
+        "license": "CC BY-SA 3.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0"
       }
     },
     {
@@ -57,17 +111,17 @@
       }
     },
     {
-      "id": "12-30-ice-hockey",
+      "id": "12-30-operation-linebacker-ii",
       "date": "12-30",
       "dateLabel": "30 December",
-      "category": "sport",
-      "categoryName": "Sport",
-      "year": 1896,
-      "title": "Ice hockey",
-      "body": "Canadian ice hockey player Ernie McLea scores the first hat-trick in Stanley Cup play, and the Cup-winning goal as the Montreal Victorias defeat the Winnipeg Victorias 6–5.",
+      "category": "world",
+      "categoryName": "World",
+      "year": 1972,
+      "title": "Operation Linebacker II",
+      "body": "Operation Linebacker II ends.",
       "source": {
-        "name": "Wikipedia · Ice hockey",
-        "url": "https://en.wikipedia.org/wiki/Ice_hockey",
+        "name": "Wikipedia · Operation Linebacker II",
+        "url": "https://en.wikipedia.org/wiki/Operation_Linebacker_II",
         "calendarUrl": "https://en.wikipedia.org/wiki/December_30",
         "license": {
           "name": "CC BY-SA 4.0",
@@ -75,12 +129,12 @@
         }
       },
       "image": {
-        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/39/Pittsburgh_Penguins%2C_Washington_Capitals%2C_Bryan_Rust_%2833744033514%29.jpg/1280px-Pittsburgh_Penguins%2C_Washington_Capitals%2C_Bryan_Rust_%2833744033514%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-        "alt": "Picture from the Wikipedia article on Ice hockey.",
-        "credit": "Keith Allison from Hanover, MD, USA",
-        "source": "https://commons.wikimedia.org/wiki/File:Pittsburgh_Penguins,_Washington_Capitals,_Bryan_Rust_(33744033514).jpg",
-        "license": "CC BY-SA 2.0",
-        "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0"
+        "src": "https://upload.wikimedia.org/wikipedia/commons/b/b7/Nalty1.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+        "alt": "Picture from the Wikipedia article on Operation Linebacker II.",
+        "credit": "US Air Force Photo",
+        "source": "https://commons.wikimedia.org/wiki/File:Nalty1.jpg",
+        "license": "Public domain",
+        "licenseUrl": "https://commons.wikimedia.org/wiki/File:Nalty1.jpg"
       }
     }
   ]

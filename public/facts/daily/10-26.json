@@ -82,6 +82,60 @@
         "license": "Public domain",
         "licenseUrl": "https://commons.wikimedia.org/wiki/File:Partenza_da_Quarto.jpg"
       }
+    },
+    {
+      "id": "10-26-soyuz-3",
+      "date": "10-26",
+      "dateLabel": "26 October",
+      "category": "world",
+      "categoryName": "World",
+      "year": 1968,
+      "title": "Soyuz 3",
+      "body": "The Soyuz 3 mission achieves the first Soviet space rendezvous.",
+      "source": {
+        "name": "Wikipedia · Soyuz 3",
+        "url": "https://en.wikipedia.org/wiki/Soyuz_3",
+        "calendarUrl": "https://en.wikipedia.org/wiki/October_26",
+        "license": {
+          "name": "CC BY-SA 4.0",
+          "url": "https://creativecommons.org/licenses/by-sa/4.0/"
+        }
+      },
+      "image": {
+        "src": "https://upload.wikimedia.org/wikipedia/commons/6/6a/The_Soviet_Union_1968_CPA_3699_stamp_%28Pilot-Cosmonaut_of_the_USSR_Georgy_Beregovoy_and_Carrier_Rocket_Start%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+        "alt": "Picture from the Wikipedia article on Soyuz 3.",
+        "credit": "USSR Post",
+        "source": "https://commons.wikimedia.org/wiki/File:The_Soviet_Union_1968_CPA_3699_stamp_(Pilot-Cosmonaut_of_the_USSR_Georgy_Beregovoy_and_Carrier_Rocket_Start).jpg",
+        "license": "Public domain",
+        "licenseUrl": "https://commons.wikimedia.org/wiki/File:The_Soviet_Union_1968_CPA_3699_stamp_(Pilot-Cosmonaut_of_the_USSR_Georgy_Beregovoy_and_Carrier_Rocket_Start).jpg"
+      }
+    },
+    {
+      "id": "10-26-uluru",
+      "date": "10-26",
+      "dateLabel": "26 October",
+      "category": "world",
+      "categoryName": "World",
+      "year": 1985,
+      "title": "Uluru",
+      "body": "The Australian government returns ownership of Uluru to the local Pitjantjatjara Aboriginals.",
+      "source": {
+        "name": "Wikipedia · Uluru",
+        "url": "https://en.wikipedia.org/wiki/Uluru",
+        "calendarUrl": "https://en.wikipedia.org/wiki/October_26",
+        "license": {
+          "name": "CC BY-SA 4.0",
+          "url": "https://creativecommons.org/licenses/by-sa/4.0/"
+        }
+      },
+      "image": {
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a8/ULURU.jpg/1280px-ULURU.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "alt": "Picture from the Wikipedia article on Uluru.",
+        "credit": "Wikimedia Commons",
+        "source": "https://commons.wikimedia.org/wiki/File:ULURU.jpg",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0"
+      }
     }
   ]
 }

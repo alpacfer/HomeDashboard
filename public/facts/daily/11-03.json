@@ -82,6 +82,60 @@
         "license": "CC BY-SA 2.0",
         "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0"
       }
+    },
+    {
+      "id": "11-03-khan-yunis-massacre",
+      "date": "11-03",
+      "dateLabel": "3 November",
+      "category": "world",
+      "categoryName": "World",
+      "year": 1956,
+      "title": "Khan Yunis massacre",
+      "body": "The Khan Yunis killings by the Israel Defense Forces in Egyptian-controlled Gaza result in the deaths of 275 Palestinians.",
+      "source": {
+        "name": "Wikipedia · Khan Yunis massacre",
+        "url": "https://en.wikipedia.org/wiki/Khan_Yunis_massacre",
+        "calendarUrl": "https://en.wikipedia.org/wiki/November_3",
+        "license": {
+          "name": "CC BY-SA 4.0",
+          "url": "https://creativecommons.org/licenses/by-sa/4.0/"
+        }
+      },
+      "image": {
+        "src": "https://upload.wikimedia.org/wikipedia/commons/7/77/Khan_Yunis-1930s.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+        "alt": "Picture from the Wikipedia article on Khan Yunis massacre.",
+        "credit": "Israel Antiquities Authority",
+        "source": "https://commons.wikimedia.org/wiki/File:Khan_Yunis-1930s.jpg",
+        "license": "Public domain",
+        "licenseUrl": "https://commons.wikimedia.org/wiki/File:Khan_Yunis-1930s.jpg"
+      }
+    },
+    {
+      "id": "11-03-compact-of-free-association",
+      "date": "11-03",
+      "dateLabel": "3 November",
+      "category": "world",
+      "categoryName": "World",
+      "year": 1986,
+      "title": "Compact of Free Association",
+      "body": "The Compact of Free Association becomes law, granting the Federated States of Micronesia and the Marshall Islands independence from the United States.",
+      "source": {
+        "name": "Wikipedia · Compact of Free Association",
+        "url": "https://en.wikipedia.org/wiki/Compact_of_Free_Association",
+        "calendarUrl": "https://en.wikipedia.org/wiki/November_3",
+        "license": {
+          "name": "CC BY-SA 4.0",
+          "url": "https://creativecommons.org/licenses/by-sa/4.0/"
+        }
+      },
+      "image": {
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/9f/COFAOnTheGlobe.svg/1280px-COFAOnTheGlobe.svg.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "alt": "Picture from the Wikipedia article on Compact of Free Association.",
+        "credit": "Fephisto",
+        "source": "https://commons.wikimedia.org/wiki/File:COFAOnTheGlobe.svg",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0"
+      }
     }
   ]
 }

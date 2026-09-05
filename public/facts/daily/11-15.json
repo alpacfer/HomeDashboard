@@ -82,6 +82,60 @@
         "license": "Public domain",
         "licenseUrl": "https://commons.wikimedia.org/wiki/File:Cocoa_with_Santa_Claus_(51728473259).jpg"
       }
+    },
+    {
+      "id": "11-15-xbox-console",
+      "date": "11-15",
+      "dateLabel": "15 November",
+      "category": "tech",
+      "categoryName": "Tech",
+      "year": 2001,
+      "title": "Xbox",
+      "body": "Microsoft launches the Xbox game console in North America.",
+      "source": {
+        "name": "Wikipedia · Xbox (console)",
+        "url": "https://en.wikipedia.org/wiki/Xbox_(console)",
+        "calendarUrl": "https://en.wikipedia.org/wiki/November_15",
+        "license": {
+          "name": "CC BY-SA 4.0",
+          "url": "https://creativecommons.org/licenses/by-sa/4.0/"
+        }
+      },
+      "image": {
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/1a/Xbox-Console-wDuke-L.png/1280px-Xbox-Console-wDuke-L.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "alt": "Picture from the Wikipedia article on Xbox.",
+        "credit": "Remove white background",
+        "source": "https://commons.wikimedia.org/wiki/File:Xbox-Console-wDuke-L.png",
+        "license": "Public domain",
+        "licenseUrl": "https://commons.wikimedia.org/wiki/File:Xbox-Console-wDuke-L.png"
+      }
+    },
+    {
+      "id": "11-15-saint-petersburg-metro",
+      "date": "11-15",
+      "dateLabel": "15 November",
+      "category": "world",
+      "categoryName": "World",
+      "year": 1955,
+      "title": "Saint Petersburg Metro",
+      "body": "The first part of the Saint Petersburg Metro is opened.",
+      "source": {
+        "name": "Wikipedia · Saint Petersburg Metro",
+        "url": "https://en.wikipedia.org/wiki/Saint_Petersburg_Metro",
+        "calendarUrl": "https://en.wikipedia.org/wiki/November_15",
+        "license": {
+          "name": "CC BY-SA 4.0",
+          "url": "https://creativecommons.org/licenses/by-sa/4.0/"
+        }
+      },
+      "image": {
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e7/Metro_SPB_Line1_Narvskaya_pavilion.jpg/1280px-Metro_SPB_Line1_Narvskaya_pavilion.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "alt": "Picture from the Wikipedia article on Saint Petersburg Metro.",
+        "credit": "Alex 'Florstein' Fedorov",
+        "source": "https://commons.wikimedia.org/wiki/File:Metro_SPB_Line1_Narvskaya_pavilion.jpg",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0"
+      }
     }
   ]
 }

@@ -30,33 +30,6 @@
       }
     },
     {
-      "id": "08-05-knin",
-      "date": "08-05",
-      "dateLabel": "5 August",
-      "category": "world",
-      "categoryName": "World",
-      "year": 1995,
-      "title": "Knin",
-      "body": "The city of Knin, Croatia, a significant Serb stronghold, is taken by Croatian forces during Operation Storm. The date is celebrated in Croatia as Victory Day.",
-      "source": {
-        "name": "Wikipedia · Knin",
-        "url": "https://en.wikipedia.org/wiki/Knin",
-        "calendarUrl": "https://en.wikipedia.org/wiki/August_5",
-        "license": {
-          "name": "CC BY-SA 4.0",
-          "url": "https://creativecommons.org/licenses/by-sa/4.0/"
-        }
-      },
-      "image": {
-        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/0d/Knin_25.jpg/1280px-Knin_25.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-        "alt": "Picture from the Wikipedia article on Knin.",
-        "credit": "CroatianPalpatine",
-        "source": "https://commons.wikimedia.org/wiki/File:Knin_25.jpg",
-        "license": "CC BY-SA 4.0",
-        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0"
-      }
-    },
-    {
       "id": "08-05-mars-6",
       "date": "08-05",
       "dateLabel": "5 August",
@@ -81,6 +54,87 @@
         "source": "https://commons.wikimedia.org/wiki/File:Mars_6.jpg",
         "license": "Public domain",
         "licenseUrl": "https://commons.wikimedia.org/wiki/File:Mars_6.jpg"
+      }
+    },
+    {
+      "id": "08-05-cyrus-west-field",
+      "date": "08-05",
+      "dateLabel": "5 August",
+      "category": "tech",
+      "categoryName": "Tech",
+      "year": 1858,
+      "title": "Cyrus W. Field",
+      "body": "Cyrus West Field and others complete the first transatlantic telegraph cable after several unsuccessful attempts. It will operate for less than a month.",
+      "source": {
+        "name": "Wikipedia · Cyrus W. Field",
+        "url": "https://en.wikipedia.org/wiki/Cyrus_W._Field",
+        "calendarUrl": "https://en.wikipedia.org/wiki/August_5",
+        "license": {
+          "name": "CC BY-SA 4.0",
+          "url": "https://creativecommons.org/licenses/by-sa/4.0/"
+        }
+      },
+      "image": {
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f7/CyrusField4.jpg/1280px-CyrusField4.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "alt": "Picture from the Wikipedia article on Cyrus W. Field.",
+        "credit": "Napoleon Sarony",
+        "source": "https://commons.wikimedia.org/wiki/File:CyrusField4.jpg",
+        "license": "Public domain",
+        "licenseUrl": "https://commons.wikimedia.org/wiki/File:CyrusField4.jpg"
+      }
+    },
+    {
+      "id": "08-05-pacific-islands-forum",
+      "date": "08-05",
+      "dateLabel": "5 August",
+      "category": "world",
+      "categoryName": "World",
+      "year": 1971,
+      "title": "Pacific Islands Forum",
+      "body": "The first Pacific Islands Forum (then known as the \"South Pacific Forum\") is held in Wellington, New Zealand, with the aim of enhancing cooperation between the independent countries of the Pacific Ocean.",
+      "source": {
+        "name": "Wikipedia · Pacific Islands Forum",
+        "url": "https://en.wikipedia.org/wiki/Pacific_Islands_Forum",
+        "calendarUrl": "https://en.wikipedia.org/wiki/August_5",
+        "license": {
+          "name": "CC BY-SA 4.0",
+          "url": "https://creativecommons.org/licenses/by-sa/4.0/"
+        }
+      },
+      "image": {
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c1/Flag_of_the_Pacific_Islands_Forum.svg/1280px-Flag_of_the_Pacific_Islands_Forum.svg.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "alt": "Picture from the Wikipedia article on Pacific Islands Forum.",
+        "credit": "Zoltán Horváth",
+        "source": "https://commons.wikimedia.org/wiki/File:Flag_of_the_Pacific_Islands_Forum.svg",
+        "license": "Public domain",
+        "licenseUrl": "https://commons.wikimedia.org/wiki/File:Flag_of_the_Pacific_Islands_Forum.svg"
+      }
+    },
+    {
+      "id": "08-05-francis-ronalds",
+      "date": "08-05",
+      "dateLabel": "5 August",
+      "category": "tech",
+      "categoryName": "Tech",
+      "year": 1816,
+      "title": "Francis Ronalds",
+      "body": "The British Admiralty dismisses Francis Ronalds's new invention of the first working electric telegraph as \"wholly unnecessary\", preferring to continue using the semaphore.",
+      "source": {
+        "name": "Wikipedia · Francis Ronalds",
+        "url": "https://en.wikipedia.org/wiki/Francis_Ronalds",
+        "calendarUrl": "https://en.wikipedia.org/wiki/August_5",
+        "license": {
+          "name": "CC BY-SA 4.0",
+          "url": "https://creativecommons.org/licenses/by-sa/4.0/"
+        }
+      },
+      "image": {
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/30/Sir_Francis_Ronalds_by_Hugh_Carter.jpg/1280px-Sir_Francis_Ronalds_by_Hugh_Carter.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "alt": "Picture from the Wikipedia article on Francis Ronalds.",
+        "credit": "Hugh Carter",
+        "source": "https://commons.wikimedia.org/wiki/File:Sir_Francis_Ronalds_by_Hugh_Carter.jpg",
+        "license": "Public domain",
+        "licenseUrl": "https://commons.wikimedia.org/wiki/File:Sir_Francis_Ronalds_by_Hugh_Carter.jpg"
       }
     }
   ]

@@ -3,33 +3,6 @@
   "dateLabel": "20 October",
   "facts": [
     {
-      "id": "10-20-ladakh",
-      "date": "10-20",
-      "dateLabel": "20 October",
-      "category": "world",
-      "categoryName": "World",
-      "year": 1962,
-      "title": "Ladakh",
-      "body": "China launches simultaneous offensives in Ladakh and across the McMahon Line, igniting the Sino-Indian War.",
-      "source": {
-        "name": "Wikipedia · Ladakh",
-        "url": "https://en.wikipedia.org/wiki/Ladakh",
-        "calendarUrl": "https://en.wikipedia.org/wiki/October_20",
-        "license": {
-          "name": "CC BY-SA 4.0",
-          "url": "https://creativecommons.org/licenses/by-sa/4.0/"
-        }
-      },
-      "image": {
-        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/8d/Road_Padum_Zanskar_Range_Jun24_A7CR_00818.jpg/1280px-Road_Padum_Zanskar_Range_Jun24_A7CR_00818.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-        "alt": "Picture from the Wikipedia article on Ladakh.",
-        "credit": "This Photo was taken by Timothy A. Gonsalves. Feel free to use my photos, but please mention me as the author. I would much appreciate if you send me an email t",
-        "source": "https://commons.wikimedia.org/wiki/File:Road_Padum_Zanskar_Range_Jun24_A7CR_00818.jpg",
-        "license": "CC BY-SA 4.0",
-        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0"
-      }
-    },
-    {
       "id": "10-20-sydney-opera-house",
       "date": "10-20",
       "dateLabel": "20 October",
@@ -50,7 +23,7 @@
       "image": {
         "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a0/Sydney_Australia._%2821339175489%29.jpg/1280px-Sydney_Australia._%2821339175489%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
         "alt": "Picture from the Wikipedia article on Sydney Opera House.",
-        "credit": "Bernard Spragg. NZ from Christchurch, New Zealand",
+        "credit": "Bernard Spragg",
         "source": "https://commons.wikimedia.org/wiki/File:Sydney_Australia._(21339175489).jpg",
         "license": "CC0",
         "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/deed.en"
@@ -81,6 +54,87 @@
         "source": "https://commons.wikimedia.org/wiki/File:2dfdtfe.gif",
         "license": "CC BY-SA 3.0",
         "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0/"
+      }
+    },
+    {
+      "id": "10-20-johnny-bright-incident",
+      "date": "10-20",
+      "dateLabel": "20 October",
+      "category": "sport",
+      "categoryName": "Sport",
+      "year": 1951,
+      "title": "Johnny Bright incident",
+      "body": "The \"Johnny Bright incident\" occurs during a football game between the Drake Bulldogs and Oklahoma A&M Aggies.",
+      "source": {
+        "name": "Wikipedia · Johnny Bright incident",
+        "url": "https://en.wikipedia.org/wiki/Johnny_Bright_incident",
+        "calendarUrl": "https://en.wikipedia.org/wiki/October_20",
+        "license": {
+          "name": "CC BY-SA 4.0",
+          "url": "https://creativecommons.org/licenses/by-sa/4.0/"
+        }
+      },
+      "image": {
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/7c/Des_Moines_Register_-_Johnny_Bright_incident.jpg/1280px-Des_Moines_Register_-_Johnny_Bright_incident.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "alt": "Picture from the Wikipedia article on Johnny Bright incident.",
+        "credit": "w:Des Moines Register",
+        "source": "https://commons.wikimedia.org/wiki/File:Des_Moines_Register_-_Johnny_Bright_incident.jpg",
+        "license": "Public domain",
+        "licenseUrl": "https://commons.wikimedia.org/wiki/File:Des_Moines_Register_-_Johnny_Bright_incident.jpg"
+      }
+    },
+    {
+      "id": "10-20-space-shuttle-columbia",
+      "date": "10-20",
+      "dateLabel": "20 October",
+      "category": "space",
+      "categoryName": "Space",
+      "year": 1995,
+      "title": "Space Shuttle Columbia",
+      "body": "Space Shuttle Columbia launches on STS-73.",
+      "source": {
+        "name": "Wikipedia · Space Shuttle Columbia",
+        "url": "https://en.wikipedia.org/wiki/Space_Shuttle_Columbia",
+        "calendarUrl": "https://en.wikipedia.org/wiki/October_20",
+        "license": {
+          "name": "CC BY-SA 4.0",
+          "url": "https://creativecommons.org/licenses/by-sa/4.0/"
+        }
+      },
+      "image": {
+        "src": "https://upload.wikimedia.org/wikipedia/commons/2/26/Space_Shuttle_Columbia_lands_following_STS-62_on_18_March_1994._%28cropped%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+        "alt": "Picture from the Wikipedia article on Space Shuttle Columbia.",
+        "credit": "NASA",
+        "source": "https://commons.wikimedia.org/wiki/File:Space_Shuttle_Columbia_lands_following_STS-62_on_18_March_1994._(cropped).jpg",
+        "license": "Public domain",
+        "licenseUrl": "https://commons.wikimedia.org/wiki/File:Space_Shuttle_Columbia_lands_following_STS-62_on_18_March_1994._(cropped).jpg"
+      }
+    },
+    {
+      "id": "10-20-ladakh",
+      "date": "10-20",
+      "dateLabel": "20 October",
+      "category": "world",
+      "categoryName": "World",
+      "year": 1962,
+      "title": "Ladakh",
+      "body": "China launches simultaneous offensives in Ladakh and across the McMahon Line, igniting the Sino-Indian War.",
+      "source": {
+        "name": "Wikipedia · Ladakh",
+        "url": "https://en.wikipedia.org/wiki/Ladakh",
+        "calendarUrl": "https://en.wikipedia.org/wiki/October_20",
+        "license": {
+          "name": "CC BY-SA 4.0",
+          "url": "https://creativecommons.org/licenses/by-sa/4.0/"
+        }
+      },
+      "image": {
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/8d/Road_Padum_Zanskar_Range_Jun24_A7CR_00818.jpg/1280px-Road_Padum_Zanskar_Range_Jun24_A7CR_00818.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "alt": "Picture from the Wikipedia article on Ladakh.",
+        "credit": "Wikimedia Commons",
+        "source": "https://commons.wikimedia.org/wiki/File:Road_Padum_Zanskar_Range_Jun24_A7CR_00818.jpg",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0"
       }
     }
   ]

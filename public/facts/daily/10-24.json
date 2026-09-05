@@ -82,6 +82,60 @@
         "license": "CC0",
         "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/deed.en"
       }
+    },
+    {
+      "id": "10-24-deep-space-1",
+      "date": "10-24",
+      "dateLabel": "24 October",
+      "category": "space",
+      "categoryName": "Space",
+      "year": 1998,
+      "title": "Deep Space 1",
+      "body": "Deep Space 1 is launched to explore the asteroid belt and test new spacecraft technologies.",
+      "source": {
+        "name": "Wikipedia · Deep Space 1",
+        "url": "https://en.wikipedia.org/wiki/Deep_Space_1",
+        "calendarUrl": "https://en.wikipedia.org/wiki/October_24",
+        "license": {
+          "name": "CC BY-SA 4.0",
+          "url": "https://creativecommons.org/licenses/by-sa/4.0/"
+        }
+      },
+      "image": {
+        "src": "https://upload.wikimedia.org/wikipedia/commons/f/f5/Deep_Space_1_clean_%28PIA04242%29.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+        "alt": "Picture from the Wikipedia article on Deep Space 1.",
+        "credit": "NASA/JPL",
+        "source": "https://commons.wikimedia.org/wiki/File:Deep_Space_1_clean_(PIA04242).png",
+        "license": "Public domain",
+        "licenseUrl": "https://commons.wikimedia.org/wiki/File:Deep_Space_1_clean_(PIA04242).png"
+      }
+    },
+    {
+      "id": "10-24-v-2-no-13",
+      "date": "10-24",
+      "dateLabel": "24 October",
+      "category": "space",
+      "categoryName": "Space",
+      "year": 1946,
+      "title": "V-2 No. 13",
+      "body": "A camera on board the V-2 No. 13 rocket takes the first photograph of earth from outer space.",
+      "source": {
+        "name": "Wikipedia · V-2 No. 13",
+        "url": "https://en.wikipedia.org/wiki/V-2_No._13",
+        "calendarUrl": "https://en.wikipedia.org/wiki/October_24",
+        "license": {
+          "name": "CC BY-SA 4.0",
+          "url": "https://creativecommons.org/licenses/by-sa/4.0/"
+        }
+      },
+      "image": {
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/5b/First_photo_from_space.jpg/1280px-First_photo_from_space.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "alt": "Picture from the Wikipedia article on V-2 No. 13.",
+        "credit": "U.S. Army",
+        "source": "https://commons.wikimedia.org/wiki/File:First_photo_from_space.jpg",
+        "license": "Public domain",
+        "licenseUrl": "https://commons.wikimedia.org/wiki/File:First_photo_from_space.jpg"
+      }
     }
   ]
 }

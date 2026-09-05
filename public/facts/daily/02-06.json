@@ -30,33 +30,6 @@
       }
     },
     {
-      "id": "02-06-battle-of-grozny-1999-2000",
-      "date": "02-06",
-      "dateLabel": "6 February",
-      "category": "world",
-      "categoryName": "World",
-      "year": 2000,
-      "title": "Battle of Grozny",
-      "body": "Russia captures Grozny, Chechnya, forcing the separatist Chechen Republic of Ichkeria government into exile.",
-      "source": {
-        "name": "Wikipedia · Battle of Grozny (1999–2000)",
-        "url": "https://en.wikipedia.org/wiki/Battle_of_Grozny_(1999%E2%80%932000)",
-        "calendarUrl": "https://en.wikipedia.org/wiki/February_6",
-        "license": {
-          "name": "CC BY-SA 4.0",
-          "url": "https://creativecommons.org/licenses/by-sa/4.0/"
-        }
-      },
-      "image": {
-        "src": "https://upload.wikimedia.org/wikipedia/commons/0/08/Russian_troops_in_DUBAI-YURT.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
-        "alt": "Picture from the Wikipedia article on Battle of Grozny.",
-        "credit": "Uploaded on Flickr by Jesse",
-        "source": "https://commons.wikimedia.org/wiki/File:Russian_troops_in_DUBAI-YURT.jpg",
-        "license": "CC BY-SA 2.0",
-        "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0"
-      }
-    },
-    {
       "id": "02-06-spacex",
       "date": "02-06",
       "dateLabel": "6 February",
@@ -81,6 +54,87 @@
         "source": "https://commons.wikimedia.org/wiki/File:Starship_-_Flight_13_(Sunset).jpg",
         "license": "CC BY 2.0",
         "licenseUrl": "https://creativecommons.org/licenses/by/2.0"
+      }
+    },
+    {
+      "id": "02-06-mary-gaudron",
+      "date": "02-06",
+      "dateLabel": "6 February",
+      "category": "world",
+      "categoryName": "World",
+      "year": 1987,
+      "title": "Mary Gaudron",
+      "body": "Justice Mary Gaudron becomes the first woman to be appointed to the High Court of Australia.",
+      "source": {
+        "name": "Wikipedia · Mary Gaudron",
+        "url": "https://en.wikipedia.org/wiki/Mary_Gaudron",
+        "calendarUrl": "https://en.wikipedia.org/wiki/February_6",
+        "license": {
+          "name": "CC BY-SA 4.0",
+          "url": "https://creativecommons.org/licenses/by-sa/4.0/"
+        }
+      },
+      "image": {
+        "src": "https://upload.wikimedia.org/wikipedia/commons/9/9b/Mary_Gaudron_%282011%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+        "alt": "Picture from the Wikipedia article on Mary Gaudron.",
+        "credit": "Office of the Official Secretary to the…",
+        "source": "https://commons.wikimedia.org/wiki/File:Mary_Gaudron_(2011).jpg",
+        "license": "CC BY 3.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by/3.0"
+      }
+    },
+    {
+      "id": "02-06-polish-round-table-talks",
+      "date": "02-06",
+      "dateLabel": "6 February",
+      "category": "world",
+      "categoryName": "World",
+      "year": 1989,
+      "title": "Polish Round Table Agreement",
+      "body": "The Round Table Talks start in Poland, thus marking the beginning of the overthrow of communism in Eastern Europe.",
+      "source": {
+        "name": "Wikipedia · Polish Round Table Agreement",
+        "url": "https://en.wikipedia.org/wiki/Polish_Round_Table_Agreement",
+        "calendarUrl": "https://en.wikipedia.org/wiki/February_6",
+        "license": {
+          "name": "CC BY-SA 4.0",
+          "url": "https://creativecommons.org/licenses/by-sa/4.0/"
+        }
+      },
+      "image": {
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/7e/Okr%C4%85g%C5%82y_St%C3%B3%C5%82_Pa%C5%82ac_Prezydencki_w_Warszawie_2019.jpg/1280px-Okr%C4%85g%C5%82y_St%C3%B3%C5%82_Pa%C5%82ac_Prezydencki_w_Warszawie_2019.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "alt": "Picture from the Wikipedia article on Polish Round Table Agreement.",
+        "credit": "Adrian Grycuk",
+        "source": "https://commons.wikimedia.org/wiki/File:Okr%C4%85g%C5%82y_St%C3%B3%C5%82_Pa%C5%82ac_Prezydencki_w_Warszawie_2019.jpg",
+        "license": "CC BY-SA 3.0 pl",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0/pl/deed.en"
+      }
+    },
+    {
+      "id": "02-06-ronald-reagan-washington-national-airport",
+      "date": "02-06",
+      "dateLabel": "6 February",
+      "category": "world",
+      "categoryName": "World",
+      "year": 1998,
+      "title": "Ronald Reagan Washington National Airport",
+      "body": "Washington National Airport is renamed Ronald Reagan National Airport.",
+      "source": {
+        "name": "Wikipedia · Ronald Reagan Washington National Airport",
+        "url": "https://en.wikipedia.org/wiki/Ronald_Reagan_Washington_National_Airport",
+        "calendarUrl": "https://en.wikipedia.org/wiki/February_6",
+        "license": {
+          "name": "CC BY-SA 4.0",
+          "url": "https://creativecommons.org/licenses/by-sa/4.0/"
+        }
+      },
+      "image": {
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/1d/Ronald_Reagan_Washington_National_Airport_overhead_2023.png/1280px-Ronald_Reagan_Washington_National_Airport_overhead_2023.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "alt": "Picture from the Wikipedia article on Ronald Reagan Washington National Airport.",
+        "credit": "US Geological Survey via Earth Explorer",
+        "source": "https://commons.wikimedia.org/wiki/File:Ronald_Reagan_Washington_National_Airport_overhead_2023.png",
+        "license": "Public domain",
+        "licenseUrl": "https://commons.wikimedia.org/wiki/File:Ronald_Reagan_Washington_National_Airport_overhead_2023.png"
       }
     }
   ]

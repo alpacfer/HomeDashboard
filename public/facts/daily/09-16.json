@@ -23,7 +23,7 @@
       "image": {
         "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/8f/Inspiration4_Launch_%28210915-F-CG053-1004%29.jpg/1280px-Inspiration4_Launch_%28210915-F-CG053-1004%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
         "alt": "Picture from the Wikipedia article on Inspiration4.",
-        "credit": "U.S. Space Force Photo by Staff Sgt. JT Armstrong",
+        "credit": "U.S. Space Force Photo by Staff Sgt",
         "source": "https://commons.wikimedia.org/wiki/File:Inspiration4_Launch_(210915-F-CG053-1004).jpg",
         "license": "Public domain",
         "licenseUrl": "https://commons.wikimedia.org/wiki/File:Inspiration4_Launch_(210915-F-CG053-1004).jpg"
@@ -81,6 +81,60 @@
         "source": "https://commons.wikimedia.org/wiki/File:MET_Opera_(48047450723).jpg",
         "license": "CC BY 2.0",
         "licenseUrl": "https://creativecommons.org/licenses/by/2.0"
+      }
+    },
+    {
+      "id": "09-16-shavarsh-karapetyan",
+      "date": "09-16",
+      "dateLabel": "16 September",
+      "category": "sport",
+      "categoryName": "Sport",
+      "year": 1976,
+      "title": "Shavarsh Karapetyan",
+      "body": "Armenian champion swimmer Shavarsh Karapetyan saves 20 people from a trolleybus that had fallen into a Yerevan reservoir.",
+      "source": {
+        "name": "Wikipedia · Shavarsh Karapetyan",
+        "url": "https://en.wikipedia.org/wiki/Shavarsh_Karapetyan",
+        "calendarUrl": "https://en.wikipedia.org/wiki/September_16",
+        "license": {
+          "name": "CC BY-SA 4.0",
+          "url": "https://creativecommons.org/licenses/by-sa/4.0/"
+        }
+      },
+      "image": {
+        "src": "https://upload.wikimedia.org/wikipedia/commons/2/27/Shavarsh_Karapetyan_2014.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+        "alt": "Picture from the Wikipedia article on Shavarsh Karapetyan.",
+        "credit": "Wikimedia Commons",
+        "source": "https://commons.wikimedia.org/wiki/File:Shavarsh_Karapetyan_2014.jpg",
+        "license": "CC BY 3.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by/3.0"
+      }
+    },
+    {
+      "id": "09-16-mikoyan-mig-31",
+      "date": "09-16",
+      "dateLabel": "16 September",
+      "category": "world",
+      "categoryName": "World",
+      "year": 1975,
+      "title": "Mikoyan MiG-31",
+      "body": "The first prototype of the Mikoyan MiG-31 interceptor makes its maiden flight.",
+      "source": {
+        "name": "Wikipedia · Mikoyan MiG-31",
+        "url": "https://en.wikipedia.org/wiki/Mikoyan_MiG-31",
+        "calendarUrl": "https://en.wikipedia.org/wiki/September_16",
+        "license": {
+          "name": "CC BY-SA 4.0",
+          "url": "https://creativecommons.org/licenses/by-sa/4.0/"
+        }
+      },
+      "image": {
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/38/Russian_Air_Force_Mikoyan-Gurevich_MiG-31P.jpg/1280px-Russian_Air_Force_Mikoyan-Gurevich_MiG-31P.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "alt": "Picture from the Wikipedia article on Mikoyan MiG-31.",
+        "credit": "Dmitriy Pichugin",
+        "source": "https://commons.wikimedia.org/wiki/File:Russian_Air_Force_Mikoyan-Gurevich_MiG-31P.jpg",
+        "license": "GFDL 1.2",
+        "licenseUrl": "https://www.gnu.org/licenses/old-licenses/fdl-1.2.html"
       }
     }
   ]

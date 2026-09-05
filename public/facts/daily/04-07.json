@@ -47,10 +47,20 @@
           "url": "https://creativecommons.org/licenses/by-sa/4.0/"
         }
       },
+      "video": {
+        "src": "https://upload.wikimedia.org/wikipedia/commons/transcoded/f/f3/PIA26203-Mars-HorizonViews-OdysseyTHEMIS-20230509.webm/PIA26203-Mars-HorizonViews-OdysseyTHEMIS-20230509.webm.240p.vp9.webm",
+        "fallback": "https://upload.wikimedia.org/wikipedia/commons/transcoded/f/f3/PIA26203-Mars-HorizonViews-OdysseyTHEMIS-20230509.webm/PIA26203-Mars-HorizonViews-OdysseyTHEMIS-20230509.webm.360p.mpeg4.mov",
+        "poster": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f3/PIA26203-Mars-HorizonViews-OdysseyTHEMIS-20230509.webm/1280px--PIA26203-Mars-HorizonViews-OdysseyTHEMIS-20230509.webm.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo",
+        "seconds": 83,
+        "credit": "NASA/JPL-Caltech/ASU",
+        "source": "https://commons.wikimedia.org/wiki/File:PIA26203-Mars-HorizonViews-OdysseyTHEMIS-20230509.webm",
+        "license": "See file page",
+        "licenseUrl": "https://commons.wikimedia.org/wiki/File:PIA26203-Mars-HorizonViews-OdysseyTHEMIS-20230509.webm"
+      },
       "image": {
         "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/0e/Mars_Odyssey_spacecraft_model.png/1280px-Mars_Odyssey_spacecraft_model.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
         "alt": "Picture from the Wikipedia article on 2001 Mars Odyssey.",
-        "credit": "National Aeronautics and Space Administration (NASA)",
+        "credit": "NASA",
         "source": "https://commons.wikimedia.org/wiki/File:Mars_Odyssey_spacecraft_model.png",
         "license": "Public domain",
         "licenseUrl": "https://commons.wikimedia.org/wiki/File:Mars_Odyssey_spacecraft_model.png"
@@ -81,6 +91,60 @@
         "source": "https://commons.wikimedia.org/wiki/File:Booker_T_Washington_retouched_flattened-crop.jpg",
         "license": "Public domain",
         "licenseUrl": "https://commons.wikimedia.org/wiki/File:Booker_T_Washington_retouched_flattened-crop.jpg"
+      }
+    },
+    {
+      "id": "04-07-ludwig-van-beethoven",
+      "date": "04-07",
+      "dateLabel": "7 April",
+      "category": "culture",
+      "categoryName": "Culture",
+      "year": 1805,
+      "title": "Ludwig van Beethoven",
+      "body": "German composer Ludwig van Beethoven premieres his Third Symphony, at the Theater an der Wien in Vienna.",
+      "source": {
+        "name": "Wikipedia · Ludwig van Beethoven",
+        "url": "https://en.wikipedia.org/wiki/Ludwig_van_Beethoven",
+        "calendarUrl": "https://en.wikipedia.org/wiki/April_7",
+        "license": {
+          "name": "CC BY-SA 4.0",
+          "url": "https://creativecommons.org/licenses/by-sa/4.0/"
+        }
+      },
+      "image": {
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/6e/Joseph_Karl_Stieler%27s_Beethoven_mit_dem_Manuskript_der_Missa_solemnis.jpg/1280px-Joseph_Karl_Stieler%27s_Beethoven_mit_dem_Manuskript_der_Missa_solemnis.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "alt": "Picture from the Wikipedia article on Ludwig van Beethoven.",
+        "credit": "Joseph Karl Stieler",
+        "source": "https://commons.wikimedia.org/wiki/File:Joseph_Karl_Stieler%27s_Beethoven_mit_dem_Manuskript_der_Missa_solemnis.jpg",
+        "license": "Public domain",
+        "licenseUrl": "https://commons.wikimedia.org/wiki/File:Joseph_Karl_Stieler%27s_Beethoven_mit_dem_Manuskript_der_Missa_solemnis.jpg"
+      }
+    },
+    {
+      "id": "04-07-ibm-system-360",
+      "date": "04-07",
+      "dateLabel": "7 April",
+      "category": "tech",
+      "categoryName": "Tech",
+      "year": 1964,
+      "title": "IBM System/360",
+      "body": "IBM announces the System/360.",
+      "source": {
+        "name": "Wikipedia · IBM System/360",
+        "url": "https://en.wikipedia.org/wiki/IBM_System/360",
+        "calendarUrl": "https://en.wikipedia.org/wiki/April_7",
+        "license": {
+          "name": "CC BY-SA 4.0",
+          "url": "https://creativecommons.org/licenses/by-sa/4.0/"
+        }
+      },
+      "image": {
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b5/IBM_System_360_model_30_profile.agr.jpg/1280px-IBM_System_360_model_30_profile.agr.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "alt": "Picture from the Wikipedia article on IBM System/360.",
+        "credit": "ArnoldReinhold",
+        "source": "https://commons.wikimedia.org/wiki/File:IBM_System_360_model_30_profile.agr.jpg",
+        "license": "CC BY-SA 3.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0"
       }
     }
   ]

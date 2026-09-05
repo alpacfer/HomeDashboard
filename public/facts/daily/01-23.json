@@ -82,6 +82,60 @@
         "license": "Public domain",
         "licenseUrl": "https://commons.wikimedia.org/wiki/File:An_artist%27s_impression_of_a_Pioneer_spacecraft_on_its_way_to_interstellar_space.jpg"
       }
+    },
+    {
+      "id": "01-23-knesset",
+      "date": "01-23",
+      "dateLabel": "23 January",
+      "category": "world",
+      "categoryName": "World",
+      "year": 1950,
+      "title": "Knesset",
+      "body": "The Knesset resolves that Jerusalem is the capital of Israel.",
+      "source": {
+        "name": "Wikipedia · Knesset",
+        "url": "https://en.wikipedia.org/wiki/Knesset",
+        "calendarUrl": "https://en.wikipedia.org/wiki/January_23",
+        "license": {
+          "name": "CC BY-SA 4.0",
+          "url": "https://creativecommons.org/licenses/by-sa/4.0/"
+        }
+      },
+      "image": {
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/de/Israeli_Knesset_Current_Composition.svg/1280px-Israeli_Knesset_Current_Composition.svg.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "alt": "Picture from the Wikipedia article on Knesset.",
+        "credit": "User:אורי פרקש",
+        "source": "https://commons.wikimedia.org/wiki/File:Israeli_Knesset_Current_Composition.svg",
+        "license": "Public domain",
+        "licenseUrl": "https://commons.wikimedia.org/wiki/File:Israeli_Knesset_Current_Composition.svg"
+      }
+    },
+    {
+      "id": "01-23-walter-frederick-morrison",
+      "date": "01-23",
+      "dateLabel": "23 January",
+      "category": "world",
+      "categoryName": "World",
+      "year": 1957,
+      "title": "Walter Frederick Morrison",
+      "body": "American inventor Walter Frederick Morrison sells the rights to his flying disc to the Wham-O toy company, which later renames it the \"Frisbee\".",
+      "source": {
+        "name": "Wikipedia · Walter Frederick Morrison",
+        "url": "https://en.wikipedia.org/wiki/Walter_Frederick_Morrison",
+        "calendarUrl": "https://en.wikipedia.org/wiki/January_23",
+        "license": {
+          "name": "CC BY-SA 4.0",
+          "url": "https://creativecommons.org/licenses/by-sa/4.0/"
+        }
+      },
+      "image": {
+        "src": "https://upload.wikimedia.org/wikipedia/commons/d/d1/Walter_Frederick_Morrison.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+        "alt": "Picture from the Wikipedia article on Walter Frederick Morrison.",
+        "credit": "Unknown author",
+        "source": "https://commons.wikimedia.org/wiki/File:Walter_Frederick_Morrison.jpg",
+        "license": "Public domain",
+        "licenseUrl": "https://commons.wikimedia.org/wiki/File:Walter_Frederick_Morrison.jpg"
+      }
     }
   ]
 }

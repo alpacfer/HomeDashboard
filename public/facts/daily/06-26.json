@@ -3,6 +3,33 @@
   "dateLabel": "26 June",
   "facts": [
     {
+      "id": "06-26-william-shockley",
+      "date": "06-26",
+      "dateLabel": "26 June",
+      "category": "tech",
+      "categoryName": "Tech",
+      "year": 1948,
+      "title": "William Shockley",
+      "body": "William Shockley files the original patent for the grown-junction transistor, the first bipolar junction transistor.",
+      "source": {
+        "name": "Wikipedia · William Shockley",
+        "url": "https://en.wikipedia.org/wiki/William_Shockley",
+        "calendarUrl": "https://en.wikipedia.org/wiki/June_26",
+        "license": {
+          "name": "CC BY-SA 4.0",
+          "url": "https://creativecommons.org/licenses/by-sa/4.0/"
+        }
+      },
+      "image": {
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b8/Shockley.jpg/1280px-Shockley.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "alt": "Picture from the Wikipedia article on William Shockley.",
+        "credit": "Nobel foundation",
+        "source": "https://commons.wikimedia.org/wiki/File:Shockley.jpg",
+        "license": "Public domain",
+        "licenseUrl": "https://commons.wikimedia.org/wiki/File:Shockley.jpg"
+      }
+    },
+    {
       "id": "06-26-j-k-rowling",
       "date": "06-26",
       "dateLabel": "26 June",
@@ -27,6 +54,33 @@
         "source": "https://commons.wikimedia.org/wiki/File:J._K._Rowling_2010.jpg",
         "license": "CC BY 2.0",
         "licenseUrl": "https://creativecommons.org/licenses/by/2.0"
+      }
+    },
+    {
+      "id": "06-26-human-genome-project",
+      "date": "06-26",
+      "dateLabel": "26 June",
+      "category": "science",
+      "categoryName": "Science",
+      "year": 2000,
+      "title": "Human Genome Project",
+      "body": "The Human Genome Project announces the completion of a \"rough draft\" sequence.",
+      "source": {
+        "name": "Wikipedia · Human Genome Project",
+        "url": "https://en.wikipedia.org/wiki/Human_Genome_Project",
+        "calendarUrl": "https://en.wikipedia.org/wiki/June_26",
+        "license": {
+          "name": "CC BY-SA 4.0",
+          "url": "https://creativecommons.org/licenses/by-sa/4.0/"
+        }
+      },
+      "image": {
+        "src": "https://upload.wikimedia.org/wikipedia/commons/f/f3/Logo_HGP.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+        "alt": "Picture from the Wikipedia article on Human Genome Project.",
+        "credit": "U.S. Department of Energy",
+        "source": "https://commons.wikimedia.org/wiki/File:Logo_HGP.jpg",
+        "license": "Public domain",
+        "licenseUrl": "https://commons.wikimedia.org/wiki/File:Logo_HGP.jpg"
       }
     },
     {
@@ -57,17 +111,17 @@
       }
     },
     {
-      "id": "06-26-william-shockley",
+      "id": "06-26-1906-french-grand-prix",
       "date": "06-26",
       "dateLabel": "26 June",
-      "category": "tech",
-      "categoryName": "Tech",
-      "year": 1948,
-      "title": "William Shockley",
-      "body": "William Shockley files the original patent for the grown-junction transistor, the first bipolar junction transistor.",
+      "category": "sport",
+      "categoryName": "Sport",
+      "year": 1906,
+      "title": "1906 French Grand Prix",
+      "body": "The first Grand Prix motor race is held at Le Mans.",
       "source": {
-        "name": "Wikipedia · William Shockley",
-        "url": "https://en.wikipedia.org/wiki/William_Shockley",
+        "name": "Wikipedia · 1906 French Grand Prix",
+        "url": "https://en.wikipedia.org/wiki/1906_French_Grand_Prix",
         "calendarUrl": "https://en.wikipedia.org/wiki/June_26",
         "license": {
           "name": "CC BY-SA 4.0",
@@ -75,12 +129,12 @@
         }
       },
       "image": {
-        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b8/Shockley.jpg/1280px-Shockley.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-        "alt": "Picture from the Wikipedia article on William Shockley.",
-        "credit": "Nobel foundation",
-        "source": "https://commons.wikimedia.org/wiki/File:Shockley.jpg",
-        "license": "Public domain",
-        "licenseUrl": "https://commons.wikimedia.org/wiki/File:Shockley.jpg"
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/6e/Circuit_de_la_sarthe_1906c.svg/1280px-Circuit_de_la_sarthe_1906c.svg.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "alt": "Picture from the Wikipedia article on 1906 French Grand Prix.",
+        "credit": "Alexander Jones",
+        "source": "https://commons.wikimedia.org/wiki/File:Circuit_de_la_sarthe_1906c.svg",
+        "license": "CC0",
+        "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/deed.en"
       }
     }
   ]

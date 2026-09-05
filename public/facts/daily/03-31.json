@@ -23,37 +23,10 @@
       "image": {
         "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/cf/NorwalkCTRockLedgeRowayton08112007.JPG/1280px-NorwalkCTRockLedgeRowayton08112007.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
         "alt": "Picture from the Wikipedia article on Remington Rand.",
-        "credit": "Noroton at English Wikipedia",
+        "credit": "Noroton",
         "source": "https://commons.wikimedia.org/wiki/File:NorwalkCTRockLedgeRowayton08112007.JPG",
         "license": "CC BY-SA 3.0",
         "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0/"
-      }
-    },
-    {
-      "id": "03-31-nazi-germany",
-      "date": "03-31",
-      "dateLabel": "31 March",
-      "category": "world",
-      "categoryName": "World",
-      "year": 1945,
-      "title": "Nazi Germany",
-      "body": "A defecting German pilot delivers a Messerschmitt Me 262A-1, the world's first operational jet-powered fighter aircraft, to the Americans, the first to fall into Allied hands.",
-      "source": {
-        "name": "Wikipedia · Nazi Germany",
-        "url": "https://en.wikipedia.org/wiki/Nazi_Germany",
-        "calendarUrl": "https://en.wikipedia.org/wiki/March_31",
-        "license": {
-          "name": "CC BY-SA 4.0",
-          "url": "https://creativecommons.org/licenses/by-sa/4.0/"
-        }
-      },
-      "image": {
-        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/77/Flag_of_Germany_%281935%E2%80%931945%29.svg/1280px-Flag_of_Germany_%281935%E2%80%931945%29.svg.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-        "alt": "Picture from the Wikipedia article on Nazi Germany.",
-        "credit": "German government",
-        "source": "https://commons.wikimedia.org/wiki/File:Flag_of_Germany_(1935%E2%80%931945).svg",
-        "license": "Public domain",
-        "licenseUrl": "https://commons.wikimedia.org/wiki/File:Flag_of_Germany_(1935%E2%80%931945).svg"
       }
     },
     {
@@ -81,6 +54,87 @@
         "source": "https://commons.wikimedia.org/wiki/File:Poster_for_the_premiere_of_Rusalka_in_Prague,_31_March,_1901..jpg",
         "license": "Public domain",
         "licenseUrl": "https://commons.wikimedia.org/wiki/File:Poster_for_the_premiere_of_Rusalka_in_Prague,_31_March,_1901..jpg"
+      }
+    },
+    {
+      "id": "03-31-dwarf-planet",
+      "date": "03-31",
+      "dateLabel": "31 March",
+      "category": "science",
+      "categoryName": "Science",
+      "year": 2005,
+      "title": "Dwarf planet",
+      "body": "The dwarf planet Makemake is discovered by a team led by astronomer Michael E. Brown at the Palomar Observatory.",
+      "source": {
+        "name": "Wikipedia · Dwarf planet",
+        "url": "https://en.wikipedia.org/wiki/Dwarf_planet",
+        "calendarUrl": "https://en.wikipedia.org/wiki/March_31",
+        "license": {
+          "name": "CC BY-SA 4.0",
+          "url": "https://creativecommons.org/licenses/by-sa/4.0/"
+        }
+      },
+      "image": {
+        "src": "https://upload.wikimedia.org/wikipedia/commons/5/58/Ceres_-_RC3_-_Haulani_Crater_%2822381131691%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+        "alt": "Picture from the Wikipedia article on Dwarf planet.",
+        "credit": "Justin Cowart",
+        "source": "https://commons.wikimedia.org/wiki/File:Ceres_-_RC3_-_Haulani_Crater_(22381131691).jpg",
+        "license": "Public domain",
+        "licenseUrl": "https://commons.wikimedia.org/wiki/File:Ceres_-_RC3_-_Haulani_Crater_(22381131691).jpg"
+      }
+    },
+    {
+      "id": "03-31-scott-kelly-astronaut",
+      "date": "03-31",
+      "dateLabel": "31 March",
+      "category": "space",
+      "categoryName": "Space",
+      "year": 2016,
+      "title": "Scott Kelly",
+      "body": "NASA astronaut Scott Kelly and Roscosmos cosmonaut Mikhail Kornienko return to Earth after a yearlong mission at the International Space Station.",
+      "source": {
+        "name": "Wikipedia · Scott Kelly (astronaut)",
+        "url": "https://en.wikipedia.org/wiki/Scott_Kelly_(astronaut)",
+        "calendarUrl": "https://en.wikipedia.org/wiki/March_31",
+        "license": {
+          "name": "CC BY-SA 4.0",
+          "url": "https://creativecommons.org/licenses/by-sa/4.0/"
+        }
+      },
+      "image": {
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/61/Scott_Kelly%2C_Johnson_Space_Center_portrait%2C_2019_%28cropped%29_2.tif/lossy-page1-1280px-Scott_Kelly%2C_Johnson_Space_Center_portrait%2C_2019_%28cropped%29_2.tif.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "alt": "Picture from the Wikipedia article on Scott Kelly.",
+        "credit": "NASA, Johnson Space Center, Bill Ingalls",
+        "source": "https://commons.wikimedia.org/wiki/File:Scott_Kelly,_Johnson_Space_Center_portrait,_2019_(cropped)_2.tif",
+        "license": "Public domain",
+        "licenseUrl": "https://commons.wikimedia.org/wiki/File:Scott_Kelly,_Johnson_Space_Center_portrait,_2019_(cropped)_2.tif"
+      }
+    },
+    {
+      "id": "03-31-explorer-1",
+      "date": "03-31",
+      "dateLabel": "31 March",
+      "category": "space",
+      "categoryName": "Space",
+      "year": 1970,
+      "title": "Explorer 1",
+      "body": "Explorer 1 re-enters the Earth's atmosphere after 12 years in orbit.",
+      "source": {
+        "name": "Wikipedia · Explorer 1",
+        "url": "https://en.wikipedia.org/wiki/Explorer_1",
+        "calendarUrl": "https://en.wikipedia.org/wiki/March_31",
+        "license": {
+          "name": "CC BY-SA 4.0",
+          "url": "https://creativecommons.org/licenses/by-sa/4.0/"
+        }
+      },
+      "image": {
+        "src": "https://upload.wikimedia.org/wikipedia/commons/7/73/Explorer1.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+        "alt": "Picture from the Wikipedia article on Explorer 1.",
+        "credit": "NASA",
+        "source": "https://commons.wikimedia.org/wiki/File:Explorer1.jpg",
+        "license": "Public domain",
+        "licenseUrl": "https://commons.wikimedia.org/wiki/File:Explorer1.jpg"
       }
     }
   ]

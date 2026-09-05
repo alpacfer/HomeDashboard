@@ -82,6 +82,60 @@
         "license": "Public domain",
         "licenseUrl": "https://commons.wikimedia.org/wiki/File:George_Frideric_Handel_by_Balthasar_Denner.jpg"
       }
+    },
+    {
+      "id": "01-08-herman-hollerith",
+      "date": "01-08",
+      "dateLabel": "8 January",
+      "category": "tech",
+      "categoryName": "Tech",
+      "year": 1889,
+      "title": "Herman Hollerith",
+      "body": "Herman Hollerith is issued US patent #395,791 for the 'Art of Applying Statistics' — his punched card calculator.",
+      "source": {
+        "name": "Wikipedia · Herman Hollerith",
+        "url": "https://en.wikipedia.org/wiki/Herman_Hollerith",
+        "calendarUrl": "https://en.wikipedia.org/wiki/January_8",
+        "license": {
+          "name": "CC BY-SA 4.0",
+          "url": "https://creativecommons.org/licenses/by-sa/4.0/"
+        }
+      },
+      "image": {
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/42/Hollerith.jpg/1280px-Hollerith.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "alt": "Picture from the Wikipedia article on Herman Hollerith.",
+        "credit": "Charles Milton Bell",
+        "source": "https://commons.wikimedia.org/wiki/File:Hollerith.jpg",
+        "license": "Public domain",
+        "licenseUrl": "https://commons.wikimedia.org/wiki/File:Hollerith.jpg"
+      }
+    },
+    {
+      "id": "01-08-el-chapo",
+      "date": "01-08",
+      "dateLabel": "8 January",
+      "category": "curious",
+      "categoryName": "Curious",
+      "year": 2016,
+      "title": "El Chapo",
+      "body": "Joaquín Guzmán, widely regarded as the world's most powerful drug trafficker, is recaptured following his escape from a maximum security prison in Mexico.",
+      "source": {
+        "name": "Wikipedia · El Chapo",
+        "url": "https://en.wikipedia.org/wiki/El_Chapo",
+        "calendarUrl": "https://en.wikipedia.org/wiki/January_8",
+        "license": {
+          "name": "CC BY-SA 4.0",
+          "url": "https://creativecommons.org/licenses/by-sa/4.0/"
+        }
+      },
+      "image": {
+        "src": "https://upload.wikimedia.org/wikipedia/commons/8/80/Booking_photo_of_Joaquin_%E2%80%9CEl_Chapo%E2%80%9C_Guzman_%28front%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+        "alt": "Picture from the Wikipedia article on El Chapo.",
+        "credit": "DEA",
+        "source": "https://commons.wikimedia.org/wiki/File:Booking_photo_of_Joaquin_%E2%80%9CEl_Chapo%E2%80%9C_Guzman_(front).jpg",
+        "license": "Public domain",
+        "licenseUrl": "https://commons.wikimedia.org/wiki/File:Booking_photo_of_Joaquin_%E2%80%9CEl_Chapo%E2%80%9C_Guzman_(front).jpg"
+      }
     }
   ]
 }

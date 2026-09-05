@@ -23,7 +23,7 @@
       "image": {
         "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/9d/Thomas_Edison2.jpg/1280px-Thomas_Edison2.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
         "alt": "Picture from the Wikipedia article on Thomas Edison.",
-        "credit": "Louis Bachrach, Bachrach Studios, restored by Michel Vuijlsteke",
+        "credit": "Louis Bachrach, Bachrach Studios",
         "source": "https://commons.wikimedia.org/wiki/File:Thomas_Edison2.jpg",
         "license": "Public domain",
         "licenseUrl": "https://commons.wikimedia.org/wiki/File:Thomas_Edison2.jpg"
@@ -46,6 +46,16 @@
           "name": "CC BY-SA 4.0",
           "url": "https://creativecommons.org/licenses/by-sa/4.0/"
         }
+      },
+      "video": {
+        "src": "https://upload.wikimedia.org/wikipedia/commons/transcoded/2/2d/Ariane_5_10_2007.ogv/Ariane_5_10_2007.ogv.240p.vp9.webm",
+        "fallback": "https://upload.wikimedia.org/wikipedia/commons/transcoded/2/2d/Ariane_5_10_2007.ogv/Ariane_5_10_2007.ogv.360p.mpeg4.mov",
+        "poster": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/2d/Ariane_5_10_2007.ogv/500px--Ariane_5_10_2007.ogv.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo",
+        "seconds": 98,
+        "credit": "Arria Belli",
+        "source": "https://commons.wikimedia.org/wiki/File:Ariane_5_10_2007.ogv",
+        "license": "CC BY-SA 3.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0"
       },
       "image": {
         "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/4f/Ariane_5_with_James_Webb_Space_Telescope_Prelaunch_%2851773093465%29.jpg/1280px-Ariane_5_with_James_Webb_Space_Telescope_Prelaunch_%2851773093465%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
@@ -77,10 +87,64 @@
       "image": {
         "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d6/Mother_Teresa_1.jpg/1280px-Mother_Teresa_1.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
         "alt": "Picture from the Wikipedia article on Mother Teresa.",
-        "credit": "Kingkongphoto & www.celebrity-photos.com from Laurel Maryland, USA",
+        "credit": "Kingkongphoto & www.celebrity-photos.com",
         "source": "https://commons.wikimedia.org/wiki/File:Mother_Teresa_1.jpg",
         "license": "CC BY-SA 2.0",
         "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0"
+      }
+    },
+    {
+      "id": "01-25-blue-ribbon-sports",
+      "date": "01-25",
+      "dateLabel": "25 January",
+      "category": "sport",
+      "categoryName": "Sport",
+      "year": 1964,
+      "title": "Nike, Inc.",
+      "body": "Blue Ribbon Sports, which would later become Nike, is founded by University of Oregon track and field athletes.",
+      "source": {
+        "name": "Wikipedia · Nike, Inc.",
+        "url": "https://en.wikipedia.org/wiki/Nike,_Inc.",
+        "calendarUrl": "https://en.wikipedia.org/wiki/January_25",
+        "license": {
+          "name": "CC BY-SA 4.0",
+          "url": "https://creativecommons.org/licenses/by-sa/4.0/"
+        }
+      },
+      "image": {
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d3/Nike_Campus%2C_Beaverton_-_DPLA_-_ffa63f1bbaf5cd21aeada3d3978db2b0.jpg/1280px-Nike_Campus%2C_Beaverton_-_DPLA_-_ffa63f1bbaf5cd21aeada3d3978db2b0.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "alt": "Picture from the Wikipedia article on Nike, Inc..",
+        "credit": "Gary Halvorson, Oregon State Archives",
+        "source": "https://commons.wikimedia.org/wiki/File:Nike_Campus,_Beaverton_-_DPLA_-_ffa63f1bbaf5cd21aeada3d3978db2b0.jpg",
+        "license": "CC BY 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by/4.0"
+      }
+    },
+    {
+      "id": "01-25-clementine-spacecraft",
+      "date": "01-25",
+      "dateLabel": "25 January",
+      "category": "space",
+      "categoryName": "Space",
+      "year": 1994,
+      "title": "Clementine",
+      "body": "The spacecraft Clementine by BMDO and NASA is launched.",
+      "source": {
+        "name": "Wikipedia · Clementine (spacecraft)",
+        "url": "https://en.wikipedia.org/wiki/Clementine_(spacecraft)",
+        "calendarUrl": "https://en.wikipedia.org/wiki/January_25",
+        "license": {
+          "name": "CC BY-SA 4.0",
+          "url": "https://creativecommons.org/licenses/by-sa/4.0/"
+        }
+      },
+      "image": {
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a2/Clementine_lunar.jpg/1280px-Clementine_lunar.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "alt": "Picture from the Wikipedia article on Clementine.",
+        "credit": "U.S. Naval Research Laboratory",
+        "source": "https://commons.wikimedia.org/wiki/File:Clementine_lunar.jpg",
+        "license": "Public domain",
+        "licenseUrl": "https://commons.wikimedia.org/wiki/File:Clementine_lunar.jpg"
       }
     }
   ]

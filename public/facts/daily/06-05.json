@@ -3,6 +3,33 @@
   "dateLabel": "5 June",
   "facts": [
     {
+      "id": "06-05-nintendo-switch-2",
+      "date": "06-05",
+      "dateLabel": "5 June",
+      "category": "tech",
+      "categoryName": "Tech",
+      "year": 2025,
+      "title": "Nintendo Switch 2",
+      "body": "The Nintendo Switch 2 video game console is released worldwide.",
+      "source": {
+        "name": "Wikipedia · Nintendo Switch 2",
+        "url": "https://en.wikipedia.org/wiki/Nintendo_Switch_2",
+        "calendarUrl": "https://en.wikipedia.org/wiki/June_5",
+        "license": {
+          "name": "CC BY-SA 4.0",
+          "url": "https://creativecommons.org/licenses/by-sa/4.0/"
+        }
+      },
+      "image": {
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c9/Nintendo_Switch_2_logo.svg/1280px-Nintendo_Switch_2_logo.svg.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "alt": "Picture from the Wikipedia article on Nintendo Switch 2.",
+        "credit": "Nintendo",
+        "source": "https://commons.wikimedia.org/wiki/File:Nintendo_Switch_2_logo.svg",
+        "license": "Public domain",
+        "licenseUrl": "https://commons.wikimedia.org/wiki/File:Nintendo_Switch_2_logo.svg"
+      }
+    },
+    {
       "id": "06-05-elvis-presley",
       "date": "06-05",
       "dateLabel": "5 June",
@@ -23,24 +50,24 @@
       "image": {
         "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/99/Elvis_Presley_promoting_Jailhouse_Rock.jpg/1280px-Elvis_Presley_promoting_Jailhouse_Rock.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
         "alt": "Picture from the Wikipedia article on Elvis Presley.",
-        "credit": "Metro-Goldwyn-Mayer, Inc. Reproduction Number: LC-USZ6-2067 Location: NYWTS -- BIOG",
+        "credit": "Metro-Goldwyn-Mayer",
         "source": "https://commons.wikimedia.org/wiki/File:Elvis_Presley_promoting_Jailhouse_Rock.jpg",
         "license": "Public domain",
         "licenseUrl": "https://commons.wikimedia.org/wiki/File:Elvis_Presley_promoting_Jailhouse_Rock.jpg"
       }
     },
     {
-      "id": "06-05-ayatollah",
+      "id": "06-05-boeing-starliner",
       "date": "06-05",
       "dateLabel": "5 June",
-      "category": "world",
-      "categoryName": "World",
-      "year": 1963,
-      "title": "Ayatollah",
-      "body": "Protests against the arrest of Ayatollah Ruhollah Khomeini by the Shah of Iran, Mohammad Reza Pahlavi. In several cities, masses of angry demonstrators are confronted by tanks and paratroopers.",
+      "category": "space",
+      "categoryName": "Space",
+      "year": 2024,
+      "title": "Boeing Starliner",
+      "body": "The Boeing Starliner is launched on its first crewed flight, carrying astronauts Barry Wilmore and Sunita Williams to the International Space Station.",
       "source": {
-        "name": "Wikipedia · Ayatollah",
-        "url": "https://en.wikipedia.org/wiki/Ayatollah",
+        "name": "Wikipedia · Boeing Starliner",
+        "url": "https://en.wikipedia.org/wiki/Boeing_Starliner",
         "calendarUrl": "https://en.wikipedia.org/wiki/June_5",
         "license": {
           "name": "CC BY-SA 4.0",
@@ -48,12 +75,39 @@
         }
       },
       "image": {
-        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/ed/Grand_Ayatollahs_Qom_%D9%81%D8%AA%D9%88%DA%A9%D9%84%D8%A7%DA%98%D8%8C_%D8%A2%DB%8C%D8%AA_%D8%A7%D9%84%D9%84%D9%87_%D9%87%D8%A7%DB%8C_%D8%A7%DB%8C%D8%B1%D8%A7%D9%86-%D9%82%D9%85_02.jpg/1280px-Grand_Ayatollahs_Qom_%D9%81%D8%AA%D9%88%DA%A9%D9%84%D8%A7%DA%98%D8%8C_%D8%A2%DB%8C%D8%AA_%D8%A7%D9%84%D9%84%D9%87_%D9%87%D8%A7%DB%8C_%D8%A7%DB%8C%D8%B1%D8%A7%D9%86-%D9%82%D9%85_02.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-        "alt": "Picture from the Wikipedia article on Ayatollah.",
-        "credit": "Mostafameraji",
-        "source": "https://commons.wikimedia.org/wiki/File:Grand_Ayatollahs_Qom_%D9%81%D8%AA%D9%88%DA%A9%D9%84%D8%A7%DA%98%D8%8C_%D8%A2%DB%8C%D8%AA_%D8%A7%D9%84%D9%84%D9%87_%D9%87%D8%A7%DB%8C_%D8%A7%DB%8C%D8%B1%D8%A7%D9%86-%D9%82%D9%85_02.jpg",
-        "license": "CC BY-SA 4.0",
-        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0"
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d3/Boeing%27s_Starliner_crew_ship_approaches_the_space_station_%28iss067e066735%29_%28cropped%29.jpg/1280px-Boeing%27s_Starliner_crew_ship_approaches_the_space_station_%28iss067e066735%29_%28cropped%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "alt": "Picture from the Wikipedia article on Boeing Starliner.",
+        "credit": "NASA, Johnson Space Center",
+        "source": "https://commons.wikimedia.org/wiki/File:Boeing%27s_Starliner_crew_ship_approaches_the_space_station_(iss067e066735)_(cropped).jpg",
+        "license": "Public domain",
+        "licenseUrl": "https://commons.wikimedia.org/wiki/File:Boeing%27s_Starliner_crew_ship_approaches_the_space_station_(iss067e066735)_(cropped).jpg"
+      }
+    },
+    {
+      "id": "06-05-suez-canal",
+      "date": "06-05",
+      "dateLabel": "5 June",
+      "category": "world",
+      "categoryName": "World",
+      "year": 1975,
+      "title": "Suez Canal",
+      "body": "The Suez Canal opens for the first time since the Six-Day War.",
+      "source": {
+        "name": "Wikipedia · Suez Canal",
+        "url": "https://en.wikipedia.org/wiki/Suez_Canal",
+        "calendarUrl": "https://en.wikipedia.org/wiki/June_5",
+        "license": {
+          "name": "CC BY-SA 4.0",
+          "url": "https://creativecommons.org/licenses/by-sa/4.0/"
+        }
+      },
+      "image": {
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c9/Iss016e019375.jpg/1280px-Iss016e019375.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "alt": "Picture from the Wikipedia article on Suez Canal.",
+        "credit": "NASA",
+        "source": "https://commons.wikimedia.org/wiki/File:Iss016e019375.jpg",
+        "license": "Public domain",
+        "licenseUrl": "https://commons.wikimedia.org/wiki/File:Iss016e019375.jpg"
       }
     },
     {

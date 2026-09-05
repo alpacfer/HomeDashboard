@@ -23,10 +23,64 @@
       "image": {
         "src": "https://upload.wikimedia.org/wikipedia/commons/6/63/Eris_and_moon_Dysnomia_JWST_NIRCam.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
         "alt": "Picture from the Wikipedia article on Eris.",
-        "credit": "NASA/ESA/CSA JWST NIRCam; Ana Carolina de Souza Feliciano et al. & Melina Thévenot",
+        "credit": "NASA",
         "source": "https://commons.wikimedia.org/wiki/File:Eris_and_moon_Dysnomia_JWST_NIRCam.jpg",
         "license": "CC BY-SA 4.0",
         "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0"
+      }
+    },
+    {
+      "id": "01-05-richard-nixon",
+      "date": "01-05",
+      "dateLabel": "5 January",
+      "category": "space",
+      "categoryName": "Space",
+      "year": 1972,
+      "title": "Richard Nixon",
+      "body": "US President Richard Nixon announces the Space Shuttle program.",
+      "source": {
+        "name": "Wikipedia · Richard Nixon",
+        "url": "https://en.wikipedia.org/wiki/Richard_Nixon",
+        "calendarUrl": "https://en.wikipedia.org/wiki/January_5",
+        "license": {
+          "name": "CC BY-SA 4.0",
+          "url": "https://creativecommons.org/licenses/by-sa/4.0/"
+        }
+      },
+      "image": {
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a6/Richard_Nixon_presidential_portrait_%282%29.jpg/1280px-Richard_Nixon_presidential_portrait_%282%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "alt": "Picture from the Wikipedia article on Richard Nixon.",
+        "credit": "Department of Defense",
+        "source": "https://commons.wikimedia.org/wiki/File:Richard_Nixon_presidential_portrait_(2).jpg",
+        "license": "Public domain",
+        "licenseUrl": "https://commons.wikimedia.org/wiki/File:Richard_Nixon_presidential_portrait_(2).jpg"
+      }
+    },
+    {
+      "id": "01-05-nellie-tayloe-ross",
+      "date": "01-05",
+      "dateLabel": "5 January",
+      "category": "world",
+      "categoryName": "World",
+      "year": 1925,
+      "title": "Nellie Tayloe Ross",
+      "body": "Nellie Tayloe Ross of Wyoming becomes the first female governor in the United States.",
+      "source": {
+        "name": "Wikipedia · Nellie Tayloe Ross",
+        "url": "https://en.wikipedia.org/wiki/Nellie_Tayloe_Ross",
+        "calendarUrl": "https://en.wikipedia.org/wiki/January_5",
+        "license": {
+          "name": "CC BY-SA 4.0",
+          "url": "https://creativecommons.org/licenses/by-sa/4.0/"
+        }
+      },
+      "image": {
+        "src": "https://upload.wikimedia.org/wikipedia/commons/d/d6/Nellie_Tayloe_Ross.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+        "alt": "Picture from the Wikipedia article on Nellie Tayloe Ross.",
+        "credit": "Wikimedia Commons",
+        "source": "https://commons.wikimedia.org/wiki/File:Nellie_Tayloe_Ross.jpg",
+        "license": "Public domain",
+        "licenseUrl": "https://commons.wikimedia.org/wiki/File:Nellie_Tayloe_Ross.jpg"
       }
     },
     {
@@ -50,24 +104,24 @@
       "image": {
         "src": "https://upload.wikimedia.org/wikipedia/commons/5/50/Tskhinval.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
         "alt": "Picture from the Wikipedia article on Tskhinvali.",
-        "credit": "Juliet Kozaeva @ Cominf.org",
+        "credit": "Juliet",
         "source": "https://commons.wikimedia.org/wiki/File:Tskhinval.jpg",
         "license": "CC BY-SA 3.0",
         "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0"
       }
     },
     {
-      "id": "01-05-waiting-for-godot",
+      "id": "01-05-amy-johnson",
       "date": "01-05",
       "dateLabel": "5 January",
       "category": "world",
       "categoryName": "World",
-      "year": 1953,
-      "title": "Waiting for Godot",
-      "body": "The play Waiting for Godot by Samuel Beckett receives its première in Paris.",
+      "year": 1941,
+      "title": "Amy Johnson",
+      "body": "Amy Johnson, a 37-year-old pilot and the first woman to fly solo from London to Australia, disappears after bailing out of her plane over the River Thames, and is presumed dead.",
       "source": {
-        "name": "Wikipedia · Waiting for Godot",
-        "url": "https://en.wikipedia.org/wiki/Waiting_for_Godot",
+        "name": "Wikipedia · Amy Johnson",
+        "url": "https://en.wikipedia.org/wiki/Amy_Johnson",
         "calendarUrl": "https://en.wikipedia.org/wiki/January_5",
         "license": {
           "name": "CC BY-SA 4.0",
@@ -75,12 +129,12 @@
         }
       },
       "image": {
-        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d6/En_attendant_Godot%2C_Festival_d%27Avignon%2C_1978.jpeg/1280px-En_attendant_Godot%2C_Festival_d%27Avignon%2C_1978.jpeg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-        "alt": "Picture from the Wikipedia article on Waiting for Godot.",
-        "credit": "Fernand Michaud",
-        "source": "https://commons.wikimedia.org/wiki/File:En_attendant_Godot,_Festival_d%27Avignon,_1978.jpeg",
-        "license": "CC0",
-        "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/deed.en"
+        "src": "https://upload.wikimedia.org/wikipedia/commons/b/b0/Amy_Johnson_%28Our_Generation%2C_1938%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+        "alt": "Picture from the Wikipedia article on Amy Johnson.",
+        "credit": "Andy Dingley",
+        "source": "https://commons.wikimedia.org/wiki/File:Amy_Johnson_(Our_Generation,_1938).jpg",
+        "license": "Public domain",
+        "licenseUrl": "https://commons.wikimedia.org/wiki/File:Amy_Johnson_(Our_Generation,_1938).jpg"
       }
     }
   ]

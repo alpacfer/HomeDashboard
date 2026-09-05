@@ -50,7 +50,7 @@
       "image": {
         "src": "https://upload.wikimedia.org/wikipedia/commons/3/3e/John_Carlos%2C_Tommie_Smith%2C_Peter_Norman_1968cr.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
         "alt": "Picture from the Wikipedia article on 1968 Olympics Black Power salute.",
-        "credit": "Angelo Cozzi (Mondadori Publishers)",
+        "credit": "Angelo Cozzi",
         "source": "https://commons.wikimedia.org/wiki/File:John_Carlos,_Tommie_Smith,_Peter_Norman_1968cr.jpg",
         "license": "Public domain",
         "licenseUrl": "https://commons.wikimedia.org/wiki/File:John_Carlos,_Tommie_Smith,_Peter_Norman_1968cr.jpg"
@@ -77,10 +77,64 @@
       "image": {
         "src": "https://upload.wikimedia.org/wikipedia/commons/6/65/Pope_John_Paul_II_1991_%28cropped%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
         "alt": "Picture from the Wikipedia article on October 1978 conclave.",
-        "credit": "Photo by White House",
+        "credit": "White House",
         "source": "https://commons.wikimedia.org/wiki/File:Pope_John_Paul_II_1991_(cropped).jpg",
         "license": "Public domain",
         "licenseUrl": "https://commons.wikimedia.org/wiki/File:Pope_John_Paul_II_1991_(cropped).jpg"
+      }
+    },
+    {
+      "id": "10-16-walt-disney",
+      "date": "10-16",
+      "dateLabel": "16 October",
+      "category": "culture",
+      "categoryName": "Culture",
+      "year": 1923,
+      "title": "Walt Disney",
+      "body": "Walt Disney and his brother, Roy, found the Disney Brothers Cartoon Studio, today known as The Walt Disney Company.",
+      "source": {
+        "name": "Wikipedia · Walt Disney",
+        "url": "https://en.wikipedia.org/wiki/Walt_Disney",
+        "calendarUrl": "https://en.wikipedia.org/wiki/October_16",
+        "license": {
+          "name": "CC BY-SA 4.0",
+          "url": "https://creativecommons.org/licenses/by-sa/4.0/"
+        }
+      },
+      "image": {
+        "src": "https://upload.wikimedia.org/wikipedia/commons/5/50/Walt_Disney_1946_%28cropped2%29.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+        "alt": "Picture from the Wikipedia article on Walt Disney.",
+        "credit": "Boy Scouts of America",
+        "source": "https://commons.wikimedia.org/wiki/File:Walt_Disney_1946_(cropped2).JPG",
+        "license": "Public domain",
+        "licenseUrl": "https://commons.wikimedia.org/wiki/File:Walt_Disney_1946_(cropped2).JPG"
+      }
+    },
+    {
+      "id": "10-16-william-whiston",
+      "date": "10-16",
+      "dateLabel": "16 October",
+      "category": "space",
+      "categoryName": "Space",
+      "year": 1736,
+      "title": "William Whiston",
+      "body": "Mathematician William Whiston's predicted comet fails to strike the Earth.",
+      "source": {
+        "name": "Wikipedia · William Whiston",
+        "url": "https://en.wikipedia.org/wiki/William_Whiston",
+        "calendarUrl": "https://en.wikipedia.org/wiki/October_16",
+        "license": {
+          "name": "CC BY-SA 4.0",
+          "url": "https://creativecommons.org/licenses/by-sa/4.0/"
+        }
+      },
+      "image": {
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e1/William_Whiston_by_Sarah_Hoadly.jpg/1280px-William_Whiston_by_Sarah_Hoadly.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "alt": "Picture from the Wikipedia article on William Whiston.",
+        "credit": "after Sarah Hoadly",
+        "source": "https://commons.wikimedia.org/wiki/File:William_Whiston_by_Sarah_Hoadly.jpg",
+        "license": "Public domain",
+        "licenseUrl": "https://commons.wikimedia.org/wiki/File:William_Whiston_by_Sarah_Hoadly.jpg"
       }
     }
   ]

@@ -57,6 +57,60 @@
       }
     },
     {
+      "id": "05-06-mosque",
+      "date": "05-06",
+      "dateLabel": "6 May",
+      "category": "world",
+      "categoryName": "World",
+      "year": 2001,
+      "title": "Mosque",
+      "body": "During a trip to Syria, Pope John Paul II becomes the first pope to enter a mosque.",
+      "source": {
+        "name": "Wikipedia · Mosque",
+        "url": "https://en.wikipedia.org/wiki/Mosque",
+        "calendarUrl": "https://en.wikipedia.org/wiki/May_6",
+        "license": {
+          "name": "CC BY-SA 4.0",
+          "url": "https://creativecommons.org/licenses/by-sa/4.0/"
+        }
+      },
+      "image": {
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/04/Masjid_e_Nabawi_Interior_2.jpg/1280px-Masjid_e_Nabawi_Interior_2.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "alt": "Picture from the Wikipedia article on Mosque.",
+        "credit": "King Eliot",
+        "source": "https://commons.wikimedia.org/wiki/File:Masjid_e_Nabawi_Interior_2.jpg",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0"
+      }
+    },
+    {
+      "id": "05-06-electronic-delay-storage-automatic-calculator",
+      "date": "05-06",
+      "dateLabel": "6 May",
+      "category": "tech",
+      "categoryName": "Tech",
+      "year": 1949,
+      "title": "EDSAC",
+      "body": "EDSAC, the first practical electronic digital stored-program computer, runs its first operation.",
+      "source": {
+        "name": "Wikipedia · EDSAC",
+        "url": "https://en.wikipedia.org/wiki/EDSAC",
+        "calendarUrl": "https://en.wikipedia.org/wiki/May_6",
+        "license": {
+          "name": "CC BY-SA 4.0",
+          "url": "https://creativecommons.org/licenses/by-sa/4.0/"
+        }
+      },
+      "image": {
+        "src": "https://upload.wikimedia.org/wikipedia/commons/2/22/EDSAC_%2819%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+        "alt": "Picture from the Wikipedia article on EDSAC.",
+        "credit": "Wikimedia Commons",
+        "source": "https://commons.wikimedia.org/wiki/File:EDSAC_(19).jpg",
+        "license": "CC BY 2.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by/2.0"
+      }
+    },
+    {
       "id": "05-06-john-steinbeck",
       "date": "05-06",
       "dateLabel": "6 May",
@@ -77,7 +131,7 @@
       "image": {
         "src": "https://upload.wikimedia.org/wikipedia/commons/d/d7/John_Steinbeck_1939_%28cropped%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
         "alt": "Picture from the Wikipedia article on John Steinbeck.",
-        "credit": "McFadden Publications, Inc.; no photographer credited; photo likely the work of Sonya Noskowiak, as Steinbeck is wearing the same clothes from her 1935 studio s",
+        "credit": "McFadden Publications, Inc",
         "source": "https://commons.wikimedia.org/wiki/File:John_Steinbeck_1939_(cropped).jpg",
         "license": "Public domain",
         "licenseUrl": "https://commons.wikimedia.org/wiki/File:John_Steinbeck_1939_(cropped).jpg"

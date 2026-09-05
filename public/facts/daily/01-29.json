@@ -3,33 +3,6 @@
   "dateLabel": "29 January",
   "facts": [
     {
-      "id": "01-29-hungary-south-korea-relations",
-      "date": "01-29",
-      "dateLabel": "29 January",
-      "category": "world",
-      "categoryName": "World",
-      "year": 1989,
-      "title": "Hungary–South Korea relations",
-      "body": "Hungary establishes diplomatic relations with South Korea, making it the first Eastern Bloc nation to do so.",
-      "source": {
-        "name": "Wikipedia · Hungary–South Korea relations",
-        "url": "https://en.wikipedia.org/wiki/Hungary%E2%80%93South_Korea_relations",
-        "calendarUrl": "https://en.wikipedia.org/wiki/January_29",
-        "license": {
-          "name": "CC BY-SA 4.0",
-          "url": "https://creativecommons.org/licenses/by-sa/4.0/"
-        }
-      },
-      "image": {
-        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/8d/Hungary_South_Korea_Locator.png/1280px-Hungary_South_Korea_Locator.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-        "alt": "Picture from the Wikipedia article on Hungary–South Korea relations.",
-        "credit": "Aridd at English Wikipedia",
-        "source": "https://commons.wikimedia.org/wiki/File:Hungary_South_Korea_Locator.png",
-        "license": "Public domain",
-        "licenseUrl": "https://commons.wikimedia.org/wiki/File:Hungary_South_Korea_Locator.png"
-      }
-    },
-    {
       "id": "01-29-the-raven",
       "date": "01-29",
       "dateLabel": "29 January",
@@ -77,10 +50,91 @@
       "image": {
         "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/95/Carl_Benz_circa_1920.jpg/1280px-Carl_Benz_circa_1920.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
         "alt": "Picture from the Wikipedia article on Carl Benz.",
-        "credit": "Unknown (same photo credited to various stock photo agencies. The copyright is also claimed by the Mercedes-Benz Public Archive)",
+        "credit": "Unknown",
         "source": "https://commons.wikimedia.org/wiki/File:Carl_Benz_circa_1920.jpg",
         "license": "Public domain",
         "licenseUrl": "https://commons.wikimedia.org/wiki/File:Carl_Benz_circa_1920.jpg"
+      }
+    },
+    {
+      "id": "01-29-charles-curtis",
+      "date": "01-29",
+      "dateLabel": "29 January",
+      "category": "world",
+      "categoryName": "World",
+      "year": 1907,
+      "title": "Charles Curtis",
+      "body": "Charles Curtis of Kansas becomes the first Native American U.S. Senator.",
+      "source": {
+        "name": "Wikipedia · Charles Curtis",
+        "url": "https://en.wikipedia.org/wiki/Charles_Curtis",
+        "calendarUrl": "https://en.wikipedia.org/wiki/January_29",
+        "license": {
+          "name": "CC BY-SA 4.0",
+          "url": "https://creativecommons.org/licenses/by-sa/4.0/"
+        }
+      },
+      "image": {
+        "src": "https://upload.wikimedia.org/wikipedia/commons/e/e6/Charles_Curtis-portrait.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+        "alt": "Picture from the Wikipedia article on Charles Curtis.",
+        "credit": "Strauss Peyton, Kansas City, Missouri",
+        "source": "https://commons.wikimedia.org/wiki/File:Charles_Curtis-portrait.jpg",
+        "license": "Public domain",
+        "licenseUrl": "https://commons.wikimedia.org/wiki/File:Charles_Curtis-portrait.jpg"
+      }
+    },
+    {
+      "id": "01-29-hungary-south-korea-relations",
+      "date": "01-29",
+      "dateLabel": "29 January",
+      "category": "world",
+      "categoryName": "World",
+      "year": 1989,
+      "title": "Hungary–South Korea relations",
+      "body": "Hungary establishes diplomatic relations with South Korea, making it the first Eastern Bloc nation to do so.",
+      "source": {
+        "name": "Wikipedia · Hungary–South Korea relations",
+        "url": "https://en.wikipedia.org/wiki/Hungary%E2%80%93South_Korea_relations",
+        "calendarUrl": "https://en.wikipedia.org/wiki/January_29",
+        "license": {
+          "name": "CC BY-SA 4.0",
+          "url": "https://creativecommons.org/licenses/by-sa/4.0/"
+        }
+      },
+      "image": {
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/8d/Hungary_South_Korea_Locator.png/1280px-Hungary_South_Korea_Locator.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "alt": "Picture from the Wikipedia article on Hungary–South Korea relations.",
+        "credit": "Aridd",
+        "source": "https://commons.wikimedia.org/wiki/File:Hungary_South_Korea_Locator.png",
+        "license": "Public domain",
+        "licenseUrl": "https://commons.wikimedia.org/wiki/File:Hungary_South_Korea_Locator.png"
+      }
+    },
+    {
+      "id": "01-29-afrin-region",
+      "date": "01-29",
+      "dateLabel": "29 January",
+      "category": "world",
+      "categoryName": "World",
+      "year": 2014,
+      "title": "Afrin Region",
+      "body": "The Afrin Canton declares its autonomy from the Syrian Arab Republic.",
+      "source": {
+        "name": "Wikipedia · Afrin Region",
+        "url": "https://en.wikipedia.org/wiki/Afrin_Region",
+        "calendarUrl": "https://en.wikipedia.org/wiki/January_29",
+        "license": {
+          "name": "CC BY-SA 4.0",
+          "url": "https://creativecommons.org/licenses/by-sa/4.0/"
+        }
+      },
+      "image": {
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/32/Flag_of_the_Afrin_Canton.svg/1280px-Flag_of_the_Afrin_Canton.svg.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "alt": "Picture from the Wikipedia article on Afrin Region.",
+        "credit": "MrPenguin20",
+        "source": "https://commons.wikimedia.org/wiki/File:Flag_of_the_Afrin_Canton.svg",
+        "license": "Public domain",
+        "licenseUrl": "https://commons.wikimedia.org/wiki/File:Flag_of_the_Afrin_Canton.svg"
       }
     }
   ]

@@ -20,10 +20,20 @@
           "url": "https://creativecommons.org/licenses/by-sa/4.0/"
         }
       },
+      "video": {
+        "src": "https://upload.wikimedia.org/wikipedia/commons/transcoded/f/f7/Apollo_15_Lunar_Roving_Vehicle_deployment.webm/Apollo_15_Lunar_Roving_Vehicle_deployment.webm.240p.vp9.webm",
+        "fallback": "https://upload.wikimedia.org/wikipedia/commons/transcoded/f/f7/Apollo_15_Lunar_Roving_Vehicle_deployment.webm/Apollo_15_Lunar_Roving_Vehicle_deployment.webm.360p.mpeg4.mov",
+        "poster": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f7/Apollo_15_Lunar_Roving_Vehicle_deployment.webm/500px--Apollo_15_Lunar_Roving_Vehicle_deployment.webm.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo",
+        "seconds": 15,
+        "credit": "Apollo 15",
+        "source": "https://commons.wikimedia.org/wiki/File:Apollo_15_Lunar_Roving_Vehicle_deployment.webm",
+        "license": "Public domain",
+        "licenseUrl": "https://commons.wikimedia.org/wiki/File:Apollo_15_Lunar_Roving_Vehicle_deployment.webm"
+      },
       "image": {
         "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/62/AS15-88-11866_-_Apollo_15_flag%2C_rover%2C_LM%2C_Irwin_-_restoration1.jpg/1280px-AS15-88-11866_-_Apollo_15_flag%2C_rover%2C_LM%2C_Irwin_-_restoration1.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
         "alt": "Picture from the Wikipedia article on Apollo 15.",
-        "credit": "NASA Johnson Space Center Restored by Bammesk",
+        "credit": "NASA Johnson Space Center Restored",
         "source": "https://commons.wikimedia.org/wiki/File:AS15-88-11866_-_Apollo_15_flag,_rover,_LM,_Irwin_-_restoration1.jpg",
         "license": "Public domain",
         "licenseUrl": "https://commons.wikimedia.org/wiki/File:AS15-88-11866_-_Apollo_15_flag,_rover,_LM,_Irwin_-_restoration1.jpg"
@@ -57,6 +67,33 @@
       }
     },
     {
+      "id": "07-30-walt-disney",
+      "date": "07-30",
+      "dateLabel": "30 July",
+      "category": "culture",
+      "categoryName": "Culture",
+      "year": 1932,
+      "title": "Walt Disney",
+      "body": "Premiere of Walt Disney's Flowers and Trees, the first cartoon short to use Technicolor and the first Academy Award winning cartoon short.",
+      "source": {
+        "name": "Wikipedia · Walt Disney",
+        "url": "https://en.wikipedia.org/wiki/Walt_Disney",
+        "calendarUrl": "https://en.wikipedia.org/wiki/July_30",
+        "license": {
+          "name": "CC BY-SA 4.0",
+          "url": "https://creativecommons.org/licenses/by-sa/4.0/"
+        }
+      },
+      "image": {
+        "src": "https://upload.wikimedia.org/wikipedia/commons/5/50/Walt_Disney_1946_%28cropped2%29.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+        "alt": "Picture from the Wikipedia article on Walt Disney.",
+        "credit": "Boy Scouts of America",
+        "source": "https://commons.wikimedia.org/wiki/File:Walt_Disney_1946_(cropped2).JPG",
+        "license": "Public domain",
+        "licenseUrl": "https://commons.wikimedia.org/wiki/File:Walt_Disney_1946_(cropped2).JPG"
+      }
+    },
+    {
       "id": "07-30-montevideo",
       "date": "07-30",
       "dateLabel": "30 July",
@@ -81,6 +118,33 @@
         "source": "https://commons.wikimedia.org/wiki/File:PALACIO_LEGISLATIVO_01.JPG",
         "license": "CC BY-SA 3.0",
         "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0"
+      }
+    },
+    {
+      "id": "07-30-jimmy-hoffa",
+      "date": "07-30",
+      "dateLabel": "30 July",
+      "category": "world",
+      "categoryName": "World",
+      "year": 1975,
+      "title": "Jimmy Hoffa",
+      "body": "Jimmy Hoffa disappears from the parking lot of the Machus Red Fox restaurant in Bloomfield Hills, Michigan, a suburb of Detroit, at about 2:30 p.m. He is never seen or heard from again.",
+      "source": {
+        "name": "Wikipedia · Jimmy Hoffa",
+        "url": "https://en.wikipedia.org/wiki/Jimmy_Hoffa",
+        "calendarUrl": "https://en.wikipedia.org/wiki/July_30",
+        "license": {
+          "name": "CC BY-SA 4.0",
+          "url": "https://creativecommons.org/licenses/by-sa/4.0/"
+        }
+      },
+      "image": {
+        "src": "https://upload.wikimedia.org/wikipedia/commons/b/b3/James_R._Hoffa_NYWTS_%28cropped%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+        "alt": "Picture from the Wikipedia article on Jimmy Hoffa.",
+        "credit": "Garam",
+        "source": "https://commons.wikimedia.org/wiki/File:James_R._Hoffa_NYWTS_(cropped).jpg",
+        "license": "CC0",
+        "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/deed.en"
       }
     }
   ]

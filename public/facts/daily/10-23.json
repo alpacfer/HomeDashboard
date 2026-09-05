@@ -3,33 +3,6 @@
   "dateLabel": "23 October",
   "facts": [
     {
-      "id": "10-23-apple-computer",
-      "date": "10-23",
-      "dateLabel": "23 October",
-      "category": "tech",
-      "categoryName": "Tech",
-      "year": 2001,
-      "title": "Apple Inc.",
-      "body": "Apple Computer releases the iPod.",
-      "source": {
-        "name": "Wikipedia · Apple Inc.",
-        "url": "https://en.wikipedia.org/wiki/Apple_Inc.",
-        "calendarUrl": "https://en.wikipedia.org/wiki/October_23",
-        "license": {
-          "name": "CC BY-SA 4.0",
-          "url": "https://creativecommons.org/licenses/by-sa/4.0/"
-        }
-      },
-      "image": {
-        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/fa/Apple_logo_black.svg/1280px-Apple_logo_black.svg.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-        "alt": "Picture from the Wikipedia article on Apple Inc..",
-        "credit": "Original: Rob Janoff",
-        "source": "https://commons.wikimedia.org/wiki/File:Apple_logo_black.svg",
-        "license": "Public domain",
-        "licenseUrl": "https://commons.wikimedia.org/wiki/File:Apple_logo_black.svg"
-      }
-    },
-    {
       "id": "10-23-jackie-robinson",
       "date": "10-23",
       "dateLabel": "23 October",
@@ -50,10 +23,37 @@
       "image": {
         "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/bd/Jackie_Robinson%2C_NPG_97_135.jpg/1280px-Jackie_Robinson%2C_NPG_97_135.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
         "alt": "Picture from the Wikipedia article on Jackie Robinson.",
-        "credit": "Harry Warnecke / Frank Livia / Robert F. Cranston / William Klein",
+        "credit": "Harry Warnecke",
         "source": "https://commons.wikimedia.org/wiki/File:Jackie_Robinson,_NPG_97_135.jpg",
         "license": "CC0",
         "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/deed.en"
+      }
+    },
+    {
+      "id": "10-23-apple-computer",
+      "date": "10-23",
+      "dateLabel": "23 October",
+      "category": "tech",
+      "categoryName": "Tech",
+      "year": 2001,
+      "title": "Apple Inc.",
+      "body": "Apple Computer releases the iPod.",
+      "source": {
+        "name": "Wikipedia · Apple Inc.",
+        "url": "https://en.wikipedia.org/wiki/Apple_Inc.",
+        "calendarUrl": "https://en.wikipedia.org/wiki/October_23",
+        "license": {
+          "name": "CC BY-SA 4.0",
+          "url": "https://creativecommons.org/licenses/by-sa/4.0/"
+        }
+      },
+      "image": {
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/fa/Apple_logo_black.svg/1280px-Apple_logo_black.svg.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "alt": "Picture from the Wikipedia article on Apple Inc..",
+        "credit": "Rob Janoff",
+        "source": "https://commons.wikimedia.org/wiki/File:Apple_logo_black.svg",
+        "license": "Public domain",
+        "licenseUrl": "https://commons.wikimedia.org/wiki/File:Apple_logo_black.svg"
       }
     },
     {
@@ -81,6 +81,60 @@
         "source": "https://commons.wikimedia.org/wiki/File:Peyo_(1990)_by_Erling_Mandelmann.jpg",
         "license": "CC BY-SA 3.0",
         "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0"
+      }
+    },
+    {
+      "id": "10-23-end-of-communism-in-hungary-1989",
+      "date": "10-23",
+      "dateLabel": "23 October",
+      "category": "world",
+      "categoryName": "World",
+      "year": 1989,
+      "title": "End of communism in Hungary",
+      "body": "The Hungarian Republic officially replaces the communist Hungarian People's Republic.",
+      "source": {
+        "name": "Wikipedia · End of communism in Hungary",
+        "url": "https://en.wikipedia.org/wiki/End_of_communism_in_Hungary",
+        "calendarUrl": "https://en.wikipedia.org/wiki/October_23",
+        "license": {
+          "name": "CC BY-SA 4.0",
+          "url": "https://creativecommons.org/licenses/by-sa/4.0/"
+        }
+      },
+      "image": {
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/22/Nagy_Imre_%C3%BAjratemet%C3%A9se_fortepan_77275.jpg/1280px-Nagy_Imre_%C3%BAjratemet%C3%A9se_fortepan_77275.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "alt": "Picture from the Wikipedia article on End of communism in Hungary.",
+        "credit": "Fortepan adományozó TM",
+        "source": "https://commons.wikimedia.org/wiki/File:Nagy_Imre_%C3%BAjratemet%C3%A9se_fortepan_77275.jpg",
+        "license": "CC BY-SA 3.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0"
+      }
+    },
+    {
+      "id": "10-23-palestinian-national-authority",
+      "date": "10-23",
+      "dateLabel": "23 October",
+      "category": "world",
+      "categoryName": "World",
+      "year": 1998,
+      "title": "Palestinian Authority",
+      "body": "Israel and the Palestinian Authority sign the Wye River Memorandum.",
+      "source": {
+        "name": "Wikipedia · Palestinian Authority",
+        "url": "https://en.wikipedia.org/wiki/Palestinian_Authority",
+        "calendarUrl": "https://en.wikipedia.org/wiki/October_23",
+        "license": {
+          "name": "CC BY-SA 4.0",
+          "url": "https://creativecommons.org/licenses/by-sa/4.0/"
+        }
+      },
+      "image": {
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/00/Flag_of_Palestine.svg/1280px-Flag_of_Palestine.svg.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "alt": "Picture from the Wikipedia article on Palestinian Authority.",
+        "credit": "Orionist, previous versions",
+        "source": "https://commons.wikimedia.org/wiki/File:Flag_of_Palestine.svg",
+        "license": "Public domain",
+        "licenseUrl": "https://commons.wikimedia.org/wiki/File:Flag_of_Palestine.svg"
       }
     }
   ]

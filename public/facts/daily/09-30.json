@@ -3,33 +3,6 @@
   "dateLabel": "30 September",
   "facts": [
     {
-      "id": "09-30-boeing-747",
-      "date": "09-30",
-      "dateLabel": "30 September",
-      "category": "world",
-      "categoryName": "World",
-      "year": 1968,
-      "title": "Boeing 747",
-      "body": "The Boeing 747 is rolled out and shown to the public for the first time.",
-      "source": {
-        "name": "Wikipedia · Boeing 747",
-        "url": "https://en.wikipedia.org/wiki/Boeing_747",
-        "calendarUrl": "https://en.wikipedia.org/wiki/September_30",
-        "license": {
-          "name": "CC BY-SA 4.0",
-          "url": "https://creativecommons.org/licenses/by-sa/4.0/"
-        }
-      },
-      "image": {
-        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b8/B-747_Iberia.jpg/1280px-B-747_Iberia.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-        "alt": "Picture from the Wikipedia article on Boeing 747.",
-        "credit": "Iberia Airlines",
-        "source": "https://commons.wikimedia.org/wiki/File:B-747_Iberia.jpg",
-        "license": "CC BY 2.0",
-        "licenseUrl": "https://creativecommons.org/licenses/by/2.0"
-      }
-    },
-    {
       "id": "09-30-the-flintstones",
       "date": "09-30",
       "dateLabel": "30 September",
@@ -81,6 +54,87 @@
         "source": "https://commons.wikimedia.org/wiki/File:Ethernet_connector.webp",
         "license": "CC0",
         "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/deed.en"
+      }
+    },
+    {
+      "id": "09-30-boeing-747",
+      "date": "09-30",
+      "dateLabel": "30 September",
+      "category": "world",
+      "categoryName": "World",
+      "year": 1968,
+      "title": "Boeing 747",
+      "body": "The Boeing 747 is rolled out and shown to the public for the first time.",
+      "source": {
+        "name": "Wikipedia · Boeing 747",
+        "url": "https://en.wikipedia.org/wiki/Boeing_747",
+        "calendarUrl": "https://en.wikipedia.org/wiki/September_30",
+        "license": {
+          "name": "CC BY-SA 4.0",
+          "url": "https://creativecommons.org/licenses/by-sa/4.0/"
+        }
+      },
+      "image": {
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b8/B-747_Iberia.jpg/1280px-B-747_Iberia.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "alt": "Picture from the Wikipedia article on Boeing 747.",
+        "credit": "Iberia Airlines",
+        "source": "https://commons.wikimedia.org/wiki/File:B-747_Iberia.jpg",
+        "license": "CC BY 2.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by/2.0"
+      }
+    },
+    {
+      "id": "09-30-van-gogh-museum",
+      "date": "09-30",
+      "dateLabel": "30 September",
+      "category": "culture",
+      "categoryName": "Culture",
+      "year": 2016,
+      "title": "Van Gogh Museum",
+      "body": "Two paintings with a combined value of $100 million are recovered after having been stolen from the Van Gogh Museum in 2002.",
+      "source": {
+        "name": "Wikipedia · Van Gogh Museum",
+        "url": "https://en.wikipedia.org/wiki/Van_Gogh_Museum",
+        "calendarUrl": "https://en.wikipedia.org/wiki/September_30",
+        "license": {
+          "name": "CC BY-SA 4.0",
+          "url": "https://creativecommons.org/licenses/by-sa/4.0/"
+        }
+      },
+      "image": {
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/0f/Logo_-_Van_Gogh_Museum.png/1280px-Logo_-_Van_Gogh_Museum.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "alt": "Picture from the Wikipedia article on Van Gogh Museum.",
+        "credit": "Koeweiden Postma",
+        "source": "https://commons.wikimedia.org/wiki/File:Logo_-_Van_Gogh_Museum.png",
+        "license": "Public domain",
+        "licenseUrl": "https://commons.wikimedia.org/wiki/File:Logo_-_Van_Gogh_Museum.png"
+      }
+    },
+    {
+      "id": "09-30-georges-bizet",
+      "date": "09-30",
+      "dateLabel": "30 September",
+      "category": "culture",
+      "categoryName": "Culture",
+      "year": 1863,
+      "title": "Georges Bizet",
+      "body": "Georges Bizet's opera Les pêcheurs de perles, premieres in Paris.",
+      "source": {
+        "name": "Wikipedia · Georges Bizet",
+        "url": "https://en.wikipedia.org/wiki/Georges_Bizet",
+        "calendarUrl": "https://en.wikipedia.org/wiki/September_30",
+        "license": {
+          "name": "CC BY-SA 4.0",
+          "url": "https://creativecommons.org/licenses/by-sa/4.0/"
+        }
+      },
+      "image": {
+        "src": "https://upload.wikimedia.org/wikipedia/commons/9/96/Georges_bizet.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+        "alt": "Picture from the Wikipedia article on Georges Bizet.",
+        "credit": "Étienne Carjat",
+        "source": "https://commons.wikimedia.org/wiki/File:Georges_bizet.jpg",
+        "license": "Public domain",
+        "licenseUrl": "https://commons.wikimedia.org/wiki/File:Georges_bizet.jpg"
       }
     }
   ]

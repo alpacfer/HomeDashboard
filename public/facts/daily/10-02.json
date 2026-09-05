@@ -3,33 +3,6 @@
   "dateLabel": "2 October",
   "facts": [
     {
-      "id": "10-02-roh-moo-hyun",
-      "date": "10-02",
-      "dateLabel": "2 October",
-      "category": "world",
-      "categoryName": "World",
-      "year": 2007,
-      "title": "Roh Moo-hyun",
-      "body": "President Roh Moo-hyun of South Korea goes to North Korea for an Inter-Korean summit with North Korean leader Kim Jong-il.",
-      "source": {
-        "name": "Wikipedia · Roh Moo-hyun",
-        "url": "https://en.wikipedia.org/wiki/Roh_Moo-hyun",
-        "calendarUrl": "https://en.wikipedia.org/wiki/October_2",
-        "license": {
-          "name": "CC BY-SA 4.0",
-          "url": "https://creativecommons.org/licenses/by-sa/4.0/"
-        }
-      },
-      "image": {
-        "src": "https://upload.wikimedia.org/wikipedia/commons/3/30/Roh_Moo-hyun_presidential_portrait.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
-        "alt": "Picture from the Wikipedia article on Roh Moo-hyun.",
-        "credit": "대한민국 국가기록원",
-        "source": "https://commons.wikimedia.org/wiki/File:Roh_Moo-hyun_presidential_portrait.jpg",
-        "license": "KOGL Type 1",
-        "licenseUrl": "https://www.kogl.or.kr/info/licenseType1.do"
-      }
-    },
-    {
       "id": "10-02-gustavo-d-az-ordaz",
       "date": "10-02",
       "dateLabel": "2 October",
@@ -50,7 +23,7 @@
       "image": {
         "src": "https://upload.wikimedia.org/wikipedia/commons/b/b1/Gustavo_Diaz_Ordaz_cropped.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
         "alt": "Picture from the Wikipedia article on Gustavo Díaz Ordaz.",
-        "credit": "Bundesarchiv_Bild_183-F1023-0037-001,_Mexiko-Stadt,_III._Internationale_Sportwettkämpfe.jpg: Behrendt",
+        "credit": "Wikimedia Commons",
         "source": "https://commons.wikimedia.org/wiki/File:Gustavo_Diaz_Ordaz_cropped.jpg",
         "license": "CC BY-SA 3.0",
         "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0"
@@ -81,6 +54,87 @@
         "source": "https://commons.wikimedia.org/wiki/File:Bushy_parkrun_27th_September_2014_(15194006519).jpg",
         "license": "CC BY 2.0",
         "licenseUrl": "https://creativecommons.org/licenses/by/2.0"
+      }
+    },
+    {
+      "id": "10-02-thurgood-marshall",
+      "date": "10-02",
+      "dateLabel": "2 October",
+      "category": "world",
+      "categoryName": "World",
+      "year": 1967,
+      "title": "Thurgood Marshall",
+      "body": "Thurgood Marshall is sworn in as the first African-American justice of the United States Supreme Court.",
+      "source": {
+        "name": "Wikipedia · Thurgood Marshall",
+        "url": "https://en.wikipedia.org/wiki/Thurgood_Marshall",
+        "calendarUrl": "https://en.wikipedia.org/wiki/October_2",
+        "license": {
+          "name": "CC BY-SA 4.0",
+          "url": "https://creativecommons.org/licenses/by-sa/4.0/"
+        }
+      },
+      "image": {
+        "src": "https://upload.wikimedia.org/wikipedia/commons/5/5d/Thurgood-marshall-2.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+        "alt": "Picture from the Wikipedia article on Thurgood Marshall.",
+        "credit": "Robert S. Oakes",
+        "source": "https://commons.wikimedia.org/wiki/File:Thurgood-marshall-2.jpg",
+        "license": "Public domain",
+        "licenseUrl": "https://commons.wikimedia.org/wiki/File:Thurgood-marshall-2.jpg"
+      }
+    },
+    {
+      "id": "10-02-opus-dei",
+      "date": "10-02",
+      "dateLabel": "2 October",
+      "category": "world",
+      "categoryName": "World",
+      "year": 1928,
+      "title": "Opus Dei",
+      "body": "The \"Prelature of the Holy Cross and the Work of God\", commonly known as Opus Dei, is founded.",
+      "source": {
+        "name": "Wikipedia · Opus Dei",
+        "url": "https://en.wikipedia.org/wiki/Opus_Dei",
+        "calendarUrl": "https://en.wikipedia.org/wiki/October_2",
+        "license": {
+          "name": "CC BY-SA 4.0",
+          "url": "https://creativecommons.org/licenses/by-sa/4.0/"
+        }
+      },
+      "image": {
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a7/The_seal_of_Opus_Dei.svg/1280px-The_seal_of_Opus_Dei.svg.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "alt": "Picture from the Wikipedia article on Opus Dei.",
+        "credit": "Hddty",
+        "source": "https://commons.wikimedia.org/wiki/File:The_seal_of_Opus_Dei.svg",
+        "license": "Public domain",
+        "licenseUrl": "https://commons.wikimedia.org/wiki/File:The_seal_of_Opus_Dei.svg"
+      }
+    },
+    {
+      "id": "10-02-freedom-of-information-act-united-states",
+      "date": "10-02",
+      "dateLabel": "2 October",
+      "category": "world",
+      "categoryName": "World",
+      "year": 1996,
+      "title": "Freedom of Information Act",
+      "body": "The Electronic Freedom of Information Act Amendments are signed by U.S. President Bill Clinton.",
+      "source": {
+        "name": "Wikipedia · Freedom of Information Act (United States)",
+        "url": "https://en.wikipedia.org/wiki/Freedom_of_Information_Act_(United_States)",
+        "calendarUrl": "https://en.wikipedia.org/wiki/October_2",
+        "license": {
+          "name": "CC BY-SA 4.0",
+          "url": "https://creativecommons.org/licenses/by-sa/4.0/"
+        }
+      },
+      "image": {
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/5c/Great_Seal_of_the_United_States_%28obverse%29.svg/1280px-Great_Seal_of_the_United_States_%28obverse%29.svg.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "alt": "Picture from the Wikipedia article on Freedom of Information Act.",
+        "credit": "U.S. Government",
+        "source": "https://commons.wikimedia.org/wiki/File:Great_Seal_of_the_United_States_(obverse).svg",
+        "license": "Public domain",
+        "licenseUrl": "https://commons.wikimedia.org/wiki/File:Great_Seal_of_the_United_States_(obverse).svg"
       }
     }
   ]

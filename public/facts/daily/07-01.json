@@ -3,17 +3,17 @@
   "dateLabel": "1 July",
   "facts": [
     {
-      "id": "07-01-sony",
+      "id": "07-01-saturn",
       "date": "07-01",
       "dateLabel": "1 July",
-      "category": "world",
-      "categoryName": "World",
-      "year": 1979,
-      "title": "Sony",
-      "body": "Sony introduces the Walkman.",
+      "category": "space",
+      "categoryName": "Space",
+      "year": 2004,
+      "title": "Saturn",
+      "body": "Saturn orbit insertion of Cassini–Huygens begins at 01:12 UTC and ends at 02:48 UTC.",
       "source": {
-        "name": "Wikipedia · Sony",
-        "url": "https://en.wikipedia.org/wiki/Sony",
+        "name": "Wikipedia · Saturn",
+        "url": "https://en.wikipedia.org/wiki/Saturn",
         "calendarUrl": "https://en.wikipedia.org/wiki/July_1",
         "license": {
           "name": "CC BY-SA 4.0",
@@ -21,12 +21,12 @@
         }
       },
       "image": {
-        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/7d/Sony_headquaters_2.jpg/1280px-Sony_headquaters_2.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-        "alt": "Picture from the Wikipedia article on Sony.",
-        "credit": "Akonnchiroll",
-        "source": "https://commons.wikimedia.org/wiki/File:Sony_headquaters_2.jpg",
-        "license": "CC BY-SA 4.0",
-        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0"
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/43/Saturn_global_view_from_Cassini%2C_rings_open_Better_Colour.png/1280px-Saturn_global_view_from_Cassini%2C_rings_open_Better_Colour.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "alt": "Picture from the Wikipedia article on Saturn.",
+        "credit": "NASA",
+        "source": "https://commons.wikimedia.org/wiki/File:Saturn_global_view_from_Cassini,_rings_open_Better_Colour.png",
+        "license": "Public domain",
+        "licenseUrl": "https://commons.wikimedia.org/wiki/File:Saturn_global_view_from_Cassini,_rings_open_Better_Colour.png"
       }
     },
     {
@@ -50,24 +50,24 @@
       "image": {
         "src": "https://upload.wikimedia.org/wikipedia/commons/8/8d/CandlestickTelephoneGal.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
         "alt": "Picture from the Wikipedia article on Telephone call.",
-        "credit": "Wikimedia Commons contributor",
+        "credit": "Wikimedia Commons",
         "source": "https://commons.wikimedia.org/wiki/File:CandlestickTelephoneGal.jpg",
         "license": "Public domain",
         "licenseUrl": "https://commons.wikimedia.org/wiki/File:CandlestickTelephoneGal.jpg"
       }
     },
     {
-      "id": "07-01-saturn",
+      "id": "07-01-1903-tour-de-france",
       "date": "07-01",
       "dateLabel": "1 July",
-      "category": "space",
-      "categoryName": "Space",
-      "year": 2004,
-      "title": "Saturn",
-      "body": "Saturn orbit insertion of Cassini–Huygens begins at 01:12 UTC and ends at 02:48 UTC.",
+      "category": "sport",
+      "categoryName": "Sport",
+      "year": 1903,
+      "title": "1903 Tour de France",
+      "body": "Start of first Tour de France bicycle race.",
       "source": {
-        "name": "Wikipedia · Saturn",
-        "url": "https://en.wikipedia.org/wiki/Saturn",
+        "name": "Wikipedia · 1903 Tour de France",
+        "url": "https://en.wikipedia.org/wiki/1903_Tour_de_France",
         "calendarUrl": "https://en.wikipedia.org/wiki/July_1",
         "license": {
           "name": "CC BY-SA 4.0",
@@ -75,12 +75,66 @@
         }
       },
       "image": {
-        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/43/Saturn_global_view_from_Cassini%2C_rings_open_Better_Colour.png/1280px-Saturn_global_view_from_Cassini%2C_rings_open_Better_Colour.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-        "alt": "Picture from the Wikipedia article on Saturn.",
-        "credit": "NASA / JPL-Caltech / SSI / color composite by Gordan Ugarkovic",
-        "source": "https://commons.wikimedia.org/wiki/File:Saturn_global_view_from_Cassini,_rings_open_Better_Colour.png",
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/0c/Route_of_the_1903_Tour_de_France.png/1280px-Route_of_the_1903_Tour_de_France.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "alt": "Picture from the Wikipedia article on 1903 Tour de France.",
+        "credit": "Andrei loas",
+        "source": "https://commons.wikimedia.org/wiki/File:Route_of_the_1903_Tour_de_France.png",
+        "license": "CC BY 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by/4.0"
+      }
+    },
+    {
+      "id": "07-01-johann-georg-tralles",
+      "date": "07-01",
+      "dateLabel": "1 July",
+      "category": "space",
+      "categoryName": "Space",
+      "year": 1819,
+      "title": "Johann Georg Tralles",
+      "body": "Johann Georg Tralles discovers the Great Comet of 1819, (C/1819 N1). It is the first comet analyzed using polarimetry, by François Arago.",
+      "source": {
+        "name": "Wikipedia · Johann Georg Tralles",
+        "url": "https://en.wikipedia.org/wiki/Johann_Georg_Tralles",
+        "calendarUrl": "https://en.wikipedia.org/wiki/July_1",
+        "license": {
+          "name": "CC BY-SA 4.0",
+          "url": "https://creativecommons.org/licenses/by-sa/4.0/"
+        }
+      },
+      "image": {
+        "src": "https://upload.wikimedia.org/wikipedia/commons/0/0a/Johann-georg-tralles.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+        "alt": "Picture from the Wikipedia article on Johann Georg Tralles.",
+        "credit": "Unknown author",
+        "source": "https://commons.wikimedia.org/wiki/File:Johann-georg-tralles.jpg",
         "license": "Public domain",
-        "licenseUrl": "https://commons.wikimedia.org/wiki/File:Saturn_global_view_from_Cassini,_rings_open_Better_Colour.png"
+        "licenseUrl": "https://commons.wikimedia.org/wiki/File:Johann-georg-tralles.jpg"
+      }
+    },
+    {
+      "id": "07-01-qinghai-tibet-railway",
+      "date": "07-01",
+      "dateLabel": "1 July",
+      "category": "world",
+      "categoryName": "World",
+      "year": 2006,
+      "title": "Qinghai–Tibet railway",
+      "body": "The first operation of Qinghai–Tibet Railway is conducted in China.",
+      "source": {
+        "name": "Wikipedia · Qinghai–Tibet railway",
+        "url": "https://en.wikipedia.org/wiki/Qinghai%E2%80%93Tibet_railway",
+        "calendarUrl": "https://en.wikipedia.org/wiki/July_1",
+        "license": {
+          "name": "CC BY-SA 4.0",
+          "url": "https://creativecommons.org/licenses/by-sa/4.0/"
+        }
+      },
+      "image": {
+        "src": "https://upload.wikimedia.org/wikipedia/commons/c/c5/Qingzang_railway_Train_01.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+        "alt": "Picture from the Wikipedia article on Qinghai–Tibet railway.",
+        "credit": "Jan Reurink",
+        "source": "https://commons.wikimedia.org/wiki/File:Qingzang_railway_Train_01.jpg",
+        "license": "CC BY 2.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by/2.0"
       }
     }
   ]

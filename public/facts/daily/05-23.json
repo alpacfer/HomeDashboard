@@ -30,33 +30,6 @@
       }
     },
     {
-      "id": "05-23-tibet",
-      "date": "05-23",
-      "dateLabel": "23 May",
-      "category": "world",
-      "categoryName": "World",
-      "year": 1951,
-      "title": "Tibet",
-      "body": "Tibetans sign the Seventeen Point Agreement with China.",
-      "source": {
-        "name": "Wikipedia · Tibet",
-        "url": "https://en.wikipedia.org/wiki/Tibet",
-        "calendarUrl": "https://en.wikipedia.org/wiki/May_23",
-        "license": {
-          "name": "CC BY-SA 4.0",
-          "url": "https://creativecommons.org/licenses/by-sa/4.0/"
-        }
-      },
-      "image": {
-        "src": "https://upload.wikimedia.org/wikipedia/commons/6/6b/Tibet-claims.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
-        "alt": "Picture from the Wikipedia article on Tibet.",
-        "credit": "University of Texas Libraries",
-        "source": "https://commons.wikimedia.org/wiki/File:Tibet-claims.jpg",
-        "license": "CC BY-SA 3.0",
-        "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0/"
-      }
-    },
-    {
       "id": "05-23-accordion",
       "date": "05-23",
       "dateLabel": "23 May",
@@ -81,6 +54,87 @@
         "source": "https://commons.wikimedia.org/wiki/File:A_converter_free-bass_piano-accordion_and_a_Russian_bayan.jpg",
         "license": "CC BY-SA 3.0",
         "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0"
+      }
+    },
+    {
+      "id": "05-23-international-court-of-justice",
+      "date": "05-23",
+      "dateLabel": "23 May",
+      "category": "world",
+      "categoryName": "World",
+      "year": 2008,
+      "title": "International Court of Justice",
+      "body": "The International Court of Justice (ICJ) awards Middle Rocks to Malaysia and Pedra Branca (Pulau Batu Puteh) to Singapore, ending a 29-year territorial dispute between the two countries.",
+      "source": {
+        "name": "Wikipedia · International Court of Justice",
+        "url": "https://en.wikipedia.org/wiki/International_Court_of_Justice",
+        "calendarUrl": "https://en.wikipedia.org/wiki/May_23",
+        "license": {
+          "name": "CC BY-SA 4.0",
+          "url": "https://creativecommons.org/licenses/by-sa/4.0/"
+        }
+      },
+      "image": {
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f4/International_Court_of_Justice_Seal.svg/1280px-International_Court_of_Justice_Seal.svg.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "alt": "Picture from the Wikipedia article on International Court of Justice.",
+        "credit": "Wikimedia Commons",
+        "source": "https://commons.wikimedia.org/wiki/File:International_Court_of_Justice_Seal.svg",
+        "license": "Public domain",
+        "licenseUrl": "https://commons.wikimedia.org/wiki/File:International_Court_of_Justice_Seal.svg"
+      }
+    },
+    {
+      "id": "05-23-interstate-5-in-washington",
+      "date": "05-23",
+      "dateLabel": "23 May",
+      "category": "world",
+      "categoryName": "World",
+      "year": 2013,
+      "title": "Interstate 5 in Washington",
+      "body": "A freeway bridge carrying Interstate 5 over the Skagit River collapses in Mount Vernon, Washington.",
+      "source": {
+        "name": "Wikipedia · Interstate 5 in Washington",
+        "url": "https://en.wikipedia.org/wiki/Interstate_5_in_Washington",
+        "calendarUrl": "https://en.wikipedia.org/wiki/May_23",
+        "license": {
+          "name": "CC BY-SA 4.0",
+          "url": "https://creativecommons.org/licenses/by-sa/4.0/"
+        }
+      },
+      "image": {
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/11/I-5.svg/1280px-I-5.svg.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "alt": "Picture from the Wikipedia article on Interstate 5 in Washington.",
+        "credit": "Ltljltlj",
+        "source": "https://commons.wikimedia.org/wiki/File:I-5.svg",
+        "license": "Public domain",
+        "licenseUrl": "https://commons.wikimedia.org/wiki/File:I-5.svg"
+      }
+    },
+    {
+      "id": "05-23-stratovolcano",
+      "date": "05-23",
+      "dateLabel": "23 May",
+      "category": "world",
+      "categoryName": "World",
+      "year": 2006,
+      "title": "Stratovolcano",
+      "body": "Alaskan stratovolcano Mount Cleveland erupts.",
+      "source": {
+        "name": "Wikipedia · Stratovolcano",
+        "url": "https://en.wikipedia.org/wiki/Stratovolcano",
+        "calendarUrl": "https://en.wikipedia.org/wiki/May_23",
+        "license": {
+          "name": "CC BY-SA 4.0",
+          "url": "https://creativecommons.org/licenses/by-sa/4.0/"
+        }
+      },
+      "image": {
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f9/Rainier20200906.jpg/1280px-Rainier20200906.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "alt": "Picture from the Wikipedia article on Stratovolcano.",
+        "credit": "Caleb Riston",
+        "source": "https://commons.wikimedia.org/wiki/File:Rainier20200906.jpg",
+        "license": "CC0",
+        "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/deed.en"
       }
     }
   ]
