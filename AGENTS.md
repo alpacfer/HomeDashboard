@@ -47,8 +47,33 @@ screen. In short:
   a strip of moments from one page load, which is how a moving scene is shown;
   `--console` shows what the page logged. Do not screenshot through the browser
   pane: its crop is unsupported and a hidden pane returns stale frames.
+- **`npm run states`** (`scripts/clock-states.mjs`) is how the clock widget's
+  theme is looked at. It drives twenty sky states through one browser and lays
+  them out on a single sheet, because the faults this scenery produces —
+  a gradient clipped into a hard line, a cloud that reads as bokeh, a shadow
+  cut square by a digit's own overflow — are invisible in any one tile and
+  obvious when the tiles are side by side. `--seams` reads the captures back
+  and names rows where the image changes sharply across most of its width,
+  which is what a clipped gradient leaves and a hill never does; it found the
+  snow-cap line that four rounds of looking had missed. `--save-baseline`
+  remembers the current twenty and `--baseline` reports what moved since, per
+  state, as a share of pixels and the rows they are in — which is how you see
+  that tuning the cloud bank also moved the ridge. Costs no provider quota:
+  every state is `?weather=off` with `?sky=` pinned. Baselines live under
+  `screenshots/`, so they are local working files, not shared.
+- **`npm run roll`** (`scripts/clock-roll.mjs`) catches the digit transition,
+  which happens on the minute boundary and lasts under a second. `?time=`
+  shifts the clock by whole minutes and keeps the seconds, so the boundary is
+  always at :00; this waits for the page's own clock to reach :58.7 and then
+  captures a fast strip across it. `--sky day,rain,heavy` shows the transition
+  that rain uses instead. Nothing else on the display needs this, because
+  everything else can be pinned or replayed on demand.
 - **`npm run motion`** (`scripts/measure-motion.mjs`) is how anything that
-  moves is checked. A screenshot cannot show whether an animation is smooth,
+  moves is checked. Note what it does **not** cover: it follows the Tenant's
+  transform path and canvas painting, so for the theme's scenery it reports
+  the frame rate honestly and says nothing about whether a drifting background
+  layer loops seamlessly. That invariant is checked statically instead, by
+  `npm run check:rules`. A screenshot cannot show whether an animation is smooth,
   and a flicker in the forecast map once shipped through a green `npm run
   check`, a passing suite and three correct-looking screenshots. It reports how
   evenly a canvas is painted and whether what it draws reads as movement or as

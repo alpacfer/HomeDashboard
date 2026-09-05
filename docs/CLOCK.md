@@ -44,6 +44,106 @@ and `.clock-date` as `--panel-inset`, so the digits sit exactly where they
 always did and the surface reaches the shell's edges the way the weather
 card's does.
 
+## The theme
+
+A theme is a class on `.clock-widget` and nothing else. It dresses the card
+through the properties above and the type group below, paints scenery into the
+backdrop layers, and replaces the digit roll with a transition of its own.
+[lib/clock-theme.ts](../lib/clock-theme.ts) holds the list; `?clock=<id>` pins
+one, and `?clock=plain` is the bare card as it was before themes existed.
+
+```text
+app/clock-theme.css     The framework: the layer primitives, the shared
+                        keyframes, the reduced-motion kill switch. Knows that
+                        a theme has layers and that layers move; knows nothing
+                        about hills or weather.
+app/clock-hillside.css  One theme, in seven numbered sections.
+lib/clock-theme.ts      The list of ids, and the `?clock=` pin.
+lib/clock-sky.ts        What the hillside's sky is doing, and the `?sky=` pin.
+```
+
+Adding a theme is a new `app/clock-<id>.css`, an import in
+[app/layout.tsx](../app/layout.tsx), and an id in `CLOCK_THEMES`. Nothing in
+the framework or in `components/clock.tsx` changes. Adding a *layer* is a span
+in the component and a name in the primitives rule.
+
+**Hillside** is the default: a hill above the harbour, lit by the real sun and
+rained on by the real forecast. [lib/clock-sky.ts](../lib/clock-sky.ts) turns
+the hour and the weather panel's report into three attributes on the widget,
+and every rule that paints weather is an attribute selector on one of them.
+
+| Attribute | Is | From |
+| --- | --- | --- |
+| `data-light` | `night`, `dawn`, `day`, `dusk` | `solarElevation()`, not the wall clock. Copenhagen's sunset moves by six hours across the year. |
+| `data-weather` | `clear`, `partly`, `cloudy`, `overcast`, `fog`, `rain`, `sleet`, `snow` | The same `describeHour()` classification the weather card draws its own icon from. |
+| `data-fall` | `none`, `light`, `moderate`, `heavy` | The precipitation band, and only for a kind that can fall. |
+
+The three are independent, so snow at dawn and rain at night are already drawn
+without a rule of their own. `Conditions` carries `kind` and `band` up from
+the panel untouched: a second classifier would be a way for the card and the
+clock to disagree about the same hour.
+
+Scenery is gradients, not images. A tree line is a row of circles of four
+different radii above a solid band; a cloud bank is the same trick in soft
+white; rain is elongated radial streaks on a rotated, oversized layer. Two
+colours are switches rather than colours — `--star` and `--cap` are transparent
+almost always, and the star and snow-cap gradients are painted at every hour,
+which is what keeps "night" and "snow" to one declaration each instead of a
+second copy of every layer.
+
+Motion is a transform on a whole layer, never a `background-position`, so the
+compositor carries it and the card is never repainted. A drifting layer keeps
+every gradient on one `background-size` and places them inside that tile,
+because a layer only loops seamlessly when it is shifted by exactly one tile.
+
+`.cs-flora` is what grows on the clock: a vine up the left frame and a tuft in
+the corner the Tenant does not stand in. It is outside the clipped surface and
+in front of the block, so a leaf sits on the frame and overhangs the edge, and
+it leans from its base in the same wind that moves the canopy. It is a path
+rather than a gradient because a stem is a curve, and it is inline, so it costs
+no request and no decode.
+
+`?sky=night,snow,heavy` pins any of the three, in any order, which is the only
+way to photograph a sky the real weather is not currently offering. It is read
+in `lib/clock-sky.ts` rather than `lib/debug-flags.ts` for the same reason
+`?date=` is read in `lib/daily-facts.ts`: that is where the value is derived.
+
+`npm run states` drives twenty of those pins through one browser and lays them
+on one sheet, which is how the theme is actually looked at — a fault in this
+kind of scenery is invisible in one tile and obvious in twenty.
+`npm run states -- --seams` then reads the captures back and names rows where
+the image changes sharply across most of its width. That is what a gradient
+clipped at a box edge leaves behind, and what a hill or a cloud never does. It
+is worth trusting: it found the snow caps being cut into a bright line across
+the card at the canopy's band edge, after four rounds of looking had not.
+
+`npm run states -- --save-baseline` remembers the twenty, and `--baseline`
+then reports what moved since — per state, as a share of pixels and the rows
+they sit in. That is the half that is easy to skip: a change to one layer is
+meant to move some states and leave the rest alone, and twice while this theme
+was built a cloud adjustment quietly moved the ridge as well.
+
+`npm run roll` catches the digit transition. It happens on the minute boundary
+and lasts 840 ms plus stagger, and it is the only thing on the display that
+cannot be pinned or replayed — but `?time=` shifts the clock by whole minutes
+and keeps the seconds, so the boundary is always at :00 of the real clock. The
+tool waits for the page's own clock to reach :58.7 and then captures a fast
+strip across it. `--sky day,rain,heavy` shows the wash instead of the breeze.
+All three transitions shipped once before anyone had seen one move.
+
+Two invariants about the scenery are checked without a browser, by
+`npm run check:rules`: a `cs-drift` layer must write its tile width as
+`var(--tile)`, and a `cs-rain` or `cs-snow` layer's `background-size` height
+must equal the distance its keyframe travels. Both decide whether a loop is
+seamless, and both fail so rarely — once per cycle, and the slowest cycle here
+is nearly eight minutes — that no amount of watching would catch them.
+
+`npm run audit` covers two of the skies as well (`clock-bright` is snow on a
+lit midday canopy, `clock-dark` a clear night), because the type crosses the
+canopy and the canopy is repainted by the weather. Auditing whichever sky the
+forecast happens to be showing checks the one state that is not at risk.
+`--sky` is a URL flag on `shot`, `motion` and `audit` alike.
+
 ## The digits and the date
 
 The time is four digit cells and a colon on a fixed grid: two `.62em` columns,

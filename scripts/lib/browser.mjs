@@ -147,7 +147,7 @@ export async function launchChrome(binary, width, height) {
 // measuring "the same" scene quietly differ. That drift is not hypothetical:
 // extracting this function dropped --transit-demo from the URL while both
 // scripts still advertised it. scripts/check-rules.mjs enforces the list.
-export const URL_FLAGS = ['--url', '--scene', '--fact', '--offline', '--demo', '--no-weather', '--transit-demo', '--time', '--pet', '--date'];
+export const URL_FLAGS = ['--url', '--scene', '--fact', '--offline', '--demo', '--no-weather', '--transit-demo', '--time', '--pet', '--date', '--sky'];
 
 export function pageUrl(options) {
   const url = new URL(options.url ?? 'http://127.0.0.1:3000/');
@@ -163,6 +163,10 @@ export function pageUrl(options) {
   if (options.time) url.searchParams.set('time', options.time);
   if (options.pet) url.searchParams.set('pet', options.pet);
   if (options.date) url.searchParams.set('date', options.date);
+  // The clock theme's sky: any of its light phase, weather and rate, in any
+  // order (`dusk,snow,heavy`). Without it the card draws the real sky, which
+  // is whatever the forecast says today and so cannot be captured to order.
+  if (options.sky) url.searchParams.set('sky', options.sky);
   return url.toString();
 }
 

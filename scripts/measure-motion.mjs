@@ -79,6 +79,7 @@ function parseArgs(argv) {
       case '--time': options.time = value(); break;
       case '--pet': options.pet = value(); break;
       case '--date': options.date = value(); break;
+      case '--sky': options.sky = value(); break;
       case '--selector': options.selector = value(); break;
       case '--seconds': options.seconds = Number(value()); break;
       case '--samples': options.samples = Number(value()); break;

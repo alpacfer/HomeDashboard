@@ -1,0 +1,91 @@
+/* ══ Clock themes: the framework ══════════════════════════════════════════
+   Theme-agnostic. This file knows that a theme has layers and that layers
+   move; it knows nothing about hills, weather or time of day. One theme file
+   per theme sits beside it (app/clock-hillside.css), and lib/clock-theme.ts
+   holds the list of ids.
+
+   WHAT A THEME IS
+   A class on `.clock-widget` — `.ct-<id>` — and nothing else. It dresses the
+   card through the custom properties app/globals.css already reads
+   (`--clock-surface`, `--clock-ring`, and the type group on `.clock-block`),
+   paints into the layers below, and may replace the digit roll. No theme adds
+   markup, a timer or a fetch, so none of this can leak on a display that runs
+   for weeks.
+
+   THE LAYERS, back to front. components/clock.tsx renders them, in this
+   order, only for a theme where hasScenery() is true:
+
+     .cs-sun     the disc, and anything sharing the far sky
+     .cs-far     the high, thin, fast layer
+     .cs-bank    the mass that the weather actually moves
+     .cs-mid     the far ground
+     .cs-near    the near ground, close enough to show the wind
+     .cs-fall    whatever is coming down
+     .cs-air     whatever is drifting
+     — .clock-block, the digits and the Tenant, goes here —
+     .clock-light  the light of the place, falling ON the digits
+     .cs-flora     what grows on the clock, in front and unclipped
+
+   The first seven are inside `.clock-surface`, which clips to the card's
+   rounded corners. The last two are outside it: `.clock-light` clips itself,
+   and `.cs-flora` deliberately does not, so a leaf can overhang the frame.
+
+   THREE RULES, all three from the Fire TV this runs on:
+
+   1. Scenery is gradients, not images. Nothing is fetched and nothing is
+      decoded. A drawing that genuinely needs a curve (a stem) is an inline
+      SVG in a data URI, still no request.
+   2. Motion is a transform on a whole layer, never a `background-position`,
+      so the compositor carries it and the card is never repainted.
+   3. A drifting layer keeps every gradient on ONE `background-size` and
+      places them inside that tile, because a layer only loops seamlessly when
+      it is shifted by exactly one tile. That is what `--tile` is for.
+
+   TO ADD A THEME       new app/clock-<id>.css, import it in app/layout.tsx,
+                        add the id to CLOCK_THEMES in lib/clock-theme.ts.
+   TO ADD A LAYER       add a span in components/clock.tsx and a name to the
+                        primitives rule below.
+   ═══════════════════════════════════════════════════════════════════════ */
+
+/* ── Layer primitives ──────────────────────────────────────────────────── */
+
+.cs-sun,.cs-far,.cs-bank,.cs-mid,.cs-near,.cs-fall,.cs-air {
+  position:absolute; top:0; left:0; width:100%; height:100%; pointer-events:none;
+  --tile:0px; --sway:0px;
+}
+
+/* Later sibling of `.clock-block`, which is what puts it above the digits and
+   the Tenant without giving the block a stacking context the travelling
+   character could not leave. */
+.clock-light { position:absolute; inset:0; border-radius:inherit; overflow:hidden; pointer-events:none; }
+
+/* Outside the clipped surface and in front of the block, with a negative
+   inset, so a leaf can sit on the frame and overhang the edge. */
+.cs-flora { position:absolute; inset:-5px -3px -4px -5px; pointer-events:none; background-repeat:no-repeat; transform-origin:50% 100%; }
+
+/* ── Shared motion ─────────────────────────────────────────────────────── */
+
+/* One tile left, forever. Seamless for any layer that repeats at --tile. */
+@keyframes cs-drift { from {transform:translate3d(0,0,0);} to {transform:translate3d(calc(var(--tile) * -1),0,0);} }
+/* A layer leaning into the wind and back. */
+@keyframes cs-sway { 0%,100% {transform:translate3d(calc(var(--sway) * -1),0,0);} 50% {transform:translate3d(var(--sway),0,0);} }
+/* Something that is there, then more there. */
+@keyframes cs-breathe { 0%,100% {opacity:.68;} 50% {opacity:1;} }
+/* Plants bend, they do not slide: the base stays planted and the tops lean. */
+@keyframes cs-lean { 0%,100% {transform:skewX(-.9deg);} 50% {transform:skewX(.9deg);} }
+
+/* ── Reduced motion ────────────────────────────────────────────────────── */
+
+/* Under reduced motion nothing moves, whatever a theme asked for. This is
+   `!important` on purpose, and it is the one place in the clock that is: a
+   media query adds no specificity of its own, so without it a theme's
+   `.ct-hillside .digit-in` would outrank a plain `.digit-in` here and keep
+   animating — and it would do so again for every theme added later, silently.
+   The scenery stays on screen; it simply stops, which is what a still
+   hillside is. */
+@media (prefers-reduced-motion:reduce) {
+  .clock-widget .cs-sun,.clock-widget .cs-far,.clock-widget .cs-bank,
+  .clock-widget .cs-mid,.clock-widget .cs-near,.clock-widget .cs-fall,
+  .clock-widget .cs-air,.clock-widget .cs-flora,.clock-widget .clock-light,
+  .clock-widget .digit-in,.clock-widget .digit-out { animation:none !important; }
+}

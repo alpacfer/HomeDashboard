@@ -19,6 +19,8 @@
     "fonts:clock": "node scripts/fetch-clock-fonts.mjs",
     "check:rules": "node scripts/check-rules.mjs",
     "shot": "node scripts/screenshot.mjs",
+    "states": "node scripts/clock-states.mjs",
+    "roll": "node scripts/clock-roll.mjs",
     "motion": "node scripts/measure-motion.mjs",
     "probe": "node --import tsx scripts/probe-forecast.mjs",
     "probe:transit": "node --import tsx scripts/probe-transit.mjs",

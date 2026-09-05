@@ -24,6 +24,46 @@ for (const file of await list('app', /\.css$/)) {
   });
 }
 
+// 1b. A scrolling layer loops seamlessly only when it is shifted by exactly one
+//     tile. Get that wrong and the layer jumps once per cycle — every 128 to 470
+//     seconds in the clock's scenery, which is far too rare to catch by eye and
+//     invisible to `npm run motion`, which follows the Tenant's transform path
+//     and not a background. Both halves of the invariant are checkable:
+//     a cs-drift layer must express its background-size width as var(--tile),
+//     and a cs-rain/cs-snow layer's background-size height must equal the
+//     distance its keyframe travels. See docs/CLOCK.md.
+for (const file of await list('app', /\.css$/)) {
+  const css = await read(file);
+  // The whole @keyframes block, braces one level deep, then the last
+  // translate3d in it — which is the final frame's, and so the distance the
+  // layer has travelled by the time the loop repeats.
+  const travel = name => {
+    const block = new RegExp('@keyframes\\s+' + name + '\\s*\\{(?:[^{}]|\\{[^{}]*\\})*\\}').exec(css)?.[0] ?? '';
+    const steps = [...block.matchAll(/translate3d\([^)]*?,\s*(-?[\d.]+)px\s*,/g)];
+    return Number(steps.at(-1)?.[1] ?? NaN);
+  };
+  // Rule blocks are flat here: one selector, one { ... } with no nesting.
+  for (const [, selector, body] of css.matchAll(/([^{}]+)\{([^{}]*)\}/g)) {
+    const animation = /animation\s*:\s*([\w-]+)/.exec(body)?.[1];
+    if (!animation || selector.includes('@')) continue;
+    const size = /background-size\s*:\s*([^;]+)/.exec(body)?.[1]?.trim();
+    const where = file + ' (' + selector.trim().split('\n').pop().trim() + ')';
+    if (animation === 'cs-drift') {
+      if (size && !/^var\(--tile\)/.test(size)) {
+        fail(where, 'drifts by var(--tile) but its background-size starts "' + size.split(',')[0].trim()
+          + '". Write the tile width as var(--tile) so the two cannot drift apart and the loop jump once a cycle.');
+      }
+    } else if (animation === 'cs-rain' || animation === 'cs-snow') {
+      const height = Number(/^\S+\s+(-?[\d.]+)px/.exec(size ?? '')?.[1] ?? NaN);
+      const distance = travel(animation);
+      if (Number.isFinite(height) && Number.isFinite(distance) && Math.abs(height - Math.abs(distance)) > 0.01) {
+        fail(where, 'tiles every ' + height + 'px but @keyframes ' + animation + ' travels '
+          + Math.abs(distance) + 'px, so the fall jumps once a cycle. They must be equal.');
+      }
+    }
+  }
+}
+
 // 2. Every lib/ module has a test that imports it. lib/ is where logic goes so
 //    that it can be tested without a renderer; a module nothing imports from
 //    tests/ has escaped that.

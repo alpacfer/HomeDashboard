@@ -51,6 +51,13 @@ const MATRIX = [
   { name: 'transport-marked', why: 'every delay, cancellation and service message at once', args: { scene: 'transport', offline: true, transitDemo: true } },
   { name: 'fact', why: 'the daily fact, and the compact departure strip under it', args: { scene: 'fact', fact: 0, offline: true, transitDemo: true } },
   { name: 'map', why: 'the forecast map, on the synthetic run', args: { scene: 'map', demo: true } },
+  // The clock's backdrop is drawn by the weather now, and the digits and the
+  // date sit on it. Auditing one sky checks the one the forecast happens to be
+  // showing, which is not the one that breaks. These are the two extremes the
+  // ivory type has to stay legible against: snow lying on a lit midday canopy
+  // is the brightest ground it ever crosses, and a clear night the darkest.
+  { name: 'clock-bright', why: "the clock's brightest sky — snow on a lit canopy", args: { scene: 'transport', offline: true, sky: 'day,snow,heavy' } },
+  { name: 'clock-dark', why: "the clock's darkest sky — a clear night", args: { scene: 'transport', offline: true, sky: 'night,clear' } },
 ];
 
 // Things that must render on one line. A contract, not a guess: text is
@@ -97,6 +104,7 @@ function parseArgs(argv) {
       case '--time': options.time = value(); break;
       case '--pet': options.pet = value(); break;
       case '--date': options.date = value(); break;
+      case '--sky': options.sky = value(); break;
       case '--width': options.width = Number(value()); break;
       case '--height': options.height = Number(value()); break;
       case '--min-font': options.minFont = Number(value()); break;
@@ -261,7 +269,7 @@ const minFont = options.minFont ?? 11;
 const contrastFloor = options.contrast ?? 4.5;
 const wait = options.wait ?? 4000;
 // A one-off audit when any page flag is given; the whole matrix otherwise.
-const oneOff = options.scenes.length === 0 && (options.offline || options.demo || options.transitDemo || options.time || options.fact !== undefined || options.url);
+const oneOff = options.scenes.length === 0 && (options.offline || options.demo || options.transitDemo || options.time || options.sky || options.fact !== undefined || options.url);
 const chosen = oneOff
   ? [{ name: 'custom', why: 'the flags given on the command line', args: options }]
   : MATRIX.filter(scene => options.scenes.length === 0 || options.scenes.includes(scene.name));

@@ -106,10 +106,21 @@ while the weather is a placeholder, so each source monogram can be looked at
 without asking anyone for a forecast. It is ignored on a live card, where the
 mark names whoever answered. All of these are parsed in `lib/debug-flags.ts`.
 
+`/?clock=hillside|plain` picks the clock widget's theme, and
+`/?sky=night,snow,heavy` pins any of the hillside's light phase, weather and
+rate, in any order. The sky is normally the real one — the sun's true
+elevation and the hour the weather card is showing — so pinning it is the only
+way to photograph a state the weather is not currently offering. Both are read
+where they are derived: `lib/clock-theme.ts` and `lib/clock-sky.ts`. See
+[docs/CLOCK.md](docs/CLOCK.md).
+
 ### Capture and diagnose
 
 ```sh
 npm run shot -- --scene transport --offline   # 1280 x 720 PNG under screenshots/
+npm run states -- --seams                     # every clock sky on one sheet, scanned for hard edges
+npm run states -- --baseline                  # and what moved since --save-baseline
+npm run roll -- --sky day,rain,heavy          # the digit transition, caught on the minute boundary
 npm run probe                                 # which forecast provider is answering, and why not
 npm run probe:transit                         # which departure provider is answering, and what it shows
 npm run audit                                 # every scene at 1280 x 720, checked for layout faults

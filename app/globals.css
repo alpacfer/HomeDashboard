@@ -1,6 +1,6 @@
 @import 'leaflet/dist/leaflet.css';
 @font-face { font-family:'Space Grotesk'; src:url('/fonts/space-grotesk-bold.ttf') format('truetype'); font-weight:700; font-style:normal; font-display:swap; }
-:root { --background:#111113; --foreground:#f3f2ee; --accent:#ff623b; --rain:#74caff; --snow:#dfeaf5; --muted:#93939d; --sun:#ffc554; --cloud:#b4b8c5; --moon:#c9cff5; --severe:#f08170; --warning:#ffb77f; --live:#5fd08a; }
+:root { --background:#111113; --foreground:#f3f2ee; --accent:#ff623b; --rain:#74caff; --snow:#dfeaf5; --muted:#93939d; --sun:#ffc554; --cloud:#b4b8c5; --moon:#c9cff5; --severe:#f08170; --warning:#ffb77f; --live:#5fd08a; --credit:#75757e; }
 * { box-sizing:border-box; }
 html,body { margin:0; min-height:100%; background:var(--background); }
 body { color:var(--foreground); font-family:'Space Grotesk',Arial,Helvetica,sans-serif; -webkit-font-smoothing:antialiased; }
@@ -245,10 +245,18 @@ a:focus-visible { outline:2px solid var(--foreground); outline-offset:8px; }
 .fact-illustration { margin:0; min-width:0; }
 .fact-illustration img { display:block; width:100%; aspect-ratio:4/3; max-height:45vh; object-fit:cover; object-position:center; border-radius:.6vw; background:#19191c; }
 .fact-image-fallback { display:grid; place-items:center; width:100%; min-height:28vh; padding:2vw; border:1px solid #303035; border-radius:.6vw; background:#19191c; color:var(--muted); font-size:1vw; text-align:center; }
-.fact-illustration figcaption { margin-top:.8vh; color:var(--muted); font-size:.8vw; text-align:right; line-height:1.4; }
+/* Attribution is required and nobody reads it from the sofa, so both credit
+   lines are furniture: one line each, around 8px, and a step dimmer than
+   --muted, which is the same treatment .forecast-map-credit already gets.
+   scripts/audit-ui.mjs exempts them from the legibility and contrast floors
+   for exactly this reason. The picture's credit is cut to a name by
+   tidyCredit in scripts/lib/fact-selection.mjs, so it fits beside the licence
+   rather than wrapping into a paragraph of provenance. */
+.fact-illustration figcaption { margin-top:.55vh; color:var(--credit); font-size:.62vw; text-align:right; line-height:1.35; }
 .fact-illustration a { color:inherit; text-decoration:none; }
-.fact-footer { display:flex; justify-content:space-between; align-items:baseline; gap:1vw; color:var(--muted); font-size:.9vw; line-height:1.4; }
+.fact-footer { display:flex; align-items:baseline; gap:.34vw; color:var(--credit); font-size:.62vw; line-height:1.35; }
 .fact-footer a { color:inherit; text-decoration:none; }
+.credit-dot { opacity:.55; }
 .daily-fact-unavailable { place-items:center; justify-content:center; color:var(--muted); font-size:1.25vw; text-align:center; }
 .forecast-map-scene { display:flex; flex-direction:column; min-width:0; min-height:0; }
 .forecast-map-scene:not(.is-active) { visibility:hidden; pointer-events:none; }
@@ -584,3 +592,9 @@ a:focus-visible { outline:2px solid var(--foreground); outline-offset:8px; }
   .panel-scene.is-active {animation:none;}
   .screen-progress-ring {animation-timing-function:steps(10,end);}
 }
+
+/* The clock's themes are not here. The custom properties above are the seam
+   they plug into; the layer framework is in app/clock-theme.css and each
+   theme is a file of its own beside it (app/clock-hillside.css), both
+   imported by app/layout.tsx. See docs/CLOCK.md. */
+

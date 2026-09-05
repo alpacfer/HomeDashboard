@@ -1,0 +1,380 @@
+/* ══ Hillside ═════════════════════════════════════════════════════════════
+   A hill above the harbour, lit by the real sun and rained on by the real
+   forecast. The framework and the layer contract are in app/clock-theme.css.
+
+   lib/clock-sky.ts puts three attributes on the widget, and every rule here
+   reads one of them:
+
+     data-light    night | dawn | day | dusk        the sun's true elevation
+     data-weather  clear | partly | cloudy | overcast | fog | rain | sleet | snow
+     data-fall     none | light | moderate | heavy  how hard it is coming down
+
+   They are independent, so snow at dawn and rain at night are already drawn
+   without a rule of their own. §1 owns the palette, §2-3 what is in the sky
+   and on the ground, §4 what falls, §5-6 what drifts and what grows, §7 the
+   numbers.
+
+   TWO CONVENTIONS worth knowing before editing:
+
+   * Some colours are switches. `--star` and `--cap` are transparent almost
+     always, and the star and snow-cap gradients are painted at every hour.
+     That is what keeps "it is night" and "it is snowing" to one declaration
+     each instead of a second copy of every layer.
+   * Cloud colours are OPAQUE, and the layer carries the translucency. Two
+     semi-transparent lobes never merge: the overlap goes brighter and you see
+     both circles, which reads as bokeh rather than as one cloud. Opaque lobes
+     merge into a single silhouette, and `opacity` on `.cs-bank` then makes
+     the whole mass as thin as the weather calls for.
+
+   TO ADD A LIGHT PHASE     one token block in §1, plus a value in SkyLight.
+   TO ADD A WEATHER         one attribute rule per layer it changes.
+   ═══════════════════════════════════════════════════════════════════════ */
+
+/* ── §1 Palette: the four lights ───────────────────────────────────────────
+   The bare values are dusk's — the hour this is named for, and the one a
+   display with no forecast yet should not be caught without. */
+
+.ct-hillside {
+  --sky-top:#12283a; --sky-mid:#1a3f52; --sky-low:#3f6a62; --sky-band:#c98a4a; --sky-horizon:#a85f2e;
+  --ridge:#1d4650; --canopy:#0f2a2a;
+  --sun-x:87%; --sun-y:58%; --sun-r:15px; --sun-core:#ffbe74; --sun-bloom:rgba(255,158,74,.55);
+  --haze:rgba(232,124,60,.34);
+  --cloud:#8a5a48; --cloud-lit:#e0a173; --cloud-far:.42; --cloud-far-clear:.24;
+  --warm:rgba(255,190,110,.22); --ring:rgba(255,212,152,.22);
+  --mote:rgba(255,226,170,.55);
+  --star:transparent; --cap:transparent;
+  --fall-a:.5; --fall-ms:650ms;
+
+  --clock-surface:
+    radial-gradient(34% 52% at var(--sun-x) var(--sun-y), var(--sun-bloom), transparent 74%),
+    radial-gradient(86% 116% at 102% 84%, var(--haze), transparent 64%),
+    linear-gradient(174deg, var(--sky-top) 0%, var(--sky-mid) 34%, var(--sky-low) 56%, var(--sky-band) 72%, var(--sky-horizon) 100%);
+  --clock-ring:var(--ring);
+}
+
+.ct-hillside[data-light='dawn'] {
+  --sky-top:#2a3c58; --sky-mid:#4d5a78; --sky-low:#9c7b7a; --sky-band:#e0a074; --sky-horizon:#c97d5c;
+  --ridge:#3a5560; --canopy:#20383a;
+  --sun-y:62%; --sun-r:13px; --sun-core:#ffdcb0; --sun-bloom:rgba(255,190,146,.48);
+  --haze:rgba(230,150,120,.28);
+  --cloud:#8e6668; --cloud-lit:#e8b79c;
+  --warm:rgba(255,206,168,.18); --ring:rgba(255,214,180,.20);
+  --mote:rgba(255,226,196,.45);
+}
+
+/* Midday hills are green and lit, not silhouettes: at this hour the sun is in
+   front of them rather than behind. */
+.ct-hillside[data-light='day'] {
+  --sky-top:#2f7ba3; --sky-mid:#529fbe; --sky-low:#8cc0c6; --sky-band:#b8d4c2; --sky-horizon:#cfe0cc;
+  --ridge:#43806a; --canopy:#2b5c44;
+  --sun-x:87%; --sun-y:19%; --sun-r:12px; --sun-core:#fff6dc; --sun-bloom:rgba(255,246,212,.5);
+  --haze:rgba(210,236,220,.20);
+  --cloud:#bccdd8; --cloud-lit:#edf3f7; --cloud-far:.5; --cloud-far-clear:.3;
+  --warm:rgba(255,250,224,.15); --ring:rgba(255,255,255,.26);
+  --mote:rgba(255,252,230,.5);
+}
+
+.ct-hillside[data-light='night'] {
+  --sky-top:#091420; --sky-mid:#0d1f2e; --sky-low:#142c3a; --sky-band:#1b3a42; --sky-horizon:#22454c;
+  --ridge:#10222c; --canopy:#0a161c;
+  --sun-x:84%; --sun-y:21%; --sun-r:9px; --sun-core:#dfe6f2; --sun-bloom:rgba(200,214,240,.20);
+  --haze:rgba(80,110,140,.14);
+  --cloud:#1b2a39; --cloud-lit:#334a60; --cloud-far:.36; --cloud-far-clear:.2;
+  --warm:rgba(190,208,240,.10); --ring:rgba(180,200,230,.14);
+  --star:rgba(232,240,255,.85); --mote:rgba(198,236,150,.5);
+}
+
+/* ── §2 Sky ───────────────────────────────────────────────────────────────*/
+
+/* The disc, and the stars that share its layer. Every star gradient is
+   painted at every hour; --star decides whether any of them are visible. */
+.ct-hillside .cs-sun {
+  background-image:
+    radial-gradient(circle 1.1px at 13% 17%, var(--star), transparent 100%),
+    radial-gradient(circle .9px at 29% 8%, var(--star), transparent 100%),
+    radial-gradient(circle 1.2px at 44% 21%, var(--star), transparent 100%),
+    radial-gradient(circle .8px at 57% 11%, var(--star), transparent 100%),
+    radial-gradient(circle 1px at 68% 28%, var(--star), transparent 100%),
+    radial-gradient(circle .9px at 21% 34%, var(--star), transparent 100%),
+    radial-gradient(circle 1.1px at 37% 41%, var(--star), transparent 100%),
+    radial-gradient(circle .8px at 8% 46%, var(--star), transparent 100%),
+    radial-gradient(circle calc(var(--sun-r) * 2.4) at var(--sun-x) var(--sun-y), var(--sun-bloom), transparent 100%),
+    radial-gradient(circle var(--sun-r) at var(--sun-x) var(--sun-y), var(--sun-core) 94%, transparent 100%);
+}
+
+/* High thin cloud: three wisps, far apart, so they never overlap and can keep
+   a soft full-radius fade. */
+.ct-hillside .cs-far {
+  --tile:190px; width:200%; opacity:var(--cloud-far);
+  background-image:
+    radial-gradient(26px 9px at 18% 24%, var(--cloud-lit), transparent 100%),
+    radial-gradient(34px 7px at 58% 40%, var(--cloud), transparent 100%),
+    radial-gradient(20px 6px at 86% 17%, var(--cloud-lit), transparent 100%);
+  background-size:var(--tile) 100%; background-repeat:repeat-x;
+  animation:cs-drift 210s linear infinite;
+}
+
+/* The bank: the mass of the sky, and the layer the weather moves.
+   Two clouds per tile. A cloud is a wide flat body with lumps sitting on it,
+   and every part of ONE cloud is one colour — that is what makes the lobes
+   merge into a single silhouette instead of reading as a heap of circles.
+   Variety belongs between the two clouds, never inside one.
+
+   The body is a wide, short ellipse rather than a circle clipped at the tile's
+   bottom edge. Clipping is how the ridge gets its flat base, and it is wrong
+   here twice over: a cloud's underside is soft, and every cloud clipped at the
+   same tile edge shares one y, which ruled a hard line across the whole card. */
+.ct-hillside .cs-bank {
+  --tile:268px; --band:46%; width:200%; opacity:0;
+  background-image:
+    /* Cloud A, wide, around x = 56. */
+    radial-gradient(circle 21px at 56px 46%, var(--cloud-lit) 92%, transparent 100%),
+    radial-gradient(circle 15px at 34px 55%, var(--cloud-lit) 92%, transparent 100%),
+    radial-gradient(circle 14px at 78px 54%, var(--cloud-lit) 92%, transparent 100%),
+    radial-gradient(40px 10px at 56px 62%, var(--cloud-lit) 88%, transparent 100%),
+    /* Cloud B, smaller and further off, around x = 190. */
+    radial-gradient(circle 16px at 190px 44%, var(--cloud) 92%, transparent 100%),
+    radial-gradient(circle 11px at 172px 52%, var(--cloud) 92%, transparent 100%),
+    radial-gradient(30px 8px at 190px 58%, var(--cloud) 88%, transparent 100%);
+  background-size:var(--tile) var(--band); background-repeat:repeat-x;
+  animation:cs-drift 290s linear infinite;
+}
+
+/* How much sky there is, and how low it hangs. */
+/* More sky means a lower, heavier bank — but only a little lower. --band is
+   the tile's height and the lobes are placed as a percentage of it, so growing
+   it walks the whole cloud down the card and straight behind the digits. Past
+   about 60% the numbers are standing on cloud rather than against sky, and no
+   text shadow rescues ivory on white. Weather is said with weight and colour
+   here, not by covering more of the card. */
+.ct-hillside[data-weather='clear'] .cs-far { opacity:var(--cloud-far-clear); }
+.ct-hillside[data-weather='partly'] .cs-bank { opacity:.5; }
+.ct-hillside[data-weather='cloudy'] .cs-bank { opacity:.72; --band:52%; }
+.ct-hillside[data-weather='overcast'] .cs-bank { opacity:.82; --band:56%; }
+.ct-hillside[data-weather='rain'] .cs-bank,
+.ct-hillside[data-weather='sleet'] .cs-bank,
+.ct-hillside[data-weather='snow'] .cs-bank { opacity:.88; --band:60%; }
+/* A raincloud is grey. Keeping the light phase's tint here would be prettier
+   and wrong, and it is also what put white cloud behind ivory digits. */
+.ct-hillside[data-weather='overcast'],
+.ct-hillside[data-weather='rain'],
+.ct-hillside[data-weather='sleet'],
+.ct-hillside[data-weather='snow'] { --cloud-lit:#9aa8b4; --cloud:#75828e; }
+.ct-hillside[data-light='night'][data-weather='overcast'],
+.ct-hillside[data-light='night'][data-weather='rain'],
+.ct-hillside[data-light='night'][data-weather='sleet'],
+.ct-hillside[data-light='night'][data-weather='snow'] { --cloud-lit:#2b3c4c; --cloud:#1e2c39; }
+
+/* A sun behind weather is a bright patch in the cloud, not a disc. */
+.ct-hillside[data-weather='overcast'] .cs-sun,
+.ct-hillside[data-weather='rain'] .cs-sun,
+.ct-hillside[data-weather='sleet'] .cs-sun,
+.ct-hillside[data-weather='snow'] .cs-sun,
+.ct-hillside[data-weather='fog'] .cs-sun { opacity:.22; }
+
+/* ── §3 Land ──────────────────────────────────────────────────────────────
+   Both ridges are crowns of six different radii above a solid band. The spans
+   overlap along the whole tile on purpose: a gap between two crowns exposes
+   the flat top of the band, and because that top is one y for the whole card
+   it reads as a ruled line rather than as a hill. */
+
+/* Ridge crowns span 0-36, 20-84, 76-120, 111-169, 162-210, 201-238. */
+.ct-hillside .cs-mid {
+  --tile:238px; --band:78%; width:200%;
+  background-image:
+    radial-gradient(circle 26px at 10px 100%, var(--ridge) 99%, transparent 100%),
+    radial-gradient(circle 32px at 52px 100%, var(--ridge) 99%, transparent 100%),
+    radial-gradient(circle 22px at 98px 100%, var(--ridge) 99%, transparent 100%),
+    radial-gradient(circle 29px at 140px 100%, var(--ridge) 99%, transparent 100%),
+    radial-gradient(circle 24px at 186px 100%, var(--ridge) 99%, transparent 100%),
+    radial-gradient(circle 27px at 228px 100%, var(--ridge) 99%, transparent 100%),
+    linear-gradient(var(--ridge),var(--ridge));
+  background-size:
+    var(--tile) var(--band), var(--tile) var(--band), var(--tile) var(--band),
+    var(--tile) var(--band), var(--tile) var(--band), var(--tile) var(--band),
+    100% calc(100% - var(--band));
+  background-position:0 0, 0 0, 0 0, 0 0, 0 0, 0 0, 0 100%;
+  background-repeat:repeat-x, repeat-x, repeat-x, repeat-x, repeat-x, repeat-x, no-repeat;
+  animation:cs-drift 470s linear infinite;
+}
+
+/* The near canopy, close enough for the wind to show in it.
+   Snow is the SECOND six gradients, not the first: the same crowns four pixels
+   higher, in --cap, painted BEHIND the canopy. Order is the whole trick. In
+   front, a cap is a white disc covering its crown, and the disc's bottom is
+   cut off flat at the band edge — six of them side by side ruled a bright line
+   right across the card. Behind, all that shows of it is the four pixels it
+   stands proud of its own crown, which is a rim of snow along each lump, and
+   its cut bottom is hidden by the crown and the band below. */
+.ct-hillside .cs-near {
+  --tile:272px; --band:85%; --sway:3px; width:calc(100% + 14px); left:-7px;
+  background-image:
+    radial-gradient(circle 30px at 12px 100%, var(--canopy) 99%, transparent 100%),
+    radial-gradient(circle 22px at 58px 100%, var(--canopy) 99%, transparent 100%),
+    radial-gradient(circle 34px at 104px 100%, var(--canopy) 99%, transparent 100%),
+    radial-gradient(circle 25px at 152px 100%, var(--canopy) 99%, transparent 100%),
+    radial-gradient(circle 31px at 200px 100%, var(--canopy) 99%, transparent 100%),
+    radial-gradient(circle 27px at 248px 100%, var(--canopy) 99%, transparent 100%),
+    radial-gradient(circle 30px at 12px calc(100% - 4px), var(--cap) 99%, transparent 100%),
+    radial-gradient(circle 22px at 58px calc(100% - 4px), var(--cap) 99%, transparent 100%),
+    radial-gradient(circle 34px at 104px calc(100% - 4px), var(--cap) 99%, transparent 100%),
+    radial-gradient(circle 25px at 152px calc(100% - 4px), var(--cap) 99%, transparent 100%),
+    radial-gradient(circle 31px at 200px calc(100% - 4px), var(--cap) 99%, transparent 100%),
+    radial-gradient(circle 27px at 248px calc(100% - 4px), var(--cap) 99%, transparent 100%),
+    linear-gradient(var(--canopy),var(--canopy));
+  background-size:
+    var(--tile) var(--band), var(--tile) var(--band), var(--tile) var(--band),
+    var(--tile) var(--band), var(--tile) var(--band), var(--tile) var(--band),
+    var(--tile) var(--band), var(--tile) var(--band), var(--tile) var(--band),
+    var(--tile) var(--band), var(--tile) var(--band), var(--tile) var(--band),
+    100% calc(100% - var(--band));
+  background-position:0 0, 0 0, 0 0, 0 0, 0 0, 0 0, 0 0, 0 0, 0 0, 0 0, 0 0, 0 0, 0 100%;
+  background-repeat:
+    repeat-x, repeat-x, repeat-x, repeat-x, repeat-x, repeat-x,
+    repeat-x, repeat-x, repeat-x, repeat-x, repeat-x, repeat-x, no-repeat;
+  animation:cs-sway 27s ease-in-out infinite;
+}
+
+.ct-hillside[data-weather='snow'] { --cap:rgba(226,238,244,.92); }
+.ct-hillside[data-weather='sleet'] { --cap:rgba(210,226,236,.5); }
+
+/* ── §4 What falls ────────────────────────────────────────────────────────*/
+
+.ct-hillside .cs-fall { opacity:0; }
+
+/* Rain. The layer is oversized and rotated so the streaks slant, and it is
+   shifted by exactly one tile height, which is what lets a 430 ms loop run all
+   night without a seam. */
+.ct-hillside[data-weather='rain'] .cs-fall,
+.ct-hillside[data-weather='sleet'] .cs-fall {
+  opacity:1; width:132%; height:150%; left:-16%; top:-25%;
+  background-image:
+    radial-gradient(1.1px 13px at 16px 12px, rgba(206,230,248,var(--fall-a)), transparent 100%),
+    radial-gradient(1px 10px at 52px 44px, rgba(196,222,244,var(--fall-a)), transparent 100%),
+    radial-gradient(1.2px 15px at 88px 26px, rgba(214,236,250,var(--fall-a)), transparent 100%),
+    radial-gradient(1px 11px at 122px 58px, rgba(196,222,244,var(--fall-a)), transparent 100%);
+  background-size:140px 70px;
+  animation:cs-rain var(--fall-ms) linear infinite;
+}
+
+/* Snow does not fall straight, so the track leans out and comes back. The
+   horizontal offset returns to zero at the end, which keeps it seamless. */
+.ct-hillside[data-weather='snow'] .cs-fall {
+  opacity:1; width:132%; height:150%; left:-16%; top:-25%;
+  background-image:
+    radial-gradient(circle 2px at 22px 16px, rgba(255,255,255,var(--fall-a)), transparent 100%),
+    radial-gradient(circle 1.5px at 74px 52px, rgba(248,252,255,var(--fall-a)), transparent 100%),
+    radial-gradient(circle 2.4px at 118px 30px, rgba(255,255,255,var(--fall-a)), transparent 100%),
+    radial-gradient(circle 1.6px at 44px 84px, rgba(244,250,255,var(--fall-a)), transparent 100%),
+    radial-gradient(circle 1.9px at 152px 70px, rgba(255,255,255,var(--fall-a)), transparent 100%);
+  background-size:180px 100px;
+  animation:cs-snow 11s linear infinite;
+}
+
+.ct-hillside[data-fall='light'] { --fall-a:.34; --fall-ms:900ms; }
+.ct-hillside[data-fall='moderate'] { --fall-a:.58; --fall-ms:640ms; }
+.ct-hillside[data-fall='heavy'] { --fall-a:.85; --fall-ms:430ms; }
+
+@keyframes cs-rain { from {transform:rotate(-12deg) translate3d(0,0,0);} to {transform:rotate(-12deg) translate3d(0,70px,0);} }
+@keyframes cs-snow { 0% {transform:translate3d(0,0,0);} 50% {transform:translate3d(8px,50px,0);} 100% {transform:translate3d(0,100px,0);} }
+
+/* Fog takes the distance away: the ridge nearly goes, the near canopy only
+   softens, and the whole card is veiled. That is depth, drawn by removing it. */
+.ct-hillside[data-weather='fog'] .cs-bank {
+  opacity:1;
+  background-image:linear-gradient(184deg, rgba(206,216,214,0) 0%, rgba(206,216,214,.30) 46%, rgba(214,222,220,.44) 72%, rgba(206,216,214,.22) 100%);
+  background-size:100% 100%; animation:none;
+}
+.ct-hillside[data-weather='fog'] .cs-mid { opacity:.34; }
+.ct-hillside[data-weather='fog'] .cs-near { opacity:.76; }
+
+/* ── §5 What drifts, and the light ────────────────────────────────────────*/
+
+/* Motes off the hill by day, and whatever it is that blinks over a hillside
+   after dark. */
+.ct-hillside .cs-air {
+  --tile:96px; width:200%;
+  background-image:
+    radial-gradient(circle 1.5px at 21% 32%, var(--mote), transparent 100%),
+    radial-gradient(circle 1.1px at 63% 69%, var(--mote), transparent 100%),
+    radial-gradient(circle 1.7px at 85% 19%, var(--mote), transparent 100%),
+    radial-gradient(circle 1.2px at 42% 84%, var(--mote), transparent 100%);
+  background-size:var(--tile) 74px;
+  animation:cs-drift 128s linear infinite, cs-breathe 11s ease-in-out infinite;
+}
+.ct-hillside[data-light='night'] .cs-air { animation:cs-drift 190s linear infinite, cs-breathe 4.5s ease-in-out infinite; }
+/* Nothing drifts through rain hard enough to be seen. */
+.ct-hillside[data-weather='rain'] .cs-air,
+.ct-hillside[data-weather='snow'] .cs-air,
+.ct-hillside[data-weather='sleet'] .cs-air { opacity:0; }
+
+.ct-hillside .clock-light { background:radial-gradient(66% 108% at 97% 108%, var(--warm), transparent 64%); }
+
+/* ── §6 What grows on the clock ───────────────────────────────────────────
+   A vine up the left frame with the light on its west side, and a tuft in the
+   corner the Tenant does not stand in. Both lean from the base, in the same
+   wind that moves the canopy. These are paths because a stem is a curve and a
+   curve is not a gradient; they are inline, so they cost no request and no
+   decode. */
+
+.ct-hillside .cs-flora {
+  background-image:
+    url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 34 150'%3E%3Cpath d='M9 151C13 128 5 112 11 94 17 77 12 60 19 44 23 34 26 25 32 19' fill='none' stroke='%23234f38' stroke-width='2.5' stroke-linecap='round'/%3E%3Cg fill='%232d6a45'%3E%3Cellipse cx='4' cy='128' rx='8.5' ry='4' transform='rotate(-26 4 128)'/%3E%3Cellipse cx='17' cy='112' rx='7.5' ry='3.6' transform='rotate(22 17 112)'/%3E%3Cellipse cx='4' cy='94' rx='9' ry='4.2' transform='rotate(-31 4 94)'/%3E%3Cellipse cx='21' cy='77' rx='8' ry='3.8' transform='rotate(26 21 77)'/%3E%3Cellipse cx='6' cy='60' rx='8.5' ry='4' transform='rotate(-29 6 60)'/%3E%3Cellipse cx='26' cy='44' rx='7.5' ry='3.6' transform='rotate(24 26 44)'/%3E%3Cellipse cx='22' cy='26' rx='7' ry='3.4' transform='rotate(-22 22 26)'/%3E%3C/g%3E%3Cg fill='%233f8a58'%3E%3Cellipse cx='6' cy='126.5' rx='5' ry='2' transform='rotate(-26 6 126.5)'/%3E%3Cellipse cx='6' cy='92.5' rx='5.2' ry='2.1' transform='rotate(-31 6 92.5)'/%3E%3Cellipse cx='8' cy='58.5' rx='5' ry='2' transform='rotate(-29 8 58.5)'/%3E%3C/g%3E%3Ccircle cx='32' cy='19' r='2.4' fill='%23f2e2b4'/%3E%3Ccircle cx='28' cy='14' r='1.7' fill='%23e8d49f'/%3E%3C/svg%3E"),
+    url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 54 26'%3E%3Cg fill='none' stroke='%231e4a34' stroke-width='2.1' stroke-linecap='round'%3E%3Cpath d='M8 26C8 18 5 12 2 8'/%3E%3Cpath d='M14 26C14 17 16 11 20 6'/%3E%3Cpath d='M20 26C20 19 18 13 15 9'/%3E%3Cpath d='M34 26C34 18 37 12 41 8'/%3E%3Cpath d='M41 26C41 18 39 12 36 8'/%3E%3Cpath d='M47 26C47 19 49 14 52 10'/%3E%3C/g%3E%3Cg fill='%232f6b46'%3E%3Cellipse cx='24' cy='16' rx='6' ry='2.8' transform='rotate(28 24 16)'/%3E%3Cellipse cx='31' cy='21' rx='5.4' ry='2.5' transform='rotate(-20 31 21)'/%3E%3C/g%3E%3C/svg%3E");
+  background-position:left 3px bottom 3px, right 13px bottom 1px;
+  background-size:auto 92%, 50px 24px;
+  animation:cs-lean 21s ease-in-out infinite;
+}
+/* After dark the plants are silhouettes like everything else on the hill. */
+.ct-hillside[data-light='dusk'] .cs-flora { filter:brightness(.72); }
+.ct-hillside[data-light='night'] .cs-flora { filter:brightness(.42); }
+
+/* ── §7 The numbers ───────────────────────────────────────────────────────*/
+
+.ct-hillside .clock-block {
+  --digit-font:'Fraunces',Georgia,serif; --digit-weight:600; --digit-var:'opsz' 144,'SOFT' 62,'WONK' 1;
+  --date-font:'Fraunces',Georgia,serif; --date-weight:500; --date-space:.24em;
+  /* The date crosses the canopy, and the canopy is lit green at midday and a
+     silhouette at dusk, with snow on it in winter. A tinted date read well on
+     exactly one of those, so it is near-white like the digits and leans on a
+     shadow instead. */
+  --ink:#fdf3de; --colon:#ff9f5c; --date-ink:#ece7d6;
+  --glow:none;
+}
+
+/* That shadow cannot be a text-shadow on the digits. Each cell clips its own
+   overflow, which is what makes the roll read as a roll, and a blurred shadow
+   reaching the edge of a .62em cell is cut off square there — drawing a faint
+   rectangle around every digit, on every sky. A filter on the line as a whole
+   is applied after that clip, so the shadow is cast from the glyph shapes and
+   is free to land outside their boxes. The date is clipped by nothing, so it
+   keeps the cheaper text-shadow. */
+.ct-hillside .clock { filter:drop-shadow(0 .028em .062em rgba(5,16,22,.72)); }
+.ct-hillside .clock-date { text-shadow:0 1px 2px rgba(5,16,22,.85); }
+
+/* The minute changes the way the weather is moving. In fair weather a breeze
+   lifts the old digit off the hill and sets the new one down after it, with a
+   small overshoot so it settles rather than stops. The cells clip, so all of
+   this is vertical: a digit blown sideways would be cut off at its own edge. */
+@keyframes ct-hillside-in { 0% {opacity:0;transform:translateY(66%) scale(.94);} 62% {opacity:1;transform:translateY(-5%) scale(1.012);} 100% {opacity:1;transform:none;} }
+@keyframes ct-hillside-out { 0% {opacity:1;transform:none;} 100% {opacity:0;transform:translateY(-60%) scale(.95) rotate(-2deg);} }
+.ct-hillside .digit-in { animation:ct-hillside-in 840ms cubic-bezier(.17,.89,.24,1) var(--roll-delay) both; }
+.ct-hillside .digit-out { animation:ct-hillside-out 840ms cubic-bezier(.42,0,.72,.42) var(--roll-delay) both; }
+
+/* In rain the digits go the way the rain goes: the old one is washed down off
+   the bottom and the new one arrives from above behind it. */
+@keyframes ct-hillside-wash-in { 0% {opacity:0;transform:translateY(-64%) scale(.95);} 64% {opacity:1;transform:translateY(4%) scale(1.01);} 100% {opacity:1;transform:none;} }
+@keyframes ct-hillside-wash-out { 0% {opacity:1;transform:none;} 100% {opacity:0;transform:translateY(62%) scale(.96) rotate(1.5deg);} }
+.ct-hillside[data-weather='rain'] .digit-in,
+.ct-hillside[data-weather='sleet'] .digit-in { animation-name:ct-hillside-wash-in; }
+.ct-hillside[data-weather='rain'] .digit-out,
+.ct-hillside[data-weather='sleet'] .digit-out { animation-name:ct-hillside-wash-out; }
+
+/* Heavy rain hurries the minute along. This comes before the snow rule and
+   not after it, because the two match at the same specificity and heavy snow
+   is still snow: it should keep snow's pace, not rain's. */
+.ct-hillside[data-fall='heavy'] .digit-in,
+.ct-hillside[data-fall='heavy'] .digit-out { animation-duration:620ms; }
+/* Snow does not hurry, and neither does the minute while it is falling. */
+.ct-hillside[data-weather='snow'] .digit-in,
+.ct-hillside[data-weather='snow'] .digit-out { animation-duration:1240ms; }

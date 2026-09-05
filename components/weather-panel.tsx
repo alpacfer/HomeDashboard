@@ -205,9 +205,11 @@ export default function WeatherPanel({ now, onConditions }: { now: Date | null; 
   // Report the current hour to the clock once per change, not once per tick.
   const reportedTemperature = view?.current?.temperature ?? null;
   const reportedWet = current?.wet ?? false;
+  const reportedKind = current?.kind ?? null;
+  const reportedBand = current?.band ?? null;
   useEffect(() => {
-    onConditions?.({ temperature: reportedTemperature, wet: reportedWet });
-  }, [onConditions, reportedTemperature, reportedWet]);
+    onConditions?.({ temperature: reportedTemperature, wet: reportedWet, kind: reportedKind, band: reportedBand });
+  }, [onConditions, reportedTemperature, reportedWet, reportedKind, reportedBand]);
   const daylight = view ? isDaylight(view.ribbon[0].timestamp + 1800000) : true;
   const Icon = current ? (daylight ? ICONS[current.kind] : NIGHT_ICONS[current.kind] ?? ICONS[current.kind]) : CloudOff;
   // Two separate facts. `stale` is about the data: older than STALE_MS, so the

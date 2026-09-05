@@ -19,7 +19,7 @@
 // The Tenant's targets are measured from the digits' real ink, not their cells,
 // so it stands on the top of a "1" and shoves the edge of a "7".
 
-import { useCallback, useEffect, useRef, useState, type CSSProperties } from 'react';
+import { useCallback, useEffect, useRef, useState, useSyncExternalStore, type CSSProperties } from 'react';
 import { changedDigits, clockDate, clockFrame } from '@/lib/clock-motion';
 import { moodContext, type Conditions } from '@/lib/clock-conditions';
 import {
@@ -27,6 +27,8 @@ import {
   type Box, type Targets, type WorldSpotId,
 } from '@/lib/clock-tenant';
 import type { Rotation } from '@/lib/panel-rotation';
+import { DEFAULT_CLOCK_THEME, clockTheme, clockThemeClass, hasScenery } from '@/lib/clock-theme';
+import { clockSky, parsePinnedSky } from '@/lib/clock-sky';
 import Tenant from './tenant';
 
 // The Tenant is 0.42 of the clock's font size tall and rests 0.08 of it right
@@ -43,6 +45,19 @@ const PROFILE_H = 150;
 // How long the colon's dots squash after the Tenant lands on them.
 const PLAY_MS = 900;
 
+// The theme as an external store, read once per load. A theme is a name from
+// the URL, so the snapshot is a string and stays equal to itself between
+// renders; nothing ever changes it, so the subscription is a no-op unsubscribe
+// rather than a listener that would have to be torn down.
+const subscribeToNothing = () => () => undefined;
+const urlTheme = () => clockTheme(window.location.search);
+const serverTheme = () => DEFAULT_CLOCK_THEME;
+// The `?sky=` pin travels as its raw string rather than as the parsed object,
+// because a snapshot has to stay equal to itself between renders and a fresh
+// object literal never is.
+const urlSky = () => new URLSearchParams(window.location.search).get('sky') ?? '';
+const serverSky = () => '';
+
 type Play = { id: 'land' | 'spring'; key: number };
 
 export default function Clock({ now, conditions = null, activeScene = 'transport', petPreview = null, petTravel = null }: {
@@ -56,6 +71,16 @@ export default function Clock({ now, conditions = null, activeScene = 'transport
   const next = clockFrame(now, frame);
   if (next !== frame) setFrame(next);
   const digits = changedDigits(next);
+
+  // The theme is read from the URL after hydration rather than during render:
+  // the server has no location, and a class that differed between the two
+  // would be a hydration mismatch. Reading it through a store rather than
+  // setting state from an effect is what keeps that from costing a second
+  // render of the whole widget on every load. The URL never changes on the
+  // wall, so there is nothing to subscribe to. The display loads once and then
+  // runs for weeks, so the first frame it spends plain is never seen.
+  const theme = useSyncExternalStore(subscribeToNothing, urlTheme, serverTheme);
+  const skyPin = useSyncExternalStore(subscribeToNothing, urlSky, serverSky);
 
   const [targets, setTargets] = useState<Targets | null>(null);
   const [play, setPlay] = useState<Play | null>(null);
@@ -245,10 +270,31 @@ export default function Clock({ now, conditions = null, activeScene = 'transport
     play ? 'tn-' + play.id : '',
     mood === 'asleep' ? 'is-asleep' : ''].filter(Boolean).join(' ');
 
-  return <section className="clock-widget" aria-label="Time and date">
+  const scenery = hasScenery(theme);
+  // What the theme paints, from the real sun and the reported hour. Null until
+  // the first tick; the three attributes are then simply absent, which leaves
+  // the stylesheet on its own defaults rather than on a sky invented for a
+  // moment nobody sees.
+  const sky = now
+    ? clockSky(now.getTime(), conditions?.kind ?? null, conditions?.band ?? null, parsePinnedSky(skyPin))
+    : null;
+
+  return <section className={('clock-widget ' + clockThemeClass(theme)).trim()} aria-label="Time and date"
+    data-light={sky?.light} data-weather={sky?.weather} data-fall={sky?.fall}>
     {/* The background of the widget, on its own layer so the frame itself can
-        stay unclipped for the Tenant. Restyle it through --clock-surface. */}
-    <div className="clock-surface" aria-hidden="true" />
+        stay unclipped for the Tenant. Restyle it through --clock-surface.
+        A theme paints its place into these layers, back to front: the disc and
+        the stars, high cloud, the bank the weather moves, the far ridge, the
+        near canopy, whatever is falling, and whatever is drifting. They are
+        empty spans because a theme draws them in CSS alone, and they exist
+        only when a theme is on, so the plain card keeps the DOM it always
+        had. */}
+    <div className="clock-surface" aria-hidden="true">
+      {scenery && <>
+        <span className="cs-sun" /><span className="cs-far" /><span className="cs-bank" /><span className="cs-mid" />
+        <span className="cs-near" /><span className="cs-fall" /><span className="cs-air" />
+      </>}
+    </div>
 
     <div className={className} ref={blockRef}>
       <h1 className={'clock' + (now ? ' is-live' : '')} aria-label={now ? next.text : 'Loading time'}>
@@ -269,5 +315,18 @@ export default function Clock({ now, conditions = null, activeScene = 'transport
       {targets && !reduced && <Tenant mood={mood} targets={targets} activeScene={activeScene} previewSpot={petPreview} travelSpot={petTravel} rollKey={rollKey}
         nextDigit={nextDigit} rolledDigit={rolledDigit} busy={false} onPlay={onPlay} />}
     </div>
+
+    {/* The light of the place, falling on the digits and on the Tenant rather
+        than behind them: it is what stops the scenery reading as a picture
+        pasted behind a clock. It is the block's later sibling on purpose,
+        because that is what puts it above without giving the block a stacking
+        context the travelling character could not leave. It clips to the card,
+        so a Tenant out visiting the dashboard is not lit by it. */}
+    {scenery && <div className="clock-light" aria-hidden="true" />}
+
+    {/* What grows on the clock. Outside the clipped surface, so a leaf can sit
+        on the frame and overhang the edge; in front of the block, so it is
+        plainly growing on the card rather than painted behind it. */}
+    {scenery && <div className="cs-flora" aria-hidden="true" />}
   </section>;
 }
