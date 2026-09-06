@@ -26,6 +26,52 @@ export type Departure = { id: string; scheduled: number; expected: number; cance
 export type TransitSource = 'rejseplanen' | 'transitous';
 export type TransitData = { status: 'ready' | 'needs_key' | 'unavailable'; generatedAt: number; boards: Record<string, Departure[]>; source?: TransitSource };
 
+const STATUSES: readonly string[] = ['ready', 'needs_key', 'unavailable'];
+const SEVERITIES: readonly string[] = ['severe', 'warning', 'info'];
+const SOURCES: readonly string[] = ['rejseplanen', 'transitous'];
+
+function validAlert(value: unknown): value is DepartureAlert {
+  const alert = value as DepartureAlert | null;
+  return !!alert && typeof alert === 'object'
+    && SEVERITIES.includes(alert.severity) && typeof alert.text === 'string';
+}
+
+function validDeparture(value: unknown): value is Departure {
+  const departure = value as Departure | null;
+  if (!departure || typeof departure !== 'object') return false;
+  if (typeof departure.id !== 'string') return false;
+  // Finite, not merely numeric: the panel subtracts these from Date.now() to
+  // decide "in 4 min", and NaN compares false against every threshold, so a
+  // bad timestamp reads as neither late nor early nor stale.
+  if (!Number.isFinite(departure.scheduled) || !Number.isFinite(departure.expected)) return false;
+  if (!Number.isFinite(departure.delay)) return false;
+  if (typeof departure.cancelled !== 'boolean' || typeof departure.realtime !== 'boolean') return false;
+  if (departure.track !== null && typeof departure.track !== 'string') return false;
+  if (departure.scheduledTrack !== null && typeof departure.scheduledTrack !== 'string') return false;
+  return Array.isArray(departure.alerts) && departure.alerts.every(validAlert);
+}
+
+/**
+ * The `/api/departures` body, checked before it reaches React state.
+ *
+ * Same origin is not the same as trusted: the route answers 503 with its own
+ * shape, a proxy or a cold Render instance can answer with something else
+ * entirely, and the panel does arithmetic on `generatedAt` the moment it
+ * arrives. A body that is merely well-formed-looking is the dangerous one --
+ * a string `generatedAt` makes `now - generatedAt` NaN, which is not greater
+ * than the stale threshold or the expired one, so the board would sit there
+ * showing yesterday's departures with nothing marking them.
+ */
+export function validTransitData(value: unknown): value is TransitData {
+  const data = value as TransitData | null;
+  if (!data || typeof data !== 'object') return false;
+  if (!STATUSES.includes(data.status)) return false;
+  if (!Number.isFinite(data.generatedAt)) return false;
+  if (data.source !== undefined && !SOURCES.includes(data.source)) return false;
+  if (!data.boards || typeof data.boards !== 'object' || Array.isArray(data.boards)) return false;
+  return Object.values(data.boards).every(board => Array.isArray(board) && board.every(validDeparture));
+}
+
 // What is wrong with a departure, most severe first, as short strings the
 // display can print without further formatting. The wall is read at a glance
 // from across a room, so the label carries the whole message: there is no

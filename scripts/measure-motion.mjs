@@ -51,6 +51,11 @@
 //
 // For a moving element, the report also verifies that every position-changing
 // frame belongs to the Tenant's charge/parabola pipeline (or to a fall).
+//
+// It exits 1 on a fault and only on a fault: a canvas that flickers, movement
+// outside the jump pipeline, or a jump whose worst frame gap is more than
+// twice its median. A window in which no jump happened to begin is not a
+// fault — the Tenant chooses when to move — so it exits 0 and says so.
 
 import { fileURLToPath } from 'node:url';
 import { findChrome, launchChrome, openPage, pageUrl, waitForServer } from './lib/browser.mjs';
@@ -251,7 +256,13 @@ async function main() {
       const problems = logged.filter(entry => ['warning', 'error', 'exception'].includes(entry.level));
       if (problems.length) console.log('\n' + problems.length + ' console warning(s)/error(s)' + (options.console ? '' : ' (pass --console to see them)'));
       if (options.console) for (const entry of logged) console.log('  [' + entry.level + '] ' + entry.text);
-      if (measured.jumps < 1 || measured.outsidePipeline > 0) process.exitCode = 1;
+      // Only a fault fails. "No jump began" is an observation about the window,
+      // not about the code: the Tenant decides when to move, so watching a
+      // scene where it happened to sit still is a measurement that did not
+      // happen, and exiting 1 for it hands anyone scripting this tool a red
+      // run with a green message. Movement outside the jump pipeline, and a
+      // gap that dwarfs the median, are the two things actually wrong.
+      if (measured.outsidePipeline > 0 || (measured.jumps >= 1 && evenness > 2)) process.exitCode = 1;
       return;
     }
     if (measured.paints < 2) {

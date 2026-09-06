@@ -43,6 +43,22 @@ function preloadArtwork(src: string, priority: 'high' | 'low' = 'low') {
   }, { once: true });
 }
 
+/**
+ * Drop every decoded image that is not one of `keep`.
+ *
+ * The cache only ever needs today's five. Without this it gained five more at
+ * every Copenhagen midnight and released none, because the only delete was on
+ * a load error — a slow leak of decoded bitmaps that a reload would have
+ * hidden, on the one display that never gets one. A week of uptime is
+ * thirty-five images the page can no longer show.
+ */
+function retainArtwork(keep: Iterable<string>) {
+  const wanted = new Set(keep);
+  for (const src of artworkCache.keys()) {
+    if (!wanted.has(src)) artworkCache.delete(src);
+  }
+}
+
 function FactStill({ fact, onError }: { fact: DailyFact; onError: () => void }) {
   // Wikimedia thumbnails are loaded from the licensed source stored with each fact.
   // eslint-disable-next-line @next/next/no-img-element
@@ -138,6 +154,10 @@ function FactArtwork({ fact, playing, onVideoFail }: { fact: DailyFact; playing:
   return <FactStill fact={fact} onError={() => setFailed(true)} />;
 }
 
+// A static JSON file off the same origin, so this is generous. It exists to
+// bound the wait, not to tune it: Render's free instance can be cold.
+const REQUEST_TIMEOUT_MS = 15_000;
+
 function useDailyFacts() {
   const [date, setDate] = useState('');
   const [facts, setFacts] = useState<DailyFact[]>([]);
@@ -149,10 +169,16 @@ function useDailyFacts() {
     let controller: AbortController | undefined;
     const load = async (key: string) => {
       controller?.abort();
-      controller = new AbortController();
+      const own = new AbortController();
+      controller = own;
+      // Its own deadline, like every other fetch here. The minute timer below
+      // would eventually abort a hung request by starting the next one, but
+      // that leaves a socket and a 'loading' caption open for a whole minute
+      // on a display that is showing the caption to the room.
+      const timeout = window.setTimeout(() => own.abort(), REQUEST_TIMEOUT_MS);
       setStatus('loading');
       try {
-        const response = await fetch(`/facts/daily/${key}.json`, { signal: controller.signal, cache: 'no-cache' });
+        const response = await fetch(`/facts/daily/${key}.json`, { signal: own.signal, cache: 'no-cache' });
         if (!response.ok) throw new Error('Daily facts unavailable');
         const value: unknown = await response.json();
         if (!validDailyFacts(value, key)) throw new Error('Invalid daily facts');
@@ -164,6 +190,8 @@ function useDailyFacts() {
       } catch (error) {
         if (!active || (error instanceof DOMException && error.name === 'AbortError')) return;
         setStatus('error');
+      } finally {
+        window.clearTimeout(timeout);
       }
     };
     const pinned = pinnedDateKey(window.location.search);
@@ -264,6 +292,10 @@ export default function RotatingPanel({ onSceneChange }: { onSceneChange?: (scen
   useEffect(() => {
     if (!facts.length) return;
     const timer = window.setTimeout(() => {
+      // Today's five are the whole working set. Releasing yesterday's here,
+      // rather than on unmount, is what keeps this bounded on a display that
+      // crosses midnight a few hundred times between reloads.
+      retainArtwork(facts.map(item => item.image.src));
       for (const item of facts) preloadArtwork(item.image.src);
     }, 1_000);
     return () => window.clearTimeout(timer);

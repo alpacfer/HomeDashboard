@@ -1,6 +1,6 @@
 import { test } from 'node:test';
 import assert from 'node:assert/strict';
-import { alertText, boardIncidents, departureIncidents, departureTimestamp, filterDepartures, resolveStop, serviceHeadway } from '../lib/transit.ts';
+import { alertText, boardIncidents, departureIncidents, departureTimestamp, filterDepartures, resolveStop, serviceHeadway, validTransitData } from '../lib/transit.ts';
 
 const now = Date.parse('2026-08-31T18:00:00Z');
 const departure = (overrides = {}) => ({
@@ -171,4 +171,61 @@ test('headway ignores departures that have gone or been cancelled', () => {
   assert.equal(serviceHeadway(past, '184', 'north', now), 20, 'a departed service is not part of the next hour');
   const cancelled = ready({ '184:north': [...board([2, 22, 42]), ...board([52], { cancelled: true })] });
   assert.equal(serviceHeadway(cancelled, '184', 'north', now), 20);
+});
+
+// The /api/departures body is same-origin but not therefore trustworthy: the
+// route answers 503 with its own shape, and a cold Render instance or a proxy
+// can answer with something else entirely.
+const apiDeparture = (overrides = {}) => ({
+  id: '184-1', scheduled: now, expected: now, cancelled: false, realtime: true,
+  delay: 0, track: null, scheduledTrack: null, alerts: [], ...overrides,
+});
+const body = (overrides = {}) => ({
+  status: 'ready', generatedAt: now, boards: { '184:north': [apiDeparture()] }, ...overrides,
+});
+
+test('accepts a well-formed departures body, with and without a source', () => {
+  assert.equal(validTransitData(body()), true);
+  assert.equal(validTransitData(body({ source: 'rejseplanen' })), true);
+  assert.equal(validTransitData(body({ source: 'transitous' })), true);
+  assert.equal(validTransitData(body({ status: 'needs_key', boards: {} })), true);
+  assert.equal(validTransitData(body({ boards: { '184:north': [] } })), true);
+});
+
+test('rejects a body whose generatedAt is not a finite number', () => {
+  // The failure this validator exists for. The panel does now - generatedAt to
+  // decide stale and expired; NaN is greater than neither, so an unvalidated
+  // string would leave yesterday's departures on the wall unmarked.
+  for (const generatedAt of ['2026-09-06', null, undefined, NaN, Infinity, {}]) {
+    assert.equal(validTransitData(body({ generatedAt })), false, String(generatedAt));
+  }
+});
+
+test('rejects a malformed departures body', () => {
+  for (const value of [null, undefined, 42, 'ready', [], {}]) {
+    assert.equal(validTransitData(value), false, String(value));
+  }
+  assert.equal(validTransitData(body({ status: 'fine' })), false);
+  assert.equal(validTransitData(body({ source: 'guessed' })), false);
+  assert.equal(validTransitData(body({ boards: null })), false);
+  assert.equal(validTransitData(body({ boards: [] })), false);
+  assert.equal(validTransitData(body({ boards: { '184:north': {} } })), false);
+});
+
+test('rejects a departure with a field of the wrong shape', () => {
+  const bad = fields => validTransitData(body({ boards: { '184:north': [apiDeparture(fields)] } }));
+  assert.equal(bad({ id: 7 }), false);
+  assert.equal(bad({ scheduled: 'soon' }), false);
+  assert.equal(bad({ expected: null }), false);
+  assert.equal(bad({ delay: NaN }), false);
+  assert.equal(bad({ cancelled: 'no' }), false);
+  assert.equal(bad({ realtime: 1 }), false);
+  assert.equal(bad({ track: 7 }), false);
+  assert.equal(bad({ scheduledTrack: {} }), false);
+  assert.equal(bad({ alerts: null }), false);
+  assert.equal(bad({ alerts: [{ severity: 'nasty', text: 'x' }] }), false);
+  assert.equal(bad({ alerts: [{ severity: 'severe', text: 5 }] }), false);
+  // A platform genuinely absent is null, and that is not a fault.
+  assert.equal(bad({ track: null, scheduledTrack: null }), true);
+  assert.equal(bad({ alerts: [{ severity: 'info', text: 'Lift out of service' }] }), true);
 });

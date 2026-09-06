@@ -86,11 +86,46 @@ const PAIRS = [
   [/\brequestAnimationFrame\(/, /\bcancelAnimationFrame\(/, 'requestAnimationFrame without cancelAnimationFrame'],
   [/\bL\.map\(/, /\.remove\(\)/, 'a Leaflet map without .remove()'],
   [/\bnew ResizeObserver\(/, /\.disconnect\(\)/, 'a ResizeObserver without .disconnect()'],
+  [/\bnew IntersectionObserver\(/, /\.disconnect\(\)/, 'an IntersectionObserver without .disconnect()'],
+  [/\bnew MutationObserver\(/, /\.disconnect\(\)/, 'a MutationObserver without .disconnect()'],
+  [/\bnew PerformanceObserver\(/, /\.disconnect\(\)/, 'a PerformanceObserver without .disconnect()'],
+  [/\bnew EventSource\(/, /\.close\(\)/, 'an EventSource without .close()'],
+  [/\bnew WebSocket\(/, /\.close\(\)/, 'a WebSocket without .close()'],
+  [/\bnew Worker\(/, /\.terminate\(\)/, 'a Worker without .terminate()'],
+  // AGENTS.md names the wake lock as something components own, and
+  // keep-awake.tsx has always released it by hand with nothing checking.
+  [/wakeLock\.request\(/, /\.release\(\)/, 'a wake lock without .release()'],
 ];
-for (const file of await list('components', /\.tsx?$/)) {
-  const source = await read(file);
-  for (const [create, destroy, message] of PAIRS) {
-    if (create.test(source) && !destroy.test(source)) fail(file, message + '. Every effect must clean up what it starts.');
+// app/ as well as components/: page.tsx runs a 1 Hz interval and four
+// listeners, and was never scanned. Recursive, so a component moved into a
+// subdirectory does not leave the check behind.
+for (const dir of ['components', 'app']) {
+  for (const name of (await readdir(path.join(ROOT, dir), { recursive: true })).filter(entry => /\.tsx?$/.test(entry))) {
+    const file = dir + '/' + name.split(path.sep).join('/');
+    const source = await read(file);
+    for (const [create, destroy, message] of PAIRS) {
+      if (create.test(source) && !destroy.test(source)) fail(file, message + '. Every effect must clean up what it starts.');
+    }
+  }
+}
+
+// 3b. Every fetch is given a deadline. A request that never settles leaves the
+//     in-flight flag set for good and ends all refreshing on a display nobody
+//     reloads -- the one failure this repository cannot recover from by
+//     itself. AGENTS.md has required it since the pattern was written down;
+//     nothing checked, and rotating-panel.tsx had been without one for a while.
+const DEADLINE = /setTimeout\(\s*\(\s*\)\s*=>\s*[\w.]+\.abort\(\)|AbortSignal\.timeout\(/;
+for (const dir of ['components', 'app']) {
+  for (const name of (await readdir(path.join(ROOT, dir), { recursive: true })).filter(entry => /\.tsx?$/.test(entry))) {
+    const file = dir + '/' + name.split(path.sep).join('/');
+    const source = await read(file);
+    if (!/\bfetch\(/.test(source)) continue;
+    if (!/new AbortController\(/.test(source)) {
+      fail(file, 'fetches without an AbortController. Copy components/weather-panel.tsx.');
+    } else if (!DEADLINE.test(source)) {
+      fail(file, 'has an AbortController but never arms it on a timer. Add setTimeout(() => controller.abort(), MS)'
+        + ' and clear it in a finally, as components/weather-panel.tsx does. A request that never settles never refreshes again.');
+    }
   }
 }
 
@@ -121,6 +156,24 @@ for (const [event, entries] of Object.entries(settings.hooks ?? {})) {
   for (const entry of entries) for (const hook of entry.hooks ?? []) {
     const script = hook.command.match(/scripts\/[\w./-]+\.mjs/)?.[0];
     if (script && !existsSync(path.join(ROOT, script))) fail('.claude/settings.json', event + ' hook runs ' + script + ', which does not exist');
+  }
+}
+
+// 6b. The guard hook and AGENTS.md must describe the same protected files.
+//     They had already drifted: AGENTS.md named render.yaml, the hook did not,
+//     and the hook blocked package-lock.json, which AGENTS.md never mentioned.
+//     Two descriptions of one rule, and nothing comparing them, so whichever
+//     an agent happened to read was the one that counted.
+const guard = await read('scripts/hooks/guard-generated.mjs');
+const guarded = [...guard.matchAll(/^\s*\[\/\^([^/]+)\//gm)].map(match => match[1].replace(/\\/g, ''));
+const listed = (/^## Do not touch without being asked$([\s\S]*?)^## /m.exec(await read('AGENTS.md'))?.[1] ?? '');
+if (!listed) fail('AGENTS.md', 'has no "Do not touch without being asked" section for scripts/hooks/guard-generated.mjs to be checked against');
+for (const pattern of guarded) {
+  // The regex source is close enough to the path to look for: public/facts/daily,
+  // app/clock-fonts.css, render.yaml, package-lock.json.
+  const stem = pattern.replace(/\$$/, '').split('.+')[0].replace(/\|/g, '');
+  if (stem && !listed.includes(stem)) {
+    fail('AGENTS.md', 'guard-generated.mjs blocks ' + stem + ' but "Do not touch without being asked" never mentions it. An agent reads the list, not the hook.');
   }
 }
 

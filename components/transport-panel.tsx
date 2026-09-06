@@ -1,7 +1,7 @@
 'use client';
 
 import { useEffect, useState } from 'react';
-import { boardIncidents, departureIncidents, LINES, nextCompactDeparture, serviceHeadway, type Departure, type TransitData } from '@/lib/transit';
+import { boardIncidents, departureIncidents, LINES, nextCompactDeparture, serviceHeadway, validTransitData, type Departure, type TransitData } from '@/lib/transit';
 import { debugFlags } from '@/lib/debug-flags';
 
 const timeFormat = new Intl.DateTimeFormat('en-GB', { timeZone: 'Europe/Copenhagen', hour: '2-digit', minute: '2-digit', hour12: false });
@@ -46,8 +46,9 @@ export default function TransportPanel({ compact = false }: { compact?: boolean 
       const timeout = window.setTimeout(() => controller.abort(), REQUEST_TIMEOUT_MS);
       try {
         const response = await fetch('/api/departures' + endpointQuery, { cache: 'no-store', signal: controller.signal });
-        const value = await response.json() as TransitData;
-        if (!response.ok || !['ready', 'needs_key'].includes(value.status)) throw new Error('Unavailable');
+        const value: unknown = await response.json();
+        if (!response.ok || !validTransitData(value)) throw new Error('Unavailable');
+        if (value.status === 'unavailable') throw new Error('Unavailable');
         if (active) { setData(value); setFailed(false); }
       } catch { if (active) setFailed(true); }
       finally {

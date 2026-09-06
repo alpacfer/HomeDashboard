@@ -50,7 +50,13 @@ const eslintConfig = defineConfig([
     // Every formatter names its time zone. The display is Copenhagen-local
     // whatever the device thinks, and a formatter that forgets to say so is
     // the classic way a date goes wrong at midnight. See AGENTS.md.
-    files: ['**/*.ts', '**/*.tsx', 'scripts/**/*.mjs'],
+    //
+    // tests/ is included deliberately. It used to fall outside this rule --
+    // the glob reached scripts/**/*.mjs and nothing else with that extension
+    // -- which meant a test could assert against the device's own zone and
+    // pass on a machine in Copenhagen while failing in CI, which is the one
+    // place the assertion would have been telling the truth.
+    files: ['**/*.ts', '**/*.tsx', 'scripts/**/*.mjs', 'tests/**/*.mjs'],
     ignores: ['scripts/generate-daily-facts.mjs'],
     rules: {
       'no-restricted-syntax': ['error', {
