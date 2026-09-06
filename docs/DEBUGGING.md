@@ -64,9 +64,12 @@ tree canopy, the clouds sit on top of the far ridge, and the weather rubs out
 the painted mullions.
 
 So they are measured, not typed in. The tool decodes all four plates of each
-scene, traces the shape on each, and combines them by taking the median. It
-writes [app/horizon.css](../app/horizon.css), which is **generated — do not
-edit it**, and two overlays to judge the trace by:
+scene and segments each one, then combines them by taking the median. What
+comes out is a per-pixel **alpha**, not an outline: a hand-painted leaf edge is
+soft, and a shape that can only say in or out renders a lacy canopy as a
+staircase and cannot hold a gap of sky between two leaves at all. It writes
+[app/horizon.css](../app/horizon.css), which is **generated — do not edit
+it**, and two overlays to judge the result by:
 
 ```sh
 npm run horizon                    # trace, write app/horizon.css, draw both overlays
@@ -75,25 +78,36 @@ npm run horizon -- --plate day     # one plate, when a trace looks wrong
 ```
 
 **Look at the overlays.** `screenshots/horizon.png` is the clearing with
-everything the clip path removes dimmed and the sun's arc drawn across it;
-`screenshots/horizon-window.png` is the shed window blown up, with everything
-the pane mask removes dimmed. A list of coordinates cannot be judged; a picture
-of the trace over the painting can.
+everything the mask removes dimmed and the sun's arc drawn across it;
+`screenshots/horizon-window.png` is the shed window blown up, the same way. A
+mask cannot be judged from its numbers; a picture of it over the painting can.
+The dimming is drawn from the mask's own alpha, so a soft leaf edge shows as a
+soft edge rather than as a line.
 
-Two things the report says that are worth reading:
+Three things the report says that are worth reading:
 
-- **Spread.** How far the four plates disagreed, measured across the seam
-  rather than down the column — at a near-vertical edge two plates a pixel
-  apart report readings forty rows apart, and that is the artwork being steep,
-  not a fault. It is gated at the 98th percentile, because a plate that has
-  genuinely moved takes hundreds of columns with it and one soft brushstroke
-  does not. Under 5 px means the plates are in register.
+- **Edges.** How much of the picture came out neither sky nor not-sky — about
+  0.9%, the width of every painted leaf edge in the canopy. This is the whole
+  reason the answer is an alpha and not a polygon.
+- **Agree.** How much of the picture the four plates read differently, and then
+  how much of *that* is away from any edge. The first number is around 1.4% and
+  is expected: four separately painted plates land their leaf edges a pixel
+  apart, so along every edge one says sky where another says leaf. Only the
+  second is gated, because a plate that had genuinely moved would disagree in
+  the middle of open sky or the middle of a tree. Under 0.05% means the plates
+  are in register.
 - **LEAKED.** A window fill that reached the edge of its box crossed the frame
   and is describing the wall. The night plate does this — its frame, its glass
   and its sill are within a few levels of each other — so it is left out of the
   vote and the other three carry the trace. The geometry is the same in all
   four, so nothing is lost; the line is there so that a plate silently
   describing the wrong thing is never mistaken for agreement.
+
+The segmentation itself is in [scripts/lib/segment.mjs](../scripts/lib/segment.mjs),
+which explains itself at length. It does not run in Node — it is handed to the
+headless Chrome as source text, because the only WebP decoder in this toolchain
+is the browser's. It was developed against scikit-image and agrees with it to
+99.98% of pixels; the reference is not a dependency and is not shipped.
 
 Nothing here needs the dev server. The input is the artwork in
 `public/scenes`, not a rendered page — but Node cannot decode WebP and this

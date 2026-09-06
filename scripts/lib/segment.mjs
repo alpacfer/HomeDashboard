@@ -274,26 +274,12 @@ export async function segmentScene(input) {
     const count = width * height;
     const rough = roughnessOf(lightness, width, height);
 
-    // A pixel is sky if it is close to the fitted sky AND the fit had something
-    // to go on there. The second half is not pedantry. Far inside the canopy
-    // the blur that estimates the sky's colour has no sky within reach, its
-    // weight goes to nothing, and dividing by nothing turns the estimate into
-    // black -- against which the near-black top-left corner of the NIGHT plate
-    // reads as a perfect match, and a thousand pixels of tree get called sky on
-    // one plate out of four. Where there is no evidence the answer is "not
-    // sky", not "whatever the arithmetic happens to say".
-    const believable = index => distance[index] < threshold && evidence[index] > settings.evidence;
-
     const flat = new Uint8Array(count);
     const roughGate = percentile(rough, 0.30);
     for (let index = 0; index < count; index += 1) flat[index] = rough[index] < roughGate ? 1 : 0;
     let mask = hangingFromTop(flat, width, height).mask;
 
     const distance = new Float32Array(count);
-    // How much of the sky field's estimate at each pixel actually came from
-    // pixels believed to be sky. Kept out of the loop because the last round's
-    // is what the answer is built from.
-    let evidence = new Float32Array(count);
     let threshold = 0;
     const confidentGate = percentile(rough, 0.40);
     for (let round = 0; round < settings.iterations; round += 1) {
@@ -302,18 +288,49 @@ export async function segmentScene(input) {
       const weight = new Float32Array(count);
       for (let index = 0; index < count; index += 1) weight[index] = mask[index];
       const density = blur(weight, width, height, settings.sigmaY, settings.sigmaX);
-      evidence = density;
-      const fields = [lightness, a, b].map(channel => {
+      const channels = [lightness, a, b];
+      const fields = channels.map(channel => {
         const scaled = new Float32Array(count);
         for (let index = 0; index < count; index += 1) scaled[index] = channel[index] * weight[index];
         return blur(scaled, width, height, settings.sigmaY, settings.sigmaX);
       });
+
+      // The same estimate again with no regard for where in the row it is: one
+      // colour per row, from every sky pixel on it.
+      //
+      // This is the answer where the local one has nothing to say. Deep inside
+      // the canopy there is no sky within reach of a 55-pixel blur, its weight
+      // goes to nothing, and `signal / weight` is then zero over zero -- which
+      // comes out BLACK. Against a black estimate the near-black top-left
+      // corner of the night plate is a perfect match, and a thousand pixels of
+      // tree get called sky on one plate out of four. Falling back to the row
+      // keeps the estimate a plausible sky rather than an artefact of dividing
+      // by almost nothing, and a dark tree is correctly far from a dark sky.
+      const rowWeight = new Float32Array(height);
+      const rowSums = channels.map(() => new Float32Array(height));
       for (let index = 0; index < count; index += 1) {
-        const scale = 1 / Math.max(density[index], 1e-9);
-        const dl = lightness[index] - fields[0][index] * scale;
-        const da = a[index] - fields[1][index] * scale;
-        const db = b[index] - fields[2][index] * scale;
-        distance[index] = Math.sqrt(dl * dl + da * da + db * db);
+        const y = (index - index % width) / width;
+        rowWeight[y] += weight[index];
+        for (let c = 0; c < 3; c += 1) rowSums[c][y] += channels[c][index] * weight[index];
+      }
+      const rowDensity = blur(rowWeight, 1, height, settings.sigmaY, 0);
+      const rowFields = rowSums.map(sums => blur(sums, 1, height, settings.sigmaY, 0));
+
+      for (let index = 0; index < count; index += 1) {
+        const x = index % width, y = (index - x) / width;
+        // How much the local estimate is worth here, from nothing to all of it.
+        const trust = clamp(density[index] / settings.evidence, 0, 1);
+        const localScale = 1 / Math.max(density[index], 1e-9);
+        const rowScale = 1 / Math.max(rowDensity[y], 1e-9);
+        let total = 0;
+        for (let c = 0; c < 3; c += 1) {
+          const local = fields[c][index] * localScale;
+          const row = rowFields[c][y] * rowScale;
+          const estimate = rowDensity[y] > 1e-6 ? trust * local + (1 - trust) * row : local;
+          const difference = channels[c][index] - estimate;
+          total += difference * difference;
+        }
+        distance[index] = Math.sqrt(total);
       }
 
       // Calibrate on the interior of what we already believe, away from every
@@ -330,7 +347,7 @@ export async function segmentScene(input) {
         percentile(distance, 0.98, confidentCount > 200 ? confident : mask) * settings.factor);
 
       const near = new Uint8Array(count);
-      for (let index = 0; index < count; index += 1) near[index] = believable(index) ? 1 : 0;
+      for (let index = 0; index < count; index += 1) near[index] = distance[index] < threshold ? 1 : 0;
       const grown = hangingFromTop(near, width, height);
       let size = 0;
       for (let index = 0; index < count; index += 1) size += grown.mask[index];
@@ -359,7 +376,7 @@ export async function segmentScene(input) {
     // Islands of sky that hang from nothing: gaps between leaves, if they are
     // above the treeline, and something else entirely if they are below it.
     const near = new Uint8Array(count);
-    for (let index = 0; index < count; index += 1) near[index] = believable(index) ? 1 : 0;
+    for (let index = 0; index < count; index += 1) near[index] = distance[index] < threshold ? 1 : 0;
     const { labels, sizes } = components(near, width, height);
     const island = new Map();
     for (let index = 0; index < count; index += 1) {
@@ -578,8 +595,6 @@ export async function segmentScene(input) {
       width, height, mask: toPng(alpha, width, height),
       seam: Array.from(seam), crown: Array.from(crown), has: Array.from(has),
       plates: each.map(entry => ({ plate: entry.plate, threshold: entry.threshold, area: +(entry.area * 100).toFixed(2) })),
-      perPlate: input.debug ? each.map(e => ({ plate: e.plate, mask: toPng(e.result.alpha, width, height) })) : undefined,
-      counts: { total: count, soft: uncertain, nearEdge: (() => { let n = 0; for (const v of nearEdge) n += v; return n; })(), edgeDis: edgeDisagreement, offEdge: disagreement },
       area: +(area / count * 100).toFixed(2),
       uncertain: +(uncertain / count * 100).toFixed(2),
       disagreement: +(disagreement / count * 100).toFixed(3),
