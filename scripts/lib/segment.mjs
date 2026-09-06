@@ -88,7 +88,28 @@ export async function segmentScene(input) {
     return sizes;
   }
 
-  // One box pass along one axis, with a running sum and replicated edges.
+  /**
+   * Fold an index back inside the picture by reflecting it about the edge,
+   * the pixel at the edge included: -1 reads pixel 0, -2 reads pixel 1.
+   *
+   * The obvious alternative is to REPEAT the edge pixel, and it is wrong here
+   * in a way that took a while to find. The sky's colour is estimated with a
+   * blur 55 pixels wide, so within a border that wide the estimate is mostly
+   * whatever the border does; repeating the edge pixel smears the leftmost
+   * column across it. In the night plate, where a near-black canopy meets a
+   * near-black sky, that was enough to make the top-left corner look like sky
+   * -- a thousand pixels of it -- while the other three plates read it as tree.
+   */
+  function reflect(index, size) {
+    let value = index;
+    while (value < 0 || value >= size) {
+      if (value < 0) value = -value - 1;
+      if (value >= size) value = 2 * size - value - 1;
+    }
+    return value;
+  }
+
+  // One box pass along one axis, with a running sum.
   function boxPass(source, width, height, radius, horizontal) {
     const out = new Float32Array(source.length);
     if (radius < 1) { out.set(source); return out; }
@@ -97,19 +118,19 @@ export async function segmentScene(input) {
       for (let y = 0; y < height; y += 1) {
         const row = y * width;
         let sum = 0;
-        for (let index = -radius; index <= radius; index += 1) sum += source[row + clamp(index, 0, width - 1)];
+        for (let index = -radius; index <= radius; index += 1) sum += source[row + reflect(index, width)];
         for (let x = 0; x < width; x += 1) {
           out[row + x] = sum * norm;
-          sum += source[row + Math.min(width - 1, x + radius + 1)] - source[row + Math.max(0, x - radius)];
+          sum += source[row + reflect(x + radius + 1, width)] - source[row + reflect(x - radius, width)];
         }
       }
     } else {
       for (let x = 0; x < width; x += 1) {
         let sum = 0;
-        for (let index = -radius; index <= radius; index += 1) sum += source[clamp(index, 0, height - 1) * width + x];
+        for (let index = -radius; index <= radius; index += 1) sum += source[reflect(index, height) * width + x];
         for (let y = 0; y < height; y += 1) {
           out[y * width + x] = sum * norm;
-          sum += source[Math.min(height - 1, y + radius + 1) * width + x] - source[Math.max(0, y - radius) * width + x];
+          sum += source[reflect(y + radius + 1, height) * width + x] - source[reflect(y - radius, height) * width + x];
         }
       }
     }
@@ -253,12 +274,26 @@ export async function segmentScene(input) {
     const count = width * height;
     const rough = roughnessOf(lightness, width, height);
 
+    // A pixel is sky if it is close to the fitted sky AND the fit had something
+    // to go on there. The second half is not pedantry. Far inside the canopy
+    // the blur that estimates the sky's colour has no sky within reach, its
+    // weight goes to nothing, and dividing by nothing turns the estimate into
+    // black -- against which the near-black top-left corner of the NIGHT plate
+    // reads as a perfect match, and a thousand pixels of tree get called sky on
+    // one plate out of four. Where there is no evidence the answer is "not
+    // sky", not "whatever the arithmetic happens to say".
+    const believable = index => distance[index] < threshold && evidence[index] > settings.evidence;
+
     const flat = new Uint8Array(count);
     const roughGate = percentile(rough, 0.30);
     for (let index = 0; index < count; index += 1) flat[index] = rough[index] < roughGate ? 1 : 0;
     let mask = hangingFromTop(flat, width, height).mask;
 
     const distance = new Float32Array(count);
+    // How much of the sky field's estimate at each pixel actually came from
+    // pixels believed to be sky. Kept out of the loop because the last round's
+    // is what the answer is built from.
+    let evidence = new Float32Array(count);
     let threshold = 0;
     const confidentGate = percentile(rough, 0.40);
     for (let round = 0; round < settings.iterations; round += 1) {
@@ -267,6 +302,7 @@ export async function segmentScene(input) {
       const weight = new Float32Array(count);
       for (let index = 0; index < count; index += 1) weight[index] = mask[index];
       const density = blur(weight, width, height, settings.sigmaY, settings.sigmaX);
+      evidence = density;
       const fields = [lightness, a, b].map(channel => {
         const scaled = new Float32Array(count);
         for (let index = 0; index < count; index += 1) scaled[index] = channel[index] * weight[index];
@@ -294,7 +330,7 @@ export async function segmentScene(input) {
         percentile(distance, 0.98, confidentCount > 200 ? confident : mask) * settings.factor);
 
       const near = new Uint8Array(count);
-      for (let index = 0; index < count; index += 1) near[index] = distance[index] < threshold ? 1 : 0;
+      for (let index = 0; index < count; index += 1) near[index] = believable(index) ? 1 : 0;
       const grown = hangingFromTop(near, width, height);
       let size = 0;
       for (let index = 0; index < count; index += 1) size += grown.mask[index];
@@ -323,7 +359,7 @@ export async function segmentScene(input) {
     // Islands of sky that hang from nothing: gaps between leaves, if they are
     // above the treeline, and something else entirely if they are below it.
     const near = new Uint8Array(count);
-    for (let index = 0; index < count; index += 1) near[index] = distance[index] < threshold ? 1 : 0;
+    for (let index = 0; index < count; index += 1) near[index] = believable(index) ? 1 : 0;
     const { labels, sizes } = components(near, width, height);
     const island = new Map();
     for (let index = 0; index < count; index += 1) {

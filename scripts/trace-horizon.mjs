@@ -371,7 +371,7 @@ async function main() {
     const listFor = scene => options.plates.map(plate => ({ plate, url: urls.get(scene + ':' + plate) }));
     const settings = {
       iterations: options.iterations, factor: options.factor, floor: 2.5,
-      sigmaY: 9, sigmaX: 55, softLow: 0.75, softHigh: 1.25, gate: 0.45, band: 0.18,
+      sigmaY: 9, sigmaX: 55, softLow: 0.75, softHigh: 1.25, gate: 0.45, band: 0.18, evidence: 0.02,
     };
 
     sky = await evaluate(inPage(segmentScene, { mode: 'sky', plates: listFor('exterior'), settings }));
