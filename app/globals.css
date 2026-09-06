@@ -27,9 +27,9 @@ body { color:var(--foreground); font-family:'Space Grotesk',Arial,Helvetica,sans
    page; so the baseline lands .921em below the padding, and
    .681 * 22vh - .921 * 6.1vw is the 5vh below. Remeasure both when the face
    changes. Independent of the lighting, which never moves the bench. */
-.clock-block { position:relative; flex-shrink:0; height:100%; margin:0; padding-top:5vh; --clock-size:6.1vw; --date-base:clamp(12px,1.2vw,24px);
+.clock-block { position:relative; flex-shrink:0; height:100%; margin:0; padding-top:5vh; --clock-size:6.1vw; --date-base:clamp(11px,1vw,22px);
   --digit-font:'Fraunces',Georgia,serif; --digit-weight:600; --digit-scale:1; --digit-var:'opsz' 144,'SOFT' 62,'WONK' 1;
-  --date-font:'Space Grotesk',Arial,Helvetica,sans-serif; --date-weight:700; --date-size:var(--date-base); --date-space:.14em; --date-tf:uppercase;
+  --date-font:'Space Grotesk',Arial,Helvetica,sans-serif; --date-weight:700; --date-size:var(--date-base); --date-space:.08em; --date-tf:uppercase;
   --ink:var(--foreground); --colon:var(--accent); --date-ink:var(--muted); --glow:none; --colon-r:50%; }
 /* The type is still read through custom properties rather than written into
    the rules. That is the seam the shelved wardrobe plugs back into: putting
@@ -49,7 +49,14 @@ body { color:var(--foreground); font-family:'Space Grotesk',Arial,Helvetica,sans
 /* The date is pinned to the foot of the card rather than trailing the digits,
    so its margin is the one thing on the apron that never changes when the
    glyphs do. It starts at the first digit's ink rather than at its cell: a
-   face centres its advance in a .62em box, which sets the glyph .025em in. */
+   face centres its advance in a .62em box, which sets the glyph .025em in.
+   Its type is the dashboard's small-label voice and nothing of its own:
+   the same size as .ribbon-heading h2 below it, the same .08em tracking as
+   that and .daily-fact-heading, in the same face at the same weight. Only
+   the colour is the theme's, because the date sits on painted timber and the
+   others sit on the page. Four uppercase labels run down the left column —
+   the date, NEXT 18 HOURS, NEXT 7 DAYS, the condition under the degrees —
+   and a fifth size among them was the only thing setting this one apart. */
 .clock-date { position:absolute; left:0; right:0; bottom:2.5vh; display:flex; align-items:center; justify-content:flex-start; gap:.7em; margin:0; padding:0 calc(var(--panel-inset) + var(--clock-size) * .025); color:var(--date-ink); font-family:var(--date-font); font-size:var(--date-size); font-weight:var(--date-weight); line-height:1; letter-spacing:var(--date-space); text-transform:var(--date-tf); font-variant-numeric:lining-nums tabular-nums; text-shadow:var(--glow); white-space:nowrap; transition:opacity 3s ease; }
 /* Between 23:00 and 06:00 the Tenant sleeps and the clock turns down with it,
    slowly enough that nobody sees the step. */
@@ -196,11 +203,29 @@ a:focus-visible { outline:2px solid var(--foreground); outline-offset:8px; }
 .screen-progress { position:absolute; top:.3vh; right:0; width:clamp(18px,1.65vw,32px); height:clamp(18px,1.65vw,32px); z-index:1; fill:none; stroke-width:2.5; pointer-events:none; }
 .screen-progress-track { stroke:#303035; }
 .screen-progress-ring { stroke:var(--muted); stroke-linecap:round; stroke-dasharray:81.6814; stroke-dashoffset:0; transform:rotate(-90deg); transform-origin:16px 16px; animation:screen-countdown var(--screen-duration) linear both; }
-.showing-forecast-map .screen-progress { top:.35vw; right:1vw; z-index:700; padding:.18vw; border-radius:50%; background:rgba(17,17,19,.72); }
-/* Debug mode: the badge takes the ring's place so a pinned display is never
-   mistaken for a live one. See lib/panel-rotation.ts. */
-.scene-pin { position:absolute; top:.3vh; right:0; z-index:1; padding:.25vw .5vw; border:1px solid #45454d; border-radius:.3vw; color:var(--muted); font-size:clamp(10px,.8vw,16px); font-weight:700; letter-spacing:.1em; text-transform:uppercase; }
-.showing-forecast-map .scene-pin { top:.55vw; right:1vw; z-index:700; border-color:#958568; background:#f1e6cb; color:#514b3b; }
+/* On the map the ring is the right-hand end of the timeline row, centred on
+   the group of chip, track and hour labels rather than on the bar's box. The
+   strip's right padding is what keeps the track and the 6-hour label clear of
+   it. It is drawn in the map's ink and needs no disc behind it now that it
+   stands on the glass: the near-black one it used to carry was there to hold
+   a grey ring against the painting, and on parchment it read as a hole. Only
+   night parts company with the other three phases, as --map-rust does.
+   The top is the track's centre less half the ring: 1.15vw of padding plus
+   half of the .3vw track is 1.3vw, and the ring is 1.65vw across. The ring,
+   the track and the playhead chip therefore share one axis, and the hour
+   labels read as the row beneath it. Both numbers move if either does. */
+.showing-forecast-map .screen-progress { top:.48vw; right:1vw; z-index:700; }
+.showing-forecast-map .screen-progress-track { stroke:rgba(62,73,58,.26); }
+.showing-forecast-map .screen-progress-ring { stroke:#a65f46; }
+.showing-forecast-map[data-light='night'] .screen-progress-track { stroke:rgba(199,211,207,.26); }
+.showing-forecast-map[data-light='night'] .screen-progress-ring { stroke:#d5b17b; }
+/* Debug mode: the badge says a pinned display is not a live one. See
+   lib/panel-rotation.ts. It used to take the ring's place, which put a bright
+   label in the corner of whichever scene was being photographed — on the map,
+   directly over the thing every capture of that card was for. It sits in the
+   page's bottom margin now, where nothing else is, and is the only element on
+   the display positioned against the viewport rather than its own panel. */
+.scene-pin { position:fixed; right:.7vw; bottom:.55vh; z-index:1000; padding:.16vw .42vw; border:1px solid #2b2b32; border-radius:.3vw; color:#50505a; font-size:clamp(9px,.7vw,14px); font-weight:700; letter-spacing:.1em; text-transform:uppercase; pointer-events:none; }
 .panel-scene { grid-area:1 / 1; min-width:0; }
 .panel-scene[hidden] { display:none; }
 .panel-scene.is-active { animation:panel-arrive 450ms ease-out both; }
@@ -286,19 +311,42 @@ a:focus-visible { outline:2px solid var(--foreground); outline-offset:8px; }
 .daily-fact-unavailable { place-items:center; justify-content:center; color:var(--muted); font-size:1.25vw; text-align:center; }
 .forecast-map-scene { display:flex; flex-direction:column; min-width:0; min-height:0; }
 .forecast-map-scene:not(.is-active) { visibility:hidden; pointer-events:none; }
-.forecast-map-frame { --map-paper:#f4ebd5; --map-ink:#3e493a; --map-faint:#60674f; --map-rust:#a65f46; position:relative; flex:1; min-height:0; overflow:hidden; border:1px solid #a79670; border-radius:1vw; background:#9cad91; color:var(--map-ink); }
-.forecast-map-frame[data-light='dawn'] { --map-paper:#eedac7; --map-ink:#4d4549; --map-faint:#655559; }
-.forecast-map-frame[data-light='dusk'] { --map-paper:#ddc2a2; --map-ink:#443d40; --map-faint:#5e4b47; }
-.forecast-map-frame[data-light='night'] { --map-paper:#263e49; --map-ink:#f1e7d1; --map-faint:#c7d3cf; --map-rust:#d5b17b; border-color:#668087; background:#163544; }
-.forecast-map-frame::after { content:''; position:absolute; inset:0; z-index:450; border:5px solid rgba(244,235,213,.4); border-radius:inherit; box-shadow:inset 0 0 20px rgba(71,67,43,.16); pointer-events:none; }
-.forecast-map-frame[data-light='night']::after { border-color:rgba(132,160,161,.28); }
-/* The timeline owns a separate strip. The map and its tags are clipped to the
-   viewport below it, so no forecast time can ever cover a geographic label. */
-.forecast-map-canvas { position:absolute; top:5.4vw; right:0; bottom:0; left:0; z-index:0; background:inherit; }
+/* --glass and --glass-edge are the timeline's and the credit's fill: the same
+   paper, thinned so the painting shows through it. They belong to the light
+   phase, not to the element, because a night map has to be frosted in its own
+   dark blue or the bar reads as a hole cut in the picture.
+   The edge is a hairline of the ink, not of the paper: a pale rule around a
+   translucent panel is the "white edge" this card used to have. */
+.forecast-map-frame { --map-paper:#f4ebd5; --map-ink:#3e493a; --map-faint:#60674f; --map-rust:#a65f46;
+  --glass:rgba(244,235,213,.62); --glass-edge:rgba(94,84,56,.42); --glass-sheen:rgba(255,252,242,.5);
+  position:relative; flex:1; min-height:0; overflow:hidden; border:1px solid #5a5140; border-radius:1vw; background:#9cad91; color:var(--map-ink); }
+.forecast-map-frame[data-light='dawn'] { --map-paper:#eedac7; --map-ink:#4d4549; --map-faint:#655559;
+  --glass:rgba(238,218,199,.64); --glass-edge:rgba(97,76,66,.42); --glass-sheen:rgba(255,247,238,.5); border-color:#5e4c44; }
+.forecast-map-frame[data-light='dusk'] { --map-paper:#ddc2a2; --map-ink:#443d40; --map-faint:#5e4b47;
+  --glass:rgba(221,194,162,.66); --glass-edge:rgba(86,66,52,.44); --glass-sheen:rgba(252,238,220,.45); border-color:#54423a; }
+.forecast-map-frame[data-light='night'] { --map-paper:#263e49; --map-ink:#f1e7d1; --map-faint:#c7d3cf; --map-rust:#d5b17b;
+  --glass:rgba(30,52,63,.62); --glass-edge:rgba(160,190,193,.3); --glass-sheen:rgba(190,216,219,.22); border-color:#2c4854; background:#163544; }
+/* The card's edge, in one hairline and a vignette. It used to be a 5px band of
+   40%-opaque cream, which over a dark painting read as a white smear rather
+   than as a mount, and over a bright one as a fogged margin; the corners were
+   worst, where the radius made the band twice as wide. The rest of the
+   dashboard edges its cards with `inset 0 0 0 1px` and nothing else, so this
+   one does too. Keep the vignette: it is what stops the painting from running
+   flat into the corner. */
+.forecast-map-frame::after { content:''; position:absolute; inset:0; z-index:450; border-radius:inherit; box-shadow:inset 0 0 0 1px rgba(62,73,58,.2), inset 0 0 20px rgba(71,67,43,.16); pointer-events:none; }
+.forecast-map-frame[data-light='night']::after { box-shadow:inset 0 0 0 1px rgba(199,211,207,.13), inset 0 0 22px rgba(8,26,36,.32); }
+/* The painting runs the full height of the card and the timeline is laid on
+   it, so there is something behind the glass to frost. The tags are still
+   kept out from under the bar, by `npm run audit`'s overlap rule rather than
+   by a clip: nothing may cover a place name, blurred or not. */
+.forecast-map-canvas { position:absolute; inset:0; z-index:0; background:inherit; }
 .forecast-map-canvas.leaflet-container { font-family:'Space Grotesk',Arial,Helvetica,sans-serif; }
 .forecast-map-marker { filter:drop-shadow(0 2px 2px #655b4066); }
 .forecast-map-marker > span { display:block; width:12px; height:12px; border:3px solid #f4ebd5; border-radius:50%; background:#59674e; box-shadow:0 0 0 1px #59674e; }
-.forecast-map-marker svg { display:block; width:30px; height:32px; }
+/* Sized in device pixels, not vw: it is a drawing pinned to a coordinate, and
+   Leaflet is told the same numbers in iconSize and iconAnchor. Change one and
+   change the other, or the cottage stops standing on Home. */
+.forecast-map-marker svg { display:block; width:22px; height:23px; }
 .leaflet-tooltip.forecast-map-label { padding:.36vw .6vw; border:1px solid #ad9b77; border-radius:.28vw .55vw .4vw .22vw; box-shadow:0 2px 4px #655b4033; background:var(--map-paper); color:var(--map-ink); font-family:Georgia,'Times New Roman',serif; font-size:1.05vw; font-weight:700; line-height:1; }
 .leaflet-tooltip.forecast-map-label.is-home { color:#71412f; }
 .forecast-map-frame[data-light='night'] .leaflet-tooltip.forecast-map-label.is-home { color:#f1ca96; }
@@ -307,10 +355,23 @@ a:focus-visible { outline:2px solid var(--foreground); outline-offset:8px; }
 /* Portalled into Leaflet's overlay pane: above the painting, below markers.
    Pixel size and origin follow the measured map container in the paint loop. */
 .forecast-map-overlay { position:absolute; top:0; left:0; z-index:400; pointer-events:none; }
-/* The timeline replaces a caption: position on the track says how far into the
-   forecast the frame is, which a sentence makes you read and then work out. */
-.forecast-map-timeline { position:absolute; top:0; left:0; right:0; height:5.4vw; z-index:500; padding:.65vw 2.5vw .5vw; border-bottom:1px solid #b8a783; background:var(--map-paper); pointer-events:none; }
-.timeline-caption { display:block; margin-bottom:1.15vw; color:var(--map-faint); font-size:.86vw; font-weight:700; letter-spacing:.08em; text-transform:uppercase; }
+/* The timeline is the caption: position on the track says how far into the
+   forecast the frame is, which a sentence makes you read and then work out.
+   It had one over it saying so — "Forecast journey" — which cost a whole line
+   of the card to name what the track underneath already showed.
+   Frosted rather than solid, and one row deep: the countdown ring sits in the
+   space the caption used to take, at the right-hand end of the same row, so
+   the bar is 3.45vw instead of 5.4vw and the painting keeps 25px of it.
+   The row is centred in the bar rather than hung from its top. The playhead
+   chip rises .7vw above the track, so 1.15vw of padding leaves .45vw of air
+   over it; the hour labels' glyphs end about 2.98vw down, so a 3.45vw bar
+   leaves .47vw under them. Change the padding and the height together, and
+   the ring's `top` below with them.
+   backdrop-filter is the one expensive thing in here. It is affordable
+   because the strip is about 1280 x 43 and no more, the blur radius is small,
+   and nothing under it moves except the rain the map is already drawing. Do
+   not widen this to the whole card. */
+.forecast-map-timeline { position:absolute; top:0; left:0; right:0; height:3.45vw; z-index:500; padding:1.15vw 4.1vw .4vw 2.5vw; border-bottom:1px solid var(--glass-edge); background:var(--glass); backdrop-filter:blur(.8vw) saturate(1.3); -webkit-backdrop-filter:blur(.8vw) saturate(1.3); box-shadow:inset 0 1px 0 var(--glass-sheen), 0 .14vw .45vw rgba(28,24,12,.16); pointer-events:none; }
 .timeline-track { position:relative; height:.3vw; border-radius:1vw; background:#c4c5a9; }
 .timeline-played { position:absolute; left:0; top:0; height:100%; border-radius:inherit; background:var(--map-rust); }
 .timeline-track i { position:absolute; top:-.22vw; width:1px; height:.76vw; margin-left:-.5px; background:#73775d; }
@@ -319,7 +380,13 @@ a:focus-visible { outline:2px solid var(--foreground); outline-offset:8px; }
 .timeline-hours span { position:absolute; top:0; transform:translateX(-50%); }
 .forecast-map-stale { position:absolute; top:50%; left:50%; transform:translate(-50%,-50%); z-index:500; width:max-content; max-width:90%; margin:0; padding:.8vw 1vw; border:1px solid #ad9b77; border-radius:.5vw; color:#71412f; background:var(--map-paper); font-size:1vw; text-align:center; pointer-events:none; }
 .forecast-map-frame[data-light='night'] .forecast-map-stale { color:#f1ca96; }
-.forecast-map-credit { position:absolute; right:1vw; bottom:.45vw; z-index:500; display:flex; align-items:center; gap:.34vw; padding:.3vw .52vw; border-radius:.3vw; background:var(--map-paper); color:var(--map-faint); font-size:.62vw; line-height:1; }
+/* The two credits, cut to the names the licences actually require: DMI and
+   Open-Meteo for the forecast, Esri for the painting's source imagery. The
+   sentences each asks for are on the links, in their accessible labels, which
+   is where they were already doing the only work they can do on a wall with
+   no pointer. Same glass as the timeline, so the card has one kind of panel
+   on it rather than two. */
+.forecast-map-credit { position:absolute; right:.8vw; bottom:.4vw; z-index:500; display:flex; align-items:center; gap:.28vw; padding:.2vw .4vw; border:1px solid var(--glass-edge); border-radius:.28vw; background:var(--glass); backdrop-filter:blur(.5vw) saturate(1.3); -webkit-backdrop-filter:blur(.5vw) saturate(1.3); color:var(--map-faint); font-size:.54vw; line-height:1; }
 .forecast-map-credit a { color:inherit; text-decoration:none; }
 .forecast-map-message { position:absolute; top:49%; left:50%; transform:translate(-50%,-50%); z-index:500; display:flex; flex-direction:column; align-items:center; gap:.45vw; width:max-content; max-width:90%; margin:0; padding:1.15vw 1.5vw; border:1px solid #ad9b77; border-radius:.5vw .9vw .6vw .7vw; box-shadow:0 3px 12px #655b4026; color:var(--map-ink); background:var(--map-paper); text-align:center; }
 .forecast-map-message strong { font:normal 1.65vw Georgia,'Times New Roman',serif; }

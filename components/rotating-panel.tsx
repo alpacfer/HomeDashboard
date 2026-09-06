@@ -302,7 +302,13 @@ export default function RotatingPanel({ onSceneChange, mapLight }: { onSceneChan
     return () => window.clearTimeout(timer);
   }, [facts]);
 
-  return <div className={'rotating-panel' + (!showingTransport ? ' showing-compact-transit' : '') + (showingMap ? ' showing-forecast-map' : '') + (pinned ? ' pinned' : '')} style={{ '--screen-duration': rotation.duration + 'ms' } as CSSProperties}>
+  // The light phase is carried on the panel as well as on the map's own frame:
+  // the countdown ring is a sibling of the scenes, not a child of the frame,
+  // so it cannot inherit the map's palette, and on the glass timeline it has to
+  // be drawn in the map's ink rather than in the dashboard's. Set only while
+  // the map is showing; on the other two scenes the ring keeps its own colours.
+  return <div className={'rotating-panel' + (!showingTransport ? ' showing-compact-transit' : '') + (showingMap ? ' showing-forecast-map' : '') + (pinned ? ' pinned' : '')}
+    data-light={showingMap ? mapLight ?? undefined : undefined} style={{ '--screen-duration': rotation.duration + 'ms' } as CSSProperties}>
     {pinned
       ? <span className="scene-pin" role="status">Pinned · {rotation.phase}</span>
       : <svg className="screen-progress" key={rotation.phase + '-' + rotation.index + '-' + wake} viewBox="0 0 32 32" role="img" aria-label="Time until the next screen">

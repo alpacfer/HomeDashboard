@@ -16,8 +16,15 @@ including the taller layout when there are no transit service messages.
 There are no basemap tile requests. Forecast fetching and its quota limits
 remain the same, and the live rain colours still agree with the weather ribbon.
 
-Parchment labels and a cottage at Home remain on the map. The forecast journey
-has a full-width strip above the map viewport so it never overlaps a tag.
+Parchment labels and a cottage at Home remain on the map. The painting runs the
+full height of the card and the timeline is a frosted bar laid across the top of
+it: the countdown ring sits at the right-hand end of the same row, on the
+track's own axis, so the whole thing is one row deep. The frosting is the only
+`backdrop-filter` on the display, and it is affordable because the bar is about
+1280 x 44 and the blur radius is small; do not spread it to the rest of the
+card. Nothing may cover a place name, blurred or not — that is `npm run audit`'s
+overlap rule, and it is what keeps the tags out from under the bar now that the
+map is no longer clipped to the space below it.
 Loading, dry, expired and unavailable captions sit on small paper panels so
 the map remains visible in every state. Four lighting plates follow the same
 solar-elevation dawn/day/dusk/night phases as the other widgets, supplied by

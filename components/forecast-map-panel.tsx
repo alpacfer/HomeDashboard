@@ -115,15 +115,18 @@ export default function ForecastMapPanel({ active, onDry, light }: { active: boo
             html: place.home
               ? '<svg viewBox="0 0 32 34" aria-hidden="true"><path d="M5 16 16 6l11 10v15H5Z" fill="#f6e9c5" stroke="#584b35" stroke-width="2"/><path d="m2 17 14-13 14 13" fill="none" stroke="#a65f46" stroke-width="5" stroke-linejoin="round"/><path d="M13 22h6v9h-6Z" fill="#64735a"/><path d="M23 6v6" stroke="#584b35" stroke-width="3"/><path d="M8 19h4v4H8Z" fill="#d9ae5c"/></svg>'
               : '<span></span>',
-            iconSize: place.home ? [30, 32] : [12, 12],
-            iconAnchor: place.home ? [15, 30] : [6, 6],
+            // The cottage's box, and the point of it that sits on Home: the
+            // foot of the wall, not the middle of the drawing. Matches the
+            // width and height .forecast-map-marker svg paints it at.
+            iconSize: place.home ? [22, 23] : [12, 12],
+            iconAnchor: place.home ? [11, 22] : [6, 6],
           }),
           interactive: false,
           keyboard: false,
         }).addTo(nextMap).bindTooltip(place.label, {
           className: 'forecast-map-label' + (place.home ? ' is-home' : ''),
           direction: place.label === 'Copenhagen' ? 'top' : 'right',
-          offset: place.home ? [20, -14] : place.label === 'Copenhagen' ? [0, -20] : [12, 0],
+          offset: place.home ? [15, -10] : place.label === 'Copenhagen' ? [0, -20] : [12, 0],
           permanent: true,
         });
       }
@@ -556,7 +559,6 @@ export default function ForecastMapPanel({ active, onDry, light }: { active: boo
       <div className="forecast-map-canvas" ref={canvas} role="img" aria-label={'Forecast precipitation map. ' + spoken} />
       {rainPane && createPortal(<canvas className="forecast-map-overlay" ref={overlay} aria-hidden="true" />, rainPane)}
       <div className="forecast-map-timeline" aria-hidden="true">
-        <span className="timeline-caption">Forecast journey</span>
         {!!moment && !!ticks.length && <>
         <div className="timeline-track">
           {ticks.map(tick => <i key={tick.timestamp} style={{ left: (tick.position * 100).toFixed(2) + '%' }} />)}
@@ -575,10 +577,14 @@ export default function ForecastMapPanel({ active, onDry, light }: { active: boo
       </p>}
       {dry && !artFailed && <p className="forecast-map-message"><strong>A little pause in the rain</strong><span>No precipitation forecast in the next {GRID_HOURS} hours</span></p>}
       {expired && !artFailed && <p className="forecast-map-stale" role="status">Forecast expired · waiting for the next model run</p>}
+      {/* Both licences are satisfied by the name plus the link; the sentence
+          each one asks for is on the link's accessible label, which is the
+          only place it can be read on a display with no pointer. */}
       <footer className="forecast-map-credit">
-        <a href="https://open-meteo.com/en/docs/dmi-api" target="_blank" rel="noreferrer" tabIndex={active ? 0 : -1}>Forecast DMI via Open-Meteo</a><span>·</span>
+        <a href="https://open-meteo.com/en/docs/dmi-api" target="_blank" rel="noreferrer" tabIndex={active ? 0 : -1}
+          aria-label="Forecast from DMI, served by Open-Meteo">DMI · Open-Meteo</a><span>·</span>
         <a href="https://services.arcgisonline.com/ArcGIS/rest/services/World_Imagery/MapServer" target="_blank" rel="noreferrer" tabIndex={active ? 0 : -1}
-          aria-label="Illustrated from Esri World Imagery. Sources: Esri, Vantor, Earthstar Geographics, and the GIS User Community">Art from Esri World Imagery</a>
+          aria-label="Illustrated from Esri World Imagery. Sources: Esri, Vantor, Earthstar Geographics, and the GIS User Community">Esri</a>
       </footer>
     </div>
   </section>;
