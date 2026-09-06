@@ -2,6 +2,7 @@
 
 import { useEffect, useMemo, useState } from 'react';
 import { describeHour, FORECAST_LATITUDE, FORECAST_LONGITUDE, isDaylight, reviveWeatherHours, validWeatherHours, type WeatherHour } from '@/lib/weather';
+import { retryDelay } from '@/lib/forecast-refresh';
 import { SOURCES, type SourceName } from '@/lib/forecast-sources';
 import { buildRibbon, rainHeadline, temperatureTrack } from '@/lib/forecast-summary';
 import { debugFlags, pinnedNow } from '@/lib/debug-flags';
@@ -161,8 +162,7 @@ export default function WeatherPanel({ now, onConditions }: { now: Date | null; 
         console.warn('[weather] every provider failed: ' + reasons.join('; '));
         setFailed(true);
         failures += 1;
-        const delay = Math.min(RETRY_MAX_MS, RETRY_BASE_MS * 2 ** (failures - 1));
-        retry = window.setTimeout(() => void load(), delay * (0.75 + Math.random() / 2));
+        retry = window.setTimeout(() => void load(), retryDelay(failures, RETRY_BASE_MS, RETRY_MAX_MS));
       } finally {
         pending = false;
       }

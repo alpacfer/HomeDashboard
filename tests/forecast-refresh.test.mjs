@@ -2,7 +2,7 @@ import { test } from 'node:test';
 import assert from 'node:assert/strict';
 import {
   CHECK_FALLBACK_MS, CHECK_MARGIN_MS, CHECK_MIN_MS, CHECK_RETRY_MS, GRID_FALLBACK_MS, MODEL_META_URL,
-  nextCheckAt, parseModelRun, shouldFetchGrid,
+  nextCheckAt, parseModelRun, retryDelay, shouldFetchGrid,
 } from '../lib/forecast-refresh.ts';
 import { coversView, GRID_MODEL, isQuietHours, MAP_BOUNDS } from '../lib/precipitation-grid.ts';
 
@@ -114,4 +114,32 @@ test('a check that would land in the quiet hours waits for them to end', () => {
   // A check due before 23:00 is not delayed.
   const early = { ...run, available: run.available - 60 * 60_000 };
   assert.equal(nextCheckAt(lateEvening, early), lateEvening + 15 * 60_000 + CHECK_MARGIN_MS);
+});
+
+test('backoff doubles, then stops at the cap', () => {
+  // Jitter pinned to its midpoint (0.5 -> x1.0) so the shape is visible.
+  const mid = () => 0.5;
+  const at = n => retryDelay(n, 20_000, 5 * 60_000, mid);
+  assert.equal(at(1), 20_000);
+  assert.equal(at(2), 40_000);
+  assert.equal(at(3), 80_000);
+  assert.equal(at(4), 160_000);
+  assert.equal(at(5), 300_000);
+  assert.equal(at(6), 300_000, 'capped');
+  assert.equal(at(40), 300_000, 'still capped, and not Infinity');
+});
+
+test('a zeroth failure is treated as the first, not as no wait at all', () => {
+  assert.equal(retryDelay(0, 20_000, 300_000, () => 0.5), 20_000);
+});
+
+test('jitter spreads the retry either side, so three panels do not return together', () => {
+  const base = 20_000;
+  assert.equal(retryDelay(1, base, 300_000, () => 0), base * 0.75);
+  assert.equal(retryDelay(1, base, 300_000, () => 1), base * 1.25);
+  // Never zero, and never more than the cap plus its own quarter.
+  for (const r of [0, 0.25, 0.5, 0.75, 0.999]) {
+    const delay = retryDelay(9, base, 300_000, () => r);
+    assert.ok(delay >= 300_000 * 0.75 && delay <= 300_000 * 1.25, String(delay));
+  }
 });

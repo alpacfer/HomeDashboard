@@ -2,6 +2,7 @@
 
 import { useEffect, useMemo, useState } from 'react';
 import { FORECAST_LATITUDE, FORECAST_LONGITUDE } from '@/lib/weather';
+import { retryDelay } from '@/lib/forecast-refresh';
 import { DAILY_SOURCES, type DailySourceName, type ForecastDay } from '@/lib/daily-forecast';
 import { debugFlags, pinnedNow } from '@/lib/debug-flags';
 import { demoDailyPayload } from '@/lib/weather-demo';
@@ -109,8 +110,7 @@ export default function WeekStrip({ now }: { now: Date | null }) {
         if (!active) return;
         console.warn('[week] every provider failed: ' + reasons.join('; '));
         failures += 1;
-        const delay = Math.min(RETRY_MAX_MS, RETRY_BASE_MS * 2 ** (failures - 1));
-        retry = window.setTimeout(() => void load(), delay * (0.75 + Math.random() / 2));
+        retry = window.setTimeout(() => void load(), retryDelay(failures, RETRY_BASE_MS, RETRY_MAX_MS));
       } finally {
         pending = false;
       }

@@ -112,3 +112,24 @@ export function nextCheckAt(now: number, run: ModelRun | null) {
   at = Math.max(at, now + CHECK_MIN_MS);
   return isQuietHours(at) ? quietHoursEnd(at) : at;
 }
+
+/**
+ * How long to wait before asking the providers again, after `failures` in a row.
+ *
+ * Doubling from a base, capped, then spread over ±25%. The jitter is the part
+ * worth keeping: the weather card, the week strip and the forecast map all
+ * fail together when the network does, and without it all three would come
+ * back in the same millisecond and fail together again.
+ *
+ * Pass `random` to make a test deterministic; the callers leave it alone.
+ *
+ * This was written out identically in components/weather-panel.tsx and
+ * components/week-strip.tsx, with only the two constants differing, and a
+ * third time in the forecast map with its own cap. Backoff is arithmetic, and
+ * arithmetic belongs where it can be tested.
+ */
+export function retryDelay(failures: number, baseMs: number, maxMs: number, random = Math.random) {
+  const attempts = Math.max(1, failures);
+  const delay = Math.min(maxMs, baseMs * 2 ** (attempts - 1));
+  return delay * (0.75 + random() / 2);
+}
