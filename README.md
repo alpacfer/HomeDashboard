@@ -64,7 +64,10 @@ network, run `npm start -- --hostname 0.0.0.0` after building. Render uses
 ### Pin a scene
 
 The right-hand panel rotates through transport, a daily fact and the forecast
-map on a one-minute cycle. To hold one scene on screen, name it in the URL:
+map on a one-minute cycle. The map is skipped when the next six hours hold no
+precipitation, so a dry day cycles through the other two in thirty seconds and
+the map returns by itself when rain is forecast again. Pinning it shows it
+either way. To hold one scene on screen, name it in the URL:
 
 ```text
 http://localhost:3000/?scene=map
@@ -94,6 +97,10 @@ connection.
 
 `/?weather=demo` is `off` plus a synthetic forecast drawn on the map, which is
 the only way to look at its animation without buying a grid.
+
+`/?weather=dry` is the same run with no precipitation in it. That is the state
+the rotation skips the map for, so with `?scene=map` it is the only way to see
+the scene that is being skipped.
 
 `/?weather=none` makes no request and draws no placeholder either: it is how
 the genuinely unavailable card, with its offline dot, is looked at.

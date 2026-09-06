@@ -19,9 +19,14 @@
 //                          the dashboard is still shown in context. Use it for
 //                          anything that is not about the weather (see
 //                          docs/DEBUGGING.md).
+//   --dry                  Add ?weather=dry: the same synthetic run with no
+//                          precipitation in it. That is the state the rotation
+//                          skips the forecast map for, so with --scene map it
+//                          is the only way to photograph the scene being
+//                          skipped. Outranks --demo.
 //   --no-weather           Add ?weather=none: no request and no placeholder
 //                          either, which is how the genuinely unavailable card
-//                          is photographed. Outranks --offline and --demo.
+//                          is photographed. Outranks --offline, --demo and --dry.
 //   --time <HH:MM>         Add ?time=: pin the clock to a Copenhagen time, so
 //                          the face can be checked against the digits that stress it.
 //   --pet <spot>           Add ?pet=: hold the Tenant at weather, week,
@@ -70,7 +75,7 @@ import { findChrome, launchChrome, openPage, pageUrl, waitForServer } from './li
 const ROOT = path.resolve(path.dirname(fileURLToPath(import.meta.url)), '..');
 
 function parseArgs(argv) {
-  const options = { classes: [], console: false, demo: false, offline: false, reducedMotion: false, transitDemo: false };
+  const options = { classes: [], console: false, demo: false, dry: false, offline: false, reducedMotion: false, transitDemo: false };
   for (let index = 0; index < argv.length; index += 1) {
     const arg = argv[index];
     const next = () => { index += 1; return argv[index]; };
@@ -82,6 +87,7 @@ function parseArgs(argv) {
       case '--fact': options.fact = value(); break;
       case '--offline': options.offline = true; break;
       case '--demo': options.demo = true; break;
+      case '--dry': options.dry = true; break;
       case '--no-weather': options.noWeather = true; break;
       case '--transit-demo': options.transitDemo = true; break;
       case '--time': options.time = value(); break;
@@ -113,6 +119,7 @@ function defaultName(options) {
   const parts = [options.scene ?? 'display'];
   if (options.reducedMotion) parts.push('reduced-motion');
   if (options.noWeather) parts.push('no-weather');
+  else if (options.dry) parts.push('dry');
   else if (options.offline && !options.demo) parts.push('offline');
   else if (options.demo) parts.push('demo');
   if (options.transitDemo) parts.push('transit-demo');

@@ -1,7 +1,6 @@
 'use client';
 
 import { useEffect, useMemo, useState } from 'react';
-import { CloudOff } from 'lucide-react';
 import { describeHour, FORECAST_LATITUDE, FORECAST_LONGITUDE, isDaylight, reviveWeatherHours, validWeatherHours, type WeatherHour } from '@/lib/weather';
 import { SOURCES, type SourceName } from '@/lib/forecast-sources';
 import { buildRibbon, rainHeadline, temperatureTrack } from '@/lib/forecast-summary';
@@ -9,9 +8,10 @@ import { debugFlags, pinnedNow } from '@/lib/debug-flags';
 import { demoWeatherHours } from '@/lib/weather-demo';
 import { describeLockout } from '@/lib/open-meteo-quota';
 import type { Conditions } from '@/lib/clock-conditions';
-import { ICONS, NIGHT_ICONS } from './condition-icons';
 import { readStored, writeStored } from './device-storage';
 import { openMeteoLockout, recordOpenMeteoRefusal } from './open-meteo-lockout';
+import WeatherWoodland from './weather-woodland';
+import { useSceneSky } from './use-scene-sky';
 
 const REFRESH_MS = 15 * 60 * 1000;
 // Older than this, the forecast is drawn muted: it is still the best answer
@@ -201,6 +201,7 @@ export default function WeatherPanel({ now, onConditions }: { now: Date | null; 
   }, [hours, hourStamp]);
 
   const current = view?.current ? describeHour(view.current) : null;
+  const sky = useSceneSky(now, current?.kind ?? null, current?.band ?? null);
 
   // Report the current hour to the clock once per change, not once per tick.
   const reportedTemperature = view?.current?.temperature ?? null;
@@ -211,7 +212,6 @@ export default function WeatherPanel({ now, onConditions }: { now: Date | null; 
     onConditions?.({ temperature: reportedTemperature, wet: reportedWet, kind: reportedKind, band: reportedBand });
   }, [onConditions, reportedTemperature, reportedWet, reportedKind, reportedBand]);
   const daylight = view ? isDaylight(view.ribbon[0].timestamp + 1800000) : true;
-  const Icon = current ? (daylight ? ICONS[current.kind] : NIGHT_ICONS[current.kind] ?? ICONS[current.kind]) : CloudOff;
   // Two separate facts. `stale` is about the data: older than STALE_MS, so the
   // card is drawn muted. `offline` is about the connection: the last refresh
   // failed, or there is nothing at all, so the dot appears. A refresh that
@@ -229,36 +229,27 @@ export default function WeatherPanel({ now, onConditions }: { now: Date | null; 
   const credit = (SOURCES.find(entry => entry.name === source) ?? SOURCES[0]).attribution;
 
   return <section className={'weather-band' + (stale ? ' stale' : '')} aria-label={'Weather. ' + offlineDescription}>
-    <div className={'weather' + (current ? ' condition-' + current.kind : '') + (daylight ? '' : ' night') + (view?.headline?.wet ? ' raining-now' : '')}
+    <div className={'weather' + (current ? ' ct-hillside condition-' + current.kind : ' weather-empty') + (daylight ? '' : ' night') + (view?.headline?.wet ? ' raining-now' : '')}
+      data-light={sky?.light} data-weather={sky?.weather} data-fall={sky?.fall}
       aria-label={current && temperature !== null ? temperature + ' degrees Celsius, ' + current.label : 'Weather unavailable'}>
-      <a className="weather-icon" href={credit.href} target="_blank" rel="noreferrer"
-        aria-label={(current?.label ?? 'Weather unavailable') + '. ' + credit.credit}>
-        <Icon strokeWidth={2.3} aria-hidden="true" />
-      </a>
+      {current && <WeatherWoodland />}
+      <span className="weather-landing" aria-hidden="true" />
       <p className="temperature" aria-hidden="true">{temperature ?? '—'}<span>°</span>{current && <small>{current.label}</small>}</p>
       <strong className="weather-headline" role={view ? undefined : 'status'}>{view?.headline?.text ?? (offline ? 'Forecast unavailable' : '···')}</strong>
       {offline && <span className="offline-dot" role="status" aria-label={offlineDescription} />}
     </div>
 
-    {view && view.track ? <div className="rain-ribbon" role="img"
+    {view && view.track ? <div className="rain-ribbon" role="group"
       aria-label={'Next ' + view.ribbon.length + ' hours. ' + (view.headline?.text ?? '') + '. Temperature between '
         + Math.round(view.track.low) + ' and ' + Math.round(view.track.high) + ' degrees. '
         + view.ribbon.filter(entry => entry.band !== 'dry')
           .map(entry => String(entry.hour).padStart(2, '0') + ':00 ' + entry.kind.replace('-', ' ') + ' ' + entry.millimetres.toFixed(1) + ' millimetres')
           .join(', ')}>
-      {/* The provider that answered is named in print as well as in the label
-          on the icon, but as its monogram rather than the licence sentence: the
-          sentence ran the width of the ribbon in eight-pixel text under the
-          hours it belongs to, and nobody reads it from a sofa. It sits beside
-          the heading because that is what it labels — these hours came from
-          this provider — where under the tick row it read as one more number in
-          the chart. The full sentence both DMI's CC BY and Google's policy ask
-          for is still on the icon's link, above. Only once something has
-          answered: crediting a provider for a card that is still empty would
-          name the wrong one. */}
-      <div className="ribbon-heading" aria-hidden="true">
+      {/* The linked monogram credits the provider that actually answered.
+          Its accessible label carries the full attribution. */}
+      <div className="ribbon-heading">
         <h2>Next {view.ribbon.length} hours</h2>
-        {source && <small className="weather-credit">{credit.mark}</small>}
+        {source && <a className="weather-credit" href={credit.href} target="_blank" rel="noreferrer" aria-label={credit.credit}>{credit.mark}</a>}
         <span>{Math.round(view.track.high)}° / {Math.round(view.track.low)}°</span>
       </div>
       <div className="temperature-track" aria-hidden="true">

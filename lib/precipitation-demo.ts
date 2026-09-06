@@ -72,6 +72,21 @@ function band(columns: number, rows: number, hour: number) {
   return cells;
 }
 
+// The same run with the rain taken out of it: same lattice, same twelve hours,
+// same fifteen-minute cadence, every cell zero. `?weather=dry` draws this, and
+// it is what makes the skipped forecast map reachable — the rotation drops the
+// scene when a loaded run has frames ahead of now and no precipitation in any
+// of them (lib/panel-rotation.ts), and neither a live provider nor the band
+// above will produce that on the day it is wanted.
+//
+// Built by emptying the demo run rather than by assembling its own frames, so
+// the two can never drift apart on timing, which is the half of the state the
+// skip actually reads.
+export function dryGrid(spec: GridSpec, now: number): PrecipitationGrid {
+  const grid = demoGrid(spec, now);
+  return { ...grid, frames: grid.frames.map(frame => ({ ...frame, cells: frame.cells.map(() => 0) })) };
+}
+
 export function demoGrid(spec: GridSpec, now: number): PrecipitationGrid {
   const first = Math.ceil(now / STEP_MS) * STEP_MS;
   const frames = Array.from({ length: GRID_FETCH_STEPS }, (unused, step) => ({

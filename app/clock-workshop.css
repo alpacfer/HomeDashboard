@@ -1,0 +1,92 @@
+/* Warm timber, cream enamel numerals and a small brass movement. The dark
+   date rail never changes colour with the outside sky. */
+.ct-workshop {
+  --clock-surface:#473426; --clock-ring:#957449;
+  --shed-window-top:#7aa1a4; --shed-window-low:#c2d0a7; --shed-window-tree:#54765c;
+}
+.ct-workshop[data-light='dawn'] { --shed-window-top:#837585; --shed-window-low:#d2a480; }
+.ct-workshop[data-light='dusk'] { --shed-window-top:#506c75; --shed-window-low:#d09d68; }
+.ct-workshop[data-light='night'] { --shed-window-top:#152b3b; --shed-window-low:#496870; --shed-window-tree:#243f3c; }
+.ct-workshop[data-weather='rain'],.ct-workshop[data-weather='fog'] { --shed-window-top:#657c80; --shed-window-low:#8ea09b; }
+.ct-workshop .clock-block {
+  --ink:#ead8af; --colon:#ba9e65; --date-ink:#d9cba9;
+  --digit-font:'Clock Grotesk','Space Grotesk',Arial,sans-serif; --digit-weight:700;
+  --date-size:1.06vw; --date-space:.095em;
+}
+.ct-workshop .clock { text-shadow:0 1px 0 #ac8d5c,0 2px 0 #81653f,1px 3px 0 #58452e,2px 4px 3px rgba(37,29,20,.65); }
+.ct-workshop .digit-face { -webkit-text-stroke:.35px #8c754e; }
+.ct-workshop .clock-digit::after { content:''; position:absolute; left:12%; right:8%; bottom:15%; height:5%; background:radial-gradient(ellipse at center,rgba(44,31,19,.42),transparent 70%); pointer-events:none; }
+.ct-workshop .separator span { border:1px solid #ebc480; box-shadow:0 1px 2px #2c241b; }
+.ct-workshop .clock-light { background:linear-gradient(110deg,rgba(255,203,124,.035),transparent 60%); }
+.ct-workshop .clock-date { background:none; text-shadow:0 1px 2px #241c14; }
+/* The painted geometry is shared by all four plates. CSS selects only the
+   current local asset, so the other six images need not load on first view. */
+.interior-paint { background-image:url('/scenes/interior-day-v1.webp'); }
+.exterior-paint { background-image:url('/scenes/exterior-day-v1.webp'); }
+.clock-widget:not([data-light]) .interior-paint { background-image:none; }
+[data-light='dawn'] .interior-paint { background-image:url('/scenes/interior-dawn-v1.webp'); }
+[data-light='dusk'] .interior-paint { background-image:url('/scenes/interior-dusk-v1.webp'); }
+[data-light='night'] .interior-paint { background-image:url('/scenes/interior-night-v1.webp'); }
+[data-light='dawn'] .exterior-paint { background-image:url('/scenes/exterior-dawn-v1.webp'); }
+[data-light='dusk'] .exterior-paint { background-image:url('/scenes/exterior-dusk-v1.webp'); }
+[data-light='night'] .exterior-paint { background-image:url('/scenes/exterior-night-v1.webp'); }
+.scene-light { background:linear-gradient(115deg,rgba(255,231,170,.06),transparent 65%); }
+[data-light='dawn'] .scene-light { background:linear-gradient(115deg,rgba(80,88,138,.12),transparent 45%,rgba(255,197,157,.14)); }
+[data-light='dusk'] .scene-light { background:linear-gradient(115deg,rgba(44,45,91,.18),transparent 45%,rgba(237,150,83,.13)); }
+[data-light='night'] .scene-light { background:linear-gradient(115deg,rgba(9,22,48,.22),transparent 75%); }
+/* A static filter removes direct-sun warmth under thick cloud. It is never
+   animated, and applies only to the artwork, never to weather text or digits. */
+[data-weather='cloudy'] .scene-paint { filter:saturate(.8) brightness(.92); }
+[data-weather='overcast'] .scene-paint,
+[data-weather='rain'] .scene-paint,
+[data-weather='sleet'] .scene-paint { filter:saturate(.58) brightness(.78); }
+[data-weather='fog'] .scene-paint { filter:saturate(.55); }
+[data-weather='snow'] .exterior-paint { filter:saturate(.35) brightness(1.1); }
+[data-weather='overcast'] .scene-light,
+[data-weather='rain'] .scene-light,
+[data-weather='sleet'] .scene-light { background:linear-gradient(180deg,rgba(58,75,96,.3),rgba(25,47,67,.12)); }
+[data-weather='snow'] .weather-surface .scene-light { background:linear-gradient(180deg,rgba(180,201,216,.2),rgba(224,236,236,.36)); }
+[data-weather='fog'] .scene-light { background:linear-gradient(180deg,rgba(171,186,190,.12),rgba(177,191,192,.42) 58%,rgba(143,165,164,.12)); }
+[data-light='night'][data-weather='fog'] .scene-light { background:linear-gradient(180deg,rgba(60,81,104,.1),rgba(77,99,118,.32) 58%,transparent); }
+.shed-window-weather { background:transparent; }
+[data-weather='overcast'] .shed-window-weather,
+[data-weather='rain'] .shed-window-weather,
+[data-weather='sleet'] .shed-window-weather { background:rgba(66,87,108,.35); }
+[data-weather='fog'] .shed-window-weather { background:rgba(197,205,202,.5); }
+[data-weather='rain'] .shed-window-rain,
+[data-weather='sleet'] .shed-window-rain { background:radial-gradient(1px 6px at 7px 8px,rgba(209,227,231,.5),transparent); background-size:17px 20px; animation:shed-rain 2.5s linear infinite; }
+@keyframes shed-rain { from {transform:translateY(0);} to {transform:translateY(20px);} }
+.exterior-sky { -webkit-mask-image:radial-gradient(ellipse 54% 45% at 62% 18%,#000 45%,transparent 100%); mask-image:radial-gradient(ellipse 54% 45% at 62% 18%,#000 45%,transparent 100%); }
+.ct-hillside .cs-bank {
+  background-image:linear-gradient(180deg,var(--cloud-lit),var(--cloud));
+  -webkit-mask-image:url('/scenes/cloud-bank-v1.svg'); mask-image:url('/scenes/cloud-bank-v1.svg');
+  -webkit-mask-size:var(--tile) var(--band); mask-size:var(--tile) var(--band);
+  -webkit-mask-repeat:repeat-x; mask-repeat:repeat-x;
+}
+.ct-hillside[data-weather='partly'] .cs-bank { opacity:.35; }
+.ct-hillside[data-weather='cloudy'] .cs-bank { opacity:.55; }
+.ct-hillside[data-weather='fog'] .cs-bank { -webkit-mask-image:none; mask-image:none; background-image:linear-gradient(180deg,transparent,rgba(180,197,202,.25) 50%,transparent); }
+.exterior-flowers { transform-origin:336px 160px; animation:wood-breeze 8s ease-in-out infinite; }
+[data-light='night'] .exterior-props { opacity:.75; }
+.exterior-camp { display:none; }
+[data-light='dusk'][data-weather='clear'] .exterior-camp,
+[data-light='dusk'][data-weather='partly'] .exterior-camp,
+[data-light='night'][data-weather='clear'] .exterior-camp,
+[data-light='night'][data-weather='partly'] .exterior-camp { display:inline; }
+.ct-hillside[data-weather='overcast'] .cs-sun,
+.ct-hillside[data-weather='rain'] .cs-sun,
+.ct-hillside[data-weather='sleet'] .cs-sun,
+.ct-hillside[data-weather='snow'] .cs-sun,
+.ct-hillside[data-weather='fog'] .cs-sun { opacity:0; }
+.ct-hillside[data-fall='none'] .cs-fall { display:none; }
+.shed-wheel { transform-origin:0 0; }
+.shed-wheel-large { animation:shed-wheel 32s linear infinite; }
+.shed-wheel-small { animation:shed-wheel 21.333s linear infinite reverse; }
+.shed-pendulum { transform-origin:328px 17px; animation:shed-pendulum 2.8s ease-in-out infinite; }
+.shed-lamplight { animation:shed-light 8s ease-in-out infinite; }
+@keyframes shed-wheel { from {transform:rotate(0deg);} to {transform:rotate(360deg);} }
+@keyframes shed-pendulum { 0%,100% {transform:rotate(-9deg);} 50% {transform:rotate(9deg);} }
+@keyframes shed-light { 0%,100% {opacity:.8;} 50% {opacity:1;} }
+@media (prefers-reduced-motion:reduce) {
+  .workshop-room * { animation:none !important; }
+}

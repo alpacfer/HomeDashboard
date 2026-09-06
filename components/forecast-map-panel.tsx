@@ -10,7 +10,7 @@ import {
 import {
   advectedCells, distinctStates, estimateFlows, MIN_DRAW_MS, momentAt, PLAYHEAD_MS, sequencePosition, steadyFlows,
 } from '@/lib/precipitation-flow';
-import { demoGrid } from '@/lib/precipitation-demo';
+import { demoGrid, dryGrid } from '@/lib/precipitation-demo';
 import { CHECK_RETRY_MS, MODEL_META_URL, nextCheckAt, parseModelRun, shouldFetchGrid, type ModelRun } from '@/lib/forecast-refresh';
 import { MAP_MS } from '@/lib/panel-rotation';
 import { debugFlags } from '@/lib/debug-flags';
@@ -41,7 +41,7 @@ const frameTime = new Intl.DateTimeFormat('en-GB', {
 
 type MapStatus = 'loading' | 'ready' | 'error';
 
-export default function ForecastMapPanel({ active }: { active: boolean }) {
+export default function ForecastMapPanel({ active, onDry }: { active: boolean; onDry?: (dry: boolean) => void }) {
   const canvas = useRef<HTMLDivElement>(null);
   const overlay = useRef<HTMLCanvasElement | null>(null);
   const image = useRef<HTMLCanvasElement | null>(null);
@@ -55,6 +55,12 @@ export default function ForecastMapPanel({ active }: { active: boolean }) {
   // Whether the scheduler's timer has ever been armed. See the first-appearance
   // effect below, which is the only thing that arms it.
   const started = useRef(false);
+  // The same first appearance, as state, because the rotation is told about it.
+  // A dry forecast lets the rotation skip this scene, and skipping it is only
+  // safe once the view has been measured: that is what arms the scheduler, so
+  // a scene skipped before it had ever appeared would never ask for another
+  // run and could never discover the rain that would bring it back.
+  const [measured, setMeasured] = useState(false);
   const [mapReady, setMapReady] = useState(false);
   const [grid, setGrid] = useState<PrecipitationGrid | null>(null);
   // How far through the sequence the animation is, 0 to 1. The canvas is
@@ -285,6 +291,15 @@ export default function ForecastMapPanel({ active }: { active: boolean }) {
   const frames = useMemo(() => grid && nowMs ? displayFrames(grid, nowMs) : [], [grid, nowMs]);
   const wet = useMemo(() => hasPrecipitation(frames), [frames]);
   const ticks = useMemo(() => timelineTicks(frames), [frames]);
+  // A run whose last frame is behind us: the forecast was overtaken before a
+  // new one could be fetched, and the scene says so rather than animating
+  // hours that are already over.
+  const expired = status === 'ready' && !!grid && !frames.length;
+  // Nothing to animate: a loaded run, frames still ahead of now, and not one
+  // of them wet anywhere on the grid. This is the only state the rotation
+  // skips. Loading, a failed provider and an expired run each have something
+  // honest to say and keep their thirty seconds.
+  const dry = status === 'ready' && !!grid && !!frames.length && !wet;
   // What the provider actually said, and how the field moves between one
   // saying and the next. The fifteen-minute frames repeat each hour's field
   // four times over, so these are the twelve states behind the forty-eight
@@ -434,14 +449,17 @@ export default function ForecastMapPanel({ active }: { active: boolean }) {
       nextMap.invalidateSize({ animate: false });
       nextMap.fitBounds([[MAP_BOUNDS.south, MAP_BOUNDS.west], [MAP_BOUNDS.north, MAP_BOUNDS.east]], FIT_OPTIONS);
       view.current = viewBounds() ?? view.current ?? MAP_BOUNDS;
+      setMeasured(true);
       // `?weather=demo` never asks a provider anything; it draws the synthetic
       // run instead, built for the view that was just measured so it fills the
-      // frame exactly as a real grid would.
-      if (debugFlags(window.location.search).weather === 'demo') {
+      // frame exactly as a real grid would. `?weather=dry` draws the same run
+      // emptied of rain, which is the state the rotation skips this scene for.
+      const synthetic = debugFlags(window.location.search).weather;
+      if (synthetic === 'demo' || synthetic === 'dry') {
         if (held.current) return;
-        const demo = demoGrid(gridForView(view.current), Date.now());
-        held.current = demo;
-        setGrid(demo);
+        const built = (synthetic === 'dry' ? dryGrid : demoGrid)(gridForView(view.current), Date.now());
+        held.current = built;
+        setGrid(built);
         setNowMs(Date.now());
         setStatus('ready');
         return;
@@ -467,7 +485,11 @@ export default function ForecastMapPanel({ active }: { active: boolean }) {
     return () => window.cancelAnimationFrame(resize);
   }, [active, mapReady]);
 
-  const expired = status === 'ready' && !!grid && !frames.length;
+  // What the rotation acts on. Held back until the view has been measured, for
+  // the reason given where `measured` is declared: the scene has to have been
+  // on screen once before skipping it is reversible.
+  useEffect(() => { onDry?.(measured && dry); }, [onDry, measured, dry]);
+
   return <section className={'panel-scene forecast-map-scene' + (active ? ' is-active' : '')} aria-hidden={!active}
     aria-label={'Forecast precipitation for the next ' + GRID_HOURS + ' hours around Home, Copenhagen and Hillerød'}>
     <div className="forecast-map-frame">

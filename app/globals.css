@@ -6,18 +6,8 @@ html,body { margin:0; min-height:100%; background:var(--background); }
 body { color:var(--foreground); font-family:'Space Grotesk',Arial,Helvetica,sans-serif; -webkit-font-smoothing:antialiased; }
 .dashboard { height:100vh; min-height:100vh; padding:6vh 5vw; display:grid; grid-template-columns:minmax(0, .9fr) minmax(0,1.6fr); grid-template-rows:minmax(0,1fr); gap:5vw; align-items:stretch; overflow:hidden; }
 .display-shell { --panel-inset:.7vw; min-width:0; min-height:0; padding-right:3.2vw; border-right:1px solid #303035; display:flex; flex-direction:column; }
-/* The clock widget: one enclosed card holding the time, the date and the
-   Tenant's home, sized and inset to sit in the same family as the weather
-   card below it. The background is its own layer rather than a background on
-   the frame, because the Tenant leaves the card to visit the rest of the
-   dashboard and a frame that clipped its own background would clip the
-   character with it. --clock-surface is passed straight to `background`, so a
-   custom backdrop can be a colour, a gradient or a url(); --clock-ring is the
-   hairline around it. Both are overridable on .clock-widget alone.
-   The vertical padding is the card's; the horizontal inset stays on .clock and
-   .clock-date, so the digits sit exactly where they always did and the surface
-   reaches the shell's edges the way the weather card's does. */
-.clock-widget { position:relative; flex-shrink:0; margin-bottom:2.8vh; padding:.6vw 0; border-radius:.65vw;
+/* Two compact rooms. Only the backdrop clips, so the resident can travel. */
+.clock-widget { position:relative; flex-shrink:0; height:22vh; margin:0 0 2.8vh; padding:0; border-radius:.65vw;
   --clock-surface:rgba(243,242,238,.035); --clock-ring:rgba(243,242,238,.09); }
 .clock-surface { position:absolute; inset:0; z-index:0; border-radius:inherit; overflow:hidden; background:var(--clock-surface); box-shadow:inset 0 0 0 1px var(--clock-ring); pointer-events:none; }
 /* The block stays the Tenant's coordinate origin: every measured perch, safe
@@ -25,12 +15,9 @@ body { color:var(--foreground); font-family:'Space Grotesk',Arial,Helvetica,sans
    would make it a stacking context and trap the Tenant inside the card, which
    it leaves to visit the rest of the dashboard. Being the later positioned
    sibling is what puts it above the surface. See docs/CLOCK.md. */
-/* The size is the one the Tenant has to fit beside. Digits, gap and character
-   are 2.74em + 0.08em + 0.42em of it, so at 8.8vw they came to 365px against a
-   350px card and the character sat out in the gutter past the card's edge.
-   7.6vw brings the three inside with room to spare; anything above 8vw puts the
-   character back over the edge. */
-.clock-block { position:relative; flex-shrink:0; --clock-size:7.6vw; --date-base:clamp(12px,1.2vw,24px);
+/* 2.74em of digits, a .08em gap and the .42em pet. The baseline sits on
+   the painting's bench at 72% height, independently of its lighting. */
+.clock-block { position:relative; flex-shrink:0; margin:0; padding-top:3.4vh; --clock-size:7.4vw; --date-base:clamp(12px,1.2vw,24px);
   --digit-font:'Clock Grotesk','Space Grotesk',Arial,Helvetica,sans-serif; --digit-weight:700; --digit-scale:1; --digit-var:normal;
   --date-font:'Space Grotesk',Arial,Helvetica,sans-serif; --date-weight:700; --date-size:var(--date-base); --date-space:.14em; --date-tf:uppercase;
   --ink:var(--foreground); --colon:var(--accent); --date-ink:var(--muted); --glow:none; --colon-r:50%; }
@@ -49,22 +36,21 @@ body { color:var(--foreground); font-family:'Space Grotesk',Arial,Helvetica,sans
 .separator { grid-column:3; grid-row:1; display:flex; flex-direction:column; align-items:center; justify-content:center; gap:.19em; height:1.12em; color:var(--colon); }
 .separator span { display:block; width:.105em; height:.105em; background:currentColor; border-radius:var(--colon-r); box-shadow:var(--glow); }
 .is-live .separator { animation:live-pulse 2s ease-in-out infinite; }
-.clock-date { display:flex; align-items:center; gap:.7em; margin:0; padding:0 var(--panel-inset); color:var(--date-ink); font-family:var(--date-font); font-size:var(--date-size); font-weight:var(--date-weight); line-height:1; letter-spacing:var(--date-space); text-transform:var(--date-tf); font-variant-numeric:lining-nums tabular-nums; text-shadow:var(--glow); white-space:nowrap; transition:opacity 3s ease; }
+.clock-date { display:flex; align-items:center; justify-content:center; gap:.7em; height:3.6vh; margin:-.7vh 0 0; padding:0 1.7vw; color:var(--date-ink); font-family:var(--date-font); font-size:var(--date-size); font-weight:var(--date-weight); line-height:1; letter-spacing:var(--date-space); text-transform:var(--date-tf); font-variant-numeric:lining-nums tabular-nums; text-shadow:var(--glow); white-space:nowrap; transition:opacity 3s ease; }
 /* Between 23:00 and 06:00 the Tenant sleeps and the clock turns down with it,
    slowly enough that nobody sees the step. */
 .is-asleep .clock,.is-asleep .clock-date { opacity:.72; }
 @keyframes live-pulse { 0%,100% {opacity:1;} 50% {opacity:.42;} }
 @keyframes digit-roll-in { from {opacity:0;transform:translateY(85%) rotateX(-35deg);} to {opacity:1;transform:translateY(0) rotateX(0);} }
 @keyframes digit-roll-out { from {opacity:1;transform:translateY(0) rotateX(0);} to {opacity:0;transform:translateY(-85%) rotateX(35deg);} }
-/* The band takes whatever the clock leaves and spreads the card and the ribbon
-   through it, so the gaps above the card, between it and the ribbon, and down
-   to the week strip come out alike instead of the slack pooling at the bottom. */
+/* The card keeps its position even while the forecast is unavailable. The
+   ribbon shrinks within the remaining height; shared left edges stay fixed. */
 /* The foot is the credit's, kept out of the even spacing: the band fills its
    share of the column, so an absolutely placed credit had nothing to sit in and
    landed on the tick row. The ribbon gives the height up the way it gives up
    any other, from the track and the bars. */
-.weather-band { position:relative; flex:1; min-height:0; padding-bottom:1.7vh; display:flex; flex-direction:column; justify-content:space-evenly; gap:2.2vh; overflow:hidden; }
-.weather { position:relative; flex-shrink:0; display:grid; grid-template-columns:4.2vw minmax(0,1fr); grid-template-rows:6.4vw auto; align-items:center; column-gap:1.1vw; color:var(--accent); padding:.6vw var(--panel-inset); border-radius:.65vw; background:var(--sky-tint); box-shadow:inset 0 0 0 1px var(--sky-ring); }
+.weather-band { position:relative; flex:1; min-height:0; padding-bottom:1.7vh; display:flex; flex-direction:column; justify-content:flex-start; gap:2.2vh; overflow:hidden; }
+.weather { position:relative; flex-shrink:0; display:grid; height:23.3vh; grid-template-columns:minmax(0,1fr); align-items:start; color:var(--accent); padding:2.3vh 1.45vw .6vw; border-radius:.65vw; background:var(--sky-tint); box-shadow:inset 0 0 0 1px var(--sky-ring); }
 /* The sky sets the palette. Each condition names the colour its icon and degree
    sign take, the tint behind the card, and its ring, so the card shifts from
    amber under sun to slate under cloud to blue in rain while the headline stays
@@ -80,8 +66,6 @@ body { color:var(--foreground); font-family:'Space Grotesk',Arial,Helvetica,sans
 /* The condition word sits at the foot of the number, small and quiet: it names
    the icon for anyone who cannot tell drizzle from rain at a glance. */
 .temperature > small { align-self:flex-end; margin:0 0 .12em .35em; color:var(--muted); font-size:.19em; font-weight:700; letter-spacing:.1em; text-transform:uppercase; line-height:1; }
-.weather-icon { display:flex; align-items:center; justify-content:center; width:4.2vw; height:4.2vw; color:var(--sky,inherit); text-decoration:none; border-radius:8px; filter:drop-shadow(0 0 .5vw var(--sky-glow,transparent)); }
-.weather-icon svg { display:block; width:3.8vw; height:3.8vw; }
 a:focus-visible { outline:2px solid var(--foreground); outline-offset:8px; }
 
 /* The headline is the panel's answer: read it and you are done. Everything
@@ -106,7 +90,7 @@ a:focus-visible { outline:2px solid var(--foreground); outline-offset:8px; }
    corner, and a line of fine print running most of the way across the ribbon
    competed with the hours it sat under while saying nothing anyone reads from a
    sofa. The sentence both DMI's CC BY and Google's policy ask for is on the
-   weather icon's link instead, in its accessible label. Centred rather than on
+   monogram's link, in its accessible label. Centred rather than on
    the row's baseline: a bordered box sitting on a baseline hangs below the
    heading it belongs to. */
 .weather-credit { display:inline-flex; align-self:center; align-items:center; justify-content:center;
@@ -254,11 +238,6 @@ a:focus-visible { outline:2px solid var(--foreground); outline-offset:8px; }
 .fact-illustration { margin:0; min-width:0; }
 .fact-illustration img,
 .fact-illustration video { display:block; width:100%; aspect-ratio:4/3; max-height:45vh; object-fit:cover; object-position:center; border-radius:.6vw; background:#19191c; }
-/* The clip is decoration and carries no sound, so it needs no controls and
-   must never be mistaken for something to press: there is no pointer on this
-   wall. The poster covers the gap before the first frame paints. */
-.fact-video { pointer-events:none; }
-.fact-video::-webkit-media-controls { display:none !important; }
 /* A clip is shown whole. --media-ar is the transcode's real ratio, set on the
    figure by the panel, so the box is the shape of the picture and `cover` has
    nothing left to crop. A still keeps the 4:3 rule above: cropping a photograph
@@ -626,8 +605,31 @@ a:focus-visible { outline:2px solid var(--foreground); outline-offset:8px; }
   .screen-progress-ring {animation-timing-function:steps(10,end);}
 }
 
+/* Woodland geometry stays here; its colour and motion live in the theme. */
+.workshop-room { position:absolute; inset:0; width:100%; height:100%; }
+.scene-paint,.scene-light,.scene-props,.exterior-sky { position:absolute; inset:0; width:100%; height:100%; pointer-events:none; }
+.scene-paint { background-size:100% 100%; background-repeat:no-repeat; }
+/* Reuse the painting's tabletop as a deeper foreground plane. The back edge
+   sits above the raised glyph baseline; the front edge stays above the date. */
+.workshop-bench { top:65%; bottom:auto; height:17%; background-size:100% 925%; background-position:center 80.7%; }
+.shed-window-weather { position:absolute; left:78.3%; top:29%; width:11.3%; height:31%; overflow:hidden; border-radius:45% 45% 0 0; }
+.shed-window-rain { position:absolute; inset:-20px 0; }
+.weather-surface { border-radius:inherit; }
+.weather-shade { position:absolute; inset:0; background:linear-gradient(90deg,rgba(12,30,28,.7),rgba(12,30,28,.3) 48%,transparent 80%),linear-gradient(0deg,rgba(13,30,24,.45),transparent 40%); }
+.weather .temperature { position:relative; }
+.weather .weather-headline { position:absolute; grid-column:auto; grid-row:auto; left:1.45vw; right:5.5vw; top:64%; bottom:auto; margin:0; padding:0; background:none; color:#efe5c7; font-size:1.5vw; font-weight:600; text-shadow:0 1px 3px #14241c; }
+.weather .temperature { font-family:'Fraunces',Georgia,serif; font-variation-settings:'opsz' 144,'SOFT' 62,'WONK' 1; font-weight:600; font-size:5.1vw; color:#f2e8ce; text-shadow:0 2px 3px rgba(13,31,24,.6); }
+.weather .temperature > small { position:absolute; top:100%; left:0; margin:.4vw 0 0; max-width:12vw; font-family:'Space Grotesk',Arial,sans-serif; font-size:.19em; letter-spacing:.09em; white-space:normal; }
+.weather.ct-hillside .temperature > small { color:#ebe9d2; }
+.weather.ct-hillside .temperature > span { color:#dfc997; }
+.weather-landing { position:absolute; right:1.5vw; top:74%; width:4.3vw; height:4px; border-radius:50%; background:rgba(40,42,30,.2); }
+.weather-empty .weather-landing { background:#45454d; }
+.weather-empty .weather-headline { background:none; color:var(--muted); }
+.weather-credit { text-decoration:none; }
+.woodland-resident { position:absolute; left:var(--tenant-left); top:var(--tenant-top); width:.42em; height:.42em; font-size:var(--clock-size); pointer-events:none; }
+.woodland-resident svg { display:block; width:100%; height:100%; overflow:visible; }
+
 /* The clock's themes are not here. The custom properties above are the seam
    they plug into; the layer framework is in app/clock-theme.css and each
    theme is a file of its own beside it (app/clock-hillside.css), both
    imported by app/layout.tsx. See docs/CLOCK.md. */
-

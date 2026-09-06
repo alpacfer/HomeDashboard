@@ -40,8 +40,8 @@ loop, or anything that runs on the server.
    every Tenant track are `transform` and `opacity` only. See
    [CLOCK.md](CLOCK.md).
    Of the 22 subset woff2 files in `public/fonts/clock/`, about 0.9 MB in all,
-   the display now fetches one: the clock wears a single face, and the rest
-   belong to the shelved wardrobe in
+   the display now fetches two: Clock Grotesk for the workshop and Fraunces for
+   the outdoor temperature. The rest belong to the shelved wardrobe in
    [assets/clock-behavior/](../assets/clock-behavior/README.md).
 5. **Nothing may depend on interaction.** There is no pointer and no keyboard.
    `:hover` states, tooltips, and focus-only affordances are invisible to the
@@ -102,7 +102,7 @@ spent guessing the native-CRS `bbox` format for cube queries when the answer was
 in DMI's own EDR documentation all along.
 
 DMI free data is licensed **CC BY 4.0 and attribution is mandatory**. The
-weather icon links to DMI's terms of use and carries the credit in its
+provider monogram beside the forecast heading links to DMI's terms and carries the credit in its
 accessible label. Do not remove that link.
 
 ## Render

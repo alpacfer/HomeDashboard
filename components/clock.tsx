@@ -1,9 +1,9 @@
 'use client';
 
-// The clock widget: one enclosed card holding the time, the date and the
+// The clock widget: a painted workshop holding the time, the date and the
 // Tenant's home.
 //
-// The card is a frame with its own background layer (.clock-surface) and, above
+// The panel is a frame with its own background layer (.clock-surface) and, above
 // it, the block the clock has always been. The block is still the Tenant's
 // coordinate origin, so every perch, safe spot and world landmark it measures
 // stays in the block's own pixels; the card does not clip, because the
@@ -28,8 +28,10 @@ import {
 } from '@/lib/clock-tenant';
 import type { Rotation } from '@/lib/panel-rotation';
 import { DEFAULT_CLOCK_THEME, clockTheme, clockThemeClass, hasScenery } from '@/lib/clock-theme';
-import { clockSky, parsePinnedSky } from '@/lib/clock-sky';
+import { useSceneSky } from './use-scene-sky';
 import Tenant from './tenant';
+import { WoodlandResident } from './clock-woodland';
+import ClockWorkshop from './clock-workshop';
 
 // The Tenant is 0.42 of the clock's font size tall and rests 0.08 of it right
 // of the last cell.
@@ -52,12 +54,6 @@ const PLAY_MS = 900;
 const subscribeToNothing = () => () => undefined;
 const urlTheme = () => clockTheme(window.location.search);
 const serverTheme = () => DEFAULT_CLOCK_THEME;
-// The `?sky=` pin travels as its raw string rather than as the parsed object,
-// because a snapshot has to stay equal to itself between renders and a fresh
-// object literal never is.
-const urlSky = () => new URLSearchParams(window.location.search).get('sky') ?? '';
-const serverSky = () => '';
-
 type Play = { id: 'land' | 'spring'; key: number };
 
 export default function Clock({ now, conditions = null, activeScene = 'transport', petPreview = null, petTravel = null }: {
@@ -80,7 +76,7 @@ export default function Clock({ now, conditions = null, activeScene = 'transport
   // wall, so there is nothing to subscribe to. The display loads once and then
   // runs for weeks, so the first frame it spends plain is never seen.
   const theme = useSyncExternalStore(subscribeToNothing, urlTheme, serverTheme);
-  const skyPin = useSyncExternalStore(subscribeToNothing, urlSky, serverSky);
+  const sky = useSceneSky(now, conditions?.kind ?? null, conditions?.band ?? null);
 
   const [targets, setTargets] = useState<Targets | null>(null);
   const [play, setPlay] = useState<Play | null>(null);
@@ -183,7 +179,7 @@ export default function Clock({ now, conditions = null, activeScene = 'transport
     // because the character must visibly land before it can change direction;
     // no route point is an invented coordinate in the middle of the screen.
     addSafe('weather-left', '.weather', 0.08);
-    addWorld('weather', '.weather', 0.76);
+    addWorld('weather', '.weather-landing', 0.5);
     addSafe('ribbon-left', '.ribbon-bars', 0.08, 'bottom');
     addSafe('ribbon-middle', '.ribbon-bars', 0.5, 'bottom');
     addSafe('ribbon-right', '.ribbon-bars', 0.92, 'bottom');
@@ -275,25 +271,12 @@ export default function Clock({ now, conditions = null, activeScene = 'transport
   // the first tick; the three attributes are then simply absent, which leaves
   // the stylesheet on its own defaults rather than on a sky invented for a
   // moment nobody sees.
-  const sky = now
-    ? clockSky(now.getTime(), conditions?.kind ?? null, conditions?.band ?? null, parsePinnedSky(skyPin))
-    : null;
 
-  return <section className={('clock-widget ' + clockThemeClass(theme)).trim()} aria-label="Time and date"
+  return <section className={('clock-widget ' + clockThemeClass(theme)).trim()} aria-label="Clock panel: time and date"
     data-light={sky?.light} data-weather={sky?.weather} data-fall={sky?.fall}>
-    {/* The background of the widget, on its own layer so the frame itself can
-        stay unclipped for the Tenant. Restyle it through --clock-surface.
-        A theme paints its place into these layers, back to front: the disc and
-        the stars, high cloud, the bank the weather moves, the far ridge, the
-        near canopy, whatever is falling, and whatever is drifting. They are
-        empty spans because a theme draws them in CSS alone, and they exist
-        only when a theme is on, so the plain card keeps the DOM it always
-        had. */}
+    {/* Only the room clips; the resident can leave to visit the outdoor card. */}
     <div className="clock-surface" aria-hidden="true">
-      {scenery && <>
-        <span className="cs-sun" /><span className="cs-far" /><span className="cs-bank" /><span className="cs-mid" />
-        <span className="cs-near" /><span className="cs-fall" /><span className="cs-air" />
-      </>}
+      {scenery && <ClockWorkshop />}
     </div>
 
     <div className={className} ref={blockRef}>
@@ -314,6 +297,9 @@ export default function Clock({ now, conditions = null, activeScene = 'transport
           is never busy; the prop stays as the seam those would plug back into. */}
       {targets && !reduced && <Tenant mood={mood} targets={targets} activeScene={activeScene} previewSpot={petPreview} travelSpot={petTravel} rollKey={rollKey}
         nextDigit={nextDigit} rolledDigit={rolledDigit} busy={false} onPlay={onPlay} />}
+      {targets && reduced && <div className="woodland-resident" aria-hidden="true" style={{
+        '--tenant-left': targets.rest.left + 'px', '--tenant-top': targets.rest.top + 'px',
+      } as CSSProperties}><WoodlandResident /></div>}
     </div>
 
     {/* The light of the place, falling on the digits and on the Tenant rather
@@ -324,9 +310,5 @@ export default function Clock({ now, conditions = null, activeScene = 'transport
         so a Tenant out visiting the dashboard is not lit by it. */}
     {scenery && <div className="clock-light" aria-hidden="true" />}
 
-    {/* What grows on the clock. Outside the clipped surface, so a leaf can sit
-        on the frame and overhang the edge; in front of the block, so it is
-        plainly growing on the card rather than painted behind it. */}
-    {scenery && <div className="cs-flora" aria-hidden="true" />}
   </section>;
 }

@@ -5,6 +5,7 @@ import './clock-fonts.css';
 // theme. Both after globals.css, whose custom properties they override.
 import './clock-theme.css';
 import './clock-hillside.css';
+import './clock-workshop.css';
 
 export const metadata: Metadata = {
   metadataBase: new URL(process.env.SITE_URL || 'http://localhost:3000'),

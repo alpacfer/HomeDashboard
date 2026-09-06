@@ -29,6 +29,8 @@ test('the old bare card is still reachable, and is the only theme without scener
 });
 
 test('the default is a real theme, and every theme has a name', () => {
+  assert.equal(DEFAULT_CLOCK_THEME, 'workshop');
+  assert.equal(clockTheme('?clock=hillside'), 'workshop');
   assert.ok(CLOCK_THEMES.includes(DEFAULT_CLOCK_THEME));
   assert.notEqual(DEFAULT_CLOCK_THEME, 'plain');
   for (const theme of CLOCK_THEMES) assert.match(CLOCK_THEME_NAMES[theme], /\S/);

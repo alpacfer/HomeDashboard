@@ -16,6 +16,37 @@ test('transport and facts get 15 seconds, the forecast map keeps 30', () => {
   assert.deepEqual(nextRotation(forecastMap, 40), { phase:'transport', index:1, duration:15000 });
   assert.equal(TRANSPORT_MS + FACT_MS + MAP_MS, 60000, 'one full cycle takes a minute');
 });
+test('a dry forecast skips the map, and rain brings it back without a reload', () => {
+  // The map is worth thirty seconds only when it has rain to animate. Told it
+  // has none, the rotation steps from the fact straight to the next
+  // transport, so a dry day cycles in 30 s instead of 60 s.
+  const fact = { phase:'fact', index:0, duration:FACT_MS };
+  assert.deepEqual(nextRotation(fact, 40, false), { phase:'transport', index:1, duration:TRANSPORT_MS });
+  // The step into the fact is untouched: only the map is ever skipped.
+  assert.deepEqual(nextRotation(initialRotation(0, 40), 40, false), { phase:'fact', index:0, duration:FACT_MS });
+  // A map already on screen when the forecast turns dry plays out its scene
+  // rather than being cut off by a refresh landing behind it.
+  const forecastMap = { phase:'map', index:0, duration:MAP_MS };
+  assert.deepEqual(nextRotation(forecastMap, 40, false), { phase:'transport', index:1, duration:TRANSPORT_MS });
+  // Nothing is remembered: the flag is read afresh at every step, so the run
+  // that brings rain back puts the map in the very next cycle.
+  assert.deepEqual(nextRotation(fact, 40, true), { phase:'map', index:0, duration:MAP_MS });
+  // Omitting it keeps the map, so nothing that cannot answer loses the scene.
+  assert.deepEqual(nextRotation(fact, 40), { phase:'map', index:0, duration:MAP_MS });
+});
+test('facts still take their turn one at a time while the map is skipped', () => {
+  // The map carries no index, so skipping it must not skip a fact with it.
+  const seen = [];
+  let state = initialRotation(0, FACT_COUNT);
+  for (let i = 0; i < FACT_COUNT * 2; i++) {
+    state = nextRotation(state, FACT_COUNT, false);
+    assert.equal(state.phase, 'fact');
+    seen.push(state.index);
+    state = nextRotation(state, FACT_COUNT, false);
+    assert.equal(state.phase, 'transport');
+  }
+  assert.deepEqual(seen, [0, 1, 2, 0, 1, 2]);
+});
 test('Spain, Denmark and Greece are each shown once before the daily facts repeat', () => {
   const seen = new Set();
   let state = initialRotation(1, FACT_COUNT);

@@ -1,6 +1,6 @@
 import { test } from 'node:test';
 import assert from 'node:assert/strict';
-import { demoGrid, DRIFT_U, DRIFT_V } from '../lib/precipitation-demo.ts';
+import { demoGrid, dryGrid, DRIFT_U, DRIFT_V } from '../lib/precipitation-demo.ts';
 import {
   DEFAULT_GRID, GRID_FETCH_STEPS, GRID_STEP_MINUTES, GRID_STEPS, hasPrecipitation, validPrecipitationGrid,
 } from '../lib/precipitation-grid.ts';
@@ -19,6 +19,21 @@ test('the demo grid is a grid, indistinguishable in shape from a fetched one', (
   assert.equal(grid.frames[0].timestamp % STEP_MS, 0);
   assert.ok(grid.frames[0].timestamp > NOW);
   grid.frames.forEach((frame, step) => assert.equal(frame.timestamp, grid.frames[0].timestamp + step * STEP_MS));
+});
+
+test('the dry run is the same run with no rain in it, which is the state the map is skipped for', () => {
+  const dry = dryGrid(DEFAULT_GRID, NOW);
+  const wet = demoGrid(DEFAULT_GRID, NOW);
+  // A real grid in every respect but its values, because the skip reads both:
+  // it wants frames still ahead of now that carry no precipitation, and a run
+  // with no frames left is an expired one, which keeps its scene instead.
+  assert.equal(validPrecipitationGrid(dry), true);
+  assert.equal(dry.frames.length, GRID_FETCH_STEPS);
+  assert.deepEqual(dry.frames.map(frame => frame.timestamp), wet.frames.map(frame => frame.timestamp));
+  assert.equal(hasPrecipitation(dry.frames), false);
+  assert.equal(hasPrecipitation(wet.frames), true);
+  assert.ok(dry.frames.every(frame => frame.cells.length === wet.frames[0].cells.length));
+  assert.ok(dry.frames.every(frame => frame.cells.every(millimetres => millimetres === 0)));
 });
 
 test('it reproduces the provider fault it exists to check: four identical quarters an hour', () => {

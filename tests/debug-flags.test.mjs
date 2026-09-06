@@ -9,6 +9,14 @@ test('weather is live unless the URL says off, so a typo cannot silence the disp
   assert.equal(debugFlags('?weather=OFF').weather, 'live');
   assert.equal(debugFlags('?weather=off').weather, 'off');
   assert.equal(debugFlags('?scene=transport&weather=off').weather, 'off');
+  // Each synthetic run is its own value: `demo` has rain in it, `dry` has
+  // none, and `dry` is the only way to reach the forecast map the rotation
+  // skips. A typo still falls back to live rather than to either.
+  assert.equal(debugFlags('?weather=demo').weather, 'demo');
+  assert.equal(debugFlags('?weather=dry').weather, 'dry');
+  assert.equal(debugFlags('?weather=none').weather, 'none');
+  assert.equal(debugFlags('?weather=drt').weather, 'live');
+  assert.equal(debugFlags('?weather=DRY').weather, 'live');
 });
 
 test('the clock can be pinned to a Copenhagen time, and only to one that exists', () => {

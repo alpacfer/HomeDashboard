@@ -172,71 +172,8 @@
 .ct-hillside[data-weather='snow'] .cs-sun,
 .ct-hillside[data-weather='fog'] .cs-sun { opacity:.22; }
 
-/* ── §3 Land ──────────────────────────────────────────────────────────────
-   Both ridges are crowns of six different radii above a solid band. The spans
-   overlap along the whole tile on purpose: a gap between two crowns exposes
-   the flat top of the band, and because that top is one y for the whole card
-   it reads as a ruled line rather than as a hill. */
-
-/* Ridge crowns span 0-36, 20-84, 76-120, 111-169, 162-210, 201-238. */
-.ct-hillside .cs-mid {
-  --tile:238px; --band:78%; width:200%;
-  background-image:
-    radial-gradient(circle 26px at 10px 100%, var(--ridge) 99%, transparent 100%),
-    radial-gradient(circle 32px at 52px 100%, var(--ridge) 99%, transparent 100%),
-    radial-gradient(circle 22px at 98px 100%, var(--ridge) 99%, transparent 100%),
-    radial-gradient(circle 29px at 140px 100%, var(--ridge) 99%, transparent 100%),
-    radial-gradient(circle 24px at 186px 100%, var(--ridge) 99%, transparent 100%),
-    radial-gradient(circle 27px at 228px 100%, var(--ridge) 99%, transparent 100%),
-    linear-gradient(var(--ridge),var(--ridge));
-  background-size:
-    var(--tile) var(--band), var(--tile) var(--band), var(--tile) var(--band),
-    var(--tile) var(--band), var(--tile) var(--band), var(--tile) var(--band),
-    100% calc(100% - var(--band));
-  background-position:0 0, 0 0, 0 0, 0 0, 0 0, 0 0, 0 100%;
-  background-repeat:repeat-x, repeat-x, repeat-x, repeat-x, repeat-x, repeat-x, no-repeat;
-  animation:cs-drift 470s linear infinite;
-}
-
-/* The near canopy, close enough for the wind to show in it.
-   Snow is the SECOND six gradients, not the first: the same crowns four pixels
-   higher, in --cap, painted BEHIND the canopy. Order is the whole trick. In
-   front, a cap is a white disc covering its crown, and the disc's bottom is
-   cut off flat at the band edge — six of them side by side ruled a bright line
-   right across the card. Behind, all that shows of it is the four pixels it
-   stands proud of its own crown, which is a rim of snow along each lump, and
-   its cut bottom is hidden by the crown and the band below. */
-.ct-hillside .cs-near {
-  --tile:272px; --band:85%; --sway:3px; width:calc(100% + 14px); left:-7px;
-  background-image:
-    radial-gradient(circle 30px at 12px 100%, var(--canopy) 99%, transparent 100%),
-    radial-gradient(circle 22px at 58px 100%, var(--canopy) 99%, transparent 100%),
-    radial-gradient(circle 34px at 104px 100%, var(--canopy) 99%, transparent 100%),
-    radial-gradient(circle 25px at 152px 100%, var(--canopy) 99%, transparent 100%),
-    radial-gradient(circle 31px at 200px 100%, var(--canopy) 99%, transparent 100%),
-    radial-gradient(circle 27px at 248px 100%, var(--canopy) 99%, transparent 100%),
-    radial-gradient(circle 30px at 12px calc(100% - 4px), var(--cap) 99%, transparent 100%),
-    radial-gradient(circle 22px at 58px calc(100% - 4px), var(--cap) 99%, transparent 100%),
-    radial-gradient(circle 34px at 104px calc(100% - 4px), var(--cap) 99%, transparent 100%),
-    radial-gradient(circle 25px at 152px calc(100% - 4px), var(--cap) 99%, transparent 100%),
-    radial-gradient(circle 31px at 200px calc(100% - 4px), var(--cap) 99%, transparent 100%),
-    radial-gradient(circle 27px at 248px calc(100% - 4px), var(--cap) 99%, transparent 100%),
-    linear-gradient(var(--canopy),var(--canopy));
-  background-size:
-    var(--tile) var(--band), var(--tile) var(--band), var(--tile) var(--band),
-    var(--tile) var(--band), var(--tile) var(--band), var(--tile) var(--band),
-    var(--tile) var(--band), var(--tile) var(--band), var(--tile) var(--band),
-    var(--tile) var(--band), var(--tile) var(--band), var(--tile) var(--band),
-    100% calc(100% - var(--band));
-  background-position:0 0, 0 0, 0 0, 0 0, 0 0, 0 0, 0 0, 0 0, 0 0, 0 0, 0 0, 0 0, 0 100%;
-  background-repeat:
-    repeat-x, repeat-x, repeat-x, repeat-x, repeat-x, repeat-x,
-    repeat-x, repeat-x, repeat-x, repeat-x, repeat-x, repeat-x, no-repeat;
-  animation:cs-sway 27s ease-in-out infinite;
-}
-
-.ct-hillside[data-weather='snow'] { --cap:rgba(226,238,244,.92); }
-.ct-hillside[data-weather='sleet'] { --cap:rgba(210,226,236,.5); }
+/* The land is a local painted plate. The old gradient ridges are retired. */
+.ct-hillside .cs-mid,.ct-hillside .cs-near { display:none; }
 
 /* ── §4 What falls ────────────────────────────────────────────────────────*/
 
@@ -310,71 +247,16 @@
 
 .ct-hillside .clock-light { background:radial-gradient(66% 108% at 97% 108%, var(--warm), transparent 64%); }
 
-/* ── §6 What grows on the clock ───────────────────────────────────────────
-   A vine up the left frame with the light on its west side, and a tuft in the
-   corner the Tenant does not stand in. Both lean from the base, in the same
-   wind that moves the canopy. These are paths because a stem is a curve and a
-   curve is not a gradient; they are inline, so they cost no request and no
-   decode. */
 
-.ct-hillside .cs-flora {
-  background-image:
-    url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 34 150'%3E%3Cpath d='M9 151C13 128 5 112 11 94 17 77 12 60 19 44 23 34 26 25 32 19' fill='none' stroke='%23234f38' stroke-width='2.5' stroke-linecap='round'/%3E%3Cg fill='%232d6a45'%3E%3Cellipse cx='4' cy='128' rx='8.5' ry='4' transform='rotate(-26 4 128)'/%3E%3Cellipse cx='17' cy='112' rx='7.5' ry='3.6' transform='rotate(22 17 112)'/%3E%3Cellipse cx='4' cy='94' rx='9' ry='4.2' transform='rotate(-31 4 94)'/%3E%3Cellipse cx='21' cy='77' rx='8' ry='3.8' transform='rotate(26 21 77)'/%3E%3Cellipse cx='6' cy='60' rx='8.5' ry='4' transform='rotate(-29 6 60)'/%3E%3Cellipse cx='26' cy='44' rx='7.5' ry='3.6' transform='rotate(24 26 44)'/%3E%3Cellipse cx='22' cy='26' rx='7' ry='3.4' transform='rotate(-22 22 26)'/%3E%3C/g%3E%3Cg fill='%233f8a58'%3E%3Cellipse cx='6' cy='126.5' rx='5' ry='2' transform='rotate(-26 6 126.5)'/%3E%3Cellipse cx='6' cy='92.5' rx='5.2' ry='2.1' transform='rotate(-31 6 92.5)'/%3E%3Cellipse cx='8' cy='58.5' rx='5' ry='2' transform='rotate(-29 8 58.5)'/%3E%3C/g%3E%3Ccircle cx='32' cy='19' r='2.4' fill='%23f2e2b4'/%3E%3Ccircle cx='28' cy='14' r='1.7' fill='%23e8d49f'/%3E%3C/svg%3E"),
-    url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 54 26'%3E%3Cg fill='none' stroke='%231e4a34' stroke-width='2.1' stroke-linecap='round'%3E%3Cpath d='M8 26C8 18 5 12 2 8'/%3E%3Cpath d='M14 26C14 17 16 11 20 6'/%3E%3Cpath d='M20 26C20 19 18 13 15 9'/%3E%3Cpath d='M34 26C34 18 37 12 41 8'/%3E%3Cpath d='M41 26C41 18 39 12 36 8'/%3E%3Cpath d='M47 26C47 19 49 14 52 10'/%3E%3C/g%3E%3Cg fill='%232f6b46'%3E%3Cellipse cx='24' cy='16' rx='6' ry='2.8' transform='rotate(28 24 16)'/%3E%3Cellipse cx='31' cy='21' rx='5.4' ry='2.5' transform='rotate(-20 31 21)'/%3E%3C/g%3E%3C/svg%3E");
-  background-position:left 3px bottom 3px, right 13px bottom 1px;
-  background-size:auto 92%, 50px 24px;
-  animation:cs-lean 21s ease-in-out infinite;
+/* The land is painted; these transforms belong to the few foreground props. */
+.ct-hillside { --sun-x:64%; --sun-y:42%; }
+.ct-hillside[data-light='day'] { --sun-x:64%; --sun-y:22%; --sun-r:13px; }
+.ct-hillside[data-light='dawn'] { --sun-x:63%; --sun-y:39%; }
+.ct-hillside[data-light='night'] { --sun-x:64%; --sun-y:22%; --sun-r:10px; }
+@keyframes wood-breeze { 0%,100% {transform:rotate(-1deg);} 45% {transform:rotate(2deg);} 72% {transform:rotate(.5deg);} }
+.wood-flame { transform-origin:0 3px; animation:wood-fire 1.8s ease-in-out infinite; }
+.wood-fire-glow { animation:cs-breathe 3.7s ease-in-out infinite; }
+@keyframes wood-fire { 0%,100% {transform:scale(.9,1) skewX(-4deg);} 38% {transform:scale(1.05,.86) skewX(5deg);} 72% {transform:scale(.92,1.08) skewX(-2deg);} }
+@media (prefers-reduced-motion:reduce) {
+  .weather-surface * { animation:none !important; }
 }
-/* After dark the plants are silhouettes like everything else on the hill. */
-.ct-hillside[data-light='dusk'] .cs-flora { filter:brightness(.72); }
-.ct-hillside[data-light='night'] .cs-flora { filter:brightness(.42); }
-
-/* ── §7 The numbers ───────────────────────────────────────────────────────*/
-
-.ct-hillside .clock-block {
-  --digit-font:'Fraunces',Georgia,serif; --digit-weight:600; --digit-var:'opsz' 144,'SOFT' 62,'WONK' 1;
-  --date-font:'Fraunces',Georgia,serif; --date-weight:500; --date-space:.24em;
-  /* The date crosses the canopy, and the canopy is lit green at midday and a
-     silhouette at dusk, with snow on it in winter. A tinted date read well on
-     exactly one of those, so it is near-white like the digits and leans on a
-     shadow instead. */
-  --ink:#fdf3de; --colon:#ff9f5c; --date-ink:#ece7d6;
-  --glow:none;
-}
-
-/* That shadow cannot be a text-shadow on the digits. Each cell clips its own
-   overflow, which is what makes the roll read as a roll, and a blurred shadow
-   reaching the edge of a .62em cell is cut off square there — drawing a faint
-   rectangle around every digit, on every sky. A filter on the line as a whole
-   is applied after that clip, so the shadow is cast from the glyph shapes and
-   is free to land outside their boxes. The date is clipped by nothing, so it
-   keeps the cheaper text-shadow. */
-.ct-hillside .clock { filter:drop-shadow(0 .028em .062em rgba(5,16,22,.72)); }
-.ct-hillside .clock-date { text-shadow:0 1px 2px rgba(5,16,22,.85); }
-
-/* The minute changes the way the weather is moving. In fair weather a breeze
-   lifts the old digit off the hill and sets the new one down after it, with a
-   small overshoot so it settles rather than stops. The cells clip, so all of
-   this is vertical: a digit blown sideways would be cut off at its own edge. */
-@keyframes ct-hillside-in { 0% {opacity:0;transform:translateY(66%) scale(.94);} 62% {opacity:1;transform:translateY(-5%) scale(1.012);} 100% {opacity:1;transform:none;} }
-@keyframes ct-hillside-out { 0% {opacity:1;transform:none;} 100% {opacity:0;transform:translateY(-60%) scale(.95) rotate(-2deg);} }
-.ct-hillside .digit-in { animation:ct-hillside-in 840ms cubic-bezier(.17,.89,.24,1) var(--roll-delay) both; }
-.ct-hillside .digit-out { animation:ct-hillside-out 840ms cubic-bezier(.42,0,.72,.42) var(--roll-delay) both; }
-
-/* In rain the digits go the way the rain goes: the old one is washed down off
-   the bottom and the new one arrives from above behind it. */
-@keyframes ct-hillside-wash-in { 0% {opacity:0;transform:translateY(-64%) scale(.95);} 64% {opacity:1;transform:translateY(4%) scale(1.01);} 100% {opacity:1;transform:none;} }
-@keyframes ct-hillside-wash-out { 0% {opacity:1;transform:none;} 100% {opacity:0;transform:translateY(62%) scale(.96) rotate(1.5deg);} }
-.ct-hillside[data-weather='rain'] .digit-in,
-.ct-hillside[data-weather='sleet'] .digit-in { animation-name:ct-hillside-wash-in; }
-.ct-hillside[data-weather='rain'] .digit-out,
-.ct-hillside[data-weather='sleet'] .digit-out { animation-name:ct-hillside-wash-out; }
-
-/* Heavy rain hurries the minute along. This comes before the snow rule and
-   not after it, because the two match at the same specificity and heavy snow
-   is still snow: it should keep snow's pace, not rain's. */
-.ct-hillside[data-fall='heavy'] .digit-in,
-.ct-hillside[data-fall='heavy'] .digit-out { animation-duration:620ms; }
-/* Snow does not hurry, and neither does the minute while it is falling. */
-.ct-hillside[data-weather='snow'] .digit-in,
-.ct-hillside[data-weather='snow'] .digit-out { animation-duration:1240ms; }

@@ -17,6 +17,12 @@
 //                  photograph the map's animation without buying a grid, and
 //                  it is deterministic, so two captures of the same change are
 //                  comparable.
+//   ?weather=dry   As `demo`, but the synthetic run holds no precipitation at
+//                  all. That is the state the rotation skips the forecast map
+//                  for (lib/panel-rotation.ts), and a live forecast will not
+//                  produce it to order any more than it will produce rain, so
+//                  it is the only way to look at the skipped scene and at the
+//                  shortened cycle around it.
 //   ?weather=none  No request and no placeholder: the card shows its genuinely
 //                  unavailable state. That is a state the display has to get
 //                  right when every provider is down, so it stays reachable.
@@ -55,7 +61,7 @@ import type { WorldSpotId } from './clock-tenant';
 import type { SourceName } from './forecast-sources';
 
 export type PinnedTime = { hour: number; minute: number };
-export type Weather = 'live' | 'off' | 'demo' | 'none';
+export type Weather = 'live' | 'off' | 'demo' | 'dry' | 'none';
 export type Transit = 'live' | 'demo';
 export type PetMotionPreview = 'hop' | 'balance' | 'peek';
 export type DebugFlags = {
@@ -74,7 +80,7 @@ export function debugFlags(search: string): DebugFlags {
   const pet = params.get('pet');
   const motion = params.get('pet-motion');
   return {
-    weather: weather === 'off' || weather === 'demo' || weather === 'none' ? weather : 'live',
+    weather: weather === 'off' || weather === 'demo' || weather === 'dry' || weather === 'none' ? weather : 'live',
     transit: params.get('transit') === 'demo' ? 'demo' : 'live',
     time: parseTime(params.get('time')),
     source: parseSource(params.get('source')),

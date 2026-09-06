@@ -31,8 +31,9 @@ can never leave the wall display stuck. They combine:
 | Flag | Effect | Parsed in |
 | --- | --- | --- |
 | `?transit=demo` | Draws the departure boards from a synthetic answer holding a cancellation, a long delay, an early departure, a platform change and two service messages. No provider is asked. It is the only way to check how a delay or an incident is marked on purpose. | `lib/transit-demo.ts` |
-| `?scene=transport`, `?scene=fact&fact=N`, `?scene=map` | Holds one scene on the right-hand panel and schedules nothing. A `Pinned` badge replaces the rotation ring. | `lib/panel-rotation.ts` |
+| `?scene=transport`, `?scene=fact&fact=N`, `?scene=map` | Holds one scene on the right-hand panel and schedules nothing. A `Pinned` badge replaces the rotation ring. Pinning also overrides the skip below, which is the only way to see the map on a dry forecast. | `lib/panel-rotation.ts` |
 | `?weather=off` | The weather card, the week strip and the forecast map make **no request**. The card, the ribbon and the week strip are filled from `lib/weather-demo.ts` instead, so a capture of something else still shows the dashboard in context rather than a hole in it. Built from the pinned clock, so it lines up with `?time=`. The clock, the transit strip and the daily facts work as normal. | `lib/debug-flags.ts` |
+| `?weather=dry` | As `demo`, but the synthetic run holds no precipitation at all. That is the state the rotation skips the forecast map for, so with `?scene=map` it is the only way to photograph the scene being skipped, and the only way to audit its caption. A live forecast will not produce a dry six hours to order any more than it will produce rain. `--dry` on the shot and audit tools. | `lib/debug-flags.ts`, `lib/precipitation-demo.ts` |
 | `?weather=none` | No request and no placeholder: the card shows its genuinely unavailable state, with the offline dot. That is a state the display has to get right when every provider is down, so it stays reachable. `--no-weather` on any of the three tools. | `lib/debug-flags.ts` |
 | `?weather=demo` | As `off` for the card, and the forecast map draws the synthetic run in `lib/precipitation-demo.ts` as well: a band crossing the frame, hour by hour with the quarters inside an hour identical, exactly the shape the real provider returns. It is the only way to photograph the map's animation without buying a grid, and it is deterministic, so two captures of the same change are comparable. | `lib/debug-flags.ts` |
 | `?time=HH:MM` | The clock reads that Copenhagen time; seconds still tick, so the minute still rolls. Everything that reads the clock follows: the Tenant's mood and the ribbon's window. For checking the digits that stress the face, since one that clips on a 4 looks fine at 21:21. | `lib/debug-flags.ts` |
@@ -279,6 +280,35 @@ precipitation grid the browser can draw. When Open-Meteo is out, the map keeps
 playing the stored run until its frames have passed and then says so, while the
 card and the week stay up. See [FORECAST_MAP.md](FORECAST_MAP.md) for the DMI
 work that could replace it.
+
+## Why is the forecast map never coming round?
+
+Most likely because it has nothing to show. The scene is skipped when the run
+it holds has frames ahead of now and no precipitation in any of them, over the
+six hours it would animate: thirty seconds of empty map with a caption saying
+so is thirty seconds the departures and the next fact could have had. A dry day
+therefore cycles in thirty seconds rather than a minute, and the map rejoins
+the rotation on its own when a later run brings rain.
+
+Three things it is **not**, all of which keep the scene: a run still loading, a
+provider that failed, and a run whose last frame is behind us (`Forecast
+expired`). If the map is missing and the forecast is wet, look at those first.
+
+`?scene=map` overrides the skip, so pinning is how the scene is reached for a
+capture whatever the sky is doing, and the synthetic runs decide what it shows:
+`?weather=demo` always has rain in it, `?weather=dry` never does. The second is
+what to reach for here — `npm run shot -- --scene map --dry` photographs the
+scene that is being skipped, and `npm run audit -- --scene map-dry` reads its
+caption against the basemap behind it. The decision is `dry` in `components/forecast-map-panel.tsx`,
+reported through `onDry` and acted on by `nextRotation()` in
+`lib/panel-rotation.ts`; the panel stays mounted and keeps refreshing while it
+is skipped, so being away costs no extra request when it returns.
+
+One appearance is unavoidable after a page load. The panel measures its own
+view and arms its refresh scheduler the first time the scene is on screen, so
+it withholds the skip until then: a map skipped before it had ever appeared
+would never fetch another run, and could never find the rain that would bring
+it back. On the wall, which is never reloaded, that is once ever.
 
 ## Remote debugging on the Fire TV
 

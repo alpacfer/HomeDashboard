@@ -24,7 +24,7 @@
 //                          large text is held to 3, as WCAG does.
 //   --all                  Report notes as well as warnings and errors.
 //   --url <url>            Page to audit. Default http://127.0.0.1:3000/
-//   --scene, --fact, --offline, --demo, --no-weather, --transit-demo, --time,
+//   --scene, --fact, --offline, --demo, --dry, --no-weather, --transit-demo, --time,
 //   --pet
 //                          The usual debug flags, applied to a one-off audit
 //                          instead of the matrix. See scripts/lib/browser.mjs.
@@ -51,6 +51,7 @@ const MATRIX = [
   { name: 'transport-marked', why: 'every delay, cancellation and service message at once', args: { scene: 'transport', offline: true, transitDemo: true } },
   { name: 'fact', why: 'the daily fact, and the compact departure strip under it', args: { scene: 'fact', fact: 0, offline: true, transitDemo: true } },
   { name: 'map', why: 'the forecast map, on the synthetic run', args: { scene: 'map', demo: true } },
+  { name: 'map-dry', why: 'the map the rotation skips, and its caption over the basemap', args: { scene: 'map', dry: true } },
   // The clock's backdrop is drawn by the weather now, and the digits and the
   // date sit on it. Auditing one sky checks the one the forecast happens to be
   // showing, which is not the one that breaks. These are the two extremes the
@@ -87,7 +88,7 @@ const FURNITURE = [
 ];
 
 function parseArgs(argv) {
-  const options = { scenes: [], console: false, demo: false, offline: false, reducedMotion: false, transitDemo: false, shots: false, all: false };
+  const options = { scenes: [], console: false, demo: false, dry: false, offline: false, reducedMotion: false, transitDemo: false, shots: false, all: false };
   for (let index = 0; index < argv.length; index += 1) {
     const arg = argv[index];
     const next = () => { index += 1; return argv[index]; };
@@ -99,6 +100,7 @@ function parseArgs(argv) {
       case '--fact': options.fact = value(); break;
       case '--offline': options.offline = true; break;
       case '--demo': options.demo = true; break;
+      case '--dry': options.dry = true; break;
       case '--no-weather': options.noWeather = true; break;
       case '--transit-demo': options.transitDemo = true; break;
       case '--time': options.time = value(); break;
@@ -269,7 +271,7 @@ const minFont = options.minFont ?? 11;
 const contrastFloor = options.contrast ?? 4.5;
 const wait = options.wait ?? 4000;
 // A one-off audit when any page flag is given; the whole matrix otherwise.
-const oneOff = options.scenes.length === 0 && (options.offline || options.demo || options.transitDemo || options.time || options.sky || options.fact !== undefined || options.url);
+const oneOff = options.scenes.length === 0 && (options.offline || options.demo || options.dry || options.transitDemo || options.time || options.sky || options.fact !== undefined || options.url);
 const chosen = oneOff
   ? [{ name: 'custom', why: 'the flags given on the command line', args: options }]
   : MATRIX.filter(scene => options.scenes.length === 0 || options.scenes.includes(scene.name));

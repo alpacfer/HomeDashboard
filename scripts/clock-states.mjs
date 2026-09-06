@@ -64,11 +64,12 @@ const GROUPS = [
 ];
 
 function parseArgs(argv) {
-  const options = { seams: false, groups: null, pins: [], time: '10:09', baseline: false, saveBaseline: false };
+  const options = { seams: false, pair: false, groups: null, pins: [], time: '10:09', baseline: false, saveBaseline: false };
   for (let index = 0; index < argv.length; index += 1) {
     const next = () => { index += 1; return argv[index]; };
     switch (argv[index]) {
       case '--seams': options.seams = true; break;
+      case '--pair': options.pair = true; break;
       case '--baseline': options.baseline = true; break;
       case '--save-baseline': options.saveBaseline = true; break;
       case '--group': (options.groups ??= []).push(next()); break;
@@ -84,7 +85,7 @@ function parseArgs(argv) {
 const options = parseArgs(process.argv.slice(2));
 if (options.help) {
   console.log('npm run states [-- --seams] [--baseline | --save-baseline]');
-  console.log('              [--group <id>] [--pin <sky>] [--time HH:MM]');
+  console.log('              [--pair] [--group <id>] [--pin <sky>] [--time HH:MM]');
   console.log('groups: ' + GROUPS.map(group => group.id).join(', '));
   process.exit(0);
 }
@@ -95,7 +96,7 @@ const groups = [
 ];
 if (!groups.length) throw new Error('No groups matched. Known: ' + GROUPS.map(group => group.id).join(', '));
 
-const base = 'http://127.0.0.1:3000/?weather=off&time=' + encodeURIComponent(options.time) + '&sky=';
+const base = 'http://127.0.0.1:3000/?weather=off&transit=demo&scene=transport&time=' + encodeURIComponent(options.time) + '&sky=';
 const sleep = ms => new Promise(resolve => setTimeout(resolve, ms));
 
 await waitForServer('http://127.0.0.1:3000/');
@@ -125,7 +126,7 @@ try {
         for (const animation of document.getAnimations()) {
           const target = animation.effect && animation.effect.target;
           if (!target || !target.classList) continue;
-          if (/(^|\\s)cs-/.test(target.className) || target.classList.contains('clock-light')) {
+          if (target.closest('.weather-surface,.workshop-room') || target.classList.contains('clock-light')) {
             animation.pause();
             animation.currentTime = 0;
           }
@@ -134,7 +135,8 @@ try {
       })()`);
       const box = JSON.parse(await page.evaluate(`(() => {
         const rect = document.querySelector('.clock-widget').getBoundingClientRect();
-        return JSON.stringify({ x: rect.left, y: rect.top, width: rect.width, height: rect.height });
+        const bottom = ${options.pair} ? document.querySelector('.weather').getBoundingClientRect().bottom : rect.bottom;
+        return JSON.stringify({ x: rect.left, y: rect.top, width: rect.width, height: bottom - rect.top });
       })()`));
       const clip = {
         x: Math.max(0, Math.floor(box.x) - PAD), y: Math.max(0, Math.floor(box.y) - PAD),
@@ -316,7 +318,7 @@ function sheetHtml(groups, shots, options) {
     img { display:block; border-radius:7px; }
     figcaption { margin-top:6px; font-size:11.5px; letter-spacing:.05em; text-transform:uppercase; color:#a6a6b0; }
   </style>
-  <h1>Clock widget — every sky it draws</h1>
+  <h1>${options.pair ? 'Interior and exterior' : 'Clock widget'} — light and weather</h1>
   <p class="sub">1280 × 720, the Fire TV's real resolution, clock pinned to ${options.time}. Each tile is one <code>?sky=</code> pin; on the wall these come from the sun's elevation and the weather card's reading of the hour.</p>
   ${rows}`;
 }

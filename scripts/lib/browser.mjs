@@ -147,7 +147,7 @@ export async function launchChrome(binary, width, height) {
 // measuring "the same" scene quietly differ. That drift is not hypothetical:
 // extracting this function dropped --transit-demo from the URL while both
 // scripts still advertised it. scripts/check-rules.mjs enforces the list.
-export const URL_FLAGS = ['--url', '--scene', '--fact', '--offline', '--demo', '--no-weather', '--transit-demo', '--time', '--pet', '--date', '--sky'];
+export const URL_FLAGS = ['--url', '--scene', '--fact', '--offline', '--demo', '--dry', '--no-weather', '--transit-demo', '--time', '--pet', '--date', '--sky'];
 
 export function pageUrl(options) {
   const url = new URL(options.url ?? 'http://127.0.0.1:3000/');
@@ -157,7 +157,11 @@ export function pageUrl(options) {
   // The demo run is a kind of offline, and wins when both are asked for: it
   // makes no request either, and it has something to draw.
   if (options.demo) url.searchParams.set('weather', 'demo');
-  // And the empty card outranks both: it is the one state a placeholder hides.
+  // The same run with no rain in it, which is the only way to reach the
+  // forecast map the rotation has skipped. It outranks --demo, since asking
+  // for both can only mean the dry one was meant.
+  if (options.dry) url.searchParams.set('weather', 'dry');
+  // And the empty card outranks all three: it is the one state a placeholder hides.
   if (options.noWeather) url.searchParams.set('weather', 'none');
   if (options.transitDemo) url.searchParams.set('transit', 'demo');
   if (options.time) url.searchParams.set('time', options.time);

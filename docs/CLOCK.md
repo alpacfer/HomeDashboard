@@ -1,148 +1,98 @@
-# The clock: the widget, and the Tenant
+# The clock, the woodland and the Tenant
 
-The clock is the one thing on the display that is always on screen. It is one
-enclosed widget holding three things: the time, the date, and the home of a
-small resident character. One rule governs everything in it: **nothing changes
-abruptly.** Every transition is a fade, a move or a morph that starts from
-where the clock is and ends at rest.
+The clock is a compact painted clockmaker's shed. The weather card below it
+is the forest outside. Time and weather remain real UI text, while the pet
+can jump from the indoor bench onto the outdoor clearing.
 
-```text
-components/clock.tsx      timers, measurement, markup
-components/tenant.tsx     the character's own timers and its SVG
-lib/clock-motion.ts       Copenhagen time, the date, which digits roll
-lib/clock-conditions.ts   the hour and the sky the character reads
-lib/clock-tenant.ts       mood, idle life, glyph geometry
-app/clock-fonts.css       generated @font-face rules (do not edit)
-public/fonts/clock/       generated subset woff2 files (do not edit)
-scripts/fetch-clock-fonts.mjs  regenerates both of the above
-```
+## Two painted scenes
 
-## The widget
+At 1280 × 720, the clock is approximately 350 × 158 pixels and the weather
+card 350 × 168. Their left and right edges align. Both paintings have their
+supporting surface near 72% of the image height. The indoor tabletop reuses
+a crop of its own painting, extended upward to give the raised numerals and
+pet a deeper supporting plane; the window and date stay fixed.
+Backgrounds stretch to the
+same fixed widget rectangle across lighting variants; they never use a
+changing cover crop. The clock's measured glyph baseline sits on the bench,
+and the outdoor destination is measured from the `.weather-landing` marker.
 
-`.clock-widget` is the frame: a rounded card that spans the shell's width, in
-the same family as the weather card under it. `.clock-surface` is its
-background, on a layer of its own, and `.clock-block` sits above that with the
-digits, the date and the character.
+Only `.clock-surface` and `.weather-surface` clip the artwork. The Tenant's
+coordinate origin, `.clock-block`, has no stacking context or overflow clip,
+so travel remains visible between cards. Geometry lives in
+[app/globals.css](../app/globals.css).
 
-The background is a separate layer rather than a `background` on the frame
-because the Tenant leaves the card. A frame that clipped its own backdrop to
-its rounded corners would clip the character with it, so the frame stays
-unclipped and only the surface layer is rounded and hidden. For the same
-reason `.clock-block` carries no `z-index`: that would make it a stacking
-context and trap a travelling character inside the card. Being the later
-positioned sibling is what puts it above the surface.
+The backgrounds are generated raster paintings, with independent lightweight
+SVG props: a lamp, brass gears and pendulum indoors; rooted flowers and a
+small evening campfire outside. The shelf and window stay above or beside the
+numbers. Warm beveled numerals and soft contact shadows place the clock on the
+bench. The date is lettered directly over the painted wooden apron; the weather
+headline sits over the ground, with a feathered shade for contrast. Neither has
+a solid text plate. The temperature uses the existing softer Fraunces face.
+No plant, precipitation or light filter crosses the text layer.
 
-Two custom properties on `.clock-widget` are the whole of the styling seam:
+The exterior sky itself indicates the weather, with no separate weather icon.
+The provider attribution is a linked monogram beside the forecast heading.
 
-| Property | Is | Default |
+[public/scenes/README.md](../public/scenes/README.md) records the eight local
+WebP assets, reference galleries, generation prompts and image sizes.
+The complete set is about 145 KiB; only the active pair is selected by CSS.
+No image-generation service or third-party image host is called at runtime.
+
+## Light and weather
+
+The default theme is `workshop`; `?clock=plain` retains a bare clock.
+[lib/clock-theme.ts](../lib/clock-theme.ts) owns the theme list.
+[components/use-scene-sky.ts](../components/use-scene-sky.ts) shares the existing
+time and conditions with both scenes without adding a timer or request.
+
+| Attribute | Values | Source |
 | --- | --- | --- |
-| `--clock-surface` | Passed straight to `background`, so it takes a colour, a gradient or a `url()`. | `rgba(243,242,238,.035)` |
-| `--clock-ring` | The hairline around the card, drawn as an inset shadow. | `rgba(243,242,238,.09)` |
+| `data-light` | night, dawn, day, dusk | Copenhagen solar elevation, including seasonal sunrise and sunset |
+| `data-weather` | clear, partly, cloudy, overcast, fog, rain, sleet, snow | The weather card's current condition |
+| `data-fall` | none, light, moderate, heavy | The current precipitation band |
 
-The card's padding is vertical only. The horizontal inset stays on `.clock`
-and `.clock-date` as `--panel-inset`, so the digits sit exactly where they
-always did and the surface reaches the shell's edges the way the weather
-card's does.
+[lib/clock-sky.ts](../lib/clock-sky.ts) derives these independent attributes.
+Each light phase selects a separately generated painting with the same
+composition. A translucent light pass then adds morning warmth, evening
+shadows or blue night ambience. Static saturation/brightness filters cool
+thick-cloud conditions; fog veils the distance. These filters affect artwork
+only, not text. Night keeps the indoor lamp warm and the exterior moonlit.
 
-## The theme
+The exterior has independent sun/moon, stars, cloud banks, precipitation and
+motes. The sky layer fades before it reaches the foreground. Cloud weight
+follows the condition; overcast and precipitation hide the disc. Rain speed
+and opacity follow intensity, while snow drifts slowly. Snow adds a pale
+wash to the terrain, without claiming measured snow accumulation. Rain is
+also visible through the shed window. Fire appears on clear or partly cloudy
+evenings and nights, and disappears in wet weather.
 
-A theme is a class on `.clock-widget` and nothing else. It dresses the card
-through the properties above and the type group below, paints scenery into the
-backdrop layers, and replaces the digit roll with a transition of its own.
-[lib/clock-theme.ts](../lib/clock-theme.ts) holds the list; `?clock=<id>` pins
-one, and `?clock=plain` is the bare card as it was before themes existed.
+The paintings are static. Gear rotation, pendulum swing, flowers, lamplight,
+cloud drift, rain and snow use CSS transforms and opacity. Tile travel equals
+tile size for seamless weather loops. Reduced motion stops all these layers
+and keeps a static resident at home without starting the behavior scheduler.
 
-```text
-app/clock-theme.css     The framework: the layer primitives, the shared
-                        keyframes, the reduced-motion kill switch. Knows that
-                        a theme has layers and that layers move; knows nothing
-                        about hills or weather.
-app/clock-hillside.css  One theme, in seven numbered sections.
-lib/clock-theme.ts      The list of ids, and the `?clock=` pin.
-lib/clock-sky.ts        What the hillside's sky is doing, and the `?sky=` pin.
-```
+The implementation is divided between
+[components/clock-workshop.tsx](../components/clock-workshop.tsx),
+[components/weather-woodland.tsx](../components/weather-woodland.tsx),
+[app/clock-workshop.css](../app/clock-workshop.css) for lighting and room props,
+and [app/clock-hillside.css](../app/clock-hillside.css) for weather layers.
+The layer primitives remain in [app/clock-theme.css](../app/clock-theme.css).
 
-Adding a theme is a new `app/clock-<id>.css`, an import in
-[app/layout.tsx](../app/layout.tsx), and an id in `CLOCK_THEMES`. Nothing in
-the framework or in `components/clock.tsx` changes. Adding a *layer* is a span
-in the component and a name in the primitives rule.
+## Checking the scenes
 
-**Hillside** is the default: a hill above the harbour, lit by the real sun and
-rained on by the real forecast. [lib/clock-sky.ts](../lib/clock-sky.ts) turns
-the hour and the weather panel's report into three attributes on the widget,
-and every rule that paints weather is an attribute selector on one of them.
+`?sky=night,snow,heavy` pins light, condition and intensity for screenshots.
+`npm run states -- --pair` captures both cards across twenty sky combinations.
+Without `--pair`, it crops only the clock. Every capture is offline.
+`--group light` isolates the four lighting variants; `--baseline` compares
+against captures saved with `--save-baseline`. Baselines with different
+crop dimensions are reported as incomparable. The seam scanner also reports
+intentional straight edges such as the indoor bench.
 
-| Attribute | Is | From |
-| --- | --- | --- |
-| `data-light` | `night`, `dawn`, `day`, `dusk` | `solarElevation()`, not the wall clock. Copenhagen's sunset moves by six hours across the year. |
-| `data-weather` | `clear`, `partly`, `cloudy`, `overcast`, `fog`, `rain`, `sleet`, `snow` | The same `describeHour()` classification the weather card draws its own icon from. |
-| `data-fall` | `none`, `light`, `moderate`, `heavy` | The precipitation band, and only for a kind that can fall. |
-
-The three are independent, so snow at dawn and rain at night are already drawn
-without a rule of their own. `Conditions` carries `kind` and `band` up from
-the panel untouched: a second classifier would be a way for the card and the
-clock to disagree about the same hour.
-
-Scenery is gradients, not images. A tree line is a row of circles of four
-different radii above a solid band; a cloud bank is the same trick in soft
-white; rain is elongated radial streaks on a rotated, oversized layer. Two
-colours are switches rather than colours — `--star` and `--cap` are transparent
-almost always, and the star and snow-cap gradients are painted at every hour,
-which is what keeps "night" and "snow" to one declaration each instead of a
-second copy of every layer.
-
-Motion is a transform on a whole layer, never a `background-position`, so the
-compositor carries it and the card is never repainted. A drifting layer keeps
-every gradient on one `background-size` and places them inside that tile,
-because a layer only loops seamlessly when it is shifted by exactly one tile.
-
-`.cs-flora` is what grows on the clock: a vine up the left frame and a tuft in
-the corner the Tenant does not stand in. It is outside the clipped surface and
-in front of the block, so a leaf sits on the frame and overhangs the edge, and
-it leans from its base in the same wind that moves the canopy. It is a path
-rather than a gradient because a stem is a curve, and it is inline, so it costs
-no request and no decode.
-
-`?sky=night,snow,heavy` pins any of the three, in any order, which is the only
-way to photograph a sky the real weather is not currently offering. It is read
-in `lib/clock-sky.ts` rather than `lib/debug-flags.ts` for the same reason
-`?date=` is read in `lib/daily-facts.ts`: that is where the value is derived.
-
-`npm run states` drives twenty of those pins through one browser and lays them
-on one sheet, which is how the theme is actually looked at — a fault in this
-kind of scenery is invisible in one tile and obvious in twenty.
-`npm run states -- --seams` then reads the captures back and names rows where
-the image changes sharply across most of its width. That is what a gradient
-clipped at a box edge leaves behind, and what a hill or a cloud never does. It
-is worth trusting: it found the snow caps being cut into a bright line across
-the card at the canopy's band edge, after four rounds of looking had not.
-
-`npm run states -- --save-baseline` remembers the twenty, and `--baseline`
-then reports what moved since — per state, as a share of pixels and the rows
-they sit in. That is the half that is easy to skip: a change to one layer is
-meant to move some states and leave the rest alone, and twice while this theme
-was built a cloud adjustment quietly moved the ridge as well.
-
-`npm run roll` catches the digit transition. It happens on the minute boundary
-and lasts 840 ms plus stagger, and it is the only thing on the display that
-cannot be pinned or replayed — but `?time=` shifts the clock by whole minutes
-and keeps the seconds, so the boundary is always at :00 of the real clock. The
-tool waits for the page's own clock to reach :58.7 and then captures a fast
-strip across it. `--sky day,rain,heavy` shows the wash instead of the breeze.
-All three transitions shipped once before anyone had seen one move.
-
-Two invariants about the scenery are checked without a browser, by
-`npm run check:rules`: a `cs-drift` layer must write its tile width as
-`var(--tile)`, and a `cs-rain` or `cs-snow` layer's `background-size` height
-must equal the distance its keyframe travels. Both decide whether a loop is
-seamless, and both fail so rarely — once per cycle, and the slowest cycle here
-is nearly eight minutes — that no amount of watching would catch them.
-
-`npm run audit` covers two of the skies as well (`clock-bright` is snow on a
-lit midday canopy, `clock-dark` a clear night), because the type crosses the
-canopy and the canopy is repainted by the weather. Auditing whichever sky the
-forecast happens to be showing checks the one state that is not at risk.
-`--sky` is a URL flag on `shot`, `motion` and `audit` alike.
+Run `npm run audit` for layout, `npm run shot` for actual rendered appearance,
+and `npm run motion` for the character and map frame cadence. The motion tool
+does not prove scenery loops seamless; the weather tile rules are checked by
+`npm run check:rules`. Run reduced-motion captures as well.
+`npm run roll` captures the clock's existing mechanical digit roll.
 
 ## The digits and the date
 
@@ -153,7 +103,7 @@ about the time reflows. Only the digits that actually changed roll
 resumed screen or a clock correction snaps instead of rolling, and missed
 minutes are never replayed. The colon pulses while the clock is live.
 
-The face is Clock Grotesk, one of the subset faces in `app/clock-fonts.css`,
+The workshop and plain clock use Clock Grotesk, an existing subset face in `app/clock-fonts.css`,
 which `npm run fonts:clock` generates from the list in
 `scripts/fetch-clock-fonts.mjs`. `--digit-scale` fits its digits into the
 `.62em` cells; the cells clip, so that number is measured, not chosen. The
@@ -301,8 +251,8 @@ snapping to neutral. Involuntary falls retain their separate animation.
 
 ## Reduced motion
 
-Under `prefers-reduced-motion: reduce` the roll snaps and the Tenant is not
-rendered.
+Under `prefers-reduced-motion: reduce` the roll snaps, scenery stops, and a
+static resident stays at home. The live Tenant scheduler is not mounted.
 
 ## Checking it
 

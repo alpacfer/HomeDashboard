@@ -7,23 +7,22 @@
 // transition belonging to its own weather. No theme adds a timer or a fetch,
 // so nothing here can leak on a display that runs for weeks.
 //
-//   hillside  A hill above the harbour, lit by the real sun and rained on by
-//             the real forecast. What it is doing at any moment is decided by
-//             lib/clock-sky.ts, not here.
+//   workshop A painted wooden clockmaker's shed. Its lighting follows the
+//            same real sky as the woodland weather card below it.
 //   plain     The card as it was before themes existed: a faint wash and a
 //             hairline. Kept so the old look is one URL away.
 
-export const CLOCK_THEMES = ['hillside', 'plain'] as const;
+export const CLOCK_THEMES = ['workshop', 'plain'] as const;
 
 export type ClockTheme = (typeof CLOCK_THEMES)[number];
 
 /** What each theme is called. */
 export const CLOCK_THEME_NAMES: Readonly<Record<ClockTheme, string>> = {
-  hillside: 'Hillside — a hill above the harbour, in the real weather',
+  workshop: 'Workshop — a cozy wooden clockmaker’s shed',
   plain: 'Plain — the card before themes',
 };
 
-export const DEFAULT_CLOCK_THEME: ClockTheme = 'hillside';
+export const DEFAULT_CLOCK_THEME: ClockTheme = 'workshop';
 
 /**
  * The theme pinned by `?clock=<id>` on the page URL, for looking at one

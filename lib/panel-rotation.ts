@@ -13,9 +13,21 @@ export function initialRotation(index: number, count: number): Rotation {
   return { phase: 'transport', index: safe % Math.max(1, count), duration: TRANSPORT_MS };
 }
 
-export function nextRotation(current: Rotation, count: number): Rotation {
+// `map` says whether the forecast map is worth its thirty seconds. It is not
+// when the next six hours hold no precipitation anywhere on the grid: half a
+// minute of an empty map with a caption saying so is half a minute the
+// departures and the next fact could have had, on a display whose whole cycle
+// is a minute. The map then rejoins the rotation by itself when rain returns,
+// so this is a skip and never a removal. The panel decides; see
+// components/forecast-map-panel.tsx, which reports it, and
+// components/rotating-panel.tsx, which passes it here.
+//
+// Only the step into the map is skipped. A map already on screen when the
+// forecast turns dry plays out its scene and says so, rather than being cut
+// off mid-sequence by a refresh landing behind it.
+export function nextRotation(current: Rotation, count: number, map = true): Rotation {
   if (current.phase === 'transport') return { phase: 'fact', index: current.index, duration: FACT_MS };
-  if (current.phase === 'fact') return { phase: 'map', index: current.index, duration: MAP_MS };
+  if (current.phase === 'fact' && map) return { phase: 'map', index: current.index, duration: MAP_MS };
   return initialRotation(current.index + 1, count);
 }
 

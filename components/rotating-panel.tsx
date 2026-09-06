@@ -1,6 +1,6 @@
 'use client';
 
-import { useEffect, useRef, useState, type CSSProperties } from 'react';
+import { useCallback, useEffect, useRef, useState, type CSSProperties } from 'react';
 import TransportPanel from '@/components/transport-panel';
 import { DAILY_FACT_COUNT, dailyDateKey, mediaShape, pinnedDateKey, validDailyFacts, yearsAgo, type DailyFact } from '@/lib/daily-facts';
 import { initialRotation, nextRotation, pinnedRotation, resumeRotation } from '@/lib/panel-rotation';
@@ -187,6 +187,15 @@ export default function RotatingPanel({ onSceneChange }: { onSceneChange?: (scen
   const { date, facts, status } = useDailyFacts();
   const [rotation, setRotation] = useState(() => initialRotation(0, DAILY_FACT_COUNT));
   const [wake, setWake] = useState(0);
+  // Whether the forecast map has said it is not worth its thirty seconds,
+  // which it does when the next six hours hold no precipitation anywhere on
+  // its grid. A ref rather than state on purpose: this is read once, at the
+  // moment the rotation steps out of a fact, and a forecast refresh landing
+  // mid-scene must not rebuild the rotation effect and restart the cycle with
+  // it. The map keeps refreshing while it is skipped, so it comes back on its
+  // own when rain does.
+  const dryForecast = useRef(false);
+  const onDry = useCallback((dry: boolean) => { dryForecast.current = dry; }, []);
 
   useEffect(() => {
     // Debug mode: a scene named in the URL is held and nothing is scheduled.
@@ -208,7 +217,7 @@ export default function RotatingPanel({ onSceneChange }: { onSceneChange?: (scen
       window.clearTimeout(timer);
       if (document.hidden) return;
       timer = window.setTimeout(() => {
-        current = nextRotation(current, DAILY_FACT_COUNT);
+        current = nextRotation(current, DAILY_FACT_COUNT, !dryForecast.current);
         if (current.phase === 'fact' && date) {
           try { window.localStorage.setItem(STORAGE_KEY, `${date}:${(current.index + 1) % DAILY_FACT_COUNT}`); } catch { /* Device-local persistence is optional. */ }
         }
@@ -270,7 +279,7 @@ export default function RotatingPanel({ onSceneChange }: { onSceneChange?: (scen
     <div className={'panel-scene transit-scene' + (showingTransport ? ' is-active' : '')}>
       <TransportPanel compact={!showingTransport} />
     </div>
-    <ForecastMapPanel active={showingMap} />
+    <ForecastMapPanel active={showingMap} onDry={onDry} />
     {showingFact && fact && <article className={`panel-scene daily-fact-scene category-${fact.category} is-active`} key={fact.id} aria-label={`On this day in ${fact.year}: ${fact.title}`}>
       <header className="daily-fact-heading">
         <span>On this day</span>

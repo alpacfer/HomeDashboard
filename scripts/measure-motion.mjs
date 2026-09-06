@@ -13,6 +13,9 @@
 //   --scene <name>         Pin the rotating panel: transport, fact or map.
 //   --demo                 ?weather=demo: the synthetic forecast run, which is
 //                          how the map is watched without spending quota.
+//   --dry                  ?weather=dry: the same run with no precipitation in
+//                          it. The map has nothing to advect, so this measures
+//                          the still scene the rotation skips.
 //   --offline              ?weather=off: no provider request at all.
 //   --transit-demo         ?transit=demo: synthetic departure boards.
 //   --time <HH:MM>         Pin the clock to a Copenhagen time.
@@ -60,7 +63,7 @@ import { findChrome, launchChrome, openPage, pageUrl, waitForServer } from './li
 const FLICKER_REVERSALS = 1.5;
 
 function parseArgs(argv) {
-  const options = { console: false, demo: false, offline: false, reducedMotion: false, transitDemo: false };
+  const options = { console: false, demo: false, dry: false, offline: false, reducedMotion: false, transitDemo: false };
   for (let index = 0; index < argv.length; index += 1) {
     const arg = argv[index];
     const next = () => { index += 1; return argv[index]; };
@@ -74,6 +77,7 @@ function parseArgs(argv) {
       case '--fact': options.fact = value(); break;
       case '--offline': options.offline = true; break;
       case '--demo': options.demo = true; break;
+      case '--dry': options.dry = true; break;
       case '--no-weather': options.noWeather = true; break;
       case '--transit-demo': options.transitDemo = true; break;
       case '--time': options.time = value(); break;
