@@ -30,6 +30,7 @@ import {
 } from '@/lib/pet-behavior';
 import type { Rotation } from '@/lib/panel-rotation';
 import { TENANT_SHAPES, TENANT_PATH_STYLES } from '@/lib/tenant-drawing';
+import { peersAt, stableSpots, tenantClassName } from '@/lib/tenant-view';
 import { balanceClip, postureClip, jumpChargeFrames, jumpFlightFrames, type MotionClip, type MotionFrame } from '@/lib/tenant-motion';
 import { debugFlags } from '@/lib/debug-flags';
 
@@ -297,7 +298,7 @@ export default function Tenant({ mood, targets, activeScene, previewSpot = null,
   const roamHome = (stableOnly = false) => {
     if (!worldRef.current && poseRef.current !== 'charging' && poseRef.current !== 'jumping') { jumpHome(); return; }
     const safe = stableOnly
-      ? targetsRef.current.safe.filter(spot => /^(weather|ribbon|week)-/.test(spot.key) || spot.key === 'destination-weather' || spot.key === 'destination-week')
+      ? stableSpots(targetsRef.current.safe)
       : targetsRef.current.safe;
     travel({ x: 0, y: 0 }, () => {
       worldRef.current = null;
@@ -327,7 +328,7 @@ export default function Tenant({ mood, targets, activeScene, previewSpot = null,
     setWorldTarget(target);
     setWatch(target.look);
     travel(target, () => {
-      setVisitPosture(target.id === 'weather' || target.id === 'map' ? postureClip('peer', Math.random(), target.look) : undefined);
+      setVisitPosture(peersAt(target.id) ? postureClip('peer', Math.random(), target.look) : undefined);
       move('visiting');
       // The longest landmark action is 5.4 s. Let it return to its neutral
       // keyframe and breathe before a voluntary departure can begin.
@@ -526,7 +527,7 @@ export default function Tenant({ mood, targets, activeScene, previewSpot = null,
     if (!target || (poseRef.current === 'visiting' && current?.id === target.id && current.x === target.x && current.y === target.y)) return;
     worldRef.current = target;
     setWorldTarget(target);
-    setVisitPosture(target.id === 'weather' || target.id === 'map' ? postureClip('peer', 0.37, target.look) : undefined);
+    setVisitPosture(peersAt(target.id) ? postureClip('peer', 0.37, target.look) : undefined);
     journey.current += 1;
     setHop(null);
     move('visiting');
@@ -624,15 +625,10 @@ export default function Tenant({ mood, targets, activeScene, previewSpot = null,
     '--inner-foot-b-from': innerHandoff?.footB ?? 'matrix(1, 0, 0, 1, 0, 0)',
   } as CSSProperties;
 
-  const className = ['tenant', 'mood-' + mood, 'pose-' + pose,
-    onTop ? 'on-' + perch.kind : '',
-    gesture ? 'g-' + gesture.action : '',
-    gesture?.action === 'glance-digits' && nextDigit <= 1 ? 'g-far' : '',
-    perchAction ? 'pa-' + perchAction.action : '',
-    sitting && pose === 'perched' ? 'sitting' : '',
-    worldTarget ? 'visit-' + worldTarget.id : '',
-    innerHandoff ? 'inner-handoff' : '',
-    watch ? (watch > 0 ? 'w-right' : 'w-left') : ''].filter(Boolean).join(' ');
+  const className = tenantClassName({
+    mood, pose, perch, onTop, gesture, perchAction, sitting, worldTarget,
+    innerHandoff: !!innerHandoff, nextDigit, watch,
+  });
 
   return <div className={className} style={style} aria-hidden="true" ref={elementRef}>
     <svg viewBox="0 0 100 100">
