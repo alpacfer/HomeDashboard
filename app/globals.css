@@ -152,9 +152,19 @@ a:focus-visible { outline:2px solid var(--foreground); outline-offset:8px; }
 .stale .weather,.stale .weather-headline { color:var(--muted); }
 .stale .rain-ribbon { opacity:.5; }
 .offline-dot { position:absolute; right:var(--panel-inset); top:var(--panel-inset); width:6px; height:6px; border-radius:50%; background:var(--accent); }
-.transport-panel { display:flex; flex-direction:column; justify-content:space-between; min-width:0; gap:2.6vh; }
-.departure-board { padding:0 0 2.5vh; border-bottom:1px solid #303035; }
-.departure-heading { display:flex; align-items:center; gap:1.1vw; margin-bottom:1.8vh; }
+/* The vertical rhythm below is measured, not chosen: with a fourth board the
+   worst case -- every departure carrying a service message, wrapped in a
+   half-width column -- ran past the screen, and it was already within a pixel
+   of doing so with three. `npm run audit` is what says whether it still does.
+   Four boards will not stack in 720px, and the way to find the fourth one's
+   height is not to shrink the numbers -- they are what is legible from across
+   the room. A one-way board only ever fills half its row anyway, so the two of
+   them share one: 164 beside A costs a row, not a board. Everything that is
+   not a board (the incident line, the status line) still spans the width. */
+.transport-panel { display:grid; grid-template-columns:repeat(2,minmax(0,1fr)); align-content:space-between; min-width:0; column-gap:2vw; row-gap:2vh; }
+.transport-panel > * { grid-column:1 / -1; }
+.departure-board { padding:0 0 1.8vh; border-bottom:1px solid #303035; }
+.departure-heading { display:flex; align-items:center; gap:1.1vw; margin-bottom:1.4vh; }
 .line-badge { display:inline-flex; align-items:center; justify-content:center; flex-shrink:0; min-width:4.8vw; height:3.7vw; padding:0 .65vw; border-radius:.35vw; font-size:2.1vw; font-weight:900; letter-spacing:-.055em; }
 .local-bus { background:#ffda00; color:#151515; }
 .s-bus { background:#006bb6; color:#fff; }
@@ -164,7 +174,7 @@ a:focus-visible { outline:2px solid var(--foreground); outline-offset:8px; }
 .direction-column { min-width:0; }
 .direction-column + .direction-column { padding-left:2vw; border-left:1px solid #303035; }
 .direction-column h2 { margin:0; font-size:1.8vw; line-height:1.1; letter-spacing:-.035em; }
-.departure-times { display:grid; grid-template-columns:repeat(3,minmax(0,1fr)); gap:.8vw; margin-top:1.8vh; }
+.departure-times { display:grid; grid-template-columns:repeat(3,minmax(0,1fr)); gap:.8vw; margin-top:1.3vh; }
 .departure { display:flex; flex-direction:column; gap:.2vh; min-width:0; }
 .departure strong { font-size:2.35vw; line-height:1; letter-spacing:-.065em; font-weight:700; font-variant-numeric:tabular-nums; white-space:nowrap; }
 .departure strong small { font-size:.85vw; margin-left:.25vw; color:var(--muted); letter-spacing:0; }
@@ -196,8 +206,13 @@ a:focus-visible { outline:2px solid var(--foreground); outline-offset:8px; }
 .incident.sev-warning { color:var(--warning); }
 .incident.sev-info { color:var(--muted); }
 .single-direction .direction-columns { grid-template-columns:1fr; }
-.single-direction .departure strong { font-size:3.3vw; }
-.single-direction .departure strong small { font-size:1vw; }
+/* Half a row each, so the second one carries the divider its neighbour's
+   second direction column would have. The departures keep the ordinary size:
+   half this panel is exactly the width of one direction column, so a paired
+   board and a two-way one are now the same measure, and the bigger number the
+   full-width version used to take no longer fits a clock time in the cell. */
+.departure-board.single-direction { grid-column:span 1; }
+.single-direction + .single-direction { padding-left:2vw; border-left:1px solid #303035; }
 .transport-status { margin:0; font-size:clamp(11px,.85vw,18px); color:var(--muted); }
 .rotating-panel { position:relative; display:grid; min-width:0; min-height:0; }
 .screen-progress { position:absolute; top:.3vh; right:0; width:clamp(18px,1.65vw,32px); height:clamp(18px,1.65vw,32px); z-index:1; fill:none; stroke-width:2.5; pointer-events:none; }
@@ -234,7 +249,7 @@ a:focus-visible { outline:2px solid var(--foreground); outline-offset:8px; }
 .showing-compact-transit { grid-template-rows:minmax(0,1fr) auto; gap:3vh; }
 .showing-compact-transit .transit-scene { grid-area:2 / 1; }
 .transport-mini { width:100%; padding-top:2.5vh; border-top:1px solid #303035; }
-.mini-routes { display:grid; grid-template-columns:repeat(5,minmax(0,1fr)); gap:1.1vw; }
+.mini-routes { display:grid; grid-template-columns:repeat(6,minmax(0,1fr)); gap:1.1vw; }
 .mini-route { min-width:0; }
 .mini-heading { display:flex; align-items:center; gap:.45vw; font-size:1vw; line-height:1.1; letter-spacing:-.025em; }
 .mini-heading .line-badge { min-width:2.2vw; height:1.85vw; padding:0 .3vw; font-size:1vw; border-radius:.2vw; }

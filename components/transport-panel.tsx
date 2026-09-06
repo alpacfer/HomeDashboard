@@ -16,7 +16,7 @@ const countdown = (departure: Departure, now: number) => Math.max(0, Math.ceil((
 
 // The one thing worth printing under a departure, or nothing at all. A
 // departure with nothing wrong gets no line of its own: saying so for every one
-// of the fifteen on screen cost a row of height to tell the reader nothing.
+// of the eighteen on screen cost a row of height to tell the reader nothing.
 // Whether the time is being tracked is carried by the dot beside it instead
 // (see `.is-live` in app/globals.css). Everything the incident list found is
 // still in the aria-label.

@@ -6,7 +6,7 @@ const now = 1_800_000_000_000;
 const departure = (id, minutes, cancelled = false) => ({ id, scheduled:now + minutes * 60000, expected:now + minutes * 60000, cancelled, realtime:true, delay:0, track:null, scheduledTrack:null, alerts:[] });
 test('compact board keeps one next usable departure in every direction', () => {
   const keys = LINES.flatMap(line => line.directions.map(direction => line.id + ':' + direction.key));
-  assert.equal(keys.length, 5);
+  assert.equal(keys.length, 6);
   const boards = Object.fromEntries(keys.map(key => [key, [departure('later', 10), departure('left', -1), departure('cancelled', 1, true), departure(key, 3)]]));
   const data = { status:'ready', generatedAt:now, boards };
   for (const key of keys) assert.equal(nextCompactDeparture(data, key, now).id, key);

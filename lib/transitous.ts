@@ -30,8 +30,8 @@ export const TRANSITOUS_ENDPOINT = 'https://api.transitous.org/api/v1/stoptimes'
 export const TRANSITOUS_USER_AGENT = 'HomeDashboard/0.1 (wall display; https://github.com/topics/home-dashboard)';
 
 // Enough events to fill three departures in every direction at the busiest
-// stop, and no more: one response is about 80 kB and the display asks for two
-// of them every two minutes.
+// stop, and no more: one response is about 80 kB and the display asks for
+// three of them every two minutes.
 export const TRANSITOUS_EVENTS = 50;
 
 // Live times are asked for, never inherited. MOTIS defaults `realtimeMode` to
@@ -56,6 +56,7 @@ export function stopTimesQuery(stopId: string): Record<string, string> {
 // with `npm run probe:transit`, which prints what the geocoder returns today.
 export const TRANSITOUS_STOPS: Record<string, string> = {
   'Kildegårds Plads (Lyngbyvej)': 'dk-rejseplanen_000000006044',
+  'Kildegårds Plads (Ellegårdsvej)': 'dk-rejseplanen_000000001744',
   'Lyngby St.': 'dk-rejseplanen_000008600675',
 };
 
@@ -71,6 +72,11 @@ export const TRANSITOUS_HEADSIGNS: Record<string, string[]> = {
   '184:south': ['Nørreport St.'],
   '150S:north': ['Kokkedal St.', 'Gl. Holte Øverødvej', 'Søhuset, Forskerparken', 'Rævehøjvej, DTU'],
   '150S:south': ['Nørreport St.'],
+  // 164 towards Vangede is signed for the far end of the line, Ballerup, a
+  // dozen stops past it. The Ellegårdsvej mast only carries that direction:
+  // the Oceankaj one leaves from the Kildegårdsvej side of the square, having
+  // already called at Vangede, so it never reaches this board.
+  '164:west': ['Ballerup St.'],
   'A:north': ['Hillerød St.'],
 };
 

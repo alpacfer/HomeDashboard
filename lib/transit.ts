@@ -7,6 +7,13 @@ export const LINES = [
     { key: 'north', destination: 'Kokkedal', termini: ['Kokkedal St.'] },
     { key: 'south', destination: 'Nørreport', termini: ['Nørreport St.'] },
   ] },
+  // Not the Lyngbyvej mast the other two buses use: 164 calls at the other
+  // side of the square, and only the Ballerup-bound one passes Vangede --
+  // eastbound it has already been there. So the origin names the mast, because
+  // a board that sends somebody to the wrong kerb is worse than no board.
+  { id: '164', origin: 'Kildegårds Plads (Ellegårdsvej)', stopName: 'Kildegårds Plads (Ellegårdsvej)', style: 'local-bus', directions: [
+    { key: 'west', destination: 'Vangede', termini: ['Ballerup St.'] },
+  ] },
   { id: 'A', origin: 'Lyngby St.', stopName: 'Lyngby St.', style: 's-train', directions: [
     { key: 'north', destination: 'Hillerød', termini: ['Hillerød St.'] },
   ] },

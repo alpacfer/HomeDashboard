@@ -155,7 +155,8 @@ export async function GET(request: Request) {
     // would really print rather than the Danish the demo is written in.
     return Response.json(await translate(demoTransitData(Date.now())), { headers });
   }
-  // Two stop boards every two minutes (~44,640 calls in a 31-day month).
+  // Three stop boards every two minutes (~66,960 calls in a 31-day month;
+  // past Rejseplanen's free tier, see docs/TRANSPORT.md).
   // Cache only public transit results, never the API key or request URL.
   if (recent && recent.expires > Date.now()) return Response.json(recent.data, { headers });
   try {

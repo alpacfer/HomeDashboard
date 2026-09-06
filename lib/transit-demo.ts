@@ -27,6 +27,9 @@ const SCRIPT: Record<string, Sketch[]> = {
   '184:south': [{ minutes: 2, cancelled: true }, { minutes: 12 }, { minutes: 31, delay: 12 }],
   '150S:north': [{ minutes: 3, delay: -2 }, { minutes: 11 }, { minutes: 22, scheduled: true }],
   '150S:south': [{ minutes: 6, alert: { severity: 'warning', text: 'Omkørsel ved Ryparken' } }, { minutes: 14 }, { minutes: 26 }],
+  // Half-hourly and undisturbed: every mark is already spoken for above, and a
+  // board with nothing wrong is a state the capture needs too.
+  '164:west': [{ minutes: 8 }, { minutes: 38 }, { minutes: 68, scheduled: true }],
   'A:north': [{ minutes: 5, track: ['2', '1'] }, { minutes: 15, alert: { severity: 'severe', text: 'Sporarbejde: tog aflyst mod Hillerød' } }, { minutes: 25 }],
 };
 

@@ -46,16 +46,17 @@ prints `Live times via Transitous` while the fallback is answering.
 
 Transitous asks for open-source, non-commercial use, an identifying
 `User-Agent`, and contact before heavy use. All three live in
-`lib/transitous.ts`, the only file that talks to them. Two stop requests every
-two minutes is about 115 MB a day; if the display ever asks for more, write to
-them first.
+`lib/transitous.ts`, the only file that talks to them. Three stop requests
+every two minutes is about 170 MB a day; if the display ever asks for more,
+write to them first.
 
-**The primary is still worth having.** Request an access ID at
-<https://labs.rejseplanen.dk>; it is free for non-commercial use at 50,000
-calls a month, and this display uses about 44,640. Set
-`REJSEPLANEN_ACCESS_ID` in the ignored `.env.local` and the route prefers it
-automatically, with no other change. Never use a `NEXT_PUBLIC_` variable for
-this key.
+**The primary is still worth having**, but it no longer fits the free tier as
+it stands. Request an access ID at <https://labs.rejseplanen.dk>; it is free
+for non-commercial use at 50,000 calls a month, and three stop boards every two
+minutes is about 66,960 — see "Requests and caching" below before switching
+the primary on. Set `REJSEPLANEN_ACCESS_ID` in the ignored `.env.local` and the
+route prefers it automatically, with no other change. Never use a
+`NEXT_PUBLIC_` variable for this key.
 
 ## Stops and directions
 
@@ -63,6 +64,15 @@ Stops are configured in `lib/transit.ts` and resolved differently per provider.
 
 Rejseplanen resolves them by exact name through `location.name`, using returned
 main mast identifiers for opposing platforms; ambiguous matches fail closed.
+
+**Kildegårds Plads is two stops, not one.** 184 and 150S call at the Lyngbyvej
+mast; 164 does not stop there at all. Its Vangede direction leaves from
+Kildegårds Plads (Ellegårdsvej), on the other side of the square, and its
+opposite direction from the Kildegårdsvej side — by which point it has already
+called at Vangede, so only one of the two is a board worth drawing. That is why
+164's heading names its mast where the other buses name the square: a board
+that sends somebody to the wrong kerb is worse than no board. Each mast is one
+stop request, which is what the arithmetic below counts.
 
 Transitous uses hardcoded stop ids in `lib/transitous.ts`, in the namespace it
 gives the Danish feed — a geocode call before every board would double the
@@ -79,10 +89,14 @@ dashes rather than another platform's times.
 | 184 south | Nørreport St. | Nørreport St. |
 | 150S north (labelled Kokkedal) | Kokkedal St. | Kokkedal St., Gl. Holte Øverødvej, Søhuset Forskerparken, Rævehøjvej DTU |
 | 150S south | Nørreport St. | Nørreport St. |
+| 164 west (labelled Vangede) | Ballerup St. | Ballerup St. |
 | A north (Lyngby St.) | Hillerød St. | Hillerød St. |
 
-150S runs to four different termini up the same corridor and the fallback lists
-all of them, because they are all northbound departures a passenger can board.
+164 is signed for the far end of its line rather than for anywhere near the
+stop: Vangede is a dozen stops before Ballerup, and the board is labelled for
+the one a passenger here is going to. 150S runs to four different termini up
+the same corridor and the fallback lists all of them, because they are all
+northbound departures a passenger can board.
 An unknown headsign is dropped rather than filed under a guessed direction, so
 a new short-turn goes missing rather than wrong. `npm run probe:transit --
 --headsigns` lists what each stop is actually signing today and marks the ones
@@ -106,7 +120,7 @@ Both providers feed the same `Departure` shape, and `departureIncidents` in
 | `-N min` | expected earlier than scheduled | info |
 
 A departure with nothing wrong is left unmarked. Saying "Live" under each of
-the fifteen ordinary times on screen spent a row of height to tell the reader
+the eighteen ordinary times on screen spent a row of height to tell the reader
 nothing, so whether a time is being tracked is carried instead by a small green
 dot before it: **a dot means a live feed is reporting that journey**, and an
 unmarked time is the timetable's, which may already be running late without
@@ -186,10 +200,18 @@ the line, it does not promise it.
 
 ## Requests and caching
 
-Two departure boards are requested at most once per two-minute cache window.
-One continuously running display uses roughly 44,640 board requests in 31 days,
-plus location lookups for Rejseplanen; additional server processes increase
-that. Recheck the provider's quota before sharing.
+Three departure boards — one per mast — are requested at most once per
+two-minute cache window. One continuously running display uses roughly 66,960
+board requests in 31 days, plus location lookups for Rejseplanen; additional
+server processes increase that. Recheck the provider's quota before sharing.
+
+**That is past Rejseplanen's free 50,000 a month**, so the arithmetic has to be
+settled before an access ID is used rather than after. Transitous, which is
+what answers today, publishes no call ceiling and asks to be contacted before
+heavy use. The refresh interval is not the place to find the difference: the
+live time of the next departure is the most valuable thing on the board and two
+minutes is what keeps it current. Ask Labs for the quota, or fold the two
+Kildegårds Plads masts into one main-mast request, before cutting it.
 
 Both providers are tried inside the twelve seconds the browser waits: six
 seconds for Rejseplanen, five for Transitous, each request with its own
