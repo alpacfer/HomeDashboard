@@ -66,14 +66,23 @@ jobs:
             | sort -rn | head -10 >> "$GITHUB_STEP_SUMMARY" || true
           echo '```' >> "$GITHUB_STEP_SUMMARY"
 
-  # A real render of the built site, captured the way the Fire TV sees it, so a
-  # layout regression is visible in the run's artifacts without a checkout.
-  # Weather requests are switched off (?weather=off) so a run never spends the
-  # providers' quota; the weather card therefore shows its unavailable state.
-  # Non-blocking: a runner without Chrome, or a slow start, must not turn a
-  # green build red.
-  screenshot:
-    name: Screenshot
+  # A real render of the built site, the way the Fire TV sees it.
+  #
+  # The screenshots are for a human to look at afterwards and cannot fail a
+  # run. The two checks above them can, and that is the point of this job:
+  # `npm run audit` asks the page about itself and `npm run motion` measures
+  # whether an animation is smooth, and both already exit non-zero on a real
+  # finding. AGENTS.md has called them mandatory since the day a flicker in the
+  # forecast map shipped through a green check, a passing suite and three
+  # correct-looking screenshots -- and until now neither ran anywhere
+  # automatically, so the tool built in answer to that incident was still only
+  # run by whoever remembered to.
+  #
+  # Every scene is ?weather=off or ?weather=demo, so a run never spends a
+  # provider's quota. --json is captured as an artifact so a failure can be
+  # read without rerunning anything.
+  display:
+    name: Display checks
     runs-on: ubuntu-latest
     timeout-minutes: 15
 
@@ -89,12 +98,34 @@ jobs:
 
       - run: npm run build
 
+      # Detached, with its output redirected: a step that leaves a process
+      # holding stdout does not return. Every browser tool calls waitForServer
+      # before it does anything, so nothing here has to sleep.
+      - name: Start the built site
+        run: |
+          mkdir -p screenshots
+          npm start > screenshots/server.log 2>&1 &
+
+      # Blocking. Exits 1 on an error-level finding: content clipped by an
+      # ancestor, a marker wrapped onto its own line, text under the
+      # legibility floor, contrast against the real backdrop.
+      - name: Layout audit
+        # pipefail, or the exit code would be tee's and a failing audit would
+        # pass. GitHub's default shell is `bash -e`, which does not set it.
+        run: |
+          set -o pipefail
+          npm run audit -- --json | tee screenshots/audit.json
+
+      # Blocking. Exits 1 on a canvas that twitches rather than moves, which
+      # is the fault a screenshot cannot show.
+      - name: Animation
+        run: npm run motion -- --scene map --demo
+
       - name: Capture
         continue-on-error: true
         run: |
-          npm start &
           npm run shot -- --scene transport --offline --out screenshots/transport.png
-          npm run shot -- --scene map --offline --out screenshots/map.png
+          npm run shot -- --scene map --demo --out screenshots/map.png
           npm run shot -- --scene fact --offline --out screenshots/fact.png
           npm run shot -- --offline --reduced-motion --clip .display-shell --out screenshots/clock-reduced-motion.png
 
@@ -106,7 +137,12 @@ jobs:
           if-no-files-found: ignore
           retention-days: 14
 
-  audit:
+  # Named `deps`, not `audit`. There are two audits in this repository and they
+  # check unrelated things: this one reads package-lock.json, `npm run audit`
+  # reads the rendered page. A job called `audit` next to a command called
+  # `npm run audit` reads as though the display were being checked in CI, which
+  # it was not.
+  deps:
     name: Dependency audit
     runs-on: ubuntu-latest
     timeout-minutes: 10

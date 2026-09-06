@@ -16,12 +16,6 @@ export const CLOCK_THEMES = ['workshop', 'plain'] as const;
 
 export type ClockTheme = (typeof CLOCK_THEMES)[number];
 
-/** What each theme is called. */
-export const CLOCK_THEME_NAMES: Readonly<Record<ClockTheme, string>> = {
-  workshop: 'Workshop — a cozy wooden clockmaker’s shed',
-  plain: 'Plain — the card before themes',
-};
-
 export const DEFAULT_CLOCK_THEME: ClockTheme = 'workshop';
 
 /**

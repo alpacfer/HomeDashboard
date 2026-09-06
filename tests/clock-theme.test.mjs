@@ -1,7 +1,7 @@
 import { test } from 'node:test';
 import assert from 'node:assert/strict';
 import {
-  CLOCK_THEMES, CLOCK_THEME_NAMES, DEFAULT_CLOCK_THEME, clockTheme, clockThemeClass, hasScenery,
+  CLOCK_THEMES, DEFAULT_CLOCK_THEME, clockTheme, clockThemeClass, hasScenery,
 } from '../lib/clock-theme.ts';
 
 test('an unnamed or misspelt theme falls back to the default, so a typo cannot undress the display', () => {
@@ -28,11 +28,12 @@ test('the old bare card is still reachable, and is the only theme without scener
   }
 });
 
-test('the default is a real theme, and every theme has a name', () => {
+test('the default is a real theme, and a retired one falls back to it', () => {
   assert.equal(DEFAULT_CLOCK_THEME, 'workshop');
+  // `hillside` was a theme once and the README offered it for a while after it
+  // stopped being one. An unknown value has to land on the default rather than
+  // on nothing, or a stale URL would leave the wall showing an unstyled card.
   assert.equal(clockTheme('?clock=hillside'), 'workshop');
   assert.ok(CLOCK_THEMES.includes(DEFAULT_CLOCK_THEME));
   assert.notEqual(DEFAULT_CLOCK_THEME, 'plain');
-  for (const theme of CLOCK_THEMES) assert.match(CLOCK_THEME_NAMES[theme], /\S/);
-  assert.equal(Object.keys(CLOCK_THEME_NAMES).length, CLOCK_THEMES.length);
 });

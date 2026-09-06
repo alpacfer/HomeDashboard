@@ -55,7 +55,6 @@ export type TenantProps = {
   onPlay?: (id: 'land' | 'spring') => void;
   // Whether it is at rest beside the minutes, so the clock can hold a set
   // piece until it is.
-  onHome?: (home: boolean) => void;
 };
 
 type Pose = 'rest' | 'perched' | 'falling' | 'sprawled' | 'charging' | 'jumping' | 'visiting';
@@ -95,7 +94,7 @@ type TenantActions = {
 
 type Hop = HopArc & { from: TravelPoint; to: TravelPoint };
 
-export default function Tenant({ mood, targets, activeScene, previewSpot = null, travelSpot = null, rollKey, nextDigit, rolledDigit, busy, onPlay, onHome }: TenantProps) {
+export default function Tenant({ mood, targets, activeScene, previewSpot = null, travelSpot = null, rollKey, nextDigit, rolledDigit, busy, onPlay }: TenantProps) {
   const [motionPreview] = useState(() => typeof window === 'undefined' ? null : debugFlags(window.location.search).petMotion);
   const [pose, setPose] = useState<Pose>('rest');
   const [perchIndex, setPerchIndex] = useState(3);
@@ -377,8 +376,6 @@ export default function Tenant({ mood, targets, activeScene, previewSpot = null,
   useEffect(() => {
     act.current = { jumpTo: travel, jumpHome, roamHome, perchOnDigit, roamTo, comeDown, fall, startGesture, startPerchAction };
   });
-
-  useEffect(() => { onHome?.(pose === 'rest'); }, [pose, onHome]);
 
   // Retire the filled root animation only after React has painted the new
   // resting/perched location into the DOM. No one-frame flash back home.

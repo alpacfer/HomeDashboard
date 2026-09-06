@@ -32,33 +32,98 @@ for (const file of await list('app', /\.css$/)) {
 //     a cs-drift layer must express its background-size width as var(--tile),
 //     and a cs-rain/cs-snow layer's background-size height must equal the
 //     distance its keyframe travels. See docs/CLOCK.md.
-for (const file of await list('app', /\.css$/)) {
+//     Structural, not by name. This rule used to know three animations
+//     (cs-drift, cs-rain, cs-snow) and one transform function (translate3d),
+//     which meant it was checking the examples rather than the invariant.
+//     clock-workshop.css's shed-rain is the same tiling-fall pattern, written
+//     with translateY, and slipped past on both counts; renaming cs-rain would
+//     have made the whole rule evaporate with a green check. Every failure
+//     mode was silent, which is the worst property a check can have.
+const sheets = await list('app', /\.css$/);
+const corpus = (await Promise.all(sheets.map(read))).join('\n');
+// Keyframes are indexed across every stylesheet, because a rule and the
+// animation it names need not live in the same file and already do not:
+// @keyframes cs-drift is in clock-theme.css and every layer using it is in
+// clock-hillside.css.
+const KEYFRAMES = new Map();
+for (const [, name, block] of corpus.matchAll(/@keyframes\s+([\w-]+)\s*\{((?:[^{}]|\{[^{}]*\})*)\}/g)) {
+  KEYFRAMES.set(name, block);
+}
+// Where the layer has got to when the loop repeats. Frames are read by their
+// own offset rather than by source order, so a block written 0% 100% 50% is
+// not misread, and translate3d/translate/translateX/translateY all count.
+const finalTravel = name => {
+  const block = KEYFRAMES.get(name);
+  if (!block) return null;
+  let best = null;
+  for (const [, stops, decls] of block.matchAll(/([^{}]+)\{([^{}]*)\}/g)) {
+    const offsets = stops.split(',').map(stop => {
+      const text = stop.trim();
+      if (text === 'from') return 0;
+      if (text === 'to') return 100;
+      return Number.parseFloat(text);
+    }).filter(Number.isFinite);
+    const at = Math.max(...offsets);
+    if (!Number.isFinite(at) || (best && at <= best.at)) continue;
+    const transform = /transform\s*:\s*([^;]+)/.exec(decls)?.[1] ?? '';
+    let x = '0', y = '0';
+    const three = /translate3d\(([^)]*)\)/.exec(transform);
+    const two = /\btranslate\(([^)]*)\)/.exec(transform);
+    const onlyX = /translateX\(([^)]*)\)/.exec(transform);
+    const onlyY = /translateY\(([^)]*)\)/.exec(transform);
+    if (three) { const parts = three[1].split(','); x = (parts[0] ?? '0').trim(); y = (parts[1] ?? '0').trim(); }
+    else if (two) { const parts = two[1].split(','); x = (parts[0] ?? '0').trim(); y = (parts[1] ?? '0').trim(); }
+    if (onlyX) x = onlyX[1].trim();
+    if (onlyY) y = onlyY[1].trim();
+    best = { at, x, y };
+  }
+  return best;
+};
+const px = text => {
+  const match = /^-?[\d.]+(?=px$)/.exec(String(text).trim());
+  return match ? Math.abs(Number(match[0])) : null;
+};
+const tokens = text => [...String(text).matchAll(/--[\w-]+/g)].map(match => match[0]);
+
+for (const file of sheets) {
   const css = await read(file);
-  // The whole @keyframes block, braces one level deep, then the last
-  // translate3d in it — which is the final frame's, and so the distance the
-  // layer has travelled by the time the loop repeats.
-  const travel = name => {
-    const block = new RegExp('@keyframes\\s+' + name + '\\s*\\{(?:[^{}]|\\{[^{}]*\\})*\\}').exec(css)?.[0] ?? '';
-    const steps = [...block.matchAll(/translate3d\([^)]*?,\s*(-?[\d.]+)px\s*,/g)];
-    return Number(steps.at(-1)?.[1] ?? NaN);
-  };
   // Rule blocks are flat here: one selector, one { ... } with no nesting.
   for (const [, selector, body] of css.matchAll(/([^{}]+)\{([^{}]*)\}/g)) {
-    const animation = /animation\s*:\s*([\w-]+)/.exec(body)?.[1];
-    if (!animation || selector.includes('@')) continue;
+    if (selector.includes('@')) continue;
     const size = /background-size\s*:\s*([^;]+)/.exec(body)?.[1]?.trim();
+    if (!size) continue;
+    const shorthand = /animation\s*:\s*([^;]+)/.exec(body)?.[1]
+      ?? /animation-name\s*:\s*([^;]+)/.exec(body)?.[1];
+    if (!shorthand) continue;
     const where = file + ' (' + selector.trim().split('\n').pop().trim() + ')';
-    if (animation === 'cs-drift') {
-      if (size && !/^var\(--tile\)/.test(size)) {
-        fail(where, 'drifts by var(--tile) but its background-size starts "' + size.split(',')[0].trim()
-          + '". Write the tile width as var(--tile) so the two cannot drift apart and the loop jump once a cycle.');
-      }
-    } else if (animation === 'cs-rain' || animation === 'cs-snow') {
-      const height = Number(/^\S+\s+(-?[\d.]+)px/.exec(size ?? '')?.[1] ?? NaN);
-      const distance = travel(animation);
-      if (Number.isFinite(height) && Number.isFinite(distance) && Math.abs(height - Math.abs(distance)) > 0.01) {
-        fail(where, 'tiles every ' + height + 'px but @keyframes ' + animation + ' travels '
-          + Math.abs(distance) + 'px, so the fall jumps once a cycle. They must be equal.');
+    const [sizeX, sizeY] = size.split(',')[0].trim().split(/\s+/);
+    // One shorthand can name several animations, and the name is whichever
+    // token is a keyframe -- not the first one, which may be a duration.
+    for (const part of shorthand.split(',')) {
+      const name = part.trim().split(/\s+/).find(token => KEYFRAMES.has(token));
+      if (!name) continue;
+      const moved = finalTravel(name);
+      if (!moved) continue;
+      for (const [axis, travelled, tile, word] of [['x', moved.x, sizeX, 'width'], ['y', moved.y, sizeY, 'height']]) {
+        if (!travelled || travelled === '0' || px(travelled) === 0) continue;
+        if (tile === undefined) continue;
+        const travelPx = px(travelled);
+        const tilePx = px(tile);
+        if (travelPx !== null && tilePx !== null) {
+          if (Math.abs(travelPx - tilePx) > 0.01) {
+            fail(where, 'tiles every ' + tilePx + 'px and @keyframes ' + name + ' travels ' + travelPx
+              + 'px on ' + axis + ', so the layer jumps once a cycle. The travel must equal the tile ' + word + '.');
+          }
+          continue;
+        }
+        // One side is a custom property. Then both must name the same one, or
+        // they are two independent numbers that only happen to agree today.
+        const shared = tokens(tile).filter(token => tokens(travelled).includes(token));
+        if (!shared.length) {
+          fail(where, 'tiles every "' + tile + '" on ' + axis + ' but @keyframes ' + name + ' travels "'
+            + travelled + '". Express both with the same custom property so they cannot drift apart'
+            + ' and the loop jump once a cycle.');
+        }
       }
     }
   }
