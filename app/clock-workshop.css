@@ -1,7 +1,7 @@
 /* Warm timber, cream enamel numerals and a small brass movement. The dark
    date rail never changes colour with the outside sky. */
 .ct-workshop {
-  --clock-surface:#473426; --clock-ring:#957449;
+  --clock-surface:#473426; --clock-ring:transparent;
   --shed-window-top:#7aa1a4; --shed-window-low:#c2d0a7; --shed-window-tree:#54765c;
 }
 .ct-workshop[data-light='dawn'] { --shed-window-top:#837585; --shed-window-low:#d2a480; }

@@ -15,9 +15,15 @@ body { color:var(--foreground); font-family:'Space Grotesk',Arial,Helvetica,sans
    would make it a stacking context and trap the Tenant inside the card, which
    it leaves to visit the rest of the dashboard. Being the later positioned
    sibling is what puts it above the surface. See docs/CLOCK.md. */
-/* 2.74em of digits, a .08em gap and the .42em pet. The baseline sits on
-   the painting's bench at 72% height, independently of its lighting. */
-.clock-block { position:relative; flex-shrink:0; margin:0; padding-top:3.4vh; --clock-size:7.4vw; --date-base:clamp(12px,1.2vw,24px);
+/* 2.74em of digits, a .08em gap and the .42em pet. The digits stand on the
+   foreground bench rather than against the painted one behind it: that plank
+   runs from 65.2% to 80.6% of the card, so the glyph baseline is put halfway
+   through its depth, at 72.9%. The padding is what places it. A cell is 1.12em
+   tall and centres its face, and the face's own baseline sits (ascent minus
+   descent) / 2 below that centre, which for this face is .354em; so the
+   baseline lands .914em below the padding, and .729 * 22vh - .914 * 6.1vw is
+   the 6.15vh below. Independent of the lighting, which never moves the bench. */
+.clock-block { position:relative; flex-shrink:0; height:100%; margin:0; padding-top:6.15vh; --clock-size:6.1vw; --date-base:clamp(12px,1.2vw,24px);
   --digit-font:'Clock Grotesk','Space Grotesk',Arial,Helvetica,sans-serif; --digit-weight:700; --digit-scale:1; --digit-var:normal;
   --date-font:'Space Grotesk',Arial,Helvetica,sans-serif; --date-weight:700; --date-size:var(--date-base); --date-space:.14em; --date-tf:uppercase;
   --ink:var(--foreground); --colon:var(--accent); --date-ink:var(--muted); --glow:none; --colon-r:50%; }
@@ -36,7 +42,11 @@ body { color:var(--foreground); font-family:'Space Grotesk',Arial,Helvetica,sans
 .separator { grid-column:3; grid-row:1; display:flex; flex-direction:column; align-items:center; justify-content:center; gap:.19em; height:1.12em; color:var(--colon); }
 .separator span { display:block; width:.105em; height:.105em; background:currentColor; border-radius:var(--colon-r); box-shadow:var(--glow); }
 .is-live .separator { animation:live-pulse 2s ease-in-out infinite; }
-.clock-date { display:flex; align-items:center; justify-content:center; gap:.7em; height:3.6vh; margin:-.7vh 0 0; padding:0 1.7vw; color:var(--date-ink); font-family:var(--date-font); font-size:var(--date-size); font-weight:var(--date-weight); line-height:1; letter-spacing:var(--date-space); text-transform:var(--date-tf); font-variant-numeric:lining-nums tabular-nums; text-shadow:var(--glow); white-space:nowrap; transition:opacity 3s ease; }
+/* The date is pinned to the foot of the card rather than trailing the digits,
+   so its margin is the one thing on the apron that never changes when the
+   glyphs do. It starts at the first digit's ink rather than at its cell: a
+   face centres its advance in a .62em box, which sets the glyph .025em in. */
+.clock-date { position:absolute; left:0; right:0; bottom:2.5vh; display:flex; align-items:center; justify-content:flex-start; gap:.7em; margin:0; padding:0 calc(var(--panel-inset) + var(--clock-size) * .025); color:var(--date-ink); font-family:var(--date-font); font-size:var(--date-size); font-weight:var(--date-weight); line-height:1; letter-spacing:var(--date-space); text-transform:var(--date-tf); font-variant-numeric:lining-nums tabular-nums; text-shadow:var(--glow); white-space:nowrap; transition:opacity 3s ease; }
 /* Between 23:00 and 06:00 the Tenant sleeps and the clock turns down with it,
    slowly enough that nobody sees the step. */
 .is-asleep .clock,.is-asleep .clock-date { opacity:.72; }
@@ -616,12 +626,21 @@ a:focus-visible { outline:2px solid var(--foreground); outline-offset:8px; }
 .shed-window-rain { position:absolute; inset:-20px 0; }
 .weather-surface { border-radius:inherit; }
 .weather-shade { position:absolute; inset:0; background:linear-gradient(90deg,rgba(12,30,28,.7),rgba(12,30,28,.3) 48%,transparent 80%),linear-gradient(0deg,rgba(13,30,24,.45),transparent 40%); }
-.weather .temperature { position:relative; }
-.weather .weather-headline { position:absolute; grid-column:auto; grid-row:auto; left:1.45vw; right:5.5vw; top:64%; bottom:auto; margin:0; padding:0; background:none; color:#efe5c7; font-size:1.5vw; font-weight:600; text-shadow:0 1px 3px #14241c; }
-.weather .temperature { font-family:'Fraunces',Georgia,serif; font-variation-settings:'opsz' 144,'SOFT' 62,'WONK' 1; font-weight:600; font-size:5.1vw; color:#f2e8ce; text-shadow:0 2px 3px rgba(13,31,24,.6); }
-.weather .temperature > small { position:absolute; top:100%; left:0; margin:.4vw 0 0; max-width:12vw; font-family:'Space Grotesk',Arial,sans-serif; font-size:.19em; letter-spacing:.09em; white-space:normal; }
+/* One voice for the card. The number, the condition and the rain line are all
+   Fraunces at one optical size, told apart by scale and weight rather than by
+   family, and the three sit as a single block in the bottom-left corner of the
+   painting, above each other on the same left edge. Each is placed from the
+   foot of the card, so the block keeps its margin whatever the number reads. */
+.weather .temperature { position:absolute; left:1.45vw; bottom:8.5vh; margin:0; font-family:'Fraunces',Georgia,serif; font-variation-settings:'opsz' 144,'SOFT' 62,'WONK' 1; font-weight:600; font-size:6.6vw; line-height:.84; color:#f2e8ce; text-shadow:0 2px 3px rgba(13,31,24,.6); }
+.weather .weather-headline { position:absolute; grid-column:auto; grid-row:auto; left:1.45vw; right:5.5vw; top:auto; bottom:2.1vh; margin:0; padding:0; background:none; color:#efe5c7; font-family:'Fraunces',Georgia,serif; font-variation-settings:'opsz' 144,'SOFT' 62,'WONK' 1; font-size:1.5vw; font-weight:600; line-height:1.16; letter-spacing:0; text-shadow:0 1px 3px #14241c; }
+.weather .temperature > small { position:absolute; top:100%; left:.03em; margin:.7vh 0 0; max-width:20vw; font-family:inherit; font-variation-settings:inherit; font-size:.155em; font-weight:700; letter-spacing:.15em; white-space:nowrap; }
 .weather.ct-hillside .temperature > small { color:#ebe9d2; }
 .weather.ct-hillside .temperature > span { color:#dfc997; }
+/* The painting is its own edge. The wash and hairline the condition palette
+   puts on the card only read as a pale outline around its corners once there
+   is scenery under them, so a painted card drops both. The unavailable card
+   never had either: it names no condition, so neither token is ever set. */
+.weather.ct-hillside { background:none; box-shadow:none; }
 .weather-landing { position:absolute; right:1.5vw; top:74%; width:4.3vw; height:4px; border-radius:50%; background:rgba(40,42,30,.2); }
 .weather-empty .weather-landing { background:#45454d; }
 .weather-empty .weather-headline { background:none; color:var(--muted); }
