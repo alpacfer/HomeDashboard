@@ -38,106 +38,42 @@ npm run facts:generate -- --refresh    # re-ask Wikimedia for everything, ~20 mi
 
 ## Debugging tools
 
-Read [docs/DEBUGGING.md](docs/DEBUGGING.md) before investigating anything on
-screen. In short:
+**Read [docs/DEBUGGING.md](docs/DEBUGGING.md) before investigating anything on
+screen.** It explains what each tool is for and why it exists; this is the
+index and the two rules that are not negotiable.
 
-- **`npm run shot`** (`scripts/screenshot.mjs`) is how screenshots are taken.
-  It needs the dev server running (start it with the preview tool, never a bare
-  `npm run dev` in Bash), waits for it, and writes PNGs under `screenshots/`.
-  `--clip <selector>` gives the smallest image; `--class` forces a Tenant pose; `--freeze` stops animations at a time;
-  `--reduced-motion` covers the accessibility path; `--transit-demo` fills the
-  departure boards with every delay and incident mark; `--sequence n` captures
-  a strip of moments from one page load, which is how a moving scene is shown;
-  `--console` shows what the page logged. Do not screenshot through the browser
-  pane: its crop is unsupported and a hidden pane returns stale frames.
-- **`npm run states`** (`scripts/clock-states.mjs`) is how the clock widget's
-  theme is looked at. It drives twenty sky states through one browser and lays
-  them out on a single sheet, because the faults this scenery produces —
-  a gradient clipped into a hard line, a cloud that reads as bokeh, a shadow
-  cut square by a digit's own overflow — are invisible in any one tile and
-  obvious when the tiles are side by side. `--seams` reads the captures back
-  and names rows where the image changes sharply across most of its width,
-  which is what a clipped gradient leaves and a hill never does; it found the
-  snow-cap line that four rounds of looking had missed. `--save-baseline`
-  remembers the current twenty and `--baseline` reports what moved since, per
-  state, as a share of pixels and the rows they are in — which is how you see
-  that tuning the cloud bank also moved the ridge. Costs no provider quota:
-  every state is `?weather=off` with `?sky=` pinned. Baselines live under
-  `screenshots/`, so they are local working files, not shared.
-- **`npm run roll`** (`scripts/clock-roll.mjs`) catches the digit transition,
-  which happens on the minute boundary and lasts under a second. `?time=`
-  shifts the clock by whole minutes and keeps the seconds, so the boundary is
-  always at :00; this waits for the page's own clock to reach :58.7 and then
-  captures a fast strip across it. `--sky day,rain,heavy` shows the transition
-  that rain uses instead. Nothing else on the display needs this, because
-  everything else can be pinned or replayed on demand.
-- **`npm run motion`** (`scripts/measure-motion.mjs`) is how anything that
-  moves is checked. Note what it does **not** cover: it follows the Tenant's
-  transform path and canvas painting, so for the theme's scenery it reports
-  the frame rate honestly and says nothing about whether a drifting background
-  layer loops seamlessly. That invariant is checked statically instead, by
-  `npm run check:rules`. A screenshot cannot show whether an animation is smooth,
-  and a flicker in the forecast map once shipped through a green `npm run
-  check`, a passing suite and three correct-looking screenshots. It reports how
-  evenly a canvas is painted and whether what it draws reads as movement or as
-  twitching, and exits non-zero on the latter. **Run it for every change that
-  animates something**, alongside the screenshot:
-  `npm run motion -- --scene map --demo`.
-- **`npm run scene`** (`scripts/scene-guides.mjs`) measures a painted card
-  instead of squinting at it: every horizontal edge the composite actually has,
-  read back from the rendered pixels, then every landmark that must meet one —
-  the digits' baseline, the date, the Tenant's feet, each prop group — in card
-  pixels and per cent. It writes the same card with those guides ruled onto it,
-  and reports the light: the mean colour of each third and where the brightest
-  pool in the painting is. That is what placed the workshop lamp over the pool
-  the night plate paints, and what the ambient filters are derived from.
-  `--sky` is repeatable and every state goes through one browser. **Reach for
-  it before nudging a number that has to agree with the artwork.**
-- **`npm run probe`** (`scripts/probe-forecast.mjs`) says which forecast
-  provider is answering and why the others are not. Run it first when the
-  weather card is muted or shows the dot.
-- **`npm run audit`** (`scripts/audit-ui.mjs`) loads all seven scenes at the
-  Fire TV's 1280 x 720 in one browser and asks the page about itself: content
-  clipped by an ancestor that hides its overflow, elements that must stay on
-  one line and did not, text below the legibility floor, and contrast against
-  the real backdrop. **Run it after any CSS or layout change**, before reaching
-  for a screenshot: seven states cost about thirty seconds and read as text
-  (`--json` for the findings as data), and it
-  catches the faults a PNG shows but nobody notices. `--shots` writes a PNG per
-  state from the same page loads, which is the fast way to re-capture
-  everything. Exit code 1 on an error-level finding.
-- **`npm run probe:transit`** (`scripts/probe-transit.mjs`) does the same for
-  departures: which provider answers, what each board would show, and how every
-  delay, cancellation and platform change would be marked. Run it first when
-  the boards show dashes. `--headsigns` lists what each stop is signing today,
-  which is how `TRANSITOUS_HEADSIGNS` is re-derived after a timetable change.
-- **`/?weather=off`** stops every weather request and fills the card, the
-  ribbon and the week strip from `lib/weather-demo.ts`, so a capture of
-  something else still shows the dashboard in context. **Use it for every
-  capture that is not about the weather.** Open-Meteo's quota is ten thousand
-  calls a day per IP address, one load of the forecast map costs about three hundred,
-  and the display shares the address with this machine. A day of screenshots
-  against `?scene=map` once spent the whole quota and muted the display. The
-  limits and the arithmetic are in `lib/open-meteo-quota.ts`; a `429` locks
-  Open-Meteo out for every component until the limit it names resets.
-- **`/?weather=demo`** (`npm run shot -- --demo`) is `off` plus a synthetic
-  forecast on the map. Use it for any capture **of** the map: headless Chrome
-  starts each run with an empty profile, so `?weather=off` leaves the map blank
-  and a live capture buys three hundred coordinates every time.
-- **`/?weather=none`** (`npm run shot -- --no-weather`) makes no request and
-  draws no placeholder either. It is the only way to photograph the genuinely
-  unavailable card, which is a state the display has to get right. The
-  placeholder is never a fallback: a provider that fails on the wall shows the
-  offline dot and the last good forecast, never invented weather.
-- **`/?time=HH:MM`** pins the clock to a Copenhagen time (`npm run shot --
-  --time 08:46`), so the face can be checked against the digits that stress it.
-- **`/?transit=demo`** (`npm run shot -- --transit-demo`) draws the departure
-  boards from a synthetic answer holding a cancellation, a long delay, an early
-  departure, a platform change and two service messages, asking no provider.
-  Use it for any capture of how a delay or an incident is marked: a live feed
-  will not produce one to order.
-- Weather failures are logged as one `[weather] every provider failed: ...`
-  line naming each provider and its reason.
+| Tool | Reach for it when |
+| --- | --- |
+| `npm run audit` | **After any CSS or layout change**, before a screenshot. All seven scenes in ~30 s, as text; `--json` for the findings as data. Exits 1 on an error. |
+| `npm run motion` | **After any change that animates something.** A screenshot cannot show whether an animation is smooth. Exits 1 on a fault. |
+| `npm run shot` | The picture, once the two above are clean. `--clip` for the smallest useful image. |
+| `npm run scene` | Before nudging a number that has to agree with the artwork: it measures a painted card's real edges, landmarks and light. |
+| `npm run states` | Looking at the clock's sky. Twenty states on one sheet; `--seams` finds clipped gradients, `--baseline` says what moved. |
+| `npm run roll` | The digit transition, which lasts under a second on the minute boundary. |
+| `npm run probe` | The weather card is muted or showing the dot. |
+| `npm run probe:transit` | The departure boards show dashes. |
+
+Two rules:
+
+- **Never spend the display's quota from a development machine.** Open-Meteo
+  allows ten thousand calls a day per IP address, one load of the forecast map
+  costs about three hundred, and the Fire TV shares this address. A day of
+  screenshots against `?scene=map` once spent the whole quota and muted the
+  display. So: `--offline` (`?weather=off`) for every capture that is not about
+  the weather, `--demo` (`?weather=demo`) when the forecast map *is* the
+  subject, and never `npm run probe -- --grid` in a loop. The arithmetic is in
+  `lib/open-meteo-quota.ts`; a `429` locks Open-Meteo out for every component
+  until the limit it names resets. Google's tier is monthly, so a spent one
+  stays spent until the first of the month.
+- **Do not screenshot through the browser pane.** Its crop is unsupported and a
+  hidden pane returns stale frames. The dev server must be running for any of
+  these; start it with the preview tool, never a bare `npm run dev` in Bash.
+
+The URL flags these tools set — `?weather=off|demo|dry|none`, `?time=`,
+`?scene=`, `?transit=demo`, `?sky=`, `?clock=`, `?date=`, `?pet=` — are listed
+with what each one is for in [docs/DEBUGGING.md](docs/DEBUGGING.md#url-flags).
+Weather failures are logged as one `[weather] every provider failed: ...` line
+naming each provider and its reason.
 
 `npm start` binds `127.0.0.1` and is local-only. Render uses
 `npm run start:render`, which binds `0.0.0.0`.
@@ -197,13 +133,8 @@ Storage is an input like a provider: a previous build may have written a
 different shape. See `components/device-storage.ts`.
 
 **Never spend the display's quota from a development machine.** The Fire TV and
-this machine share one Open-Meteo quota, and one Google Cloud project. Pass
-`--offline` to `npm run shot`, add `?weather=off` to any URL you load by hand
-unless the weather is the subject (or `?weather=demo` when the forecast map is
-the subject), and never run `npm run probe -- --grid` in a loop. Google's tier
-is monthly rather than daily, so a spent one stays spent until the first of the
-month: `npm run probe` costs two calls of it, and every page load that is not
-`?weather=off` costs up to two more.
+this machine share one Open-Meteo quota and one Google Cloud project. The
+arithmetic and the flags are under "Debugging tools" above.
 
 ## Rules that are enforced for you
 

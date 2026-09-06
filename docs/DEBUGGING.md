@@ -191,6 +191,53 @@ It needs the dev server, the same as `npm run shot`, and exits 1 on an error so
 it can gate a change. Run it before reaching for a screenshot after any CSS
 change: it covers every scene and looks at the things eyes skip.
 
+## The clock's sky, twenty at a time: `npm run states`
+
+`scripts/clock-states.mjs` drives twenty sky states through one browser and
+lays them out on a single sheet. The faults this scenery produces — a gradient
+clipped into a hard line, a cloud that reads as bokeh, a shadow cut square by a
+digit's own overflow — are invisible in any one tile and obvious when the tiles
+are side by side.
+
+```sh
+npm run states                   # the twenty, on one sheet
+npm run states -- --seams        # ... and the rows that change sharply across the width
+npm run states -- --save-baseline   # remember the current twenty
+npm run states -- --baseline     # what moved since, per state
+```
+
+`--seams` reads the captures back and names rows where the image changes
+sharply across most of its width, which is what a clipped gradient leaves and a
+hill never does. It found the snow-cap line that four rounds of looking had
+missed. `--baseline` reports what moved since `--save-baseline`, per state, as
+a share of pixels and the rows they are in — which is how you see that tuning
+the cloud bank also moved the ridge.
+
+Costs no provider quota: every state is `?weather=off` with `?sky=` pinned.
+Baselines live under `screenshots/`, which is gitignored, so they are local
+working files and cannot gate CI or a review.
+
+## The digit roll: `npm run roll`
+
+`scripts/clock-roll.mjs` catches the clock's transition, which happens on the
+minute boundary and lasts under a second. Nothing else on the display needs
+this, because everything else can be pinned or replayed on demand.
+
+`?time=` shifts the clock by whole minutes and keeps the seconds, so the
+boundary is always at :00 of the real clock. The script waits for the page's
+own clock to reach :58.7 and then captures a fast strip across it, landing
+eight or nine frames inside the roll.
+
+```sh
+npm run roll                            # the breeze, at dusk
+npm run roll -- --sky day,rain,heavy    # the wash, and its faster pace
+npm run roll -- --clip .clock-widget    # the whole card rather than the block
+```
+
+It takes the same URL flags as the other browser tools, so the roll can be
+caught at a pinned time or against another host. `?weather=off` is the default:
+photographing the digits should never spend a provider's quota.
+
 ## Where is the surface? `npm run scene`
 
 `scripts/scene-guides.mjs` answers the question the painted cards keep asking:
