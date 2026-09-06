@@ -22,12 +22,13 @@ so travel remains visible between cards. Geometry lives in
 [app/globals.css](../app/globals.css).
 
 The backgrounds are generated raster paintings, with independent lightweight
-SVG props: a lamp, brass gears and pendulum indoors; a small evening
-campfire outside. The shelf and window stay above or beside the
-numbers. Warm beveled numerals and soft contact shadows place the clock on the
-bench. The date is lettered directly over the painted wooden apron; the weather
-headline sits over the ground, with a feathered shade for contrast. Neither has
-a solid text plate. The temperature uses the existing softer Fraunces face.
+SVG props: a lamp, brass gears and pendulum indoors; a small evening campfire
+outside. The shelf and window stay above or beside the numbers. The numerals
+are flat cream ink -- no bevel, no contact shadow, no outline, no glow -- and
+the padding alone stands them on the bench. The date is lettered directly over
+the painted wooden apron; the weather headline sits over the ground, with a
+feathered shade for contrast. Neither has a solid text plate. The clock and
+the temperature share one Fraunces face.
 No plant, precipitation or light filter crosses the text layer.
 
 The exterior sky itself indicates the weather, with no separate weather icon.
