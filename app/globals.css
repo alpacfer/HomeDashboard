@@ -16,14 +16,17 @@ body { color:var(--foreground); font-family:'Space Grotesk',Arial,Helvetica,sans
    it leaves to visit the rest of the dashboard. Being the later positioned
    sibling is what puts it above the surface. See docs/CLOCK.md. */
 /* 2.74em of digits, a .08em gap and the .42em pet. The digits stand on the
-   foreground bench rather than against the painted one behind it: that plank
-   runs from 65.2% to 80.6% of the card, so the glyph baseline is put halfway
-   through its depth, at 72.9%. The padding is what places it. A cell is 1.12em
+   foreground bench rather than against the painted one behind it. That plank
+   is not the band the stylesheet places: `npm run scene` finds its real edges
+   in the composite at 65.7% and 74.5% of the card, and the 80.8% below them is
+   the front lip, not the top. So the glyph baseline goes at 68.1%, near the
+   back of the surface, which is where a thing standing on a table in this
+   perspective has its feet. The padding is what places it. A cell is 1.12em
    tall and centres its face, and the face's own baseline sits (ascent minus
    descent) / 2 below that centre, which for this face is .354em; so the
-   baseline lands .914em below the padding, and .729 * 22vh - .914 * 6.1vw is
-   the 6.15vh below. Independent of the lighting, which never moves the bench. */
-.clock-block { position:relative; flex-shrink:0; height:100%; margin:0; padding-top:6.15vh; --clock-size:6.1vw; --date-base:clamp(12px,1.2vw,24px);
+   baseline lands .914em below the padding, and .681 * 22vh - .914 * 6.1vw is
+   the 5.1vh below. Independent of the lighting, which never moves the bench. */
+.clock-block { position:relative; flex-shrink:0; height:100%; margin:0; padding-top:5.1vh; --clock-size:6.1vw; --date-base:clamp(12px,1.2vw,24px);
   --digit-font:'Clock Grotesk','Space Grotesk',Arial,Helvetica,sans-serif; --digit-weight:700; --digit-scale:1; --digit-var:normal;
   --date-font:'Space Grotesk',Arial,Helvetica,sans-serif; --date-weight:700; --date-size:var(--date-base); --date-space:.14em; --date-tf:uppercase;
   --ink:var(--foreground); --colon:var(--accent); --date-ink:var(--muted); --glow:none; --colon-r:50%; }

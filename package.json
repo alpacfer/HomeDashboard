@@ -24,7 +24,8 @@
     "motion": "node scripts/measure-motion.mjs",
     "probe": "node --import tsx scripts/probe-forecast.mjs",
     "probe:transit": "node --import tsx scripts/probe-transit.mjs",
-    "audit": "node scripts/audit-ui.mjs"
+    "audit": "node scripts/audit-ui.mjs",
+    "scene": "node scripts/scene-guides.mjs"
   },
   "dependencies": {
     "leaflet": "^1.9.4",

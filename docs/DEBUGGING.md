@@ -11,6 +11,7 @@ npm run motion -- [options]   measure whether an animation is smooth or flickeri
 npm run probe                 ask every forecast provider as the browser would
 npm run probe:transit         ask every departure provider as the route would
 npm run audit                 check every scene at 1280 x 720 for layout faults
+npm run scene -- [options]    measure a painted card: its edges, its landmarks, its light
 npm run check:rules           the AGENTS.md rules a script can check
 /?scene=map                   pin the rotating panel (README)
 /?weather=off                 no weather request; placeholder card, ribbon and week
@@ -183,6 +184,46 @@ What it reports:
 It needs the dev server, the same as `npm run shot`, and exits 1 on an error so
 it can gate a change. Run it before reaching for a screenshot after any CSS
 change: it covers every scene and looks at the things eyes skip.
+
+## Where is the surface? `npm run scene`
+
+`scripts/scene-guides.mjs` answers the question the painted cards keep asking:
+where, in this picture, is the thing the live content has to line up with? The
+workshop's bench is drawn twice — flat behind the digits, larger in front of
+them — and the seam reads as one plank to the eye and as nothing at all to the
+stylesheet. Nudging `padding-top` against a PNG is how that gets guessed at.
+
+```sh
+npm run scene -- --offline --time 08:46            # the clock card: table, guide PNG
+npm run scene -- --card weather --offline          # the weather card
+npm run scene -- --sky night,clear --sky dusk,rain # several states, one browser
+npm run scene -- --no-shot --sky night,clear       # the table only
+npm run scene -- --plain                           # the card with nothing drawn on it
+```
+
+It writes two things from one page load:
+
+- **A table.** Every horizontal edge the composited card actually has, found by
+  reading the rendered pixels rather than the source artwork, so the answer
+  includes the second bench plane, the light pass and the weather filter. Then
+  every element that has to meet one — the digits' ink and their baseline, the
+  date, the Tenant's feet, each named group in the prop SVG — in card pixels
+  and in per cent of its height, which is what the rules are written in.
+- **A guide.** `screenshots/scene-<card>.png`: the same card with those
+  landmarks ruled onto it, so a placement is judged against the picture rather
+  than against a number.
+
+It also reports the light — the mean colour of the card and of each third, and
+where the brightest pool in the painting is. That is what the ambient filters
+in [app/clock-workshop.css](../app/clock-workshop.css) are derived from, and
+how the workshop lamp was put over the pool the night plate already paints,
+rather than beside it.
+
+The type and the props are hidden for the reading pass, because ivory digits
+and a lamp's own glow are brighter than anything the painter put in the room
+and would otherwise be the brightest pool in every state. `--with-content`
+reads the composite instead. It needs the dev server, the same as
+`npm run shot`.
 
 ## Why is the weather card muted? `npm run probe`
 

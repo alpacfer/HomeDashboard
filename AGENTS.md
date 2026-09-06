@@ -31,6 +31,7 @@ npm run shot -- --scene map            # screenshot the running display, 1280 x 
 npm run probe                          # ask every forecast provider as the browser would
 npm run probe:transit                  # ask every departure provider as the route would
 npm run audit                          # every scene at 1280 x 720, checked for layout faults
+npm run scene -- --offline             # measure a painted card: edges, landmarks, light
 npm run facts:generate                 # rebuild the calendar from the local cache, seconds
 npm run facts:generate -- --refresh    # re-ask Wikimedia for everything, ~20 minutes
 ```
@@ -82,6 +83,16 @@ screen. In short:
   twitching, and exits non-zero on the latter. **Run it for every change that
   animates something**, alongside the screenshot:
   `npm run motion -- --scene map --demo`.
+- **`npm run scene`** (`scripts/scene-guides.mjs`) measures a painted card
+  instead of squinting at it: every horizontal edge the composite actually has,
+  read back from the rendered pixels, then every landmark that must meet one —
+  the digits' baseline, the date, the Tenant's feet, each prop group — in card
+  pixels and per cent. It writes the same card with those guides ruled onto it,
+  and reports the light: the mean colour of each third and where the brightest
+  pool in the painting is. That is what placed the workshop lamp over the pool
+  the night plate paints, and what the ambient filters are derived from.
+  `--sky` is repeatable and every state goes through one browser. **Reach for
+  it before nudging a number that has to agree with the artwork.**
 - **`npm run probe`** (`scripts/probe-forecast.mjs`) says which forecast
   provider is answering and why the others are not. Run it first when the
   weather card is muted or shows the dot.
