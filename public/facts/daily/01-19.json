@@ -3,6 +3,60 @@
   "dateLabel": "19 January",
   "facts": [
     {
+      "id": "01-19-puzzlejuice",
+      "date": "01-19",
+      "dateLabel": "19 January",
+      "category": "culture",
+      "categoryName": "Culture",
+      "year": 2012,
+      "title": "Puzzlejuice",
+      "body": "Puzzlejuice is a 2012 indie puzzle video game for iOS produced and developed by video game company Sirvo.",
+      "source": {
+        "name": "Wikipedia · Puzzlejuice",
+        "url": "https://en.wikipedia.org/wiki/Puzzlejuice",
+        "calendarUrl": "https://en.wikipedia.org/wiki/January_19",
+        "license": {
+          "name": "CC BY-SA 4.0",
+          "url": "https://creativecommons.org/licenses/by-sa/4.0/"
+        }
+      },
+      "image": {
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/5e/Puzzlejuice_screenshot_1.png/500px-Puzzlejuice_screenshot_1.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "alt": "Puzzlejuice — the video game this anniversary is about.",
+        "credit": "Asher Vollmer",
+        "source": "https://commons.wikimedia.org/wiki/File:Puzzlejuice_screenshot_1.png",
+        "license": "CC BY-SA 3.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0"
+      }
+    },
+    {
+      "id": "01-19-valkyria-revolution",
+      "date": "01-19",
+      "dateLabel": "19 January",
+      "category": "culture",
+      "categoryName": "Culture",
+      "year": 2017,
+      "title": "Valkyria: Azure Revolution",
+      "body": "Vision and published by Sega for the PlayStation 4, PlayStation Vita and Xbox One. It is a spin-off of the Valkyria Chronicles series, set in a different fictional universe.",
+      "source": {
+        "name": "Wikipedia · Valkyria Revolution",
+        "url": "https://en.wikipedia.org/wiki/Valkyria_Revolution",
+        "calendarUrl": "https://en.wikipedia.org/wiki/January_19",
+        "license": {
+          "name": "CC BY-SA 4.0",
+          "url": "https://creativecommons.org/licenses/by-sa/4.0/"
+        }
+      },
+      "image": {
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/61/Valkyria_Azure_Revolution_promotional_models%2C_Tokyo_Game_Show_20160916c.jpg/500px-Valkyria_Azure_Revolution_promotional_models%2C_Tokyo_Game_Show_20160916c.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "alt": "Valkyria: Azure Revolution — the video game this anniversary is about.",
+        "credit": "KniBaron",
+        "source": "https://commons.wikimedia.org/wiki/File:Valkyria_Azure_Revolution_promotional_models,_Tokyo_Game_Show_20160916c.jpg",
+        "license": "CC BY 2.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by/2.0"
+      }
+    },
+    {
       "id": "01-19-jaxa",
       "date": "01-19",
       "dateLabel": "19 January",
@@ -81,60 +135,6 @@
         "source": "https://commons.wikimedia.org/wiki/File:Flag_of_the_Czech_Republic.svg",
         "license": "Public domain",
         "licenseUrl": "https://commons.wikimedia.org/wiki/File:Flag_of_the_Czech_Republic.svg"
-      }
-    },
-    {
-      "id": "01-19-giuseppe-verdi",
-      "date": "01-19",
-      "dateLabel": "19 January",
-      "category": "culture",
-      "categoryName": "Culture",
-      "year": 1853,
-      "title": "Giuseppe Verdi",
-      "body": "Giuseppe Verdi's opera Il trovatore receives its premiere performance in Rome.",
-      "source": {
-        "name": "Wikipedia · Giuseppe Verdi",
-        "url": "https://en.wikipedia.org/wiki/Giuseppe_Verdi",
-        "calendarUrl": "https://en.wikipedia.org/wiki/January_19",
-        "license": {
-          "name": "CC BY-SA 4.0",
-          "url": "https://creativecommons.org/licenses/by-sa/4.0/"
-        }
-      },
-      "image": {
-        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/9a/Giuseppe_Verdi_by_Ferdinand_Mulnier_BW.jpg/500px-Giuseppe_Verdi_by_Ferdinand_Mulnier_BW.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-        "alt": "Picture from the Wikipedia article on Giuseppe Verdi.",
-        "credit": "Ferdinand Mulnier",
-        "source": "https://commons.wikimedia.org/wiki/File:Giuseppe_Verdi_by_Ferdinand_Mulnier_BW.jpg",
-        "license": "Public domain",
-        "licenseUrl": "https://commons.wikimedia.org/wiki/File:Giuseppe_Verdi_by_Ferdinand_Mulnier_BW.jpg"
-      }
-    },
-    {
-      "id": "01-19-georges-claude",
-      "date": "01-19",
-      "dateLabel": "19 January",
-      "category": "science",
-      "categoryName": "Science",
-      "year": 1915,
-      "title": "Georges Claude",
-      "body": "Georges Claude patents the neon discharge tube for use in advertising.",
-      "source": {
-        "name": "Wikipedia · Georges Claude",
-        "url": "https://en.wikipedia.org/wiki/Georges_Claude",
-        "calendarUrl": "https://en.wikipedia.org/wiki/January_19",
-        "license": {
-          "name": "CC BY-SA 4.0",
-          "url": "https://creativecommons.org/licenses/by-sa/4.0/"
-        }
-      },
-      "image": {
-        "src": "https://upload.wikimedia.org/wikipedia/commons/b/b0/Georges_Claude_1926.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
-        "alt": "Picture from the Wikipedia article on Georges Claude.",
-        "credit": "Agence de presse Meurisse",
-        "source": "https://commons.wikimedia.org/wiki/File:Georges_Claude_1926.jpg",
-        "license": "Public domain",
-        "licenseUrl": "https://commons.wikimedia.org/wiki/File:Georges_Claude_1926.jpg"
       }
     }
   ]

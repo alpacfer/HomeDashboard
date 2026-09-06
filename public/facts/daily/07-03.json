@@ -3,6 +3,33 @@
   "dateLabel": "3 July",
   "facts": [
     {
+      "id": "07-03-trine-video-game",
+      "date": "07-03",
+      "dateLabel": "3 July",
+      "category": "culture",
+      "categoryName": "Culture",
+      "year": 2009,
+      "title": "Trine",
+      "body": "Trine is a puzzle-platform video game developed by Frozenbyte and published by Nobilis. The game was originally released for Microsoft Windows in 2009, and has since been ported to Linux, OS X, and game consoles.",
+      "source": {
+        "name": "Wikipedia · Trine (video game)",
+        "url": "https://en.wikipedia.org/wiki/Trine_(video_game)",
+        "calendarUrl": "https://en.wikipedia.org/wiki/July_3",
+        "license": {
+          "name": "CC BY-SA 4.0",
+          "url": "https://creativecommons.org/licenses/by-sa/4.0/"
+        }
+      },
+      "image": {
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/0c/Trine_-_Wizard_Lift.jpg/500px-Trine_-_Wizard_Lift.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "alt": "Trine — the video game this anniversary is about.",
+        "credit": "Trine",
+        "source": "https://commons.wikimedia.org/wiki/File:Trine_-_Wizard_Lift.jpg",
+        "license": "CC BY-SA 3.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0"
+      }
+    },
+    {
       "id": "07-03-david-bowie",
       "date": "07-03",
       "dateLabel": "3 July",
@@ -108,33 +135,6 @@
         "source": "https://commons.wikimedia.org/wiki/File:Pitcairnsatellite.png",
         "license": "Public domain",
         "licenseUrl": "https://commons.wikimedia.org/wiki/File:Pitcairnsatellite.png"
-      }
-    },
-    {
-      "id": "07-03-new-york-tribune",
-      "date": "07-03",
-      "dateLabel": "3 July",
-      "category": "world",
-      "categoryName": "World",
-      "year": 1886,
-      "title": "New-York Tribune",
-      "body": "The New-York Tribune becomes the first newspaper to use a linotype machine, eliminating typesetting by hand.",
-      "source": {
-        "name": "Wikipedia · New-York Tribune",
-        "url": "https://en.wikipedia.org/wiki/New-York_Tribune",
-        "calendarUrl": "https://en.wikipedia.org/wiki/July_3",
-        "license": {
-          "name": "CC BY-SA 4.0",
-          "url": "https://creativecommons.org/licenses/by-sa/4.0/"
-        }
-      },
-      "image": {
-        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f6/Nytrib1864.jpg/500px-Nytrib1864.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-        "alt": "Picture from the Wikipedia article on New-York Tribune.",
-        "credit": "Unknown author",
-        "source": "https://commons.wikimedia.org/wiki/File:Nytrib1864.jpg",
-        "license": "Public domain",
-        "licenseUrl": "https://commons.wikimedia.org/wiki/File:Nytrib1864.jpg"
       }
     }
   ]

@@ -3,6 +3,60 @@
   "dateLabel": "28 September",
   "facts": [
     {
+      "id": "09-28-tetris-game-boy-video-game",
+      "date": "09-28",
+      "dateLabel": "28 September",
+      "category": "culture",
+      "categoryName": "Culture",
+      "year": 1990,
+      "title": "Tetris",
+      "body": "Tetris is a 1989 puzzle video game developed and published by Nintendo for the Game Boy. It is a portable version of Alexey Pajitnov's original Tetris and it was bundled with the North American and European releases of the Game Boy itself.",
+      "source": {
+        "name": "Wikipedia · Tetris (Game Boy video game)",
+        "url": "https://en.wikipedia.org/wiki/Tetris_(Game_Boy_video_game)",
+        "calendarUrl": "https://en.wikipedia.org/wiki/September_28",
+        "license": {
+          "name": "CC BY-SA 4.0",
+          "url": "https://creativecommons.org/licenses/by-sa/4.0/"
+        }
+      },
+      "image": {
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/ed/Game_Boy_with_Tetris_cartridge.jpg/500px-Game_Boy_with_Tetris_cartridge.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "alt": "Tetris — the video game this anniversary is about.",
+        "credit": "Studio Alijn",
+        "source": "https://commons.wikimedia.org/wiki/File:Game_Boy_with_Tetris_cartridge.jpg",
+        "license": "CC0",
+        "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/deed.en"
+      }
+    },
+    {
+      "id": "09-28-disney-speedstorm",
+      "date": "09-28",
+      "dateLabel": "28 September",
+      "category": "culture",
+      "categoryName": "Culture",
+      "year": 2023,
+      "title": "Disney Speedstorm",
+      "body": "Disney Speedstorm is a free-to-play kart racing game developed by Gameloft Barcelona and published by Gameloft. It features various Disney and Pixar characters racing vehicles on tracks themed after the worlds of their films and franchises.",
+      "source": {
+        "name": "Wikipedia · Disney Speedstorm",
+        "url": "https://en.wikipedia.org/wiki/Disney_Speedstorm",
+        "calendarUrl": "https://en.wikipedia.org/wiki/September_28",
+        "license": {
+          "name": "CC BY-SA 4.0",
+          "url": "https://creativecommons.org/licenses/by-sa/4.0/"
+        }
+      },
+      "image": {
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/5a/Disney_Speedstorm_logo.png/500px-Disney_Speedstorm_logo.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "alt": "Disney Speedstorm — the video game this anniversary is about.",
+        "credit": "Gameloft",
+        "source": "https://commons.wikimedia.org/wiki/File:Disney_Speedstorm_logo.png",
+        "license": "Public domain",
+        "licenseUrl": "https://commons.wikimedia.org/wiki/File:Disney_Speedstorm_logo.png"
+      }
+    },
+    {
       "id": "09-28-falcon-1",
       "date": "09-28",
       "dateLabel": "28 September",
@@ -81,60 +135,6 @@
         "source": "https://commons.wikimedia.org/wiki/File:Ariel_Sharon_official_portrait_2001.webp",
         "license": "CC BY-SA 3.0",
         "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0"
-      }
-    },
-    {
-      "id": "09-28-yitzhak-rabin",
-      "date": "09-28",
-      "dateLabel": "28 September",
-      "category": "world",
-      "categoryName": "World",
-      "year": 1995,
-      "title": "Yitzhak Rabin",
-      "body": "Israeli Prime Minister Yitzhak Rabin and PLO Chairman Yasser Arafat sign the Interim Agreement on the West Bank and the Gaza Strip.",
-      "source": {
-        "name": "Wikipedia · Yitzhak Rabin",
-        "url": "https://en.wikipedia.org/wiki/Yitzhak_Rabin",
-        "calendarUrl": "https://en.wikipedia.org/wiki/September_28",
-        "license": {
-          "name": "CC BY-SA 4.0",
-          "url": "https://creativecommons.org/licenses/by-sa/4.0/"
-        }
-      },
-      "image": {
-        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f2/Yitzhak_Rabin_1994_Portrait_%283x4_cropped%29.jpg/500px-Yitzhak_Rabin_1994_Portrait_%283x4_cropped%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-        "alt": "Picture from the Wikipedia article on Yitzhak Rabin.",
-        "credit": "Yaakov Saar",
-        "source": "https://commons.wikimedia.org/wiki/File:Yitzhak_Rabin_1994_Portrait_(3x4_cropped).jpg",
-        "license": "CC BY-SA 3.0",
-        "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0"
-      }
-    },
-    {
-      "id": "09-28-color-television",
-      "date": "09-28",
-      "dateLabel": "28 September",
-      "category": "world",
-      "categoryName": "World",
-      "year": 1951,
-      "title": "Color television",
-      "body": "CBS makes the first color televisions available for sale to the general public, but the product is discontinued less than a month later.",
-      "source": {
-        "name": "Wikipedia · Color television",
-        "url": "https://en.wikipedia.org/wiki/Color_television",
-        "calendarUrl": "https://en.wikipedia.org/wiki/September_28",
-        "license": {
-          "name": "CC BY-SA 4.0",
-          "url": "https://creativecommons.org/licenses/by-sa/4.0/"
-        }
-      },
-      "image": {
-        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/cb/RCA_Victor_Color_TV_ad_featuring_milliner_Lilly_Dach%C3%A9%2C_1959.jpg/500px-RCA_Victor_Color_TV_ad_featuring_milliner_Lilly_Dach%C3%A9%2C_1959.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-        "alt": "Picture from the Wikipedia article on Color television.",
-        "credit": "RCA Victor / Photographer not credited",
-        "source": "https://commons.wikimedia.org/wiki/File:RCA_Victor_Color_TV_ad_featuring_milliner_Lilly_Dach%C3%A9,_1959.jpg",
-        "license": "Public domain",
-        "licenseUrl": "https://commons.wikimedia.org/wiki/File:RCA_Victor_Color_TV_ad_featuring_milliner_Lilly_Dach%C3%A9,_1959.jpg"
       }
     }
   ]

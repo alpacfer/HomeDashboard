@@ -3,6 +3,60 @@
   "dateLabel": "1 June",
   "facts": [
     {
+      "id": "06-01-bubble-ghost",
+      "date": "06-01",
+      "dateLabel": "1 June",
+      "category": "culture",
+      "categoryName": "Culture",
+      "year": 1990,
+      "title": "Bubble Ghost",
+      "body": "Bubble Ghost is a puzzle video game created by Christophe Andréani for the Atari ST in 1987.",
+      "source": {
+        "name": "Wikipedia · Bubble Ghost",
+        "url": "https://en.wikipedia.org/wiki/Bubble_Ghost",
+        "calendarUrl": "https://en.wikipedia.org/wiki/June_1",
+        "license": {
+          "name": "CC BY-SA 4.0",
+          "url": "https://creativecommons.org/licenses/by-sa/4.0/"
+        }
+      },
+      "image": {
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/52/Bubble_ghost_st_hall05.png/500px-Bubble_ghost_st_hall05.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "alt": "Bubble Ghost — the video game this anniversary is about.",
+        "credit": "Christjeudi10",
+        "source": "https://commons.wikimedia.org/wiki/File:Bubble_ghost_st_hall05.png",
+        "license": "CC BY-SA 3.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0"
+      }
+    },
+    {
+      "id": "06-01-altacast",
+      "date": "06-01",
+      "dateLabel": "1 June",
+      "category": "tech",
+      "categoryName": "Tech",
+      "year": 2013,
+      "title": "Edcast",
+      "body": "Altacast (formerly known as Edcast and Oddcast) is a free and open-source audio encoder that can be used to create Internet streams of varying types.",
+      "source": {
+        "name": "Wikipedia · Altacast",
+        "url": "https://en.wikipedia.org/wiki/Altacast",
+        "calendarUrl": "https://en.wikipedia.org/wiki/June_1",
+        "license": {
+          "name": "CC BY-SA 4.0",
+          "url": "https://creativecommons.org/licenses/by-sa/4.0/"
+        }
+      },
+      "image": {
+        "src": "https://upload.wikimedia.org/wikipedia/commons/0/04/Altacast_main_dialog_box.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+        "alt": "Edcast — the software this anniversary is about.",
+        "credit": "Ed Zaleski",
+        "source": "https://commons.wikimedia.org/wiki/File:Altacast_main_dialog_box.png",
+        "license": "GPL",
+        "licenseUrl": "https://www.gnu.org/licenses/gpl.html"
+      }
+    },
+    {
       "id": "06-01-space-shuttle-endeavour",
       "date": "06-01",
       "dateLabel": "1 June",
@@ -27,33 +81,6 @@
         "source": "https://commons.wikimedia.org/wiki/File:STS-123_Dextre%26Kibo_ELM-PS_in_orbit_(cropped).jpg",
         "license": "Public domain",
         "licenseUrl": "https://commons.wikimedia.org/wiki/File:STS-123_Dextre%26Kibo_ELM-PS_in_orbit_(cropped).jpg"
-      }
-    },
-    {
-      "id": "06-01-2008-universal-fire",
-      "date": "06-01",
-      "dateLabel": "1 June",
-      "category": "culture",
-      "categoryName": "Culture",
-      "year": 2008,
-      "title": "2008 Universal Studios fire",
-      "body": "A fire on the back lot of Universal Studios breaks out, destroying the attraction King Kong Encounter and a large archive of master tapes for music and film, the full extent of which was not revealed until 2019.",
-      "source": {
-        "name": "Wikipedia · 2008 Universal Studios fire",
-        "url": "https://en.wikipedia.org/wiki/2008_Universal_Studios_fire",
-        "calendarUrl": "https://en.wikipedia.org/wiki/June_1",
-        "license": {
-          "name": "CC BY-SA 4.0",
-          "url": "https://creativecommons.org/licenses/by-sa/4.0/"
-        }
-      },
-      "image": {
-        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/62/Universal_Fire_Smoke.jpg/500px-Universal_Fire_Smoke.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-        "alt": "Picture from the Wikipedia article on 2008 Universal Studios fire.",
-        "credit": "pinguino k",
-        "source": "https://commons.wikimedia.org/wiki/File:Universal_Fire_Smoke.jpg",
-        "license": "CC BY 2.0",
-        "licenseUrl": "https://creativecommons.org/licenses/by/2.0"
       }
     },
     {
@@ -84,17 +111,17 @@
       }
     },
     {
-      "id": "06-01-heimlich-maneuver",
+      "id": "06-01-2008-universal-fire",
       "date": "06-01",
       "dateLabel": "1 June",
-      "category": "world",
-      "categoryName": "World",
-      "year": 1974,
-      "title": "Heimlich maneuver",
-      "body": "The Heimlich maneuver for rescuing choking victims is published in the journal Emergency Medicine.",
+      "category": "culture",
+      "categoryName": "Culture",
+      "year": 2008,
+      "title": "2008 Universal Studios fire",
+      "body": "A fire on the back lot of Universal Studios breaks out, destroying the attraction King Kong Encounter and a large archive of master tapes for music and film, the full extent of which was not revealed until 2019.",
       "source": {
-        "name": "Wikipedia · Heimlich maneuver",
-        "url": "https://en.wikipedia.org/wiki/Heimlich_maneuver",
+        "name": "Wikipedia · 2008 Universal Studios fire",
+        "url": "https://en.wikipedia.org/wiki/2008_Universal_Studios_fire",
         "calendarUrl": "https://en.wikipedia.org/wiki/June_1",
         "license": {
           "name": "CC BY-SA 4.0",
@@ -102,39 +129,12 @@
         }
       },
       "image": {
-        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/92/Abdominal_thrusts_against_choking_%28cropped%29.jpg/500px-Abdominal_thrusts_against_choking_%28cropped%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-        "alt": "Picture from the Wikipedia article on Heimlich maneuver.",
-        "credit": "US ARMY MEDICAL DEPARTMENT CENTER AND…",
-        "source": "https://commons.wikimedia.org/wiki/File:Abdominal_thrusts_against_choking_(cropped).jpg",
-        "license": "Public domain",
-        "licenseUrl": "https://commons.wikimedia.org/wiki/File:Abdominal_thrusts_against_choking_(cropped).jpg"
-      }
-    },
-    {
-      "id": "06-01-republic-of-south-africa",
-      "date": "06-01",
-      "dateLabel": "1 June",
-      "category": "world",
-      "categoryName": "World",
-      "year": 1994,
-      "title": "South Africa",
-      "body": "Republic of South Africa becomes a republic in the Commonwealth of Nations.",
-      "source": {
-        "name": "Wikipedia · South Africa",
-        "url": "https://en.wikipedia.org/wiki/South_Africa",
-        "calendarUrl": "https://en.wikipedia.org/wiki/June_1",
-        "license": {
-          "name": "CC BY-SA 4.0",
-          "url": "https://creativecommons.org/licenses/by-sa/4.0/"
-        }
-      },
-      "image": {
-        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/af/Flag_of_South_Africa.svg/500px-Flag_of_South_Africa.svg.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-        "alt": "Picture from the Wikipedia article on South Africa.",
-        "credit": "Flag design",
-        "source": "https://commons.wikimedia.org/wiki/File:Flag_of_South_Africa.svg",
-        "license": "Public domain",
-        "licenseUrl": "https://commons.wikimedia.org/wiki/File:Flag_of_South_Africa.svg"
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/62/Universal_Fire_Smoke.jpg/500px-Universal_Fire_Smoke.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "alt": "Picture from the Wikipedia article on 2008 Universal Studios fire.",
+        "credit": "pinguino k",
+        "source": "https://commons.wikimedia.org/wiki/File:Universal_Fire_Smoke.jpg",
+        "license": "CC BY 2.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by/2.0"
       }
     }
   ]

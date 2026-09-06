@@ -3,6 +3,60 @@
   "dateLabel": "11 April",
   "facts": [
     {
+      "id": "04-11-legend-of-grimrock",
+      "date": "04-11",
+      "dateLabel": "11 April",
+      "category": "culture",
+      "categoryName": "Culture",
+      "year": 2012,
+      "title": "Legend of Grimrock",
+      "body": "Legend of Grimrock is a 2012 action role-playing game by Almost Human. The title is a 3D grid-based, real-time dungeon crawler based on the 1987 game Dungeon Master.",
+      "source": {
+        "name": "Wikipedia · Legend of Grimrock",
+        "url": "https://en.wikipedia.org/wiki/Legend_of_Grimrock",
+        "calendarUrl": "https://en.wikipedia.org/wiki/April_11",
+        "license": {
+          "name": "CC BY-SA 4.0",
+          "url": "https://creativecommons.org/licenses/by-sa/4.0/"
+        }
+      },
+      "image": {
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/68/Legend_of_Grimrock_DVD_cover.jpg/500px-Legend_of_Grimrock_DVD_cover.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "alt": "Legend of Grimrock — the video game this anniversary is about.",
+        "credit": "Almost Human",
+        "source": "https://commons.wikimedia.org/wiki/File:Legend_of_Grimrock_DVD_cover.jpg",
+        "license": "CC BY-SA 3.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0"
+      }
+    },
+    {
+      "id": "04-11-the-splatters",
+      "date": "04-11",
+      "dateLabel": "11 April",
+      "category": "culture",
+      "categoryName": "Culture",
+      "year": 2012,
+      "title": "The Splatters",
+      "body": "The Splatters is a physics based puzzle video game for the Xbox 360's Xbox Live Arcade. It was developed by Israeli studio SpikySnail Games and published by Microsoft Studios.",
+      "source": {
+        "name": "Wikipedia · The Splatters",
+        "url": "https://en.wikipedia.org/wiki/The_Splatters",
+        "calendarUrl": "https://en.wikipedia.org/wiki/April_11",
+        "license": {
+          "name": "CC BY-SA 4.0",
+          "url": "https://creativecommons.org/licenses/by-sa/4.0/"
+        }
+      },
+      "image": {
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/54/The_Splatters_01.jpg/500px-The_Splatters_01.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "alt": "The Splatters — the video game this anniversary is about.",
+        "credit": "SpikySnail Games",
+        "source": "https://commons.wikimedia.org/wiki/File:The_Splatters_01.jpg",
+        "license": "CC BY-SA 3.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0"
+      }
+    },
+    {
       "id": "04-11-middlesbrough",
       "date": "04-11",
       "dateLabel": "11 April",
@@ -81,60 +135,6 @@
         "source": "https://commons.wikimedia.org/wiki/File:Shuja_Shah_Durrani_and_Men_in_his_decorated_palace_Wellcome_V0050531.jpg",
         "license": "Public domain",
         "licenseUrl": "https://commons.wikimedia.org/wiki/File:Shuja_Shah_Durrani_and_Men_in_his_decorated_palace_Wellcome_V0050531.jpg"
-      }
-    },
-    {
-      "id": "04-11-adolf-eichmann",
-      "date": "04-11",
-      "dateLabel": "11 April",
-      "category": "world",
-      "categoryName": "World",
-      "year": 1961,
-      "title": "Adolf Eichmann",
-      "body": "The trial of Adolf Eichmann begins in Jerusalem.",
-      "source": {
-        "name": "Wikipedia · Adolf Eichmann",
-        "url": "https://en.wikipedia.org/wiki/Adolf_Eichmann",
-        "calendarUrl": "https://en.wikipedia.org/wiki/April_11",
-        "license": {
-          "name": "CC BY-SA 4.0",
-          "url": "https://creativecommons.org/licenses/by-sa/4.0/"
-        }
-      },
-      "image": {
-        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/2c/Adolf_Eichmann%2C_1942_%28cropped%29.jpg/500px-Adolf_Eichmann%2C_1942_%28cropped%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-        "alt": "Picture from the Wikipedia article on Adolf Eichmann.",
-        "credit": "Author and location unknown",
-        "source": "https://commons.wikimedia.org/wiki/File:Adolf_Eichmann,_1942_(cropped).jpg",
-        "license": "Public domain",
-        "licenseUrl": "https://commons.wikimedia.org/wiki/File:Adolf_Eichmann,_1942_(cropped).jpg"
-      }
-    },
-    {
-      "id": "04-11-self-governance-of-singapore",
-      "date": "04-11",
-      "dateLabel": "11 April",
-      "category": "world",
-      "categoryName": "World",
-      "year": 1957,
-      "title": "Self-governance of Singapore",
-      "body": "United Kingdom agrees to Singaporean self-rule.",
-      "source": {
-        "name": "Wikipedia · Self-governance of Singapore",
-        "url": "https://en.wikipedia.org/wiki/Self-governance_of_Singapore",
-        "calendarUrl": "https://en.wikipedia.org/wiki/April_11",
-        "license": {
-          "name": "CC BY-SA 4.0",
-          "url": "https://creativecommons.org/licenses/by-sa/4.0/"
-        }
-      },
-      "image": {
-        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/44/Plan_of_the_British_settlement_of_Singapore_published_1828.jpg/500px-Plan_of_the_British_settlement_of_Singapore_published_1828.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-        "alt": "Picture from the Wikipedia article on Self-governance of Singapore.",
-        "credit": "John Crawfurd",
-        "source": "https://commons.wikimedia.org/wiki/File:Plan_of_the_British_settlement_of_Singapore_published_1828.jpg",
-        "license": "Public domain",
-        "licenseUrl": "https://commons.wikimedia.org/wiki/File:Plan_of_the_British_settlement_of_Singapore_published_1828.jpg"
       }
     }
   ]

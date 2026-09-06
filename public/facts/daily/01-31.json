@@ -3,6 +3,60 @@
   "dateLabel": "31 January",
   "facts": [
     {
+      "id": "01-31-sonic-all-stars-racing-transformed",
+      "date": "01-31",
+      "dateLabel": "31 January",
+      "category": "culture",
+      "categoryName": "Culture",
+      "year": 2014,
+      "title": "Sonic & All-Stars Racing Transformed",
+      "body": "Sonic & All-Stars Racing Transformed is a kart racing game developed by Sumo Digital and published by Sega.",
+      "source": {
+        "name": "Wikipedia · Sonic & All-Stars Racing Transformed",
+        "url": "https://en.wikipedia.org/wiki/Sonic_%26_All-Stars_Racing_Transformed",
+        "calendarUrl": "https://en.wikipedia.org/wiki/January_31",
+        "license": {
+          "name": "CC BY-SA 4.0",
+          "url": "https://creativecommons.org/licenses/by-sa/4.0/"
+        }
+      },
+      "image": {
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/ef/E3_Expo_2012_-_Sega_Sonic_All-Stars_Racing_Transformed_%287640968408%29.jpg/500px-E3_Expo_2012_-_Sega_Sonic_All-Stars_Racing_Transformed_%287640968408%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "alt": "Sonic & All-Stars Racing Transformed — the video game this anniversary is about.",
+        "credit": "The Conmunity",
+        "source": "https://commons.wikimedia.org/wiki/File:E3_Expo_2012_-_Sega_Sonic_All-Stars_Racing_Transformed_(7640968408).jpg",
+        "license": "CC BY 2.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by/2.0"
+      }
+    },
+    {
+      "id": "01-31-spongebob-squarepants-the-cosmic-shake",
+      "date": "01-31",
+      "dateLabel": "31 January",
+      "category": "culture",
+      "categoryName": "Culture",
+      "year": 2023,
+      "title": "SpongeBob SquarePants: The Cosmic Shake",
+      "body": "The Cosmic Shake is a 2023 platform game developed by Purple Lamp and published by THQ Nordic. The game is based on the Nickelodeon animated series SpongeBob SquarePants.",
+      "source": {
+        "name": "Wikipedia · SpongeBob SquarePants: The Cosmic Shake",
+        "url": "https://en.wikipedia.org/wiki/SpongeBob_SquarePants:_The_Cosmic_Shake",
+        "calendarUrl": "https://en.wikipedia.org/wiki/January_31",
+        "license": {
+          "name": "CC BY-SA 4.0",
+          "url": "https://creativecommons.org/licenses/by-sa/4.0/"
+        }
+      },
+      "image": {
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/fb/Spongebob_Cosmic_Shake_gameplay.jpg/500px-Spongebob_Cosmic_Shake_gameplay.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "alt": "SpongeBob SquarePants: The Cosmic Shake — the video game this anniversary is about.",
+        "credit": "HandyGames",
+        "source": "https://commons.wikimedia.org/wiki/File:Spongebob_Cosmic_Shake_gameplay.jpg",
+        "license": "CC BY 3.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by/3.0"
+      }
+    },
+    {
       "id": "01-31-boeing-747",
       "date": "01-31",
       "dateLabel": "31 January",
@@ -93,60 +147,6 @@
         "source": "https://commons.wikimedia.org/wiki/File:Apollo_14_Shepard.jpg",
         "license": "Public domain",
         "licenseUrl": "https://commons.wikimedia.org/wiki/File:Apollo_14_Shepard.jpg"
-      }
-    },
-    {
-      "id": "01-31-mercury-redstone-2",
-      "date": "01-31",
-      "dateLabel": "31 January",
-      "category": "space",
-      "categoryName": "Space",
-      "year": 1961,
-      "title": "Mercury-Redstone 2",
-      "body": "The chimpanzee Ham travels into outer space.",
-      "source": {
-        "name": "Wikipedia · Mercury-Redstone 2",
-        "url": "https://en.wikipedia.org/wiki/Mercury-Redstone_2",
-        "calendarUrl": "https://en.wikipedia.org/wiki/January_31",
-        "license": {
-          "name": "CC BY-SA 4.0",
-          "url": "https://creativecommons.org/licenses/by-sa/4.0/"
-        }
-      },
-      "image": {
-        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/88/Ham_Launch_-_GPN-2000-001007.jpg/500px-Ham_Launch_-_GPN-2000-001007.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-        "alt": "Picture from the Wikipedia article on Mercury-Redstone 2.",
-        "credit": "NASA",
-        "source": "https://commons.wikimedia.org/wiki/File:Ham_Launch_-_GPN-2000-001007.jpg",
-        "license": "Public domain",
-        "licenseUrl": "https://commons.wikimedia.org/wiki/File:Ham_Launch_-_GPN-2000-001007.jpg"
-      }
-    },
-    {
-      "id": "01-31-explorer-1",
-      "date": "01-31",
-      "dateLabel": "31 January",
-      "category": "space",
-      "categoryName": "Space",
-      "year": 1958,
-      "title": "Explorer 1",
-      "body": "The Explorer 1, the first successful American satellite, detects the Van Allen radiation belt.",
-      "source": {
-        "name": "Wikipedia · Explorer 1",
-        "url": "https://en.wikipedia.org/wiki/Explorer_1",
-        "calendarUrl": "https://en.wikipedia.org/wiki/January_31",
-        "license": {
-          "name": "CC BY-SA 4.0",
-          "url": "https://creativecommons.org/licenses/by-sa/4.0/"
-        }
-      },
-      "image": {
-        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/73/Explorer1.jpg/500px-Explorer1.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-        "alt": "Picture from the Wikipedia article on Explorer 1.",
-        "credit": "NASA",
-        "source": "https://commons.wikimedia.org/wiki/File:Explorer1.jpg",
-        "license": "Public domain",
-        "licenseUrl": "https://commons.wikimedia.org/wiki/File:Explorer1.jpg"
       }
     }
   ]

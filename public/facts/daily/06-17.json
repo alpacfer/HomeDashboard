@@ -30,6 +30,33 @@
       }
     },
     {
+      "id": "06-17-bot-colony",
+      "date": "06-17",
+      "dateLabel": "17 June",
+      "category": "culture",
+      "categoryName": "Culture",
+      "year": 2014,
+      "title": "Bot Colony",
+      "body": "Bot Colony is an episodic adventure game by Montreal developer North Side Inc. In the game, the player uses a natural language parser to converse with robot characters.",
+      "source": {
+        "name": "Wikipedia · Bot Colony",
+        "url": "https://en.wikipedia.org/wiki/Bot_Colony",
+        "calendarUrl": "https://en.wikipedia.org/wiki/June_17",
+        "license": {
+          "name": "CC BY-SA 4.0",
+          "url": "https://creativecommons.org/licenses/by-sa/4.0/"
+        }
+      },
+      "image": {
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/39/Bot_Colony_Gameplay_1_CC.jpg/500px-Bot_Colony_Gameplay_1_CC.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "alt": "Bot Colony — the video game this anniversary is about.",
+        "credit": "and",
+        "source": "https://commons.wikimedia.org/wiki/File:Bot_Colony_Gameplay_1_CC.jpg",
+        "license": "CC BY-SA 3.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0"
+      }
+    },
+    {
       "id": "06-17-united-states-supreme-court",
       "date": "06-17",
       "dateLabel": "17 June",
@@ -108,33 +135,6 @@
         "source": "https://commons.wikimedia.org/wiki/File:Willem_Barents_(1883).png",
         "license": "Public domain",
         "licenseUrl": "https://commons.wikimedia.org/wiki/File:Willem_Barents_(1883).png"
-      }
-    },
-    {
-      "id": "06-17-o-j-simpson",
-      "date": "06-17",
-      "dateLabel": "17 June",
-      "category": "world",
-      "categoryName": "World",
-      "year": 1994,
-      "title": "O. J. Simpson",
-      "body": "Following a televised low-speed highway chase, O. J. Simpson is arrested for the murders of his ex-wife, Nicole Brown Simpson, and her friend Ronald Goldman.",
-      "source": {
-        "name": "Wikipedia · O. J. Simpson",
-        "url": "https://en.wikipedia.org/wiki/O._J._Simpson",
-        "calendarUrl": "https://en.wikipedia.org/wiki/June_17",
-        "license": {
-          "name": "CC BY-SA 4.0",
-          "url": "https://creativecommons.org/licenses/by-sa/4.0/"
-        }
-      },
-      "image": {
-        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c8/O.J._Simpson_1990_%C2%B7_DN-ST-91-03444_crop.JPEG/500px-O.J._Simpson_1990_%C2%B7_DN-ST-91-03444_crop.JPEG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-        "alt": "Picture from the Wikipedia article on O. J. Simpson.",
-        "credit": "Gerald Johnson",
-        "source": "https://commons.wikimedia.org/wiki/File:O.J._Simpson_1990_%C2%B7_DN-ST-91-03444_crop.JPEG",
-        "license": "Public domain",
-        "licenseUrl": "https://commons.wikimedia.org/wiki/File:O.J._Simpson_1990_%C2%B7_DN-ST-91-03444_crop.JPEG"
       }
     }
   ]

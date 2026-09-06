@@ -3,6 +3,33 @@
   "dateLabel": "9 July",
   "facts": [
     {
+      "id": "07-09-ultima-ratio-regum-video-game",
+      "date": "07-09",
+      "dateLabel": "9 July",
+      "category": "culture",
+      "categoryName": "Culture",
+      "year": 2015,
+      "title": "Ultima Ratio Regum",
+      "body": "Ultima Ratio Regum (Latin for 'the last argument of kings') is a roguelike created by Mark R Johnson.",
+      "source": {
+        "name": "Wikipedia · Ultima Ratio Regum (video game)",
+        "url": "https://en.wikipedia.org/wiki/Ultima_Ratio_Regum_(video_game)",
+        "calendarUrl": "https://en.wikipedia.org/wiki/July_9",
+        "license": {
+          "name": "CC BY-SA 4.0",
+          "url": "https://creativecommons.org/licenses/by-sa/4.0/"
+        }
+      },
+      "image": {
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/3e/Screenshot_of_the_Ultima_Ratio_Regum_version_0.7.0._taken_in_2015.png/500px-Screenshot_of_the_Ultima_Ratio_Regum_version_0.7.0._taken_in_2015.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "alt": "Ultima Ratio Regum — the video game this anniversary is about.",
+        "credit": "UltimaRegum",
+        "source": "https://commons.wikimedia.org/wiki/File:Screenshot_of_the_Ultima_Ratio_Regum_version_0.7.0._taken_in_2015.png",
+        "license": "CC BY-SA 3.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0"
+      }
+    },
+    {
       "id": "07-09-braddock-expedition",
       "date": "07-09",
       "dateLabel": "9 July",
@@ -108,33 +135,6 @@
         "source": "https://commons.wikimedia.org/wiki/File:Wimbledon_Championship_1877.jpg",
         "license": "Public domain",
         "licenseUrl": "https://commons.wikimedia.org/wiki/File:Wimbledon_Championship_1877.jpg"
-      }
-    },
-    {
-      "id": "07-09-african-union",
-      "date": "07-09",
-      "dateLabel": "9 July",
-      "category": "world",
-      "categoryName": "World",
-      "year": 2002,
-      "title": "African Union",
-      "body": "The African Union is established in Addis Ababa, Ethiopia, replacing the Organisation of African Unity (OAU). The organization's first chairman is Thabo Mbeki, President of South Africa.",
-      "source": {
-        "name": "Wikipedia · African Union",
-        "url": "https://en.wikipedia.org/wiki/African_Union",
-        "calendarUrl": "https://en.wikipedia.org/wiki/July_9",
-        "license": {
-          "name": "CC BY-SA 4.0",
-          "url": "https://creativecommons.org/licenses/by-sa/4.0/"
-        }
-      },
-      "image": {
-        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/51/Flag_of_the_African_Union.svg/500px-Flag_of_the_African_Union.svg.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-        "alt": "Picture from the Wikipedia article on African Union.",
-        "credit": "African Union",
-        "source": "https://commons.wikimedia.org/wiki/File:Flag_of_the_African_Union.svg",
-        "license": "Public domain",
-        "licenseUrl": "https://commons.wikimedia.org/wiki/File:Flag_of_the_African_Union.svg"
       }
     }
   ]

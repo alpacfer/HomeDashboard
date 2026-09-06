@@ -3,6 +3,33 @@
   "dateLabel": "8 April",
   "facts": [
     {
+      "id": "04-08-soulseek",
+      "date": "04-08",
+      "dateLabel": "8 April",
+      "category": "tech",
+      "categoryName": "Tech",
+      "year": 2001,
+      "title": "Soulseek",
+      "body": "Soulseek is a peer-to-peer (P2P) file sharing network and application. It is known mostly for the exchange of music, though it can be used for other file types as well.",
+      "source": {
+        "name": "Wikipedia · Soulseek",
+        "url": "https://en.wikipedia.org/wiki/Soulseek",
+        "calendarUrl": "https://en.wikipedia.org/wiki/April_8",
+        "license": {
+          "name": "CC BY-SA 4.0",
+          "url": "https://creativecommons.org/licenses/by-sa/4.0/"
+        }
+      },
+      "image": {
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/7e/Soulseek.png/500px-Soulseek.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "alt": "Soulseek — the software this anniversary is about.",
+        "credit": "Ceedub88",
+        "source": "https://commons.wikimedia.org/wiki/File:Soulseek.png",
+        "license": "GPL",
+        "licenseUrl": "https://www.gnu.org/licenses/gpl.html"
+      }
+    },
+    {
       "id": "04-08-solar-eclipse",
       "date": "04-08",
       "dateLabel": "8 April",
@@ -27,33 +54,6 @@
         "source": "https://commons.wikimedia.org/wiki/File:Solar_eclipse_1999_4.jpg",
         "license": "CC BY-SA 3.0",
         "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0/"
-      }
-    },
-    {
-      "id": "04-08-grace-hopper",
-      "date": "04-08",
-      "dateLabel": "8 April",
-      "category": "tech",
-      "categoryName": "Tech",
-      "year": 1959,
-      "title": "Grace Hopper",
-      "body": "A team of computer manufacturers, users, and university people led by Grace Hopper meets to discuss the creation of a new programming language that would be called COBOL.",
-      "source": {
-        "name": "Wikipedia · Grace Hopper",
-        "url": "https://en.wikipedia.org/wiki/Grace_Hopper",
-        "calendarUrl": "https://en.wikipedia.org/wiki/April_8",
-        "license": {
-          "name": "CC BY-SA 4.0",
-          "url": "https://creativecommons.org/licenses/by-sa/4.0/"
-        }
-      },
-      "image": {
-        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/98/Commodore_Grace_M._Hopper%2C_USN_%28covered%29_head_and_shoulders_crop.jpg/500px-Commodore_Grace_M._Hopper%2C_USN_%28covered%29_head_and_shoulders_crop.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-        "alt": "Picture from the Wikipedia article on Grace Hopper.",
-        "credit": "James S. Davis",
-        "source": "https://commons.wikimedia.org/wiki/File:Commodore_Grace_M._Hopper,_USN_(covered)_head_and_shoulders_crop.jpg",
-        "license": "Public domain",
-        "licenseUrl": "https://commons.wikimedia.org/wiki/File:Commodore_Grace_M._Hopper,_USN_(covered)_head_and_shoulders_crop.jpg"
       }
     },
     {
@@ -111,17 +111,17 @@
       }
     },
     {
-      "id": "04-08-solar-eclipse-of-april-8-2005",
+      "id": "04-08-grace-hopper",
       "date": "04-08",
       "dateLabel": "8 April",
-      "category": "space",
-      "categoryName": "Space",
-      "year": 2005,
-      "title": "Solar eclipse of April 8, 2005",
-      "body": "A solar eclipse occurs, visible over areas of the Pacific Ocean and Latin American countries such as Costa Rica, Panama, Colombia and Venezuela.",
+      "category": "tech",
+      "categoryName": "Tech",
+      "year": 1959,
+      "title": "Grace Hopper",
+      "body": "A team of computer manufacturers, users, and university people led by Grace Hopper meets to discuss the creation of a new programming language that would be called COBOL.",
       "source": {
-        "name": "Wikipedia · Solar eclipse of April 8, 2005",
-        "url": "https://en.wikipedia.org/wiki/Solar_eclipse_of_April_8,_2005",
+        "name": "Wikipedia · Grace Hopper",
+        "url": "https://en.wikipedia.org/wiki/Grace_Hopper",
         "calendarUrl": "https://en.wikipedia.org/wiki/April_8",
         "license": {
           "name": "CC BY-SA 4.0",
@@ -129,12 +129,12 @@
         }
       },
       "image": {
-        "src": "https://upload.wikimedia.org/wikipedia/commons/c/c7/Solar_eclipse_at_sunset_%282937676527%29_%28cropped%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
-        "alt": "Picture from the Wikipedia article on Solar eclipse of April 8, 2005.",
-        "credit": "Juan Tello",
-        "source": "https://commons.wikimedia.org/wiki/File:Solar_eclipse_at_sunset_(2937676527)_(cropped).jpg",
-        "license": "CC BY 2.0",
-        "licenseUrl": "https://creativecommons.org/licenses/by/2.0"
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/98/Commodore_Grace_M._Hopper%2C_USN_%28covered%29_head_and_shoulders_crop.jpg/500px-Commodore_Grace_M._Hopper%2C_USN_%28covered%29_head_and_shoulders_crop.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "alt": "Picture from the Wikipedia article on Grace Hopper.",
+        "credit": "James S. Davis",
+        "source": "https://commons.wikimedia.org/wiki/File:Commodore_Grace_M._Hopper,_USN_(covered)_head_and_shoulders_crop.jpg",
+        "license": "Public domain",
+        "licenseUrl": "https://commons.wikimedia.org/wiki/File:Commodore_Grace_M._Hopper,_USN_(covered)_head_and_shoulders_crop.jpg"
       }
     }
   ]

@@ -3,6 +3,60 @@
   "dateLabel": "23 January",
   "facts": [
     {
+      "id": "01-23-secret-maryo-chronicles",
+      "date": "01-23",
+      "dateLabel": "23 January",
+      "category": "culture",
+      "categoryName": "Culture",
+      "year": 2003,
+      "title": "Secret Maryo Chronicles",
+      "body": "Secret Maryo Chronicles is a free and open-source 2D platform game first released in 2003. The game has been described as a Super Mario Bros.",
+      "source": {
+        "name": "Wikipedia · Secret Maryo Chronicles",
+        "url": "https://en.wikipedia.org/wiki/Secret_Maryo_Chronicles",
+        "calendarUrl": "https://en.wikipedia.org/wiki/January_23",
+        "license": {
+          "name": "CC BY-SA 4.0",
+          "url": "https://creativecommons.org/licenses/by-sa/4.0/"
+        }
+      },
+      "image": {
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/da/SMC15PromoShot.png/500px-SMC15PromoShot.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "alt": "Secret Maryo Chronicles — the video game this anniversary is about.",
+        "credit": "Florian Richter and SMC developer team",
+        "source": "https://commons.wikimedia.org/wiki/File:SMC15PromoShot.png",
+        "license": "GPLv3",
+        "licenseUrl": "https://www.gnu.org/licenses/gpl-3.0.html"
+      }
+    },
+    {
+      "id": "01-23-strike-suit-zero",
+      "date": "01-23",
+      "dateLabel": "23 January",
+      "category": "culture",
+      "categoryName": "Culture",
+      "year": 2013,
+      "title": "Strike Suit Zero",
+      "body": "Strike Suit Zero is a space flight combat game developed by Born Ready. Strike Suit Zero seeks to revive the space combat genre by introducing \"strike mode\" as a new element to the dogfight-based gameplay of classic space combat games.",
+      "source": {
+        "name": "Wikipedia · Strike Suit Zero",
+        "url": "https://en.wikipedia.org/wiki/Strike_Suit_Zero",
+        "calendarUrl": "https://en.wikipedia.org/wiki/January_23",
+        "license": {
+          "name": "CC BY-SA 4.0",
+          "url": "https://creativecommons.org/licenses/by-sa/4.0/"
+        }
+      },
+      "image": {
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/49/Strike_Suit_Zero_-_Screenshot_05.jpg/500px-Strike_Suit_Zero_-_Screenshot_05.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "alt": "Strike Suit Zero — the video game this anniversary is about.",
+        "credit": "Born Ready Games",
+        "source": "https://commons.wikimedia.org/wiki/File:Strike_Suit_Zero_-_Screenshot_05.jpg",
+        "license": "CC BY-SA 3.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0"
+      }
+    },
+    {
       "id": "01-23-pioneer-10",
       "date": "01-23",
       "dateLabel": "23 January",
@@ -81,60 +135,6 @@
         "source": "https://commons.wikimedia.org/wiki/File:Israeli_Knesset_Current_Composition.svg",
         "license": "Public domain",
         "licenseUrl": "https://commons.wikimedia.org/wiki/File:Israeli_Knesset_Current_Composition.svg"
-      }
-    },
-    {
-      "id": "01-23-madeleine-albright",
-      "date": "01-23",
-      "dateLabel": "23 January",
-      "category": "world",
-      "categoryName": "World",
-      "year": 1997,
-      "title": "Madeleine Albright",
-      "body": "Madeleine Albright becomes the first woman to serve as United States Secretary of State.",
-      "source": {
-        "name": "Wikipedia · Madeleine Albright",
-        "url": "https://en.wikipedia.org/wiki/Madeleine_Albright",
-        "calendarUrl": "https://en.wikipedia.org/wiki/January_23",
-        "license": {
-          "name": "CC BY-SA 4.0",
-          "url": "https://creativecommons.org/licenses/by-sa/4.0/"
-        }
-      },
-      "image": {
-        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/84/Secalbright.jpg/500px-Secalbright.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-        "alt": "Picture from the Wikipedia article on Madeleine Albright.",
-        "credit": "United States Department of State",
-        "source": "https://commons.wikimedia.org/wiki/File:Secalbright.jpg",
-        "license": "Public domain",
-        "licenseUrl": "https://commons.wikimedia.org/wiki/File:Secalbright.jpg"
-      }
-    },
-    {
-      "id": "01-23-walter-frederick-morrison",
-      "date": "01-23",
-      "dateLabel": "23 January",
-      "category": "world",
-      "categoryName": "World",
-      "year": 1957,
-      "title": "Walter Frederick Morrison",
-      "body": "American inventor Walter Frederick Morrison sells the rights to his flying disc to the Wham-O toy company, which later renames it the \"Frisbee\".",
-      "source": {
-        "name": "Wikipedia · Walter Frederick Morrison",
-        "url": "https://en.wikipedia.org/wiki/Walter_Frederick_Morrison",
-        "calendarUrl": "https://en.wikipedia.org/wiki/January_23",
-        "license": {
-          "name": "CC BY-SA 4.0",
-          "url": "https://creativecommons.org/licenses/by-sa/4.0/"
-        }
-      },
-      "image": {
-        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d1/Walter_Frederick_Morrison.jpg/500px-Walter_Frederick_Morrison.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-        "alt": "Picture from the Wikipedia article on Walter Frederick Morrison.",
-        "credit": "Unknown author",
-        "source": "https://commons.wikimedia.org/wiki/File:Walter_Frederick_Morrison.jpg",
-        "license": "Public domain",
-        "licenseUrl": "https://commons.wikimedia.org/wiki/File:Walter_Frederick_Morrison.jpg"
       }
     }
   ]

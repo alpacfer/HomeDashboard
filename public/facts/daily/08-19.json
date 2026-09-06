@@ -3,6 +3,60 @@
   "dateLabel": "19 August",
   "facts": [
     {
+      "id": "08-19-openarena",
+      "date": "08-19",
+      "dateLabel": "19 August",
+      "category": "culture",
+      "categoryName": "Culture",
+      "year": 2005,
+      "title": "OpenArena",
+      "body": "OpenArena is a free and open-source video game. It is a first-person shooter, and a fork of ioquake which in itself was a fork of Quake III Arena.",
+      "source": {
+        "name": "Wikipedia · OpenArena",
+        "url": "https://en.wikipedia.org/wiki/OpenArena",
+        "calendarUrl": "https://en.wikipedia.org/wiki/August_19",
+        "license": {
+          "name": "CC BY-SA 4.0",
+          "url": "https://creativecommons.org/licenses/by-sa/4.0/"
+        }
+      },
+      "image": {
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/2d/OpenArena-Gargoyle.jpg/500px-OpenArena-Gargoyle.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "alt": "OpenArena — the video game this anniversary is about.",
+        "credit": "Wikimedia Commons",
+        "source": "https://commons.wikimedia.org/wiki/File:OpenArena-Gargoyle.jpg",
+        "license": "GPL",
+        "licenseUrl": "https://www.gnu.org/licenses/gpl.html"
+      }
+    },
+    {
+      "id": "08-19-blocks-that-matter",
+      "date": "08-19",
+      "dateLabel": "19 August",
+      "category": "culture",
+      "categoryName": "Culture",
+      "year": 2011,
+      "title": "Blocks That Matter",
+      "body": "Blocks That Matter is a 2D puzzle-platform game developed by French independent studio Swing Swing Submarine. It was released on August 19, 2011 for Windows, Mac, Linux and Xbox 360.",
+      "source": {
+        "name": "Wikipedia · Blocks That Matter",
+        "url": "https://en.wikipedia.org/wiki/Blocks_That_Matter",
+        "calendarUrl": "https://en.wikipedia.org/wiki/August_19",
+        "license": {
+          "name": "CC BY-SA 4.0",
+          "url": "https://creativecommons.org/licenses/by-sa/4.0/"
+        }
+      },
+      "image": {
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/7f/Niveau_de_Blocks_That_Matter.jpg/500px-Niveau_de_Blocks_That_Matter.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "alt": "Blocks That Matter — the video game this anniversary is about.",
+        "credit": "Swing Submarine",
+        "source": "https://commons.wikimedia.org/wiki/File:Niveau_de_Blocks_That_Matter.jpg",
+        "license": "CC BY-SA 3.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0"
+      }
+    },
+    {
       "id": "08-19-syncom",
       "date": "08-19",
       "dateLabel": "19 August",
@@ -81,60 +135,6 @@
         "source": "https://commons.wikimedia.org/wiki/File:Space_capsule_of_Sputnik-5.JPG",
         "license": "CC BY-SA 3.0",
         "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0"
-      }
-    },
-    {
-      "id": "08-19-iraq-war",
-      "date": "08-19",
-      "dateLabel": "19 August",
-      "category": "world",
-      "categoryName": "World",
-      "year": 2010,
-      "title": "Iraq War",
-      "body": "Operation Iraqi Freedom ends, with the last of the United States brigade combat teams crossing the border to Kuwait.",
-      "source": {
-        "name": "Wikipedia · Iraq War",
-        "url": "https://en.wikipedia.org/wiki/Iraq_War",
-        "calendarUrl": "https://en.wikipedia.org/wiki/August_19",
-        "license": {
-          "name": "CC BY-SA 4.0",
-          "url": "https://creativecommons.org/licenses/by-sa/4.0/"
-        }
-      },
-      "image": {
-        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/80/UStanks_baghdad_2003.JPEG/500px-UStanks_baghdad_2003.JPEG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-        "alt": "Picture from the Wikipedia article on Iraq War.",
-        "credit": "Technical Sergeant John L. Houghton…",
-        "source": "https://commons.wikimedia.org/wiki/File:UStanks_baghdad_2003.JPEG",
-        "license": "Public domain",
-        "licenseUrl": "https://commons.wikimedia.org/wiki/File:UStanks_baghdad_2003.JPEG"
-      }
-    },
-    {
-      "id": "08-19-silvio-santos",
-      "date": "08-19",
-      "dateLabel": "19 August",
-      "category": "world",
-      "categoryName": "World",
-      "year": 1981,
-      "title": "Silvio Santos",
-      "body": "Silvio Santos launches a new Brazilian television channel in São Paulo, Sistema Brasileiro de Televisão.",
-      "source": {
-        "name": "Wikipedia · Silvio Santos",
-        "url": "https://en.wikipedia.org/wiki/Silvio_Santos",
-        "calendarUrl": "https://en.wikipedia.org/wiki/August_19",
-        "license": {
-          "name": "CC BY-SA 4.0",
-          "url": "https://creativecommons.org/licenses/by-sa/4.0/"
-        }
-      },
-      "image": {
-        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/1d/S%C3%ADlvio_Santos_circa_1970%28cropped%29.tiff/lossy-page1-500px-S%C3%ADlvio_Santos_circa_1970%28cropped%29.tiff.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-        "alt": "Picture from the Wikipedia article on Silvio Santos.",
-        "credit": "Unknown",
-        "source": "https://commons.wikimedia.org/wiki/File:S%C3%ADlvio_Santos_circa_1970(cropped).tiff",
-        "license": "Public domain",
-        "licenseUrl": "https://commons.wikimedia.org/wiki/File:S%C3%ADlvio_Santos_circa_1970(cropped).tiff"
       }
     }
   ]

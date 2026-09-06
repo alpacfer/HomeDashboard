@@ -3,6 +3,60 @@
   "dateLabel": "15 April",
   "facts": [
     {
+      "id": "04-15-space-engineers",
+      "date": "04-15",
+      "dateLabel": "15 April",
+      "category": "culture",
+      "categoryName": "Culture",
+      "year": 2020,
+      "title": "Space Engineers",
+      "body": "Space Engineers is a voxel-based sandbox game, developed and published by Czech independent developer Keen Software House. In 2013, the initial developmental release of the game joined the Steam early access program.",
+      "source": {
+        "name": "Wikipedia · Space Engineers",
+        "url": "https://en.wikipedia.org/wiki/Space_Engineers",
+        "calendarUrl": "https://en.wikipedia.org/wiki/April_15",
+        "license": {
+          "name": "CC BY-SA 4.0",
+          "url": "https://creativecommons.org/licenses/by-sa/4.0/"
+        }
+      },
+      "image": {
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/dc/Space_Engineers_1.jpg/500px-Space_Engineers_1.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "alt": "Space Engineers — the video game this anniversary is about.",
+        "credit": "KEEN SWH LTD",
+        "source": "https://commons.wikimedia.org/wiki/File:Space_Engineers_1.jpg",
+        "license": "CC BY-SA 3.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0"
+      }
+    },
+    {
+      "id": "04-15-mortal-kombat-3",
+      "date": "04-15",
+      "dateLabel": "15 April",
+      "category": "culture",
+      "categoryName": "Culture",
+      "year": 1995,
+      "title": "Mortal Kombat 3",
+      "body": "Mortal Kombat 3 is a 1995 fighting game developed and published by Midway for arcades. It was later ported to several home systems, including the Sega Genesis, Super Nintendo Entertainment System, Game Boy and PlayStation.",
+      "source": {
+        "name": "Wikipedia · Mortal Kombat 3",
+        "url": "https://en.wikipedia.org/wiki/Mortal_Kombat_3",
+        "calendarUrl": "https://en.wikipedia.org/wiki/April_15",
+        "license": {
+          "name": "CC BY-SA 4.0",
+          "url": "https://creativecommons.org/licenses/by-sa/4.0/"
+        }
+      },
+      "image": {
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/68/MortalKombat3ScreenshotGamescom.png/500px-MortalKombat3ScreenshotGamescom.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "alt": "Mortal Kombat 3 — the video game this anniversary is about.",
+        "credit": "w:Midway Games",
+        "source": "https://commons.wikimedia.org/wiki/File:MortalKombat3ScreenshotGamescom.png",
+        "license": "CC BY 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by/4.0"
+      }
+    },
+    {
       "id": "04-15-jackie-robinson",
       "date": "04-15",
       "dateLabel": "15 April",
@@ -81,60 +135,6 @@
         "source": "https://commons.wikimedia.org/wiki/File:Notre-Dame_de_Paris,_4_October_2017.jpg",
         "license": "CC0",
         "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/deed.en"
-      }
-    },
-    {
-      "id": "04-15-marrakesh-agreement",
-      "date": "04-15",
-      "dateLabel": "15 April",
-      "category": "world",
-      "categoryName": "World",
-      "year": 1994,
-      "title": "Marrakesh Agreement",
-      "body": "Marrakesh Agreement relating to foundation of World Trade Organization is adopted.",
-      "source": {
-        "name": "Wikipedia · Marrakesh Agreement",
-        "url": "https://en.wikipedia.org/wiki/Marrakesh_Agreement",
-        "calendarUrl": "https://en.wikipedia.org/wiki/April_15",
-        "license": {
-          "name": "CC BY-SA 4.0",
-          "url": "https://creativecommons.org/licenses/by-sa/4.0/"
-        }
-      },
-      "image": {
-        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f4/Marrakesh_Agreement_April_1994_%289305978663%29.jpg/500px-Marrakesh_Agreement_April_1994_%289305978663%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-        "alt": "Picture from the Wikipedia article on Marrakesh Agreement.",
-        "credit": "World Trade Organization",
-        "source": "https://commons.wikimedia.org/wiki/File:Marrakesh_Agreement_April_1994_(9305978663).jpg",
-        "license": "CC BY-SA 2.0",
-        "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0"
-      }
-    },
-    {
-      "id": "04-15-hu-yaobang",
-      "date": "04-15",
-      "dateLabel": "15 April",
-      "category": "world",
-      "categoryName": "World",
-      "year": 1989,
-      "title": "Hu Yaobang",
-      "body": "Upon Hu Yaobang's death, the Tiananmen Square protests of 1989 begin in China.",
-      "source": {
-        "name": "Wikipedia · Hu Yaobang",
-        "url": "https://en.wikipedia.org/wiki/Hu_Yaobang",
-        "calendarUrl": "https://en.wikipedia.org/wiki/April_15",
-        "license": {
-          "name": "CC BY-SA 4.0",
-          "url": "https://creativecommons.org/licenses/by-sa/4.0/"
-        }
-      },
-      "image": {
-        "src": "https://upload.wikimedia.org/wikipedia/commons/d/d6/Hu_Yaobang_and_Nilde_Iotti_%287%29_%284to3%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
-        "alt": "Picture from the Wikipedia article on Hu Yaobang.",
-        "credit": "dati.camera.it",
-        "source": "https://commons.wikimedia.org/wiki/File:Hu_Yaobang_and_Nilde_Iotti_(7)_(4to3).jpg",
-        "license": "CC BY-SA 4.0",
-        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0"
       }
     }
   ]

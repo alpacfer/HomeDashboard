@@ -3,6 +3,60 @@
   "dateLabel": "16 December",
   "facts": [
     {
+      "id": "12-16-furcadia",
+      "date": "12-16",
+      "dateLabel": "16 December",
+      "category": "culture",
+      "categoryName": "Culture",
+      "year": 1996,
+      "title": "Furcadia",
+      "body": "Furcadia is a free-to-play MMOSG/MMORPG or graphical MUD, set in a fantasy world inhabited by magical creatures. The game is based on user-created content with emphasis on world building tools, exploring, socializing, and free-form roleplaying.",
+      "source": {
+        "name": "Wikipedia · Furcadia",
+        "url": "https://en.wikipedia.org/wiki/Furcadia",
+        "calendarUrl": "https://en.wikipedia.org/wiki/December_16",
+        "license": {
+          "name": "CC BY-SA 4.0",
+          "url": "https://creativecommons.org/licenses/by-sa/4.0/"
+        }
+      },
+      "image": {
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/99/FurcShot2007.png/500px-FurcShot2007.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "alt": "Furcadia — the video game this anniversary is about.",
+        "credit": "Sanct at en.wikipedia",
+        "source": "https://commons.wikimedia.org/wiki/File:FurcShot2007.png",
+        "license": "CC BY-SA 3.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0/"
+      }
+    },
+    {
+      "id": "12-16-dance-dance-revolution-solo-2000",
+      "date": "12-16",
+      "dateLabel": "16 December",
+      "category": "culture",
+      "categoryName": "Culture",
+      "year": 1999,
+      "title": "Dance Dance Revolution Solo 2000",
+      "body": "Dance Dance Revolution Solo is a series of games spun off of the main Dance Dance Revolution series. It consists of three arcade releases in Japan.",
+      "source": {
+        "name": "Wikipedia · Dance Dance Revolution Solo",
+        "url": "https://en.wikipedia.org/wiki/Dance_Dance_Revolution_Solo",
+        "calendarUrl": "https://en.wikipedia.org/wiki/December_16",
+        "license": {
+          "name": "CC BY-SA 4.0",
+          "url": "https://creativecommons.org/licenses/by-sa/4.0/"
+        }
+      },
+      "image": {
+        "src": "https://upload.wikimedia.org/wikipedia/commons/e/e5/Dance_Dance_Revolution_Solo_2000_arcade_machine.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+        "alt": "Dance Dance Revolution Solo 2000 — the video game this anniversary is about.",
+        "credit": "Poiuyt Man",
+        "source": "https://commons.wikimedia.org/wiki/File:Dance_Dance_Revolution_Solo_2000_arcade_machine.jpg",
+        "license": "Public domain",
+        "licenseUrl": "https://commons.wikimedia.org/wiki/File:Dance_Dance_Revolution_Solo_2000_arcade_machine.jpg"
+      }
+    },
+    {
       "id": "12-16-alhambra-decree",
       "date": "12-16",
       "dateLabel": "16 December",
@@ -81,60 +135,6 @@
         "source": "https://commons.wikimedia.org/wiki/File:NMSZBig.gif",
         "license": "Public domain",
         "licenseUrl": "https://commons.wikimedia.org/wiki/File:NMSZBig.gif"
-      }
-    },
-    {
-      "id": "12-16-constitution-of-bangladesh",
-      "date": "12-16",
-      "dateLabel": "16 December",
-      "category": "world",
-      "categoryName": "World",
-      "year": 1972,
-      "title": "Constitution of Bangladesh",
-      "body": "The Constitution of the People's Republic of Bangladesh is enacted.",
-      "source": {
-        "name": "Wikipedia · Constitution of Bangladesh",
-        "url": "https://en.wikipedia.org/wiki/Constitution_of_Bangladesh",
-        "calendarUrl": "https://en.wikipedia.org/wiki/December_16",
-        "license": {
-          "name": "CC BY-SA 4.0",
-          "url": "https://creativecommons.org/licenses/by-sa/4.0/"
-        }
-      },
-      "image": {
-        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/5b/%E0%A6%AC%E0%A6%BE%E0%A6%82%E0%A6%B2%E0%A6%BE%E0%A6%A6%E0%A7%87%E0%A6%B6%E0%A7%87%E0%A6%B0_%E0%A6%B8%E0%A6%82%E0%A6%AC%E0%A6%BF%E0%A6%A7%E0%A6%BE%E0%A6%A8_%E0%A7%A7%E0%A7%AF%E0%A7%AD%E0%A7%A8_%28%E0%A6%AA%E0%A7%83%E0%A6%B7%E0%A7%8D%E0%A6%A0%E0%A6%BE_%E0%A7%A7%29.jpg/500px-%E0%A6%AC%E0%A6%BE%E0%A6%82%E0%A6%B2%E0%A6%BE%E0%A6%A6%E0%A7%87%E0%A6%B6%E0%A7%87%E0%A6%B0_%E0%A6%B8%E0%A6%82%E0%A6%AC%E0%A6%BF%E0%A6%A7%E0%A6%BE%E0%A6%A8_%E0%A7%A7%E0%A7%AF%E0%A7%AD%E0%A7%A8_%28%E0%A6%AA%E0%A7%83%E0%A6%B7%E0%A7%8D%E0%A6%A0%E0%A6%BE_%E0%A7%A7%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-        "alt": "Picture from the Wikipedia article on Constitution of Bangladesh.",
-        "credit": "Bangladesh Government/বাংলাদেশ সরকার",
-        "source": "https://commons.wikimedia.org/wiki/File:%E0%A6%AC%E0%A6%BE%E0%A6%82%E0%A6%B2%E0%A6%BE%E0%A6%A6%E0%A7%87%E0%A6%B6%E0%A7%87%E0%A6%B0_%E0%A6%B8%E0%A6%82%E0%A6%AC%E0%A6%BF%E0%A6%A7%E0%A6%BE%E0%A6%A8_%E0%A7%A7%E0%A7%AF%E0%A7%AD%E0%A7%A8_(%E0%A6%AA%E0%A7%83%E0%A6%B7%E0%A7%8D%E0%A6%A0%E0%A6%BE_%E0%A7%A7).jpg",
-        "license": "EdictGov-Bangladesh",
-        "licenseUrl": "https://commons.wikimedia.org/wiki/File:%E0%A6%AC%E0%A6%BE%E0%A6%82%E0%A6%B2%E0%A6%BE%E0%A6%A6%E0%A7%87%E0%A6%B6%E0%A7%87%E0%A6%B0_%E0%A6%B8%E0%A6%82%E0%A6%AC%E0%A6%BF%E0%A6%A7%E0%A6%BE%E0%A6%A8_%E0%A7%A7%E0%A7%AF%E0%A7%AD%E0%A7%A8_(%E0%A6%AA%E0%A7%83%E0%A6%B7%E0%A7%8D%E0%A6%A0%E0%A6%BE_%E0%A7%A7).jpg"
-      }
-    },
-    {
-      "id": "12-16-timi-oara",
-      "date": "12-16",
-      "dateLabel": "16 December",
-      "category": "world",
-      "categoryName": "World",
-      "year": 1989,
-      "title": "Timișoara",
-      "body": "Protests break out in Timișoara, Romania, in response to an attempt by the government to evict dissident Hungarian pastor László Tőkés.",
-      "source": {
-        "name": "Wikipedia · Timișoara",
-        "url": "https://en.wikipedia.org/wiki/Timi%C8%99oara",
-        "calendarUrl": "https://en.wikipedia.org/wiki/December_16",
-        "license": {
-          "name": "CC BY-SA 4.0",
-          "url": "https://creativecommons.org/licenses/by-sa/4.0/"
-        }
-      },
-      "image": {
-        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/ef/Pia%C8%9Ba_Victoriei_Timi%C8%99oara.jpg/500px-Pia%C8%9Ba_Victoriei_Timi%C8%99oara.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-        "alt": "Picture from the Wikipedia article on Timișoara.",
-        "credit": "Marius Catalin Boldeanu",
-        "source": "https://commons.wikimedia.org/wiki/File:Pia%C8%9Ba_Victoriei_Timi%C8%99oara.jpg",
-        "license": "CC BY-SA 4.0",
-        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0"
       }
     }
   ]

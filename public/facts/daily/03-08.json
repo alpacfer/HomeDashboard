@@ -3,6 +3,60 @@
   "dateLabel": "8 March",
   "facts": [
     {
+      "id": "03-08-driver-san-francisco",
+      "date": "03-08",
+      "dateLabel": "8 March",
+      "category": "culture",
+      "categoryName": "Culture",
+      "year": 2012,
+      "title": "Driver: San Francisco",
+      "body": "San Francisco is a 2011 action-adventure driving video game developed by Ubisoft Reflections and published by Ubisoft. It is the fifth main installment in the Driver series, following Driver: Parallel Lines (2006), and its most recent main installment to date.",
+      "source": {
+        "name": "Wikipedia · Driver: San Francisco",
+        "url": "https://en.wikipedia.org/wiki/Driver:_San_Francisco",
+        "calendarUrl": "https://en.wikipedia.org/wiki/March_8",
+        "license": {
+          "name": "CC BY-SA 4.0",
+          "url": "https://creativecommons.org/licenses/by-sa/4.0/"
+        }
+      },
+      "image": {
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/06/E3_2011_-_Driver_San_Francisco_Dodge_Challenger_%28Ubisoft%29_%285831103758%29.jpg/500px-E3_2011_-_Driver_San_Francisco_Dodge_Challenger_%28Ubisoft%29_%285831103758%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "alt": "Driver: San Francisco — the video game this anniversary is about.",
+        "credit": "The Conmunity",
+        "source": "https://commons.wikimedia.org/wiki/File:E3_2011_-_Driver_San_Francisco_Dodge_Challenger_(Ubisoft)_(5831103758).jpg",
+        "license": "CC BY 2.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by/2.0"
+      }
+    },
+    {
+      "id": "03-08-svenskt-kvinnobiografiskt-lexikon",
+      "date": "03-08",
+      "dateLabel": "8 March",
+      "category": "tech",
+      "categoryName": "Tech",
+      "year": 2018,
+      "title": "Svenskt kvinnobiografiskt lexikon",
+      "body": "Svenskt kvinnobiografiskt lexikon (SKBL), known in English as Biographical Dictionary of Swedish Women, is a Swedish biographical dictionary of Swedish women.",
+      "source": {
+        "name": "Wikipedia · Svenskt kvinnobiografiskt lexikon",
+        "url": "https://en.wikipedia.org/wiki/Svenskt_kvinnobiografiskt_lexikon",
+        "calendarUrl": "https://en.wikipedia.org/wiki/March_8",
+        "license": {
+          "name": "CC BY-SA 4.0",
+          "url": "https://creativecommons.org/licenses/by-sa/4.0/"
+        }
+      },
+      "image": {
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/63/Svenskt_kvinnobiografiskt_lexikon%2C_presentation_%28PICT1117%29.jpg/500px-Svenskt_kvinnobiografiskt_lexikon%2C_presentation_%28PICT1117%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "alt": "Svenskt kvinnobiografiskt lexikon — the website this anniversary is about.",
+        "credit": "Per A.J. Andersson",
+        "source": "https://commons.wikimedia.org/wiki/File:Svenskt_kvinnobiografiskt_lexikon,_presentation_(PICT1117).jpg",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0"
+      }
+    },
+    {
       "id": "03-08-voyager-1",
       "date": "03-08",
       "dateLabel": "8 March",
@@ -81,60 +135,6 @@
         "source": "https://commons.wikimedia.org/wiki/File:2025_Prinses_Irenestraat_59,_Asd_(D).jpg",
         "license": "CC0",
         "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/deed.en"
-      }
-    },
-    {
-      "id": "03-08-aviatrix",
-      "date": "03-08",
-      "dateLabel": "8 March",
-      "category": "world",
-      "categoryName": "World",
-      "year": 1910,
-      "title": "Aircraft pilot",
-      "body": "French aviatrix Raymonde de Laroche becomes the first woman to receive a pilot's license.",
-      "source": {
-        "name": "Wikipedia · Aircraft pilot",
-        "url": "https://en.wikipedia.org/wiki/Aircraft_pilot",
-        "calendarUrl": "https://en.wikipedia.org/wiki/March_8",
-        "license": {
-          "name": "CC BY-SA 4.0",
-          "url": "https://creativecommons.org/licenses/by-sa/4.0/"
-        }
-      },
-      "image": {
-        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/38/Lt_Mike_Hunter_1.jpg/500px-Lt_Mike_Hunter_1.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-        "alt": "Picture from the Wikipedia article on Aircraft pilot.",
-        "credit": "Alfred T. Palmer",
-        "source": "https://commons.wikimedia.org/wiki/File:Lt_Mike_Hunter_1.jpg",
-        "license": "Public domain",
-        "licenseUrl": "https://commons.wikimedia.org/wiki/File:Lt_Mike_Hunter_1.jpg"
-      }
-    },
-    {
-      "id": "03-08-azure-window",
-      "date": "03-08",
-      "dateLabel": "8 March",
-      "category": "world",
-      "categoryName": "World",
-      "year": 2017,
-      "title": "Azure Window",
-      "body": "The Azure Window, a natural arch on the Maltese island of Gozo, collapses in stormy weather.",
-      "source": {
-        "name": "Wikipedia · Azure Window",
-        "url": "https://en.wikipedia.org/wiki/Azure_Window",
-        "calendarUrl": "https://en.wikipedia.org/wiki/March_8",
-        "license": {
-          "name": "CC BY-SA 4.0",
-          "url": "https://creativecommons.org/licenses/by-sa/4.0/"
-        }
-      },
-      "image": {
-        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/19/Malta_Gozo%2C_Azure_Window_%2810264176345%29.jpg/500px-Malta_Gozo%2C_Azure_Window_%2810264176345%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-        "alt": "Picture from the Wikipedia article on Azure Window.",
-        "credit": "Berit Watkin from Redhill/Surrey, UK",
-        "source": "https://commons.wikimedia.org/wiki/File:Malta_Gozo,_Azure_Window_(10264176345).jpg",
-        "license": "CC BY 2.0",
-        "licenseUrl": "https://creativecommons.org/licenses/by/2.0"
       }
     }
   ]

@@ -3,6 +3,60 @@
   "dateLabel": "18 January",
   "facts": [
     {
+      "id": "01-18-ace-combat-7-skies-unknown",
+      "date": "01-18",
+      "dateLabel": "18 January",
+      "category": "culture",
+      "categoryName": "Culture",
+      "year": 2019,
+      "title": "Ace Combat 7: Skies Unknown",
+      "body": "Skies Unknown is a 2019 combat flight simulation game released by Bandai Namco Entertainment.",
+      "source": {
+        "name": "Wikipedia · Ace Combat 7: Skies Unknown",
+        "url": "https://en.wikipedia.org/wiki/Ace_Combat_7:_Skies_Unknown",
+        "calendarUrl": "https://en.wikipedia.org/wiki/January_18",
+        "license": {
+          "name": "CC BY-SA 4.0",
+          "url": "https://creativecommons.org/licenses/by-sa/4.0/"
+        }
+      },
+      "image": {
+        "src": "https://upload.wikimedia.org/wikipedia/commons/6/66/ACE_COMBAT_7_SKIES_UNKNOWN_cover_art.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+        "alt": "Ace Combat 7: Skies Unknown — the video game this anniversary is about.",
+        "credit": "Bandai Namco Entertainment America",
+        "source": "https://commons.wikimedia.org/wiki/File:ACE_COMBAT_7_SKIES_UNKNOWN_cover_art.png",
+        "license": "CC BY 3.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by/3.0"
+      }
+    },
+    {
+      "id": "01-18-sublime-text",
+      "date": "01-18",
+      "dateLabel": "18 January",
+      "category": "tech",
+      "categoryName": "Tech",
+      "year": 2008,
+      "title": "Sublime Text",
+      "body": "Sublime Text is a text and source code editor featuring a minimal interface, syntax highlighting and code folding with native support for numerous programming and markup languages, search and replace with support for regular expressions, an integrated terminal/console window, and customizable themes.",
+      "source": {
+        "name": "Wikipedia · Sublime Text",
+        "url": "https://en.wikipedia.org/wiki/Sublime_Text",
+        "calendarUrl": "https://en.wikipedia.org/wiki/January_18",
+        "license": {
+          "name": "CC BY-SA 4.0",
+          "url": "https://creativecommons.org/licenses/by-sa/4.0/"
+        }
+      },
+      "image": {
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/cf/Sublime_text_mxunit.png/500px-Sublime_text_mxunit.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "alt": "Sublime Text — the application this anniversary is about.",
+        "credit": "Doggum",
+        "source": "https://commons.wikimedia.org/wiki/File:Sublime_text_mxunit.png",
+        "license": "CC BY-SA 3.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0"
+      }
+    },
+    {
       "id": "01-18-airbus-a380",
       "date": "01-18",
       "dateLabel": "18 January",
@@ -57,33 +111,6 @@
       }
     },
     {
-      "id": "01-18-euphronios-krater",
-      "date": "01-18",
-      "dateLabel": "18 January",
-      "category": "culture",
-      "categoryName": "Culture",
-      "year": 2008,
-      "title": "Euphronios Krater",
-      "body": "The Euphronios Krater is unveiled in Rome after being returned to Italy by the Metropolitan Museum of Art.",
-      "source": {
-        "name": "Wikipedia · Euphronios Krater",
-        "url": "https://en.wikipedia.org/wiki/Euphronios_Krater",
-        "calendarUrl": "https://en.wikipedia.org/wiki/January_18",
-        "license": {
-          "name": "CC BY-SA 4.0",
-          "url": "https://creativecommons.org/licenses/by-sa/4.0/"
-        }
-      },
-      "image": {
-        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/45/Eufronio%2C_cratere_modellato_da_euxitheos_con_morte_di_sarpedone%2C_520-510_ac_ca.%2C_dalla_necropoli_di_greppe_sant%27angelo_01.jpg/500px-Eufronio%2C_cratere_modellato_da_euxitheos_con_morte_di_sarpedone%2C_520-510_ac_ca.%2C_dalla_necropoli_di_greppe_sant%27angelo_01.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-        "alt": "Picture from the Wikipedia article on Euphronios Krater.",
-        "credit": "Sailko",
-        "source": "https://commons.wikimedia.org/wiki/File:Eufronio,_cratere_modellato_da_euxitheos_con_morte_di_sarpedone,_520-510_ac_ca.,_dalla_necropoli_di_greppe_sant%27angelo_01.jpg",
-        "license": "CC BY 3.0",
-        "licenseUrl": "https://creativecommons.org/licenses/by/3.0"
-      }
-    },
-    {
       "id": "01-18-martin-luther-king-jr-day",
       "date": "01-18",
       "dateLabel": "18 January",
@@ -108,33 +135,6 @@
         "source": "https://commons.wikimedia.org/wiki/File:Martin_Luther_King_press_conference_01269u_edit.jpg",
         "license": "Public domain",
         "licenseUrl": "https://commons.wikimedia.org/wiki/File:Martin_Luther_King_press_conference_01269u_edit.jpg"
-      }
-    },
-    {
-      "id": "01-18-x-ray",
-      "date": "01-18",
-      "dateLabel": "18 January",
-      "category": "science",
-      "categoryName": "Science",
-      "year": 1896,
-      "title": "X-ray",
-      "body": "An X-ray generating machine is exhibited for the first time by H. L. Smith.",
-      "source": {
-        "name": "Wikipedia · X-ray",
-        "url": "https://en.wikipedia.org/wiki/X-ray",
-        "calendarUrl": "https://en.wikipedia.org/wiki/January_18",
-        "license": {
-          "name": "CC BY-SA 4.0",
-          "url": "https://creativecommons.org/licenses/by-sa/4.0/"
-        }
-      },
-      "image": {
-        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/9a/Color_X-ray_photogram.jpg/500px-Color_X-ray_photogram.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-        "alt": "Picture from the Wikipedia article on X-ray.",
-        "credit": "NickSpiker",
-        "source": "https://commons.wikimedia.org/wiki/File:Color_X-ray_photogram.jpg",
-        "license": "CC BY-SA 4.0",
-        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0"
       }
     }
   ]

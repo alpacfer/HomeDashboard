@@ -3,6 +3,60 @@
   "dateLabel": "4 August",
   "facts": [
     {
+      "id": "08-04-dragon-ball-fusions",
+      "date": "08-04",
+      "dateLabel": "4 August",
+      "category": "culture",
+      "categoryName": "Culture",
+      "year": 2016,
+      "title": "Dragon Ball Fusions",
+      "body": "Dragon Ball Fusions is a role-playing video game for the Nintendo 3DS, based on the Dragon Ball franchise. It was released in Japan on August 4, 2016 with a localized version being released in North America on November 22, 2016.",
+      "source": {
+        "name": "Wikipedia · Dragon Ball Fusions",
+        "url": "https://en.wikipedia.org/wiki/Dragon_Ball_Fusions",
+        "calendarUrl": "https://en.wikipedia.org/wiki/August_4",
+        "license": {
+          "name": "CC BY-SA 4.0",
+          "url": "https://creativecommons.org/licenses/by-sa/4.0/"
+        }
+      },
+      "image": {
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/db/Dragon_Ball_Fusions_-_Personatges.png/500px-Dragon_Ball_Fusions_-_Personatges.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "alt": "Dragon Ball Fusions — the video game this anniversary is about.",
+        "credit": "Bandai Namco Entertainment America",
+        "source": "https://commons.wikimedia.org/wiki/File:Dragon_Ball_Fusions_-_Personatges.png",
+        "license": "CC BY 3.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by/3.0"
+      }
+    },
+    {
+      "id": "08-04-actualite-cd",
+      "date": "08-04",
+      "dateLabel": "4 August",
+      "category": "tech",
+      "categoryName": "Tech",
+      "year": 2016,
+      "title": "actualite.cd",
+      "body": "cd is a Congolese media website specializing in political, security and economic information. It was launched in 2016 as part of Groupe Next Corp.",
+      "source": {
+        "name": "Wikipedia · Actualite.cd",
+        "url": "https://en.wikipedia.org/wiki/Actualite.cd",
+        "calendarUrl": "https://en.wikipedia.org/wiki/August_4",
+        "license": {
+          "name": "CC BY-SA 4.0",
+          "url": "https://creativecommons.org/licenses/by-sa/4.0/"
+        }
+      },
+      "image": {
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/ad/ActualiteCD_Logo.png/500px-ActualiteCD_Logo.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "alt": "actualite.cd — the website this anniversary is about.",
+        "credit": "CPGLCONGO",
+        "source": "https://commons.wikimedia.org/wiki/File:ActualiteCD_Logo.png",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0"
+      }
+    },
+    {
       "id": "08-04-republic-of-upper-volta",
       "date": "08-04",
       "dateLabel": "4 August",
@@ -81,60 +135,6 @@
         "source": "https://commons.wikimedia.org/wiki/File:Seal_of_the_Federal_Communications_Commission.svg",
         "license": "Public domain",
         "licenseUrl": "https://commons.wikimedia.org/wiki/File:Seal_of_the_Federal_Communications_Commission.svg"
-      }
-    },
-    {
-      "id": "08-04-the-saturday-evening-post",
-      "date": "08-04",
-      "dateLabel": "4 August",
-      "category": "world",
-      "categoryName": "World",
-      "year": 1821,
-      "title": "The Saturday Evening Post",
-      "body": "The Saturday Evening Post is published for the first time as a weekly newspaper.",
-      "source": {
-        "name": "Wikipedia · The Saturday Evening Post",
-        "url": "https://en.wikipedia.org/wiki/The_Saturday_Evening_Post",
-        "calendarUrl": "https://en.wikipedia.org/wiki/August_4",
-        "license": {
-          "name": "CC BY-SA 4.0",
-          "url": "https://creativecommons.org/licenses/by-sa/4.0/"
-        }
-      },
-      "image": {
-        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/ed/Saturday_evening_post_1903_11_28_a.jpg/500px-Saturday_evening_post_1903_11_28_a.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-        "alt": "Picture from the Wikipedia article on The Saturday Evening Post.",
-        "credit": "George Fort Gibbs",
-        "source": "https://commons.wikimedia.org/wiki/File:Saturday_evening_post_1903_11_28_a.jpg",
-        "license": "Public domain",
-        "licenseUrl": "https://commons.wikimedia.org/wiki/File:Saturday_evening_post_1903_11_28_a.jpg"
-      }
-    },
-    {
-      "id": "08-04-president-of-uganda",
-      "date": "08-04",
-      "dateLabel": "4 August",
-      "category": "world",
-      "categoryName": "World",
-      "year": 1972,
-      "title": "President of Uganda",
-      "body": "Ugandan President Idi Amin announces that Uganda is no longer responsible for the care of British subjects of Asian origin, beginning the expulsions of Ugandan Asians.",
-      "source": {
-        "name": "Wikipedia · President of Uganda",
-        "url": "https://en.wikipedia.org/wiki/President_of_Uganda",
-        "calendarUrl": "https://en.wikipedia.org/wiki/August_4",
-        "license": {
-          "name": "CC BY-SA 4.0",
-          "url": "https://creativecommons.org/licenses/by-sa/4.0/"
-        }
-      },
-      "image": {
-        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/63/Flag_of_the_President_of_Uganda.svg/500px-Flag_of_the_President_of_Uganda.svg.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-        "alt": "Picture from the Wikipedia article on President of Uganda.",
-        "credit": "Wikimedia Commons",
-        "source": "https://commons.wikimedia.org/wiki/File:Flag_of_the_President_of_Uganda.svg",
-        "license": "CC BY-SA 3.0",
-        "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0"
       }
     }
   ]

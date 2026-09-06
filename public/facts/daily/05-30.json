@@ -3,6 +3,60 @@
   "dateLabel": "30 May",
   "facts": [
     {
+      "id": "05-30-the-swapper",
+      "date": "05-30",
+      "dateLabel": "30 May",
+      "category": "culture",
+      "categoryName": "Culture",
+      "year": 2013,
+      "title": "The Swapper",
+      "body": "The Swapper is a 2013 puzzle-platform game. A science fiction-themed title, the player controls a scavenger stranded aboard an abandoned research station, and discovers the strange titular device, which allows her to create clones of herself and switch her consciousness between these clones.",
+      "source": {
+        "name": "Wikipedia · The Swapper",
+        "url": "https://en.wikipedia.org/wiki/The_Swapper",
+        "calendarUrl": "https://en.wikipedia.org/wiki/May_30",
+        "license": {
+          "name": "CC BY-SA 4.0",
+          "url": "https://creativecommons.org/licenses/by-sa/4.0/"
+        }
+      },
+      "image": {
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/19/The_Swapper_-_Screenshot_03.png/500px-The_Swapper_-_Screenshot_03.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "alt": "The Swapper — the video game this anniversary is about.",
+        "credit": "The Swapper",
+        "source": "https://commons.wikimedia.org/wiki/File:The_Swapper_-_Screenshot_03.png",
+        "license": "CC BY-SA 3.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0"
+      }
+    },
+    {
+      "id": "05-30-splatoon-video-game",
+      "date": "05-30",
+      "dateLabel": "30 May",
+      "category": "culture",
+      "categoryName": "Culture",
+      "year": 2015,
+      "title": "Splatoon",
+      "body": "Splatoon is a 2015 third-person shooter game developed and published by Nintendo for the Wii U. The game centers around player-controlled Inklings—squid-like creatures that can transform between humanoid and cephalopodic forms at will.",
+      "source": {
+        "name": "Wikipedia · Splatoon (video game)",
+        "url": "https://en.wikipedia.org/wiki/Splatoon_(video_game)",
+        "calendarUrl": "https://en.wikipedia.org/wiki/May_30",
+        "license": {
+          "name": "CC BY-SA 4.0",
+          "url": "https://creativecommons.org/licenses/by-sa/4.0/"
+        }
+      },
+      "image": {
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e7/EB_Games_Expo_2015_-_Splatoon.JPG/500px-EB_Games_Expo_2015_-_Splatoon.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "alt": "Splatoon — the video game this anniversary is about.",
+        "credit": "Philip Terry Graham",
+        "source": "https://commons.wikimedia.org/wiki/File:EB_Games_Expo_2015_-_Splatoon.JPG",
+        "license": "CC0",
+        "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/deed.en"
+      }
+    },
+    {
       "id": "05-30-crew-dragon-demo-2",
       "date": "05-30",
       "dateLabel": "30 May",
@@ -57,33 +111,6 @@
       }
     },
     {
-      "id": "05-30-bedrich-smetana",
-      "date": "05-30",
-      "dateLabel": "30 May",
-      "category": "culture",
-      "categoryName": "Culture",
-      "year": 1866,
-      "title": "Bedřich Smetana",
-      "body": "Bedrich Smetana's comic opera The Bartered Bride premieres in Prague.",
-      "source": {
-        "name": "Wikipedia · Bedřich Smetana",
-        "url": "https://en.wikipedia.org/wiki/Bed%C5%99ich_Smetana",
-        "calendarUrl": "https://en.wikipedia.org/wiki/May_30",
-        "license": {
-          "name": "CC BY-SA 4.0",
-          "url": "https://creativecommons.org/licenses/by-sa/4.0/"
-        }
-      },
-      "image": {
-        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/13/Smetana_LCCN2014716851_%28cropped%29.jpg/500px-Smetana_LCCN2014716851_%28cropped%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-        "alt": "Picture from the Wikipedia article on Bedřich Smetana.",
-        "credit": "Bain News Service, publisher",
-        "source": "https://commons.wikimedia.org/wiki/File:Smetana_LCCN2014716851_(cropped).jpg",
-        "license": "Public domain",
-        "licenseUrl": "https://commons.wikimedia.org/wiki/File:Smetana_LCCN2014716851_(cropped).jpg"
-      }
-    },
-    {
       "id": "05-30-mariner-9",
       "date": "05-30",
       "dateLabel": "30 May",
@@ -108,33 +135,6 @@
         "source": "https://commons.wikimedia.org/wiki/File:Mariner09.jpg",
         "license": "Public domain",
         "licenseUrl": "https://commons.wikimedia.org/wiki/File:Mariner09.jpg"
-      }
-    },
-    {
-      "id": "05-30-european-space-agency",
-      "date": "05-30",
-      "dateLabel": "30 May",
-      "category": "world",
-      "categoryName": "World",
-      "year": 1975,
-      "title": "European Space Agency",
-      "body": "The European Space Agency is established.",
-      "source": {
-        "name": "Wikipedia · European Space Agency",
-        "url": "https://en.wikipedia.org/wiki/European_Space_Agency",
-        "calendarUrl": "https://en.wikipedia.org/wiki/May_30",
-        "license": {
-          "name": "CC BY-SA 4.0",
-          "url": "https://creativecommons.org/licenses/by-sa/4.0/"
-        }
-      },
-      "image": {
-        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/96/ESA_Headquarters_in_Paris.jpg/500px-ESA_Headquarters_in_Paris.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-        "alt": "Picture from the Wikipedia article on European Space Agency.",
-        "credit": "ESA/P. Sebirot, CC BY-SA 3.0 IGO",
-        "source": "https://commons.wikimedia.org/wiki/File:ESA_Headquarters_in_Paris.jpg",
-        "license": "CC BY-SA 3.0 igo",
-        "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0/igo/deed.en"
       }
     }
   ]

@@ -3,6 +3,60 @@
   "dateLabel": "5 October",
   "facts": [
     {
+      "id": "10-05-devil-world",
+      "date": "10-05",
+      "dateLabel": "5 October",
+      "category": "culture",
+      "categoryName": "Culture",
+      "year": 1984,
+      "title": "Devil World",
+      "body": "Devil World is a maze video game developed by Nintendo and Intelligent Systems and published by Nintendo for the Family Computer and Nintendo Entertainment System.",
+      "source": {
+        "name": "Wikipedia · Devil World",
+        "url": "https://en.wikipedia.org/wiki/Devil_World",
+        "calendarUrl": "https://en.wikipedia.org/wiki/October_5",
+        "license": {
+          "name": "CC BY-SA 4.0",
+          "url": "https://creativecommons.org/licenses/by-sa/4.0/"
+        }
+      },
+      "image": {
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/12/Famicom_%27Devil_World%27_cartridge_%285158740395%29.jpg/500px-Famicom_%27Devil_World%27_cartridge_%285158740395%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "alt": "Devil World — the video game this anniversary is about.",
+        "credit": "Bryan Ochalla from Seattle, WA, USA",
+        "source": "https://commons.wikimedia.org/wiki/File:Famicom_%27Devil_World%27_cartridge_(5158740395).jpg",
+        "license": "CC BY-SA 2.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0"
+      }
+    },
+    {
+      "id": "10-05-project-euler",
+      "date": "10-05",
+      "dateLabel": "5 October",
+      "category": "tech",
+      "categoryName": "Tech",
+      "year": 2001,
+      "title": "Project Euler",
+      "body": "Project Euler (named after Leonhard Euler) is a website dedicated to a series of computational problems intended to be solved with computer programs. The project attracts graduates and students interested in mathematics and computer programming.",
+      "source": {
+        "name": "Wikipedia · Project Euler",
+        "url": "https://en.wikipedia.org/wiki/Project_Euler",
+        "calendarUrl": "https://en.wikipedia.org/wiki/October_5",
+        "license": {
+          "name": "CC BY-SA 4.0",
+          "url": "https://creativecommons.org/licenses/by-sa/4.0/"
+        }
+      },
+      "image": {
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d7/Leonhard_Euler.jpg/500px-Leonhard_Euler.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "alt": "Project Euler — the website this anniversary is about.",
+        "credit": "Jakob Emanuel Handmann",
+        "source": "https://commons.wikimedia.org/wiki/File:Leonhard_Euler.jpg",
+        "license": "Public domain",
+        "licenseUrl": "https://commons.wikimedia.org/wiki/File:Leonhard_Euler.jpg"
+      }
+    },
+    {
       "id": "10-05-marc-garneau",
       "date": "10-05",
       "dateLabel": "5 October",
@@ -81,60 +135,6 @@
         "source": "https://commons.wikimedia.org/wiki/File:The_Beatles_1963_Dezo_Hoffman_Capitol_Records_press_photo_2.jpg",
         "license": "Public domain",
         "licenseUrl": "https://commons.wikimedia.org/wiki/File:The_Beatles_1963_Dezo_Hoffman_Capitol_Records_press_photo_2.jpg"
-      }
-    },
-    {
-      "id": "10-05-fighter-aircraft",
-      "date": "10-05",
-      "dateLabel": "5 October",
-      "category": "world",
-      "categoryName": "World",
-      "year": 1914,
-      "title": "Fighter aircraft",
-      "body": "An aircraft successfully destroys another aircraft with gunfire for the first time.",
-      "source": {
-        "name": "Wikipedia · Fighter aircraft",
-        "url": "https://en.wikipedia.org/wiki/Fighter_aircraft",
-        "calendarUrl": "https://en.wikipedia.org/wiki/October_5",
-        "license": {
-          "name": "CC BY-SA 4.0",
-          "url": "https://creativecommons.org/licenses/by-sa/4.0/"
-        }
-      },
-      "image": {
-        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/16/Formation_of_a_Legacy%2C_Heritage_flight_merges_aviation_past_and_present_86-16-51-22.jpg/500px-Formation_of_a_Legacy%2C_Heritage_flight_merges_aviation_past_and_present_86-16-51-22.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-        "alt": "Picture from the Wikipedia article on Fighter aircraft.",
-        "credit": "U.S. Air Force photo by J.M. Eddins Jr",
-        "source": "https://commons.wikimedia.org/wiki/File:Formation_of_a_Legacy,_Heritage_flight_merges_aviation_past_and_present_86-16-51-22.jpg",
-        "license": "Public domain",
-        "licenseUrl": "https://commons.wikimedia.org/wiki/File:Formation_of_a_Legacy,_Heritage_flight_merges_aviation_past_and_present_86-16-51-22.jpg"
-      }
-    },
-    {
-      "id": "10-05-pbs",
-      "date": "10-05",
-      "dateLabel": "5 October",
-      "category": "world",
-      "categoryName": "World",
-      "year": 1970,
-      "title": "PBS",
-      "body": "The Public Broadcasting Service (PBS) is founded in the United States.",
-      "source": {
-        "name": "Wikipedia · PBS",
-        "url": "https://en.wikipedia.org/wiki/PBS",
-        "calendarUrl": "https://en.wikipedia.org/wiki/October_5",
-        "license": {
-          "name": "CC BY-SA 4.0",
-          "url": "https://creativecommons.org/licenses/by-sa/4.0/"
-        }
-      },
-      "image": {
-        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/89/PBS_logo_2019.svg/500px-PBS_logo_2019.svg.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-        "alt": "Picture from the Wikipedia article on PBS.",
-        "credit": "™/®Public Broadcasting ServiceDesigned",
-        "source": "https://commons.wikimedia.org/wiki/File:PBS_logo_2019.svg",
-        "license": "Public domain",
-        "licenseUrl": "https://commons.wikimedia.org/wiki/File:PBS_logo_2019.svg"
       }
     }
   ]

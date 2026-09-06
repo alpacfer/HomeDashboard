@@ -16,6 +16,7 @@
     "docs:check": "node scripts/check-docs.mjs",
     "check": "npm run lint && npm run typecheck && npm test && npm run docs:check && npm run check:rules && npm run build",
     "facts:generate": "node scripts/generate-daily-facts.mjs",
+    "facts:harvest": "node scripts/harvest-anniversaries.mjs",
     "fonts:clock": "node scripts/fetch-clock-fonts.mjs",
     "check:rules": "node scripts/check-rules.mjs",
     "shot": "node scripts/screenshot.mjs",

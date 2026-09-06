@@ -3,6 +3,60 @@
   "dateLabel": "20 September",
   "facts": [
     {
+      "id": "09-20-out-run",
+      "date": "09-20",
+      "dateLabel": "20 September",
+      "category": "culture",
+      "categoryName": "Culture",
+      "year": 1986,
+      "title": "Out Run",
+      "body": "Out Run is a 1986 racing video game developed and published by Sega for arcades. It is known for its pioneering hardware and graphics, nonlinear gameplay, a selectable soundtrack with music composed by Hiroshi Kawaguchi, and the hydraulic motion simulator deluxe arcade cabinet.",
+      "source": {
+        "name": "Wikipedia · Out Run",
+        "url": "https://en.wikipedia.org/wiki/Out_Run",
+        "calendarUrl": "https://en.wikipedia.org/wiki/September_20",
+        "license": {
+          "name": "CC BY-SA 4.0",
+          "url": "https://creativecommons.org/licenses/by-sa/4.0/"
+        }
+      },
+      "image": {
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/cf/Outrun-sit-down-cabinet.jpg/500px-Outrun-sit-down-cabinet.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "alt": "Out Run — the video game this anniversary is about.",
+        "credit": "Liftarn",
+        "source": "https://commons.wikimedia.org/wiki/File:Outrun-sit-down-cabinet.jpg",
+        "license": "CC BY-SA 3.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0/"
+      }
+    },
+    {
+      "id": "09-20-wipo-lex",
+      "date": "09-20",
+      "dateLabel": "20 September",
+      "category": "tech",
+      "categoryName": "Tech",
+      "year": 2010,
+      "title": "WIPO Lex",
+      "body": "WIPO Lex is an online global database launched in 2010, which provides free public access to intellectual property laws, treaties and judicial decisions from around the world. The World Intellectual Property Organization (WIPO) maintains and develops the database.",
+      "source": {
+        "name": "Wikipedia · WIPO Lex",
+        "url": "https://en.wikipedia.org/wiki/WIPO_Lex",
+        "calendarUrl": "https://en.wikipedia.org/wiki/September_20",
+        "license": {
+          "name": "CC BY-SA 4.0",
+          "url": "https://creativecommons.org/licenses/by-sa/4.0/"
+        }
+      },
+      "image": {
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/2f/WIPO_Lex_HomePage_2022.png/500px-WIPO_Lex_HomePage_2022.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "alt": "WIPO Lex — the website this anniversary is about.",
+        "credit": "Anthere",
+        "source": "https://commons.wikimedia.org/wiki/File:WIPO_Lex_HomePage_2022.png",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0"
+      }
+    },
+    {
       "id": "09-20-september-2019-climate-strikes",
       "date": "09-20",
       "dateLabel": "20 September",
@@ -81,60 +135,6 @@
         "source": "https://commons.wikimedia.org/wiki/File:Ferdinand_Magellan.jpg",
         "license": "Public domain",
         "licenseUrl": "https://commons.wikimedia.org/wiki/File:Ferdinand_Magellan.jpg"
-      }
-    },
-    {
-      "id": "09-20-vietnam",
-      "date": "09-20",
-      "dateLabel": "20 September",
-      "category": "world",
-      "categoryName": "World",
-      "year": 1977,
-      "title": "Vietnam",
-      "body": "Vietnam is admitted to the United Nations.",
-      "source": {
-        "name": "Wikipedia · Vietnam",
-        "url": "https://en.wikipedia.org/wiki/Vietnam",
-        "calendarUrl": "https://en.wikipedia.org/wiki/September_20",
-        "license": {
-          "name": "CC BY-SA 4.0",
-          "url": "https://creativecommons.org/licenses/by-sa/4.0/"
-        }
-      },
-      "image": {
-        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/21/Flag_of_Vietnam.svg/500px-Flag_of_Vietnam.svg.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-        "alt": "Picture from the Wikipedia article on Vietnam.",
-        "credit": "See File history below for details",
-        "source": "https://commons.wikimedia.org/wiki/File:Flag_of_Vietnam.svg",
-        "license": "Public domain",
-        "licenseUrl": "https://commons.wikimedia.org/wiki/File:Flag_of_Vietnam.svg"
-      }
-    },
-    {
-      "id": "09-20-queen-elizabeth-2",
-      "date": "09-20",
-      "dateLabel": "20 September",
-      "category": "world",
-      "categoryName": "World",
-      "year": 1967,
-      "title": "Queen Elizabeth 2",
-      "body": "The Cunard Liner Queen Elizabeth 2 is launched in Clydebank, Scotland.",
-      "source": {
-        "name": "Wikipedia · Queen Elizabeth 2",
-        "url": "https://en.wikipedia.org/wiki/Queen_Elizabeth_2",
-        "calendarUrl": "https://en.wikipedia.org/wiki/September_20",
-        "license": {
-          "name": "CC BY-SA 4.0",
-          "url": "https://creativecommons.org/licenses/by-sa/4.0/"
-        }
-      },
-      "image": {
-        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/27/VAE-dubai-QE_II_cropped.jpg/500px-VAE-dubai-QE_II_cropped.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-        "alt": "Picture from the Wikipedia article on Queen Elizabeth 2.",
-        "credit": "Balou46",
-        "source": "https://commons.wikimedia.org/wiki/File:VAE-dubai-QE_II_cropped.jpg",
-        "license": "CC BY-SA 4.0",
-        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0"
       }
     }
   ]

@@ -3,6 +3,60 @@
   "dateLabel": "25 December",
   "facts": [
     {
+      "id": "12-25-glest",
+      "date": "12-25",
+      "dateLabel": "25 December",
+      "category": "culture",
+      "categoryName": "Culture",
+      "year": 2004,
+      "title": "Glest",
+      "body": "Glest is a free and open-source real-time strategy computer game from 2004. Glest is set in a medieval fantasy world with two factions, and was compared with Warcraft III and the Empire Earth series.",
+      "source": {
+        "name": "Wikipedia · Glest",
+        "url": "https://en.wikipedia.org/wiki/Glest",
+        "calendarUrl": "https://en.wikipedia.org/wiki/December_25",
+        "license": {
+          "name": "CC BY-SA 4.0",
+          "url": "https://creativecommons.org/licenses/by-sa/4.0/"
+        }
+      },
+      "image": {
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/47/Glest.jpg/500px-Glest.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "alt": "Glest — the video game this anniversary is about.",
+        "credit": "Martiño Figueroa",
+        "source": "https://commons.wikimedia.org/wiki/File:Glest.jpg",
+        "license": "GPL",
+        "licenseUrl": "https://www.gnu.org/licenses/gpl.html"
+      }
+    },
+    {
+      "id": "12-25-street-fighter-ii",
+      "date": "12-25",
+      "dateLabel": "25 December",
+      "category": "culture",
+      "categoryName": "Culture",
+      "year": 2006,
+      "title": "Street Fighter II",
+      "body": "The World Warrior is a 1991 fighting game developed and published by Capcom for arcades. It is the second installment in the Street Fighter series, and the sequel to 1987's Street Fighter.",
+      "source": {
+        "name": "Wikipedia · Street Fighter II",
+        "url": "https://en.wikipedia.org/wiki/Street_Fighter_II",
+        "calendarUrl": "https://en.wikipedia.org/wiki/December_25",
+        "license": {
+          "name": "CC BY-SA 4.0",
+          "url": "https://creativecommons.org/licenses/by-sa/4.0/"
+        }
+      },
+      "image": {
+        "src": "https://upload.wikimedia.org/wikipedia/commons/d/d1/Street_Fighter_II_arcade-20061027.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+        "alt": "Street Fighter II — the video game this anniversary is about.",
+        "credit": "Jonathan Sloan from Burnaby, Canada",
+        "source": "https://commons.wikimedia.org/wiki/File:Street_Fighter_II_arcade-20061027.jpg",
+        "license": "CC BY 2.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by/2.0"
+      }
+    },
+    {
       "id": "12-25-james-webb-space-telescope",
       "date": "12-25",
       "dateLabel": "25 December",
@@ -81,60 +135,6 @@
         "source": "https://commons.wikimedia.org/wiki/File:NASA-Apollo8-Dec24-Earthrise.jpg",
         "license": "Public domain",
         "licenseUrl": "https://commons.wikimedia.org/wiki/File:NASA-Apollo8-Dec24-Earthrise.jpg"
-      }
-    },
-    {
-      "id": "12-25-cassini-orbiter",
-      "date": "12-25",
-      "dateLabel": "25 December",
-      "category": "space",
-      "categoryName": "Space",
-      "year": 2004,
-      "title": "Cassini–Huygens",
-      "body": "The Cassini orbiter releases Huygens probe which successfully landed on Saturn's moon Titan on January 14, 2005.",
-      "source": {
-        "name": "Wikipedia · Cassini–Huygens",
-        "url": "https://en.wikipedia.org/wiki/Cassini%E2%80%93Huygens",
-        "calendarUrl": "https://en.wikipedia.org/wiki/December_25",
-        "license": {
-          "name": "CC BY-SA 4.0",
-          "url": "https://creativecommons.org/licenses/by-sa/4.0/"
-        }
-      },
-      "image": {
-        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b2/Cassini_Saturn_Orbit_Insertion.jpg/500px-Cassini_Saturn_Orbit_Insertion.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-        "alt": "Picture from the Wikipedia article on Cassini–Huygens.",
-        "credit": "NASA/JPL",
-        "source": "https://commons.wikimedia.org/wiki/File:Cassini_Saturn_Orbit_Insertion.jpg",
-        "license": "Public domain",
-        "licenseUrl": "https://commons.wikimedia.org/wiki/File:Cassini_Saturn_Orbit_Insertion.jpg"
-      }
-    },
-    {
-      "id": "12-25-beagle-2",
-      "date": "12-25",
-      "dateLabel": "25 December",
-      "category": "space",
-      "categoryName": "Space",
-      "year": 2003,
-      "title": "Beagle 2",
-      "body": "The ill-fated Beagle 2 probe, released from the Mars Express spacecraft on December 19, stops transmitting shortly before its scheduled landing.",
-      "source": {
-        "name": "Wikipedia · Beagle 2",
-        "url": "https://en.wikipedia.org/wiki/Beagle_2",
-        "calendarUrl": "https://en.wikipedia.org/wiki/December_25",
-        "license": {
-          "name": "CC BY-SA 4.0",
-          "url": "https://creativecommons.org/licenses/by-sa/4.0/"
-        }
-      },
-      "image": {
-        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a8/Beagle_2_replica.jpg/500px-Beagle_2_replica.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-        "alt": "Picture from the Wikipedia article on Beagle 2.",
-        "credit": "user:geni",
-        "source": "https://commons.wikimedia.org/wiki/File:Beagle_2_replica.jpg",
-        "license": "CC BY-SA 4.0",
-        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0"
       }
     }
   ]

@@ -3,6 +3,60 @@
   "dateLabel": "20 January",
   "facts": [
     {
+      "id": "01-20-scala-programming-language",
+      "date": "01-20",
+      "dateLabel": "20 January",
+      "category": "tech",
+      "categoryName": "Tech",
+      "year": 2004,
+      "title": "Scala",
+      "body": "Scala ( SKAH-lah) is a strongly statically typed high-level general-purpose programming language that supports both object-oriented programming and functional programming. Designed to be concise, many of Scala's design decisions are intended to address criticism of Java.",
+      "source": {
+        "name": "Wikipedia · Scala (programming language)",
+        "url": "https://en.wikipedia.org/wiki/Scala_(programming_language)",
+        "calendarUrl": "https://en.wikipedia.org/wiki/January_20",
+        "license": {
+          "name": "CC BY-SA 4.0",
+          "url": "https://creativecommons.org/licenses/by-sa/4.0/"
+        }
+      },
+      "image": {
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/27/IntelliJIDEA_2016.3_Community.png/500px-IntelliJIDEA_2016.3_Community.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "alt": "Scala — the programming language this anniversary is about.",
+        "credit": "Mjgtall",
+        "source": "https://commons.wikimedia.org/wiki/File:IntelliJIDEA_2016.3_Community.png",
+        "license": "Public domain",
+        "licenseUrl": "https://commons.wikimedia.org/wiki/File:IntelliJIDEA_2016.3_Community.png"
+      }
+    },
+    {
+      "id": "01-20-brave-web-browser",
+      "date": "01-20",
+      "dateLabel": "20 January",
+      "category": "tech",
+      "categoryName": "Tech",
+      "year": 2016,
+      "title": "Q22906900",
+      "body": "Brave is a free and open-source web browser which was first released in 2016. It is developed by US-based Brave Software, Inc.",
+      "source": {
+        "name": "Wikipedia · Brave (web browser)",
+        "url": "https://en.wikipedia.org/wiki/Brave_(web_browser)",
+        "calendarUrl": "https://en.wikipedia.org/wiki/January_20",
+        "license": {
+          "name": "CC BY-SA 4.0",
+          "url": "https://creativecommons.org/licenses/by-sa/4.0/"
+        }
+      },
+      "image": {
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/8d/Brave_1.57.57_macOS_el.png/500px-Brave_1.57.57_macOS_el.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "alt": "Q22906900 — the application this anniversary is about.",
+        "credit": "Iketsi",
+        "source": "https://commons.wikimedia.org/wiki/File:Brave_1.57.57_macOS_el.png",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0"
+      }
+    },
+    {
       "id": "01-20-martin-luther-king-jr-day",
       "date": "01-20",
       "dateLabel": "20 January",
@@ -81,60 +135,6 @@
         "source": "https://commons.wikimedia.org/wiki/File:Seal_of_the_President_of_the_Philippines.svg",
         "license": "Public domain",
         "licenseUrl": "https://commons.wikimedia.org/wiki/File:Seal_of_the_President_of_the_Philippines.svg"
-      }
-    },
-    {
-      "id": "01-20-black-january",
-      "date": "01-20",
-      "dateLabel": "20 January",
-      "category": "world",
-      "categoryName": "World",
-      "year": 1990,
-      "title": "Black January",
-      "body": "Protests in Azerbaijan, part of the Dissolution of the Soviet Union.",
-      "source": {
-        "name": "Wikipedia · Black January",
-        "url": "https://en.wikipedia.org/wiki/Black_January",
-        "calendarUrl": "https://en.wikipedia.org/wiki/January_20",
-        "license": {
-          "name": "CC BY-SA 4.0",
-          "url": "https://creativecommons.org/licenses/by-sa/4.0/"
-        }
-      },
-      "image": {
-        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/10/20_yanvar_abid%C9%99si.jpg/500px-20_yanvar_abid%C9%99si.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-        "alt": "Picture from the Wikipedia article on Black January.",
-        "credit": "Rəcəb Həsənbəyov",
-        "source": "https://commons.wikimedia.org/wiki/File:20_yanvar_abid%C9%99si.jpg",
-        "license": "CC BY-SA 4.0",
-        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0"
-      }
-    },
-    {
-      "id": "01-20-first-fleet",
-      "date": "01-20",
-      "dateLabel": "20 January",
-      "category": "world",
-      "categoryName": "World",
-      "year": 1788,
-      "title": "First Fleet",
-      "body": "The third and main part of First Fleet arrives at Botany Bay, beginning the British colonization of Australia. Arthur Phillip decides that Port Jackson is a more suitable location for a colony.",
-      "source": {
-        "name": "Wikipedia · First Fleet",
-        "url": "https://en.wikipedia.org/wiki/First_Fleet",
-        "calendarUrl": "https://en.wikipedia.org/wiki/January_20",
-        "license": {
-          "name": "CC BY-SA 4.0",
-          "url": "https://creativecommons.org/licenses/by-sa/4.0/"
-        }
-      },
-      "image": {
-        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/82/A_view_of_Botany_Bay_A1475003h_%28cropped%29.jpg/500px-A_view_of_Botany_Bay_A1475003h_%28cropped%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-        "alt": "Picture from the Wikipedia article on First Fleet.",
-        "credit": "Original drawing",
-        "source": "https://commons.wikimedia.org/wiki/File:A_view_of_Botany_Bay_A1475003h_(cropped).jpg",
-        "license": "Public domain",
-        "licenseUrl": "https://commons.wikimedia.org/wiki/File:A_view_of_Botany_Bay_A1475003h_(cropped).jpg"
       }
     }
   ]

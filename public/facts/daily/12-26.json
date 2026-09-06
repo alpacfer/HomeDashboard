@@ -3,6 +3,33 @@
   "dateLabel": "26 December",
   "facts": [
     {
+      "id": "12-26-pump-it-up-nx-absolute",
+      "date": "12-26",
+      "dateLabel": "26 December",
+      "category": "culture",
+      "categoryName": "Culture",
+      "year": 2008,
+      "title": "Pump It Up NX Absolute",
+      "body": "Pump It Up (Korean: 펌프 잇 업) is a music video game series developed and published by Andamiro, a South Korean arcade game producer.",
+      "source": {
+        "name": "Wikipedia · Pump It Up (video game series)",
+        "url": "https://en.wikipedia.org/wiki/Pump_It_Up_(video_game_series)",
+        "calendarUrl": "https://en.wikipedia.org/wiki/December_26",
+        "license": {
+          "name": "CC BY-SA 4.0",
+          "url": "https://creativecommons.org/licenses/by-sa/4.0/"
+        }
+      },
+      "image": {
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/22/NXA_GX2010.JPG/500px-NXA_GX2010.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "alt": "Pump It Up NX Absolute — the video game this anniversary is about.",
+        "credit": "Funbox",
+        "source": "https://commons.wikimedia.org/wiki/File:NXA_GX2010.JPG",
+        "license": "CC BY-SA 3.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0"
+      }
+    },
+    {
       "id": "12-26-high-speed-rail-in-china",
       "date": "12-26",
       "dateLabel": "26 December",
@@ -27,33 +54,6 @@
         "source": "https://commons.wikimedia.org/wiki/File:CR400BF-GZ-5143_and_5203_at_Xidian_(20210907094342).jpg",
         "license": "CC BY-SA 4.0",
         "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0"
-      }
-    },
-    {
-      "id": "12-26-the-beatles",
-      "date": "12-26",
-      "dateLabel": "26 December",
-      "category": "culture",
-      "categoryName": "Culture",
-      "year": 1963,
-      "title": "The Beatles",
-      "body": "The Beatles' \"I Want to Hold Your Hand\" and \"I Saw Her Standing There\" are released in the United States, marking the beginning of Beatlemania on an international level.",
-      "source": {
-        "name": "Wikipedia · The Beatles",
-        "url": "https://en.wikipedia.org/wiki/The_Beatles",
-        "calendarUrl": "https://en.wikipedia.org/wiki/December_26",
-        "license": {
-          "name": "CC BY-SA 4.0",
-          "url": "https://creativecommons.org/licenses/by-sa/4.0/"
-        }
-      },
-      "image": {
-        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/42/The_Beatles_1963_Dezo_Hoffman_Capitol_Records_press_photo_2.jpg/500px-The_Beatles_1963_Dezo_Hoffman_Capitol_Records_press_photo_2.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-        "alt": "Picture from the Wikipedia article on The Beatles.",
-        "credit": "Dezo Hoffmann",
-        "source": "https://commons.wikimedia.org/wiki/File:The_Beatles_1963_Dezo_Hoffman_Capitol_Records_press_photo_2.jpg",
-        "license": "Public domain",
-        "licenseUrl": "https://commons.wikimedia.org/wiki/File:The_Beatles_1963_Dezo_Hoffman_Capitol_Records_press_photo_2.jpg"
       }
     },
     {
@@ -84,6 +84,33 @@
       }
     },
     {
+      "id": "12-26-the-beatles",
+      "date": "12-26",
+      "dateLabel": "26 December",
+      "category": "culture",
+      "categoryName": "Culture",
+      "year": 1963,
+      "title": "The Beatles",
+      "body": "The Beatles' \"I Want to Hold Your Hand\" and \"I Saw Her Standing There\" are released in the United States, marking the beginning of Beatlemania on an international level.",
+      "source": {
+        "name": "Wikipedia · The Beatles",
+        "url": "https://en.wikipedia.org/wiki/The_Beatles",
+        "calendarUrl": "https://en.wikipedia.org/wiki/December_26",
+        "license": {
+          "name": "CC BY-SA 4.0",
+          "url": "https://creativecommons.org/licenses/by-sa/4.0/"
+        }
+      },
+      "image": {
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/42/The_Beatles_1963_Dezo_Hoffman_Capitol_Records_press_photo_2.jpg/500px-The_Beatles_1963_Dezo_Hoffman_Capitol_Records_press_photo_2.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "alt": "Picture from the Wikipedia article on The Beatles.",
+        "credit": "Dezo Hoffmann",
+        "source": "https://commons.wikimedia.org/wiki/File:The_Beatles_1963_Dezo_Hoffman_Capitol_Records_press_photo_2.jpg",
+        "license": "Public domain",
+        "licenseUrl": "https://commons.wikimedia.org/wiki/File:The_Beatles_1963_Dezo_Hoffman_Capitol_Records_press_photo_2.jpg"
+      }
+    },
+    {
       "id": "12-26-tu-144",
       "date": "12-26",
       "dateLabel": "26 December",
@@ -108,33 +135,6 @@
         "source": "https://commons.wikimedia.org/wiki/File:Tupolev_TU-144_(6060104119).jpg",
         "license": "CC BY-SA 2.0",
         "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0"
-      }
-    },
-    {
-      "id": "12-26-kwanzaa",
-      "date": "12-26",
-      "dateLabel": "26 December",
-      "category": "world",
-      "categoryName": "World",
-      "year": 1966,
-      "title": "Kwanzaa",
-      "body": "The first Kwanzaa is celebrated by Maulana Karenga, the chair of Black Studies at California State University, Long Beach.",
-      "source": {
-        "name": "Wikipedia · Kwanzaa",
-        "url": "https://en.wikipedia.org/wiki/Kwanzaa",
-        "calendarUrl": "https://en.wikipedia.org/wiki/December_26",
-        "license": {
-          "name": "CC BY-SA 4.0",
-          "url": "https://creativecommons.org/licenses/by-sa/4.0/"
-        }
-      },
-      "image": {
-        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d8/Kwanzaa_Candles-Kinara.svg/500px-Kwanzaa_Candles-Kinara.svg.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-        "alt": "Picture from the Wikipedia article on Kwanzaa.",
-        "credit": "Nesnad",
-        "source": "https://commons.wikimedia.org/wiki/File:Kwanzaa_Candles-Kinara.svg",
-        "license": "Public domain",
-        "licenseUrl": "https://commons.wikimedia.org/wiki/File:Kwanzaa_Candles-Kinara.svg"
       }
     }
   ]

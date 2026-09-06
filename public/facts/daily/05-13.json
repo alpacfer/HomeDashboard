@@ -3,6 +3,60 @@
   "dateLabel": "13 May",
   "facts": [
     {
+      "id": "05-13-breakout-video-game",
+      "date": "05-13",
+      "dateLabel": "13 May",
+      "category": "culture",
+      "categoryName": "Culture",
+      "year": 1976,
+      "title": "Breakout",
+      "body": "Breakout is a 1976 action video game developed and published by Atari, Inc. for arcades; in Japan, it was released by Namco.",
+      "source": {
+        "name": "Wikipedia · Breakout (video game)",
+        "url": "https://en.wikipedia.org/wiki/Breakout_(video_game)",
+        "calendarUrl": "https://en.wikipedia.org/wiki/May_13",
+        "license": {
+          "name": "CC BY-SA 4.0",
+          "url": "https://creativecommons.org/licenses/by-sa/4.0/"
+        }
+      },
+      "image": {
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/1a/Screenshot-LBreakout2.jpg/500px-Screenshot-LBreakout2.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "alt": "Breakout — the video game this anniversary is about.",
+        "credit": "Wilinckx",
+        "source": "https://commons.wikimedia.org/wiki/File:Screenshot-LBreakout2.jpg",
+        "license": "GPL",
+        "licenseUrl": "https://www.gnu.org/licenses/gpl.html"
+      }
+    },
+    {
+      "id": "05-13-windows-package-manager",
+      "date": "05-13",
+      "dateLabel": "13 May",
+      "category": "tech",
+      "categoryName": "Tech",
+      "year": 2020,
+      "title": "Windows Package Manager",
+      "body": "The Windows Package Manager (also known as winget) is a free and open-source package manager designed by Microsoft for Windows 10, Windows 11, and Windows Server 2025 with Desktop Experience. It consists of a command-line utility and a set of services for installing applications.",
+      "source": {
+        "name": "Wikipedia · Windows Package Manager",
+        "url": "https://en.wikipedia.org/wiki/Windows_Package_Manager",
+        "calendarUrl": "https://en.wikipedia.org/wiki/May_13",
+        "license": {
+          "name": "CC BY-SA 4.0",
+          "url": "https://creativecommons.org/licenses/by-sa/4.0/"
+        }
+      },
+      "image": {
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/af/Windows_Package_Manager_v0.1.41331_Preview_1115x624.png/500px-Windows_Package_Manager_v0.1.41331_Preview_1115x624.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "alt": "Windows Package Manager — the application this anniversary is about.",
+        "credit": "Ghettoblaster",
+        "source": "https://commons.wikimedia.org/wiki/File:Windows_Package_Manager_v0.1.41331_Preview_1115x624.png",
+        "license": "Public domain",
+        "licenseUrl": "https://commons.wikimedia.org/wiki/File:Windows_Package_Manager_v0.1.41331_Preview_1115x624.png"
+      }
+    },
+    {
       "id": "05-13-li-hongzhi",
       "date": "05-13",
       "dateLabel": "13 May",
@@ -81,60 +135,6 @@
         "source": "https://commons.wikimedia.org/wiki/File:Great_Comet_1861_(128495343).jpg",
         "license": "Public domain",
         "licenseUrl": "https://commons.wikimedia.org/wiki/File:Great_Comet_1861_(128495343).jpg"
-      }
-    },
-    {
-      "id": "05-13-tiananmen-square-protests-of-1989",
-      "date": "05-13",
-      "dateLabel": "13 May",
-      "category": "world",
-      "categoryName": "World",
-      "year": 1989,
-      "title": "1989 Tiananmen Square protests and massacre",
-      "body": "Large groups of students occupy Tiananmen Square and begin a hunger strike.",
-      "source": {
-        "name": "Wikipedia · 1989 Tiananmen Square protests and massacre",
-        "url": "https://en.wikipedia.org/wiki/1989_Tiananmen_Square_protests_and_massacre",
-        "calendarUrl": "https://en.wikipedia.org/wiki/May_13",
-        "license": {
-          "name": "CC BY-SA 4.0",
-          "url": "https://creativecommons.org/licenses/by-sa/4.0/"
-        }
-      },
-      "image": {
-        "src": "https://upload.wikimedia.org/wikipedia/commons/e/e7/Ud%C3%A1losti_na_n%C3%A1m%C4%9Bst%C3%AD_Tian_an_men%2C_%C4%8C%C3%ADna_1989%2C_foto_Ji%C5%99%C3%AD_Tondl.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
-        "alt": "Picture from the Wikipedia article on 1989 Tiananmen Square protests and massacre.",
-        "credit": "Jiří Tondl",
-        "source": "https://commons.wikimedia.org/wiki/File:Ud%C3%A1losti_na_n%C3%A1m%C4%9Bst%C3%AD_Tian_an_men,_%C4%8C%C3%ADna_1989,_foto_Ji%C5%99%C3%AD_Tondl.jpg",
-        "license": "CC BY-SA 4.0",
-        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0"
-      }
-    },
-    {
-      "id": "05-13-alison-hargreaves",
-      "date": "05-13",
-      "dateLabel": "13 May",
-      "category": "world",
-      "categoryName": "World",
-      "year": 1995,
-      "title": "Alison Hargreaves",
-      "body": "Alison Hargreaves, a 33-year-old British mother, becomes the first woman to ascend Everest without oxygen or the help of sherpas.",
-      "source": {
-        "name": "Wikipedia · Alison Hargreaves",
-        "url": "https://en.wikipedia.org/wiki/Alison_Hargreaves",
-        "calendarUrl": "https://en.wikipedia.org/wiki/May_13",
-        "license": {
-          "name": "CC BY-SA 4.0",
-          "url": "https://creativecommons.org/licenses/by-sa/4.0/"
-        }
-      },
-      "image": {
-        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/91/Tom_Frost_-_Climbers_on_Kangtega_-_1986.jpg/500px-Tom_Frost_-_Climbers_on_Kangtega_-_1986.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-        "alt": "Picture from the Wikipedia article on Alison Hargreaves.",
-        "credit": "Tom Frost",
-        "source": "https://commons.wikimedia.org/wiki/File:Tom_Frost_-_Climbers_on_Kangtega_-_1986.jpg",
-        "license": "CC BY 3.0",
-        "licenseUrl": "https://creativecommons.org/licenses/by/3.0"
       }
     }
   ]

@@ -3,6 +3,60 @@
   "dateLabel": "5 June",
   "facts": [
     {
+      "id": "06-05-tango-platform",
+      "date": "06-05",
+      "dateLabel": "5 June",
+      "category": "tech",
+      "categoryName": "Tech",
+      "year": 2014,
+      "title": "Tango",
+      "body": "Tango (named Project Tango while in testing) was an augmented reality computing platform, developed and authored by the Advanced Technology and Projects (ATAP), a skunkworks division of Google.",
+      "source": {
+        "name": "Wikipedia · Tango (platform)",
+        "url": "https://en.wikipedia.org/wiki/Tango_(platform)",
+        "calendarUrl": "https://en.wikipedia.org/wiki/June_5",
+        "license": {
+          "name": "CC BY-SA 4.0",
+          "url": "https://creativecommons.org/licenses/by-sa/4.0/"
+        }
+      },
+      "image": {
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/2c/Project_Tango_%2824181866660%29.jpg/500px-Project_Tango_%2824181866660%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "alt": "Tango — the software this anniversary is about.",
+        "credit": "Maurizio Pesce from Milan, Italia",
+        "source": "https://commons.wikimedia.org/wiki/File:Project_Tango_(24181866660).jpg",
+        "license": "CC BY 2.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by/2.0"
+      }
+    },
+    {
+      "id": "06-05-hogwarts-legacy",
+      "date": "06-05",
+      "dateLabel": "5 June",
+      "category": "culture",
+      "categoryName": "Culture",
+      "year": 2025,
+      "title": "Q99397854",
+      "body": "Hogwarts Legacy is a 2023 action role-playing video game developed by Avalanche Software and published by Warner Bros. Games under its Portkey Games label.",
+      "source": {
+        "name": "Wikipedia · Hogwarts Legacy",
+        "url": "https://en.wikipedia.org/wiki/Hogwarts_Legacy",
+        "calendarUrl": "https://en.wikipedia.org/wiki/June_5",
+        "license": {
+          "name": "CC BY-SA 4.0",
+          "url": "https://creativecommons.org/licenses/by-sa/4.0/"
+        }
+      },
+      "image": {
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/33/Hogwarts_Legacy_promotional_photo_horizontal.jpg/500px-Hogwarts_Legacy_promotional_photo_horizontal.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "alt": "Q99397854 — the video game this anniversary is about.",
+        "credit": "Hogwarts Legacy",
+        "source": "https://commons.wikimedia.org/wiki/File:Hogwarts_Legacy_promotional_photo_horizontal.jpg",
+        "license": "CC BY 3.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by/3.0"
+      }
+    },
+    {
       "id": "06-05-nintendo-switch-2",
       "date": "06-05",
       "dateLabel": "5 June",
@@ -27,33 +81,6 @@
         "source": "https://commons.wikimedia.org/wiki/File:Nintendo_Switch_2_logo.svg",
         "license": "Public domain",
         "licenseUrl": "https://commons.wikimedia.org/wiki/File:Nintendo_Switch_2_logo.svg"
-      }
-    },
-    {
-      "id": "06-05-elvis-presley",
-      "date": "06-05",
-      "dateLabel": "5 June",
-      "category": "culture",
-      "categoryName": "Culture",
-      "year": 1956,
-      "title": "Elvis Presley",
-      "body": "Elvis Presley introduces his new single, \"Hound Dog\", on The Milton Berle Show, scandalizing the audience with his suggestive hip movements.",
-      "source": {
-        "name": "Wikipedia · Elvis Presley",
-        "url": "https://en.wikipedia.org/wiki/Elvis_Presley",
-        "calendarUrl": "https://en.wikipedia.org/wiki/June_5",
-        "license": {
-          "name": "CC BY-SA 4.0",
-          "url": "https://creativecommons.org/licenses/by-sa/4.0/"
-        }
-      },
-      "image": {
-        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/99/Elvis_Presley_promoting_Jailhouse_Rock.jpg/500px-Elvis_Presley_promoting_Jailhouse_Rock.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-        "alt": "Picture from the Wikipedia article on Elvis Presley.",
-        "credit": "Metro-Goldwyn-Mayer",
-        "source": "https://commons.wikimedia.org/wiki/File:Elvis_Presley_promoting_Jailhouse_Rock.jpg",
-        "license": "Public domain",
-        "licenseUrl": "https://commons.wikimedia.org/wiki/File:Elvis_Presley_promoting_Jailhouse_Rock.jpg"
       }
     },
     {
@@ -108,33 +135,6 @@
         "source": "https://commons.wikimedia.org/wiki/File:Noel_Mamere_Europe_Ecologie_2009-06-03_n2_(cropped_2).jpg",
         "license": "CC BY 2.5",
         "licenseUrl": "https://creativecommons.org/licenses/by/2.5"
-      }
-    },
-    {
-      "id": "06-05-2012-transit-of-venus",
-      "date": "06-05",
-      "dateLabel": "5 June",
-      "category": "space",
-      "categoryName": "Space",
-      "year": 2012,
-      "title": "2012 transit of Venus",
-      "body": "Last transit of Venus until the year 2117.",
-      "source": {
-        "name": "Wikipedia · 2012 transit of Venus",
-        "url": "https://en.wikipedia.org/wiki/2012_transit_of_Venus",
-        "calendarUrl": "https://en.wikipedia.org/wiki/June_5",
-        "license": {
-          "name": "CC BY-SA 4.0",
-          "url": "https://creativecommons.org/licenses/by-sa/4.0/"
-        }
-      },
-      "image": {
-        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/47/SDO%27s_Ultra-high_Definition_View_of_2012_Venus_Transit_%28304_Angstrom_Full_Disc_02%29.jpg/500px-SDO%27s_Ultra-high_Definition_View_of_2012_Venus_Transit_%28304_Angstrom_Full_Disc_02%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-        "alt": "Picture from the Wikipedia article on 2012 transit of Venus.",
-        "credit": "NASA/SDO, AIA",
-        "source": "https://commons.wikimedia.org/wiki/File:SDO%27s_Ultra-high_Definition_View_of_2012_Venus_Transit_(304_Angstrom_Full_Disc_02).jpg",
-        "license": "CC BY 2.0",
-        "licenseUrl": "https://creativecommons.org/licenses/by/2.0"
       }
     }
   ]

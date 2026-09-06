@@ -3,6 +3,60 @@
   "dateLabel": "27 February",
   "facts": [
     {
+      "id": "02-27-blades-of-exile",
+      "date": "02-27",
+      "dateLabel": "27 February",
+      "category": "culture",
+      "categoryName": "Culture",
+      "year": 1998,
+      "title": "Blades of Exile",
+      "body": "Blades of Exile is a 1997 shareware role-playing video game developed and published by Spiderweb Software. The game is the fourth and last title in the Exile series.",
+      "source": {
+        "name": "Wikipedia · Blades of Exile",
+        "url": "https://en.wikipedia.org/wiki/Blades_of_Exile",
+        "calendarUrl": "https://en.wikipedia.org/wiki/February_27",
+        "license": {
+          "name": "CC BY-SA 4.0",
+          "url": "https://creativecommons.org/licenses/by-sa/4.0/"
+        }
+      },
+      "image": {
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/7d/BOEcombat1.png/500px-BOEcombat1.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "alt": "Blades of Exile — the video game this anniversary is about.",
+        "credit": "Crossmr",
+        "source": "https://commons.wikimedia.org/wiki/File:BOEcombat1.png",
+        "license": "CPL",
+        "licenseUrl": "https://www.eclipse.org/legal/cpl-v10.html"
+      }
+    },
+    {
+      "id": "02-27-freesbie",
+      "date": "02-27",
+      "dateLabel": "27 February",
+      "category": "tech",
+      "categoryName": "Tech",
+      "year": 2004,
+      "title": "FreeSBIE",
+      "body": "FreeSBIE is a live CD, an operating system that is able to load directly from a bootable CD with no installation process or hard disk. It is based on the FreeBSD operating system.",
+      "source": {
+        "name": "Wikipedia · FreeSBIE",
+        "url": "https://en.wikipedia.org/wiki/FreeSBIE",
+        "calendarUrl": "https://en.wikipedia.org/wiki/February_27",
+        "license": {
+          "name": "CC BY-SA 4.0",
+          "url": "https://creativecommons.org/licenses/by-sa/4.0/"
+        }
+      },
+      "image": {
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/05/Freesbie2-xfce.png/500px-Freesbie2-xfce.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "alt": "FreeSBIE — the operating system this anniversary is about.",
+        "credit": "Wikimedia Commons",
+        "source": "https://commons.wikimedia.org/wiki/File:Freesbie2-xfce.png",
+        "license": "BSD",
+        "licenseUrl": "https://opensource.org/licenses/bsd-license.php"
+      }
+    },
+    {
       "id": "02-27-george-h-w-bush",
       "date": "02-27",
       "dateLabel": "27 February",
@@ -48,10 +102,10 @@
         }
       },
       "image": {
-        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/4b/Bundesarchiv_Bild_183-R97512%2C_Berlin%2C_Geheimes_Staatspolizeihauptamt.jpg/500px-Bundesarchiv_Bild_183-R97512%2C_Berlin%2C_Geheimes_Staatspolizeihauptamt.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/dc/Bundesarchiv_Bild_183-R97512%2C_Berlin%2C_Geheimes_Staatspolizeiamt.jpg/500px-Bundesarchiv_Bild_183-R97512%2C_Berlin%2C_Geheimes_Staatspolizeiamt.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
         "alt": "Picture from the Wikipedia article on Gestapo.",
         "credit": "Bundesarchiv, Bild 183-R97512",
-        "source": "https://commons.wikimedia.org/wiki/File:Bundesarchiv_Bild_183-R97512,_Berlin,_Geheimes_Staatspolizeihauptamt.jpg",
+        "source": "https://commons.wikimedia.org/wiki/File:Bundesarchiv_Bild_183-R97512,_Berlin,_Geheimes_Staatspolizeiamt.jpg",
         "license": "CC BY-SA 3.0 de",
         "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0/de/deed.en"
       }
@@ -81,60 +135,6 @@
         "source": "https://commons.wikimedia.org/wiki/File:Shanghai_Stock_Exchange_2.jpg",
         "license": "CC BY-SA 4.0",
         "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0"
-      }
-    },
-    {
-      "id": "02-27-american-indian-movement",
-      "date": "02-27",
-      "dateLabel": "27 February",
-      "category": "world",
-      "categoryName": "World",
-      "year": 1973,
-      "title": "American Indian Movement",
-      "body": "The American Indian Movement occupies Wounded Knee in protest of the federal government.",
-      "source": {
-        "name": "Wikipedia · American Indian Movement",
-        "url": "https://en.wikipedia.org/wiki/American_Indian_Movement",
-        "calendarUrl": "https://en.wikipedia.org/wiki/February_27",
-        "license": {
-          "name": "CC BY-SA 4.0",
-          "url": "https://creativecommons.org/licenses/by-sa/4.0/"
-        }
-      },
-      "image": {
-        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/3e/Flag_of_the_American_Indian_Movement_V2.svg/500px-Flag_of_the_American_Indian_Movement_V2.svg.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-        "alt": "Picture from the Wikipedia article on American Indian Movement.",
-        "credit": "Unknown author",
-        "source": "https://commons.wikimedia.org/wiki/File:Flag_of_the_American_Indian_Movement_V2.svg",
-        "license": "Public domain",
-        "licenseUrl": "https://commons.wikimedia.org/wiki/File:Flag_of_the_American_Indian_Movement_V2.svg"
-      }
-    },
-    {
-      "id": "02-27-manuel-belgrano",
-      "date": "02-27",
-      "dateLabel": "27 February",
-      "category": "world",
-      "categoryName": "World",
-      "year": 1812,
-      "title": "Manuel Belgrano",
-      "body": "Manuel Belgrano raises the Flag of Argentina in the city of Rosario for the first time.",
-      "source": {
-        "name": "Wikipedia · Manuel Belgrano",
-        "url": "https://en.wikipedia.org/wiki/Manuel_Belgrano",
-        "calendarUrl": "https://en.wikipedia.org/wiki/February_27",
-        "license": {
-          "name": "CC BY-SA 4.0",
-          "url": "https://creativecommons.org/licenses/by-sa/4.0/"
-        }
-      },
-      "image": {
-        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/81/Manuel_belgrano_by_carbonier_retouched.jpg/500px-Manuel_belgrano_by_carbonier_retouched.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-        "alt": "Picture from the Wikipedia article on Manuel Belgrano.",
-        "credit": "Attributed to Casimir Carbonnier",
-        "source": "https://commons.wikimedia.org/wiki/File:Manuel_belgrano_by_carbonier_retouched.jpg",
-        "license": "Public domain",
-        "licenseUrl": "https://commons.wikimedia.org/wiki/File:Manuel_belgrano_by_carbonier_retouched.jpg"
       }
     }
   ]

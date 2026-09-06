@@ -3,6 +3,60 @@
   "dateLabel": "18 September",
   "facts": [
     {
+      "id": "09-18-kde-partition-manager",
+      "date": "09-18",
+      "dateLabel": "18 September",
+      "category": "tech",
+      "categoryName": "Tech",
+      "year": 2008,
+      "title": "KDE Partition Manager",
+      "body": "KDE Partition Manager is a disk partitioning application originally written by Volker Lanz for the KDE Platform. 1 and is released independently of the central KDE release cycle.",
+      "source": {
+        "name": "Wikipedia · KDE Partition Manager",
+        "url": "https://en.wikipedia.org/wiki/KDE_Partition_Manager",
+        "calendarUrl": "https://en.wikipedia.org/wiki/September_18",
+        "license": {
+          "name": "CC BY-SA 4.0",
+          "url": "https://creativecommons.org/licenses/by-sa/4.0/"
+        }
+      },
+      "image": {
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/aa/KDE_Partition_Manager_21.12.0_screenshot.png/500px-KDE_Partition_Manager_21.12.0_screenshot.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "alt": "KDE Partition Manager — the application this anniversary is about.",
+        "credit": "VulcanSphere",
+        "source": "https://commons.wikimedia.org/wiki/File:KDE_Partition_Manager_21.12.0_screenshot.png",
+        "license": "GPLv3",
+        "licenseUrl": "https://www.gnu.org/licenses/gpl-3.0.html"
+      }
+    },
+    {
+      "id": "09-18-roundabout-video-game",
+      "date": "09-18",
+      "dateLabel": "18 September",
+      "category": "culture",
+      "categoryName": "Culture",
+      "year": 2014,
+      "title": "Roundabout",
+      "body": "Roundabout is an open world indie racing video game developed and published by American indie studio No Goblin LLC. In the game, described as inspired by Kuru Kuru Kururin and Crazy Taxi, the player explores a large world while driving a constantly revolving limousine.",
+      "source": {
+        "name": "Wikipedia · Roundabout (video game)",
+        "url": "https://en.wikipedia.org/wiki/Roundabout_(video_game)",
+        "calendarUrl": "https://en.wikipedia.org/wiki/September_18",
+        "license": {
+          "name": "CC BY-SA 4.0",
+          "url": "https://creativecommons.org/licenses/by-sa/4.0/"
+        }
+      },
+      "image": {
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/7b/Roundabout_-_Splash_Screen.png/500px-Roundabout_-_Splash_Screen.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "alt": "Roundabout — the video game this anniversary is about.",
+        "credit": "Roundabout by No Goblin",
+        "source": "https://commons.wikimedia.org/wiki/File:Roundabout_-_Splash_Screen.png",
+        "license": "CC BY 3.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by/3.0"
+      }
+    },
+    {
       "id": "09-18-voyager-i",
       "date": "09-18",
       "dateLabel": "18 September",
@@ -27,33 +81,6 @@
         "source": "https://commons.wikimedia.org/wiki/File:Voyager_spacecraft_model.png",
         "license": "Public domain",
         "licenseUrl": "https://commons.wikimedia.org/wiki/File:Voyager_spacecraft_model.png"
-      }
-    },
-    {
-      "id": "09-18-cbs-studios",
-      "date": "09-18",
-      "dateLabel": "18 September",
-      "category": "culture",
-      "categoryName": "Culture",
-      "year": 2009,
-      "title": "CBS Studios",
-      "body": "After 72 years on radio and television, CBS Television broadcasts the final episode of Guiding Light, the longest-running soap opera in American history.",
-      "source": {
-        "name": "Wikipedia · CBS Studios",
-        "url": "https://en.wikipedia.org/wiki/CBS_Studios",
-        "calendarUrl": "https://en.wikipedia.org/wiki/September_18",
-        "license": {
-          "name": "CC BY-SA 4.0",
-          "url": "https://creativecommons.org/licenses/by-sa/4.0/"
-        }
-      },
-      "image": {
-        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f1/CBS_Studios_%28Stacked%29.svg/500px-CBS_Studios_%28Stacked%29.svg.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-        "alt": "Picture from the Wikipedia article on CBS Studios.",
-        "credit": "Paramount Global",
-        "source": "https://commons.wikimedia.org/wiki/File:CBS_Studios_(Stacked).svg",
-        "license": "Public domain",
-        "licenseUrl": "https://commons.wikimedia.org/wiki/File:CBS_Studios_(Stacked).svg"
       }
     },
     {
@@ -84,17 +111,17 @@
       }
     },
     {
-      "id": "09-18-george-owen-squier",
+      "id": "09-18-cbs-studios",
       "date": "09-18",
       "dateLabel": "18 September",
-      "category": "tech",
-      "categoryName": "Tech",
-      "year": 1910,
-      "title": "George Owen Squier",
-      "body": "In Washington, D.C., George Owen Squier demonstrated the first system to allow multiplexing of telephone transmissions, sending a message between two laboratories of the U.S. Signal Corps.",
+      "category": "culture",
+      "categoryName": "Culture",
+      "year": 2009,
+      "title": "CBS Studios",
+      "body": "After 72 years on radio and television, CBS Television broadcasts the final episode of Guiding Light, the longest-running soap opera in American history.",
       "source": {
-        "name": "Wikipedia · George Owen Squier",
-        "url": "https://en.wikipedia.org/wiki/George_Owen_Squier",
+        "name": "Wikipedia · CBS Studios",
+        "url": "https://en.wikipedia.org/wiki/CBS_Studios",
         "calendarUrl": "https://en.wikipedia.org/wiki/September_18",
         "license": {
           "name": "CC BY-SA 4.0",
@@ -102,39 +129,12 @@
         }
       },
       "image": {
-        "src": "https://upload.wikimedia.org/wikipedia/commons/0/0e/George_Owen_Squier.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
-        "alt": "Picture from the Wikipedia article on George Owen Squier.",
-        "credit": "United States Army images",
-        "source": "https://commons.wikimedia.org/wiki/File:George_Owen_Squier.jpg",
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f1/CBS_Studios_%28Stacked%29.svg/500px-CBS_Studios_%28Stacked%29.svg.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "alt": "Picture from the Wikipedia article on CBS Studios.",
+        "credit": "Paramount Global",
+        "source": "https://commons.wikimedia.org/wiki/File:CBS_Studios_(Stacked).svg",
         "license": "Public domain",
-        "licenseUrl": "https://commons.wikimedia.org/wiki/File:George_Owen_Squier.jpg"
-      }
-    },
-    {
-      "id": "09-18-philippe-croizon",
-      "date": "09-18",
-      "dateLabel": "18 September",
-      "category": "world",
-      "categoryName": "World",
-      "year": 2010,
-      "title": "Philippe Croizon",
-      "body": "Philippe Croizon becomes the first quadruple amputee to swim across the English Channel.",
-      "source": {
-        "name": "Wikipedia · Philippe Croizon",
-        "url": "https://en.wikipedia.org/wiki/Philippe_Croizon",
-        "calendarUrl": "https://en.wikipedia.org/wiki/September_18",
-        "license": {
-          "name": "CC BY-SA 4.0",
-          "url": "https://creativecommons.org/licenses/by-sa/4.0/"
-        }
-      },
-      "image": {
-        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/72/Dakar_2016_-_Conf%C3%A9rence_de_presse_-_20151118_-_134.jpg/500px-Dakar_2016_-_Conf%C3%A9rence_de_presse_-_20151118_-_134.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-        "alt": "Picture from the Wikipedia article on Philippe Croizon.",
-        "credit": "Thesupermat",
-        "source": "https://commons.wikimedia.org/wiki/File:Dakar_2016_-_Conf%C3%A9rence_de_presse_-_20151118_-_134.jpg",
-        "license": "CC BY-SA 4.0",
-        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0"
+        "licenseUrl": "https://commons.wikimedia.org/wiki/File:CBS_Studios_(Stacked).svg"
       }
     }
   ]

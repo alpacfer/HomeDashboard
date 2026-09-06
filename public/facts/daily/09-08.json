@@ -3,6 +3,33 @@
   "dateLabel": "8 September",
   "facts": [
     {
+      "id": "09-08-vox-video-game",
+      "date": "09-08",
+      "dateLabel": "8 September",
+      "category": "culture",
+      "categoryName": "Culture",
+      "year": 2012,
+      "title": "Vox",
+      "body": "Vox is an independent voxel-based adventure and role-playing video game developed by Canadian studio AlwaysGeeky Games.",
+      "source": {
+        "name": "Wikipedia · Vox (video game)",
+        "url": "https://en.wikipedia.org/wiki/Vox_(video_game)",
+        "calendarUrl": "https://en.wikipedia.org/wiki/September_8",
+        "license": {
+          "name": "CC BY-SA 4.0",
+          "url": "https://creativecommons.org/licenses/by-sa/4.0/"
+        }
+      },
+      "image": {
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b9/Vox_Game_Logo.jpg/500px-Vox_Game_Logo.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "alt": "Vox — the video game this anniversary is about.",
+        "credit": "Moondoggy",
+        "source": "https://commons.wikimedia.org/wiki/File:Vox_Game_Logo.jpg",
+        "license": "CC BY-SA 3.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0"
+      }
+    },
+    {
       "id": "09-08-osiris-rex",
       "date": "09-08",
       "dateLabel": "8 September",
@@ -108,33 +135,6 @@
         "source": "https://commons.wikimedia.org/wiki/File:Fus%C3%A9e_V2_(cropped).jpg",
         "license": "CC BY-SA 3.0",
         "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0/"
-      }
-    },
-    {
-      "id": "09-08-yellowstone-fires-of-1988",
-      "date": "09-08",
-      "dateLabel": "8 September",
-      "category": "world",
-      "categoryName": "World",
-      "year": 1988,
-      "title": "Yellowstone fires of 1988",
-      "body": "Yellowstone National Park is closed for the first time in U.S. history due to ongoing fires.",
-      "source": {
-        "name": "Wikipedia · Yellowstone fires of 1988",
-        "url": "https://en.wikipedia.org/wiki/Yellowstone_fires_of_1988",
-        "calendarUrl": "https://en.wikipedia.org/wiki/September_8",
-        "license": {
-          "name": "CC BY-SA 4.0",
-          "url": "https://creativecommons.org/licenses/by-sa/4.0/"
-        }
-      },
-      "image": {
-        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e9/Fire_near_Old_Faithful_Complex_2.jpg/500px-Fire_near_Old_Faithful_Complex_2.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-        "alt": "Picture from the Wikipedia article on Yellowstone fires of 1988.",
-        "credit": "Wikimedia Commons",
-        "source": "https://commons.wikimedia.org/wiki/File:Fire_near_Old_Faithful_Complex_2.jpg",
-        "license": "Public domain",
-        "licenseUrl": "https://commons.wikimedia.org/wiki/File:Fire_near_Old_Faithful_Complex_2.jpg"
       }
     }
   ]

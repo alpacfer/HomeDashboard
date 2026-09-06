@@ -3,6 +3,60 @@
   "dateLabel": "19 May",
   "facts": [
     {
+      "id": "05-19-observador",
+      "date": "05-19",
+      "dateLabel": "19 May",
+      "category": "tech",
+      "categoryName": "Tech",
+      "year": 2014,
+      "title": "Observador",
+      "body": "Observador is a Portuguese online newspaper started on May 19, 2014. It is the only Portuguese-language newspaper in Portugal with a defined political orientation (right-wing liberalism).",
+      "source": {
+        "name": "Wikipedia · Observador",
+        "url": "https://en.wikipedia.org/wiki/Observador",
+        "calendarUrl": "https://en.wikipedia.org/wiki/May_19",
+        "license": {
+          "name": "CC BY-SA 4.0",
+          "url": "https://creativecommons.org/licenses/by-sa/4.0/"
+        }
+      },
+      "image": {
+        "src": "https://upload.wikimedia.org/wikipedia/commons/9/97/Logo_observador_pequeno.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+        "alt": "Observador — the website this anniversary is about.",
+        "credit": "Appinheiro",
+        "source": "https://commons.wikimedia.org/wiki/File:Logo_observador_pequeno.png",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0"
+      }
+    },
+    {
+      "id": "05-19-libera-chat",
+      "date": "05-19",
+      "dateLabel": "19 May",
+      "category": "tech",
+      "categoryName": "Tech",
+      "year": 2021,
+      "title": "Libera.Chat",
+      "body": "Chat, is an IRC network for free and open-source software projects. Libera Chat prohibits VPN and Tor access for unregistered users.",
+      "source": {
+        "name": "Wikipedia · Libera Chat",
+        "url": "https://en.wikipedia.org/wiki/Libera_Chat",
+        "calendarUrl": "https://en.wikipedia.org/wiki/May_19",
+        "license": {
+          "name": "CC BY-SA 4.0",
+          "url": "https://creativecommons.org/licenses/by-sa/4.0/"
+        }
+      },
+      "image": {
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/10/Libera_Chat_KiwiIRC_web_client_chat_screenshot.png/500px-Libera_Chat_KiwiIRC_web_client_chat_screenshot.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "alt": "Libera.Chat — the website this anniversary is about.",
+        "credit": "VulcanSphere",
+        "source": "https://commons.wikimedia.org/wiki/File:Libera_Chat_KiwiIRC_web_client_chat_screenshot.png",
+        "license": "Apache License 2.0",
+        "licenseUrl": "https://www.apache.org/licenses/LICENSE-2.0"
+      }
+    },
+    {
       "id": "05-19-venera-1",
       "date": "05-19",
       "dateLabel": "19 May",
@@ -81,60 +135,6 @@
         "source": "https://commons.wikimedia.org/wiki/File:Rosenborg_logo_RGB.svg",
         "license": "Public domain",
         "licenseUrl": "https://commons.wikimedia.org/wiki/File:Rosenborg_logo_RGB.svg"
-      }
-    },
-    {
-      "id": "05-19-john-franklin",
-      "date": "05-19",
-      "dateLabel": "19 May",
-      "category": "science",
-      "categoryName": "Science",
-      "year": 1845,
-      "title": "John Franklin",
-      "body": "Captain Sir John Franklin and his ill-fated Arctic expedition depart from Greenhithe, England.",
-      "source": {
-        "name": "Wikipedia · John Franklin",
-        "url": "https://en.wikipedia.org/wiki/John_Franklin",
-        "calendarUrl": "https://en.wikipedia.org/wiki/May_19",
-        "license": {
-          "name": "CC BY-SA 4.0",
-          "url": "https://creativecommons.org/licenses/by-sa/4.0/"
-        }
-      },
-      "image": {
-        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b1/Sir_John_Franklin_by_Thomas_Phillips.jpg/500px-Sir_John_Franklin_by_Thomas_Phillips.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-        "alt": "Picture from the Wikipedia article on John Franklin.",
-        "credit": "Thomas Phillips",
-        "source": "https://commons.wikimedia.org/wiki/File:Sir_John_Franklin_by_Thomas_Phillips.jpg",
-        "license": "Public domain",
-        "licenseUrl": "https://commons.wikimedia.org/wiki/File:Sir_John_Franklin_by_Thomas_Phillips.jpg"
-      }
-    },
-    {
-      "id": "05-19-mars-2",
-      "date": "05-19",
-      "dateLabel": "19 May",
-      "category": "space",
-      "categoryName": "Space",
-      "year": 1971,
-      "title": "Mars 2",
-      "body": "Mars 2 is launched by the Soviet Union.",
-      "source": {
-        "name": "Wikipedia · Mars 2",
-        "url": "https://en.wikipedia.org/wiki/Mars_2",
-        "calendarUrl": "https://en.wikipedia.org/wiki/May_19",
-        "license": {
-          "name": "CC BY-SA 4.0",
-          "url": "https://creativecommons.org/licenses/by-sa/4.0/"
-        }
-      },
-      "image": {
-        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f7/1972_CPA_4113.jpg/500px-1972_CPA_4113.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-        "alt": "Picture from the Wikipedia article on Mars 2.",
-        "credit": "USSR Post",
-        "source": "https://commons.wikimedia.org/wiki/File:1972_CPA_4113.jpg",
-        "license": "Public domain",
-        "licenseUrl": "https://commons.wikimedia.org/wiki/File:1972_CPA_4113.jpg"
       }
     }
   ]

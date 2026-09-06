@@ -3,6 +3,33 @@
   "dateLabel": "3 June",
   "facts": [
     {
+      "id": "06-03-microsoft-bing",
+      "date": "06-03",
+      "dateLabel": "3 June",
+      "category": "tech",
+      "categoryName": "Tech",
+      "year": 2009,
+      "title": "Microsoft Bing",
+      "body": "Microsoft Bing (also known simply as Bing) is a search engine owned and operated by Microsoft, and developed by Microsoft AI. The service traces its roots back to Microsoft's earlier search engines, including MSN Search, Windows Live Search, and Live Search. NET.",
+      "source": {
+        "name": "Wikipedia · Microsoft Bing",
+        "url": "https://en.wikipedia.org/wiki/Microsoft_Bing",
+        "calendarUrl": "https://en.wikipedia.org/wiki/June_3",
+        "license": {
+          "name": "CC BY-SA 4.0",
+          "url": "https://creativecommons.org/licenses/by-sa/4.0/"
+        }
+      },
+      "image": {
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/77/New_Bing_Screenshot.png/500px-New_Bing_Screenshot.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "alt": "Microsoft Bing — the search engine this anniversary is about.",
+        "credit": "Microsoft Bing",
+        "source": "https://commons.wikimedia.org/wiki/File:New_Bing_Screenshot.png",
+        "license": "CC0",
+        "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/deed.en"
+      }
+    },
+    {
       "id": "06-03-gemini-4",
       "date": "06-03",
       "dateLabel": "3 June",
@@ -108,33 +135,6 @@
         "source": "https://commons.wikimedia.org/wiki/File:Emblema_de_l%27Acad%C3%A8mia_dels_Desconfiats.jpg",
         "license": "Public domain",
         "licenseUrl": "https://commons.wikimedia.org/wiki/File:Emblema_de_l%27Acad%C3%A8mia_dels_Desconfiats.jpg"
-      }
-    },
-    {
-      "id": "06-03-edward-viii",
-      "date": "06-03",
-      "dateLabel": "3 June",
-      "category": "world",
-      "categoryName": "World",
-      "year": 1937,
-      "title": "Edward VIII",
-      "body": "The Duke of Windsor (the former King Edward VIII of the United Kingdom) marries Wallis Simpson.",
-      "source": {
-        "name": "Wikipedia · Edward VIII",
-        "url": "https://en.wikipedia.org/wiki/Edward_VIII",
-        "calendarUrl": "https://en.wikipedia.org/wiki/June_3",
-        "license": {
-          "name": "CC BY-SA 4.0",
-          "url": "https://creativecommons.org/licenses/by-sa/4.0/"
-        }
-      },
-      "image": {
-        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a3/HRH_The_Prince_of_Wales_No_4_%28HS85-10-36416%29.jpg/500px-HRH_The_Prince_of_Wales_No_4_%28HS85-10-36416%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-        "alt": "Picture from the Wikipedia article on Edward VIII.",
-        "credit": "Freeland Studio",
-        "source": "https://commons.wikimedia.org/wiki/File:HRH_The_Prince_of_Wales_No_4_(HS85-10-36416).jpg",
-        "license": "Public domain",
-        "licenseUrl": "https://commons.wikimedia.org/wiki/File:HRH_The_Prince_of_Wales_No_4_(HS85-10-36416).jpg"
       }
     }
   ]

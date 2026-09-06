@@ -3,6 +3,33 @@
   "dateLabel": "19 October",
   "facts": [
     {
+      "id": "10-19-ballistics-video-game",
+      "date": "10-19",
+      "dateLabel": "19 October",
+      "category": "culture",
+      "categoryName": "Culture",
+      "year": 2001,
+      "title": "Ballistics",
+      "body": "Ballistics is a futuristic racing computer game developed by Grin and published by Xicat Interactive in 2001. Grin developed an arcade version of the game, released in 2002 featuring a unique reclined seating position cabinet by Triotech.",
+      "source": {
+        "name": "Wikipedia · Ballistics (video game)",
+        "url": "https://en.wikipedia.org/wiki/Ballistics_(video_game)",
+        "calendarUrl": "https://en.wikipedia.org/wiki/October_19",
+        "license": {
+          "name": "CC BY-SA 4.0",
+          "url": "https://creativecommons.org/licenses/by-sa/4.0/"
+        }
+      },
+      "image": {
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f3/Ballistics_Arcade_-_IAAPA.jpg/500px-Ballistics_Arcade_-_IAAPA.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "alt": "Ballistics — the video game this anniversary is about.",
+        "credit": "Wikimedia Commons",
+        "source": "https://commons.wikimedia.org/wiki/File:Ballistics_Arcade_-_IAAPA.jpg",
+        "license": "CC BY-SA 3.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0"
+      }
+    },
+    {
       "id": "10-19-french-crown-jewels",
       "date": "10-19",
       "dateLabel": "19 October",
@@ -27,33 +54,6 @@
         "source": "https://commons.wikimedia.org/wiki/File:FrenchCrownJewelsLouvre-1.jpg",
         "license": "CC BY 2.0",
         "licenseUrl": "https://creativecommons.org/licenses/by/2.0"
-      }
-    },
-    {
-      "id": "10-19-history-of-the-eurovision-song-contest",
-      "date": "10-19",
-      "dateLabel": "19 October",
-      "category": "culture",
-      "categoryName": "Culture",
-      "year": 1955,
-      "title": "History of the Eurovision Song Contest",
-      "body": "The General Assembly of the European Broadcasting Union approves the staging of the first Eurovision Song Contest.",
-      "source": {
-        "name": "Wikipedia · History of the Eurovision Song Contest",
-        "url": "https://en.wikipedia.org/wiki/History_of_the_Eurovision_Song_Contest",
-        "calendarUrl": "https://en.wikipedia.org/wiki/October_19",
-        "license": {
-          "name": "CC BY-SA 4.0",
-          "url": "https://creativecommons.org/licenses/by-sa/4.0/"
-        }
-      },
-      "image": {
-        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/65/Marcel_Bezen%C3%A7on_%281980%29.jpg/500px-Marcel_Bezen%C3%A7on_%281980%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-        "alt": "Picture from the Wikipedia article on History of the Eurovision Song Contest.",
-        "credit": "Hans van Dijk for Anefo",
-        "source": "https://commons.wikimedia.org/wiki/File:Marcel_Bezen%C3%A7on_(1980).jpg",
-        "license": "CC0",
-        "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/deed.en"
       }
     },
     {
@@ -111,17 +111,17 @@
       }
     },
     {
-      "id": "10-19-point-four-program",
+      "id": "10-19-history-of-the-eurovision-song-contest",
       "date": "10-19",
       "dateLabel": "19 October",
-      "category": "world",
-      "categoryName": "World",
-      "year": 1950,
-      "title": "Point Four Program",
-      "body": "Iran becomes the first country to accept technical assistance from the United States under the Point Four Program.",
+      "category": "culture",
+      "categoryName": "Culture",
+      "year": 1955,
+      "title": "History of the Eurovision Song Contest",
+      "body": "The General Assembly of the European Broadcasting Union approves the staging of the first Eurovision Song Contest.",
       "source": {
-        "name": "Wikipedia · Point Four Program",
-        "url": "https://en.wikipedia.org/wiki/Point_Four_Program",
+        "name": "Wikipedia · History of the Eurovision Song Contest",
+        "url": "https://en.wikipedia.org/wiki/History_of_the_Eurovision_Song_Contest",
         "calendarUrl": "https://en.wikipedia.org/wiki/October_19",
         "license": {
           "name": "CC BY-SA 4.0",
@@ -129,12 +129,12 @@
         }
       },
       "image": {
-        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/fd/Department_of_State_-_Technical_Cooperation_Administration.jpg/500px-Department_of_State_-_Technical_Cooperation_Administration.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-        "alt": "Picture from the Wikipedia article on Point Four Program.",
-        "credit": "US Department of State",
-        "source": "https://commons.wikimedia.org/wiki/File:Department_of_State_-_Technical_Cooperation_Administration.jpg",
-        "license": "Public domain",
-        "licenseUrl": "https://commons.wikimedia.org/wiki/File:Department_of_State_-_Technical_Cooperation_Administration.jpg"
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/65/Marcel_Bezen%C3%A7on_%281980%29.jpg/500px-Marcel_Bezen%C3%A7on_%281980%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "alt": "Picture from the Wikipedia article on History of the Eurovision Song Contest.",
+        "credit": "Hans van Dijk for Anefo",
+        "source": "https://commons.wikimedia.org/wiki/File:Marcel_Bezen%C3%A7on_(1980).jpg",
+        "license": "CC0",
+        "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/deed.en"
       }
     }
   ]

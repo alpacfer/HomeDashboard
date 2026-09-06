@@ -3,6 +3,60 @@
   "dateLabel": "19 April",
   "facts": [
     {
+      "id": "04-19-dig-dug",
+      "date": "04-19",
+      "dateLabel": "19 April",
+      "category": "culture",
+      "categoryName": "Culture",
+      "year": 1982,
+      "title": "Dig Dug",
+      "body": "Dig Dug is a 1982 maze video game developed and published by Namco for arcades. It was released by Atari, Inc.",
+      "source": {
+        "name": "Wikipedia · Dig Dug",
+        "url": "https://en.wikipedia.org/wiki/Dig_Dug",
+        "calendarUrl": "https://en.wikipedia.org/wiki/April_19",
+        "license": {
+          "name": "CC BY-SA 4.0",
+          "url": "https://creativecommons.org/licenses/by-sa/4.0/"
+        }
+      },
+      "image": {
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/de/Dig_Dug_%28Taizo_Hori%29_and_Pooka_characters.png/500px-Dig_Dug_%28Taizo_Hori%29_and_Pooka_characters.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "alt": "Dig Dug — the video game this anniversary is about.",
+        "credit": "Bandai Namco Entertainment America",
+        "source": "https://commons.wikimedia.org/wiki/File:Dig_Dug_(Taizo_Hori)_and_Pooka_characters.png",
+        "license": "CC BY 3.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by/3.0"
+      }
+    },
+    {
+      "id": "04-19-windows-mobile",
+      "date": "04-19",
+      "dateLabel": "19 April",
+      "category": "tech",
+      "categoryName": "Tech",
+      "year": 2000,
+      "title": "Windows Mobile",
+      "body": "Windows Mobile is a discontinued mobile operating system developed by Microsoft for smartphones and personal digital assistants (PDA).",
+      "source": {
+        "name": "Wikipedia · Windows Mobile",
+        "url": "https://en.wikipedia.org/wiki/Windows_Mobile",
+        "calendarUrl": "https://en.wikipedia.org/wiki/April_19",
+        "license": {
+          "name": "CC BY-SA 4.0",
+          "url": "https://creativecommons.org/licenses/by-sa/4.0/"
+        }
+      },
+      "image": {
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/6e/Htc_gene_with_wm6_5.JPG/500px-Htc_gene_with_wm6_5.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "alt": "Windows Mobile — the operating system this anniversary is about.",
+        "credit": "Sainath Parkar",
+        "source": "https://commons.wikimedia.org/wiki/File:Htc_gene_with_wm6_5.JPG",
+        "license": "CC BY-SA 3.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0"
+      }
+    },
+    {
       "id": "04-19-ingenuity-helicopter",
       "date": "04-19",
       "dateLabel": "19 April",
@@ -81,60 +135,6 @@
         "source": "https://commons.wikimedia.org/wiki/File:Augustin_Fresnel.jpg",
         "license": "Public domain",
         "licenseUrl": "https://commons.wikimedia.org/wiki/File:Augustin_Fresnel.jpg"
-      }
-    },
-    {
-      "id": "04-19-bundestag",
-      "date": "04-19",
-      "dateLabel": "19 April",
-      "category": "world",
-      "categoryName": "World",
-      "year": 1999,
-      "title": "Bundestag",
-      "body": "The German Bundestag returns to Berlin.",
-      "source": {
-        "name": "Wikipedia · Bundestag",
-        "url": "https://en.wikipedia.org/wiki/Bundestag",
-        "calendarUrl": "https://en.wikipedia.org/wiki/April_19",
-        "license": {
-          "name": "CC BY-SA 4.0",
-          "url": "https://creativecommons.org/licenses/by-sa/4.0/"
-        }
-      },
-      "image": {
-        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b5/Deutscher_Bundestag_logo.svg/500px-Deutscher_Bundestag_logo.svg.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-        "alt": "Picture from the Wikipedia article on Bundestag.",
-        "credit": "Bundestag",
-        "source": "https://commons.wikimedia.org/wiki/File:Deutscher_Bundestag_logo.svg",
-        "license": "Public domain",
-        "licenseUrl": "https://commons.wikimedia.org/wiki/File:Deutscher_Bundestag_logo.svg"
-      }
-    },
-    {
-      "id": "04-19-grace-kelly",
-      "date": "04-19",
-      "dateLabel": "19 April",
-      "category": "world",
-      "categoryName": "World",
-      "year": 1956,
-      "title": "Grace Kelly",
-      "body": "Actress Grace Kelly marries Prince Rainier of Monaco.",
-      "source": {
-        "name": "Wikipedia · Grace Kelly",
-        "url": "https://en.wikipedia.org/wiki/Grace_Kelly",
-        "calendarUrl": "https://en.wikipedia.org/wiki/April_19",
-        "license": {
-          "name": "CC BY-SA 4.0",
-          "url": "https://creativecommons.org/licenses/by-sa/4.0/"
-        }
-      },
-      "image": {
-        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/3e/Grace_Kelly_1955.jpg/500px-Grace_Kelly_1955.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-        "alt": "Picture from the Wikipedia article on Grace Kelly.",
-        "credit": "Sterling Publications-publisher's name…",
-        "source": "https://commons.wikimedia.org/wiki/File:Grace_Kelly_1955.jpg",
-        "license": "Public domain",
-        "licenseUrl": "https://commons.wikimedia.org/wiki/File:Grace_Kelly_1955.jpg"
       }
     }
   ]

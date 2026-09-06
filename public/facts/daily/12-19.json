@@ -3,6 +3,60 @@
   "dateLabel": "19 December",
   "facts": [
     {
+      "id": "12-19-sega-rally-championship",
+      "date": "12-19",
+      "dateLabel": "19 December",
+      "category": "culture",
+      "categoryName": "Culture",
+      "year": 1995,
+      "title": "Sega Rally Championship",
+      "body": "Sega Rally Championship is a 1995 racing game developed and published by Sega. Originally released for arcades using the Sega Model 2 board, ports were published for the Sega Saturn in 1995 and Microsoft Windows in 1997.",
+      "source": {
+        "name": "Wikipedia · Sega Rally Championship",
+        "url": "https://en.wikipedia.org/wiki/Sega_Rally_Championship",
+        "calendarUrl": "https://en.wikipedia.org/wiki/December_19",
+        "license": {
+          "name": "CC BY-SA 4.0",
+          "url": "https://creativecommons.org/licenses/by-sa/4.0/"
+        }
+      },
+      "image": {
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/3f/Sega_Rally_Twin_-_Japanese_Cabinet.jpg/500px-Sega_Rally_Twin_-_Japanese_Cabinet.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "alt": "Sega Rally Championship — the video game this anniversary is about.",
+        "credit": "Brettv8",
+        "source": "https://commons.wikimedia.org/wiki/File:Sega_Rally_Twin_-_Japanese_Cabinet.jpg",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0"
+      }
+    },
+    {
+      "id": "12-19-need-for-speed-undercover",
+      "date": "12-19",
+      "dateLabel": "19 December",
+      "category": "culture",
+      "categoryName": "Culture",
+      "year": 2008,
+      "title": "Need for Speed: Undercover",
+      "body": "Undercover is a 2008 racing video game, and is the twelfth installment in the Need for Speed series following Need for Speed: ProStreet (2007).",
+      "source": {
+        "name": "Wikipedia · Need for Speed: Undercover",
+        "url": "https://en.wikipedia.org/wiki/Need_for_Speed:_Undercover",
+        "calendarUrl": "https://en.wikipedia.org/wiki/December_19",
+        "license": {
+          "name": "CC BY-SA 4.0",
+          "url": "https://creativecommons.org/licenses/by-sa/4.0/"
+        }
+      },
+      "image": {
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/8b/Igromir_2008_%283012936938%29.jpg/500px-Igromir_2008_%283012936938%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "alt": "Need for Speed: Undercover — the video game this anniversary is about.",
+        "credit": "Sergey Galyonkin from Raleigh, USA",
+        "source": "https://commons.wikimedia.org/wiki/File:Igromir_2008_(3012936938).jpg",
+        "license": "CC BY-SA 2.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0"
+      }
+    },
+    {
       "id": "12-19-apollo-17",
       "date": "12-19",
       "dateLabel": "19 December",
@@ -81,60 +135,6 @@
         "source": "https://commons.wikimedia.org/wiki/File:FIFA_World_Cup_Trophy_photo_by_Djuradj_Vujcic.jpg",
         "license": "CC BY 2.0",
         "licenseUrl": "https://creativecommons.org/licenses/by/2.0"
-      }
-    },
-    {
-      "id": "12-19-gaia-spacecraft",
-      "date": "12-19",
-      "dateLabel": "19 December",
-      "category": "space",
-      "categoryName": "Space",
-      "year": 2013,
-      "title": "Gaia",
-      "body": "Spacecraft Gaia is launched by the European Space Agency.",
-      "source": {
-        "name": "Wikipedia · Gaia (spacecraft)",
-        "url": "https://en.wikipedia.org/wiki/Gaia_(spacecraft)",
-        "calendarUrl": "https://en.wikipedia.org/wiki/December_19",
-        "license": {
-          "name": "CC BY-SA 4.0",
-          "url": "https://creativecommons.org/licenses/by-sa/4.0/"
-        }
-      },
-      "image": {
-        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/fd/Gaia_observes_the_Milky_Way_ESA24305955.jpeg/500px-Gaia_observes_the_Milky_Way_ESA24305955.jpeg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-        "alt": "Picture from the Wikipedia article on Gaia.",
-        "credit": "ESA/Gaia/DPAC",
-        "source": "https://commons.wikimedia.org/wiki/File:Gaia_observes_the_Milky_Way_ESA24305955.jpeg",
-        "license": "CC BY-SA 3.0 igo",
-        "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0/igo/deed.en"
-      }
-    },
-    {
-      "id": "12-19-penlee-lifeboat-disaster",
-      "date": "12-19",
-      "dateLabel": "19 December",
-      "category": "world",
-      "categoryName": "World",
-      "year": 1981,
-      "title": "Penlee lifeboat disaster",
-      "body": "Sixteen lives are lost when the Penlee lifeboat goes to the aid of the stricken coaster Union Star in heavy seas.",
-      "source": {
-        "name": "Wikipedia · Penlee lifeboat disaster",
-        "url": "https://en.wikipedia.org/wiki/Penlee_lifeboat_disaster",
-        "calendarUrl": "https://en.wikipedia.org/wiki/December_19",
-        "license": {
-          "name": "CC BY-SA 4.0",
-          "url": "https://creativecommons.org/licenses/by-sa/4.0/"
-        }
-      },
-      "image": {
-        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b8/Penlee_Memorials_-_geograph.org.uk_-_848496.jpg/500px-Penlee_Memorials_-_geograph.org.uk_-_848496.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-        "alt": "Picture from the Wikipedia article on Penlee lifeboat disaster.",
-        "credit": "Tony Atkin",
-        "source": "https://commons.wikimedia.org/wiki/File:Penlee_Memorials_-_geograph.org.uk_-_848496.jpg",
-        "license": "CC BY-SA 2.0",
-        "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0"
       }
     }
   ]

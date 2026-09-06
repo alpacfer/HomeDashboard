@@ -3,6 +3,60 @@
   "dateLabel": "27 April",
   "facts": [
     {
+      "id": "04-27-android-cupcake",
+      "date": "04-27",
+      "dateLabel": "27 April",
+      "category": "tech",
+      "categoryName": "Tech",
+      "year": 2009,
+      "title": "Android Cupcake",
+      "body": "1. It was released on April 27, 2009, and succeeded by Android Donut on September 15, 2009.",
+      "source": {
+        "name": "Wikipedia · Android Cupcake",
+        "url": "https://en.wikipedia.org/wiki/Android_Cupcake",
+        "calendarUrl": "https://en.wikipedia.org/wiki/April_27",
+        "license": {
+          "name": "CC BY-SA 4.0",
+          "url": "https://creativecommons.org/licenses/by-sa/4.0/"
+        }
+      },
+      "image": {
+        "src": "https://upload.wikimedia.org/wikipedia/commons/2/26/Android_Cupcake_home_screen.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+        "alt": "Android Cupcake — the operating system this anniversary is about.",
+        "credit": "Android Police",
+        "source": "https://commons.wikimedia.org/wiki/File:Android_Cupcake_home_screen.jpg",
+        "license": "Apache License 2.0",
+        "licenseUrl": "https://www.apache.org/licenses/LICENSE-2.0"
+      }
+    },
+    {
+      "id": "04-27-bleeding-cool",
+      "date": "04-27",
+      "dateLabel": "27 April",
+      "category": "tech",
+      "categoryName": "Tech",
+      "year": 2009,
+      "title": "Bleeding Cool",
+      "body": "Bleeding Cool is a news website focusing on comics, television, film, board games, and video games. Owned by Avatar Press, it was launched by Rich Johnston in 2009.",
+      "source": {
+        "name": "Wikipedia · Bleeding Cool",
+        "url": "https://en.wikipedia.org/wiki/Bleeding_Cool",
+        "calendarUrl": "https://en.wikipedia.org/wiki/April_27",
+        "license": {
+          "name": "CC BY-SA 4.0",
+          "url": "https://creativecommons.org/licenses/by-sa/4.0/"
+        }
+      },
+      "image": {
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/36/10.11.13BleedingCoolByLuigiNovi1.jpg/500px-10.11.13BleedingCoolByLuigiNovi1.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "alt": "Bleeding Cool — the website this anniversary is about.",
+        "credit": "Luigi Novi",
+        "source": "https://commons.wikimedia.org/wiki/File:10.11.13BleedingCoolByLuigiNovi1.jpg",
+        "license": "CC BY 3.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by/3.0"
+      }
+    },
+    {
       "id": "04-27-state-duma-russian-empire",
       "date": "04-27",
       "dateLabel": "27 April",
@@ -81,60 +135,6 @@
         "source": "https://commons.wikimedia.org/wiki/File:Flag_of_Serbia_and_Montenegro_(1992%E2%80%932006).svg",
         "license": "Public domain",
         "licenseUrl": "https://commons.wikimedia.org/wiki/File:Flag_of_Serbia_and_Montenegro_(1992%E2%80%932006).svg"
-      }
-    },
-    {
-      "id": "04-27-operation-moolah",
-      "date": "04-27",
-      "dateLabel": "27 April",
-      "category": "world",
-      "categoryName": "World",
-      "year": 1953,
-      "title": "Operation Moolah",
-      "body": "Operation Moolah offers $50,000 to any pilot who defects with a fully mission-capable Mikoyan-Gurevich MiG-15 to South Korea. The first pilot was to receive $100,000.",
-      "source": {
-        "name": "Wikipedia · Operation Moolah",
-        "url": "https://en.wikipedia.org/wiki/Operation_Moolah",
-        "calendarUrl": "https://en.wikipedia.org/wiki/April_27",
-        "license": {
-          "name": "CC BY-SA 4.0",
-          "url": "https://creativecommons.org/licenses/by-sa/4.0/"
-        }
-      },
-      "image": {
-        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/4e/MiG-15_USAF.jpg/500px-MiG-15_USAF.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-        "alt": "Picture from the Wikipedia article on Operation Moolah.",
-        "credit": "Wikimedia Commons",
-        "source": "https://commons.wikimedia.org/wiki/File:MiG-15_USAF.jpg",
-        "license": "Public domain",
-        "licenseUrl": "https://commons.wikimedia.org/wiki/File:MiG-15_USAF.jpg"
-      }
-    },
-    {
-      "id": "04-27-expo-67",
-      "date": "04-27",
-      "dateLabel": "27 April",
-      "category": "world",
-      "categoryName": "World",
-      "year": 1967,
-      "title": "Expo 67",
-      "body": "Expo 67 officially opens in Montreal, Quebec, Canada with a large opening ceremony broadcast around the world. It opens to the public the next day.",
-      "source": {
-        "name": "Wikipedia · Expo 67",
-        "url": "https://en.wikipedia.org/wiki/Expo_67",
-        "calendarUrl": "https://en.wikipedia.org/wiki/April_27",
-        "license": {
-          "name": "CC BY-SA 4.0",
-          "url": "https://creativecommons.org/licenses/by-sa/4.0/"
-        }
-      },
-      "image": {
-        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/34/Expo_67_logo.svg/500px-Expo_67_logo.svg.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-        "alt": "Picture from the Wikipedia article on Expo 67.",
-        "credit": "Julien Hébert",
-        "source": "https://commons.wikimedia.org/wiki/File:Expo_67_logo.svg",
-        "license": "Public domain",
-        "licenseUrl": "https://commons.wikimedia.org/wiki/File:Expo_67_logo.svg"
       }
     }
   ]

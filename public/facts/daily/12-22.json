@@ -3,6 +3,33 @@
   "dateLabel": "22 December",
   "facts": [
     {
+      "id": "12-22-selinux",
+      "date": "12-22",
+      "dateLabel": "22 December",
+      "category": "tech",
+      "categoryName": "Tech",
+      "year": 2000,
+      "title": "Security-Enhanced Linux",
+      "body": "Security-Enhanced Linux (SELinux) is a Linux kernel security module that provides a mechanism for supporting access control security policies, including mandatory access controls (MAC). SELinux is a set of kernel modifications and user-space tools that have been added to various Linux distributions.",
+      "source": {
+        "name": "Wikipedia · SELinux",
+        "url": "https://en.wikipedia.org/wiki/SELinux",
+        "calendarUrl": "https://en.wikipedia.org/wiki/December_22",
+        "license": {
+          "name": "CC BY-SA 4.0",
+          "url": "https://creativecommons.org/licenses/by-sa/4.0/"
+        }
+      },
+      "image": {
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/60/SELinux_seinfo_and_semanage_screenshot.webp/500px-SELinux_seinfo_and_semanage_screenshot.webp?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "alt": "Security-Enhanced Linux — the software this anniversary is about.",
+        "credit": "VulcanSphere",
+        "source": "https://commons.wikimedia.org/wiki/File:SELinux_seinfo_and_semanage_screenshot.webp",
+        "license": "GPL",
+        "licenseUrl": "https://www.gnu.org/licenses/gpl.html"
+      }
+    },
+    {
       "id": "12-22-ludwig-van-beethoven",
       "date": "12-22",
       "dateLabel": "22 December",
@@ -106,33 +133,6 @@
         "alt": "Picture from the Wikipedia article on 323 Brucia.",
         "credit": "Wikimedia Commons",
         "source": "https://commons.wikimedia.org/wiki/File:323_Brucia.png",
-        "license": "CC BY-SA 4.0",
-        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0"
-      }
-    },
-    {
-      "id": "12-22-bernhard-goetz",
-      "date": "12-22",
-      "dateLabel": "22 December",
-      "category": "world",
-      "categoryName": "World",
-      "year": 1984,
-      "title": "1984 New York City Subway shooting",
-      "body": "\"Subway vigilante\" Bernhard Goetz shoots four would-be muggers on a 2 express train in Manhattan section of New York, United States.",
-      "source": {
-        "name": "Wikipedia · 1984 New York City Subway shooting",
-        "url": "https://en.wikipedia.org/wiki/1984_New_York_City_Subway_shooting",
-        "calendarUrl": "https://en.wikipedia.org/wiki/December_22",
-        "license": {
-          "name": "CC BY-SA 4.0",
-          "url": "https://creativecommons.org/licenses/by-sa/4.0/"
-        }
-      },
-      "image": {
-        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/2b/IRT_Broadway-Seventh_14th_Street_Northbound_Platform.jpg/500px-IRT_Broadway-Seventh_14th_Street_Northbound_Platform.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-        "alt": "Picture from the Wikipedia article on 1984 New York City Subway shooting.",
-        "credit": "GeneralPunger",
-        "source": "https://commons.wikimedia.org/wiki/File:IRT_Broadway-Seventh_14th_Street_Northbound_Platform.jpg",
         "license": "CC BY-SA 4.0",
         "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0"
       }

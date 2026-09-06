@@ -3,6 +3,33 @@
   "dateLabel": "13 February",
   "facts": [
     {
+      "id": "02-13-angry-birds-friends",
+      "date": "02-13",
+      "dateLabel": "13 February",
+      "category": "culture",
+      "categoryName": "Culture",
+      "year": 2012,
+      "title": "Angry Birds Friends",
+      "body": "Angry Birds Friends (formerly Angry Birds Facebook) is a live-service puzzle video game developed and published by Rovio Entertainment.",
+      "source": {
+        "name": "Wikipedia · Angry Birds Friends",
+        "url": "https://en.wikipedia.org/wiki/Angry_Birds_Friends",
+        "calendarUrl": "https://en.wikipedia.org/wiki/February_13",
+        "license": {
+          "name": "CC BY-SA 4.0",
+          "url": "https://creativecommons.org/licenses/by-sa/4.0/"
+        }
+      },
+      "image": {
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/52/Angry_Birds_logo_2015.svg/500px-Angry_Birds_logo_2015.svg.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "alt": "Angry Birds Friends — the video game this anniversary is about.",
+        "credit": "Rovio",
+        "source": "https://commons.wikimedia.org/wiki/File:Angry_Birds_logo_2015.svg",
+        "license": "Public domain",
+        "licenseUrl": "https://commons.wikimedia.org/wiki/File:Angry_Birds_logo_2015.svg"
+      }
+    },
+    {
       "id": "02-13-european-space-agency",
       "date": "02-13",
       "dateLabel": "13 February",
@@ -108,33 +135,6 @@
         "source": "https://commons.wikimedia.org/wiki/File:Kevin_Michael_Rudd_HOM_2023_Portrait_(3x4_cropped).jpg",
         "license": "CC BY 4.0",
         "licenseUrl": "https://creativecommons.org/licenses/by/4.0"
-      }
-    },
-    {
-      "id": "02-13-nashville-sit-ins",
-      "date": "02-13",
-      "dateLabel": "13 February",
-      "category": "world",
-      "categoryName": "World",
-      "year": 1960,
-      "title": "Nashville sit-ins",
-      "body": "Black college students stage the first of the Nashville sit-ins at three lunch counters in Nashville, Tennessee.",
-      "source": {
-        "name": "Wikipedia · Nashville sit-ins",
-        "url": "https://en.wikipedia.org/wiki/Nashville_sit-ins",
-        "calendarUrl": "https://en.wikipedia.org/wiki/February_13",
-        "license": {
-          "name": "CC BY-SA 4.0",
-          "url": "https://creativecommons.org/licenses/by-sa/4.0/"
-        }
-      },
-      "image": {
-        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/31/Rodney_Powell_Nashville_sit-ins_1960.jpg/500px-Rodney_Powell_Nashville_sit-ins_1960.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-        "alt": "Picture from the Wikipedia article on Nashville sit-ins.",
-        "credit": "James Garvin \"Jimmy\" Ellis",
-        "source": "https://commons.wikimedia.org/wiki/File:Rodney_Powell_Nashville_sit-ins_1960.jpg",
-        "license": "Public domain",
-        "licenseUrl": "https://commons.wikimedia.org/wiki/File:Rodney_Powell_Nashville_sit-ins_1960.jpg"
       }
     }
   ]

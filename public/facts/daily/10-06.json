@@ -3,6 +3,60 @@
   "dateLabel": "6 October",
   "facts": [
     {
+      "id": "10-06-instagram",
+      "date": "10-06",
+      "dateLabel": "6 October",
+      "category": "tech",
+      "categoryName": "Tech",
+      "year": 2010,
+      "title": "Q209330",
+      "body": "Instagram is an American photo and short-form video sharing social networking service owned by Meta Platforms. It allows users to upload media that can be edited with filters, be organized by hashtags, and be associated with a location via geographical tagging.",
+      "source": {
+        "name": "Wikipedia · Instagram",
+        "url": "https://en.wikipedia.org/wiki/Instagram",
+        "calendarUrl": "https://en.wikipedia.org/wiki/October_6",
+        "license": {
+          "name": "CC BY-SA 4.0",
+          "url": "https://creativecommons.org/licenses/by-sa/4.0/"
+        }
+      },
+      "image": {
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/3a/Instagram_screenshot.png/500px-Instagram_screenshot.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "alt": "Q209330 — the social network this anniversary is about.",
+        "credit": "Instagram",
+        "source": "https://commons.wikimedia.org/wiki/File:Instagram_screenshot.png",
+        "license": "Public domain",
+        "licenseUrl": "https://commons.wikimedia.org/wiki/File:Instagram_screenshot.png"
+      }
+    },
+    {
+      "id": "10-06-the-powder-toy",
+      "date": "10-06",
+      "dateLabel": "6 October",
+      "category": "culture",
+      "categoryName": "Culture",
+      "year": 2016,
+      "title": "The Powder Toy",
+      "body": "The Powder Toy is a falling-sand game originally created by Stanislaw K. Skowronek (also known as Skylark). It is now developed and maintained by LBPHacker, Simon, jacob1 and other contributors on GitHub.",
+      "source": {
+        "name": "Wikipedia · The Powder Toy",
+        "url": "https://en.wikipedia.org/wiki/The_Powder_Toy",
+        "calendarUrl": "https://en.wikipedia.org/wiki/October_6",
+        "license": {
+          "name": "CC BY-SA 4.0",
+          "url": "https://creativecommons.org/licenses/by-sa/4.0/"
+        }
+      },
+      "image": {
+        "src": "https://upload.wikimedia.org/wikipedia/commons/3/31/PowderToy.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+        "alt": "The Powder Toy — the video game this anniversary is about.",
+        "credit": "Powder Toy contributors",
+        "source": "https://commons.wikimedia.org/wiki/File:PowderToy.png",
+        "license": "GPL",
+        "licenseUrl": "https://www.gnu.org/licenses/gpl.html"
+      }
+    },
+    {
       "id": "10-06-annie-ernaux",
       "date": "10-06",
       "dateLabel": "6 October",
@@ -27,33 +81,6 @@
         "source": "https://commons.wikimedia.org/wiki/File:Annie_Ernaux_in_2022_(4_av_11).jpg",
         "license": "CC BY-SA 4.0",
         "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0"
-      }
-    },
-    {
-      "id": "10-06-the-jazz-singer",
-      "date": "10-06",
-      "dateLabel": "6 October",
-      "category": "culture",
-      "categoryName": "Culture",
-      "year": 1927,
-      "title": "The Jazz Singer",
-      "body": "Opening of The Jazz Singer, the first prominent \"talkie\" movie.",
-      "source": {
-        "name": "Wikipedia · The Jazz Singer",
-        "url": "https://en.wikipedia.org/wiki/The_Jazz_Singer",
-        "calendarUrl": "https://en.wikipedia.org/wiki/October_6",
-        "license": {
-          "name": "CC BY-SA 4.0",
-          "url": "https://creativecommons.org/licenses/by-sa/4.0/"
-        }
-      },
-      "image": {
-        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d2/The_Jazz_Singer_1927_Poster.jpg/500px-The_Jazz_Singer_1927_Poster.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-        "alt": "Picture from the Wikipedia article on The Jazz Singer.",
-        "credit": "Unknown author",
-        "source": "https://commons.wikimedia.org/wiki/File:The_Jazz_Singer_1927_Poster.jpg",
-        "license": "Public domain",
-        "licenseUrl": "https://commons.wikimedia.org/wiki/File:The_Jazz_Singer_1927_Poster.jpg"
       }
     },
     {
@@ -108,33 +135,6 @@
         "source": "https://commons.wikimedia.org/wiki/File:Artist_impression_of_the_exoplanet_51_Pegasi_b.jpg",
         "license": "CC BY 4.0",
         "licenseUrl": "https://creativecommons.org/licenses/by/4.0"
-      }
-    },
-    {
-      "id": "10-06-mikoyan-mig-29",
-      "date": "10-06",
-      "dateLabel": "6 October",
-      "category": "world",
-      "categoryName": "World",
-      "year": 1977,
-      "title": "Mikoyan MiG-29",
-      "body": "The first prototype of the Mikoyan MiG-29, designated 9-01, makes its maiden flight.",
-      "source": {
-        "name": "Wikipedia · Mikoyan MiG-29",
-        "url": "https://en.wikipedia.org/wiki/Mikoyan_MiG-29",
-        "calendarUrl": "https://en.wikipedia.org/wiki/October_6",
-        "license": {
-          "name": "CC BY-SA 4.0",
-          "url": "https://creativecommons.org/licenses/by-sa/4.0/"
-        }
-      },
-      "image": {
-        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/af/VVS_100th_IMG_0691_%287727464290%29_%28cropped%29.jpg/500px-VVS_100th_IMG_0691_%287727464290%29_%28cropped%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-        "alt": "Picture from the Wikipedia article on Mikoyan MiG-29.",
-        "credit": "Artem Katranzhi from Bakashikha, Russia",
-        "source": "https://commons.wikimedia.org/wiki/File:VVS_100th_IMG_0691_(7727464290)_(cropped).jpg",
-        "license": "CC BY-SA 2.0",
-        "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0"
       }
     }
   ]

@@ -3,6 +3,33 @@
   "dateLabel": "24 October",
   "facts": [
     {
+      "id": "10-24-fifa-football-2004",
+      "date": "10-24",
+      "dateLabel": "24 October",
+      "category": "culture",
+      "categoryName": "Culture",
+      "year": 2003,
+      "title": "FIFA Football 2004",
+      "body": "FIFA Football 2004, also known as FIFA Soccer 2004 in North America, is a football simulation video game developed by EA Canada and published by Electronic Arts. It was released in October 2003 with the tagline \"Create Brilliance\".",
+      "source": {
+        "name": "Wikipedia · FIFA Football 2004",
+        "url": "https://en.wikipedia.org/wiki/FIFA_Football_2004",
+        "calendarUrl": "https://en.wikipedia.org/wiki/October_24",
+        "license": {
+          "name": "CC BY-SA 4.0",
+          "url": "https://creativecommons.org/licenses/by-sa/4.0/"
+        }
+      },
+      "image": {
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/64/Evento_presentazione_FIFA_2004.jpg/500px-Evento_presentazione_FIFA_2004.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "alt": "FIFA Football 2004 — the video game this anniversary is about.",
+        "credit": "Mauro \"Kilamdil\" Monti",
+        "source": "https://commons.wikimedia.org/wiki/File:Evento_presentazione_FIFA_2004.jpg",
+        "license": "CC BY 2.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by/2.0"
+      }
+    },
+    {
       "id": "10-24-hong-kong-zhuhai-macau-bridge",
       "date": "10-24",
       "dateLabel": "24 October",
@@ -108,33 +135,6 @@
         "source": "https://commons.wikimedia.org/wiki/File:Deep_Space_1_clean_(PIA04242).png",
         "license": "Public domain",
         "licenseUrl": "https://commons.wikimedia.org/wiki/File:Deep_Space_1_clean_(PIA04242).png"
-      }
-    },
-    {
-      "id": "10-24-v-2-no-13",
-      "date": "10-24",
-      "dateLabel": "24 October",
-      "category": "space",
-      "categoryName": "Space",
-      "year": 1946,
-      "title": "V-2 No. 13",
-      "body": "A camera on board the V-2 No. 13 rocket takes the first photograph of earth from outer space.",
-      "source": {
-        "name": "Wikipedia · V-2 No. 13",
-        "url": "https://en.wikipedia.org/wiki/V-2_No._13",
-        "calendarUrl": "https://en.wikipedia.org/wiki/October_24",
-        "license": {
-          "name": "CC BY-SA 4.0",
-          "url": "https://creativecommons.org/licenses/by-sa/4.0/"
-        }
-      },
-      "image": {
-        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/5b/First_photo_from_space.jpg/500px-First_photo_from_space.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-        "alt": "Picture from the Wikipedia article on V-2 No. 13.",
-        "credit": "U.S. Army",
-        "source": "https://commons.wikimedia.org/wiki/File:First_photo_from_space.jpg",
-        "license": "Public domain",
-        "licenseUrl": "https://commons.wikimedia.org/wiki/File:First_photo_from_space.jpg"
       }
     }
   ]

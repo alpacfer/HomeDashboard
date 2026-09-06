@@ -3,17 +3,17 @@
   "dateLabel": "9 August",
   "facts": [
     {
-      "id": "08-09-dmitri-shostakovich",
+      "id": "08-09-super-monaco-gp",
       "date": "08-09",
       "dateLabel": "9 August",
       "category": "culture",
       "categoryName": "Culture",
-      "year": 1942,
-      "title": "Dmitri Shostakovich",
-      "body": "Dmitri Shostakovich's 7th symphony premieres in a besieged Leningrad.",
+      "year": 1990,
+      "title": "Super Monaco GP",
+      "body": "Super Monaco GP is a Formula One racing simulation video game released by Sega, originally as a Sega X Board arcade game in 1989, followed by ports for multiple video game consoles and home computers in the early 1990s.",
       "source": {
-        "name": "Wikipedia · Dmitri Shostakovich",
-        "url": "https://en.wikipedia.org/wiki/Dmitri_Shostakovich",
+        "name": "Wikipedia · Super Monaco GP",
+        "url": "https://en.wikipedia.org/wiki/Super_Monaco_GP",
         "calendarUrl": "https://en.wikipedia.org/wiki/August_9",
         "license": {
           "name": "CC BY-SA 4.0",
@@ -21,12 +21,39 @@
         }
       },
       "image": {
-        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/64/%D0%9A%D0%BE%D0%BC%D0%BF%D0%BE%D0%B7%D0%B8%D1%82%D0%BE%D1%80_%D0%94%D0%BC%D0%B8%D1%82%D1%80%D0%B8%D0%B9_%D0%94%D0%BC%D0%B8%D1%82%D1%80%D0%B8%D0%B5%D0%B2%D0%B8%D1%87_%D0%A8%D0%BE%D1%81%D1%82%D0%B0%D0%BA%D0%BE%D0%B2%D0%B8%D1%87.jpg/500px-%D0%9A%D0%BE%D0%BC%D0%BF%D0%BE%D0%B7%D0%B8%D1%82%D0%BE%D1%80_%D0%94%D0%BC%D0%B8%D1%82%D1%80%D0%B8%D0%B9_%D0%94%D0%BC%D0%B8%D1%82%D1%80%D0%B8%D0%B5%D0%B2%D0%B8%D1%87_%D0%A8%D0%BE%D1%81%D1%82%D0%B0%D0%BA%D0%BE%D0%B2%D0%B8%D1%87.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-        "alt": "Picture from the Wikipedia article on Dmitri Shostakovich.",
-        "credit": "Unknown author",
-        "source": "https://commons.wikimedia.org/wiki/File:%D0%9A%D0%BE%D0%BC%D0%BF%D0%BE%D0%B7%D0%B8%D1%82%D0%BE%D1%80_%D0%94%D0%BC%D0%B8%D1%82%D1%80%D0%B8%D0%B9_%D0%94%D0%BC%D0%B8%D1%82%D1%80%D0%B8%D0%B5%D0%B2%D0%B8%D1%87_%D0%A8%D0%BE%D1%81%D1%82%D0%B0%D0%BA%D0%BE%D0%B2%D0%B8%D1%87.jpg",
-        "license": "Public domain",
-        "licenseUrl": "https://commons.wikimedia.org/wiki/File:%D0%9A%D0%BE%D0%BC%D0%BF%D0%BE%D0%B7%D0%B8%D1%82%D0%BE%D1%80_%D0%94%D0%BC%D0%B8%D1%82%D1%80%D0%B8%D0%B9_%D0%94%D0%BC%D0%B8%D1%82%D1%80%D0%B8%D0%B5%D0%B2%D0%B8%D1%87_%D0%A8%D0%BE%D1%81%D1%82%D0%B0%D0%BA%D0%BE%D0%B2%D0%B8%D1%87.jpg"
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/7f/Super_Monaco_GP.jpg/500px-Super_Monaco_GP.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "alt": "Super Monaco GP — the video game this anniversary is about.",
+        "credit": "Chris Ainsworth from Las Vegas, USA",
+        "source": "https://commons.wikimedia.org/wiki/File:Super_Monaco_GP.jpg",
+        "license": "CC BY-SA 2.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0"
+      }
+    },
+    {
+      "id": "08-09-weibo",
+      "date": "08-09",
+      "dateLabel": "9 August",
+      "category": "tech",
+      "categoryName": "Tech",
+      "year": 2010,
+      "title": "Weibo",
+      "body": "Weibo (Chinese: 微博; pinyin: Wēibó), or Sina Weibo (Chinese: 新浪微博; pinyin: Xīnlàng Wēibó), is a Chinese microblogging (weibo) website.",
+      "source": {
+        "name": "Wikipedia · Weibo",
+        "url": "https://en.wikipedia.org/wiki/Weibo",
+        "calendarUrl": "https://en.wikipedia.org/wiki/August_9",
+        "license": {
+          "name": "CC BY-SA 4.0",
+          "url": "https://creativecommons.org/licenses/by-sa/4.0/"
+        }
+      },
+      "image": {
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/2c/%22Weibo_IN%22_Complex_at_Chaoyang_Park_20250906164317.jpg/500px-%22Weibo_IN%22_Complex_at_Chaoyang_Park_20250906164317.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "alt": "Weibo — the social network this anniversary is about.",
+        "credit": "TurnOnTheNight",
+        "source": "https://commons.wikimedia.org/wiki/File:%22Weibo_IN%22_Complex_at_Chaoyang_Park_20250906164317.jpg",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0"
       }
     },
     {
@@ -57,33 +84,6 @@
       }
     },
     {
-      "id": "08-09-thomas-edison",
-      "date": "08-09",
-      "dateLabel": "9 August",
-      "category": "tech",
-      "categoryName": "Tech",
-      "year": 1892,
-      "title": "Thomas Edison",
-      "body": "Thomas Edison receives a patent for a two-way telegraph.",
-      "source": {
-        "name": "Wikipedia · Thomas Edison",
-        "url": "https://en.wikipedia.org/wiki/Thomas_Edison",
-        "calendarUrl": "https://en.wikipedia.org/wiki/August_9",
-        "license": {
-          "name": "CC BY-SA 4.0",
-          "url": "https://creativecommons.org/licenses/by-sa/4.0/"
-        }
-      },
-      "image": {
-        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/9d/Thomas_Edison2.jpg/500px-Thomas_Edison2.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-        "alt": "Picture from the Wikipedia article on Thomas Edison.",
-        "credit": "Louis Bachrach, Bachrach Studios",
-        "source": "https://commons.wikimedia.org/wiki/File:Thomas_Edison2.jpg",
-        "license": "Public domain",
-        "licenseUrl": "https://commons.wikimedia.org/wiki/File:Thomas_Edison2.jpg"
-      }
-    },
-    {
       "id": "08-09-jesse-owens",
       "date": "08-09",
       "dateLabel": "9 August",
@@ -111,17 +111,17 @@
       }
     },
     {
-      "id": "08-09-watergate-scandal",
+      "id": "08-09-dmitri-shostakovich",
       "date": "08-09",
       "dateLabel": "9 August",
-      "category": "world",
-      "categoryName": "World",
-      "year": 1974,
-      "title": "Watergate scandal",
-      "body": "As a direct result of the Watergate scandal, Richard Nixon becomes the first president of the United States to resign from office. Vice President Gerald Ford becomes president.",
+      "category": "culture",
+      "categoryName": "Culture",
+      "year": 1942,
+      "title": "Dmitri Shostakovich",
+      "body": "Dmitri Shostakovich's 7th symphony premieres in a besieged Leningrad.",
       "source": {
-        "name": "Wikipedia · Watergate scandal",
-        "url": "https://en.wikipedia.org/wiki/Watergate_scandal",
+        "name": "Wikipedia · Dmitri Shostakovich",
+        "url": "https://en.wikipedia.org/wiki/Dmitri_Shostakovich",
         "calendarUrl": "https://en.wikipedia.org/wiki/August_9",
         "license": {
           "name": "CC BY-SA 4.0",
@@ -129,12 +129,12 @@
         }
       },
       "image": {
-        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/1f/Watergate_complex.jpg/500px-Watergate_complex.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-        "alt": "Picture from the Wikipedia article on Watergate scandal.",
-        "credit": "U.S. District Court",
-        "source": "https://commons.wikimedia.org/wiki/File:Watergate_complex.jpg",
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/64/%D0%9A%D0%BE%D0%BC%D0%BF%D0%BE%D0%B7%D0%B8%D1%82%D0%BE%D1%80_%D0%94%D0%BC%D0%B8%D1%82%D1%80%D0%B8%D0%B9_%D0%94%D0%BC%D0%B8%D1%82%D1%80%D0%B8%D0%B5%D0%B2%D0%B8%D1%87_%D0%A8%D0%BE%D1%81%D1%82%D0%B0%D0%BA%D0%BE%D0%B2%D0%B8%D1%87.jpg/500px-%D0%9A%D0%BE%D0%BC%D0%BF%D0%BE%D0%B7%D0%B8%D1%82%D0%BE%D1%80_%D0%94%D0%BC%D0%B8%D1%82%D1%80%D0%B8%D0%B9_%D0%94%D0%BC%D0%B8%D1%82%D1%80%D0%B8%D0%B5%D0%B2%D0%B8%D1%87_%D0%A8%D0%BE%D1%81%D1%82%D0%B0%D0%BA%D0%BE%D0%B2%D0%B8%D1%87.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "alt": "Picture from the Wikipedia article on Dmitri Shostakovich.",
+        "credit": "Unknown author",
+        "source": "https://commons.wikimedia.org/wiki/File:%D0%9A%D0%BE%D0%BC%D0%BF%D0%BE%D0%B7%D0%B8%D1%82%D0%BE%D1%80_%D0%94%D0%BC%D0%B8%D1%82%D1%80%D0%B8%D0%B9_%D0%94%D0%BC%D0%B8%D1%82%D1%80%D0%B8%D0%B5%D0%B2%D0%B8%D1%87_%D0%A8%D0%BE%D1%81%D1%82%D0%B0%D0%BA%D0%BE%D0%B2%D0%B8%D1%87.jpg",
         "license": "Public domain",
-        "licenseUrl": "https://commons.wikimedia.org/wiki/File:Watergate_complex.jpg"
+        "licenseUrl": "https://commons.wikimedia.org/wiki/File:%D0%9A%D0%BE%D0%BC%D0%BF%D0%BE%D0%B7%D0%B8%D1%82%D0%BE%D1%80_%D0%94%D0%BC%D0%B8%D1%82%D1%80%D0%B8%D0%B9_%D0%94%D0%BC%D0%B8%D1%82%D1%80%D0%B8%D0%B5%D0%B2%D0%B8%D1%87_%D0%A8%D0%BE%D1%81%D1%82%D0%B0%D0%BA%D0%BE%D0%B2%D0%B8%D1%87.jpg"
       }
     }
   ]

@@ -3,6 +3,33 @@
   "dateLabel": "22 February",
   "facts": [
     {
+      "id": "02-22-android-honeycomb",
+      "date": "02-22",
+      "dateLabel": "22 February",
+      "category": "tech",
+      "categoryName": "Tech",
+      "year": 2011,
+      "title": "Android Honeycomb",
+      "body": "Android Honeycomb is the codename for the third major version of Android, designed for devices with larger screen sizes, particularly tablets. It is the eighth version of Android.",
+      "source": {
+        "name": "Wikipedia · Android Honeycomb",
+        "url": "https://en.wikipedia.org/wiki/Android_Honeycomb",
+        "calendarUrl": "https://en.wikipedia.org/wiki/February_22",
+        "license": {
+          "name": "CC BY-SA 4.0",
+          "url": "https://creativecommons.org/licenses/by-sa/4.0/"
+        }
+      },
+      "image": {
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/0c/Android3.0.png/500px-Android3.0.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "alt": "Android Honeycomb — the operating system this anniversary is about.",
+        "credit": "Google LLC, Android Open Source project",
+        "source": "https://commons.wikimedia.org/wiki/File:Android3.0.png",
+        "license": "Apache License 2.0",
+        "licenseUrl": "https://www.apache.org/licenses/LICENSE-2.0"
+      }
+    },
+    {
       "id": "02-22-securitas-depot-robbery",
       "date": "02-22",
       "dateLabel": "22 February",
@@ -108,33 +135,6 @@
         "source": "https://commons.wikimedia.org/wiki/File:Various_Pictures_from_New_York_City_-_September,_2025.jpg",
         "license": "CC BY-SA 4.0",
         "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0"
-      }
-    },
-    {
-      "id": "02-22-roslin-midlothian",
-      "date": "02-22",
-      "dateLabel": "22 February",
-      "category": "science",
-      "categoryName": "Science",
-      "year": 1997,
-      "title": "Roslin, Midlothian",
-      "body": "In Roslin, Midlothian, British scientists announce that an adult sheep named Dolly has been successfully cloned.",
-      "source": {
-        "name": "Wikipedia · Roslin, Midlothian",
-        "url": "https://en.wikipedia.org/wiki/Roslin,_Midlothian",
-        "calendarUrl": "https://en.wikipedia.org/wiki/February_22",
-        "license": {
-          "name": "CC BY-SA 4.0",
-          "url": "https://creativecommons.org/licenses/by-sa/4.0/"
-        }
-      },
-      "image": {
-        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a6/Roslin%2C_Midlothian.jpg/500px-Roslin%2C_Midlothian.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-        "alt": "Picture from the Wikipedia article on Roslin, Midlothian.",
-        "credit": "Richard Webb",
-        "source": "https://commons.wikimedia.org/wiki/File:Roslin,_Midlothian.jpg",
-        "license": "CC BY-SA 2.0",
-        "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0"
       }
     }
   ]

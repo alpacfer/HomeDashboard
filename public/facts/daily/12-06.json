@@ -3,6 +3,33 @@
   "dateLabel": "6 December",
   "facts": [
     {
+      "id": "12-06-dwarf-fortress",
+      "date": "12-06",
+      "dateLabel": "6 December",
+      "category": "culture",
+      "categoryName": "Culture",
+      "year": 2022,
+      "title": "Dwarf Fortress",
+      "body": "Dwarf Fortress (previously titled Slaves to Armok: God of Blood Chapter II: Dwarf Fortress) is a construction and management simulation and roguelike indie video game created by Bay 12 Games.",
+      "source": {
+        "name": "Wikipedia · Dwarf Fortress",
+        "url": "https://en.wikipedia.org/wiki/Dwarf_Fortress",
+        "calendarUrl": "https://en.wikipedia.org/wiki/December_6",
+        "license": {
+          "name": "CC BY-SA 4.0",
+          "url": "https://creativecommons.org/licenses/by-sa/4.0/"
+        }
+      },
+      "image": {
+        "src": "https://upload.wikimedia.org/wikipedia/commons/3/3a/Dwarf_Fortress_-_mapa_%C5%9Bwiata.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+        "alt": "Dwarf Fortress — the video game this anniversary is about.",
+        "credit": "DF worldmap generator",
+        "source": "https://commons.wikimedia.org/wiki/File:Dwarf_Fortress_-_mapa_%C5%9Bwiata.png",
+        "license": "Public domain",
+        "licenseUrl": "https://commons.wikimedia.org/wiki/File:Dwarf_Fortress_-_mapa_%C5%9Bwiata.png"
+      }
+    },
+    {
       "id": "12-06-mars-global-surveyor",
       "date": "12-06",
       "dateLabel": "6 December",
@@ -108,33 +135,6 @@
         "source": "https://commons.wikimedia.org/wiki/File:1882_transit_of_venus.jpg",
         "license": "Public domain",
         "licenseUrl": "https://commons.wikimedia.org/wiki/File:1882_transit_of_venus.jpg"
-      }
-    },
-    {
-      "id": "12-06-bophuthatswana",
-      "date": "12-06",
-      "dateLabel": "6 December",
-      "category": "world",
-      "categoryName": "World",
-      "year": 1977,
-      "title": "Bophuthatswana",
-      "body": "South Africa grants independence to Bophuthatswana, although it is not recognized by any other country.",
-      "source": {
-        "name": "Wikipedia · Bophuthatswana",
-        "url": "https://en.wikipedia.org/wiki/Bophuthatswana",
-        "calendarUrl": "https://en.wikipedia.org/wiki/December_6",
-        "license": {
-          "name": "CC BY-SA 4.0",
-          "url": "https://creativecommons.org/licenses/by-sa/4.0/"
-        }
-      },
-      "image": {
-        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d3/Flag_of_Bophuthatswana_%281972%E2%80%931994%29.svg/500px-Flag_of_Bophuthatswana_%281972%E2%80%931994%29.svg.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-        "alt": "Picture from the Wikipedia article on Bophuthatswana.",
-        "credit": "Washiucho",
-        "source": "https://commons.wikimedia.org/wiki/File:Flag_of_Bophuthatswana_(1972%E2%80%931994).svg",
-        "license": "Public domain",
-        "licenseUrl": "https://commons.wikimedia.org/wiki/File:Flag_of_Bophuthatswana_(1972%E2%80%931994).svg"
       }
     }
   ]

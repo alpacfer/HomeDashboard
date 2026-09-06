@@ -3,6 +3,60 @@
   "dateLabel": "2 February",
   "facts": [
     {
+      "id": "02-02-the-san-diego-union-tribune",
+      "date": "02-02",
+      "dateLabel": "2 February",
+      "category": "tech",
+      "categoryName": "Tech",
+      "year": 1992,
+      "title": "San Diego Union-Tribune",
+      "body": "The San Diego Union-Tribune is a metropolitan daily newspaper published in San Diego, California, since 1868.",
+      "source": {
+        "name": "Wikipedia · The San Diego Union-Tribune",
+        "url": "https://en.wikipedia.org/wiki/The_San_Diego_Union-Tribune",
+        "calendarUrl": "https://en.wikipedia.org/wiki/February_2",
+        "license": {
+          "name": "CC BY-SA 4.0",
+          "url": "https://creativecommons.org/licenses/by-sa/4.0/"
+        }
+      },
+      "image": {
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f6/San_Diego_Union_newspaper_building_%28c._1870s%29.jpg/500px-San_Diego_Union_newspaper_building_%28c._1870s%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "alt": "San Diego Union-Tribune — the website this anniversary is about.",
+        "credit": "Internet Archive Book Images",
+        "source": "https://commons.wikimedia.org/wiki/File:San_Diego_Union_newspaper_building_(c._1870s).jpg",
+        "license": "No restrictions",
+        "licenseUrl": "https://www.flickr.com/commons/usage/"
+      }
+    },
+    {
+      "id": "02-02-wideo-co",
+      "date": "02-02",
+      "dateLabel": "2 February",
+      "category": "tech",
+      "categoryName": "Tech",
+      "year": 2012,
+      "title": "wideo.co",
+      "body": "Wideo is an online video creation platform that enables users to create, edit, and share online videos. Wideo's platform allows individuals who do not have previous video making or design experience to create explainer videos, animated presentations, video e-cards and more.",
+      "source": {
+        "name": "Wikipedia · Wideo.co",
+        "url": "https://en.wikipedia.org/wiki/Wideo.co",
+        "calendarUrl": "https://en.wikipedia.org/wiki/February_2",
+        "license": {
+          "name": "CC BY-SA 4.0",
+          "url": "https://creativecommons.org/licenses/by-sa/4.0/"
+        }
+      },
+      "image": {
+        "src": "https://upload.wikimedia.org/wikipedia/commons/a/a2/Wideo.co.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+        "alt": "wideo.co — the website this anniversary is about.",
+        "credit": "Wideo.co",
+        "source": "https://commons.wikimedia.org/wiki/File:Wideo.co.png",
+        "license": "Attribution",
+        "licenseUrl": "https://commons.wikimedia.org/wiki/File:Wideo.co.png"
+      }
+    },
+    {
       "id": "02-02-slovenia",
       "date": "02-02",
       "dateLabel": "2 February",
@@ -81,60 +135,6 @@
         "source": "https://commons.wikimedia.org/wiki/File:Landscape_view_in_Circumpolar_Urals.jpg",
         "license": "CC BY 2.0",
         "licenseUrl": "https://creativecommons.org/licenses/by/2.0"
-      }
-    },
-    {
-      "id": "02-02-tennis",
-      "date": "02-02",
-      "dateLabel": "2 February",
-      "category": "sport",
-      "categoryName": "Sport",
-      "year": 2004,
-      "title": "Tennis",
-      "body": "Swiss tennis player Roger Federer becomes the No. 1 ranked men's singles player, a position he will hold for a record 237 weeks.",
-      "source": {
-        "name": "Wikipedia · Tennis",
-        "url": "https://en.wikipedia.org/wiki/Tennis",
-        "calendarUrl": "https://en.wikipedia.org/wiki/February_2",
-        "license": {
-          "name": "CC BY-SA 4.0",
-          "url": "https://creativecommons.org/licenses/by-sa/4.0/"
-        }
-      },
-      "image": {
-        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/94/2013_Australian_Open_-_Guillaume_Rufin.jpg/500px-2013_Australian_Open_-_Guillaume_Rufin.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-        "alt": "Picture from the Wikipedia article on Tennis.",
-        "credit": "Brendan Dennis",
-        "source": "https://commons.wikimedia.org/wiki/File:2013_Australian_Open_-_Guillaume_Rufin.jpg",
-        "license": "CC BY-SA 3.0",
-        "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0"
-      }
-    },
-    {
-      "id": "02-02-digital-cinema",
-      "date": "02-02",
-      "dateLabel": "2 February",
-      "category": "culture",
-      "categoryName": "Culture",
-      "year": 2000,
-      "title": "Digital cinema",
-      "body": "First digital cinema projection in Europe (Paris) realized by Philippe Binant with the DLP CINEMA technology developed by Texas Instruments.",
-      "source": {
-        "name": "Wikipedia · Digital cinema",
-        "url": "https://en.wikipedia.org/wiki/Digital_cinema",
-        "calendarUrl": "https://en.wikipedia.org/wiki/February_2",
-        "license": {
-          "name": "CC BY-SA 4.0",
-          "url": "https://creativecommons.org/licenses/by-sa/4.0/"
-        }
-      },
-      "image": {
-        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/4e/Stadium_seating_digital_cinema.jpg/500px-Stadium_seating_digital_cinema.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-        "alt": "Picture from the Wikipedia article on Digital cinema.",
-        "credit": "Author0612",
-        "source": "https://commons.wikimedia.org/wiki/File:Stadium_seating_digital_cinema.jpg",
-        "license": "CC BY-SA 4.0",
-        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0"
       }
     }
   ]

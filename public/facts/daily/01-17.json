@@ -3,17 +3,17 @@
   "dateLabel": "17 January",
   "facts": [
     {
-      "id": "01-17-matt-drudge",
+      "id": "01-17-wifi-explorer",
       "date": "01-17",
       "dateLabel": "17 January",
       "category": "tech",
       "categoryName": "Tech",
-      "year": 1998,
-      "title": "Matt Drudge",
-      "body": "Matt Drudge breaks the story of the Bill Clinton–Monica Lewinsky affair on his Drudge Report website.",
+      "year": 2012,
+      "title": "WiFi Explorer",
+      "body": "WiFi Explorer is a wireless network scanner tool for macOS that can help users identify channel conflicts, overlapping and network configuration issues that may be affecting the connectivity and performance of Wi-Fi networks.",
       "source": {
-        "name": "Wikipedia · Matt Drudge",
-        "url": "https://en.wikipedia.org/wiki/Matt_Drudge",
+        "name": "Wikipedia · WiFi Explorer",
+        "url": "https://en.wikipedia.org/wiki/WiFi_Explorer",
         "calendarUrl": "https://en.wikipedia.org/wiki/January_17",
         "license": {
           "name": "CC BY-SA 4.0",
@@ -21,12 +21,39 @@
         }
       },
       "image": {
-        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/96/Matt_Drudge_1996_%28cropped%29.jpg/500px-Matt_Drudge_1996_%28cropped%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-        "alt": "Picture from the Wikipedia article on Matt Drudge.",
-        "credit": "John Mathew Smith & www.celebrity-photos…",
-        "source": "https://commons.wikimedia.org/wiki/File:Matt_Drudge_1996_(cropped).jpg",
-        "license": "CC BY-SA 2.0",
-        "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0"
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/cd/WiFi_Explorer_2.0.png/500px-WiFi_Explorer_2.0.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "alt": "WiFi Explorer — the software this anniversary is about.",
+        "credit": "Adriangm20",
+        "source": "https://commons.wikimedia.org/wiki/File:WiFi_Explorer_2.0.png",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0"
+      }
+    },
+    {
+      "id": "01-17-dustforce",
+      "date": "01-17",
+      "dateLabel": "17 January",
+      "category": "culture",
+      "categoryName": "Culture",
+      "year": 2012,
+      "title": "Q4037709",
+      "body": "Dustforce is a platform video game developed by Hitbox Team. The game was released in 2012 for Microsoft Windows via Steam in January, and Mac OS X through Steam in May.",
+      "source": {
+        "name": "Wikipedia · Dustforce",
+        "url": "https://en.wikipedia.org/wiki/Dustforce",
+        "calendarUrl": "https://en.wikipedia.org/wiki/January_17",
+        "license": {
+          "name": "CC BY-SA 4.0",
+          "url": "https://creativecommons.org/licenses/by-sa/4.0/"
+        }
+      },
+      "image": {
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/69/Dustforce_-_Screenshot_08.png/500px-Dustforce_-_Screenshot_08.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "alt": "Q4037709 — the video game this anniversary is about.",
+        "credit": "Hitbox Team",
+        "source": "https://commons.wikimedia.org/wiki/File:Dustforce_-_Screenshot_08.png",
+        "license": "CC BY-SA 3.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0"
       }
     },
     {
@@ -108,33 +135,6 @@
         "source": "https://commons.wikimedia.org/wiki/File:Flag_of_the_Czech_Republic.svg",
         "license": "Public domain",
         "licenseUrl": "https://commons.wikimedia.org/wiki/File:Flag_of_the_Czech_Republic.svg"
-      }
-    },
-    {
-      "id": "01-17-doomsday-clock",
-      "date": "01-17",
-      "dateLabel": "17 January",
-      "category": "world",
-      "categoryName": "World",
-      "year": 2007,
-      "title": "Doomsday Clock",
-      "body": "The Doomsday Clock is set to five minutes to midnight in response to North Korea's nuclear testing.",
-      "source": {
-        "name": "Wikipedia · Doomsday Clock",
-        "url": "https://en.wikipedia.org/wiki/Doomsday_Clock",
-        "calendarUrl": "https://en.wikipedia.org/wiki/January_17",
-        "license": {
-          "name": "CC BY-SA 4.0",
-          "url": "https://creativecommons.org/licenses/by-sa/4.0/"
-        }
-      },
-      "image": {
-        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d5/Doomsday_clock_%281.42_minutes%29.svg/500px-Doomsday_clock_%281.42_minutes%29.svg.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-        "alt": "Picture from the Wikipedia article on Doomsday Clock.",
-        "credit": "Wikimedia Commons",
-        "source": "https://commons.wikimedia.org/wiki/File:Doomsday_clock_(1.42_minutes).svg",
-        "license": "CC BY-SA 4.0",
-        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0"
       }
     }
   ]

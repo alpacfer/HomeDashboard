@@ -3,6 +3,33 @@
   "dateLabel": "5 January",
   "facts": [
     {
+      "id": "01-05-freeciv",
+      "date": "01-05",
+      "dateLabel": "5 January",
+      "category": "culture",
+      "categoryName": "Culture",
+      "year": 1996,
+      "title": "Q424271",
+      "body": "Freeciv is a single- and multiplayer turn-based strategy game for workstations and personal computers inspired by the proprietary Sid Meier's Civilization series. It is available for most desktop computer operating systems and available in an online browser version.",
+      "source": {
+        "name": "Wikipedia · Freeciv",
+        "url": "https://en.wikipedia.org/wiki/Freeciv",
+        "calendarUrl": "https://en.wikipedia.org/wiki/January_5",
+        "license": {
+          "name": "CC BY-SA 4.0",
+          "url": "https://creativecommons.org/licenses/by-sa/4.0/"
+        }
+      },
+      "image": {
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/4d/Freeciv-2_1beta1.png/500px-Freeciv-2_1beta1.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "alt": "Q424271 — the video game this anniversary is about.",
+        "credit": "Mkd",
+        "source": "https://commons.wikimedia.org/wiki/File:Freeciv-2_1beta1.png",
+        "license": "GPL",
+        "licenseUrl": "https://www.gnu.org/licenses/gpl.html"
+      }
+    },
+    {
       "id": "01-05-eris-dwarf-planet",
       "date": "01-05",
       "dateLabel": "5 January",
@@ -108,33 +135,6 @@
         "source": "https://commons.wikimedia.org/wiki/File:Nellie_Tayloe_Ross.jpg",
         "license": "Public domain",
         "licenseUrl": "https://commons.wikimedia.org/wiki/File:Nellie_Tayloe_Ross.jpg"
-      }
-    },
-    {
-      "id": "01-05-amy-johnson",
-      "date": "01-05",
-      "dateLabel": "5 January",
-      "category": "world",
-      "categoryName": "World",
-      "year": 1941,
-      "title": "Amy Johnson",
-      "body": "Amy Johnson, a 37-year-old pilot and the first woman to fly solo from London to Australia, disappears after bailing out of her plane over the River Thames, and is presumed dead.",
-      "source": {
-        "name": "Wikipedia · Amy Johnson",
-        "url": "https://en.wikipedia.org/wiki/Amy_Johnson",
-        "calendarUrl": "https://en.wikipedia.org/wiki/January_5",
-        "license": {
-          "name": "CC BY-SA 4.0",
-          "url": "https://creativecommons.org/licenses/by-sa/4.0/"
-        }
-      },
-      "image": {
-        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b0/Amy_Johnson_%28Our_Generation%2C_1938%29.jpg/500px-Amy_Johnson_%28Our_Generation%2C_1938%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-        "alt": "Picture from the Wikipedia article on Amy Johnson.",
-        "credit": "Andy Dingley",
-        "source": "https://commons.wikimedia.org/wiki/File:Amy_Johnson_(Our_Generation,_1938).jpg",
-        "license": "Public domain",
-        "licenseUrl": "https://commons.wikimedia.org/wiki/File:Amy_Johnson_(Our_Generation,_1938).jpg"
       }
     }
   ]

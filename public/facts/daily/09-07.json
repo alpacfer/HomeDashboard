@@ -3,6 +3,33 @@
   "dateLabel": "7 September",
   "facts": [
     {
+      "id": "09-07-galaxian",
+      "date": "09-07",
+      "dateLabel": "7 September",
+      "category": "culture",
+      "categoryName": "Culture",
+      "year": 1984,
+      "title": "Galaxian",
+      "body": "Galaxian is a 1979 fixed shooter video game developed and published by Namco for arcades. The player assumes control of the Galaxip starfighter in its mission to protect Earth from waves of aliens.",
+      "source": {
+        "name": "Wikipedia · Galaxian",
+        "url": "https://en.wikipedia.org/wiki/Galaxian",
+        "calendarUrl": "https://en.wikipedia.org/wiki/September_7",
+        "license": {
+          "name": "CC BY-SA 4.0",
+          "url": "https://creativecommons.org/licenses/by-sa/4.0/"
+        }
+      },
+      "image": {
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c9/Midway_%28USA%29_Galaxian_arcade_machine.jpg/500px-Midway_%28USA%29_Galaxian_arcade_machine.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "alt": "Galaxian — the video game this anniversary is about.",
+        "credit": "User:Piotrus",
+        "source": "https://commons.wikimedia.org/wiki/File:Midway_(USA)_Galaxian_arcade_machine.jpg",
+        "license": "CC BY-SA 3.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0"
+      }
+    },
+    {
       "id": "09-07-bitcoin",
       "date": "09-07",
       "dateLabel": "7 September",
@@ -101,6 +128,18 @@
           "url": "https://creativecommons.org/licenses/by-sa/4.0/"
         }
       },
+      "video": {
+        "src": "https://upload.wikimedia.org/wikipedia/commons/transcoded/1/1d/Santos-Dumont_discursando.webm/Santos-Dumont_discursando.webm.240p.vp9.webm",
+        "fallback": "https://upload.wikimedia.org/wikipedia/commons/transcoded/1/1d/Santos-Dumont_discursando.webm/Santos-Dumont_discursando.webm.360p.mpeg4.mov",
+        "width": 176,
+        "height": 144,
+        "poster": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/1d/Santos-Dumont_discursando.webm/120px--Santos-Dumont_discursando.webm.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo",
+        "seconds": 18,
+        "credit": "Unknown author",
+        "source": "https://commons.wikimedia.org/wiki/File:Santos-Dumont_discursando.webm",
+        "license": "Public domain",
+        "licenseUrl": "https://commons.wikimedia.org/wiki/File:Santos-Dumont_discursando.webm"
+      },
       "image": {
         "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/18/Alberto_Santos-Dumont_by_Zaida_Ben-Yusuf.jpg/500px-Alberto_Santos-Dumont_by_Zaida_Ben-Yusuf.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
         "alt": "Picture from the Wikipedia article on Alberto Santos-Dumont.",
@@ -108,33 +147,6 @@
         "source": "https://commons.wikimedia.org/wiki/File:Alberto_Santos-Dumont_by_Zaida_Ben-Yusuf.jpg",
         "license": "Public domain",
         "licenseUrl": "https://commons.wikimedia.org/wiki/File:Alberto_Santos-Dumont_by_Zaida_Ben-Yusuf.jpg"
-      }
-    },
-    {
-      "id": "09-07-torrijos-carter-treaties",
-      "date": "09-07",
-      "dateLabel": "7 September",
-      "category": "world",
-      "categoryName": "World",
-      "year": 1977,
-      "title": "Torrijos–Carter Treaties",
-      "body": "The Torrijos–Carter Treaties between Panama and the United States on the status of the Panama Canal are signed. The United States agrees to transfer control of the canal to Panama at the end of the 20th century.",
-      "source": {
-        "name": "Wikipedia · Torrijos–Carter Treaties",
-        "url": "https://en.wikipedia.org/wiki/Torrijos%E2%80%93Carter_Treaties",
-        "calendarUrl": "https://en.wikipedia.org/wiki/September_7",
-        "license": {
-          "name": "CC BY-SA 4.0",
-          "url": "https://creativecommons.org/licenses/by-sa/4.0/"
-        }
-      },
-      "image": {
-        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/87/Jimmy_Carter_and_General_Omar_Torrijos_signing_the_Panama_Canal_Treaty.jpg/500px-Jimmy_Carter_and_General_Omar_Torrijos_signing_the_Panama_Canal_Treaty.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-        "alt": "Picture from the Wikipedia article on Torrijos–Carter Treaties.",
-        "credit": "White House photo",
-        "source": "https://commons.wikimedia.org/wiki/File:Jimmy_Carter_and_General_Omar_Torrijos_signing_the_Panama_Canal_Treaty.jpg",
-        "license": "Public domain",
-        "licenseUrl": "https://commons.wikimedia.org/wiki/File:Jimmy_Carter_and_General_Omar_Torrijos_signing_the_Panama_Canal_Treaty.jpg"
       }
     }
   ]

@@ -3,6 +3,33 @@
   "dateLabel": "29 December",
   "facts": [
     {
+      "id": "12-29-scp-secret-laboratory",
+      "date": "12-29",
+      "dateLabel": "29 December",
+      "category": "culture",
+      "categoryName": "Culture",
+      "year": 2017,
+      "title": "SCP: Secret Laboratory",
+      "body": "Secret Laboratory is a free-to-play, multiplayer, asymmetrical, first-person shooter video game, developed and published by Northwood Studios. Originally released in 2017, as well as the 2012 video game SCP – Containment Breach.",
+      "source": {
+        "name": "Wikipedia · SCP: Secret Laboratory",
+        "url": "https://en.wikipedia.org/wiki/SCP:_Secret_Laboratory",
+        "calendarUrl": "https://en.wikipedia.org/wiki/December_29",
+        "license": {
+          "name": "CC BY-SA 4.0",
+          "url": "https://creativecommons.org/licenses/by-sa/4.0/"
+        }
+      },
+      "image": {
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/21/SCP_Secret_Laboratory_NTF_%28Nine-Tailed_Fox%29.png/500px-SCP_Secret_Laboratory_NTF_%28Nine-Tailed_Fox%29.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "alt": "SCP: Secret Laboratory — the video game this anniversary is about.",
+        "credit": "Northwood Studios",
+        "source": "https://commons.wikimedia.org/wiki/File:SCP_Secret_Laboratory_NTF_(Nine-Tailed_Fox).png",
+        "license": "CC BY-SA 3.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0"
+      }
+    },
+    {
       "id": "12-29-v-clav-havel",
       "date": "12-29",
       "dateLabel": "29 December",
@@ -108,33 +135,6 @@
         "source": "https://commons.wikimedia.org/wiki/File:Flag_of_Ireland.svg",
         "license": "Public domain",
         "licenseUrl": "https://commons.wikimedia.org/wiki/File:Flag_of_Ireland.svg"
-      }
-    },
-    {
-      "id": "12-29-nikkei-225",
-      "date": "12-29",
-      "dateLabel": "29 December",
-      "category": "world",
-      "categoryName": "World",
-      "year": 1989,
-      "title": "Nikkei 225",
-      "body": "The Nikkei 225 for the Tokyo Stock Exchange hits its all-time intra-day high of 38,957.44 and closing high at 38,915.87, serving as the apex of the Japanese asset price bubble.",
-      "source": {
-        "name": "Wikipedia · Nikkei 225",
-        "url": "https://en.wikipedia.org/wiki/Nikkei_225",
-        "calendarUrl": "https://en.wikipedia.org/wiki/December_29",
-        "license": {
-          "name": "CC BY-SA 4.0",
-          "url": "https://creativecommons.org/licenses/by-sa/4.0/"
-        }
-      },
-      "image": {
-        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/6d/Nikkei_225%281970-%29.svg/500px-Nikkei_225%281970-%29.svg.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-        "alt": "Picture from the Wikipedia article on Nikkei 225.",
-        "credit": "Monaneko",
-        "source": "https://commons.wikimedia.org/wiki/File:Nikkei_225(1970-).svg",
-        "license": "CC BY 3.0",
-        "licenseUrl": "https://creativecommons.org/licenses/by/3.0"
       }
     }
   ]

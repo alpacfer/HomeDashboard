@@ -3,17 +3,17 @@
   "dateLabel": "23 November",
   "facts": [
     {
-      "id": "11-23-ibm-simon",
+      "id": "11-23-madura-english-sinhala-dictionary",
       "date": "11-23",
       "dateLabel": "23 November",
       "category": "tech",
       "categoryName": "Tech",
-      "year": 1992,
-      "title": "IBM Simon",
-      "body": "The first smartphone, the IBM Simon, is introduced at COMDEX in Las Vegas, Nevada.",
+      "year": 2002,
+      "title": "Madura English–Sinhala Dictionary",
+      "body": "Madura English–Sinhala Dictionary (Sinhala: මධුර ඉංග්‍රීසි–සිංහල ශබ්දකෝෂය) is a free electronic dictionary service developed by Madura Kulatunga. It is available as computer software, an online website and an android app.",
       "source": {
-        "name": "Wikipedia · IBM Simon",
-        "url": "https://en.wikipedia.org/wiki/IBM_Simon",
+        "name": "Wikipedia · Madura English–Sinhala Dictionary",
+        "url": "https://en.wikipedia.org/wiki/Madura_English%E2%80%93Sinhala_Dictionary",
         "calendarUrl": "https://en.wikipedia.org/wiki/November_23",
         "license": {
           "name": "CC BY-SA 4.0",
@@ -21,12 +21,12 @@
         }
       },
       "image": {
-        "src": "https://upload.wikimedia.org/wikipedia/commons/f/f8/IBM_Simon.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
-        "alt": "Picture from the Wikipedia article on IBM Simon.",
-        "credit": "IBM",
-        "source": "https://commons.wikimedia.org/wiki/File:IBM_Simon.png",
-        "license": "Public domain",
-        "licenseUrl": "https://commons.wikimedia.org/wiki/File:IBM_Simon.png"
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/6e/Madura_Dictionary.png/500px-Madura_Dictionary.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "alt": "Madura English–Sinhala Dictionary — the software this anniversary is about.",
+        "credit": "Madura Kulatunga",
+        "source": "https://commons.wikimedia.org/wiki/File:Madura_Dictionary.png",
+        "license": "CC0",
+        "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/deed.en"
       }
     },
     {
@@ -54,6 +54,33 @@
         "source": "https://commons.wikimedia.org/wiki/File:Ethiopia,_the_Ogaden_Region._LOC_91682434.jpg",
         "license": "Public domain",
         "licenseUrl": "https://commons.wikimedia.org/wiki/File:Ethiopia,_the_Ogaden_Region._LOC_91682434.jpg"
+      }
+    },
+    {
+      "id": "11-23-ibm-simon",
+      "date": "11-23",
+      "dateLabel": "23 November",
+      "category": "tech",
+      "categoryName": "Tech",
+      "year": 1992,
+      "title": "IBM Simon",
+      "body": "The first smartphone, the IBM Simon, is introduced at COMDEX in Las Vegas, Nevada.",
+      "source": {
+        "name": "Wikipedia · IBM Simon",
+        "url": "https://en.wikipedia.org/wiki/IBM_Simon",
+        "calendarUrl": "https://en.wikipedia.org/wiki/November_23",
+        "license": {
+          "name": "CC BY-SA 4.0",
+          "url": "https://creativecommons.org/licenses/by-sa/4.0/"
+        }
+      },
+      "image": {
+        "src": "https://upload.wikimedia.org/wikipedia/commons/f/f8/IBM_Simon.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+        "alt": "Picture from the Wikipedia article on IBM Simon.",
+        "credit": "IBM",
+        "source": "https://commons.wikimedia.org/wiki/File:IBM_Simon.png",
+        "license": "Public domain",
+        "licenseUrl": "https://commons.wikimedia.org/wiki/File:IBM_Simon.png"
       }
     },
     {
@@ -108,33 +135,6 @@
         "source": "https://commons.wikimedia.org/wiki/File:Ellen_Johnson-Sirleaf_(2022)_(cropped).jpg",
         "license": "Public domain",
         "licenseUrl": "https://commons.wikimedia.org/wiki/File:Ellen_Johnson-Sirleaf_(2022)_(cropped).jpg"
-      }
-    },
-    {
-      "id": "11-23-jacques-mayol",
-      "date": "11-23",
-      "dateLabel": "23 November",
-      "category": "world",
-      "categoryName": "World",
-      "year": 1976,
-      "title": "Jacques Mayol",
-      "body": "Jacques Mayol is the first man to reach a depth of undersea without breathing equipment.",
-      "source": {
-        "name": "Wikipedia · Jacques Mayol",
-        "url": "https://en.wikipedia.org/wiki/Jacques_Mayol",
-        "calendarUrl": "https://en.wikipedia.org/wiki/November_23",
-        "license": {
-          "name": "CC BY-SA 4.0",
-          "url": "https://creativecommons.org/licenses/by-sa/4.0/"
-        }
-      },
-      "image": {
-        "src": "https://upload.wikimedia.org/wikipedia/commons/b/bd/Record_mondial_de_poids_constant_-_62_m_en_1989.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
-        "alt": "Picture from the Wikipedia article on Jacques Mayol.",
-        "credit": "Razeurmamba",
-        "source": "https://commons.wikimedia.org/wiki/File:Record_mondial_de_poids_constant_-_62_m_en_1989.png",
-        "license": "CC BY-SA 4.0",
-        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0"
       }
     }
   ]

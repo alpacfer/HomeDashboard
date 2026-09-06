@@ -3,17 +3,17 @@
   "dateLabel": "18 August",
   "facts": [
     {
-      "id": "08-18-vladimir-nabokov",
+      "id": "08-18-mountain-video-game",
       "date": "08-18",
       "dateLabel": "18 August",
       "category": "culture",
       "categoryName": "Culture",
-      "year": 1958,
-      "title": "Vladimir Nabokov",
-      "body": "Vladimir Nabokov's controversial novel Lolita is published in the United States.",
+      "year": 2014,
+      "title": "Mountain",
+      "body": "Mountain is a 2014 simulation video game developed by David OReilly and published by Double Fine Productions. It was released for Microsoft Windows, OS X, Linux, and iOS in July 2014.",
       "source": {
-        "name": "Wikipedia · Vladimir Nabokov",
-        "url": "https://en.wikipedia.org/wiki/Vladimir_Nabokov",
+        "name": "Wikipedia · Mountain (video game)",
+        "url": "https://en.wikipedia.org/wiki/Mountain_(video_game)",
         "calendarUrl": "https://en.wikipedia.org/wiki/August_18",
         "license": {
           "name": "CC BY-SA 4.0",
@@ -21,12 +21,39 @@
         }
       },
       "image": {
-        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/87/Vladimir_Nabokov_1973.jpg/500px-Vladimir_Nabokov_1973.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-        "alt": "Picture from the Wikipedia article on Vladimir Nabokov.",
-        "credit": "Walter Mori",
-        "source": "https://commons.wikimedia.org/wiki/File:Vladimir_Nabokov_1973.jpg",
-        "license": "Public domain",
-        "licenseUrl": "https://commons.wikimedia.org/wiki/File:Vladimir_Nabokov_1973.jpg"
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/45/Mountain_%28video_game%29_screenshot_3.jpg/500px-Mountain_%28video_game%29_screenshot_3.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "alt": "Mountain — the video game this anniversary is about.",
+        "credit": "David OReilly",
+        "source": "https://commons.wikimedia.org/wiki/File:Mountain_(video_game)_screenshot_3.jpg",
+        "license": "CC BY-SA 3.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0"
+      }
+    },
+    {
+      "id": "08-18-a-short-hike",
+      "date": "08-18",
+      "dateLabel": "18 August",
+      "category": "culture",
+      "categoryName": "Culture",
+      "year": 2020,
+      "title": "A Short Hike",
+      "body": "A Short Hike is a 2019 adventure video game by the Canadian indie game designer Adam Robinson-Yu, also known as adamgryu.",
+      "source": {
+        "name": "Wikipedia · A Short Hike",
+        "url": "https://en.wikipedia.org/wiki/A_Short_Hike",
+        "calendarUrl": "https://en.wikipedia.org/wiki/August_18",
+        "license": {
+          "name": "CC BY-SA 4.0",
+          "url": "https://creativecommons.org/licenses/by-sa/4.0/"
+        }
+      },
+      "image": {
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/52/A_Short_Hike_Screenshot_5.png/500px-A_Short_Hike_Screenshot_5.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "alt": "A Short Hike — the video game this anniversary is about.",
+        "credit": "Adam Robinson-Yu",
+        "source": "https://commons.wikimedia.org/wiki/File:A_Short_Hike_Screenshot_5.png",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0"
       }
     },
     {
@@ -108,33 +135,6 @@
         "source": "https://commons.wikimedia.org/wiki/File:IAU_2006_General_Assembly-_Result_of_the_IAU_Resolution_Votes_(iau0603g).jpg",
         "license": "CC BY 4.0",
         "licenseUrl": "https://creativecommons.org/licenses/by/4.0"
-      }
-    },
-    {
-      "id": "08-18-brojen-das",
-      "date": "08-18",
-      "dateLabel": "18 August",
-      "category": "world",
-      "categoryName": "World",
-      "year": 1958,
-      "title": "Brojen Das",
-      "body": "Brojen Das from Bangladesh swims across the English Channel in a competition as the first Bengali and the first Asian to do so, placing first among the 39 competitors.",
-      "source": {
-        "name": "Wikipedia · Brojen Das",
-        "url": "https://en.wikipedia.org/wiki/Brojen_Das",
-        "calendarUrl": "https://en.wikipedia.org/wiki/August_18",
-        "license": {
-          "name": "CC BY-SA 4.0",
-          "url": "https://creativecommons.org/licenses/by-sa/4.0/"
-        }
-      },
-      "image": {
-        "src": "https://upload.wikimedia.org/wikipedia/commons/4/48/Brojen_das.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
-        "alt": "Picture from the Wikipedia article on Brojen Das.",
-        "credit": "Wikimedia Commons",
-        "source": "https://commons.wikimedia.org/wiki/File:Brojen_das.jpg",
-        "license": "CC BY-SA 2.5",
-        "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.5"
       }
     }
   ]

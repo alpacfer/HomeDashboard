@@ -3,6 +3,60 @@
   "dateLabel": "7 May",
   "facts": [
     {
+      "id": "05-07-rymdkapsel",
+      "date": "05-07",
+      "dateLabel": "7 May",
+      "category": "culture",
+      "categoryName": "Culture",
+      "year": 2013,
+      "title": "Rymdkapsel",
+      "body": "Rymdkapsel is a 2013 minimalist real-time strategy video game by indie developer Grapefrukt, the studio of Martin Jonasson.",
+      "source": {
+        "name": "Wikipedia · Rymdkapsel",
+        "url": "https://en.wikipedia.org/wiki/Rymdkapsel",
+        "calendarUrl": "https://en.wikipedia.org/wiki/May_7",
+        "license": {
+          "name": "CC BY-SA 4.0",
+          "url": "https://creativecommons.org/licenses/by-sa/4.0/"
+        }
+      },
+      "image": {
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b0/Rymdkapsel_screenshot_3.png/500px-Rymdkapsel_screenshot_3.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "alt": "Rymdkapsel — the video game this anniversary is about.",
+        "credit": "Martin Jonasson, the game's designer",
+        "source": "https://commons.wikimedia.org/wiki/File:Rymdkapsel_screenshot_3.png",
+        "license": "CC BY-SA 3.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0"
+      }
+    },
+    {
+      "id": "05-07-zynn",
+      "date": "05-07",
+      "dateLabel": "7 May",
+      "category": "tech",
+      "categoryName": "Tech",
+      "year": 2020,
+      "title": "Zynn",
+      "body": "Zynn was a Chinese video-sharing social networking service owned by Kuaishou, a Beijing-based internet technology company established in 2011 by Su Hua and Cheng Yixiao.",
+      "source": {
+        "name": "Wikipedia · Zynn",
+        "url": "https://en.wikipedia.org/wiki/Zynn",
+        "calendarUrl": "https://en.wikipedia.org/wiki/May_7",
+        "license": {
+          "name": "CC BY-SA 4.0",
+          "url": "https://creativecommons.org/licenses/by-sa/4.0/"
+        }
+      },
+      "image": {
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/59/Zynnlogo.svg/500px-Zynnlogo.svg.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "alt": "Zynn — the mobile app this anniversary is about.",
+        "credit": "Zynn",
+        "source": "https://commons.wikimedia.org/wiki/File:Zynnlogo.svg",
+        "license": "Public domain",
+        "licenseUrl": "https://commons.wikimedia.org/wiki/File:Zynnlogo.svg"
+      }
+    },
+    {
       "id": "05-07-edvard-munch",
       "date": "05-07",
       "dateLabel": "7 May",
@@ -81,60 +135,6 @@
         "source": "https://commons.wikimedia.org/wiki/File:Joseph_Karl_Stieler%27s_Beethoven_mit_dem_Manuskript_der_Missa_solemnis.jpg",
         "license": "Public domain",
         "licenseUrl": "https://commons.wikimedia.org/wiki/File:Joseph_Karl_Stieler%27s_Beethoven_mit_dem_Manuskript_der_Missa_solemnis.jpg"
-      }
-    },
-    {
-      "id": "05-07-eastern-orthodox-church",
-      "date": "05-07",
-      "dateLabel": "7 May",
-      "category": "world",
-      "categoryName": "World",
-      "year": 1999,
-      "title": "Eastern Orthodox Church",
-      "body": "Pope John Paul II travels to Romania, becoming the first pope to visit a predominantly Eastern Orthodox country since the Great Schism in 1054.",
-      "source": {
-        "name": "Wikipedia · Eastern Orthodox Church",
-        "url": "https://en.wikipedia.org/wiki/Eastern_Orthodox_Church",
-        "calendarUrl": "https://en.wikipedia.org/wiki/May_7",
-        "license": {
-          "name": "CC BY-SA 4.0",
-          "url": "https://creativecommons.org/licenses/by-sa/4.0/"
-        }
-      },
-      "image": {
-        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/5e/St._George%27s_Cathedral_2022_%286%29.jpg/500px-St._George%27s_Cathedral_2022_%286%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-        "alt": "Picture from the Wikipedia article on Eastern Orthodox Church.",
-        "credit": "Antoloji",
-        "source": "https://commons.wikimedia.org/wiki/File:St._George%27s_Cathedral_2022_(6).jpg",
-        "license": "CC BY-SA 4.0",
-        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0"
-      }
-    },
-    {
-      "id": "05-07-clipper",
-      "date": "05-07",
-      "dateLabel": "7 May",
-      "category": "curious",
-      "categoryName": "Curious",
-      "year": 1864,
-      "title": "Clipper",
-      "body": "The world's oldest surviving clipper ship, the City of Adelaide is launched by William Pile, Hay and Co. in Sunderland, England, for transporting passengers and goods between Britain and Australia.",
-      "source": {
-        "name": "Wikipedia · Clipper",
-        "url": "https://en.wikipedia.org/wiki/Clipper",
-        "calendarUrl": "https://en.wikipedia.org/wiki/May_7",
-        "license": {
-          "name": "CC BY-SA 4.0",
-          "url": "https://creativecommons.org/licenses/by-sa/4.0/"
-        }
-      },
-      "image": {
-        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/2d/Taeping_%28clipper%2C_1863%29_-_SLV_H91.325-1033.jpg/500px-Taeping_%28clipper%2C_1863%29_-_SLV_H91.325-1033.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-        "alt": "Picture from the Wikipedia article on Clipper.",
-        "credit": "Allan C. Green",
-        "source": "https://commons.wikimedia.org/wiki/File:Taeping_(clipper,_1863)_-_SLV_H91.325-1033.jpg",
-        "license": "Public domain",
-        "licenseUrl": "https://commons.wikimedia.org/wiki/File:Taeping_(clipper,_1863)_-_SLV_H91.325-1033.jpg"
       }
     }
   ]

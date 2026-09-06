@@ -3,6 +3,60 @@
   "dateLabel": "27 March",
   "facts": [
     {
+      "id": "03-27-goo-search-engine",
+      "date": "03-27",
+      "dateLabel": "27 March",
+      "category": "tech",
+      "categoryName": "Tech",
+      "year": 1997,
+      "title": "goo",
+      "body": "Goo (stylized in lowercase) is an Internet search engine (powered by Google) and web portal based in Japan, which is used to crawl and index primarily Japanese language websites (before switching to Google).",
+      "source": {
+        "name": "Wikipedia · Goo (search engine)",
+        "url": "https://en.wikipedia.org/wiki/Goo_(search_engine)",
+        "calendarUrl": "https://en.wikipedia.org/wiki/March_27",
+        "license": {
+          "name": "CC BY-SA 4.0",
+          "url": "https://creativecommons.org/licenses/by-sa/4.0/"
+        }
+      },
+      "image": {
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a7/%E6%95%99%E3%81%88%E3%81%A6%5Egoo%E3%83%81%E3%83%A3%E3%83%AC%E3%83%B3%E3%82%B82005%E6%B8%8B%E8%B0%B7_2_-_panoramio.jpg/500px-%E6%95%99%E3%81%88%E3%81%A6%5Egoo%E3%83%81%E3%83%A3%E3%83%AC%E3%83%B3%E3%82%B82005%E6%B8%8B%E8%B0%B7_2_-_panoramio.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "alt": "goo — the search engine this anniversary is about.",
+        "credit": "koji_h",
+        "source": "https://commons.wikimedia.org/wiki/File:%E6%95%99%E3%81%88%E3%81%A6%5Egoo%E3%83%81%E3%83%A3%E3%83%AC%E3%83%B3%E3%82%B82005%E6%B8%8B%E8%B0%B7_2_-_panoramio.jpg",
+        "license": "CC BY 3.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by/3.0"
+      }
+    },
+    {
+      "id": "03-27-artprice",
+      "date": "03-27",
+      "dateLabel": "27 March",
+      "category": "tech",
+      "categoryName": "Tech",
+      "year": 1997,
+      "title": "Artprice",
+      "body": "Artprice (Euronext: PRC) is a French online art price Database. It houses millions of art auction records from over 800,000 artists from sales since the 1980's.",
+      "source": {
+        "name": "Wikipedia · Artprice",
+        "url": "https://en.wikipedia.org/wiki/Artprice",
+        "calendarUrl": "https://en.wikipedia.org/wiki/March_27",
+        "license": {
+          "name": "CC BY-SA 4.0",
+          "url": "https://creativecommons.org/licenses/by-sa/4.0/"
+        }
+      },
+      "image": {
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/0c/Logo-artprice.jpg/500px-Logo-artprice.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "alt": "Artprice — the website this anniversary is about.",
+        "credit": "artprice.com",
+        "source": "https://commons.wikimedia.org/wiki/File:Logo-artprice.jpg",
+        "license": "Public domain",
+        "licenseUrl": "https://commons.wikimedia.org/wiki/File:Logo-artprice.jpg"
+      }
+    },
+    {
       "id": "03-27-washington-metro",
       "date": "03-27",
       "dateLabel": "27 March",
@@ -81,60 +135,6 @@
         "source": "https://commons.wikimedia.org/wiki/File:US_Food_and_Drug_Administration_Seal.png",
         "license": "Public domain",
         "licenseUrl": "https://commons.wikimedia.org/wiki/File:US_Food_and_Drug_Administration_Seal.png"
-      }
-    },
-    {
-      "id": "03-27-leander-class-frigate",
-      "date": "03-27",
-      "dateLabel": "27 March",
-      "category": "world",
-      "categoryName": "World",
-      "year": 2004,
-      "title": "Leander-class frigate",
-      "body": ", a decommissioned Leander-class frigate, is sunk as an artificial reef off Cornwall, the first of its kind in Europe.",
-      "source": {
-        "name": "Wikipedia · Leander-class frigate",
-        "url": "https://en.wikipedia.org/wiki/Leander-class_frigate",
-        "calendarUrl": "https://en.wikipedia.org/wiki/March_27",
-        "license": {
-          "name": "CC BY-SA 4.0",
-          "url": "https://creativecommons.org/licenses/by-sa/4.0/"
-        }
-      },
-      "image": {
-        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d2/HMS_Apollo_1976_SMB-2008.jpg/500px-HMS_Apollo_1976_SMB-2008.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-        "alt": "Picture from the Wikipedia article on Leander-class frigate.",
-        "credit": "HMS Apollo",
-        "source": "https://commons.wikimedia.org/wiki/File:HMS_Apollo_1976_SMB-2008.jpg",
-        "license": "CC BY-SA 3.0",
-        "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0/"
-      }
-    },
-    {
-      "id": "03-27-cuban-dissident-movement",
-      "date": "03-27",
-      "dateLabel": "27 March",
-      "category": "world",
-      "categoryName": "World",
-      "year": 1990,
-      "title": "Cuban dissident movement",
-      "body": "The United States begins broadcasting anti-Castro propaganda to Cuba on TV Martí.",
-      "source": {
-        "name": "Wikipedia · Cuban dissident movement",
-        "url": "https://en.wikipedia.org/wiki/Cuban_dissident_movement",
-        "calendarUrl": "https://en.wikipedia.org/wiki/March_27",
-        "license": {
-          "name": "CC BY-SA 4.0",
-          "url": "https://creativecommons.org/licenses/by-sa/4.0/"
-        }
-      },
-      "image": {
-        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f9/Flag_of_Cuba_%281902%E2%80%931906%29.svg/500px-Flag_of_Cuba_%281902%E2%80%931906%29.svg.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-        "alt": "Picture from the Wikipedia article on Cuban dissident movement.",
-        "credit": "see below",
-        "source": "https://commons.wikimedia.org/wiki/File:Flag_of_Cuba_(1902%E2%80%931906).svg",
-        "license": "Public domain",
-        "licenseUrl": "https://commons.wikimedia.org/wiki/File:Flag_of_Cuba_(1902%E2%80%931906).svg"
       }
     }
   ]

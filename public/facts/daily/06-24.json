@@ -3,6 +3,60 @@
   "dateLabel": "24 June",
   "facts": [
     {
+      "id": "06-24-htc-sense",
+      "date": "06-24",
+      "dateLabel": "24 June",
+      "category": "tech",
+      "categoryName": "Tech",
+      "year": 2009,
+      "title": "HTC Sense",
+      "body": "HTC Sense is a software suite and a user interface developed by HTC, used primarily on the company's Android-based devices. HTC Sense, the successor to HTC's TouchFLO 3D, enhances Android with a revamped home screen, keyboard, widgets and HTC apps.",
+      "source": {
+        "name": "Wikipedia · HTC Sense",
+        "url": "https://en.wikipedia.org/wiki/HTC_Sense",
+        "calendarUrl": "https://en.wikipedia.org/wiki/June_24",
+        "license": {
+          "name": "CC BY-SA 4.0",
+          "url": "https://creativecommons.org/licenses/by-sa/4.0/"
+        }
+      },
+      "image": {
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/45/HTC_Evo_4G.jpg/500px-HTC_Evo_4G.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "alt": "HTC Sense — the software this anniversary is about.",
+        "credit": "Christian Lo",
+        "source": "https://commons.wikimedia.org/wiki/File:HTC_Evo_4G.jpg",
+        "license": "CC BY 2.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by/2.0"
+      }
+    },
+    {
+      "id": "06-24-her-story-video-game",
+      "date": "06-24",
+      "dateLabel": "24 June",
+      "category": "culture",
+      "categoryName": "Culture",
+      "year": 2015,
+      "title": "Her Story",
+      "body": "Her Story is an interactive film video game written and directed by Sam Barlow. It was released on 24 June 2015 for iOS, OS X, and Windows, and the following year for Android.",
+      "source": {
+        "name": "Wikipedia · Her Story (video game)",
+        "url": "https://en.wikipedia.org/wiki/Her_Story_(video_game)",
+        "calendarUrl": "https://en.wikipedia.org/wiki/June_24",
+        "license": {
+          "name": "CC BY-SA 4.0",
+          "url": "https://creativecommons.org/licenses/by-sa/4.0/"
+        }
+      },
+      "image": {
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/0b/Her_Story_screenshot_02.jpg/500px-Her_Story_screenshot_02.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "alt": "Her Story — the video game this anniversary is about.",
+        "credit": "Sam Barlow",
+        "source": "https://commons.wikimedia.org/wiki/File:Her_Story_screenshot_02.jpg",
+        "license": "CC BY-SA 3.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0"
+      }
+    },
+    {
       "id": "06-24-humber-bridge",
       "date": "06-24",
       "dateLabel": "24 June",
@@ -27,33 +81,6 @@
         "source": "https://commons.wikimedia.org/wiki/File:Humber_Br%C3%A9ck_zu_Hull_w.jpg",
         "license": "CC BY-SA 3.0",
         "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0/"
-      }
-    },
-    {
-      "id": "06-24-mary-pickford",
-      "date": "06-24",
-      "dateLabel": "24 June",
-      "category": "culture",
-      "categoryName": "Culture",
-      "year": 1916,
-      "title": "Mary Pickford",
-      "body": "Mary Pickford becomes the first female film star to sign a million-dollar contract.",
-      "source": {
-        "name": "Wikipedia · Mary Pickford",
-        "url": "https://en.wikipedia.org/wiki/Mary_Pickford",
-        "calendarUrl": "https://en.wikipedia.org/wiki/June_24",
-        "license": {
-          "name": "CC BY-SA 4.0",
-          "url": "https://creativecommons.org/licenses/by-sa/4.0/"
-        }
-      },
-      "image": {
-        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/88/Mary_Pickford_cph.3c17995u.jpg/500px-Mary_Pickford_cph.3c17995u.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-        "alt": "Picture from the Wikipedia article on Mary Pickford.",
-        "credit": "Rufus Porter Moody",
-        "source": "https://commons.wikimedia.org/wiki/File:Mary_Pickford_cph.3c17995u.jpg",
-        "license": "Public domain",
-        "licenseUrl": "https://commons.wikimedia.org/wiki/File:Mary_Pickford_cph.3c17995u.jpg"
       }
     },
     {
@@ -108,33 +135,6 @@
         "source": "https://commons.wikimedia.org/wiki/File:Kenneth_Arnold.jpg",
         "license": "Public domain",
         "licenseUrl": "https://commons.wikimedia.org/wiki/File:Kenneth_Arnold.jpg"
-      }
-    },
-    {
-      "id": "06-24-o-canada",
-      "date": "06-24",
-      "dateLabel": "24 June",
-      "category": "culture",
-      "categoryName": "Culture",
-      "year": 1880,
-      "title": "O Canada",
-      "body": "First performance of O Canada at the Congrès national des Canadiens-Français. The song would later become the national anthem of Canada.",
-      "source": {
-        "name": "Wikipedia · O Canada",
-        "url": "https://en.wikipedia.org/wiki/O_Canada",
-        "calendarUrl": "https://en.wikipedia.org/wiki/June_24",
-        "license": {
-          "name": "CC BY-SA 4.0",
-          "url": "https://creativecommons.org/licenses/by-sa/4.0/"
-        }
-      },
-      "image": {
-        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b2/O_Canada_bilingual_sheet_music.pdf/page1-500px-O_Canada_bilingual_sheet_music.pdf.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-        "alt": "Picture from the Wikipedia article on O Canada.",
-        "credit": "Government of Canada",
-        "source": "https://commons.wikimedia.org/wiki/File:O_Canada_bilingual_sheet_music.pdf",
-        "license": "Public domain",
-        "licenseUrl": "https://commons.wikimedia.org/wiki/File:O_Canada_bilingual_sheet_music.pdf"
       }
     }
   ]

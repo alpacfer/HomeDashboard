@@ -3,6 +3,60 @@
   "dateLabel": "2 January",
   "facts": [
     {
+      "id": "01-02-ct-special-forces",
+      "date": "01-02",
+      "dateLabel": "2 January",
+      "category": "culture",
+      "categoryName": "Culture",
+      "year": 2001,
+      "title": "CT Special Forces",
+      "body": "CT Special Forces is a 2002 run and gun video game for the Game Boy Advance and PlayStation developed by LSP Games (Light and Shadow Productions) and published by Hip Interactive. The game spawned three sequels: Back to Hell, Bioterror, and Fire for Effect.",
+      "source": {
+        "name": "Wikipedia · CT Special Forces",
+        "url": "https://en.wikipedia.org/wiki/CT_Special_Forces",
+        "calendarUrl": "https://en.wikipedia.org/wiki/January_2",
+        "license": {
+          "name": "CC BY-SA 4.0",
+          "url": "https://creativecommons.org/licenses/by-sa/4.0/"
+        }
+      },
+      "image": {
+        "src": "https://upload.wikimedia.org/wikipedia/commons/4/46/CT_Special_Forces_Interface.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+        "alt": "CT Special Forces — the video game this anniversary is about.",
+        "credit": "Wikimedia Commons",
+        "source": "https://commons.wikimedia.org/wiki/File:CT_Special_Forces_Interface.png",
+        "license": "CC BY-SA 3.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0"
+      }
+    },
+    {
+      "id": "01-02-counterparty-platform",
+      "date": "01-02",
+      "dateLabel": "2 January",
+      "category": "tech",
+      "categoryName": "Tech",
+      "year": 2014,
+      "title": "Counterparty",
+      "body": "Counterparty is a DeFi platform and Internet protocol built on top of the Bitcoin blockchain. 0\" (later known as non-fungible token) platforms in 2014.",
+      "source": {
+        "name": "Wikipedia · Counterparty (platform)",
+        "url": "https://en.wikipedia.org/wiki/Counterparty_(platform)",
+        "calendarUrl": "https://en.wikipedia.org/wiki/January_2",
+        "license": {
+          "name": "CC BY-SA 4.0",
+          "url": "https://creativecommons.org/licenses/by-sa/4.0/"
+        }
+      },
+      "image": {
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/9e/Counterwallet_Homepage.png/500px-Counterwallet_Homepage.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "alt": "Counterparty — the software this anniversary is about.",
+        "credit": "Counterparty Team",
+        "source": "https://commons.wikimedia.org/wiki/File:Counterwallet_Homepage.png",
+        "license": "Copyrighted free use",
+        "licenseUrl": "https://commons.wikimedia.org/wiki/File:Counterwallet_Homepage.png"
+      }
+    },
+    {
       "id": "01-02-luna-1",
       "date": "01-02",
       "dateLabel": "2 January",
@@ -81,60 +135,6 @@
         "source": "https://commons.wikimedia.org/wiki/File:Stardust_-_Concepcao_artistica.jpg",
         "license": "Public domain",
         "licenseUrl": "https://commons.wikimedia.org/wiki/File:Stardust_-_Concepcao_artistica.jpg"
-      }
-    },
-    {
-      "id": "01-02-list-of-civil-awards-and-decorations",
-      "date": "01-02",
-      "dateLabel": "2 January",
-      "category": "world",
-      "categoryName": "World",
-      "year": 1954,
-      "title": "List of civil awards and decorations",
-      "body": "India establishes its highest civilian awards, the Bharat Ratna and the Padma Vibhushan.",
-      "source": {
-        "name": "Wikipedia · List of civil awards and decorations",
-        "url": "https://en.wikipedia.org/wiki/List_of_civil_awards_and_decorations",
-        "calendarUrl": "https://en.wikipedia.org/wiki/January_2",
-        "license": {
-          "name": "CC BY-SA 4.0",
-          "url": "https://creativecommons.org/licenses/by-sa/4.0/"
-        }
-      },
-      "image": {
-        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/40/Fire_Services_Exemplary_Service_Medal.jpg/500px-Fire_Services_Exemplary_Service_Medal.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-        "alt": "Picture from the Wikipedia article on List of civil awards and decorations.",
-        "credit": "Fdutil",
-        "source": "https://commons.wikimedia.org/wiki/File:Fire_Services_Exemplary_Service_Medal.jpg",
-        "license": "CC BY-SA 3.0",
-        "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0"
-      }
-    },
-    {
-      "id": "01-02-r-u-r",
-      "date": "01-02",
-      "dateLabel": "2 January",
-      "category": "world",
-      "categoryName": "World",
-      "year": 1921,
-      "title": "R.U.R.",
-      "body": "World premiere of the science fiction play R.U.R. by the Czech writer Karel Čapek in a theater in Hradec Králové.",
-      "source": {
-        "name": "Wikipedia · R.U.R.",
-        "url": "https://en.wikipedia.org/wiki/R.U.R.",
-        "calendarUrl": "https://en.wikipedia.org/wiki/January_2",
-        "license": {
-          "name": "CC BY-SA 4.0",
-          "url": "https://creativecommons.org/licenses/by-sa/4.0/"
-        }
-      },
-      "image": {
-        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/ad/Rosumovi_Univerz%C3%A1ln%C3%AD_Roboti_1920.jpg/500px-Rosumovi_Univerz%C3%A1ln%C3%AD_Roboti_1920.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-        "alt": "Picture from the Wikipedia article on R.U.R..",
-        "credit": "Unknown author",
-        "source": "https://commons.wikimedia.org/wiki/File:Rosumovi_Univerz%C3%A1ln%C3%AD_Roboti_1920.jpg",
-        "license": "Public domain",
-        "licenseUrl": "https://commons.wikimedia.org/wiki/File:Rosumovi_Univerz%C3%A1ln%C3%AD_Roboti_1920.jpg"
       }
     }
   ]

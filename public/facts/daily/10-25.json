@@ -3,6 +3,60 @@
   "dateLabel": "25 October",
   "facts": [
     {
+      "id": "10-25-call-of-duty-modern-warfare-2019-video-game",
+      "date": "10-25",
+      "dateLabel": "25 October",
+      "category": "culture",
+      "categoryName": "Culture",
+      "year": 2019,
+      "title": "Call of Duty: Modern Warfare",
+      "body": "Modern Warfare is a 2019 first-person shooter game developed by Infinity Ward and published by Activision.",
+      "source": {
+        "name": "Wikipedia · Call of Duty: Modern Warfare (2019 video game)",
+        "url": "https://en.wikipedia.org/wiki/Call_of_Duty:_Modern_Warfare_(2019_video_game)",
+        "calendarUrl": "https://en.wikipedia.org/wiki/October_25",
+        "license": {
+          "name": "CC BY-SA 4.0",
+          "url": "https://creativecommons.org/licenses/by-sa/4.0/"
+        }
+      },
+      "image": {
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/30/Call_of_Duty_Modern_Warfare_Gamescom_2019_%2848605842367%29.jpg/500px-Call_of_Duty_Modern_Warfare_Gamescom_2019_%2848605842367%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "alt": "Call of Duty: Modern Warfare — the video game this anniversary is about.",
+        "credit": "dronepicr",
+        "source": "https://commons.wikimedia.org/wiki/File:Call_of_Duty_Modern_Warfare_Gamescom_2019_(48605842367).jpg",
+        "license": "CC BY 2.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by/2.0"
+      }
+    },
+    {
+      "id": "10-25-grand-theft-auto-liberty-city-stories",
+      "date": "10-25",
+      "dateLabel": "25 October",
+      "category": "culture",
+      "categoryName": "Culture",
+      "year": 2005,
+      "title": "Q94778",
+      "body": "Liberty City Stories is a 2005 action-adventure game developed in a collaboration between Rockstar Leeds and Rockstar North, and published by Rockstar Games.",
+      "source": {
+        "name": "Wikipedia · Grand Theft Auto: Liberty City Stories",
+        "url": "https://en.wikipedia.org/wiki/Grand_Theft_Auto:_Liberty_City_Stories",
+        "calendarUrl": "https://en.wikipedia.org/wiki/October_25",
+        "license": {
+          "name": "CC BY-SA 4.0",
+          "url": "https://creativecommons.org/licenses/by-sa/4.0/"
+        }
+      },
+      "image": {
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/54/Rockstar_Games_buses_at_E3_2005.jpg/500px-Rockstar_Games_buses_at_E3_2005.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "alt": "Q94778 — the video game this anniversary is about.",
+        "credit": "Cian Ginty",
+        "source": "https://commons.wikimedia.org/wiki/File:Rockstar_Games_buses_at_E3_2005.jpg",
+        "license": "Attribution",
+        "licenseUrl": "https://commons.wikimedia.org/wiki/File:Rockstar_Games_buses_at_E3_2005.jpg"
+      }
+    },
+    {
       "id": "10-25-adlai-stevenson-ii",
       "date": "10-25",
       "dateLabel": "25 October",
@@ -81,60 +135,6 @@
         "source": "https://commons.wikimedia.org/wiki/File:Tchaikovsky_by_Reutlinger_(cropped).jpg",
         "license": "Public domain",
         "licenseUrl": "https://commons.wikimedia.org/wiki/File:Tchaikovsky_by_Reutlinger_(cropped).jpg"
-      }
-    },
-    {
-      "id": "10-25-kazakh-soviet-socialist-republic",
-      "date": "10-25",
-      "dateLabel": "25 October",
-      "category": "world",
-      "categoryName": "World",
-      "year": 1990,
-      "title": "Kazakh Soviet Socialist Republic",
-      "body": "The Kazakh Soviet Socialist Republic declares its sovereignty from the Soviet Union.",
-      "source": {
-        "name": "Wikipedia · Kazakh Soviet Socialist Republic",
-        "url": "https://en.wikipedia.org/wiki/Kazakh_Soviet_Socialist_Republic",
-        "calendarUrl": "https://en.wikipedia.org/wiki/October_25",
-        "license": {
-          "name": "CC BY-SA 4.0",
-          "url": "https://creativecommons.org/licenses/by-sa/4.0/"
-        }
-      },
-      "image": {
-        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a0/Flag_of_the_Kazakh_Soviet_Socialist_Republic_%281953%E2%80%931991%29%3B_Flag_of_Kazakhstan_%281991%E2%80%931992%29.svg/500px-Flag_of_the_Kazakh_Soviet_Socialist_Republic_%281953%E2%80%931991%29%3B_Flag_of_Kazakhstan_%281991%E2%80%931992%29.svg.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-        "alt": "Picture from the Wikipedia article on Kazakh Soviet Socialist Republic.",
-        "credit": "No machine-readable author provided",
-        "source": "https://commons.wikimedia.org/wiki/File:Flag_of_the_Kazakh_Soviet_Socialist_Republic_(1953%E2%80%931991);_Flag_of_Kazakhstan_(1991%E2%80%931992).svg",
-        "license": "Public domain",
-        "licenseUrl": "https://commons.wikimedia.org/wiki/File:Flag_of_the_Kazakh_Soviet_Socialist_Republic_(1953%E2%80%931991);_Flag_of_Kazakhstan_(1991%E2%80%931992).svg"
-      }
-    },
-    {
-      "id": "10-25-george-lansbury",
-      "date": "10-25",
-      "dateLabel": "25 October",
-      "category": "world",
-      "categoryName": "World",
-      "year": 1932,
-      "title": "George Lansbury",
-      "body": "George Lansbury became the leader of the opposition British Labour Party.",
-      "source": {
-        "name": "Wikipedia · George Lansbury",
-        "url": "https://en.wikipedia.org/wiki/George_Lansbury",
-        "calendarUrl": "https://en.wikipedia.org/wiki/October_25",
-        "license": {
-          "name": "CC BY-SA 4.0",
-          "url": "https://creativecommons.org/licenses/by-sa/4.0/"
-        }
-      },
-      "image": {
-        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/8e/George-Lansbury.jpg/500px-George-Lansbury.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-        "alt": "Picture from the Wikipedia article on George Lansbury.",
-        "credit": "Howard Coster",
-        "source": "https://commons.wikimedia.org/wiki/File:George-Lansbury.jpg",
-        "license": "Public domain",
-        "licenseUrl": "https://commons.wikimedia.org/wiki/File:George-Lansbury.jpg"
       }
     }
   ]

@@ -3,6 +3,60 @@
   "dateLabel": "23 October",
   "facts": [
     {
+      "id": "10-23-mac-os-9",
+      "date": "10-23",
+      "dateLabel": "23 October",
+      "category": "tech",
+      "categoryName": "Tech",
+      "year": 1999,
+      "title": "Mac OS 9",
+      "body": "Mac OS 9 is the ninth and final major release of the classic Mac OS operating system for Macintosh computers, developed by Apple.",
+      "source": {
+        "name": "Wikipedia · Mac OS 9",
+        "url": "https://en.wikipedia.org/wiki/Mac_OS_9",
+        "calendarUrl": "https://en.wikipedia.org/wiki/October_23",
+        "license": {
+          "name": "CC BY-SA 4.0",
+          "url": "https://creativecommons.org/licenses/by-sa/4.0/"
+        }
+      },
+      "image": {
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/20/Classilla-on-Mac-OS-9.png/500px-Classilla-on-Mac-OS-9.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "alt": "Mac OS 9 — the operating system this anniversary is about.",
+        "credit": "Classilla contributors",
+        "source": "https://commons.wikimedia.org/wiki/File:Classilla-on-Mac-OS-9.png",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0"
+      }
+    },
+    {
+      "id": "10-23-ace-combat-6-fires-of-liberation",
+      "date": "10-23",
+      "dateLabel": "23 October",
+      "category": "culture",
+      "categoryName": "Culture",
+      "year": 2007,
+      "title": "Ace Combat 6: Fires of Liberation",
+      "body": "Fires of Liberation is a 2007 arcade-style combat flight simulation video game developed by Project Aces and published by Namco Bandai Games exclusively for the Xbox 360.",
+      "source": {
+        "name": "Wikipedia · Ace Combat 6: Fires of Liberation",
+        "url": "https://en.wikipedia.org/wiki/Ace_Combat_6:_Fires_of_Liberation",
+        "calendarUrl": "https://en.wikipedia.org/wiki/October_23",
+        "license": {
+          "name": "CC BY-SA 4.0",
+          "url": "https://creativecommons.org/licenses/by-sa/4.0/"
+        }
+      },
+      "image": {
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/ca/Ace_Combat_6_-_Ace_Edge.jpg/500px-Ace_Combat_6_-_Ace_Edge.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "alt": "Ace Combat 6: Fires of Liberation — the video game this anniversary is about.",
+        "credit": "Jon 'ShakataGaNai' Davis",
+        "source": "https://commons.wikimedia.org/wiki/File:Ace_Combat_6_-_Ace_Edge.jpg",
+        "license": "CC BY 3.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by/3.0"
+      }
+    },
+    {
       "id": "10-23-jackie-robinson",
       "date": "10-23",
       "dateLabel": "23 October",
@@ -27,60 +81,6 @@
         "source": "https://commons.wikimedia.org/wiki/File:Jackie_Robinson,_NPG_97_135.jpg",
         "license": "CC0",
         "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/deed.en"
-      }
-    },
-    {
-      "id": "10-23-apple-computer",
-      "date": "10-23",
-      "dateLabel": "23 October",
-      "category": "tech",
-      "categoryName": "Tech",
-      "year": 2001,
-      "title": "Apple Inc.",
-      "body": "Apple Computer releases the iPod.",
-      "source": {
-        "name": "Wikipedia · Apple Inc.",
-        "url": "https://en.wikipedia.org/wiki/Apple_Inc.",
-        "calendarUrl": "https://en.wikipedia.org/wiki/October_23",
-        "license": {
-          "name": "CC BY-SA 4.0",
-          "url": "https://creativecommons.org/licenses/by-sa/4.0/"
-        }
-      },
-      "image": {
-        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/fa/Apple_logo_black.svg/500px-Apple_logo_black.svg.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-        "alt": "Picture from the Wikipedia article on Apple Inc..",
-        "credit": "Rob Janoff",
-        "source": "https://commons.wikimedia.org/wiki/File:Apple_logo_black.svg",
-        "license": "Public domain",
-        "licenseUrl": "https://commons.wikimedia.org/wiki/File:Apple_logo_black.svg"
-      }
-    },
-    {
-      "id": "10-23-peyo",
-      "date": "10-23",
-      "dateLabel": "23 October",
-      "category": "culture",
-      "categoryName": "Culture",
-      "year": 1958,
-      "title": "Peyo",
-      "body": "Belgian artist Peyo's comic characters, the Smurfs, make their debut in Spirou magazine.",
-      "source": {
-        "name": "Wikipedia · Peyo",
-        "url": "https://en.wikipedia.org/wiki/Peyo",
-        "calendarUrl": "https://en.wikipedia.org/wiki/October_23",
-        "license": {
-          "name": "CC BY-SA 4.0",
-          "url": "https://creativecommons.org/licenses/by-sa/4.0/"
-        }
-      },
-      "image": {
-        "src": "https://upload.wikimedia.org/wikipedia/commons/d/d8/Peyo_%281990%29_by_Erling_Mandelmann.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
-        "alt": "Picture from the Wikipedia article on Peyo.",
-        "credit": "photo©ErlingMandelmann.ch",
-        "source": "https://commons.wikimedia.org/wiki/File:Peyo_(1990)_by_Erling_Mandelmann.jpg",
-        "license": "CC BY-SA 3.0",
-        "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0"
       }
     },
     {
@@ -111,17 +111,17 @@
       }
     },
     {
-      "id": "10-23-nazi-germany",
+      "id": "10-23-apple-computer",
       "date": "10-23",
       "dateLabel": "23 October",
-      "category": "world",
-      "categoryName": "World",
-      "year": 1941,
-      "title": "Nazi Germany",
-      "body": "Nazi Germany prohibits Jews from emigrating, including in its occupied territories.",
+      "category": "tech",
+      "categoryName": "Tech",
+      "year": 2001,
+      "title": "Apple Inc.",
+      "body": "Apple Computer releases the iPod.",
       "source": {
-        "name": "Wikipedia · Nazi Germany",
-        "url": "https://en.wikipedia.org/wiki/Nazi_Germany",
+        "name": "Wikipedia · Apple Inc.",
+        "url": "https://en.wikipedia.org/wiki/Apple_Inc.",
         "calendarUrl": "https://en.wikipedia.org/wiki/October_23",
         "license": {
           "name": "CC BY-SA 4.0",
@@ -129,12 +129,12 @@
         }
       },
       "image": {
-        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/77/Flag_of_Germany_%281935%E2%80%931945%29.svg/500px-Flag_of_Germany_%281935%E2%80%931945%29.svg.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-        "alt": "Picture from the Wikipedia article on Nazi Germany.",
-        "credit": "German government",
-        "source": "https://commons.wikimedia.org/wiki/File:Flag_of_Germany_(1935%E2%80%931945).svg",
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/fa/Apple_logo_black.svg/500px-Apple_logo_black.svg.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "alt": "Picture from the Wikipedia article on Apple Inc..",
+        "credit": "Rob Janoff",
+        "source": "https://commons.wikimedia.org/wiki/File:Apple_logo_black.svg",
         "license": "Public domain",
-        "licenseUrl": "https://commons.wikimedia.org/wiki/File:Flag_of_Germany_(1935%E2%80%931945).svg"
+        "licenseUrl": "https://commons.wikimedia.org/wiki/File:Apple_logo_black.svg"
       }
     }
   ]

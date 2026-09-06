@@ -3,6 +3,33 @@
   "dateLabel": "10 December",
   "facts": [
     {
+      "id": "12-10-things-software",
+      "date": "12-10",
+      "dateLabel": "10 December",
+      "category": "tech",
+      "categoryName": "Tech",
+      "year": 2007,
+      "title": "Things",
+      "body": "Things is a task management app for macOS, iPadOS, iOS, watchOS, and visionOS made by Cultured Code, a software startup based in Stuttgart, Germany.",
+      "source": {
+        "name": "Wikipedia · Things (software)",
+        "url": "https://en.wikipedia.org/wiki/Things_(software)",
+        "calendarUrl": "https://en.wikipedia.org/wiki/December_10",
+        "license": {
+          "name": "CC BY-SA 4.0",
+          "url": "https://creativecommons.org/licenses/by-sa/4.0/"
+        }
+      },
+      "image": {
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/66/Things_3_for_Mac_-_Main_Window.png/500px-Things_3_for_Mac_-_Main_Window.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "alt": "Things — the mobile app this anniversary is about.",
+        "credit": "MickPayne",
+        "source": "https://commons.wikimedia.org/wiki/File:Things_3_for_Mac_-_Main_Window.png",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0"
+      }
+    },
+    {
       "id": "12-10-selma-lagerl-f",
       "date": "12-10",
       "dateLabel": "10 December",
@@ -108,33 +135,6 @@
         "source": "https://commons.wikimedia.org/wiki/File:Emblem_of_Israel_alternative_gold.svg",
         "license": "Public domain",
         "licenseUrl": "https://commons.wikimedia.org/wiki/File:Emblem_of_Israel_alternative_gold.svg"
-      }
-    },
-    {
-      "id": "12-10-wearmouth-colliery",
-      "date": "12-10",
-      "dateLabel": "10 December",
-      "category": "world",
-      "categoryName": "World",
-      "year": 1993,
-      "title": "Monkwearmouth Colliery",
-      "body": "The last shift leaves Wearmouth Colliery in Sunderland. The closure of the 156-year-old pit marks the end of the old County Durham coalfield, which had been in operation since the Middle Ages.",
-      "source": {
-        "name": "Wikipedia · Monkwearmouth Colliery",
-        "url": "https://en.wikipedia.org/wiki/Monkwearmouth_Colliery",
-        "calendarUrl": "https://en.wikipedia.org/wiki/December_10",
-        "license": {
-          "name": "CC BY-SA 4.0",
-          "url": "https://creativecommons.org/licenses/by-sa/4.0/"
-        }
-      },
-      "image": {
-        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/dd/Wearmouth_Colliery%2C_miners_in_cage.jpg/500px-Wearmouth_Colliery%2C_miners_in_cage.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-        "alt": "Picture from the Wikipedia article on Monkwearmouth Colliery.",
-        "credit": "TWAM - Tyne & Wear Archives & Museums",
-        "source": "https://commons.wikimedia.org/wiki/File:Wearmouth_Colliery,_miners_in_cage.jpg",
-        "license": "No restrictions",
-        "licenseUrl": "https://www.flickr.com/commons/usage/"
       }
     }
   ]

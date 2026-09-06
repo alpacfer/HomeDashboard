@@ -3,6 +3,60 @@
   "dateLabel": "12 November",
   "facts": [
     {
+      "id": "11-12-lunar-silver-star-harmony",
+      "date": "11-12",
+      "dateLabel": "12 November",
+      "category": "culture",
+      "categoryName": "Culture",
+      "year": 2009,
+      "title": "Lunar: Silver Star Harmony",
+      "body": "Silver Star Harmony, known in Japan as Lunar: Harmony of Silver Star, is the third remake of the 1992 role-playing video game Lunar: The Silver Star.",
+      "source": {
+        "name": "Wikipedia · Lunar: Silver Star Harmony",
+        "url": "https://en.wikipedia.org/wiki/Lunar:_Silver_Star_Harmony",
+        "calendarUrl": "https://en.wikipedia.org/wiki/November_12",
+        "license": {
+          "name": "CC BY-SA 4.0",
+          "url": "https://creativecommons.org/licenses/by-sa/4.0/"
+        }
+      },
+      "image": {
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/ff/GungHo_Works_booth%2C_Tokyo_Game_Show_20090927.jpg/500px-GungHo_Works_booth%2C_Tokyo_Game_Show_20090927.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "alt": "Lunar: Silver Star Harmony — the video game this anniversary is about.",
+        "credit": "Steve Nagata",
+        "source": "https://commons.wikimedia.org/wiki/File:GungHo_Works_booth,_Tokyo_Game_Show_20090927.jpg",
+        "license": "CC BY 2.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by/2.0"
+      }
+    },
+    {
+      "id": "11-12-world-of-warplanes",
+      "date": "11-12",
+      "dateLabel": "12 November",
+      "category": "culture",
+      "categoryName": "Culture",
+      "year": 2013,
+      "title": "World of Warplanes",
+      "body": "net. The game was originally released in November 2013 in CIS countries, North America and Europe.",
+      "source": {
+        "name": "Wikipedia · World of Warplanes",
+        "url": "https://en.wikipedia.org/wiki/World_of_Warplanes",
+        "calendarUrl": "https://en.wikipedia.org/wiki/November_12",
+        "license": {
+          "name": "CC BY-SA 4.0",
+          "url": "https://creativecommons.org/licenses/by-sa/4.0/"
+        }
+      },
+      "image": {
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/1e/World_of_Warplanes_%40_E3_2012_%287164876589%29.jpg/500px-World_of_Warplanes_%40_E3_2012_%287164876589%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "alt": "World of Warplanes — the video game this anniversary is about.",
+        "credit": "Sergey Galyonkin from Raleigh, USA",
+        "source": "https://commons.wikimedia.org/wiki/File:World_of_Warplanes_@_E3_2012_(7164876589).jpg",
+        "license": "CC BY-SA 2.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0"
+      }
+    },
+    {
       "id": "11-12-voyager-i",
       "date": "11-12",
       "dateLabel": "12 November",
@@ -81,60 +135,6 @@
         "source": "https://commons.wikimedia.org/wiki/File:Pudge_heffelfinger.jpg",
         "license": "Public domain",
         "licenseUrl": "https://commons.wikimedia.org/wiki/File:Pudge_heffelfinger.jpg"
-      }
-    },
-    {
-      "id": "11-12-philae-spacecraft",
-      "date": "11-12",
-      "dateLabel": "12 November",
-      "category": "space",
-      "categoryName": "Space",
-      "year": 2014,
-      "title": "Philae",
-      "body": "The Philae lander, deployed from the European Space Agency's Rosetta probe, reaches the surface of Comet 67P/Churyumov–Gerasimenko.",
-      "source": {
-        "name": "Wikipedia · Philae (spacecraft)",
-        "url": "https://en.wikipedia.org/wiki/Philae_(spacecraft)",
-        "calendarUrl": "https://en.wikipedia.org/wiki/November_12",
-        "license": {
-          "name": "CC BY-SA 4.0",
-          "url": "https://creativecommons.org/licenses/by-sa/4.0/"
-        }
-      },
-      "image": {
-        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/95/Philae_lander_%28transparent_bg%29.png/500px-Philae_lander_%28transparent_bg%29.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-        "alt": "Picture from the Wikipedia article on Philae.",
-        "credit": "ESA/ATG medialab",
-        "source": "https://commons.wikimedia.org/wiki/File:Philae_lander_(transparent_bg).png",
-        "license": "CC BY-SA 2.0",
-        "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0"
-      }
-    },
-    {
-      "id": "11-12-sts-2",
-      "date": "11-12",
-      "dateLabel": "12 November",
-      "category": "space",
-      "categoryName": "Space",
-      "year": 1981,
-      "title": "STS-2",
-      "body": "Mission STS-2, utilizing the Space Shuttle Columbia, marks the first time a crewed spacecraft is launched into space twice.",
-      "source": {
-        "name": "Wikipedia · STS-2",
-        "url": "https://en.wikipedia.org/wiki/STS-2",
-        "calendarUrl": "https://en.wikipedia.org/wiki/November_12",
-        "license": {
-          "name": "CC BY-SA 4.0",
-          "url": "https://creativecommons.org/licenses/by-sa/4.0/"
-        }
-      },
-      "image": {
-        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a1/STS-2_Canadarm_debut.jpg/500px-STS-2_Canadarm_debut.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-        "alt": "Picture from the Wikipedia article on STS-2.",
-        "credit": "NASA",
-        "source": "https://commons.wikimedia.org/wiki/File:STS-2_Canadarm_debut.jpg",
-        "license": "Public domain",
-        "licenseUrl": "https://commons.wikimedia.org/wiki/File:STS-2_Canadarm_debut.jpg"
       }
     }
   ]

@@ -3,6 +3,33 @@
   "dateLabel": "23 August",
   "facts": [
     {
+      "id": "08-23-duelyst",
+      "date": "08-23",
+      "dateLabel": "23 August",
+      "category": "culture",
+      "categoryName": "Culture",
+      "year": 2016,
+      "title": "Duelyst",
+      "body": "Duelyst is a free and open-source digital collectible card game and turn-based strategy hybrid developed by Counterplay Games, who initially self-published the title but was later published by Bandai Namco.",
+      "source": {
+        "name": "Wikipedia · Duelyst",
+        "url": "https://en.wikipedia.org/wiki/Duelyst",
+        "calendarUrl": "https://en.wikipedia.org/wiki/August_23",
+        "license": {
+          "name": "CC BY-SA 4.0",
+          "url": "https://creativecommons.org/licenses/by-sa/4.0/"
+        }
+      },
+      "image": {
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c5/Duelyst_gameplay_screenshot.png/500px-Duelyst_gameplay_screenshot.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "alt": "Duelyst — the video game this anniversary is about.",
+        "credit": "Counterplay Games Inc",
+        "source": "https://commons.wikimedia.org/wiki/File:Duelyst_gameplay_screenshot.png",
+        "license": "CC0",
+        "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/deed.en"
+      }
+    },
+    {
       "id": "08-23-lunar-orbiter-1",
       "date": "08-23",
       "dateLabel": "23 August",
@@ -108,33 +135,6 @@
         "source": "https://commons.wikimedia.org/wiki/File:Borchgrevink_theodolite.jpg",
         "license": "Public domain",
         "licenseUrl": "https://commons.wikimedia.org/wiki/File:Borchgrevink_theodolite.jpg"
-      }
-    },
-    {
-      "id": "08-23-pontiac-silverdome",
-      "date": "08-23",
-      "dateLabel": "23 August",
-      "category": "world",
-      "categoryName": "World",
-      "year": 1975,
-      "title": "Pontiac Silverdome",
-      "body": "The Pontiac Silverdome opens in Pontiac, Michigan, northwest of Detroit, Michigan.",
-      "source": {
-        "name": "Wikipedia · Pontiac Silverdome",
-        "url": "https://en.wikipedia.org/wiki/Pontiac_Silverdome",
-        "calendarUrl": "https://en.wikipedia.org/wiki/August_23",
-        "license": {
-          "name": "CC BY-SA 4.0",
-          "url": "https://creativecommons.org/licenses/by-sa/4.0/"
-        }
-      },
-      "image": {
-        "src": "https://upload.wikimedia.org/wikipedia/commons/9/9b/Silverdome_2.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
-        "alt": "Picture from the Wikipedia article on Pontiac Silverdome.",
-        "credit": "Alex simple",
-        "source": "https://commons.wikimedia.org/wiki/File:Silverdome_2.jpg",
-        "license": "CC BY-SA 3.0",
-        "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0"
       }
     }
   ]

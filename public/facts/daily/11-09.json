@@ -30,6 +30,33 @@
       }
     },
     {
+      "id": "11-09-king-s-quest-v",
+      "date": "11-09",
+      "dateLabel": "9 November",
+      "category": "culture",
+      "categoryName": "Culture",
+      "year": 1990,
+      "title": "King's Quest V",
+      "body": "Absence Makes the Heart Go Yonder! (also known simply as King's Quest V) is a 1990 graphic adventure game by Sierra On-Line.",
+      "source": {
+        "name": "Wikipedia · King's Quest V",
+        "url": "https://en.wikipedia.org/wiki/King%27s_Quest_V",
+        "calendarUrl": "https://en.wikipedia.org/wiki/November_9",
+        "license": {
+          "name": "CC BY-SA 4.0",
+          "url": "https://creativecommons.org/licenses/by-sa/4.0/"
+        }
+      },
+      "image": {
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/63/SierraOnLine-Box-KingsQuest5.jpg/500px-SierraOnLine-Box-KingsQuest5.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "alt": "King's Quest V — the video game this anniversary is about.",
+        "credit": "Sierra On-Line",
+        "source": "https://commons.wikimedia.org/wiki/File:SierraOnLine-Box-KingsQuest5.jpg",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0"
+      }
+    },
+    {
       "id": "11-09-nyu-langone-health",
       "date": "11-09",
       "dateLabel": "9 November",
@@ -108,33 +135,6 @@
         "source": "https://commons.wikimedia.org/wiki/File:Ruth_Elizabeth_Harkness_and_Su_Lin.jpg",
         "license": "Public domain",
         "licenseUrl": "https://commons.wikimedia.org/wiki/File:Ruth_Elizabeth_Harkness_and_Su_Lin.jpg"
-      }
-    },
-    {
-      "id": "11-09-garry-kasparov",
-      "date": "11-09",
-      "dateLabel": "9 November",
-      "category": "sport",
-      "categoryName": "Sport",
-      "year": 1985,
-      "title": "Garry Kasparov",
-      "body": "Garry Kasparov, 22, of the Soviet Union, becomes the youngest World Chess Champion by beating fellow Soviet Anatoly Karpov.",
-      "source": {
-        "name": "Wikipedia · Garry Kasparov",
-        "url": "https://en.wikipedia.org/wiki/Garry_Kasparov",
-        "calendarUrl": "https://en.wikipedia.org/wiki/November_9",
-        "license": {
-          "name": "CC BY-SA 4.0",
-          "url": "https://creativecommons.org/licenses/by-sa/4.0/"
-        }
-      },
-      "image": {
-        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b9/Garri_Kasparow_%2818776605665%29_%28cropped%29_2.jpg/500px-Garri_Kasparow_%2818776605665%29_%28cropped%29_2.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-        "alt": "Picture from the Wikipedia article on Garry Kasparov.",
-        "credit": "Fryta 73 from Strzegom",
-        "source": "https://commons.wikimedia.org/wiki/File:Garri_Kasparow_(18776605665)_(cropped)_2.jpg",
-        "license": "CC BY-SA 2.0",
-        "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0"
       }
     }
   ]

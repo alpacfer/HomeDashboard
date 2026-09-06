@@ -3,6 +3,33 @@
   "dateLabel": "13 March",
   "facts": [
     {
+      "id": "03-13-gyrodine",
+      "date": "03-13",
+      "dateLabel": "13 March",
+      "category": "culture",
+      "categoryName": "Culture",
+      "year": 1986,
+      "title": "Gyrodine",
+      "body": "Gyrodine (ジャイロダイン, Jairodain) is a top-down, vertically scrolling shooter developed by Crux and released in arcades by Taito in 1984. Conversions for the Famicom and MSX followed.",
+      "source": {
+        "name": "Wikipedia · Gyrodine",
+        "url": "https://en.wikipedia.org/wiki/Gyrodine",
+        "calendarUrl": "https://en.wikipedia.org/wiki/March_13",
+        "license": {
+          "name": "CC BY-SA 4.0",
+          "url": "https://creativecommons.org/licenses/by-sa/4.0/"
+        }
+      },
+      "image": {
+        "src": "https://upload.wikimedia.org/wikipedia/commons/a/a3/Gyrodine_update.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+        "alt": "Gyrodine — the video game this anniversary is about.",
+        "credit": "Iaito Corp. /Nintendo",
+        "source": "https://commons.wikimedia.org/wiki/File:Gyrodine_update.jpg",
+        "license": "Public domain",
+        "licenseUrl": "https://commons.wikimedia.org/wiki/File:Gyrodine_update.jpg"
+      }
+    },
+    {
       "id": "03-13-apollo-9",
       "date": "03-13",
       "dateLabel": "13 March",
@@ -108,33 +135,6 @@
         "source": "https://commons.wikimedia.org/wiki/File:Europe_1815_map_en.png",
         "license": "CC BY-SA 4.0",
         "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0"
-      }
-    },
-    {
-      "id": "03-13-pluto",
-      "date": "03-13",
-      "dateLabel": "13 March",
-      "category": "space",
-      "categoryName": "Space",
-      "year": 1930,
-      "title": "Pluto",
-      "body": "The news of the discovery of Pluto is announced by Lowell Observatory.",
-      "source": {
-        "name": "Wikipedia · Pluto",
-        "url": "https://en.wikipedia.org/wiki/Pluto",
-        "calendarUrl": "https://en.wikipedia.org/wiki/March_13",
-        "license": {
-          "name": "CC BY-SA 4.0",
-          "url": "https://creativecommons.org/licenses/by-sa/4.0/"
-        }
-      },
-      "image": {
-        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/ca/Pluto_in_True_Color_-_High-Res.png/500px-Pluto_in_True_Color_-_High-Res.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-        "alt": "Picture from the Wikipedia article on Pluto.",
-        "credit": "NASA",
-        "source": "https://commons.wikimedia.org/wiki/File:Pluto_in_True_Color_-_High-Res.png",
-        "license": "Public domain",
-        "licenseUrl": "https://commons.wikimedia.org/wiki/File:Pluto_in_True_Color_-_High-Res.png"
       }
     }
   ]

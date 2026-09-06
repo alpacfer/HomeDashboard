@@ -3,6 +3,60 @@
   "dateLabel": "6 March",
   "facts": [
     {
+      "id": "03-06-usermin",
+      "date": "03-06",
+      "dateLabel": "6 March",
+      "category": "tech",
+      "categoryName": "Tech",
+      "year": 2002,
+      "title": "Usermin",
+      "body": "Usermin is a free and open-source webmail interface for non-root users.",
+      "source": {
+        "name": "Wikipedia · Usermin",
+        "url": "https://en.wikipedia.org/wiki/Usermin",
+        "calendarUrl": "https://en.wikipedia.org/wiki/March_6",
+        "license": {
+          "name": "CC BY-SA 4.0",
+          "url": "https://creativecommons.org/licenses/by-sa/4.0/"
+        }
+      },
+      "image": {
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/40/Usermin_configuration.jpg/500px-Usermin_configuration.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "alt": "Usermin — the software this anniversary is about.",
+        "credit": "user",
+        "source": "https://commons.wikimedia.org/wiki/File:Usermin_configuration.jpg",
+        "license": "BSD",
+        "licenseUrl": "https://opensource.org/licenses/bsd-license.php"
+      }
+    },
+    {
+      "id": "03-06-openttd",
+      "date": "03-06",
+      "dateLabel": "6 March",
+      "category": "culture",
+      "categoryName": "Culture",
+      "year": 2004,
+      "title": "Q725120",
+      "body": "OpenTTD is a business simulation game in which players try to earn money by transporting passengers, minerals and goods via road, rail, water and air. It is an open-source remake and expansion of the 1995 Chris Sawyer video game Transport Tycoon Deluxe.",
+      "source": {
+        "name": "Wikipedia · OpenTTD",
+        "url": "https://en.wikipedia.org/wiki/OpenTTD",
+        "calendarUrl": "https://en.wikipedia.org/wiki/March_6",
+        "license": {
+          "name": "CC BY-SA 4.0",
+          "url": "https://creativecommons.org/licenses/by-sa/4.0/"
+        }
+      },
+      "image": {
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/42/Cardhill_Transport%2C_2000-06-25.png/500px-Cardhill_Transport%2C_2000-06-25.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "alt": "Q725120 — the video game this anniversary is about.",
+        "credit": "OpenTTD authors",
+        "source": "https://commons.wikimedia.org/wiki/File:Cardhill_Transport,_2000-06-25.png",
+        "license": "GPL",
+        "licenseUrl": "https://www.gnu.org/licenses/gpl.html"
+      }
+    },
+    {
       "id": "03-06-william-speirs-bruce",
       "date": "03-06",
       "dateLabel": "6 March",
@@ -81,60 +135,6 @@
         "source": "https://commons.wikimedia.org/wiki/File:Royal_coat_of_arms_of_the_United_Kingdom_(1952%E2%80%932022,_variant_1).svg",
         "license": "CC BY-SA 3.0",
         "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0"
-      }
-    },
-    {
-      "id": "03-06-first-fleet",
-      "date": "03-06",
-      "dateLabel": "6 March",
-      "category": "world",
-      "categoryName": "World",
-      "year": 1788,
-      "title": "First Fleet",
-      "body": "The First Fleet arrives at Norfolk Island in order to found a convict settlement.",
-      "source": {
-        "name": "Wikipedia · First Fleet",
-        "url": "https://en.wikipedia.org/wiki/First_Fleet",
-        "calendarUrl": "https://en.wikipedia.org/wiki/March_6",
-        "license": {
-          "name": "CC BY-SA 4.0",
-          "url": "https://creativecommons.org/licenses/by-sa/4.0/"
-        }
-      },
-      "image": {
-        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/82/A_view_of_Botany_Bay_A1475003h_%28cropped%29.jpg/500px-A_view_of_Botany_Bay_A1475003h_%28cropped%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-        "alt": "Picture from the Wikipedia article on First Fleet.",
-        "credit": "Original drawing",
-        "source": "https://commons.wikimedia.org/wiki/File:A_view_of_Botany_Bay_A1475003h_(cropped).jpg",
-        "license": "Public domain",
-        "licenseUrl": "https://commons.wikimedia.org/wiki/File:A_view_of_Botany_Bay_A1475003h_(cropped).jpg"
-      }
-    },
-    {
-      "id": "03-06-kajaani",
-      "date": "03-06",
-      "dateLabel": "6 March",
-      "category": "world",
-      "categoryName": "World",
-      "year": 1651,
-      "title": "Kajaani",
-      "body": "The town of Kajaani, known at the time as Cajanaburg, is founded by Count Per Brahe, the Governor-General of Finland.",
-      "source": {
-        "name": "Wikipedia · Kajaani",
-        "url": "https://en.wikipedia.org/wiki/Kajaani",
-        "calendarUrl": "https://en.wikipedia.org/wiki/March_6",
-        "license": {
-          "name": "CC BY-SA 4.0",
-          "url": "https://creativecommons.org/licenses/by-sa/4.0/"
-        }
-      },
-      "image": {
-        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e2/Kajaani_Raatihuone_20090116.JPG/500px-Kajaani_Raatihuone_20090116.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-        "alt": "Picture from the Wikipedia article on Kajaani.",
-        "credit": "Estormiz",
-        "source": "https://commons.wikimedia.org/wiki/File:Kajaani_Raatihuone_20090116.JPG",
-        "license": "Public domain",
-        "licenseUrl": "https://commons.wikimedia.org/wiki/File:Kajaani_Raatihuone_20090116.JPG"
       }
     }
   ]

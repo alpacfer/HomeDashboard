@@ -3,6 +3,60 @@
   "dateLabel": "10 November",
   "facts": [
     {
+      "id": "11-10-warhawk-1995-video-game",
+      "date": "11-10",
+      "dateLabel": "10 November",
+      "category": "culture",
+      "categoryName": "Culture",
+      "year": 1995,
+      "title": "Warhawk",
+      "body": "Warhawk, subtitled The Red Mercury Missions, released as AirAssault (エア・アサルト, Ea Asaruto) in Japan, is a 1995 combat flight simulation video game developed by SingleTrac and Sony Interactive Studios America, published by Sony Computer Entertainment for the PlayStation.",
+      "source": {
+        "name": "Wikipedia · Warhawk (1995 video game)",
+        "url": "https://en.wikipedia.org/wiki/Warhawk_(1995_video_game)",
+        "calendarUrl": "https://en.wikipedia.org/wiki/November_10",
+        "license": {
+          "name": "CC BY-SA 4.0",
+          "url": "https://creativecommons.org/licenses/by-sa/4.0/"
+        }
+      },
+      "image": {
+        "src": "https://upload.wikimedia.org/wikipedia/commons/d/dc/314th_Fighter_Squadron_emblem.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+        "alt": "Warhawk — the video game this anniversary is about.",
+        "credit": "314th Fighter Squadron",
+        "source": "https://commons.wikimedia.org/wiki/File:314th_Fighter_Squadron_emblem.jpg",
+        "license": "Public domain",
+        "licenseUrl": "https://commons.wikimedia.org/wiki/File:314th_Fighter_Squadron_emblem.jpg"
+      }
+    },
+    {
+      "id": "11-10-bliss-video-game",
+      "date": "11-10",
+      "dateLabel": "10 November",
+      "category": "culture",
+      "categoryName": "Culture",
+      "year": 2005,
+      "title": "Bliss",
+      "body": "The Game for Lovers is a 2005 video game from American independent software publisher Games for Loving.",
+      "source": {
+        "name": "Wikipedia · Bliss (video game)",
+        "url": "https://en.wikipedia.org/wiki/Bliss_(video_game)",
+        "calendarUrl": "https://en.wikipedia.org/wiki/November_10",
+        "license": {
+          "name": "CC BY-SA 4.0",
+          "url": "https://creativecommons.org/licenses/by-sa/4.0/"
+        }
+      },
+      "image": {
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/8d/BlissGameScreenShot.jpg/500px-BlissGameScreenShot.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "alt": "Bliss — the video game this anniversary is about.",
+        "credit": "Dedvalson",
+        "source": "https://commons.wikimedia.org/wiki/File:BlissGameScreenShot.jpg",
+        "license": "Public domain",
+        "licenseUrl": "https://commons.wikimedia.org/wiki/File:BlissGameScreenShot.jpg"
+      }
+    },
+    {
       "id": "11-10-bill-gates",
       "date": "11-10",
       "dateLabel": "10 November",
@@ -57,33 +111,6 @@
       }
     },
     {
-      "id": "11-10-frans-eemil-sillanp",
-      "date": "11-10",
-      "dateLabel": "10 November",
-      "category": "culture",
-      "categoryName": "Culture",
-      "year": 1939,
-      "title": "Frans Eemil Sillanpää",
-      "body": "Finnish author F. E. Sillanpää is awarded the Nobel Prize in Literature.",
-      "source": {
-        "name": "Wikipedia · Frans Eemil Sillanpää",
-        "url": "https://en.wikipedia.org/wiki/Frans_Eemil_Sillanp%C3%A4%C3%A4",
-        "calendarUrl": "https://en.wikipedia.org/wiki/November_10",
-        "license": {
-          "name": "CC BY-SA 4.0",
-          "url": "https://creativecommons.org/licenses/by-sa/4.0/"
-        }
-      },
-      "image": {
-        "src": "https://upload.wikimedia.org/wikipedia/commons/1/1d/FransEemilSillanp%C3%A4%C3%A4.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
-        "alt": "Picture from the Wikipedia article on Frans Eemil Sillanpää.",
-        "credit": "Blofeld of SPECTRE",
-        "source": "https://commons.wikimedia.org/wiki/File:FransEemilSillanp%C3%A4%C3%A4.jpg",
-        "license": "Public domain",
-        "licenseUrl": "https://commons.wikimedia.org/wiki/File:FransEemilSillanp%C3%A4%C3%A4.jpg"
-      }
-    },
-    {
       "id": "11-10-national-educational-television",
       "date": "11-10",
       "dateLabel": "10 November",
@@ -108,33 +135,6 @@
         "source": "https://commons.wikimedia.org/wiki/File:NET_Logo_1967_(Color).svg",
         "license": "Public domain",
         "licenseUrl": "https://commons.wikimedia.org/wiki/File:NET_Logo_1967_(Color).svg"
-      }
-    },
-    {
-      "id": "11-10-north-american-numbering-plan",
-      "date": "11-10",
-      "dateLabel": "10 November",
-      "category": "tech",
-      "categoryName": "Tech",
-      "year": 1951,
-      "title": "North American Numbering Plan",
-      "body": "With the rollout of the North American Numbering Plan, direct-dial coast-to-coast telephone service begins in the United States.",
-      "source": {
-        "name": "Wikipedia · North American Numbering Plan",
-        "url": "https://en.wikipedia.org/wiki/North_American_Numbering_Plan",
-        "calendarUrl": "https://en.wikipedia.org/wiki/November_10",
-        "license": {
-          "name": "CC BY-SA 4.0",
-          "url": "https://creativecommons.org/licenses/by-sa/4.0/"
-        }
-      },
-      "image": {
-        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/5d/NANP_countries.svg/500px-NANP_countries.svg.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-        "alt": "Picture from the Wikipedia article on North American Numbering Plan.",
-        "credit": "DLommes",
-        "source": "https://commons.wikimedia.org/wiki/File:NANP_countries.svg",
-        "license": "CC BY-SA 3.0",
-        "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0"
       }
     }
   ]

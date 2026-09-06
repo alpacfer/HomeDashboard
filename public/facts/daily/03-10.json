@@ -30,6 +30,33 @@
       }
     },
     {
+      "id": "03-10-carplay",
+      "date": "03-10",
+      "dateLabel": "10 March",
+      "category": "tech",
+      "categoryName": "Tech",
+      "year": 2014,
+      "title": "CarPlay",
+      "body": "CarPlay is an Apple standard that enables a car radio or automotive head unit to be a display and controller for an iOS device. 1 or later.",
+      "source": {
+        "name": "Wikipedia · CarPlay",
+        "url": "https://en.wikipedia.org/wiki/CarPlay",
+        "calendarUrl": "https://en.wikipedia.org/wiki/March_10",
+        "license": {
+          "name": "CC BY-SA 4.0",
+          "url": "https://creativecommons.org/licenses/by-sa/4.0/"
+        }
+      },
+      "image": {
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/25/CarPlay_displaying_music_in_Nissan.png/500px-CarPlay_displaying_music_in_Nissan.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "alt": "CarPlay — the software this anniversary is about.",
+        "credit": "IShowSammy",
+        "source": "https://commons.wikimedia.org/wiki/File:CarPlay_displaying_music_in_Nissan.png",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0"
+      }
+    },
+    {
       "id": "03-10-mercury-planet",
       "date": "03-10",
       "dateLabel": "10 March",
@@ -54,33 +81,6 @@
         "source": "https://commons.wikimedia.org/wiki/File:Mercury_in_true_color.jpg",
         "license": "Public domain",
         "licenseUrl": "https://commons.wikimedia.org/wiki/File:Mercury_in_true_color.jpg"
-      }
-    },
-    {
-      "id": "03-10-invention-of-the-telephone",
-      "date": "03-10",
-      "dateLabel": "10 March",
-      "category": "tech",
-      "categoryName": "Tech",
-      "year": 1876,
-      "title": "Invention of the telephone",
-      "body": "The first successful test of a telephone is made by Alexander Graham Bell.",
-      "source": {
-        "name": "Wikipedia · Invention of the telephone",
-        "url": "https://en.wikipedia.org/wiki/Invention_of_the_telephone",
-        "calendarUrl": "https://en.wikipedia.org/wiki/March_10",
-        "license": {
-          "name": "CC BY-SA 4.0",
-          "url": "https://creativecommons.org/licenses/by-sa/4.0/"
-        }
-      },
-      "image": {
-        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/6a/Telefono_di_Meucci_-_Museo_scienza_tecnologia_Milano_02148-02147_dia.jpg/500px-Telefono_di_Meucci_-_Museo_scienza_tecnologia_Milano_02148-02147_dia.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-        "alt": "Picture from the Wikipedia article on Invention of the telephone.",
-        "credit": "Meucci Antonio, Officine Galileo",
-        "source": "https://commons.wikimedia.org/wiki/File:Telefono_di_Meucci_-_Museo_scienza_tecnologia_Milano_02148-02147_dia.jpg",
-        "license": "CC BY-SA 4.0",
-        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0"
       }
     },
     {

@@ -3,6 +3,60 @@
   "dateLabel": "2 June",
   "facts": [
     {
+      "id": "06-02-heroes-of-the-storm",
+      "date": "06-02",
+      "dateLabel": "2 June",
+      "category": "culture",
+      "categoryName": "Culture",
+      "year": 2015,
+      "title": "Heroes of the Storm",
+      "body": "Heroes of the Storm is a multiplayer online battle arena video game developed and published by Blizzard Entertainment. Announced at BlizzCon 2010, it was released on June 2, 2015, for macOS and Windows.",
+      "source": {
+        "name": "Wikipedia · Heroes of the Storm",
+        "url": "https://en.wikipedia.org/wiki/Heroes_of_the_Storm",
+        "calendarUrl": "https://en.wikipedia.org/wiki/June_2",
+        "license": {
+          "name": "CC BY-SA 4.0",
+          "url": "https://creativecommons.org/licenses/by-sa/4.0/"
+        }
+      },
+      "image": {
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/94/Heroes_of_the_Storm_%2820138737788%29.jpg/500px-Heroes_of_the_Storm_%2820138737788%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "alt": "Heroes of the Storm — the video game this anniversary is about.",
+        "credit": "Tim Bartel from Cologne, Germany",
+        "source": "https://commons.wikimedia.org/wiki/File:Heroes_of_the_Storm_(20138737788).jpg",
+        "license": "CC BY-SA 2.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0"
+      }
+    },
+    {
+      "id": "06-02-nextcloud",
+      "date": "06-02",
+      "dateLabel": "2 June",
+      "category": "tech",
+      "categoryName": "Tech",
+      "year": 2016,
+      "title": "Nextcloud",
+      "body": "Nextcloud is a modular workspace platform designed to provide teams and businesses with a comprehensive environment for digital collaboration. Beyond central data management, it integrates office suites like Collabora Online and EuroOffice for seamless, cooperative workflows.",
+      "source": {
+        "name": "Wikipedia · Nextcloud",
+        "url": "https://en.wikipedia.org/wiki/Nextcloud",
+        "calendarUrl": "https://en.wikipedia.org/wiki/June_2",
+        "license": {
+          "name": "CC BY-SA 4.0",
+          "url": "https://creativecommons.org/licenses/by-sa/4.0/"
+        }
+      },
+      "image": {
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/23/File-Nextcloud_File_Manager_Screenshot.png/500px-File-Nextcloud_File_Manager_Screenshot.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "alt": "Nextcloud — the mobile app this anniversary is about.",
+        "credit": "Mark Ziegler",
+        "source": "https://commons.wikimedia.org/wiki/File:File-Nextcloud_File_Manager_Screenshot.png",
+        "license": "LGPL",
+        "licenseUrl": "https://www.gnu.org/licenses/lgpl.html"
+      }
+    },
+    {
       "id": "06-02-surveyor-1",
       "date": "06-02",
       "dateLabel": "2 June",
@@ -57,33 +111,6 @@
       }
     },
     {
-      "id": "06-02-guglielmo-marconi",
-      "date": "06-02",
-      "dateLabel": "2 June",
-      "category": "tech",
-      "categoryName": "Tech",
-      "year": 1896,
-      "title": "Guglielmo Marconi",
-      "body": "Guglielmo Marconi applies for a patent for his wireless telegraph.",
-      "source": {
-        "name": "Wikipedia · Guglielmo Marconi",
-        "url": "https://en.wikipedia.org/wiki/Guglielmo_Marconi",
-        "calendarUrl": "https://en.wikipedia.org/wiki/June_2",
-        "license": {
-          "name": "CC BY-SA 4.0",
-          "url": "https://creativecommons.org/licenses/by-sa/4.0/"
-        }
-      },
-      "image": {
-        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/0d/Guglielmo_Marconi.jpg/500px-Guglielmo_Marconi.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-        "alt": "Picture from the Wikipedia article on Guglielmo Marconi.",
-        "credit": "Pach Brothers",
-        "source": "https://commons.wikimedia.org/wiki/File:Guglielmo_Marconi.jpg",
-        "license": "Public domain",
-        "licenseUrl": "https://commons.wikimedia.org/wiki/File:Guglielmo_Marconi.jpg"
-      }
-    },
-    {
       "id": "06-02-mars",
       "date": "06-02",
       "dateLabel": "2 June",
@@ -108,33 +135,6 @@
         "source": "https://commons.wikimedia.org/wiki/File:Mars_-_August_30_2021_-_Flickr_-_Kevin_M._Gill.png",
         "license": "CC BY 2.0",
         "licenseUrl": "https://creativecommons.org/licenses/by/2.0"
-      }
-    },
-    {
-      "id": "06-02-telangana",
-      "date": "06-02",
-      "dateLabel": "2 June",
-      "category": "world",
-      "categoryName": "World",
-      "year": 2014,
-      "title": "Telangana",
-      "body": "Telangana officially becomes the 29th state of India, formed from ten districts of northwestern Andhra Pradesh.",
-      "source": {
-        "name": "Wikipedia · Telangana",
-        "url": "https://en.wikipedia.org/wiki/Telangana",
-        "calendarUrl": "https://en.wikipedia.org/wiki/June_2",
-        "license": {
-          "name": "CC BY-SA 4.0",
-          "url": "https://creativecommons.org/licenses/by-sa/4.0/"
-        }
-      },
-      "image": {
-        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f7/A_typical_charminar_evening.jpg/500px-A_typical_charminar_evening.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-        "alt": "Picture from the Wikipedia article on Telangana.",
-        "credit": "Vivekanand pokala",
-        "source": "https://commons.wikimedia.org/wiki/File:A_typical_charminar_evening.jpg",
-        "license": "CC BY-SA 4.0",
-        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0"
       }
     }
   ]

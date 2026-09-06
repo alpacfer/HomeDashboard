@@ -3,6 +3,33 @@
   "dateLabel": "13 September",
   "facts": [
     {
+      "id": "09-13-freedom-planet-2",
+      "date": "09-13",
+      "dateLabel": "13 September",
+      "category": "culture",
+      "categoryName": "Culture",
+      "year": 2022,
+      "title": "Freedom Planet 2",
+      "body": "Freedom Planet 2 is an indie platform video game developed and published by GalaxyTrail for Windows, and published by Xseed Games on home consoles. It is the sequel to Freedom Planet, originally developed as a Sonic the Hedgehog fangame.",
+      "source": {
+        "name": "Wikipedia · Freedom Planet 2",
+        "url": "https://en.wikipedia.org/wiki/Freedom_Planet_2",
+        "calendarUrl": "https://en.wikipedia.org/wiki/September_13",
+        "license": {
+          "name": "CC BY-SA 4.0",
+          "url": "https://creativecommons.org/licenses/by-sa/4.0/"
+        }
+      },
+      "image": {
+        "src": "https://upload.wikimedia.org/wikipedia/commons/d/d4/FP2_Verticle_Capsule.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+        "alt": "Freedom Planet 2 — the video game this anniversary is about.",
+        "credit": "GalaxyTrail",
+        "source": "https://commons.wikimedia.org/wiki/File:FP2_Verticle_Capsule.png",
+        "license": "CC BY-SA 3.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0"
+      }
+    },
+    {
       "id": "09-13-ibm-305-ramac",
       "date": "09-13",
       "dateLabel": "13 September",
@@ -108,33 +135,6 @@
         "source": "https://commons.wikimedia.org/wiki/File:Flag_of_Venda_(1973%E2%80%931994).svg",
         "license": "Public domain",
         "licenseUrl": "https://commons.wikimedia.org/wiki/File:Flag_of_Venda_(1973%E2%80%931994).svg"
-      }
-    },
-    {
-      "id": "09-13-santos-dumont-14-bis",
-      "date": "09-13",
-      "dateLabel": "13 September",
-      "category": "world",
-      "categoryName": "World",
-      "year": 1906,
-      "title": "Santos-Dumont 14-bis",
-      "body": "The Santos-Dumont 14-bis makes a short hop, the first flight of a fixed-wing aircraft in Europe.",
-      "source": {
-        "name": "Wikipedia · Santos-Dumont 14-bis",
-        "url": "https://en.wikipedia.org/wiki/Santos-Dumont_14-bis",
-        "calendarUrl": "https://en.wikipedia.org/wiki/September_13",
-        "license": {
-          "name": "CC BY-SA 4.0",
-          "url": "https://creativecommons.org/licenses/by-sa/4.0/"
-        }
-      },
-      "image": {
-        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d7/14-bis_de_Alberto_Santos_Dumont.jpg/500px-14-bis_de_Alberto_Santos_Dumont.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-        "alt": "Picture from the Wikipedia article on Santos-Dumont 14-bis.",
-        "credit": "Jules Beau",
-        "source": "https://commons.wikimedia.org/wiki/File:14-bis_de_Alberto_Santos_Dumont.jpg",
-        "license": "Public domain",
-        "licenseUrl": "https://commons.wikimedia.org/wiki/File:14-bis_de_Alberto_Santos_Dumont.jpg"
       }
     }
   ]

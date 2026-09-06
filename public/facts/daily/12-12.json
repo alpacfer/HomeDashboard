@@ -3,6 +3,60 @@
   "dateLabel": "12 December",
   "facts": [
     {
+      "id": "12-12-rur-ple",
+      "date": "12-12",
+      "dateLabel": "12 December",
+      "category": "tech",
+      "categoryName": "Tech",
+      "year": 2004,
+      "title": "RUR-PLE",
+      "body": "RUR - Python Learning Environment (RUR-PLE) is an educational tool to help students learn the Python programming language. Made by André Roberge.",
+      "source": {
+        "name": "Wikipedia · RUR-PLE",
+        "url": "https://en.wikipedia.org/wiki/RUR-PLE",
+        "calendarUrl": "https://en.wikipedia.org/wiki/December_12",
+        "license": {
+          "name": "CC BY-SA 4.0",
+          "url": "https://creativecommons.org/licenses/by-sa/4.0/"
+        }
+      },
+      "image": {
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/9b/RUR-PLE-Python_Learning_Environment.png/500px-RUR-PLE-Python_Learning_Environment.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "alt": "RUR-PLE — the programming language this anniversary is about.",
+        "credit": "screenshot of RUR-PLE",
+        "source": "https://commons.wikimedia.org/wiki/File:RUR-PLE-Python_Learning_Environment.png",
+        "license": "Public domain",
+        "licenseUrl": "https://commons.wikimedia.org/wiki/File:RUR-PLE-Python_Learning_Environment.png"
+      }
+    },
+    {
+      "id": "12-12-windows-server-2008",
+      "date": "12-12",
+      "dateLabel": "12 December",
+      "category": "tech",
+      "categoryName": "Tech",
+      "year": 2008,
+      "title": "Windows Server 2008",
+      "body": "Windows Server 2008, codenamed \"Longhorn Server\" is the seventh major version of the Windows NT operating system produced by Microsoft to be released under the Windows Server brand name.",
+      "source": {
+        "name": "Wikipedia · Windows Server 2008",
+        "url": "https://en.wikipedia.org/wiki/Windows_Server_2008",
+        "calendarUrl": "https://en.wikipedia.org/wiki/December_12",
+        "license": {
+          "name": "CC BY-SA 4.0",
+          "url": "https://creativecommons.org/licenses/by-sa/4.0/"
+        }
+      },
+      "image": {
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b0/VirtualBox_Windows_Server_2008_SP2_11_02_2025_13_47_58_Kopie.png/500px-VirtualBox_Windows_Server_2008_SP2_11_02_2025_13_47_58_Kopie.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "alt": "Windows Server 2008 — the operating system this anniversary is about.",
+        "credit": "Microsoft Corporation Screenshot…",
+        "source": "https://commons.wikimedia.org/wiki/File:VirtualBox_Windows_Server_2008_SP2_11_02_2025_13_47_58_Kopie.png",
+        "license": "Public domain",
+        "licenseUrl": "https://commons.wikimedia.org/wiki/File:VirtualBox_Windows_Server_2008_SP2_11_02_2025_13_47_58_Kopie.png"
+      }
+    },
+    {
       "id": "12-12-timeline-of-first-orbital-launches-by-country",
       "date": "12-12",
       "dateLabel": "12 December",
@@ -81,60 +135,6 @@
         "source": "https://commons.wikimedia.org/wiki/File:Seal_of_the_United_States_Supreme_Court.svg",
         "license": "Public domain",
         "licenseUrl": "https://commons.wikimedia.org/wiki/File:Seal_of_the_United_States_Supreme_Court.svg"
-      }
-    },
-    {
-      "id": "12-12-guglielmo-marconi",
-      "date": "12-12",
-      "dateLabel": "12 December",
-      "category": "world",
-      "categoryName": "World",
-      "year": 1901,
-      "title": "Guglielmo Marconi",
-      "body": "Guglielmo Marconi receives the first transatlantic radio signal (the letter \"S\" [•••] in Morse Code), at Signal Hill in St John's, Newfoundland.",
-      "source": {
-        "name": "Wikipedia · Guglielmo Marconi",
-        "url": "https://en.wikipedia.org/wiki/Guglielmo_Marconi",
-        "calendarUrl": "https://en.wikipedia.org/wiki/December_12",
-        "license": {
-          "name": "CC BY-SA 4.0",
-          "url": "https://creativecommons.org/licenses/by-sa/4.0/"
-        }
-      },
-      "image": {
-        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/0d/Guglielmo_Marconi.jpg/500px-Guglielmo_Marconi.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-        "alt": "Picture from the Wikipedia article on Guglielmo Marconi.",
-        "credit": "Pach Brothers",
-        "source": "https://commons.wikimedia.org/wiki/File:Guglielmo_Marconi.jpg",
-        "license": "Public domain",
-        "licenseUrl": "https://commons.wikimedia.org/wiki/File:Guglielmo_Marconi.jpg"
-      }
-    },
-    {
-      "id": "12-12-kenya",
-      "date": "12-12",
-      "dateLabel": "12 December",
-      "category": "world",
-      "categoryName": "World",
-      "year": 1963,
-      "title": "Kenya",
-      "body": "Kenya declares independence from Great Britain.",
-      "source": {
-        "name": "Wikipedia · Kenya",
-        "url": "https://en.wikipedia.org/wiki/Kenya",
-        "calendarUrl": "https://en.wikipedia.org/wiki/December_12",
-        "license": {
-          "name": "CC BY-SA 4.0",
-          "url": "https://creativecommons.org/licenses/by-sa/4.0/"
-        }
-      },
-      "image": {
-        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/49/Flag_of_Kenya.svg/500px-Flag_of_Kenya.svg.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-        "alt": "Picture from the Wikipedia article on Kenya.",
-        "credit": "User:Pumbaa80",
-        "source": "https://commons.wikimedia.org/wiki/File:Flag_of_Kenya.svg",
-        "license": "Public domain",
-        "licenseUrl": "https://commons.wikimedia.org/wiki/File:Flag_of_Kenya.svg"
       }
     }
   ]

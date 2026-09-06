@@ -3,17 +3,17 @@
   "dateLabel": "31 March",
   "facts": [
     {
-      "id": "03-31-remington-rand",
+      "id": "03-31-quarkxpress",
       "date": "03-31",
       "dateLabel": "31 March",
       "category": "tech",
       "categoryName": "Tech",
-      "year": 1951,
-      "title": "Remington Rand",
-      "body": "Remington Rand delivers the first UNIVAC I computer to the United States Census Bureau.",
+      "year": 1987,
+      "title": "QuarkXPress",
+      "body": "QuarkXPress is desktop publishing software for creating and editing complex page layouts in a WYSIWYG (What You See Is What You Get) environment., who continue to develop and maintain the software, which is available for both macOS and Windows.",
       "source": {
-        "name": "Wikipedia · Remington Rand",
-        "url": "https://en.wikipedia.org/wiki/Remington_Rand",
+        "name": "Wikipedia · QuarkXPress",
+        "url": "https://en.wikipedia.org/wiki/QuarkXPress",
         "calendarUrl": "https://en.wikipedia.org/wiki/March_31",
         "license": {
           "name": "CC BY-SA 4.0",
@@ -21,26 +21,26 @@
         }
       },
       "image": {
-        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/cf/NorwalkCTRockLedgeRowayton08112007.JPG/500px-NorwalkCTRockLedgeRowayton08112007.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-        "alt": "Picture from the Wikipedia article on Remington Rand.",
-        "credit": "Noroton",
-        "source": "https://commons.wikimedia.org/wiki/File:NorwalkCTRockLedgeRowayton08112007.JPG",
-        "license": "CC BY-SA 3.0",
-        "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0/"
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f0/Font_Manager_Palette_in_QuarkXPress_2024.png/500px-Font_Manager_Palette_in_QuarkXPress_2024.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "alt": "QuarkXPress — the software this anniversary is about.",
+        "credit": "Op8soli2",
+        "source": "https://commons.wikimedia.org/wiki/File:Font_Manager_Palette_in_QuarkXPress_2024.png",
+        "license": "CC0",
+        "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/deed.en"
       }
     },
     {
-      "id": "03-31-rusalka-opera",
+      "id": "03-31-starcraft-video-game",
       "date": "03-31",
       "dateLabel": "31 March",
       "category": "culture",
       "categoryName": "Culture",
-      "year": 1901,
-      "title": "Rusalka",
-      "body": "Rusalka by Antonín Dvořák premieres at the National Opera House in Prague.",
+      "year": 1998,
+      "title": "Q165929",
+      "body": "StarCraft is a real-time strategy video game developed and published by Blizzard Entertainment for Microsoft Windows. The first installment of the video game series of the same name, it was released in 1998.",
       "source": {
-        "name": "Wikipedia · Rusalka (opera)",
-        "url": "https://en.wikipedia.org/wiki/Rusalka_(opera)",
+        "name": "Wikipedia · StarCraft (video game)",
+        "url": "https://en.wikipedia.org/wiki/StarCraft_(video_game)",
         "calendarUrl": "https://en.wikipedia.org/wiki/March_31",
         "license": {
           "name": "CC BY-SA 4.0",
@@ -48,12 +48,12 @@
         }
       },
       "image": {
-        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/ab/Poster_for_the_premiere_of_Rusalka_in_Prague%2C_31_March%2C_1901..jpg/500px-Poster_for_the_premiere_of_Rusalka_in_Prague%2C_31_March%2C_1901..jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-        "alt": "Picture from the Wikipedia article on Rusalka.",
-        "credit": "Unknown author",
-        "source": "https://commons.wikimedia.org/wiki/File:Poster_for_the_premiere_of_Rusalka_in_Prague,_31_March,_1901..jpg",
-        "license": "Public domain",
-        "licenseUrl": "https://commons.wikimedia.org/wiki/File:Poster_for_the_premiere_of_Rusalka_in_Prague,_31_March,_1901..jpg"
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/58/Starcraft_Gamescom_2017_%2836851382835%29.jpg/500px-Starcraft_Gamescom_2017_%2836851382835%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "alt": "Q165929 — the video game this anniversary is about.",
+        "credit": "dronepicr",
+        "source": "https://commons.wikimedia.org/wiki/File:Starcraft_Gamescom_2017_(36851382835).jpg",
+        "license": "CC BY 2.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by/2.0"
       }
     },
     {
@@ -84,6 +84,33 @@
       }
     },
     {
+      "id": "03-31-remington-rand",
+      "date": "03-31",
+      "dateLabel": "31 March",
+      "category": "tech",
+      "categoryName": "Tech",
+      "year": 1951,
+      "title": "Remington Rand",
+      "body": "Remington Rand delivers the first UNIVAC I computer to the United States Census Bureau.",
+      "source": {
+        "name": "Wikipedia · Remington Rand",
+        "url": "https://en.wikipedia.org/wiki/Remington_Rand",
+        "calendarUrl": "https://en.wikipedia.org/wiki/March_31",
+        "license": {
+          "name": "CC BY-SA 4.0",
+          "url": "https://creativecommons.org/licenses/by-sa/4.0/"
+        }
+      },
+      "image": {
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/cf/NorwalkCTRockLedgeRowayton08112007.JPG/500px-NorwalkCTRockLedgeRowayton08112007.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "alt": "Picture from the Wikipedia article on Remington Rand.",
+        "credit": "Noroton",
+        "source": "https://commons.wikimedia.org/wiki/File:NorwalkCTRockLedgeRowayton08112007.JPG",
+        "license": "CC BY-SA 3.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0/"
+      }
+    },
+    {
       "id": "03-31-scott-kelly-astronaut",
       "date": "03-31",
       "dateLabel": "31 March",
@@ -108,33 +135,6 @@
         "source": "https://commons.wikimedia.org/wiki/File:Scott_Kelly,_Johnson_Space_Center_portrait,_2019_(cropped)_2.tif",
         "license": "Public domain",
         "licenseUrl": "https://commons.wikimedia.org/wiki/File:Scott_Kelly,_Johnson_Space_Center_portrait,_2019_(cropped)_2.tif"
-      }
-    },
-    {
-      "id": "03-31-explorer-1",
-      "date": "03-31",
-      "dateLabel": "31 March",
-      "category": "space",
-      "categoryName": "Space",
-      "year": 1970,
-      "title": "Explorer 1",
-      "body": "Explorer 1 re-enters the Earth's atmosphere after 12 years in orbit.",
-      "source": {
-        "name": "Wikipedia · Explorer 1",
-        "url": "https://en.wikipedia.org/wiki/Explorer_1",
-        "calendarUrl": "https://en.wikipedia.org/wiki/March_31",
-        "license": {
-          "name": "CC BY-SA 4.0",
-          "url": "https://creativecommons.org/licenses/by-sa/4.0/"
-        }
-      },
-      "image": {
-        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/73/Explorer1.jpg/500px-Explorer1.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-        "alt": "Picture from the Wikipedia article on Explorer 1.",
-        "credit": "NASA",
-        "source": "https://commons.wikimedia.org/wiki/File:Explorer1.jpg",
-        "license": "Public domain",
-        "licenseUrl": "https://commons.wikimedia.org/wiki/File:Explorer1.jpg"
       }
     }
   ]

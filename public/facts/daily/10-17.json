@@ -3,6 +3,33 @@
   "dateLabel": "17 October",
   "facts": [
     {
+      "id": "10-17-windows-8-1",
+      "date": "10-17",
+      "dateLabel": "17 October",
+      "category": "tech",
+      "categoryName": "Tech",
+      "year": 2013,
+      "title": "Windows 8.1",
+      "body": "1 is a release of the Windows NT operating system based on Windows 8 developed by Microsoft.",
+      "source": {
+        "name": "Wikipedia · Windows 8.1",
+        "url": "https://en.wikipedia.org/wiki/Windows_8.1",
+        "calendarUrl": "https://en.wikipedia.org/wiki/October_17",
+        "license": {
+          "name": "CC BY-SA 4.0",
+          "url": "https://creativecommons.org/licenses/by-sa/4.0/"
+        }
+      },
+      "image": {
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/68/Start81.png/500px-Start81.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "alt": "Windows 8.1 — the operating system this anniversary is about.",
+        "credit": "Microsoft",
+        "source": "https://commons.wikimedia.org/wiki/File:Start81.png",
+        "license": "Public domain",
+        "licenseUrl": "https://commons.wikimedia.org/wiki/File:Start81.png"
+      }
+    },
+    {
       "id": "10-17-salem-s-lot",
       "date": "10-17",
       "dateLabel": "17 October",
@@ -108,33 +135,6 @@
         "source": "https://commons.wikimedia.org/wiki/File:USS_Kearny_(DD-432)_underway_in_1942.jpg",
         "license": "Public domain",
         "licenseUrl": "https://commons.wikimedia.org/wiki/File:USS_Kearny_(DD-432)_underway_in_1942.jpg"
-      }
-    },
-    {
-      "id": "10-17-sellafield",
-      "date": "10-17",
-      "dateLabel": "17 October",
-      "category": "world",
-      "categoryName": "World",
-      "year": 1956,
-      "title": "Sellafield",
-      "body": "The first commercial nuclear power station is officially opened by Queen Elizabeth II in Sellafield, England.",
-      "source": {
-        "name": "Wikipedia · Sellafield",
-        "url": "https://en.wikipedia.org/wiki/Sellafield",
-        "calendarUrl": "https://en.wikipedia.org/wiki/October_17",
-        "license": {
-          "name": "CC BY-SA 4.0",
-          "url": "https://creativecommons.org/licenses/by-sa/4.0/"
-        }
-      },
-      "image": {
-        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/0b/Aerial_view_Sellafield%2C_Cumbria_-_geograph.org.uk_-_50827.jpg/500px-Aerial_view_Sellafield%2C_Cumbria_-_geograph.org.uk_-_50827.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-        "alt": "Picture from the Wikipedia article on Sellafield.",
-        "credit": "Simon Ledingham",
-        "source": "https://commons.wikimedia.org/wiki/File:Aerial_view_Sellafield,_Cumbria_-_geograph.org.uk_-_50827.jpg",
-        "license": "CC BY-SA 2.0",
-        "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0"
       }
     }
   ]

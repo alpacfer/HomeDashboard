@@ -3,6 +3,33 @@
   "dateLabel": "31 August",
   "facts": [
     {
+      "id": "08-31-rock-of-ages-video-game",
+      "date": "08-31",
+      "dateLabel": "31 August",
+      "category": "culture",
+      "categoryName": "Culture",
+      "year": 2011,
+      "title": "Rock of Ages",
+      "body": "Rock of Ages is a tower defense racing video game developed by ACE Team and published by Atlus USA. It uses the Unreal Engine 3.",
+      "source": {
+        "name": "Wikipedia · Rock of Ages (video game)",
+        "url": "https://en.wikipedia.org/wiki/Rock_of_Ages_(video_game)",
+        "calendarUrl": "https://en.wikipedia.org/wiki/August_31",
+        "license": {
+          "name": "CC BY-SA 4.0",
+          "url": "https://creativecommons.org/licenses/by-sa/4.0/"
+        }
+      },
+      "image": {
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/3f/Rock_of_Ages_-_Greek.jpg/500px-Rock_of_Ages_-_Greek.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "alt": "Rock of Ages — the video game this anniversary is about.",
+        "credit": "Rock of Ages - by ACE Team",
+        "source": "https://commons.wikimedia.org/wiki/File:Rock_of_Ages_-_Greek.jpg",
+        "license": "CC BY-SA 3.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0"
+      }
+    },
+    {
       "id": "08-31-ferdinand-von-zeppelin",
       "date": "08-31",
       "dateLabel": "31 August",
@@ -108,33 +135,6 @@
         "source": "https://commons.wikimedia.org/wiki/File:Flag_of_Trinidad_and_Tobago.svg",
         "license": "Public domain",
         "licenseUrl": "https://commons.wikimedia.org/wiki/File:Flag_of_Trinidad_and_Tobago.svg"
-      }
-    },
-    {
-      "id": "08-31-kyrgyzstan",
-      "date": "08-31",
-      "dateLabel": "31 August",
-      "category": "world",
-      "categoryName": "World",
-      "year": 1991,
-      "title": "Kyrgyzstan",
-      "body": "Kyrgyzstan declares its independence from the Soviet Union.",
-      "source": {
-        "name": "Wikipedia · Kyrgyzstan",
-        "url": "https://en.wikipedia.org/wiki/Kyrgyzstan",
-        "calendarUrl": "https://en.wikipedia.org/wiki/August_31",
-        "license": {
-          "name": "CC BY-SA 4.0",
-          "url": "https://creativecommons.org/licenses/by-sa/4.0/"
-        }
-      },
-      "image": {
-        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c7/Flag_of_Kyrgyzstan.svg/500px-Flag_of_Kyrgyzstan.svg.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-        "alt": "Picture from the Wikipedia article on Kyrgyzstan.",
-        "credit": "Shakiev N.T., Primov U.B",
-        "source": "https://commons.wikimedia.org/wiki/File:Flag_of_Kyrgyzstan.svg",
-        "license": "Public domain",
-        "licenseUrl": "https://commons.wikimedia.org/wiki/File:Flag_of_Kyrgyzstan.svg"
       }
     }
   ]

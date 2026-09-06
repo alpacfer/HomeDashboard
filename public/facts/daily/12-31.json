@@ -3,6 +3,33 @@
   "dateLabel": "31 December",
   "facts": [
     {
+      "id": "12-31-sopwith-video-game",
+      "date": "12-31",
+      "dateLabel": "31 December",
+      "category": "culture",
+      "categoryName": "Culture",
+      "year": 1984,
+      "title": "Sopwith",
+      "body": "Sopwith is a side-scrolling shoot 'em up created by David L. Clark of BMB Compuscience in 1984. It was originally written to run on the IBM PC under MS-DOS.",
+      "source": {
+        "name": "Wikipedia · Sopwith (video game)",
+        "url": "https://en.wikipedia.org/wiki/Sopwith_(video_game)",
+        "calendarUrl": "https://en.wikipedia.org/wiki/December_31",
+        "license": {
+          "name": "CC BY-SA 4.0",
+          "url": "https://creativecommons.org/licenses/by-sa/4.0/"
+        }
+      },
+      "image": {
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/97/Sopwith-screenshot.png/500px-Sopwith-screenshot.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "alt": "Sopwith — the video game this anniversary is about.",
+        "credit": "Fragglet",
+        "source": "https://commons.wikimedia.org/wiki/File:Sopwith-screenshot.png",
+        "license": "GPL",
+        "licenseUrl": "https://www.gnu.org/licenses/gpl.html"
+      }
+    },
+    {
       "id": "12-31-grail",
       "date": "12-31",
       "dateLabel": "31 December",
@@ -108,33 +135,6 @@
         "source": "https://commons.wikimedia.org/wiki/File:TSBALL_logo.gif",
         "license": "Public domain",
         "licenseUrl": "https://commons.wikimedia.org/wiki/File:TSBALL_logo.gif"
-      }
-    },
-    {
-      "id": "12-31-tupolev-tu-144",
-      "date": "12-31",
-      "dateLabel": "31 December",
-      "category": "world",
-      "categoryName": "World",
-      "year": 1968,
-      "title": "Tupolev Tu-144",
-      "body": "The first flight of the Tupolev Tu-144, the first civilian supersonic transport in the world.",
-      "source": {
-        "name": "Wikipedia · Tupolev Tu-144",
-        "url": "https://en.wikipedia.org/wiki/Tupolev_Tu-144",
-        "calendarUrl": "https://en.wikipedia.org/wiki/December_31",
-        "license": {
-          "name": "CC BY-SA 4.0",
-          "url": "https://creativecommons.org/licenses/by-sa/4.0/"
-        }
-      },
-      "image": {
-        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/ba/Tupolev_TU-144_%286060104119%29.jpg/500px-Tupolev_TU-144_%286060104119%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-        "alt": "Picture from the Wikipedia article on Tupolev Tu-144.",
-        "credit": "clipperarctic",
-        "source": "https://commons.wikimedia.org/wiki/File:Tupolev_TU-144_(6060104119).jpg",
-        "license": "CC BY-SA 2.0",
-        "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0"
       }
     }
   ]

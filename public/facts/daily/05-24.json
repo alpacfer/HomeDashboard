@@ -3,6 +3,60 @@
   "dateLabel": "24 May",
   "facts": [
     {
+      "id": "05-24-simutrans",
+      "date": "05-24",
+      "dateLabel": "24 May",
+      "category": "culture",
+      "categoryName": "Culture",
+      "year": 2016,
+      "title": "Simutrans",
+      "body": "Simutrans is a cross-platform simulation game in which the player strives to run a successful transport system by constructing and managing transportation systems for passengers, mail and goods by land (rail, road, tram, monorail, maglev), air (airplanes) and water (ship) between places.",
+      "source": {
+        "name": "Wikipedia · Simutrans",
+        "url": "https://en.wikipedia.org/wiki/Simutrans",
+        "calendarUrl": "https://en.wikipedia.org/wiki/May_24",
+        "license": {
+          "name": "CC BY-SA 4.0",
+          "url": "https://creativecommons.org/licenses/by-sa/4.0/"
+        }
+      },
+      "image": {
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/de/Simutrans_pak64.png/500px-Simutrans_pak64.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "alt": "Simutrans — the video game this anniversary is about.",
+        "credit": "Unknown authorThe original uploader was…",
+        "source": "https://commons.wikimedia.org/wiki/File:Simutrans_pak64.png",
+        "license": "Artistic 2.0",
+        "licenseUrl": "https://opensource.org/licenses/artistic-license-2.0.php"
+      }
+    },
+    {
+      "id": "05-24-nafo-group",
+      "date": "05-24",
+      "dateLabel": "24 May",
+      "category": "curious",
+      "categoryName": "Curious",
+      "year": 2022,
+      "title": "NAFO",
+      "body": "The North Atlantic Fella Organization (NAFO, a play on NATO, the North Atlantic Treaty Organization) is an Internet meme and social media movement dedicated to countering Russian propaganda and disinformation about the 2022 Russian invasion of Ukraine.",
+      "source": {
+        "name": "Wikipedia · NAFO (group)",
+        "url": "https://en.wikipedia.org/wiki/NAFO_(group)",
+        "calendarUrl": "https://en.wikipedia.org/wiki/May_24",
+        "license": {
+          "name": "CC BY-SA 4.0",
+          "url": "https://creativecommons.org/licenses/by-sa/4.0/"
+        }
+      },
+      "image": {
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/2e/Todesmaschine_-_Berlin_2023-02-24_RK05.jpg/500px-Todesmaschine_-_Berlin_2023-02-24_RK05.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "alt": "NAFO — the internet meme this anniversary is about.",
+        "credit": "© Rolf Krahl / CC BY 4.0",
+        "source": "https://commons.wikimedia.org/wiki/File:Todesmaschine_-_Berlin_2023-02-24_RK05.jpg",
+        "license": "CC BY 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by/4.0"
+      }
+    },
+    {
       "id": "05-24-astronaut",
       "date": "05-24",
       "dateLabel": "24 May",
@@ -81,60 +135,6 @@
         "source": "https://commons.wikimedia.org/wiki/File:Sikorsky,_Igor.jpg",
         "license": "Public domain",
         "licenseUrl": "https://commons.wikimedia.org/wiki/File:Sikorsky,_Igor.jpg"
-      }
-    },
-    {
-      "id": "05-24-ashmolean-museum",
-      "date": "05-24",
-      "dateLabel": "24 May",
-      "category": "culture",
-      "categoryName": "Culture",
-      "year": 1683,
-      "title": "Ashmolean Museum",
-      "body": "The Ashmolean Museum in Oxford, England, opens as the world's first university museum.",
-      "source": {
-        "name": "Wikipedia · Ashmolean Museum",
-        "url": "https://en.wikipedia.org/wiki/Ashmolean_Museum",
-        "calendarUrl": "https://en.wikipedia.org/wiki/May_24",
-        "license": {
-          "name": "CC BY-SA 4.0",
-          "url": "https://creativecommons.org/licenses/by-sa/4.0/"
-        }
-      },
-      "image": {
-        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/6d/Ashmolean_Museum_in_July_2014.jpg/500px-Ashmolean_Museum_in_July_2014.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-        "alt": "Picture from the Wikipedia article on Ashmolean Museum.",
-        "credit": "Lewis Clarke",
-        "source": "https://commons.wikimedia.org/wiki/File:Ashmolean_Museum_in_July_2014.jpg",
-        "license": "CC BY-SA 2.0",
-        "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0"
-      }
-    },
-    {
-      "id": "05-24-freedom-riders",
-      "date": "05-24",
-      "dateLabel": "24 May",
-      "category": "world",
-      "categoryName": "World",
-      "year": 1961,
-      "title": "Freedom Riders",
-      "body": "Freedom Riders are arrested in Jackson, Mississippi, for \"disturbing the peace\" after disembarking from their bus.",
-      "source": {
-        "name": "Wikipedia · Freedom Riders",
-        "url": "https://en.wikipedia.org/wiki/Freedom_Riders",
-        "calendarUrl": "https://en.wikipedia.org/wiki/May_24",
-        "license": {
-          "name": "CC BY-SA 4.0",
-          "url": "https://creativecommons.org/licenses/by-sa/4.0/"
-        }
-      },
-      "image": {
-        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/9c/Exhibit_on_Freedom_Riders_-_Center_for_Civil_and_Human_Rights_-_Atlanta_-_Georgia_-_USA_%2833468216774%29.jpg/500px-Exhibit_on_Freedom_Riders_-_Center_for_Civil_and_Human_Rights_-_Atlanta_-_Georgia_-_USA_%2833468216774%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-        "alt": "Picture from the Wikipedia article on Freedom Riders.",
-        "credit": "Adam Jones from Kelowna, BC, Canada",
-        "source": "https://commons.wikimedia.org/wiki/File:Exhibit_on_Freedom_Riders_-_Center_for_Civil_and_Human_Rights_-_Atlanta_-_Georgia_-_USA_(33468216774).jpg",
-        "license": "CC BY-SA 2.0",
-        "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0"
       }
     }
   ]

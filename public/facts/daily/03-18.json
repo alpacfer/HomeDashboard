@@ -3,6 +3,33 @@
   "dateLabel": "18 March",
   "facts": [
     {
+      "id": "03-18-pac-mania",
+      "date": "03-18",
+      "dateLabel": "18 March",
+      "category": "culture",
+      "categoryName": "Culture",
+      "year": 1989,
+      "title": "Pac-Mania",
+      "body": "Pac-Mania is a 1987 maze video game developed and published by Namco for arcades. It was released by Atari Games in North America.",
+      "source": {
+        "name": "Wikipedia · Pac-Mania",
+        "url": "https://en.wikipedia.org/wiki/Pac-Mania",
+        "calendarUrl": "https://en.wikipedia.org/wiki/March_18",
+        "license": {
+          "name": "CC BY-SA 4.0",
+          "url": "https://creativecommons.org/licenses/by-sa/4.0/"
+        }
+      },
+      "image": {
+        "src": "https://upload.wikimedia.org/wikipedia/commons/3/35/Pac-Mania_gameplay.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+        "alt": "Pac-Mania — the video game this anniversary is about.",
+        "credit": "Bandai Namco Entertainment America",
+        "source": "https://commons.wikimedia.org/wiki/File:Pac-Mania_gameplay.png",
+        "license": "CC BY 3.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by/3.0"
+      }
+    },
+    {
       "id": "03-18-cosmonaut",
       "date": "03-18",
       "dateLabel": "18 March",
@@ -27,33 +54,6 @@
         "source": "https://commons.wikimedia.org/wiki/File:Bruce_McCandless_II_during_EVA_in_1984.jpg",
         "license": "Public domain",
         "licenseUrl": "https://commons.wikimedia.org/wiki/File:Bruce_McCandless_II_during_EVA_in_1984.jpg"
-      }
-    },
-    {
-      "id": "03-18-art-theft",
-      "date": "03-18",
-      "dateLabel": "18 March",
-      "category": "culture",
-      "categoryName": "Culture",
-      "year": 1990,
-      "title": "Art theft",
-      "body": "In the largest art theft in US history, 12 paintings, collectively worth around $500 million, are stolen from the Isabella Stewart Gardner Museum in Boston.",
-      "source": {
-        "name": "Wikipedia · Art theft",
-        "url": "https://en.wikipedia.org/wiki/Art_theft",
-        "calendarUrl": "https://en.wikipedia.org/wiki/March_18",
-        "license": {
-          "name": "CC BY-SA 4.0",
-          "url": "https://creativecommons.org/licenses/by-sa/4.0/"
-        }
-      },
-      "image": {
-        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/54/ISGardnerMuseum.JPG/500px-ISGardnerMuseum.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-        "alt": "Picture from the Wikipedia article on Art theft.",
-        "credit": "Biruitorul",
-        "source": "https://commons.wikimedia.org/wiki/File:ISGardnerMuseum.JPG",
-        "license": "Public domain",
-        "licenseUrl": "https://commons.wikimedia.org/wiki/File:ISGardnerMuseum.JPG"
       }
     },
     {
@@ -84,6 +84,33 @@
       }
     },
     {
+      "id": "03-18-art-theft",
+      "date": "03-18",
+      "dateLabel": "18 March",
+      "category": "culture",
+      "categoryName": "Culture",
+      "year": 1990,
+      "title": "Art theft",
+      "body": "In the largest art theft in US history, 12 paintings, collectively worth around $500 million, are stolen from the Isabella Stewart Gardner Museum in Boston.",
+      "source": {
+        "name": "Wikipedia · Art theft",
+        "url": "https://en.wikipedia.org/wiki/Art_theft",
+        "calendarUrl": "https://en.wikipedia.org/wiki/March_18",
+        "license": {
+          "name": "CC BY-SA 4.0",
+          "url": "https://creativecommons.org/licenses/by-sa/4.0/"
+        }
+      },
+      "image": {
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/54/ISGardnerMuseum.JPG/500px-ISGardnerMuseum.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "alt": "Picture from the Wikipedia article on Art theft.",
+        "credit": "Biruitorul",
+        "source": "https://commons.wikimedia.org/wiki/File:ISGardnerMuseum.JPG",
+        "license": "Public domain",
+        "licenseUrl": "https://commons.wikimedia.org/wiki/File:ISGardnerMuseum.JPG"
+      }
+    },
+    {
       "id": "03-18-phoebe-moon",
       "date": "03-18",
       "dateLabel": "18 March",
@@ -108,33 +135,6 @@
         "source": "https://commons.wikimedia.org/wiki/File:Phoebe_cassini_full.jpg",
         "license": "Public domain",
         "licenseUrl": "https://commons.wikimedia.org/wiki/File:Phoebe_cassini_full.jpg"
-      }
-    },
-    {
-      "id": "03-18-william-henry-fry",
-      "date": "03-18",
-      "dateLabel": "18 March",
-      "category": "culture",
-      "categoryName": "Culture",
-      "year": 1848,
-      "title": "William Henry Fry",
-      "body": "The premiere of William Henry Fry's Leonora in Philadelphia is the first known performance of a grand opera by an American composer.",
-      "source": {
-        "name": "Wikipedia · William Henry Fry",
-        "url": "https://en.wikipedia.org/wiki/William_Henry_Fry",
-        "calendarUrl": "https://en.wikipedia.org/wiki/March_18",
-        "license": {
-          "name": "CC BY-SA 4.0",
-          "url": "https://creativecommons.org/licenses/by-sa/4.0/"
-        }
-      },
-      "image": {
-        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/fe/Portrait_of_William_Henry_Fry.jpg/500px-Portrait_of_William_Henry_Fry.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-        "alt": "Picture from the Wikipedia article on William Henry Fry.",
-        "credit": "Louis C. Elson",
-        "source": "https://commons.wikimedia.org/wiki/File:Portrait_of_William_Henry_Fry.jpg",
-        "license": "Public domain",
-        "licenseUrl": "https://commons.wikimedia.org/wiki/File:Portrait_of_William_Henry_Fry.jpg"
       }
     }
   ]

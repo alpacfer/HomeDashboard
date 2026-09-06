@@ -3,6 +3,60 @@
   "dateLabel": "1 October",
   "facts": [
     {
+      "id": "10-01-king-s-quest-iii",
+      "date": "10-01",
+      "dateLabel": "1 October",
+      "category": "culture",
+      "categoryName": "Culture",
+      "year": 1986,
+      "title": "King's Quest III",
+      "body": "To Heir is Human is an adventure game developed by Sierra On-Line and published originally for home computers in 1986 as the third entry in the King's Quest series.",
+      "source": {
+        "name": "Wikipedia · King's Quest III",
+        "url": "https://en.wikipedia.org/wiki/King%27s_Quest_III",
+        "calendarUrl": "https://en.wikipedia.org/wiki/October_1",
+        "license": {
+          "name": "CC BY-SA 4.0",
+          "url": "https://creativecommons.org/licenses/by-sa/4.0/"
+        }
+      },
+      "image": {
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/8f/SierraOnLine-Box-KingsQuest3.jpg/500px-SierraOnLine-Box-KingsQuest3.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "alt": "King's Quest III — the video game this anniversary is about.",
+        "credit": "Sierra On-Line",
+        "source": "https://commons.wikimedia.org/wiki/File:SierraOnLine-Box-KingsQuest3.jpg",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0"
+      }
+    },
+    {
+      "id": "10-01-millipede-video-game",
+      "date": "10-01",
+      "dateLabel": "1 October",
+      "category": "culture",
+      "categoryName": "Culture",
+      "year": 1987,
+      "title": "Millipede",
+      "body": "Millipede (stylized as millipede in western releases and as Milli-Pede in Japan) is a 1982 fixed shooter video game developed and published by Atari, Inc. for arcades.",
+      "source": {
+        "name": "Wikipedia · Millipede (video game)",
+        "url": "https://en.wikipedia.org/wiki/Millipede_(video_game)",
+        "calendarUrl": "https://en.wikipedia.org/wiki/October_1",
+        "license": {
+          "name": "CC BY-SA 4.0",
+          "url": "https://creativecommons.org/licenses/by-sa/4.0/"
+        }
+      },
+      "image": {
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c2/Mus%C3%A9e_M%C3%A9canique_218.JPG/500px-Mus%C3%A9e_M%C3%A9canique_218.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "alt": "Millipede — the video game this anniversary is about.",
+        "credit": "User:Piotrus",
+        "source": "https://commons.wikimedia.org/wiki/File:Mus%C3%A9e_M%C3%A9canique_218.JPG",
+        "license": "CC BY-SA 3.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0"
+      }
+    },
+    {
       "id": "10-01-james-meredith",
       "date": "10-01",
       "dateLabel": "1 October",
@@ -81,60 +135,6 @@
         "source": "https://commons.wikimedia.org/wiki/File:Cinderella_Castle,_Magic_Kingdom_(2026)_(square_crop).jpg",
         "license": "CC BY-SA 4.0",
         "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0"
-      }
-    },
-    {
-      "id": "10-01-georges-carpentier",
-      "date": "10-01",
-      "dateLabel": "1 October",
-      "category": "sport",
-      "categoryName": "Sport",
-      "year": 1923,
-      "title": "Georges Carpentier",
-      "body": "Georges Carpentier knocked out former British heavyweight champion Joe Beckett a mere twenty seconds into the first round of their boxing match at Olympia in London.",
-      "source": {
-        "name": "Wikipedia · Georges Carpentier",
-        "url": "https://en.wikipedia.org/wiki/Georges_Carpentier",
-        "calendarUrl": "https://en.wikipedia.org/wiki/October_1",
-        "license": {
-          "name": "CC BY-SA 4.0",
-          "url": "https://creativecommons.org/licenses/by-sa/4.0/"
-        }
-      },
-      "image": {
-        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/49/Georges_Carpentier_1920.jpg/500px-Georges_Carpentier_1920.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-        "alt": "Picture from the Wikipedia article on Georges Carpentier.",
-        "credit": "Lumiere",
-        "source": "https://commons.wikimedia.org/wiki/File:Georges_Carpentier_1920.jpg",
-        "license": "Public domain",
-        "licenseUrl": "https://commons.wikimedia.org/wiki/File:Georges_Carpentier_1920.jpg"
-      }
-    },
-    {
-      "id": "10-01-concorde",
-      "date": "10-01",
-      "dateLabel": "1 October",
-      "category": "world",
-      "categoryName": "World",
-      "year": 1969,
-      "title": "Concorde",
-      "body": "Concorde breaks the sound barrier for the first time.",
-      "source": {
-        "name": "Wikipedia · Concorde",
-        "url": "https://en.wikipedia.org/wiki/Concorde",
-        "calendarUrl": "https://en.wikipedia.org/wiki/October_1",
-        "license": {
-          "name": "CC BY-SA 4.0",
-          "url": "https://creativecommons.org/licenses/by-sa/4.0/"
-        }
-      },
-      "image": {
-        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/eb/British_Airways_Concorde_G-BOAC_03.jpg/500px-British_Airways_Concorde_G-BOAC_03.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-        "alt": "Picture from the Wikipedia article on Concorde.",
-        "credit": "Eduard Marmet",
-        "source": "https://commons.wikimedia.org/wiki/File:British_Airways_Concorde_G-BOAC_03.jpg",
-        "license": "CC BY-SA 3.0",
-        "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0"
       }
     }
   ]

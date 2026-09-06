@@ -3,6 +3,60 @@
   "dateLabel": "25 July",
   "facts": [
     {
+      "id": "07-25-hyphanet",
+      "date": "07-25",
+      "dateLabel": "25 July",
+      "category": "tech",
+      "categoryName": "Tech",
+      "year": 2000,
+      "title": "Hyphanet",
+      "body": "Hyphanet (until mid-2023: Freenet) is a peer-to-peer platform for censorship-resistant, anonymous communication. It uses a decentralized distributed data store to keep and deliver information, and has a suite of free software for publishing and communicating on the Web without fear of censorship.",
+      "source": {
+        "name": "Wikipedia · Hyphanet",
+        "url": "https://en.wikipedia.org/wiki/Hyphanet",
+        "calendarUrl": "https://en.wikipedia.org/wiki/July_25",
+        "license": {
+          "name": "CC BY-SA 4.0",
+          "url": "https://creativecommons.org/licenses/by-sa/4.0/"
+        }
+      },
+      "image": {
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/63/The_welcome_page_of_Freenet_Hyphanet.png/500px-The_welcome_page_of_Freenet_Hyphanet.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "alt": "Hyphanet — the application this anniversary is about.",
+        "credit": "The Freenet / Hyphanet team",
+        "source": "https://commons.wikimedia.org/wiki/File:The_welcome_page_of_Freenet_Hyphanet.png",
+        "license": "GPL",
+        "licenseUrl": "https://www.gnu.org/licenses/gpl.html"
+      }
+    },
+    {
+      "id": "07-25-quadrilateral-cowboy",
+      "date": "07-25",
+      "dateLabel": "25 July",
+      "category": "culture",
+      "categoryName": "Culture",
+      "year": 2016,
+      "title": "Quadrilateral Cowboy",
+      "body": "Quadrilateral Cowboy is a first-person puzzle-adventure video game by independent developer Blendo Games. The game was released on July 25, 2016, for Microsoft Windows, and on October 1, 2016, for macOS and Linux.",
+      "source": {
+        "name": "Wikipedia · Quadrilateral Cowboy",
+        "url": "https://en.wikipedia.org/wiki/Quadrilateral_Cowboy",
+        "calendarUrl": "https://en.wikipedia.org/wiki/July_25",
+        "license": {
+          "name": "CC BY-SA 4.0",
+          "url": "https://creativecommons.org/licenses/by-sa/4.0/"
+        }
+      },
+      "image": {
+        "src": "https://upload.wikimedia.org/wikipedia/commons/c/c0/Quadrilateral_Cowboy_cover.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+        "alt": "Quadrilateral Cowboy — the video game this anniversary is about.",
+        "credit": "BlendoGames",
+        "source": "https://commons.wikimedia.org/wiki/File:Quadrilateral_Cowboy_cover.png",
+        "license": "CC BY-SA 2.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0"
+      }
+    },
+    {
       "id": "07-25-salyut-7",
       "date": "07-25",
       "dateLabel": "25 July",
@@ -57,33 +111,6 @@
       }
     },
     {
-      "id": "07-25-electrical-telegraph",
-      "date": "07-25",
-      "dateLabel": "25 July",
-      "category": "tech",
-      "categoryName": "Tech",
-      "year": 1837,
-      "title": "Electrical telegraph",
-      "body": "The first commercial use of an electrical telegraph is successfully demonstrated in London by William Cooke and Charles Wheatstone.",
-      "source": {
-        "name": "Wikipedia · Electrical telegraph",
-        "url": "https://en.wikipedia.org/wiki/Electrical_telegraph",
-        "calendarUrl": "https://en.wikipedia.org/wiki/July_25",
-        "license": {
-          "name": "CC BY-SA 4.0",
-          "url": "https://creativecommons.org/licenses/by-sa/4.0/"
-        }
-      },
-      "image": {
-        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/2c/Cooke_and_Wheatstone_electric_telegraph.jpg/500px-Cooke_and_Wheatstone_electric_telegraph.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-        "alt": "Picture from the Wikipedia article on Electrical telegraph.",
-        "credit": "Geni",
-        "source": "https://commons.wikimedia.org/wiki/File:Cooke_and_Wheatstone_electric_telegraph.jpg",
-        "license": "CC BY-SA 4.0",
-        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0"
-      }
-    },
-    {
       "id": "07-25-ajinomoto",
       "date": "07-25",
       "dateLabel": "25 July",
@@ -108,33 +135,6 @@
         "source": "https://commons.wikimedia.org/wiki/File:Ajinomoto_global_logo.svg",
         "license": "Public domain",
         "licenseUrl": "https://commons.wikimedia.org/wiki/File:Ajinomoto_global_logo.svg"
-      }
-    },
-    {
-      "id": "07-25-bob-dylan",
-      "date": "07-25",
-      "dateLabel": "25 July",
-      "category": "culture",
-      "categoryName": "Culture",
-      "year": 1965,
-      "title": "Bob Dylan",
-      "body": "Bob Dylan goes electric at the Newport Folk Festival, signaling a major change in folk and rock music.",
-      "source": {
-        "name": "Wikipedia · Bob Dylan",
-        "url": "https://en.wikipedia.org/wiki/Bob_Dylan",
-        "calendarUrl": "https://en.wikipedia.org/wiki/July_25",
-        "license": {
-          "name": "CC BY-SA 4.0",
-          "url": "https://creativecommons.org/licenses/by-sa/4.0/"
-        }
-      },
-      "image": {
-        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/2a/DylanYoungKilkenny140719v2_%2850_of_52%29_%2852246124397%29_%28cropped%29.jpg/500px-DylanYoungKilkenny140719v2_%2850_of_52%29_%2852246124397%29_%28cropped%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-        "alt": "Picture from the Wikipedia article on Bob Dylan.",
-        "credit": "Raph_PH",
-        "source": "https://commons.wikimedia.org/wiki/File:DylanYoungKilkenny140719v2_(50_of_52)_(52246124397)_(cropped).jpg",
-        "license": "CC BY 2.0",
-        "licenseUrl": "https://creativecommons.org/licenses/by/2.0"
       }
     }
   ]

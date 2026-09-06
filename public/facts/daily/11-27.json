@@ -3,6 +3,60 @@
   "dateLabel": "27 November",
   "facts": [
     {
+      "id": "11-27-burgertime",
+      "date": "11-27",
+      "dateLabel": "27 November",
+      "category": "culture",
+      "categoryName": "Culture",
+      "year": 1985,
+      "title": "BurgerTime",
+      "body": "BurgerTime (or Hamburger in Japan) is an arcade video game by Data East released in 1982. According to a former Data East programmer, the game was designed in-house but the development itself was outsourced to another company.",
+      "source": {
+        "name": "Wikipedia · BurgerTime",
+        "url": "https://en.wikipedia.org/wiki/BurgerTime",
+        "calendarUrl": "https://en.wikipedia.org/wiki/November_27",
+        "license": {
+          "name": "CC BY-SA 4.0",
+          "url": "https://creativecommons.org/licenses/by-sa/4.0/"
+        }
+      },
+      "image": {
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/80/BurgerTime_Arcade_Video_Game.jpg/500px-BurgerTime_Arcade_Video_Game.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "alt": "BurgerTime — the video game this anniversary is about.",
+        "credit": "wanderin' wolfgang",
+        "source": "https://commons.wikimedia.org/wiki/File:BurgerTime_Arcade_Video_Game.jpg",
+        "license": "CC BY-SA 2.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0"
+      }
+    },
+    {
+      "id": "11-27-orbiter-simulator",
+      "date": "11-27",
+      "dateLabel": "27 November",
+      "category": "culture",
+      "categoryName": "Culture",
+      "year": 2000,
+      "title": "Orbiter",
+      "body": "Orbiter is a space flight simulator video game developed to simulate spaceflight using realistic Newtonian physics. The game was released on 27 November 2000; and the latest edition, labeled \"Orbiter 2024\", was released on 31 December 2024.",
+      "source": {
+        "name": "Wikipedia · Orbiter (simulator)",
+        "url": "https://en.wikipedia.org/wiki/Orbiter_(simulator)",
+        "calendarUrl": "https://en.wikipedia.org/wiki/November_27",
+        "license": {
+          "name": "CC BY-SA 4.0",
+          "url": "https://creativecommons.org/licenses/by-sa/4.0/"
+        }
+      },
+      "image": {
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/0c/Atlantis_in_Orbiter_2016_%2820_July_2024%29.png/500px-Atlantis_in_Orbiter_2016_%2820_July_2024%29.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "alt": "Orbiter — the video game this anniversary is about.",
+        "credit": "2000-2021 Martin Schweiger",
+        "source": "https://commons.wikimedia.org/wiki/File:Atlantis_in_Orbiter_2016_(20_July_2024).png",
+        "license": "MIT",
+        "licenseUrl": "https://opensource.org/licenses/mit-license.php"
+      }
+    },
+    {
       "id": "11-27-hydrogen",
       "date": "11-27",
       "dateLabel": "27 November",
@@ -81,60 +135,6 @@
         "source": "https://commons.wikimedia.org/wiki/File:Flag_of_Kurdistan_Workers%27_Party.svg",
         "license": "CC BY-SA 3.0",
         "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0"
-      }
-    },
-    {
-      "id": "11-27-berners-street-hoax",
-      "date": "11-27",
-      "dateLabel": "27 November",
-      "category": "curious",
-      "categoryName": "Curious",
-      "year": 1809,
-      "title": "Berners Street hoax",
-      "body": "The Berners Street hoax is perpetrated by Theodore Hook in the City of Westminster, London.",
-      "source": {
-        "name": "Wikipedia · Berners Street hoax",
-        "url": "https://en.wikipedia.org/wiki/Berners_Street_hoax",
-        "calendarUrl": "https://en.wikipedia.org/wiki/November_27",
-        "license": {
-          "name": "CC BY-SA 4.0",
-          "url": "https://creativecommons.org/licenses/by-sa/4.0/"
-        }
-      },
-      "image": {
-        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/1c/Berners_Street_Hoax.jpg/500px-Berners_Street_Hoax.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-        "alt": "Picture from the Wikipedia article on Berners Street hoax.",
-        "credit": "William Heath",
-        "source": "https://commons.wikimedia.org/wiki/File:Berners_Street_Hoax.jpg",
-        "license": "Public domain",
-        "licenseUrl": "https://commons.wikimedia.org/wiki/File:Berners_Street_Hoax.jpg"
-      }
-    },
-    {
-      "id": "11-27-space-shuttle-atlantis",
-      "date": "11-27",
-      "dateLabel": "27 November",
-      "category": "space",
-      "categoryName": "Space",
-      "year": 1985,
-      "title": "Space Shuttle Atlantis",
-      "body": "Atlantis launches on STS-61-B, with Rodolfo Neri Vela becoming the first Mexican astronaut.",
-      "source": {
-        "name": "Wikipedia · Space Shuttle Atlantis",
-        "url": "https://en.wikipedia.org/wiki/Space_Shuttle_Atlantis",
-        "calendarUrl": "https://en.wikipedia.org/wiki/November_27",
-        "license": {
-          "name": "CC BY-SA 4.0",
-          "url": "https://creativecommons.org/licenses/by-sa/4.0/"
-        }
-      },
-      "image": {
-        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/0e/STS132_Atlantis_undocking2_%28cropped%29.jpg/500px-STS132_Atlantis_undocking2_%28cropped%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-        "alt": "Picture from the Wikipedia article on Space Shuttle Atlantis.",
-        "credit": "NASA",
-        "source": "https://commons.wikimedia.org/wiki/File:STS132_Atlantis_undocking2_(cropped).jpg",
-        "license": "Public domain",
-        "licenseUrl": "https://commons.wikimedia.org/wiki/File:STS132_Atlantis_undocking2_(cropped).jpg"
       }
     }
   ]

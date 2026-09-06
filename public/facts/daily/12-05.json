@@ -3,6 +3,60 @@
   "dateLabel": "5 December",
   "facts": [
     {
+      "id": "12-05-alien-isolation",
+      "date": "12-05",
+      "dateLabel": "5 December",
+      "category": "culture",
+      "categoryName": "Culture",
+      "year": 2019,
+      "title": "Alien: Isolation",
+      "body": "Isolation is a 2014 survival horror game developed by Creative Assembly and published by Sega for PlayStation 3, PlayStation 4, Windows, Xbox 360, and Xbox One.",
+      "source": {
+        "name": "Wikipedia · Alien: Isolation",
+        "url": "https://en.wikipedia.org/wiki/Alien:_Isolation",
+        "calendarUrl": "https://en.wikipedia.org/wiki/December_5",
+        "license": {
+          "name": "CC BY-SA 4.0",
+          "url": "https://creativecommons.org/licenses/by-sa/4.0/"
+        }
+      },
+      "image": {
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d5/H.R._Giger%E2%80%99s_Xenomorph_%28Ank_Kumar_%29_04.jpg/500px-H.R._Giger%E2%80%99s_Xenomorph_%28Ank_Kumar_%29_04.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "alt": "Alien: Isolation — the video game this anniversary is about.",
+        "credit": "Ank Kumar",
+        "source": "https://commons.wikimedia.org/wiki/File:H.R._Giger%E2%80%99s_Xenomorph_(Ank_Kumar_)_04.jpg",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0"
+      }
+    },
+    {
+      "id": "12-05-ai-dungeon",
+      "date": "12-05",
+      "dateLabel": "5 December",
+      "category": "culture",
+      "categoryName": "Culture",
+      "year": 2019,
+      "title": "AI Dungeon",
+      "body": "AI Dungeon is a single-player/multiplayer text adventure game which uses artificial intelligence (AI) to generate content and allows players to create and share adventures and custom prompts.",
+      "source": {
+        "name": "Wikipedia · AI Dungeon",
+        "url": "https://en.wikipedia.org/wiki/AI_Dungeon",
+        "calendarUrl": "https://en.wikipedia.org/wiki/December_5",
+        "license": {
+          "name": "CC BY-SA 4.0",
+          "url": "https://creativecommons.org/licenses/by-sa/4.0/"
+        }
+      },
+      "image": {
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/16/Ai_dungeon_with_a_custom_setting.png/500px-Ai_dungeon_with_a_custom_setting.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "alt": "AI Dungeon — the video game this anniversary is about.",
+        "credit": "Corechess",
+        "source": "https://commons.wikimedia.org/wiki/File:Ai_dungeon_with_a_custom_setting.png",
+        "license": "Public domain",
+        "licenseUrl": "https://commons.wikimedia.org/wiki/File:Ai_dungeon_with_a_custom_setting.png"
+      }
+    },
+    {
       "id": "12-05-lloyd-j-old",
       "date": "12-05",
       "dateLabel": "5 December",
@@ -81,60 +135,6 @@
         "source": "https://commons.wikimedia.org/wiki/File:Si%C3%A8ge_CIO_2020_(1).jpg",
         "license": "CC BY-SA 4.0",
         "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0"
-      }
-    },
-    {
-      "id": "12-05-imperial-trans-antarctic-expedition",
-      "date": "12-05",
-      "dateLabel": "5 December",
-      "category": "science",
-      "categoryName": "Science",
-      "year": 1914,
-      "title": "Imperial Trans-Antarctic Expedition",
-      "body": "The Imperial Trans-Antarctic Expedition begins in an attempt to make the first land crossing of Antarctica.",
-      "source": {
-        "name": "Wikipedia · Imperial Trans-Antarctic Expedition",
-        "url": "https://en.wikipedia.org/wiki/Imperial_Trans-Antarctic_Expedition",
-        "calendarUrl": "https://en.wikipedia.org/wiki/December_5",
-        "license": {
-          "name": "CC BY-SA 4.0",
-          "url": "https://creativecommons.org/licenses/by-sa/4.0/"
-        }
-      },
-      "image": {
-        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a6/Endurance_under_full_sail_Frank_Hurley_State_Library_NSW_a090012h.jpg/500px-Endurance_under_full_sail_Frank_Hurley_State_Library_NSW_a090012h.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-        "alt": "Picture from the Wikipedia article on Imperial Trans-Antarctic Expedition.",
-        "credit": "Frank Hurley",
-        "source": "https://commons.wikimedia.org/wiki/File:Endurance_under_full_sail_Frank_Hurley_State_Library_NSW_a090012h.jpg",
-        "license": "Public domain",
-        "licenseUrl": "https://commons.wikimedia.org/wiki/File:Endurance_under_full_sail_Frank_Hurley_State_Library_NSW_a090012h.jpg"
-      }
-    },
-    {
-      "id": "12-05-civil-partnership-act-2004",
-      "date": "12-05",
-      "dateLabel": "5 December",
-      "category": "world",
-      "categoryName": "World",
-      "year": 2005,
-      "title": "Civil Partnership Act 2004",
-      "body": "The Civil Partnership Act comes into effect in the United Kingdom, and the first civil partnership is registered there.",
-      "source": {
-        "name": "Wikipedia · Civil Partnership Act 2004",
-        "url": "https://en.wikipedia.org/wiki/Civil_Partnership_Act_2004",
-        "calendarUrl": "https://en.wikipedia.org/wiki/December_5",
-        "license": {
-          "name": "CC BY-SA 4.0",
-          "url": "https://creativecommons.org/licenses/by-sa/4.0/"
-        }
-      },
-      "image": {
-        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a2/Royal_coat_of_arms_of_the_United_Kingdom_%281952%E2%80%932022%2C_variant_1%29.svg/500px-Royal_coat_of_arms_of_the_United_Kingdom_%281952%E2%80%932022%2C_variant_1%29.svg.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-        "alt": "Picture from the Wikipedia article on Civil Partnership Act 2004.",
-        "credit": "Sodacan",
-        "source": "https://commons.wikimedia.org/wiki/File:Royal_coat_of_arms_of_the_United_Kingdom_(1952%E2%80%932022,_variant_1).svg",
-        "license": "CC BY-SA 3.0",
-        "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0"
       }
     }
   ]

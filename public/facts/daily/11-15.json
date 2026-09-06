@@ -3,6 +3,60 @@
   "dateLabel": "15 November",
   "facts": [
     {
+      "id": "11-15-tamagotchi-connection-corner-shop",
+      "date": "11-15",
+      "dateLabel": "15 November",
+      "category": "culture",
+      "categoryName": "Culture",
+      "year": 2005,
+      "title": "Tamagotchi Connection: Corner Shop",
+      "body": "Corner Shop is a shop simulator video game developed by NanaOn-Sha and published by Bandai and Atari for the Nintendo DS.",
+      "source": {
+        "name": "Wikipedia · Tamagotchi Connection: Corner Shop",
+        "url": "https://en.wikipedia.org/wiki/Tamagotchi_Connection:_Corner_Shop",
+        "calendarUrl": "https://en.wikipedia.org/wiki/November_15",
+        "license": {
+          "name": "CC BY-SA 4.0",
+          "url": "https://creativecommons.org/licenses/by-sa/4.0/"
+        }
+      },
+      "image": {
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f2/Tamagotchi_0124_ubt.jpeg/500px-Tamagotchi_0124_ubt.jpeg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "alt": "Tamagotchi Connection: Corner Shop — the video game this anniversary is about.",
+        "credit": "tomasz.sienicki at gmail.com]",
+        "source": "https://commons.wikimedia.org/wiki/File:Tamagotchi_0124_ubt.jpeg",
+        "license": "CC BY-SA 3.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0/"
+      }
+    },
+    {
+      "id": "11-15-defender-video-game",
+      "date": "11-15",
+      "dateLabel": "15 November",
+      "category": "culture",
+      "categoryName": "Culture",
+      "year": 2006,
+      "title": "Defender",
+      "body": "Defender is a 1981 horizontally scrolling shooter video game developed and published by Williams Electronics for arcades. It was released in Japan by Taito.",
+      "source": {
+        "name": "Wikipedia · Defender (video game)",
+        "url": "https://en.wikipedia.org/wiki/Defender_(video_game)",
+        "calendarUrl": "https://en.wikipedia.org/wiki/November_15",
+        "license": {
+          "name": "CC BY-SA 4.0",
+          "url": "https://creativecommons.org/licenses/by-sa/4.0/"
+        }
+      },
+      "image": {
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/09/Williams_Defender_Arcade_Video_Game.jpg/500px-Williams_Defender_Arcade_Video_Game.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "alt": "Defender — the video game this anniversary is about.",
+        "credit": "VMzB",
+        "source": "https://commons.wikimedia.org/wiki/File:Williams_Defender_Arcade_Video_Game.jpg",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0"
+      }
+    },
+    {
       "id": "11-15-cleveland-transit-system",
       "date": "11-15",
       "dateLabel": "15 November",
@@ -81,60 +135,6 @@
         "source": "https://commons.wikimedia.org/wiki/File:Prime_Minister_Keir_Starmer_meets_Sir_Lewis_Hamilton_(54566928382)_(cropped).jpg",
         "license": "OGL 3",
         "licenseUrl": "https://www.nationalarchives.gov.uk/doc/open-government-licence/version/3"
-      }
-    },
-    {
-      "id": "11-15-ren-l-vesque",
-      "date": "11-15",
-      "dateLabel": "15 November",
-      "category": "world",
-      "categoryName": "World",
-      "year": 1976,
-      "title": "René Lévesque",
-      "body": "René Lévesque and the Parti Québécois take power to become the first Quebec government of the 20th century clearly in favor of independence.",
-      "source": {
-        "name": "Wikipedia · René Lévesque",
-        "url": "https://en.wikipedia.org/wiki/Ren%C3%A9_L%C3%A9vesque",
-        "calendarUrl": "https://en.wikipedia.org/wiki/November_15",
-        "license": {
-          "name": "CC BY-SA 4.0",
-          "url": "https://creativecommons.org/licenses/by-sa/4.0/"
-        }
-      },
-      "image": {
-        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/6e/Ren%C3%A9_L%C3%A9vesque_BAnQ_P243S1D865_%28cropped%29.jpg/500px-Ren%C3%A9_L%C3%A9vesque_BAnQ_P243S1D865_%28cropped%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-        "alt": "Picture from the Wikipedia article on René Lévesque.",
-        "credit": "Harvey Majo",
-        "source": "https://commons.wikimedia.org/wiki/File:Ren%C3%A9_L%C3%A9vesque_BAnQ_P243S1D865_(cropped).jpg",
-        "license": "CC BY-SA 3.0",
-        "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0"
-      }
-    },
-    {
-      "id": "11-15-xbox-console",
-      "date": "11-15",
-      "dateLabel": "15 November",
-      "category": "tech",
-      "categoryName": "Tech",
-      "year": 2001,
-      "title": "Xbox",
-      "body": "Microsoft launches the Xbox game console in North America.",
-      "source": {
-        "name": "Wikipedia · Xbox (console)",
-        "url": "https://en.wikipedia.org/wiki/Xbox_(console)",
-        "calendarUrl": "https://en.wikipedia.org/wiki/November_15",
-        "license": {
-          "name": "CC BY-SA 4.0",
-          "url": "https://creativecommons.org/licenses/by-sa/4.0/"
-        }
-      },
-      "image": {
-        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/1a/Xbox-Console-wDuke-L.png/500px-Xbox-Console-wDuke-L.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-        "alt": "Picture from the Wikipedia article on Xbox.",
-        "credit": "Remove white background",
-        "source": "https://commons.wikimedia.org/wiki/File:Xbox-Console-wDuke-L.png",
-        "license": "Public domain",
-        "licenseUrl": "https://commons.wikimedia.org/wiki/File:Xbox-Console-wDuke-L.png"
       }
     }
   ]

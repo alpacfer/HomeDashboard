@@ -3,6 +3,60 @@
   "dateLabel": "25 August",
   "facts": [
     {
+      "id": "08-25-quake-video-game",
+      "date": "08-25",
+      "dateLabel": "25 August",
+      "category": "culture",
+      "categoryName": "Culture",
+      "year": 1996,
+      "title": "Quake",
+      "body": "Quake is a 1996 first-person shooter video game developed by id Software and published by GT Interactive.",
+      "source": {
+        "name": "Wikipedia · Quake (video game)",
+        "url": "https://en.wikipedia.org/wiki/Quake_(video_game)",
+        "calendarUrl": "https://en.wikipedia.org/wiki/August_25",
+        "license": {
+          "name": "CC BY-SA 4.0",
+          "url": "https://creativecommons.org/licenses/by-sa/4.0/"
+        }
+      },
+      "image": {
+        "src": "https://upload.wikimedia.org/wikipedia/commons/8/80/Quake_cover.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+        "alt": "Quake — the video game this anniversary is about.",
+        "credit": "Xbox México",
+        "source": "https://commons.wikimedia.org/wiki/File:Quake_cover.png",
+        "license": "CC BY 3.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by/3.0"
+      }
+    },
+    {
+      "id": "08-25-the-expression-amrilato",
+      "date": "08-25",
+      "dateLabel": "25 August",
+      "category": "culture",
+      "categoryName": "Culture",
+      "year": 2017,
+      "title": "The Expression Amrilato",
+      "body": "The Expression Amrilato, known in Japan as Kotonoha Amrilato (ことのはアムリラート, Kotonoha Amurirāto; lit. The Verbal Love Relationship), is a Japanese bishōjo visual novel developed by SukeraSparo in 2017.",
+      "source": {
+        "name": "Wikipedia · The Expression Amrilato",
+        "url": "https://en.wikipedia.org/wiki/The_Expression_Amrilato",
+        "calendarUrl": "https://en.wikipedia.org/wiki/August_25",
+        "license": {
+          "name": "CC BY-SA 4.0",
+          "url": "https://creativecommons.org/licenses/by-sa/4.0/"
+        }
+      },
+      "image": {
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e4/SOJO_04.jpg/500px-SOJO_04.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "alt": "The Expression Amrilato — the video game this anniversary is about.",
+        "credit": "NMaia",
+        "source": "https://commons.wikimedia.org/wiki/File:SOJO_04.jpg",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0"
+      }
+    },
+    {
       "id": "08-25-voyager-2",
       "date": "08-25",
       "dateLabel": "25 August",
@@ -81,60 +135,6 @@
         "source": "https://commons.wikimedia.org/wiki/File:LinuxCon_Europe_Linus_Torvalds_03_(cropped).jpg",
         "license": "CC BY-SA 4.0",
         "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0"
-      }
-    },
-    {
-      "id": "08-25-kuomintang",
-      "date": "08-25",
-      "dateLabel": "25 August",
-      "category": "world",
-      "categoryName": "World",
-      "year": 1912,
-      "title": "Kuomintang",
-      "body": "The Kuomintang is founded for the first time in Peking.",
-      "source": {
-        "name": "Wikipedia · Kuomintang",
-        "url": "https://en.wikipedia.org/wiki/Kuomintang",
-        "calendarUrl": "https://en.wikipedia.org/wiki/August_25",
-        "license": {
-          "name": "CC BY-SA 4.0",
-          "url": "https://creativecommons.org/licenses/by-sa/4.0/"
-        }
-      },
-      "image": {
-        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a1/Emblem_of_the_Kuomintang.svg/500px-Emblem_of_the_Kuomintang.svg.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-        "alt": "Picture from the Wikipedia article on Kuomintang.",
-        "credit": "see above",
-        "source": "https://commons.wikimedia.org/wiki/File:Emblem_of_the_Kuomintang.svg",
-        "license": "Public domain",
-        "licenseUrl": "https://commons.wikimedia.org/wiki/File:Emblem_of_the_Kuomintang.svg"
-      }
-    },
-    {
-      "id": "08-25-hugh-glass",
-      "date": "08-25",
-      "dateLabel": "25 August",
-      "category": "science",
-      "categoryName": "Science",
-      "year": 1823,
-      "title": "Hugh Glass",
-      "body": "American fur trapper Hugh Glass is mauled by a grizzly bear while on an expedition in South Dakota.",
-      "source": {
-        "name": "Wikipedia · Hugh Glass",
-        "url": "https://en.wikipedia.org/wiki/Hugh_Glass",
-        "calendarUrl": "https://en.wikipedia.org/wiki/August_25",
-        "license": {
-          "name": "CC BY-SA 4.0",
-          "url": "https://creativecommons.org/licenses/by-sa/4.0/"
-        }
-      },
-      "image": {
-        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d5/Hugh_Glass_News_Article_%28cropped%29.jpg/500px-Hugh_Glass_News_Article_%28cropped%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-        "alt": "Picture from the Wikipedia article on Hugh Glass.",
-        "credit": "The Milwaukee Journal",
-        "source": "https://commons.wikimedia.org/wiki/File:Hugh_Glass_News_Article_(cropped).jpg",
-        "license": "Public domain",
-        "licenseUrl": "https://commons.wikimedia.org/wiki/File:Hugh_Glass_News_Article_(cropped).jpg"
       }
     }
   ]

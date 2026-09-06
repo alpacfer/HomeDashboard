@@ -3,6 +3,33 @@
   "dateLabel": "20 December",
   "facts": [
     {
+      "id": "12-20-cycloramic",
+      "date": "12-20",
+      "dateLabel": "20 December",
+      "category": "tech",
+      "categoryName": "Tech",
+      "year": 2012,
+      "title": "Cycloramic",
+      "body": "Cycloramic is an iOS and Windows Phone application that makes the Apple iPhone and Compatible Windows Phones rotate 360 degrees without user intervention.",
+      "source": {
+        "name": "Wikipedia · Cycloramic",
+        "url": "https://en.wikipedia.org/wiki/Cycloramic",
+        "calendarUrl": "https://en.wikipedia.org/wiki/December_20",
+        "license": {
+          "name": "CC BY-SA 4.0",
+          "url": "https://creativecommons.org/licenses/by-sa/4.0/"
+        }
+      },
+      "image": {
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e8/Image_explaining_how_Cycloramic_iPhone_app_works.png/500px-Image_explaining_how_Cycloramic_iPhone_app_works.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "alt": "Cycloramic — the software this anniversary is about.",
+        "credit": "Egos Ventures",
+        "source": "https://commons.wikimedia.org/wiki/File:Image_explaining_how_Cycloramic_iPhone_app_works.png",
+        "license": "CC BY-SA 3.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0"
+      }
+    },
+    {
       "id": "12-20-macau",
       "date": "12-20",
       "dateLabel": "20 December",
@@ -108,33 +135,6 @@
         "source": "https://commons.wikimedia.org/wiki/File:Seal_of_the_United_States_Space_Force.svg",
         "license": "Public domain",
         "licenseUrl": "https://commons.wikimedia.org/wiki/File:Seal_of_the_United_States_Space_Force.svg"
-      }
-    },
-    {
-      "id": "12-20-experimental-breeder-reactor-i",
-      "date": "12-20",
-      "dateLabel": "20 December",
-      "category": "world",
-      "categoryName": "World",
-      "year": 1951,
-      "title": "Experimental Breeder Reactor I",
-      "body": "The EBR-1 in Arco, Idaho becomes the first nuclear power plant to generate electricity. The electricity powered four light bulbs.",
-      "source": {
-        "name": "Wikipedia · Experimental Breeder Reactor I",
-        "url": "https://en.wikipedia.org/wiki/Experimental_Breeder_Reactor_I",
-        "calendarUrl": "https://en.wikipedia.org/wiki/December_20",
-        "license": {
-          "name": "CC BY-SA 4.0",
-          "url": "https://creativecommons.org/licenses/by-sa/4.0/"
-        }
-      },
-      "image": {
-        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/cf/EBR-1%2C_August_2012.jpg/500px-EBR-1%2C_August_2012.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-        "alt": "Picture from the Wikipedia article on Experimental Breeder Reactor I.",
-        "credit": "Orange Suede Sofa",
-        "source": "https://commons.wikimedia.org/wiki/File:EBR-1,_August_2012.jpg",
-        "license": "CC BY-SA 3.0",
-        "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0"
       }
     }
   ]

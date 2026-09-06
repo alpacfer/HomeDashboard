@@ -3,6 +3,33 @@
   "dateLabel": "27 July",
   "facts": [
     {
+      "id": "07-27-windows-nt-3-1",
+      "date": "07-27",
+      "dateLabel": "27 July",
+      "category": "tech",
+      "categoryName": "Tech",
+      "year": 1993,
+      "title": "Windows NT 3.1",
+      "body": "1 is the first major release of the Windows NT operating system developed by Microsoft, released on July 27, 1993.",
+      "source": {
+        "name": "Wikipedia · Windows NT 3.1",
+        "url": "https://en.wikipedia.org/wiki/Windows_NT_3.1",
+        "calendarUrl": "https://en.wikipedia.org/wiki/July_27",
+        "license": {
+          "name": "CC BY-SA 4.0",
+          "url": "https://creativecommons.org/licenses/by-sa/4.0/"
+        }
+      },
+      "image": {
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/1d/VirtualBox_Windows_NT_3.10.511.1_08_12_2024_20_00_45.png/500px-VirtualBox_Windows_NT_3.10.511.1_08_12_2024_20_00_45.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "alt": "Windows NT 3.1 — the operating system this anniversary is about.",
+        "credit": "Microsoft Corporation Screenshot…",
+        "source": "https://commons.wikimedia.org/wiki/File:VirtualBox_Windows_NT_3.10.511.1_08_12_2024_20_00_45.png",
+        "license": "Public domain",
+        "licenseUrl": "https://commons.wikimedia.org/wiki/File:VirtualBox_Windows_NT_3.10.511.1_08_12_2024_20_00_45.png"
+      }
+    },
+    {
       "id": "07-27-de-havilland-comet",
       "date": "07-27",
       "dateLabel": "27 July",
@@ -108,33 +135,6 @@
         "source": "https://commons.wikimedia.org/wiki/File:Greater_coat_of_arms_of_the_United_States.svg",
         "license": "Public domain",
         "licenseUrl": "https://commons.wikimedia.org/wiki/File:Greater_coat_of_arms_of_the_United_States.svg"
-      }
-    },
-    {
-      "id": "07-27-puijo-tower",
-      "date": "07-27",
-      "dateLabel": "27 July",
-      "category": "world",
-      "categoryName": "World",
-      "year": 1963,
-      "title": "Puijo tower",
-      "body": "The Puijo observation tower is opened to the general public at Puijo Hill in Kuopio, Finland.",
-      "source": {
-        "name": "Wikipedia · Puijo tower",
-        "url": "https://en.wikipedia.org/wiki/Puijo_tower",
-        "calendarUrl": "https://en.wikipedia.org/wiki/July_27",
-        "license": {
-          "name": "CC BY-SA 4.0",
-          "url": "https://creativecommons.org/licenses/by-sa/4.0/"
-        }
-      },
-      "image": {
-        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/ef/Puijo_tower.jpg/500px-Puijo_tower.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-        "alt": "Picture from the Wikipedia article on Puijo tower.",
-        "credit": "Tiia Monto",
-        "source": "https://commons.wikimedia.org/wiki/File:Puijo_tower.jpg",
-        "license": "CC BY-SA 3.0",
-        "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0"
       }
     }
   ]

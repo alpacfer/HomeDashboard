@@ -3,6 +3,33 @@
   "dateLabel": "29 July",
   "facts": [
     {
+      "id": "07-29-the-mark-of-kri",
+      "date": "07-29",
+      "dateLabel": "29 July",
+      "category": "culture",
+      "categoryName": "Culture",
+      "year": 2002,
+      "title": "The Mark of Kri",
+      "body": "The Mark of Kri is a 2002 action-adventure game developed by San Diego Studio and published by Sony Computer Entertainment for the PlayStation 2.",
+      "source": {
+        "name": "Wikipedia · The Mark of Kri",
+        "url": "https://en.wikipedia.org/wiki/The_Mark_of_Kri",
+        "calendarUrl": "https://en.wikipedia.org/wiki/July_29",
+        "license": {
+          "name": "CC BY-SA 4.0",
+          "url": "https://creativecommons.org/licenses/by-sa/4.0/"
+        }
+      },
+      "image": {
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/96/Rau_sketch_with_filters_by_Curfs.jpg/500px-Rau_sketch_with_filters_by_Curfs.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "alt": "The Mark of Kri — the video game this anniversary is about.",
+        "credit": "Grashoofd",
+        "source": "https://commons.wikimedia.org/wiki/File:Rau_sketch_with_filters_by_Curfs.jpg",
+        "license": "CC BY-SA 3.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0"
+      }
+    },
+    {
       "id": "07-29-nauka-iss-module",
       "date": "07-29",
       "dateLabel": "29 July",
@@ -108,33 +135,6 @@
         "source": "https://commons.wikimedia.org/wiki/File:Dwight_D._Eisenhower,_official_photo_portrait,_May_29,_1959_(cropped)(3).jpg",
         "license": "Public domain",
         "licenseUrl": "https://commons.wikimedia.org/wiki/File:Dwight_D._Eisenhower,_official_photo_portrait,_May_29,_1959_(cropped)(3).jpg"
-      }
-    },
-    {
-      "id": "07-29-101st-airborne-division",
-      "date": "07-29",
-      "dateLabel": "29 July",
-      "category": "world",
-      "categoryName": "World",
-      "year": 1965,
-      "title": "101st Airborne Division",
-      "body": "The first 4,000 101st Airborne Division paratroopers arrive in Vietnam, landing at Cam Ranh Bay.",
-      "source": {
-        "name": "Wikipedia · 101st Airborne Division",
-        "url": "https://en.wikipedia.org/wiki/101st_Airborne_Division",
-        "calendarUrl": "https://en.wikipedia.org/wiki/July_29",
-        "license": {
-          "name": "CC BY-SA 4.0",
-          "url": "https://creativecommons.org/licenses/by-sa/4.0/"
-        }
-      },
-      "image": {
-        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/98/US_101st_Airborne_Division_patch.svg/500px-US_101st_Airborne_Division_patch.svg.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-        "alt": "Picture from the Wikipedia article on 101st Airborne Division.",
-        "credit": "Darz Mol",
-        "source": "https://commons.wikimedia.org/wiki/File:US_101st_Airborne_Division_patch.svg",
-        "license": "Public domain",
-        "licenseUrl": "https://commons.wikimedia.org/wiki/File:US_101st_Airborne_Division_patch.svg"
       }
     }
   ]

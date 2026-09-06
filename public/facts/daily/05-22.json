@@ -3,6 +3,60 @@
   "dateLabel": "22 May",
   "facts": [
     {
+      "id": "05-22-pac-man",
+      "date": "05-22",
+      "dateLabel": "22 May",
+      "category": "culture",
+      "categoryName": "Culture",
+      "year": 1980,
+      "title": "Pac-Man",
+      "body": "Pac-Man, originally titled Puck Man in Japan, is a 1980 maze video game developed and published by Namco for arcades. It was released in Japan on May 22, 1980 and by Midway Manufacturing in North America in October 1980.",
+      "source": {
+        "name": "Wikipedia · Pac-Man",
+        "url": "https://en.wikipedia.org/wiki/Pac-Man",
+        "calendarUrl": "https://en.wikipedia.org/wiki/May_22",
+        "license": {
+          "name": "CC BY-SA 4.0",
+          "url": "https://creativecommons.org/licenses/by-sa/4.0/"
+        }
+      },
+      "image": {
+        "src": "https://upload.wikimedia.org/wikipedia/commons/c/c0/Pac-Man_gameplay_%281x_pixel-perfect_recreation%29.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+        "alt": "Pac-Man — the video game this anniversary is about.",
+        "credit": "Bandai Namco Entertainment America",
+        "source": "https://commons.wikimedia.org/wiki/File:Pac-Man_gameplay_(1x_pixel-perfect_recreation).png",
+        "license": "CC BY 3.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by/3.0"
+      }
+    },
+    {
+      "id": "05-22-strife-2015-video-game",
+      "date": "05-22",
+      "dateLabel": "22 May",
+      "category": "culture",
+      "categoryName": "Culture",
+      "year": 2015,
+      "title": "Strife",
+      "body": "Strife is a multiplayer online battle arena (MOBA) video game developed by S2 Games.",
+      "source": {
+        "name": "Wikipedia · Strife (2015 video game)",
+        "url": "https://en.wikipedia.org/wiki/Strife_(2015_video_game)",
+        "calendarUrl": "https://en.wikipedia.org/wiki/May_22",
+        "license": {
+          "name": "CC BY-SA 4.0",
+          "url": "https://creativecommons.org/licenses/by-sa/4.0/"
+        }
+      },
+      "image": {
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/7f/Strife_steam.jpg/500px-Strife_steam.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "alt": "Strife — the video game this anniversary is about.",
+        "credit": "Dow Johns",
+        "source": "https://commons.wikimedia.org/wiki/File:Strife_steam.jpg",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0"
+      }
+    },
+    {
       "id": "05-22-apollo-10",
       "date": "05-22",
       "dateLabel": "22 May",
@@ -81,60 +135,6 @@
         "source": "https://commons.wikimedia.org/wiki/File:Orville_Wright_1905-crop.jpg",
         "license": "Public domain",
         "licenseUrl": "https://commons.wikimedia.org/wiki/File:Orville_Wright_1905-crop.jpg"
-      }
-    },
-    {
-      "id": "05-22-bosnia-and-herzegovina",
-      "date": "05-22",
-      "dateLabel": "22 May",
-      "category": "world",
-      "categoryName": "World",
-      "year": 1992,
-      "title": "Bosnia and Herzegovina",
-      "body": "Bosnia and Herzegovina, Croatia and Slovenia join the United Nations.",
-      "source": {
-        "name": "Wikipedia · Bosnia and Herzegovina",
-        "url": "https://en.wikipedia.org/wiki/Bosnia_and_Herzegovina",
-        "calendarUrl": "https://en.wikipedia.org/wiki/May_22",
-        "license": {
-          "name": "CC BY-SA 4.0",
-          "url": "https://creativecommons.org/licenses/by-sa/4.0/"
-        }
-      },
-      "image": {
-        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/bf/Flag_of_Bosnia_and_Herzegovina.svg/500px-Flag_of_Bosnia_and_Herzegovina.svg.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-        "alt": "Picture from the Wikipedia article on Bosnia and Herzegovina.",
-        "credit": "Mladen Kolobarić",
-        "source": "https://commons.wikimedia.org/wiki/File:Flag_of_Bosnia_and_Herzegovina.svg",
-        "license": "Public domain",
-        "licenseUrl": "https://commons.wikimedia.org/wiki/File:Flag_of_Bosnia_and_Herzegovina.svg"
-      }
-    },
-    {
-      "id": "05-22-president-donald-trump",
-      "date": "05-22",
-      "dateLabel": "22 May",
-      "category": "world",
-      "categoryName": "World",
-      "year": 2017,
-      "title": "Donald Trump",
-      "body": "United States President Donald Trump visits the Church of the Holy Sepulchre in Jerusalem and becomes the first sitting U.S. president to visit the Western Wall.",
-      "source": {
-        "name": "Wikipedia · Donald Trump",
-        "url": "https://en.wikipedia.org/wiki/Donald_Trump",
-        "calendarUrl": "https://en.wikipedia.org/wiki/May_22",
-        "license": {
-          "name": "CC BY-SA 4.0",
-          "url": "https://creativecommons.org/licenses/by-sa/4.0/"
-        }
-      },
-      "image": {
-        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/16/Official_Presidential_Portrait_of_President_Donald_J._Trump_%282025%29.jpg/500px-Official_Presidential_Portrait_of_President_Donald_J._Trump_%282025%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-        "alt": "Picture from the Wikipedia article on Donald Trump.",
-        "credit": "Daniel Torok",
-        "source": "https://commons.wikimedia.org/wiki/File:Official_Presidential_Portrait_of_President_Donald_J._Trump_(2025).jpg",
-        "license": "Public domain",
-        "licenseUrl": "https://commons.wikimedia.org/wiki/File:Official_Presidential_Portrait_of_President_Donald_J._Trump_(2025).jpg"
       }
     }
   ]

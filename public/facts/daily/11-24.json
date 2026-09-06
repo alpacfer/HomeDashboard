@@ -3,6 +3,60 @@
   "dateLabel": "24 November",
   "facts": [
     {
+      "id": "11-24-virtua-cop",
+      "date": "11-24",
+      "dateLabel": "24 November",
+      "category": "culture",
+      "categoryName": "Culture",
+      "year": 1995,
+      "title": "Virtua Cop",
+      "body": "Virtua Cop is a 1994 light gun shooter video game developed and published by Sega for arcades. It was developed for the Sega Model 2 system, and was ported to the Sega Saturn in 1995 and Windows as Virtua Squad in 1996.",
+      "source": {
+        "name": "Wikipedia · Virtua Cop",
+        "url": "https://en.wikipedia.org/wiki/Virtua_Cop",
+        "calendarUrl": "https://en.wikipedia.org/wiki/November_24",
+        "license": {
+          "name": "CC BY-SA 4.0",
+          "url": "https://creativecommons.org/licenses/by-sa/4.0/"
+        }
+      },
+      "image": {
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d7/Virtuacop.JPG/500px-Virtuacop.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "alt": "Virtua Cop — the video game this anniversary is about.",
+        "credit": "Medalizm",
+        "source": "https://commons.wikimedia.org/wiki/File:Virtuacop.JPG",
+        "license": "CC BY 3.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by/3.0"
+      }
+    },
+    {
+      "id": "11-24-super-smash-bros-melee",
+      "date": "11-24",
+      "dateLabel": "24 November",
+      "category": "culture",
+      "categoryName": "Culture",
+      "year": 2001,
+      "title": "Super Smash Bros. Melee",
+      "body": "Super Smash Bros. Melee is a 2001 crossover fighting game developed by HAL Laboratory and published by Nintendo for the GameCube.",
+      "source": {
+        "name": "Wikipedia · Super Smash Bros. Melee",
+        "url": "https://en.wikipedia.org/wiki/Super_Smash_Bros._Melee",
+        "calendarUrl": "https://en.wikipedia.org/wiki/November_24",
+        "license": {
+          "name": "CC BY-SA 4.0",
+          "url": "https://creativecommons.org/licenses/by-sa/4.0/"
+        }
+      },
+      "image": {
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d8/Super_Smash_Bros._Melee_in_a_Gamecube.jpg/500px-Super_Smash_Bros._Melee_in_a_Gamecube.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "alt": "Super Smash Bros. Melee — the video game this anniversary is about.",
+        "credit": "Maxime Lorant",
+        "source": "https://commons.wikimedia.org/wiki/File:Super_Smash_Bros._Melee_in_a_Gamecube.jpg",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0"
+      }
+    },
+    {
       "id": "11-24-hibiscus-rising",
       "date": "11-24",
       "dateLabel": "24 November",
@@ -27,33 +81,6 @@
         "source": "https://commons.wikimedia.org/wiki/File:Hibiscus_Rising_sculpture_by_Yinka_Shonibare._LEEDS_2023.jpg",
         "license": "CC BY-SA 2.0",
         "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0"
-      }
-    },
-    {
-      "id": "11-24-donald-johanson",
-      "date": "11-24",
-      "dateLabel": "24 November",
-      "category": "culture",
-      "categoryName": "Culture",
-      "year": 1974,
-      "title": "Donald Johanson",
-      "body": "Donald Johanson and Tom Gray discover the 40% complete Australopithecus afarensis skeleton, nicknamed \"Lucy\" (after The Beatles song \"Lucy in the Sky with Diamonds\"), in the Awash Valley of Ethiopia's Afar Depression.",
-      "source": {
-        "name": "Wikipedia · Donald Johanson",
-        "url": "https://en.wikipedia.org/wiki/Donald_Johanson",
-        "calendarUrl": "https://en.wikipedia.org/wiki/November_24",
-        "license": {
-          "name": "CC BY-SA 4.0",
-          "url": "https://creativecommons.org/licenses/by-sa/4.0/"
-        }
-      },
-      "image": {
-        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/30/Donald_Johanson_%281%29.jpg/500px-Donald_Johanson_%281%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-        "alt": "Picture from the Wikipedia article on Donald Johanson.",
-        "credit": "Wikimedia Commons",
-        "source": "https://commons.wikimedia.org/wiki/File:Donald_Johanson_(1).jpg",
-        "license": "CC BY-SA 3.0",
-        "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0/"
       }
     },
     {
@@ -108,33 +135,6 @@
         "source": "https://commons.wikimedia.org/wiki/File:Surveyor_3-Apollo_12.jpg",
         "license": "Public domain",
         "licenseUrl": "https://commons.wikimedia.org/wiki/File:Surveyor_3-Apollo_12.jpg"
-      }
-    },
-    {
-      "id": "11-24-that-was-the-week-that-was",
-      "date": "11-24",
-      "dateLabel": "24 November",
-      "category": "culture",
-      "categoryName": "Culture",
-      "year": 1962,
-      "title": "That Was the Week That Was",
-      "body": "The influential British satirical television programme That Was the Week That Was is first broadcast.",
-      "source": {
-        "name": "Wikipedia · That Was the Week That Was",
-        "url": "https://en.wikipedia.org/wiki/That_Was_the_Week_That_Was",
-        "calendarUrl": "https://en.wikipedia.org/wiki/November_24",
-        "license": {
-          "name": "CC BY-SA 4.0",
-          "url": "https://creativecommons.org/licenses/by-sa/4.0/"
-        }
-      },
-      "image": {
-        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/70/That_Was_the_Week_That_Was_opening_title.jpg/500px-That_Was_the_Week_That_Was_opening_title.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-        "alt": "Picture from the Wikipedia article on That Was the Week That Was.",
-        "credit": "BBC One",
-        "source": "https://commons.wikimedia.org/wiki/File:That_Was_the_Week_That_Was_opening_title.jpg",
-        "license": "Public domain",
-        "licenseUrl": "https://commons.wikimedia.org/wiki/File:That_Was_the_Week_That_Was_opening_title.jpg"
       }
     }
   ]

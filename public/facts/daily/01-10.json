@@ -3,6 +3,60 @@
   "dateLabel": "10 January",
   "facts": [
     {
+      "id": "01-10-micropolis-video-game",
+      "date": "01-10",
+      "dateLabel": "10 January",
+      "category": "culture",
+      "categoryName": "Culture",
+      "year": 2008,
+      "title": "Micropolis",
+      "body": "SimCity (also known as the retronyms Micropolis or SimCity Classic) is a city-building simulation video game developed by Will Wright, and released for several platforms from 1989 to 1991. SimCity features two-dimensional graphics and an overhead perspective.",
+      "source": {
+        "name": "Wikipedia · SimCity (1989 video game)",
+        "url": "https://en.wikipedia.org/wiki/SimCity_(1989_video_game)",
+        "calendarUrl": "https://en.wikipedia.org/wiki/January_10",
+        "license": {
+          "name": "CC BY-SA 4.0",
+          "url": "https://creativecommons.org/licenses/by-sa/4.0/"
+        }
+      },
+      "image": {
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c8/Micropolis_-_empty_map.png/500px-Micropolis_-_empty_map.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "alt": "Micropolis — the video game this anniversary is about.",
+        "credit": "Will Wright, Maxis Software",
+        "source": "https://commons.wikimedia.org/wiki/File:Micropolis_-_empty_map.png",
+        "license": "GPLv3",
+        "licenseUrl": "https://www.gnu.org/licenses/gpl-3.0.html"
+      }
+    },
+    {
+      "id": "01-10-deepseek-chatbot",
+      "date": "01-10",
+      "dateLabel": "10 January",
+      "category": "tech",
+      "categoryName": "Tech",
+      "year": 2025,
+      "title": "DeepSeek",
+      "body": "DeepSeek is a generative artificial intelligence chatbot developed by the Chinese company DeepSeek. Released on 20 January 2025, DeepSeek-R1 surpassed ChatGPT as the most downloaded freeware app on the iOS App Store in the United States by 27 January.",
+      "source": {
+        "name": "Wikipedia · DeepSeek (chatbot)",
+        "url": "https://en.wikipedia.org/wiki/DeepSeek_(chatbot)",
+        "calendarUrl": "https://en.wikipedia.org/wiki/January_10",
+        "license": {
+          "name": "CC BY-SA 4.0",
+          "url": "https://creativecommons.org/licenses/by-sa/4.0/"
+        }
+      },
+      "image": {
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/18/DeepSeek_response_to_questions_about_Xi_Jinping.jpg/500px-DeepSeek_response_to_questions_about_Xi_Jinping.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "alt": "DeepSeek — the mobile app this anniversary is about.",
+        "credit": "DeepSeek",
+        "source": "https://commons.wikimedia.org/wiki/File:DeepSeek_response_to_questions_about_Xi_Jinping.jpg",
+        "license": "Public domain",
+        "licenseUrl": "https://commons.wikimedia.org/wiki/File:DeepSeek_response_to_questions_about_Xi_Jinping.jpg"
+      }
+    },
+    {
       "id": "01-10-blowout-well-drilling",
       "date": "01-10",
       "dateLabel": "10 January",
@@ -27,33 +81,6 @@
         "source": "https://commons.wikimedia.org/wiki/File:Lucas_gusher.jpg",
         "license": "Public domain",
         "licenseUrl": "https://commons.wikimedia.org/wiki/File:Lucas_gusher.jpg"
-      }
-    },
-    {
-      "id": "01-10-fritz-lang",
-      "date": "01-10",
-      "dateLabel": "10 January",
-      "category": "culture",
-      "categoryName": "Culture",
-      "year": 1927,
-      "title": "Fritz Lang",
-      "body": "Fritz Lang's futuristic film Metropolis is released in Germany.",
-      "source": {
-        "name": "Wikipedia · Fritz Lang",
-        "url": "https://en.wikipedia.org/wiki/Fritz_Lang",
-        "calendarUrl": "https://en.wikipedia.org/wiki/January_10",
-        "license": {
-          "name": "CC BY-SA 4.0",
-          "url": "https://creativecommons.org/licenses/by-sa/4.0/"
-        }
-      },
-      "image": {
-        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/20/Fritz_Lang_%281969%29.jpg/500px-Fritz_Lang_%281969%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-        "alt": "Picture from the Wikipedia article on Fritz Lang.",
-        "credit": "Joost Evers / Anefo",
-        "source": "https://commons.wikimedia.org/wiki/File:Fritz_Lang_(1969).jpg",
-        "license": "CC BY-SA 3.0",
-        "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0"
       }
     },
     {
@@ -108,33 +135,6 @@
         "source": "https://commons.wikimedia.org/wiki/File:First_Boat_Built_on_the_Western_Waters,_1812.jpg",
         "license": "Public domain",
         "licenseUrl": "https://commons.wikimedia.org/wiki/File:First_Boat_Built_on_the_Western_Waters,_1812.jpg"
-      }
-    },
-    {
-      "id": "01-10-sandinista-national-liberation-front",
-      "date": "01-10",
-      "dateLabel": "10 January",
-      "category": "world",
-      "categoryName": "World",
-      "year": 1985,
-      "title": "Sandinista National Liberation Front",
-      "body": "Sandinista Daniel Ortega becomes president of Nicaragua and vows to continue the transformation to socialism and alliance with the Soviet Union and Cuba.",
-      "source": {
-        "name": "Wikipedia · Sandinista National Liberation Front",
-        "url": "https://en.wikipedia.org/wiki/Sandinista_National_Liberation_Front",
-        "calendarUrl": "https://en.wikipedia.org/wiki/January_10",
-        "license": {
-          "name": "CC BY-SA 4.0",
-          "url": "https://creativecommons.org/licenses/by-sa/4.0/"
-        }
-      },
-      "image": {
-        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/ec/Flag_of_the_FSLN.svg/500px-Flag_of_the_FSLN.svg.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-        "alt": "Picture from the Wikipedia article on Sandinista National Liberation Front.",
-        "credit": "User:Inti; User:Stannered",
-        "source": "https://commons.wikimedia.org/wiki/File:Flag_of_the_FSLN.svg",
-        "license": "Public domain",
-        "licenseUrl": "https://commons.wikimedia.org/wiki/File:Flag_of_the_FSLN.svg"
       }
     }
   ]

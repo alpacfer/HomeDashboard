@@ -30,6 +30,33 @@
       }
     },
     {
+      "id": "12-09-chaos-reborn",
+      "date": "12-09",
+      "dateLabel": "9 December",
+      "category": "culture",
+      "categoryName": "Culture",
+      "year": 2014,
+      "title": "Chaos Reborn",
+      "body": "Chaos Reborn is a turn-based tactical role-playing game developed by Snapshot Games and was part funded through a Kickstarter crowdfunding campaign. Following an early access release in December 2014, the full game was released in October 2015.",
+      "source": {
+        "name": "Wikipedia · Chaos Reborn",
+        "url": "https://en.wikipedia.org/wiki/Chaos_Reborn",
+        "calendarUrl": "https://en.wikipedia.org/wiki/December_9",
+        "license": {
+          "name": "CC BY-SA 4.0",
+          "url": "https://creativecommons.org/licenses/by-sa/4.0/"
+        }
+      },
+      "image": {
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/1d/Chaos_Reborn_-_Screenshot_-_Law_Close-up.jpg/500px-Chaos_Reborn_-_Screenshot_-_Law_Close-up.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "alt": "Chaos Reborn — the video game this anniversary is about.",
+        "credit": "Chaos Reborn by Snapshot Games",
+        "source": "https://commons.wikimedia.org/wiki/File:Chaos_Reborn_-_Screenshot_-_Law_Close-up.jpg",
+        "license": "CC BY-SA 3.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0"
+      }
+    },
+    {
       "id": "12-09-december-9th-movement",
       "date": "12-09",
       "dateLabel": "9 December",
@@ -108,33 +135,6 @@
         "source": "https://commons.wikimedia.org/wiki/File:Child_with_Smallpox_Bangladesh.jpg",
         "license": "Public domain",
         "licenseUrl": "https://commons.wikimedia.org/wiki/File:Child_with_Smallpox_Bangladesh.jpg"
-      }
-    },
-    {
-      "id": "12-09-general-electric",
-      "date": "12-09",
-      "dateLabel": "9 December",
-      "category": "world",
-      "categoryName": "World",
-      "year": 1953,
-      "title": "General Electric",
-      "body": "General Electric announces that all communist employees will be discharged from the company.",
-      "source": {
-        "name": "Wikipedia · General Electric",
-        "url": "https://en.wikipedia.org/wiki/General_Electric",
-        "calendarUrl": "https://en.wikipedia.org/wiki/December_9",
-        "license": {
-          "name": "CC BY-SA 4.0",
-          "url": "https://creativecommons.org/licenses/by-sa/4.0/"
-        }
-      },
-      "image": {
-        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/ff/General_Electric_logo.svg/500px-General_Electric_logo.svg.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-        "alt": "Picture from the Wikipedia article on General Electric.",
-        "credit": "General Electric Company",
-        "source": "https://commons.wikimedia.org/wiki/File:General_Electric_logo.svg",
-        "license": "Public domain",
-        "licenseUrl": "https://commons.wikimedia.org/wiki/File:General_Electric_logo.svg"
       }
     }
   ]

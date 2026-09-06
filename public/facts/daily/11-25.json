@@ -3,6 +3,60 @@
   "dateLabel": "25 November",
   "facts": [
     {
+      "id": "11-25-king-arthur-the-role-playing-wargame",
+      "date": "11-25",
+      "dateLabel": "25 November",
+      "category": "culture",
+      "categoryName": "Culture",
+      "year": 2009,
+      "title": "King Arthur: The Role-Playing Wargame",
+      "body": "The Role-Playing Wargame is a real-time tactics and role-playing video game developed by NeocoreGames and published by Paradox Interactive in North America, Ubisoft in Europe, and E-Frontier in Japan.",
+      "source": {
+        "name": "Wikipedia · King Arthur: The Role-Playing Wargame",
+        "url": "https://en.wikipedia.org/wiki/King_Arthur:_The_Role-Playing_Wargame",
+        "calendarUrl": "https://en.wikipedia.org/wiki/November_25",
+        "license": {
+          "name": "CC BY-SA 4.0",
+          "url": "https://creativecommons.org/licenses/by-sa/4.0/"
+        }
+      },
+      "image": {
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/fc/King_Arthur_The_Role-playing_Wargame_cover_art.jpg/500px-King_Arthur_The_Role-playing_Wargame_cover_art.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "alt": "King Arthur: The Role-Playing Wargame — the video game this anniversary is about.",
+        "credit": "NeocoreGames",
+        "source": "https://commons.wikimedia.org/wiki/File:King_Arthur_The_Role-playing_Wargame_cover_art.jpg",
+        "license": "CC BY-SA 3.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0"
+      }
+    },
+    {
+      "id": "11-25-bitrig",
+      "date": "11-25",
+      "dateLabel": "25 November",
+      "category": "tech",
+      "categoryName": "Tech",
+      "year": 2014,
+      "title": "Bitrig",
+      "body": "Bitrig was an OpenBSD-based operating system targeted exclusively at the amd64 and armv7 platforms. It is no longer being developed, and some of the work that it had done was merged back into OpenBSD.",
+      "source": {
+        "name": "Wikipedia · Bitrig",
+        "url": "https://en.wikipedia.org/wiki/Bitrig",
+        "calendarUrl": "https://en.wikipedia.org/wiki/November_25",
+        "license": {
+          "name": "CC BY-SA 4.0",
+          "url": "https://creativecommons.org/licenses/by-sa/4.0/"
+        }
+      },
+      "image": {
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/3c/Bitrig-1.0-fvwm-screenshot.png/500px-Bitrig-1.0-fvwm-screenshot.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "alt": "Bitrig — the operating system this anniversary is about.",
+        "credit": "John C. Vernaleo",
+        "source": "https://commons.wikimedia.org/wiki/File:Bitrig-1.0-fvwm-screenshot.png",
+        "license": "GPL",
+        "licenseUrl": "https://www.gnu.org/licenses/gpl.html"
+      }
+    },
+    {
       "id": "11-25-agatha-christie",
       "date": "11-25",
       "dateLabel": "25 November",
@@ -81,60 +135,6 @@
         "source": "https://commons.wikimedia.org/wiki/File:Elian_Gonzalez_and_father_reunion.jpg",
         "license": "Public domain",
         "licenseUrl": "https://commons.wikimedia.org/wiki/File:Elian_Gonzalez_and_father_reunion.jpg"
-      }
-    },
-    {
-      "id": "11-25-edwin-meese",
-      "date": "11-25",
-      "dateLabel": "25 November",
-      "category": "world",
-      "categoryName": "World",
-      "year": 1986,
-      "title": "Edwin Meese",
-      "body": "U.S. Attorney General Edwin Meese announces that profits from covert weapons sales to Iran were illegally diverted to the anti-communist Contra rebels in Nicaragua.",
-      "source": {
-        "name": "Wikipedia · Edwin Meese",
-        "url": "https://en.wikipedia.org/wiki/Edwin_Meese",
-        "calendarUrl": "https://en.wikipedia.org/wiki/November_25",
-        "license": {
-          "name": "CC BY-SA 4.0",
-          "url": "https://creativecommons.org/licenses/by-sa/4.0/"
-        }
-      },
-      "image": {
-        "src": "https://upload.wikimedia.org/wikipedia/commons/6/63/Edwin_Meese_III_Attorney_General_portrait_%28cropped1%29_%28b%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
-        "alt": "Picture from the Wikipedia article on Edwin Meese.",
-        "credit": "US Government",
-        "source": "https://commons.wikimedia.org/wiki/File:Edwin_Meese_III_Attorney_General_portrait_(cropped1)_(b).jpg",
-        "license": "Public domain",
-        "licenseUrl": "https://commons.wikimedia.org/wiki/File:Edwin_Meese_III_Attorney_General_portrait_(cropped1)_(b).jpg"
-      }
-    },
-    {
-      "id": "11-25-suriname",
-      "date": "11-25",
-      "dateLabel": "25 November",
-      "category": "world",
-      "categoryName": "World",
-      "year": 1975,
-      "title": "Suriname",
-      "body": "Suriname gains independence from the Netherlands.",
-      "source": {
-        "name": "Wikipedia · Suriname",
-        "url": "https://en.wikipedia.org/wiki/Suriname",
-        "calendarUrl": "https://en.wikipedia.org/wiki/November_25",
-        "license": {
-          "name": "CC BY-SA 4.0",
-          "url": "https://creativecommons.org/licenses/by-sa/4.0/"
-        }
-      },
-      "image": {
-        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/60/Flag_of_Suriname.svg/500px-Flag_of_Suriname.svg.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-        "alt": "Picture from the Wikipedia article on Suriname.",
-        "credit": "See File history below for details",
-        "source": "https://commons.wikimedia.org/wiki/File:Flag_of_Suriname.svg",
-        "license": "Public domain",
-        "licenseUrl": "https://commons.wikimedia.org/wiki/File:Flag_of_Suriname.svg"
       }
     }
   ]

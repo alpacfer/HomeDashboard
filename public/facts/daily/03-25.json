@@ -3,6 +3,60 @@
   "dateLabel": "25 March",
   "facts": [
     {
+      "id": "03-25-moria-1983-video-game",
+      "date": "03-25",
+      "dateLabel": "25 March",
+      "category": "culture",
+      "categoryName": "Culture",
+      "year": 1983,
+      "title": "Moria",
+      "body": "The Dungeons of Moria, usually referred to as simply Moria, is a 1983 computer game, originally developed by Robert Alan Koeneke. Inspired by J. R. R.",
+      "source": {
+        "name": "Wikipedia · Moria (1983 video game)",
+        "url": "https://en.wikipedia.org/wiki/Moria_(1983_video_game)",
+        "calendarUrl": "https://en.wikipedia.org/wiki/March_25",
+        "license": {
+          "name": "CC BY-SA 4.0",
+          "url": "https://creativecommons.org/licenses/by-sa/4.0/"
+        }
+      },
+      "image": {
+        "src": "https://upload.wikimedia.org/wikipedia/commons/e/ed/Moria-like-game.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+        "alt": "Moria — the video game this anniversary is about.",
+        "credit": "None",
+        "source": "https://commons.wikimedia.org/wiki/File:Moria-like-game.png",
+        "license": "Public domain",
+        "licenseUrl": "https://commons.wikimedia.org/wiki/File:Moria-like-game.png"
+      }
+    },
+    {
+      "id": "03-25-drl-video-game",
+      "date": "03-25",
+      "dateLabel": "25 March",
+      "category": "culture",
+      "categoryName": "Culture",
+      "year": 2013,
+      "title": "DoomRL",
+      "body": "DRL (formerly DoomRL), short for Doom, the Roguelike, is a roguelike video game developed by ChaosForge based on the first-person shooters Doom and Doom II. It has been in development since 2002, and was released for Microsoft Windows, Linux and OS X in 2002.",
+      "source": {
+        "name": "Wikipedia · DRL (video game)",
+        "url": "https://en.wikipedia.org/wiki/DRL_(video_game)",
+        "calendarUrl": "https://en.wikipedia.org/wiki/March_25",
+        "license": {
+          "name": "CC BY-SA 4.0",
+          "url": "https://creativecommons.org/licenses/by-sa/4.0/"
+        }
+      },
+      "image": {
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/be/Doomrl-screenshot.png/500px-Doomrl-screenshot.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "alt": "DoomRL — the video game this anniversary is about.",
+        "credit": "Wikimedia Commons",
+        "source": "https://commons.wikimedia.org/wiki/File:Doomrl-screenshot.png",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0"
+      }
+    },
+    {
       "id": "03-25-space-shuttle-columbia",
       "date": "03-25",
       "dateLabel": "25 March",
@@ -81,60 +135,6 @@
         "source": "https://commons.wikimedia.org/wiki/File:NASA_Worldwind,_USGS_imagery_map,_Chain_Island,_California.png",
         "license": "Public domain",
         "licenseUrl": "https://commons.wikimedia.org/wiki/File:NASA_Worldwind,_USGS_imagery_map,_Chain_Island,_California.png"
-      }
-    },
-    {
-      "id": "03-25-civil-rights-movement",
-      "date": "03-25",
-      "dateLabel": "25 March",
-      "category": "world",
-      "categoryName": "World",
-      "year": 1965,
-      "title": "Civil rights movement",
-      "body": "Civil rights activists led by Martin Luther King Jr. successfully complete their four-day march from Selma to the capitol in Montgomery, Alabama.",
-      "source": {
-        "name": "Wikipedia · Civil rights movement",
-        "url": "https://en.wikipedia.org/wiki/Civil_rights_movement",
-        "calendarUrl": "https://en.wikipedia.org/wiki/March_25",
-        "license": {
-          "name": "CC BY-SA 4.0",
-          "url": "https://creativecommons.org/licenses/by-sa/4.0/"
-        }
-      },
-      "image": {
-        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/4c/Civil_Rights_March_on_Washington%2C_D.C._%28Leaders_marching_from_the_Washington_Monument_to_the_Lincoln_Memorial%29_-_NARA_-_542010.jpg/500px-Civil_Rights_March_on_Washington%2C_D.C._%28Leaders_marching_from_the_Washington_Monument_to_the_Lincoln_Memorial%29_-_NARA_-_542010.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-        "alt": "Picture from the Wikipedia article on Civil rights movement.",
-        "credit": "Rowland Scherman",
-        "source": "https://commons.wikimedia.org/wiki/File:Civil_Rights_March_on_Washington,_D.C._(Leaders_marching_from_the_Washington_Monument_to_the_Lincoln_Memorial)_-_NARA_-_542010.jpg",
-        "license": "Public domain",
-        "licenseUrl": "https://commons.wikimedia.org/wiki/File:Civil_Rights_March_on_Washington,_D.C._(Leaders_marching_from_the_Washington_Monument_to_the_Lincoln_Memorial)_-_NARA_-_542010.jpg"
-      }
-    },
-    {
-      "id": "03-25-united-states-customs",
-      "date": "03-25",
-      "dateLabel": "25 March",
-      "category": "world",
-      "categoryName": "World",
-      "year": 1957,
-      "title": "United States Customs and Border Protection",
-      "body": "United States Customs seizes copies of Allen Ginsberg's poem \"Howl\" on obscenity grounds.",
-      "source": {
-        "name": "Wikipedia · United States Customs and Border Protection",
-        "url": "https://en.wikipedia.org/wiki/United_States_Customs_and_Border_Protection",
-        "calendarUrl": "https://en.wikipedia.org/wiki/March_25",
-        "license": {
-          "name": "CC BY-SA 4.0",
-          "url": "https://creativecommons.org/licenses/by-sa/4.0/"
-        }
-      },
-      "image": {
-        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b3/Patch_of_the_U.S._Customs_and_Border_Protection.svg/500px-Patch_of_the_U.S._Customs_and_Border_Protection.svg.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-        "alt": "Picture from the Wikipedia article on United States Customs and Border Protection.",
-        "credit": "U.S. Department of Homeland…",
-        "source": "https://commons.wikimedia.org/wiki/File:Patch_of_the_U.S._Customs_and_Border_Protection.svg",
-        "license": "Public domain",
-        "licenseUrl": "https://commons.wikimedia.org/wiki/File:Patch_of_the_U.S._Customs_and_Border_Protection.svg"
       }
     }
   ]

@@ -30,6 +30,33 @@
       }
     },
     {
+      "id": "08-01-onedrive",
+      "date": "08-01",
+      "dateLabel": "1 August",
+      "category": "tech",
+      "categoryName": "Tech",
+      "year": 2007,
+      "title": "Microsoft OneDrive",
+      "body": "Microsoft OneDrive is a file-hosting service operated by Microsoft. First released as SkyDrive in August 2007, it allows registered users to store, share, back-up and synchronize their files.",
+      "source": {
+        "name": "Wikipedia · OneDrive",
+        "url": "https://en.wikipedia.org/wiki/OneDrive",
+        "calendarUrl": "https://en.wikipedia.org/wiki/August_1",
+        "license": {
+          "name": "CC BY-SA 4.0",
+          "url": "https://creativecommons.org/licenses/by-sa/4.0/"
+        }
+      },
+      "image": {
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/94/Screenshot_webov%C3%A9_verze_slu%C5%BEby_OneDrive_v_%C4%8De%C5%A1tin%C4%9B.png/500px-Screenshot_webov%C3%A9_verze_slu%C5%BEby_OneDrive_v_%C4%8De%C5%A1tin%C4%9B.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "alt": "Microsoft OneDrive — the mobile app this anniversary is about.",
+        "credit": "AndromaticCZ",
+        "source": "https://commons.wikimedia.org/wiki/File:Screenshot_webov%C3%A9_verze_slu%C5%BEby_OneDrive_v_%C4%8De%C5%A1tin%C4%9B.png",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0"
+      }
+    },
+    {
       "id": "08-01-niki-lauda",
       "date": "08-01",
       "dateLabel": "1 August",
@@ -108,33 +135,6 @@
         "source": "https://commons.wikimedia.org/wiki/File:Frank_Herbert_1984_(square).jpg",
         "license": "Public domain",
         "licenseUrl": "https://commons.wikimedia.org/wiki/File:Frank_Herbert_1984_(square).jpg"
-      }
-    },
-    {
-      "id": "08-01-the-concert-for-bangladesh",
-      "date": "08-01",
-      "dateLabel": "1 August",
-      "category": "culture",
-      "categoryName": "Culture",
-      "year": 1971,
-      "title": "The Concert for Bangladesh",
-      "body": "The Concert for Bangladesh, organized by former Beatle George Harrison, is held at Madison Square Garden in New York City.",
-      "source": {
-        "name": "Wikipedia · The Concert for Bangladesh",
-        "url": "https://en.wikipedia.org/wiki/The_Concert_for_Bangladesh",
-        "calendarUrl": "https://en.wikipedia.org/wiki/August_1",
-        "license": {
-          "name": "CC BY-SA 4.0",
-          "url": "https://creativecommons.org/licenses/by-sa/4.0/"
-        }
-      },
-      "image": {
-        "src": "https://upload.wikimedia.org/wikipedia/commons/e/e9/MSG_box-office_sign_for_Concert_for_Bangladesh.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
-        "alt": "Picture from the Wikipedia article on The Concert for Bangladesh.",
-        "credit": "In both Concert",
-        "source": "https://commons.wikimedia.org/wiki/File:MSG_box-office_sign_for_Concert_for_Bangladesh.jpg",
-        "license": "Public domain",
-        "licenseUrl": "https://commons.wikimedia.org/wiki/File:MSG_box-office_sign_for_Concert_for_Bangladesh.jpg"
       }
     }
   ]

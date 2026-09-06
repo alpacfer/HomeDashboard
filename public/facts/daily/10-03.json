@@ -3,6 +3,33 @@
   "dateLabel": "3 October",
   "facts": [
     {
+      "id": "10-03-secret-of-mana",
+      "date": "10-03",
+      "dateLabel": "3 October",
+      "category": "culture",
+      "categoryName": "Culture",
+      "year": 1993,
+      "title": "Secret of Mana",
+      "body": "Secret of Mana, originally released in Japan as Seiken Densetsu 2, is a 1993 action role-playing game developed and published by Square for the Super Nintendo Entertainment System.",
+      "source": {
+        "name": "Wikipedia · Secret of Mana",
+        "url": "https://en.wikipedia.org/wiki/Secret_of_Mana",
+        "calendarUrl": "https://en.wikipedia.org/wiki/October_3",
+        "license": {
+          "name": "CC BY-SA 4.0",
+          "url": "https://creativecommons.org/licenses/by-sa/4.0/"
+        }
+      },
+      "image": {
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/1c/Seiken_Densetsu_2_cart.jpg/500px-Seiken_Densetsu_2_cart.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "alt": "Secret of Mana — the video game this anniversary is about.",
+        "credit": "Bryan Ochalla",
+        "source": "https://commons.wikimedia.org/wiki/File:Seiken_Densetsu_2_cart.jpg",
+        "license": "Public domain",
+        "licenseUrl": "https://commons.wikimedia.org/wiki/File:Seiken_Densetsu_2_cart.jpg"
+      }
+    },
+    {
       "id": "10-03-svante-p-bo",
       "date": "10-03",
       "dateLabel": "3 October",
@@ -108,33 +135,6 @@
         "source": "https://commons.wikimedia.org/wiki/File:Flag_of_the_German_Democratic_Republic.svg",
         "license": "Public domain",
         "licenseUrl": "https://commons.wikimedia.org/wiki/File:Flag_of_the_German_Democratic_Republic.svg"
-      }
-    },
-    {
-      "id": "10-03-nadine-gordimer",
-      "date": "10-03",
-      "dateLabel": "3 October",
-      "category": "science",
-      "categoryName": "Science",
-      "year": 1991,
-      "title": "Nadine Gordimer",
-      "body": "Nadine Gordimer is announced as the winner of the Nobel Prize in Literature.",
-      "source": {
-        "name": "Wikipedia · Nadine Gordimer",
-        "url": "https://en.wikipedia.org/wiki/Nadine_Gordimer",
-        "calendarUrl": "https://en.wikipedia.org/wiki/October_3",
-        "license": {
-          "name": "CC BY-SA 4.0",
-          "url": "https://creativecommons.org/licenses/by-sa/4.0/"
-        }
-      },
-      "image": {
-        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/37/Nadine_Gordimer_01.JPG/500px-Nadine_Gordimer_01.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-        "alt": "Picture from the Wikipedia article on Nadine Gordimer.",
-        "credit": "Bengt Oberger",
-        "source": "https://commons.wikimedia.org/wiki/File:Nadine_Gordimer_01.JPG",
-        "license": "CC BY 3.0",
-        "licenseUrl": "https://creativecommons.org/licenses/by/3.0"
       }
     }
   ]

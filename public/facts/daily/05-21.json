@@ -3,6 +3,33 @@
   "dateLabel": "21 May",
   "facts": [
     {
+      "id": "05-21-windows-server-2019",
+      "date": "05-21",
+      "dateLabel": "21 May",
+      "category": "tech",
+      "categoryName": "Tech",
+      "year": 2019,
+      "title": "Q50911826",
+      "body": "Windows Server 2019 is the twelfth major version of the Windows NT operating system produced by Microsoft to be released under the Windows Server brand name.",
+      "source": {
+        "name": "Wikipedia · Windows Server 2019",
+        "url": "https://en.wikipedia.org/wiki/Windows_Server_2019",
+        "calendarUrl": "https://en.wikipedia.org/wiki/May_21",
+        "license": {
+          "name": "CC BY-SA 4.0",
+          "url": "https://creativecommons.org/licenses/by-sa/4.0/"
+        }
+      },
+      "image": {
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f5/Windows_Server_2019_start_menu.png/500px-Windows_Server_2019_start_menu.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "alt": "Q50911826 — the operating system this anniversary is about.",
+        "credit": "Microsoft",
+        "source": "https://commons.wikimedia.org/wiki/File:Windows_Server_2019_start_menu.png",
+        "license": "Public domain",
+        "licenseUrl": "https://commons.wikimedia.org/wiki/File:Windows_Server_2019_start_menu.png"
+      }
+    },
+    {
       "id": "05-21-japan-aerospace-exploration-agency",
       "date": "05-21",
       "dateLabel": "21 May",
@@ -108,33 +135,6 @@
         "source": "https://commons.wikimedia.org/wiki/File:Stamp_of_USSR_1851.jpg",
         "license": "Public domain",
         "licenseUrl": "https://commons.wikimedia.org/wiki/File:Stamp_of_USSR_1851.jpg"
-      }
-    },
-    {
-      "id": "05-21-johnny-carson",
-      "date": "05-21",
-      "dateLabel": "21 May",
-      "category": "world",
-      "categoryName": "World",
-      "year": 1992,
-      "title": "Johnny Carson",
-      "body": "After 30 seasons Johnny Carson hosts his penultimate episode and last featuring guests (Robin Williams and Bette Midler) of The Tonight Show.",
-      "source": {
-        "name": "Wikipedia · Johnny Carson",
-        "url": "https://en.wikipedia.org/wiki/Johnny_Carson",
-        "calendarUrl": "https://en.wikipedia.org/wiki/May_21",
-        "license": {
-          "name": "CC BY-SA 4.0",
-          "url": "https://creativecommons.org/licenses/by-sa/4.0/"
-        }
-      },
-      "image": {
-        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/73/Johnny_Carson_Tonight_Show_1965.JPG/500px-Johnny_Carson_Tonight_Show_1965.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-        "alt": "Picture from the Wikipedia article on Johnny Carson.",
-        "credit": "NBC Television",
-        "source": "https://commons.wikimedia.org/wiki/File:Johnny_Carson_Tonight_Show_1965.JPG",
-        "license": "Public domain",
-        "licenseUrl": "https://commons.wikimedia.org/wiki/File:Johnny_Carson_Tonight_Show_1965.JPG"
       }
     }
   ]

@@ -3,6 +3,33 @@
   "dateLabel": "23 September",
   "facts": [
     {
+      "id": "09-23-yandex",
+      "date": "09-23",
+      "dateLabel": "23 September",
+      "category": "tech",
+      "categoryName": "Tech",
+      "year": 1997,
+      "title": "Yandex",
+      "body": "Yandex LLC (Russian: Яндекс, romanized: Yandeks, IPA: [ˈjandəks] ) is a Russian technology company that provides Internet-related products and services including a web browser, search engine, cloud computing, web mapping, online food ordering, streaming media, online shopping, and a ridesharing company.",
+      "source": {
+        "name": "Wikipedia · Yandex",
+        "url": "https://en.wikipedia.org/wiki/Yandex",
+        "calendarUrl": "https://en.wikipedia.org/wiki/September_23",
+        "license": {
+          "name": "CC BY-SA 4.0",
+          "url": "https://creativecommons.org/licenses/by-sa/4.0/"
+        }
+      },
+      "image": {
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/ad/Yandex_main_office.jpg/500px-Yandex_main_office.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "alt": "Yandex — the search engine this anniversary is about.",
+        "credit": "WikiFido",
+        "source": "https://commons.wikimedia.org/wiki/File:Yandex_main_office.jpg",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0"
+      }
+    },
+    {
       "id": "09-23-george-vi",
       "date": "09-23",
       "dateLabel": "23 September",
@@ -108,33 +135,6 @@
         "source": "https://commons.wikimedia.org/wiki/File:Portrait_of_Philip_II_of_Spain_by_Sofonisba_Anguissola_-_002b.jpg",
         "license": "Public domain",
         "licenseUrl": "https://commons.wikimedia.org/wiki/File:Portrait_of_Philip_II_of_Spain_by_Sofonisba_Anguissola_-_002b.jpg"
-      }
-    },
-    {
-      "id": "09-23-election",
-      "date": "09-23",
-      "dateLabel": "23 September",
-      "category": "world",
-      "categoryName": "World",
-      "year": 2022,
-      "title": "Election",
-      "body": "Voting begins in the five-day sham annexation referendums in Russian-occupied Ukraine, leading to Russian annexation of Donetsk, Kherson, Luhansk and Zaporizhzhia oblasts.",
-      "source": {
-        "name": "Wikipedia · Election",
-        "url": "https://en.wikipedia.org/wiki/Election",
-        "calendarUrl": "https://en.wikipedia.org/wiki/September_23",
-        "license": {
-          "name": "CC BY-SA 4.0",
-          "url": "https://creativecommons.org/licenses/by-sa/4.0/"
-        }
-      },
-      "image": {
-        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/fc/Election_MG_3455.JPG/500px-Election_MG_3455.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-        "alt": "Picture from the Wikipedia article on Election.",
-        "credit": "Rama",
-        "source": "https://commons.wikimedia.org/wiki/File:Election_MG_3455.JPG",
-        "license": "CC BY-SA 2.0 fr",
-        "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0/fr/deed.en"
       }
     }
   ]

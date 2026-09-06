@@ -3,6 +3,33 @@
   "dateLabel": "13 October",
   "facts": [
     {
+      "id": "10-13-world-of-goo",
+      "date": "10-13",
+      "dateLabel": "13 October",
+      "category": "culture",
+      "categoryName": "Culture",
+      "year": 2008,
+      "title": "World of Goo",
+      "body": "World of Goo is a physics-based puzzle video game developed and published by independent game developer 2D Boy.",
+      "source": {
+        "name": "Wikipedia · World of Goo",
+        "url": "https://en.wikipedia.org/wiki/World_of_Goo",
+        "calendarUrl": "https://en.wikipedia.org/wiki/October_13",
+        "license": {
+          "name": "CC BY-SA 4.0",
+          "url": "https://creativecommons.org/licenses/by-sa/4.0/"
+        }
+      },
+      "image": {
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/95/World_of_Goo_Editor.png/500px-World_of_Goo_Editor.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "alt": "World of Goo — the video game this anniversary is about.",
+        "credit": "World of Goo Level Editor developers",
+        "source": "https://commons.wikimedia.org/wiki/File:World_of_Goo_Editor.png",
+        "license": "GPLv3",
+        "licenseUrl": "https://www.gnu.org/licenses/gpl-3.0.html"
+      }
+    },
+    {
       "id": "10-13-electron-micrograph",
       "date": "10-13",
       "dateLabel": "13 October",
@@ -108,33 +135,6 @@
         "source": "https://commons.wikimedia.org/wiki/File:Mina_San_Jos%C3%A9_de_Copiap%C3%B3_en_2010.jpg",
         "license": "CC BY-SA 2.0",
         "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0"
-      }
-    },
-    {
-      "id": "10-13-maldives",
-      "date": "10-13",
-      "dateLabel": "13 October",
-      "category": "world",
-      "categoryName": "World",
-      "year": 2016,
-      "title": "Maldives",
-      "body": "The Maldives announces its decision to withdraw from the Commonwealth of Nations.",
-      "source": {
-        "name": "Wikipedia · Maldives",
-        "url": "https://en.wikipedia.org/wiki/Maldives",
-        "calendarUrl": "https://en.wikipedia.org/wiki/October_13",
-        "license": {
-          "name": "CC BY-SA 4.0",
-          "url": "https://creativecommons.org/licenses/by-sa/4.0/"
-        }
-      },
-      "image": {
-        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/0f/Flag_of_Maldives.svg/500px-Flag_of_Maldives.svg.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-        "alt": "Picture from the Wikipedia article on Maldives.",
-        "credit": "See File history, below, for details",
-        "source": "https://commons.wikimedia.org/wiki/File:Flag_of_Maldives.svg",
-        "license": "Public domain",
-        "licenseUrl": "https://commons.wikimedia.org/wiki/File:Flag_of_Maldives.svg"
       }
     }
   ]

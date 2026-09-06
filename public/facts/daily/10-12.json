@@ -3,6 +3,60 @@
   "dateLabel": "12 October",
   "facts": [
     {
+      "id": "10-12-tuzin-fm",
+      "date": "10-12",
+      "dateLabel": "12 October",
+      "category": "tech",
+      "categoryName": "Tech",
+      "year": 2003,
+      "title": "tuzin.fm",
+      "body": "fm (Belarusian: Тузін Гітоў; transl. A dozen hits) is a private non-profit Belarusian web-portal, which was created in 2003 to cover musical creativity in Belarus.",
+      "source": {
+        "name": "Wikipedia · Tuzin.fm",
+        "url": "https://en.wikipedia.org/wiki/Tuzin.fm",
+        "calendarUrl": "https://en.wikipedia.org/wiki/October_12",
+        "license": {
+          "name": "CC BY-SA 4.0",
+          "url": "https://creativecommons.org/licenses/by-sa/4.0/"
+        }
+      },
+      "image": {
+        "src": "https://upload.wikimedia.org/wikipedia/commons/e/ec/Tuzin_Gitou.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+        "alt": "tuzin.fm — the website this anniversary is about.",
+        "credit": "McDucker",
+        "source": "https://commons.wikimedia.org/wiki/File:Tuzin_Gitou.png",
+        "license": "CC BY 3.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by/3.0"
+      }
+    },
+    {
+      "id": "10-12-medal-of-honor-2010-video-game",
+      "date": "10-12",
+      "dateLabel": "12 October",
+      "category": "culture",
+      "categoryName": "Culture",
+      "year": 2010,
+      "title": "Medal of Honor",
+      "body": "Medal of Honor is a 2010 first-person shooter game developed by Danger Close Games and DICE and published by Electronic Arts. It is a reboot of the Medal of Honor video game series and the thirteenth installment in the series.",
+      "source": {
+        "name": "Wikipedia · Medal of Honor (2010 video game)",
+        "url": "https://en.wikipedia.org/wiki/Medal_of_Honor_(2010_video_game)",
+        "calendarUrl": "https://en.wikipedia.org/wiki/October_12",
+        "license": {
+          "name": "CC BY-SA 4.0",
+          "url": "https://creativecommons.org/licenses/by-sa/4.0/"
+        }
+      },
+      "image": {
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e8/View_from_DNF_line_%284955869149%29.jpg/500px-View_from_DNF_line_%284955869149%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "alt": "Medal of Honor — the video game this anniversary is about.",
+        "credit": "Russell Bernice from Seattle, USA",
+        "source": "https://commons.wikimedia.org/wiki/File:View_from_DNF_line_(4955869149).jpg",
+        "license": "CC BY 2.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by/2.0"
+      }
+    },
+    {
       "id": "10-12-voskhod-1",
       "date": "10-12",
       "dateLabel": "12 October",
@@ -81,60 +135,6 @@
         "source": "https://commons.wikimedia.org/wiki/File:Madame_Garnerin,_by_Christoph_Haller_von_Hallerstein,_(1771_-_1839)_(cropped).jpg",
         "license": "Public domain",
         "licenseUrl": "https://commons.wikimedia.org/wiki/File:Madame_Garnerin,_by_Christoph_Haller_von_Hallerstein,_(1771_-_1839)_(cropped).jpg"
-      }
-    },
-    {
-      "id": "10-12-iron-lung",
-      "date": "10-12",
-      "dateLabel": "12 October",
-      "category": "world",
-      "categoryName": "World",
-      "year": 1928,
-      "title": "Iron lung",
-      "body": "An iron lung respirator is used for the first time at Boston Children's Hospital.",
-      "source": {
-        "name": "Wikipedia · Iron lung",
-        "url": "https://en.wikipedia.org/wiki/Iron_lung",
-        "calendarUrl": "https://en.wikipedia.org/wiki/October_12",
-        "license": {
-          "name": "CC BY-SA 4.0",
-          "url": "https://creativecommons.org/licenses/by-sa/4.0/"
-        }
-      },
-      "image": {
-        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/8b/Iron_lung_CDC.jpg/500px-Iron_lung_CDC.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-        "alt": "Picture from the Wikipedia article on Iron lung.",
-        "credit": "CDC/GHO/Mary Hilpertshauser",
-        "source": "https://commons.wikimedia.org/wiki/File:Iron_lung_CDC.jpg",
-        "license": "Public domain",
-        "licenseUrl": "https://commons.wikimedia.org/wiki/File:Iron_lung_CDC.jpg"
-      }
-    },
-    {
-      "id": "10-12-magellan-spacecraft",
-      "date": "10-12",
-      "dateLabel": "12 October",
-      "category": "space",
-      "categoryName": "Space",
-      "year": 1994,
-      "title": "Magellan",
-      "body": "The Magellan spacecraft burns up in the atmosphere of Venus.",
-      "source": {
-        "name": "Wikipedia · Magellan (spacecraft)",
-        "url": "https://en.wikipedia.org/wiki/Magellan_(spacecraft)",
-        "calendarUrl": "https://en.wikipedia.org/wiki/October_12",
-        "license": {
-          "name": "CC BY-SA 4.0",
-          "url": "https://creativecommons.org/licenses/by-sa/4.0/"
-        }
-      },
-      "image": {
-        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/1e/Magellan_at_Kennedy_Space_Center.jpg/500px-Magellan_at_Kennedy_Space_Center.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-        "alt": "Picture from the Wikipedia article on Magellan.",
-        "credit": "NASA",
-        "source": "https://commons.wikimedia.org/wiki/File:Magellan_at_Kennedy_Space_Center.jpg",
-        "license": "Public domain",
-        "licenseUrl": "https://commons.wikimedia.org/wiki/File:Magellan_at_Kennedy_Space_Center.jpg"
       }
     }
   ]

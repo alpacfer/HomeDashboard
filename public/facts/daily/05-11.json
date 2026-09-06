@@ -30,6 +30,33 @@
       }
     },
     {
+      "id": "05-11-google-wallet",
+      "date": "05-11",
+      "dateLabel": "11 May",
+      "category": "tech",
+      "categoryName": "Tech",
+      "year": 2022,
+      "title": "Google Wallet",
+      "body": "Google Wallet (or simply Wallet) is a digital wallet platform developed by Google. It is available for the Android, Wear OS, and Fitbit OS operating systems, and was announced on May 11, 2022, at the 2022 Google I/O keynote.",
+      "source": {
+        "name": "Wikipedia · Google Wallet",
+        "url": "https://en.wikipedia.org/wiki/Google_Wallet",
+        "calendarUrl": "https://en.wikipedia.org/wiki/May_11",
+        "license": {
+          "name": "CC BY-SA 4.0",
+          "url": "https://creativecommons.org/licenses/by-sa/4.0/"
+        }
+      },
+      "image": {
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e7/Current_Google_Wallet_Availability_%282024%29.svg/500px-Current_Google_Wallet_Availability_%282024%29.svg.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "alt": "Google Wallet — the mobile app this anniversary is about.",
+        "credit": "EnSingHemm",
+        "source": "https://commons.wikimedia.org/wiki/File:Current_Google_Wallet_Availability_(2024).svg",
+        "license": "CC0",
+        "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/deed.en"
+      }
+    },
+    {
       "id": "05-11-eurovision-song-contest-2024",
       "date": "05-11",
       "dateLabel": "11 May",
@@ -108,33 +135,6 @@
         "source": "https://commons.wikimedia.org/wiki/File:Flag_of_Minnesota.svg",
         "license": "Public domain",
         "licenseUrl": "https://commons.wikimedia.org/wiki/File:Flag_of_Minnesota.svg"
-      }
-    },
-    {
-      "id": "05-11-deep-blue-chess-computer",
-      "date": "05-11",
-      "dateLabel": "11 May",
-      "category": "tech",
-      "categoryName": "Tech",
-      "year": 1997,
-      "title": "Deep Blue",
-      "body": "Deep Blue, a chess-playing supercomputer, defeats Garry Kasparov in the last game of the rematch, becoming the first computer to beat a world-champion chess player in a classic match format.",
-      "source": {
-        "name": "Wikipedia · Deep Blue (chess computer)",
-        "url": "https://en.wikipedia.org/wiki/Deep_Blue_(chess_computer)",
-        "calendarUrl": "https://en.wikipedia.org/wiki/May_11",
-        "license": {
-          "name": "CC BY-SA 4.0",
-          "url": "https://creativecommons.org/licenses/by-sa/4.0/"
-        }
-      },
-      "image": {
-        "src": "https://upload.wikimedia.org/wikipedia/commons/b/be/Deep_Blue.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
-        "alt": "Picture from the Wikipedia article on Deep Blue.",
-        "credit": "James the photographer",
-        "source": "https://commons.wikimedia.org/wiki/File:Deep_Blue.jpg",
-        "license": "CC BY 2.0",
-        "licenseUrl": "https://creativecommons.org/licenses/by/2.0"
       }
     }
   ]

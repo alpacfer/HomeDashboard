@@ -3,6 +3,33 @@
   "dateLabel": "9 April",
   "facts": [
     {
+      "id": "04-09-guacamelee",
+      "date": "04-09",
+      "dateLabel": "9 April",
+      "category": "culture",
+      "categoryName": "Culture",
+      "year": 2013,
+      "title": "Guacamelee!",
+      "body": "Guacamelee! is a Metroidvania action platforming video game developed and published by DrinkBox Studios, initially launched in April 2013 for platforms PlayStation 3 and PlayStation Vita and was later ported to Windows in August and to OS X and Linux in February 2014.",
+      "source": {
+        "name": "Wikipedia · Guacamelee!",
+        "url": "https://en.wikipedia.org/wiki/Guacamelee!",
+        "calendarUrl": "https://en.wikipedia.org/wiki/April_9",
+        "license": {
+          "name": "CC BY-SA 4.0",
+          "url": "https://creativecommons.org/licenses/by-sa/4.0/"
+        }
+      },
+      "image": {
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c3/Guacamelee%21_screenshot_Q.jpg/500px-Guacamelee%21_screenshot_Q.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "alt": "Guacamelee! — the video game this anniversary is about.",
+        "credit": "DrinkBox Studios",
+        "source": "https://commons.wikimedia.org/wiki/File:Guacamelee!_screenshot_Q.jpg",
+        "license": "CC BY-SA 3.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0"
+      }
+    },
+    {
       "id": "04-09-astronaut",
       "date": "04-09",
       "dateLabel": "9 April",
@@ -108,33 +135,6 @@
         "source": "https://commons.wikimedia.org/wiki/File:Marian_Anderson_by_Carl_Van_Vechten_(cropped).jpg",
         "license": "Public domain",
         "licenseUrl": "https://commons.wikimedia.org/wiki/File:Marian_Anderson_by_Carl_Van_Vechten_(cropped).jpg"
-      }
-    },
-    {
-      "id": "04-09-tbilisi",
-      "date": "04-09",
-      "dateLabel": "9 April",
-      "category": "world",
-      "categoryName": "World",
-      "year": 2009,
-      "title": "Tbilisi",
-      "body": "In Tbilisi, Georgia, up to 60,000 people protest against the government of Mikheil Saakashvili.",
-      "source": {
-        "name": "Wikipedia · Tbilisi",
-        "url": "https://en.wikipedia.org/wiki/Tbilisi",
-        "calendarUrl": "https://en.wikipedia.org/wiki/April_9",
-        "license": {
-          "name": "CC BY-SA 4.0",
-          "url": "https://creativecommons.org/licenses/by-sa/4.0/"
-        }
-      },
-      "image": {
-        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/45/View_of_Tbilisi_from_Tabori_Church_2023-10-08-2.jpg/500px-View_of_Tbilisi_from_Tabori_Church_2023-10-08-2.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-        "alt": "Picture from the Wikipedia article on Tbilisi.",
-        "credit": "Alexey Komarov",
-        "source": "https://commons.wikimedia.org/wiki/File:View_of_Tbilisi_from_Tabori_Church_2023-10-08-2.jpg",
-        "license": "CC BY-SA 4.0",
-        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0"
       }
     }
   ]

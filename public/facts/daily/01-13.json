@@ -3,6 +3,60 @@
   "dateLabel": "13 January",
   "facts": [
     {
+      "id": "01-13-ms-pac-man",
+      "date": "01-13",
+      "dateLabel": "13 January",
+      "category": "culture",
+      "categoryName": "Culture",
+      "year": 1982,
+      "title": "Ms. Pac-Man",
+      "body": "Ms. Pac-Man is a 1982 maze video game developed by General Computer Corporation (GCC) and published by Midway Manufacturing for arcades.",
+      "source": {
+        "name": "Wikipedia · Ms. Pac-Man",
+        "url": "https://en.wikipedia.org/wiki/Ms._Pac-Man",
+        "calendarUrl": "https://en.wikipedia.org/wiki/January_13",
+        "license": {
+          "name": "CC BY-SA 4.0",
+          "url": "https://creativecommons.org/licenses/by-sa/4.0/"
+        }
+      },
+      "image": {
+        "src": "https://upload.wikimedia.org/wikipedia/commons/3/3a/Ms._Pac-Man_gameplay_Screenshot.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+        "alt": "Ms. Pac-Man — the video game this anniversary is about.",
+        "credit": "Bandai Namco Entertainment America",
+        "source": "https://commons.wikimedia.org/wiki/File:Ms._Pac-Man_gameplay_Screenshot.png",
+        "license": "CC BY 3.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by/3.0"
+      }
+    },
+    {
+      "id": "01-13-nidhogg-video-game",
+      "date": "01-13",
+      "dateLabel": "13 January",
+      "category": "culture",
+      "categoryName": "Culture",
+      "year": 2014,
+      "title": "Nidhogg",
+      "body": "Nidhogg is a side-scrolling two-player fighting video game developed and published by Messhof. Players duel with swords in a pixelated environment.",
+      "source": {
+        "name": "Wikipedia · Nidhogg (video game)",
+        "url": "https://en.wikipedia.org/wiki/Nidhogg_(video_game)",
+        "calendarUrl": "https://en.wikipedia.org/wiki/January_13",
+        "license": {
+          "name": "CC BY-SA 4.0",
+          "url": "https://creativecommons.org/licenses/by-sa/4.0/"
+        }
+      },
+      "image": {
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/9f/Nidhogg_video_game_screenshot_1.png/500px-Nidhogg_video_game_screenshot_1.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "alt": "Nidhogg — the video game this anniversary is about.",
+        "credit": "Messhof",
+        "source": "https://commons.wikimedia.org/wiki/File:Nidhogg_video_game_screenshot_1.png",
+        "license": "Copyrighted free use",
+        "licenseUrl": "https://commons.wikimedia.org/wiki/File:Nidhogg_video_game_screenshot_1.png"
+      }
+    },
+    {
       "id": "01-13-robert-c-weaver",
       "date": "01-13",
       "dateLabel": "13 January",
@@ -81,60 +135,6 @@
         "source": "https://commons.wikimedia.org/wiki/File:Henry_Ford_portrait_1915_original_(3x4_cropped).png",
         "license": "Public domain",
         "licenseUrl": "https://commons.wikimedia.org/wiki/File:Henry_Ford_portrait_1915_original_(3x4_cropped).png"
-      }
-    },
-    {
-      "id": "01-13-lee-teng-hui",
-      "date": "01-13",
-      "dateLabel": "13 January",
-      "category": "world",
-      "categoryName": "World",
-      "year": 1988,
-      "title": "Lee Teng-hui",
-      "body": "Lee Teng-hui becomes the first native Taiwanese President of the Republic of China.",
-      "source": {
-        "name": "Wikipedia · Lee Teng-hui",
-        "url": "https://en.wikipedia.org/wiki/Lee_Teng-hui",
-        "calendarUrl": "https://en.wikipedia.org/wiki/January_13",
-        "license": {
-          "name": "CC BY-SA 4.0",
-          "url": "https://creativecommons.org/licenses/by-sa/4.0/"
-        }
-      },
-      "image": {
-        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/1f/%E6%9D%8E%E7%99%BB%E8%BC%9D%E7%B8%BD%E7%B5%B1%E7%8E%89%E7%85%A7_001_cropped.jpg/500px-%E6%9D%8E%E7%99%BB%E8%BC%9D%E7%B8%BD%E7%B5%B1%E7%8E%89%E7%85%A7_001_cropped.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-        "alt": "Picture from the Wikipedia article on Lee Teng-hui.",
-        "credit": "Academia Historica",
-        "source": "https://commons.wikimedia.org/wiki/File:%E6%9D%8E%E7%99%BB%E8%BC%9D%E7%B8%BD%E7%B5%B1%E7%8E%89%E7%85%A7_001_cropped.jpg",
-        "license": "Attribution",
-        "licenseUrl": "https://commons.wikimedia.org/wiki/File:%E6%9D%8E%E7%99%BB%E8%BC%9D%E7%B8%BD%E7%B5%B1%E7%8E%89%E7%85%A7_001_cropped.jpg"
-      }
-    },
-    {
-      "id": "01-13-douglas-wilder",
-      "date": "01-13",
-      "dateLabel": "13 January",
-      "category": "world",
-      "categoryName": "World",
-      "year": 1990,
-      "title": "Douglas Wilder",
-      "body": "Douglas Wilder becomes the first elected African American governor as he takes office as Governor of Virginia in Richmond, Virginia.",
-      "source": {
-        "name": "Wikipedia · Douglas Wilder",
-        "url": "https://en.wikipedia.org/wiki/Douglas_Wilder",
-        "calendarUrl": "https://en.wikipedia.org/wiki/January_13",
-        "license": {
-          "name": "CC BY-SA 4.0",
-          "url": "https://creativecommons.org/licenses/by-sa/4.0/"
-        }
-      },
-      "image": {
-        "src": "https://upload.wikimedia.org/wikipedia/commons/6/6f/Douglas_Wilder_2003_NIH.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
-        "alt": "Picture from the Wikipedia article on Douglas Wilder.",
-        "credit": "Wikimedia Commons",
-        "source": "https://commons.wikimedia.org/wiki/File:Douglas_Wilder_2003_NIH.jpg",
-        "license": "Public domain",
-        "licenseUrl": "https://commons.wikimedia.org/wiki/File:Douglas_Wilder_2003_NIH.jpg"
       }
     }
   ]

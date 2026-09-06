@@ -3,6 +3,60 @@
   "dateLabel": "2 April",
   "facts": [
     {
+      "id": "04-02-final-fantasy-vi",
+      "date": "04-02",
+      "dateLabel": "2 April",
+      "category": "culture",
+      "categoryName": "Culture",
+      "year": 1994,
+      "title": "Final Fantasy VI",
+      "body": "Final Fantasy VI, titled Final Fantasy III in its initial North American release, is a 1994 role-playing video game developed and published by Square for the Super Nintendo Entertainment System.",
+      "source": {
+        "name": "Wikipedia · Final Fantasy VI",
+        "url": "https://en.wikipedia.org/wiki/Final_Fantasy_VI",
+        "calendarUrl": "https://en.wikipedia.org/wiki/April_2",
+        "license": {
+          "name": "CC BY-SA 4.0",
+          "url": "https://creativecommons.org/licenses/by-sa/4.0/"
+        }
+      },
+      "image": {
+        "src": "https://upload.wikimedia.org/wikipedia/commons/0/0b/Final_Fantasy_III_intro_screen.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+        "alt": "Final Fantasy VI — the video game this anniversary is about.",
+        "credit": "Squaresoft",
+        "source": "https://commons.wikimedia.org/wiki/File:Final_Fantasy_III_intro_screen.png",
+        "license": "Public domain",
+        "licenseUrl": "https://commons.wikimedia.org/wiki/File:Final_Fantasy_III_intro_screen.png"
+      }
+    },
+    {
+      "id": "04-02-supertux",
+      "date": "04-02",
+      "dateLabel": "2 April",
+      "category": "culture",
+      "categoryName": "Culture",
+      "year": 2003,
+      "title": "Q911827",
+      "body": "SuperTux is a free and open-source 2D side scrolling platform video game inspired by Nintendo's Super Mario Bros. series.",
+      "source": {
+        "name": "Wikipedia · SuperTux",
+        "url": "https://en.wikipedia.org/wiki/SuperTux",
+        "calendarUrl": "https://en.wikipedia.org/wiki/April_2",
+        "license": {
+          "name": "CC BY-SA 4.0",
+          "url": "https://creativecommons.org/licenses/by-sa/4.0/"
+        }
+      },
+      "image": {
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/be/Supertux_0.3.1.PNG/500px-Supertux_0.3.1.PNG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "alt": "Q911827 — the video game this anniversary is about.",
+        "credit": "SuperTux Development Team",
+        "source": "https://commons.wikimedia.org/wiki/File:Supertux_0.3.1.PNG",
+        "license": "GPL",
+        "licenseUrl": "https://www.gnu.org/licenses/gpl.html"
+      }
+    },
+    {
       "id": "04-02-india-national-cricket-team",
       "date": "04-02",
       "dateLabel": "2 April",
@@ -81,60 +135,6 @@
         "source": "https://commons.wikimedia.org/wiki/File:RIAN_archive_850809_General_Secretary_of_the_CPSU_CC_M._Gorbachev_(crop).jpg",
         "license": "CC BY-SA 3.0",
         "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0"
-      }
-    },
-    {
-      "id": "04-02-siege-of-the-church-of-the-nativity",
-      "date": "04-02",
-      "dateLabel": "2 April",
-      "category": "world",
-      "categoryName": "World",
-      "year": 2002,
-      "title": "Siege of the Church of the Nativity",
-      "body": "Israeli forces surround the Church of the Nativity in Bethlehem, into which armed Palestinians had retreated.",
-      "source": {
-        "name": "Wikipedia · Siege of the Church of the Nativity",
-        "url": "https://en.wikipedia.org/wiki/Siege_of_the_Church_of_the_Nativity",
-        "calendarUrl": "https://en.wikipedia.org/wiki/April_2",
-        "license": {
-          "name": "CC BY-SA 4.0",
-          "url": "https://creativecommons.org/licenses/by-sa/4.0/"
-        }
-      },
-      "image": {
-        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/ed/%D7%97%D7%95%D7%9E%D7%AA_%D7%9E%D7%92%D7%9F_6.jpg/500px-%D7%97%D7%95%D7%9E%D7%AA_%D7%9E%D7%92%D7%9F_6.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-        "alt": "Picture from the Wikipedia article on Siege of the Church of the Nativity.",
-        "credit": "Ofer Yizhar / IDF Spokesperson's Unit",
-        "source": "https://commons.wikimedia.org/wiki/File:%D7%97%D7%95%D7%9E%D7%AA_%D7%9E%D7%92%D7%9F_6.jpg",
-        "license": "CC BY-SA 3.0",
-        "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0"
-      }
-    },
-    {
-      "id": "04-02-hatton-garden-safe-deposit-burglary",
-      "date": "04-02",
-      "dateLabel": "2 April",
-      "category": "world",
-      "categoryName": "World",
-      "year": 2015,
-      "title": "Hatton Garden safe deposit burglary",
-      "body": "Four men steal items worth up to £200 million from an underground safe deposit facility in London's Hatton Garden area in what has been called the \"largest burglary in English legal history.\"",
-      "source": {
-        "name": "Wikipedia · Hatton Garden safe deposit burglary",
-        "url": "https://en.wikipedia.org/wiki/Hatton_Garden_safe_deposit_burglary",
-        "calendarUrl": "https://en.wikipedia.org/wiki/April_2",
-        "license": {
-          "name": "CC BY-SA 4.0",
-          "url": "https://creativecommons.org/licenses/by-sa/4.0/"
-        }
-      },
-      "image": {
-        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/7a/88-90_Hatton_Garden%2C_front_door_TQ3181_U23_%28perspective%29.jpg/500px-88-90_Hatton_Garden%2C_front_door_TQ3181_U23_%28perspective%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-        "alt": "Picture from the Wikipedia article on Hatton Garden safe deposit burglary.",
-        "credit": "Roger W. Haworth",
-        "source": "https://commons.wikimedia.org/wiki/File:88-90_Hatton_Garden,_front_door_TQ3181_U23_(perspective).jpg",
-        "license": "CC BY-SA 4.0",
-        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0"
       }
     }
   ]

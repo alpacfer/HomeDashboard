@@ -3,6 +3,60 @@
   "dateLabel": "12 September",
   "facts": [
     {
+      "id": "09-12-steel-battalion",
+      "date": "09-12",
+      "dateLabel": "12 September",
+      "category": "culture",
+      "categoryName": "Culture",
+      "year": 2002,
+      "title": "Steel Battalion",
+      "body": "Steel Battalion is a 2002 video game created by Capcom for the Xbox console where the player controls a \"Vertical Tank\"—a bipedal, heavily armed mecha.",
+      "source": {
+        "name": "Wikipedia · Steel Battalion",
+        "url": "https://en.wikipedia.org/wiki/Steel_Battalion",
+        "calendarUrl": "https://en.wikipedia.org/wiki/September_12",
+        "license": {
+          "name": "CC BY-SA 4.0",
+          "url": "https://creativecommons.org/licenses/by-sa/4.0/"
+        }
+      },
+      "image": {
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e7/Steel_Battalion_controllers.jpg/500px-Steel_Battalion_controllers.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "alt": "Steel Battalion — the video game this anniversary is about.",
+        "credit": "John Tregoning",
+        "source": "https://commons.wikimedia.org/wiki/File:Steel_Battalion_controllers.jpg",
+        "license": "CC BY 2.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by/2.0"
+      }
+    },
+    {
+      "id": "09-12-nhl-2k7",
+      "date": "09-12",
+      "dateLabel": "12 September",
+      "category": "culture",
+      "categoryName": "Culture",
+      "year": 2006,
+      "title": "NHL 2K7",
+      "body": "NHL 2K7 is an ice hockey video game made by 2K, and published on the PlayStation 3, PlayStation 2, Xbox, and Xbox 360 consoles. It features San Jose Sharks centre Joe Thornton on its cover.",
+      "source": {
+        "name": "Wikipedia · NHL 2K7",
+        "url": "https://en.wikipedia.org/wiki/NHL_2K7",
+        "calendarUrl": "https://en.wikipedia.org/wiki/September_12",
+        "license": {
+          "name": "CC BY-SA 4.0",
+          "url": "https://creativecommons.org/licenses/by-sa/4.0/"
+        }
+      },
+      "image": {
+        "src": "https://upload.wikimedia.org/wikipedia/commons/6/6c/Company_guys_playing_nhl_2k7_out_the_back_of_a_stupid_car_%28384211114%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+        "alt": "NHL 2K7 — the video game this anniversary is about.",
+        "credit": "gavinrobinson from chicago, il, usa",
+        "source": "https://commons.wikimedia.org/wiki/File:Company_guys_playing_nhl_2k7_out_the_back_of_a_stupid_car_(384211114).jpg",
+        "license": "CC BY 2.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by/2.0"
+      }
+    },
+    {
       "id": "09-12-voyager-1",
       "date": "09-12",
       "dateLabel": "12 September",
@@ -81,60 +135,6 @@
         "source": "https://commons.wikimedia.org/wiki/File:Jack_Kilby_(cropped).png",
         "license": "CC BY-SA 4.0",
         "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0"
-      }
-    },
-    {
-      "id": "09-12-lunik-ii",
-      "date": "09-12",
-      "dateLabel": "12 September",
-      "category": "space",
-      "categoryName": "Space",
-      "year": 1959,
-      "title": "Luna 2",
-      "body": "The Soviet Union launches a large rocket, Lunik II, at the Moon.",
-      "source": {
-        "name": "Wikipedia · Luna 2",
-        "url": "https://en.wikipedia.org/wiki/Luna_2",
-        "calendarUrl": "https://en.wikipedia.org/wiki/September_12",
-        "license": {
-          "name": "CC BY-SA 4.0",
-          "url": "https://creativecommons.org/licenses/by-sa/4.0/"
-        }
-      },
-      "image": {
-        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/cc/Luna_1_-_2_Spacecraft.png/500px-Luna_1_-_2_Spacecraft.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-        "alt": "Picture from the Wikipedia article on Luna 2.",
-        "credit": "NASA/NSSDCA",
-        "source": "https://commons.wikimedia.org/wiki/File:Luna_1_-_2_Spacecraft.png",
-        "license": "Public domain",
-        "licenseUrl": "https://commons.wikimedia.org/wiki/File:Luna_1_-_2_Spacecraft.png"
-      }
-    },
-    {
-      "id": "09-12-gemini-11",
-      "date": "09-12",
-      "dateLabel": "12 September",
-      "category": "space",
-      "categoryName": "Space",
-      "year": 1966,
-      "title": "Gemini 11",
-      "body": "Gemini 11, the penultimate mission of NASA's Gemini program, and the current human altitude record holder (except for the Apollo lunar missions).",
-      "source": {
-        "name": "Wikipedia · Gemini 11",
-        "url": "https://en.wikipedia.org/wiki/Gemini_11",
-        "calendarUrl": "https://en.wikipedia.org/wiki/September_12",
-        "license": {
-          "name": "CC BY-SA 4.0",
-          "url": "https://creativecommons.org/licenses/by-sa/4.0/"
-        }
-      },
-      "image": {
-        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b2/Gemini_11_Agena.jpg/500px-Gemini_11_Agena.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-        "alt": "Picture from the Wikipedia article on Gemini 11.",
-        "credit": "NASA",
-        "source": "https://commons.wikimedia.org/wiki/File:Gemini_11_Agena.jpg",
-        "license": "Public domain",
-        "licenseUrl": "https://commons.wikimedia.org/wiki/File:Gemini_11_Agena.jpg"
       }
     }
   ]

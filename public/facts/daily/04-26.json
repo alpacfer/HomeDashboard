@@ -3,6 +3,33 @@
   "dateLabel": "26 April",
   "facts": [
     {
+      "id": "04-26-weechat",
+      "date": "04-26",
+      "dateLabel": "26 April",
+      "category": "tech",
+      "categoryName": "Tech",
+      "year": 2003,
+      "title": "WeeChat",
+      "body": "WeeChat (Wee Enhanced Environment for Chat) is a free and open-source Internet Relay Chat client that is designed to be light and fast. 0-or-later and has been developed since 2003.",
+      "source": {
+        "name": "Wikipedia · WeeChat",
+        "url": "https://en.wikipedia.org/wiki/WeeChat",
+        "calendarUrl": "https://en.wikipedia.org/wiki/April_26",
+        "license": {
+          "name": "CC BY-SA 4.0",
+          "url": "https://creativecommons.org/licenses/by-sa/4.0/"
+        }
+      },
+      "image": {
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e1/WeeChat_3.4_screenshot.png/500px-WeeChat_3.4_screenshot.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "alt": "WeeChat — the application this anniversary is about.",
+        "credit": "VulcanSphere",
+        "source": "https://commons.wikimedia.org/wiki/File:WeeChat_3.4_screenshot.png",
+        "license": "GPLv3",
+        "licenseUrl": "https://www.gnu.org/licenses/gpl-3.0.html"
+      }
+    },
+    {
       "id": "04-26-jonas-salk",
       "date": "04-26",
       "dateLabel": "26 April",
@@ -108,33 +135,6 @@
         "source": "https://commons.wikimedia.org/wiki/File:Columbian_(B%26O)_train.jpg",
         "license": "Public domain",
         "licenseUrl": "https://commons.wikimedia.org/wiki/File:Columbian_(B%26O)_train.jpg"
-      }
-    },
-    {
-      "id": "04-26-container-ship",
-      "date": "04-26",
-      "dateLabel": "26 April",
-      "category": "world",
-      "categoryName": "World",
-      "year": 1956,
-      "title": "Container ship",
-      "body": ", the world's first successful container ship, leaves Port Newark, New Jersey, for Houston, Texas.",
-      "source": {
-        "name": "Wikipedia · Container ship",
-        "url": "https://en.wikipedia.org/wiki/Container_ship",
-        "calendarUrl": "https://en.wikipedia.org/wiki/April_26",
-        "license": {
-          "name": "CC BY-SA 4.0",
-          "url": "https://creativecommons.org/licenses/by-sa/4.0/"
-        }
-      },
-      "image": {
-        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/1c/MAERSK_MC_KINNEY_M%C3%96LLER_%26_MARSEILLE_MAERSK_%2848694054418%29.jpg/500px-MAERSK_MC_KINNEY_M%C3%96LLER_%26_MARSEILLE_MAERSK_%2848694054418%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-        "alt": "Picture from the Wikipedia article on Container ship.",
-        "credit": "kees torn",
-        "source": "https://commons.wikimedia.org/wiki/File:MAERSK_MC_KINNEY_M%C3%96LLER_%26_MARSEILLE_MAERSK_(48694054418).jpg",
-        "license": "CC BY-SA 2.0",
-        "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0"
       }
     }
   ]

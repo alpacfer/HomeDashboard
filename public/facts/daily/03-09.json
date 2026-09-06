@@ -3,6 +3,60 @@
   "dateLabel": "9 March",
   "facts": [
     {
+      "id": "03-09-nupedia",
+      "date": "03-09",
+      "dateLabel": "9 March",
+      "category": "tech",
+      "categoryName": "Tech",
+      "year": 2000,
+      "title": "Nupedia",
+      "body": "Nupedia was a multi-language online encyclopedia whose articles were written by volunteer contributors with relevant subject-matter expertise, reviewed by expert editors before publication, and licensed as free content. It was founded by Jimmy Wales and underwritten by Bomis, with Larry Sanger as editor-in-chief.",
+      "source": {
+        "name": "Wikipedia · Nupedia",
+        "url": "https://en.wikipedia.org/wiki/Nupedia",
+        "calendarUrl": "https://en.wikipedia.org/wiki/March_9",
+        "license": {
+          "name": "CC BY-SA 4.0",
+          "url": "https://creativecommons.org/licenses/by-sa/4.0/"
+        }
+      },
+      "image": {
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/ae/Nupedia_20030808_screenshot.png/500px-Nupedia_20030808_screenshot.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "alt": "Nupedia — the website this anniversary is about.",
+        "credit": "Wikimedia Foundation and contributors…",
+        "source": "https://commons.wikimedia.org/wiki/File:Nupedia_20030808_screenshot.png",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0"
+      }
+    },
+    {
+      "id": "03-09-2048-video-game",
+      "date": "03-09",
+      "dateLabel": "9 March",
+      "category": "culture",
+      "categoryName": "Culture",
+      "year": 2014,
+      "title": "Q15967616",
+      "body": "2048 is a single-player sliding tile puzzle video game written by Italian web developer Gabriele Cirulli and published on GitHub.",
+      "source": {
+        "name": "Wikipedia · 2048 (video game)",
+        "url": "https://en.wikipedia.org/wiki/2048_(video_game)",
+        "calendarUrl": "https://en.wikipedia.org/wiki/March_9",
+        "license": {
+          "name": "CC BY-SA 4.0",
+          "url": "https://creativecommons.org/licenses/by-sa/4.0/"
+        }
+      },
+      "image": {
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/64/2048_Screenshot.png/500px-2048_Screenshot.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "alt": "Q15967616 — the video game this anniversary is about.",
+        "credit": "Gabriele Cirulli",
+        "source": "https://commons.wikimedia.org/wiki/File:2048_Screenshot.png",
+        "license": "MIT",
+        "licenseUrl": "https://opensource.org/licenses/mit-license.php"
+      }
+    },
+    {
       "id": "03-09-sputnik-9",
       "date": "03-09",
       "dateLabel": "9 March",
@@ -27,60 +81,6 @@
         "source": "https://commons.wikimedia.org/wiki/File:The_Soviet_Union_1961_CPA_2587_stamp_(Fourth_and_fifth_%27Spacecraft%27_flights._Dog_Chernushka_and_rocket)_cancelled.jpg",
         "license": "Public domain",
         "licenseUrl": "https://commons.wikimedia.org/wiki/File:The_Soviet_Union_1961_CPA_2587_stamp_(Fourth_and_fifth_%27Spacecraft%27_flights._Dog_Chernushka_and_rocket)_cancelled.jpg"
-      }
-    },
-    {
-      "id": "03-09-barbie",
-      "date": "03-09",
-      "dateLabel": "9 March",
-      "category": "culture",
-      "categoryName": "Culture",
-      "year": 1959,
-      "title": "Barbie",
-      "body": "The Barbie doll makes its debut at the American International Toy Fair in New York.",
-      "source": {
-        "name": "Wikipedia · Barbie",
-        "url": "https://en.wikipedia.org/wiki/Barbie",
-        "calendarUrl": "https://en.wikipedia.org/wiki/March_9",
-        "license": {
-          "name": "CC BY-SA 4.0",
-          "url": "https://creativecommons.org/licenses/by-sa/4.0/"
-        }
-      },
-      "image": {
-        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/0b/Barbie_Logo.svg/500px-Barbie_Logo.svg.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-        "alt": "Picture from the Wikipedia article on Barbie.",
-        "credit": "Mattel, Inc",
-        "source": "https://commons.wikimedia.org/wiki/File:Barbie_Logo.svg",
-        "license": "Public domain",
-        "licenseUrl": "https://commons.wikimedia.org/wiki/File:Barbie_Logo.svg"
-      }
-    },
-    {
-      "id": "03-09-nupedia",
-      "date": "03-09",
-      "dateLabel": "9 March",
-      "category": "tech",
-      "categoryName": "Tech",
-      "year": 2000,
-      "title": "Nupedia",
-      "body": "Nupedia, a multi-language online encyclopedia, is launched.",
-      "source": {
-        "name": "Wikipedia · Nupedia",
-        "url": "https://en.wikipedia.org/wiki/Nupedia",
-        "calendarUrl": "https://en.wikipedia.org/wiki/March_9",
-        "license": {
-          "name": "CC BY-SA 4.0",
-          "url": "https://creativecommons.org/licenses/by-sa/4.0/"
-        }
-      },
-      "image": {
-        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/ae/Nupedia_20030808_screenshot.png/500px-Nupedia_20030808_screenshot.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-        "alt": "Picture from the Wikipedia article on Nupedia.",
-        "credit": "Wikimedia Foundation and contributors…",
-        "source": "https://commons.wikimedia.org/wiki/File:Nupedia_20030808_screenshot.png",
-        "license": "CC BY-SA 4.0",
-        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0"
       }
     },
     {

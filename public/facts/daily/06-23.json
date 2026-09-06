@@ -3,6 +3,60 @@
   "dateLabel": "23 June",
   "facts": [
     {
+      "id": "06-23-wolfram-mathematica",
+      "date": "06-23",
+      "dateLabel": "23 June",
+      "category": "tech",
+      "categoryName": "Tech",
+      "year": 1988,
+      "title": "Mathematica",
+      "body": "Wolfram Mathematica (also known as Mathematica) is a software system with built-in libraries for several areas of technical computing that allows machine learning, statistics, symbolic computation, data manipulation, network analysis, time series analysis, quantum computation framework, NLP, optimization.",
+      "source": {
+        "name": "Wikipedia · Wolfram Mathematica",
+        "url": "https://en.wikipedia.org/wiki/Wolfram_Mathematica",
+        "calendarUrl": "https://en.wikipedia.org/wiki/June_23",
+        "license": {
+          "name": "CC BY-SA 4.0",
+          "url": "https://creativecommons.org/licenses/by-sa/4.0/"
+        }
+      },
+      "image": {
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/3e/Mathematica_logistic_bifurcation.png/500px-Mathematica_logistic_bifurcation.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "alt": "Mathematica — the programming language this anniversary is about.",
+        "credit": "HolyCookie",
+        "source": "https://commons.wikimedia.org/wiki/File:Mathematica_logistic_bifurcation.png",
+        "license": "CC0",
+        "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/deed.en"
+      }
+    },
+    {
+      "id": "06-23-mr-do",
+      "date": "06-23",
+      "dateLabel": "23 June",
+      "category": "culture",
+      "categoryName": "Culture",
+      "year": 1995,
+      "title": "Mr. Do!",
+      "body": "Mr. Do!",
+      "source": {
+        "name": "Wikipedia · Mr. Do!",
+        "url": "https://en.wikipedia.org/wiki/Mr._Do!",
+        "calendarUrl": "https://en.wikipedia.org/wiki/June_23",
+        "license": {
+          "name": "CC BY-SA 4.0",
+          "url": "https://creativecommons.org/licenses/by-sa/4.0/"
+        }
+      },
+      "image": {
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/53/MrDo%21.jpg/500px-MrDo%21.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "alt": "Mr. Do! — the video game this anniversary is about.",
+        "credit": "Onderwijsgek at Dutch Wikipedia",
+        "source": "https://commons.wikimedia.org/wiki/File:MrDo!.jpg",
+        "license": "CC BY-SA 2.5 nl",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.5/nl/deed.en"
+      }
+    },
+    {
       "id": "06-23-space-station-processing-facility",
       "date": "06-23",
       "dateLabel": "23 June",
@@ -81,60 +135,6 @@
         "source": "https://commons.wikimedia.org/wiki/File:Ashton_Eaton_2_Daegu_2011.jpg",
         "license": "GFDL",
         "licenseUrl": "https://www.gnu.org/copyleft/fdl.html"
-      }
-    },
-    {
-      "id": "06-23-henry-larsen-explorer",
-      "date": "06-23",
-      "dateLabel": "23 June",
-      "category": "world",
-      "categoryName": "World",
-      "year": 1940,
-      "title": "Henry Larsen",
-      "body": "Henry Larsen begins the first successful west-to-east navigation of Northwest Passage from Vancouver, British Columbia, Canada.",
-      "source": {
-        "name": "Wikipedia · Henry Larsen (explorer)",
-        "url": "https://en.wikipedia.org/wiki/Henry_Larsen_(explorer)",
-        "calendarUrl": "https://en.wikipedia.org/wiki/June_23",
-        "license": {
-          "name": "CC BY-SA 4.0",
-          "url": "https://creativecommons.org/licenses/by-sa/4.0/"
-        }
-      },
-      "image": {
-        "src": "https://upload.wikimedia.org/wikipedia/commons/9/96/Henry_Larsen_on_St_Roch.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
-        "alt": "Picture from the Wikipedia article on Henry Larsen.",
-        "credit": "Unknown author",
-        "source": "https://commons.wikimedia.org/wiki/File:Henry_Larsen_on_St_Roch.jpg",
-        "license": "Public domain",
-        "licenseUrl": "https://commons.wikimedia.org/wiki/File:Henry_Larsen_on_St_Roch.jpg"
-      }
-    },
-    {
-      "id": "06-23-french-national-assembly",
-      "date": "06-23",
-      "dateLabel": "23 June",
-      "category": "world",
-      "categoryName": "World",
-      "year": 1956,
-      "title": "National Assembly",
-      "body": "The French National Assembly takes the first step in creating the French Community by passing the Loi Cadre, transferring a number of powers from Paris to elected territorial governments in French West Africa.",
-      "source": {
-        "name": "Wikipedia · National Assembly (France)",
-        "url": "https://en.wikipedia.org/wiki/National_Assembly_(France)",
-        "calendarUrl": "https://en.wikipedia.org/wiki/June_23",
-        "license": {
-          "name": "CC BY-SA 4.0",
-          "url": "https://creativecommons.org/licenses/by-sa/4.0/"
-        }
-      },
-      "image": {
-        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a7/Logo_de_l%27Assembl%C3%A9e_nationale_fran%C3%A7aise.svg/500px-Logo_de_l%27Assembl%C3%A9e_nationale_fran%C3%A7aise.svg.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-        "alt": "Picture from the Wikipedia article on National Assembly.",
-        "credit": "The Government of the French Republic…",
-        "source": "https://commons.wikimedia.org/wiki/File:Logo_de_l%27Assembl%C3%A9e_nationale_fran%C3%A7aise.svg",
-        "license": "Public domain",
-        "licenseUrl": "https://commons.wikimedia.org/wiki/File:Logo_de_l%27Assembl%C3%A9e_nationale_fran%C3%A7aise.svg"
       }
     }
   ]

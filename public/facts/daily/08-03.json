@@ -3,6 +3,33 @@
   "dateLabel": "3 August",
   "facts": [
     {
+      "id": "08-03-frets-on-fire",
+      "date": "08-03",
+      "dateLabel": "3 August",
+      "category": "culture",
+      "categoryName": "Culture",
+      "year": 2006,
+      "title": "Frets on Fire",
+      "body": "Frets on Fire (FoF) is a free, open-source music video game created by Finnish independent video game developer Unreal Voodoo.",
+      "source": {
+        "name": "Wikipedia · Frets on Fire",
+        "url": "https://en.wikipedia.org/wiki/Frets_on_Fire",
+        "calendarUrl": "https://en.wikipedia.org/wiki/August_3",
+        "license": {
+          "name": "CC BY-SA 4.0",
+          "url": "https://creativecommons.org/licenses/by-sa/4.0/"
+        }
+      },
+      "image": {
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/9e/Fretsonfire4.png/500px-Fretsonfire4.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "alt": "Frets on Fire — the video game this anniversary is about.",
+        "credit": "Wikimedia Commons",
+        "source": "https://commons.wikimedia.org/wiki/File:Fretsonfire4.png",
+        "license": "GPL",
+        "licenseUrl": "https://www.gnu.org/licenses/gpl.html"
+      }
+    },
+    {
       "id": "08-03-basketball-association-of-america",
       "date": "08-03",
       "dateLabel": "3 August",
@@ -108,33 +135,6 @@
         "source": "https://commons.wikimedia.org/wiki/File:Bridgestone_Americas_HQ_1.jpg",
         "license": "CC BY-SA 4.0",
         "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0"
-      }
-    },
-    {
-      "id": "08-03-commissioner-of-baseball",
-      "date": "08-03",
-      "dateLabel": "3 August",
-      "category": "sport",
-      "categoryName": "Sport",
-      "year": 1921,
-      "title": "Commissioner of Baseball",
-      "body": "Major League Baseball Commissioner Kenesaw Mountain Landis confirms the ban of the eight Chicago Black Sox, the day after they were acquitted by a Chicago court.",
-      "source": {
-        "name": "Wikipedia · Commissioner of Baseball",
-        "url": "https://en.wikipedia.org/wiki/Commissioner_of_Baseball",
-        "calendarUrl": "https://en.wikipedia.org/wiki/August_3",
-        "license": {
-          "name": "CC BY-SA 4.0",
-          "url": "https://creativecommons.org/licenses/by-sa/4.0/"
-        }
-      },
-      "image": {
-        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/24/Rob_Manfred_7-15-2014.jpg/500px-Rob_Manfred_7-15-2014.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-        "alt": "Picture from the Wikipedia article on Commissioner of Baseball.",
-        "credit": "Arturo Pardavila III",
-        "source": "https://commons.wikimedia.org/wiki/File:Rob_Manfred_7-15-2014.jpg",
-        "license": "CC BY-SA 2.0",
-        "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0"
       }
     }
   ]

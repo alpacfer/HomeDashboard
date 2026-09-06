@@ -3,6 +3,33 @@
   "dateLabel": "20 April",
   "facts": [
     {
+      "id": "04-20-redoxos",
+      "date": "04-20",
+      "dateLabel": "20 April",
+      "category": "tech",
+      "categoryName": "Tech",
+      "year": 2015,
+      "title": "Redox",
+      "body": "Redox is a Unix-like operating system based on a microkernel design. It is community-developed, released as free and open-source software and distributed under an MIT License.",
+      "source": {
+        "name": "Wikipedia · RedoxOS",
+        "url": "https://en.wikipedia.org/wiki/RedoxOS",
+        "calendarUrl": "https://en.wikipedia.org/wiki/April_20",
+        "license": {
+          "name": "CC BY-SA 4.0",
+          "url": "https://creativecommons.org/licenses/by-sa/4.0/"
+        }
+      },
+      "image": {
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/6f/Redox_running_Orbital.png/500px-Redox_running_Orbital.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "alt": "Redox — the operating system this anniversary is about.",
+        "credit": "User:Ca1ek",
+        "source": "https://commons.wikimedia.org/wiki/File:Redox_running_Orbital.png",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0"
+      }
+    },
+    {
       "id": "04-20-apollo-16",
       "date": "04-20",
       "dateLabel": "20 April",
@@ -108,33 +135,6 @@
         "source": "https://commons.wikimedia.org/wiki/File:V%C3%A4dersoltavlan_cropped.JPG",
         "license": "Public domain",
         "licenseUrl": "https://commons.wikimedia.org/wiki/File:V%C3%A4dersoltavlan_cropped.JPG"
-      }
-    },
-    {
-      "id": "04-20-danica-patrick",
-      "date": "04-20",
-      "dateLabel": "20 April",
-      "category": "world",
-      "categoryName": "World",
-      "year": 2008,
-      "title": "Danica Patrick",
-      "body": "Danica Patrick wins the Indy Japan 300, becoming the first female driver in history to win an Indy car race.",
-      "source": {
-        "name": "Wikipedia · Danica Patrick",
-        "url": "https://en.wikipedia.org/wiki/Danica_Patrick",
-        "calendarUrl": "https://en.wikipedia.org/wiki/April_20",
-        "license": {
-          "name": "CC BY-SA 4.0",
-          "url": "https://creativecommons.org/licenses/by-sa/4.0/"
-        }
-      },
-      "image": {
-        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/0f/Danica_Patrick_2025_1_secag.jpg/500px-Danica_Patrick_2025_1_secag.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-        "alt": "Picture from the Wikipedia article on Danica Patrick.",
-        "credit": "USDAgov",
-        "source": "https://commons.wikimedia.org/wiki/File:Danica_Patrick_2025_1_secag.jpg",
-        "license": "Public domain",
-        "licenseUrl": "https://commons.wikimedia.org/wiki/File:Danica_Patrick_2025_1_secag.jpg"
       }
     }
   ]

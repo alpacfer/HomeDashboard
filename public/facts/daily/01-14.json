@@ -3,6 +3,33 @@
   "dateLabel": "14 January",
   "facts": [
     {
+      "id": "01-14-yuzu-emulator",
+      "date": "01-14",
+      "dateLabel": "14 January",
+      "category": "tech",
+      "categoryName": "Tech",
+      "year": 2018,
+      "title": "Yuzu",
+      "body": "Yuzu (sometimes stylized in lowercase) is a discontinued free and open-source emulator of the Nintendo Switch, developed in C++. Yuzu was announced to be in development on January 14, 2018, 10 months after the release of the Nintendo Switch.",
+      "source": {
+        "name": "Wikipedia · Yuzu (emulator)",
+        "url": "https://en.wikipedia.org/wiki/Yuzu_(emulator)",
+        "calendarUrl": "https://en.wikipedia.org/wiki/January_14",
+        "license": {
+          "name": "CC BY-SA 4.0",
+          "url": "https://creativecommons.org/licenses/by-sa/4.0/"
+        }
+      },
+      "image": {
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/49/Yuzu_Emulator_In_Action_%28Space_Game_by_vgmoose%29.png/500px-Yuzu_Emulator_In_Action_%28Space_Game_by_vgmoose%29.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "alt": "Yuzu — the application this anniversary is about.",
+        "credit": "Halotroop2288",
+        "source": "https://commons.wikimedia.org/wiki/File:Yuzu_Emulator_In_Action_(Space_Game_by_vgmoose).png",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0"
+      }
+    },
+    {
       "id": "01-14-elvis-presley",
       "date": "01-14",
       "dateLabel": "14 January",
@@ -108,33 +135,6 @@
         "source": "https://commons.wikimedia.org/wiki/File:Antarctica,_Norway_territorial_claim_(Queen_Maud_Land,_2015).svg",
         "license": "CC BY-SA 4.0",
         "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0"
-      }
-    },
-    {
-      "id": "01-14-margrethe-ii",
-      "date": "01-14",
-      "dateLabel": "14 January",
-      "category": "world",
-      "categoryName": "World",
-      "year": 1972,
-      "title": "Margrethe II",
-      "body": "Queen Margrethe II of Denmark ascends the throne, the first Queen of Denmark since 1412 and the first Danish monarch not named Frederik or Christian since 1513.",
-      "source": {
-        "name": "Wikipedia · Margrethe II",
-        "url": "https://en.wikipedia.org/wiki/Margrethe_II",
-        "calendarUrl": "https://en.wikipedia.org/wiki/January_14",
-        "license": {
-          "name": "CC BY-SA 4.0",
-          "url": "https://creativecommons.org/licenses/by-sa/4.0/"
-        }
-      },
-      "image": {
-        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e5/Drottning_Margrethe_av_Danmark.jpg/500px-Drottning_Margrethe_av_Danmark.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-        "alt": "Picture from the Wikipedia article on Margrethe II.",
-        "credit": "Johannes Jansson/norden.org",
-        "source": "https://commons.wikimedia.org/wiki/File:Drottning_Margrethe_av_Danmark.jpg",
-        "license": "CC BY 2.5 dk",
-        "licenseUrl": "https://creativecommons.org/licenses/by/2.5/dk/deed.en"
       }
     }
   ]

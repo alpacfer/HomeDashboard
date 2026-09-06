@@ -3,6 +3,60 @@
   "dateLabel": "26 August",
   "facts": [
     {
+      "id": "08-26-pocket-service",
+      "date": "08-26",
+      "dateLabel": "26 August",
+      "category": "tech",
+      "categoryName": "Tech",
+      "year": 2007,
+      "title": "Pocket",
+      "body": "Pocket, formerly known as Read It Later, was a social bookmarking service for storing, sharing and discovering web bookmarks, first released in 2007.",
+      "source": {
+        "name": "Wikipedia · Pocket (service)",
+        "url": "https://en.wikipedia.org/wiki/Pocket_(service)",
+        "calendarUrl": "https://en.wikipedia.org/wiki/August_26",
+        "license": {
+          "name": "CC BY-SA 4.0",
+          "url": "https://creativecommons.org/licenses/by-sa/4.0/"
+        }
+      },
+      "image": {
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/09/Pocket_web_reader_example.png/500px-Pocket_web_reader_example.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "alt": "Pocket — the application this anniversary is about.",
+        "credit": "Opencooper",
+        "source": "https://commons.wikimedia.org/wiki/File:Pocket_web_reader_example.png",
+        "license": "Public domain",
+        "licenseUrl": "https://commons.wikimedia.org/wiki/File:Pocket_web_reader_example.png"
+      }
+    },
+    {
+      "id": "08-26-youtube-gaming",
+      "date": "08-26",
+      "dateLabel": "26 August",
+      "category": "tech",
+      "categoryName": "Tech",
+      "year": 2015,
+      "title": "YouTube Gaming",
+      "body": "com-owned Twitch, Facebook Gaming, and Microsoft-owned Mixer.",
+      "source": {
+        "name": "Wikipedia · YouTube Gaming",
+        "url": "https://en.wikipedia.org/wiki/YouTube_Gaming",
+        "calendarUrl": "https://en.wikipedia.org/wiki/August_26",
+        "license": {
+          "name": "CC BY-SA 4.0",
+          "url": "https://creativecommons.org/licenses/by-sa/4.0/"
+        }
+      },
+      "image": {
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/21/YouTube_Gaming_live_studio_at_Google_Play_booth_20190127a.jpg/500px-YouTube_Gaming_live_studio_at_Google_Play_booth_20190127a.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "alt": "YouTube Gaming — the mobile app this anniversary is about.",
+        "credit": "Solomon203",
+        "source": "https://commons.wikimedia.org/wiki/File:YouTube_Gaming_live_studio_at_Google_Play_booth_20190127a.jpg",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0"
+      }
+    },
+    {
       "id": "08-26-chad",
       "date": "08-26",
       "dateLabel": "26 August",
@@ -81,60 +135,6 @@
         "source": "https://commons.wikimedia.org/wiki/File:Boeing_787_N1015B_ANA_Airlines_(27611880663)_(cropped).jpg",
         "license": "CC BY-SA 2.0",
         "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0"
-      }
-    },
-    {
-      "id": "08-26-james-cook",
-      "date": "08-26",
-      "dateLabel": "26 August",
-      "category": "science",
-      "categoryName": "Science",
-      "year": 1768,
-      "title": "James Cook",
-      "body": "Captain James Cook sets sail from England on board, starting his first voyage of discovery.",
-      "source": {
-        "name": "Wikipedia · James Cook",
-        "url": "https://en.wikipedia.org/wiki/James_Cook",
-        "calendarUrl": "https://en.wikipedia.org/wiki/August_26",
-        "license": {
-          "name": "CC BY-SA 4.0",
-          "url": "https://creativecommons.org/licenses/by-sa/4.0/"
-        }
-      },
-      "image": {
-        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/76/Captainjamescookportrait.jpg/500px-Captainjamescookportrait.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-        "alt": "Picture from the Wikipedia article on James Cook.",
-        "credit": "Nathaniel Dance-Holland",
-        "source": "https://commons.wikimedia.org/wiki/File:Captainjamescookportrait.jpg",
-        "license": "Public domain",
-        "licenseUrl": "https://commons.wikimedia.org/wiki/File:Captainjamescookportrait.jpg"
-      }
-    },
-    {
-      "id": "08-26-women-s-strike-for-equality",
-      "date": "08-26",
-      "dateLabel": "26 August",
-      "category": "world",
-      "categoryName": "World",
-      "year": 1970,
-      "title": "Women's Strike for Equality",
-      "body": "The fiftieth anniversary of American women being able to vote is marked by a nationwide Women's Strike for Equality.",
-      "source": {
-        "name": "Wikipedia · Women's Strike for Equality",
-        "url": "https://en.wikipedia.org/wiki/Women%27s_Strike_for_Equality",
-        "calendarUrl": "https://en.wikipedia.org/wiki/August_26",
-        "license": {
-          "name": "CC BY-SA 4.0",
-          "url": "https://creativecommons.org/licenses/by-sa/4.0/"
-        }
-      },
-      "image": {
-        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/59/1970s_women%27s_strike_poster_%28cropped%29.jpg/500px-1970s_women%27s_strike_poster_%28cropped%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-        "alt": "Picture from the Wikipedia article on Women's Strike for Equality.",
-        "credit": "Yanker Poster Collection",
-        "source": "https://commons.wikimedia.org/wiki/File:1970s_women%27s_strike_poster_(cropped).jpg",
-        "license": "Public domain",
-        "licenseUrl": "https://commons.wikimedia.org/wiki/File:1970s_women%27s_strike_poster_(cropped).jpg"
       }
     }
   ]

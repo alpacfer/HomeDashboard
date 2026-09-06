@@ -3,6 +3,60 @@
   "dateLabel": "19 February",
   "facts": [
     {
+      "id": "02-19-hacker-news",
+      "date": "02-19",
+      "dateLabel": "19 February",
+      "category": "tech",
+      "categoryName": "Tech",
+      "year": 2007,
+      "title": "Hacker News",
+      "body": "Hacker News (HN) is an American social news website focusing on computer science and entrepreneurship. It is run by the investment fund and startup incubator Y Combinator.",
+      "source": {
+        "name": "Wikipedia · Hacker News",
+        "url": "https://en.wikipedia.org/wiki/Hacker_News",
+        "calendarUrl": "https://en.wikipedia.org/wiki/February_19",
+        "license": {
+          "name": "CC BY-SA 4.0",
+          "url": "https://creativecommons.org/licenses/by-sa/4.0/"
+        }
+      },
+      "image": {
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/ac/Hacker_News.png/500px-Hacker_News.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "alt": "Hacker News — the website this anniversary is about.",
+        "credit": "Cat Fortune",
+        "source": "https://commons.wikimedia.org/wiki/File:Hacker_News.png",
+        "license": "Public domain",
+        "licenseUrl": "https://commons.wikimedia.org/wiki/File:Hacker_News.png"
+      }
+    },
+    {
+      "id": "02-19-dead-rising-video-game",
+      "date": "02-19",
+      "dateLabel": "19 February",
+      "category": "culture",
+      "categoryName": "Culture",
+      "year": 2009,
+      "title": "Dead Rising",
+      "body": "Dead Rising is a 2006 action-adventure game developed and published by Capcom originally for the Xbox 360. The game's story follows wartime photojournalist Frank West, who becomes trapped inside a shopping mall in the town of Willamette, Colorado, during a deadly zombie plague.",
+      "source": {
+        "name": "Wikipedia · Dead Rising (video game)",
+        "url": "https://en.wikipedia.org/wiki/Dead_Rising_(video_game)",
+        "calendarUrl": "https://en.wikipedia.org/wiki/February_19",
+        "license": {
+          "name": "CC BY-SA 4.0",
+          "url": "https://creativecommons.org/licenses/by-sa/4.0/"
+        }
+      },
+      "image": {
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e9/E3_2006_Dead_Rising_booth.jpg/500px-E3_2006_Dead_Rising_booth.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "alt": "Dead Rising — the video game this anniversary is about.",
+        "credit": "Pop Culture Geek",
+        "source": "https://commons.wikimedia.org/wiki/File:E3_2006_Dead_Rising_booth.jpg",
+        "license": "CC BY 2.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by/2.0"
+      }
+    },
+    {
       "id": "02-19-mars-odyssey",
       "date": "02-19",
       "dateLabel": "19 February",
@@ -81,60 +135,6 @@
         "source": "https://commons.wikimedia.org/wiki/File:Zhongguo_Diyimei_Zixing_Sheji_Zhizaode_Shiyan_Tankong_Huojian_T-7M_Fashechang_Yizhi.jpg",
         "license": "CC BY-SA 3.0",
         "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0"
-      }
-    },
-    {
-      "id": "02-19-william-iv",
-      "date": "02-19",
-      "dateLabel": "19 February",
-      "category": "science",
-      "categoryName": "Science",
-      "year": 1836,
-      "title": "William IV",
-      "body": "King William IV signs Letters Patent establishing the province of South Australia.",
-      "source": {
-        "name": "Wikipedia · William IV",
-        "url": "https://en.wikipedia.org/wiki/William_IV",
-        "calendarUrl": "https://en.wikipedia.org/wiki/February_19",
-        "license": {
-          "name": "CC BY-SA 4.0",
-          "url": "https://creativecommons.org/licenses/by-sa/4.0/"
-        }
-      },
-      "image": {
-        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f4/William_IV_in_1833_by_Shee_cropped.jpg/500px-William_IV_in_1833_by_Shee_cropped.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-        "alt": "Picture from the Wikipedia article on William IV.",
-        "credit": "Martin Archer Shee",
-        "source": "https://commons.wikimedia.org/wiki/File:William_IV_in_1833_by_Shee_cropped.jpg",
-        "license": "Public domain",
-        "licenseUrl": "https://commons.wikimedia.org/wiki/File:William_IV_in_1833_by_Shee_cropped.jpg"
-      }
-    },
-    {
-      "id": "02-19-british-empire",
-      "date": "02-19",
-      "dateLabel": "19 February",
-      "category": "science",
-      "categoryName": "Science",
-      "year": 1819,
-      "title": "British Empire",
-      "body": "British explorer William Smith discovers the South Shetland Islands.",
-      "source": {
-        "name": "Wikipedia · British Empire",
-        "url": "https://en.wikipedia.org/wiki/British_Empire",
-        "calendarUrl": "https://en.wikipedia.org/wiki/February_19",
-        "license": {
-          "name": "CC BY-SA 4.0",
-          "url": "https://creativecommons.org/licenses/by-sa/4.0/"
-        }
-      },
-      "image": {
-        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f2/Flag_of_Great_Britain_%281707%E2%80%931800%29.svg/500px-Flag_of_Great_Britain_%281707%E2%80%931800%29.svg.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-        "alt": "Picture from the Wikipedia article on British Empire.",
-        "credit": "Hoshie",
-        "source": "https://commons.wikimedia.org/wiki/File:Flag_of_Great_Britain_(1707%E2%80%931800).svg",
-        "license": "Public domain",
-        "licenseUrl": "https://commons.wikimedia.org/wiki/File:Flag_of_Great_Britain_(1707%E2%80%931800).svg"
       }
     }
   ]

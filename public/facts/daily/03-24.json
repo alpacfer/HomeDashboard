@@ -3,6 +3,33 @@
   "dateLabel": "24 March",
   "facts": [
     {
+      "id": "03-24-space-quest-iii",
+      "date": "03-24",
+      "dateLabel": "24 March",
+      "category": "culture",
+      "categoryName": "Culture",
+      "year": 1989,
+      "title": "Space Quest III",
+      "body": "The Pirates of Pestulon is a 1989 graphic adventure game by Sierra On-Line, and the third game in the Space Quest series.",
+      "source": {
+        "name": "Wikipedia · Space Quest III",
+        "url": "https://en.wikipedia.org/wiki/Space_Quest_III",
+        "calendarUrl": "https://en.wikipedia.org/wiki/March_24",
+        "license": {
+          "name": "CC BY-SA 4.0",
+          "url": "https://creativecommons.org/licenses/by-sa/4.0/"
+        }
+      },
+      "image": {
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/44/SierraOnLine-Box-SpaceQuest3.jpg/500px-SierraOnLine-Box-SpaceQuest3.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "alt": "Space Quest III — the video game this anniversary is about.",
+        "credit": "Sierra On-Line",
+        "source": "https://commons.wikimedia.org/wiki/File:SierraOnLine-Box-SpaceQuest3.jpg",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0"
+      }
+    },
+    {
       "id": "03-24-direct-rule-northern-ireland",
       "date": "03-24",
       "dateLabel": "24 March",
@@ -108,33 +135,6 @@
         "source": "https://commons.wikimedia.org/wiki/File:Flag_of_Bhutan.svg",
         "license": "Public domain",
         "licenseUrl": "https://commons.wikimedia.org/wiki/File:Flag_of_Bhutan.svg"
-      }
-    },
-    {
-      "id": "03-24-mayor-of-new-york-city",
-      "date": "03-24",
-      "dateLabel": "24 March",
-      "category": "world",
-      "categoryName": "World",
-      "year": 1900,
-      "title": "Mayor of New York City",
-      "body": "Mayor of New York City Robert Anderson Van Wyck breaks ground for a new underground \"Rapid Transit Railroad\" that would link Manhattan and Brooklyn.",
-      "source": {
-        "name": "Wikipedia · Mayor of New York City",
-        "url": "https://en.wikipedia.org/wiki/Mayor_of_New_York_City",
-        "calendarUrl": "https://en.wikipedia.org/wiki/March_24",
-        "license": {
-          "name": "CC BY-SA 4.0",
-          "url": "https://creativecommons.org/licenses/by-sa/4.0/"
-        }
-      },
-      "image": {
-        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/60/Flag_of_the_Mayor_of_New_York_City.svg/500px-Flag_of_the_Mayor_of_New_York_City.svg.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-        "alt": "Picture from the Wikipedia article on Mayor of New York City.",
-        "credit": "Fry1989 00:26, 1 December 2010",
-        "source": "https://commons.wikimedia.org/wiki/File:Flag_of_the_Mayor_of_New_York_City.svg",
-        "license": "CC BY-SA 3.0",
-        "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0/"
       }
     }
   ]

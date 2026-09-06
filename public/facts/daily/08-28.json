@@ -3,6 +3,60 @@
   "dateLabel": "28 August",
   "facts": [
     {
+      "id": "08-28-gravity-bone",
+      "date": "08-28",
+      "dateLabel": "28 August",
+      "category": "culture",
+      "categoryName": "Culture",
+      "year": 2008,
+      "title": "Gravity Bone",
+      "body": "Gravity Bone is a 2008 adventure game developed and published by Blendo Games. The freeware game employs a modified version of id Software's Quake II engine and incorporates music from films by director Wong Kar-wai, which were originally performed by Xavier Cugat.",
+      "source": {
+        "name": "Wikipedia · Gravity Bone",
+        "url": "https://en.wikipedia.org/wiki/Gravity_Bone",
+        "calendarUrl": "https://en.wikipedia.org/wiki/August_28",
+        "license": {
+          "name": "CC BY-SA 4.0",
+          "url": "https://creativecommons.org/licenses/by-sa/4.0/"
+        }
+      },
+      "image": {
+        "src": "https://upload.wikimedia.org/wikipedia/commons/3/30/Gravity_Bone_cover.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+        "alt": "Gravity Bone — the video game this anniversary is about.",
+        "credit": "BlendoGames",
+        "source": "https://commons.wikimedia.org/wiki/File:Gravity_Bone_cover.png",
+        "license": "CC BY-SA 2.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0"
+      }
+    },
+    {
+      "id": "08-28-opencl",
+      "date": "08-28",
+      "dateLabel": "28 August",
+      "category": "tech",
+      "categoryName": "Tech",
+      "year": 2009,
+      "title": "OpenCL",
+      "body": "OpenCL (Open Computing Language) is a framework for writing programs that execute across heterogeneous platforms consisting of central processing units (CPUs), graphics processing units (GPUs), digital signal processors (DSPs), field-programmable gate arrays (FPGAs) and other processors or hardware accelerators.",
+      "source": {
+        "name": "Wikipedia · OpenCL",
+        "url": "https://en.wikipedia.org/wiki/OpenCL",
+        "calendarUrl": "https://en.wikipedia.org/wiki/August_28",
+        "license": {
+          "name": "CC BY-SA 4.0",
+          "url": "https://creativecommons.org/licenses/by-sa/4.0/"
+        }
+      },
+      "image": {
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/19/Clinfo_screenshot.png/500px-Clinfo_screenshot.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "alt": "OpenCL — the programming language this anniversary is about.",
+        "credit": "VulcanSphere",
+        "source": "https://commons.wikimedia.org/wiki/File:Clinfo_screenshot.png",
+        "license": "CC0",
+        "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/deed.en"
+      }
+    },
+    {
       "id": "08-28-soyuz-tm-29",
       "date": "08-28",
       "dateLabel": "28 August",
@@ -27,33 +81,6 @@
         "source": "https://commons.wikimedia.org/wiki/File:Soyuz_TM-29_logo_SVG.svg",
         "license": "Public domain",
         "licenseUrl": "https://commons.wikimedia.org/wiki/File:Soyuz_TM-29_logo_SVG.svg"
-      }
-    },
-    {
-      "id": "08-28-solar-storm-of-1859",
-      "date": "08-28",
-      "dateLabel": "28 August",
-      "category": "tech",
-      "categoryName": "Tech",
-      "year": 1859,
-      "title": "Carrington Event",
-      "body": "The Carrington event is the strongest geomagnetic storm on record to strike the Earth. Electrical telegraph service is widely disrupted.",
-      "source": {
-        "name": "Wikipedia · Carrington Event",
-        "url": "https://en.wikipedia.org/wiki/Carrington_Event",
-        "calendarUrl": "https://en.wikipedia.org/wiki/August_28",
-        "license": {
-          "name": "CC BY-SA 4.0",
-          "url": "https://creativecommons.org/licenses/by-sa/4.0/"
-        }
-      },
-      "image": {
-        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/92/Carrington_Richard_drawing_of_1859_sunspots.jpeg/500px-Carrington_Richard_drawing_of_1859_sunspots.jpeg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-        "alt": "Picture from the Wikipedia article on Carrington Event.",
-        "credit": "Richard Christopher Carrington",
-        "source": "https://commons.wikimedia.org/wiki/File:Carrington_Richard_drawing_of_1859_sunspots.jpeg",
-        "license": "Public domain",
-        "licenseUrl": "https://commons.wikimedia.org/wiki/File:Carrington_Richard_drawing_of_1859_sunspots.jpeg"
       }
     },
     {
@@ -108,33 +135,6 @@
         "source": "https://commons.wikimedia.org/wiki/File:HenryHudson.jpg",
         "license": "Public domain",
         "licenseUrl": "https://commons.wikimedia.org/wiki/File:HenryHudson.jpg"
-      }
-    },
-    {
-      "id": "08-28-galileo-spacecraft",
-      "date": "08-28",
-      "dateLabel": "28 August",
-      "category": "space",
-      "categoryName": "Space",
-      "year": 1993,
-      "title": "Galileo",
-      "body": "NASA's Galileo probe performs a flyby of the asteroid 243 Ida. Astronomers later discover a moon, the first known asteroid moon, in pictures from the flyby and name it Dactyl.",
-      "source": {
-        "name": "Wikipedia · Galileo (spacecraft)",
-        "url": "https://en.wikipedia.org/wiki/Galileo_(spacecraft)",
-        "calendarUrl": "https://en.wikipedia.org/wiki/August_28",
-        "license": {
-          "name": "CC BY-SA 4.0",
-          "url": "https://creativecommons.org/licenses/by-sa/4.0/"
-        }
-      },
-      "image": {
-        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/9c/Artwork_Galileo-Io-Jupiter.JPG/500px-Artwork_Galileo-Io-Jupiter.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-        "alt": "Picture from the Wikipedia article on Galileo.",
-        "credit": "NASA",
-        "source": "https://commons.wikimedia.org/wiki/File:Artwork_Galileo-Io-Jupiter.JPG",
-        "license": "Public domain",
-        "licenseUrl": "https://commons.wikimedia.org/wiki/File:Artwork_Galileo-Io-Jupiter.JPG"
       }
     }
   ]

@@ -3,17 +3,17 @@
   "dateLabel": "27 September",
   "facts": [
     {
-      "id": "09-27-google",
+      "id": "09-27-gnu",
       "date": "09-27",
       "dateLabel": "27 September",
       "category": "tech",
       "categoryName": "Tech",
-      "year": 1998,
-      "title": "Google",
-      "body": "The Google internet search engine retroactively claims this date as its birthday.",
+      "year": 1983,
+      "title": "GNU",
+      "body": "GNU ( GNOO) is an extensive collection of free software (387 packages as of June 2025), which can be used as an operating system or can be used in parts with other operating systems.",
       "source": {
-        "name": "Wikipedia · Google",
-        "url": "https://en.wikipedia.org/wiki/Google",
+        "name": "Wikipedia · GNU",
+        "url": "https://en.wikipedia.org/wiki/GNU",
         "calendarUrl": "https://en.wikipedia.org/wiki/September_27",
         "license": {
           "name": "CC BY-SA 4.0",
@@ -21,12 +21,39 @@
         }
       },
       "image": {
-        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/32/Googleplex_HQ_%28cropped%29.jpg/500px-Googleplex_HQ_%28cropped%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-        "alt": "Picture from the Wikipedia article on Google.",
-        "credit": "Asoundd",
-        "source": "https://commons.wikimedia.org/wiki/File:Googleplex_HQ_(cropped).jpg",
-        "license": "CC BY-SA 4.0",
-        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0"
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/bf/Xfce4_en_Debian_GNU-Hurd.png/500px-Xfce4_en_Debian_GNU-Hurd.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "alt": "GNU — the operating system this anniversary is about.",
+        "credit": "Davod",
+        "source": "https://commons.wikimedia.org/wiki/File:Xfce4_en_Debian_GNU-Hurd.png",
+        "license": "CC BY 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by/4.0"
+      }
+    },
+    {
+      "id": "09-27-rochard",
+      "date": "09-27",
+      "dateLabel": "27 September",
+      "category": "culture",
+      "categoryName": "Culture",
+      "year": 2011,
+      "title": "Rochard",
+      "body": "Rochard is a science fiction platform game available for the PlayStation 3 through the PlayStation Network, for Android, Microsoft Windows, Linux and Mac OS X through the Steam online distribution platform, and for Linux as part of the Humble Indie Bundle 6.",
+      "source": {
+        "name": "Wikipedia · Rochard",
+        "url": "https://en.wikipedia.org/wiki/Rochard",
+        "calendarUrl": "https://en.wikipedia.org/wiki/September_27",
+        "license": {
+          "name": "CC BY-SA 4.0",
+          "url": "https://creativecommons.org/licenses/by-sa/4.0/"
+        }
+      },
+      "image": {
+        "src": "https://upload.wikimedia.org/wikipedia/commons/e/ea/Rochard_Cover.PNG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+        "alt": "Rochard — the video game this anniversary is about.",
+        "credit": "Sampsa Lehtonen/Recoil Games",
+        "source": "https://commons.wikimedia.org/wiki/File:Rochard_Cover.PNG",
+        "license": "CC BY-SA 3.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0"
       }
     },
     {
@@ -84,17 +111,17 @@
       }
     },
     {
-      "id": "09-27-dawn-spacecraft",
+      "id": "09-27-google",
       "date": "09-27",
       "dateLabel": "27 September",
-      "category": "space",
-      "categoryName": "Space",
-      "year": 2007,
-      "title": "Dawn",
-      "body": "NASA launches the Dawn probe to the asteroid belt.",
+      "category": "tech",
+      "categoryName": "Tech",
+      "year": 1998,
+      "title": "Google",
+      "body": "The Google internet search engine retroactively claims this date as its birthday.",
       "source": {
-        "name": "Wikipedia · Dawn (spacecraft)",
-        "url": "https://en.wikipedia.org/wiki/Dawn_(spacecraft)",
+        "name": "Wikipedia · Google",
+        "url": "https://en.wikipedia.org/wiki/Google",
         "calendarUrl": "https://en.wikipedia.org/wiki/September_27",
         "license": {
           "name": "CC BY-SA 4.0",
@@ -102,39 +129,12 @@
         }
       },
       "image": {
-        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/35/Dawn_logo.png/500px-Dawn_logo.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-        "alt": "Picture from the Wikipedia article on Dawn.",
-        "credit": "NASA",
-        "source": "https://commons.wikimedia.org/wiki/File:Dawn_logo.png",
-        "license": "Public domain",
-        "licenseUrl": "https://commons.wikimedia.org/wiki/File:Dawn_logo.png"
-      }
-    },
-    {
-      "id": "09-27-september-2019-climate-strikes",
-      "date": "09-27",
-      "dateLabel": "27 September",
-      "category": "world",
-      "categoryName": "World",
-      "year": 2019,
-      "title": "September 2019 climate strikes",
-      "body": "Over two million people participated in worldwide strikes to protest climate change across 2,400 locations worldwide.",
-      "source": {
-        "name": "Wikipedia · September 2019 climate strikes",
-        "url": "https://en.wikipedia.org/wiki/September_2019_climate_strikes",
-        "calendarUrl": "https://en.wikipedia.org/wiki/September_27",
-        "license": {
-          "name": "CC BY-SA 4.0",
-          "url": "https://creativecommons.org/licenses/by-sa/4.0/"
-        }
-      },
-      "image": {
-        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/50/Sept_2019_Global_Climate_Strike_logo_en.svg/500px-Sept_2019_Global_Climate_Strike_logo_en.svg.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-        "alt": "Picture from the Wikipedia article on September 2019 climate strikes.",
-        "credit": "350.org",
-        "source": "https://commons.wikimedia.org/wiki/File:Sept_2019_Global_Climate_Strike_logo_en.svg",
-        "license": "Public domain",
-        "licenseUrl": "https://commons.wikimedia.org/wiki/File:Sept_2019_Global_Climate_Strike_logo_en.svg"
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/32/Googleplex_HQ_%28cropped%29.jpg/500px-Googleplex_HQ_%28cropped%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "alt": "Picture from the Wikipedia article on Google.",
+        "credit": "Asoundd",
+        "source": "https://commons.wikimedia.org/wiki/File:Googleplex_HQ_(cropped).jpg",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0"
       }
     }
   ]

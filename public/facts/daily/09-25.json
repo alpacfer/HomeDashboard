@@ -3,6 +3,33 @@
   "dateLabel": "25 September",
   "facts": [
     {
+      "id": "09-25-duckduckgo",
+      "date": "09-25",
+      "dateLabel": "25 September",
+      "category": "tech",
+      "categoryName": "Tech",
+      "year": 2008,
+      "title": "DuckDuckGo",
+      "body": "DuckDuckGo is an American software company founded by Gabriel Weinberg in 2008 that focuses on Internet privacy. Its flagship product is a search engine named DuckDuckGo.",
+      "source": {
+        "name": "Wikipedia · DuckDuckGo",
+        "url": "https://en.wikipedia.org/wiki/DuckDuckGo",
+        "calendarUrl": "https://en.wikipedia.org/wiki/September_25",
+        "license": {
+          "name": "CC BY-SA 4.0",
+          "url": "https://creativecommons.org/licenses/by-sa/4.0/"
+        }
+      },
+      "image": {
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/80/Tor_Hidden_Service_of_Duck_Duck_Go_24072019.png/500px-Tor_Hidden_Service_of_Duck_Duck_Go_24072019.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "alt": "DuckDuckGo — the search engine this anniversary is about.",
+        "credit": "Tor project, DuckDuckGo",
+        "source": "https://commons.wikimedia.org/wiki/File:Tor_Hidden_Service_of_Duck_Duck_Go_24072019.png",
+        "license": "Public domain",
+        "licenseUrl": "https://commons.wikimedia.org/wiki/File:Tor_Hidden_Service_of_Duck_Duck_Go_24072019.png"
+      }
+    },
+    {
       "id": "09-25-mars-observer",
       "date": "09-25",
       "dateLabel": "25 September",
@@ -27,33 +54,6 @@
         "source": "https://commons.wikimedia.org/wiki/File:Mars_Observer.jpg",
         "license": "Public domain",
         "licenseUrl": "https://commons.wikimedia.org/wiki/File:Mars_Observer.jpg"
-      }
-    },
-    {
-      "id": "09-25-tat-1",
-      "date": "09-25",
-      "dateLabel": "25 September",
-      "category": "tech",
-      "categoryName": "Tech",
-      "year": 1956,
-      "title": "TAT-1",
-      "body": "TAT-1, the first submarine transatlantic telephone cable system, is inaugurated.",
-      "source": {
-        "name": "Wikipedia · TAT-1",
-        "url": "https://en.wikipedia.org/wiki/TAT-1",
-        "calendarUrl": "https://en.wikipedia.org/wiki/September_25",
-        "license": {
-          "name": "CC BY-SA 4.0",
-          "url": "https://creativecommons.org/licenses/by-sa/4.0/"
-        }
-      },
-      "image": {
-        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/10/The_Bell_System_technical_journal_%281922%29_%2814753547484%29.jpg/500px-The_Bell_System_technical_journal_%281922%29_%2814753547484%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-        "alt": "Picture from the Wikipedia article on TAT-1.",
-        "credit": "American Telephone and Telegraph Company",
-        "source": "https://commons.wikimedia.org/wiki/File:The_Bell_System_technical_journal_(1922)_(14753547484).jpg",
-        "license": "No restrictions",
-        "licenseUrl": "https://www.flickr.com/commons/usage/"
       }
     },
     {

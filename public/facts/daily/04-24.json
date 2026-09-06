@@ -3,6 +3,60 @@
   "dateLabel": "24 April",
   "facts": [
     {
+      "id": "04-24-google-drive",
+      "date": "04-24",
+      "dateLabel": "24 April",
+      "category": "tech",
+      "categoryName": "Tech",
+      "year": 2012,
+      "title": "Q9340",
+      "body": "Google Drive is a file-hosting service and synchronization service developed by Google. Launched on April 24, 2012, Google Drive allows users to store files in the cloud (on Google servers), synchronize files across devices, and share files.",
+      "source": {
+        "name": "Wikipedia · Google Drive",
+        "url": "https://en.wikipedia.org/wiki/Google_Drive",
+        "calendarUrl": "https://en.wikipedia.org/wiki/April_24",
+        "license": {
+          "name": "CC BY-SA 4.0",
+          "url": "https://creativecommons.org/licenses/by-sa/4.0/"
+        }
+      },
+      "image": {
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/6e/Chromium_OS_Google_Drive_NRLTY.png/500px-Chromium_OS_Google_Drive_NRLTY.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "alt": "Q9340 — the application this anniversary is about.",
+        "credit": "Google Inc., NotinREALITY",
+        "source": "https://commons.wikimedia.org/wiki/File:Chromium_OS_Google_Drive_NRLTY.png",
+        "license": "BSD",
+        "licenseUrl": "https://opensource.org/licenses/bsd-license.php"
+      }
+    },
+    {
+      "id": "04-24-windows-server-2003",
+      "date": "04-24",
+      "dateLabel": "24 April",
+      "category": "tech",
+      "categoryName": "Tech",
+      "year": 2003,
+      "title": "Windows Server 2003",
+      "body": "Windows Server 2003, codenamed \"Whistler Server\", is the sixth major version of the Windows NT operating system produced by Microsoft and the first server version to be released under the Windows Server brand name.",
+      "source": {
+        "name": "Wikipedia · Windows Server 2003",
+        "url": "https://en.wikipedia.org/wiki/Windows_Server_2003",
+        "calendarUrl": "https://en.wikipedia.org/wiki/April_24",
+        "license": {
+          "name": "CC BY-SA 4.0",
+          "url": "https://creativecommons.org/licenses/by-sa/4.0/"
+        }
+      },
+      "image": {
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/cd/VirtualBox_Windows_Server_2003_Server_Enterprise_x64_VL_08_01_2025_10_14_47_CENS.png/500px-VirtualBox_Windows_Server_2003_Server_Enterprise_x64_VL_08_01_2025_10_14_47_CENS.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "alt": "Windows Server 2003 — the operating system this anniversary is about.",
+        "credit": "Microsoft Corporation Screenshot…",
+        "source": "https://commons.wikimedia.org/wiki/File:VirtualBox_Windows_Server_2003_Server_Enterprise_x64_VL_08_01_2025_10_14_47_CENS.png",
+        "license": "Public domain",
+        "licenseUrl": "https://commons.wikimedia.org/wiki/File:VirtualBox_Windows_Server_2003_Server_Enterprise_x64_VL_08_01_2025_10_14_47_CENS.png"
+      }
+    },
+    {
       "id": "04-24-dong-fang-hong-i",
       "date": "04-24",
       "dateLabel": "24 April",
@@ -93,60 +147,6 @@
         "source": "https://commons.wikimedia.org/wiki/File:Sir_Winston_Churchill_-_19086236948_(restored).jpg",
         "license": "Public domain",
         "licenseUrl": "https://commons.wikimedia.org/wiki/File:Sir_Winston_Churchill_-_19086236948_(restored).jpg"
-      }
-    },
-    {
-      "id": "04-24-hubble-space-telescope",
-      "date": "04-24",
-      "dateLabel": "24 April",
-      "category": "space",
-      "categoryName": "Space",
-      "year": 1990,
-      "title": "Hubble Space Telescope",
-      "body": "The Hubble Space Telescope is launched from the Space Shuttle Discovery.",
-      "source": {
-        "name": "Wikipedia · Hubble Space Telescope",
-        "url": "https://en.wikipedia.org/wiki/Hubble_Space_Telescope",
-        "calendarUrl": "https://en.wikipedia.org/wiki/April_24",
-        "license": {
-          "name": "CC BY-SA 4.0",
-          "url": "https://creativecommons.org/licenses/by-sa/4.0/"
-        }
-      },
-      "image": {
-        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/4a/Hubble_2009_close-up_2.jpg/500px-Hubble_2009_close-up_2.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-        "alt": "Picture from the Wikipedia article on Hubble Space Telescope.",
-        "credit": "NASA",
-        "source": "https://commons.wikimedia.org/wiki/File:Hubble_2009_close-up_2.jpg",
-        "license": "Public domain",
-        "licenseUrl": "https://commons.wikimedia.org/wiki/File:Hubble_2009_close-up_2.jpg"
-      }
-    },
-    {
-      "id": "04-24-douglas-dc-3",
-      "date": "04-24",
-      "dateLabel": "24 April",
-      "category": "world",
-      "categoryName": "World",
-      "year": 1994,
-      "title": "Douglas DC-3",
-      "body": "A Douglas DC-3 ditches in Botany Bay after takeoff from Sydney Airport. All 25 people on board survive.",
-      "source": {
-        "name": "Wikipedia · Douglas DC-3",
-        "url": "https://en.wikipedia.org/wiki/Douglas_DC-3",
-        "calendarUrl": "https://en.wikipedia.org/wiki/April_24",
-        "license": {
-          "name": "CC BY-SA 4.0",
-          "url": "https://creativecommons.org/licenses/by-sa/4.0/"
-        }
-      },
-      "image": {
-        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/df/Douglas_DC-3%2C_SE-CFP.jpg/500px-Douglas_DC-3%2C_SE-CFP.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-        "alt": "Picture from the Wikipedia article on Douglas DC-3.",
-        "credit": "Towpilot",
-        "source": "https://commons.wikimedia.org/wiki/File:Douglas_DC-3,_SE-CFP.jpg",
-        "license": "CC BY-SA 3.0",
-        "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0/"
       }
     }
   ]

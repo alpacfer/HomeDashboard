@@ -3,6 +3,33 @@
   "dateLabel": "17 August",
   "facts": [
     {
+      "id": "08-17-toy-soldiers-cold-war",
+      "date": "08-17",
+      "dateLabel": "17 August",
+      "category": "culture",
+      "categoryName": "Culture",
+      "year": 2011,
+      "title": "Toy Soldiers: Cold War",
+      "body": "Cold War is an action strategy video game, developed by Signal Studios. It is the sequel to Toy Soldiers.",
+      "source": {
+        "name": "Wikipedia · Toy Soldiers: Cold War",
+        "url": "https://en.wikipedia.org/wiki/Toy_Soldiers:_Cold_War",
+        "calendarUrl": "https://en.wikipedia.org/wiki/August_17",
+        "license": {
+          "name": "CC BY-SA 4.0",
+          "url": "https://creativecommons.org/licenses/by-sa/4.0/"
+        }
+      },
+      "image": {
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/3f/Toy-Soldiers-Cold-War_Brand_ID_crop.jpg/500px-Toy-Soldiers-Cold-War_Brand_ID_crop.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "alt": "Toy Soldiers: Cold War — the video game this anniversary is about.",
+        "credit": "Signal Studios",
+        "source": "https://commons.wikimedia.org/wiki/File:Toy-Soldiers-Cold-War_Brand_ID_crop.jpg",
+        "license": "CC BY 3.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by/3.0"
+      }
+    },
+    {
       "id": "08-17-venera",
       "date": "08-17",
       "dateLabel": "17 August",
@@ -81,33 +108,6 @@
         "source": "https://commons.wikimedia.org/wiki/File:RIAN_archive_186141_Nuclear_icebreaker_Arktika_(cropped).jpg",
         "license": "CC BY-SA 3.0",
         "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0"
-      }
-    },
-    {
-      "id": "08-17-richard-wagner",
-      "date": "08-17",
-      "dateLabel": "17 August",
-      "category": "culture",
-      "categoryName": "Culture",
-      "year": 1876,
-      "title": "Richard Wagner",
-      "body": "Richard Wagner's Götterdämmerung, the last opera in his Ring cycle, premieres at the Bayreuth Festspielhaus.",
-      "source": {
-        "name": "Wikipedia · Richard Wagner",
-        "url": "https://en.wikipedia.org/wiki/Richard_Wagner",
-        "calendarUrl": "https://en.wikipedia.org/wiki/August_17",
-        "license": {
-          "name": "CC BY-SA 4.0",
-          "url": "https://creativecommons.org/licenses/by-sa/4.0/"
-        }
-      },
-      "image": {
-        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/9d/RichardWagner.jpg/500px-RichardWagner.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-        "alt": "Picture from the Wikipedia article on Richard Wagner.",
-        "credit": "Franz Hanfstaengl",
-        "source": "https://commons.wikimedia.org/wiki/File:RichardWagner.jpg",
-        "license": "Public domain",
-        "licenseUrl": "https://commons.wikimedia.org/wiki/File:RichardWagner.jpg"
       }
     },
     {

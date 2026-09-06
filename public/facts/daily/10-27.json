@@ -3,6 +3,33 @@
   "dateLabel": "27 October",
   "facts": [
     {
+      "id": "10-27-littlebigplanet-2008-video-game",
+      "date": "10-27",
+      "dateLabel": "27 October",
+      "category": "culture",
+      "categoryName": "Culture",
+      "year": 2008,
+      "title": "LittleBigPlanet",
+      "body": "LittleBigPlanet is a 2008 platform video game developed by Media Molecule and published by Sony Computer Entertainment for the PlayStation 3. In LittleBigPlanet, the player controls Sackboy, a customizable ragged doll as they explore the titular realm.",
+      "source": {
+        "name": "Wikipedia · LittleBigPlanet (2008 video game)",
+        "url": "https://en.wikipedia.org/wiki/LittleBigPlanet_(2008_video_game)",
+        "calendarUrl": "https://en.wikipedia.org/wiki/October_27",
+        "license": {
+          "name": "CC BY-SA 4.0",
+          "url": "https://creativecommons.org/licenses/by-sa/4.0/"
+        }
+      },
+      "image": {
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/87/SonyFair2008_Day1_PS3_LittleBIGPlanet.jpg/500px-SonyFair2008_Day1_PS3_LittleBIGPlanet.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "alt": "LittleBigPlanet — the video game this anniversary is about.",
+        "credit": "Rico Shen",
+        "source": "https://commons.wikimedia.org/wiki/File:SonyFair2008_Day1_PS3_LittleBIGPlanet.jpg",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0"
+      }
+    },
+    {
       "id": "10-27-sa-1-apollo",
       "date": "10-27",
       "dateLabel": "27 October",
@@ -108,33 +135,6 @@
         "source": "https://commons.wikimedia.org/wiki/File:Canary-wharf-one.jpg",
         "license": "Public domain",
         "licenseUrl": "https://commons.wikimedia.org/wiki/File:Canary-wharf-one.jpg"
-      }
-    },
-    {
-      "id": "10-27-embassy-of-the-united-states-moscow",
-      "date": "10-27",
-      "dateLabel": "27 October",
-      "category": "world",
-      "categoryName": "World",
-      "year": 1988,
-      "title": "Embassy of the United States, Moscow",
-      "body": "Ronald Reagan suspends construction of the new U.S. Embassy in Moscow due to Soviet listening devices in the building structure.",
-      "source": {
-        "name": "Wikipedia · Embassy of the United States, Moscow",
-        "url": "https://en.wikipedia.org/wiki/Embassy_of_the_United_States,_Moscow",
-        "calendarUrl": "https://en.wikipedia.org/wiki/October_27",
-        "license": {
-          "name": "CC BY-SA 4.0",
-          "url": "https://creativecommons.org/licenses/by-sa/4.0/"
-        }
-      },
-      "image": {
-        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/43/US_Embassy_in_Moscow%2C_Russia%2C_2022-1.png/500px-US_Embassy_in_Moscow%2C_Russia%2C_2022-1.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-        "alt": "Picture from the Wikipedia article on Embassy of the United States, Moscow.",
-        "credit": "TagMorgan",
-        "source": "https://commons.wikimedia.org/wiki/File:US_Embassy_in_Moscow,_Russia,_2022-1.png",
-        "license": "CC BY-SA 4.0",
-        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0"
       }
     }
   ]

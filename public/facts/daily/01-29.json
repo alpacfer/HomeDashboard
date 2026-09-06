@@ -3,17 +3,17 @@
   "dateLabel": "29 January",
   "facts": [
     {
-      "id": "01-29-the-raven",
+      "id": "01-29-manhole-video-game",
       "date": "01-29",
       "dateLabel": "29 January",
       "category": "culture",
       "categoryName": "Culture",
-      "year": 1845,
-      "title": "The Raven",
-      "body": "\"The Raven\" is published in The Evening Mirror in New York, the first publication with the name of the author, Edgar Allan Poe.",
+      "year": 1981,
+      "title": "Game & Watch: Manhole",
+      "body": "Manhole is an action Game & Watch video game, one of six releases for the Gold Series of Game & Watch systems.",
       "source": {
-        "name": "Wikipedia · The Raven",
-        "url": "https://en.wikipedia.org/wiki/The_Raven",
+        "name": "Wikipedia · Manhole (video game)",
+        "url": "https://en.wikipedia.org/wiki/Manhole_(video_game)",
         "calendarUrl": "https://en.wikipedia.org/wiki/January_29",
         "license": {
           "name": "CC BY-SA 4.0",
@@ -21,12 +21,39 @@
         }
       },
       "image": {
-        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/06/Raven_Manet_C2.jpg/500px-Raven_Manet_C2.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-        "alt": "Picture from the Wikipedia article on The Raven.",
-        "credit": "Édouard Manet",
-        "source": "https://commons.wikimedia.org/wiki/File:Raven_Manet_C2.jpg",
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/5d/Manhole_-_Game%26Watch_-_Nintendo.jpg/500px-Manhole_-_Game%26Watch_-_Nintendo.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "alt": "Game & Watch: Manhole — the video game this anniversary is about.",
+        "credit": "Xabi Vazquez, user of Flickr",
+        "source": "https://commons.wikimedia.org/wiki/File:Manhole_-_Game%26Watch_-_Nintendo.jpg",
+        "license": "CC BY 2.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by/2.0"
+      }
+    },
+    {
+      "id": "01-29-the-castle-doctrine",
+      "date": "01-29",
+      "dateLabel": "29 January",
+      "category": "culture",
+      "categoryName": "Culture",
+      "year": 2014,
+      "title": "The Castle Doctrine",
+      "body": "The Castle Doctrine is a 2014 strategy video game developed and published by Jason Rohrer for Microsoft Windows, OS X, and Linux via Valve's Steam platform.",
+      "source": {
+        "name": "Wikipedia · The Castle Doctrine",
+        "url": "https://en.wikipedia.org/wiki/The_Castle_Doctrine",
+        "calendarUrl": "https://en.wikipedia.org/wiki/January_29",
+        "license": {
+          "name": "CC BY-SA 4.0",
+          "url": "https://creativecommons.org/licenses/by-sa/4.0/"
+        }
+      },
+      "image": {
+        "src": "https://upload.wikimedia.org/wikipedia/commons/5/52/The_Castle_Doctrine_house_screenshot.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+        "alt": "The Castle Doctrine — the video game this anniversary is about.",
+        "credit": "See below",
+        "source": "https://commons.wikimedia.org/wiki/File:The_Castle_Doctrine_house_screenshot.jpg",
         "license": "Public domain",
-        "licenseUrl": "https://commons.wikimedia.org/wiki/File:Raven_Manet_C2.jpg"
+        "licenseUrl": "https://commons.wikimedia.org/wiki/File:The_Castle_Doctrine_house_screenshot.jpg"
       }
     },
     {
@@ -84,17 +111,17 @@
       }
     },
     {
-      "id": "01-29-charles-curtis",
+      "id": "01-29-the-raven",
       "date": "01-29",
       "dateLabel": "29 January",
-      "category": "world",
-      "categoryName": "World",
-      "year": 1907,
-      "title": "Charles Curtis",
-      "body": "Charles Curtis of Kansas becomes the first Native American U.S. Senator.",
+      "category": "culture",
+      "categoryName": "Culture",
+      "year": 1845,
+      "title": "The Raven",
+      "body": "\"The Raven\" is published in The Evening Mirror in New York, the first publication with the name of the author, Edgar Allan Poe.",
       "source": {
-        "name": "Wikipedia · Charles Curtis",
-        "url": "https://en.wikipedia.org/wiki/Charles_Curtis",
+        "name": "Wikipedia · The Raven",
+        "url": "https://en.wikipedia.org/wiki/The_Raven",
         "calendarUrl": "https://en.wikipedia.org/wiki/January_29",
         "license": {
           "name": "CC BY-SA 4.0",
@@ -102,39 +129,12 @@
         }
       },
       "image": {
-        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e6/Charles_Curtis-portrait.jpg/500px-Charles_Curtis-portrait.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-        "alt": "Picture from the Wikipedia article on Charles Curtis.",
-        "credit": "Strauss Peyton, Kansas City, Missouri",
-        "source": "https://commons.wikimedia.org/wiki/File:Charles_Curtis-portrait.jpg",
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/06/Raven_Manet_C2.jpg/500px-Raven_Manet_C2.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "alt": "Picture from the Wikipedia article on The Raven.",
+        "credit": "Édouard Manet",
+        "source": "https://commons.wikimedia.org/wiki/File:Raven_Manet_C2.jpg",
         "license": "Public domain",
-        "licenseUrl": "https://commons.wikimedia.org/wiki/File:Charles_Curtis-portrait.jpg"
-      }
-    },
-    {
-      "id": "01-29-hungary-south-korea-relations",
-      "date": "01-29",
-      "dateLabel": "29 January",
-      "category": "world",
-      "categoryName": "World",
-      "year": 1989,
-      "title": "Hungary–South Korea relations",
-      "body": "Hungary establishes diplomatic relations with South Korea, making it the first Eastern Bloc nation to do so.",
-      "source": {
-        "name": "Wikipedia · Hungary–South Korea relations",
-        "url": "https://en.wikipedia.org/wiki/Hungary%E2%80%93South_Korea_relations",
-        "calendarUrl": "https://en.wikipedia.org/wiki/January_29",
-        "license": {
-          "name": "CC BY-SA 4.0",
-          "url": "https://creativecommons.org/licenses/by-sa/4.0/"
-        }
-      },
-      "image": {
-        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/8d/Hungary_South_Korea_Locator.png/500px-Hungary_South_Korea_Locator.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-        "alt": "Picture from the Wikipedia article on Hungary–South Korea relations.",
-        "credit": "Aridd",
-        "source": "https://commons.wikimedia.org/wiki/File:Hungary_South_Korea_Locator.png",
-        "license": "Public domain",
-        "licenseUrl": "https://commons.wikimedia.org/wiki/File:Hungary_South_Korea_Locator.png"
+        "licenseUrl": "https://commons.wikimedia.org/wiki/File:Raven_Manet_C2.jpg"
       }
     }
   ]

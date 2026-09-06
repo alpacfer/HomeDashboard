@@ -486,6 +486,38 @@ export function readableBody(text) {
   return body;
 }
 
+/**
+ * The opening of a Wikipedia article, cut to something a wall can hold.
+ *
+ * A calendar entry is one sentence somebody wrote to be one sentence. An
+ * article's opening is not: Syberia's is 67 words of ports and platforms, and
+ * the longest in the calendar ran to 106. The panel has room for about 48.
+ *
+ * Whole sentences where they fit. Where even the first does not, the cut goes
+ * at the last comma inside the budget, so what is left still ends on a clause
+ * rather than mid-list.
+ */
+export function trimToWords(text, maxWords = 44) {
+  const body = String(text ?? '').trim();
+  if (!body) return '';
+  const sentences = body.match(/[^.!?]+[.!?]+(?=\s|$)|[^.!?]+$/g) ?? [body];
+  let out = '';
+  for (const sentence of sentences) {
+    const next = out ? `${out} ${sentence.trim()}` : sentence.trim();
+    if (out && next.split(/\s+/).length > maxWords) break;
+    out = next;
+    if (out.split(/\s+/).length >= maxWords) break;
+  }
+  const words = out.split(/\s+/);
+  if (words.length <= maxWords) return out;
+  let cut = words.slice(0, maxWords).join(' ');
+  const comma = cut.lastIndexOf(',');
+  // Only if the comma leaves most of the sentence standing; cutting "Syberia
+  // is a graphic adventure game," down to "Syberia is a" helps nobody.
+  if (comma > cut.length * 0.5) cut = cut.slice(0, comma);
+  return `${cut.replace(/[,;:\s]+$/, '')}.`;
+}
+
 // Whether a clip earns the slot a photograph would otherwise have.
 //
 // A video is not an upgrade on a picture. It costs a decoder on a stick that

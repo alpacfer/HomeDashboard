@@ -3,6 +3,60 @@
   "dateLabel": "22 October",
   "facts": [
     {
+      "id": "10-22-expedia",
+      "date": "10-22",
+      "dateLabel": "22 October",
+      "category": "tech",
+      "categoryName": "Tech",
+      "year": 1996,
+      "title": "expedia.com",
+      "body": "Expedia Inc. is an American online travel agency owned by Expedia Group, which is headquartered in Seattle, Washington.",
+      "source": {
+        "name": "Wikipedia · Expedia",
+        "url": "https://en.wikipedia.org/wiki/Expedia",
+        "calendarUrl": "https://en.wikipedia.org/wiki/October_22",
+        "license": {
+          "name": "CC BY-SA 4.0",
+          "url": "https://creativecommons.org/licenses/by-sa/4.0/"
+        }
+      },
+      "image": {
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c4/Bellevue%2C_WA_-_Expedia_Building_01.jpg/500px-Bellevue%2C_WA_-_Expedia_Building_01.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "alt": "expedia.com — the mobile app this anniversary is about.",
+        "credit": "Joe Mabel",
+        "source": "https://commons.wikimedia.org/wiki/File:Bellevue,_WA_-_Expedia_Building_01.jpg",
+        "license": "CC BY-SA 3.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0"
+      }
+    },
+    {
+      "id": "10-22-opencity",
+      "date": "10-22",
+      "dateLabel": "22 October",
+      "category": "culture",
+      "categoryName": "Culture",
+      "year": 2009,
+      "title": "OpenCity",
+      "body": "OpenCity is a discontinued 3D city-building game started in 2003 by France-based Vietnamese programmer Duong-Khang Nguyen. The game mechanics are similar to SimCity, although the game developers do not strive to make it a direct SimCity video game clone.",
+      "source": {
+        "name": "Wikipedia · OpenCity",
+        "url": "https://en.wikipedia.org/wiki/OpenCity",
+        "calendarUrl": "https://en.wikipedia.org/wiki/October_22",
+        "license": {
+          "name": "CC BY-SA 4.0",
+          "url": "https://creativecommons.org/licenses/by-sa/4.0/"
+        }
+      },
+      "image": {
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/77/OpenCity-0.0.5-mainstatusbar.jpg/500px-OpenCity-0.0.5-mainstatusbar.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "alt": "OpenCity — the video game this anniversary is about.",
+        "credit": "Duong-Khang NGUYEN",
+        "source": "https://commons.wikimedia.org/wiki/File:OpenCity-0.0.5-mainstatusbar.jpg",
+        "license": "GPL",
+        "licenseUrl": "https://www.gnu.org/licenses/gpl.html"
+      }
+    },
+    {
       "id": "10-22-jean-paul-sartre",
       "date": "10-22",
       "dateLabel": "22 October",
@@ -57,33 +111,6 @@
       }
     },
     {
-      "id": "10-22-john-adams-composer",
-      "date": "10-22",
-      "dateLabel": "22 October",
-      "category": "culture",
-      "categoryName": "Culture",
-      "year": 1987,
-      "title": "John Adams",
-      "body": "John Adams' opera Nixon in China premiered at the Houston Grand Opera.",
-      "source": {
-        "name": "Wikipedia · John Adams (composer)",
-        "url": "https://en.wikipedia.org/wiki/John_Adams_(composer)",
-        "calendarUrl": "https://en.wikipedia.org/wiki/October_22",
-        "license": {
-          "name": "CC BY-SA 4.0",
-          "url": "https://creativecommons.org/licenses/by-sa/4.0/"
-        }
-      },
-      "image": {
-        "src": "https://upload.wikimedia.org/wikipedia/commons/0/07/JA-portrait-1-LW.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
-        "alt": "Picture from the Wikipedia article on John Adams.",
-        "credit": "Macror",
-        "source": "https://commons.wikimedia.org/wiki/File:JA-portrait-1-LW.jpg",
-        "license": "CC BY-SA 3.0",
-        "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0/"
-      }
-    },
-    {
       "id": "10-22-lance-armstrong",
       "date": "10-22",
       "dateLabel": "22 October",
@@ -108,33 +135,6 @@
         "source": "https://commons.wikimedia.org/wiki/File:Lance_Armstrong_(Tour_Down_Under_2009).jpg",
         "license": "CC BY 2.0",
         "licenseUrl": "https://creativecommons.org/licenses/by/2.0"
-      }
-    },
-    {
-      "id": "10-22-australian-capital-territory",
-      "date": "10-22",
-      "dateLabel": "22 October",
-      "category": "world",
-      "categoryName": "World",
-      "year": 2013,
-      "title": "Australian Capital Territory",
-      "body": "The Australian Capital Territory becomes the first Australian jurisdiction to legalize same-sex marriage with the Marriage Equality (Same Sex) Act 2013.",
-      "source": {
-        "name": "Wikipedia · Australian Capital Territory",
-        "url": "https://en.wikipedia.org/wiki/Australian_Capital_Territory",
-        "calendarUrl": "https://en.wikipedia.org/wiki/October_22",
-        "license": {
-          "name": "CC BY-SA 4.0",
-          "url": "https://creativecommons.org/licenses/by-sa/4.0/"
-        }
-      },
-      "image": {
-        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/8c/Flag_of_the_Australian_Capital_Territory.svg/500px-Flag_of_the_Australian_Capital_Territory.svg.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-        "alt": "Picture from the Wikipedia article on Australian Capital Territory.",
-        "credit": "Ivo Ostyn",
-        "source": "https://commons.wikimedia.org/wiki/File:Flag_of_the_Australian_Capital_Territory.svg",
-        "license": "Public domain",
-        "licenseUrl": "https://commons.wikimedia.org/wiki/File:Flag_of_the_Australian_Capital_Territory.svg"
       }
     }
   ]

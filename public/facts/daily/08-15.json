@@ -3,17 +3,17 @@
   "dateLabel": "15 August",
   "facts": [
     {
-      "id": "08-15-imac",
+      "id": "08-15-fuchsia-operating-system",
       "date": "08-15",
       "dateLabel": "15 August",
       "category": "tech",
       "categoryName": "Tech",
-      "year": 1998,
-      "title": "iMac",
-      "body": "Apple introduces the iMac computer.",
+      "year": 2016,
+      "title": "Fuchsia",
+      "body": "Fuchsia is an open-source capability-based operating system developed by Google. In contrast to Google's Linux-based operating systems such as ChromeOS and Android, Fuchsia is based on a custom kernel named Zircon.",
       "source": {
-        "name": "Wikipedia · IMac",
-        "url": "https://en.wikipedia.org/wiki/IMac",
+        "name": "Wikipedia · Fuchsia (operating system)",
+        "url": "https://en.wikipedia.org/wiki/Fuchsia_(operating_system)",
         "calendarUrl": "https://en.wikipedia.org/wiki/August_15",
         "license": {
           "name": "CC BY-SA 4.0",
@@ -21,12 +21,39 @@
         }
       },
       "image": {
-        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/bf/IMac_M4_2024_2_%28cropped%29.jpg/500px-IMac_M4_2024_2_%28cropped%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-        "alt": "Picture from the Wikipedia article on iMac.",
-        "credit": "Seasider53",
-        "source": "https://commons.wikimedia.org/wiki/File:IMac_M4_2024_2_(cropped).jpg",
-        "license": "CC BY 4.0",
-        "licenseUrl": "https://creativecommons.org/licenses/by/4.0"
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d0/Screenshot_of_Google_Fuchsia_%28July_2017%29.png/500px-Screenshot_of_Google_Fuchsia_%28July_2017%29.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "alt": "Fuchsia — the operating system this anniversary is about.",
+        "credit": "Flipflop271",
+        "source": "https://commons.wikimedia.org/wiki/File:Screenshot_of_Google_Fuchsia_(July_2017).png",
+        "license": "Apache License 2.0",
+        "licenseUrl": "https://www.apache.org/licenses/LICENSE-2.0"
+      }
+    },
+    {
+      "id": "08-15-agents-of-mayhem",
+      "date": "08-15",
+      "dateLabel": "15 August",
+      "category": "culture",
+      "categoryName": "Culture",
+      "year": 2017,
+      "title": "Agents of Mayhem",
+      "body": "Agents of Mayhem is a 2017 action-adventure game developed by Volition and published by Deep Silver. It was released for the PlayStation 4, Windows, and Xbox One in August 2017.",
+      "source": {
+        "name": "Wikipedia · Agents of Mayhem",
+        "url": "https://en.wikipedia.org/wiki/Agents_of_Mayhem",
+        "calendarUrl": "https://en.wikipedia.org/wiki/August_15",
+        "license": {
+          "name": "CC BY-SA 4.0",
+          "url": "https://creativecommons.org/licenses/by-sa/4.0/"
+        }
+      },
+      "image": {
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c8/Comic_Con_Germany_Stuttgart_2017_by-RaBoe_211.jpg/500px-Comic_Con_Germany_Stuttgart_2017_by-RaBoe_211.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "alt": "Agents of Mayhem — the video game this anniversary is about.",
+        "credit": "Ra Boe / Wikipedia",
+        "source": "https://commons.wikimedia.org/wiki/File:Comic_Con_Germany_Stuttgart_2017_by-RaBoe_211.jpg",
+        "license": "CC BY-SA 3.0 de",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0/de/deed.en"
       }
     },
     {
@@ -57,6 +84,33 @@
       }
     },
     {
+      "id": "08-15-imac",
+      "date": "08-15",
+      "dateLabel": "15 August",
+      "category": "tech",
+      "categoryName": "Tech",
+      "year": 1998,
+      "title": "iMac",
+      "body": "Apple introduces the iMac computer.",
+      "source": {
+        "name": "Wikipedia · IMac",
+        "url": "https://en.wikipedia.org/wiki/IMac",
+        "calendarUrl": "https://en.wikipedia.org/wiki/August_15",
+        "license": {
+          "name": "CC BY-SA 4.0",
+          "url": "https://creativecommons.org/licenses/by-sa/4.0/"
+        }
+      },
+      "image": {
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/bf/IMac_M4_2024_2_%28cropped%29.jpg/500px-IMac_M4_2024_2_%28cropped%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "alt": "Picture from the Wikipedia article on iMac.",
+        "credit": "Seasider53",
+        "source": "https://commons.wikimedia.org/wiki/File:IMac_M4_2024_2_(cropped).jpg",
+        "license": "CC BY 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by/4.0"
+      }
+    },
+    {
       "id": "08-15-woodstock",
       "date": "08-15",
       "dateLabel": "15 August",
@@ -81,60 +135,6 @@
         "source": "https://commons.wikimedia.org/wiki/File:Woodstock_poster.jpg",
         "license": "Public domain",
         "licenseUrl": "https://commons.wikimedia.org/wiki/File:Woodstock_poster.jpg"
-      }
-    },
-    {
-      "id": "08-15-south-carolina",
-      "date": "08-15",
-      "dateLabel": "15 August",
-      "category": "world",
-      "categoryName": "World",
-      "year": 1995,
-      "title": "South Carolina",
-      "body": "In South Carolina, Shannon Faulkner becomes the first female cadet matriculated at The Citadel (she drops out less than a week later).",
-      "source": {
-        "name": "Wikipedia · South Carolina",
-        "url": "https://en.wikipedia.org/wiki/South_Carolina",
-        "calendarUrl": "https://en.wikipedia.org/wiki/August_15",
-        "license": {
-          "name": "CC BY-SA 4.0",
-          "url": "https://creativecommons.org/licenses/by-sa/4.0/"
-        }
-      },
-      "image": {
-        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/69/Flag_of_South_Carolina.svg/500px-Flag_of_South_Carolina.svg.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-        "alt": "Picture from the Wikipedia article on South Carolina.",
-        "credit": "Design",
-        "source": "https://commons.wikimedia.org/wiki/File:Flag_of_South_Carolina.svg",
-        "license": "Public domain",
-        "licenseUrl": "https://commons.wikimedia.org/wiki/File:Flag_of_South_Carolina.svg"
-      }
-    },
-    {
-      "id": "08-15-the-beatles",
-      "date": "08-15",
-      "dateLabel": "15 August",
-      "category": "culture",
-      "categoryName": "Culture",
-      "year": 1965,
-      "title": "The Beatles",
-      "body": "The Beatles play to nearly 60,000 fans at Shea Stadium in New York City, an event later regarded as the birth of stadium rock.",
-      "source": {
-        "name": "Wikipedia · The Beatles",
-        "url": "https://en.wikipedia.org/wiki/The_Beatles",
-        "calendarUrl": "https://en.wikipedia.org/wiki/August_15",
-        "license": {
-          "name": "CC BY-SA 4.0",
-          "url": "https://creativecommons.org/licenses/by-sa/4.0/"
-        }
-      },
-      "image": {
-        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/42/The_Beatles_1963_Dezo_Hoffman_Capitol_Records_press_photo_2.jpg/500px-The_Beatles_1963_Dezo_Hoffman_Capitol_Records_press_photo_2.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-        "alt": "Picture from the Wikipedia article on The Beatles.",
-        "credit": "Dezo Hoffmann",
-        "source": "https://commons.wikimedia.org/wiki/File:The_Beatles_1963_Dezo_Hoffman_Capitol_Records_press_photo_2.jpg",
-        "license": "Public domain",
-        "licenseUrl": "https://commons.wikimedia.org/wiki/File:The_Beatles_1963_Dezo_Hoffman_Capitol_Records_press_photo_2.jpg"
       }
     }
   ]

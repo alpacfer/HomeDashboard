@@ -3,6 +3,60 @@
   "dateLabel": "8 November",
   "facts": [
     {
+      "id": "11-08-tmz",
+      "date": "11-08",
+      "dateLabel": "8 November",
+      "category": "tech",
+      "categoryName": "Tech",
+      "year": 2005,
+      "title": "TMZ",
+      "body": "TMZ is an American entertainment-focused tabloid news organization owned by Fox Corporation. It made its debut on November 8, 2005, as a collaboration between AOL and Telepictures, a division of Warner Bros.",
+      "source": {
+        "name": "Wikipedia · TMZ",
+        "url": "https://en.wikipedia.org/wiki/TMZ",
+        "calendarUrl": "https://en.wikipedia.org/wiki/November_8",
+        "license": {
+          "name": "CC BY-SA 4.0",
+          "url": "https://creativecommons.org/licenses/by-sa/4.0/"
+        }
+      },
+      "image": {
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d2/Tmz_headquarters_and_offices.jpg/500px-Tmz_headquarters_and_offices.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "alt": "TMZ — the website this anniversary is about.",
+        "credit": "Amblin new",
+        "source": "https://commons.wikimedia.org/wiki/File:Tmz_headquarters_and_offices.jpg",
+        "license": "CC BY-SA 3.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0"
+      }
+    },
+    {
+      "id": "11-08-sonic-frontiers",
+      "date": "11-08",
+      "dateLabel": "8 November",
+      "category": "culture",
+      "categoryName": "Culture",
+      "year": 2022,
+      "title": "Sonic Frontiers",
+      "body": "Sonic Frontiers is a 2022 platform game developed by Sonic Team and published by Sega for the Nintendo Switch, PlayStation 4, PlayStation 5, Windows, Xbox One and Xbox Series X/S.",
+      "source": {
+        "name": "Wikipedia · Sonic Frontiers",
+        "url": "https://en.wikipedia.org/wiki/Sonic_Frontiers",
+        "calendarUrl": "https://en.wikipedia.org/wiki/November_8",
+        "license": {
+          "name": "CC BY-SA 4.0",
+          "url": "https://creativecommons.org/licenses/by-sa/4.0/"
+        }
+      },
+      "image": {
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/47/Sonic_Frontiers_-_Sonic_on_Kronos_Island.jpg/500px-Sonic_Frontiers_-_Sonic_on_Kronos_Island.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "alt": "Sonic Frontiers — the video game this anniversary is about.",
+        "credit": "SEGA",
+        "source": "https://commons.wikimedia.org/wiki/File:Sonic_Frontiers_-_Sonic_on_Kronos_Island.jpg",
+        "license": "CC BY 3.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by/3.0"
+      }
+    },
+    {
       "id": "11-08-lyndon-b-johnson",
       "date": "11-08",
       "dateLabel": "8 November",
@@ -81,60 +135,6 @@
         "source": "https://commons.wikimedia.org/wiki/File:Flag_of_Massachusetts.svg",
         "license": "Public domain",
         "licenseUrl": "https://commons.wikimedia.org/wiki/File:Flag_of_Massachusetts.svg"
-      }
-    },
-    {
-      "id": "11-08-hbo",
-      "date": "11-08",
-      "dateLabel": "8 November",
-      "category": "culture",
-      "categoryName": "Culture",
-      "year": 1972,
-      "title": "HBO",
-      "body": "American pay television network Home Box Office (HBO) launches.",
-      "source": {
-        "name": "Wikipedia · HBO",
-        "url": "https://en.wikipedia.org/wiki/HBO",
-        "calendarUrl": "https://en.wikipedia.org/wiki/November_8",
-        "license": {
-          "name": "CC BY-SA 4.0",
-          "url": "https://creativecommons.org/licenses/by-sa/4.0/"
-        }
-      },
-      "image": {
-        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/de/HBO_logo.svg/500px-HBO_logo.svg.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-        "alt": "Picture from the Wikipedia article on HBO.",
-        "credit": "Gerard Huerta",
-        "source": "https://commons.wikimedia.org/wiki/File:HBO_logo.svg",
-        "license": "Public domain",
-        "licenseUrl": "https://commons.wikimedia.org/wiki/File:HBO_logo.svg"
-      }
-    },
-    {
-      "id": "11-08-potentially-hazardous-asteroid",
-      "date": "11-08",
-      "dateLabel": "8 November",
-      "category": "space",
-      "categoryName": "Space",
-      "year": 2011,
-      "title": "Potentially hazardous object",
-      "body": "The potentially hazardous asteroid 2005 YU55 passes 0.85 lunar distances from Earth (about ), the closest known approach by an asteroid of its brightness since in 1976.",
-      "source": {
-        "name": "Wikipedia · Potentially hazardous object",
-        "url": "https://en.wikipedia.org/wiki/Potentially_hazardous_object",
-        "calendarUrl": "https://en.wikipedia.org/wiki/November_8",
-        "license": {
-          "name": "CC BY-SA 4.0",
-          "url": "https://creativecommons.org/licenses/by-sa/4.0/"
-        }
-      },
-      "image": {
-        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/87/4179_Toutatis_HQ.png/500px-4179_Toutatis_HQ.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-        "alt": "Picture from the Wikipedia article on Potentially hazardous object.",
-        "credit": "Yun Jiang",
-        "source": "https://commons.wikimedia.org/wiki/File:4179_Toutatis_HQ.png",
-        "license": "CC BY 4.0",
-        "licenseUrl": "https://creativecommons.org/licenses/by/4.0"
       }
     }
   ]

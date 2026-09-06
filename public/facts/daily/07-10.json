@@ -3,17 +3,17 @@
   "dateLabel": "10 July",
   "facts": [
     {
-      "id": "07-10-volkswagen-beetle",
+      "id": "07-10-paper-mario-video-game",
       "date": "07-10",
       "dateLabel": "10 July",
       "category": "culture",
       "categoryName": "Culture",
-      "year": 2019,
-      "title": "Volkswagen Beetle",
-      "body": "The final Volkswagen Beetle rolls off the line in Puebla, Mexico; the last of 5,961 \"Special Edition\" cars will be exhibited in a museum.",
+      "year": 2007,
+      "title": "Paper Mario",
+      "body": "Paper Mario is a 2000 role-playing video game developed by Intelligent Systems and published by Nintendo for the Nintendo 64 home video game console. Paper Mario is the first game in the Paper Mario series.",
       "source": {
-        "name": "Wikipedia · Volkswagen Beetle",
-        "url": "https://en.wikipedia.org/wiki/Volkswagen_Beetle",
+        "name": "Wikipedia · Paper Mario (video game)",
+        "url": "https://en.wikipedia.org/wiki/Paper_Mario_(video_game)",
         "calendarUrl": "https://en.wikipedia.org/wiki/July_10",
         "license": {
           "name": "CC BY-SA 4.0",
@@ -21,12 +21,39 @@
         }
       },
       "image": {
-        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/96/VW_K%C3%A4fer_Baujahr_1966.jpg/500px-VW_K%C3%A4fer_Baujahr_1966.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-        "alt": "Picture from the Wikipedia article on Volkswagen Beetle.",
-        "credit": "Vwexport1300",
-        "source": "https://commons.wikimedia.org/wiki/File:VW_K%C3%A4fer_Baujahr_1966.jpg",
-        "license": "CC BY-SA 3.0",
-        "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0"
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/9f/Nintendo_64_with_Paper_Mario.jpg/500px-Nintendo_64_with_Paper_Mario.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "alt": "Paper Mario — the video game this anniversary is about.",
+        "credit": "Bryan Ochala",
+        "source": "https://commons.wikimedia.org/wiki/File:Nintendo_64_with_Paper_Mario.jpg",
+        "license": "CC BY-SA 2.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0"
+      }
+    },
+    {
+      "id": "07-10-do-not-believe-his-lies",
+      "date": "07-10",
+      "dateLabel": "10 July",
+      "category": "culture",
+      "categoryName": "Culture",
+      "year": 2014,
+      "title": "Do Not Believe His Lies",
+      "body": "Do Not Believe His Lies was a 2014 puzzle mobile app game designed by Polish designer Lukasz Matablewski. Matablewski released the app to the iTunes storefront on July 10, 2014, and since its release, the game has developed a Reddit following.",
+      "source": {
+        "name": "Wikipedia · Do Not Believe His Lies",
+        "url": "https://en.wikipedia.org/wiki/Do_Not_Believe_His_Lies",
+        "calendarUrl": "https://en.wikipedia.org/wiki/July_10",
+        "license": {
+          "name": "CC BY-SA 4.0",
+          "url": "https://creativecommons.org/licenses/by-sa/4.0/"
+        }
+      },
+      "image": {
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e0/Do_Not_Believe_His_Lies_cover.png/500px-Do_Not_Believe_His_Lies_cover.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "alt": "Do Not Believe His Lies — the video game this anniversary is about.",
+        "credit": "unknown",
+        "source": "https://commons.wikimedia.org/wiki/File:Do_Not_Believe_His_Lies_cover.png",
+        "license": "Public domain",
+        "licenseUrl": "https://commons.wikimedia.org/wiki/File:Do_Not_Believe_His_Lies_cover.png"
       }
     },
     {
@@ -108,33 +135,6 @@
         "source": "https://commons.wikimedia.org/wiki/File:Rupert_Murdoch_-_WEF_Davos_2007.jpg",
         "license": "CC BY-SA 2.0",
         "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0"
-      }
-    },
-    {
-      "id": "07-10-paavo-nurmi",
-      "date": "07-10",
-      "dateLabel": "10 July",
-      "category": "sport",
-      "categoryName": "Sport",
-      "year": 1924,
-      "title": "Paavo Nurmi",
-      "body": "Paavo Nurmi wins the 1,500 m and 5,000 m events at the Paris Olympics, with just an hour between the two races.",
-      "source": {
-        "name": "Wikipedia · Paavo Nurmi",
-        "url": "https://en.wikipedia.org/wiki/Paavo_Nurmi",
-        "calendarUrl": "https://en.wikipedia.org/wiki/July_10",
-        "license": {
-          "name": "CC BY-SA 4.0",
-          "url": "https://creativecommons.org/licenses/by-sa/4.0/"
-        }
-      },
-      "image": {
-        "src": "https://upload.wikimedia.org/wikipedia/commons/a/a8/Paavo_Nurmi_%28Antwerp_1920%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
-        "alt": "Picture from the Wikipedia article on Paavo Nurmi.",
-        "credit": "Unknown author",
-        "source": "https://commons.wikimedia.org/wiki/File:Paavo_Nurmi_(Antwerp_1920).jpg",
-        "license": "Public domain",
-        "licenseUrl": "https://commons.wikimedia.org/wiki/File:Paavo_Nurmi_(Antwerp_1920).jpg"
       }
     }
   ]

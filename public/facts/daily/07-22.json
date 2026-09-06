@@ -3,6 +3,33 @@
   "dateLabel": "22 July",
   "facts": [
     {
+      "id": "07-22-endless-sky",
+      "date": "07-22",
+      "dateLabel": "22 July",
+      "category": "culture",
+      "categoryName": "Culture",
+      "year": 2015,
+      "title": "Endless Sky",
+      "body": "Endless Sky is a space trading and combat simulation video game, created by Michael Zahniser and first released in June 2015. In Endless Sky, the player starts out as a spaceship captain and can trade, transport passengers or fight pirates to earn money.",
+      "source": {
+        "name": "Wikipedia · Endless Sky",
+        "url": "https://en.wikipedia.org/wiki/Endless_Sky",
+        "calendarUrl": "https://en.wikipedia.org/wiki/July_22",
+        "license": {
+          "name": "CC BY-SA 4.0",
+          "url": "https://creativecommons.org/licenses/by-sa/4.0/"
+        }
+      },
+      "image": {
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d0/Endless_Sky_0.9.12_title_screen.png/500px-Endless_Sky_0.9.12_title_screen.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "alt": "Endless Sky — the video game this anniversary is about.",
+        "credit": "Endless Sky developers",
+        "source": "https://commons.wikimedia.org/wiki/File:Endless_Sky_0.9.12_title_screen.png",
+        "license": "GPLv3",
+        "licenseUrl": "https://www.gnu.org/licenses/gpl-3.0.html"
+      }
+    },
+    {
       "id": "07-22-dezik-and-tsygan",
       "date": "07-22",
       "dateLabel": "22 July",
@@ -108,33 +135,6 @@
         "source": "https://commons.wikimedia.org/wiki/File:Mariner_2_Engineering_Model.jpg",
         "license": "CC0",
         "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/deed.en"
-      }
-    },
-    {
-      "id": "07-22-greg-lemond",
-      "date": "07-22",
-      "dateLabel": "22 July",
-      "category": "sport",
-      "categoryName": "Sport",
-      "year": 1990,
-      "title": "Greg LeMond",
-      "body": "Greg LeMond, an American road racing cyclist, wins his third Tour de France after leading the majority of the race. It was LeMond's second consecutive Tour de France victory.",
-      "source": {
-        "name": "Wikipedia · Greg LeMond",
-        "url": "https://en.wikipedia.org/wiki/Greg_LeMond",
-        "calendarUrl": "https://en.wikipedia.org/wiki/July_22",
-        "license": {
-          "name": "CC BY-SA 4.0",
-          "url": "https://creativecommons.org/licenses/by-sa/4.0/"
-        }
-      },
-      "image": {
-        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/6c/Greg_LeMond_by_Gage_Skidmore.jpg/500px-Greg_LeMond_by_Gage_Skidmore.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-        "alt": "Picture from the Wikipedia article on Greg LeMond.",
-        "credit": "Gage Skidmore",
-        "source": "https://commons.wikimedia.org/wiki/File:Greg_LeMond_by_Gage_Skidmore.jpg",
-        "license": "CC BY-SA 3.0",
-        "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0"
       }
     }
   ]

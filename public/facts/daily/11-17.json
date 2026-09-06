@@ -3,6 +3,33 @@
   "dateLabel": "17 November",
   "facts": [
     {
+      "id": "11-17-sourceforge",
+      "date": "11-17",
+      "dateLabel": "17 November",
+      "category": "tech",
+      "categoryName": "Tech",
+      "year": 1999,
+      "title": "SourceForge",
+      "body": "SourceForge is a web service that provides a centralized software discovery platform, including an online platform for managing and hosting open-source software projects, and a directory for comparing and reviewing B2B software that lists over 104,500 business software titles.",
+      "source": {
+        "name": "Wikipedia · SourceForge",
+        "url": "https://en.wikipedia.org/wiki/SourceForge",
+        "calendarUrl": "https://en.wikipedia.org/wiki/November_17",
+        "license": {
+          "name": "CC BY-SA 4.0",
+          "url": "https://creativecommons.org/licenses/by-sa/4.0/"
+        }
+      },
+      "image": {
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/af/SourceForge_net_update.png/500px-SourceForge_net_update.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "alt": "SourceForge — the website this anniversary is about.",
+        "credit": "Vulphere",
+        "source": "https://commons.wikimedia.org/wiki/File:SourceForge_net_update.png",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0"
+      }
+    },
+    {
       "id": "11-17-lunokhod-1",
       "date": "11-17",
       "dateLabel": "17 November",
@@ -81,33 +108,6 @@
         "source": "https://commons.wikimedia.org/wiki/File:Heidi_Game_program.jpg",
         "license": "Public domain",
         "licenseUrl": "https://commons.wikimedia.org/wiki/File:Heidi_Game_program.jpg"
-      }
-    },
-    {
-      "id": "11-17-john-bardeen",
-      "date": "11-17",
-      "dateLabel": "17 November",
-      "category": "tech",
-      "categoryName": "Tech",
-      "year": 1947,
-      "title": "John Bardeen",
-      "body": "American scientists John Bardeen and Walter Houser Brattain observe the basic principles of the transistor, a key element for the electronics revolution of the 20th century.",
-      "source": {
-        "name": "Wikipedia · John Bardeen",
-        "url": "https://en.wikipedia.org/wiki/John_Bardeen",
-        "calendarUrl": "https://en.wikipedia.org/wiki/November_17",
-        "license": {
-          "name": "CC BY-SA 4.0",
-          "url": "https://creativecommons.org/licenses/by-sa/4.0/"
-        }
-      },
-      "image": {
-        "src": "https://upload.wikimedia.org/wikipedia/commons/4/4a/Bardeen.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
-        "alt": "Picture from the Wikipedia article on John Bardeen.",
-        "credit": "Nobel foundation",
-        "source": "https://commons.wikimedia.org/wiki/File:Bardeen.jpg",
-        "license": "Public domain",
-        "licenseUrl": "https://commons.wikimedia.org/wiki/File:Bardeen.jpg"
       }
     },
     {

@@ -3,6 +3,33 @@
   "dateLabel": "7 December",
   "facts": [
     {
+      "id": "12-07-aquaria-video-game",
+      "date": "12-07",
+      "dateLabel": "7 December",
+      "category": "culture",
+      "categoryName": "Culture",
+      "year": 2007,
+      "title": "Aquaria",
+      "body": "Aquaria is an action-adventure game designed by Alec Holowka and Derek Yu, who published the game in 2007 as an independent game company Bit Blot. The side-scrolling game follows Naija, an aquatic humanoid woman, as she explores the underwater world of Aquaria.",
+      "source": {
+        "name": "Wikipedia · Aquaria (video game)",
+        "url": "https://en.wikipedia.org/wiki/Aquaria_(video_game)",
+        "calendarUrl": "https://en.wikipedia.org/wiki/December_7",
+        "license": {
+          "name": "CC BY-SA 4.0",
+          "url": "https://creativecommons.org/licenses/by-sa/4.0/"
+        }
+      },
+      "image": {
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/5e/Aquaria_-_Screenshot_05.jpg/500px-Aquaria_-_Screenshot_05.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "alt": "Aquaria — the video game this anniversary is about.",
+        "credit": "\"Bit Blot",
+        "source": "https://commons.wikimedia.org/wiki/File:Aquaria_-_Screenshot_05.jpg",
+        "license": "CC BY-SA 3.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0"
+      }
+    },
+    {
       "id": "12-07-lando-norris",
       "date": "12-07",
       "dateLabel": "7 December",
@@ -54,33 +81,6 @@
         "source": "https://commons.wikimedia.org/wiki/File:Jaxa_logo.svg",
         "license": "Public domain",
         "licenseUrl": "https://commons.wikimedia.org/wiki/File:Jaxa_logo.svg"
-      }
-    },
-    {
-      "id": "12-07-royal-opera-house",
-      "date": "12-07",
-      "dateLabel": "7 December",
-      "category": "culture",
-      "categoryName": "Culture",
-      "year": 1732,
-      "title": "Royal Opera House",
-      "body": "The Royal Opera House opens at Covent Garden, London, England.",
-      "source": {
-        "name": "Wikipedia · Royal Opera House",
-        "url": "https://en.wikipedia.org/wiki/Royal_Opera_House",
-        "calendarUrl": "https://en.wikipedia.org/wiki/December_7",
-        "license": {
-          "name": "CC BY-SA 4.0",
-          "url": "https://creativecommons.org/licenses/by-sa/4.0/"
-        }
-      },
-      "image": {
-        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/bb/Royal_Opera_House_and_ballerina.jpg/500px-Royal_Opera_House_and_ballerina.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-        "alt": "Picture from the Wikipedia article on Royal Opera House.",
-        "credit": "Russ London",
-        "source": "https://commons.wikimedia.org/wiki/File:Royal_Opera_House_and_ballerina.jpg",
-        "license": "CC BY-SA 3.0",
-        "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0"
       }
     },
     {

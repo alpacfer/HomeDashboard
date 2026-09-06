@@ -30,6 +30,33 @@
       }
     },
     {
+      "id": "12-03-cruis-n-usa",
+      "date": "12-03",
+      "dateLabel": "3 December",
+      "category": "culture",
+      "categoryName": "Culture",
+      "year": 1996,
+      "title": "Cruis'n USA",
+      "body": "Cruis'n USA is a racing video game developed by TV Games Inc. and published by Nintendo.",
+      "source": {
+        "name": "Wikipedia · Cruis'n USA",
+        "url": "https://en.wikipedia.org/wiki/Cruis%27n_USA",
+        "calendarUrl": "https://en.wikipedia.org/wiki/December_3",
+        "license": {
+          "name": "CC BY-SA 4.0",
+          "url": "https://creativecommons.org/licenses/by-sa/4.0/"
+        }
+      },
+      "image": {
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/72/Mus%C3%A9e_M%C3%A9canique_177.JPG/500px-Mus%C3%A9e_M%C3%A9canique_177.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "alt": "Cruis'n USA — the video game this anniversary is about.",
+        "credit": "User:Piotrus",
+        "source": "https://commons.wikimedia.org/wiki/File:Mus%C3%A9e_M%C3%A9canique_177.JPG",
+        "license": "CC BY-SA 3.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0"
+      }
+    },
+    {
       "id": "12-03-pioneer-10",
       "date": "12-03",
       "dateLabel": "3 December",
@@ -108,33 +135,6 @@
         "source": "https://commons.wikimedia.org/wiki/File:Sony_headquaters_2.jpg",
         "license": "CC BY-SA 4.0",
         "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0"
-      }
-    },
-    {
-      "id": "12-03-jaxa",
-      "date": "12-03",
-      "dateLabel": "3 December",
-      "category": "space",
-      "categoryName": "Space",
-      "year": 2014,
-      "title": "JAXA",
-      "body": "The Japanese space agency, JAXA, launches the space explorer Hayabusa2 from the Tanegashima Space Center on a six-year round trip mission to an asteroid to collect rock samples.",
-      "source": {
-        "name": "Wikipedia · JAXA",
-        "url": "https://en.wikipedia.org/wiki/JAXA",
-        "calendarUrl": "https://en.wikipedia.org/wiki/December_3",
-        "license": {
-          "name": "CC BY-SA 4.0",
-          "url": "https://creativecommons.org/licenses/by-sa/4.0/"
-        }
-      },
-      "image": {
-        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/85/Jaxa_logo.svg/500px-Jaxa_logo.svg.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-        "alt": "Picture from the Wikipedia article on JAXA.",
-        "credit": "JAXA",
-        "source": "https://commons.wikimedia.org/wiki/File:Jaxa_logo.svg",
-        "license": "Public domain",
-        "licenseUrl": "https://commons.wikimedia.org/wiki/File:Jaxa_logo.svg"
       }
     }
   ]

@@ -3,6 +3,60 @@
   "dateLabel": "4 December",
   "facts": [
     {
+      "id": "12-04-javascript",
+      "date": "12-04",
+      "dateLabel": "4 December",
+      "category": "tech",
+      "categoryName": "Tech",
+      "year": 1995,
+      "title": "JavaScript",
+      "body": "JavaScript (JS) is a programming language and core technology of the Web, alongside HTML and CSS. Created by Brendan Eich in 1995, it is maintained by Ecma International's TC39 technical committee, with related Web APIs maintained by W3C and WHATWG.",
+      "source": {
+        "name": "Wikipedia · JavaScript",
+        "url": "https://en.wikipedia.org/wiki/JavaScript",
+        "calendarUrl": "https://en.wikipedia.org/wiki/December_4",
+        "license": {
+          "name": "CC BY-SA 4.0",
+          "url": "https://creativecommons.org/licenses/by-sa/4.0/"
+        }
+      },
+      "image": {
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a4/JavaScript_code.png/500px-JavaScript_code.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "alt": "JavaScript — the programming language this anniversary is about.",
+        "credit": "Lionel Rowe",
+        "source": "https://commons.wikimedia.org/wiki/File:JavaScript_code.png",
+        "license": "CC0",
+        "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/deed.en"
+      }
+    },
+    {
+      "id": "12-04-have-i-been-pwned",
+      "date": "12-04",
+      "dateLabel": "4 December",
+      "category": "tech",
+      "categoryName": "Tech",
+      "year": 2013,
+      "title": "Have I Been Pwned?",
+      "body": "Have I Been Pwned? (HIBP) is a website that allows Internet users to check whether their email address or password has been compromised by data breaches.",
+      "source": {
+        "name": "Wikipedia · Have I Been Pwned?",
+        "url": "https://en.wikipedia.org/wiki/Have_I_Been_Pwned%3F",
+        "calendarUrl": "https://en.wikipedia.org/wiki/December_4",
+        "license": {
+          "name": "CC BY-SA 4.0",
+          "url": "https://creativecommons.org/licenses/by-sa/4.0/"
+        }
+      },
+      "image": {
+        "src": "https://upload.wikimedia.org/wikipedia/commons/8/85/Have_I_Been_Pwned.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+        "alt": "Have I Been Pwned? — the website this anniversary is about.",
+        "credit": "Sahzainb",
+        "source": "https://commons.wikimedia.org/wiki/File:Have_I_Been_Pwned.png",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0"
+      }
+    },
+    {
       "id": "12-04-montreal-canadiens",
       "date": "12-04",
       "dateLabel": "4 December",
@@ -81,60 +135,6 @@
         "source": "https://commons.wikimedia.org/wiki/File:William_M._(Boss)_Tweed,_N.Y_-_NARA_-_526217_(cropped).jpg",
         "license": "Public domain",
         "licenseUrl": "https://commons.wikimedia.org/wiki/File:William_M._(Boss)_Tweed,_N.Y_-_NARA_-_526217_(cropped).jpg"
-      }
-    },
-    {
-      "id": "12-04-unity-module",
-      "date": "12-04",
-      "dateLabel": "4 December",
-      "category": "space",
-      "categoryName": "Space",
-      "year": 1998,
-      "title": "Unity",
-      "body": "The Unity Module, the second module of the International Space Station, is launched.",
-      "source": {
-        "name": "Wikipedia · Unity (ISS module)",
-        "url": "https://en.wikipedia.org/wiki/Unity_(ISS_module)",
-        "calendarUrl": "https://en.wikipedia.org/wiki/December_4",
-        "license": {
-          "name": "CC BY-SA 4.0",
-          "url": "https://creativecommons.org/licenses/by-sa/4.0/"
-        }
-      },
-      "image": {
-        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/0e/ISS_Unity_module_%28cropped%29.jpg/500px-ISS_Unity_module_%28cropped%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-        "alt": "Picture from the Wikipedia article on Unity.",
-        "credit": "NASA",
-        "source": "https://commons.wikimedia.org/wiki/File:ISS_Unity_module_(cropped).jpg",
-        "license": "Public domain",
-        "licenseUrl": "https://commons.wikimedia.org/wiki/File:ISS_Unity_module_(cropped).jpg"
-      }
-    },
-    {
-      "id": "12-04-canadian-football",
-      "date": "12-04",
-      "dateLabel": "4 December",
-      "category": "sport",
-      "categoryName": "Sport",
-      "year": 1909,
-      "title": "Canadian football",
-      "body": "In Canadian football, the First Grey Cup game is played. The University of Toronto Varsity Blues defeat the Toronto Parkdale Canoe Club, 26–6.",
-      "source": {
-        "name": "Wikipedia · Canadian football",
-        "url": "https://en.wikipedia.org/wiki/Canadian_football",
-        "calendarUrl": "https://en.wikipedia.org/wiki/December_4",
-        "license": {
-          "name": "CC BY-SA 4.0",
-          "url": "https://creativecommons.org/licenses/by-sa/4.0/"
-        }
-      },
-      "image": {
-        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/9f/JoffreyReynolds.jpg/500px-JoffreyReynolds.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-        "alt": "Picture from the Wikipedia article on Canadian football.",
-        "credit": "IcE MaN",
-        "source": "https://commons.wikimedia.org/wiki/File:JoffreyReynolds.jpg",
-        "license": "CC BY 2.0",
-        "licenseUrl": "https://creativecommons.org/licenses/by/2.0"
       }
     }
   ]

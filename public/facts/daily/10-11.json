@@ -3,6 +3,60 @@
   "dateLabel": "11 October",
   "facts": [
     {
+      "id": "10-11-dead-rising-2-off-the-record",
+      "date": "10-11",
+      "dateLabel": "11 October",
+      "category": "culture",
+      "categoryName": "Culture",
+      "year": 2011,
+      "title": "Dead Rising 2: Off the Record",
+      "body": "Off the Record is a 2011 action-adventure game developed by Capcom Vancouver and published by Capcom. It is a reimagining of Dead Rising 2, with that game's protagonist, Chuck Greene, replaced by Frank West from the first Dead Rising.",
+      "source": {
+        "name": "Wikipedia · Dead Rising 2: Off the Record",
+        "url": "https://en.wikipedia.org/wiki/Dead_Rising_2:_Off_the_Record",
+        "calendarUrl": "https://en.wikipedia.org/wiki/October_11",
+        "license": {
+          "name": "CC BY-SA 4.0",
+          "url": "https://creativecommons.org/licenses/by-sa/4.0/"
+        }
+      },
+      "image": {
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/62/E3_2011_-_Dead_Rising_2-_Off_the_Record_%28Capcom%29_%285822673518%29.jpg/500px-E3_2011_-_Dead_Rising_2-_Off_the_Record_%28Capcom%29_%285822673518%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "alt": "Dead Rising 2: Off the Record — the video game this anniversary is about.",
+        "credit": "The Conmunity",
+        "source": "https://commons.wikimedia.org/wiki/File:E3_2011_-_Dead_Rising_2-_Off_the_Record_(Capcom)_(5822673518).jpg",
+        "license": "CC BY 2.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by/2.0"
+      }
+    },
+    {
+      "id": "10-11-just-dance-3",
+      "date": "10-11",
+      "dateLabel": "11 October",
+      "category": "culture",
+      "categoryName": "Culture",
+      "year": 2011,
+      "title": "Just Dance 3",
+      "body": "Just Dance 3 is a 2011 dance rhythm game released on the Wii, Xbox 360, and PlayStation 3 with Kinect and Move support respectively for the latter two.",
+      "source": {
+        "name": "Wikipedia · Just Dance 3",
+        "url": "https://en.wikipedia.org/wiki/Just_Dance_3",
+        "calendarUrl": "https://en.wikipedia.org/wiki/October_11",
+        "license": {
+          "name": "CC BY-SA 4.0",
+          "url": "https://creativecommons.org/licenses/by-sa/4.0/"
+        }
+      },
+      "image": {
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/ff/Just_Dance_Wondercon_2010.jpg/500px-Just_Dance_Wondercon_2010.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "alt": "Just Dance 3 — the video game this anniversary is about.",
+        "credit": "Pop Culture Geek",
+        "source": "https://commons.wikimedia.org/wiki/File:Just_Dance_Wondercon_2010.jpg",
+        "license": "CC BY 2.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by/2.0"
+      }
+    },
+    {
       "id": "10-11-kathryn-d-sullivan",
       "date": "10-11",
       "dateLabel": "11 October",
@@ -81,60 +135,6 @@
         "source": "https://commons.wikimedia.org/wiki/File:Apollo_7_during_the_first_live_television_transmission_from_space.jpg",
         "license": "Public domain",
         "licenseUrl": "https://commons.wikimedia.org/wiki/File:Apollo_7_during_the_first_live_television_transmission_from_space.jpg"
-      }
-    },
-    {
-      "id": "10-11-pioneer-1",
-      "date": "10-11",
-      "dateLabel": "11 October",
-      "category": "space",
-      "categoryName": "Space",
-      "year": 1958,
-      "title": "Pioneer 1",
-      "body": "NASA launches Pioneer 1, its first space probe, although it fails to achieve a stable orbit.",
-      "source": {
-        "name": "Wikipedia · Pioneer 1",
-        "url": "https://en.wikipedia.org/wiki/Pioneer_1",
-        "calendarUrl": "https://en.wikipedia.org/wiki/October_11",
-        "license": {
-          "name": "CC BY-SA 4.0",
-          "url": "https://creativecommons.org/licenses/by-sa/4.0/"
-        }
-      },
-      "image": {
-        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f9/Pioneer_I%2C_Reconstructed_Replica.jpg/500px-Pioneer_I%2C_Reconstructed_Replica.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-        "alt": "Picture from the Wikipedia article on Pioneer 1.",
-        "credit": "National Air and Space Museum",
-        "source": "https://commons.wikimedia.org/wiki/File:Pioneer_I,_Reconstructed_Replica.jpg",
-        "license": "CC0",
-        "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/deed.en"
-      }
-    },
-    {
-      "id": "10-11-second-vatican-council",
-      "date": "10-11",
-      "dateLabel": "11 October",
-      "category": "world",
-      "categoryName": "World",
-      "year": 1962,
-      "title": "Second Vatican Council",
-      "body": "The Second Vatican Council becomes the first ecumenical council of the Roman Catholic Church in 92 years.",
-      "source": {
-        "name": "Wikipedia · Second Vatican Council",
-        "url": "https://en.wikipedia.org/wiki/Second_Vatican_Council",
-        "calendarUrl": "https://en.wikipedia.org/wiki/October_11",
-        "license": {
-          "name": "CC BY-SA 4.0",
-          "url": "https://creativecommons.org/licenses/by-sa/4.0/"
-        }
-      },
-      "image": {
-        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/55/Vatican_II_photo.jpg/500px-Vatican_II_photo.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-        "alt": "Picture from the Wikipedia article on Second Vatican Council.",
-        "credit": "The taker of the photo is unknown, the…",
-        "source": "https://commons.wikimedia.org/wiki/File:Vatican_II_photo.jpg",
-        "license": "CC BY 3.0",
-        "licenseUrl": "https://creativecommons.org/licenses/by/3.0"
       }
     }
   ]

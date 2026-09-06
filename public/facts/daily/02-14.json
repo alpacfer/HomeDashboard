@@ -3,6 +3,60 @@
   "dateLabel": "14 February",
   "facts": [
     {
+      "id": "02-14-tripadvisor",
+      "date": "02-14",
+      "dateLabel": "14 February",
+      "category": "tech",
+      "categoryName": "Tech",
+      "year": 2000,
+      "title": "Tripadvisor",
+      "body": "Tripadvisor is an American company that operates online travel agencies, comparison shopping websites, and mobile apps with user-generated content. com, operates in 40 countries and 20 languages, and features approximately 1 billion reviews and opinions on roughly 8 million establishments.",
+      "source": {
+        "name": "Wikipedia · Tripadvisor",
+        "url": "https://en.wikipedia.org/wiki/Tripadvisor",
+        "calendarUrl": "https://en.wikipedia.org/wiki/February_14",
+        "license": {
+          "name": "CC BY-SA 4.0",
+          "url": "https://creativecommons.org/licenses/by-sa/4.0/"
+        }
+      },
+      "image": {
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c2/TripAdvisor_Headquarters_in_Needham%2C_MA.jpg/500px-TripAdvisor_Headquarters_in_Needham%2C_MA.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "alt": "Tripadvisor — the website this anniversary is about.",
+        "credit": "Parker Harrington",
+        "source": "https://commons.wikimedia.org/wiki/File:TripAdvisor_Headquarters_in_Needham,_MA.jpg",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0"
+      }
+    },
+    {
+      "id": "02-14-keybase",
+      "date": "02-14",
+      "dateLabel": "14 February",
+      "category": "tech",
+      "categoryName": "Tech",
+      "year": 2014,
+      "title": "Q28409115",
+      "body": "Keybase is a key directory that maps social media identities to encryption keys (including, but not limited to PGP keys) in a publicly auditable manner. Additionally it offers an end-to-end encrypted chat and cloud storage system, called Keybase Chat and the Keybase Filesystem respectively.",
+      "source": {
+        "name": "Wikipedia · Keybase",
+        "url": "https://en.wikipedia.org/wiki/Keybase",
+        "calendarUrl": "https://en.wikipedia.org/wiki/February_14",
+        "license": {
+          "name": "CC BY-SA 4.0",
+          "url": "https://creativecommons.org/licenses/by-sa/4.0/"
+        }
+      },
+      "image": {
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/8a/Keybase_macOS_1.0.16-20160707110020.png/500px-Keybase_macOS_1.0.16-20160707110020.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "alt": "Q28409115 — the website this anniversary is about.",
+        "credit": "Keybase",
+        "source": "https://commons.wikimedia.org/wiki/File:Keybase_macOS_1.0.16-20160707110020.png",
+        "license": "BSD",
+        "licenseUrl": "https://opensource.org/licenses/bsd-license.php"
+      }
+    },
+    {
       "id": "02-14-voyager-1",
       "date": "02-14",
       "dateLabel": "14 February",
@@ -27,33 +81,6 @@
         "source": "https://commons.wikimedia.org/wiki/File:Voyager_spacecraft_model.png",
         "license": "Public domain",
         "licenseUrl": "https://commons.wikimedia.org/wiki/File:Voyager_spacecraft_model.png"
-      }
-    },
-    {
-      "id": "02-14-youtube",
-      "date": "02-14",
-      "dateLabel": "14 February",
-      "category": "tech",
-      "categoryName": "Tech",
-      "year": 2005,
-      "title": "YouTube",
-      "body": "YouTube is launched by a group of college students, eventually becoming the largest video sharing website in the world and a main source for viral videos.",
-      "source": {
-        "name": "Wikipedia · YouTube",
-        "url": "https://en.wikipedia.org/wiki/YouTube",
-        "calendarUrl": "https://en.wikipedia.org/wiki/February_14",
-        "license": {
-          "name": "CC BY-SA 4.0",
-          "url": "https://creativecommons.org/licenses/by-sa/4.0/"
-        }
-      },
-      "image": {
-        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/fd/Youtube_interface%2C_showing_search_results_of_Burger_Recipe.png/500px-Youtube_interface%2C_showing_search_results_of_Burger_Recipe.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-        "alt": "Picture from the Wikipedia article on YouTube.",
-        "credit": "Lyles BBQ, Smile and Learn",
-        "source": "https://commons.wikimedia.org/wiki/File:Youtube_interface,_showing_search_results_of_Burger_Recipe.png",
-        "license": "Public domain",
-        "licenseUrl": "https://commons.wikimedia.org/wiki/File:Youtube_interface,_showing_search_results_of_Burger_Recipe.png"
       }
     },
     {
@@ -108,33 +135,6 @@
         "source": "https://commons.wikimedia.org/wiki/File:Israeli_Knesset_Current_Composition.svg",
         "license": "Public domain",
         "licenseUrl": "https://commons.wikimedia.org/wiki/File:Israeli_Knesset_Current_Composition.svg"
-      }
-    },
-    {
-      "id": "02-14-timeline-of-chemical-element-discoveries",
-      "date": "02-14",
-      "dateLabel": "14 February",
-      "category": "science",
-      "categoryName": "Science",
-      "year": 1961,
-      "title": "Timeline of chemical element discoveries",
-      "body": "Element 103, Lawrencium, is first synthesized at the University of California.",
-      "source": {
-        "name": "Wikipedia · Timeline of chemical element discoveries",
-        "url": "https://en.wikipedia.org/wiki/Timeline_of_chemical_element_discoveries",
-        "calendarUrl": "https://en.wikipedia.org/wiki/February_14",
-        "license": {
-          "name": "CC BY-SA 4.0",
-          "url": "https://creativecommons.org/licenses/by-sa/4.0/"
-        }
-      },
-      "image": {
-        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/03/Simple_Periodic_Table_Chart-blocks.svg/500px-Simple_Periodic_Table_Chart-blocks.svg.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-        "alt": "Picture from the Wikipedia article on Timeline of chemical element discoveries.",
-        "credit": "User:Double sharp",
-        "source": "https://commons.wikimedia.org/wiki/File:Simple_Periodic_Table_Chart-blocks.svg",
-        "license": "CC BY-SA 4.0",
-        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0"
       }
     }
   ]

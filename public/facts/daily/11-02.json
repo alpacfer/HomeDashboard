@@ -3,6 +3,33 @@
   "dateLabel": "2 November",
   "facts": [
     {
+      "id": "11-02-sprint-2",
+      "date": "11-02",
+      "dateLabel": "2 November",
+      "category": "culture",
+      "categoryName": "Culture",
+      "year": 1976,
+      "title": "Sprint 2",
+      "body": "), and distributed by Namco in Japan. While earlier driving games had computer-controlled cars that moved along a \"canned predetermined\" course, Sprint 2 \"introduced the concept of a computer car that had the intelligence to drive itself around the track\" in \"a semi-intelligent\" manner.",
+      "source": {
+        "name": "Wikipedia · Sprint 2",
+        "url": "https://en.wikipedia.org/wiki/Sprint_2",
+        "calendarUrl": "https://en.wikipedia.org/wiki/November_2",
+        "license": {
+          "name": "CC BY-SA 4.0",
+          "url": "https://creativecommons.org/licenses/by-sa/4.0/"
+        }
+      },
+      "image": {
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/cf/Mus%C3%A9e_M%C3%A9canique_185.JPG/500px-Mus%C3%A9e_M%C3%A9canique_185.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "alt": "Sprint 2 — the video game this anniversary is about.",
+        "credit": "User:Piotrus",
+        "source": "https://commons.wikimedia.org/wiki/File:Mus%C3%A9e_M%C3%A9canique_185.JPG",
+        "license": "CC BY-SA 3.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0"
+      }
+    },
+    {
       "id": "11-02-m1-motorway",
       "date": "11-02",
       "dateLabel": "2 November",
@@ -108,33 +135,6 @@
         "source": "https://commons.wikimedia.org/wiki/File:Great_Seal_of_the_United_States_(obverse).svg",
         "license": "Public domain",
         "licenseUrl": "https://commons.wikimedia.org/wiki/File:Great_Seal_of_the_United_States_(obverse).svg"
-      }
-    },
-    {
-      "id": "11-02-lyndon-b-johnson",
-      "date": "11-02",
-      "dateLabel": "2 November",
-      "category": "world",
-      "categoryName": "World",
-      "year": 1967,
-      "title": "Lyndon B. Johnson",
-      "body": "US President Lyndon B. Johnson and \"The Wise Men\" conclude that the American people should be given more optimistic reports on the progress of the war.",
-      "source": {
-        "name": "Wikipedia · Lyndon B. Johnson",
-        "url": "https://en.wikipedia.org/wiki/Lyndon_B._Johnson",
-        "calendarUrl": "https://en.wikipedia.org/wiki/November_2",
-        "license": {
-          "name": "CC BY-SA 4.0",
-          "url": "https://creativecommons.org/licenses/by-sa/4.0/"
-        }
-      },
-      "image": {
-        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/54/Lyndon_B._Johnson%2C_photo_portrait%2C_color_%283x4_cropped%29%282%29.jpg/500px-Lyndon_B._Johnson%2C_photo_portrait%2C_color_%283x4_cropped%29%282%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-        "alt": "Picture from the Wikipedia article on Lyndon B. Johnson.",
-        "credit": "Arnold Newman",
-        "source": "https://commons.wikimedia.org/wiki/File:Lyndon_B._Johnson,_photo_portrait,_color_(3x4_cropped)(2).jpg",
-        "license": "Public domain",
-        "licenseUrl": "https://commons.wikimedia.org/wiki/File:Lyndon_B._Johnson,_photo_portrait,_color_(3x4_cropped)(2).jpg"
       }
     }
   ]

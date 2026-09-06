@@ -3,6 +3,60 @@
   "dateLabel": "9 May",
   "facts": [
     {
+      "id": "05-09-soldat-video-game",
+      "date": "05-09",
+      "dateLabel": "9 May",
+      "category": "culture",
+      "categoryName": "Culture",
+      "year": 2002,
+      "title": "Soldat",
+      "body": "Soldat is a 2D multiplayer video game for Microsoft Windows. It is a run and gun game influenced by Liero and Scorched Earth, combined with elements from Counter-Strike and Worms.",
+      "source": {
+        "name": "Wikipedia · Soldat (video game)",
+        "url": "https://en.wikipedia.org/wiki/Soldat_(video_game)",
+        "calendarUrl": "https://en.wikipedia.org/wiki/May_9",
+        "license": {
+          "name": "CC BY-SA 4.0",
+          "url": "https://creativecommons.org/licenses/by-sa/4.0/"
+        }
+      },
+      "image": {
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/12/Soldat_v1.7_killed.png/500px-Soldat_v1.7_killed.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "alt": "Soldat — the video game this anniversary is about.",
+        "credit": "Transhuman Design",
+        "source": "https://commons.wikimedia.org/wiki/File:Soldat_v1.7_killed.png",
+        "license": "CC BY 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by/4.0"
+      }
+    },
+    {
+      "id": "05-09-windows-mobile-5-0",
+      "date": "05-09",
+      "dateLabel": "9 May",
+      "category": "tech",
+      "categoryName": "Tech",
+      "year": 2005,
+      "title": "Windows Mobile 5.0",
+      "body": "0 is a mobile operating system developed by Microsoft. It was originally codenamed \"Magneto\".",
+      "source": {
+        "name": "Wikipedia · Windows Mobile 5.0",
+        "url": "https://en.wikipedia.org/wiki/Windows_Mobile_5.0",
+        "calendarUrl": "https://en.wikipedia.org/wiki/May_9",
+        "license": {
+          "name": "CC BY-SA 4.0",
+          "url": "https://creativecommons.org/licenses/by-sa/4.0/"
+        }
+      },
+      "image": {
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/1d/Dell_Axim_x51v.jpg/500px-Dell_Axim_x51v.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "alt": "Windows Mobile 5.0 — the operating system this anniversary is about.",
+        "credit": "Jonathan Aquino",
+        "source": "https://commons.wikimedia.org/wiki/File:Dell_Axim_x51v.jpg",
+        "license": "CC BY 2.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by/2.0"
+      }
+    },
+    {
       "id": "05-09-richard-e-byrd",
       "date": "05-09",
       "dateLabel": "9 May",
@@ -81,60 +135,6 @@
         "source": "https://commons.wikimedia.org/wiki/File:Print,_frontispiece,_satirical_print_(BM_Cc,1.163).jpg",
         "license": "Public domain",
         "licenseUrl": "https://commons.wikimedia.org/wiki/File:Print,_frontispiece,_satirical_print_(BM_Cc,1.163).jpg"
-      }
-    },
-    {
-      "id": "05-09-robert-schuman",
-      "date": "05-09",
-      "dateLabel": "9 May",
-      "category": "world",
-      "categoryName": "World",
-      "year": 1950,
-      "title": "Robert Schuman",
-      "body": "Robert Schuman presents the \"Schuman Declaration\", considered by some to be the beginning of the creation of what is now the European Union.",
-      "source": {
-        "name": "Wikipedia · Robert Schuman",
-        "url": "https://en.wikipedia.org/wiki/Robert_Schuman",
-        "calendarUrl": "https://en.wikipedia.org/wiki/May_9",
-        "license": {
-          "name": "CC BY-SA 4.0",
-          "url": "https://creativecommons.org/licenses/by-sa/4.0/"
-        }
-      },
-      "image": {
-        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/ae/Robert_Schuman_1958.jpg/500px-Robert_Schuman_1958.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-        "alt": "Picture from the Wikipedia article on Robert Schuman.",
-        "credit": "© European Union, 2026",
-        "source": "https://commons.wikimedia.org/wiki/File:Robert_Schuman_1958.jpg",
-        "license": "CC BY 4.0",
-        "licenseUrl": "https://creativecommons.org/licenses/by/4.0"
-      }
-    },
-    {
-      "id": "05-09-west-germany",
-      "date": "05-09",
-      "dateLabel": "9 May",
-      "category": "world",
-      "categoryName": "World",
-      "year": 1955,
-      "title": "West Germany",
-      "body": "West Germany joins NATO.",
-      "source": {
-        "name": "Wikipedia · West Germany",
-        "url": "https://en.wikipedia.org/wiki/West_Germany",
-        "calendarUrl": "https://en.wikipedia.org/wiki/May_9",
-        "license": {
-          "name": "CC BY-SA 4.0",
-          "url": "https://creativecommons.org/licenses/by-sa/4.0/"
-        }
-      },
-      "image": {
-        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/ba/Flag_of_Germany.svg/500px-Flag_of_Germany.svg.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-        "alt": "Picture from the Wikipedia article on West Germany.",
-        "credit": "User:SKopp, User:Madden, and other users",
-        "source": "https://commons.wikimedia.org/wiki/File:Flag_of_Germany.svg",
-        "license": "Public domain",
-        "licenseUrl": "https://commons.wikimedia.org/wiki/File:Flag_of_Germany.svg"
       }
     }
   ]

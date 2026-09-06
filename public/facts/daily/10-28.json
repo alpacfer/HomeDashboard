@@ -3,6 +3,60 @@
   "dateLabel": "28 October",
   "facts": [
     {
+      "id": "10-28-netcat",
+      "date": "10-28",
+      "dateLabel": "28 October",
+      "category": "tech",
+      "categoryName": "Tech",
+      "year": 1995,
+      "title": "Netcat",
+      "body": "netcat (often abbreviated to nc) is a computer networking utility for reading from and writing to network connections using TCP or UDP. The command is designed to be a dependable back-end that can be used directly or easily driven by other programs and scripts.",
+      "source": {
+        "name": "Wikipedia · Netcat",
+        "url": "https://en.wikipedia.org/wiki/Netcat",
+        "calendarUrl": "https://en.wikipedia.org/wiki/October_28",
+        "license": {
+          "name": "CC BY-SA 4.0",
+          "url": "https://creativecommons.org/licenses/by-sa/4.0/"
+        }
+      },
+      "image": {
+        "src": "https://upload.wikimedia.org/wikipedia/commons/1/13/Netcat.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+        "alt": "Netcat — the software this anniversary is about.",
+        "credit": "Interiot",
+        "source": "https://commons.wikimedia.org/wiki/File:Netcat.png",
+        "license": "GPL",
+        "licenseUrl": "https://www.gnu.org/licenses/gpl.html"
+      }
+    },
+    {
+      "id": "10-28-fallout-3",
+      "date": "10-28",
+      "dateLabel": "28 October",
+      "category": "culture",
+      "categoryName": "Culture",
+      "year": 2008,
+      "title": "Q221164",
+      "body": "Fallout 3 is a 2008 action role-playing game developed by Bethesda Game Studios and published by Bethesda Softworks.",
+      "source": {
+        "name": "Wikipedia · Fallout 3",
+        "url": "https://en.wikipedia.org/wiki/Fallout_3",
+        "calendarUrl": "https://en.wikipedia.org/wiki/October_28",
+        "license": {
+          "name": "CC BY-SA 4.0",
+          "url": "https://creativecommons.org/licenses/by-sa/4.0/"
+        }
+      },
+      "image": {
+        "src": "https://upload.wikimedia.org/wikipedia/commons/d/d8/Fallout_3_cover_%28cropped%29.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+        "alt": "Q221164 — the video game this anniversary is about.",
+        "credit": "Xbox México",
+        "source": "https://commons.wikimedia.org/wiki/File:Fallout_3_cover_(cropped).png",
+        "license": "CC BY 3.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by/3.0"
+      }
+    },
+    {
       "id": "10-28-2023-rugby-world-cup-final",
       "date": "10-28",
       "dateLabel": "28 October",
@@ -81,60 +135,6 @@
         "source": "https://commons.wikimedia.org/wiki/File:Paul_Hermann_M%C3%BCller_nobel.jpg",
         "license": "Public domain",
         "licenseUrl": "https://commons.wikimedia.org/wiki/File:Paul_Hermann_M%C3%BCller_nobel.jpg"
-      }
-    },
-    {
-      "id": "10-28-cristina-fern-ndez-de-kirchner",
-      "date": "10-28",
-      "dateLabel": "28 October",
-      "category": "world",
-      "categoryName": "World",
-      "year": 2007,
-      "title": "Cristina Fernández de Kirchner",
-      "body": "Cristina Fernández de Kirchner becomes the first directly elected female President of Argentina.",
-      "source": {
-        "name": "Wikipedia · Cristina Fernández de Kirchner",
-        "url": "https://en.wikipedia.org/wiki/Cristina_Fern%C3%A1ndez_de_Kirchner",
-        "calendarUrl": "https://en.wikipedia.org/wiki/October_28",
-        "license": {
-          "name": "CC BY-SA 4.0",
-          "url": "https://creativecommons.org/licenses/by-sa/4.0/"
-        }
-      },
-      "image": {
-        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/5e/Cristina_Fern%C3%A1ndez_de_Kirchner_en_la_Apertura_de_Sesiones_Ordinarias_2022_%28cropped%29.jpg/500px-Cristina_Fern%C3%A1ndez_de_Kirchner_en_la_Apertura_de_Sesiones_Ordinarias_2022_%28cropped%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-        "alt": "Picture from the Wikipedia article on Cristina Fernández de Kirchner.",
-        "credit": "Charly Díaz Azcue",
-        "source": "https://commons.wikimedia.org/wiki/File:Cristina_Fern%C3%A1ndez_de_Kirchner_en_la_Apertura_de_Sesiones_Ordinarias_2022_(cropped).jpg",
-        "license": "Public domain",
-        "licenseUrl": "https://commons.wikimedia.org/wiki/File:Cristina_Fern%C3%A1ndez_de_Kirchner_en_la_Apertura_de_Sesiones_Ordinarias_2022_(cropped).jpg"
-      }
-    },
-    {
-      "id": "10-28-gulliver-s-travels",
-      "date": "10-28",
-      "dateLabel": "28 October",
-      "category": "culture",
-      "categoryName": "Culture",
-      "year": 1726,
-      "title": "Gulliver's Travels",
-      "body": "The novel Gulliver's Travels written by Jonathan Swift is published.",
-      "source": {
-        "name": "Wikipedia · Gulliver's Travels",
-        "url": "https://en.wikipedia.org/wiki/Gulliver%27s_Travels",
-        "calendarUrl": "https://en.wikipedia.org/wiki/October_28",
-        "license": {
-          "name": "CC BY-SA 4.0",
-          "url": "https://creativecommons.org/licenses/by-sa/4.0/"
-        }
-      },
-      "image": {
-        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/43/Gullivers_travels.jpg/500px-Gullivers_travels.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-        "alt": "Picture from the Wikipedia article on Gulliver's Travels.",
-        "credit": "Wikimedia Commons",
-        "source": "https://commons.wikimedia.org/wiki/File:Gullivers_travels.jpg",
-        "license": "Public domain",
-        "licenseUrl": "https://commons.wikimedia.org/wiki/File:Gullivers_travels.jpg"
       }
     }
   ]

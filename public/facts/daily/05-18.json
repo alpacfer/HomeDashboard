@@ -3,17 +3,17 @@
   "dateLabel": "18 May",
   "facts": [
     {
-      "id": "05-18-cinema-of-india",
+      "id": "05-18-metal-slug-1996-video-game",
       "date": "05-18",
       "dateLabel": "18 May",
       "category": "culture",
       "categoryName": "Culture",
-      "year": 1912,
-      "title": "Cinema of India",
-      "body": "The first Indian film, Shree Pundalik by Dadasaheb Torne, is released in Mumbai.",
+      "year": 1996,
+      "title": "Metal Slug",
+      "body": "Metal Slug is a 1996 run and gun video game developed by Nazca Corporation and published by SNK for the Neo Geo arcade and home systems.",
       "source": {
-        "name": "Wikipedia · Cinema of India",
-        "url": "https://en.wikipedia.org/wiki/Cinema_of_India",
+        "name": "Wikipedia · Metal Slug (1996 video game)",
+        "url": "https://en.wikipedia.org/wiki/Metal_Slug_(1996_video_game)",
         "calendarUrl": "https://en.wikipedia.org/wiki/May_18",
         "license": {
           "name": "CC BY-SA 4.0",
@@ -21,10 +21,10 @@
         }
       },
       "image": {
-        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a6/India_film_clapperboard_%28variant%29.svg/500px-India_film_clapperboard_%28variant%29.svg.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-        "alt": "Picture from the Wikipedia article on Cinema of India.",
-        "credit": "Binnette",
-        "source": "https://commons.wikimedia.org/wiki/File:India_film_clapperboard_(variant).svg",
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b6/Mus%C3%A9e_M%C3%A9canique_222.JPG/500px-Mus%C3%A9e_M%C3%A9canique_222.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "alt": "Metal Slug — the video game this anniversary is about.",
+        "credit": "User:Piotrus",
+        "source": "https://commons.wikimedia.org/wiki/File:Mus%C3%A9e_M%C3%A9canique_222.JPG",
         "license": "CC BY-SA 3.0",
         "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0"
       }
@@ -84,6 +84,33 @@
       }
     },
     {
+      "id": "05-18-cinema-of-india",
+      "date": "05-18",
+      "dateLabel": "18 May",
+      "category": "culture",
+      "categoryName": "Culture",
+      "year": 1912,
+      "title": "Cinema of India",
+      "body": "The first Indian film, Shree Pundalik by Dadasaheb Torne, is released in Mumbai.",
+      "source": {
+        "name": "Wikipedia · Cinema of India",
+        "url": "https://en.wikipedia.org/wiki/Cinema_of_India",
+        "calendarUrl": "https://en.wikipedia.org/wiki/May_18",
+        "license": {
+          "name": "CC BY-SA 4.0",
+          "url": "https://creativecommons.org/licenses/by-sa/4.0/"
+        }
+      },
+      "image": {
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a6/India_film_clapperboard_%28variant%29.svg/500px-India_film_clapperboard_%28variant%29.svg.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "alt": "Picture from the Wikipedia article on Cinema of India.",
+        "credit": "Binnette",
+        "source": "https://commons.wikimedia.org/wiki/File:India_film_clapperboard_(variant).svg",
+        "license": "CC BY-SA 3.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0"
+      }
+    },
+    {
       "id": "05-18-tgv",
       "date": "05-18",
       "dateLabel": "18 May",
@@ -108,33 +135,6 @@
         "source": "https://commons.wikimedia.org/wiki/File:SNCF_TGV_Duplex_2N2_4718_(8464339495).jpg",
         "license": "CC BY-SA 2.0",
         "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0"
-      }
-    },
-    {
-      "id": "05-18-gwangju-massacre",
-      "date": "05-18",
-      "dateLabel": "18 May",
-      "category": "world",
-      "categoryName": "World",
-      "year": 1980,
-      "title": "Gwangju Uprising",
-      "body": "Students in Gwangju, South Korea begin demonstrations calling for democratic reforms.",
-      "source": {
-        "name": "Wikipedia · Gwangju Uprising",
-        "url": "https://en.wikipedia.org/wiki/Gwangju_Uprising",
-        "calendarUrl": "https://en.wikipedia.org/wiki/May_18",
-        "license": {
-          "name": "CC BY-SA 4.0",
-          "url": "https://creativecommons.org/licenses/by-sa/4.0/"
-        }
-      },
-      "image": {
-        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/45/Gwangju5.18FriedhofFotos.JPG/500px-Gwangju5.18FriedhofFotos.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-        "alt": "Picture from the Wikipedia article on Gwangju Uprising.",
-        "credit": "Schlarpi",
-        "source": "https://commons.wikimedia.org/wiki/File:Gwangju5.18FriedhofFotos.JPG",
-        "license": "CC BY-SA 3.0",
-        "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0"
       }
     }
   ]

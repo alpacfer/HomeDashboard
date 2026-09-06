@@ -3,17 +3,17 @@
   "dateLabel": "17 December",
   "facts": [
     {
-      "id": "12-17-the-simpsons",
+      "id": "12-17-gabriel-knight-sins-of-the-fathers",
       "date": "12-17",
       "dateLabel": "17 December",
       "category": "culture",
       "categoryName": "Culture",
-      "year": 1989,
-      "title": "The Simpsons",
-      "body": "The Simpsons premieres on television with the episode \"Simpsons Roasting on an Open Fire\".",
+      "year": 1993,
+      "title": "Gabriel Knight: Sins of the Fathers",
+      "body": "Sins of the Fathers is a 1993 point-and-click adventure game, created by Jane Jensen, developed and published by Sierra On-Line, and released for MS-DOS, Macintosh, and Windows on December 17, 1993.",
       "source": {
-        "name": "Wikipedia · The Simpsons",
-        "url": "https://en.wikipedia.org/wiki/The_Simpsons",
+        "name": "Wikipedia · Gabriel Knight: Sins of the Fathers",
+        "url": "https://en.wikipedia.org/wiki/Gabriel_Knight:_Sins_of_the_Fathers",
         "calendarUrl": "https://en.wikipedia.org/wiki/December_17",
         "license": {
           "name": "CC BY-SA 4.0",
@@ -21,12 +21,12 @@
         }
       },
       "image": {
-        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/98/The_Simpsons_yellow_logo.svg/500px-The_Simpsons_yellow_logo.svg.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-        "alt": "Picture from the Wikipedia article on The Simpsons.",
-        "credit": "20th Television Animation",
-        "source": "https://commons.wikimedia.org/wiki/File:The_Simpsons_yellow_logo.svg",
-        "license": "Public domain",
-        "licenseUrl": "https://commons.wikimedia.org/wiki/File:The_Simpsons_yellow_logo.svg"
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/58/Sierra-Gabriel-Knight-Sins-of-the-Fathers.jpg/500px-Sierra-Gabriel-Knight-Sins-of-the-Fathers.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "alt": "Gabriel Knight: Sins of the Fathers — the video game this anniversary is about.",
+        "credit": "Sierra On-Line",
+        "source": "https://commons.wikimedia.org/wiki/File:Sierra-Gabriel-Knight-Sins-of-the-Fathers.jpg",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0"
       }
     },
     {
@@ -84,6 +84,33 @@
       }
     },
     {
+      "id": "12-17-the-simpsons",
+      "date": "12-17",
+      "dateLabel": "17 December",
+      "category": "culture",
+      "categoryName": "Culture",
+      "year": 1989,
+      "title": "The Simpsons",
+      "body": "The Simpsons premieres on television with the episode \"Simpsons Roasting on an Open Fire\".",
+      "source": {
+        "name": "Wikipedia · The Simpsons",
+        "url": "https://en.wikipedia.org/wiki/The_Simpsons",
+        "calendarUrl": "https://en.wikipedia.org/wiki/December_17",
+        "license": {
+          "name": "CC BY-SA 4.0",
+          "url": "https://creativecommons.org/licenses/by-sa/4.0/"
+        }
+      },
+      "image": {
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/98/The_Simpsons_yellow_logo.svg/500px-The_Simpsons_yellow_logo.svg.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "alt": "Picture from the Wikipedia article on The Simpsons.",
+        "credit": "20th Television Animation",
+        "source": "https://commons.wikimedia.org/wiki/File:The_Simpsons_yellow_logo.svg",
+        "license": "Public domain",
+        "licenseUrl": "https://commons.wikimedia.org/wiki/File:The_Simpsons_yellow_logo.svg"
+      }
+    },
+    {
       "id": "12-17-kurdistan",
       "date": "12-17",
       "dateLabel": "17 December",
@@ -108,33 +135,6 @@
         "source": "https://commons.wikimedia.org/wiki/File:Kurdish-inhabited_areas_(orthographic_projection_with_inset).svg",
         "license": "CC BY-SA 4.0",
         "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0"
-      }
-    },
-    {
-      "id": "12-17-blood-transfusion",
-      "date": "12-17",
-      "dateLabel": "17 December",
-      "category": "science",
-      "categoryName": "Science",
-      "year": 1665,
-      "title": "Blood transfusion",
-      "body": "The first account of a blood transfusion is published, in the form of a letter from physician Richard Lower to chemist Robert Boyle, in Philosophical Transactions of the Royal Society.",
-      "source": {
-        "name": "Wikipedia · Blood transfusion",
-        "url": "https://en.wikipedia.org/wiki/Blood_transfusion",
-        "calendarUrl": "https://en.wikipedia.org/wiki/December_17",
-        "license": {
-          "name": "CC BY-SA 4.0",
-          "url": "https://creativecommons.org/licenses/by-sa/4.0/"
-        }
-      },
-      "image": {
-        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/61/Erythrozytenkonzentrat_neu.jpg/500px-Erythrozytenkonzentrat_neu.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-        "alt": "Picture from the Wikipedia article on Blood transfusion.",
-        "credit": "Wikimedia Commons",
-        "source": "https://commons.wikimedia.org/wiki/File:Erythrozytenkonzentrat_neu.jpg",
-        "license": "CC BY-SA 3.0",
-        "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0/"
       }
     }
   ]

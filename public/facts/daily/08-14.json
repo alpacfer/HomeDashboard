@@ -3,6 +3,60 @@
   "dateLabel": "14 August",
   "facts": [
     {
+      "id": "08-14-arxiv",
+      "date": "08-14",
+      "dateLabel": "14 August",
+      "category": "tech",
+      "categoryName": "Tech",
+      "year": 1991,
+      "title": "arXiv",
+      "body": "arXiv (pronounced as \"archive\"—the X represents the Greek letter chi ⟨χ⟩) is an independent, open-access repository of electronic preprints and postprints (known as e-prints) approved for posting after moderation, but not peer reviewed.",
+      "source": {
+        "name": "Wikipedia · ArXiv",
+        "url": "https://en.wikipedia.org/wiki/ArXiv",
+        "calendarUrl": "https://en.wikipedia.org/wiki/August_14",
+        "license": {
+          "name": "CC BY-SA 4.0",
+          "url": "https://creativecommons.org/licenses/by-sa/4.0/"
+        }
+      },
+      "image": {
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/6a/ArXiv-org_screenshot_20140706.png/500px-ArXiv-org_screenshot_20140706.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "alt": "arXiv — the website this anniversary is about.",
+        "credit": "Screenshot by Lakrits",
+        "source": "https://commons.wikimedia.org/wiki/File:ArXiv-org_screenshot_20140706.png",
+        "license": "Public domain",
+        "licenseUrl": "https://commons.wikimedia.org/wiki/File:ArXiv-org_screenshot_20140706.png"
+      }
+    },
+    {
+      "id": "08-14-darksiders-ii",
+      "date": "08-14",
+      "dateLabel": "14 August",
+      "category": "culture",
+      "categoryName": "Culture",
+      "year": 2012,
+      "title": "Darksiders II",
+      "body": "Darksiders II is an action role-playing hack and slash video game developed by Vigil Games and published by THQ.",
+      "source": {
+        "name": "Wikipedia · Darksiders II",
+        "url": "https://en.wikipedia.org/wiki/Darksiders_II",
+        "calendarUrl": "https://en.wikipedia.org/wiki/August_14",
+        "license": {
+          "name": "CC BY-SA 4.0",
+          "url": "https://creativecommons.org/licenses/by-sa/4.0/"
+        }
+      },
+      "image": {
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c9/Darksiders_II_girls_at_E3_2012_%287166549959%29.jpg/500px-Darksiders_II_girls_at_E3_2012_%287166549959%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "alt": "Darksiders II — the video game this anniversary is about.",
+        "credit": "Sergey Galyonkin from Raleigh, USA",
+        "source": "https://commons.wikimedia.org/wiki/File:Darksiders_II_girls_at_E3_2012_(7166549959).jpg",
+        "license": "CC BY-SA 2.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0"
+      }
+    },
+    {
       "id": "08-14-carlos-the-jackal",
       "date": "08-14",
       "dateLabel": "14 August",
@@ -81,60 +135,6 @@
         "source": "https://commons.wikimedia.org/wiki/File:Burnout_ops_on_Mangum_Fire_McCall_Smokejumpers.jpg",
         "license": "Public domain",
         "licenseUrl": "https://commons.wikimedia.org/wiki/File:Burnout_ops_on_Mangum_Fire_McCall_Smokejumpers.jpg"
-      }
-    },
-    {
-      "id": "08-14-embassy-of-the-united-states-havana",
-      "date": "08-14",
-      "dateLabel": "14 August",
-      "category": "world",
-      "categoryName": "World",
-      "year": 2015,
-      "title": "Embassy of the United States, Havana",
-      "body": "The U.S. Embassy in Havana, Cuba re-opens after 54 years of being closed when Cuba–United States relations were broken off.",
-      "source": {
-        "name": "Wikipedia · Embassy of the United States, Havana",
-        "url": "https://en.wikipedia.org/wiki/Embassy_of_the_United_States,_Havana",
-        "calendarUrl": "https://en.wikipedia.org/wiki/August_14",
-        "license": {
-          "name": "CC BY-SA 4.0",
-          "url": "https://creativecommons.org/licenses/by-sa/4.0/"
-        }
-      },
-      "image": {
-        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c9/U.S._Flag_Flaps_Outside_U.S._Embassy_in_Havana%2C_Cuba_%2825998479275%29.jpg/500px-U.S._Flag_Flaps_Outside_U.S._Embassy_in_Havana%2C_Cuba_%2825998479275%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-        "alt": "Picture from the Wikipedia article on Embassy of the United States, Havana.",
-        "credit": "U.S. Department of State",
-        "source": "https://commons.wikimedia.org/wiki/File:U.S._Flag_Flaps_Outside_U.S._Embassy_in_Havana,_Cuba_(25998479275).jpg",
-        "license": "Public domain",
-        "licenseUrl": "https://commons.wikimedia.org/wiki/File:U.S._Flag_Flaps_Outside_U.S._Embassy_in_Havana,_Cuba_(25998479275).jpg"
-      }
-    },
-    {
-      "id": "08-14-northeast-blackout-of-2003",
-      "date": "08-14",
-      "dateLabel": "14 August",
-      "category": "world",
-      "categoryName": "World",
-      "year": 2003,
-      "title": "Northeast blackout of 2003",
-      "body": "A widescale power blackout affects the northeast United States and Canada.",
-      "source": {
-        "name": "Wikipedia · Northeast blackout of 2003",
-        "url": "https://en.wikipedia.org/wiki/Northeast_blackout_of_2003",
-        "calendarUrl": "https://en.wikipedia.org/wiki/August_14",
-        "license": {
-          "name": "CC BY-SA 4.0",
-          "url": "https://creativecommons.org/licenses/by-sa/4.0/"
-        }
-      },
-      "image": {
-        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/eb/Map_of_North_America%2C_blackout_2003.svg/500px-Map_of_North_America%2C_blackout_2003.svg.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-        "alt": "Picture from the Wikipedia article on Northeast blackout of 2003.",
-        "credit": "Lokal_Profil",
-        "source": "https://commons.wikimedia.org/wiki/File:Map_of_North_America,_blackout_2003.svg",
-        "license": "CC BY-SA 2.5",
-        "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.5"
       }
     }
   ]

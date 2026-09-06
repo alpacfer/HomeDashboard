@@ -3,6 +3,60 @@
   "dateLabel": "31 July",
   "facts": [
     {
+      "id": "07-31-phantasmagoria-video-game",
+      "date": "07-31",
+      "dateLabel": "31 July",
+      "category": "culture",
+      "categoryName": "Culture",
+      "year": 1995,
+      "title": "Phantasmagoria",
+      "body": "Phantasmagoria is a point-and-click adventure horror video game designed by Roberta Williams for MS-DOS and Microsoft Windows and released by Sierra On-Line on August 24, 1995.",
+      "source": {
+        "name": "Wikipedia · Phantasmagoria (video game)",
+        "url": "https://en.wikipedia.org/wiki/Phantasmagoria_(video_game)",
+        "calendarUrl": "https://en.wikipedia.org/wiki/July_31",
+        "license": {
+          "name": "CC BY-SA 4.0",
+          "url": "https://creativecommons.org/licenses/by-sa/4.0/"
+        }
+      },
+      "image": {
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/41/Sierra-Phantasmagoria.jpg/500px-Sierra-Phantasmagoria.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "alt": "Phantasmagoria — the video game this anniversary is about.",
+        "credit": "Sierra On-Line",
+        "source": "https://commons.wikimedia.org/wiki/File:Sierra-Phantasmagoria.jpg",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0"
+      }
+    },
+    {
+      "id": "07-31-windows-nt-4-0",
+      "date": "07-31",
+      "dateLabel": "31 July",
+      "category": "tech",
+      "categoryName": "Tech",
+      "year": 1996,
+      "title": "Windows NT 4.0",
+      "body": "0 is a major release of the Windows NT operating system developed by Microsoft, targeting the data server and personal workstation markets.",
+      "source": {
+        "name": "Wikipedia · Windows NT 4.0",
+        "url": "https://en.wikipedia.org/wiki/Windows_NT_4.0",
+        "calendarUrl": "https://en.wikipedia.org/wiki/July_31",
+        "license": {
+          "name": "CC BY-SA 4.0",
+          "url": "https://creativecommons.org/licenses/by-sa/4.0/"
+        }
+      },
+      "image": {
+        "src": "https://upload.wikimedia.org/wikipedia/commons/3/36/Windows_9x_Color_Palette_65536_Colors.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+        "alt": "Windows NT 4.0 — the operating system this anniversary is about.",
+        "credit": "Microsoft Corporation Screenshot…",
+        "source": "https://commons.wikimedia.org/wiki/File:Windows_9x_Color_Palette_65536_Colors.png",
+        "license": "Public domain",
+        "licenseUrl": "https://commons.wikimedia.org/wiki/File:Windows_9x_Color_Palette_65536_Colors.png"
+      }
+    },
+    {
       "id": "07-31-apollo-15",
       "date": "07-31",
       "dateLabel": "31 July",
@@ -93,60 +147,6 @@
         "source": "https://commons.wikimedia.org/wiki/File:Michael_Phelps_Rio_Olympics_2016.jpg",
         "license": "CC BY 2.0",
         "licenseUrl": "https://creativecommons.org/licenses/by/2.0"
-      }
-    },
-    {
-      "id": "07-31-patent",
-      "date": "07-31",
-      "dateLabel": "31 July",
-      "category": "science",
-      "categoryName": "Science",
-      "year": 1790,
-      "title": "Patent",
-      "body": "The first U.S. patent is issued, to inventor Samuel Hopkins for a potash process.",
-      "source": {
-        "name": "Wikipedia · Patent",
-        "url": "https://en.wikipedia.org/wiki/Patent",
-        "calendarUrl": "https://en.wikipedia.org/wiki/July_31",
-        "license": {
-          "name": "CC BY-SA 4.0",
-          "url": "https://creativecommons.org/licenses/by-sa/4.0/"
-        }
-      },
-      "image": {
-        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f5/US_Patent_cover_%28US_Patent_5%2C860%2C492%29.jpg/500px-US_Patent_cover_%28US_Patent_5%2C860%2C492%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-        "alt": "Picture from the Wikipedia article on Patent.",
-        "credit": "USPTO",
-        "source": "https://commons.wikimedia.org/wiki/File:US_Patent_cover_(US_Patent_5,860,492).jpg",
-        "license": "Public domain",
-        "licenseUrl": "https://commons.wikimedia.org/wiki/File:US_Patent_cover_(US_Patent_5,860,492).jpg"
-      }
-    },
-    {
-      "id": "07-31-ranger-7",
-      "date": "07-31",
-      "dateLabel": "31 July",
-      "category": "space",
-      "categoryName": "Space",
-      "year": 1964,
-      "title": "Ranger 7",
-      "body": "Ranger 7 sends back the first close-up photographs of the moon, with images 1,000 times clearer than anything ever seen from earth-bound telescopes.",
-      "source": {
-        "name": "Wikipedia · Ranger 7",
-        "url": "https://en.wikipedia.org/wiki/Ranger_7",
-        "calendarUrl": "https://en.wikipedia.org/wiki/July_31",
-        "license": {
-          "name": "CC BY-SA 4.0",
-          "url": "https://creativecommons.org/licenses/by-sa/4.0/"
-        }
-      },
-      "image": {
-        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/bd/The_Ranger_Spacecraft_GPN-2000-001979.jpg/500px-The_Ranger_Spacecraft_GPN-2000-001979.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-        "alt": "Picture from the Wikipedia article on Ranger 7.",
-        "credit": "NASA Headquarters",
-        "source": "https://commons.wikimedia.org/wiki/File:The_Ranger_Spacecraft_GPN-2000-001979.jpg",
-        "license": "Public domain",
-        "licenseUrl": "https://commons.wikimedia.org/wiki/File:The_Ranger_Spacecraft_GPN-2000-001979.jpg"
       }
     }
   ]

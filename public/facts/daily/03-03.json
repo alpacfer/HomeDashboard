@@ -3,6 +3,60 @@
   "dateLabel": "3 March",
   "facts": [
     {
+      "id": "03-03-mari0",
+      "date": "03-03",
+      "dateLabel": "3 March",
+      "category": "culture",
+      "categoryName": "Culture",
+      "year": 2012,
+      "title": "Mari0",
+      "body": "net. It combines gameplay elements from Nintendo's Super Mario series and Valve's Portal series.",
+      "source": {
+        "name": "Wikipedia · Mari0",
+        "url": "https://en.wikipedia.org/wiki/Mari0",
+        "calendarUrl": "https://en.wikipedia.org/wiki/March_3",
+        "license": {
+          "name": "CC BY-SA 4.0",
+          "url": "https://creativecommons.org/licenses/by-sa/4.0/"
+        }
+      },
+      "image": {
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/8f/Mari0_%28mari-zero%29_logo.png/500px-Mari0_%28mari-zero%29_logo.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "alt": "Mari0 — the video game this anniversary is about.",
+        "credit": "Stabyourself.net",
+        "source": "https://commons.wikimedia.org/wiki/File:Mari0_(mari-zero)_logo.png",
+        "license": "Public domain",
+        "licenseUrl": "https://commons.wikimedia.org/wiki/File:Mari0_(mari-zero)_logo.png"
+      }
+    },
+    {
+      "id": "03-03-myhouse-wad",
+      "date": "03-03",
+      "dateLabel": "3 March",
+      "category": "culture",
+      "categoryName": "Culture",
+      "year": 2023,
+      "title": "MyHouse.wad",
+      "body": "pk3, or simply MyHouse) is a map for Doom II created under the pen name Steve Nelson, more commonly known by \"Veddge\".",
+      "source": {
+        "name": "Wikipedia · MyHouse.wad",
+        "url": "https://en.wikipedia.org/wiki/MyHouse.wad",
+        "calendarUrl": "https://en.wikipedia.org/wiki/March_3",
+        "license": {
+          "name": "CC BY-SA 4.0",
+          "url": "https://creativecommons.org/licenses/by-sa/4.0/"
+        }
+      },
+      "image": {
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/68/MyHouse.wad_title_screen.png/500px-MyHouse.wad_title_screen.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "alt": "MyHouse.wad — the video game this anniversary is about.",
+        "credit": "Steven Nelson",
+        "source": "https://commons.wikimedia.org/wiki/File:MyHouse.wad_title_screen.png",
+        "license": "CC BY 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by/4.0"
+      }
+    },
+    {
       "id": "03-03-apollo-9",
       "date": "03-03",
       "dateLabel": "3 March",
@@ -81,60 +135,6 @@
         "source": "https://commons.wikimedia.org/wiki/File:Petroleum_sample.jpg",
         "license": "CC0",
         "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/deed.en"
-      }
-    },
-    {
-      "id": "03-03-amateur-video",
-      "date": "03-03",
-      "dateLabel": "3 March",
-      "category": "world",
-      "categoryName": "World",
-      "year": 1991,
-      "title": "Amateur film",
-      "body": "An amateur video captures the beating of Rodney King by Los Angeles police officers.",
-      "source": {
-        "name": "Wikipedia · Amateur film",
-        "url": "https://en.wikipedia.org/wiki/Amateur_film",
-        "calendarUrl": "https://en.wikipedia.org/wiki/March_3",
-        "license": {
-          "name": "CC BY-SA 4.0",
-          "url": "https://creativecommons.org/licenses/by-sa/4.0/"
-        }
-      },
-      "image": {
-        "src": "https://upload.wikimedia.org/wikipedia/commons/a/ad/BolexH16.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
-        "alt": "Picture from the Wikipedia article on Amateur film.",
-        "credit": "User:Janke",
-        "source": "https://commons.wikimedia.org/wiki/File:BolexH16.jpg",
-        "license": "Public domain",
-        "licenseUrl": "https://commons.wikimedia.org/wiki/File:BolexH16.jpg"
-      }
-    },
-    {
-      "id": "03-03-australia-act-1986",
-      "date": "03-03",
-      "dateLabel": "3 March",
-      "category": "world",
-      "categoryName": "World",
-      "year": 1986,
-      "title": "Australia Act 1986",
-      "body": "The Australia Act 1986 commences, causing Australia to become fully independent from the United Kingdom.",
-      "source": {
-        "name": "Wikipedia · Australia Act 1986",
-        "url": "https://en.wikipedia.org/wiki/Australia_Act_1986",
-        "calendarUrl": "https://en.wikipedia.org/wiki/March_3",
-        "license": {
-          "name": "CC BY-SA 4.0",
-          "url": "https://creativecommons.org/licenses/by-sa/4.0/"
-        }
-      },
-      "image": {
-        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c5/Coat_of_arms_of_the_Commonwealth_of_Australia.svg/500px-Coat_of_arms_of_the_Commonwealth_of_Australia.svg.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-        "alt": "Picture from the Wikipedia article on Australia Act 1986.",
-        "credit": "Sodacan",
-        "source": "https://commons.wikimedia.org/wiki/File:Coat_of_arms_of_the_Commonwealth_of_Australia.svg",
-        "license": "Public domain",
-        "licenseUrl": "https://commons.wikimedia.org/wiki/File:Coat_of_arms_of_the_Commonwealth_of_Australia.svg"
       }
     }
   ]

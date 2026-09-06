@@ -30,6 +30,33 @@
       }
     },
     {
+      "id": "09-09-super-pi",
+      "date": "09-09",
+      "dateLabel": "9 September",
+      "category": "tech",
+      "categoryName": "Tech",
+      "year": 1995,
+      "title": "Super PI",
+      "body": "Super PI is a computer program that calculates pi to a specified number of digits after the decimal point—up to a maximum of 32 million.",
+      "source": {
+        "name": "Wikipedia · Super PI",
+        "url": "https://en.wikipedia.org/wiki/Super_PI",
+        "calendarUrl": "https://en.wikipedia.org/wiki/September_9",
+        "license": {
+          "name": "CC BY-SA 4.0",
+          "url": "https://creativecommons.org/licenses/by-sa/4.0/"
+        }
+      },
+      "image": {
+        "src": "https://upload.wikimedia.org/wikipedia/commons/9/94/SuperPIMod.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+        "alt": "Super PI — the software this anniversary is about.",
+        "credit": "Yookono",
+        "source": "https://commons.wikimedia.org/wiki/File:SuperPIMod.png",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0"
+      }
+    },
+    {
       "id": "09-09-indian-space-research-organisation",
       "date": "09-09",
       "dateLabel": "9 September",
@@ -108,33 +135,6 @@
         "source": "https://commons.wikimedia.org/wiki/File:Amalthea_PIA02532.png",
         "license": "Public domain",
         "licenseUrl": "https://commons.wikimedia.org/wiki/File:Amalthea_PIA02532.png"
-      }
-    },
-    {
-      "id": "09-09-elvis-presley",
-      "date": "09-09",
-      "dateLabel": "9 September",
-      "category": "culture",
-      "categoryName": "Culture",
-      "year": 1956,
-      "title": "Elvis Presley",
-      "body": "Elvis Presley appears on The Ed Sullivan Show for the first time.",
-      "source": {
-        "name": "Wikipedia · Elvis Presley",
-        "url": "https://en.wikipedia.org/wiki/Elvis_Presley",
-        "calendarUrl": "https://en.wikipedia.org/wiki/September_9",
-        "license": {
-          "name": "CC BY-SA 4.0",
-          "url": "https://creativecommons.org/licenses/by-sa/4.0/"
-        }
-      },
-      "image": {
-        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/99/Elvis_Presley_promoting_Jailhouse_Rock.jpg/500px-Elvis_Presley_promoting_Jailhouse_Rock.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-        "alt": "Picture from the Wikipedia article on Elvis Presley.",
-        "credit": "Metro-Goldwyn-Mayer",
-        "source": "https://commons.wikimedia.org/wiki/File:Elvis_Presley_promoting_Jailhouse_Rock.jpg",
-        "license": "Public domain",
-        "licenseUrl": "https://commons.wikimedia.org/wiki/File:Elvis_Presley_promoting_Jailhouse_Rock.jpg"
       }
     }
   ]

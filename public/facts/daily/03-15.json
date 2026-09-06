@@ -3,6 +3,60 @@
   "dateLabel": "15 March",
   "facts": [
     {
+      "id": "03-15-dailymotion",
+      "date": "03-15",
+      "dateLabel": "15 March",
+      "category": "tech",
+      "categoryName": "Tech",
+      "year": 2005,
+      "title": "Dailymotion",
+      "body": "Dailymotion is a French online video sharing platform owned by Canal+. Prior to 2024, it was owned by Vivendi.",
+      "source": {
+        "name": "Wikipedia · Dailymotion",
+        "url": "https://en.wikipedia.org/wiki/Dailymotion",
+        "calendarUrl": "https://en.wikipedia.org/wiki/March_15",
+        "license": {
+          "name": "CC BY-SA 4.0",
+          "url": "https://creativecommons.org/licenses/by-sa/4.0/"
+        }
+      },
+      "image": {
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e5/Dailymotion_HQ%2C_Paris.JPG/500px-Dailymotion_HQ%2C_Paris.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "alt": "Dailymotion — the website this anniversary is about.",
+        "credit": "Communicationdaily",
+        "source": "https://commons.wikimedia.org/wiki/File:Dailymotion_HQ,_Paris.JPG",
+        "license": "CC BY-SA 3.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0"
+      }
+    },
+    {
+      "id": "03-15-red-eclipse",
+      "date": "03-15",
+      "dateLabel": "15 March",
+      "category": "culture",
+      "categoryName": "Culture",
+      "year": 2011,
+      "title": "Red Eclipse",
+      "body": "Red Eclipse is an open-source first-person shooter that is forked from Cube 2: Sauerbraten. Like the original Cube 2, it features multiplayer gameplay as well as in-game level editing, but with improved graphics and a focus on parkour movement.",
+      "source": {
+        "name": "Wikipedia · Red Eclipse",
+        "url": "https://en.wikipedia.org/wiki/Red_Eclipse",
+        "calendarUrl": "https://en.wikipedia.org/wiki/March_15",
+        "license": {
+          "name": "CC BY-SA 4.0",
+          "url": "https://creativecommons.org/licenses/by-sa/4.0/"
+        }
+      },
+      "image": {
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/95/Red_Eclipse_screenshot_%28Elara_1.4.1%29.png/500px-Red_Eclipse_screenshot_%28Elara_1.4.1%29.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "alt": "Red Eclipse — the video game this anniversary is about.",
+        "credit": "Screenshot",
+        "source": "https://commons.wikimedia.org/wiki/File:Red_Eclipse_screenshot_(Elara_1.4.1).png",
+        "license": "CC BY-SA 3.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0"
+      }
+    },
+    {
       "id": "03-15-mikhail-gorbachev",
       "date": "03-15",
       "dateLabel": "15 March",
@@ -81,60 +135,6 @@
         "source": "https://commons.wikimedia.org/wiki/File:Morrell.jpg",
         "license": "Public domain",
         "licenseUrl": "https://commons.wikimedia.org/wiki/File:Morrell.jpg"
-      }
-    },
-    {
-      "id": "03-15-school-strike-for-climate",
-      "date": "03-15",
-      "dateLabel": "15 March",
-      "category": "world",
-      "categoryName": "World",
-      "year": 2019,
-      "title": "Fridays for Future",
-      "body": "Approximately 1.4 million young people in 123 countries go on strike to protest climate change.",
-      "source": {
-        "name": "Wikipedia · Fridays for Future",
-        "url": "https://en.wikipedia.org/wiki/Fridays_for_Future",
-        "calendarUrl": "https://en.wikipedia.org/wiki/March_15",
-        "license": {
-          "name": "CC BY-SA 4.0",
-          "url": "https://creativecommons.org/licenses/by-sa/4.0/"
-        }
-      },
-      "image": {
-        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/9f/Maximum_school_strikers_per_country.svg/500px-Maximum_school_strikers_per_country.svg.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-        "alt": "Picture from the Wikipedia article on Fridays for Future.",
-        "credit": "PJ Geest This W3C-unspecified vector…",
-        "source": "https://commons.wikimedia.org/wiki/File:Maximum_school_strikers_per_country.svg",
-        "license": "CC BY-SA 4.0",
-        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0"
-      }
-    },
-    {
-      "id": "03-15-2019-20-hong-kong-protests",
-      "date": "03-15",
-      "dateLabel": "15 March",
-      "category": "world",
-      "categoryName": "World",
-      "year": 2019,
-      "title": "2019–2020 Hong Kong protests",
-      "body": "Beginning of the 2019–20 Hong Kong protests.",
-      "source": {
-        "name": "Wikipedia · 2019–2020 Hong Kong protests",
-        "url": "https://en.wikipedia.org/wiki/2019%E2%80%932020_Hong_Kong_protests",
-        "calendarUrl": "https://en.wikipedia.org/wiki/March_15",
-        "license": {
-          "name": "CC BY-SA 4.0",
-          "url": "https://creativecommons.org/licenses/by-sa/4.0/"
-        }
-      },
-      "image": {
-        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/fb/Hong_Kong_anti-extradition_bill_protest_%2848108527758%29.jpg/500px-Hong_Kong_anti-extradition_bill_protest_%2848108527758%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-        "alt": "Picture from the Wikipedia article on 2019–2020 Hong Kong protests.",
-        "credit": "Studio Incendo",
-        "source": "https://commons.wikimedia.org/wiki/File:Hong_Kong_anti-extradition_bill_protest_(48108527758).jpg",
-        "license": "CC BY 2.0",
-        "licenseUrl": "https://creativecommons.org/licenses/by/2.0"
       }
     }
   ]

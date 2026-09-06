@@ -3,6 +3,33 @@
   "dateLabel": "6 January",
   "facts": [
     {
+      "id": "01-06-megaglest",
+      "date": "01-06",
+      "dateLabel": "6 January",
+      "category": "culture",
+      "categoryName": "Culture",
+      "year": 2010,
+      "title": "MegaGlest",
+      "body": "MegaGlest is a free and open source real-time strategy computer game in a fantasy world, mixing elements of re-imagined past civilizations, magic and steampunk. It is an actively developed fork of the 2004 game Glest, which is no longer under development.",
+      "source": {
+        "name": "Wikipedia · MegaGlest",
+        "url": "https://en.wikipedia.org/wiki/MegaGlest",
+        "calendarUrl": "https://en.wikipedia.org/wiki/January_6",
+        "license": {
+          "name": "CC BY-SA 4.0",
+          "url": "https://creativecommons.org/licenses/by-sa/4.0/"
+        }
+      },
+      "image": {
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/bc/Screenshot_of_MegaGlest_Gameplay.jpg/500px-Screenshot_of_MegaGlest_Gameplay.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "alt": "MegaGlest — the video game this anniversary is about.",
+        "credit": "MegaGlest development team",
+        "source": "https://commons.wikimedia.org/wiki/File:Screenshot_of_MegaGlest_Gameplay.jpg",
+        "license": "GPL",
+        "licenseUrl": "https://www.gnu.org/licenses/gpl.html"
+      }
+    },
+    {
       "id": "01-06-pan-am",
       "date": "01-06",
       "dateLabel": "6 January",
@@ -108,33 +135,6 @@
         "source": "https://commons.wikimedia.org/wiki/File:Sultan_Muhammad_V_dari_Kelantan_pada_tahun_2013.jpg",
         "license": "CC BY 3.0",
         "licenseUrl": "https://creativecommons.org/licenses/by/3.0"
-      }
-    },
-    {
-      "id": "01-06-edgar-ray-killen",
-      "date": "01-06",
-      "dateLabel": "6 January",
-      "category": "world",
-      "categoryName": "World",
-      "year": 2005,
-      "title": "Edgar Ray Killen",
-      "body": "Edgar Ray Killen is indicted for the 1964 murders of Chaney, Goodman, and Schwerner during the American Civil Rights Movement.",
-      "source": {
-        "name": "Wikipedia · Edgar Ray Killen",
-        "url": "https://en.wikipedia.org/wiki/Edgar_Ray_Killen",
-        "calendarUrl": "https://en.wikipedia.org/wiki/January_6",
-        "license": {
-          "name": "CC BY-SA 4.0",
-          "url": "https://creativecommons.org/licenses/by-sa/4.0/"
-        }
-      },
-      "image": {
-        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/ed/Edgar_Ray_Killen_Mugshot_%283x4_cropped%29.jpg/500px-Edgar_Ray_Killen_Mugshot_%283x4_cropped%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-        "alt": "Picture from the Wikipedia article on Edgar Ray Killen.",
-        "credit": "U.S. Government workers",
-        "source": "https://commons.wikimedia.org/wiki/File:Edgar_Ray_Killen_Mugshot_(3x4_cropped).jpg",
-        "license": "Public domain",
-        "licenseUrl": "https://commons.wikimedia.org/wiki/File:Edgar_Ray_Killen_Mugshot_(3x4_cropped).jpg"
       }
     }
   ]

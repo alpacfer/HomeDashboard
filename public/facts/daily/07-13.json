@@ -3,6 +3,60 @@
   "dateLabel": "13 July",
   "facts": [
     {
+      "id": "07-13-live-for-speed",
+      "date": "07-13",
+      "dateLabel": "13 July",
+      "category": "culture",
+      "categoryName": "Culture",
+      "year": 2003,
+      "title": "Live for Speed",
+      "body": "Live for Speed (LFS) is a racing simulator developed by a three-person team comprising Scawen Roberts, Eric Bailey, and Victor van Vlaardingen with its latest release in 2025.",
+      "source": {
+        "name": "Wikipedia · Live for Speed",
+        "url": "https://en.wikipedia.org/wiki/Live_for_Speed",
+        "calendarUrl": "https://en.wikipedia.org/wiki/July_13",
+        "license": {
+          "name": "CC BY-SA 4.0",
+          "url": "https://creativecommons.org/licenses/by-sa/4.0/"
+        }
+      },
+      "image": {
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/48/Rallycross_blackwood_lfs.jpg/500px-Rallycross_blackwood_lfs.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "alt": "Live for Speed — the video game this anniversary is about.",
+        "credit": "Martin Kapal",
+        "source": "https://commons.wikimedia.org/wiki/File:Rallycross_blackwood_lfs.jpg",
+        "license": "CC BY-SA 3.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0/"
+      }
+    },
+    {
+      "id": "07-13-frogatto-friends",
+      "date": "07-13",
+      "dateLabel": "13 July",
+      "category": "culture",
+      "categoryName": "Culture",
+      "year": 2010,
+      "title": "Frogatto & Friends",
+      "body": "Frogatto & Friends is a platform game with adventure elements released in July 2010. The game received positive reviews, particularly for its \"gorgeous\" pixel art.",
+      "source": {
+        "name": "Wikipedia · Frogatto & Friends",
+        "url": "https://en.wikipedia.org/wiki/Frogatto_%26_Friends",
+        "calendarUrl": "https://en.wikipedia.org/wiki/July_13",
+        "license": {
+          "name": "CC BY-SA 4.0",
+          "url": "https://creativecommons.org/licenses/by-sa/4.0/"
+        }
+      },
+      "image": {
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/3c/Frogatto.png/500px-Frogatto.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "alt": "Frogatto & Friends — the video game this anniversary is about.",
+        "credit": "Wikimedia Commons",
+        "source": "https://commons.wikimedia.org/wiki/File:Frogatto.png",
+        "license": "CC BY-SA 3.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0"
+      }
+    },
+    {
       "id": "07-13-vice-president-of-the-united-states",
       "date": "07-13",
       "dateLabel": "13 July",
@@ -79,60 +133,6 @@
         "alt": "Picture from the Wikipedia article on Vuoristorata.",
         "credit": "Oona Räisänen",
         "source": "https://commons.wikimedia.org/wiki/File:Linnanm%C3%A4ki_Vuoristorata.jpg",
-        "license": "CC BY-SA 3.0",
-        "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0"
-      }
-    },
-    {
-      "id": "07-13-directorate-general-for-external-security",
-      "date": "07-13",
-      "dateLabel": "13 July",
-      "category": "world",
-      "categoryName": "World",
-      "year": 2003,
-      "title": "Directorate General for External Security",
-      "body": "French DGSE personnel abort an operation to rescue Íngrid Betancourt from FARC rebels in Colombia, causing a political scandal when details are leaked to the press.",
-      "source": {
-        "name": "Wikipedia · Directorate General for External Security",
-        "url": "https://en.wikipedia.org/wiki/Directorate_General_for_External_Security",
-        "calendarUrl": "https://en.wikipedia.org/wiki/July_13",
-        "license": {
-          "name": "CC BY-SA 4.0",
-          "url": "https://creativecommons.org/licenses/by-sa/4.0/"
-        }
-      },
-      "image": {
-        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c7/Logo_de_la_Direction_G%C3%A9n%C3%A9rale_de_la_S%C3%A9curit%C3%A9_Ext%C3%A9rieure.svg/500px-Logo_de_la_Direction_G%C3%A9n%C3%A9rale_de_la_S%C3%A9curit%C3%A9_Ext%C3%A9rieure.svg.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-        "alt": "Picture from the Wikipedia article on Directorate General for External Security.",
-        "credit": "Ministère des Armées",
-        "source": "https://commons.wikimedia.org/wiki/File:Logo_de_la_Direction_G%C3%A9n%C3%A9rale_de_la_S%C3%A9curit%C3%A9_Ext%C3%A9rieure.svg",
-        "license": "Public domain",
-        "licenseUrl": "https://commons.wikimedia.org/wiki/File:Logo_de_la_Direction_G%C3%A9n%C3%A9rale_de_la_S%C3%A9curit%C3%A9_Ext%C3%A9rieure.svg"
-      }
-    },
-    {
-      "id": "07-13-airship",
-      "date": "07-13",
-      "dateLabel": "13 July",
-      "category": "world",
-      "categoryName": "World",
-      "year": 1919,
-      "title": "Airship",
-      "body": "The British airship R34 lands in Norfolk, England, completing the first airship return journey across the Atlantic in 182 hours of flight.",
-      "source": {
-        "name": "Wikipedia · Airship",
-        "url": "https://en.wikipedia.org/wiki/Airship",
-        "calendarUrl": "https://en.wikipedia.org/wiki/July_13",
-        "license": {
-          "name": "CC BY-SA 4.0",
-          "url": "https://creativecommons.org/licenses/by-sa/4.0/"
-        }
-      },
-      "image": {
-        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/df/Zeppellin_NT_amk.JPG/500px-Zeppellin_NT_amk.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-        "alt": "Picture from the Wikipedia article on Airship.",
-        "credit": "AngMoKio",
-        "source": "https://commons.wikimedia.org/wiki/File:Zeppellin_NT_amk.JPG",
         "license": "CC BY-SA 3.0",
         "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0"
       }

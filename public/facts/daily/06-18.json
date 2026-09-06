@@ -3,17 +3,17 @@
   "dateLabel": "18 June",
   "facts": [
     {
-      "id": "06-18-benjamin-britten",
+      "id": "06-18-google-adsense",
       "date": "06-18",
       "dateLabel": "18 June",
-      "category": "culture",
-      "categoryName": "Culture",
-      "year": 1958,
-      "title": "Benjamin Britten",
-      "body": "Benjamin Britten's one-act opera Noye's Fludde premieres at the Aldeburgh Festival.",
+      "category": "tech",
+      "categoryName": "Tech",
+      "year": 2003,
+      "title": "Google AdSense",
+      "body": "Google AdSense is a program and advertising network run by Google through which website publishers in the Google Network of content sites serve text, images, video, or interactive media advertisements that are targeted to the site content and audience.",
       "source": {
-        "name": "Wikipedia · Benjamin Britten",
-        "url": "https://en.wikipedia.org/wiki/Benjamin_Britten",
+        "name": "Wikipedia · Google AdSense",
+        "url": "https://en.wikipedia.org/wiki/Google_AdSense",
         "calendarUrl": "https://en.wikipedia.org/wiki/June_18",
         "license": {
           "name": "CC BY-SA 4.0",
@@ -21,12 +21,39 @@
         }
       },
       "image": {
-        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d2/Fortepan_137711_%28cropped%29.jpg/500px-Fortepan_137711_%28cropped%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-        "alt": "Picture from the Wikipedia article on Benjamin Britten.",
-        "credit": "Szalay Zoltán",
-        "source": "https://commons.wikimedia.org/wiki/File:Fortepan_137711_(cropped).jpg",
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/8b/P%C3%A0gina_principal_de_Google_AdSense.png/500px-P%C3%A0gina_principal_de_Google_AdSense.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "alt": "Google AdSense — the software this anniversary is about.",
+        "credit": "Pol Rius Gor",
+        "source": "https://commons.wikimedia.org/wiki/File:P%C3%A0gina_principal_de_Google_AdSense.png",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0"
+      }
+    },
+    {
+      "id": "06-18-in-the-groove-2",
+      "date": "06-18",
+      "dateLabel": "18 June",
+      "category": "culture",
+      "categoryName": "Culture",
+      "year": 2005,
+      "title": "In the Groove 2",
+      "body": "In the Groove 2 is the sequel to Roxor Games' 2004 arcade game In the Groove. It was released to arcades officially on June 18, 2005.",
+      "source": {
+        "name": "Wikipedia · In the Groove 2",
+        "url": "https://en.wikipedia.org/wiki/In_the_Groove_2",
+        "calendarUrl": "https://en.wikipedia.org/wiki/June_18",
+        "license": {
+          "name": "CC BY-SA 4.0",
+          "url": "https://creativecommons.org/licenses/by-sa/4.0/"
+        }
+      },
+      "image": {
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/71/Itg_machine.jpg/500px-Itg_machine.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "alt": "In the Groove 2 — the video game this anniversary is about.",
+        "credit": "Rahzel",
+        "source": "https://commons.wikimedia.org/wiki/File:Itg_machine.jpg",
         "license": "CC BY-SA 3.0",
-        "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0"
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0/"
       }
     },
     {
@@ -108,33 +135,6 @@
         "source": "https://commons.wikimedia.org/wiki/File:F-117_Nighthawk_Front.jpg",
         "license": "Public domain",
         "licenseUrl": "https://commons.wikimedia.org/wiki/File:F-117_Nighthawk_Front.jpg"
-      }
-    },
-    {
-      "id": "06-18-lunar-reconnaissance-orbiter",
-      "date": "06-18",
-      "dateLabel": "18 June",
-      "category": "space",
-      "categoryName": "Space",
-      "year": 2009,
-      "title": "Lunar Reconnaissance Orbiter",
-      "body": "The Lunar Reconnaissance Orbiter (LRO), a NASA robotic spacecraft is launched.",
-      "source": {
-        "name": "Wikipedia · Lunar Reconnaissance Orbiter",
-        "url": "https://en.wikipedia.org/wiki/Lunar_Reconnaissance_Orbiter",
-        "calendarUrl": "https://en.wikipedia.org/wiki/June_18",
-        "license": {
-          "name": "CC BY-SA 4.0",
-          "url": "https://creativecommons.org/licenses/by-sa/4.0/"
-        }
-      },
-      "image": {
-        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/95/Lunar_Reconnaissance_Orbiter_001.jpg/500px-Lunar_Reconnaissance_Orbiter_001.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-        "alt": "Picture from the Wikipedia article on Lunar Reconnaissance Orbiter.",
-        "credit": "NASA",
-        "source": "https://commons.wikimedia.org/wiki/File:Lunar_Reconnaissance_Orbiter_001.jpg",
-        "license": "Public domain",
-        "licenseUrl": "https://commons.wikimedia.org/wiki/File:Lunar_Reconnaissance_Orbiter_001.jpg"
       }
     }
   ]

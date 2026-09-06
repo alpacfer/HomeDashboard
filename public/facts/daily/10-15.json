@@ -3,6 +3,60 @@
   "dateLabel": "15 October",
   "facts": [
     {
+      "id": "10-15-mortal-kombat-4",
+      "date": "10-15",
+      "dateLabel": "15 October",
+      "category": "culture",
+      "categoryName": "Culture",
+      "year": 1997,
+      "title": "Mortal Kombat 4",
+      "body": "Mortal Kombat 4 is a 1997 fighting game developed and published by Midway for arcades. It is the fourth main installment in the Mortal Kombat franchise, and a sequel to 1995's Mortal Kombat 3.",
+      "source": {
+        "name": "Wikipedia · Mortal Kombat 4",
+        "url": "https://en.wikipedia.org/wiki/Mortal_Kombat_4",
+        "calendarUrl": "https://en.wikipedia.org/wiki/October_15",
+        "license": {
+          "name": "CC BY-SA 4.0",
+          "url": "https://creativecommons.org/licenses/by-sa/4.0/"
+        }
+      },
+      "image": {
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c4/MortalKombat4LegacyTrailer.png/500px-MortalKombat4LegacyTrailer.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "alt": "Mortal Kombat 4 — the video game this anniversary is about.",
+        "credit": "w:Midway Games",
+        "source": "https://commons.wikimedia.org/wiki/File:MortalKombat4LegacyTrailer.png",
+        "license": "CC BY 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by/4.0"
+      }
+    },
+    {
+      "id": "10-15-the-witcher-3-wild-hunt",
+      "date": "10-15",
+      "dateLabel": "15 October",
+      "category": "culture",
+      "categoryName": "Culture",
+      "year": 2015,
+      "title": "The Witcher 3: Wild Hunt",
+      "body": "Wild Hunt‍ is a 2015 action role-playing game developed and published by CD Projekt.",
+      "source": {
+        "name": "Wikipedia · The Witcher 3: Wild Hunt",
+        "url": "https://en.wikipedia.org/wiki/The_Witcher_3:_Wild_Hunt",
+        "calendarUrl": "https://en.wikipedia.org/wiki/October_15",
+        "license": {
+          "name": "CC BY-SA 4.0",
+          "url": "https://creativecommons.org/licenses/by-sa/4.0/"
+        }
+      },
+      "image": {
+        "src": "https://upload.wikimedia.org/wikipedia/commons/0/0b/The_Witcher_3_-_Standard_Edition_Unboxing_%28Official_Trailer%29_cover.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+        "alt": "The Witcher 3: Wild Hunt — the video game this anniversary is about.",
+        "credit": "BANDAI NAMCO Entertainment Europe",
+        "source": "https://commons.wikimedia.org/wiki/File:The_Witcher_3_-_Standard_Edition_Unboxing_(Official_Trailer)_cover.jpg",
+        "license": "CC BY 3.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by/3.0"
+      }
+    },
+    {
       "id": "10-15-cassini-huygens",
       "date": "10-15",
       "dateLabel": "15 October",
@@ -81,60 +135,6 @@
         "source": "https://commons.wikimedia.org/wiki/File:Luis_E_Miramontes.jpg",
         "license": "Public domain",
         "licenseUrl": "https://commons.wikimedia.org/wiki/File:Luis_E_Miramontes.jpg"
-      }
-    },
-    {
-      "id": "10-15-montgolfier-brothers",
-      "date": "10-15",
-      "dateLabel": "15 October",
-      "category": "curious",
-      "categoryName": "Curious",
-      "year": 1783,
-      "title": "Montgolfier brothers",
-      "body": "The Montgolfier brothers' hot air balloon makes the first human ascent, piloted by Jean-François Pilâtre de Rozier.",
-      "source": {
-        "name": "Wikipedia · Montgolfier brothers",
-        "url": "https://en.wikipedia.org/wiki/Montgolfier_brothers",
-        "calendarUrl": "https://en.wikipedia.org/wiki/October_15",
-        "license": {
-          "name": "CC BY-SA 4.0",
-          "url": "https://creativecommons.org/licenses/by-sa/4.0/"
-        }
-      },
-      "image": {
-        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/53/Joseph-montgolfier.jpg/500px-Joseph-montgolfier.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-        "alt": "Picture from the Wikipedia article on Montgolfier brothers.",
-        "credit": "Unidentified painter",
-        "source": "https://commons.wikimedia.org/wiki/File:Joseph-montgolfier.jpg",
-        "license": "Public domain",
-        "licenseUrl": "https://commons.wikimedia.org/wiki/File:Joseph-montgolfier.jpg"
-      }
-    },
-    {
-      "id": "10-15-america-airship",
-      "date": "10-15",
-      "dateLabel": "15 October",
-      "category": "world",
-      "categoryName": "World",
-      "year": 1910,
-      "title": "America",
-      "body": "Airship America is launched from New Jersey in the first attempt to cross the Atlantic by a powered aircraft.",
-      "source": {
-        "name": "Wikipedia · America (airship)",
-        "url": "https://en.wikipedia.org/wiki/America_(airship)",
-        "calendarUrl": "https://en.wikipedia.org/wiki/October_15",
-        "license": {
-          "name": "CC BY-SA 4.0",
-          "url": "https://creativecommons.org/licenses/by-sa/4.0/"
-        }
-      },
-      "image": {
-        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/5d/Wellman_air_ship_LOC_ggbain.03344.jpg/500px-Wellman_air_ship_LOC_ggbain.03344.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-        "alt": "Picture from the Wikipedia article on America.",
-        "credit": "Bain News Service",
-        "source": "https://commons.wikimedia.org/wiki/File:Wellman_air_ship_LOC_ggbain.03344.jpg",
-        "license": "Public domain",
-        "licenseUrl": "https://commons.wikimedia.org/wiki/File:Wellman_air_ship_LOC_ggbain.03344.jpg"
       }
     }
   ]

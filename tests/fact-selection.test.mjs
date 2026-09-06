@@ -2,7 +2,7 @@ import { test } from 'node:test';
 import assert from 'node:assert/strict';
 import {
   FACTS_PER_DAY, categorize, chooseFacts, fileMatchesSubject, isFragment, isGrim, isMotion, isPolitical, isRecent,
-  measurableLinks, parseEntries, popularityScore,
+  measurableLinks, parseEntries, popularityScore, trimToWords,
   readableBody, recencyScore, scoreEntry, tidyCredit, videoEarnsItsPlace,
 } from '../scripts/lib/fact-selection.mjs';
 
@@ -422,4 +422,30 @@ test('tightening the filter did not take the calendar with it', () => {
     'The Beatles release their album Abbey Road.',
     'Deep Blue beats Garry Kasparov in a six-game match, the first computer to beat a world champion.',
   ]) assert.equal(isGrim(good), false, good);
+});
+
+test('an article opening is cut to something the panel can hold', () => {
+  // A calendar entry is one sentence written to be one. An article's opening
+  // is not: Syberia's ran to 67 words of ports and platforms, and the longest
+  // the calendar produced was 106. The panel has room for about 48.
+  const syberia = 'Syberia is a graphic adventure game, developed and published by Microïds, and released for Windows on 30 May 2002, with the game later ported for PlayStation 2, Xbox, Windows Mobile, Nintendo DS, Android, OS X, PlayStation 3, Xbox 360, iOS and Nintendo Switch in later years. Created and designed by Belgian artist Benoît Sokal, Syberia is set in the same world as Sokal’s 1999 video game Amerzone.';
+  const cut = trimToWords(syberia);
+  assert.ok(cut.split(/\s+/).length <= 44, `${cut.split(/\s+/).length} words`);
+  assert.ok(cut.startsWith('Syberia is a graphic adventure game'));
+  // Cut on a clause, not mid-list.
+  assert.equal(/,\s*$/.test(cut), false);
+});
+
+test('whole sentences are kept when they fit', () => {
+  const short = 'Ms. Pac-Man is a 1982 maze video game developed by General Computer Corporation and published by Midway. It is the first sequel to Pac-Man.';
+  assert.equal(trimToWords(short), short, 'both sentences fit, so both stay');
+  assert.equal(trimToWords('Rickrolling is an Internet meme and prank.'), 'Rickrolling is an Internet meme and prank.');
+  assert.equal(trimToWords(''), '');
+  assert.equal(trimToWords(null), '');
+});
+
+test('the second sentence is dropped rather than cut in half', () => {
+  const first = 'A'.split('').concat(Array.from({ length: 40 }, (_, i) => `word${i}`)).join(' ') + '.';
+  const both = `${first} And a second sentence that would push it over the budget entirely.`;
+  assert.equal(trimToWords(both), first, 'the first sentence alone, with its full stop');
 });

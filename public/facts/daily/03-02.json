@@ -3,6 +3,60 @@
   "dateLabel": "2 March",
   "facts": [
     {
+      "id": "03-02-space-invaders",
+      "date": "03-02",
+      "dateLabel": "2 March",
+      "category": "culture",
+      "categoryName": "Culture",
+      "year": 1990,
+      "title": "Space Invaders",
+      "body": "Space Invaders is a 1978 fixed shooter video game developed and published by Taito for arcades. Taito released it in Japan in July 1978 and overseas through a partnership with Midway Manufacturing later that year.",
+      "source": {
+        "name": "Wikipedia · Space Invaders",
+        "url": "https://en.wikipedia.org/wiki/Space_Invaders",
+        "calendarUrl": "https://en.wikipedia.org/wiki/March_2",
+        "license": {
+          "name": "CC BY-SA 4.0",
+          "url": "https://creativecommons.org/licenses/by-sa/4.0/"
+        }
+      },
+      "image": {
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/bb/Space_Invaders_-_Midway%27s.JPG/500px-Space_Invaders_-_Midway%27s.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "alt": "Space Invaders — the video game this anniversary is about.",
+        "credit": "Jordiferrer",
+        "source": "https://commons.wikimedia.org/wiki/File:Space_Invaders_-_Midway%27s.JPG",
+        "license": "CC BY-SA 3.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0"
+      }
+    },
+    {
+      "id": "03-02-artsy-website",
+      "date": "03-02",
+      "dateLabel": "2 March",
+      "category": "tech",
+      "categoryName": "Tech",
+      "year": 2009,
+      "title": "Artsy",
+      "body": "sy Inc is a New York City based online art brokerage. Its main business is developing and hosting website for numerous galleries as well as selling art for them.",
+      "source": {
+        "name": "Wikipedia · Artsy (website)",
+        "url": "https://en.wikipedia.org/wiki/Artsy_(website)",
+        "calendarUrl": "https://en.wikipedia.org/wiki/March_2",
+        "license": {
+          "name": "CC BY-SA 4.0",
+          "url": "https://creativecommons.org/licenses/by-sa/4.0/"
+        }
+      },
+      "image": {
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/bb/Caroline_Lau_%2B_Carter_Cleveland_at_TechCrunch_Disrupt%2C_May_2010_%284710875188%29.jpg/500px-Caroline_Lau_%2B_Carter_Cleveland_at_TechCrunch_Disrupt%2C_May_2010_%284710875188%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "alt": "Artsy — the website this anniversary is about.",
+        "credit": "Artsy",
+        "source": "https://commons.wikimedia.org/wiki/File:Caroline_Lau_%2B_Carter_Cleveland_at_TechCrunch_Disrupt,_May_2010_(4710875188).jpg",
+        "license": "CC BY-SA 2.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0"
+      }
+    },
+    {
       "id": "03-02-czechoslovakia",
       "date": "03-02",
       "dateLabel": "2 March",
@@ -81,60 +135,6 @@
         "source": "https://commons.wikimedia.org/wiki/File:Charlie_Chaplin_portrait_Getty_1739411952.jpg",
         "license": "Public domain",
         "licenseUrl": "https://commons.wikimedia.org/wiki/File:Charlie_Chaplin_portrait_Getty_1739411952.jpg"
-      }
-    },
-    {
-      "id": "03-02-galileo-spacecraft",
-      "date": "03-02",
-      "dateLabel": "2 March",
-      "category": "space",
-      "categoryName": "Space",
-      "year": 1998,
-      "title": "Galileo",
-      "body": "Data sent from the Galileo spacecraft indicates that Jupiter's moon Europa has a liquid ocean under a thick crust of ice.",
-      "source": {
-        "name": "Wikipedia · Galileo (spacecraft)",
-        "url": "https://en.wikipedia.org/wiki/Galileo_(spacecraft)",
-        "calendarUrl": "https://en.wikipedia.org/wiki/March_2",
-        "license": {
-          "name": "CC BY-SA 4.0",
-          "url": "https://creativecommons.org/licenses/by-sa/4.0/"
-        }
-      },
-      "image": {
-        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/9c/Artwork_Galileo-Io-Jupiter.JPG/500px-Artwork_Galileo-Io-Jupiter.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-        "alt": "Picture from the Wikipedia article on Galileo.",
-        "credit": "NASA",
-        "source": "https://commons.wikimedia.org/wiki/File:Artwork_Galileo-Io-Jupiter.JPG",
-        "license": "Public domain",
-        "licenseUrl": "https://commons.wikimedia.org/wiki/File:Artwork_Galileo-Io-Jupiter.JPG"
-      }
-    },
-    {
-      "id": "03-02-fermilab",
-      "date": "03-02",
-      "dateLabel": "2 March",
-      "category": "science",
-      "categoryName": "Science",
-      "year": 1995,
-      "title": "Fermi National Accelerator Laboratory",
-      "body": "Researchers at Fermilab announce the discovery of the top quark.",
-      "source": {
-        "name": "Wikipedia · Fermi National Accelerator Laboratory",
-        "url": "https://en.wikipedia.org/wiki/Fermi_National_Accelerator_Laboratory",
-        "calendarUrl": "https://en.wikipedia.org/wiki/March_2",
-        "license": {
-          "name": "CC BY-SA 4.0",
-          "url": "https://creativecommons.org/licenses/by-sa/4.0/"
-        }
-      },
-      "image": {
-        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a9/Fermilab_Robert_Rathbun_Wilson_Hall_2011.jpg/500px-Fermilab_Robert_Rathbun_Wilson_Hall_2011.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-        "alt": "Picture from the Wikipedia article on Fermi National Accelerator Laboratory.",
-        "credit": "CramBetter.com",
-        "source": "https://commons.wikimedia.org/wiki/File:Fermilab_Robert_Rathbun_Wilson_Hall_2011.jpg",
-        "license": "CC BY 4.0",
-        "licenseUrl": "https://creativecommons.org/licenses/by/4.0"
       }
     }
   ]

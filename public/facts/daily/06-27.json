@@ -3,6 +3,33 @@
   "dateLabel": "27 June",
   "facts": [
     {
+      "id": "06-27-anarchy-online",
+      "date": "06-27",
+      "dateLabel": "27 June",
+      "category": "culture",
+      "categoryName": "Culture",
+      "year": 2001,
+      "title": "Anarchy Online",
+      "body": "Anarchy Online is a massively multiplayer online role-playing game (MMORPG) published and developed by Norwegian video game development company Funcom.",
+      "source": {
+        "name": "Wikipedia · Anarchy Online",
+        "url": "https://en.wikipedia.org/wiki/Anarchy_Online",
+        "calendarUrl": "https://en.wikipedia.org/wiki/June_27",
+        "license": {
+          "name": "CC BY-SA 4.0",
+          "url": "https://creativecommons.org/licenses/by-sa/4.0/"
+        }
+      },
+      "image": {
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e1/Anarchy_Online_Land_Control_Area.png/500px-Anarchy_Online_Land_Control_Area.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "alt": "Anarchy Online — the video game this anniversary is about.",
+        "credit": "Funcom Productions",
+        "source": "https://commons.wikimedia.org/wiki/File:Anarchy_Online_Land_Control_Area.png",
+        "license": "CC BY-SA 3.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0"
+      }
+    },
+    {
       "id": "06-27-interface-region-imaging-spectrograph",
       "date": "06-27",
       "dateLabel": "27 June",
@@ -108,33 +135,6 @@
         "source": "https://commons.wikimedia.org/wiki/File:STS132_Atlantis_undocking2_(cropped).jpg",
         "license": "Public domain",
         "licenseUrl": "https://commons.wikimedia.org/wiki/File:STS132_Atlantis_undocking2_(cropped).jpg"
-      }
-    },
-    {
-      "id": "06-27-president-of-the-united-states",
-      "date": "06-27",
-      "dateLabel": "27 June",
-      "category": "world",
-      "categoryName": "World",
-      "year": 1974,
-      "title": "President of the United States",
-      "body": "U.S. president Richard Nixon visits the Soviet Union.",
-      "source": {
-        "name": "Wikipedia · President of the United States",
-        "url": "https://en.wikipedia.org/wiki/President_of_the_United_States",
-        "calendarUrl": "https://en.wikipedia.org/wiki/June_27",
-        "license": {
-          "name": "CC BY-SA 4.0",
-          "url": "https://creativecommons.org/licenses/by-sa/4.0/"
-        }
-      },
-      "image": {
-        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/36/Seal_of_the_President_of_the_United_States.svg/500px-Seal_of_the_President_of_the_United_States.svg.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-        "alt": "Picture from the Wikipedia article on President of the United States.",
-        "credit": "Unknown author",
-        "source": "https://commons.wikimedia.org/wiki/File:Seal_of_the_President_of_the_United_States.svg",
-        "license": "Public domain",
-        "licenseUrl": "https://commons.wikimedia.org/wiki/File:Seal_of_the_President_of_the_United_States.svg"
       }
     }
   ]

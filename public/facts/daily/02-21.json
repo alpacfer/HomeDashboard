@@ -3,6 +3,60 @@
   "dateLabel": "21 February",
   "facts": [
     {
+      "id": "02-21-the-legend-of-zelda-video-game",
+      "date": "02-21",
+      "dateLabel": "21 February",
+      "category": "culture",
+      "categoryName": "Culture",
+      "year": 1986,
+      "title": "Q12395",
+      "body": "The Legend of Zelda is a 1986 action-adventure game developed and published by Nintendo for the Family Computer Disk System. It is the first game in the Legend of Zelda series.",
+      "source": {
+        "name": "Wikipedia · The Legend of Zelda (video game)",
+        "url": "https://en.wikipedia.org/wiki/The_Legend_of_Zelda_(video_game)",
+        "calendarUrl": "https://en.wikipedia.org/wiki/February_21",
+        "license": {
+          "name": "CC BY-SA 4.0",
+          "url": "https://creativecommons.org/licenses/by-sa/4.0/"
+        }
+      },
+      "image": {
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/af/The_Legend_of_Zelda_-_Golden_Catridge.jpg/500px-The_Legend_of_Zelda_-_Golden_Catridge.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "alt": "Q12395 — the video game this anniversary is about.",
+        "credit": "Dave or Atox",
+        "source": "https://commons.wikimedia.org/wiki/File:The_Legend_of_Zelda_-_Golden_Catridge.jpg",
+        "license": "CC BY 2.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by/2.0"
+      }
+    },
+    {
+      "id": "02-21-0-a-d-video-game",
+      "date": "02-21",
+      "dateLabel": "21 February",
+      "category": "culture",
+      "categoryName": "Culture",
+      "year": 2021,
+      "title": "0 A.D.",
+      "body": "D. is a real-time strategy video game under development by Wildfire Games.",
+      "source": {
+        "name": "Wikipedia · 0 A.D. (video game)",
+        "url": "https://en.wikipedia.org/wiki/0_A.D._(video_game)",
+        "calendarUrl": "https://en.wikipedia.org/wiki/February_21",
+        "license": {
+          "name": "CC BY-SA 4.0",
+          "url": "https://creativecommons.org/licenses/by-sa/4.0/"
+        }
+      },
+      "image": {
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/af/0_A.D._Seleukiden-Stadt_Ken_Wood_23.png/500px-0_A.D._Seleukiden-Stadt_Ken_Wood_23.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "alt": "0 A.D. — the video game this anniversary is about.",
+        "credit": "PantheraLeo1359531/Wildfire Games",
+        "source": "https://commons.wikimedia.org/wiki/File:0_A.D._Seleukiden-Stadt_Ken_Wood_23.png",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0"
+      }
+    },
+    {
       "id": "02-21-spacecraft",
       "date": "02-21",
       "dateLabel": "21 February",
@@ -81,60 +135,6 @@
         "source": "https://commons.wikimedia.org/wiki/File:Telefonbog_ubt-1.JPG",
         "license": "CC BY 3.0",
         "licenseUrl": "https://creativecommons.org/licenses/by/3.0"
-      }
-    },
-    {
-      "id": "02-21-sewing-machine",
-      "date": "02-21",
-      "dateLabel": "21 February",
-      "category": "science",
-      "categoryName": "Science",
-      "year": 1842,
-      "title": "Sewing machine",
-      "body": "John Greenough is granted the first U.S. patent for the sewing machine.",
-      "source": {
-        "name": "Wikipedia · Sewing machine",
-        "url": "https://en.wikipedia.org/wiki/Sewing_machine",
-        "calendarUrl": "https://en.wikipedia.org/wiki/February_21",
-        "license": {
-          "name": "CC BY-SA 4.0",
-          "url": "https://creativecommons.org/licenses/by-sa/4.0/"
-        }
-      },
-      "image": {
-        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c7/Sewingmachine1.jpg/500px-Sewingmachine1.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-        "alt": "Picture from the Wikipedia article on Sewing machine.",
-        "credit": "Unknown author",
-        "source": "https://commons.wikimedia.org/wiki/File:Sewingmachine1.jpg",
-        "license": "Public domain",
-        "licenseUrl": "https://commons.wikimedia.org/wiki/File:Sewingmachine1.jpg"
-      }
-    },
-    {
-      "id": "02-21-bob-fitzsimmons",
-      "date": "02-21",
-      "dateLabel": "21 February",
-      "category": "sport",
-      "categoryName": "Sport",
-      "year": 1896,
-      "title": "Bob Fitzsimmons",
-      "body": "An Englishman raised in Australia, Bob Fitzsimmons, fights an Irishman, Peter Maher, in an American promoted event which technically takes place in Mexico, winning the 1896 World Heavyweight Championship in boxing.",
-      "source": {
-        "name": "Wikipedia · Bob Fitzsimmons",
-        "url": "https://en.wikipedia.org/wiki/Bob_Fitzsimmons",
-        "calendarUrl": "https://en.wikipedia.org/wiki/February_21",
-        "license": {
-          "name": "CC BY-SA 4.0",
-          "url": "https://creativecommons.org/licenses/by-sa/4.0/"
-        }
-      },
-      "image": {
-        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/30/Robert_Fitzsimmons.jpg/500px-Robert_Fitzsimmons.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-        "alt": "Picture from the Wikipedia article on Bob Fitzsimmons.",
-        "credit": "Unknown author",
-        "source": "https://commons.wikimedia.org/wiki/File:Robert_Fitzsimmons.jpg",
-        "license": "Public domain",
-        "licenseUrl": "https://commons.wikimedia.org/wiki/File:Robert_Fitzsimmons.jpg"
       }
     }
   ]

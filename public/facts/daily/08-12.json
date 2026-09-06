@@ -3,17 +3,17 @@
   "dateLabel": "12 August",
   "facts": [
     {
-      "id": "08-12-ibm-personal-computer",
+      "id": "08-12-ms-dos",
       "date": "08-12",
       "dateLabel": "12 August",
       "category": "tech",
       "categoryName": "Tech",
       "year": 1981,
-      "title": "IBM Personal Computer",
-      "body": "The IBM Personal Computer is released.",
+      "title": "Q47604",
+      "body": "MS-DOS ( em-ess-DOSS; acronym for Microsoft Disk Operating System, also known as Microsoft DOS) is an operating system for x86-based personal computers mostly developed by Microsoft.",
       "source": {
-        "name": "Wikipedia · IBM Personal Computer",
-        "url": "https://en.wikipedia.org/wiki/IBM_Personal_Computer",
+        "name": "Wikipedia · MS-DOS",
+        "url": "https://en.wikipedia.org/wiki/MS-DOS",
         "calendarUrl": "https://en.wikipedia.org/wiki/August_12",
         "license": {
           "name": "CC BY-SA 4.0",
@@ -21,12 +21,39 @@
         }
       },
       "image": {
-        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/72/IBM_Personal_Computer_badge_recreation.svg/500px-IBM_Personal_Computer_badge_recreation.svg.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-        "alt": "Picture from the Wikipedia article on IBM Personal Computer.",
-        "credit": "Own work",
-        "source": "https://commons.wikimedia.org/wiki/File:IBM_Personal_Computer_badge_recreation.svg",
+        "src": "https://upload.wikimedia.org/wikipedia/commons/b/b6/StartingMsdos.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+        "alt": "Q47604 — the operating system this anniversary is about.",
+        "credit": "Andrewpmk",
+        "source": "https://commons.wikimedia.org/wiki/File:StartingMsdos.png",
         "license": "Public domain",
-        "licenseUrl": "https://commons.wikimedia.org/wiki/File:IBM_Personal_Computer_badge_recreation.svg"
+        "licenseUrl": "https://commons.wikimedia.org/wiki/File:StartingMsdos.png"
+      }
+    },
+    {
+      "id": "08-12-street-fighter-video-game",
+      "date": "08-12",
+      "dateLabel": "12 August",
+      "category": "culture",
+      "categoryName": "Culture",
+      "year": 1987,
+      "title": "Street Fighter",
+      "body": "Street Fighter is a 1987 fighting game developed and published by Capcom for arcades. It is the first competitive fighting game produced by the company and the first installment in the Street Fighter series.",
+      "source": {
+        "name": "Wikipedia · Street Fighter (video game)",
+        "url": "https://en.wikipedia.org/wiki/Street_Fighter_(video_game)",
+        "calendarUrl": "https://en.wikipedia.org/wiki/August_12",
+        "license": {
+          "name": "CC BY-SA 4.0",
+          "url": "https://creativecommons.org/licenses/by-sa/4.0/"
+        }
+      },
+      "image": {
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e2/Streetfighter_Console.jpg/500px-Streetfighter_Console.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "alt": "Street Fighter — the video game this anniversary is about.",
+        "credit": "Wikimedia Commons",
+        "source": "https://commons.wikimedia.org/wiki/File:Streetfighter_Console.jpg",
+        "license": "CC BY-SA 3.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0"
       }
     },
     {
@@ -108,33 +135,6 @@
         "source": "https://commons.wikimedia.org/wiki/File:Major_League_Baseball_logo.svg",
         "license": "Public domain",
         "licenseUrl": "https://commons.wikimedia.org/wiki/File:Major_League_Baseball_logo.svg"
-      }
-    },
-    {
-      "id": "08-12-alen-on",
-      "date": "08-12",
-      "dateLabel": "12 August",
-      "category": "world",
-      "categoryName": "World",
-      "year": 1944,
-      "title": "Alençon",
-      "body": "Alençon is liberated by General Philippe Leclerc de Hauteclocque, becoming the first city in France to be liberated from the Nazis by French forces.",
-      "source": {
-        "name": "Wikipedia · Alençon",
-        "url": "https://en.wikipedia.org/wiki/Alen%C3%A7on",
-        "calendarUrl": "https://en.wikipedia.org/wiki/August_12",
-        "license": {
-          "name": "CC BY-SA 4.0",
-          "url": "https://creativecommons.org/licenses/by-sa/4.0/"
-        }
-      },
-      "image": {
-        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/01/Hotel_de_ville_Alencon.jpg/500px-Hotel_de_ville_Alencon.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-        "alt": "Picture from the Wikipedia article on Alençon.",
-        "credit": "Wikimedia Commons",
-        "source": "https://commons.wikimedia.org/wiki/File:Hotel_de_ville_Alencon.jpg",
-        "license": "CC BY 1.0",
-        "licenseUrl": "https://creativecommons.org/licenses/by/1.0"
       }
     }
   ]

@@ -3,6 +3,60 @@
   "dateLabel": "1 November",
   "facts": [
     {
+      "id": "11-01-3diteams",
+      "date": "11-01",
+      "dateLabel": "1 November",
+      "category": "culture",
+      "categoryName": "Culture",
+      "year": 2007,
+      "title": "3DiTeams",
+      "body": "3DiTeams (also known as 3Di TEAMS) is a first person serious video game developed by the Duke University Medical Center and Virtual Heroes and used for medical education and team training. The 3DiTeams Project was conceived by Dr.",
+      "source": {
+        "name": "Wikipedia · 3DiTeams",
+        "url": "https://en.wikipedia.org/wiki/3DiTeams",
+        "calendarUrl": "https://en.wikipedia.org/wiki/November_1",
+        "license": {
+          "name": "CC BY-SA 4.0",
+          "url": "https://creativecommons.org/licenses/by-sa/4.0/"
+        }
+      },
+      "image": {
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/87/3DiTeams_main.JPG/500px-3DiTeams_main.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "alt": "3DiTeams — the video game this anniversary is about.",
+        "credit": "Gene Hobbs",
+        "source": "https://commons.wikimedia.org/wiki/File:3DiTeams_main.JPG",
+        "license": "CC BY-SA 3.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0"
+      }
+    },
+    {
+      "id": "11-01-toons-mag",
+      "date": "11-01",
+      "dateLabel": "1 November",
+      "category": "tech",
+      "categoryName": "Tech",
+      "year": 2009,
+      "title": "Toons Mag",
+      "body": "Toons Mag is a cartoon magazine that offers a global online platform for publishing editorial cartoons, comics, caricatures, illustrations, and related news. It is a multilingual publication and organizer of an international cartoon contest and exhibitions.",
+      "source": {
+        "name": "Wikipedia · Toons Mag",
+        "url": "https://en.wikipedia.org/wiki/Toons_Mag",
+        "calendarUrl": "https://en.wikipedia.org/wiki/November_1",
+        "license": {
+          "name": "CC BY-SA 4.0",
+          "url": "https://creativecommons.org/licenses/by-sa/4.0/"
+        }
+      },
+      "image": {
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/ba/Freedom_of_cartooning.png/500px-Freedom_of_cartooning.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "alt": "Toons Mag — the website this anniversary is about.",
+        "credit": "Cartoonistarif",
+        "source": "https://commons.wikimedia.org/wiki/File:Freedom_of_cartooning.png",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0"
+      }
+    },
+    {
       "id": "11-01-mackinac-bridge",
       "date": "11-01",
       "dateLabel": "1 November",
@@ -81,60 +135,6 @@
         "source": "https://commons.wikimedia.org/wiki/File:Motion_Picture_Association_logo_2019.svg",
         "license": "Public domain",
         "licenseUrl": "https://commons.wikimedia.org/wiki/File:Motion_Picture_Association_logo_2019.svg"
-      }
-    },
-    {
-      "id": "11-01-national-weather-service",
-      "date": "11-01",
-      "dateLabel": "1 November",
-      "category": "space",
-      "categoryName": "Space",
-      "year": 1870,
-      "title": "National Weather Service",
-      "body": "In the United States, the Weather Bureau (later renamed the National Weather Service) makes its first official meteorological forecast.",
-      "source": {
-        "name": "Wikipedia · National Weather Service",
-        "url": "https://en.wikipedia.org/wiki/National_Weather_Service",
-        "calendarUrl": "https://en.wikipedia.org/wiki/November_1",
-        "license": {
-          "name": "CC BY-SA 4.0",
-          "url": "https://creativecommons.org/licenses/by-sa/4.0/"
-        }
-      },
-      "image": {
-        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/ff/US-NationalWeatherService-Logo.svg/500px-US-NationalWeatherService-Logo.svg.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-        "alt": "Picture from the Wikipedia article on National Weather Service.",
-        "credit": "National Oceanic and Atmospheric…",
-        "source": "https://commons.wikimedia.org/wiki/File:US-NationalWeatherService-Logo.svg",
-        "license": "Public domain",
-        "licenseUrl": "https://commons.wikimedia.org/wiki/File:US-NationalWeatherService-Logo.svg"
-      }
-    },
-    {
-      "id": "11-01-chhattisgarh",
-      "date": "11-01",
-      "dateLabel": "1 November",
-      "category": "world",
-      "categoryName": "World",
-      "year": 2000,
-      "title": "Chhattisgarh",
-      "body": "Chhattisgarh officially becomes the 26th state of India, formed from sixteen districts of eastern Madhya Pradesh.",
-      "source": {
-        "name": "Wikipedia · Chhattisgarh",
-        "url": "https://en.wikipedia.org/wiki/Chhattisgarh",
-        "calendarUrl": "https://en.wikipedia.org/wiki/November_1",
-        "license": {
-          "name": "CC BY-SA 4.0",
-          "url": "https://creativecommons.org/licenses/by-sa/4.0/"
-        }
-      },
-      "image": {
-        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b1/Bhoramdeo_Temple%2C_Kawardha.jpg/500px-Bhoramdeo_Temple%2C_Kawardha.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-        "alt": "Picture from the Wikipedia article on Chhattisgarh.",
-        "credit": "Pankaj Oudhia",
-        "source": "https://commons.wikimedia.org/wiki/File:Bhoramdeo_Temple,_Kawardha.jpg",
-        "license": "CC BY-SA 3.0",
-        "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0"
       }
     }
   ]

@@ -3,6 +3,33 @@
   "dateLabel": "10 October",
   "facts": [
     {
+      "id": "10-10-google-bookmarks",
+      "date": "10-10",
+      "dateLabel": "10 October",
+      "category": "tech",
+      "categoryName": "Tech",
+      "year": 2005,
+      "title": "Google Bookmarks",
+      "body": "Google Bookmarks was an online bookmarking service from Google, launched on October 10, 2005. It was an early cloud-based service that allowed users to bookmark webpages and add labels or notes.",
+      "source": {
+        "name": "Wikipedia · Google Bookmarks",
+        "url": "https://en.wikipedia.org/wiki/Google_Bookmarks",
+        "calendarUrl": "https://en.wikipedia.org/wiki/October_10",
+        "license": {
+          "name": "CC BY-SA 4.0",
+          "url": "https://creativecommons.org/licenses/by-sa/4.0/"
+        }
+      },
+      "image": {
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/95/Google_Bookmarks_add_bookmark_screenshot_2020.png/500px-Google_Bookmarks_add_bookmark_screenshot_2020.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "alt": "Google Bookmarks — the website this anniversary is about.",
+        "credit": "Google",
+        "source": "https://commons.wikimedia.org/wiki/File:Google_Bookmarks_add_bookmark_screenshot_2020.png",
+        "license": "Public domain",
+        "licenseUrl": "https://commons.wikimedia.org/wiki/File:Google_Bookmarks_add_bookmark_screenshot_2020.png"
+      }
+    },
+    {
       "id": "10-10-ben-s-bernanke",
       "date": "10-10",
       "dateLabel": "10 October",
@@ -108,33 +135,6 @@
         "source": "https://commons.wikimedia.org/wiki/File:Triton-usgs23-with-frame.jpg",
         "license": "CC BY 4.0",
         "licenseUrl": "https://creativecommons.org/licenses/by/4.0"
-      }
-    },
-    {
-      "id": "10-10-outer-space-treaty",
-      "date": "10-10",
-      "dateLabel": "10 October",
-      "category": "space",
-      "categoryName": "Space",
-      "year": 1967,
-      "title": "Outer Space Treaty",
-      "body": "The Outer Space Treaty comes into force.",
-      "source": {
-        "name": "Wikipedia · Outer Space Treaty",
-        "url": "https://en.wikipedia.org/wiki/Outer_Space_Treaty",
-        "calendarUrl": "https://en.wikipedia.org/wiki/October_10",
-        "license": {
-          "name": "CC BY-SA 4.0",
-          "url": "https://creativecommons.org/licenses/by-sa/4.0/"
-        }
-      },
-      "image": {
-        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/98/Outer_Space_Treaty_parties.svg/500px-Outer_Space_Treaty_parties.svg.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-        "alt": "Picture from the Wikipedia article on Outer Space Treaty.",
-        "credit": "User:Happenstance",
-        "source": "https://commons.wikimedia.org/wiki/File:Outer_Space_Treaty_parties.svg",
-        "license": "CC BY-SA 2.5",
-        "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.5"
       }
     }
   ]

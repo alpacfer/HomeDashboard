@@ -3,6 +3,60 @@
   "dateLabel": "1 May",
   "facts": [
     {
+      "id": "05-01-tamagotchi",
+      "date": "05-01",
+      "dateLabel": "1 May",
+      "category": "culture",
+      "categoryName": "Culture",
+      "year": 1997,
+      "title": "Tamagotchi",
+      "body": "Tamagotchi (Japanese: たまごっち; IPA: [tamaɡotꜜtɕi], \"Egg Watch\") is a brand of handheld digital pets marketed since 1996 by Japanese toymaker Bandai, a division of Bandai Namco Holdings.",
+      "source": {
+        "name": "Wikipedia · Tamagotchi",
+        "url": "https://en.wikipedia.org/wiki/Tamagotchi",
+        "calendarUrl": "https://en.wikipedia.org/wiki/May_1",
+        "license": {
+          "name": "CC BY-SA 4.0",
+          "url": "https://creativecommons.org/licenses/by-sa/4.0/"
+        }
+      },
+      "image": {
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f2/Tamagotchi_0124_ubt.jpeg/500px-Tamagotchi_0124_ubt.jpeg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "alt": "Tamagotchi — the video game this anniversary is about.",
+        "credit": "tomasz.sienicki at gmail.com]",
+        "source": "https://commons.wikimedia.org/wiki/File:Tamagotchi_0124_ubt.jpeg",
+        "license": "CC BY-SA 3.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0/"
+      }
+    },
+    {
+      "id": "05-01-free-speech-flag",
+      "date": "05-01",
+      "dateLabel": "1 May",
+      "category": "curious",
+      "categoryName": "Curious",
+      "year": 2007,
+      "title": "Free Speech Flag",
+      "body": "The Free Speech Flag is a symbol of personal liberty used to promote freedom of speech. Designed by artist John Marcotte, the flag and its colors correspond to a cryptographic key which enabled users to copy HD DVDs and Blu-ray Discs.",
+      "source": {
+        "name": "Wikipedia · Free Speech Flag",
+        "url": "https://en.wikipedia.org/wiki/Free_Speech_Flag",
+        "calendarUrl": "https://en.wikipedia.org/wiki/May_1",
+        "license": {
+          "name": "CC BY-SA 4.0",
+          "url": "https://creativecommons.org/licenses/by-sa/4.0/"
+        }
+      },
+      "image": {
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/fd/Sample_09-F9_protest_art%2C_Free_Speech_Flag_by_John_Marcotte.svg/500px-Sample_09-F9_protest_art%2C_Free_Speech_Flag_by_John_Marcotte.svg.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "alt": "Free Speech Flag — the internet meme this anniversary is about.",
+        "credit": "John Marcotte",
+        "source": "https://commons.wikimedia.org/wiki/File:Sample_09-F9_protest_art,_Free_Speech_Flag_by_John_Marcotte.svg",
+        "license": "Public domain",
+        "licenseUrl": "https://commons.wikimedia.org/wiki/File:Sample_09-F9_protest_art,_Free_Speech_Flag_by_John_Marcotte.svg"
+      }
+    },
+    {
       "id": "05-01-mpla",
       "date": "05-01",
       "dateLabel": "1 May",
@@ -27,33 +81,6 @@
         "source": "https://commons.wikimedia.org/wiki/File:Flag_of_MPLA.svg",
         "license": "Public domain",
         "licenseUrl": "https://commons.wikimedia.org/wiki/File:Flag_of_MPLA.svg"
-      }
-    },
-    {
-      "id": "05-01-queen-victoria",
-      "date": "05-01",
-      "dateLabel": "1 May",
-      "category": "culture",
-      "categoryName": "Culture",
-      "year": 1851,
-      "title": "Queen Victoria",
-      "body": "Queen Victoria opens The Great Exhibition at The Crystal Palace in London.",
-      "source": {
-        "name": "Wikipedia · Queen Victoria",
-        "url": "https://en.wikipedia.org/wiki/Queen_Victoria",
-        "calendarUrl": "https://en.wikipedia.org/wiki/May_1",
-        "license": {
-          "name": "CC BY-SA 4.0",
-          "url": "https://creativecommons.org/licenses/by-sa/4.0/"
-        }
-      },
-      "image": {
-        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e3/Queen_Victoria_by_Bassano.jpg/500px-Queen_Victoria_by_Bassano.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-        "alt": "Picture from the Wikipedia article on Queen Victoria.",
-        "credit": "Alexander Bassano",
-        "source": "https://commons.wikimedia.org/wiki/File:Queen_Victoria_by_Bassano.jpg",
-        "license": "Public domain",
-        "licenseUrl": "https://commons.wikimedia.org/wiki/File:Queen_Victoria_by_Bassano.jpg"
       }
     },
     {
@@ -84,17 +111,17 @@
       }
     },
     {
-      "id": "05-01-beatification-of-pope-john-paul-ii",
+      "id": "05-01-queen-victoria",
       "date": "05-01",
       "dateLabel": "1 May",
-      "category": "world",
-      "categoryName": "World",
-      "year": 2011,
-      "title": "Beatification of Pope John Paul II",
-      "body": "Pope John Paul II is beatified by his successor, Pope Benedict XVI.",
+      "category": "culture",
+      "categoryName": "Culture",
+      "year": 1851,
+      "title": "Queen Victoria",
+      "body": "Queen Victoria opens The Great Exhibition at The Crystal Palace in London.",
       "source": {
-        "name": "Wikipedia · Beatification of Pope John Paul II",
-        "url": "https://en.wikipedia.org/wiki/Beatification_of_Pope_John_Paul_II",
+        "name": "Wikipedia · Queen Victoria",
+        "url": "https://en.wikipedia.org/wiki/Queen_Victoria",
         "calendarUrl": "https://en.wikipedia.org/wiki/May_1",
         "license": {
           "name": "CC BY-SA 4.0",
@@ -102,39 +129,12 @@
         }
       },
       "image": {
-        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/52/Beatification_of_John_Paul_II_%281%29.jpg/500px-Beatification_of_John_Paul_II_%281%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-        "alt": "Picture from the Wikipedia article on Beatification of Pope John Paul II.",
-        "credit": "Kancelaria Prezydenta RP",
-        "source": "https://commons.wikimedia.org/wiki/File:Beatification_of_John_Paul_II_(1).jpg",
-        "license": "GFDL 1.2",
-        "licenseUrl": "https://gnu.org/licenses/old-licenses/fdl-1.2.html"
-      }
-    },
-    {
-      "id": "05-01-2004-enlargement-of-the-european-union",
-      "date": "05-01",
-      "dateLabel": "1 May",
-      "category": "world",
-      "categoryName": "World",
-      "year": 2004,
-      "title": "2004 enlargement of the European Union",
-      "body": "Cyprus, Czech Republic, Estonia, Hungary, Latvia, Lithuania, Malta, Poland, Slovakia, and Slovenia join the European Union, celebrated at the residence of the Irish President in Dublin.",
-      "source": {
-        "name": "Wikipedia · 2004 enlargement of the European Union",
-        "url": "https://en.wikipedia.org/wiki/2004_enlargement_of_the_European_Union",
-        "calendarUrl": "https://en.wikipedia.org/wiki/May_1",
-        "license": {
-          "name": "CC BY-SA 4.0",
-          "url": "https://creativecommons.org/licenses/by-sa/4.0/"
-        }
-      },
-      "image": {
-        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/db/EU25-2004_European_Union_map_enlargement.svg/500px-EU25-2004_European_Union_map_enlargement.svg.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-        "alt": "Picture from the Wikipedia article on 2004 enlargement of the European Union.",
-        "credit": "Wikimedia Commons",
-        "source": "https://commons.wikimedia.org/wiki/File:EU25-2004_European_Union_map_enlargement.svg",
-        "license": "CC BY-SA 2.5",
-        "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.5"
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e3/Queen_Victoria_by_Bassano.jpg/500px-Queen_Victoria_by_Bassano.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "alt": "Picture from the Wikipedia article on Queen Victoria.",
+        "credit": "Alexander Bassano",
+        "source": "https://commons.wikimedia.org/wiki/File:Queen_Victoria_by_Bassano.jpg",
+        "license": "Public domain",
+        "licenseUrl": "https://commons.wikimedia.org/wiki/File:Queen_Victoria_by_Bassano.jpg"
       }
     }
   ]

@@ -30,6 +30,33 @@
       }
     },
     {
+      "id": "05-28-comic-party",
+      "date": "05-28",
+      "dateLabel": "28 May",
+      "category": "culture",
+      "categoryName": "Culture",
+      "year": 1999,
+      "title": "Comic Party",
+      "body": "Comic Party (こみっくパーティー, Komikku Pātī), sometimes abbreviated to ComiPa, is a dating sim video game by the Japanese game studio Leaf.",
+      "source": {
+        "name": "Wikipedia · Comic Party",
+        "url": "https://en.wikipedia.org/wiki/Comic_Party",
+        "calendarUrl": "https://en.wikipedia.org/wiki/May_28",
+        "license": {
+          "name": "CC BY-SA 4.0",
+          "url": "https://creativecommons.org/licenses/by-sa/4.0/"
+        }
+      },
+      "image": {
+        "src": "https://upload.wikimedia.org/wikipedia/commons/a/ad/Comic_Party_logo.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+        "alt": "Comic Party — the video game this anniversary is about.",
+        "credit": "Leaf / Aquaplus company",
+        "source": "https://commons.wikimedia.org/wiki/File:Comic_Party_logo.png",
+        "license": "Public domain",
+        "licenseUrl": "https://commons.wikimedia.org/wiki/File:Comic_Party_logo.png"
+      }
+    },
+    {
       "id": "05-28-palestine-liberation-organization",
       "date": "05-28",
       "dateLabel": "28 May",
@@ -108,33 +135,6 @@
         "source": "https://commons.wikimedia.org/wiki/File:Callander,_Ontario.jpg",
         "license": "Public domain",
         "licenseUrl": "https://commons.wikimedia.org/wiki/File:Callander,_Ontario.jpg"
-      }
-    },
-    {
-      "id": "05-28-azerbaijan-democratic-republic",
-      "date": "05-28",
-      "dateLabel": "28 May",
-      "category": "world",
-      "categoryName": "World",
-      "year": 1918,
-      "title": "Azerbaijan Democratic Republic",
-      "body": "The Azerbaijan Democratic Republic and the First Republic of Armenia declare their independence.",
-      "source": {
-        "name": "Wikipedia · Azerbaijan Democratic Republic",
-        "url": "https://en.wikipedia.org/wiki/Azerbaijan_Democratic_Republic",
-        "calendarUrl": "https://en.wikipedia.org/wiki/May_28",
-        "license": {
-          "name": "CC BY-SA 4.0",
-          "url": "https://creativecommons.org/licenses/by-sa/4.0/"
-        }
-      },
-      "image": {
-        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/67/Flag_of_Azerbaijan_%281918%E2%80%931920%29.svg/500px-Flag_of_Azerbaijan_%281918%E2%80%931920%29.svg.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-        "alt": "Picture from the Wikipedia article on Azerbaijan Democratic Republic.",
-        "credit": "This vector image includes elements that…",
-        "source": "https://commons.wikimedia.org/wiki/File:Flag_of_Azerbaijan_(1918%E2%80%931920).svg",
-        "license": "Public domain",
-        "licenseUrl": "https://commons.wikimedia.org/wiki/File:Flag_of_Azerbaijan_(1918%E2%80%931920).svg"
       }
     }
   ]

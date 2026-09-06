@@ -3,33 +3,6 @@
   "dateLabel": "25 February",
   "facts": [
     {
-      "id": "02-25-george-frideric-handel",
-      "date": "02-25",
-      "dateLabel": "25 February",
-      "category": "culture",
-      "categoryName": "Culture",
-      "year": 1705,
-      "title": "George Frideric Handel",
-      "body": "George Frideric Handel's opera Nero premieres in Hamburg.{{cite book.",
-      "source": {
-        "name": "Wikipedia · George Frideric Handel",
-        "url": "https://en.wikipedia.org/wiki/George_Frideric_Handel",
-        "calendarUrl": "https://en.wikipedia.org/wiki/February_25",
-        "license": {
-          "name": "CC BY-SA 4.0",
-          "url": "https://creativecommons.org/licenses/by-sa/4.0/"
-        }
-      },
-      "image": {
-        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/fa/George_Frideric_Handel_by_Balthasar_Denner.jpg/500px-George_Frideric_Handel_by_Balthasar_Denner.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-        "alt": "Picture from the Wikipedia article on George Frideric Handel.",
-        "credit": "Attributed to Balthasar Denner",
-        "source": "https://commons.wikimedia.org/wiki/File:George_Frideric_Handel_by_Balthasar_Denner.jpg",
-        "license": "Public domain",
-        "licenseUrl": "https://commons.wikimedia.org/wiki/File:George_Frideric_Handel_by_Balthasar_Denner.jpg"
-      }
-    },
-    {
       "id": "02-25-hiram-rhodes-revels",
       "date": "02-25",
       "dateLabel": "25 February",
@@ -81,6 +54,33 @@
         "source": "https://commons.wikimedia.org/wiki/File:Samuel_Colt_engraving_by_John_Chester_Buttre,_c1855.jpg",
         "license": "Public domain",
         "licenseUrl": "https://commons.wikimedia.org/wiki/File:Samuel_Colt_engraving_by_John_Chester_Buttre,_c1855.jpg"
+      }
+    },
+    {
+      "id": "02-25-george-frideric-handel",
+      "date": "02-25",
+      "dateLabel": "25 February",
+      "category": "culture",
+      "categoryName": "Culture",
+      "year": 1705,
+      "title": "George Frideric Handel",
+      "body": "George Frideric Handel's opera Nero premieres in Hamburg.{{cite book.",
+      "source": {
+        "name": "Wikipedia · George Frideric Handel",
+        "url": "https://en.wikipedia.org/wiki/George_Frideric_Handel",
+        "calendarUrl": "https://en.wikipedia.org/wiki/February_25",
+        "license": {
+          "name": "CC BY-SA 4.0",
+          "url": "https://creativecommons.org/licenses/by-sa/4.0/"
+        }
+      },
+      "image": {
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/fa/George_Frideric_Handel_by_Balthasar_Denner.jpg/500px-George_Frideric_Handel_by_Balthasar_Denner.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "alt": "Picture from the Wikipedia article on George Frideric Handel.",
+        "credit": "Attributed to Balthasar Denner",
+        "source": "https://commons.wikimedia.org/wiki/File:George_Frideric_Handel_by_Balthasar_Denner.jpg",
+        "license": "Public domain",
+        "licenseUrl": "https://commons.wikimedia.org/wiki/File:George_Frideric_Handel_by_Balthasar_Denner.jpg"
       }
     },
     {

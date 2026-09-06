@@ -3,6 +3,60 @@
   "dateLabel": "23 July",
   "facts": [
     {
+      "id": "07-23-rust-programming-language",
+      "date": "07-23",
+      "dateLabel": "23 July",
+      "category": "tech",
+      "categoryName": "Tech",
+      "year": 2006,
+      "title": "Q575650",
+      "body": "Rust is a general-purpose programming language that emphasizes performance, type safety, concurrency, and memory safety. Rust supports multiple programming paradigms.",
+      "source": {
+        "name": "Wikipedia · Rust (programming language)",
+        "url": "https://en.wikipedia.org/wiki/Rust_(programming_language)",
+        "calendarUrl": "https://en.wikipedia.org/wiki/July_23",
+        "license": {
+          "name": "CC BY-SA 4.0",
+          "url": "https://creativecommons.org/licenses/by-sa/4.0/"
+        }
+      },
+      "image": {
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/6c/Cargo_clippy_hello_world_example.png/500px-Cargo_clippy_hello_world_example.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "alt": "Q575650 — the programming language this anniversary is about.",
+        "credit": "Caleb Stanford",
+        "source": "https://commons.wikimedia.org/wiki/File:Cargo_clippy_hello_world_example.png",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0"
+      }
+    },
+    {
+      "id": "07-23-amigaos",
+      "date": "07-23",
+      "dateLabel": "23 July",
+      "category": "tech",
+      "categoryName": "Tech",
+      "year": 1985,
+      "title": "AmigaOS",
+      "body": "AmigaOS is a family of proprietary native operating systems of the Amiga and AmigaOne personal computers. It was developed first by Commodore International and introduced with the launch of the first Amiga, the Amiga 1000, in 1985.",
+      "source": {
+        "name": "Wikipedia · AmigaOS",
+        "url": "https://en.wikipedia.org/wiki/AmigaOS",
+        "calendarUrl": "https://en.wikipedia.org/wiki/July_23",
+        "license": {
+          "name": "CC BY-SA 4.0",
+          "url": "https://creativecommons.org/licenses/by-sa/4.0/"
+        }
+      },
+      "image": {
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/82/AmigaOS_3.5_Box.jpg/500px-AmigaOS_3.5_Box.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "alt": "AmigaOS — the operating system this anniversary is about.",
+        "credit": "Afrank99",
+        "source": "https://commons.wikimedia.org/wiki/File:AmigaOS_3.5_Box.jpg",
+        "license": "CC BY-SA 2.0 de",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0/de/deed.en"
+      }
+    },
+    {
       "id": "07-23-jackie-robinson",
       "date": "07-23",
       "dateLabel": "23 July",
@@ -25,33 +79,6 @@
         "alt": "Picture from the Wikipedia article on Jackie Robinson.",
         "credit": "Harry Warnecke",
         "source": "https://commons.wikimedia.org/wiki/File:Jackie_Robinson,_NPG_97_135.jpg",
-        "license": "CC0",
-        "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/deed.en"
-      }
-    },
-    {
-      "id": "07-23-digital-equipment-corporation",
-      "date": "07-23",
-      "dateLabel": "23 July",
-      "category": "tech",
-      "categoryName": "Tech",
-      "year": 1997,
-      "title": "Digital Equipment Corporation",
-      "body": "Digital Equipment Corporation files antitrust charges against chipmaker Intel.",
-      "source": {
-        "name": "Wikipedia · Digital Equipment Corporation",
-        "url": "https://en.wikipedia.org/wiki/Digital_Equipment_Corporation",
-        "calendarUrl": "https://en.wikipedia.org/wiki/July_23",
-        "license": {
-          "name": "CC BY-SA 4.0",
-          "url": "https://creativecommons.org/licenses/by-sa/4.0/"
-        }
-      },
-      "image": {
-        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/29/Assabet_Woolen_Mill_-_Maynard%2C_Massachusetts_-_DSC04913.jpg/500px-Assabet_Woolen_Mill_-_Maynard%2C_Massachusetts_-_DSC04913.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-        "alt": "Picture from the Wikipedia article on Digital Equipment Corporation.",
-        "credit": "Daderot",
-        "source": "https://commons.wikimedia.org/wiki/File:Assabet_Woolen_Mill_-_Maynard,_Massachusetts_-_DSC04913.jpg",
         "license": "CC0",
         "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/deed.en"
       }
@@ -108,33 +135,6 @@
         "source": "https://commons.wikimedia.org/wiki/File:Telstar_satellite-CnAM_35181-IMG_5408-gradient.jpg",
         "license": "CC BY-SA 3.0 fr",
         "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0/fr/deed.en"
-      }
-    },
-    {
-      "id": "07-23-william-austin-burt",
-      "date": "07-23",
-      "dateLabel": "23 July",
-      "category": "science",
-      "categoryName": "Science",
-      "year": 1829,
-      "title": "William Austin Burt",
-      "body": "In the United States, William Austin Burt patents the typographer, a precursor to the typewriter.",
-      "source": {
-        "name": "Wikipedia · William Austin Burt",
-        "url": "https://en.wikipedia.org/wiki/William_Austin_Burt",
-        "calendarUrl": "https://en.wikipedia.org/wiki/July_23",
-        "license": {
-          "name": "CC BY-SA 4.0",
-          "url": "https://creativecommons.org/licenses/by-sa/4.0/"
-        }
-      },
-      "image": {
-        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/0b/William_A_Burt_1873.jpg/500px-William_A_Burt_1873.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-        "alt": "Picture from the Wikipedia article on William Austin Burt.",
-        "credit": "Tuttle, Charles Richard",
-        "source": "https://commons.wikimedia.org/wiki/File:William_A_Burt_1873.jpg",
-        "license": "Public domain",
-        "licenseUrl": "https://commons.wikimedia.org/wiki/File:William_A_Burt_1873.jpg"
       }
     }
   ]

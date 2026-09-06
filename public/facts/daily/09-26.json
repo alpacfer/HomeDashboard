@@ -3,6 +3,33 @@
   "dateLabel": "26 September",
   "facts": [
     {
+      "id": "09-26-sly-3-honor-among-thieves",
+      "date": "09-26",
+      "dateLabel": "26 September",
+      "category": "culture",
+      "categoryName": "Culture",
+      "year": 2005,
+      "title": "Sly 3: Honor Among Thieves",
+      "body": "Honor Among Thieves is a 2005 stealth action video game developed by Sucker Punch Productions and published by Sony Computer Entertainment for the PlayStation 2.",
+      "source": {
+        "name": "Wikipedia · Sly 3: Honor Among Thieves",
+        "url": "https://en.wikipedia.org/wiki/Sly_3:_Honor_Among_Thieves",
+        "calendarUrl": "https://en.wikipedia.org/wiki/September_26",
+        "license": {
+          "name": "CC BY-SA 4.0",
+          "url": "https://creativecommons.org/licenses/by-sa/4.0/"
+        }
+      },
+      "image": {
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/9a/Sly3HonorAmongThievesLogo.webp/500px-Sly3HonorAmongThievesLogo.webp?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "alt": "Sly 3: Honor Among Thieves — the video game this anniversary is about.",
+        "credit": "Sucker Punch Productions",
+        "source": "https://commons.wikimedia.org/wiki/File:Sly3HonorAmongThievesLogo.webp",
+        "license": "Public domain",
+        "licenseUrl": "https://commons.wikimedia.org/wiki/File:Sly3HonorAmongThievesLogo.webp"
+      }
+    },
+    {
       "id": "09-26-george-washington",
       "date": "09-26",
       "dateLabel": "26 September",
@@ -108,33 +135,6 @@
         "source": "https://commons.wikimedia.org/wiki/File:Llu%C3%ADs_Companys_i_Jover_(1-E-6412).jpg",
         "license": "Public domain",
         "licenseUrl": "https://commons.wikimedia.org/wiki/File:Llu%C3%ADs_Companys_i_Jover_(1-E-6412).jpg"
-      }
-    },
-    {
-      "id": "09-26-2014-iguala-mass-kidnapping",
-      "date": "09-26",
-      "dateLabel": "26 September",
-      "category": "world",
-      "categoryName": "World",
-      "year": 2014,
-      "title": "Iguala mass kidnapping",
-      "body": "A mass kidnapping of 43 students from a teaching college occurs in Iguala, Mexico.",
-      "source": {
-        "name": "Wikipedia · Iguala mass kidnapping",
-        "url": "https://en.wikipedia.org/wiki/Iguala_mass_kidnapping",
-        "calendarUrl": "https://en.wikipedia.org/wiki/September_26",
-        "license": {
-          "name": "CC BY-SA 4.0",
-          "url": "https://creativecommons.org/licenses/by-sa/4.0/"
-        }
-      },
-      "image": {
-        "src": "https://upload.wikimedia.org/wikipedia/commons/d/dd/EPN_Firma.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
-        "alt": "Picture from the Wikipedia article on Iguala mass kidnapping.",
-        "credit": "Microstar",
-        "source": "https://commons.wikimedia.org/wiki/File:EPN_Firma.png",
-        "license": "Public domain",
-        "licenseUrl": "https://commons.wikimedia.org/wiki/File:EPN_Firma.png"
       }
     }
   ]

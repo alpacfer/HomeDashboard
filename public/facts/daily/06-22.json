@@ -3,6 +3,33 @@
   "dateLabel": "22 June",
   "facts": [
     {
+      "id": "06-22-filezilla",
+      "date": "06-22",
+      "dateLabel": "22 June",
+      "category": "tech",
+      "categoryName": "Tech",
+      "year": 2001,
+      "title": "FileZilla",
+      "body": "FileZilla is a free and open-source, cross-platform FTP application, consisting of FileZilla Client and FileZilla Server. Clients are available for Windows, Linux, and macOS.",
+      "source": {
+        "name": "Wikipedia · FileZilla",
+        "url": "https://en.wikipedia.org/wiki/FileZilla",
+        "calendarUrl": "https://en.wikipedia.org/wiki/June_22",
+        "license": {
+          "name": "CC BY-SA 4.0",
+          "url": "https://creativecommons.org/licenses/by-sa/4.0/"
+        }
+      },
+      "image": {
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/30/FileZilla.png/500px-FileZilla.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "alt": "FileZilla — the application this anniversary is about.",
+        "credit": "Tim Kosse / FileZilla-Project",
+        "source": "https://commons.wikimedia.org/wiki/File:FileZilla.png",
+        "license": "GPL",
+        "licenseUrl": "https://www.gnu.org/licenses/gpl.html"
+      }
+    },
+    {
       "id": "06-22-west-indies",
       "date": "06-22",
       "dateLabel": "22 June",
@@ -108,33 +135,6 @@
         "source": "https://commons.wikimedia.org/wiki/File:Berlin_-_Checkpoint_Charlie_1963.jpg",
         "license": "CC BY-SA 2.0",
         "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0"
-      }
-    },
-    {
-      "id": "06-22-erwin-rommel",
-      "date": "06-22",
-      "dateLabel": "22 June",
-      "category": "world",
-      "categoryName": "World",
-      "year": 1942,
-      "title": "Erwin Rommel",
-      "body": "Erwin Rommel is promoted to Field Marshal after the Axis capture of Tobruk.",
-      "source": {
-        "name": "Wikipedia · Erwin Rommel",
-        "url": "https://en.wikipedia.org/wiki/Erwin_Rommel",
-        "calendarUrl": "https://en.wikipedia.org/wiki/June_22",
-        "license": {
-          "name": "CC BY-SA 4.0",
-          "url": "https://creativecommons.org/licenses/by-sa/4.0/"
-        }
-      },
-      "image": {
-        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d7/Bundesarchiv_Bild_146-1977-018-13A%2C_Erwin_Rommel_%28cropped%29.jpg/500px-Bundesarchiv_Bild_146-1977-018-13A%2C_Erwin_Rommel_%28cropped%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-        "alt": "Picture from the Wikipedia article on Erwin Rommel.",
-        "credit": "Bundesarchiv, Bild 146-1977-018-13A",
-        "source": "https://commons.wikimedia.org/wiki/File:Bundesarchiv_Bild_146-1977-018-13A,_Erwin_Rommel_(cropped).jpg",
-        "license": "CC BY-SA 3.0 de",
-        "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0/de/deed.en"
       }
     }
   ]

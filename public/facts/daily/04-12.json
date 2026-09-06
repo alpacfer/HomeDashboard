@@ -3,6 +3,60 @@
   "dateLabel": "12 April",
   "facts": [
     {
+      "id": "04-12-candy-crush-saga",
+      "date": "04-12",
+      "dateLabel": "12 April",
+      "category": "culture",
+      "categoryName": "Culture",
+      "year": 2012,
+      "title": "Candy Crush Saga",
+      "body": "Candy Crush Saga is a free-to-play tile-matching video game released by King on April 12, 2012, originally for Facebook; other versions for iOS, Android, Windows Phone, and Windows 10 followed. It is a variation of their browser game Candy Crush.",
+      "source": {
+        "name": "Wikipedia · Candy Crush Saga",
+        "url": "https://en.wikipedia.org/wiki/Candy_Crush_Saga",
+        "calendarUrl": "https://en.wikipedia.org/wiki/April_12",
+        "license": {
+          "name": "CC BY-SA 4.0",
+          "url": "https://creativecommons.org/licenses/by-sa/4.0/"
+        }
+      },
+      "image": {
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/7f/Woman_playing_Candy_Crush_Saga_on_iPad.jpg/500px-Woman_playing_Candy_Crush_Saga_on_iPad.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "alt": "Candy Crush Saga — the video game this anniversary is about.",
+        "credit": "Siukiu903",
+        "source": "https://commons.wikimedia.org/wiki/File:Woman_playing_Candy_Crush_Saga_on_iPad.jpg",
+        "license": "CC BY-SA 3.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0"
+      }
+    },
+    {
+      "id": "04-12-world-of-tanks",
+      "date": "04-12",
+      "dateLabel": "12 April",
+      "category": "culture",
+      "categoryName": "Culture",
+      "year": 2011,
+      "title": "World of Tanks",
+      "body": "World of Tanks (WoT) is an armoured warfare-themed multiplayer online game developed by Wargaming, featuring 20th century (1910s–1970s) era combat vehicles.",
+      "source": {
+        "name": "Wikipedia · World of Tanks",
+        "url": "https://en.wikipedia.org/wiki/World_of_Tanks",
+        "calendarUrl": "https://en.wikipedia.org/wiki/April_12",
+        "license": {
+          "name": "CC BY-SA 4.0",
+          "url": "https://creativecommons.org/licenses/by-sa/4.0/"
+        }
+      },
+      "image": {
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/5f/E3_2011_-_World_of_Tanks_booth_%28Wargaming.net%29_%285822683674%29.jpg/500px-E3_2011_-_World_of_Tanks_booth_%28Wargaming.net%29_%285822683674%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "alt": "World of Tanks — the video game this anniversary is about.",
+        "credit": "The Conmunity",
+        "source": "https://commons.wikimedia.org/wiki/File:E3_2011_-_World_of_Tanks_booth_(Wargaming.net)_(5822683674).jpg",
+        "license": "CC BY 2.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by/2.0"
+      }
+    },
+    {
       "id": "04-12-cosmonaut",
       "date": "04-12",
       "dateLabel": "12 April",
@@ -81,60 +135,6 @@
         "source": "https://commons.wikimedia.org/wiki/File:Washington_h.jpg",
         "license": "Public domain",
         "licenseUrl": "https://commons.wikimedia.org/wiki/File:Washington_h.jpg"
-      }
-    },
-    {
-      "id": "04-12-frank-whittle",
-      "date": "04-12",
-      "dateLabel": "12 April",
-      "category": "sport",
-      "categoryName": "Sport",
-      "year": 1937,
-      "title": "Frank Whittle",
-      "body": "Sir Frank Whittle ground-tests the first jet engine designed to power an aircraft, at Rugby, England.",
-      "source": {
-        "name": "Wikipedia · Frank Whittle",
-        "url": "https://en.wikipedia.org/wiki/Frank_Whittle",
-        "calendarUrl": "https://en.wikipedia.org/wiki/April_12",
-        "license": {
-          "name": "CC BY-SA 4.0",
-          "url": "https://creativecommons.org/licenses/by-sa/4.0/"
-        }
-      },
-      "image": {
-        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d7/Frank_Whittle_CH_011867_crop.jpg/500px-Frank_Whittle_CH_011867_crop.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-        "alt": "Picture from the Wikipedia article on Frank Whittle.",
-        "credit": "British Government",
-        "source": "https://commons.wikimedia.org/wiki/File:Frank_Whittle_CH_011867_crop.jpg",
-        "license": "Public domain",
-        "licenseUrl": "https://commons.wikimedia.org/wiki/File:Frank_Whittle_CH_011867_crop.jpg"
-      }
-    },
-    {
-      "id": "04-12-space-shuttle-discovery",
-      "date": "04-12",
-      "dateLabel": "12 April",
-      "category": "space",
-      "categoryName": "Space",
-      "year": 1985,
-      "title": "Space Shuttle Discovery",
-      "body": "Space Shuttle Discovery launches on STS-51D to deploy two communications satellites.",
-      "source": {
-        "name": "Wikipedia · Space Shuttle Discovery",
-        "url": "https://en.wikipedia.org/wiki/Space_Shuttle_Discovery",
-        "calendarUrl": "https://en.wikipedia.org/wiki/April_12",
-        "license": {
-          "name": "CC BY-SA 4.0",
-          "url": "https://creativecommons.org/licenses/by-sa/4.0/"
-        }
-      },
-      "image": {
-        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/1d/STS-133_Space_Shuttle_Discovery_after_undocking_3_%28cropped%29.jpg/500px-STS-133_Space_Shuttle_Discovery_after_undocking_3_%28cropped%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-        "alt": "Picture from the Wikipedia article on Space Shuttle Discovery.",
-        "credit": "NASA",
-        "source": "https://commons.wikimedia.org/wiki/File:STS-133_Space_Shuttle_Discovery_after_undocking_3_(cropped).jpg",
-        "license": "Public domain",
-        "licenseUrl": "https://commons.wikimedia.org/wiki/File:STS-133_Space_Shuttle_Discovery_after_undocking_3_(cropped).jpg"
       }
     }
   ]

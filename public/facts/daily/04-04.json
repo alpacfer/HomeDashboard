@@ -3,6 +3,33 @@
   "dateLabel": "4 April",
   "facts": [
     {
+      "id": "04-04-battlefield-play4free",
+      "date": "04-04",
+      "dateLabel": "4 April",
+      "category": "culture",
+      "categoryName": "Culture",
+      "year": 2011,
+      "title": "Battlefield Play4Free",
+      "body": "Battlefield Play4Free was a first-person shooter video game developed by Easy Studios and published by Electronic Arts. It was the eleventh installment in the Battlefield series, the game featured a modern warfare battlefield setting.",
+      "source": {
+        "name": "Wikipedia · Battlefield Play4Free",
+        "url": "https://en.wikipedia.org/wiki/Battlefield_Play4Free",
+        "calendarUrl": "https://en.wikipedia.org/wiki/April_4",
+        "license": {
+          "name": "CC BY-SA 4.0",
+          "url": "https://creativecommons.org/licenses/by-sa/4.0/"
+        }
+      },
+      "image": {
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/56/Battlefield_2_logo.jpg/500px-Battlefield_2_logo.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "alt": "Battlefield Play4Free — the video game this anniversary is about.",
+        "credit": "Dice",
+        "source": "https://commons.wikimedia.org/wiki/File:Battlefield_2_logo.jpg",
+        "license": "Public domain",
+        "licenseUrl": "https://commons.wikimedia.org/wiki/File:Battlefield_2_logo.jpg"
+      }
+    },
+    {
       "id": "04-04-bill-gates",
       "date": "04-04",
       "dateLabel": "4 April",
@@ -57,33 +84,6 @@
       }
     },
     {
-      "id": "04-04-the-beatles",
-      "date": "04-04",
-      "dateLabel": "4 April",
-      "category": "culture",
-      "categoryName": "Culture",
-      "year": 1964,
-      "title": "The Beatles",
-      "body": "The Beatles occupy the top five positions on the Billboard Hot 100 pop chart.",
-      "source": {
-        "name": "Wikipedia · The Beatles",
-        "url": "https://en.wikipedia.org/wiki/The_Beatles",
-        "calendarUrl": "https://en.wikipedia.org/wiki/April_4",
-        "license": {
-          "name": "CC BY-SA 4.0",
-          "url": "https://creativecommons.org/licenses/by-sa/4.0/"
-        }
-      },
-      "image": {
-        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/42/The_Beatles_1963_Dezo_Hoffman_Capitol_Records_press_photo_2.jpg/500px-The_Beatles_1963_Dezo_Hoffman_Capitol_Records_press_photo_2.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-        "alt": "Picture from the Wikipedia article on The Beatles.",
-        "credit": "Dezo Hoffmann",
-        "source": "https://commons.wikimedia.org/wiki/File:The_Beatles_1963_Dezo_Hoffman_Capitol_Records_press_photo_2.jpg",
-        "license": "Public domain",
-        "licenseUrl": "https://commons.wikimedia.org/wiki/File:The_Beatles_1963_Dezo_Hoffman_Capitol_Records_press_photo_2.jpg"
-      }
-    },
-    {
       "id": "04-04-campaign-for-nuclear-disarmament",
       "date": "04-04",
       "dateLabel": "4 April",
@@ -111,17 +111,17 @@
       }
     },
     {
-      "id": "04-04-denton-cooley",
+      "id": "04-04-the-beatles",
       "date": "04-04",
       "dateLabel": "4 April",
-      "category": "world",
-      "categoryName": "World",
-      "year": 1969,
-      "title": "Denton Cooley",
-      "body": "Dr. Denton Cooley implants the first temporary artificial heart.",
+      "category": "culture",
+      "categoryName": "Culture",
+      "year": 1964,
+      "title": "The Beatles",
+      "body": "The Beatles occupy the top five positions on the Billboard Hot 100 pop chart.",
       "source": {
-        "name": "Wikipedia · Denton Cooley",
-        "url": "https://en.wikipedia.org/wiki/Denton_Cooley",
+        "name": "Wikipedia · The Beatles",
+        "url": "https://en.wikipedia.org/wiki/The_Beatles",
         "calendarUrl": "https://en.wikipedia.org/wiki/April_4",
         "license": {
           "name": "CC BY-SA 4.0",
@@ -129,12 +129,12 @@
         }
       },
       "image": {
-        "src": "https://upload.wikimedia.org/wikipedia/commons/9/96/Cooly2.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
-        "alt": "Picture from the Wikipedia article on Denton Cooley.",
-        "credit": "Wikimedia Commons",
-        "source": "https://commons.wikimedia.org/wiki/File:Cooly2.jpg",
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/42/The_Beatles_1963_Dezo_Hoffman_Capitol_Records_press_photo_2.jpg/500px-The_Beatles_1963_Dezo_Hoffman_Capitol_Records_press_photo_2.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "alt": "Picture from the Wikipedia article on The Beatles.",
+        "credit": "Dezo Hoffmann",
+        "source": "https://commons.wikimedia.org/wiki/File:The_Beatles_1963_Dezo_Hoffman_Capitol_Records_press_photo_2.jpg",
         "license": "Public domain",
-        "licenseUrl": "https://commons.wikimedia.org/wiki/File:Cooly2.jpg"
+        "licenseUrl": "https://commons.wikimedia.org/wiki/File:The_Beatles_1963_Dezo_Hoffman_Capitol_Records_press_photo_2.jpg"
       }
     }
   ]

@@ -3,6 +3,60 @@
   "dateLabel": "14 May",
   "facts": [
     {
+      "id": "05-14-killing-floor-video-game",
+      "date": "05-14",
+      "dateLabel": "14 May",
+      "category": "culture",
+      "categoryName": "Culture",
+      "year": 2009,
+      "title": "Killing Floor",
+      "body": "Killing Floor is a cooperative first-person shooter video game developed and published by Tripwire Interactive. It was originally released as an Unreal Tournament 2004 mod in 2005.",
+      "source": {
+        "name": "Wikipedia · Killing Floor (video game)",
+        "url": "https://en.wikipedia.org/wiki/Killing_Floor_(video_game)",
+        "calendarUrl": "https://en.wikipedia.org/wiki/May_14",
+        "license": {
+          "name": "CC BY-SA 4.0",
+          "url": "https://creativecommons.org/licenses/by-sa/4.0/"
+        }
+      },
+      "image": {
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/7c/Killing_Floor_Biohazard1.jpg/500px-Killing_Floor_Biohazard1.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "alt": "Killing Floor — the video game this anniversary is about.",
+        "credit": "Tripwire Interactive",
+        "source": "https://commons.wikimedia.org/wiki/File:Killing_Floor_Biohazard1.jpg",
+        "license": "CC BY-SA 3.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0"
+      }
+    },
+    {
+      "id": "05-14-phantasy-star-online-2",
+      "date": "05-14",
+      "dateLabel": "14 May",
+      "category": "culture",
+      "categoryName": "Culture",
+      "year": 2014,
+      "title": "Phantasy Star Online 2",
+      "body": "Phantasy Star Online 2 is a free-to-play online action role-playing game in the Phantasy Star series, developed and published by Sega.",
+      "source": {
+        "name": "Wikipedia · Phantasy Star Online 2",
+        "url": "https://en.wikipedia.org/wiki/Phantasy_Star_Online_2",
+        "calendarUrl": "https://en.wikipedia.org/wiki/May_14",
+        "license": {
+          "name": "CC BY-SA 4.0",
+          "url": "https://creativecommons.org/licenses/by-sa/4.0/"
+        }
+      },
+      "image": {
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d0/Phantasy_Star_Online_cosplay_models_%282012%29.jpg/500px-Phantasy_Star_Online_cosplay_models_%282012%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "alt": "Phantasy Star Online 2 — the video game this anniversary is about.",
+        "credit": "Koichiro Ohba",
+        "source": "https://commons.wikimedia.org/wiki/File:Phantasy_Star_Online_cosplay_models_(2012).jpg",
+        "license": "CC BY 2.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by/2.0"
+      }
+    },
+    {
       "id": "05-14-zhurong-rover",
       "date": "05-14",
       "dateLabel": "14 May",
@@ -81,71 +135,6 @@
         "source": "https://commons.wikimedia.org/wiki/File:L%27Exposition_de_Paris,_LDUT1210(3)(3).jpg",
         "license": "CC0",
         "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/deed.en"
-      }
-    },
-    {
-      "id": "05-14-william-clark",
-      "date": "05-14",
-      "dateLabel": "14 May",
-      "category": "science",
-      "categoryName": "Science",
-      "year": 1804,
-      "title": "William Clark",
-      "body": "William Clark and 42 men depart from Camp Dubois to join Meriwether Lewis at St Charles, Missouri, marking the beginning of the Lewis and Clark Expedition historic journey up the Missouri River.",
-      "source": {
-        "name": "Wikipedia · William Clark",
-        "url": "https://en.wikipedia.org/wiki/William_Clark",
-        "calendarUrl": "https://en.wikipedia.org/wiki/May_14",
-        "license": {
-          "name": "CC BY-SA 4.0",
-          "url": "https://creativecommons.org/licenses/by-sa/4.0/"
-        }
-      },
-      "image": {
-        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/89/Portrait_of_William_Clark_%28cropped%29.jpg/500px-Portrait_of_William_Clark_%28cropped%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-        "alt": "Picture from the Wikipedia article on William Clark.",
-        "credit": "Jarvis, John Wesley, 1780-1840",
-        "source": "https://commons.wikimedia.org/wiki/File:Portrait_of_William_Clark_(cropped).jpg",
-        "license": "Public domain",
-        "licenseUrl": "https://commons.wikimedia.org/wiki/File:Portrait_of_William_Clark_(cropped).jpg"
-      }
-    },
-    {
-      "id": "05-14-skylab",
-      "date": "05-14",
-      "dateLabel": "14 May",
-      "category": "space",
-      "categoryName": "Space",
-      "year": 1973,
-      "title": "Skylab",
-      "body": "Skylab, the United States' first space station, is launched.",
-      "source": {
-        "name": "Wikipedia · Skylab",
-        "url": "https://en.wikipedia.org/wiki/Skylab",
-        "calendarUrl": "https://en.wikipedia.org/wiki/May_14",
-        "license": {
-          "name": "CC BY-SA 4.0",
-          "url": "https://creativecommons.org/licenses/by-sa/4.0/"
-        }
-      },
-      "video": {
-        "src": "https://upload.wikimedia.org/wikipedia/commons/transcoded/1/1c/Skylab_astronauts_have_fun.ogv/Skylab_astronauts_have_fun.ogv.240p.vp9.webm",
-        "width": 320,
-        "height": 240,
-        "poster": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/1c/Skylab_astronauts_have_fun.ogv/330px--Skylab_astronauts_have_fun.ogv.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo",
-        "seconds": 45,
-        "credit": "Unknown",
-        "source": "https://commons.wikimedia.org/wiki/File:Skylab_astronauts_have_fun.ogv",
-        "license": "Public domain",
-        "licenseUrl": "https://commons.wikimedia.org/wiki/File:Skylab_astronauts_have_fun.ogv"
-      },
-      "image": {
-        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/07/Skylab_%28SL-4%29.jpg/500px-Skylab_%28SL-4%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-        "alt": "Picture from the Wikipedia article on Skylab.",
-        "credit": "NASA",
-        "source": "https://commons.wikimedia.org/wiki/File:Skylab_(SL-4).jpg",
-        "license": "Public domain",
-        "licenseUrl": "https://commons.wikimedia.org/wiki/File:Skylab_(SL-4).jpg"
       }
     }
   ]

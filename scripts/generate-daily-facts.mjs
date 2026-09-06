@@ -13,8 +13,8 @@ import { existsSync } from 'node:fs';
 import { createHash } from 'node:crypto';
 import { mkdir, readFile, readdir, rm, stat, writeFile } from 'node:fs/promises';
 import {
-  CATEGORIES, FACTS_PER_DAY, VIDEOS_PER_DAY, WORLD, chooseFacts, isRecent, measurableLinks, parseEntries, plainText,
-  readableBody, scoreEntry, tidyCredit, videoEarnsItsPlace,
+  CATEGORIES, FACTS_PER_DAY, VIDEOS_PER_DAY, WORLD, chooseFacts, isFragment, isRecent, measurableLinks, parseEntries, plainText,
+  readableBody, scoreEntry, tidyCredit, trimToWords, videoEarnsItsPlace,
 } from './lib/fact-selection.mjs';
 
 const API = 'https://en.wikipedia.org/w/api.php';
@@ -37,6 +37,37 @@ for (const seed of seedFile.facts) {
   if (!CATEGORY_NAMES.has(seed.category)) throw new Error(`${seed.date}: unknown category "${seed.category}"`);
   if (!seedsByDate.has(seed.date)) seedsByDate.set(seed.date, []);
   seedsByDate.get(seed.date).push(seed);
+}
+
+// Two slots a day belong to the internet.
+//
+// The calendar pages cannot supply them: 291 of the 366 dates carry no
+// non-grim entry about computing at all, so no amount of re-weighting finds
+// one. These come from Wikidata instead, harvested by hand into
+// data/digital-anniversaries.json (scripts/harvest-anniversaries.mjs), which
+// is read from disk so the build never depends on a SPARQL endpoint that
+// answers a broad question with a 504.
+//
+// A hand-written override in daily-fact-overrides.json still outranks these:
+// somebody chose that one.
+const DIGITAL_SLOTS = 2;
+// What to call each kind in the alt text. The picture is a free one *of the
+// subject* rather than the thing everybody pictures -- Rick Astley on a stage
+// rather than the video -- so the alt says which subject it belongs to and
+// does not pretend to know what is in the frame.
+const KIND_LABEL = {
+  vgame: 'video game', meme: 'internet meme', website: 'website',
+  software: 'software', appsw: 'application', mobileapp: 'mobile app',
+  os: 'operating system', proglang: 'programming language',
+  socialnet: 'social network', socialnetwork: 'social network',
+  search: 'search engine', searcheng: 'search engine', netservice: 'internet service',
+};
+const anniversaryFile = JSON.parse(await readFile(new URL('../data/digital-anniversaries.json', import.meta.url), 'utf8'));
+const anniversariesByDate = new Map(Object.entries(anniversaryFile.dates));
+for (const [key, list] of anniversariesByDate) {
+  for (const item of list) {
+    if (!CATEGORY_NAMES.has(item.category)) throw new Error(`${key}: unknown category "${item.category}"`);
+  }
 }
 
 const monthNames = ['January', 'February', 'March', 'April', 'May', 'June', 'July', 'August', 'September', 'October', 'November', 'December'];
@@ -215,7 +246,13 @@ for (const date of dates) {
   shortlists.set(date.key, entries.map(entry => scoreEntry(entry)).sort((a, b) => b.score - a.score).slice(0, SHORTLIST * 2));
 }
 
-const viewTitles = [...new Set([...shortlists.values()].flatMap(list => list.slice(0, SHORTLIST)).flatMap(entry => measurableLinks(entry)))];
+// The anniversaries are asked about too, because their whole ranking is
+// readership: a date offers Minecraft and an Android utility nobody installed,
+// and only the pageviews tell them apart.
+const viewTitles = [...new Set([
+  ...[...shortlists.values()].flatMap(list => list.slice(0, SHORTLIST)).flatMap(entry => measurableLinks(entry)),
+  ...[...anniversariesByDate.values()].flat().map(item => item.article),
+])];
 console.log(`Asking how many people read ${viewTitles.length} candidate articles...`);
 const views = new Map();
 if (viewsCache && existsSync(viewsCache)) {
@@ -256,6 +293,47 @@ await Promise.all(Array.from({ length: 24 }, async () => {
 }));
 if (viewsCache) await writeFile(viewsCache, JSON.stringify(Object.fromEntries(views)));
 
+// The best-read internet subject each date has to offer, up to DIGITAL_SLOTS
+// of them, and never one already spoken for by a hand-written override.
+const digitalByDate = new Map();
+for (const date of dates) {
+  const taken = new Set((seedsByDate.get(date.key) ?? []).map(seed => seed.article));
+  const ranked = (anniversariesByDate.get(date.key) ?? [])
+    .filter(item => !taken.has(item.article))
+    .map(item => ({ ...item, views: views.get(item.article) ?? 0 }))
+    .sort((a, b) => b.views - a.views || a.year - b.year);
+  const room = Math.max(0, DIGITAL_SLOTS - (seedsByDate.get(date.key)?.length ?? 0));
+  digitalByDate.set(date.key, ranked.slice(0, room));
+}
+
+// A body for each. The calendar entries carry their own sentence; an
+// anniversary has only a subject, so the words come from the opening of the
+// English Wikipedia article -- which is the same place the picture and the
+// licence already come from.
+const digitalTitles = [...new Set([...digitalByDate.values()].flat().map(item => item.article))];
+console.log(`Reading the opening of ${digitalTitles.length} articles for the internet's birthdays...`);
+const extracts = new Map();
+// Twenty, not the fifty every other batch here uses. prop=extracts caps at
+// exlimit=20 and says nothing about it: ask for fifty and thirty come back as
+// ordinary pages with no extract on them, which reads exactly like thirty
+// articles that have nothing to say. That silence cost 145 dates their
+// anniversary before anyone noticed.
+for (const batch of chunks(digitalTitles, 20)) {
+  const data = await cached('extract', batch.join('|'), () => api(API, {
+    action: 'query', prop: 'extracts', exintro: '1', explaintext: '1',
+    exsentences: '2', exlimit: '20', redirects: '1', titles: batch.join('|'),
+  }));
+  const aliases = new Map();
+  for (const normalized of data.query?.normalized ?? []) aliases.set(normalizedTitle(normalized.from), normalizedTitle(normalized.to));
+  for (const redirect of data.query?.redirects ?? []) aliases.set(normalizedTitle(redirect.from), normalizedTitle(redirect.to));
+  for (const page of data.query?.pages ?? []) {
+    if (!page.missing && page.extract) extracts.set(normalizedTitle(page.title), page.extract);
+  }
+  for (const [from, to] of aliases) {
+    if (extracts.has(to)) extracts.set(from, extracts.get(to));
+  }
+}
+
 const chosen = new Map();
 for (const date of dates) {
   const seeds = (seedsByDate.get(date.key) ?? []).map(seed => ({
@@ -266,6 +344,22 @@ for (const date of dates) {
     links: [{ title: seed.article, label: seed.article }],
     category: { id: seed.category, name: CATEGORY_NAMES.get(seed.category) },
   }));
+  // An anniversary whose article said nothing usable is dropped rather than
+  // seeded empty: a card with a title and no sentence is worse than a fifth
+  // ordinary fact.
+  for (const item of digitalByDate.get(date.key) ?? []) {
+    const extract = extracts.get(normalizedTitle(item.article));
+    const body = extract && readableBody(trimToWords(extract.replace(/\s+/g, ' ').trim()));
+    if (!body || isFragment(body)) continue;
+    seeds.push({
+      seed: { ...item, body, alt: `${item.title} — the ${KIND_LABEL[item.kind] ?? 'subject'} this anniversary is about.` },
+      year: item.year,
+      text: body,
+      subject: item.article,
+      links: [{ title: item.article, label: item.title }],
+      category: { id: item.category, name: CATEGORY_NAMES.get(item.category) },
+    });
+  }
   // The whole shortlist, for three slots. Plenty of Wikipedia articles carry
   // no freely licensed picture — 13 July offered Live Aid, the Dartmouth
   // workshop and the 2014 World Cup final, and not one of them had one — so
@@ -308,7 +402,14 @@ for (const batch of chunks(articleTitles)) {
 // illustration for a fact and yet are nobody's lead image: the page of the
 // Harvard Mark II logbook with the moth taped to it is the first computer bug,
 // and the article on software bugs leads with a screenshot of a syntax error.
-const seedFiles = seedFile.facts.filter(seed => seed.imageFile).map(seed => `File:${seed.imageFile}`);
+// Both kinds of seed name their own Commons file: the hand-written overrides
+// because somebody chose the picture, and the digital anniversaries because a
+// game's or a meme's own lead image is box art or a screenshot, non-free, and
+// Wikipedia's pageimages will not offer it. Wikidata's P18 is free by policy.
+const seedFiles = [...new Set([
+  ...seedFile.facts.filter(seed => seed.imageFile).map(seed => `File:${seed.imageFile}`),
+  ...[...digitalByDate.values()].flat().map(item => `File:${item.imageFile}`),
+])];
 const imageTitles = [...new Set([...seedFiles, ...[...articles.values()].filter(page => page.pageimage).map(page => `File:${page.pageimage}`)])];
 console.log(`Reading licence metadata for ${imageTitles.length} Wikimedia Commons files...`);
 const imageMetadata = new Map();

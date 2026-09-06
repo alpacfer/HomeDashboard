@@ -3,6 +3,33 @@
   "dateLabel": "1 December",
   "facts": [
     {
+      "id": "12-01-the-cat-lady",
+      "date": "12-01",
+      "dateLabel": "1 December",
+      "category": "culture",
+      "categoryName": "Culture",
+      "year": 2012,
+      "title": "The Cat Lady",
+      "body": "The Cat Lady is a 2012 horror graphic adventure game developed by Harvester Games for Microsoft Windows and Linux. It is the second installment in the Devil Came Through Here trilogy after 2009's Downfall.",
+      "source": {
+        "name": "Wikipedia · The Cat Lady",
+        "url": "https://en.wikipedia.org/wiki/The_Cat_Lady",
+        "calendarUrl": "https://en.wikipedia.org/wiki/December_1",
+        "license": {
+          "name": "CC BY-SA 4.0",
+          "url": "https://creativecommons.org/licenses/by-sa/4.0/"
+        }
+      },
+      "image": {
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/ca/The_Cat_Lady_video_game_poster.png/500px-The_Cat_Lady_video_game_poster.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "alt": "The Cat Lady — the video game this anniversary is about.",
+        "credit": "Remigiusz Michalski",
+        "source": "https://commons.wikimedia.org/wiki/File:The_Cat_Lady_video_game_poster.png",
+        "license": "CC0",
+        "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/deed.en"
+      }
+    },
+    {
       "id": "12-01-arecibo-telescope",
       "date": "12-01",
       "dateLabel": "1 December",
@@ -108,33 +135,6 @@
         "source": "https://commons.wikimedia.org/wiki/File:Oliver_Mark_-_Benazir_Bhutto,_Dubai_2006_(cropped).jpg",
         "license": "CC BY-SA 4.0",
         "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0"
-      }
-    },
-    {
-      "id": "12-01-world-aids-day",
-      "date": "12-01",
-      "dateLabel": "1 December",
-      "category": "world",
-      "categoryName": "World",
-      "year": 1988,
-      "title": "World AIDS Day",
-      "body": "World AIDS Day is proclaimed worldwide by the UN member states.",
-      "source": {
-        "name": "Wikipedia · World AIDS Day",
-        "url": "https://en.wikipedia.org/wiki/World_AIDS_Day",
-        "calendarUrl": "https://en.wikipedia.org/wiki/December_1",
-        "license": {
-          "name": "CC BY-SA 4.0",
-          "url": "https://creativecommons.org/licenses/by-sa/4.0/"
-        }
-      },
-      "image": {
-        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/64/Red_Ribbon.svg/500px-Red_Ribbon.svg.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-        "alt": "Picture from the Wikipedia article on World AIDS Day.",
-        "credit": "Gary van der Merwe",
-        "source": "https://commons.wikimedia.org/wiki/File:Red_Ribbon.svg",
-        "license": "CC BY-SA 3.0",
-        "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0/"
       }
     }
   ]

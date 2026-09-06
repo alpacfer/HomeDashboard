@@ -3,6 +3,33 @@
   "dateLabel": "20 May",
   "facts": [
     {
+      "id": "05-20-eitb",
+      "date": "05-20",
+      "dateLabel": "20 May",
+      "category": "tech",
+      "categoryName": "Tech",
+      "year": 1982,
+      "title": "EITB",
+      "body": "Euskal Irrati Telebista (Basque: [eus̺kal irat̪i t̪elebis̺t̪a]; transl. Basque Radio Television; acronym EITB, branded eitb) is the Basque Autonomous Community's public broadcast service, which broadcasts throughout the Basque Country. Its main brand is Euskal Telebista (ETB, Basque Television).",
+      "source": {
+        "name": "Wikipedia · EITB",
+        "url": "https://en.wikipedia.org/wiki/EITB",
+        "calendarUrl": "https://en.wikipedia.org/wiki/May_20",
+        "license": {
+          "name": "CC BY-SA 4.0",
+          "url": "https://creativecommons.org/licenses/by-sa/4.0/"
+        }
+      },
+      "image": {
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/51/Bilbao_-_Edificio_Bami_-_ETB_01.jpg/500px-Bilbao_-_Edificio_Bami_-_ETB_01.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "alt": "EITB — the website this anniversary is about.",
+        "credit": "Basotxerri",
+        "source": "https://commons.wikimedia.org/wiki/File:Bilbao_-_Edificio_Bami_-_ETB_01.jpg",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0"
+      }
+    },
+    {
       "id": "05-20-hiv",
       "date": "05-20",
       "dateLabel": "20 May",
@@ -108,33 +135,6 @@
         "source": "https://commons.wikimedia.org/wiki/File:Flag_of_East_Timor.svg",
         "license": "Public domain",
         "licenseUrl": "https://commons.wikimedia.org/wiki/File:Flag_of_East_Timor.svg"
-      }
-    },
-    {
-      "id": "05-20-mamata-banerjee",
-      "date": "05-20",
-      "dateLabel": "20 May",
-      "category": "world",
-      "categoryName": "World",
-      "year": 2011,
-      "title": "Mamata Banerjee",
-      "body": "Mamata Banerjee is sworn in as the Chief Minister of West Bengal, the first woman to hold this post.",
-      "source": {
-        "name": "Wikipedia · Mamata Banerjee",
-        "url": "https://en.wikipedia.org/wiki/Mamata_Banerjee",
-        "calendarUrl": "https://en.wikipedia.org/wiki/May_20",
-        "license": {
-          "name": "CC BY-SA 4.0",
-          "url": "https://creativecommons.org/licenses/by-sa/4.0/"
-        }
-      },
-      "image": {
-        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/4d/Official_portrait_of_Mamata_Banerjee.jpg/500px-Official_portrait_of_Mamata_Banerjee.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-        "alt": "Picture from the Wikipedia article on Mamata Banerjee.",
-        "credit": "Government of West Bengal",
-        "source": "https://commons.wikimedia.org/wiki/File:Official_portrait_of_Mamata_Banerjee.jpg",
-        "license": "CC BY 1.0",
-        "licenseUrl": "https://creativecommons.org/licenses/by/1.0"
       }
     }
   ]

@@ -3,6 +3,33 @@
   "dateLabel": "1 July",
   "facts": [
     {
+      "id": "07-01-r-type",
+      "date": "07-01",
+      "dateLabel": "1 July",
+      "category": "culture",
+      "categoryName": "Culture",
+      "year": 1987,
+      "title": "R-Type",
+      "body": "R-Type is a 1987 horizontally scrolling shooter video game developed and published by Irem for arcades. The player controls the R-9 \"Arrowhead\" starship in its efforts to destroy the Bydo, a powerful alien race bent on wiping out all of mankind.",
+      "source": {
+        "name": "Wikipedia · R-Type",
+        "url": "https://en.wikipedia.org/wiki/R-Type",
+        "calendarUrl": "https://en.wikipedia.org/wiki/July_1",
+        "license": {
+          "name": "CC BY-SA 4.0",
+          "url": "https://creativecommons.org/licenses/by-sa/4.0/"
+        }
+      },
+      "image": {
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/51/R-Type_video_game_machine.jpg/500px-R-Type_video_game_machine.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "alt": "R-Type — the video game this anniversary is about.",
+        "credit": "Own work Picture taken in Červený Újezd…",
+        "source": "https://commons.wikimedia.org/wiki/File:R-Type_video_game_machine.jpg",
+        "license": "CC BY-SA 3.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0"
+      }
+    },
+    {
       "id": "07-01-saturn",
       "date": "07-01",
       "dateLabel": "1 July",
@@ -54,33 +81,6 @@
         "source": "https://commons.wikimedia.org/wiki/File:Sony_headquaters_2.jpg",
         "license": "CC BY-SA 4.0",
         "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0"
-      }
-    },
-    {
-      "id": "07-01-telephone-call",
-      "date": "07-01",
-      "dateLabel": "1 July",
-      "category": "tech",
-      "categoryName": "Tech",
-      "year": 1881,
-      "title": "Telephone call",
-      "body": "The world's first international telephone call is made between St. Stephen, New Brunswick, Canada, and Calais, Maine, United States.",
-      "source": {
-        "name": "Wikipedia · Telephone call",
-        "url": "https://en.wikipedia.org/wiki/Telephone_call",
-        "calendarUrl": "https://en.wikipedia.org/wiki/July_1",
-        "license": {
-          "name": "CC BY-SA 4.0",
-          "url": "https://creativecommons.org/licenses/by-sa/4.0/"
-        }
-      },
-      "image": {
-        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/8d/CandlestickTelephoneGal.jpg/500px-CandlestickTelephoneGal.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-        "alt": "Picture from the Wikipedia article on Telephone call.",
-        "credit": "Wikimedia Commons",
-        "source": "https://commons.wikimedia.org/wiki/File:CandlestickTelephoneGal.jpg",
-        "license": "Public domain",
-        "licenseUrl": "https://commons.wikimedia.org/wiki/File:CandlestickTelephoneGal.jpg"
       }
     },
     {

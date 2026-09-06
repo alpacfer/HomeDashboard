@@ -3,6 +3,60 @@
   "dateLabel": "30 December",
   "facts": [
     {
+      "id": "12-30-soyjak",
+      "date": "12-30",
+      "dateLabel": "30 December",
+      "category": "curious",
+      "categoryName": "Curious",
+      "year": 2017,
+      "title": "Soyjak",
+      "body": "\" They are usually made by tracing over an existing photo and giving it \"soy boy\" qualities. These typically include a bald head, thick-rimmed glasses, a neckbeard, and a gaping mouth.",
+      "source": {
+        "name": "Wikipedia · Soyjak",
+        "url": "https://en.wikipedia.org/wiki/Soyjak",
+        "calendarUrl": "https://en.wikipedia.org/wiki/December_30",
+        "license": {
+          "name": "CC BY-SA 4.0",
+          "url": "https://creativecommons.org/licenses/by-sa/4.0/"
+        }
+      },
+      "image": {
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/cd/Commonsjak_Soyjak.png/500px-Commonsjak_Soyjak.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "alt": "Soyjak — the internet meme this anniversary is about.",
+        "credit": "The Frees",
+        "source": "https://commons.wikimedia.org/wiki/File:Commonsjak_Soyjak.png",
+        "license": "CC BY-SA 2.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0"
+      }
+    },
+    {
+      "id": "12-30-ufo-alien-invasion",
+      "date": "12-30",
+      "dateLabel": "30 December",
+      "category": "culture",
+      "categoryName": "Culture",
+      "year": 2003,
+      "title": "UFO: Alien Invasion",
+      "body": "Alien Invasion is a strategy video game in which the player fights aliens that are trying to take control of the Earth. The game was heavily influenced by the X-COM series, especially UFO: Enemy Unknown.",
+      "source": {
+        "name": "Wikipedia · UFO: Alien Invasion",
+        "url": "https://en.wikipedia.org/wiki/UFO:_Alien_Invasion",
+        "calendarUrl": "https://en.wikipedia.org/wiki/December_30",
+        "license": {
+          "name": "CC BY-SA 4.0",
+          "url": "https://creativecommons.org/licenses/by-sa/4.0/"
+        }
+      },
+      "image": {
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/6d/Ufo_2.4_Farm.png/500px-Ufo_2.4_Farm.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "alt": "UFO: Alien Invasion — the video game this anniversary is about.",
+        "credit": "Alien Invasion project",
+        "source": "https://commons.wikimedia.org/wiki/File:Ufo_2.4_Farm.png",
+        "license": "GPL",
+        "licenseUrl": "https://www.gnu.org/licenses/gpl.html"
+      }
+    },
+    {
       "id": "12-30-discovery-expedition",
       "date": "12-30",
       "dateLabel": "30 December",
@@ -81,60 +135,6 @@
         "source": "https://commons.wikimedia.org/wiki/File:Pittsburgh_Penguins,_Washington_Capitals,_Bryan_Rust_(33744033514).jpg",
         "license": "CC BY-SA 2.0",
         "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0"
-      }
-    },
-    {
-      "id": "12-30-madrid-barajas-airport",
-      "date": "12-30",
-      "dateLabel": "30 December",
-      "category": "world",
-      "categoryName": "World",
-      "year": 2006,
-      "title": "Madrid–Barajas Airport",
-      "body": "Madrid–Barajas Airport is bombed.",
-      "source": {
-        "name": "Wikipedia · Madrid–Barajas Airport",
-        "url": "https://en.wikipedia.org/wiki/Madrid%E2%80%93Barajas_Airport",
-        "calendarUrl": "https://en.wikipedia.org/wiki/December_30",
-        "license": {
-          "name": "CC BY-SA 4.0",
-          "url": "https://creativecommons.org/licenses/by-sa/4.0/"
-        }
-      },
-      "image": {
-        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f1/Aena_Madrid_logo.svg/500px-Aena_Madrid_logo.svg.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-        "alt": "Picture from the Wikipedia article on Madrid–Barajas Airport.",
-        "credit": "Aena",
-        "source": "https://commons.wikimedia.org/wiki/File:Aena_Madrid_logo.svg",
-        "license": "Public domain",
-        "licenseUrl": "https://commons.wikimedia.org/wiki/File:Aena_Madrid_logo.svg"
-      }
-    },
-    {
-      "id": "12-30-tokyo-metro-ginza-line",
-      "date": "12-30",
-      "dateLabel": "30 December",
-      "category": "world",
-      "categoryName": "World",
-      "year": 1927,
-      "title": "Ginza Line",
-      "body": "The Ginza Line, the first subway line in Asia, opens in Tokyo, Japan.",
-      "source": {
-        "name": "Wikipedia · Ginza Line",
-        "url": "https://en.wikipedia.org/wiki/Ginza_Line",
-        "calendarUrl": "https://en.wikipedia.org/wiki/December_30",
-        "license": {
-          "name": "CC BY-SA 4.0",
-          "url": "https://creativecommons.org/licenses/by-sa/4.0/"
-        }
-      },
-      "image": {
-        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/01/Ginza-Line-Series1031.jpg/500px-Ginza-Line-Series1031.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-        "alt": "Picture from the Wikipedia article on Ginza Line.",
-        "credit": "MaedaAkihiko",
-        "source": "https://commons.wikimedia.org/wiki/File:Ginza-Line-Series1031.jpg",
-        "license": "CC BY-SA 4.0",
-        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0"
       }
     }
   ]

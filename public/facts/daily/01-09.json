@@ -3,6 +3,33 @@
   "dateLabel": "9 January",
   "facts": [
     {
+      "id": "01-09-syberia-video-game",
+      "date": "01-09",
+      "dateLabel": "9 January",
+      "category": "culture",
+      "categoryName": "Culture",
+      "year": 2002,
+      "title": "Syberia",
+      "body": "Syberia is a graphic adventure game, developed and published by Microïds, and released for Windows on 30 May 2002, with the game later ported for PlayStation 2, Xbox, Windows Mobile, Nintendo DS, Android, OS X, PlayStation 3, Xbox 360.",
+      "source": {
+        "name": "Wikipedia · Syberia (video game)",
+        "url": "https://en.wikipedia.org/wiki/Syberia_(video_game)",
+        "calendarUrl": "https://en.wikipedia.org/wiki/January_9",
+        "license": {
+          "name": "CC BY-SA 4.0",
+          "url": "https://creativecommons.org/licenses/by-sa/4.0/"
+        }
+      },
+      "image": {
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/73/Syberia_02_-_Oscar.jpg/500px-Syberia_02_-_Oscar.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "alt": "Syberia — the video game this anniversary is about.",
+        "credit": "Anuman Interactive",
+        "source": "https://commons.wikimedia.org/wiki/File:Syberia_02_-_Oscar.jpg",
+        "license": "CC BY-SA 3.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0"
+      }
+    },
+    {
       "id": "01-09-steve-jobs",
       "date": "01-09",
       "dateLabel": "9 January",
@@ -106,33 +133,6 @@
         "alt": "Picture from the Wikipedia article on Mont-Libre Agile Learning Centre.",
         "credit": "Mprud15",
         "source": "https://commons.wikimedia.org/wiki/File:ML_wiki.jpg",
-        "license": "CC0",
-        "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/deed.en"
-      }
-    },
-    {
-      "id": "01-09-jurchen-people",
-      "date": "01-09",
-      "dateLabel": "9 January",
-      "category": "culture",
-      "categoryName": "Culture",
-      "year": 1127,
-      "title": "Jurchen people",
-      "body": "Invading Jurchen soldiers from the Jin dynasty besiege and sack Bianjing (Kaifeng), the capital of the Song dynasty of China, and abduct Emperor Qinzong of Song and others, ending the Northern Song period.",
-      "source": {
-        "name": "Wikipedia · Jurchen people",
-        "url": "https://en.wikipedia.org/wiki/Jurchen_people",
-        "calendarUrl": "https://en.wikipedia.org/wiki/January_9",
-        "license": {
-          "name": "CC BY-SA 4.0",
-          "url": "https://creativecommons.org/licenses/by-sa/4.0/"
-        }
-      },
-      "image": {
-        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/95/Jin_%28Jurchen%29_flags_%2851168762691%29.png/500px-Jin_%28Jurchen%29_flags_%2851168762691%29.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-        "alt": "Picture from the Wikipedia article on Jurchen people.",
-        "credit": "Zhenxiong Li",
-        "source": "https://commons.wikimedia.org/wiki/File:Jin_(Jurchen)_flags_(51168762691).png",
         "license": "CC0",
         "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/deed.en"
       }

@@ -3,6 +3,33 @@
   "dateLabel": "5 May",
   "facts": [
     {
+      "id": "05-05-mystery-house",
+      "date": "05-05",
+      "dateLabel": "5 May",
+      "category": "culture",
+      "categoryName": "Culture",
+      "year": 1980,
+      "title": "Mystery House",
+      "body": "Mystery House is an adventure game released by On-Line Systems on May 5, 1980. It was designed, written and illustrated by Roberta Williams, and programmed by Ken Williams for the Apple II.",
+      "source": {
+        "name": "Wikipedia · Mystery House",
+        "url": "https://en.wikipedia.org/wiki/Mystery_House",
+        "calendarUrl": "https://en.wikipedia.org/wiki/May_5",
+        "license": {
+          "name": "CC BY-SA 4.0",
+          "url": "https://creativecommons.org/licenses/by-sa/4.0/"
+        }
+      },
+      "image": {
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b7/On-Line_Systems-01-Mystery_House.jpg/500px-On-Line_Systems-01-Mystery_House.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "alt": "Mystery House — the video game this anniversary is about.",
+        "credit": "On-Line Systems",
+        "source": "https://commons.wikimedia.org/wiki/File:On-Line_Systems-01-Mystery_House.jpg",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0"
+      }
+    },
+    {
       "id": "05-05-alan-shepard",
       "date": "05-05",
       "dateLabel": "5 May",
@@ -108,33 +135,6 @@
         "source": "https://commons.wikimedia.org/wiki/File:Presidium_of_the_9th_Congress_of_the_Russian_Communist_Party_(Bolsheviks).jpg",
         "license": "Public domain",
         "licenseUrl": "https://commons.wikimedia.org/wiki/File:Presidium_of_the_9th_Congress_of_the_Russian_Communist_Party_(Bolsheviks).jpg"
-      }
-    },
-    {
-      "id": "05-05-anti-austerity-movement-in-greece",
-      "date": "05-05",
-      "dateLabel": "5 May",
-      "category": "world",
-      "categoryName": "World",
-      "year": 2010,
-      "title": "Anti-austerity movement in Greece",
-      "body": "Mass protests in Greece erupt in response to austerity measures imposed by the government as a result of the Greek government-debt crisis.",
-      "source": {
-        "name": "Wikipedia · Anti-austerity movement in Greece",
-        "url": "https://en.wikipedia.org/wiki/Anti-austerity_movement_in_Greece",
-        "calendarUrl": "https://en.wikipedia.org/wiki/May_5",
-        "license": {
-          "name": "CC BY-SA 4.0",
-          "url": "https://creativecommons.org/licenses/by-sa/4.0/"
-        }
-      },
-      "image": {
-        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/00/2010-2011_Greek_protests_collage.png/500px-2010-2011_Greek_protests_collage.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-        "alt": "Picture from the Wikipedia article on Anti-austerity movement in Greece.",
-        "credit": "Philly boy92",
-        "source": "https://commons.wikimedia.org/wiki/File:2010-2011_Greek_protests_collage.png",
-        "license": "CC BY-SA 3.0",
-        "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0"
       }
     }
   ]

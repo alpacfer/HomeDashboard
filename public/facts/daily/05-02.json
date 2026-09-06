@@ -3,6 +3,60 @@
   "dateLabel": "2 May",
   "facts": [
     {
+      "id": "05-02-spider-man-3-video-game",
+      "date": "05-02",
+      "dateLabel": "2 May",
+      "category": "culture",
+      "categoryName": "Culture",
+      "year": 2007,
+      "title": "Spider-Man 3",
+      "body": "Spider-Man 3 is a 2007 action-adventure game loosely based on the 2007 film of the same name. The game is the sequel to 2004's Spider-Man 2, itself based on the 2004 film of the same name.",
+      "source": {
+        "name": "Wikipedia · Spider-Man 3 (video game)",
+        "url": "https://en.wikipedia.org/wiki/Spider-Man_3_(video_game)",
+        "calendarUrl": "https://en.wikipedia.org/wiki/May_2",
+        "license": {
+          "name": "CC BY-SA 4.0",
+          "url": "https://creativecommons.org/licenses/by-sa/4.0/"
+        }
+      },
+      "image": {
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e8/Spider-Man_%28Spider-Man_3_videogame%29.png/500px-Spider-Man_%28Spider-Man_3_videogame%29.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "alt": "Spider-Man 3 — the video game this anniversary is about.",
+        "credit": "Wikimedia Commons",
+        "source": "https://commons.wikimedia.org/wiki/File:Spider-Man_(Spider-Man_3_videogame).png",
+        "license": "CC BY 3.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by/3.0"
+      }
+    },
+    {
+      "id": "05-02-ippolit",
+      "date": "05-02",
+      "dateLabel": "2 May",
+      "category": "tech",
+      "categoryName": "Tech",
+      "year": 2009,
+      "title": "IPPOLIT",
+      "body": "IPPOLIT is an open-source chess program released by authors using pseudonyms, Yakov Petrovich Golyadkin, Igor Igorovich Igoronov, Roberto Pescatore, Yusuf Ralf Weisskopf, Ivan Skavinsky Skavar, and Decembrists.",
+      "source": {
+        "name": "Wikipedia · IPPOLIT",
+        "url": "https://en.wikipedia.org/wiki/IPPOLIT",
+        "calendarUrl": "https://en.wikipedia.org/wiki/May_2",
+        "license": {
+          "name": "CC BY-SA 4.0",
+          "url": "https://creativecommons.org/licenses/by-sa/4.0/"
+        }
+      },
+      "image": {
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/37/IvanHoe_analyzing_a_position_with_multi-pv_enabled_using_ComradesGUI.png/500px-IvanHoe_analyzing_a_position_with_multi-pv_enabled_using_ComradesGUI.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "alt": "IPPOLIT — the software this anniversary is about.",
+        "credit": "Kingliveson",
+        "source": "https://commons.wikimedia.org/wiki/File:IvanHoe_analyzing_a_position_with_multi-pv_enabled_using_ComradesGUI.png",
+        "license": "CC BY-SA 3.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0"
+      }
+    },
+    {
       "id": "05-02-pastel",
       "date": "05-02",
       "dateLabel": "2 May",
@@ -81,60 +135,6 @@
         "source": "https://commons.wikimedia.org/wiki/File:Logo_European_Central_Bank.svg",
         "license": "Public domain",
         "licenseUrl": "https://commons.wikimedia.org/wiki/File:Logo_European_Central_Bank.svg"
-      }
-    },
-    {
-      "id": "05-02-removal-of-hungary-s-border-fence-with-austria",
-      "date": "05-02",
-      "dateLabel": "2 May",
-      "category": "world",
-      "categoryName": "World",
-      "year": 1989,
-      "title": "Removal of Hungary's border fence with Austria",
-      "body": "Hungary begins dismantling its border fence with Austria, which allows a number of East Germans to defect.",
-      "source": {
-        "name": "Wikipedia · Removal of Hungary's border fence with Austria",
-        "url": "https://en.wikipedia.org/wiki/Removal_of_Hungary%27s_border_fence_with_Austria",
-        "calendarUrl": "https://en.wikipedia.org/wiki/May_2",
-        "license": {
-          "name": "CC BY-SA 4.0",
-          "url": "https://creativecommons.org/licenses/by-sa/4.0/"
-        }
-      },
-      "image": {
-        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f2/Paneur_grenz%C3%BCbergang_130609.JPG/500px-Paneur_grenz%C3%BCbergang_130609.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-        "alt": "Picture from the Wikipedia article on Removal of Hungary's border fence with Austria.",
-        "credit": "Cuchulainn 17:15, 20",
-        "source": "https://commons.wikimedia.org/wiki/File:Paneur_grenz%C3%BCbergang_130609.JPG",
-        "license": "Public domain",
-        "licenseUrl": "https://commons.wikimedia.org/wiki/File:Paneur_grenz%C3%BCbergang_130609.JPG"
-      }
-    },
-    {
-      "id": "05-02-first-ascent",
-      "date": "05-02",
-      "dateLabel": "2 May",
-      "category": "world",
-      "categoryName": "World",
-      "year": 1964,
-      "title": "First ascent",
-      "body": "First ascent of Shishapangma, the fourteenth highest mountain in the world and the lowest of the Eight-thousanders.",
-      "source": {
-        "name": "Wikipedia · First ascent",
-        "url": "https://en.wikipedia.org/wiki/First_ascent",
-        "calendarUrl": "https://en.wikipedia.org/wiki/May_2",
-        "license": {
-          "name": "CC BY-SA 4.0",
-          "url": "https://creativecommons.org/licenses/by-sa/4.0/"
-        }
-      },
-      "image": {
-        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/0e/Spectrum514d.jpg/500px-Spectrum514d.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-        "alt": "Picture from the Wikipedia article on First ascent.",
-        "credit": "Rivergorge",
-        "source": "https://commons.wikimedia.org/wiki/File:Spectrum514d.jpg",
-        "license": "CC BY-SA 4.0",
-        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0"
       }
     }
   ]

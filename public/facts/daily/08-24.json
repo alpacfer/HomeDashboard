@@ -3,6 +3,60 @@
   "dateLabel": "24 August",
   "facts": [
     {
+      "id": "08-24-ultima-ii-the-revenge-of-the-enchantress",
+      "date": "08-24",
+      "dateLabel": "24 August",
+      "category": "culture",
+      "categoryName": "Culture",
+      "year": 1982,
+      "title": "Ultima II: The Revenge of the Enchantress",
+      "body": "The Revenge of the Enchantress, released on August 24, 1982, for the Apple II (USCO# PA-317-502), is the second role-playing video game in the Ultima series, and the second installment in Ultima's \"Age of Darkness\" trilogy.",
+      "source": {
+        "name": "Wikipedia · Ultima II: The Revenge of the Enchantress",
+        "url": "https://en.wikipedia.org/wiki/Ultima_II:_The_Revenge_of_the_Enchantress",
+        "calendarUrl": "https://en.wikipedia.org/wiki/August_24",
+        "license": {
+          "name": "CC BY-SA 4.0",
+          "url": "https://creativecommons.org/licenses/by-sa/4.0/"
+        }
+      },
+      "image": {
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/71/On-Line-Systems-Ultima2.jpg/500px-On-Line-Systems-Ultima2.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "alt": "Ultima II: The Revenge of the Enchantress — the video game this anniversary is about.",
+        "credit": "On-Line Systems",
+        "source": "https://commons.wikimedia.org/wiki/File:On-Line-Systems-Ultima2.jpg",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0"
+      }
+    },
+    {
+      "id": "08-24-windows-95",
+      "date": "08-24",
+      "dateLabel": "24 August",
+      "category": "tech",
+      "categoryName": "Tech",
+      "year": 1995,
+      "title": "Windows 95",
+      "body": "Windows 95 is a consumer-oriented operating system developed by Microsoft, released to manufacturing on July 14, 1995, and to retail on August 24, 1995.",
+      "source": {
+        "name": "Wikipedia · Windows 95",
+        "url": "https://en.wikipedia.org/wiki/Windows_95",
+        "calendarUrl": "https://en.wikipedia.org/wiki/August_24",
+        "license": {
+          "name": "CC BY-SA 4.0",
+          "url": "https://creativecommons.org/licenses/by-sa/4.0/"
+        }
+      },
+      "image": {
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d3/RELAP_Desktop_View.jpg/500px-RELAP_Desktop_View.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "alt": "Windows 95 — the operating system this anniversary is about.",
+        "credit": "Department of Energy",
+        "source": "https://commons.wikimedia.org/wiki/File:RELAP_Desktop_View.jpg",
+        "license": "Public domain",
+        "licenseUrl": "https://commons.wikimedia.org/wiki/File:RELAP_Desktop_View.jpg"
+      }
+    },
+    {
       "id": "08-24-proxima-centauri-b",
       "date": "08-24",
       "dateLabel": "24 August",
@@ -81,60 +135,6 @@
         "source": "https://commons.wikimedia.org/wiki/File:STS115_Atlantis_undock_ISS_edit2.jpg",
         "license": "Public domain",
         "licenseUrl": "https://commons.wikimedia.org/wiki/File:STS115_Atlantis_undock_ISS_edit2.jpg"
-      }
-    },
-    {
-      "id": "08-24-international-astronomical-union",
-      "date": "08-24",
-      "dateLabel": "24 August",
-      "category": "space",
-      "categoryName": "Space",
-      "year": 2006,
-      "title": "International Astronomical Union",
-      "body": "The International Astronomical Union (IAU) redefines the term \"planet\" such that Pluto is now considered a dwarf planet.",
-      "source": {
-        "name": "Wikipedia · International Astronomical Union",
-        "url": "https://en.wikipedia.org/wiki/International_Astronomical_Union",
-        "calendarUrl": "https://en.wikipedia.org/wiki/August_24",
-        "license": {
-          "name": "CC BY-SA 4.0",
-          "url": "https://creativecommons.org/licenses/by-sa/4.0/"
-        }
-      },
-      "image": {
-        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/43/IAU_logo.svg/500px-IAU_logo.svg.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-        "alt": "Picture from the Wikipedia article on International Astronomical Union.",
-        "credit": "International Astronomical Union",
-        "source": "https://commons.wikimedia.org/wiki/File:IAU_logo.svg",
-        "license": "Public domain",
-        "licenseUrl": "https://commons.wikimedia.org/wiki/File:IAU_logo.svg"
-      }
-    },
-    {
-      "id": "08-24-amelia-earhart",
-      "date": "08-24",
-      "dateLabel": "24 August",
-      "category": "world",
-      "categoryName": "World",
-      "year": 1932,
-      "title": "Amelia Earhart",
-      "body": "Amelia Earhart becomes the first woman to fly across the United States non-stop (from Los Angeles to Newark, New Jersey).",
-      "source": {
-        "name": "Wikipedia · Amelia Earhart",
-        "url": "https://en.wikipedia.org/wiki/Amelia_Earhart",
-        "calendarUrl": "https://en.wikipedia.org/wiki/August_24",
-        "license": {
-          "name": "CC BY-SA 4.0",
-          "url": "https://creativecommons.org/licenses/by-sa/4.0/"
-        }
-      },
-      "image": {
-        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/72/Amelia_Earhart_standing_under_nose_of_her_Lockheed_Model_10-E_Electra%2C_small_%28cropped%29.jpg/500px-Amelia_Earhart_standing_under_nose_of_her_Lockheed_Model_10-E_Electra%2C_small_%28cropped%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-        "alt": "Picture from the Wikipedia article on Amelia Earhart.",
-        "credit": "Underwood & Underwood",
-        "source": "https://commons.wikimedia.org/wiki/File:Amelia_Earhart_standing_under_nose_of_her_Lockheed_Model_10-E_Electra,_small_(cropped).jpg",
-        "license": "Public domain",
-        "licenseUrl": "https://commons.wikimedia.org/wiki/File:Amelia_Earhart_standing_under_nose_of_her_Lockheed_Model_10-E_Electra,_small_(cropped).jpg"
       }
     }
   ]

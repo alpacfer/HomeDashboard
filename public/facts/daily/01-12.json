@@ -3,6 +3,33 @@
   "dateLabel": "12 January",
   "facts": [
     {
+      "id": "01-12-freedos",
+      "date": "01-12",
+      "dateLabel": "12 January",
+      "category": "tech",
+      "categoryName": "Tech",
+      "year": 1998,
+      "title": "FreeDOS",
+      "body": "FreeDOS (formerly PD-DOS) is a free software operating system for IBM PC compatible computers. It intends to provide a complete MS-DOS-compatible environment for running legacy software and supporting embedded systems.",
+      "source": {
+        "name": "Wikipedia · FreeDOS",
+        "url": "https://en.wikipedia.org/wiki/FreeDOS",
+        "calendarUrl": "https://en.wikipedia.org/wiki/January_12",
+        "license": {
+          "name": "CC BY-SA 4.0",
+          "url": "https://creativecommons.org/licenses/by-sa/4.0/"
+        }
+      },
+      "image": {
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/29/FreeDOS-1.0-LiveCD-Boot.png/500px-FreeDOS-1.0-LiveCD-Boot.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "alt": "FreeDOS — the operating system this anniversary is about.",
+        "credit": "Y2kbug",
+        "source": "https://commons.wikimedia.org/wiki/File:FreeDOS-1.0-LiveCD-Boot.png",
+        "license": "GPL",
+        "licenseUrl": "https://www.gnu.org/licenses/gpl.html"
+      }
+    },
+    {
       "id": "01-12-deep-impact-spacecraft",
       "date": "01-12",
       "dateLabel": "12 January",
@@ -108,33 +135,6 @@
         "source": "https://commons.wikimedia.org/wiki/File:The_development_and_the_ways_to_rejuvenate_cells_-_en.svg",
         "license": "CC BY-SA 3.0",
         "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0"
-      }
-    },
-    {
-      "id": "01-12-space-shuttle-atlantis",
-      "date": "01-12",
-      "dateLabel": "12 January",
-      "category": "space",
-      "categoryName": "Space",
-      "year": 1997,
-      "title": "Space Shuttle Atlantis",
-      "body": "Atlantis launches from the Kennedy Space Center on mission STS-81 to the Russian space station Mir, carrying astronaut Jerry M. Linenger for a four-month stay on board the station, replacing astronaut John E. Blaha.",
-      "source": {
-        "name": "Wikipedia · Space Shuttle Atlantis",
-        "url": "https://en.wikipedia.org/wiki/Space_Shuttle_Atlantis",
-        "calendarUrl": "https://en.wikipedia.org/wiki/January_12",
-        "license": {
-          "name": "CC BY-SA 4.0",
-          "url": "https://creativecommons.org/licenses/by-sa/4.0/"
-        }
-      },
-      "image": {
-        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/0e/STS132_Atlantis_undocking2_%28cropped%29.jpg/500px-STS132_Atlantis_undocking2_%28cropped%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-        "alt": "Picture from the Wikipedia article on Space Shuttle Atlantis.",
-        "credit": "NASA",
-        "source": "https://commons.wikimedia.org/wiki/File:STS132_Atlantis_undocking2_(cropped).jpg",
-        "license": "Public domain",
-        "licenseUrl": "https://commons.wikimedia.org/wiki/File:STS132_Atlantis_undocking2_(cropped).jpg"
       }
     }
   ]

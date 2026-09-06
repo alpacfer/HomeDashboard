@@ -3,6 +3,33 @@
   "dateLabel": "28 June",
   "facts": [
     {
+      "id": "06-28-pok-mon-pinball",
+      "date": "06-28",
+      "dateLabel": "28 June",
+      "category": "culture",
+      "categoryName": "Culture",
+      "year": 1999,
+      "title": "Pokémon Pinball",
+      "body": "Pokémon Pinball is a pinball-based Pokémon spin-off video game for the Game Boy Color. It was released in Japan on April 14, 1999, and in North America on June 29, 1999.",
+      "source": {
+        "name": "Wikipedia · Pokémon Pinball",
+        "url": "https://en.wikipedia.org/wiki/Pok%C3%A9mon_Pinball",
+        "calendarUrl": "https://en.wikipedia.org/wiki/June_28",
+        "license": {
+          "name": "CC BY-SA 4.0",
+          "url": "https://creativecommons.org/licenses/by-sa/4.0/"
+        }
+      },
+      "image": {
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/19/Rumble_pack.jpg/500px-Rumble_pack.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "alt": "Pokémon Pinball — the video game this anniversary is about.",
+        "credit": "Mboverload~commonswiki",
+        "source": "https://commons.wikimedia.org/wiki/File:Rumble_pack.jpg",
+        "license": "Public domain",
+        "licenseUrl": "https://commons.wikimedia.org/wiki/File:Rumble_pack.jpg"
+      }
+    },
+    {
       "id": "06-28-nakhla-meteorite",
       "date": "06-28",
       "dateLabel": "28 June",
@@ -106,33 +133,6 @@
         "alt": "Picture from the Wikipedia article on Northern Ireland Assembly.",
         "credit": "Wikimedia Commons",
         "source": "https://commons.wikimedia.org/wiki/File:StormontGeneral.jpg",
-        "license": "CC BY 2.0",
-        "licenseUrl": "https://creativecommons.org/licenses/by/2.0"
-      }
-    },
-    {
-      "id": "06-28-mike-tyson",
-      "date": "06-28",
-      "dateLabel": "28 June",
-      "category": "world",
-      "categoryName": "World",
-      "year": 1997,
-      "title": "Mike Tyson",
-      "body": "Mike Tyson is disqualified in the third round for biting a piece off Evander Holyfield's ear.",
-      "source": {
-        "name": "Wikipedia · Mike Tyson",
-        "url": "https://en.wikipedia.org/wiki/Mike_Tyson",
-        "calendarUrl": "https://en.wikipedia.org/wiki/June_28",
-        "license": {
-          "name": "CC BY-SA 4.0",
-          "url": "https://creativecommons.org/licenses/by-sa/4.0/"
-        }
-      },
-      "image": {
-        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/ee/Mike_Tyson_Photo_Op_GalaxyCon_Austin_2023.jpg/500px-Mike_Tyson_Photo_Op_GalaxyCon_Austin_2023.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-        "alt": "Picture from the Wikipedia article on Mike Tyson.",
-        "credit": "Super Festivals",
-        "source": "https://commons.wikimedia.org/wiki/File:Mike_Tyson_Photo_Op_GalaxyCon_Austin_2023.jpg",
         "license": "CC BY 2.0",
         "licenseUrl": "https://creativecommons.org/licenses/by/2.0"
       }

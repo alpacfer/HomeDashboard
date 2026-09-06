@@ -3,6 +3,33 @@
   "dateLabel": "17 September",
   "facts": [
     {
+      "id": "09-17-crisis-zone",
+      "date": "09-17",
+      "dateLabel": "17 September",
+      "category": "culture",
+      "categoryName": "Culture",
+      "year": 2004,
+      "title": "Crisis Zone",
+      "body": "Crisis Zone is a 1999 light-gun shooter video game developed and published by Namco for arcades. It is a spin-off of the Time Crisis series.",
+      "source": {
+        "name": "Wikipedia · Crisis Zone",
+        "url": "https://en.wikipedia.org/wiki/Crisis_Zone",
+        "calendarUrl": "https://en.wikipedia.org/wiki/September_17",
+        "license": {
+          "name": "CC BY-SA 4.0",
+          "url": "https://creativecommons.org/licenses/by-sa/4.0/"
+        }
+      },
+      "image": {
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/1a/Crisiszone.JPG/500px-Crisiszone.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "alt": "Crisis Zone — the video game this anniversary is about.",
+        "credit": "Medalizm",
+        "source": "https://commons.wikimedia.org/wiki/File:Crisiszone.JPG",
+        "license": "Public domain",
+        "licenseUrl": "https://commons.wikimedia.org/wiki/File:Crisiszone.JPG"
+      }
+    },
+    {
       "id": "09-17-linux",
       "date": "09-17",
       "dateLabel": "17 September",
@@ -108,33 +135,6 @@
         "source": "https://commons.wikimedia.org/wiki/File:Pittsburgh-pennsylvania-mellon-arena-2007.jpg",
         "license": "Public domain",
         "licenseUrl": "https://commons.wikimedia.org/wiki/File:Pittsburgh-pennsylvania-mellon-arena-2007.jpg"
-      }
-    },
-    {
-      "id": "09-17-fourpeaked-mountain",
-      "date": "09-17",
-      "dateLabel": "17 September",
-      "category": "world",
-      "categoryName": "World",
-      "year": 2006,
-      "title": "Fourpeaked Mountain",
-      "body": "Fourpeaked Mountain in Alaska erupts, marking the first eruption for the volcano in at least 10,000 years.",
-      "source": {
-        "name": "Wikipedia · Fourpeaked Mountain",
-        "url": "https://en.wikipedia.org/wiki/Fourpeaked_Mountain",
-        "calendarUrl": "https://en.wikipedia.org/wiki/September_17",
-        "license": {
-          "name": "CC BY-SA 4.0",
-          "url": "https://creativecommons.org/licenses/by-sa/4.0/"
-        }
-      },
-      "image": {
-        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/7e/Fourpeaked-fumaroles-cyrus-read1.JPG/500px-Fourpeaked-fumaroles-cyrus-read1.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-        "alt": "Picture from the Wikipedia article on Fourpeaked Mountain.",
-        "credit": "Cyrus Read, USGS",
-        "source": "https://commons.wikimedia.org/wiki/File:Fourpeaked-fumaroles-cyrus-read1.JPG",
-        "license": "Public domain",
-        "licenseUrl": "https://commons.wikimedia.org/wiki/File:Fourpeaked-fumaroles-cyrus-read1.JPG"
       }
     }
   ]

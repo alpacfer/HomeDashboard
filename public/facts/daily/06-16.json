@@ -3,6 +3,33 @@
   "dateLabel": "16 June",
   "facts": [
     {
+      "id": "06-16-astronomy-picture-of-the-day",
+      "date": "06-16",
+      "dateLabel": "16 June",
+      "category": "tech",
+      "categoryName": "Tech",
+      "year": 1995,
+      "title": "Astronomy Picture of the Day",
+      "body": "Astronomy Picture of the Day (APOD) is a website provided by NASA and Michigan Technological University (MTU). Each day it features a different image of the universe accompanied by an explanation written by a professional astronomer.",
+      "source": {
+        "name": "Wikipedia · Astronomy Picture of the Day",
+        "url": "https://en.wikipedia.org/wiki/Astronomy_Picture_of_the_Day",
+        "calendarUrl": "https://en.wikipedia.org/wiki/June_16",
+        "license": {
+          "name": "CC BY-SA 4.0",
+          "url": "https://creativecommons.org/licenses/by-sa/4.0/"
+        }
+      },
+      "image": {
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/21/APOD161231-InfraredTrifid.png/500px-APOD161231-InfraredTrifid.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "alt": "Astronomy Picture of the Day — the website this anniversary is about.",
+        "credit": "J. Rho, JPL-Caltech, NASA",
+        "source": "https://commons.wikimedia.org/wiki/File:APOD161231-InfraredTrifid.png",
+        "license": "Public domain",
+        "licenseUrl": "https://commons.wikimedia.org/wiki/File:APOD161231-InfraredTrifid.png"
+      }
+    },
+    {
       "id": "06-16-vostok-6",
       "date": "06-16",
       "dateLabel": "16 June",
@@ -81,33 +108,6 @@
         "source": "https://commons.wikimedia.org/wiki/File:18-03-12_ShanghaiDisney_013.jpg",
         "license": "CC BY 2.0",
         "licenseUrl": "https://creativecommons.org/licenses/by/2.0"
-      }
-    },
-    {
-      "id": "06-16-oracle-corporation",
-      "date": "06-16",
-      "dateLabel": "16 June",
-      "category": "tech",
-      "categoryName": "Tech",
-      "year": 1977,
-      "title": "Oracle Corporation",
-      "body": "Oracle Corporation is incorporated in Redwood Shores, California, as Software Development Laboratories (SDL), by Larry Ellison, Bob Miner and Ed Oates.",
-      "source": {
-        "name": "Wikipedia · Oracle Corporation",
-        "url": "https://en.wikipedia.org/wiki/Oracle_Corporation",
-        "calendarUrl": "https://en.wikipedia.org/wiki/June_16",
-        "license": {
-          "name": "CC BY-SA 4.0",
-          "url": "https://creativecommons.org/licenses/by-sa/4.0/"
-        }
-      },
-      "image": {
-        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d1/Oracle_Campus_in_Austin_2018.jpg/500px-Oracle_Campus_in_Austin_2018.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-        "alt": "Picture from the Wikipedia article on Oracle Corporation.",
-        "credit": "DronePhotographer",
-        "source": "https://commons.wikimedia.org/wiki/File:Oracle_Campus_in_Austin_2018.jpg",
-        "license": "CC0",
-        "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/deed.en"
       }
     },
     {

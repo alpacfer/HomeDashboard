@@ -3,6 +3,33 @@
   "dateLabel": "1 March",
   "facts": [
     {
+      "id": "03-01-doom-1993-video-game",
+      "date": "03-01",
+      "dateLabel": "1 March",
+      "category": "culture",
+      "categoryName": "Culture",
+      "year": 1996,
+      "title": "Q189784",
+      "body": "Doom is a 1993 first-person shooter game developed and published by id Software for MS-DOS. It is the first installment in the Doom franchise.",
+      "source": {
+        "name": "Wikipedia · Doom (1993 video game)",
+        "url": "https://en.wikipedia.org/wiki/Doom_(1993_video_game)",
+        "calendarUrl": "https://en.wikipedia.org/wiki/March_1",
+        "license": {
+          "name": "CC BY-SA 4.0",
+          "url": "https://creativecommons.org/licenses/by-sa/4.0/"
+        }
+      },
+      "image": {
+        "src": "https://upload.wikimedia.org/wikipedia/commons/b/b1/Doom_classic_box_art.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+        "alt": "Q189784 — the video game this anniversary is about.",
+        "credit": "Xbox México",
+        "source": "https://commons.wikimedia.org/wiki/File:Doom_classic_box_art.png",
+        "license": "CC BY 3.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by/3.0"
+      }
+    },
+    {
       "id": "03-01-english-wikipedia",
       "date": "03-01",
       "dateLabel": "1 March",
@@ -108,33 +135,6 @@
         "source": "https://commons.wikimedia.org/wiki/File:Destroyed_tank_1991_uprising_Iraq.jpg",
         "license": "Public domain",
         "licenseUrl": "https://commons.wikimedia.org/wiki/File:Destroyed_tank_1991_uprising_Iraq.jpg"
-      }
-    },
-    {
-      "id": "03-01-united-states-customs-service",
-      "date": "03-01",
-      "dateLabel": "1 March",
-      "category": "world",
-      "categoryName": "World",
-      "year": 2003,
-      "title": "United States Customs Service",
-      "body": "Management of the United States Customs Service and the United States Secret Service moves to the United States Department of Homeland Security.",
-      "source": {
-        "name": "Wikipedia · United States Customs Service",
-        "url": "https://en.wikipedia.org/wiki/United_States_Customs_Service",
-        "calendarUrl": "https://en.wikipedia.org/wiki/March_1",
-        "license": {
-          "name": "CC BY-SA 4.0",
-          "url": "https://creativecommons.org/licenses/by-sa/4.0/"
-        }
-      },
-      "image": {
-        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/2c/Seal_of_the_U.S._Customs_Service.svg/500px-Seal_of_the_U.S._Customs_Service.svg.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-        "alt": "Picture from the Wikipedia article on United States Customs Service.",
-        "credit": "U.S. Government",
-        "source": "https://commons.wikimedia.org/wiki/File:Seal_of_the_U.S._Customs_Service.svg",
-        "license": "Public domain",
-        "licenseUrl": "https://commons.wikimedia.org/wiki/File:Seal_of_the_U.S._Customs_Service.svg"
       }
     }
   ]

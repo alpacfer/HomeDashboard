@@ -3,6 +3,60 @@
   "dateLabel": "26 January",
   "facts": [
     {
+      "id": "01-26-ducktales-video-game",
+      "date": "01-26",
+      "dateLabel": "26 January",
+      "category": "culture",
+      "categoryName": "Culture",
+      "year": 1990,
+      "title": "DuckTales",
+      "body": "DuckTales is a 1989 platform game developed and published by Capcom and based on the Disney animated TV series of the same name.",
+      "source": {
+        "name": "Wikipedia · DuckTales (video game)",
+        "url": "https://en.wikipedia.org/wiki/DuckTales_(video_game)",
+        "calendarUrl": "https://en.wikipedia.org/wiki/January_26",
+        "license": {
+          "name": "CC BY-SA 4.0",
+          "url": "https://creativecommons.org/licenses/by-sa/4.0/"
+        }
+      },
+      "image": {
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/7f/Ducktales_cartridge.jpg/500px-Ducktales_cartridge.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "alt": "DuckTales — the video game this anniversary is about.",
+        "credit": "Chris Waits",
+        "source": "https://commons.wikimedia.org/wiki/File:Ducktales_cartridge.jpg",
+        "license": "CC BY 2.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by/2.0"
+      }
+    },
+    {
+      "id": "01-26-english-training-have-fun-improving-your-skills",
+      "date": "01-26",
+      "dateLabel": "26 January",
+      "category": "culture",
+      "categoryName": "Culture",
+      "year": 2006,
+      "title": "English Training: Have Fun Improving Your Skills!",
+      "body": "Nintendo Software Planning & Development Division, commonly abbreviated as Nintendo SPD, was a Japanese research, planning and development division owned by Nintendo and housed inside the Nintendo Development Center in Kyoto, Japan.",
+      "source": {
+        "name": "Wikipedia · Nintendo Software Planning & Development",
+        "url": "https://en.wikipedia.org/wiki/Nintendo_Software_Planning_%26_Development",
+        "calendarUrl": "https://en.wikipedia.org/wiki/January_26",
+        "license": {
+          "name": "CC BY-SA 4.0",
+          "url": "https://creativecommons.org/licenses/by-sa/4.0/"
+        }
+      },
+      "image": {
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/bb/NDSL-English_Training-Korean_Version.png/500px-NDSL-English_Training-Korean_Version.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "alt": "English Training: Have Fun Improving Your Skills! — the video game this anniversary is about.",
+        "credit": "Wikimedia Commons",
+        "source": "https://commons.wikimedia.org/wiki/File:NDSL-English_Training-Korean_Version.png",
+        "license": "CC BY 3.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by/3.0"
+      }
+    },
+    {
       "id": "01-26-ranger-3",
       "date": "01-26",
       "dateLabel": "26 January",
@@ -81,60 +135,6 @@
         "source": "https://commons.wikimedia.org/wiki/File:Porkkalanniemi_coast.JPG",
         "license": "Public domain",
         "licenseUrl": "https://commons.wikimedia.org/wiki/File:Porkkalanniemi_coast.JPG"
-      }
-    },
-    {
-      "id": "01-26-audie-murphy",
-      "date": "01-26",
-      "dateLabel": "26 January",
-      "category": "sport",
-      "categoryName": "Sport",
-      "year": 1945,
-      "title": "Audie Murphy",
-      "body": "Audie Murphy displays valor and bravery in action for which he will later be awarded the Medal of Honor.",
-      "source": {
-        "name": "Wikipedia · Audie Murphy",
-        "url": "https://en.wikipedia.org/wiki/Audie_Murphy",
-        "calendarUrl": "https://en.wikipedia.org/wiki/January_26",
-        "license": {
-          "name": "CC BY-SA 4.0",
-          "url": "https://creativecommons.org/licenses/by-sa/4.0/"
-        }
-      },
-      "image": {
-        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e8/Audie_Murphy.jpg/500px-Audie_Murphy.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-        "alt": "Picture from the Wikipedia article on Audie Murphy.",
-        "credit": "U.S. Army (",
-        "source": "https://commons.wikimedia.org/wiki/File:Audie_Murphy.jpg",
-        "license": "Public domain",
-        "licenseUrl": "https://commons.wikimedia.org/wiki/File:Audie_Murphy.jpg"
-      }
-    },
-    {
-      "id": "01-26-hale-telescope",
-      "date": "01-26",
-      "dateLabel": "26 January",
-      "category": "space",
-      "categoryName": "Space",
-      "year": 1949,
-      "title": "Hale Telescope",
-      "body": "The Hale Telescope at Palomar Observatory sees first light under the direction of Edwin Hubble, becoming the largest aperture optical telescope (until BTA-6 is built in 1976).",
-      "source": {
-        "name": "Wikipedia · Hale Telescope",
-        "url": "https://en.wikipedia.org/wiki/Hale_Telescope",
-        "calendarUrl": "https://en.wikipedia.org/wiki/January_26",
-        "license": {
-          "name": "CC BY-SA 4.0",
-          "url": "https://creativecommons.org/licenses/by-sa/4.0/"
-        }
-      },
-      "image": {
-        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/87/Palomar_Observatory_2012_01.jpg/500px-Palomar_Observatory_2012_01.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-        "alt": "Picture from the Wikipedia article on Hale Telescope.",
-        "credit": "Mike Peel",
-        "source": "https://commons.wikimedia.org/wiki/File:Palomar_Observatory_2012_01.jpg",
-        "license": "CC BY-SA 4.0",
-        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0"
       }
     }
   ]

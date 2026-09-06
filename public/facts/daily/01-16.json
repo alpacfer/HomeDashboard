@@ -3,6 +3,60 @@
   "dateLabel": "16 January",
   "facts": [
     {
+      "id": "01-16-tux-racer",
+      "date": "01-16",
+      "dateLabel": "16 January",
+      "category": "culture",
+      "categoryName": "Culture",
+      "year": 2002,
+      "title": "Tux Racer",
+      "body": "Tux Racer is a 2000 open-source winter sports racing video game starring the Linux mascot, Tux the penguin. It was originally developed by Jasmin Patry as a computer graphics project at the University of Waterloo.",
+      "source": {
+        "name": "Wikipedia · Tux Racer",
+        "url": "https://en.wikipedia.org/wiki/Tux_Racer",
+        "calendarUrl": "https://en.wikipedia.org/wiki/January_16",
+        "license": {
+          "name": "CC BY-SA 4.0",
+          "url": "https://creativecommons.org/licenses/by-sa/4.0/"
+        }
+      },
+      "image": {
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a5/TuxRacerScreenshot.jpg/500px-TuxRacerScreenshot.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "alt": "Tux Racer — the video game this anniversary is about.",
+        "credit": "Wikimedia Commons",
+        "source": "https://commons.wikimedia.org/wiki/File:TuxRacerScreenshot.jpg",
+        "license": "GPL",
+        "licenseUrl": "https://www.gnu.org/licenses/gpl.html"
+      }
+    },
+    {
+      "id": "01-16-hyperrogue",
+      "date": "01-16",
+      "dateLabel": "16 January",
+      "category": "culture",
+      "categoryName": "Culture",
+      "year": 2015,
+      "title": "HyperRogue",
+      "body": "HyperRogue is a free and open-source independent video game developed by Zeno Rogue. It is a roguelike inspired by the puzzle game Deadly Rooms of Death and the art of M. C. Escher, taking place in the hyperbolic plane.",
+      "source": {
+        "name": "Wikipedia · HyperRogue",
+        "url": "https://en.wikipedia.org/wiki/HyperRogue",
+        "calendarUrl": "https://en.wikipedia.org/wiki/January_16",
+        "license": {
+          "name": "CC BY-SA 4.0",
+          "url": "https://creativecommons.org/licenses/by-sa/4.0/"
+        }
+      },
+      "image": {
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a3/HyperRogue_IcyLand.png/500px-HyperRogue_IcyLand.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "alt": "HyperRogue — the video game this anniversary is about.",
+        "credit": "LottieRatWorld",
+        "source": "https://commons.wikimedia.org/wiki/File:HyperRogue_IcyLand.png",
+        "license": "GPL",
+        "licenseUrl": "https://www.gnu.org/licenses/gpl.html"
+      }
+    },
+    {
       "id": "01-16-czechs",
       "date": "01-16",
       "dateLabel": "16 January",
@@ -81,60 +135,6 @@
         "source": "https://commons.wikimedia.org/wiki/File:Space_Shuttle_Columbia_lands_following_STS-62_on_18_March_1994._(cropped).jpg",
         "license": "Public domain",
         "licenseUrl": "https://commons.wikimedia.org/wiki/File:Space_Shuttle_Columbia_lands_following_STS-62_on_18_March_1994._(cropped).jpg"
-      }
-    },
-    {
-      "id": "01-16-ellen-johnson-sirleaf",
-      "date": "01-16",
-      "dateLabel": "16 January",
-      "category": "world",
-      "categoryName": "World",
-      "year": 2006,
-      "title": "Ellen Johnson Sirleaf",
-      "body": "Ellen Johnson Sirleaf is sworn in as Liberia's new president. She becomes Africa's first female elected head of state.",
-      "source": {
-        "name": "Wikipedia · Ellen Johnson Sirleaf",
-        "url": "https://en.wikipedia.org/wiki/Ellen_Johnson_Sirleaf",
-        "calendarUrl": "https://en.wikipedia.org/wiki/January_16",
-        "license": {
-          "name": "CC BY-SA 4.0",
-          "url": "https://creativecommons.org/licenses/by-sa/4.0/"
-        }
-      },
-      "image": {
-        "src": "https://upload.wikimedia.org/wikipedia/commons/a/ad/Ellen_Johnson-Sirleaf_%282022%29_%28cropped%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
-        "alt": "Picture from the Wikipedia article on Ellen Johnson Sirleaf.",
-        "credit": "PMO Barbados",
-        "source": "https://commons.wikimedia.org/wiki/File:Ellen_Johnson-Sirleaf_(2022)_(cropped).jpg",
-        "license": "Public domain",
-        "licenseUrl": "https://commons.wikimedia.org/wiki/File:Ellen_Johnson-Sirleaf_(2022)_(cropped).jpg"
-      }
-    },
-    {
-      "id": "01-16-movement-for-a-democratic-society",
-      "date": "01-16",
-      "dateLabel": "16 January",
-      "category": "world",
-      "categoryName": "World",
-      "year": 2011,
-      "title": "Movement for a Democratic Society",
-      "body": "The Movement for a Democratic Society (TEV-DEM) is established with the stated goal of re-organizing Syria along the lines of democratic confederalism.",
-      "source": {
-        "name": "Wikipedia · Movement for a Democratic Society",
-        "url": "https://en.wikipedia.org/wiki/Movement_for_a_Democratic_Society",
-        "calendarUrl": "https://en.wikipedia.org/wiki/January_16",
-        "license": {
-          "name": "CC BY-SA 4.0",
-          "url": "https://creativecommons.org/licenses/by-sa/4.0/"
-        }
-      },
-      "image": {
-        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/0d/Flag_of_Rojava.svg/500px-Flag_of_Rojava.svg.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-        "alt": "Picture from the Wikipedia article on Movement for a Democratic Society.",
-        "credit": "TEV-DEM",
-        "source": "https://commons.wikimedia.org/wiki/File:Flag_of_Rojava.svg",
-        "license": "Public domain",
-        "licenseUrl": "https://commons.wikimedia.org/wiki/File:Flag_of_Rojava.svg"
       }
     }
   ]

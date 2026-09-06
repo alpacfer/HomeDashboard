@@ -3,6 +3,60 @@
   "dateLabel": "8 May",
   "facts": [
     {
+      "id": "05-08-wii-fit",
+      "date": "05-08",
+      "dateLabel": "8 May",
+      "category": "culture",
+      "categoryName": "Culture",
+      "year": 2008,
+      "title": "Wii Fit",
+      "body": "Wii Fit is a 2007 exergaming video game developed and published by Nintendo for the Wii. It features a variety of yoga, strength training, aerobics, and balance mini-games for use with the Wii Balance Board peripheral.",
+      "source": {
+        "name": "Wikipedia · Wii Fit",
+        "url": "https://en.wikipedia.org/wiki/Wii_Fit",
+        "calendarUrl": "https://en.wikipedia.org/wiki/May_8",
+        "license": {
+          "name": "CC BY-SA 4.0",
+          "url": "https://creativecommons.org/licenses/by-sa/4.0/"
+        }
+      },
+      "image": {
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b5/Wiifit.jpg/500px-Wiifit.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "alt": "Wii Fit — the video game this anniversary is about.",
+        "credit": "JayKeaton",
+        "source": "https://commons.wikimedia.org/wiki/File:Wiifit.jpg",
+        "license": "CC BY-SA 3.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0"
+      }
+    },
+    {
+      "id": "05-08-tineye",
+      "date": "05-08",
+      "dateLabel": "8 May",
+      "category": "tech",
+      "categoryName": "Tech",
+      "year": 2008,
+      "title": "TinEye",
+      "body": ", a company based in Toronto, Ontario, Canada. It was the first image search engine on the web to use image identification technology rather than keywords, metadata or watermarks.",
+      "source": {
+        "name": "Wikipedia · TinEye",
+        "url": "https://en.wikipedia.org/wiki/TinEye",
+        "calendarUrl": "https://en.wikipedia.org/wiki/May_8",
+        "license": {
+          "name": "CC BY-SA 4.0",
+          "url": "https://creativecommons.org/licenses/by-sa/4.0/"
+        }
+      },
+      "image": {
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d6/Tineye_HQ%2C_at_223_Queen_Street_East%2C_Toronto_%2852030766532%29.jpg/500px-Tineye_HQ%2C_at_223_Queen_Street_East%2C_Toronto_%2852030766532%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "alt": "TinEye — the search engine this anniversary is about.",
+        "credit": "booledozer",
+        "source": "https://commons.wikimedia.org/wiki/File:Tineye_HQ,_at_223_Queen_Street_East,_Toronto_(52030766532).jpg",
+        "license": "CC0",
+        "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/deed.en"
+      }
+    },
+    {
       "id": "05-08-tollund-man",
       "date": "05-08",
       "dateLabel": "8 May",
@@ -57,33 +111,6 @@
       }
     },
     {
-      "id": "05-08-the-beatles",
-      "date": "05-08",
-      "dateLabel": "8 May",
-      "category": "culture",
-      "categoryName": "Culture",
-      "year": 1970,
-      "title": "The Beatles",
-      "body": "The Beatles release their 12th and final studio album Let It Be.",
-      "source": {
-        "name": "Wikipedia · The Beatles",
-        "url": "https://en.wikipedia.org/wiki/The_Beatles",
-        "calendarUrl": "https://en.wikipedia.org/wiki/May_8",
-        "license": {
-          "name": "CC BY-SA 4.0",
-          "url": "https://creativecommons.org/licenses/by-sa/4.0/"
-        }
-      },
-      "image": {
-        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/42/The_Beatles_1963_Dezo_Hoffman_Capitol_Records_press_photo_2.jpg/500px-The_Beatles_1963_Dezo_Hoffman_Capitol_Records_press_photo_2.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-        "alt": "Picture from the Wikipedia article on The Beatles.",
-        "credit": "Dezo Hoffmann",
-        "source": "https://commons.wikimedia.org/wiki/File:The_Beatles_1963_Dezo_Hoffman_Capitol_Records_press_photo_2.jpg",
-        "license": "Public domain",
-        "licenseUrl": "https://commons.wikimedia.org/wiki/File:The_Beatles_1963_Dezo_Hoffman_Capitol_Records_press_photo_2.jpg"
-      }
-    },
-    {
       "id": "05-08-1984-summer-olympics-boycott",
       "date": "05-08",
       "dateLabel": "8 May",
@@ -106,33 +133,6 @@
         "alt": "Picture from the Wikipedia article on 1984 Summer Olympics boycott.",
         "credit": "Sannita",
         "source": "https://commons.wikimedia.org/wiki/File:1984_Olympic_Games_boycott.svg",
-        "license": "CC BY-SA 3.0",
-        "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0"
-      }
-    },
-    {
-      "id": "05-08-mount-everest",
-      "date": "05-08",
-      "dateLabel": "8 May",
-      "category": "science",
-      "categoryName": "Science",
-      "year": 1978,
-      "title": "Mount Everest",
-      "body": "The first ascent of Mount Everest without supplemental oxygen, by Reinhold Messner and Peter Habeler.",
-      "source": {
-        "name": "Wikipedia · Mount Everest",
-        "url": "https://en.wikipedia.org/wiki/Mount_Everest",
-        "calendarUrl": "https://en.wikipedia.org/wiki/May_8",
-        "license": {
-          "name": "CC BY-SA 4.0",
-          "url": "https://creativecommons.org/licenses/by-sa/4.0/"
-        }
-      },
-      "image": {
-        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/15/Mt._Everest_from_Gokyo_Ri_November_5%2C_2012.jpg/500px-Mt._Everest_from_Gokyo_Ri_November_5%2C_2012.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-        "alt": "Picture from the Wikipedia article on Mount Everest.",
-        "credit": "Rdevany",
-        "source": "https://commons.wikimedia.org/wiki/File:Mt._Everest_from_Gokyo_Ri_November_5,_2012.jpg",
         "license": "CC BY-SA 3.0",
         "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0"
       }

@@ -3,6 +3,33 @@
   "dateLabel": "12 February",
   "facts": [
     {
+      "id": "02-12-windows-10-mobile",
+      "date": "02-12",
+      "dateLabel": "12 February",
+      "category": "tech",
+      "categoryName": "Tech",
+      "year": 2015,
+      "title": "Windows 10 Mobile",
+      "body": "1. First released in 2015, it was marketed by Microsoft as being an edition of its PC counterpart, Windows 10.",
+      "source": {
+        "name": "Wikipedia · Windows 10 Mobile",
+        "url": "https://en.wikipedia.org/wiki/Windows_10_Mobile",
+        "calendarUrl": "https://en.wikipedia.org/wiki/February_12",
+        "license": {
+          "name": "CC BY-SA 4.0",
+          "url": "https://creativecommons.org/licenses/by-sa/4.0/"
+        }
+      },
+      "image": {
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/54/Lumia830windows10m.JPG/500px-Lumia830windows10m.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "alt": "Windows 10 Mobile — the operating system this anniversary is about.",
+        "credit": "Munzimus Octavius",
+        "source": "https://commons.wikimedia.org/wiki/File:Lumia830windows10m.JPG",
+        "license": "CC BY-SA 3.0 de",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0/de/deed.en"
+      }
+    },
+    {
       "id": "02-12-venera-1",
       "date": "02-12",
       "dateLabel": "12 February",
@@ -108,33 +135,6 @@
         "source": "https://commons.wikimedia.org/wiki/File:Carmen_Lawrence_1990_(cropped).png",
         "license": "CC BY-SA 2.0",
         "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0"
-      }
-    },
-    {
-      "id": "02-12-near-shoemaker",
-      "date": "02-12",
-      "dateLabel": "12 February",
-      "category": "space",
-      "categoryName": "Space",
-      "year": 2001,
-      "title": "NEAR Shoemaker",
-      "body": "NEAR Shoemaker spacecraft touches down in the \"saddle\" region of 433 Eros, becoming the first spacecraft to land on an asteroid.",
-      "source": {
-        "name": "Wikipedia · NEAR Shoemaker",
-        "url": "https://en.wikipedia.org/wiki/NEAR_Shoemaker",
-        "calendarUrl": "https://en.wikipedia.org/wiki/February_12",
-        "license": {
-          "name": "CC BY-SA 4.0",
-          "url": "https://creativecommons.org/licenses/by-sa/4.0/"
-        }
-      },
-      "image": {
-        "src": "https://upload.wikimedia.org/wikipedia/commons/c/cb/NEAR_Shoemaker_spacecraft_model.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
-        "alt": "Picture from the Wikipedia article on NEAR Shoemaker.",
-        "credit": "NASA",
-        "source": "https://commons.wikimedia.org/wiki/File:NEAR_Shoemaker_spacecraft_model.png",
-        "license": "Public domain",
-        "licenseUrl": "https://commons.wikimedia.org/wiki/File:NEAR_Shoemaker_spacecraft_model.png"
       }
     }
   ]

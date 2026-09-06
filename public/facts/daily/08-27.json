@@ -3,6 +3,33 @@
   "dateLabel": "27 August",
   "facts": [
     {
+      "id": "08-27-sherlock-holmes-the-case-of-the-silver-earring",
+      "date": "08-27",
+      "dateLabel": "27 August",
+      "category": "culture",
+      "categoryName": "Culture",
+      "year": 2004,
+      "title": "Sherlock Holmes: The Case of the Silver Earring",
+      "body": "The Case of the Silver Earring (known in North America as Secret of the Silver Earring and as Sherlock Holmes: The Silver Earring) is a video game developed by Frogwares and published in 2004 for Windows by Digital Jesters in Europe and.",
+      "source": {
+        "name": "Wikipedia · Sherlock Holmes: The Case of the Silver Earring",
+        "url": "https://en.wikipedia.org/wiki/Sherlock_Holmes:_The_Case_of_the_Silver_Earring",
+        "calendarUrl": "https://en.wikipedia.org/wiki/August_27",
+        "license": {
+          "name": "CC BY-SA 4.0",
+          "url": "https://creativecommons.org/licenses/by-sa/4.0/"
+        }
+      },
+      "image": {
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/1f/SH2_-_Holmes_et_Watson_interloqu%C3%A9s.png/500px-SH2_-_Holmes_et_Watson_interloqu%C3%A9s.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "alt": "Sherlock Holmes: The Case of the Silver Earring — the video game this anniversary is about.",
+        "credit": "Frogwares",
+        "source": "https://commons.wikimedia.org/wiki/File:SH2_-_Holmes_et_Watson_interloqu%C3%A9s.png",
+        "license": "CC BY-SA 3.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0"
+      }
+    },
+    {
       "id": "08-27-mars",
       "date": "08-27",
       "dateLabel": "27 August",
@@ -119,33 +146,6 @@
         "source": "https://commons.wikimedia.org/wiki/File:Mariner_2_Engineering_Model.jpg",
         "license": "CC0",
         "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/deed.en"
-      }
-    },
-    {
-      "id": "08-27-calder-hall",
-      "date": "08-27",
-      "dateLabel": "27 August",
-      "category": "world",
-      "categoryName": "World",
-      "year": 1956,
-      "title": "Calder Hall nuclear power station",
-      "body": "The nuclear power station at Calder Hall in the United Kingdom was connected to the national power grid becoming the world's first commercial nuclear power station to generate electricity on an industrial scale.",
-      "source": {
-        "name": "Wikipedia · Calder Hall nuclear power station",
-        "url": "https://en.wikipedia.org/wiki/Calder_Hall_nuclear_power_station",
-        "calendarUrl": "https://en.wikipedia.org/wiki/August_27",
-        "license": {
-          "name": "CC BY-SA 4.0",
-          "url": "https://creativecommons.org/licenses/by-sa/4.0/"
-        }
-      },
-      "image": {
-        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/29/Calder_Hall_nuclear_power_station%2C_after_opening.jpg/500px-Calder_Hall_nuclear_power_station%2C_after_opening.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-        "alt": "Picture from the Wikipedia article on Calder Hall nuclear power station.",
-        "credit": "UK government agencies",
-        "source": "https://commons.wikimedia.org/wiki/File:Calder_Hall_nuclear_power_station,_after_opening.jpg",
-        "license": "OGL 3",
-        "licenseUrl": "https://www.nationalarchives.gov.uk/doc/open-government-licence/version/3"
       }
     }
   ]

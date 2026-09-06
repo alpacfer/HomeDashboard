@@ -3,6 +3,33 @@
   "dateLabel": "8 February",
   "facts": [
     {
+      "id": "02-08-frozen-bubble",
+      "date": "02-08",
+      "dateLabel": "8 February",
+      "category": "culture",
+      "categoryName": "Culture",
+      "year": 2002,
+      "title": "Frozen Bubble",
+      "body": "Frozen Bubble is a free software clone of Puzzle Bobble for a variety of home and mobile systems.",
+      "source": {
+        "name": "Wikipedia · Frozen Bubble",
+        "url": "https://en.wikipedia.org/wiki/Frozen_Bubble",
+        "calendarUrl": "https://en.wikipedia.org/wiki/February_8",
+        "license": {
+          "name": "CC BY-SA 4.0",
+          "url": "https://creativecommons.org/licenses/by-sa/4.0/"
+        }
+      },
+      "image": {
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/34/Frozen_Bubble_2_-_Single_player.png/500px-Frozen_Bubble_2_-_Single_player.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "alt": "Frozen Bubble — the video game this anniversary is about.",
+        "credit": "Guillaume Cottenceau",
+        "source": "https://commons.wikimedia.org/wiki/File:Frozen_Bubble_2_-_Single_player.png",
+        "license": "GPL",
+        "licenseUrl": "https://www.gnu.org/licenses/gpl.html"
+      }
+    },
+    {
       "id": "02-08-stasi",
       "date": "02-08",
       "dateLabel": "8 February",
@@ -108,33 +135,6 @@
         "source": "https://commons.wikimedia.org/wiki/File:Japanese_sugarcane_workers_1.jpg",
         "license": "Public domain",
         "licenseUrl": "https://commons.wikimedia.org/wiki/File:Japanese_sugarcane_workers_1.jpg"
-      }
-    },
-    {
-      "id": "02-08-republican-faction-spanish-civil-war",
-      "date": "02-08",
-      "dateLabel": "8 February",
-      "category": "world",
-      "categoryName": "World",
-      "year": 1937,
-      "title": "Republican faction",
-      "body": "Republican forces establish the Interprovincial Council of Santander, Palencia and Burgos in Cantabria.",
-      "source": {
-        "name": "Wikipedia · Republican faction (Spanish Civil War)",
-        "url": "https://en.wikipedia.org/wiki/Republican_faction_(Spanish_Civil_War)",
-        "calendarUrl": "https://en.wikipedia.org/wiki/February_8",
-        "license": {
-          "name": "CC BY-SA 4.0",
-          "url": "https://creativecommons.org/licenses/by-sa/4.0/"
-        }
-      },
-      "image": {
-        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/df/Flag_of_Spain_%281931%E2%80%931939%29.svg/500px-Flag_of_Spain_%281931%E2%80%931939%29.svg.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-        "alt": "Picture from the Wikipedia article on Republican faction.",
-        "credit": "SanchoPanzaXXI",
-        "source": "https://commons.wikimedia.org/wiki/File:Flag_of_Spain_(1931%E2%80%931939).svg",
-        "license": "CC BY-SA 4.0",
-        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0"
       }
     }
   ]

@@ -3,6 +3,33 @@
   "dateLabel": "23 December",
   "facts": [
     {
+      "id": "12-23-phoenix-wright-ace-attorney",
+      "date": "12-23",
+      "dateLabel": "23 December",
+      "category": "culture",
+      "categoryName": "Culture",
+      "year": 2005,
+      "title": "Phoenix Wright: Ace Attorney",
+      "body": "Ace Attorney is a visual novel adventure game developed and published by Capcom. It was released in 2001 for the Game Boy Advance in Japan and has been ported to multiple platforms.",
+      "source": {
+        "name": "Wikipedia · Phoenix Wright: Ace Attorney",
+        "url": "https://en.wikipedia.org/wiki/Phoenix_Wright:_Ace_Attorney",
+        "calendarUrl": "https://en.wikipedia.org/wiki/December_23",
+        "license": {
+          "name": "CC BY-SA 4.0",
+          "url": "https://creativecommons.org/licenses/by-sa/4.0/"
+        }
+      },
+      "image": {
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/8d/Phoenix_Wright_in_Phoenix_Wright_Ace_Attorney.png/500px-Phoenix_Wright_in_Phoenix_Wright_Ace_Attorney.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "alt": "Phoenix Wright: Ace Attorney — the video game this anniversary is about.",
+        "credit": "Capcom France",
+        "source": "https://commons.wikimedia.org/wiki/File:Phoenix_Wright_in_Phoenix_Wright_Ace_Attorney.png",
+        "license": "CC BY 3.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by/3.0"
+      }
+    },
+    {
       "id": "12-23-kabul",
       "date": "12-23",
       "dateLabel": "23 December",
@@ -108,33 +135,6 @@
         "source": "https://commons.wikimedia.org/wiki/File:Three_Rivers_Stadium.jpg",
         "license": "CC BY 2.0",
         "licenseUrl": "https://creativecommons.org/licenses/by/2.0"
-      }
-    },
-    {
-      "id": "12-23-tampere-conference-of-1905",
-      "date": "12-23",
-      "dateLabel": "23 December",
-      "category": "world",
-      "categoryName": "World",
-      "year": 1905,
-      "title": "Tampere conference of 1905",
-      "body": "The Tampere conference, where Vladimir Lenin and Joseph Stalin meet for the first time, is held in Tampere, Finland.",
-      "source": {
-        "name": "Wikipedia · Tampere conference of 1905",
-        "url": "https://en.wikipedia.org/wiki/Tampere_conference_of_1905",
-        "calendarUrl": "https://en.wikipedia.org/wiki/December_23",
-        "license": {
-          "name": "CC BY-SA 4.0",
-          "url": "https://creativecommons.org/licenses/by-sa/4.0/"
-        }
-      },
-      "image": {
-        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/03/Lenin_at_Tampere.JPG/500px-Lenin_at_Tampere.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-        "alt": "Picture from the Wikipedia article on Tampere conference of 1905.",
-        "credit": "Brendel Mátyás",
-        "source": "https://commons.wikimedia.org/wiki/File:Lenin_at_Tampere.JPG",
-        "license": "CC BY 1.0",
-        "licenseUrl": "https://creativecommons.org/licenses/by/1.0"
       }
     }
   ]

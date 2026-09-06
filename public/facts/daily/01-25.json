@@ -3,17 +3,17 @@
   "dateLabel": "25 January",
   "facts": [
     {
-      "id": "01-25-thomas-edison",
+      "id": "01-25-jackie-chan-s-action-kung-fu",
       "date": "01-25",
       "dateLabel": "25 January",
-      "category": "tech",
-      "categoryName": "Tech",
-      "year": 1881,
-      "title": "Thomas Edison",
-      "body": "Thomas Edison and Alexander Graham Bell form the Oriental Telephone Company.",
+      "category": "culture",
+      "categoryName": "Culture",
+      "year": 1991,
+      "title": "Jackie Chan's Action Kung Fu",
+      "body": "Jackie Chan's Action Kung Fu (ジャッキー・チェン, Jakkī Chen; Jackie Chan) is an action-platform video game developed by Now Production and published by Hudson Soft. It was released for the Nintendo Entertainment System in 1990 and for the TurboGrafx-16 in 1991.",
       "source": {
-        "name": "Wikipedia · Thomas Edison",
-        "url": "https://en.wikipedia.org/wiki/Thomas_Edison",
+        "name": "Wikipedia · Jackie Chan's Action Kung Fu",
+        "url": "https://en.wikipedia.org/wiki/Jackie_Chan%27s_Action_Kung_Fu",
         "calendarUrl": "https://en.wikipedia.org/wiki/January_25",
         "license": {
           "name": "CC BY-SA 4.0",
@@ -21,12 +21,39 @@
         }
       },
       "image": {
-        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/9d/Thomas_Edison2.jpg/500px-Thomas_Edison2.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-        "alt": "Picture from the Wikipedia article on Thomas Edison.",
-        "credit": "Louis Bachrach, Bachrach Studios",
-        "source": "https://commons.wikimedia.org/wiki/File:Thomas_Edison2.jpg",
+        "src": "https://upload.wikimedia.org/wikipedia/commons/3/38/JackieChanNES_texttitle.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+        "alt": "Jackie Chan's Action Kung Fu — the video game this anniversary is about.",
+        "credit": "Now Production & Hudson Soft",
+        "source": "https://commons.wikimedia.org/wiki/File:JackieChanNES_texttitle.png",
         "license": "Public domain",
-        "licenseUrl": "https://commons.wikimedia.org/wiki/File:Thomas_Edison2.jpg"
+        "licenseUrl": "https://commons.wikimedia.org/wiki/File:JackieChanNES_texttitle.png"
+      }
+    },
+    {
+      "id": "01-25-google-video",
+      "date": "01-25",
+      "dateLabel": "25 January",
+      "category": "tech",
+      "categoryName": "Tech",
+      "year": 2005,
+      "title": "Google Videos",
+      "body": "Google Video was a free video hosting service, operated by Google from 2005 to 2012. It was launched on January 25, 2005, and initially focused on searching TV program transcripts.",
+      "source": {
+        "name": "Wikipedia · Google Video",
+        "url": "https://en.wikipedia.org/wiki/Google_Video",
+        "calendarUrl": "https://en.wikipedia.org/wiki/January_25",
+        "license": {
+          "name": "CC BY-SA 4.0",
+          "url": "https://creativecommons.org/licenses/by-sa/4.0/"
+        }
+      },
+      "image": {
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/fd/Screenshot_of_Google_Video_Search_filtering_by_Closed-Captioned_Videos.png/500px-Screenshot_of_Google_Video_Search_filtering_by_Closed-Captioned_Videos.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "alt": "Google Videos — the software this anniversary is about.",
+        "credit": "Gcapiel",
+        "source": "https://commons.wikimedia.org/wiki/File:Screenshot_of_Google_Video_Search_filtering_by_Closed-Captioned_Videos.png",
+        "license": "CC BY-SA 3.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0"
       }
     },
     {
@@ -120,33 +147,6 @@
         "source": "https://commons.wikimedia.org/wiki/File:Nike_Campus,_Beaverton_-_DPLA_-_ffa63f1bbaf5cd21aeada3d3978db2b0.jpg",
         "license": "CC BY 4.0",
         "licenseUrl": "https://creativecommons.org/licenses/by/4.0"
-      }
-    },
-    {
-      "id": "01-25-clementine-spacecraft",
-      "date": "01-25",
-      "dateLabel": "25 January",
-      "category": "space",
-      "categoryName": "Space",
-      "year": 1994,
-      "title": "Clementine",
-      "body": "The spacecraft Clementine by BMDO and NASA is launched.",
-      "source": {
-        "name": "Wikipedia · Clementine (spacecraft)",
-        "url": "https://en.wikipedia.org/wiki/Clementine_(spacecraft)",
-        "calendarUrl": "https://en.wikipedia.org/wiki/January_25",
-        "license": {
-          "name": "CC BY-SA 4.0",
-          "url": "https://creativecommons.org/licenses/by-sa/4.0/"
-        }
-      },
-      "image": {
-        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a2/Clementine_lunar.jpg/500px-Clementine_lunar.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-        "alt": "Picture from the Wikipedia article on Clementine.",
-        "credit": "U.S. Naval Research Laboratory",
-        "source": "https://commons.wikimedia.org/wiki/File:Clementine_lunar.jpg",
-        "license": "Public domain",
-        "licenseUrl": "https://commons.wikimedia.org/wiki/File:Clementine_lunar.jpg"
       }
     }
   ]

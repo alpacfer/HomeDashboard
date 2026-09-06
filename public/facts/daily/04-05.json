@@ -3,17 +3,17 @@
   "dateLabel": "5 April",
   "facts": [
     {
-      "id": "04-05-carrie-novel",
+      "id": "04-05-lego-star-wars-the-skywalker-saga",
       "date": "04-05",
       "dateLabel": "5 April",
       "category": "culture",
       "categoryName": "Culture",
-      "year": 1974,
-      "title": "Carrie",
-      "body": "Carrie, the first novel by American author Stephen King, is published for the first time with a print run of 30,000 copies.",
+      "year": 2022,
+      "title": "Lego Star Wars: The Skywalker Saga",
+      "body": "The Skywalker Saga is a 2022 Lego-themed action-adventure game developed by Traveller's Tales and published by Warner Bros. Games.",
       "source": {
-        "name": "Wikipedia · Carrie (novel)",
-        "url": "https://en.wikipedia.org/wiki/Carrie_(novel)",
+        "name": "Wikipedia · Lego Star Wars: The Skywalker Saga",
+        "url": "https://en.wikipedia.org/wiki/Lego_Star_Wars:_The_Skywalker_Saga",
         "calendarUrl": "https://en.wikipedia.org/wiki/April_5",
         "license": {
           "name": "CC BY-SA 4.0",
@@ -21,12 +21,39 @@
         }
       },
       "image": {
-        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e0/Carrie_%281974%29_front_cover%2C_first_edition.jpg/500px-Carrie_%281974%29_front_cover%2C_first_edition.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-        "alt": "Picture from the Wikipedia article on Carrie.",
-        "credit": "Jacket",
-        "source": "https://commons.wikimedia.org/wiki/File:Carrie_(1974)_front_cover,_first_edition.jpg",
-        "license": "Public domain",
-        "licenseUrl": "https://commons.wikimedia.org/wiki/File:Carrie_(1974)_front_cover,_first_edition.jpg"
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/1b/LEGO%C2%AE_Star_Wars%E2%84%A2_The_Skywalker_Saga_-_Gameplay_Overview_%28thumbnail%29.jpg/500px-LEGO%C2%AE_Star_Wars%E2%84%A2_The_Skywalker_Saga_-_Gameplay_Overview_%28thumbnail%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "alt": "Lego Star Wars: The Skywalker Saga — the video game this anniversary is about.",
+        "credit": "Warner Bros. Games",
+        "source": "https://commons.wikimedia.org/wiki/File:LEGO%C2%AE_Star_Wars%E2%84%A2_The_Skywalker_Saga_-_Gameplay_Overview_(thumbnail).jpg",
+        "license": "CC BY 3.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by/3.0"
+      }
+    },
+    {
+      "id": "04-05-job-simulator",
+      "date": "04-05",
+      "dateLabel": "5 April",
+      "category": "culture",
+      "categoryName": "Culture",
+      "year": 2016,
+      "title": "Job Simulator",
+      "body": "The 2050 Archives, (also known as simply Job Simulator), is a virtual reality simulation video game developed and published by Owlchemy Labs for Microsoft Windows, PlayStation 4, PlayStation 5, Apple Vision Pro, Oculus Quest, Oculus Quest 2 and Meta Quest 3.",
+      "source": {
+        "name": "Wikipedia · Job Simulator",
+        "url": "https://en.wikipedia.org/wiki/Job_Simulator",
+        "calendarUrl": "https://en.wikipedia.org/wiki/April_5",
+        "license": {
+          "name": "CC BY-SA 4.0",
+          "url": "https://creativecommons.org/licenses/by-sa/4.0/"
+        }
+      },
+      "image": {
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/4d/Jobsim_capsule_big_full.png/500px-Jobsim_capsule_big_full.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "alt": "Job Simulator — the video game this anniversary is about.",
+        "credit": "Owlchemy Labs",
+        "source": "https://commons.wikimedia.org/wiki/File:Jobsim_capsule_big_full.png",
+        "license": "CC BY-SA 3.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0"
       }
     },
     {
@@ -57,6 +84,33 @@
       }
     },
     {
+      "id": "04-05-carrie-novel",
+      "date": "04-05",
+      "dateLabel": "5 April",
+      "category": "culture",
+      "categoryName": "Culture",
+      "year": 1974,
+      "title": "Carrie",
+      "body": "Carrie, the first novel by American author Stephen King, is published for the first time with a print run of 30,000 copies.",
+      "source": {
+        "name": "Wikipedia · Carrie (novel)",
+        "url": "https://en.wikipedia.org/wiki/Carrie_(novel)",
+        "calendarUrl": "https://en.wikipedia.org/wiki/April_5",
+        "license": {
+          "name": "CC BY-SA 4.0",
+          "url": "https://creativecommons.org/licenses/by-sa/4.0/"
+        }
+      },
+      "image": {
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e0/Carrie_%281974%29_front_cover%2C_first_edition.jpg/500px-Carrie_%281974%29_front_cover%2C_first_edition.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "alt": "Picture from the Wikipedia article on Carrie.",
+        "credit": "Jacket",
+        "source": "https://commons.wikimedia.org/wiki/File:Carrie_(1974)_front_cover,_first_edition.jpg",
+        "license": "Public domain",
+        "licenseUrl": "https://commons.wikimedia.org/wiki/File:Carrie_(1974)_front_cover,_first_edition.jpg"
+      }
+    },
+    {
       "id": "04-05-akashi-kaiky-bridge",
       "date": "04-05",
       "dateLabel": "5 April",
@@ -81,60 +135,6 @@
         "source": "https://commons.wikimedia.org/wiki/File:%E6%98%8E%E7%9F%B3%E6%B5%B7%E5%B3%A1%E5%A4%A7%E6%A9%8B_-_panoramio_(1)_(cropped).jpg",
         "license": "CC BY 3.0",
         "licenseUrl": "https://creativecommons.org/licenses/by/3.0"
-      }
-    },
-    {
-      "id": "04-05-people-s-armed-police",
-      "date": "04-05",
-      "dateLabel": "5 April",
-      "category": "world",
-      "categoryName": "World",
-      "year": 1983,
-      "title": "People's Armed Police",
-      "body": "The People's Armed Police is officially founded.",
-      "source": {
-        "name": "Wikipedia · People's Armed Police",
-        "url": "https://en.wikipedia.org/wiki/People%27s_Armed_Police",
-        "calendarUrl": "https://en.wikipedia.org/wiki/April_5",
-        "license": {
-          "name": "CC BY-SA 4.0",
-          "url": "https://creativecommons.org/licenses/by-sa/4.0/"
-        }
-      },
-      "image": {
-        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d0/People%27s_Armed_Police_Flag.svg/500px-People%27s_Armed_Police_Flag.svg.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-        "alt": "Picture from the Wikipedia article on People's Armed Police.",
-        "credit": "Wikimedia Commons",
-        "source": "https://commons.wikimedia.org/wiki/File:People%27s_Armed_Police_Flag.svg",
-        "license": "Public domain",
-        "licenseUrl": "https://commons.wikimedia.org/wiki/File:People%27s_Armed_Police_Flag.svg"
-      }
-    },
-    {
-      "id": "04-05-ripple-rock",
-      "date": "04-05",
-      "dateLabel": "5 April",
-      "category": "world",
-      "categoryName": "World",
-      "year": 1958,
-      "title": "Ripple Rock",
-      "body": "Ripple Rock, an underwater threat to navigation in the Seymour Narrows in Canada, is destroyed in one of the largest non-nuclear controlled explosions of the time.",
-      "source": {
-        "name": "Wikipedia · Ripple Rock",
-        "url": "https://en.wikipedia.org/wiki/Ripple_Rock",
-        "calendarUrl": "https://en.wikipedia.org/wiki/April_5",
-        "license": {
-          "name": "CC BY-SA 4.0",
-          "url": "https://creativecommons.org/licenses/by-sa/4.0/"
-        }
-      },
-      "image": {
-        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/bc/Out_P833_-_Aerial_view_of_Ripple_Rock_prior_to_blasting_in_the_Seymour_Narrows.jpg/500px-Out_P833_-_Aerial_view_of_Ripple_Rock_prior_to_blasting_in_the_Seymour_Narrows.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-        "alt": "Picture from the Wikipedia article on Ripple Rock.",
-        "credit": "Matthews, James Skitt, Major",
-        "source": "https://commons.wikimedia.org/wiki/File:Out_P833_-_Aerial_view_of_Ripple_Rock_prior_to_blasting_in_the_Seymour_Narrows.jpg",
-        "license": "Public domain",
-        "licenseUrl": "https://commons.wikimedia.org/wiki/File:Out_P833_-_Aerial_view_of_Ripple_Rock_prior_to_blasting_in_the_Seymour_Narrows.jpg"
       }
     }
   ]

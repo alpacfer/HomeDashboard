@@ -3,6 +3,60 @@
   "dateLabel": "8 August",
   "facts": [
     {
+      "id": "08-08-app-net",
+      "date": "08-08",
+      "dateLabel": "8 August",
+      "category": "tech",
+      "categoryName": "Tech",
+      "year": 2012,
+      "title": "App.net",
+      "body": "net was an ad-free online social networking service and microblogging service which enabled its users to write messages of up to 256 characters. net provided their own web interface to the service, Alpha, which was used by some users.",
+      "source": {
+        "name": "Wikipedia · App.net",
+        "url": "https://en.wikipedia.org/wiki/App.net",
+        "calendarUrl": "https://en.wikipedia.org/wiki/August_8",
+        "license": {
+          "name": "CC BY-SA 4.0",
+          "url": "https://creativecommons.org/licenses/by-sa/4.0/"
+        }
+      },
+      "image": {
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/9c/App.net_Global_Feed.png/500px-App.net_Global_Feed.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "alt": "App.net — the social network this anniversary is about.",
+        "credit": "Lobaev",
+        "source": "https://commons.wikimedia.org/wiki/File:App.net_Global_Feed.png",
+        "license": "CC BY-SA 3.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0"
+      }
+    },
+    {
+      "id": "08-08-monster-strike",
+      "date": "08-08",
+      "dateLabel": "8 August",
+      "category": "culture",
+      "categoryName": "Culture",
+      "year": 2013,
+      "title": "Monster Strike",
+      "body": "Monster Strike (モンスターストライク, Monsutā Sutoraiku) is a mobile Japanese role-playing physics game with elements of puzzle, strategy and cooperative multiplayer. It is developed by Mixi for iOS and Android platforms.",
+      "source": {
+        "name": "Wikipedia · Monster Strike",
+        "url": "https://en.wikipedia.org/wiki/Monster_Strike",
+        "calendarUrl": "https://en.wikipedia.org/wiki/August_8",
+        "license": {
+          "name": "CC BY-SA 4.0",
+          "url": "https://creativecommons.org/licenses/by-sa/4.0/"
+        }
+      },
+      "image": {
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/63/Monster_Strike.svg/500px-Monster_Strike.svg.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "alt": "Monster Strike — the video game this anniversary is about.",
+        "credit": "Wikimedia Commons",
+        "source": "https://commons.wikimedia.org/wiki/File:Monster_Strike.svg",
+        "license": "Public domain",
+        "licenseUrl": "https://commons.wikimedia.org/wiki/File:Monster_Strike.svg"
+      }
+    },
+    {
       "id": "08-08-thomas-edison",
       "date": "08-08",
       "dateLabel": "8 August",
@@ -81,60 +135,6 @@
         "source": "https://commons.wikimedia.org/wiki/File:Dave_Matthews_Band_-_Band_Shot_Melbourne_2005.jpg",
         "license": "CC BY 2.5",
         "licenseUrl": "https://creativecommons.org/licenses/by/2.5"
-      }
-    },
-    {
-      "id": "08-08-joseph-whidbey",
-      "date": "08-08",
-      "dateLabel": "8 August",
-      "category": "science",
-      "categoryName": "Science",
-      "year": 1794,
-      "title": "Joseph Whidbey",
-      "body": "Joseph Whidbey leads an expedition to search for the Northwest Passage near Juneau, Alaska.",
-      "source": {
-        "name": "Wikipedia · Joseph Whidbey",
-        "url": "https://en.wikipedia.org/wiki/Joseph_Whidbey",
-        "calendarUrl": "https://en.wikipedia.org/wiki/August_8",
-        "license": {
-          "name": "CC BY-SA 4.0",
-          "url": "https://creativecommons.org/licenses/by-sa/4.0/"
-        }
-      },
-      "image": {
-        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/69/A_Portrait_of_Joseph_Whidbey.jpg/500px-A_Portrait_of_Joseph_Whidbey.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-        "alt": "Picture from the Wikipedia article on Joseph Whidbey.",
-        "credit": "Unknown author",
-        "source": "https://commons.wikimedia.org/wiki/File:A_Portrait_of_Joseph_Whidbey.jpg",
-        "license": "Public domain",
-        "licenseUrl": "https://commons.wikimedia.org/wiki/File:A_Portrait_of_Joseph_Whidbey.jpg"
-      }
-    },
-    {
-      "id": "08-08-h-l-hunley-submarine",
-      "date": "08-08",
-      "dateLabel": "8 August",
-      "category": "science",
-      "categoryName": "Science",
-      "year": 2000,
-      "title": "H. L. Hunley",
-      "body": "Confederate submarine H.L. Hunley is raised to the surface after 136 years on the ocean floor and 30 years after its discovery by undersea explorer E. Lee Spence.",
-      "source": {
-        "name": "Wikipedia · H. L. Hunley",
-        "url": "https://en.wikipedia.org/wiki/H._L._Hunley",
-        "calendarUrl": "https://en.wikipedia.org/wiki/August_8",
-        "license": {
-          "name": "CC BY-SA 4.0",
-          "url": "https://creativecommons.org/licenses/by-sa/4.0/"
-        }
-      },
-      "image": {
-        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/1e/Conrad_Wise_Chapman_-_Submarine_Torpedo_Boat_H.L._Hunley%2C_Dec._6%2C_1863_%28cropped%29.jpg/500px-Conrad_Wise_Chapman_-_Submarine_Torpedo_Boat_H.L._Hunley%2C_Dec._6%2C_1863_%28cropped%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-        "alt": "Picture from the Wikipedia article on H. L. Hunley.",
-        "credit": "Conrad Wise Chapman",
-        "source": "https://commons.wikimedia.org/wiki/File:Conrad_Wise_Chapman_-_Submarine_Torpedo_Boat_H.L._Hunley,_Dec._6,_1863_(cropped).jpg",
-        "license": "Public domain",
-        "licenseUrl": "https://commons.wikimedia.org/wiki/File:Conrad_Wise_Chapman_-_Submarine_Torpedo_Boat_H.L._Hunley,_Dec._6,_1863_(cropped).jpg"
       }
     }
   ]

@@ -30,6 +30,33 @@
       }
     },
     {
+      "id": "09-22-fedora-project",
+      "date": "09-22",
+      "dateLabel": "22 September",
+      "category": "tech",
+      "categoryName": "Tech",
+      "year": 2003,
+      "title": "Fedora Project",
+      "body": "The Fedora Project is an independent project under a legal responsibility of Red Hat to coordinate the development of Fedora Linux, a Linux-based operating system, operating with the mission of creating \"an innovative platform for hardware, clouds.",
+      "source": {
+        "name": "Wikipedia · Fedora Project",
+        "url": "https://en.wikipedia.org/wiki/Fedora_Project",
+        "calendarUrl": "https://en.wikipedia.org/wiki/September_22",
+        "license": {
+          "name": "CC BY-SA 4.0",
+          "url": "https://creativecommons.org/licenses/by-sa/4.0/"
+        }
+      },
+      "image": {
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/5e/Fedora_Linux_35_About_3840px%2A2160px_Zoom2.5.png/500px-Fedora_Linux_35_About_3840px%2A2160px_Zoom2.5.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "alt": "Fedora Project — the website this anniversary is about.",
+        "credit": "The GNOME Project and The Fedora Project",
+        "source": "https://commons.wikimedia.org/wiki/File:Fedora_Linux_35_About_3840px*2160px_Zoom2.5.png",
+        "license": "GPL",
+        "licenseUrl": "https://www.gnu.org/licenses/gpl.html"
+      }
+    },
+    {
       "id": "09-22-scarlet-gn",
       "date": "09-22",
       "dateLabel": "22 September",
@@ -108,33 +135,6 @@
         "source": "https://commons.wikimedia.org/wiki/File:Gail_Halvorsen_ca._1983.jpg",
         "license": "GPLv3",
         "licenseUrl": "https://www.gnu.org/licenses/gpl-3.0.html"
-      }
-    },
-    {
-      "id": "09-22-mali",
-      "date": "09-22",
-      "dateLabel": "22 September",
-      "category": "world",
-      "categoryName": "World",
-      "year": 1960,
-      "title": "Mali",
-      "body": "The Sudanese Republic is renamed Mali after the withdrawal of Senegal from the Mali Federation.",
-      "source": {
-        "name": "Wikipedia · Mali",
-        "url": "https://en.wikipedia.org/wiki/Mali",
-        "calendarUrl": "https://en.wikipedia.org/wiki/September_22",
-        "license": {
-          "name": "CC BY-SA 4.0",
-          "url": "https://creativecommons.org/licenses/by-sa/4.0/"
-        }
-      },
-      "image": {
-        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/92/Flag_of_Mali.svg/500px-Flag_of_Mali.svg.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-        "alt": "Picture from the Wikipedia article on Mali.",
-        "credit": "SKopp",
-        "source": "https://commons.wikimedia.org/wiki/File:Flag_of_Mali.svg",
-        "license": "Public domain",
-        "licenseUrl": "https://commons.wikimedia.org/wiki/File:Flag_of_Mali.svg"
       }
     }
   ]

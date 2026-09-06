@@ -3,6 +3,33 @@
   "dateLabel": "24 February",
   "facts": [
     {
+      "id": "02-24-russian-warship-go-fuck-yourself",
+      "date": "02-24",
+      "dateLabel": "24 February",
+      "category": "curious",
+      "categoryName": "Curious",
+      "year": 2022,
+      "title": "Russian warship, go fuck yourself",
+      "body": "\"Russian warship, go fuck yourself\" was the final communication made on 24 February, the first day of the 2022 Snake Island campaign, by Ukrainian border guard Roman Hrybov to the Russian missile cruiser Moskva.",
+      "source": {
+        "name": "Wikipedia · Russian warship, go fuck yourself",
+        "url": "https://en.wikipedia.org/wiki/Russian_warship,_go_fuck_yourself",
+        "calendarUrl": "https://en.wikipedia.org/wiki/February_24",
+        "license": {
+          "name": "CC BY-SA 4.0",
+          "url": "https://creativecommons.org/licenses/by-sa/4.0/"
+        }
+      },
+      "image": {
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/6f/Russian_ship%2C_go_f_yourself._Bright._2.jpg/500px-Russian_ship%2C_go_f_yourself._Bright._2.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "alt": "Russian warship, go fuck yourself — the internet meme this anniversary is about.",
+        "credit": "Alex Blokha",
+        "source": "https://commons.wikimedia.org/wiki/File:Russian_ship,_go_f_yourself._Bright._2.jpg",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0"
+      }
+    },
+    {
       "id": "02-24-spy-satellite",
       "date": "02-24",
       "dateLabel": "24 February",
@@ -108,33 +135,6 @@
         "source": "https://commons.wikimedia.org/wiki/File:Campana_Giubileo_2000_20110705.jpg",
         "license": "CC BY-SA 3.0",
         "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0"
-      }
-    },
-    {
-      "id": "02-24-nancy-astor-viscountess-astor",
-      "date": "02-24",
-      "dateLabel": "24 February",
-      "category": "world",
-      "categoryName": "World",
-      "year": 1920,
-      "title": "Nancy Astor, Viscountess Astor",
-      "body": "Nancy Astor becomes the first woman to speak in the House of Commons of the United Kingdom following her election as a Member of Parliament (MP) three months earlier.",
-      "source": {
-        "name": "Wikipedia · Nancy Astor, Viscountess Astor",
-        "url": "https://en.wikipedia.org/wiki/Nancy_Astor,_Viscountess_Astor",
-        "calendarUrl": "https://en.wikipedia.org/wiki/February_24",
-        "license": {
-          "name": "CC BY-SA 4.0",
-          "url": "https://creativecommons.org/licenses/by-sa/4.0/"
-        }
-      },
-      "image": {
-        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e2/Nancy-Astor-Viscountess-Astor.jpg/500px-Nancy-Astor-Viscountess-Astor.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-        "alt": "Picture from the Wikipedia article on Nancy Astor, Viscountess Astor.",
-        "credit": "Bassano Ltd",
-        "source": "https://commons.wikimedia.org/wiki/File:Nancy-Astor-Viscountess-Astor.jpg",
-        "license": "Public domain",
-        "licenseUrl": "https://commons.wikimedia.org/wiki/File:Nancy-Astor-Viscountess-Astor.jpg"
       }
     }
   ]

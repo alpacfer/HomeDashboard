@@ -3,17 +3,17 @@
   "dateLabel": "20 October",
   "facts": [
     {
-      "id": "10-20-sydney-opera-house",
+      "id": "10-20-midnight-club-los-angeles",
       "date": "10-20",
       "dateLabel": "20 October",
       "category": "culture",
       "categoryName": "Culture",
-      "year": 1973,
-      "title": "Sydney Opera House",
-      "body": "The Sydney Opera House is opened by Elizabeth II after 14 years of construction.",
+      "year": 2008,
+      "title": "Midnight Club: Los Angeles",
+      "body": "Los Angeles is a 2008 racing video game developed by Rockstar San Diego and published by Rockstar Games. It is the fourth installment in the Midnight Club series before it was discontinued in January 2010.",
       "source": {
-        "name": "Wikipedia · Sydney Opera House",
-        "url": "https://en.wikipedia.org/wiki/Sydney_Opera_House",
+        "name": "Wikipedia · Midnight Club: Los Angeles",
+        "url": "https://en.wikipedia.org/wiki/Midnight_Club:_Los_Angeles",
         "calendarUrl": "https://en.wikipedia.org/wiki/October_20",
         "license": {
           "name": "CC BY-SA 4.0",
@@ -21,12 +21,39 @@
         }
       },
       "image": {
-        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a0/Sydney_Australia._%2821339175489%29.jpg/500px-Sydney_Australia._%2821339175489%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-        "alt": "Picture from the Wikipedia article on Sydney Opera House.",
-        "credit": "Bernard Spragg",
-        "source": "https://commons.wikimedia.org/wiki/File:Sydney_Australia._(21339175489).jpg",
-        "license": "CC0",
-        "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/deed.en"
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e0/Midnight_Club%2C_LA_at_GamesCom_-_Flickr_-_Sergey_Galyonkin.jpg/500px-Midnight_Club%2C_LA_at_GamesCom_-_Flickr_-_Sergey_Galyonkin.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "alt": "Midnight Club: Los Angeles — the video game this anniversary is about.",
+        "credit": "Sergey Galyonkin from Kyiv, Ukraine",
+        "source": "https://commons.wikimedia.org/wiki/File:Midnight_Club,_LA_at_GamesCom_-_Flickr_-_Sergey_Galyonkin.jpg",
+        "license": "CC BY-SA 2.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0"
+      }
+    },
+    {
+      "id": "10-20-meduza-website",
+      "date": "10-20",
+      "dateLabel": "20 October",
+      "category": "tech",
+      "categoryName": "Tech",
+      "year": 2014,
+      "title": "Meduza",
+      "body": "Meduza (Russian: Медуза, named after the Greek mythological figure Medusa) is a Russian and English-language independent news website, headquartered in Riga, Latvia. ru news website.",
+      "source": {
+        "name": "Wikipedia · Meduza (website)",
+        "url": "https://en.wikipedia.org/wiki/Meduza_(website)",
+        "calendarUrl": "https://en.wikipedia.org/wiki/October_20",
+        "license": {
+          "name": "CC BY-SA 4.0",
+          "url": "https://creativecommons.org/licenses/by-sa/4.0/"
+        }
+      },
+      "image": {
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c7/Meduza_screenshot_Valday.jpg/500px-Meduza_screenshot_Valday.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "alt": "Meduza — the mobile app this anniversary is about.",
+        "credit": "Wikimedia Commons",
+        "source": "https://commons.wikimedia.org/wiki/File:Meduza_screenshot_Valday.jpg",
+        "license": "Public domain",
+        "licenseUrl": "https://commons.wikimedia.org/wiki/File:Meduza_screenshot_Valday.jpg"
       }
     },
     {
@@ -108,33 +135,6 @@
         "source": "https://commons.wikimedia.org/wiki/File:Space_Shuttle_Columbia_lands_following_STS-62_on_18_March_1994._(cropped).jpg",
         "license": "Public domain",
         "licenseUrl": "https://commons.wikimedia.org/wiki/File:Space_Shuttle_Columbia_lands_following_STS-62_on_18_March_1994._(cropped).jpg"
-      }
-    },
-    {
-      "id": "10-20-house-un-american-activities-committee",
-      "date": "10-20",
-      "dateLabel": "20 October",
-      "category": "culture",
-      "categoryName": "Culture",
-      "year": 1947,
-      "title": "House Un-American Activities Committee",
-      "body": "The House Un-American Activities Committee begins its investigation into Communist infiltration of the Hollywood film industry, resulting in a blacklist that prevents some from working in the industry for years.",
-      "source": {
-        "name": "Wikipedia · House Un-American Activities Committee",
-        "url": "https://en.wikipedia.org/wiki/House_Un-American_Activities_Committee",
-        "calendarUrl": "https://en.wikipedia.org/wiki/October_20",
-        "license": {
-          "name": "CC BY-SA 4.0",
-          "url": "https://creativecommons.org/licenses/by-sa/4.0/"
-        }
-      },
-      "image": {
-        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f5/Chairman_Dies_of_House_Committee_investigating_Un-American_activities.jpg/500px-Chairman_Dies_of_House_Committee_investigating_Un-American_activities.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-        "alt": "Picture from the Wikipedia article on House Un-American Activities Committee.",
-        "credit": "Harris & Ewing",
-        "source": "https://commons.wikimedia.org/wiki/File:Chairman_Dies_of_House_Committee_investigating_Un-American_activities.jpg",
-        "license": "Public domain",
-        "licenseUrl": "https://commons.wikimedia.org/wiki/File:Chairman_Dies_of_House_Committee_investigating_Un-American_activities.jpg"
       }
     }
   ]

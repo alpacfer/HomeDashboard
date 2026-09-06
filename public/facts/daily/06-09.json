@@ -3,6 +3,33 @@
   "dateLabel": "9 June",
   "facts": [
     {
+      "id": "06-09-predictor-home",
+      "date": "06-09",
+      "dateLabel": "9 June",
+      "category": "tech",
+      "categoryName": "Tech",
+      "year": 2004,
+      "title": "Predictor@home",
+      "body": "Predictor@home was a volunteer computing project that used BOINC software to predict protein structure from protein sequence in the context of the 6th biannual CASP, or Critical Assessment of Techniques for Protein Structure Prediction.",
+      "source": {
+        "name": "Wikipedia · Predictor@home",
+        "url": "https://en.wikipedia.org/wiki/Predictor@home",
+        "calendarUrl": "https://en.wikipedia.org/wiki/June_9",
+        "license": {
+          "name": "CC BY-SA 4.0",
+          "url": "https://creativecommons.org/licenses/by-sa/4.0/"
+        }
+      },
+      "image": {
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/30/Predictor.png/500px-Predictor.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "alt": "Predictor@home — the software this anniversary is about.",
+        "credit": "Al Piskun",
+        "source": "https://commons.wikimedia.org/wiki/File:Predictor.png",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0"
+      }
+    },
+    {
       "id": "06-09-james-oglethorpe",
       "date": "06-09",
       "dateLabel": "9 June",
@@ -108,33 +135,6 @@
         "source": "https://commons.wikimedia.org/wiki/File:Ron_Turcotte_and_Secretariat_after_winning_the_1973_Preakness_Stakes.jpg",
         "license": "Public domain",
         "licenseUrl": "https://commons.wikimedia.org/wiki/File:Ron_Turcotte_and_Secretariat_after_winning_the_1973_Preakness_Stakes.jpg"
-      }
-    },
-    {
-      "id": "06-09-golan-heights",
-      "date": "06-09",
-      "dateLabel": "9 June",
-      "category": "world",
-      "categoryName": "World",
-      "year": 1967,
-      "title": "Golan Heights",
-      "body": "Israel captures the Golan Heights from Syria.",
-      "source": {
-        "name": "Wikipedia · Golan Heights",
-        "url": "https://en.wikipedia.org/wiki/Golan_Heights",
-        "calendarUrl": "https://en.wikipedia.org/wiki/June_9",
-        "license": {
-          "name": "CC BY-SA 4.0",
-          "url": "https://creativecommons.org/licenses/by-sa/4.0/"
-        }
-      },
-      "image": {
-        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/6d/Golan_Heights_Map-SVG.svg/500px-Golan_Heights_Map-SVG.svg.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-        "alt": "Picture from the Wikipedia article on Golan Heights.",
-        "credit": "Goran_tek-en",
-        "source": "https://commons.wikimedia.org/wiki/File:Golan_Heights_Map-SVG.svg",
-        "license": "CC BY-SA 4.0",
-        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0"
       }
     }
   ]

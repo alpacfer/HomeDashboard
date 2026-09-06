@@ -3,6 +3,60 @@
   "dateLabel": "21 July",
   "facts": [
     {
+      "id": "07-21-mole-mania",
+      "date": "07-21",
+      "dateLabel": "21 July",
+      "category": "culture",
+      "categoryName": "Culture",
+      "year": 1996,
+      "title": "Mole Mania",
+      "body": "Mole Mania is a 1996 video game developed and published by Nintendo for the Game Boy. It was released in Japan in July 1996, North America in February 1997 and Europe in May 1997.",
+      "source": {
+        "name": "Wikipedia · Mole Mania",
+        "url": "https://en.wikipedia.org/wiki/Mole_Mania",
+        "calendarUrl": "https://en.wikipedia.org/wiki/July_21",
+        "license": {
+          "name": "CC BY-SA 4.0",
+          "url": "https://creativecommons.org/licenses/by-sa/4.0/"
+        }
+      },
+      "image": {
+        "src": "https://upload.wikimedia.org/wikipedia/commons/e/e7/Mole_mania_nintendo_game_boy_logo.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+        "alt": "Mole Mania — the video game this anniversary is about.",
+        "credit": "Nintendo of America",
+        "source": "https://commons.wikimedia.org/wiki/File:Mole_mania_nintendo_game_boy_logo.png",
+        "license": "Public domain",
+        "licenseUrl": "https://commons.wikimedia.org/wiki/File:Mole_mania_nintendo_game_boy_logo.png"
+      }
+    },
+    {
+      "id": "07-21-freedom-planet",
+      "date": "07-21",
+      "dateLabel": "21 July",
+      "category": "culture",
+      "categoryName": "Culture",
+      "year": 2014,
+      "title": "Freedom Planet",
+      "body": "Freedom Planet is a 2014 platform video game developed and published by GalaxyTrail. The player controls one of three anthropomorphic animal protagonists: the dragon girl Lilac, the wildcat Carol, or the Basset Hound Milla.",
+      "source": {
+        "name": "Wikipedia · Freedom Planet",
+        "url": "https://en.wikipedia.org/wiki/Freedom_Planet",
+        "calendarUrl": "https://en.wikipedia.org/wiki/July_21",
+        "license": {
+          "name": "CC BY-SA 4.0",
+          "url": "https://creativecommons.org/licenses/by-sa/4.0/"
+        }
+      },
+      "image": {
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/48/Freedom_Planet_Cutscene.png/500px-Freedom_Planet_Cutscene.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "alt": "Freedom Planet — the video game this anniversary is about.",
+        "credit": "Sabrina \"Strife\" DiDuro",
+        "source": "https://commons.wikimedia.org/wiki/File:Freedom_Planet_Cutscene.png",
+        "license": "CC BY-SA 3.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0"
+      }
+    },
+    {
       "id": "07-21-neil-armstrong",
       "date": "07-21",
       "dateLabel": "21 July",
@@ -27,33 +81,6 @@
         "source": "https://commons.wikimedia.org/wiki/File:Neil_Armstrong_pose.jpg",
         "license": "Public domain",
         "licenseUrl": "https://commons.wikimedia.org/wiki/File:Neil_Armstrong_pose.jpg"
-      }
-    },
-    {
-      "id": "07-21-jay-silverheels",
-      "date": "07-21",
-      "dateLabel": "21 July",
-      "category": "culture",
-      "categoryName": "Culture",
-      "year": 1979,
-      "title": "Jay Silverheels",
-      "body": "Jay Silverheels, a Mohawk actor, becomes the first Native American to have a star commemorated in the Hollywood Walk of Fame.",
-      "source": {
-        "name": "Wikipedia · Jay Silverheels",
-        "url": "https://en.wikipedia.org/wiki/Jay_Silverheels",
-        "calendarUrl": "https://en.wikipedia.org/wiki/July_21",
-        "license": {
-          "name": "CC BY-SA 4.0",
-          "url": "https://creativecommons.org/licenses/by-sa/4.0/"
-        }
-      },
-      "image": {
-        "src": "https://upload.wikimedia.org/wikipedia/commons/f/f7/Jay-silverheels-01.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
-        "alt": "Picture from the Wikipedia article on Jay Silverheels.",
-        "credit": "DAVilla",
-        "source": "https://commons.wikimedia.org/wiki/File:Jay-silverheels-01.png",
-        "license": "Public domain",
-        "licenseUrl": "https://commons.wikimedia.org/wiki/File:Jay-silverheels-01.png"
       }
     },
     {
@@ -84,17 +111,17 @@
       }
     },
     {
-      "id": "07-21-geneva-conference-1954",
+      "id": "07-21-jay-silverheels",
       "date": "07-21",
       "dateLabel": "21 July",
-      "category": "world",
-      "categoryName": "World",
-      "year": 1954,
-      "title": "1954 Geneva Conference",
-      "body": "The Geneva Conference partitions Vietnam into North Vietnam and South Vietnam.",
+      "category": "culture",
+      "categoryName": "Culture",
+      "year": 1979,
+      "title": "Jay Silverheels",
+      "body": "Jay Silverheels, a Mohawk actor, becomes the first Native American to have a star commemorated in the Hollywood Walk of Fame.",
       "source": {
-        "name": "Wikipedia · 1954 Geneva Conference",
-        "url": "https://en.wikipedia.org/wiki/1954_Geneva_Conference",
+        "name": "Wikipedia · Jay Silverheels",
+        "url": "https://en.wikipedia.org/wiki/Jay_Silverheels",
         "calendarUrl": "https://en.wikipedia.org/wiki/July_21",
         "license": {
           "name": "CC BY-SA 4.0",
@@ -102,39 +129,12 @@
         }
       },
       "image": {
-        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/ca/1954_Geneva_Conference.jpg/500px-1954_Geneva_Conference.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-        "alt": "Picture from the Wikipedia article on 1954 Geneva Conference.",
-        "credit": "US Army Photograph",
-        "source": "https://commons.wikimedia.org/wiki/File:1954_Geneva_Conference.jpg",
+        "src": "https://upload.wikimedia.org/wikipedia/commons/f/f7/Jay-silverheels-01.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+        "alt": "Picture from the Wikipedia article on Jay Silverheels.",
+        "credit": "DAVilla",
+        "source": "https://commons.wikimedia.org/wiki/File:Jay-silverheels-01.png",
         "license": "Public domain",
-        "licenseUrl": "https://commons.wikimedia.org/wiki/File:1954_Geneva_Conference.jpg"
-      }
-    },
-    {
-      "id": "07-21-louis-rigolly",
-      "date": "07-21",
-      "dateLabel": "21 July",
-      "category": "world",
-      "categoryName": "World",
-      "year": 1904,
-      "title": "Louis Rigolly",
-      "body": "Louis Rigolly, a Frenchman, becomes the first man to break the barrier on land. He drove a 15-liter Gobron-Brillié in Ostend, Belgium.",
-      "source": {
-        "name": "Wikipedia · Louis Rigolly",
-        "url": "https://en.wikipedia.org/wiki/Louis_Rigolly",
-        "calendarUrl": "https://en.wikipedia.org/wiki/July_21",
-        "license": {
-          "name": "CC BY-SA 4.0",
-          "url": "https://creativecommons.org/licenses/by-sa/4.0/"
-        }
-      },
-      "image": {
-        "src": "https://upload.wikimedia.org/wikipedia/commons/9/9f/Louis_Rigolly_Car_1904.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
-        "alt": "Picture from the Wikipedia article on Louis Rigolly.",
-        "credit": "Unknown author",
-        "source": "https://commons.wikimedia.org/wiki/File:Louis_Rigolly_Car_1904.jpg",
-        "license": "Public domain",
-        "licenseUrl": "https://commons.wikimedia.org/wiki/File:Louis_Rigolly_Car_1904.jpg"
+        "licenseUrl": "https://commons.wikimedia.org/wiki/File:Jay-silverheels-01.png"
       }
     }
   ]

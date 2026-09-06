@@ -3,6 +3,33 @@
   "dateLabel": "10 June",
   "facts": [
     {
+      "id": "06-10-duke-nukem-forever",
+      "date": "06-10",
+      "dateLabel": "10 June",
+      "category": "culture",
+      "categoryName": "Culture",
+      "year": 2011,
+      "title": "Duke Nukem Forever",
+      "body": "Duke Nukem Forever is a 2011 first-person shooter game developed by Gearbox Software and published by 2K for Windows, PlayStation 3, Xbox 360 and Mac OS X.",
+      "source": {
+        "name": "Wikipedia · Duke Nukem Forever",
+        "url": "https://en.wikipedia.org/wiki/Duke_Nukem_Forever",
+        "calendarUrl": "https://en.wikipedia.org/wiki/June_10",
+        "license": {
+          "name": "CC BY-SA 4.0",
+          "url": "https://creativecommons.org/licenses/by-sa/4.0/"
+        }
+      },
+      "image": {
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/69/Girls_of_E3_2011_No.15.jpg/500px-Girls_of_E3_2011_No.15.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "alt": "Duke Nukem Forever — the video game this anniversary is about.",
+        "credit": "Richard Cabrera",
+        "source": "https://commons.wikimedia.org/wiki/File:Girls_of_E3_2011_No.15.jpg",
+        "license": "CC BY 2.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by/2.0"
+      }
+    },
+    {
       "id": "06-10-opportunity-rover",
       "date": "06-10",
       "dateLabel": "10 June",
@@ -108,33 +135,6 @@
         "source": "https://commons.wikimedia.org/wiki/File:Northern_Ireland_in_the_UK_and_Europe.svg",
         "license": "CC BY-SA 3.0",
         "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0"
-      }
-    },
-    {
-      "id": "06-10-jardin-des-plantes",
-      "date": "06-10",
-      "dateLabel": "10 June",
-      "category": "curious",
-      "categoryName": "Curious",
-      "year": 1793,
-      "title": "Jardin des Plantes",
-      "body": "The Jardin des Plantes museum opens in Paris. A year later, it becomes the first public zoo.",
-      "source": {
-        "name": "Wikipedia · Jardin des Plantes",
-        "url": "https://en.wikipedia.org/wiki/Jardin_des_Plantes",
-        "calendarUrl": "https://en.wikipedia.org/wiki/June_10",
-        "license": {
-          "name": "CC BY-SA 4.0",
-          "url": "https://creativecommons.org/licenses/by-sa/4.0/"
-        }
-      },
-      "image": {
-        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/48/Paris_75005_Grande_Galerie_de_l%27Evolution_20070804.jpg/500px-Paris_75005_Grande_Galerie_de_l%27Evolution_20070804.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-        "alt": "Picture from the Wikipedia article on Jardin des Plantes.",
-        "credit": "Benh LIEU SONG",
-        "source": "https://commons.wikimedia.org/wiki/File:Paris_75005_Grande_Galerie_de_l%27Evolution_20070804.jpg",
-        "license": "CC BY 3.0",
-        "licenseUrl": "https://creativecommons.org/licenses/by/3.0"
       }
     }
   ]

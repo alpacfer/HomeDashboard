@@ -3,6 +3,60 @@
   "dateLabel": "23 February",
   "facts": [
     {
+      "id": "02-23-ted-conference",
+      "date": "02-23",
+      "dateLabel": "23 February",
+      "category": "tech",
+      "categoryName": "Tech",
+      "year": 1984,
+      "title": "TED",
+      "body": "TED Conferences, LLC (Technology, Entertainment, Design) is an American-Canadian nonprofit media organization that posts international talks online for free distribution under the slogan \"Ideas Change Everything\" (previously \"Ideas Worth Spreading\").",
+      "source": {
+        "name": "Wikipedia · TED (conference)",
+        "url": "https://en.wikipedia.org/wiki/TED_(conference)",
+        "calendarUrl": "https://en.wikipedia.org/wiki/February_23",
+        "license": {
+          "name": "CC BY-SA 4.0",
+          "url": "https://creativecommons.org/licenses/by-sa/4.0/"
+        }
+      },
+      "image": {
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/4e/Michael_Pollan_at_TED.jpg/500px-Michael_Pollan_at_TED.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "alt": "TED — the website this anniversary is about.",
+        "credit": "Pierre Omidyar",
+        "source": "https://commons.wikimedia.org/wiki/File:Michael_Pollan_at_TED.jpg",
+        "license": "CC BY 2.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by/2.0"
+      }
+    },
+    {
+      "id": "02-23-four-last-things-video-game",
+      "date": "02-23",
+      "dateLabel": "23 February",
+      "category": "culture",
+      "categoryName": "Culture",
+      "year": 2017,
+      "title": "Four Last Things",
+      "body": "Four Last Things is a point-and-click adventure video game (see List of graphic adventure games) created by Joe Richardson. It was released on February 23, 2017 for Windows, Android, and iOS.",
+      "source": {
+        "name": "Wikipedia · Four Last Things (video game)",
+        "url": "https://en.wikipedia.org/wiki/Four_Last_Things_(video_game)",
+        "calendarUrl": "https://en.wikipedia.org/wiki/February_23",
+        "license": {
+          "name": "CC BY-SA 4.0",
+          "url": "https://creativecommons.org/licenses/by-sa/4.0/"
+        }
+      },
+      "image": {
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/35/Mathias_Mulich_%281470-1528%29%2C_Merchant_in_L%C3%BCbeck%2C_by_Jacob_Claesz_van_Utrecht.jpg/500px-Mathias_Mulich_%281470-1528%29%2C_Merchant_in_L%C3%BCbeck%2C_by_Jacob_Claesz_van_Utrecht.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "alt": "Four Last Things — the video game this anniversary is about.",
+        "credit": "Jacob van Utrecht",
+        "source": "https://commons.wikimedia.org/wiki/File:Mathias_Mulich_(1470-1528),_Merchant_in_L%C3%BCbeck,_by_Jacob_Claesz_van_Utrecht.jpg",
+        "license": "Public domain",
+        "licenseUrl": "https://commons.wikimedia.org/wiki/File:Mathias_Mulich_(1470-1528),_Merchant_in_L%C3%BCbeck,_by_Jacob_Claesz_van_Utrecht.jpg"
+      }
+    },
+    {
       "id": "02-23-theoretical-physics",
       "date": "02-23",
       "dateLabel": "23 February",
@@ -81,60 +135,6 @@
         "source": "https://commons.wikimedia.org/wiki/File:Flag_of_Alabama.svg",
         "license": "Public domain",
         "licenseUrl": "https://commons.wikimedia.org/wiki/File:Flag_of_Alabama.svg"
-      }
-    },
-    {
-      "id": "02-23-poliomyelitis",
-      "date": "02-23",
-      "dateLabel": "23 February",
-      "category": "science",
-      "categoryName": "Science",
-      "year": 1954,
-      "title": "Polio",
-      "body": "The first mass inoculation of children against polio with the Salk vaccine begins in Pittsburgh.",
-      "source": {
-        "name": "Wikipedia · Polio",
-        "url": "https://en.wikipedia.org/wiki/Polio",
-        "calendarUrl": "https://en.wikipedia.org/wiki/February_23",
-        "license": {
-          "name": "CC BY-SA 4.0",
-          "url": "https://creativecommons.org/licenses/by-sa/4.0/"
-        }
-      },
-      "image": {
-        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/57/Polio_lores134.jpg/500px-Polio_lores134.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-        "alt": "Picture from the Wikipedia article on Polio.",
-        "credit": "CDC/NIP/ Barbara Rice",
-        "source": "https://commons.wikimedia.org/wiki/File:Polio_lores134.jpg",
-        "license": "Public domain",
-        "licenseUrl": "https://commons.wikimedia.org/wiki/File:Polio_lores134.jpg"
-      }
-    },
-    {
-      "id": "02-23-winds",
-      "date": "02-23",
-      "dateLabel": "23 February",
-      "category": "space",
-      "categoryName": "Space",
-      "year": 2008,
-      "title": "WINDS",
-      "body": "The Japanese WINDS satellite is launched.",
-      "source": {
-        "name": "Wikipedia · WINDS",
-        "url": "https://en.wikipedia.org/wiki/WINDS",
-        "calendarUrl": "https://en.wikipedia.org/wiki/February_23",
-        "license": {
-          "name": "CC BY-SA 4.0",
-          "url": "https://creativecommons.org/licenses/by-sa/4.0/"
-        }
-      },
-      "image": {
-        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/27/H-IIA_F14_launching_KIZUNA.jpg/500px-H-IIA_F14_launching_KIZUNA.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-        "alt": "Picture from the Wikipedia article on WINDS.",
-        "credit": "Naritama",
-        "source": "https://commons.wikimedia.org/wiki/File:H-IIA_F14_launching_KIZUNA.jpg",
-        "license": "CC BY 2.1 jp",
-        "licenseUrl": "https://creativecommons.org/licenses/by/2.1/jp/deed.en"
       }
     }
   ]

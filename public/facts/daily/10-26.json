@@ -3,6 +3,60 @@
   "dateLabel": "26 October",
   "facts": [
     {
+      "id": "10-26-lego-creator-video-game",
+      "date": "10-26",
+      "dateLabel": "26 October",
+      "category": "culture",
+      "categoryName": "Culture",
+      "year": 1998,
+      "title": "Lego Creator",
+      "body": "Lego Creator is a sandbox game developed by Superscape and published by Lego Media for Windows. The game allows players to assemble virtual Lego bricks and minifigures to create scenes.",
+      "source": {
+        "name": "Wikipedia · Lego Creator (video game)",
+        "url": "https://en.wikipedia.org/wiki/Lego_Creator_(video_game)",
+        "calendarUrl": "https://en.wikipedia.org/wiki/October_26",
+        "license": {
+          "name": "CC BY-SA 4.0",
+          "url": "https://creativecommons.org/licenses/by-sa/4.0/"
+        }
+      },
+      "image": {
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/5b/Lego_Creator.svg/500px-Lego_Creator.svg.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "alt": "Lego Creator — the video game this anniversary is about.",
+        "credit": "w:The Lego Group",
+        "source": "https://commons.wikimedia.org/wiki/File:Lego_Creator.svg",
+        "license": "Public domain",
+        "licenseUrl": "https://commons.wikimedia.org/wiki/File:Lego_Creator.svg"
+      }
+    },
+    {
+      "id": "10-26-grand-theft-auto-advance",
+      "date": "10-26",
+      "dateLabel": "26 October",
+      "category": "culture",
+      "categoryName": "Culture",
+      "year": 2004,
+      "title": "Q648099",
+      "body": "Grand Theft Auto Advance (also marketed as Grand Theft Auto) is a 2004 action-adventure game developed by Digital Eclipse and published by Rockstar Games. The eighth entry in the Grand Theft Auto series, it was released for the Game Boy Advance in October 2004.",
+      "source": {
+        "name": "Wikipedia · Grand Theft Auto Advance",
+        "url": "https://en.wikipedia.org/wiki/Grand_Theft_Auto_Advance",
+        "calendarUrl": "https://en.wikipedia.org/wiki/October_26",
+        "license": {
+          "name": "CC BY-SA 4.0",
+          "url": "https://creativecommons.org/licenses/by-sa/4.0/"
+        }
+      },
+      "image": {
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/99/Grand_Theft_Auto_Advance.png/500px-Grand_Theft_Auto_Advance.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "alt": "Q648099 — the video game this anniversary is about.",
+        "credit": "Wikimedia Commons",
+        "source": "https://commons.wikimedia.org/wiki/File:Grand_Theft_Auto_Advance.png",
+        "license": "Public domain",
+        "licenseUrl": "https://commons.wikimedia.org/wiki/File:Grand_Theft_Auto_Advance.png"
+      }
+    },
+    {
       "id": "10-26-rockstar-games",
       "date": "10-26",
       "dateLabel": "26 October",
@@ -81,60 +135,6 @@
         "source": "https://commons.wikimedia.org/wiki/File:Partenza_da_Quarto.jpg",
         "license": "Public domain",
         "licenseUrl": "https://commons.wikimedia.org/wiki/File:Partenza_da_Quarto.jpg"
-      }
-    },
-    {
-      "id": "10-26-soyuz-3",
-      "date": "10-26",
-      "dateLabel": "26 October",
-      "category": "world",
-      "categoryName": "World",
-      "year": 1968,
-      "title": "Soyuz 3",
-      "body": "The Soyuz 3 mission achieves the first Soviet space rendezvous.",
-      "source": {
-        "name": "Wikipedia · Soyuz 3",
-        "url": "https://en.wikipedia.org/wiki/Soyuz_3",
-        "calendarUrl": "https://en.wikipedia.org/wiki/October_26",
-        "license": {
-          "name": "CC BY-SA 4.0",
-          "url": "https://creativecommons.org/licenses/by-sa/4.0/"
-        }
-      },
-      "image": {
-        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/6a/The_Soviet_Union_1968_CPA_3699_stamp_%28Pilot-Cosmonaut_of_the_USSR_Georgy_Beregovoy_and_Carrier_Rocket_Start%29.jpg/500px-The_Soviet_Union_1968_CPA_3699_stamp_%28Pilot-Cosmonaut_of_the_USSR_Georgy_Beregovoy_and_Carrier_Rocket_Start%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-        "alt": "Picture from the Wikipedia article on Soyuz 3.",
-        "credit": "USSR Post",
-        "source": "https://commons.wikimedia.org/wiki/File:The_Soviet_Union_1968_CPA_3699_stamp_(Pilot-Cosmonaut_of_the_USSR_Georgy_Beregovoy_and_Carrier_Rocket_Start).jpg",
-        "license": "Public domain",
-        "licenseUrl": "https://commons.wikimedia.org/wiki/File:The_Soviet_Union_1968_CPA_3699_stamp_(Pilot-Cosmonaut_of_the_USSR_Georgy_Beregovoy_and_Carrier_Rocket_Start).jpg"
-      }
-    },
-    {
-      "id": "10-26-uluru",
-      "date": "10-26",
-      "dateLabel": "26 October",
-      "category": "world",
-      "categoryName": "World",
-      "year": 1985,
-      "title": "Uluru",
-      "body": "The Australian government returns ownership of Uluru to the local Pitjantjatjara Aboriginals.",
-      "source": {
-        "name": "Wikipedia · Uluru",
-        "url": "https://en.wikipedia.org/wiki/Uluru",
-        "calendarUrl": "https://en.wikipedia.org/wiki/October_26",
-        "license": {
-          "name": "CC BY-SA 4.0",
-          "url": "https://creativecommons.org/licenses/by-sa/4.0/"
-        }
-      },
-      "image": {
-        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a8/ULURU.jpg/500px-ULURU.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-        "alt": "Picture from the Wikipedia article on Uluru.",
-        "credit": "Wikimedia Commons",
-        "source": "https://commons.wikimedia.org/wiki/File:ULURU.jpg",
-        "license": "CC BY-SA 4.0",
-        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0"
       }
     }
   ]

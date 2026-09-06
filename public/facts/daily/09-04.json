@@ -3,6 +3,33 @@
   "dateLabel": "4 September",
   "facts": [
     {
+      "id": "09-04-star-wars-outlaws",
+      "date": "09-04",
+      "dateLabel": "4 September",
+      "category": "culture",
+      "categoryName": "Culture",
+      "year": 2025,
+      "title": "Star Wars Outlaws",
+      "body": "Star Wars Outlaws is a 2024 action-adventure game developed by Massive Entertainment and published by Ubisoft.",
+      "source": {
+        "name": "Wikipedia · Star Wars Outlaws",
+        "url": "https://en.wikipedia.org/wiki/Star_Wars_Outlaws",
+        "calendarUrl": "https://en.wikipedia.org/wiki/September_4",
+        "license": {
+          "name": "CC BY-SA 4.0",
+          "url": "https://creativecommons.org/licenses/by-sa/4.0/"
+        }
+      },
+      "image": {
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/75/StarWarsOutlaws-Logo.svg/500px-StarWarsOutlaws-Logo.svg.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "alt": "Star Wars Outlaws — the video game this anniversary is about.",
+        "credit": "Lucasfilm",
+        "source": "https://commons.wikimedia.org/wiki/File:StarWarsOutlaws-Logo.svg",
+        "license": "Public domain",
+        "licenseUrl": "https://commons.wikimedia.org/wiki/File:StarWarsOutlaws-Logo.svg"
+      }
+    },
+    {
       "id": "09-04-larry-page",
       "date": "09-04",
       "dateLabel": "4 September",
@@ -108,33 +135,6 @@
         "source": "https://commons.wikimedia.org/wiki/File:C60-Fulleren-kristallin.JPG",
         "license": "CC BY-SA 3.0",
         "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0/"
-      }
-    },
-    {
-      "id": "09-04-tokyo-disneysea",
-      "date": "09-04",
-      "dateLabel": "4 September",
-      "category": "culture",
-      "categoryName": "Culture",
-      "year": 2001,
-      "title": "Tokyo DisneySea",
-      "body": "Tokyo DisneySea opens to the public as part of the Tokyo Disney Resort in Urayasu, Chiba, Japan.",
-      "source": {
-        "name": "Wikipedia · Tokyo DisneySea",
-        "url": "https://en.wikipedia.org/wiki/Tokyo_DisneySea",
-        "calendarUrl": "https://en.wikipedia.org/wiki/September_4",
-        "license": {
-          "name": "CC BY-SA 4.0",
-          "url": "https://creativecommons.org/licenses/by-sa/4.0/"
-        }
-      },
-      "image": {
-        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/3c/Tokyo_DisneySea_logo.svg/500px-Tokyo_DisneySea_logo.svg.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-        "alt": "Picture from the Wikipedia article on Tokyo DisneySea.",
-        "credit": "Disney Enterprises, Inc",
-        "source": "https://commons.wikimedia.org/wiki/File:Tokyo_DisneySea_logo.svg",
-        "license": "Public domain",
-        "licenseUrl": "https://commons.wikimedia.org/wiki/File:Tokyo_DisneySea_logo.svg"
       }
     }
   ]

@@ -3,6 +3,60 @@
   "dateLabel": "11 March",
   "facts": [
     {
+      "id": "03-11-buzz-aldrin-s-race-into-space",
+      "date": "03-11",
+      "dateLabel": "11 March",
+      "category": "culture",
+      "categoryName": "Culture",
+      "year": 1993,
+      "title": "Buzz Aldrin's Race Into Space",
+      "body": "Buzz Aldrin's Race Into Space, frequently abbreviated BARIS, is a 1993 space simulation strategy game for MS-DOS.",
+      "source": {
+        "name": "Wikipedia · Buzz Aldrin's Race Into Space",
+        "url": "https://en.wikipedia.org/wiki/Buzz_Aldrin%27s_Race_Into_Space",
+        "calendarUrl": "https://en.wikipedia.org/wiki/March_11",
+        "license": {
+          "name": "CC BY-SA 4.0",
+          "url": "https://creativecommons.org/licenses/by-sa/4.0/"
+        }
+      },
+      "image": {
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/ad/RIS_screenshot_v1.1.0.02_%28pandora_game_port%29.png/500px-RIS_screenshot_v1.1.0.02_%28pandora_game_port%29.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "alt": "Buzz Aldrin's Race Into Space — the video game this anniversary is about.",
+        "credit": "race into space project",
+        "source": "https://commons.wikimedia.org/wiki/File:RIS_screenshot_v1.1.0.02_(pandora_game_port).png",
+        "license": "GPL",
+        "licenseUrl": "https://www.gnu.org/licenses/gpl.html"
+      }
+    },
+    {
+      "id": "03-11-library-genesis",
+      "date": "03-11",
+      "dateLabel": "11 March",
+      "category": "tech",
+      "categoryName": "Tech",
+      "year": 2008,
+      "title": "Library Genesis",
+      "body": "Library Genesis (shortened to LibGen) is a shadow library project for file-sharing access to scholarly journal articles, academic and general-interest books, images, comics, audiobooks, and magazines. The site enables free access to works that are otherwise paywalled or not digitized elsewhere.",
+      "source": {
+        "name": "Wikipedia · Library Genesis",
+        "url": "https://en.wikipedia.org/wiki/Library_Genesis",
+        "calendarUrl": "https://en.wikipedia.org/wiki/March_11",
+        "license": {
+          "name": "CC BY-SA 4.0",
+          "url": "https://creativecommons.org/licenses/by-sa/4.0/"
+        }
+      },
+      "image": {
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/04/Libgen_English_interface.png/500px-Libgen_English_interface.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "alt": "Library Genesis — the website this anniversary is about.",
+        "credit": "Libgen developers",
+        "source": "https://commons.wikimedia.org/wiki/File:Libgen_English_interface.png",
+        "license": "Public domain",
+        "licenseUrl": "https://commons.wikimedia.org/wiki/File:Libgen_English_interface.png"
+      }
+    },
+    {
       "id": "03-11-space-shuttle-endeavour",
       "date": "03-11",
       "dateLabel": "11 March",
@@ -81,60 +135,6 @@
         "source": "https://commons.wikimedia.org/wiki/File:British_and_Indian_machine_gunners_with_a_Vickers_machine_gun,_Lewis_gun_and_range-finder,_1917.jpg",
         "license": "Public domain",
         "licenseUrl": "https://commons.wikimedia.org/wiki/File:British_and_Indian_machine_gunners_with_a_Vickers_machine_gun,_Lewis_gun_and_range-finder,_1917.jpg"
-      }
-    },
-    {
-      "id": "03-11-empire-of-vietnam",
-      "date": "03-11",
-      "dateLabel": "11 March",
-      "category": "world",
-      "categoryName": "World",
-      "year": 1945,
-      "title": "Empire of Vietnam",
-      "body": "The Empire of Vietnam, a short-lived Japanese puppet state, is established.",
-      "source": {
-        "name": "Wikipedia · Empire of Vietnam",
-        "url": "https://en.wikipedia.org/wiki/Empire_of_Vietnam",
-        "calendarUrl": "https://en.wikipedia.org/wiki/March_11",
-        "license": {
-          "name": "CC BY-SA 4.0",
-          "url": "https://creativecommons.org/licenses/by-sa/4.0/"
-        }
-      },
-      "image": {
-        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/34/Long_tinh_flag.svg/500px-Long_tinh_flag.svg.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-        "alt": "Picture from the Wikipedia article on Empire of Vietnam.",
-        "credit": "Smurrayinchester",
-        "source": "https://commons.wikimedia.org/wiki/File:Long_tinh_flag.svg",
-        "license": "Public domain",
-        "licenseUrl": "https://commons.wikimedia.org/wiki/File:Long_tinh_flag.svg"
-      }
-    },
-    {
-      "id": "03-11-the-daily-courant",
-      "date": "03-11",
-      "dateLabel": "11 March",
-      "category": "world",
-      "categoryName": "World",
-      "year": 1702,
-      "title": "The Daily Courant",
-      "body": "The Daily Courant, England's first national daily newspaper, is published for the first time.",
-      "source": {
-        "name": "Wikipedia · The Daily Courant",
-        "url": "https://en.wikipedia.org/wiki/The_Daily_Courant",
-        "calendarUrl": "https://en.wikipedia.org/wiki/March_11",
-        "license": {
-          "name": "CC BY-SA 4.0",
-          "url": "https://creativecommons.org/licenses/by-sa/4.0/"
-        }
-      },
-      "image": {
-        "src": "https://upload.wikimedia.org/wikipedia/commons/e/ec/The_Daily_Courant.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
-        "alt": "Picture from the Wikipedia article on The Daily Courant.",
-        "credit": "Edward Mallet",
-        "source": "https://commons.wikimedia.org/wiki/File:The_Daily_Courant.png",
-        "license": "Public domain",
-        "licenseUrl": "https://commons.wikimedia.org/wiki/File:The_Daily_Courant.png"
       }
     }
   ]

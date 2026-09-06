@@ -3,6 +3,60 @@
   "dateLabel": "12 May",
   "facts": [
     {
+      "id": "05-12-freecol",
+      "date": "05-12",
+      "dateLabel": "12 May",
+      "category": "culture",
+      "categoryName": "Culture",
+      "year": 2009,
+      "title": "FreeCol",
+      "body": "FreeCol is a 4X video game, a clone of Sid Meier's Colonization. 0-or-later.",
+      "source": {
+        "name": "Wikipedia · FreeCol",
+        "url": "https://en.wikipedia.org/wiki/FreeCol",
+        "calendarUrl": "https://en.wikipedia.org/wiki/May_12",
+        "license": {
+          "name": "CC BY-SA 4.0",
+          "url": "https://creativecommons.org/licenses/by-sa/4.0/"
+        }
+      },
+      "image": {
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e4/FreeCol0_5_2_mapboard.jpg/500px-FreeCol0_5_2_mapboard.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "alt": "FreeCol — the video game this anniversary is about.",
+        "credit": "FreeCol Developers",
+        "source": "https://commons.wikimedia.org/wiki/File:FreeCol0_5_2_mapboard.jpg",
+        "license": "GPL",
+        "licenseUrl": "https://www.gnu.org/licenses/gpl.html"
+      }
+    },
+    {
+      "id": "05-12-the-backrooms",
+      "date": "05-12",
+      "dateLabel": "12 May",
+      "category": "curious",
+      "categoryName": "Curious",
+      "year": 2019,
+      "title": "The Backrooms",
+      "body": "The Backrooms are a fictional location invented in a 2019 thread on the imageboard website 4chan. The Backrooms are usually portrayed as an impossibly large extradimensional complex of empty rooms, accessed by exiting reality.",
+      "source": {
+        "name": "Wikipedia · The Backrooms",
+        "url": "https://en.wikipedia.org/wiki/The_Backrooms",
+        "calendarUrl": "https://en.wikipedia.org/wiki/May_12",
+        "license": {
+          "name": "CC BY-SA 4.0",
+          "url": "https://creativecommons.org/licenses/by-sa/4.0/"
+        }
+      },
+      "image": {
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/bb/HobbyTown_USA_Oshkosh_interior_under_construction_2002_%28The_Backrooms%29.jpg/500px-HobbyTown_USA_Oshkosh_interior_under_construction_2002_%28The_Backrooms%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "alt": "The Backrooms — the internet meme this anniversary is about.",
+        "credit": "Bill Magritz or Bob Mazza",
+        "source": "https://commons.wikimedia.org/wiki/File:HobbyTown_USA_Oshkosh_interior_under_construction_2002_(The_Backrooms).jpg",
+        "license": "Copyrighted free use",
+        "licenseUrl": "https://commons.wikimedia.org/wiki/File:HobbyTown_USA_Oshkosh_interior_under_construction_2002_(The_Backrooms).jpg"
+      }
+    },
+    {
       "id": "05-12-konrad-zuse",
       "date": "05-12",
       "dateLabel": "12 May",
@@ -81,60 +135,6 @@
         "source": "https://commons.wikimedia.org/wiki/File:Norge_airship_in_flight_1926.jpg",
         "license": "Public domain",
         "licenseUrl": "https://commons.wikimedia.org/wiki/File:Norge_airship_in_flight_1926.jpg"
-      }
-    },
-    {
-      "id": "05-12-zaire",
-      "date": "05-12",
-      "dateLabel": "12 May",
-      "category": "world",
-      "categoryName": "World",
-      "year": 1978,
-      "title": "Zaire",
-      "body": "In Zaire, rebels occupy the city of Kolwezi, the mining center of the province of Shaba (now known as Katanga); the local government asks the US, France and Belgium to restore order.",
-      "source": {
-        "name": "Wikipedia · Zaire",
-        "url": "https://en.wikipedia.org/wiki/Zaire",
-        "calendarUrl": "https://en.wikipedia.org/wiki/May_12",
-        "license": {
-          "name": "CC BY-SA 4.0",
-          "url": "https://creativecommons.org/licenses/by-sa/4.0/"
-        }
-      },
-      "image": {
-        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f8/Flag_of_Zaire_%281971%E2%80%931997%29.svg/500px-Flag_of_Zaire_%281971%E2%80%931997%29.svg.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-        "alt": "Picture from the Wikipedia article on Zaire.",
-        "credit": "User:Moyogo",
-        "source": "https://commons.wikimedia.org/wiki/File:Flag_of_Zaire_(1971%E2%80%931997).svg",
-        "license": "Public domain",
-        "licenseUrl": "https://commons.wikimedia.org/wiki/File:Flag_of_Zaire_(1971%E2%80%931997).svg"
-      }
-    },
-    {
-      "id": "05-12-berlin-blockade",
-      "date": "05-12",
-      "dateLabel": "12 May",
-      "category": "world",
-      "categoryName": "World",
-      "year": 1949,
-      "title": "Berlin Blockade",
-      "body": "The Soviet Union lifts its blockade of Berlin.",
-      "source": {
-        "name": "Wikipedia · Berlin Blockade",
-        "url": "https://en.wikipedia.org/wiki/Berlin_Blockade",
-        "calendarUrl": "https://en.wikipedia.org/wiki/May_12",
-        "license": {
-          "name": "CC BY-SA 4.0",
-          "url": "https://creativecommons.org/licenses/by-sa/4.0/"
-        }
-      },
-      "image": {
-        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/92/C-54_landing_at_Tempelhof.jpg/500px-C-54_landing_at_Tempelhof.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-        "alt": "Picture from the Wikipedia article on Berlin Blockade.",
-        "credit": "Henry Ries / USAF",
-        "source": "https://commons.wikimedia.org/wiki/File:C-54_landing_at_Tempelhof.jpg",
-        "license": "Public domain",
-        "licenseUrl": "https://commons.wikimedia.org/wiki/File:C-54_landing_at_Tempelhof.jpg"
       }
     }
   ]

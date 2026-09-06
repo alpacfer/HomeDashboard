@@ -3,6 +3,33 @@
   "dateLabel": "8 June",
   "facts": [
     {
+      "id": "06-08-kde-neon",
+      "date": "06-08",
+      "dateLabel": "8 June",
+      "category": "tech",
+      "categoryName": "Tech",
+      "year": 2016,
+      "title": "KDE neon",
+      "body": "KDE neon is a Linux distribution developed by KDE based on Ubuntu long-term support (LTS) releases, bundled with a set of additional software repositories containing the latest versions of the Plasma 6 desktop environment/framework, Qt 6 toolkit and other compatible KDE software.",
+      "source": {
+        "name": "Wikipedia · KDE neon",
+        "url": "https://en.wikipedia.org/wiki/KDE_neon",
+        "calendarUrl": "https://en.wikipedia.org/wiki/June_8",
+        "license": {
+          "name": "CC BY-SA 4.0",
+          "url": "https://creativecommons.org/licenses/by-sa/4.0/"
+        }
+      },
+      "image": {
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/fc/KDE_Neon_5.27_Desktop_English.png/500px-KDE_Neon_5.27_Desktop_English.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "alt": "KDE neon — the operating system this anniversary is about.",
+        "credit": "KDE",
+        "source": "https://commons.wikimedia.org/wiki/File:KDE_Neon_5.27_Desktop_English.png",
+        "license": "GPL",
+        "licenseUrl": "https://www.gnu.org/licenses/gpl.html"
+      }
+    },
+    {
       "id": "06-08-transit-of-venus-2004",
       "date": "06-08",
       "dateLabel": "8 June",
@@ -108,33 +135,6 @@
         "source": "https://commons.wikimedia.org/wiki/File:%D0%91%D0%B5%D0%BB%D0%B0%D1%8F_%D0%BD%D0%BE%D1%87%D1%8C_%D0%BD%D0%B0%D0%B4_%D0%91%D0%B5%D0%BB%D1%8B%D0%BC_%D0%BC%D0%BE%D1%80%D0%B5%D0%BC.JPG",
         "license": "Public domain",
         "licenseUrl": "https://commons.wikimedia.org/wiki/File:%D0%91%D0%B5%D0%BB%D0%B0%D1%8F_%D0%BD%D0%BE%D1%87%D1%8C_%D0%BD%D0%B0%D0%B4_%D0%91%D0%B5%D0%BB%D1%8B%D0%BC_%D0%BC%D0%BE%D1%80%D0%B5%D0%BC.JPG"
-      }
-    },
-    {
-      "id": "06-08-herman-hollerith",
-      "date": "06-08",
-      "dateLabel": "8 June",
-      "category": "tech",
-      "categoryName": "Tech",
-      "year": 1887,
-      "title": "Herman Hollerith",
-      "body": "Herman Hollerith applies for US patent #395,781 for the 'Art of Compiling Statistics', which was his punched card calculator.",
-      "source": {
-        "name": "Wikipedia · Herman Hollerith",
-        "url": "https://en.wikipedia.org/wiki/Herman_Hollerith",
-        "calendarUrl": "https://en.wikipedia.org/wiki/June_8",
-        "license": {
-          "name": "CC BY-SA 4.0",
-          "url": "https://creativecommons.org/licenses/by-sa/4.0/"
-        }
-      },
-      "image": {
-        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/42/Hollerith.jpg/500px-Hollerith.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-        "alt": "Picture from the Wikipedia article on Herman Hollerith.",
-        "credit": "Charles Milton Bell",
-        "source": "https://commons.wikimedia.org/wiki/File:Hollerith.jpg",
-        "license": "Public domain",
-        "licenseUrl": "https://commons.wikimedia.org/wiki/File:Hollerith.jpg"
       }
     }
   ]

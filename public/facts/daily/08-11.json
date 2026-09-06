@@ -3,6 +3,60 @@
   "dateLabel": "11 August",
   "facts": [
     {
+      "id": "08-11-tremulous",
+      "date": "08-11",
+      "dateLabel": "11 August",
+      "category": "culture",
+      "categoryName": "Culture",
+      "year": 2005,
+      "title": "Tremulous",
+      "body": "Tremulous is a free and open source asymmetric team-based first-person shooter with real-time strategy elements. Being a cross-platform development project the game is available for Windows, Linux, and Mac OS X. The game features two opposing teams: humans and aliens.",
+      "source": {
+        "name": "Wikipedia · Tremulous",
+        "url": "https://en.wikipedia.org/wiki/Tremulous",
+        "calendarUrl": "https://en.wikipedia.org/wiki/August_11",
+        "license": {
+          "name": "CC BY-SA 4.0",
+          "url": "https://creativecommons.org/licenses/by-sa/4.0/"
+        }
+      },
+      "image": {
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/73/Tremulous_-_alien_base_grenade.jpg/500px-Tremulous_-_alien_base_grenade.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "alt": "Tremulous — the video game this anniversary is about.",
+        "credit": "Screenshot taken by User:Miko3k",
+        "source": "https://commons.wikimedia.org/wiki/File:Tremulous_-_alien_base_grenade.jpg",
+        "license": "CC BY-SA 2.5",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.5"
+      }
+    },
+    {
+      "id": "08-11-libreflix",
+      "date": "08-11",
+      "dateLabel": "11 August",
+      "category": "tech",
+      "categoryName": "Tech",
+      "year": 2017,
+      "title": "Libreflix",
+      "body": "Libreflix is a free online Brazilian service that offers access to audiovisual productions with permissive distribution licenses through streaming. The platform is open and its development is done collaboratively and it is open source, following the philosophy of free software.",
+      "source": {
+        "name": "Wikipedia · Libreflix",
+        "url": "https://en.wikipedia.org/wiki/Libreflix",
+        "calendarUrl": "https://en.wikipedia.org/wiki/August_11",
+        "license": {
+          "name": "CC BY-SA 4.0",
+          "url": "https://creativecommons.org/licenses/by-sa/4.0/"
+        }
+      },
+      "image": {
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e2/Libreflix_screenshot.png/500px-Libreflix_screenshot.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "alt": "Libreflix — the website this anniversary is about.",
+        "credit": "NMaia",
+        "source": "https://commons.wikimedia.org/wiki/File:Libreflix_screenshot.png",
+        "license": "GPL",
+        "licenseUrl": "https://www.gnu.org/licenses/gpl.html"
+      }
+    },
+    {
       "id": "08-11-vostok-3",
       "date": "08-11",
       "dateLabel": "11 August",
@@ -81,60 +135,6 @@
         "source": "https://commons.wikimedia.org/wiki/File:Nickelodeon_2023_logo_(outline).svg",
         "license": "Public domain",
         "licenseUrl": "https://commons.wikimedia.org/wiki/File:Nickelodeon_2023_logo_(outline).svg"
-      }
-    },
-    {
-      "id": "08-11-luna-25",
-      "date": "08-11",
-      "dateLabel": "11 August",
-      "category": "world",
-      "categoryName": "World",
-      "year": 2023,
-      "title": "Luna 25",
-      "body": "Luna 25 launches from the Vostochny Cosmodrome.",
-      "source": {
-        "name": "Wikipedia · Luna 25",
-        "url": "https://en.wikipedia.org/wiki/Luna_25",
-        "calendarUrl": "https://en.wikipedia.org/wiki/August_11",
-        "license": {
-          "name": "CC BY-SA 4.0",
-          "url": "https://creativecommons.org/licenses/by-sa/4.0/"
-        }
-      },
-      "image": {
-        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/ff/Maquette-Luna-Glob-Lander-b-DSC_0075.jpg/500px-Maquette-Luna-Glob-Lander-b-DSC_0075.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-        "alt": "Picture from the Wikipedia article on Luna 25.",
-        "credit": "Pline",
-        "source": "https://commons.wikimedia.org/wiki/File:Maquette-Luna-Glob-Lander-b-DSC_0075.jpg",
-        "license": "CC BY-SA 4.0",
-        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0"
-      }
-    },
-    {
-      "id": "08-11-mall-of-america",
-      "date": "08-11",
-      "dateLabel": "11 August",
-      "category": "world",
-      "categoryName": "World",
-      "year": 1992,
-      "title": "Mall of America",
-      "body": "The Mall of America in Bloomington, Minnesota opens. At the time, it is the largest shopping mall in the United States.",
-      "source": {
-        "name": "Wikipedia · Mall of America",
-        "url": "https://en.wikipedia.org/wiki/Mall_of_America",
-        "calendarUrl": "https://en.wikipedia.org/wiki/August_11",
-        "license": {
-          "name": "CC BY-SA 4.0",
-          "url": "https://creativecommons.org/licenses/by-sa/4.0/"
-        }
-      },
-      "image": {
-        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/59/2018_Mall_of_America_01.jpg/500px-2018_Mall_of_America_01.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-        "alt": "Picture from the Wikipedia article on Mall of America.",
-        "credit": "Farragutful",
-        "source": "https://commons.wikimedia.org/wiki/File:2018_Mall_of_America_01.jpg",
-        "license": "CC BY-SA 4.0",
-        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0"
       }
     }
   ]

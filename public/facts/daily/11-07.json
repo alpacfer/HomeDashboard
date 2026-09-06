@@ -3,6 +3,60 @@
   "dateLabel": "7 November",
   "facts": [
     {
+      "id": "11-07-roboblitz",
+      "date": "11-07",
+      "dateLabel": "7 November",
+      "category": "culture",
+      "categoryName": "Culture",
+      "year": 2006,
+      "title": "RoboBlitz",
+      "body": "RoboBlitz is an indie puzzle action video game for Microsoft Windows through Steam and the Xbox 360 through Xbox Live Arcade. The game was developed by Naked Sky Entertainment and released on November 6, 2006.",
+      "source": {
+        "name": "Wikipedia · RoboBlitz",
+        "url": "https://en.wikipedia.org/wiki/RoboBlitz",
+        "calendarUrl": "https://en.wikipedia.org/wiki/November_7",
+        "license": {
+          "name": "CC BY-SA 4.0",
+          "url": "https://creativecommons.org/licenses/by-sa/4.0/"
+        }
+      },
+      "image": {
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/00/RoboBlitz_-_Screenshot_01.jpg/500px-RoboBlitz_-_Screenshot_01.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "alt": "RoboBlitz — the video game this anniversary is about.",
+        "credit": "Naked Sky Entertainment, Inc",
+        "source": "https://commons.wikimedia.org/wiki/File:RoboBlitz_-_Screenshot_01.jpg",
+        "license": "CC BY-SA 3.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0"
+      }
+    },
+    {
+      "id": "11-07-kid-senshi-gundam-senj-no-kizuna",
+      "date": "11-07",
+      "dateLabel": "7 November",
+      "category": "culture",
+      "categoryName": "Culture",
+      "year": 2006,
+      "title": "Kidō Senshi Gundam: Senjō no Kizuna",
+      "body": "Kidō Senshi Gundam: Senjō no Kizuna (機動戦士ガンダム 戦場の絆, lit. Mobile Suit Gundam: Bonds of the Battlefield), is a Japanese arcade game set in the original Gundam universe (Mobile Suit Gundam).",
+      "source": {
+        "name": "Wikipedia · Kidō Senshi Gundam: Senjō no Kizuna",
+        "url": "https://en.wikipedia.org/wiki/Kid%C5%8D_Senshi_Gundam:_Senj%C5%8D_no_Kizuna",
+        "calendarUrl": "https://en.wikipedia.org/wiki/November_7",
+        "license": {
+          "name": "CC BY-SA 4.0",
+          "url": "https://creativecommons.org/licenses/by-sa/4.0/"
+        }
+      },
+      "image": {
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/8c/Gundam_Kizuna_PODs.jpg/500px-Gundam_Kizuna_PODs.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "alt": "Kidō Senshi Gundam: Senjō no Kizuna — the video game this anniversary is about.",
+        "credit": "Ocasioc",
+        "source": "https://commons.wikimedia.org/wiki/File:Gundam_Kizuna_PODs.jpg",
+        "license": "CC BY-SA 3.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0/"
+      }
+    },
+    {
       "id": "11-07-magic-johnson",
       "date": "11-07",
       "dateLabel": "7 November",
@@ -81,60 +135,6 @@
         "source": "https://commons.wikimedia.org/wiki/File:Oil_Rocks_monuments.jpg",
         "license": "Public domain",
         "licenseUrl": "https://commons.wikimedia.org/wiki/File:Oil_Rocks_monuments.jpg"
-      }
-    },
-    {
-      "id": "11-07-mars-global-surveyor",
-      "date": "11-07",
-      "dateLabel": "7 November",
-      "category": "space",
-      "categoryName": "Space",
-      "year": 1996,
-      "title": "Mars Global Surveyor",
-      "body": "NASA launches the Mars Global Surveyor.",
-      "source": {
-        "name": "Wikipedia · Mars Global Surveyor",
-        "url": "https://en.wikipedia.org/wiki/Mars_Global_Surveyor",
-        "calendarUrl": "https://en.wikipedia.org/wiki/November_7",
-        "license": {
-          "name": "CC BY-SA 4.0",
-          "url": "https://creativecommons.org/licenses/by-sa/4.0/"
-        }
-      },
-      "image": {
-        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d8/Mars_global_surveyor.jpg/500px-Mars_global_surveyor.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-        "alt": "Picture from the Wikipedia article on Mars Global Surveyor.",
-        "credit": "NASA/JPL-Caltech/Corby Waste",
-        "source": "https://commons.wikimedia.org/wiki/File:Mars_global_surveyor.jpg",
-        "license": "Public domain",
-        "licenseUrl": "https://commons.wikimedia.org/wiki/File:Mars_global_surveyor.jpg"
-      }
-    },
-    {
-      "id": "11-07-museum-of-modern-art",
-      "date": "11-07",
-      "dateLabel": "7 November",
-      "category": "culture",
-      "categoryName": "Culture",
-      "year": 1929,
-      "title": "Museum of Modern Art",
-      "body": "In New York City, the Museum of Modern Art opens to the public.",
-      "source": {
-        "name": "Wikipedia · Museum of Modern Art",
-        "url": "https://en.wikipedia.org/wiki/Museum_of_Modern_Art",
-        "calendarUrl": "https://en.wikipedia.org/wiki/November_7",
-        "license": {
-          "name": "CC BY-SA 4.0",
-          "url": "https://creativecommons.org/licenses/by-sa/4.0/"
-        }
-      },
-      "image": {
-        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/8b/MoMa_NY_USA_1.jpg/500px-MoMa_NY_USA_1.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-        "alt": "Picture from the Wikipedia article on Museum of Modern Art.",
-        "credit": "hibino",
-        "source": "https://commons.wikimedia.org/wiki/File:MoMa_NY_USA_1.jpg",
-        "license": "CC BY 2.0",
-        "licenseUrl": "https://creativecommons.org/licenses/by/2.0"
       }
     }
   ]

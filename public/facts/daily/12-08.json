@@ -3,6 +3,60 @@
   "dateLabel": "8 December",
   "facts": [
     {
+      "id": "12-08-wii-sports",
+      "date": "12-08",
+      "dateLabel": "8 December",
+      "category": "culture",
+      "categoryName": "Culture",
+      "year": 2006,
+      "title": "Wii Sports",
+      "body": "Wii Sports is a 2006 sports simulation video game developed and published by Nintendo for the Wii video game console. The game was released in North America along with the Wii on 19 November 2006, and in Japan, Australia, and Europe the following month.",
+      "source": {
+        "name": "Wikipedia · Wii Sports",
+        "url": "https://en.wikipedia.org/wiki/Wii_Sports",
+        "calendarUrl": "https://en.wikipedia.org/wiki/December_8",
+        "license": {
+          "name": "CC BY-SA 4.0",
+          "url": "https://creativecommons.org/licenses/by-sa/4.0/"
+        }
+      },
+      "image": {
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/24/Duo_playing_Wii_Sports.jpg/500px-Duo_playing_Wii_Sports.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "alt": "Wii Sports — the video game this anniversary is about.",
+        "credit": "david murphy from Helsinki, Finland",
+        "source": "https://commons.wikimedia.org/wiki/File:Duo_playing_Wii_Sports.jpg",
+        "license": "CC BY-SA 2.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0"
+      }
+    },
+    {
+      "id": "12-08-simcity-1989-video-game",
+      "date": "12-08",
+      "dateLabel": "8 December",
+      "category": "culture",
+      "categoryName": "Culture",
+      "year": 2006,
+      "title": "Q7798922",
+      "body": "SimCity (also known as the retronyms Micropolis or SimCity Classic) is a city-building simulation video game developed by Will Wright, and released for several platforms from 1989 to 1991. SimCity features two-dimensional graphics and an overhead perspective.",
+      "source": {
+        "name": "Wikipedia · SimCity (1989 video game)",
+        "url": "https://en.wikipedia.org/wiki/SimCity_(1989_video_game)",
+        "calendarUrl": "https://en.wikipedia.org/wiki/December_8",
+        "license": {
+          "name": "CC BY-SA 4.0",
+          "url": "https://creativecommons.org/licenses/by-sa/4.0/"
+        }
+      },
+      "image": {
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/46/SimCity-Indigo.gif/500px-SimCity-Indigo.gif?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "alt": "Q7798922 — the video game this anniversary is about.",
+        "credit": "Xardox at en.wikipedia",
+        "source": "https://commons.wikimedia.org/wiki/File:SimCity-Indigo.gif",
+        "license": "Public domain",
+        "licenseUrl": "https://commons.wikimedia.org/wiki/File:SimCity-Indigo.gif"
+      }
+    },
+    {
       "id": "12-08-cots-demo-flight-1",
       "date": "12-08",
       "dateLabel": "8 December",
@@ -81,60 +135,6 @@
         "source": "https://commons.wikimedia.org/wiki/File:RIAN_archive_848095_Signing_the_Agreement_to_eliminate_the_USSR_and_establish_the_Commonwealth_of_Independent_States.jpg",
         "license": "CC BY-SA 3.0",
         "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0"
-      }
-    },
-    {
-      "id": "12-08-greek-republic-referendum-1974",
-      "date": "12-08",
-      "dateLabel": "8 December",
-      "category": "world",
-      "categoryName": "World",
-      "year": 1974,
-      "title": "1974 Greek republic referendum",
-      "body": "A plebiscite results in the abolition of monarchy in Greece.",
-      "source": {
-        "name": "Wikipedia · 1974 Greek republic referendum",
-        "url": "https://en.wikipedia.org/wiki/1974_Greek_republic_referendum",
-        "calendarUrl": "https://en.wikipedia.org/wiki/December_8",
-        "license": {
-          "name": "CC BY-SA 4.0",
-          "url": "https://creativecommons.org/licenses/by-sa/4.0/"
-        }
-      },
-      "image": {
-        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/57/Greek_referendum_1974_map.svg/500px-Greek_referendum_1974_map.svg.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-        "alt": "Picture from the Wikipedia article on 1974 Greek republic referendum.",
-        "credit": "MrPenguin20",
-        "source": "https://commons.wikimedia.org/wiki/File:Greek_referendum_1974_map.svg",
-        "license": "CC BY-SA 4.0",
-        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0"
-      }
-    },
-    {
-      "id": "12-08-flag-of-europe",
-      "date": "12-08",
-      "dateLabel": "8 December",
-      "category": "world",
-      "categoryName": "World",
-      "year": 1955,
-      "title": "Flag of Europe",
-      "body": "The Flag of Europe is adopted by Council of Europe.",
-      "source": {
-        "name": "Wikipedia · Flag of Europe",
-        "url": "https://en.wikipedia.org/wiki/Flag_of_Europe",
-        "calendarUrl": "https://en.wikipedia.org/wiki/December_8",
-        "license": {
-          "name": "CC BY-SA 4.0",
-          "url": "https://creativecommons.org/licenses/by-sa/4.0/"
-        }
-      },
-      "image": {
-        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b7/Flag_of_Europe.svg/500px-Flag_of_Europe.svg.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-        "alt": "Picture from the Wikipedia article on Flag of Europe.",
-        "credit": "User:Verdy p",
-        "source": "https://commons.wikimedia.org/wiki/File:Flag_of_Europe.svg",
-        "license": "Public domain",
-        "licenseUrl": "https://commons.wikimedia.org/wiki/File:Flag_of_Europe.svg"
       }
     }
   ]

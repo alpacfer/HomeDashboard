@@ -3,6 +3,60 @@
   "dateLabel": "10 September",
   "facts": [
     {
+      "id": "09-10-gitlab",
+      "date": "09-10",
+      "dateLabel": "10 September",
+      "category": "tech",
+      "categoryName": "Tech",
+      "year": 2014,
+      "title": "Q16639197",
+      "body": "GitLab is a software forge primarily developed by GitLab Inc. It is available as either a free software \"Community\" edition or a proprietary software \"Enterprise\" edition.",
+      "source": {
+        "name": "Wikipedia · GitLab",
+        "url": "https://en.wikipedia.org/wiki/GitLab",
+        "calendarUrl": "https://en.wikipedia.org/wiki/September_10",
+        "license": {
+          "name": "CC BY-SA 4.0",
+          "url": "https://creativecommons.org/licenses/by-sa/4.0/"
+        }
+      },
+      "image": {
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d5/GitLab_running_14.3.0-pre_%282021-08%29.png/500px-GitLab_running_14.3.0-pre_%282021-08%29.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "alt": "Q16639197 — the internet service this anniversary is about.",
+        "credit": "İsmail Arılık",
+        "source": "https://commons.wikimedia.org/wiki/File:GitLab_running_14.3.0-pre_(2021-08).png",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0"
+      }
+    },
+    {
+      "id": "09-10-gears-5",
+      "date": "09-10",
+      "dateLabel": "10 September",
+      "category": "culture",
+      "categoryName": "Culture",
+      "year": 2019,
+      "title": "Gears 5",
+      "body": "Gears 5 is a 2019 third-person shooter video game developed by The Coalition and published by Xbox Game Studios for Windows, Xbox One, and Xbox Series X/S.",
+      "source": {
+        "name": "Wikipedia · Gears 5",
+        "url": "https://en.wikipedia.org/wiki/Gears_5",
+        "calendarUrl": "https://en.wikipedia.org/wiki/September_10",
+        "license": {
+          "name": "CC BY-SA 4.0",
+          "url": "https://creativecommons.org/licenses/by-sa/4.0/"
+        }
+      },
+      "image": {
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/43/Gears_5_Hivebuster_Squad.png/500px-Gears_5_Hivebuster_Squad.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "alt": "Gears 5 — the video game this anniversary is about.",
+        "credit": "Microsoft",
+        "source": "https://commons.wikimedia.org/wiki/File:Gears_5_Hivebuster_Squad.png",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0"
+      }
+    },
+    {
       "id": "09-10-polaris-dawn",
       "date": "09-10",
       "dateLabel": "10 September",
@@ -81,60 +135,6 @@
         "source": "https://commons.wikimedia.org/wiki/File:LHC.svg",
         "license": "CC BY-SA 2.5",
         "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.5"
-      }
-    },
-    {
-      "id": "09-10-george-mary-searle",
-      "date": "09-10",
-      "dateLabel": "10 September",
-      "category": "space",
-      "categoryName": "Space",
-      "year": 1858,
-      "title": "George Mary Searle",
-      "body": "George Mary Searle discovers the asteroid 55 Pandora.",
-      "source": {
-        "name": "Wikipedia · George Mary Searle",
-        "url": "https://en.wikipedia.org/wiki/George_Mary_Searle",
-        "calendarUrl": "https://en.wikipedia.org/wiki/September_10",
-        "license": {
-          "name": "CC BY-SA 4.0",
-          "url": "https://creativecommons.org/licenses/by-sa/4.0/"
-        }
-      },
-      "image": {
-        "src": "https://upload.wikimedia.org/wikipedia/commons/3/3a/George_Mary_Searle.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
-        "alt": "Picture from the Wikipedia article on George Mary Searle.",
-        "credit": "Unknown author",
-        "source": "https://commons.wikimedia.org/wiki/File:George_Mary_Searle.jpg",
-        "license": "Public domain",
-        "licenseUrl": "https://commons.wikimedia.org/wiki/File:George_Mary_Searle.jpg"
-      }
-    },
-    {
-      "id": "09-10-1967-gibraltar-sovereignty-referendum",
-      "date": "09-10",
-      "dateLabel": "10 September",
-      "category": "world",
-      "categoryName": "World",
-      "year": 1967,
-      "title": "1967 Gibraltar sovereignty referendum",
-      "body": "The people of Gibraltar vote to remain a British dependency rather than becoming part of Spain.",
-      "source": {
-        "name": "Wikipedia · 1967 Gibraltar sovereignty referendum",
-        "url": "https://en.wikipedia.org/wiki/1967_Gibraltar_sovereignty_referendum",
-        "calendarUrl": "https://en.wikipedia.org/wiki/September_10",
-        "license": {
-          "name": "CC BY-SA 4.0",
-          "url": "https://creativecommons.org/licenses/by-sa/4.0/"
-        }
-      },
-      "image": {
-        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e3/Coat_of_Arms_of_the_Government_of_Gibraltar_%28Tudor_Crown%29.svg/500px-Coat_of_Arms_of_the_Government_of_Gibraltar_%28Tudor_Crown%29.svg.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-        "alt": "Picture from the Wikipedia article on 1967 Gibraltar sovereignty referendum.",
-        "credit": "KabirDH",
-        "source": "https://commons.wikimedia.org/wiki/File:Coat_of_Arms_of_the_Government_of_Gibraltar_(Tudor_Crown).svg",
-        "license": "CC BY 4.0",
-        "licenseUrl": "https://creativecommons.org/licenses/by/4.0"
       }
     }
   ]

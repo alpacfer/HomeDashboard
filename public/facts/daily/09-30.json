@@ -3,17 +3,17 @@
   "dateLabel": "30 September",
   "facts": [
     {
-      "id": "09-30-the-flintstones",
+      "id": "09-30-doom-ii",
       "date": "09-30",
       "dateLabel": "30 September",
       "category": "culture",
       "categoryName": "Culture",
-      "year": 1960,
-      "title": "The Flintstones",
-      "body": "The Flintstones animated sitcom premieres on ABC television.",
+      "year": 1994,
+      "title": "Q755186",
+      "body": "Doom II, also known as Doom II: Hell on Earth, is a 1994 first-person shooter game developed and published by id Software for MS-DOS. It was released on Mac OS the following year.",
       "source": {
-        "name": "Wikipedia · The Flintstones",
-        "url": "https://en.wikipedia.org/wiki/The_Flintstones",
+        "name": "Wikipedia · Doom II",
+        "url": "https://en.wikipedia.org/wiki/Doom_II",
         "calendarUrl": "https://en.wikipedia.org/wiki/September_30",
         "license": {
           "name": "CC BY-SA 4.0",
@@ -21,12 +21,39 @@
         }
       },
       "image": {
-        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/09/The_Flintstones_official_logo.svg/500px-The_Flintstones_official_logo.svg.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-        "alt": "Picture from the Wikipedia article on The Flintstones.",
-        "credit": "Hanna-Barbera",
-        "source": "https://commons.wikimedia.org/wiki/File:The_Flintstones_official_logo.svg",
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/95/Doom_2_%28screenshot_of_game-ending_red_window%29.PNG/500px-Doom_2_%28screenshot_of_game-ending_red_window%29.PNG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "alt": "Q755186 — the video game this anniversary is about.",
+        "credit": "id Software",
+        "source": "https://commons.wikimedia.org/wiki/File:Doom_2_(screenshot_of_game-ending_red_window).PNG",
         "license": "Public domain",
-        "licenseUrl": "https://commons.wikimedia.org/wiki/File:The_Flintstones_official_logo.svg"
+        "licenseUrl": "https://commons.wikimedia.org/wiki/File:Doom_2_(screenshot_of_game-ending_red_window).PNG"
+      }
+    },
+    {
+      "id": "09-30-trials-of-mana",
+      "date": "09-30",
+      "dateLabel": "30 September",
+      "category": "culture",
+      "categoryName": "Culture",
+      "year": 1995,
+      "title": "Trials of Mana",
+      "body": "Trials of Mana, also known by its Japanese title Seiken Densetsu 3, is a 1995 action role-playing game developed and published by Square for the Super Famicom.",
+      "source": {
+        "name": "Wikipedia · Trials of Mana",
+        "url": "https://en.wikipedia.org/wiki/Trials_of_Mana",
+        "calendarUrl": "https://en.wikipedia.org/wiki/September_30",
+        "license": {
+          "name": "CC BY-SA 4.0",
+          "url": "https://creativecommons.org/licenses/by-sa/4.0/"
+        }
+      },
+      "image": {
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a0/Seiken_Densetsu_3_cart.jpg/500px-Seiken_Densetsu_3_cart.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "alt": "Trials of Mana — the video game this anniversary is about.",
+        "credit": "Bryan Ochalla",
+        "source": "https://commons.wikimedia.org/wiki/File:Seiken_Densetsu_3_cart.jpg",
+        "license": "Public domain",
+        "licenseUrl": "https://commons.wikimedia.org/wiki/File:Seiken_Densetsu_3_cart.jpg"
       }
     },
     {
@@ -84,17 +111,17 @@
       }
     },
     {
-      "id": "09-30-van-gogh-museum",
+      "id": "09-30-the-flintstones",
       "date": "09-30",
       "dateLabel": "30 September",
       "category": "culture",
       "categoryName": "Culture",
-      "year": 2016,
-      "title": "Van Gogh Museum",
-      "body": "Two paintings with a combined value of $100 million are recovered after having been stolen from the Van Gogh Museum in 2002.",
+      "year": 1960,
+      "title": "The Flintstones",
+      "body": "The Flintstones animated sitcom premieres on ABC television.",
       "source": {
-        "name": "Wikipedia · Van Gogh Museum",
-        "url": "https://en.wikipedia.org/wiki/Van_Gogh_Museum",
+        "name": "Wikipedia · The Flintstones",
+        "url": "https://en.wikipedia.org/wiki/The_Flintstones",
         "calendarUrl": "https://en.wikipedia.org/wiki/September_30",
         "license": {
           "name": "CC BY-SA 4.0",
@@ -102,39 +129,12 @@
         }
       },
       "image": {
-        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/0f/Logo_-_Van_Gogh_Museum.png/500px-Logo_-_Van_Gogh_Museum.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-        "alt": "Picture from the Wikipedia article on Van Gogh Museum.",
-        "credit": "Koeweiden Postma",
-        "source": "https://commons.wikimedia.org/wiki/File:Logo_-_Van_Gogh_Museum.png",
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/09/The_Flintstones_official_logo.svg/500px-The_Flintstones_official_logo.svg.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "alt": "Picture from the Wikipedia article on The Flintstones.",
+        "credit": "Hanna-Barbera",
+        "source": "https://commons.wikimedia.org/wiki/File:The_Flintstones_official_logo.svg",
         "license": "Public domain",
-        "licenseUrl": "https://commons.wikimedia.org/wiki/File:Logo_-_Van_Gogh_Museum.png"
-      }
-    },
-    {
-      "id": "09-30-boeing-747",
-      "date": "09-30",
-      "dateLabel": "30 September",
-      "category": "world",
-      "categoryName": "World",
-      "year": 1968,
-      "title": "Boeing 747",
-      "body": "The Boeing 747 is rolled out and shown to the public for the first time.",
-      "source": {
-        "name": "Wikipedia · Boeing 747",
-        "url": "https://en.wikipedia.org/wiki/Boeing_747",
-        "calendarUrl": "https://en.wikipedia.org/wiki/September_30",
-        "license": {
-          "name": "CC BY-SA 4.0",
-          "url": "https://creativecommons.org/licenses/by-sa/4.0/"
-        }
-      },
-      "image": {
-        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b8/B-747_Iberia.jpg/500px-B-747_Iberia.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-        "alt": "Picture from the Wikipedia article on Boeing 747.",
-        "credit": "Iberia Airlines",
-        "source": "https://commons.wikimedia.org/wiki/File:B-747_Iberia.jpg",
-        "license": "CC BY 2.0",
-        "licenseUrl": "https://creativecommons.org/licenses/by/2.0"
+        "licenseUrl": "https://commons.wikimedia.org/wiki/File:The_Flintstones_official_logo.svg"
       }
     }
   ]

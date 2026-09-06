@@ -3,6 +3,60 @@
   "dateLabel": "28 July",
   "facts": [
     {
+      "id": "07-28-hydro-thunder-hurricane",
+      "date": "07-28",
+      "dateLabel": "28 July",
+      "category": "culture",
+      "categoryName": "Culture",
+      "year": 2010,
+      "title": "Hydro Thunder Hurricane",
+      "body": "Hydro Thunder Hurricane is a boat racing video game developed by Vector Unit and published by Microsoft Game Studios for the Xbox 360 via Xbox Live Arcade.",
+      "source": {
+        "name": "Wikipedia · Hydro Thunder Hurricane",
+        "url": "https://en.wikipedia.org/wiki/Hydro_Thunder_Hurricane",
+        "calendarUrl": "https://en.wikipedia.org/wiki/July_28",
+        "license": {
+          "name": "CC BY-SA 4.0",
+          "url": "https://creativecommons.org/licenses/by-sa/4.0/"
+        }
+      },
+      "image": {
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/7c/MadisonRegattaWinner2008.jpg/500px-MadisonRegattaWinner2008.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "alt": "Hydro Thunder Hurricane — the video game this anniversary is about.",
+        "credit": "Joe Schneid, Louisville, Kentucky",
+        "source": "https://commons.wikimedia.org/wiki/File:MadisonRegattaWinner2008.jpg",
+        "license": "CC BY 3.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by/3.0"
+      }
+    },
+    {
+      "id": "07-28-opengl-es",
+      "date": "07-28",
+      "dateLabel": "28 July",
+      "category": "tech",
+      "categoryName": "Tech",
+      "year": 2003,
+      "title": "OpenGL ES",
+      "body": "OpenGL for Embedded Systems (OpenGL ES or GLES) is a subset of the OpenGL computer graphics rendering application programming interface (API) for rendering 2D and 3D computer graphics such as those used by video games, typically hardware-accelerated using a graphics processing unit (GPU).",
+      "source": {
+        "name": "Wikipedia · OpenGL ES",
+        "url": "https://en.wikipedia.org/wiki/OpenGL_ES",
+        "calendarUrl": "https://en.wikipedia.org/wiki/July_28",
+        "license": {
+          "name": "CC BY-SA 4.0",
+          "url": "https://creativecommons.org/licenses/by-sa/4.0/"
+        }
+      },
+      "image": {
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/da/Glxinfo_with_glxgears_screenshot.png/500px-Glxinfo_with_glxgears_screenshot.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "alt": "OpenGL ES — the software this anniversary is about.",
+        "credit": "KDE, Mesa developers, and Linux kernel…",
+        "source": "https://commons.wikimedia.org/wiki/File:Glxinfo_with_glxgears_screenshot.png",
+        "license": "MIT",
+        "licenseUrl": "https://opensource.org/licenses/mit-license.php"
+      }
+    },
+    {
       "id": "07-28-ian-thorpe",
       "date": "07-28",
       "dateLabel": "28 July",
@@ -81,60 +135,6 @@
         "source": "https://commons.wikimedia.org/wiki/File:PSM_V44_D647_Delineations_on_pieces_of_antler.jpg",
         "license": "Public domain",
         "licenseUrl": "https://commons.wikimedia.org/wiki/File:PSM_V44_D647_Delineations_on_pieces_of_antler.jpg"
-      }
-    },
-    {
-      "id": "07-28-wendy-tuck",
-      "date": "07-28",
-      "dateLabel": "28 July",
-      "category": "world",
-      "categoryName": "World",
-      "year": 2018,
-      "title": "Wendy Tuck",
-      "body": "Australian Wendy Tuck becomes the first female skipper to win the Clipper Round the World Yacht Race.",
-      "source": {
-        "name": "Wikipedia · Wendy Tuck",
-        "url": "https://en.wikipedia.org/wiki/Wendy_Tuck",
-        "calendarUrl": "https://en.wikipedia.org/wiki/July_28",
-        "license": {
-          "name": "CC BY-SA 4.0",
-          "url": "https://creativecommons.org/licenses/by-sa/4.0/"
-        }
-      },
-      "image": {
-        "src": "https://upload.wikimedia.org/wikipedia/commons/3/3d/Wendy_Tuck_in_Liverpool_%28cropped%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
-        "alt": "Picture from the Wikipedia article on Wendy Tuck.",
-        "credit": "ernie hardman",
-        "source": "https://commons.wikimedia.org/wiki/File:Wendy_Tuck_in_Liverpool_(cropped).jpg",
-        "license": "CC BY 2.0",
-        "licenseUrl": "https://creativecommons.org/licenses/by/2.0"
-      }
-    },
-    {
-      "id": "07-28-australasian-antarctic-expedition",
-      "date": "07-28",
-      "dateLabel": "28 July",
-      "category": "science",
-      "categoryName": "Science",
-      "year": 1911,
-      "title": "Australasian Antarctic Expedition",
-      "body": "The Australasian Antarctic Expedition began as the SY Aurora departed London.",
-      "source": {
-        "name": "Wikipedia · Australasian Antarctic Expedition",
-        "url": "https://en.wikipedia.org/wiki/Australasian_Antarctic_Expedition",
-        "calendarUrl": "https://en.wikipedia.org/wiki/July_28",
-        "license": {
-          "name": "CC BY-SA 4.0",
-          "url": "https://creativecommons.org/licenses/by-sa/4.0/"
-        }
-      },
-      "image": {
-        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/24/Mawson_main_base.jpg/500px-Mawson_main_base.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-        "alt": "Picture from the Wikipedia article on Australasian Antarctic Expedition.",
-        "credit": "Frank Hurley",
-        "source": "https://commons.wikimedia.org/wiki/File:Mawson_main_base.jpg",
-        "license": "Public domain",
-        "licenseUrl": "https://commons.wikimedia.org/wiki/File:Mawson_main_base.jpg"
       }
     }
   ]

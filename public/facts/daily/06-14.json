@@ -3,6 +3,33 @@
   "dateLabel": "14 June",
   "facts": [
     {
+      "id": "06-14-temple-run",
+      "date": "06-14",
+      "dateLabel": "14 June",
+      "category": "culture",
+      "categoryName": "Culture",
+      "year": 2012,
+      "title": "Q590836",
+      "body": "Temple Run is a 2011 endless runner video game developed and published by Imangi Studios. The player controls an explorer who has obtained an ancient relic and runs from demonic monkey-like creatures chasing them.",
+      "source": {
+        "name": "Wikipedia · Temple Run",
+        "url": "https://en.wikipedia.org/wiki/Temple_Run",
+        "calendarUrl": "https://en.wikipedia.org/wiki/June_14",
+        "license": {
+          "name": "CC BY-SA 4.0",
+          "url": "https://creativecommons.org/licenses/by-sa/4.0/"
+        }
+      },
+      "image": {
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/77/Temple_Run_Arcade_game_in_progress.jpg/500px-Temple_Run_Arcade_game_in_progress.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "alt": "Q590836 — the video game this anniversary is about.",
+        "credit": "FreeMediaKid!",
+        "source": "https://commons.wikimedia.org/wiki/File:Temple_Run_Arcade_game_in_progress.jpg",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0"
+      }
+    },
+    {
       "id": "06-14-near-earth-object",
       "date": "06-14",
       "dateLabel": "14 June",
@@ -108,33 +135,6 @@
         "source": "https://commons.wikimedia.org/wiki/File:Mariner_5.jpg",
         "license": "Public domain",
         "licenseUrl": "https://commons.wikimedia.org/wiki/File:Mariner_5.jpg"
-      }
-    },
-    {
-      "id": "06-14-pennsylvania",
-      "date": "06-14",
-      "dateLabel": "14 June",
-      "category": "world",
-      "categoryName": "World",
-      "year": 1937,
-      "title": "Pennsylvania",
-      "body": "Pennsylvania becomes the first (and only) state of the United States to celebrate Flag Day officially as a state holiday.",
-      "source": {
-        "name": "Wikipedia · Pennsylvania",
-        "url": "https://en.wikipedia.org/wiki/Pennsylvania",
-        "calendarUrl": "https://en.wikipedia.org/wiki/June_14",
-        "license": {
-          "name": "CC BY-SA 4.0",
-          "url": "https://creativecommons.org/licenses/by-sa/4.0/"
-        }
-      },
-      "image": {
-        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f7/Flag_of_Pennsylvania.svg/500px-Flag_of_Pennsylvania.svg.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-        "alt": "Picture from the Wikipedia article on Pennsylvania.",
-        "credit": "Simtropolitan",
-        "source": "https://commons.wikimedia.org/wiki/File:Flag_of_Pennsylvania.svg",
-        "license": "Public domain",
-        "licenseUrl": "https://commons.wikimedia.org/wiki/File:Flag_of_Pennsylvania.svg"
       }
     }
   ]

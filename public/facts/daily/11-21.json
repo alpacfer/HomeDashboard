@@ -3,6 +3,60 @@
   "dateLabel": "21 November",
   "facts": [
     {
+      "id": "11-21-pac-land",
+      "date": "11-21",
+      "dateLabel": "21 November",
+      "category": "culture",
+      "categoryName": "Culture",
+      "year": 1985,
+      "title": "Pac-Land",
+      "body": "Pac-Land is a 1984 platform game developed and published by Namco for arcades. It was released in North America by Bally Midway, and in Europe by Atari Games.",
+      "source": {
+        "name": "Wikipedia · Pac-Land",
+        "url": "https://en.wikipedia.org/wiki/Pac-Land",
+        "calendarUrl": "https://en.wikipedia.org/wiki/November_21",
+        "license": {
+          "name": "CC BY-SA 4.0",
+          "url": "https://creativecommons.org/licenses/by-sa/4.0/"
+        }
+      },
+      "image": {
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/38/Pac-Land_gameplay_ss.png/500px-Pac-Land_gameplay_ss.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "alt": "Pac-Land — the video game this anniversary is about.",
+        "credit": "Bandai Namco Entertainment America",
+        "source": "https://commons.wikimedia.org/wiki/File:Pac-Land_gameplay_ss.png",
+        "license": "CC BY 3.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by/3.0"
+      }
+    },
+    {
+      "id": "11-21-assaultcube",
+      "date": "11-21",
+      "dateLabel": "21 November",
+      "category": "culture",
+      "categoryName": "Culture",
+      "year": 2008,
+      "title": "Q739804",
+      "body": "AssaultCube, formerly ActionCube, is an open source first-person shooter video game, based on Cube and using the Cube Engine. Although the main focus of AssaultCube is multiplayer online gaming, a single-player mode consists of computer-controlled bots.",
+      "source": {
+        "name": "Wikipedia · AssaultCube",
+        "url": "https://en.wikipedia.org/wiki/AssaultCube",
+        "calendarUrl": "https://en.wikipedia.org/wiki/November_21",
+        "license": {
+          "name": "CC BY-SA 4.0",
+          "url": "https://creativecommons.org/licenses/by-sa/4.0/"
+        }
+      },
+      "image": {
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/82/AssaultCube_screenshot.png/500px-AssaultCube_screenshot.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "alt": "Q739804 — the video game this anniversary is about.",
+        "credit": "Rabid Viper Productions",
+        "source": "https://commons.wikimedia.org/wiki/File:AssaultCube_screenshot.png",
+        "license": "Public domain",
+        "licenseUrl": "https://commons.wikimedia.org/wiki/File:AssaultCube_screenshot.png"
+      }
+    },
+    {
       "id": "11-21-philadelphia-athletics-nfl",
       "date": "11-21",
       "dateLabel": "21 November",
@@ -57,33 +111,6 @@
       }
     },
     {
-      "id": "11-21-claude-monet",
-      "date": "11-21",
-      "dateLabel": "21 November",
-      "category": "culture",
-      "categoryName": "Culture",
-      "year": 1900,
-      "title": "Claude Monet",
-      "body": "Claude Monet's paintings shown at Gallery Durand-Ruel in Paris.",
-      "source": {
-        "name": "Wikipedia · Claude Monet",
-        "url": "https://en.wikipedia.org/wiki/Claude_Monet",
-        "calendarUrl": "https://en.wikipedia.org/wiki/November_21",
-        "license": {
-          "name": "CC BY-SA 4.0",
-          "url": "https://creativecommons.org/licenses/by-sa/4.0/"
-        }
-      },
-      "image": {
-        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a4/Claude_Monet_1899_Nadar_crop.jpg/500px-Claude_Monet_1899_Nadar_crop.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-        "alt": "Picture from the Wikipedia article on Claude Monet.",
-        "credit": "Nadar",
-        "source": "https://commons.wikimedia.org/wiki/File:Claude_Monet_1899_Nadar_crop.jpg",
-        "license": "Public domain",
-        "licenseUrl": "https://commons.wikimedia.org/wiki/File:Claude_Monet_1899_Nadar_crop.jpg"
-      }
-    },
-    {
       "id": "11-21-tesla-inc",
       "date": "11-21",
       "dateLabel": "21 November",
@@ -108,33 +135,6 @@
         "source": "https://commons.wikimedia.org/wiki/File:Tesla_Motors.svg",
         "license": "Public domain",
         "licenseUrl": "https://commons.wikimedia.org/wiki/File:Tesla_Motors.svg"
-      }
-    },
-    {
-      "id": "11-21-verrazzano-narrows-bridge",
-      "date": "11-21",
-      "dateLabel": "21 November",
-      "category": "curious",
-      "categoryName": "Curious",
-      "year": 1964,
-      "title": "Verrazzano–Narrows Bridge",
-      "body": "The Verrazzano–Narrows Bridge opens to traffic. At the time it is the world's longest bridge span.",
-      "source": {
-        "name": "Wikipedia · Verrazzano–Narrows Bridge",
-        "url": "https://en.wikipedia.org/wiki/Verrazzano%E2%80%93Narrows_Bridge",
-        "calendarUrl": "https://en.wikipedia.org/wiki/November_21",
-        "license": {
-          "name": "CC BY-SA 4.0",
-          "url": "https://creativecommons.org/licenses/by-sa/4.0/"
-        }
-      },
-      "image": {
-        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/72/Verrazano_Bridge2.jpg/500px-Verrazano_Bridge2.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-        "alt": "Picture from the Wikipedia article on Verrazzano–Narrows Bridge.",
-        "credit": "Wikimedia Commons",
-        "source": "https://commons.wikimedia.org/wiki/File:Verrazano_Bridge2.jpg",
-        "license": "Public domain",
-        "licenseUrl": "https://commons.wikimedia.org/wiki/File:Verrazano_Bridge2.jpg"
       }
     }
   ]

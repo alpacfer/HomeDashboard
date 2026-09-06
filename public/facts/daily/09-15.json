@@ -3,6 +3,60 @@
   "dateLabel": "15 September",
   "facts": [
     {
+      "id": "09-15-usa-today",
+      "date": "09-15",
+      "dateLabel": "15 September",
+      "category": "tech",
+      "categoryName": "Tech",
+      "year": 1982,
+      "title": "USA Today",
+      "body": "USA Today (often stylized in all caps) is an American daily newspaper and news broadcasting company. 's corporate headquarters in New York City.",
+      "source": {
+        "name": "Wikipedia · USA Today",
+        "url": "https://en.wikipedia.org/wiki/USA_Today",
+        "calendarUrl": "https://en.wikipedia.org/wiki/September_15",
+        "license": {
+          "name": "CC BY-SA 4.0",
+          "url": "https://creativecommons.org/licenses/by-sa/4.0/"
+        }
+      },
+      "image": {
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d0/USA_Today_building.jpg/500px-USA_Today_building.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "alt": "USA Today — the website this anniversary is about.",
+        "credit": "Patrickneil",
+        "source": "https://commons.wikimedia.org/wiki/File:USA_Today_building.jpg",
+        "license": "CC BY-SA 3.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0"
+      }
+    },
+    {
+      "id": "09-15-google-search",
+      "date": "09-15",
+      "dateLabel": "15 September",
+      "category": "tech",
+      "categoryName": "Tech",
+      "year": 1997,
+      "title": "Google Search",
+      "body": "Google Search (also known simply as Google) is a search engine operated by Google. It allows users to search or ask for information by entering keywords or phrases on a website page or in an installed application program.",
+      "source": {
+        "name": "Wikipedia · Google Search",
+        "url": "https://en.wikipedia.org/wiki/Google_Search",
+        "calendarUrl": "https://en.wikipedia.org/wiki/September_15",
+        "license": {
+          "name": "CC BY-SA 4.0",
+          "url": "https://creativecommons.org/licenses/by-sa/4.0/"
+        }
+      },
+      "image": {
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c1/Google_Homepage.svg/500px-Google_Homepage.svg.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "alt": "Google Search — the search engine this anniversary is about.",
+        "credit": "Google",
+        "source": "https://commons.wikimedia.org/wiki/File:Google_Homepage.svg",
+        "license": "Public domain",
+        "licenseUrl": "https://commons.wikimedia.org/wiki/File:Google_Homepage.svg"
+      }
+    },
+    {
       "id": "09-15-zond-5",
       "date": "09-15",
       "dateLabel": "15 September",
@@ -81,60 +135,6 @@
         "source": "https://commons.wikimedia.org/wiki/File:John_Bull.jpg",
         "license": "Public domain",
         "licenseUrl": "https://commons.wikimedia.org/wiki/File:John_Bull.jpg"
-      }
-    },
-    {
-      "id": "09-15-championship-auto-racing-teams",
-      "date": "09-15",
-      "dateLabel": "15 September",
-      "category": "sport",
-      "categoryName": "Sport",
-      "year": 2001,
-      "title": "Championship Auto Racing Teams",
-      "body": "During a CART race at the Lausitzring in Germany, former Formula One driver Alex Zanardi suffers a heavy accident resulting in him losing both his legs.",
-      "source": {
-        "name": "Wikipedia · Championship Auto Racing Teams",
-        "url": "https://en.wikipedia.org/wiki/Championship_Auto_Racing_Teams",
-        "calendarUrl": "https://en.wikipedia.org/wiki/September_15",
-        "license": {
-          "name": "CC BY-SA 4.0",
-          "url": "https://creativecommons.org/licenses/by-sa/4.0/"
-        }
-      },
-      "image": {
-        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/36/CART_logo_%281997-2002%29.svg/500px-CART_logo_%281997-2002%29.svg.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-        "alt": "Picture from the Wikipedia article on Championship Auto Racing Teams.",
-        "credit": "™/®Championship Auto Racing Teams, Inc",
-        "source": "https://commons.wikimedia.org/wiki/File:CART_logo_(1997-2002).svg",
-        "license": "Public domain",
-        "licenseUrl": "https://commons.wikimedia.org/wiki/File:CART_logo_(1997-2002).svg"
-      }
-    },
-    {
-      "id": "09-15-nikita-khrushchev",
-      "date": "09-15",
-      "dateLabel": "15 September",
-      "category": "world",
-      "categoryName": "World",
-      "year": 1959,
-      "title": "Nikita Khrushchev",
-      "body": "Nikita Khrushchev becomes the first Soviet leader to visit the United States.",
-      "source": {
-        "name": "Wikipedia · Nikita Khrushchev",
-        "url": "https://en.wikipedia.org/wiki/Nikita_Khrushchev",
-        "calendarUrl": "https://en.wikipedia.org/wiki/September_15",
-        "license": {
-          "name": "CC BY-SA 4.0",
-          "url": "https://creativecommons.org/licenses/by-sa/4.0/"
-        }
-      },
-      "image": {
-        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/4d/1956_Press_Photo_Communist_Party_Secretary_Nikita_S._Khrushchev_in_Moscow_%28cropped%29.jpg/500px-1956_Press_Photo_Communist_Party_Secretary_Nikita_S._Khrushchev_in_Moscow_%28cropped%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-        "alt": "Picture from the Wikipedia article on Nikita Khrushchev.",
-        "credit": "TASS",
-        "source": "https://commons.wikimedia.org/wiki/File:1956_Press_Photo_Communist_Party_Secretary_Nikita_S._Khrushchev_in_Moscow_(cropped).jpg",
-        "license": "Public domain",
-        "licenseUrl": "https://commons.wikimedia.org/wiki/File:1956_Press_Photo_Communist_Party_Secretary_Nikita_S._Khrushchev_in_Moscow_(cropped).jpg"
       }
     }
   ]

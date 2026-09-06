@@ -3,6 +3,60 @@
   "dateLabel": "27 January",
   "facts": [
     {
+      "id": "01-27-ia-software",
+      "date": "01-27",
+      "dateLabel": "27 January",
+      "category": "tech",
+      "categoryName": "Tech",
+      "year": 2012,
+      "title": "IA",
+      "body": ", headquartered in Meguro, Tokyo, Japan. She uses Yamaha Corporation's Vocaloid 3 singing synthesizer technology.",
+      "source": {
+        "name": "Wikipedia · IA (software)",
+        "url": "https://en.wikipedia.org/wiki/IA_(software)",
+        "calendarUrl": "https://en.wikipedia.org/wiki/January_27",
+        "license": {
+          "name": "CC BY-SA 4.0",
+          "url": "https://creativecommons.org/licenses/by-sa/4.0/"
+        }
+      },
+      "image": {
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/85/Mqdl-IA_in_Second_Life.jpg/500px-Mqdl-IA_in_Second_Life.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "alt": "IA — the software this anniversary is about.",
+        "credit": "Whitfield-In-World",
+        "source": "https://commons.wikimedia.org/wiki/File:Mqdl-IA_in_Second_Life.jpg",
+        "license": "CC BY 2.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by/2.0"
+      }
+    },
+    {
+      "id": "01-27-king-arthur-ii-the-role-playing-wargame",
+      "date": "01-27",
+      "dateLabel": "27 January",
+      "category": "culture",
+      "categoryName": "Culture",
+      "year": 2012,
+      "title": "King Arthur II: The Role-Playing Wargame",
+      "body": "The Role-Playing Wargame is a real-time tactics and role-playing video game and a sequel to King Arthur: The Role-Playing Wargame, released online in Europe on September 20, 2011, and then worldwide in 2012.",
+      "source": {
+        "name": "Wikipedia · King Arthur II: The Role-Playing Wargame",
+        "url": "https://en.wikipedia.org/wiki/King_Arthur_II:_The_Role-Playing_Wargame",
+        "calendarUrl": "https://en.wikipedia.org/wiki/January_27",
+        "license": {
+          "name": "CC BY-SA 4.0",
+          "url": "https://creativecommons.org/licenses/by-sa/4.0/"
+        }
+      },
+      "image": {
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b9/King_Arthur_II_screenshot_1.jpg/500px-King_Arthur_II_screenshot_1.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "alt": "King Arthur II: The Role-Playing Wargame — the video game this anniversary is about.",
+        "credit": "NeocoreGames",
+        "source": "https://commons.wikimedia.org/wiki/File:King_Arthur_II_screenshot_1.jpg",
+        "license": "CC BY-SA 3.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0"
+      }
+    },
+    {
       "id": "01-27-seikan-tunnel",
       "date": "01-27",
       "dateLabel": "27 January",
@@ -57,33 +111,6 @@
       }
     },
     {
-      "id": "01-27-ipad",
-      "date": "01-27",
-      "dateLabel": "27 January",
-      "category": "tech",
-      "categoryName": "Tech",
-      "year": 2010,
-      "title": "iPad",
-      "body": "Apple announces the iPad.",
-      "source": {
-        "name": "Wikipedia · IPad",
-        "url": "https://en.wikipedia.org/wiki/IPad",
-        "calendarUrl": "https://en.wikipedia.org/wiki/January_27",
-        "license": {
-          "name": "CC BY-SA 4.0",
-          "url": "https://creativecommons.org/licenses/by-sa/4.0/"
-        }
-      },
-      "image": {
-        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/1a/IPad_mini_Air_Pro.png/500px-IPad_mini_Air_Pro.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-        "alt": "Picture from the Wikipedia article on iPad.",
-        "credit": "KA KIT",
-        "source": "https://commons.wikimedia.org/wiki/File:IPad_mini_Air_Pro.png",
-        "license": "Public domain",
-        "licenseUrl": "https://commons.wikimedia.org/wiki/File:IPad_mini_Air_Pro.png"
-      }
-    },
-    {
       "id": "01-27-national-recording-registry",
       "date": "01-27",
       "dateLabel": "27 January",
@@ -108,33 +135,6 @@
         "source": "https://commons.wikimedia.org/wiki/File:Martin_Luther_King_Jr_National_Historic_Site_(36233249121).jpg",
         "license": "Public domain",
         "licenseUrl": "https://commons.wikimedia.org/wiki/File:Martin_Luther_King_Jr_National_Historic_Site_(36233249121).jpg"
-      }
-    },
-    {
-      "id": "01-27-modest-mussorgsky",
-      "date": "01-27",
-      "dateLabel": "27 January",
-      "category": "culture",
-      "categoryName": "Culture",
-      "year": 1874,
-      "title": "Modest Mussorgsky",
-      "body": "Modest Mussorgsky's opera Boris Godunov premieres in Mariinsky Theatre in St.Petersburg.",
-      "source": {
-        "name": "Wikipedia · Modest Mussorgsky",
-        "url": "https://en.wikipedia.org/wiki/Modest_Mussorgsky",
-        "calendarUrl": "https://en.wikipedia.org/wiki/January_27",
-        "license": {
-          "name": "CC BY-SA 4.0",
-          "url": "https://creativecommons.org/licenses/by-sa/4.0/"
-        }
-      },
-      "image": {
-        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/5c/MussorgskySignature.png/500px-MussorgskySignature.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-        "alt": "Picture from the Wikipedia article on Modest Mussorgsky.",
-        "credit": "Modest Mussorgsky",
-        "source": "https://commons.wikimedia.org/wiki/File:MussorgskySignature.png",
-        "license": "Public domain",
-        "licenseUrl": "https://commons.wikimedia.org/wiki/File:MussorgskySignature.png"
       }
     }
   ]

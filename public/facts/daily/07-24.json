@@ -3,6 +3,33 @@
   "dateLabel": "24 July",
   "facts": [
     {
+      "id": "07-24-x-social-network",
+      "date": "07-24",
+      "dateLabel": "24 July",
+      "category": "tech",
+      "categoryName": "Tech",
+      "year": 2023,
+      "title": "X",
+      "body": "X, formerly known as Twitter, is an American microblogging and social networking service owned by SpaceX's artificial intelligence subsidiary SpaceXAI. It is one of the world's largest social media platforms and one of the most-visited websites.",
+      "source": {
+        "name": "Wikipedia · X (social network)",
+        "url": "https://en.wikipedia.org/wiki/X_(social_network)",
+        "calendarUrl": "https://en.wikipedia.org/wiki/July_24",
+        "license": {
+          "name": "CC BY-SA 4.0",
+          "url": "https://creativecommons.org/licenses/by-sa/4.0/"
+        }
+      },
+      "image": {
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d9/Screen_of_X_%28Twitter%29.png/500px-Screen_of_X_%28Twitter%29.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "alt": "X — the social network this anniversary is about.",
+        "credit": "Twitter",
+        "source": "https://commons.wikimedia.org/wiki/File:Screen_of_X_(Twitter).png",
+        "license": "Public domain",
+        "licenseUrl": "https://commons.wikimedia.org/wiki/File:Screen_of_X_(Twitter).png"
+      }
+    },
+    {
       "id": "07-24-apollo-11",
       "date": "07-24",
       "dateLabel": "24 July",
@@ -108,33 +135,6 @@
         "source": "https://commons.wikimedia.org/wiki/File:Senator_Hiram_Bingham_of_Conn.,_(1-9-25)_LCCN2016839105_(3x4a).jpg",
         "license": "Public domain",
         "licenseUrl": "https://commons.wikimedia.org/wiki/File:Senator_Hiram_Bingham_of_Conn.,_(1-9-25)_LCCN2016839105_(3x4a).jpg"
-      }
-    },
-    {
-      "id": "07-24-george-brett",
-      "date": "07-24",
-      "dateLabel": "24 July",
-      "category": "sport",
-      "categoryName": "Sport",
-      "year": 1983,
-      "title": "George Brett",
-      "body": "George Brett, playing for the Kansas City Royals against the New York Yankees, has a game-winning home run nullified in the \"Pine Tar Incident\".",
-      "source": {
-        "name": "Wikipedia · George Brett",
-        "url": "https://en.wikipedia.org/wiki/George_Brett",
-        "calendarUrl": "https://en.wikipedia.org/wiki/July_24",
-        "license": {
-          "name": "CC BY-SA 4.0",
-          "url": "https://creativecommons.org/licenses/by-sa/4.0/"
-        }
-      },
-      "image": {
-        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d5/George_Brett_by_Gage_Skidmore_2.jpg/500px-George_Brett_by_Gage_Skidmore_2.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-        "alt": "Picture from the Wikipedia article on George Brett.",
-        "credit": "Gage Skidmore",
-        "source": "https://commons.wikimedia.org/wiki/File:George_Brett_by_Gage_Skidmore_2.jpg",
-        "license": "CC BY-SA 3.0",
-        "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0"
       }
     }
   ]

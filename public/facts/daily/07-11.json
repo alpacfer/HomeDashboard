@@ -3,6 +3,60 @@
   "dateLabel": "11 July",
   "facts": [
     {
+      "id": "07-11-livecode",
+      "date": "07-11",
+      "dateLabel": "11 July",
+      "category": "tech",
+      "categoryName": "Tech",
+      "year": 2001,
+      "title": "LiveCode",
+      "body": "LiveCode (formerly Revolution and MetaCard) is a cross-platform rapid application development runtime system inspired by HyperCard. It features the LiveCode Script (formerly MetaTalk) programming language which belongs to the family of xTalk scripting languages like HyperCard's HyperTalk.",
+      "source": {
+        "name": "Wikipedia · LiveCode",
+        "url": "https://en.wikipedia.org/wiki/LiveCode",
+        "calendarUrl": "https://en.wikipedia.org/wiki/July_11",
+        "license": {
+          "name": "CC BY-SA 4.0",
+          "url": "https://creativecommons.org/licenses/by-sa/4.0/"
+        }
+      },
+      "image": {
+        "src": "https://upload.wikimedia.org/wikipedia/commons/b/bd/Livecode.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+        "alt": "LiveCode — the programming language this anniversary is about.",
+        "credit": "Civis26",
+        "source": "https://commons.wikimedia.org/wiki/File:Livecode.jpg",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0"
+      }
+    },
+    {
+      "id": "07-11-microsoft-power-bi",
+      "date": "07-11",
+      "dateLabel": "11 July",
+      "category": "tech",
+      "categoryName": "Tech",
+      "year": 2011,
+      "title": "Microsoft Power BI",
+      "body": "Microsoft Power BI (PBI) is an interactive data visualization, database management, and data modeling software product developed by Microsoft with a primary focus on business intelligence (BI). It is part of the Microsoft Power Platform.",
+      "source": {
+        "name": "Wikipedia · Microsoft Power BI",
+        "url": "https://en.wikipedia.org/wiki/Microsoft_Power_BI",
+        "calendarUrl": "https://en.wikipedia.org/wiki/July_11",
+        "license": {
+          "name": "CC BY-SA 4.0",
+          "url": "https://creativecommons.org/licenses/by-sa/4.0/"
+        }
+      },
+      "image": {
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b8/DadosBI-exemplo3.2-powerBI.png/500px-DadosBI-exemplo3.2-powerBI.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "alt": "Microsoft Power BI — the software this anniversary is about.",
+        "credit": "Krauss",
+        "source": "https://commons.wikimedia.org/wiki/File:DadosBI-exemplo3.2-powerBI.png",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0"
+      }
+    },
+    {
       "id": "07-11-joaqu-n-el-chapo-guzm-n",
       "date": "07-11",
       "dateLabel": "11 July",
@@ -81,60 +135,6 @@
         "source": "https://commons.wikimedia.org/wiki/File:Skylab_(SL-4).jpg",
         "license": "Public domain",
         "licenseUrl": "https://commons.wikimedia.org/wiki/File:Skylab_(SL-4).jpg"
-      }
-    },
-    {
-      "id": "07-11-world-chess-championship-1972",
-      "date": "07-11",
-      "dateLabel": "11 July",
-      "category": "sport",
-      "categoryName": "Sport",
-      "year": 1972,
-      "title": "World Chess Championship 1972",
-      "body": "The first game of the World Chess Championship 1972 between challenger Bobby Fischer and defending champion Boris Spassky starts.",
-      "source": {
-        "name": "Wikipedia · World Chess Championship 1972",
-        "url": "https://en.wikipedia.org/wiki/World_Chess_Championship_1972",
-        "calendarUrl": "https://en.wikipedia.org/wiki/July_11",
-        "license": {
-          "name": "CC BY-SA 4.0",
-          "url": "https://creativecommons.org/licenses/by-sa/4.0/"
-        }
-      },
-      "image": {
-        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/ab/Eerste_ronde_IBM-schaaktoernooi%2C_Boris_Spasski%2C_Bestanddeelnr_926-5521.jpg/500px-Eerste_ronde_IBM-schaaktoernooi%2C_Boris_Spasski%2C_Bestanddeelnr_926-5521.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-        "alt": "Picture from the Wikipedia article on World Chess Championship 1972.",
-        "credit": "Rob Croes / Anefo",
-        "source": "https://commons.wikimedia.org/wiki/File:Eerste_ronde_IBM-schaaktoernooi,_Boris_Spasski,_Bestanddeelnr_926-5521.jpg",
-        "license": "CC0",
-        "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/deed.en"
-      }
-    },
-    {
-      "id": "07-11-lunar-orbit-rendezvous",
-      "date": "07-11",
-      "dateLabel": "11 July",
-      "category": "space",
-      "categoryName": "Space",
-      "year": 1962,
-      "title": "Lunar orbit rendezvous",
-      "body": "At a press conference, NASA announces lunar orbit rendezvous as the means to land astronauts on the Moon, and return them to Earth.",
-      "source": {
-        "name": "Wikipedia · Lunar orbit rendezvous",
-        "url": "https://en.wikipedia.org/wiki/Lunar_orbit_rendezvous",
-        "calendarUrl": "https://en.wikipedia.org/wiki/July_11",
-        "license": {
-          "name": "CC BY-SA 4.0",
-          "url": "https://creativecommons.org/licenses/by-sa/4.0/"
-        }
-      },
-      "image": {
-        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/9b/Lunar_orbit_rendezvous.svg/500px-Lunar_orbit_rendezvous.svg.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-        "alt": "Picture from the Wikipedia article on Lunar orbit rendezvous.",
-        "credit": "Jooja",
-        "source": "https://commons.wikimedia.org/wiki/File:Lunar_orbit_rendezvous.svg",
-        "license": "CC BY-SA 4.0",
-        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0"
       }
     }
   ]

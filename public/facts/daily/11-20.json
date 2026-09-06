@@ -3,6 +3,60 @@
   "dateLabel": "20 November",
   "facts": [
     {
+      "id": "11-20-windows-1-0",
+      "date": "11-20",
+      "dateLabel": "20 November",
+      "category": "tech",
+      "categoryName": "Tech",
+      "year": 1985,
+      "title": "Windows 1.0",
+      "body": "0 is the first major release of Microsoft Windows, a family of graphical user shells and operating systems for personal computers developed by Microsoft. 02 in May 1986.",
+      "source": {
+        "name": "Wikipedia · Windows 1.0",
+        "url": "https://en.wikipedia.org/wiki/Windows_1.0",
+        "calendarUrl": "https://en.wikipedia.org/wiki/November_20",
+        "license": {
+          "name": "CC BY-SA 4.0",
+          "url": "https://creativecommons.org/licenses/by-sa/4.0/"
+        }
+      },
+      "image": {
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/59/Windows_1.01_Bootscreen_20201222_EN.png/500px-Windows_1.01_Bootscreen_20201222_EN.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "alt": "Windows 1.0 — the operating system this anniversary is about.",
+        "credit": "OS by Microsoft Corporation",
+        "source": "https://commons.wikimedia.org/wiki/File:Windows_1.01_Bootscreen_20201222_EN.png",
+        "license": "Public domain",
+        "licenseUrl": "https://commons.wikimedia.org/wiki/File:Windows_1.01_Bootscreen_20201222_EN.png"
+      }
+    },
+    {
+      "id": "11-20-russian-fedora-remix",
+      "date": "11-20",
+      "dateLabel": "20 November",
+      "category": "tech",
+      "categoryName": "Tech",
+      "year": 2008,
+      "title": "Russian Fedora Remix",
+      "body": "Russian Fedora Remix was a remix of the Fedora Linux Linux distribution adapted for Russia that was active in 2008–2019. It was neither a copy of the original Fedora nor a new Linux distribution.",
+      "source": {
+        "name": "Wikipedia · Russian Fedora Remix",
+        "url": "https://en.wikipedia.org/wiki/Russian_Fedora_Remix",
+        "calendarUrl": "https://en.wikipedia.org/wiki/November_20",
+        "license": {
+          "name": "CC BY-SA 4.0",
+          "url": "https://creativecommons.org/licenses/by-sa/4.0/"
+        }
+      },
+      "image": {
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a8/RFRemix_29_GNOME.png/500px-RFRemix_29_GNOME.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "alt": "Russian Fedora Remix — the operating system this anniversary is about.",
+        "credit": "Russian Fedora",
+        "source": "https://commons.wikimedia.org/wiki/File:RFRemix_29_GNOME.png",
+        "license": "GPL",
+        "licenseUrl": "https://www.gnu.org/licenses/gpl.html"
+      }
+    },
+    {
       "id": "11-20-ludwig-van-beethoven",
       "date": "11-20",
       "dateLabel": "20 November",
@@ -81,60 +135,6 @@
         "source": "https://commons.wikimedia.org/wiki/File:Flag_of_the_Czech_Republic.svg",
         "license": "Public domain",
         "licenseUrl": "https://commons.wikimedia.org/wiki/File:Flag_of_the_Czech_Republic.svg"
-      }
-    },
-    {
-      "id": "11-20-jimmie-johnson",
-      "date": "11-20",
-      "dateLabel": "20 November",
-      "category": "sport",
-      "categoryName": "Sport",
-      "year": 2016,
-      "title": "Jimmie Johnson",
-      "body": "Jimmie Johnson wins his seventh NASCAR Cup Series championship to tie Richard Petty and Dale Earnhardt for the most all-time.",
-      "source": {
-        "name": "Wikipedia · Jimmie Johnson",
-        "url": "https://en.wikipedia.org/wiki/Jimmie_Johnson",
-        "calendarUrl": "https://en.wikipedia.org/wiki/November_20",
-        "license": {
-          "name": "CC BY-SA 4.0",
-          "url": "https://creativecommons.org/licenses/by-sa/4.0/"
-        }
-      },
-      "image": {
-        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/0f/Jimmie_Johnson_Sonoma_2026.jpg/500px-Jimmie_Johnson_Sonoma_2026.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-        "alt": "Picture from the Wikipedia article on Jimmie Johnson.",
-        "credit": "TaurusEmerald",
-        "source": "https://commons.wikimedia.org/wiki/File:Jimmie_Johnson_Sonoma_2026.jpg",
-        "license": "CC BY-SA 4.0",
-        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0"
-      }
-    },
-    {
-      "id": "11-20-united-states-department-of-justice",
-      "date": "11-20",
-      "dateLabel": "20 November",
-      "category": "world",
-      "categoryName": "World",
-      "year": 1974,
-      "title": "United States Department of Justice",
-      "body": "The United States Department of Justice files its final anti-trust suit against AT&T Corporation. This suit later leads to the breakup of AT&T and its Bell System.",
-      "source": {
-        "name": "Wikipedia · United States Department of Justice",
-        "url": "https://en.wikipedia.org/wiki/United_States_Department_of_Justice",
-        "calendarUrl": "https://en.wikipedia.org/wiki/November_20",
-        "license": {
-          "name": "CC BY-SA 4.0",
-          "url": "https://creativecommons.org/licenses/by-sa/4.0/"
-        }
-      },
-      "image": {
-        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/54/Seal_of_the_United_States_Department_of_Justice.svg/500px-Seal_of_the_United_States_Department_of_Justice.svg.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-        "alt": "Picture from the Wikipedia article on United States Department of Justice.",
-        "credit": "U.S. government",
-        "source": "https://commons.wikimedia.org/wiki/File:Seal_of_the_United_States_Department_of_Justice.svg",
-        "license": "Public domain",
-        "licenseUrl": "https://commons.wikimedia.org/wiki/File:Seal_of_the_United_States_Department_of_Justice.svg"
       }
     }
   ]

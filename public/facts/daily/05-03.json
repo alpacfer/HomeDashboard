@@ -3,6 +3,60 @@
   "dateLabel": "3 May",
   "facts": [
     {
+      "id": "05-03-oscilloscoop",
+      "date": "05-03",
+      "dateLabel": "3 May",
+      "category": "culture",
+      "categoryName": "Culture",
+      "year": 2011,
+      "title": "Oscilloscoop",
+      "body": "OscilloScoop is an interactive music app for iOS that runs on the iPad, iPhone, and iPod Touch, available through the iTunes App Store.",
+      "source": {
+        "name": "Wikipedia · Oscilloscoop",
+        "url": "https://en.wikipedia.org/wiki/Oscilloscoop",
+        "calendarUrl": "https://en.wikipedia.org/wiki/May_3",
+        "license": {
+          "name": "CC BY-SA 4.0",
+          "url": "https://creativecommons.org/licenses/by-sa/4.0/"
+        }
+      },
+      "image": {
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/99/OscilloScoop-iPad-1.png/500px-OscilloScoop-iPad-1.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "alt": "Oscilloscoop — the video game this anniversary is about.",
+        "credit": "Scott Snibbe Studio",
+        "source": "https://commons.wikimedia.org/wiki/File:OscilloScoop-iPad-1.png",
+        "license": "CC BY-SA 3.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0"
+      }
+    },
+    {
+      "id": "05-03-fragments-of-him",
+      "date": "05-03",
+      "dateLabel": "3 May",
+      "category": "culture",
+      "categoryName": "Culture",
+      "year": 2016,
+      "title": "Fragments of Him",
+      "body": "Fragments of Him is a video game developed and published by Sassybot and released for Microsoft Windows and Xbox One on 3 May 2016 and 1 June 2016, respectively. The PlayStation 4 version was released on 26 September 2017.",
+      "source": {
+        "name": "Wikipedia · Fragments of Him",
+        "url": "https://en.wikipedia.org/wiki/Fragments_of_Him",
+        "calendarUrl": "https://en.wikipedia.org/wiki/May_3",
+        "license": {
+          "name": "CC BY-SA 4.0",
+          "url": "https://creativecommons.org/licenses/by-sa/4.0/"
+        }
+      },
+      "image": {
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/7a/Fragments_of_Him_-_Work_In_Progress_screenshot_2.png/500px-Fragments_of_Him_-_Work_In_Progress_screenshot_2.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "alt": "Fragments of Him — the video game this anniversary is about.",
+        "credit": "Sassybot",
+        "source": "https://commons.wikimedia.org/wiki/File:Fragments_of_Him_-_Work_In_Progress_screenshot_2.png",
+        "license": "CC BY-SA 3.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0"
+      }
+    },
+    {
       "id": "05-03-email",
       "date": "05-03",
       "dateLabel": "3 May",
@@ -27,33 +81,6 @@
         "source": "https://commons.wikimedia.org/wiki/File:Evolution_36_mail.png",
         "license": "CC BY-SA 3.0",
         "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0"
-      }
-    },
-    {
-      "id": "05-03-raja-harishchandra",
-      "date": "05-03",
-      "dateLabel": "3 May",
-      "category": "culture",
-      "categoryName": "Culture",
-      "year": 1913,
-      "title": "Raja Harishchandra",
-      "body": "Raja Harishchandra, the first full-length Indian feature film, is released, marking the beginning of the Indian film industry.",
-      "source": {
-        "name": "Wikipedia · Raja Harishchandra",
-        "url": "https://en.wikipedia.org/wiki/Raja_Harishchandra",
-        "calendarUrl": "https://en.wikipedia.org/wiki/May_3",
-        "license": {
-          "name": "CC BY-SA 4.0",
-          "url": "https://creativecommons.org/licenses/by-sa/4.0/"
-        }
-      },
-      "image": {
-        "src": "https://upload.wikimedia.org/wikipedia/commons/6/6a/Publicity_poster_for_film%2C_Raja_Harishchandra_%281913%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
-        "alt": "Picture from the Wikipedia article on Raja Harishchandra.",
-        "credit": "Dadasaheb Phalke",
-        "source": "https://commons.wikimedia.org/wiki/File:Publicity_poster_for_film,_Raja_Harishchandra_(1913).jpg",
-        "license": "Public domain",
-        "licenseUrl": "https://commons.wikimedia.org/wiki/File:Publicity_poster_for_film,_Raja_Harishchandra_(1913).jpg"
       }
     },
     {
@@ -108,33 +135,6 @@
         "source": "https://commons.wikimedia.org/wiki/File:LindisfarneChiRiho.jpg",
         "license": "Public domain",
         "licenseUrl": "https://commons.wikimedia.org/wiki/File:LindisfarneChiRiho.jpg"
-      }
-    },
-    {
-      "id": "05-03-geocaching",
-      "date": "05-03",
-      "dateLabel": "3 May",
-      "category": "tech",
-      "categoryName": "Tech",
-      "year": 2000,
-      "title": "Geocaching",
-      "body": "The sport of geocaching begins, with the first cache placed and the coordinates from a GPS posted on Usenet.",
-      "source": {
-        "name": "Wikipedia · Geocaching",
-        "url": "https://en.wikipedia.org/wiki/Geocaching",
-        "calendarUrl": "https://en.wikipedia.org/wiki/May_3",
-        "license": {
-          "name": "CC BY-SA 4.0",
-          "url": "https://creativecommons.org/licenses/by-sa/4.0/"
-        }
-      },
-      "image": {
-        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e8/Geocaching.svg/500px-Geocaching.svg.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-        "alt": "Picture from the Wikipedia article on Geocaching.",
-        "credit": "Liimes",
-        "source": "https://commons.wikimedia.org/wiki/File:Geocaching.svg",
-        "license": "Public domain",
-        "licenseUrl": "https://commons.wikimedia.org/wiki/File:Geocaching.svg"
       }
     }
   ]

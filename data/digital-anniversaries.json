@@ -1,0 +1,7588 @@
+{
+ "comment": "Day-precise anniversaries of websites, games, software, apps and internet memes, harvested from Wikidata by scripts/harvest-anniversaries.mjs. Each carries imageFile: a freely licensed Commons picture from the subject's Wikidata P18, because the picture everybody recognises -- box art, a screenshot, the meme itself -- is almost always non-free and this display may not reuse it. The generator seeds up to two a date, best-read first, and writes the body from the English Wikipedia extract. Regenerate with: npm run facts:harvest.",
+ "harvestedAt": "2026-09-06",
+ "dates": {
+  "09-30": [
+   {
+    "year": 1992,
+    "article": "King's Quest VI",
+    "title": "King's Quest VI: Heir Today, Gone Tomorrow",
+    "category": "culture",
+    "kind": "vgame",
+    "imageFile": "SierraOnLine-Box-KingsQuest6.jpg"
+   },
+   {
+    "year": 1994,
+    "article": "Doom II",
+    "title": "Q755186",
+    "category": "culture",
+    "kind": "vgame",
+    "imageFile": "Doom 2 (screenshot of game-ending red window).PNG"
+   },
+   {
+    "year": 1995,
+    "article": "Trials of Mana",
+    "title": "Trials of Mana",
+    "category": "culture",
+    "kind": "vgame",
+    "imageFile": "Seiken Densetsu 3 cart.jpg"
+   },
+   {
+    "year": 1995,
+    "article": "Police Quest: SWAT",
+    "title": "Police Quest: SWAT",
+    "category": "culture",
+    "kind": "vgame",
+    "imageFile": "SierraOnLine-Box-SWAT1.jpg"
+   },
+   {
+    "year": 1996,
+    "article": "Area 51 (1995 video game)",
+    "title": "Area 51",
+    "category": "culture",
+    "kind": "vgame",
+    "imageFile": "Musée Mécanique 209.JPG"
+   },
+   {
+    "year": 1997,
+    "article": "Maximum Force",
+    "title": "Maximum Force",
+    "category": "culture",
+    "kind": "vgame",
+    "imageFile": "Musée Mécanique 209.JPG"
+   },
+   {
+    "year": 2000,
+    "article": "WinSCP",
+    "title": "Q1160381",
+    "category": "tech",
+    "kind": "appsw",
+    "imageFile": "WinSCP-5.5.2.png"
+   },
+   {
+    "year": 2004,
+    "article": "Mojeek",
+    "title": "Mojeek",
+    "category": "tech",
+    "kind": "search",
+    "imageFile": "Mojeek-screenshot.jpg"
+   }
+  ],
+  "07-12": [
+   {
+    "year": 1998,
+    "article": "KDE Software Compilation",
+    "title": "KDE Software Compilation",
+    "category": "tech",
+    "kind": "appsw",
+    "imageFile": "KDE 4.png"
+   },
+   {
+    "year": 2001,
+    "article": "Google Images",
+    "title": "Google Images",
+    "category": "tech",
+    "kind": "website",
+    "imageFile": "Google immagini.png"
+   }
+  ],
+  "10-08": [
+   {
+    "year": 1992,
+    "article": "Mortal Kombat (1992 video game)",
+    "title": "Mortal Kombat",
+    "category": "culture",
+    "kind": "vgame",
+    "imageFile": "MortalKombat1992LegacyScreenshot.png"
+   },
+   {
+    "year": 1997,
+    "article": "Yahoo Mail",
+    "title": "Yahoo! Mail",
+    "category": "tech",
+    "kind": "website",
+    "imageFile": "Yahoo! Mail screenshot.png"
+   },
+   {
+    "year": 2007,
+    "article": "Go-oo",
+    "title": "Go-oo",
+    "category": "tech",
+    "kind": "appsw",
+    "imageFile": "Go-oo linux screenshot.jpg"
+   },
+   {
+    "year": 2010,
+    "article": "The Kings' Crusade",
+    "title": "The Kings' Crusade",
+    "category": "culture",
+    "kind": "vgame",
+    "imageFile": "Kings' Crusade cover art.jpg"
+   },
+   {
+    "year": 2013,
+    "article": "Just Dance 2014",
+    "title": "Just Dance 2014",
+    "category": "culture",
+    "kind": "vgame",
+    "imageFile": "Fan Expo 2014 - Just Dance (9669642682).jpg"
+   },
+   {
+    "year": 2014,
+    "article": "Star Wars Battle Pod",
+    "title": "Star Wars Battle Pod",
+    "category": "culture",
+    "kind": "vgame",
+    "imageFile": "BattlePods Yonge Eg 02.jpg"
+   }
+  ],
+  "11-02": [
+   {
+    "year": 1976,
+    "article": "Sprint 2",
+    "title": "Sprint 2",
+    "category": "culture",
+    "kind": "vgame",
+    "imageFile": "Musée Mécanique 185.JPG"
+   },
+   {
+    "year": 2008,
+    "article": "Stockfish (chess)",
+    "title": "Q1775686",
+    "category": "tech",
+    "kind": "appsw",
+    "imageFile": "DroidFish.jpg"
+   },
+   {
+    "year": 2015,
+    "article": "Cibele (video game)",
+    "title": "Cibele",
+    "category": "culture",
+    "kind": "vgame",
+    "imageFile": "Cibele video game screenshot 1.png"
+   },
+   {
+    "year": 2021,
+    "article": "Cupid Parasite",
+    "title": "Cupid Parasite",
+    "category": "culture",
+    "kind": "vgame",
+    "imageFile": "Cupid Parasite Packshot 0713.png"
+   }
+  ],
+  "06-19": [
+   {
+    "year": 2000,
+    "article": "Windows Me",
+    "title": "Q484892",
+    "category": "tech",
+    "kind": "os",
+    "imageFile": "VirtualBox Windows Me Deutsch 15 10 2023 14 30 41 BSoD.png"
+   },
+   {
+    "year": 2005,
+    "article": "Baike.com",
+    "title": "baike.com",
+    "category": "tech",
+    "kind": "website",
+    "imageFile": "DouyinBaikeScreenshot.png"
+   },
+   {
+    "year": 2008,
+    "article": "Universal Edit Button",
+    "title": "Universal Edit Button",
+    "category": "tech",
+    "kind": "appsw",
+    "imageFile": "UWEBinaction.png"
+   },
+   {
+    "year": 2020,
+    "article": "COVID-19 Contact-Confirming Application",
+    "title": "COVID-19 Contact-Confirming Application",
+    "category": "tech",
+    "kind": "mobileapp",
+    "imageFile": "Poster of Contact Confirming Application COCOA.jpg"
+   },
+   {
+    "year": 2020,
+    "article": "The Last of Us Part II",
+    "title": "Q27950674",
+    "category": "culture",
+    "kind": "vgame",
+    "imageFile": "The Last of Us Part II marketing - train.jpg"
+   }
+  ],
+  "05-08": [
+   {
+    "year": 2007,
+    "article": "Cppcheck",
+    "title": "Q1138363",
+    "category": "tech",
+    "kind": "appsw",
+    "imageFile": "CppcheckPortable 2.13.0 en.png"
+   },
+   {
+    "year": 2008,
+    "article": "TinEye",
+    "title": "TinEye",
+    "category": "tech",
+    "kind": "search",
+    "imageFile": "Tineye HQ, at 223 Queen Street East, Toronto (52030766532).jpg"
+   },
+   {
+    "year": 2008,
+    "article": "Wii Fit",
+    "title": "Wii Fit",
+    "category": "culture",
+    "kind": "vgame",
+    "imageFile": "Wiifit.jpg"
+   }
+  ],
+  "11-19": [
+   {
+    "year": 1998,
+    "article": "PuTTY",
+    "title": "Q841685",
+    "category": "tech",
+    "kind": "appsw",
+    "imageFile": "PuTTY 0.62 on Windows 8.png"
+   },
+   {
+    "year": 1999,
+    "article": "The Longest Journey (video game)",
+    "title": "The Longest Journey",
+    "category": "culture",
+    "kind": "vgame",
+    "imageFile": "The Longest Journey-Arcadia-Map.png"
+   }
+  ],
+  "12-05": [
+   {
+    "year": 1997,
+    "article": "Beast Wars: Transformers (video game)",
+    "title": "Beast Wars: Transformers",
+    "category": "culture",
+    "kind": "vgame",
+    "imageFile": "Transformers layered text logo.png"
+   },
+   {
+    "year": 2002,
+    "article": "UltraVNC",
+    "title": "UltraVNC",
+    "category": "tech",
+    "kind": "appsw",
+    "imageFile": "UltraVNC Viewer.png"
+   },
+   {
+    "year": 2019,
+    "article": "Alien: Isolation",
+    "title": "Alien: Isolation",
+    "category": "culture",
+    "kind": "vgame",
+    "imageFile": "H.R. Giger’s Xenomorph (Ank Kumar ) 04.jpg"
+   },
+   {
+    "year": 2019,
+    "article": "AI Dungeon",
+    "title": "AI Dungeon",
+    "category": "culture",
+    "kind": "vgame",
+    "imageFile": "Ai dungeon with a custom setting.png"
+   }
+  ],
+  "04-24": [
+   {
+    "year": 2001,
+    "article": "Cossacks: European Wars",
+    "title": "Cossacks: European Wars",
+    "category": "culture",
+    "kind": "vgame",
+    "imageFile": "3 cossacks european wars.JPG"
+   },
+   {
+    "year": 2003,
+    "article": "Windows Server 2003",
+    "title": "Windows Server 2003",
+    "category": "tech",
+    "kind": "os",
+    "imageFile": "VirtualBox Windows Server 2003 Server Enterprise x64 VL 08 01 2025 10 14 47 CENS.png"
+   },
+   {
+    "year": 2012,
+    "article": "Google Drive",
+    "title": "Q9340",
+    "category": "tech",
+    "kind": "appsw",
+    "imageFile": "Chromium OS Google Drive NRLTY.png"
+   },
+   {
+    "year": 2012,
+    "article": "Microsoft Ultimate Word Games",
+    "title": "Wordament",
+    "category": "culture",
+    "kind": "vgame",
+    "imageFile": "Wordament Board.png"
+   },
+   {
+    "year": 2013,
+    "article": "Monaco: What's Yours Is Mine",
+    "title": "Q3320085",
+    "category": "culture",
+    "kind": "vgame",
+    "imageFile": "Monaco What's Yours Is Mine - Screenshot 4 (Casino Heist).png"
+   }
+  ],
+  "07-25": [
+   {
+    "year": 2000,
+    "article": "Hyphanet",
+    "title": "Hyphanet",
+    "category": "tech",
+    "kind": "appsw",
+    "imageFile": "The welcome page of Freenet Hyphanet.png"
+   },
+   {
+    "year": 2013,
+    "article": "Mario Kart Arcade GP DX",
+    "title": "Mario Kart Arcade GP DX",
+    "category": "culture",
+    "kind": "vgame",
+    "imageFile": "2015, by Mike Mozart of TheToyChannel and JeepersMedia on YouTube -Dave -Busters - 16281230799.jpg"
+   },
+   {
+    "year": 2016,
+    "article": "Quadrilateral Cowboy",
+    "title": "Quadrilateral Cowboy",
+    "category": "culture",
+    "kind": "vgame",
+    "imageFile": "Quadrilateral Cowboy cover.png"
+   }
+  ],
+  "06-26": [
+   {
+    "year": 1986,
+    "article": "Choplifter",
+    "title": "Choplifter",
+    "category": "culture",
+    "kind": "vgame",
+    "imageFile": "Commodore Educator64 open choplifter.jpg"
+   },
+   {
+    "year": 2003,
+    "article": "Scribus",
+    "title": "Q8295",
+    "category": "tech",
+    "kind": "appsw",
+    "imageFile": "Scribus 1.4.6 on Linux Mint 18.png"
+   },
+   {
+    "year": 2009,
+    "article": "Bilibili",
+    "title": "Bilibili",
+    "category": "tech",
+    "kind": "mobileapp",
+    "imageFile": "Screenshot of Bstation.png"
+   }
+  ],
+  "01-18": [
+   {
+    "year": 2006,
+    "article": "Adblock Plus",
+    "title": "Adblock Plus",
+    "category": "tech",
+    "kind": "mobileapp",
+    "imageFile": "Adblock Plus Settings.png"
+   },
+   {
+    "year": 2008,
+    "article": "Sublime Text",
+    "title": "Sublime Text",
+    "category": "tech",
+    "kind": "appsw",
+    "imageFile": "Sublime text mxunit.png"
+   },
+   {
+    "year": 2019,
+    "article": "Chill (video game)",
+    "title": "Chill",
+    "category": "culture",
+    "kind": "vgame",
+    "imageFile": "Chill.jpg"
+   },
+   {
+    "year": 2019,
+    "article": "Ace Combat 7: Skies Unknown",
+    "title": "Ace Combat 7: Skies Unknown",
+    "category": "culture",
+    "kind": "vgame",
+    "imageFile": "ACE COMBAT 7 SKIES UNKNOWN cover art.png"
+   }
+  ],
+  "02-01": [
+   {
+    "year": 1982,
+    "article": "Wizard and the Princess",
+    "title": "Wizard and the Princess",
+    "category": "culture",
+    "kind": "vgame",
+    "imageFile": "On-Line Systems-02-Wizard and the Princess.jpg"
+   },
+   {
+    "year": 1998,
+    "article": "Sega Rally 2",
+    "title": "Q2435959",
+    "category": "culture",
+    "kind": "vgame",
+    "imageFile": "Segarally2.jpg"
+   },
+   {
+    "year": 2001,
+    "article": "VLC media player",
+    "title": "Q171477",
+    "category": "tech",
+    "kind": "appsw",
+    "imageFile": "VLC 3.0.10 running on Linux and GNOME Shell.png"
+   },
+   {
+    "year": 2007,
+    "article": "PeaceMaker",
+    "title": "PeaceMaker",
+    "category": "culture",
+    "kind": "vgame",
+    "imageFile": "PeaceMaker - Game interface.jpg"
+   },
+   {
+    "year": 2013,
+    "article": "Mercari",
+    "title": "Mercari",
+    "category": "tech",
+    "kind": "mobileapp",
+    "imageFile": "Roppongi-Mori-Tower-01.jpg"
+   },
+   {
+    "year": 2024,
+    "article": "Strinova",
+    "title": "Strinova",
+    "category": "culture",
+    "kind": "vgame",
+    "imageFile": "Strinova prohibited software and hardware.png"
+   }
+  ],
+  "04-05": [
+   {
+    "year": 1982,
+    "article": "The Minnesota Star Tribune",
+    "title": "Star Tribune",
+    "category": "tech",
+    "kind": "website",
+    "imageFile": "051207-MPLS-007Strib.jpg"
+   },
+   {
+    "year": 1993,
+    "article": "Twilight Zone (pinball)",
+    "title": "Twilight Zone",
+    "category": "culture",
+    "kind": "vgame",
+    "imageFile": "Twilight Zone pinball.jpg"
+   },
+   {
+    "year": 2001,
+    "article": "KStars",
+    "title": "KStars",
+    "category": "tech",
+    "kind": "appsw",
+    "imageFile": "KStars.png"
+   },
+   {
+    "year": 2016,
+    "article": "Job Simulator",
+    "title": "Job Simulator",
+    "category": "culture",
+    "kind": "vgame",
+    "imageFile": "Jobsim capsule big full.png"
+   },
+   {
+    "year": 2016,
+    "article": "Holodance",
+    "title": "Holodance",
+    "category": "culture",
+    "kind": "vgame",
+    "imageFile": "Official-Holodance-Poster-V0 8-CC-BY-40 1440x1024.jpg"
+   },
+   {
+    "year": 2022,
+    "article": "Lego Star Wars: The Skywalker Saga",
+    "title": "Lego Star Wars: The Skywalker Saga",
+    "category": "culture",
+    "kind": "vgame",
+    "imageFile": "LEGO® Star Wars™ The Skywalker Saga - Gameplay Overview (thumbnail).jpg"
+   }
+  ],
+  "06-22": [
+   {
+    "year": 2001,
+    "article": "FileZilla",
+    "title": "FileZilla",
+    "category": "tech",
+    "kind": "appsw",
+    "imageFile": "FileZilla.png"
+   }
+  ],
+  "09-01": [
+   {
+    "year": 1982,
+    "article": "Pole Position",
+    "title": "Pole Position",
+    "category": "culture",
+    "kind": "vgame",
+    "imageFile": "Musée Mécanique 029.JPG"
+   },
+   {
+    "year": 1986,
+    "article": "Ice Climber",
+    "title": "Ice Climber",
+    "category": "culture",
+    "kind": "vgame",
+    "imageFile": "LVL Up Expo 2022 Las Vegas Convention Center.jpg"
+   },
+   {
+    "year": 1986,
+    "article": "Mario Bros.",
+    "title": "Mario Bros.",
+    "category": "culture",
+    "kind": "vgame",
+    "imageFile": "Mario Bros. cabinet at PAX East 2014.png"
+   },
+   {
+    "year": 1996,
+    "article": "Mortal Kombat Trilogy",
+    "title": "Mortal Kombat Trilogy",
+    "category": "culture",
+    "kind": "vgame",
+    "imageFile": "MortalKombatTrilogyLegacyGameplay1.png"
+   },
+   {
+    "year": 2004,
+    "article": "LHC@home",
+    "title": "LHC@home",
+    "category": "tech",
+    "kind": "software",
+    "imageFile": "LHC@home.gif"
+   },
+   {
+    "year": 2004,
+    "article": "Dofus",
+    "title": "Dofus",
+    "category": "culture",
+    "kind": "vgame",
+    "imageFile": "Dofus booth at GamesCom (3840123521).jpg"
+   },
+   {
+    "year": 2008,
+    "article": "Spore (2008 video game)",
+    "title": "Spore",
+    "category": "culture",
+    "kind": "vgame",
+    "imageFile": "E3 2006 (144314759).jpg"
+   },
+   {
+    "year": 2012,
+    "article": "OBS Studio",
+    "title": "Q21707789",
+    "category": "tech",
+    "kind": "appsw",
+    "imageFile": "Wcubuntu24041ltsenusobs20241102.png"
+   },
+   {
+    "year": 2015,
+    "article": "Armello",
+    "title": "Armello",
+    "category": "culture",
+    "kind": "vgame",
+    "imageFile": "Armello - Screenshot 02.png"
+   },
+   {
+    "year": 2017,
+    "article": "Bird Global",
+    "title": "Bird",
+    "category": "tech",
+    "kind": "software",
+    "imageFile": "Bird Scooter in San Francisco 1 2018-05-06.jpg"
+   },
+   {
+    "year": 2023,
+    "article": "Starfield (video game)",
+    "title": "Q55286432",
+    "category": "culture",
+    "kind": "vgame",
+    "imageFile": "Starfield - Abandoned Hangar.jpg"
+   }
+  ],
+  "01-20": [
+   {
+    "year": 2004,
+    "article": "Scala (programming language)",
+    "title": "Scala",
+    "category": "tech",
+    "kind": "proglang",
+    "imageFile": "IntelliJIDEA 2016.3 Community.png"
+   },
+   {
+    "year": 2016,
+    "article": "Brave (web browser)",
+    "title": "Q22906900",
+    "category": "tech",
+    "kind": "appsw",
+    "imageFile": "Brave 1.57.57 macOS el.png"
+   },
+   {
+    "year": 2025,
+    "article": "Elon Musk salute controversy",
+    "title": "Elon Musk salute controversy",
+    "category": "curious",
+    "kind": "meme",
+    "imageFile": "Elon Musk's Salute at Donald Trump's Second Inauguration.gif"
+   }
+  ],
+  "03-26": [
+   {
+    "year": 1998,
+    "article": "Tekken 3",
+    "title": "Tekken 3",
+    "category": "culture",
+    "kind": "vgame",
+    "imageFile": "Musée Mécanique 204.JPG"
+   },
+   {
+    "year": 1999,
+    "article": "Warzone 2100",
+    "title": "Warzone 2100",
+    "category": "culture",
+    "kind": "vgame",
+    "imageFile": "Warzone 2100 - base.jpg"
+   },
+   {
+    "year": 2003,
+    "article": "Avro Keyboard",
+    "title": "Avro Keyboard",
+    "category": "tech",
+    "kind": "software",
+    "imageFile": "Splash screen of Avro Keyboard.jpg"
+   },
+   {
+    "year": 2015,
+    "article": "Periscope (service)",
+    "title": "Periscope",
+    "category": "tech",
+    "kind": "mobileapp",
+    "imageFile": "Periscope app streaming a guided tour in Städel museum, Frankfurt-3308.jpg"
+   },
+   {
+    "year": 2016,
+    "article": "Toonz",
+    "title": "Toonz",
+    "category": "tech",
+    "kind": "appsw",
+    "imageFile": "OpenToonz 1.7.1 screenshot.webp"
+   }
+  ],
+  "09-18": [
+   {
+    "year": 2008,
+    "article": "KDE Partition Manager",
+    "title": "KDE Partition Manager",
+    "category": "tech",
+    "kind": "appsw",
+    "imageFile": "KDE Partition Manager 21.12.0 screenshot.png"
+   },
+   {
+    "year": 2014,
+    "article": "Roundabout (video game)",
+    "title": "Roundabout",
+    "category": "culture",
+    "kind": "vgame",
+    "imageFile": "Roundabout - Splash Screen.png"
+   }
+  ],
+  "04-26": [
+   {
+    "year": 2003,
+    "article": "WeeChat",
+    "title": "WeeChat",
+    "category": "tech",
+    "kind": "appsw",
+    "imageFile": "WeeChat 3.4 screenshot.png"
+   }
+  ],
+  "12-28": [
+   {
+    "year": 2002,
+    "article": "MediaInfo",
+    "title": "Q3898244",
+    "category": "tech",
+    "kind": "appsw",
+    "imageFile": "MediaInfo (2).png"
+   }
+  ],
+  "08-26": [
+   {
+    "year": 2007,
+    "article": "Pocket (service)",
+    "title": "Pocket",
+    "category": "tech",
+    "kind": "appsw",
+    "imageFile": "Pocket web reader example.png"
+   },
+   {
+    "year": 2015,
+    "article": "YouTube Gaming",
+    "title": "YouTube Gaming",
+    "category": "tech",
+    "kind": "mobileapp",
+    "imageFile": "YouTube Gaming live studio at Google Play booth 20190127a.jpg"
+   }
+  ],
+  "05-25": [
+   {
+    "year": 2005,
+    "article": "Danbooru",
+    "title": "Danbooru",
+    "category": "tech",
+    "kind": "website",
+    "imageFile": "Danbooru generic screenshot.png"
+   },
+   {
+    "year": 2007,
+    "article": "Google Street View",
+    "title": "Google Street View",
+    "category": "tech",
+    "kind": "software",
+    "imageFile": "GoogleStreetViewCar Subaru Impreza at Google Campus.JPG"
+   },
+   {
+    "year": 2010,
+    "article": "RetroArch",
+    "title": "RetroArch",
+    "category": "tech",
+    "kind": "appsw",
+    "imageFile": "Retroarch screenshot.png"
+   },
+   {
+    "year": 2015,
+    "article": "60 Seconds!",
+    "title": "60 Seconds!",
+    "category": "culture",
+    "kind": "vgame",
+    "imageFile": "60 Seconds!.jpg"
+   }
+  ],
+  "01-14": [
+   {
+    "year": 2018,
+    "article": "Yuzu (emulator)",
+    "title": "Yuzu",
+    "category": "tech",
+    "kind": "appsw",
+    "imageFile": "Yuzu Emulator In Action (Space Game by vgmoose).png"
+   }
+  ],
+  "05-13": [
+   {
+    "year": 1976,
+    "article": "Breakout (video game)",
+    "title": "Breakout",
+    "category": "culture",
+    "kind": "vgame",
+    "imageFile": "Screenshot-LBreakout2.jpg"
+   },
+   {
+    "year": 2020,
+    "article": "Windows Package Manager",
+    "title": "Windows Package Manager",
+    "category": "tech",
+    "kind": "appsw",
+    "imageFile": "Windows Package Manager v0.1.41331 Preview 1115x624.png"
+   }
+  ],
+  "05-12": [
+   {
+    "year": 2009,
+    "article": "FreeCol",
+    "title": "FreeCol",
+    "category": "culture",
+    "kind": "vgame",
+    "imageFile": "FreeCol0 5 2 mapboard.jpg"
+   },
+   {
+    "year": 2019,
+    "article": "The Backrooms",
+    "title": "The Backrooms",
+    "category": "curious",
+    "kind": "meme",
+    "imageFile": "HobbyTown USA Oshkosh interior under construction 2002 (The Backrooms).jpg"
+   }
+  ],
+  "02-24": [
+   {
+    "year": 2011,
+    "article": "FaceTime",
+    "title": "FaceTime",
+    "category": "tech",
+    "kind": "mobileapp",
+    "imageFile": "FaceTime screenshot.png"
+   },
+   {
+    "year": 2022,
+    "article": "Russian warship, go fuck yourself",
+    "title": "Russian warship, go fuck yourself",
+    "category": "curious",
+    "kind": "meme",
+    "imageFile": "Russian ship, go f yourself. Bright. 2.jpg"
+   },
+   {
+    "year": 2022,
+    "article": "DeepStateMap.Live",
+    "title": "DeepStateMapLive",
+    "category": "tech",
+    "kind": "website",
+    "imageFile": "DeepStateMap.Live map on 25 April 2022.jpg"
+   },
+   {
+    "year": 2026,
+    "article": "Wikigacha",
+    "title": "Wikigacha",
+    "category": "culture",
+    "kind": "vgame",
+    "imageFile": "Wikigacha main page.png"
+   }
+  ],
+  "05-24": [
+   {
+    "year": 2016,
+    "article": "Simutrans",
+    "title": "Simutrans",
+    "category": "culture",
+    "kind": "vgame",
+    "imageFile": "Simutrans pak64.png"
+   },
+   {
+    "year": 2022,
+    "article": "NAFO (group)",
+    "title": "NAFO",
+    "category": "curious",
+    "kind": "meme",
+    "imageFile": "Todesmaschine - Berlin 2023-02-24 RK05.jpg"
+   }
+  ],
+  "10-30": [
+   {
+    "year": 1987,
+    "article": "Bubble Bobble (video game)",
+    "title": "Bubble Bobble",
+    "category": "culture",
+    "kind": "vgame",
+    "imageFile": "Bubble Bobble arcade machine.jpg"
+   },
+   {
+    "year": 2006,
+    "article": "Widelands",
+    "title": "Widelands",
+    "category": "culture",
+    "kind": "vgame",
+    "imageFile": "Widelands-svn3311.jpg"
+   },
+   {
+    "year": 2012,
+    "article": "Assassin's Creed III",
+    "title": "Assassin's Creed III",
+    "category": "culture",
+    "kind": "vgame",
+    "imageFile": "Assassin's Creed III (7788130114).jpg"
+   },
+   {
+    "year": 2022,
+    "article": "Listenbourg",
+    "title": "Listenbourg",
+    "category": "curious",
+    "kind": "meme",
+    "imageFile": "Europe with and without Listenbourg fictional country.svg"
+   }
+  ],
+  "12-30": [
+   {
+    "year": 2003,
+    "article": "UFO: Alien Invasion",
+    "title": "UFO: Alien Invasion",
+    "category": "culture",
+    "kind": "vgame",
+    "imageFile": "Ufo 2.4 Farm.png"
+   },
+   {
+    "year": 2017,
+    "article": "Soyjak",
+    "title": "Soyjak",
+    "category": "curious",
+    "kind": "meme",
+    "imageFile": "Commonsjak Soyjak.png"
+   }
+  ],
+  "05-01": [
+   {
+    "year": 1997,
+    "article": "Tamagotchi",
+    "title": "Tamagotchi",
+    "category": "culture",
+    "kind": "vgame",
+    "imageFile": "Tamagotchi 0124 ubt.jpeg"
+   },
+   {
+    "year": 2007,
+    "article": "Free Speech Flag",
+    "title": "Free Speech Flag",
+    "category": "curious",
+    "kind": "meme",
+    "imageFile": "Sample 09-F9 protest art, Free Speech Flag by John Marcotte.svg"
+   }
+  ],
+  "01-24": [
+   {
+    "year": 1984,
+    "article": "Classic Mac OS",
+    "title": "Classic Mac OS",
+    "category": "tech",
+    "kind": "os",
+    "imageFile": "PowerBook 550c (2373696262).jpg"
+   },
+   {
+    "year": 2004,
+    "article": "Orkut",
+    "title": "Orkut",
+    "category": "tech",
+    "kind": "socialnet",
+    "imageFile": "Aparência visual do 'novo orkut'.png"
+   },
+   {
+    "year": 2015,
+    "article": "ISIS-chan",
+    "title": "ISIS-chan",
+    "category": "curious",
+    "kind": "meme",
+    "imageFile": "ISIS Chan by Ellie Smiley.jpg"
+   }
+  ],
+  "01-21": [
+   {
+    "year": 1999,
+    "article": "Super Smash Bros. (video game)",
+    "title": "Super Smash Bros.",
+    "category": "culture",
+    "kind": "vgame",
+    "imageFile": "Nintendo 64 (26017220053).jpg"
+   },
+   {
+    "year": 2011,
+    "article": "Scumbag Steve",
+    "title": "Scumbag Steve",
+    "category": "curious",
+    "kind": "meme",
+    "imageFile": "Scumbag Steve at South by Southwest 2013 (8598264480).jpg"
+   }
+  ],
+  "07-30": [
+   {
+    "year": 2004,
+    "article": "Miestai.net",
+    "title": "Miestai.net",
+    "category": "tech",
+    "kind": "website",
+    "imageFile": "Mobile screenshot.jpg"
+   },
+   {
+    "year": 2007,
+    "article": "Lurkmore",
+    "title": "lurkmore.to",
+    "category": "curious",
+    "kind": "meme",
+    "imageFile": "Lurkmore.to screenshot.png"
+   }
+  ],
+  "10-31": [
+   {
+    "year": 2009,
+    "article": "500px",
+    "title": "500px",
+    "category": "tech",
+    "kind": "website",
+    "imageFile": "FiveHundredPixels.jpg"
+   },
+   {
+    "year": 2010,
+    "article": "Wiki-Watch",
+    "title": "Wiki-Watch",
+    "category": "tech",
+    "kind": "software",
+    "imageFile": "014-WW-Screenshot-Reliability of Wikipedia.png"
+   },
+   {
+    "year": 2012,
+    "article": "Pid (video game)",
+    "title": "Pid",
+    "category": "culture",
+    "kind": "vgame",
+    "imageFile": "Pid - Poster 1.jpg"
+   },
+   {
+    "year": 2017,
+    "article": "It's okay to be white",
+    "title": "It's okay to be white",
+    "category": "curious",
+    "kind": "meme",
+    "imageFile": "It's OK to be white.jpg"
+   }
+  ],
+  "06-27": [
+   {
+    "year": 1997,
+    "article": "Time Crisis (video game)",
+    "title": "Time Crisis",
+    "category": "culture",
+    "kind": "vgame",
+    "imageFile": "Time crisis P170312 11.30 01.jpg"
+   },
+   {
+    "year": 2001,
+    "article": "Anarchy Online",
+    "title": "Anarchy Online",
+    "category": "culture",
+    "kind": "vgame",
+    "imageFile": "Anarchy Online Land Control Area.png"
+   },
+   {
+    "year": 2006,
+    "article": "Let's Go Jungle!: Lost on the Island of Spice",
+    "title": "Let's Go Jungle!: Lost on the Island of Spice",
+    "category": "culture",
+    "kind": "vgame",
+    "imageFile": "Let's GO ISLAND 20170415 121042.jpg"
+   },
+   {
+    "year": 2019,
+    "article": "Storm Area 51",
+    "title": "Storm Area 51",
+    "category": "curious",
+    "kind": "meme",
+    "imageFile": "Crowd gathered at the back gate of Area 51.jpg"
+   },
+   {
+    "year": 2023,
+    "article": "The Password Game",
+    "title": "The Password Game",
+    "category": "culture",
+    "kind": "vgame",
+    "imageFile": "The Password Game screenshot.jpg"
+   }
+  ],
+  "06-06": [
+   {
+    "year": 1984,
+    "article": "Tetris",
+    "title": "Q71910",
+    "category": "culture",
+    "kind": "vgame",
+    "imageFile": "Emacs Tetris vector based detail.svg"
+   },
+   {
+    "year": 2007,
+    "article": "Pac-Man Championship Edition",
+    "title": "Pac-Man Championship Edition",
+    "category": "culture",
+    "kind": "vgame",
+    "imageFile": "Pacmanchampion2.JPG"
+   },
+   {
+    "year": 2012,
+    "article": "Overly Attached Girlfriend",
+    "title": "Overly Attached Girlfriend",
+    "category": "curious",
+    "kind": "meme",
+    "imageFile": "Laina Morris by Gage Skidmore.jpg"
+   },
+   {
+    "year": 2014,
+    "article": "Tomodachi Life (video game)",
+    "title": "Tomodachi Life",
+    "category": "culture",
+    "kind": "vgame",
+    "imageFile": "2026-02-26 Tomodachi Life Essen ??? 26.02.26 14.28.15.293.png"
+   }
+  ],
+  "01-13": [
+   {
+    "year": 1982,
+    "article": "Ms. Pac-Man",
+    "title": "Ms. Pac-Man",
+    "category": "culture",
+    "kind": "vgame",
+    "imageFile": "Ms. Pac-Man gameplay Screenshot.png"
+   },
+   {
+    "year": 2014,
+    "article": "Nidhogg (video game)",
+    "title": "Nidhogg",
+    "category": "culture",
+    "kind": "vgame",
+    "imageFile": "Nidhogg video game screenshot 1.png"
+   },
+   {
+    "year": 2025,
+    "article": "Tralalero Tralala",
+    "title": "Tralalero Tralala",
+    "category": "curious",
+    "kind": "meme",
+    "imageFile": "Tralalero Tralala.webp"
+   }
+  ],
+  "08-14": [
+   {
+    "year": 1991,
+    "article": "ArXiv",
+    "title": "arXiv",
+    "category": "tech",
+    "kind": "website",
+    "imageFile": "ArXiv-org screenshot 20140706.png"
+   },
+   {
+    "year": 2012,
+    "article": "Darksiders II",
+    "title": "Darksiders II",
+    "category": "culture",
+    "kind": "vgame",
+    "imageFile": "Darksiders II girls at E3 2012 (7166549959).jpg"
+   },
+   {
+    "year": 2013,
+    "article": "Telegram (software)",
+    "title": "Q15616276",
+    "category": "tech",
+    "kind": "mobileapp",
+    "imageFile": "Telegram Android screenshot.svg"
+   },
+   {
+    "year": 2013,
+    "article": "Charlie Murder",
+    "title": "Charlie Murder",
+    "category": "culture",
+    "kind": "vgame",
+    "imageFile": "Charlie Murder screenshot 5.png"
+   }
+  ],
+  "10-27": [
+   {
+    "year": 2008,
+    "article": "K-9 Mail",
+    "title": "K-9 Mail",
+    "category": "tech",
+    "kind": "mobileapp",
+    "imageFile": "K-9 Mail main page screenshot.png"
+   },
+   {
+    "year": 2008,
+    "article": "LittleBigPlanet (2008 video game)",
+    "title": "LittleBigPlanet",
+    "category": "culture",
+    "kind": "vgame",
+    "imageFile": "SonyFair2008 Day1 PS3 LittleBIGPlanet.jpg"
+   },
+   {
+    "year": 2014,
+    "article": "OpenProcurement",
+    "title": "OpenProcurement",
+    "category": "tech",
+    "kind": "software",
+    "imageFile": "Architecture openprocurement system.png"
+   },
+   {
+    "year": 2016,
+    "article": "Orwell (video game)",
+    "title": "Orwell: Keeping an Eye On You",
+    "category": "culture",
+    "kind": "vgame",
+    "imageFile": "Orwell video game header B capsule.png"
+   }
+  ],
+  "10-26": [
+   {
+    "year": 1998,
+    "article": "Lego Creator (video game)",
+    "title": "Lego Creator",
+    "category": "culture",
+    "kind": "vgame",
+    "imageFile": "Lego Creator.svg"
+   },
+   {
+    "year": 2004,
+    "article": "Grand Theft Auto Advance",
+    "title": "Q648099",
+    "category": "culture",
+    "kind": "vgame",
+    "imageFile": "Grand Theft Auto Advance.png"
+   },
+   {
+    "year": 2010,
+    "article": "The Ball (video game)",
+    "title": "The Ball",
+    "category": "culture",
+    "kind": "vgame",
+    "imageFile": "The Ball - Screenshot 02.jpg"
+   },
+   {
+    "year": 2011,
+    "article": "Yandex Taxi",
+    "title": "Yandex Taxi",
+    "category": "tech",
+    "kind": "mobileapp",
+    "imageFile": "Moscow, Geely Atlas Pro taxi, Sept 2025 01.jpg"
+   },
+   {
+    "year": 2012,
+    "article": "Windows 8",
+    "title": "Q5046",
+    "category": "tech",
+    "kind": "os",
+    "imageFile": "Windows 8 Start UI.svg"
+   },
+   {
+    "year": 2012,
+    "article": "Windows RT",
+    "title": "Windows RT",
+    "category": "tech",
+    "kind": "os",
+    "imageFile": "Windows 8 Start UI.svg"
+   },
+   {
+    "year": 2016,
+    "article": "Pleroma (software)",
+    "title": "Pleroma",
+    "category": "tech",
+    "kind": "socialnet",
+    "imageFile": "Pleroma-FE UI screenshot 2020.png"
+   },
+   {
+    "year": 2021,
+    "article": "Bad End Theater",
+    "title": "Q122376793",
+    "category": "culture",
+    "kind": "vgame",
+    "imageFile": "Bad End Theater cover art.png"
+   }
+  ],
+  "11-17": [
+   {
+    "year": 1999,
+    "article": "SourceForge",
+    "title": "SourceForge",
+    "category": "tech",
+    "kind": "website",
+    "imageFile": "SourceForge net update.png"
+   },
+   {
+    "year": 2004,
+    "article": "Jets'n'Guns",
+    "title": "Jets'n'Guns",
+    "category": "culture",
+    "kind": "vgame",
+    "imageFile": "Jetnguns 3.jpg"
+   },
+   {
+    "year": 2009,
+    "article": "Assassin's Creed II",
+    "title": "Assassin's Creed II",
+    "category": "culture",
+    "kind": "vgame",
+    "imageFile": "Assassin's Creed II by Reindertot.jpg"
+   },
+   {
+    "year": 2011,
+    "article": "SpellTower",
+    "title": "SpellTower",
+    "category": "culture",
+    "kind": "vgame",
+    "imageFile": "SpellTower screenshot - RushMode.png"
+   },
+   {
+    "year": 2016,
+    "article": "Firefox Focus",
+    "title": "Firefox Focus",
+    "category": "tech",
+    "kind": "mobileapp",
+    "imageFile": "Firefox Focus 102.png"
+   }
+  ],
+  "03-20": [
+   {
+    "year": 2006,
+    "article": "Tetris DS",
+    "title": "Tetris DS",
+    "category": "culture",
+    "kind": "vgame",
+    "imageFile": "Tetris DS home screen.jpg"
+   },
+   {
+    "year": 2007,
+    "article": "S.T.A.L.K.E.R.: Shadow of Chernobyl",
+    "title": "S.T.A.L.K.E.R.: Shadow of Chernobyl",
+    "category": "culture",
+    "kind": "vgame",
+    "imageFile": "Stalkershot 2.jpg"
+   },
+   {
+    "year": 2015,
+    "article": "Kuaishou",
+    "title": "Kuaishou",
+    "category": "tech",
+    "kind": "mobileapp",
+    "imageFile": "Kuaishou office at CMID (20231115080409).jpg"
+   }
+  ],
+  "10-29": [
+   {
+    "year": 2009,
+    "article": "Cricket Revolution",
+    "title": "Cricket Revolution",
+    "category": "culture",
+    "kind": "vgame",
+    "imageFile": "CR's Packshot.jpg"
+   },
+   {
+    "year": 2012,
+    "article": "Diff-Text",
+    "title": "Diff-Text",
+    "category": "tech",
+    "kind": "software",
+    "imageFile": "Diff-Text.com Screenshot Showing Detection Of Moved And Reordered Text.png"
+   },
+   {
+    "year": 2015,
+    "article": "PeerTube",
+    "title": "Q50938515",
+    "category": "tech",
+    "kind": "mobileapp",
+    "imageFile": "Peertube ui on framatube.png"
+   }
+  ],
+  "07-29": [
+   {
+    "year": 2002,
+    "article": "The Mark of Kri",
+    "title": "The Mark of Kri",
+    "category": "culture",
+    "kind": "vgame",
+    "imageFile": "Rau sketch with filters by Curfs.jpg"
+   },
+   {
+    "year": 2009,
+    "article": "Zaz (video game)",
+    "title": "Q16267606",
+    "category": "culture",
+    "kind": "vgame",
+    "imageFile": "Zaz (computer game).png"
+   },
+   {
+    "year": 2014,
+    "article": "Signal (software)",
+    "title": "Signal",
+    "category": "tech",
+    "kind": "mobileapp",
+    "imageFile": "Signal Android 7.28.4 blue.png"
+   },
+   {
+    "year": 2015,
+    "article": "Windows 10",
+    "title": "Q18168774",
+    "category": "tech",
+    "kind": "os",
+    "imageFile": "Windows10abstract new.png"
+   },
+   {
+    "year": 2021,
+    "article": "Misericorde: Volume One",
+    "title": "Misericorde: Volume One",
+    "category": "culture",
+    "kind": "vgame",
+    "imageFile": "Misericorde title.png"
+   }
+  ],
+  "10-20": [
+   {
+    "year": 2008,
+    "article": "Midnight Club: Los Angeles",
+    "title": "Midnight Club: Los Angeles",
+    "category": "culture",
+    "kind": "vgame",
+    "imageFile": "Midnight Club, LA at GamesCom - Flickr - Sergey Galyonkin.jpg"
+   },
+   {
+    "year": 2014,
+    "article": "Meduza (website)",
+    "title": "Meduza",
+    "category": "tech",
+    "kind": "mobileapp",
+    "imageFile": "Meduza screenshot Valday.jpg"
+   },
+   {
+    "year": 2022,
+    "article": "Vampire Survivors",
+    "title": "Q110726215",
+    "category": "culture",
+    "kind": "vgame",
+    "imageFile": "Garlic-filled skeleton at Vampire Survivors booth at the WASD Gaming Expo, London - March 2023.jpg"
+   }
+  ],
+  "09-14": [
+   {
+    "year": 1995,
+    "article": "Realtor.com",
+    "title": "Realtor.com",
+    "category": "tech",
+    "kind": "website",
+    "imageFile": "Realtor.com headquarters, Austin, Texas.jpg"
+   },
+   {
+    "year": 2004,
+    "article": "Wikispecies",
+    "title": "Wikispecies",
+    "category": "tech",
+    "kind": "mobileapp",
+    "imageFile": "Wikispecies screenshot.png"
+   },
+   {
+    "year": 2004,
+    "article": "Ameba (website)",
+    "title": "Ameba",
+    "category": "tech",
+    "kind": "socialnet",
+    "imageFile": "Château Ameba Jingumae.jpg"
+   },
+   {
+    "year": 2008,
+    "article": "Rock Band 2",
+    "title": "Rock Band 2",
+    "category": "culture",
+    "kind": "vgame",
+    "imageFile": "RockBand2PAX.jpg"
+   },
+   {
+    "year": 2011,
+    "article": "Super Smash Land",
+    "title": "Super Smash Land",
+    "category": "culture",
+    "kind": "vgame",
+    "imageFile": "Super Smash Land title 3608.png"
+   },
+   {
+    "year": 2021,
+    "article": "Cruis'n Blast",
+    "title": "Cruis'n Blast",
+    "category": "culture",
+    "kind": "vgame",
+    "imageFile": "Cruis 'n Blast 2-Player Versus.jpg"
+   }
+  ],
+  "04-02": [
+   {
+    "year": 1994,
+    "article": "Final Fantasy VI",
+    "title": "Final Fantasy VI",
+    "category": "culture",
+    "kind": "vgame",
+    "imageFile": "Final Fantasy III intro screen.png"
+   },
+   {
+    "year": 2003,
+    "article": "SuperTux",
+    "title": "Q911827",
+    "category": "culture",
+    "kind": "vgame",
+    "imageFile": "Supertux 0.3.1.PNG"
+   },
+   {
+    "year": 2009,
+    "article": "And Yet It Moves",
+    "title": "And Yet It Moves",
+    "category": "culture",
+    "kind": "vgame",
+    "imageFile": "And Yet It Moves title.png"
+   },
+   {
+    "year": 2010,
+    "article": "Apple Books",
+    "title": "Apple Books",
+    "category": "tech",
+    "kind": "mobileapp",
+    "imageFile": "Apple Books screenshot 2022.jpg"
+   },
+   {
+    "year": 2015,
+    "article": "War for the Overworld",
+    "title": "War for the Overworld",
+    "category": "culture",
+    "kind": "vgame",
+    "imageFile": "War for the Overworld screenshot 08.png"
+   }
+  ],
+  "06-23": [
+   {
+    "year": 1988,
+    "article": "Wolfram Mathematica",
+    "title": "Mathematica",
+    "category": "tech",
+    "kind": "proglang",
+    "imageFile": "Mathematica logistic bifurcation.png"
+   },
+   {
+    "year": 1995,
+    "article": "Mr. Do!",
+    "title": "Mr. Do!",
+    "category": "culture",
+    "kind": "vgame",
+    "imageFile": "MrDo!.jpg"
+   },
+   {
+    "year": 2003,
+    "article": "Second Life",
+    "title": "Second Life",
+    "category": "culture",
+    "kind": "vgame",
+    "imageFile": "Second Life 11th Birthday Live Drax Files Radio Hour.jpg"
+   },
+   {
+    "year": 2008,
+    "article": "Evernote",
+    "title": "Evernote",
+    "category": "tech",
+    "kind": "mobileapp",
+    "imageFile": "Evernote-web-2020.png"
+   }
+  ],
+  "01-28": [
+   {
+    "year": 2010,
+    "article": "Firefox for Android",
+    "title": "Firefox for Android",
+    "category": "tech",
+    "kind": "mobileapp",
+    "imageFile": "Firefox for Android 145.0 screenshot.webp"
+   },
+   {
+    "year": 2016,
+    "article": "MB-Lab",
+    "title": "ManuelbastioniLAB",
+    "category": "tech",
+    "kind": "software",
+    "imageFile": "ManuelbastioniLAB Graphical interface.png"
+   }
+  ],
+  "08-01": [
+   {
+    "year": 2007,
+    "article": "OneDrive",
+    "title": "Microsoft OneDrive",
+    "category": "tech",
+    "kind": "mobileapp",
+    "imageFile": "Screenshot webové verze služby OneDrive v češtině.png"
+   },
+   {
+    "year": 2012,
+    "article": "Kuaidi Dache",
+    "title": "Kuaidi Dache",
+    "category": "tech",
+    "kind": "software",
+    "imageFile": "快的打车.jpg"
+   },
+   {
+    "year": 2016,
+    "article": "Windows 10, version 1607",
+    "title": "Windows 10 Version 1607",
+    "category": "tech",
+    "kind": "os",
+    "imageFile": "About box Windows 10.0.14393.447 (Windows 10 1607 Enterprise) (EN).png"
+   }
+  ],
+  "08-29": [
+   {
+    "year": 1997,
+    "article": "Netflix",
+    "title": "Netflix",
+    "category": "tech",
+    "kind": "mobileapp",
+    "imageFile": "Netflix headquarters.jpg"
+   },
+   {
+    "year": 2002,
+    "article": "Mafia (video game)",
+    "title": "Mafia",
+    "category": "culture",
+    "kind": "vgame",
+    "imageFile": "Logo Mafia.svg"
+   },
+   {
+    "year": 2010,
+    "article": "Solipskier",
+    "title": "Solipskier",
+    "category": "culture",
+    "kind": "vgame",
+    "imageFile": "Solipskier screenshot 1.png"
+   }
+  ],
+  "04-23": [
+   {
+    "year": 2006,
+    "article": "Spotify",
+    "title": "Spotify",
+    "category": "tech",
+    "kind": "mobileapp",
+    "imageFile": "Spotify HK Stockholm.jpg"
+   },
+   {
+    "year": 2019,
+    "article": "Mortal Kombat 11",
+    "title": "Mortal Kombat 11",
+    "category": "culture",
+    "kind": "vgame",
+    "imageFile": "Mortal Kombat 11 karakter seçme ekranı.jpg"
+   }
+  ],
+  "10-22": [
+   {
+    "year": 1996,
+    "article": "Expedia",
+    "title": "expedia.com",
+    "category": "tech",
+    "kind": "mobileapp",
+    "imageFile": "Bellevue, WA - Expedia Building 01.jpg"
+   },
+   {
+    "year": 2009,
+    "article": "OpenCity",
+    "title": "OpenCity",
+    "category": "culture",
+    "kind": "vgame",
+    "imageFile": "OpenCity-0.0.5-mainstatusbar.jpg"
+   },
+   {
+    "year": 2013,
+    "article": "OS X Mavericks",
+    "title": "OS X Mavericks",
+    "category": "tech",
+    "kind": "os",
+    "imageFile": "Firefox 30.0 on OS X Mavericks.png"
+   },
+   {
+    "year": 2015,
+    "article": "Ships That Fight Underground",
+    "title": "Ships That Fight Underground",
+    "category": "culture",
+    "kind": "vgame",
+    "imageFile": "RTX 2015 - Descent Underground merchandise (20257743158).jpg"
+   }
+  ],
+  "02-06": [
+   {
+    "year": 2013,
+    "article": "OsmAnd",
+    "title": "OsmAnd",
+    "category": "tech",
+    "kind": "mobileapp",
+    "imageFile": "OsmAnd 3.0 Screenshot.png"
+   },
+   {
+    "year": 2014,
+    "article": "Threes",
+    "title": "Threes",
+    "category": "culture",
+    "kind": "vgame",
+    "imageFile": "Threes video game on phone.png"
+   },
+   {
+    "year": 2024,
+    "article": "Foamstars",
+    "title": "Foamstars",
+    "category": "culture",
+    "kind": "vgame",
+    "imageFile": "Foamstars AI cover Off My Feet.jpg"
+   }
+  ],
+  "03-30": [
+   {
+    "year": 2016,
+    "article": "Epistory – Typing Chronicles",
+    "title": "Epistory",
+    "category": "culture",
+    "kind": "vgame",
+    "imageFile": "Epistory03.jpg"
+   },
+   {
+    "year": 2020,
+    "article": "Obsidian (software)",
+    "title": "Obsidian",
+    "category": "tech",
+    "kind": "mobileapp",
+    "imageFile": "Obsidian desktop demo workflow.jpg"
+   },
+   {
+    "year": 2021,
+    "article": "Kingdom Hearts: Melody of Memory",
+    "title": "Kingdom Hearts: Melody of Memory",
+    "category": "culture",
+    "kind": "vgame",
+    "imageFile": "Kingdom Hearts wordmark the first game of the series.png"
+   }
+  ],
+  "07-27": [
+   {
+    "year": 1990,
+    "article": "Dr. Mario",
+    "title": "Dr. Mario",
+    "category": "culture",
+    "kind": "vgame",
+    "imageFile": "Vsdrmario.jpg"
+   },
+   {
+    "year": 1993,
+    "article": "Windows NT 3.1",
+    "title": "Windows NT 3.1",
+    "category": "tech",
+    "kind": "os",
+    "imageFile": "VirtualBox Windows NT 3.10.511.1 08 12 2024 20 00 45.png"
+   },
+   {
+    "year": 2017,
+    "article": "BiglyBT",
+    "title": "BiglyBT",
+    "category": "tech",
+    "kind": "mobileapp",
+    "imageFile": "BiglyBT 3.6.png"
+   }
+  ],
+  "05-11": [
+   {
+    "year": 2022,
+    "article": "Google Wallet",
+    "title": "Google Wallet",
+    "category": "tech",
+    "kind": "mobileapp",
+    "imageFile": "Current Google Wallet Availability (2024).svg"
+   }
+  ],
+  "03-28": [
+   {
+    "year": 2009,
+    "article": "OpenGameArt.org",
+    "title": "OpenGameArt.org",
+    "category": "tech",
+    "kind": "website",
+    "imageFile": "Opengameart-logo.jpg"
+   },
+   {
+    "year": 2014,
+    "article": "Piano Tiles",
+    "title": "Don't Tap the White Tile",
+    "category": "culture",
+    "kind": "vgame",
+    "imageFile": "Don't Tap the White Tile promo art.svg"
+   },
+   {
+    "year": 2016,
+    "article": "Adrift (video game)",
+    "title": "Adrift",
+    "category": "culture",
+    "kind": "vgame",
+    "imageFile": "ADR1FT gameplay screenshot.png"
+   },
+   {
+    "year": 2017,
+    "article": "Rain World",
+    "title": "Rain World",
+    "category": "culture",
+    "kind": "vgame",
+    "imageFile": "Rain World logo – Steam 616.png"
+   },
+   {
+    "year": 2020,
+    "article": "MySejahtera",
+    "title": "MySejahtera",
+    "category": "tech",
+    "kind": "mobileapp",
+    "imageFile": "NSK Trade City Kota Damansara - MySejahtera.jpg"
+   },
+   {
+    "year": 2021,
+    "article": "Windows 10X",
+    "title": "Q53889171",
+    "category": "tech",
+    "kind": "os",
+    "imageFile": "Windows-10x-abstract.webp"
+   }
+  ],
+  "01-10": [
+   {
+    "year": 2008,
+    "article": "Micropolis (video game)",
+    "title": "Micropolis",
+    "category": "culture",
+    "kind": "vgame",
+    "imageFile": "Micropolis - empty map.png"
+   },
+   {
+    "year": 2025,
+    "article": "DeepSeek (chatbot)",
+    "title": "DeepSeek",
+    "category": "tech",
+    "kind": "mobileapp",
+    "imageFile": "DeepSeek response to questions about Xi Jinping.jpg"
+   }
+  ],
+  "06-02": [
+   {
+    "year": 2015,
+    "article": "Heroes of the Storm",
+    "title": "Heroes of the Storm",
+    "category": "culture",
+    "kind": "vgame",
+    "imageFile": "Heroes of the Storm (20138737788).jpg"
+   },
+   {
+    "year": 2016,
+    "article": "Nextcloud",
+    "title": "Nextcloud",
+    "category": "tech",
+    "kind": "mobileapp",
+    "imageFile": "File-Nextcloud File Manager Screenshot.png"
+   }
+  ],
+  "05-06": [
+   {
+    "year": 2004,
+    "article": "Cube 2: Sauerbraten",
+    "title": "Q532474",
+    "category": "culture",
+    "kind": "vgame",
+    "imageFile": "SauerbratenCollage.jpg"
+   },
+   {
+    "year": 2020,
+    "article": "NHS COVID-19",
+    "title": "NHS COVID-19",
+    "category": "tech",
+    "kind": "mobileapp",
+    "imageFile": "NHS COVID-19 app screenshot.png"
+   }
+  ],
+  "05-07": [
+   {
+    "year": 2013,
+    "article": "Rymdkapsel",
+    "title": "Rymdkapsel",
+    "category": "culture",
+    "kind": "vgame",
+    "imageFile": "Rymdkapsel screenshot 3.png"
+   },
+   {
+    "year": 2020,
+    "article": "Zynn",
+    "title": "Zynn",
+    "category": "tech",
+    "kind": "mobileapp",
+    "imageFile": "Zynnlogo.svg"
+   }
+  ],
+  "04-01": [
+   {
+    "year": 1995,
+    "article": "Daytona USA",
+    "title": "Daytona USA",
+    "category": "culture",
+    "kind": "vgame",
+    "imageFile": "Sega Daytona USA Arcade.jpg"
+   },
+   {
+    "year": 2003,
+    "article": "Whitespace (programming language)",
+    "title": "Whitespace",
+    "category": "tech",
+    "kind": "proglang",
+    "imageFile": "Whitespace in vim2-recolored.png"
+   },
+   {
+    "year": 2006,
+    "article": "Speedtest.net",
+    "title": "Speedtest",
+    "category": "tech",
+    "kind": "mobileapp",
+    "imageFile": "Speedtest 1.png"
+   },
+   {
+    "year": 2011,
+    "article": "Nuclear Dawn",
+    "title": "Nuclear Dawn",
+    "category": "culture",
+    "kind": "vgame",
+    "imageFile": "Nuclear Dawn - Oasis RTS 03.jpg"
+   }
+  ],
+  "07-01": [
+   {
+    "year": 1987,
+    "article": "R-Type",
+    "title": "R-Type",
+    "category": "culture",
+    "kind": "vgame",
+    "imageFile": "R-Type video game machine.jpg"
+   },
+   {
+    "year": 2009,
+    "article": "Truecaller",
+    "title": "TrueCaller",
+    "category": "tech",
+    "kind": "mobileapp",
+    "imageFile": "Truecaller on Android.png"
+   }
+  ],
+  "03-19": [
+   {
+    "year": 1993,
+    "article": "Nigel Mansell's World Championship Racing",
+    "title": "Nigel Mansell's World Championship Racing",
+    "category": "culture",
+    "kind": "vgame",
+    "imageFile": "Nigel Mansell's World Championship Racing's SNES cartridge.JPG"
+   },
+   {
+    "year": 2015,
+    "article": "Android Auto",
+    "title": "Android Auto",
+    "category": "tech",
+    "kind": "mobileapp",
+    "imageFile": "OSMAnd map on the screen of the infotainment system of an Opel car-110954367.jpg"
+   },
+   {
+    "year": 2015,
+    "article": "TouchTone (video game)",
+    "title": "TouchTone",
+    "category": "culture",
+    "kind": "vgame",
+    "imageFile": "TouchTone animated screenshot 2.gif"
+   }
+  ],
+  "01-29": [
+   {
+    "year": 1981,
+    "article": "Manhole (video game)",
+    "title": "Game & Watch: Manhole",
+    "category": "culture",
+    "kind": "vgame",
+    "imageFile": "Manhole - Game&Watch - Nintendo.jpg"
+   },
+   {
+    "year": 2014,
+    "article": "The Castle Doctrine",
+    "title": "The Castle Doctrine",
+    "category": "culture",
+    "kind": "vgame",
+    "imageFile": "The Castle Doctrine house screenshot.jpg"
+   },
+   {
+    "year": 2015,
+    "article": "Microsoft Outlook (mobile app)",
+    "title": "Outlook Mobile",
+    "category": "tech",
+    "kind": "mobileapp",
+    "imageFile": "Outlook feedback notice (January 2021).png"
+   }
+  ],
+  "07-19": [
+   {
+    "year": 1996,
+    "article": "Little Big Adventure",
+    "title": "Little Big Adventure",
+    "category": "culture",
+    "kind": "vgame",
+    "imageFile": "LBA1 - Gameplay 3D iso (2).png"
+   },
+   {
+    "year": 2016,
+    "article": "Pokémon Go",
+    "title": "Pokémon Go",
+    "category": "tech",
+    "kind": "mobileapp",
+    "imageFile": "App-augmented-reality-game-gps-163042.jpg"
+   },
+   {
+    "year": 2016,
+    "article": "Kentucky Route Zero",
+    "title": "Kentucky Route Zero",
+    "category": "culture",
+    "kind": "vgame",
+    "imageFile": "KentuckyRouteZero Screen01 EquusOils.png"
+   },
+   {
+    "year": 2022,
+    "article": "MultiVersus",
+    "title": "MultiVersus",
+    "category": "culture",
+    "kind": "vgame",
+    "imageFile": "MultiVersus 2v2 real gameplay screenshot.png"
+   }
+  ],
+  "02-28": [
+   {
+    "year": 2008,
+    "article": "Google Sites",
+    "title": "Google Sites",
+    "category": "tech",
+    "kind": "netservice",
+    "imageFile": "Pracomment.gov.png"
+   },
+   {
+    "year": 2014,
+    "article": "Popcorn Time",
+    "title": "Popcorn Time",
+    "category": "tech",
+    "kind": "mobileapp",
+    "imageFile": "Big Buck Bunny on Popcorn Time 0.3.8.png"
+   },
+   {
+    "year": 2024,
+    "article": "Zeteo",
+    "title": "Zeteo",
+    "category": "tech",
+    "kind": "website",
+    "imageFile": "Mehdi Hasan and Martin Kettle.jpg"
+   }
+  ],
+  "10-04": [
+   {
+    "year": 2006,
+    "article": "PokerTH",
+    "title": "Q182261",
+    "category": "culture",
+    "kind": "vgame",
+    "imageFile": "PokerTH.png"
+   },
+   {
+    "year": 2012,
+    "article": "VVVVVV",
+    "title": "VVVVVV",
+    "category": "culture",
+    "kind": "vgame",
+    "imageFile": "VVVVVV - The Tomb of Mad Carew.png"
+   },
+   {
+    "year": 2017,
+    "article": "Google Lens",
+    "title": "Google Lens",
+    "category": "tech",
+    "kind": "mobileapp",
+    "imageFile": "Text recognition software on a photograph - Google Lens (March 2023).png"
+   },
+   {
+    "year": 2022,
+    "article": "Overwatch (2023 video game)",
+    "title": "Q73163646",
+    "category": "culture",
+    "kind": "vgame",
+    "imageFile": "Overwatch 2 - Junker Queen gameplay.jpg"
+   }
+  ],
+  "11-29": [
+   {
+    "year": 1972,
+    "article": "Pong",
+    "title": "Pong",
+    "category": "culture",
+    "kind": "vgame",
+    "imageFile": "Signed Pong Cabinet.jpg"
+   },
+   {
+    "year": 2009,
+    "article": "UltraStar",
+    "title": "UltraStar",
+    "category": "culture",
+    "kind": "vgame",
+    "imageFile": "Ultrastar 082 pre-alpha 01.jpg"
+   },
+   {
+    "year": 2021,
+    "article": "Rocket League Sideswipe",
+    "title": "Rocket League Sideswipe",
+    "category": "tech",
+    "kind": "mobileapp",
+    "imageFile": "Rocket League Sideswipe Logo.png"
+   }
+  ],
+  "07-20": [
+   {
+    "year": 2000,
+    "article": "Chicken (Scheme implementation)",
+    "title": "CHICKEN",
+    "category": "tech",
+    "kind": "proglang",
+    "imageFile": "Chicken 5.0.0.png"
+   },
+   {
+    "year": 2007,
+    "article": "Gish (video game)",
+    "title": "Gish",
+    "category": "culture",
+    "kind": "vgame",
+    "imageFile": "FreeGish 1-5.png"
+   },
+   {
+    "year": 2010,
+    "article": "Scruff (app)",
+    "title": "Scruff",
+    "category": "tech",
+    "kind": "software",
+    "imageFile": "Main page screenshot of Scruff.png"
+   },
+   {
+    "year": 2015,
+    "article": "Android Marshmallow",
+    "title": "Android Marshmallow",
+    "category": "tech",
+    "kind": "os",
+    "imageFile": "Foldable phones (Android Marshmallow).jpg"
+   },
+   {
+    "year": 2017,
+    "article": "StreetComplete",
+    "title": "StreetComplete",
+    "category": "tech",
+    "kind": "mobileapp",
+    "imageFile": "L'application StreetComplete proposant de mettre à jour sur OpenStreetMap les horaires de la boîte aux lettres A0A4R2 à Beynost.jpg"
+   },
+   {
+    "year": 2017,
+    "article": "Android Oreo",
+    "title": "Android Oreo",
+    "category": "tech",
+    "kind": "os",
+    "imageFile": "Android Oreo 8.1 screenshot.png"
+   },
+   {
+    "year": 2018,
+    "article": "Android Pie",
+    "title": "Q50364330",
+    "category": "tech",
+    "kind": "os",
+    "imageFile": "Android Pie.png"
+   },
+   {
+    "year": 2019,
+    "article": "Android 10",
+    "title": "Android 10",
+    "category": "tech",
+    "kind": "os",
+    "imageFile": "Android 10 screenshot.png"
+   }
+  ],
+  "06-12": [
+   {
+    "year": 1992,
+    "article": "OutRunners",
+    "title": "OutRunners",
+    "category": "culture",
+    "kind": "vgame",
+    "imageFile": "2007TaipeiITMonth IBM Sega OutRunners.jpg"
+   },
+   {
+    "year": 2020,
+    "article": "Corona-Warn-App",
+    "title": "Corona-Warn-App",
+    "category": "tech",
+    "kind": "mobileapp",
+    "imageFile": "Cwa detail android.png"
+   }
+  ],
+  "06-01": [
+   {
+    "year": 1990,
+    "article": "Bubble Ghost",
+    "title": "Bubble Ghost",
+    "category": "culture",
+    "kind": "vgame",
+    "imageFile": "Bubble ghost st hall05.png"
+   },
+   {
+    "year": 2012,
+    "article": "Dust Racing 2D",
+    "title": "Dust Racing 2D",
+    "category": "culture",
+    "kind": "vgame",
+    "imageFile": "DustRacing-Intro.png"
+   },
+   {
+    "year": 2013,
+    "article": "Altacast",
+    "title": "Edcast",
+    "category": "tech",
+    "kind": "software",
+    "imageFile": "Altacast main dialog box.png"
+   },
+   {
+    "year": 2025,
+    "article": "CoMaps",
+    "title": "Q134374059",
+    "category": "tech",
+    "kind": "mobileapp",
+    "imageFile": "CoMaps Screenshot.jpg"
+   }
+  ],
+  "12-10": [
+   {
+    "year": 2007,
+    "article": "Things (software)",
+    "title": "Things",
+    "category": "tech",
+    "kind": "mobileapp",
+    "imageFile": "Things 3 for Mac - Main Window.png"
+   }
+  ],
+  "09-09": [
+   {
+    "year": 1995,
+    "article": "Super PI",
+    "title": "Super PI",
+    "category": "tech",
+    "kind": "software",
+    "imageFile": "SuperPIMod.png"
+   },
+   {
+    "year": 1996,
+    "article": "X-Men vs. Street Fighter",
+    "title": "X-Men vs. Street Fighter",
+    "category": "culture",
+    "kind": "vgame",
+    "imageFile": "X-Men vs Street Fighter logo.png"
+   },
+   {
+    "year": 2013,
+    "article": "TempleOS",
+    "title": "TempleOS",
+    "category": "tech",
+    "kind": "os",
+    "imageFile": "VirtualBox TempleOS x64 27 02 2021 20 43 48.png"
+   },
+   {
+    "year": 2020,
+    "article": "Wikipedia App",
+    "title": "Wikipedia",
+    "category": "tech",
+    "kind": "mobileapp",
+    "imageFile": "Wikipedia iOS App Screenshot.png"
+   }
+  ],
+  "10-19": [
+   {
+    "year": 2001,
+    "article": "Ballistics (video game)",
+    "title": "Ballistics",
+    "category": "culture",
+    "kind": "vgame",
+    "imageFile": "Ballistics Arcade - IAAPA.jpg"
+   },
+   {
+    "year": 2007,
+    "article": "GitHub",
+    "title": "GitHub",
+    "category": "tech",
+    "kind": "netservice",
+    "imageFile": "Github Docs repository screenshot.png"
+   },
+   {
+    "year": 2010,
+    "article": "Fallout: New Vegas",
+    "title": "Fallout: New Vegas",
+    "category": "culture",
+    "kind": "vgame",
+    "imageFile": "Free depiction of the Fallout New Vegas Xbox 360 box art (cropped).png"
+   },
+   {
+    "year": 2010,
+    "article": "Ravenwood Fair",
+    "title": "Ravenwood Fair",
+    "category": "culture",
+    "kind": "vgame",
+    "imageFile": "LargeFair.jpg"
+   },
+   {
+    "year": 2011,
+    "article": "Android Ice Cream Sandwich",
+    "title": "Android Ice Cream Sandwich",
+    "category": "tech",
+    "kind": "os",
+    "imageFile": "Android 4.0 (2).png"
+   }
+  ],
+  "08-24": [
+   {
+    "year": 1982,
+    "article": "Ultima II: The Revenge of the Enchantress",
+    "title": "Ultima II: The Revenge of the Enchantress",
+    "category": "culture",
+    "kind": "vgame",
+    "imageFile": "On-Line-Systems-Ultima2.jpg"
+   },
+   {
+    "year": 1995,
+    "article": "Windows 95",
+    "title": "Windows 95",
+    "category": "tech",
+    "kind": "os",
+    "imageFile": "RELAP Desktop View.jpg"
+   },
+   {
+    "year": 1996,
+    "article": "Task Manager (Windows)",
+    "title": "Task Manager",
+    "category": "tech",
+    "kind": "software",
+    "imageFile": "VirtualBox Windows Server 2025 26100.1.240331-1435.GE DE 12 12 2024 10 41 47 crop.png"
+   },
+   {
+    "year": 2001,
+    "article": "Windows XP",
+    "title": "Q11248",
+    "category": "tech",
+    "kind": "os",
+    "imageFile": "Windows XP booting on Sony Vaio 20100216.jpg"
+   },
+   {
+    "year": 2005,
+    "article": "Google Talk",
+    "title": "Google Talk",
+    "category": "tech",
+    "kind": "netservice",
+    "imageFile": "Google Talk on BlackBerry.jpg"
+   }
+  ],
+  "06-20": [
+   {
+    "year": 2003,
+    "article": "Neighbours from Hell",
+    "title": "Neighbours from Hell",
+    "category": "culture",
+    "kind": "vgame",
+    "imageFile": "Neighbours from Hell gameplay.jpg"
+   },
+   {
+    "year": 2006,
+    "article": "Time Crisis 4",
+    "title": "Time Crisis 4",
+    "category": "culture",
+    "kind": "vgame",
+    "imageFile": "Time Crisis 4.jpg"
+   },
+   {
+    "year": 2010,
+    "article": "Lichess",
+    "title": "Lichess",
+    "category": "tech",
+    "kind": "website",
+    "imageFile": "Lichess homepage.png"
+   },
+   {
+    "year": 2019,
+    "article": "Gemini (protocol)",
+    "title": "Gemini",
+    "category": "tech",
+    "kind": "netservice",
+    "imageFile": "Screenshot of Amfora.png"
+   }
+  ],
+  "01-30": [
+   {
+    "year": 1991,
+    "article": "Paperboy (video game)",
+    "title": "Paperboy",
+    "category": "culture",
+    "kind": "vgame",
+    "imageFile": "Cpc464.computer.750pix.jpg"
+   },
+   {
+    "year": 2007,
+    "article": "Windows Vista",
+    "title": "Q11230",
+    "category": "tech",
+    "kind": "os",
+    "imageFile": "Windows Vista booting.png"
+   },
+   {
+    "year": 2013,
+    "article": "Habitica",
+    "title": "Habitica",
+    "category": "tech",
+    "kind": "netservice",
+    "imageFile": "Habitica Android Screenshot.png"
+   },
+   {
+    "year": 2013,
+    "article": "BlackBerry 10",
+    "title": "BlackBerry 10",
+    "category": "tech",
+    "kind": "os",
+    "imageFile": "BlackBerry 10 Dev Alpha start-up screen.jpg"
+   },
+   {
+    "year": 2013,
+    "article": "Proteus (video game)",
+    "title": "Proteus",
+    "category": "culture",
+    "kind": "vgame",
+    "imageFile": "Autumn in Proteus.png"
+   }
+  ],
+  "01-11": [
+   {
+    "year": 2005,
+    "article": "Resident Evil 4",
+    "title": "Resident Evil 4",
+    "category": "culture",
+    "kind": "vgame",
+    "imageFile": "Resident Evil 4 - Quick time event.jpg"
+   },
+   {
+    "year": 2012,
+    "article": "Abobo's Big Adventure",
+    "title": "Abobo's Big Adventure",
+    "category": "culture",
+    "kind": "vgame",
+    "imageFile": "Abobo-arcade.jpg"
+   },
+   {
+    "year": 2015,
+    "article": "Hamichlol",
+    "title": "Hamichlol",
+    "category": "tech",
+    "kind": "website",
+    "imageFile": "Homepage of Hamichlol.png"
+   },
+   {
+    "year": 2018,
+    "article": "FactGrid",
+    "title": "FactGrid",
+    "category": "tech",
+    "kind": "netservice",
+    "imageFile": "FactGrid Screenshot.png"
+   }
+  ],
+  "09-10": [
+   {
+    "year": 2014,
+    "article": "GitLab",
+    "title": "Q16639197",
+    "category": "tech",
+    "kind": "netservice",
+    "imageFile": "GitLab running 14.3.0-pre (2021-08).png"
+   },
+   {
+    "year": 2019,
+    "article": "Gears 5",
+    "title": "Gears 5",
+    "category": "culture",
+    "kind": "vgame",
+    "imageFile": "Gears 5 Hivebuster Squad.png"
+   }
+  ],
+  "04-13": [
+   {
+    "year": 1990,
+    "article": "Qix",
+    "title": "Qix",
+    "category": "culture",
+    "kind": "vgame",
+    "imageFile": "Qix Arcade.jpg"
+   },
+   {
+    "year": 2012,
+    "article": "Open Data Institute",
+    "title": "Open Data Institute",
+    "category": "tech",
+    "kind": "netservice",
+    "imageFile": "Odi outside.jpg"
+   },
+   {
+    "year": 2012,
+    "article": "Fez (video game)",
+    "title": "Fez",
+    "category": "culture",
+    "kind": "vgame",
+    "imageFile": "Fez (video game) cover art.png"
+   }
+  ],
+  "10-17": [
+   {
+    "year": 2013,
+    "article": "Windows 8.1",
+    "title": "Windows 8.1",
+    "category": "tech",
+    "kind": "os",
+    "imageFile": "Start81.png"
+   }
+  ],
+  "01-01": [
+   {
+    "year": 2013,
+    "article": "AntiX",
+    "title": "antiX",
+    "category": "tech",
+    "kind": "os",
+    "imageFile": "AntiXonTatung5213.jpg"
+   }
+  ],
+  "05-05": [
+   {
+    "year": 1980,
+    "article": "Mystery House",
+    "title": "Mystery House",
+    "category": "culture",
+    "kind": "vgame",
+    "imageFile": "On-Line Systems-01-Mystery House.jpg"
+   },
+   {
+    "year": 2003,
+    "article": "LinkedIn",
+    "title": "LinkedIn",
+    "category": "tech",
+    "kind": "socialnet",
+    "imageFile": "Linkedin screenshot.png"
+   },
+   {
+    "year": 2012,
+    "article": "SparkyLinux",
+    "title": "Q3896010",
+    "category": "tech",
+    "kind": "os",
+    "imageFile": "VirtualBox SparkyLinux 5.14 LXQT 08 04 2021 20 52 50.png"
+   },
+   {
+    "year": 2015,
+    "article": "Ether One",
+    "title": "Ether One",
+    "category": "culture",
+    "kind": "vgame",
+    "imageFile": "Ether One cover artwork.png"
+   },
+   {
+    "year": 2019,
+    "article": "Lemmy (social network)",
+    "title": "Lemmy",
+    "category": "tech",
+    "kind": "website",
+    "imageFile": "Lemmy.webp"
+   }
+  ],
+  "08-06": [
+   {
+    "year": 2007,
+    "article": "MidnightBSD",
+    "title": "MidnightBSD",
+    "category": "tech",
+    "kind": "os",
+    "imageFile": "MidnightBSD 2.0 Desktop.png"
+   },
+   {
+    "year": 2014,
+    "article": "Crawl (video game)",
+    "title": "Crawl",
+    "category": "culture",
+    "kind": "vgame",
+    "imageFile": "Crawl screenshot 3.png"
+   }
+  ],
+  "12-06": [
+   {
+    "year": 2010,
+    "article": "Android Gingerbread",
+    "title": "Android Gingerbread",
+    "category": "tech",
+    "kind": "os",
+    "imageFile": "Android screenshot.png"
+   },
+   {
+    "year": 2022,
+    "article": "Dwarf Fortress",
+    "title": "Dwarf Fortress",
+    "category": "culture",
+    "kind": "vgame",
+    "imageFile": "Dwarf Fortress - mapa świata.png"
+   }
+  ],
+  "02-22": [
+   {
+    "year": 2011,
+    "article": "Android Honeycomb",
+    "title": "Android Honeycomb",
+    "category": "tech",
+    "kind": "os",
+    "imageFile": "Android3.0.png"
+   }
+  ],
+  "03-12": [
+   {
+    "year": 2005,
+    "article": "GL-117",
+    "title": "GL-117",
+    "category": "culture",
+    "kind": "vgame",
+    "imageFile": "Gl-117-1.jpg"
+   },
+   {
+    "year": 2010,
+    "article": "GhostBSD",
+    "title": "GhostBSD",
+    "category": "tech",
+    "kind": "os",
+    "imageFile": "GhostBSD 18.10 MATE screenshot.png"
+   },
+   {
+    "year": 2015,
+    "article": "Time Crisis 5",
+    "title": "Time Crisis 5",
+    "category": "culture",
+    "kind": "vgame",
+    "imageFile": "Time Crisis 5 Arcade Cabinet.JPG"
+   }
+  ],
+  "10-23": [
+   {
+    "year": 1999,
+    "article": "Mac OS 9",
+    "title": "Mac OS 9",
+    "category": "tech",
+    "kind": "os",
+    "imageFile": "Classilla-on-Mac-OS-9.png"
+   },
+   {
+    "year": 2007,
+    "article": "Ace Combat 6: Fires of Liberation",
+    "title": "Ace Combat 6: Fires of Liberation",
+    "category": "culture",
+    "kind": "vgame",
+    "imageFile": "Ace Combat 6 - Ace Edge.jpg"
+   },
+   {
+    "year": 2009,
+    "article": "Android Eclair",
+    "title": "Android Eclair",
+    "category": "tech",
+    "kind": "os",
+    "imageFile": "Nexus one home screen 21.png"
+   }
+  ],
+  "12-12": [
+   {
+    "year": 2004,
+    "article": "RUR-PLE",
+    "title": "RUR-PLE",
+    "category": "tech",
+    "kind": "proglang",
+    "imageFile": "RUR-PLE-Python Learning Environment.png"
+   },
+   {
+    "year": 2008,
+    "article": "Windows Server 2008",
+    "title": "Windows Server 2008",
+    "category": "tech",
+    "kind": "os",
+    "imageFile": "VirtualBox Windows Server 2008 SP2 11 02 2025 13 47 58 Kopie.png"
+   }
+  ],
+  "04-19": [
+   {
+    "year": 1982,
+    "article": "Dig Dug",
+    "title": "Dig Dug",
+    "category": "culture",
+    "kind": "vgame",
+    "imageFile": "Dig Dug (Taizo Hori) and Pooka characters.png"
+   },
+   {
+    "year": 2000,
+    "article": "Windows Mobile",
+    "title": "Windows Mobile",
+    "category": "tech",
+    "kind": "os",
+    "imageFile": "Htc gene with wm6 5.JPG"
+   },
+   {
+    "year": 2011,
+    "article": "Mortal Kombat (2011 video game)",
+    "title": "Mortal Kombat",
+    "category": "culture",
+    "kind": "vgame",
+    "imageFile": "Mortal kombat original text by sidneymadmax-d3kohts.png"
+   }
+  ],
+  "09-27": [
+   {
+    "year": 1983,
+    "article": "GNU",
+    "title": "GNU",
+    "category": "tech",
+    "kind": "os",
+    "imageFile": "Xfce4 en Debian GNU-Hurd.png"
+   },
+   {
+    "year": 2011,
+    "article": "Rochard",
+    "title": "Rochard",
+    "category": "culture",
+    "kind": "vgame",
+    "imageFile": "Rochard Cover.PNG"
+   }
+  ],
+  "08-12": [
+   {
+    "year": 1981,
+    "article": "MS-DOS",
+    "title": "Q47604",
+    "category": "tech",
+    "kind": "os",
+    "imageFile": "StartingMsdos.png"
+   },
+   {
+    "year": 1987,
+    "article": "Street Fighter (video game)",
+    "title": "Street Fighter",
+    "category": "culture",
+    "kind": "vgame",
+    "imageFile": "Streetfighter Console.jpg"
+   }
+  ],
+  "11-20": [
+   {
+    "year": 1985,
+    "article": "Windows 1.0",
+    "title": "Windows 1.0",
+    "category": "tech",
+    "kind": "os",
+    "imageFile": "Windows 1.01 Bootscreen 20201222 EN.png"
+   },
+   {
+    "year": 2008,
+    "article": "Russian Fedora Remix",
+    "title": "Russian Fedora Remix",
+    "category": "tech",
+    "kind": "os",
+    "imageFile": "RFRemix 29 GNOME.png"
+   },
+   {
+    "year": 2012,
+    "article": "PlanetSide 2",
+    "title": "PlanetSide 2",
+    "category": "culture",
+    "kind": "vgame",
+    "imageFile": "E3 2013 (9082478203).jpg"
+   },
+   {
+    "year": 2014,
+    "article": "Assassin's Creed Unity",
+    "title": "Assassin's Creed Unity",
+    "category": "culture",
+    "kind": "vgame",
+    "imageFile": "Gamescom 2014 (14721239258).jpg"
+   },
+   {
+    "year": 2019,
+    "article": "Liberate Hong Kong (video game)",
+    "title": "Liberate Hong Kong",
+    "category": "culture",
+    "kind": "vgame",
+    "imageFile": "Liberate Hong Kong.jpg"
+   },
+   {
+    "year": 2025,
+    "article": "S.T.A.L.K.E.R. 2: Heart of Chornobyl",
+    "title": "S.T.A.L.K.E.R. 2: Heart of Chornobyl",
+    "category": "culture",
+    "kind": "vgame",
+    "imageFile": "Stalker2ScreenshotAnomaly.webp"
+   }
+  ],
+  "07-16": [
+   {
+    "year": 1993,
+    "article": "Slackware",
+    "title": "Q58436",
+    "category": "tech",
+    "kind": "os",
+    "imageFile": "Slackware 15.0 screenshot.png"
+   },
+   {
+    "year": 2010,
+    "article": "Pearl Harbor Trilogy – 1941: Red Sun Rising",
+    "title": "Pearl Harbor Trilogy – 1941: Red Sun Rising",
+    "category": "culture",
+    "kind": "vgame",
+    "imageFile": "Pearl Harbor Trilogy – 1941- Red Sun Rising screenshot 10.jpg"
+   }
+  ],
+  "04-15": [
+   {
+    "year": 1995,
+    "article": "Mortal Kombat 3",
+    "title": "Mortal Kombat 3",
+    "category": "culture",
+    "kind": "vgame",
+    "imageFile": "MortalKombat3ScreenshotGamescom.png"
+   },
+   {
+    "year": 1999,
+    "article": "YSFlight",
+    "title": "YSFlight",
+    "category": "tech",
+    "kind": "software",
+    "imageFile": "YSFlight T-4 Flyby.jpg"
+   },
+   {
+    "year": 2008,
+    "article": "Proxmox Virtual Environment",
+    "title": "Proxmox Virtual Environment",
+    "category": "tech",
+    "kind": "os",
+    "imageFile": "Proxmox-VE-8-0-Cluster-Summary.png"
+   },
+   {
+    "year": 2009,
+    "article": "GauntNet",
+    "title": "GauntNet",
+    "category": "culture",
+    "kind": "vgame",
+    "imageFile": "GauntNet-small-screenshot.png"
+   },
+   {
+    "year": 2014,
+    "article": "War of the Vikings",
+    "title": "War of the Vikings",
+    "category": "culture",
+    "kind": "vgame",
+    "imageFile": "War of the Vikings, screen of gameplay, Docks map, early access, alpha.jpg"
+   },
+   {
+    "year": 2020,
+    "article": "Space Engineers",
+    "title": "Space Engineers",
+    "category": "culture",
+    "kind": "vgame",
+    "imageFile": "Space Engineers 1.jpg"
+   }
+  ],
+  "07-23": [
+   {
+    "year": 1985,
+    "article": "AmigaOS",
+    "title": "AmigaOS",
+    "category": "tech",
+    "kind": "os",
+    "imageFile": "AmigaOS 3.5 Box.jpg"
+   },
+   {
+    "year": 1998,
+    "article": "The King of Fighters '98",
+    "title": "The King of Fighters '98",
+    "category": "culture",
+    "kind": "vgame",
+    "imageFile": "KOF-98 arcade cabinet.jpg"
+   },
+   {
+    "year": 2006,
+    "article": "Rust (programming language)",
+    "title": "Q575650",
+    "category": "tech",
+    "kind": "proglang",
+    "imageFile": "Cargo clippy hello world example.png"
+   }
+  ],
+  "01-12": [
+   {
+    "year": 1998,
+    "article": "FreeDOS",
+    "title": "FreeDOS",
+    "category": "tech",
+    "kind": "os",
+    "imageFile": "FreeDOS-1.0-LiveCD-Boot.png"
+   }
+  ],
+  "10-25": [
+   {
+    "year": 1977,
+    "article": "OpenVMS",
+    "title": "OpenVMS",
+    "category": "tech",
+    "kind": "os",
+    "imageFile": "Openvms-8.4-2L1-dcl.png"
+   },
+   {
+    "year": 2005,
+    "article": "Grand Theft Auto: Liberty City Stories",
+    "title": "Q94778",
+    "category": "culture",
+    "kind": "vgame",
+    "imageFile": "Rockstar Games buses at E3 2005.jpg"
+   },
+   {
+    "year": 2012,
+    "article": "Incredipede",
+    "title": "Incredipede",
+    "category": "culture",
+    "kind": "vgame",
+    "imageFile": "IncredipedeScreenshot35.jpg"
+   },
+   {
+    "year": 2019,
+    "article": "Call of Duty: Modern Warfare (2019 video game)",
+    "title": "Call of Duty: Modern Warfare",
+    "category": "culture",
+    "kind": "vgame",
+    "imageFile": "Call of Duty Modern Warfare Gamescom 2019 (48605842367).jpg"
+   }
+  ],
+  "12-15": [
+   {
+    "year": 1986,
+    "article": "Balloon Fight",
+    "title": "Balloon Fight",
+    "category": "culture",
+    "kind": "vgame",
+    "imageFile": "バルーンファイト ロゴ.jpg"
+   },
+   {
+    "year": 1986,
+    "article": "Hollywood Hijinx",
+    "title": "Hollywood Hijinx",
+    "category": "culture",
+    "kind": "vgame",
+    "imageFile": "Screenshot Hollywood Hijinx (Infocom, 1987).jpg"
+   },
+   {
+    "year": 1994,
+    "article": "Netscape (web browser)",
+    "title": "Netscape",
+    "category": "tech",
+    "kind": "software",
+    "imageFile": "Netscape Navigator 9.0b1.jpg"
+   },
+   {
+    "year": 1999,
+    "article": "Windows 2000",
+    "title": "Q483881",
+    "category": "tech",
+    "kind": "os",
+    "imageFile": "Fujitsu Stylistic LT P-600 transflective display Tablet-PC.png"
+   },
+   {
+    "year": 2001,
+    "article": "Animal Crossing (video game)",
+    "title": "Animal Crossing",
+    "category": "culture",
+    "kind": "vgame",
+    "imageFile": "Animal Crossing.jpg"
+   },
+   {
+    "year": 2014,
+    "article": "Hearthstone",
+    "title": "Hearthstone",
+    "category": "culture",
+    "kind": "vgame",
+    "imageFile": "Pyrkon 2018 Heartstone Cosplay.jpg"
+   },
+   {
+    "year": 2014,
+    "article": "NEO Scavenger",
+    "title": "NEO Scavenger",
+    "category": "culture",
+    "kind": "vgame",
+    "imageFile": "NEO Scavenger screenshot 02.png"
+   },
+   {
+    "year": 2015,
+    "article": "TowerFall",
+    "title": "TowerFall",
+    "category": "culture",
+    "kind": "vgame",
+    "imageFile": "TowerFall unlucky.gif"
+   }
+  ],
+  "07-31": [
+   {
+    "year": 1995,
+    "article": "Phantasmagoria (video game)",
+    "title": "Phantasmagoria",
+    "category": "culture",
+    "kind": "vgame",
+    "imageFile": "Sierra-Phantasmagoria.jpg"
+   },
+   {
+    "year": 1996,
+    "article": "Windows NT 4.0",
+    "title": "Windows NT 4.0",
+    "category": "tech",
+    "kind": "os",
+    "imageFile": "Windows 9x Color Palette 65536 Colors.png"
+   }
+  ],
+  "05-16": [
+   {
+    "year": 2000,
+    "article": "MenuetOS",
+    "title": "MenuetOS",
+    "category": "tech",
+    "kind": "os",
+    "imageFile": "Menuet.png"
+   },
+   {
+    "year": 2005,
+    "article": "N (video game)",
+    "title": "N",
+    "category": "culture",
+    "kind": "vgame",
+    "imageFile": "Screenshot from Metanet Software game, N - 27.jpg"
+   },
+   {
+    "year": 2012,
+    "article": "Archive.today",
+    "title": "Q13515725",
+    "category": "tech",
+    "kind": "website",
+    "imageFile": "Archive.is-Screenshot.png"
+   },
+   {
+    "year": 2014,
+    "article": "Dark Scavenger",
+    "title": "Dark Scavenger",
+    "category": "culture",
+    "kind": "vgame",
+    "imageFile": "Dark Scavenger screenshot 5.png"
+   }
+  ],
+  "03-16": [
+   {
+    "year": 1990,
+    "article": "Darius (video game)",
+    "title": "Darius",
+    "category": "culture",
+    "kind": "vgame",
+    "imageFile": "DARIUS.jpg"
+   },
+   {
+    "year": 1999,
+    "article": "Mac OS X Server",
+    "title": "macOS Server",
+    "category": "tech",
+    "kind": "os",
+    "imageFile": "OSXLeopard.svg"
+   }
+  ],
+  "10-18": [
+   {
+    "year": 1999,
+    "article": "Amerzone",
+    "title": "Amerzone",
+    "category": "culture",
+    "kind": "vgame",
+    "imageFile": "Amerzone 01 - Ventousier.png"
+   },
+   {
+    "year": 2001,
+    "article": "Silent Scope 2",
+    "title": "Silent Scope 2: Dark Silhouette",
+    "category": "culture",
+    "kind": "vgame",
+    "imageFile": "Musée Mécanique 186.JPG"
+   },
+   {
+    "year": 2010,
+    "article": "ThruSpace",
+    "title": "ThruSpace",
+    "category": "culture",
+    "kind": "vgame",
+    "imageFile": "ThruSpace - Cubochiavi.gif"
+   },
+   {
+    "year": 2011,
+    "article": "Payday: The Heist",
+    "title": "Payday: The Heist",
+    "category": "culture",
+    "kind": "vgame",
+    "imageFile": "E3 2011 - Payday- the Heist (Sony Online Entertainment) (5822673068).jpg"
+   },
+   {
+    "year": 2012,
+    "article": "Ubuntu GNOME",
+    "title": "Ubuntu GNOME",
+    "category": "tech",
+    "kind": "os",
+    "imageFile": "Ubuntu GNOME 16.04 Desktop.png"
+   },
+   {
+    "year": 2013,
+    "article": "Windows Server 2012 R2",
+    "title": "Windows Server 2012 R2",
+    "category": "tech",
+    "kind": "os",
+    "imageFile": "Windows Server 2012 R2-Login screen.png"
+   }
+  ],
+  "05-09": [
+   {
+    "year": 2002,
+    "article": "Soldat (video game)",
+    "title": "Soldat",
+    "category": "culture",
+    "kind": "vgame",
+    "imageFile": "Soldat v1.7 killed.png"
+   },
+   {
+    "year": 2005,
+    "article": "Windows Mobile 5.0",
+    "title": "Windows Mobile 5.0",
+    "category": "tech",
+    "kind": "os",
+    "imageFile": "Dell Axim x51v.jpg"
+   },
+   {
+    "year": 2008,
+    "article": "Apollo Justice: Ace Attorney",
+    "title": "Apollo Justice: Ace Attorney",
+    "category": "culture",
+    "kind": "vgame",
+    "imageFile": "Apollo Justice Ace Attorney promo art.png"
+   }
+  ],
+  "04-27": [
+   {
+    "year": 2009,
+    "article": "Android Cupcake",
+    "title": "Android Cupcake",
+    "category": "tech",
+    "kind": "os",
+    "imageFile": "Android Cupcake home screen.jpg"
+   },
+   {
+    "year": 2009,
+    "article": "Bleeding Cool",
+    "title": "Bleeding Cool",
+    "category": "tech",
+    "kind": "website",
+    "imageFile": "10.11.13BleedingCoolByLuigiNovi1.jpg"
+   },
+   {
+    "year": 2018,
+    "article": "Zero-K",
+    "title": "Zero-K",
+    "category": "culture",
+    "kind": "vgame",
+    "imageFile": "Zero-K Gameplay.jpg"
+   }
+  ],
+  "11-03": [
+   {
+    "year": 2010,
+    "article": "Centipede (video game)",
+    "title": "Centipede",
+    "category": "culture",
+    "kind": "vgame",
+    "imageFile": "Centipede Cabaret Arcade Game.jpg"
+   },
+   {
+    "year": 2014,
+    "article": "Android Lollipop",
+    "title": "Android Lollipop",
+    "category": "tech",
+    "kind": "os",
+    "imageFile": "Android Lollipop screenshot.png"
+   },
+   {
+    "year": 2015,
+    "article": "Dragon Fin Soup",
+    "title": "Dragon Fin Soup",
+    "category": "culture",
+    "kind": "vgame",
+    "imageFile": "DFS-11.jpg"
+   }
+  ],
+  "02-12": [
+   {
+    "year": 2015,
+    "article": "Windows 10 Mobile",
+    "title": "Windows 10 Mobile",
+    "category": "tech",
+    "kind": "os",
+    "imageFile": "Lumia830windows10m.JPG"
+   }
+  ],
+  "09-29": [
+   {
+    "year": 2005,
+    "article": "Registry of Cultural Property (Lithuania)",
+    "title": "Register of Cultural Property",
+    "category": "tech",
+    "kind": "website",
+    "imageFile": "Paveldo objekto ženklas.svg"
+   },
+   {
+    "year": 2016,
+    "article": "Windows Server 2016",
+    "title": "Windows Server 2016",
+    "category": "tech",
+    "kind": "os",
+    "imageFile": "Windows Server 2016 start menu.png"
+   }
+  ],
+  "11-25": [
+   {
+    "year": 2009,
+    "article": "King Arthur: The Role-Playing Wargame",
+    "title": "King Arthur: The Role-Playing Wargame",
+    "category": "culture",
+    "kind": "vgame",
+    "imageFile": "King Arthur The Role-playing Wargame cover art.jpg"
+   },
+   {
+    "year": 2014,
+    "article": "Bitrig",
+    "title": "Bitrig",
+    "category": "tech",
+    "kind": "os",
+    "imageFile": "Bitrig-1.0-fvwm-screenshot.png"
+   }
+  ],
+  "09-15": [
+   {
+    "year": 1982,
+    "article": "USA Today",
+    "title": "USA Today",
+    "category": "tech",
+    "kind": "website",
+    "imageFile": "USA Today building.jpg"
+   },
+   {
+    "year": 1997,
+    "article": "Google Search",
+    "title": "Google Search",
+    "category": "tech",
+    "kind": "search",
+    "imageFile": "Google Homepage.svg"
+   },
+   {
+    "year": 2009,
+    "article": "Android Donut",
+    "title": "Android Donut",
+    "category": "tech",
+    "kind": "os",
+    "imageFile": "Android 1.6 on the Android SDK.png"
+   }
+  ],
+  "05-20": [
+   {
+    "year": 1982,
+    "article": "EITB",
+    "title": "EITB",
+    "category": "tech",
+    "kind": "website",
+    "imageFile": "Bilbao - Edificio Bami - ETB 01.jpg"
+   },
+   {
+    "year": 2010,
+    "article": "Android Froyo",
+    "title": "Android Froyo",
+    "category": "tech",
+    "kind": "os",
+    "imageFile": "Android 2.2 Froyo home.png"
+   },
+   {
+    "year": 2017,
+    "article": "Fire Emblem Echoes: Shadows of Valentia",
+    "title": "Fire Emblem Echoes: Shadows of Valentia",
+    "category": "culture",
+    "kind": "vgame",
+    "imageFile": "ValentiaMap.svg"
+   }
+  ],
+  "08-22": [
+   {
+    "year": 2008,
+    "article": "S.T.A.L.K.E.R.: Clear Sky",
+    "title": "S.T.A.L.K.E.R.: Clear Sky",
+    "category": "culture",
+    "kind": "vgame",
+    "imageFile": "Stalker Clear Sky screenshot god rays 01.jpg"
+   },
+   {
+    "year": 2016,
+    "article": "Android Nougat",
+    "title": "Android Nougat",
+    "category": "tech",
+    "kind": "os",
+    "imageFile": "Android Nougat screenshot 20170116-070000.png"
+   },
+   {
+    "year": 2024,
+    "article": "Tactical Breach Wizards",
+    "title": "Tactical Breach Wizards",
+    "category": "culture",
+    "kind": "vgame",
+    "imageFile": "Tactical-breach-wizards-screenshot.jpg"
+   }
+  ],
+  "04-20": [
+   {
+    "year": 2015,
+    "article": "RedoxOS",
+    "title": "Redox",
+    "category": "tech",
+    "kind": "os",
+    "imageFile": "Redox running Orbital.png"
+   }
+  ],
+  "08-15": [
+   {
+    "year": 2010,
+    "article": "Freecharge",
+    "title": "Freecharge",
+    "category": "tech",
+    "kind": "website",
+    "imageFile": "Freecharge desktop homescreen.png"
+   },
+   {
+    "year": 2013,
+    "article": "Gone Home",
+    "title": "Gone Home",
+    "category": "culture",
+    "kind": "vgame",
+    "imageFile": "Gone Home.png"
+   },
+   {
+    "year": 2016,
+    "article": "Fuchsia (operating system)",
+    "title": "Fuchsia",
+    "category": "tech",
+    "kind": "os",
+    "imageFile": "Screenshot of Google Fuchsia (July 2017).png"
+   },
+   {
+    "year": 2017,
+    "article": "Agents of Mayhem",
+    "title": "Agents of Mayhem",
+    "category": "culture",
+    "kind": "vgame",
+    "imageFile": "Comic Con Germany Stuttgart 2017 by-RaBoe 211.jpg"
+   }
+  ],
+  "05-21": [
+   {
+    "year": 2019,
+    "article": "Windows Server 2019",
+    "title": "Q50911826",
+    "category": "tech",
+    "kind": "os",
+    "imageFile": "Windows Server 2019 start menu.png"
+   }
+  ],
+  "06-08": [
+   {
+    "year": 2016,
+    "article": "KDE neon",
+    "title": "KDE neon",
+    "category": "tech",
+    "kind": "os",
+    "imageFile": "KDE Neon 5.27 Desktop English.png"
+   }
+  ],
+  "08-18": [
+   {
+    "year": 2014,
+    "article": "Mountain (video game)",
+    "title": "Mountain",
+    "category": "culture",
+    "kind": "vgame",
+    "imageFile": "Mountain (video game) screenshot 3.jpg"
+   },
+   {
+    "year": 2020,
+    "article": "A Short Hike",
+    "title": "A Short Hike",
+    "category": "culture",
+    "kind": "vgame",
+    "imageFile": "A Short Hike Screenshot 5.png"
+   },
+   {
+    "year": 2021,
+    "article": "Windows Server 2022",
+    "title": "Q106039330",
+    "category": "tech",
+    "kind": "os",
+    "imageFile": "Windows Server 2022 start menu.png"
+   }
+  ],
+  "06-28": [
+   {
+    "year": 1999,
+    "article": "Pokémon Pinball",
+    "title": "Pokémon Pinball",
+    "category": "culture",
+    "kind": "vgame",
+    "imageFile": "Rumble pack.jpg"
+   },
+   {
+    "year": 1999,
+    "article": "Alibaba Group",
+    "title": "Alibaba Group",
+    "category": "tech",
+    "kind": "website",
+    "imageFile": "Alibaba Group provisional office at Xiong'an (20180503164635).jpg"
+   },
+   {
+    "year": 2021,
+    "article": "MacOS Monterey",
+    "title": "macOS Monterey",
+    "category": "tech",
+    "kind": "os",
+    "imageFile": "MacOS Monterey.png"
+   }
+  ],
+  "10-05": [
+   {
+    "year": 1984,
+    "article": "Devil World",
+    "title": "Devil World",
+    "category": "culture",
+    "kind": "vgame",
+    "imageFile": "Famicom 'Devil World' cartridge (5158740395).jpg"
+   },
+   {
+    "year": 2001,
+    "article": "Project Euler",
+    "title": "Project Euler",
+    "category": "tech",
+    "kind": "website",
+    "imageFile": "Leonhard Euler.jpg"
+   },
+   {
+    "year": 2021,
+    "article": "Windows 11",
+    "title": "Windows 11",
+    "category": "tech",
+    "kind": "os",
+    "imageFile": "Windows11abstract.webp"
+   }
+  ],
+  "02-19": [
+   {
+    "year": 2007,
+    "article": "Hacker News",
+    "title": "Hacker News",
+    "category": "tech",
+    "kind": "website",
+    "imageFile": "Hacker News.png"
+   },
+   {
+    "year": 2009,
+    "article": "Dead Rising (video game)",
+    "title": "Dead Rising",
+    "category": "culture",
+    "kind": "vgame",
+    "imageFile": "E3 2006 Dead Rising booth.jpg"
+   },
+   {
+    "year": 2020,
+    "article": "Android 11",
+    "title": "Android 11",
+    "category": "tech",
+    "kind": "os",
+    "imageFile": "Pixel 4a Android 11 Launcher.png"
+   }
+  ],
+  "11-01": [
+   {
+    "year": 2007,
+    "article": "3DiTeams",
+    "title": "3DiTeams",
+    "category": "culture",
+    "kind": "vgame",
+    "imageFile": "3DiTeams main.JPG"
+   },
+   {
+    "year": 2009,
+    "article": "Toons Mag",
+    "title": "Toons Mag",
+    "category": "tech",
+    "kind": "website",
+    "imageFile": "Freedom of cartooning.png"
+   },
+   {
+    "year": 2011,
+    "article": "Rigs of Rods",
+    "title": "Rigs of Rods",
+    "category": "culture",
+    "kind": "vgame",
+    "imageFile": "Rigs of Rods TurboTwin.jpg"
+   },
+   {
+    "year": 2011,
+    "article": "The Lord of the Rings: War in the North",
+    "title": "The Lord of the Rings: War in the North",
+    "category": "culture",
+    "kind": "vgame",
+    "imageFile": "View from DNF line 2 (4956471292).jpg"
+   },
+   {
+    "year": 2024,
+    "article": "Windows Server 2025",
+    "title": "Windows Server 2025",
+    "category": "tech",
+    "kind": "os",
+    "imageFile": "VirtualBox Windows Server 2025 26100.1.240331-1435.GE DE 12 01 2025 11 55 08.png"
+   }
+  ],
+  "02-27": [
+   {
+    "year": 1998,
+    "article": "Blades of Exile",
+    "title": "Blades of Exile",
+    "category": "culture",
+    "kind": "vgame",
+    "imageFile": "BOEcombat1.png"
+   },
+   {
+    "year": 2004,
+    "article": "FreeSBIE",
+    "title": "FreeSBIE",
+    "category": "tech",
+    "kind": "os",
+    "imageFile": "Freesbie2-xfce.png"
+   },
+   {
+    "year": 2008,
+    "article": "WorldWide Telescope",
+    "title": "WorldWide Telescope",
+    "category": "tech",
+    "kind": "software",
+    "imageFile": "WorldWide Telescope (WWT) - Solar system (2).png"
+   },
+   {
+    "year": 2018,
+    "article": "One Hour One Life",
+    "title": "One Hour One Life",
+    "category": "culture",
+    "kind": "vgame",
+    "imageFile": "One Hour One Life Screenshot.png"
+   },
+   {
+    "year": 2026,
+    "article": "Resident Evil Requiem",
+    "title": "Q124983920",
+    "category": "culture",
+    "kind": "vgame",
+    "imageFile": "Resident Evil Requiem gameplay.jpg"
+   }
+  ],
+  "10-01": [
+   {
+    "year": 1986,
+    "article": "King's Quest III",
+    "title": "King's Quest III",
+    "category": "culture",
+    "kind": "vgame",
+    "imageFile": "SierraOnLine-Box-KingsQuest3.jpg"
+   },
+   {
+    "year": 1987,
+    "article": "Millipede (video game)",
+    "title": "Millipede",
+    "category": "culture",
+    "kind": "vgame",
+    "imageFile": "Musée Mécanique 218.JPG"
+   },
+   {
+    "year": 1992,
+    "article": "Virtua Racing",
+    "title": "Virtua Racing",
+    "category": "culture",
+    "kind": "vgame",
+    "imageFile": "VR Virtua Racing.jpg"
+   },
+   {
+    "year": 1997,
+    "article": "Mortal Kombat Mythologies: Sub-Zero",
+    "title": "Mortal Kombat Mythologies: Sub-Zero",
+    "category": "culture",
+    "kind": "vgame",
+    "imageFile": "MythologiesLegacyTrailer.png"
+   },
+   {
+    "year": 2001,
+    "article": "TripleA",
+    "title": "TripleA",
+    "category": "culture",
+    "kind": "vgame",
+    "imageFile": "Ta-firstworldwar.png"
+   },
+   {
+    "year": 2001,
+    "article": "Time Crisis II",
+    "title": "Time Crisis II",
+    "category": "culture",
+    "kind": "vgame",
+    "imageFile": "Time crisis 2 cabinets.jpg"
+   },
+   {
+    "year": 2007,
+    "article": "Earthquake Early Warning (Japan)",
+    "title": "Earthquake Early Warning",
+    "category": "tech",
+    "kind": "software",
+    "imageFile": "Earthquake-Early-Warning-on-Smartphone 01.jpg"
+   },
+   {
+    "year": 2013,
+    "article": "Android KitKat",
+    "title": "Android KitKat",
+    "category": "tech",
+    "kind": "os",
+    "imageFile": "Nexus 5 (Android 4.4.2) Screenshot.jpg"
+   },
+   {
+    "year": 2016,
+    "article": "Funk (service)",
+    "title": "funk",
+    "category": "tech",
+    "kind": "socialnet",
+    "imageFile": "Bonifaziusturm A 20211107 Mainz HOF08088.jpg"
+   },
+   {
+    "year": 2020,
+    "article": "Logseq",
+    "title": "Logseq",
+    "category": "tech",
+    "kind": "software",
+    "imageFile": "Logseq.jpg"
+   },
+   {
+    "year": 2020,
+    "article": "The Benza RPG",
+    "title": "The Benza RPG",
+    "category": "culture",
+    "kind": "vgame",
+    "imageFile": "The Benza RPG Tokyo Comic Con 2022.jpg"
+   }
+  ],
+  "12-04": [
+   {
+    "year": 1995,
+    "article": "JavaScript",
+    "title": "JavaScript",
+    "category": "tech",
+    "kind": "proglang",
+    "imageFile": "JavaScript code.png"
+   },
+   {
+    "year": 2013,
+    "article": "Have I Been Pwned?",
+    "title": "Have I Been Pwned?",
+    "category": "tech",
+    "kind": "website",
+    "imageFile": "Have I Been Pwned.png"
+   },
+   {
+    "year": 2015,
+    "article": "Dr. Langeskov, The Tiger, and The Terribly Cursed Emerald: A Whirlwind Heist",
+    "title": "Dr. Langeskov, The Tiger and The Terribly Cursed Emerald: A Whirlwind Heist",
+    "category": "culture",
+    "kind": "vgame",
+    "imageFile": "Dr. Langeskov, The Tiger, and The Terribly Cursed Emerald Title.png"
+   }
+  ],
+  "07-11": [
+   {
+    "year": 2001,
+    "article": "LiveCode",
+    "title": "LiveCode",
+    "category": "tech",
+    "kind": "proglang",
+    "imageFile": "Livecode.jpg"
+   },
+   {
+    "year": 2011,
+    "article": "Microsoft Power BI",
+    "title": "Microsoft Power BI",
+    "category": "tech",
+    "kind": "software",
+    "imageFile": "DadosBI-exemplo3.2-powerBI.png"
+   }
+  ],
+  "08-28": [
+   {
+    "year": 2008,
+    "article": "Gravity Bone",
+    "title": "Gravity Bone",
+    "category": "culture",
+    "kind": "vgame",
+    "imageFile": "Gravity Bone cover.png"
+   },
+   {
+    "year": 2009,
+    "article": "OpenCL",
+    "title": "OpenCL",
+    "category": "tech",
+    "kind": "proglang",
+    "imageFile": "Clinfo screenshot.png"
+   },
+   {
+    "year": 2009,
+    "article": "The Whispered World",
+    "title": "The Whispered World",
+    "category": "culture",
+    "kind": "vgame",
+    "imageFile": "The Whispered World screenshot 006.jpg"
+   },
+   {
+    "year": 2012,
+    "article": "Diamond Trust of London",
+    "title": "Diamond Trust of London",
+    "category": "culture",
+    "kind": "vgame",
+    "imageFile": "Diamond Trust of London.png"
+   },
+   {
+    "year": 2013,
+    "article": "Shelter (video game)",
+    "title": "Shelter",
+    "category": "culture",
+    "kind": "vgame",
+    "imageFile": "Shelter - Poster 1.jpg"
+   },
+   {
+    "year": 2017,
+    "article": "DeepL Translator",
+    "title": "Q43968444",
+    "category": "tech",
+    "kind": "website",
+    "imageFile": "DeepL machine translation of English Wikipedia example.png"
+   },
+   {
+    "year": 2020,
+    "article": "Wasteland 3",
+    "title": "Wasteland 3",
+    "category": "culture",
+    "kind": "vgame",
+    "imageFile": "Wasteland 3 Gamescom 2019 (48605880617).jpg"
+   }
+  ],
+  "07-28": [
+   {
+    "year": 2003,
+    "article": "OpenGL ES",
+    "title": "OpenGL ES",
+    "category": "tech",
+    "kind": "software",
+    "imageFile": "Glxinfo with glxgears screenshot.png"
+   },
+   {
+    "year": 2007,
+    "article": "Cython",
+    "title": "Cython",
+    "category": "tech",
+    "kind": "proglang",
+    "imageFile": "Cython CPython Ext Module Workflow.png"
+   },
+   {
+    "year": 2010,
+    "article": "Hydro Thunder Hurricane",
+    "title": "Hydro Thunder Hurricane",
+    "category": "culture",
+    "kind": "vgame",
+    "imageFile": "MadisonRegattaWinner2008.jpg"
+   }
+  ],
+  "09-07": [
+   {
+    "year": 1984,
+    "article": "Galaxian",
+    "title": "Galaxian",
+    "category": "culture",
+    "kind": "vgame",
+    "imageFile": "Midway (USA) Galaxian arcade machine.jpg"
+   },
+   {
+    "year": 1991,
+    "article": "Leisure Suit Larry 5: Passionate Patti Does a Little Undercover Work",
+    "title": "Leisure Suit Larry 5: Passionate Patti Does a Little Undercover Work",
+    "category": "culture",
+    "kind": "vgame",
+    "imageFile": "Leisure-Suit-Larry-5.jpg"
+   },
+   {
+    "year": 2001,
+    "article": "Visual Nature Studio",
+    "title": "Visual Nature Studio",
+    "category": "tech",
+    "kind": "software",
+    "imageFile": "BlueRidgePastures.jpg"
+   },
+   {
+    "year": 2004,
+    "article": "Wikimedia Commons",
+    "title": "Wikimedia Commons",
+    "category": "tech",
+    "kind": "search",
+    "imageFile": "Commons screenshot.png"
+   },
+   {
+    "year": 2021,
+    "article": "Sonic Colors: Ultimate",
+    "title": "Sonic Colors: Ultimate",
+    "category": "culture",
+    "kind": "vgame",
+    "imageFile": "Sonic Colors Ultimate boxes.png"
+   }
+  ],
+  "09-23": [
+   {
+    "year": 1997,
+    "article": "Yandex",
+    "title": "Yandex",
+    "category": "tech",
+    "kind": "search",
+    "imageFile": "Yandex main office.jpg"
+   }
+  ],
+  "09-25": [
+   {
+    "year": 2008,
+    "article": "DuckDuckGo",
+    "title": "DuckDuckGo",
+    "category": "tech",
+    "kind": "search",
+    "imageFile": "Tor Hidden Service of Duck Duck Go 24072019.png"
+   }
+  ],
+  "06-03": [
+   {
+    "year": 2009,
+    "article": "Microsoft Bing",
+    "title": "Microsoft Bing",
+    "category": "tech",
+    "kind": "search",
+    "imageFile": "New Bing Screenshot.png"
+   }
+  ],
+  "02-16": [
+   {
+    "year": 2007,
+    "article": "Sherlock Holmes: The Awakened",
+    "title": "Sherlock Holmes: The Awakened",
+    "category": "culture",
+    "kind": "vgame",
+    "imageFile": "SH3 - Clin d'oeil Sidney Paget.png"
+   },
+   {
+    "year": 2013,
+    "article": "Qwant",
+    "title": "Qwant",
+    "category": "tech",
+    "kind": "search",
+    "imageFile": "Qwant version 8 - 2024.png"
+   },
+   {
+    "year": 2016,
+    "article": "Vulkan",
+    "title": "Vulkan",
+    "category": "tech",
+    "kind": "software",
+    "imageFile": "Vulkaninfo with vkcube screenshot.png"
+   }
+  ],
+  "03-27": [
+   {
+    "year": 1997,
+    "article": "Goo (search engine)",
+    "title": "goo",
+    "category": "tech",
+    "kind": "search",
+    "imageFile": "教えて^gooチャレンジ2005渋谷 2 - panoramio.jpg"
+   },
+   {
+    "year": 1997,
+    "article": "Artprice",
+    "title": "Artprice",
+    "category": "tech",
+    "kind": "website",
+    "imageFile": "Logo-artprice.jpg"
+   },
+   {
+    "year": 2007,
+    "article": "On Demand (Sky)",
+    "title": "On Demand",
+    "category": "tech",
+    "kind": "software",
+    "imageFile": "Sky Anytime+ on Launch.jpg"
+   },
+   {
+    "year": 2010,
+    "article": "Speed Dreams",
+    "title": "Speed Dreams",
+    "category": "culture",
+    "kind": "vgame",
+    "imageFile": "Speed Dreams Ruudskogen.png"
+   },
+   {
+    "year": 2012,
+    "article": "Closure (video game)",
+    "title": "Closure",
+    "category": "culture",
+    "kind": "vgame",
+    "imageFile": "Le monde du carnaval.png"
+   }
+  ],
+  "07-05": [
+   {
+    "year": 1985,
+    "article": "Hang-On",
+    "title": "Hang-On",
+    "category": "culture",
+    "kind": "vgame",
+    "imageFile": "Sega Hang on Arcade Automat.jpg"
+   },
+   {
+    "year": 1987,
+    "article": "Leisure Suit Larry in the Land of the Lounge Lizards",
+    "title": "Leisure Suit Larry in the Land of the Lounge Lizards",
+    "category": "culture",
+    "kind": "vgame",
+    "imageFile": "Leisure-Suit-Larry-1.jpg"
+   },
+   {
+    "year": 2023,
+    "article": "Threads (social network)",
+    "title": "Threads",
+    "category": "tech",
+    "kind": "socialnet",
+    "imageFile": "Threads.ing.jpg"
+   }
+  ],
+  "02-04": [
+   {
+    "year": 2004,
+    "article": "Facebook",
+    "title": "Facebook",
+    "category": "tech",
+    "kind": "socialnet",
+    "imageFile": "Screen of Facebook (2).PNG"
+   }
+  ],
+  "08-09": [
+   {
+    "year": 1990,
+    "article": "Super Monaco GP",
+    "title": "Super Monaco GP",
+    "category": "culture",
+    "kind": "vgame",
+    "imageFile": "Super Monaco GP.jpg"
+   },
+   {
+    "year": 2010,
+    "article": "Weibo",
+    "title": "Weibo",
+    "category": "tech",
+    "kind": "socialnet",
+    "imageFile": "\"Weibo IN\" Complex at Chaoyang Park 20250906164317.jpg"
+   },
+   {
+    "year": 2012,
+    "article": "Unmechanical",
+    "title": "Unmechanical",
+    "category": "culture",
+    "kind": "vgame",
+    "imageFile": "Unmechanical - Screenshot 01.png"
+   },
+   {
+    "year": 2016,
+    "article": "Brasil Paralelo",
+    "title": "Brasil Paralelo",
+    "category": "tech",
+    "kind": "website",
+    "imageFile": "Brasil Paralelo - Equipe (51260760937).png"
+   }
+  ],
+  "07-24": [
+   {
+    "year": 2023,
+    "article": "X (social network)",
+    "title": "X",
+    "category": "tech",
+    "kind": "socialnet",
+    "imageFile": "Screen of X (Twitter).png"
+   }
+  ],
+  "10-10": [
+   {
+    "year": 2005,
+    "article": "PatientsLikeMe",
+    "title": "PatientsLikeMe",
+    "category": "tech",
+    "kind": "socialnet",
+    "imageFile": "StephenProfile2011.jpg"
+   },
+   {
+    "year": 2005,
+    "article": "Google Bookmarks",
+    "title": "Google Bookmarks",
+    "category": "tech",
+    "kind": "website",
+    "imageFile": "Google Bookmarks add bookmark screenshot 2020.png"
+   },
+   {
+    "year": 2006,
+    "article": "VK (service)",
+    "title": "VK",
+    "category": "tech",
+    "kind": "socialnet",
+    "imageFile": "VK's home page (February 2026).png"
+   }
+  ],
+  "10-06": [
+   {
+    "year": 2010,
+    "article": "Instagram",
+    "title": "Q209330",
+    "category": "tech",
+    "kind": "socialnet",
+    "imageFile": "Instagram screenshot.png"
+   },
+   {
+    "year": 2016,
+    "article": "The Powder Toy",
+    "title": "The Powder Toy",
+    "category": "culture",
+    "kind": "vgame",
+    "imageFile": "PowderToy.png"
+   },
+   {
+    "year": 2023,
+    "article": "Resonite",
+    "title": "Resonite",
+    "category": "culture",
+    "kind": "vgame",
+    "imageFile": "Features CollaborativeCreationTools 01-p-1080.jpg"
+   }
+  ],
+  "08-08": [
+   {
+    "year": 2012,
+    "article": "App.net",
+    "title": "App.net",
+    "category": "tech",
+    "kind": "socialnet",
+    "imageFile": "App.net Global Feed.png"
+   },
+   {
+    "year": 2013,
+    "article": "Monster Strike",
+    "title": "Monster Strike",
+    "category": "culture",
+    "kind": "vgame",
+    "imageFile": "Monster Strike.svg"
+   },
+   {
+    "year": 2017,
+    "article": "Minecraft China",
+    "title": "Minecraft China",
+    "category": "culture",
+    "kind": "vgame",
+    "imageFile": "Minecraft China logo.webp"
+   }
+  ],
+  "03-06": [
+   {
+    "year": 2002,
+    "article": "Usermin",
+    "title": "Usermin",
+    "category": "tech",
+    "kind": "software",
+    "imageFile": "Usermin configuration.jpg"
+   },
+   {
+    "year": 2004,
+    "article": "OpenTTD",
+    "title": "Q725120",
+    "category": "culture",
+    "kind": "vgame",
+    "imageFile": "Cardhill Transport, 2000-06-25.png"
+   },
+   {
+    "year": 2004,
+    "article": "Bos Wars",
+    "title": "Bos Wars",
+    "category": "culture",
+    "kind": "vgame",
+    "imageFile": "Bos wars 2 5.png"
+   },
+   {
+    "year": 2005,
+    "article": "Douban",
+    "title": "Douban",
+    "category": "tech",
+    "kind": "socialnet",
+    "imageFile": "Douban headquarters at C&W Industry Park B3 (20230304111307).jpg"
+   }
+  ],
+  "06-15": [
+   {
+    "year": 2010,
+    "article": "Microsoft Office 2010",
+    "title": "Microsoft Office 2010",
+    "category": "tech",
+    "kind": "software",
+    "imageFile": "Microsoft Office 2007-2013 text logo.svg"
+   },
+   {
+    "year": 2023,
+    "article": "Fall of Porcupine",
+    "title": "Fall of Porcupine",
+    "category": "culture",
+    "kind": "vgame",
+    "imageFile": "FOP Cover 21.png"
+   }
+  ],
+  "11-11": [
+   {
+    "year": 1990,
+    "article": "Rossiyskaya Gazeta",
+    "title": "Rossiyskaya Gazeta",
+    "category": "tech",
+    "kind": "website",
+    "imageFile": "Rgasz.jpg"
+   },
+   {
+    "year": 1994,
+    "article": "Mortal Kombat II",
+    "title": "Q843486",
+    "category": "culture",
+    "kind": "vgame",
+    "imageFile": "MortalKombatIIScreenshotLaunchTrailer.png"
+   },
+   {
+    "year": 2001,
+    "article": "Police 911",
+    "title": "Police 911",
+    "category": "culture",
+    "kind": "vgame",
+    "imageFile": "Light gun survival horror arcade game.jpg"
+   },
+   {
+    "year": 2004,
+    "article": "Kingdom Hearts: Chain of Memories",
+    "title": "Kingdom Hearts: Chain of Memories",
+    "category": "culture",
+    "kind": "vgame",
+    "imageFile": "Kingdom Hearts wordmark the first game of the series.png"
+   },
+   {
+    "year": 2008,
+    "article": "OpenAM",
+    "title": "OpenAM",
+    "category": "tech",
+    "kind": "software",
+    "imageFile": "Openamconsole.png"
+   },
+   {
+    "year": 2012,
+    "article": "Paper Mario: Sticker Star",
+    "title": "Paper Mario: Sticker Star",
+    "category": "culture",
+    "kind": "vgame",
+    "imageFile": "E3 Expo 2012 - Nintendo Press Event - (7640919270).jpg"
+   }
+  ],
+  "06-18": [
+   {
+    "year": 2003,
+    "article": "Google AdSense",
+    "title": "Google AdSense",
+    "category": "tech",
+    "kind": "software",
+    "imageFile": "Pàgina principal de Google AdSense.png"
+   },
+   {
+    "year": 2005,
+    "article": "In the Groove 2",
+    "title": "In the Groove 2",
+    "category": "culture",
+    "kind": "vgame",
+    "imageFile": "Itg machine.jpg"
+   },
+   {
+    "year": 2015,
+    "article": "Pixel Dungeon",
+    "title": "Pixel Dungeon",
+    "category": "culture",
+    "kind": "vgame",
+    "imageFile": "Pixel Dungeon - Introduction.png"
+   }
+  ],
+  "12-22": [
+   {
+    "year": 2000,
+    "article": "SELinux",
+    "title": "Security-Enhanced Linux",
+    "category": "tech",
+    "kind": "software",
+    "imageFile": "SELinux seinfo and semanage screenshot.webp"
+   }
+  ],
+  "12-11": [
+   {
+    "year": 2025,
+    "article": "GPT-5.2",
+    "title": "GPT-5.2",
+    "category": "tech",
+    "kind": "software",
+    "imageFile": "GPT-5.2 Pro.png"
+   }
+  ],
+  "11-08": [
+   {
+    "year": 2004,
+    "article": "Wikinews",
+    "title": "Wikinews",
+    "category": "tech",
+    "kind": "website",
+    "imageFile": "Wikinews screenshot.png"
+   },
+   {
+    "year": 2005,
+    "article": "TMZ",
+    "title": "TMZ",
+    "category": "tech",
+    "kind": "website",
+    "imageFile": "Tmz headquarters and offices.jpg"
+   },
+   {
+    "year": 2006,
+    "article": "Games for Windows",
+    "title": "Games for Windows",
+    "category": "tech",
+    "kind": "software",
+    "imageFile": "Gaming computer.png"
+   },
+   {
+    "year": 2010,
+    "article": "Windows Phone",
+    "title": "Windows Phone",
+    "category": "tech",
+    "kind": "software",
+    "imageFile": "Nokia Lumia 520 Windows Phone 8.1 ru.JPG"
+   },
+   {
+    "year": 2010,
+    "article": "TenFourFox",
+    "title": "TenFourFox",
+    "category": "tech",
+    "kind": "software",
+    "imageFile": "TenFourFox 12 screenshot.png"
+   },
+   {
+    "year": 2012,
+    "article": "Halo 4",
+    "title": "Q45028",
+    "category": "culture",
+    "kind": "vgame",
+    "imageFile": "Halo 4 gameplay.jpg"
+   },
+   {
+    "year": 2013,
+    "article": "GT Racing 2: The Real Car Experience",
+    "title": "GT Racing 2: The Real Car Experience",
+    "category": "culture",
+    "kind": "vgame",
+    "imageFile": "Mazda Furai Detroit 2008.JPG"
+   },
+   {
+    "year": 2019,
+    "article": "Need for Speed Heat",
+    "title": "Need for Speed Heat",
+    "category": "culture",
+    "kind": "vgame",
+    "imageFile": "Need for Speed Heat Car Gamescom 2019 (48605686406).jpg"
+   },
+   {
+    "year": 2022,
+    "article": "Sonic Frontiers",
+    "title": "Sonic Frontiers",
+    "category": "culture",
+    "kind": "vgame",
+    "imageFile": "Sonic Frontiers - Sonic on Kronos Island.jpg"
+   }
+  ],
+  "09-19": [
+   {
+    "year": 2006,
+    "article": "Dungeon Crawl Stone Soup",
+    "title": "Dungeon Crawl Stone Soup",
+    "category": "culture",
+    "kind": "vgame",
+    "imageFile": "Dcss.0.21.webtiles.Elven-Halls.png"
+   },
+   {
+    "year": 2007,
+    "article": "AstroMenace",
+    "title": "AstroMenace",
+    "category": "culture",
+    "kind": "vgame",
+    "imageFile": "Astromenace Gameplay.jpg"
+   },
+   {
+    "year": 2011,
+    "article": "Hornby Track Master",
+    "title": "Hornby Track Master",
+    "category": "tech",
+    "kind": "software",
+    "imageFile": "Hornby Track-Master Logo.jpg"
+   }
+  ],
+  "10-15": [
+   {
+    "year": 1997,
+    "article": "Mortal Kombat 4",
+    "title": "Mortal Kombat 4",
+    "category": "culture",
+    "kind": "vgame",
+    "imageFile": "MortalKombat4LegacyTrailer.png"
+   },
+   {
+    "year": 2015,
+    "article": "The Witcher 3: Wild Hunt",
+    "title": "The Witcher 3: Wild Hunt",
+    "category": "culture",
+    "kind": "vgame",
+    "imageFile": "The Witcher 3 - Standard Edition Unboxing (Official Trailer) cover.jpg"
+   },
+   {
+    "year": 2015,
+    "article": "Broforce",
+    "title": "Broforce",
+    "category": "culture",
+    "kind": "vgame",
+    "imageFile": "Broforce blade vs truck.png"
+   },
+   {
+    "year": 2019,
+    "article": "Titan Security Key",
+    "title": "Titan Security Key",
+    "category": "tech",
+    "kind": "software",
+    "imageFile": "Google Titan Security Key - Two Factor Authentication (47400104011).jpg"
+   }
+  ],
+  "12-20": [
+   {
+    "year": 2012,
+    "article": "Cycloramic",
+    "title": "Cycloramic",
+    "category": "tech",
+    "kind": "software",
+    "imageFile": "Image explaining how Cycloramic iPhone app works.png"
+   }
+  ],
+  "01-27": [
+   {
+    "year": 2012,
+    "article": "IA (software)",
+    "title": "IA",
+    "category": "tech",
+    "kind": "software",
+    "imageFile": "Mqdl-IA in Second Life.jpg"
+   },
+   {
+    "year": 2012,
+    "article": "King Arthur II: The Role-Playing Wargame",
+    "title": "King Arthur II: The Role-Playing Wargame",
+    "category": "culture",
+    "kind": "vgame",
+    "imageFile": "King Arthur II screenshot 1.jpg"
+   }
+  ],
+  "06-05": [
+   {
+    "year": 2014,
+    "article": "Tango (platform)",
+    "title": "Tango",
+    "category": "tech",
+    "kind": "software",
+    "imageFile": "Project Tango (24181866660).jpg"
+   },
+   {
+    "year": 2025,
+    "article": "Hogwarts Legacy",
+    "title": "Q99397854",
+    "category": "culture",
+    "kind": "vgame",
+    "imageFile": "Hogwarts Legacy promotional photo horizontal.jpg"
+   },
+   {
+    "year": 2025,
+    "article": "Street Fighter 6",
+    "title": "Street Fighter 6",
+    "category": "culture",
+    "kind": "vgame",
+    "imageFile": "Street Fighter 6 gameplay.jpg"
+   }
+  ],
+  "03-29": [
+   {
+    "year": 2005,
+    "article": "VDrift",
+    "title": "VDrift",
+    "category": "culture",
+    "kind": "vgame",
+    "imageFile": "Vdrift-screenshot 2 (2015).jpg"
+   },
+   {
+    "year": 2010,
+    "article": "Flotilla (video game)",
+    "title": "Flotilla",
+    "category": "culture",
+    "kind": "vgame",
+    "imageFile": "Flotilla cover.png"
+   },
+   {
+    "year": 2015,
+    "article": "Naemon",
+    "title": "Naemon",
+    "category": "tech",
+    "kind": "software",
+    "imageFile": "Thruk 3.22.2 demo screenshot.webp"
+   }
+  ],
+  "07-06": [
+   {
+    "year": 1997,
+    "article": "RELAP5-3D",
+    "title": "RELAP5-3D",
+    "category": "tech",
+    "kind": "software",
+    "imageFile": "RELAP5-3D Image.gif"
+   },
+   {
+    "year": 2011,
+    "article": "Dead Block",
+    "title": "Dead Block",
+    "category": "culture",
+    "kind": "vgame",
+    "imageFile": "Dead Block box art.jpg"
+   }
+  ],
+  "04-29": [
+   {
+    "year": 2001,
+    "article": "Scorched 3D",
+    "title": "Q931617",
+    "category": "tech",
+    "kind": "software",
+    "imageFile": "ScreenShot-1389839485-0.png"
+   },
+   {
+    "year": 2003,
+    "article": "MapleStory",
+    "title": "MapleStory",
+    "category": "culture",
+    "kind": "vgame",
+    "imageFile": "MapleStory.svg"
+   },
+   {
+    "year": 2005,
+    "article": "Webkinz",
+    "title": "Webkinz",
+    "category": "tech",
+    "kind": "website",
+    "imageFile": "Webkinz kids by David Shankbone 2.jpg"
+   },
+   {
+    "year": 2009,
+    "article": "Infiniminer",
+    "title": "Infiniminer",
+    "category": "culture",
+    "kind": "vgame",
+    "imageFile": "Infiniminer cave scene.png"
+   },
+   {
+    "year": 2011,
+    "article": "Marvel Super Hero Squad Online",
+    "title": "Marvel Super Hero Squad Online",
+    "category": "culture",
+    "kind": "vgame",
+    "imageFile": "View from DNF line 2 (4956471292).jpg"
+   }
+  ],
+  "01-25": [
+   {
+    "year": 1991,
+    "article": "Jackie Chan's Action Kung Fu",
+    "title": "Jackie Chan's Action Kung Fu",
+    "category": "culture",
+    "kind": "vgame",
+    "imageFile": "JackieChanNES texttitle.png"
+   },
+   {
+    "year": 2005,
+    "article": "Google Video",
+    "title": "Google Videos",
+    "category": "tech",
+    "kind": "software",
+    "imageFile": "Screenshot of Google Video Search filtering by Closed-Captioned Videos.png"
+   },
+   {
+    "year": 2011,
+    "article": "LibreOffice Impress",
+    "title": "LibreOffice Impress",
+    "category": "tech",
+    "kind": "software",
+    "imageFile": "LibreOffice Impress 7.1.2 (released in 2021-04, running on Linux and GNOME with the default icon set).png"
+   },
+   {
+    "year": 2016,
+    "article": "Hojicha Co.",
+    "title": "Hojicha Co.",
+    "category": "tech",
+    "kind": "website",
+    "imageFile": "HOJICHA Hanko Design.png"
+   },
+   {
+    "year": 2018,
+    "article": "Celeste (video game)",
+    "title": "Celeste",
+    "category": "culture",
+    "kind": "vgame",
+    "imageFile": "Celeste box art full.png"
+   }
+  ],
+  "06-09": [
+   {
+    "year": 2004,
+    "article": "Predictor@home",
+    "title": "Predictor@home",
+    "category": "tech",
+    "kind": "software",
+    "imageFile": "Predictor.png"
+   }
+  ],
+  "06-24": [
+   {
+    "year": 2009,
+    "article": "HTC Sense",
+    "title": "HTC Sense",
+    "category": "tech",
+    "kind": "software",
+    "imageFile": "HTC Evo 4G.jpg"
+   },
+   {
+    "year": 2015,
+    "article": "Her Story (video game)",
+    "title": "Her Story",
+    "category": "culture",
+    "kind": "vgame",
+    "imageFile": "Her Story screenshot 02.jpg"
+   }
+  ],
+  "05-23": [
+   {
+    "year": 2003,
+    "article": "Eve Online",
+    "title": "EVE Online",
+    "category": "culture",
+    "kind": "vgame",
+    "imageFile": "EVE Online - Caldari Freighters.jpg"
+   },
+   {
+    "year": 2006,
+    "article": "QMC@Home",
+    "title": "QMC@Home",
+    "category": "tech",
+    "kind": "software",
+    "imageFile": "QMC@Home.gif"
+   },
+   {
+    "year": 2017,
+    "article": "Skillshot City",
+    "title": "Q30639017",
+    "category": "culture",
+    "kind": "vgame",
+    "imageFile": "Skillshot City Box Art.png"
+   }
+  ],
+  "03-31": [
+   {
+    "year": 1987,
+    "article": "QuarkXPress",
+    "title": "QuarkXPress",
+    "category": "tech",
+    "kind": "software",
+    "imageFile": "Font Manager Palette in QuarkXPress 2024.png"
+   },
+   {
+    "year": 1998,
+    "article": "StarCraft (video game)",
+    "title": "Q165929",
+    "category": "culture",
+    "kind": "vgame",
+    "imageFile": "Starcraft Gamescom 2017 (36851382835).jpg"
+   }
+  ],
+  "06-25": [
+   {
+    "year": 1998,
+    "article": "Microsoft Spider Solitaire",
+    "title": "Spider Solitaire",
+    "category": "culture",
+    "kind": "vgame",
+    "imageFile": "Spider.TIF"
+   },
+   {
+    "year": 2014,
+    "article": "Material Design",
+    "title": "Material Design",
+    "category": "tech",
+    "kind": "software",
+    "imageFile": "Material you light.png"
+   }
+  ],
+  "10-28": [
+   {
+    "year": 1995,
+    "article": "Netcat",
+    "title": "Netcat",
+    "category": "tech",
+    "kind": "software",
+    "imageFile": "Netcat.png"
+   },
+   {
+    "year": 2008,
+    "article": "Fallout 3",
+    "title": "Q221164",
+    "category": "culture",
+    "kind": "vgame",
+    "imageFile": "Fallout 3 cover (cropped).png"
+   },
+   {
+    "year": 2008,
+    "article": "MySims",
+    "title": "MySims",
+    "category": "culture",
+    "kind": "vgame",
+    "imageFile": "MySims at EA's Booth (1296581850).jpg"
+   },
+   {
+    "year": 2014,
+    "article": "Google Fit",
+    "title": "Google Fit",
+    "category": "tech",
+    "kind": "software",
+    "imageFile": "Google-Fit-Screenshot-v1.0.png"
+   },
+   {
+    "year": 2021,
+    "article": "Tiger-Heli",
+    "title": "Tiger-Heli",
+    "category": "culture",
+    "kind": "vgame",
+    "imageFile": "Musée Mécanique 022.JPG"
+   }
+  ],
+  "10-12": [
+   {
+    "year": 2003,
+    "article": "Tuzin.fm",
+    "title": "tuzin.fm",
+    "category": "tech",
+    "kind": "website",
+    "imageFile": "Tuzin Gitou.png"
+   },
+   {
+    "year": 2010,
+    "article": "Medal of Honor (2010 video game)",
+    "title": "Medal of Honor",
+    "category": "culture",
+    "kind": "vgame",
+    "imageFile": "View from DNF line (4955869149).jpg"
+   },
+   {
+    "year": 2011,
+    "article": "Newsstand (software)",
+    "title": "Newsstand",
+    "category": "tech",
+    "kind": "software",
+    "imageFile": "Apple Newsstand on iOS 6 on an iPhone 3GS.jpg"
+   }
+  ],
+  "04-08": [
+   {
+    "year": 2001,
+    "article": "Soulseek",
+    "title": "Soulseek",
+    "category": "tech",
+    "kind": "software",
+    "imageFile": "Soulseek.png"
+   }
+  ],
+  "04-17": [
+   {
+    "year": 2008,
+    "article": "Microsoft PixelSense",
+    "title": "Microsoft Surface",
+    "category": "tech",
+    "kind": "software",
+    "imageFile": "Surface table.JPG"
+   },
+   {
+    "year": 2014,
+    "article": "Secrets of Rætikon",
+    "title": "Secrets of Rætikon",
+    "category": "culture",
+    "kind": "vgame",
+    "imageFile": "Secrets of Raetikon animated screenshot TreeTops.gif"
+   },
+   {
+    "year": 2016,
+    "article": "Stephen's Sausage Roll",
+    "title": "Stephen's Sausage Roll",
+    "category": "culture",
+    "kind": "vgame",
+    "imageFile": "Stephen's Sausage Roll screenshot 5.jpg"
+   },
+   {
+    "year": 2026,
+    "article": "Pragmata",
+    "title": "Q96240015",
+    "category": "culture",
+    "kind": "vgame",
+    "imageFile": "Pragmata cover.jpg"
+   }
+  ],
+  "05-02": [
+   {
+    "year": 2007,
+    "article": "Spider-Man 3 (video game)",
+    "title": "Spider-Man 3",
+    "category": "culture",
+    "kind": "vgame",
+    "imageFile": "Spider-Man (Spider-Man 3 videogame).png"
+   },
+   {
+    "year": 2009,
+    "article": "IPPOLIT",
+    "title": "IPPOLIT",
+    "category": "tech",
+    "kind": "software",
+    "imageFile": "IvanHoe analyzing a position with multi-pv enabled using ComradesGUI.png"
+   }
+  ],
+  "04-03": [
+   {
+    "year": 1992,
+    "article": "Ultima VI: The False Prophet",
+    "title": "Ultima VI: The False Prophet",
+    "category": "culture",
+    "kind": "vgame",
+    "imageFile": "Startbildschirm Ultima VI (deutsch).jpeg"
+   },
+   {
+    "year": 1998,
+    "article": "Morita Shogi 64",
+    "title": "Morita Shogi 64",
+    "category": "culture",
+    "kind": "vgame",
+    "imageFile": "Morita Shogi 64, Modem and led window.JPG"
+   },
+   {
+    "year": 2008,
+    "article": "Orbit@home",
+    "title": "orbit@home",
+    "category": "tech",
+    "kind": "software",
+    "imageFile": "Orbit@home.png"
+   }
+  ],
+  "03-10": [
+   {
+    "year": 2014,
+    "article": "CarPlay",
+    "title": "CarPlay",
+    "category": "tech",
+    "kind": "software",
+    "imageFile": "CarPlay displaying music in Nissan.png"
+   },
+   {
+    "year": 2018,
+    "article": "Darwin Project",
+    "title": "Darwin Project",
+    "category": "culture",
+    "kind": "vgame",
+    "imageFile": "Darwin wallpaper 4.png"
+   }
+  ],
+  "01-02": [
+   {
+    "year": 2001,
+    "article": "CT Special Forces",
+    "title": "CT Special Forces",
+    "category": "culture",
+    "kind": "vgame",
+    "imageFile": "CT Special Forces Interface.png"
+   },
+   {
+    "year": 2014,
+    "article": "Counterparty (platform)",
+    "title": "Counterparty",
+    "category": "tech",
+    "kind": "software",
+    "imageFile": "Counterwallet Homepage.png"
+   }
+  ],
+  "12-08": [
+   {
+    "year": 2006,
+    "article": "Wii Sports",
+    "title": "Wii Sports",
+    "category": "culture",
+    "kind": "vgame",
+    "imageFile": "Duo playing Wii Sports.jpg"
+   },
+   {
+    "year": 2006,
+    "article": "SimCity (1989 video game)",
+    "title": "Q7798922",
+    "category": "culture",
+    "kind": "vgame",
+    "imageFile": "SimCity-Indigo.gif"
+   },
+   {
+    "year": 2013,
+    "article": "TLDR Pages",
+    "title": "tldr-pages",
+    "category": "tech",
+    "kind": "software",
+    "imageFile": "Tldr-screenshot.png"
+   }
+  ],
+  "11-23": [
+   {
+    "year": 2002,
+    "article": "Madura English–Sinhala Dictionary",
+    "title": "Madura English–Sinhala Dictionary",
+    "category": "tech",
+    "kind": "software",
+    "imageFile": "Madura Dictionary.png"
+   }
+  ],
+  "12-07": [
+   {
+    "year": 2007,
+    "article": "Aquaria (video game)",
+    "title": "Aquaria",
+    "category": "culture",
+    "kind": "vgame",
+    "imageFile": "Aquaria - Screenshot 05.jpg"
+   },
+   {
+    "year": 2009,
+    "article": "NearGlobal",
+    "title": "NearGlobal",
+    "category": "culture",
+    "kind": "vgame",
+    "imageFile": "Nearlondonscreenshot.jpg"
+   },
+   {
+    "year": 2010,
+    "article": "TinkerTool",
+    "title": "TinkerTool",
+    "category": "tech",
+    "kind": "software",
+    "imageFile": "TinkerTool Screenshot.png"
+   },
+   {
+    "year": 2011,
+    "article": "Trine 2",
+    "title": "Trine 2",
+    "category": "culture",
+    "kind": "vgame",
+    "imageFile": "Trine 2 - Belly of the Beast.jpg"
+   },
+   {
+    "year": 2018,
+    "article": "Super Smash Bros. Ultimate",
+    "title": "Super Smash Bros. Ultimate",
+    "category": "culture",
+    "kind": "vgame",
+    "imageFile": "Tokyo-Game-Show-2023-Day3-2023-09-23 283.jpg"
+   }
+  ],
+  "01-17": [
+   {
+    "year": 2012,
+    "article": "WiFi Explorer",
+    "title": "WiFi Explorer",
+    "category": "tech",
+    "kind": "software",
+    "imageFile": "WiFi Explorer 2.0.png"
+   },
+   {
+    "year": 2012,
+    "article": "Dustforce",
+    "title": "Q4037709",
+    "category": "culture",
+    "kind": "vgame",
+    "imageFile": "Dustforce - Screenshot 08.png"
+   }
+  ],
+  "03-17": [
+   {
+    "year": 2009,
+    "article": "Grand Theft Auto: Chinatown Wars",
+    "title": "Q94871",
+    "category": "culture",
+    "kind": "vgame",
+    "imageFile": "Grand Theft Auto, NY Chinatown.jpg"
+   },
+   {
+    "year": 2026,
+    "article": "Taiwan.md",
+    "title": "Taiwan.md",
+    "category": "tech",
+    "kind": "website",
+    "imageFile": "Taiwan.md head screenshot Screenshot 2026-06-01 at 00-55-14.png"
+   }
+  ],
+  "11-18": [
+   {
+    "year": 2010,
+    "article": "Sonic Colors",
+    "title": "Sonic Colors",
+    "category": "culture",
+    "kind": "vgame",
+    "imageFile": "Sonic Colors Ultimate - Tropical Resort.jpg"
+   },
+   {
+    "year": 2012,
+    "article": "Nintendo Land",
+    "title": "Nintendo Land",
+    "category": "culture",
+    "kind": "vgame",
+    "imageFile": "Animal Crossing - Sweet Day.jpg"
+   },
+   {
+    "year": 2012,
+    "article": "Scribblenauts Unlimited",
+    "title": "Scribblenauts Unlimited",
+    "category": "culture",
+    "kind": "vgame",
+    "imageFile": "Scribblenauts Unlimited at E3 2012.jpg"
+   },
+   {
+    "year": 2019,
+    "article": "The 4th Coming",
+    "title": "The 4th Coming",
+    "category": "culture",
+    "kind": "vgame",
+    "imageFile": "The 4th Coming.png"
+   }
+  ],
+  "07-15": [
+   {
+    "year": 1983,
+    "article": "Donkey Kong (1981 video game)",
+    "title": "Q12384",
+    "category": "culture",
+    "kind": "vgame",
+    "imageFile": "Donkey Kong arcade.jpg"
+   },
+   {
+    "year": 2014,
+    "article": "Abyss Odyssey",
+    "title": "Abyss Odyssey",
+    "category": "culture",
+    "kind": "vgame",
+    "imageFile": "Abyss Odyssey - Screenshot 01.jpg"
+   }
+  ],
+  "02-21": [
+   {
+    "year": 1986,
+    "article": "The Legend of Zelda (video game)",
+    "title": "Q12395",
+    "category": "culture",
+    "kind": "vgame",
+    "imageFile": "The Legend of Zelda - Golden Catridge.jpg"
+   },
+   {
+    "year": 2021,
+    "article": "0 A.D. (video game)",
+    "title": "0 A.D.",
+    "category": "culture",
+    "kind": "vgame",
+    "imageFile": "0 A.D. Seleukiden-Stadt Ken Wood 23.png"
+   }
+  ],
+  "07-03": [
+   {
+    "year": 2009,
+    "article": "Trine (video game)",
+    "title": "Trine",
+    "category": "culture",
+    "kind": "vgame",
+    "imageFile": "Trine - Wizard Lift.jpg"
+   }
+  ],
+  "05-14": [
+   {
+    "year": 2009,
+    "article": "Killing Floor (video game)",
+    "title": "Killing Floor",
+    "category": "culture",
+    "kind": "vgame",
+    "imageFile": "Killing Floor Biohazard1.jpg"
+   },
+   {
+    "year": 2014,
+    "article": "Phantasy Star Online 2",
+    "title": "Phantasy Star Online 2",
+    "category": "culture",
+    "kind": "vgame",
+    "imageFile": "Phantasy Star Online cosplay models (2012).jpg"
+   }
+  ],
+  "01-16": [
+   {
+    "year": 2002,
+    "article": "Tux Racer",
+    "title": "Tux Racer",
+    "category": "culture",
+    "kind": "vgame",
+    "imageFile": "TuxRacerScreenshot.jpg"
+   },
+   {
+    "year": 2015,
+    "article": "HyperRogue",
+    "title": "HyperRogue",
+    "category": "culture",
+    "kind": "vgame",
+    "imageFile": "HyperRogue IcyLand.png"
+   }
+  ],
+  "10-14": [
+   {
+    "year": 2010,
+    "article": "Just Dance 2",
+    "title": "Just Dance 2",
+    "category": "culture",
+    "kind": "vgame",
+    "imageFile": "Comic-Con 2010 - a giant thing wants to Just Dance 2 (4875051816).jpg"
+   },
+   {
+    "year": 2011,
+    "article": "Forza Motorsport 4",
+    "title": "Forza Motorsport 4",
+    "category": "culture",
+    "kind": "vgame",
+    "imageFile": "E3 2011 - Forza Motorsport 4 (Xbox) (5822123385).jpg"
+   },
+   {
+    "year": 2019,
+    "article": "Balinese Wikipedia",
+    "title": "Balinese Wikipedia",
+    "category": "tech",
+    "kind": "website",
+    "imageFile": "Screenshot of Bali Wikipedia.png"
+   }
+  ],
+  "11-28": [
+   {
+    "year": 1996,
+    "article": "Ultimate Mortal Kombat 3",
+    "title": "Ultimate Mortal Kombat 3",
+    "category": "culture",
+    "kind": "vgame",
+    "imageFile": "UltimateMortalKombat3ScreenshotGamescom.png"
+   },
+   {
+    "year": 2011,
+    "article": "The Idolmaster Cinderella Girls",
+    "title": "The Idolmaster Cinderella Girls",
+    "category": "culture",
+    "kind": "vgame",
+    "imageFile": "THE IDOLM@STER CINDERELLA GIRLS Logo.png"
+   }
+  ],
+  "03-23": [
+   {
+    "year": 1990,
+    "article": "Boulder Dash (video game)",
+    "title": "Boulder Dash",
+    "category": "culture",
+    "kind": "vgame",
+    "imageFile": "Boulder Dash Cover Art 1984-1988.jpg"
+   },
+   {
+    "year": 1990,
+    "article": "After Burner II",
+    "title": "Q2628630",
+    "category": "culture",
+    "kind": "vgame",
+    "imageFile": "Sega Afterburner.jpg"
+   },
+   {
+    "year": 2009,
+    "article": "SameGame",
+    "title": "SameGame",
+    "category": "culture",
+    "kind": "vgame",
+    "imageFile": "Ksame.png"
+   },
+   {
+    "year": 2017,
+    "article": "PUBG: Battlegrounds",
+    "title": "Q28937399",
+    "category": "culture",
+    "kind": "vgame",
+    "imageFile": "PUBGCorpABHC.png"
+   },
+   {
+    "year": 2022,
+    "article": "Shattered Pixel Dungeon",
+    "title": "Shattered Pixel Dungeon",
+    "category": "culture",
+    "kind": "vgame",
+    "imageFile": "Shattered Pixel Dungeon - Introduction - en.png"
+   }
+  ],
+  "02-08": [
+   {
+    "year": 2002,
+    "article": "Frozen Bubble",
+    "title": "Frozen Bubble",
+    "category": "culture",
+    "kind": "vgame",
+    "imageFile": "Frozen Bubble 2 - Single player.png"
+   }
+  ],
+  "03-21": [
+   {
+    "year": 1989,
+    "article": "Phantasy Star II",
+    "title": "Phantasy Star II",
+    "category": "culture",
+    "kind": "vgame",
+    "imageFile": "Phantasy-Star-2-1989-Game-Scene.png"
+   },
+   {
+    "year": 2011,
+    "article": "JTBC",
+    "title": "JTBC",
+    "category": "tech",
+    "kind": "website",
+    "imageFile": "JTBC Tower.jpg"
+   },
+   {
+    "year": 2017,
+    "article": "Everything (video game)",
+    "title": "Everything",
+    "category": "culture",
+    "kind": "vgame",
+    "imageFile": "Everything KeyArt.jpg"
+   }
+  ],
+  "07-10": [
+   {
+    "year": 2007,
+    "article": "Paper Mario (video game)",
+    "title": "Paper Mario",
+    "category": "culture",
+    "kind": "vgame",
+    "imageFile": "Nintendo 64 with Paper Mario.jpg"
+   },
+   {
+    "year": 2014,
+    "article": "Do Not Believe His Lies",
+    "title": "Do Not Believe His Lies",
+    "category": "culture",
+    "kind": "vgame",
+    "imageFile": "Do Not Believe His Lies cover.png"
+   }
+  ],
+  "10-02": [
+   {
+    "year": 1985,
+    "article": "Space Harrier",
+    "title": "Space Harrier",
+    "category": "culture",
+    "kind": "vgame",
+    "imageFile": "Spaceharrier.jpg"
+   },
+   {
+    "year": 2005,
+    "article": "The Battle for Wesnoth",
+    "title": "Q214142",
+    "category": "culture",
+    "kind": "vgame",
+    "imageFile": "The Battle for Wesnoth 1.12 title screen.png"
+   },
+   {
+    "year": 2009,
+    "article": "S.T.A.L.K.E.R.: Call of Pripyat",
+    "title": "S.T.A.L.K.E.R.: Call of Pripyat",
+    "category": "culture",
+    "kind": "vgame",
+    "imageFile": "S.T.A.L.K.E.R.- Call of Pripyat, DirectX 11 screenshot.jpg"
+   },
+   {
+    "year": 2018,
+    "article": "Forza Horizon 4",
+    "title": "Q54893555",
+    "category": "culture",
+    "kind": "vgame",
+    "imageFile": "Forza Horizon 4 McLaren Senna.jpg"
+   }
+  ],
+  "11-14": [
+   {
+    "year": 1987,
+    "article": "Space Quest II",
+    "title": "Space Quest II",
+    "category": "culture",
+    "kind": "vgame",
+    "imageFile": "SierraOnLine-Box-SpaceQuest2.jpg"
+   },
+   {
+    "year": 2017,
+    "article": "De Blob",
+    "title": "De Blob",
+    "category": "culture",
+    "kind": "vgame",
+    "imageFile": "Festival du jeu video 20080926 044.jpg"
+   },
+   {
+    "year": 2017,
+    "article": "Rocket League",
+    "title": "Rocket League",
+    "category": "culture",
+    "kind": "vgame",
+    "imageFile": "Rocket League coverart.jpg"
+   }
+  ],
+  "08-25": [
+   {
+    "year": 1996,
+    "article": "Quake (video game)",
+    "title": "Quake",
+    "category": "culture",
+    "kind": "vgame",
+    "imageFile": "Quake cover.png"
+   },
+   {
+    "year": 2017,
+    "article": "The Expression Amrilato",
+    "title": "The Expression Amrilato",
+    "category": "culture",
+    "kind": "vgame",
+    "imageFile": "SOJO 04.jpg"
+   },
+   {
+    "year": 2021,
+    "article": "Psychonauts 2",
+    "title": "Psychonauts 2",
+    "category": "culture",
+    "kind": "vgame",
+    "imageFile": "Psychonauts 2 - Levitating in The Quarry.jpg"
+   }
+  ],
+  "11-27": [
+   {
+    "year": 1985,
+    "article": "BurgerTime",
+    "title": "BurgerTime",
+    "category": "culture",
+    "kind": "vgame",
+    "imageFile": "BurgerTime Arcade Video Game.jpg"
+   },
+   {
+    "year": 2000,
+    "article": "Orbiter (simulator)",
+    "title": "Orbiter",
+    "category": "culture",
+    "kind": "vgame",
+    "imageFile": "Atlantis in Orbiter 2016 (20 July 2024).png"
+   },
+   {
+    "year": 2012,
+    "article": "Super Hexagon",
+    "title": "Super Hexagon",
+    "category": "culture",
+    "kind": "vgame",
+    "imageFile": "Super Hexagon - iPad Hexagon 02.png"
+   },
+   {
+    "year": 2014,
+    "article": "The Witcher Adventure Game",
+    "title": "The Witcher Adventure Game",
+    "category": "culture",
+    "kind": "vgame",
+    "imageFile": "Playing board game - Play 562 1698955708600.jpg"
+   }
+  ],
+  "04-07": [
+   {
+    "year": 1997,
+    "article": "Fish Fillets NG",
+    "title": "Fish Fillets NG",
+    "category": "culture",
+    "kind": "vgame",
+    "imageFile": "Fillets-ng-cellar.png"
+   }
+  ],
+  "03-11": [
+   {
+    "year": 1993,
+    "article": "Buzz Aldrin's Race Into Space",
+    "title": "Buzz Aldrin's Race Into Space",
+    "category": "culture",
+    "kind": "vgame",
+    "imageFile": "RIS screenshot v1.1.0.02 (pandora game port).png"
+   },
+   {
+    "year": 2008,
+    "article": "Library Genesis",
+    "title": "Library Genesis",
+    "category": "tech",
+    "kind": "website",
+    "imageFile": "Libgen English interface.png"
+   }
+  ],
+  "11-24": [
+   {
+    "year": 1995,
+    "article": "Virtua Cop",
+    "title": "Virtua Cop",
+    "category": "culture",
+    "kind": "vgame",
+    "imageFile": "Virtuacop.JPG"
+   },
+   {
+    "year": 2001,
+    "article": "Super Smash Bros. Melee",
+    "title": "Super Smash Bros. Melee",
+    "category": "culture",
+    "kind": "vgame",
+    "imageFile": "Super Smash Bros. Melee in a Gamecube.jpg"
+   },
+   {
+    "year": 2020,
+    "article": "Football Manager 2021",
+    "title": "Football Manager 2021",
+    "category": "culture",
+    "kind": "vgame",
+    "imageFile": "Football-Manager-2021.jpg"
+   }
+  ],
+  "04-18": [
+   {
+    "year": 2011,
+    "article": "Portal 2",
+    "title": "Q279446",
+    "category": "culture",
+    "kind": "vgame",
+    "imageFile": "Portal 2 pax prime 2010.jpg"
+   },
+   {
+    "year": 2017,
+    "article": "Flinthook",
+    "title": "Flinthook",
+    "category": "culture",
+    "kind": "vgame",
+    "imageFile": "Flinthook screenshot - Pax worm.png"
+   }
+  ],
+  "05-22": [
+   {
+    "year": 1980,
+    "article": "Pac-Man",
+    "title": "Pac-Man",
+    "category": "culture",
+    "kind": "vgame",
+    "imageFile": "Pac-Man gameplay (1x pixel-perfect recreation).png"
+   },
+   {
+    "year": 2015,
+    "article": "Strife (2015 video game)",
+    "title": "Strife",
+    "category": "culture",
+    "kind": "vgame",
+    "imageFile": "Strife steam.jpg"
+   }
+  ],
+  "03-01": [
+   {
+    "year": 1996,
+    "article": "Doom (1993 video game)",
+    "title": "Q189784",
+    "category": "culture",
+    "kind": "vgame",
+    "imageFile": "Doom classic box art.png"
+   }
+  ],
+  "11-21": [
+   {
+    "year": 1985,
+    "article": "Pac-Land",
+    "title": "Pac-Land",
+    "category": "culture",
+    "kind": "vgame",
+    "imageFile": "Pac-Land gameplay ss.png"
+   },
+   {
+    "year": 2008,
+    "article": "AssaultCube",
+    "title": "Q739804",
+    "category": "culture",
+    "kind": "vgame",
+    "imageFile": "AssaultCube screenshot.png"
+   }
+  ],
+  "03-18": [
+   {
+    "year": 1989,
+    "article": "Pac-Mania",
+    "title": "Pac-Mania",
+    "category": "culture",
+    "kind": "vgame",
+    "imageFile": "Pac-Mania gameplay.png"
+   },
+   {
+    "year": 2000,
+    "article": "Kremlin.ru",
+    "title": "kremlin.ru",
+    "category": "tech",
+    "kind": "website",
+    "imageFile": "Screenshot of the Kremlin.ru (full page; 2018-07-03).png"
+   },
+   {
+    "year": 2004,
+    "article": "Katamari Damacy",
+    "title": "Katamari Damacy",
+    "category": "culture",
+    "kind": "vgame",
+    "imageFile": "Katamari Damacy Reroll gameplay.jpg"
+   },
+   {
+    "year": 2011,
+    "article": "Homefront (video game)",
+    "title": "Homefront",
+    "category": "culture",
+    "kind": "vgame",
+    "imageFile": "E3 2010 Homefront booth.jpg"
+   }
+  ],
+  "04-04": [
+   {
+    "year": 2011,
+    "article": "Battlefield Play4Free",
+    "title": "Battlefield Play4Free",
+    "category": "culture",
+    "kind": "vgame",
+    "imageFile": "Battlefield 2 logo.jpg"
+   },
+   {
+    "year": 2016,
+    "article": "1979 Revolution: Black Friday",
+    "title": "1979 Revolution: Black Friday",
+    "category": "culture",
+    "kind": "vgame",
+    "imageFile": "1979 Revolution screenshot 05.png"
+   },
+   {
+    "year": 2017,
+    "article": "Blackwood Crossing",
+    "title": "Blackwood Crossing",
+    "category": "culture",
+    "kind": "vgame",
+    "imageFile": "Blackwood Crossing announcement screenshot 02.png"
+   }
+  ],
+  "07-08": [
+   {
+    "year": 2005,
+    "article": "Warsow (video game)",
+    "title": "Warsow",
+    "category": "culture",
+    "kind": "vgame",
+    "imageFile": "Warsow Screenshot 1.0.jpg"
+   },
+   {
+    "year": 2008,
+    "article": "Fable II",
+    "title": "Fable II",
+    "category": "culture",
+    "kind": "vgame",
+    "imageFile": "Fable II cover (cropped).png"
+   }
+  ],
+  "09-17": [
+   {
+    "year": 2004,
+    "article": "Crisis Zone",
+    "title": "Crisis Zone",
+    "category": "culture",
+    "kind": "vgame",
+    "imageFile": "Crisiszone.JPG"
+   }
+  ],
+  "02-15": [
+   {
+    "year": 1985,
+    "article": "Galaga",
+    "title": "Galaga",
+    "category": "culture",
+    "kind": "vgame",
+    "imageFile": "Galaga.jpg"
+   }
+  ],
+  "09-03": [
+   {
+    "year": 1993,
+    "article": "Sunset Riders",
+    "title": "Sunset Riders",
+    "category": "culture",
+    "kind": "vgame",
+    "imageFile": "Musée Mécanique 189.JPG"
+   },
+   {
+    "year": 2020,
+    "article": "Ultrakill",
+    "title": "Ultrakill",
+    "category": "culture",
+    "kind": "vgame",
+    "imageFile": "Ultrakill Gameplay.jpg"
+   }
+  ],
+  "03-02": [
+   {
+    "year": 1990,
+    "article": "Space Invaders",
+    "title": "Space Invaders",
+    "category": "culture",
+    "kind": "vgame",
+    "imageFile": "Space Invaders - Midway's.JPG"
+   },
+   {
+    "year": 2009,
+    "article": "Artsy (website)",
+    "title": "Artsy",
+    "category": "tech",
+    "kind": "website",
+    "imageFile": "Caroline Lau + Carter Cleveland at TechCrunch Disrupt, May 2010 (4710875188).jpg"
+   }
+  ],
+  "03-04": [
+   {
+    "year": 1991,
+    "article": "Space Quest IV",
+    "title": "Space Quest IV",
+    "category": "culture",
+    "kind": "vgame",
+    "imageFile": "SierraOnLine-Box-SpaceQuest4.jpg"
+   },
+   {
+    "year": 1991,
+    "article": "The Simpsons (video game)",
+    "title": "The Simpsons",
+    "category": "culture",
+    "kind": "vgame",
+    "imageFile": "The Simpsons Arcade Game.jpg"
+   },
+   {
+    "year": 2024,
+    "article": "The New York Times Strands",
+    "title": "Strands",
+    "category": "culture",
+    "kind": "vgame",
+    "imageFile": "The New York Times Strands.png"
+   }
+  ],
+  "06-13": [
+   {
+    "year": 1986,
+    "article": "Ghosts 'n Goblins (video game)",
+    "title": "Ghosts 'n Goblins",
+    "category": "culture",
+    "kind": "vgame",
+    "imageFile": "Niño jugando al ghosts'n goblins.JPG"
+   }
+  ],
+  "06-10": [
+   {
+    "year": 2011,
+    "article": "Duke Nukem Forever",
+    "title": "Duke Nukem Forever",
+    "category": "culture",
+    "kind": "vgame",
+    "imageFile": "Girls of E3 2011 No.15.jpg"
+   }
+  ],
+  "05-17": [
+   {
+    "year": 2009,
+    "article": "Minecraft",
+    "title": "Q49740",
+    "category": "culture",
+    "kind": "vgame",
+    "imageFile": "Minecraft Alex and fauna.png"
+   },
+   {
+    "year": 2018,
+    "article": "The Banner Saga",
+    "title": "The Banner Saga",
+    "category": "culture",
+    "kind": "vgame",
+    "imageFile": "The Banner Saga conversation screenshot.jpg"
+   }
+  ],
+  "03-25": [
+   {
+    "year": 1983,
+    "article": "Moria (1983 video game)",
+    "title": "Moria",
+    "category": "culture",
+    "kind": "vgame",
+    "imageFile": "Moria-like-game.png"
+   },
+   {
+    "year": 2013,
+    "article": "DRL (video game)",
+    "title": "DoomRL",
+    "category": "culture",
+    "kind": "vgame",
+    "imageFile": "Doomrl-screenshot.png"
+   },
+   {
+    "year": 2015,
+    "article": "Dyscourse",
+    "title": "Dyscourse",
+    "category": "culture",
+    "kind": "vgame",
+    "imageFile": "Dyscourse screenshot 6.png"
+   }
+  ],
+  "01-05": [
+   {
+    "year": 1996,
+    "article": "Freeciv",
+    "title": "Q424271",
+    "category": "culture",
+    "kind": "vgame",
+    "imageFile": "Freeciv-2 1beta1.png"
+   }
+  ],
+  "12-19": [
+   {
+    "year": 1995,
+    "article": "Sega Rally Championship",
+    "title": "Sega Rally Championship",
+    "category": "culture",
+    "kind": "vgame",
+    "imageFile": "Sega Rally Twin - Japanese Cabinet.jpg"
+   },
+   {
+    "year": 2008,
+    "article": "Need for Speed: Undercover",
+    "title": "Need for Speed: Undercover",
+    "category": "culture",
+    "kind": "vgame",
+    "imageFile": "Igromir 2008 (3012936938).jpg"
+   },
+   {
+    "year": 2008,
+    "article": "Passage (video game)",
+    "title": "Passage",
+    "category": "culture",
+    "kind": "vgame",
+    "imageFile": "Passage 3 by Jason Rohrer screenshot.png"
+   },
+   {
+    "year": 2011,
+    "article": "Minicraft",
+    "title": "Minicraft",
+    "category": "culture",
+    "kind": "vgame",
+    "imageFile": "Minicraft Title Screen.png"
+   },
+   {
+    "year": 2012,
+    "article": "Shank 2",
+    "title": "Shank 2",
+    "category": "culture",
+    "kind": "vgame",
+    "imageFile": "Shank 2 gameplay.png"
+   }
+  ],
+  "11-06": [
+   {
+    "year": 2012,
+    "article": "Chaos on Deponia",
+    "title": "Chaos on Deponia",
+    "category": "culture",
+    "kind": "vgame",
+    "imageFile": "Deponialogo.png"
+   },
+   {
+    "year": 2015,
+    "article": "Mini Metro (video game)",
+    "title": "Mini Metro",
+    "category": "culture",
+    "kind": "vgame",
+    "imageFile": "Mini Metro screenshot 0.png"
+   }
+  ],
+  "01-26": [
+   {
+    "year": 1990,
+    "article": "DuckTales (video game)",
+    "title": "DuckTales",
+    "category": "culture",
+    "kind": "vgame",
+    "imageFile": "Ducktales cartridge.jpg"
+   },
+   {
+    "year": 2006,
+    "article": "English Training: Have Fun Improving Your Skills!",
+    "title": "English Training: Have Fun Improving Your Skills!",
+    "category": "culture",
+    "kind": "vgame",
+    "imageFile": "NDSL-English Training-Korean Version.png"
+   }
+  ],
+  "08-11": [
+   {
+    "year": 2005,
+    "article": "Tremulous",
+    "title": "Tremulous",
+    "category": "culture",
+    "kind": "vgame",
+    "imageFile": "Tremulous - alien base grenade.jpg"
+   },
+   {
+    "year": 2017,
+    "article": "Libreflix",
+    "title": "Libreflix",
+    "category": "tech",
+    "kind": "website",
+    "imageFile": "Libreflix screenshot.png"
+   },
+   {
+    "year": 2022,
+    "article": "Cult of the Lamb",
+    "title": "Cult of the Lamb",
+    "category": "culture",
+    "kind": "vgame",
+    "imageFile": "The Lamb costume from Cult of the Lamb at the WASD Gaming Expo, London - April 2024.jpg"
+   }
+  ],
+  "03-03": [
+   {
+    "year": 2012,
+    "article": "Mari0",
+    "title": "Mari0",
+    "category": "culture",
+    "kind": "vgame",
+    "imageFile": "Mari0 (mari-zero) logo.png"
+   },
+   {
+    "year": 2023,
+    "article": "MyHouse.wad",
+    "title": "MyHouse.wad",
+    "category": "culture",
+    "kind": "vgame",
+    "imageFile": "MyHouse.wad title screen.png"
+   }
+  ],
+  "04-21": [
+   {
+    "year": 1989,
+    "article": "Alleyway (video game)",
+    "title": "Alleyway",
+    "category": "culture",
+    "kind": "vgame",
+    "imageFile": "Alleyway GB.jpg"
+   },
+   {
+    "year": 2009,
+    "article": "Zeno Clash",
+    "title": "Zeno Clash",
+    "category": "culture",
+    "kind": "vgame",
+    "imageFile": "Zeno Clash - Corwids.jpg"
+   }
+  ],
+  "05-28": [
+   {
+    "year": 1999,
+    "article": "Comic Party",
+    "title": "Comic Party",
+    "category": "culture",
+    "kind": "vgame",
+    "imageFile": "Comic Party logo.png"
+   },
+   {
+    "year": 2003,
+    "article": "Pure Pinball",
+    "title": "Pure Pinball",
+    "category": "culture",
+    "kind": "vgame",
+    "imageFile": "Pure-Pinball-Steel-Ball-Magic-Big-Beach-Miami Prototype 1920-02.jpg"
+   },
+   {
+    "year": 2013,
+    "article": "Awesomenauts",
+    "title": "Awesomenauts",
+    "category": "culture",
+    "kind": "vgame",
+    "imageFile": "Awesomenauts - Screenshot 06.jpg"
+   }
+  ],
+  "11-09": [
+   {
+    "year": 1990,
+    "article": "King's Quest V",
+    "title": "King's Quest V",
+    "category": "culture",
+    "kind": "vgame",
+    "imageFile": "SierraOnLine-Box-KingsQuest5.jpg"
+   },
+   {
+    "year": 2006,
+    "article": "Viva Piñata (video game)",
+    "title": "Viva Piñata",
+    "category": "culture",
+    "kind": "vgame",
+    "imageFile": "Viva World's Largest Pinata.jpg"
+   }
+  ],
+  "11-10": [
+   {
+    "year": 1995,
+    "article": "Warhawk (1995 video game)",
+    "title": "Warhawk",
+    "category": "culture",
+    "kind": "vgame",
+    "imageFile": "314th Fighter Squadron emblem.jpg"
+   },
+   {
+    "year": 2005,
+    "article": "Bliss (video game)",
+    "title": "Bliss",
+    "category": "culture",
+    "kind": "vgame",
+    "imageFile": "BlissGameScreenShot.jpg"
+   },
+   {
+    "year": 2017,
+    "article": "Doom (2016 video game)",
+    "title": "Q513867",
+    "category": "culture",
+    "kind": "vgame",
+    "imageFile": "Doom 2016 cover.png"
+   },
+   {
+    "year": 2022,
+    "article": "Anna's Archive",
+    "title": "Q115288326",
+    "category": "tech",
+    "kind": "website",
+    "imageFile": "Annasarchivehome 1.15.25.png"
+   }
+  ],
+  "07-04": [
+   {
+    "year": 1984,
+    "article": "Donkey Kong 3",
+    "title": "Donkey Kong 3",
+    "category": "culture",
+    "kind": "vgame",
+    "imageFile": "Game&watch-donkey-kong-3.jpg"
+   }
+  ],
+  "12-25": [
+   {
+    "year": 2004,
+    "article": "Glest",
+    "title": "Glest",
+    "category": "culture",
+    "kind": "vgame",
+    "imageFile": "Glest.jpg"
+   },
+   {
+    "year": 2006,
+    "article": "Street Fighter II",
+    "title": "Street Fighter II",
+    "category": "culture",
+    "kind": "vgame",
+    "imageFile": "Street Fighter II arcade-20061027.jpg"
+   }
+  ],
+  "09-16": [
+   {
+    "year": 2004,
+    "article": "Ryzom",
+    "title": "Ryzom",
+    "category": "culture",
+    "kind": "vgame",
+    "imageFile": "Ryzom screenshot.png"
+   }
+  ],
+  "05-10": [
+   {
+    "year": 1984,
+    "article": "King's Quest I",
+    "title": "King's Quest I",
+    "category": "culture",
+    "kind": "vgame",
+    "imageFile": "SierraOnLine-Box-KingsQuest1.jpg"
+   },
+   {
+    "year": 2011,
+    "article": "Brink (video game)",
+    "title": "Brink",
+    "category": "culture",
+    "kind": "vgame",
+    "imageFile": "Brink booth at PAX Prime 2010 (4959212819).jpg"
+   },
+   {
+    "year": 2012,
+    "article": "The Typing of the Dead",
+    "title": "The Typing of the Dead",
+    "category": "culture",
+    "kind": "vgame",
+    "imageFile": "Typingofthedead.jpg"
+   },
+   {
+    "year": 2016,
+    "article": "Uncharted 4: A Thief's End",
+    "title": "Q16681843",
+    "category": "culture",
+    "kind": "vgame",
+    "imageFile": "Uncharted 4 (20138734128).jpg"
+   }
+  ],
+  "07-07": [
+   {
+    "year": 2010,
+    "article": "Dance Dance Revolution X2",
+    "title": "Dance Dance Revolution X2",
+    "category": "culture",
+    "kind": "vgame",
+    "imageFile": "DDR X2.png"
+   },
+   {
+    "year": 2011,
+    "article": "Wii Play: Motion",
+    "title": "Wii Play: Motion",
+    "category": "culture",
+    "kind": "vgame",
+    "imageFile": "Wii Play Motion Logo.jpg"
+   }
+  ],
+  "02-05": [
+   {
+    "year": 1993,
+    "article": "Space Quest V",
+    "title": "Space Quest V",
+    "category": "culture",
+    "kind": "vgame",
+    "imageFile": "SierraOnLine-Box-SpaceQuest 5.jpg"
+   }
+  ],
+  "03-14": [
+   {
+    "year": 1983,
+    "article": "Mario Bros. (Game & Watch)",
+    "title": "Game & Watch: Mario Bros.",
+    "category": "culture",
+    "kind": "vgame",
+    "imageFile": "Mario Bros. Game and Watch French variant (blurred screens).jpg"
+   },
+   {
+    "year": 2006,
+    "article": "Red Orchestra: Ostfront 41–45",
+    "title": "Red Orchestra: Ostfront 41–45",
+    "category": "culture",
+    "kind": "vgame",
+    "imageFile": "Red Orchestra Jan31st shot1.jpg"
+   },
+   {
+    "year": 2012,
+    "article": "Defenders of Ardania",
+    "title": "Defenders of Ardania MD-02",
+    "category": "culture",
+    "kind": "vgame",
+    "imageFile": "Defenders of Ardania 4.jpeg"
+   },
+   {
+    "year": 2013,
+    "article": "Ridiculous Fishing",
+    "title": "Ridiculous Fishing",
+    "category": "culture",
+    "kind": "vgame",
+    "imageFile": "Ridiculous Fishing diving.png"
+   }
+  ],
+  "05-27": [
+   {
+    "year": 2007,
+    "article": "Teeworlds",
+    "title": "Teeworlds",
+    "category": "culture",
+    "kind": "vgame",
+    "imageFile": "Teeworlds Screenshot Jungle 0.6.1.png"
+   },
+   {
+    "year": 2012,
+    "article": "Oolite (video game)",
+    "title": "Oolite",
+    "category": "culture",
+    "kind": "vgame",
+    "imageFile": "OOlite Mac OS X screenshot.jpg"
+   }
+  ],
+  "08-19": [
+   {
+    "year": 2005,
+    "article": "OpenArena",
+    "title": "OpenArena",
+    "category": "culture",
+    "kind": "vgame",
+    "imageFile": "OpenArena-Gargoyle.jpg"
+   },
+   {
+    "year": 2011,
+    "article": "Blocks That Matter",
+    "title": "Blocks That Matter",
+    "category": "culture",
+    "kind": "vgame",
+    "imageFile": "Niveau de Blocks That Matter.jpg"
+   }
+  ],
+  "01-09": [
+   {
+    "year": 2002,
+    "article": "Syberia (video game)",
+    "title": "Syberia",
+    "category": "culture",
+    "kind": "vgame",
+    "imageFile": "Syberia 02 - Oscar.jpg"
+   }
+  ],
+  "12-31": [
+   {
+    "year": 1982,
+    "article": "Q*bert",
+    "title": "Q*bert",
+    "category": "culture",
+    "kind": "vgame",
+    "imageFile": "Commodore 64 at Video Game Museum in Berlin (45946155851).jpg"
+   },
+   {
+    "year": 1982,
+    "article": "Star Trek: Strategic Operations Simulator",
+    "title": "Star Trek",
+    "category": "culture",
+    "kind": "vgame",
+    "imageFile": "AZC-StarTrek.jpg"
+   },
+   {
+    "year": 1984,
+    "article": "Sopwith (video game)",
+    "title": "Sopwith",
+    "category": "culture",
+    "kind": "vgame",
+    "imageFile": "Sopwith-screenshot.png"
+   }
+  ],
+  "10-11": [
+   {
+    "year": 2011,
+    "article": "Dead Rising 2: Off the Record",
+    "title": "Dead Rising 2: Off the Record",
+    "category": "culture",
+    "kind": "vgame",
+    "imageFile": "E3 2011 - Dead Rising 2- Off the Record (Capcom) (5822673518).jpg"
+   },
+   {
+    "year": 2011,
+    "article": "Just Dance 3",
+    "title": "Just Dance 3",
+    "category": "culture",
+    "kind": "vgame",
+    "imageFile": "Just Dance Wondercon 2010.jpg"
+   }
+  ],
+  "11-16": [
+   {
+    "year": 2002,
+    "article": "Mortal Kombat: Deadly Alliance",
+    "title": "Mortal Kombat: Deadly Alliance",
+    "category": "culture",
+    "kind": "vgame",
+    "imageFile": "MortalKombatDeadlyAllianceLogo.png"
+   },
+   {
+    "year": 2004,
+    "article": "Vampire: The Masquerade – Bloodlines",
+    "title": "Vampire: The Masquerade – Bloodlines",
+    "category": "culture",
+    "kind": "vgame",
+    "imageFile": "Bloodlines E3 2003.jpg"
+   },
+   {
+    "year": 2006,
+    "article": "Castlevania: Portrait of Ruin",
+    "title": "Castlevania: Portrait of Ruin",
+    "category": "culture",
+    "kind": "vgame",
+    "imageFile": "Castlevania logo.png"
+   },
+   {
+    "year": 2009,
+    "article": "Call of Duty: World at War – Zombies",
+    "title": "Call of Duty: World at War – Zombies",
+    "category": "culture",
+    "kind": "vgame",
+    "imageFile": "CallofDutyLogo.svg"
+   },
+   {
+    "year": 2014,
+    "article": "Vainglory (video game)",
+    "title": "Vainglory",
+    "category": "culture",
+    "kind": "vgame",
+    "imageFile": "Vainglory - Koshka attacking a jungle monster.jpg"
+   }
+  ],
+  "08-21": [
+   {
+    "year": 2001,
+    "article": "StepMania",
+    "title": "StepMania",
+    "category": "culture",
+    "kind": "vgame",
+    "imageFile": "StepMania 5 Rave Mode.jpg"
+   },
+   {
+    "year": 2012,
+    "article": "Transformers: Fall of Cybertron",
+    "title": "Transformers: Fall of Cybertron",
+    "category": "culture",
+    "kind": "vgame",
+    "imageFile": "Transformers-fall-of-cybertron-20168911171 11.jpg"
+   }
+  ],
+  "04-30": [
+   {
+    "year": 1987,
+    "article": "Stationfall",
+    "title": "Stationfall",
+    "category": "culture",
+    "kind": "vgame",
+    "imageFile": "Screenshot Stationfall (Infocom, 1986).jpg"
+   },
+   {
+    "year": 2013,
+    "article": "Zeno Clash 2",
+    "title": "Zeno Clash II",
+    "category": "culture",
+    "kind": "vgame",
+    "imageFile": "Zeno Clash II - Screenshot 01.jpg"
+   },
+   {
+    "year": 2013,
+    "article": "Blade Symphony",
+    "title": "Blade Symphony",
+    "category": "culture",
+    "kind": "vgame",
+    "imageFile": "Blade Symphony - Customisation.jpg"
+   },
+   {
+    "year": 2017,
+    "article": "Mindustry",
+    "title": "Mindustry",
+    "category": "culture",
+    "kind": "vgame",
+    "imageFile": "Snímek obrazovky (15).png"
+   }
+  ],
+  "12-21": [
+   {
+    "year": 1992,
+    "article": "Computerra",
+    "title": "Computerra",
+    "category": "tech",
+    "kind": "website",
+    "imageFile": "Computerra-cover-706.jpg"
+   },
+   {
+    "year": 2011,
+    "article": "Postal III",
+    "title": "Postal III",
+    "category": "culture",
+    "kind": "vgame",
+    "imageFile": "Postal III logo dark.png"
+   }
+  ],
+  "09-20": [
+   {
+    "year": 1986,
+    "article": "Out Run",
+    "title": "Out Run",
+    "category": "culture",
+    "kind": "vgame",
+    "imageFile": "Outrun-sit-down-cabinet.jpg"
+   },
+   {
+    "year": 2010,
+    "article": "WIPO Lex",
+    "title": "WIPO Lex",
+    "category": "tech",
+    "kind": "website",
+    "imageFile": "WIPO Lex HomePage 2022.png"
+   },
+   {
+    "year": 2011,
+    "article": "Supremacy MMA",
+    "title": "Supremacy MMA",
+    "category": "culture",
+    "kind": "vgame",
+    "imageFile": "Felice Herrig fighting at Muay Thai Mayhem XIV.jpg"
+   },
+   {
+    "year": 2012,
+    "article": "The Testament of Sherlock Holmes",
+    "title": "The Testament of Sherlock Holmes",
+    "category": "culture",
+    "kind": "vgame",
+    "imageFile": "Testament of SH - In the street.jpg"
+   },
+   {
+    "year": 2013,
+    "article": "Takedown: Red Sabre",
+    "title": "Takedown: Red Sabre",
+    "category": "culture",
+    "kind": "vgame",
+    "imageFile": "Takedown Red Sabre E3.jpg"
+   },
+   {
+    "year": 2016,
+    "article": "Cossacks 3",
+    "title": "Cossacks 3",
+    "category": "culture",
+    "kind": "vgame",
+    "imageFile": "Cossacks 3 screenshot 5.jpg"
+   }
+  ],
+  "09-06": [
+   {
+    "year": 2011,
+    "article": "Dead Island",
+    "title": "Dead Island",
+    "category": "culture",
+    "kind": "vgame",
+    "imageFile": "Dead Island at the 2011 New York Comic Con (6254213788).jpg"
+   },
+   {
+    "year": 2016,
+    "article": "Revolution 60",
+    "title": "Revolution 60",
+    "category": "culture",
+    "kind": "vgame",
+    "imageFile": "Revolution 60 Loading Screen.png"
+   }
+  ],
+  "11-15": [
+   {
+    "year": 2005,
+    "article": "Tamagotchi Connection: Corner Shop",
+    "title": "Tamagotchi Connection: Corner Shop",
+    "category": "culture",
+    "kind": "vgame",
+    "imageFile": "Tamagotchi 0124 ubt.jpeg"
+   },
+   {
+    "year": 2006,
+    "article": "Defender (video game)",
+    "title": "Defender",
+    "category": "culture",
+    "kind": "vgame",
+    "imageFile": "Williams Defender Arcade Video Game.jpg"
+   },
+   {
+    "year": 2011,
+    "article": "Saints Row: The Third",
+    "title": "Saints Row: The Third",
+    "category": "culture",
+    "kind": "vgame",
+    "imageFile": "E3 2011 - free parking and car washes courtesy of Saints Row The Third (5822102021).jpg"
+   },
+   {
+    "year": 2022,
+    "article": "Pentiment (video game)",
+    "title": "Pentiment",
+    "category": "culture",
+    "kind": "vgame",
+    "imageFile": "Pentiment gameplay.jpg"
+   }
+  ],
+  "12-24": [
+   {
+    "year": 2004,
+    "article": "PlaneShift (video game)",
+    "title": "PlaneShift",
+    "category": "culture",
+    "kind": "vgame",
+    "imageFile": "POTD for PlaneShift Unreal Release 0-7-45.jpg"
+   }
+  ],
+  "06-30": [
+   {
+    "year": 1998,
+    "article": "Police Quest: SWAT 2",
+    "title": "Police Quest: SWAT 2",
+    "category": "culture",
+    "kind": "vgame",
+    "imageFile": "SierraOnLine-Box-SWAT2.jpg"
+   },
+   {
+    "year": 2000,
+    "article": "Mortal Kombat: Special Forces",
+    "title": "Mortal Kombat: Special Forces",
+    "category": "culture",
+    "kind": "vgame",
+    "imageFile": "SpecialForcesLegacyTrailer.png"
+   },
+   {
+    "year": 2014,
+    "article": "Coming Out Simulator 2014",
+    "title": "Coming Out Simulator 2014",
+    "category": "culture",
+    "kind": "vgame",
+    "imageFile": "Coming Out Simulator 2014 Game Screenshot.gif"
+   }
+  ],
+  "10-24": [
+   {
+    "year": 2003,
+    "article": "FIFA Football 2004",
+    "title": "FIFA Football 2004",
+    "category": "culture",
+    "kind": "vgame",
+    "imageFile": "Evento presentazione FIFA 2004.jpg"
+   },
+   {
+    "year": 2012,
+    "article": "Letterpress (video game)",
+    "title": "Letterpress",
+    "category": "culture",
+    "kind": "vgame",
+    "imageFile": "Letterpress screenshot.png"
+   },
+   {
+    "year": 2013,
+    "article": "Dream Chamber",
+    "title": "Dream Chamber",
+    "category": "culture",
+    "kind": "vgame",
+    "imageFile": "DreamChamber intro.jpg"
+   }
+  ],
+  "11-22": [
+   {
+    "year": 1995,
+    "article": "Namco Museum Vol. 1",
+    "title": "Namco Museum Vol. 1",
+    "category": "culture",
+    "kind": "vgame",
+    "imageFile": "Namco Museum Vol 1 - JP-PS1 Cover.jpg"
+   },
+   {
+    "year": 1999,
+    "article": "Unreal Tournament",
+    "title": "Unreal Tournament",
+    "category": "culture",
+    "kind": "vgame",
+    "imageFile": "Unreal Tournament PS2.jpg"
+   }
+  ],
+  "10-03": [
+   {
+    "year": 1993,
+    "article": "Secret of Mana",
+    "title": "Secret of Mana",
+    "category": "culture",
+    "kind": "vgame",
+    "imageFile": "Seiken Densetsu 2 cart.jpg"
+   }
+  ],
+  "04-11": [
+   {
+    "year": 2012,
+    "article": "Legend of Grimrock",
+    "title": "Legend of Grimrock",
+    "category": "culture",
+    "kind": "vgame",
+    "imageFile": "Legend of Grimrock DVD cover.jpg"
+   },
+   {
+    "year": 2012,
+    "article": "The Splatters",
+    "title": "The Splatters",
+    "category": "culture",
+    "kind": "vgame",
+    "imageFile": "The Splatters 01.jpg"
+   }
+  ],
+  "10-16": [
+   {
+    "year": 2000,
+    "article": "Falcon's Eye",
+    "title": "Falcon's Eye",
+    "category": "culture",
+    "kind": "vgame",
+    "imageFile": "Screenshot-Falcons-Eye.png"
+   },
+   {
+    "year": 2000,
+    "article": "Cruis'n Exotica",
+    "title": "Cruis'n Exotica",
+    "category": "culture",
+    "kind": "vgame",
+    "imageFile": "Musée Mécanique 224.JPG"
+   },
+   {
+    "year": 2018,
+    "article": "Starlink: Battle for Atlas",
+    "title": "Starlink: Battle for Atlas",
+    "category": "culture",
+    "kind": "vgame",
+    "imageFile": "FANDOM-Gamescom-2018-Tuesday-057 (29243466197).jpg"
+   }
+  ],
+  "08-27": [
+   {
+    "year": 2004,
+    "article": "Sherlock Holmes: The Case of the Silver Earring",
+    "title": "Sherlock Holmes: The Case of the Silver Earring",
+    "category": "culture",
+    "kind": "vgame",
+    "imageFile": "SH2 - Holmes et Watson interloqués.png"
+   }
+  ],
+  "04-12": [
+   {
+    "year": 2011,
+    "article": "World of Tanks",
+    "title": "World of Tanks",
+    "category": "culture",
+    "kind": "vgame",
+    "imageFile": "E3 2011 - World of Tanks booth (Wargaming.net) (5822683674).jpg"
+   },
+   {
+    "year": 2012,
+    "article": "Candy Crush Saga",
+    "title": "Candy Crush Saga",
+    "category": "culture",
+    "kind": "vgame",
+    "imageFile": "Woman playing Candy Crush Saga on iPad.jpg"
+   }
+  ],
+  "06-14": [
+   {
+    "year": 2012,
+    "article": "Temple Run",
+    "title": "Q590836",
+    "category": "culture",
+    "kind": "vgame",
+    "imageFile": "Temple Run Arcade game in progress.jpg"
+   }
+  ],
+  "09-08": [
+   {
+    "year": 2011,
+    "article": "Xonotic",
+    "title": "Q596536",
+    "category": "culture",
+    "kind": "vgame",
+    "imageFile": "Xonotic 0.8.2 rocket.jpg"
+   },
+   {
+    "year": 2012,
+    "article": "Vox (video game)",
+    "title": "Vox",
+    "category": "culture",
+    "kind": "vgame",
+    "imageFile": "Vox Game Logo.jpg"
+   }
+  ],
+  "12-23": [
+   {
+    "year": 2005,
+    "article": "Phoenix Wright: Ace Attorney",
+    "title": "Phoenix Wright: Ace Attorney",
+    "category": "culture",
+    "kind": "vgame",
+    "imageFile": "Phoenix Wright in Phoenix Wright Ace Attorney.png"
+   }
+  ],
+  "05-31": [
+   {
+    "year": 2005,
+    "article": "Nexuiz",
+    "title": "Q1328237",
+    "category": "culture",
+    "kind": "vgame",
+    "imageFile": "Nexuiz screenshot 08.jpg"
+   },
+   {
+    "year": 2018,
+    "article": "Cultist Simulator",
+    "title": "Cultist Simulator",
+    "category": "culture",
+    "kind": "vgame",
+    "imageFile": "Cultist Simulator screenshot.jpg"
+   }
+  ],
+  "11-07": [
+   {
+    "year": 2006,
+    "article": "RoboBlitz",
+    "title": "RoboBlitz",
+    "category": "culture",
+    "kind": "vgame",
+    "imageFile": "RoboBlitz - Screenshot 01.jpg"
+   },
+   {
+    "year": 2006,
+    "article": "Kidō Senshi Gundam: Senjō no Kizuna",
+    "title": "Kidō Senshi Gundam: Senjō no Kizuna",
+    "category": "culture",
+    "kind": "vgame",
+    "imageFile": "Gundam Kizuna PODs.jpg"
+   }
+  ],
+  "10-13": [
+   {
+    "year": 2008,
+    "article": "World of Goo",
+    "title": "World of Goo",
+    "category": "culture",
+    "kind": "vgame",
+    "imageFile": "World of Goo Editor.png"
+   }
+  ],
+  "02-09": [
+   {
+    "year": 2006,
+    "article": "QuickSpot",
+    "title": "QuickSpot",
+    "category": "culture",
+    "kind": "vgame",
+    "imageFile": "QuickSpot key art.jpg"
+   },
+   {
+    "year": 2010,
+    "article": "Edge (video game)",
+    "title": "Edge",
+    "category": "culture",
+    "kind": "vgame",
+    "imageFile": "Edge (video game) iPhone screenshot 01.jpg"
+   },
+   {
+    "year": 2022,
+    "article": "EarthBound",
+    "title": "Q2529000",
+    "category": "culture",
+    "kind": "vgame",
+    "imageFile": "Mother 2 Boxart.png"
+   },
+   {
+    "year": 2022,
+    "article": "EarthBound Beginnings",
+    "title": "Q2323709",
+    "category": "culture",
+    "kind": "vgame",
+    "imageFile": "MOTHER 1989 Boxart (Nintendo).png"
+   }
+  ],
+  "12-17": [
+   {
+    "year": 1993,
+    "article": "Gabriel Knight: Sins of the Fathers",
+    "title": "Gabriel Knight: Sins of the Fathers",
+    "category": "culture",
+    "kind": "vgame",
+    "imageFile": "Sierra-Gabriel-Knight-Sins-of-the-Fathers.jpg"
+   }
+  ],
+  "01-06": [
+   {
+    "year": 2010,
+    "article": "MegaGlest",
+    "title": "MegaGlest",
+    "category": "culture",
+    "kind": "vgame",
+    "imageFile": "Screenshot of MegaGlest Gameplay.jpg"
+   }
+  ],
+  "03-08": [
+   {
+    "year": 2012,
+    "article": "Driver: San Francisco",
+    "title": "Driver: San Francisco",
+    "category": "culture",
+    "kind": "vgame",
+    "imageFile": "E3 2011 - Driver San Francisco Dodge Challenger (Ubisoft) (5831103758).jpg"
+   },
+   {
+    "year": 2018,
+    "article": "Svenskt kvinnobiografiskt lexikon",
+    "title": "Svenskt kvinnobiografiskt lexikon",
+    "category": "tech",
+    "kind": "website",
+    "imageFile": "Svenskt kvinnobiografiskt lexikon, presentation (PICT1117).jpg"
+   }
+  ],
+  "09-26": [
+   {
+    "year": 2005,
+    "article": "Sly 3: Honor Among Thieves",
+    "title": "Sly 3: Honor Among Thieves",
+    "category": "culture",
+    "kind": "vgame",
+    "imageFile": "Sly3HonorAmongThievesLogo.webp"
+   }
+  ],
+  "04-14": [
+   {
+    "year": 2003,
+    "article": "Postal 2",
+    "title": "Postal 2",
+    "category": "culture",
+    "kind": "vgame",
+    "imageFile": "Postal 2 E3 2003.jpg"
+   },
+   {
+    "year": 2014,
+    "article": "War Robots",
+    "title": "War Robots",
+    "category": "culture",
+    "kind": "vgame",
+    "imageFile": "War Robots cover art.jpg"
+   }
+  ],
+  "09-24": [
+   {
+    "year": 2010,
+    "article": "Dead Rising 2",
+    "title": "Dead Rising 2",
+    "category": "culture",
+    "kind": "vgame",
+    "imageFile": "Dead rising (4737184751).jpg"
+   }
+  ],
+  "02-29": [
+   {
+    "year": 1996,
+    "article": "Abuse (video game)",
+    "title": "Q2300281",
+    "category": "culture",
+    "kind": "vgame",
+    "imageFile": "Abuse - launch grenade on flyer.png"
+   }
+  ],
+  "06-21": [
+   {
+    "year": 1992,
+    "article": "Super Scope 6",
+    "title": "Super Scope 6",
+    "category": "culture",
+    "kind": "vgame",
+    "imageFile": "Photo nintendo scope 6.jpg"
+   },
+   {
+    "year": 2011,
+    "article": "F.E.A.R. 3",
+    "title": "F.E.A.R. 3",
+    "category": "culture",
+    "kind": "vgame",
+    "imageFile": "View from DNF line 2 (4956471292).jpg"
+   }
+  ],
+  "07-13": [
+   {
+    "year": 2003,
+    "article": "Live for Speed",
+    "title": "Live for Speed",
+    "category": "culture",
+    "kind": "vgame",
+    "imageFile": "Rallycross blackwood lfs.jpg"
+   },
+   {
+    "year": 2010,
+    "article": "Frogatto & Friends",
+    "title": "Frogatto & Friends",
+    "category": "culture",
+    "kind": "vgame",
+    "imageFile": "Frogatto.png"
+   }
+  ],
+  "08-03": [
+   {
+    "year": 2004,
+    "article": "Monoskop",
+    "title": "Monoskop",
+    "category": "tech",
+    "kind": "website",
+    "imageFile": "Monoskop.org front page.png"
+   },
+   {
+    "year": 2006,
+    "article": "Frets on Fire",
+    "title": "Frets on Fire",
+    "category": "culture",
+    "kind": "vgame",
+    "imageFile": "Fretsonfire4.png"
+   }
+  ],
+  "01-23": [
+   {
+    "year": 2003,
+    "article": "Secret Maryo Chronicles",
+    "title": "Secret Maryo Chronicles",
+    "category": "culture",
+    "kind": "vgame",
+    "imageFile": "SMC15PromoShot.png"
+   },
+   {
+    "year": 2013,
+    "article": "Strike Suit Zero",
+    "title": "Strike Suit Zero",
+    "category": "culture",
+    "kind": "vgame",
+    "imageFile": "Strike Suit Zero - Screenshot 05.jpg"
+   }
+  ],
+  "10-07": [
+   {
+    "year": 2002,
+    "article": "Blinx: The Time Sweeper",
+    "title": "Blinx: The Time Sweeper",
+    "category": "culture",
+    "kind": "vgame",
+    "imageFile": "Blinx the Time Sweeper.png"
+   },
+   {
+    "year": 2010,
+    "article": "Sharecare",
+    "title": "Sharecare",
+    "category": "tech",
+    "kind": "website",
+    "imageFile": "Sharecare.jpeg"
+   }
+  ],
+  "12-03": [
+   {
+    "year": 1996,
+    "article": "Cruis'n USA",
+    "title": "Cruis'n USA",
+    "category": "culture",
+    "kind": "vgame",
+    "imageFile": "Musée Mécanique 177.JPG"
+   }
+  ],
+  "01-31": [
+   {
+    "year": 2014,
+    "article": "Sonic & All-Stars Racing Transformed",
+    "title": "Sonic & All-Stars Racing Transformed",
+    "category": "culture",
+    "kind": "vgame",
+    "imageFile": "E3 Expo 2012 - Sega Sonic All-Stars Racing Transformed (7640968408).jpg"
+   },
+   {
+    "year": 2023,
+    "article": "SpongeBob SquarePants: The Cosmic Shake",
+    "title": "SpongeBob SquarePants: The Cosmic Shake",
+    "category": "culture",
+    "kind": "vgame",
+    "imageFile": "Spongebob Cosmic Shake gameplay.jpg"
+   },
+   {
+    "year": 2023,
+    "article": "Season: A Letter to the Future",
+    "title": "Season: A Letter to the Future",
+    "category": "culture",
+    "kind": "vgame",
+    "imageFile": "KeyArt 01-scaled.jpg"
+   }
+  ],
+  "11-12": [
+   {
+    "year": 2009,
+    "article": "Lunar: Silver Star Harmony",
+    "title": "Lunar: Silver Star Harmony",
+    "category": "culture",
+    "kind": "vgame",
+    "imageFile": "GungHo Works booth, Tokyo Game Show 20090927.jpg"
+   },
+   {
+    "year": 2013,
+    "article": "World of Warplanes",
+    "title": "World of Warplanes",
+    "category": "culture",
+    "kind": "vgame",
+    "imageFile": "World of Warplanes @ E3 2012 (7164876589).jpg"
+   }
+  ],
+  "09-12": [
+   {
+    "year": 2002,
+    "article": "Steel Battalion",
+    "title": "Steel Battalion",
+    "category": "culture",
+    "kind": "vgame",
+    "imageFile": "Steel Battalion controllers.jpg"
+   },
+   {
+    "year": 2006,
+    "article": "NHL 2K7",
+    "title": "NHL 2K7",
+    "category": "culture",
+    "kind": "vgame",
+    "imageFile": "Company guys playing nhl 2k7 out the back of a stupid car (384211114).jpg"
+   },
+   {
+    "year": 2017,
+    "article": "Tooth and Tail",
+    "title": "Tooth and Tail",
+    "category": "culture",
+    "kind": "vgame",
+    "imageFile": "Tooth and Tail - Desert screenshot.png"
+   },
+   {
+    "year": 2022,
+    "article": "Roadwarden",
+    "title": "Roadwarden",
+    "category": "culture",
+    "kind": "vgame",
+    "imageFile": "Roadwarden in-game screenshot.png"
+   }
+  ],
+  "08-17": [
+   {
+    "year": 2011,
+    "article": "Toy Soldiers: Cold War",
+    "title": "Toy Soldiers: Cold War",
+    "category": "culture",
+    "kind": "vgame",
+    "imageFile": "Toy-Soldiers-Cold-War Brand ID crop.jpg"
+   }
+  ],
+  "09-28": [
+   {
+    "year": 1990,
+    "article": "Tetris (Game Boy video game)",
+    "title": "Tetris",
+    "category": "culture",
+    "kind": "vgame",
+    "imageFile": "Game Boy with Tetris cartridge.jpg"
+   },
+   {
+    "year": 2023,
+    "article": "Disney Speedstorm",
+    "title": "Disney Speedstorm",
+    "category": "culture",
+    "kind": "vgame",
+    "imageFile": "Disney Speedstorm logo.png"
+   }
+  ],
+  "08-31": [
+   {
+    "year": 2011,
+    "article": "Rock of Ages (video game)",
+    "title": "Rock of Ages",
+    "category": "culture",
+    "kind": "vgame",
+    "imageFile": "Rock of Ages - Greek.jpg"
+   }
+  ],
+  "12-16": [
+   {
+    "year": 1996,
+    "article": "Furcadia",
+    "title": "Furcadia",
+    "category": "culture",
+    "kind": "vgame",
+    "imageFile": "FurcShot2007.png"
+   },
+   {
+    "year": 1999,
+    "article": "Dance Dance Revolution Solo 2000",
+    "title": "Dance Dance Revolution Solo 2000",
+    "category": "culture",
+    "kind": "vgame",
+    "imageFile": "Dance Dance Revolution Solo 2000 arcade machine.jpg"
+   },
+   {
+    "year": 2014,
+    "article": "Super Mega Baseball",
+    "title": "Super Mega Baseball",
+    "category": "culture",
+    "kind": "vgame",
+    "imageFile": "Super Mega Baseball Game Cover.png"
+   }
+  ],
+  "08-13": [
+   {
+    "year": 2013,
+    "article": "Angry Birds (video game)",
+    "title": "Q4558721",
+    "category": "culture",
+    "kind": "vgame",
+    "imageFile": "Angry Birds gameplay.png"
+   }
+  ],
+  "03-15": [
+   {
+    "year": 2005,
+    "article": "Dailymotion",
+    "title": "Dailymotion",
+    "category": "tech",
+    "kind": "website",
+    "imageFile": "Dailymotion HQ, Paris.JPG"
+   },
+   {
+    "year": 2011,
+    "article": "Red Eclipse",
+    "title": "Red Eclipse",
+    "category": "culture",
+    "kind": "vgame",
+    "imageFile": "Red Eclipse screenshot (Elara 1.4.1).png"
+   }
+  ],
+  "06-17": [
+   {
+    "year": 2014,
+    "article": "Bot Colony",
+    "title": "Bot Colony",
+    "category": "culture",
+    "kind": "vgame",
+    "imageFile": "Bot Colony Gameplay 1 CC.jpg"
+   }
+  ],
+  "08-02": [
+   {
+    "year": 2013,
+    "article": "Killer Queen (video game)",
+    "title": "Killer Queen",
+    "category": "culture",
+    "kind": "vgame",
+    "imageFile": "Killer Queen SF.jpg"
+   },
+   {
+    "year": 2016,
+    "article": "This Is the Police",
+    "title": "This Is the Police",
+    "category": "culture",
+    "kind": "vgame",
+    "imageFile": "This Is the Police logo verical.png"
+   },
+   {
+    "year": 2017,
+    "article": "Tacoma (video game)",
+    "title": "Tacoma",
+    "category": "culture",
+    "kind": "vgame",
+    "imageFile": "Tacoma CrewMeeting.png"
+   }
+  ],
+  "03-24": [
+   {
+    "year": 1989,
+    "article": "Space Quest III",
+    "title": "Space Quest III",
+    "category": "culture",
+    "kind": "vgame",
+    "imageFile": "SierraOnLine-Box-SpaceQuest3.jpg"
+   }
+  ],
+  "01-22": [
+   {
+    "year": 2011,
+    "article": "Atom Zombie Smasher",
+    "title": "Atom Zombie Smasher",
+    "category": "culture",
+    "kind": "vgame",
+    "imageFile": "Atom Zombie Smasher cover (2011).jpg"
+   }
+  ],
+  "12-26": [
+   {
+    "year": 2008,
+    "article": "Pump It Up NX Absolute",
+    "title": "Pump It Up NX Absolute",
+    "category": "culture",
+    "kind": "vgame",
+    "imageFile": "NXA GX2010.JPG"
+   }
+  ],
+  "03-13": [
+   {
+    "year": 1986,
+    "article": "Gyrodine",
+    "title": "Gyrodine",
+    "category": "culture",
+    "kind": "vgame",
+    "imageFile": "Gyrodine update.jpg"
+   }
+  ],
+  "07-21": [
+   {
+    "year": 1996,
+    "article": "Mole Mania",
+    "title": "Mole Mania",
+    "category": "culture",
+    "kind": "vgame",
+    "imageFile": "Mole mania nintendo game boy logo.png"
+   },
+   {
+    "year": 2014,
+    "article": "Freedom Planet",
+    "title": "Freedom Planet",
+    "category": "culture",
+    "kind": "vgame",
+    "imageFile": "Freedom Planet Cutscene.png"
+   }
+  ],
+  "05-03": [
+   {
+    "year": 2011,
+    "article": "Oscilloscoop",
+    "title": "Oscilloscoop",
+    "category": "culture",
+    "kind": "vgame",
+    "imageFile": "OscilloScoop-iPad-1.png"
+   },
+   {
+    "year": 2016,
+    "article": "Fragments of Him",
+    "title": "Fragments of Him",
+    "category": "culture",
+    "kind": "vgame",
+    "imageFile": "Fragments of Him - Work In Progress screenshot 2.png"
+   }
+  ],
+  "04-28": [
+   {
+    "year": 1980,
+    "article": "Ball (video game)",
+    "title": "Game & Watch: Ball",
+    "category": "culture",
+    "kind": "vgame",
+    "imageFile": "Game and watch Ball.JPG"
+   },
+   {
+    "year": 2006,
+    "article": "Google Translate",
+    "title": "Google Translate",
+    "category": "tech",
+    "kind": "website",
+    "imageFile": "Screenshot of Google Translate.png"
+   },
+   {
+    "year": 2015,
+    "article": "Agar.io",
+    "title": "Agar.io",
+    "category": "culture",
+    "kind": "vgame",
+    "imageFile": "Agar.io gameplay.png"
+   },
+   {
+    "year": 2020,
+    "article": "Gears Tactics",
+    "title": "Gears Tactics",
+    "category": "culture",
+    "kind": "vgame",
+    "imageFile": "GearsTactics Cinematic 1920x1080.png"
+   }
+  ],
+  "03-09": [
+   {
+    "year": 2000,
+    "article": "Nupedia",
+    "title": "Nupedia",
+    "category": "tech",
+    "kind": "website",
+    "imageFile": "Nupedia 20030808 screenshot.png"
+   },
+   {
+    "year": 2014,
+    "article": "2048 (video game)",
+    "title": "Q15967616",
+    "category": "culture",
+    "kind": "vgame",
+    "imageFile": "2048 Screenshot.png"
+   },
+   {
+    "year": 2014,
+    "article": "Nuclear Throne",
+    "title": "Nuclear Throne",
+    "category": "culture",
+    "kind": "vgame",
+    "imageFile": "Nuclear Throne screenshot 10.png"
+   }
+  ],
+  "05-30": [
+   {
+    "year": 2013,
+    "article": "The Swapper",
+    "title": "The Swapper",
+    "category": "culture",
+    "kind": "vgame",
+    "imageFile": "The Swapper - Screenshot 03.png"
+   },
+   {
+    "year": 2015,
+    "article": "Splatoon (video game)",
+    "title": "Splatoon",
+    "category": "culture",
+    "kind": "vgame",
+    "imageFile": "EB Games Expo 2015 - Splatoon.JPG"
+   },
+   {
+    "year": 2017,
+    "article": "Crossout",
+    "title": "Q20707353",
+    "category": "culture",
+    "kind": "vgame",
+    "imageFile": "Wikia-Gamescom-2016-103 (29015025316).jpg"
+   }
+  ],
+  "02-13": [
+   {
+    "year": 2012,
+    "article": "Angry Birds Friends",
+    "title": "Angry Birds Friends",
+    "category": "culture",
+    "kind": "vgame",
+    "imageFile": "Angry Birds logo 2015.svg"
+   }
+  ],
+  "02-26": [
+   {
+    "year": 1998,
+    "article": "Tenchu: Stealth Assassins",
+    "title": "Tenchu: Stealth Assassins",
+    "category": "culture",
+    "kind": "vgame",
+    "imageFile": "Tenchu Logo.jpg"
+   },
+   {
+    "year": 2015,
+    "article": "Dragon Ball Xenoverse",
+    "title": "Dragon Ball Xenoverse",
+    "category": "culture",
+    "kind": "vgame",
+    "imageFile": "Dragon Ball Xenoverse - personatge del joc.png"
+   }
+  ],
+  "12-09": [
+   {
+    "year": 2014,
+    "article": "Chaos Reborn",
+    "title": "Chaos Reborn",
+    "category": "culture",
+    "kind": "vgame",
+    "imageFile": "Chaos Reborn - Screenshot - Law Close-up.jpg"
+   }
+  ],
+  "04-09": [
+   {
+    "year": 2013,
+    "article": "Guacamelee!",
+    "title": "Guacamelee!",
+    "category": "culture",
+    "kind": "vgame",
+    "imageFile": "Guacamelee! screenshot Q.jpg"
+   }
+  ],
+  "01-19": [
+   {
+    "year": 2012,
+    "article": "Puzzlejuice",
+    "title": "Puzzlejuice",
+    "category": "culture",
+    "kind": "vgame",
+    "imageFile": "Puzzlejuice screenshot 1.png"
+   },
+   {
+    "year": 2017,
+    "article": "Valkyria Revolution",
+    "title": "Valkyria: Azure Revolution",
+    "category": "culture",
+    "kind": "vgame",
+    "imageFile": "Valkyria Azure Revolution promotional models, Tokyo Game Show 20160916c.jpg"
+   }
+  ],
+  "07-14": [
+   {
+    "year": 2005,
+    "article": "Postcrossing",
+    "title": "postcrossing",
+    "category": "tech",
+    "kind": "website",
+    "imageFile": "Postcrossing meetup at the 2025 Rocky Mountain Stamp Show.jpg"
+   },
+   {
+    "year": 2016,
+    "article": "Push Me Pull You",
+    "title": "Push Me Pull You",
+    "category": "culture",
+    "kind": "vgame",
+    "imageFile": "Push Me Pull You screenshot 07.png"
+   }
+  ],
+  "12-01": [
+   {
+    "year": 2012,
+    "article": "The Cat Lady",
+    "title": "The Cat Lady",
+    "category": "culture",
+    "kind": "vgame",
+    "imageFile": "The Cat Lady video game poster.png"
+   }
+  ],
+  "05-18": [
+   {
+    "year": 1996,
+    "article": "Metal Slug (1996 video game)",
+    "title": "Metal Slug",
+    "category": "culture",
+    "kind": "vgame",
+    "imageFile": "Musée Mécanique 222.JPG"
+   }
+  ],
+  "11-30": [
+   {
+    "year": 2004,
+    "article": "Google Santa Tracker",
+    "title": "Google Santa Tracker",
+    "category": "culture",
+    "kind": "vgame",
+    "imageFile": "Google Santa Tracker Homepage 2022.png"
+   },
+   {
+    "year": 2016,
+    "article": "Junk Jack",
+    "title": "Junk Jack",
+    "category": "culture",
+    "kind": "vgame",
+    "imageFile": "Junk Jack desktop screenshot.png"
+   },
+   {
+    "year": 2022,
+    "article": "ChatGPT",
+    "title": "ChatGPT",
+    "category": "tech",
+    "kind": "website",
+    "imageFile": "ChatGPT 5.2 Thinking Wikipedia historia PDF screenshot.png"
+   }
+  ],
+  "08-20": [
+   {
+    "year": 2013,
+    "article": "Socrates Jones: Pro Philosopher",
+    "title": "Socrates Jones: Pro Philosopher",
+    "category": "culture",
+    "kind": "vgame",
+    "imageFile": "Socrates Jones - one request.png"
+   },
+   {
+    "year": 2015,
+    "article": "Pac-Man 256",
+    "title": "Pac-Man 256",
+    "category": "culture",
+    "kind": "vgame",
+    "imageFile": "PAC-MAN 256 key art.png"
+   },
+   {
+    "year": 2024,
+    "article": "Dustborn",
+    "title": "Dustborn",
+    "category": "culture",
+    "kind": "vgame",
+    "imageFile": "Dustborn characters.png"
+   }
+  ],
+  "07-09": [
+   {
+    "year": 2015,
+    "article": "Ultima Ratio Regum (video game)",
+    "title": "Ultima Ratio Regum",
+    "category": "culture",
+    "kind": "vgame",
+    "imageFile": "Screenshot of the Ultima Ratio Regum version 0.7.0. taken in 2015.png"
+   }
+  ],
+  "08-04": [
+   {
+    "year": 2016,
+    "article": "Dragon Ball Fusions",
+    "title": "Dragon Ball Fusions",
+    "category": "culture",
+    "kind": "vgame",
+    "imageFile": "Dragon Ball Fusions - Personatges.png"
+   },
+   {
+    "year": 2016,
+    "article": "Actualite.cd",
+    "title": "actualite.cd",
+    "category": "tech",
+    "kind": "website",
+    "imageFile": "ActualiteCD Logo.png"
+   }
+  ],
+  "04-25": [
+   {
+    "year": 2018,
+    "article": "Getting Over It with Bennett Foddy",
+    "title": "Getting Over It with Bennett Foddy",
+    "category": "culture",
+    "kind": "vgame",
+    "imageFile": "Getting Over It with Bennett Foddy screenshot.jpg"
+   }
+  ],
+  "08-23": [
+   {
+    "year": 2016,
+    "article": "Duelyst",
+    "title": "Duelyst",
+    "category": "culture",
+    "kind": "vgame",
+    "imageFile": "Duelyst gameplay screenshot.png"
+   }
+  ],
+  "02-23": [
+   {
+    "year": 1984,
+    "article": "TED (conference)",
+    "title": "TED",
+    "category": "tech",
+    "kind": "website",
+    "imageFile": "Michael Pollan at TED.jpg"
+   },
+   {
+    "year": 2017,
+    "article": "Four Last Things (video game)",
+    "title": "Four Last Things",
+    "category": "culture",
+    "kind": "vgame",
+    "imageFile": "Mathias Mulich (1470-1528), Merchant in Lübeck, by Jacob Claesz van Utrecht.jpg"
+   }
+  ],
+  "12-29": [
+   {
+    "year": 2017,
+    "article": "SCP: Secret Laboratory",
+    "title": "SCP: Secret Laboratory",
+    "category": "culture",
+    "kind": "vgame",
+    "imageFile": "SCP Secret Laboratory NTF (Nine-Tailed Fox).png"
+   }
+  ],
+  "11-13": [
+   {
+    "year": 2020,
+    "article": "Game & Watch: Super Mario Bros.",
+    "title": "Game & Watch: Super Mario Bros.",
+    "category": "culture",
+    "kind": "vgame",
+    "imageFile": "Game & Watch Super Mario Bros. — 5 (50631421802).png"
+   }
+  ],
+  "09-13": [
+   {
+    "year": 2022,
+    "article": "Freedom Planet 2",
+    "title": "Freedom Planet 2",
+    "category": "culture",
+    "kind": "vgame",
+    "imageFile": "FP2 Verticle Capsule.png"
+   }
+  ],
+  "07-22": [
+   {
+    "year": 2015,
+    "article": "Endless Sky",
+    "title": "Endless Sky",
+    "category": "culture",
+    "kind": "vgame",
+    "imageFile": "Endless Sky 0.9.12 title screen.png"
+   }
+  ],
+  "11-04": [
+   {
+    "year": 2021,
+    "article": "Demon Turf",
+    "title": "Demon Turf",
+    "category": "culture",
+    "kind": "vgame",
+    "imageFile": "Demon Turf Promotional Art.jpg"
+   }
+  ],
+  "02-25": [
+   {
+    "year": 2021,
+    "article": "Royal Match",
+    "title": "Royal Match",
+    "category": "culture",
+    "kind": "vgame",
+    "imageFile": "Royal Match main.png"
+   }
+  ],
+  "06-07": [
+   {
+    "year": 2010,
+    "article": "Microsoft Office Online",
+    "title": "Office Online",
+    "category": "tech",
+    "kind": "website",
+    "imageFile": "Microsoft Office.jpeg"
+   },
+   {
+    "year": 2024,
+    "article": "Bodycam (video game)",
+    "title": "Q124681484",
+    "category": "culture",
+    "kind": "vgame",
+    "imageFile": "«Bodycam» game cover..jpg"
+   }
+  ],
+  "09-04": [
+   {
+    "year": 2025,
+    "article": "Star Wars Outlaws",
+    "title": "Star Wars Outlaws",
+    "category": "culture",
+    "kind": "vgame",
+    "imageFile": "StarWarsOutlaws-Logo.svg"
+   }
+  ],
+  "06-16": [
+   {
+    "year": 1995,
+    "article": "Astronomy Picture of the Day",
+    "title": "Astronomy Picture of the Day",
+    "category": "tech",
+    "kind": "website",
+    "imageFile": "APOD161231-InfraredTrifid.png"
+   }
+  ],
+  "02-14": [
+   {
+    "year": 2000,
+    "article": "Tripadvisor",
+    "title": "Tripadvisor",
+    "category": "tech",
+    "kind": "website",
+    "imageFile": "TripAdvisor Headquarters in Needham, MA.jpg"
+   },
+   {
+    "year": 2005,
+    "article": "YouTube",
+    "title": "YouTube",
+    "category": "tech",
+    "kind": "website",
+    "imageFile": "YouTube results screenshot.jpg"
+   },
+   {
+    "year": 2014,
+    "article": "Keybase",
+    "title": "Q28409115",
+    "category": "tech",
+    "kind": "website",
+    "imageFile": "Keybase macOS 1.0.16-20160707110020.png"
+   }
+  ],
+  "09-22": [
+   {
+    "year": 2003,
+    "article": "Fedora Project",
+    "title": "Fedora Project",
+    "category": "tech",
+    "kind": "website",
+    "imageFile": "Fedora Linux 35 About 3840px*2160px Zoom2.5.png"
+   }
+  ],
+  "12-14": [
+   {
+    "year": 1995,
+    "article": "Commission to Preserve National Monuments of Bosnia and Herzegovina",
+    "title": "Commission to Preserve National Monuments of Bosnia and Herzegovina",
+    "category": "tech",
+    "kind": "website",
+    "imageFile": "Sarajevo - Ministarstvo zdravstva Federacije Bosne i Hercegovine (49104352721).jpg"
+   }
+  ],
+  "02-02": [
+   {
+    "year": 1992,
+    "article": "The San Diego Union-Tribune",
+    "title": "San Diego Union-Tribune",
+    "category": "tech",
+    "kind": "website",
+    "imageFile": "San Diego Union newspaper building (c. 1870s).jpg"
+   },
+   {
+    "year": 2012,
+    "article": "Wideo.co",
+    "title": "wideo.co",
+    "category": "tech",
+    "kind": "website",
+    "imageFile": "Wideo.co.png"
+   }
+  ],
+  "05-19": [
+   {
+    "year": 2014,
+    "article": "Observador",
+    "title": "Observador",
+    "category": "tech",
+    "kind": "website",
+    "imageFile": "Logo observador pequeno.png"
+   },
+   {
+    "year": 2021,
+    "article": "Libera Chat",
+    "title": "Libera.Chat",
+    "category": "tech",
+    "kind": "website",
+    "imageFile": "Libera Chat KiwiIRC web client chat screenshot.png"
+   }
+  ]
+ }
+}

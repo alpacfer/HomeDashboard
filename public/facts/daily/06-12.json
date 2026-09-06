@@ -3,6 +3,33 @@
   "dateLabel": "12 June",
   "facts": [
     {
+      "id": "06-12-outrunners",
+      "date": "06-12",
+      "dateLabel": "12 June",
+      "category": "culture",
+      "categoryName": "Culture",
+      "year": 1992,
+      "title": "OutRunners",
+      "body": "OutRunners (アウトランナーズ, Autorannāzu) is a 1993 racing video game developed by Sega AM1 and published by Sega for arcades. It is the third game in the arcade OutRun series after Turbo OutRun (1989), and was ported to the Sega Genesis in 1994.",
+      "source": {
+        "name": "Wikipedia · OutRunners",
+        "url": "https://en.wikipedia.org/wiki/OutRunners",
+        "calendarUrl": "https://en.wikipedia.org/wiki/June_12",
+        "license": {
+          "name": "CC BY-SA 4.0",
+          "url": "https://creativecommons.org/licenses/by-sa/4.0/"
+        }
+      },
+      "image": {
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/93/2007TaipeiITMonth_IBM_Sega_OutRunners.jpg/500px-2007TaipeiITMonth_IBM_Sega_OutRunners.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "alt": "OutRunners — the video game this anniversary is about.",
+        "credit": "Rico Shen",
+        "source": "https://commons.wikimedia.org/wiki/File:2007TaipeiITMonth_IBM_Sega_OutRunners.jpg",
+        "license": "CC BY-SA 3.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0/"
+      }
+    },
+    {
       "id": "06-12-baseball-hall-of-fame",
       "date": "06-12",
       "dateLabel": "12 June",
@@ -108,33 +135,6 @@
         "source": "https://commons.wikimedia.org/wiki/File:Kim_Jong-un_and_Vladimir_Putin_(2023-09-13)_12_(cropped_2).jpg",
         "license": "CC BY 4.0",
         "licenseUrl": "https://creativecommons.org/licenses/by/4.0"
-      }
-    },
-    {
-      "id": "06-12-bryan-allen-cyclist",
-      "date": "06-12",
-      "dateLabel": "12 June",
-      "category": "world",
-      "categoryName": "World",
-      "year": 1979,
-      "title": "Bryan Allen",
-      "body": "Bryan Allen wins the second Kremer prize for a man-powered flight across the English Channel in the Gossamer Albatross.",
-      "source": {
-        "name": "Wikipedia · Bryan Allen (hang glider)",
-        "url": "https://en.wikipedia.org/wiki/Bryan_Allen_(hang_glider)",
-        "calendarUrl": "https://en.wikipedia.org/wiki/June_12",
-        "license": {
-          "name": "CC BY-SA 4.0",
-          "url": "https://creativecommons.org/licenses/by-sa/4.0/"
-        }
-      },
-      "image": {
-        "src": "https://upload.wikimedia.org/wikipedia/commons/1/1d/Bryan_Allen_NASA_Mission_Data_Operations_Team.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
-        "alt": "Picture from the Wikipedia article on Bryan Allen.",
-        "credit": "Unknown NASA photographer",
-        "source": "https://commons.wikimedia.org/wiki/File:Bryan_Allen_NASA_Mission_Data_Operations_Team.jpg",
-        "license": "Public domain",
-        "licenseUrl": "https://commons.wikimedia.org/wiki/File:Bryan_Allen_NASA_Mission_Data_Operations_Team.jpg"
       }
     }
   ]

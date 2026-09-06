@@ -3,6 +3,33 @@
   "dateLabel": "4 February",
   "facts": [
     {
+      "id": "02-04-facebook",
+      "date": "02-04",
+      "dateLabel": "4 February",
+      "category": "tech",
+      "categoryName": "Tech",
+      "year": 2004,
+      "title": "Facebook",
+      "body": "Facebook is an American social networking service owned by the American technology conglomerate Meta Platforms. It was founded in 2004 by Mark Zuckerberg, along with his Harvard College roommates and fellow students Eduardo Saverin, Andrew McCollum, Dustin Moskovitz, and Chris Hughes.",
+      "source": {
+        "name": "Wikipedia · Facebook",
+        "url": "https://en.wikipedia.org/wiki/Facebook",
+        "calendarUrl": "https://en.wikipedia.org/wiki/February_4",
+        "license": {
+          "name": "CC BY-SA 4.0",
+          "url": "https://creativecommons.org/licenses/by-sa/4.0/"
+        }
+      },
+      "image": {
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/69/Screen_of_Facebook_%282%29.PNG/500px-Screen_of_Facebook_%282%29.PNG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "alt": "Facebook — the social network this anniversary is about.",
+        "credit": "Facebook",
+        "source": "https://commons.wikimedia.org/wiki/File:Screen_of_Facebook_(2).PNG",
+        "license": "Public domain",
+        "licenseUrl": "https://commons.wikimedia.org/wiki/File:Screen_of_Facebook_(2).PNG"
+      }
+    },
+    {
       "id": "02-04-lunar-orbiter-3",
       "date": "02-04",
       "dateLabel": "4 February",
@@ -108,33 +135,6 @@
         "source": "https://commons.wikimedia.org/wiki/File:Flag_of_Ceylon_(1948%E2%80%931951).svg",
         "license": "Public domain",
         "licenseUrl": "https://commons.wikimedia.org/wiki/File:Flag_of_Ceylon_(1948%E2%80%931951).svg"
-      }
-    },
-    {
-      "id": "02-04-yalta-conference",
-      "date": "02-04",
-      "dateLabel": "4 February",
-      "category": "world",
-      "categoryName": "World",
-      "year": 1945,
-      "title": "Yalta Conference",
-      "body": "The Yalta Conference between the \"Big Three\" (Churchill, Roosevelt, and Stalin) opens at the Livadia Palace in the Crimea.",
-      "source": {
-        "name": "Wikipedia · Yalta Conference",
-        "url": "https://en.wikipedia.org/wiki/Yalta_Conference",
-        "calendarUrl": "https://en.wikipedia.org/wiki/February_4",
-        "license": {
-          "name": "CC BY-SA 4.0",
-          "url": "https://creativecommons.org/licenses/by-sa/4.0/"
-        }
-      },
-      "image": {
-        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/05/Yalta_Conference_%28Churchill%2C_Roosevelt%2C_Stalin%29_%28B%26W%29.jpg/500px-Yalta_Conference_%28Churchill%2C_Roosevelt%2C_Stalin%29_%28B%26W%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-        "alt": "Picture from the Wikipedia article on Yalta Conference.",
-        "credit": "US government photographer",
-        "source": "https://commons.wikimedia.org/wiki/File:Yalta_Conference_(Churchill,_Roosevelt,_Stalin)_(B%26W).jpg",
-        "license": "Public domain",
-        "licenseUrl": "https://commons.wikimedia.org/wiki/File:Yalta_Conference_(Churchill,_Roosevelt,_Stalin)_(B%26W).jpg"
       }
     }
   ]

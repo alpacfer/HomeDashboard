@@ -30,6 +30,33 @@
       }
     },
     {
+      "id": "10-29-peertube",
+      "date": "10-29",
+      "dateLabel": "29 October",
+      "category": "tech",
+      "categoryName": "Tech",
+      "year": 2015,
+      "title": "Q50938515",
+      "body": "PeerTube is a free and open-source, decentralized, ActivityPub federated video platform. It can use peer-to-peer technology to reduce load on individual servers when videos get popular.",
+      "source": {
+        "name": "Wikipedia · PeerTube",
+        "url": "https://en.wikipedia.org/wiki/PeerTube",
+        "calendarUrl": "https://en.wikipedia.org/wiki/October_29",
+        "license": {
+          "name": "CC BY-SA 4.0",
+          "url": "https://creativecommons.org/licenses/by-sa/4.0/"
+        }
+      },
+      "image": {
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/8e/Peertube_ui_on_framatube.png/500px-Peertube_ui_on_framatube.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "alt": "Q50938515 — the mobile app this anniversary is about.",
+        "credit": "Totallynotmwa",
+        "source": "https://commons.wikimedia.org/wiki/File:Peertube_ui_on_framatube.png",
+        "license": "CC BY 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by/4.0"
+      }
+    },
+    {
       "id": "10-29-delta-air-lines",
       "date": "10-29",
       "dateLabel": "29 October",
@@ -108,33 +135,6 @@
         "source": "https://commons.wikimedia.org/wiki/File:Samuel_Kanyon_Doe_-_Liberian.jpg",
         "license": "Public domain",
         "licenseUrl": "https://commons.wikimedia.org/wiki/File:Samuel_Kanyon_Doe_-_Liberian.jpg"
-      }
-    },
-    {
-      "id": "10-29-computer",
-      "date": "10-29",
-      "dateLabel": "29 October",
-      "category": "tech",
-      "categoryName": "Tech",
-      "year": 1969,
-      "title": "Computer",
-      "body": "The first-ever computer-to-computer link is established on ARPANET, the precursor to the Internet.",
-      "source": {
-        "name": "Wikipedia · Computer",
-        "url": "https://en.wikipedia.org/wiki/Computer",
-        "calendarUrl": "https://en.wikipedia.org/wiki/October_29",
-        "license": {
-          "name": "CC BY-SA 4.0",
-          "url": "https://creativecommons.org/licenses/by-sa/4.0/"
-        }
-      },
-      "image": {
-        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/0c/ENIAC-changing_a_tube_%28cropped%29.jpg/500px-ENIAC-changing_a_tube_%28cropped%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-        "alt": "Picture from the Wikipedia article on Computer.",
-        "credit": "M. Weik",
-        "source": "https://commons.wikimedia.org/wiki/File:ENIAC-changing_a_tube_(cropped).jpg",
-        "license": "Public domain",
-        "licenseUrl": "https://commons.wikimedia.org/wiki/File:ENIAC-changing_a_tube_(cropped).jpg"
       }
     }
   ]

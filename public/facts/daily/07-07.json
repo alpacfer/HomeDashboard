@@ -3,6 +3,60 @@
   "dateLabel": "7 July",
   "facts": [
     {
+      "id": "07-07-dance-dance-revolution-x2",
+      "date": "07-07",
+      "dateLabel": "7 July",
+      "category": "culture",
+      "categoryName": "Culture",
+      "year": 2010,
+      "title": "Dance Dance Revolution X2",
+      "body": "Dance Dance Revolution X2 (ダンスダンスレボリューションX2, Dansu Dansu Reboryūshon Ekkusu Tsū) (DDR X2) is a music video game, and a part of the Dance Dance Revolution series. The arcade version of DDR X2 was revealed by Konami on November 20, 2009.",
+      "source": {
+        "name": "Wikipedia · Dance Dance Revolution X2",
+        "url": "https://en.wikipedia.org/wiki/Dance_Dance_Revolution_X2",
+        "calendarUrl": "https://en.wikipedia.org/wiki/July_7",
+        "license": {
+          "name": "CC BY-SA 4.0",
+          "url": "https://creativecommons.org/licenses/by-sa/4.0/"
+        }
+      },
+      "image": {
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e8/DDR_X2.png/500px-DDR_X2.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "alt": "Dance Dance Revolution X2 — the video game this anniversary is about.",
+        "credit": "True Tech Talk Time",
+        "source": "https://commons.wikimedia.org/wiki/File:DDR_X2.png",
+        "license": "CC BY-SA 3.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0"
+      }
+    },
+    {
+      "id": "07-07-wii-play-motion",
+      "date": "07-07",
+      "dateLabel": "7 July",
+      "category": "culture",
+      "categoryName": "Culture",
+      "year": 2011,
+      "title": "Wii Play: Motion",
+      "body": "Motion is a 2011 party video game published by Nintendo for the Wii.",
+      "source": {
+        "name": "Wikipedia · Wii Play: Motion",
+        "url": "https://en.wikipedia.org/wiki/Wii_Play:_Motion",
+        "calendarUrl": "https://en.wikipedia.org/wiki/July_7",
+        "license": {
+          "name": "CC BY-SA 4.0",
+          "url": "https://creativecommons.org/licenses/by-sa/4.0/"
+        }
+      },
+      "image": {
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e2/Wii_Play_Motion_Logo.jpg/500px-Wii_Play_Motion_Logo.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "alt": "Wii Play: Motion — the video game this anniversary is about.",
+        "credit": "Nintendo",
+        "source": "https://commons.wikimedia.org/wiki/File:Wii_Play_Motion_Logo.jpg",
+        "license": "Public domain",
+        "licenseUrl": "https://commons.wikimedia.org/wiki/File:Wii_Play_Motion_Logo.jpg"
+      }
+    },
+    {
       "id": "07-07-boris-becker",
       "date": "07-07",
       "dateLabel": "7 July",
@@ -81,60 +135,6 @@
         "source": "https://commons.wikimedia.org/wiki/File:Fresh_made_bread_05.jpg",
         "license": "CC BY-SA 4.0",
         "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0"
-      }
-    },
-    {
-      "id": "07-07-opportunity-rover",
-      "date": "07-07",
-      "dateLabel": "7 July",
-      "category": "space",
-      "categoryName": "Space",
-      "year": 2003,
-      "title": "Opportunity",
-      "body": "NASA Opportunity rover, MER-B or Mars Exploration Rover–B, was launched into space aboard a Delta II rocket.",
-      "source": {
-        "name": "Wikipedia · Opportunity (rover)",
-        "url": "https://en.wikipedia.org/wiki/Opportunity_(rover)",
-        "calendarUrl": "https://en.wikipedia.org/wiki/July_7",
-        "license": {
-          "name": "CC BY-SA 4.0",
-          "url": "https://creativecommons.org/licenses/by-sa/4.0/"
-        }
-      },
-      "image": {
-        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d8/NASA_Mars_Rover.jpg/500px-NASA_Mars_Rover.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-        "alt": "Picture from the Wikipedia article on Opportunity.",
-        "credit": "NASA",
-        "source": "https://commons.wikimedia.org/wiki/File:NASA_Mars_Rover.jpg",
-        "license": "Public domain",
-        "licenseUrl": "https://commons.wikimedia.org/wiki/File:NASA_Mars_Rover.jpg"
-      }
-    },
-    {
-      "id": "07-07-new-york-court-of-appeals",
-      "date": "07-07",
-      "dateLabel": "7 July",
-      "category": "world",
-      "categoryName": "World",
-      "year": 1992,
-      "title": "New York Court of Appeals",
-      "body": "The New York Court of Appeals rules that women have the same right as men to go topless in public.",
-      "source": {
-        "name": "Wikipedia · New York Court of Appeals",
-        "url": "https://en.wikipedia.org/wiki/New_York_Court_of_Appeals",
-        "calendarUrl": "https://en.wikipedia.org/wiki/July_7",
-        "license": {
-          "name": "CC BY-SA 4.0",
-          "url": "https://creativecommons.org/licenses/by-sa/4.0/"
-        }
-      },
-      "image": {
-        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/72/Seal_of_the_New_York_Court_of_Appeals.svg/500px-Seal_of_the_New_York_Court_of_Appeals.svg.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-        "alt": "Picture from the Wikipedia article on New York Court of Appeals.",
-        "credit": "Unknown author",
-        "source": "https://commons.wikimedia.org/wiki/File:Seal_of_the_New_York_Court_of_Appeals.svg",
-        "license": "Public domain",
-        "licenseUrl": "https://commons.wikimedia.org/wiki/File:Seal_of_the_New_York_Court_of_Appeals.svg"
       }
     }
   ]

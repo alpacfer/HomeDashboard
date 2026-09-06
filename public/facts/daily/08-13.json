@@ -3,6 +3,33 @@
   "dateLabel": "13 August",
   "facts": [
     {
+      "id": "08-13-angry-birds-video-game",
+      "date": "08-13",
+      "dateLabel": "13 August",
+      "category": "culture",
+      "categoryName": "Culture",
+      "year": 2013,
+      "title": "Q4558721",
+      "body": "Angry Birds is a 2009 puzzle video game developed by Rovio Entertainment and published by Chillingo.",
+      "source": {
+        "name": "Wikipedia · Angry Birds (video game)",
+        "url": "https://en.wikipedia.org/wiki/Angry_Birds_(video_game)",
+        "calendarUrl": "https://en.wikipedia.org/wiki/August_13",
+        "license": {
+          "name": "CC BY-SA 4.0",
+          "url": "https://creativecommons.org/licenses/by-sa/4.0/"
+        }
+      },
+      "image": {
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/66/Angry_Birds_gameplay.png/500px-Angry_Birds_gameplay.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "alt": "Q4558721 — the video game this anniversary is about.",
+        "credit": "Sony Pictures",
+        "source": "https://commons.wikimedia.org/wiki/File:Angry_Birds_gameplay.png",
+        "license": "CC BY 3.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by/3.0"
+      }
+    },
+    {
       "id": "08-13-apollo-11",
       "date": "08-13",
       "dateLabel": "13 August",
@@ -120,33 +147,6 @@
         "source": "https://commons.wikimedia.org/wiki/File:GustavWitt.jpg",
         "license": "Public domain",
         "licenseUrl": "https://commons.wikimedia.org/wiki/File:GustavWitt.jpg"
-      }
-    },
-    {
-      "id": "08-13-united-states-marine-corps",
-      "date": "08-13",
-      "dateLabel": "13 August",
-      "category": "world",
-      "categoryName": "World",
-      "year": 1918,
-      "title": "United States Marine Corps",
-      "body": "Women enlist in the United States Marine Corps for the first time. Opha May Johnson is the first woman to enlist.",
-      "source": {
-        "name": "Wikipedia · United States Marine Corps",
-        "url": "https://en.wikipedia.org/wiki/United_States_Marine_Corps",
-        "calendarUrl": "https://en.wikipedia.org/wiki/August_13",
-        "license": {
-          "name": "CC BY-SA 4.0",
-          "url": "https://creativecommons.org/licenses/by-sa/4.0/"
-        }
-      },
-      "image": {
-        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/9f/Emblem_of_the_United_States_Marine_Corps.svg/500px-Emblem_of_the_United_States_Marine_Corps.svg.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-        "alt": "Picture from the Wikipedia article on United States Marine Corps.",
-        "credit": "U.S. Government",
-        "source": "https://commons.wikimedia.org/wiki/File:Emblem_of_the_United_States_Marine_Corps.svg",
-        "license": "Public domain",
-        "licenseUrl": "https://commons.wikimedia.org/wiki/File:Emblem_of_the_United_States_Marine_Corps.svg"
       }
     }
   ]

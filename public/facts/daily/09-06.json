@@ -3,6 +3,60 @@
   "dateLabel": "6 September",
   "facts": [
     {
+      "id": "09-06-dead-island",
+      "date": "09-06",
+      "dateLabel": "6 September",
+      "category": "culture",
+      "categoryName": "Culture",
+      "year": 2011,
+      "title": "Dead Island",
+      "body": "Dead Island is a 2011 action role-playing game developed by Techland and published by Deep Silver.",
+      "source": {
+        "name": "Wikipedia · Dead Island",
+        "url": "https://en.wikipedia.org/wiki/Dead_Island",
+        "calendarUrl": "https://en.wikipedia.org/wiki/September_6",
+        "license": {
+          "name": "CC BY-SA 4.0",
+          "url": "https://creativecommons.org/licenses/by-sa/4.0/"
+        }
+      },
+      "image": {
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/ae/Dead_Island_at_the_2011_New_York_Comic_Con_%286254213788%29.jpg/500px-Dead_Island_at_the_2011_New_York_Comic_Con_%286254213788%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "alt": "Dead Island — the video game this anniversary is about.",
+        "credit": "Raffi Asdourian",
+        "source": "https://commons.wikimedia.org/wiki/File:Dead_Island_at_the_2011_New_York_Comic_Con_(6254213788).jpg",
+        "license": "CC BY 2.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by/2.0"
+      }
+    },
+    {
+      "id": "09-06-revolution-60",
+      "date": "09-06",
+      "dateLabel": "6 September",
+      "category": "culture",
+      "categoryName": "Culture",
+      "year": 2016,
+      "title": "Revolution 60",
+      "body": "Revolution 60 is an adventure video game developed and published by Giant Spacekat for iOS. The story is centered on a team of four women working in an anime-themed special forces unit, attempting to liberate a space station.",
+      "source": {
+        "name": "Wikipedia · Revolution 60",
+        "url": "https://en.wikipedia.org/wiki/Revolution_60",
+        "calendarUrl": "https://en.wikipedia.org/wiki/September_6",
+        "license": {
+          "name": "CC BY-SA 4.0",
+          "url": "https://creativecommons.org/licenses/by-sa/4.0/"
+        }
+      },
+      "image": {
+        "src": "https://upload.wikimedia.org/wikipedia/commons/9/95/Revolution_60_Loading_Screen.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+        "alt": "Revolution 60 — the video game this anniversary is about.",
+        "credit": "Brianna Wu,Giant Spacekat",
+        "source": "https://commons.wikimedia.org/wiki/File:Revolution_60_Loading_Screen.png",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0"
+      }
+    },
+    {
       "id": "09-06-minotaur-v",
       "date": "09-06",
       "dateLabel": "6 September",
@@ -81,60 +135,6 @@
         "source": "https://commons.wikimedia.org/wiki/File:Estonia-latvia-lithuania-in-northern-europe.png",
         "license": "CC BY-SA 4.0",
         "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0"
-      }
-    },
-    {
-      "id": "09-06-victoria-ship",
-      "date": "09-06",
-      "dateLabel": "6 September",
-      "category": "science",
-      "categoryName": "Science",
-      "year": 1522,
-      "title": "Victoria",
-      "body": "The Victoria returns to Sanlúcar de Barrameda in Spain, the only surviving ship of Ferdinand Magellan's expedition and the first known ship to circumnavigate the world.",
-      "source": {
-        "name": "Wikipedia · Victoria (ship)",
-        "url": "https://en.wikipedia.org/wiki/Victoria_(ship)",
-        "calendarUrl": "https://en.wikipedia.org/wiki/September_6",
-        "license": {
-          "name": "CC BY-SA 4.0",
-          "url": "https://creativecommons.org/licenses/by-sa/4.0/"
-        }
-      },
-      "image": {
-        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/43/Nao_Victoria.jpg/500px-Nao_Victoria.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-        "alt": "Picture from the Wikipedia article on Victoria.",
-        "credit": "Gnsin",
-        "source": "https://commons.wikimedia.org/wiki/File:Nao_Victoria.jpg",
-        "license": "CC BY-SA 3.0",
-        "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0/"
-      }
-    },
-    {
-      "id": "09-06-john-dalton",
-      "date": "09-06",
-      "dateLabel": "6 September",
-      "category": "science",
-      "categoryName": "Science",
-      "year": 1803,
-      "title": "John Dalton",
-      "body": "British scientist John Dalton begins using symbols to represent the atoms of different elements.",
-      "source": {
-        "name": "Wikipedia · John Dalton",
-        "url": "https://en.wikipedia.org/wiki/John_Dalton",
-        "calendarUrl": "https://en.wikipedia.org/wiki/September_6",
-        "license": {
-          "name": "CC BY-SA 4.0",
-          "url": "https://creativecommons.org/licenses/by-sa/4.0/"
-        }
-      },
-      "image": {
-        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/00/John_Dalton_by_Thomas_Phillips%2C_1835.jpg/500px-John_Dalton_by_Thomas_Phillips%2C_1835.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-        "alt": "Picture from the Wikipedia article on John Dalton.",
-        "credit": "Thomas Phillips",
-        "source": "https://commons.wikimedia.org/wiki/File:John_Dalton_by_Thomas_Phillips,_1835.jpg",
-        "license": "Public domain",
-        "licenseUrl": "https://commons.wikimedia.org/wiki/File:John_Dalton_by_Thomas_Phillips,_1835.jpg"
       }
     }
   ]

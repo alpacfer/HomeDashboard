@@ -3,17 +3,17 @@
   "dateLabel": "6 May",
   "facts": [
     {
-      "id": "05-06-steve-jobs",
+      "id": "05-06-cube-2-sauerbraten",
       "date": "05-06",
       "dateLabel": "6 May",
-      "category": "tech",
-      "categoryName": "Tech",
-      "year": 1998,
-      "title": "Steve Jobs",
-      "body": "Steve Jobs of Apple Inc. unveils the first iMac.",
+      "category": "culture",
+      "categoryName": "Culture",
+      "year": 2004,
+      "title": "Q532474",
+      "body": "Sauerbraten (German for \"sour roast\", also known as Sauer) is a first-person shooter released for Microsoft Windows, Linux, FreeBSD, OpenBSD, and Mac OS X using OpenGL and SDL.",
       "source": {
-        "name": "Wikipedia · Steve Jobs",
-        "url": "https://en.wikipedia.org/wiki/Steve_Jobs",
+        "name": "Wikipedia · Cube 2: Sauerbraten",
+        "url": "https://en.wikipedia.org/wiki/Cube_2:_Sauerbraten",
         "calendarUrl": "https://en.wikipedia.org/wiki/May_6",
         "license": {
           "name": "CC BY-SA 4.0",
@@ -21,12 +21,39 @@
         }
       },
       "image": {
-        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/51/Steve_Jobs_Headshot_2010_%28cropped_4%29.jpg/500px-Steve_Jobs_Headshot_2010_%28cropped_4%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-        "alt": "Picture from the Wikipedia article on Steve Jobs.",
-        "credit": "Matthew Yohe at en.wikipedia",
-        "source": "https://commons.wikimedia.org/wiki/File:Steve_Jobs_Headshot_2010_(cropped_4).jpg",
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/66/SauerbratenCollage.jpg/500px-SauerbratenCollage.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "alt": "Q532474 — the video game this anniversary is about.",
+        "credit": "Coopers",
+        "source": "https://commons.wikimedia.org/wiki/File:SauerbratenCollage.jpg",
         "license": "CC BY-SA 3.0",
         "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0"
+      }
+    },
+    {
+      "id": "05-06-nhs-covid-19",
+      "date": "05-06",
+      "dateLabel": "6 May",
+      "category": "tech",
+      "categoryName": "Tech",
+      "year": 2020,
+      "title": "NHS COVID-19",
+      "body": "NHS COVID-19 was a voluntary contact tracing app for monitoring the spread of the COVID-19 pandemic in England and Wales, in use from 24 September 2020 until 27 April 2023.",
+      "source": {
+        "name": "Wikipedia · NHS COVID-19",
+        "url": "https://en.wikipedia.org/wiki/NHS_COVID-19",
+        "calendarUrl": "https://en.wikipedia.org/wiki/May_6",
+        "license": {
+          "name": "CC BY-SA 4.0",
+          "url": "https://creativecommons.org/licenses/by-sa/4.0/"
+        }
+      },
+      "image": {
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/1d/NHS_COVID-19_app_screenshot.png/500px-NHS_COVID-19_app_screenshot.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "alt": "NHS COVID-19 — the mobile app this anniversary is about.",
+        "credit": "National Health Service",
+        "source": "https://commons.wikimedia.org/wiki/File:NHS_COVID-19_app_screenshot.png",
+        "license": "MIT",
+        "licenseUrl": "https://opensource.org/licenses/mit-license.php"
       }
     },
     {
@@ -84,44 +111,17 @@
       }
     },
     {
-      "id": "05-06-roger-bannister",
-      "date": "05-06",
-      "dateLabel": "6 May",
-      "category": "sport",
-      "categoryName": "Sport",
-      "year": 1954,
-      "title": "Roger Bannister",
-      "body": "Roger Bannister becomes the first person to run the mile in under four minutes.",
-      "source": {
-        "name": "Wikipedia · Roger Bannister",
-        "url": "https://en.wikipedia.org/wiki/Roger_Bannister",
-        "calendarUrl": "https://en.wikipedia.org/wiki/May_6",
-        "license": {
-          "name": "CC BY-SA 4.0",
-          "url": "https://creativecommons.org/licenses/by-sa/4.0/"
-        }
-      },
-      "image": {
-        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c3/Roger_Bannister_2.jpg/500px-Roger_Bannister_2.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-        "alt": "Picture from the Wikipedia article on Roger Bannister.",
-        "credit": "© Pruneau / Wikimedia Commons",
-        "source": "https://commons.wikimedia.org/wiki/File:Roger_Bannister_2.jpg",
-        "license": "CC BY-SA 3.0",
-        "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0"
-      }
-    },
-    {
-      "id": "05-06-electronic-delay-storage-automatic-calculator",
+      "id": "05-06-steve-jobs",
       "date": "05-06",
       "dateLabel": "6 May",
       "category": "tech",
       "categoryName": "Tech",
-      "year": 1949,
-      "title": "EDSAC",
-      "body": "EDSAC, the first practical electronic digital stored-program computer, runs its first operation.",
+      "year": 1998,
+      "title": "Steve Jobs",
+      "body": "Steve Jobs of Apple Inc. unveils the first iMac.",
       "source": {
-        "name": "Wikipedia · EDSAC",
-        "url": "https://en.wikipedia.org/wiki/EDSAC",
+        "name": "Wikipedia · Steve Jobs",
+        "url": "https://en.wikipedia.org/wiki/Steve_Jobs",
         "calendarUrl": "https://en.wikipedia.org/wiki/May_6",
         "license": {
           "name": "CC BY-SA 4.0",
@@ -129,12 +129,12 @@
         }
       },
       "image": {
-        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/22/EDSAC_%2819%29.jpg/500px-EDSAC_%2819%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-        "alt": "Picture from the Wikipedia article on EDSAC.",
-        "credit": "Wikimedia Commons",
-        "source": "https://commons.wikimedia.org/wiki/File:EDSAC_(19).jpg",
-        "license": "CC BY 2.0",
-        "licenseUrl": "https://creativecommons.org/licenses/by/2.0"
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/51/Steve_Jobs_Headshot_2010_%28cropped_4%29.jpg/500px-Steve_Jobs_Headshot_2010_%28cropped_4%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "alt": "Picture from the Wikipedia article on Steve Jobs.",
+        "credit": "Matthew Yohe at en.wikipedia",
+        "source": "https://commons.wikimedia.org/wiki/File:Steve_Jobs_Headshot_2010_(cropped_4).jpg",
+        "license": "CC BY-SA 3.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0"
       }
     }
   ]

@@ -3,6 +3,33 @@
   "dateLabel": "13 June",
   "facts": [
     {
+      "id": "06-13-ghosts-n-goblins-video-game",
+      "date": "06-13",
+      "dateLabel": "13 June",
+      "category": "culture",
+      "categoryName": "Culture",
+      "year": 1986,
+      "title": "Ghosts 'n Goblins",
+      "body": "Ghosts 'n Goblins, known as Makaimura in Japan, is a 1985 platform game developed and published by Capcom for arcades. It is the first game in the Ghosts 'n Goblins franchise, and has since been ported to numerous home platforms.",
+      "source": {
+        "name": "Wikipedia · Ghosts 'n Goblins (video game)",
+        "url": "https://en.wikipedia.org/wiki/Ghosts_%27n_Goblins_(video_game)",
+        "calendarUrl": "https://en.wikipedia.org/wiki/June_13",
+        "license": {
+          "name": "CC BY-SA 4.0",
+          "url": "https://creativecommons.org/licenses/by-sa/4.0/"
+        }
+      },
+      "image": {
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/99/Ni%C3%B1o_jugando_al_ghosts%27n_goblins.JPG/500px-Ni%C3%B1o_jugando_al_ghosts%27n_goblins.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "alt": "Ghosts 'n Goblins — the video game this anniversary is about.",
+        "credit": "Jotego",
+        "source": "https://commons.wikimedia.org/wiki/File:Ni%C3%B1o_jugando_al_ghosts%27n_goblins.JPG",
+        "license": "CC BY-SA 3.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0"
+      }
+    },
+    {
       "id": "06-13-pioneer-10",
       "date": "06-13",
       "dateLabel": "13 June",
@@ -108,33 +135,6 @@
         "source": "https://commons.wikimedia.org/wiki/File:Giuseppe_Verdi_by_Ferdinand_Mulnier_BW.jpg",
         "license": "Public domain",
         "licenseUrl": "https://commons.wikimedia.org/wiki/File:Giuseppe_Verdi_by_Ferdinand_Mulnier_BW.jpg"
-      }
-    },
-    {
-      "id": "06-13-trooping-the-colour",
-      "date": "06-13",
-      "dateLabel": "13 June",
-      "category": "world",
-      "categoryName": "World",
-      "year": 1981,
-      "title": "Trooping the Colour",
-      "body": "At the Trooping the Colour ceremony in London, a teenager, Marcus Sarjeant, fires six blank shots at Queen Elizabeth II.",
-      "source": {
-        "name": "Wikipedia · Trooping the Colour",
-        "url": "https://en.wikipedia.org/wiki/Trooping_the_Colour",
-        "calendarUrl": "https://en.wikipedia.org/wiki/June_13",
-        "license": {
-          "name": "CC BY-SA 4.0",
-          "url": "https://creativecommons.org/licenses/by-sa/4.0/"
-        }
-      },
-      "image": {
-        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d8/Trooping_the_Colour_MOD_45155754.jpg/500px-Trooping_the_Colour_MOD_45155754.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-        "alt": "Picture from the Wikipedia article on Trooping the Colour.",
-        "credit": "Corporal Paul Shaw/MOD",
-        "source": "https://commons.wikimedia.org/wiki/File:Trooping_the_Colour_MOD_45155754.jpg",
-        "license": "OGL v1.0",
-        "licenseUrl": "https://NationalArchives.gov.uk/doc/open-government-licence/version/1/"
       }
     }
   ]

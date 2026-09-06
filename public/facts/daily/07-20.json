@@ -3,6 +3,60 @@
   "dateLabel": "20 July",
   "facts": [
     {
+      "id": "07-20-chicken-scheme-implementation",
+      "date": "07-20",
+      "dateLabel": "20 July",
+      "category": "tech",
+      "categoryName": "Tech",
+      "year": 2000,
+      "title": "CHICKEN",
+      "body": "Chicken (stylized as CHICKEN) is a programming language, specifically a compiler and interpreter which implement a dialect of the programming language Scheme, and which compiles Scheme source code to standard C. It is R7RS compliant and offers many extensions to the standard.",
+      "source": {
+        "name": "Wikipedia · Chicken (Scheme implementation)",
+        "url": "https://en.wikipedia.org/wiki/Chicken_(Scheme_implementation)",
+        "calendarUrl": "https://en.wikipedia.org/wiki/July_20",
+        "license": {
+          "name": "CC BY-SA 4.0",
+          "url": "https://creativecommons.org/licenses/by-sa/4.0/"
+        }
+      },
+      "image": {
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/cf/Chicken_5.0.0.png/500px-Chicken_5.0.0.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "alt": "CHICKEN — the programming language this anniversary is about.",
+        "credit": "Ixfd64",
+        "source": "https://commons.wikimedia.org/wiki/File:Chicken_5.0.0.png",
+        "license": "Public domain",
+        "licenseUrl": "https://commons.wikimedia.org/wiki/File:Chicken_5.0.0.png"
+      }
+    },
+    {
+      "id": "07-20-gish-video-game",
+      "date": "07-20",
+      "dateLabel": "20 July",
+      "category": "culture",
+      "categoryName": "Culture",
+      "year": 2007,
+      "title": "Gish",
+      "body": "Gish is a 2004 platform game developed and published by Chronic Logic. After eight months in development, it was released in May 2004 to a positive reception.",
+      "source": {
+        "name": "Wikipedia · Gish (video game)",
+        "url": "https://en.wikipedia.org/wiki/Gish_(video_game)",
+        "calendarUrl": "https://en.wikipedia.org/wiki/July_20",
+        "license": {
+          "name": "CC BY-SA 4.0",
+          "url": "https://creativecommons.org/licenses/by-sa/4.0/"
+        }
+      },
+      "image": {
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/00/FreeGish_1-5.png/500px-FreeGish_1-5.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "alt": "Gish — the video game this anniversary is about.",
+        "credit": "FreeGish team",
+        "source": "https://commons.wikimedia.org/wiki/File:FreeGish_1-5.png",
+        "license": "GPL",
+        "licenseUrl": "https://www.gnu.org/licenses/gpl.html"
+      }
+    },
+    {
       "id": "07-20-jeff-bezos",
       "date": "07-20",
       "dateLabel": "20 July",
@@ -81,72 +135,6 @@
         "source": "https://commons.wikimedia.org/wiki/File:Logo_Special_Olympics.svg",
         "license": "Public domain",
         "licenseUrl": "https://commons.wikimedia.org/wiki/File:Logo_Special_Olympics.svg"
-      }
-    },
-    {
-      "id": "07-20-people-s-protection-units",
-      "date": "07-20",
-      "dateLabel": "20 July",
-      "category": "world",
-      "categoryName": "World",
-      "year": 2012,
-      "title": "People's Defense Units",
-      "body": "The People's Protection Units (YPG) capture the cities of Amuda and Efrîn without resistance.",
-      "source": {
-        "name": "Wikipedia · People's Defense Units",
-        "url": "https://en.wikipedia.org/wiki/People%27s_Defense_Units",
-        "calendarUrl": "https://en.wikipedia.org/wiki/July_20",
-        "license": {
-          "name": "CC BY-SA 4.0",
-          "url": "https://creativecommons.org/licenses/by-sa/4.0/"
-        }
-      },
-      "image": {
-        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/32/People%27s_Protection_Units_Flag.svg/500px-People%27s_Protection_Units_Flag.svg.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-        "alt": "Picture from the Wikipedia article on People's Defense Units.",
-        "credit": "MrPenguin20",
-        "source": "https://commons.wikimedia.org/wiki/File:People%27s_Protection_Units_Flag.svg",
-        "license": "Public domain",
-        "licenseUrl": "https://commons.wikimedia.org/wiki/File:People%27s_Protection_Units_Flag.svg"
-      }
-    },
-    {
-      "id": "07-20-apollo-11",
-      "date": "07-20",
-      "dateLabel": "20 July",
-      "category": "space",
-      "categoryName": "Space",
-      "year": 1969,
-      "title": "Apollo 11",
-      "body": "Apollo 11's crew successfully makes the first human landing on the Moon in the Sea of Tranquility. Americans Neil Armstrong and Buzz Aldrin become the first humans to walk on the Moon six and a half hours later.",
-      "source": {
-        "name": "Wikipedia · Apollo 11",
-        "url": "https://en.wikipedia.org/wiki/Apollo_11",
-        "calendarUrl": "https://en.wikipedia.org/wiki/July_20",
-        "license": {
-          "name": "CC BY-SA 4.0",
-          "url": "https://creativecommons.org/licenses/by-sa/4.0/"
-        }
-      },
-      "video": {
-        "src": "https://upload.wikimedia.org/wikipedia/commons/transcoded/a/a6/Apollo_11_Landing_-_first_steps_on_the_moon.ogv/Apollo_11_Landing_-_first_steps_on_the_moon.ogv.240p.vp9.webm",
-        "fallback": "https://upload.wikimedia.org/wikipedia/commons/transcoded/a/a6/Apollo_11_Landing_-_first_steps_on_the_moon.ogv/Apollo_11_Landing_-_first_steps_on_the_moon.ogv.360p.mpeg4.mov",
-        "width": 320,
-        "height": 240,
-        "poster": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a6/Apollo_11_Landing_-_first_steps_on_the_moon.ogv/250px--Apollo_11_Landing_-_first_steps_on_the_moon.ogv.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo",
-        "seconds": 62,
-        "credit": "NASA",
-        "source": "https://commons.wikimedia.org/wiki/File:Apollo_11_Landing_-_first_steps_on_the_moon.ogv",
-        "license": "Public domain",
-        "licenseUrl": "https://commons.wikimedia.org/wiki/File:Apollo_11_Landing_-_first_steps_on_the_moon.ogv"
-      },
-      "image": {
-        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/41/A_Man_on_the_Moon%2C_AS11-40-5903_%28cropped%29.jpg/500px-A_Man_on_the_Moon%2C_AS11-40-5903_%28cropped%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-        "alt": "Picture from the Wikipedia article on Apollo 11.",
-        "credit": "Neil A. Armstrong",
-        "source": "https://commons.wikimedia.org/wiki/File:A_Man_on_the_Moon,_AS11-40-5903_(cropped).jpg",
-        "license": "Public domain",
-        "licenseUrl": "https://commons.wikimedia.org/wiki/File:A_Man_on_the_Moon,_AS11-40-5903_(cropped).jpg"
       }
     }
   ]
