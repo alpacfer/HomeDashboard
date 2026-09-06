@@ -10,11 +10,19 @@
 .ct-workshop[data-weather='rain'],.ct-workshop[data-weather='fog'] { --shed-window-top:#657c80; --shed-window-low:#8ea09b; }
 .ct-workshop .clock-block {
   --ink:#ead8af; --colon:#ba9e65; --date-ink:#d9cba9;
-  --digit-font:'Clock Grotesk','Space Grotesk',Arial,sans-serif; --digit-weight:700;
+  /* The same face and the same axes as the weather card's temperature, so the
+     two big numbers on the display are one voice. app/globals.css derives the
+     padding that stands these glyphs on the bench from this face's metrics. */
+  --digit-font:'Fraunces',Georgia,serif; --digit-weight:600; --digit-var:'opsz' 144,'SOFT' 62,'WONK' 1;
   --date-size:1.06vw; --date-space:.095em;
 }
+/* The enamel bevel is four stacked shadows and nothing else. It used to also
+   carry `-webkit-text-stroke:.35px`, which a uniform sans absorbed; a high
+   contrast serif does not. The stroke follows every contour a glyph has,
+   including the joins this variable instance leaves coincident inside the
+   8, the 4 and the 6, and drew them as thin diagonal creases across the ink.
+   Do not put it back. */
 .ct-workshop .clock { text-shadow:0 1px 0 #ac8d5c,0 2px 0 #81653f,1px 3px 0 #58452e,2px 4px 3px rgba(37,29,20,.65); }
-.ct-workshop .digit-face { -webkit-text-stroke:.35px #8c754e; }
 .ct-workshop .clock-digit::after { content:''; position:absolute; left:12%; right:8%; bottom:15%; height:5%; background:radial-gradient(ellipse at center,rgba(44,31,19,.42),transparent 70%); pointer-events:none; }
 .ct-workshop .separator span { border:1px solid #ebc480; box-shadow:0 1px 2px #2c241b; }
 .ct-workshop .clock-light { background:linear-gradient(110deg,rgba(255,203,124,.035),transparent 60%); }
@@ -171,7 +179,6 @@
 .ct-hillside[data-weather='partly'] .cs-bank { opacity:.35; }
 .ct-hillside[data-weather='cloudy'] .cs-bank { opacity:.55; }
 .ct-hillside[data-weather='fog'] .cs-bank { -webkit-mask-image:none; mask-image:none; background-image:linear-gradient(180deg,transparent,rgba(180,197,202,.25) 50%,transparent); }
-.exterior-flowers { transform-origin:336px 160px; animation:wood-breeze 8s ease-in-out infinite; }
 .exterior-camp { display:none; }
 [data-light='dusk'][data-weather='clear'] .exterior-camp,
 [data-light='dusk'][data-weather='partly'] .exterior-camp,

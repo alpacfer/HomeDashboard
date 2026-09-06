@@ -22,8 +22,8 @@ so travel remains visible between cards. Geometry lives in
 [app/globals.css](../app/globals.css).
 
 The backgrounds are generated raster paintings, with independent lightweight
-SVG props: a lamp, brass gears and pendulum indoors; rooted flowers and a
-small evening campfire outside. The shelf and window stay above or beside the
+SVG props: a lamp, brass gears and pendulum indoors; a small evening
+campfire outside. The shelf and window stay above or beside the
 numbers. Warm beveled numerals and soft contact shadows place the clock on the
 bench. The date is lettered directly over the painted wooden apron; the weather
 headline sits over the ground, with a feathered shade for contrast. Neither has
@@ -46,17 +46,22 @@ is generated and must not be hand-edited. See
 [docs/DEBUGGING.md](DEBUGGING.md#where-the-paint-stops-npm-run-horizon).
 
 **The clearing's sky.** The underside of the framing tree's canopy, the far
-ridge and the treeline, as one clip path on `.exterior-sky`. Everything drawn
-into that layer is cut to it — the disc, the high thin layer and the cloud bank
-alike — so the sun sets behind the treeline rather than over it and a cloud
-passing the far ridge goes behind it. The same file carries the four numbers
-the disc's arc is expressed in.
+ridge and the treeline, to the leaf, as a mask on `.exterior-sky`. Everything
+drawn into that layer is cut to it — the disc, the high thin layer and the
+cloud bank alike — so the sun sets *into* the treeline, one conifer at a time,
+and a cloud passing the far ridge goes behind it. The same file carries the
+four numbers the disc's arc is expressed in.
+
+It is a mask and not a clip path because a painted leaf edge is soft. A clip
+path can only say in or out: it renders the canopy as a staircase and cannot
+hold a gap of sky between two leaves at all. The alpha is that edge as the
+painter left it, so the sun is occluded gradually as it goes behind a treetop
+rather than being cut in half by a polygon.
 
 **The shed window's glass.** All four panes, as a mask on `.shed-window-sky`,
 which is what leaves the painted frame and mullions standing in front of the
-weather instead of under it. A clip path takes one polygon and this is four, so
-the shape travels as an inline SVG in a data URI — no request, the same idiom
-`.cs-bank` already uses. The cloud layer behind the glass wears a second mask
+weather instead of under it. Both masks travel as inline PNGs — about 30 KB
+together, no request, decoded once at load and nothing per frame. The cloud layer behind the glass wears a second mask
 of its own, fading out at `--shed-sky-end`: below that the panes show painted
 trees, and a cloud crossing a tree reads as a smear on the glass rather than as
 weather beyond it.
@@ -79,7 +84,7 @@ Two things fall out of that rather than being written:
   today's, so a midwinter noon reads about 0.19 and skims the ridge while a
   midsummer noon reads 1 and stands at the top of the sky.
 - **Night.** A body below the horizon has a negative `climb`, which puts it
-  under `--arc-low`, which the traced clip path cuts away. There is no
+  under `--arc-low`, which the traced mask cuts away. There is no
   separate rule hiding the sun at night, and twilight comes free: for the half
   hour the sun is a degree or two down, the disc is behind the ridge and its
   bloom is not quite.
@@ -116,7 +121,7 @@ wash to the terrain, without claiming measured snow accumulation. Rain is
 also visible through the shed window. Fire appears on clear or partly cloudy
 evenings and nights, and disappears in wet weather.
 
-The paintings are static. Gear rotation, pendulum swing, flowers, lamplight,
+The paintings are static. Gear rotation, pendulum swing, lamplight,
 cloud drift, rain and snow use CSS transforms and opacity. Tile travel equals
 tile size for seamless weather loops. Reduced motion stops all these layers
 and keeps a static resident at home without starting the behavior scheduler.
@@ -153,10 +158,15 @@ about the time reflows. Only the digits that actually changed roll
 resumed screen or a clock correction snaps instead of rolling, and missed
 minutes are never replayed. The colon pulses while the clock is live.
 
-The workshop and plain clock use Clock Grotesk, an existing subset face in `app/clock-fonts.css`,
-which `npm run fonts:clock` generates from the list in
+The workshop and plain clock use Fraunces at `opsz 144`, the same face and the
+same axes as the weather card's temperature, so the display's two big numbers
+are one voice. It is a subset face in `app/clock-fonts.css`, which
+`npm run fonts:clock` generates from the list in
 `scripts/fetch-clock-fonts.mjs`. `--digit-scale` fits its digits into the
-`.62em` cells; the cells clip, so that number is measured, not chosen. The
+`.62em` cells; the cells clip, so that number is measured, not chosen. Its
+widest digit is a `0`, advancing `.613em` and inking `.578em`, so the scale
+stays 1. Its figures are proportional rather than tabular -- a `1` is narrower
+than the rest and is centred in its own cell, which is why nothing reflows. The
 date is spelt out in full below the time — `Friday 5 September`, uppercased by
 the stylesheet — from `clockDate()`, in `Europe/Copenhagen` like every other
 formatter on the display.
@@ -204,8 +214,8 @@ metrics from a canvas `measureText` call in the face's computed font.
 `inkBox()` turns those into the glyph's actual ink rectangle. Each digit is
 also drawn once, at 96 px, on a small offscreen canvas, and `inkColumns()` reads
 the top of the ink in every column; `topProfile()` classifies that top as a
-**flat** bar wider than the Tenant (3, 5, 7 in Grotesk), a **ledge** narrower
-than it (the stem of a 1 or a 4), or a **round** arch (0, 2, 6, 8, 9), and finds
+**flat** bar wider than the Tenant (3 and 7 in Fraunces), a **ledge** narrower
+than it (the stem of a 4), or a **round** arch (0, 1, 2, 5, 6, 8, 9), and finds
 the apex: the centre of the highest flat run. `tenantTargets()` turns all of
 that into one perch per digit, with `--perch-x/y` on the apex and the direction
 in which an arch falls away. The

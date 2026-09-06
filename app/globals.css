@@ -23,11 +23,12 @@ body { color:var(--foreground); font-family:'Space Grotesk',Arial,Helvetica,sans
    back of the surface, which is where a thing standing on a table in this
    perspective has its feet. The padding is what places it. A cell is 1.12em
    tall and centres its face, and the face's own baseline sits (ascent minus
-   descent) / 2 below that centre, which for this face is .354em; so the
-   baseline lands .914em below the padding, and .681 * 22vh - .914 * 6.1vw is
-   the 5.1vh below. Independent of the lighting, which never moves the bench. */
-.clock-block { position:relative; flex-shrink:0; height:100%; margin:0; padding-top:5.1vh; --clock-size:6.1vw; --date-base:clamp(12px,1.2vw,24px);
-  --digit-font:'Clock Grotesk','Space Grotesk',Arial,Helvetica,sans-serif; --digit-weight:700; --digit-scale:1; --digit-var:normal;
+   descent) / 2 below that centre, which for Fraunces is .361em measured in the
+   page; so the baseline lands .921em below the padding, and
+   .681 * 22vh - .921 * 6.1vw is the 5vh below. Remeasure both when the face
+   changes. Independent of the lighting, which never moves the bench. */
+.clock-block { position:relative; flex-shrink:0; height:100%; margin:0; padding-top:5vh; --clock-size:6.1vw; --date-base:clamp(12px,1.2vw,24px);
+  --digit-font:'Fraunces',Georgia,serif; --digit-weight:600; --digit-scale:1; --digit-var:'opsz' 144,'SOFT' 62,'WONK' 1;
   --date-font:'Space Grotesk',Arial,Helvetica,sans-serif; --date-weight:700; --date-size:var(--date-base); --date-space:.14em; --date-tf:uppercase;
   --ink:var(--foreground); --colon:var(--accent); --date-ink:var(--muted); --glow:none; --colon-r:50%; }
 /* The type is still read through custom properties rather than written into

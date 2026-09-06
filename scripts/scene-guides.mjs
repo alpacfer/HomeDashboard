@@ -100,7 +100,6 @@ const CARDS = {
       ['condition', '.temperature > small'],
       ['headline', '.weather-headline'],
       ['landing pad', '.weather-landing'],
-      ['flowers', '.exterior-flowers'],
       ['campfire', '.exterior-camp'],
       ['sky mask', '.exterior-sky'],
     ],

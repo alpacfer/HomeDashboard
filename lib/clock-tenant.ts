@@ -54,10 +54,14 @@ export function pickIdle(random: number, perched = false, recent: readonly IdleA
 }
 
 // The shape of the top of a glyph, which decides how the Tenant stands on it:
-//   flat   a bar wider than its stance (3, 5, 7): stands square
-//   ledge  a flat top narrower than its stance (the stem of a 1 or a 4): teeters
-//   round  an arch (0, 2, 6, 8, 9): sways, and may slip off down the curve
+//   flat   a bar wider than its stance (3 and 7 in Fraunces): stands square
+//   ledge  a flat top narrower than its stance (the stem of a 4): teeters
+//   round  an arch (0, 1, 2, 5, 6, 8, 9): sways, and may slip off down the curve
 //   ball   the colon's dot: a hard balance
+//
+// Which digit falls in which class is the face's business, not this module's:
+// the digits named above were measured off Fraunces, and a new face
+// reclassifies them without a change here.
 export type TopKind = 'flat' | 'ledge' | 'round' | 'ball';
 
 // What it does now and then while perched, by the shape under its feet.
