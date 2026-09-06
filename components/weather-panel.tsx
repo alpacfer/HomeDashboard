@@ -232,6 +232,11 @@ export default function WeatherPanel({ now, onConditions }: { now: Date | null; 
   return <section className={'weather-band' + (stale ? ' stale' : '')} aria-label={'Weather. ' + offlineDescription}>
     <div className={'weather' + (current ? ' ct-hillside condition-' + current.kind : ' weather-empty') + (daylight ? '' : ' night') + (view?.headline?.wet ? ' raining-now' : '')}
       data-light={sky?.light} data-weather={sky?.weather} data-fall={sky?.fall}
+      // Where the sun is, as two fractions of one. Not a layout style: the card
+      // has none in it, and app/horizon.css owns every position on this
+      // painting. These are the live half of a rule whose geometry was traced
+      // off the artwork by npm run horizon, and they change once a minute.
+      style={sky ? { '--arc-cross': sky.arc.cross.toFixed(4), '--arc-climb': sky.arc.climb.toFixed(4) } as React.CSSProperties : undefined}
       aria-label={current && temperature !== null ? temperature + ' degrees Celsius, ' + current.label : 'Weather unavailable'}>
       {current && <WeatherWoodland />}
       <span className="weather-landing" aria-hidden="true" />

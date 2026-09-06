@@ -4,6 +4,27 @@ The forecast map draws DMI Harmonie precipitation over the next six hours,
 requested through Open-Meteo. This file records why it is not requested from DMI
 directly, exactly how far that investigation got, and what would finish it.
 
+## The illustrated basemap
+
+The weather atlas uses a local hand-painted map made with image generation
+from a satellite capture of this same view. The
+[reference and generation notes](../assets/map-design/README.md) record its
+source, prompt and framing. [The artwork bounds](../lib/forecast-map-art.ts)
+place it in Web Mercator with Leaflet's image overlay; the markers and rain
+use that same projection. The plate covers the frame without stretching,
+including the taller layout when there are no transit service messages.
+There are no basemap tile requests. Forecast fetching and its quota limits
+remain the same, and the live rain colours still agree with the weather ribbon.
+
+Parchment labels and a cottage at Home remain on the map. The forecast journey
+has a full-width strip above the map viewport so it never overlaps a tag.
+Loading, dry, expired and unavailable captions sit on small paper panels so
+the map remains visible in every state. Four lighting plates follow the same
+solar-elevation dawn/day/dusk/night phases as the other widgets, supplied by
+the shared dashboard clock. The map loads only the current phase and retains
+the old plate until the next is ready; swapping plates does not rebuild the
+map, restart the rain, or request a forecast.
+
 ## Knowing when a new run exists without asking for it
 
 Open-Meteo serves a static metadata file per model, and it is what decides

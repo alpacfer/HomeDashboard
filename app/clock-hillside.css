@@ -45,7 +45,7 @@
 .ct-hillside {
   --sky-top:#12283a; --sky-mid:#1a3f52; --sky-low:#3f6a62; --sky-band:#c98a4a; --sky-horizon:#a85f2e;
   --ridge:#1d4650; --canopy:#0f2a2a;
-  --sun-x:87%; --sun-y:58%; --sun-r:15px; --sun-core:#ffbe74; --sun-bloom:rgba(255,158,74,.55);
+  --sun-r:15px; --sun-core:#ffbe74; --sun-bloom:rgba(255,158,74,.55);
   --haze:rgba(232,124,60,.34);
   --cloud:#8a5a48; --cloud-lit:#e0a173; --cloud-far:.42; --cloud-far-clear:.24;
   --warm:rgba(255,190,110,.22); --ring:rgba(255,212,152,.22);
@@ -63,7 +63,7 @@
 .ct-hillside[data-light='dawn'] {
   --sky-top:#2a3c58; --sky-mid:#4d5a78; --sky-low:#9c7b7a; --sky-band:#e0a074; --sky-horizon:#c97d5c;
   --ridge:#3a5560; --canopy:#20383a;
-  --sun-y:62%; --sun-r:13px; --sun-core:#ffdcb0; --sun-bloom:rgba(255,190,146,.48);
+  --sun-r:13px; --sun-core:#ffdcb0; --sun-bloom:rgba(255,190,146,.48);
   --haze:rgba(230,150,120,.28);
   --cloud:#8e6668; --cloud-lit:#e8b79c;
   --warm:rgba(255,206,168,.18); --ring:rgba(255,214,180,.20);
@@ -75,7 +75,7 @@
 .ct-hillside[data-light='day'] {
   --sky-top:#2f7ba3; --sky-mid:#529fbe; --sky-low:#8cc0c6; --sky-band:#b8d4c2; --sky-horizon:#cfe0cc;
   --ridge:#43806a; --canopy:#2b5c44;
-  --sun-x:87%; --sun-y:19%; --sun-r:12px; --sun-core:#fff6dc; --sun-bloom:rgba(255,246,212,.5);
+  --sun-r:13px; --sun-core:#fff6dc; --sun-bloom:rgba(255,246,212,.5);
   --haze:rgba(210,236,220,.20);
   --cloud:#bccdd8; --cloud-lit:#edf3f7; --cloud-far:.5; --cloud-far-clear:.3;
   --warm:rgba(255,250,224,.15); --ring:rgba(255,255,255,.26);
@@ -85,7 +85,7 @@
 .ct-hillside[data-light='night'] {
   --sky-top:#091420; --sky-mid:#0d1f2e; --sky-low:#142c3a; --sky-band:#1b3a42; --sky-horizon:#22454c;
   --ridge:#10222c; --canopy:#0a161c;
-  --sun-x:84%; --sun-y:21%; --sun-r:9px; --sun-core:#dfe6f2; --sun-bloom:rgba(200,214,240,.20);
+  --sun-r:10px; --sun-core:#dfe6f2; --sun-bloom:rgba(200,214,240,.20);
   --haze:rgba(80,110,140,.14);
   --cloud:#1b2a39; --cloud-lit:#334a60; --cloud-far:.36; --cloud-far-clear:.2;
   --warm:rgba(190,208,240,.10); --ring:rgba(180,200,230,.14);
@@ -254,11 +254,38 @@
 .ct-hillside .clock-light { background:radial-gradient(66% 108% at 97% 108%, var(--warm), transparent 64%); }
 
 
+/* ── §7 Where the disc is ─────────────────────────────────────────────────*/
+
+/* The sun crosses the card once a day, and the moon takes over after dusk.
+   lib/sky-arc.ts reduces the real sky to two fractions of one --
+
+     --arc-cross   0 where the body rises, 1 where it sets
+     --arc-climb   its elevation over the highest it ever reaches here
+
+   -- and components/weather-panel.tsx puts them on the card, once a minute.
+   The four numbers that turn them into a place on the picture are in
+   app/horizon.css, traced off the paintings by npm run horizon, because where
+   the sky is in this artwork is a fact about the artwork and not a taste.
+
+   THIS IS WHY THE FOUR LIGHT PHASES NO LONGER CARRY A POSITION. They used to
+   name one each, so the sun stood still through a whole morning and then
+   jumped at the turn of a phase. They still carry the disc's SIZE and COLOUR,
+   which is what a light phase is actually about.
+
+   Nothing here has to hide the disc at night. A body below the horizon has a
+   negative --arc-climb, which puts it under --arc-low, which the traced clip
+   path on .exterior-sky cuts away — the same clip that takes the cloud bank
+   off the treeline. Twilight falls out of the same arithmetic: for the half
+   hour the sun is a degree or two down, the disc is behind the ridge and its
+   bloom is not quite. */
+.ct-hillside {
+  /* A mid-morning sun, for the first paint before any report has arrived. */
+  --arc-cross:.32; --arc-climb:.55;
+  --sun-x:calc(var(--arc-from) + (var(--arc-to) - var(--arc-from)) * var(--arc-cross));
+  --sun-y:calc(var(--arc-low) + (var(--arc-high) - var(--arc-low)) * var(--arc-climb));
+}
+
 /* The land is painted; these transforms belong to the few foreground props. */
-.ct-hillside { --sun-x:64%; --sun-y:42%; }
-.ct-hillside[data-light='day'] { --sun-x:64%; --sun-y:22%; --sun-r:13px; }
-.ct-hillside[data-light='dawn'] { --sun-x:63%; --sun-y:39%; }
-.ct-hillside[data-light='night'] { --sun-x:64%; --sun-y:22%; --sun-r:10px; }
 @keyframes wood-breeze { 0%,100% {transform:rotate(-1deg);} 45% {transform:rotate(2deg);} 72% {transform:rotate(.5deg);} }
 .wood-flame { transform-origin:0 3px; animation:wood-fire 1.8s ease-in-out infinite; }
 .wood-fire-glow { animation:cs-breathe 3.7s ease-in-out infinite; }

@@ -129,6 +129,41 @@ for (const file of sheets) {
   }
 }
 
+// 1c. A generated stylesheet's custom properties must be defined nowhere else.
+//     app/horizon.css is written by npm run horizon and holds the geometry
+//     traced off the paintings; the theme files are written by hand. When both
+//     define a name, one silently shadows the other and nothing says which.
+//     This is not hypothetical and it is not cosmetic: the traced --sky-low was
+//     also, already, the name of a sky COLOUR in clock-hillside.css's palette,
+//     so --sun-y resolved to calc(#8cc0c6 + ...), which is invalid, which drops
+//     the whole background-image list it appears in -- and .cs-sun paints the
+//     sun, the moon and every star in one list. The card lost its sky and no
+//     error was reported anywhere. A stylesheet cannot warn about this; only
+//     this can.
+const GENERATED_SHEETS = ['app/horizon.css'];
+const declaredIn = async file => {
+  const found = new Set();
+  // A definition, not a use: the name at the head of a declaration.
+  for (const [, name] of (await read(file)).matchAll(/(?:^|[;{])\s*(--[\w-]+)\s*:/g)) found.add(name);
+  return found;
+};
+for (const generated of GENERATED_SHEETS) {
+  if (!existsSync(path.join(ROOT, generated))) {
+    fail(generated, 'is imported as generated but does not exist. Run npm run horizon.');
+    continue;
+  }
+  const owned = await declaredIn(generated);
+  for (const file of sheets) {
+    if (file === generated) continue;
+    for (const name of await declaredIn(file)) {
+      if (!owned.has(name)) continue;
+      fail(file, 'defines ' + name + ', which ' + generated + ' also defines. One of the two silently wins and'
+        + ' the loser is invisible -- and an invalid value in a custom property takes the whole declaration that'
+        + ' uses it with it. Rename one of them; the generated file owns the --arc- prefix.');
+    }
+  }
+}
+
 // 2. Every lib/ module has a test that imports it. lib/ is where logic goes so
 //    that it can be tested without a renderer; a module nothing imports from
 //    tests/ has escaped that.

@@ -195,11 +195,11 @@ a:focus-visible { outline:2px solid var(--foreground); outline-offset:8px; }
 .screen-progress { position:absolute; top:.3vh; right:0; width:clamp(18px,1.65vw,32px); height:clamp(18px,1.65vw,32px); z-index:1; fill:none; stroke-width:2.5; pointer-events:none; }
 .screen-progress-track { stroke:#303035; }
 .screen-progress-ring { stroke:var(--muted); stroke-linecap:round; stroke-dasharray:81.6814; stroke-dashoffset:0; transform:rotate(-90deg); transform-origin:16px 16px; animation:screen-countdown var(--screen-duration) linear both; }
-.showing-forecast-map .screen-progress { top:1vw; right:1vw; z-index:700; padding:.18vw; border-radius:50%; background:rgba(17,17,19,.72); }
+.showing-forecast-map .screen-progress { top:.35vw; right:1vw; z-index:700; padding:.18vw; border-radius:50%; background:rgba(17,17,19,.72); }
 /* Debug mode: the badge takes the ring's place so a pinned display is never
    mistaken for a live one. See lib/panel-rotation.ts. */
 .scene-pin { position:absolute; top:.3vh; right:0; z-index:1; padding:.25vw .5vw; border:1px solid #45454d; border-radius:.3vw; color:var(--muted); font-size:clamp(10px,.8vw,16px); font-weight:700; letter-spacing:.1em; text-transform:uppercase; }
-.showing-forecast-map .scene-pin { top:1vw; right:1vw; z-index:700; background:rgba(17,17,19,.72); }
+.showing-forecast-map .scene-pin { top:.55vw; right:1vw; z-index:700; border-color:#958568; background:#f1e6cb; color:#514b3b; }
 .panel-scene { grid-area:1 / 1; min-width:0; }
 .panel-scene[hidden] { display:none; }
 .panel-scene.is-active { animation:panel-arrive 450ms ease-out both; }
@@ -285,41 +285,44 @@ a:focus-visible { outline:2px solid var(--foreground); outline-offset:8px; }
 .daily-fact-unavailable { place-items:center; justify-content:center; color:var(--muted); font-size:1.25vw; text-align:center; }
 .forecast-map-scene { display:flex; flex-direction:column; min-width:0; min-height:0; }
 .forecast-map-scene:not(.is-active) { visibility:hidden; pointer-events:none; }
-.forecast-map-frame { position:relative; flex:1; min-height:0; overflow:hidden; border:1px solid #303035; border-radius:.75vw; background:#172028; }
-.forecast-map-canvas { position:absolute; inset:0; z-index:0; background:#172028; }
+.forecast-map-frame { --map-paper:#f4ebd5; --map-ink:#3e493a; --map-faint:#60674f; --map-rust:#a65f46; position:relative; flex:1; min-height:0; overflow:hidden; border:1px solid #a79670; border-radius:1vw; background:#9cad91; color:var(--map-ink); }
+.forecast-map-frame[data-light='dawn'] { --map-paper:#eedac7; --map-ink:#4d4549; --map-faint:#655559; }
+.forecast-map-frame[data-light='dusk'] { --map-paper:#ddc2a2; --map-ink:#443d40; --map-faint:#5e4b47; }
+.forecast-map-frame[data-light='night'] { --map-paper:#263e49; --map-ink:#f1e7d1; --map-faint:#c7d3cf; --map-rust:#d5b17b; border-color:#668087; background:#163544; }
+.forecast-map-frame::after { content:''; position:absolute; inset:0; z-index:450; border:5px solid rgba(244,235,213,.4); border-radius:inherit; box-shadow:inset 0 0 20px rgba(71,67,43,.16); pointer-events:none; }
+.forecast-map-frame[data-light='night']::after { border-color:rgba(132,160,161,.28); }
+/* The timeline owns a separate strip. The map and its tags are clipped to the
+   viewport below it, so no forecast time can ever cover a geographic label. */
+.forecast-map-canvas { position:absolute; top:5.4vw; right:0; bottom:0; left:0; z-index:0; background:inherit; }
 .forecast-map-canvas.leaflet-container { font-family:'Space Grotesk',Arial,Helvetica,sans-serif; }
-.forecast-map-basemap { filter:grayscale(1) invert(.88) hue-rotate(180deg) brightness(.7) contrast(1.18); }
-.forecast-map-dot { filter:drop-shadow(0 1px 3px rgba(0,0,0,.75)); }
-.leaflet-tooltip.forecast-map-label { padding:.27vw .42vw; border:0; border-radius:.24vw; box-shadow:0 1px 5px rgba(0,0,0,.45); background:rgba(17,17,19,.88); color:#f3f2ee; font-family:'Space Grotesk',Arial,Helvetica,sans-serif; font-size:.68vw; font-weight:700; line-height:1; }
-.leaflet-tooltip-right.forecast-map-label::before { border-right-color:rgba(17,17,19,.88); }
-/* Sits above the basemap and below the timeline. Sized from its own box in the
-   component, since a bitmap that disagrees with this box is scaled to fit and
-   moves every cell off the coastline it belongs to. */
-/* width/height are not redundant with inset: a canvas is a replaced element,
-   so inset:0 alone leaves it at its intrinsic 300x150 instead of stretching. */
-.forecast-map-overlay { position:absolute; inset:0; width:100%; height:100%; z-index:400; pointer-events:none; }
+.forecast-map-marker { filter:drop-shadow(0 2px 2px #655b4066); }
+.forecast-map-marker > span { display:block; width:12px; height:12px; border:3px solid #f4ebd5; border-radius:50%; background:#59674e; box-shadow:0 0 0 1px #59674e; }
+.forecast-map-marker svg { display:block; width:30px; height:32px; }
+.leaflet-tooltip.forecast-map-label { padding:.36vw .6vw; border:1px solid #ad9b77; border-radius:.28vw .55vw .4vw .22vw; box-shadow:0 2px 4px #655b4033; background:var(--map-paper); color:var(--map-ink); font-family:Georgia,'Times New Roman',serif; font-size:1.05vw; font-weight:700; line-height:1; }
+.leaflet-tooltip.forecast-map-label.is-home { color:#71412f; }
+.forecast-map-frame[data-light='night'] .leaflet-tooltip.forecast-map-label.is-home { color:#f1ca96; }
+.leaflet-tooltip-right.forecast-map-label::before { border-right-color:#ad9b77; }
+.leaflet-tooltip-top.forecast-map-label::before { border-top-color:#ad9b77; }
+/* Portalled into Leaflet's overlay pane: above the painting, below markers.
+   Pixel size and origin follow the measured map container in the paint loop. */
+.forecast-map-overlay { position:absolute; top:0; left:0; z-index:400; pointer-events:none; }
 /* The timeline replaces a caption: position on the track says how far into the
    forecast the frame is, which a sentence makes you read and then work out. */
-.forecast-map-timeline { position:absolute; top:1vw; left:1.4vw; z-index:500; pointer-events:none;
-  /* Clears the rotation spinner, which sits at top:1vw right:1vw and is up to
-     1.65vw wide plus its own padding. The playhead label is centred on its
-     position, so half of it overhangs the track at either end. */
-  right:4.8vw; }
-.timeline-track { position:relative; height:.32vw; border-radius:1vw; background:rgba(17,17,19,.72); box-shadow:inset 0 0 0 1px rgba(255,255,255,.12); }
-.timeline-played { position:absolute; left:0; top:0; height:100%; border-radius:inherit; background:var(--accent); }
-.timeline-track i { position:absolute; top:-.22vw; width:1px; height:.76vw; margin-left:-.5px; background:rgba(255,255,255,.28); }
-.timeline-playhead { position:absolute; top:-.62vw; transform:translateX(-50%); padding:.2vw .38vw; border-radius:.26vw; background:var(--accent); color:#17110f; font-size:.7vw; font-weight:700; line-height:1; font-variant-numeric:tabular-nums; white-space:nowrap; box-shadow:0 1px 5px rgba(0,0,0,.4); }
-.timeline-hours { position:relative; height:1vw; margin-top:.5vw; color:#c5c5cb; font-size:.62vw; font-variant-numeric:tabular-nums; letter-spacing:.04em; }
+.forecast-map-timeline { position:absolute; top:0; left:0; right:0; height:5.4vw; z-index:500; padding:.65vw 2.5vw .5vw; border-bottom:1px solid #b8a783; background:var(--map-paper); pointer-events:none; }
+.timeline-caption { display:block; margin-bottom:1.15vw; color:var(--map-faint); font-size:.86vw; font-weight:700; letter-spacing:.08em; text-transform:uppercase; }
+.timeline-track { position:relative; height:.3vw; border-radius:1vw; background:#c4c5a9; }
+.timeline-played { position:absolute; left:0; top:0; height:100%; border-radius:inherit; background:var(--map-rust); }
+.timeline-track i { position:absolute; top:-.22vw; width:1px; height:.76vw; margin-left:-.5px; background:#73775d; }
+.timeline-playhead { position:absolute; top:-.7vw; transform:translateX(-50%); padding:.27vw .4vw; border:1px solid #8b4d38; border-radius:.3vw; background:#a65f46; color:#fff9e9; font-size:.9vw; font-weight:700; line-height:1; font-variant-numeric:tabular-nums; white-space:nowrap; box-shadow:0 2px 3px #655b4026; }
+.timeline-hours { position:relative; height:1.1vw; margin-top:.5vw; color:var(--map-faint); font-size:.86vw; font-variant-numeric:tabular-nums; }
 .timeline-hours span { position:absolute; top:0; transform:translateX(-50%); }
-.forecast-map-legend { position:absolute; left:.55vw; bottom:.55vw; z-index:500; display:grid; grid-template-columns:auto 7vw auto; align-items:center; gap:.55vw; padding:.55vw .7vw; border:1px solid rgba(255,255,255,.12); border-radius:.38vw; background:rgba(17,17,19,.82); color:#d9d9df; font-size:.72vw; text-transform:uppercase; letter-spacing:.07em; pointer-events:none; }
-/* The same four colours the overlay ramps through, in the same order and at
-   the same positions: see RAMP in lib/precipitation-grid.ts, and keep the two
-   in step. */
-.forecast-map-legend i { display:block; height:.46vw; border-radius:1vw; background:linear-gradient(90deg,#3f6b85 0%,#4f93b8 33%,#74caff 66%,#b8e4ff 100%); }
-.forecast-map-stale { position:absolute; top:4.4vw; left:1.4vw; z-index:500; margin:0; padding:.45vw .65vw; border-radius:.35vw; color:#f5c5ae; background:rgba(17,17,19,.82); font-size:.75vw; text-transform:uppercase; letter-spacing:.08em; pointer-events:none; }
-.forecast-map-credit { position:absolute; right:.55vw; bottom:.55vw; z-index:500; display:flex; align-items:center; gap:.34vw; padding:.4vw .52vw; border-radius:.3vw; background:rgba(17,17,19,.78); color:#c5c5cb; font-size:.58vw; line-height:1; }
+.forecast-map-stale { position:absolute; top:50%; left:50%; transform:translate(-50%,-50%); z-index:500; width:max-content; max-width:90%; margin:0; padding:.8vw 1vw; border:1px solid #ad9b77; border-radius:.5vw; color:#71412f; background:var(--map-paper); font-size:1vw; text-align:center; pointer-events:none; }
+.forecast-map-frame[data-light='night'] .forecast-map-stale { color:#f1ca96; }
+.forecast-map-credit { position:absolute; right:1vw; bottom:.45vw; z-index:500; display:flex; align-items:center; gap:.34vw; padding:.3vw .52vw; border-radius:.3vw; background:var(--map-paper); color:var(--map-faint); font-size:.62vw; line-height:1; }
 .forecast-map-credit a { color:inherit; text-decoration:none; }
-.forecast-map-message { position:absolute; inset:0; z-index:500; display:grid; place-items:center; margin:0; color:var(--muted); font-size:1.25vw; background:rgba(17,17,19,.78); }
+.forecast-map-message { position:absolute; top:49%; left:50%; transform:translate(-50%,-50%); z-index:500; display:flex; flex-direction:column; align-items:center; gap:.45vw; width:max-content; max-width:90%; margin:0; padding:1.15vw 1.5vw; border:1px solid #ad9b77; border-radius:.5vw .9vw .6vw .7vw; box-shadow:0 3px 12px #655b4026; color:var(--map-ink); background:var(--map-paper); text-align:center; }
+.forecast-map-message strong { font:normal 1.65vw Georgia,'Times New Roman',serif; }
+.forecast-map-message span { color:var(--map-faint); font-size:1vw; }
 @keyframes panel-arrive { from { opacity:0; transform:translateY(8px); } to { opacity:1; transform:translateY(0); } }
 @keyframes screen-countdown { from { stroke-dashoffset:0; } to { stroke-dashoffset:81.6814; } }
 

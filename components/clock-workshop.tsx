@@ -13,6 +13,13 @@ export default memo(function ClockWorkshop() {
     <span className="scene-paint interior-paint" />
     <span className="scene-paint interior-paint workshop-bench" />
     <span className="scene-light" />
+    {/* Weather through the glass. The sky drifts behind the panes and the wash
+        and the rain sit on it, in that order, because rain runs down the near
+        side of a window and cloud is a long way off on the other. What cuts
+        the sky to the four panes -- and leaves the painted frame and mullions
+        in front of it -- is the mask in app/horizon.css, traced off these same
+        plates by npm run horizon. */}
+    <span className="shed-window-sky"><span className="shed-window-cloud" /></span>
     <span className="shed-window-weather"><span className="shed-window-rain" /></span>
     <svg className="scene-props" viewBox="0 0 350 158" preserveAspectRatio="none">
       <defs>

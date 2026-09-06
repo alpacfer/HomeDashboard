@@ -97,6 +97,57 @@
 [data-weather='snow'] .weather-surface .scene-light { background:linear-gradient(180deg,rgba(180,201,216,.2),rgba(224,236,236,.36)); }
 [data-weather='fog'] .scene-light { background:linear-gradient(180deg,rgba(171,186,190,.12),rgba(177,191,192,.42) 58%,rgba(143,165,164,.12)); }
 [data-light='night'][data-weather='fog'] .scene-light { background:linear-gradient(180deg,rgba(60,81,104,.1),rgba(77,99,118,.32) 58%,transparent); }
+/* ── Weather through the shed window ──────────────────────────────────────
+   A full-card layer, like every other piece of scenery, wearing the pane mask
+   from app/horizon.css: the mask alone says where the glass is, so there is no
+   second copy of the window's box to keep in step with the first.
+
+   --shed-window-top and --shed-window-low finally do something. They were
+   declared for all four light phases and both wet weathers and then used by
+   nothing -- left behind when the drawn window became a painted one -- and
+   they are already exactly the two colours a cloud seen through this window
+   wants: pale blue-grey at noon, dusky at night, flat grey under rain.
+
+   The lobes are small on purpose. This layer is the width of the card and the
+   window is a ninth of it, so a cloud the size of the clearing's would show as
+   an edge crossing the glass over four minutes and never as a cloud. */
+.shed-window-sky { position:absolute; inset:0; width:100%; height:100%; pointer-events:none; opacity:0; }
+.shed-window-cloud {
+  --tile:74px; position:absolute; top:0; left:0; width:200%; height:100%;
+  /* Its own mask, on top of the pane mask the parent wears. Below
+     --shed-sky-end the panes show painted trees, and a cloud crossing a tree
+     is a smudge on the glass rather than weather beyond it. Two masks on two
+     elements, because compositing a pair on one needs mask-composite and Silk
+     is a Chromium of unrecorded vintage (docs/DEPLOYMENT.md). */
+  -webkit-mask-image:linear-gradient(180deg,#000 calc(var(--shed-sky-end) - 7%),transparent var(--shed-sky-end));
+  mask-image:linear-gradient(180deg,#000 calc(var(--shed-sky-end) - 7%),transparent var(--shed-sky-end));
+  background-image:
+    radial-gradient(circle 6px at 17px 29%, var(--shed-window-top) 90%, transparent 100%),
+    radial-gradient(circle 4px at 10px 33%, var(--shed-window-top) 90%, transparent 100%),
+    radial-gradient(circle 4px at 24px 33%, var(--shed-window-top) 90%, transparent 100%),
+    radial-gradient(11px 3px at 17px 36%, var(--shed-window-top) 86%, transparent 100%),
+    radial-gradient(circle 4.5px at 52px 31%, var(--shed-window-low) 90%, transparent 100%),
+    radial-gradient(9px 2.5px at 52px 36%, var(--shed-window-low) 86%, transparent 100%);
+  background-size:var(--tile) 100%; background-repeat:repeat-x;
+  animation:cs-drift 160s linear infinite;
+}
+/* How much sky there is to see. Clear weather leaves the painting alone; the
+   rest is the same ladder the clearing's cloud bank climbs. */
+.ct-workshop[data-weather='partly'] .shed-window-sky { opacity:.42; }
+.ct-workshop[data-weather='cloudy'] .shed-window-sky { opacity:.62; }
+.ct-workshop[data-weather='overcast'] .shed-window-sky,
+.ct-workshop[data-weather='rain'] .shed-window-sky,
+.ct-workshop[data-weather='sleet'] .shed-window-sky,
+.ct-workshop[data-weather='snow'] .shed-window-sky { opacity:.78; }
+/* Fog is not cloud passing; it is the distance gone. One flat veil, no drift. */
+.ct-workshop[data-weather='fog'] .shed-window-sky { opacity:.7; }
+.ct-workshop[data-weather='fog'] .shed-window-cloud {
+  background-image:linear-gradient(180deg,rgba(206,216,214,.5),rgba(214,222,220,.85));
+  background-size:100% 100%; animation:none; width:100%;
+  /* Fog is the distance gone, not something passing in front of it: it takes
+     the trees as well as the sky, so it does not wear the sky fade. */
+  -webkit-mask-image:none; mask-image:none;
+}
 .shed-window-weather { background:transparent; }
 [data-weather='overcast'] .shed-window-weather,
 [data-weather='rain'] .shed-window-weather,
@@ -105,7 +156,12 @@
 [data-weather='rain'] .shed-window-rain,
 [data-weather='sleet'] .shed-window-rain { background:radial-gradient(1px 6px at 7px 8px,rgba(209,227,231,.5),transparent); background-size:17px 20px; animation:shed-rain 2.5s linear infinite; }
 @keyframes shed-rain { from {transform:translateY(0);} to {transform:translateY(20px);} }
-.exterior-sky { -webkit-mask-image:radial-gradient(ellipse 54% 45% at 62% 18%,#000 45%,transparent 100%); mask-image:radial-gradient(ellipse 54% 45% at 62% 18%,#000 45%,transparent 100%); }
+/* The sky layers are clipped to the painted sky itself -- app/horizon.css,
+   traced off the four plates by npm run horizon. What was here before was an
+   ellipse centred on the middle of the card, which faded the cloud bank out in
+   a circle for no reason the picture could give and let the sun cross the tree
+   canopy on its way past. The clip is the reason the sun sets behind the
+   treeline and the clouds stop at it. */
 .ct-hillside .cs-bank {
   background-image:linear-gradient(180deg,var(--cloud-lit),var(--cloud));
   -webkit-mask-image:url('/scenes/cloud-bank-v1.svg'); mask-image:url('/scenes/cloud-bank-v1.svg');

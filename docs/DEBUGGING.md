@@ -14,6 +14,7 @@ npm run audit                 check every scene at 1280 x 720 for layout faults
 npm run scene -- [options]    measure a painted card: its edges, its landmarks, its light
 npm run states -- [options]   every clock sky on one sheet; --seams, --baseline
 npm run roll -- [options]     the digit transition, caught on the minute boundary
+npm run horizon -- [options]  trace the painted sky and the shed window off the plates
 npm run check:rules           the AGENTS.md rules a script can check
 /?scene=map                   pin the rotating panel (README)
 /?weather=off                 no weather request; placeholder card, ribbon and week
@@ -51,6 +52,54 @@ can never leave the wall display stuck. They combine:
 Use `weather=off` for any capture that is not about the weather, and
 `weather=demo` for one that is about the forecast map. The reason is quota,
 explained below.
+
+## Where the paint stops: `npm run horizon`
+
+Two of the card's shapes are properties of the artwork rather than decisions
+anyone gets to make: the outline of the sky in the woodland painting, and the
+four panes of glass in the shed window. Live layers are drawn over both — the
+sun and the moon, the high thin cloud and the cloud bank outside; a drifting
+sky behind the glass inside — and without those shapes the sun crosses the
+tree canopy, the clouds sit on top of the far ridge, and the weather rubs out
+the painted mullions.
+
+So they are measured, not typed in. The tool decodes all four plates of each
+scene, traces the shape on each, and combines them by taking the median. It
+writes [app/horizon.css](../app/horizon.css), which is **generated — do not
+edit it**, and two overlays to judge the trace by:
+
+```sh
+npm run horizon                    # trace, write app/horizon.css, draw both overlays
+npm run horizon -- --no-write      # report and draw, change nothing
+npm run horizon -- --plate day     # one plate, when a trace looks wrong
+```
+
+**Look at the overlays.** `screenshots/horizon.png` is the clearing with
+everything the clip path removes dimmed and the sun's arc drawn across it;
+`screenshots/horizon-window.png` is the shed window blown up, with everything
+the pane mask removes dimmed. A list of coordinates cannot be judged; a picture
+of the trace over the painting can.
+
+Two things the report says that are worth reading:
+
+- **Spread.** How far the four plates disagreed, measured across the seam
+  rather than down the column — at a near-vertical edge two plates a pixel
+  apart report readings forty rows apart, and that is the artwork being steep,
+  not a fault. It is gated at the 98th percentile, because a plate that has
+  genuinely moved takes hundreds of columns with it and one soft brushstroke
+  does not. Under 5 px means the plates are in register.
+- **LEAKED.** A window fill that reached the edge of its box crossed the frame
+  and is describing the wall. The night plate does this — its frame, its glass
+  and its sill are within a few levels of each other — so it is left out of the
+  vote and the other three carry the trace. The geometry is the same in all
+  four, so nothing is lost; the line is there so that a plate silently
+  describing the wrong thing is never mistaken for agreement.
+
+Nothing here needs the dev server. The input is the artwork in
+`public/scenes`, not a rendered page — but Node cannot decode WebP and this
+repository will not add a dependency for it, so the plates are handed to a
+headless Chrome as data URLs and read back through a canvas, the same trick
+`npm run scene` uses.
 
 ## Two traps that cost hours
 
@@ -186,6 +235,7 @@ What it reports:
 | `tiny-text` | Below the legibility floor for a screen read from across a room. Required attribution and debug chrome are exempt. |
 | `contrast` | Measured against the first ancestor that actually paints a background, with translucent ink blended first. |
 | `empty` | A pane rendered with no text at all, which is usually a data path that failed silently. |
+| `overlap` | A map location tag is covered by the timeline, another tag, attribution, a status message or rotation indicator. Map tags are also checked against every edge of their viewport. |
 
 It needs the dev server, the same as `npm run shot`, and exits 1 on an error so
 it can gate a change. Run it before reaching for a screenshot after any CSS

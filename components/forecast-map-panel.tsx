@@ -1,7 +1,8 @@
 'use client';
 
 import { useEffect, useMemo, useRef, useState } from 'react';
-import type { Map } from 'leaflet';
+import { createPortal } from 'react-dom';
+import type { ImageOverlay, Map } from 'leaflet';
 import { copenhagenClock } from '@/lib/copenhagen';
 import {
   coversView, displayFrames, GRID_HOURS, gridForView, hasPrecipitation, isQuietHours, MAP_BOUNDS,
@@ -14,6 +15,8 @@ import {
 import { demoGrid, dryGrid } from '@/lib/precipitation-demo';
 import { CHECK_RETRY_MS, MODEL_META_URL, nextCheckAt, parseModelRun, shouldFetchGrid, type ModelRun } from '@/lib/forecast-refresh';
 import { MAP_MS } from '@/lib/panel-rotation';
+import { MAP_ART_BOUNDS, MAP_ART_PLATES } from '@/lib/forecast-map-art';
+import type { SkyLight } from '@/lib/clock-sky';
 import { debugFlags } from '@/lib/debug-flags';
 import { readStored, writeStored } from './device-storage';
 import { openMeteoLockout, recordOpenMeteoRefusal } from './open-meteo-lockout';
@@ -32,15 +35,26 @@ const PLACES: Array<{ label: string; coordinates: [number, number]; home?: boole
   { label: 'Copenhagen', coordinates: [55.6761, 12.5683] },
   { label: 'Hillerød', coordinates: [55.9279, 12.3008] },
 ];
-const FIT_OPTIONS = { animate: false, maxZoom: 12, padding: [18, 18] as [number, number] };
+const ART_EXTENT: [[number, number], [number, number]] = [
+  [MAP_ART_BOUNDS.south, MAP_ART_BOUNDS.west], [MAP_ART_BOUNDS.north, MAP_ART_BOUNDS.east],
+];
+
+// Cover the frame with the georeferenced plate. A taller frame crops a little
+// from its sides; it never stretches the geography or exposes a blank edge.
+function fitPainting(nextMap: Map) {
+  nextMap.fitBounds(ART_EXTENT, { animate: false });
+  nextMap.setZoom(nextMap.getBoundsZoom(ART_EXTENT, true), { animate: false });
+}
 
 type MapStatus = 'loading' | 'ready' | 'error';
 
-export default function ForecastMapPanel({ active, onDry }: { active: boolean; onDry?: (dry: boolean) => void }) {
+export default function ForecastMapPanel({ active, onDry, light }: { active: boolean; onDry?: (dry: boolean) => void; light: SkyLight | null }) {
   const canvas = useRef<HTMLDivElement>(null);
   const overlay = useRef<HTMLCanvasElement | null>(null);
   const image = useRef<HTMLCanvasElement | null>(null);
   const map = useRef<Map | null>(null);
+  const leaflet = useRef<typeof import('leaflet') | null>(null);
+  const painting = useRef<ImageOverlay | null>(null);
   const held = useRef<PrecipitationGrid | null>(null);
   // The view as measured the last time the scene was on screen. The frame is
   // a different size while hidden, so the live bounds cannot be trusted then;
@@ -57,6 +71,8 @@ export default function ForecastMapPanel({ active, onDry }: { active: boolean; o
   // run and could never discover the rain that would bring it back.
   const [measured, setMeasured] = useState(false);
   const [mapReady, setMapReady] = useState(false);
+  const [rainPane, setRainPane] = useState<HTMLElement | null>(null);
+  const [artFailed, setArtFailed] = useState(false);
   const [grid, setGrid] = useState<PrecipitationGrid | null>(null);
   // How far through the sequence the animation is, 0 to 1. The canvas is
   // painted from the clock many times a second; this is only what the playhead
@@ -80,6 +96,7 @@ export default function ForecastMapPanel({ active, onDry }: { active: boolean; o
     let cancelled = false;
     void import('leaflet').then(L => {
       if (cancelled || !canvas.current) return;
+      leaflet.current = L;
       const nextMap = L.map(canvas.current, {
         attributionControl: false,
         boxZoom: false,
@@ -89,32 +106,30 @@ export default function ForecastMapPanel({ active, onDry }: { active: boolean; o
         scrollWheelZoom: false,
         touchZoom: false,
         zoomControl: false,
-        zoomSnap: 0.25,
+        zoomSnap: 0,
       });
-      L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
-        attribution: '&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors',
-        className: 'forecast-map-basemap',
-        maxZoom: 19,
-        updateWhenIdle: true,
-      }).addTo(nextMap);
       for (const place of PLACES) {
-        L.circleMarker(place.coordinates, {
-          className: 'forecast-map-dot',
-          color: '#f3f2ee',
-          fillColor: place.home ? '#ff623b' : '#74caff',
-          fillOpacity: 1,
-          opacity: 1,
-          radius: place.home ? 5 : 4,
-          weight: 2,
+        L.marker(place.coordinates, {
+          icon: L.divIcon({
+            className: 'forecast-map-marker' + (place.home ? ' is-home' : ''),
+            html: place.home
+              ? '<svg viewBox="0 0 32 34" aria-hidden="true"><path d="M5 16 16 6l11 10v15H5Z" fill="#f6e9c5" stroke="#584b35" stroke-width="2"/><path d="m2 17 14-13 14 13" fill="none" stroke="#a65f46" stroke-width="5" stroke-linejoin="round"/><path d="M13 22h6v9h-6Z" fill="#64735a"/><path d="M23 6v6" stroke="#584b35" stroke-width="3"/><path d="M8 19h4v4H8Z" fill="#d9ae5c"/></svg>'
+              : '<span></span>',
+            iconSize: place.home ? [30, 32] : [12, 12],
+            iconAnchor: place.home ? [15, 30] : [6, 6],
+          }),
+          interactive: false,
+          keyboard: false,
         }).addTo(nextMap).bindTooltip(place.label, {
-          className: 'forecast-map-label',
-          direction: 'right',
-          offset: [7, 0],
+          className: 'forecast-map-label' + (place.home ? ' is-home' : ''),
+          direction: place.label === 'Copenhagen' ? 'top' : 'right',
+          offset: place.home ? [20, -14] : place.label === 'Copenhagen' ? [0, -20] : [12, 0],
           permanent: true,
         });
       }
-      nextMap.fitBounds([[MAP_BOUNDS.south, MAP_BOUNDS.west], [MAP_BOUNDS.north, MAP_BOUNDS.east]], FIT_OPTIONS);
+      fitPainting(nextMap);
       map.current = nextMap;
+      setRainPane(nextMap.getPanes().overlayPane);
       setMapReady(true);
     }).catch(() => {
       if (!cancelled) setStatus('error');
@@ -123,8 +138,45 @@ export default function ForecastMapPanel({ active, onDry }: { active: boolean; o
       cancelled = true;
       map.current?.remove();
       map.current = null;
+      painting.current = null;
+      leaflet.current = null;
     };
   }, []);
+
+  // The shared dashboard clock supplies the same solar phase as the other
+  // paintings. No timer or weather request belongs to the map's lighting.
+  // Keep the old plate visible until its replacement has loaded; at most two
+  // plates exist during a change and the old one is then removed from Leaflet.
+  useEffect(() => {
+    const L = leaflet.current;
+    const nextMap = map.current;
+    if (!mapReady || !light || !L || !nextMap) return;
+    let cancelled = false;
+    const next = L.imageOverlay(MAP_ART_PLATES[light], ART_EXTENT, {
+      className: 'forecast-map-basemap',
+      alt: 'Hand-painted map of North Zealand at ' + light + ', based on satellite imagery',
+      interactive: false,
+      opacity: 0,
+    });
+    next.once('load', () => {
+      if (cancelled) return;
+      painting.current?.remove();
+      painting.current = next;
+      next.setOpacity(1);
+      setArtFailed(false);
+    });
+    next.once('error', () => {
+      if (cancelled) return;
+      next.remove();
+      setArtFailed(true);
+    });
+    next.addTo(nextMap);
+    return () => {
+      cancelled = true;
+      next.off();
+      if (painting.current !== next) next.remove();
+    };
+  }, [mapReady, light]);
 
   // What the map is showing, in degrees, or null while the container has no
   // size. Read only while the scene is active; see `view`.
@@ -356,17 +408,22 @@ export default function ForecastMapPanel({ active, onDry }: { active: boolean; o
     const pixels = source.getContext('2d');
     if (!pixels) return;
     const paint = (at: number) => {
-      // The bitmap must match the element's own CSS box, not Leaflet's idea of
-      // the map size. The two diverge whenever the scene changes the layout, and
-      // a mismatched bitmap is silently scaled to fit, which moves every cell
-      // away from the coastline it belongs to. Reading it here means each paint
-      // corrects itself without a resize listener to leak.
-      const width = surface.clientWidth;
-      const height = surface.clientHeight;
+      // Measure the rendered map container, not Leaflet's cached map size.
+      // The two can diverge while the transit strip changes the layout. A
+      // bitmap scaled into a different CSS box moves cells off the coastline.
+      const width = canvas.current?.clientWidth ?? 0;
+      const height = canvas.current?.clientHeight ?? 0;
       if (!width || !height) return;
+      // The canvas lives in Leaflet's overlay pane, below markers and labels.
+      // Its origin follows the visible container even after a scene resize
+      // changes Leaflet's layer origin. Both the plate and rain stay aligned.
+      const origin = nextMap.containerPointToLayerPoint([0, 0]);
+      surface.style.transform = `translate(${origin.x}px, ${origin.y}px)`;
       if (surface.width !== width || surface.height !== height) {
         surface.width = width;
         surface.height = height;
+        surface.style.width = width + 'px';
+        surface.style.height = height + 'px';
       }
       context.clearRect(0, 0, width, height);
       const data = pixels.createImageData(columns, rows);
@@ -382,6 +439,14 @@ export default function ForecastMapPanel({ active, onDry }: { active: boolean; o
       context.imageSmoothingQuality = 'high';
       context.drawImage(source, topLeft.x, topLeft.y, bottomRight.x - topLeft.x, bottomRight.y - topLeft.y);
     };
+    // An expired run has no forecast to draw. Keep the atlas and expiry
+    // caption, but never present its old rain as the current sky.
+    if (!spanStart) {
+      context.clearRect(0, 0, surface.width, surface.height);
+      wasActive.current = false;
+      played.current = 0;
+      return;
+    }
     // Off screen, or with nothing to travel over, one still picture is all
     // there is to draw and there is no reason to keep a loop running for it.
     // Leaving the scene arms the restart, so the next appearance begins at the
@@ -442,7 +507,7 @@ export default function ForecastMapPanel({ active, onDry }: { active: boolean; o
       const nextMap = map.current;
       if (!nextMap) return;
       nextMap.invalidateSize({ animate: false });
-      nextMap.fitBounds([[MAP_BOUNDS.south, MAP_BOUNDS.west], [MAP_BOUNDS.north, MAP_BOUNDS.east]], FIT_OPTIONS);
+      fitPainting(nextMap);
       view.current = viewBounds() ?? view.current ?? MAP_BOUNDS;
       setMeasured(true);
       // `?weather=demo` never asks a provider anything; it draws the synthetic
@@ -487,10 +552,12 @@ export default function ForecastMapPanel({ active, onDry }: { active: boolean; o
 
   return <section className={'panel-scene forecast-map-scene' + (active ? ' is-active' : '')} aria-hidden={!active}
     aria-label={'Forecast precipitation for the next ' + GRID_HOURS + ' hours around Home, Copenhagen and Hillerød'}>
-    <div className="forecast-map-frame">
+    <div className="forecast-map-frame" data-light={light ?? undefined}>
       <div className="forecast-map-canvas" ref={canvas} role="img" aria-label={'Forecast precipitation map. ' + spoken} />
-      <canvas className="forecast-map-overlay" ref={overlay} aria-hidden="true" />
-      {!!moment && !!ticks.length && <div className="forecast-map-timeline" aria-hidden="true">
+      {rainPane && createPortal(<canvas className="forecast-map-overlay" ref={overlay} aria-hidden="true" />, rainPane)}
+      <div className="forecast-map-timeline" aria-hidden="true">
+        <span className="timeline-caption">Forecast journey</span>
+        {!!moment && !!ticks.length && <>
         <div className="timeline-track">
           {ticks.map(tick => <i key={tick.timestamp} style={{ left: (tick.position * 100).toFixed(2) + '%' }} />)}
           <span className="timeline-played" style={{ width: (playhead * 100).toFixed(2) + '%' }} />
@@ -500,18 +567,18 @@ export default function ForecastMapPanel({ active, onDry }: { active: boolean; o
         <div className="timeline-hours">
           {ticks.map(tick => <span key={tick.timestamp} style={{ left: (tick.position * 100).toFixed(2) + '%' }}>{tick.label}</span>)}
         </div>
-      </div>}
-      {(status === 'loading' || status === 'error') && <p className="forecast-map-message">
-        {status === 'loading' ? 'Loading forecast…' : 'Forecast map temporarily unavailable'}
-      </p>}
-      {status === 'ready' && !!frames.length && !wet && <p className="forecast-map-message">No precipitation forecast in the next {GRID_HOURS} hours</p>}
-      {expired && <p className="forecast-map-stale" role="status">Forecast expired · waiting for the next model run</p>}
-      <div className="forecast-map-legend" aria-label="Precipitation intensity from light to heavy">
-        <span>Light</span><i /><span>Heavy</span>
+        </>}
       </div>
+      {(status === 'loading' || status === 'error' || artFailed) && <p className="forecast-map-message" role="status">
+        <strong>{artFailed ? 'Map artwork unavailable' : status === 'loading' ? 'Looking to the skies…' : 'Waiting for the forecast'}</strong>
+        <span>{artFailed ? 'The illustrated base could not be loaded' : status === 'loading' ? 'Loading the next six hours' : 'Forecast map temporarily unavailable'}</span>
+      </p>}
+      {dry && !artFailed && <p className="forecast-map-message"><strong>A little pause in the rain</strong><span>No precipitation forecast in the next {GRID_HOURS} hours</span></p>}
+      {expired && !artFailed && <p className="forecast-map-stale" role="status">Forecast expired · waiting for the next model run</p>}
       <footer className="forecast-map-credit">
         <a href="https://open-meteo.com/en/docs/dmi-api" target="_blank" rel="noreferrer" tabIndex={active ? 0 : -1}>Forecast DMI via Open-Meteo</a><span>·</span>
-        <a href="https://www.openstreetmap.org/copyright" target="_blank" rel="noreferrer" tabIndex={active ? 0 : -1}>© OpenStreetMap</a>
+        <a href="https://services.arcgisonline.com/ArcGIS/rest/services/World_Imagery/MapServer" target="_blank" rel="noreferrer" tabIndex={active ? 0 : -1}
+          aria-label="Illustrated from Esri World Imagery. Sources: Esri, Vantor, Earthstar Geographics, and the GIS User Community">Art from Esri World Imagery</a>
       </footer>
     </div>
   </section>;

@@ -281,9 +281,7 @@ export function hasPrecipitation(frames: GridFrame[]) {
 // 345 cells crossed a threshold and crossed back. Ramping between the same
 // four colours moves that cell by a shade instead.
 //
-// It is also what the legend already promises: `.forecast-map-legend i` in
-// app/globals.css is a gradient through exactly these four, so keep the two in
-// step. The first stop is the same colour at zero alpha, which gives rain a
+// The first stop is the same colour at zero alpha, which gives rain a
 // soft edge instead of a hard one at WET_MM, where most of the flicker was.
 const RAMP: ReadonlyArray<{ mm: number; rgba: readonly [number, number, number, number] }> = [
   { mm: 0, rgba: [63, 107, 133, 0] },

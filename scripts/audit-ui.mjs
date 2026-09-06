@@ -210,6 +210,24 @@ const AUDIT = (singleLine, exempt, minFont, contrastFloor) => `(() => {
     }
   }
 
+  // Geographic tags must never be covered by map UI or by another tag.
+  // This is independent of overflow: two fully visible boxes can still overlap.
+  const tags = all.filter(node => node.matches('.forecast-map-label'));
+  const mapUI = all.filter(node => node.matches('.forecast-map-timeline,.forecast-map-credit,.forecast-map-message,.forecast-map-stale,.showing-forecast-map .scene-pin,.showing-forecast-map .screen-progress'));
+  const overlaps = (a, b) => Math.min(a.right, b.right) > Math.max(a.left, b.left)
+    && Math.min(a.bottom, b.bottom) > Math.max(a.top, b.top);
+  for (let index = 0; index < tags.length; index += 1) {
+    const tag = tags[index];
+    const box = boxes.get(tag);
+    for (const other of [...mapUI, ...tags.slice(index + 1)]) {
+      if (overlaps(box, boxes.get(other))) add('error', 'overlap', tag, 'Tag "' + text(tag) + '" overlaps ' + describe(other));
+    }
+    const map = tag.closest('.forecast-map-canvas')?.getBoundingClientRect();
+    if (map && (box.left < map.left || box.right > map.right || box.top < map.top || box.bottom > map.bottom)) {
+      add('error', 'clipped', tag, 'Geographic tag extends outside the map viewport');
+    }
+  }
+
   // 4. Legibility. The Fire TV is read from across a room, not from a desk.
   for (const node of all) {
     if (!hasOwnText(node)) continue;

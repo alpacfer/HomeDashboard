@@ -5,6 +5,7 @@ import TransportPanel from '@/components/transport-panel';
 import { DAILY_FACT_COUNT, dailyDateKey, mediaShape, pinnedDateKey, validDailyFacts, yearsAgo, type DailyFact } from '@/lib/daily-facts';
 import { initialRotation, nextRotation, pinnedRotation, resumeRotation } from '@/lib/panel-rotation';
 import ForecastMapPanel from '@/components/forecast-map-panel';
+import type { SkyLight } from '@/lib/clock-sky';
 import type { Rotation } from '@/lib/panel-rotation';
 
 const STORAGE_KEY = 'home-dashboard:next-daily-fact:v1';
@@ -211,7 +212,7 @@ function useDailyFacts() {
   return { date, facts, status };
 }
 
-export default function RotatingPanel({ onSceneChange }: { onSceneChange?: (scene: Rotation['phase']) => void }) {
+export default function RotatingPanel({ onSceneChange, mapLight }: { onSceneChange?: (scene: Rotation['phase']) => void; mapLight: SkyLight | null }) {
   const { date, facts, status } = useDailyFacts();
   const [rotation, setRotation] = useState(() => initialRotation(0, DAILY_FACT_COUNT));
   const [wake, setWake] = useState(0);
@@ -311,7 +312,7 @@ export default function RotatingPanel({ onSceneChange }: { onSceneChange?: (scen
     <div className={'panel-scene transit-scene' + (showingTransport ? ' is-active' : '')}>
       <TransportPanel compact={!showingTransport} />
     </div>
-    <ForecastMapPanel active={showingMap} onDry={onDry} />
+    <ForecastMapPanel active={showingMap} onDry={onDry} light={mapLight} />
     {showingFact && fact && <article className={`panel-scene daily-fact-scene category-${fact.category} is-active`} key={fact.id} aria-label={`On this day in ${fact.year}: ${fact.title}`}>
       <header className="daily-fact-heading">
         <span>On this day</span>

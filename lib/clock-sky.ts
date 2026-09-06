@@ -12,6 +12,12 @@
 // plausible, quiet sky rather than an empty one, because the alternative is a
 // card that flashes from blank to weather on first load.
 //
+// The fourth thing, `arc`, is where the sun or the moon is: two fractions that
+// app/horizon.css turns into a point on the painting. It is derived here rather
+// than in the component because it has to follow the light phase, pin and all —
+// `?sky=night` must produce a moon on its own arc and not a sun parked at the
+// edge of the card.
+//
 //   ?sky=night,snow,heavy   Pins any of the three, in any order, for a look at
 //                           a sky the real weather is not currently offering.
 //                           Read here rather than in lib/debug-flags.ts for the
@@ -20,7 +26,8 @@
 //                           unrecognised is ignored, so a typo shows the real
 //                           weather rather than a blank card.
 
-import { solarElevation, type Band, type ConditionKind } from './weather';
+import { skyArc, type SkyArc } from './sky-arc';
+import { FORECAST_LATITUDE, FORECAST_LONGITUDE, solarElevation, type Band, type ConditionKind } from './weather';
 
 export const SKY_LIGHTS = ['night', 'dawn', 'day', 'dusk'] as const;
 export const SKY_WEATHERS = ['clear', 'partly', 'cloudy', 'overcast', 'fog', 'rain', 'sleet', 'snow'] as const;
@@ -29,7 +36,7 @@ export const SKY_FALLS = ['none', 'light', 'moderate', 'heavy'] as const;
 export type SkyLight = (typeof SKY_LIGHTS)[number];
 export type SkyWeather = (typeof SKY_WEATHERS)[number];
 export type SkyFall = (typeof SKY_FALLS)[number];
-export type Sky = { light: SkyLight; weather: SkyWeather; fall: SkyFall };
+export type Sky = { light: SkyLight; weather: SkyWeather; fall: SkyFall; arc: SkyArc };
 
 // Civil twilight, in degrees of solar elevation. Above DAY_ABOVE the light is
 // plainly day and below NIGHT_BELOW it is plainly night; between them is the
@@ -93,10 +100,18 @@ export function parsePinnedSky(value: string | null): Partial<Sky> {
 export function clockSky(
   timestamp: number, kind: ConditionKind | null, band: Band | null, pinned: Partial<Sky> = {},
 ): Sky {
+  const light = pinned.light ?? skyLight(timestamp);
   return {
-    light: pinned.light ?? skyLight(timestamp),
+    light,
     weather: pinned.weather ?? skyWeather(kind),
     fall: pinned.fall ?? skyFall(kind, band),
+    // Which body is in the sky is the same question the light phase already
+    // answers, so it is answered once: after dusk the disc the card draws is a
+    // moon -- clock-hillside.css has been colouring it like one for as long as
+    // there has been a night state -- and a moon belongs where the moon is.
+    // The changeover happens at six degrees below the horizon, by which point
+    // both bodies are drawn under the traced seam, so nothing jumps in view.
+    arc: skyArc(timestamp, light === 'night' ? 'moon' : 'sun', FORECAST_LATITUDE, FORECAST_LONGITUDE),
   };
 }
 

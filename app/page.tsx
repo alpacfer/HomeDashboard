@@ -10,6 +10,7 @@ import type { Conditions } from '@/lib/clock-conditions';
 import { debugFlags, pinnedNow } from '@/lib/debug-flags';
 import type { Rotation } from '@/lib/panel-rotation';
 import type { WorldSpotId } from '@/lib/clock-tenant';
+import { useSceneSky } from '@/components/use-scene-sky';
 
 export default function Home() {
   const [now, setNow] = useState<Date | null>(null);
@@ -17,6 +18,7 @@ export default function Home() {
   // so the clock's Tenant can react to the sky without a second fetch.
   const [conditions, setConditions] = useState<Conditions | null>(null);
   const [activeScene, setActiveScene] = useState<Rotation['phase']>('transport');
+  const mapSky = useSceneSky(now, null, null);
   const [petPreview] = useState<WorldSpotId | null>(() => typeof window === 'undefined' ? null : debugFlags(window.location.search).pet);
   const [petTravel] = useState<WorldSpotId | null>(() => typeof window === 'undefined' ? null : debugFlags(window.location.search).petTravel);
 
@@ -46,7 +48,7 @@ export default function Home() {
         <WeatherPanel now={now} onConditions={setConditions} />
         <WeekStrip now={now} />
       </aside>
-      <RotatingPanel onSceneChange={setActiveScene} />
+      <RotatingPanel onSceneChange={setActiveScene} mapLight={mapSky?.light ?? null} />
     </main>
   );
 }

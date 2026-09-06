@@ -26,7 +26,8 @@
     "probe": "node --import tsx scripts/probe-forecast.mjs",
     "probe:transit": "node --import tsx scripts/probe-transit.mjs",
     "audit": "node scripts/audit-ui.mjs",
-    "scene": "node scripts/scene-guides.mjs"
+    "scene": "node scripts/scene-guides.mjs",
+    "horizon": "node scripts/trace-horizon.mjs"
   },
   "dependencies": {
     "leaflet": "^1.9.4",

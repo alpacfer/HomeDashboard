@@ -14,6 +14,8 @@
 // an overcast icon. Deriving both from one number makes them two views of the
 // same thing rather than two forecasts.
 
+import { bodyElevation } from './sky-arc';
+
 export const FORECAST_LATITUDE = 55.73825;
 export const FORECAST_LONGITUDE = 12.53836;
 
@@ -92,23 +94,13 @@ function conditionKind(hour: WeatherHour, band: Band): ConditionKind {
 }
 
 // DMI carries no day/night flag, so the sun's elevation is computed instead of
-// spending a second request on it. Low-precision NOAA formulae: good to a
-// fraction of a degree, which is far more than picking a sun over a moon needs.
-const RADIANS = Math.PI / 180;
-
+// spending a second request on it. The formulae themselves live in
+// lib/sky-arc.ts, which needs the same ones to place the disc on the weather
+// card and needs the moon's besides. This is the defaulted front door to them:
+// everything here is about one place, and passing its coordinates at every
+// call site would be noise.
 export function solarElevation(timestamp: number, latitude = FORECAST_LATITUDE, longitude = FORECAST_LONGITUDE) {
-  const days = timestamp / 86400000 - 10957.5;
-  const meanLongitude = (280.46 + 0.9856474 * days) * RADIANS;
-  const meanAnomaly = (357.528 + 0.9856003 * days) * RADIANS;
-  const ecliptic = meanLongitude + (1.915 * Math.sin(meanAnomaly) + 0.02 * Math.sin(2 * meanAnomaly)) * RADIANS;
-  const obliquity = (23.439 - 4e-7 * days) * RADIANS;
-  const declination = Math.asin(Math.sin(obliquity) * Math.sin(ecliptic));
-  const rightAscension = Math.atan2(Math.cos(obliquity) * Math.sin(ecliptic), Math.cos(ecliptic));
-  const siderealTime = ((18.697374558 + 24.06570982441908 * days) % 24 * 15 + longitude) * RADIANS;
-  const latitudeRadians = latitude * RADIANS;
-  const elevation = Math.asin(Math.sin(latitudeRadians) * Math.sin(declination)
-    + Math.cos(latitudeRadians) * Math.cos(declination) * Math.cos(siderealTime - rightAscension));
-  return elevation / RADIANS;
+  return bodyElevation('sun', timestamp, latitude, longitude);
 }
 
 // -0.833 degrees is the standard sunrise/sunset elevation: the solar radius

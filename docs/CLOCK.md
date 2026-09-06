@@ -38,6 +38,56 @@ WebP assets, reference galleries, generation prompts and image sizes.
 The complete set is about 145 KiB; only the active pair is selected by CSS.
 No image-generation service or third-party image host is called at runtime.
 
+## Where the paint stops
+
+Two shapes in these paintings are facts about the artwork, and both are traced
+off it by `npm run horizon` into [app/horizon.css](../app/horizon.css), which
+is generated and must not be hand-edited. See
+[docs/DEBUGGING.md](DEBUGGING.md#where-the-paint-stops-npm-run-horizon).
+
+**The clearing's sky.** The underside of the framing tree's canopy, the far
+ridge and the treeline, as one clip path on `.exterior-sky`. Everything drawn
+into that layer is cut to it — the disc, the high thin layer and the cloud bank
+alike — so the sun sets behind the treeline rather than over it and a cloud
+passing the far ridge goes behind it. The same file carries the four numbers
+the disc's arc is expressed in.
+
+**The shed window's glass.** All four panes, as a mask on `.shed-window-sky`,
+which is what leaves the painted frame and mullions standing in front of the
+weather instead of under it. A clip path takes one polygon and this is four, so
+the shape travels as an inline SVG in a data URI — no request, the same idiom
+`.cs-bank` already uses. The cloud layer behind the glass wears a second mask
+of its own, fading out at `--shed-sky-end`: below that the panes show painted
+trees, and a cloud crossing a tree reads as a smear on the glass rather than as
+weather beyond it.
+
+The four plates of each scene are lit differently and framed identically, so
+one shape describes all four and the tool reports how far they disagreed.
+
+## The sun, and the moon
+
+The disc is not placed by light phase any more. [lib/sky-arc.ts](../lib/sky-arc.ts)
+turns the real sky into two fractions of one — how far through its crossing the
+body is, and how high it stands against the highest it ever reaches at this
+latitude — and [app/horizon.css](../app/horizon.css) turns those into a point
+on the painting. `components/weather-panel.tsx` sets them once a minute, which
+is as often as they change by half a pixel.
+
+Two things fall out of that rather than being written:
+
+- **The seasons.** `climb` is measured against a fixed peak, not against
+  today's, so a midwinter noon reads about 0.19 and skims the ridge while a
+  midsummer noon reads 1 and stands at the top of the sky.
+- **Night.** A body below the horizon has a negative `climb`, which puts it
+  under `--arc-low`, which the traced clip path cuts away. There is no
+  separate rule hiding the sun at night, and twilight comes free: for the half
+  hour the sun is a degree or two down, the disc is behind the ridge and its
+  bloom is not quite.
+
+After dusk the body is the moon, on its own arc — the disc that light phase has
+always coloured like one now goes where the moon actually is, which means some
+nights have no moon on the card and the stars carry it.
+
 ## Light and weather
 
 The default theme is `workshop`; `?clock=plain` retains a bare clock.
