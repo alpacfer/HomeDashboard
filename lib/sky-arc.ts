@@ -25,6 +25,13 @@
 // gives the thing worth having for free — through civil twilight the disc is
 // just under the ridge and only its glow shows over it.
 //
+// `moonPhase` is the third thing this file answers, and the only one that is
+// not a place: how much of the disc is lit and which way the lit side faces.
+// It lives here because it is the same two series asked a different question —
+// the phase IS the angle between the sun and the moon — and a second copy of
+// either series is the one way the drawn moon and the drawn sun could disagree
+// about where the sky is.
+//
 // The astronomy is low-precision NOAA for the sun and the standard abridged
 // series for the moon: good to a fraction of a degree and to about a degree
 // respectively. The card is 350 pixels wide. lib/weather.ts's solarElevation()
@@ -111,13 +118,27 @@ export function bodyEquatorial(body: SkyBody, timestamp: number) {
   return { rightAscension: wrap(rightAscension) / RADIANS, declination: declination / RADIANS };
 }
 
+/**
+ * Where the body is in the observer's own sky, in radians: how high, and which
+ * way round. Azimuth is measured from north through east, which is the same
+ * direction the card runs — a body crossing this painting goes left to right,
+ * so the picture faces south and rightwards is a rising azimuth.
+ */
+function horizontal(body: SkyBody, days: number, latitude: number, longitude: number) {
+  const { rightAscension, declination } = positionOf(body, days);
+  const hourAngle = siderealTime(days, longitude) - rightAscension;
+  const latitudeRadians = latitude * RADIANS;
+  return {
+    altitude: Math.asin(Math.sin(latitudeRadians) * Math.sin(declination)
+      + Math.cos(latitudeRadians) * Math.cos(declination) * Math.cos(hourAngle)),
+    azimuth: Math.atan2(Math.sin(hourAngle),
+      Math.cos(hourAngle) * Math.sin(latitudeRadians) - Math.tan(declination) * Math.cos(latitudeRadians)) + Math.PI,
+  };
+}
+
 /** How high above the horizon the body is, in degrees. */
 export function bodyElevation(body: SkyBody, timestamp: number, latitude: number, longitude: number) {
-  const days = epochDays(timestamp);
-  const { rightAscension, declination } = positionOf(body, days);
-  const latitudeRadians = latitude * RADIANS;
-  return Math.asin(Math.sin(latitudeRadians) * Math.sin(declination)
-    + Math.cos(latitudeRadians) * Math.cos(declination) * Math.cos(siderealTime(days, longitude) - rightAscension)) / RADIANS;
+  return horizontal(body, epochDays(timestamp), latitude, longitude).altitude / RADIANS;
 }
 
 /**
@@ -148,4 +169,55 @@ export function skyArc(timestamp: number, body: SkyBody, latitude: number, longi
     1,
   );
   return { cross, climb };
+}
+
+/**
+ * What the moon looks like tonight: how much of the disc is lit, and which way
+ * the lit side is facing on a screen whose top is the zenith.
+ *
+ *   illuminated  0 at new, 1 at full, and the fraction of the disc's AREA in
+ *                between -- which is also the fraction of its width, because
+ *                the terminator projects to an ellipse. app/clock-hillside.css
+ *                derives both halves of the drawn shape from this one number,
+ *                so what the card shows cannot drift from what is reported.
+ *
+ *   tilt         Degrees to turn a moon drawn lit-on-the-right, clockwise.
+ *                This is the part a phase alone gets wrong: the same crescent
+ *                stands on its horns rising and lies on its back at midnight,
+ *                and at this latitude the difference is most of a right angle
+ *                over an evening. It also carries waxing and waning, which are
+ *                a half turn apart and need no flag of their own.
+ *
+ * Both come out of the elongation -- the angle from the moon to the sun as the
+ * observer sees it -- so they are one calculation asked two ways. The lit
+ * fraction is the angle itself; the tilt is the direction, as a position angle
+ * about the zenith rather than about the celestial pole, because the card has
+ * no idea where the pole is and up is up.
+ */
+export type MoonPhase = { illuminated: number; tilt: number };
+
+export function moonPhase(timestamp: number, latitude: number, longitude: number): MoonPhase {
+  const days = epochDays(timestamp);
+  const moon = horizontal('moon', days, latitude, longitude);
+  const sun = horizontal('sun', days, latitude, longitude);
+  const between = sun.azimuth - moon.azimuth;
+  // The angular distance between the two, by the spherical cosine rule. The
+  // observer's own rotation cancels out of it, so this is the true elongation
+  // and not a projection of one.
+  const elongation = Math.acos(clamp(
+    Math.sin(sun.altitude) * Math.sin(moon.altitude)
+      + Math.cos(sun.altitude) * Math.cos(moon.altitude) * Math.cos(between),
+    -1,
+    1,
+  ));
+  // Where the sun is FROM the moon, measured from straight up and turning the
+  // way the card turns: clockwise, since a rising azimuth is rightwards here.
+  // The lit limb points at the sun, and the drawn moon is lit at 90 degrees --
+  // its right-hand side -- so the difference is how far to turn it.
+  const towardsSun = Math.atan2(
+    Math.cos(sun.altitude) * Math.sin(between),
+    Math.sin(sun.altitude) * Math.cos(moon.altitude)
+      - Math.cos(sun.altitude) * Math.sin(moon.altitude) * Math.cos(between),
+  );
+  return { illuminated: (1 - Math.cos(elongation)) / 2, tilt: wrap(towardsSun - Math.PI / 2) / RADIANS };
 }

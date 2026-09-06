@@ -72,12 +72,13 @@ one shape describes all four and the tool reports how far they disagreed.
 
 ## The sun, and the moon
 
-The disc is not placed by light phase any more. [lib/sky-arc.ts](../lib/sky-arc.ts)
-turns the real sky into two fractions of one — how far through its crossing the
-body is, and how high it stands against the highest it ever reaches at this
-latitude — and [app/horizon.css](../app/horizon.css) turns those into a point
-on the painting. `components/weather-panel.tsx` sets them once a minute, which
-is as often as they change by half a pixel.
+**Both are on the card, at every hour, each where it really is.**
+[lib/sky-arc.ts](../lib/sky-arc.ts) turns the real sky into two fractions of one
+per body — how far through its crossing it is, and how high it stands against
+the highest it ever reaches at this latitude — and
+[app/horizon.css](../app/horizon.css) turns those into a point on the painting.
+`components/weather-panel.tsx` sets them once a minute, which is as often as
+they change by half a pixel.
 
 Two things fall out of that rather than being written:
 
@@ -85,14 +86,46 @@ Two things fall out of that rather than being written:
   today's, so a midwinter noon reads about 0.19 and skims the ridge while a
   midsummer noon reads 1 and stands at the top of the sky.
 - **Night.** A body below the horizon has a negative `climb`, which puts it
-  under `--arc-low`, which the traced mask cuts away. There is no
-  separate rule hiding the sun at night, and twilight comes free: for the half
-  hour the sun is a degree or two down, the disc is behind the ridge and its
-  bloom is not quite.
+  under `--arc-low`, which the traced mask cuts away. Almost nothing hides
+  either body by hand, and twilight comes free: for the half hour the sun is a
+  degree or two down, the disc is behind the ridge and its bloom is not quite.
+  The one exception is the sun at night, once it is a whole night's worth of
+  degrees under and its bloom would clear the ridge again as a sunrise at two
+  in the morning; `app/clock-hillside.css` §2 turns it off there, and says so.
 
-After dusk the body is the moon, on its own arc — the disc that light phase has
-always coloured like one now goes where the moon actually is, which means some
-nights have no moon on the card and the stars carry it.
+There used to be **one** disc, handed to the sun by day and the moon after
+dusk. That drew a moon that could not exist before dusk — the real one is up in
+the afternoon rather more often than not — and a sun that stopped existing at
+it. The stars were eight gradients on that same element, which is why they now
+have a layer of their own: they are needed at exactly the hour the sun is not.
+
+### The phase
+
+`moonPhase()` reports two numbers from the same two series, so the drawn moon
+and the drawn sun cannot disagree about where the sky is:
+
+| | |
+| --- | --- |
+| `illuminated` | 0 at new, 1 at full: the fraction of the disc the sun is on. |
+| `tilt` | Degrees to turn a moon drawn lit-on-the-right, clockwise on screen. |
+
+The tilt is the half a picture usually gets wrong. The same crescent stands on
+its horns rising and lies on its back at midnight, and at this latitude the
+difference is most of a right angle over an evening. It also carries waxing and
+waning, which are a half turn apart and so need no flag of their own.
+
+**A phase is a shape, not a brightness**, so it is drawn rather than dimmed. The
+terminator is the moon's own equator seen at an angle, which projects to a
+half-ellipse |2k−1| of the disc wide, and the lit part is the right half of the
+disc *minus* that ellipse below half phase and *plus* it above. Minus is an
+intersection of masks and plus is a union; CSS nests for one and takes a second
+element for the other, which is why there are three elements for two shapes.
+`app/clock-hillside.css` §3 has the geometry.
+
+Only `illuminated` reaches the stylesheet. Both halves of the shape are derived
+from it there, so what is drawn cannot drift from what was computed — and
+`?sky=full` pins it, because waiting a fortnight to see the other branch of that
+rule is not a test.
 
 ## Light and weather
 
@@ -110,17 +143,37 @@ time and conditions with both scenes without adding a timer or request.
 [lib/clock-sky.ts](../lib/clock-sky.ts) derives these independent attributes.
 Each light phase selects a separately generated painting with the same
 composition. A translucent light pass then adds morning warmth, evening
-shadows or blue night ambience. Static saturation/brightness filters cool
-thick-cloud conditions; fog veils the distance. These filters affect artwork
-only, not text. Night keeps the indoor lamp warm and the exterior moonlit.
+shadows or blue night ambience. Night keeps the indoor lamp warm and the
+exterior moonlit.
 
-The exterior has independent sun/moon, stars, cloud banks, precipitation and
-motes. The sky layer fades before it reaches the foreground. Cloud weight
-follows the condition; overcast and precipitation hide the disc. Rain speed
+**Weather touches the clearing and never the room, and it says itself by
+adding rather than by taking away.** Cloud, rain, a veil of fog: those are the
+weather. There is a light static saturation and brightness filter on the
+outdoor artwork under thick cloud, and it is deliberately small. It used to run
+down to `saturate(.35)` and to name the clock widget too, so an overcast
+hour — the commonest sky Copenhagen has — drained the shed's timber, its ferns,
+its enamel jug and its digits along with the hillside, and the display spent
+most of its life looking like a photocopy of itself. The room is indoors.
+Nothing about the sky reaches it but the light through one painted window.
+
+The exterior has an independent sun and moon, stars, cloud banks,
+precipitation, motes and fireflies. The sky layer fades before it reaches the
+foreground. Cloud weight follows the condition; overcast and precipitation hide
+both discs and the stars with them. Rain speed
 and opacity follow intensity, while snow drifts slowly. Snow adds a pale
 wash to the terrain, without claiming measured snow accumulation. Rain is
 also visible through the shed window. Fire appears on clear or partly cloudy
 evenings and nights, and disappears in wet weather.
+
+**Fireflies** come out at dusk and hold the night, over the meadow and in the
+trees outside the shed window, and wet weather and fog put them away. They are
+the one piece of scenery that is an element per copy rather than gradients on
+one layer: a firefly is defined by being out of step with the next one, being
+out of step means an animation delay each, and a delay cannot vary within a
+layer. Eight outside, four through the glass, two compositor-only animations
+each — a wander that returns to where it began, and a slow blink that is dark
+most of the time. They replaced four dots on one tiling layer that shared a
+drift and a breath and read as fairy lights on a timer.
 
 The paintings are static. Gear rotation, pendulum swing, lamplight,
 cloud drift, rain and snow use CSS transforms and opacity. Tile travel equals
@@ -136,7 +189,10 @@ The layer primitives remain in [app/clock-theme.css](../app/clock-theme.css).
 
 ## Checking the scenes
 
-`?sky=night,snow,heavy` pins light, condition and intensity for screenshots.
+`?sky=night,snow,heavy` pins light, condition and intensity for screenshots,
+and `?sky=night,gibbous` pins the moon's phase — `new`, `crescent`, `half`,
+`gibbous` or `full` — because the real one takes a fortnight to cross the
+branch that draws it.
 `npm run states -- --pair` captures both cards across twenty sky combinations.
 Without `--pair`, it crops only the clock. Every capture is offline.
 `--group light` isolates the four lighting variants; `--baseline` compares

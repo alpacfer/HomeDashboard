@@ -18,8 +18,19 @@ export default memo(function ClockWorkshop() {
         side of a window and cloud is a long way off on the other. What cuts
         the sky to the four panes -- and leaves the painted frame and mullions
         in front of it -- is the mask in app/horizon.css, traced off these same
-        plates by npm run horizon. */}
-    <span className="shed-window-sky"><span className="shed-window-cloud" /></span>
+        plates by npm run horizon.
+
+        Everything the glass shows is a child of that one masked element, which
+        is why the fireflies and the sheen need no second copy of the pane
+        shape: cloud far off, fireflies in the trees just outside, and the
+        glass itself in front of both. The weather-driven opacity moved off
+        this element and onto the cloud when the other two arrived -- a firefly
+        must not fade because the sky is clear. */}
+    <span className="shed-window-sky">
+      <span className="shed-window-cloud" />
+      <span className="shed-window-flies"><span /><span /><span /><span /></span>
+      <span className="shed-window-glass" />
+    </span>
     <span className="shed-window-weather"><span className="shed-window-rain" /></span>
     <svg className="scene-props" viewBox="0 0 350 158" preserveAspectRatio="none">
       <defs>

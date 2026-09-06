@@ -13,20 +13,24 @@
    for weeks.
 
    THE LAYERS, back to front. components/clock.tsx renders them, in this
-   order, only for a theme where hasScenery() is true:
+   order, only for a theme where hasScenery() is true, and
+   components/weather-woodland.tsx renders the clearing's own set the same way:
 
-     .cs-sun     the disc, and anything sharing the far sky
+     .cs-stars   the far sky, painted at every hour and lit only at night
+     .cs-sun     the disc
+     .cs-moon    the other disc, and the four elements a phase is drawn with
      .cs-far     the high, thin, fast layer
      .cs-bank    the mass that the weather actually moves
      .cs-mid     the far ground
      .cs-near    the near ground, close enough to show the wind
      .cs-fall    whatever is coming down
      .cs-air     whatever is drifting
+     .cs-flies   whatever is blinking, one element each
      — .clock-block, the digits and the Tenant, goes here —
      .clock-light  the light of the place, falling ON the digits
      .cs-flora     what grows on the clock, in front and unclipped
 
-   The first seven are inside `.clock-surface`, which clips to the card's
+   The first ten are inside `.clock-surface`, which clips to the card's
    rounded corners. The last two are outside it: `.clock-light` clips itself,
    and `.cs-flora` deliberately does not, so a leaf can overhang the frame.
 
@@ -34,7 +38,9 @@
 
    1. Scenery is gradients, not images. Nothing is fetched and nothing is
       decoded. A drawing that genuinely needs a curve (a stem) is an inline
-      SVG in a data URI, still no request.
+      SVG in a data URI, still no request. A thing that genuinely needs to be
+      out of step with itself (a firefly) is one element per copy, because a
+      delay cannot vary within a layer.
    2. Motion is a transform on a whole layer, never a `background-position`,
       so the compositor carries it and the card is never repainted.
    3. A drifting layer keeps every gradient on ONE `background-size` and
@@ -43,13 +49,14 @@
 
    TO ADD A THEME       new app/clock-<id>.css, import it in app/layout.tsx,
                         add the id to CLOCK_THEMES in lib/clock-theme.ts.
-   TO ADD A LAYER       add a span in components/clock.tsx and a name to the
+   TO ADD A LAYER       add a span in components/clock.tsx or
+                        components/weather-woodland.tsx, and a name to the
                         primitives rule below.
    ═══════════════════════════════════════════════════════════════════════ */
 
 /* ── Layer primitives ──────────────────────────────────────────────────── */
 
-.cs-sun,.cs-far,.cs-bank,.cs-mid,.cs-near,.cs-fall,.cs-air {
+.cs-stars,.cs-sun,.cs-moon,.cs-far,.cs-bank,.cs-mid,.cs-near,.cs-fall,.cs-air,.cs-flies {
   position:absolute; top:0; left:0; width:100%; height:100%; pointer-events:none;
   --tile:0px; --sway:0px;
 }
@@ -84,8 +91,10 @@
    The scenery stays on screen; it simply stops, which is what a still
    hillside is. */
 @media (prefers-reduced-motion:reduce) {
-  .clock-widget .cs-sun,.clock-widget .cs-far,.clock-widget .cs-bank,
+  .clock-widget .cs-stars,.clock-widget .cs-sun,.clock-widget .cs-moon,
+  .clock-widget .cs-far,.clock-widget .cs-bank,
   .clock-widget .cs-mid,.clock-widget .cs-near,.clock-widget .cs-fall,
-  .clock-widget .cs-air,.clock-widget .cs-flora,.clock-widget .clock-light,
+  .clock-widget .cs-air,.clock-widget .cs-flies,.clock-widget .cs-flies > span,
+  .clock-widget .cs-flora,.clock-widget .clock-light,
   .clock-widget .digit-in,.clock-widget .digit-out { animation:none !important; }
 }

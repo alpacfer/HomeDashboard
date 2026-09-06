@@ -18,9 +18,9 @@
      data-fall     none | light | moderate | heavy  how hard it is coming down
 
    They are independent, so snow at dawn and rain at night are already drawn
-   without a rule of their own. §1 owns the palette, §2-3 what is in the sky
-   and on the ground, §4 what falls, §5-6 what drifts and what grows, §7 the
-   numbers.
+   without a rule of their own. §1 owns the palette, §2 what is in the
+   sky, §3 the moon and the shape of its phase, §4 what falls, §5 what drifts,
+   §6 the fireflies, §7 the numbers that put both bodies where they really are.
 
    TWO CONVENTIONS worth knowing before editing:
 
@@ -46,6 +46,12 @@
   --sky-top:#12283a; --sky-mid:#1a3f52; --sky-low:#3f6a62; --sky-band:#c98a4a; --sky-horizon:#a85f2e;
   --ridge:#1d4650; --canopy:#0f2a2a;
   --sun-r:15px; --sun-core:#ffbe74; --sun-bloom:rgba(255,158,74,.55);
+  /* The moon is smaller than the sun is drawn, never larger, whatever the
+     eye says about a moon on the horizon. --moon-a is how much of it shows at
+     this hour: a daylight moon is a pale thumbprint and a night one is the
+     brightest thing on the card. */
+  --moon-r:10px; --moon-a:.5;
+  --moon-core:#fbf3dd; --moon-edge:#e3d5b4; --moon-rim:#bfae8c; --moon-bloom:rgba(252,240,205,.3);
   --haze:rgba(232,124,60,.34);
   --cloud:#8a5a48; --cloud-lit:#e0a173; --cloud-far:.42; --cloud-far-clear:.24;
   --warm:rgba(255,190,110,.22); --ring:rgba(255,212,152,.22);
@@ -53,8 +59,15 @@
   --star:transparent; --cap:transparent;
   --fall-a:.5; --fall-ms:650ms;
 
+  /* The bloom on the sky itself belongs to whichever body is lighting it, and
+     that is the one thing the light phase still chooses. It is an indirection
+     rather than a second position because the gradient must not have to know
+     which body it is following -- and because the sun and the moon are both on
+     the card now, so naming one of them here would have picked a favourite. */
+  --glow-x:var(--sun-x); --glow-y:var(--sun-y); --glow-tint:var(--sun-bloom);
+
   --clock-surface:
-    radial-gradient(34% 52% at var(--sun-x) var(--sun-y), var(--sun-bloom), transparent 74%),
+    radial-gradient(34% 52% at var(--glow-x) var(--glow-y), var(--glow-tint), transparent 74%),
     radial-gradient(86% 116% at 102% 84%, var(--haze), transparent 64%),
     linear-gradient(174deg, var(--sky-top) 0%, var(--sky-mid) 34%, var(--sky-low) 56%, var(--sky-band) 72%, var(--sky-horizon) 100%);
   --clock-ring:var(--ring);
@@ -64,6 +77,7 @@
   --sky-top:#2a3c58; --sky-mid:#4d5a78; --sky-low:#9c7b7a; --sky-band:#e0a074; --sky-horizon:#c97d5c;
   --ridge:#3a5560; --canopy:#20383a;
   --sun-r:13px; --sun-core:#ffdcb0; --sun-bloom:rgba(255,190,146,.48);
+  --moon-a:.42; --moon-core:#f6f0e6; --moon-edge:#dcd3c4; --moon-rim:#b9b0a2; --moon-bloom:rgba(238,232,222,.2);
   --haze:rgba(230,150,120,.28);
   --cloud:#8e6668; --cloud-lit:#e8b79c;
   --warm:rgba(255,206,168,.18); --ring:rgba(255,214,180,.20);
@@ -76,6 +90,10 @@
   --sky-top:#2f7ba3; --sky-mid:#529fbe; --sky-low:#8cc0c6; --sky-band:#b8d4c2; --sky-horizon:#cfe0cc;
   --ridge:#43806a; --canopy:#2b5c44;
   --sun-r:13px; --sun-core:#fff6dc; --sun-bloom:rgba(255,246,212,.5);
+  /* Daylight is the one state where the moon is fainter than the sky it is
+     in: a white thumbprint with almost no bloom, which is what it looks like
+     and also what keeps it from competing with the digits. */
+  --moon-a:.26; --moon-core:#f4f7f8; --moon-edge:#dde7ea; --moon-rim:#c3d3d8; --moon-bloom:rgba(240,248,250,.14);
   --haze:rgba(210,236,220,.20);
   --cloud:#bccdd8; --cloud-lit:#edf3f7; --cloud-far:.5; --cloud-far-clear:.3;
   --warm:rgba(255,250,224,.15); --ring:rgba(255,255,255,.26);
@@ -86,6 +104,8 @@
   --sky-top:#091420; --sky-mid:#0d1f2e; --sky-low:#142c3a; --sky-band:#1b3a42; --sky-horizon:#22454c;
   --ridge:#10222c; --canopy:#0a161c;
   --sun-r:10px; --sun-core:#dfe6f2; --sun-bloom:rgba(200,214,240,.20);
+  --moon-a:1; --moon-core:#fdf9ec; --moon-edge:#e6dcc2; --moon-rim:#b6ab92; --moon-bloom:rgba(226,236,255,.34);
+  --glow-x:var(--moon-x); --glow-y:var(--moon-y); --glow-tint:var(--moon-bloom);
   --haze:rgba(80,110,140,.14);
   --cloud:#1b2a39; --cloud-lit:#334a60; --cloud-far:.36; --cloud-far-clear:.2;
   --warm:rgba(190,208,240,.10); --ring:rgba(180,200,230,.14);
@@ -94,9 +114,12 @@
 
 /* ── §2 Sky ───────────────────────────────────────────────────────────────*/
 
-/* The disc, and the stars that share its layer. Every star gradient is
-   painted at every hour; --star decides whether any of them are visible. */
-.ct-hillside .cs-sun {
+/* The stars have their own layer now. They used to be the first eight
+   gradients of .cs-sun's background, which was fine while the sun and the moon
+   took turns on one element -- and impossible the moment the sun had to be
+   hidden at night, which is exactly when the stars are out. Every star
+   gradient is painted at every hour; --star decides whether any is visible. */
+.ct-hillside .cs-stars {
   background-image:
     radial-gradient(circle 1.1px at 13% 17%, var(--star), transparent 100%),
     radial-gradient(circle .9px at 29% 8%, var(--star), transparent 100%),
@@ -105,10 +128,25 @@
     radial-gradient(circle 1px at 68% 28%, var(--star), transparent 100%),
     radial-gradient(circle .9px at 21% 34%, var(--star), transparent 100%),
     radial-gradient(circle 1.1px at 37% 41%, var(--star), transparent 100%),
-    radial-gradient(circle .8px at 8% 46%, var(--star), transparent 100%),
+    radial-gradient(circle .8px at 8% 46%, var(--star), transparent 100%);
+}
+
+/* The disc and its bloom, at the sun's own place on the card, at every hour of
+   the day and night. */
+.ct-hillside .cs-sun {
+  background-image:
     radial-gradient(circle calc(var(--sun-r) * 2.4) at var(--sun-x) var(--sun-y), var(--sun-bloom), transparent 100%),
     radial-gradient(circle var(--sun-r) at var(--sun-x) var(--sun-y), var(--sun-core) 94%, transparent 100%);
 }
+
+/* The one rule that hides a body rather than letting the horizon do it, and it
+   earns the exception. A sun below the land is cut away by the traced mask,
+   but its bloom is 2.4 discs wide and clears the seam long after the disc has
+   gone -- which is the whole of the twilight effect at dawn and dusk, and a
+   sunrise painted at two in the morning once the sun is a proper night's worth
+   of degrees under. Night is where that stops being a glow and starts being
+   wrong, and it is also, exactly, the hour the moon has the card. */
+.ct-hillside[data-light='night'] .cs-sun { opacity:0; }
 
 /* High thin cloud: three wisps, far apart, so they never overlap and can keep
    a soft full-radius fade. */
@@ -173,15 +211,105 @@
 .ct-hillside[data-light='night'][data-weather='sleet'],
 .ct-hillside[data-light='night'][data-weather='snow'] { --cloud-lit:#2b3c4c; --cloud:#1e2c39; }
 
-/* A sun behind weather is a bright patch in the cloud, not a disc. */
+/* A sun behind weather is a bright patch in the cloud, not a disc, and a moon
+   behind it is nothing at all -- a full moon does not show through overcast.
+   The stars go with them: they were part of .cs-sun's background list until
+   §2 split them out, so they have always been dimmed by cloud and must not
+   start shining through it now that they are their own layer. */
 .ct-hillside[data-weather='overcast'] .cs-sun,
 .ct-hillside[data-weather='rain'] .cs-sun,
 .ct-hillside[data-weather='sleet'] .cs-sun,
 .ct-hillside[data-weather='snow'] .cs-sun,
 .ct-hillside[data-weather='fog'] .cs-sun { opacity:.22; }
+.ct-hillside[data-weather='cloudy'] .cs-moon { opacity:calc(var(--moon-a) * .45); }
+.ct-hillside[data-weather='cloudy'] .cs-stars { opacity:.4; }
+.ct-hillside[data-weather='overcast'] .cs-moon,.ct-hillside[data-weather='overcast'] .cs-stars,
+.ct-hillside[data-weather='rain'] .cs-moon,.ct-hillside[data-weather='rain'] .cs-stars,
+.ct-hillside[data-weather='sleet'] .cs-moon,.ct-hillside[data-weather='sleet'] .cs-stars,
+.ct-hillside[data-weather='snow'] .cs-moon,.ct-hillside[data-weather='snow'] .cs-stars,
+.ct-hillside[data-weather='fog'] .cs-moon,.ct-hillside[data-weather='fog'] .cs-stars { opacity:0; }
 
 /* The land is a local painted plate. The old gradient ridges are retired. */
 .ct-hillside .cs-mid,.ct-hillside .cs-near { display:none; }
+
+/* ── §3 The moon, and the shape of its phase ──────────────────────────────
+   A phase is a shape, not a brightness, so this is drawn rather than dimmed.
+   lib/sky-arc.ts reports one number for it -- --moon-lit, the fraction of the
+   disc the sun is on -- and both halves of the shape are derived from that one
+   number here, so what is drawn cannot disagree with what was computed.
+
+   THE GEOMETRY. The terminator is not an arc of a circle; it is the equator of
+   the moon seen at an angle, which projects to a half-ellipse whose width is
+   |2k - 1| of the disc's. So the lit part is the right half of the disc, plus
+   or minus that ellipse:
+
+     k < 1/2   crescent   the right half MINUS the ellipse's right half
+     k > 1/2   gibbous    the right half PLUS the ellipse's left half
+
+   Minus is an intersection and plus is a union, and CSS masks compose one way
+   each: nesting intersects, and a second element unions. Hence three elements
+   for two shapes -- .moon-lit holds the right half, .moon-face inside it takes
+   the bite out, and .moon-bulge adds the other case's ellipse alongside. The
+   unused one of the two collapses to nothing on its own: at k > 1/2 the bite
+   has zero width and at k < 1/2 so does the bulge.
+
+   Both painted elements are the FULL disc box and differ only in their masks,
+   which is what lets them share one face gradient without a seam down the
+   middle where they meet.
+
+   The whole box then turns by --moon-tilt, which is where the lit side really
+   points from this latitude at this hour. Without it the moon is a sticker: a
+   crescent standing on its horns all evening, when the real one rolls most of
+   a right angle between rising and setting. */
+
+.ct-hillside .cs-moon {
+  opacity:var(--moon-a);
+  background-image:radial-gradient(circle calc(var(--moon-r) * 3.1) at var(--moon-x) var(--moon-y), var(--moon-bloom), transparent 100%);
+}
+/* The disc's own box: two radii square, centred on the point §7 works out, and
+   turned so its right-hand edge is the edge the sun is on. */
+.ct-hillside .moon-disc {
+  position:absolute; left:var(--moon-x); top:var(--moon-y);
+  width:calc(var(--moon-r) * 2); height:calc(var(--moon-r) * 2);
+  margin:calc(var(--moon-r) * -1) 0 0 calc(var(--moon-r) * -1);
+  transform:rotate(var(--moon-tilt));
+  /* The terminator's half-width, as a bite at k < 1/2 and as a bulge above it.
+     Exactly one of the two is ever more than nothing.
+     Both are 6% over the true figure, and both ellipses are 6% taller than the
+     disc, because the masks fade over their last 4% rather than stepping --
+     which they must, or a 20px moon has a staircase down its middle. Without
+     the margin that fade lands ON the limb at the ends of the range and leaves
+     a hairline ring of moon at new and a soft top and bottom at full. Six per
+     cent of a bite is a quarter of a pixel of terminator, which is a good
+     trade for two artefacts that are visible. */
+  --moon-cut:max(0px, calc(var(--moon-r) * (1 - 2 * var(--moon-lit)) * 1.06));
+  --moon-swell:max(0px, calc(var(--moon-r) * (4 * var(--moon-lit) - 2) * 1.06));
+  --moon-pad:calc(var(--moon-r) * 1.06);
+}
+.ct-hillside .moon-lit,.ct-hillside .moon-face,.ct-hillside .moon-bulge { position:absolute; inset:0; }
+/* The right half. A hard-edged linear mask rather than a half-width box, so
+   the child inside it still has the whole disc's coordinates to place an
+   ellipse in. */
+.ct-hillside .moon-lit {
+  -webkit-mask-image:linear-gradient(90deg,transparent 50%,#000 50%);
+  mask-image:linear-gradient(90deg,transparent 50%,#000 50%);
+}
+.ct-hillside .moon-face,.ct-hillside .moon-bulge {
+  border-radius:50%;
+  background:radial-gradient(circle at 37% 33%, var(--moon-core), var(--moon-edge) 74%, var(--moon-rim) 100%);
+}
+/* The bite: transparent inside the terminator ellipse, opaque outside it. */
+.ct-hillside .moon-face {
+  -webkit-mask-image:radial-gradient(var(--moon-cut) var(--moon-pad) at 50% 50%, transparent 96%, #000 100%);
+  mask-image:radial-gradient(var(--moon-cut) var(--moon-pad) at 50% 50%, transparent 96%, #000 100%);
+}
+/* And the bulge: the same ellipse, kept rather than cut. Its right half lands
+   on top of the lit half, which paints the same face at the same place and so
+   cannot show. */
+.ct-hillside .moon-bulge {
+  -webkit-mask-image:radial-gradient(var(--moon-swell) var(--moon-pad) at 50% 50%, #000 96%, transparent 100%);
+  mask-image:radial-gradient(var(--moon-swell) var(--moon-pad) at 50% 50%, #000 96%, transparent 100%);
+}
 
 /* ── §4 What falls ────────────────────────────────────────────────────────*/
 
@@ -233,8 +361,18 @@
 
 /* ── §5 What drifts, and the light ────────────────────────────────────────*/
 
-/* Motes off the hill by day, and whatever it is that blinks over a hillside
-   after dark. */
+/* Motes off the hill by day. From dusk on, this layer is GONE: it used to be
+   given a slower drift and a faster breath and called fireflies, and four
+   gradients on one tiling layer can only ever be four dots fading together on
+   a fixed lattice. The real ones are §6, and two kinds of drifting dot over
+   one meadow is one kind too many.
+
+   `display:none` and not `opacity:0`, and the same for the wet weathers below.
+   An animation outranks the cascade, so an opacity declared here loses to the
+   `cs-breathe` in the layer's own animation list and the motes stay on screen
+   at about 0.9 -- which is what they had quietly been doing through every
+   rainstorm since that rule was written. `display` is not animated here, so it
+   is the one property that can actually turn this layer off. */
 .ct-hillside .cs-air {
   --tile:96px; width:200%;
   background-image:
@@ -245,22 +383,108 @@
   background-size:var(--tile) 74px;
   animation:cs-drift 128s linear infinite, cs-breathe 11s ease-in-out infinite;
 }
-.ct-hillside[data-light='night'] .cs-air { animation:cs-drift 190s linear infinite, cs-breathe 4.5s ease-in-out infinite; }
+.ct-hillside[data-light='dusk'] .cs-air,
+.ct-hillside[data-light='night'] .cs-air { display:none; }
 /* Nothing drifts through rain hard enough to be seen. */
 .ct-hillside[data-weather='rain'] .cs-air,
 .ct-hillside[data-weather='snow'] .cs-air,
-.ct-hillside[data-weather='sleet'] .cs-air { opacity:0; }
+.ct-hillside[data-weather='sleet'] .cs-air { display:none; }
 
 .ct-hillside .clock-light { background:radial-gradient(66% 108% at 97% 108%, var(--warm), transparent 64%); }
 
 
-/* ── §7 Where the disc is ─────────────────────────────────────────────────*/
 
-/* The sun crosses the card once a day, and the moon takes over after dusk.
-   lib/sky-arc.ts reduces the real sky to two fractions of one --
+/* ── §6 Fireflies ─────────────────────────────────────────────────────────
+   Eight of them, and eight elements, which is the one place in this file that
+   pays for markup instead of gradients.
 
-     --arc-cross   0 where the body rises, 1 where it sets
-     --arc-climb   its elevation over the highest it ever reaches here
+   The reason is that a firefly is defined by being out of step. Four dots on
+   one tiling layer -- which is what §5 used to do after dark -- share a drift,
+   share a breath and sit on a fixed lattice, so they read as a string of
+   fairy lights swinging together. Blinking apart needs a delay each, a delay
+   each needs an element each, and once each has an element it can also have
+   its own wander, its own rhythm and its own place over the meadow.
+
+   Each carries two animations that cost the compositor nothing: a transform
+   that wanders and returns to where it started, so the loop is seamless at any
+   duration, and an opacity that flashes and goes out. The rest -- where it
+   hovers and how fast it breathes -- is nine custom properties per child and
+   no markup, which is what keeps the component a row of empty spans.
+
+   The glow IS the element: one radial gradient with a hot core, a lit body and
+   a long soft falloff, drawn 16px wide for a 3px insect. No blur filter, no
+   box-shadow, nothing that would make the Fire TV rasterise a layer per frame
+   (docs/DEPLOYMENT.md, rule 4).
+
+   They come out at dusk and hold the hour after it, and weather puts them
+   away: nothing is out over a wet meadow, and in fog nothing carries. */
+
+.ct-hillside .cs-flies {
+  --fly-hot:#fffdf0; --fly-lit:#f2ff9e; --fly-glow:rgba(196,255,116,.42); --fly-far:rgba(148,226,88,.12);
+  opacity:0;
+}
+.ct-hillside[data-light='dusk'] .cs-flies { opacity:.62; }
+.ct-hillside[data-light='night'] .cs-flies { opacity:1; }
+.ct-hillside[data-weather='rain'] .cs-flies,
+.ct-hillside[data-weather='sleet'] .cs-flies,
+.ct-hillside[data-weather='snow'] .cs-flies,
+.ct-hillside[data-weather='fog'] .cs-flies { opacity:0; }
+
+.cs-flies > span {
+  position:absolute; left:var(--fly-x); top:var(--fly-y);
+  width:16px; height:16px; margin:-8px 0 0 -8px;
+  /* Reduced motion stops both animations, and what is left standing is this
+     opacity: a still meadow with the lights on rather than an empty one. */
+  opacity:.72;
+  background:radial-gradient(circle closest-side,
+    var(--fly-hot) 0%, var(--fly-lit) 13%, var(--fly-glow) 28%, var(--fly-far) 56%, transparent 100%);
+  animation:fly-wander var(--fly-ms) ease-in-out infinite, fly-blink var(--blink-ms) ease-in-out infinite;
+  animation-delay:var(--fly-in), var(--blink-in);
+}
+
+/* Where each one hovers, how far it strays, and how often it answers. The
+   durations are deliberately coprime-ish and none of the delays match: two
+   fireflies that ever flash together look like one blinking light twice. */
+.cs-flies > span:nth-child(1) { --fly-x:15%; --fly-y:79%; --fly-dx:19px; --fly-dy:11px; --fly-ms:17s; --fly-in:-3s; --blink-ms:9.3s; --blink-in:-2.7s; }
+.cs-flies > span:nth-child(2) { --fly-x:27%; --fly-y:65%; --fly-dx:-14px; --fly-dy:14px; --fly-ms:21s; --fly-in:-9s; --blink-ms:12.7s; --blink-in:-8.4s; }
+.cs-flies > span:nth-child(3) { --fly-x:37%; --fly-y:85%; --fly-dx:23px; --fly-dy:-9px; --fly-ms:14s; --fly-in:-6s; --blink-ms:8.1s; --blink-in:-1.2s; }
+.cs-flies > span:nth-child(4) { --fly-x:48%; --fly-y:72%; --fly-dx:-20px; --fly-dy:-13px; --fly-ms:23s; --fly-in:-13s; --blink-ms:13.4s; --blink-in:-5.9s; }
+.cs-flies > span:nth-child(5) { --fly-x:57%; --fly-y:88%; --fly-dx:16px; --fly-dy:12px; --fly-ms:19s; --fly-in:-1s; --blink-ms:10.6s; --blink-in:-7.3s; }
+.cs-flies > span:nth-child(6) { --fly-x:66%; --fly-y:61%; --fly-dx:-17px; --fly-dy:9px; --fly-ms:16s; --fly-in:-11s; --blink-ms:11.2s; --blink-in:-3.1s; }
+.cs-flies > span:nth-child(7) { --fly-x:78%; --fly-y:80%; --fly-dx:21px; --fly-dy:-11px; --fly-ms:22s; --fly-in:-4s; --blink-ms:7.8s; --blink-in:-4.6s; }
+.cs-flies > span:nth-child(8) { --fly-x:88%; --fly-y:69%; --fly-dx:-12px; --fly-dy:15px; --fly-ms:18s; --fly-in:-16s; --blink-ms:12.1s; --blink-in:-9.8s; }
+
+/* Out, up, back. It ends where it began, so the loop never jumps however long
+   it is -- the same rule the drifting layers keep with --tile. */
+@keyframes fly-wander {
+  0%,100% { transform:translate3d(0,0,0); }
+  30% { transform:translate3d(var(--fly-dx),calc(var(--fly-dy) * -1),0); }
+  55% { transform:translate3d(calc(var(--fly-dx) * .35),var(--fly-dy),0); }
+  80% { transform:translate3d(calc(var(--fly-dx) * -.5),calc(var(--fly-dy) * -.4),0); }
+}
+/* A firefly is dark most of the time. Two pulses a cycle -- one full, one
+   half -- and a long way down between them: the flash is the whole animal.
+   Slow on purpose. The first draft ran a cycle in three seconds and read as a
+   string of fairy lights on a timer; at eight to thirteen it reads as
+   something alive deciding to answer. It is also why the two pulses are not
+   the same height and not evenly spaced. */
+@keyframes fly-blink {
+  0%,100% { opacity:.05; }
+  15% { opacity:.95; }
+  29% { opacity:.09; }
+  61% { opacity:.52; }
+  73% { opacity:.07; }
+}
+
+
+/* ── §7 Where the two bodies are ──────────────────────────────────────────*/
+
+/* The sun crosses the card once a day and the moon crosses it once a lunar
+   day, each on its own track and neither waiting for the other.
+   lib/sky-arc.ts reduces the real sky to two fractions of one per body --
+
+     --sun-cross, --moon-cross    0 where that body rises, 1 where it sets
+     --sun-climb, --moon-climb    its elevation over the highest it reaches here
 
    -- and components/weather-panel.tsx puts them on the card, once a minute.
    The four numbers that turn them into a place on the picture are in
@@ -269,20 +493,31 @@
 
    THIS IS WHY THE FOUR LIGHT PHASES NO LONGER CARRY A POSITION. They used to
    name one each, so the sun stood still through a whole morning and then
-   jumped at the turn of a phase. They still carry the disc's SIZE and COLOUR,
+   jumped at the turn of a phase. They still carry each disc's SIZE and COLOUR,
    which is what a light phase is actually about.
 
-   Nothing here has to hide the disc at night. A body below the horizon has a
-   negative --arc-climb, which puts it under --arc-low, which the traced clip
+   AND IT IS WHY THE LIGHT PHASE NO LONGER CHOOSES A BODY EITHER. One disc used
+   to be handed to the sun by day and the moon by night, which drew a moon that
+   could not exist before dusk -- the real one is up in the afternoon rather
+   more often than not -- and a sun that stopped existing at it. Both are on
+   the card at every hour now, and each is where it really is.
+
+   Nothing here has to hide either of them. A body below the horizon has a
+   negative climb, which puts it under --arc-low, which the traced clip
    path on .exterior-sky cuts away — the same clip that takes the cloud bank
    off the treeline. Twilight falls out of the same arithmetic: for the half
    hour the sun is a degree or two down, the disc is behind the ridge and its
-   bloom is not quite. */
+   bloom is not quite. (§2's one exception, once the sun is a whole night's
+   worth of degrees under, says why that stops working eventually.) */
 .ct-hillside {
-  /* A mid-morning sun, for the first paint before any report has arrived. */
-  --arc-cross:.32; --arc-climb:.55;
-  --sun-x:calc(var(--arc-from) + (var(--arc-to) - var(--arc-from)) * var(--arc-cross));
-  --sun-y:calc(var(--arc-low) + (var(--arc-high) - var(--arc-low)) * var(--arc-climb));
+  /* A mid-morning sun and a waxing gibbous behind it, for the first paint
+     before any report has arrived. */
+  --sun-cross:.32; --sun-climb:.55;
+  --moon-cross:.14; --moon-climb:.2; --moon-lit:.62; --moon-tilt:-24deg;
+  --sun-x:calc(var(--arc-from) + (var(--arc-to) - var(--arc-from)) * var(--sun-cross));
+  --sun-y:calc(var(--arc-low) + (var(--arc-high) - var(--arc-low)) * var(--sun-climb));
+  --moon-x:calc(var(--arc-from) + (var(--arc-to) - var(--arc-from)) * var(--moon-cross));
+  --moon-y:calc(var(--arc-low) + (var(--arc-high) - var(--arc-low)) * var(--moon-climb));
 }
 
 /* The land is painted; these transforms belong to the few foreground props. */

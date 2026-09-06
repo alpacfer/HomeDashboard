@@ -115,10 +115,12 @@ mark names whoever answered. All of these are parsed in `lib/debug-flags.ts`.
 
 `/?clock=workshop|plain` picks the clock widget's theme, and
 `/?sky=night,snow,heavy` pins any of the scenery's light phase, weather and
-rate, in any order. The sky is normally the real one — the sun's true
-elevation and the hour the weather card is showing — so pinning it is the only
-way to photograph a state the weather is not currently offering. Both are read
-where they are derived: `lib/clock-theme.ts` and `lib/clock-sky.ts`. See
+rate, in any order, and `/?sky=night,gibbous` pins the moon's phase as well.
+The sky is normally the real one — the sun's and the moon's true positions and
+the hour the weather card is showing — so pinning it is the only way to
+photograph a state the sky is not currently offering, whether that is snow in
+July or a full moon a fortnight away. Both are read where they are derived:
+`lib/clock-theme.ts` and `lib/clock-sky.ts`. See
 [docs/CLOCK.md](docs/CLOCK.md).
 
 ### Capture and diagnose

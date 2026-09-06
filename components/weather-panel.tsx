@@ -232,11 +232,21 @@ export default function WeatherPanel({ now, onConditions }: { now: Date | null; 
   return <section className={'weather-band' + (stale ? ' stale' : '')} aria-label={'Weather. ' + offlineDescription}>
     <div className={'weather' + (current ? ' ct-hillside condition-' + current.kind : ' weather-empty') + (daylight ? '' : ' night') + (view?.headline?.wet ? ' raining-now' : '')}
       data-light={sky?.light} data-weather={sky?.weather} data-fall={sky?.fall}
-      // Where the sun is, as two fractions of one. Not a layout style: the card
-      // has none in it, and app/horizon.css owns every position on this
-      // painting. These are the live half of a rule whose geometry was traced
-      // off the artwork by npm run horizon, and they change once a minute.
-      style={sky ? { '--arc-cross': sky.arc.cross.toFixed(4), '--arc-climb': sky.arc.climb.toFixed(4) } as React.CSSProperties : undefined}
+      // Where each body is, as two fractions of one, plus what the moon looks
+      // like: how much of it is lit, and how far its lit side is turned from
+      // the right-hand edge it is drawn on. Not layout styles: the card has
+      // none in it, and app/horizon.css owns every position on this painting.
+      // These are the live half of a rule whose geometry was traced off the
+      // artwork by npm run horizon, and they change once a minute.
+      // `--moon-lit` is the only phase number written, because the stylesheet
+      // derives both halves of the drawn shape from it — a bite out of the
+      // crescent, a bulge on the gibbous — and one number cannot disagree with
+      // itself the way two would.
+      style={sky ? {
+        '--sun-cross': sky.sun.cross.toFixed(4), '--sun-climb': sky.sun.climb.toFixed(4),
+        '--moon-cross': sky.moon.cross.toFixed(4), '--moon-climb': sky.moon.climb.toFixed(4),
+        '--moon-lit': sky.phase.illuminated.toFixed(4), '--moon-tilt': sky.phase.tilt.toFixed(1) + 'deg',
+      } as React.CSSProperties : undefined}
       aria-label={current && temperature !== null ? temperature + ' degrees Celsius, ' + current.label : 'Weather unavailable'}>
       {current && <WeatherWoodland />}
       <span className="weather-landing" aria-hidden="true" />

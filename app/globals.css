@@ -426,7 +426,13 @@ a:focus-visible { outline:2px solid var(--foreground); outline-offset:8px; }
 /* Reuse the painting's tabletop as a deeper foreground plane. The back edge
    sits above the raised glyph baseline; the front edge stays above the date. */
 .workshop-bench { top:65%; bottom:auto; height:17%; background-size:100% 925%; background-position:center 80.7%; }
-.shed-window-weather { position:absolute; left:78.3%; top:29%; width:11.3%; height:31%; overflow:hidden; border-radius:45% 45% 0 0; }
+/* The painted window's box, given once and used by the two layers that need
+   it in its own coordinates rather than the card's: the wash the weather puts
+   on the glass, and the sheen on the glass itself. Everything else about the
+   window is the traced pane mask in app/horizon.css, which is the accurate
+   shape; this is the rectangle it sits in, and a diagonal highlight has to be
+   drawn across THAT or it crosses the card and misses the window entirely. */
+.shed-window-weather,.shed-window-glass { position:absolute; left:78.3%; top:29%; width:11.3%; height:31%; overflow:hidden; border-radius:45% 45% 0 0; }
 .shed-window-rain { position:absolute; inset:-20px 0; }
 .weather-surface { border-radius:inherit; }
 .weather-shade { position:absolute; inset:0; background:linear-gradient(90deg,rgba(12,30,28,.7),rgba(12,30,28,.3) 48%,transparent 80%),linear-gradient(0deg,rgba(13,30,24,.45),transparent 40%); }

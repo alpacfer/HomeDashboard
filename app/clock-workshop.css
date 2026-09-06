@@ -3,10 +3,20 @@
 .ct-workshop {
   --clock-surface:#473426; --clock-ring:transparent;
   --shed-window-top:#7aa1a4; --shed-window-low:#c2d0a7; --shed-window-tree:#54765c;
+  /* The glass. --pane-sheen is the light standing on it and --pane-tint the
+     little the glass itself is, which is the same pair the forecast map's
+     frosted timeline is made of (--glass-sheen over --glass in
+     app/globals.css) and belongs to the light phase for the same reason: a
+     bright sheen at midnight reads as a hole in the picture rather than as a
+     window. */
+  --pane-sheen:rgba(255,255,255,.22); --pane-tint:rgba(226,240,244,.09); --pane-foot:rgba(58,74,66,.16);
 }
-.ct-workshop[data-light='dawn'] { --shed-window-top:#837585; --shed-window-low:#d2a480; }
-.ct-workshop[data-light='dusk'] { --shed-window-top:#506c75; --shed-window-low:#d09d68; }
-.ct-workshop[data-light='night'] { --shed-window-top:#152b3b; --shed-window-low:#496870; --shed-window-tree:#243f3c; }
+.ct-workshop[data-light='dawn'] { --shed-window-top:#837585; --shed-window-low:#d2a480;
+  --pane-sheen:rgba(255,244,232,.26); --pane-tint:rgba(238,228,222,.1); --pane-foot:rgba(74,62,66,.16); }
+.ct-workshop[data-light='dusk'] { --shed-window-top:#506c75; --shed-window-low:#d09d68;
+  --pane-sheen:rgba(255,238,214,.24); --pane-tint:rgba(228,212,196,.1); --pane-foot:rgba(62,52,44,.18); }
+.ct-workshop[data-light='night'] { --shed-window-top:#152b3b; --shed-window-low:#496870; --shed-window-tree:#243f3c;
+  --pane-sheen:rgba(198,220,244,.16); --pane-tint:rgba(140,170,196,.07); --pane-foot:rgba(10,24,36,.24); }
 .ct-workshop[data-weather='rain'],.ct-workshop[data-weather='fog'] { --shed-window-top:#657c80; --shed-window-low:#8ea09b; }
 .ct-workshop .clock-block {
   --ink:#ead8af; --colon:#ba9e65; --date-ink:#d9cba9;
@@ -87,12 +97,23 @@
 .clock-widget[data-light='dawn'],.weather[data-light='dawn'] { --ink-light:sepia(.2) saturate(.85) hue-rotate(-14deg); }
 .clock-widget[data-light='dusk'],.weather[data-light='dusk'] { --ink-light:brightness(.94) sepia(.25) saturate(1.2) hue-rotate(-10deg); }
 .clock-widget[data-light='night'],.weather[data-light='night'] { --ink-light:brightness(.86) sepia(.3) saturate(1.1) hue-rotate(-6deg); }
-.clock-widget[data-weather='cloudy'],.weather[data-weather='cloudy'] { --lit-weather:saturate(.8) brightness(.92); --ink-weather:saturate(.93); }
-.clock-widget[data-weather='overcast'],.weather[data-weather='overcast'],
-.clock-widget[data-weather='rain'],.weather[data-weather='rain'],
-.clock-widget[data-weather='sleet'],.weather[data-weather='sleet'] { --lit-weather:saturate(.58) brightness(.78); --ink-weather:saturate(.86); }
-.clock-widget[data-weather='fog'],.weather[data-weather='fog'] { --lit-weather:saturate(.55); --ink-weather:saturate(.8); }
-.weather[data-weather='snow'] { --lit-weather:saturate(.35) brightness(1.1); }
+/* WEATHER TOUCHES THE CLEARING AND NEVER THE ROOM, and it says itself with
+   cloud rather than with grey. Every one of these used to name the clock
+   widget as well as the weather card and run down to saturate(.35), so an
+   overcast hour -- the commonest sky Copenhagen has -- drained the shed's
+   timber, the ferns, the enamel jug and the digits along with the hillside.
+   The room is indoors. Nothing about the sky reaches it but the light through
+   one window, and that window is painted and drawn on separately.
+   What is left outside is a fifth of what it was: enough that a grey day is
+   not lit like a bright one, far too little to read as a desaturated picture.
+   The weather is said by the cloud bank, the rain and the veil, all of which
+   ADD something to the card. Do not put colour loss back in their place. */
+.weather[data-weather='cloudy'] { --lit-weather:saturate(.97) brightness(.98); }
+.weather[data-weather='overcast'],
+.weather[data-weather='rain'],
+.weather[data-weather='sleet'] { --lit-weather:saturate(.92) brightness(.95); }
+.weather[data-weather='fog'] { --lit-weather:saturate(.9); }
+.weather[data-weather='snow'] { --lit-weather:saturate(.9) brightness(1.04); }
 /* A static filter removes direct-sun warmth under thick cloud. It is never
    animated, and applies only to the artwork, never to weather text or digits.
    It reads the same --lit-weather the props do rather than restating the
@@ -101,16 +122,25 @@
    careless edit away from not doing that. Only the weather half, because the
    light phase is already painted into the plate this element loads. */
 .scene-paint { filter:var(--lit-weather); }
-[data-weather='overcast'] .scene-light,
-[data-weather='rain'] .scene-light,
-[data-weather='sleet'] .scene-light { background:linear-gradient(180deg,rgba(58,75,96,.3),rgba(25,47,67,.12)); }
+/* The wet-weather wash, and the fog below it, are the clearing's too. They
+   named neither card and so were painting a blue-grey rain light across the
+   inside of a shed, which is the other half of what made an overcast hour look
+   like a photocopy of the display. `.weather-surface` scopes them, the way the
+   snow rule below already did. */
+[data-weather='overcast'] .weather-surface .scene-light,
+[data-weather='rain'] .weather-surface .scene-light,
+[data-weather='sleet'] .weather-surface .scene-light { background:linear-gradient(180deg,rgba(58,75,96,.3),rgba(25,47,67,.12)); }
 [data-weather='snow'] .weather-surface .scene-light { background:linear-gradient(180deg,rgba(180,201,216,.2),rgba(224,236,236,.36)); }
-[data-weather='fog'] .scene-light { background:linear-gradient(180deg,rgba(171,186,190,.12),rgba(177,191,192,.42) 58%,rgba(143,165,164,.12)); }
-[data-light='night'][data-weather='fog'] .scene-light { background:linear-gradient(180deg,rgba(60,81,104,.1),rgba(77,99,118,.32) 58%,transparent); }
-/* ── Weather through the shed window ──────────────────────────────────────
+[data-weather='fog'] .weather-surface .scene-light { background:linear-gradient(180deg,rgba(171,186,190,.12),rgba(177,191,192,.42) 58%,rgba(143,165,164,.12)); }
+[data-light='night'][data-weather='fog'] .weather-surface .scene-light { background:linear-gradient(180deg,rgba(60,81,104,.1),rgba(77,99,118,.32) 58%,transparent); }
+/* ── Through the shed window ──────────────────────────────────────────────
    A full-card layer, like every other piece of scenery, wearing the pane mask
    from app/horizon.css: the mask alone says where the glass is, so there is no
-   second copy of the window's box to keep in step with the first.
+   second copy of the window's box to keep in step with the first. Three things
+   live inside it now and share that one mask -- the drifting cloud, the
+   fireflies in the trees just outside, and the sheen on the glass in front of
+   both. Which is why the weather's opacity ladder is on the CLOUD below and no
+   longer on the layer: it used to be the only thing in here.
 
    --shed-window-top and --shed-window-low finally do something. They were
    declared for all four light phases and both wet weathers and then used by
@@ -121,9 +151,9 @@
    The lobes are small on purpose. This layer is the width of the card and the
    window is a ninth of it, so a cloud the size of the clearing's would show as
    an edge crossing the glass over four minutes and never as a cloud. */
-.shed-window-sky { position:absolute; inset:0; width:100%; height:100%; pointer-events:none; opacity:0; }
+.shed-window-sky { position:absolute; inset:0; width:100%; height:100%; pointer-events:none; }
 .shed-window-cloud {
-  --tile:74px; position:absolute; top:0; left:0; width:200%; height:100%;
+  --tile:74px; position:absolute; top:0; left:0; width:200%; height:100%; opacity:0;
   /* Its own mask, on top of the pane mask the parent wears. Below
      --shed-sky-end the panes show painted trees, and a cloud crossing a tree
      is a smudge on the glass rather than weather beyond it. Two masks on two
@@ -143,21 +173,82 @@
 }
 /* How much sky there is to see. Clear weather leaves the painting alone; the
    rest is the same ladder the clearing's cloud bank climbs. */
-.ct-workshop[data-weather='partly'] .shed-window-sky { opacity:.42; }
-.ct-workshop[data-weather='cloudy'] .shed-window-sky { opacity:.62; }
-.ct-workshop[data-weather='overcast'] .shed-window-sky,
-.ct-workshop[data-weather='rain'] .shed-window-sky,
-.ct-workshop[data-weather='sleet'] .shed-window-sky,
-.ct-workshop[data-weather='snow'] .shed-window-sky { opacity:.78; }
+.ct-workshop[data-weather='partly'] .shed-window-cloud { opacity:.42; }
+.ct-workshop[data-weather='cloudy'] .shed-window-cloud { opacity:.62; }
+.ct-workshop[data-weather='overcast'] .shed-window-cloud,
+.ct-workshop[data-weather='rain'] .shed-window-cloud,
+.ct-workshop[data-weather='sleet'] .shed-window-cloud,
+.ct-workshop[data-weather='snow'] .shed-window-cloud { opacity:.78; }
 /* Fog is not cloud passing; it is the distance gone. One flat veil, no drift. */
-.ct-workshop[data-weather='fog'] .shed-window-sky { opacity:.7; }
 .ct-workshop[data-weather='fog'] .shed-window-cloud {
+  opacity:.7;
   background-image:linear-gradient(180deg,rgba(206,216,214,.5),rgba(214,222,220,.85));
   background-size:100% 100%; animation:none; width:100%;
   /* Fog is the distance gone, not something passing in front of it: it takes
      the trees as well as the sky, so it does not wear the sky fade. */
   -webkit-mask-image:none; mask-image:none;
 }
+
+/* ── Fireflies in the trees outside ───────────────────────────────────────
+   The same insects as the clearing's, seen through a window a ninth of the
+   card wide, so: four rather than eight, a third of the glow, and a wander
+   measured in a few pixels. They reuse @keyframes fly-wander and fly-blink
+   from app/clock-hillside.css -- keyframes are document-wide, and two copies
+   of a blink is exactly the kind of pair that drifts apart.
+
+   They wear the OPPOSITE mask to the cloud: the cloud fades out at
+   --shed-sky-end because sky is above it, and these fade IN there because
+   trees are below it. A firefly hovering in the open sky over the treeline is
+   the one place this could go wrong, and one gradient prevents it. */
+.shed-window-flies {
+  position:absolute; inset:0; width:100%; height:100%; opacity:0;
+  -webkit-mask-image:linear-gradient(180deg,transparent calc(var(--shed-sky-end) - 2%),#000 calc(var(--shed-sky-end) + 5%));
+  mask-image:linear-gradient(180deg,transparent calc(var(--shed-sky-end) - 2%),#000 calc(var(--shed-sky-end) + 5%));
+}
+.ct-workshop[data-light='dusk'] .shed-window-flies { opacity:.6; }
+.ct-workshop[data-light='night'] .shed-window-flies { opacity:1; }
+.ct-workshop[data-weather='rain'] .shed-window-flies,
+.ct-workshop[data-weather='sleet'] .shed-window-flies,
+.ct-workshop[data-weather='snow'] .shed-window-flies,
+.ct-workshop[data-weather='fog'] .shed-window-flies { opacity:0; }
+.shed-window-flies > span {
+  position:absolute; left:var(--fly-x); top:var(--fly-y);
+  width:9px; height:9px; margin:-4.5px 0 0 -4.5px; opacity:.7;
+  background:radial-gradient(circle closest-side,
+    #fffdf0 0%, #eeff9c 16%, rgba(190,252,110,.4) 34%, rgba(142,222,84,.1) 60%, transparent 100%);
+  animation:fly-wander var(--fly-ms) ease-in-out infinite, fly-blink var(--blink-ms) ease-in-out infinite;
+  animation-delay:var(--fly-in), var(--blink-in);
+}
+.shed-window-flies > span:nth-child(1) { --fly-x:80.4%; --fly-y:45%; --fly-dx:4px; --fly-dy:3px; --fly-ms:15s; --fly-in:-2s; --blink-ms:10.4s; --blink-in:-1.7s; }
+.shed-window-flies > span:nth-child(2) { --fly-x:84%; --fly-y:52%; --fly-dx:-5px; --fly-dy:4px; --fly-ms:19s; --fly-in:-8s; --blink-ms:13.1s; --blink-in:-6.3s; }
+.shed-window-flies > span:nth-child(3) { --fly-x:87.5%; --fly-y:46.5%; --fly-dx:3px; --fly-dy:-4px; --fly-ms:13s; --fly-in:-5s; --blink-ms:8.6s; --blink-in:-9.2s; }
+.shed-window-flies > span:nth-child(4) { --fly-x:82%; --fly-y:56%; --fly-dx:5px; --fly-dy:-3px; --fly-ms:21s; --fly-in:-14s; --blink-ms:11.9s; --blink-in:-4.1s; }
+
+/* ── The glass itself ─────────────────────────────────────────────────────
+   What the four panes are made of, rather than what is behind them. Same two
+   ingredients as the forecast map's frosted timeline -- a sheen over a tint --
+   for the same reason: the dashboard should have one kind of glass on it.
+
+   Drawn in the WINDOW's box (app/globals.css) and not the card's, because a
+   diagonal highlight is a diagonal of whatever it is drawn across, and across
+   the card it would cross the bench and miss the window by 200px. The parent's
+   pane mask then cuts the one highlight into four, which is what a real
+   window does to a reflection and is the whole reason this reads as glass.
+
+   No backdrop-filter, which is what the map's timeline uses to frost what is
+   under it. An ancestor with a mask is a backdrop root, so a filter in here
+   would sample the cloud and the fireflies -- its siblings inside the mask --
+   and never the painted trees behind the whole layer, which are the only thing
+   worth frosting. Two gradients cost nothing and do the job at 39 by 49px. */
+.shed-window-glass {
+  pointer-events:none;
+  background-image:
+    linear-gradient(116deg,
+      transparent 30%, var(--pane-sheen) 36%, var(--pane-sheen) 41%, transparent 47%,
+      transparent 57%, var(--pane-sheen) 61%, transparent 66%),
+    linear-gradient(180deg, var(--pane-tint) 0%, transparent 46%, var(--pane-foot) 100%);
+}
+
 .shed-window-weather { background:transparent; }
 [data-weather='overcast'] .shed-window-weather,
 [data-weather='rain'] .shed-window-weather,

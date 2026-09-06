@@ -1,6 +1,6 @@
 import test from 'node:test';
 import assert from 'node:assert/strict';
-import { bodyElevation, bodyEquatorial, peakElevation, skyArc } from '../lib/sky-arc.ts';
+import { bodyElevation, bodyEquatorial, moonPhase, peakElevation, skyArc } from '../lib/sky-arc.ts';
 import { FORECAST_LATITUDE, FORECAST_LONGITUDE, solarElevation } from '../lib/weather.ts';
 
 const LAT = FORECAST_LATITUDE;
@@ -183,4 +183,107 @@ test('the poles do not divide by zero', () => {
       assert.ok(Number.isFinite(climb) && climb >= -0.18 && climb <= 1, 'climb was ' + climb + ' at ' + latitude);
     }
   }
+});
+
+// ── The phase ─────────────────────────────────────────────────────────────
+
+const phase = timestamp => moonPhase(timestamp, LAT, LON);
+
+test('the moon is lit the way the almanac says on four dates anyone can check', () => {
+  // Four instants from the standard tables, and the only absolute anchors in
+  // this file for the phase: everything else below is about how the number
+  // behaves rather than about which number it is. New moon here is Meeus's
+  // lunation zero and the full moon is the January 2000 total lunar eclipse,
+  // which is as unambiguous as a full moon gets -- the earth's shadow was on
+  // it. The abridged series is good to about a degree of elongation, which
+  // near new or full is worth well under a thousandth of the disc.
+  assert.ok(phase(Date.UTC(2000, 0, 6, 18, 14)).illuminated < 0.002,
+    'lunation zero is a new moon, got ' + phase(Date.UTC(2000, 0, 6, 18, 14)).illuminated);
+  assert.ok(phase(Date.UTC(2000, 0, 21, 4, 40)).illuminated > 0.998,
+    'the January 2000 eclipse was a full moon, got ' + phase(Date.UTC(2000, 0, 21, 4, 40)).illuminated);
+  for (const [label, at] of [['first', Date.UTC(2000, 0, 14, 13, 34)], ['last', Date.UTC(2000, 0, 28, 7, 57)]]) {
+    const lit = phase(at).illuminated;
+    assert.ok(Math.abs(lit - 0.5) < 0.03, 'the ' + label + ' quarter is a half moon, got ' + lit);
+  }
+});
+
+test('the phase runs a synodic month, and reaches both ends of itself', () => {
+  // Two claims the four dates above cannot make: that it is a cycle of the
+  // right LENGTH, and that it actually gets dark and actually gets full rather
+  // than oscillating somewhere in the middle. A phase built on the moon's
+  // series alone -- forgetting that the sun moves too -- passes every
+  // single-instant check and comes back two days early here.
+  const start = Date.UTC(2026, 0, 3);
+  assert.ok(Math.abs(phase(start).illuminated - phase(start + 29.530589 * 86400000).illuminated) < 0.01,
+    'a synodic month should return the moon to the same phase');
+  let low = 1;
+  let high = 0;
+  for (let hour = 0; hour < 24 * 30; hour += 1) {
+    const lit = phase(start + hour * 3600000).illuminated;
+    assert.ok(lit >= 0 && lit <= 1, 'the lit fraction left [0,1] at hour ' + hour + ': ' + lit);
+    low = Math.min(low, lit);
+    high = Math.max(high, lit);
+  }
+  assert.ok(low < 0.01, 'a month should contain a new moon, darkest was ' + low);
+  assert.ok(high > 0.99, 'and a full one, brightest was ' + high);
+});
+
+test('the lit side faces the sun, whatever the hour has done to the picture', () => {
+  // The tilt is the half of a phase a picture gets wrong. It is checked here
+  // by the one property that defines it: turn the drawn moon -- which is lit on
+  // its right-hand edge, at 90 degrees clockwise from up -- by the tilt, and
+  // the lit edge must point at the sun as this observer sees it.
+  //
+  // So the sun's own place in the sky is worked out independently, from its
+  // altitude and azimuth, and the two are required to agree. Nothing in
+  // lib/sky-arc.ts is reused for it except the elevations, which is what makes
+  // this a check and not a restatement.
+  const R = Math.PI / 180;
+  for (const at of [
+    Date.UTC(2026, 0, 12, 18, 0), Date.UTC(2026, 3, 2, 4, 0),
+    Date.UTC(2026, 6, 19, 22, 0), Date.UTC(2026, 9, 8, 12, 0), Date.UTC(2026, 11, 30, 2, 0),
+  ]) {
+    // Altitude from the library; azimuth by the standard formula, from the
+    // right ascension and declination it publishes.
+    const place = body => {
+      const { rightAscension, declination } = bodyEquatorial(body, at);
+      const gmst = (18.697374558 + 24.06570982441908 * (at / 86400000 - 10957.5)) % 24 * 15;
+      const hourAngle = (gmst + LON - rightAscension) * R;
+      const altitude = bodyElevation(body, at, LAT, LON) * R;
+      const azimuth = Math.atan2(Math.sin(hourAngle),
+        Math.cos(hourAngle) * Math.sin(LAT * R) - Math.tan(declination * R) * Math.cos(LAT * R)) + Math.PI;
+      return { altitude, azimuth };
+    };
+    const moon = place('moon');
+    const sun = place('sun');
+    // The screen frame at the moon: up is the zenith, right is a rising
+    // azimuth, both projected into the plane of the sky. Then where the sun is
+    // in it, as an angle clockwise from up.
+    const unit = ({ altitude, azimuth }) =>
+      [Math.cos(altitude) * Math.sin(azimuth), Math.cos(altitude) * Math.cos(azimuth), Math.sin(altitude)];
+    const m = unit(moon);
+    const s = unit(sun);
+    const dot = (a, b) => a[0] * b[0] + a[1] * b[1] + a[2] * b[2];
+    const up = [-m[2] * m[0], -m[2] * m[1], 1 - m[2] * m[2]];
+    const length = Math.hypot(...up);
+    const upward = up.map(value => value / length);
+    const right = [m[1] * upward[2] - m[2] * upward[1], m[2] * upward[0] - m[0] * upward[2], m[0] * upward[1] - m[1] * upward[0]];
+    const expected = Math.atan2(dot(s, right), dot(s, upward)) / R - 90;
+    const apart = Math.abs(((phase(at).tilt - expected + 540) % 360) - 180);
+    assert.ok(apart < 0.5,
+      'at ' + new Date(at).toISOString() + ' the lit limb should point at the sun, out by ' + apart.toFixed(2) + ' degrees');
+  }
+});
+
+test('a new moon and a full moon are the two ends of one turn', () => {
+  // A waxing moon and a waning one of the same shape are drawn by the same two
+  // elements and told apart by the tilt alone, so the tilt has to carry it: the
+  // same phase either side of full must point about opposite ways. Seven days
+  // before and after a full moon is a pair of half moons lit on opposite limbs.
+  const full = Date.UTC(2026, 8, 26, 16, 49);
+  const before = phase(full - 7 * 86400000);
+  const after = phase(full + 7 * 86400000);
+  assert.ok(Math.abs(before.illuminated - after.illuminated) < 0.12, 'the two should be about the same shape');
+  const apart = Math.abs(((before.tilt - after.tilt + 540) % 360) - 180);
+  assert.ok(apart > 120, 'and lit from opposite sides, only ' + apart.toFixed(0) + ' degrees apart');
 });

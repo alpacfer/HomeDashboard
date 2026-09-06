@@ -12,31 +12,51 @@
 // plausible, quiet sky rather than an empty one, because the alternative is a
 // card that flashes from blank to weather on first load.
 //
-// The fourth thing, `arc`, is where the sun or the moon is: two fractions that
-// app/horizon.css turns into a point on the painting. It is derived here rather
-// than in the component because it has to follow the light phase, pin and all —
-// `?sky=night` must produce a moon on its own arc and not a sun parked at the
-// edge of the card.
+// The rest of it is the two bodies. `sun` and `moon` are each where that body
+// is — two fractions that app/horizon.css turns into a point on the painting —
+// and `phase` is what the moon looks like tonight. Both bodies are reported at
+// every hour, because both are up at some hours and the traced horizon mask is
+// what hides whichever one is under the land. That is also why neither follows
+// the light phase: a moon at four in the afternoon is a real moon in a real
+// afternoon sky, and pinning `?sky=night` at noon must not move it.
 //
-//   ?sky=night,snow,heavy   Pins any of the three, in any order, for a look at
+//   ?sky=night,snow,heavy   Pins any of the four, in any order, for a look at
 //                           a sky the real weather is not currently offering.
 //                           Read here rather than in lib/debug-flags.ts for the
 //                           same reason `?date=` is read in lib/daily-facts.ts:
 //                           this is where the value is derived. Anything
 //                           unrecognised is ignored, so a typo shows the real
 //                           weather rather than a blank card.
+//
+//   ?sky=night,gibbous      The fourth is the moon's phase, and it is here for
+//                           the same reason snow is: the real one takes a
+//                           fortnight to go from a crescent to a gibbous, and
+//                           those are the two sides of a branch in the
+//                           stylesheet that draws them. Only the lit fraction
+//                           is pinned. Which way the moon leans is a fact about
+//                           the hour rather than the month, so it keeps
+//                           following the real sky and `?time=` moves it.
 
-import { skyArc, type SkyArc } from './sky-arc';
+import { moonPhase, skyArc, type MoonPhase, type SkyArc } from './sky-arc';
 import { FORECAST_LATITUDE, FORECAST_LONGITUDE, solarElevation, type Band, type ConditionKind } from './weather';
 
 export const SKY_LIGHTS = ['night', 'dawn', 'day', 'dusk'] as const;
 export const SKY_WEATHERS = ['clear', 'partly', 'cloudy', 'overcast', 'fog', 'rain', 'sleet', 'snow'] as const;
 export const SKY_FALLS = ['none', 'light', 'moderate', 'heavy'] as const;
+// Five moons, by the fraction of the disc lit. Named rather than numeric
+// because these are the shapes worth looking at, and a phase written 0.7734
+// in a URL says nothing about what should be on the card.
+export const SKY_MOONS: Readonly<Record<string, number>> = {
+  new: 0, crescent: 0.18, half: 0.5, gibbous: 0.78, full: 1,
+};
 
 export type SkyLight = (typeof SKY_LIGHTS)[number];
 export type SkyWeather = (typeof SKY_WEATHERS)[number];
 export type SkyFall = (typeof SKY_FALLS)[number];
-export type Sky = { light: SkyLight; weather: SkyWeather; fall: SkyFall; arc: SkyArc };
+export type Sky = { light: SkyLight; weather: SkyWeather; fall: SkyFall; sun: SkyArc; moon: SkyArc; phase: MoonPhase };
+/** What `?sky=` may hold. Not a Partial<Sky>: no pin places a body, and the
+ *  moon's pin is half of its phase rather than the whole of it. */
+export type PinnedSky = { light?: SkyLight; weather?: SkyWeather; fall?: SkyFall; lit?: number };
 
 // Civil twilight, in degrees of solar elevation. Above DAY_ABOVE the light is
 // plainly day and below NIGHT_BELOW it is plainly night; between them is the
@@ -86,32 +106,40 @@ export function skyFall(kind: ConditionKind | null, band: Band | null): SkyFall 
   return FALL[band];
 }
 
-/** The three pinned by `?sky=`, in any order. Unrecognised tokens are ignored. */
-export function parsePinnedSky(value: string | null): Partial<Sky> {
-  const pinned: { light?: SkyLight; weather?: SkyWeather; fall?: SkyFall } = {};
+/** The four pinned by `?sky=`, in any order. Unrecognised tokens are ignored. */
+export function parsePinnedSky(value: string | null): PinnedSky {
+  const pinned: PinnedSky = {};
   for (const token of (value ?? '').split(',').map(part => part.trim().toLowerCase())) {
     if (has(SKY_LIGHTS, token)) pinned.light = token;
     else if (has(SKY_WEATHERS, token)) pinned.weather = token;
     else if (has(SKY_FALLS, token)) pinned.fall = token;
+    else if (token in SKY_MOONS) pinned.lit = SKY_MOONS[token];
   }
   return pinned;
 }
 
 export function clockSky(
-  timestamp: number, kind: ConditionKind | null, band: Band | null, pinned: Partial<Sky> = {},
+  timestamp: number, kind: ConditionKind | null, band: Band | null, pinned: PinnedSky = {},
 ): Sky {
   const light = pinned.light ?? skyLight(timestamp);
+  const phase = moonPhase(timestamp, FORECAST_LATITUDE, FORECAST_LONGITUDE);
   return {
     light,
     weather: pinned.weather ?? skyWeather(kind),
     fall: pinned.fall ?? skyFall(kind, band),
-    // Which body is in the sky is the same question the light phase already
-    // answers, so it is answered once: after dusk the disc the card draws is a
-    // moon -- clock-hillside.css has been colouring it like one for as long as
-    // there has been a night state -- and a moon belongs where the moon is.
-    // The changeover happens at six degrees below the horizon, by which point
-    // both bodies are drawn under the traced seam, so nothing jumps in view.
-    arc: skyArc(timestamp, light === 'night' ? 'moon' : 'sun', FORECAST_LATITUDE, FORECAST_LONGITUDE),
+    // Both bodies, every hour, on their own arcs. The card used to draw ONE
+    // disc and hand it to whichever body the light phase said was on duty,
+    // which meant the sun stopped existing at dusk and the moon did not exist
+    // before it -- and a moon in an afternoon sky, which is most afternoons,
+    // could not be drawn at all. Nothing here decides what is visible: a body
+    // below the horizon has a negative climb, which puts it under --arc-low,
+    // which the traced mask cuts away.
+    sun: skyArc(timestamp, 'sun', FORECAST_LATITUDE, FORECAST_LONGITUDE),
+    moon: skyArc(timestamp, 'moon', FORECAST_LATITUDE, FORECAST_LONGITUDE),
+    // A pinned phase changes the shape and nothing else: the moon still leans
+    // the way the real one leans at this hour, because that is what makes a
+    // pinned crescent worth photographing at three different times.
+    phase: pinned.lit === undefined ? phase : { ...phase, illuminated: pinned.lit },
   };
 }
 
