@@ -62,7 +62,7 @@
 import { mkdir, writeFile } from 'node:fs/promises';
 import path from 'node:path';
 import { fileURLToPath } from 'node:url';
-import { findChrome, launchChrome, openPage, pageUrl, waitForServer } from './lib/browser.mjs';
+import { findChrome, launchChrome, openPage, pageUrl, takeUrlFlag, waitForServer } from './lib/browser.mjs';
 
 const ROOT = path.resolve(path.dirname(fileURLToPath(import.meta.url)), '..');
 
@@ -123,24 +123,17 @@ function parseArgs(argv) {
       case '--no-shot': options.shot = false; break;
       case '--out': options.out = value(); break;
       case '--scale': options.scale = Number(value()); break;
-      case '--url': options.url = arg.includes('=') ? arg.slice('--url='.length) : next(); break;
-      case '--scene': options.scene = value(); break;
-      case '--fact': options.fact = value(); break;
-      case '--time': options.time = value(); break;
       case '--sky': options.skies.push(value()); break;
-      case '--pet': options.pet = value(); break;
-      case '--date': options.date = value(); break;
-      case '--offline': options.offline = true; break;
-      case '--demo': options.demo = true; break;
-      case '--dry': options.dry = true; break;
-      case '--no-weather': options.noWeather = true; break;
-      case '--transit-demo': options.transitDemo = true; break;
       case '--width': options.width = Number(value()); break;
       case '--height': options.height = Number(value()); break;
       case '--wait': options.wait = Number(value()); break;
       case '--chrome': options.chrome = value(); break;
       case '--help': case '-h': options.help = true; break;
-      default: throw new Error('Unknown option ' + arg + '. See the header of scripts/scene-guides.mjs.');
+      // --sky above is this tool's own: it is repeatable here and single
+      // elsewhere. Its case wins before the shared handler is reached.
+      default:
+        if (takeUrlFlag(flag, options, value, arg)) break;
+        throw new Error('Unknown option ' + arg + '. See the header of scripts/scene-guides.mjs.');
     }
   }
   return options;

@@ -256,13 +256,26 @@ for (const [, id, family] of faces) {
 //    screenshot and a motion measurement of "the same" scene are not of the
 //    same scene. scripts/lib/browser.mjs builds the URL for both and names the
 //    flags; this is the check that neither script has fallen behind it.
+//     Every browser tool must accept every flag that goes into the page URL,
+//     or capturing a scene and measuring "the same" scene quietly differ.
+//     This used to grep each script for the literal text `case '--sky':`,
+//     which could not tell an implemented arm from an empty one and covered
+//     only the three scripts named in the list -- scene-guides.mjs accepts all
+//     twelve and was never checked. The arms live in browser.mjs now, so what
+//     is left to verify is that each tool actually routes to them.
 const { URL_FLAGS } = await import('./lib/browser.mjs');
-for (const script of ['scripts/screenshot.mjs', 'scripts/measure-motion.mjs', 'scripts/audit-ui.mjs']) {
+const BROWSER_TOOLS = (await list('scripts', /\.mjs$/)).filter(script => !script.includes('/lib/'));
+for (const script of BROWSER_TOOLS) {
   const source = await read(script);
-  for (const flag of URL_FLAGS) {
-    if (!source.includes("case '" + flag + "':")) {
-      fail(script, 'does not accept ' + flag + ', which scripts/lib/browser.mjs puts in the page URL. Both browser tools must take the same URL flags.');
-    }
+  if (!/from '\.\/lib\/browser\.mjs'/.test(source)) continue;
+  if (!/\bpageUrl\(/.test(source)) continue;
+  if (/\btakeUrlFlag\(/.test(source)) continue;
+  // A tool that builds the page URL but parses the flags itself has to prove
+  // it takes all of them.
+  const missing = URL_FLAGS.filter(flag => !source.includes("case '" + flag + "':"));
+  if (missing.length) {
+    fail(script, 'builds a page URL but does not accept ' + missing.join(', ')
+      + '. Route the default branch of its switch through takeUrlFlag(), as the other browser tools do.');
   }
 }
 

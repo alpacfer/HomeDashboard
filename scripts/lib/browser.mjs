@@ -149,6 +149,39 @@ export async function launchChrome(binary, width, height) {
 // scripts still advertised it. scripts/check-rules.mjs enforces the list.
 export const URL_FLAGS = ['--url', '--scene', '--fact', '--offline', '--demo', '--dry', '--no-weather', '--transit-demo', '--time', '--pet', '--date', '--sky'];
 
+/**
+ * Handle one of URL_FLAGS, or report that it is not one.
+ *
+ * Every browser tool parses its own arguments -- they each have flags nobody
+ * else has, and a shared parser for all of them would be worse than the
+ * duplication. But these twelve arms were written out four times, identically,
+ * and their agreement was checked by grepping the scripts for the literal text
+ * `case '--sky':`. That check could not tell an implemented arm from an empty
+ * one, and it could only ever cover scripts someone remembered to list.
+ *
+ * Call it from the default branch of a tool's own switch: it returns true if
+ * it took the flag, false if the caller should reject it. `arg` is the raw
+ * argument, which only --url needs: its values contain '=', so it is the one
+ * flag the callers keep out of their generic `--flag=value` split.
+ */
+export function takeUrlFlag(flag, options, value, arg = flag) {
+  switch (flag) {
+    case '--url': options.url = arg.startsWith('--url=') ? arg.slice('--url='.length) : value(); return true;
+    case '--scene': options.scene = value(); return true;
+    case '--fact': options.fact = value(); return true;
+    case '--offline': options.offline = true; return true;
+    case '--demo': options.demo = true; return true;
+    case '--dry': options.dry = true; return true;
+    case '--no-weather': options.noWeather = true; return true;
+    case '--transit-demo': options.transitDemo = true; return true;
+    case '--time': options.time = value(); return true;
+    case '--pet': options.pet = value(); return true;
+    case '--date': options.date = value(); return true;
+    case '--sky': options.sky = value(); return true;
+    default: return false;
+  }
+}
+
 export function pageUrl(options) {
   const url = new URL(options.url ?? 'http://127.0.0.1:3000/');
   if (options.scene) url.searchParams.set('scene', options.scene);

@@ -58,7 +58,7 @@
 // fault — the Tenant chooses when to move — so it exits 0 and says so.
 
 import { fileURLToPath } from 'node:url';
-import { findChrome, launchChrome, openPage, pageUrl, waitForServer } from './lib/browser.mjs';
+import { findChrome, launchChrome, openPage, pageUrl, takeUrlFlag, waitForServer } from './lib/browser.mjs';
 
 // Where "a thing crossing the frame" stops being a plausible reading of this
 // number. Both ends were measured on the forecast map over four seconds: the
@@ -77,18 +77,6 @@ function parseArgs(argv) {
     switch (flag) {
       // These must mean the same as they do in scripts/screenshot.mjs;
       // the URL they build is shared, in scripts/lib/browser.mjs.
-      case '--url': options.url = arg.includes('=') ? arg.slice('--url='.length) : next(); break;
-      case '--scene': options.scene = value(); break;
-      case '--fact': options.fact = value(); break;
-      case '--offline': options.offline = true; break;
-      case '--demo': options.demo = true; break;
-      case '--dry': options.dry = true; break;
-      case '--no-weather': options.noWeather = true; break;
-      case '--transit-demo': options.transitDemo = true; break;
-      case '--time': options.time = value(); break;
-      case '--pet': options.pet = value(); break;
-      case '--date': options.date = value(); break;
-      case '--sky': options.sky = value(); break;
       case '--selector': options.selector = value(); break;
       case '--seconds': options.seconds = Number(value()); break;
       case '--samples': options.samples = Number(value()); break;
@@ -99,7 +87,9 @@ function parseArgs(argv) {
       case '--console': options.console = true; break;
       case '--chrome': options.chrome = value(); break;
       case '--help': case '-h': options.help = true; break;
-      default: throw new Error('Unknown option ' + arg + '. See the header of scripts/measure-motion.mjs.');
+      default:
+        if (takeUrlFlag(flag, options, value, arg)) break;
+        throw new Error('Unknown option ' + arg + '. See the header of scripts/measure-motion.mjs.');
     }
   }
   return options;

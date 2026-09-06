@@ -26,7 +26,7 @@
 import { mkdir, writeFile, rm } from 'node:fs/promises';
 import path from 'node:path';
 import { fileURLToPath } from 'node:url';
-import { findChrome, launchChrome, openPage, pageUrl, waitForServer } from './lib/browser.mjs';
+import { findChrome, launchChrome, openPage, pageUrl, takeUrlFlag, waitForServer } from './lib/browser.mjs';
 
 const ROOT = path.resolve(path.dirname(fileURLToPath(import.meta.url)), '..');
 const FRAMES_DIR = path.join(ROOT, 'screenshots', '.roll-frames');
@@ -36,18 +36,24 @@ const FRAMES_DIR = path.join(ROOT, 'screenshots', '.roll-frames');
 const FRAMES = 20, EVERY = 120, ENTER_AT = 58.7;
 
 function parseArgs(argv) {
-  const options = { sky: 'dusk,clear', clip: '.clock-block', out: 'clock-roll.png', pad: 2 };
+  // offline by default: this tool is about the digits, and it should never
+  // spend a provider's quota to photograph them. Any of the weather flags
+  // below overrides it, since pageUrl ranks them.
+  const options = { sky: 'dusk,clear', clip: '.clock-block', out: 'clock-roll.png', pad: 2, offline: true };
   for (let index = 0; index < argv.length; index += 1) {
+    const arg = argv[index];
     const next = () => { index += 1; return argv[index]; };
-    switch (argv[index]) {
-      case '--sky': options.sky = next(); break;
+    const value = () => next();
+    switch (arg) {
       case '--clip': options.clip = next(); break;
       case '--out': options.out = next(); break;
       case '--pad': options.pad = Number(next()); break;
       case '--frames': options.frames = Number(next()); break;
       case '--every': options.every = Number(next()); break;
       case '--help': case '-h': options.help = true; break;
-      default: throw new Error('Unknown flag ' + argv[index]);
+      default:
+        if (takeUrlFlag(arg, options, value, arg)) break;
+        throw new Error('Unknown flag ' + arg);
     }
   }
   return options;
@@ -62,7 +68,7 @@ if (options.help) {
 
 const frames = options.frames ?? FRAMES;
 const every = options.every ?? EVERY;
-const url = pageUrl({ offline: true, sky: options.sky });
+const url = pageUrl(options);
 const sleep = ms => new Promise(resolve => setTimeout(resolve, ms));
 
 await waitForServer(url);

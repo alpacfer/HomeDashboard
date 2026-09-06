@@ -47,7 +47,7 @@
 import { mkdir, writeFile } from 'node:fs/promises';
 import path from 'node:path';
 import { fileURLToPath } from 'node:url';
-import { findChrome, launchChrome, openPage, pageUrl, waitForServer } from './lib/browser.mjs';
+import { findChrome, launchChrome, openPage, pageUrl, takeUrlFlag, waitForServer } from './lib/browser.mjs';
 
 const ROOT = path.resolve(path.dirname(fileURLToPath(import.meta.url)), '..');
 
@@ -102,18 +102,6 @@ function parseArgs(argv) {
     const [flag, inline] = arg.includes('=') && arg.startsWith('--') && !arg.startsWith('--url') ? arg.split(/=(.*)/s) : [arg, undefined];
     const value = () => inline ?? next();
     switch (flag) {
-      case '--url': options.url = arg.includes('=') ? arg.slice('--url='.length) : next(); break;
-      case '--scene': options.scenes.push(value()); break;
-      case '--fact': options.fact = value(); break;
-      case '--offline': options.offline = true; break;
-      case '--demo': options.demo = true; break;
-      case '--dry': options.dry = true; break;
-      case '--no-weather': options.noWeather = true; break;
-      case '--transit-demo': options.transitDemo = true; break;
-      case '--time': options.time = value(); break;
-      case '--pet': options.pet = value(); break;
-      case '--date': options.date = value(); break;
-      case '--sky': options.sky = value(); break;
       case '--width': options.width = Number(value()); break;
       case '--height': options.height = Number(value()); break;
       case '--min-font': options.minFont = Number(value()); break;
@@ -126,7 +114,9 @@ function parseArgs(argv) {
       case '--console': options.console = true; break;
       case '--chrome': options.chrome = value(); break;
       case '--help': case '-h': options.help = true; break;
-      default: throw new Error('Unknown option ' + arg + '. See the header of scripts/audit-ui.mjs.');
+      default:
+        if (takeUrlFlag(flag, options, value, arg)) break;
+        throw new Error('Unknown option ' + arg + '. See the header of scripts/audit-ui.mjs.');
     }
   }
   return options;
