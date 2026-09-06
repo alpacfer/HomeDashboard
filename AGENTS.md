@@ -84,7 +84,7 @@ Dependencies point inward: `app/` → `components/` → `lib/`. Nothing points b
 
 | Directory | Holds |
 | --- | --- |
-| `app/` | Route entry points and stylesheets only: `layout.tsx`, `page.tsx`, the five `*.css` files, and the two routes `app/api/departures/route.ts` and `app/api/weather/route.ts`. |
+| `app/` | Route entry points and stylesheets only: `layout.tsx`, `page.tsx`, the six `*.css` files, and the two routes `app/api/departures/route.ts` and `app/api/weather/route.ts`. |
 | `components/` | React components that own browser effects: timers, fetches, storage, Leaflet, wake lock. |
 | `lib/` | Pure logic: parsing, validation, time conversion, selection, rotation timing. |
 | `tests/` | One `node:test` suite per `lib/` module. |
@@ -111,9 +111,10 @@ state, and add a fixture test for the malformed case. `validWeatherHours`
 zone. Dates, hours, departures, and daily-fact keys are Copenhagen-local unless
 an API contract explicitly says otherwise.
 
-**Put layout in `app/globals.css`**, not in inline styles. Use the existing
-tokens (`--background`, `--foreground`, `--accent`, `--rain`, `--muted`) before
-adding a colour.
+**Put layout in a stylesheet, not in inline styles.** `app/globals.css` is
+the shared system; the Tenant is `app/tenant.css` and each clock theme has its
+own file. Use the existing tokens (`--background`, `--foreground`, `--accent`,
+`--rain`, `--muted`) before adding a colour.
 
 **Keep secrets server-side.** `REJSEPLANEN_ACCESS_ID` and `DEEPL_API_KEY` are
 read only by `app/api/departures/route.ts`, and `GOOGLE_WEATHER_API_KEY` only

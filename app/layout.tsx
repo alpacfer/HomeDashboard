@@ -1,5 +1,9 @@
 import type { Metadata, Viewport } from 'next';
 import './globals.css';
+// The Tenant, which reads globals.css's custom properties and is read by
+// nothing else. Straight after it, so the cascade is exactly as it was when
+// the two were one file.
+import './tenant.css';
 import './clock-fonts.css';
 // The clock widget's theme layer: the framework first, then one file per
 // theme. Both after globals.css, whose custom properties they override.

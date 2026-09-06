@@ -26,7 +26,7 @@ Dependencies point inward. `app/` may import from `components/` and `lib/`; `com
 
 | Directory | Holds | Rule |
 | --- | --- | --- |
-| `app/` | Route entry points and stylesheets only: `layout.tsx`, `page.tsx`, the five `*.css` files, and the two routes `app/api/departures/route.ts` and `app/api/weather/route.ts`. | A file belongs here only if the App Router gives it a URL, or it is a stylesheet the layout imports. |
+| `app/` | Route entry points and stylesheets only: `layout.tsx`, `page.tsx`, the six `*.css` files, and the two routes `app/api/departures/route.ts` and `app/api/weather/route.ts`. | A file belongs here only if the App Router gives it a URL, or it is a stylesheet the layout imports. |
 | `components/` | The React components that own browser effects: timers, fetches, storage, Leaflet, wake lock. | Anything with `'use client'`, a hook, or a side effect. |
 | `lib/` | Pure logic: parsing, validation, time conversion, selection, rotation timing. | No React, no DOM, no `fetch`, no Next.js. Enforced by `eslint.config.mjs`, not just by convention. |
 | `tests/` | `node:test` suites, one per `lib/` module. | Tests import `lib/` directly. Nothing in `tests/` needs a renderer or a network. |
@@ -80,7 +80,7 @@ app/page.tsx (Home)
         └── validDailyFacts         lib/daily-facts.ts    date key and payload validation
 ```
 
-`app/globals.css` carries the display's shared visual system: the fixed 1280 x 720 layout, panel transitions, the condition palette (`.condition-*` classes set `--sky`, the colour the icon and degree sign take, and the tint behind the card, so sun reads amber, cloud slate, rain blue), and reduced-motion behavior. Four stylesheets sit beside it, each owning one scene's paint: `clock-theme.css` (what every clock theme shares), `clock-workshop.css` and `clock-hillside.css` (a theme each), and the generated `clock-fonts.css`. A change to the workshop's bench or its lighting belongs in `clock-workshop.css`, not here. Keep component markup semantic and put layout changes in a stylesheet rather than adding one-off inline styles.
+`app/globals.css` carries the display's shared visual system: the fixed 1280 x 720 layout, panel transitions, the condition palette (`.condition-*` classes set `--sky`, the colour the icon and degree sign take, and the tint behind the card, so sun reads amber, cloud slate, rain blue), and reduced-motion behavior. Five stylesheets sit beside it, each owning one thing: `tenant.css` (the resident character, which nothing else reads), `clock-theme.css` (what every clock theme shares), `clock-workshop.css` and `clock-hillside.css` (a theme each), and the generated `clock-fonts.css`. `layout.tsx` imports them in that order and the order is load-bearing, since the later ones override the earlier ones' custom properties. A change to the workshop's bench or its lighting belongs in `clock-workshop.css`, not here. Keep component markup semantic and put layout changes in a stylesheet rather than adding one-off inline styles.
 
 ## Data flow
 
