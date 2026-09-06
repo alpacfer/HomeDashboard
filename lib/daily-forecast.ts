@@ -15,6 +15,8 @@ import { finite, frozenShare, metNorwayUrl, validLocationForecast, type MetEntry
 import { googleRoutePath, parseGoogleDays } from './google-weather';
 import { type ConditionKind } from './weather';
 
+import { copenhagenDayKey } from './copenhagen';
+
 export const WEEK_DAYS = 7;
 // Daily totals, not hourly. A whole day with under a millimetre is a dry day
 // with a shower in it; over ten is a day you plan around.
@@ -65,12 +67,12 @@ export function validDailyForecast(value: unknown): value is DailyForecast {
   return DAILY_FIELDS.every(field => samples(daily[field], time.length));
 }
 
-const dayKeyFormat = new Intl.DateTimeFormat('en-CA', { timeZone: 'Europe/Copenhagen', year: 'numeric', month: '2-digit', day: '2-digit' });
+// UTC deliberately: the date is already a Copenhagen calendar date and is
+// read as a bare string, never passed through a zone a second time.
 const weekdayFormat = new Intl.DateTimeFormat('en-GB', { timeZone: 'UTC', weekday: 'short' });
 
-export function copenhagenDateKey(now: Date) {
-  return dayKeyFormat.format(now);
-}
+/** `YYYY-MM-DD` on the wall. Named for its callers; one implementation. */
+export const copenhagenDateKey = copenhagenDayKey;
 
 // The provider already reports each day as a Copenhagen calendar date, so the
 // string is read as a date and never passed through the device's time zone.

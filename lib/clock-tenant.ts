@@ -7,6 +7,8 @@
 // measures, this module computes, so every rule here is testable without a
 // renderer.
 
+import { copenhagenClock } from './copenhagen';
+
 export type Mood = 'asleep' | 'rain' | 'cold' | 'hot' | 'awake';
 
 export type MoodContext = { hour: number; temperature: number | null; wet: boolean };
@@ -102,15 +104,12 @@ export function msToNextMinute(now: Date): number {
   return 60000 - (now.getTime() % 60000);
 }
 
-const timeFormatter = new Intl.DateTimeFormat('en-GB', {
-  timeZone: 'Europe/Copenhagen', hour: '2-digit', minute: '2-digit', hourCycle: 'h23',
-});
 
 // Index (0-3) of the leftmost digit that changes at the next minute: 3 most
 // minutes, 2 at a ten, 0 or 1 at an hour. Used to aim a glance.
 export function nextChangingDigit(now: Date): number {
-  const current = timeFormatter.format(now).replace(':', '');
-  const next = timeFormatter.format(new Date(now.getTime() + msToNextMinute(now))).replace(':', '');
+  const current = copenhagenClock(now).replace(':', '');
+  const next = copenhagenClock(now.getTime() + msToNextMinute(now)).replace(':', '');
   for (let index = 0; index < 4; index++) if (current[index] !== next[index]) return index;
   return 3;
 }

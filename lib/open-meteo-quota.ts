@@ -29,6 +29,8 @@
 // through device storage (components/open-meteo-lockout.ts) rather than held
 // by whichever component happened to hit it.
 
+import { copenhagenClock } from './copenhagen';
+
 export const OPEN_METEO_LIMITS = { day: 10_000, hour: 5_000, minute: 600 } as const;
 
 export type RequestShape = { locations: number; days: number; variables: number };
@@ -94,10 +96,9 @@ export function activeLockout(lockout: Lockout | null, now: number): Lockout | n
   return lockout;
 }
 
-const untilFormat = new Intl.DateTimeFormat('en-GB', { timeZone: 'Europe/Copenhagen', hour: '2-digit', minute: '2-digit', hourCycle: 'h23' });
 
 // The reason the card logs when it skips Open-Meteo: what was hit and when
 // asking again becomes worthwhile, in the time zone the display shows.
 export function describeLockout(lockout: Lockout) {
-  return 'Open-Meteo ' + lockout.reason + ', not asked again before ' + untilFormat.format(new Date(lockout.until));
+  return 'Open-Meteo ' + lockout.reason + ', not asked again before ' + copenhagenClock(lockout.until);
 }

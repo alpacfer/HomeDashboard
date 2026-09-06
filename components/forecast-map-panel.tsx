@@ -2,6 +2,7 @@
 
 import { useEffect, useMemo, useRef, useState } from 'react';
 import type { Map } from 'leaflet';
+import { copenhagenClock } from '@/lib/copenhagen';
 import {
   coversView, displayFrames, GRID_HOURS, gridForView, hasPrecipitation, isQuietHours, MAP_BOUNDS,
   parsePrecipitationGrid, precipitationColour, precipitationGridUrl, quietHoursEnd, SEQUENCE_LOOPS, timelineTicks,
@@ -32,12 +33,6 @@ const PLACES: Array<{ label: string; coordinates: [number, number]; home?: boole
   { label: 'Hillerød', coordinates: [55.9279, 12.3008] },
 ];
 const FIT_OPTIONS = { animate: false, maxZoom: 12, padding: [18, 18] as [number, number] };
-const frameTime = new Intl.DateTimeFormat('en-GB', {
-  timeZone: 'Europe/Copenhagen',
-  hour: '2-digit',
-  minute: '2-digit',
-  hour12: false,
-});
 
 type MapStatus = 'loading' | 'ready' | 'error';
 
@@ -319,13 +314,13 @@ export default function ForecastMapPanel({ active, onDry }: { active: boolean; o
   const spanEnd = frames.length ? frames[frames.length - 1].timestamp : 0;
   const moment = spanStart ? momentAt(spanStart, spanEnd, progress) : 0;
   const playhead = progress;
-  const clock = moment ? frameTime.format(new Date(moment)) : null;
+  const clock = moment ? copenhagenClock(moment) : null;
   // Screen readers get the sentence the timeline replaces, since a playhead
   // position means nothing without sight of it.
   const spoken = useMemo(() => {
     if (!moment) return 'Loading';
     const minutes = Math.max(0, Math.round((moment - nowMs) / 60000));
-    return 'Forecast for ' + frameTime.format(new Date(moment))
+    return 'Forecast for ' + copenhagenClock(moment)
       + (minutes < 60 ? ', in ' + minutes + ' minutes' : ', in ' + Math.round(minutes / 60) + ' hours');
   }, [moment, nowMs]);
 

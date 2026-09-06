@@ -4,13 +4,14 @@ import { useEffect, useState } from 'react';
 import { boardIncidents, departureIncidents, LINES, nextCompactDeparture, serviceHeadway, validTransitData, type Departure, type TransitData } from '@/lib/transit';
 import { debugFlags } from '@/lib/debug-flags';
 
-const timeFormat = new Intl.DateTimeFormat('en-GB', { timeZone: 'Europe/Copenhagen', hour: '2-digit', minute: '2-digit', hour12: false });
+import { copenhagenClock } from '@/lib/copenhagen';
+
 // A request that never settles would leave `pending` set for good and end all
 // refreshing on a display nobody reloads, so every request has its own
 // deadline and its own controller (see components/weather-panel.tsx).
 const REQUEST_TIMEOUT_MS = 12_000;
 
-const clock = (value: number) => timeFormat.format(new Date(value));
+const clock = copenhagenClock;
 const countdown = (departure: Departure, now: number) => Math.max(0, Math.ceil((departure.expected - now) / 60000));
 
 // The one thing worth printing under a departure, or nothing at all. A

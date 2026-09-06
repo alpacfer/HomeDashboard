@@ -1,9 +1,8 @@
-const formatter = new Intl.DateTimeFormat('en-GB', {
-  timeZone: 'Europe/Copenhagen', hour: '2-digit', minute: '2-digit', hourCycle: 'h23',
-});
 // Spelt out in full: the widget shows one date and it is read from across a
 // room. Assembled from parts rather than formatted whole so the order stays
 // "Friday 5 September" whatever en-GB decides to do with a weekday.
+import { copenhagenClock } from './copenhagen';
+
 const dateFormatter = new Intl.DateTimeFormat('en-GB', {
   timeZone: 'Europe/Copenhagen', weekday: 'long', day: 'numeric', month: 'long',
 });
@@ -27,7 +26,7 @@ export function clockDate(now: Date | null): ClockDate {
 
 export function clockFrame(now: Date | null, previous?: ClockFrame): ClockFrame {
   const minute = now ? Math.floor(now.getTime() / 60000) : null;
-  const text = now ? formatter.format(now) : '––:––';
+  const text = now ? copenhagenClock(now) : '––:––';
   if (previous?.minute === minute) return previous;
   // Snap on first load, a resumed screen, or a clock correction. Only a
   // normal minute tick rolls; never replay missed minutes on the TV.

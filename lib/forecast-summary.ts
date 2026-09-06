@@ -10,6 +10,8 @@
 
 import { describeHour, precipitationBand, RIBBON_CEILING_MM, WET_MM, type Band, type ConditionKind, type WeatherHour } from './weather';
 
+import { COPENHAGEN, copenhagenHour } from './copenhagen';
+
 export const RIBBON_HOURS = 18;
 // A delayed model run leaves fewer hours ahead of now than the full window.
 // Showing twelve hours beats showing nothing, so the ribbon shortens instead of
@@ -28,12 +30,9 @@ export type RibbonHour = {
   midnight: boolean;
 };
 
-const hourFormat = new Intl.DateTimeFormat('en-GB', { timeZone: 'Europe/Copenhagen', hour: '2-digit', hourCycle: 'h23' });
-const dateFormat = new Intl.DateTimeFormat('en-GB', { timeZone: 'Europe/Copenhagen', year: 'numeric', month: '2-digit', day: '2-digit' });
+const dateFormat = new Intl.DateTimeFormat('en-GB', { timeZone: COPENHAGEN, year: 'numeric', month: '2-digit', day: '2-digit' });
 
-export function copenhagenHour(timestamp: number) {
-  return Number(hourFormat.format(new Date(timestamp)).slice(0, 2));
-}
+export { copenhagenHour };
 
 function copenhagenDate(timestamp: number) {
   return dateFormat.format(new Date(timestamp));

@@ -36,6 +36,8 @@
 
 import { RIBBON_CEILING_MM, WET_MM } from './weather';
 
+import { copenhagenHour } from './copenhagen';
+
 export type MapBounds = { south: number; west: number; north: number; east: number };
 export type Cell = { south: number; west: number; north: number; east: number };
 export type GridSpec = { bounds: MapBounds; columns: number; rows: number; spacingKm: number };
@@ -337,7 +339,6 @@ export const SEQUENCE_LOOPS = 2;
 // glance; "Forecast 23:45, in 45 min" has to be read and then worked out.
 export type TimelineTick = { position: number; label: string; timestamp: number };
 
-const tickFormat = new Intl.DateTimeFormat('en-GB', { timeZone: 'Europe/Copenhagen', hour: '2-digit', hourCycle: 'h23' });
 
 // One tick per whole hour inside the span. Ticks are placed by time rather than
 // by frame count so they stay put as the leading frames expire.
@@ -349,7 +350,7 @@ export function timelineTicks(frames: GridFrame[]): TimelineTick[] {
   if (span <= 0) return [];
   const ticks: TimelineTick[] = [];
   for (let timestamp = Math.ceil(start / 3600000) * 3600000; timestamp <= end; timestamp += 3600000) {
-    ticks.push({ timestamp, position: (timestamp - start) / span, label: tickFormat.format(new Date(timestamp)) });
+    ticks.push({ timestamp, position: (timestamp - start) / span, label: String(copenhagenHour(timestamp)).padStart(2, '0') });
   }
   return ticks;
 }
@@ -362,10 +363,9 @@ export function timelineTicks(frames: GridFrame[]): TimelineTick[] {
 // fetched in the evening still has frames ahead of now when they do.
 export const QUIET_FROM_HOUR = 23;
 export const QUIET_UNTIL_HOUR = 6;
-const quietFormat = new Intl.DateTimeFormat('en-GB', { timeZone: 'Europe/Copenhagen', hour: '2-digit', hourCycle: 'h23' });
 
 export function isQuietHours(timestamp: number) {
-  const hour = Number(quietFormat.format(new Date(timestamp)).slice(0, 2));
+  const hour = copenhagenHour(timestamp);
   return hour >= QUIET_FROM_HOUR || hour < QUIET_UNTIL_HOUR;
 }
 

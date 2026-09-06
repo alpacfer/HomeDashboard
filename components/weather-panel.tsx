@@ -13,6 +13,8 @@ import { openMeteoLockout, recordOpenMeteoRefusal } from './open-meteo-lockout';
 import WeatherWoodland from './weather-woodland';
 import { useSceneSky } from './use-scene-sky';
 
+import { copenhagenClock } from '@/lib/copenhagen';
+
 const REFRESH_MS = 15 * 60 * 1000;
 // Older than this, the forecast is drawn muted: it is still the best answer
 // there is, but the viewer should know it is not current.
@@ -39,7 +41,6 @@ function validStoredForecast(value: unknown): value is StoredForecast {
     && SOURCES.some(entry => entry.name === stored.source) && Number.isFinite(stored.updatedAt);
 }
 
-const timeFormat = new Intl.DateTimeFormat('en-GB', { timeZone: 'Europe/Copenhagen', hour: '2-digit', minute: '2-digit', hour12: false });
 
 // A refusal may say when asking again becomes worthwhile; the provider is
 // penalised until then rather than for the standard hour.
@@ -221,7 +222,7 @@ export default function WeatherPanel({ now, onConditions }: { now: Date | null; 
   const stale = age === null ? !hours : age > STALE_MS;
   const offline = failed || stale;
   const offlineDescription = offline
-    ? (updatedAt ? 'Last updated at ' + timeFormat.format(new Date(updatedAt)) + '. Press OK to retry.' : 'Forecast unavailable. Press OK to retry.')
+    ? (updatedAt ? 'Last updated at ' + copenhagenClock(updatedAt) + '. Press OK to retry.' : 'Forecast unavailable. Press OK to retry.')
     : '';
   const temperature = view?.current ? Math.round(view.current.temperature) : null;
   // The credit has to name the provider that actually answered, not the one we

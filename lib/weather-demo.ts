@@ -22,6 +22,8 @@ import { FORECAST_LATITUDE, FORECAST_LONGITUDE, type WeatherHour } from './weath
 
 // Long enough to fill the eighteen-hour ribbon and leave the panel a margin
 // past its end, so the window never runs short at the top of an hour.
+import { copenhagenHour } from './copenhagen';
+
 const DEMO_HOURS = 30;
 const HOUR_MS = 3_600_000;
 
@@ -39,16 +41,12 @@ const WARMEST_HOUR = 15;
 const SPELL_START = 6;
 const SPELL_MM = [0.4, 1.6, 3.2, 1.1, 0.2];
 
-const hourFormatter = new Intl.DateTimeFormat('en-US', {
-  timeZone: 'Europe/Copenhagen', hour: 'numeric', hourCycle: 'h23',
-});
+
 const dateFormatter = new Intl.DateTimeFormat('en-CA', {
   timeZone: 'Europe/Copenhagen', year: 'numeric', month: '2-digit', day: '2-digit',
 });
 
-function copenhagenHour(at: number): number {
-  return Number(hourFormatter.format(new Date(at))) % 24;
-}
+
 
 function temperatureAt(clockHour: number): number {
   const phase = ((clockHour - WARMEST_HOUR) / 24) * 2 * Math.PI;
