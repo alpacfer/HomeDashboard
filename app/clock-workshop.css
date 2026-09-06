@@ -69,21 +69,28 @@
 .weather[data-light='dawn'] { --lit-light:brightness(.9) saturate(.55) sepia(.2) hue-rotate(-12deg); }
 .weather[data-light='dusk'] { --lit-light:brightness(.68) saturate(.5) sepia(.3) hue-rotate(-6deg); }
 .weather[data-light='night'] { --lit-light:brightness(.5) grayscale(.65) sepia(.6) hue-rotate(178deg) saturate(1.3); }
-[data-light='dawn'] { --ink-light:sepia(.2) saturate(.85) hue-rotate(-14deg); }
-[data-light='dusk'] { --ink-light:brightness(.94) sepia(.25) saturate(1.2) hue-rotate(-10deg); }
-[data-light='night'] { --ink-light:brightness(.86) sepia(.3) saturate(1.1) hue-rotate(-6deg); }
-[data-weather='cloudy'] { --lit-weather:saturate(.8) brightness(.92); --ink-weather:saturate(.93); }
-[data-weather='overcast'],[data-weather='rain'],[data-weather='sleet'] { --lit-weather:saturate(.58) brightness(.78); --ink-weather:saturate(.86); }
-[data-weather='fog'] { --lit-weather:saturate(.55); --ink-weather:saturate(.8); }
+/* Every state rule below names the card as well as the attribute. The two
+   carry the same specificity otherwise, so the reset above would win or lose
+   on source order alone — and it is declared first, which means moving it, or
+   adding any later card-scoped default, would silently return every state to
+   neutral with nothing to show for it. */
+.clock-widget[data-light='dawn'],.weather[data-light='dawn'] { --ink-light:sepia(.2) saturate(.85) hue-rotate(-14deg); }
+.clock-widget[data-light='dusk'],.weather[data-light='dusk'] { --ink-light:brightness(.94) sepia(.25) saturate(1.2) hue-rotate(-10deg); }
+.clock-widget[data-light='night'],.weather[data-light='night'] { --ink-light:brightness(.86) sepia(.3) saturate(1.1) hue-rotate(-6deg); }
+.clock-widget[data-weather='cloudy'],.weather[data-weather='cloudy'] { --lit-weather:saturate(.8) brightness(.92); --ink-weather:saturate(.93); }
+.clock-widget[data-weather='overcast'],.weather[data-weather='overcast'],
+.clock-widget[data-weather='rain'],.weather[data-weather='rain'],
+.clock-widget[data-weather='sleet'],.weather[data-weather='sleet'] { --lit-weather:saturate(.58) brightness(.78); --ink-weather:saturate(.86); }
+.clock-widget[data-weather='fog'],.weather[data-weather='fog'] { --lit-weather:saturate(.55); --ink-weather:saturate(.8); }
 .weather[data-weather='snow'] { --lit-weather:saturate(.35) brightness(1.1); }
 /* A static filter removes direct-sun warmth under thick cloud. It is never
-   animated, and applies only to the artwork, never to weather text or digits. */
-[data-weather='cloudy'] .scene-paint { filter:saturate(.8) brightness(.92); }
-[data-weather='overcast'] .scene-paint,
-[data-weather='rain'] .scene-paint,
-[data-weather='sleet'] .scene-paint { filter:saturate(.58) brightness(.78); }
-[data-weather='fog'] .scene-paint { filter:saturate(.55); }
-[data-weather='snow'] .exterior-paint { filter:saturate(.35) brightness(1.1); }
+   animated, and applies only to the artwork, never to weather text or digits.
+   It reads the same --lit-weather the props do rather than restating the
+   numbers: a prop and the plank it stands on have to lose their sun by the
+   same amount, and two copies of "saturate(.58) brightness(.78)" are one
+   careless edit away from not doing that. Only the weather half, because the
+   light phase is already painted into the plate this element loads. */
+.scene-paint { filter:var(--lit-weather); }
 [data-weather='overcast'] .scene-light,
 [data-weather='rain'] .scene-light,
 [data-weather='sleet'] .scene-light { background:linear-gradient(180deg,rgba(58,75,96,.3),rgba(25,47,67,.12)); }

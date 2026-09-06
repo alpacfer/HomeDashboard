@@ -22,7 +22,7 @@ rules out most of what a calendar page contains:
 - **Recent as well as historic.** The last five years are admitted rather than
   banned, so the calendar does not read as a museum that closed in 2020. They
   rank *below* the 1975–2000 sweet spot on purpose, and `chooseFacts` holds one
-  of the day's three slots for a recent entry that clears `RECENT_FLOOR` —
+  of the day's five slots for a recent entry that clears `RECENT_FLOOR` —
   otherwise they would simply never win, and a thin date would seat a routine
   announcement just for being new. The window is `RECENT_YEARS` counted from
   the year the generator runs, not a hardcoded era, and the current year is

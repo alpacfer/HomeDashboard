@@ -29,6 +29,13 @@ services:
     envVars:
       # Node version comes from .nvmrc so local, CI and Render agree.
       - key: REJSEPLANEN_ACCESS_ID
-        sync: false # Server-only secret. Set in the dashboard, never committed.
+        sync: false # Server-only secret, read by app/api/departures/route.ts.
+      - key: DEEPL_API_KEY
+        sync: false # Server-only secret, read by app/api/departures/route.ts to
+                    # translate service messages. Absent is fine: the route
+                    # fails open and shows the message untranslated.
+      - key: GOOGLE_WEATHER_API_KEY
+        sync: false # Server-only secret, read by app/api/weather/route.ts.
+                    # Absent is fine: the forecast chain falls through to DMI.
       - key: SITE_URL
         sync: false # Public origin used for social preview metadata.

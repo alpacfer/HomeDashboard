@@ -19,16 +19,24 @@
       "Bash(npm run shot:*)",
       "Bash(npm run probe)",
       "Bash(npm run probe:*)",
+      "Bash(npm run audit:*)",
+      "Bash(npm run motion:*)",
+      "Bash(npm run states:*)",
+      "Bash(npm run roll:*)",
+      "Bash(npm run scene:*)",
+      "Bash(npm audit:*)",
       "Bash(node scripts/check-rules.mjs)",
       "Bash(node scripts/screenshot.mjs:*)",
+      "Bash(node scripts/audit-ui.mjs:*)",
+      "Bash(node scripts/measure-motion.mjs:*)",
       "Bash(node --import tsx scripts/probe-forecast.mjs:*)",
       "Bash(npx eslint:*)",
       "Bash(npx tsc:*)"
     ],
     "deny": [
       "Read(./.env)",
-      "Read(./.env.*)",
-      "Read(./node_modules/**)",
+      "Read(./.env.local)",
+      "Read(./.env.*.local)",
       "Bash(npm publish:*)",
       "Bash(git push --force:*)"
     ]

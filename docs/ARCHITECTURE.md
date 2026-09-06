@@ -26,7 +26,7 @@ Dependencies point inward. `app/` may import from `components/` and `lib/`; `com
 
 | Directory | Holds | Rule |
 | --- | --- | --- |
-| `app/` | Route entry points only: `layout.tsx`, `page.tsx`, `globals.css`, `app/api/departures/route.ts`. | A file belongs here only if the App Router gives it a URL, or it is the global stylesheet. |
+| `app/` | Route entry points and stylesheets only: `layout.tsx`, `page.tsx`, the five `*.css` files, and the two routes `app/api/departures/route.ts` and `app/api/weather/route.ts`. | A file belongs here only if the App Router gives it a URL, or it is a stylesheet the layout imports. |
 | `components/` | The React components that own browser effects: timers, fetches, storage, Leaflet, wake lock. | Anything with `'use client'`, a hook, or a side effect. |
 | `lib/` | Pure logic: parsing, validation, time conversion, selection, rotation timing. | No React, no DOM, no `fetch`, no Next.js. Enforced by `eslint.config.mjs`, not just by convention. |
 | `tests/` | `node:test` suites, one per `lib/` module. | Tests import `lib/` directly. Nothing in `tests/` needs a renderer or a network. |
@@ -80,7 +80,7 @@ app/page.tsx (Home)
         └── validDailyFacts         lib/daily-facts.ts    date key and payload validation
 ```
 
-`app/globals.css` is the single visual system for the display. It contains the fixed 1280 x 720 layout, panel transitions, the condition palette (`.condition-*` classes set `--sky`, the colour the icon and degree sign take, and the tint behind the card, so sun reads amber, cloud slate, rain blue), and reduced-motion behavior. Keep component markup semantic and put layout changes in this stylesheet rather than adding one-off inline styles.
+`app/globals.css` carries the display's shared visual system: the fixed 1280 x 720 layout, panel transitions, the condition palette (`.condition-*` classes set `--sky`, the colour the icon and degree sign take, and the tint behind the card, so sun reads amber, cloud slate, rain blue), and reduced-motion behavior. Four stylesheets sit beside it, each owning one scene's paint: `clock-theme.css` (what every clock theme shares), `clock-workshop.css` and `clock-hillside.css` (a theme each), and the generated `clock-fonts.css`. A change to the workshop's bench or its lighting belongs in `clock-workshop.css`, not here. Keep component markup semantic and put layout changes in a stylesheet rather than adding one-off inline styles.
 
 ## Data flow
 
@@ -119,9 +119,9 @@ The card separates two conditions. **Stale** is about the data: a forecast older
 
 ### The week ahead
 
-`WeekStrip` is a separate, thinner forecast under the ribbon: the seven days after today, each as a weekday, an icon and a high and low. It is deliberately not built from the hourly data, because the DMI Harmonie run the ribbon uses reaches only about two and a half days ahead. `lib/daily-forecast.ts` asks Google's `days` endpoint once an hour, with Open-Meteo's daily aggregates of its default model blend behind it and MET Norway behind that (`DAILY_SOURCES`, in preference order, the same pattern as the hours). Google reports a day split into a daytime and a nighttime half, so `parseGoogleDaily()` adds the two halves' precipitation and averages their cloud cover, and drops a day missing either rather than drawing it at half its rain; eight days are asked for in one call because `days` caps `pageSize` at 10. `parseMetDaily()` aggregates MET's six-hourly windows into days, summing non-overlapping precipitation windows and taking each day's extremes from every window and sample that starts in it, and drops a day with fewer than four six-hourly samples. The same MET URL serves the hours, so the two panels share one cached response. Each parser validates the payload, drops today (the ribbon covers it hour by hour), and derives each day's condition from its own cloud cover and precipitation totals with day-sized thresholds (`DAY_WET_MM`, `DAY_HEAVY_MM`). No weather code or probability is requested, for the same reason as the hourly data. A day with any field missing is dropped, and a week with fewer than seven days is not shown: a strip with a hole in it reads as a mistake. "Today" is decided in Copenhagen time, so the first day falls off at Copenhagen midnight regardless of the device zone.
+`WeekStrip` is a separate, thinner forecast under the ribbon: the seven days after today, each as a weekday, an icon and a high and low. It is deliberately not built from the hourly data, because the DMI Harmonie run the ribbon uses reaches only about two and a half days ahead. `lib/daily-forecast.ts` asks Google's `days` endpoint once an hour, with Open-Meteo's daily aggregates of its default model blend behind it and MET Norway behind that (`DAILY_SOURCES`, in preference order, the same pattern as the hours). Google reports a day split into a daytime and a nighttime half, so `parseGoogleDaily()` adds the two halves' precipitation and averages their cloud cover, and drops a day missing either rather than drawing it at half its rain; ten days are asked for in one call (`GOOGLE_DAYS`, the cap `days` puts on `pageSize`): Google's day runs 07:00 to 07:00 Copenhagen, so between midnight and 07:00 the first day returned is still yesterday and two days are dropped rather than one — eight would leave six, one short of a week, and the strip fell through to Open-Meteo for seven hours every night. `parseMetDaily()` aggregates MET's six-hourly windows into days, summing non-overlapping precipitation windows and taking each day's extremes from every window and sample that starts in it, and drops a day with fewer than four six-hourly samples. The same MET URL serves the hours, so the two panels share one cached response. Each parser validates the payload, drops today (the ribbon covers it hour by hour), and derives each day's condition from its own cloud cover and precipitation totals with day-sized thresholds (`DAY_WET_MM`, `DAY_HEAVY_MM`). No weather code or probability is requested, for the same reason as the hourly data. A day with any field missing is dropped, and a week with fewer than seven days is not shown: a strip with a hole in it reads as a mistake. "Today" is decided in Copenhagen time, so the first day falls off at Copenhagen midnight regardless of the device zone.
 
-The ribbon and the week are two forecasts and are never mixed. The ribbon answers "what do the next hours do", the week answers "what does the weekend look like", and both take their icons from the one map in `components/condition-icons.ts` so the same sky never draws two pictures.
+The ribbon and the week are two forecasts and are never mixed. The ribbon answers "what do the next hours do", the week answers "what does the weekend look like". The week strip draws its icons from the one map in `components/condition-icons.ts`; since the woodland rework the weather card draws no icon at all, painting the sky itself through `WeatherWoodland` and the `condition-*` classes instead.
 
 ### Rotating panel
 
@@ -139,7 +139,7 @@ The browser calls `/api/departures`, never a provider directly. The route reads 
 
 ### Daily facts
 
-`useDailyFacts()` derives an `MM-DD` key in Copenhagen time and loads exactly one static JSON file. `validDailyFacts()` checks the date, the three-fact shape, the category, the year and the required source/image URLs before rendering; `yearsAgo()` turns the year into the distance shown beside it. The generator is intentionally separate from runtime code, and the judgement about which anniversary is worth showing is pure and tested in `scripts/lib/fact-selection.mjs`. Edit `data/daily-fact-overrides.json` for durable editorial changes and review generated files before committing. See [DAILY_FACTS.md](DAILY_FACTS.md).
+`useDailyFacts()` derives an `MM-DD` key in Copenhagen time and loads exactly one static JSON file. `validDailyFacts()` checks the date, the five-fact shape (`DAILY_FACT_COUNT`), the category, the year and the required source/image URLs before rendering; `yearsAgo()` turns the year into the distance shown beside it. The generator is intentionally separate from runtime code, and the judgement about which anniversary is worth showing is pure and tested in `scripts/lib/fact-selection.mjs`. Edit `data/daily-fact-overrides.json` for durable editorial changes and review generated files before committing. See [DAILY_FACTS.md](DAILY_FACTS.md).
 
 ### Forecast map
 
@@ -200,9 +200,10 @@ Prefer pure functions for parsing, selection, time conversion, validation, and r
 For a normal change:
 
 1. Update the smallest owning module and its corresponding test.
-2. Run `npm test` for behavior, `npm run lint` for code quality and `npm run check:rules` for the project rules.
-3. Run `npm run build` for the App Router, TypeScript, and production bundling check.
-4. For display changes, capture the result with `npm run shot` at the supported 1280 x 720 viewport. Add `--reduced-motion` when animations are touched, and `--offline` whenever the change is not about the weather. See [DEBUGGING.md](DEBUGGING.md).
+2. Run `npm run check`: lint, typecheck, tests, docs, the project rules and the build, in that order.
+3. After any CSS or layout change, run `npm run audit` before reaching for a screenshot. It covers all seven scenes in about thirty seconds, reads as text, and catches the faults a PNG shows but nobody notices. It exits non-zero on an error-level finding.
+4. After any change that animates something, run `npm run motion -- --scene <name> --demo`. A screenshot cannot show whether an animation is smooth, and a flicker has shipped through a green check, a passing suite and three correct-looking screenshots before.
+5. For display changes, capture the result with `npm run shot` at the supported 1280 x 720 viewport. Add `--reduced-motion` when animations are touched, and `--offline` whenever the change is not about the weather. See [DEBUGGING.md](DEBUGGING.md).
 
 The external weather, forecast map, and transit services are not required for unit tests. Provider credentials and live API verification are documented separately because they are environment-dependent.
 

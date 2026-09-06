@@ -96,12 +96,13 @@ screen. In short:
 - **`npm run probe`** (`scripts/probe-forecast.mjs`) says which forecast
   provider is answering and why the others are not. Run it first when the
   weather card is muted or shows the dot.
-- **`npm run audit`** (`scripts/audit-ui.mjs`) loads every scene in both
-  layouts in one browser and asks the page about itself: content clipped by an
-  ancestor that hides its overflow, elements that must stay on one line and
-  did not, text below the legibility floor, and contrast against the real
-  backdrop. **Run it after any CSS or layout change**, before reaching for a
-  screenshot: eight states cost about thirty seconds and read as text, and it
+- **`npm run audit`** (`scripts/audit-ui.mjs`) loads all seven scenes at the
+  Fire TV's 1280 x 720 in one browser and asks the page about itself: content
+  clipped by an ancestor that hides its overflow, elements that must stay on
+  one line and did not, text below the legibility floor, and contrast against
+  the real backdrop. **Run it after any CSS or layout change**, before reaching
+  for a screenshot: seven states cost about thirty seconds and read as text
+  (`--json` for the findings as data), and it
   catches the faults a PNG shows but nobody notices. `--shots` writes a PNG per
   state from the same page loads, which is the fast way to re-capture
   everything. Exit code 1 on an error-level finding.
@@ -147,7 +148,7 @@ Dependencies point inward: `app/` → `components/` → `lib/`. Nothing points b
 
 | Directory | Holds |
 | --- | --- |
-| `app/` | Route entry points only: `layout.tsx`, `page.tsx`, `globals.css`, `app/api/departures/route.ts`. |
+| `app/` | Route entry points and stylesheets only: `layout.tsx`, `page.tsx`, the five `*.css` files, and the two routes `app/api/departures/route.ts` and `app/api/weather/route.ts`. |
 | `components/` | React components that own browser effects: timers, fetches, storage, Leaflet, wake lock. |
 | `lib/` | Pure logic: parsing, validation, time conversion, selection, rotation timing. |
 | `tests/` | One `node:test` suite per `lib/` module. |
@@ -166,8 +167,9 @@ That is what keeps the suite fast and renderer-free. When you add a component,
 ask what part of it is a pure function and move that part out first.
 
 **Validate every external response at the boundary** before it reaches React
-state, and add a fixture test for the malformed case. `validWeather`,
-`parseRadarTimeline`, and `validDailyFacts` are the pattern to copy.
+state, and add a fixture test for the malformed case. `validWeatherHours`
+(`lib/weather.ts`), `parsePrecipitationGrid` (`lib/precipitation-grid.ts`) and
+`validDailyFacts` (`lib/daily-facts.ts`) are the pattern to copy.
 
 **Use `Europe/Copenhagen` in every formatter.** Never rely on the device's time
 zone. Dates, hours, departures, and daily-fact keys are Copenhagen-local unless
@@ -217,8 +219,10 @@ These run without being asked, so a violation is reported before review:
 - `.claude/settings.json` hooks: `scripts/hooks/guard-generated.mjs` refuses
   edits to generated files and names the regenerating command;
   `scripts/hooks/lint-changed.mjs` lints each written file and, before a turn
-  ends, lints and typechecks everything changed and runs the tests when `lib/`
-  or `tests/` changed. A failure keeps the turn open with the output shown.
+  ends, lints and typechecks everything changed, runs the tests when `lib/` or
+  `tests/` changed, and runs `check:rules` and `docs:check` whenever anything
+  they cover changed — including a stylesheet, which eslint cannot read. A
+  failure keeps the turn open with the output shown.
 
 When one of these fires, fix the cause. Do not disable the rule, and do not
 work around a hook by editing through Bash, unless Alejandro asked for exactly

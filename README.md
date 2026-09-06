@@ -113,8 +113,8 @@ while the weather is a placeholder, so each source monogram can be looked at
 without asking anyone for a forecast. It is ignored on a live card, where the
 mark names whoever answered. All of these are parsed in `lib/debug-flags.ts`.
 
-`/?clock=hillside|plain` picks the clock widget's theme, and
-`/?sky=night,snow,heavy` pins any of the hillside's light phase, weather and
+`/?clock=workshop|plain` picks the clock widget's theme, and
+`/?sky=night,snow,heavy` pins any of the scenery's light phase, weather and
 rate, in any order. The sky is normally the real one — the sun's true
 elevation and the hour the weather card is showing — so pinning it is the only
 way to photograph a state the weather is not currently offering. Both are read
@@ -133,7 +133,9 @@ npm run probe:transit                         # which departure provider is answ
 npm run audit                                 # every scene at 1280 x 720, checked for layout faults
 ```
 
-All four are plain Node scripts and are described in [docs/DEBUGGING.md](docs/DEBUGGING.md).
+`npm run motion` measures anything that animates and `npm run scene` measures a
+painted card's edges and light. All of them are plain Node scripts and are
+described in [docs/DEBUGGING.md](docs/DEBUGGING.md).
 
 ## Configuration
 

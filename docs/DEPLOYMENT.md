@@ -12,12 +12,13 @@ loop, or anything that runs on the server.
 
 ## The rules that follow from it
 
-1. **The server does almost nothing.** Only `/api/departures` runs server-side,
-   and only because the Rejseplanen access ID must not reach the browser.
-   Everything else is static or fetched by the browser directly. Do not move
-   weather, the forecast map, or daily facts to the server to "clean things up": that
-   trades a free CDN-cached asset for paid instance memory. Weather stays in
-   the browser because both its providers are keyless and send
+1. **The server does almost nothing.** Two routes run server-side, and each
+   only because a credential must not reach the browser: `/api/departures`
+   holds `REJSEPLANEN_ACCESS_ID` (and `DEEPL_API_KEY`), and `/api/weather`
+   holds `GOOGLE_WEATHER_API_KEY`. Everything else is static or fetched by the
+   browser directly. Do not move the forecast map or daily facts to the server
+   to "clean things up": that trades a free CDN-cached asset for paid instance
+   memory. The keyless forecast providers stay in the browser because they send
    `Access-Control-Allow-Origin: *`. The older `dmigw.govcloud.dk` DMI host
    still works but requires a key; switching to it would force a proxy route
    and is not worth it.

@@ -333,12 +333,12 @@ export function scoreEntry(entry, views = new Map(), thisYear = new Date().getUT
 // a themed page, which is what the first pass is for.
 //
 // The order returned is the order the generator will try to use, and it drops
-// anything it cannot illustrate, so it asks for far more than three. Category
+// anything it cannot illustrate, so it asks for far more than five. Category
 // variety wins the first pass over the ranked entries and score alone wins the
 // second. `reserve` comes last and only last: those entries were never
 // measured against readership, and letting them compete on variety pulled the
 // calendar back towards older and duller anniversaries.
-// One of the three is held for the last RECENT_YEARS when the date offers a
+// One of the five is held for the last RECENT_YEARS when the date offers a
 // candidate worth having, because recent entries score below the sweet spot on
 // purpose and would otherwise simply never win. RECENT_FLOOR is what "worth
 // having" means: a recent entry has to clear a real score, not merely be the

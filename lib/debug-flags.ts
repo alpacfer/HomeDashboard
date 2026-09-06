@@ -56,6 +56,13 @@
 //   ?pet=<spot>    Holds the Tenant at weather, week, transport, fact or map.
 //   ?pet=travel-<spot>  Sends it there through the measured safe-spot route,
 //                  then holds it. This makes locomotion reproducible too.
+//   ?pet-motion=<move>  Plays the Tenant's real gravity and spring motion
+//                  after a short setup: hop jumps at home, balance and peek
+//                  use a measured round digit. Reload to replay. Takes
+//                  precedence over the two flags above, because it is the
+//                  motion being looked at rather than the destination. Pass
+//                  the whole URL with --url to the screenshot and motion
+//                  tools, which is how the frame rate is measured.
 
 import type { WorldSpotId } from './clock-tenant';
 import type { SourceName } from './forecast-sources';

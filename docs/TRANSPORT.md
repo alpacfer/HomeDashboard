@@ -84,7 +84,7 @@ dashes rather than another platform's times.
 150S runs to four different termini up the same corridor and the fallback lists
 all of them, because they are all northbound departures a passenger can board.
 An unknown headsign is dropped rather than filed under a guessed direction, so
-a new short-turn goes missing rather than wrong. `npm run probe:transit
+a new short-turn goes missing rather than wrong. `npm run probe:transit --
 --headsigns` lists what each stop is actually signing today and marks the ones
 the configuration does not know.
 

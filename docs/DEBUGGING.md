@@ -12,6 +12,8 @@ npm run probe                 ask every forecast provider as the browser would
 npm run probe:transit         ask every departure provider as the route would
 npm run audit                 check every scene at 1280 x 720 for layout faults
 npm run scene -- [options]    measure a painted card: its edges, its landmarks, its light
+npm run states -- [options]   every clock sky on one sheet; --seams, --baseline
+npm run roll -- [options]     the digit transition, caught on the minute boundary
 npm run check:rules           the AGENTS.md rules a script can check
 /?scene=map                   pin the rotating panel (README)
 /?weather=off                 no weather request; placeholder card, ribbon and week
@@ -42,6 +44,9 @@ can never leave the wall display stuck. They combine:
 | `?pet=weather`, `week`, `transport`, `fact`, `map` | Holds the Tenant at that measured UI landmark. This checks its destination poses without waiting for curiosity to select an adventure; normal travel is unchanged when the flag is absent. | `lib/debug-flags.ts` |
 | `?pet=travel-weather`, `travel-week`, `travel-transport`, `travel-fact`, `travel-map` | Sends the Tenant from home to that landmark through its real measured landing pads, then holds it there. Use a screenshot sequence to inspect charge, parabola and chained landings without waiting for curiosity. | `lib/debug-flags.ts` |
 | `?pet-motion=hop`, `balance`, `peek` | Plays the pet's actual gravity/spring motion after a short setup. Hop jumps at home; balance and peek use a measured round digit. Reload to replay. Takes precedence over pet landmark flags. Pass the URL with `--url` to the screenshot and motion tools. | `lib/debug-flags.ts` |
+| `?sky=night,snow,heavy` | Pins any of the scenery's light phase, weather and rate, in any order. The sky is normally derived from the sun's true elevation and the hour the weather card shows, so pinning it is the only way to photograph a state the weather is not currently offering. `--sky` on the browser tools, and repeatable on `npm run states` and `npm run scene`. | `lib/clock-sky.ts` |
+| `?clock=workshop`, `plain` | Picks the clock widget's theme. `workshop` is the default painted shed; `plain` is the card as it was before themes existed. An unknown value falls back to the default, so a mistyped URL cannot leave the display in a state nobody chose. | `lib/clock-theme.ts` |
+| `?date=MM-DD` | Loads that calendar day's facts instead of today's, so a specific entry can be checked without waiting for its date. `--date` on the browser tools. | `lib/daily-facts.ts` |
 
 Use `weather=off` for any capture that is not about the weather, and
 `weather=demo` for one that is about the forecast map. The reason is quota,
@@ -164,7 +169,8 @@ and screenshots that were looked at. These faults are mechanical and invisible
 in a PNG unless you already know to look.
 
 ```sh
-npm run audit                      # 4 states, text out
+npm run audit                      # all 7 scenes at 1280 x 720, text out
+npm run audit -- --json            # ... the same findings as JSON
 npm run audit -- --scene map       # one scene at 1280 x 720
 npm run audit -- --shots           # ... and a PNG per state, same page loads
 npm run audit -- --all             # notes too

@@ -1,6 +1,6 @@
 ---
 description: Capture the running dashboard at 1280 x 720 with scripts/screenshot.mjs
-allowed-tools: Bash(npm run shot:*), Bash(node scripts/screenshot.mjs:*)
+allowed-tools: Bash(npm run shot:*), Bash(node scripts/screenshot.mjs:*), Read, Grep, Glob, SendUserFile, mcp__Claude_Browser__preview_start, mcp__Claude_Browser__preview_list
 ---
 
 Capture the dashboard for visual confirmation. Arguments: $ARGUMENTS
@@ -15,6 +15,9 @@ Capture the dashboard for visual confirmation. Arguments: $ARGUMENTS
    - `--reduced-motion` when animation was touched;
    - `--clip <selector>` for the smallest image that shows the change, e.g.
      `--clip .clock-block` or `--clip .weather-band`;
-   - `--class ".clock-block=o-neon sp-domino"` to force an outfit or set piece.
+   - `--class "<sel>=<names>"` to force an element's class list, e.g.
+     `--class ".tenant=tenant pose-perched on-round pa-slip"` for a Tenant
+     pose. It replaces the *whole* list, so name the element's own class too
+     or its styling goes with it.
 3. Send the PNG(s) to the user with SendUserFile and state what each shows.
    If `--console` reports warnings, read them before deciding the change works.

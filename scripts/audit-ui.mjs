@@ -23,6 +23,13 @@
 //   --contrast <ratio>     Contrast floor for ordinary text. Default 4.5;
 //                          large text is held to 3, as WCAG does.
 //   --all                  Report notes as well as warnings and errors.
+//   --json                 Print the findings as one JSON document instead of
+//                          the columns: { states, seconds, counts, ok,
+//                          results: [{ scene, layout, why, url, problems,
+//                          console, shot? }] }. Every problem keeps its level,
+//                          kind, where and detail, so a caller can assert on
+//                          one rather than grep a column. Exit code is
+//                          unchanged: 1 when anything is an error.
 //   --url <url>            Page to audit. Default http://127.0.0.1:3000/
 //   --scene, --fact, --offline, --demo, --dry, --no-weather, --transit-demo, --time,
 //   --pet
@@ -88,7 +95,7 @@ const FURNITURE = [
 ];
 
 function parseArgs(argv) {
-  const options = { scenes: [], console: false, demo: false, dry: false, offline: false, reducedMotion: false, transitDemo: false, shots: false, all: false };
+  const options = { scenes: [], console: false, demo: false, dry: false, offline: false, reducedMotion: false, transitDemo: false, shots: false, all: false, json: false };
   for (let index = 0; index < argv.length; index += 1) {
     const arg = argv[index];
     const next = () => { index += 1; return argv[index]; };
@@ -115,6 +122,7 @@ function parseArgs(argv) {
       case '--wait': options.wait = Number(value()); break;
       case '--shots': options.shots = true; break;
       case '--all': options.all = true; break;
+      case '--json': options.json = true; break;
       case '--console': options.console = true; break;
       case '--chrome': options.chrome = value(); break;
       case '--help': case '-h': options.help = true; break;
@@ -289,6 +297,12 @@ const binary = findChrome(options.chrome);
 const { devtools, close } = await launchChrome(binary, 1280, 720);
 const counts = { error: 0, warning: 0, note: 0 };
 const started = Date.now();
+// --json collects the same findings the prose is built from and prints one
+// document at the end, so a caller can assert on a finding instead of
+// grepping a column. The page already hands us structured problems; the
+// human format is the lossy one.
+const collected = [];
+const say = (...parts) => { if (!options.json) console.log(...parts); };
 
 try {
   for (const scene of chosen) {
@@ -303,16 +317,25 @@ try {
 
       const shown = problems.filter(problem => options.all || problem.level !== 'note');
       for (const problem of problems) counts[problem.level] += 1;
+      // Counted for this scene, not across the run: reading the cumulative
+      // tally here reported an earlier scene's errors against a clean one.
+      const here = problems.filter(problem => problem.level === 'error').length;
       const summary = problems.length === 0 && failures.length === 0
         ? 'clean'
-        : [counts.error && 'errors', failures.length && failures.length + ' console errors'].filter(Boolean).join(', ') || shown.length + ' to look at';
-      console.log('\n=== ' + label.padEnd(28) + (scene.why ?? '') + ' — ' + (problems.length ? problems.length + ' reported' : summary));
+        : [here && here + ' errors', failures.length && failures.length + ' console errors'].filter(Boolean).join(', ') || shown.length + ' to look at';
+      say('\n=== ' + label.padEnd(28) + (scene.why ?? '') + ' — ' + (problems.length ? problems.length + ' reported' : summary));
       for (const problem of shown) {
-        console.log('  ' + problem.level.toUpperCase().padEnd(8) + problem.kind.padEnd(13) + problem.where);
-        console.log('  ' + ''.padEnd(8) + ''.padEnd(13) + problem.detail);
+        say('  ' + problem.level.toUpperCase().padEnd(8) + problem.kind.padEnd(13) + problem.where);
+        say('  ' + ''.padEnd(8) + ''.padEnd(13) + problem.detail);
       }
-      for (const entry of failures) console.log('  ERROR   console      ' + entry.text.replace(/\s+/g, ' ').slice(0, 160));
-      if (options.console) for (const entry of logged) console.log('  [' + entry.level + '] ' + entry.text.replace(/\s+/g, ' ').slice(0, 160));
+      for (const entry of failures) say('  ERROR   console      ' + entry.text.replace(/\s+/g, ' ').slice(0, 160));
+      if (options.console) for (const entry of logged) say('  [' + entry.level + '] ' + entry.text.replace(/\s+/g, ' ').slice(0, 160));
+      const record = {
+        scene: scene.name, layout: layout.name, why: scene.why ?? null, url,
+        problems,
+        console: (options.console ? logged : failures).map(entry => ({ level: entry.level, text: entry.text.replace(/\s+/g, ' ') })),
+      };
+      collected.push(record);
 
       if (options.shots) {
         const out = path.join(ROOT, 'screenshots', 'audit', scene.name + '-' + layout.name.replace(':', '-') + '.png');
@@ -322,7 +345,8 @@ try {
           clip: { x: 0, y: 0, width: layout.width, height: layout.height, scale: 1 },
         });
         await writeFile(out, Buffer.from(data, 'base64'));
-        console.log('  shot     ' + path.relative(ROOT, out));
+        say('  shot     ' + path.relative(ROOT, out));
+        record.shot = path.relative(ROOT, out);
       }
       await send('Page.close').catch(() => undefined);
     }
@@ -330,10 +354,14 @@ try {
 } finally { await close(); }
 
 const seconds = ((Date.now() - started) / 1000).toFixed(1);
-console.log('\n' + chosen.length * layouts.length + ' states in ' + seconds + ' s: '
-  + counts.error + ' error, ' + counts.warning + ' warning, ' + counts.note + ' note'
-  + (options.all ? '' : ' (notes hidden; pass --all)'));
+if (options.json) {
+  console.log(JSON.stringify({ states: collected.length, seconds: Number(seconds), counts, ok: counts.error === 0, results: collected }, null, 2));
+} else {
+  console.log('\n' + chosen.length * layouts.length + ' states in ' + seconds + ' s: '
+    + counts.error + ' error, ' + counts.warning + ' warning, ' + counts.note + ' note'
+    + (options.all ? '' : ' (notes hidden; pass --all)'));
+}
 if (counts.error) {
-  console.error('\nErrors are layout faults a screenshot will not point at. Fix them, or say why the check is wrong.');
+  if (!options.json) console.error('\nErrors are layout faults a screenshot will not point at. Fix them, or say why the check is wrong.');
   process.exit(1);
 }

@@ -260,7 +260,7 @@ Everything about *which* and *when* is in `lib/` and covered by
 `tests/clock.test.mjs`, `tests/clock-conditions.test.mjs`,
 `tests/clock-tenant.test.mjs` and `tests/pet-behavior.test.mjs`, including the
 top-shape classifier, which is tested against the measured column tops of the
-Grotesk digits. `npm run audit` checks the card at both layouts, and
+Grotesk digits. `npm run audit` checks the card at 1280 x 720, and
 `npm run shot -- --offline --clip .clock-widget` is the picture of it;
 `--clip .clock-block` crops to the digits alone, without the card.
 
