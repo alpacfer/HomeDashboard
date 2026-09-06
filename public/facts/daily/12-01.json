@@ -30,33 +30,6 @@
       }
     },
     {
-      "id": "12-01-antarctic-treaty-system",
-      "date": "12-01",
-      "dateLabel": "1 December",
-      "category": "science",
-      "categoryName": "Science",
-      "year": 1959,
-      "title": "Antarctic Treaty System",
-      "body": "Opening date for signature of the Antarctic Treaty, which sets aside Antarctica as a scientific preserve and bans military activity on the continent.",
-      "source": {
-        "name": "Wikipedia · Antarctic Treaty System",
-        "url": "https://en.wikipedia.org/wiki/Antarctic_Treaty_System",
-        "calendarUrl": "https://en.wikipedia.org/wiki/December_1",
-        "license": {
-          "name": "CC BY-SA 4.0",
-          "url": "https://creativecommons.org/licenses/by-sa/4.0/"
-        }
-      },
-      "image": {
-        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/68/Flag_of_the_Antarctic_Treaty.svg/500px-Flag_of_the_Antarctic_Treaty.svg.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-        "alt": "Picture from the Wikipedia article on Antarctic Treaty System.",
-        "credit": "Alakasam",
-        "source": "https://commons.wikimedia.org/wiki/File:Flag_of_the_Antarctic_Treaty.svg",
-        "license": "CC BY-SA 3.0",
-        "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0"
-      }
-    },
-    {
       "id": "12-01-rutherford-b-hayes",
       "date": "12-01",
       "dateLabel": "1 December",
@@ -135,6 +108,33 @@
         "source": "https://commons.wikimedia.org/wiki/File:Oliver_Mark_-_Benazir_Bhutto,_Dubai_2006_(cropped).jpg",
         "license": "CC BY-SA 4.0",
         "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0"
+      }
+    },
+    {
+      "id": "12-01-world-aids-day",
+      "date": "12-01",
+      "dateLabel": "1 December",
+      "category": "world",
+      "categoryName": "World",
+      "year": 1988,
+      "title": "World AIDS Day",
+      "body": "World AIDS Day is proclaimed worldwide by the UN member states.",
+      "source": {
+        "name": "Wikipedia · World AIDS Day",
+        "url": "https://en.wikipedia.org/wiki/World_AIDS_Day",
+        "calendarUrl": "https://en.wikipedia.org/wiki/December_1",
+        "license": {
+          "name": "CC BY-SA 4.0",
+          "url": "https://creativecommons.org/licenses/by-sa/4.0/"
+        }
+      },
+      "image": {
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/64/Red_Ribbon.svg/500px-Red_Ribbon.svg.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "alt": "Picture from the Wikipedia article on World AIDS Day.",
+        "credit": "Gary van der Merwe",
+        "source": "https://commons.wikimedia.org/wiki/File:Red_Ribbon.svg",
+        "license": "CC BY-SA 3.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0/"
       }
     }
   ]

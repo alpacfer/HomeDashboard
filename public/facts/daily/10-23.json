@@ -3,33 +3,6 @@
   "dateLabel": "23 October",
   "facts": [
     {
-      "id": "10-23-apple-computer",
-      "date": "10-23",
-      "dateLabel": "23 October",
-      "category": "tech",
-      "categoryName": "Tech",
-      "year": 2001,
-      "title": "Apple Inc.",
-      "body": "Apple Computer releases the iPod.",
-      "source": {
-        "name": "Wikipedia · Apple Inc.",
-        "url": "https://en.wikipedia.org/wiki/Apple_Inc.",
-        "calendarUrl": "https://en.wikipedia.org/wiki/October_23",
-        "license": {
-          "name": "CC BY-SA 4.0",
-          "url": "https://creativecommons.org/licenses/by-sa/4.0/"
-        }
-      },
-      "image": {
-        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/fa/Apple_logo_black.svg/500px-Apple_logo_black.svg.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-        "alt": "Picture from the Wikipedia article on Apple Inc..",
-        "credit": "Rob Janoff",
-        "source": "https://commons.wikimedia.org/wiki/File:Apple_logo_black.svg",
-        "license": "Public domain",
-        "licenseUrl": "https://commons.wikimedia.org/wiki/File:Apple_logo_black.svg"
-      }
-    },
-    {
       "id": "10-23-jackie-robinson",
       "date": "10-23",
       "dateLabel": "23 October",
@@ -54,6 +27,33 @@
         "source": "https://commons.wikimedia.org/wiki/File:Jackie_Robinson,_NPG_97_135.jpg",
         "license": "CC0",
         "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/deed.en"
+      }
+    },
+    {
+      "id": "10-23-apple-computer",
+      "date": "10-23",
+      "dateLabel": "23 October",
+      "category": "tech",
+      "categoryName": "Tech",
+      "year": 2001,
+      "title": "Apple Inc.",
+      "body": "Apple Computer releases the iPod.",
+      "source": {
+        "name": "Wikipedia · Apple Inc.",
+        "url": "https://en.wikipedia.org/wiki/Apple_Inc.",
+        "calendarUrl": "https://en.wikipedia.org/wiki/October_23",
+        "license": {
+          "name": "CC BY-SA 4.0",
+          "url": "https://creativecommons.org/licenses/by-sa/4.0/"
+        }
+      },
+      "image": {
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/fa/Apple_logo_black.svg/500px-Apple_logo_black.svg.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "alt": "Picture from the Wikipedia article on Apple Inc..",
+        "credit": "Rob Janoff",
+        "source": "https://commons.wikimedia.org/wiki/File:Apple_logo_black.svg",
+        "license": "Public domain",
+        "licenseUrl": "https://commons.wikimedia.org/wiki/File:Apple_logo_black.svg"
       }
     },
     {
@@ -111,17 +111,17 @@
       }
     },
     {
-      "id": "10-23-italo-turkish-war",
+      "id": "10-23-nazi-germany",
       "date": "10-23",
       "dateLabel": "23 October",
       "category": "world",
       "categoryName": "World",
-      "year": 1911,
-      "title": "Italo-Turkish War",
-      "body": "The Italo-Turkish War sees the first use of an airplane in combat when an Italian pilot makes a reconnaissance flight.",
+      "year": 1941,
+      "title": "Nazi Germany",
+      "body": "Nazi Germany prohibits Jews from emigrating, including in its occupied territories.",
       "source": {
-        "name": "Wikipedia · Italo-Turkish War",
-        "url": "https://en.wikipedia.org/wiki/Italo-Turkish_War",
+        "name": "Wikipedia · Nazi Germany",
+        "url": "https://en.wikipedia.org/wiki/Nazi_Germany",
         "calendarUrl": "https://en.wikipedia.org/wiki/October_23",
         "license": {
           "name": "CC BY-SA 4.0",
@@ -129,12 +129,12 @@
         }
       },
       "image": {
-        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f1/Italo-Turkish_war_collage.jpg/500px-Italo-Turkish_war_collage.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-        "alt": "Picture from the Wikipedia article on Italo-Turkish War.",
-        "credit": "Wikimedia Commons",
-        "source": "https://commons.wikimedia.org/wiki/File:Italo-Turkish_war_collage.jpg",
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/77/Flag_of_Germany_%281935%E2%80%931945%29.svg/500px-Flag_of_Germany_%281935%E2%80%931945%29.svg.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "alt": "Picture from the Wikipedia article on Nazi Germany.",
+        "credit": "German government",
+        "source": "https://commons.wikimedia.org/wiki/File:Flag_of_Germany_(1935%E2%80%931945).svg",
         "license": "Public domain",
-        "licenseUrl": "https://commons.wikimedia.org/wiki/File:Italo-Turkish_war_collage.jpg"
+        "licenseUrl": "https://commons.wikimedia.org/wiki/File:Flag_of_Germany_(1935%E2%80%931945).svg"
       }
     }
   ]

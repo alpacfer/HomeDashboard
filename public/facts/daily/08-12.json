@@ -111,17 +111,17 @@
       }
     },
     {
-      "id": "08-12-isaac-singer",
+      "id": "08-12-alen-on",
       "date": "08-12",
       "dateLabel": "12 August",
-      "category": "culture",
-      "categoryName": "Culture",
-      "year": 1851,
-      "title": "Isaac Singer",
-      "body": "Isaac Singer is granted a patent for his sewing machine.",
+      "category": "world",
+      "categoryName": "World",
+      "year": 1944,
+      "title": "Alençon",
+      "body": "Alençon is liberated by General Philippe Leclerc de Hauteclocque, becoming the first city in France to be liberated from the Nazis by French forces.",
       "source": {
-        "name": "Wikipedia · Isaac Singer",
-        "url": "https://en.wikipedia.org/wiki/Isaac_Singer",
+        "name": "Wikipedia · Alençon",
+        "url": "https://en.wikipedia.org/wiki/Alen%C3%A7on",
         "calendarUrl": "https://en.wikipedia.org/wiki/August_12",
         "license": {
           "name": "CC BY-SA 4.0",
@@ -129,12 +129,12 @@
         }
       },
       "image": {
-        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/28/Edward_Harrison_May_-_Isaac_Merrit_Singer_-_Google_Art_Project.jpg/500px-Edward_Harrison_May_-_Isaac_Merrit_Singer_-_Google_Art_Project.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-        "alt": "Picture from the Wikipedia article on Isaac Singer.",
-        "credit": "Edward Harrison May",
-        "source": "https://commons.wikimedia.org/wiki/File:Edward_Harrison_May_-_Isaac_Merrit_Singer_-_Google_Art_Project.jpg",
-        "license": "Public domain",
-        "licenseUrl": "https://commons.wikimedia.org/wiki/File:Edward_Harrison_May_-_Isaac_Merrit_Singer_-_Google_Art_Project.jpg"
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/01/Hotel_de_ville_Alencon.jpg/500px-Hotel_de_ville_Alencon.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "alt": "Picture from the Wikipedia article on Alençon.",
+        "credit": "Wikimedia Commons",
+        "source": "https://commons.wikimedia.org/wiki/File:Hotel_de_ville_Alencon.jpg",
+        "license": "CC BY 1.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by/1.0"
       }
     }
   ]

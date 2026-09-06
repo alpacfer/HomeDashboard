@@ -3,33 +3,6 @@
   "dateLabel": "7 June",
   "facts": [
     {
-      "id": "06-07-israeli-air-force",
-      "date": "06-07",
-      "dateLabel": "7 June",
-      "category": "culture",
-      "categoryName": "Culture",
-      "year": 1981,
-      "title": "Israeli Air Force",
-      "body": "The Israeli Air Force destroys Iraq's Osiraq nuclear reactor during Operation Opera.",
-      "source": {
-        "name": "Wikipedia · Israeli Air Force",
-        "url": "https://en.wikipedia.org/wiki/Israeli_Air_Force",
-        "calendarUrl": "https://en.wikipedia.org/wiki/June_7",
-        "license": {
-          "name": "CC BY-SA 4.0",
-          "url": "https://creativecommons.org/licenses/by-sa/4.0/"
-        }
-      },
-      "image": {
-        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/01/Israeli_Air_Force_-_Coat_of_arms.svg/500px-Israeli_Air_Force_-_Coat_of_arms.svg.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-        "alt": "Picture from the Wikipedia article on Israeli Air Force.",
-        "credit": "Fry1989 Vector: Mintz l",
-        "source": "https://commons.wikimedia.org/wiki/File:Israeli_Air_Force_-_Coat_of_arms.svg",
-        "license": "Public domain",
-        "licenseUrl": "https://commons.wikimedia.org/wiki/File:Israeli_Air_Force_-_Coat_of_arms.svg"
-      }
-    },
-    {
       "id": "06-07-sony",
       "date": "06-07",
       "dateLabel": "7 June",
@@ -84,33 +57,6 @@
       }
     },
     {
-      "id": "06-07-israel",
-      "date": "06-07",
-      "dateLabel": "7 June",
-      "category": "world",
-      "categoryName": "World",
-      "year": 1967,
-      "title": "Israel",
-      "body": "Israeli soldiers enter Jerusalem.",
-      "source": {
-        "name": "Wikipedia · Israel",
-        "url": "https://en.wikipedia.org/wiki/Israel",
-        "calendarUrl": "https://en.wikipedia.org/wiki/June_7",
-        "license": {
-          "name": "CC BY-SA 4.0",
-          "url": "https://creativecommons.org/licenses/by-sa/4.0/"
-        }
-      },
-      "image": {
-        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d4/Flag_of_Israel.svg/500px-Flag_of_Israel.svg.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-        "alt": "Picture from the Wikipedia article on Israel.",
-        "credit": "Israel Belkind and Fanny Abramovitch…",
-        "source": "https://commons.wikimedia.org/wiki/File:Flag_of_Israel.svg",
-        "license": "Public domain",
-        "licenseUrl": "https://commons.wikimedia.org/wiki/File:Flag_of_Israel.svg"
-      }
-    },
-    {
       "id": "06-07-mount-pinatubo",
       "date": "06-07",
       "dateLabel": "7 June",
@@ -135,6 +81,60 @@
         "source": "https://commons.wikimedia.org/wiki/File:Mt_Pinatubo_trekking_-_panoramio_(5).jpg",
         "license": "CC BY 3.0",
         "licenseUrl": "https://creativecommons.org/licenses/by/3.0"
+      }
+    },
+    {
+      "id": "06-07-aleutian-islands-campaign",
+      "date": "06-07",
+      "dateLabel": "7 June",
+      "category": "world",
+      "categoryName": "World",
+      "year": 1942,
+      "title": "Aleutian Islands campaign",
+      "body": "Imperial Japanese soldiers begin occupying the American islands of Attu and Kiska, in the Aleutian Islands off Alaska.",
+      "source": {
+        "name": "Wikipedia · Aleutian Islands campaign",
+        "url": "https://en.wikipedia.org/wiki/Aleutian_Islands_campaign",
+        "calendarUrl": "https://en.wikipedia.org/wiki/June_7",
+        "license": {
+          "name": "CC BY-SA 4.0",
+          "url": "https://creativecommons.org/licenses/by-sa/4.0/"
+        }
+      },
+      "image": {
+        "src": "https://upload.wikimedia.org/wikipedia/commons/0/0b/Hauling_supplies_on_Attu.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+        "alt": "Picture from the Wikipedia article on Aleutian Islands campaign.",
+        "credit": "Wikimedia Commons",
+        "source": "https://commons.wikimedia.org/wiki/File:Hauling_supplies_on_Attu.jpg",
+        "license": "Public domain",
+        "licenseUrl": "https://commons.wikimedia.org/wiki/File:Hauling_supplies_on_Attu.jpg"
+      }
+    },
+    {
+      "id": "06-07-haakon-vii-of-norway",
+      "date": "06-07",
+      "dateLabel": "7 June",
+      "category": "world",
+      "categoryName": "World",
+      "year": 1940,
+      "title": "Haakon VII",
+      "body": "King Haakon VII, Crown Prince Olav and the Norwegian government leave Tromsø and go into exile in London. They return exactly five years later.",
+      "source": {
+        "name": "Wikipedia · Haakon VII",
+        "url": "https://en.wikipedia.org/wiki/Haakon_VII",
+        "calendarUrl": "https://en.wikipedia.org/wiki/June_7",
+        "license": {
+          "name": "CC BY-SA 4.0",
+          "url": "https://creativecommons.org/licenses/by-sa/4.0/"
+        }
+      },
+      "image": {
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d4/Portrett_av_Kong_Haakon_VII_-_King_Haakon_VII%2C_1946_%286817780248%29_%28cropped%29.jpg/500px-Portrett_av_Kong_Haakon_VII_-_King_Haakon_VII%2C_1946_%286817780248%29_%28cropped%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "alt": "Picture from the Wikipedia article on Haakon VII.",
+        "credit": "National Library of Norway",
+        "source": "https://commons.wikimedia.org/wiki/File:Portrett_av_Kong_Haakon_VII_-_King_Haakon_VII,_1946_(6817780248)_(cropped).jpg",
+        "license": "No restrictions",
+        "licenseUrl": "https://www.flickr.com/commons/usage/"
       }
     }
   ]

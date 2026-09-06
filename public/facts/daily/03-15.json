@@ -30,6 +30,33 @@
       }
     },
     {
+      "id": "03-15-mcg-stadium",
+      "date": "03-15",
+      "dateLabel": "15 March",
+      "category": "sport",
+      "categoryName": "Sport",
+      "year": 1877,
+      "title": "Melbourne Cricket Ground",
+      "body": "Australia vs England at the MCG Stadium, in Melbourne, Australia.",
+      "source": {
+        "name": "Wikipedia · Melbourne Cricket Ground",
+        "url": "https://en.wikipedia.org/wiki/Melbourne_Cricket_Ground",
+        "calendarUrl": "https://en.wikipedia.org/wiki/March_15",
+        "license": {
+          "name": "CC BY-SA 4.0",
+          "url": "https://creativecommons.org/licenses/by-sa/4.0/"
+        }
+      },
+      "image": {
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/42/2017_AFL_Grand_Final_panorama_during_national_anthem.jpg/500px-2017_AFL_Grand_Final_panorama_during_national_anthem.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "alt": "Picture from the Wikipedia article on Melbourne Cricket Ground.",
+        "credit": "Flickerd",
+        "source": "https://commons.wikimedia.org/wiki/File:2017_AFL_Grand_Final_panorama_during_national_anthem.jpg",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0"
+      }
+    },
+    {
       "id": "03-15-benjamin-morrell",
       "date": "03-15",
       "dateLabel": "15 March",
@@ -54,33 +81,6 @@
         "source": "https://commons.wikimedia.org/wiki/File:Morrell.jpg",
         "license": "Public domain",
         "licenseUrl": "https://commons.wikimedia.org/wiki/File:Morrell.jpg"
-      }
-    },
-    {
-      "id": "03-15-somalia",
-      "date": "03-15",
-      "dateLabel": "15 March",
-      "category": "world",
-      "categoryName": "World",
-      "year": 1978,
-      "title": "Somalia",
-      "body": "Somalia and Ethiopia sign a truce to end the Ethio-Somali War.",
-      "source": {
-        "name": "Wikipedia · Somalia",
-        "url": "https://en.wikipedia.org/wiki/Somalia",
-        "calendarUrl": "https://en.wikipedia.org/wiki/March_15",
-        "license": {
-          "name": "CC BY-SA 4.0",
-          "url": "https://creativecommons.org/licenses/by-sa/4.0/"
-        }
-      },
-      "image": {
-        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a0/Flag_of_Somalia.svg/500px-Flag_of_Somalia.svg.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-        "alt": "Picture from the Wikipedia article on Somalia.",
-        "credit": "see upload history",
-        "source": "https://commons.wikimedia.org/wiki/File:Flag_of_Somalia.svg",
-        "license": "Public domain",
-        "licenseUrl": "https://commons.wikimedia.org/wiki/File:Flag_of_Somalia.svg"
       }
     },
     {

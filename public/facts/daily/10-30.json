@@ -3,33 +3,6 @@
   "dateLabel": "30 October",
   "facts": [
     {
-      "id": "10-30-el-salvador",
-      "date": "10-30",
-      "dateLabel": "30 October",
-      "category": "sport",
-      "categoryName": "Sport",
-      "year": 1980,
-      "title": "El Salvador",
-      "body": "El Salvador and Honduras agree to put the border dispute fought over in 1969's Football War before the International Court of Justice.",
-      "source": {
-        "name": "Wikipedia · El Salvador",
-        "url": "https://en.wikipedia.org/wiki/El_Salvador",
-        "calendarUrl": "https://en.wikipedia.org/wiki/October_30",
-        "license": {
-          "name": "CC BY-SA 4.0",
-          "url": "https://creativecommons.org/licenses/by-sa/4.0/"
-        }
-      },
-      "image": {
-        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/34/Flag_of_El_Salvador.svg/500px-Flag_of_El_Salvador.svg.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-        "alt": "Picture from the Wikipedia article on El Salvador.",
-        "credit": "See File history below for details",
-        "source": "https://commons.wikimedia.org/wiki/File:Flag_of_El_Salvador.svg",
-        "license": "Public domain",
-        "licenseUrl": "https://commons.wikimedia.org/wiki/File:Flag_of_El_Salvador.svg"
-      }
-    },
-    {
       "id": "10-30-space-shuttle-challenger",
       "date": "10-30",
       "dateLabel": "30 October",
@@ -84,33 +57,6 @@
       }
     },
     {
-      "id": "10-30-1983-argentine-general-election",
-      "date": "10-30",
-      "dateLabel": "30 October",
-      "category": "world",
-      "categoryName": "World",
-      "year": 1983,
-      "title": "1983 Argentine general election",
-      "body": "The first democratic elections in Argentina, after seven years of military rule, are held.",
-      "source": {
-        "name": "Wikipedia · 1983 Argentine general election",
-        "url": "https://en.wikipedia.org/wiki/1983_Argentine_general_election",
-        "calendarUrl": "https://en.wikipedia.org/wiki/October_30",
-        "license": {
-          "name": "CC BY-SA 4.0",
-          "url": "https://creativecommons.org/licenses/by-sa/4.0/"
-        }
-      },
-      "image": {
-        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/62/Elecciones_legislativas_de_Argentina_de_1983_-_Resultados_por_distrito.svg/500px-Elecciones_legislativas_de_Argentina_de_1983_-_Resultados_por_distrito.svg.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-        "alt": "Picture from the Wikipedia article on 1983 Argentine general election.",
-        "credit": "FelipeRev",
-        "source": "https://commons.wikimedia.org/wiki/File:Elecciones_legislativas_de_Argentina_de_1983_-_Resultados_por_distrito.svg",
-        "license": "CC BY-SA 4.0",
-        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0"
-      }
-    },
-    {
       "id": "10-30-bosphorus-bridge",
       "date": "10-30",
       "dateLabel": "30 October",
@@ -135,6 +81,60 @@
         "source": "https://commons.wikimedia.org/wiki/File:Bosphorus_Bridge_(1973)_in_Istanbul.jpg",
         "license": "CC BY 4.0",
         "licenseUrl": "https://creativecommons.org/licenses/by/4.0"
+      }
+    },
+    {
+      "id": "10-30-quebec",
+      "date": "10-30",
+      "dateLabel": "30 October",
+      "category": "world",
+      "categoryName": "World",
+      "year": 1995,
+      "title": "Quebec",
+      "body": "Quebec citizens narrowly vote (50.58% to 49.42%) in favour of remaining a province of Canada in their second referendum on national sovereignty.",
+      "source": {
+        "name": "Wikipedia · Quebec",
+        "url": "https://en.wikipedia.org/wiki/Quebec",
+        "calendarUrl": "https://en.wikipedia.org/wiki/October_30",
+        "license": {
+          "name": "CC BY-SA 4.0",
+          "url": "https://creativecommons.org/licenses/by-sa/4.0/"
+        }
+      },
+      "image": {
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/5f/Flag_of_Quebec.svg/500px-Flag_of_Quebec.svg.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "alt": "Picture from the Wikipedia article on Quebec.",
+        "credit": "René Chaloult Vector: Krun",
+        "source": "https://commons.wikimedia.org/wiki/File:Flag_of_Quebec.svg",
+        "license": "Public domain",
+        "licenseUrl": "https://commons.wikimedia.org/wiki/File:Flag_of_Quebec.svg"
+      }
+    },
+    {
+      "id": "10-30-pidhaytsi",
+      "date": "10-30",
+      "dateLabel": "30 October",
+      "category": "world",
+      "categoryName": "World",
+      "year": 1941,
+      "title": "Pidhaitsi",
+      "body": "Fifteen hundred Jews from Pidhaytsi are sent by Nazis to Bełżec extermination camp.",
+      "source": {
+        "name": "Wikipedia · Pidhaitsi",
+        "url": "https://en.wikipedia.org/wiki/Pidhaitsi",
+        "calendarUrl": "https://en.wikipedia.org/wiki/October_30",
+        "license": {
+          "name": "CC BY-SA 4.0",
+          "url": "https://creativecommons.org/licenses/by-sa/4.0/"
+        }
+      },
+      "image": {
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/1f/%D0%9F%D1%96%D0%B4%D0%B3%D0%B0%D0%B9%D1%86%D1%96_2015_1.JPG/500px-%D0%9F%D1%96%D0%B4%D0%B3%D0%B0%D0%B9%D1%86%D1%96_2015_1.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "alt": "Picture from the Wikipedia article on Pidhaitsi.",
+        "credit": "Wikimedia Commons",
+        "source": "https://commons.wikimedia.org/wiki/File:%D0%9F%D1%96%D0%B4%D0%B3%D0%B0%D0%B9%D1%86%D1%96_2015_1.JPG",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0"
       }
     }
   ]

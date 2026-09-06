@@ -57,6 +57,33 @@
       }
     },
     {
+      "id": "08-27-qing-dynasty",
+      "date": "08-27",
+      "dateLabel": "27 August",
+      "category": "world",
+      "categoryName": "World",
+      "year": 1908,
+      "title": "Qing dynasty",
+      "body": "The Qing dynasty promulgates the Qinding Xianfa Dagang, the first constitutional document in the history of China, transforming the Qing empire into a constitutional monarchy.",
+      "source": {
+        "name": "Wikipedia · Qing dynasty",
+        "url": "https://en.wikipedia.org/wiki/Qing_dynasty",
+        "calendarUrl": "https://en.wikipedia.org/wiki/August_27",
+        "license": {
+          "name": "CC BY-SA 4.0",
+          "url": "https://creativecommons.org/licenses/by-sa/4.0/"
+        }
+      },
+      "image": {
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b6/Flag_of_China_%281889%E2%80%931912%29.svg/500px-Flag_of_China_%281889%E2%80%931912%29.svg.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "alt": "Picture from the Wikipedia article on Qing dynasty.",
+        "credit": "zh:清朝政府 Vector: Sodacan",
+        "source": "https://commons.wikimedia.org/wiki/File:Flag_of_China_(1889%E2%80%931912).svg",
+        "license": "Public domain",
+        "licenseUrl": "https://commons.wikimedia.org/wiki/File:Flag_of_China_(1889%E2%80%931912).svg"
+      }
+    },
+    {
       "id": "08-27-mariner-2",
       "date": "08-27",
       "dateLabel": "27 August",
@@ -73,6 +100,17 @@
           "name": "CC BY-SA 4.0",
           "url": "https://creativecommons.org/licenses/by-sa/4.0/"
         }
+      },
+      "video": {
+        "src": "https://upload.wikimedia.org/wikipedia/commons/transcoded/2/20/Video-mariner-2-launch-020429.ogv/Video-mariner-2-launch-020429.ogv.240p.vp9.webm",
+        "width": 320,
+        "height": 240,
+        "poster": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/20/Video-mariner-2-launch-020429.ogv/250px--Video-mariner-2-launch-020429.ogv.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo",
+        "seconds": 39,
+        "credit": "NASA",
+        "source": "https://commons.wikimedia.org/wiki/File:Video-mariner-2-launch-020429.ogv",
+        "license": "Public domain",
+        "licenseUrl": "https://commons.wikimedia.org/wiki/File:Video-mariner-2-launch-020429.ogv"
       },
       "image": {
         "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e9/Mariner_2_Engineering_Model.jpg/500px-Mariner_2_Engineering_Model.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
@@ -108,33 +146,6 @@
         "source": "https://commons.wikimedia.org/wiki/File:Calder_Hall_nuclear_power_station,_after_opening.jpg",
         "license": "OGL 3",
         "licenseUrl": "https://www.nationalarchives.gov.uk/doc/open-government-licence/version/3"
-      }
-    },
-    {
-      "id": "08-27-european-community",
-      "date": "08-27",
-      "dateLabel": "27 August",
-      "category": "world",
-      "categoryName": "World",
-      "year": 1991,
-      "title": "European Economic Community",
-      "body": "The European Community recognizes the independence of the Baltic states of Estonia, Latvia and Lithuania.",
-      "source": {
-        "name": "Wikipedia · European Economic Community",
-        "url": "https://en.wikipedia.org/wiki/European_Economic_Community",
-        "calendarUrl": "https://en.wikipedia.org/wiki/August_27",
-        "license": {
-          "name": "CC BY-SA 4.0",
-          "url": "https://creativecommons.org/licenses/by-sa/4.0/"
-        }
-      },
-      "image": {
-        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b7/Flag_of_Europe.svg/500px-Flag_of_Europe.svg.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-        "alt": "Picture from the Wikipedia article on European Economic Community.",
-        "credit": "User:Verdy p",
-        "source": "https://commons.wikimedia.org/wiki/File:Flag_of_Europe.svg",
-        "license": "Public domain",
-        "licenseUrl": "https://commons.wikimedia.org/wiki/File:Flag_of_Europe.svg"
       }
     }
   ]

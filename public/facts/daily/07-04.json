@@ -57,33 +57,6 @@
       }
     },
     {
-      "id": "07-04-chile-national-football-team",
-      "date": "07-04",
-      "dateLabel": "4 July",
-      "category": "sport",
-      "categoryName": "Sport",
-      "year": 2015,
-      "title": "Chile national football team",
-      "body": "Chile claims its first title in international football by defeating Argentina in the 2015 Copa América final.",
-      "source": {
-        "name": "Wikipedia · Chile national football team",
-        "url": "https://en.wikipedia.org/wiki/Chile_national_football_team",
-        "calendarUrl": "https://en.wikipedia.org/wiki/July_4",
-        "license": {
-          "name": "CC BY-SA 4.0",
-          "url": "https://creativecommons.org/licenses/by-sa/4.0/"
-        }
-      },
-      "image": {
-        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f1/Federaci%C3%B3n_de_F%C3%BAtbol_de_Chile_logo.svg/500px-Federaci%C3%B3n_de_F%C3%BAtbol_de_Chile_logo.svg.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-        "alt": "Picture from the Wikipedia article on Chile national football team.",
-        "credit": "Original",
-        "source": "https://commons.wikimedia.org/wiki/File:Federaci%C3%B3n_de_F%C3%BAtbol_de_Chile_logo.svg",
-        "license": "Public domain",
-        "licenseUrl": "https://commons.wikimedia.org/wiki/File:Federaci%C3%B3n_de_F%C3%BAtbol_de_Chile_logo.svg"
-      }
-    },
-    {
       "id": "07-04-william-shockley",
       "date": "07-04",
       "dateLabel": "4 July",
@@ -135,6 +108,33 @@
         "source": "https://commons.wikimedia.org/wiki/File:One_WTC_logo.svg",
         "license": "Public domain",
         "licenseUrl": "https://commons.wikimedia.org/wiki/File:One_WTC_logo.svg"
+      }
+    },
+    {
+      "id": "07-04-mars-pathfinder",
+      "date": "07-04",
+      "dateLabel": "4 July",
+      "category": "space",
+      "categoryName": "Space",
+      "year": 1997,
+      "title": "Mars Pathfinder",
+      "body": "NASA's Pathfinder space probe lands on the surface of Mars.",
+      "source": {
+        "name": "Wikipedia · Mars Pathfinder",
+        "url": "https://en.wikipedia.org/wiki/Mars_Pathfinder",
+        "calendarUrl": "https://en.wikipedia.org/wiki/July_4",
+        "license": {
+          "name": "CC BY-SA 4.0",
+          "url": "https://creativecommons.org/licenses/by-sa/4.0/"
+        }
+      },
+      "image": {
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/7f/Mars_Pathfinder_Lander_preparations.jpg/500px-Mars_Pathfinder_Lander_preparations.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "alt": "Picture from the Wikipedia article on Mars Pathfinder.",
+        "credit": "NASA",
+        "source": "https://commons.wikimedia.org/wiki/File:Mars_Pathfinder_Lander_preparations.jpg",
+        "license": "Public domain",
+        "licenseUrl": "https://commons.wikimedia.org/wiki/File:Mars_Pathfinder_Lander_preparations.jpg"
       }
     }
   ]

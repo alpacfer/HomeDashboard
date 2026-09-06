@@ -30,6 +30,33 @@
       }
     },
     {
+      "id": "04-05-franklin-d-roosevelt",
+      "date": "04-05",
+      "dateLabel": "5 April",
+      "category": "world",
+      "categoryName": "World",
+      "year": 1933,
+      "title": "Franklin D. Roosevelt",
+      "body": "U.S. President Franklin D. Roosevelt signs two executive orders: 6101 to establish the Civilian Conservation Corps, and 6102 \"forbidding the Hoarding of Gold Coin, Gold Bullion, and Gold Certificates\" by U.S. citizens.",
+      "source": {
+        "name": "Wikipedia · Franklin D. Roosevelt",
+        "url": "https://en.wikipedia.org/wiki/Franklin_D._Roosevelt",
+        "calendarUrl": "https://en.wikipedia.org/wiki/April_5",
+        "license": {
+          "name": "CC BY-SA 4.0",
+          "url": "https://creativecommons.org/licenses/by-sa/4.0/"
+        }
+      },
+      "image": {
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/fd/FDR-1944-Campaign-Portrait_%283x4_retouched%2C_cropped%29.jpg/500px-FDR-1944-Campaign-Portrait_%283x4_retouched%2C_cropped%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "alt": "Picture from the Wikipedia article on Franklin D. Roosevelt.",
+        "credit": "Leon Perskie",
+        "source": "https://commons.wikimedia.org/wiki/File:FDR-1944-Campaign-Portrait_(3x4_retouched,_cropped).jpg",
+        "license": "CC BY 2.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by/2.0"
+      }
+    },
+    {
       "id": "04-05-akashi-kaiky-bridge",
       "date": "04-05",
       "dateLabel": "5 April",
@@ -108,33 +135,6 @@
         "source": "https://commons.wikimedia.org/wiki/File:Out_P833_-_Aerial_view_of_Ripple_Rock_prior_to_blasting_in_the_Seymour_Narrows.jpg",
         "license": "Public domain",
         "licenseUrl": "https://commons.wikimedia.org/wiki/File:Out_P833_-_Aerial_view_of_Ripple_Rock_prior_to_blasting_in_the_Seymour_Narrows.jpg"
-      }
-    },
-    {
-      "id": "04-05-us-supreme-court",
-      "date": "04-05",
-      "dateLabel": "5 April",
-      "category": "world",
-      "categoryName": "World",
-      "year": 1977,
-      "title": "Supreme Court of the United States",
-      "body": "The US Supreme Court rules that congressional legislation that diminished the size of the Sioux people's reservation thereby destroyed the tribe's jurisdictional authority over the area in Rosebud Sioux Tribe v. Kneip.",
-      "source": {
-        "name": "Wikipedia · Supreme Court of the United States",
-        "url": "https://en.wikipedia.org/wiki/Supreme_Court_of_the_United_States",
-        "calendarUrl": "https://en.wikipedia.org/wiki/April_5",
-        "license": {
-          "name": "CC BY-SA 4.0",
-          "url": "https://creativecommons.org/licenses/by-sa/4.0/"
-        }
-      },
-      "image": {
-        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f3/Seal_of_the_United_States_Supreme_Court.svg/500px-Seal_of_the_United_States_Supreme_Court.svg.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-        "alt": "Picture from the Wikipedia article on Supreme Court of the United States.",
-        "credit": "Optimager Vector: Ipankonin",
-        "source": "https://commons.wikimedia.org/wiki/File:Seal_of_the_United_States_Supreme_Court.svg",
-        "license": "Public domain",
-        "licenseUrl": "https://commons.wikimedia.org/wiki/File:Seal_of_the_United_States_Supreme_Court.svg"
       }
     }
   ]

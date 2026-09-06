@@ -57,33 +57,6 @@
       }
     },
     {
-      "id": "05-12-democratic-kampuchea",
-      "date": "05-12",
-      "dateLabel": "12 May",
-      "category": "world",
-      "categoryName": "World",
-      "year": 1975,
-      "title": "Democratic Kampuchea",
-      "body": "Democratic Kampuchea naval forces capture the SS Mayaguez.",
-      "source": {
-        "name": "Wikipedia · Democratic Kampuchea",
-        "url": "https://en.wikipedia.org/wiki/Democratic_Kampuchea",
-        "calendarUrl": "https://en.wikipedia.org/wiki/May_12",
-        "license": {
-          "name": "CC BY-SA 4.0",
-          "url": "https://creativecommons.org/licenses/by-sa/4.0/"
-        }
-      },
-      "image": {
-        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a9/Flag_of_Democratic_Kampuchea.svg/500px-Flag_of_Democratic_Kampuchea.svg.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-        "alt": "Picture from the Wikipedia article on Democratic Kampuchea.",
-        "credit": "Wikimedia Commons",
-        "source": "https://commons.wikimedia.org/wiki/File:Flag_of_Democratic_Kampuchea.svg",
-        "license": "Public domain",
-        "licenseUrl": "https://commons.wikimedia.org/wiki/File:Flag_of_Democratic_Kampuchea.svg"
-      }
-    },
-    {
       "id": "05-12-norge-airship",
       "date": "05-12",
       "dateLabel": "12 May",
@@ -135,6 +108,33 @@
         "source": "https://commons.wikimedia.org/wiki/File:Flag_of_Zaire_(1971%E2%80%931997).svg",
         "license": "Public domain",
         "licenseUrl": "https://commons.wikimedia.org/wiki/File:Flag_of_Zaire_(1971%E2%80%931997).svg"
+      }
+    },
+    {
+      "id": "05-12-berlin-blockade",
+      "date": "05-12",
+      "dateLabel": "12 May",
+      "category": "world",
+      "categoryName": "World",
+      "year": 1949,
+      "title": "Berlin Blockade",
+      "body": "The Soviet Union lifts its blockade of Berlin.",
+      "source": {
+        "name": "Wikipedia · Berlin Blockade",
+        "url": "https://en.wikipedia.org/wiki/Berlin_Blockade",
+        "calendarUrl": "https://en.wikipedia.org/wiki/May_12",
+        "license": {
+          "name": "CC BY-SA 4.0",
+          "url": "https://creativecommons.org/licenses/by-sa/4.0/"
+        }
+      },
+      "image": {
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/92/C-54_landing_at_Tempelhof.jpg/500px-C-54_landing_at_Tempelhof.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "alt": "Picture from the Wikipedia article on Berlin Blockade.",
+        "credit": "Henry Ries / USAF",
+        "source": "https://commons.wikimedia.org/wiki/File:C-54_landing_at_Tempelhof.jpg",
+        "license": "Public domain",
+        "licenseUrl": "https://commons.wikimedia.org/wiki/File:C-54_landing_at_Tempelhof.jpg"
       }
     }
   ]

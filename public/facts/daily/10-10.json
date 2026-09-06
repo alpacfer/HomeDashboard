@@ -84,6 +84,33 @@
       }
     },
     {
+      "id": "10-10-triton-moon",
+      "date": "10-10",
+      "dateLabel": "10 October",
+      "category": "science",
+      "categoryName": "Science",
+      "year": 1846,
+      "title": "Triton",
+      "body": "Triton, the largest moon of the planet Neptune, is discovered by English astronomer William Lassell.",
+      "source": {
+        "name": "Wikipedia · Triton (moon)",
+        "url": "https://en.wikipedia.org/wiki/Triton_(moon)",
+        "calendarUrl": "https://en.wikipedia.org/wiki/October_10",
+        "license": {
+          "name": "CC BY-SA 4.0",
+          "url": "https://creativecommons.org/licenses/by-sa/4.0/"
+        }
+      },
+      "image": {
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/98/Triton-usgs23-with-frame.jpg/500px-Triton-usgs23-with-frame.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "alt": "Picture from the Wikipedia article on Triton.",
+        "credit": "Michael T. Bland, U.S. Geological Survey",
+        "source": "https://commons.wikimedia.org/wiki/File:Triton-usgs23-with-frame.jpg",
+        "license": "CC BY 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by/4.0"
+      }
+    },
+    {
       "id": "10-10-outer-space-treaty",
       "date": "10-10",
       "dateLabel": "10 October",
@@ -108,33 +135,6 @@
         "source": "https://commons.wikimedia.org/wiki/File:Outer_Space_Treaty_parties.svg",
         "license": "CC BY-SA 2.5",
         "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.5"
-      }
-    },
-    {
-      "id": "10-10-farabundo-mart-national-liberation-front",
-      "date": "10-10",
-      "dateLabel": "10 October",
-      "category": "world",
-      "categoryName": "World",
-      "year": 1980,
-      "title": "Farabundo Martí National Liberation Front",
-      "body": "The Farabundo Martí National Liberation Front is founded in El Salvador.",
-      "source": {
-        "name": "Wikipedia · Farabundo Martí National Liberation Front",
-        "url": "https://en.wikipedia.org/wiki/Farabundo_Mart%C3%AD_National_Liberation_Front",
-        "calendarUrl": "https://en.wikipedia.org/wiki/October_10",
-        "license": {
-          "name": "CC BY-SA 4.0",
-          "url": "https://creativecommons.org/licenses/by-sa/4.0/"
-        }
-      },
-      "image": {
-        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/4b/Logo_of_the_FMLN.svg/500px-Logo_of_the_FMLN.svg.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-        "alt": "Picture from the Wikipedia article on Farabundo Martí National Liberation Front.",
-        "credit": "Ivan Ch RU",
-        "source": "https://commons.wikimedia.org/wiki/File:Logo_of_the_FMLN.svg",
-        "license": "CC BY-SA 4.0",
-        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0"
       }
     }
   ]

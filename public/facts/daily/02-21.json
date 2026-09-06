@@ -30,6 +30,33 @@
       }
     },
     {
+      "id": "02-21-the-new-yorker",
+      "date": "02-21",
+      "dateLabel": "21 February",
+      "category": "world",
+      "categoryName": "World",
+      "year": 1925,
+      "title": "The New Yorker",
+      "body": "The New Yorker publishes its first issue.",
+      "source": {
+        "name": "Wikipedia · The New Yorker",
+        "url": "https://en.wikipedia.org/wiki/The_New_Yorker",
+        "calendarUrl": "https://en.wikipedia.org/wiki/February_21",
+        "license": {
+          "name": "CC BY-SA 4.0",
+          "url": "https://creativecommons.org/licenses/by-sa/4.0/"
+        }
+      },
+      "image": {
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/4d/Original_New_Yorker_cover.png/500px-Original_New_Yorker_cover.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "alt": "Picture from the Wikipedia article on The New Yorker.",
+        "credit": "Rea Irvin",
+        "source": "https://commons.wikimedia.org/wiki/File:Original_New_Yorker_cover.png",
+        "license": "Public domain",
+        "licenseUrl": "https://commons.wikimedia.org/wiki/File:Original_New_Yorker_cover.png"
+      }
+    },
+    {
       "id": "02-21-telephone-directory",
       "date": "02-21",
       "dateLabel": "21 February",
@@ -54,33 +81,6 @@
         "source": "https://commons.wikimedia.org/wiki/File:Telefonbog_ubt-1.JPG",
         "license": "CC BY 3.0",
         "licenseUrl": "https://creativecommons.org/licenses/by/3.0"
-      }
-    },
-    {
-      "id": "02-21-steve-fossett",
-      "date": "02-21",
-      "dateLabel": "21 February",
-      "category": "world",
-      "categoryName": "World",
-      "year": 1995,
-      "title": "Steve Fossett",
-      "body": "Steve Fossett lands in Leader, Saskatchewan, Canada becoming the first person to make a solo flight across the Pacific Ocean in a balloon.",
-      "source": {
-        "name": "Wikipedia · Steve Fossett",
-        "url": "https://en.wikipedia.org/wiki/Steve_Fossett",
-        "calendarUrl": "https://en.wikipedia.org/wiki/February_21",
-        "license": {
-          "name": "CC BY-SA 4.0",
-          "url": "https://creativecommons.org/licenses/by-sa/4.0/"
-        }
-      },
-      "image": {
-        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/20/Steve_Fossett_1.jpg/500px-Steve_Fossett_1.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-        "alt": "Picture from the Wikipedia article on Steve Fossett.",
-        "credit": "John Mathew Smith & www.celebrity-photos…",
-        "source": "https://commons.wikimedia.org/wiki/File:Steve_Fossett_1.jpg",
-        "license": "CC BY-SA 2.0",
-        "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0"
       }
     },
     {

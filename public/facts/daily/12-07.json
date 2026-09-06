@@ -111,17 +111,17 @@
       }
     },
     {
-      "id": "12-07-cricket",
+      "id": "12-07-apollo-17",
       "date": "12-07",
       "dateLabel": "7 December",
-      "category": "world",
-      "categoryName": "World",
-      "year": 1936,
-      "title": "Cricket",
-      "body": "Australian cricketer Jack Fingleton becomes the first player to score centuries in four consecutive Test innings.",
+      "category": "space",
+      "categoryName": "Space",
+      "year": 1972,
+      "title": "Apollo 17",
+      "body": "Apollo 17, the last Apollo Moon mission, is launched. The crew takes the photograph known as The Blue Marble as they leave the Earth.",
       "source": {
-        "name": "Wikipedia · Cricket",
-        "url": "https://en.wikipedia.org/wiki/Cricket",
+        "name": "Wikipedia · Apollo 17",
+        "url": "https://en.wikipedia.org/wiki/Apollo_17",
         "calendarUrl": "https://en.wikipedia.org/wiki/December_7",
         "license": {
           "name": "CC BY-SA 4.0",
@@ -129,12 +129,12 @@
         }
       },
       "image": {
-        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/7a/Pollock_to_Hussey.jpg/500px-Pollock_to_Hussey.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-        "alt": "Picture from the Wikipedia article on Cricket.",
-        "credit": "Prescott Pym on Flickr",
-        "source": "https://commons.wikimedia.org/wiki/File:Pollock_to_Hussey.jpg",
-        "license": "CC BY 2.0",
-        "licenseUrl": "https://creativecommons.org/licenses/by/2.0"
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/ac/Eugene_Cernan_at_the_LM%2C_Apollo_17%2C_AS17-134-20378.jpg/500px-Eugene_Cernan_at_the_LM%2C_Apollo_17%2C_AS17-134-20378.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "alt": "Picture from the Wikipedia article on Apollo 17.",
+        "credit": "Harrison Schmitt / Apollo 17",
+        "source": "https://commons.wikimedia.org/wiki/File:Eugene_Cernan_at_the_LM,_Apollo_17,_AS17-134-20378.jpg",
+        "license": "Public domain",
+        "licenseUrl": "https://commons.wikimedia.org/wiki/File:Eugene_Cernan_at_the_LM,_Apollo_17,_AS17-134-20378.jpg"
       }
     }
   ]

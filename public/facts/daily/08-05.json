@@ -30,6 +30,33 @@
       }
     },
     {
+      "id": "08-05-burkina-faso",
+      "date": "08-05",
+      "dateLabel": "5 August",
+      "category": "world",
+      "categoryName": "World",
+      "year": 1960,
+      "title": "Burkina Faso",
+      "body": "Burkina Faso, then known as Upper Volta, becomes independent from France.",
+      "source": {
+        "name": "Wikipedia · Burkina Faso",
+        "url": "https://en.wikipedia.org/wiki/Burkina_Faso",
+        "calendarUrl": "https://en.wikipedia.org/wiki/August_5",
+        "license": {
+          "name": "CC BY-SA 4.0",
+          "url": "https://creativecommons.org/licenses/by-sa/4.0/"
+        }
+      },
+      "image": {
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/31/Flag_of_Burkina_Faso.svg/500px-Flag_of_Burkina_Faso.svg.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "alt": "Picture from the Wikipedia article on Burkina Faso.",
+        "credit": "Drawn",
+        "source": "https://commons.wikimedia.org/wiki/File:Flag_of_Burkina_Faso.svg",
+        "license": "Public domain",
+        "licenseUrl": "https://commons.wikimedia.org/wiki/File:Flag_of_Burkina_Faso.svg"
+      }
+    },
+    {
       "id": "08-05-mars-6",
       "date": "08-05",
       "dateLabel": "5 August",
@@ -54,33 +81,6 @@
         "source": "https://commons.wikimedia.org/wiki/File:Mars_6.jpg",
         "license": "Public domain",
         "licenseUrl": "https://commons.wikimedia.org/wiki/File:Mars_6.jpg"
-      }
-    },
-    {
-      "id": "08-05-operation-pierce-arrow",
-      "date": "08-05",
-      "dateLabel": "5 August",
-      "category": "world",
-      "categoryName": "World",
-      "year": 1964,
-      "title": "Operation Pierce Arrow",
-      "body": "American aircraft from carriers and bomb North Vietnam in retaliation for strikes against U.S. destroyers in the Gulf of Tonkin.",
-      "source": {
-        "name": "Wikipedia · Operation Pierce Arrow",
-        "url": "https://en.wikipedia.org/wiki/Operation_Pierce_Arrow",
-        "calendarUrl": "https://en.wikipedia.org/wiki/August_5",
-        "license": {
-          "name": "CC BY-SA 4.0",
-          "url": "https://creativecommons.org/licenses/by-sa/4.0/"
-        }
-      },
-      "image": {
-        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/df/Map_of_Operation_Pierce_Arrow_in_Vietnam_1964.png/500px-Map_of_Operation_Pierce_Arrow_in_Vietnam_1964.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-        "alt": "Picture from the Wikipedia article on Operation Pierce Arrow.",
-        "credit": "U.S. Department of Defense",
-        "source": "https://commons.wikimedia.org/wiki/File:Map_of_Operation_Pierce_Arrow_in_Vietnam_1964.png",
-        "license": "Public domain",
-        "licenseUrl": "https://commons.wikimedia.org/wiki/File:Map_of_Operation_Pierce_Arrow_in_Vietnam_1964.png"
       }
     },
     {

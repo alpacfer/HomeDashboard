@@ -3,33 +3,6 @@
   "dateLabel": "23 December",
   "facts": [
     {
-      "id": "12-23-rutan-voyager",
-      "date": "12-23",
-      "dateLabel": "23 December",
-      "category": "space",
-      "categoryName": "Space",
-      "year": 1986,
-      "title": "Rutan Voyager",
-      "body": "Voyager, piloted by Dick Rutan and Jeana Yeager, lands at Edwards Air Force Base in California becoming the first aircraft to fly non-stop around the world without aerial or ground refueling.",
-      "source": {
-        "name": "Wikipedia · Rutan Voyager",
-        "url": "https://en.wikipedia.org/wiki/Rutan_Voyager",
-        "calendarUrl": "https://en.wikipedia.org/wiki/December_23",
-        "license": {
-          "name": "CC BY-SA 4.0",
-          "url": "https://creativecommons.org/licenses/by-sa/4.0/"
-        }
-      },
-      "image": {
-        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/ae/Voyager_aircraft_return_from_non-stop_trip_around_the_world_%28EC87-0029-02%29.jpg/500px-Voyager_aircraft_return_from_non-stop_trip_around_the_world_%28EC87-0029-02%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-        "alt": "Picture from the Wikipedia article on Rutan Voyager.",
-        "credit": "NASA Armstrong Flight Research Center",
-        "source": "https://commons.wikimedia.org/wiki/File:Voyager_aircraft_return_from_non-stop_trip_around_the_world_(EC87-0029-02).jpg",
-        "license": "Public domain",
-        "licenseUrl": "https://commons.wikimedia.org/wiki/File:Voyager_aircraft_return_from_non-stop_trip_around_the_world_(EC87-0029-02).jpg"
-      }
-    },
-    {
       "id": "12-23-kabul",
       "date": "12-23",
       "dateLabel": "23 December",
@@ -135,6 +108,33 @@
         "source": "https://commons.wikimedia.org/wiki/File:Three_Rivers_Stadium.jpg",
         "license": "CC BY 2.0",
         "licenseUrl": "https://creativecommons.org/licenses/by/2.0"
+      }
+    },
+    {
+      "id": "12-23-tampere-conference-of-1905",
+      "date": "12-23",
+      "dateLabel": "23 December",
+      "category": "world",
+      "categoryName": "World",
+      "year": 1905,
+      "title": "Tampere conference of 1905",
+      "body": "The Tampere conference, where Vladimir Lenin and Joseph Stalin meet for the first time, is held in Tampere, Finland.",
+      "source": {
+        "name": "Wikipedia · Tampere conference of 1905",
+        "url": "https://en.wikipedia.org/wiki/Tampere_conference_of_1905",
+        "calendarUrl": "https://en.wikipedia.org/wiki/December_23",
+        "license": {
+          "name": "CC BY-SA 4.0",
+          "url": "https://creativecommons.org/licenses/by-sa/4.0/"
+        }
+      },
+      "image": {
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/03/Lenin_at_Tampere.JPG/500px-Lenin_at_Tampere.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "alt": "Picture from the Wikipedia article on Tampere conference of 1905.",
+        "credit": "Brendel Mátyás",
+        "source": "https://commons.wikimedia.org/wiki/File:Lenin_at_Tampere.JPG",
+        "license": "CC BY 1.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by/1.0"
       }
     }
   ]

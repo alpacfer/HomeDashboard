@@ -30,17 +30,17 @@
       }
     },
     {
-      "id": "02-25-marie-ad-la-de-grand-duchess-of-luxembourg",
+      "id": "02-25-hiram-rhodes-revels",
       "date": "02-25",
       "dateLabel": "25 February",
       "category": "world",
       "categoryName": "World",
-      "year": 1912,
-      "title": "Marie-Adélaïde, Grand Duchess of Luxembourg",
-      "body": "Marie-Adélaïde, the eldest of six daughters of Guillaume IV, becomes the first reigning Grand Duchess of Luxembourg.",
+      "year": 1870,
+      "title": "Hiram R. Revels",
+      "body": "Hiram Rhodes Revels, a Republican from Mississippi, is sworn into the United States Senate, becoming the first African American ever to sit in Congress.",
       "source": {
-        "name": "Wikipedia · Marie-Adélaïde, Grand Duchess of Luxembourg",
-        "url": "https://en.wikipedia.org/wiki/Marie-Ad%C3%A9la%C3%AFde,_Grand_Duchess_of_Luxembourg",
+        "name": "Wikipedia · Hiram R. Revels",
+        "url": "https://en.wikipedia.org/wiki/Hiram_R._Revels",
         "calendarUrl": "https://en.wikipedia.org/wiki/February_25",
         "license": {
           "name": "CC BY-SA 4.0",
@@ -48,12 +48,12 @@
         }
       },
       "image": {
-        "src": "https://upload.wikimedia.org/wikipedia/commons/2/24/GD_Marie_Ad%C3%A9la%C3%AFde_%28cropped%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
-        "alt": "Picture from the Wikipedia article on Marie-Adélaïde, Grand Duchess of Luxembourg.",
-        "credit": "Bain News Service, publisher",
-        "source": "https://commons.wikimedia.org/wiki/File:GD_Marie_Ad%C3%A9la%C3%AFde_(cropped).jpg",
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/4d/Hiram_Rhodes_Revels_Brady-Handy2_%28cropped%29.jpg/500px-Hiram_Rhodes_Revels_Brady-Handy2_%28cropped%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "alt": "Picture from the Wikipedia article on Hiram R. Revels.",
+        "credit": "Mathew Brady or Levin Handy",
+        "source": "https://commons.wikimedia.org/wiki/File:Hiram_Rhodes_Revels_Brady-Handy2_(cropped).jpg",
         "license": "Public domain",
-        "licenseUrl": "https://commons.wikimedia.org/wiki/File:GD_Marie_Ad%C3%A9la%C3%AFde_(cropped).jpg"
+        "licenseUrl": "https://commons.wikimedia.org/wiki/File:Hiram_Rhodes_Revels_Brady-Handy2_(cropped).jpg"
       }
     },
     {
@@ -84,6 +84,33 @@
       }
     },
     {
+      "id": "02-25-marie-ad-la-de-grand-duchess-of-luxembourg",
+      "date": "02-25",
+      "dateLabel": "25 February",
+      "category": "world",
+      "categoryName": "World",
+      "year": 1912,
+      "title": "Marie-Adélaïde, Grand Duchess of Luxembourg",
+      "body": "Marie-Adélaïde, the eldest of six daughters of Guillaume IV, becomes the first reigning Grand Duchess of Luxembourg.",
+      "source": {
+        "name": "Wikipedia · Marie-Adélaïde, Grand Duchess of Luxembourg",
+        "url": "https://en.wikipedia.org/wiki/Marie-Ad%C3%A9la%C3%AFde,_Grand_Duchess_of_Luxembourg",
+        "calendarUrl": "https://en.wikipedia.org/wiki/February_25",
+        "license": {
+          "name": "CC BY-SA 4.0",
+          "url": "https://creativecommons.org/licenses/by-sa/4.0/"
+        }
+      },
+      "image": {
+        "src": "https://upload.wikimedia.org/wikipedia/commons/2/24/GD_Marie_Ad%C3%A9la%C3%AFde_%28cropped%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+        "alt": "Picture from the Wikipedia article on Marie-Adélaïde, Grand Duchess of Luxembourg.",
+        "credit": "Bain News Service, publisher",
+        "source": "https://commons.wikimedia.org/wiki/File:GD_Marie_Ad%C3%A9la%C3%AFde_(cropped).jpg",
+        "license": "Public domain",
+        "licenseUrl": "https://commons.wikimedia.org/wiki/File:GD_Marie_Ad%C3%A9la%C3%AFde_(cropped).jpg"
+      }
+    },
+    {
       "id": "02-25-warsaw-pact",
       "date": "02-25",
       "dateLabel": "25 February",
@@ -108,33 +135,6 @@
         "source": "https://commons.wikimedia.org/wiki/File:Warsaw_Pact_in_1990_(orthographic_projection).svg",
         "license": "CC BY-SA 4.0",
         "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0"
-      }
-    },
-    {
-      "id": "02-25-pan-american-games",
-      "date": "02-25",
-      "dateLabel": "25 February",
-      "category": "world",
-      "categoryName": "World",
-      "year": 1951,
-      "title": "Pan American Games",
-      "body": "The first Pan American Games are officially opened in Buenos Aires by Argentine President Juan Perón.",
-      "source": {
-        "name": "Wikipedia · Pan American Games",
-        "url": "https://en.wikipedia.org/wiki/Pan_American_Games",
-        "calendarUrl": "https://en.wikipedia.org/wiki/February_25",
-        "license": {
-          "name": "CC BY-SA 4.0",
-          "url": "https://creativecommons.org/licenses/by-sa/4.0/"
-        }
-      },
-      "image": {
-        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/5c/Olympic_rings_without_rims.svg/500px-Olympic_rings_without_rims.svg.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-        "alt": "Picture from the Wikipedia article on Pan American Games.",
-        "credit": "Pierre de Coubertin",
-        "source": "https://commons.wikimedia.org/wiki/File:Olympic_rings_without_rims.svg",
-        "license": "Public domain",
-        "licenseUrl": "https://commons.wikimedia.org/wiki/File:Olympic_rings_without_rims.svg"
       }
     }
   ]

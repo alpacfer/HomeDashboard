@@ -30,17 +30,17 @@
       }
     },
     {
-      "id": "04-09-concorde",
+      "id": "04-09-ren-robert-cavelier-sieur-de-la-salle",
       "date": "04-09",
       "dateLabel": "9 April",
-      "category": "world",
-      "categoryName": "World",
-      "year": 1969,
-      "title": "Concorde",
-      "body": "The first British-built Concorde 002 makes its maiden flight from Filton to RAF Fairford with Brian Trubshaw as the test pilot.",
+      "category": "science",
+      "categoryName": "Science",
+      "year": 1682,
+      "title": "René-Robert Cavelier, Sieur de La Salle",
+      "body": "Robert Cavelier de La Salle discovers the mouth of the Mississippi River, claims it for France and names it Louisiana.",
       "source": {
-        "name": "Wikipedia · Concorde",
-        "url": "https://en.wikipedia.org/wiki/Concorde",
+        "name": "Wikipedia · René-Robert Cavelier, Sieur de La Salle",
+        "url": "https://en.wikipedia.org/wiki/Ren%C3%A9-Robert_Cavelier,_Sieur_de_La_Salle",
         "calendarUrl": "https://en.wikipedia.org/wiki/April_9",
         "license": {
           "name": "CC BY-SA 4.0",
@@ -48,39 +48,12 @@
         }
       },
       "image": {
-        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/eb/British_Airways_Concorde_G-BOAC_03.jpg/500px-British_Airways_Concorde_G-BOAC_03.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-        "alt": "Picture from the Wikipedia article on Concorde.",
-        "credit": "Eduard Marmet",
-        "source": "https://commons.wikimedia.org/wiki/File:British_Airways_Concorde_G-BOAC_03.jpg",
-        "license": "CC BY-SA 3.0",
-        "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0"
-      }
-    },
-    {
-      "id": "04-09-marian-anderson",
-      "date": "04-09",
-      "dateLabel": "9 April",
-      "category": "culture",
-      "categoryName": "Culture",
-      "year": 1939,
-      "title": "Marian Anderson",
-      "body": "African-American singer Marian Anderson gives a concert at the Lincoln Memorial after being denied the use of Constitution Hall by the Daughters of the American Revolution.",
-      "source": {
-        "name": "Wikipedia · Marian Anderson",
-        "url": "https://en.wikipedia.org/wiki/Marian_Anderson",
-        "calendarUrl": "https://en.wikipedia.org/wiki/April_9",
-        "license": {
-          "name": "CC BY-SA 4.0",
-          "url": "https://creativecommons.org/licenses/by-sa/4.0/"
-        }
-      },
-      "image": {
-        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/7f/Marian_Anderson_by_Carl_Van_Vechten_%28cropped%29.jpg/500px-Marian_Anderson_by_Carl_Van_Vechten_%28cropped%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-        "alt": "Picture from the Wikipedia article on Marian Anderson.",
-        "credit": "Carl Van Vechten",
-        "source": "https://commons.wikimedia.org/wiki/File:Marian_Anderson_by_Carl_Van_Vechten_(cropped).jpg",
+        "src": "https://upload.wikimedia.org/wikipedia/commons/c/c5/Cavelier_de_la_salle.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+        "alt": "Picture from the Wikipedia article on René-Robert Cavelier, Sieur de La Salle.",
+        "credit": "Charles André Waltner",
+        "source": "https://commons.wikimedia.org/wiki/File:Cavelier_de_la_salle.jpg",
         "license": "Public domain",
-        "licenseUrl": "https://commons.wikimedia.org/wiki/File:Marian_Anderson_by_Carl_Van_Vechten_(cropped).jpg"
+        "licenseUrl": "https://commons.wikimedia.org/wiki/File:Cavelier_de_la_salle.jpg"
       }
     },
     {
@@ -108,6 +81,33 @@
         "source": "https://commons.wikimedia.org/wiki/File:South_African_Airlink_Boeing_737-200_Advanced_Smith.jpg",
         "license": "GFDL 1.2",
         "licenseUrl": "https://www.gnu.org/licenses/old-licenses/fdl-1.2.html"
+      }
+    },
+    {
+      "id": "04-09-marian-anderson",
+      "date": "04-09",
+      "dateLabel": "9 April",
+      "category": "culture",
+      "categoryName": "Culture",
+      "year": 1939,
+      "title": "Marian Anderson",
+      "body": "African-American singer Marian Anderson gives a concert at the Lincoln Memorial after being denied the use of Constitution Hall by the Daughters of the American Revolution.",
+      "source": {
+        "name": "Wikipedia · Marian Anderson",
+        "url": "https://en.wikipedia.org/wiki/Marian_Anderson",
+        "calendarUrl": "https://en.wikipedia.org/wiki/April_9",
+        "license": {
+          "name": "CC BY-SA 4.0",
+          "url": "https://creativecommons.org/licenses/by-sa/4.0/"
+        }
+      },
+      "image": {
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/7f/Marian_Anderson_by_Carl_Van_Vechten_%28cropped%29.jpg/500px-Marian_Anderson_by_Carl_Van_Vechten_%28cropped%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "alt": "Picture from the Wikipedia article on Marian Anderson.",
+        "credit": "Carl Van Vechten",
+        "source": "https://commons.wikimedia.org/wiki/File:Marian_Anderson_by_Carl_Van_Vechten_(cropped).jpg",
+        "license": "Public domain",
+        "licenseUrl": "https://commons.wikimedia.org/wiki/File:Marian_Anderson_by_Carl_Van_Vechten_(cropped).jpg"
       }
     },
     {

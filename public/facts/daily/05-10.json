@@ -84,17 +84,17 @@
       }
     },
     {
-      "id": "05-10-rudolf-hess",
+      "id": "05-10-nazism",
       "date": "05-10",
       "dateLabel": "10 May",
-      "category": "curious",
-      "categoryName": "Curious",
-      "year": 1941,
-      "title": "Rudolf Hess",
-      "body": "Rudolf Hess parachutes into Scotland to try to negotiate a peace deal between the United Kingdom and Nazi Germany.",
+      "category": "world",
+      "categoryName": "World",
+      "year": 1933,
+      "title": "Nazism",
+      "body": "In Germany, the Nazis stage massive public book burnings.",
       "source": {
-        "name": "Wikipedia · Rudolf Hess",
-        "url": "https://en.wikipedia.org/wiki/Rudolf_Hess",
+        "name": "Wikipedia · Nazism",
+        "url": "https://en.wikipedia.org/wiki/Nazism",
         "calendarUrl": "https://en.wikipedia.org/wiki/May_10",
         "license": {
           "name": "CC BY-SA 4.0",
@@ -102,10 +102,10 @@
         }
       },
       "image": {
-        "src": "https://upload.wikimedia.org/wikipedia/commons/d/d7/Bundesarchiv_Bild_183-1987-0313-507%2C_Rudolf_Hess_%28cropped%29%28b%29%282%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
-        "alt": "Picture from the Wikipedia article on Rudolf Hess.",
-        "credit": "Bundesarchiv, Bild 183-1987-0313-507",
-        "source": "https://commons.wikimedia.org/wiki/File:Bundesarchiv_Bild_183-1987-0313-507,_Rudolf_Hess_(cropped)(b)(2).jpg",
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e1/Hitler_portrait_crop.jpg/500px-Hitler_portrait_crop.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "alt": "Picture from the Wikipedia article on Nazism.",
+        "credit": "Bundesarchiv, Bild 183-H1216-0500-002",
+        "source": "https://commons.wikimedia.org/wiki/File:Hitler_portrait_crop.jpg",
         "license": "CC BY-SA 3.0 de",
         "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0/de/deed.en"
       }

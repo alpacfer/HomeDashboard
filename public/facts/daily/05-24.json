@@ -30,33 +30,6 @@
       }
     },
     {
-      "id": "05-24-khorramshahr",
-      "date": "05-24",
-      "dateLabel": "24 May",
-      "category": "world",
-      "categoryName": "World",
-      "year": 1982,
-      "title": "Khorramshahr",
-      "body": "Iranians recapture the port city of Khorramshahr from the Iraqis during the Iran–Iraq War.",
-      "source": {
-        "name": "Wikipedia · Khorramshahr",
-        "url": "https://en.wikipedia.org/wiki/Khorramshahr",
-        "calendarUrl": "https://en.wikipedia.org/wiki/May_24",
-        "license": {
-          "name": "CC BY-SA 4.0",
-          "url": "https://creativecommons.org/licenses/by-sa/4.0/"
-        }
-      },
-      "image": {
-        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a6/Nowruz_2018_in_Khorramshahr_%2813970109000585636579510470063573_33197%29.jpg/500px-Nowruz_2018_in_Khorramshahr_%2813970109000585636579510470063573_33197%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-        "alt": "Picture from the Wikipedia article on Khorramshahr.",
-        "credit": "Fars Media Corporation",
-        "source": "https://commons.wikimedia.org/wiki/File:Nowruz_2018_in_Khorramshahr_(13970109000585636579510470063573_33197).jpg",
-        "license": "CC BY 4.0",
-        "licenseUrl": "https://creativecommons.org/licenses/by/4.0"
-      }
-    },
-    {
       "id": "05-24-amy-johnson",
       "date": "05-24",
       "dateLabel": "24 May",
@@ -73,18 +46,6 @@
           "name": "CC BY-SA 4.0",
           "url": "https://creativecommons.org/licenses/by-sa/4.0/"
         }
-      },
-      "video": {
-        "src": "https://upload.wikimedia.org/wikipedia/commons/transcoded/f/f2/Amy_Johnson_seeks_Husband%27s_Record.webm/Amy_Johnson_seeks_Husband%27s_Record.webm.240p.vp9.webm",
-        "fallback": "https://upload.wikimedia.org/wikipedia/commons/transcoded/f/f2/Amy_Johnson_seeks_Husband%27s_Record.webm/Amy_Johnson_seeks_Husband%27s_Record.webm.360p.mpeg4.mov",
-        "width": 426,
-        "height": 240,
-        "poster": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f2/Amy_Johnson_seeks_Husband%27s_Record.webm/500px--Amy_Johnson_seeks_Husband%27s_Record.webm.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo",
-        "seconds": 96,
-        "credit": "British Movietone",
-        "source": "https://commons.wikimedia.org/wiki/File:Amy_Johnson_seeks_Husband%27s_Record.webm",
-        "license": "Public domain",
-        "licenseUrl": "https://commons.wikimedia.org/wiki/File:Amy_Johnson_seeks_Husband%27s_Record.webm"
       },
       "image": {
         "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b0/Amy_Johnson_%28Our_Generation%2C_1938%29.jpg/500px-Amy_Johnson_%28Our_Generation%2C_1938%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
@@ -145,6 +106,33 @@
         "alt": "Picture from the Wikipedia article on Ashmolean Museum.",
         "credit": "Lewis Clarke",
         "source": "https://commons.wikimedia.org/wiki/File:Ashmolean_Museum_in_July_2014.jpg",
+        "license": "CC BY-SA 2.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0"
+      }
+    },
+    {
+      "id": "05-24-freedom-riders",
+      "date": "05-24",
+      "dateLabel": "24 May",
+      "category": "world",
+      "categoryName": "World",
+      "year": 1961,
+      "title": "Freedom Riders",
+      "body": "Freedom Riders are arrested in Jackson, Mississippi, for \"disturbing the peace\" after disembarking from their bus.",
+      "source": {
+        "name": "Wikipedia · Freedom Riders",
+        "url": "https://en.wikipedia.org/wiki/Freedom_Riders",
+        "calendarUrl": "https://en.wikipedia.org/wiki/May_24",
+        "license": {
+          "name": "CC BY-SA 4.0",
+          "url": "https://creativecommons.org/licenses/by-sa/4.0/"
+        }
+      },
+      "image": {
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/9c/Exhibit_on_Freedom_Riders_-_Center_for_Civil_and_Human_Rights_-_Atlanta_-_Georgia_-_USA_%2833468216774%29.jpg/500px-Exhibit_on_Freedom_Riders_-_Center_for_Civil_and_Human_Rights_-_Atlanta_-_Georgia_-_USA_%2833468216774%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "alt": "Picture from the Wikipedia article on Freedom Riders.",
+        "credit": "Adam Jones from Kelowna, BC, Canada",
+        "source": "https://commons.wikimedia.org/wiki/File:Exhibit_on_Freedom_Riders_-_Center_for_Civil_and_Human_Rights_-_Atlanta_-_Georgia_-_USA_(33468216774).jpg",
         "license": "CC BY-SA 2.0",
         "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0"
       }

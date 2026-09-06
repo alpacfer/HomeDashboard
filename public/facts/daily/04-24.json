@@ -69,17 +69,17 @@
       }
     },
     {
-      "id": "04-24-douglas-dc-3",
+      "id": "04-24-winston-churchill",
       "date": "04-24",
       "dateLabel": "24 April",
       "category": "world",
       "categoryName": "World",
-      "year": 1994,
-      "title": "Douglas DC-3",
-      "body": "A Douglas DC-3 ditches in Botany Bay after takeoff from Sydney Airport. All 25 people on board survive.",
+      "year": 1953,
+      "title": "Winston Churchill",
+      "body": "Winston Churchill is knighted by Queen Elizabeth II.",
       "source": {
-        "name": "Wikipedia · Douglas DC-3",
-        "url": "https://en.wikipedia.org/wiki/Douglas_DC-3",
+        "name": "Wikipedia · Winston Churchill",
+        "url": "https://en.wikipedia.org/wiki/Winston_Churchill",
         "calendarUrl": "https://en.wikipedia.org/wiki/April_24",
         "license": {
           "name": "CC BY-SA 4.0",
@@ -87,12 +87,12 @@
         }
       },
       "image": {
-        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/df/Douglas_DC-3%2C_SE-CFP.jpg/500px-Douglas_DC-3%2C_SE-CFP.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-        "alt": "Picture from the Wikipedia article on Douglas DC-3.",
-        "credit": "Towpilot",
-        "source": "https://commons.wikimedia.org/wiki/File:Douglas_DC-3,_SE-CFP.jpg",
-        "license": "CC BY-SA 3.0",
-        "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0/"
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/02/Sir_Winston_Churchill_-_19086236948_%28restored%29.jpg/500px-Sir_Winston_Churchill_-_19086236948_%28restored%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "alt": "Picture from the Wikipedia article on Winston Churchill.",
+        "credit": "Yousuf Karsh",
+        "source": "https://commons.wikimedia.org/wiki/File:Sir_Winston_Churchill_-_19086236948_(restored).jpg",
+        "license": "Public domain",
+        "licenseUrl": "https://commons.wikimedia.org/wiki/File:Sir_Winston_Churchill_-_19086236948_(restored).jpg"
       }
     },
     {
@@ -123,17 +123,17 @@
       }
     },
     {
-      "id": "04-24-provisional-irish-republican-army",
+      "id": "04-24-douglas-dc-3",
       "date": "04-24",
       "dateLabel": "24 April",
       "category": "world",
       "categoryName": "World",
-      "year": 1993,
-      "title": "Provisional Irish Republican Army",
-      "body": "An IRA bomb devastates the Bishopsgate area of London.",
+      "year": 1994,
+      "title": "Douglas DC-3",
+      "body": "A Douglas DC-3 ditches in Botany Bay after takeoff from Sydney Airport. All 25 people on board survive.",
       "source": {
-        "name": "Wikipedia · Provisional Irish Republican Army",
-        "url": "https://en.wikipedia.org/wiki/Provisional_Irish_Republican_Army",
+        "name": "Wikipedia · Douglas DC-3",
+        "url": "https://en.wikipedia.org/wiki/Douglas_DC-3",
         "calendarUrl": "https://en.wikipedia.org/wiki/April_24",
         "license": {
           "name": "CC BY-SA 4.0",
@@ -141,12 +141,12 @@
         }
       },
       "image": {
-        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/10/Provisional_Irish_Republican_Army_Badge.svg/500px-Provisional_Irish_Republican_Army_Badge.svg.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-        "alt": "Picture from the Wikipedia article on Provisional Irish Republican Army.",
-        "credit": "Erik G",
-        "source": "https://commons.wikimedia.org/wiki/File:Provisional_Irish_Republican_Army_Badge.svg",
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/df/Douglas_DC-3%2C_SE-CFP.jpg/500px-Douglas_DC-3%2C_SE-CFP.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "alt": "Picture from the Wikipedia article on Douglas DC-3.",
+        "credit": "Towpilot",
+        "source": "https://commons.wikimedia.org/wiki/File:Douglas_DC-3,_SE-CFP.jpg",
         "license": "CC BY-SA 3.0",
-        "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0"
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0/"
       }
     }
   ]

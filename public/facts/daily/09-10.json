@@ -30,60 +30,6 @@
       }
     },
     {
-      "id": "09-10-large-hadron-collider",
-      "date": "09-10",
-      "dateLabel": "10 September",
-      "category": "science",
-      "categoryName": "Science",
-      "year": 2008,
-      "title": "Large Hadron Collider",
-      "body": "The Large Hadron Collider at CERN, described as the biggest scientific experiment in history, is powered up in Geneva, Switzerland.",
-      "source": {
-        "name": "Wikipedia · Large Hadron Collider",
-        "url": "https://en.wikipedia.org/wiki/Large_Hadron_Collider",
-        "calendarUrl": "https://en.wikipedia.org/wiki/September_10",
-        "license": {
-          "name": "CC BY-SA 4.0",
-          "url": "https://creativecommons.org/licenses/by-sa/4.0/"
-        }
-      },
-      "image": {
-        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/74/LHC.svg/500px-LHC.svg.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-        "alt": "Picture from the Wikipedia article on Large Hadron Collider.",
-        "credit": "Arpad Horvath",
-        "source": "https://commons.wikimedia.org/wiki/File:LHC.svg",
-        "license": "CC BY-SA 2.5",
-        "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.5"
-      }
-    },
-    {
-      "id": "09-10-operation-barras",
-      "date": "09-10",
-      "dateLabel": "10 September",
-      "category": "world",
-      "categoryName": "World",
-      "year": 2000,
-      "title": "Operation Barras",
-      "body": "Operation Barras successfully frees six British soldiers held captive for over two weeks and contributes to the end of the Sierra Leone Civil War.",
-      "source": {
-        "name": "Wikipedia · Operation Barras",
-        "url": "https://en.wikipedia.org/wiki/Operation_Barras",
-        "calendarUrl": "https://en.wikipedia.org/wiki/September_10",
-        "license": {
-          "name": "CC BY-SA 4.0",
-          "url": "https://creativecommons.org/licenses/by-sa/4.0/"
-        }
-      },
-      "image": {
-        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/24/UNsierraleone.PNG/500px-UNsierraleone.PNG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-        "alt": "Picture from the Wikipedia article on Operation Barras.",
-        "credit": "Wikimedia Commons",
-        "source": "https://commons.wikimedia.org/wiki/File:UNsierraleone.PNG",
-        "license": "Public domain",
-        "licenseUrl": "https://commons.wikimedia.org/wiki/File:UNsierraleone.PNG"
-      }
-    },
-    {
       "id": "09-10-speedway-world-championship",
       "date": "09-10",
       "dateLabel": "10 September",
@@ -111,6 +57,33 @@
       }
     },
     {
+      "id": "09-10-large-hadron-collider",
+      "date": "09-10",
+      "dateLabel": "10 September",
+      "category": "science",
+      "categoryName": "Science",
+      "year": 2008,
+      "title": "Large Hadron Collider",
+      "body": "The Large Hadron Collider at CERN, described as the biggest scientific experiment in history, is powered up in Geneva, Switzerland.",
+      "source": {
+        "name": "Wikipedia · Large Hadron Collider",
+        "url": "https://en.wikipedia.org/wiki/Large_Hadron_Collider",
+        "calendarUrl": "https://en.wikipedia.org/wiki/September_10",
+        "license": {
+          "name": "CC BY-SA 4.0",
+          "url": "https://creativecommons.org/licenses/by-sa/4.0/"
+        }
+      },
+      "image": {
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/74/LHC.svg/500px-LHC.svg.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "alt": "Picture from the Wikipedia article on Large Hadron Collider.",
+        "credit": "Arpad Horvath",
+        "source": "https://commons.wikimedia.org/wiki/File:LHC.svg",
+        "license": "CC BY-SA 2.5",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.5"
+      }
+    },
+    {
       "id": "09-10-george-mary-searle",
       "date": "09-10",
       "dateLabel": "10 September",
@@ -135,6 +108,33 @@
         "source": "https://commons.wikimedia.org/wiki/File:George_Mary_Searle.jpg",
         "license": "Public domain",
         "licenseUrl": "https://commons.wikimedia.org/wiki/File:George_Mary_Searle.jpg"
+      }
+    },
+    {
+      "id": "09-10-1967-gibraltar-sovereignty-referendum",
+      "date": "09-10",
+      "dateLabel": "10 September",
+      "category": "world",
+      "categoryName": "World",
+      "year": 1967,
+      "title": "1967 Gibraltar sovereignty referendum",
+      "body": "The people of Gibraltar vote to remain a British dependency rather than becoming part of Spain.",
+      "source": {
+        "name": "Wikipedia · 1967 Gibraltar sovereignty referendum",
+        "url": "https://en.wikipedia.org/wiki/1967_Gibraltar_sovereignty_referendum",
+        "calendarUrl": "https://en.wikipedia.org/wiki/September_10",
+        "license": {
+          "name": "CC BY-SA 4.0",
+          "url": "https://creativecommons.org/licenses/by-sa/4.0/"
+        }
+      },
+      "image": {
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e3/Coat_of_Arms_of_the_Government_of_Gibraltar_%28Tudor_Crown%29.svg/500px-Coat_of_Arms_of_the_Government_of_Gibraltar_%28Tudor_Crown%29.svg.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "alt": "Picture from the Wikipedia article on 1967 Gibraltar sovereignty referendum.",
+        "credit": "KabirDH",
+        "source": "https://commons.wikimedia.org/wiki/File:Coat_of_Arms_of_the_Government_of_Gibraltar_(Tudor_Crown).svg",
+        "license": "CC BY 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by/4.0"
       }
     }
   ]

@@ -123,17 +123,17 @@
       }
     },
     {
-      "id": "07-30-mars-2020",
+      "id": "07-30-montevideo",
       "date": "07-30",
       "dateLabel": "30 July",
-      "category": "space",
-      "categoryName": "Space",
-      "year": 2020,
-      "title": "Mars 2020",
-      "body": "NASA's Mars 2020 mission is launched on an Atlas V rocket from Cape Canaveral Air Force Station.",
+      "category": "sport",
+      "categoryName": "Sport",
+      "year": 1930,
+      "title": "Montevideo",
+      "body": "In Montevideo, Uruguay wins the first FIFA World Cup by beating Argentina.",
       "source": {
-        "name": "Wikipedia · Mars 2020",
-        "url": "https://en.wikipedia.org/wiki/Mars_2020",
+        "name": "Wikipedia · Montevideo",
+        "url": "https://en.wikipedia.org/wiki/Montevideo",
         "calendarUrl": "https://en.wikipedia.org/wiki/July_30",
         "license": {
           "name": "CC BY-SA 4.0",
@@ -141,12 +141,12 @@
         }
       },
       "image": {
-        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c0/Mars_2020_selfie_containing_both_perseverance_rover_and_ingenuity.gif/500px-Mars_2020_selfie_containing_both_perseverance_rover_and_ingenuity.gif?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-        "alt": "Picture from the Wikipedia article on Mars 2020.",
-        "credit": "NASA",
-        "source": "https://commons.wikimedia.org/wiki/File:Mars_2020_selfie_containing_both_perseverance_rover_and_ingenuity.gif",
-        "license": "Public domain",
-        "licenseUrl": "https://commons.wikimedia.org/wiki/File:Mars_2020_selfie_containing_both_perseverance_rover_and_ingenuity.gif"
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/59/PALACIO_LEGISLATIVO_01.JPG/500px-PALACIO_LEGISLATIVO_01.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "alt": "Picture from the Wikipedia article on Montevideo.",
+        "credit": "Eduardo Ruggieri",
+        "source": "https://commons.wikimedia.org/wiki/File:PALACIO_LEGISLATIVO_01.JPG",
+        "license": "CC BY-SA 3.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0"
       }
     }
   ]

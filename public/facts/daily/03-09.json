@@ -84,6 +84,33 @@
       }
     },
     {
+      "id": "03-09-cbs",
+      "date": "03-09",
+      "dateLabel": "9 March",
+      "category": "world",
+      "categoryName": "World",
+      "year": 1954,
+      "title": "CBS",
+      "body": "CBS television broadcasts the See It Now episode, \"A Report on Senator Joseph McCarthy\", produced by Fred Friendly.",
+      "source": {
+        "name": "Wikipedia · CBS",
+        "url": "https://en.wikipedia.org/wiki/CBS",
+        "calendarUrl": "https://en.wikipedia.org/wiki/March_9",
+        "license": {
+          "name": "CC BY-SA 4.0",
+          "url": "https://creativecommons.org/licenses/by-sa/4.0/"
+        }
+      },
+      "image": {
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/41/Cbs-building.jpg/500px-Cbs-building.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "alt": "Picture from the Wikipedia article on CBS.",
+        "credit": "Americasroof",
+        "source": "https://commons.wikimedia.org/wiki/File:Cbs-building.jpg",
+        "license": "CC BY-SA 3.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0"
+      }
+    },
+    {
       "id": "03-09-inter-milan",
       "date": "03-09",
       "dateLabel": "9 March",
@@ -108,33 +135,6 @@
         "source": "https://commons.wikimedia.org/wiki/File:FC_Internazionale_Milano_2021.svg",
         "license": "Public domain",
         "licenseUrl": "https://commons.wikimedia.org/wiki/File:FC_Internazionale_Milano_2021.svg"
-      }
-    },
-    {
-      "id": "03-09-gold",
-      "date": "03-09",
-      "dateLabel": "9 March",
-      "category": "science",
-      "categoryName": "Science",
-      "year": 1842,
-      "title": "Gold",
-      "body": "The first documented discovery of gold in California occurs at Rancho San Francisco, six years before the California Gold Rush.",
-      "source": {
-        "name": "Wikipedia · Gold",
-        "url": "https://en.wikipedia.org/wiki/Gold",
-        "calendarUrl": "https://en.wikipedia.org/wiki/March_9",
-        "license": {
-          "name": "CC BY-SA 4.0",
-          "url": "https://creativecommons.org/licenses/by-sa/4.0/"
-        }
-      },
-      "image": {
-        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d7/Gold-crystals.jpg/500px-Gold-crystals.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-        "alt": "Picture from the Wikipedia article on Gold.",
-        "credit": "Alchemist-hp www.pse-mendelejew.de",
-        "source": "https://commons.wikimedia.org/wiki/File:Gold-crystals.jpg",
-        "license": "CC BY-SA 3.0 de",
-        "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0/de/deed.en"
       }
     }
   ]

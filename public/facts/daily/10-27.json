@@ -3,33 +3,6 @@
   "dateLabel": "27 October",
   "facts": [
     {
-      "id": "10-27-benjamin-o-davis-jr",
-      "date": "10-27",
-      "dateLabel": "27 October",
-      "category": "world",
-      "categoryName": "World",
-      "year": 1954,
-      "title": "Benjamin O. Davis Jr.",
-      "body": "Benjamin O. Davis, Jr. becomes the first African-American general in the United States Air Force.",
-      "source": {
-        "name": "Wikipedia · Benjamin O. Davis Jr.",
-        "url": "https://en.wikipedia.org/wiki/Benjamin_O._Davis_Jr.",
-        "calendarUrl": "https://en.wikipedia.org/wiki/October_27",
-        "license": {
-          "name": "CC BY-SA 4.0",
-          "url": "https://creativecommons.org/licenses/by-sa/4.0/"
-        }
-      },
-      "image": {
-        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a9/Benjamindavis.jpg/500px-Benjamindavis.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-        "alt": "Picture from the Wikipedia article on Benjamin O. Davis Jr..",
-        "credit": "Wikimedia Commons",
-        "source": "https://commons.wikimedia.org/wiki/File:Benjamindavis.jpg",
-        "license": "Public domain",
-        "licenseUrl": "https://commons.wikimedia.org/wiki/File:Benjamindavis.jpg"
-      }
-    },
-    {
       "id": "10-27-sa-1-apollo",
       "date": "10-27",
       "dateLabel": "27 October",
@@ -81,6 +54,33 @@
         "source": "https://commons.wikimedia.org/wiki/File:Flag_of_the_Republic_of_the_Congo_(L%C3%A9opoldville)_(1960%E2%80%931963).svg",
         "license": "Public domain",
         "licenseUrl": "https://commons.wikimedia.org/wiki/File:Flag_of_the_Republic_of_the_Congo_(L%C3%A9opoldville)_(1960%E2%80%931963).svg"
+      }
+    },
+    {
+      "id": "10-27-turkmenistan",
+      "date": "10-27",
+      "dateLabel": "27 October",
+      "category": "world",
+      "categoryName": "World",
+      "year": 1991,
+      "title": "Turkmenistan",
+      "body": "Turkmenistan achieves independence from the Soviet Union.",
+      "source": {
+        "name": "Wikipedia · Turkmenistan",
+        "url": "https://en.wikipedia.org/wiki/Turkmenistan",
+        "calendarUrl": "https://en.wikipedia.org/wiki/October_27",
+        "license": {
+          "name": "CC BY-SA 4.0",
+          "url": "https://creativecommons.org/licenses/by-sa/4.0/"
+        }
+      },
+      "image": {
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/1b/Flag_of_Turkmenistan.svg/500px-Flag_of_Turkmenistan.svg.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "alt": "Picture from the Wikipedia article on Turkmenistan.",
+        "credit": "Wikimedia Commons",
+        "source": "https://commons.wikimedia.org/wiki/File:Flag_of_Turkmenistan.svg",
+        "license": "Public domain",
+        "licenseUrl": "https://commons.wikimedia.org/wiki/File:Flag_of_Turkmenistan.svg"
       }
     },
     {

@@ -57,6 +57,33 @@
       }
     },
     {
+      "id": "03-21-butler-act",
+      "date": "03-21",
+      "dateLabel": "21 March",
+      "category": "science",
+      "categoryName": "Science",
+      "year": 1925,
+      "title": "Butler Act",
+      "body": "The Butler Act prohibits the teaching of human evolution in Tennessee.",
+      "source": {
+        "name": "Wikipedia · Butler Act",
+        "url": "https://en.wikipedia.org/wiki/Butler_Act",
+        "calendarUrl": "https://en.wikipedia.org/wiki/March_21",
+        "license": {
+          "name": "CC BY-SA 4.0",
+          "url": "https://creativecommons.org/licenses/by-sa/4.0/"
+        }
+      },
+      "image": {
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/3c/Seal_of_Tennessee.svg/500px-Seal_of_Tennessee.svg.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "alt": "Picture from the Wikipedia article on Butler Act.",
+        "credit": "U.S. Government",
+        "source": "https://commons.wikimedia.org/wiki/File:Seal_of_Tennessee.svg",
+        "license": "Public domain",
+        "licenseUrl": "https://commons.wikimedia.org/wiki/File:Seal_of_Tennessee.svg"
+      }
+    },
+    {
       "id": "03-21-ranger-9",
       "date": "03-21",
       "dateLabel": "21 March",
@@ -108,33 +135,6 @@
         "source": "https://commons.wikimedia.org/wiki/File:Alan_Freed_disk_jockey.jpg",
         "license": "Public domain",
         "licenseUrl": "https://commons.wikimedia.org/wiki/File:Alan_Freed_disk_jockey.jpg"
-      }
-    },
-    {
-      "id": "03-21-charles-lindbergh",
-      "date": "03-21",
-      "dateLabel": "21 March",
-      "category": "sport",
-      "categoryName": "Sport",
-      "year": 1928,
-      "title": "Charles Lindbergh",
-      "body": "Charles Lindbergh is presented with the Medal of Honor for the first solo trans-Atlantic flight.",
-      "source": {
-        "name": "Wikipedia · Charles Lindbergh",
-        "url": "https://en.wikipedia.org/wiki/Charles_Lindbergh",
-        "calendarUrl": "https://en.wikipedia.org/wiki/March_21",
-        "license": {
-          "name": "CC BY-SA 4.0",
-          "url": "https://creativecommons.org/licenses/by-sa/4.0/"
-        }
-      },
-      "image": {
-        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b3/Charles_Lindbergh_%28Harris_%26_Ewing_photo%2C_cropped%29.jpg/500px-Charles_Lindbergh_%28Harris_%26_Ewing_photo%2C_cropped%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-        "alt": "Picture from the Wikipedia article on Charles Lindbergh.",
-        "credit": "Harris & Ewing",
-        "source": "https://commons.wikimedia.org/wiki/File:Charles_Lindbergh_(Harris_%26_Ewing_photo,_cropped).jpg",
-        "license": "Public domain",
-        "licenseUrl": "https://commons.wikimedia.org/wiki/File:Charles_Lindbergh_(Harris_%26_Ewing_photo,_cropped).jpg"
       }
     }
   ]

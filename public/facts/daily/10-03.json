@@ -30,6 +30,33 @@
       }
     },
     {
+      "id": "10-03-cincinnati-reds",
+      "date": "10-03",
+      "dateLabel": "3 October",
+      "category": "sport",
+      "categoryName": "Sport",
+      "year": 1919,
+      "title": "Cincinnati Reds",
+      "body": "Cincinnati Reds pitcher Adolfo Luque becomes the first Latin American player to appear in a World Series.",
+      "source": {
+        "name": "Wikipedia · Cincinnati Reds",
+        "url": "https://en.wikipedia.org/wiki/Cincinnati_Reds",
+        "calendarUrl": "https://en.wikipedia.org/wiki/October_3",
+        "license": {
+          "name": "CC BY-SA 4.0",
+          "url": "https://creativecommons.org/licenses/by-sa/4.0/"
+        }
+      },
+      "image": {
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/01/Cincinnati_Reds_Logo.svg/500px-Cincinnati_Reds_Logo.svg.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "alt": "Picture from the Wikipedia article on Cincinnati Reds.",
+        "credit": "Unknown author",
+        "source": "https://commons.wikimedia.org/wiki/File:Cincinnati_Reds_Logo.svg",
+        "license": "Public domain",
+        "licenseUrl": "https://commons.wikimedia.org/wiki/File:Cincinnati_Reds_Logo.svg"
+      }
+    },
+    {
       "id": "10-03-wally-schirra",
       "date": "10-03",
       "dateLabel": "3 October",
@@ -57,17 +84,17 @@
       }
     },
     {
-      "id": "10-03-cincinnati-reds",
+      "id": "10-03-east-germany",
       "date": "10-03",
       "dateLabel": "3 October",
       "category": "world",
       "categoryName": "World",
-      "year": 1919,
-      "title": "Cincinnati Reds",
-      "body": "Cincinnati Reds pitcher Adolfo Luque becomes the first Latin American player to appear in a World Series.",
+      "year": 1990,
+      "title": "East Germany",
+      "body": "The German Democratic Republic is abolished and becomes part of the Federal Republic of Germany; the event is afterwards celebrated as German Unity Day.",
       "source": {
-        "name": "Wikipedia · Cincinnati Reds",
-        "url": "https://en.wikipedia.org/wiki/Cincinnati_Reds",
+        "name": "Wikipedia · East Germany",
+        "url": "https://en.wikipedia.org/wiki/East_Germany",
         "calendarUrl": "https://en.wikipedia.org/wiki/October_3",
         "license": {
           "name": "CC BY-SA 4.0",
@@ -75,12 +102,12 @@
         }
       },
       "image": {
-        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/01/Cincinnati_Reds_Logo.svg/500px-Cincinnati_Reds_Logo.svg.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-        "alt": "Picture from the Wikipedia article on Cincinnati Reds.",
-        "credit": "Unknown author",
-        "source": "https://commons.wikimedia.org/wiki/File:Cincinnati_Reds_Logo.svg",
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/97/Flag_of_the_German_Democratic_Republic.svg/500px-Flag_of_the_German_Democratic_Republic.svg.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "alt": "Picture from the Wikipedia article on East Germany.",
+        "credit": "Deutsche Demokratische Republik…",
+        "source": "https://commons.wikimedia.org/wiki/File:Flag_of_the_German_Democratic_Republic.svg",
         "license": "Public domain",
-        "licenseUrl": "https://commons.wikimedia.org/wiki/File:Cincinnati_Reds_Logo.svg"
+        "licenseUrl": "https://commons.wikimedia.org/wiki/File:Flag_of_the_German_Democratic_Republic.svg"
       }
     },
     {
@@ -108,33 +135,6 @@
         "source": "https://commons.wikimedia.org/wiki/File:Nadine_Gordimer_01.JPG",
         "license": "CC BY 3.0",
         "licenseUrl": "https://creativecommons.org/licenses/by/3.0"
-      }
-    },
-    {
-      "id": "10-03-east-germany",
-      "date": "10-03",
-      "dateLabel": "3 October",
-      "category": "world",
-      "categoryName": "World",
-      "year": 1990,
-      "title": "East Germany",
-      "body": "The German Democratic Republic is abolished and becomes part of the Federal Republic of Germany; the event is afterwards celebrated as German Unity Day.",
-      "source": {
-        "name": "Wikipedia · East Germany",
-        "url": "https://en.wikipedia.org/wiki/East_Germany",
-        "calendarUrl": "https://en.wikipedia.org/wiki/October_3",
-        "license": {
-          "name": "CC BY-SA 4.0",
-          "url": "https://creativecommons.org/licenses/by-sa/4.0/"
-        }
-      },
-      "image": {
-        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/97/Flag_of_the_German_Democratic_Republic.svg/500px-Flag_of_the_German_Democratic_Republic.svg.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-        "alt": "Picture from the Wikipedia article on East Germany.",
-        "credit": "Deutsche Demokratische Republik…",
-        "source": "https://commons.wikimedia.org/wiki/File:Flag_of_the_German_Democratic_Republic.svg",
-        "license": "Public domain",
-        "licenseUrl": "https://commons.wikimedia.org/wiki/File:Flag_of_the_German_Democratic_Republic.svg"
       }
     }
   ]

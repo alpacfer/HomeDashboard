@@ -57,6 +57,33 @@
       }
     },
     {
+      "id": "01-29-2002-state-of-the-union-address",
+      "date": "01-29",
+      "dateLabel": "29 January",
+      "category": "world",
+      "categoryName": "World",
+      "year": 2002,
+      "title": "2002 State of the Union Address",
+      "body": "In his State of the Union address, President George W. Bush describes \"regimes that sponsor terror\" as an Axis of evil, in which he includes Iraq, Iran and North Korea.",
+      "source": {
+        "name": "Wikipedia · 2002 State of the Union Address",
+        "url": "https://en.wikipedia.org/wiki/2002_State_of_the_Union_Address",
+        "calendarUrl": "https://en.wikipedia.org/wiki/January_29",
+        "license": {
+          "name": "CC BY-SA 4.0",
+          "url": "https://creativecommons.org/licenses/by-sa/4.0/"
+        }
+      },
+      "image": {
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/96/President_George_W._Bush%E2%80%99s_2002_State_of_the_Union_Address.webm/500px--President_George_W._Bush%E2%80%99s_2002_State_of_the_Union_Address.webm.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo",
+        "alt": "Picture from the Wikipedia article on 2002 State of the Union Address.",
+        "credit": "George W. Bush Presidential Library",
+        "source": "https://commons.wikimedia.org/wiki/File:President_George_W._Bush%E2%80%99s_2002_State_of_the_Union_Address.webm",
+        "license": "Public domain",
+        "licenseUrl": "https://commons.wikimedia.org/wiki/File:President_George_W._Bush%E2%80%99s_2002_State_of_the_Union_Address.webm"
+      }
+    },
+    {
       "id": "01-29-charles-curtis",
       "date": "01-29",
       "dateLabel": "29 January",
@@ -108,33 +135,6 @@
         "source": "https://commons.wikimedia.org/wiki/File:Hungary_South_Korea_Locator.png",
         "license": "Public domain",
         "licenseUrl": "https://commons.wikimedia.org/wiki/File:Hungary_South_Korea_Locator.png"
-      }
-    },
-    {
-      "id": "01-29-afrin-region",
-      "date": "01-29",
-      "dateLabel": "29 January",
-      "category": "world",
-      "categoryName": "World",
-      "year": 2014,
-      "title": "Afrin Region",
-      "body": "The Afrin Canton declares its autonomy from the Syrian Arab Republic.",
-      "source": {
-        "name": "Wikipedia · Afrin Region",
-        "url": "https://en.wikipedia.org/wiki/Afrin_Region",
-        "calendarUrl": "https://en.wikipedia.org/wiki/January_29",
-        "license": {
-          "name": "CC BY-SA 4.0",
-          "url": "https://creativecommons.org/licenses/by-sa/4.0/"
-        }
-      },
-      "image": {
-        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/32/Flag_of_the_Afrin_Canton.svg/500px-Flag_of_the_Afrin_Canton.svg.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-        "alt": "Picture from the Wikipedia article on Afrin Region.",
-        "credit": "MrPenguin20",
-        "source": "https://commons.wikimedia.org/wiki/File:Flag_of_the_Afrin_Canton.svg",
-        "license": "Public domain",
-        "licenseUrl": "https://commons.wikimedia.org/wiki/File:Flag_of_the_Afrin_Canton.svg"
       }
     }
   ]

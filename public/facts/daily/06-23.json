@@ -57,33 +57,6 @@
       }
     },
     {
-      "id": "06-23-antarctic-treaty-system",
-      "date": "06-23",
-      "dateLabel": "23 June",
-      "category": "science",
-      "categoryName": "Science",
-      "year": 1961,
-      "title": "Antarctic Treaty System",
-      "body": "The Antarctic Treaty System, which sets aside Antarctica as a scientific preserve and limits military activity on the continent, its islands and ice shelves, comes into force.",
-      "source": {
-        "name": "Wikipedia · Antarctic Treaty System",
-        "url": "https://en.wikipedia.org/wiki/Antarctic_Treaty_System",
-        "calendarUrl": "https://en.wikipedia.org/wiki/June_23",
-        "license": {
-          "name": "CC BY-SA 4.0",
-          "url": "https://creativecommons.org/licenses/by-sa/4.0/"
-        }
-      },
-      "image": {
-        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/68/Flag_of_the_Antarctic_Treaty.svg/500px-Flag_of_the_Antarctic_Treaty.svg.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-        "alt": "Picture from the Wikipedia article on Antarctic Treaty System.",
-        "credit": "Alakasam",
-        "source": "https://commons.wikimedia.org/wiki/File:Flag_of_the_Antarctic_Treaty.svg",
-        "license": "CC BY-SA 3.0",
-        "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0"
-      }
-    },
-    {
       "id": "06-23-ashton-eaton",
       "date": "06-23",
       "dateLabel": "23 June",
@@ -135,6 +108,33 @@
         "source": "https://commons.wikimedia.org/wiki/File:Henry_Larsen_on_St_Roch.jpg",
         "license": "Public domain",
         "licenseUrl": "https://commons.wikimedia.org/wiki/File:Henry_Larsen_on_St_Roch.jpg"
+      }
+    },
+    {
+      "id": "06-23-french-national-assembly",
+      "date": "06-23",
+      "dateLabel": "23 June",
+      "category": "world",
+      "categoryName": "World",
+      "year": 1956,
+      "title": "National Assembly",
+      "body": "The French National Assembly takes the first step in creating the French Community by passing the Loi Cadre, transferring a number of powers from Paris to elected territorial governments in French West Africa.",
+      "source": {
+        "name": "Wikipedia · National Assembly (France)",
+        "url": "https://en.wikipedia.org/wiki/National_Assembly_(France)",
+        "calendarUrl": "https://en.wikipedia.org/wiki/June_23",
+        "license": {
+          "name": "CC BY-SA 4.0",
+          "url": "https://creativecommons.org/licenses/by-sa/4.0/"
+        }
+      },
+      "image": {
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a7/Logo_de_l%27Assembl%C3%A9e_nationale_fran%C3%A7aise.svg/500px-Logo_de_l%27Assembl%C3%A9e_nationale_fran%C3%A7aise.svg.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "alt": "Picture from the Wikipedia article on National Assembly.",
+        "credit": "The Government of the French Republic…",
+        "source": "https://commons.wikimedia.org/wiki/File:Logo_de_l%27Assembl%C3%A9e_nationale_fran%C3%A7aise.svg",
+        "license": "Public domain",
+        "licenseUrl": "https://commons.wikimedia.org/wiki/File:Logo_de_l%27Assembl%C3%A9e_nationale_fran%C3%A7aise.svg"
       }
     }
   ]

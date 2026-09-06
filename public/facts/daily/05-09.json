@@ -3,33 +3,6 @@
   "dateLabel": "9 May",
   "facts": [
     {
-      "id": "05-09-shusha",
-      "date": "05-09",
-      "dateLabel": "9 May",
-      "category": "world",
-      "categoryName": "World",
-      "year": 1992,
-      "title": "Shusha",
-      "body": "Armenian forces capture Shusha, marking a major turning point in the First Nagorno-Karabakh War.",
-      "source": {
-        "name": "Wikipedia · Shusha",
-        "url": "https://en.wikipedia.org/wiki/Shusha",
-        "calendarUrl": "https://en.wikipedia.org/wiki/May_9",
-        "license": {
-          "name": "CC BY-SA 4.0",
-          "url": "https://creativecommons.org/licenses/by-sa/4.0/"
-        }
-      },
-      "image": {
-        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/8e/ShushaCollection2021.jpg/500px-ShushaCollection2021.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-        "alt": "Picture from the Wikipedia article on Shusha.",
-        "credit": "Compiled",
-        "source": "https://commons.wikimedia.org/wiki/File:ShushaCollection2021.jpg",
-        "license": "CC BY-SA 4.0",
-        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0"
-      }
-    },
-    {
       "id": "05-09-richard-e-byrd",
       "date": "05-09",
       "dateLabel": "9 May",
@@ -54,33 +27,6 @@
         "source": "https://commons.wikimedia.org/wiki/File:Richard_E._Byrd_cph.3b17378.jpg",
         "license": "Public domain",
         "licenseUrl": "https://commons.wikimedia.org/wiki/File:Richard_E._Byrd_cph.3b17378.jpg"
-      }
-    },
-    {
-      "id": "05-09-exhibition-of-1761",
-      "date": "05-09",
-      "dateLabel": "9 May",
-      "category": "culture",
-      "categoryName": "Culture",
-      "year": 1761,
-      "title": "Exhibition of 1761",
-      "body": "Exhibition of 1761, the inaugural exhibition of the Society of Artists of Great Britain, opens at Spring Gardens in London.",
-      "source": {
-        "name": "Wikipedia · Exhibition of 1761",
-        "url": "https://en.wikipedia.org/wiki/Exhibition_of_1761",
-        "calendarUrl": "https://en.wikipedia.org/wiki/May_9",
-        "license": {
-          "name": "CC BY-SA 4.0",
-          "url": "https://creativecommons.org/licenses/by-sa/4.0/"
-        }
-      },
-      "image": {
-        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/23/Print%2C_frontispiece%2C_satirical_print_%28BM_Cc%2C1.163%29.jpg/500px-Print%2C_frontispiece%2C_satirical_print_%28BM_Cc%2C1.163%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-        "alt": "Picture from the Wikipedia article on Exhibition of 1761.",
-        "credit": "Charles Grignion",
-        "source": "https://commons.wikimedia.org/wiki/File:Print,_frontispiece,_satirical_print_(BM_Cc,1.163).jpg",
-        "license": "Public domain",
-        "licenseUrl": "https://commons.wikimedia.org/wiki/File:Print,_frontispiece,_satirical_print_(BM_Cc,1.163).jpg"
       }
     },
     {
@@ -111,6 +57,33 @@
       }
     },
     {
+      "id": "05-09-exhibition-of-1761",
+      "date": "05-09",
+      "dateLabel": "9 May",
+      "category": "culture",
+      "categoryName": "Culture",
+      "year": 1761,
+      "title": "Exhibition of 1761",
+      "body": "Exhibition of 1761, the inaugural exhibition of the Society of Artists of Great Britain, opens at Spring Gardens in London.",
+      "source": {
+        "name": "Wikipedia · Exhibition of 1761",
+        "url": "https://en.wikipedia.org/wiki/Exhibition_of_1761",
+        "calendarUrl": "https://en.wikipedia.org/wiki/May_9",
+        "license": {
+          "name": "CC BY-SA 4.0",
+          "url": "https://creativecommons.org/licenses/by-sa/4.0/"
+        }
+      },
+      "image": {
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/23/Print%2C_frontispiece%2C_satirical_print_%28BM_Cc%2C1.163%29.jpg/500px-Print%2C_frontispiece%2C_satirical_print_%28BM_Cc%2C1.163%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "alt": "Picture from the Wikipedia article on Exhibition of 1761.",
+        "credit": "Charles Grignion",
+        "source": "https://commons.wikimedia.org/wiki/File:Print,_frontispiece,_satirical_print_(BM_Cc,1.163).jpg",
+        "license": "Public domain",
+        "licenseUrl": "https://commons.wikimedia.org/wiki/File:Print,_frontispiece,_satirical_print_(BM_Cc,1.163).jpg"
+      }
+    },
+    {
       "id": "05-09-robert-schuman",
       "date": "05-09",
       "dateLabel": "9 May",
@@ -135,6 +108,33 @@
         "source": "https://commons.wikimedia.org/wiki/File:Robert_Schuman_1958.jpg",
         "license": "CC BY 4.0",
         "licenseUrl": "https://creativecommons.org/licenses/by/4.0"
+      }
+    },
+    {
+      "id": "05-09-west-germany",
+      "date": "05-09",
+      "dateLabel": "9 May",
+      "category": "world",
+      "categoryName": "World",
+      "year": 1955,
+      "title": "West Germany",
+      "body": "West Germany joins NATO.",
+      "source": {
+        "name": "Wikipedia · West Germany",
+        "url": "https://en.wikipedia.org/wiki/West_Germany",
+        "calendarUrl": "https://en.wikipedia.org/wiki/May_9",
+        "license": {
+          "name": "CC BY-SA 4.0",
+          "url": "https://creativecommons.org/licenses/by-sa/4.0/"
+        }
+      },
+      "image": {
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/ba/Flag_of_Germany.svg/500px-Flag_of_Germany.svg.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "alt": "Picture from the Wikipedia article on West Germany.",
+        "credit": "User:SKopp, User:Madden, and other users",
+        "source": "https://commons.wikimedia.org/wiki/File:Flag_of_Germany.svg",
+        "license": "Public domain",
+        "licenseUrl": "https://commons.wikimedia.org/wiki/File:Flag_of_Germany.svg"
       }
     }
   ]

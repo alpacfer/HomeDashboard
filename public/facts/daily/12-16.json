@@ -57,6 +57,33 @@
       }
     },
     {
+      "id": "12-16-1811-ndash-12-new-madrid-earthquakes",
+      "date": "12-16",
+      "dateLabel": "16 December",
+      "category": "world",
+      "categoryName": "World",
+      "year": 1811,
+      "title": "1811–1812 New Madrid earthquakes",
+      "body": "The first two in a series of four severe earthquakes occur in the vicinity of New Madrid, Missouri.",
+      "source": {
+        "name": "Wikipedia · 1811–1812 New Madrid earthquakes",
+        "url": "https://en.wikipedia.org/wiki/1811%E2%80%931812_New_Madrid_earthquakes",
+        "calendarUrl": "https://en.wikipedia.org/wiki/December_16",
+        "license": {
+          "name": "CC BY-SA 4.0",
+          "url": "https://creativecommons.org/licenses/by-sa/4.0/"
+        }
+      },
+      "image": {
+        "src": "https://upload.wikimedia.org/wikipedia/commons/a/ad/NMSZBig.gif?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+        "alt": "Picture from the Wikipedia article on 1811–1812 New Madrid earthquakes.",
+        "credit": "Sara Boore and Susan Mayfield",
+        "source": "https://commons.wikimedia.org/wiki/File:NMSZBig.gif",
+        "license": "Public domain",
+        "licenseUrl": "https://commons.wikimedia.org/wiki/File:NMSZBig.gif"
+      }
+    },
+    {
       "id": "12-16-constitution-of-bangladesh",
       "date": "12-16",
       "dateLabel": "16 December",
@@ -108,33 +135,6 @@
         "source": "https://commons.wikimedia.org/wiki/File:Pia%C8%9Ba_Victoriei_Timi%C8%99oara.jpg",
         "license": "CC BY-SA 4.0",
         "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0"
-      }
-    },
-    {
-      "id": "12-16-photosensitive-epileptic",
-      "date": "12-16",
-      "dateLabel": "16 December",
-      "category": "world",
-      "categoryName": "World",
-      "year": 1997,
-      "title": "Photosensitive epilepsy",
-      "body": "Over 600 kids in Japan suffer photosensitive epileptic seizures after watching an episode of the Pokémon anime.",
-      "source": {
-        "name": "Wikipedia · Photosensitive epilepsy",
-        "url": "https://en.wikipedia.org/wiki/Photosensitive_epilepsy",
-        "calendarUrl": "https://en.wikipedia.org/wiki/December_16",
-        "license": {
-          "name": "CC BY-SA 4.0",
-          "url": "https://creativecommons.org/licenses/by-sa/4.0/"
-        }
-      },
-      "image": {
-        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/69/StarWarsPinballEpilepsyWarning.jpg/500px-StarWarsPinballEpilepsyWarning.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-        "alt": "Picture from the Wikipedia article on Photosensitive epilepsy.",
-        "credit": "Kencf0618",
-        "source": "https://commons.wikimedia.org/wiki/File:StarWarsPinballEpilepsyWarning.jpg",
-        "license": "CC BY-SA 3.0",
-        "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0"
       }
     }
   ]

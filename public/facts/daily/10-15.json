@@ -57,17 +57,17 @@
       }
     },
     {
-      "id": "10-15-mikhail-gorbachev",
+      "id": "10-15-luis-e-miramontes",
       "date": "10-15",
       "dateLabel": "15 October",
       "category": "science",
       "categoryName": "Science",
-      "year": 1990,
-      "title": "Mikhail Gorbachev",
-      "body": "Soviet Union leader Mikhail Gorbachev is awarded the Nobel Peace Prize for his efforts to lessen Cold War tensions and open up his nation.",
+      "year": 1951,
+      "title": "Luis E. Miramontes",
+      "body": "Mexican chemist Luis E. Miramontes completes the synthesis of norethisterone, the basis of an early oral contraceptive.",
       "source": {
-        "name": "Wikipedia · Mikhail Gorbachev",
-        "url": "https://en.wikipedia.org/wiki/Mikhail_Gorbachev",
+        "name": "Wikipedia · Luis E. Miramontes",
+        "url": "https://en.wikipedia.org/wiki/Luis_E._Miramontes",
         "calendarUrl": "https://en.wikipedia.org/wiki/October_15",
         "license": {
           "name": "CC BY-SA 4.0",
@@ -75,12 +75,12 @@
         }
       },
       "image": {
-        "src": "https://upload.wikimedia.org/wikipedia/commons/5/57/RIAN_archive_850809_General_Secretary_of_the_CPSU_CC_M._Gorbachev_%28crop%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
-        "alt": "Picture from the Wikipedia article on Mikhail Gorbachev.",
-        "credit": "RIA Novosti archive, image #850809",
-        "source": "https://commons.wikimedia.org/wiki/File:RIAN_archive_850809_General_Secretary_of_the_CPSU_CC_M._Gorbachev_(crop).jpg",
-        "license": "CC BY-SA 3.0",
-        "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0"
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/17/Luis_E_Miramontes.jpg/500px-Luis_E_Miramontes.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "alt": "Picture from the Wikipedia article on Luis E. Miramontes.",
+        "credit": "Luis E. Miramontes self-portrait",
+        "source": "https://commons.wikimedia.org/wiki/File:Luis_E_Miramontes.jpg",
+        "license": "Public domain",
+        "licenseUrl": "https://commons.wikimedia.org/wiki/File:Luis_E_Miramontes.jpg"
       }
     },
     {
@@ -111,17 +111,17 @@
       }
     },
     {
-      "id": "10-15-galileo-spacecraft",
+      "id": "10-15-america-airship",
       "date": "10-15",
       "dateLabel": "15 October",
-      "category": "space",
-      "categoryName": "Space",
-      "year": 2001,
-      "title": "Galileo",
-      "body": "NASA's Galileo spacecraft passes within of Jupiter's moon Io.",
+      "category": "world",
+      "categoryName": "World",
+      "year": 1910,
+      "title": "America",
+      "body": "Airship America is launched from New Jersey in the first attempt to cross the Atlantic by a powered aircraft.",
       "source": {
-        "name": "Wikipedia · Galileo (spacecraft)",
-        "url": "https://en.wikipedia.org/wiki/Galileo_(spacecraft)",
+        "name": "Wikipedia · America (airship)",
+        "url": "https://en.wikipedia.org/wiki/America_(airship)",
         "calendarUrl": "https://en.wikipedia.org/wiki/October_15",
         "license": {
           "name": "CC BY-SA 4.0",
@@ -129,12 +129,12 @@
         }
       },
       "image": {
-        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/9c/Artwork_Galileo-Io-Jupiter.JPG/500px-Artwork_Galileo-Io-Jupiter.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-        "alt": "Picture from the Wikipedia article on Galileo.",
-        "credit": "NASA",
-        "source": "https://commons.wikimedia.org/wiki/File:Artwork_Galileo-Io-Jupiter.JPG",
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/5d/Wellman_air_ship_LOC_ggbain.03344.jpg/500px-Wellman_air_ship_LOC_ggbain.03344.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "alt": "Picture from the Wikipedia article on America.",
+        "credit": "Bain News Service",
+        "source": "https://commons.wikimedia.org/wiki/File:Wellman_air_ship_LOC_ggbain.03344.jpg",
         "license": "Public domain",
-        "licenseUrl": "https://commons.wikimedia.org/wiki/File:Artwork_Galileo-Io-Jupiter.JPG"
+        "licenseUrl": "https://commons.wikimedia.org/wiki/File:Wellman_air_ship_LOC_ggbain.03344.jpg"
       }
     }
   ]

@@ -84,6 +84,33 @@
       }
     },
     {
+      "id": "09-23-philip-ii-of-spain",
+      "date": "09-23",
+      "dateLabel": "23 September",
+      "category": "world",
+      "categoryName": "World",
+      "year": 1561,
+      "title": "Philip II of Spain",
+      "body": "King Philip II of Spain issues cedula, ordering a halt to colonizing efforts in Florida.",
+      "source": {
+        "name": "Wikipedia · Philip II of Spain",
+        "url": "https://en.wikipedia.org/wiki/Philip_II_of_Spain",
+        "calendarUrl": "https://en.wikipedia.org/wiki/September_23",
+        "license": {
+          "name": "CC BY-SA 4.0",
+          "url": "https://creativecommons.org/licenses/by-sa/4.0/"
+        }
+      },
+      "image": {
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/2d/Portrait_of_Philip_II_of_Spain_by_Sofonisba_Anguissola_-_002b.jpg/500px-Portrait_of_Philip_II_of_Spain_by_Sofonisba_Anguissola_-_002b.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "alt": "Picture from the Wikipedia article on Philip II of Spain.",
+        "credit": "Sofonisba Anguissola",
+        "source": "https://commons.wikimedia.org/wiki/File:Portrait_of_Philip_II_of_Spain_by_Sofonisba_Anguissola_-_002b.jpg",
+        "license": "Public domain",
+        "licenseUrl": "https://commons.wikimedia.org/wiki/File:Portrait_of_Philip_II_of_Spain_by_Sofonisba_Anguissola_-_002b.jpg"
+      }
+    },
+    {
       "id": "09-23-election",
       "date": "09-23",
       "dateLabel": "23 September",
@@ -108,33 +135,6 @@
         "source": "https://commons.wikimedia.org/wiki/File:Election_MG_3455.JPG",
         "license": "CC BY-SA 2.0 fr",
         "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0/fr/deed.en"
-      }
-    },
-    {
-      "id": "09-23-macedo-romanian-cultural-society",
-      "date": "09-23",
-      "dateLabel": "23 September",
-      "category": "world",
-      "categoryName": "World",
-      "year": 1879,
-      "title": "Macedo-Romanian Cultural Society",
-      "body": "The Macedo-Romanian Cultural Society is founded.",
-      "source": {
-        "name": "Wikipedia · Macedo-Romanian Cultural Society",
-        "url": "https://en.wikipedia.org/wiki/Macedo-Romanian_Cultural_Society",
-        "calendarUrl": "https://en.wikipedia.org/wiki/September_23",
-        "license": {
-          "name": "CC BY-SA 4.0",
-          "url": "https://creativecommons.org/licenses/by-sa/4.0/"
-        }
-      },
-      "image": {
-        "src": "https://upload.wikimedia.org/wikipedia/commons/f/f3/Stindardul_Societ%C4%83%C8%9Bii_de_Cultur%C4%83_Macedo-Rom%C3%A2ne%2C_avers.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
-        "alt": "Picture from the Wikipedia article on Macedo-Romanian Cultural Society.",
-        "credit": "V. A. Urechia",
-        "source": "https://commons.wikimedia.org/wiki/File:Stindardul_Societ%C4%83%C8%9Bii_de_Cultur%C4%83_Macedo-Rom%C3%A2ne,_avers.png",
-        "license": "Public domain",
-        "licenseUrl": "https://commons.wikimedia.org/wiki/File:Stindardul_Societ%C4%83%C8%9Bii_de_Cultur%C4%83_Macedo-Rom%C3%A2ne,_avers.png"
       }
     }
   ]

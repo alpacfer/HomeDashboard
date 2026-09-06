@@ -84,33 +84,6 @@
       }
     },
     {
-      "id": "09-01-air-force-space-command",
-      "date": "09-01",
-      "dateLabel": "1 September",
-      "category": "world",
-      "categoryName": "World",
-      "year": 1982,
-      "title": "United States Space Force Combat Forces Command",
-      "body": "The United States Air Force Space Command is founded.",
-      "source": {
-        "name": "Wikipedia · United States Space Force Combat Forces Command",
-        "url": "https://en.wikipedia.org/wiki/United_States_Space_Force_Combat_Forces_Command",
-        "calendarUrl": "https://en.wikipedia.org/wiki/September_1",
-        "license": {
-          "name": "CC BY-SA 4.0",
-          "url": "https://creativecommons.org/licenses/by-sa/4.0/"
-        }
-      },
-      "image": {
-        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/0f/USSF_Combat_Forces_Command_emblem.png/500px-USSF_Combat_Forces_Command_emblem.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-        "alt": "Picture from the Wikipedia article on United States Space Force Combat Forces Command.",
-        "credit": "U.S. Space Force",
-        "source": "https://commons.wikimedia.org/wiki/File:USSF_Combat_Forces_Command_emblem.png",
-        "license": "Public domain",
-        "licenseUrl": "https://commons.wikimedia.org/wiki/File:USSF_Combat_Forces_Command_emblem.png"
-      }
-    },
-    {
       "id": "09-01-celtic-sea",
       "date": "09-01",
       "dateLabel": "1 September",
@@ -135,6 +108,33 @@
         "source": "https://commons.wikimedia.org/wiki/File:Celtic_Sea_and_Bay_of_Biscay_bathymetric_map-en.svg",
         "license": "CC BY-SA 3.0",
         "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0"
+      }
+    },
+    {
+      "id": "09-01-narcissa-whitman",
+      "date": "09-01",
+      "dateLabel": "1 September",
+      "category": "world",
+      "categoryName": "World",
+      "year": 1836,
+      "title": "Narcissa Whitman",
+      "body": "Narcissa Whitman, one of the first English-speaking white women to settle west of the Rocky Mountains, arrives at Walla Walla, Washington.",
+      "source": {
+        "name": "Wikipedia · Narcissa Whitman",
+        "url": "https://en.wikipedia.org/wiki/Narcissa_Whitman",
+        "calendarUrl": "https://en.wikipedia.org/wiki/September_1",
+        "license": {
+          "name": "CC BY-SA 4.0",
+          "url": "https://creativecommons.org/licenses/by-sa/4.0/"
+        }
+      },
+      "image": {
+        "src": "https://upload.wikimedia.org/wikipedia/commons/7/77/Narcissa_whitman_nps.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+        "alt": "Picture from the Wikipedia article on Narcissa Whitman.",
+        "credit": "Wikimedia Commons",
+        "source": "https://commons.wikimedia.org/wiki/File:Narcissa_whitman_nps.jpg",
+        "license": "Public domain",
+        "licenseUrl": "https://commons.wikimedia.org/wiki/File:Narcissa_whitman_nps.jpg"
       }
     }
   ]

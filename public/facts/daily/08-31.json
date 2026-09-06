@@ -30,6 +30,33 @@
       }
     },
     {
+      "id": "08-31-dilma-rousseff",
+      "date": "08-31",
+      "dateLabel": "31 August",
+      "category": "world",
+      "categoryName": "World",
+      "year": 2016,
+      "title": "Dilma Rousseff",
+      "body": "Brazil's President Dilma Rousseff is impeached and removed from office.",
+      "source": {
+        "name": "Wikipedia · Dilma Rousseff",
+        "url": "https://en.wikipedia.org/wiki/Dilma_Rousseff",
+        "calendarUrl": "https://en.wikipedia.org/wiki/August_31",
+        "license": {
+          "name": "CC BY-SA 4.0",
+          "url": "https://creativecommons.org/licenses/by-sa/4.0/"
+        }
+      },
+      "image": {
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/81/Dilma_Rousseff_-_foto_oficial_2011-01-09.jpg/500px-Dilma_Rousseff_-_foto_oficial_2011-01-09.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "alt": "Picture from the Wikipedia article on Dilma Rousseff.",
+        "credit": "Palácio do Planalto",
+        "source": "https://commons.wikimedia.org/wiki/File:Dilma_Rousseff_-_foto_oficial_2011-01-09.jpg",
+        "license": "Attribution",
+        "licenseUrl": "https://commons.wikimedia.org/wiki/File:Dilma_Rousseff_-_foto_oficial_2011-01-09.jpg"
+      }
+    },
+    {
       "id": "08-31-crown-colony-of-north-borneo",
       "date": "08-31",
       "dateLabel": "31 August",
@@ -108,33 +135,6 @@
         "source": "https://commons.wikimedia.org/wiki/File:Flag_of_Kyrgyzstan.svg",
         "license": "Public domain",
         "licenseUrl": "https://commons.wikimedia.org/wiki/File:Flag_of_Kyrgyzstan.svg"
-      }
-    },
-    {
-      "id": "08-31-federation-of-malaya",
-      "date": "08-31",
-      "dateLabel": "31 August",
-      "category": "world",
-      "categoryName": "World",
-      "year": 1957,
-      "title": "Federation of Malaya",
-      "body": "The Federation of Malaya (now Malaysia) gains its independence from the United Kingdom.",
-      "source": {
-        "name": "Wikipedia · Federation of Malaya",
-        "url": "https://en.wikipedia.org/wiki/Federation_of_Malaya",
-        "calendarUrl": "https://en.wikipedia.org/wiki/August_31",
-        "license": {
-          "name": "CC BY-SA 4.0",
-          "url": "https://creativecommons.org/licenses/by-sa/4.0/"
-        }
-      },
-      "image": {
-        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/fb/Flag_of_Malaya_%281950%E2%80%931963%29.svg/500px-Flag_of_Malaya_%281950%E2%80%931963%29.svg.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-        "alt": "Picture from the Wikipedia article on Federation of Malaya.",
-        "credit": "No machine-readable author provided",
-        "source": "https://commons.wikimedia.org/wiki/File:Flag_of_Malaya_(1950%E2%80%931963).svg",
-        "license": "CC BY-SA 2.5",
-        "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.5"
       }
     }
   ]

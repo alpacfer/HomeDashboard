@@ -89,7 +89,10 @@ export const GRIM = [
   /\b(?:rupture[sd]?|spills?|spilled|leaks? of|contaminat\w+|pollut\w+|toxic|radioactive release|evacuation)\b/i,
   /\b(?:execut(?:ed|es|ion|ions)|death (?:row|penalty|sentence)|capital punishment|electric chair|gas chamber|guillotine)\b/i,
   /\b(?:the body of|bodies of|remains (?:are|were|is|was) found|drown\w+|missing person|search and rescue)\b/i,
-  /\b(?:declare[sd]? war|war on\b|at war\b|goes? to war|World War|the [A-Z]\w+ War\b)/,
+  // [\w-] rather than \w: a hyphen is part of a war's name, and without it
+  // the Indo-Pakistani, Six-Day, Franco-Prussian, Sino-Indian, Russo-Japanese
+  // and Ethio-Somali wars all read as ordinary days.
+  /\b(?:declare[sd]? war|war on\b|at war\b|goes? to war|World War|\b[A-Z][\w-]* War\b|\bWar of \d{4}\b)/,
   // Aviation entries on these pages are, almost without exception, accidents.
   /\bFlight\s+\d+\b/,
   // Admitting the last five years brought the 2020s with it. A pandemic, a
@@ -100,6 +103,19 @@ export const GRIM = [
   /\b(?:flees|fled|fleeing|falls? (?:in)?to the hands of|seizes? (?:control|power))\b/i,
   /\b(?:prisoners?|inmates?|detainees?|penitentiary|hostage)\b/i,
   /\b(?:fails?|failure|explodes?|breaks? up)\s+(?:after|during|shortly after|on)\s+(?:lift[- ]?off|launch|take[- ]?off|re-?entry|ascent)\b/i,
+  // Found by reading back what the calendar had already published. An entry
+  // can describe a war or a killing without using any word above: the Anfal
+  // campaign reached the wall as "major destructions and major civilian
+  // losses", and a genocide is not less grim for being phrased as an
+  // administrative outcome.
+  /\bcivilian (?:losses|casualties|deaths?|population)\b/i,
+  /\bcampaign\b[^.]{0,40}\bagainst\b/i,
+  /\b(?:forces|troops|soldiers|units)\s+(?:enter|entered|enters|advance[sd]?|withdraw\w*|capture[sd]?|storm\w*)\b/i,
+  /\b(?:military|militar\w+)\b/i,
+  /\b(?:air (?:force|defence|defense)|naval\b|warplanes?|(?:fighter|jet) (?:jet|fighter|aircraft)|bombers?|gunboats?|aircraft carrier|H-bombs?|hydrogen bombs?|bombs?|R\.?A\.?F\.?)\b/i,
+  /\bnuclear weapons?\b/i,
+  /\b(?:peace (?:agreement|accord|deal|process)|truce|surrender|disarmament|non-aggression)\b/i,
+  /\bdowns?\b[^.]{0,24}\b(?:pilot|aircraft|plane|jet|helicopter|drone)\b/i,
 ];
 export function isGrim(text) {
   return GRIM.some(pattern => pattern.test(text));
@@ -160,7 +176,7 @@ export const CATEGORIES = [
   { id: 'curious', name: 'Curious', weight: 1.3, boost: 52, terms: [/\bhoax\b/i, /\bprank\b/i, /\bstunt\b/i, /\bzoo\b/i, /\bgorillas?\b/i, /\belephants?\b/i, /\bpenguins?\b/i, /\bpandas?\b/i, /\bwhales?\b/i, /\bsharks?\b/i, /\boctopus\b/i, /\bpigeons?\b/i, /\bparrots?\b/i, /\bGuinness World\b/i, /\bworld's (?:largest|smallest|longest|oldest|heaviest|tallest)\b/i, /\bbizarre\b/i, /\bmyster\w+\b/i, /\btreasure\b/i, /\bUFO\b/, /\blotter\w+\b/i, /\bjackpot\b/i, /\bheist\b/i, /\bstolen\b/i, /\bforger\w+\b/i, /\bimpost\w+\b/i, /\bhot air balloon\b/i, /\bparachut\w+\b/i, /\btightrope\b/i, /\bdaredevil\b/i, /\bApril Fools\b/i, /\bescape[sd]? from\b/i] },
   { id: 'culture', name: 'Culture', weight: 1.15, boost: 36, terms: [/\balbums?\b/i, /\bsongs?\b/i, /\bbands?\b/i, /\bmusicians?\b/i, /\bsingers?\b/i, /\brock (?:band|group|music)\b/i, /\bhip hop\b/i, /\bjazz\b/i, /\bconcerts?\b/i, /\bWoodstock\b/i, /\bBeatles\b/, /\bElvis\b/, /\bMadonna\b/, /\bNirvana\b/, /\bfilms?\b/i, /\bmovies?\b/i, /\bcinema\b/i, /\bbox office\b/i, /\bHollywood\b/i, /\bAcademy Award\w*\b/i, /\bDisney\b/, /\bPixar\b/, /\bStar Wars\b/i, /\b(?:television|TV) (?:series|show|programme|program)\b/i, /\bsitcom\b/i, /\bnovels?\b/i, /\bauthors?\b/i, /\bpaintings?\b/i, /\bmuseums?\b/i, /\bexhibitions?\b/i, /\bcomics?\b/i, /\bcartoons?\b/i, /\bBroadway\b/i, /\bEurovision\b/i, /\bLEGO\b/i, /\bBarbie\b/i, /\bMuppets\b/i, /\bSimpsons\b/i, /\bMonopoly\b/i, /\bopera\b/i, /\bballet\b/i, /\bsymphony\b/i] },
   { id: 'science', name: 'Science', weight: 1.1, boost: 30, terms: [/\bscientists?\b/i, /\bphysicists?\b/i, /\bchemists?\b/i, /\bbiologists?\b/i, /\bmathematician\w*\b/i, /\bdiscover\w+\b/i, /\bpatents?\b/i, /\bexperiments?\b/i, /\blaborator\w+\b/i, /\bNobel\b/, /\bvaccines?\b/i, /\bpenicillin\b/i, /\bDNA\b/, /\bgenomes?\b/i, /\bcloning\b/i, /\bDolly the sheep\b/i, /\btransplants?\b/i, /\bdinosaurs?\b/i, /\bfossils?\b/i, /\bspecies\b/i, /\bevolution\b/i, /\bAntarctic\w*\b/i, /\bexpeditions?\b/i, /\bMount Everest\b/i, /\bperiodic table\b/i, /\bCERN\b/, /\bLarge Hadron\b/i, /\bquantum\b/i, /\blasers?\b/i, /\bX-rays?\b/i, /\bmicroscopes?\b/i, /\bsolar power\b/i, /\bMariana Trench\b/i, /\bsubmersible\b/i] },
-  { id: 'sport', name: 'Sport', weight: 1.0, boost: 22, terms: [/\bOlympics?\b/i, /\bOlympic Games\b/i, /\bWorld Cup\b/i, /\bchampionships?\b/i, /\bmarathon\b/i, /\bworld record\b/i, /\bfootball\b/i, /\bbasketball\b/i, /\bNBA\b/, /\bbaseball\b/i, /\bcricket\b/i, /\btennis\b/i, /\bWimbledon\b/i, /\bgolf\b/i, /\bboxing\b/i, /\bheavyweight\b/i, /\bFormula One\b/i, /\bGrand Prix\b/i, /\bTour de France\b/i, /\bchess\b/i, /\bFIFA\b/, /\bSuper Bowl\b/i, /\bStanley Cup\b/i, /\bgold medal\b/i, /\bfour-minute mile\b/i, /\bathletics\b/i, /\bathletes?\b/i, /\brunners?\b/i, /\bsprint\w*\b/i, /\bcyclists?\b/i, /\bswimmers?\b/i, /\bwrestl\w+\b/i, /\bhockey\b/i, /\brugby\b/i, /\bmedals?\b/i, /\bruns? the (?:mile|marathon)\b/i, /\bmile in under\b/i, /\bhome runs?\b/i, /\bgrand slam\b/i] },
+  { id: 'sport', name: 'Sport', weight: 1.0, boost: 22, terms: [/\bOlympics?\b/i, /\bOlympic Games\b/i, /\bWorld Cup\b/i, /\bchampionships?\b/i, /\bmarathon\b/i, /\bworld record\b/i, /\bfootball\b/i, /\bbasketball\b/i, /\bNBA\b/, /\bbaseball\b/i, /\bcricket\b/i, /\btennis\b/i, /\bWimbledon\b/i, /\bgolf\b/i, /\bboxing\b/i, /\bheavyweight\b/i, /\bFormula One\b/i, /\bGrand Prix\b/i, /\bTour de France\b/i, /\bchess\b/i, /\bFIFA\b/, /\bSuper Bowl\b/i, /\bStanley Cup\b/i, /\bgold medal\b/i, /\bfour-minute mile\b/i, /\bathletics\b/i, /\bathletes?\b/i, /\brunners?\b/i, /\bsprint\w*\b/i, /\bcyclists?\b/i, /\bswimmers?\b/i, /\bwrestl\w+\b/i, /\bhockey\b/i, /\brugby\b/i, /\bmedals?\b/i, /\bruns? the (?:mile|marathon)\b/i, /\bmile in under\b/i, /\bhome runs?\b/i, /\b(?:wins?|winning|won|completes?|career|calendar) (?:the )?grand slam\b/i, /\bgrand slam (?:title|tournament|singles|doubles|champion\w*|event)\b/i, /\bconsecutive (?:games?|matches|starts|appearances|wins|victories)\b/i, /\bmajor league\b/i, /\binnings?\b/i, /\btouchdowns?\b/i, /\bpenalty (?:kick|shoot-?out)\b/i, /\bgoalkeepers?\b/i, /\bpitchers?\b/i, /\bbatsm[ae]n\b/i, /\bstadium\b/i, /\bleague (?:title|championship|pennant)\b/i, /\bpennant\b/i, /\bthe (?:Olympic|Paralympic) torch\b/i, /\bhat[- ]trick\b/i] },
 ];
 export const WORLD = { id: 'world', name: 'World', boost: -45 };
 

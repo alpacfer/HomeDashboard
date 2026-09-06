@@ -111,17 +111,17 @@
       }
     },
     {
-      "id": "10-21-fred-dryer",
+      "id": "10-21-battle-of-aachen",
       "date": "10-21",
       "dateLabel": "21 October",
       "category": "world",
       "categoryName": "World",
-      "year": 1973,
-      "title": "Fred Dryer",
-      "body": "Fred Dryer of the Los Angeles Rams becomes the first player in NFL history to score two safeties in the same game.",
+      "year": 1944,
+      "title": "Battle of Aachen",
+      "body": "The city of Aachen falls to American forces after three weeks of fighting, the first German city to fall to the Allies.",
       "source": {
-        "name": "Wikipedia · Fred Dryer",
-        "url": "https://en.wikipedia.org/wiki/Fred_Dryer",
+        "name": "Wikipedia · Battle of Aachen",
+        "url": "https://en.wikipedia.org/wiki/Battle_of_Aachen",
         "calendarUrl": "https://en.wikipedia.org/wiki/October_21",
         "license": {
           "name": "CC BY-SA 4.0",
@@ -129,12 +129,12 @@
         }
       },
       "image": {
-        "src": "https://upload.wikimedia.org/wikipedia/commons/0/0b/Dryerhof.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
-        "alt": "Picture from the Wikipedia article on Fred Dryer.",
-        "credit": "Howdythere",
-        "source": "https://commons.wikimedia.org/wiki/File:Dryerhof.jpg",
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/be/GI_machine_gun_crew_in_Aachen_%28Correct_orientation%29.jpg/500px-GI_machine_gun_crew_in_Aachen_%28Correct_orientation%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "alt": "Picture from the Wikipedia article on Battle of Aachen.",
+        "credit": "User:W.wolny",
+        "source": "https://commons.wikimedia.org/wiki/File:GI_machine_gun_crew_in_Aachen_(Correct_orientation).jpg",
         "license": "Public domain",
-        "licenseUrl": "https://commons.wikimedia.org/wiki/File:Dryerhof.jpg"
+        "licenseUrl": "https://commons.wikimedia.org/wiki/File:GI_machine_gun_crew_in_Aachen_(Correct_orientation).jpg"
       }
     }
   ]

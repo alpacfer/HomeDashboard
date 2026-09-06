@@ -57,6 +57,33 @@
       }
     },
     {
+      "id": "07-24-people-s-protection-units",
+      "date": "07-24",
+      "dateLabel": "24 July",
+      "category": "world",
+      "categoryName": "World",
+      "year": 2012,
+      "title": "People's Defense Units",
+      "body": "The People's Protection Units (YPG) capture the city of Girkê Legê.",
+      "source": {
+        "name": "Wikipedia · People's Defense Units",
+        "url": "https://en.wikipedia.org/wiki/People%27s_Defense_Units",
+        "calendarUrl": "https://en.wikipedia.org/wiki/July_24",
+        "license": {
+          "name": "CC BY-SA 4.0",
+          "url": "https://creativecommons.org/licenses/by-sa/4.0/"
+        }
+      },
+      "image": {
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/32/People%27s_Protection_Units_Flag.svg/500px-People%27s_Protection_Units_Flag.svg.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "alt": "Picture from the Wikipedia article on People's Defense Units.",
+        "credit": "MrPenguin20",
+        "source": "https://commons.wikimedia.org/wiki/File:People%27s_Protection_Units_Flag.svg",
+        "license": "Public domain",
+        "licenseUrl": "https://commons.wikimedia.org/wiki/File:People%27s_Protection_Units_Flag.svg"
+      }
+    },
+    {
       "id": "07-24-hiram-bingham-iii",
       "date": "07-24",
       "dateLabel": "24 July",
@@ -81,33 +108,6 @@
         "source": "https://commons.wikimedia.org/wiki/File:Senator_Hiram_Bingham_of_Conn.,_(1-9-25)_LCCN2016839105_(3x4a).jpg",
         "license": "Public domain",
         "licenseUrl": "https://commons.wikimedia.org/wiki/File:Senator_Hiram_Bingham_of_Conn.,_(1-9-25)_LCCN2016839105_(3x4a).jpg"
-      }
-    },
-    {
-      "id": "07-24-cape-canaveral-air-force-station",
-      "date": "07-24",
-      "dateLabel": "24 July",
-      "category": "space",
-      "categoryName": "Space",
-      "year": 1950,
-      "title": "Cape Canaveral Space Force Station",
-      "body": "Cape Canaveral Air Force Station begins operations with the launch of a Bumper rocket.",
-      "source": {
-        "name": "Wikipedia · Cape Canaveral Space Force Station",
-        "url": "https://en.wikipedia.org/wiki/Cape_Canaveral_Space_Force_Station",
-        "calendarUrl": "https://en.wikipedia.org/wiki/July_24",
-        "license": {
-          "name": "CC BY-SA 4.0",
-          "url": "https://creativecommons.org/licenses/by-sa/4.0/"
-        }
-      },
-      "image": {
-        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/3b/STORIE_Launch_and_Install_on_the_Space_Station_%28SVS15043_-_4~orig%29.jpg/500px-STORIE_Launch_and_Install_on_the_Space_Station_%28SVS15043_-_4~orig%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-        "alt": "Picture from the Wikipedia article on Cape Canaveral Space Force Station.",
-        "credit": "NASA's Scientific Visualization Studio",
-        "source": "https://commons.wikimedia.org/wiki/File:STORIE_Launch_and_Install_on_the_Space_Station_(SVS15043_-_4~orig).jpg",
-        "license": "CC0",
-        "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/deed.en"
       }
     },
     {

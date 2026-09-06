@@ -30,6 +30,33 @@
       }
     },
     {
+      "id": "05-27-pope-benedict-xv",
+      "date": "05-27",
+      "dateLabel": "27 May",
+      "category": "world",
+      "categoryName": "World",
+      "year": 1917,
+      "title": "Pope Benedict XV",
+      "body": "Pope Benedict XV promulgates the 1917 Code of Canon Law, the first comprehensive codification of Catholic canon law in the legal history of the Catholic Church.",
+      "source": {
+        "name": "Wikipedia · Pope Benedict XV",
+        "url": "https://en.wikipedia.org/wiki/Pope_Benedict_XV",
+        "calendarUrl": "https://en.wikipedia.org/wiki/May_27",
+        "license": {
+          "name": "CC BY-SA 4.0",
+          "url": "https://creativecommons.org/licenses/by-sa/4.0/"
+        }
+      },
+      "image": {
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/0b/Benedictus_XV%2C_by_Nicola_Perscheid%2C_1915_%28retouched%29.jpg/500px-Benedictus_XV%2C_by_Nicola_Perscheid%2C_1915_%28retouched%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "alt": "Picture from the Wikipedia article on Pope Benedict XV.",
+        "credit": "Nicola Perscheid",
+        "source": "https://commons.wikimedia.org/wiki/File:Benedictus_XV,_by_Nicola_Perscheid,_1915_(retouched).jpg",
+        "license": "Public domain",
+        "licenseUrl": "https://commons.wikimedia.org/wiki/File:Benedictus_XV,_by_Nicola_Perscheid,_1915_(retouched).jpg"
+      }
+    },
+    {
       "id": "05-27-danube-black-sea-canal",
       "date": "05-27",
       "dateLabel": "27 May",
@@ -108,33 +135,6 @@
         "source": "https://commons.wikimedia.org/wiki/File:Andrew_Scheer_(35173037403)_(cropped).jpg",
         "license": "CC0",
         "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/deed.en"
-      }
-    },
-    {
-      "id": "05-27-nc-4",
-      "date": "05-27",
-      "dateLabel": "27 May",
-      "category": "world",
-      "categoryName": "World",
-      "year": 1919,
-      "title": "Curtiss NC-4",
-      "body": "The NC-4 aircraft arrives in Lisbon after completing the first transatlantic flight.",
-      "source": {
-        "name": "Wikipedia · Curtiss NC-4",
-        "url": "https://en.wikipedia.org/wiki/Curtiss_NC-4",
-        "calendarUrl": "https://en.wikipedia.org/wiki/May_27",
-        "license": {
-          "name": "CC BY-SA 4.0",
-          "url": "https://creativecommons.org/licenses/by-sa/4.0/"
-        }
-      },
-      "image": {
-        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b1/Curtiss_NC-4_four_engine_configuration-detail.jpg/500px-Curtiss_NC-4_four_engine_configuration-detail.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-        "alt": "Picture from the Wikipedia article on Curtiss NC-4.",
-        "credit": "Wikimedia Commons",
-        "source": "https://commons.wikimedia.org/wiki/File:Curtiss_NC-4_four_engine_configuration-detail.jpg",
-        "license": "Public domain",
-        "licenseUrl": "https://commons.wikimedia.org/wiki/File:Curtiss_NC-4_four_engine_configuration-detail.jpg"
       }
     }
   ]

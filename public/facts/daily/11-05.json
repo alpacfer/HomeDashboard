@@ -30,33 +30,6 @@
       }
     },
     {
-      "id": "11-05-qingdao",
-      "date": "11-05",
-      "dateLabel": "5 November",
-      "category": "world",
-      "categoryName": "World",
-      "year": 1986,
-      "title": "Qingdao",
-      "body": ", and visit Qingdao, China; the first US naval visit to China since 1949.",
-      "source": {
-        "name": "Wikipedia · Qingdao",
-        "url": "https://en.wikipedia.org/wiki/Qingdao",
-        "calendarUrl": "https://en.wikipedia.org/wiki/November_5",
-        "license": {
-          "name": "CC BY-SA 4.0",
-          "url": "https://creativecommons.org/licenses/by-sa/4.0/"
-        }
-      },
-      "image": {
-        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/18/Qingdao_Harbour_51341-Qingdao_%2849055637186%29.jpg/500px-Qingdao_Harbour_51341-Qingdao_%2849055637186%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-        "alt": "Picture from the Wikipedia article on Qingdao.",
-        "credit": "xiquinhosilva",
-        "source": "https://commons.wikimedia.org/wiki/File:Qingdao_Harbour_51341-Qingdao_(49055637186).jpg",
-        "license": "CC BY 2.0",
-        "licenseUrl": "https://creativecommons.org/licenses/by/2.0"
-      }
-    },
-    {
       "id": "11-05-george-b-selden",
       "date": "11-05",
       "dateLabel": "5 November",
@@ -81,6 +54,33 @@
         "source": "https://commons.wikimedia.org/wiki/File:GeorgeBSelden1871.gif",
         "license": "Public domain",
         "licenseUrl": "https://commons.wikimedia.org/wiki/File:GeorgeBSelden1871.gif"
+      }
+    },
+    {
+      "id": "11-05-susan-b-anthony",
+      "date": "11-05",
+      "dateLabel": "5 November",
+      "category": "world",
+      "categoryName": "World",
+      "year": 1872,
+      "title": "Susan B. Anthony",
+      "body": "In defiance of the law, suffragist Susan B. Anthony votes for the first time, and is later fined $100.",
+      "source": {
+        "name": "Wikipedia · Susan B. Anthony",
+        "url": "https://en.wikipedia.org/wiki/Susan_B._Anthony",
+        "calendarUrl": "https://en.wikipedia.org/wiki/November_5",
+        "license": {
+          "name": "CC BY-SA 4.0",
+          "url": "https://creativecommons.org/licenses/by-sa/4.0/"
+        }
+      },
+      "image": {
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/28/SB_Anthony_from_RoRaWW.jpg/500px-SB_Anthony_from_RoRaWW.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "alt": "Picture from the Wikipedia article on Susan B. Anthony.",
+        "credit": "Unknown author",
+        "source": "https://commons.wikimedia.org/wiki/File:SB_Anthony_from_RoRaWW.jpg",
+        "license": "Public domain",
+        "licenseUrl": "https://commons.wikimedia.org/wiki/File:SB_Anthony_from_RoRaWW.jpg"
       }
     },
     {

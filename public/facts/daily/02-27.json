@@ -30,6 +30,33 @@
       }
     },
     {
+      "id": "02-27-gestapo",
+      "date": "02-27",
+      "dateLabel": "27 February",
+      "category": "world",
+      "categoryName": "World",
+      "year": 1943,
+      "title": "Gestapo",
+      "body": "In Berlin, the Gestapo arrest 1,800 Jewish men with German wives, leading to the Rosenstrasse protest.",
+      "source": {
+        "name": "Wikipedia · Gestapo",
+        "url": "https://en.wikipedia.org/wiki/Gestapo",
+        "calendarUrl": "https://en.wikipedia.org/wiki/February_27",
+        "license": {
+          "name": "CC BY-SA 4.0",
+          "url": "https://creativecommons.org/licenses/by-sa/4.0/"
+        }
+      },
+      "image": {
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/4b/Bundesarchiv_Bild_183-R97512%2C_Berlin%2C_Geheimes_Staatspolizeihauptamt.jpg/500px-Bundesarchiv_Bild_183-R97512%2C_Berlin%2C_Geheimes_Staatspolizeihauptamt.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "alt": "Picture from the Wikipedia article on Gestapo.",
+        "credit": "Bundesarchiv, Bild 183-R97512",
+        "source": "https://commons.wikimedia.org/wiki/File:Bundesarchiv_Bild_183-R97512,_Berlin,_Geheimes_Staatspolizeihauptamt.jpg",
+        "license": "CC BY-SA 3.0 de",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0/de/deed.en"
+      }
+    },
+    {
       "id": "02-27-shanghai-stock-exchange",
       "date": "02-27",
       "dateLabel": "27 February",
@@ -54,33 +81,6 @@
         "source": "https://commons.wikimedia.org/wiki/File:Shanghai_Stock_Exchange_2.jpg",
         "license": "CC BY-SA 4.0",
         "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0"
-      }
-    },
-    {
-      "id": "02-27-pakistan-air-force",
-      "date": "02-27",
-      "dateLabel": "27 February",
-      "category": "world",
-      "categoryName": "World",
-      "year": 2019,
-      "title": "Pakistan Air Force",
-      "body": "Pakistan Air Force JF-17 Thunder downs Indian pilot Abhinandan Varthaman's Mig-21 in an aerial dogfight and captures him after conducting airstrikes in Jammu and Kashmir.",
-      "source": {
-        "name": "Wikipedia · Pakistan Air Force",
-        "url": "https://en.wikipedia.org/wiki/Pakistan_Air_Force",
-        "calendarUrl": "https://en.wikipedia.org/wiki/February_27",
-        "license": {
-          "name": "CC BY-SA 4.0",
-          "url": "https://creativecommons.org/licenses/by-sa/4.0/"
-        }
-      },
-      "image": {
-        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/7d/Badge_of_the_Pakistan_Air_Force.svg/500px-Badge_of_the_Pakistan_Air_Force.svg.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-        "alt": "Picture from the Wikipedia article on Pakistan Air Force.",
-        "credit": "Pakistan Air Force vectored by FOX 52",
-        "source": "https://commons.wikimedia.org/wiki/File:Badge_of_the_Pakistan_Air_Force.svg",
-        "license": "Public domain",
-        "licenseUrl": "https://commons.wikimedia.org/wiki/File:Badge_of_the_Pakistan_Air_Force.svg"
       }
     },
     {

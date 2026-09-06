@@ -30,33 +30,6 @@
       }
     },
     {
-      "id": "05-02-global-positioning-system",
-      "date": "05-02",
-      "dateLabel": "2 May",
-      "category": "tech",
-      "categoryName": "Tech",
-      "year": 2000,
-      "title": "Global Positioning System",
-      "body": "President Bill Clinton announces that accurate GPS access would no longer be restricted to the United States military.",
-      "source": {
-        "name": "Wikipedia · Global Positioning System",
-        "url": "https://en.wikipedia.org/wiki/Global_Positioning_System",
-        "calendarUrl": "https://en.wikipedia.org/wiki/May_2",
-        "license": {
-          "name": "CC BY-SA 4.0",
-          "url": "https://creativecommons.org/licenses/by-sa/4.0/"
-        }
-      },
-      "image": {
-        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/49/GPS_Block_IIIA.jpg/500px-GPS_Block_IIIA.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-        "alt": "Picture from the Wikipedia article on Global Positioning System.",
-        "credit": "U.S. Air Force",
-        "source": "https://commons.wikimedia.org/wiki/File:GPS_Block_IIIA.jpg",
-        "license": "Public domain",
-        "licenseUrl": "https://commons.wikimedia.org/wiki/File:GPS_Block_IIIA.jpg"
-      }
-    },
-    {
       "id": "05-02-de-havilland-comet",
       "date": "05-02",
       "dateLabel": "2 May",
@@ -135,6 +108,33 @@
         "source": "https://commons.wikimedia.org/wiki/File:Paneur_grenz%C3%BCbergang_130609.JPG",
         "license": "Public domain",
         "licenseUrl": "https://commons.wikimedia.org/wiki/File:Paneur_grenz%C3%BCbergang_130609.JPG"
+      }
+    },
+    {
+      "id": "05-02-first-ascent",
+      "date": "05-02",
+      "dateLabel": "2 May",
+      "category": "world",
+      "categoryName": "World",
+      "year": 1964,
+      "title": "First ascent",
+      "body": "First ascent of Shishapangma, the fourteenth highest mountain in the world and the lowest of the Eight-thousanders.",
+      "source": {
+        "name": "Wikipedia · First ascent",
+        "url": "https://en.wikipedia.org/wiki/First_ascent",
+        "calendarUrl": "https://en.wikipedia.org/wiki/May_2",
+        "license": {
+          "name": "CC BY-SA 4.0",
+          "url": "https://creativecommons.org/licenses/by-sa/4.0/"
+        }
+      },
+      "image": {
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/0e/Spectrum514d.jpg/500px-Spectrum514d.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "alt": "Picture from the Wikipedia article on First ascent.",
+        "credit": "Rivergorge",
+        "source": "https://commons.wikimedia.org/wiki/File:Spectrum514d.jpg",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0"
       }
     }
   ]

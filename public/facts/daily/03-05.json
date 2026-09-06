@@ -57,17 +57,17 @@
       }
     },
     {
-      "id": "03-05-empire-of-japan",
+      "id": "03-05-british-raj",
       "date": "03-05",
       "dateLabel": "5 March",
       "category": "world",
       "categoryName": "World",
-      "year": 1942,
-      "title": "Empire of Japan",
-      "body": "Japanese forces capture Batavia, capital of Dutch East Indies, which is left undefended after the withdrawal of the KNIL garrison and Australian Blackforce battalion to Buitenzorg and Bandung.",
+      "year": 1931,
+      "title": "British Raj",
+      "body": "Gandhi–Irwin Pact is signed.",
       "source": {
-        "name": "Wikipedia · Empire of Japan",
-        "url": "https://en.wikipedia.org/wiki/Empire_of_Japan",
+        "name": "Wikipedia · British Raj",
+        "url": "https://en.wikipedia.org/wiki/British_Raj",
         "calendarUrl": "https://en.wikipedia.org/wiki/March_5",
         "license": {
           "name": "CC BY-SA 4.0",
@@ -75,12 +75,39 @@
         }
       },
       "image": {
-        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/1b/Flag_of_Japan_%281870%E2%80%931999%29.svg/500px-Flag_of_Japan_%281870%E2%80%931999%29.svg.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-        "alt": "Picture from the Wikipedia article on Empire of Japan.",
-        "credit": "kahusi",
-        "source": "https://commons.wikimedia.org/wiki/File:Flag_of_Japan_(1870%E2%80%931999).svg",
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/36/British_Indian_Empire_1909_Imperial_Gazetteer_of_India.jpg/500px-British_Indian_Empire_1909_Imperial_Gazetteer_of_India.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "alt": "Picture from the Wikipedia article on British Raj.",
+        "credit": "Edinburgh Geographical Institute",
+        "source": "https://commons.wikimedia.org/wiki/File:British_Indian_Empire_1909_Imperial_Gazetteer_of_India.jpg",
         "license": "Public domain",
-        "licenseUrl": "https://commons.wikimedia.org/wiki/File:Flag_of_Japan_(1870%E2%80%931999).svg"
+        "licenseUrl": "https://commons.wikimedia.org/wiki/File:British_Indian_Empire_1909_Imperial_Gazetteer_of_India.jpg"
+      }
+    },
+    {
+      "id": "03-05-henry-vii-of-england",
+      "date": "03-05",
+      "dateLabel": "5 March",
+      "category": "science",
+      "categoryName": "Science",
+      "year": 1496,
+      "title": "Henry VII of England",
+      "body": "King Henry VII of England issues letters patent to John Cabot and his sons, authorising them to explore unknown lands.",
+      "source": {
+        "name": "Wikipedia · Henry VII of England",
+        "url": "https://en.wikipedia.org/wiki/Henry_VII_of_England",
+        "calendarUrl": "https://en.wikipedia.org/wiki/March_5",
+        "license": {
+          "name": "CC BY-SA 4.0",
+          "url": "https://creativecommons.org/licenses/by-sa/4.0/"
+        }
+      },
+      "image": {
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/0d/Enrique_VII_de_Inglaterra%2C_por_un_artista_an%C3%B3nimo.jpg/500px-Enrique_VII_de_Inglaterra%2C_por_un_artista_an%C3%B3nimo.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "alt": "Picture from the Wikipedia article on Henry VII of England.",
+        "credit": "anonymous",
+        "source": "https://commons.wikimedia.org/wiki/File:Enrique_VII_de_Inglaterra,_por_un_artista_an%C3%B3nimo.jpg",
+        "license": "Public domain",
+        "licenseUrl": "https://commons.wikimedia.org/wiki/File:Enrique_VII_de_Inglaterra,_por_un_artista_an%C3%B3nimo.jpg"
       }
     },
     {
@@ -108,33 +135,6 @@
         "source": "https://commons.wikimedia.org/wiki/File:Prologo_in_cielo,_bozzetto_di_Carlo_Ferrario_per_Mefistofele_(1881)_-_Archivio_Storico_Ricordi_ICON004306.jpg",
         "license": "CC BY-SA 4.0",
         "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0"
-      }
-    },
-    {
-      "id": "03-05-george-westinghouse",
-      "date": "03-05",
-      "dateLabel": "5 March",
-      "category": "science",
-      "categoryName": "Science",
-      "year": 1872,
-      "title": "George Westinghouse",
-      "body": "George Westinghouse patents the air brake.",
-      "source": {
-        "name": "Wikipedia · George Westinghouse",
-        "url": "https://en.wikipedia.org/wiki/George_Westinghouse",
-        "calendarUrl": "https://en.wikipedia.org/wiki/March_5",
-        "license": {
-          "name": "CC BY-SA 4.0",
-          "url": "https://creativecommons.org/licenses/by-sa/4.0/"
-        }
-      },
-      "image": {
-        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/5b/George_Westinghouse_1884.png/500px-George_Westinghouse_1884.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-        "alt": "Picture from the Wikipedia article on George Westinghouse.",
-        "credit": "unknown",
-        "source": "https://commons.wikimedia.org/wiki/File:George_Westinghouse_1884.png",
-        "license": "Public domain",
-        "licenseUrl": "https://commons.wikimedia.org/wiki/File:George_Westinghouse_1884.png"
       }
     }
   ]

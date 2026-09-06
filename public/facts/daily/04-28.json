@@ -111,17 +111,17 @@
       }
     },
     {
-      "id": "04-28-stern-magazine",
+      "id": "04-28-wembley-stadium-1923",
       "date": "04-28",
       "dateLabel": "28 April",
-      "category": "curious",
-      "categoryName": "Curious",
-      "year": 1983,
-      "title": "Stern",
-      "body": "The West German news magazine Stern begins publishing excerpts from the purported diaries of Adolf Hitler, later revealed to be forgeries.",
+      "category": "sport",
+      "categoryName": "Sport",
+      "year": 1923,
+      "title": "Wembley Stadium",
+      "body": "Wembley Stadium is opened, named initially as the Empire Stadium.",
       "source": {
-        "name": "Wikipedia · Stern (magazine)",
-        "url": "https://en.wikipedia.org/wiki/Stern_(magazine)",
+        "name": "Wikipedia · Wembley Stadium (1923)",
+        "url": "https://en.wikipedia.org/wiki/Wembley_Stadium_(1923)",
         "calendarUrl": "https://en.wikipedia.org/wiki/April_28",
         "license": {
           "name": "CC BY-SA 4.0",
@@ -129,12 +129,12 @@
         }
       },
       "image": {
-        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/bb/Stern_Logo_2020.svg/500px-Stern_Logo_2020.svg.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-        "alt": "Picture from the Wikipedia article on Stern.",
-        "credit": "Gruner + Jahr",
-        "source": "https://commons.wikimedia.org/wiki/File:Stern_Logo_2020.svg",
-        "license": "Public domain",
-        "licenseUrl": "https://commons.wikimedia.org/wiki/File:Stern_Logo_2020.svg"
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c6/Wembley_Stadium_Twin_Towers.jpg/500px-Wembley_Stadium_Twin_Towers.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "alt": "Picture from the Wikipedia article on Wembley Stadium.",
+        "credit": "Merv Payne",
+        "source": "https://commons.wikimedia.org/wiki/File:Wembley_Stadium_Twin_Towers.jpg",
+        "license": "CC BY-SA 2.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0"
       }
     }
   ]

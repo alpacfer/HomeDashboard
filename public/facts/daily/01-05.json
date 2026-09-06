@@ -30,6 +30,33 @@
       }
     },
     {
+      "id": "01-05-alexander-dub-ek",
+      "date": "01-05",
+      "dateLabel": "5 January",
+      "category": "world",
+      "categoryName": "World",
+      "year": 1968,
+      "title": "Alexander Dubček",
+      "body": "Alexander Dubček comes to power in Czechoslovakia, effectively beginning the \"Prague Spring\".",
+      "source": {
+        "name": "Wikipedia · Alexander Dubček",
+        "url": "https://en.wikipedia.org/wiki/Alexander_Dub%C4%8Dek",
+        "calendarUrl": "https://en.wikipedia.org/wiki/January_5",
+        "license": {
+          "name": "CC BY-SA 4.0",
+          "url": "https://creativecommons.org/licenses/by-sa/4.0/"
+        }
+      },
+      "image": {
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c7/Portrait_of_Alexander_Dubcek_in_August_23rd%2C_1968_%28cropped%29.jpg/500px-Portrait_of_Alexander_Dubcek_in_August_23rd%2C_1968_%28cropped%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "alt": "Picture from the Wikipedia article on Alexander Dubček.",
+        "credit": "CTK",
+        "source": "https://commons.wikimedia.org/wiki/File:Portrait_of_Alexander_Dubcek_in_August_23rd,_1968_(cropped).jpg",
+        "license": "CC0",
+        "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/deed.en"
+      }
+    },
+    {
       "id": "01-05-richard-nixon",
       "date": "01-05",
       "dateLabel": "5 January",
@@ -81,33 +108,6 @@
         "source": "https://commons.wikimedia.org/wiki/File:Nellie_Tayloe_Ross.jpg",
         "license": "Public domain",
         "licenseUrl": "https://commons.wikimedia.org/wiki/File:Nellie_Tayloe_Ross.jpg"
-      }
-    },
-    {
-      "id": "01-05-tskhinvali",
-      "date": "01-05",
-      "dateLabel": "5 January",
-      "category": "world",
-      "categoryName": "World",
-      "year": 1991,
-      "title": "Tskhinvali",
-      "body": "Georgian forces enter Tskhinvali, the capital of South Ossetia, Georgia, opening the 1991–92 South Ossetia War.",
-      "source": {
-        "name": "Wikipedia · Tskhinvali",
-        "url": "https://en.wikipedia.org/wiki/Tskhinvali",
-        "calendarUrl": "https://en.wikipedia.org/wiki/January_5",
-        "license": {
-          "name": "CC BY-SA 4.0",
-          "url": "https://creativecommons.org/licenses/by-sa/4.0/"
-        }
-      },
-      "image": {
-        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/50/Tskhinval.jpg/500px-Tskhinval.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-        "alt": "Picture from the Wikipedia article on Tskhinvali.",
-        "credit": "Juliet",
-        "source": "https://commons.wikimedia.org/wiki/File:Tskhinval.jpg",
-        "license": "CC BY-SA 3.0",
-        "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0"
       }
     },
     {

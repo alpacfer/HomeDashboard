@@ -96,6 +96,33 @@
       }
     },
     {
+      "id": "02-05-shanghai-people-s-commune",
+      "date": "02-05",
+      "dateLabel": "5 February",
+      "category": "world",
+      "categoryName": "World",
+      "year": 1967,
+      "title": "January Storm",
+      "body": "The Shanghai People's Commune is formally proclaimed, with Yao Wenyuan and Zhang Chunqiao being appointed as its leaders.",
+      "source": {
+        "name": "Wikipedia · January Storm",
+        "url": "https://en.wikipedia.org/wiki/January_Storm",
+        "calendarUrl": "https://en.wikipedia.org/wiki/February_5",
+        "license": {
+          "name": "CC BY-SA 4.0",
+          "url": "https://creativecommons.org/licenses/by-sa/4.0/"
+        }
+      },
+      "image": {
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d9/1967-05_%E4%B8%8A%E6%B5%B7%E5%B7%9D%E6%B2%99%E5%8E%BF%E9%9D%A9%E5%91%BD%E5%A7%94%E5%91%98%E4%BC%9A%E6%88%90%E7%AB%8B.jpg/500px-1967-05_%E4%B8%8A%E6%B5%B7%E5%B7%9D%E6%B2%99%E5%8E%BF%E9%9D%A9%E5%91%BD%E5%A7%94%E5%91%98%E4%BC%9A%E6%88%90%E7%AB%8B.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "alt": "Picture from the Wikipedia article on January Storm.",
+        "credit": "Wikimedia Commons",
+        "source": "https://commons.wikimedia.org/wiki/File:1967-05_%E4%B8%8A%E6%B5%B7%E5%B7%9D%E6%B2%99%E5%8E%BF%E9%9D%A9%E5%91%BD%E5%A7%94%E5%91%98%E4%BC%9A%E6%88%90%E7%AB%8B.jpg",
+        "license": "Public domain",
+        "licenseUrl": "https://commons.wikimedia.org/wiki/File:1967-05_%E4%B8%8A%E6%B5%B7%E5%B7%9D%E6%B2%99%E5%8E%BF%E9%9D%A9%E5%91%BD%E5%A7%94%E5%91%98%E4%BC%9A%E6%88%90%E7%AB%8B.jpg"
+      }
+    },
+    {
       "id": "02-05-papal-mass",
       "date": "02-05",
       "dateLabel": "5 February",
@@ -118,33 +145,6 @@
         "alt": "Picture from the Wikipedia article on Papal Mass.",
         "credit": "Cavasindavide1995",
         "source": "https://commons.wikimedia.org/wiki/File:Benedictus_XVI_fanon_2013.jpg",
-        "license": "CC BY-SA 4.0",
-        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0"
-      }
-    },
-    {
-      "id": "02-05-hermitage-museum",
-      "date": "02-05",
-      "dateLabel": "5 February",
-      "category": "culture",
-      "categoryName": "Culture",
-      "year": 1852,
-      "title": "Hermitage Museum",
-      "body": "The New Hermitage Museum in Saint Petersburg, Russia, one of the largest and oldest museums in the world, opens to the public.",
-      "source": {
-        "name": "Wikipedia · Hermitage Museum",
-        "url": "https://en.wikipedia.org/wiki/Hermitage_Museum",
-        "calendarUrl": "https://en.wikipedia.org/wiki/February_5",
-        "license": {
-          "name": "CC BY-SA 4.0",
-          "url": "https://creativecommons.org/licenses/by-sa/4.0/"
-        }
-      },
-      "image": {
-        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/16/5174-3._St._Petersburg._Greater_Hermitage.jpg/500px-5174-3._St._Petersburg._Greater_Hermitage.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-        "alt": "Picture from the Wikipedia article on Hermitage Museum.",
-        "credit": "GAlexandrova",
-        "source": "https://commons.wikimedia.org/wiki/File:5174-3._St._Petersburg._Greater_Hermitage.jpg",
         "license": "CC BY-SA 4.0",
         "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0"
       }

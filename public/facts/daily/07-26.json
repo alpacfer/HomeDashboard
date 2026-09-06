@@ -96,6 +96,33 @@
       }
     },
     {
+      "id": "07-26-francis-drake",
+      "date": "07-26",
+      "dateLabel": "26 July",
+      "category": "science",
+      "categoryName": "Science",
+      "year": 1579,
+      "title": "Francis Drake",
+      "body": "Francis Drake, the English explorer, discovers a \"fair and good\" bay on the coast of the Pacific Northwest (probably Oregon or Washington).",
+      "source": {
+        "name": "Wikipedia · Francis Drake",
+        "url": "https://en.wikipedia.org/wiki/Francis_Drake",
+        "calendarUrl": "https://en.wikipedia.org/wiki/July_26",
+        "license": {
+          "name": "CC BY-SA 4.0",
+          "url": "https://creativecommons.org/licenses/by-sa/4.0/"
+        }
+      },
+      "image": {
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/7d/Gheeraerts_Francis_Drake_1591.jpg/500px-Gheeraerts_Francis_Drake_1591.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "alt": "Picture from the Wikipedia article on Francis Drake.",
+        "credit": "Marcus Gheeraerts the Younger",
+        "source": "https://commons.wikimedia.org/wiki/File:Gheeraerts_Francis_Drake_1591.jpg",
+        "license": "Public domain",
+        "licenseUrl": "https://commons.wikimedia.org/wiki/File:Gheeraerts_Francis_Drake_1591.jpg"
+      }
+    },
+    {
       "id": "07-26-history-of-women-s-cricket",
       "date": "07-26",
       "dateLabel": "26 July",
@@ -120,33 +147,6 @@
         "source": "https://commons.wikimedia.org/wiki/File:Test_cricket_-_women_-_1935.jpg",
         "license": "Public domain",
         "licenseUrl": "https://commons.wikimedia.org/wiki/File:Test_cricket_-_women_-_1935.jpg"
-      }
-    },
-    {
-      "id": "07-26-syncom",
-      "date": "07-26",
-      "dateLabel": "26 July",
-      "category": "space",
-      "categoryName": "Space",
-      "year": 1963,
-      "title": "Syncom",
-      "body": "Syncom 2, the world's first geosynchronous satellite, is launched from Cape Canaveral on a Delta B booster.",
-      "source": {
-        "name": "Wikipedia · Syncom",
-        "url": "https://en.wikipedia.org/wiki/Syncom",
-        "calendarUrl": "https://en.wikipedia.org/wiki/July_26",
-        "license": {
-          "name": "CC BY-SA 4.0",
-          "url": "https://creativecommons.org/licenses/by-sa/4.0/"
-        }
-      },
-      "image": {
-        "src": "https://upload.wikimedia.org/wikipedia/commons/8/80/Syncom_colour.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
-        "alt": "Picture from the Wikipedia article on Syncom.",
-        "credit": "Wikimedia Commons",
-        "source": "https://commons.wikimedia.org/wiki/File:Syncom_colour.jpg",
-        "license": "Public domain",
-        "licenseUrl": "https://commons.wikimedia.org/wiki/File:Syncom_colour.jpg"
       }
     }
   ]

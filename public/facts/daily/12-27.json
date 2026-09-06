@@ -111,17 +111,17 @@
       }
     },
     {
-      "id": "12-27-aircraft-carrier",
+      "id": "12-27-gaza-war-2008-09",
       "date": "12-27",
       "dateLabel": "27 December",
       "category": "world",
       "categoryName": "World",
-      "year": 1922,
-      "title": "Aircraft carrier",
-      "body": "becomes the first purpose-built aircraft carrier to be commissioned in the world.",
+      "year": 2008,
+      "title": "Gaza War",
+      "body": "Israel launches three-week operation on Gaza.",
       "source": {
-        "name": "Wikipedia · Aircraft carrier",
-        "url": "https://en.wikipedia.org/wiki/Aircraft_carrier",
+        "name": "Wikipedia · Gaza War (2008–2009)",
+        "url": "https://en.wikipedia.org/wiki/Gaza_War_(2008%E2%80%932009)",
         "calendarUrl": "https://en.wikipedia.org/wiki/December_27",
         "license": {
           "name": "CC BY-SA 4.0",
@@ -129,12 +129,12 @@
         }
       },
       "image": {
-        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c6/Fleet_5_nations.jpg/500px-Fleet_5_nations.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-        "alt": "Picture from the Wikipedia article on Aircraft carrier.",
-        "credit": "Wikimedia Commons",
-        "source": "https://commons.wikimedia.org/wiki/File:Fleet_5_nations.jpg",
-        "license": "Public domain",
-        "licenseUrl": "https://commons.wikimedia.org/wiki/File:Fleet_5_nations.jpg"
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/7f/Cast_lead_map.png/500px-Cast_lead_map.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "alt": "Picture from the Wikipedia article on Gaza War.",
+        "credit": "The Great Mule of Eupatoria",
+        "source": "https://commons.wikimedia.org/wiki/File:Cast_lead_map.png",
+        "license": "CC0",
+        "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/deed.en"
       }
     }
   ]

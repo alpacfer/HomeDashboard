@@ -30,33 +30,6 @@
       }
     },
     {
-      "id": "12-18-heavy-bomber",
-      "date": "12-18",
-      "dateLabel": "18 December",
-      "category": "curious",
-      "categoryName": "Curious",
-      "year": 1981,
-      "title": "Heavy bomber",
-      "body": "First flight of the Russian heavy strategic bomber Tu-160, the world's largest combat aircraft, largest supersonic aircraft and largest variable-sweep wing aircraft built.",
-      "source": {
-        "name": "Wikipedia · Heavy bomber",
-        "url": "https://en.wikipedia.org/wiki/Heavy_bomber",
-        "calendarUrl": "https://en.wikipedia.org/wiki/December_18",
-        "license": {
-          "name": "CC BY-SA 4.0",
-          "url": "https://creativecommons.org/licenses/by-sa/4.0/"
-        }
-      },
-      "image": {
-        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d3/B-29_in_flight.jpg/500px-B-29_in_flight.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-        "alt": "Picture from the Wikipedia article on Heavy bomber.",
-        "credit": "Wikimedia Commons",
-        "source": "https://commons.wikimedia.org/wiki/File:B-29_in_flight.jpg",
-        "license": "Public domain",
-        "licenseUrl": "https://commons.wikimedia.org/wiki/File:B-29_in_flight.jpg"
-      }
-    },
-    {
       "id": "12-18-first-impeachment-of-donald-trump",
       "date": "12-18",
       "dateLabel": "18 December",
@@ -135,6 +108,33 @@
         "source": "https://commons.wikimedia.org/wiki/File:Atlas-B_with_Score_payload.jpg",
         "license": "Public domain",
         "licenseUrl": "https://commons.wikimedia.org/wiki/File:Atlas-B_with_Score_payload.jpg"
+      }
+    },
+    {
+      "id": "12-18-soyuz-13",
+      "date": "12-18",
+      "dateLabel": "18 December",
+      "category": "space",
+      "categoryName": "Space",
+      "year": 1973,
+      "title": "Soyuz 13",
+      "body": "Soyuz 13, crewed by cosmonauts Valentin Lebedev and Pyotr Klimuk, is launched from Baikonur in the Soviet Union.",
+      "source": {
+        "name": "Wikipedia · Soyuz 13",
+        "url": "https://en.wikipedia.org/wiki/Soyuz_13",
+        "calendarUrl": "https://en.wikipedia.org/wiki/December_18",
+        "license": {
+          "name": "CC BY-SA 4.0",
+          "url": "https://creativecommons.org/licenses/by-sa/4.0/"
+        }
+      },
+      "image": {
+        "src": "https://upload.wikimedia.org/wikipedia/commons/4/45/Vimpel_%27Diamond%27.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+        "alt": "Picture from the Wikipedia article on Soyuz 13.",
+        "credit": "Soviet space program",
+        "source": "https://commons.wikimedia.org/wiki/File:Vimpel_%27Diamond%27.jpg",
+        "license": "Public domain",
+        "licenseUrl": "https://commons.wikimedia.org/wiki/File:Vimpel_%27Diamond%27.jpg"
       }
     }
   ]

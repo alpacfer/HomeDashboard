@@ -84,6 +84,33 @@
       }
     },
     {
+      "id": "09-17-civic-arena-pittsburgh",
+      "date": "09-17",
+      "dateLabel": "17 September",
+      "category": "sport",
+      "categoryName": "Sport",
+      "year": 1961,
+      "title": "Civic Arena",
+      "body": "The world's first retractable roof stadium, the Civic Arena, opens in Pittsburgh, Pennsylvania.",
+      "source": {
+        "name": "Wikipedia · Civic Arena (Pittsburgh)",
+        "url": "https://en.wikipedia.org/wiki/Civic_Arena_(Pittsburgh)",
+        "calendarUrl": "https://en.wikipedia.org/wiki/September_17",
+        "license": {
+          "name": "CC BY-SA 4.0",
+          "url": "https://creativecommons.org/licenses/by-sa/4.0/"
+        }
+      },
+      "image": {
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/df/Pittsburgh-pennsylvania-mellon-arena-2007.jpg/500px-Pittsburgh-pennsylvania-mellon-arena-2007.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "alt": "Picture from the Wikipedia article on Civic Arena.",
+        "credit": "Derek Jensen",
+        "source": "https://commons.wikimedia.org/wiki/File:Pittsburgh-pennsylvania-mellon-arena-2007.jpg",
+        "license": "Public domain",
+        "licenseUrl": "https://commons.wikimedia.org/wiki/File:Pittsburgh-pennsylvania-mellon-arena-2007.jpg"
+      }
+    },
+    {
       "id": "09-17-fourpeaked-mountain",
       "date": "09-17",
       "dateLabel": "17 September",
@@ -108,33 +135,6 @@
         "source": "https://commons.wikimedia.org/wiki/File:Fourpeaked-fumaroles-cyrus-read1.JPG",
         "license": "Public domain",
         "licenseUrl": "https://commons.wikimedia.org/wiki/File:Fourpeaked-fumaroles-cyrus-read1.JPG"
-      }
-    },
-    {
-      "id": "09-17-civic-arena-pittsburgh",
-      "date": "09-17",
-      "dateLabel": "17 September",
-      "category": "world",
-      "categoryName": "World",
-      "year": 1961,
-      "title": "Civic Arena",
-      "body": "The world's first retractable roof stadium, the Civic Arena, opens in Pittsburgh, Pennsylvania.",
-      "source": {
-        "name": "Wikipedia · Civic Arena (Pittsburgh)",
-        "url": "https://en.wikipedia.org/wiki/Civic_Arena_(Pittsburgh)",
-        "calendarUrl": "https://en.wikipedia.org/wiki/September_17",
-        "license": {
-          "name": "CC BY-SA 4.0",
-          "url": "https://creativecommons.org/licenses/by-sa/4.0/"
-        }
-      },
-      "image": {
-        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/df/Pittsburgh-pennsylvania-mellon-arena-2007.jpg/500px-Pittsburgh-pennsylvania-mellon-arena-2007.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-        "alt": "Picture from the Wikipedia article on Civic Arena.",
-        "credit": "Derek Jensen",
-        "source": "https://commons.wikimedia.org/wiki/File:Pittsburgh-pennsylvania-mellon-arena-2007.jpg",
-        "license": "Public domain",
-        "licenseUrl": "https://commons.wikimedia.org/wiki/File:Pittsburgh-pennsylvania-mellon-arena-2007.jpg"
       }
     }
   ]

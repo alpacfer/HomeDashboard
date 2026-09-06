@@ -359,3 +359,67 @@ test('a reserve entry is a last resort, never a way to win on variety', () => {
   // last one — but it never displaces a measured entry.
   assert.equal(chooseFacts(measured, { reserve, count: 2 }).some(fact => fact.subject === 'Birefringence'), false);
 });
+
+// Every case below is one the calendar actually published. They are here
+// because reading the wall on 6 September 2026 turned up a war filed under
+// Sport, a genocide that no pattern matched, and the day's one genuine sports
+// record sitting in the catch-all with a 45-point penalty.
+
+test('a war named after a sport is not a sport', () => {
+  // "Operation Grand Slam" and the RAF's ten-tonne "Grand Slam" bomb both
+  // reached the display as Sport, on the strength of the two words alone.
+  const war = "India retaliates following Pakistan's Operation Grand Slam which results in the Indo-Pakistani War of 1965 that ends in a stalemate followed by the signing of the Tashkent Declaration.";
+  const bomb = 'The R.A.F. drop the Grand Slam bomb in action for the first time, on the Bielefeld viaduct.';
+  assert.notEqual(categorize(war).id, 'sport');
+  assert.notEqual(categorize(bomb).id, 'sport');
+  // And both are grim, so neither should have been in the pool at all.
+  assert.equal(isGrim(war), true);
+  assert.equal(isGrim(bomb), true);
+});
+
+test('a real grand slam is still a sport', () => {
+  assert.equal(categorize('Rod Laver completes the calendar grand slam, winning all four major titles in one year.').id, 'sport');
+  assert.equal(categorize('Serena Williams wins her 23rd grand slam singles title at the Australian Open.').id, 'sport');
+});
+
+test('a sports record that never names its sport still lands in sport', () => {
+  // Cal Ripken's 2,131st consecutive game says "consecutive game" and "a
+  // record" and nothing else. It scored as World, at -45, on the same card as
+  // the war above at +28.
+  const ripken = 'Cal Ripken Jr. of the Baltimore Orioles plays in his 2,131st consecutive game, breaking a record that had stood for 56 years.';
+  assert.equal(categorize(ripken).id, 'sport');
+  assert.ok(categorize(ripken).boost > 0, 'and is not carrying the catch-all penalty');
+});
+
+test('a hyphenated war is a war', () => {
+  // \w does not match a hyphen, so the old pattern caught Vietnam and Korea
+  // and let these six through.
+  for (const war of [
+    'the Indo-Pakistani War of 1965 ends in a stalemate',
+    'The Six-Day War ends.',
+    'the Franco-Prussian War begins',
+    'the Sino-Indian War',
+    'the Russo-Japanese War',
+    'Somalia and Ethiopia sign a truce to end the Ethio-Somali War.',
+  ]) assert.equal(isGrim(war), true, war);
+});
+
+test('an atrocity phrased as an administrative outcome is still an atrocity', () => {
+  // The Anfal campaign reached the wall as "major destructions and major
+  // civilian losses" -- no massacre, no genocide, no death toll, no match.
+  const anfal = "End of the last stage of the Anfal campaign of Ba'athist Iraq against its Kurdish population, which resulted in major destructions and major civilian losses.";
+  assert.equal(isGrim(anfal), true);
+});
+
+test('tightening the filter did not take the calendar with it', () => {
+  // The entries this display exists for, checked against the additions above.
+  for (const good of [
+    'Cal Ripken Jr. of the Baltimore Orioles plays in his 2,131st consecutive game, breaking a record that had stood for 56 years.',
+    "The first Minotaur V rocket is launched from the Mid-Atlantic Regional Spaceport on Wallops Island, carrying NASA's LADEE spacecraft.",
+    'The first video is uploaded to YouTube, titled Me at the zoo.',
+    'Steamboat Willie enters the public domain in the United States.',
+    'Apple introduces the first iPhone.',
+    'The Beatles release their album Abbey Road.',
+    'Deep Blue beats Garry Kasparov in a six-game match, the first computer to beat a world champion.',
+  ]) assert.equal(isGrim(good), false, good);
+});

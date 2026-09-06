@@ -57,33 +57,6 @@
       }
     },
     {
-      "id": "03-14-r-a-f",
-      "date": "03-14",
-      "dateLabel": "14 March",
-      "category": "sport",
-      "categoryName": "Sport",
-      "year": 1945,
-      "title": "Royal Air Force",
-      "body": "The R.A.F. drop the Grand Slam bomb in action for the first time, on a railway viaduct near Bielefeld, Germany.",
-      "source": {
-        "name": "Wikipedia · Royal Air Force",
-        "url": "https://en.wikipedia.org/wiki/Royal_Air_Force",
-        "calendarUrl": "https://en.wikipedia.org/wiki/March_14",
-        "license": {
-          "name": "CC BY-SA 4.0",
-          "url": "https://creativecommons.org/licenses/by-sa/4.0/"
-        }
-      },
-      "image": {
-        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f9/RAF-Badge.svg/500px-RAF-Badge.svg.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-        "alt": "Picture from the Wikipedia article on Royal Air Force.",
-        "credit": "Royal Air Force",
-        "source": "https://commons.wikimedia.org/wiki/File:RAF-Badge.svg",
-        "license": "Public domain",
-        "licenseUrl": "https://commons.wikimedia.org/wiki/File:RAF-Badge.svg"
-      }
-    },
-    {
       "id": "03-14-alam-ara",
       "date": "03-14",
       "dateLabel": "14 March",
@@ -108,6 +81,33 @@
         "source": "https://commons.wikimedia.org/wiki/File:Alam_Ara_poster,_1931.jpg",
         "license": "Public domain",
         "licenseUrl": "https://commons.wikimedia.org/wiki/File:Alam_Ara_poster,_1931.jpg"
+      }
+    },
+    {
+      "id": "03-14-escondida",
+      "date": "03-14",
+      "dateLabel": "14 March",
+      "category": "world",
+      "categoryName": "World",
+      "year": 1991,
+      "title": "Escondida",
+      "body": "Escondida in Chile's Atacama Desert – which was to become the worlds most productive copper mine – is officially inaugurated.",
+      "source": {
+        "name": "Wikipedia · Escondida",
+        "url": "https://en.wikipedia.org/wiki/Escondida",
+        "calendarUrl": "https://en.wikipedia.org/wiki/March_14",
+        "license": {
+          "name": "CC BY-SA 4.0",
+          "url": "https://creativecommons.org/licenses/by-sa/4.0/"
+        }
+      },
+      "image": {
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/75/Copper_mines_in_Chile_-_3.PNG/500px-Copper_mines_in_Chile_-_3.PNG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "alt": "Picture from the Wikipedia article on Escondida.",
+        "credit": "USGS",
+        "source": "https://commons.wikimedia.org/wiki/File:Copper_mines_in_Chile_-_3.PNG",
+        "license": "Public domain",
+        "licenseUrl": "https://commons.wikimedia.org/wiki/File:Copper_mines_in_Chile_-_3.PNG"
       }
     },
     {
