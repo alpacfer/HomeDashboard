@@ -41,8 +41,8 @@ import { moonPhase, skyArc, type MoonPhase, type SkyArc } from './sky-arc';
 import { FORECAST_LATITUDE, FORECAST_LONGITUDE, solarElevation, type Band, type ConditionKind } from './weather';
 
 export const SKY_LIGHTS = ['night', 'dawn', 'day', 'dusk'] as const;
-export const SKY_WEATHERS = ['clear', 'partly', 'cloudy', 'overcast', 'fog', 'rain', 'sleet', 'snow'] as const;
-export const SKY_FALLS = ['none', 'light', 'moderate', 'heavy'] as const;
+const SKY_WEATHERS = ['clear', 'partly', 'cloudy', 'overcast', 'fog', 'rain', 'sleet', 'snow'] as const;
+const SKY_FALLS = ['none', 'light', 'moderate', 'heavy'] as const;
 // Five moons, by the fraction of the disc lit. Named rather than numeric
 // because these are the shapes worth looking at, and a phase written 0.7734
 // in a URL says nothing about what should be on the card.

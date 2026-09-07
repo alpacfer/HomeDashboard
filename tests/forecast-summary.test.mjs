@@ -11,7 +11,7 @@ function hours(count = 30, shape = () => ({})) {
     timestamp: START + index * 3600000,
     temperature: 15 + index * 0.5,
     cloud: 1, visibility: 50000,
-    rain: 0, snow: 0, graupel: 0, precipitation: 0, precipitationType: null,
+    rain: 0, snow: 0, precipitation: 0,
     ...shape(index),
   }));
 }

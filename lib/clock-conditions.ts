@@ -18,6 +18,7 @@
 
 import type { MoodContext } from './clock-tenant';
 import type { Band, ConditionKind } from './weather';
+import { copenhagenHour } from './copenhagen';
 
 export type Conditions = {
   temperature: number | null;
@@ -26,14 +27,9 @@ export type Conditions = {
   band: Band | null;
 };
 
-const partsFormatter = new Intl.DateTimeFormat('en-US', {
-  timeZone: 'Europe/Copenhagen', hour: 'numeric', hourCycle: 'h23',
-});
-
 export function moodContext(now: Date, conditions: Conditions | null): MoodContext {
-  const parts = Object.fromEntries(partsFormatter.formatToParts(now).map(part => [part.type, part.value]));
   return {
-    hour: Number(parts.hour) % 24,
+    hour: copenhagenHour(now),
     temperature: conditions?.temperature ?? null,
     wet: conditions?.wet ?? false,
   };

@@ -47,7 +47,7 @@
 
 import { type WeatherHour } from './weather';
 
-export const GOOGLE_WEATHER_API = 'https://weather.googleapis.com/v1/';
+const GOOGLE_WEATHER_API = 'https://weather.googleapis.com/v1/';
 
 // One page of each, so neither ever costs two calls. See the arithmetic above.
 export const GOOGLE_HOURS = 24;
@@ -180,7 +180,7 @@ type ForecastHour = {
 };
 type HoursResponse = { forecastHours?: unknown };
 
-export function validGoogleHours(value: unknown): value is { forecastHours: ForecastHour[] } {
+function validGoogleHours(value: unknown): value is { forecastHours: ForecastHour[] } {
   const hours = (value as HoursResponse | null)?.forecastHours;
   return Array.isArray(hours) && hours.length > 0 && hours.every(hour => hour && typeof hour === 'object');
 }
@@ -230,7 +230,7 @@ type ForecastDay = {
 };
 type DaysResponse = { forecastDays?: unknown };
 
-export function validGoogleDays(value: unknown): value is { forecastDays: ForecastDay[] } {
+function validGoogleDays(value: unknown): value is { forecastDays: ForecastDay[] } {
   const days = (value as DaysResponse | null)?.forecastDays;
   return Array.isArray(days) && days.length > 0 && days.every(day => day && typeof day === 'object');
 }

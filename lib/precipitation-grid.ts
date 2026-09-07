@@ -87,7 +87,7 @@ const CHARS_PER_POINT = 2 * (3 + COORDINATE_DECIMALS + 3);
 // be three hours apart or longer over the quiet hours, so the sequence needs
 // slack behind the six that are shown.
 export const GRID_HOURS = 6;
-export const GRID_FETCH_HOURS = 12;
+const GRID_FETCH_HOURS = 12;
 // 15-minute steps over the forecast window. Free, since a request is weighed
 // by its coordinates and never by its steps (lib/open-meteo-quota.ts), and
 // finer than the data actually is: see the header, and lib/precipitation-flow.ts
@@ -359,8 +359,8 @@ export function timelineTicks(frames: GridFrame[]): TimelineTick[] {
 // spending requests on an audience of nobody, not to blank the map. Requests
 // resume at 06:00 Copenhagen time, and the twelve-hour window means a run
 // fetched in the evening still has frames ahead of now when they do.
-export const QUIET_FROM_HOUR = 23;
-export const QUIET_UNTIL_HOUR = 6;
+const QUIET_FROM_HOUR = 23;
+const QUIET_UNTIL_HOUR = 6;
 
 export function isQuietHours(timestamp: number) {
   const hour = copenhagenHour(timestamp);

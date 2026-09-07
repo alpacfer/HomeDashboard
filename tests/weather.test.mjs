@@ -22,7 +22,7 @@ test('a described hour is wet exactly when its band is not dry', () => {
     const condition = describeHour(hour({ rain: millimetres, precipitation: millimetres }));
     assert.equal(condition.wet, millimetres >= WET_MM, millimetres + ' mm classified inconsistently');
     assert.equal(condition.wet, condition.band !== 'dry');
-    assert.equal(['drizzle', 'rain', 'heavy-rain', 'sleet', 'snow', 'hail'].includes(condition.kind), condition.wet);
+    assert.equal(['drizzle', 'rain', 'heavy-rain', 'sleet', 'snow'].includes(condition.kind), condition.wet);
   }
 });
 

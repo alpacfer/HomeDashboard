@@ -44,7 +44,7 @@ export const MAX_FLOW_KMH = 75;
 // than standing still does. Without the margin a nearly uniform field matches
 // almost equally well at every offset, and the map would set off along a
 // different vector every hour on the strength of rounding.
-export const FLOW_MARGIN = 0.92;
+const FLOW_MARGIN = 0.92;
 
 function sameField(a: number[], b: number[]) {
   return a.length === b.length && a.every((value, index) => value === b[index]);

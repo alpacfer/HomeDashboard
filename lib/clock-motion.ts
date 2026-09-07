@@ -1,13 +1,10 @@
 // Spelt out in full: the widget shows one date and it is read from across a
 // room. Assembled from parts rather than formatted whole so the order stays
 // "Friday 5 September" whatever en-GB decides to do with a weekday.
-import { copenhagenClock } from './copenhagen';
+import { copenhagenClock, copenhagenDayKey } from './copenhagen';
 
 const dateFormatter = new Intl.DateTimeFormat('en-GB', {
   timeZone: 'Europe/Copenhagen', weekday: 'long', day: 'numeric', month: 'long',
-});
-const dateTimeFormatter = new Intl.DateTimeFormat('en-GB', {
-  timeZone: 'Europe/Copenhagen', year: 'numeric', month: '2-digit', day: '2-digit',
 });
 
 export type ClockFrame = { text: string; minute: number | null; previous: string | null };
@@ -16,11 +13,10 @@ export type ClockDate = { label: string; dateTime?: string };
 /** Format the display date in the dashboard's fixed Copenhagen time zone. */
 export function clockDate(now: Date | null): ClockDate {
   if (!now) return { label: '—' };
-  const parts = Object.fromEntries(dateTimeFormatter.formatToParts(now).map(part => [part.type, part.value]));
   const spelt = Object.fromEntries(dateFormatter.formatToParts(now).map(part => [part.type, part.value]));
   return {
     label: `${spelt.weekday} ${spelt.day} ${spelt.month}`,
-    dateTime: `${parts.year}-${parts.month}-${parts.day}`,
+    dateTime: copenhagenDayKey(now),
   };
 }
 

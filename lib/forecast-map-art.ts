@@ -11,7 +11,7 @@ export const MAP_ART_BOUNDS: MapBounds = {
   north: 55.989308283304226,
   south: 55.61573444170693,
 };
-export const MAP_ART_URL = '/maps/north-zealand-storybook.webp';
+const MAP_ART_URL = '/maps/north-zealand-storybook.webp';
 export const MAP_ART_PLATES: Record<SkyLight, string> = {
   day: MAP_ART_URL,
   dawn: '/maps/north-zealand-dawn.webp',

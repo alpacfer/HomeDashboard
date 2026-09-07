@@ -20,10 +20,10 @@
 import { WEEK_DAYS } from './daily-forecast';
 import { FORECAST_LATITUDE, FORECAST_LONGITUDE, type WeatherHour } from './weather';
 
+import { copenhagenDayKey, copenhagenHour } from './copenhagen';
+
 // Long enough to fill the eighteen-hour ribbon and leave the panel a margin
 // past its end, so the window never runs short at the top of an hour.
-import { copenhagenHour } from './copenhagen';
-
 const DEMO_HOURS = 30;
 const HOUR_MS = 3_600_000;
 
@@ -42,9 +42,6 @@ const SPELL_START = 6;
 const SPELL_MM = [0.4, 1.6, 3.2, 1.1, 0.2];
 
 
-const dateFormatter = new Intl.DateTimeFormat('en-CA', {
-  timeZone: 'Europe/Copenhagen', year: 'numeric', month: '2-digit', day: '2-digit',
-});
 
 
 
@@ -92,7 +89,7 @@ const DAY_CLOUD = [22, 45, 78, 94, 61, 18, 30, 70];
  * strip's own parser and validator run exactly as they do on a live answer.
  */
 export function demoDailyPayload(now: Date): unknown {
-  const start = Date.parse(dateFormatter.format(now) + 'T00:00:00Z');
+  const start = Date.parse(copenhagenDayKey(now) + 'T00:00:00Z');
   const length = WEEK_DAYS + 1;
   const at = <T,>(values: readonly T[], index: number): T => {
     const value = values[index % values.length];
@@ -103,7 +100,7 @@ export function demoDailyPayload(now: Date): unknown {
     latitude: FORECAST_LATITUDE,
     longitude: FORECAST_LONGITUDE,
     daily: {
-      time: Array.from({ length }, (unused, index) => dateFormatter.format(new Date(start + index * 86_400_000))),
+      time: Array.from({ length }, (unused, index) => copenhagenDayKey(start + index * 86_400_000)),
       temperature_2m_max: Array.from({ length }, (unused, index) => at(DAY_HIGHS, index)),
       temperature_2m_min: Array.from({ length }, (unused, index) => at(DAY_LOWS, index)),
       precipitation_sum: Array.from({ length }, (unused, index) => at(DAY_RAIN, index)),
