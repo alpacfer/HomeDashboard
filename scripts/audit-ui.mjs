@@ -19,6 +19,17 @@
 //   --shots                Also write a PNG per scene under screenshots/audit/,
 //                          from the same page loads. This is the fast way to
 //                          re-capture everything after a layout change.
+//   --save-baseline        Remember where every element is, per scene, in
+//                          screenshots/audit/baseline.json.
+//   --baseline             Report what moved since --save-baseline: every
+//                          text-bearing element and panel whose box shifted
+//                          or resized by more than a pixel, largest first.
+//                          This is the answer to "does this change move
+//                          anything else on the page?", which a screenshot
+//                          answers only by eye. The transport scene is live
+//                          data, so its rows can move on their own; the
+//                          transport-marked and fact scenes use the synthetic
+//                          board and are the stable ones.
 //   --min-font <px>        Legibility floor. Default 11.
 //   --contrast <ratio>     Contrast floor for ordinary text. Default 4.5;
 //                          large text is held to 3, as WCAG does.
@@ -44,10 +55,10 @@
 // Exit code is 1 if anything is reported at error level, so this can gate a
 // change the way the other checks do.
 
-import { mkdir, writeFile } from 'node:fs/promises';
+import { mkdir, readFile, writeFile } from 'node:fs/promises';
 import path from 'node:path';
 import { fileURLToPath } from 'node:url';
-import { findChrome, launchChrome, openPage, pageUrl, takeUrlFlag, waitForServer } from './lib/browser.mjs';
+import { findChrome, launchChrome, openPage, pageUrl, printHelp, takeBrowserFlag, takeUrlFlag, waitForServer } from './lib/browser.mjs';
 
 const ROOT = path.resolve(path.dirname(fileURLToPath(import.meta.url)), '..');
 
@@ -102,20 +113,25 @@ function parseArgs(argv) {
     const [flag, inline] = arg.includes('=') && arg.startsWith('--') && !arg.startsWith('--url') ? arg.split(/=(.*)/s) : [arg, undefined];
     const value = () => inline ?? next();
     switch (flag) {
-      case '--width': options.width = Number(value()); break;
-      case '--height': options.height = Number(value()); break;
       case '--min-font': options.minFont = Number(value()); break;
       case '--contrast': options.contrast = Number(value()); break;
-      case '--reduced-motion': options.reducedMotion = true; break;
-      case '--wait': options.wait = Number(value()); break;
       case '--shots': options.shots = true; break;
+      case '--save-baseline': options.saveBaseline = true; break;
+      case '--baseline': options.baseline = true; break;
       case '--all': options.all = true; break;
       case '--json': options.json = true; break;
-      case '--console': options.console = true; break;
-      case '--chrome': options.chrome = value(); break;
-      case '--help': case '-h': options.help = true; break;
+      // Here --scene picks rows of the matrix, and is repeatable. It must be
+      // taken before the shared URL flags, where --scene is the page's own
+      // single-valued flag: routed there, `--scene map` set options.scene,
+      // options.scenes stayed empty, and "one scene" audited all seven.
+      case '--scene': {
+        const name = value();
+        if (!MATRIX.some(scene => scene.name === name)) throw new Error('--scene ' + name + ' is not in the matrix. Known scenes: ' + MATRIX.map(scene => scene.name).join(', ') + '.');
+        options.scenes.push(name);
+        break;
+      }
       default:
-        if (takeUrlFlag(flag, options, value, arg)) break;
+        if (takeBrowserFlag(flag, options, value) || takeUrlFlag(flag, options, value, arg)) break;
         throw new Error('Unknown option ' + arg + '. See the header of scripts/audit-ui.mjs.');
     }
   }
@@ -274,14 +290,67 @@ const AUDIT = (singleLine, exempt, minFont, contrastFloor) => `(() => {
     if (node && shown(node) && !text(node)) add('error', 'empty', node, selector + ' rendered with no text at all');
   }
 
-  return JSON.stringify(problems);
+  // 7. Where everything is, for --baseline: every element that carries its
+  //    own words, and the panels they sit in, keyed by a short path plus an
+  //    ordinal when several share one. The Tenant is left out because it
+  //    moves on its own. This is not a fault list; it is the census that
+  //    --baseline compares two runs of, to answer "did this change move
+  //    anything else?", which nothing else here can.
+  const LANDMARKS = ${JSON.stringify(LANDMARKS)};
+  const census = [];
+  const ordinals = new Map();
+  const round = value => Math.round(value * 10) / 10;
+  for (const node of all) {
+    if (node.closest('.tenant')) continue;
+    if (!hasOwnText(node) && !LANDMARKS.some(selector => node.matches(selector))) continue;
+    const box = boxes.get(node);
+    if (!box.width && !box.height) continue;
+    const base = describe(node);
+    const ordinal = (ordinals.get(base) ?? 0) + 1;
+    ordinals.set(base, ordinal);
+    census.push({ key: base + (ordinal > 1 ? ' [' + ordinal + ']' : ''), x: round(box.left), y: round(box.top), w: round(box.width), h: round(box.height), text: text(node).slice(0, 24) });
+  }
+
+  return JSON.stringify({ problems, census });
 })()`;
 
-const options = parseArgs(process.argv.slice(2));
-if (options.help) {
-  console.log(await import('node:fs').then(fs => fs.readFileSync(new URL(import.meta.url), 'utf8').split('\n').filter(line => line.startsWith('//')).map(line => line.slice(3)).join('\n')));
-  process.exit(0);
+// The panels the census always records, whether or not they carry text.
+const LANDMARKS = [
+  '.display-shell', '.clock-widget', '.clock-block', '.weather', '.weather-band', '.week-strip',
+  '.transport-panel', '.transport-mini', '.rotating-panel', '.forecast-map-frame', '.forecast-map-canvas', '.fact-body',
+];
+
+// What moved between two censuses of one scene. A box that moved or resized
+// by more than a pixel in any direction counts; sub-pixel drift is rounding.
+function movedSince(before, after) {
+  const prior = new Map(before.map(box => [box.key, box]));
+  const moved = [];
+  const added = [];
+  for (const box of after) {
+    const was = prior.get(box.key);
+    if (!was) { added.push(box); continue; }
+    prior.delete(box.key);
+    const delta = { x: box.x - was.x, y: box.y - was.y, w: box.w - was.w, h: box.h - was.h };
+    const most = Math.max(...Object.values(delta).map(Math.abs));
+    if (most > 1) moved.push({ ...box, delta, most });
+  }
+  moved.sort((a, b) => b.most - a.most);
+  return { moved, added, gone: [...prior.values()], compared: after.length - added.length };
 }
+
+const signed = value => (value > 0 ? '+' : '') + (Math.round(value * 10) / 10);
+
+const options = parseArgs(process.argv.slice(2));
+if (options.help) { await printHelp(import.meta.url); process.exit(0); }
+
+const BASELINE_FILE = path.join(ROOT, 'screenshots', 'audit', 'baseline.json');
+let baseline = { savedAt: null, scenes: {} };
+if (options.baseline) {
+  try { baseline = JSON.parse(await readFile(BASELINE_FILE, 'utf8')); } catch {
+    throw new Error('No baseline at ' + path.relative(ROOT, BASELINE_FILE) + '. Run with --save-baseline first, before the change.');
+  }
+}
+const saved = { savedAt: new Date().toISOString(), scenes: {} };
 
 const minFont = options.minFont ?? 11;
 const contrastFloor = options.contrast ?? 4.5;
@@ -320,7 +389,7 @@ try {
       const { send, evaluate, logged } = await openPage(devtools, {
         url, width: layout.width, height: layout.height, reducedMotion: options.reducedMotion, wait,
       });
-      const problems = JSON.parse(await evaluate(AUDIT(SINGLE_LINE, FURNITURE, minFont, contrastFloor)));
+      const { problems, census } = JSON.parse(await evaluate(AUDIT(SINGLE_LINE, FURNITURE, minFont, contrastFloor)));
       const failures = logged.filter(entry => ['error', 'exception'].includes(entry.level));
 
       const shown = problems.filter(problem => options.all || problem.level !== 'note');
@@ -345,6 +414,31 @@ try {
       };
       collected.push(record);
 
+      if (options.saveBaseline) saved.scenes[scene.name] = { url, census };
+      if (options.baseline) {
+        const before = baseline.scenes[scene.name];
+        if (!before) {
+          say('  baseline     none for this scene; run --save-baseline');
+        } else {
+          const diff = movedSince(before.census, census);
+          record.baseline = { savedAt: baseline.savedAt, ...diff };
+          if (!diff.moved.length && !diff.added.length && !diff.gone.length) {
+            say('  baseline     nothing moved: ' + diff.compared + ' elements where they were');
+          } else {
+            say('  baseline     ' + diff.moved.length + ' of ' + diff.compared + ' elements moved'
+              + (diff.added.length ? ', ' + diff.added.length + ' new' : '') + (diff.gone.length ? ', ' + diff.gone.length + ' gone' : '')
+              + ' since ' + baseline.savedAt);
+            for (const box of diff.moved.slice(0, 12)) {
+              say('    ' + ('x' + signed(box.delta.x) + ' y' + signed(box.delta.y) + ' w' + signed(box.delta.w) + ' h' + signed(box.delta.h)).padEnd(26)
+                + box.key + (box.text ? '  "' + box.text + '"' : ''));
+            }
+            if (diff.moved.length > 12) say('    … and ' + (diff.moved.length - 12) + ' more');
+            for (const box of diff.added.slice(0, 6)) say('    new    ' + box.key + (box.text ? '  "' + box.text + '"' : ''));
+            for (const box of diff.gone.slice(0, 6)) say('    gone   ' + box.key + (box.text ? '  "' + box.text + '"' : ''));
+          }
+        }
+      }
+
       if (options.shots) {
         const out = path.join(ROOT, 'screenshots', 'audit', scene.name + '-' + layout.name.replace(':', '-') + '.png');
         await mkdir(path.dirname(out), { recursive: true });
@@ -362,6 +456,14 @@ try {
 } finally { await close(); }
 
 const seconds = ((Date.now() - started) / 1000).toFixed(1);
+if (options.saveBaseline) {
+  // Scenes not audited this run keep their previous census, so a one-scene
+  // save does not erase the rest.
+  const merged = { savedAt: saved.savedAt, scenes: { ...(await readFile(BASELINE_FILE, 'utf8').then(JSON.parse).catch(() => ({ scenes: {} }))).scenes, ...saved.scenes } };
+  await mkdir(path.dirname(BASELINE_FILE), { recursive: true });
+  await writeFile(BASELINE_FILE, JSON.stringify(merged));
+  say('\nbaseline saved  ' + path.relative(ROOT, BASELINE_FILE) + '  (' + Object.keys(saved.scenes).length + ' scene(s))');
+}
 if (options.json) {
   console.log(JSON.stringify({ states: collected.length, seconds: Number(seconds), counts, ok: counts.error === 0, results: collected }, null, 2));
 } else {
