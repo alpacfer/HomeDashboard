@@ -62,7 +62,7 @@
 import { mkdir, writeFile } from 'node:fs/promises';
 import path from 'node:path';
 import { fileURLToPath } from 'node:url';
-import { findChrome, launchChrome, openPage, pageUrl, takeUrlFlag, waitForServer } from './lib/browser.mjs';
+import { findChrome, launchChrome, openPage, pageUrl, printHelp, takeBrowserFlag, takeUrlFlag, waitForServer } from './lib/browser.mjs';
 
 const ROOT = path.resolve(path.dirname(fileURLToPath(import.meta.url)), '..');
 
@@ -123,15 +123,10 @@ function parseArgs(argv) {
       case '--out': options.out = value(); break;
       case '--scale': options.scale = Number(value()); break;
       case '--sky': options.skies.push(value()); break;
-      case '--width': options.width = Number(value()); break;
-      case '--height': options.height = Number(value()); break;
-      case '--wait': options.wait = Number(value()); break;
-      case '--chrome': options.chrome = value(); break;
-      case '--help': case '-h': options.help = true; break;
       // --sky above is this tool's own: it is repeatable here and single
       // elsewhere. Its case wins before the shared handler is reached.
       default:
-        if (takeUrlFlag(flag, options, value, arg)) break;
+        if (takeBrowserFlag(flag, options, value) || takeUrlFlag(flag, options, value, arg)) break;
         throw new Error('Unknown option ' + arg + '. See the header of scripts/scene-guides.mjs.');
     }
   }
@@ -338,7 +333,7 @@ async function report(chrome, options, card, sky) {
 
 async function main() {
   const options = parseArgs(process.argv.slice(2));
-  if (options.help) { console.log('See the header of scripts/scene-guides.mjs.'); return; }
+  if (options.help) { await printHelp(import.meta.url); return; }
   const card = CARDS[options.card];
   if (!card) throw new Error('Unknown card ' + options.card + '. One of: ' + Object.keys(CARDS).join(', ') + '.');
   const skies = options.skies.length ? options.skies : [undefined];

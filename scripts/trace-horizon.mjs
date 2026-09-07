@@ -66,7 +66,7 @@
 import { mkdir, readFile, writeFile } from 'node:fs/promises';
 import path from 'node:path';
 import { fileURLToPath } from 'node:url';
-import { findChrome, launchChrome } from './lib/browser.mjs';
+import { findChrome, launchChrome, printHelp, takeBrowserFlag } from './lib/browser.mjs';
 import { segmentScene } from './lib/segment.mjs';
 
 const ROOT = path.resolve(path.dirname(fileURLToPath(import.meta.url)), '..');
@@ -89,9 +89,9 @@ function parseArgs(argv) {
       case '--no-write': options.write = false; break;
       case '--out': options.out = value(); break;
       case '--scale': options.scale = Number(value()); break;
-      case '--chrome': options.chrome = value(); break;
-      case '--help': case '-h': options.help = true; break;
-      default: throw new Error('Unknown option ' + arg + '. See the header of scripts/trace-horizon.mjs.');
+      default:
+        if (takeBrowserFlag(flag, options, value)) break;
+        throw new Error('Unknown option ' + arg + '. See the header of scripts/trace-horizon.mjs.');
     }
   }
   if (!options.plates.length) options.plates = [...PLATES];
@@ -343,11 +343,7 @@ function stylesheet(sky, geometry, glass, options) {
 
 async function main() {
   const options = parseArgs(process.argv.slice(2));
-  if (options.help) {
-    const source = await readFile(fileURLToPath(import.meta.url), 'utf8');
-    console.log(source.split('\n').filter(line => line.startsWith('//')).map(line => line.slice(3)).join('\n'));
-    return;
-  }
+  if (options.help) { await printHelp(import.meta.url); return; }
 
   const { devtools, close } = await launchChrome(findChrome(options.chrome), 900, 600);
   let sky, glass, geometry, overlay, windowOverlay;
