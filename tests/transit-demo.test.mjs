@@ -1,11 +1,17 @@
 import { test } from 'node:test';
 import assert from 'node:assert/strict';
 import { demoTransitData } from '../lib/transit-demo.ts';
-import { boardIncidents, departureIncidents, LINES } from '../lib/transit.ts';
+import { boardIncidents, departureIncidents, LINES, validTransitData } from '../lib/transit.ts';
 
 const now = Date.parse('2026-09-04T08:00:00Z');
 const data = demoTransitData(now);
 const every = Object.values(data.boards).flat();
+
+test('the demo board passes the validator the browser applies to a real answer', () => {
+  // The weather and grid demos both prove this of themselves; a synthetic
+  // board the panel would refuse is a capture of nothing.
+  assert.equal(validTransitData(data), true);
+});
 
 test('the demo board fills every direction the display renders', () => {
   for (const line of LINES) for (const direction of line.directions) {

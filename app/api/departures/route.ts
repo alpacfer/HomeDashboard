@@ -1,4 +1,4 @@
-import { filterDepartures, LINES, resolveStop, type Departure, type RawDeparture, type TransitData } from '@/lib/transit';
+import { boardKey, filterDepartures, LINES, rawDepartures, resolveStop, type Departure, type TransitData } from '@/lib/transit';
 import { parseStopTimes, stopTimesQuery, TRANSITOUS_ENDPOINT, TRANSITOUS_STOPS, TRANSITOUS_USER_AGENT } from '@/lib/transitous';
 import { demoTransitData } from '@/lib/transit-demo';
 import { applyTranslations, deeplEndpoint, parseTranslations, translatableTexts, translationRequest } from '@/lib/translation';
@@ -50,9 +50,9 @@ async function load(accessId: string): Promise<TransitData> {
     const id = await location(accessId, name);
     const lines = LINES.filter(line => line.stopName === name);
     const payload = await request(accessId, 'departureBoard', { id, lines: lines.map(line => line.id).join(','), duration: '1439', maxJourneys: '-1', type: 'DEP_STATION', rtMode: 'SERVER_DEFAULT' });
-    const raw = payload.Departure === undefined ? [] : Array.isArray(payload.Departure) ? payload.Departure as RawDeparture[] : [payload.Departure as RawDeparture];
+    const raw = rawDepartures(payload);
     for (const line of lines) for (const direction of line.directions) {
-      boards[line.id + ':' + direction.key] = filterDepartures(raw, line.id, Date.now(), direction.key);
+      boards[boardKey(line.id, direction.key)] = filterDepartures(raw, line.id, Date.now(), direction.key);
     }
   }));
   return { status: 'ready', generatedAt: Date.now(), boards, source: 'rejseplanen' };
@@ -79,7 +79,7 @@ async function loadTransitous(): Promise<TransitData> {
     } finally { clearTimeout(timeout); }
     const now = Date.now();
     for (const line of LINES.filter(item => item.stopName === name)) for (const direction of line.directions) {
-      boards[line.id + ':' + direction.key] = parseStopTimes(payload, name, line.id, direction.key, now);
+      boards[boardKey(line.id, direction.key)] = parseStopTimes(payload, name, line.id, direction.key, now);
     }
   }));
   return { status: 'ready', generatedAt: Date.now(), boards, source: 'transitous' };

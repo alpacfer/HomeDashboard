@@ -9,7 +9,7 @@
 //
 // It is not a fallback. Nothing reaches for it unless the URL asks.
 
-import { LINES, type Departure, type TransitData } from '@/lib/transit';
+import { boardKey, LINES, type Departure, type TransitData } from './transit';
 
 type Sketch = {
   minutes: number;
@@ -36,7 +36,7 @@ const SCRIPT: Record<string, Sketch[]> = {
 export function demoTransitData(now: number): TransitData {
   const boards: Record<string, Departure[]> = {};
   for (const line of LINES) for (const direction of line.directions) {
-    const key = line.id + ':' + direction.key;
+    const key = boardKey(line.id, direction.key);
     boards[key] = (SCRIPT[key] ?? []).map((sketch, index) => {
       const delay = sketch.delay ?? 0;
       const expected = now + sketch.minutes * 60000;

@@ -12,7 +12,7 @@
 //                 after a timetable change: an unknown headsign is a departure
 //                 the fallback is silently dropping (see lib/transitous.ts).
 
-import { LINES, filterDepartures, resolveStop } from '../lib/transit.ts';
+import { boardKey, LINES, filterDepartures, resolveStop } from '../lib/transit.ts';
 import { TRANSITOUS_ENDPOINT, TRANSITOUS_HEADSIGNS, TRANSITOUS_STOPS, TRANSITOUS_USER_AGENT, parseStopTimes, stopTimesQuery } from '../lib/transitous.ts';
 
 const withHeadsigns = process.argv.includes('--headsigns');
@@ -39,7 +39,7 @@ async function ask(label, url, init = {}) {
 // What the display would draw from one provider's answer.
 function report(boards) {
   for (const line of LINES) for (const direction of line.directions) {
-    const board = boards[line.id + ':' + direction.key] ?? [];
+    const board = boards[boardKey(line.id, direction.key)] ?? [];
     const shown = board.slice(0, 3).map(departure => {
       const marks = [];
       if (departure.cancelled) marks.push('CANCELLED');
@@ -76,12 +76,12 @@ for (const name of stopNames) {
   if (!payload) { fallbackOk = false; continue; }
   const now = Date.now();
   for (const line of LINES.filter(item => item.stopName === name)) for (const direction of line.directions) {
-    try { fallbackBoards[line.id + ':' + direction.key] = parseStopTimes(payload, name, line.id, direction.key, now); }
+    try { fallbackBoards[boardKey(line.id, direction.key)] = parseStopTimes(payload, name, line.id, direction.key, now); }
     catch (error) { console.log(pad('', 40) + 'parse REJECTED: ' + error.message); fallbackOk = false; }
   }
   if (withHeadsigns) {
     const known = new Set(LINES.filter(item => item.stopName === name)
-      .flatMap(line => line.directions.flatMap(direction => TRANSITOUS_HEADSIGNS[line.id + ':' + direction.key] ?? [])));
+      .flatMap(line => line.directions.flatMap(direction => TRANSITOUS_HEADSIGNS[boardKey(line.id, direction.key)] ?? [])));
     const wanted = new Set(LINES.filter(item => item.stopName === name).map(line => line.id));
     const seen = new Map();
     for (const entry of payload.stopTimes ?? []) {
@@ -118,7 +118,7 @@ if (!key) {
     if (!board) continue;
     const raw = board.Departure === undefined ? [] : Array.isArray(board.Departure) ? board.Departure : [board.Departure];
     for (const line of lines) for (const direction of line.directions) {
-      primaryBoards[line.id + ':' + direction.key] = filterDepartures(raw, line.id, Date.now(), direction.key);
+      primaryBoards[boardKey(line.id, direction.key)] = filterDepartures(raw, line.id, Date.now(), direction.key);
     }
   }
   report(primaryBoards);

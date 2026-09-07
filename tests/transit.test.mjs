@@ -1,6 +1,6 @@
 import { test } from 'node:test';
 import assert from 'node:assert/strict';
-import { alertText, BOARD_EXPIRED_MS, BOARD_STALE_MS, boardFreshness, boardIncidents, departureIncidents, departureTimestamp, filterDepartures, resolveStop, serviceHeadway, validTransitData } from '../lib/transit.ts';
+import { alertText, BOARD_EXPIRED_MS, BOARD_STALE_MS, boardFreshness, boardIncidents, departureIncidents, departureTimestamp, filterDepartures, rawDepartures, resolveStop, serviceHeadway, validTransitData } from '../lib/transit.ts';
 
 const now = Date.parse('2026-08-31T18:00:00Z');
 const departure = (overrides = {}) => ({
@@ -258,6 +258,20 @@ test('says nothing before the first answer and names the states with no timestam
   assert.deepEqual(boardFreshness(null, now, true), { label: 'no data', spoken: 'Departures unavailable', severity: 'severe' });
   assert.equal(boardFreshness(body({ status: 'needs_key' }), now, false).label, 'no key');
   assert.equal(boardFreshness(body({ status: 'needs_key' }), now, false).severity, 'severe');
+});
+
+test('a board answer yields only its object entries: one, many, or none, and never a null', () => {
+  const one = { name: 'Bus 150S', time: '18:05:00', date: '2026-08-31' };
+  assert.deepEqual(rawDepartures({ Departure: one }), [one]);
+  assert.deepEqual(rawDepartures({ Departure: [one, one] }), [one, one]);
+  assert.deepEqual(rawDepartures({}), []);
+  assert.deepEqual(rawDepartures({ Departure: null }), []);
+  assert.deepEqual(rawDepartures(null), []);
+  assert.deepEqual(rawDepartures('<html>'), []);
+  // A single bad entry drops that entry, not the board: this used to throw
+  // inside filterDepartures and hand the whole stop to the fallback provider.
+  assert.deepEqual(rawDepartures({ Departure: [one, null, 7, 'x'] }), [one]);
+  assert.doesNotThrow(() => filterDepartures(rawDepartures({ Departure: [one, null] }), '150S', now));
 });
 
 test('a failed refresh behind a fresh answer leaves the stamp alone', () => {

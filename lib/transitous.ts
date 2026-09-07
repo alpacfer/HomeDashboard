@@ -24,7 +24,7 @@
 // User-Agent, and contact before heavy use. This file is the only place that
 // talks to them, so all three live here.
 
-import { ALERTS_PER_DEPARTURE, alertText, normalize, type AlertSeverity, type Departure, type DepartureAlert } from '@/lib/transit';
+import { ALERTS_PER_DEPARTURE, alertText, BOARD_DEPTH, boardKey, normalize, type AlertSeverity, type Departure, type DepartureAlert } from './transit';
 
 export const TRANSITOUS_ENDPOINT = 'https://api.transitous.org/api/v1/stoptimes';
 export const TRANSITOUS_USER_AGENT = 'HomeDashboard/0.1 (wall display; https://github.com/topics/home-dashboard)';
@@ -32,7 +32,7 @@ export const TRANSITOUS_USER_AGENT = 'HomeDashboard/0.1 (wall display; https://g
 // Enough events to fill three departures in every direction at the busiest
 // stop, and no more: one response is about 80 kB and the display asks for
 // three of them every two minutes.
-export const TRANSITOUS_EVENTS = 50;
+const TRANSITOUS_EVENTS = 50;
 
 // Live times are asked for, never inherited. MOTIS defaults `realtimeMode` to
 // REALTIME, so naming it changes nothing today; it is named because the live
@@ -130,7 +130,7 @@ export function parseStopTimes(payload: unknown, stopName: string, lineId: strin
   if (typeof answered !== 'string' || normalize(answered) !== normalize(stopName)) {
     throw new Error('Transit fallback answered for a different stop');
   }
-  const allowed = TRANSITOUS_HEADSIGNS[lineId + ':' + direction];
+  const allowed = TRANSITOUS_HEADSIGNS[boardKey(lineId, direction)];
   if (!allowed) return [];
 
   const result = new Map<string, Departure>();
@@ -155,5 +155,5 @@ export function parseStopTimes(payload: unknown, stopName: string, lineId: strin
       alerts: transitousAlerts(place?.alerts),
     });
   }
-  return [...result.values()].sort((a, b) => a.expected - b.expected).slice(0, 12);
+  return [...result.values()].sort((a, b) => a.expected - b.expected).slice(0, BOARD_DEPTH);
 }

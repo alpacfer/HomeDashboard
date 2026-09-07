@@ -1,8 +1,9 @@
 'use client';
 
 import { useEffect, useState } from 'react';
-import { BOARD_EXPIRED_MS, boardFreshness, boardIncidents, departureIncidents, LINES, nextCompactDeparture, serviceHeadway, validTransitData, type Departure, type TransitData } from '@/lib/transit';
+import { BOARD_EXPIRED_MS, boardFreshness, boardIncidents, boardKey, departureIncidents, LINES, nextCompactDeparture, serviceHeadway, validTransitData, type Departure, type TransitData } from '@/lib/transit';
 import { debugFlags } from '@/lib/debug-flags';
+import { onRefreshTriggers } from './refresh-triggers';
 
 import { copenhagenClock } from '@/lib/copenhagen';
 
@@ -48,12 +49,20 @@ export default function TransportPanel({ compact = false }: { compact?: boolean 
       const timeout = window.setTimeout(() => controller.abort(), REQUEST_TIMEOUT_MS);
       try {
         const response = await fetch('/api/departures' + endpointQuery, { cache: 'no-store', signal: controller.signal });
+        // The status first: a Render 502 page is HTML, and reading it as JSON
+        // would report a parse error where the real reason is the status.
+        if (!response.ok) throw new Error('HTTP ' + response.status);
         const value: unknown = await response.json();
-        if (!response.ok || !validTransitData(value)) throw new Error('Unavailable');
-        if (value.status === 'unavailable') throw new Error('Unavailable');
+        if (!validTransitData(value)) throw new Error('unusable payload');
+        if (value.status === 'unavailable') throw new Error('every provider failed');
         if (active) { setData(value); setFailed(false); }
-      } catch { if (active) setFailed(true); }
-      finally {
+      } catch (error) {
+        if (!active) return;
+        // The one line that explains a board of dashes when the display is
+        // inspected over remote debugging, as the weather card's does.
+        console.warn('[transit] refresh failed: ' + (controller.signal.aborted ? 'timeout' : error instanceof Error ? error.message : 'network error'));
+        setFailed(true);
+      } finally {
         window.clearTimeout(timeout);
         if (inFlight === controller) inFlight = null;
         pending = false;
@@ -62,17 +71,11 @@ export default function TransportPanel({ compact = false }: { compact?: boolean 
     void refresh();
     const timer = window.setInterval(refresh, 120000);
     const tick = window.setInterval(() => setNow(Date.now()), 1000);
-    const resume = () => { if (!document.hidden) void refresh(); };
-    const key = (event: KeyboardEvent) => { if (event.key === 'Enter' && !(event.target as HTMLElement)?.closest?.('a')) void refresh(); };
-    document.addEventListener('visibilitychange', resume);
-    window.addEventListener('online', resume);
-    window.addEventListener('keydown', key);
+    const off = onRefreshTriggers(() => void refresh(), { keys: ['Enter'] });
     return () => {
       active = false; inFlight?.abort();
       window.clearInterval(timer); window.clearInterval(tick);
-      document.removeEventListener('visibilitychange', resume);
-      window.removeEventListener('online', resume);
-      window.removeEventListener('keydown', key);
+      off();
     };
   }, []);
   const expired = !!(data && now - data.generatedAt > BOARD_EXPIRED_MS);
@@ -99,9 +102,9 @@ export default function TransportPanel({ compact = false }: { compact?: boolean 
   if (compact) return <section className="transport-mini" aria-label="Next departure for each route">
     <div className="mini-routes">
       {LINES.flatMap(line => line.directions.map(direction => {
-        const departure = nextCompactDeparture(data, line.id + ':' + direction.key, now);
+        const departure = nextCompactDeparture(data, boardKey(line.id, direction.key), now);
         const flag = departure ? departureFlag(departure) : null;
-        return <div className="mini-route" key={line.id + ':' + direction.key} aria-label={line.id + ' towards ' + direction.destination}>
+        return <div className="mini-route" key={boardKey(line.id, direction.key)} aria-label={line.id + ' towards ' + direction.destination}>
           <div className="mini-heading"><span className={'line-badge ' + line.style}>{line.id}</span><span>{direction.destination}</span></div>
           {departure && flag
             ? <strong className={'mini-time' + (flag.severity ? ' sev-' + flag.severity : '')} aria-label={'Next departure ' + clock(departure.expected) + ', ' + flag.spoken}>
@@ -129,7 +132,7 @@ export default function TransportPanel({ compact = false }: { compact?: boolean 
         </header>
         <div className="direction-columns">
         {line.directions.map(direction => {
-          const departures = !expired ? (data?.boards[line.id + ':' + direction.key] || []).filter(departure => departure.expected >= now).slice(0, 3) : [];
+          const departures = !expired ? (data?.boards[boardKey(line.id, direction.key)] || []).filter(departure => departure.expected >= now).slice(0, 3) : [];
           const headway = expired ? null : serviceHeadway(data, line.id, direction.key, now);
           return <section className="direction-column" key={direction.key} aria-label={line.id + ' towards ' + direction.destination + (headway ? ', about every ' + headway + ' minutes' : '')}>
         <h2>{direction.destination}{headway ? <span className="headway">every {headway} min</span> : null}</h2>

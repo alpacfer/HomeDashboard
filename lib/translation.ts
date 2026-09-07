@@ -13,7 +13,7 @@
 // NEXT_PUBLIC_ variable and never in the repository. Nothing translated here is
 // personal: alert text is a public service message and the only thing sent.
 
-import { ALERT_TEXT_LIMIT, alertText, type TransitData } from '@/lib/transit';
+import { ALERT_TEXT_LIMIT, alertText, type TransitData } from './transit';
 
 // A free-tier key ends in `:fx` and is served from a different host. Sending a
 // free key to the pro host answers 403, which is a confusing way to discover a

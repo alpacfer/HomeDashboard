@@ -29,6 +29,17 @@ export type DepartureAlert = { severity: AlertSeverity; text: string };
 export const ALERT_TEXT_LIMIT = 90;
 export const ALERTS_PER_DEPARTURE = 2;
 
+// How many departures a board carries. Three are shown and the rest let the
+// headway and the compact strip read ahead; both providers cut here, and the
+// tests restated the number until it had a name.
+export const BOARD_DEPTH = 12;
+
+// The key a board is filed under, `150S:north`. It was spelt out by hand in
+// twelve places across both providers, the route, the panel and the probe.
+export function boardKey(lineId: string, direction: string) {
+  return lineId + ':' + direction;
+}
+
 export type Departure = { id: string; scheduled: number; expected: number; cancelled: boolean; realtime: boolean; delay: number; track: string | null; scheduledTrack: string | null; alerts: DepartureAlert[] };
 export type TransitSource = 'rejseplanen' | 'transitous';
 export type TransitData = { status: 'ready' | 'needs_key' | 'unavailable'; generatedAt: number; boards: Record<string, Departure[]>; source?: TransitSource };
@@ -150,7 +161,7 @@ const HEADWAY_MAX_MIN = 60;
 // is a description, not a promise.
 export function serviceHeadway(data: TransitData | null, lineId: string, direction: string, now: number): number | null {
   if (data?.status !== 'ready') return null;
-  const times = (data.boards[lineId + ':' + direction] || [])
+  const times = (data.boards[boardKey(lineId, direction)] || [])
     .filter(departure => departure.expected >= now && !departure.cancelled)
     .map(departure => departure.scheduled)
     .sort((a, b) => a - b)
@@ -256,6 +267,17 @@ export function departureTimestamp(date?: string, time?: string, offset?: number
   }
   return result;
 }
+// The departure list out of a Rejseplanen board answer: one object, a list of
+// them, or nothing. Only objects are kept. The route used to cast the list
+// and let filterDepartures dereference each entry, so a single null in an
+// otherwise good answer threw, and the whole board fell back to the thinner
+// provider for nothing.
+export function rawDepartures(payload: unknown): RawDeparture[] {
+  const field = (payload as { Departure?: unknown } | null)?.Departure;
+  const list = field === undefined || field === null ? [] : Array.isArray(field) ? field : [field];
+  return list.filter((entry): entry is RawDeparture => !!entry && typeof entry === 'object');
+}
+
 export function filterDepartures(raw: RawDeparture[], lineId: string, now: number, direction = 'north'): Departure[] {
   const config = LINES.find(line => line.id === lineId)?.directions.find(item => item.key === direction);
   if (!config) return [];
@@ -278,11 +300,14 @@ export function filterDepartures(raw: RawDeparture[], lineId: string, now: numbe
     const scheduledTrack = item.trackHidden ? null : item.track || null;
     result.set(id, { id, scheduled, expected, cancelled, realtime, delay: Math.round((expected - scheduled) / 60000), track, scheduledTrack, alerts: rejseplanenAlerts(item.Messages) });
   }
-  return [...result.values()].sort((a, b) => a.expected - b.expected).slice(0, 12);
+  return [...result.values()].sort((a, b) => a.expected - b.expected).slice(0, BOARD_DEPTH);
 }
 
 type Stop = { id?: string; name?: string; isMainMast?: boolean; mainMast?: Stop; mainMastId?: string };
 export function resolveStop(payload: unknown, name: string): string {
+  // An HTML error page or a null body is this module's own error, not a
+  // TypeError from dereferencing it.
+  if (!payload || typeof payload !== 'object') throw new Error('Stop lookup answered something other than a stop list');
   const body = payload as { stopLocationOrCoordLocation?: { StopLocation?: Stop }[]; StopLocation?: Stop[] };
   const stops = body.stopLocationOrCoordLocation?.flatMap(entry => entry.StopLocation ? [entry.StopLocation] : []) || body.StopLocation || [];
   const matching = stops.filter(stop => stop.name && normalize(stop.name) === normalize(name));
