@@ -141,6 +141,93 @@ for (const file of sheets) {
   }
 }
 
+// 1b2. No keyframe may scale a shape through nothing. Two bugs on 7 Sep 2026
+//      had the same shape: the birds' flap went scaleY(1) -> scaleY(-.45),
+//      crossing zero twice a beat, and the Tenant's blink squashed a stroked
+//      eye ring to scaleY(.06). At the display's sizes both render as a
+//      13 x 0.03 px dash for part of every cycle. Lint, 303 tests, the audit
+//      and three screenshots passed on both, because a screenshot lands on
+//      one frame and none of the checks read a transform. A negative factor
+//      mirrors the drawing; anything under the floor is a hairline. Fade with
+//      opacity instead, or mark the block `/* rules: allow-collapse */` with
+//      the reason. A frame that is also at opacity 0 draws nothing and is
+//      exempt. Factors written as var() or calc() are not read.
+const SCALE_FLOOR = 0.15;
+const scaleFactors = transform => {
+  const factors = [];
+  for (const [, fn, args] of transform.matchAll(/\b(scale3d|scaleX|scaleY|scale)\(([^)]*)\)/g)) {
+    for (const raw of args.split(',')) {
+      const text = raw.trim();
+      if (/^-?(\d+\.?\d*|\.\d+)$/.test(text)) factors.push({ fn, value: Number(text) });
+    }
+  }
+  return factors;
+};
+for (const file of sheets) {
+  const css = await read(file);
+  for (const [, name, block] of css.matchAll(/@keyframes\s+([\w-]+)\s*\{((?:[^{}]|\{[^{}]*\})*)\}/g)) {
+    if (/rules:\s*allow-collapse/.test(block)) continue;
+    for (const [, stops, decls] of block.matchAll(/([^{}]+)\{([^{}]*)\}/g)) {
+      const transform = /transform\s*:\s*([^;]+)/.exec(decls)?.[1];
+      if (!transform) continue;
+      const opacity = /(?:^|[;\s])opacity\s*:\s*([\d.]+)/.exec(decls)?.[1];
+      if (opacity !== undefined && Number(opacity) <= 0.05) continue;
+      const at = stops.replace(/\/\*[\s\S]*?\*\//g, '').trim().split('\n').pop().trim();
+      for (const { fn, value } of scaleFactors(transform)) {
+        const where = file + ' (@keyframes ' + name + ' at ' + at + ')';
+        if (value < 0) {
+          fail(where, fn + '(' + value + ') mirrors the shape through zero, and a stroked shape passing scale 0 is drawn as a'
+            + ' dash for part of every cycle. Keep every factor positive; flatten, do not flip.');
+        } else if (value < SCALE_FLOOR) {
+          fail(where, fn + '(' + value + ') squashes the shape under ' + SCALE_FLOOR + ' of its size, which at this display\'s sizes'
+            + ' is a hairline. Fade it with opacity instead, or mark the block /* rules: allow-collapse */ and say why.');
+        }
+      }
+    }
+  }
+}
+
+// 1b3. The Tenant's gesture tables must not be shorter than the stylesheet.
+//      The Tenant removes a gesture's class after GESTURE_MS or
+//      PERCH_ACTION_MS milliseconds (lib/tenant-view.ts); app/tenant.css plays
+//      the keyframes under `.g-<gesture>` and `.pa-<action>`. When a keyframe
+//      outlasts its table entry React strips the class mid-animation and the
+//      character snaps, on a face that is looked at all day. The two agreed by
+//      hand until now. Every duration under the rule is read (a count of
+//      iterations multiplies), and the longest must fit inside the table value.
+{
+  const tenant = await read('lib/tenant-view.ts');
+  const css = await read('app/tenant.css');
+  const table = (name, prefix) => {
+    const block = new RegExp('const ' + name + '[^=]*=\\s*\\{([\\s\\S]*?)\\};').exec(tenant)?.[1];
+    if (!block) return fail('lib/tenant-view.ts', 'no ' + name + ' table found for the ' + prefix + ' rule to read');
+    for (const [, key, ms] of block.matchAll(/'?([\w-]+)'?\s*:\s*(\d+)/g)) {
+      let longest = 0;
+      let where = '';
+      for (const [, selector, body] of css.matchAll(/([^{}]+)\{([^{}]*)\}/g)) {
+        if (!selector.split(',').some(part => new RegExp('\\.' + prefix + '-' + key + '(?![\\w-])').test(part))) continue;
+        for (const [, shorthand] of body.matchAll(/animation\s*:\s*([^;]+)/g)) {
+          for (const part of shorthand.split(',')) {
+            const tokens = part.trim().split(/\s+/);
+            const time = tokens.find(token => /^[\d.]+m?s$/.test(token));
+            if (!time) continue;
+            const ms = /ms$/.test(time) ? Number.parseFloat(time) : Number.parseFloat(time) * 1000;
+            const count = tokens.slice(tokens.indexOf(time) + 1).find(token => /^\d+$/.test(token));
+            const total = ms * (count ? Number(count) : 1);
+            if (total > longest) { longest = total; where = selector.trim().split('\n').pop().trim(); }
+          }
+        }
+      }
+      if (longest > Number(ms) + 0.5) {
+        fail('lib/tenant-view.ts', name + '.' + key + ' is ' + ms + ' ms but app/tenant.css plays ' + longest + ' ms under '
+          + where + '. The class is removed before the keyframe ends and the Tenant snaps; raise the table or shorten the animation.');
+      }
+    }
+  };
+  table('GESTURE_MS', 'g');
+  table('PERCH_ACTION_MS', 'pa');
+}
+
 // 1c. A generated stylesheet's custom properties must be defined nowhere else.
 //     app/horizon.css is written by npm run horizon and holds the geometry
 //     traced off the paintings; the theme files are written by hand. When both
@@ -310,8 +397,9 @@ if (!start) fail('render.yaml', 'startCommand must be an npm script');
 else if (!pkg.scripts[start]) fail('render.yaml', 'startCommand names npm run ' + start + ', which package.json does not define');
 else if (!/0\.0\.0\.0/.test(pkg.scripts[start])) fail('package.json', start + ' must bind 0.0.0.0 or Render\'s proxy cannot reach it');
 
-// 6. Hooks and commands in .claude/ must point at files that exist, or the
-//    guardrails silently stop guarding.
+// 6. Every hook in .claude/ must point at a script that exists, or the
+//    guardrails silently stop guarding. (The commands' allowed-tools lists
+//    are Claude Code's own vocabulary and are not checked here.)
 const settings = JSON.parse(await read('.claude/settings.json'));
 for (const [event, entries] of Object.entries(settings.hooks ?? {})) {
   for (const entry of entries) for (const hook of entry.hooks ?? []) {
@@ -320,21 +408,36 @@ for (const [event, entries] of Object.entries(settings.hooks ?? {})) {
   }
 }
 
+// 6a. The Codex copies of the agent configuration are written from .claude/
+//     by npm run agents:sync. Three of the four commands had a skill and the
+//     hooks matched by luck; a Codex session read whichever copy happened to
+//     exist. Compared here, not regenerated, so the check stays read-only.
+{
+  const { staleDerivedFiles } = await import('./sync-agent-config.mjs');
+  for (const file of await staleDerivedFiles()) {
+    fail(file, 'differs from what .claude/ says, or is missing. Edit .claude/ and run npm run agents:sync; never edit this copy.');
+  }
+}
+
 // 6b. The guard hook and AGENTS.md must describe the same protected files.
 //     They had already drifted: AGENTS.md named render.yaml, the hook did not,
 //     and the hook blocked package-lock.json, which AGENTS.md never mentioned.
 //     Two descriptions of one rule, and nothing comparing them, so whichever
 //     an agent happened to read was the one that counted.
-const guard = await read('scripts/hooks/guard-generated.mjs');
-const guarded = [...guard.matchAll(/^\s*\[\/\^([^/]+)\//gm)].map(match => match[1].replace(/\\/g, ''));
+//     The stem is the literal path up to the first wildcard, with the regex
+//     escapes undone: public/facts/daily/, app/horizon.css, public/maps/map-.
+//     An earlier version stopped at the first slash and compared "public" and
+//     "app", which AGENTS.md contains whatever the list says.
+const guard = await read('scripts/hooks/protected.mjs');
+const guarded = [...guard.matchAll(/^\s*\[\/\^(.*?)\/,/gm)].map(match => match[1]
+  .replace(/\\\//g, '/').replace(/\\\./g, '.')
+  .replace(/(\(|\.\+|\\d|\$).*$/, ''));
+if (guarded.length < 5) fail('scripts/hooks/protected.mjs', 'has ' + guarded.length + ' protected paths; the rule expected to read at least five, so its parser has drifted from the file.');
 const listed = (/^## Do not touch without being asked$([\s\S]*?)^## /m.exec(await read('AGENTS.md'))?.[1] ?? '');
-if (!listed) fail('AGENTS.md', 'has no "Do not touch without being asked" section for scripts/hooks/guard-generated.mjs to be checked against');
-for (const pattern of guarded) {
-  // The regex source is close enough to the path to look for: public/facts/daily,
-  // app/clock-fonts.css, render.yaml, package-lock.json.
-  const stem = pattern.replace(/\$$/, '').split('.+')[0].replace(/\|/g, '');
-  if (stem && !listed.includes(stem)) {
-    fail('AGENTS.md', 'guard-generated.mjs blocks ' + stem + ' but "Do not touch without being asked" never mentions it. An agent reads the list, not the hook.');
+if (!listed) fail('AGENTS.md', 'has no "Do not touch without being asked" section for scripts/hooks/protected.mjs to be checked against');
+for (const stem of guarded) {
+  if (!listed.includes(stem)) {
+    fail('AGENTS.md', 'the guard hooks block ' + stem + ' but "Do not touch without being asked" never mentions it. An agent reads the list, not the hook.');
   }
 }
 
@@ -381,4 +484,4 @@ if (problems.length) {
   console.error('\nThe rules are explained in AGENTS.md and docs/DEPLOYMENT.md.');
   process.exit(1);
 }
-console.log('Project rules check passed: no hover styles, every lib module tested, effects paired with cleanup, no public credentials, Render start script valid, hooks present, fonts in step.');
+console.log('Project rules check passed: no hover styles, no keyframe scaled through nothing, every lib module tested, effects paired with cleanup, no public credentials, Render start script valid, hooks present, fonts in step, Codex config in step with .claude/.');
