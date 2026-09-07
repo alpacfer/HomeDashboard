@@ -27,7 +27,11 @@
 //   --url <url>            Page to load. Default http://127.0.0.1:3000/
 //   --fact <n>             Which daily fact, with --scene fact.
 //   --selector <css>       Canvas or moving element to watch. Default
-//                          .forecast-map-overlay
+//                          .forecast-map-overlay. One that matches nothing
+//                          fails and names the nearest class names on the page.
+//   --ready <ms>           How long to wait for the forecast map's loading
+//                          message to clear before measuring its canvas.
+//                          Default 15000.
 //   --seconds <n>          How long to watch. Default 4.
 //   --samples <n>          Content samples a second. Default 12.
 //   --width, --height      Viewport in CSS pixels. Default 1280 x 720.
@@ -54,13 +58,18 @@
 // pipeline. Other elements report transform/opacity changes and frame cadence,
 // including SVG flames and the weather card's slow clouds.
 //
+// **Collapse** is checked for every animated element on or under the watched
+// one: its box in every frame, and a fault when one that was at least two
+// pixels falls under one pixel while shown. That is a keyframe scaling a
+// stroked shape through nothing, which renders as a hairline dash, and it is
+// invisible to a screenshot unless the frame happens to land on it.
+//
 // It exits 1 on a fault and only on a fault: a canvas that flickers, movement
-// outside the jump pipeline, or a jump whose worst frame gap is more than
-// twice its median. A window in which no jump happened to begin is not a
+// outside the jump pipeline, a jump whose worst frame gap is more than twice
+// its median, or an element that collapsed. A window in which no jump happened to begin is not a
 // fault — the Tenant chooses when to move — so it exits 0 and says so.
 
-import { fileURLToPath } from 'node:url';
-import { findChrome, launchChrome, openPage, pageUrl, takeUrlFlag, waitForServer } from './lib/browser.mjs';
+import { findChrome, launchChrome, noMatchMessage, openPage, pageUrl, printHelp, takeBrowserFlag, takeUrlFlag, waitForServer } from './lib/browser.mjs';
 
 // Where "a thing crossing the frame" stops being a plausible reading of this
 // number. Both ends were measured on the forecast map over four seconds: the
@@ -80,17 +89,11 @@ function parseArgs(argv) {
       // These must mean the same as they do in scripts/screenshot.mjs;
       // the URL they build is shared, in scripts/lib/browser.mjs.
       case '--selector': options.selector = value(); break;
+      case '--ready': options.ready = Number(value()); break;
       case '--seconds': options.seconds = Number(value()); break;
       case '--samples': options.samples = Number(value()); break;
-      case '--width': options.width = Number(value()); break;
-      case '--height': options.height = Number(value()); break;
-      case '--reduced-motion': options.reducedMotion = true; break;
-      case '--wait': options.wait = Number(value()); break;
-      case '--console': options.console = true; break;
-      case '--chrome': options.chrome = value(); break;
-      case '--help': case '-h': options.help = true; break;
       default:
-        if (takeUrlFlag(flag, options, value, arg)) break;
+        if (takeBrowserFlag(flag, options, value) || takeUrlFlag(flag, options, value, arg)) break;
         throw new Error('Unknown option ' + arg + '. See the header of scripts/measure-motion.mjs.');
     }
   }
@@ -107,12 +110,53 @@ function watcher(selector, seconds, samples) {
   if (!canvas.getContext) {
     const tenant = canvas.matches('.tenant');
     const frames = [];
+    // Every animated element on or under the watched one, with the smallest
+    // and largest box it showed. A keyframe that scales a stroked shape to
+    // nothing -- a wing through scaleY(0), an eye ring at scaleY(.06) -- is a
+    // hairline dash for part of every cycle, and two such bugs passed lint,
+    // the suite, the audit and three screenshots each on 7 Sep 2026. The
+    // measurement that found both was this one, done by hand.
+    const describe = node => node.tagName.toLowerCase() + [...node.classList].slice(0, 2).map(name => '.' + name).join('');
+    const watched = [canvas, ...canvas.querySelectorAll('*')]
+      .filter(node => node.getAnimations && node.getAnimations().length)
+      .slice(0, 400)
+      .map(node => ({ node, where: describe(node), sizes: [] }));
     const until = performance.now() + ${seconds} * 1000;
     while (performance.now() < until) {
       await new Promise(resolve => requestAnimationFrame(resolve));
       const box = canvas.getBoundingClientRect();
       const style = getComputedStyle(canvas);
       frames.push({ at: performance.now(), x: box.left, y: box.top, pose: canvas.getAttribute('class'), transform: style.transform, opacity: style.opacity });
+      for (const entry of watched) {
+        const rect = entry.node.getBoundingClientRect();
+        let shown = true;
+        if (Math.min(rect.width, rect.height) < 1) {
+          // Thin is only a fault while the element is meant to be seen; a
+          // ripple parked at scale(.2) with opacity 0 is not drawing anything.
+          const own = getComputedStyle(entry.node);
+          shown = own.display !== 'none' && Number(own.opacity) > 0.05 && own.visibility !== 'hidden';
+        }
+        entry.sizes.push([rect.width, rect.height, shown]);
+      }
+    }
+    // Collapsed: under a pixel, and under COLLAPSE_RATIO of its own largest
+    // extent on that axis, while shown. The ratio is what separates a bounded
+    // squash from a pass through zero -- the birds' wings flatten to .34 of
+    // their 2.6 px by design and their stroke still paints, where the flap
+    // that mirrored them spent a quarter of every beat at .01. The floor is
+    // the one scripts/check-rules.mjs holds keyframes to. An element that is
+    // always tiny is a design choice, not a collapse.
+    const COLLAPSE_RATIO = 0.15;
+    const collapsed = [];
+    for (const entry of watched) {
+      const maxW = Math.max(...entry.sizes.map(size => size[0]));
+      const maxH = Math.max(...entry.sizes.map(size => size[1]));
+      if (Math.max(maxW, maxH) < 2) continue;
+      let minW = Infinity, minH = Infinity, thin = 0;
+      for (const [w, h, shown] of entry.sizes) {
+        if (shown && ((w < 1 && w < COLLAPSE_RATIO * maxW) || (h < 1 && h < COLLAPSE_RATIO * maxH))) { thin += 1; minW = Math.min(minW, w); minH = Math.min(minH, h); }
+      }
+      if (thin) collapsed.push({ where: entry.where, minW, minH, maxW, maxH, thin });
     }
     const gaps = frames.slice(1).map((frame, index) => frame.at - frames[index].at).sort((a, b) => a - b);
     const quantile = at => gaps.length ? gaps[Math.min(gaps.length - 1, Math.floor(gaps.length * at))] : 0;
@@ -134,6 +178,7 @@ function watcher(selector, seconds, samples) {
     }
     return {
       kind: 'element', tenant, frames: frames.length, moving, changing, distance, jumps, charges, outsidePipeline,
+      animated: watched.length, collapsed,
       seconds: frames.length > 1 ? (frames[frames.length - 1].at - frames[0].at) / 1000 : 0,
       gap: { min: quantile(0), median: quantile(0.5), p90: quantile(0.9), max: gaps.length ? gaps[gaps.length - 1] : 0 },
     };
@@ -200,16 +245,12 @@ function watcher(selector, seconds, samples) {
 }
 
 function bar(label, value) {
-  return '  ' + label.padEnd(24) + value;
+  return '  ' + label.padEnd(27) + value;
 }
 
 async function main() {
   const options = parseArgs(process.argv.slice(2));
-  if (options.help) {
-    const source = await (await import('node:fs/promises')).readFile(fileURLToPath(import.meta.url), 'utf8');
-    console.log(source.split('\n').filter(line => line.startsWith('//')).map(line => line.slice(3)).join('\n'));
-    return;
-  }
+  if (options.help) { await printHelp(import.meta.url); return; }
   const width = options.width ?? 1280;
   const height = options.height ?? 720;
   const seconds = options.seconds ?? 4;
@@ -221,14 +262,30 @@ async function main() {
   const { devtools, close } = await launchChrome(findChrome(options.chrome), width, height);
   try {
     const { evaluate, logged } = await openPage(devtools, { url, width, height, reducedMotion: options.reducedMotion, wait: options.wait ?? 4000 });
+    // The forecast map says "Looking to the skies…" while its artwork and its
+    // run load, and a canvas measured before it has painted reports nothing
+    // and reads as a broken animation. Seven sessions measured that message.
+    // Wait for it to clear, up to --ready, and say how long that took.
+    const ready = await evaluate(`(async () => {
+      const target = document.querySelector(${JSON.stringify(selector)});
+      // Only a canvas inside the map's own frame waits for the map's message;
+      // the rotating panel keeps a message laid out elsewhere on every scene.
+      if (!target || !target.getContext) return { waited: 0, stillLoading: false };
+      const frame = target.closest('.forecast-map-frame') || document;
+      const showing = () => { const node = frame.querySelector('.forecast-map-message'); return !!(node && node.getClientRects().length); };
+      const started = performance.now();
+      while (showing() && performance.now() - started < ${options.ready ?? 15_000}) await new Promise(resolve => setTimeout(resolve, 250));
+      return { waited: Math.round(performance.now() - started), stillLoading: showing() };
+    })()`, (options.ready ?? 15_000) + 10_000);
     // A page that never became visible would report nothing and look like a
     // broken animation, so say so rather than printing zeroes.
     const state = await evaluate(`({ visibility: document.visibilityState, message: (document.querySelector('.forecast-map-message') || {}).textContent || null })`);
     const measured = await evaluate(watcher(selector, seconds, samples), (seconds + 20) * 1000);
-    if (measured.error) throw new Error('--selector: ' + measured.error);
+    if (measured.error) throw new Error(await noMatchMessage(evaluate, '--selector', selector));
 
     console.log(selector + '  ' + width + 'x' + height + '  ' + url);
-    if (measured.kind !== 'element' && state.message) console.log('  the panel is showing "' + state.message.trim() + '", so there may be nothing to measure');
+    if (ready.waited > 400) console.log('  waited ' + (ready.waited / 1000).toFixed(1) + ' s for the forecast map to finish loading before measuring');
+    if (measured.kind !== 'element' && state.message) console.log('  the panel is ' + (ready.stillLoading ? 'still' : 'now') + ' showing "' + state.message.trim() + '", so there may be nothing to measure');
     console.log('');
     if (measured.kind === 'element') {
       const fps = measured.frames > 1 ? (measured.frames - 1) / measured.seconds : 0;
@@ -237,6 +294,13 @@ async function main() {
         .map(key => measured.gap[key].toFixed(1)).join(' / ') + ' ms   (min / median / p90 / max)'));
       console.log(bar('moving frames', measured.moving));
       console.log(bar('path sampled', measured.distance.toFixed(1) + ' px'));
+      console.log(bar('animated elements', measured.animated + ' watched for collapse'));
+      for (const entry of measured.collapsed) {
+        console.log('  COLLAPSED  ' + entry.where + ': ' + Math.min(entry.minW, entry.minH).toFixed(2) + ' px '
+          + (entry.minW < entry.minH ? 'wide' : 'tall') + ' in ' + entry.thin + ' of ' + measured.frames + ' frames, from '
+          + entry.maxW.toFixed(1) + ' x ' + entry.maxH.toFixed(1) + ' px. A stroked shape scaled through nothing is drawn as a dash.');
+      }
+      if (measured.collapsed.length) process.exitCode = 1;
       if (!measured.tenant) {
         console.log(bar('transform/opacity changes', measured.changing));
         const evenness = measured.gap.median > 0 ? measured.gap.max / measured.gap.median : 0;
