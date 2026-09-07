@@ -3,12 +3,16 @@
 
 # Binary assets: never touch these.
 *.ttf   binary
+*.woff2 binary
 *.png   binary
 *.jpg   binary
 *.jpeg  binary
 *.webp  binary
 *.ico   binary
 
-# Generated. Collapse in diffs and exclude from language stats.
+# Generated. Collapse in diffs and exclude from language stats. The list
+# matches "Do not touch without being asked" in AGENTS.md.
 package-lock.json      linguist-generated=true -diff
 public/facts/daily/*   linguist-generated=true -diff
+app/clock-fonts.css    linguist-generated=true
+app/horizon.css        linguist-generated=true

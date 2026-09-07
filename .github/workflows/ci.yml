@@ -112,22 +112,26 @@ jobs:
       - name: Layout audit
         # pipefail, or the exit code would be tee's and a failing audit would
         # pass. GitHub's default shell is `bash -e`, which does not set it.
+        # The script is called directly: `npm run` prints its own banner on
+        # stdout first, and the artifact was not valid JSON.
         run: |
           set -o pipefail
-          npm run audit -- --json | tee screenshots/audit.json
+          node scripts/audit-ui.mjs --json | tee screenshots/audit.json
 
       # Blocking. Exits 1 on a canvas that twitches rather than moves, which
       # is the fault a screenshot cannot show.
       - name: Animation
         run: npm run motion -- --scene map --demo
 
+      # One browser for the four states: everything before the first --then
+      # is the base, each group after it is the base plus its own flags.
       - name: Capture
         continue-on-error: true
         run: |
-          npm run shot -- --scene transport --offline --out screenshots/transport.png
-          npm run shot -- --scene map --demo --out screenshots/map.png
-          npm run shot -- --scene fact --offline --out screenshots/fact.png
-          npm run shot -- --offline --reduced-motion --clip .display-shell --out screenshots/clock-reduced-motion.png
+          npm run shot -- --offline --scene transport --out screenshots/transport.png \
+            --then --scene map --demo --out screenshots/map.png \
+            --then --scene fact --out screenshots/fact.png \
+            --then --reduced-motion --clip .display-shell --out screenshots/clock-reduced-motion.png
 
       - uses: actions/upload-artifact@v4
         if: always()

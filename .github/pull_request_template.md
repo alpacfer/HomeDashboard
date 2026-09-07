@@ -4,7 +4,8 @@
 
 ## Verification
 
-- [ ] `npm run check` passes (lint, typecheck, test, docs, build)
+- [ ] `npm run check` passes (lint, typecheck, test, docs, rules, build)
+- [ ] `npm run audit` is clean if anything rendered changed; `npm run motion` if anything animates
 - [ ] Screenshot below, or "no rendered state" stated with a reason
 
 <!-- Delete the lines that do not apply. -->
