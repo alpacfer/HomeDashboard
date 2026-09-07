@@ -8,6 +8,9 @@
 // renderer.
 
 import { copenhagenClock } from './copenhagen';
+// A type only, and panel-rotation imports nothing at all, so naming the
+// scenes here cannot make a cycle.
+import type { Rotation } from './panel-rotation';
 
 export type Mood = 'asleep' | 'rain' | 'cold' | 'hot' | 'awake';
 
@@ -292,6 +295,62 @@ function surfaceTarget(surface: Box, origin: Box, rest: Targets['rest'], size: n
 // Ballistic flight under constant gravity. Solve the ascent and descent
 // separately: the apex of a jump onto a higher ledge is NOT halfway along it.
 // All timing follows the height and landing speed, in body-sized units.
+// ---------------------------------------------------------------------------
+// Where the Tenant may land elsewhere on the display.
+//
+// Each entry names an element on the page by selector and where on it the
+// figure stands: `align` is the fraction across its width, `edge` which edge
+// it stands on. A `world` entry is a destination it may visit, one per
+// WorldSpotId; a `safe` entry is a landing pad a long route may use on the
+// way. Entries with a `scene` exist only while that scene is up, since the
+// panel under them is otherwise not on screen. This is data: the one place it
+// meets the DOM is components/clock.tsx, which measures each element and turns
+// the entry into coordinates. It used to be thirty lines of calls inside the
+// measuring function, where a class renamed in another component silently
+// removed a perch and nothing could test which landmarks existed.
+export type LandmarkSpec = {
+  selector: string;
+  align: number;
+  edge: 'top' | 'bottom';
+  scene?: Rotation['phase'];
+} & (
+  | { kind: 'world'; id: WorldSpotId }
+  // `each` matches every element the selector finds and numbers the key's `*`.
+  | { kind: 'safe'; key: string; each?: boolean }
+);
+
+export const LANDMARKS: readonly LandmarkSpec[] = [
+  // Stable edges across the whole layout. Several pads share a wide surface
+  // because the character must visibly land before it can change direction;
+  // no route point is an invented coordinate in the middle of the screen.
+  { kind: 'safe', key: 'weather-left', selector: '.weather', align: 0.08, edge: 'top' },
+  { kind: 'world', id: 'weather', selector: '.weather-landing', align: 0.5, edge: 'top' },
+  { kind: 'safe', key: 'ribbon-left', selector: '.ribbon-bars', align: 0.08, edge: 'bottom' },
+  { kind: 'safe', key: 'ribbon-middle', selector: '.ribbon-bars', align: 0.5, edge: 'bottom' },
+  { kind: 'safe', key: 'ribbon-right', selector: '.ribbon-bars', align: 0.92, edge: 'bottom' },
+  { kind: 'safe', key: 'week-left', selector: '.week-day:nth-child(2)', align: 0.5, edge: 'top' },
+  { kind: 'world', id: 'week', selector: '.week-day:nth-child(5)', align: 0.5, edge: 'top' },
+  { kind: 'safe', key: 'week-right', selector: '.week-day:nth-child(7)', align: 0.5, edge: 'top' },
+  { kind: 'safe', key: 'transport-*-left', selector: '.transit-scene.is-active .departure-board', align: 0.08, edge: 'bottom', scene: 'transport', each: true },
+  { kind: 'safe', key: 'transport-*-middle', selector: '.transit-scene.is-active .departure-board', align: 0.5, edge: 'bottom', scene: 'transport', each: true },
+  { kind: 'world', id: 'transport', selector: '.transit-scene.is-active .departure-board', align: 0.82, edge: 'bottom', scene: 'transport' },
+  { kind: 'safe', key: 'fact-image-left', selector: '.daily-fact-scene.is-active .fact-illustration img', align: 0.08, edge: 'top', scene: 'fact' },
+  { kind: 'world', id: 'fact', selector: '.daily-fact-scene.is-active .fact-illustration img', align: 0.68, edge: 'top', scene: 'fact' },
+  { kind: 'safe', key: 'fact-footer-left', selector: '.daily-fact-scene.is-active .fact-footer', align: 0.12, edge: 'top', scene: 'fact' },
+  { kind: 'safe', key: 'fact-footer-right', selector: '.daily-fact-scene.is-active .fact-footer', align: 0.82, edge: 'top', scene: 'fact' },
+  { kind: 'safe', key: 'fact-transport', selector: '.transport-mini', align: 0.5, edge: 'top', scene: 'fact' },
+  { kind: 'safe', key: 'map-top-left', selector: '.forecast-map-scene.is-active .forecast-map-frame', align: 0.08, edge: 'top', scene: 'map' },
+  { kind: 'safe', key: 'map-top-right', selector: '.forecast-map-scene.is-active .forecast-map-frame', align: 0.75, edge: 'top', scene: 'map' },
+  { kind: 'safe', key: 'map-bottom-left', selector: '.forecast-map-scene.is-active .forecast-map-frame', align: 0.08, edge: 'bottom', scene: 'map' },
+  { kind: 'world', id: 'map', selector: '.forecast-map-scene.is-active .forecast-map-frame', align: 0.78, edge: 'bottom', scene: 'map' },
+  { kind: 'safe', key: 'map-transport', selector: '.transport-mini', align: 0.5, edge: 'top', scene: 'map' },
+];
+
+// The landmarks that exist while `scene` is on the right-hand panel.
+export function landmarksFor(scene: Rotation['phase']): LandmarkSpec[] {
+  return LANDMARKS.filter(spec => !spec.scene || spec.scene === scene);
+}
+
 export type HopArc = {
   from: TravelPoint;
   to: TravelPoint;

@@ -23,13 +23,14 @@ import { useCallback, useEffect, useRef, useState, useSyncExternalStore, type CS
 import { changedDigits, clockDate, clockFrame } from '@/lib/clock-motion';
 import { moodContext, type Conditions } from '@/lib/clock-conditions';
 import {
-  inkBox, inkColumns, landingSpotTarget, nextChangingDigit, tenantMood, tenantTargets, topProfile, worldSpotTarget,
+  inkBox, inkColumns, landingSpotTarget, landmarksFor, nextChangingDigit, tenantMood, tenantTargets, topProfile, worldSpotTarget,
   type Box, type Targets, type WorldSpotId,
 } from '@/lib/clock-tenant';
 import type { Rotation } from '@/lib/panel-rotation';
 import { DEFAULT_CLOCK_THEME, clockTheme, clockThemeClass, hasScenery } from '@/lib/clock-theme';
 import { useSceneSky } from './use-scene-sky';
 import Tenant from './tenant';
+import { useReducedMotion } from './use-reduced-motion';
 import { WoodlandResident } from './clock-woodland';
 import ClockWorkshop from './clock-workshop';
 
@@ -56,6 +57,36 @@ const urlTheme = () => clockTheme(window.location.search);
 const serverTheme = () => DEFAULT_CLOCK_THEME;
 type Play = { id: 'land' | 'spring'; key: number };
 
+// Where the Tenant may land elsewhere on the display, measured from the
+// elements the landmark table names. The table is data in lib/clock-tenant.ts;
+// this is the one place it meets the DOM. A surface narrower than the figure,
+// or one with no height, is not on screen and is skipped.
+function collectLandmarks(scene: Rotation['phase'], origin: Box, rest: Targets['rest'], size: number): Pick<Targets, 'world' | 'safe'> {
+  const world: Targets['world'] = [];
+  const safe: Targets['safe'] = [];
+  const boxOf = (element: Element): Box => {
+    const rect = element.getBoundingClientRect();
+    return { left: rect.left, top: rect.top, right: rect.right, bottom: rect.bottom };
+  };
+  for (const spec of landmarksFor(scene)) {
+    const elements = spec.kind === 'safe' && spec.each
+      ? Array.from(document.querySelectorAll<HTMLElement>(spec.selector))
+      : [document.querySelector<HTMLElement>(spec.selector)].filter((element): element is HTMLElement => !!element);
+    elements.forEach((element, index) => {
+      const surface = boxOf(element);
+      if (surface.right - surface.left < size || surface.bottom <= surface.top) return;
+      if (spec.kind === 'world') {
+        const target = worldSpotTarget(spec.id, surface, origin, rest, size, spec.align, spec.edge);
+        world.push(target);
+        safe.push({ key: 'destination-' + spec.id, x: target.x, y: target.y });
+      } else {
+        safe.push(landingSpotTarget(spec.key.replace('*', String(index)), surface, origin, rest, size, spec.align, spec.edge));
+      }
+    });
+  }
+  return { world, safe };
+}
+
 export default function Clock({ now, conditions = null, activeScene = 'transport', petPreview = null, petTravel = null }: {
   now: Date | null;
   conditions?: Conditions | null;
@@ -80,7 +111,7 @@ export default function Clock({ now, conditions = null, activeScene = 'transport
 
   const [targets, setTargets] = useState<Targets | null>(null);
   const [play, setPlay] = useState<Play | null>(null);
-  const [reduced, setReduced] = useState(false);
+  const reduced = useReducedMotion();
 
   // The timers read live values through refs so they never have to be rebuilt.
   const blockRef = useRef<HTMLDivElement>(null);
@@ -97,14 +128,6 @@ export default function Clock({ now, conditions = null, activeScene = 'transport
     const id = window.setTimeout(() => { timers.current.delete(id); fn(); }, ms);
     timers.current.add(id);
     return id;
-  }, []);
-
-  useEffect(() => {
-    const query = window.matchMedia('(prefers-reduced-motion: reduce)');
-    const apply = () => setReduced(query.matches);
-    apply();
-    query.addEventListener('change', apply);
-    return () => query.removeEventListener('change', apply);
   }, []);
 
   // Where the ink of each digit is, in the block's own coordinates, from the
@@ -152,64 +175,7 @@ export default function Clock({ now, conditions = null, activeScene = 'transport
     const base = tenantTargets(ink, relative(cells[3].getBoundingClientRect()), size, TENANT_GAP_EM * em,
       profiles, dot ? relative(dot.getBoundingClientRect()) : null);
     const originBox: Box = { left: origin.left, top: origin.top, right: origin.right, bottom: origin.bottom };
-    const world = [] as Targets['world'];
-    const safe = [] as Targets['safe'];
-    const boxOf = (element: HTMLElement): Box => {
-      const rect = element.getBoundingClientRect();
-      return { left: rect.left, top: rect.top, right: rect.right, bottom: rect.bottom };
-    };
-    const addSafe = (key: string, selector: string, align: number, edge: 'top' | 'bottom' = 'top') => {
-      const element = document.querySelector<HTMLElement>(selector);
-      if (!element) return;
-      const surface = boxOf(element);
-      if (surface.right - surface.left < size || surface.bottom <= surface.top) return;
-      safe.push(landingSpotTarget(key, surface, originBox, base.rest, size, align, edge));
-    };
-    const addWorld = (id: WorldSpotId, selector: string, align: number, edge: 'top' | 'bottom' = 'top') => {
-      const element = document.querySelector<HTMLElement>(selector);
-      if (!element) return;
-      const surface = boxOf(element);
-      if (surface.right - surface.left < size || surface.bottom <= surface.top) return;
-      const target = worldSpotTarget(id, surface, originBox, base.rest, size, align, edge);
-      world.push(target);
-      safe.push({ key: 'destination-' + id, x: target.x, y: target.y });
-    };
-
-    // Stable edges across the whole layout. Several pads share a wide surface
-    // because the character must visibly land before it can change direction;
-    // no route point is an invented coordinate in the middle of the screen.
-    addSafe('weather-left', '.weather', 0.08);
-    addWorld('weather', '.weather-landing', 0.5);
-    addSafe('ribbon-left', '.ribbon-bars', 0.08, 'bottom');
-    addSafe('ribbon-middle', '.ribbon-bars', 0.5, 'bottom');
-    addSafe('ribbon-right', '.ribbon-bars', 0.92, 'bottom');
-    addSafe('week-left', '.week-day:nth-child(2)', 0.5);
-    addWorld('week', '.week-day:nth-child(5)', 0.5);
-    addSafe('week-right', '.week-day:nth-child(7)', 0.5);
-    if (activeSceneRef.current === 'transport') {
-      document.querySelectorAll<HTMLElement>('.transit-scene.is-active .departure-board').forEach((board, index) => {
-        const surface = boxOf(board);
-        if (surface.right - surface.left < size || surface.bottom <= surface.top) return;
-        safe.push(landingSpotTarget('transport-' + index + '-left', surface, originBox, base.rest, size, 0.08, 'bottom'));
-        safe.push(landingSpotTarget('transport-' + index + '-middle', surface, originBox, base.rest, size, 0.5, 'bottom'));
-      });
-      addWorld('transport', '.transit-scene.is-active .departure-board', 0.82, 'bottom');
-    }
-    if (activeSceneRef.current === 'fact') {
-      addSafe('fact-image-left', '.daily-fact-scene.is-active .fact-illustration img', 0.08);
-      addWorld('fact', '.daily-fact-scene.is-active .fact-illustration img', 0.68);
-      addSafe('fact-footer-left', '.daily-fact-scene.is-active .fact-footer', 0.12);
-      addSafe('fact-footer-right', '.daily-fact-scene.is-active .fact-footer', 0.82);
-      addSafe('fact-transport', '.transport-mini', 0.5, 'top');
-    }
-    if (activeSceneRef.current === 'map') {
-      addSafe('map-top-left', '.forecast-map-scene.is-active .forecast-map-frame', 0.08);
-      addSafe('map-top-right', '.forecast-map-scene.is-active .forecast-map-frame', 0.75);
-      addSafe('map-bottom-left', '.forecast-map-scene.is-active .forecast-map-frame', 0.08, 'bottom');
-      addWorld('map', '.forecast-map-scene.is-active .forecast-map-frame', 0.78, 'bottom');
-      addSafe('map-transport', '.transport-mini', 0.5, 'top');
-    }
-    setTargets({ ...base, world, safe });
+    setTargets({ ...base, ...collectLandmarks(activeSceneRef.current, originBox, base.rest, size) });
   }, []);
 
   // The active panel arrives over 450 ms. Measure once as it is mounted and
