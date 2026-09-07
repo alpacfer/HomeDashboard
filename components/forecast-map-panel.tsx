@@ -628,7 +628,6 @@ export default function ForecastMapPanel({ active, onDry, light }: { active: boo
         <strong>{artFailed ? 'Map artwork unavailable' : status === 'loading' ? 'Looking to the skies…' : 'Waiting for the forecast'}</strong>
         <span>{artFailed ? 'The illustrated base could not be loaded' : status === 'loading' ? 'Loading the next six hours' : 'Forecast map temporarily unavailable'}</span>
       </p>}
-      {dry && !artFailed && <p className="forecast-map-message"><strong>A little pause in the rain</strong><span>No precipitation forecast in the next {GRID_HOURS} hours</span></p>}
       {expired && !artFailed && <p className="forecast-map-stale" role="status">Forecast expired · waiting for the next model run</p>}
       {/* Both licences are satisfied by the name plus the link; the sentence
           each one asks for is on the link's accessible label, which is the
