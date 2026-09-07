@@ -49,7 +49,7 @@
 //   --no-shot               Table only, write no PNG.
 //   --out <file>            Where to write. Default screenshots/scene-<card>.png
 //   --scale <n>             Output pixels per CSS pixel. Default 2.
-//   --time, --offline, --demo, --no-weather, --transit-demo, --scene, --fact, --pet, --date, --url
+//   --time, --offline, --demo, --no-weather, --transit-demo, --transit, --scene, --fact, --pet, --date, --url
 //                           The usual debug flags. See scripts/lib/browser.mjs.
 //   --width, --height       Viewport in CSS pixels. Default 1280 x 720.
 //   --wait <ms>             Settle time after load. Default 4000.

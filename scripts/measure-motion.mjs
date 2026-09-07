@@ -18,6 +18,7 @@
 //                          the still scene the rotation skips.
 //   --offline              ?weather=off: no provider request at all.
 //   --transit-demo         ?transit=demo: synthetic departure boards.
+//   --transit <state>      ?transit=: demo, stale, expired or down.
 //   --time <HH:MM>         Pin the clock to a Copenhagen time.
 //   --pet <spot>           Hold the Tenant at a dashboard landmark.
 //   --date <MM-DD>      Add ?date=: show that calendar date's facts instead
@@ -69,7 +70,7 @@ import { findChrome, launchChrome, openPage, pageUrl, takeUrlFlag, waitForServer
 const FLICKER_REVERSALS = 1.5;
 
 function parseArgs(argv) {
-  const options = { console: false, demo: false, dry: false, offline: false, reducedMotion: false, transitDemo: false };
+  const options = { console: false, demo: false, dry: false, offline: false, reducedMotion: false, transit: '' };
   for (let index = 0; index < argv.length; index += 1) {
     const arg = argv[index];
     const next = () => { index += 1; return argv[index]; };

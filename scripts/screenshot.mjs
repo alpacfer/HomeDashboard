@@ -41,6 +41,12 @@
 //                          and two service messages. No provider is asked. Use
 //                          it for any capture of how a delay or an incident is
 //                          marked: a live feed will not produce one to order.
+//   --transit <state>      demo, or one of the three unhealthy boards:
+//                          stale (dated four minutes back, amber stamp),
+//                          expired (seven minutes, red stamp and blank
+//                          boards) or down (the route refuses, "no data").
+//                          The only way to photograph a board that is not
+//                          fresh.
 //   --width, --height      Viewport in CSS pixels. Default 1280 x 720.
 //   --scale <n>            Output pixels per CSS pixel. Default 1; 2 for detail.
 //   --clip <selector>      Crop to the first element matching the selector.
@@ -75,7 +81,7 @@ import { findChrome, launchChrome, openPage, pageUrl, takeUrlFlag, waitForServer
 const ROOT = path.resolve(path.dirname(fileURLToPath(import.meta.url)), '..');
 
 function parseArgs(argv) {
-  const options = { classes: [], console: false, demo: false, dry: false, offline: false, reducedMotion: false, transitDemo: false };
+  const options = { classes: [], console: false, demo: false, dry: false, offline: false, reducedMotion: false, transit: '' };
   for (let index = 0; index < argv.length; index += 1) {
     const arg = argv[index];
     const next = () => { index += 1; return argv[index]; };
@@ -112,7 +118,7 @@ function defaultName(options) {
   else if (options.dry) parts.push('dry');
   else if (options.offline && !options.demo) parts.push('offline');
   else if (options.demo) parts.push('demo');
-  if (options.transitDemo) parts.push('transit-demo');
+  if (options.transit) parts.push('transit-' + options.transit);
   if (options.pet) parts.push('pet-' + options.pet);
   return parts.join('-') + '.png';
 }

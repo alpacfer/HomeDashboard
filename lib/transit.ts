@@ -170,10 +170,51 @@ export function alertText(value: unknown): string {
   return text.length > ALERT_TEXT_LIMIT ? text.slice(0, ALERT_TEXT_LIMIT - 1).trimEnd() + '\u2026' : text;
 }
 
+// How old the board is allowed to get, in the two thresholds everything reads
+// it against. The panel asks again every two minutes, so three is one missed
+// round trip -- worth marking -- and five is two, at which point the times are
+// old enough to send somebody to a stop for a bus that has already gone, and
+// the boards blank themselves rather than show them.
+export const BOARD_STALE_MS = 180_000;
+export const BOARD_EXPIRED_MS = 300_000;
+
+export type Freshness = { label: string; spoken: string; severity: '' | 'warning' | 'severe' };
+
+/**
+ * Pure: how old the board on screen is, in the few characters the display
+ * keeps permanently in its corner.
+ *
+ * Permanent is the point. This used to be a line that appeared only once
+ * something was wrong, and appearing cost the panel a row of its height, so
+ * every departure on screen moved the moment the network hiccupped -- on a
+ * wall nobody is standing in front of to re-read. The stamp is always
+ * rendered and always the same box now; what changes is the number in it and
+ * its colour. `spoken` is the long form, which costs no pixels.
+ */
+export function boardFreshness(data: TransitData | null, now: number, failed: boolean): Freshness {
+  if (data?.status === 'needs_key') return { label: 'no key', spoken: 'Departures unavailable: no provider key', severity: 'severe' };
+  // Before the first answer there is nothing to date. A failure with no
+  // earlier answer behind it is the one state with no number to show at all.
+  if (!data) return failed
+    ? { label: 'no data', spoken: 'Departures unavailable', severity: 'severe' }
+    : { label: '', spoken: '', severity: '' };
+  // Clamped, because `generatedAt` is the server's clock and the subtraction
+  // is the browser's: a Fire TV a few seconds behind Render would otherwise
+  // floor to -1 and print "-1 min ago".
+  const minutes = Math.floor(Math.max(0, now - data.generatedAt) / 60_000);
+  const age = now - data.generatedAt;
+  const label = minutes < 1 ? 'just now' : minutes + ' min ago';
+  return {
+    label,
+    spoken: 'Departures updated ' + label,
+    severity: age > BOARD_EXPIRED_MS ? 'severe' : age > BOARD_STALE_MS ? 'warning' : '',
+  };
+}
+
 // Compact mode keeps the next usable departure for every existing direction.
 // Never retain old times after the same five-minute expiry used by the full board.
 export function nextCompactDeparture(data: TransitData | null, board: string, now: number): Departure | undefined {
-  if (data?.status !== 'ready' || now - data.generatedAt > 300000) return undefined;
+  if (data?.status !== 'ready' || now - data.generatedAt > BOARD_EXPIRED_MS) return undefined;
   return (data.boards[board] || []).filter(item => item.expected >= now && !item.cancelled)
     .sort((a, b) => a.expected - b.expected)[0];
 }

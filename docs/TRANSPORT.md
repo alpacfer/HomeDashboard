@@ -41,8 +41,8 @@ Denmark is the official data: Rejseplanen's GTFS, plus that same Rejsekart &
 Rejseplan A/S SIRI feed, converted from the event queue. So the departures,
 delays and cancellations below originate first-party even though the endpoint
 does not. Realtime coverage is thinner than Rejseplanen's — roughly half of
-events carry a live time against nearly all of them — which is why the panel
-prints `Live times via Transitous` while the fallback is answering.
+events carry a live time against nearly all of them — which is why the full
+board names Transitous on its freshness stamp while the fallback is answering.
 
 Transitous asks for open-source, non-commercial use, an identifying
 `User-Agent`, and contact before heavy use. All three live in
@@ -244,6 +244,14 @@ platform changes stay visible. Entries older than five minutes are hidden after
 a connection failure. Each provider retains twelve upcoming matches per line
 and direction; the browser displays three in each direction column. Board keys
 combine the line and direction (for example `184:north`, `184:south`).
+
+**How old the board is is always on screen**, as a stamp in the top right of
+the full panel and in the compact strip's top rule: `2 min ago` in the dim
+credit colour, amber past three minutes — one missed refresh — and red past
+five, which is the same threshold at which the departures blank. It is
+`boardFreshness` in `lib/transit.ts`, and `.transport-age` positions it out of
+the flow on purpose. It used to be a line that appeared only when something
+was wrong, and appearing pushed every departure up the screen.
 
 `status: needs_key` is still handled by the browser, for a payload from an
 older deployment during a rolling restart, but the route no longer returns it:

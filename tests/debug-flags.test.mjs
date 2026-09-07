@@ -19,6 +19,20 @@ test('weather is live unless the URL says off, so a typo cannot silence the disp
   assert.equal(debugFlags('?weather=DRY').weather, 'live');
 });
 
+test('the departure boards can be pinned to a synthetic state, and only to one that exists', () => {
+  // A mistyped flag must leave the wall on the live provider: the three
+  // unhealthy states exist to be photographed, never to be arrived at.
+  assert.equal(debugFlags('').transit, 'live');
+  assert.equal(debugFlags('?transit=demo').transit, 'demo');
+  assert.equal(debugFlags('?transit=stale').transit, 'stale');
+  assert.equal(debugFlags('?transit=expired').transit, 'expired');
+  assert.equal(debugFlags('?transit=down').transit, 'down');
+  assert.equal(debugFlags('?scene=transport&transit=stale').transit, 'stale');
+  assert.equal(debugFlags('?transit=DEMO').transit, 'live');
+  assert.equal(debugFlags('?transit=old').transit, 'live');
+  assert.equal(debugFlags('?transit=constructor').transit, 'live');
+});
+
 test('the clock can be pinned to a Copenhagen time, and only to one that exists', () => {
   assert.equal(debugFlags('').time, null);
   assert.deepEqual(debugFlags('?time=08:46').time, { hour: 8, minute: 46 });

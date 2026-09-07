@@ -147,13 +147,22 @@ async function loadChain(key: string | undefined): Promise<TransitData> {
 export async function GET(request: Request) {
   const key = process.env.REJSEPLANEN_ACCESS_ID;
   const headers = { 'Content-Type': 'application/json', 'Cache-Control': 'no-store' };
-  // Debug: `?transit=demo` on the page reaches the route as `?demo=1`. No
-  // provider is asked and nothing is cached, so a capture of the marking can
-  // never leave a synthetic board behind. See lib/transit-demo.ts.
-  if (new URL(request.url).searchParams.get('demo') === '1') {
+  // Debug: `?transit=<state>` on the page reaches the route as `?demo=<state>`
+  // (and as `?demo=1` from an older client). No provider is asked and nothing
+  // is cached, so a capture of the marking can never leave a synthetic board
+  // behind. See lib/transit-demo.ts and lib/debug-flags.ts.
+  const demo = new URL(request.url).searchParams.get('demo');
+  if (demo) {
+    // `down` takes the browser's real failure path rather than inventing a
+    // second one: the panel already turns any unusable answer into "no data".
+    if (demo === 'down') return Response.json({ status: 'unavailable', generatedAt: Date.now(), boards: {} }, { status: 503, headers });
+    // Dating the board back also moves its departures, which is what a board
+    // this old really looks like. Four minutes is past the stamp's amber
+    // threshold, seven past the red one at which the boards blank.
+    const age = demo === 'expired' ? 420_000 : demo === 'stale' ? 240_000 : 0;
     // Translated like a real answer, so a capture shows the English the wall
     // would really print rather than the Danish the demo is written in.
-    return Response.json(await translate(demoTransitData(Date.now())), { headers });
+    return Response.json(await translate(demoTransitData(Date.now() - age)), { headers });
   }
   // Three stop boards every two minutes (~66,960 calls in a 31-day month;
   // past Rejseplanen's free tier, see docs/TRANSPORT.md).

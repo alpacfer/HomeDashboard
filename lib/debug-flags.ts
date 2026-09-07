@@ -34,6 +34,17 @@
 //                  this is the only way to check the marking on purpose. The
 //                  data is built in the route handler and never ships to the
 //                  browser (lib/transit-demo.ts).
+//   ?transit=stale     The same synthetic board, dated four minutes ago, which
+//                  is past the three-minute mark the freshness stamp turns
+//                  amber at.
+//   ?transit=expired   Dated seven minutes ago: past the five-minute mark, so
+//                  the stamp is red and the boards blank themselves.
+//   ?transit=down  The route answers 503 and the browser takes its real
+//                  failure path, so the stamp reads "no data". Together these
+//                  three are the only way to photograph a board that is not
+//                  fresh: waiting for the network to fail on cue is not a
+//                  method, and the age of what is on screen is the one thing
+//                  the panel says about itself at every moment.
 //   ?time=HH:MM    The page's clock reads this Copenhagen time instead of the
 //                  real one; seconds still tick, so the minute still rolls.
 //                  Which digits the clock shows otherwise depends on when the
@@ -69,7 +80,7 @@ import type { SourceName } from './forecast-sources';
 
 export type PinnedTime = { hour: number; minute: number };
 export type Weather = 'live' | 'off' | 'demo' | 'dry' | 'none';
-export type Transit = 'live' | 'demo';
+export type Transit = 'live' | 'demo' | 'stale' | 'expired' | 'down';
 export type PetMotionPreview = 'hop' | 'balance' | 'peek';
 export type DebugFlags = {
   weather: Weather;
@@ -88,13 +99,19 @@ export function debugFlags(search: string): DebugFlags {
   const motion = params.get('pet-motion');
   return {
     weather: weather === 'off' || weather === 'demo' || weather === 'dry' || weather === 'none' ? weather : 'live',
-    transit: params.get('transit') === 'demo' ? 'demo' : 'live',
+    transit: parseTransit(params.get('transit')),
     time: parseTime(params.get('time')),
     source: parseSource(params.get('source')),
     pet: parsePet(pet),
     petTravel: pet?.startsWith('travel-') ? parsePet(pet.slice('travel-'.length)) : null,
     petMotion: motion === 'hop' || motion === 'balance' || motion === 'peek' ? motion : null,
   };
+}
+
+const TRANSIT_STATES: readonly string[] = ['demo', 'stale', 'expired', 'down'];
+
+function parseTransit(value: string | null): Transit {
+  return TRANSIT_STATES.includes(value ?? '') ? value as Transit : 'live';
 }
 
 // URL ids rather than the provider names themselves, so the flag does not

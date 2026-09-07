@@ -35,6 +35,7 @@ can never leave the wall display stuck. They combine:
 | Flag | Effect | Parsed in |
 | --- | --- | --- |
 | `?transit=demo` | Draws the departure boards from a synthetic answer holding a cancellation, a long delay, an early departure, a platform change and two service messages. No provider is asked. It is the only way to check how a delay or an incident is marked on purpose. | `lib/transit-demo.ts` |
+| `?transit=stale`, `?transit=expired`, `?transit=down` | The three unhealthy boards, which is what the freshness stamp in the panel's top corner exists to say. `stale` dates the synthetic answer four minutes back, past the amber threshold; `expired` dates it seven, past the red one, at which the boards blank; `down` makes the route answer 503, so the browser takes its real failure path and the stamp reads `no data`. Waiting for the network to fail on cue is not a method. `--transit <state>` on the shot, audit and motion tools. | `lib/debug-flags.ts`, `app/api/departures/route.ts` |
 | `?scene=transport`, `?scene=fact&fact=N`, `?scene=map` | Holds one scene on the right-hand panel and schedules nothing. A `Pinned` badge replaces the rotation ring. Pinning also overrides the skip below, which is the only way to see the map on a dry forecast. | `lib/panel-rotation.ts` |
 | `?weather=off` | The weather card, the week strip and the forecast map make **no request**. The card, the ribbon and the week strip are filled from `lib/weather-demo.ts` instead, so a capture of something else still shows the dashboard in context rather than a hole in it. Built from the pinned clock, so it lines up with `?time=`. The clock, the transit strip and the daily facts work as normal. | `lib/debug-flags.ts` |
 | `?weather=dry` | As `demo`, but the synthetic run holds no precipitation at all. That is the state the rotation skips the forecast map for, so with `?scene=map` it is the only way to photograph the scene being skipped, and the only way to audit its caption. A live forecast will not produce a dry six hours to order any more than it will produce rain. `--dry` on the shot and audit tools. | `lib/debug-flags.ts`, `lib/precipitation-demo.ts` |
@@ -189,6 +190,7 @@ Ubuntu, macOS and the GitHub runners; pass `--chrome <path>` otherwise.
 ```sh
 npm run shot -- --scene transport --offline            # 1280 x 720, no weather requests
 npm run shot -- --scene transport --offline --transit-demo  # ... with every delay and incident mark
+npm run shot -- --scene transport --offline --transit stale  # ... four minutes old, so the stamp is amber
 npm run shot -- --scene map                             # the map, live data
 npm run shot -- --clip .weather-band --scale 2          # one element, at 2x
 npm run shot -- --offline --time 08:46 --clip .clock-widget      # the clock card

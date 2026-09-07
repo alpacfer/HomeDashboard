@@ -1,6 +1,6 @@
 import { test } from 'node:test';
 import assert from 'node:assert/strict';
-import { alertText, boardIncidents, departureIncidents, departureTimestamp, filterDepartures, resolveStop, serviceHeadway, validTransitData } from '../lib/transit.ts';
+import { alertText, BOARD_EXPIRED_MS, BOARD_STALE_MS, boardFreshness, boardIncidents, departureIncidents, departureTimestamp, filterDepartures, resolveStop, serviceHeadway, validTransitData } from '../lib/transit.ts';
 
 const now = Date.parse('2026-08-31T18:00:00Z');
 const departure = (overrides = {}) => ({
@@ -228,4 +228,42 @@ test('rejects a departure with a field of the wrong shape', () => {
   // A platform genuinely absent is null, and that is not a fault.
   assert.equal(bad({ track: null, scheduledTrack: null }), true);
   assert.equal(bad({ alerts: [{ severity: 'info', text: 'Lift out of service' }] }), true);
+});
+
+// The freshness stamp is on screen at every moment the panel is, so every one
+// of its states is a state the wall can be found in.
+test('dates the board in minutes, and marks stale and expired by age alone', () => {
+  const at = ms => boardFreshness(body({ generatedAt: now - ms }), now, false);
+  assert.deepEqual(at(0), { label: 'just now', spoken: 'Departures updated just now', severity: '' });
+  assert.equal(at(59_000).label, 'just now');
+  assert.equal(at(60_000).label, '1 min ago');
+  assert.equal(at(119_000).label, '1 min ago');
+  assert.equal(at(600_000).label, '10 min ago');
+  assert.equal(at(BOARD_STALE_MS).severity, '');
+  assert.equal(at(BOARD_STALE_MS + 1).severity, 'warning');
+  assert.equal(at(BOARD_EXPIRED_MS).severity, 'warning');
+  assert.equal(at(BOARD_EXPIRED_MS + 1).severity, 'severe');
+  assert.equal(at(60_000).spoken, 'Departures updated 1 min ago');
+});
+
+test('never counts backwards when the browser clock trails the server', () => {
+  // generatedAt from Render, the subtraction in the Fire TV: a few seconds of
+  // skew must not floor to a negative and print "-1 min ago".
+  assert.equal(boardFreshness(body({ generatedAt: now + 4_000 }), now, false).label, 'just now');
+  assert.equal(boardFreshness(body({ generatedAt: now + 600_000 }), now, false).severity, '');
+});
+
+test('says nothing before the first answer and names the states with no timestamp', () => {
+  assert.deepEqual(boardFreshness(null, now, false), { label: '', spoken: '', severity: '' });
+  assert.deepEqual(boardFreshness(null, now, true), { label: 'no data', spoken: 'Departures unavailable', severity: 'severe' });
+  assert.equal(boardFreshness(body({ status: 'needs_key' }), now, false).label, 'no key');
+  assert.equal(boardFreshness(body({ status: 'needs_key' }), now, false).severity, 'severe');
+});
+
+test('a failed refresh behind a fresh answer leaves the stamp alone', () => {
+  // The times on screen are only as old as the last answer. A single request
+  // that did not land does not make them stale, and colouring them the moment
+  // one fails put a warning on the wall for a blip nobody could act on.
+  assert.equal(boardFreshness(body({ generatedAt: now - 30_000 }), now, true).severity, '');
+  assert.equal(boardFreshness(body({ generatedAt: now - BOARD_EXPIRED_MS - 1 }), now, true).severity, 'severe');
 });

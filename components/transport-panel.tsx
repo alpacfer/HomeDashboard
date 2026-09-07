@@ -1,7 +1,7 @@
 'use client';
 
 import { useEffect, useState } from 'react';
-import { boardIncidents, departureIncidents, LINES, nextCompactDeparture, serviceHeadway, validTransitData, type Departure, type TransitData } from '@/lib/transit';
+import { BOARD_EXPIRED_MS, boardFreshness, boardIncidents, departureIncidents, LINES, nextCompactDeparture, serviceHeadway, validTransitData, type Departure, type TransitData } from '@/lib/transit';
 import { debugFlags } from '@/lib/debug-flags';
 
 import { copenhagenClock } from '@/lib/copenhagen';
@@ -36,9 +36,10 @@ export default function TransportPanel({ compact = false }: { compact?: boolean 
     let active = true;
     let pending = false;
     let inFlight: AbortController | null = null;
-    // Debug: `?transit=demo` asks the route for a synthetic board instead of a
-    // provider. See lib/debug-flags.ts.
-    const endpointQuery = debugFlags(window.location.search).transit === 'demo' ? '?demo=1' : '';
+    // Debug: `?transit=demo|stale|expired|down` asks the route for a synthetic
+    // board instead of a provider, dated or refused. See lib/debug-flags.ts.
+    const transit = debugFlags(window.location.search).transit;
+    const endpointQuery = transit === 'live' ? '' : '?demo=' + transit;
     const refresh = async () => {
       if (pending || document.hidden) return;
       pending = true;
@@ -74,17 +75,26 @@ export default function TransportPanel({ compact = false }: { compact?: boolean 
       window.removeEventListener('keydown', key);
     };
   }, []);
-  const stale = failed || !!(data && now - data.generatedAt > 180000);
-  const expired = !!(data && now - data.generatedAt > 300000);
+  const expired = !!(data && now - data.generatedAt > BOARD_EXPIRED_MS);
   const incidents = expired ? [] : boardIncidents(data, now);
-  const staleStatus = stale && data?.status !== 'needs_key'
-    ? (expired || !data ? 'Departures unavailable' : 'Last update ' + clock(data.generatedAt))
-    : '';
-  // Provenance is shown only while the keyless fallback is answering, and only
-  // on the full board: its realtime coverage is thinner than Rejseplanen's, so
-  // a departure with no live flag means less there than it would here. The
-  // compact strip sits under another scene and keeps its room for departures.
-  const status = staleStatus || (!expired && data?.source === 'transitous' ? 'Live times via Transitous' : '');
+  const freshness = boardFreshness(data, now, failed);
+  // Who answered rides on the same stamp as one word, and only on the full
+  // board: the keyless fallback's realtime coverage is thinner than
+  // Rejseplanen's, so a departure with no live dot means less there than it
+  // would here. It was its own sentence on its own line, which said the same
+  // thing at four times the width and moved the boards when it appeared. The
+  // strip shows six numbers under another scene and says only how old they are.
+  const viaFallback = !compact && !expired && data?.source === 'transitous';
+  // Always rendered and out of the flow, so a board that goes stale says so
+  // without moving a single departure. See `boardFreshness` and
+  // `.transport-age` in app/globals.css.
+  const age = freshness.label
+    ? <p className={'transport-age' + (freshness.severity ? ' sev-' + freshness.severity : '')}
+        aria-label={freshness.spoken + (viaFallback ? '. Live times via Transitous' : '')}>
+        <span aria-hidden="true">{freshness.label}</span>
+        {viaFallback && <span className="transport-source" aria-hidden="true">Transitous</span>}
+      </p>
+    : null;
 
   if (compact) return <section className="transport-mini" aria-label="Next departure for each route">
     <div className="mini-routes">
@@ -105,7 +115,7 @@ export default function TransportPanel({ compact = false }: { compact?: boolean 
     {incidents.length > 0 && <p className="transport-incidents" role="status">
       {incidents.map(incident => <span className={'incident sev-' + incident.severity} key={incident.kind + incident.label}>{incident.label}</span>)}
     </p>}
-    {staleStatus && <p className="transport-status" role="status">{staleStatus}</p>}
+    {age}
   </section>;
 
   return <section className="transport-panel" aria-label="Next public transport departures">
@@ -154,6 +164,6 @@ export default function TransportPanel({ compact = false }: { compact?: boolean 
         })}
         </div>
       </article>)}
-    {status && <p className="transport-status" role="status">{status}</p>}
+    {age}
   </section>;
 }

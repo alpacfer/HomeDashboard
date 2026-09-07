@@ -161,7 +161,7 @@ a:focus-visible { outline:2px solid var(--foreground); outline-offset:8px; }
    the room. A one-way board only ever fills half its row anyway, so the two of
    them share one: 164 beside A costs a row, not a board. Everything that is
    not a board (the incident line, the status line) still spans the width. */
-.transport-panel { display:grid; grid-template-columns:repeat(2,minmax(0,1fr)); align-content:space-between; min-width:0; column-gap:2vw; row-gap:2vh; }
+.transport-panel { position:relative; display:grid; grid-template-columns:repeat(2,minmax(0,1fr)); align-content:space-between; min-width:0; column-gap:2vw; row-gap:2vh; }
 .transport-panel > * { grid-column:1 / -1; }
 .departure-board { padding:0 0 1.8vh; border-bottom:1px solid #303035; }
 .departure-heading { display:flex; align-items:center; gap:1.1vw; margin-bottom:1.4vh; }
@@ -201,6 +201,12 @@ a:focus-visible { outline:2px solid var(--foreground); outline-offset:8px; }
 /* Only rendered when something is actually wrong, so the boards keep their
    full height on an ordinary day. */
 .transport-incidents { display:flex; flex-wrap:wrap; gap:.5vw; margin:0; padding-right:9vw; }
+/* On the full panel the chips share their line with the freshness stamp and
+   the countdown ring, so the reserve is both of those: 2.9vw of offset plus
+   the longest stamp, "12 min ago \00b7 Transitous". The chips wrap; they never
+   run under it. The compact strip keeps the smaller reserve, because there the
+   chips sit below the routes and only the ring is in their way. */
+.transport-panel > .transport-incidents { padding-right:13vw; }
 .incident { padding:.35vh .6vw; border-radius:.3vw; border:1px solid currentColor; font-size:.95vw; font-weight:700; line-height:1.2; }
 .incident.sev-severe { color:var(--severe); }
 .incident.sev-warning { color:var(--warning); }
@@ -213,7 +219,26 @@ a:focus-visible { outline:2px solid var(--foreground); outline-offset:8px; }
    full-width version used to take no longer fits a clock time in the cell. */
 .departure-board.single-direction { grid-column:span 1; }
 .single-direction + .single-direction { padding-left:2vw; border-left:1px solid #303035; }
-.transport-status { margin:0; font-size:clamp(11px,.85vw,18px); color:var(--muted); }
+/* How old the board is, and it never moves anything to say so. It used to be
+   a line in the flow that appeared only when the network hiccupped, and
+   appearing pushed every departure up the screen -- on a wall nobody reloads
+   or re-reads. So it is permanent, out of flow, and the same box in every
+   state: only the number in it and its colour change. Both hosts park it in
+   space that is already empty. On the full panel that is the top right beside
+   the countdown ring, cleared by the ring's own width plus a gap and by the
+   reserve the incident chips keep beside it. On the compact strip it is the
+   band between the rule and the route headings. */
+.transport-age { position:absolute; top:0; right:0; z-index:1; margin:0; font-size:clamp(11px,.85vw,18px); line-height:1.25; letter-spacing:-.01em; font-variant-numeric:tabular-nums; color:var(--credit); white-space:nowrap; }
+.transport-age.sev-warning { color:var(--warning); }
+.transport-age.sev-severe { color:var(--severe); }
+/* Who answered, when it is not the primary: one word on the stamp's own line,
+   dimmed so the age still reads first, and never coloured by the severity --
+   the provider is not the thing that went stale. */
+.transport-source { opacity:.7; }
+.transport-source::before { content:'\00b7'; margin:0 .4em; opacity:.6; }
+.transport-age.sev-warning .transport-source,.transport-age.sev-severe .transport-source { color:var(--credit); opacity:1; }
+.transport-panel .transport-age { right:2.9vw; }
+.transport-mini .transport-age { top:.5vh; }
 .rotating-panel { position:relative; display:grid; min-width:0; min-height:0; }
 .screen-progress { position:absolute; top:.3vh; right:0; width:clamp(18px,1.65vw,32px); height:clamp(18px,1.65vw,32px); z-index:1; fill:none; stroke-width:2.5; pointer-events:none; }
 .screen-progress-track { stroke:#303035; }
@@ -248,7 +273,7 @@ a:focus-visible { outline:2px solid var(--foreground); outline-offset:8px; }
 .transit-scene > .transport-panel { flex:1; }
 .showing-compact-transit { grid-template-rows:minmax(0,1fr) auto; gap:3vh; }
 .showing-compact-transit .transit-scene { grid-area:2 / 1; }
-.transport-mini { width:100%; padding-top:2.5vh; border-top:1px solid #303035; }
+.transport-mini { position:relative; width:100%; padding-top:2.5vh; border-top:1px solid #303035; }
 .mini-routes { display:grid; grid-template-columns:repeat(6,minmax(0,1fr)); gap:1.1vw; }
 .mini-route { min-width:0; }
 .mini-heading { display:flex; align-items:center; gap:.45vw; font-size:1vw; line-height:1.1; letter-spacing:-.025em; }
@@ -261,7 +286,6 @@ a:focus-visible { outline:2px solid var(--foreground); outline-offset:8px; }
 .mini-time.sev-warning { color:var(--warning); }
 .mini-flag { display:block; margin-top:.2vh; font-size:.8vw; font-style:normal; font-weight:700; letter-spacing:0; }
 .transport-mini .transport-incidents { margin-top:1vh; }
-.transport-mini .transport-status { margin-top:1vh; }
 .daily-fact-scene { --fact-accent:#e6c864; display:flex; flex-direction:column; position:relative; padding:1vh 0 3vh; }
 .category-tech { --fact-accent:#6fd3e8; }
 .category-space { --fact-accent:#a99bf5; }

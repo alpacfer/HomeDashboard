@@ -147,7 +147,7 @@ export async function launchChrome(binary, width, height) {
 // measuring "the same" scene quietly differ. That drift is not hypothetical:
 // extracting this function dropped --transit-demo from the URL while both
 // scripts still advertised it. scripts/check-rules.mjs enforces the list.
-export const URL_FLAGS = ['--url', '--scene', '--fact', '--offline', '--demo', '--dry', '--no-weather', '--transit-demo', '--time', '--pet', '--date', '--sky'];
+export const URL_FLAGS = ['--url', '--scene', '--fact', '--offline', '--demo', '--dry', '--no-weather', '--transit-demo', '--transit', '--time', '--pet', '--date', '--sky'];
 
 /**
  * Handle one of URL_FLAGS, or report that it is not one.
@@ -173,7 +173,8 @@ export function takeUrlFlag(flag, options, value, arg = flag) {
     case '--demo': options.demo = true; return true;
     case '--dry': options.dry = true; return true;
     case '--no-weather': options.noWeather = true; return true;
-    case '--transit-demo': options.transitDemo = true; return true;
+    case '--transit-demo': options.transit = 'demo'; return true;
+    case '--transit': options.transit = value(); return true;
     case '--time': options.time = value(); return true;
     case '--pet': options.pet = value(); return true;
     case '--date': options.date = value(); return true;
@@ -196,7 +197,9 @@ export function pageUrl(options) {
   if (options.dry) url.searchParams.set('weather', 'dry');
   // And the empty card outranks all three: it is the one state a placeholder hides.
   if (options.noWeather) url.searchParams.set('weather', 'none');
-  if (options.transitDemo) url.searchParams.set('transit', 'demo');
+  // demo, stale, expired or down: a synthetic board, optionally dated back
+  // past the freshness stamp's thresholds, or refused outright.
+  if (options.transit) url.searchParams.set('transit', options.transit);
   if (options.time) url.searchParams.set('time', options.time);
   if (options.pet) url.searchParams.set('pet', options.pet);
   if (options.date) url.searchParams.set('date', options.date);
