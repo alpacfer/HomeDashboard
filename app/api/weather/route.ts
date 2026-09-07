@@ -23,6 +23,11 @@ const TTL_MS: Record<GoogleKind, number> = { hours: 10 * 60 * 1000, days: 30 * 6
 
 const recent = new Map<GoogleKind, { payload: unknown; expires: number }>();
 const inFlight = new Map<GoogleKind, Promise<unknown>>();
+// A failure is remembered too, briefly. Without this every page load during a
+// Google outage spent a call from the monthly tier to be told no again: an
+// `npm run audit` is seven loads, and the browser retries on its own backoff.
+const FAILURE_TTL_MS = 60 * 1000;
+const failed = new Map<GoogleKind, number>();
 
 async function load(kind: GoogleKind, key: string) {
   // One controller per request with its own deadline, never a shared signal:
@@ -59,6 +64,7 @@ export async function GET(request: Request) {
 
   const cached = recent.get(kind);
   if (cached && cached.expires > Date.now()) return Response.json(cached.payload, { headers });
+  if ((failed.get(kind) ?? 0) > Date.now()) return Response.json({ error: 'provider unavailable' }, { status: 503, headers });
 
   let pending = inFlight.get(kind);
   if (!pending) {
@@ -74,6 +80,7 @@ export async function GET(request: Request) {
     // fails, so the two can be read together. The message is ours, not
     // Google's, for the reason given in load().
     console.warn('[weather] Google ' + kind + ' failed:', (error as Error).message);
+    failed.set(kind, Date.now() + FAILURE_TTL_MS);
     return Response.json({ error: 'provider unavailable' }, { status: 503, headers });
   } finally { inFlight.delete(kind); }
 }

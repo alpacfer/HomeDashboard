@@ -13,7 +13,8 @@ import {
   advectedCells, distinctStates, estimateFlows, MIN_DRAW_MS, momentAt, PLAYHEAD_MS, sequencePosition, steadyFlows,
 } from '@/lib/precipitation-flow';
 import { demoGrid, dryGrid } from '@/lib/precipitation-demo';
-import { CHECK_RETRY_MS, MODEL_META_URL, nextCheckAt, parseModelRun, shouldFetchGrid, type ModelRun } from '@/lib/forecast-refresh';
+import { CHECK_FALLBACK_MS, CHECK_RETRY_MS, MODEL_META_URL, nextCheckAt, parseModelRun, retryDelay, shouldFetchGrid, type ModelRun } from '@/lib/forecast-refresh';
+import { FORECAST_LATITUDE, FORECAST_LONGITUDE } from '@/lib/weather';
 import { MAP_MS } from '@/lib/panel-rotation';
 import {
   MAP_ART_BOUNDS, MAP_ART_PLATES, MAP_LIGHTS_Z, MAP_LIGHT_SHEETS, MAP_SHADOW_SHEETS, MAP_SHADOW_Z,
@@ -23,6 +24,7 @@ import type { SkyLight } from '@/lib/clock-sky';
 import { debugFlags } from '@/lib/debug-flags';
 import { readStored, writeStored } from './device-storage';
 import { openMeteoLockout, recordOpenMeteoRefusal } from './open-meteo-lockout';
+import { onRefreshTriggers } from './refresh-triggers';
 
 // The last grid, kept on the device. One grid request is about three hundred
 // coordinates, each of which Open-Meteo counts against a daily quota of ten
@@ -32,7 +34,9 @@ import { openMeteoLockout, recordOpenMeteoRefusal } from './open-meteo-lockout';
 // when a newer one exists.
 const STORAGE_KEY = 'home-dashboard:forecast-grid:v1';
 
-const HOME: [number, number] = [55.73825, 12.53836];
+// The marker sits where the forecast is asked for; one pair of coordinates,
+// not two that agree today.
+const HOME: [number, number] = [FORECAST_LATITUDE, FORECAST_LONGITUDE];
 const PLACES: Array<{ label: string; coordinates: [number, number]; home?: boolean }> = [
   { label: 'Home', coordinates: HOME, home: true },
   { label: 'Copenhagen', coordinates: [55.6761, 12.5683] },
@@ -358,10 +362,12 @@ export default function ForecastMapPanel({ active, onDry, light }: { active: boo
         busy = false;
         if (!cancelled) {
           // After a failure, retry soon and back off (5, 10, 20, 40, then 60
-          // minutes) so a rate limit or an outage is picked up again as soon
-          // as it clears; otherwise wait for the next run. A refusal that
-          // named its limit has said when that is, and the retry waits for it.
-          const backoff = Date.now() + Math.min(CHECK_RETRY_MS * 2 ** Math.max(0, failures - 1), 60 * 60_000);
+          // minutes, jittered like the other two panels so all three do not
+          // come back in the same millisecond) so a rate limit or an outage
+          // is picked up again as soon as it clears; otherwise wait for the
+          // next run. A refusal that named its limit has said when that is,
+          // and the retry waits for it.
+          const backoff = Date.now() + retryDelay(failures, CHECK_RETRY_MS, CHECK_FALLBACK_MS);
           const retry = Math.max(backoff, (openMeteoLockout(Date.now())?.until ?? 0) + 1_000);
           allowedAt = failures ? retry : 0;
           schedule(failures ? retry : nextCheckAt(Date.now(), run));
@@ -371,11 +377,9 @@ export default function ForecastMapPanel({ active, onDry, light }: { active: boo
     refresh.current = () => { if (Date.now() >= allowedAt) void load(); };
     void load();
     const clock = window.setInterval(() => setNowMs(Date.now()), 60_000);
-    const resume = () => { if (!document.hidden && Date.now() >= allowedAt) void load(); };
+    const resume = () => { if (Date.now() >= allowedAt) void load(); };
     // Coming back online is the one event that makes an earlier failure moot.
-    const online = () => { allowedAt = 0; resume(); };
-    window.addEventListener('online', online);
-    document.addEventListener('visibilitychange', resume);
+    const off = onRefreshTriggers(resume, { online: () => { allowedAt = 0; if (!document.hidden) void load(); } });
     return () => {
       cancelled = true;
       refresh.current = () => undefined;
@@ -383,8 +387,7 @@ export default function ForecastMapPanel({ active, onDry, light }: { active: boo
       window.clearTimeout(restore);
       window.clearTimeout(timer);
       window.clearInterval(clock);
-      window.removeEventListener('online', online);
-      document.removeEventListener('visibilitychange', resume);
+      off();
     };
   }, [mapReady]);
 
@@ -463,6 +466,10 @@ export default function ForecastMapPanel({ active, onDry, light }: { active: boo
     }
     const pixels = source.getContext('2d');
     if (!pixels) return;
+    // One image for the grid, written into on every paint. Allocating a new
+    // ImageData every 40 ms for the thirty seconds the scene is up, forever,
+    // was steady garbage-collector pressure on the one scene that animates.
+    const data = pixels.createImageData(columns, rows);
     const paint = (at: number) => {
       // Measure the rendered map container, not Leaflet's cached map size.
       // The two can diverge while the transit strip changes the layout. A
@@ -482,7 +489,6 @@ export default function ForecastMapPanel({ active, onDry, light }: { active: boo
         surface.style.height = height + 'px';
       }
       context.clearRect(0, 0, width, height);
-      const data = pixels.createImageData(columns, rows);
       // Cells run row-major from the south-west; image rows run from the top.
       advectedCells(states, flows, columns, rows, at).forEach((millimetres, index) => {
         const row = rows - 1 - Math.floor(index / columns);
@@ -631,11 +637,14 @@ export default function ForecastMapPanel({ active, onDry, light }: { active: boo
       {expired && !artFailed && <p className="forecast-map-stale" role="status">Forecast expired · waiting for the next model run</p>}
       {/* Both licences are satisfied by the name plus the link; the sentence
           each one asks for is on the link's accessible label, which is the
-          only place it can be read on a display with no pointer. */}
+          only place it can be read on a display with no pointer. Out of the
+          focus order, like every outbound link here: the remote's OK on a
+          focused link would open a tab over the display, and nobody is there
+          to close it. */}
       <footer className="forecast-map-credit">
-        <a href="https://open-meteo.com/en/docs/dmi-api" target="_blank" rel="noreferrer" tabIndex={active ? 0 : -1}
+        <a href="https://open-meteo.com/en/docs/dmi-api" target="_blank" rel="noreferrer" tabIndex={-1}
           aria-label="Forecast from DMI, served by Open-Meteo">DMI · Open-Meteo</a><span>·</span>
-        <a href="https://services.arcgisonline.com/ArcGIS/rest/services/World_Imagery/MapServer" target="_blank" rel="noreferrer" tabIndex={active ? 0 : -1}
+        <a href="https://services.arcgisonline.com/ArcGIS/rest/services/World_Imagery/MapServer" target="_blank" rel="noreferrer" tabIndex={-1}
           aria-label="Illustrated from Esri World Imagery. Sources: Esri, Vantor, Earthstar Geographics, and the GIS User Community">Esri</a>
       </footer>
     </div>
