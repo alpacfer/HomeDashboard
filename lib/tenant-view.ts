@@ -13,7 +13,21 @@
 // lib/clock-tenant.ts. This is the last pure layer above them: state in,
 // class list and custom properties out.
 
-import type { Mood, Perch, PerchAction, WorldSpot } from './clock-tenant';
+import type { IdleAction, Mood, Perch, PerchAction, WorldSpot } from './clock-tenant';
+
+// How long each gesture and perch action holds its class, in milliseconds.
+// The keyframes under `.g-<gesture>` and `.pa-<action>` in app/tenant.css must
+// finish inside these, or React strips the class mid-animation and the figure
+// snaps; scripts/check-rules.mjs compares the two. A gesture with a clip of
+// its own (lean, peer, teeter) takes the clip's duration instead.
+export type GestureAction = Exclude<IdleAction, 'hop'>;
+
+export const GESTURE_MS: Record<GestureAction, number> = {
+  blink: 270, 'double-blink': 620, 'glance-digits': 1600, 'glance-up': 1600, 'look-around': 1900, smile: 1800,
+  stretch: 1400, wiggle: 900, lean: 1900, yawn: 2300,
+  scratch: 1700, sneeze: 900, wave: 1500, doze: 2600, listen: 1700,
+};
+export const PERCH_ACTION_MS: Record<PerchAction, number> = { sit: 500, peer: 4100, teeter: 3400, slip: 1000 };
 
 /** A spot the Tenant can stand on while it waits, as minted by clock.tsx. */
 export type SafeSpot = { key: string };

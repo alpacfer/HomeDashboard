@@ -1,17 +1,25 @@
 import { test } from 'node:test';
 import assert from 'node:assert/strict';
-import { peersAt, stableSpots, tenantClassName, worldSpotIds } from '../lib/tenant-view.ts';
+import { GESTURE_MS, PERCH_ACTION_MS, peersAt, stableSpots, tenantClassName, worldSpotIds } from '../lib/tenant-view.ts';
+
+test('every gesture and perch action has a positive duration for its class to hold', () => {
+  for (const [action, ms] of Object.entries(GESTURE_MS)) assert.ok(Number.isInteger(ms) && ms > 0, action);
+  for (const [action, ms] of Object.entries(PERCH_ACTION_MS)) assert.ok(Number.isInteger(ms) && ms > 0, action);
+  // The blink is the quickest thing the face does and the doze the slowest.
+  assert.equal(Math.min(...Object.values(GESTURE_MS)), GESTURE_MS.blink);
+  assert.equal(Math.max(...Object.values(GESTURE_MS)), GESTURE_MS.doze);
+});
 
 const perch = { x: 0, y: 0, kind: 'flat', slide: 1 };
 const state = (overrides = {}) => ({
-  mood: 'calm', pose: 'rest', perch, onTop: false, gesture: null, perchAction: null,
+  mood: 'awake', pose: 'rest', perch, onTop: false, gesture: null, perchAction: null,
   sitting: false, worldTarget: null, innerHandoff: false, nextDigit: 3, watch: 0, ...overrides,
 });
 const classes = overrides => tenantClassName(state(overrides)).split(' ');
 
 test('always carries the base classes, and nothing empty', () => {
   const name = tenantClassName(state());
-  assert.equal(name, 'tenant mood-calm pose-rest');
+  assert.equal(name, 'tenant mood-awake pose-rest');
   // A stray double space matches nothing and reads as fine.
   assert.ok(!/\s{2}/.test(name));
 });

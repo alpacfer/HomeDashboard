@@ -113,7 +113,7 @@ export function choosePetActivity(mind: PetMind, context: PetDecisionContext, ra
 
 export function commitPetActivity(mind: PetMind, decision: PetDecision): PetMind {
   const key: PetActivityKey = decision.kind === 'roam' ? `roam:${decision.spot}` : decision.kind;
-  const recent = [key, ...mind.recent.filter(item => item !== key)].slice(0, 4);
+  const recent = rememberRecent(mind.recent, key);
   if (decision.kind === 'roam') return {
     ...mind, energy: clamp01(mind.energy - 0.16), curiosity: clamp01(mind.curiosity - 0.5),
     adventure: 0, sceneInterest: 0, recent,
@@ -129,6 +129,45 @@ export function commitPetActivity(mind: PetMind, decision: PetDecision): PetMind
 export function petDecisionDelay(random: number, energy: number): number {
   const base = 2800 + clampRandom(random) * 4200;
   return Math.round(base + (1 - clamp01(energy)) * 1800);
+}
+
+// The minute roll is the one hazard on the Tenant's timetable: a digit it is
+// perched on can roll out from under it, and a flourish the roll interrupts
+// is removed mid-keyframe. These three rules keep its plans clear of it. They
+// were written inline in the component's scheduler, with the numbers bare.
+
+// No adventure starts in the last four seconds before a roll, nor in the
+// first two after one: the perch has to be stable and the digits settled.
+export const ROLL_MARGIN_MS = 4_000;
+export const ROLL_SETTLE_MS = 2_000;
+const MINUTE_MS = 60_000;
+
+export function canAdventureAt(msToNextMinute: number): boolean {
+  return msToNextMinute > ROLL_MARGIN_MS && msToNextMinute < MINUTE_MS - ROLL_SETTLE_MS;
+}
+
+// A flourish on a perch fits before the roll if it can finish, settle for the
+// frames React needs to remove its class, and leave a little to spare.
+export const ROLL_GUARD_MS = 250;
+
+export function fitsBeforeRoll(msToNextMinute: number, durationMs: number, settleMs: number): boolean {
+  return msToNextMinute > durationMs + settleMs + ROLL_GUARD_MS;
+}
+
+// The most recent first, each once, and no more than `limit` remembered. The
+// mind's own memory (`recent` above) and the gesture picker's share this shape.
+export function rememberRecent<T>(recent: readonly T[], latest: T, limit = 4): T[] {
+  return [latest, ...recent.filter(item => item !== latest)].slice(0, limit);
+}
+
+// How long a visit to a landmark lasts before the Tenant may leave on its own:
+// the longest landmark action is 5.4 s, then it returns to its neutral
+// keyframe and breathes a while, so the departure never cuts a pose short.
+export const VISIT_DWELL_MIN_MS = 5_800;
+export const VISIT_DWELL_SPREAD_MS = 1_800;
+
+export function visitDwellMs(random: number): number {
+  return VISIT_DWELL_MIN_MS + clampRandom(random) * VISIT_DWELL_SPREAD_MS;
 }
 
 function sceneSpot(scene: Rotation['phase']): WorldSpotId {

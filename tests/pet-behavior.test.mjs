@@ -1,7 +1,9 @@
 import { test } from 'node:test';
 import assert from 'node:assert/strict';
 import {
-  advancePetMind, choosePetActivity, commitPetActivity, initialPetMind, noticePetScene, noticePetStimulus, petDecisionDelay,
+  advancePetMind, canAdventureAt, choosePetActivity, commitPetActivity, fitsBeforeRoll, initialPetMind, noticePetScene,
+  noticePetStimulus, petDecisionDelay, rememberRecent, ROLL_GUARD_MS, ROLL_MARGIN_MS, ROLL_SETTLE_MS, visitDwellMs,
+  VISIT_DWELL_MIN_MS, VISIT_DWELL_SPREAD_MS,
 } from '../lib/pet-behavior.ts';
 
 test('the pet mind builds drives slowly and notices a new screen without forcing an action', () => {
@@ -61,4 +63,33 @@ test('decision cadence stays sparse and slows with low energy', () => {
   assert.equal(petDecisionDelay(0, 1), 2800);
   assert.ok(petDecisionDelay(0.999, 1) < 7000);
   assert.ok(petDecisionDelay(0, 0) > petDecisionDelay(0, 1));
+});
+
+test('adventures keep clear of the minute roll on both sides', () => {
+  assert.equal(canAdventureAt(30_000), true);
+  // The last four seconds before a roll: the perch might go.
+  assert.equal(canAdventureAt(ROLL_MARGIN_MS), false);
+  assert.equal(canAdventureAt(ROLL_MARGIN_MS + 1), true);
+  // The first two after one: the digits are still settling.
+  assert.equal(canAdventureAt(60_000 - ROLL_SETTLE_MS), false);
+  assert.equal(canAdventureAt(60_000 - ROLL_SETTLE_MS - 1), true);
+});
+
+test('a perch flourish fits only when it can finish, settle and leave a margin', () => {
+  assert.equal(fitsBeforeRoll(5_000, 4_100, 80), true);
+  assert.equal(fitsBeforeRoll(4_100 + 80 + ROLL_GUARD_MS, 4_100, 80), false);
+  assert.equal(fitsBeforeRoll(4_100 + 80 + ROLL_GUARD_MS + 1, 4_100, 80), true);
+});
+
+test('recent memory keeps the latest first, each once, and no more than the limit', () => {
+  assert.deepEqual(rememberRecent(['a', 'b', 'c'], 'd'), ['d', 'a', 'b', 'c']);
+  assert.deepEqual(rememberRecent(['a', 'b', 'c', 'd'], 'e'), ['e', 'a', 'b', 'c']);
+  assert.deepEqual(rememberRecent(['a', 'b', 'c'], 'b'), ['b', 'a', 'c']);
+  assert.deepEqual(rememberRecent([], 'a', 2), ['a']);
+});
+
+test('a visit lasts long enough for the longest landmark action and a breath', () => {
+  assert.equal(visitDwellMs(0), VISIT_DWELL_MIN_MS);
+  assert.ok(visitDwellMs(0.999) < VISIT_DWELL_MIN_MS + VISIT_DWELL_SPREAD_MS);
+  assert.ok(VISIT_DWELL_MIN_MS > 5_400);
 });
