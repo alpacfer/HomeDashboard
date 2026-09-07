@@ -192,6 +192,15 @@ They reuse the selected day/night plate and leave the trunks and horizon fixed.
 Three small birds take occasional paths with different long periods; their
 wings flap independently. These are irregular deterministic cycles, not a
 random-number scheduler. Birds disappear at night and in fog or precipitation.
+Each has its own line across the sky — one climbing away, one sagging and
+recovering, one crossing the other way — rather than three passes along one
+path. The flap is bounded: it flattens the drawn wings-up shape to a little
+over a third and never mirrors it, because the largest bird is 13 px across
+and the old `scaleY(1)` to `scaleY(-.45)` beat crossed zero twice a cycle,
+leaving it a 13 x 0.03 px dash for about a quarter of every beat and inverted
+for much of the rest. What reads as a wingbeat instead is the span
+foreshortening as the wings rise, the body lifting on the power stroke, and an
+asymmetric beat — quick down, slower recovery — four times before a glide.
 
 The evening campfire has shaded logs and stones, two independently animated
 painted flame sprites, five rising embers, two drifting smoke puffs, and separate
@@ -333,6 +342,20 @@ wiggling, leaning, yawning, hopping, scratching, sneezing, waving, dozing and
 listening. The small hop uses the same charged parabola as travel rather than
 an inner-body shortcut. The cadence varies with energy rather than following
 independent metronomes.
+
+Every gesture that shuts the eyes — both blinks, the gaze blink, the sneeze,
+the yawn, the stretch and the doze — draws the shut eye as a swap rather than
+as a lid: the white, the pupils and the ring go out together and one filled
+lens comes in, which is the same pattern the smile's crescents already used.
+The lens is thickest in the middle and tapers to a corner at each end, so it
+keeps roughly the weight the open eye had. It used to be a fur lid sliding
+down while the stroked ring squashed to `scaleY(.06)`, and that squash is why
+it is gone: the eye rig is scaled `.77` vertically, so six percent of a
+26-unit ellipse lands under a pixel and anti-aliases into a broken hairline. A
+blink was quick enough to hide it, a doze held it for 1.3 s. Nothing is scaled
+now and there is no in-between drawing, so the gesture reads the same however
+slowly it plays. The half-lids in the sprawled, teetering and falling poses are
+a separate expression and still use the lid.
 
 The Tenant is not confined to the widget. `Clock` measures five destination
 landmarks and a network of safe landing pads from their real DOM boxes: the

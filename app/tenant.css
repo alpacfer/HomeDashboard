@@ -56,8 +56,9 @@
 .t-grip { fill:none; stroke:var(--line); stroke-width:1.8; stroke-linecap:round; opacity:0; transition:opacity .2s ease; }
 .t-face { transform-origin:50px 62px; transition:transform .5s cubic-bezier(.2,.8,.2,1); }
 .t-eye { fill:#fff; }
-.t-eye-ring { fill:none; stroke:var(--line); stroke-width:2.8; transform-box:fill-box; transform-origin:center; transition:transform .15s ease; }
-.t-eye-happy,.t-eye-sleep { fill:none; stroke:var(--line); stroke-width:3; stroke-linecap:round; opacity:0; }
+.t-eye-ring { fill:none; stroke:var(--line); stroke-width:2.8; transition:opacity .12s ease; }
+.t-eye-happy { fill:none; stroke:var(--line); stroke-width:3; stroke-linecap:round; opacity:0; }
+.t-eye-sleep { fill:var(--line); opacity:0; }
 .t-cheeks { fill:#eab8a2; opacity:0; transition:opacity .3s ease; }
 .t-pupil { fill:var(--ink-dark); transition:transform .35s cubic-bezier(.2,.8,.2,1); }
 .t-lid { transform:translateY(-30px); transition:transform .12s ease-in; }
@@ -89,8 +90,12 @@
 
 /* Moods. Before the poses, so a jump or a balance wins over a shiver. */
 .mood-asleep .t-lid { transform:translateY(-3px); transition-duration:1.4s; }
-.mood-asleep .t-eye,.mood-asleep .t-pupils,.mood-asleep .t-eye-ring { opacity:0; }
-.mood-asleep .t-eye-sleep { opacity:1; }
+/* Asleep draws the closed eye itself, and it has to outrank a gesture that
+   23:00 caught in flight: those hold their end values under `both`, which
+   would leave a hollow ring on the fur until the gesture cleared. The extra
+   class buys the specificity without moving the block after the gestures. */
+.tenant.mood-asleep .t-eye,.tenant.mood-asleep .t-pupils,.tenant.mood-asleep .t-eye-ring { opacity:0; animation:none; }
+.tenant.mood-asleep .t-eye-sleep { opacity:1; animation:none; }
 .mood-asleep .t-figure { animation:t-breathe 4.6s ease-in-out infinite; }
 @keyframes t-breathe { 0%,100% {transform:scale(1,.95) translateY(0);} 50% {transform:scale(1.03,.99) translateY(-1px);} }
 .mood-asleep .t-zz { animation:t-zz 2.6s ease-in-out infinite; }
@@ -116,15 +121,29 @@
 
 /* Gestures: the face on its own parts, the body on .t-gest. A blink closes
    faster than it opens; large gaze changes blink at the start, then let the
-   eyes lead and the face follow. */
-.g-blink .t-lid { animation:t-blink .27s linear both; }
-.g-double-blink .t-lid { animation:t-double-blink .62s linear both; }
-.g-blink .t-eye-ring { animation:t-blink-ring .27s linear both; }
-.g-double-blink .t-eye-ring { animation:t-double-blink-ring .62s linear both; }
-@keyframes t-blink-ring { 0%,100% {transform:scaleY(1);} 38%,48% {transform:scaleY(.06);} }
-@keyframes t-double-blink-ring { 0%,42%,100% {transform:scaleY(1);} 15%,22%,61%,69% {transform:scaleY(.06);} }
-@keyframes t-blink { 0% {transform:translateY(-30px);} 38%,48% {transform:translateY(0);} 100% {transform:translateY(-30px);} }
-@keyframes t-double-blink { 0%,42%,100% {transform:translateY(-30px);} 15%,22%,61%,69% {transform:translateY(0);} }
+   eyes lead and the face follow.
+
+   A shut eye is a swap, not a lid. It used to be a lid: a fur rect slid down
+   over the eye while the stroked ring squashed to scaleY(.06) to pretend to
+   be the closed line. The squash is what drew the straight broken hairline —
+   the eye rig is scaled .77 vertically, so 6% of a 26-unit ellipse lands
+   under a pixel and anti-aliases into dashes. A blink was quick enough to
+   hide it; a doze held it for 1.3 s.
+
+   So the eye now closes the way the smile's crescents already worked: the
+   white, the pupils and the ring go out together and .t-eye-sleep — a filled
+   lens with about the weight they had — comes in. No lid travels, nothing is
+   scaled, and there is no in-between drawing to catch at any speed. Each
+   pair below crosses over four percent of its own gesture, which is a frame
+   or two for a blink and a soft dissolve for a doze. */
+.g-blink .t-eye,.g-blink .t-pupils,.g-blink .t-eye-ring { animation:t-blink-open .27s linear both; }
+.g-blink .t-eye-sleep { animation:t-blink-shut .27s linear both; }
+.g-double-blink .t-eye,.g-double-blink .t-pupils,.g-double-blink .t-eye-ring { animation:t-double-blink-open .62s linear both; }
+.g-double-blink .t-eye-sleep { animation:t-double-blink-shut .62s linear both; }
+@keyframes t-blink-open { 0%,34% {opacity:1;} 38%,48% {opacity:0;} 52%,100% {opacity:1;} }
+@keyframes t-blink-shut { 0%,34% {opacity:0;} 38%,48% {opacity:1;} 52%,100% {opacity:0;} }
+@keyframes t-double-blink-open { 0%,11% {opacity:1;} 15%,22% {opacity:0;} 26%,57% {opacity:1;} 61%,69% {opacity:0;} 73%,100% {opacity:1;} }
+@keyframes t-double-blink-shut { 0%,11% {opacity:0;} 15%,22% {opacity:1;} 26%,57% {opacity:0;} 61%,69% {opacity:1;} 73%,100% {opacity:0;} }
 .g-glance-digits .t-pupil { transform:translate(-4px,1.5px); }
 .g-glance-digits.g-far .t-pupil { transform:translate(-5px,-1.5px); }
 .g-glance-digits .t-face,.g-lean .t-face { transform:translateX(-1.5px) rotate(-1.2deg); transition-delay:.1s; }
@@ -132,15 +151,24 @@
 .g-glance-up .t-face { transform:translateY(-1px); transition-delay:.09s; }
 .g-look-around .t-pupils { animation:t-look 1.9s ease-in-out both; }
 @keyframes t-look { 0%,100% {transform:translate(0,0);} 22%,40% {transform:translate(-4px,0);} 60%,82% {transform:translate(4px,-1px);} }
-.g-look-around .t-lid,.g-listen .t-lid { animation:t-gaze-blink .3s linear both; }
-@keyframes t-gaze-blink { 0% {transform:translateY(-30px);} 26%,36% {transform:translateY(0);} 78%,100% {transform:translateY(-30px);} }
+.g-look-around .t-eye,.g-look-around .t-pupils,.g-look-around .t-eye-ring,
+.g-listen .t-eye,.g-listen .t-pupils,.g-listen .t-eye-ring { animation:t-gaze-open .3s linear both; }
+.g-look-around .t-eye-sleep,.g-listen .t-eye-sleep { animation:t-gaze-shut .3s linear both; }
+@keyframes t-gaze-open { 0%,22% {opacity:1;} 26%,36% {opacity:0;} 40%,100% {opacity:1;} }
+@keyframes t-gaze-shut { 0%,22% {opacity:0;} 26%,36% {opacity:1;} 40%,100% {opacity:0;} }
 .g-smile .t-mouth { d:path('M40 74 Q50 84 60 74'); }
+/* A yawn shuts the eyes for a third of itself rather than holding them half
+   open, which is the one thing the old half-lid could express and the swap
+   cannot. The stretch is the same track played faster. */
 .g-yawn .t-mouth { d:path('M44 73 Q50 92 56 73 Z'); fill:var(--ink-dark); }
-.g-yawn .t-lid { animation:t-yawn-lids 2.3s ease-in-out both; }
-@keyframes t-yawn-lids { 0%,100% {transform:translateY(-30px);} 30%,70% {transform:translateY(-14px);} }
+.g-yawn .t-eye,.g-yawn .t-pupils,.g-yawn .t-eye-ring { animation:t-yawn-open 2.3s linear both; }
+.g-yawn .t-eye-sleep { animation:t-yawn-shut 2.3s linear both; }
+@keyframes t-yawn-open { 0%,30% {opacity:1;} 38%,58% {opacity:0;} 66%,100% {opacity:1;} }
+@keyframes t-yawn-shut { 0%,30% {opacity:0;} 38%,58% {opacity:1;} 66%,100% {opacity:0;} }
 .g-stretch .t-gest { animation:t-stretch 1.4s cubic-bezier(.4,0,.2,1) both; }
 @keyframes t-stretch { 0%,100% {transform:scale(1,1) translateY(0);} 35%,60% {transform:scale(.93,1.1) translateY(-2px) rotate(-2deg);} 80% {transform:scale(1.04,.96);} }
-.g-stretch .t-lid { animation:t-yawn-lids 1.4s ease-in-out both; }
+.g-stretch .t-eye,.g-stretch .t-pupils,.g-stretch .t-eye-ring { animation:t-yawn-open 1.4s linear both; }
+.g-stretch .t-eye-sleep { animation:t-yawn-shut 1.4s linear both; }
 .g-wiggle .t-gest { animation:t-wiggle .9s ease-in-out both; }
 @keyframes t-wiggle { 0%,100% {transform:rotate(0);} 20% {transform:rotate(-5deg);} 45% {transform:rotate(5deg);} 70% {transform:rotate(-3deg);} 88% {transform:rotate(1.5deg);} }
 /* Leaning, peering and balance are spring tracks on independent SVG layers.
@@ -152,10 +180,12 @@
 @keyframes t-scratch-ears { 0%,100% {d:var(--pet-rest);} 20%,55% {d:var(--pet-flinch);} 38%,75% {d:var(--pet-listen);} }
 @keyframes t-scratch-body { from {transform:rotate(0);} to {transform:rotate(2.5deg) translateX(1px);} }
 .g-sneeze .t-gest { animation:t-sneeze .9s cubic-bezier(.4,0,.2,1) both; }
-.g-sneeze .t-lid { animation:t-sneeze-lids .9s linear both; }
+.g-sneeze .t-eye,.g-sneeze .t-pupils,.g-sneeze .t-eye-ring { animation:t-sneeze-open .9s linear both; }
+.g-sneeze .t-eye-sleep { animation:t-sneeze-shut .9s linear both; }
 .g-sneeze .t-body { animation:t-ear-flinch .9s ease-out both; }
 @keyframes t-sneeze { 0%,100% {transform:translate(0,0) rotate(0);} 30% {transform:translate(-2px,1px) rotate(-3deg) scale(1.04,.96);} 42% {transform:translate(5px,-2px) rotate(7deg) scale(.94,1.06);} 62% {transform:translate(-1px,0) rotate(-2deg);} }
-@keyframes t-sneeze-lids { 0%,22%,100% {transform:translateY(-30px);} 34%,62% {transform:translateY(0);} }
+@keyframes t-sneeze-open { 0%,30% {opacity:1;} 34%,62% {opacity:0;} 66%,100% {opacity:1;} }
+@keyframes t-sneeze-shut { 0%,30% {opacity:0;} 34%,62% {opacity:1;} 66%,100% {opacity:0;} }
 @keyframes t-ear-flinch { 0%,100% {d:var(--pet-rest);} 38% {d:var(--pet-flinch);} 64% {d:var(--pet-listen);} }
 .g-wave .t-sprout { animation:t-wave-ears 1.5s ease-in-out both; }
 .g-wave .t-gest { animation:t-wave-body 1.5s ease-in-out both; }
@@ -170,11 +200,11 @@
 @keyframes t-leaf-bob { 0%,100% {transform:translateY(0) rotate(0);} 25%,60% {transform:translateY(-1px) rotate(2deg);} 42%,78% {transform:translateY(0) rotate(-1deg);} }
 @keyframes t-tail-wag { from {transform:rotate(-9deg);} to {transform:rotate(12deg);} }
 .g-doze .t-gest { animation:t-doze 2.6s ease-in-out both; }
-.g-doze .t-lid { animation:t-doze-lids 2.6s ease-in-out both; }
-.g-doze .t-eye-ring { animation:t-doze-ring 2.6s ease-in-out both; }
-@keyframes t-doze-ring { 0%,100% {transform:scaleY(1);} 25%,76% {transform:scaleY(.06);} }
+.g-doze .t-eye,.g-doze .t-pupils,.g-doze .t-eye-ring { animation:t-doze-open 2.6s linear both; }
+.g-doze .t-eye-sleep { animation:t-doze-shut 2.6s linear both; }
 @keyframes t-doze { 0%,100% {transform:translateY(0) scale(1);} 32%,72% {transform:translateY(4px) scale(1.03,.94) rotate(2deg);} }
-@keyframes t-doze-lids { 0%,100% {transform:translateY(-30px);} 25%,76% {transform:translateY(-4px);} }
+@keyframes t-doze-open { 0%,17% {opacity:1;} 25%,76% {opacity:0;} 84%,100% {opacity:1;} }
+@keyframes t-doze-shut { 0%,17% {opacity:0;} 25%,76% {opacity:1;} 84%,100% {opacity:0;} }
 .g-listen .t-body { animation:t-listen 1.7s cubic-bezier(.2,.8,.2,1) both; }
 .g-listen .t-pupil { transform:translate(4px,-2px); }
 .g-listen .t-face { transform:translateX(1.5px) rotate(1deg); transition-delay:.1s; }

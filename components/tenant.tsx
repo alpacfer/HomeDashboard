@@ -673,7 +673,13 @@ export default function Tenant({ mood, targets, activeScene, previewSpot = null,
       <ellipse className="t-eye-ring" cx="34" cy="54" rx="11" ry="13" />
       <ellipse className="t-eye-ring" cx="66" cy="54" rx="11" ry="13" />
       <path className="t-eye-happy" d="M27 56 Q34 44 41 56 M59 56 Q66 44 73 56" />
-      <path className="t-eye-sleep" d="M27 53 Q34 60 41 53 M59 53 Q66 60 73 53" />
+      {/* A shut eye is a drawn shape, not a stroke: a lens that is thickest in
+          the middle and tapers to a point at each corner, so it keeps roughly
+          the weight the ring and pupil had and cannot thin into a hairline at
+          any size. It sits narrower than the open eye and low in the socket,
+          which is what reads as heavy-lidded rather than merely closed.
+          app/tenant.css fills it and says which gestures show it. */}
+      <path className="t-eye-sleep" d="M26 52 Q34 66 42 52 Q34 58 26 52 Z M58 52 Q66 66 74 52 Q66 58 58 52 Z" />
       <g className="t-shades"><rect x="21" y="46" width="26" height="14" rx="5" /><rect x="53" y="46" width="26" height="14" rx="5" /><rect x="47" y="51" width="6" height="3" /></g>
       </g>
       <g className="t-cheeks"><ellipse cx="24" cy="61" rx="4.5" ry="2" /><ellipse cx="76" cy="61" rx="4.5" ry="2" /></g>

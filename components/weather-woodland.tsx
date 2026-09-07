@@ -32,9 +32,12 @@ export default memo(function WeatherWoodland() {
       <span className="cs-far" /><span className="cs-deck" />
       <span className="cs-bank" /><span className="cs-scud" />
       <svg className="wood-birds" viewBox="0 0 350 168" preserveAspectRatio="none">
-        <g className="bird-flight"><g className="bird-wings"><path d="M-5-1Q-2-3 0 0Q2-3 5-1" /></g></g>
-        <g className="bird-flight"><g className="bird-wings"><path d="M-4-1Q-2-2 0 0Q2-2 4-1" /></g></g>
-        <g className="bird-flight"><g className="bird-wings"><path d="M-3-1Q-1-2 0 0Q1-2 3-1" /></g></g>
+        {/* Each is drawn wings up, with the tips well clear of the body and the
+            wrist held above the chord, so the flap in app/clock-hillside.css
+            has room to flatten it without collapsing it. Spans 13, 11 and 9. */}
+        <g className="bird-flight"><g className="bird-wings"><path d="M-6.5-3.1Q-3.4-3.5 0 0Q3.4-3.5 6.5-3.1" /></g></g>
+        <g className="bird-flight"><g className="bird-wings"><path d="M-5.5-2.6Q-2.9-3 0 0Q2.9-3 5.5-2.6" /></g></g>
+        <g className="bird-flight"><g className="bird-wings"><path d="M-4.5-2.2Q-2.4-2.5 0 0Q2.4-2.5 4.5-2.2" /></g></g>
       </svg>
     </div>
     <span className="scene-paint exterior-paint wood-canopy canopy-left" />
