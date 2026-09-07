@@ -7,10 +7,11 @@ GitHub runners, and against the deployed site.
 
 ```text
 npm run shot -- [options]     screenshot the running dashboard, headless Chrome, 1280 x 720
-npm run motion -- [options]   measure whether an animation is smooth or flickering
+                              --then for several states in one browser, --pose to hold an animation
+npm run motion -- [options]   measure whether an animation is smooth, flickering or collapsing
 npm run probe                 ask every forecast provider as the browser would
 npm run probe:transit         ask every departure provider as the route would
-npm run audit                 check every scene at 1280 x 720 for layout faults
+npm run audit                 check every scene at 1280 x 720 for layout faults; --baseline says what moved
 npm run scene -- [options]    measure a painted card: its edges, its landmarks, its light
 npm run states -- [options]   every clock sky on one sheet; --seams, --baseline
 npm run roll -- [options]     the digit transition, caught on the minute boundary
@@ -46,7 +47,7 @@ can never leave the wall display stuck. They combine:
 | `?pet=weather`, `week`, `transport`, `fact`, `map` | Holds the Tenant at that measured UI landmark. This checks its destination poses without waiting for curiosity to select an adventure; normal travel is unchanged when the flag is absent. | `lib/debug-flags.ts` |
 | `?pet=travel-weather`, `travel-week`, `travel-transport`, `travel-fact`, `travel-map` | Sends the Tenant from home to that landmark through its real measured landing pads, then holds it there. Use a screenshot sequence to inspect charge, parabola and chained landings without waiting for curiosity. | `lib/debug-flags.ts` |
 | `?pet-motion=hop`, `balance`, `peek` | Plays the pet's actual gravity/spring motion after a short setup. Hop jumps at home; balance and peek use a measured round digit. Reload to replay. Takes precedence over pet landmark flags. Pass the URL with `--url` to the screenshot and motion tools. | `lib/debug-flags.ts` |
-| `?sky=night,snow,heavy` | Pins any of the scenery's light phase, weather and rate, in any order. The sky is normally derived from the sun's true elevation and the hour the weather card shows, so pinning it is the only way to photograph a state the weather is not currently offering. `--sky` on the browser tools, and repeatable on `npm run states` and `npm run scene`. | `lib/clock-sky.ts` |
+| `?sky=night,snow,heavy` | Pins any of the scenery's light phase, weather and rate, in any order. The sky is normally derived from the sun's true elevation and the hour the weather card shows, so pinning it is the only way to photograph a state the weather is not currently offering. `--sky` on the browser tools; `npm run scene` takes it more than once, and `npm run states` pins skies with `--pin`. | `lib/clock-sky.ts` |
 | `?sky=night,gibbous` | The same flag pins the moon's phase: `new`, `crescent`, `half`, `gibbous` or `full`. Below half and above it are the two sides of one branch in `app/clock-hillside.css` §3, and the real moon takes a fortnight to cross between them. Only the lit fraction is pinned — which way the moon leans belongs to the hour, so it keeps following the real sky and `?time=` still rolls it. | `lib/clock-sky.ts` |
 | `?clock=workshop`, `plain` | Picks the clock widget's theme. `workshop` is the default painted shed; `plain` is the card as it was before themes existed. An unknown value falls back to the default, so a mistyped URL cannot leave the display in a state nobody chose. | `lib/clock-theme.ts` |
 | `?date=MM-DD` | Loads that calendar day's facts instead of today's, so a specific entry can be checked without waiting for its date. `--date` on the browser tools. | `lib/daily-facts.ts` |
@@ -117,7 +118,17 @@ repository will not add a dependency for it, so the plates are handed to a
 headless Chrome as data URLs and read back through a canvas, the same trick
 `npm run scene` uses.
 
-## Two traps that cost hours
+## Three traps that cost hours
+
+**Port 3000 is usually already taken, by another session's dev server in this
+same folder.** Twenty-two of thirty-seven sessions in one week were refused by
+the preview tool for that reason and stopped to ask. Nothing needs asking: the
+scripts here only need a URL that answers, and a server started from this
+folder serves this working tree, edits included. Attach the preview with the
+`homedashboard-attach` configuration in `.claude/launch.json`, which opens the
+pane against the running server without starting one, or skip the pane and run
+the scripts. A port with nothing on it is a different case, and the scripts
+now say so at once instead of waiting a minute for it.
 
 **The editor's browser pane is hidden, and a hidden page runs no animation
 frames.** `document.visibilityState` is `hidden` there, so
@@ -175,6 +186,28 @@ deterministic travel flag makes this reproducible:
 npm run motion -- --scene transport --offline --pet travel-transport --selector .tenant --wait 200
 ```
 
+It also watches every animated element on or under the one named for
+**collapse**: a box that was at least two pixels and falls under one pixel,
+and under 0.15 of its own largest extent, while shown. That is a keyframe
+scaling a stroked shape through nothing, which renders as a hairline dash for
+part of every cycle. Two such bugs shipped on one day through lint, the suite,
+the audit and three screenshots each, because a screenshot lands on one frame:
+the birds' flap mirrored through `scaleY(-.45)`, and the Tenant's blink
+squashed its eye ring to `scaleY(.06)`. Both are reported as `COLLAPSED` with
+the element, the thinnest frame and the count, and the command exits 1.
+`npm run check:rules` holds the keyframes themselves to the same floor, so the
+static form is caught before a browser is opened; this is the dynamic form,
+for a collapse that only a computed transform produces.
+
+```sh
+npm run motion -- --scene transport --offline --sky day,clear --selector .wood-birds --seconds 3
+```
+
+Measuring the forecast map's canvas waits for its loading message to clear
+first, up to `--ready` (default 15 s), and says how long it waited. Seven
+sessions measured the message instead of the map and read "no painting at all"
+as a broken animation.
+
 To *see* motion rather than measure it, `npm run shot -- --sequence 3 --every
 900` writes three frames from a single page load. One browser for the lot:
 starting one per moment is most of a minute each time.
@@ -184,8 +217,20 @@ starting one per moment is most of a minute each time.
 `scripts/screenshot.mjs` launches headless Chrome, drives it over the DevTools
 protocol, and writes a PNG under `screenshots/` (ignored by git). It needs a
 server answering on `http://127.0.0.1:3000` (`npm run dev`, or the built site
-with `npm start`) and waits up to a minute for it. Chrome is found on its own on
+with `npm start`): one that is listening but still compiling gets a minute, one
+that is not listening at all fails at once. Chrome is found on its own on
 Ubuntu, macOS and the GitHub runners; pass `--chrome <path>` otherwise.
+
+Every tool that opens a browser shares [scripts/lib/browser.mjs](../scripts/lib/browser.mjs),
+which finds Chrome, waits for the server, builds the page URL from the flags
+and talks DevTools. A one-off measurement that none of the tools make should
+import it rather than spawn Chrome by hand; two sessions wrote their own
+launcher and left the profiles behind. On every launch it also sweeps what an
+interrupted run left: a tool killed before it could close its browser, by a
+timeout or a Ctrl-C, leaves a Chrome alive and a 150 MB profile in the temp
+directory, and one week of sessions left seventy-nine processes. A profile
+whose owning process is gone is removed, and its Chrome with it; one whose
+owner is still running belongs to another tool mid-capture and is left alone.
 
 ```sh
 npm run shot -- --scene transport --offline            # 1280 x 720, no weather requests
@@ -198,7 +243,17 @@ npm run shot -- --offline --clip .clock-block --pad 0             # the digits, 
 npm run shot -- --reduced-motion --clip .display-shell
 npm run shot -- --scene map --demo --pet map
 npm run shot -- --console                               # print what the page logged
+npm run shot -- --offline --clip .clock-widget --then --sky night,clear --then --sky day,snow,heavy
+                                                        # three states, one browser, three files
+npm run shot -- --offline --sky day,clear --clip .weather --scale 3 \
+    --pose ".bird-flight=9.8%" --pose ".bird-wings=7%"  # a bird mid-sky, wings at the bottom of the beat
 ```
+
+A capture costs about five seconds. Several states of one change are one
+command: everything before the first `--then` is the base, and each `--then`
+group is read on top of a copy of it, loads its own page in the same browser
+and writes its own file. Five states cost about fifteen seconds this way,
+against a Chrome launch each.
 
 - `--pad <px>` widens the crop around the clipped element (default 4). The
   Tenant's ears and leaf overflow its box, so `--clip .tenant --pad 22
@@ -216,8 +271,20 @@ npm run shot -- --console                               # print what the page lo
 - `--time HH:MM` pins the clock (the `?time=` flag above), so the face can be
   checked against the digits that stress it. `08:46` shows a 0, an 8, a 4 and
   a 6, which between them are the widest and tallest digits it has.
-- `--freeze <ms>` pauses every CSS animation at that time, so a keyframe in the
-  middle of a roll or a Tenant gesture can be captured.
+- `--freeze <ms>` pauses every CSS animation at one point of the page's
+  timeline, so a keyframe in the middle of a roll can be captured. Transitions
+  are left running: pausing one pins the state it was leaving, which once drew
+  a sleeping Tenant with open eyes. It is one time for the whole page, so it
+  cannot place a 79 s flight and a 1.55 s wingbeat at once.
+- `--pose "<selector>=<phase>"` holds every animation on that element and
+  under it at a phase of its own cycle, `7%` or `350ms`, with its delay zeroed
+  first so a negative `animation-delay` cannot shift what the phase means.
+  Repeatable, applied after `--freeze`, and `--clip` is measured afterwards,
+  so a posed element is cropped where it is posed. This is how a moving
+  element is photographed at a chosen moment; `--freeze` is how the page is.
+- A `--clip`, `--class` or `--pose` selector that matches nothing fails and
+  names the class names on the page that come closest, so the second try is
+  right. Twenty captures in one week were re-runs after a guessed class name.
 - `--console` prints everything the page logged. The weather card logs one
   line, `[weather] every provider failed: ...`, naming each provider and its
   reason, which is the fastest explanation of a muted card.
@@ -236,11 +303,25 @@ in a PNG unless you already know to look.
 
 ```sh
 npm run audit                      # all 7 scenes at 1280 x 720, text out
-npm run audit -- --json            # ... the same findings as JSON
+node scripts/audit-ui.mjs --json   # ... the same findings as JSON (see below)
 npm run audit -- --scene map       # one scene at 1280 x 720
 npm run audit -- --shots           # ... and a PNG per state, same page loads
 npm run audit -- --all             # notes too
+npm run audit -- --save-baseline   # remember where every element is, per scene
+npm run audit -- --baseline        # what moved since, per scene, largest first
 ```
+
+`--json` is for a script, so call the script: `npm run` prints its own two
+banner lines on stdout first, and three sessions fed `> home-dashboard@0.1.0
+audit` to a JSON parser. `npm run -s audit -- --json` also works.
+
+`--baseline` answers the question a screenshot answers only by eye: does this
+change move anything else on the page? Save before the change, audit after,
+and every text-bearing element or panel whose box shifted or resized by more
+than a pixel is listed with its delta. The transport scene is live data, so its
+rows can move on their own; `transport-marked` and `fact` use the synthetic
+board and are the stable ones. The baseline lives under `screenshots/`, which
+is gitignored, so it is a local working file, as the clock's is.
 
 What it reports:
 
@@ -481,13 +562,14 @@ from there too, which is the one way to force a fresh fetch of everything.
 
 ## Guardrails that run on their own
 
-These are wired in `.claude/settings.json` and `eslint.config.mjs`, so they
-apply to any agent working in this repository, not only to `npm run check`.
-
-| Guardrail | What it does |
-| --- | --- |
-| `scripts/hooks/guard-generated.mjs` | Refuses edits to generated files (`public/facts/daily/`, `public/fonts/clock/`, `app/clock-fonts.css`, `package-lock.json`) and names the command that regenerates them. |
-| `scripts/hooks/lint-changed.mjs` | Lints each file as it is written, and before a turn ends lints every changed file, typechecks if TypeScript changed, and runs the tests if `lib/` or `tests/` changed. |
-| `eslint.config.mjs` | `lib/` may not import React, the DOM, `fetch` or Next.js; `components/` may not import from `app/`; every `Intl.DateTimeFormat` names a `timeZone`; no `toLocale*String`. |
-| `scripts/check-rules.mjs` | No `:hover` or `cursor` in the CSS; every `lib/` module has a test; every timer, listener, frame and Leaflet map in a component has its teardown; no `NEXT_PUBLIC_` credential names; Render's start script exists and binds `0.0.0.0`; the hooks exist; the font stylesheet matches the face list. |
-| `scripts/check-docs.mjs` | Every path a Markdown file names exists. |
+The hooks in `.claude/settings.json` (`scripts/hooks/guard-generated.mjs`,
+`scripts/hooks/guard-bash.mjs`, `scripts/hooks/lint-changed.mjs`), the lint
+rules in `eslint.config.mjs`, and the two checks `scripts/check-rules.mjs` and
+`scripts/check-docs.mjs` apply to any agent working here, not only to
+`npm run check`. What each one enforces is listed once, in
+[AGENTS.md](../AGENTS.md#rules-that-are-enforced-for-you); a copy here had
+already fallen behind it. The Stop hook judges the files this session wrote:
+each write is noted in a ledger under `.cache/agent-turns/`, the stop checks
+that list and clears it when everything passes. Only when there is no ledger
+(a hand-run, an older harness) does it fall back to the whole working tree,
+and it says so.

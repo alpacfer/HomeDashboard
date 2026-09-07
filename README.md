@@ -13,11 +13,13 @@ The implementation and operational notes are split by responsibility:
 - [Transit integration](docs/TRANSPORT.md) — the two providers and why, credentials, stop and headsign matching, how delays and incidents are marked, caching and quota.
 - [Daily facts](docs/DAILY_FACTS.md) — what counts as a fact worth showing, how the calendar is selected, editorial overrides, attribution, and the regeneration workflow.
 - [Debugging](docs/DEBUGGING.md) — the screenshot and provider-probe tools, the URL flags, provider quotas, and why a card is muted.
+- [The clock](docs/CLOCK.md) — the painted workshop, the sky the weather draws, the Tenant, and the tools that measure them.
+- [The forecast map](docs/FORECAST_MAP.md) — the precipitation grid, the living map sheets, and what would finish it.
 - [AGENTS.md](AGENTS.md) — the working contract for AI coding agents. `CLAUDE.md` imports it.
 
-The dashboard has one page route (`/`), one server API route
-(`/api/departures`), and static daily-fact assets under `/facts/daily/`. There
-is no client-side router.
+The dashboard has one page route (`/`), two server API routes
+(`/api/departures` and `/api/weather`, each holding one credential), and static
+daily-fact assets under `/facts/daily/`. There is no client-side router.
 
 ## Repository layout
 
@@ -26,7 +28,7 @@ back. `lib/` may not import React, the DOM, `fetch`, or Next.js, which is
 enforced by `eslint.config.mjs` rather than left to convention.
 
 ```text
-app/         route entry points only (layout, page, globals.css, api/departures)
+app/         route entry points only (layout, page, the stylesheets, api/departures, api/weather)
 components/  React components that own browser effects
 lib/         pure logic: parsing, validation, time conversion, selection
 tests/       one node:test suite per lib/ module
@@ -127,12 +129,14 @@ July or a full moon a fortnight away. Both are read where they are derived:
 
 ```sh
 npm run shot -- --scene transport --offline   # 1280 x 720 PNG under screenshots/
+npm run shot -- --offline --clip .clock-widget --then --sky night,clear   # several states, one browser
 npm run states -- --seams                     # every clock sky on one sheet, scanned for hard edges
 npm run states -- --baseline                  # and what moved since --save-baseline
 npm run roll -- --sky day,rain,heavy          # the digit transition, caught on the minute boundary
 npm run probe                                 # which forecast provider is answering, and why not
 npm run probe:transit                         # which departure provider is answering, and what it shows
 npm run audit                                 # every scene at 1280 x 720, checked for layout faults
+npm run audit -- --baseline                   # and which elements moved since --save-baseline
 ```
 
 `npm run motion` measures anything that animates and `npm run scene` measures a
@@ -141,8 +145,9 @@ described in [docs/DEBUGGING.md](docs/DEBUGGING.md).
 
 ## Configuration
 
-Copy `.env.example` to `.env.local` if you need to configure the optional
-Rejseplanen access ID. Keep the key server-side and never commit `.env.local`.
+Copy `.env.example` to `.env.local` to configure any of the optional keys:
+Google Weather, Rejseplanen and DeepL. Each is read by one route handler only
+and the display works without all three. Never commit `.env.local`.
 Without it, departures fall back to Transitous, which needs no credential and
 serves Rejseplanen's own realtime feed. See [docs/TRANSPORT.md](docs/TRANSPORT.md).
 
@@ -156,8 +161,11 @@ npm run check
 ```
 
 That runs lint, typecheck, tests, the documentation check, the project rules
-check, and the production build, in that order. The same command runs in CI on every push and pull
-request, so a green local run means a green pipeline.
+check, and the production build, in that order. CI runs the same stages on
+every push and pull request, and two more that need a running site or the
+network: the display checks (`npm run audit` and `npm run motion` against the
+built site, both blocking) and a dependency audit. A green local run means the
+first job is green; the display job is what catches a layout fault.
 
 The individual stages are `npm run lint`, `npm run typecheck`, `npm test`,
 `npm run docs:check`, `npm run check:rules`, and `npm run build`. Tests mirror

@@ -14,6 +14,7 @@ It is deployed to a Render free-plan web service and viewed in the Silk browser 
 | `/?pet=map` | `lib/debug-flags.ts`, `components/clock.tsx`, `components/tenant.tsx` | Debug mode. Holds the Tenant at a measured weather, week, transport, fact or map landmark for deterministic visual checks. Unknown values are ignored. |
 | `/?weather=off` | `lib/debug-flags.ts` | Debug mode. No weather, week or forecast-map request is made, so a capture spends no provider quota. See [DEBUGGING.md](DEBUGGING.md). |
 | `/api/departures` | `app/api/departures/route.ts` | Server-side departure lookup: Rejseplanen when an access ID is set, Transitous otherwise or on failure, then normalization, filtering, and a two-minute public-result cache. |
+| `/api/weather?kind=hours` or `days` | `app/api/weather/route.ts` | The Google Weather proxy, which exists because the key cannot ship to the browser. Asks about one fixed place, caches each kind for less than the asking panel's refresh, and remembers a failure for a minute so a burst of page loads does not spend the monthly tier. |
 | `/facts/daily/MM-DD.json` | `public/facts/daily/` | Static date-keyed facts loaded by the browser for the Copenhagen calendar date. |
 | `npm run facts:generate` | `scripts/generate-daily-facts.mjs` | Deliberate rebuild of all 366 daily-fact files from reviewed overrides and external sources. |
 | `npm run shot`, `npm run probe`, `npm run probe:transit` | `scripts/screenshot.mjs`, `scripts/probe-forecast.mjs`, `scripts/probe-transit.mjs` | Debugging tools: a headless-Chrome capture of the running display, and a check of every forecast and departure provider through the project's own parsers. See [DEBUGGING.md](DEBUGGING.md). |
@@ -26,7 +27,7 @@ Dependencies point inward. `app/` may import from `components/` and `lib/`; `com
 
 | Directory | Holds | Rule |
 | --- | --- | --- |
-| `app/` | Route entry points and stylesheets only: `layout.tsx`, `page.tsx`, the six `*.css` files, and the two routes `app/api/departures/route.ts` and `app/api/weather/route.ts`. | A file belongs here only if the App Router gives it a URL, or it is a stylesheet the layout imports. |
+| `app/` | Route entry points and stylesheets only: `layout.tsx`, `page.tsx`, the seven `*.css` files, and the two routes `app/api/departures/route.ts` and `app/api/weather/route.ts`. | A file belongs here only if the App Router gives it a URL, or it is a stylesheet the layout imports. |
 | `components/` | The React components that own browser effects: timers, fetches, storage, Leaflet, wake lock. | Anything with `'use client'`, a hook, or a side effect. |
 | `lib/` | Pure logic: parsing, validation, time conversion, selection, rotation timing. | No React, no DOM, no `fetch`, no Next.js. Enforced by `eslint.config.mjs`, not just by convention. |
 | `tests/` | `node:test` suites, one per `lib/` module. | Tests import `lib/` directly. Nothing in `tests/` needs a renderer or a network. |
@@ -45,16 +46,30 @@ app/page.tsx (Home)
 │   ├── clockFrame, clockDate,     lib/clock-motion.ts   Copenhagen time, which digits roll
 │   │   changedDigits
 │   ├── moodContext, Conditions    lib/clock-conditions.ts  the hour and sky the Tenant reads
-│   └── Tenant                      components/tenant.tsx
+│   ├── collectLandmarks            components/clock.tsx  measures the LANDMARKS table's
+│   │   └── LANDMARKS, landmarksFor lib/clock-tenant.ts   elements: the one place it meets the DOM
+│   └── Tenant                      components/tenant.tsx  state and timing only
+│       ├── TenantController        components/tenant-actions.ts  every move, gesture, interruption
+│       ├── TenantFigure            components/tenant-figure.tsx  the SVG, no props and no state
+│       ├── useTrackAnimation       components/use-track-animation.ts  balance and posture tracks
+│       ├── GESTURE_MS,             lib/tenant-view.ts    class list, and how long each gesture
+│       │   tenantClassName                              holds it (checked against tenant.css)
 │       └── tenantMood, inkBox,     lib/clock-tenant.ts   mood, idle life, glyph geometry
 │           tenantTargets
 ├── WeatherPanel                   components/weather-panel.tsx
+│   ├── useProviderChain           components/use-provider-chain.ts  the fetch loop both weather
+│   │   ├── readySources,          lib/source-penalty.ts    panels share: one controller per
+│   │   │   penaltyUntil                                    request, backoff, penalties, lockout
+│   │   └── retryDelay             lib/forecast-refresh.ts
 │   ├── SOURCES, parseCoverage,    lib/forecast-sources.ts  Google, then DMI, then Open-Meteo,
-│   │   parseForecast,                                   then MET Norway; payload validation,
-│   │   parseLocationForecast                            accumulation differencing
+│   │   parseForecast                                    then MET Norway; payload validation,
+│   │                                                    accumulation differencing
+│   ├── parseLocationForecast,     lib/met-norway.ts      one provider, one module; the week
+│   │   frozenShare                                      strip aggregates the same response
 │   ├── parseGoogleHours,          lib/google-weather.ts  WeatherNext 3 through /api/weather;
 │   │   googleUpstreamUrl                                unit checking, the one-page request
 │   ├── readStored, writeStored    components/device-storage.ts  last good answer, validated on read
+│   │   └── validStoredForecast    lib/stored-shapes.ts   every stored shape and its validator
 │   ├── debugFlags                 lib/debug-flags.ts     ?weather=off
 │   ├── describeHour, isDaylight   lib/weather.ts        shared hour model, condition derivation,
 │   │                                                    intensity bands, solar elevation
@@ -80,7 +95,7 @@ app/page.tsx (Home)
         └── validDailyFacts         lib/daily-facts.ts    date key and payload validation
 ```
 
-`app/globals.css` carries the display's shared visual system: the fixed 1280 x 720 layout, panel transitions, the condition palette (`.condition-*` classes set `--sky`, the colour the icon and degree sign take, and the tint behind the card, so sun reads amber, cloud slate, rain blue), and reduced-motion behavior. Five stylesheets sit beside it, each owning one thing: `tenant.css` (the resident character, which nothing else reads), `clock-theme.css` (what every clock theme shares), `clock-workshop.css` and `clock-hillside.css` (a theme each), and the generated `clock-fonts.css`. `layout.tsx` imports them in that order and the order is load-bearing, since the later ones override the earlier ones' custom properties. A change to the workshop's bench or its lighting belongs in `clock-workshop.css`, not here. Keep component markup semantic and put layout changes in a stylesheet rather than adding one-off inline styles.
+`app/globals.css` carries the display's shared visual system: the fixed 1280 x 720 layout, panel transitions, the condition palette (`.condition-*` classes set `--sky`, the colour the icon and degree sign take, and the tint behind the card, so sun reads amber, cloud slate, rain blue), and reduced-motion behavior. Six stylesheets sit beside it, each owning one thing: `tenant.css` (the resident character, which nothing else reads), the generated `clock-fonts.css`, `clock-theme.css` (what every clock theme shares), `clock-hillside.css` and `clock-workshop.css` (a scene each), and the generated `horizon.css` (the outline of the painted sky and the shed window, traced off the artwork by `npm run horizon`). `layout.tsx` imports them in that order and the order is load-bearing, since the later ones override the earlier ones' custom properties. A change to the workshop's bench or its lighting belongs in `clock-workshop.css`, not here. Keep component markup semantic and put layout changes in a stylesheet rather than adding one-off inline styles.
 
 ## Data flow
 
@@ -88,7 +103,7 @@ app/page.tsx (Home)
 
 `Home` updates `now` once per second. `Clock` passes that value to `clockFrame()` for minute-based digit animation and to `clockDate()` for the date below the clock. Both formatters use `Europe/Copenhagen`, so the displayed calendar date does not depend on the device's time zone. A null value is used during the first render to avoid a server/client time mismatch.
 
-The clock is an enclosed widget: the time, the date and a small character whose home is beside the minutes. What the character does is decided in pure modules (`lib/clock-tenant.ts`, `lib/pet-behavior.ts`, `lib/tenant-motion.ts`) and only drawn by `components/clock.tsx` and `components/tenant.tsx`. The weather panel reports the current hour's temperature and wetness up to `Home`, which hands it to the clock, so the character reacts to the sky without a second fetch. The clock's wardrobe and its set pieces are shelved in [assets/clock-behavior/](../assets/clock-behavior/README.md). See [CLOCK.md](CLOCK.md).
+The clock is an enclosed widget: the time, the date and a small character whose home is beside the minutes. What the character does is decided in pure modules (`lib/clock-tenant.ts`, `lib/pet-behavior.ts`, `lib/tenant-motion.ts`, `lib/tenant-view.ts`) and only drawn by `components/clock.tsx` and `components/tenant.tsx`. The character is four files because they answer four questions: `tenant.tsx` holds the state and decides *when*, `tenant-actions.ts` is *what it does* as one controller built per mount, `tenant-figure.tsx` is the drawing, and `use-track-animation.ts` plays a motion clip on nested layers and hands them back to neutral. Where it may land beyond the clock is the `LANDMARKS` table in `lib/clock-tenant.ts`, which is data: a selector, an alignment and an edge per spot, measured by `collectLandmarks` in `components/clock.tsx`. That is the only place the table meets the DOM, and it is why a class renamed in another component now fails a test rather than silently removing a perch. The weather panel reports the current hour's temperature and wetness up to `Home`, which hands it to the clock, so the character reacts to the sky without a second fetch. The clock's wardrobe and its set pieces are shelved in [assets/clock-behavior/](../assets/clock-behavior/README.md). See [CLOCK.md](CLOCK.md).
 
 ### Weather
 
@@ -173,15 +188,20 @@ The metadata is trusted for *when*, never for *whether the map still has anythin
 | Forecast providers, payload parsing, or fallback order | `lib/forecast-sources.ts` | `tests/forecast-sources.test.mjs`, `DEPLOYMENT.md` |
 | Condition or rain classification, intensity bands | `lib/weather.ts` | `tests/weather.test.mjs` |
 | Forecast window, headline wording, or ribbon geometry | `lib/forecast-summary.ts` | `components/weather-panel.tsx`, `tests/forecast-summary.test.mjs` |
-| Weather fetching, retry backoff, or staleness | `components/weather-panel.tsx` | `DEPLOYMENT.md`, `app/globals.css` |
+| Weather fetching, retry backoff, provider penalties | `components/use-provider-chain.ts`, `lib/source-penalty.ts`, `lib/forecast-refresh.ts` | `components/weather-panel.tsx`, `components/week-strip.tsx`, `DEPLOYMENT.md` |
+| Staleness, the dot, or what the card draws | `components/weather-panel.tsx` | `DEPLOYMENT.md`, `app/globals.css` |
+| Refresh on visibility, network or the remote's keys | `components/refresh-triggers.ts` | every fetching component, `app/page.tsx` |
 | The week ahead: its provider, thresholds, or day condition | `lib/daily-forecast.ts` | `components/week-strip.tsx`, `tests/daily-forecast.test.mjs`, `DEPLOYMENT.md` |
 | Condition colours or icons | `app/globals.css` (`.condition-*`), `components/condition-icons.ts` | `components/weather-panel.tsx`, `components/week-strip.tsx` |
 | Main layout or display sizing | `app/globals.css` | `app/page.tsx`, reduced-motion media query |
 | Right-panel timing, or the `?scene=` debug pin | `lib/panel-rotation.ts` | `components/rotating-panel.tsx`, `tests/panel-rotation.test.mjs`, README |
 | The `?weather=off` flag, or a new debug flag | `lib/debug-flags.ts` | `tests/debug-flags.test.mjs`, the three weather components, `DEBUGGING.md` |
-| What is kept in device storage between reloads | `components/device-storage.ts` | the `valid*` guards in `lib/weather.ts` and `lib/precipitation-grid.ts`, `tests/stored-shapes.test.mjs` |
+| What is kept in device storage between reloads | `lib/stored-shapes.ts` (the shapes and their validators), `components/device-storage.ts` (the read and write) | the `valid*` guards in `lib/weather.ts` and `lib/precipitation-grid.ts`, `tests/stored-shapes.test.mjs` |
 | Screenshot or provider-probe tooling | `scripts/screenshot.mjs`, `scripts/probe-forecast.mjs` | `DEBUGGING.md`, `.claude/commands/`, `.github/workflows/ci.yml` |
 | A rule every change must follow | `scripts/check-rules.mjs`, `eslint.config.mjs`, `scripts/hooks/` | AGENTS.md, `DEBUGGING.md` |
+| What the Tenant does, or when it does it | `components/tenant-actions.ts` (what), `components/tenant.tsx` (when), `lib/pet-behavior.ts` (why) | `tests/pet-behavior.test.mjs`, `CLOCK.md` |
+| How the Tenant is drawn, or which classes it carries | `components/tenant-figure.tsx`, `lib/tenant-view.ts` | `app/tenant.css`, `tests/tenant-view.test.mjs`, `check:rules` gesture durations |
+| Where the Tenant may land on the display | `LANDMARKS` in `lib/clock-tenant.ts` | `collectLandmarks` in `components/clock.tsx`, `tests/clock-landmarks.test.mjs` |
 | Transit stops, destinations, or normalization | `lib/transit.ts` | `app/api/departures/route.ts`, `TRANSPORT.md`, transit tests |
 | Fallback stop ids, headsigns, or response parsing | `lib/transitous.ts` | `app/api/departures/route.ts`, `TRANSPORT.md`, `tests/transitous.test.mjs` |
 | How a delay or incident is marked | `lib/transit.ts` | `components/transport-panel.tsx`, `app/globals.css`, `TRANSPORT.md` |

@@ -25,9 +25,11 @@ loop, or anything that runs on the server.
 2. **Client JavaScript is the scarce resource, not server CPU.** The Fire TV
    Stick decodes and executes every byte on a slow core. Leaflet is already the
    heaviest thing shipped and is loaded only by `components/forecast-map-panel.tsx`,
-   when the forecast map scene first appears. Keep it that way. No UI framework, no
-   runtime CSS-in-JS, no state library, no date library: `Intl` and
-   `app/globals.css` cover this display.
+   when the forecast map scene first appears. Keep it that way. The only other
+   client dependency is `lucide-react`, for the condition icons in
+   `components/condition-icons.ts`; import icons by name so the bundle carries
+   only those. No UI framework, no runtime CSS-in-JS, no state library, no date
+   library: `Intl` and `app/globals.css` cover this display.
 3. **Long-lived means leaks matter.** The display runs for weeks without a
    reload. Every `setInterval`, `setTimeout`, event listener, and Leaflet layer
    must be torn down in its effect cleanup. A leak that is invisible in a
@@ -41,8 +43,10 @@ loop, or anything that runs on the server.
    every Tenant track are `transform` and `opacity` only. See
    [CLOCK.md](CLOCK.md).
    Of the 22 subset woff2 files in `public/fonts/clock/`, about 0.9 MB in all,
-   the display now fetches two: Clock Grotesk for the workshop and Fraunces for
-   the outdoor temperature. The rest belong to the shelved wardrobe in
+   the display now fetches one: Fraunces, for the workshop's digits and the
+   weather card's temperature and headline. The rest of the display is set in
+   Space Grotesk, a TrueType file beside them in `public/fonts/`. The other
+   faces belong to the shelved wardrobe in
    [assets/clock-behavior/](../assets/clock-behavior/README.md).
 5. **Nothing may depend on interaction.** There is no pointer and no keyboard.
    `:hover` states, tooltips, and focus-only affordances are invisible to the
@@ -50,8 +54,10 @@ loop, or anything that runs on the server.
 
 ## Provider limits
 
-Five external providers stand behind the display, four called straight from the
-browser and one (Google) through a route handler, and each has a limit worth
+Six external providers stand behind the display. DMI, Open-Meteo and MET Norway
+are asked straight from the browser; Google goes through `/api/weather` and
+Rejseplanen and Transitous through `/api/departures`, because a key or a
+required `User-Agent` cannot travel in a browser request. Each has a limit worth
 respecting for a display that runs unattended for weeks. Google's is the only
 one that is metered in money rather than in refusals. The one that matters
 most is Open-Meteo's, because it is counted **per client IP address**: the Fire
@@ -68,6 +74,7 @@ out and what now prevents that.
 | Open-Meteo daily forecast | Same quota as the grid below; one coordinate, so one call. MET Norway behind it. | The week strip under the ribbon. Fetched hourly from `components/week-strip.tsx`, about 24 calls a day, with the same backoff and keep-the-last-good-answer behaviour as the weather panel. |
 | Open-Meteo forecast grid | 10,000 weighted calls a day, 5,000 an hour, **600 a minute**, per client IP address. A request weighs `locations × max(1, days / 14) × max(1, variables / 10)`, so every coordinate in it counts as a call (`lib/open-meteo-quota.ts`). Over it, `429`. | One request carries about 285 coordinates at the Fire TV's frame: a 3 km lattice, since Harmonie's effective resolution is several times its 2 km grid and the field is smoothed when drawn, so nothing the map could show is lost. The lattice is capped at 450 points so a single request cannot trip the per-minute limit, and bounded to a 7.8 KB URL because Open-Meteo's nginx answers a request line over 8 KB with a `414` that carries no CORS header and reaches the browser as a plain network failure. It is fetched when Open-Meteo's per-model `meta.json` names a run the map does not hold, or when fewer frames remain ahead of now than the map shows (the metadata has been seen stuck or answering `500` for hours while the forecast kept updating), which is every three hours at most, never between 23:00 and 06:00, never before the scene has been on screen once, and never while a `429` has locked Open-Meteo out. That is about 1,700 a day, down from 3,000 at 2.4 km and 6,480 when it was refetched hourly. The metadata checks are a static kilobyte, roughly fifteen a day. |
 | Rejseplanen | Per-key, undocumented. | Proxied through `/api/departures`, which caches results for two minutes so every browser refresh does not become a provider request. |
+| Transitous | A public MOTIS instance; no documented limit, but it asks every client to identify itself with a `User-Agent`. | The keyless fallback behind Rejseplanen, asked from the same route with its own deadline and the project's name in the header. Its realtime coverage is thinner, which the board says with one word. See [TRANSPORT.md](TRANSPORT.md). |
 
 The weather panel refreshes every 15 minutes and retries a failure with jittered
 exponential backoff from 20 seconds to a 5-minute ceiling. The last good answer
@@ -121,7 +128,7 @@ the other.
 | Start command | `npm run start:render` | Binds `0.0.0.0` so Render's proxy can reach it. |
 | Node version | from `.nvmrc` | Same version as local and CI. |
 | Health check path | `/` | The one static route. |
-| Environment | `REJSEPLANEN_ACCESS_ID`, `GOOGLE_WEATHER_API_KEY`, `SITE_URL` | Set in the dashboard. Never committed. |
+| Environment | `REJSEPLANEN_ACCESS_ID`, `GOOGLE_WEATHER_API_KEY`, `DEEPL_API_KEY`, `SITE_URL` | Set in the dashboard. Never committed. `.env.example` says which route reads each. |
 
 **`npm start` will not work on Render.** It binds `127.0.0.1`, which is
 deliberate for local use and fatal behind Render's proxy. Use
