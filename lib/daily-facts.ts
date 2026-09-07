@@ -1,3 +1,5 @@
+import { copenhagenDayKey } from './copenhagen';
+
 export const DAILY_FACT_COUNT = 5;
 
 // The category is an editorial promise about why the fact is worth reading,
@@ -52,27 +54,18 @@ export type DailyFact = {
 
 export type DailyFactsFile = { date: string; dateLabel: string; facts: DailyFact[] };
 
-const dateParts = new Intl.DateTimeFormat('en-GB', {
-  timeZone: 'Europe/Copenhagen',
-  year: 'numeric',
-  month: '2-digit',
-  day: '2-digit',
-});
-
-function copenhagenParts(date: Date) {
-  return Object.fromEntries(dateParts.formatToParts(date).map(part => [part.type, part.value]));
-}
-
-export function dailyDateKey(date = new Date()) {
-  const parts = copenhagenParts(date);
-  return `${parts.month}-${parts.day}`;
+// The clock is passed in, never read here: the wall's `?time=` pin has to
+// reach the fact key, and a test has to be able to stand at midnight. The
+// key is the MM-DD tail of the wall's YYYY-MM-DD.
+export function dailyDateKey(date: Date) {
+  return copenhagenDayKey(date).slice(5);
 }
 
 // "19 years ago" is the whole point of an on-this-day panel: it turns a year
 // into a distance. Anniversaries are counted against the Copenhagen year so
 // the display never rolls over an hour early or late.
-export function yearsAgo(year: number, now = new Date()) {
-  const current = Number(copenhagenParts(now).year);
+export function yearsAgo(year: number, now: Date) {
+  const current = Number(copenhagenDayKey(now).slice(0, 4));
   if (!Number.isFinite(year) || year <= 0 || !Number.isFinite(current)) return '';
   const span = current - year;
   if (span <= 0) return '';
@@ -146,8 +139,8 @@ export function validDailyFacts(value: unknown, expectedDate: string): value is 
 // and wider earns a bigger share of the row; anything taller than it is wide
 // gets the narrow column and gives the words the space instead.
 export type MediaShape = 'wide' | 'boxy' | 'tall';
-export const WIDE_AT = 1.5;
-export const TALL_AT = 0.95;
+const WIDE_AT = 1.5;
+const TALL_AT = 0.95;
 export function mediaShape(width: number, height: number): MediaShape {
   if (!Number.isFinite(width) || !Number.isFinite(height) || width <= 0 || height <= 0) return 'boxy';
   const ratio = width / height;

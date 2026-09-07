@@ -6,6 +6,7 @@ import WeatherPanel from '@/components/weather-panel';
 import WeekStrip from '@/components/week-strip';
 import Clock from '@/components/clock';
 import KeepAwake from '@/components/keep-awake';
+import { onRefreshTriggers } from '@/components/refresh-triggers';
 import type { Conditions } from '@/lib/clock-conditions';
 import { debugFlags, pinnedNow } from '@/lib/debug-flags';
 import type { Rotation } from '@/lib/panel-rotation';
@@ -29,14 +30,13 @@ export default function Home() {
     const tick = () => setNow(pinnedNow(pinned, new Date()));
     const start = window.setTimeout(tick, 0);
     const clock = window.setInterval(tick, 1000);
-    const resume = tick;
-    window.addEventListener('online', resume);
-    document.addEventListener('visibilitychange', resume);
+    // A tab that was hidden or offline has a clock that may have stopped
+    // ticking; catch it up the moment either comes back.
+    const off = onRefreshTriggers(tick);
     return () => {
       window.clearTimeout(start);
       window.clearInterval(clock);
-      window.removeEventListener('online', resume);
-      document.removeEventListener('visibilitychange', resume);
+      off();
     };
   }, []);
 
@@ -48,7 +48,7 @@ export default function Home() {
         <WeatherPanel now={now} onConditions={setConditions} />
         <WeekStrip now={now} />
       </aside>
-      <RotatingPanel onSceneChange={setActiveScene} mapLight={mapSky?.light ?? null} />
+      <RotatingPanel now={now} onSceneChange={setActiveScene} mapLight={mapSky?.light ?? null} />
     </main>
   );
 }

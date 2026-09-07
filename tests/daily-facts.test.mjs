@@ -8,7 +8,11 @@ test('every calendar day stores five sourced, illustrated, modern facts', async 
   let dates = 0;
   let modern = 0;
   let recent = 0;
-  const thisYear = new Date().getUTCFullYear();
+  // Measured against the calendar's own newest entry, not the wall clock: a
+  // suite that counted "the last five years" from today would start failing
+  // in 2029 with no change to the code or the data.
+  let latestYear = 0;
+  const years = [];
   const ids = new Set();
   const categories = new Map();
   for (let month = 1; month <= 12; month++) {
@@ -23,6 +27,8 @@ test('every calendar day stores five sourced, illustrated, modern facts', async 
         categories.set(fact.category, (categories.get(fact.category) ?? 0) + 1);
         assert.ok(DAILY_FACT_CATEGORIES.includes(fact.category), fact.id);
         assert.ok(fact.year >= 1000 && fact.year <= new Date().getUTCFullYear(), `${fact.id}: year ${fact.year}`);
+        latestYear = Math.max(latestYear, fact.year);
+        years.push(fact.year);
         assert.ok(fact.title.length <= 60, `${fact.id}: headline too long for the panel`);
         assert.ok(fact.body.split(/\s+/).length <= 48, fact.id);
         assert.equal(/^\d{3,4}\s*[:–-]/.test(fact.body), false, `${fact.id}: the year is shown on its own, not in the sentence`);
@@ -30,11 +36,12 @@ test('every calendar day stores five sourced, illustrated, modern facts', async 
         assert.equal(new URL(fact.image.source).hostname, 'commons.wikimedia.org', fact.id);
         assert.equal(new URL(fact.source.url).hostname, 'en.wikipedia.org', fact.id);
         if (fact.year >= 1900) modern++;
-        if (thisYear - fact.year >= 1 && thisYear - fact.year <= 5) recent++;
       }
       dates++;
     }
   }
+  // Counted after the sweep, once the newest year is known.
+  for (const year of years) if (latestYear - year >= 1 && latestYear - year <= 5) recent++;
   assert.equal(dates, 366);
   assert.equal(ids.size, 366 * DAILY_FACT_COUNT);
   // The whole point of the rework: this is a modern, curious calendar, not a

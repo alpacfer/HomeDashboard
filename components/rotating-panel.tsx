@@ -4,26 +4,17 @@ import { useCallback, useEffect, useRef, useState, type CSSProperties } from 're
 import TransportPanel from '@/components/transport-panel';
 import { DAILY_FACT_COUNT, dailyDateKey, mediaShape, pinnedDateKey, validDailyFacts, yearsAgo, type DailyFact } from '@/lib/daily-facts';
 import { initialRotation, nextRotation, pinnedRotation, resumeRotation } from '@/lib/panel-rotation';
+import { resumeFactIndex, validStoredFactCursor, type StoredFactCursor } from '@/lib/stored-shapes';
 import ForecastMapPanel from '@/components/forecast-map-panel';
 import type { SkyLight } from '@/lib/clock-sky';
 import type { Rotation } from '@/lib/panel-rotation';
+import { readStored, writeStored } from './device-storage';
+import { useReducedMotion } from './use-reduced-motion';
 
-const STORAGE_KEY = 'home-dashboard:next-daily-fact:v1';
+// Where the day's rotation had got to. v2: a JSON record read through the
+// same validator as every other stored shape; v1 was a bare "MM-DD:n" string.
+const STORAGE_KEY = 'home-dashboard:next-daily-fact:v2';
 
-// The accessibility path scripts/screenshot.mjs exercises with --reduced-motion.
-// A daily fact's clip is decoration, so it is the poster and nothing else.
-function useReducedMotion() {
-  const [reduced, setReduced] = useState(false);
-  useEffect(() => {
-    if (typeof window.matchMedia !== 'function') return;
-    const query = window.matchMedia('(prefers-reduced-motion: reduce)');
-    const read = () => setReduced(query.matches);
-    read();
-    query.addEventListener('change', read);
-    return () => query.removeEventListener('change', read);
-  }, []);
-  return reduced;
-}
 const artworkCache = new Map<string, HTMLImageElement>();
 
 function preloadArtwork(src: string, priority: 'high' | 'low' = 'low') {
@@ -93,6 +84,10 @@ function FactVideo({ fact, onFail }: { fact: DailyFact; onFail: () => void }) {
   const node = useRef<HTMLVideoElement | null>(null);
   const src = fact.video?.src;
   const fallback = fact.video?.fallback;
+  // Read through a ref so a new callback from the parent does not restart the
+  // clip; the effect below is keyed on the source alone.
+  const fail = useRef(onFail);
+  useEffect(() => { fail.current = onFail; });
 
   useEffect(() => {
     const element = node.current;
@@ -119,7 +114,17 @@ function FactVideo({ fact, onFail }: { fact: DailyFact; onFail: () => void }) {
     element.src = webm === 'probably' || webm === 'maybe' ? src : (fallback ?? src);
     element.load();
     const start = element.play();
-    if (start && typeof start.catch === 'function') start.catch(() => undefined);
+    // A refused autoplay does not fire onError, so without this the row stayed
+    // shaped for a clip that never played, with the poster floating in a
+    // video-shaped column. The one rejection that is not a refusal is the
+    // AbortError this effect's own teardown causes by pausing a clip that was
+    // still starting, which must not mark the fact as unplayable for the day.
+    if (start && typeof start.catch === 'function') {
+      start.catch((error: unknown) => {
+        if (error instanceof DOMException && error.name === 'AbortError') return;
+        fail.current();
+      });
+    }
     return () => {
       element.pause();
       element.removeAttribute('src');
@@ -159,10 +164,15 @@ function FactArtwork({ fact, playing, onVideoFail }: { fact: DailyFact; playing:
 // bound the wait, not to tune it: Render's free instance can be cold.
 const REQUEST_TIMEOUT_MS = 15_000;
 
-function useDailyFacts() {
+function useDailyFacts(now: Date | null) {
   const [date, setDate] = useState('');
   const [facts, setFacts] = useState<DailyFact[]>([]);
   const [status, setStatus] = useState<'loading' | 'ready' | 'error'>('loading');
+  // The wall's clock, pinned or not, read through a ref so the minute timer
+  // below is not rebuilt on every tick. `?time=` reaches the fact key this
+  // way: a clock pinned across midnight shows that day's facts.
+  const clock = useRef(now);
+  useEffect(() => { clock.current = now; });
 
   useEffect(() => {
     let active = true;
@@ -189,7 +199,14 @@ function useDailyFacts() {
         setFacts(value.facts);
         setStatus('ready');
       } catch (error) {
-        if (!active || (error instanceof DOMException && error.name === 'AbortError')) return;
+        if (!active) return;
+        // Superseded by a newer request: that one reports. A request aborted
+        // by its own deadline is a failure like any other, and used to return
+        // here silently, leaving "Finding today's facts…" on the wall all day
+        // when the origin was slow.
+        const aborted = error instanceof DOMException && error.name === 'AbortError';
+        if (aborted && controller !== own) return;
+        console.warn('[facts] ' + key + ' failed: ' + (aborted ? 'timeout' : error instanceof Error ? error.message : 'network error'));
         setStatus('error');
       } finally {
         window.clearTimeout(timeout);
@@ -197,7 +214,7 @@ function useDailyFacts() {
     };
     const pinned = pinnedDateKey(window.location.search);
     const refresh = () => {
-      const key = pinned ?? dailyDateKey();
+      const key = pinned ?? dailyDateKey(clock.current ?? new Date());
       if (key !== loadedDate) void load(key);
     };
     refresh();
@@ -212,8 +229,8 @@ function useDailyFacts() {
   return { date, facts, status };
 }
 
-export default function RotatingPanel({ onSceneChange, mapLight }: { onSceneChange?: (scene: Rotation['phase']) => void; mapLight: SkyLight | null }) {
-  const { date, facts, status } = useDailyFacts();
+export default function RotatingPanel({ now, onSceneChange, mapLight }: { now: Date | null; onSceneChange?: (scene: Rotation['phase']) => void; mapLight: SkyLight | null }) {
+  const { date, facts, status } = useDailyFacts(now);
   const [rotation, setRotation] = useState(() => initialRotation(0, DAILY_FACT_COUNT));
   const [wake, setWake] = useState(0);
   // Whether the forecast map has said it is not worth its thirty seconds,
@@ -234,11 +251,9 @@ export default function RotatingPanel({ onSceneChange, mapLight }: { onSceneChan
       const timer = window.setTimeout(() => setRotation(pinned), 0);
       return () => window.clearTimeout(timer);
     }
-    let start = 0;
-    try {
-      const saved = window.localStorage.getItem(STORAGE_KEY)?.match(/^(\d{2}-\d{2}):(\d)$/);
-      if (saved && saved[1] === date) start = Number(saved[2]);
-    } catch { /* Storage can be disabled in a TV browser. Rotation still works. */ }
+    // Storage can be disabled in a TV browser; the read then answers null and
+    // the rotation starts from the first fact.
+    const start = resumeFactIndex(readStored(STORAGE_KEY, validStoredFactCursor), date, DAILY_FACT_COUNT);
     let current = initialRotation(start, DAILY_FACT_COUNT);
     let timer: number | undefined;
     const resetTimer = window.setTimeout(() => setRotation(current), 0);
@@ -248,7 +263,7 @@ export default function RotatingPanel({ onSceneChange, mapLight }: { onSceneChan
       timer = window.setTimeout(() => {
         current = nextRotation(current, DAILY_FACT_COUNT, !dryForecast.current);
         if (current.phase === 'fact' && date) {
-          try { window.localStorage.setItem(STORAGE_KEY, `${date}:${(current.index + 1) % DAILY_FACT_COUNT}`); } catch { /* Device-local persistence is optional. */ }
+          writeStored(STORAGE_KEY, { date, index: (current.index + 1) % DAILY_FACT_COUNT } satisfies StoredFactCursor);
         }
         setRotation(current);
         schedule();
@@ -327,7 +342,7 @@ export default function RotatingPanel({ onSceneChange, mapLight }: { onSceneChan
       </header>
       <div className={'fact-feature' + (shape ? ' media-' + shape : '')}>
         <div className="fact-copy">
-          <p className="fact-year"><strong>{fact.year}</strong><span>{yearsAgo(fact.year)}</span></p>
+          <p className="fact-year"><strong>{fact.year}</strong><span>{yearsAgo(fact.year, now ?? new Date())}</span></p>
           <h2>{fact.title}</h2>
           <p className="fact-body">{fact.body}</p>
         </div>
@@ -336,7 +351,7 @@ export default function RotatingPanel({ onSceneChange, mapLight }: { onSceneChan
           style={shape ? ({ '--media-ar': `${fact.video!.width} / ${fact.video!.height}` } as CSSProperties) : undefined}
         >
           <FactArtwork fact={fact} playing={playing} onVideoFail={() => setRefusedId(fact.id)} />
-          <figcaption><a href={fact.image.source} target="_blank" rel="noreferrer">{fact.image.credit}</a><span className="credit-dot"> · </span><a href={fact.image.licenseUrl} target="_blank" rel="noreferrer">{fact.image.license}</a></figcaption>
+          <figcaption><a href={fact.image.source} target="_blank" rel="noreferrer" tabIndex={-1}>{fact.image.credit}</a><span className="credit-dot"> · </span><a href={fact.image.licenseUrl} target="_blank" rel="noreferrer" tabIndex={-1}>{fact.image.license}</a></figcaption>
         </figure>
       </div>
       {/* The article title the old footer spelled out is the headline two lines
@@ -345,9 +360,9 @@ export default function RotatingPanel({ onSceneChange, mapLight }: { onSceneChan
           takes a link to the article as attribution; the full source name
           stays in the accessible label. */}
       <footer className="fact-footer">
-        <a href={fact.source.url} target="_blank" rel="noreferrer" aria-label={`Source: ${fact.source.name}. Opens in a new tab.`}>Wikipedia</a>
+        <a href={fact.source.url} target="_blank" rel="noreferrer" tabIndex={-1} aria-label={`Source: ${fact.source.name}. Opens in a new tab.`}>Wikipedia</a>
         <span className="credit-dot">·</span>
-        <a href={fact.source.license.url} target="_blank" rel="noreferrer">{fact.source.license.name}</a>
+        <a href={fact.source.license.url} target="_blank" rel="noreferrer" tabIndex={-1}>{fact.source.license.name}</a>
       </footer>
     </article>}
     {showingFact && !fact && <section className="panel-scene daily-fact-scene daily-fact-unavailable is-active" role="status">
