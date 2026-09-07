@@ -1,0 +1,40 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="260" height="120" viewBox="0 0 260 120" preserveAspectRatio="none">
+  <!-- Fog is not a cloud passing in front of the distance; it is the distance
+       gone. So there is no silhouette here at all: nine long filaments of
+       unequal density lying in a depth ramp, none of them ending anywhere you
+       could point at, and the alpha never falling to nothing across the tile.
+       That is what makes it a bank rather than a row of streaks.
+       Every filament is a STROKE, not a filled ribbon, and every one is a
+       quadratic started once and continued with `t` over a period that divides
+       260 exactly. Both facts are the seam: a stroke has no closing edge to
+       misplace, and a wave whose period divides the tile is at the same height
+       at x=0 and x=260 by construction rather than by measurement. -->
+  <defs>
+    <linearGradient id="fg-depth" gradientUnits="userSpaceOnUse" x1="0" y1="0" x2="0" y2="120">
+      <stop offset="0" stop-color="#fff" stop-opacity="0"/>
+      <stop offset=".2" stop-color="#fff" stop-opacity=".26"/>
+      <stop offset=".58" stop-color="#fff" stop-opacity=".56"/>
+      <stop offset=".86" stop-color="#fff" stop-opacity=".7"/>
+      <stop offset="1" stop-color="#fff" stop-opacity=".52"/>
+    </linearGradient>
+    <linearGradient id="fg-fil" gradientUnits="userSpaceOnUse" x1="0" y1="0" x2="0" y2="120">
+      <stop offset="0" stop-color="#fff" stop-opacity=".16"/>
+      <stop offset=".5" stop-color="#fff" stop-opacity=".3"/>
+      <stop offset="1" stop-color="#fff" stop-opacity=".22"/>
+    </linearGradient>
+  </defs>
+  <!-- The bank itself: no edges, only depth. -->
+  <rect width="260" height="120" fill="url(#fg-depth)"/>
+  <!-- The filaments. Long, flat, unequal, and all lying down: mist stratifies. -->
+  <g fill="none" stroke="url(#fg-fil)" stroke-linecap="round">
+    <path stroke-width="7"  d="M0 14q26 -7 52 0t52 0t52 0t52 0t52 0"/>
+    <path stroke-width="10" d="M0 27q32.5 6 65 0t65 0t65 0t65 0"/>
+    <path stroke-width="6"  d="M0 39q13 -5 26 0t26 0t26 0t26 0t26 0t26 0t26 0t26 0t26 0t26 0"/>
+    <path stroke-width="12" d="M0 52q65 -9 130 0t130 0"/>
+    <path stroke-width="8"  d="M0 64q26 7 52 0t52 0t52 0t52 0t52 0"/>
+    <path stroke-width="13" d="M0 77q32.5 -8 65 0t65 0t65 0t65 0"/>
+    <path stroke-width="9"  d="M0 90q65 8 130 0t130 0"/>
+    <path stroke-width="11" d="M0 102q26 -6 52 0t52 0t52 0t52 0t52 0"/>
+    <path stroke-width="7"  d="M0 113q32.5 5 65 0t65 0t65 0t65 0"/>
+  </g>
+</svg>

@@ -1,0 +1,42 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="300" height="130" viewBox="0 0 300 130" preserveAspectRatio="none">
+  <!-- preserveAspectRatio="none" IS LOAD-BEARING. A mask-image is a replaced
+       element: the mask box becomes this file's viewport and the default
+       xMidYMid meet FITS the viewBox inside it rather than stretching to it.
+       Every tile is drawn into a box whose aspect the stylesheet chooses, so
+       without this the drawing is scaled down and centred and a transparent
+       gutter opens on both sides of every tile — which, in an overcast lid,
+       is a repeating hole in a sky whose whole point is that it has none.
+       The retired cloud-bank-v1.svg had exactly this bug. -->
+  <!-- Overcast. The lid.
+       What makes a sky overcast is not that there is a lot of cloud, it is that
+       there are NO GAPS and NO EDGES: one sheet whose only feature is the sag of
+       its own underside. So this tile is solid to the top edge and solid to both
+       sides — nothing in it is a shape you could point at — and the whole
+       drawing is ten scallops of unequal depth along the base.
+       THE SEAM IS SMOOTH, NOT MERELY LEVEL. Landing back on the height it
+       started at only guarantees no step; the chain must also LEAVE x=0 on the
+       tangent it ARRIVED at x=300 with, or every tile boundary carries a cusp:
+       a corner in a cloud, ninety degrees of it, once every three hundred
+       pixels. For a relative quadratic the outgoing tangent is the control and
+       the incoming one is (end - control), so the first and last segments share
+       a width and the last control is (last rise - first control).
+       ONE closed outline at full alpha, and nothing laid on top of it. The first
+       cut modelled the underside with translucent ellipses and with a mask full
+       of soft "thin places"; both showed as smudges, because alpha composites
+       additively and any two shapes that overlap stop being one cloud. Depth
+       here is geometry: where the lid hangs lower, the outline goes lower.
+       Behind it, .cs-deck paints a plain wash of the same grey over the whole
+       sky. That is what guarantees no blue shows anywhere — this tile only has
+       to be the underside, not the whole cloud. -->
+  <defs>
+    <linearGradient id="ov-body" gradientUnits="userSpaceOnUse" x1="0" y1="0" x2="0" y2="130">
+      <stop offset="0" stop-color="#fff" stop-opacity="1"/>
+      <stop offset=".44" stop-color="#fff" stop-opacity="1"/>
+      <stop offset=".64" stop-color="#fff" stop-opacity=".9"/>
+      <stop offset=".82" stop-color="#fff" stop-opacity=".46"/>
+      <stop offset="1" stop-color="#fff" stop-opacity="0"/>
+    </linearGradient>
+  </defs>
+  <path fill="url(#ov-body)"
+        d="M0 0h300v68q-12 -5 -24 9q-21 -1 -41 -6q-9 21 -18 14q-17 -3 -34 -11q-14 11 -27 7q-23 -2 -46 -8q-10 23 -19 16q-19 -4 -38 -13q-15 8 -29 5q-12 -8 -24 -13Z"/>
+</svg>

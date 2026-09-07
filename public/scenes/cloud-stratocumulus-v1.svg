@@ -1,0 +1,38 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="240" height="104" viewBox="0 0 240 104" preserveAspectRatio="none">
+  <!-- Stratocumulus: cumulus that has spread out and joined up. It is a DECK,
+       not three clouds — the rolls still show as lobes along the top and
+       scallops along the base, but they touch, and the only sky left is two
+       narrow slots where the deck has torn. That is the whole difference from
+       the cumulus tile beside it, and at 240 px wide it is the difference you
+       can see from across a room.
+       ONE closed outline, filled at full alpha. Overlapping translucent shapes
+       composite brighter where they meet, which is what turns a deck back into
+       a heap of circles; the rolls are therefore drawn as the shape of the top
+       edge rather than as discs laid on it. The slots are an SVG mask, because
+       alpha only adds: a dark shape over the deck would have thickened it.
+       Both chains use one segment width and rises that sum to zero, so the
+       outline is at the same height at x=0 and x=240 by construction. -->
+  <defs>
+    <linearGradient id="sc-fade" gradientUnits="userSpaceOnUse" x1="0" y1="0" x2="0" y2="104">
+      <stop offset="0" stop-color="#fff" stop-opacity="1"/>
+      <stop offset=".62" stop-color="#fff" stop-opacity="1"/>
+      <stop offset=".8" stop-color="#fff" stop-opacity=".6"/>
+      <stop offset=".96" stop-color="#fff" stop-opacity="0"/>
+    </linearGradient>
+    <linearGradient id="sc-slot" gradientUnits="userSpaceOnUse" x1="0" y1="0" x2="0" y2="104">
+      <stop offset="0" stop-color="#4a4a4a"/><stop offset=".62" stop-color="#5c5c5c"/>
+      <stop offset="1" stop-color="#fff"/>
+    </linearGradient>
+    <mask id="sc-torn" maskUnits="userSpaceOnUse" x="-12" y="-12" width="264" height="128">
+      <rect x="-12" y="-12" width="264" height="128" fill="#fff"/>
+      <!-- Two tears, and both of them narrow. A stratocumulus deck is broken,
+           not gappy: widen these and it becomes the cumulus tile again. -->
+      <path fill="url(#sc-slot)" d="M78 20q5 11 1 22-5 12 1 24h-7q-5-12 0-24-5-11 1-22Z"/>
+      <path fill="url(#sc-slot)" d="M172 24q4 10 0 20-4 11 1 22h-6q-5-11 0-22-4-10 0-20Z"/>
+    </mask>
+  </defs>
+  <g mask="url(#sc-torn)">
+    <path fill="url(#sc-fade)"
+          d="M0 30q15 -16 30 -9q15 18 30 11q15 -20 30 -13q15 19 30 12q15 -17 30 -10q15 21 30 14q15 -18 30 -12q15 12 30 7V74q-15 15 -30 10q-15 -3 -30 -8q-15 17 -30 12q-15 -4 -30 -11q-15 14 -30 9q-15 -5 -30 -13q-15 15 -30 10q-15 -2 -30 -9Z"/>
+  </g>
+</svg>

@@ -1,0 +1,32 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="256" height="138" viewBox="0 0 256 138" preserveAspectRatio="none">
+  <!-- A snow-bearing deck, and it must not be mistaken for the raining one.
+       Snow falls out of a softer, shallower, more wadded cloud: the base is
+       level rather than pendulous, the scallops are rounded rather than drawn
+       down into points, and there is no virga at all — snow does not evaporate
+       into streaks on the way down, it just comes. What a snow sky shows under
+       the base instead is wadding: soft detached puffs, well apart.
+       One closed outline at full alpha, the same rule as the other two lids. -->
+  <defs>
+    <linearGradient id="sn-body" gradientUnits="userSpaceOnUse" x1="0" y1="0" x2="0" y2="138">
+      <stop offset="0" stop-color="#fff" stop-opacity="1"/>
+      <stop offset=".42" stop-color="#fff" stop-opacity="1"/>
+      <stop offset=".62" stop-color="#fff" stop-opacity=".88"/>
+      <stop offset=".8" stop-color="#fff" stop-opacity=".44"/>
+      <stop offset=".98" stop-color="#fff" stop-opacity="0"/>
+    </linearGradient>
+    <radialGradient id="sn-puff">
+      <stop stop-color="#fff" stop-opacity=".5"/><stop offset="1" stop-color="#fff" stop-opacity="0"/>
+    </radialGradient>
+  </defs>
+  <path fill="url(#sn-body)"
+        d="M0 0h256v62q-14 -4 -27 10q-20 -1 -39 -7q-11 19 -21 13q-17 -2 -33 -9q-15 13 -29 8q-21 -3 -42 -12q-19 17 -38 11q-14 -10 -27 -14Z"/>
+  <!-- Wadding. Kept apart, so no two of them overlap and brighten. -->
+  <g fill="url(#sn-puff)">
+    <ellipse cx="40" cy="104" rx="17" ry="8"/>
+    <ellipse cx="98" cy="112" rx="13" ry="6"/>
+    <ellipse cx="148" cy="102" rx="18" ry="8.5"/>
+    <ellipse cx="200" cy="113" rx="12" ry="5.5"/>
+    <ellipse cx="248" cy="103" rx="15" ry="7"/>
+    <ellipse cx="-8" cy="103" rx="15" ry="7"/>
+  </g>
+</svg>

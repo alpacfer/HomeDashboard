@@ -49,8 +49,9 @@
 // it, which is the flicker four hard colour bands used to cause: 191 of 345
 // cells crossed a band and crossed back inside one pass.
 //
-// For a moving element, the report also verifies that every position-changing
-// frame belongs to the Tenant's charge/parabola pipeline (or to a fall).
+// For the Tenant, every position-changing frame must belong to its jump
+// pipeline. Other elements report transform/opacity changes and frame cadence,
+// including SVG flames and the weather card's slow clouds.
 //
 // It exits 1 on a fault and only on a fault: a canvas that flickers, movement
 // outside the jump pipeline, or a jump whose worst frame gap is more than
@@ -103,32 +104,35 @@ function watcher(selector, seconds, samples) {
   const canvas = document.querySelector(${JSON.stringify(selector)});
   if (!canvas) return { error: 'nothing matches ' + ${JSON.stringify(selector)} };
   if (!canvas.getContext) {
+    const tenant = canvas.matches('.tenant');
     const frames = [];
     const until = performance.now() + ${seconds} * 1000;
     while (performance.now() < until) {
       await new Promise(resolve => requestAnimationFrame(resolve));
       const box = canvas.getBoundingClientRect();
-      frames.push({ at: performance.now(), x: box.left, y: box.top, pose: canvas.className });
+      const style = getComputedStyle(canvas);
+      frames.push({ at: performance.now(), x: box.left, y: box.top, pose: canvas.getAttribute('class'), transform: style.transform, opacity: style.opacity });
     }
     const gaps = frames.slice(1).map((frame, index) => frame.at - frames[index].at).sort((a, b) => a - b);
     const quantile = at => gaps.length ? gaps[Math.min(gaps.length - 1, Math.floor(gaps.length * at))] : 0;
-    let distance = 0, moving = 0, jumps = 0, charges = 0, outsidePipeline = 0;
+    let distance = 0, moving = 0, changing = 0, jumps = 0, charges = 0, outsidePipeline = 0;
     for (let index = 1; index < frames.length; index += 1) {
       const step = Math.hypot(frames[index].x - frames[index - 1].x, frames[index].y - frames[index - 1].y);
       distance += step;
+      if (frames[index].transform !== frames[index - 1].transform || frames[index].opacity !== frames[index - 1].opacity) changing += 1;
       if (step > 0.1) {
         moving += 1;
         const poses = String(frames[index - 1].pose) + ' ' + String(frames[index].pose);
         // Falling is the one intentional exception: it is external physics,
         // not locomotion. Every other root-position change must be a charge or
         // a sampled parabola.
-        if (!/pose-(charging|jumping|falling)/.test(poses)) outsidePipeline += 1;
+        if (tenant && !/pose-(charging|jumping|falling)/.test(poses)) outsidePipeline += 1;
       }
       if (!String(frames[index - 1].pose).includes('pose-jumping') && String(frames[index].pose).includes('pose-jumping')) jumps += 1;
       if (!String(frames[index - 1].pose).includes('pose-charging') && String(frames[index].pose).includes('pose-charging')) charges += 1;
     }
     return {
-      kind: 'element', frames: frames.length, moving, distance, jumps, charges, outsidePipeline,
+      kind: 'element', tenant, frames: frames.length, moving, changing, distance, jumps, charges, outsidePipeline,
       seconds: frames.length > 1 ? (frames[frames.length - 1].at - frames[0].at) / 1000 : 0,
       gap: { min: quantile(0), median: quantile(0.5), p90: quantile(0.9), max: gaps.length ? gaps[gaps.length - 1] : 0 },
     };
@@ -232,6 +236,18 @@ async function main() {
         .map(key => measured.gap[key].toFixed(1)).join(' / ') + ' ms   (min / median / p90 / max)'));
       console.log(bar('moving frames', measured.moving));
       console.log(bar('path sampled', measured.distance.toFixed(1) + ' px'));
+      if (!measured.tenant) {
+        console.log(bar('transform/opacity changes', measured.changing));
+        const evenness = measured.gap.median > 0 ? measured.gap.max / measured.gap.median : 0;
+        console.log(measured.changing === 0
+          ? '  Still during this window (expected for reduced motion or an inactive effect).'
+          : evenness > 2
+            ? '  Uneven sampling: the worst frame gap was ' + evenness.toFixed(1) + ' times the median.'
+            : '  Scenery movement is evenly sampled.');
+        if (measured.changing > 0 && evenness > 2) process.exitCode = 1;
+        if (options.console) for (const entry of logged) console.log('  [' + entry.level + '] ' + entry.text);
+        return;
+      }
       console.log(bar('charge / jump starts', measured.charges + ' / ' + measured.jumps));
       console.log(bar('movement outside jumps', measured.outsidePipeline));
       const evenness = measured.gap.median > 0 ? measured.gap.max / measured.gap.median : 0;

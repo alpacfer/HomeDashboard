@@ -156,14 +156,54 @@ its enamel jug and its digits along with the hillside, and the display spent
 most of its life looking like a photocopy of itself. The room is indoors.
 Nothing about the sky reaches it but the light through one painted window.
 
-The exterior has an independent sun and moon, stars, cloud banks,
-precipitation, motes and fireflies. The sky layer fades before it reaches the
-foreground. Cloud weight follows the condition; overcast and precipitation hide
-both discs and the stars with them. Rain speed
-and opacity follow intensity, while snow drifts slowly. Snow adds a pale
-wash to the terrain, without claiming measured snow accumulation. Rain is
-also visible through the shed window. Fire appears on clear or partly cloudy
-evenings and nights, and disappears in wet weather.
+The exterior has an independent sun and moon, stars, four cloud layers,
+precipitation, motes and fireflies. Rain speed and opacity follow intensity,
+while snow drifts slowly. Snow adds a pale wash to the terrain, without claiming
+measured snow accumulation. Rain is also visible through the shed window. Fire
+appears on clear or partly cloudy evenings and nights, and disappears in wet
+weather.
+
+### Painted weather and a living clearing
+
+The cloud artwork is in [public/weather/](../public/weather/README.md):
+a transparent gouache cumulus bank and a continuous painted overcast ceiling.
+The existing woodland day plate was the image-generation style reference.
+Static filters tint the brushwork for dawn, dusk and night; no filter animates.
+
+| Weather | Sky and foreground |
+| --- | --- |
+| clear | almost invisible high wisps, unobstructed sun and moon |
+| partly | separate shaded cloud banks with open sky |
+| cloudy | larger banks over a translucent ceiling |
+| overcast | continuous textured ceiling with darker fragments underneath |
+| rain | dark ceiling, two depths of fine drops, low vapour and ground ripples |
+| sleet | the rainy ceiling and drops, with faster falling ice particles |
+| snow | a pale ceiling, two depths of gently drifting flakes and a terrain wash |
+| fog | a low-contrast ceiling and drifting mist across the distant trees |
+
+The sky still wears the generated horizon mask, so every cloud and bird passes
+behind the painted trees. Cumulus moves by exactly its repeat width. The closed
+ceiling uses one oversized texture with a slow back-and-forth transform,
+avoiding a visible tile seam. Overcast, fog and precipitation hide both celestial
+discs and the stars.
+
+Two feathered copies of the painting's canopy lean by less than half a degree.
+They reuse the selected day/night plate and leave the trunks and horizon fixed.
+Three small birds take occasional paths with different long periods; their
+wings flap independently. These are irregular deterministic cycles, not a
+random-number scheduler. Birds disappear at night and in fog or precipitation.
+
+The evening campfire has shaded logs and stones, two independently animated
+painted flame sprites, five rising embers, two drifting smoke puffs, and separate
+ground and air glows. It retains the clear/partly evening-and-night gate.
+Flames emit their own light; the logs take the scene's ambient filter.
+
+All effects use a fixed number of elements with CSS transform and opacity
+animations. There are no new dependencies, fetches, timers or animation-frame
+loops in the application. The three WebP assets total about 75 KB. Reduced
+motion leaves the weather and lit fire still, and removes passing birds,
+embers, smoke and ripples. The motion tool also accepts scenery selectors:
+`npm run motion -- --offline --sky night,clear --selector .flame-front`.
 
 **Fireflies** come out at dusk and hold the night, over the meadow and in the
 trees outside the shed window, and wet weather and fog put them away. They are

@@ -1,0 +1,47 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="232" height="146" viewBox="0 0 232 146" preserveAspectRatio="none">
+  <!-- Nimbostratus: the cloud rain actually falls out of. It is the overcast lid
+       gone heavy — the base hangs lower, the sag is deeper and pendulous rather
+       than shallow, and below it hangs the one thing nothing else in this set
+       has: VIRGA, rain that is falling and evaporating before it lands. Those
+       streaks are what say "this is raining" from across a room, before the
+       .cs-fall layer's drops are legible at all.
+       The base is one closed outline at full alpha, for the reason written on
+       the overcast tile: two translucent shapes that overlap stop being one
+       cloud. The virga are strokes, well apart, so they never cross each other
+       either. Their lengths and leans are all different, because rain falling
+       through shear is not a comb. -->
+  <defs>
+    <linearGradient id="nb-body" gradientUnits="userSpaceOnUse" x1="0" y1="0" x2="0" y2="146">
+      <stop offset="0" stop-color="#fff" stop-opacity="1"/>
+      <stop offset=".4" stop-color="#fff" stop-opacity="1"/>
+      <stop offset=".6" stop-color="#fff" stop-opacity=".88"/>
+      <stop offset=".78" stop-color="#fff" stop-opacity=".42"/>
+      <stop offset=".94" stop-color="#fff" stop-opacity="0"/>
+    </linearGradient>
+    <linearGradient id="nb-virga" gradientUnits="userSpaceOnUse" x1="0" y1="76" x2="0" y2="146">
+      <stop offset="0" stop-color="#fff" stop-opacity=".5"/>
+      <stop offset=".45" stop-color="#fff" stop-opacity=".26"/>
+      <stop offset="1" stop-color="#fff" stop-opacity="0"/>
+    </linearGradient>
+  </defs>
+  <path fill="url(#nb-body)"
+        d="M0 0h232v58q-11 -6 -21 14q-17 -2 -34 -9q-8 27 -15 19q-15 -3 -29 -12q-11 16 -22 10q-19 -2 -38 -11q-9 30 -17 21q-18 -4 -35 -15q-11 -11 -21 -17Z"/>
+  <!-- Eleven streaks, no two the same length, all leaning the way the shear
+       leans, and the pair at x=-6 and x=226 is one streak drawn at both ends.
+       NOTHING NARROWER THAN 4px. The first cut drew fourteen at 1.5 to 3, which
+       is under the acuity limit at three metres from a 720p television: from
+       the sofa the whole fringe simply was not there. Fewer and thicker. -->
+  <g fill="none" stroke="url(#nb-virga)" stroke-linecap="round">
+    <path stroke-width="6"   d="M16 84q4 22 -2 44"/>
+    <path stroke-width="4.5" d="M38 94q3 15 -2 30"/>
+    <path stroke-width="7"   d="M60 86q5 26 -2 50"/>
+    <path stroke-width="4.5" d="M82 98q3 16 -2 32"/>
+    <path stroke-width="6"   d="M104 90q4 21 -2 41"/>
+    <path stroke-width="8"   d="M128 82q6 28 -3 54"/>
+    <path stroke-width="5"   d="M152 96q3 18 -2 35"/>
+    <path stroke-width="6.5" d="M174 88q4 24 -2 46"/>
+    <path stroke-width="4.5" d="M196 100q3 14 -2 28"/>
+    <path stroke-width="6"   d="M226 90q4 20 -2 39"/>
+    <path stroke-width="6"   d="M-6 90q4 20 -2 39"/>
+  </g>
+</svg>

@@ -22,17 +22,9 @@
    sky, §3 the moon and the shape of its phase, §4 what falls, §5 what drifts,
    §6 the fireflies, §7 the numbers that put both bodies where they really are.
 
-   TWO CONVENTIONS worth knowing before editing:
-
-   * Some colours are switches. `--star` and `--cap` are transparent almost
-     always, and the star and snow-cap gradients are painted at every hour.
-     That is what keeps "it is night" and "it is snowing" to one declaration
-     each instead of a second copy of every layer.
-   * Cloud colours are OPAQUE, and the layer carries the translucency. Two
-     semi-transparent lobes never merge: the overlap goes brighter and you see
-     both circles, which reads as bokeh rather than as one cloud. Opaque lobes
-     merge into a single silhouette, and `opacity` on `.cs-bank` then makes
-     the whole mass as thin as the weather calls for.
+   The star colour is a switch: transparent by day, pale at night. Cloud
+   shading belongs to the painted textures, with static filters adapting the
+   same brushwork to the four lights and each weather in §2b.
 
    TO ADD A LIGHT PHASE     one token block in §1, plus a value in SkyLight.
    TO ADD A WEATHER         one attribute rule per layer it changes.
@@ -53,10 +45,9 @@
   --moon-r:10px; --moon-a:.5;
   --moon-core:#fbf3dd; --moon-edge:#e3d5b4; --moon-rim:#bfae8c; --moon-bloom:rgba(252,240,205,.3);
   --haze:rgba(232,124,60,.34);
-  --cloud:#8a5a48; --cloud-lit:#e0a173; --cloud-far:.42; --cloud-far-clear:.24;
   --warm:rgba(255,190,110,.22); --ring:rgba(255,212,152,.22);
   --mote:rgba(255,226,170,.55);
-  --star:transparent; --cap:transparent;
+  --star:transparent;
   --fall-a:.5; --fall-ms:650ms;
 
   /* The bloom on the sky itself belongs to whichever body is lighting it, and
@@ -79,7 +70,6 @@
   --sun-r:13px; --sun-core:#ffdcb0; --sun-bloom:rgba(255,190,146,.48);
   --moon-a:.42; --moon-core:#f6f0e6; --moon-edge:#dcd3c4; --moon-rim:#b9b0a2; --moon-bloom:rgba(238,232,222,.2);
   --haze:rgba(230,150,120,.28);
-  --cloud:#8e6668; --cloud-lit:#e8b79c;
   --warm:rgba(255,206,168,.18); --ring:rgba(255,214,180,.20);
   --mote:rgba(255,226,196,.45);
 }
@@ -95,7 +85,6 @@
      and also what keeps it from competing with the digits. */
   --moon-a:.26; --moon-core:#f4f7f8; --moon-edge:#dde7ea; --moon-rim:#c3d3d8; --moon-bloom:rgba(240,248,250,.14);
   --haze:rgba(210,236,220,.20);
-  --cloud:#bccdd8; --cloud-lit:#edf3f7; --cloud-far:.5; --cloud-far-clear:.3;
   --warm:rgba(255,250,224,.15); --ring:rgba(255,255,255,.26);
   --mote:rgba(255,252,230,.5);
 }
@@ -107,7 +96,6 @@
   --moon-a:1; --moon-core:#fdf9ec; --moon-edge:#e6dcc2; --moon-rim:#b6ab92; --moon-bloom:rgba(226,236,255,.34);
   --glow-x:var(--moon-x); --glow-y:var(--moon-y); --glow-tint:var(--moon-bloom);
   --haze:rgba(80,110,140,.14);
-  --cloud:#1b2a39; --cloud-lit:#334a60; --cloud-far:.36; --cloud-far-clear:.2;
   --warm:rgba(190,208,240,.10); --ring:rgba(180,200,230,.14);
   --star:rgba(232,240,255,.85); --mote:rgba(198,236,150,.5);
 }
@@ -148,79 +136,69 @@
    wrong, and it is also, exactly, the hour the moon has the card. */
 .ct-hillside[data-light='night'] .cs-sun { opacity:0; }
 
-/* High thin cloud: three wisps, far apart, so they never overlap and can keep
-   a soft full-radius fade. */
-.ct-hillside .cs-far {
-  --tile:190px; width:200%; opacity:var(--cloud-far);
-  background-image:
-    radial-gradient(26px 9px at 18% 24%, var(--cloud-lit), transparent 100%),
-    radial-gradient(34px 7px at 58% 40%, var(--cloud), transparent 100%),
-    radial-gradient(20px 6px at 86% 17%, var(--cloud-lit), transparent 100%);
+/* ── §2b Painted atmosphere ──────────────────────────────────────────────
+   The two small WebP assets carry actual brushwork and internal cloud shading.
+   Their colour filter is static; only transform animates. Cumulus tiles have
+   transparent margins, so their loop has no cut edge. The closed deck is a
+   single oversized texture that rocks gently rather than repeating a seam.
+   All of it stays behind the trees through the traced exterior-sky mask. */
+
+.ct-hillside { --cloud-grade:saturate(.65); }
+.ct-hillside[data-light='dawn'] { --cloud-grade:sepia(.28) saturate(.85) brightness(.91); }
+.ct-hillside[data-light='dusk'] { --cloud-grade:sepia(.45) saturate(.85) brightness(.66); }
+.ct-hillside[data-light='night'] { --cloud-grade:grayscale(.8) sepia(.5) hue-rotate(158deg) saturate(1.3) brightness(.29); }
+
+.ct-hillside .cs-far,.ct-hillside .cs-bank,.ct-hillside .cs-scud {
+  display:none;
+  --tile:360px;
+  width:calc(100% + var(--tile) + 4px); height:49%;
+  background-image:url('/weather/cumulus-v1.webp');
   background-size:var(--tile) 100%; background-repeat:repeat-x;
-  animation:cs-drift 210s linear infinite;
+  filter:var(--cloud-grade);
+  animation:cs-drift 380s linear infinite;
 }
-
-/* The bank: the mass of the sky, and the layer the weather moves.
-   Two clouds per tile. A cloud is a wide flat body with lumps sitting on it,
-   and every part of ONE cloud is one colour — that is what makes the lobes
-   merge into a single silhouette instead of reading as a heap of circles.
-   Variety belongs between the two clouds, never inside one.
-
-   The body is a wide, short ellipse rather than a circle clipped at the tile's
-   bottom edge. Clipping is how the ridge gets its flat base, and it is wrong
-   here twice over: a cloud's underside is soft, and every cloud clipped at the
-   same tile edge shares one y, which ruled a hard line across the whole card. */
-.ct-hillside .cs-bank {
-  --tile:268px; --band:46%; width:200%; opacity:0;
-  background-image:
-    /* Cloud A, wide, around x = 56. */
-    radial-gradient(circle 21px at 56px 46%, var(--cloud-lit) 92%, transparent 100%),
-    radial-gradient(circle 15px at 34px 55%, var(--cloud-lit) 92%, transparent 100%),
-    radial-gradient(circle 14px at 78px 54%, var(--cloud-lit) 92%, transparent 100%),
-    radial-gradient(40px 10px at 56px 62%, var(--cloud-lit) 88%, transparent 100%),
-    /* Cloud B, smaller and further off, around x = 190. */
-    radial-gradient(circle 16px at 190px 44%, var(--cloud) 92%, transparent 100%),
-    radial-gradient(circle 11px at 172px 52%, var(--cloud) 92%, transparent 100%),
-    radial-gradient(30px 8px at 190px 58%, var(--cloud) 88%, transparent 100%);
-  background-size:var(--tile) var(--band); background-repeat:repeat-x;
-  animation:cs-drift 290s linear infinite;
+.ct-hillside .cs-far { top:-8%; height:28%; --tile:420px; opacity:.26; animation-duration:680s; }
+.ct-hillside .cs-bank { top:0; opacity:.95; animation-delay:-94s; }
+.ct-hillside .cs-scud { top:22%; height:29%; --tile:290px; opacity:.33; animation-duration:165s; animation-delay:-57s; filter:var(--cloud-grade) brightness(.7); }
+.ct-hillside .cs-deck {
+  display:none; left:-5%; top:-5%; width:110%; height:70%;
+  background:url('/weather/overcast-v1.webp') center / 100% 100% no-repeat;
+  filter:var(--cloud-grade);
+  animation:wood-deck 47s ease-in-out infinite alternate;
 }
+@keyframes wood-deck { from {transform:translate3d(-4px,-1px,0) scale(1.02);} to {transform:translate3d(5px,2px,0) scale(1.05);} }
 
-/* How much sky there is, and how low it hangs. */
-/* More sky means a lower, heavier bank — but only a little lower. --band is
-   the tile's height and the lobes are placed as a percentage of it, so growing
-   it walks the whole cloud down the card and straight behind the digits. Past
-   about 60% the numbers are standing on cloud rather than against sky, and no
-   text shadow rescues ivory on white. Weather is said with weight and colour
-   here, not by covering more of the card. */
-.ct-hillside[data-weather='clear'] .cs-far { opacity:var(--cloud-far-clear); }
-.ct-hillside[data-weather='partly'] .cs-bank { opacity:.5; }
-.ct-hillside[data-weather='cloudy'] .cs-bank { opacity:.72; --band:52%; }
-.ct-hillside[data-weather='overcast'] .cs-bank { opacity:.82; --band:56%; }
-.ct-hillside[data-weather='rain'] .cs-bank,
-.ct-hillside[data-weather='sleet'] .cs-bank,
-.ct-hillside[data-weather='snow'] .cs-bank { opacity:.88; --band:60%; }
-/* A raincloud is grey. Keeping the light phase's tint here would be prettier
-   and wrong, and it is also what put white cloud behind ivory digits. */
-.ct-hillside[data-weather='overcast'],
-.ct-hillside[data-weather='rain'],
-.ct-hillside[data-weather='sleet'],
-.ct-hillside[data-weather='snow'] { --cloud-lit:#9aa8b4; --cloud:#75828e; }
-.ct-hillside[data-light='night'][data-weather='overcast'],
-.ct-hillside[data-light='night'][data-weather='rain'],
-.ct-hillside[data-light='night'][data-weather='sleet'],
-.ct-hillside[data-light='night'][data-weather='snow'] { --cloud-lit:#2b3c4c; --cloud:#1e2c39; }
+.ct-hillside[data-weather='clear'] .cs-far { display:block; opacity:.12; }
+.ct-hillside[data-weather='partly'] .cs-far,
+.ct-hillside[data-weather='partly'] .cs-bank { display:block; }
+.ct-hillside[data-weather='cloudy'] .cs-bank { display:block; height:57%; --tile:390px; }
+.ct-hillside[data-weather='cloudy'] .cs-deck { display:block; opacity:.52; }
+.ct-hillside[data-weather='overcast'] .cs-deck,
+.ct-hillside[data-weather='rain'] .cs-deck,
+.ct-hillside[data-weather='sleet'] .cs-deck,
+.ct-hillside[data-weather='snow'] .cs-deck { display:block; }
+.ct-hillside[data-weather='overcast'] .cs-scud,
+.ct-hillside[data-weather='rain'] .cs-scud,
+.ct-hillside[data-weather='sleet'] .cs-scud { display:block; }
+.ct-hillside[data-weather='rain'] .cs-deck,
+.ct-hillside[data-weather='sleet'] .cs-deck { filter:var(--cloud-grade) brightness(.77); }
+.ct-hillside[data-weather='snow'] .cs-deck { filter:var(--cloud-grade) brightness(1.1) saturate(.45); }
+.ct-hillside[data-weather='fog'] .cs-deck { display:block; opacity:.73; filter:var(--cloud-grade) contrast(.45) brightness(1.2); }
 
-/* A sun behind weather is a bright patch in the cloud, not a disc, and a moon
-   behind it is nothing at all -- a full moon does not show through overcast.
-   The stars go with them: they were part of .cs-sun's background list until
-   §2 split them out, so they have always been dimmed by cloud and must not
-   start shining through it now that they are their own layer. */
+/* Under a lid the sun is not drawn at all. It used to be held at .18 here on
+   the theory that an overcast sun is a bright patch rather than a disc -- true
+   of the sky, false of this card, because .cs-deck is painted in front of
+   .cs-sun and swallowed it. All the rule managed was to outrank the night
+   blackout two hundred lines above, at equal specificity and later in the file. The moon goes out sooner than the sun does: a
+   full moon does not show through overcast. The stars go with it -- they were
+   part of .cs-sun's background list until §2 split them out, so they have
+   always been dimmed by cloud and must not start shining through it now that
+   they are their own layer. */
 .ct-hillside[data-weather='overcast'] .cs-sun,
 .ct-hillside[data-weather='rain'] .cs-sun,
 .ct-hillside[data-weather='sleet'] .cs-sun,
 .ct-hillside[data-weather='snow'] .cs-sun,
-.ct-hillside[data-weather='fog'] .cs-sun { opacity:.22; }
+.ct-hillside[data-weather='fog'] .cs-sun { opacity:0; }
 .ct-hillside[data-weather='cloudy'] .cs-moon { opacity:calc(var(--moon-a) * .45); }
 .ct-hillside[data-weather='cloudy'] .cs-stars { opacity:.4; }
 .ct-hillside[data-weather='overcast'] .cs-moon,.ct-hillside[data-weather='overcast'] .cs-stars,
@@ -229,7 +207,8 @@
 .ct-hillside[data-weather='snow'] .cs-moon,.ct-hillside[data-weather='snow'] .cs-stars,
 .ct-hillside[data-weather='fog'] .cs-moon,.ct-hillside[data-weather='fog'] .cs-stars { opacity:0; }
 
-/* The land is a local painted plate. The old gradient ridges are retired. */
+/* The land is a local painted plate. The old gradient ridges are retired, and
+   the clock's two ground layers are not rendered on this card at all. */
 .ct-hillside .cs-mid,.ct-hillside .cs-near { display:none; }
 
 /* ── §3 The moon, and the shape of its phase ──────────────────────────────
@@ -314,6 +293,11 @@
 /* ── §4 What falls ────────────────────────────────────────────────────────*/
 
 .ct-hillside .cs-fall { opacity:0; }
+/* Nothing to drop: the layer is not merely invisible, it is gone. An
+   animation outranks a declared opacity, so `display` is the only property
+   that can actually turn a running layer off. Moved here from
+   app/clock-workshop.css with the rest of the card's sky. */
+.ct-hillside[data-fall='none'] .cs-fall { display:none; }
 
 /* Rain. The layer is oversized and rotated so the streaks slant, and it is
    shifted by exactly one tile height, which is what lets a 430 ms loop run all
@@ -322,10 +306,12 @@
 .ct-hillside[data-weather='sleet'] .cs-fall {
   opacity:1; width:132%; height:150%; left:-16%; top:-25%;
   background-image:
-    radial-gradient(1.1px 13px at 16px 12px, rgba(206,230,248,var(--fall-a)), transparent 100%),
-    radial-gradient(1px 10px at 52px 44px, rgba(196,222,244,var(--fall-a)), transparent 100%),
-    radial-gradient(1.2px 15px at 88px 26px, rgba(214,236,250,var(--fall-a)), transparent 100%),
-    radial-gradient(1px 11px at 122px 58px, rgba(196,222,244,var(--fall-a)), transparent 100%);
+    radial-gradient(.55px 5px at 16px 12px, rgba(206,230,228,var(--fall-a)), transparent 100%),
+    radial-gradient(.4px 3px at 38px 32px, rgba(196,222,224,var(--fall-a)), transparent 100%),
+    radial-gradient(.5px 4px at 52px 54px, rgba(196,222,224,var(--fall-a)), transparent 100%),
+    radial-gradient(.45px 6px at 73px 17px, rgba(214,236,230,var(--fall-a)), transparent 100%),
+    radial-gradient(.6px 5px at 88px 36px, rgba(214,236,230,var(--fall-a)), transparent 100%),
+    radial-gradient(.45px 4px at 122px 58px, rgba(196,222,224,var(--fall-a)), transparent 100%);
   background-size:140px 70px;
   animation:cs-rain var(--fall-ms) linear infinite;
 }
@@ -350,14 +336,6 @@
 
 @keyframes cs-rain { from {transform:rotate(-12deg) translate3d(0,0,0);} to {transform:rotate(-12deg) translate3d(0,70px,0);} }
 @keyframes cs-snow { 0% {transform:translate3d(0,0,0);} 50% {transform:translate3d(8px,50px,0);} 100% {transform:translate3d(0,100px,0);} }
-
-/* Fog takes the distance away: the ridge nearly goes, the near canopy only
-   softens, and the whole card is veiled. That is depth, drawn by removing it. */
-.ct-hillside[data-weather='fog'] .cs-bank {
-  opacity:1;
-  background-image:linear-gradient(184deg, rgba(206,216,214,0) 0%, rgba(206,216,214,.30) 46%, rgba(214,222,220,.44) 72%, rgba(206,216,214,.22) 100%);
-  background-size:100% 100%; animation:none;
-}
 
 /* ── §5 What drifts, and the light ────────────────────────────────────────*/
 
@@ -520,10 +498,114 @@
   --moon-y:calc(var(--arc-low) + (var(--arc-high) - var(--arc-low)) * var(--moon-climb));
 }
 
-/* The land is painted; these transforms belong to the few foreground props. */
-.wood-flame { transform-origin:0 3px; animation:wood-fire 1.8s ease-in-out infinite; }
-.wood-fire-glow { animation:cs-breathe 3.7s ease-in-out infinite; }
-@keyframes wood-fire { 0%,100% {transform:scale(.9,1) skewX(-4deg);} 38% {transform:scale(1.05,.86) skewX(5deg);} 72% {transform:scale(.92,1.08) skewX(-2deg);} }
+/* ── Living clearing ─────────────────────────────────────────────────────
+   A fixed particle budget, no canvas, no timers and no animated filters.
+   Every animated surface is confined to this 350 × 168 painted card. */
+.wood-canopy {
+  transform-origin:7% 60%;
+  -webkit-mask-image:radial-gradient(ellipse 42% 38% at 16% 0%,#000 35%,transparent 100%);
+  mask-image:radial-gradient(ellipse 42% 38% at 16% 0%,#000 35%,transparent 100%);
+  animation:wood-breeze 13s ease-in-out infinite;
+}
+.canopy-right {
+  transform-origin:100% 40%; animation-duration:17s; animation-delay:-7s;
+  -webkit-mask-image:radial-gradient(ellipse 23% 40% at 100% 9%,#000 32%,transparent 100%);
+  mask-image:radial-gradient(ellipse 23% 40% at 100% 9%,#000 32%,transparent 100%);
+}
+@keyframes wood-breeze {
+  0%,100% {transform:rotate(0deg);}
+  28% {transform:rotate(.32deg) translate3d(.3px,0,0);}
+  61% {transform:rotate(-.16deg);}
+  79% {transform:rotate(.2deg);}
+}
+.ct-hillside[data-fall='heavy'] .wood-canopy { animation-duration:7s; }
+
+/* Small silhouettes pass only occasionally. Unequal periods keep the three
+   paths from becoming a repeating formation; the rest of each cycle is empty. */
+.wood-birds { position:absolute; inset:0; width:100%; height:100%; fill:none; stroke:#374b45; stroke-width:.85; stroke-linecap:round; }
+.bird-flight { opacity:0; animation:wood-flight 79s linear infinite; animation-delay:-12s; }
+.bird-flight:nth-child(2) { animation-duration:113s; animation-delay:-15s; }
+.bird-flight:nth-child(3) { animation-duration:137s; animation-delay:-18s; }
+.bird-wings { animation:wood-wing 1.1s ease-in-out infinite; }
+.bird-flight:nth-child(2) .bird-wings { animation-duration:.85s; }
+.bird-flight:nth-child(3) .bird-wings { animation-duration:.94s; }
+@keyframes wood-flight {
+  0%,4% {transform:translate3d(-15px,53px,0); opacity:0;}
+  5% {opacity:.72;}
+  16% {opacity:.72;}
+  18%,100% {transform:translate3d(370px,25px,0); opacity:0;}
+}
+@keyframes wood-wing { 0%,100% {transform:scaleY(1);} 50% {transform:scaleY(-.45);} }
+.ct-hillside[data-light='night'] .wood-birds,
+.ct-hillside[data-weather='fog'] .wood-birds,
+.ct-hillside[data-weather='rain'] .wood-birds,
+.ct-hillside[data-weather='sleet'] .wood-birds,
+.ct-hillside[data-weather='snow'] .wood-birds { display:none; }
+
+/* Weather has depth: fine distant streaks, a handful of larger near drops,
+   low drifting vapour and brief rings on the clearing's bare earth. */
+.wood-fall-near { display:none; position:absolute; left:-16%; top:-25%; width:132%; height:150%; pointer-events:none; }
+.ct-hillside[data-weather='rain'] .wood-fall-near,
+.ct-hillside[data-weather='sleet'] .wood-fall-near {
+  display:block;
+  background-image:radial-gradient(.75px 7px at 35px 19px,rgba(231,241,235,.58),transparent),radial-gradient(.7px 5px at 123px 53px,rgba(220,233,229,.4),transparent);
+  background-size:173px 83px; animation:wood-rain-near 720ms linear infinite;
+}
+@keyframes wood-rain-near { from {transform:rotate(-12deg) translate3d(0,0,0);} to {transform:rotate(-12deg) translate3d(0,83px,0);} }
+.ct-hillside[data-weather='snow'] .wood-fall-near,
+.ct-hillside[data-weather='sleet'] .wood-fall-near {
+  display:block; opacity:.8;
+  background-image:radial-gradient(circle 2.2px at 24px 28px,#f5f1dd,transparent),radial-gradient(circle 1.7px at 134px 81px,#eeeee3,transparent),radial-gradient(circle 1.3px at 87px 47px,#f4f4ea,transparent);
+  background-size:191px 113px; animation:wood-snow-near 8s linear infinite;
+}
+.ct-hillside[data-weather='sleet'] .wood-fall-near { opacity:.5; animation-duration:3.5s; }
+.ct-hillside[data-fall='light'] .wood-fall-near { opacity:.4; }
+.ct-hillside[data-fall='heavy'] .wood-fall-near { animation-duration:460ms; }
+.ct-hillside[data-weather='snow'][data-fall='heavy'] .wood-fall-near { animation-duration:5s; }
+.ct-hillside[data-weather='sleet'][data-fall='heavy'] .wood-fall-near { animation-duration:2.4s; }
+.ct-hillside[data-fall='none'] .wood-fall-near { display:none; }
+@keyframes wood-snow-near { 0% {transform:translate3d(0,0,0);} 50% {transform:translate3d(13px,56.5px,0);} 100% {transform:translate3d(0,113px,0);} }
+.wood-mist {
+  display:none; position:absolute; left:-7%; top:36%; width:114%; height:47%;
+  background:radial-gradient(ellipse at 62% 56%,rgba(190,203,191,.48),transparent 65%),radial-gradient(ellipse at 24% 65%,rgba(181,198,186,.28),transparent 57%);
+  animation:wood-mist 29s ease-in-out infinite alternate;
+}
+.ct-hillside[data-weather='fog'] .wood-mist { display:block; }
+.ct-hillside[data-weather='rain'] .wood-mist,
+.ct-hillside[data-weather='sleet'] .wood-mist { display:block; opacity:.3; }
+.ct-hillside[data-light='night'] .wood-mist { filter:brightness(.43) sepia(.25) hue-rotate(140deg); }
+@keyframes wood-mist { from {transform:translate3d(-8px,1px,0);} to {transform:translate3d(12px,-3px,0);} }
+.wood-ripples { display:none; position:absolute; left:60%; top:77%; width:35%; height:12%; }
+.ct-hillside[data-weather='rain']:not([data-fall='none']) .wood-ripples,
+.ct-hillside[data-weather='sleet']:not([data-fall='none']) .wood-ripples { display:block; }
+.wood-ripples i { position:absolute; left:16%; top:20%; width:9px; height:2px; border: .6px solid rgba(209,220,194,.6); border-radius:50%; opacity:0; animation:wood-ripple 3.7s ease-out infinite; }
+.wood-ripples i:nth-child(2) { left:58%; top:52%; animation-delay:-1.8s; animation-duration:4.3s; }
+.wood-ripples i:nth-child(3) { left:82%; top:6%; animation-delay:-.7s; animation-duration:2.9s; }
+@keyframes wood-ripple { 0%,62% {transform:scale(.2); opacity:0;} 66% {opacity:.65;} 94%,100% {transform:scale(1.8); opacity:0;} }
+
+/* Fire is self-lit. Independently moving tongues rise out of the same coals,
+   with a broad ground bounce and a much fainter halo in the air above. */
+.wood-flame { transform-origin:0 4px; animation:wood-fire 2.3s ease-in-out infinite; }
+.flame-front { animation-duration:1.37s; animation-delay:-.6s; }
+.wood-fire-glow { opacity:.72; transform-origin:0 3px; animation:wood-glow 4.7s ease-in-out infinite; }
+.wood-fire-halo { opacity:.35; animation:wood-glow 3.1s ease-in-out infinite reverse; }
+@keyframes wood-fire {
+  0%,100% {transform:scale(.92,.93) skewX(-3deg); opacity:.88;}
+  23% {transform:scale(1.03,1.08) skewX(4deg); opacity:1;}
+  49% {transform:scale(.87,.9) skewX(-5deg); opacity:.9;}
+  76% {transform:scale(1.07,1.04) skewX(2deg); opacity:.97;}
+}
+@keyframes wood-glow { 0%,100% {transform:scale(.95,1); opacity:.62;} 38% {transform:scale(1.08,1.05); opacity:.85;} 69% {transform:scale(1.02,.97); opacity:.72;} }
+.wood-smoke { opacity:0; animation:wood-smoke 8.7s ease-out infinite; }
+.smoke-second { animation-delay:-4.1s; animation-duration:10.3s; }
+@keyframes wood-smoke { 0% {transform:translate3d(0,-3px,0) scale(.6); opacity:0;} 22% {opacity:.5;} 100% {transform:translate3d(12px,-37px,0) scale(1.7); opacity:0;} }
+.wood-embers circle { opacity:0; animation:wood-ember 4.9s ease-out infinite; --ember-x:7px; --ember-rise:-29px; }
+.wood-embers circle:nth-child(2) { animation-delay:-2.1s; animation-duration:6.3s; --ember-x:-5px; --ember-rise:-22px; }
+.wood-embers circle:nth-child(3) { animation-delay:-3.3s; animation-duration:5.7s; --ember-x:11px; --ember-rise:-36px; }
+.wood-embers circle:nth-child(4) { animation-delay:-1.3s; animation-duration:3.9s; --ember-x:4px; --ember-rise:-19px; }
+.wood-embers circle:nth-child(5) { animation-delay:-4.7s; animation-duration:7.1s; --ember-x:-8px; --ember-rise:-31px; }
+@keyframes wood-ember { 0%,18% {transform:translate3d(0,1px,0); opacity:0;} 23% {opacity:.9;} 66% {opacity:.65;} 90%,100% {transform:translate3d(var(--ember-x),var(--ember-rise),0); opacity:0;} }
 @media (prefers-reduced-motion:reduce) {
   .weather-surface * { animation:none !important; }
+  .wood-birds,.wood-embers,.wood-smoke,.wood-ripples { display:none; }
 }

@@ -1,0 +1,62 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="268" height="100" viewBox="0 0 268 100" preserveAspectRatio="none">
+  <!-- Cumulus humilis: fair weather. THE signature is not the cauliflower top,
+       it is that every base sits on the same line — the height where rising air
+       first condenses is the same over the whole clearing, so the flat bottoms
+       line up and the tops do whatever they like. Wide sky between them; a
+       cumulus sky is mostly sky.
+       Each cloud's lobes are OPAQUE and one colour, so they merge into a single
+       silhouette instead of reading as a heap of circles — the rule at the head
+       of app/clock-hillside.css. The whole drawing then wears one vertical
+       ramp, which is what puts every base on the same line and gives it the
+       four units of feather a real base has. More than that and they read as
+       steam.
+       No body touches either edge, which is the simplest way for a tile to
+       repeat: there is nothing to join. -->
+  <defs>
+    <linearGradient id="cu-fade" gradientUnits="userSpaceOnUse" x1="0" y1="0" x2="0" y2="100">
+      <stop offset="0" stop-color="#fff" stop-opacity="1"/>
+      <stop offset=".64" stop-color="#fff" stop-opacity="1"/>
+      <stop offset=".70" stop-color="#fff" stop-opacity=".82"/>
+      <stop offset=".76" stop-color="#fff" stop-opacity="0"/>
+    </linearGradient>
+  </defs>
+  <g fill="url(#cu-fade)">
+    <!-- Cloud A: the big one. Nine lobes, largest left of centre, a shoulder
+         sagging right, and a slab tying them into one base. -->
+    <g>
+      <circle cx="52" cy="46" r="18"/><circle cx="34" cy="56" r="13"/>
+      <circle cx="70" cy="52" r="14.5"/><circle cx="24" cy="63" r="9"/>
+      <circle cx="86" cy="60" r="10"/><circle cx="60" cy="38" r="11"/>
+      <circle cx="42" cy="40" r="10"/><circle cx="78" cy="45" r="8.5"/>
+      <circle cx="96" cy="64" r="6.5"/>
+      <path d="M17 54h84v22H17Z"/>
+    </g>
+    <!-- Cloud B: smaller, further off, lower-topped, which is what puts it
+         behind A without needing a second colour. -->
+    <g opacity=".88">
+      <circle cx="150" cy="56" r="12"/><circle cx="137" cy="62" r="8.5"/>
+      <circle cx="162" cy="61" r="9.5"/><circle cx="155" cy="49" r="7"/>
+      <circle cx="128" cy="66" r="6"/><circle cx="172" cy="65" r="6"/>
+      <path d="M123 60h54v16h-54Z"/>
+    </g>
+    <!-- Cloud C. It used to straddle the seam, drawn twice 268 apart, which
+         is the right technique and was the wrong cloud to use it on: its
+         wrapped copy ran to x=19 and cloud A begins at x=15, so the two fused
+         into one unbroken bank 155px wide, 44% of a card whose whole point is
+         that a cumulus sky is mostly sky. Invisible at t=0, which is the only
+         moment any capture tool here photographs, and on screen for most of the
+         292-second drift. It now sits wholly inside the tile: nothing crosses
+         an edge, so the tile repeats by construction and the gaps hold. -->
+    <g opacity=".95">
+      <circle cx="230" cy="50" r="15"/><circle cx="214" cy="59" r="10.5"/>
+      <circle cx="246" cy="57" r="11.5"/><circle cx="205" cy="64" r="7"/>
+      <circle cx="236" cy="42" r="9"/><circle cx="260" cy="63" r="7.5"/>
+      <path d="M199 57h68v19h-68Z"/>
+    </g>
+    <!-- Two flat scraps low down: the ones that have not grown yet. -->
+    <g opacity=".5">
+      <ellipse cx="110" cy="66" rx="14" ry="4.2"/>
+      <ellipse cx="196" cy="64" rx="11" ry="3.4"/>
+    </g>
+  </g>
+</svg>

@@ -51,6 +51,7 @@ index and the two rules that are not negotiable.
 | `npm run states` | Looking at the clock's sky. Twenty states on one sheet; `--seams` finds clipped gradients, `--baseline` says what moved. |
 | `npm run roll` | The digit transition, which lasts under a second on the minute boundary. |
 | `npm run horizon` | **After changing a painting in `public/scenes`.** Retraces the sky's outline and the shed window's panes off the plates and rewrites `app/horizon.css`. Look at the two overlays it draws. |
+| `python3 assets/map-design/segment-map.py` | **After changing a painting in `public/maps`.** Recuts the nine living-map sheets — water, night lights and cloud shadow — out of the plates. Needs numpy, scipy and Pillow; deterministic, so an unchanged plate gives the same bytes. |
 | `npm run probe` | The weather card is muted or showing the dot. |
 | `npm run probe:transit` | The departure boards show dashes. |
 
@@ -123,7 +124,15 @@ by `app/api/weather/route.ts`. Anything prefixed `NEXT_PUBLIC_` ships to the
 browser and must never hold a credential. Never commit `.env.local`.
 
 **Scripts stay in Node, not shell.** The repository is worked on from both
-Ubuntu and macOS, where `sed`, `date`, and friends differ.
+Ubuntu and macOS, where `sed`, `date`, and friends differ. Everything in
+`scripts/` is Node and stays that way: those are the tools npm runs, on two
+operating systems, in CI. There is one file outside that rule —
+[assets/map-design/segment-map.py](assets/map-design/segment-map.py), which cuts
+the living map's sheets out of the painted plates. It runs by hand, roughly
+never, its output is committed, and it is in `assets/` rather than `scripts/`
+precisely so it is not mistaken for part of the build. Doing its segmentation in
+Node would mean a new dependency in a repository that guards its dependency list
+carefully.
 
 **Every fetch gets its own AbortController and a deadline.** A shared signal
 stays aborted once it fires, and a request that never settles leaves a
@@ -145,7 +154,12 @@ These run without being asked, so a violation is reported before review:
 - `eslint.config.mjs`: `lib/` purity; `components/` never imports `app/`;
   every `Intl.DateTimeFormat` names a `timeZone`; no `toLocale*String`.
 - `scripts/check-rules.mjs` (in `npm run check` and CI): no `:hover` or
-  `cursor` in the CSS; every `lib/` module has a test; every timer, listener,
+  `cursor` in the CSS; a tiling layer's travel equals its tile, on
+  `background-size` and on `mask-size` alike; every drawing in `public/scenes/`
+  parses and carries `preserveAspectRatio="none"`, and every mask a stylesheet
+  names exists — all three of those fail silently in the browser, which shows a
+  broken or letterboxed mask as no mask and makes the layer wearing it
+  disappear; every `lib/` module has a test; every timer, listener,
   animation frame and Leaflet map in a component has its teardown; no
   `NEXT_PUBLIC_` credential names; Render's start script exists; hooks exist;
   the font stylesheet matches the face list.
@@ -180,6 +194,14 @@ in the same change.
   glass, traced off `public/scenes/*.webp` by `npm run horizon`. It is read
   pixels, not taste: change the paintings and rerun the tool. See
   [docs/CLOCK.md](docs/CLOCK.md).
+- `public/maps/map-{water,lights,shadow}-*.webp` — the nine living-map sheets,
+  cut out of the painted plates by
+  `python3 assets/map-design/segment-map.py`. Their alpha is the coastline, the
+  city's lamps and the cloud shadow; hand-editing one desynchronises it from the
+  other two of its kind and the cross-fade stops summing flat. Change the
+  plates or the script and rerun it. See
+  [docs/FORECAST_MAP.md](docs/FORECAST_MAP.md).
+
 - `render.yaml` — must stay in step with the live Render dashboard, which is
   the source of truth. Change the dashboard first.
 - `package-lock.json` — written by npm. Change `package.json` and run

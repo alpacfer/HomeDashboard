@@ -15,7 +15,10 @@ import {
 import { demoGrid, dryGrid } from '@/lib/precipitation-demo';
 import { CHECK_RETRY_MS, MODEL_META_URL, nextCheckAt, parseModelRun, shouldFetchGrid, type ModelRun } from '@/lib/forecast-refresh';
 import { MAP_MS } from '@/lib/panel-rotation';
-import { MAP_ART_BOUNDS, MAP_ART_PLATES } from '@/lib/forecast-map-art';
+import {
+  MAP_ART_BOUNDS, MAP_ART_PLATES, MAP_LIGHTS_Z, MAP_LIGHT_SHEETS, MAP_SHADOW_SHEETS, MAP_SHADOW_Z,
+  MAP_WATER_SHEETS, MAP_WATER_Z,
+} from '@/lib/forecast-map-art';
 import type { SkyLight } from '@/lib/clock-sky';
 import { debugFlags } from '@/lib/debug-flags';
 import { readStored, writeStored } from './device-storage';
@@ -47,6 +50,31 @@ function fitPainting(nextMap: Map) {
 }
 
 type MapStatus = 'loading' | 'ready' | 'error';
+
+const SHEET_Z: Record<string, number> = { water: MAP_WATER_Z, lights: MAP_LIGHTS_Z, shadow: MAP_SHADOW_Z };
+
+/**
+ * One kind of living-map sheet, laid over the plate and taken away again.
+ *
+ * The phase number is a class rather than an inline delay: the timing belongs
+ * with the keyframes it is a third of. The z-index is an option rather than a
+ * rule, because Leaflet writes z-index inline and inline beats a stylesheet.
+ * A sheet that will not load simply never appears; the painting under it is the
+ * whole picture and nothing else depends on it.
+ */
+function sheetLayers(
+  L: typeof import('leaflet') | null, nextMap: Map | null, ready: boolean,
+  kind: 'water' | 'lights' | 'shadow', urls: readonly string[],
+) {
+  if (!ready || !L || !nextMap) return undefined;
+  const layers = urls.map((url, index) => L.imageOverlay(url, ART_EXTENT, {
+    className: 'forecast-map-sheet is-' + kind + ' phase-' + (index + 1),
+    alt: '',
+    interactive: false,
+    zIndex: SHEET_Z[kind] + index,
+  }).addTo(nextMap));
+  return () => { for (const layer of layers) { layer.off(); layer.remove(); } };
+}
 
 export default function ForecastMapPanel({ active, onDry, light }: { active: boolean; onDry?: (dry: boolean) => void; light: SkyLight | null }) {
   const canvas = useRef<HTMLDivElement>(null);
@@ -91,6 +119,8 @@ export default function ForecastMapPanel({ active, onDry, light }: { active: boo
   const wasActive = useRef(false);
   const [status, setStatus] = useState<MapStatus>('loading');
   const [nowMs, setNowMs] = useState(0);
+  // The one thing about the light phase the sheets below care about.
+  const night = light === 'night';
 
   useEffect(() => {
     let cancelled = false;
@@ -180,6 +210,29 @@ export default function ForecastMapPanel({ active, onDry, light }: { active: boo
       if (painting.current !== next) next.remove();
     };
   }, [mapReady, light]);
+
+  // The living map, in two effects because the two halves have different
+  // lifetimes. Each is three pre-cut sheets in the plate's own extent, laid in
+  // Leaflet's overlay pane between the painting and the rain, and cross-faded
+  // by app/globals.css so one of them is always coming up as another goes
+  // down. See lib/forecast-map-art.ts for why they are faded and never moved.
+  //
+  // Water is built once and never rebuilt: the coastline does not move between
+  // dawn and dusk, so a light change must not tear it down and put it back.
+  // Only how much of it shows changes, and that is a stylesheet's job.
+  useEffect(() => sheetLayers(leaflet.current, map.current, mapReady, 'water', MAP_WATER_SHEETS), [mapReady]);
+
+  // The other half is exclusive by nature -- there is no sun to cast a shadow
+  // at three in the morning and no dark for the city's lights to show against
+  // at noon -- so the same three slots serve both, and at every hour exactly
+  // six sheets exist. Not building the other three is what keeps three images
+  // unfetched and three textures unrasterised for most of the day.
+  useEffect(
+    () => night
+      ? sheetLayers(leaflet.current, map.current, mapReady, 'lights', MAP_LIGHT_SHEETS)
+      : sheetLayers(leaflet.current, map.current, mapReady, 'shadow', MAP_SHADOW_SHEETS),
+    [mapReady, night],
+  );
 
   // What the map is showing, in degrees, or null while the container has no
   // size. Read only while the scene is active; see `view`.

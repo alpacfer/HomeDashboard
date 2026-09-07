@@ -32,6 +32,11 @@ for (const file of await list('app', /\.css$/)) {
 //     a cs-drift layer must express its background-size width as var(--tile),
 //     and a cs-rain/cs-snow layer's background-size height must equal the
 //     distance its keyframe travels. See docs/CLOCK.md.
+//     MASK-SIZE COUNTS TOO. The weather card's cloud layers are silhouettes
+//     worn over a flat gradient, so what repeats -- and therefore what has to
+//     agree with the travel -- is the mask, and the background-size beside it
+//     is a passenger. Reading only background-size would have watched the
+//     passenger.
 //     Structural, not by name. This rule used to know three animations
 //     (cs-drift, cs-rain, cs-snow) and one transform function (translate3d),
 //     which meant it was checking the examples rather than the invariant.
@@ -90,13 +95,19 @@ for (const file of sheets) {
   // Rule blocks are flat here: one selector, one { ... } with no nesting.
   for (const [, selector, body] of css.matchAll(/([^{}]+)\{([^{}]*)\}/g)) {
     if (selector.includes('@')) continue;
-    const size = /background-size\s*:\s*([^;]+)/.exec(body)?.[1]?.trim();
-    if (!size) continue;
+    // Every property that can carry the tile. The weather card's cloud layers
+    // loop on their MASK -- the background under them is a plain two-stop
+    // gradient and its size is only along for the ride -- so a check that read
+    // background-size alone would have watched the passenger and not the
+    // driver. Both are checked, and each against the same travel.
+    const sizes = [...body.matchAll(/(?:^|[;{\s])(?:-webkit-)?(?:background|mask)-size\s*:\s*([^;]+)/g)]
+      .map(match => match[1].trim());
+    if (!sizes.length) continue;
     const shorthand = /animation\s*:\s*([^;]+)/.exec(body)?.[1]
       ?? /animation-name\s*:\s*([^;]+)/.exec(body)?.[1];
     if (!shorthand) continue;
     const where = file + ' (' + selector.trim().split('\n').pop().trim() + ')';
-    const [sizeX, sizeY] = size.split(',')[0].trim().split(/\s+/);
+    const pairs = sizes.map(size => size.split(',')[0].trim().split(/\s+/));
     // One shorthand can name several animations, and the name is whichever
     // token is a keyframe -- not the first one, which may be a duration.
     for (const part of shorthand.split(',')) {
@@ -104,7 +115,8 @@ for (const file of sheets) {
       if (!name) continue;
       const moved = finalTravel(name);
       if (!moved) continue;
-      for (const [axis, travelled, tile, word] of [['x', moved.x, sizeX, 'width'], ['y', moved.y, sizeY, 'height']]) {
+      for (const [axis, travelled, tile, word] of pairs.flatMap(([sizeX, sizeY]) =>
+        [['x', moved.x, sizeX, 'width'], ['y', moved.y, sizeY, 'height']])) {
         if (!travelled || travelled === '0' || px(travelled) === 0) continue;
         if (tile === undefined) continue;
         const travelPx = px(travelled);
@@ -160,6 +172,55 @@ for (const generated of GENERATED_SHEETS) {
       fail(file, 'defines ' + name + ', which ' + generated + ' also defines. One of the two silently wins and'
         + ' the loser is invisible -- and an invalid value in a custom property takes the whole declaration that'
         + ' uses it with it. Rename one of them; the generated file owns the --arc- prefix.');
+    }
+  }
+}
+
+// 1d. Every drawing in public/scenes/ has to be a mask the browser will
+//     actually use, and both ways it can fail are SILENT: a mask-image that
+//     does not parse is treated as no mask at all, so the layer wearing it
+//     simply is not there, and one without preserveAspectRatio="none" is fitted
+//     inside its mask box rather than stretched to it, which opens a
+//     transparent gutter beside every tile. Both have shipped. Neither shows in
+//     a screenshot of a different weather, and there are eight weathers.
+//
+//     The XML rule that bit was `--` inside a comment, which is illegal and
+//     which prose about tile widths and tangents runs into constantly. The tag
+//     balance below is not a parser; it is the cheapest thing that would have
+//     caught a truncated file, and it needs no dependency.
+for (const file of await list('public/scenes', /\.svg$/)) {
+  const svg = await read(file);
+  for (const [comment] of svg.matchAll(/<!--[\s\S]*?-->/g)) {
+    if (comment.slice(4, -3).includes('--')) {
+      fail(file, 'has "--" inside an XML comment, which is not well formed. The browser then treats the'
+        + ' whole file as no mask at all and the layer wearing it silently disappears.');
+      break;
+    }
+  }
+  if (!/<svg[^>]*\bpreserveAspectRatio="none"/.test(svg)) {
+    fail(file, 'does not set preserveAspectRatio="none". A mask-image is a replaced element, so the default'
+      + ' fits the drawing inside the mask box instead of stretching it, and a transparent gutter opens'
+      + ' beside every tile. See public/scenes/README.md.');
+  }
+  const bare = svg.replace(/<!--[\s\S]*?-->/g, '');
+  const open = new Map();
+  for (const [, name, tail] of bare.matchAll(/<([a-zA-Z][\w:-]*)((?:"[^"]*"|'[^']*'|[^>"'])*)>/g)) {
+    if (!tail.trimEnd().endsWith('/')) open.set(name, (open.get(name) ?? 0) + 1);
+  }
+  for (const [, name] of bare.matchAll(/<\/([a-zA-Z][\w:-]*)\s*>/g)) open.set(name, (open.get(name) ?? 0) - 1);
+  const unclosed = [...open].filter(([, count]) => count !== 0);
+  if (unclosed.length) {
+    fail(file, 'has unbalanced tags: ' + unclosed.map(([name, count]) => name + ' ' + (count > 0 ? '+' : '') + count).join(', ')
+      + '. An unparseable mask is treated as no mask, and the layer wearing it vanishes without a word.');
+  }
+}
+
+// 1e. Every mask a stylesheet names has to exist, for the same reason: a 404
+//     mask-image is no mask, and the layer is gone rather than unstyled.
+for (const file of sheets) {
+  for (const [, url] of (await read(file)).matchAll(/url\('(\/scenes\/[^']+)'\)/g)) {
+    if (!existsSync(path.join(ROOT, 'public', url))) {
+      fail(file, 'masks with ' + url + ', which does not exist. The layer wearing it disappears silently.');
     }
   }
 }

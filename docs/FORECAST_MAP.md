@@ -32,6 +32,131 @@ the shared dashboard clock. The map loads only the current phase and retains
 the old plate until the next is ready; swapping plates does not rebuild the
 map, restart the rain, or request a forecast.
 
+## The map is alive, and none of it is drawn per frame
+
+Three effects sit between the painting and the rain, and each one exists because
+a still map of a place you live in looks like a photograph of it.
+
+**The water moves.** Three sheets whose alpha is the coastline itself — cut off
+the four plates by [assets/map-design/segment-map.py](../assets/map-design/segment-map.py) —
+carrying the swell up the sound, the painter's own wave marks, a sparse glitter
+and a fringe in the shallows. Each holds the same pattern a third of a
+wavelength further on.
+
+**The city scintillates after dark.** Three more sheets of the lights the night
+plate already paints, under three different district-scale mottles, with a
+different half of the two hundred town centres turned up in each. Whole districts come
+up and go down while single lights wink, which is what a city does seen from a
+plane. They exist only while `data-light` is `night`: the effect keys on that,
+so for sixteen hours a day three images are unfetched and three textures
+unrasterised.
+
+**The sun goes in and out by day.** Three sheets of soft cloud shadow — the same
+field rolled a third of the plate's width each time, so it crosses the county
+one way and the lap closes, at about a pixel a second. It is a sheet like the
+others rather than a gradient laid over the card: a layer over the card falls on
+the place names, the cottage and the forecast rain as well as on the land. There
+is no sun to cast a shadow at three in the morning and no dark for the lights to
+show against at noon, so the two share the same three slots and exactly six
+sheets exist at any hour.
+
+### Why all of it is opacity
+
+A `mask-image` over a moving child forces the browser to re-apply the mask,
+every frame, over about half a million pixels — on a stick whose most expensive
+job is already the precipitation canvas. Cross-fading pre-cut sheets rasterises
+each one once and then only fades it, which the compositor carries for nothing.
+The measured cadence of the precipitation canvas is unchanged with all six
+sheets on screen: 20 paints a second, gaps of 49.3 to 50.8 ms.
+
+Three sheets and not two, because two can only pulse. Two pieces of arithmetic
+make three work, and this shipped wrong on both of them before the numbers were
+checked.
+
+**The hat is two thirds of a cycle wide.** Three hats a *third* of a cycle wide,
+spaced a third apart, tile the cycle rather than overlapping it: the sum is a
+triangle wave from zero to the peak, and the water went fully off and back three
+times a lap. Measured ripple 2.003 of the mean. At two thirds wide, neighbours
+overlap and something is always coming up as something else goes down.
+
+**The ramp is exponential.** Three sheets stacked do not add, they composite, so
+a pair at half strength shows `1-(1-a/2)²`, not `a` — a linear ramp still dips
+about a fifth below its peak twice a cycle. Sampling `1-(1-a)^u` makes the two
+active sheets multiply out to exactly `1-a` at every moment. Measured ripple
+falls from 0.231 to 0.084, and to 0.009 at the `a=0.6` the stops are calibrated
+for. `tests/forecast-map-art.test.mjs` reads the real keyframes and simulates
+the stack, because nothing else in the repository can see a cross-fade at all:
+`npm run motion` samples draw cadence and element position and never reads
+opacity, and a screenshot cannot see a blink.
+
+### What it measures, on screen
+
+Frozen at a ladder of animation times covering exactly one cycle, at 1280 x 720
+with `?scene=map&weather=dry`:
+
+| | Measured |
+| --- | --- |
+| Whole-card luminance swing over a cycle | 0.12% of the mean by day, 0.64% by night — the map does not breathe |
+| Water travel | 3.086 CSS px a second, one wavelength (64.8 px) a cycle, monotone, no reversal |
+| Cloud shadow travel | 1.12 CSS px a second, one plate width a lap, the same way as the water |
+| Night lamp modulation, by brightness band | 0.119 at the dimmest, **0.313 at the brightest** — the town centres the eye goes to are the most modulated, and nothing clips |
+| Cloud drift wrap, 13 layer/weather combinations | mean and max difference 0.000 luminance units |
+| Precipitation canvas, with and against the sheets removed at runtime | 400 draws in 10 s either way, gap p90 50.1 ms either way |
+| Pixels under the frosted bar that the cross-fade changes | none: every sheet's alpha is zero for its first 50 rows, which puts the first lit row six pixels below the bar |
+
+Two things the cross-fade does that are worth knowing before they are
+re-diagnosed as faults. The composite of three phases is exact in level but not
+in contrast: the swell's amplitude falls to 61% of its peak at each handover and
+its instantaneous speed swings between 1.8 and 4.1 px a second about that 3.086
+mean, three times a cycle. Net travel is exactly one wavelength and the direction
+never reverses. A fourth sheet would lift the contrast floor to 71% at the cost
+of a fourth decode, and at these alphas it is not worth it.
+
+And the ramp is a fixed approximation. Its stops sample `1-(1-a)^u` at `a=0.6`,
+so the fit is exact only there; across the strengths the stylesheet declares the
+composited total swings between 0.006 and 0.079 of alpha, against 0.010 to 0.176
+for a linear ramp. At card scale that residual is under one RGB unit.
+
+### What it costs
+
+Nine sheets, 388 KB on the wire in all, of which a day loads 287 KB (water and
+shadow) and a night 314 KB (water and lights), once, on top of the 1.7 MB of
+plates. Six are live at any hour: decoded, six 751 x 524 RGBA bitmaps are about
+9.4 MB resident, and each is displayed at roughly 737 x 514 with an opacity
+animation, which normally earns its own compositor texture — about 9.1 MB of GPU
+memory. **That number has not been measured on the Fire TV**, only on a headless
+Chrome running software compositing, which is the wrong renderer for the
+question. If it turns out to be tight there, the three cloud-shadow sheets are
+the first thing to drop: they are the only effect of the three that is
+decoration rather than information.
+
+**What travels and what does not** is the other half. A cross-fade turns a
+difference between sheets into apparent movement and a sameness into stillness,
+so the waterline and the painter's own wave marks are identical in all three and
+composite to a constant. The first cut grew the shore fringe with the sheet
+index and the whole coastline pulsed. And three phases can carry a wave
+unambiguously only if the step is under half a wavelength, and loop only if
+three steps make a whole one — so there is exactly **one** travelling
+wavelength, stepped a third of itself per sheet. A second, shorter one read as
+travelling backwards.
+
+The sheets are `imageOverlay`s in the plate's own extent, so Leaflet
+georeferences them exactly as it georeferences the painting and a refit needs no
+code. Their `zIndex` is passed as an option, never written in CSS: Leaflet writes
+z-index inline and inline beats a rule. The band is 2 to 99. The plate sits at
+Leaflet's default of 1, and the precipitation canvas computes to **100**, not the
+400 its own rule asks for, because `leaflet.css`'s `.leaflet-map-pane canvas` is
+the more specific selector. Rain must stay above the water.
+
+**Nothing that moves may cross under the timeline**, which frosts its backdrop:
+a static backdrop is blurred once and a moving one is re-blurred every frame.
+The sheets are cut to nothing over the top 9.5% of the plate and the shadow
+layer starts below the bar.
+
+Under `prefers-reduced-motion` the cross-fades stop on their middle phase, so the
+water is still, the lights are on and a cloud shadow is holding where it was. While the scene is off
+screen every animation is paused: `visibility: hidden` does not stop one.
+
 ## Knowing when a new run exists without asking for it
 
 Open-Meteo serves a static metadata file per model, and it is what decides

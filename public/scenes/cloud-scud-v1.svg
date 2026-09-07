@@ -1,0 +1,36 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="180" height="110" viewBox="0 0 180 110" preserveAspectRatio="none">
+  <!-- Scud — pannus, the torn fragments that race along UNDER a rain deck,
+       lower and faster than anything above them. This layer is the whole reason
+       a wet sky reads as moving: the deck above crosses at 0.77 to 0.89 px a
+       second and nothing about it looks urgent, while these go at 1.96.
+       Every fragment is TORN, which means long, thin, unequal, tapered at both
+       ends and never a closed rounded shape — a rounded one reads as a small
+       cloud, which is the opposite of what scud is. They are strokes rather than
+       fills so the taper comes from the cap rather than from a path I would have
+       had to draw twice, and no two of them touch: overlapping translucent
+       shapes brighten where they meet and stop being separate rags.
+       The pair at x=-14 and x=166 is one rag drawn at both ends of the tile.
+       THE TOP HALF OF THE TILE IS EMPTY, and that is the drawing's job rather
+       than a mask-position's: scud hangs BELOW the deck it races under, and a
+       rag at deck height is just a second, thinner deck. -->
+  <defs>
+    <linearGradient id="sd-fade" gradientUnits="userSpaceOnUse" x1="0" y1="0" x2="0" y2="110">
+      <stop offset=".45" stop-color="#fff" stop-opacity=".7"/>
+      <stop offset=".72" stop-color="#fff" stop-opacity=".62"/>
+      <stop offset=".9" stop-color="#fff" stop-opacity=".34"/>
+      <stop offset="1" stop-color="#fff" stop-opacity="0"/>
+    </linearGradient>
+  </defs>
+  <g fill="none" stroke="url(#sd-fade)" stroke-linecap="round">
+    <path stroke-width="8"   d="M8 62q14 -5 30 -2t26 3"/>
+    <path stroke-width="5.5" d="M74 58q11 3 24 1t20 -3"/>
+    <path stroke-width="10"  d="M40 76q16 -6 34 -1t28 4"/>
+    <path stroke-width="6"   d="M116 72q13 4 26 0t18 -4"/>
+    <path stroke-width="7.5" d="M20 96q15 5 32 1t24 -4"/>
+    <path stroke-width="9"   d="M86 90q17 -5 34 1t26 5"/>
+    <path stroke-width="5"   d="M84 100q12 3 24 0t16 -3"/>
+    <path stroke-width="7"   d="M120 102q14 4 28 0t18 -4"/>
+    <path stroke-width="8.5" d="M166 82q15 -5 32 0t22 4"/>
+    <path stroke-width="8.5" d="M-14 82q15 -5 32 0t22 4"/>
+  </g>
+</svg>

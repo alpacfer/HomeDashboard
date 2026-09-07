@@ -257,32 +257,22 @@
 [data-weather='rain'] .shed-window-rain,
 [data-weather='sleet'] .shed-window-rain { background:radial-gradient(1px 6px at 7px 8px,rgba(209,227,231,.5),transparent); background-size:17px 20px; animation:shed-rain 2.5s linear infinite; }
 @keyframes shed-rain { from {transform:translateY(0);} to {transform:translateY(20px);} }
-/* The sky layers are clipped to the painted sky itself -- app/horizon.css,
-   traced off the four plates by npm run horizon. What was here before was an
-   ellipse centred on the middle of the card, which faded the cloud bank out in
-   a circle for no reason the picture could give and let the sun cross the tree
-   canopy on its way past. The clip is the reason the sun sets behind the
-   treeline and the clouds stop at it. */
-.ct-hillside .cs-bank {
-  background-image:linear-gradient(180deg,var(--cloud-lit),var(--cloud));
-  -webkit-mask-image:url('/scenes/cloud-bank-v1.svg'); mask-image:url('/scenes/cloud-bank-v1.svg');
-  -webkit-mask-size:var(--tile) var(--band); mask-size:var(--tile) var(--band);
-  -webkit-mask-repeat:repeat-x; mask-repeat:repeat-x;
-}
-.ct-hillside[data-weather='partly'] .cs-bank { opacity:.35; }
-.ct-hillside[data-weather='cloudy'] .cs-bank { opacity:.55; }
-.ct-hillside[data-weather='fog'] .cs-bank { -webkit-mask-image:none; mask-image:none; background-image:linear-gradient(180deg,transparent,rgba(180,197,202,.25) 50%,transparent); }
+/* The weather card's SKY IS NOT IN THIS FILE. It used to be, in part: a
+   .ct-hillside .cs-bank block and its partly / cloudy / fog overrides sat
+   here, and because this file is imported after app/clock-hillside.css they
+   quietly beat the rules of the same specificity written there -- so the
+   seven cloud lobes in clock-hillside.css were dead code and every attempt to
+   tune partly or cloudy in the file that looks like it owns them did nothing
+   on screen. All of it now lives in app/clock-hillside.css §2b-2c, which is
+   the file the card's scenery belongs to. Do not reintroduce a .ct-hillside
+   rule here; put it there.
+   What is still here is the clearing's own props and light, which are drawn
+   over the card rather than into its sky. */
 .exterior-camp { display:none; }
 [data-light='dusk'][data-weather='clear'] .exterior-camp,
 [data-light='dusk'][data-weather='partly'] .exterior-camp,
 [data-light='night'][data-weather='clear'] .exterior-camp,
 [data-light='night'][data-weather='partly'] .exterior-camp { display:inline; }
-.ct-hillside[data-weather='overcast'] .cs-sun,
-.ct-hillside[data-weather='rain'] .cs-sun,
-.ct-hillside[data-weather='sleet'] .cs-sun,
-.ct-hillside[data-weather='snow'] .cs-sun,
-.ct-hillside[data-weather='fog'] .cs-sun { opacity:0; }
-.ct-hillside[data-fall='none'] .cs-fall { display:none; }
 .shed-lamplight { animation:shed-light 8s ease-in-out infinite; }
 @keyframes shed-light { 0%,100% {opacity:.8;} 50% {opacity:1;} }
 @media (prefers-reduced-motion:reduce) {

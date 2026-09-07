@@ -10,11 +10,53 @@ with application text, props and the resident composed above them.
 
 All images are 700 pixels wide, displayed at about 350 pixels wide.
 Production conversion only resizes and encodes WebP at quality 85.
-The small [cloud mask](cloud-bank-v1.svg) is original vector artwork, with
-asymmetric wispy silhouettes. CSS sets its color, coverage and drift; sun,
-moon, stars, rain and snow are lightweight independent gradient layers.
+Sun, moon, stars, rain and snow are lightweight independent gradient layers.
 The layout fills a fixed rectangle, preserving the same relative landing
 surfaces across all phases.
+
+## The earlier cloud tiles
+
+Nine hand-drawn silhouettes from the earlier weather implementation, preserved
+as source artwork. The weather card now uses textured painted assets from
+[public/weather/](../weather/README.md). These SVGs are no longer requested by
+the card. The notes below describe their original construction.
+
+| Tile | Genus | What it is for |
+| --- | --- | --- |
+| [cirrus](cloud-cirrus-v1.svg) | cirrus uncinus | high ice: a dense head and a long combed tail, nine of them, no two the same |
+| [cirrostratus](cloud-cirrostratus-v1.svg) | cirrostratus | the milky veil a day ahead of the rain; a sheet, not clouds |
+| [cumulus](cloud-cumulus-v1.svg) | cumulus humilis | fair weather: separate puffs, wide sky, every base on one condensation level |
+| [stratocumulus](cloud-stratocumulus-v1.svg) | stratocumulus | the cumulus joined up into a deck, with two narrow tears |
+| [overcast](cloud-overcast-v1.svg) | stratus | the lid: no gaps, no edges, ten uneven scallops of sag |
+| [nimbostratus](cloud-nimbostratus-v1.svg) | nimbostratus | the raining lid, with eleven streaks of virga under it |
+| [snowdeck](cloud-snowdeck-v1.svg) | snow-bearing stratus | level and rounded rather than pendulous, and wadding instead of virga |
+| [scud](cloud-scud-v1.svg) | pannus | torn rags that race under a wet deck at rather more than twice its speed |
+| [fogbank](cloud-fogbank-v1.svg) | fog | nine mist filaments in a depth ramp; no silhouette at all |
+
+Three things are true of every one of them, and each replaced a version that
+was wrong:
+
+- **Both side edges match by arithmetic, not by eye**, and each tile says in
+  its own header which of three methods it used. A continuous underside is a
+  chain of relative quadratics whose widths sum to exactly the tile width and
+  whose rises sum to zero, so the outline is at the same height at x=0 and x=W;
+  a body that crosses the edge is drawn twice, the same path data translated by
+  exactly one tile; a filament drawn as a stroke uses a wave whose period
+  divides the tile, so it has the same height *and* the same tangent at both
+  ends. The first cut walked the edges back by hand and left a diagonal seam in
+  every deck.
+- **Anything meant to merge is one closed outline at full alpha.** Alpha
+  composites additively: two half-opaque lobes come out brighter where they
+  overlap, which turns a deck back into a heap of circles. A *thinner* place has
+  to be taken away with an SVG mask inside the file — painting a dark shape at
+  low opacity over the cloud makes it thicker, not thinner.
+- **Nothing has vertical structure.** The traced sky mask in `app/horizon.css`
+  puts the framing canopy in both top corners at every height, so a tile with a
+  cloud edge running up and down it is sliced into pieces that read as seams.
+
+`cloud-bank-v1.svg`, the two-blob mask these replaced, is retired.
+
+## The four lightings of each scene
 
 | Scene | Day | Dawn | Dusk | Night |
 | --- | --- | --- | --- | --- |

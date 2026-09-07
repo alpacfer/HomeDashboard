@@ -368,8 +368,103 @@ a:focus-visible { outline:2px solid var(--foreground); outline-offset:8px; }
 .leaflet-tooltip-right.forecast-map-label::before { border-right-color:#ad9b77; }
 .leaflet-tooltip-top.forecast-map-label::before { border-top-color:#ad9b77; }
 /* Portalled into Leaflet's overlay pane: above the painting, below markers.
-   Pixel size and origin follow the measured map container in the paint loop. */
+   Pixel size and origin follow the measured map container in the paint loop.
+   The z-index here is documentation, not the number in force: leaflet.css's
+   `.leaflet-map-pane canvas` is the more specific selector and computes this
+   element to 100. Everything the map lays under the rain must therefore stay
+   below 100, which is what lib/forecast-map-art.ts's band is for. */
 .forecast-map-overlay { position:absolute; top:0; left:0; z-index:400; pointer-events:none; }
+
+/* ── The living map ───────────────────────────────────────────────────────
+   Three things move on the painting, and none of them is drawn at runtime.
+
+   THE WATER, all day and all night. Three sheets whose alpha is the coastline
+   itself, segmented off the four plates by assets/map-design/segment-map.py.
+   The waterline and the painter's own wave marks are IDENTICAL in all three, so
+   they composite to a constant and sit still; only the swell and the glitter
+   differ, and the swell is one wavelength stepped a third of itself each sheet.
+
+   THE CITY'S LIGHTS, after dark only. The night plate already paints them; the
+   sheets are the same lamps under three different district-scale mottles, with
+   a different HALF of the two hundred town centres turned up in each. Whole
+   districts come up and go down while single lamps wink, which is what a city
+   does seen from a plane.
+
+   THE SUN GOING IN AND OUT, by day. Three sheets of soft cloud shadow, the same
+   field rolled a third of the plate's width each time, so it crosses the county
+   one way and the lap closes. It is a sheet like the others rather than a
+   gradient over the card, because a layer over the card falls on the place
+   names, the cottage and the forecast rain as well as on the land.
+
+   WHY IT IS ALL OPACITY. A mask over a moving child forces the browser to
+   re-apply the mask, every frame, over about half a million pixels — on a stick
+   whose most expensive job is already the precipitation canvas
+   (docs/DEPLOYMENT.md rule 4). Cross-fading pre-cut sheets rasterises each one
+   once and then only fades it, which the compositor carries for nothing.
+
+   THE RAMP IS EXPONENTIAL, AND THAT IS NOT A FLOURISH. Three sheets stacked do
+   not add; they composite, so a pair at half strength shows 1-(1-a/2)^2, not a.
+   A linear cross-fade therefore dips about a fifth below its peak twice a
+   cycle, and the map breathes. Sampling 1-(1-a)^u instead makes the two active
+   sheets multiply out to exactly (1-a) at every moment. The stops are sampled
+   from that curve at a=0.6, so the fit is exact in the middle of the declared
+   range and loosest at its ends; across every strength the stylesheet actually
+   declares, the composited total swings between 0.006 and 0.079 of alpha,
+   against 0.010 to 0.176 for a linear ramp. tests/forecast-map-art.test.mjs
+   reads these keyframes, these delays and these strengths and simulates the
+   stack, because nothing else here can see a cross-fade at all.
+   THE HAT IS TWO THIRDS OF A CYCLE WIDE, which is the other half of the same
+   arithmetic and the one this shipped without. Three hats a third of a cycle
+   wide, spaced a third apart, TILE the cycle rather than overlapping it: the
+   sum is a triangle wave from zero to the peak, so the water went fully off and
+   back every seven seconds. Two thirds wide is what makes neighbours overlap. */
+.forecast-map-sheet {
+  --sheet-a:.6;
+  opacity:0;
+  animation:map-sheet var(--sheet-ms,21s) linear infinite;
+}
+.forecast-map-sheet.is-water { --sheet-ms:21s; }
+.forecast-map-sheet.is-lights { --sheet-ms:12.6s; --sheet-a:.72; }
+/* Clouds cross a county slowly. Eleven minutes a lap puts them at about one
+   pixel a second, which is a third of a frame in the half-minute the scene is
+   on screen, and the dissolve under it is far too slow to see as one. */
+.forecast-map-sheet.is-shadow { --sheet-ms:660s; --sheet-a:.2; }
+.forecast-map-sheet.is-water.phase-2 { animation-delay:-7s; }
+.forecast-map-sheet.is-water.phase-3 { animation-delay:-14s; }
+.forecast-map-sheet.is-lights.phase-2 { animation-delay:-4.2s; }
+.forecast-map-sheet.is-lights.phase-3 { animation-delay:-8.4s; }
+.forecast-map-sheet.is-shadow.phase-2 { animation-delay:-220s; }
+.forecast-map-sheet.is-shadow.phase-3 { animation-delay:-440s; }
+@keyframes map-sheet {
+  0% { opacity:0; }
+  8.333% { opacity:calc(var(--sheet-a) * .341); }
+  16.667% { opacity:calc(var(--sheet-a) * .613); }
+  25% { opacity:calc(var(--sheet-a) * .828); }
+  33.333% { opacity:var(--sheet-a); }
+  41.667% { opacity:calc(var(--sheet-a) * .828); }
+  50% { opacity:calc(var(--sheet-a) * .613); }
+  58.333% { opacity:calc(var(--sheet-a) * .341); }
+  66.667% { opacity:0; }
+  100% { opacity:0; }
+}
+
+/* How much of it there is, by the hour. These are not taste: the same sheet
+   over four differently lit plates shifts the water by 0.06 of an RGB unit at
+   dawn and 0.16 at dusk, so equal numbers would have meant an invisible effect
+   at one hour and a wash at another. Measured on the plates; a mean shift of
+   about 0.10 everywhere, with the night allowed a little more because moonlight
+   on a dark sound is the one hour this is really for. */
+.forecast-map-frame[data-light='day'] .is-water { --sheet-a:.72; }
+.forecast-map-frame[data-light='dawn'] .is-water { --sheet-a:.84; }
+.forecast-map-frame[data-light='dusk'] .is-water { --sheet-a:.46; }
+.forecast-map-frame[data-light='night'] .is-water { --sheet-a:.4; }
+.forecast-map-frame[data-light='dawn'] .is-shadow,
+.forecast-map-frame[data-light='dusk'] .is-shadow { --sheet-a:.12; }
+
+/* The map is off screen for most of the rotation, and `visibility:hidden` does
+   not stop an animation. Nothing here should cost the stick a compositor tick
+   while the departures are up. */
+.forecast-map-scene:not(.is-active) .forecast-map-sheet { animation-play-state:paused; }
 /* The timeline is the caption: position on the track says how far into the
    forecast the frame is, which a sentence makes you read and then work out.
    It had one over it saying so — "Forecast journey" — which cost a whole line
@@ -412,6 +507,13 @@ a:focus-visible { outline:2px solid var(--foreground); outline-offset:8px; }
 /* The Tenant lives in app/tenant.css. */
 
 @media (prefers-reduced-motion:reduce) {
+  /* Still water, a city with its lights on, a cloud shadow that has stopped
+     where it was: the map keeps everything it says and simply holds. The middle
+     phase is the one left standing, because a cross-fade with no animation
+     would otherwise fall back to the layer's own `opacity:0` and take the water
+     off the map entirely. */
+  .forecast-map-sheet {animation:none; opacity:0;}
+  .forecast-map-sheet.phase-2 {opacity:var(--sheet-a);}
   .is-live .separator,.digit-in,.digit-out {animation:none;}
   .digit-out,.tenant {display:none;}
   .clock-block .clock,.clock-block .clock-digit,.clock-block .digit-face,.clock-block .separator,.clock-block .separator span,.clock-block .clock-date {animation:none;}

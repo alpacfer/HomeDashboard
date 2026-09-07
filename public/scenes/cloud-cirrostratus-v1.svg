@@ -1,0 +1,37 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="320" height="100" viewBox="0 0 320 100" preserveAspectRatio="none">
+  <!-- Cirrostratus: the veil that arrives a day before the rain does. It is not
+       a cloud with edges, it is the whole sky gone milky, so this is one
+       continuous sheet at low alpha with the fibre still combed into it — and
+       two thin places, because a veil is never even. The top edge runs off the
+       tile at full width; only the underside is drawn, which is where a veil
+       actually ends.  Nothing here crosses the vertical seam as a shape, so the
+       tile repeats by construction. -->
+  <defs>
+    <linearGradient id="cs-veil" gradientUnits="userSpaceOnUse" x1="0" y1="0" x2="0" y2="100">
+      <stop offset="0" stop-color="#fff" stop-opacity=".62"/>
+      <stop offset=".45" stop-color="#fff" stop-opacity=".55"/>
+      <stop offset=".78" stop-color="#fff" stop-opacity=".3"/>
+      <stop offset="1" stop-color="#fff" stop-opacity="0"/>
+    </linearGradient>
+    <linearGradient id="cs-fibre" gradientUnits="userSpaceOnUse" x1="0" y1="0" x2="0" y2="100">
+      <stop offset="0" stop-color="#fff" stop-opacity=".5"/>
+      <stop offset=".7" stop-color="#fff" stop-opacity=".34"/>
+      <stop offset="1" stop-color="#fff" stop-opacity="0"/>
+    </linearGradient>
+  </defs>
+  <!-- The sheet. Flat along the top, ragged along the bottom, and the same
+       height at x=0 and x=320. -->
+  <path fill="url(#cs-veil)"
+        d="M0 0h320v56q-20 12 -40 8q-20 -3 -40 -10q-20 16 -40 12q-20 -2 -40 -9q-20 11 -40 7q-20 -4 -40 -11q-20 14 -40 10q-20 -1 -40 -7Z"/>
+  <!-- The comb. Long, almost horizontal, all leaning the same way, and each one
+       tapering at both ends so it fades rather than stops. -->
+  <g fill="url(#cs-fibre)">
+    <path d="M4 18q40 3 80 9 38 6 72 14-38-4-76-10-40-6-76-13Z"/>
+    <path d="M118 10q36 2 71 7 33 5 63 12-34-3-68-8-36-5-66-11Z"/>
+    <path d="M42 34q34 2 68 7 31 4 59 11-32-3-64-7-34-5-63-11Z"/>
+    <path d="M170 28q30 2 60 6 28 4 53 10-29-2-58-6-30-4-55-10Z"/>
+    <path d="M0 44q28 2 56 5 26 3 49 8-27-2-53-5-28-3-52-8Z"/>
+    <path d="M212 44q24 1 48 5 22 3 42 8-23-2-46-5-24-3-44-8Z"/>
+    <path d="M84 50q26 1 52 5 24 3 45 8-25-2-49-5-26-3-48-8Z"/>
+  </g>
+</svg>

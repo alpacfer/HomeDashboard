@@ -48,3 +48,7 @@ next-env.d.ts
 
 # Upstream answers kept by npm run facts:generate. Rebuildable: --refresh.
 .cache/
+
+# The one Python tool, assets/map-design/segment-map.py
+__pycache__/
+*.pyc
