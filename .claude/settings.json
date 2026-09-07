@@ -5,17 +5,30 @@
       "Bash(npm ci)",
       "Bash(npm run build)",
       "Bash(npm run check)",
+      "Bash(npm run check:*)",
       "Bash(npm run docs:check)",
+      "Bash(npm run docs:check:*)",
       "Bash(npm run lint)",
+      "Bash(npm run lint:*)",
       "Bash(npm run typecheck)",
+      "Bash(npm run typecheck:*)",
       "Bash(npm test)",
       "Bash(npm test:*)",
+      "Bash(node --import tsx --test:*)",
       "Bash(node scripts/check-docs.mjs)",
+      "Bash(node scripts/check-docs.mjs:*)",
+      "Bash(node scripts/check-rules.mjs)",
+      "Bash(node scripts/check-rules.mjs:*)",
+      "Bash(npm run agents:sync)",
+      "Bash(node scripts/sync-agent-config.mjs)",
       "Bash(git status:*)",
       "Bash(git diff:*)",
       "Bash(git log:*)",
       "Bash(git show:*)",
-      "Bash(npm run check:rules)",
+      "Bash(git branch:*)",
+      "Bash(git check-ignore:*)",
+      "Bash(git rev-parse:*)",
+      "Bash(git ls-files:*)",
       "Bash(npm run shot:*)",
       "Bash(npm run probe)",
       "Bash(npm run probe:*)",
@@ -24,21 +37,43 @@
       "Bash(npm run states:*)",
       "Bash(npm run roll:*)",
       "Bash(npm run scene:*)",
+      "Bash(npm run horizon:*)",
       "Bash(npm audit:*)",
-      "Bash(node scripts/check-rules.mjs)",
       "Bash(node scripts/screenshot.mjs:*)",
       "Bash(node scripts/audit-ui.mjs:*)",
       "Bash(node scripts/measure-motion.mjs:*)",
+      "Bash(node scripts/clock-states.mjs:*)",
+      "Bash(node scripts/clock-roll.mjs:*)",
+      "Bash(node scripts/scene-guides.mjs:*)",
+      "Bash(node scripts/trace-horizon.mjs:*)",
       "Bash(node --import tsx scripts/probe-forecast.mjs:*)",
+      "Bash(node --import tsx scripts/probe-transit.mjs:*)",
       "Bash(npx eslint:*)",
-      "Bash(npx tsc:*)"
+      "Bash(npx tsc:*)",
+      "Bash(grep:*)",
+      "Bash(rg:*)",
+      "Bash(head:*)",
+      "Bash(tail:*)",
+      "Bash(cat:*)",
+      "Bash(sed -n:*)",
+      "Bash(ls:*)",
+      "Bash(wc:*)",
+      "Bash(find:*)",
+      "Bash(pgrep:*)"
     ],
     "deny": [
       "Read(./.env)",
       "Read(./.env.local)",
       "Read(./.env.*.local)",
+      "Bash(cat .env.local)",
+      "Bash(cat ./.env.local)",
       "Bash(npm publish:*)",
-      "Bash(git push --force:*)"
+      "Bash(git push --force:*)",
+      "Bash(git push -f:*)",
+      "Bash(curl https://api.open-meteo.com:*)",
+      "Bash(curl api.open-meteo.com:*)",
+      "Bash(curl -s https://api.open-meteo.com:*)",
+      "Bash(curl -sS https://api.open-meteo.com:*)"
     ]
   },
   "hooks": {
@@ -48,7 +83,17 @@
         "hooks": [
           {
             "type": "command",
-            "command": "node \"$CLAUDE_PROJECT_DIR/scripts/hooks/guard-generated.mjs\"",
+            "command": "node \"${CLAUDE_PROJECT_DIR:-.}/scripts/hooks/guard-generated.mjs\"",
+            "timeout": 10
+          }
+        ]
+      },
+      {
+        "matcher": "Bash",
+        "hooks": [
+          {
+            "type": "command",
+            "command": "node \"${CLAUDE_PROJECT_DIR:-.}/scripts/hooks/guard-bash.mjs\"",
             "timeout": 10
           }
         ]
@@ -60,7 +105,7 @@
         "hooks": [
           {
             "type": "command",
-            "command": "node \"$CLAUDE_PROJECT_DIR/scripts/hooks/lint-changed.mjs\" --file",
+            "command": "node \"${CLAUDE_PROJECT_DIR:-.}/scripts/hooks/lint-changed.mjs\" --file",
             "timeout": 60
           }
         ]
@@ -71,7 +116,7 @@
         "hooks": [
           {
             "type": "command",
-            "command": "node \"$CLAUDE_PROJECT_DIR/scripts/hooks/lint-changed.mjs\" --stop",
+            "command": "node \"${CLAUDE_PROJECT_DIR:-.}/scripts/hooks/lint-changed.mjs\" --stop",
             "timeout": 180
           }
         ]
