@@ -78,19 +78,37 @@ export function describeHour(hour: WeatherHour): Condition {
   return { kind, label: LABELS[kind], band, wet: band !== 'dry' };
 }
 
+// The two readings the hours and the days share, so the card and the week
+// strip cannot disagree about what counts as snow or as overcast. They were
+// written out in both files with the same five numbers.
+//
+// What falls, by the frozen share of the total: snow from seven tenths up,
+// sleet from a fifth, rain below that. Null when nothing is frozen enough to
+// change the kind, so the caller can grade the rain by amount.
+export function frozenKind(snow: number, precipitation: number): 'snow' | 'sleet' | null {
+  if (snow >= precipitation * 0.7) return 'snow';
+  if (snow >= precipitation * 0.2) return 'sleet';
+  return null;
+}
+
+// The sky, by cloud fraction.
+export function cloudKind(cloud: number): 'clear' | 'partly' | 'cloudy' | 'overcast' {
+  if (cloud < 0.2) return 'clear';
+  if (cloud < 0.55) return 'partly';
+  if (cloud < 0.85) return 'cloudy';
+  return 'overcast';
+}
+
 function conditionKind(hour: WeatherHour, band: Band): ConditionKind {
   if (band !== 'dry') {
-    if (hour.snow >= hour.precipitation * 0.7) return 'snow';
-    if (hour.snow >= hour.precipitation * 0.2) return 'sleet';
+    const frozen = frozenKind(hour.snow, hour.precipitation);
+    if (frozen) return frozen;
     if (band === 'heavy') return 'heavy-rain';
     if (band === 'trace') return 'drizzle';
     return 'rain';
   }
   if (hour.visibility < 1000) return 'fog';
-  if (hour.cloud < 0.2) return 'clear';
-  if (hour.cloud < 0.55) return 'partly';
-  if (hour.cloud < 0.85) return 'cloudy';
-  return 'overcast';
+  return cloudKind(hour.cloud);
 }
 
 // DMI carries no day/night flag, so the sun's elevation is computed instead of

@@ -1,7 +1,8 @@
 import { test } from 'node:test';
 import assert from 'node:assert/strict';
 import { readFileSync } from 'node:fs';
-import { frozenShare, metNorwayUrl, parseLocationForecast, SOURCES, validLocationForecast } from '../lib/forecast-sources.ts';
+import { frozenShare, metNorwayUrl, parseLocationForecast, validLocationForecast } from '../lib/met-norway.ts';
+import { SOURCES } from '../lib/forecast-sources.ts';
 import { DAILY_SOURCES, parseMetDaily, WEEK_DAYS } from '../lib/daily-forecast.ts';
 import { describeHour } from '../lib/weather.ts';
 import { buildRibbon } from '../lib/forecast-summary.ts';

@@ -11,9 +11,9 @@
 // probability is requested: the condition is derived here from the day's own
 // cloud cover and precipitation, so the icon and the amount cannot disagree.
 
-import { finite, frozenShare, metNorwayUrl, validLocationForecast, type MetEntry } from './forecast-sources';
+import { finite, frozenShare, metNorwayUrl, validLocationForecast, type MetEntry } from './met-norway';
 import { googleRoutePath, parseGoogleDays } from './google-weather';
-import { type ConditionKind } from './weather';
+import { cloudKind, frozenKind, type ConditionKind } from './weather';
 
 import { copenhagenDayKey } from './copenhagen';
 
@@ -81,16 +81,13 @@ export function weekdayLabel(date: string) {
   return weekdayFormat.format(new Date(Date.UTC(year, month - 1, day, 12)));
 }
 
+// The same thresholds as the hours (lib/weather.ts), so a day and its hours
+// cannot disagree about snow or cloud; only the amounts are daily totals.
 export function describeDay(day: { precipitation: number; snow: number; cloud: number }): ConditionKind {
   if (day.precipitation >= DAY_WET_MM) {
-    if (day.snow >= day.precipitation * 0.7) return 'snow';
-    if (day.snow >= day.precipitation * 0.2) return 'sleet';
-    return day.precipitation >= DAY_HEAVY_MM ? 'heavy-rain' : 'rain';
+    return frozenKind(day.snow, day.precipitation) ?? (day.precipitation >= DAY_HEAVY_MM ? 'heavy-rain' : 'rain');
   }
-  if (day.cloud < 0.2) return 'clear';
-  if (day.cloud < 0.55) return 'partly';
-  if (day.cloud < 0.85) return 'cloudy';
-  return 'overcast';
+  return cloudKind(day.cloud);
 }
 
 // Returns the seven days after today, or null when the payload is unusable.
