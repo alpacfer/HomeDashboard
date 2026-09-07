@@ -1,15 +1,13 @@
 'use client';
 
 import { useEffect, useMemo, useState } from 'react';
-import { FORECAST_LATITUDE, FORECAST_LONGITUDE } from '@/lib/weather';
-import { retryDelay } from '@/lib/forecast-refresh';
-import { DAILY_SOURCES, type DailySourceName, type ForecastDay } from '@/lib/daily-forecast';
+import { DAILY_SOURCES, type ForecastDay } from '@/lib/daily-forecast';
 import { debugFlags, pinnedNow } from '@/lib/debug-flags';
 import { demoDailyPayload } from '@/lib/weather-demo';
-import { describeLockout } from '@/lib/open-meteo-quota';
+import { restorableWeek, validStoredWeek, type StoredWeek } from '@/lib/stored-shapes';
 import { ICONS } from './condition-icons';
 import { readStored, writeStored } from './device-storage';
-import { openMeteoLockout, recordOpenMeteoRefusal } from './open-meteo-lockout';
+import { useProviderChain } from './use-provider-chain';
 
 // Daily aggregates change with each model run, a few times a day. Hourly is
 // already generous; anything faster spends Open-Meteo's quota on identical
@@ -22,15 +20,9 @@ const REQUEST_TIMEOUT_MS = 15_000;
 // The raw body is kept, not the parsed week: "today" is dropped at parse time
 // and moves at Copenhagen midnight, so the same body is re-read against the
 // clock. Stored with the name of the provider that answered, because only that
-// provider's parser can read it.
-const STORAGE_KEY = 'home-dashboard:forecast-week:v1';
-type StoredWeek = { source: DailySourceName; payload: unknown };
-function validStoredWeek(value: unknown): value is StoredWeek {
-  const stored = value as StoredWeek | null;
-  return !!stored && typeof stored === 'object' && DAILY_SOURCES.some(entry => entry.name === stored.source) && stored.payload !== undefined;
-}
-
-type Attempt = { payload: unknown } | { reason: string };
+// provider's parser can read it, and when, because a week from before an
+// outage is not restored (lib/stored-shapes.ts).
+const STORAGE_KEY = 'home-dashboard:forecast-week:v2';
 
 export default function WeekStrip({ now }: { now: Date | null }) {
   const [week, setWeek] = useState<StoredWeek | null>(null);
@@ -41,96 +33,42 @@ export default function WeekStrip({ now }: { now: Date | null }) {
     // empty. The body is Open-Meteo-shaped so its own parser reads it.
     const flags = debugFlags(window.location.search);
     const mode = flags.weather;
+    if (mode === 'none') return;
     if (mode !== 'live') {
-      if (mode === 'none') return;
       // Off the effect body, like the storage restore below, and built from the
       // pinned clock so the week starts on the day the digits show.
-      const placeholder = window.setTimeout(() => setWeek({ source: 'Open-Meteo', payload: demoDailyPayload(pinnedNow(flags.time, new Date())) }), 0);
+      const placeholder = window.setTimeout(() => {
+        const at = pinnedNow(flags.time, new Date());
+        setWeek({ source: 'Open-Meteo', payload: demoDailyPayload(at), updatedAt: at.getTime() });
+      }, 0);
       return () => window.clearTimeout(placeholder);
     }
-    let active = true;
-    let pending = false;
-    let failures = 0;
-    let retry = 0;
-    let inFlight: AbortController | null = null;
-
     const restore = window.setTimeout(() => {
-      const saved = readStored(STORAGE_KEY, validStoredWeek);
-      if (saved && active) setWeek(saved);
+      const saved = restorableWeek(readStored(STORAGE_KEY, validStoredWeek), Date.now());
+      if (saved) setWeek(saved);
     }, 0);
-
-    const attempt = async (entry: typeof DAILY_SOURCES[number]): Promise<Attempt> => {
-      // Open-Meteo is not asked while it has said the quota is spent. The
-      // lockout is shared with the weather card and the map, which pay from
-      // the same per-address quota. See components/open-meteo-lockout.ts.
-      if (entry.name === 'Open-Meteo') {
-        const lockout = openMeteoLockout();
-        if (lockout) return { reason: describeLockout(lockout) };
-      }
-      const controller = new AbortController();
-      inFlight = controller;
-      const timeout = window.setTimeout(() => controller.abort(), REQUEST_TIMEOUT_MS);
-      try {
-        const response = await fetch(entry.url(FORECAST_LATITUDE, FORECAST_LONGITUDE), { cache: entry.cache, signal: controller.signal });
-        if (!response.ok) {
-          if (entry.name === 'Open-Meteo') recordOpenMeteoRefusal(response.status, await response.text());
-          return { reason: 'HTTP ' + response.status };
-        }
-        const body: unknown = await response.json();
-        // Validation happens where "today" is known; an unusable body is a
-        // failed attempt, and the last good week stays on screen.
-        return entry.parse(body, new Date()) ? { payload: body } : { reason: 'unusable payload' };
-      } catch (error) {
-        return { reason: controller.signal.aborted ? 'timeout' : error instanceof Error ? error.message : 'network error' };
-      } finally {
-        window.clearTimeout(timeout);
-        if (inFlight === controller) inFlight = null;
-      }
-    };
-
-    const load = async () => {
-      if (pending || document.hidden) return;
-      pending = true;
-      window.clearTimeout(retry);
-      try {
-        const reasons: string[] = [];
-        for (const entry of DAILY_SOURCES) {
-          const result = await attempt(entry);
-          if (!active) return;
-          if ('reason' in result) {
-            reasons.push(entry.name + ': ' + result.reason);
-            continue;
-          }
-          failures = 0;
-          const stored: StoredWeek = { source: entry.name, payload: result.payload };
-          setWeek(stored);
-          writeStored(STORAGE_KEY, stored);
-          return;
-        }
-        if (!active) return;
-        console.warn('[week] every provider failed: ' + reasons.join('; '));
-        failures += 1;
-        retry = window.setTimeout(() => void load(), retryDelay(failures, RETRY_BASE_MS, RETRY_MAX_MS));
-      } finally {
-        pending = false;
-      }
-    };
-
-    void load();
-    const timer = window.setInterval(() => void load(), REFRESH_MS);
-    const resume = () => { if (!document.hidden) void load(); };
-    document.addEventListener('visibilitychange', resume);
-    window.addEventListener('online', resume);
-    return () => {
-      active = false;
-      inFlight?.abort();
-      window.clearTimeout(restore);
-      window.clearTimeout(retry);
-      window.clearInterval(timer);
-      document.removeEventListener('visibilitychange', resume);
-      window.removeEventListener('online', resume);
-    };
+    return () => window.clearTimeout(restore);
   }, []);
+
+  // Every provider is asked every hour; none is penalised, since an hourly
+  // refresh costs little and the week has fewer providers to fall back on.
+  useProviderChain({
+    tag: '[week]',
+    sources: DAILY_SOURCES,
+    refreshMs: REFRESH_MS,
+    timeoutMs: REQUEST_TIMEOUT_MS,
+    retryBaseMs: RETRY_BASE_MS,
+    retryMaxMs: RETRY_MAX_MS,
+    // Validation happens where "today" is known; an unusable body is a failed
+    // attempt, and the last good week stays on screen. The body itself is
+    // what is kept, so it can be re-read when the day changes.
+    parse: (body, entry) => (entry.parse(body, new Date()) ? body : null),
+    onAnswer: (payload, entry) => {
+      const stored: StoredWeek = { source: entry.name, payload, updatedAt: Date.now() };
+      setWeek(stored);
+      writeStored(STORAGE_KEY, stored);
+    },
+  });
 
   // Re-parsed once an hour, so the first day falls off when "today" moves on.
   const dayStamp = now ? Math.floor(now.getTime() / 3600000) : null;

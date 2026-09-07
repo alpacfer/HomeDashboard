@@ -1,16 +1,15 @@
 'use client';
 
 import { useEffect, useMemo, useState } from 'react';
-import { describeHour, FORECAST_LATITUDE, FORECAST_LONGITUDE, isDaylight, reviveWeatherHours, validWeatherHours, type WeatherHour } from '@/lib/weather';
-import { retryDelay } from '@/lib/forecast-refresh';
+import { describeHour, isDaylight, reviveWeatherHours, type WeatherHour } from '@/lib/weather';
 import { SOURCES, type SourceName } from '@/lib/forecast-sources';
 import { buildRibbon, rainHeadline, temperatureTrack } from '@/lib/forecast-summary';
 import { debugFlags, pinnedNow } from '@/lib/debug-flags';
 import { demoWeatherHours } from '@/lib/weather-demo';
-import { describeLockout } from '@/lib/open-meteo-quota';
+import { validStoredForecast, type StoredForecast } from '@/lib/stored-shapes';
 import type { Conditions } from '@/lib/clock-conditions';
 import { readStored, writeStored } from './device-storage';
-import { openMeteoLockout, recordOpenMeteoRefusal } from './open-meteo-lockout';
+import { useProviderChain } from './use-provider-chain';
 import WeatherWoodland from './weather-woodland';
 import { useSceneSky } from './use-scene-sky';
 
@@ -35,17 +34,6 @@ const REQUEST_TIMEOUT_MS = 15_000;
 // The last good forecast, so a reload shows it at once and its age decides the
 // styling rather than the reload pretending nothing is known.
 const STORAGE_KEY = 'home-dashboard:forecast-hours:v1';
-type StoredForecast = { hours: WeatherHour[]; source: SourceName; updatedAt: number };
-function validStoredForecast(value: unknown): value is StoredForecast {
-  const stored = value as StoredForecast | null;
-  return !!stored && typeof stored === 'object' && validWeatherHours(stored.hours)
-    && SOURCES.some(entry => entry.name === stored.source) && Number.isFinite(stored.updatedAt);
-}
-
-
-// A refusal may say when asking again becomes worthwhile; the provider is
-// penalised until then rather than for the standard hour.
-type Attempt = { hours: WeatherHour[] } | { reason: string; until?: number };
 
 export default function WeatherPanel({ now, onConditions }: { now: Date | null; onConditions?: (conditions: Conditions) => void }) {
   const [hours, setHours] = useState<WeatherHour[] | null>(null);
@@ -63,14 +51,14 @@ export default function WeatherPanel({ now, onConditions }: { now: Date | null; 
     // unless `?source=` names one on purpose to photograph its mark.
     const flags = debugFlags(window.location.search);
     const mode = flags.weather;
+    if (mode === 'none') return;
+    // Off the effect body in both branches, because setting state
+    // synchronously in an effect cascades a render.
     if (mode !== 'live') {
-      if (mode === 'none') return;
       // Built from the pinned clock, not the wall clock: the ribbon's window
       // has to line up with the digits under `?time=` rather than draw a
       // different hour of the day beside them, and the age that decides
       // whether the card is drawn muted is measured against that same clock.
-      // Off the effect body, like the storage restore below, because setting
-      // state synchronously in an effect cascades a render.
       const placeholder = window.setTimeout(() => {
         const at = pinnedNow(flags.time, new Date());
         setHours(demoWeatherHours(at));
@@ -79,116 +67,41 @@ export default function WeatherPanel({ now, onConditions }: { now: Date | null; 
       }, 0);
       return () => window.clearTimeout(placeholder);
     }
-    let active = true;
-    let pending = false;
-    let failures = 0;
-    let retry = 0;
-    // One controller per request, never one shared across them. An AbortSignal
-    // is permanently aborted once it fires, so a single request that outran the
-    // timeout would poison every later fetch on a display that never reloads.
-    let inFlight: AbortController | null = null;
-
-    // Each provider is tried in preference order until one answers with a
-    // forecast that parses. A provider that fails is skipped for a while so a
-    // long outage upstream does not cost a request every refresh.
-    const penalised = new Map<SourceName, number>();
-
     const restore = window.setTimeout(() => {
       const saved = readStored(STORAGE_KEY, validStoredForecast);
-      if (!saved || !active) return;
+      if (!saved) return;
       setHours(reviveWeatherHours(saved.hours));
       setSource(saved.source);
       setUpdatedAt(saved.updatedAt);
     }, 0);
-
-    const attempt = async (entry: typeof SOURCES[number]): Promise<Attempt> => {
-      // Open-Meteo is not asked while it has said the quota is spent: the
-      // answer would be the same 429, and the quota is shared with the week
-      // strip and the map, which recorded or will read the same lockout.
-      if (entry.name === 'Open-Meteo') {
-        const lockout = openMeteoLockout();
-        if (lockout) return { reason: describeLockout(lockout), until: lockout.until };
-      }
-      const controller = new AbortController();
-      inFlight = controller;
-      const timeout = window.setTimeout(() => controller.abort(), REQUEST_TIMEOUT_MS);
-      try {
-        const response = await fetch(entry.url(FORECAST_LATITUDE, FORECAST_LONGITUDE), { cache: entry.cache, signal: controller.signal });
-        if (!response.ok) {
-          const lockout = entry.name === 'Open-Meteo' ? recordOpenMeteoRefusal(response.status, await response.text()) : null;
-          return { reason: 'HTTP ' + response.status + (lockout ? ', ' + describeLockout(lockout) : ''), until: lockout?.until };
-        }
-        const parsed = entry.parse(await response.json());
-        return parsed?.length ? { hours: parsed } : { reason: 'unusable payload' };
-      } catch (error) {
-        return { reason: controller.signal.aborted ? 'timeout' : error instanceof Error ? error.message : 'network error' };
-      } finally {
-        window.clearTimeout(timeout);
-        if (inFlight === controller) inFlight = null;
-      }
-    };
-
-    const load = async () => {
-      if (pending || document.hidden) return;
-      pending = true;
-      window.clearTimeout(retry);
-      try {
-        const now = Date.now();
-        const ready = SOURCES.filter(entry => (penalised.get(entry.name) ?? 0) <= now);
-        // If every provider is still penalised, try them all rather than skip
-        // the refresh: a stale penalty must never outrank having no forecast.
-        const reasons: string[] = [];
-        for (const entry of ready.length ? ready : SOURCES) {
-          const result = await attempt(entry);
-          if (!active) return;
-          if ('reason' in result) {
-            reasons.push(entry.name + ': ' + result.reason);
-            penalised.set(entry.name, result.until ?? Date.now() + SOURCE_PENALTY_MS);
-            continue;
-          }
-          penalised.delete(entry.name);
-          failures = 0;
-          const updated = Date.now();
-          setHours(result.hours);
-          setSource(entry.name);
-          setUpdatedAt(updated);
-          setFailed(false);
-          writeStored(STORAGE_KEY, { hours: result.hours, source: entry.name, updatedAt: updated } satisfies StoredForecast);
-          return;
-        }
-        if (!active) return;
-        // The one line that explains a muted card when the display is
-        // inspected over remote debugging or by scripts/screenshot.mjs.
-        console.warn('[weather] every provider failed: ' + reasons.join('; '));
-        setFailed(true);
-        failures += 1;
-        retry = window.setTimeout(() => void load(), retryDelay(failures, RETRY_BASE_MS, RETRY_MAX_MS));
-      } finally {
-        pending = false;
-      }
-    };
-
-    void load();
-    const timer = window.setInterval(() => void load(), REFRESH_MS);
-    const resume = () => { if (!document.hidden) void load(); };
-    const key = (event: KeyboardEvent) => {
-      if ((event.target as HTMLElement)?.closest?.('a')) return;
-      if (event.key === 'Enter' || event.key === 'r' || event.key === 'R') void load();
-    };
-    document.addEventListener('visibilitychange', resume);
-    window.addEventListener('online', resume);
-    window.addEventListener('keydown', key);
-    return () => {
-      active = false;
-      inFlight?.abort();
-      window.clearTimeout(restore);
-      window.clearTimeout(retry);
-      window.clearInterval(timer);
-      document.removeEventListener('visibilitychange', resume);
-      window.removeEventListener('online', resume);
-      window.removeEventListener('keydown', key);
-    };
+    return () => window.clearTimeout(restore);
   }, []);
+
+  // Each provider is tried in preference order until one answers with a
+  // forecast that parses; the loop itself is shared with the week strip.
+  useProviderChain({
+    tag: '[weather]',
+    sources: SOURCES,
+    refreshMs: REFRESH_MS,
+    timeoutMs: REQUEST_TIMEOUT_MS,
+    retryBaseMs: RETRY_BASE_MS,
+    retryMaxMs: RETRY_MAX_MS,
+    penaltyMs: SOURCE_PENALTY_MS,
+    retryKeys: ['Enter', 'r', 'R'],
+    parse: (body, entry) => {
+      const parsed = entry.parse(body);
+      return parsed?.length ? parsed : null;
+    },
+    onAnswer: (answer, entry) => {
+      const updated = Date.now();
+      setHours(answer);
+      setSource(entry.name);
+      setUpdatedAt(updated);
+      setFailed(false);
+      writeStored(STORAGE_KEY, { hours: answer, source: entry.name, updatedAt: updated } satisfies StoredForecast);
+    },
+    onFailure: () => setFailed(true),
+  });
 
   // The ribbon only moves on the hour, so it is rebuilt on the hour rather than
   // on every clock tick from the parent.
@@ -265,7 +178,7 @@ export default function WeatherPanel({ now, onConditions }: { now: Date | null; 
           Its accessible label carries the full attribution. */}
       <div className="ribbon-heading">
         <h2>Next {view.ribbon.length} hours</h2>
-        {source && <a className="weather-credit" href={credit.href} target="_blank" rel="noreferrer" aria-label={credit.credit}>{credit.mark}</a>}
+        {source && <a className="weather-credit" href={credit.href} target="_blank" rel="noreferrer" tabIndex={-1} aria-label={credit.credit}>{credit.mark}</a>}
         <span>{Math.round(view.track.high)}° / {Math.round(view.track.low)}°</span>
       </div>
       <div className="temperature-track" aria-hidden="true">
