@@ -12,13 +12,15 @@ being read from across a room by someone who did not choose to look. That
 rules out most of what a calendar page contains:
 
 - **Modern, not ancient.** A twelfth-century church council is a fact, not an
-  anniversary. Over ninety per cent of the calendar is from 1900 or later and
-  most of it is post-war; `tests/daily-facts.test.mjs` fails if that slips.
-  Anything before `MODERN_ERA` is dropped by `parseEntries` rather than ranked
-  down, because ranking was not enough: the variety pass can promote a low
-  score over a better one of a kind the day already has, and 3 September —
-  which offers two good sport entries and little else — put San Marino's
-  founding in 301 on the wall that way.
+  anniversary. 92% of the calendar is from 1900 or later and most of it is
+  post-war; `tests/daily-facts.test.mjs` fails under 85%, which is the floor
+  rather than the target. Two mechanisms, at different strengths: `recencyScore`
+  ranks an old entry down, which is what keeps that council off a day with
+  anything better, and anything before `MODERN_ERA` — year 1000 — is dropped
+  outright by `parseEntries`. The drop exists because ranking alone was not
+  enough: the variety pass can promote a low score over a better one of a kind
+  the day already has, and 3 September — which offers two good sport entries
+  and little else — put San Marino's founding in 301 on the wall that way.
 - **Recent as well as historic.** The last five years are admitted rather than
   banned, so the calendar does not read as a museum that closed in 2020. They
   rank *below* the 1975–2000 sweet spot on purpose, and `chooseFacts` holds one
@@ -49,20 +51,27 @@ rules out most of what a calendar page contains:
 
 Each fact carries a category — tech, space, curious, culture, science, sport
 or world — which names why it is worth reading and picks the accent colour.
-Different kinds are preferred but not insisted on: only 136 of the 366
-calendar dates offer five distinct categories at all, so `chooseFacts` takes
-one of each kind it can reach and then fills the remaining slots on score.
-A day of nothing but space launches reads as a themed page, which is what the
-first pass exists to avoid; two facts sharing a kind is fine.
+Different kinds are preferred but not insisted on: only 81 of the 366 calendar
+dates offer five distinct categories at all, so `chooseFacts` takes one of each
+kind it can reach and then fills the remaining slots on score. A day of nothing
+but space launches reads as a themed page, which is what the first pass exists
+to avoid; two facts sharing a kind is fine.
 
 Five slots cost something worth knowing about: the last two are filled from
 further down the ranking, so they fall into the `world` catch-all far more
-often. The share by slot runs 17, 29, 44, 51 and 61 per cent, and the calendar
-as a whole moved from 31% `world` at three facts a day to 40% at five. The
-fourth and fifth facts of a day are simply the fourth and fifth most
-interesting things that happened on it. If that ever wants fixing, the lever is
-better terms in `CATEGORIES` — or another category — not a looser threshold in
+often. The share by slot runs 2, 9, 30, 40 and 46 per cent, and `world` is 26%
+of the calendar as a whole. The fourth and fifth facts of a day are simply the
+fourth and fifth most interesting things that happened on it. If that ever
+wants fixing, the lever is better terms in `CATEGORIES` — or another category —
+not a looser threshold in
 [tests/daily-facts.test.mjs](../tests/daily-facts.test.mjs).
+
+**Every figure in this document comes from `npm run facts:stats`**
+([scripts/facts-stats.mjs](../scripts/facts-stats.mjs)), which reads the
+generated files and prints the shares, the category counts, the distinct-kinds
+spread and the clip shapes. Run it after a regeneration and paste what it says
+rather than editing a number by hand: each of these had drifted a full
+regeneration out of date, in the one document nobody re-derives.
 
 The count lives twice, because nothing can share it: `DAILY_FACT_COUNT` in
 [lib/daily-facts.ts](../lib/daily-facts.ts) is what the browser validates
@@ -114,10 +123,10 @@ is most likely to fail there.
 | The clips | Wikimedia's CDN, fetched by the browser | ~10 MB if they were local |
 
 **No media is committed, and that is deliberate.** The temptation is to keep
-the eleven clips locally because ten megabytes is nothing next to four hundred,
+the sixteen clips locally because ten megabytes is nothing next to four hundred,
 and that was tried. It is the wrong call for four reasons:
 
-- It mitigates one risk for eleven files and leaves the identical risk on
+- It mitigates one risk for sixteen files and leaves the identical risk on
   1,830. A renamed Commons file breaks a picture exactly as it breaks a clip.
 - Binaries in git are forever, and content-addressed names accumulate: nothing
   prunes a clip a later refresh stopped using, so the repository grows on every
@@ -155,7 +164,7 @@ A refresh asks Wikimedia for about seventeen thousand things and almost none of
 them change between runs. Every answer is kept in `.cache/daily-facts`
 (gitignored), so a second run needs no network and finishes in seconds instead
 of eighteen minutes. That matters more than it sounds: before it existed,
-adding one field to the eighteen facts that carry a clip cost a full re-read of
+adding one field to the sixteen facts that carry a clip cost a full re-read of
 366 calendar pages, 5,884 articles and 4,814 file descriptions.
 
 The cache is used by default and **`npm run facts:generate -- --refresh`
@@ -250,7 +259,7 @@ because the credit links to the file page that carries the full field.
 
 ## Video
 
-About one date in seventeen shows a clip instead of a photograph. The rest keep
+About one date in twenty-three shows a clip instead of a photograph. The rest keep
 the picture they always had, and that is the intended ratio: a video is not an
 upgrade on a photograph.
 
@@ -304,7 +313,7 @@ three bands and is tested:
 | `boxy` | 0.95 to 1.5 | 1.5 / 1 | Academy 4:3 up to 3:2. The layout the panel was built around, and what a still always gets. |
 | `wide` | 1.5 and over | 1 / 1.32 | 16:9 and wider. Earns more of the row instead of losing its edges. |
 
-Of the eleven clips in the calendar today, six are `boxy` and five are `wide`.
+Of the sixteen clips in the calendar today, eleven are `boxy` and five are `wide`.
 **None is `tall`** — Wikimedia's archive footage is film and television, and
 neither was shot in portrait. The `tall` layout is built and tested but has no
 live example, so a refresh that finds one is the first time it will be seen on
