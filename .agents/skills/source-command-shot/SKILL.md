@@ -1,7 +1,13 @@
 ---
-description: Capture the running dashboard at 1280 x 720 with scripts/screenshot.mjs
-allowed-tools: Bash(npm run shot:*), Bash(node scripts/screenshot.mjs:*), Read, Grep, Glob, SendUserFile, mcp__Claude_Browser__preview_start, mcp__Claude_Browser__preview_list
+name: "source-command-shot"
+description: "Capture the running dashboard at 1280 x 720 with scripts/screenshot.mjs"
 ---
+
+# source-command-shot
+
+Use this skill when the user asks to run the migrated source command `shot`.
+
+## Command Template
 
 Capture the dashboard for visual confirmation. Arguments: $ARGUMENTS
 

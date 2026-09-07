@@ -6,7 +6,17 @@
         "hooks": [
           {
             "type": "command",
-            "command": "node \"$CLAUDE_PROJECT_DIR/scripts/hooks/guard-generated.mjs\"",
+            "command": "node \"${CLAUDE_PROJECT_DIR:-.}/scripts/hooks/guard-generated.mjs\"",
+            "timeout": 10
+          }
+        ]
+      },
+      {
+        "matcher": "Bash",
+        "hooks": [
+          {
+            "type": "command",
+            "command": "node \"${CLAUDE_PROJECT_DIR:-.}/scripts/hooks/guard-bash.mjs\"",
             "timeout": 10
           }
         ]
@@ -18,7 +28,7 @@
         "hooks": [
           {
             "type": "command",
-            "command": "node \"$CLAUDE_PROJECT_DIR/scripts/hooks/lint-changed.mjs\" --file",
+            "command": "node \"${CLAUDE_PROJECT_DIR:-.}/scripts/hooks/lint-changed.mjs\" --file",
             "timeout": 60
           }
         ]
@@ -29,7 +39,7 @@
         "hooks": [
           {
             "type": "command",
-            "command": "node \"$CLAUDE_PROJECT_DIR/scripts/hooks/lint-changed.mjs\" --stop",
+            "command": "node \"${CLAUDE_PROJECT_DIR:-.}/scripts/hooks/lint-changed.mjs\" --stop",
             "timeout": 180
           }
         ]
