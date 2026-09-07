@@ -15,11 +15,12 @@
 // measures itself and sits on "Loading forecast…" for ever. See
 // docs/DEBUGGING.md.
 
-import { spawn } from 'node:child_process';
-import { existsSync } from 'node:fs';
-import { mkdtemp, rm } from 'node:fs/promises';
+import { spawn, spawnSync } from 'node:child_process';
+import { existsSync, rmSync } from 'node:fs';
+import { mkdtemp, readdir, readFile, rm, writeFile } from 'node:fs/promises';
 import os from 'node:os';
 import path from 'node:path';
+import { fileURLToPath } from 'node:url';
 
 export function findChrome(explicit) {
   const candidates = [
@@ -44,9 +45,15 @@ export function findChrome(explicit) {
   throw new Error('No Chrome found. Install Google Chrome or pass --chrome <path> (or set CHROME_PATH).');
 }
 
+// Wait for the dev server, but not for one that is not there. A server that
+// is listening and still compiling gets the full minute; a port with nothing
+// on it is refused instantly, and waiting a minute to say so is the single
+// slowest way a capture can fail. Three seconds of refusal covers the gap
+// between `next dev` being launched and it binding the port.
 export async function waitForServer(url, timeoutMs = 60_000) {
   const origin = new URL(url).origin;
-  const deadline = Date.now() + timeoutMs;
+  const started = Date.now();
+  const deadline = started + timeoutMs;
   let lastError = 'no response';
   while (Date.now() < deadline) {
     try {
@@ -55,6 +62,11 @@ export async function waitForServer(url, timeoutMs = 60_000) {
       lastError = 'HTTP ' + response.status;
     } catch (error) {
       lastError = error instanceof Error ? error.message : String(error);
+      const code = error?.cause?.code ?? error?.code;
+      if (code === 'ECONNREFUSED' && Date.now() - started > 3_000) {
+        throw new Error('Nothing is listening at ' + origin + ' (connection refused). Start the dev server with the'
+          + ' preview tool (or npm run dev); if another session already runs one on another port, pass --url.');
+      }
     }
     await new Promise(resolve => setTimeout(resolve, 500));
   }
@@ -84,10 +96,18 @@ export class Devtools {
     const id = this.nextId++;
     this.socket.send(JSON.stringify({ id, method, params, sessionId }));
     return new Promise((resolve, reject) => {
-      this.pending.set(id, { resolve, reject });
-      setTimeout(() => {
+      // The timer is cleared when the answer arrives. It was not, once: every
+      // command left a live 30 s timer behind, Node's event loop waited for the
+      // last of them, and every tool here sat for half a minute after its
+      // work was done -- a 5 s screenshot took 35 s and a loop of five blew
+      // the Bash budget. Measured 7 Sep 2026.
+      const timer = setTimeout(() => {
         if (this.pending.has(id)) { this.pending.delete(id); reject(new Error(method + ' timed out')); }
       }, timeoutMs);
+      this.pending.set(id, {
+        resolve: value => { clearTimeout(timer); resolve(value); },
+        reject: error => { clearTimeout(timer); reject(error); },
+      });
     });
   }
   once(method, sessionId, timeoutMs = 30_000) {
@@ -106,13 +126,86 @@ export class Devtools {
   on(listener) { this.listeners.push(listener); }
 }
 
+const PROFILE_PREFIX = 'homedashboard-shot-';
+const OWNER_FILE = 'owner.json';
+
+const alive = pid => { try { process.kill(pid, 0); return true; } catch (error) { return error.code === 'EPERM'; } };
+
+// Every process on this machine whose command line names one of our profile
+// directories: the browser and all of its helpers. `ps` is the one portable
+// answer on Ubuntu and macOS, and this is best-effort, so a platform without
+// it just reports nothing.
+function chromeProcessesUsing(profile) {
+  try {
+    const listing = spawnSync('ps', ['-eo', 'pid=,args='], { encoding: 'utf8' });
+    if (listing.status !== 0) return [];
+    // The browser names the profile as --user-data-dir; its crash handler
+    // names a database inside it. Both are ours.
+    return listing.stdout.split('\n')
+      .filter(line => line.includes(profile + '/') || line.includes('--user-data-dir=' + profile))
+      .map(line => Number(line.trim().split(/\s+/)[0]))
+      .filter(Number.isInteger);
+  } catch { return []; }
+}
+
+// Remove what an earlier run left behind. A tool that is killed before its
+// `close()` runs -- a Bash timeout, a Ctrl-C, a session that ended -- leaves
+// its Chrome alive and its profile on disk, and Chrome does not die with its
+// parent. Found 79 such processes and 1.7 GB of profiles from one week of
+// sessions. Each run writes owner.json naming its own Node process; a profile
+// whose owner is gone is stale, and so is a legacy one with no owner file
+// whose Chrome has been orphaned to init. A profile whose owner is still
+// running belongs to another tool mid-capture and is left alone.
+export async function sweepStaleProfiles() {
+  const swept = [];
+  let entries;
+  try { entries = await readdir(os.tmpdir()); } catch { return swept; }
+  for (const name of entries) {
+    if (!name.startsWith(PROFILE_PREFIX)) continue;
+    const profile = path.join(os.tmpdir(), name);
+    try {
+      let stale = false;
+      try {
+        const owner = JSON.parse(await readFile(path.join(profile, OWNER_FILE), 'utf8'));
+        stale = !alive(owner.node);
+      } catch {
+        // No owner file: written by an earlier version of this helper. Stale
+        // if no Chrome uses it, or if the one that does has lost its parent.
+        const users = chromeProcessesUsing(profile);
+        if (!users.length) stale = true;
+        else {
+          const parents = spawnSync('ps', ['-o', 'ppid=', '-p', String(users[0])], { encoding: 'utf8' }).stdout.trim();
+          const parentArgs = parents ? spawnSync('ps', ['-o', 'args=', '-p', parents], { encoding: 'utf8' }).stdout : '';
+          stale = !/\bnode\b/.test(parentArgs);
+        }
+      }
+      if (!stale) continue;
+      for (const pid of chromeProcessesUsing(profile)) { try { process.kill(pid, 'SIGKILL'); } catch { /* already gone */ } }
+      await rm(profile, { recursive: true, force: true });
+      swept.push(name);
+    } catch { /* another sweep got there first, or a permission we do not have */ }
+  }
+  if (swept.length) console.log('swept ' + swept.length + ' stale Chrome profile(s) left by earlier runs');
+  return swept;
+}
+
 export async function launchChrome(binary, width, height) {
-  const profile = await mkdtemp(path.join(os.tmpdir(), 'homedashboard-shot-'));
+  await sweepStaleProfiles();
+  const profile = await mkdtemp(path.join(os.tmpdir(), PROFILE_PREFIX));
   const child = spawn(binary, [
     '--headless=new', '--remote-debugging-port=0', '--user-data-dir=' + profile,
     '--no-first-run', '--no-default-browser-check', '--disable-gpu', '--hide-scrollbars', '--mute-audio',
     '--force-device-scale-factor=1', '--window-size=' + width + ',' + height, 'about:blank',
   ], { stdio: ['ignore', 'ignore', 'pipe'] });
+  await writeFile(path.join(profile, OWNER_FILE), JSON.stringify({ node: process.pid, chrome: child.pid, started: new Date().toISOString() }));
+
+  // If this process is interrupted, take Chrome with it. A signal handler
+  // suppresses Node's default exit, so exit here with the conventional code.
+  const abandon = () => { try { child.kill('SIGKILL'); } catch { /* already gone */ } try { rmSync(profile, { recursive: true, force: true }); } catch { /* Chrome still writing; the next launch sweeps it */ } };
+  const onSignal = signal => { abandon(); process.exit(signal === 'SIGINT' ? 130 : 143); };
+  process.once('exit', abandon);
+  for (const signal of ['SIGINT', 'SIGTERM', 'SIGHUP']) process.once(signal, onSignal);
+
   const endpoint = await new Promise((resolve, reject) => {
     let buffer = '';
     const timer = setTimeout(() => reject(new Error('Chrome did not expose DevTools within 20 s:\n' + buffer)), 20_000);
@@ -126,17 +219,86 @@ export async function launchChrome(binary, width, height) {
   const socket = new WebSocket(endpoint);
   await new Promise((resolve, reject) => { socket.addEventListener('open', resolve, { once: true }); socket.addEventListener('error', () => reject(new Error('Could not connect to ' + endpoint)), { once: true }); });
   const close = async () => {
+    process.off('exit', abandon);
+    for (const signal of ['SIGINT', 'SIGTERM', 'SIGHUP']) process.off(signal, onSignal);
     try { socket.close(); } catch { /* already closed */ }
     // Wait for Chrome to exit before removing its profile: it is still
     // writing to it, and removing a directory under it fails with ENOTEMPTY.
-    const exited = new Promise(resolve => { child.once('exit', resolve); setTimeout(resolve, 5_000); });
+    let fallback;
+    const exited = new Promise(resolve => { child.once('exit', resolve); fallback = setTimeout(resolve, 5_000); });
     child.kill();
     await exited;
+    clearTimeout(fallback);
     for (let attempt = 0; attempt < 5; attempt += 1) {
       try { await rm(profile, { recursive: true, force: true }); break; } catch { await new Promise(resolve => setTimeout(resolve, 200)); }
     }
   };
   return { devtools: new Devtools(socket), close };
+}
+
+// When a selector matches nothing, say what is there. Twenty captures in one
+// week failed on a guessed class name -- .forecast-map-panel for
+// .forecast-map-frame, .transport-scene for .transport-panel -- and each wrong
+// guess cost a Chrome launch and a re-run. The page knows its own class names;
+// the nearest few are worth more than "nothing matches".
+export const SUGGEST_CLASSES = `(() => {
+  const names = new Set();
+  for (const element of document.querySelectorAll('*')) for (const name of element.classList) names.add(name);
+  return [...names];
+})()`;
+
+export function nearestSelectors(selector, classNames, limit = 5) {
+  const wanted = selector.replace(/^[.#]/, '').toLowerCase();
+  const tokens = wanted.split(/[-_]/).filter(Boolean);
+  const score = name => {
+    const lower = name.toLowerCase();
+    if (lower === wanted) return -10_000;
+    let shared = 0;
+    for (const token of tokens) if (lower.includes(token)) shared += token.length;
+    // Shared characters first, then the shorter of two equal candidates.
+    return -shared * 100 + lower.length + (lower.includes(wanted) || wanted.includes(lower) ? -50 : 0);
+  };
+  return classNames
+    .map(name => ({ name, score: score(name) }))
+    .filter(entry => entry.score < 0)
+    .sort((a, b) => a.score - b.score)
+    .slice(0, limit)
+    .map(entry => '.' + entry.name);
+}
+
+export async function noMatchMessage(evaluate, flag, selector) {
+  let hint = '';
+  try {
+    const near = nearestSelectors(selector, await evaluate(SUGGEST_CLASSES));
+    if (near.length) hint = ' Classes on the page that come close: ' + near.join(', ') + '.';
+  } catch { /* the page could not be asked; the plain message still helps */ }
+  return flag + ': nothing matches ' + selector + '.' + hint;
+}
+
+// A phase for one animation: `7%` of its own iteration, or `350ms` (or a bare
+// number) of active time. What --pose takes, after the selector and '='.
+export function parsePhase(text) {
+  const trimmed = String(text ?? '').trim();
+  const percent = /^(-?[\d.]+)%$/.exec(trimmed);
+  if (percent) return { percent: Number(percent[1]) };
+  const ms = /^(-?[\d.]+)(?:ms)?$/.exec(trimmed);
+  if (ms) return { ms: Number(ms[1]) };
+  const seconds = /^(-?[\d.]+)s$/.exec(trimmed);
+  if (seconds) return { ms: Number(seconds[1]) * 1000 };
+  throw new Error('a phase is a percentage of the animation (7%) or a time (350ms, 1.2s), got "' + text + '"');
+}
+
+// Split one argv into capture groups on a separator word. The first group is
+// the base; the others are read on top of a copy of it, so `--offline --time
+// 08:46 --then --sky night,clear --then --sky day,snow` is three captures that
+// share the first two flags.
+export function splitGroups(argv, separator = '--then') {
+  const groups = [[]];
+  for (const arg of argv) {
+    if (arg === separator) groups.push([]);
+    else groups[groups.length - 1].push(arg);
+  }
+  return groups;
 }
 
 // The debug flags that go into the page URL. Each script parses its own
@@ -181,6 +343,45 @@ export function takeUrlFlag(flag, options, value, arg = flag) {
     case '--sky': options.sky = value(); return true;
     default: return false;
   }
+}
+
+/**
+ * Handle one of the flags every browser tool takes for the browser itself,
+ * or report that it is not one. These seven arms were written out in five
+ * scripts; a tool that forgot one silently differed from the others.
+ *
+ *   --width, --height   viewport in CSS pixels
+ *   --wait <ms>         settle time after load
+ *   --reduced-motion    emulate prefers-reduced-motion: reduce
+ *   --console           print everything the page logged
+ *   --chrome <path>     the Chrome binary
+ *   --help, -h          print the script's header comment
+ *
+ * Call it beside takeUrlFlag from the default branch of a tool's own switch.
+ */
+export function takeBrowserFlag(flag, options, value) {
+  switch (flag) {
+    case '--width': options.width = Number(value()); return true;
+    case '--height': options.height = Number(value()); return true;
+    case '--wait': options.wait = Number(value()); return true;
+    case '--reduced-motion': options.reducedMotion = true; return true;
+    case '--console': options.console = true; return true;
+    case '--chrome': options.chrome = value(); return true;
+    case '--help': case '-h': options.help = true; return true;
+    default: return false;
+  }
+}
+
+// Every tool documents itself in the comment block at the top of its file,
+// and --help prints that block. One reader for all of them.
+export async function printHelp(metaUrl) {
+  const source = await readFile(fileURLToPath(metaUrl), 'utf8');
+  const header = [];
+  for (const line of source.split('\n')) {
+    if (!line.startsWith('//')) { if (header.length) break; continue; }
+    header.push(line.replace(/^\/\/ ?/, ''));
+  }
+  console.log(header.join('\n'));
 }
 
 export function pageUrl(options) {
