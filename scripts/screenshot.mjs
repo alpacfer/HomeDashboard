@@ -34,9 +34,9 @@
 //   --pet <spot>           Add ?pet=: hold the Tenant at weather, week,
 //                          transport, fact or map. Prefix with travel- to
 //                          replay its safe-spot route before it holds.
-//   --date <MM-DD>         Add ?date=: show that calendar date's facts instead
-//                          of today's. The only way to see a fact that is not
-//                          today's.
+//   --date <date>          Add ?date=: MM-DD shows that recurring calendar day;
+//                          YYYY-MM-DD also enables an exact-date editorial
+//                          edition, so it can be reviewed before going live.
 //   --transit-demo         Add ?transit=demo: the departure boards are drawn
 //                          from a synthetic answer holding a cancellation, a
 //                          long delay, an early departure, a platform change

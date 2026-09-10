@@ -78,8 +78,9 @@ http://localhost:3000/?scene=fact&fact=1
 ```
 
 `scene` is `transport`, `fact` or `map`. `fact` is the zero-based index of the
-daily fact and wraps. Add `&date=MM-DD` to show another calendar date's facts
-instead of today's, which is the only way to look at a fact that is not
+daily fact and wraps. Add `&date=MM-DD` to show another recurring calendar
+date's facts, or `&date=YYYY-MM-DD` to preview an exact-date editorial edition,
+instead of today's. This is the only way to look at a fact that is not
 today's. A pinned display shows a `Pinned` badge where the
 rotation ring normally is, schedules nothing, and never leaves the scene. An
 unrecognised value is ignored and the panel rotates as usual, so a mistyped

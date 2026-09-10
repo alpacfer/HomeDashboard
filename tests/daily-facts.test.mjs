@@ -1,7 +1,7 @@
 import { test } from 'node:test';
 import assert from 'node:assert/strict';
 import { readFile } from 'node:fs/promises';
-import { DAILY_FACT_CATEGORIES, DAILY_FACT_COUNT, dailyDateKey, mediaShape, pinnedDateKey, validDailyFacts, yearsAgo } from '../lib/daily-facts.ts';
+import { DAILY_FACT_CATEGORIES, DAILY_FACT_COUNT, dailyDateKey, dailyFactsRequest, mediaShape, pinnedDateKey, pinnedDayKey, validDailyFactEditionIndex, validDailyFacts, yearsAgo } from '../lib/daily-facts.ts';
 import { FACTS_PER_DAY } from '../scripts/lib/fact-selection.mjs';
 
 test('every calendar day stores five sourced, illustrated, modern facts', async () => {
@@ -96,6 +96,17 @@ test('a clip is laid out by its own shape, and a picture never is', () => {
   }
 });
 
+test('the 2026 September 11 edition is exact-dated, themed and motion-bounded', async () => {
+  const file = JSON.parse(await readFile(new URL('../public/facts/overrides/2026-09-11.json', import.meta.url), 'utf8'));
+  assert.equal(validDailyFacts(file, '09-11', '2026-09-11'), true);
+  assert.equal(validDailyFacts(file, '09-11'), false, 'an exact edition cannot masquerade as the recurring calendar');
+  assert.equal(file.kicker, '9/11 · 25 years');
+  assert.equal(file.facts.every(fact => fact.year === 2001 && fact.date === '09-11'), true);
+  assert.equal(file.facts.filter(fact => fact.video).length, 1, 'only one fact spends the video decoder');
+  assert.equal(file.facts.filter(fact => fact.animation).length, 2, 'the edition includes two GIF stories');
+  assert.equal(file.facts.every(fact => /September_11|Flight_(?:77|93)|WTC/.test(fact.source.url)), true);
+});
+
 test('the browser and the generator agree on how many facts a day holds', () => {
   // lib/ may not import from scripts/, and the generator runs as plain Node
   // and cannot import a .ts module, so the two constants are written twice.
@@ -146,6 +157,13 @@ test('a file with the wrong shape is refused before it reaches the screen', () =
   for (const bad of [{ src: 'http://insecure/a.webm' }, { poster: 'not a url' }]) {
     assert.equal(validDailyFacts(withClip(bad), '09-05'), false, JSON.stringify(bad));
   }
+  const animation = { src: 'https://upload.wikimedia.org/a.gif', width: 480, height: 320, credit: 'NARA',
+    source: 'https://commons.wikimedia.org/x', license: 'Public domain', licenseUrl: 'https://commons.wikimedia.org/x' };
+  const withAnimation = size => ({ ...file, facts: facts.map((f, i) => i ? f : { ...f, animation: { ...animation, ...size } }) });
+  assert.equal(validDailyFacts(withAnimation({}), '09-05'), true);
+  for (const bad of [{ src: 'http://insecure/a.gif' }, { width: 0 }, { height: 12.5 }, { credit: '' }]) {
+    assert.equal(validDailyFacts(withAnimation(bad), '09-05'), false, JSON.stringify(bad));
+  }
   assert.equal(validDailyFacts({ ...file, facts: file.facts.map(f => ({ ...f, category: 'denmark' })) }, '09-05'), false);
   assert.equal(validDailyFacts({ ...file, facts: file.facts.map(f => ({ ...f, year: 0 })) }, '09-05'), false);
   assert.equal(validDailyFacts({ ...file, facts: file.facts.map(f => ({ ...f, image: { ...f.image, src: 'http://a/b.jpg' } })) }, '09-05'), false);
@@ -154,9 +172,37 @@ test('a file with the wrong shape is refused before it reaches the screen', () =
 test('a pinned date reaches a fact that is not today\u2019s, and a bad one is ignored', () => {
   assert.equal(pinnedDateKey('?scene=fact&date=05-28'), '05-28');
   assert.equal(pinnedDateKey('?date=02-29'), '02-29', 'the calendar has all 366 days');
+  assert.equal(pinnedDateKey('?date=2026-09-11'), '09-11');
+  assert.equal(pinnedDayKey('?date=2026-09-11'), '2026-09-11');
+  assert.equal(pinnedDayKey('?date=2026-02-29'), null);
+  assert.equal(pinnedDateKey('?date=2026-02-29'), null);
   assert.equal(pinnedDateKey(''), null);
   assert.equal(pinnedDateKey('?date=13-01'), null);
   assert.equal(pinnedDateKey('?date=02-30'), null);
   assert.equal(pinnedDateKey('?date=1-1'), null);
   assert.equal(pinnedDateKey('?date=nonsense'), null);
+});
+
+test('an exact Copenhagen date tries its one-day edition before the recurring calendar', () => {
+  const now = new Date('2026-09-10T22:30:00Z');
+  const editions = new Set(['2026-09-11']);
+  assert.deepEqual(dailyFactsRequest(now, '', editions), {
+    identity: '2026-09-11|09-11',
+    date: '09-11',
+    candidates: [
+      { url: '/facts/overrides/2026-09-11.json', editionDate: '2026-09-11' },
+      { url: '/facts/daily/09-11.json' },
+    ],
+  });
+  assert.deepEqual(dailyFactsRequest(now, '?date=09-11').candidates, [{ url: '/facts/daily/09-11.json' }]);
+  assert.equal(dailyFactsRequest(now, '?date=2026-09-11', editions).candidates[0].editionDate, '2026-09-11');
+  assert.deepEqual(dailyFactsRequest(now, '', new Set()).candidates, [{ url: '/facts/daily/09-11.json' }]);
+});
+
+test('the edition index accepts only distinct real exact dates', () => {
+  assert.equal(validDailyFactEditionIndex({ editions: ['2026-09-11'] }), true);
+  assert.equal(validDailyFactEditionIndex({ editions: ['2026-09-11', '2026-09-11'] }), false);
+  assert.equal(validDailyFactEditionIndex({ editions: ['2026-02-29'] }), false);
+  assert.equal(validDailyFactEditionIndex({ editions: ['09-11'] }), false);
+  assert.equal(validDailyFactEditionIndex([]), false);
 });

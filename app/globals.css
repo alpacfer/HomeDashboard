@@ -329,6 +329,10 @@ a:focus-visible { outline:2px solid var(--foreground); outline-offset:8px; }
    drive the height once it does. */
 .fact-illustration.has-video video { aspect-ratio:var(--media-ar); height:auto; }
 .fact-illustration.has-video.media-tall video { max-height:52vh; width:auto; max-width:100%; margin-inline:auto; }
+/* GIF editions follow the same uncropped shape rule as clips. Reduced motion
+   never receives this class: it gets the ordinary 4:3 fallback still. */
+.fact-illustration.has-animation img { aspect-ratio:var(--media-ar); height:auto; object-fit:contain; }
+.fact-illustration.has-animation.media-tall img { max-height:52vh; width:auto; max-width:100%; margin-inline:auto; }
 /* The clip is decoration and carries no sound, so it needs no controls and
    must never be mistaken for something to press: there is no pointer on this
    wall. The poster covers the gap before the first frame paints. */

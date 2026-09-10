@@ -235,6 +235,30 @@ http://localhost:3000/?scene=fact&fact=0&date=05-28&weather=off
 `npm run shot -- --scene fact --fact 0 --date 05-28 --offline` captures the
 same thing.
 
+## One-day editions
+
+An exact-date edition can temporarily replace all five facts without changing
+the recurring `MM-DD` calendar. Put the reviewed payload in
+`public/facts/overrides/`, named for its exact date, and list that date in
+`public/facts/overrides/index.json`. The index avoids asking the origin for a
+file that does not exist on every ordinary day. On the named Copenhagen date,
+the browser tries the edition first and falls back to the ordinary daily file
+if the edition is missing, slow or invalid.
+
+An edition may set `kicker` to replace “On this day”, and a fact may add an
+`animation` object for a Wikimedia GIF. Every animated fact still requires its
+ordinary `image`, which is shown for reduced motion and after a load failure.
+Only the active fact receives moving media, and video teardown keeps the same
+decoder-release rules described below.
+
+Review an edition without changing the wall clock by using the full date:
+
+```text
+http://localhost:3000/?scene=fact&fact=0&date=2026-09-11&weather=off
+```
+
+The short `?date=09-11` form intentionally keeps showing the recurring file.
+
 ## Attribution
 
 Wikipedia text is used under CC BY-SA 4.0. Each picture keeps its own

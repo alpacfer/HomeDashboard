@@ -31,6 +31,19 @@ export type DailyFact = {
     license: string;
     licenseUrl: string;
   };
+  // Optional animated artwork. `image` remains the still fallback for reduced
+  // motion, a failed GIF, and browsers that decline to paint it. Keeping the
+  // attribution here means the credit always describes what is actually on
+  // screen rather than the fallback hidden behind it.
+  animation?: {
+    width: number;
+    height: number;
+    src: string;
+    credit: string;
+    source: string;
+    license: string;
+    licenseUrl: string;
+  };
   // Optional, and rare: about one date in six offers a freely licensed clip.
   // `src` is Wikimedia's 240p VP9 transcode and `fallback` its 360p H.264 one,
   // because whether Silk decodes VP9 is not established — see docs/DAILY_FACTS.md.
@@ -52,7 +65,15 @@ export type DailyFact = {
   };
 };
 
-export type DailyFactsFile = { date: string; dateLabel: string; facts: DailyFact[] };
+export type DailyFactsFile = {
+  date: string;
+  dateLabel: string;
+  facts: DailyFact[];
+  /** Exact Copenhagen date for a one-day editorial edition. */
+  editionDate?: string;
+  /** Replaces "On this day" while this edition is active. */
+  kicker?: string;
+};
 
 // The clock is passed in, never read here: the wall's `?time=` pin has to
 // reach the fact key, and a test has to be able to stand at midnight. The
@@ -81,11 +102,59 @@ export function yearsAgo(year: number, now: Date) {
 // See lib/debug-flags.ts and README.md.
 export function pinnedDateKey(search: string) {
   const value = new URLSearchParams(search).get('date');
-  if (!value || !/^\d{2}-\d{2}$/.test(value)) return null;
-  const [month, day] = value.split('-').map(Number);
+  if (!value) return null;
+  const exact = /^\d{4}-\d{2}-\d{2}$/.test(value);
+  if (exact && !pinnedDayKey(search)) return null;
+  const short = exact ? value.slice(5) : value;
+  if (!/^\d{2}-\d{2}$/.test(short)) return null;
+  const [month, day] = short.split('-').map(Number);
   if (month < 1 || month > 12 || day < 1 || day > 31) return null;
   if (day > new Date(Date.UTC(2024, month, 0)).getUTCDate()) return null;
+  return short;
+}
+
+/** An exact debug date, used to inspect a one-day edition before it goes live. */
+export function pinnedDayKey(search: string) {
+  const value = new URLSearchParams(search).get('date');
+  if (!validExactDate(value)) return null;
   return value;
+}
+
+function validExactDate(value: unknown): value is string {
+  if (typeof value !== 'string' || !/^\d{4}-\d{2}-\d{2}$/.test(value)) return false;
+  const parsed = new Date(`${value}T12:00:00Z`);
+  return Number.isFinite(parsed.getTime()) && parsed.toISOString().slice(0, 10) === value;
+}
+
+export function validDailyFactEditionIndex(value: unknown): value is { editions: string[] } {
+  if (!value || typeof value !== 'object') return false;
+  const editions = (value as { editions?: unknown }).editions;
+  return Array.isArray(editions) && new Set(editions).size === editions.length && editions.every(validExactDate);
+}
+
+export type DailyFactsCandidate = { url: string; editionDate?: string };
+
+/**
+ * Static files to try for the requested day, in editorial order.
+ *
+ * A real day (or an exact YYYY-MM-DD debug pin) first gets a one-off edition;
+ * a recurring MM-DD debug pin deliberately gets only the ordinary calendar.
+ */
+export function dailyFactsRequest(at: Date, search: string, editions: ReadonlySet<string> = new Set()): {
+  identity: string;
+  date: string;
+  candidates: DailyFactsCandidate[];
+} {
+  const pinnedDate = pinnedDateKey(search);
+  const pinnedDay = pinnedDayKey(search);
+  const currentDay = copenhagenDayKey(at);
+  const day = pinnedDay ?? currentDay;
+  const date = pinnedDate ?? day.slice(5);
+  const editionDate = pinnedDay ?? (pinnedDate ? null : currentDay);
+  const candidates: DailyFactsCandidate[] = [];
+  if (editionDate && editions.has(editionDate)) candidates.push({ url: `/facts/overrides/${editionDate}.json`, editionDate });
+  candidates.push({ url: `/facts/daily/${date}.json` });
+  return { identity: `${day}|${date}`, date, candidates };
 }
 
 function isCategory(value: unknown): value is DailyFactCategory {
@@ -113,10 +182,26 @@ function validVideo(value: unknown): boolean {
   );
 }
 
-export function validDailyFacts(value: unknown, expectedDate: string): value is DailyFactsFile {
+function validAnimation(value: unknown): boolean {
+  if (value === undefined) return true;
+  if (!value || typeof value !== 'object') return false;
+  const animation = value as Partial<NonNullable<DailyFact['animation']>>;
+  return Boolean(
+    animation.src?.startsWith('https://') &&
+    typeof animation.width === 'number' && Number.isInteger(animation.width) && animation.width > 0 &&
+    typeof animation.height === 'number' && Number.isInteger(animation.height) && animation.height > 0 &&
+    typeof animation.credit === 'string' && animation.credit.length > 0 &&
+    animation.source?.startsWith('https://') && animation.licenseUrl?.startsWith('https://') &&
+    typeof animation.license === 'string' && animation.license.length > 0,
+  );
+}
+
+export function validDailyFacts(value: unknown, expectedDate: string, expectedEditionDate?: string): value is DailyFactsFile {
   if (!value || typeof value !== 'object') return false;
   const file = value as Partial<DailyFactsFile>;
   if (file.date !== expectedDate || !Array.isArray(file.facts) || file.facts.length !== DAILY_FACT_COUNT) return false;
+  if (expectedEditionDate ? file.editionDate !== expectedEditionDate : file.editionDate !== undefined) return false;
+  if (file.kicker !== undefined && (typeof file.kicker !== 'string' || file.kicker.length === 0 || file.kicker.length > 32)) return false;
   if (new Set(file.facts.map(fact => fact?.id)).size !== DAILY_FACT_COUNT) return false;
   return file.facts.every(fact =>
     fact && fact.date === expectedDate && isCategory(fact.category) && typeof fact.categoryName === 'string' &&
@@ -124,7 +209,7 @@ export function validDailyFacts(value: unknown, expectedDate: string): value is 
     typeof fact.title === 'string' && fact.title.length > 0 && typeof fact.body === 'string' && fact.body.length > 0 &&
     fact.source?.url?.startsWith('https://') && fact.image?.src?.startsWith('https://') &&
     fact.image?.source?.startsWith('https://') && fact.image?.licenseUrl?.startsWith('https://') &&
-    validVideo(fact.video),
+    validAnimation(fact.animation) && validVideo(fact.video),
   );
 }
 

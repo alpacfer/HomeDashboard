@@ -2,7 +2,7 @@
 
 import { useCallback, useEffect, useRef, useState, type CSSProperties } from 'react';
 import TransportPanel from '@/components/transport-panel';
-import { DAILY_FACT_COUNT, dailyDateKey, mediaShape, pinnedDateKey, validDailyFacts, yearsAgo, type DailyFact } from '@/lib/daily-facts';
+import { DAILY_FACT_COUNT, dailyFactsRequest, mediaShape, validDailyFactEditionIndex, validDailyFacts, yearsAgo, type DailyFact } from '@/lib/daily-facts';
 import { initialRotation, nextRotation, pinnedRotation, resumeRotation } from '@/lib/panel-rotation';
 import { resumeFactIndex, validStoredFactCursor, type StoredFactCursor } from '@/lib/stored-shapes';
 import ForecastMapPanel from '@/components/forecast-map-panel';
@@ -51,14 +51,15 @@ function retainArtwork(keep: Iterable<string>) {
   }
 }
 
-function FactStill({ fact, onError }: { fact: DailyFact; onError: () => void }) {
+function FactStill({ fact, animated, onError }: { fact: DailyFact; animated: boolean; onError: () => void }) {
+  const artwork = animated && fact.animation ? fact.animation : fact.image;
   // Wikimedia thumbnails are loaded from the licensed source stored with each fact.
   // eslint-disable-next-line @next/next/no-img-element
   return <img
-    src={fact.image.src}
+    src={artwork.src}
     alt={fact.image.alt}
-    width="1000"
-    height="750"
+    width={'width' in artwork ? artwork.width : 1000}
+    height={'height' in artwork ? artwork.height : 750}
     decoding="async"
     loading="eager"
     fetchPriority="high"
@@ -153,11 +154,12 @@ function FactVideo({ fact, onFail }: { fact: DailyFact; onFail: () => void }) {
 // row's column widths depend on it: a clip that fell back to its still is a
 // 4:3 picture again, and sizing the row for the clip would leave the picture
 // floating in a column shaped for something else.
-function FactArtwork({ fact, playing, onVideoFail }: { fact: DailyFact; playing: boolean; onVideoFail: () => void }) {
+function FactArtwork({ fact, moving, onMotionFail }: { fact: DailyFact; moving: boolean; onMotionFail: () => void }) {
   const [failed, setFailed] = useState(false);
   if (failed) return <div className="fact-image-fallback" role="img" aria-label={fact.image.alt}>Picture temporarily unavailable</div>;
-  if (playing) return <FactVideo fact={fact} onFail={onVideoFail} />;
-  return <FactStill fact={fact} onError={() => setFailed(true)} />;
+  if (moving && fact.video) return <FactVideo fact={fact} onFail={onMotionFail} />;
+  if (moving && fact.animation) return <FactStill fact={fact} animated onError={onMotionFail} />;
+  return <FactStill fact={fact} animated={false} onError={() => setFailed(true)} />;
 }
 
 // A static JSON file off the same origin, so this is generous. It exists to
@@ -167,6 +169,7 @@ const REQUEST_TIMEOUT_MS = 15_000;
 function useDailyFacts(now: Date | null) {
   const [date, setDate] = useState('');
   const [facts, setFacts] = useState<DailyFact[]>([]);
+  const [kicker, setKicker] = useState<string>();
   const [status, setStatus] = useState<'loading' | 'ready' | 'error'>('loading');
   // The wall's clock, pinned or not, read through a ref so the minute timer
   // below is not rebuilt on every tick. `?time=` reaches the fact key this
@@ -176,49 +179,70 @@ function useDailyFacts(now: Date | null) {
 
   useEffect(() => {
     let active = true;
-    let loadedDate = '';
+    let loadedIdentity = '';
     let controller: AbortController | undefined;
-    const load = async (key: string) => {
+    let editionsPromise: Promise<ReadonlySet<string>> | undefined;
+    const editions = () => {
+      if (editionsPromise) return editionsPromise;
+      editionsPromise = (async () => {
+        const own = new AbortController();
+        controller = own;
+        const timeout = window.setTimeout(() => own.abort(), REQUEST_TIMEOUT_MS);
+        try {
+          const response = await fetch('/facts/overrides/index.json', { signal: own.signal, cache: 'no-cache' });
+          if (!response.ok) throw new Error(`HTTP ${response.status}`);
+          const value: unknown = await response.json();
+          if (!validDailyFactEditionIndex(value)) throw new Error('invalid edition index');
+          return new Set(value.editions);
+        } catch (error) {
+          const aborted = error instanceof DOMException && error.name === 'AbortError';
+          if (active) console.warn('[facts] edition index failed: ' + (aborted ? 'timeout' : error instanceof Error ? error.message : 'network error'));
+          return new Set<string>();
+        } finally {
+          window.clearTimeout(timeout);
+        }
+      })();
+      return editionsPromise;
+    };
+    const load = async (request: ReturnType<typeof dailyFactsRequest>) => {
       controller?.abort();
-      const own = new AbortController();
-      controller = own;
-      // Its own deadline, like every other fetch here. The minute timer below
-      // would eventually abort a hung request by starting the next one, but
-      // that leaves a socket and a 'loading' caption open for a whole minute
-      // on a display that is showing the caption to the room.
-      const timeout = window.setTimeout(() => own.abort(), REQUEST_TIMEOUT_MS);
       setStatus('loading');
-      try {
-        const response = await fetch(`/facts/daily/${key}.json`, { signal: own.signal, cache: 'no-cache' });
-        if (!response.ok) throw new Error('Daily facts unavailable');
-        const value: unknown = await response.json();
-        if (!validDailyFacts(value, key)) throw new Error('Invalid daily facts');
-        if (!active) return;
-        loadedDate = key;
-        setDate(key);
-        setFacts(value.facts);
-        setStatus('ready');
-      } catch (error) {
-        if (!active) return;
-        // Superseded by a newer request: that one reports. A request aborted
-        // by its own deadline is a failure like any other, and used to return
-        // here silently, leaving "Finding today's facts…" on the wall all day
-        // when the origin was slow.
-        const aborted = error instanceof DOMException && error.name === 'AbortError';
-        if (aborted && controller !== own) return;
-        console.warn('[facts] ' + key + ' failed: ' + (aborted ? 'timeout' : error instanceof Error ? error.message : 'network error'));
-        setStatus('error');
-      } finally {
-        window.clearTimeout(timeout);
+      for (const candidate of request.candidates) {
+        // Every attempt owns both its AbortController and its deadline. The
+        // ordinary daily file is a fallback, not a second fetch sharing a
+        // signal that a missing or slow edition may already have aborted.
+        const own = new AbortController();
+        controller = own;
+        const timeout = window.setTimeout(() => own.abort(), REQUEST_TIMEOUT_MS);
+        try {
+          const response = await fetch(candidate.url, { signal: own.signal, cache: 'no-cache' });
+          if (!response.ok) throw new Error(`HTTP ${response.status}`);
+          const value: unknown = await response.json();
+          if (!validDailyFacts(value, request.date, candidate.editionDate)) throw new Error('invalid daily facts');
+          if (!active) return;
+          loadedIdentity = request.identity;
+          setDate(request.date);
+          setFacts(value.facts);
+          setKicker(value.kicker);
+          setStatus('ready');
+          return;
+        } catch (error) {
+          if (!active) return;
+          const aborted = error instanceof DOMException && error.name === 'AbortError';
+          if (aborted && controller !== own) return;
+          console.warn('[facts] ' + candidate.url + ' failed: ' + (aborted ? 'timeout' : error instanceof Error ? error.message : 'network error'));
+        } finally {
+          window.clearTimeout(timeout);
+        }
       }
+      if (active) setStatus('error');
     };
-    const pinned = pinnedDateKey(window.location.search);
-    const refresh = () => {
-      const key = pinned ?? dailyDateKey(clock.current ?? new Date());
-      if (key !== loadedDate) void load(key);
+    const refresh = async () => {
+      const request = dailyFactsRequest(clock.current ?? new Date(), window.location.search, await editions());
+      if (active && request.identity !== loadedIdentity) void load(request);
     };
-    refresh();
-    const timer = window.setInterval(refresh, 60_000);
+    void refresh();
+    const timer = window.setInterval(() => { void refresh(); }, 60_000);
     return () => {
       active = false;
       controller?.abort();
@@ -226,11 +250,11 @@ function useDailyFacts(now: Date | null) {
     };
   }, []);
 
-  return { date, facts, status };
+  return { date, facts, kicker, status };
 }
 
 export default function RotatingPanel({ now, onSceneChange, mapLight }: { now: Date | null; onSceneChange?: (scene: Rotation['phase']) => void; mapLight: SkyLight | null }) {
-  const { date, facts, status } = useDailyFacts(now);
+  const { date, facts, kicker, status } = useDailyFacts(now);
   const [rotation, setRotation] = useState(() => initialRotation(0, DAILY_FACT_COUNT));
   const [wake, setWake] = useState(0);
   // Whether the forecast map has said it is not worth its thirty seconds,
@@ -299,8 +323,10 @@ export default function RotatingPanel({ now, onSceneChange, mapLight }: { now: D
   // of fact — which is a cascading render, and lint says so.
   const [refusedId, setRefusedId] = useState<string | null>(null);
   const stillOnly = useReducedMotion();
-  const playing = Boolean(fact?.video) && !stillOnly && refusedId !== fact?.id;
-  const shape = playing ? mediaShape(fact!.video!.width, fact!.video!.height) : null;
+  const moving = Boolean(fact?.video ?? fact?.animation) && !stillOnly && refusedId !== fact?.id;
+  const movingMedia = moving ? (fact?.video ?? fact?.animation) : undefined;
+  const shape = movingMedia ? mediaShape(movingMedia.width, movingMedia.height) : null;
+  const credit = moving ? (fact?.video ?? fact?.animation ?? fact?.image) : fact?.image;
 
   useEffect(() => {
     if (fact) preloadArtwork(fact.image.src, 'high');
@@ -336,7 +362,7 @@ export default function RotatingPanel({ now, onSceneChange, mapLight }: { now: D
     <ForecastMapPanel active={showingMap} onDry={onDry} light={mapLight} />
     {showingFact && fact && <article className={`panel-scene daily-fact-scene category-${fact.category} is-active`} key={fact.id} aria-label={`On this day in ${fact.year}: ${fact.title}`}>
       <header className="daily-fact-heading">
-        <span>On this day</span>
+        <span>{kicker ?? 'On this day'}</span>
         <strong>{fact.categoryName}</strong>
         <time dateTime={`2024-${fact.date}`}>{fact.dateLabel}</time>
       </header>
@@ -347,11 +373,11 @@ export default function RotatingPanel({ now, onSceneChange, mapLight }: { now: D
           <p className="fact-body">{fact.body}</p>
         </div>
         <figure
-          className={'fact-illustration' + (shape ? ' has-video media-' + shape : '')}
-          style={shape ? ({ '--media-ar': `${fact.video!.width} / ${fact.video!.height}` } as CSSProperties) : undefined}
+          className={'fact-illustration' + (shape ? ' media-' + shape : '') + (moving && fact.video ? ' has-video' : '') + (moving && fact.animation ? ' has-animation' : '')}
+          style={movingMedia ? ({ '--media-ar': `${movingMedia.width} / ${movingMedia.height}` } as CSSProperties) : undefined}
         >
-          <FactArtwork fact={fact} playing={playing} onVideoFail={() => setRefusedId(fact.id)} />
-          <figcaption><a href={fact.image.source} target="_blank" rel="noreferrer" tabIndex={-1}>{fact.image.credit}</a><span className="credit-dot"> · </span><a href={fact.image.licenseUrl} target="_blank" rel="noreferrer" tabIndex={-1}>{fact.image.license}</a></figcaption>
+          <FactArtwork fact={fact} moving={moving} onMotionFail={() => setRefusedId(fact.id)} />
+          {credit && <figcaption><a href={credit.source} target="_blank" rel="noreferrer" tabIndex={-1}>{credit.credit}</a><span className="credit-dot"> · </span><a href={credit.licenseUrl} target="_blank" rel="noreferrer" tabIndex={-1}>{credit.license}</a></figcaption>}
         </figure>
       </div>
       {/* The article title the old footer spelled out is the headline two lines
